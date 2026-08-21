@@ -19,6 +19,13 @@ This fetches the essay and writes the file with:
 It then prints the article text to stdout, which is what you write the summary
 from. To read the essay without writing a file, add `--text`.
 
+### If the article has nothing to condense
+
+Some columns are link roundups, preview galleries, or mailbags with no argument.
+Don't force a summary out of one — add its id to `content/skip.json` with a
+one-line reason, delete the scaffolded file, and move on. That's a real outcome,
+not a failure.
+
 ## 2. Write the summary
 
 ```jsonc

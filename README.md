@@ -74,6 +74,7 @@ content/
   manifest.json            generated; do not edit
   articles/<id>.json       one file per article, all languages inside
   priority.json            curated order for the queue's first tier — edit this
+  skip.json                articles not worth summarizing, with reasons — edit this
   todo.json                generated; the full queue, every article + status
   progress.json            generated; the done/total counts the site displays
 i18n/<lang>.json           UI strings, one file per language
@@ -128,6 +129,13 @@ Entries are grouped into tiers so "do the next one" means something:
 
 `npm run discover -- --next 5` prints the next few URLs, ready to paste into
 `npm run fetch`.
+
+Not every column is summarizable. Some are link roundups, some are card-by-card
+preview galleries, some are mailbags with no through-line — condensing those
+produces a page that says nothing. List those in `content/skip.json` with a
+reason and they stop surfacing at the top of the queue. They're excluded from
+the progress count too, so a handful of link indexes can't make the total
+permanently unreachable.
 
 Dates are exact where the slug carries one. Wizards dropped the date suffix from
 newer slugs, so those fall back to the sitemap's `lastmod` — an approximation,

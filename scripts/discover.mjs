@@ -45,6 +45,14 @@ function titleFromSlug(slug) {
     .join(' ');
 }
 
+let skip = { ids: {} };
+try {
+  skip = await readJSON(path.join(ROOT, 'content', 'skip.json'));
+} catch {
+  /* optional — without it nothing is skipped */
+}
+const skipped = new Map(Object.entries(skip.ids ?? {}));
+
 let priority = { ids: [] };
 try {
   priority = await readJSON(path.join(ROOT, 'content', 'priority.json'));
@@ -74,7 +82,8 @@ const items = urls.map(({ url, lastmod }) => {
     publishedAt: date,
     dateSource: publishedAt ? 'slug' : lastmod ? 'sitemap' : 'unknown',
     tier,
-    status: done.has(id) ? 'done' : 'pending',
+    status: done.has(id) ? 'done' : skipped.has(id) ? 'skipped' : 'pending',
+    skipReason: skipped.get(id) ?? undefined,
   };
 });
 
@@ -85,6 +94,7 @@ items.sort((a, b) => {
 });
 
 const pending = items.filter((i) => i.status === 'pending');
+const skippedCount = items.filter((i) => i.status === 'skipped').length;
 
 if (nextOnly) {
   for (const item of pending.slice(0, nextCount)) console.log(item.url);
@@ -97,7 +107,8 @@ await writeJSON(path.join(ROOT, 'content', 'todo.json'), {
   checkedAt: new Date().toISOString().slice(0, 10),
   column: COLUMN,
   total: items.length,
-  done: items.length - pending.length,
+  done: items.filter((i) => i.status === 'done').length,
+  skipped: skippedCount,
   pending: pending.length,
   tiers: {
     '1-curated': { total: byTier(1), pending: byTier(1, pending) },
@@ -110,14 +121,24 @@ await writeJSON(path.join(ROOT, 'content', 'todo.json'), {
 // A tiny public summary the site can show without parsing the whole queue.
 await writeJSON(path.join(ROOT, 'content', 'progress.json'), {
   checkedAt: new Date().toISOString().slice(0, 10),
-  total: items.length,
-  done: items.length - pending.length,
+  // Skipped articles are not summarizable, so they don't belong in the
+  // denominator the site shows — that would make the goal permanently
+  // unreachable by a handful of link indexes.
+  total: items.length - skippedCount,
+  done: items.filter((i) => i.status === 'done').length,
 });
 
-console.log(`total ${items.length} · done ${items.length - pending.length} · pending ${pending.length}`);
-console.log(`  tier 1 curated: ${byTier(1) - byTier(1, pending)}/${byTier(1)}`);
-console.log(`  tier 2 recent:  ${byTier(2) - byTier(2, pending)}/${byTier(2)}`);
-console.log(`  tier 3 archive: ${byTier(3) - byTier(3, pending)}/${byTier(3)}`);
+const doneCount = items.filter((i) => i.status === 'done').length;
+console.log(`total ${items.length} · done ${doneCount} · skipped ${skippedCount} · pending ${pending.length}`);
+const tierLine = (n, label) => {
+  const inTier = items.filter((i) => i.tier === n);
+  const d = inTier.filter((i) => i.status === 'done').length;
+  const s = inTier.filter((i) => i.status === 'skipped').length;
+  return `  tier ${n} ${label}: ${d}/${inTier.length - s} done${s ? ` (${s} skipped)` : ''}`;
+};
+console.log(tierLine(1, 'curated'));
+console.log(tierLine(2, 'recent '));
+console.log(tierLine(3, 'archive'));
 console.log('\nnext up:');
 for (const item of pending.slice(0, 8)) {
   console.log(`  [t${item.tier}] ${item.publishedAt ?? '??????????'}  ${item.title}`);
