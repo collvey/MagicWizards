@@ -1,0 +1,48 @@
+/**
+ * Content loading.
+ *
+ * The manifest is fetched once and holds only card-sized metadata, so the home
+ * and library views stay cheap as the archive grows. A full summary is fetched
+ * per article, on demand, and cached for the session.
+ */
+
+let manifestPromise = null;
+const articles = new Map();
+
+export function loadManifest() {
+  manifestPromise ??= fetch('./content/manifest.json').then((res) => {
+    if (!res.ok) throw new Error('Could not load the content manifest');
+    return res.json();
+  });
+  return manifestPromise;
+}
+
+export async function loadArticle(id) {
+  if (articles.has(id)) return articles.get(id);
+  const promise = fetch(`./content/articles/${encodeURIComponent(id)}.json`).then((res) => {
+    if (!res.ok) throw new Error(`No summary for ${id}`);
+    return res.json();
+  });
+  articles.set(id, promise);
+  try {
+    return await promise;
+  } catch (err) {
+    articles.delete(id); // let a transient failure be retried
+    throw err;
+  }
+}
+
+/**
+ * Builds the URL of the original article on magic.wizards.com for a given
+ * language. Wizards publishes the same slug under each locale it translates, so
+ * a language switch can carry the reader to the original in their own language
+ * where one exists.
+ */
+export function sourceUrl(article, wotcLocale) {
+  return `https://magic.wizards.com/${wotcLocale}/news/${article.column}/${article.slug}`;
+}
+
+/* Colour order follows Magic's own: white, blue, black, red, green.
+   Display names live in the i18n files under `color.<key>`. */
+export const MANA_KEYS = ['W', 'U', 'B', 'R', 'G'];
+export const MANA_VAR = { W: 'var(--w)', U: 'var(--u)', B: 'var(--b)', R: 'var(--r)', G: 'var(--g)' };

@@ -1,0 +1,81 @@
+name: Track new articles
+
+# Rosewater publishes weekly, on Mondays. This checks each Monday evening UTC
+# for Making Magic columns that have no summary here yet, refreshes
+# content/backlog.json, and opens (or updates) a single tracking issue.
+#
+# It deliberately stops at reporting. Writing a summary is the work this site
+# exists to do, and auto-generating one unreviewed would defeat the point.
+on:
+  schedule:
+    - cron: '0 18 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check magic.wizards.com for new columns
+        id: discover
+        run: |
+          node scripts/discover.mjs --limit 50 | tee /tmp/report.txt
+          {
+            echo 'report<<REPORT_EOF'
+            cat /tmp/report.txt
+            echo REPORT_EOF
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Commit the refreshed backlog
+        run: |
+          if git diff --quiet -- content/backlog.json; then
+            echo "backlog unchanged"
+            exit 0
+          fi
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add content/backlog.json
+          git commit -m 'chore: refresh Making Magic backlog'
+          git push
+
+      - name: Open or update the tracking issue
+        uses: actions/github-script@v7
+        env:
+          REPORT: ${{ steps.discover.outputs.report }}
+        with:
+          script: |
+            const title = 'Making Magic backlog';
+            const body = [
+              'Latest check of magic.wizards.com against the summaries in this repo.',
+              '',
+              '```',
+              process.env.REPORT.trim(),
+              '```',
+              '',
+              'To summarize one of these: `npm run fetch -- <url>`, fill in the',
+              'translations, then `npm run check`.',
+              '',
+              `_Updated by \`${context.workflow}\` on ${new Date().toISOString().slice(0, 10)}._`,
+            ].join('\n');
+
+            const { data: open } = await github.rest.issues.listForRepo({
+              ...context.repo,
+              state: 'open',
+              labels: 'backlog',
+            });
+            const existing = open.find((i) => i.title === title);
+
+            if (existing) {
+              await github.rest.issues.update({ ...context.repo, issue_number: existing.number, body });
+            } else {
+              await github.rest.issues.create({ ...context.repo, title, body, labels: ['backlog'] });
+            }

@@ -1,0 +1,215 @@
+{
+  "id": "twenty-years-twenty-lessons-part-1-2016-05-30",
+  "slug": "twenty-years-twenty-lessons-part-1-2016-05-30",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-05-30",
+  "series": { "id": "twenty-years-twenty-lessons", "order": 1, "total": 3 },
+  "tags": ["game-design", "gdc-talk", "design-lessons"],
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/twenty-years-twenty-lessons-part-1-2016-05-30",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-21",
+  "lessons": [
+    { "n": 1, "color": "G" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Twenty Years, Twenty Lessons—Part 1",
+      "dek": "Lessons 1–6 of the twenty design principles Rosewater drew from two decades on Magic.",
+      "overview": "Adapted from Rosewater's 2016 GDC talk, this first installment covers six lessons that all start from the same place: the player is a human being, with a human being's habits, perceptions, and emotions. Every lesson here asks the designer to work with that wiring rather than against it.",
+      "takeaway": "Design for the human you actually have, not the ideal player you wish you had. Behaviour, perception, and emotion are inputs to the design, not obstacles to it.",
+      "lessons": [
+        {
+          "title": "Fighting against human nature is a losing battle",
+          "rules": "Don't change your players to match your game; change your game to match your players. When testers keep doing the wrong thing, the instinct is the constant and your rule is the variable.",
+          "flavor": "Time Spiral playtesters kept attacking with suspended creatures the turn they arrived. Reminder text and visual cues both failed. The fix was to give every suspended creature haste and let them."
+        },
+        {
+          "title": "Aesthetics matter",
+          "rules": "Human perception seeks balance, symmetry, and pattern completion. When your components violate that, players feel ill at ease and start noticing what your game isn't instead of what it is.",
+          "flavor": "Griselbrand drew more complaints than every other card in Avacyn Restored combined. Not power, not flavour: a 7/7 that draws seven cards for seven life, costing eight mana."
+        },
+        {
+          "title": "Resonance is important",
+          "rules": "Players arrive carrying emotional equity in things they already love. Borrowing that equity buys you a depth of feeling you could never manufacture from scratch.",
+          "flavor": "Innistrad's Zombies land harder than any invented monster could, because decades of pop culture already did the emotional work for you."
+        },
+        {
+          "title": "Make use of piggybacking",
+          "rules": "Piggybacking is using preexisting knowledge to front-load game information so learning is easier. Pick components whose real-world associations already teach the mechanic.",
+          "flavor": "Playtesters loved \"Trojan Horse\" and disliked the identical card renamed Akroan Lion — the abilities only made sense once the horse came back. Plants vs. Zombies picks plants because plants don't move."
+        },
+        {
+          "title": "Don't confuse \"interesting\" with \"fun\"",
+          "rules": "Intellectual stimulation (that's interesting) and emotional stimulation (that's fun) are different products. People decide with emotion far more than with logic, so aim there.",
+          "flavor": "Odyssey's threshold made discarding your whole hand the correct play — a genuinely fascinating inversion of card advantage that players simply did not enjoy doing."
+        },
+        {
+          "title": "Understand what emotion your game is trying to evoke",
+          "rules": "Decide what feeling you want to come out, then judge every component by whether it contributes. Anything pushing the other way is actively harmful, however good it is alone.",
+          "flavor": "Innistrad was built to make players afraid: transform, morbid, and flashback all manufacture suspense. Rosewater's screenwriting teacher: \"No scene is worth a movie, no line is worth a scene.\""
+        }
+      ]
+    },
+    "es": {
+      "title": "Veinte años, veinte lecciones—Parte 1",
+      "dek": "Lecciones 1–6 de los veinte principios de diseño que Rosewater extrajo de dos décadas en Magic.",
+      "overview": "Adaptada de la charla de Rosewater en la GDC de 2016, esta primera entrega recoge seis lecciones que parten del mismo punto: el jugador es un ser humano, con los hábitos, las percepciones y las emociones propias de un ser humano. Todas piden al diseñador trabajar a favor de ese cableado, no en contra.",
+      "takeaway": "Diseña para el humano que realmente tienes, no para el jugador ideal que desearías tener. La conducta, la percepción y la emoción son insumos del diseño, no obstáculos.",
+      "lessons": [
+        {
+          "title": "Luchar contra la naturaleza humana es una batalla perdida",
+          "rules": "No cambies a tus jugadores para que encajen en tu juego; cambia tu juego para que encaje con tus jugadores. Si los testers insisten en hacer lo incorrecto, el instinto es la constante y tu regla es la variable.",
+          "flavor": "En Time Spiral, los testers atacaban con las criaturas suspendidas el turno en que llegaban. El texto recordatorio y las señales visuales fracasaron. La solución fue darles prisa a todas y dejarles hacerlo."
+        },
+        {
+          "title": "La estética importa",
+          "rules": "La percepción humana busca equilibrio, simetría y cierre de patrones. Cuando tus componentes lo violan, el jugador se siente incómodo y empieza a fijarse en lo que tu juego no es.",
+          "flavor": "Griselbrand generó más quejas que todas las demás cartas de Avacyn Restored juntas. No por su poder ni su ambientación: un 7/7 que roba siete cartas por siete vidas y cuesta ocho de maná."
+        },
+        {
+          "title": "La resonancia es importante",
+          "rules": "Los jugadores llegan con capital emocional invertido en cosas que ya aman. Tomar prestado ese capital te da una profundidad de sentimiento que jamás podrías fabricar desde cero.",
+          "flavor": "Los Zombis de Innistrad impactan más que cualquier monstruo inventado, porque décadas de cultura pop ya hicieron el trabajo emocional por ti."
+        },
+        {
+          "title": "Aprovecha el piggybacking",
+          "rules": "El piggybacking consiste en usar conocimiento previo para adelantar información del juego y facilitar el aprendizaje. Elige componentes cuyas asociaciones reales ya enseñen la mecánica.",
+          "flavor": "A los testers les encantaba Caballo de Troya y les disgustaba la misma carta rebautizada como León de Akros: las habilidades solo cobraron sentido cuando volvió el caballo. Plants vs. Zombies eligió plantas porque las plantas no se mueven."
+        },
+        {
+          "title": "No confundas interesante con divertido",
+          "rules": "La estimulación intelectual (qué interesante) y la emocional (qué divertido) son productos distintos. Las personas deciden mucho más con la emoción que con la lógica: apunta ahí.",
+          "flavor": "El umbral de Odyssey hacía que descartarte la mano entera fuera la jugada correcta: una inversión fascinante de la ventaja de cartas que a los jugadores sencillamente no les apetecía ejecutar."
+        },
+        {
+          "title": "Entiende qué emoción intenta evocar tu juego",
+          "rules": "Decide qué sensación quieres que salga y juzga cada componente por si contribuye. Lo que empuje en dirección contraria hace daño activo, por bueno que sea por separado.",
+          "flavor": "Innistrad se construyó para dar miedo: transformar, mórbido y flashback fabrican suspense. Su profesora de guión se lo dejó claro: Ninguna escena vale una película; ninguna línea vale una escena."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Vingt ans, vingt leçons—Partie 1",
+      "dek": "Leçons 1 à 6 des vingt principes de conception que Rosewater a tirés de deux décennies sur Magic.",
+      "overview": "Adaptée de la conférence GDC 2016 de Rosewater, cette première partie réunit six leçons qui partent toutes du même constat : le joueur est un être humain, avec les habitudes, les perceptions et les émotions d'un être humain. Chacune demande au concepteur de composer avec ce câblage plutôt que de le combattre.",
+      "takeaway": "Concevez pour l'humain que vous avez réellement, pas pour le joueur idéal que vous aimeriez avoir. Comportement, perception et émotion sont des matériaux de conception, pas des obstacles.",
+      "lessons": [
+        {
+          "title": "Lutter contre la nature humaine est un combat perdu d'avance",
+          "rules": "Ne changez pas vos joueurs pour qu'ils s'adaptent à votre jeu ; changez votre jeu pour qu'il s'adapte à eux. Quand les testeurs répètent la mauvaise action, l'instinct est la constante et votre règle la variable.",
+          "flavor": "Sur Time Spiral, les testeurs attaquaient avec les créatures suspendues dès leur arrivée. Texte de rappel et repères visuels ont échoué. La solution : donner la célérité à toutes et les laisser faire."
+        },
+        {
+          "title": "L'esthétique compte",
+          "rules": "La perception humaine cherche l'équilibre, la symétrie et la complétion des motifs. Quand vos composants les violent, le joueur est mal à l'aise et remarque ce que votre jeu n'est pas.",
+          "flavor": "Griselbrand a suscité plus de plaintes que toutes les autres cartes d'Avacyn ressuscitée réunies. Ni la puissance ni l'ambiance : une 7/7 qui pioche sept cartes pour sept points de vie et coûte huit manas."
+        },
+        {
+          "title": "La résonance est importante",
+          "rules": "Les joueurs arrivent avec un capital émotionnel investi dans ce qu'ils aiment déjà. Emprunter ce capital vous offre une profondeur de sentiment impossible à fabriquer de zéro.",
+          "flavor": "Les Zombies d'Innistrad frappent plus fort que n'importe quel monstre inventé : des décennies de culture populaire ont déjà fait le travail émotionnel à votre place."
+        },
+        {
+          "title": "Servez-vous du piggybacking",
+          "rules": "Le piggybacking consiste à utiliser les connaissances préexistantes pour précharger l'information et faciliter l'apprentissage. Choisissez des composants dont les associations réelles enseignent déjà la mécanique.",
+          "flavor": "Les testeurs adoraient Cheval de Troie et boudaient la même carte rebaptisée Lion akroen : les capacités n'ont retrouvé leur sens qu'avec le retour du cheval. Plants vs. Zombies a choisi les plantes parce qu'une plante ne se déplace pas."
+        },
+        {
+          "title": "Ne confondez pas intéressant et amusant",
+          "rules": "Stimulation intellectuelle (c'est intéressant) et stimulation émotionnelle (c'est amusant) sont deux produits distincts. On décide bien plus par l'émotion que par la logique : visez là.",
+          "flavor": "Le seuil d'Odyssey faisait de la défausse de toute sa main le jeu correct : une inversion fascinante de l'avantage de cartes que les joueurs n'avaient tout simplement aucune envie d'exécuter."
+        },
+        {
+          "title": "Sachez quelle émotion votre jeu cherche à provoquer",
+          "rules": "Décidez du sentiment que vous voulez obtenir, puis jugez chaque composant à sa contribution. Ce qui pousse dans l'autre sens nuit activement, aussi bon soit-il isolément.",
+          "flavor": "Innistrad a été bâti pour faire peur : transformation, morbide et flash-back fabriquent du suspense. Sa professeure de scénario : Aucune scène ne vaut un film, aucune réplique ne vaut une scène."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Vinte anos, vinte lições—Parte 1",
+      "dek": "Lições 1 a 6 dos vinte princípios de design que Rosewater extraiu de duas décadas em Magic.",
+      "overview": "Adaptada da palestra de Rosewater na GDC 2016, esta primeira parte reúne seis lições que partem do mesmo ponto: o jogador é um ser humano, com os hábitos, as percepções e as emoções de um ser humano. Todas pedem que o designer trabalhe a favor dessa fiação, não contra ela.",
+      "takeaway": "Projete para o humano que você realmente tem, não para o jogador ideal que gostaria de ter. Comportamento, percepção e emoção são insumos do design, não obstáculos.",
+      "lessons": [
+        {
+          "title": "Lutar contra a natureza humana é uma batalha perdida",
+          "rules": "Não mude seus jogadores para caberem no seu jogo; mude seu jogo para caber neles. Quando os testadores insistem em fazer a coisa errada, o instinto é a constante e a sua regra é a variável.",
+          "flavor": "Em Time Spiral, os testadores atacavam com as criaturas suspensas no turno em que chegavam. Texto lembrete e pistas visuais falharam. A solução foi dar ímpeto a todas e deixar que atacassem."
+        },
+        {
+          "title": "A estética importa",
+          "rules": "A percepção humana busca equilíbrio, simetria e fechamento de padrões. Quando seus componentes violam isso, o jogador fica desconfortável e passa a reparar no que o seu jogo não é.",
+          "flavor": "Griselbrand gerou mais reclamações que todas as outras cartas de Avacyn Restored somadas. Não foi poder nem ambientação: um 7/7 que compra sete cards por sete pontos de vida e custa oito de mana."
+        },
+        {
+          "title": "Ressonância é importante",
+          "rules": "Os jogadores chegam com capital emocional investido em coisas que já amam. Tomar esse capital emprestado dá a você uma profundidade de sentimento impossível de fabricar do zero.",
+          "flavor": "Os Zumbis de Innistrad impactam mais do que qualquer monstro inventado, porque décadas de cultura pop já fizeram o trabalho emocional por você."
+        },
+        {
+          "title": "Aproveite o piggybacking",
+          "rules": "Piggybacking é usar conhecimento prévio para adiantar a informação do jogo e facilitar o aprendizado. Escolha componentes cujas associações reais já ensinem a mecânica.",
+          "flavor": "Os testadores amavam Cavalo de Troia e rejeitavam a mesma carta rebatizada de Leão akroano: as habilidades só fizeram sentido quando o cavalo voltou. Plants vs. Zombies escolheu plantas porque plantas não se movem."
+        },
+        {
+          "title": "Não confunda interessante com divertido",
+          "rules": "Estímulo intelectual (que interessante) e estímulo emocional (que divertido) são produtos diferentes. As pessoas decidem muito mais pela emoção do que pela lógica: mire ali.",
+          "flavor": "O limiar de Odyssey fazia com que descartar a mão inteira fosse a jogada correta: uma inversão fascinante da vantagem de cards que os jogadores simplesmente não queriam executar."
+        },
+        {
+          "title": "Entenda que emoção o seu jogo quer evocar",
+          "rules": "Decida que sensação quer na saída e julgue cada componente por sua contribuição. O que empurra na direção oposta faz mal ativamente, por melhor que seja isolado.",
+          "flavor": "Innistrad foi construído para dar medo: transformar, mórbido e lampejo fabricam suspense. A professora de roteiro dele: Nenhuma cena vale um filme, nenhuma fala vale uma cena."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "二十年，二十堂课——第一部分",
+      "dek": "罗斯沃特从二十年万智牌设计中提炼出的二十条原则，本篇为第 1 至 6 条。",
+      "overview": "本文改编自罗斯沃特 2016 年 GDC 演讲。第一部分的六堂课都从同一个前提出发：玩家是人，带着人的习惯、知觉与情绪。每一条都要求设计师顺着这套线路来做设计，而不是与之对抗。",
+      "takeaway": "为你真正面对的那个人设计，而不是你希望拥有的理想玩家。行为、知觉和情绪是设计的原料，不是障碍。",
+      "lessons": [
+        {
+          "title": "与人性对抗是一场必输的仗",
+          "rules": "不要改变玩家来迁就你的游戏，要改变游戏来迁就玩家。当测试者反复做出错误的动作时，本能是常量，你的规则才是变量。",
+          "flavor": "Time Spiral测试中，玩家总想在延缓生物进场的当回合就攻击。提示文字和视觉引导都失败了。最终解法是给所有延缓生物加上迅捷，让他们如愿。"
+        },
+        {
+          "title": "美感很重要",
+          "rules": "人的知觉天然追求平衡、对称与图式完整。当你的组件违反这一点，玩家会感到别扭，并开始注意你的游戏不是什么。",
+          "flavor": "在 Avacyn Restored 中，格里塞布兰德收到的抱怨比其余所有牌加起来还多。不是强度问题，也不是背景问题：7/7、支付七点生命抽七张牌，却要八点法术力。"
+        },
+        {
+          "title": "共鸣很重要",
+          "rules": "玩家带着对既有事物的情感资产走进你的游戏。借用这笔资产，你能获得从零打造绝对做不出的情感厚度。",
+          "flavor": "Innistrad 的僵尸比任何原创怪物都更有冲击力，因为几十年的流行文化早已替你完成了情感铺垫。"
+        },
+        {
+          "title": "善用借力",
+          "rules": "借力指的是利用玩家已有的知识预先传递游戏信息，降低学习成本。挑选那些现实联想本身就能教会机制的组件。",
+          "flavor": "测试者喜欢特洛伊木马，却不喜欢改名为阿喀洛斯之狮的同一张牌——直到木马回归，异能才重新说得通。《植物大战僵尸》选植物，正因为植物不会移动。"
+        },
+        {
+          "title": "别把有意思当成好玩",
+          "rules": "智性刺激（真有意思）和情感刺激（真好玩）是两种不同的产品。人做决定时依赖情绪远多于逻辑，所以要瞄准情绪。",
+          "flavor": "Odyssey的门槛机制让弃掉整只手牌成为正确打法：这是对卡差理论一次极具启发的颠覆，但玩家就是不愿意这么做。"
+        },
+        {
+          "title": "想清楚你的游戏要唤起什么情绪",
+          "rules": "先确定你要的产出情绪，再逐一检验每个组件是否贡献于此。凡是把体验往反方向推的东西，无论单独看多优秀，都在实实在在地伤害游戏。",
+          "flavor": "Innistrad 就是为了吓人而造：转化、病态与返照都在制造悬念。他的编剧老师说过：没有一场戏值得一部电影，没有一句台词值得一场戏。"
+        }
+      ]
+    }
+  }
+}

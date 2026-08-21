@@ -1,0 +1,35 @@
+{
+  "languages": [
+    { "code": "en",      "label": "English",    "endonym": "English",  "dir": "ltr", "wotcLocale": "en",      "htmlLang": "en" },
+    { "code": "es",      "label": "Spanish",    "endonym": "Español",  "dir": "ltr", "wotcLocale": "es",      "htmlLang": "es" },
+    { "code": "fr",      "label": "French",     "endonym": "Français", "dir": "ltr", "wotcLocale": "fr",      "htmlLang": "fr" },
+    { "code": "pt-BR",   "label": "Portuguese", "endonym": "Português","dir": "ltr", "wotcLocale": "pt-BR",   "htmlLang": "pt-BR" },
+    { "code": "zh-Hans", "label": "Chinese",    "endonym": "中文",      "dir": "ltr", "wotcLocale": "zh-Hans", "htmlLang": "zh-Hans" }
+  ],
+  "defaultLanguage": "en",
+  "colors": {
+    "W": { "key": "W", "mana": "White" },
+    "U": { "key": "U", "mana": "Blue" },
+    "B": { "key": "B", "mana": "Black" },
+    "R": { "key": "R", "mana": "Red" },
+    "G": { "key": "G", "mana": "Green" }
+  },
+  "series": [
+    {
+      "id": "twenty-years-twenty-lessons",
+      "featured": true,
+      "articles": [
+        "twenty-years-twenty-lessons-part-1-2016-05-30",
+        "twenty-years-twenty-lessons-part-2-2016-06-06",
+        "twenty-years-twenty-lessons-part-3-2016-06-13"
+      ],
+      "translations": {
+        "en":      { "title": "Twenty Years, Twenty Lessons", "blurb": "Mark Rosewater's 2016 GDC talk, adapted into three columns: twenty design principles drawn from two decades of building Magic." },
+        "es":      { "title": "Veinte años, veinte lecciones", "blurb": "La charla de Mark Rosewater en la GDC de 2016, adaptada en tres columnas: veinte principios de diseño extraídos de dos décadas construyendo Magic." },
+        "fr":      { "title": "Vingt ans, vingt leçons", "blurb": "La conférence GDC 2016 de Mark Rosewater, adaptée en trois chroniques : vingt principes de conception tirés de deux décennies passées à construire Magic." },
+        "pt-BR":   { "title": "Vinte anos, vinte lições", "blurb": "A palestra de Mark Rosewater na GDC 2016, adaptada em três colunas: vinte princípios de design extraídos de duas décadas construindo Magic." },
+        "zh-Hans": { "title": "二十年，二十堂课", "blurb": "马克·罗斯沃特 2016 年 GDC 演讲的三篇专栏改写版：从二十年万智牌开发中提炼出的二十条设计原则。" }
+      }
+    }
+  ]
+}

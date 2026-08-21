@@ -1,0 +1,58 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a running deploy finish rather than cancelling it mid-publish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Content is validated before it can ship: a half-translated or
+      # mis-shaped article fails here rather than rendering as a blank page.
+      - name: Validate content
+        run: node scripts/validate.mjs
+
+      - name: Build manifest
+        run: node scripts/build-manifest.mjs
+
+      - name: Fail if the manifest was stale
+        run: |
+          if ! git diff --quiet -- content/manifest.json; then
+            echo "content/manifest.json is out of date. Run 'npm run check' and commit the result."
+            git --no-pager diff -- content/manifest.json
+            exit 1
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

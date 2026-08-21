@@ -1,0 +1,558 @@
+/* =========================================================================
+   Making Magic, Distilled
+
+   The visual system borrows from the object the column is about: a Magic card.
+   A summary's key point is set like a card's text box — the principle as rules
+   text, a hairline, then the example as flavour text, with a collector line
+   underneath. Each lesson carries a mana-colour spine indicating which slice of
+   the colour pie the principle belongs to.
+   ========================================================================= */
+
+:root {
+  /* Ground: the deep blue-black of a modern card border. */
+  --bg:        #111219;
+  --panel:     #191b24;
+  --raised:    #21242f;
+  --rule:      #2c2f3b;
+  --rule-soft: #23262f;
+
+  /* Ink: aged card stock, not pure white. */
+  --ink:    #eae5d8;
+  --ink-dim:#b9b3a5;
+  --muted:  #8f8b7f;
+  --faint:  #605c54;
+
+  /* Mana. These do semantic work: they mark which colour of Magic's colour pie
+     a lesson belongs to, and drive the filter. Tuned for contrast on --bg. */
+  --w: #f0dfb4;
+  --u: #5aa6dd;
+  --b: #a486bb;
+  --r: #e2604d;
+  --g: #5fae6e;
+
+  --accent: var(--ink);
+
+  --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-body: 'Source Serif 4', 'Noto Serif SC', Georgia, 'Songti SC', serif;
+  --font-util: 'IBM Plex Sans Condensed', 'Helvetica Neue', Arial, sans-serif;
+
+  --measure: 64ch;
+  --page: 1120px;
+  --radius: 3px;
+
+  --step--1: clamp(0.78rem, 0.76rem + 0.1vw, 0.84rem);
+  --step-0:  clamp(1rem, 0.97rem + 0.16vw, 1.09rem);
+  --step-1:  clamp(1.2rem, 1.12rem + 0.4vw, 1.45rem);
+  --step-2:  clamp(1.5rem, 1.32rem + 0.9vw, 2.05rem);
+  --step-3:  clamp(2rem, 1.6rem + 2vw, 3.1rem);
+  --step-4:  clamp(2.6rem, 1.7rem + 4.4vw, 5.2rem);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  line-height: 1.62;
+  font-synthesis-weight: none;
+  /* A faint vertical wash, like the gradient on a card's border. */
+  background-image: radial-gradient(120% 60% at 50% 0%, #1a1c27 0%, var(--bg) 62%);
+  background-attachment: fixed;
+}
+
+:lang(zh-Hans) body, body[data-lang='zh-Hans'] { line-height: 1.78; }
+
+a { color: inherit; text-underline-offset: 0.22em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-color: var(--muted); }
+
+:focus-visible {
+  outline: 2px solid var(--u);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+img { max-width: 100%; }
+
+.wrap { width: min(100% - 2.5rem, var(--page)); margin-inline: auto; }
+@media (max-width: 640px) { .wrap { width: calc(100% - 1.75rem); } }
+
+/* Off-screen text that never affects layout. The old left:-9999px trick widens
+   the document and breaks page centring, so clip it to nothing instead. */
+.sr-only, .skip:not(:focus) {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.skip:focus {
+  position: fixed; left: 0.75rem; top: 0.75rem; z-index: 100;
+  background: var(--raised); color: var(--ink);
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  font-family: var(--font-util);
+}
+
+/* --- Utility / collector-line type ------------------------------------- */
+
+.util {
+  font-family: var(--font-util);
+  font-size: var(--step--1);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.util-lower { text-transform: none; letter-spacing: 0.02em; }
+
+/* --- Top rail ----------------------------------------------------------- */
+
+.rail {
+  position: sticky; top: 0; z-index: 40;
+  background: rgba(17, 18, 25, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--rule);
+}
+.rail-in {
+  display: flex; align-items: center; gap: 1.5rem;
+  min-height: 3.4rem;
+}
+.brand {
+  font-family: var(--font-util);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: var(--step--1);
+  text-decoration: none;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.brand span { color: var(--muted); }
+.rail nav { display: flex; gap: 1.25rem; margin-inline-start: auto; }
+.rail nav a {
+  font-family: var(--font-util);
+  font-size: var(--step--1);
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  text-decoration: none;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid transparent;
+}
+.rail nav a:hover { color: var(--ink); }
+.rail nav a[aria-current='page'] { color: var(--ink); border-bottom-color: var(--ink); }
+
+/* --- Language picker ---------------------------------------------------- */
+
+.lang { position: relative; }
+.lang-btn {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: transparent; color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.35rem 0.7rem;
+  font-family: var(--font-util);
+  font-size: var(--step--1);
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+.lang-btn:hover { border-color: var(--muted); }
+.lang-btn::after {
+  content: ''; width: 0.4em; height: 0.4em;
+  border-right: 1.5px solid var(--muted); border-bottom: 1.5px solid var(--muted);
+  transform: rotate(45deg) translateY(-0.1em);
+}
+.lang-menu {
+  position: absolute; inset-inline-end: 0; top: calc(100% + 0.4rem);
+  min-width: 12rem;
+  background: var(--raised);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.5);
+  padding: 0.3rem;
+  margin: 0; list-style: none;
+  display: none;
+}
+.lang-menu[data-open='true'] { display: block; }
+.lang-menu button {
+  display: flex; width: 100%; align-items: baseline; gap: 0.6rem;
+  background: transparent; border: 0; cursor: pointer;
+  color: var(--ink-dim);
+  padding: 0.45rem 0.6rem;
+  border-radius: 2px;
+  font-family: var(--font-body); font-size: var(--step-0);
+  text-align: start;
+}
+.lang-menu button:hover { background: #2a2e3a; color: var(--ink); }
+.lang-menu button[aria-selected='true'] { color: var(--ink); }
+.lang-menu button[aria-selected='true']::before { content: '\2022'; color: var(--u); }
+.lang-menu .lang-en { font-family: var(--font-util); font-size: var(--step--1); color: var(--faint); margin-inline-start: auto; }
+
+/* --- Hero --------------------------------------------------------------- */
+
+.hero { padding: clamp(3rem, 8vw, 6.5rem) 0 0; }
+.hero-eyebrow { margin: 0 0 1.4rem; }
+.hero h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-variation-settings: 'SOFT' 0, 'WONK' 1, 'opsz' 100;
+  font-size: var(--step-4);
+  line-height: 0.94;
+  letter-spacing: -0.022em;
+  margin: 0;
+  max-width: 16ch;
+  text-wrap: balance;
+}
+.lead {
+  margin-block: 1.4rem 0;
+  color: var(--ink-dim);
+  font-size: var(--step-1);
+  line-height: 1.5;
+  max-width: 46ch;
+}
+.hero p.lead { max-width: 52ch; margin-block-start: 1.6rem; }
+
+/* --- The wall: every lesson in the series, at a glance ------------------- */
+
+/* Block-direction only: a `margin` shorthand here would reset the
+   `margin-inline: auto` that .wrap relies on to centre the page. */
+.wall { margin-block-start: clamp(2.5rem, 6vw, 4rem); }
+.wall-head {
+  display: flex; flex-wrap: wrap; gap: 0.75rem 1.5rem;
+  align-items: baseline; justify-content: space-between;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--rule);
+}
+.wall-head h2 {
+  font-family: var(--font-display);
+  font-variation-settings: 'WONK' 1, 'opsz' 40;
+  font-weight: 600; font-size: var(--step-2); letter-spacing: -0.015em;
+  margin: 0;
+}
+.wall-grid {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  gap: 0.4rem;
+  margin-block-start: 1.4rem;
+  padding: 0;
+  list-style: none;
+}
+@media (max-width: 860px) { .wall-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+
+.tile {
+  position: relative;
+  display: grid; place-items: center;
+  aspect-ratio: 5 / 7;               /* a card's proportions */
+  padding: 0.5rem;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
+}
+.tile::before {
+  content: ''; position: absolute; inset: 0 auto 0 0; width: 3px;
+  background: var(--tile-color);
+}
+/* A wash of the lesson's colour, so a filtered wall reads as a block of colour
+   rather than a row of hairlines. */
+.tile::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(160deg, var(--tile-color), transparent 62%);
+  opacity: 0.09;
+  transition: opacity 140ms ease;
+}
+.tile:hover, .tile:focus-visible {
+  transform: translateY(-3px);
+  border-color: var(--tile-color);
+  background: var(--raised);
+}
+.tile:hover::after, .tile:focus-visible::after { opacity: 0.2; }
+.tile-n {
+  position: relative; z-index: 1;
+  font-family: var(--font-util);
+  font-size: clamp(1.05rem, 1.9vw, 1.55rem);
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.tile-c {
+  position: absolute; inset-block-end: 0.4rem; inset-inline-end: 0.45rem;
+  font-family: var(--font-util);
+  font-size: 0.6rem; letter-spacing: 0.1em; font-weight: 600;
+  color: var(--tile-color);
+  z-index: 1;
+}
+.tile[hidden] { display: none; }
+
+/* --- Colour filter ------------------------------------------------------ */
+
+.pie { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin-top: 1.1rem; }
+.pip {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  background: transparent;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.28rem 0.75rem 0.28rem 0.5rem;
+  color: var(--muted);
+  font-family: var(--font-util); font-size: var(--step--1); letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.pip::before {
+  content: ''; width: 0.62em; height: 0.62em; border-radius: 50%;
+  background: var(--pip-color, var(--muted));
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.35);
+}
+.pip:hover { color: var(--ink); border-color: var(--muted); }
+.pip[aria-pressed='true'] { color: var(--ink); border-color: var(--pip-color, var(--ink)); background: var(--raised); }
+.pie-note { margin: 0.85rem 0 0; max-width: 58ch; color: var(--faint); font-size: var(--step--1); line-height: 1.5; }
+
+/* --- Sections ----------------------------------------------------------- */
+
+section.band { padding: clamp(3rem, 7vw, 5.5rem) 0 0; }
+.band-head {
+  display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem;
+  align-items: baseline; justify-content: space-between;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.9rem; margin-bottom: 1.6rem;
+}
+.band-head h2 {
+  font-family: var(--font-display);
+  font-variation-settings: 'WONK' 1, 'opsz' 40;
+  font-weight: 600; font-size: var(--step-2); letter-spacing: -0.015em; margin: 0;
+}
+.band-head a { font-family: var(--font-util); font-size: var(--step--1); letter-spacing: 0.06em; color: var(--muted); }
+.band-head a:hover { color: var(--ink); }
+
+/* --- Article / summary cards -------------------------------------------- */
+
+.cards { display: grid; gap: 0.9rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr)); padding: 0; margin: 0; list-style: none; }
+/* Let each card fill its cell so the meta row bottom-aligns across a row. */
+.cards > li { display: flex; }
+
+.card {
+  position: relative; flex: 1;
+  display: flex; flex-direction: column; gap: 0.7rem;
+  padding: 1.25rem 1.35rem 1.1rem;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: border-color 140ms ease, transform 140ms ease, background 140ms ease;
+}
+.card:hover, .card:focus-visible { border-color: var(--muted); transform: translateY(-2px); background: var(--raised); }
+.card h3 {
+  font-family: var(--font-display);
+  font-variation-settings: 'WONK' 1, 'opsz' 30;
+  font-weight: 600; font-size: var(--step-1); line-height: 1.18;
+  letter-spacing: -0.01em; margin: 0; text-wrap: balance;
+}
+.card p { margin: 0; color: var(--ink-dim); font-size: var(--step--1); line-height: 1.55; }
+.card-meta { display: flex; flex-wrap: wrap; gap: 0.4rem 0.9rem; margin-top: auto; padding-top: 0.5rem; }
+.card-pips { display: flex; gap: 0.2rem; margin-inline-start: auto; }
+.dot { width: 0.5rem; height: 0.5rem; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.35); }
+
+/* --- Series feature ----------------------------------------------------- */
+
+.feature {
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, var(--panel), #15171f);
+  padding: clamp(1.5rem, 4vw, 2.4rem);
+}
+.feature h3 {
+  font-family: var(--font-display);
+  font-variation-settings: 'WONK' 1, 'opsz' 60;
+  font-weight: 600; font-size: var(--step-2); line-height: 1.1;
+  letter-spacing: -0.018em; margin: 0.5rem 0 0;
+}
+.feature p { max-width: var(--measure); color: var(--ink-dim); margin: 0.9rem 0 0; }
+.feature-meta { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; margin-top: 1.2rem; }
+
+/* --- How it works ------------------------------------------------------- */
+
+.notes { display: grid; gap: 1.6rem; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); padding: 0; margin: 0; list-style: none; }
+.notes li { border-top: 1px solid var(--rule); padding-top: 0.9rem; }
+.notes h3 { font-family: var(--font-util); font-size: var(--step-0); letter-spacing: 0.02em; font-weight: 600; margin: 0 0 0.4rem; color: var(--ink); }
+.notes p { margin: 0; color: var(--muted); font-size: var(--step--1); line-height: 1.6; }
+
+/* --- Article view ------------------------------------------------------- */
+
+.article { padding: clamp(2.5rem, 6vw, 4.5rem) 0 0; }
+.article-head { border-bottom: 1px solid var(--rule); padding-bottom: 1.8rem; }
+.article-head h1 {
+  font-family: var(--font-display);
+  font-variation-settings: 'SOFT' 0, 'WONK' 1, 'opsz' 90;
+  font-weight: 600; font-size: var(--step-3); line-height: 1.02;
+  letter-spacing: -0.02em; margin: 0.9rem 0 0; max-width: 20ch; text-wrap: balance;
+}
+.article-meta { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; margin-top: 1.2rem; }
+.article-body { display: grid; gap: clamp(2rem, 5vw, 3.5rem); grid-template-columns: minmax(0, 1fr); padding-top: 2.2rem; }
+@media (min-width: 960px) { .article-body { grid-template-columns: minmax(0, 1fr) 15rem; } }
+
+.overview { max-width: var(--measure); font-size: var(--step-1); line-height: 1.5; color: var(--ink); margin: 0; }
+.section-label { margin: 2.6rem 0 1.2rem; padding-bottom: 0.6rem; border-bottom: 1px solid var(--rule-soft); }
+
+/* The lesson block: a card's text box. */
+.lessons { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.75rem; }
+.lesson {
+  position: relative;
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 1.35rem 1.5rem 1rem 1.7rem;
+  scroll-margin-top: 5rem;
+}
+.lesson::before {
+  content: ''; position: absolute; inset: 0 auto 0 0; width: 3px;
+  background: var(--lesson-color);
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+.lesson[hidden] { display: none; }
+.lesson:target { border-color: var(--lesson-color); }
+
+.lesson-n {
+  font-family: var(--font-util); font-size: var(--step--1);
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--lesson-color);
+  display: block; margin-bottom: 0.35rem;
+}
+.lesson h3 {
+  font-family: var(--font-display);
+  font-variation-settings: 'WONK' 1, 'opsz' 30;
+  font-weight: 600; font-size: var(--step-1); line-height: 1.2;
+  letter-spacing: -0.01em; margin: 0 0 0.75rem; max-width: 40ch; text-wrap: balance;
+}
+.lesson-rules { margin: 0; max-width: var(--measure); }
+.lesson-flavor {
+  margin: 0.9rem 0 0; padding-top: 0.9rem;
+  border-top: 1px solid var(--rule-soft);
+  font-style: italic; color: var(--muted);
+  max-width: var(--measure); font-size: var(--step--1); line-height: 1.6;
+}
+.lesson-collector {
+  display: flex; flex-wrap: wrap; gap: 0.35rem 0.9rem;
+  margin-top: 1rem; padding-top: 0.6rem;
+  border-top: 1px solid var(--rule-soft);
+  font-family: var(--font-util); font-size: 0.68rem;
+  letter-spacing: 0.12em; text-transform: uppercase; color: var(--faint);
+}
+.lesson-collector .c-color { color: var(--lesson-color); }
+
+.takeaway {
+  margin: 2.6rem 0 0; padding: 1.4rem 1.6rem;
+  border: 1px solid var(--rule); border-left: 3px solid var(--ink);
+  border-radius: var(--radius); background: var(--panel);
+}
+.takeaway p { margin: 0.5rem 0 0; max-width: var(--measure); font-size: var(--step-1); line-height: 1.45; }
+
+/* --- Aside: source links + series nav ----------------------------------- */
+
+.aside { display: grid; gap: 1.6rem; align-content: start; }
+@media (min-width: 960px) { .aside { position: sticky; top: 4.6rem; } }
+.aside-box { border-top: 1px solid var(--rule); padding-top: 0.9rem; }
+.aside-box h2 { font-family: var(--font-util); font-size: var(--step--1); letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); margin: 0 0 0.8rem; font-weight: 600; }
+.src-link {
+  display: flex; align-items: baseline; gap: 0.5rem;
+  padding: 0.55rem 0.7rem; margin-bottom: 0.35rem;
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  text-decoration: none; color: var(--ink-dim); font-size: var(--step--1);
+  background: var(--panel);
+}
+.src-link:hover { border-color: var(--muted); color: var(--ink); }
+.src-link::after { content: '\2197'; margin-inline-start: auto; color: var(--faint); }
+.src-link.is-primary { color: var(--ink); border-color: var(--muted); }
+
+.seriesnav { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.3rem; }
+.seriesnav a {
+  display: flex; gap: 0.6rem; align-items: baseline;
+  padding: 0.5rem 0.7rem; border-radius: var(--radius);
+  text-decoration: none; color: var(--muted); font-size: var(--step--1);
+  border: 1px solid transparent;
+}
+.seriesnav a:hover { color: var(--ink); background: var(--panel); }
+.seriesnav a[aria-current='page'] { color: var(--ink); border-color: var(--rule); background: var(--panel); }
+.seriesnav .sn-n { font-family: var(--font-util); color: var(--faint); }
+
+.pager { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: space-between; margin: 3rem 0 0; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+.pager a { display: grid; gap: 0.2rem; text-decoration: none; padding: 0.8rem 1rem; border: 1px solid var(--rule); border-radius: var(--radius); max-width: 22rem; }
+.pager a:hover { border-color: var(--muted); }
+.pager .p-dir { font-family: var(--font-util); font-size: var(--step--1); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.pager .p-title { color: var(--ink); line-height: 1.3; }
+.pager .is-next { text-align: end; margin-inline-start: auto; }
+
+/* --- Library ------------------------------------------------------------ */
+
+.tools { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin-bottom: 1.6rem; }
+.search {
+  flex: 1 1 18rem;
+  background: var(--panel); color: var(--ink);
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: 0.6rem 0.85rem; font-family: var(--font-body); font-size: var(--step-0);
+}
+.search::placeholder { color: var(--faint); }
+.search:focus { border-color: var(--muted); }
+.select {
+  background: var(--panel); color: var(--ink-dim);
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: 0.6rem 0.7rem; font-family: var(--font-util); font-size: var(--step--1);
+}
+
+/* --- Prose (about) ------------------------------------------------------ */
+
+.prose { max-width: var(--measure); }
+.prose h1 {
+  font-family: var(--font-display);
+  font-variation-settings: 'WONK' 1, 'opsz' 60;
+  font-weight: 600; font-size: var(--step-3); letter-spacing: -0.02em; margin: 0 0 1.2rem;
+}
+.prose p { color: var(--ink-dim); }
+
+/* --- Empty / error states ----------------------------------------------- */
+
+.state { padding: clamp(3rem, 10vw, 7rem) 0; max-width: 46ch; }
+.state h1 {
+  font-family: var(--font-display);
+  font-variation-settings: 'WONK' 1, 'opsz' 60;
+  font-weight: 600; font-size: var(--step-2); margin: 0 0 0.7rem; letter-spacing: -0.015em;
+}
+.state p { color: var(--muted); margin: 0 0 1.4rem; }
+.btn {
+  display: inline-block; text-decoration: none;
+  border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: 0.55rem 1rem; color: var(--ink);
+  font-family: var(--font-util); font-size: var(--step--1); letter-spacing: 0.06em;
+}
+.btn:hover { border-color: var(--muted); background: var(--panel); }
+
+/* --- Footer ------------------------------------------------------------- */
+
+footer.foot { margin-top: clamp(4rem, 10vw, 8rem); border-top: 1px solid var(--rule); padding: 1.6rem 0 3rem; }
+.foot-in { display: flex; flex-wrap: wrap; gap: 0.6rem 1.5rem; align-items: baseline; justify-content: space-between; }
+.foot-in a { color: var(--muted); text-decoration: none; }
+.foot-in a:hover { color: var(--ink); text-decoration: underline; }
+
+/* --- Load-in: one orchestrated moment, then nothing ---------------------- */
+
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+[data-animate] > * { animation: rise 420ms cubic-bezier(0.2, 0.7, 0.3, 1) backwards; }
+[data-animate='stagger'] > * { animation-delay: calc(var(--i, 0) * 22ms); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .tile:hover, .card:hover { transform: none; }
+}
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }

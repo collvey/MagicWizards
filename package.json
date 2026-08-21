@@ -1,0 +1,16 @@
+{
+  "name": "making-magic-distilled",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Summaries of Mark Rosewater's Making Magic column, in five languages.",
+  "scripts": {
+    "build": "node scripts/build-manifest.mjs",
+    "validate": "node scripts/validate.mjs",
+    "check": "npm run validate && npm run build",
+    "fetch": "node scripts/fetch-article.mjs",
+    "discover": "node scripts/discover.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
