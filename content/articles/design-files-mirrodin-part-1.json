@@ -1,0 +1,242 @@
+{
+  "id": "design-files-mirrodin-part-1",
+  "slug": "design-files-mirrodin-part-1",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2026-03-02",
+  "series": { "id": "design-files-mirrodin", "order": 1, "total": 4 },
+  "tags": ["mirrodin", "design-files", "card-design"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/design-files-mirrodin-part-1",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-21T23:20:40.271Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Design Files: Mirrodin, Part 1",
+      "dek": "The Mirrodin handoff file, card by card — including the mechanic that waited thirteen years for a home.",
+      "overview": "The Design Files series prints the actual design handoff file for a set and annotates it. This first instalment covers the white and blue cards, and the biggest story in it is energy: invented here, cut here, and finally printed in Kaladesh over a decade later.",
+      "takeaway": "An old file is a record of a design's reflexes — what its author kept reaching for, where the colour pie sat that year, and how far a handoff is allowed to overreach before someone trims it.",
+      "lessons": [
+        {
+          "title": "A resource needs an economy, not just a use",
+          "rules": "A new currency has to say where it comes from and what it buys, ideally on the same cards. Scatter the sources and the sinks across different card types and players end up holding something with no market.",
+          "flavor": "In Mirrodin's file every colour could gain energy but only artifacts spent it, and blue could steal it from opponents. When energy finally shipped in Kaladesh, nearly every card that used it also made it."
+        },
+        {
+          "title": "When you have to cut, cut what's least entangled",
+          "rules": "Told the file was overstuffed, the question isn't which theme is more interesting but which one more of the file depends on. Least entangled means cheapest to remove, whatever its merits.",
+          "flavor": "Energy was invented here — artifacts with limited uses, after Serrated Arrows, that could share those uses between them. Artifacts were core and energy had less structural synergy, so energy went. It found a home thirteen years later."
+        },
+        {
+          "title": "Moving an effect between colours is a campaign, not a decision",
+          "rules": "Shifting a capability from one colour to another takes a replacement seeded in an earlier set, then the removal of the old version from the next. And a later generation may reverse you anyway.",
+          "flavor": "Naturalize arrived in Onslaught to stand in for Disenchant, which let Mirrodin's white artifact removal be cut. Rosewater counts three separate Disenchant effects in this one file; none was printed. Years later, white and green were both allowed it again."
+        },
+        {
+          "title": "A file repeats whatever its author loves",
+          "rules": "Reading your own old work back shows you your reflexes. The same effect keeps reappearing unprompted because the designer keeps reaching for it — and noticing that is what turns a reflex into a choice.",
+          "flavor": "\"Whenever I look back at design handoff files, I'm always struck by how often a certain effect will appear.\" Antiquities was his favourite set before he joined Wizards, and it shows: an Argivian Archeologist riff, white Regrowth for artifacts, Disenchants everywhere."
+        },
+        {
+          "title": "A handoff file is allowed to overreach",
+          "rules": "The file handed off is a proposal at full stretch, not a shipping plan. Spreading a mechanic everywhere is how you find out where it actually belongs, and trimming it is the next team's job.",
+          "flavor": "Affinity for artifacts appeared in every colour except green. The printed set kept eight cards of it, in blue and colourless only. Affinity for basic land types was planned here and surfaced in Darksteel instead."
+        },
+        {
+          "title": "The colour pie moves, so an old judgement can become right",
+          "rules": "Colour assignments drift over decades. A call that looked wrong at the time can turn out to have been correct, which makes an old file a record of where the pie used to be — and occasionally where it returned to.",
+          "flavor": "Relic Hunter returned an artifact from the graveyard, in white. Development moved it to black as the set's Gravedigger. By modern colour-pie standards, the original white version was the right call all along."
+        },
+        {
+          "title": "A concession that wins agreement doesn't bind forever",
+          "rules": "Big changes often pass only with a promise attached. The promise is what makes the change possible; it isn't a permanent constraint, and it gets revisited once the value of breaking it is clear.",
+          "flavor": "The species-and-class model arrived in development, after this file — which is why no creature in it is a Human. R&D argued at length and agreed to add the type only on condition they'd never make Human typal cards. Innistrad went back on that."
+        }
+      ]
+    },
+    "es": {
+      "title": "Archivos de diseño: Mirrodin, parte 1",
+      "dek": "El archivo de traspaso de Mirrodin, carta por carta, incluida la mecánica que esperó trece años a tener casa.",
+      "overview": "La serie Archivos de diseño publica el archivo de traspaso real de un set y lo anota. Esta primera entrega cubre las cartas blancas y azules, y la mayor historia que contiene es la energía: inventada aquí, cortada aquí y finalmente impresa en Kaladesh más de una década después.",
+      "takeaway": "Un archivo viejo es un registro de los reflejos de un diseño: qué buscaba una y otra vez su autor, dónde estaba el pastel de color aquel año y cuánto se le permite excederse a un traspaso antes de que alguien lo pode.",
+      "lessons": [
+        {
+          "title": "Un recurso necesita una economía, no solo un uso",
+          "rules": "Una moneda nueva tiene que decir de dónde sale y qué compra, idealmente en las mismas cartas. Reparte las fuentes y los sumideros entre tipos de carta distintos y el jugador acabará con algo sin mercado.",
+          "flavor": "En el archivo de Mirrodin todos los colores podían ganar energía, pero solo los artefactos la gastaban, y el azul podía robársela al rival. Cuando la energía por fin salió en Kaladesh, casi toda carta que la usaba también la producía."
+        },
+        {
+          "title": "Cuando toca cortar, corta lo menos enredado",
+          "rules": "Si te dicen que el archivo va sobrecargado, la pregunta no es qué tema es más interesante, sino de cuál depende más el resto. Lo menos enredado es lo más barato de quitar, tenga los méritos que tenga.",
+          "flavor": "La energía se inventó aquí: artefactos con usos limitados, a partir de Serrated Arrows, que podían compartir esos usos entre sí. Los artefactos eran el núcleo y la energía tenía menos sinergia estructural, así que se fue. Encontró casa trece años después."
+        },
+        {
+          "title": "Mover un efecto entre colores es una campaña, no una decisión",
+          "rules": "Trasladar una capacidad de un color a otro exige sembrar el sustituto en un set anterior y luego retirar la versión vieja en el siguiente. Y aun así una generación posterior puede darte la vuelta.",
+          "flavor": "Naturalize llegó en Onslaught para hacer de Disenchant, lo que permitió cortar la remoción de artefactos blanca de Mirrodin. Rosewater cuenta tres efectos Disenchant distintos en este mismo archivo; ninguno se imprimió. Años después, blanco y verde volvieron a tenerlo."
+        },
+        {
+          "title": "Un archivo repite aquello que su autor ama",
+          "rules": "Releer tu propio trabajo antiguo te enseña tus reflejos. El mismo efecto reaparece sin que nadie lo pida porque el diseñador sigue echando mano de él; y advertirlo es lo que convierte un reflejo en una elección.",
+          "flavor": "«Siempre que reviso archivos de traspaso me llama la atención lo a menudo que aparece cierto efecto». Antiquities era su set favorito antes de entrar en Wizards, y se nota: un guiño a Argivian Archeologist, Regrowth blanco para artefactos, Disenchants por todas partes."
+        },
+        {
+          "title": "A un archivo de traspaso se le permite pasarse",
+          "rules": "El archivo que se entrega es una propuesta estirada al máximo, no un plan de producción. Repartir una mecánica por todas partes es como averiguas dónde encaja de verdad, y podarla es tarea del equipo siguiente.",
+          "flavor": "La afinidad con artefactos aparecía en todos los colores menos el verde. El set impreso conservó ocho cartas con ella, solo en azul e incoloras. La afinidad con tipos de tierra básica estaba planeada aquí y acabó saliendo en Darksteel."
+        },
+        {
+          "title": "El pastel de color se mueve, así que un juicio viejo puede volverse correcto",
+          "rules": "Las asignaciones de color se desplazan con las décadas. Una decisión que parecía errónea entonces puede resultar acertada, lo que convierte un archivo viejo en un registro de dónde estaba el pastel y, a veces, de adónde volvió.",
+          "flavor": "Relic Hunter devolvía un artefacto del cementerio, en blanco. Desarrollo lo pasó a negro como el Gravedigger del set. Según los criterios modernos del pastel de color, la versión blanca original era la correcta desde el principio."
+        },
+        {
+          "title": "Una concesión que consigue el acuerdo no ata para siempre",
+          "rules": "Los cambios grandes suelen pasar solo con una promesa adjunta. La promesa es lo que hace posible el cambio; no es una restricción permanente, y se revisa en cuanto queda claro lo que se gana rompiéndola.",
+          "flavor": "El modelo de especie y clase llegó en desarrollo, después de este archivo, y por eso ninguna criatura de aquí es Humano. En I+D discutieron largo y aceptaron añadir el tipo solo con la condición de no hacer nunca cartas tribales de Humano. Innistrad se desdijo."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Dossiers de conception : Mirrodin, partie 1",
+      "dek": "Le fichier de passation de Mirrodin, carte par carte — y compris la mécanique qui a attendu treize ans un foyer.",
+      "overview": "La série Dossiers de conception publie le fichier de passation réel d'un set et l'annote. Ce premier volet couvre les cartes blanches et bleues, et la plus grande histoire qu'il contient est l'énergie : inventée ici, coupée ici, et finalement imprimée dans Kaladesh plus de dix ans après.",
+      "takeaway": "Un vieux fichier est le relevé des réflexes d'une conception : ce que son auteur allait chercher sans cesse, où se trouvait la roue des couleurs cette année-là, et jusqu'où une passation a le droit d'en faire trop avant qu'on l'élague.",
+      "lessons": [
+        {
+          "title": "Une ressource a besoin d'une économie, pas seulement d'un usage",
+          "rules": "Une monnaie neuve doit dire d'où elle vient et ce qu'elle achète, idéalement sur les mêmes cartes. Dispersez les sources et les débouchés sur des types de cartes différents et le joueur se retrouve avec un avoir sans marché.",
+          "flavor": "Dans le fichier de Mirrodin, toutes les couleurs pouvaient gagner de l'énergie mais seuls les artefacts la dépensaient, et le bleu pouvait la voler à l'adversaire. Quand l'énergie est enfin sortie dans Kaladesh, presque chaque carte qui l'utilisait en produisait aussi."
+        },
+        {
+          "title": "Quand il faut couper, coupez le moins enchevêtré",
+          "rules": "Si l'on vous dit que le fichier est trop chargé, la question n'est pas quel thème est le plus intéressant mais duquel le reste dépend le plus. Le moins enchevêtré est le moins coûteux à retirer, quels que soient ses mérites.",
+          "flavor": "L'énergie est née ici : des artefacts à usages limités, d'après Serrated Arrows, capables de partager ces usages. Les artefacts étaient le cœur et l'énergie avait moins de synergie structurelle : elle est partie. Elle a trouvé un foyer treize ans plus tard."
+        },
+        {
+          "title": "Déplacer un effet d'une couleur à l'autre est une campagne, pas une décision",
+          "rules": "Transférer une capacité demande de semer le remplaçant dans un set antérieur, puis de retirer l'ancienne version dans le suivant. Et une génération ultérieure peut vous contredire quand même.",
+          "flavor": "Naturalize est arrivée dans Onslaught pour tenir le rôle de Disenchant, ce qui a permis de couper le retrait d'artefacts blanc de Mirrodin. Rosewater compte trois effets Disenchant distincts dans ce seul fichier ; aucun n'a été imprimé. Des années après, blanc et vert y ont eu droit de nouveau."
+        },
+        {
+          "title": "Un fichier répète ce que son auteur aime",
+          "rules": "Relire son propre travail ancien montre ses réflexes. Le même effet resurgit sans qu'on le demande parce que le concepteur y revient sans cesse — et le remarquer est ce qui transforme un réflexe en choix.",
+          "flavor": "« Chaque fois que je relis un fichier de passation, je suis frappé par la fréquence d'un certain effet. » Antiquities était son set préféré avant d'entrer chez Wizards, et cela se voit : une variation sur Argivian Archeologist, du Regrowth blanc pour artefacts, des Disenchant partout."
+        },
+        {
+          "title": "Un fichier de passation a le droit d'en faire trop",
+          "rules": "Le fichier remis est une proposition à pleine extension, pas un plan de production. Étaler une mécanique partout, c'est ainsi qu'on découvre où elle appartient vraiment, et l'élaguer revient à l'équipe suivante.",
+          "flavor": "L'affinité avec les artefacts figurait dans toutes les couleurs sauf le vert. Le set imprimé en a gardé huit cartes, en bleu et en incolore. L'affinité avec les types de terrain de base était prévue ici et a paru dans Darksteel."
+        },
+        {
+          "title": "La roue des couleurs bouge : un vieux jugement peut devenir juste",
+          "rules": "Les attributions de couleur dérivent au fil des décennies. Un choix qui semblait faux à l'époque peut se révéler correct, ce qui fait d'un vieux fichier un relevé d'où était la roue — et parfois d'où elle est revenue.",
+          "flavor": "Relic Hunter renvoyait un artefact du cimetière, en blanc. Le développement l'a passée en noir comme Gravedigger du set. Selon les critères modernes de la roue, la version blanche d'origine avait raison depuis le début."
+        },
+        {
+          "title": "Une concession qui emporte l'accord ne lie pas pour toujours",
+          "rules": "Les grands changements ne passent souvent qu'assortis d'une promesse. La promesse rend le changement possible ; ce n'est pas une contrainte définitive, et on la rouvre dès que l'intérêt de la rompre devient clair.",
+          "flavor": "Le modèle espèce-et-classe est arrivé en développement, après ce fichier — d'où l'absence de tout Humain ici. La R&D en a longuement débattu et n'a accepté le type qu'à condition de ne jamais faire de cartes typales Humain. Innistrad est revenu dessus."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Arquivos de design: Mirrodin, parte 1",
+      "dek": "O arquivo de passagem de Mirrodin, carta a carta — inclusive a mecânica que esperou treze anos por uma casa.",
+      "overview": "A série Arquivos de design publica o arquivo de passagem real de um set e o anota. Esta primeira parte cobre as cartas brancas e azuis, e a maior história nela é a energia: inventada aqui, cortada aqui, e enfim impressa em Kaladesh mais de uma década depois.",
+      "takeaway": "Um arquivo antigo é um registro dos reflexos de um design: o que seu autor buscava sem parar, onde estava a pizza de cores naquele ano, e o quanto uma passagem pode exagerar antes de alguém podar.",
+      "lessons": [
+        {
+          "title": "Um recurso precisa de uma economia, não só de um uso",
+          "rules": "Uma moeda nova precisa dizer de onde vem e o que compra, de preferência nas mesmas cartas. Espalhe as fontes e os ralos por tipos de carta diferentes e o jogador fica com algo sem mercado.",
+          "flavor": "No arquivo de Mirrodin todas as cores podiam ganhar energia, mas só artefatos gastavam, e o azul podia roubá-la do oponente. Quando a energia enfim saiu em Kaladesh, quase toda carta que a usava também a produzia."
+        },
+        {
+          "title": "Quando for preciso cortar, corte o menos emaranhado",
+          "rules": "Se disseram que o arquivo está cheio demais, a pergunta não é qual tema é mais interessante, e sim de qual o resto mais depende. O menos emaranhado é o mais barato de tirar, sejam quais forem seus méritos.",
+          "flavor": "A energia nasceu aqui: artefatos com usos limitados, a partir de Serrated Arrows, capazes de dividir esses usos entre si. Artefatos eram o núcleo e energia tinha menos sinergia estrutural, então energia saiu. Achou casa treze anos depois."
+        },
+        {
+          "title": "Mover um efeito entre cores é uma campanha, não uma decisão",
+          "rules": "Transferir uma capacidade de uma cor para outra exige plantar o substituto num set anterior e depois remover a versão antiga no seguinte. E uma geração posterior ainda pode te contrariar.",
+          "flavor": "Naturalize chegou em Onslaught para fazer o papel de Disenchant, o que permitiu cortar a remoção de artefatos branca de Mirrodin. Rosewater conta três efeitos Disenchant distintos só neste arquivo; nenhum foi impresso. Anos depois, branco e verde tiveram o direito de volta."
+        },
+        {
+          "title": "Um arquivo repete aquilo que o autor ama",
+          "rules": "Reler o próprio trabalho antigo mostra seus reflexos. O mesmo efeito reaparece sem que ninguém peça, porque o designer continua recorrendo a ele — e perceber isso é o que transforma um reflexo em escolha.",
+          "flavor": "«Sempre que releio arquivos de passagem, me impressiona com que frequência certo efeito aparece.» Antiquities era o set favorito dele antes da Wizards, e dá para ver: uma variação de Argivian Archeologist, Regrowth branco para artefatos, Disenchants por todo lado."
+        },
+        {
+          "title": "Um arquivo de passagem tem o direito de exagerar",
+          "rules": "O arquivo entregue é uma proposta esticada ao máximo, não um plano de produção. Espalhar uma mecânica por todo lado é como se descobre onde ela realmente pertence, e podar é tarefa do time seguinte.",
+          "flavor": "Afinidade com artefatos aparecia em todas as cores menos o verde. O set impresso ficou com oito cartas dela, só em azul e incolor. Afinidade com tipos de terreno básico estava planejada aqui e apareceu em Darksteel."
+        },
+        {
+          "title": "A pizza de cores se move, então um julgamento antigo pode virar certo",
+          "rules": "As atribuições de cor derivam ao longo das décadas. Uma decisão que parecia errada na época pode se revelar correta, o que faz de um arquivo antigo um registro de onde a pizza estava — e às vezes de aonde ela voltou.",
+          "flavor": "Relic Hunter devolvia um artefato do cemitério, em branco. O desenvolvimento a passou para preto como o Gravedigger do set. Pelos critérios modernos da pizza de cores, a versão branca original estava certa o tempo todo."
+        },
+        {
+          "title": "Uma concessão que conquista o acordo não obriga para sempre",
+          "rules": "Mudanças grandes costumam passar só com uma promessa junto. A promessa é o que torna a mudança possível; não é uma restrição permanente, e é reaberta assim que fica claro o que se ganha quebrando-a.",
+          "flavor": "O modelo de espécie e classe chegou no desenvolvimento, depois deste arquivo — por isso nenhuma criatura aqui é Humano. A P&D discutiu longamente e só aceitou o tipo com a condição de nunca fazer cartas typal de Humano. Innistrad voltou atrás."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "设计档案：秘罗地，第一部分",
+      "dek": "秘罗地的交接卡表，一张一张过——包括那个等了十三年才等到归宿的机制。",
+      "overview": "「设计档案」系列会把某个系列真实的设计交接卡表原样刊出，并逐条加注。第一篇覆盖白色与蓝色牌；而其中最大的一个故事是能量：它诞生于此、也被砍于此，十几年后才终于在卡拉德许印了出来。",
+      "takeaway": "一份旧卡表，是一个设计的条件反射记录：作者当年一再伸手去拿什么、那一年的色饼站在哪里，以及一份交接文件在被人修剪之前，被允许越界到什么程度。",
+      "lessons": [
+        {
+          "title": "一种资源需要的是一套经济，而不只是一个用途",
+          "rules": "一种新货币必须说明它从哪来、能买什么，而且最好写在同一批牌上。把来源和去处分散到不同的牌张类别上，玩家手里握着的就是一种没有市场的东西。",
+          "flavor": "在秘罗地的卡表里，五个颜色都能获得能量，却只有神器会花它；而蓝色还能从对手那里偷。等能量终于在卡拉德许面世时，几乎每张用它的牌同时也在产它。"
+        },
+        {
+          "title": "必须砍东西时，砍那个纠缠最少的",
+          "rules": "被告知卡表塞得太满时，该问的不是哪个主题更有意思，而是文件里更多东西依赖哪一个。纠缠最少的那个，就是移除成本最低的那个——不论它本身多好。",
+          "flavor": "能量诞生于此：受 Serrated Arrows 启发，做成「使用次数有限的神器」，并且这些神器之间可以共享次数。神器是核心，能量的结构性关联更弱，于是能量出局。十三年后，它找到了家。"
+        },
+        {
+          "title": "把一个效应从一个颜色搬到另一个颜色，是一场战役，不是一个决定",
+          "rules": "把某种能力从一色转到另一色，需要先在前一个系列里埋下替代品，再在下一个系列里撤掉旧版本。而且后来的人照样可能把你推翻。",
+          "flavor": "Naturalize 在 Onslaught 登场，替代 Disenchant 的角色，这才让秘罗地里白色的神器解除可以被砍掉。罗斯沃特数了数，光这一份卡表里就有三个各不相同的 Disenchant 效应，一个也没印。多年之后，白与绿又双双拿回了这项能力。"
+        },
+        {
+          "title": "一份卡表，会不断重复它作者所爱的东西",
+          "rules": "回头读自己的旧作，看见的是自己的条件反射。同一种效应会在没人要求的情况下一再冒头，因为设计师总去拿它——而察觉到这件事，正是让反射变成选择的那一步。",
+          "flavor": "「每次回看交接卡表，我总会被某个效应出现的频率吓一跳。」进威世智之前，他最爱的系列就是 Antiquities，而这一点看得出来：一张仿 Argivian Archeologist 的牌、白色的神器再生、以及满地的 Disenchant。"
+        },
+        {
+          "title": "交接卡表，是被允许越界的",
+          "rules": "交出去的那份卡表是一个「拉满」的提案，不是一份出货计划。把一个机制铺到到处都是，正是你弄清它究竟该待在哪里的方式；而修剪，是下一棒的活儿。",
+          "flavor": "神器亲和当时出现在除绿色以外的每一个颜色里。成品只留下八张，且仅在蓝色和无色。至于「对基本地类别的亲和」，原本计划放在秘罗地，最后是在 Darksteel 里冒出来的。"
+        },
+        {
+          "title": "色饼是会移动的，所以一个旧判断可能变成对的",
+          "rules": "颜色归属会在数十年间漂移。当时看着错误的判断，可能后来才被证明是对的；这也让一份旧卡表成为一份记录：色饼曾经在哪里——有时还包括，它后来又回到了哪里。",
+          "flavor": "Relic Hunter 是白色的，从坟场取回一件神器。开发把它挪到黑色，充当这个系列的 Gravedigger。而按今天的色饼标准，最初那个白色版本一直都是对的。"
+        },
+        {
+          "title": "为换取同意而作出的让步，并不永远绑住你",
+          "rules": "重大改动往往要附带一个承诺才通得过。承诺是让改动成为可能的那样东西；它不是永久的约束，而一旦「打破它能换来什么」变得清楚，它就会被重新拿出来讨论。",
+          "flavor": "「种族与职业」这套模型是在开发阶段才出现的，晚于这份卡表——所以这里没有任何一只生物是「人类」。研发部为此长时间争论，最后同意加这个类别，条件是永远不做人类类别流的牌。依尼翠推翻了这条。"
+        }
+      ]
+    }
+  }
+}

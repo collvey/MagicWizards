@@ -95,6 +95,12 @@ position, lesson colours), so the home and library views stay fast as the archiv
 grows toward the column's 1,265 published articles. Full summaries load per
 article, on demand.
 
+Adding an article file is all it takes to put it on the home page. The *recently
+summarized* band ranks on `summarizedAt` — when the summary was written here —
+rather than on when Rosewater published the essay, because the archive is worked
+through out of order: ranking by publication date would bury every new summary of
+an older column and leave the front page unchanged for months.
+
 ## Adding a language
 
 1. Add an entry to `languages` in `content/site.json`. `wotcLocale` must match

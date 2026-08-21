@@ -64,14 +64,19 @@ function endOfBody(html, from) {
 
 const ENTITIES = {
   '&nbsp;': ' ', '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"',
-  '&#39;': "'", '&rsquo;': '’', '&lsquo;': '‘',
+  '&rsquo;': '’', '&lsquo;': '‘',
   '&mdash;': '—', '&ndash;': '–', '&hellip;': '…',
 };
 
 function decode(s) {
   return s
     .replace(/\\u([0-9a-fA-F]{4})/g, (_, c) => String.fromCharCode(parseInt(c, 16)))
-    .replace(/&[a-z#0-9]+;/gi, (e) => ENTITIES[e] ?? e);
+    // Numeric character references, decimal and hex. Wizards writes its
+    // titles with &#x27; rather than &#39; or &rsquo;, so without the hex
+    // form every title with an apostrophe reaches the site entity and all.
+    .replace(/&#x([0-9a-f]+);/gi, (_, c) => String.fromCodePoint(parseInt(c, 16)))
+    .replace(/&#([0-9]+);/g, (_, c) => String.fromCodePoint(Number(c)))
+    .replace(/&[a-z]+;/gi, (e) => ENTITIES[e] ?? e);
 }
 
 /**

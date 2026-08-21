@@ -79,7 +79,9 @@ const doc = {
   pointNoun: article.headings.length ? 'lesson' : 'point',
   source: { canonical: `https://magic.wizards.com/en/news/${meta.column}/${meta.slug}`, locales },
   summaryVersion: 1,
-  summarizedAt: new Date().toISOString().slice(0, 10),
+  // Full timestamp, not just the date: the home page ranks its "recently
+  // summarized" band on this, and several articles often land the same day.
+  summarizedAt: new Date().toISOString(),
   lessons: lessonSlots.map(({ n, color }) => ({ n, color })),
   translations: Object.fromEntries(langs.map((l) => [l, translationStub()])),
 };

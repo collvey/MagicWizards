@@ -36,6 +36,11 @@ for (const file of files) {
     column: a.column,
     author: a.author,
     publishedAt: a.publishedAt,
+    // When the summary was written here, as opposed to when Rosewater
+    // published the essay. The home page's "recently summarized" band ranks on
+    // this: the archive is worked through out of order, so a summary of a 2010
+    // column is news here even though the column isn't.
+    summarizedAt: a.summarizedAt ?? a.publishedAt,
     series: a.series ?? null,
     tags: a.tags ?? [],
     canonical: a.source.canonical,
@@ -78,3 +83,18 @@ const manifest = {
 
 await writeJSON(path.join(ROOT, 'content', 'manifest.json'), manifest);
 console.log(`manifest: ${entries.length} article(s), ${series.length} series, ${langs.length} languages`);
+
+// The home page's progress line reads content/progress.json, whose denominator
+// only `npm run discover` can know — it comes from Wizards' sitemap. The
+// numerator, though, is just how many summaries are on disk, so keep it current
+// here rather than leaving the count stale until the next networked run.
+const progressFile = path.join(ROOT, 'content', 'progress.json');
+try {
+  const progress = await readJSON(progressFile);
+  if (progress.done !== entries.length) {
+    await writeJSON(progressFile, { ...progress, done: entries.length });
+    console.log(`progress: done ${progress.done} -> ${entries.length}`);
+  }
+} catch {
+  /* no queue has been built yet — the progress line is an extra, not load-bearing */
+}

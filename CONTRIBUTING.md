@@ -108,4 +108,20 @@ npm run serve     # look at it
 ```
 
 Commit `content/manifest.json` along with your article — CI fails the deploy if
-the committed manifest doesn't match what the content generates.
+the committed manifest doesn't match what the content generates. `npm run check`
+also refreshes the `done` count in `content/progress.json`, so commit that too.
+
+Nothing else needs updating for the article to appear. The home page's *recently
+summarized* band ranks on `summarizedAt`, which `npm run fetch` stamps for you,
+so a new summary leads the band whatever year the essay itself is from.
+
+Leave that stamp alone while you fill in the summary — it is a full ISO timestamp
+rather than a bare date precisely because several articles land on the same day,
+and a bare date ties them all and drops the newest below whichever happens to
+have the latest publication date. The validator rejects a bare date so this
+can't happen quietly. If you rewrite an existing summary and want it to resurface
+in the band, bump the stamp to now:
+
+```bash
+node -e "console.log(new Date().toISOString())"
+```

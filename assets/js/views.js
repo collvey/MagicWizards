@@ -70,7 +70,7 @@ export function home(manifest, progress) {
 
   if (featured) out.append(wall(manifest, featured));
 
-  const recent = manifest.articles.slice(0, 6);
+  const recent = recentlySummarized(manifest.articles, 6);
   if (recent.length) {
     const list = el('ul', { class: 'cards' }, recent.map(articleCard));
     out.append(
@@ -104,6 +104,21 @@ export function home(manifest, progress) {
   );
 
   return out;
+}
+
+/**
+ * The six most recently summarized articles — by when the summary was written
+ * here, not when Rosewater published the essay. The archive is worked through
+ * out of order (a curated tier first, then backwards through twenty-odd years),
+ * so ranking by publication date would bury every new summary of an older
+ * column and the band would sit unchanged for months. Ties fall back to
+ * publication date, newest first.
+ */
+function recentlySummarized(articles, n) {
+  const added = (a) => a.summarizedAt ?? a.publishedAt;
+  return [...articles]
+    .sort((a, b) => added(b).localeCompare(added(a)) || b.publishedAt.localeCompare(a.publishedAt))
+    .slice(0, n);
 }
 
 /**

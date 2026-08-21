@@ -13,6 +13,11 @@ import { ROOT, readJSON, listArticleFiles } from './lib/paths.mjs';
 
 const COLORS = new Set(['W', 'U', 'B', 'R', 'G']);
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
+// summarizedAt is a full ISO timestamp, not a bare date. The home page ranks
+// its "recently summarized" band on it, and several articles often land on
+// the same day — a bare date ties them all, which silently sinks the newest
+// below whichever happens to carry the latest publication date.
+const STAMP = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[+-]\d{2}:\d{2})$/;
 
 const site = await readJSON(path.join(ROOT, 'content', 'site.json'));
 const langs = site.languages.map((l) => l.code);
@@ -59,6 +64,12 @@ for (const file of files) {
   const expected = `${a.id}.json`;
   if (path.basename(file) !== expected) fail(file, `filename should be "${expected}"`);
   if (a.publishedAt && !DATE.test(a.publishedAt)) fail(file, 'publishedAt must be YYYY-MM-DD');
+  // The home page ranks on summarizedAt, so a missing or mis-shaped one would
+  // silently drop the article to the bottom of the "recently summarized" band.
+  if (!a.summarizedAt) fail(file, 'missing required field "summarizedAt"');
+  else if (!STAMP.test(a.summarizedAt)) {
+    fail(file, `summarizedAt must be a full ISO timestamp, not "${a.summarizedAt}"`);
+  }
   if (!a.source?.canonical?.startsWith('https://magic.wizards.com/')) {
     fail(file, 'source.canonical must be a magic.wizards.com URL');
   }

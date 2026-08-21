@@ -4,90 +4,211 @@
   "column": "making-magic",
   "author": "Mark Rosewater",
   "publishedAt": "2026-01-19",
-  "series": null,
-  "tags": [],
+  "series": { "id": "lorwyn-eclipsed-handoff", "order": 2, "total": 2 },
+  "tags": ["handoff", "lorwyn", "mechanics"],
   "pointNoun": "point",
   "source": {
     "canonical": "https://magic.wizards.com/en/news/making-magic/lorwyn-eclipsed-vision-design-handoff-document-part-2",
-    "locales": [
-      "en",
-      "es",
-      "fr",
-      "pt-BR",
-      "zh-Hans"
-    ]
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
   },
   "summaryVersion": 1,
-  "summarizedAt": "2026-08-21",
+  "summarizedAt": "2026-08-21T23:13:54.452Z",
   "lessons": [
-    {
-      "n": 1,
-      "color": "W"
-    }
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "B" }
   ],
   "translations": {
     "en": {
       "title": "Lorwyn Eclipsed Vision Design Handoff, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "dek": "The mashup pillar, the double-faced cards that hadn't been solved yet, and a set structure specified slot by slot.",
+      "overview": "The second half of Gottlieb's document: the \"in-between\" space where Lorwyn and Shadowmoor mechanics can finally share a card, the seven double-faced executions tried without settling on one, and a breakdown of creature types by colour and rarity.",
+      "takeaway": "This is a handoff made mid-set-design with the biggest question still open. The double-faced cards — the premise of the whole set since Rosewater first pitched it — arrive as a list of seven attempts and no conclusion.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Hand over the attempts, not just the conclusion",
+          "rules": "A document explaining where you ended up teaches less than one showing what you tried. The list of rejected executions maps the space for the next team and shows how the surviving idea earned its place.",
+          "flavor": "The double-faced section runs through seven approaches — auto-flipping creatures, modal creatures, attack-trigger flips, enchantments, land-creature pairs — and settles on none. \"It was clear at handoff that the DFCs needed a lot more work.\""
+        },
+        {
+          "title": "Check whether your starting concepts can reach the design's potential",
+          "rules": "Early categories quietly become rules. If every card must belong to one bucket or the other, the most interesting cards — the ones that belong to both — can never be made.",
+          "flavor": "Cards were initially slotted as \"a Lorwyn card\" or \"a Shadowmoor card.\" Dropping that let them make a changeling carrying -1/-1 counters, or a hybrid typal card — things neither original set could have printed."
+        },
+        {
+          "title": "Simplify by counting the simpler thing",
+          "rules": "A counting mechanic can be made cheaper to use without changing what it's for. Ask whether the bookkeeping the rules demand is actually buying anything the player notices.",
+          "flavor": "Rainbow began like party: each permanent contributes one colour, up to five. It shipped as vivid, working like domain — just count how many colours you have. Blight was simplified the same way."
+        },
+        {
+          "title": "A mechanic can mean one thing and feel like another",
+          "rules": "Mechanical identity and emotional identity are separate axes and don't have to agree. When they pull apart, that gap is information about what the design is really asking for.",
+          "flavor": "Vivid cares about colour, which is Shadowmoor's territory, but it reads as bright and inclusive, which is Lorwyn's. That contradiction is part of what pushed the team toward letting the two identities share a card."
+        },
+        {
+          "title": "If every theme rewards hoarding, buy a reason to attack",
+          "rules": "Typal and rainbow both ask you to accumulate permanents and keep them. A set built entirely from those incentives stalls, so it has to purchase aggression deliberately somewhere else.",
+          "flavor": "Cavort rewarded dealing four total damage in a turn from any source, aiming to feel playful even while aggressive. Hunt put an Aura on an enemy creature and drew you a card when it died. Neither survived — blight and vivid ended up covering two archetypes each."
+        },
+        {
+          "title": "When one variable is the crux, specify it numerically",
+          "rules": "Prose is fine for intent and useless for rationing. If a resource is the thing the whole set turns on, hand over the counts rather than the adjectives.",
+          "flavor": "Gottlieb enumerates it per colour: two commons of the primary creature type, two of the supporting type, one Shapeshifter with changeling, one of a secondary type — then does the same again for hybrid pairs and for uncommon."
         }
       ]
     },
     "es": {
-      "title": "Lorwyn Eclipsed Vision Design Handoff, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Traspaso de diseño de visión de Lorwyn Eclipsed, parte 2",
+      "dek": "El pilar de la mezcla, las cartas de doble cara aún sin resolver y una estructura de set especificada hueco por hueco.",
+      "overview": "La segunda mitad del documento de Gottlieb: el espacio «intermedio» donde las mecánicas de Lorwyn y Shadowmoor por fin comparten carta, las siete ejecuciones de doble cara probadas sin decidirse por ninguna, y un desglose de tipos de criatura por color y rareza.",
+      "takeaway": "Es un traspaso hecho a mitad del diseño de set con la mayor pregunta todavía abierta. Las cartas de doble cara —la premisa de todo el set desde que Rosewater la propuso— llegan como una lista de siete intentos y ninguna conclusión.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Entrega los intentos, no solo la conclusión",
+          "rules": "Un documento que explica dónde acabaste enseña menos que uno que muestra qué probaste. La lista de ejecuciones descartadas cartografía el espacio para el equipo siguiente y explica cómo se ganó su sitio la idea superviviente.",
+          "flavor": "La sección de doble cara recorre siete enfoques —criaturas que se giran solas, criaturas modales, giros por disparo de ataque, encantamientos, parejas tierra-criatura— y no elige ninguno. «En el traspaso quedó claro que las DFC necesitaban mucho más trabajo»."
+        },
+        {
+          "title": "Comprueba si tus conceptos de partida alcanzan el potencial del diseño",
+          "rules": "Las categorías tempranas se convierten calladamente en normas. Si cada carta tiene que pertenecer a un cubo o al otro, las cartas más interesantes —las que pertenecen a ambos— no podrán existir jamás.",
+          "flavor": "Al principio las cartas se etiquetaban como «carta de Lorwyn» o «carta de Shadowmoor». Soltar eso les permitió hacer un cambiaformas con contadores -1/-1, o una carta tribal híbrida: cosas que ninguno de los sets originales podía imprimir."
+        },
+        {
+          "title": "Simplifica contando lo más simple",
+          "rules": "Una mecánica de recuento puede abaratarse sin cambiar para qué sirve. Pregúntate si la contabilidad que exigen las reglas compra de verdad algo que el jugador note.",
+          "flavor": "El arcoíris empezó como la fiesta: cada permanente aporta un color, hasta cinco. Salió como vívido, funcionando como dominio: cuenta cuántos colores tienes y ya. La plaga se simplificó igual."
+        },
+        {
+          "title": "Una mecánica puede significar una cosa y sentirse como otra",
+          "rules": "La identidad mecánica y la emocional son ejes distintos y no tienen por qué coincidir. Cuando se separan, esa distancia es información sobre lo que el diseño está pidiendo de verdad.",
+          "flavor": "Vívido se fija en el color, territorio de Shadowmoor, pero se lee como algo luminoso e inclusivo, que es Lorwyn. Esa contradicción es parte de lo que empujó al equipo a dejar que ambas identidades compartieran carta."
+        },
+        {
+          "title": "Si todos tus temas premian acumular, compra un motivo para atacar",
+          "rules": "El tribal y el arcoíris piden ambos amontonar permanentes y conservarlos. Un set hecho solo de esos incentivos se atasca, así que tiene que comprar agresividad a propósito en otro sitio.",
+          "flavor": "Cabriolar premiaba infligir cuatro puntos de daño totales en tu turno desde cualquier fuente, buscando resultar juguetón incluso al atacar. Cazar ponía un aura sobre una criatura rival y te hacía robar cuando moría. Ninguno sobrevivió: plaga y vívido acabaron cubriendo dos arquetipos cada uno."
+        },
+        {
+          "title": "Cuando una variable es el meollo, especifícala con números",
+          "rules": "La prosa sirve para la intención e inútil para el racionamiento. Si un recurso es aquello sobre lo que gira todo el set, entrega las cifras y no los adjetivos.",
+          "flavor": "Gottlieb lo enumera por color: dos comunes del tipo de criatura principal, dos del tipo de apoyo, un cambiaformas con cambiante, una del tipo secundario; y luego repite el ejercicio para las parejas híbridas y para infrecuente."
         }
       ]
     },
     "fr": {
-      "title": "Lorwyn Eclipsed Vision Design Handoff, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Passation du vision design de Lorwyn Eclipsed, partie 2",
+      "dek": "Le pilier du mélange, les cartes recto-verso encore non résolues, et une structure de set spécifiée emplacement par emplacement.",
+      "overview": "La seconde moitié du document de Gottlieb : l'espace « intermédiaire » où les mécaniques de Lorwyn et de Shadowmoor peuvent enfin partager une carte, les sept exécutions recto-verso essayées sans trancher, et une répartition des types de créature par couleur et par rareté.",
+      "takeaway": "C'est une passation faite en plein set design, la plus grande question restant ouverte. Les cartes recto-verso — la prémisse de tout le set depuis la première proposition de Rosewater — arrivent sous forme de sept tentatives et d'aucune conclusion.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Transmettez les tentatives, pas seulement la conclusion",
+          "rules": "Un document qui explique où vous avez abouti enseigne moins qu'un document montrant ce que vous avez essayé. La liste des exécutions rejetées cartographie l'espace pour l'équipe suivante et montre comment l'idée survivante a gagné sa place.",
+          "flavor": "La section recto-verso parcourt sept approches — créatures qui se retournent seules, créatures modales, retournements sur déclencheur d'attaque, enchantements, couples terrain-créature — et n'en retient aucune. « À la passation, il était clair que les DFC demandaient encore beaucoup de travail. »"
+        },
+        {
+          "title": "Vérifiez si vos concepts de départ atteignent le potentiel du design",
+          "rules": "Les catégories précoces deviennent silencieusement des règles. Si chaque carte doit appartenir à l'un ou l'autre seau, les cartes les plus intéressantes — celles qui appartiennent aux deux — ne pourront jamais exister.",
+          "flavor": "Les cartes étaient d'abord étiquetées « carte Lorwyn » ou « carte Shadowmoor ». L'abandon a permis un changeforme portant des marqueurs -1/-1, ou une carte typale hybride : des choses qu'aucun des sets d'origine ne pouvait imprimer."
+        },
+        {
+          "title": "Simplifiez en comptant la chose la plus simple",
+          "rules": "Une mécanique de comptage peut devenir moins coûteuse sans changer de fonction. Demandez-vous si la comptabilité exigée par les règles achète réellement quelque chose que le joueur remarque.",
+          "flavor": "L'arc-en-ciel a commencé comme la fête : chaque permanent apporte une couleur, jusqu'à cinq. Il est sorti sous le nom d'éclat, fonctionnant comme le domaine — comptez simplement vos couleurs. La flétrissure a été simplifiée de la même façon."
+        },
+        {
+          "title": "Une mécanique peut signifier une chose et en donner une autre à ressentir",
+          "rules": "Identité mécanique et identité émotionnelle sont deux axes distincts et n'ont pas à concorder. Quand elles s'écartent, cet écart renseigne sur ce que le design réclame vraiment.",
+          "flavor": "L'éclat s'intéresse à la couleur, terrain de Shadowmoor, mais se lit comme lumineux et inclusif, ce qui est Lorwyn. Cette contradiction fait partie de ce qui a poussé l'équipe à laisser les deux identités partager une carte."
+        },
+        {
+          "title": "Si tous vos thèmes récompensent l'accumulation, achetez une raison d'attaquer",
+          "rules": "Le typal et l'arc-en-ciel demandent tous deux d'entasser des permanents et de les garder. Un set fait uniquement de ces incitations s'enlise : il doit acheter de l'agressivité ailleurs, délibérément.",
+          "flavor": "La gambade récompensait quatre points de blessures au total dans votre tour, depuis n'importe quelle source, en cherchant à rester enjouée. La chasse posait une aura sur une créature adverse et vous faisait piocher à sa mort. Aucune n'a survécu : flétrissure et éclat ont fini par couvrir deux archétypes chacune."
+        },
+        {
+          "title": "Quand une variable est le nœud, spécifiez-la en chiffres",
+          "rules": "La prose convient à l'intention et ne vaut rien pour le rationnement. Si une ressource est ce autour de quoi tourne tout le set, transmettez les nombres plutôt que les adjectifs.",
+          "flavor": "Gottlieb l'énumère par couleur : deux communes du type de créature principal, deux du type de soutien, un changeforme avec changeforme, une du type secondaire — puis recommence pour les paires hybrides et pour l'inhabituelle."
         }
       ]
     },
     "pt-BR": {
-      "title": "Lorwyn Eclipsed Vision Design Handoff, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Passagem do vision design de Lorwyn Eclipsed, parte 2",
+      "dek": "O pilar da mistura, as cartas de face dupla ainda não resolvidas, e uma estrutura de set especificada vaga por vaga.",
+      "overview": "A segunda metade do documento de Gottlieb: o espaço «intermediário» em que as mecânicas de Lorwyn e Shadowmoor enfim dividem uma carta, as sete execuções de face dupla tentadas sem escolher nenhuma, e um detalhamento de tipos de criatura por cor e raridade.",
+      "takeaway": "É uma passagem feita no meio do set design com a maior pergunta ainda aberta. As cartas de face dupla — a premissa do set inteiro desde a primeira proposta de Rosewater — chegam como uma lista de sete tentativas e nenhuma conclusão.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Entregue as tentativas, não só a conclusão",
+          "rules": "Um documento que explica onde você chegou ensina menos que um que mostra o que você tentou. A lista de execuções descartadas mapeia o espaço para o time seguinte e mostra como a ideia sobrevivente ganhou o lugar.",
+          "flavor": "A seção de face dupla percorre sete abordagens — criaturas que viram sozinhas, criaturas modais, viradas por gatilho de ataque, encantamentos, duplas terreno-criatura — e não fecha com nenhuma. «Na passagem ficou claro que as DFCs precisavam de muito mais trabalho.»"
+        },
+        {
+          "title": "Verifique se seus conceitos iniciais alcançam o potencial do design",
+          "rules": "Categorias iniciais viram regras em silêncio. Se toda carta precisa pertencer a um balde ou ao outro, as cartas mais interessantes — as que pertencem aos dois — nunca poderão ser feitas.",
+          "flavor": "No começo as cartas eram marcadas como «carta de Lorwyn» ou «carta de Shadowmoor». Largar isso permitiu um metamorfo carregando marcadores -1/-1, ou uma carta typal híbrida: coisas que nenhum dos sets originais podia imprimir."
+        },
+        {
+          "title": "Simplifique contando a coisa mais simples",
+          "rules": "Uma mecânica de contagem pode ficar mais barata de usar sem mudar para que serve. Pergunte se a contabilidade exigida pelas regras compra mesmo algo que o jogador perceba.",
+          "flavor": "O arco-íris começou como a festa: cada permanente contribui com uma cor, até cinco. Saiu como vívido, funcionando como domínio — basta contar quantas cores você tem. A praga foi simplificada do mesmo jeito."
+        },
+        {
+          "title": "Uma mecânica pode significar uma coisa e parecer outra",
+          "rules": "Identidade mecânica e identidade emocional são eixos separados e não precisam concordar. Quando se afastam, essa distância é informação sobre o que o design está de fato pedindo.",
+          "flavor": "Vívido se importa com cor, território de Shadowmoor, mas se lê como luminoso e acolhedor, que é Lorwyn. Essa contradição é parte do que empurrou o time a deixar as duas identidades dividirem uma carta."
+        },
+        {
+          "title": "Se todos os temas premiam acumular, compre um motivo para atacar",
+          "rules": "Typal e arco-íris pedem os dois que você junte permanentes e os mantenha. Um set feito só desses incentivos empaca, então precisa comprar agressividade de propósito em outro lugar.",
+          "flavor": "Cabriolar premiava causar quatro pontos de dano no total no seu turno, de qualquer fonte, buscando parecer brincalhão mesmo agredindo. Caçar punha uma aura numa criatura inimiga e fazia você comprar quando ela morria. Nenhum sobreviveu: praga e vívido acabaram cobrindo dois arquétipos cada."
+        },
+        {
+          "title": "Quando uma variável é o nó da questão, especifique-a em números",
+          "rules": "Prosa serve para intenção e não serve para racionamento. Se um recurso é aquilo em torno do qual o set inteiro gira, entregue as contagens, não os adjetivos.",
+          "flavor": "Gottlieb enumera por cor: duas comuns do tipo de criatura principal, duas do tipo de apoio, um metamorfo com metamorfose, uma do tipo secundário — e repete tudo para os pares híbridos e para o incomum."
         }
       ]
     },
     "zh-Hans": {
-      "title": "Lorwyn Eclipsed Vision Design Handoff, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "《Lorwyn Eclipsed》愿景设计交接文件，第二部分",
+      "dek": "「混合」这根支柱、当时仍未解决的双面牌，以及一份逐个牌位写死的系列结构。",
+      "overview": "戈特利布那份文件的后半部分：让洛温与暗影荒原的机制终于能共处一张牌的「中间地带」、试过却仍未定案的七种双面牌做法，以及一份按颜色与稀有度拆解的生物类别分配表。",
+      "takeaway": "这是一份在套牌设计中途交出的文件，而最大的那个问题仍然悬着。双面牌——自罗斯沃特最初提案起就是整个系列的前提——在这里呈现为七次尝试，外加一个「尚无结论」。",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "交出你的那些尝试，而不只是结论",
+          "rules": "一份只说明「你最后落到哪里」的文件，教的东西少于一份展示「你试过什么」的文件。被否掉的做法清单，为下一棒画出了这片空间的地图，也说明了活下来的那个点子凭什么活下来。",
+          "flavor": "双面牌那一节走过七种路子——自动翻面的生物、模式化生物、攻击触发翻面、结界、地与生物的配对——最后一种都没定。「交接时很清楚：双面牌还需要大量工作。」"
+        },
+        {
+          "title": "检查你起手的那些概念，够不够得着这个设计的上限",
+          "rules": "早期定下的分类，会悄悄变成规则。如果每张牌都必须属于这一桶或那一桶，那么最有意思的牌——同时属于两边的那些——就永远造不出来。",
+          "flavor": "起初每张牌都被标注成「洛温的牌」或「暗影荒原的牌」。松开这一条之后，他们才能做出带 -1/-1 指示物的变形兽，或者一张混血的类别流牌——这些是原来那两个系列谁都印不出来的。"
+        },
+        {
+          "title": "通过「数更简单的东西」来简化",
+          "rules": "一个计数机制可以在不改变用途的前提下，变得更便宜好用。要问的是：规则所要求的那份记账，真的买到了玩家能察觉的什么东西吗？",
+          "flavor": "彩虹最初像「结伴」：每个永久物只贡献一种颜色，最多五个。最终以「鲜明」面世，运作方式更像「疆域」——直接数你有几种颜色。枯萎也是照同样思路简化的。"
+        },
+        {
+          "title": "一个机制可以「意思是一回事，感觉是另一回事」",
+          "rules": "机制身份与情绪身份是两条不同的轴，本来就不必一致。当它们分岔时，那道缝隙本身就是信息，告诉你这个设计真正想要的是什么。",
+          "flavor": "鲜明关心的是颜色，那是暗影荒原的地盘；可它读起来明亮而包容，那是洛温的气质。正是这种矛盾，推动团队去让两种身份共处一张牌。"
+        },
+        {
+          "title": "如果所有主题都奖励囤积，那就花钱买一个进攻的理由",
+          "rules": "类别流和彩虹，两者都要求你堆永久物并且留住它们。一个完全由这类激励构成的系列会卡住，所以它必须在别处刻意买来攻击性。",
+          "flavor": "「撒欢」奖励你在自己回合内由任意来源累计造成四点伤害，追求的是「即便在进攻，也显得俏皮」。「狩猎」则往对手生物身上贴一张灵气，它死时让你抓一张牌。两者都没活下来：枯萎和鲜明最后各自撑起了两个原型。"
+        },
+        {
+          "title": "当某个变量是全局关键时，就用数字把它写死",
+          "rules": "散文适合表达意图，却完全不适合分配定额。如果某种资源正是整个系列赖以运转的东西，那就把数目交出去，而不是把形容词交出去。",
+          "flavor": "戈特利布按颜色逐条列出：主要生物类别的普通牌两张、辅助类别两张、一张带变形的变形兽、一张次要类别——然后对混血色对、对非普通位，再各来一遍。"
         }
       ]
     }
