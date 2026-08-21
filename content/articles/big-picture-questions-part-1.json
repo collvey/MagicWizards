@@ -1,0 +1,190 @@
+{
+  "id": "big-picture-questions-part-1",
+  "slug": "big-picture-questions-part-1",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2026-08-17",
+  "series": { "id": "big-picture-questions", "order": 1, "total": 2 },
+  "tags": ["mailbag", "card-types", "formats"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/big-picture-questions-part-1",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-21",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Big-Picture Questions, Part 1",
+      "dek": "A mailbag about foundations: functional reprints, variance against skill, and the parts of Magic that can no longer be fixed.",
+      "overview": "Rosewater asked his readers for broad questions instead of card-specific ones and got five about the game's structure. The recurring answer is a line between what he would change if Magic were being built today and what thirty years of printed cards will actually permit.",
+      "takeaway": "Several of these constraints stopped being design decisions long ago and became history. Knowing which parts of your system are still choices, and which have hardened into facts, is its own discipline.",
+      "lessons": [
+        {
+          "title": "The future can't be held hostage by the past",
+          "rules": "If a tool already in the box solves a new set's problem, use it. Design space is finite and any mechanic has only so many balanced executions, so refusing to ever make a second version of a card is untenable.",
+          "flavor": "Shadows over Innistrad established that a 1/2 for one white that investigates is the right rate. Murders at Karlov Manor needed exactly that, but Thraben is on Innistrad — hence Novice Inspector, named to work on any plane."
+        },
+        {
+          "title": "Variance and skill trade against each other",
+          "rules": "Singleton and a hundred-card deck make every game look different, which is fun, and also lower how much skill decides the result. Play sets exist so repetition can be optimized; push consistency further and matchup starts beating player.",
+          "flavor": "R&D has run the exercise — what if a deck could hold five or six copies? What blocks it isn't taste: three decades of balance metrics are calibrated to the current limits, and moving them means unlearning them."
+        },
+        {
+          "title": "A category can outlive the reason it was drawn",
+          "rules": "Artifacts were the cards any deck could play; enchantments lived inside the colour pie. Once colourless power had to stay capped for balance, strong artifacts needed colours too — and the real difference between the two types was gone.",
+          "flavor": "What remains is mostly creative: tangible against intangible, and you don't tap enchantments as a cost. Given a rewrite, Rosewater would have one noncreature permanent type with both as subtypes."
+        },
+        {
+          "title": "Notation has to match intuition, not logic",
+          "rules": "Before Alpha, a mana cost stated the total first and the coloured requirement second. Playtesters misread it so consistently that Garfield changed the system to fit them rather than trying to correct them.",
+          "flavor": "One mismatch survived: R&D reads costs in written order and everyone else says \"one black and two colourless.\" He got a single shot at fixing it — Future Sight's futureshifted frame put the coloured symbols first."
+        },
+        {
+          "title": "Take the big swing, and let the physical world be what says no",
+          "rules": "What works at a small print run can be impossible at Magic's. Per-card costs balloon with scale, every printer involved has to be capable of it, and booster dimensions constrain everything that goes inside them.",
+          "flavor": "Edge of Eternities was handed off with double-size \"cosmic\" cards. The Duel Masters tri-fold died on weight — the binding makes a booster heavier, so you could find them by weighing packs."
+        }
+      ]
+    },
+    "es": {
+      "title": "Preguntas de fondo, parte 1",
+      "dek": "Un buzón sobre cimientos: reimpresiones funcionales, varianza frente a habilidad y las piezas de Magic que ya no tienen arreglo.",
+      "overview": "Rosewater pidió a sus lectores preguntas amplias en vez de preguntas sobre cartas concretas, y recibió cinco sobre la estructura del juego. La respuesta que se repite traza una línea entre lo que cambiaría si Magic se estuviera construyendo hoy y lo que treinta años de cartas impresas permiten de verdad.",
+      "takeaway": "Varias de estas ataduras dejaron hace mucho de ser decisiones de diseño y se convirtieron en historia. Saber qué partes de tu sistema siguen siendo elecciones y cuáles se han endurecido hasta ser hechos es una disciplina en sí misma.",
+      "lessons": [
+        {
+          "title": "El futuro no puede quedar secuestrado por el pasado",
+          "rules": "Si una herramienta que ya tienes resuelve el problema de un set nuevo, úsala. El espacio de diseño es finito y cada mecánica admite un número limitado de ejecuciones equilibradas, así que negarse a hacer una segunda versión de una carta es insostenible.",
+          "flavor": "Shadows over Innistrad estableció que un 1/2 por una blanca que investiga es el coste justo. Murders at Karlov Manor necesitaba exactamente eso, pero Thraben está en Innistrad: de ahí Novice Inspector, con un nombre que sirve en cualquier plano."
+        },
+        {
+          "title": "Varianza y habilidad se compran una a costa de la otra",
+          "rules": "El singleton y un mazo de cien cartas hacen que cada partida se vea distinta, lo cual es divertido, y a la vez reducen cuánto decide la habilidad. Los cuartetos existen para poder optimizar la repetición; si aprietas más la consistencia, el emparejamiento empieza a ganarle al jugador.",
+          "flavor": "En I+D han hecho el ejercicio: ¿y si un mazo pudiera llevar cinco o seis copias? Lo que lo frena no es el gusto: treinta años de métricas de equilibrio están calibrados a los límites actuales, y moverlos obliga a desaprenderlos."
+        },
+        {
+          "title": "Una categoría puede sobrevivir a la razón que la trazó",
+          "rules": "Los artefactos eran las cartas que podía jugar cualquier mazo; los encantamientos vivían dentro del pastel de color. Cuando el poder incoloro tuvo que quedarse capado por equilibrio, los artefactos fuertes también necesitaron colores, y la diferencia real entre ambos tipos desapareció.",
+          "flavor": "Lo que queda es casi todo creativo: lo tangible frente a lo intangible, y que los encantamientos no se giran como coste. Si pudiera reescribirlo, Rosewater tendría un solo tipo de permanente no criatura con ambos como subtipos."
+        },
+        {
+          "title": "La notación tiene que encajar con la intuición, no con la lógica",
+          "rules": "Antes de Alpha, un coste de maná indicaba primero el total y después la exigencia de color. Los probadores lo leían mal con tanta constancia que Garfield cambió el sistema para adaptarse a ellos en vez de intentar corregirlos.",
+          "flavor": "Sobrevivió un desajuste: en I+D leen los costes en el orden escrito y todo el mundo dice «una negra y dos incoloras». Solo tuvo una oportunidad de arreglarlo: el marco futureshifted de Future Sight puso primero los símbolos de color."
+        },
+        {
+          "title": "Intenta la jugada grande y deja que sea el mundo físico quien diga que no",
+          "rules": "Lo que funciona en una tirada pequeña puede ser imposible a la escala de Magic. El coste por carta se dispara con el volumen, cada imprenta implicada tiene que poder hacerlo, y las dimensiones del sobre condicionan todo lo que va dentro.",
+          "flavor": "Edge of Eternities llegó del diseño de visión con cartas «cósmicas» del doble de tamaño. El tríptico de Duel Masters murió por el peso: la unión hace el sobre más pesado, así que bastaba con pesarlos para encontrarlos."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Questions de fond, partie 1",
+      "dek": "Un courrier des lecteurs sur les fondations : rééditions fonctionnelles, variance contre technique, et les pièces de Magic qu'on ne peut plus réparer.",
+      "overview": "Rosewater a demandé à ses lecteurs des questions larges plutôt que des questions sur des cartes précises, et en a reçu cinq sur la structure du jeu. La réponse récurrente trace une ligne entre ce qu'il changerait si Magic se construisait aujourd'hui et ce que trente ans de cartes imprimées autorisent réellement.",
+      "takeaway": "Plusieurs de ces contraintes ont cessé depuis longtemps d'être des décisions de conception pour devenir de l'histoire. Savoir quelles parties de votre système restent des choix et lesquelles ont durci en faits est une discipline à part entière.",
+      "lessons": [
+        {
+          "title": "L'avenir ne peut pas être pris en otage par le passé",
+          "rules": "Si un outil déjà dans la boîte règle le problème d'un nouveau set, servez-vous-en. L'espace de conception est fini et chaque mécanique n'admet qu'un petit nombre d'exécutions équilibrées : refuser à jamais une seconde version d'une carte est intenable.",
+          "flavor": "Shadows over Innistrad a établi qu'une 1/2 pour un blanc qui enquête est au bon tarif. Murders at Karlov Manor avait besoin exactement de ça, mais Thraben est sur Innistrad — d'où Novice Inspector, nommée pour fonctionner sur n'importe quel plan."
+        },
+        {
+          "title": "Variance et technique s'achètent l'une contre l'autre",
+          "rules": "Le singleton et un deck de cent cartes font que chaque partie ne ressemble pas à la précédente, ce qui est plaisant, et réduisent d'autant le poids de la technique. Les jeux de quatre existent pour qu'on puisse optimiser la répétition ; poussez la régularité plus loin et l'appariement se met à battre le joueur.",
+          "flavor": "La R&D a fait l'exercice : et si un deck pouvait contenir cinq ou six exemplaires ? Ce qui bloque n'est pas le goût — trente ans de métriques d'équilibre sont calées sur les limites actuelles, et les déplacer oblige à les désapprendre."
+        },
+        {
+          "title": "Une catégorie peut survivre à la raison qui l'a tracée",
+          "rules": "Les artefacts étaient les cartes que tout deck pouvait jouer ; les enchantements vivaient dans la roue des couleurs. Dès lors que la puissance incolore devait rester plafonnée pour l'équilibre, les artefacts forts ont eu besoin de couleurs eux aussi, et la vraie différence entre les deux types a disparu.",
+          "flavor": "Ce qui reste est surtout créatif : le tangible contre l'intangible, et le fait qu'on n'engage pas un enchantement en coût. À réécrire, Rosewater n'aurait qu'un type de permanent non-créature, avec les deux en sous-types."
+        },
+        {
+          "title": "La notation doit épouser l'intuition, pas la logique",
+          "rules": "Avant Alpha, un coût de mana donnait d'abord le total puis l'exigence de couleur. Les testeurs le lisaient de travers si régulièrement que Garfield a changé le système pour s'aligner sur eux plutôt que de chercher à les corriger.",
+          "flavor": "Un décalage a survécu : la R&D lit les coûts dans l'ordre écrit et tout le monde dit « un noir et deux incolores ». Il n'a eu qu'une occasion de le corriger : le cadre futureshifted de Future Sight plaçait les symboles colorés en tête."
+        },
+        {
+          "title": "Tentez le grand coup, et laissez le monde physique dire non",
+          "rules": "Ce qui marche sur un petit tirage peut être impossible à l'échelle de Magic. Le coût par carte enfle avec le volume, chaque imprimeur impliqué doit en être capable, et les dimensions du booster contraignent tout ce qu'on y met.",
+          "flavor": "Edge of Eternities est arrivé du vision design avec des cartes « cosmiques » deux fois plus grandes. Le triptyque de Duel Masters est mort sur le poids : la reliure alourdit le booster, il suffisait donc de peser les paquets."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Perguntas de fundo, parte 1",
+      "dek": "Uma caixa de perguntas sobre alicerces: reimpressões funcionais, variância contra habilidade e as partes de Magic que já não têm conserto.",
+      "overview": "Rosewater pediu aos leitores perguntas amplas em vez de perguntas sobre cartas específicas, e recebeu cinco sobre a estrutura do jogo. A resposta recorrente traça uma linha entre o que ele mudaria se Magic estivesse sendo construído hoje e o que trinta anos de cartas impressas de fato permitem.",
+      "takeaway": "Várias dessas amarras deixaram de ser decisões de design há muito tempo e viraram história. Saber que partes do seu sistema ainda são escolhas e quais endureceram em fatos é uma disciplina por si só.",
+      "lessons": [
+        {
+          "title": "O futuro não pode ficar refém do passado",
+          "rules": "Se uma ferramenta que já está na caixa resolve o problema de um set novo, use. O espaço de design é finito e cada mecânica comporta poucas execuções equilibradas, então recusar para sempre uma segunda versão de uma carta é insustentável.",
+          "flavor": "Shadows over Innistrad estabeleceu que um 1/2 por um branco que investiga é o custo certo. Murders at Karlov Manor precisava exatamente disso, mas Thraben fica em Innistrad — daí Novice Inspector, com nome que serve em qualquer plano."
+        },
+        {
+          "title": "Variância e habilidade se compram uma às custas da outra",
+          "rules": "O singleton e um deck de cem cartas fazem cada partida parecer diferente, o que é divertido, e ao mesmo tempo reduzem o quanto a habilidade decide. Os conjuntos de quatro existem para que a repetição possa ser otimizada; aperte mais a consistência e o confronto começa a vencer o jogador.",
+          "flavor": "A P&D já fez o exercício: e se um deck pudesse ter cinco ou seis cópias? O que trava não é gosto — três décadas de métricas de equilíbrio estão calibradas nos limites atuais, e mexer neles obriga a desaprendê-los."
+        },
+        {
+          "title": "Uma categoria pode sobreviver ao motivo que a traçou",
+          "rules": "Artefatos eram as cartas que qualquer deck podia jogar; encantamentos moravam dentro da pizza de cores. Quando o poder incolor teve de ficar limitado por equilíbrio, artefatos fortes também passaram a precisar de cores, e a diferença real entre os dois tipos sumiu.",
+          "flavor": "O que sobra é quase todo criativo: o tangível contra o intangível, e o fato de não se virar encantamento como custo. Se pudesse reescrever, Rosewater teria um único tipo de permanente não-criatura, com os dois como subtipos."
+        },
+        {
+          "title": "A notação tem de casar com a intuição, não com a lógica",
+          "rules": "Antes de Alpha, um custo de mana dizia primeiro o total e depois a exigência de cor. Os testadores liam errado com tanta constância que Garfield mudou o sistema para se ajustar a eles em vez de tentar corrigi-los.",
+          "flavor": "Um descompasso sobreviveu: a P&D lê os custos na ordem escrita e todo mundo diz «um preto e dois incolores». Ele teve uma única chance de consertar: a moldura futureshifted de Future Sight pôs os símbolos coloridos na frente."
+        },
+        {
+          "title": "Tente a jogada grande e deixe o mundo físico ser quem diz não",
+          "rules": "O que funciona numa tiragem pequena pode ser impossível na escala de Magic. O custo por carta incha com o volume, cada gráfica envolvida precisa dar conta, e as dimensões do booster limitam tudo que vai dentro.",
+          "flavor": "Edge of Eternities chegou do vision design com cartas «cósmicas» do dobro do tamanho. O tríptico de Duel Masters morreu no peso: a junção deixa o booster mais pesado, então bastava pesar os pacotes para achá-los."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "宏观问题，第一部分",
+      "dek": "一期关于地基的读者问答：功能性再版、变数与技术之争，以及万智牌里那些已经修不好的部分。",
+      "overview": "罗斯沃特请读者别问具体某张牌，改问大问题，于是收到了五个关于这款游戏结构的提问。反复出现的那个答案，划出一条界线：如果今天从头造万智牌他会改什么，以及三十年印出去的牌实际上还允许他改什么。",
+      "takeaway": "这里的好几条约束，早就不再是设计决定，而变成了历史。分辨系统中哪些部分仍是可选项、哪些已经硬化成事实，本身就是一门功夫。",
+      "lessons": [
+        {
+          "title": "未来不能被过去劫为人质",
+          "rules": "如果工具箱里现成的东西能解决新系列的问题，那就用。设计空间是有限的，任何一个机制能成立的平衡写法就那么几种，因此「永远不做第二张同样的牌」是撑不住的。",
+          "flavor": "Shadows over Innistrad 确立了「一白费的 1/2、进场探查」是对的费用。Murders at Karlov Manor 要的正是这张，但色巴是依尼翠的地名——于是有了 Novice Inspector，名字取得放在哪个次元都成立。"
+        },
+        {
+          "title": "变数与技术，是互相换来的",
+          "rules": "指挥官式的单张限制加上一百张牌，让每一局都长得不一样，这很有意思，同时也降低了技术对结果的决定权。允许放四张，是为了让重复出现的局面可以被钻研；再往「稳定」推，对位就开始压过人。",
+          "flavor": "研发部真的算过：如果一副牌能放五张、六张呢？拦住这件事的不是口味——三十年的平衡数据全是按现行上限校准的，一动就得把它们全部重学。"
+        },
+        {
+          "title": "一个分类，可能比划出它的理由活得更久",
+          "rules": "神器当初是「任何套牌都能用」的牌，结界则活在色饼之内。等到无色牌的强度为了平衡必须封顶，强力神器也只好带上颜色——这两个牌张类别之间真正的区别，就此消失了。",
+          "flavor": "剩下的差异基本是创作层面的：有形与无形，以及结界不作为费用横置。若能重写，罗斯沃特会只设一个「非生物永久物」类别，把神器和结界都放进去当次类别。"
+        },
+        {
+          "title": "记法要贴着直觉走，而不是贴着逻辑",
+          "rules": "在 Alpha 之前，法术力费用是先写总量、再写颜色要求。测试者一次次读错，错得如此稳定，以至于加菲尔德改的是系统去迁就他们，而不是去纠正他们。",
+          "flavor": "有一处错位活了下来：研发部按书写顺序念费用，其他所有人都说「一黑加两个无色」。他只得到过一次修正机会——Future Sight 的未来牌框把有色符号放到了最前面。"
+        },
+        {
+          "title": "该挥的大棒照挥，让物理世界去说不",
+          "rules": "小印量上行得通的东西，到了万智牌的量级可能根本做不了。每张牌的成本会随规模膨胀，参与印制的每一家印厂都得做得到，而补充包的尺寸又限定了里面能装什么。",
+          "flavor": "Edge of Eternities 从愿景设计交接过来时带着两倍大的「宇宙」牌。Duel Masters 那种三折牌则死在重量上：粘合处让补充包变重，于是称一称就能把它们挑出来。"
+        }
+      ]
+    }
+  }
+}

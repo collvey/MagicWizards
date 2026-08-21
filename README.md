@@ -4,6 +4,8 @@ A static site that condenses [Mark Rosewater's *Making Magic*](https://magic.wiz
 design column into its key points, in five languages, always linking back to the
 original essay.
 
+**Live site: <https://collvey.github.io/MagicWizards/>**
+
 The archive starts with the *Twenty Years, Twenty Lessons* series — Rosewater's
 2016 GDC talk, adapted into three columns — and is built to take the rest of the
 column one article at a time.
@@ -109,7 +111,8 @@ English summary rather than an empty page, and the article header says so.
 ## Deployment
 
 Pushing to `main` runs `.github/workflows/deploy.yml`, which validates the
-content, confirms the manifest is current, and publishes to GitHub Pages.
+content, confirms the manifest is current, and publishes to GitHub Pages at
+<https://collvey.github.io/MagicWizards/>.
 
 ## The queue
 

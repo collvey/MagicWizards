@@ -1,0 +1,242 @@
+{
+  "id": "the-design-of-mood-swings-part-2",
+  "slug": "the-design-of-mood-swings-part-2",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2026-05-18",
+  "series": { "id": "mood-swings", "order": 3, "total": 3 },
+  "tags": ["mood-swings", "game-design", "iteration"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/the-design-of-mood-swings-part-2",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-21",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "The Design of Mood Swings, Part 2",
+      "dek": "Twenty-eight years of iteration — and the notes from other people that changed the game most.",
+      "overview": "Everything after 1998: the tracking problem that reshaped how card values work, the shift to Magic's five colours, and the eight months of intensive work once Secret Lair put the game on the schedule.",
+      "takeaway": "The through-line is other people. Tom LaPille on hope, the Rules team on multiplayer, Corey Bowen on costs, Lucas Harrington on accessibility, Ari Zirulnik on card draw, Michael Zhang and Matt Tabak on language. He had been designing it alone for two decades.",
+      "lessons": [
+        {
+          "title": "Reduce the tracking cost, not the effect",
+          "rules": "A value that continuously recalculates charges attention every turn, and the charge compounds across every card that does it. Keep the feel and cut the states: let a score flip between two settings rather than slide.",
+          "flavor": "Psychosis went from \"worth [1] less for every red card\" to \"worth [3] if there are two or more red cards in play.\" Two values became the ceiling at common and uncommon; wanting more means being rare."
+        },
+        {
+          "title": "Put the state on the component itself",
+          "rules": "If players have to track something, the object should show it. A second die in the lower-left corner means a rotated card displays its own live score, and the colour of a die says whether the score can change at all.",
+          "flavor": "Lucas Harrington, thinking about accessibility, asked what else the cards could carry. That's the exclamation point: it marks every card with an effect lasting beyond the turn it's played."
+        },
+        {
+          "title": "Give the player who is behind a reason to keep playing",
+          "rules": "Someone who can see no path stops playing before they stop losing. Card flow and catch-up features exist to keep possibility alive, not to change who deserves to win.",
+          "flavor": "A playtester in last place won a four-player game off Hope, fell behind again next game, and said \"I really need to draw Hope again.\" That became Hurt Feelings — last place gets the effect for a turn."
+        },
+        {
+          "title": "Make effects optional so a card is never dead in hand",
+          "rules": "Cards stuck in hand are cards not played. Making a beneficial effect optional, and an additional cost optional, lets one card serve two purposes: the points now, or the effect now.",
+          "flavor": "Effects meant to help you became \"may.\" Effects meant to cause you problems stayed mandatory. Cards that forced a discard for [5] became [3] that rises to [5] only if you choose to pay."
+        },
+        {
+          "title": "You will underprice the inconvenience you impose",
+          "rules": "A designer close to their own file systematically undercharges for the costs their cards demand. Someone whose only job is power level corrects a bias that is invisible from inside.",
+          "flavor": "Corey Bowen raised Neurosis from [4] to [5] and Self-Loathing from [5] to [6], and pushed to strip the additional costs off several cards entirely."
+        },
+        {
+          "title": "Naming the categories a design already contains makes it teachable",
+          "rules": "An editor's taxonomy is a design tool. Three kinds of card, three templates, and the whole game becomes three things to explain rather than a list of exceptions.",
+          "flavor": "Michael Zhang found the three types — pay to play it, does something on play, does something while in play — gave each a template, and keyworded suppress. Matt Tabak then renamed \"cards in play\" to \"moods,\" shortening every template at once."
+        },
+        {
+          "title": "Explaining why you can't is how you find out you can",
+          "rules": "A constraint you've held for decades gets examined properly only when you have to justify it out loud. The act of stating the reasoning exposes the assumption hiding inside it.",
+          "flavor": "Ari Zirulnik complained there were no card-draw effects. Mid-explanation of why there couldn't be, Rosewater realised that bottoming a card first keeps the count intact. He found ten slots for it."
+        }
+      ]
+    },
+    "es": {
+      "title": "El diseño de Mood Swings, parte 2",
+      "dek": "Veintiocho años de iteración, y las observaciones ajenas que más cambiaron el juego.",
+      "overview": "Todo lo posterior a 1998: el problema de seguimiento mental que rehízo el funcionamiento de los valores, el salto a los cinco colores de Magic y los ocho meses de trabajo intensivo cuando Secret Lair puso el juego en el calendario.",
+      "takeaway": "El hilo conductor son los demás. Tom LaPille sobre la esperanza, el equipo de Reglas sobre el multijugador, Corey Bowen sobre los costes, Lucas Harrington sobre accesibilidad, Ari Zirulnik sobre el robo, Michael Zhang y Matt Tabak sobre el lenguaje. Llevaba dos décadas diseñándolo solo.",
+      "lessons": [
+        {
+          "title": "Reduce el coste de seguimiento, no el efecto",
+          "rules": "Un valor que se recalcula continuamente cobra atención cada turno, y ese cobro se acumula con cada carta que lo hace. Conserva la sensación y recorta los estados: que la puntuación salte entre dos ajustes en vez de deslizarse.",
+          "flavor": "Psychosis pasó de «vale [1] menos por cada carta roja» a «vale [3] si hay dos o más cartas rojas en juego». Dos valores se volvió el techo en común e infrecuente; querer más obliga a ser rara."
+        },
+        {
+          "title": "Pon el estado en el propio componente",
+          "rules": "Si los jugadores tienen que seguir algo, que el objeto lo muestre. Un segundo dado en la esquina inferior izquierda hace que una carta girada enseñe su puntuación vigente, y el color del dado dice si esa puntuación puede cambiar siquiera.",
+          "flavor": "Lucas Harrington, pensando en accesibilidad, preguntó qué más podían llevar las cartas. De ahí salió el signo de exclamación: marca toda carta con un efecto que dura más allá del turno en que se juega."
+        },
+        {
+          "title": "Dale al que va perdiendo un motivo para seguir jugando",
+          "rules": "Quien no ve ningún camino deja de jugar antes de dejar de perder. El flujo de cartas y los mecanismos de remontada existen para mantener viva la posibilidad, no para cambiar quién merece ganar.",
+          "flavor": "Un probador en último lugar ganó una partida a cuatro gracias a Hope, volvió a quedarse atrás en la siguiente y dijo: «necesito robar Hope otra vez». De ahí nació Hurt Feelings: el último recibe el efecto durante un turno."
+        },
+        {
+          "title": "Haz opcionales los efectos para que ninguna carta muera en la mano",
+          "rules": "Las cartas atascadas en la mano son cartas no jugadas. Volver opcional un efecto beneficioso, y opcional un coste adicional, permite que una misma carta sirva para dos cosas: los puntos ahora, o el efecto ahora.",
+          "flavor": "Los efectos pensados para ayudarte pasaron a «puedes». Los pensados para complicarte siguieron siendo obligatorios. Las cartas que forzaban un descarte por [5] pasaron a valer [3], y solo suben a [5] si eliges pagar."
+        },
+        {
+          "title": "Vas a cobrar de menos las molestias que impones",
+          "rules": "Un diseñador pegado a su propio archivo cobra sistemáticamente de menos por los costes que exigen sus cartas. Alguien cuyo único trabajo es el nivel de poder corrige un sesgo invisible desde dentro.",
+          "flavor": "Corey Bowen subió Neurosis de [4] a [5] y Self-Loathing de [5] a [6], y presionó para quitar del todo los costes adicionales de varias cartas."
+        },
+        {
+          "title": "Nombrar las categorías que un diseño ya tiene lo hace enseñable",
+          "rules": "La taxonomía de un editor es una herramienta de diseño. Tres tipos de carta, tres plantillas, y el juego entero pasa a ser tres cosas que explicar en vez de una lista de excepciones.",
+          "flavor": "Michael Zhang encontró los tres tipos —pagar para jugarla, hacer algo al jugarla, hacer algo mientras está en juego—, dio a cada uno su plantilla y convirtió suprimir en palabra clave. Matt Tabak renombró después «cartas en juego» como «moods», acortando todas las plantillas de golpe."
+        },
+        {
+          "title": "Explicar por qué no puedes es como descubres que sí",
+          "rules": "Una restricción sostenida durante décadas solo se examina de verdad cuando tienes que justificarla en voz alta. El acto de enunciar el razonamiento deja al descubierto la suposición escondida dentro.",
+          "flavor": "Ari Zirulnik se quejó de que no había efectos de robo. A mitad de explicar por qué no podía haberlos, Rosewater cayó en que poner antes una carta debajo del mazo mantiene la cuenta intacta. Encontró diez huecos para ello."
+        }
+      ]
+    },
+    "fr": {
+      "title": "La conception de Mood Swings, partie 2",
+      "dek": "Vingt-huit ans d'itération — et les remarques des autres qui ont le plus changé le jeu.",
+      "overview": "Tout ce qui suit 1998 : le problème de suivi mental qui a refondu le fonctionnement des valeurs, le passage aux cinq couleurs de Magic, et les huit mois de travail intensif une fois le jeu inscrit au calendrier de Secret Lair.",
+      "takeaway": "Le fil, ce sont les autres. Tom LaPille sur l'espoir, l'équipe des Règles sur le multijoueur, Corey Bowen sur les coûts, Lucas Harrington sur l'accessibilité, Ari Zirulnik sur la pioche, Michael Zhang et Matt Tabak sur la langue. Il le concevait seul depuis vingt ans.",
+      "lessons": [
+        {
+          "title": "Réduisez le coût de suivi, pas l'effet",
+          "rules": "Une valeur qui se recalcule en continu prélève de l'attention à chaque tour, et le prélèvement s'additionne sur chaque carte qui le fait. Gardez la sensation, coupez les états : que le score bascule entre deux réglages au lieu de glisser.",
+          "flavor": "Psychosis est passée de « vaut [1] de moins par carte rouge » à « vaut [3] s'il y a deux cartes rouges ou plus en jeu ». Deux valeurs sont devenues le plafond en commune et inhabituelle ; en vouloir plus impose la rareté."
+        },
+        {
+          "title": "Inscrivez l'état sur le composant lui-même",
+          "rules": "Si les joueurs doivent suivre quelque chose, l'objet doit l'afficher. Un second dé en bas à gauche fait qu'une carte pivotée montre son score en vigueur, et la couleur du dé dit si ce score peut changer.",
+          "flavor": "Lucas Harrington, en pensant accessibilité, a demandé ce que les cartes pouvaient encore porter. D'où le point d'exclamation : il marque toute carte dont l'effet dure au-delà du tour où on la joue."
+        },
+        {
+          "title": "Donnez à celui qui est derrière une raison de continuer",
+          "rules": "Qui ne voit aucun chemin cesse de jouer avant de cesser de perdre. Le flux de cartes et les mécanismes de rattrapage existent pour maintenir le possible, pas pour changer qui mérite de gagner.",
+          "flavor": "Un testeur dernier a gagné une partie à quatre grâce à Hope, s'est retrouvé distancé à la suivante, et a lâché : « il me faudrait encore piocher Hope ». D'où Hurt Feelings : le dernier obtient l'effet pour un tour."
+        },
+        {
+          "title": "Rendez les effets optionnels pour qu'aucune carte ne meure en main",
+          "rules": "Une carte coincée en main est une carte non jouée. Rendre optionnel un effet bénéfique, et optionnel un coût additionnel, permet à une même carte de servir à deux choses : les points maintenant, ou l'effet maintenant.",
+          "flavor": "Les effets censés vous aider sont passés à « vous pouvez ». Ceux censés vous gêner sont restés obligatoires. Les cartes qui imposaient une défausse pour [5] valent désormais [3], et ne montent à [5] que si vous choisissez de payer."
+        },
+        {
+          "title": "Vous sous-facturerez toujours la gêne que vous imposez",
+          "rules": "Un concepteur collé à son propre fichier sous-facture systématiquement les coûts qu'exigent ses cartes. Quelqu'un dont le seul métier est le niveau de puissance corrige un biais invisible de l'intérieur.",
+          "flavor": "Corey Bowen a fait passer Neurosis de [4] à [5] et Self-Loathing de [5] à [6], et poussé pour retirer complètement les coûts additionnels de plusieurs cartes."
+        },
+        {
+          "title": "Nommer les catégories qu'un design contient déjà le rend enseignable",
+          "rules": "La taxonomie d'un éditeur est un outil de conception. Trois sortes de cartes, trois gabarits, et le jeu entier devient trois choses à expliquer plutôt qu'une liste d'exceptions.",
+          "flavor": "Michael Zhang a repéré les trois types — payer pour la jouer, faire quelque chose en la jouant, faire quelque chose tant qu'elle est en jeu — leur a donné un gabarit chacun, et a mot-clé la suppression. Matt Tabak a ensuite rebaptisé « cartes en jeu » en « moods », raccourcissant tous les gabarits d'un coup."
+        },
+        {
+          "title": "Expliquer pourquoi c'est impossible, c'est découvrir que ça ne l'est pas",
+          "rules": "Une contrainte tenue pendant des décennies n'est vraiment examinée que le jour où il faut la justifier à voix haute. Énoncer le raisonnement met au jour l'hypothèse qui s'y cachait.",
+          "flavor": "Ari Zirulnik déplorait l'absence d'effets de pioche. En pleine explication des raisons de cette absence, Rosewater a compris que mettre d'abord une carte sous le paquet préserve le compte. Il a trouvé dix emplacements."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "O design de Mood Swings, parte 2",
+      "dek": "Vinte e oito anos de iteração — e as observações alheias que mais mudaram o jogo.",
+      "overview": "Tudo o que veio depois de 1998: o problema de rastreamento mental que refez o funcionamento dos valores, a virada para as cinco cores de Magic, e os oito meses de trabalho intenso depois que a Secret Lair pôs o jogo no calendário.",
+      "takeaway": "O fio condutor são as outras pessoas. Tom LaPille sobre esperança, o time de Regras sobre multiplayer, Corey Bowen sobre custos, Lucas Harrington sobre acessibilidade, Ari Zirulnik sobre compra de cartas, Michael Zhang e Matt Tabak sobre linguagem. Ele vinha projetando sozinho havia duas décadas.",
+      "lessons": [
+        {
+          "title": "Reduza o custo de rastreamento, não o efeito",
+          "rules": "Um valor que se recalcula o tempo todo cobra atenção a cada turno, e a cobrança se acumula em cada carta que faz isso. Mantenha a sensação e corte os estados: deixe a pontuação alternar entre dois ajustes em vez de deslizar.",
+          "flavor": "Psychosis passou de «vale [1] a menos para cada carta vermelha» para «vale [3] se houver duas ou mais cartas vermelhas em jogo». Dois valores viraram o teto no comum e no incomum; querer mais exige ser rara."
+        },
+        {
+          "title": "Ponha o estado no próprio componente",
+          "rules": "Se os jogadores precisam acompanhar algo, o objeto deve mostrar. Um segundo dado no canto inferior esquerdo faz a carta girada exibir a pontuação vigente, e a cor do dado diz se essa pontuação pode mudar.",
+          "flavor": "Lucas Harrington, pensando em acessibilidade, perguntou o que mais as cartas podiam carregar. Daí o ponto de exclamação: marca toda carta com efeito que dura além do turno em que é jogada."
+        },
+        {
+          "title": "Dê a quem está atrás um motivo para continuar jogando",
+          "rules": "Quem não enxerga caminho para de jogar antes de parar de perder. Fluxo de cartas e recursos de recuperação existem para manter a possibilidade viva, não para mudar quem merece ganhar.",
+          "flavor": "Um testador em último lugar venceu uma partida de quatro com Hope, ficou para trás de novo na seguinte e disse: «eu precisava comprar Hope de novo». Virou Hurt Feelings: o último ganha o efeito por um turno."
+        },
+        {
+          "title": "Torne efeitos opcionais para que nenhuma carta morra na mão",
+          "rules": "Carta travada na mão é carta não jogada. Tornar opcional um efeito benéfico, e opcional um custo adicional, faz a mesma carta servir a duas coisas: os pontos agora, ou o efeito agora.",
+          "flavor": "Efeitos feitos para ajudar viraram «você pode». Efeitos feitos para atrapalhar continuaram obrigatórios. Cartas que forçavam descarte por [5] passaram a [3], subindo a [5] só se você escolher pagar."
+        },
+        {
+          "title": "Você vai cobrar de menos pelo incômodo que impõe",
+          "rules": "Um designer colado ao próprio arquivo cobra sistematicamente pouco pelos custos que suas cartas exigem. Alguém cujo único trabalho é nível de poder corrige um viés invisível por dentro.",
+          "flavor": "Corey Bowen subiu Neurosis de [4] para [5] e Self-Loathing de [5] para [6], e empurrou para tirar de vez os custos adicionais de várias cartas."
+        },
+        {
+          "title": "Nomear as categorias que um design já contém o torna ensinável",
+          "rules": "A taxonomia de um editor é ferramenta de design. Três tipos de carta, três templates, e o jogo inteiro vira três coisas a explicar em vez de uma lista de exceções.",
+          "flavor": "Michael Zhang achou os três tipos — pagar para jogar, fazer algo ao jogar, fazer algo enquanto está em jogo — deu um template a cada e transformou suprimir em palavra-chave. Matt Tabak depois rebatizou «cartas em jogo» como «moods», encurtando todos os templates de uma vez."
+        },
+        {
+          "title": "Explicar por que não dá é como se descobre que dá",
+          "rules": "Uma restrição mantida por décadas só é examinada de verdade quando você precisa justificá-la em voz alta. O ato de enunciar o raciocínio expõe a suposição escondida dentro dele.",
+          "flavor": "Ari Zirulnik reclamou que não havia efeitos de compra. No meio da explicação de por que não podia haver, Rosewater percebeu que pôr antes uma carta no fundo mantém a conta intacta. Achou dez espaços para isso."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "《Mood Swings》的设计，第二部分",
+      "dek": "二十八年的迭代——以及那些真正改变了这个游戏的、来自别人的意见。",
+      "overview": "1998 年之后的一切：那个重塑了「牌面点数如何运作」的心算负担问题、向万智牌五色体系的转换，以及 Secret Lair 把它排进日程之后那八个月的密集打磨。",
+      "takeaway": "贯穿全篇的是别人。汤姆·拉皮尔谈「希望」，规则团队谈多人局，科里·鲍恩谈费用，卢卡斯·哈灵顿谈无障碍，阿里·齐鲁尼克谈抓牌，迈克尔·张和马特·塔巴克谈措辞。而在此之前，他已经独自设计了它二十年。",
+      "lessons": [
+        {
+          "title": "该削减的是追踪成本，不是效果",
+          "rules": "一个持续重算的数值，每个回合都在向注意力收费；而每多一张这样的牌，这笔费用就叠加一次。保住感觉、砍掉状态：让点数在两个档位之间跳变，而不是连续滑动。",
+          "flavor": "Psychosis 从「每有一张红牌就少 [1] 点」改成了「若场上有两张或更多红牌，则为 [3]」。两个数值成了普通与非普通的上限；想要更多，就得做成稀有。"
+        },
+        {
+          "title": "把状态刻在组件本身上",
+          "rules": "如果玩家必须追踪某样东西，那就让物件自己显示它。左下角的第二颗骰子，意味着把牌转过来就能显示它当前生效的点数；而骰子的颜色告诉你这个点数究竟会不会变。",
+          "flavor": "卢卡斯·哈灵顿从无障碍角度出发，问牌面还能承载些什么。感叹号就是这么来的：凡是效果延续到打出当回合之后的牌，都带着它。"
+        },
+        {
+          "title": "给落后的那个人一个继续打下去的理由",
+          "rules": "一个看不见路的人，会在「输掉」之前先「不玩了」。牌的流动和追赶机制的存在，是为了让可能性还活着，而不是为了改变谁该赢。",
+          "flavor": "一位排在最后的测试者靠 Hope 赢下了一局四人局，下一局又落后了，于是说：「我真需要再抽到一张 Hope。」这句话变成了 Hurt Feelings——最后一名可以获得该效果一个回合。"
+        },
+        {
+          "title": "把效果改成可选，好让牌永远不会烂在手里",
+          "rules": "卡在手上的牌，就是没被打出的牌。把有利效果改成可选、把额外费用改成可选，同一张牌就能服务于两种目的：现在要点数，还是现在要效果。",
+          "flavor": "本意帮你的效果改成了「你可以」。本意给你添麻烦的则保持强制。而那些「弃一张牌换 [5] 点」的牌，如今是 [3] 点，只有你选择支付时才升到 [5]。"
+        },
+        {
+          "title": "你一定会低估自己强加的那份麻烦",
+          "rules": "一个贴着自己卡表的设计师，会系统性地为自家牌所要求的代价开出过低的价钱。而一个「唯一职责就是强度」的人，能纠正这种从内部看不见的偏差。",
+          "flavor": "科里·鲍恩把 Neurosis 从 [4] 提到 [5]，把 Self-Loathing 从 [5] 提到 [6]，还力主把好几张牌的额外费用整个拿掉。"
+        },
+        {
+          "title": "把设计本来就有的类别命名出来，它才教得会",
+          "rules": "编辑给出的分类法，本身就是一件设计工具。三种牌，三套叙述模板，整个游戏就从「一长串例外」变成了「三件要解释的事」。",
+          "flavor": "迈克尔·张找出了那三类——打出前要付出、打出时会发生、在场上持续生效——各配一套模板，并把「压制」立为关键字。马特·塔巴克随后把「场上的牌」改称 moods，一举缩短了每一条模板。"
+        },
+        {
+          "title": "解释「为什么做不到」，正是你发现「其实做得到」的方式",
+          "rules": "一条你坚持了几十年的限制，往往要到你必须开口为它辩护的那一刻，才第一次被真正检查。把推理说出口这个动作，会让藏在里头的那个假设暴露出来。",
+          "flavor": "阿里·齐鲁尼克抱怨说这游戏里没有抓牌效果。就在罗斯沃特解释「为什么不能有」的半途中，他意识到：只要先把一张牌压到牌库底，总数就不会变。他随后在卡表里找出了十个位置。"
+        }
+      ]
+    }
+  }
+}

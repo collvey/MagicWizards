@@ -1,0 +1,190 @@
+{
+  "id": "lessons-learned-part-9",
+  "slug": "lessons-learned-part-9",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2026-05-25",
+  "series": { "id": "lessons-learned", "order": 9, "total": 9 },
+  "tags": ["game-design", "postmortem", "sets"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/lessons-learned-part-9",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-21",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Lessons Learned, Part 9",
+      "dek": "The Lost Caverns of Ixalan and Murders at Karlov Manor — two sets where, by his own account, the vision was wrong.",
+      "overview": "Part nine covers two of Rosewater's own vision designs and concludes that both missed. Ixalan because he built the set around a theme he'd been waiting years to use; Karlov Manor because murder mystery turns out to be a genre of plot rather than of place.",
+      "takeaway": "Both sets were moved to an existing plane late in development, and he traces both changes to the same root: a vision that never established what the set was. \"And that rests on me, the lead vision designer of both sets.\"",
+      "lessons": [
+        {
+          "title": "Don't make a set the vehicle for a theme you've been waiting to use",
+          "rules": "The question is never whether a theme can be made to fit, it's whether it's the best fit for what this environment needs. Championing an answer from before the question was asked quietly turns the set into an argument for it.",
+          "flavor": "Rosewater had wanted \"colour matters\" back since Shadowmoor and decided an underground world was its home before design began. He quotes Maslow: with only a hammer, every problem looks like a nail. \"I was my largest obstacle.\""
+        },
+        {
+          "title": "When a downstream team objects, they're seeing what you can't",
+          "rules": "Each group invited to a review represents a concern that lives past your stage. Their objection is usually not about taste — it's about a consequence that only becomes visible from where they stand.",
+          "flavor": "Play Design hated the five coloured Treasure variants at the Vision Summit: hard to track, too fast, and their mana ability so outclassed their role as craft components that nobody would craft. Vision design switched to counters."
+        },
+        {
+          "title": "A genre gives you cards; an environment gives you a world",
+          "rules": "Gothic horror and Greek myth arrive with tropes, tone, and scenery. A genre made of character archetypes and plot beats will furnish plenty of individual cards and still leave you without a place for them to happen.",
+          "flavor": "Murder mystery let them make investigate, disguise, Cases, and collect evidence — and no world. Magic can't control which cards you open, so the feel of the setting has to survive being spread across every booster."
+        },
+        {
+          "title": "When you keep reaching for the same signifier, the well is dry",
+          "rules": "Repetition of one visual cue is evidence, not style. If the same prop keeps appearing because nothing else says the theme, the theme isn't deep enough to carry a set.",
+          "flavor": "\"The fact that we kept putting detective hats on characters should have been a sign.\" His revision list is mostly subtraction: cut cloak, cut suspect, cut the Detective typal cards, and spend the space on Ravnica instead."
+        },
+        {
+          "title": "Push the boundary even when only a few people follow",
+          "rules": "Reach isn't the only measure of whether something was worth doing. An experiment that works but finds a small audience still moves the line for everything afterwards.",
+          "flavor": "Only a small share of players engaged with Karlov Manor's puzzles, but they were built into the product as no puzzle event had been before. He counts it among the things he's proud of."
+        }
+      ]
+    },
+    "es": {
+      "title": "Lecciones aprendidas, parte 9",
+      "dek": "The Lost Caverns of Ixalan y Murders at Karlov Manor: dos sets en los que, según él mismo, la visión estaba equivocada.",
+      "overview": "La novena parte repasa dos diseños de visión suyos y concluye que ambos fallaron. Ixalan porque construyó el set alrededor de un tema que llevaba años esperando usar; Karlov Manor porque el misterio de asesinato resulta ser un género de trama y no de lugar.",
+      "takeaway": "Ambos sets se trasladaron tarde a un plano ya existente, y él remonta los dos cambios a la misma raíz: una visión que nunca llegó a establecer qué era el set. «Y eso recae sobre mí, diseñador de visión de ambos».",
+      "lessons": [
+        {
+          "title": "No conviertas un set en el vehículo de un tema que llevabas esperando usar",
+          "rules": "La pregunta nunca es si un tema puede encajar, sino si es el que mejor encaja con lo que este entorno necesita. Defender una respuesta anterior a la pregunta convierte el set, sin que lo notes, en un alegato a su favor.",
+          "flavor": "Rosewater quería recuperar el «los colores importan» desde Shadowmoor y decidió que un mundo subterráneo era su casa antes de empezar. Cita a Maslow: con solo un martillo, todo problema parece un clavo. «Yo era mi mayor obstáculo»."
+        },
+        {
+          "title": "Cuando un equipo de aguas abajo objeta, está viendo lo que tú no puedes",
+          "rules": "Cada grupo invitado a una revisión representa una preocupación que vive más allá de tu etapa. Su objeción rara vez es cuestión de gusto: es una consecuencia que solo se ve desde donde ellos están.",
+          "flavor": "En la Cumbre de Visión, Play Design detestó los cinco Tesoros de colores: difíciles de seguir, demasiado rápidos, y con una habilidad de maná que superaba tanto su papel de material que nadie fabricaría nada. El diseño de visión pasó a contadores."
+        },
+        {
+          "title": "Un género te da cartas; un entorno te da un mundo",
+          "rules": "El terror gótico y la mitología griega llegan con tropos, tono y escenografía. Un género hecho de arquetipos de personaje y giros de trama te dará muchas cartas sueltas y te dejará igualmente sin un lugar donde ocurran.",
+          "flavor": "El misterio de asesinato les permitió hacer investigar, disfrazar, los Casos y recabar pruebas, y ningún mundo. Magic no controla qué cartas abres, así que el aire del entorno tiene que sobrevivir repartido por todos los sobres."
+        },
+        {
+          "title": "Cuando repites el mismo distintivo, el pozo está seco",
+          "rules": "Repetir una señal visual es una prueba, no un estilo. Si el mismo accesorio reaparece porque nada más dice el tema, el tema no tiene fondo suficiente para sostener un set.",
+          "flavor": "«Que siguiéramos poniendo sombreros de detective a los personajes debería haber sido una señal». Su lista de correcciones es casi toda resta: fuera camuflar, fuera sospechar, fuera las cartas tribales de Detective, y ese espacio para Ravnica."
+        },
+        {
+          "title": "Empuja los límites aunque solo te siga un puñado",
+          "rules": "El alcance no es la única medida de si algo valía la pena. Un experimento que funciona y encuentra poco público sigue moviendo la línea para todo lo que venga después.",
+          "flavor": "Solo una pequeña parte del público interactuó con los puzles de Karlov Manor, pero estaban integrados en el producto como ningún evento de puzles lo había estado. Lo cuenta entre las cosas de las que está orgulloso."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Leçons apprises, partie 9",
+      "dek": "The Lost Caverns of Ixalan et Murders at Karlov Manor : deux sets où, de son propre aveu, la vision était fausse.",
+      "overview": "La neuvième partie revient sur deux de ses propres vision designs et conclut qu'ils ont manqué leur cible. Ixalan parce qu'il a bâti le set autour d'un thème qu'il attendait d'employer depuis des années ; Karlov Manor parce que le polar s'avère un genre d'intrigue et non de lieu.",
+      "takeaway": "Les deux sets ont été déplacés tard vers un plan existant, et il fait remonter les deux changements à la même racine : une vision qui n'a jamais établi ce qu'était le set. « Et cela repose sur moi, lead vision designer des deux. »",
+      "lessons": [
+        {
+          "title": "Ne faites pas d'un set le véhicule d'un thème que vous attendiez d'employer",
+          "rules": "La question n'est jamais de savoir si un thème peut entrer, mais s'il est le meilleur pour ce dont cet environnement a besoin. Défendre une réponse antérieure à la question transforme insensiblement le set en plaidoyer pour elle.",
+          "flavor": "Rosewater voulait ramener le « les couleurs comptent » depuis Shadowmoor et avait décidé qu'un monde souterrain en serait le foyer avant même de commencer. Il cite Maslow : avec un seul marteau, tout problème ressemble à un clou. « J'étais mon plus grand obstacle. »"
+        },
+        {
+          "title": "Quand une équipe en aval objecte, elle voit ce que vous ne pouvez pas voir",
+          "rules": "Chaque groupe convié à une relecture représente une préoccupation qui survit à votre étape. Son objection relève rarement du goût : c'est une conséquence qui n'apparaît que d'où il se tient.",
+          "flavor": "Au Sommet de Vision, le Play Design a détesté les cinq Trésors colorés : difficiles à suivre, trop rapides, et leur capacité de mana surclassait tant leur rôle de composant que personne ne fabriquerait rien. Le vision design est passé aux marqueurs."
+        },
+        {
+          "title": "Un genre vous donne des cartes ; un environnement vous donne un monde",
+          "rules": "L'horreur gothique et la mythologie grecque arrivent avec des tropes, un ton, un décor. Un genre fait d'archétypes de personnages et de ressorts d'intrigue fournira quantité de cartes isolées et vous laissera sans lieu où les faire advenir.",
+          "flavor": "Le polar leur a donné l'enquête, le déguisement, les Affaires et le rassemblement de preuves — et aucun monde. Magic ne choisit pas les cartes que vous ouvrez : l'atmosphère du décor doit survivre à sa dispersion dans tous les boosters."
+        },
+        {
+          "title": "Quand vous ressortez sans cesse le même signe, le puits est à sec",
+          "rules": "Répéter un indice visuel est une preuve, pas un style. Si le même accessoire revient parce que rien d'autre ne dit le thème, c'est que le thème n'a pas assez de fond pour porter un set.",
+          "flavor": "« Le fait qu'on n'arrêtait pas de coiffer les personnages d'un chapeau de détective aurait dû nous alerter. » Sa liste de corrections est surtout soustractive : couper le camouflage, couper le soupçon, couper le typal Détective, et rendre la place à Ravnica."
+        },
+        {
+          "title": "Poussez la limite même si peu de gens suivent",
+          "rules": "La portée n'est pas la seule mesure de ce qui valait la peine. Une expérience qui fonctionne mais touche peu de monde déplace tout de même la ligne pour tout ce qui viendra après.",
+          "flavor": "Seule une petite part du public s'est emparée des énigmes de Karlov Manor, mais elles étaient intégrées au produit comme aucun événement d'énigmes ne l'avait été. Il le compte parmi ses fiertés."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Lições aprendidas, parte 9",
+      "dek": "The Lost Caverns of Ixalan e Murders at Karlov Manor: dois sets em que, por admissão dele, a visão estava errada.",
+      "overview": "A nona parte cobre dois vision designs do próprio Rosewater e conclui que ambos erraram. Ixalan porque ele construiu o set em torno de um tema que esperava havia anos para usar; Karlov Manor porque mistério de assassinato acaba sendo um gênero de enredo, não de lugar.",
+      "takeaway": "Os dois sets foram transferidos tarde para um plano já existente, e ele liga as duas mudanças à mesma raiz: uma visão que nunca estabeleceu o que o set era. «E isso recai sobre mim, o vision designer líder dos dois».",
+      "lessons": [
+        {
+          "title": "Não faça de um set o veículo de um tema que você esperava usar",
+          "rules": "A pergunta nunca é se um tema dá para encaixar, e sim se é o melhor encaixe para o que este ambiente precisa. Defender uma resposta anterior à pergunta transforma o set, sem você notar, num argumento a favor dela.",
+          "flavor": "Rosewater queria o «cores importam» de volta desde Shadowmoor e decidiu que um mundo subterrâneo seria a casa dele antes de começar. Ele cita Maslow: com só um martelo, todo problema parece prego. «Eu era o meu maior obstáculo»."
+        },
+        {
+          "title": "Quando um time rio abaixo reclama, ele está vendo o que você não vê",
+          "rules": "Cada grupo convidado a uma revisão representa uma preocupação que vive além da sua etapa. A objeção raramente é gosto: é uma consequência que só fica visível de onde eles estão.",
+          "flavor": "Na Cúpula de Visão, o Play Design detestou os cinco Tesouros coloridos: difíceis de acompanhar, rápidos demais, e com uma habilidade de mana que superava tanto o papel de componente que ninguém fabricaria nada. O vision design passou a marcadores."
+        },
+        {
+          "title": "Um gênero te dá cartas; um ambiente te dá um mundo",
+          "rules": "Horror gótico e mitologia grega chegam com tropos, tom e cenário. Um gênero feito de arquétipos de personagem e viradas de enredo rende muitas cartas avulsas e ainda assim deixa você sem um lugar onde elas aconteçam.",
+          "flavor": "Mistério de assassinato rendeu investigar, disfarçar, os Casos e reunir provas — e nenhum mundo. Magic não escolhe que cartas você abre, então o clima do cenário precisa sobreviver espalhado por todos os boosters."
+        },
+        {
+          "title": "Quando você recorre sempre ao mesmo sinal, o poço secou",
+          "rules": "Repetir uma pista visual é prova, não estilo. Se o mesmo adereço reaparece porque nada mais diz o tema, o tema não tem fundo suficiente para sustentar um set.",
+          "flavor": "«O fato de a gente ficar pondo chapéu de detetive nos personagens devia ter sido um sinal.» A lista de correções dele é quase toda subtração: fora ocultar, fora suspeitar, fora as cartas typal de Detetive, e o espaço vai para Ravnica."
+        },
+        {
+          "title": "Empurre o limite mesmo que poucos sigam",
+          "rules": "Alcance não é a única medida do que valeu a pena. Um experimento que funciona e encontra público pequeno ainda assim move a linha para tudo que vier depois.",
+          "flavor": "Só uma pequena parcela do público mexeu nos quebra-cabeças de Karlov Manor, mas eles estavam integrados ao produto como nenhum evento de puzzle estivera antes. Ele conta isso entre seus orgulhos."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "复盘所得，第九部分",
+      "dek": "The Lost Caverns of Ixalan 与 Murders at Karlov Manor——照他自己的说法，这两个系列的愿景都错了。",
+      "overview": "第九部分复盘他本人主导的两次愿景设计，结论是两次都偏了。伊克萨兰是因为他把整个系列围着一个自己等了多年想用的主题去建；卡洛夫庄园则是因为「谋杀悬疑」原来是一种关于情节的类型，而不是关于地方的类型。",
+      "takeaway": "这两个系列都在很晚的阶段被搬到了一个已有的次元上，而他把两次改动都追溯到同一个根源：愿景从未确立「这个系列到底是什么」。「而这要算在我头上——两个系列的愿景设计主管都是我。」",
+      "lessons": [
+        {
+          "title": "别把一个系列当成「你等着想用的那个主题」的载具",
+          "rules": "该问的从来不是「这个主题塞不塞得进去」，而是「对这个环境需要的东西来说，它是不是最合适的那个」。为一个先于问题就存在的答案辩护，会在你没察觉时，把整个系列变成替它做的辩词。",
+          "flavor": "自 Shadowmoor 起，罗斯沃特就想把「颜色相关」带回来，并且在动工之前就认定地下世界是它的归宿。他引用马斯洛：手里只有锤子时，看什么都像钉子。「我自己才是最大的障碍。」"
+        },
+        {
+          "title": "当下游团队提出反对，他们看见的是你看不见的东西",
+          "rules": "被请来评审的每一组人，都代表着一份「活得比你这个阶段更久」的顾虑。他们的反对通常无关口味，而是一个只有站在他们那个位置才看得见的后果。",
+          "flavor": "在愿景峰会上，Play Design 讨厌那五种彩色宝藏：难以追踪、节奏过快，而且它们的产法术力能力远远压过「作为工艺材料」的用途，结果谁也不会去工艺。愿景设计于是改用指示物。"
+        },
+        {
+          "title": "类型给你的是牌，环境给你的才是世界",
+          "rules": "哥特恐怖和希腊神话，来的时候自带套路、调性与布景。而一个由角色原型和情节转折构成的类型，能供你做出大量单张牌，却依旧留不下一个「让这些事发生」的地方。",
+          "flavor": "谋杀悬疑让他们做出了探查、伪装、案件与搜证——却没做出一个世界。万智牌无法决定你拆开的是哪几张牌，所以这个环境的气味必须经得起被摊散到每一包补充包里。"
+        },
+        {
+          "title": "当你一再伸手去拿同一个符号，说明井已经干了",
+          "rules": "重复同一个视觉记号，是证据，不是风格。如果同一件道具反复出现，只因为再没有别的东西能说出这个主题，那这个主题就不够深，撑不起一个系列。",
+          "flavor": "「我们一遍遍地往角色头上扣侦探帽，这件事本该是个信号。」他的修订清单几乎全是减法：砍掉披影、砍掉起疑、砍掉侦探类别流的牌，把腾出来的空间还给拉尼卡。"
+        },
+        {
+          "title": "哪怕只有少数人跟上，也要把边界往外推",
+          "rules": "触达人数并不是「这件事值不值得做」的唯一尺度。一个成功了、却只找到少量受众的实验，依然为它之后的一切挪动了那条线。",
+          "flavor": "真正去玩卡洛夫庄园那些谜题的玩家只占一小部分，但它们被嵌进产品的程度，是此前任何一次谜题活动都没有做到的。他把这件事算进自己引以为傲的事情里。"
+        }
+      ]
+    }
+  }
+}

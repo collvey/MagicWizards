@@ -1,0 +1,216 @@
+{
+  "id": "the-design-of-mood-swings-part-1",
+  "slug": "the-design-of-mood-swings-part-1",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2026-05-11",
+  "series": { "id": "mood-swings", "order": 2, "total": 3 },
+  "tags": ["mood-swings", "game-design", "accessibility"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/the-design-of-mood-swings-part-1",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-21",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "The Design of Mood Swings, Part 1",
+      "dek": "Building a trading card game with no deck building, no casting costs, and no card draw.",
+      "overview": "Rosewater walks through the 1998 design: what he decided a trading card game essentially is, which parts of Magic turned out to be optional, and the game loop — each player plays a card, add the values, five rounds — that survived 28 years of tuning unchanged.",
+      "takeaway": "Most of this design is subtraction. Deck building, casting costs, and card draw all came out, and the constraint each removal imposed is what shaped everything that remained.",
+      "lessons": [
+        {
+          "title": "Separate the form's essence from the example you learned it from",
+          "rules": "Before simplifying, list what the genre actually requires and what merely arrived with the game you know. A trading card game needs to be bigger than the box, combinatoric, and able to break its own rules from a card.",
+          "flavor": "Deck building was the big cut — core to Magic, and in his reading the largest part of its barrier to entry. Mood Swings is bought and played immediately, the way you'd play a card game off a shelf."
+        },
+        {
+          "title": "Start from the smallest possible action and add only under pressure",
+          "rules": "He began by asking the least a player could do on a turn — play a card — then added scores only because someone had to win, and more rounds only because one turn isn't a game. Everything else had to earn its way in.",
+          "flavor": "Five rounds felt right in 1998 and survived 28 years of tuning. So did the whole loop: each player plays a card, the values are added, the winner leads the next round."
+        },
+        {
+          "title": "Ask whether a subsystem should exist before repairing it",
+          "rules": "When something misfires, the first question is not how to fix it but whether it's needed. Deleting a restriction is simpler than patching it, and often the game turns out to be balanceable without it.",
+          "flavor": "His first version numbered cards 1–5 and let you play them only from that round onward. One playtest showed hands could jam with nothing playable. \"Do we need a casting system?\" No — and free card play never went away."
+        },
+        {
+          "title": "Give each player something on every coin flip",
+          "rules": "Acting second is stronger because you play with full information, so the winner of a round leads the next one — catch-up built into the loop. Ties then go to whoever leads, so each side holds exactly one advantage.",
+          "flavor": "He wanted 3–2 finishes far more often than 3–0. The loser gets the information edge, the winner gets the tiebreak, and neither position feels like a punishment."
+        },
+        {
+          "title": "Choose a notation that fits how brains actually read",
+          "rules": "How a number is displayed is an interface decision, not a cosmetic one. Scores get summed every single round here, so showing them as pips rather than numerals takes the faster of the brain's two routes.",
+          "flavor": "He'd read an article on why dice traditionally carry pips instead of numbers — patterns process faster than language — and put dice on the cards. They're on the earliest marker-drawn playtests and on the printed ones."
+        },
+        {
+          "title": "A constraint can outlive the assumption that created it",
+          "rules": "He banned card draw entirely so that two players could play a whole game out of one fifteen-card booster. The business model behind that assumption never arrived, and the constraint stayed anyway.",
+          "flavor": "Limited play mattered to him from the start, so he built the game to fit inside a booster before there were any boosters. The published version still holds to fourteen cards for a two-player game, in case there ever are."
+        }
+      ]
+    },
+    "es": {
+      "title": "El diseño de Mood Swings, parte 1",
+      "dek": "Cómo construir un juego de cartas coleccionables sin construcción de mazos, sin costes de lanzamiento y sin robar cartas.",
+      "overview": "Rosewater recorre el diseño de 1998: qué decidió que es esencialmente un juego de cartas coleccionables, qué partes de Magic resultaron opcionales y el bucle de juego —cada jugador juega una carta, se suman los valores, cinco rondas— que sobrevivió 28 años de ajustes sin cambiar.",
+      "takeaway": "Casi todo este diseño es resta. La construcción de mazos, los costes de lanzamiento y el robo de cartas salieron, y la restricción que impuso cada supresión es lo que dio forma a todo lo demás.",
+      "lessons": [
+        {
+          "title": "Separa la esencia del formato del ejemplo con el que lo aprendiste",
+          "rules": "Antes de simplificar, enumera qué exige de verdad el género y qué llegó simplemente con el juego que conoces. Un juego de cartas coleccionables tiene que ser «más grande que la caja», combinatorio y capaz de romper sus propias reglas desde una carta.",
+          "flavor": "El gran corte fue la construcción de mazos: central en Magic y, según él, la mayor parte de su barrera de entrada. Mood Swings se compra y se juega en el acto, como un juego de cartas de estantería."
+        },
+        {
+          "title": "Empieza por la acción más pequeña posible y añade solo bajo presión",
+          "rules": "Empezó preguntando qué es lo mínimo que puede hacer un jugador en su turno —jugar una carta—, añadió puntuaciones solo porque alguien tenía que ganar y más rondas solo porque un turno no es una partida. Todo lo demás tuvo que ganarse el sitio.",
+          "flavor": "Cinco rondas le parecieron lo correcto en 1998 y sobrevivieron 28 años de ajuste. También el bucle entero: cada jugador juega una carta, se suman los valores, el ganador abre la ronda siguiente."
+        },
+        {
+          "title": "Pregunta si un subsistema debe existir antes de repararlo",
+          "rules": "Cuando algo falla, la primera pregunta no es cómo arreglarlo sino si hace falta. Borrar una restricción es más simple que parchearla, y a menudo el juego resulta equilibrable sin ella.",
+          "flavor": "Su primera versión numeraba las cartas del 1 al 5 y solo dejaba jugarlas a partir de esa ronda. Un solo playtest mostró manos atascadas sin nada jugable. «¿Necesitamos un sistema de lanzamiento?» No: y el juego libre de cartas nunca se fue."
+        },
+        {
+          "title": "Da algo a cada jugador en cada cara de la moneda",
+          "rules": "Actuar segundo es más fuerte porque juegas con información completa, así que quien gana una ronda abre la siguiente: la remontada está integrada en el bucle. Los empates van entonces a quien abre, de modo que cada bando tiene exactamente una ventaja.",
+          "flavor": "Quería muchos más finales de 3-2 que de 3-0. El perdedor se queda con la ventaja de información y el ganador con el desempate, y ninguna posición se siente como un castigo."
+        },
+        {
+          "title": "Elige una notación acorde a cómo leen los cerebros",
+          "rules": "Cómo se muestra un número es una decisión de interfaz, no cosmética. Aquí las puntuaciones se suman en cada ronda, así que mostrarlas como puntos en vez de cifras toma la más rápida de las dos vías del cerebro.",
+          "flavor": "Había leído un artículo sobre por qué los dados llevan puntos y no números —los patrones se procesan más rápido que el lenguaje— y puso dados en las cartas. Están en los primeros playtests a rotulador y en las cartas impresas."
+        },
+        {
+          "title": "Una restricción puede sobrevivir a la suposición que la creó",
+          "rules": "Prohibió robar cartas del todo para que dos personas pudieran jugar una partida entera con un solo sobre de quince cartas. El modelo de negocio que había detrás de esa suposición nunca llegó, y la restricción se quedó igualmente.",
+          "flavor": "El limitado le importaba desde el principio, así que hizo que el juego cupiera en un sobre antes de que hubiera sobres. La versión publicada mantiene las catorce cartas para una partida a dos, por si algún día los hay."
+        }
+      ]
+    },
+    "fr": {
+      "title": "La conception de Mood Swings, partie 1",
+      "dek": "Bâtir un jeu de cartes à collectionner sans construction de deck, sans coût de lancement et sans pioche.",
+      "overview": "Rosewater détaille la conception de 1998 : ce qu'il a jugé essentiel à un jeu de cartes à collectionner, quelles parties de Magic se sont révélées facultatives, et la boucle de jeu — chacun joue une carte, on additionne les valeurs, cinq manches — qui a traversé 28 ans de réglages sans bouger.",
+      "takeaway": "L'essentiel de cette conception est soustractif. Construction de deck, coûts de lancement et pioche sont tous sortis, et la contrainte imposée par chaque retrait a façonné tout ce qui restait.",
+      "lessons": [
+        {
+          "title": "Distinguez l'essence de la forme de l'exemple qui vous l'a apprise",
+          "rules": "Avant de simplifier, listez ce que le genre exige vraiment et ce qui n'est venu qu'avec le jeu que vous connaissez. Un JCC doit être « plus grand que la boîte », combinatoire, et capable de briser ses propres règles depuis une carte.",
+          "flavor": "La grande coupe fut la construction de deck : centrale dans Magic et, selon lui, la plus grosse part de sa barrière à l'entrée. Mood Swings s'achète et se joue tout de suite, comme un jeu de cartes pris en rayon."
+        },
+        {
+          "title": "Partez de l'action la plus petite possible et n'ajoutez que sous contrainte",
+          "rules": "Il a commencé par demander le minimum qu'un joueur puisse faire à son tour — jouer une carte — puis ajouté des scores parce qu'il fallait un vainqueur, et d'autres manches parce qu'un tour ne fait pas une partie. Le reste a dû mériter sa place.",
+          "flavor": "Cinq manches lui ont semblé justes en 1998 et ont survécu à 28 ans de réglages. La boucle entière aussi : chacun joue une carte, on additionne, le gagnant ouvre la manche suivante."
+        },
+        {
+          "title": "Demandez si un sous-système doit exister avant de le réparer",
+          "rules": "Quand une chose rate, la première question n'est pas comment la réparer mais si elle est nécessaire. Supprimer une restriction est plus simple que la rafistoler, et souvent le jeu s'avère équilibrable sans elle.",
+          "flavor": "Sa première version numérotait les cartes de 1 à 5, jouables seulement à partir de cette manche. Un test a suffi : la main se bloque sans rien de jouable. « A-t-on besoin d'un système de lancement ? » Non — et la pose libre n'a jamais disparu."
+        },
+        {
+          "title": "Donnez quelque chose à chacun, des deux côtés de la pièce",
+          "rules": "Agir en second est plus fort, puisqu'on joue en information complète : le gagnant d'une manche ouvre donc la suivante, et le rattrapage est intégré à la boucle. Les égalités vont alors à celui qui ouvre, si bien que chacun détient exactement un avantage.",
+          "flavor": "Il voulait beaucoup plus de 3-2 que de 3-0. Le perdant garde l'avantage d'information, le gagnant la départage, et aucune des deux places ne ressemble à une punition."
+        },
+        {
+          "title": "Choisissez une notation adaptée à la façon dont on lit vraiment",
+          "rules": "L'affichage d'un nombre est une décision d'interface, pas de décoration. Ici les scores s'additionnent à chaque manche : les montrer en points plutôt qu'en chiffres emprunte la plus rapide des deux voies du cerveau.",
+          "flavor": "Il avait lu un article sur les dés à points plutôt qu'à chiffres — les motifs se traitent plus vite que le langage — et a mis des dés sur les cartes. Ils sont sur les premiers tests au feutre comme sur les cartes imprimées."
+        },
+        {
+          "title": "Une contrainte peut survivre à l'hypothèse qui l'a créée",
+          "rules": "Il a banni la pioche pour que deux joueurs puissent faire une partie entière avec un seul booster de quinze cartes. Le modèle économique derrière cette hypothèse n'est jamais venu, et la contrainte est restée.",
+          "flavor": "Le limité lui importait dès le départ : il a donc fait tenir le jeu dans un booster avant qu'il n'existe de boosters. La version publiée s'en tient encore à quatorze cartes pour une partie à deux, au cas où."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "O design de Mood Swings, parte 1",
+      "dek": "Construir um jogo de cartas colecionáveis sem construção de deck, sem custo de conjuração e sem compra de cartas.",
+      "overview": "Rosewater percorre o design de 1998: o que ele decidiu ser essencial num jogo de cartas colecionáveis, que partes de Magic se revelaram opcionais, e o laço de jogo — cada um joga uma carta, somam-se os valores, cinco rodadas — que atravessou 28 anos de ajustes sem mudar.",
+      "takeaway": "Quase todo esse design é subtração. Construção de deck, custo de conjuração e compra de cartas saíram, e a restrição imposta por cada corte foi o que moldou tudo o que ficou.",
+      "lessons": [
+        {
+          "title": "Separe a essência da forma do exemplo pelo qual você a aprendeu",
+          "rules": "Antes de simplificar, liste o que o gênero de fato exige e o que só veio junto com o jogo que você conhece. Um jogo de cartas colecionáveis precisa ser «maior que a caixa», combinatório e capaz de quebrar as próprias regras a partir de uma carta.",
+          "flavor": "O grande corte foi a construção de deck: central em Magic e, na leitura dele, a maior parte da barreira de entrada. Mood Swings se compra e se joga na hora, como um jogo de cartas de prateleira."
+        },
+        {
+          "title": "Comece pela menor ação possível e só acrescente sob pressão",
+          "rules": "Ele começou perguntando o mínimo que um jogador pode fazer no turno — jogar uma carta — e só então somou pontuações porque alguém tinha de vencer, e mais rodadas porque um turno não é uma partida. O resto teve de merecer o lugar.",
+          "flavor": "Cinco rodadas pareceram certas em 1998 e sobreviveram a 28 anos de ajuste. O laço inteiro também: cada um joga uma carta, somam-se os valores, o vencedor abre a rodada seguinte."
+        },
+        {
+          "title": "Pergunte se um subsistema deve existir antes de consertá-lo",
+          "rules": "Quando algo falha, a primeira pergunta não é como consertar, e sim se é preciso. Apagar uma restrição é mais simples que remendá-la, e muitas vezes o jogo se mostra equilibrável sem ela.",
+          "flavor": "A primeira versão numerava as cartas de 1 a 5 e só as deixava ser jogadas a partir daquela rodada. Um playtest bastou: a mão trava sem nada jogável. «Precisamos de um sistema de conjuração?» Não — e jogar livremente nunca mais saiu."
+        },
+        {
+          "title": "Dê algo a cada jogador nos dois lados da moeda",
+          "rules": "Agir em segundo é mais forte porque se joga com informação completa, então quem vence a rodada abre a seguinte: a recuperação está embutida no laço. Os empates vão para quem abre, de modo que cada lado tem exatamente uma vantagem.",
+          "flavor": "Ele queria muito mais placares de 3–2 que de 3–0. O perdedor fica com a vantagem de informação, o vencedor com o desempate, e nenhuma das posições parece castigo."
+        },
+        {
+          "title": "Escolha uma notação compatível com o modo como se lê de fato",
+          "rules": "Como um número é exibido é decisão de interface, não enfeite. Aqui as pontuações são somadas a cada rodada, então mostrá-las como pontos em vez de algarismos pega a mais rápida das duas vias do cérebro.",
+          "flavor": "Ele lera um artigo sobre por que dados trazem pontos e não números — padrões são processados mais rápido que linguagem — e pôs dados nas cartas. Estão nos primeiros playtests a caneta e nas cartas impressas."
+        },
+        {
+          "title": "Uma restrição pode sobreviver à suposição que a criou",
+          "rules": "Ele proibiu compra de cartas por completo para que duas pessoas pudessem jogar uma partida inteira com um único booster de quinze cartas. O modelo de negócio por trás dessa suposição nunca chegou, e a restrição ficou assim mesmo.",
+          "flavor": "O limitado importava para ele desde o começo, então fez o jogo caber num booster antes de existirem boosters. A versão publicada ainda respeita as catorze cartas para uma partida de dois, caso um dia existam."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "《Mood Swings》的设计，第一部分",
+      "dek": "做一款没有组套牌、没有施放费用、也不抓牌的集换式卡牌游戏。",
+      "overview": "罗斯沃特讲解 1998 年的那份设计：他认定「集换式卡牌游戏」在本质上必须具备什么、万智牌的哪些部分其实可有可无，以及那个熬过二十八年调整仍原封不动的游戏循环——双方各出一张牌，把点数相加，共五轮。",
+      "takeaway": "这份设计的大部分内容是减法。组套牌、施放费用、抓牌统统被拿掉；而每一次拿掉所带来的限制，恰恰塑造了留下来的一切。",
+      "lessons": [
+        {
+          "title": "把这一门类的本质，与你借以认识它的那个范例区分开",
+          "rules": "动手简化之前，先列出这个门类真正要求什么，以及哪些只是随着你熟悉的那款游戏一起来的。集换式卡牌游戏必须「大过盒子」、具备组合性，并且能从一张牌上打破自己的规则。",
+          "flavor": "被砍掉的大件是组套牌：它在万智牌里是核心，而在他看来也是入门门槛中最大的一块。Mood Swings 买回来就能打，像从货架上拿下的普通卡牌游戏一样。"
+        },
+        {
+          "title": "从最小的那个动作出发，只在被逼时才增加",
+          "rules": "他先问：一个回合里玩家能做的最少的事是什么——出一张牌。然后因为总得分出胜负才加上点数，因为一回合不算一局才加上更多轮次。其余每一样，都必须自己挣到进场资格。",
+          "flavor": "五轮在 1998 年就觉得刚好，熬过了二十八年的调整。整个循环也一样：双方各出一张牌，把点数相加，赢的一方在下一轮先手。"
+        },
+        {
+          "title": "在修一个子系统之前，先问它该不该存在",
+          "rules": "当某样东西出问题，第一个问题不是「怎么修」，而是「需不需要」。删掉一条限制比给它打补丁更简单，而且游戏往往在没有它的情况下依然能平衡。",
+          "flavor": "他最初的版本给牌标了 1 到 5，只有到那一轮才能打出。一次试玩就够了：手里没有 1，你第一轮什么都出不了。「我们需要施放系统吗？」不需要——而「随便出牌」从此再没离开过。"
+        },
+        {
+          "title": "硬币的两面，都要各给一点东西",
+          "rules": "后手更强，因为你是在信息完整的情况下出牌；所以赢下一轮的人在下一轮先手——追赶机制就长在循环里。而平局判给先手方，于是双方各握一项优势。",
+          "flavor": "他想要的是 3–2 远多于 3–0。落后方拿到信息优势，领先方拿到平局判定，两个位置都不像惩罚。"
+        },
+        {
+          "title": "选一种符合大脑真实阅读方式的记法",
+          "rules": "数字怎么显示是界面决策，不是装饰。这里每一轮都要把点数加起来，所以用点数图案而不是阿拉伯数字来呈现，等于走了大脑两条通路中较快的那一条。",
+          "flavor": "他读过一篇讲「骰子为什么用点而不用数字」的文章——图案比语言处理得更快——于是把骰子放上了牌面。最早那批马克笔手绘试玩牌上有它，印刷成品上也有。"
+        },
+        {
+          "title": "一条限制，可以比催生它的那个假设活得更久",
+          "rules": "他完全禁掉抓牌，就是为了让两个人能用一包十五张的补充包打完一整局。那个假设背后的商业模式始终没有出现，而这条限制还是留了下来。",
+          "flavor": "限制赛玩法从一开始就对他很重要，于是他在还没有补充包的时候，就先把游戏做成了能装进补充包的样子。已出版的版本仍守着「双人一局十四张」，以备将来真的有那一天。"
+        }
+      ]
+    }
+  }
+}

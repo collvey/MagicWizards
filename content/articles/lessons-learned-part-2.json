@@ -1,0 +1,190 @@
+{
+  "id": "lessons-learned-part-2",
+  "slug": "lessons-learned-part-2",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2023-03-20",
+  "series": { "id": "lessons-learned", "order": 2, "total": 9 },
+  "tags": ["game-design", "postmortem", "sets"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/lessons-learned-part-2",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-21",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Lessons Learned, Part 2",
+      "dek": "Ravnica through Zendikar — how a block's shape gets decided, and who gets left out when it's decided badly.",
+      "overview": "The second instalment of Rosewater's set-by-set postmortems, covering his first years as head designer. Ravnica and Zendikar are among his biggest successes; Future Sight and the Shadowmoor pair are what taught him the cost of designing for the players he could see.",
+      "takeaway": "Every lesson here sits in the gap between the designer's model and the player's. Block structure, mechanic count, and messaging all read differently from inside the file than from a booster pack.",
+      "lessons": [
+        {
+          "title": "Let the structure carry the theme",
+          "rules": "A block's shape is a design decision, not a container. If the set is about guilds, hand the guilds out across the sets instead of putting a little of everything in each — then the structure itself teaches the theme.",
+          "flavor": "All ten pairs in one playtest broke Henry Stern, a back-to-back Worlds Top 4, who lost count of his piles. Brady Dommermuth's city-of-guilds idea came to him while exercising, and four-three-three answered both problems at once."
+        },
+        {
+          "title": "The audience you can measure is not the whole audience",
+          "rules": "Enfranchised players are the visible ones — tournaments, surveys, forums. A quieter group buys less per head but is far larger, and only an expensive deep-dive reaches it at all. A premier set has to hold both.",
+          "flavor": "Time Spiral drove organized play up and sales down, the first time those two ever separated. It was a love letter to players who already knew the old cards; everyone else checked out. Modern Horizons exists to serve that first group properly."
+        },
+        {
+          "title": "You can overdo a good thing",
+          "rules": "Aiming for as much of a mechanic as the set will take is a fine goal. Landing on half the cards was too much: the excess forced colour bends R&D shouldn't have made, and the constraints cost more than the boldness won.",
+          "flavor": "Shadowmoor was previewed with a booster of cards stripped of rules text — just names, mana values, art, and frames. It made the statement unmissable. The volume behind the statement is the part he'd revisit."
+        },
+        {
+          "title": "Players follow your messaging, not your intent",
+          "rules": "The Shadowmoor block was built as a monocolour format, but each set announced something else: ally-colour, then enemy-colour. Players drafted what they were told, and the two halves didn't combine without mana support that wasn't there.",
+          "flavor": "Rosewater was thinking like a designer — take black in your first pack, then blue-black and black-red, then white-black and black-green. Some players found it. Many ended up with unplayable soup."
+        },
+        {
+          "title": "Ask how a mechanic makes players feel, not just how it makes them think",
+          "rules": "Not every mechanic has to be a hard decision. Rewarding players for something they already wanted to do feels like getting something free, and that feeling is a design result worth aiming at directly.",
+          "flavor": "The first version let you spend your land drop on other things, and playtesters kept taking the bait and getting mana screwed. Inverted, it became landfall: a reward for playing the land you were going to play anyway."
+        }
+      ]
+    },
+    "es": {
+      "title": "Lecciones aprendidas, parte 2",
+      "dek": "De Ravnica a Zendikar: cómo se decide la forma de un bloque, y a quién dejas fuera cuando la decides mal.",
+      "overview": "La segunda entrega de las autopsias set a set de Rosewater, centrada en sus primeros años como diseñador jefe. Ravnica y Zendikar están entre sus mayores éxitos; Future Sight y el par Shadowmoor-Eventide son los que le enseñaron lo que cuesta diseñar solo para los jugadores que se ven.",
+      "takeaway": "Todas las lecciones de aquí viven en la distancia entre el modelo del diseñador y el del jugador. La estructura del bloque, el número de mecánicas y el mensaje se leen de otra manera desde dentro del archivo que desde un sobre.",
+      "lessons": [
+        {
+          "title": "Que la estructura sostenga el tema",
+          "rules": "La forma de un bloque es una decisión de diseño, no un recipiente. Si el set va de gremios, reparte los gremios entre los sets en vez de meter un poco de todo en cada uno: así la estructura misma enseña el tema.",
+          "flavor": "Los diez pares juntos en una partida de prueba tumbaron a Henry Stern, top 4 en dos Mundiales seguidos, que perdió la cuenta de sus montones. La idea del plano-ciudad con gremios se le ocurrió a Brady Dommermuth haciendo ejercicio, y el cuatro-tres-tres resolvió ambos problemas de golpe."
+        },
+        {
+          "title": "El público que puedes medir no es todo el público",
+          "rules": "Los jugadores comprometidos son los visibles: torneos, encuestas, foros. Hay un grupo más callado que compra menos por cabeza pero es mucho mayor, y al que solo se llega con un sondeo profundo y caro. Un set principal tiene que sostener a los dos.",
+          "flavor": "Time Spiral hizo subir el juego organizado y bajar las ventas, la primera vez que esas dos cosas se separaron. Era una carta de amor a quienes ya conocían las cartas viejas; el resto se bajó. Modern Horizons existe para atender bien a ese primer grupo."
+        },
+        {
+          "title": "Se puede abusar de algo bueno",
+          "rules": "Aspirar a meter toda la mecánica que el set aguante es un objetivo legítimo. Quedarse en la mitad de las cartas fue demasiado: el exceso obligó a torcer colores más de lo debido, y las ataduras costaron más de lo que ganó la audacia.",
+          "flavor": "Shadowmoor se presentó con un sobre de cartas sin texto de reglas: solo nombres, valores de maná, ilustración y marco. El mensaje quedó clarísimo. Lo que él revisaría es el volumen que había detrás."
+        },
+        {
+          "title": "El jugador sigue tu mensaje, no tu intención",
+          "rules": "El bloque de Shadowmoor estaba construido como un formato monocolor, pero cada set anunciaba otra cosa: colores aliados primero, enemigos después. La gente drafteó lo que le decían, y las dos mitades no encajaban sin un apoyo de maná que no existía.",
+          "flavor": "Rosewater pensaba como diseñador: eliges negro en tu primer sobre, luego azul-negro y negro-rojo, luego blanco-negro y negro-verde. Algunos lo descubrieron. Muchos acabaron con un mazo injugable."
+        },
+        {
+          "title": "Pregunta qué siente el jugador con una mecánica, no solo qué piensa",
+          "rules": "No toda mecánica tiene que ser una decisión difícil. Premiar al jugador por algo que ya quería hacer se siente como recibir algo gratis, y esa sensación es un resultado de diseño al que vale la pena apuntar directamente.",
+          "flavor": "La primera versión te dejaba gastar tu juego de tierra en otras cosas, y los probadores picaban el anzuelo y se quedaban sin maná. Al darle la vuelta salió el desembarco: un premio por jugar la tierra que ibas a jugar igualmente."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Leçons apprises, partie 2",
+      "dek": "De Ravnica à Zendikar : comment se décide la forme d'un bloc, et qui reste sur le carreau quand elle se décide mal.",
+      "overview": "Le deuxième volet des autopsies set par set de Rosewater, sur ses premières années de chef designer. Ravnica et Zendikar comptent parmi ses plus grandes réussites ; Future Sight et le couple Shadowmoor-Eventide sont ce qui lui a appris le prix d'une conception faite pour les seuls joueurs qu'on voit.",
+      "takeaway": "Chaque leçon tient dans l'écart entre le modèle du concepteur et celui du joueur. La structure du bloc, le nombre de mécaniques et le message ne se lisent pas pareil depuis le fichier et depuis un booster.",
+      "lessons": [
+        {
+          "title": "Que la structure porte le thème",
+          "rules": "La forme d'un bloc est une décision de conception, pas un contenant. Si le set parle de guildes, répartissez les guildes entre les sets au lieu de mettre un peu de tout partout : la structure enseigne alors le thème elle-même.",
+          "flavor": "Les dix paires réunies dans un même test ont eu raison de Henry Stern, deux fois Top 4 aux Championnats du monde, qui a perdu le compte de ses tas. L'idée du plan-cité aux guildes est venue à Brady Dommermuth pendant qu'il faisait du sport, et le quatre-trois-trois a réglé les deux problèmes d'un coup."
+        },
+        {
+          "title": "Le public que vous mesurez n'est pas tout le public",
+          "rules": "Les joueurs investis sont les visibles : tournois, sondages, forums. Un groupe plus discret achète moins par tête mais pèse bien plus lourd, et seule une enquête de fond, coûteuse, l'atteint. Un set premier doit tenir les deux.",
+          "flavor": "Time Spiral a fait monter le jeu organisé et baisser les ventes, la première fois que ces deux courbes divergeaient. C'était une lettre d'amour à ceux qui connaissaient déjà les vieilles cartes ; les autres ont décroché. Modern Horizons existe pour servir correctement ce premier groupe."
+        },
+        {
+          "title": "On peut abuser d'une bonne chose",
+          "rules": "Viser autant de mécanique que le set peut en porter est un objectif légitime. Atterrir sur la moitié des cartes, c'était trop : l'excès a forcé des entorses aux couleurs qu'il ne fallait pas faire, et les contraintes ont coûté plus que l'audace n'a rapporté.",
+          "flavor": "Shadowmoor a été présenté avec un booster de cartes privées de texte de règles — noms, coûts, illustrations et cadres seulement. La démonstration était imparable. C'est le volume derrière la démonstration qu'il reverrait."
+        },
+        {
+          "title": "Le joueur suit votre message, pas votre intention",
+          "rules": "Le bloc Shadowmoor était bâti comme un format monocolore, mais chaque set annonçait autre chose : couleurs alliées, puis couleurs ennemies. Les joueurs ont drafté ce qu'on leur disait, et les deux moitiés ne se combinaient pas sans un soutien en mana absent.",
+          "flavor": "Rosewater raisonnait en concepteur : prenez le noir dans votre premier booster, puis bleu-noir et noir-rouge, puis blanc-noir et noir-vert. Certains ont trouvé. Beaucoup sont repartis avec une soupe injouable."
+        },
+        {
+          "title": "Demandez ce qu'une mécanique fait ressentir, pas seulement ce qu'elle fait réfléchir",
+          "rules": "Toute mécanique n'a pas à être un choix difficile. Récompenser un joueur pour ce qu'il voulait déjà faire donne l'impression de recevoir quelque chose gratuitement, et cette sensation est un résultat de conception qu'on peut viser directement.",
+          "flavor": "La première version permettait de dépenser sa pose de terrain ailleurs, et les testeurs mordaient à l'hameçon avant de se retrouver à court de mana. Retournée, elle est devenue l'atterrissage : une récompense pour jouer le terrain qu'on allait jouer de toute façon."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Lições aprendidas, parte 2",
+      "dek": "De Ravnica a Zendikar: como se decide o formato de um bloco, e quem fica de fora quando se decide mal.",
+      "overview": "A segunda parte das autópsias set a set de Rosewater, cobrindo seus primeiros anos como designer-chefe. Ravnica e Zendikar estão entre os maiores acertos dele; Future Sight e a dupla Shadowmoor-Eventide foram o que lhe ensinou o preço de projetar só para os jogadores que dá para ver.",
+      "takeaway": "Todas as lições aqui moram na distância entre o modelo do designer e o do jogador. Estrutura de bloco, quantidade de mecânicas e mensagem se leem de um jeito dentro do arquivo e de outro dentro de um booster.",
+      "lessons": [
+        {
+          "title": "Deixe a estrutura carregar o tema",
+          "rules": "O formato de um bloco é decisão de design, não recipiente. Se o set é sobre guildas, distribua as guildas entre os sets em vez de pôr um pouco de tudo em cada um: aí a própria estrutura ensina o tema.",
+          "flavor": "Os dez pares juntos num playtest derrubaram Henry Stern, top 4 em dois Mundiais seguidos, que perdeu a conta das pilhas. A ideia do plano-cidade com guildas ocorreu a Brady Dommermuth enquanto se exercitava, e o quatro-três-três resolveu os dois problemas de uma vez."
+        },
+        {
+          "title": "O público que você consegue medir não é o público inteiro",
+          "rules": "Os jogadores engajados são os visíveis: torneios, pesquisas, fóruns. Há um grupo mais silencioso que compra menos por cabeça mas é bem maior, e ao qual só se chega com um mergulho profundo e caro. Um set principal tem de sustentar os dois.",
+          "flavor": "Time Spiral fez o jogo organizado subir e as vendas caírem, a primeira vez que essas duas curvas se separaram. Era uma carta de amor a quem já conhecia as cartas antigas; o resto saiu de cena. Modern Horizons existe para atender direito aquele primeiro grupo."
+        },
+        {
+          "title": "Dá para exagerar numa coisa boa",
+          "rules": "Mirar em quanta mecânica o set aguentar é uma meta legítima. Parar na metade das cartas foi demais: o excesso obrigou a torcer cores mais do que se devia, e as amarras custaram mais do que a ousadia rendeu.",
+          "flavor": "Shadowmoor foi apresentado com um booster de cartas sem texto de regras: só nomes, custos de mana, arte e molduras. A demonstração ficou impossível de ignorar. O que ele revisitaria é o volume por trás dela."
+        },
+        {
+          "title": "O jogador segue a sua mensagem, não a sua intenção",
+          "rules": "O bloco de Shadowmoor foi construído como um formato monocolorido, mas cada set anunciava outra coisa: cores aliadas, depois inimigas. As pessoas draftaram o que lhes foi dito, e as duas metades não combinavam sem um apoio de mana que não existia.",
+          "flavor": "Rosewater pensava como designer: escolha preto no primeiro booster, depois azul-preto e preto-vermelho, depois branco-preto e preto-verde. Alguns descobriram. Muitos terminaram com uma sopa injogável."
+        },
+        {
+          "title": "Pergunte o que uma mecânica faz o jogador sentir, não só o que o faz pensar",
+          "rules": "Nem toda mecânica precisa ser uma decisão difícil. Premiar o jogador por algo que ele já queria fazer dá a sensação de ganhar algo de graça, e essa sensação é um resultado de design que vale mirar diretamente.",
+          "flavor": "A primeira versão deixava você gastar a jogada de terreno em outras coisas, e os testadores mordiam a isca e ficavam sem mana. Invertida, virou o descida: um prêmio por jogar o terreno que você jogaria de qualquer jeito."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "复盘所得，第二部分",
+      "dek": "从 Ravnica 讲到 Zendikar：一个环境的骨架是怎么定下来的，以及定坏了会把谁挡在门外。",
+      "overview": "罗斯沃特逐个系列复盘的第二篇，覆盖他刚接任首席设计师的那几年。Ravnica 和 Zendikar 属于他最成功的作品；而 Future Sight 与 Shadowmoor／Eventide 这一对，则让他见识到「只为看得见的玩家做设计」要付出什么代价。",
+      "takeaway": "这里每一条教训，都落在设计师的心智模型与玩家的心智模型之间的缝隙里。环境结构、机制数量、对外传达的讯息——从文件里看和从一包补充包里看，完全是两回事。",
+      "lessons": [
+        {
+          "title": "让结构本身承载主题",
+          "rules": "一个环境的骨架是设计决定，不是装东西的容器。如果这个系列讲的是公会，就把公会分批发到各个系列里，而不是每个系列都放一点点：这样结构本身就在教主题。",
+          "flavor": "十个双色组合一次全上，把两届世界锦标赛连续进前四的亨利·斯特恩都干趴了——他数不清自己分了多少堆。布雷迪·多默穆斯是在健身时想到「公会之城」这个次元的；而四—三—三的分配，一举解决了这两个问题。"
+        },
+        {
+          "title": "你能测到的受众，不等于全部受众",
+          "rules": "深度投入的玩家是看得见的那批：打赛事、填问卷、泡论坛。还有一批更安静的人，人均消费更低，基数却大得多，只有代价高昂的深度调研才够得着。一个主要系列必须同时接住这两批人。",
+          "flavor": "Time Spiral 让赛事参与上升、销量下降，这两条曲线第一次背道而驰。它是写给「早就认得那些老牌的人」的情书；其余的人则直接退场了。Modern Horizons 的存在，正是为了好好服务前一批人。"
+        },
+        {
+          "title": "好东西也会用过头",
+          "rules": "「这个系列能塞多少机制就塞多少」是个正当目标。落在一半的牌上就太多了：过量迫使研发部做出本不该做的颜色扭曲，这些束缚付出的代价，大过大胆换来的收益。",
+          "flavor": "Shadowmoor 首度亮相时展示的是一包被抹去规则叙述的牌——只剩牌名、法术力值、画作和牌框。这个宣言无人会看漏。他要重新考虑的，是宣言背后的那个用量。"
+        },
+        {
+          "title": "玩家跟着你说出口的话走，而不是跟着你的本意走",
+          "rules": "Shadowmoor 这个环境骨子里是为单色玩法搭的，可每个系列对外宣告的却是别的事：先是友好色，接着是敌对色。玩家照着被告知的去轮抽，而这两半在缺少法术力支援的情况下根本拼不到一起。",
+          "flavor": "罗斯沃特是按设计师的脑子在想：第一包选黑，然后拿蓝黑和黑红，再拿白黑和黑绿。有些人真的摸索出来了，更多人则抓了一手打不动的杂烩。"
+        },
+        {
+          "title": "别只问机制让玩家怎么想，也要问它让玩家怎么感觉",
+          "rules": "不是每个机制都得是一道难题。为玩家本来就想做的事发奖励，感觉像白拿了什么东西；而这种感觉本身，就是值得直接瞄准的设计成果。",
+          "flavor": "最初那版让你把「每回合放地」的额度花到别处，测试者一次次上钩，然后卡地输掉。反过来做，就成了地落：你反正要放那张地，现在还额外有奖。"
+        }
+      ]
+    }
+  }
+}
