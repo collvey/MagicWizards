@@ -45,7 +45,7 @@ function articleCard(entry) {
 /* Home                                                                   */
 /* --------------------------------------------------------------------- */
 
-export function home(manifest) {
+export function home(manifest, progress) {
   const featured = manifest.series.find((s) => s.featured) ?? manifest.series[0];
   const out = frag();
 
@@ -56,6 +56,15 @@ export function home(manifest) {
       el('p', { class: 'hero-eyebrow util' }, t('home.eyebrow')),
       el('h1', { text: t('site.name') }),
       el('p', { class: 'lead', text: t('home.lead') }),
+      progress &&
+        el('p', {
+          class: 'util',
+          style: { marginBlockStart: '1.6rem' },
+          text: t('home.progress', {
+            done: progress.done.toLocaleString(getLang()),
+            total: progress.total.toLocaleString(getLang()),
+          }),
+        }),
     ),
   );
 
@@ -194,6 +203,12 @@ export function article(manifest, data) {
   const lang = getLang();
   const series = data.series ? manifest.series.find((s) => s.id === data.series.id) : null;
 
+  // Most columns present numbered key points; the Twenty Lessons series calls
+  // them lessons. The article says which noun it wants.
+  const isLesson = data.pointNoun === 'lesson';
+  const pointLabel = (n) => t(isLesson ? 'article.lesson' : 'article.point', { n });
+  const pointCount = (n) => t(isLesson ? 'series.lessons' : 'article.pointCount', { n });
+
   const lessons = el(
     'ul',
     { class: 'lessons' },
@@ -207,7 +222,7 @@ export function article(manifest, data) {
           style: { '--lesson-color': MANA_VAR[meta.color] },
           dataset: { color: meta.color },
         },
-        el('span', { class: 'lesson-n', text: t('article.lesson', { n: meta.n }) }),
+        el('span', { class: 'lesson-n', text: pointLabel(meta.n) }),
         el('h3', { text: l.title ?? '' }),
         el('p', { class: 'lesson-rules', text: l.rules ?? '' }),
         l.flavor && el('p', { class: 'lesson-flavor', text: l.flavor }),
@@ -271,7 +286,7 @@ export function article(manifest, data) {
           { class: 'article-meta util', style: { margin: '1.2rem 0 0' } },
           el('span', { text: t('article.by', { author: data.author }) }),
           el('span', { text: t('article.published', { date: formatDate(data.publishedAt) }) }),
-          el('span', { text: t('series.lessons', { n: data.lessons.length }) }),
+          el('span', { text: pointCount(data.lessons.length) }),
           isFallbackNotice(data, lang),
         ),
       ),

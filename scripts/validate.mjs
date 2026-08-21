@@ -63,6 +63,10 @@ for (const file of files) {
     fail(file, 'source.canonical must be a magic.wizards.com URL');
   }
 
+  if (a.pointNoun && !['lesson', 'point'].includes(a.pointNoun)) {
+    fail(file, 'pointNoun must be "lesson" or "point"');
+  }
+
   const lessons = a.lessons ?? [];
   lessons.forEach((l, i) => {
     if (!Number.isInteger(l.n)) fail(file, `lessons[${i}].n must be an integer`);

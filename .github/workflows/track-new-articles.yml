@@ -28,23 +28,23 @@ jobs:
       - name: Check magic.wizards.com for new columns
         id: discover
         run: |
-          node scripts/discover.mjs --limit 50 | tee /tmp/report.txt
+          node scripts/discover.mjs | tee /tmp/report.txt
           {
             echo 'report<<REPORT_EOF'
             cat /tmp/report.txt
             echo REPORT_EOF
           } >> "$GITHUB_OUTPUT"
 
-      - name: Commit the refreshed backlog
+      - name: Commit the refreshed queue
         run: |
-          if git diff --quiet -- content/backlog.json; then
-            echo "backlog unchanged"
+          if git diff --quiet -- content/todo.json content/progress.json; then
+            echo "queue unchanged"
             exit 0
           fi
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add content/backlog.json
-          git commit -m 'chore: refresh Making Magic backlog'
+          git add content/todo.json content/progress.json
+          git commit -m 'chore: refresh Making Magic queue'
           git push
 
       - name: Open or update the tracking issue
@@ -53,7 +53,7 @@ jobs:
           REPORT: ${{ steps.discover.outputs.report }}
         with:
           script: |
-            const title = 'Making Magic backlog';
+            const title = 'Making Magic queue';
             const body = [
               'Latest check of magic.wizards.com against the summaries in this repo.',
               '',

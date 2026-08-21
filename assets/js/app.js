@@ -9,7 +9,7 @@
  * Any route accepts ?lang=<code>, which is how a link carries its language.
  */
 
-import { loadManifest, loadArticle } from './data.js';
+import { loadManifest, loadArticle, loadProgress } from './data.js';
 import * as i18n from './i18n.js';
 import * as views from './views.js';
 import { clear } from './dom.js';
@@ -19,6 +19,7 @@ const repoUrl = document.querySelector('#repo-link').href;
 const libraryState = { q: '', sort: 'newest' };
 
 let manifest = null;
+let progress = null;
 let renderToken = 0;
 
 /* --------------------------------------------------------------------- */
@@ -54,7 +55,7 @@ async function render() {
 
   try {
     if (parts.length === 0) {
-      clear(main).append(views.home(manifest));
+      clear(main).append(views.home(manifest, progress));
     } else if (parts[0] === 'library') {
       clear(main).append(views.library(manifest, libraryState, () => {}));
     } else if (parts[0] === 'about') {
@@ -170,6 +171,8 @@ async function boot() {
     main.append(views.errorState('error'));
     return;
   }
+
+  progress = await loadProgress();
 
   i18n.configure(manifest);
   const { params } = parseRoute();

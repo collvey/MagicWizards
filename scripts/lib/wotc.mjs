@@ -56,6 +56,12 @@ export function parseUrl(url) {
   };
 }
 
+/** Where the article body stops: the end of <main>, or the end of the page. */
+function endOfBody(html, from) {
+  const rel = html.slice(from).search(/<\/main>/i);
+  return rel === -1 ? html.length : from + rel;
+}
+
 const ENTITIES = {
   '&nbsp;': ' ', '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"',
   '&#39;': "'", '&rsquo;': '’', '&lsquo;': '‘',
@@ -86,7 +92,13 @@ export function extractArticle(html) {
   // Newer slugs carry no date, so the page's own JSON-LD is the only source.
   const publishedAt = decoded.match(/"datePublished"\s*:\s*"(\d{4}-\d{2}-\d{2})/)?.[1] ?? null;
 
-  const text = decoded
+  // Scope to the article container before stripping tags. Without this the
+  // entire site chrome — product menus, format lists, footer — lands in the
+  // output and buries the essay under a few thousand words of navigation.
+  const start = decoded.search(/<div[^>]*class="[^"]*article-body/i);
+  const scoped = start > -1 ? decoded.slice(start, endOfBody(decoded, start)) : decoded;
+
+  const text = scoped
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<\/(p|div|h[1-6]|li)>/gi, '\n\n')
@@ -97,7 +109,7 @@ export function extractArticle(html) {
 
   // Rosewater numbers his key points; surfacing them gives the summary its
   // skeleton without anyone having to re-read the whole essay for structure.
-  const headings = [...new Set(decoded.match(/Lesson #\d+[:—-][^<\\\n]{3,90}/g) ?? [])];
+  const headings = [...new Set(scoped.match(/Lesson #\d+[:—-][^<\\\n]{3,90}/g) ?? [])];
 
   return { title, author, publishedAt, text, headings };
 }

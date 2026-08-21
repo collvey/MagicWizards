@@ -73,6 +73,7 @@ const doc = {
   publishedAt: meta.publishedAt ?? article.publishedAt ?? new Date().toISOString().slice(0, 10),
   series: null,
   tags: [],
+  pointNoun: article.headings.length ? 'lesson' : 'point',
   source: { canonical: `https://magic.wizards.com/en/news/${meta.column}/${meta.slug}`, locales },
   summaryVersion: 1,
   summarizedAt: new Date().toISOString().slice(0, 10),
