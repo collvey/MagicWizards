@@ -70,7 +70,10 @@ const doc = {
   slug: meta.slug,
   column: meta.column,
   author: article.author ?? 'Mark Rosewater',
-  publishedAt: meta.publishedAt ?? article.publishedAt ?? new Date().toISOString().slice(0, 10),
+  // The page's own JSON-LD wins over the slug. They agree almost always, but
+  // where they differ the slug is the one that's wrong — fun-part-1-2010-02-26
+  // is slugged a Friday and was published the Monday, as the column always is.
+  publishedAt: article.publishedAt ?? meta.publishedAt ?? new Date().toISOString().slice(0, 10),
   series: null,
   tags: [],
   pointNoun: article.headings.length ? 'lesson' : 'point',

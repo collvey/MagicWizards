@@ -43,7 +43,7 @@
     }
   ],
   "defaultLanguage": "en",
-  "count": 7,
+  "count": 9,
   "series": [
     {
       "id": "twenty-years-twenty-lessons",
@@ -78,6 +78,39 @@
       "lessonCount": 20,
       "partCount": 3,
       "firstPublishedAt": "2016-05-30"
+    },
+    {
+      "id": "fun-off",
+      "featured": false,
+      "translations": {
+        "en": {
+          "title": "The Fun-Off",
+          "blurb": "Rosewater runs 32 reader-nominated cards through a single-elimination bracket to work out what he means by fun, then lets five thousand readers mark his answers."
+        },
+        "es": {
+          "title": "El Fun-Off",
+          "blurb": "Rosewater pasa 32 cartas nominadas por lectores por una eliminatoria para averiguar qué entiende por diversión, y luego deja que cinco mil lectores le corrijan."
+        },
+        "fr": {
+          "title": "Le Fun-Off",
+          "blurb": "Rosewater fait passer 32 cartes proposées par ses lecteurs dans un tableau à élimination directe pour cerner ce qu'il entend par amusant, puis laisse cinq mille lecteurs corriger sa copie."
+        },
+        "pt-BR": {
+          "title": "O Fun-Off",
+          "blurb": "Rosewater passa 32 cartas indicadas por leitores por um mata-mata para descobrir o que entende por diversão, e depois deixa cinco mil leitores corrigirem suas respostas."
+        },
+        "zh-Hans": {
+          "title": "趣味对决",
+          "blurb": "罗斯沃特把读者提名的 32 张牌排进单败淘汰赛，借此弄清自己所说的「好玩」，然后让五千名读者来给他的答案打分。"
+        }
+      },
+      "articleIds": [
+        "fun-part-1-2010-02-26",
+        "fun-part-2-electric-bugaloo-2010-03-12"
+      ],
+      "lessonCount": 13,
+      "partCount": 2,
+      "firstPublishedAt": "2010-03-01"
     }
   ],
   "articles": [
@@ -590,6 +623,156 @@
         "fr": "Comment la R&D a compris que la complexité lui coûtait des joueurs, et a refondu la commune en conséquence.",
         "pt-BR": "Como o P&D descobriu que a complexidade custava jogadores novos e refez o comum a partir disso.",
         "zh-Hans": "研发部如何发现复杂度正在赶走新玩家，并据此重建了普通牌。"
+      }
+    },
+    {
+      "id": "fun-part-2-electric-bugaloo-2010-03-12",
+      "slug": "fun-part-2-electric-bugaloo-2010-03-12",
+      "column": "making-magic",
+      "author": "Mark Rosewater",
+      "publishedAt": "2010-03-15",
+      "series": {
+        "id": "fun-off",
+        "order": 2,
+        "total": 2
+      },
+      "tags": [
+        "game-design",
+        "fun",
+        "method"
+      ],
+      "canonical": "https://magic.wizards.com/en/news/making-magic/fun-part-2-electric-bugaloo-2010-03-12",
+      "sourceLocales": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "lessonCount": 6,
+      "lessons": [
+        {
+          "n": 1,
+          "color": "W"
+        },
+        {
+          "n": 2,
+          "color": "G"
+        },
+        {
+          "n": 3,
+          "color": "R"
+        },
+        {
+          "n": 4,
+          "color": "R"
+        },
+        {
+          "n": 5,
+          "color": "U"
+        },
+        {
+          "n": 6,
+          "color": "B"
+        }
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "titles": {
+        "en": "Fun-Off, Part 2: Electric Bugaloo",
+        "es": "Fun-Off, Parte 2: Electric Bugaloo",
+        "fr": "Fun-Off, partie 2 : Electric Bugaloo",
+        "pt-BR": "Fun-Off, Parte 2: Electric Bugaloo",
+        "zh-Hans": "趣味对决，第二部分：Electric Bugaloo"
+      },
+      "deks": {
+        "en": "The bracket finishes, five thousand readers vote, and Rosewater marks his own work.",
+        "es": "Se cierra el cuadro, cinco mil lectores votan y Rosewater se corrige a sí mismo.",
+        "fr": "Le tableau s'achève, cinq mille lecteurs votent, et Rosewater corrige sa propre copie.",
+        "pt-BR": "A chave termina, cinco mil leitores votam e Rosewater corrige o próprio trabalho.",
+        "zh-Hans": "赛程走完，五千名读者投票，而罗斯沃特开始给自己批改作业。"
+      }
+    },
+    {
+      "id": "fun-part-1-2010-02-26",
+      "slug": "fun-part-1-2010-02-26",
+      "column": "making-magic",
+      "author": "Mark Rosewater",
+      "publishedAt": "2010-03-01",
+      "series": {
+        "id": "fun-off",
+        "order": 1,
+        "total": 2
+      },
+      "tags": [
+        "game-design",
+        "fun",
+        "method"
+      ],
+      "canonical": "https://magic.wizards.com/en/news/making-magic/fun-part-1-2010-02-26",
+      "sourceLocales": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "lessonCount": 7,
+      "lessons": [
+        {
+          "n": 1,
+          "color": "U"
+        },
+        {
+          "n": 2,
+          "color": "R"
+        },
+        {
+          "n": 3,
+          "color": "B"
+        },
+        {
+          "n": 4,
+          "color": "G"
+        },
+        {
+          "n": 5,
+          "color": "B"
+        },
+        {
+          "n": 6,
+          "color": "U"
+        },
+        {
+          "n": 7,
+          "color": "W"
+        }
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "titles": {
+        "en": "Fun-Off, Part 1",
+        "es": "Fun-Off, Parte 1",
+        "fr": "Fun-Off, partie 1",
+        "pt-BR": "Fun-Off, Parte 1",
+        "zh-Hans": "趣味对决，第一部分"
+      },
+      "deks": {
+        "en": "Rosewater brackets 32 cards against each other to find out what he actually means by fun.",
+        "es": "Rosewater enfrenta 32 cartas en un cuadro para averiguar qué entiende él por diversión.",
+        "fr": "Rosewater oppose 32 cartes dans un tableau pour découvrir ce qu'il entend vraiment par amusant.",
+        "pt-BR": "Rosewater coloca 32 cartas numa chave para descobrir o que ele realmente quer dizer com diversão.",
+        "zh-Hans": "罗斯沃特让 32 张牌捉对厮杀，好弄清自己所说的「好玩」到底指什么。"
       }
     }
   ]
