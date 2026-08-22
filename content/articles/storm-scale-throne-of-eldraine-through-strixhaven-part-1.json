@@ -1,0 +1,242 @@
+{
+  "id": "storm-scale-throne-of-eldraine-through-strixhaven-part-1",
+  "slug": "storm-scale-throne-of-eldraine-through-strixhaven-part-1",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2022-12-19",
+  "series": { "id": "storm-scale-eldraine-through-strixhaven", "order": 1, "total": 2 },
+  "tags": ["storm-scale", "methodology", "mechanics"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/storm-scale-throne-of-eldraine-through-strixhaven-part-1",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T01:55:02.097Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Storm Scale: Eldraine through Strixhaven, Part 1",
+      "dek": "The rubric behind a ten-point scale, and which axis quietly vetoes the rest.",
+      "overview": "A Storm Scale column rating two years of mechanics on their chance of return. The useful part isn't the numbers but the method: five named criteria scored separately, plus a frank account of where the underlying data misleads.",
+      "takeaway": "Design space is the veto. If you can't make more of the thing, it doesn't matter how much people like it or how easy it is to balance — those criteria never get to vote.",
+      "lessons": [
+        {
+          "title": "Publish the rubric, not just the verdict",
+          "rules": "A single score tells people what you concluded and nothing about how. Name the axes, define the labels on each, and score them separately, and your judgment becomes something others can check and argue with.",
+          "flavor": "Every mechanic is rated on popularity, design space, versatility, balance difficulty, and playability before it gets its number. Each axis has defined labels, and the market-research categories are explicitly quartiles."
+        },
+        {
+          "title": "One criterion is a gate, not a weight",
+          "rules": "Most factors trade off against one another. At least one usually doesn't: fail it and the rest never get consulted, however strongly they argue the other way. Know which of yours works that way.",
+          "flavor": "Rosewater states it outright: if you can't make more cards with a mechanic, it doesn't matter how much players like it or how easy it is for development to balance."
+        },
+        {
+          "title": "Satisfaction data decays with familiarity",
+          "rules": "A score that measures how people feel about something will fall as the thing becomes ordinary, even when nothing about it changed. Correct for exposure or you'll retire what's working because it stopped being new.",
+          "flavor": "Cycling's rating has dropped over the years — not because players stopped liking it, Rosewater says, but because it stopped being the sexy new thing. He flags this as a general limit of the research."
+        },
+        {
+          "title": "The mean is the wrong summary for a polarised response",
+          "rules": "Mild general approval and a fiercely divided audience can produce the same average and are not the same asset. A devoted minority may be worth more than broad indifference, and the number won't tell you which you have.",
+          "flavor": "Mutate rates as merely liked. Rosewater's gloss: the players who like it adore it, and a lot of others simply aren't fans. He rates it more optimistically than its number, on the strength of how often people ask."
+        },
+        {
+          "title": "The hard part isn't the home environment; it's everywhere else",
+          "rules": "Something built for one context will behave in that context, because it was tuned there. The real cost lands in every other setting it ends up in, none of which were designed with it in mind.",
+          "flavor": "Rosewater expected mutate's difficulty to be its own Limited environment. Play Design told him the opposite: that part was manageable, and the problem was making it interact with sets built without it."
+        },
+        {
+          "title": "Your test population is orders of magnitude smaller than your users",
+          "rules": "Anything whose failure requires many people searching in parallel will not fail during testing. You cannot out-test a population that outnumbers you a millionfold; you have to design assuming they will find it.",
+          "flavor": "Companion was revised wholesale after release — the only time an entire mechanic has needed that. One named cause is simply that the real world has far better deck-building efficiency, because there are millions of players."
+        },
+        {
+          "title": "A harder condition needs a bigger reward, and big rewards are scarcer",
+          "rules": "The gap between meeting a requirement and not meeting it has to scale with how hard the requirement is. Large gaps are rarer than small ones, so a demanding condition has less usable space than it appears to.",
+          "flavor": "R&D calls that gap the delta. Adamant is harder to satisfy than it looks, so it earns a larger delta, and there are simply fewer effects available at that size — especially effects that aren't just a number."
+        }
+      ]
+    },
+    "es": {
+      "title": "Escala Storm: de Eldraine a Strixhaven, parte 1",
+      "dek": "La rúbrica tras una escala de diez puntos, y qué eje veta calladamente a los demás.",
+      "overview": "Una columna de Escala Storm que puntúa dos años de mecánicas según su probabilidad de regreso. Lo útil no son los números sino el método: cinco criterios con nombre, puntuados por separado, y un relato franco de dónde engañan los datos.",
+      "takeaway": "El espacio de diseño es el veto. Si no puedes hacer más de esa cosa, da igual cuánto guste o lo fácil que sea equilibrarla: esos criterios no llegan a votar.",
+      "lessons": [
+        {
+          "title": "Publica la rúbrica, no solo el veredicto",
+          "rules": "Una nota única dice qué concluiste y nada de cómo. Nombra los ejes, define las etiquetas de cada uno y puntúalos por separado: tu juicio se vuelve algo que otros pueden comprobar y discutir.",
+          "flavor": "Cada mecánica se puntúa en popularidad, espacio de diseño, versatilidad, dificultad de equilibrio y jugabilidad antes de recibir su número. Cada eje tiene etiquetas definidas, y las categorías de investigación son explícitamente cuartiles."
+        },
+        {
+          "title": "Un criterio es una puerta, no un peso",
+          "rules": "La mayoría de factores se compensan entre sí. Al menos uno normalmente no: si lo suspendes, los demás ni se consultan, por mucho que argumenten en contra. Sepa cuál de los tuyos funciona así.",
+          "flavor": "Rosewater lo dice sin rodeos: si no puedes hacer más cartas con una mecánica, da igual cuánto les guste a los jugadores o lo fácil que sea equilibrarla para desarrollo."
+        },
+        {
+          "title": "Los datos de satisfacción decaen con la familiaridad",
+          "rules": "Una puntuación que mide cómo se siente la gente ante algo bajará conforme eso se vuelva corriente, aunque no haya cambiado nada. Corrige por exposición o retirarás lo que funciona por dejar de ser nuevo.",
+          "flavor": "La nota de ciclo ha bajado con los años; no porque los jugadores dejaran de quererlo, dice Rosewater, sino porque dejó de ser la novedad atractiva. Lo señala como un límite general de la investigación."
+        },
+        {
+          "title": "La media es el resumen equivocado para una respuesta polarizada",
+          "rules": "Una aprobación general tibia y un público ferozmente dividido pueden dar la misma media y no son el mismo activo. Una minoría entregada puede valer más que la indiferencia amplia, y el número no te dirá cuál tienes.",
+          "flavor": "Mutar puntúa como meramente «gustada». La glosa de Rosewater: a quienes les gusta la adoran, y a muchos otros sencillamente no. La califica con más optimismo que su número, por lo mucho que se la piden."
+        },
+        {
+          "title": "Lo difícil no es el entorno propio, sino todos los demás",
+          "rules": "Algo construido para un contexto se comportará en ese contexto, porque allí se ajustó. El coste real cae en todos los demás escenarios donde acabe, ninguno de los cuales se diseñó pensando en ello.",
+          "flavor": "Rosewater esperaba que la dificultad de mutar fuera su propio entorno de Limitado. Diseño de Juego le dijo lo contrario: esa parte era manejable, y el problema era hacerla interactuar con sets construidos sin ella."
+        },
+        {
+          "title": "Tu población de pruebas es órdenes de magnitud menor que tus usuarios",
+          "rules": "Todo aquello cuyo fallo requiera a mucha gente buscando en paralelo no fallará durante las pruebas. No puedes superar en pruebas a una población que te supera un millón a uno; diseña asumiendo que lo encontrarán.",
+          "flavor": "Compañero se revisó por completo tras salir: la única vez que una mecánica entera lo ha necesitado. Una causa citada es que el mundo real tiene mucha mejor eficiencia constructiva, porque hay millones de jugadores."
+        },
+        {
+          "title": "Una condición más dura exige un premio mayor, y los premios grandes escasean",
+          "rules": "La distancia entre cumplir un requisito y no cumplirlo debe escalar con lo difícil que sea el requisito. Las distancias grandes son más raras que las pequeñas, así que una condición exigente tiene menos espacio útil del que aparenta.",
+          "flavor": "I+D llama a esa distancia el «delta». Adamant es más difícil de satisfacer de lo que parece, así que gana un delta mayor, y sencillamente hay menos efectos disponibles de ese tamaño, sobre todo si no son un número."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Échelle Storm : d'Eldraine à Strixhaven, partie 1",
+      "dek": "La grille derrière une échelle en dix points, et l'axe qui oppose discrètement son veto aux autres.",
+      "overview": "Une chronique Échelle Storm notant deux ans de mécaniques selon leur chance de revenir. L'utile n'est pas les chiffres mais la méthode : cinq critères nommés, notés séparément, et un aveu franc de là où les données trompent.",
+      "takeaway": "L'espace de conception est le veto. Si vous ne pouvez pas en faire davantage, peu importe combien on l'aime ou combien il est facile à équilibrer : ces critères ne votent jamais.",
+      "lessons": [
+        {
+          "title": "Publiez la grille, pas seulement le verdict",
+          "rules": "Une note unique dit ce que vous avez conclu et rien du comment. Nommez les axes, définissez les étiquettes de chacun, notez-les séparément : votre jugement devient vérifiable et discutable.",
+          "flavor": "Chaque mécanique est notée sur la popularité, l'espace de conception, la polyvalence, la difficulté d'équilibrage et la jouabilité avant d'obtenir son chiffre. Chaque axe a des étiquettes définies, et les catégories d'étude sont explicitement des quartiles."
+        },
+        {
+          "title": "Un critère est une porte, pas un poids",
+          "rules": "La plupart des facteurs se compensent. Au moins un, d'ordinaire, non : échouez-y et les autres ne sont jamais consultés, si fort qu'ils plaident en sens inverse. Sachez lequel des vôtres fonctionne ainsi.",
+          "flavor": "Rosewater le dit tout net : si vous ne pouvez pas faire davantage de cartes avec une mécanique, peu importe combien les joueurs l'aiment ou combien elle est facile à équilibrer."
+        },
+        {
+          "title": "Les données de satisfaction s'érodent avec la familiarité",
+          "rules": "Une note qui mesure ce que les gens ressentent baissera à mesure que la chose devient ordinaire, même sans qu'elle change. Corrigez de l'exposition, sinon vous retirerez ce qui marche parce que ce n'est plus neuf.",
+          "flavor": "La note du recyclage a baissé au fil des ans — non que les joueurs l'aiment moins, dit Rosewater, mais parce qu'il a cessé d'être la nouveauté séduisante. Il en fait une limite générale de l'étude."
+        },
+        {
+          "title": "La moyenne est le mauvais résumé d'une réponse polarisée",
+          "rules": "Une approbation générale tiède et un public farouchement divisé donnent la même moyenne et ne sont pas le même atout. Une minorité dévouée peut valoir plus que l'indifférence large, et le chiffre ne dira pas laquelle vous avez.",
+          "flavor": "La mutation n'est notée que « appréciée ». La glose de Rosewater : ceux qui l'aiment l'adorent, et beaucoup d'autres n'en sont simplement pas fans. Il la note plus optimistement que son chiffre, vu la fréquence des demandes."
+        },
+        {
+          "title": "Le difficile n'est pas l'environnement d'origine, mais tous les autres",
+          "rules": "Ce qui est bâti pour un contexte se comportera dans ce contexte, puisqu'il y fut réglé. Le coût réel tombe dans tous les autres cadres où la chose atterrit, dont aucun n'a été conçu en pensant à elle.",
+          "flavor": "Rosewater s'attendait à ce que la difficulté de la mutation soit son propre environnement de Limité. Le Play Design lui a dit l'inverse : cette part était gérable, le problème était de la faire interagir avec des sets bâtis sans elle."
+        },
+        {
+          "title": "Votre population de test est mille fois plus petite que vos utilisateurs",
+          "rules": "Tout ce dont l'échec exige beaucoup de gens cherchant en parallèle n'échouera pas pendant les tests. On ne teste pas plus qu'une population qui vous dépasse d'un facteur un million ; concevez en supposant qu'ils trouveront.",
+          "flavor": "Le compagnon fut révisé en bloc après sa sortie — le seul cas où une mécanique entière l'a exigé. Une cause citée : le monde réel a une bien meilleure efficacité de construction, parce qu'il compte des millions de joueurs."
+        },
+        {
+          "title": "Une condition plus dure exige une récompense plus grande, et les grandes se font rares",
+          "rules": "L'écart entre remplir une exigence et ne pas la remplir doit croître avec la difficulté de l'exigence. Les grands écarts sont plus rares que les petits : une condition exigeante a donc moins d'espace utile qu'il n'y paraît.",
+          "flavor": "La R&D appelle cet écart le delta. L'inflexibilité est plus dure à satisfaire qu'il n'y paraît, elle gagne donc un delta plus grand — et il existe simplement moins d'effets de cette taille, surtout non chiffrés."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Escala Storm: de Eldraine a Strixhaven, parte 1",
+      "dek": "A rubrica por trás de uma escala de dez pontos, e qual eixo silenciosamente veta os demais.",
+      "overview": "Uma coluna da Escala Storm avaliando dois anos de mecânicas quanto à chance de retorno. O útil não são os números, e sim o método: cinco critérios nomeados, pontuados em separado, e um relato franco de onde os dados enganam.",
+      "takeaway": "O espaço de design é o veto. Se você não consegue fazer mais daquilo, não importa o quanto as pessoas gostem nem o quão fácil seja balancear: esses critérios nunca chegam a votar.",
+      "lessons": [
+        {
+          "title": "Publique a rubrica, não só o veredito",
+          "rules": "Uma nota única diz o que você concluiu e nada sobre como. Nomeie os eixos, defina os rótulos de cada um e pontue-os em separado: seu julgamento vira algo que os outros podem conferir e contestar.",
+          "flavor": "Cada mecânica é avaliada em popularidade, espaço de design, versatilidade, dificuldade de balanceamento e jogabilidade antes de receber seu número. Cada eixo tem rótulos definidos, e as categorias da pesquisa são explicitamente quartis."
+        },
+        {
+          "title": "Um critério é um portão, não um peso",
+          "rules": "A maioria dos fatores se compensa. Ao menos um em geral não: falhe nele e os demais nem são consultados, por mais que argumentem em contrário. Saiba qual dos seus funciona assim.",
+          "flavor": "Rosewater diz sem rodeios: se você não consegue fazer mais cartas com uma mecânica, não importa o quanto os jogadores gostem nem o quão fácil seja balanceá-la."
+        },
+        {
+          "title": "Dados de satisfação decaem com a familiaridade",
+          "rules": "Uma nota que mede como as pessoas se sentem cairá conforme a coisa se torna corriqueira, mesmo sem que nada nela mude. Corrija pela exposição, ou você aposentará o que funciona por ter deixado de ser novo.",
+          "flavor": "A nota de ciclar caiu ao longo dos anos — não porque os jogadores tenham deixado de gostar, diz Rosewater, mas porque deixou de ser a novidade atraente. Ele aponta isso como limite geral da pesquisa."
+        },
+        {
+          "title": "A média é o resumo errado para uma resposta polarizada",
+          "rules": "Aprovação geral morna e um público ferozmente dividido podem dar a mesma média e não são o mesmo ativo. Uma minoria devotada pode valer mais que indiferença ampla, e o número não dirá qual você tem.",
+          "flavor": "Mutar pontua como meramente «apreciada». A glosa de Rosewater: quem gosta, adora, e muitos outros simplesmente não são fãs. Ele a avalia com mais otimismo que o número, pela frequência com que lhe pedem."
+        },
+        {
+          "title": "O difícil não é o ambiente de origem, e sim todos os outros",
+          "rules": "Algo construído para um contexto vai se comportar naquele contexto, porque foi ajustado ali. O custo real cai em todos os outros cenários em que a coisa acaba, nenhum deles projetado pensando nela.",
+          "flavor": "Rosewater esperava que a dificuldade de mutar fosse seu próprio ambiente de Limitado. O Play Design lhe disse o contrário: essa parte era administrável, e o problema era fazê-la interagir com sets construídos sem ela."
+        },
+        {
+          "title": "Sua população de teste é ordens de grandeza menor que a de usuários",
+          "rules": "Tudo cuja falha exija muita gente buscando em paralelo não vai falhar durante os testes. Você não supera em testes uma população que o excede um milhão de vezes; projete supondo que eles vão achar.",
+          "flavor": "Companheiro foi revisado por inteiro após o lançamento — a única vez em que uma mecânica inteira exigiu isso. Uma causa citada é que o mundo real tem eficiência de construção muito melhor, por ter milhões de jogadores."
+        },
+        {
+          "title": "Uma condição mais dura exige um prêmio maior, e prêmios grandes são mais escassos",
+          "rules": "A distância entre cumprir um requisito e não cumpri-lo precisa crescer com o quanto o requisito é difícil. Distâncias grandes são mais raras que pequenas, então uma condição exigente tem menos espaço útil do que aparenta.",
+          "flavor": "A P&D chama essa distância de delta. Inflexível é mais difícil de satisfazer do que parece, então ganha um delta maior — e simplesmente existem menos efeitos desse tamanho, sobretudo os que não são um número."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "风暴指数：从艾卓到史迦兰，第一部分",
+      "dek": "一套十分制刻度背后的评分表，以及哪一根轴在悄悄否决其余所有轴。",
+      "overview": "一篇风暴指数专栏，为两年份的机制评估「回归的可能性」。真正有用的不是那些数字，而是那套方法：五条被命名的标准，各自单独打分；外加一段坦率的说明，讲清底层数据在哪些地方会误导人。",
+      "takeaway": "设计空间是那道否决权。如果你没法再多做出这样东西，那么人们有多喜欢它、它有多好平衡，都无关紧要——那些标准根本轮不到投票。",
+      "lessons": [
+        {
+          "title": "把评分表公开出来，而不只是公开结论",
+          "rules": "一个单一的分数，只说明了你的结论是什么，却完全没说是怎么来的。把各条轴命名出来、为每条轴定义好标签、并分别打分——你的判断就变成了别人可以核对、也可以来争的东西。",
+          "flavor": "每个机制在拿到它的数字之前，都要先在受欢迎度、设计空间、通用性、平衡难度、可玩性这五项上被评一遍。每条轴都有定义好的标签，而市场调研的那几档明确就是四分位。"
+        },
+        {
+          "title": "有一条标准是闸门，不是权重",
+          "rules": "大多数因素之间是可以互相折中的。而通常至少有一条不是：一旦在它上面不合格，其余那些根本不会被征询——无论它们在另一边说得多有力。你得知道自己这套里哪一条是这样运作的。",
+          "flavor": "罗斯沃特把话说得很直：如果你没法用一个机制做出更多的牌，那么玩家有多喜欢它、开发部有多容易把它平衡好，都无关紧要。"
+        },
+        {
+          "title": "满意度数据会随着「见得多了」而衰减",
+          "rules": "一个衡量「人们对某样东西感觉如何」的分数，会随着这样东西变得寻常而下滑——哪怕它本身一点没变。要对曝光度做修正，否则你会因为「它不再新」而淘汰掉一件本来运作良好的东西。",
+          "flavor": "循环这些年的评分一直在跌——罗斯沃特说，这不是因为玩家不再喜欢它，而是因为它不再是那个亮眼的新鲜货。他把这一点点明为这项调研的一个普遍局限。"
+        },
+        {
+          "title": "对一份两极化的反馈来说，平均值是错误的概括方式",
+          "rules": "温吞的普遍认可，和一群激烈分裂的受众，可能得出同一个平均值——而它们并不是同一种资产。一小群死忠可能比广泛的无所谓更值钱，而那个数字不会告诉你你手里握着的是哪一种。",
+          "flavor": "异变的评分只是「还算喜欢」。罗斯沃特的注解是：喜欢它的人爱得不行，而另有很多人就是不感冒。他给它的评级比它的数字更乐观——理由是有多少人反复来问它。"
+        },
+        {
+          "title": "难的不是它自己那个环境，而是其余所有环境",
+          "rules": "一样为某个脉络而造的东西，在那个脉络里当然会表现良好，因为它就是在那儿调出来的。真正的代价，落在它日后会置身的其余每一个场景里——而那些场景，没有一个是把它考虑在内设计的。",
+          "flavor": "罗斯沃特原以为异变的难点在它自己的限制赛环境里。对局设计告诉他恰恰相反：那部分还应付得来；难的是让它与那些「造出来时压根没考虑过它」的系列互动。"
+        },
+        {
+          "title": "你的测试人群，比你的用户人群小上几个数量级",
+          "rules": "任何「需要很多人并行搜索才会暴露」的失败，都不会在测试期间暴露。你没法在测试上胜过一个规模是你百万倍的人群；你只能按「他们一定会找到」来做设计。",
+          "flavor": "同伴在发售后被整体改写过——那是唯一一次有整个机制需要这样做。被点名的原因之一很简单：现实世界的构筑效率高得多，因为那里有数以百万计的玩家。"
+        },
+        {
+          "title": "更苛刻的条件需要更大的回报，而大回报本身更稀缺",
+          "rules": "「满足要求」与「不满足要求」之间的落差，必须随要求的难度一起放大。而大落差比小落差稀少得多——所以一个苛刻的条件，可用空间比它看上去的要小。",
+          "flavor": "研发部把这个落差叫作「delta」。坚定比它看上去更难满足，因此它挣到的是一个更大的 delta；而那个量级上可用的效应本来就更少，尤其是那些不以数字形式出现的效应。"
+        }
+      ]
+    }
+  }
+}

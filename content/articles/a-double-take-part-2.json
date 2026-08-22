@@ -4,90 +4,211 @@
   "column": "making-magic",
   "author": "Mark Rosewater",
   "publishedAt": "2022-06-27",
-  "series": null,
-  "tags": [],
+  "series": { "id": "a-double-take", "order": 2, "total": 2 },
+  "tags": ["card-by-card", "color-pie", "hybrid"],
   "pointNoun": "point",
   "source": {
     "canonical": "https://magic.wizards.com/en/news/making-magic/a-double-take-part-2",
-    "locales": [
-      "en",
-      "es",
-      "fr",
-      "pt-BR",
-      "zh-Hans"
-    ]
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
   },
   "summaryVersion": 1,
   "summarizedAt": "2026-08-22T01:19:36.343Z",
   "lessons": [
-    {
-      "n": 1,
-      "color": "W"
-    }
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "U" }
   ],
   "translations": {
     "en": {
       "title": "A Double Take, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "dek": "A set Rosewater regrets, and a mechanic that needed three homes to find its own.",
+      "overview": "The second half of the Double Masters 2022 design stories. Two of these are arguments rather than anecdotes: why he regrets Planar Chaos, and why copying your own successful cards is necessary rather than cheap.",
+      "takeaway": "Rosewater regrets Planar Chaos entirely. Printing cards from an alternate colour pie meant printing evidence, and players still cite them to argue that a colour can do something. What you ship is read as what you do.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Printing an exception teaches the audience the rule wrong",
+          "rules": "A framing device around a deliberate violation doesn't travel with the artifact. Once it exists, people hold it up as proof of what you permit — and the explanation reaches far fewer of them than the object does.",
+          "flavor": "Planar Chaos was explicitly a set from an alternate timeline with a different colour pie. Years on, Rosewater still gets its cards quoted back at him as evidence about what blue can do. He says he regrets the whole set."
+        },
+        {
+          "title": "Copy your own successes; one good component can't be left on one item",
+          "rules": "A mechanism that worked is a resource, not a finished monument. Reuse it on a different axis so the new thing stands on its own, because you cannot afford to retire an idea after a single use.",
+          "flavor": "Experiment Kraj took the activated abilities of creatures with counters. Necrotic Ooze takes them from the graveyard. Rosewater notes that without copying Mistform Ultimus there would be no changeling."
+        },
+        {
+          "title": "The cost of expressing something can force a better version of it",
+          "rules": "When an idea can't be stated concisely, the constraint sometimes points at a cleaner idea rather than a worse wording. Look for the neighbouring concept that says most of the same thing in fewer words.",
+          "flavor": "Experiment Kraj first had to list flying, fear, first strike, double strike, landwalk, protection, trample, and vigilance by name. Switching from copying keywords to copying activated abilities was shorter and better."
+        },
+        {
+          "title": "Let the audience participate in the story the thing tells",
+          "rules": "A narrative that plays out on its own is watched; one the audience advances is theirs. Build the stages so each is reached by their own choice, and the outcome carries the weight of having been earned.",
+          "flavor": "Figure of Destiny's designer wanted a card that tells a story and lets the player be in it: \"This character is a hero, but only because you helped him along the journey.\" Each stage grants a creature type the next stage requires."
+        },
+        {
+          "title": "Rehome a rejected idea immediately — the interim will reshape it",
+          "rules": "When something is cut, place it somewhere else at once rather than shelving it. Even if it goes back to the original project later, time spent in a different context changes what you understand it to be good for.",
+          "flavor": "Hybrid mana was cut from Ravnica, so Rosewater put it into Time Spiral. Ravnica asked for it back months later — and in those months he had started wondering what a set built on a much higher concentration would be."
+        },
+        {
+          "title": "Extending a set of things requires loosening its constraints",
+          "rules": "A second batch built to the first batch's rules comes out as near-duplicates. Deliberately vary a dimension the first batch held fixed, and the new members can be recognisably a set without repeating it.",
+          "flavor": "The allied Lieges all cost one generic and three hybrid. Five more at that exact cost felt too close, so the enemy cycle ranged wider, dropped the neat creature types for Horrors, and took more complex abilities."
         }
       ]
     },
     "es": {
-      "title": "A Double Take, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Mirando dos veces, parte 2",
+      "dek": "Un set del que Rosewater se arrepiente, y una mecánica que necesitó tres casas para encontrar la suya.",
+      "overview": "La segunda mitad de las historias de diseño de Double Masters 2022. Dos son argumentos más que anécdotas: por qué se arrepiente de Planar Chaos, y por qué copiar tus propias cartas exitosas es necesario y no barato.",
+      "takeaway": "Rosewater se arrepiente de Planar Chaos entero. Imprimir cartas de un círculo de color alternativo fue imprimir pruebas, y los jugadores aún las citan para argumentar que un color puede hacer algo. Lo que publicas se lee como lo que haces.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Imprimir una excepción le enseña mal la regla al público",
+          "rules": "El marco que rodea una violación deliberada no viaja con el objeto. Una vez existe, la gente lo esgrime como prueba de lo que permites, y la explicación llega a muchos menos que el objeto.",
+          "flavor": "Planar Chaos era explícitamente un set de una línea temporal alternativa con otro círculo de color. Años después, a Rosewater aún le citan sus cartas como prueba de lo que puede hacer el azul. Dice que se arrepiente del set entero."
+        },
+        {
+          "title": "Copia tus propios éxitos: un buen componente no puede quedarse en un solo objeto",
+          "rules": "Un mecanismo que funcionó es un recurso, no un monumento acabado. Reutilízalo en otro eje para que lo nuevo se sostenga solo, porque no puedes permitirte jubilar una idea tras un único uso.",
+          "flavor": "Experiment Kraj tomaba las habilidades activadas de criaturas con contadores. Necrotic Ooze las toma del cementerio. Rosewater señala que sin copiar Mistform Ultimus no existiría el cambiaformas."
+        },
+        {
+          "title": "El coste de expresar algo puede forzar una versión mejor",
+          "rules": "Cuando una idea no se deja enunciar de forma concisa, la restricción a veces apunta a una idea más limpia y no a una redacción peor. Busca el concepto vecino que diga casi lo mismo con menos palabras.",
+          "flavor": "Experiment Kraj tuvo que listar por nombre volar, miedo, dañar primero, dañar doble, paseo de tierras, protección, arrollar y vigilancia. Pasar de copiar palabras clave a copiar habilidades activadas fue más corto y mejor."
+        },
+        {
+          "title": "Deja que el público participe en la historia que la cosa cuenta",
+          "rules": "Un relato que se desarrolla solo se mira; uno que el público hace avanzar es suyo. Construye las etapas para que a cada una se llegue por decisión propia, y el desenlace pesará por haber sido ganado.",
+          "flavor": "El diseñador de Figure of Destiny quería una carta que contara una historia y dejara al jugador estar en ella: «Este personaje es un héroe, pero solo porque tú lo ayudaste en el camino». Cada etapa otorga el tipo que exige la siguiente."
+        },
+        {
+          "title": "Recoloca de inmediato una idea rechazada: el interino la remodelará",
+          "rules": "Cuando algo se corta, colócalo en otro sitio enseguida en vez de guardarlo. Aunque luego vuelva al proyecto original, el tiempo pasado en otro contexto cambia para qué entiendes que sirve.",
+          "flavor": "El maná híbrido se cortó de Ravnica, así que Rosewater lo metió en Time Spiral. Meses después Ravnica lo pidió de vuelta, y en esos meses él ya había empezado a preguntarse cómo sería un set con una concentración mucho mayor."
+        },
+        {
+          "title": "Ampliar un conjunto exige aflojar sus restricciones",
+          "rules": "Una segunda tanda hecha con las reglas de la primera sale como casi duplicados. Varía a propósito una dimensión que la primera mantuvo fija, y los nuevos miembros podrán ser reconociblemente del conjunto sin repetirlo.",
+          "flavor": "Los señores aliados costaban todos un genérico y tres híbridos. Cinco más con ese coste exacto quedaban demasiado cerca, así que el ciclo enemigo amplió el rango, cambió los tipos ordenados por horrores y tomó habilidades más complejas."
         }
       ]
     },
     "fr": {
-      "title": "A Double Take, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Regarder à deux fois, partie 2",
+      "dek": "Un set que Rosewater regrette, et une mécanique qui a eu besoin de trois foyers pour trouver le sien.",
+      "overview": "La seconde moitié des histoires de conception de Double Masters 2022. Deux d'entre elles sont des arguments plus que des anecdotes : pourquoi il regrette Planar Chaos, et pourquoi copier ses propres réussites est nécessaire et non facile.",
+      "takeaway": "Rosewater regrette Planar Chaos en entier. Imprimer des cartes d'un cercle chromatique alternatif, c'était imprimer des preuves : on les lui cite encore pour soutenir qu'une couleur peut faire telle chose.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Imprimer une exception enseigne mal la règle au public",
+          "rules": "Le cadre entourant une violation délibérée ne voyage pas avec l'objet. Une fois qu'il existe, on le brandit comme preuve de ce que vous autorisez, et l'explication touche bien moins de monde que l'objet.",
+          "flavor": "Planar Chaos était explicitement un set d'une ligne temporelle alternative au cercle chromatique différent. Des années après, on cite encore ses cartes à Rosewater comme preuve de ce que le bleu peut faire. Il regrette tout le set."
+        },
+        {
+          "title": "Copiez vos propres réussites : un bon composant ne peut rester sur un seul objet",
+          "rules": "Un mécanisme qui a marché est une ressource, pas un monument achevé. Réemployez-le sur un autre axe pour que la nouveauté tienne seule, car vous ne pouvez pas retirer une idée après un unique usage.",
+          "flavor": "Experiment Kraj prenait les capacités activées des créatures avec marqueurs. Necrotic Ooze les prend au cimetière. Rosewater note que sans copier Mistform Ultimus, le changelin n'existerait pas."
+        },
+        {
+          "title": "Le coût d'exprimer une chose peut en imposer une meilleure version",
+          "rules": "Quand une idée refuse de s'énoncer brièvement, la contrainte désigne parfois une idée plus nette plutôt qu'une rédaction plus mauvaise. Cherchez le concept voisin qui dit presque la même chose en moins de mots.",
+          "flavor": "Experiment Kraj devait nommer le vol, la peur, l'initiative, la double initiative, le passeterrain, la protection, le piétinement et la vigilance. Passer de la copie des mots-clés à celle des capacités activées fut plus court et meilleur."
+        },
+        {
+          "title": "Laissez le public participer à l'histoire que la chose raconte",
+          "rules": "Un récit qui se déroule seul se regarde ; celui que le public fait avancer lui appartient. Bâtissez les étapes pour que chacune s'atteigne par son propre choix, et le dénouement pèsera d'avoir été mérité.",
+          "flavor": "Le concepteur de Figure of Destiny voulait une carte qui raconte une histoire et y laisse entrer le joueur : « Ce personnage est un héros, mais seulement parce que vous l'avez aidé en chemin. » Chaque étape confère le type qu'exige la suivante."
+        },
+        {
+          "title": "Relogez aussitôt une idée rejetée — l'intérim la remodèlera",
+          "rules": "Quand une chose est coupée, replacez-la ailleurs sur-le-champ plutôt que de la remiser. Même si elle retourne plus tard au projet d'origine, le temps passé ailleurs change ce à quoi vous la croyez bonne.",
+          "flavor": "Le mana hybride fut coupé de Ravnica, alors Rosewater le mit dans Time Spiral. Ravnica le redemanda des mois plus tard — et pendant ces mois, il s'était mis à imaginer un set bâti sur une concentration bien plus forte."
+        },
+        {
+          "title": "Étendre un ensemble exige d'en desserrer les contraintes",
+          "rules": "Une seconde fournée bâtie selon les règles de la première sort en quasi-doublons. Faites varier exprès une dimension que la première tenait fixe, et les nouveaux membres seront reconnaissables sans se répéter.",
+          "flavor": "Les seigneurs alliés coûtaient tous un générique et trois hybrides. Cinq de plus au même coût exact semblaient trop proches : le cycle ennemi a élargi la fourchette, troqué les types nets contre des horreurs, et pris des capacités plus complexes."
         }
       ]
     },
     "pt-BR": {
-      "title": "A Double Take, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Olhando duas vezes, parte 2",
+      "dek": "Um set do qual Rosewater se arrepende, e uma mecânica que precisou de três casas para achar a sua.",
+      "overview": "A segunda metade das histórias de design de Double Masters 2022. Duas delas são argumentos, não anedotas: por que ele se arrepende de Planar Chaos, e por que copiar suas próprias cartas bem-sucedidas é necessário, não barato.",
+      "takeaway": "Rosewater se arrepende de Planar Chaos por inteiro. Imprimir cartas de um círculo de cores alternativo foi imprimir provas, e jogadores ainda as citam para argumentar que uma cor pode fazer algo.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Imprimir uma exceção ensina a regra errada ao público",
+          "rules": "A moldura em torno de uma violação deliberada não viaja junto com o objeto. Uma vez que ele existe, as pessoas o erguem como prova do que você permite — e a explicação alcança muito menos gente que o objeto.",
+          "flavor": "Planar Chaos era explicitamente um set de uma linha do tempo alternativa, com outro círculo de cores. Anos depois, ainda citam suas cartas a Rosewater como prova do que o azul pode fazer. Ele diz que se arrepende do set inteiro."
+        },
+        {
+          "title": "Copie seus próprios acertos: um bom componente não pode ficar num objeto só",
+          "rules": "Um mecanismo que funcionou é um recurso, não um monumento pronto. Reutilize-o em outro eixo para que o novo se sustente sozinho, porque você não pode aposentar uma ideia depois de um único uso.",
+          "flavor": "Experiment Kraj tomava as habilidades ativadas de criaturas com marcadores. Necrotic Ooze as toma do cemitério. Rosewater observa que, sem copiar Mistform Ultimus, o metamorfo não existiria."
+        },
+        {
+          "title": "O custo de expressar algo pode forçar uma versão melhor",
+          "rules": "Quando uma ideia não se deixa enunciar de forma concisa, a restrição às vezes aponta para uma ideia mais limpa, e não para uma redação pior. Procure o conceito vizinho que diz quase o mesmo com menos palavras.",
+          "flavor": "Experiment Kraj teve de listar por nome voar, medo, iniciativa, iniciativa dupla, travessia, proteção, atropelar e vigilância. Trocar copiar palavras-chave por copiar habilidades ativadas foi mais curto e melhor."
+        },
+        {
+          "title": "Deixe o público participar da história que a coisa conta",
+          "rules": "Uma narrativa que se desenrola sozinha é assistida; uma que o público faz avançar é dele. Construa as etapas de modo que cada uma seja alcançada por escolha própria, e o desfecho pesará por ter sido conquistado.",
+          "flavor": "O designer de Figure of Destiny queria uma carta que contasse uma história e deixasse o jogador estar nela: «Este personagem é um herói, mas só porque você o ajudou na jornada.» Cada etapa concede o tipo que a seguinte exige."
+        },
+        {
+          "title": "Realoje já uma ideia rejeitada — o interino vai remodelá-la",
+          "rules": "Quando algo é cortado, coloque em outro lugar de imediato em vez de engavetar. Mesmo que volte depois ao projeto original, o tempo passado em outro contexto muda para que você entende que ela serve.",
+          "flavor": "O mana híbrido foi cortado de Ravnica, então Rosewater o pôs em Time Spiral. Ravnica o pediu de volta meses depois — e nesses meses ele já começara a imaginar um set com uma concentração muito maior."
+        },
+        {
+          "title": "Ampliar um conjunto exige afrouxar suas restrições",
+          "rules": "Uma segunda leva feita com as regras da primeira sai como quase duplicatas. Varie de propósito uma dimensão que a primeira manteve fixa, e os novos membros poderão ser reconhecivelmente do conjunto sem repeti-lo.",
+          "flavor": "Os senhores aliados custavam todos um genérico e três híbridos. Mais cinco com esse custo exato ficavam próximos demais, então o ciclo inimigo abriu a faixa, trocou os tipos organizados por horrores e tomou habilidades mais complexas."
         }
       ]
     },
     "zh-Hans": {
-      "title": "A Double Take, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "再看一眼，第二部分",
+      "dek": "一个罗斯沃特后悔做的系列，以及一个换了三个家才找到自己那个家的机制。",
+      "overview": "《Double Masters 2022》设计故事的后半。其中两条是论证而不是轶事：他为什么后悔做《Planar Chaos》，以及为什么「抄自己成功过的牌」是必需的，而不是廉价的。",
+      "takeaway": "罗斯沃特后悔做了整个《Planar Chaos》。印出一批来自另一套颜色饼的牌，等于印出了证据——玩家至今还引用它们来论证某个颜色可以做某件事。你发出去的东西，会被读成你实际的做法。",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "把一个例外印出来，等于把规则教错给了受众",
+          "rules": "包在「刻意破例」外面的那层框架，不会随着这件实物一起流传。它一旦存在，人们就会举着它当作「你允许什么」的证据；而解释所能抵达的人，远比这件实物少。",
+          "flavor": "《Planar Chaos》明确设定为「一条颜色饼不同的另一条时间线上的系列」。很多年后，仍有人拿它的牌来向罗斯沃特论证蓝色能做什么。他说他后悔做了整个系列。"
+        },
+        {
+          "title": "去抄你自己的成功：一个好零件不能只留在一件东西上",
+          "rules": "一个奏效过的机制是一份资源，不是一座已经封顶的纪念碑。换一根轴把它再用一次，好让新东西能自己站住；因为你负担不起「一个点子用过一次就退休」。",
+          "flavor": "Experiment Kraj 拿的是「带指示物的生物」的起动式异能，Necrotic Ooze 拿的则是坟墓场里的。罗斯沃特指出：如果当初不去抄 Mistform Ultimus，就不会有变身兽。"
+        },
+        {
+          "title": "「把一件事说出来」的代价，可能逼出它更好的版本",
+          "rules": "当一个点子怎么写都简洁不了时，这条约束有时指向的是一个更干净的点子，而不是一段更糟的措辞。去找那个相邻的概念——它能用更少的字说出几乎同样的意思。",
+          "flavor": "Experiment Kraj 最初必须把飞行、恐惧、先攻、连击、地行者、保护、践踏、警戒逐一点名。从「抄关键字」改成「抄起动式异能」，既更短，也更好。"
+        },
+        {
+          "title": "让受众参与到这件东西所讲的故事里去",
+          "rules": "一段自己往下走的叙事，是被观看的；而一段由受众推着往前走的叙事，是属于他们的。把各个阶段搭成「每一级都要靠他们自己的选择才到达」，结局就会因为「是挣来的」而有分量。",
+          "flavor": "Figure of Destiny 的设计者想要一张会讲故事、并且让玩家身在其中的牌：「这个角色是英雄，但那只是因为你在路上帮了他。」每一级都授予下一级所要求的那个生物类别。"
+        },
+        {
+          "title": "立刻给被否掉的点子换个家——这段过渡会重塑它",
+          "rules": "有东西被砍掉时，马上把它放到别处去，而不要束之高阁。哪怕它日后又回到原来的项目，这段待在另一个脉络里的时间，也会改变你对「它到底适合用来做什么」的理解。",
+          "flavor": "混血法术力被从《Ravnica》里砍掉，于是罗斯沃特把它放进了《Time Spiral》。几个月后《Ravnica》又要了回去——而在那几个月里，他已经开始琢磨：一个浓度高得多的系列会是什么样。"
+        },
+        {
+          "title": "扩充一组东西，就必须把它的约束放松",
+          "rules": "照着第一批的规矩做出来的第二批，出来的都是近似的复制品。有意去改动一个第一批锁死了的维度，新成员才能既明显属于这一组，又不是在重复它。",
+          "flavor": "友好色的君王费用统统是一点通用加三点混血。再按同样的费用做五张会显得太近，于是敌对色那一组放宽了费用区间，把整齐的生物类别换成了惊惧兽，异能也允许更复杂。"
         }
       ]
     }

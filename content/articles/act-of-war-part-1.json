@@ -1,0 +1,242 @@
+{
+  "id": "act-of-war-part-1",
+  "slug": "act-of-war-part-1",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2022-10-31",
+  "series": { "id": "act-of-war", "order": 1, "total": 2 },
+  "tags": ["design-story", "brothers-war", "story"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/act-of-war-part-1",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T01:40:29.128Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Act of War, Part 1",
+      "dek": "A prototype that got a set greenlit, and a story list written in emotions.",
+      "overview": "The vision design of The Brothers' War, which began as a pitch for a supplemental product and had to be proven with two playable decks before anyone would put it on the premier schedule.",
+      "takeaway": "The event list doesn't name the beats, it names the feeling each one is for: splitting the powerstone, jealousy; the ornithopter bombing, betrayal; the aftermath of the blast, remorse. That turns a plot summary into a specification.",
+      "lessons": [
+        {
+          "title": "Prove a risky idea with a working prototype, then walk it up",
+          "rules": "Enthusiasm doesn't get an unproven thing scheduled; a version people can try does. Build the smallest playable demonstration, iterate it against widening circles of colleagues, and take it upward only once it survives them.",
+          "flavor": "Two sixty-card decks, one per brother, built in about a month. They were played against designers, revised, played again, then shown to the executive who'd asked for them, then to two more people above that. Then it went on the schedule."
+        },
+        {
+          "title": "Hand off the backup alongside the risky component",
+          "rules": "When you pass along something you suspect might not survive, pass along what should replace it. The receiving team then has a decision to make rather than a hole to fill under time pressure.",
+          "flavor": "Scrap was known to carry the same complexity problems as mutate. Unearth was kept in the handoff explicitly as its backup — and Rosewater notes in passing that scrap did indeed fail."
+        },
+        {
+          "title": "Decide in advance how much of the work each thing gets",
+          "rules": "Coverage that isn't allocated deliberately gets allocated by whoever happens to be enthusiastic. Rank the subjects and size the sections to the material, and downstream teams know where to spend before they start.",
+          "flavor": "Three acts, with the middle deliberately largest because it covers decades. Characters were sorted into three tiers: two at the top with a card each across three rarities, six important, seven that should merely appear."
+        },
+        {
+          "title": "Name the emotion each beat is for",
+          "rules": "A list of things that happen tells the next person what to depict. A list of what each one should make somebody feel tells them what to aim at, and it's checkable in a way that a plot summary isn't.",
+          "flavor": "Building the ornithopter, excitement. Splitting the powerstone, jealousy. The death during the powerstone battle, rage then regret. The sack of a city, grief. The aftermath of the blast, remorse. The survivors' march, hope."
+        },
+        {
+          "title": "When you can't reprint, refer",
+          "rules": "An old thing you want to invoke is often unusable as-is — too weak, too strong, wrong for now. Make something new that points at it, and you get the recognition without inheriting the problem.",
+          "flavor": "Most of the Antiquities cards the team wanted to call back to couldn't be reprinted at their original power. New designs referring to them did the work instead, with the few that fit reprinted directly."
+        },
+        {
+          "title": "A parasitic mechanic passes its first audience and fails the rest",
+          "rules": "Something that only interacts with its own cards will look fine in the environment it was built for. It fails in every context where those cards are a minority, and those contexts are usually most of them.",
+          "flavor": "The meld variant let any A-back combine with any B-back. Play Design judged it hard to adapt for Constructed, it was awkward in Commander, and those two facts together were enough to cut it."
+        },
+        {
+          "title": "Characterise rivals by the same outcome reached opposite ways",
+          "rules": "Two people wanting the same thing say nothing about either. Give them identical goals and incompatible methods, and each one's character is legible from how they get there.",
+          "flavor": "Urza's Patient Research is an enchantment drawing one card a turn for three turns. Mishra's Impulsive Research exiles three at once, playable only this turn. Same cards, entirely different people."
+        }
+      ]
+    },
+    "es": {
+      "title": "Acto de guerra, parte 1",
+      "dek": "Un prototipo que consiguió luz verde para un set, y una lista de la historia escrita en emociones.",
+      "overview": "El diseño de visión de The Brothers' War, que empezó como propuesta de producto suplementario y tuvo que demostrarse con dos mazos jugables antes de que nadie lo pusiera en el calendario principal.",
+      "takeaway": "La lista de sucesos no nombra los momentos, nombra el sentimiento de cada uno: partir la piedra motriz, celos; el bombardeo del ornitóptero, traición; las secuelas de la explosión, remordimiento. Eso convierte un resumen en una especificación.",
+      "lessons": [
+        {
+          "title": "Demuestra una idea arriesgada con un prototipo funcional y luego súbelo",
+          "rules": "El entusiasmo no mete en el calendario algo sin probar; una versión que la gente pueda probar sí. Construye la demostración jugable más pequeña, itérala contra círculos cada vez mayores de colegas, y solo entonces súbela.",
+          "flavor": "Dos mazos de sesenta cartas, uno por hermano, en cerca de un mes. Se jugaron contra diseñadores, se revisaron, se volvieron a jugar, y luego se mostraron al ejecutivo que los había pedido, y después a dos personas por encima."
+        },
+        {
+          "title": "Entrega el plan B junto con el componente arriesgado",
+          "rules": "Cuando pasas algo que sospechas que quizá no sobreviva, pasa también lo que debería reemplazarlo. El equipo receptor tiene entonces una decisión que tomar y no un hueco que tapar con prisas.",
+          "flavor": "Se sabía que scrap arrastraba los mismos problemas de complejidad que mutar. Unearth se mantuvo en el traspaso explícitamente como su repuesto, y Rosewater señala de pasada que scrap, en efecto, falló."
+        },
+        {
+          "title": "Decide de antemano cuánto trabajo se lleva cada cosa",
+          "rules": "La cobertura que no se reparte a propósito la reparte quien resulte estar más entusiasmado. Ordena los temas y dimensiona las secciones según el material, y los equipos posteriores sabrán dónde invertir antes de empezar.",
+          "flavor": "Tres actos, con el central deliberadamente mayor porque abarca décadas. Los personajes se ordenaron en tres niveles: dos arriba con una carta en tres rarezas, seis importantes, y siete que solo debían aparecer."
+        },
+        {
+          "title": "Nombra la emoción a la que apunta cada momento",
+          "rules": "Una lista de lo que ocurre le dice al siguiente qué representar. Una lista de lo que cada cosa debe hacer sentir le dice a qué apuntar, y es comprobable de un modo que un resumen de trama no lo es.",
+          "flavor": "Construir el ornitóptero, entusiasmo. Partir la piedra motriz, celos. La muerte durante la batalla de las piedras, rabia y luego arrepentimiento. El saqueo de una ciudad, dolor. Las secuelas, remordimiento. La marcha de los supervivientes, esperanza."
+        },
+        {
+          "title": "Cuando no puedas reimprimir, remite",
+          "rules": "Algo viejo que quieres invocar suele ser inservible tal cual: demasiado débil, demasiado fuerte, inadecuado ahora. Haz algo nuevo que apunte a ello y obtendrás el reconocimiento sin heredar el problema.",
+          "flavor": "La mayoría de las cartas de Antiquities a las que el equipo quería guiñar no podían reimprimirse a su potencia original. Diseños nuevos que se referían a ellas hicieron el trabajo, y las pocas que encajaban se reimprimieron."
+        },
+        {
+          "title": "Una mecánica parasitaria supera a su primer público y suspende con el resto",
+          "rules": "Algo que solo interactúa con sus propias cartas parecerá bien en el entorno para el que se construyó. Falla en todo contexto donde esas cartas son minoría, y esos contextos suelen ser casi todos.",
+          "flavor": "La variante de fusionar permitía combinar cualquier reverso A con cualquier reverso B. Diseño de Juego la juzgó difícil de adaptar a Construido, era incómoda en Commander, y esos dos hechos juntos bastaron para cortarla."
+        },
+        {
+          "title": "Caracteriza a dos rivales por el mismo resultado alcanzado de formas opuestas",
+          "rules": "Que dos personas quieran lo mismo no dice nada de ninguna. Dales objetivos idénticos y métodos incompatibles, y el carácter de cada una se lee en cómo llega hasta allí.",
+          "flavor": "Urza's Patient Research es un encantamiento que roba una carta por turno durante tres turnos. Mishra's Impulsive Research exilia tres de golpe, jugables solo ese turno. Las mismas cartas, personas del todo distintas."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Acte de guerre, partie 1",
+      "dek": "Un prototype qui a fait valider un set, et une liste d'histoire écrite en émotions.",
+      "overview": "La conception de vision de The Brothers' War, née d'une proposition de produit supplémentaire et qu'il a fallu prouver avec deux decks jouables avant que quiconque l'inscrive au calendrier des sets premier.",
+      "takeaway": "La liste des événements ne nomme pas les moments, elle nomme le sentiment visé par chacun : fendre la pierre de puissance, la jalousie ; le bombardement, la trahison ; l'après-explosion, le remords. Un résumé devient un cahier des charges.",
+      "lessons": [
+        {
+          "title": "Prouvez une idée risquée par un prototype jouable, puis faites-le remonter",
+          "rules": "L'enthousiasme ne met pas au calendrier une chose non éprouvée ; une version essayable, si. Bâtissez la plus petite démonstration jouable, itérez-la face à des cercles élargis de collègues, et ne la remontez qu'ensuite.",
+          "flavor": "Deux decks de soixante cartes, un par frère, en un mois environ. Joués contre des concepteurs, révisés, rejoués, puis montrés au dirigeant qui les avait demandés, puis à deux personnes encore au-dessus."
+        },
+        {
+          "title": "Transmettez la solution de repli avec le composant risqué",
+          "rules": "Quand vous passez une chose dont vous soupçonnez qu'elle pourrait ne pas tenir, passez aussi ce qui devrait la remplacer. L'équipe qui reçoit a alors une décision à prendre, non un trou à combler dans l'urgence.",
+          "flavor": "On savait que le recyclage portait les mêmes problèmes de complexité que la mutation. L'exhumation a été maintenue dans la passation explicitement comme repli — et Rosewater note au passage que le recyclage a bel et bien échoué."
+        },
+        {
+          "title": "Décidez d'avance quelle part du travail revient à chaque chose",
+          "rules": "Une couverture non répartie exprès se répartit selon qui se trouve enthousiaste. Classez les sujets et dimensionnez les sections selon la matière, et les équipes suivantes sauront où investir avant de commencer.",
+          "flavor": "Trois actes, le central délibérément le plus gros car il couvre des décennies. Les personnages furent rangés en trois niveaux : deux au sommet avec une carte sur trois raretés, six importants, sept devant simplement apparaître."
+        },
+        {
+          "title": "Nommez l'émotion visée par chaque moment",
+          "rules": "Une liste de ce qui arrive dit à la personne suivante quoi représenter. Une liste de ce que chaque chose doit faire ressentir lui dit quoi viser, et c'est vérifiable comme un résumé d'intrigue ne l'est pas.",
+          "flavor": "Construire l'ornithoptère, l'excitation. Fendre la pierre, la jalousie. La mort pendant la bataille des pierres, la rage puis le regret. Le sac d'une cité, le chagrin. L'après-explosion, le remords. La marche des survivants, l'espoir."
+        },
+        {
+          "title": "Quand vous ne pouvez pas rééditer, renvoyez",
+          "rules": "Une chose ancienne que vous voulez évoquer est souvent inutilisable telle quelle : trop faible, trop forte, inadaptée. Faites du neuf qui la désigne, et vous obtenez la reconnaissance sans hériter du problème.",
+          "flavor": "La plupart des cartes d'Antiquities auxquelles l'équipe voulait faire clin d'œil n'étaient pas rééditables à leur puissance d'origine. De nouveaux designs y renvoyant ont fait le travail ; les rares qui convenaient furent rééditées."
+        },
+        {
+          "title": "Une mécanique parasite passe son premier public et échoue partout ailleurs",
+          "rules": "Ce qui n'interagit qu'avec ses propres cartes paraîtra bon dans l'environnement pour lequel c'est bâti. Cela échoue partout où ces cartes sont minoritaires, et ces contextes-là sont en général la majorité.",
+          "flavor": "La variante de fusion laissait combiner n'importe quel dos A avec n'importe quel dos B. Le Play Design l'a jugée difficile à adapter au Construit, elle était malcommode en Commander : ces deux faits ont suffi à la couper."
+        },
+        {
+          "title": "Caractérisez deux rivaux par un même résultat atteint à l'opposé",
+          "rules": "Que deux personnes veuillent la même chose ne dit rien de l'une ni de l'autre. Donnez-leur des buts identiques et des méthodes incompatibles, et le caractère de chacune se lit dans la façon d'y parvenir.",
+          "flavor": "Urza's Patient Research est un enchantement qui pioche une carte par tour pendant trois tours. Mishra's Impulsive Research en exile trois d'un coup, jouables ce tour seulement. Mêmes cartes, personnes entièrement différentes."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Ato de guerra, parte 1",
+      "dek": "Um protótipo que aprovou um set, e uma lista da história escrita em emoções.",
+      "overview": "O design de visão de The Brothers' War, que começou como proposta de produto suplementar e teve de ser provado com dois decks jogáveis antes que alguém o pusesse no calendário dos sets principais.",
+      "takeaway": "A lista de eventos não nomeia os momentos, nomeia o sentimento de cada um: partir a pedra de poder, ciúme; o bombardeio do ornitóptero, traição; o rescaldo da explosão, remorso. Isso transforma um resumo em uma especificação.",
+      "lessons": [
+        {
+          "title": "Prove uma ideia arriscada com um protótipo funcional, e depois suba com ele",
+          "rules": "Entusiasmo não coloca no calendário algo não comprovado; uma versão que as pessoas possam experimentar, sim. Construa a menor demonstração jogável, itere-a contra círculos cada vez maiores de colegas, e só então suba.",
+          "flavor": "Dois decks de sessenta cartas, um por irmão, em cerca de um mês. Jogados contra designers, revisados, jogados de novo, e então mostrados ao executivo que os pedira, e depois a mais duas pessoas acima dele."
+        },
+        {
+          "title": "Entregue o plano reserva junto com o componente arriscado",
+          "rules": "Quando você repassa algo que suspeita que pode não sobreviver, repasse também o que deveria substituí-lo. A equipe que recebe passa a ter uma decisão a tomar, e não um buraco a tapar sob pressão de prazo.",
+          "flavor": "Sabia-se que sucata carregava os mesmos problemas de complexidade que mutar. Desenterrar foi mantida no repasse explicitamente como reserva — e Rosewater nota de passagem que sucata de fato falhou."
+        },
+        {
+          "title": "Decida de antemão quanto trabalho cabe a cada coisa",
+          "rules": "A cobertura que não é distribuída de propósito acaba distribuída por quem estiver mais entusiasmado. Ordene os assuntos e dimensione as seções pelo material, e as equipes seguintes saberão onde investir antes de começar.",
+          "flavor": "Três atos, com o do meio deliberadamente maior porque cobre décadas. Os personagens foram postos em três níveis: dois no topo com uma carta em três raridades, seis importantes, sete que deviam apenas aparecer."
+        },
+        {
+          "title": "Nomeie a emoção a que cada momento se destina",
+          "rules": "Uma lista do que acontece diz à pessoa seguinte o que representar. Uma lista do que cada coisa deve fazer sentir diz a ela o que mirar, e é verificável de um jeito que um resumo de enredo não é.",
+          "flavor": "Construir o ornitóptero, empolgação. Partir a pedra, ciúme. A morte durante a batalha das pedras, fúria e então arrependimento. O saque de uma cidade, luto. O rescaldo, remorso. A marcha dos sobreviventes, esperança."
+        },
+        {
+          "title": "Quando não der para reimprimir, remeta",
+          "rules": "Algo antigo que você quer evocar costuma ser inutilizável como está: fraco demais, forte demais, inadequado agora. Faça algo novo que aponte para aquilo, e você ganha o reconhecimento sem herdar o problema.",
+          "flavor": "A maioria das cartas de Antiquities a que a equipe queria acenar não podia ser reimpressa no poder original. Designs novos que se referiam a elas fizeram o serviço, e as poucas que serviam foram reimpressas."
+        },
+        {
+          "title": "Uma mecânica parasita passa no primeiro público e reprova no resto",
+          "rules": "Algo que só interage com as próprias cartas vai parecer bom no ambiente para o qual foi feito. Ele falha em todo contexto em que essas cartas são minoria, e esses contextos costumam ser quase todos.",
+          "flavor": "A variante de fundir permitia combinar qualquer verso A com qualquer verso B. O Play Design a julgou difícil de adaptar ao Construído, era desajeitada no Commander, e esses dois fatos juntos bastaram para cortá-la."
+        },
+        {
+          "title": "Caracterize rivais pelo mesmo resultado alcançado por caminhos opostos",
+          "rules": "Duas pessoas quererem a mesma coisa não diz nada sobre nenhuma delas. Dê-lhes objetivos idênticos e métodos incompatíveis, e o caráter de cada uma se lê no modo como chega lá.",
+          "flavor": "Urza's Patient Research é um encantamento que compra uma carta por turno durante três turnos. Mishra's Impulsive Research exila três de uma vez, jogáveis só naquele turno. As mesmas cartas, pessoas completamente diferentes."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "战争行为，第一部分",
+      "dek": "一个把整个系列送上马的原型，以及一份用情绪写成的故事清单。",
+      "overview": "《The Brothers' War》的构想设计。它最初只是一个补充产品的提案，必须先用两副真能打的套牌把它证明出来，才有人肯把它排进主要系列的日程表。",
+      "takeaway": "那份事件清单写的不是「发生了什么」，而是每一件事该为哪种感受服务：劈开充能宝——嫉妒；扑翼机轰炸——背叛；爆炸之后的余波——悔恨。这就把一份情节摘要变成了一份规格书。",
+      "lessons": [
+        {
+          "title": "用一个能跑起来的原型去证明一个有风险的点子，然后逐级往上递",
+          "rules": "热情没法把一样未经验证的东西排进日程；一个别人能上手试的版本可以。做出最小的可试玩演示，让它在一圈圈扩大的同事面前反复迭代——只有在它挺过这些之后，才往上递。",
+          "flavor": "两副六十张的套牌，兄弟各一副，用了大约一个月。先跟设计师们打，改，再打，然后拿给当初提出这个要求的高管看，再往上又给两个人看过。之后它才进了日程表。"
+        },
+        {
+          "title": "把备用方案与那个有风险的零件一起交出去",
+          "rules": "当你交出一样你自己也怀疑可能撑不住的东西时，把「该由什么来顶替它」也一并交出去。这样接手的团队面对的是一个待做的决定，而不是一个要在工期压力下临时填上的洞。",
+          "flavor": "当时已经知道，「拆解」带着和「变异」同样的复杂度问题。于是「掘出」被明确地作为它的备胎留在交接文件里——而罗斯沃特顺带指出：拆解后来确实没成。"
+        },
+        {
+          "title": "事先决定每样东西各占多少篇幅",
+          "rules": "不是刻意分配的覆盖面，最后会由「谁碰巧最有热情」来分配。把题材排出次序，并按材料本身的分量来定各部分的大小，下游团队在动手之前就知道该把力气花在哪。",
+          "flavor": "三幕，其中中间一幕被刻意做得最大，因为它覆盖的是几十年。角色被分成三档：最上面两位各有跨三个稀有度的牌，六位重要角色，七位「出现一下就好」。"
+        },
+        {
+          "title": "为每一个节点点明它要服务的那种情绪",
+          "rules": "一份「发生了什么」的清单，告诉下一个人要画什么。而一份「每一件事该让人产生什么感受」的清单，告诉他要瞄准什么——并且它可以被检验，而情节摘要不行。",
+          "flavor": "造出扑翼机——兴奋。劈开充能宝——嫉妒。充能宝之战中的那场死亡——暴怒，然后是悔意。一座城被洗劫——悲恸。爆炸之后——悔恨。幸存者的迁徙——希望。"
+        },
+        {
+          "title": "重印不了的时候，就去指涉它",
+          "rules": "一样你想唤起的旧东西，往往原样拿来是不能用的：太弱、太强、或者放在今天不合适。做一件新的、指向它的东西，你就能拿到那份辨识度，而不必连它的问题一起继承过来。",
+          "flavor": "团队想要致敬的《Antiquities》牌张，大多没法按原本的强度重印。于是由「指涉它们」的新设计来完成这项工作，只有少数几张合适的被直接重印。"
+        },
+        {
+          "title": "一个寄生型机制能过第一批受众那一关，然后在其余所有关上失败",
+          "rules": "一样只和自己那批牌互动的东西，在它被建造出来所服务的那个环境里会显得不错。而在所有「那批牌只占少数」的场合，它都会失败——而那些场合，通常是绝大多数。",
+          "flavor": "那个融合变体允许任意一张 A 面与任意一张 B 面组合。对局设计判定它很难适配构筑赛，它在指挥官里也别扭；这两点加在一起，就足以砍掉它。"
+        },
+        {
+          "title": "用「同一个结果、相反的路径」来刻画一对对手",
+          "rules": "两个人想要同一样东西，这件事本身对二者都毫无说明力。给他们完全相同的目标和互不相容的方法，各自的性格就会从「他们如何抵达那里」里读出来。",
+          "flavor": "Urza's Patient Research 是一张结界，连着三个回合每回合抓一张。Mishra's Impulsive Research 则一次放逐三张，而且只能在这个回合打出。同样的牌数，完全不同的两个人。"
+        }
+      ]
+    }
+  }
+}

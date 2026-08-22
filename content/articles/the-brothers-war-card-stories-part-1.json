@@ -1,0 +1,216 @@
+{
+  "id": "the-brothers-war-card-stories-part-1",
+  "slug": "the-brothers-war-card-stories-part-1",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2022-11-14",
+  "series": { "id": "the-brothers-war-card-stories", "order": 1, "total": 2 },
+  "tags": ["card-by-card", "brothers-war", "meld"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/the-brothers-war-card-stories-part-1",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T01:46:57.451Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "The Brothers' War Card Stories, Part 1",
+      "dek": "A meld card that began in a pitch deck, and six abilities that only worked as a menu.",
+      "overview": "The design of Mishra's meld card, traced back to the demo decks built to prove the set was worth making. Rosewater notes that few sets have a design phase before exploratory design, let alone one whose work survives to print.",
+      "takeaway": "Six activated abilities on one card took a single playtest to fail — too much to process. The same six as a choose-three menu worked fine. The count wasn't the load; having them all live at once was.",
+      "lessons": [
+        {
+          "title": "Give the second half of a pair standalone value",
+          "rules": "Anything that only pays off in combination needs each piece to be worth having alone. Otherwise nobody carries the half that does nothing yet, and the combination never gets assembled to be discovered.",
+          "flavor": "The card meant to meld with Mishra had to be something you'd be happy to run on its own merits. A kill spell cleared that bar, so that's what the second half of the pair was."
+        },
+        {
+          "title": "The number of options isn't the load; having them all live at once is",
+          "rules": "A set of choices that overwhelms when every one is always available can be perfectly comfortable when you take a fixed number from the same list. Change the access pattern before you change the count.",
+          "flavor": "One version gave the melded Mishra six activated abilities, each with its own cost. It took a single playtest to fail. The shipped structure keeps six options and has you choose three of them."
+        },
+        {
+          "title": "Curate a list of options by watching which ones go unused",
+          "rules": "Frequency of use is the signal you want. Options nobody picks come out; options everyone picks get weakened but kept, because being chosen too often is a tuning problem rather than a reason to cut.",
+          "flavor": "Rosewater describes the loop directly: effects that see no play are removed, effects that see too much play are weakened while staying relevant, and truly problematic ones are replaced outright."
+        },
+        {
+          "title": "Abandon a callback the audience doesn't remember",
+          "rules": "A reference only pays if people recognise what's being referenced. When they don't, you've accepted a constraint for nothing, and the honest move is to drop it and just make the thing good.",
+          "flavor": "Early versions worked hard to be mechanically descended from the original Dragon Engine. It had never excited anyone, so the team stopped, and the card got better once it stopped answering to a card few remembered."
+        },
+        {
+          "title": "Correct a behaviour by moving the reward, not removing the ability",
+          "rules": "When part of something pulls people the wrong way, you don't have to delete it. Attach the payoff to the behaviour you actually want, and the same ability now works with the design instead of against it.",
+          "flavor": "Mishra's card-drawing encouraged sitting back and keeping him out of combat, which is the opposite of what the set wanted. The fix moved the meld condition onto attacking rather than cutting the draw."
+        },
+        {
+          "title": "Give a big payoff something that happens immediately",
+          "rules": "A thing that only rewards you on subsequent turns loses to things that reward you now. Attach part of the effect to arrival, and the same card becomes worth playing in contexts that wouldn't wait for it.",
+          "flavor": "The melded Mishra's list of effects was made an enters-the-battlefield trigger as well as an attack trigger. Rosewater notes this is especially what makes a card viable in Constructed."
+        }
+      ]
+    },
+    "es": {
+      "title": "Historias de cartas de The Brothers' War, parte 1",
+      "dek": "Una carta de fusión que nació en un mazo de demostración, y seis habilidades que solo funcionaron como menú.",
+      "overview": "El diseño de la carta de fusión de Mishra, rastreado hasta los mazos de demostración construidos para probar que el set merecía la pena. Rosewater señala que pocos sets tienen una fase de diseño previa a la exploratoria, y menos aún una cuyo trabajo llegue a imprimirse.",
+      "takeaway": "Seis habilidades activadas en una carta fracasaron en una sola prueba: demasiado que procesar. Esas mismas seis como menú de «elige tres» funcionaron bien. La carga no era el número, sino tenerlas todas vivas a la vez.",
+      "lessons": [
+        {
+          "title": "Dale valor propio a la segunda mitad de una pareja",
+          "rules": "Todo lo que solo rinde en combinación necesita que cada pieza valga la pena por separado. Si no, nadie lleva la mitad que aún no hace nada, y la combinación nunca llega a montarse para ser descubierta.",
+          "flavor": "La carta destinada a fusionarse con Mishra tenía que ser algo que te alegrara jugar por sus propios méritos. Un hechizo de destrucción superaba ese listón, y eso fue la segunda mitad de la pareja."
+        },
+        {
+          "title": "La carga no es el número de opciones, sino tenerlas todas vivas a la vez",
+          "rules": "Un conjunto de elecciones que abruma cuando todas están siempre disponibles puede resultar cómodo cuando tomas un número fijo de esa misma lista. Cambia el patrón de acceso antes de cambiar la cuenta.",
+          "flavor": "Una versión daba al Mishra fusionado seis habilidades activadas, cada una con su coste. Bastó una sola prueba para que fracasara. La estructura publicada mantiene seis opciones y te hace elegir tres."
+        },
+        {
+          "title": "Cura una lista de opciones observando cuáles no se usan",
+          "rules": "La frecuencia de uso es la señal que buscas. Las opciones que nadie elige salen; las que todos eligen se debilitan pero se conservan, porque ser elegida demasiado es un problema de ajuste, no un motivo para cortar.",
+          "flavor": "Rosewater describe el bucle sin rodeos: los efectos que no se juegan se quitan, los que se juegan demasiado se debilitan manteniéndolos relevantes, y los realmente problemáticos se sustituyen."
+        },
+        {
+          "title": "Abandona un guiño que el público no recuerda",
+          "rules": "Una referencia solo rinde si la gente reconoce lo referenciado. Cuando no, has aceptado una restricción a cambio de nada, y lo honesto es soltarla y limitarse a hacer buena la cosa.",
+          "flavor": "Las primeras versiones se esforzaban por descender mecánicamente del Dragon Engine original. Nunca había entusiasmado a nadie, así que el equipo lo dejó, y la carta mejoró al dejar de responder a otra que pocos recordaban."
+        },
+        {
+          "title": "Corrige una conducta moviendo la recompensa, no quitando la habilidad",
+          "rules": "Cuando una parte tira de la gente en la dirección equivocada, no hace falta borrarla. Ata el premio a la conducta que sí quieres, y la misma habilidad pasa a trabajar con el diseño en vez de contra él.",
+          "flavor": "El robo de cartas de Mishra animaba a quedarse atrás y mantenerlo fuera del combate, lo contrario de lo que el set quería. El arreglo movió la condición de fusión al ataque en lugar de cortar el robo."
+        },
+        {
+          "title": "Dale a un gran premio algo que ocurra de inmediato",
+          "rules": "Algo que solo te recompensa en turnos posteriores pierde frente a lo que te recompensa ahora. Ata parte del efecto a la llegada, y la misma carta se vuelve jugable en contextos que no la habrían esperado.",
+          "flavor": "La lista de efectos del Mishra fusionado se convirtió en un disparo al entrar al campo además de un disparo al atacar. Rosewater señala que eso es especialmente lo que hace viable una carta en Construido."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Histoires de cartes de The Brothers' War, partie 1",
+      "dek": "Une carte de fusion née dans un deck de démonstration, et six capacités qui n'ont marché qu'en menu.",
+      "overview": "La conception de la carte de fusion de Mishra, remontée jusqu'aux decks de démonstration bâtis pour prouver que le set valait la peine. Rosewater note que peu de sets ont une phase de conception avant l'exploratoire, encore moins dont le travail survit jusqu'à l'impression.",
+      "takeaway": "Six capacités activées sur une carte ont échoué en un seul test : trop à traiter. Les mêmes six en menu « choisissez-en trois » ont bien marché. La charge n'était pas le nombre, mais de les avoir toutes actives à la fois.",
+      "lessons": [
+        {
+          "title": "Donnez à la seconde moitié d'une paire une valeur propre",
+          "rules": "Tout ce qui ne paie qu'en combinaison exige que chaque pièce vaille la peine seule. Sinon, nul ne porte la moitié qui ne fait encore rien, et la combinaison n'est jamais assemblée ni découverte.",
+          "flavor": "La carte destinée à fusionner avec Mishra devait être une chose qu'on est content de jouer pour elle-même. Un sort de destruction franchissait la barre : ce fut donc la seconde moitié de la paire."
+        },
+        {
+          "title": "La charge n'est pas le nombre d'options, mais de les avoir toutes actives à la fois",
+          "rules": "Un ensemble de choix qui écrase quand tous sont toujours disponibles peut être parfaitement confortable quand on en prend un nombre fixe dans la même liste. Changez le mode d'accès avant de changer le compte.",
+          "flavor": "Une version donnait au Mishra fusionné six capacités activées, chacune avec son coût. Un seul test a suffi pour la faire échouer. La structure imprimée garde six options et vous en fait choisir trois."
+        },
+        {
+          "title": "Sélectionnez une liste d'options en observant lesquelles restent inutilisées",
+          "rules": "La fréquence d'usage est le signal recherché. Les options que nul ne prend sortent ; celles que tous prennent sont affaiblies mais gardées, car être choisie trop souvent est un problème de réglage, non un motif de coupe.",
+          "flavor": "Rosewater décrit la boucle sans détour : les effets jamais joués sont retirés, ceux trop joués sont affaiblis tout en restant pertinents, et les vraiment problématiques sont remplacés."
+        },
+        {
+          "title": "Abandonnez un clin d'œil que le public ne reconnaît pas",
+          "rules": "Une référence ne paie que si les gens reconnaissent ce qui est cité. Sinon, vous avez accepté une contrainte pour rien, et l'honnêteté consiste à la lâcher et à faire simplement une bonne chose.",
+          "flavor": "Les premières versions s'efforçaient de descendre mécaniquement du Dragon Engine d'origine. Cela n'avait jamais enthousiasmé personne : l'équipe a cessé, et la carte s'est améliorée en cessant de répondre à une carte peu mémorable."
+        },
+        {
+          "title": "Corrigez un comportement en déplaçant la récompense, pas en supprimant la capacité",
+          "rules": "Quand une partie tire les gens du mauvais côté, nul besoin de l'effacer. Attachez le gain au comportement que vous voulez, et la même capacité travaille désormais avec le design au lieu de contre lui.",
+          "flavor": "La pioche de Mishra incitait à rester en retrait et à le tenir hors du combat, l'inverse de ce que voulait le set. Le correctif a déplacé la condition de fusion sur l'attaque plutôt que de couper la pioche."
+        },
+        {
+          "title": "Donnez à un gros gain quelque chose d'immédiat",
+          "rules": "Une chose qui ne récompense qu'aux tours suivants perd contre ce qui récompense tout de suite. Attachez une part de l'effet à l'arrivée, et la même carte devient jouable là où l'on ne l'aurait pas attendue.",
+          "flavor": "La liste d'effets du Mishra fusionné est devenue un déclencheur à l'arrivée en plus d'un déclencheur à l'attaque. Rosewater note que c'est surtout cela qui rend une carte viable en Construit."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Histórias de cartas de The Brothers' War, parte 1",
+      "dek": "Uma carta de fusão nascida num deck de demonstração, e seis habilidades que só funcionaram como cardápio.",
+      "overview": "O design da carta de fusão de Mishra, rastreado até os decks de demonstração feitos para provar que o set valia a pena. Rosewater nota que poucos sets têm uma fase de design antes da exploratória, e menos ainda cujo trabalho chegue à impressão.",
+      "takeaway": "Seis habilidades ativadas numa carta falharam num único teste: coisa demais para processar. As mesmas seis como cardápio de «escolha três» funcionaram bem. A carga não era o número, e sim tê-las todas vivas de uma vez.",
+      "lessons": [
+        {
+          "title": "Dê à segunda metade de um par valor por si só",
+          "rules": "Tudo que só rende em combinação exige que cada peça valha a pena sozinha. Do contrário ninguém carrega a metade que ainda não faz nada, e a combinação nunca chega a ser montada nem descoberta.",
+          "flavor": "A carta destinada a fundir com Mishra tinha de ser algo que você ficasse feliz em jogar por mérito próprio. Uma mágica de destruição passava nesse critério, e foi ela a segunda metade do par."
+        },
+        {
+          "title": "A carga não é o número de opções, e sim tê-las todas vivas ao mesmo tempo",
+          "rules": "Um conjunto de escolhas que sufoca quando todas estão sempre disponíveis pode ser perfeitamente confortável quando você tira um número fixo da mesma lista. Mude o padrão de acesso antes de mudar a contagem.",
+          "flavor": "Uma versão dava ao Mishra fundido seis habilidades ativadas, cada uma com seu custo. Bastou um único teste para falhar. A estrutura publicada mantém seis opções e faz você escolher três."
+        },
+        {
+          "title": "Cure uma lista de opções observando quais ficam sem uso",
+          "rules": "A frequência de uso é o sinal que você quer. Opções que ninguém escolhe saem; as que todos escolhem são enfraquecidas mas mantidas, porque ser escolhida demais é problema de ajuste, não motivo para cortar.",
+          "flavor": "Rosewater descreve o ciclo direto: efeitos que não são jogados saem, efeitos jogados demais são enfraquecidos mas seguem relevantes, e os realmente problemáticos são substituídos de vez."
+        },
+        {
+          "title": "Abandone um aceno que o público não reconhece",
+          "rules": "Uma referência só rende se as pessoas reconhecerem o que está sendo referido. Quando não, você aceitou uma restrição por nada, e o honesto é soltá-la e simplesmente fazer a coisa boa.",
+          "flavor": "As versões iniciais se esforçavam para descender mecanicamente do Dragon Engine original. Isso nunca empolgou ninguém, então a equipe parou, e a carta melhorou ao deixar de responder a uma carta que poucos lembravam."
+        },
+        {
+          "title": "Corrija um comportamento movendo a recompensa, não removendo a habilidade",
+          "rules": "Quando uma parte puxa as pessoas para o lado errado, não é preciso apagá-la. Amarre o prêmio ao comportamento que você de fato quer, e a mesma habilidade passa a trabalhar a favor do design em vez de contra.",
+          "flavor": "A compra de cartas de Mishra incentivava ficar para trás e mantê-lo fora do combate, o oposto do que o set queria. O conserto moveu a condição de fusão para o ataque em vez de cortar a compra."
+        },
+        {
+          "title": "Dê a um grande prêmio algo que aconteça de imediato",
+          "rules": "Algo que só recompensa em turnos posteriores perde para o que recompensa agora. Amarre parte do efeito à chegada, e a mesma carta passa a valer a pena em contextos que não a esperariam.",
+          "flavor": "A lista de efeitos do Mishra fundido virou um gatilho ao entrar no campo além do gatilho ao atacar. Rosewater nota que é sobretudo isso que torna uma carta viável no Construído."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "《兄弟之战》牌张故事，第一部分",
+      "dek": "一张诞生于提案套牌的融合牌，以及六个只有做成菜单才成立的异能。",
+      "overview": "Mishra 那张融合牌的设计，一路回溯到当初为了证明「这个系列值得做」而搭起来的演示套牌。罗斯沃特指出：很少有系列在探索设计之前还有一个设计阶段，更少有那个阶段的成果能一路活到印刷。",
+      "takeaway": "一张牌上六个起动式异能，一次试玩就宣告失败——要处理的东西太多了。而同样这六个做成「选三」的菜单，就完全没问题。负担不在数量，而在于它们同时都活着。",
+      "lessons": [
+        {
+          "title": "让一对东西中的后一半，本身就有独立价值",
+          "rules": "任何只有在组合中才兑现的东西，都要求它的每一件零件单独拿出来也值得拥有。否则没人会带上那半「暂时什么也不做」的，于是这个组合永远也拼不起来、更谈不上被发现。",
+          "flavor": "那张要与 Mishra 融合的牌，必须是一张你单看它本身也乐意放进套牌里的牌。一张去除咒语过了这条线，于是这对牌的后一半就是它。"
+        },
+        {
+          "title": "负担不在选项的数量，而在于它们同时都活着",
+          "rules": "一组选择，如果每一个都随时可用会压垮人，那么当你从同一份清单里只取固定的几个时，它可能完全不成问题。先去改「访问方式」，再去改「数量」。",
+          "flavor": "有一版给融合后的 Mishra 装了六个起动式异能，每个都有自己的费用。一次试玩就把它判了死刑。而最终印出来的结构保留了六个选项，只让你从中选三个。"
+        },
+        {
+          "title": "靠观察「哪些选项没人用」来筛一份选项清单",
+          "rules": "使用频率就是你要的那个信号。没人选的选项拿掉；人人都选的选项削弱但保留——因为「被选得太频繁」是一个调校问题，而不是砍掉它的理由。",
+          "flavor": "罗斯沃特把这个循环讲得很直白：没人打的效应被移除；打得太多的效应被削弱、但仍保持有用；而真正有问题的，则直接换掉。"
+        },
+        {
+          "title": "受众记不起来的致敬，就放弃掉",
+          "rules": "一处指涉，只有在人们认得出被指涉的对象时才有回报。当他们认不出时，你等于白白接受了一条约束；诚实的做法是把它松开，专心把这样东西做好。",
+          "flavor": "早期版本很努力地想在机制上从初代 Dragon Engine 那里继承下来。可那从来没让任何人兴奋过；团队于是停手——而这张牌在不再向一张少有人记得的牌交代之后，反而变好了。"
+        },
+        {
+          "title": "靠挪动奖励来纠正行为，而不是靠删掉那个异能",
+          "rules": "当某个部分把人往错误的方向拽时，你并不非得把它抹掉。把回报挂到你真正想要的那个行为上，同一个异能就会转而与设计同向，而不是与它对着干。",
+          "flavor": "Mishra 的抓牌鼓励你缩在后面、别让他去战斗，而这恰好和这个系列想要的相反。修法是把融合条件挪到「攻击」上，而不是把抓牌砍掉。"
+        },
+        {
+          "title": "给一个大回报配上一件立刻就发生的事",
+          "rules": "只在后续回合里给你回报的东西，会输给现在就给你回报的东西。把效果的一部分挂到「进场」上，同一张牌就会在那些原本等不起它的场合里变得值得一打。",
+          "flavor": "融合后 Mishra 的那份效果清单，除了攻击触发之外，又被做成了进战场触发。罗斯沃特指出：正是这一点，尤其决定了一张牌在构筑赛里是否立得住。"
+        }
+      ]
+    }
+  }
+}
