@@ -5,7 +5,11 @@
   "author": "Mark Rosewater",
   "publishedAt": "2019-11-26",
   "series": null,
-  "tags": [],
+  "tags": [
+    "design-philosophy",
+    "process",
+    "iteration"
+  ],
   "pointNoun": "point",
   "source": {
     "canonical": "https://magic.wizards.com/en/news/making-magic/blank-page-different-take-2019-11-25",
@@ -22,72 +26,246 @@
   "lessons": [
     {
       "n": 1,
+      "color": "R"
+    },
+    {
+      "n": 2,
+      "color": "U"
+    },
+    {
+      "n": 3,
       "color": "W"
+    },
+    {
+      "n": 4,
+      "color": "B"
+    },
+    {
+      "n": 5,
+      "color": "G"
+    },
+    {
+      "n": 6,
+      "color": "B"
+    },
+    {
+      "n": 7,
+      "color": "U"
     }
   ],
   "translations": {
     "en": {
       "title": "The Blank Page, A Different Take",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "dek": "Seven stages from nothing to a finished first pass, including the two lists that decide what you build first.",
+      "overview": "Rosewater wrote this, realised he'd covered the same subject four years earlier, and published it anyway because the approach differs. It runs from the squiggle on the blank canvas through choosing a path, exploring it broadly, identifying the one element that makes the work sing, re-centring everything on it, and finally ordering the whole set of components for construction.",
+      "takeaway": "At the structuring stage, volume is decided by what makes the thing play and feel best — not by what happens to fit in the space left over.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Put any mark on the page; it doesn't have to survive",
+          "rules": "A blank start is paralysing because the question is unbounded. Make one arbitrary commitment and the question becomes what that thing means, which is a problem of ordinary size — and you are free to paint over it later, so don't burden it with having to be right.",
+          "flavor": "An art teacher's tip: face a blank canvas by drawing a squiggle. “Instead of trying to figure out what the blank canvas is supposed to be, you start by figuring out what the squiggle is supposed to be… by the end of the painting, the squiggle will be long covered.”"
+        },
+        {
+          "title": "Set yourself a problem you've never set before, so you can't use your own grooves",
+          "rules": "Your mind is built to reuse the route that worked last time, which is exactly what you want everywhere except here. Impose a constraint you have genuinely never worked under, and the novelty of the problem forces a route you don't already have.",
+          "flavor": "“Consistency of execution is wanted in most daily functions. The one place it's not, though, is creative expression.” Hence: “Every time I start a Magic design, I make sure to give myself a challenge that I've never given myself before.” Sometimes the constraint is arbitrary — make this design feel like a donut."
+        },
+        {
+          "title": "A team needs a concrete task, and “make something” isn't one",
+          "rules": "People solve well-specified problems well and vague ones badly, so the leader's early job is to convert an open question into something answerable. Pick a direction knowing it may be wrong: a wrong direction still produces knowledge, and no direction produces nothing for anyone to react to.",
+          "flavor": "“‘Make something' is an empty task. ‘Make a world based on Arthurian legend and fairy tales' is a goal.” The common failure is fear of committing: “In order for your design to be something, it will have to not be many other things.”"
+        },
+        {
+          "title": "Go wide before deep, and let the failures map the terrain",
+          "rules": "Early on, quantity beats quality: many rough executions tell you what the direction contains. The bad ones are not waste — they mark the parts of the space that don't work, which is how you learn where not to look later.",
+          "flavor": "Rosewater calls it throwing spaghetti at the wall. “The good ideas will inspire similar executions in other areas. The ideas with potential will encourage you to tweak them. The bad ideas will help you learn the troublesome areas of the design space so that you can know where not to look.”"
+        },
+        {
+          "title": "Re-centre the direction on what turned out to be best",
+          "rules": "You had to choose a direction before you knew what the work was good at, so the direction is almost certainly aimed slightly wrong. Once the strongest element is identifiable, check whether it sits at the centre of your path or off to one side — and move the path, not the element.",
+          "flavor": "“Once you identify your superstar, it's time to recheck your path. Is your superstar in the center of it or off to the side? If the latter, it's time to re-center your path around your superstar. A lot of early design is constantly readjusting your focus.”"
+        },
+        {
+          "title": "The best element becomes the judge that lets you cut your darlings",
+          "rules": "Deciding what to remove is impossible while every piece is assessed on its own merits, because good things look good in isolation. Name the centre first, and every other component acquires a testable question: does this make that better, or compete with it?",
+          "flavor": "“This is the reason that picking your superstar is so important. It will start giving you a means to judge the rest of your set.” It's also where the hard cuts start — things exciting in a vacuum that don't add to the whole."
+        },
+        {
+          "title": "Rank by importance and by difficulty, and build what's highest on both",
+          "rules": "Every element you add narrows what the next one can be, so the order of construction decides what's still possible. Make two orderings — most to least important, hardest to easiest — and start with whatever tops the combination, because that's the piece that will not fit if it goes last.",
+          "flavor": "“If you don't start with your most difficult/important design element, it most likely won't fit when it comes time to add it.” And the exception: if the centrepiece is easy and therefore low on the difficulty list, check at every addition that room for it remains."
         }
       ]
     },
     "es": {
-      "title": "The Blank Page, A Different Take",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "La página en blanco, otra mirada",
+      "dek": "Siete etapas desde la nada hasta un primer borrador terminado, incluidas las dos listas que deciden qué construyes primero.",
+      "overview": "Rosewater escribió esto, se dio cuenta de que ya había tratado el mismo tema cuatro años antes, y lo publicó igual porque el enfoque es distinto. Va desde el garabato en el lienzo en blanco hasta elegir un camino, explorarlo a lo ancho, identificar el elemento que hace cantar la obra, recentrarlo todo en él y, por fin, ordenar el conjunto de componentes para construir.",
+      "takeaway": "En la etapa de estructuración, el volumen se decide por lo que hace que la cosa se juegue y se sienta mejor, no por lo que casualmente cabe en el hueco que sobra.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Pon cualquier marca en la página; no tiene por qué sobrevivir",
+          "rules": "Empezar en blanco paraliza porque la pregunta no tiene límites. Haz un compromiso arbitrario y la pregunta pasa a ser qué significa esa cosa, que es un problema de tamaño normal; y podrás pintar encima después, así que no la cargues con tener que ser acertada.",
+          "flavor": "El consejo de un profesor de arte: ante un lienzo en blanco, dibuja un garabato. «En vez de intentar averiguar qué debe ser el lienzo en blanco, empiezas por averiguar qué debe ser el garabato… y al final del cuadro el garabato estará tapado hace rato.»"
+        },
+        {
+          "title": "Ponte un problema que nunca te hayas puesto, para no poder usar tus propios surcos",
+          "rules": "Tu mente está hecha para reutilizar la ruta que funcionó la última vez, que es justo lo que quieres en todas partes menos aquí. Impón una restricción bajo la que no hayas trabajado nunca y la novedad del problema forzará una ruta que aún no tienes.",
+          "flavor": "«La consistencia de ejecución se quiere en casi todas las funciones diarias. El único sitio donde no, es la expresión creativa.» De ahí: «Cada vez que empiezo un diseño de Magic, me aseguro de plantearme un reto que no me haya planteado antes.» A veces la restricción es arbitraria: haz que este diseño se sienta como un dónut."
+        },
+        {
+          "title": "Un equipo necesita una tarea concreta, y «haz algo» no lo es",
+          "rules": "La gente resuelve bien los problemas bien especificados y mal los vagos, así que el trabajo temprano de quien lidera es convertir una pregunta abierta en algo respondible. Elige una dirección sabiendo que puede ser errónea: una dirección equivocada produce conocimiento, y ninguna dirección no produce nada a lo que reaccionar.",
+          "flavor": "«“Haz algo” es una tarea vacía. “Haz un mundo basado en la leyenda artúrica y los cuentos de hadas” es un objetivo.» El fallo habitual es el miedo a comprometerse: «Para que tu diseño sea algo, tendrá que no ser muchas otras cosas.»"
+        },
+        {
+          "title": "Ve a lo ancho antes que a lo hondo, y deja que los fracasos cartografíen el terreno",
+          "rules": "Al principio la cantidad gana a la calidad: muchas ejecuciones toscas te dicen qué contiene la dirección. Las malas no son desperdicio: señalan las partes del espacio que no funcionan, y así aprendes dónde no mirar más adelante.",
+          "flavor": "Rosewater lo llama tirar espaguetis a la pared. «Las buenas ideas inspirarán ejecuciones parecidas en otras áreas. Las que tienen potencial te animarán a retocarlas. Las malas te ayudarán a conocer las zonas problemáticas del espacio de diseño para saber dónde no buscar.»"
+        },
+        {
+          "title": "Recentra la dirección en lo que resultó ser lo mejor",
+          "rules": "Tuviste que elegir dirección antes de saber en qué era buena la obra, así que casi seguro apunta un poco mal. En cuanto el elemento más fuerte sea identificable, comprueba si está en el centro de tu camino o a un lado, y mueve el camino, no el elemento.",
+          "flavor": "«Una vez identificas a tu superestrella, toca revisar el camino. ¿Está en el centro o a un lado? Si es lo segundo, hay que recentrar el camino en torno a ella. Buena parte del diseño temprano es reajustar el foco constantemente.»"
+        },
+        {
+          "title": "El mejor elemento se convierte en el juez que te permite cortar tus favoritos",
+          "rules": "Decidir qué quitar es imposible mientras cada pieza se juzgue por sus propios méritos, porque lo bueno parece bueno en aislamiento. Nombra primero el centro y cada componente adquiere una pregunta comprobable: ¿esto mejora aquello o compite con ello?",
+          "flavor": "«Por eso es tan importante elegir a tu superestrella. Empieza a darte un modo de juzgar el resto de la colección.» Ahí empiezan también los cortes duros: cosas emocionantes en el vacío que no aportan al conjunto."
+        },
+        {
+          "title": "Ordena por importancia y por dificultad, y construye lo más alto en ambas",
+          "rules": "Cada elemento que añades estrecha lo que puede ser el siguiente, así que el orden de construcción decide qué sigue siendo posible. Haz dos ordenaciones —de más a menos importante, de más difícil a más fácil— y empieza por lo que encabece la combinación, porque es la pieza que no cabrá si va la última.",
+          "flavor": "«Si no empiezas por tu elemento de diseño más difícil e importante, lo más probable es que no quepa cuando llegue el momento de añadirlo.» Y la excepción: si la pieza central es fácil y por tanto queda abajo en la lista de dificultad, comprueba en cada adición que sigue habiendo sitio para ella."
         }
       ]
     },
     "fr": {
-      "title": "The Blank Page, A Different Take",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "La page blanche, autrement",
+      "dek": "Sept étapes du néant à une première version achevée, dont les deux listes qui décident par quoi commencer.",
+      "overview": "Rosewater a écrit ce texte, s'est aperçu qu'il avait traité le même sujet quatre ans plus tôt, et l'a publié quand même parce que l'approche diffère. Cela va du gribouillis sur la toile blanche au choix d'un chemin, à son exploration en largeur, à l'identification de l'élément qui fait chanter l'ouvrage, au recentrage de tout sur lui, et enfin à l'ordonnancement des composants pour la construction.",
+      "takeaway": "À l'étape de structuration, le volume se décide selon ce qui rend la chose la plus agréable à jouer et à ressentir — non selon ce qui, par hasard, tient dans la place restante.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Posez n'importe quelle marque sur la page ; elle n'a pas à survivre",
+          "rules": "Un départ vierge paralyse parce que la question est sans bornes. Faites un engagement arbitraire et la question devient : que signifie cette chose — un problème de taille ordinaire ; et vous pourrez repeindre par-dessus, alors ne la chargez pas de devoir être juste.",
+          "flavor": "Le conseil d'un professeur d'art : devant une toile blanche, tracez un gribouillis. « Au lieu de chercher ce que la toile blanche doit être, vous cherchez ce que le gribouillis doit être… et à la fin du tableau, il sera recouvert depuis longtemps. »"
+        },
+        {
+          "title": "Donnez-vous un problème jamais posé, pour ne pas pouvoir emprunter vos ornières",
+          "rules": "Votre esprit est fait pour réemprunter le trajet qui a marché la dernière fois, ce qui est souhaitable partout sauf ici. Imposez-vous une contrainte sous laquelle vous n'avez jamais travaillé : la nouveauté du problème force un trajet que vous n'avez pas encore.",
+          "flavor": "« La constance d'exécution est souhaitable dans presque toutes les fonctions quotidiennes. Le seul endroit où elle ne l'est pas, c'est l'expression créative. » D'où : « Chaque fois que je commence une conception, je me donne un défi que je ne me suis jamais donné. » Parfois la contrainte est arbitraire : faites que cette carte ait l'air d'un beignet."
+        },
+        {
+          "title": "Une équipe a besoin d'une tâche concrète, et « faites quelque chose » n'en est pas une",
+          "rules": "On résout bien les problèmes bien posés et mal les problèmes vagues : le premier travail de celui qui dirige est de convertir une question ouverte en question à laquelle on peut répondre. Choisissez une direction en sachant qu'elle peut être fausse : une mauvaise direction produit du savoir, l'absence de direction ne produit rien à quoi réagir.",
+          "flavor": "« “Faites quelque chose” est une tâche vide. “Faites un monde fondé sur la légende arthurienne et les contes de fées” est un objectif. » L'échec courant est la peur de s'engager : « Pour que votre conception soit quelque chose, il faudra qu'elle ne soit pas beaucoup d'autres choses. »"
+        },
+        {
+          "title": "Allez en largeur avant la profondeur, et laissez les échecs cartographier le terrain",
+          "rules": "Au début, la quantité l'emporte sur la qualité : de nombreuses exécutions grossières vous disent ce que contient la direction. Les mauvaises ne sont pas du gâchis : elles balisent les zones qui ne fonctionnent pas, et c'est ainsi qu'on apprend où ne pas chercher ensuite.",
+          "flavor": "Rosewater appelle cela jeter des spaghettis au mur. « Les bonnes idées inspireront des exécutions voisines ailleurs. Celles qui ont du potentiel vous pousseront à les retoucher. Les mauvaises vous feront connaître les zones problématiques de l'espace de conception, pour savoir où ne pas regarder. »"
+        },
+        {
+          "title": "Recentrez la direction sur ce qui s'est révélé le meilleur",
+          "rules": "Vous avez dû choisir une direction avant de savoir ce que l'ouvrage réussissait le mieux : elle vise donc presque sûrement un peu à côté. Dès que l'élément le plus fort est identifiable, regardez s'il est au centre de votre chemin ou sur le côté — et déplacez le chemin, pas l'élément.",
+          "flavor": "« Une fois votre vedette identifiée, il faut revérifier le chemin. Est-elle au centre ou sur le côté ? Dans le second cas, il est temps de recentrer le chemin autour d'elle. Une grande part de la conception initiale consiste à réajuster sans cesse le foyer. »"
+        },
+        {
+          "title": "Le meilleur élément devient le juge qui permet de couper vos préférés",
+          "rules": "Décider quoi retirer est impossible tant que chaque pièce est jugée pour elle-même, car ce qui est bon paraît bon isolément. Nommez d'abord le centre, et chaque composant reçoit une question vérifiable : ceci améliore-t-il cela, ou lui fait-il concurrence ?",
+          "flavor": "« C'est pourquoi choisir sa vedette est si important. Cela commence à vous donner un moyen de juger le reste de l'édition. » C'est aussi là que commencent les coupes dures : des choses excitantes dans l'absolu qui n'apportent rien à l'ensemble."
+        },
+        {
+          "title": "Classez par importance et par difficulté, et bâtissez ce qui est en tête des deux",
+          "rules": "Chaque élément ajouté restreint ce que le suivant peut être : l'ordre de construction décide donc de ce qui reste possible. Faites deux classements — du plus au moins important, du plus dur au plus simple — et commencez par ce qui domine la combinaison, car c'est la pièce qui n'entrera plus si elle vient en dernier.",
+          "flavor": "« Si vous ne commencez pas par l'élément le plus difficile et le plus important, il n'entrera très probablement pas au moment de l'ajouter. » Et l'exception : si la pièce maîtresse est facile et donc basse au classement de difficulté, vérifiez à chaque ajout qu'il lui reste de la place."
         }
       ]
     },
     "pt-BR": {
-      "title": "The Blank Page, A Different Take",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "A página em branco, outra abordagem",
+      "dek": "Sete estágios do nada até um primeiro passe pronto, incluindo as duas listas que decidem o que você constrói primeiro.",
+      "overview": "Rosewater escreveu isto, percebeu que já tratara do mesmo assunto quatro anos antes, e publicou assim mesmo porque a abordagem é outra. Vai do rabisco na tela em branco à escolha de um caminho, à exploração em largura, à identificação do elemento que faz a obra cantar, ao recentramento de tudo nele, e por fim à ordenação de todos os componentes para a construção.",
+      "takeaway": "No estágio de estruturação, o volume se decide pelo que faz a coisa jogar e soar melhor — não pelo que por acaso cabe no espaço que sobrou.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Ponha qualquer marca na página; ela não precisa sobreviver",
+          "rules": "Um começo em branco paralisa porque a pergunta não tem limites. Faça um compromisso arbitrário e a pergunta passa a ser o que aquela coisa significa, que é um problema de tamanho normal; e você poderá pintar por cima depois, então não a sobrecarregue com ter de estar certa.",
+          "flavor": "A dica de um professor de arte: diante da tela em branco, faça um rabisco. “Em vez de tentar descobrir o que a tela em branco deve ser, você começa descobrindo o que o rabisco deve ser… e no fim do quadro o rabisco estará coberto há muito.”"
+        },
+        {
+          "title": "Dê a si mesmo um problema que você nunca se deu, para não poder usar os próprios sulcos",
+          "rules": "Sua mente é feita para reutilizar a rota que funcionou da última vez, o que é desejável em toda parte menos aqui. Imponha uma restrição sob a qual você nunca trabalhou, e a novidade do problema força uma rota que você ainda não tem.",
+          "flavor": "“Consistência de execução é desejável na maioria das funções diárias. O único lugar onde não é, é a expressão criativa.” Daí: “Toda vez que começo um design de Magic, faço questão de me dar um desafio que nunca me dei antes.” Às vezes a restrição é arbitrária: faça este design parecer uma rosquinha."
+        },
+        {
+          "title": "Uma equipe precisa de uma tarefa concreta, e “faça algo” não é uma",
+          "rules": "As pessoas resolvem bem problemas bem especificados e mal os vagos, então o trabalho inicial de quem lidera é converter uma pergunta aberta em algo respondível. Escolha uma direção sabendo que pode estar errada: uma direção errada produz conhecimento, e nenhuma direção não produz nada a que reagir.",
+          "flavor": "“‘Faça algo' é uma tarefa vazia. ‘Faça um mundo baseado na lenda arturiana e em contos de fadas' é um objetivo.” A falha comum é o medo de se comprometer: “Para o seu design ser algo, ele terá de não ser muitas outras coisas.”"
+        },
+        {
+          "title": "Vá largo antes de ir fundo, e deixe os fracassos mapearem o terreno",
+          "rules": "No começo, quantidade vence qualidade: muitas execuções toscas dizem o que a direção contém. As ruins não são desperdício: marcam as partes do espaço que não funcionam, e é assim que se aprende onde não olhar depois.",
+          "flavor": "Rosewater chama isso de jogar espaguete na parede. “As boas ideias vão inspirar execuções parecidas em outras áreas. As com potencial vão fazer você ajustá-las. As ruins vão ajudar a conhecer as áreas problemáticas do espaço de design, para saber onde não procurar.”"
+        },
+        {
+          "title": "Recentre a direção no que se revelou melhor",
+          "rules": "Você teve de escolher uma direção antes de saber no que a obra era boa, então ela quase certamente aponta um pouco errado. Assim que o elemento mais forte for identificável, veja se ele está no centro do seu caminho ou de lado — e mova o caminho, não o elemento.",
+          "flavor": "“Depois de identificar seu astro, é hora de rever o caminho. Ele está no centro ou de lado? Se for o segundo, é hora de recentrar o caminho em torno dele. Boa parte do design inicial é reajustar o foco constantemente.”"
+        },
+        {
+          "title": "O melhor elemento vira o juiz que permite cortar seus queridinhos",
+          "rules": "Decidir o que tirar é impossível enquanto cada peça for julgada pelos próprios méritos, porque o que é bom parece bom isolado. Nomeie primeiro o centro, e cada componente ganha uma pergunta verificável: isto melhora aquilo, ou compete com aquilo?",
+          "flavor": "“É por isso que escolher seu astro é tão importante. Começa a lhe dar um meio de julgar o resto da coleção.” É também onde começam os cortes duros: coisas empolgantes no vácuo que não acrescentam ao todo."
+        },
+        {
+          "title": "Ordene por importância e por dificuldade, e construa o que estiver no topo das duas",
+          "rules": "Cada elemento acrescentado estreita o que o próximo pode ser, então a ordem de construção decide o que ainda é possível. Faça duas ordenações — do mais ao menos importante, do mais difícil ao mais simples — e comece pelo que encabeça a combinação, porque é a peça que não vai caber se ficar por último.",
+          "flavor": "“Se você não começar pelo elemento mais difícil e mais importante, ele muito provavelmente não vai caber quando chegar a hora de acrescentá-lo.” E a exceção: se a peça central for fácil e portanto ficar embaixo na lista de dificuldade, cheque a cada acréscimo se ainda sobra espaço para ela."
         }
       ]
     },
     "zh-Hans": {
-      "title": "The Blank Page, A Different Take",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "空白页，换个讲法",
+      "dek": "从一无所有到一份完成的初稿，七个阶段；其中包括决定你先造什么的那两份清单。",
+      "overview": "罗斯瓦特写完这篇，才发现自己四年前写过同一个题目，但因为切入方式不同还是发了出来。文章从空白画布上的那一笔涂鸦讲起，到选定一条路、把它横向铺开探索、找出让作品发光的那个元素、把一切重新围绕它对准，最后把全部部件排出一个建造顺序。",
+      "takeaway": "到了搭结构的阶段，用量由「怎样让这东西打起来、感觉起来最好」决定，而不是由「剩下的空隙里恰好塞得下多少」决定。",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "在纸上先画下任何一笔；它不必活到最后",
+          "rules": "从空白开始之所以让人瘫住，是因为那个问题没有边界。做一个随便的承诺，问题就变成了「这一笔是什么意思」——一个尺寸正常的问题；而且你以后可以把它盖掉，所以别让它背上「必须正确」的负担。",
+          "flavor": "一位美术老师的诀窍：面对空白画布，先画一道涂鸦。「你不再是去想这块空白画布应该是什么，而是去想这道涂鸦应该是什么……而等画完成时，那道涂鸦早就被盖住了。」"
+        },
+        {
+          "title": "给自己出一个从没出过的题，好让你没法沿着自己的旧沟走",
+          "rules": "你的大脑天生要复用上一次奏效的那条路径，而这在别处都是你想要的，唯独在这里不是。给自己加一条你确实从未在其下工作过的限制，问题的陌生本身就会逼出一条你还没有的路径。",
+          "flavor": "「在大多数日常功能里，执行的一致性是我们想要的。唯一不想要它的地方，是创造性的表达。」于是：「每次开始一个万智牌设计，我都确保给自己一个从没给过自己的挑战。」有时这条限制是随意的——让这个设计感觉像个甜甜圈。"
+        },
+        {
+          "title": "团队需要一件具体的活儿，而「做点什么」不是",
+          "rules": "人们能把界定清楚的问题解得很好，把含糊的问题解得很差；所以带头者早期的工作，是把一个开放的问题变成一个可回答的问题。选一个方向，并且明知它可能是错的：错的方向仍会产出认识，而没有方向则什么都产不出来，连让人回应的东西都没有。",
+          "flavor": "「『做点什么』是一件空洞的任务。『做一个以亚瑟王传说和童话为基础的世界』才是一个目标。」常见的失败是不敢承诺：「要让你的设计成为某样东西，它就必须不是许多别的东西。」"
+        },
+        {
+          "title": "先横着铺开再往深里走，并让失败去绘制地形",
+          "rules": "早期阶段，数量胜过质量：大量粗糙的实现能告诉你这个方向里都装着什么。那些糟糕的并不是浪费——它们标出了这片空间里行不通的部分，而这正是你日后知道「别往哪儿看」的来源。",
+          "flavor": "罗斯瓦特把这叫作往墙上扔意面。「好点子会在别的区域激发出类似的做法。有潜力的点子会促使你去调它。糟糕的点子会帮你摸清这片设计空间里麻烦的区域，好让你知道哪里不用再看。」"
+        },
+        {
+          "title": "把方向重新对准那个最后被证明最好的东西",
+          "rules": "你不得不在知道「这作品擅长什么」之前就选定方向，所以它几乎必然瞄得有点偏。一旦那个最强的元素能被指认出来，就去看它是落在你这条路的正中，还是偏在一侧——然后移动的是路，而不是那个元素。",
+          "flavor": "「一旦你认出了那位主角，就该重新检查你的路。它在路的中央，还是偏在一边？如果是后者，就该把路重新围绕它对准。早期设计有很大一部分，就是不断重新调焦。」"
+        },
+        {
+          "title": "那个最好的元素，会变成让你砍掉心头好的裁判",
+          "rules": "只要每一块都在按自身的优劣被评判，「该拿掉什么」就无法决定——因为好东西单独看总是好的。先把中心指认出来，于是其余每个部件都获得了一个可检验的问题：它让那个东西更好，还是在跟它抢？",
+          "flavor": "「这正是挑出你那位主角如此重要的原因。它会开始给你一把尺子，去评判这个系列的其余部分。」而艰难的删减也从这里开始：那些孤立看来令人兴奋、却对整体毫无贡献的东西。"
+        },
+        {
+          "title": "按重要性排一次、按难度再排一次，然后先造两榜都靠前的那个",
+          "rules": "你每加入一个元素，都会收窄下一个元素可能的样子；所以建造的顺序决定了什么还有可能。做两份排序——从最重要到最不重要、从最难到最简单——然后从综合最靠前的那个开始，因为它正是「排到最后就再也塞不进去」的那一块。",
+          "flavor": "「如果你不从那个最难、也最重要的设计元素开始，等轮到要加它的时候，它多半就塞不下了。」以及那个例外：如果核心那块很容易做、因而排在难度榜的末尾，那就在每次新增之后检查一遍，看给它留的位置还在不在。"
         }
       ]
     }
