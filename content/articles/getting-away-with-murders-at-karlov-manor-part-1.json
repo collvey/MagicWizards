@@ -1,0 +1,216 @@
+{
+  "id": "getting-away-with-murders-at-karlov-manor-part-1",
+  "slug": "getting-away-with-murders-at-karlov-manor-part-1",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2024-01-16",
+  "series": { "id": "getting-away-with-murders-at-karlov-manor", "order": 1, "total": 2 },
+  "tags": ["top-down", "ravnica", "mechanics"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/getting-away-with-murders-at-karlov-manor-part-1",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T04:40:02.945Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Getting Away with Murders at Karlov Manor, Part 1",
+      "dek": "Cards in hand are hidden. Nobody experiences that as a mystery.",
+      "overview": "A murder mystery set that had been waiting since 1997, and the mechanical question underneath it: what makes gameplay actually feel like there's something to solve?",
+      "takeaway": "The set needed hidden information, and Magic already has plenty. But cards in hand don't work: everyone always has some, so nothing signals that a specific unknown exists. They needed you to play a card that told the opponent there was something to figure out.",
+      "lessons": [
+        {
+          "title": "Concealment only reads as mystery when the gap is visible",
+          "rules": "Information that's routinely unavailable isn't experienced as a puzzle, because nobody registers its absence. A mystery requires the other person to know that a specific thing is being withheld from them right now.",
+          "flavor": "The team walked through every existing form of hidden information and ruled out anything living in the hand. Face-down cards passed the test: they announce that you know something the opponent doesn't, and it may be a problem."
+        },
+        {
+          "title": "Improve survival without touching the stat that governs the interaction",
+          "rules": "When something dies before doing its job, the reflex is to make it bigger — which also changes every exchange it takes part in. Find the axis that adds durability while leaving the interaction you care about untouched.",
+          "flavor": "A three-mana 3/2 traded too readily and died before it could be turned up. They wouldn't alter toughness, since face-down creatures need to trade with each other, so they added ward: harder to remove with spells, identical in combat."
+        },
+        {
+          "title": "A known-good fallback is what licenses experimentation",
+          "rules": "The willingness to try variants depends on having something safe to return to. Establish the reliable version first, then treat every attempt past it as free, because failure costs only the time.",
+          "flavor": "Rosewater is explicit that knowing they could fall back on the existing mechanic is why they kept experimenting. The discarded attempts included a two-mana version, a counter-bearing version, and one whose face-up side was an Aura."
+        },
+        {
+          "title": "When you adopt the obvious answer, schedule the thing that answers the objection",
+          "rules": "Taking the convenient route usually disappoints someone specific, and you can name who in advance. Arranging for their want to be met elsewhere converts a grievance into a scheduling problem.",
+          "flavor": "Mid-design they realised the invented plane had become an existing one — the genre demanded a city with effective law enforcement. Some players would want the old faction play, so a reprint set carrying it shipped a month earlier."
+        },
+        {
+          "title": "Start by listing everything the genre owes you",
+          "rules": "Before designing anything, write down what the audience will expect to find, in full. It becomes the checklist you build against, and the items that resist expression are the design problems you actually have.",
+          "flavor": "On the first day of exploratory design they compiled everything a murder mystery set should have. \"Hidden information\" was on that list, and everything else in the column follows from trying to satisfy it."
+        },
+        {
+          "title": "A decision outlives the reason for it",
+          "rules": "Choices made to serve a plan stay in place long after the plan is abandoned, and later readers will invent motives for them. Some of what looks intentional is a fossil of something that never shipped.",
+          "flavor": "In 1997 Rosewater and a collaborator planned a murder mystery in which the killer was a familiar crewmate replaced by an impostor. The mystery never happened — but the villain had been made a shapeshifter to set it up, and stayed one."
+        }
+      ]
+    },
+    "es": {
+      "title": "Salirse con la suya en Murders at Karlov Manor, parte 1",
+      "dek": "Las cartas en la mano están ocultas. Nadie lo vive como un misterio.",
+      "overview": "Un set de misterio de asesinato que llevaba esperando desde 1997, y la pregunta mecánica que hay debajo: ¿qué hace que la partida se sienta de verdad como algo que hay que resolver?",
+      "takeaway": "El set necesitaba información oculta, y Magic ya tiene de sobra. Pero las cartas en la mano no sirven: todos tienen siempre alguna, así que nada señala que exista un desconocido concreto. Necesitaban que jugaras una carta que le dijera al oponente que había algo que averiguar.",
+      "lessons": [
+        {
+          "title": "El ocultamiento solo se lee como misterio cuando el hueco es visible",
+          "rules": "La información habitualmente no disponible no se vive como un enigma, porque nadie registra su ausencia. Un misterio exige que la otra persona sepa que ahora mismo se le está ocultando algo concreto.",
+          "flavor": "El equipo repasó toda forma existente de información oculta y descartó lo que vivía en la mano. Las cartas boca abajo pasaron la prueba: anuncian que sabes algo que el oponente no, y que puede ser un problema."
+        },
+        {
+          "title": "Mejora la supervivencia sin tocar la estadística que gobierna la interacción",
+          "rules": "Cuando algo muere antes de cumplir su función, el reflejo es agrandarlo, lo que también cambia cada intercambio en que participa. Halla el eje que añade resistencia dejando intacta la interacción que te importa.",
+          "flavor": "Un 3/2 por tres cambiaba con demasiada facilidad y moría antes de poder girarse. No querían tocar la resistencia, pues las criaturas boca abajo deben intercambiarse entre sí, así que añadieron vigilancia mágica."
+        },
+        {
+          "title": "Un respaldo fiable es lo que autoriza a experimentar",
+          "rules": "La disposición a probar variantes depende de tener algo seguro a lo que volver. Fija primero la versión de confianza y considera gratis todo intento posterior, porque fallar solo cuesta el tiempo.",
+          "flavor": "Rosewater dice explícitamente que saber que podían volver a la mecánica existente es lo que les hizo seguir experimentando. Entre los descartes hubo una versión de dos manás, otra con contador, y otra cuya cara visible era un aura."
+        },
+        {
+          "title": "Al adoptar la respuesta obvia, programa aquello que responde a la objeción",
+          "rules": "Tomar el camino cómodo suele decepcionar a alguien concreto, y puedes nombrarlo de antemano. Arreglar que su deseo se satisfaga en otro sitio convierte un agravio en un problema de calendario.",
+          "flavor": "A mitad del diseño vieron que el plano inventado se había vuelto uno existente: el género pedía una ciudad con fuerzas del orden eficaces. Como algunos querrían el juego de facciones, un set de reimpresiones con ello salió un mes antes."
+        },
+        {
+          "title": "Empieza listando todo lo que el género te debe",
+          "rules": "Antes de diseñar nada, escribe por completo lo que el público esperará encontrar. Se convierte en la lista de comprobación contra la que construyes, y los puntos que se resisten a expresarse son tus verdaderos problemas de diseño.",
+          "flavor": "El primer día del diseño exploratorio compilaron todo lo que un set de misterio de asesinato debería tener. «Información oculta» estaba en esa lista, y todo lo demás del artículo sale de intentar satisfacerla."
+        },
+        {
+          "title": "Una decisión sobrevive a su motivo",
+          "rules": "Las elecciones tomadas para servir a un plan permanecen mucho después de abandonar el plan, y quien lo lea luego les inventará motivos. Parte de lo que parece intencionado es el fósil de algo que nunca se publicó.",
+          "flavor": "En 1997, Rosewater y un colaborador planearon un misterio cuyo asesino era un tripulante conocido sustituido por un impostor. El misterio nunca ocurrió, pero al villano se le hizo cambiaformas para prepararlo, y así se quedó."
+        }
+      ]
+    },
+    "fr": {
+      "title": "S'en tirer avec Murders at Karlov Manor, partie 1",
+      "dek": "Les cartes en main sont cachées. Personne ne vit cela comme un mystère.",
+      "overview": "Une extension policière en attente depuis 1997, et la question mécanique qui la sous-tend : qu'est-ce qui fait qu'une partie donne vraiment l'impression qu'il y a quelque chose à résoudre ?",
+      "takeaway": "L'extension avait besoin d'information cachée, et Magic n'en manque pas. Mais les cartes en main ne conviennent pas : chacun en a toujours, donc rien ne signale qu'une inconnue précise existe. Il fallait qu'en jouant une carte, on annonce à l'adversaire qu'il a quelque chose à découvrir.",
+      "lessons": [
+        {
+          "title": "La dissimulation ne se lit comme mystère que si le manque est visible",
+          "rules": "Une information habituellement indisponible n'est pas vécue comme une énigme, car nul n'en enregistre l'absence. Un mystère exige que l'autre sache qu'une chose précise lui est soustraite à l'instant même.",
+          "flavor": "L'équipe a passé en revue toutes les formes existantes d'information cachée et écarté ce qui vit en main. Les cartes face cachée ont passé le test : elles annoncent que vous savez ce que l'adversaire ignore, et que cela peut nuire."
+        },
+        {
+          "title": "Améliorez la survie sans toucher à la statistique qui régit l'interaction",
+          "rules": "Quand une chose meurt avant d'avoir fait son office, le réflexe est de la grossir, ce qui change aussi chaque échange auquel elle participe. Trouvez l'axe qui ajoute de la durabilité en laissant intacte l'interaction voulue.",
+          "flavor": "Un 3/2 pour trois s'échangeait trop volontiers et mourait avant d'être retourné. Pas question de toucher l'endurance, les créatures face cachée devant s'échanger entre elles : ils ont ajouté la vigilance magique."
+        },
+        {
+          "title": "Un repli fiable est ce qui autorise l'expérimentation",
+          "rules": "La disposition à tenter des variantes dépend d'un point de retour sûr. Établissez d'abord la version éprouvée, puis tenez chaque essai suivant pour gratuit, l'échec ne coûtant que du temps.",
+          "flavor": "Rosewater le dit clairement : savoir qu'ils pouvaient revenir à la mécanique existante est la raison de tant d'essais. Parmi les rejets : une version à deux manas, une autre avec marqueur, une dont la face visible était une aura."
+        },
+        {
+          "title": "En adoptant la réponse évidente, programmez ce qui répond à l'objection",
+          "rules": "Prendre la voie commode déçoit d'ordinaire quelqu'un de précis, et vous pouvez le nommer d'avance. Faire en sorte que son envie soit comblée ailleurs transforme un grief en question de calendrier.",
+          "flavor": "En cours de conception, ils ont vu que le plan inventé était devenu un plan existant : le genre voulait une ville dotée d'une police efficace. Certains réclameraient l'ancien jeu de factions : une extension de rééditions est sortie un mois avant."
+        },
+        {
+          "title": "Commencez par lister tout ce que le genre vous doit",
+          "rules": "Avant toute conception, écrivez en entier ce que le public s'attendra à trouver. Cela devient la liste de contrôle qui guide la construction, et les points qui résistent à l'expression sont vos vrais problèmes de design.",
+          "flavor": "Le premier jour du design exploratoire, ils ont compilé tout ce qu'une extension policière devrait comporter. « Information cachée » figurait sur la liste, et tout le reste de la chronique découle de l'effort pour la satisfaire."
+        },
+        {
+          "title": "Une décision survit à sa raison d'être",
+          "rules": "Les choix faits pour servir un plan demeurent longtemps après son abandon, et l'on inventera plus tard des motifs pour eux. Une part de ce qui semble intentionnel est le fossile d'une chose jamais parue.",
+          "flavor": "En 1997, Rosewater et un collaborateur avaient prévu un mystère dont le tueur était un membre d'équipage remplacé par un imposteur. Le mystère n'a jamais eu lieu, mais le méchant avait été fait métamorphe pour cela, et l'est resté."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Escapando impune de Murders at Karlov Manor, parte 1",
+      "dek": "Cartas na mão são ocultas. Ninguém vive isso como um mistério.",
+      "overview": "Uma coleção de mistério de assassinato que esperava desde 1997, e a pergunta mecânica por baixo dela: o que faz a partida parecer de fato algo a ser resolvido?",
+      "takeaway": "A coleção precisava de informação oculta, e Magic tem de sobra. Mas cartas na mão não servem: todo mundo sempre tem algumas, então nada sinaliza que exista uma incógnita específica. Precisavam que você jogasse uma carta que avisasse o oponente de que havia algo a descobrir.",
+      "lessons": [
+        {
+          "title": "Ocultar só se lê como mistério quando a lacuna é visível",
+          "rules": "Informação rotineiramente indisponível não é vivida como enigma, porque ninguém registra a ausência dela. Um mistério exige que a outra pessoa saiba que algo específico está sendo retido agora.",
+          "flavor": "A equipe percorreu toda forma existente de informação oculta e descartou o que vive na mão. Cartas viradas para baixo passaram no teste: anunciam que você sabe algo que o oponente não, e que isso pode dar problema."
+        },
+        {
+          "title": "Melhore a sobrevivência sem mexer no atributo que rege a interação",
+          "rules": "Quando algo morre antes de cumprir sua função, o reflexo é aumentá-lo — o que também muda toda troca de que ele participa. Ache o eixo que acrescenta durabilidade deixando intacta a interação que lhe importa.",
+          "flavor": "Um 3/2 por três trocava fácil demais e morria antes de ser virado. Não queriam mexer na resistência, pois criaturas viradas precisam trocar entre si, então acrescentaram vigilância mágica."
+        },
+        {
+          "title": "Um recuo confiável é o que autoriza experimentar",
+          "rules": "A disposição de tentar variantes depende de ter algo seguro para onde voltar. Estabeleça primeiro a versão confiável e trate cada tentativa seguinte como gratuita, porque falhar só custa o tempo.",
+          "flavor": "Rosewater é explícito: saber que podiam recuar para a mecânica existente é o motivo de tantos testes. Entre os descartes, uma versão de dois manas, outra com marcador, e outra cuja face visível era uma aura."
+        },
+        {
+          "title": "Ao adotar a resposta óbvia, agende aquilo que responde à objeção",
+          "rules": "Pegar o caminho cômodo costuma decepcionar alguém específico, e você pode nomeá-lo de antemão. Providenciar que o desejo dessa pessoa seja atendido em outro lugar transforma uma queixa em questão de calendário.",
+          "flavor": "No meio do design perceberam que o plano inventado virara um já existente: o gênero exigia uma cidade com polícia eficaz. Como alguns iriam querer o antigo jogo de facções, uma coleção de reimpressões com ele saiu um mês antes."
+        },
+        {
+          "title": "Comece listando tudo o que o gênero lhe deve",
+          "rules": "Antes de projetar qualquer coisa, escreva por inteiro o que o público esperará encontrar. Isso vira a lista de verificação contra a qual você constrói, e os itens que resistem à expressão são os seus problemas reais de design.",
+          "flavor": "No primeiro dia do design exploratório, compilaram tudo o que uma coleção de mistério deveria ter. «Informação oculta» estava na lista, e todo o resto da coluna decorre da tentativa de satisfazê-la."
+        },
+        {
+          "title": "Uma decisão sobrevive ao motivo dela",
+          "rules": "Escolhas feitas para servir a um plano permanecem muito depois de o plano ser abandonado, e quem ler depois inventará motivos para elas. Parte do que parece intencional é o fóssil de algo que nunca foi publicado.",
+          "flavor": "Em 1997, Rosewater e um colaborador planejaram um mistério cujo assassino era um tripulante conhecido substituído por um impostor. O mistério nunca aconteceu, mas o vilão fora feito metamorfo para isso, e assim ficou."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "在卡洛夫庄园谋杀案里全身而退，第一部分",
+      "dek": "手牌是暗的。可没有人把那当成一桩谜案。",
+      "overview": "一个自 1997 年起就在等着的谋杀悬疑系列，以及它底下的那个机制问题：究竟是什么，让一局牌真的有「有东西等着被解开」的感觉？",
+      "takeaway": "这个系列需要暗信息，而万智牌本来就多的是。可手牌不行：所有人手里永远都有牌，因此没有任何东西在提示「有一个具体的未知存在」。他们需要的是：你打出一张牌，从而告诉对手——这里有件事等着你去搞清楚。",
+      "lessons": [
+        {
+          "title": "只有当那道缺口是可见的，「藏起来」才会被读成谜",
+          "rules": "一份惯常就拿不到的信息，不会被体验成一道谜题，因为没有人会注意到它的缺席。谜要求对方知道：此时此刻，有一件具体的东西正被瞒着他。",
+          "flavor": "团队把现有的每一种暗信息形式都过了一遍，排除了所有活在手牌里的东西。而盖着的牌通过了这道检验：它宣告「我知道一件你不知道的事」，并且那件事可能会让你难受。"
+        },
+        {
+          "title": "在不动那条主宰互动的数值的前提下，提高存活率",
+          "rules": "当一样东西还没来得及履行职责就死掉时，第一反应是把它做大——而这同时改变了它参与的每一次交换。要找的是那条能增加耐久、又不碰你真正在意的那种互动的轴。",
+          "flavor": "三费 3/2 太容易被换掉，往往在翻面之前就死了。他们不愿动防御力——盖着的生物之间必须能互换——于是加上了守护：更难被咒语解掉，而战斗中的表现分毫未变。"
+        },
+        {
+          "title": "一个「已知可用」的后路，才是实验的许可证",
+          "rules": "人愿不愿意去试各种变体，取决于有没有一个安全的地方可以退回去。先把那个靠得住的版本立住，之后每一次尝试都可以当作免费的——因为失败只花掉时间。",
+          "flavor": "罗斯沃特讲得很明白：正因为知道随时能退回那个既有机制，他们才不断去试。被丢掉的尝试里，有两费版、带指示物的版本，还有一个翻开来是灵气的版本。"
+        },
+        {
+          "title": "当你采用那个显而易见的答案时，顺手把「回应异议的那样东西」也排进日程",
+          "rules": "走那条方便的路，通常会让某一群具体的人失望——而这群人你事先就点得出来。想办法让他们的需求在别处被满足，就把一桩不满，变成了一个排期问题。",
+          "flavor": "设计进行到一半时他们发现：自己造的那个位面已经变成了一个既有的位面——这个类型要求一座拥有高效执法力量的城市。而有些玩家会想要旧的公会玩法，于是一个带着它的重印系列提前一个月发售。"
+        },
+        {
+          "title": "先把这个类型欠你的东西全部列出来",
+          "rules": "在动手设计任何东西之前，把受众会期待看到的东西完完整整地写下来。它会成为你据以施工的核对清单；而那些死活表达不出来的条目，才是你真正面对的设计问题。",
+          "flavor": "在探索设计的第一天，他们就汇总了「一个谋杀悬疑系列应该有什么」。「暗信息」就在那份清单上——而这篇专栏里其余的一切，都出自试图满足它的努力。"
+        },
+        {
+          "title": "一个决定，会活得比它的理由更久",
+          "rules": "为服务某个计划而作出的选择，会在这个计划被放弃之后长久地留在原地；而后来读到的人，会替它们编造动机。那些看上去像是有意为之的东西，有一部分不过是某件从未面世之物的化石。",
+          "flavor": "1997 年，罗斯沃特和一位合作者曾计划过一桩谜案：凶手是一位被冒名顶替的熟悉船员。这桩谜案从未发生——但为了铺垫它，那位反派被设定成了变形怪，而这个设定就此留了下来。"
+        }
+      ]
+    }
+  }
+}

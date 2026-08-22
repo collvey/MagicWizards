@@ -4,90 +4,211 @@
   "column": "making-magic",
   "author": "Mark Rosewater",
   "publishedAt": "2025-09-22",
-  "series": null,
-  "tags": [],
+  "series": { "id": "design-files-odyssey", "order": 1, "total": 4 },
+  "tags": ["design-files", "graveyard", "cycles"],
   "pointNoun": "point",
   "source": {
     "canonical": "https://magic.wizards.com/en/news/making-magic/design-files-odyssey-part-1",
-    "locales": [
-      "en",
-      "es",
-      "fr",
-      "pt-BR",
-      "zh-Hans"
-    ]
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
   },
   "summaryVersion": 1,
   "summarizedAt": "2026-08-22T03:58:38.906Z",
   "lessons": [
-    {
-      "n": 1,
-      "color": "W"
-    }
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "B" }
   ],
   "translations": {
     "en": {
       "title": "Design Files: Odyssey, Part 1",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "dek": "Two of the five rewarded you. Three punished you. Same cycle.",
+      "overview": "The Odyssey design file as it was handed to development, card by card, with Rosewater's commentary a quarter of a century later — including a cycle he now says was pointed in two directions at once.",
+      "takeaway": "The Shrine cycle triggered on spells matching cards in graveyards. White and green rewarded you for playing many copies of a card; blue, black and red punished you for it. Rosewater, who designed the cycle, says all five should have pushed the same way.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "A set of parallel things must all ask for the same behaviour",
+          "rules": "People read a cycle as one statement about how to act. When its members disagree about what they want from you, the message cancels out and the whole group teaches nothing.",
+          "flavor": "Two Shrines rewarded playing multiple copies of a card and three punished it. Rosewater's verdict is that punishing was the right call, since the point of the cycle was to encourage more varied decks."
+        },
+        {
+          "title": "Scattered pieces don't become a family until someone lines them up",
+          "rules": "Related work made independently comes out uneven — different shapes, different costs, some with extras and some without. Recognising that it wants to be a set, and then regularising it, is its own act of design.",
+          "flavor": "The graveyard-counting creatures weren't designed as a cycle at all: different colours counted different graveyards, pip counts varied, some had keywords and some didn't. Development spotted the family and aligned them."
+        },
+        {
+          "title": "Choices made in isolation collide with plans you can't see",
+          "rules": "A decision that's locally free may be expensive in a context you haven't been told about. When something is cheap to vary, check whether anyone downstream is depending on it staying put.",
+          "flavor": "Rosewater was running the set's creature types and chose unusual ones for variety, so green made Insects and Squirrels instead of Elves. He didn't know the next set would have a heavy creature-type theme."
+        },
+        {
+          "title": "When two fixes overshoot in opposite directions, change the kind of cost",
+          "rules": "If removing a drawback makes something too strong and adding a different one makes it too weak, you're tuning the wrong axis. Look for a third form of cost rather than splitting the difference on either.",
+          "flavor": "The land cycle was tried without the damage, which made the lands too good, and entering tapped, which weakened them too much. Damage was the version that shipped, later tied to the setting's pit fights."
+        },
+        {
+          "title": "A difficult name can be worth it for the people who know it",
+          "rules": "Friction in a name is a real cost, paid by everyone who has to say it. It can still be the right choice when the name carries history, provided you give the newcomers a pattern they can follow instead.",
+          "flavor": "Rosewater doubted bringing back a creature type he knew was hard to pronounce, then decided the enfranchised players' excitement justified it. He linked the cycle's names with the Latin suffix for devouring."
+        },
+        {
+          "title": "Overstuff the handoff and you don't get to choose what's deleted",
+          "rules": "Handing across more than can fit means someone else decides what leaves, and they'll cut whole subsystems rather than trim evenly. What you consider load-bearing may go without a conversation.",
+          "flavor": "The file contained twenty-one instances of an unnamed mechanic putting cards from your graveyard on the bottom of your library — eight in white, eleven in green, two elsewhere. Development removed every one of them."
         }
       ]
     },
     "es": {
-      "title": "Design Files: Odyssey, Part 1",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Archivos de diseño: Odyssey, parte 1",
+      "dek": "Dos de las cinco te premiaban. Tres te castigaban. El mismo ciclo.",
+      "overview": "El archivo de diseño de Odyssey tal como se entregó a desarrollo, carta por carta, con los comentarios de Rosewater un cuarto de siglo después, incluido un ciclo que hoy dice que apuntaba en dos direcciones a la vez.",
+      "takeaway": "El ciclo de Santuarios se disparaba con hechizos que coincidían con cartas en los cementerios. El blanco y el verde te premiaban por jugar muchas copias de una carta; el azul, el negro y el rojo te castigaban por ello. Rosewater, que diseñó el ciclo, dice que los cinco debieron empujar igual.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Un conjunto de cosas paralelas debe pedir el mismo comportamiento",
+          "rules": "La gente lee un ciclo como una única afirmación sobre cómo actuar. Cuando sus miembros discrepan sobre qué quieren de ti, el mensaje se anula y el grupo entero no enseña nada.",
+          "flavor": "Dos Santuarios premiaban jugar varias copias de una carta y tres lo castigaban. El veredicto de Rosewater es que castigar era lo correcto, pues el objetivo del ciclo era fomentar mazos más variados."
+        },
+        {
+          "title": "Piezas dispersas no forman familia hasta que alguien las alinea",
+          "rules": "El trabajo relacionado hecho por separado sale desigual: formas distintas, costes distintos, unos con extras y otros sin ellos. Reconocer que quiere ser un conjunto, y luego regularizarlo, es un acto de diseño propio.",
+          "flavor": "Las criaturas que contaban cementerios no se diseñaron como ciclo: cada color contaba cementerios distintos, los símbolos de maná variaban, unas tenían palabras clave y otras no. Desarrollo vio la familia y las alineó."
+        },
+        {
+          "title": "Las decisiones tomadas en aislamiento chocan con planes que no ves",
+          "rules": "Una decisión que localmente sale gratis puede ser cara en un contexto del que no te han informado. Cuando algo es barato de variar, comprueba si alguien más adelante depende de que se quede quieto.",
+          "flavor": "Rosewater llevaba los tipos de criatura del set y eligió algunos inusuales por variedad, así que el verde creaba Insectos y Ardillas en vez de Elfos. No sabía que el set siguiente tendría un fuerte tema de tipos."
+        },
+        {
+          "title": "Si dos arreglos se pasan en direcciones opuestas, cambia el tipo de coste",
+          "rules": "Si quitar un inconveniente lo vuelve demasiado fuerte y poner otro lo vuelve demasiado débil, estás ajustando el eje equivocado. Busca una tercera forma de coste en vez de partir la diferencia.",
+          "flavor": "El ciclo de tierras se probó sin el daño, lo que las volvía demasiado buenas, y entrando giradas, lo que las debilitaba demasiado. La versión con daño fue la que salió, luego ligada a las peleas de foso del escenario."
+        },
+        {
+          "title": "Un nombre difícil puede valer la pena por quienes lo conocen",
+          "rules": "La fricción en un nombre es un coste real que paga todo el que ha de pronunciarlo. Aun así puede ser la opción correcta si el nombre carga historia, siempre que des a los recién llegados un patrón que puedan seguir.",
+          "flavor": "Rosewater dudaba de recuperar un tipo de criatura que sabía difícil de pronunciar, y luego decidió que el entusiasmo de los veteranos lo justificaba. Enlazó los nombres del ciclo con el sufijo latino de devorar."
+        },
+        {
+          "title": "Si sobrecargas la entrega, no eliges tú qué se borra",
+          "rules": "Entregar más de lo que cabe significa que otro decide qué se va, y recortará subsistemas enteros en vez de podar de forma pareja. Lo que tú consideras estructural puede irse sin una conversación.",
+          "flavor": "El archivo contenía veintiún casos de una mecánica sin nombre que ponía cartas del cementerio al fondo de tu biblioteca: ocho en blanco, once en verde, dos en otras partes. Desarrollo eliminó todas."
         }
       ]
     },
     "fr": {
-      "title": "Design Files: Odyssey, Part 1",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Dossiers de conception : Odyssey, partie 1",
+      "dek": "Deux des cinq vous récompensaient. Trois vous punissaient. Même cycle.",
+      "overview": "Le fichier de conception d'Odyssey tel que transmis au développement, carte par carte, avec les commentaires de Rosewater un quart de siècle plus tard — dont un cycle qui, dit-il aujourd'hui, tirait dans deux directions à la fois.",
+      "takeaway": "Le cycle des Sanctuaires se déclenchait sur les sorts correspondant à des cartes des cimetières. Le blanc et le vert récompensaient les multiples exemplaires d'une carte ; le bleu, le noir et le rouge les punissaient. Rosewater, l'auteur du cycle, dit que les cinq auraient dû pousser dans le même sens.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Un ensemble d'éléments parallèles doit demander le même comportement",
+          "rules": "On lit un cycle comme un énoncé unique sur la conduite à tenir. Quand ses membres divergent sur ce qu'ils attendent de vous, le message s'annule et le groupe entier n'enseigne rien.",
+          "flavor": "Deux Sanctuaires récompensaient le fait de jouer plusieurs exemplaires, trois le punissaient. Le verdict de Rosewater : punir était le bon choix, puisque le but du cycle était d'encourager des decks plus variés."
+        },
+        {
+          "title": "Des pièces éparses ne font pas famille tant que nul ne les aligne",
+          "rules": "Un travail apparenté mené séparément sort inégal : formes, coûts, avec ou sans extras. Reconnaître que cela veut former un ensemble, puis le régulariser, est en soi un acte de conception.",
+          "flavor": "Les créatures comptant les cimetières n'avaient pas été conçues en cycle : chaque couleur comptait un cimetière différent, les symboles variaient, certaines avaient des mots-clés. Le développement a vu la famille et les a alignées."
+        },
+        {
+          "title": "Les choix faits isolément heurtent des plans que vous ne voyez pas",
+          "rules": "Une décision localement gratuite peut coûter cher dans un contexte qu'on ne vous a pas exposé. Quand une chose est bon marché à faire varier, vérifiez si quelqu'un en aval compte sur sa stabilité.",
+          "flavor": "Rosewater pilotait les types de créature de l'extension et en a choisi d'inhabituels par goût de la variété : le vert créait Insectes et Écureuils plutôt qu'Elfes. Il ignorait que l'extension suivante serait très typale."
+        },
+        {
+          "title": "Si deux correctifs dépassent en sens contraires, changez la nature du coût",
+          "rules": "Si retirer un inconvénient rend la chose trop forte et en ajouter un autre la rend trop faible, vous réglez le mauvais axe. Cherchez une troisième forme de coût plutôt que de couper la poire en deux.",
+          "flavor": "Le cycle de terrains fut essayé sans les blessures, ce qui les rendait trop bonnes, puis arrivant engagées, ce qui les affaiblissait trop. La version avec blessures fut imprimée, liée ensuite aux combats de fosse du décor."
+        },
+        {
+          "title": "Un nom difficile peut valoir le coup pour ceux qui le connaissent",
+          "rules": "La friction d'un nom est un coût réel, payé par quiconque doit le prononcer. Cela peut rester le bon choix si le nom porte une histoire, à condition d'offrir aux nouveaux venus un motif à suivre.",
+          "flavor": "Rosewater doutait de ressusciter un type de créature qu'il savait difficile à prononcer, puis a jugé que l'enthousiasme des joueurs de longue date le justifiait. Il a relié les noms du cycle par le suffixe latin de dévorer."
+        },
+        {
+          "title": "Surchargez la transmission et vous ne choisissez pas ce qu'on supprime",
+          "rules": "Transmettre plus que ce qui tient, c'est laisser un autre décider de ce qui part — et il coupera des sous-systèmes entiers plutôt que d'élaguer partout. Ce que vous jugiez porteur peut disparaître sans discussion.",
+          "flavor": "Le fichier contenait vingt et une occurrences d'une mécanique sans nom replaçant des cartes du cimetière sous la bibliothèque : huit en blanc, onze en vert, deux ailleurs. Le développement les a toutes retirées."
         }
       ]
     },
     "pt-BR": {
-      "title": "Design Files: Odyssey, Part 1",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Arquivos de design: Odyssey, parte 1",
+      "dek": "Duas das cinco premiavam você. Três puniam. O mesmo ciclo.",
+      "overview": "O arquivo de design de Odyssey como foi entregue ao desenvolvimento, carta a carta, com os comentários de Rosewater um quarto de século depois — incluindo um ciclo que ele hoje diz apontar em duas direções ao mesmo tempo.",
+      "takeaway": "O ciclo dos Santuários disparava com mágicas que coincidiam com cartas nos cemitérios. Branco e verde premiavam jogar muitas cópias de uma carta; azul, preto e vermelho puniam. Rosewater, que projetou o ciclo, diz que os cinco deviam empurrar para o mesmo lado.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Um conjunto de coisas paralelas precisa pedir o mesmo comportamento",
+          "rules": "As pessoas leem um ciclo como uma única afirmação sobre como agir. Quando seus membros discordam do que querem de você, a mensagem se anula e o grupo inteiro não ensina nada.",
+          "flavor": "Dois Santuários premiavam jogar várias cópias de uma carta e três puniam. O veredito de Rosewater é que punir era o certo, já que o objetivo do ciclo era incentivar decks mais variados."
+        },
+        {
+          "title": "Peças espalhadas não viram família até alguém alinhá-las",
+          "rules": "Trabalho aparentado feito em separado sai desigual: formatos diferentes, custos diferentes, uns com extras e outros sem. Reconhecer que aquilo quer ser um conjunto, e então regularizá-lo, é um ato de design por si.",
+          "flavor": "As criaturas que contavam cemitérios não foram projetadas como ciclo: cada cor contava cemitérios diferentes, os símbolos variavam, umas tinham palavras-chave e outras não. O desenvolvimento viu a família e as alinhou."
+        },
+        {
+          "title": "Escolhas feitas isoladamente colidem com planos que você não vê",
+          "rules": "Uma decisão localmente gratuita pode ser cara num contexto que não lhe contaram. Quando algo é barato de variar, cheque se alguém adiante depende de aquilo ficar parado.",
+          "flavor": "Rosewater cuidava dos tipos de criatura da coleção e escolheu alguns incomuns por variedade, então o verde criava Insetos e Esquilos em vez de Elfos. Ele não sabia que a coleção seguinte teria forte tema de tipos."
+        },
+        {
+          "title": "Se dois consertos passam do ponto em sentidos opostos, mude o tipo de custo",
+          "rules": "Se tirar uma desvantagem deixa a coisa forte demais e pôr outra a deixa fraca demais, você está ajustando o eixo errado. Procure uma terceira forma de custo em vez de rachar a diferença.",
+          "flavor": "O ciclo de terrenos foi testado sem o dano, o que os deixava bons demais, e entrando virados, o que os enfraquecia demais. A versão com dano foi a impressa, depois ligada às lutas de fosso do cenário."
+        },
+        {
+          "title": "Um nome difícil pode valer a pena por quem o conhece",
+          "rules": "O atrito de um nome é um custo real, pago por todo mundo que precisa pronunciá-lo. Ainda pode ser a escolha certa quando o nome carrega história, desde que você dê aos novatos um padrão que possam seguir.",
+          "flavor": "Rosewater duvidou de trazer de volta um tipo de criatura que sabia ser difícil de pronunciar, e então decidiu que a empolgação dos veteranos justificava. Ligou os nomes do ciclo com o sufixo latino de devorar."
+        },
+        {
+          "title": "Se você entulha o repasse, não é você quem escolhe o que some",
+          "rules": "Entregar mais do que cabe significa que outra pessoa decide o que sai, e ela cortará subsistemas inteiros em vez de aparar por igual. O que você considera estrutural pode ir embora sem conversa.",
+          "flavor": "O arquivo tinha vinte e um casos de uma mecânica sem nome que punha cartas do cemitério no fundo do grimório: oito em branco, onze em verde, dois em outros lugares. O desenvolvimento removeu todos."
         }
       ]
     },
     "zh-Hans": {
-      "title": "Design Files: Odyssey, Part 1",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "设计档案：《Odyssey》，第一部分",
+      "dek": "五张里有两张奖励你，三张惩罚你。同一个循环。",
+      "overview": "《Odyssey》交给开发时的那份设计文件，逐张牌铺开，附上罗斯沃特四分之一个世纪之后的评注——其中包括一个他如今承认「同时朝两个方向使劲」的循环。",
+      "takeaway": "神殿循环会在所施放的咒语与坟墓场中的牌同名时触发。白和绿奖励你放很多张同名牌；而蓝、黑、红则为此惩罚你。设计这个循环的正是罗斯沃特，他说这五张本该朝同一个方向使劲。",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "一组平行的东西，必须索取同一种行为",
+          "rules": "人们会把一个循环当成关于「该怎么做」的一句话来读。当它的成员们对「究竟想让你干什么」意见相左时，这句话就自己抵消掉了，整组东西什么也没教给人。",
+          "flavor": "两张神殿奖励你放多张同名牌，三张惩罚你这么做。罗斯沃特的判词是：惩罚才是对的，因为这个循环的用意本就是鼓励人们把牌组配得更杂一些。"
+        },
+        {
+          "title": "散落的零件，要等有人把它们对齐之后才成其为一家人",
+          "rules": "彼此相关却各自做出来的东西，长相必然参差：形状不同、费用不同、有的带额外东西有的没有。认出「它想成为一组」，然后把它规整起来——这本身就是一次设计动作。",
+          "flavor": "那批数坟墓场的生物根本不是当作循环设计的：不同颜色数的是不同的坟墓场，色标数量也不一样，有的带关键字、有的没有。是开发认出了这一家人，才把它们对齐的。"
+        },
+        {
+          "title": "孤立作出的选择，会撞上你看不见的计划",
+          "rules": "一个在局部看来毫无代价的决定，放进一个没人告诉过你的语境里，可能很贵。当某样东西「换个花样很便宜」时，先确认下游有没有人正指望着它别动。",
+          "flavor": "罗斯沃特当时管着这个系列的生物类别，出于求变选了些不常见的：绿色造的是昆虫和松鼠，而不是精灵。他并不知道下一个系列会有一个很重的生物类别主题。"
+        },
+        {
+          "title": "当两种修法朝相反方向都过了头，就换一种代价",
+          "rules": "如果拿掉一个缺点会让它太强，换上另一个缺点又会让它太弱，那你调的是错的那条轴。去找第三种形态的代价，而不是在这两者之间取个折中。",
+          "flavor": "这组地被试过不带伤害——那样太好用了；也被试过进场时横置——那样又削得太狠。最后印出来的是「会伤你」的那一版，而它后来还接上了这个世界里的地下角斗。"
+        },
+        {
+          "title": "一个难念的名字，可能值得为认得它的人保留",
+          "rules": "名字上的阻力是一笔真实的成本，由每一个不得不念出它的人来支付。但当这个名字背着一段历史时，它仍然可能是对的选择——前提是你给新来的人留下一个可以照着走的规律。",
+          "flavor": "罗斯沃特原本怀疑要不要把一个他知道很难念的生物类别请回来，最后判定：老玩家的兴奋值这个价。而他用拉丁语里表示「吞食」的后缀，把这一整组的名字串了起来。"
+        },
+        {
+          "title": "交接时塞得太满，删什么就轮不到你决定了",
+          "rules": "交出去的东西超过了能装下的量，就等于让别人来决定哪些要走；而他们会整块整块地砍掉子系统，而不是均匀地修剪。你眼里的承重墙，可能连一句招呼都没有就没了。",
+          "flavor": "那份文件里有二十一处用到某个还没命名的机制：把坟墓场里的牌放回牌库底。白色八处、绿色十一处，另有两处在别处。开发把它们全部删掉了。"
         }
       ]
     }

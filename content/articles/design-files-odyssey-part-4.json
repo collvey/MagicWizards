@@ -1,0 +1,216 @@
+{
+  "id": "design-files-odyssey-part-4",
+  "slug": "design-files-odyssey-part-4",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2025-10-13",
+  "series": { "id": "design-files-odyssey", "order": 4, "total": 4 },
+  "tags": ["design-files", "cut-cards", "usability"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/design-files-odyssey-part-4",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T04:07:49.327Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Design Files: Odyssey, Part 4",
+      "dek": "They told him good job, and took it out.",
+      "overview": "The last of the cards that didn't survive the handoff, from black through the lands — including a fix for an old usability problem, and a cut land that resurfaced years later as one of Magic's most famous cycles.",
+      "takeaway": "An old common had to attack whenever another creature did, and players constantly forgot, because you read the text of the creatures that are attacking. Rosewater's fix let you decline and sacrifice it instead. Development said good job and cut it: the set didn't need a fixed version.",
+      "lessons": [
+        {
+          "title": "Give forgetting a defined outcome",
+          "rules": "A requirement people routinely miss creates a dispute about what should have happened. Restating it as a choice with a consequence both prompts the memory and settles the case when the memory fails.",
+          "flavor": "The original was a required attack that nobody remembered, which judges then couldn't unwind because finished combat isn't rolled back. The revision let the creature stay home and be sacrificed at end of combat instead."
+        },
+        {
+          "title": "A reward that unlocks after it stops mattering isn't a reward",
+          "rules": "Check when a bonus becomes available against when it would be worth having. If those two moments don't overlap, the payoff reads as generous on the page and is inert at the table.",
+          "flavor": "One cut artifact gave you access to any colour of mana once your graveyard was full enough. By the mid- to late game, when you actually reached that point, having any colour of mana had stopped being something you cared about."
+        },
+        {
+          "title": "Design a price paid once rather than tracked forever",
+          "rules": "A small recurring cost is arithmetic someone has to keep doing, which is a real burden even when the numbers are trivial. The same total, charged once at the start, is cleaner and easier to reason about.",
+          "flavor": "A land that damaged you each time it was tapped became, in Rosewater's redesign, one upfront payment. The idea stayed with him: years later it produced the shock lands, by then as life paid rather than damage dealt."
+        },
+        {
+          "title": "When a tester prefers your bug to your intent, they may be right",
+          "rules": "What you meant a thing to do has no special authority over what people enjoy doing with it. Argue for the intent by all means, then look honestly at whether the accident is better.",
+          "flavor": "The first opponent to play a search spell against Rosewater fetched three copies of the same card. He said that wasn't the intent; they said it was cool. The team debated and kept the card as written."
+        },
+        {
+          "title": "A rejected idea returns with its permissiveness removed",
+          "rules": "The reason something was cut is usually not the concept but how freely it could be used. When the idea comes back, expect it to arrive with a limit attached — and design that limit yourself rather than waiting.",
+          "flavor": "A land that converted graveyard cards into extra mana made too much too fast. Versions did eventually see print, across three different sets, but never repeatably — each of them requires sacrificing the land."
+        },
+        {
+          "title": "If the guard-rail costs more than the effect is worth, drop the effect",
+          "rules": "A fix that adds more complication than the thing it's protecting is a sign the thing shouldn't exist here. Weigh the whole assembly, not the elegance of the repair.",
+          "flavor": "A recurring spell to return a card from the graveyard risked getting repetitive, so it exiled every other card of that type to stop you looping. Rosewater's verdict: the spell wasn't worth the hassle, though he enjoys the attempt."
+        }
+      ]
+    },
+    "es": {
+      "title": "Archivos de diseño: Odyssey, parte 4",
+      "dek": "Le dijeron buen trabajo, y la quitaron.",
+      "overview": "Las últimas cartas que no sobrevivieron a la entrega, del negro a las tierras, incluida una solución a un viejo problema de usabilidad y una tierra cortada que resurgió años después como uno de los ciclos más famosos de Magic.",
+      "takeaway": "Una vieja común debía atacar siempre que atacara otra criatura, y los jugadores lo olvidaban sin parar, porque uno lee el texto de las criaturas que atacan. El arreglo de Rosewater permitía no atacar y sacrificarla. Desarrollo dijo «buen trabajo» y la cortó: el set no necesitaba una versión arreglada.",
+      "lessons": [
+        {
+          "title": "Dale al olvido un desenlace definido",
+          "rules": "Un requisito que la gente incumple por rutina genera una disputa sobre qué debería haber pasado. Replantearlo como una elección con consecuencia recuerda el requisito y zanja el caso cuando la memoria falla.",
+          "flavor": "El original era un ataque obligatorio que nadie recordaba, y los jueces no podían deshacerlo porque el combate terminado no se revierte. La revisión permitía quedarse en casa y sacrificar la criatura al final del combate."
+        },
+        {
+          "title": "Una recompensa que se desbloquea cuando ya no importa no es una recompensa",
+          "rules": "Contrasta cuándo se vuelve accesible un premio con cuándo valdría la pena tenerlo. Si esos dos momentos no se solapan, el premio parece generoso sobre el papel y es inerte en la mesa.",
+          "flavor": "Un artefacto cortado te daba acceso a maná de cualquier color cuando tu cementerio estaba bastante lleno. Para cuando llegabas ahí, a media o última partida, tener maná de cualquier color había dejado de importarte."
+        },
+        {
+          "title": "Diseña un precio que se pague una vez, no que se lleve siempre en cuenta",
+          "rules": "Un pequeño coste recurrente es aritmética que alguien debe seguir haciendo, y eso pesa aunque las cifras sean triviales. El mismo total, cobrado una vez al principio, es más limpio y más fácil de razonar.",
+          "flavor": "Una tierra que te dañaba cada vez que se giraba pasó, en el rediseño de Rosewater, a un único pago inicial. La idea se le quedó: años después dio las tierras de choque, ya como pago de vida y no como daño."
+        },
+        {
+          "title": "Si un probador prefiere tu error a tu intención, quizá tenga razón",
+          "rules": "Lo que quisiste que hiciera algo no tiene autoridad especial sobre lo que la gente disfruta haciendo con ello. Defiende la intención, desde luego, y luego mira con honestidad si el accidente es mejor.",
+          "flavor": "El primer rival que jugó cierto hechizo de búsqueda contra Rosewater se llevó tres copias de la misma carta. Él dijo que no era la intención; el otro dijo que molaba. El equipo lo debatió y mantuvo la carta tal cual."
+        },
+        {
+          "title": "Una idea rechazada vuelve con su permisividad recortada",
+          "rules": "Lo que hizo que algo se cortara no suele ser el concepto, sino la libertad con que podía usarse. Cuando la idea regrese, espera que traiga un límite; y diseña tú ese límite en vez de esperar.",
+          "flavor": "Una tierra que convertía cartas del cementerio en maná extra producía demasiado y demasiado rápido. Acabaron imprimiéndose versiones, en tres sets distintos, pero nunca repetibles: todas exigen sacrificar la tierra."
+        },
+        {
+          "title": "Si el guardarraíl cuesta más de lo que vale el efecto, quita el efecto",
+          "rules": "Un arreglo que añade más complicación que aquello que protege indica que aquello no debería estar aquí. Pesa el conjunto entero, no la elegancia de la reparación.",
+          "flavor": "Un hechizo recurrente para recuperar una carta del cementerio corría el riesgo de volverse repetitivo, así que exiliaba todas las demás cartas de ese tipo. El veredicto de Rosewater: el hechizo no valía el engorro."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Dossiers de conception : Odyssey, partie 4",
+      "dek": "On lui a dit bravo, et on l'a retirée.",
+      "overview": "Les dernières cartes n'ayant pas survécu à la transmission, du noir aux terrains — dont un correctif à un vieux problème d'ergonomie, et un terrain coupé qui refit surface des années plus tard en un des cycles les plus célèbres de Magic.",
+      "takeaway": "Une vieille commune devait attaquer dès qu'une autre créature attaquait, et l'on oubliait sans cesse, car on lit le texte des créatures qui attaquent. Le correctif de Rosewater permettait de s'abstenir et de la sacrifier. Le développement a dit bravo et l'a coupée : l'extension n'avait pas besoin d'une version corrigée.",
+      "lessons": [
+        {
+          "title": "Donnez à l'oubli une issue définie",
+          "rules": "Une exigence que l'on manque couramment engendre un litige sur ce qui aurait dû se passer. La reformuler en choix assorti d'une conséquence rappelle la règle et tranche le cas quand la mémoire flanche.",
+          "flavor": "L'original imposait une attaque que nul ne retenait, et les arbitres ne pouvaient revenir dessus, un combat achevé ne se rejouant pas. La révision permettait de rester chez soi et de sacrifier la créature en fin de combat."
+        },
+        {
+          "title": "Une récompense débloquée quand elle ne compte plus n'en est pas une",
+          "rules": "Comparez le moment où un bonus devient accessible à celui où il vaudrait la peine. Si ces deux instants ne se recouvrent pas, la récompense paraît généreuse sur le papier et reste inerte à la table.",
+          "flavor": "Un artefact coupé donnait accès à du mana de n'importe quelle couleur une fois le cimetière assez garni. Or, quand on y parvenait enfin, en milieu ou fin de partie, cet accès avait cessé d'avoir de l'importance."
+        },
+        {
+          "title": "Concevez un prix payé une fois plutôt que suivi indéfiniment",
+          "rules": "Un petit coût récurrent est une arithmétique que quelqu'un doit refaire sans cesse : c'est une charge réelle même quand les nombres sont dérisoires. Le même total, prélevé une fois au départ, est plus net.",
+          "flavor": "Un terrain qui blessait à chaque engagement est devenu, dans la refonte de Rosewater, un paiement initial unique. L'idée lui est restée : elle a donné des années plus tard les terrains de choc, en points de vie payés."
+        },
+        {
+          "title": "Si un testeur préfère votre bug à votre intention, il a peut-être raison",
+          "rules": "Ce que vous vouliez faire n'a aucune autorité particulière sur ce que les gens aiment en faire. Défendez l'intention, certes, puis regardez honnêtement si l'accident vaut mieux.",
+          "flavor": "Le premier adversaire à jouer un certain sort de recherche contre Rosewater a récupéré trois exemplaires de la même carte. Il a dit que ce n'était pas l'intention ; l'autre a trouvé cela génial. L'équipe a gardé la carte telle quelle."
+        },
+        {
+          "title": "Une idée rejetée revient délestée de sa permissivité",
+          "rules": "Ce qui a causé la coupe n'est pas le concept mais la liberté d'usage. Quand l'idée revient, attendez-vous à une limite attachée — et concevez cette limite vous-même plutôt que d'attendre.",
+          "flavor": "Un terrain convertissant des cartes du cimetière en mana supplémentaire en produisait trop, trop vite. Des versions furent finalement imprimées, dans trois extensions, mais jamais répétables : toutes exigent de sacrifier le terrain."
+        },
+        {
+          "title": "Si le garde-fou coûte plus que l'effet ne vaut, supprimez l'effet",
+          "rules": "Un correctif qui ajoute plus de complication que la chose protégée signale que cette chose n'a pas sa place ici. Pesez l'ensemble monté, non l'élégance de la réparation.",
+          "flavor": "Un sort récurrent pour reprendre une carte au cimetière risquait de tourner en boucle, d'où l'exil de toutes les autres cartes du même type. Verdict de Rosewater : le sort ne valait pas le tracas."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Arquivos de design: Odyssey, parte 4",
+      "dek": "Disseram bom trabalho, e tiraram a carta.",
+      "overview": "As últimas cartas que não sobreviveram ao repasse, do preto às terras — incluindo um conserto para um velho problema de usabilidade e um terreno cortado que ressurgiu anos depois como um dos ciclos mais famosos de Magic.",
+      "takeaway": "Uma velha comum tinha de atacar sempre que outra criatura atacasse, e os jogadores esqueciam sem parar, porque a gente lê o texto das criaturas que estão atacando. O conserto de Rosewater deixava você recusar e sacrificá-la. O desenvolvimento disse bom trabalho e cortou: a coleção não precisava de uma versão consertada.",
+      "lessons": [
+        {
+          "title": "Dê ao esquecimento um desfecho definido",
+          "rules": "Uma exigência que as pessoas rotineiramente perdem gera uma disputa sobre o que deveria ter acontecido. Reformulá-la como escolha com consequência lembra a regra e resolve o caso quando a memória falha.",
+          "flavor": "O original era um ataque obrigatório que ninguém lembrava, e os juízes não podiam desfazer, já que combate encerrado não volta atrás. A revisão deixava a criatura ficar em casa e ser sacrificada ao fim do combate."
+        },
+        {
+          "title": "Uma recompensa que destrava depois de deixar de importar não é recompensa",
+          "rules": "Compare quando um bônus fica disponível com quando ele valeria a pena. Se esses dois momentos não se sobrepõem, o prêmio parece generoso no papel e é inerte na mesa.",
+          "flavor": "Um artefato cortado dava acesso a mana de qualquer cor quando seu cemitério estivesse cheio o bastante. Quando você enfim chegava lá, no meio ou fim do jogo, ter mana de qualquer cor já não era algo com que você se importasse."
+        },
+        {
+          "title": "Projete um preço pago uma vez, não rastreado para sempre",
+          "rules": "Um pequeno custo recorrente é aritmética que alguém precisa continuar fazendo, e isso pesa mesmo com números triviais. O mesmo total, cobrado uma vez no começo, é mais limpo e mais fácil de raciocinar.",
+          "flavor": "Um terreno que causava dano a você a cada vez que era virado virou, no redesenho de Rosewater, um único pagamento inicial. A ideia ficou com ele: anos depois gerou os terrenos de choque, já como vida paga, não dano."
+        },
+        {
+          "title": "Se um testador prefere seu bug à sua intenção, ele pode estar certo",
+          "rules": "O que você quis que algo fizesse não tem autoridade especial sobre o que as pessoas gostam de fazer com aquilo. Defenda a intenção, claro, e depois olhe com honestidade se o acidente é melhor.",
+          "flavor": "O primeiro oponente a jogar certa mágica de busca contra Rosewater pegou três cópias da mesma carta. Ele disse que não era a intenção; a pessoa achou legal. A equipe debateu e manteve a carta como estava escrita."
+        },
+        {
+          "title": "Uma ideia rejeitada volta com a permissividade removida",
+          "rules": "O motivo do corte em geral não é o conceito, e sim a liberdade com que aquilo podia ser usado. Quando a ideia voltar, espere um limite junto — e projete esse limite você mesmo em vez de esperar.",
+          "flavor": "Um terreno que convertia cartas do cemitério em mana extra produzia demais e rápido demais. Versões acabaram impressas, em três coleções diferentes, mas nunca repetíveis: todas exigem sacrificar o terreno."
+        },
+        {
+          "title": "Se a proteção custa mais do que o efeito vale, tire o efeito",
+          "rules": "Um conserto que acrescenta mais complicação do que a coisa protegida é sinal de que a coisa não deveria estar ali. Pese o conjunto montado, não a elegância do reparo.",
+          "flavor": "Uma mágica recorrente para recuperar carta do cemitério corria o risco de virar repetição, então exilava todas as outras cartas daquele tipo. Veredito de Rosewater: a mágica não valia o incômodo."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "设计档案：《Odyssey》，第四部分",
+      "dek": "他们说干得漂亮，然后把它删了。",
+      "overview": "最后一批没能熬过交接的牌，从黑色一路到地——其中有一个对老旧易用性问题的修补，还有一张被砍掉的地：多年之后，它以万智牌最有名的循环之一重新浮出水面。",
+      "takeaway": "一张老普通牌规定：只要有别的生物进攻，它就必须一起进攻；而玩家老是忘，因为人只会去读那些正在进攻的生物的文字。罗斯沃特的修法是：允许你不攻，但战斗结束时得把它牺牲掉。开发说了句「干得漂亮」，然后把它删了——这个系列并不需要一张修好的版本。",
+      "lessons": [
+        {
+          "title": "给「忘了」定下一个明确的结果",
+          "rules": "一条人们习惯性会漏掉的强制要求，会制造出「本来应该发生什么」的争议。把它改写成一个带后果的选择，既提醒了记忆，也在记忆失效时把这桩公案就地了结。",
+          "flavor": "原版是一次没人记得的强制进攻，而裁判又没法回滚——因为已经结束的战斗通常不会倒带。修订版则允许这只生物待在家里，代价是在战斗结束时被牺牲掉。"
+        },
+        {
+          "title": "一份在「已经不要紧」之后才解锁的奖励，不算奖励",
+          "rules": "把「这份奖励什么时候可用」和「它什么时候才值得拥有」放在一起对照。如果这两个时刻并不重叠，那么它在纸面上看着慷慨，在牌桌上则是一具死物。",
+          "flavor": "一张被砍掉的神器，会在你坟墓场够满之后让你取得任意颜色的法术力。可等你真的到了那一步——中后期——「有任意颜色的法术力」这件事，早就不是你还在意的东西了。"
+        },
+        {
+          "title": "把价钱设计成一次付清，而不是永远记着",
+          "rules": "一笔反复出现的小额代价，是需要有人不断重做的算术；哪怕数字微不足道，这份负担也是真的。同样的总额，在一开始一次性收掉，既更干净，也更容易推演。",
+          "flavor": "一张每次横置都会伤你的地，在罗斯沃特的重做里变成了一次性的预付。这个念头一直留在他心里：多年之后，它长成了「震击地」——而到那时，他已经把「造成伤害」改成了更干净的「支付生命」。"
+        },
+        {
+          "title": "当测试者更喜欢你的 bug 而不是你的本意时，他也许是对的",
+          "rules": "你原本打算让这样东西做什么，对于「人们乐意拿它做什么」并不享有什么特殊权威。当然要为你的本意辩护——然后诚实地看一看：那个意外，是不是更好。",
+          "flavor": "第一个拿某张检索咒语对上罗斯沃特的对手，检索出了同一张牌的三份。他说这不是设计本意；对方说这样很酷。团队为此讨论了一番，最后照原样把这张牌留下了。"
+        },
+        {
+          "title": "一个被否掉的点子回来时，宽松那部分已经被摘掉了",
+          "rules": "当初把它砍掉的理由，通常不是这个概念本身，而是它可以被使用得多么自由。当这个点子回来时，预期它会带着一道限制；而与其等着，不如由你自己来设计那道限制。",
+          "flavor": "一张把坟墓场里的牌换成额外法术力的地，产出太多也太快。后来这个点子确实印出来过，散在三个不同的系列里，但从来不是可重复的：每一张都要求你把这块地牺牲掉。"
+        },
+        {
+          "title": "如果护栏比这个效果本身还贵，那就把效果去掉",
+          "rules": "一处修补如果带来的复杂度超过了它所保护的东西，那说明这样东西本来就不该待在这里。要称量的是装配完成后的整体，而不是这道修补本身有多优雅。",
+          "flavor": "一道可以反复取回坟墓场里某张牌的咒语，有变成无聊循环的风险；于是它顺手放逐了该类别的其他所有牌。罗斯沃特的判词是：这道咒语不值这份麻烦——尽管他很喜欢他们做过这样的尝试。"
+        }
+      ]
+    }
+  }
+}
