@@ -1,0 +1,333 @@
+{
+  "id": "building-allegiances-part-1-2019-01-02",
+  "slug": "building-allegiances-part-1-2019-01-02",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2019-01-02",
+  "series": { "id": "building-allegiances", "order": 1, "total": 2 },
+  "tags": [
+    "vision-design",
+    "ravnica",
+    "mana-fixing",
+    "cycles",
+    "mechanics",
+    "cut-cards"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/building-allegiances-part-1-2019-01-02",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T23:20:32.470Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "U" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Building Allegiances, Part 1",
+      "dek": "The three mana-fixing cycles that hold a guild set together, and how proliferate died as the Simic mechanic for the third time.",
+      "overview": "Rosewater opens the Ravnica Allegiance design story with the land cycles — shock lands, Guildgates, Lockets — and then the Simic and Orzhov mechanics. Proliferate was vision design's official handoff and set design cut it, which is how monstrosity became adapt.",
+      "takeaway": "Proliferate failed a third time not for being weak but for being unbalanceable in a guild set: it needs the environment fine-tuned around it, and Ravnica already carries more balance problems than it can spare.",
+      "lessons": [
+        {
+          "title": "Chunk the complexity into one question",
+          "rules": "A design that looks complicated may only look that way. If all its parts collapse into a single decision the player makes once, the perceived cost is that one decision, not the parts.",
+          "flavor": "R&D's first read on the shock lands was too complicated. Rosewater's argument: it all chunks into one question — do you want this dual land to enter tapped or untapped?"
+        },
+        {
+          "title": "Front-load the cost so nobody has to track it",
+          "rules": "A recurring small penalty is bookkeeping in disguise. Where you can, collect the whole price once, at a moment the player is already paying attention to, and the ongoing cost drops to zero.",
+          "flavor": "Pain lands damage you every time you tap them. The shock lands take the life loss up front, as a one-time payment on the way in."
+        },
+        {
+          "title": "Don't name it after the place if you might want it elsewhere",
+          "rules": "A name that binds a component to one setting closes a door you may want later. The neutral name costs nothing now and buys the option to reuse — even if the option is never taken.",
+          "flavor": "Rosewater asked for non-plane-specific names on the shock lands, thinking they might be useful in other sets. Ironically, they have never appeared on any world but Ravnica."
+        },
+        {
+          "title": "A strictly-better cycle is worse than a strictly-better card",
+          "rules": "One card outclassed by a rarer one is a normal fact of a collection. A whole cycle in that position reads as a systematic insult, so the weaker tier needs something the stronger one doesn't have.",
+          "flavor": "Common tap lands next to the shock lands felt egregious. Life gain, opponent life loss, and other small bonuses were tried, and all of them felt uncommon rather than common."
+        },
+        {
+          "title": "The extra layer can come from another department's need",
+          "rules": "A problem you can't solve inside your own discipline may already be solved by something a neighboring team wants for their own reasons. Ask what they need before inventing a bonus.",
+          "flavor": "Creative wanted lands representing the guilds' gates, which the story needed. The Gate subtype kept the commons mechanically simple while giving other cards something to care about."
+        },
+        {
+          "title": "Fix the colors in a way that pushes toward two, not five",
+          "rules": "Any tool that smooths a resource makes the greediest build easier. Shape the fix so paying for it commits you to the pair you were meant to pick.",
+          "flavor": "The Lockets tweak Dragon's Maze's Cluestones by putting hybrid mana in the activation: four mana, all hybrid, to draw two cards."
+        },
+        {
+          "title": "Unbalanceable here is a reason, and it isn't the same as bad",
+          "rules": "A mechanic can be popular, well-understood, and still wrong for one project. If it demands the environment be tuned around it and the environment already has more demands than it can meet, that settles it.",
+          "flavor": "Proliferate was vision design's official handoff for Simic and its third attempt at returning. It “requires a lot of fine-tuning to the environment,” and Ravnica sets already have many balance issues."
+        },
+        {
+          "title": "Too much synergy between neighbors is the same problem as too little",
+          "rules": "Adjacent groups that share a resource stop being distinguishable and start being one deck. Check both directions of the failure, because the fix for one produces the other.",
+          "flavor": "Simic and Gruul both ended up on +1/+1 counters once Gruul's mechanic changed — the same trap Guilds of Ravnica had to avoid between Boros and Selesnya."
+        },
+        {
+          "title": "Rename it when the faction wouldn't use the word",
+          "rules": "A label written from outside a group can be accurate and still wrong, because your audience reads it as the group's own voice. Ask whether they would call themselves that.",
+          "flavor": "Other Ravnicans might call the Simic's creations monsters. The Simic wouldn't, so monstrosity was the wrong name for their mechanic no matter how well it fit mechanically."
+        },
+        {
+          "title": "Change the trigger condition and get new interactions free",
+          "rules": "Rewriting what a mechanic checks for — rather than what it does — costs one line and can open behavior nobody designed. Look for the version that reads state instead of history.",
+          "flavor": "Monstrosity asked whether the ability had been used. Adapt asks whether the creature has +1/+1 counters — so removing counters lets you adapt again, and adding them can lock it out."
+        }
+      ]
+    },
+    "es": {
+      "title": "Construyendo lealtades, parte 1",
+      "dek": "Los tres ciclos de arreglo de maná que sostienen una edición de gremios, y cómo proliferar murió como mecánica Simic por tercera vez.",
+      "overview": "Rosewater abre la historia de diseño de Ravnica Allegiance con los ciclos de tierras —shocklands, Guildgates, Lockets— y luego con las mecánicas de Simic y Orzhov. Proliferar fue el traspaso oficial del diseño de visión y el de edición la cortó, y así monstruosidad se convirtió en adaptar.",
+      "takeaway": "Proliferar falló por tercera vez no por débil, sino por inequilibrable en una edición de gremios: exige que el entorno se afine a su alrededor, y Ravnica ya arrastra más problemas de equilibrio de los que puede permitirse.",
+      "lessons": [
+        {
+          "title": "Agrupa la complejidad en una sola pregunta",
+          "rules": "Un diseño que parece complicado quizá solo lo parezca. Si todas sus partes se colapsan en una única decisión que el jugador toma una vez, el coste percibido es esa decisión, no las partes.",
+          "flavor": "La primera lectura de I+D sobre las shocklands fue «demasiado complicadas». El argumento de Rosewater: todo se agrupa en una pregunta, ¿quieres que esta tierra doble entre girada o no?"
+        },
+        {
+          "title": "Cobra el coste por adelantado para que nadie tenga que llevar la cuenta",
+          "rules": "Una pequeña penalización recurrente es contabilidad disfrazada. Cuando puedas, cobra todo el precio de una vez, en un momento al que el jugador ya está atendiendo, y el coste continuo baja a cero.",
+          "flavor": "Las painlands te dañan cada vez que las giras. Las shocklands cobran la pérdida de vida por adelantado, como pago único al entrar."
+        },
+        {
+          "title": "No le pongas el nombre del sitio si puede que lo quieras en otra parte",
+          "rules": "Un nombre que ata un componente a un escenario cierra una puerta que quizá quieras luego. El nombre neutro no cuesta nada ahora y compra la opción de reutilizarlo, aunque nunca la ejerzas.",
+          "flavor": "Rosewater pidió nombres no específicos de plano para las shocklands, pensando que servirían en otras ediciones. Irónicamente, nunca han aparecido en un mundo que no sea Ravnica."
+        },
+        {
+          "title": "Un ciclo estrictamente peor es peor que una carta estrictamente peor",
+          "rules": "Que una carta quede superada por otra más rara es un hecho normal de una colección. Un ciclo entero en esa posición se lee como un insulto sistemático, así que el escalón débil necesita algo que el fuerte no tenga.",
+          "flavor": "Las taplands comunes junto a las shocklands resultaban flagrantes. Se probó ganancia de vida, pérdida de vida del rival y otros pequeños extras, y todo sonaba a infrecuente y no a común."
+        },
+        {
+          "title": "La capa extra puede venir de la necesidad de otro departamento",
+          "rules": "Un problema que no puedes resolver dentro de tu disciplina puede estar ya resuelto por algo que un equipo vecino quiere por sus propios motivos. Pregunta qué necesitan antes de inventarte un extra.",
+          "flavor": "Creativo quería tierras que representaran las puertas de los gremios, cosa que la historia pedía. El subtipo Puerta mantuvo simples las comunes y dio a otras cartas algo a lo que referirse."
+        },
+        {
+          "title": "Arregla el color de forma que empuje hacia dos, no hacia cinco",
+          "rules": "Cualquier herramienta que suaviza un recurso le facilita la vida a la construcción más avariciosa. Da forma al arreglo para que pagarlo te comprometa con la pareja que debías elegir.",
+          "flavor": "Los Lockets retocan las Cluestones de Dragon's Maze metiendo maná híbrido en la activación: cuatro manás, todos híbridos, para robar dos cartas."
+        },
+        {
+          "title": "«Aquí no se puede equilibrar» es una razón, y no es lo mismo que «malo»",
+          "rules": "Una mecánica puede ser popular, bien entendida y aun así equivocada para un proyecto. Si exige que el entorno se afine a su alrededor y el entorno ya tiene más exigencias de las que puede atender, asunto resuelto.",
+          "flavor": "Proliferar fue el traspaso oficial de visión para Simic y su tercer intento de volver. «Requiere mucho ajuste fino del entorno», y las ediciones de Ravnica ya tienen muchos problemas de equilibrio."
+        },
+        {
+          "title": "Demasiada sinergia entre vecinos es el mismo problema que muy poca",
+          "rules": "Dos grupos contiguos que comparten un recurso dejan de distinguirse y pasan a ser un solo mazo. Vigila el fallo en ambas direcciones, porque el arreglo de uno produce el otro.",
+          "flavor": "Simic y Gruul acabaron los dos sobre contadores +1/+1 al cambiar la mecánica de Gruul: la misma trampa que Guilds of Ravnica tuvo que esquivar entre Boros y Selesnya."
+        },
+        {
+          "title": "Cámbiale el nombre si la facción no usaría esa palabra",
+          "rules": "Una etiqueta escrita desde fuera de un grupo puede ser exacta y aun así estar mal, porque tu público la lee como la voz del propio grupo. Pregúntate si ellos se llamarían así.",
+          "flavor": "Otros ravnicanos quizá llamen monstruos a las creaciones de los Simic. Los Simic no, así que monstruosidad era el nombre equivocado por bien que encajara mecánicamente."
+        },
+        {
+          "title": "Cambia la condición de disparo y consigue interacciones nuevas gratis",
+          "rules": "Reescribir qué comprueba una mecánica —en vez de qué hace— cuesta una línea y puede abrir comportamientos que nadie diseñó. Busca la versión que lee estado en lugar de historia.",
+          "flavor": "Monstruosidad preguntaba si la habilidad se había usado. Adaptar pregunta si la criatura tiene contadores +1/+1: quitarlos te deja adaptar otra vez, y ponerlos puede bloquearla."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Bâtir des allégeances, partie 1",
+      "dek": "Les trois cycles de filtrage de mana qui tiennent une édition de guildes, et comment la prolifération est morte en tant que mécanique simic pour la troisième fois.",
+      "overview": "Rosewater ouvre l'histoire de conception de Ravnica Allegiance par les cycles de terrains — shocklands, Guildgates, Médaillons — puis par les mécaniques simic et orzhov. La prolifération était le passage de relais officiel de la vision, et la conception d'édition l'a coupée : c'est ainsi que la monstruosité est devenue l'adaptation.",
+      "takeaway": "La prolifération a échoué une troisième fois non par faiblesse mais par impossibilité d'équilibrage dans une édition de guildes : elle exige que l'environnement soit réglé autour d'elle, et Ravnica porte déjà plus de problèmes d'équilibre qu'elle ne peut en absorber.",
+      "lessons": [
+        {
+          "title": "Regroupez la complexité en une seule question",
+          "rules": "Une conception qui paraît compliquée ne l'est peut-être qu'en apparence. Si toutes ses parties se ramènent à une décision unique prise une fois, le coût perçu est cette décision, pas les parties.",
+          "flavor": "Le premier avis de la R&D sur les shocklands : trop compliquées. L'argument de Rosewater : tout se ramène à une question — voulez-vous que ce bi-terrain arrive engagé ou dégagé ?"
+        },
+        {
+          "title": "Encaissez le coût d'avance pour que personne n'ait à le suivre",
+          "rules": "Une petite pénalité récurrente est de la comptabilité déguisée. Quand vous le pouvez, prélevez tout le prix en une fois, à un moment où le joueur est déjà attentif, et le coût continu tombe à zéro.",
+          "flavor": "Les painlands vous blessent chaque fois que vous les engagez. Les shocklands prennent la perte de vie d'entrée, en paiement unique à l'arrivée."
+        },
+        {
+          "title": "Ne la nommez pas d'après le lieu si vous la voudrez peut-être ailleurs",
+          "rules": "Un nom qui lie un composant à un décor ferme une porte que vous voudrez peut-être rouvrir. Le nom neutre ne coûte rien maintenant et achète l'option de réemploi — même si l'option n'est jamais levée.",
+          "flavor": "Rosewater a demandé des noms non liés au plan pour les shocklands, pensant les réutiliser ailleurs. Ironiquement, elles n'ont jamais paru sur un autre monde que Ravnica."
+        },
+        {
+          "title": "Un cycle strictement inférieur est pire qu'une carte strictement inférieure",
+          "rules": "Qu'une carte soit surclassée par une plus rare est un fait normal d'une collection. Un cycle entier dans cette position se lit comme un affront systématique : l'étage faible a besoin de quelque chose que le fort n'a pas.",
+          "flavor": "Des taplands communes à côté des shocklands paraissaient choquantes. Gain de vie, perte de vie adverse et autres petits bonus ont été tentés, et sonnaient tous inhabituels plutôt que communs."
+        },
+        {
+          "title": "La couche supplémentaire peut venir du besoin d'un autre service",
+          "rules": "Un problème insoluble dans votre discipline est peut-être déjà résolu par ce qu'une équipe voisine veut pour ses propres raisons. Demandez ce dont ils ont besoin avant d'inventer un bonus.",
+          "flavor": "Le créatif voulait des terrains figurant les portes des guildes, ce que l'histoire réclamait. Le sous-type Porte a gardé les communes simples tout en donnant matière aux autres cartes."
+        },
+        {
+          "title": "Filtrez les couleurs de façon à pousser vers deux, pas vers cinq",
+          "rules": "Tout outil qui lisse une ressource facilite aussi la construction la plus gourmande. Façonnez le filtre pour que le payer vous engage sur la paire que vous deviez choisir.",
+          "flavor": "Les Médaillons retouchent les Cluestones de Dragon's Maze en mettant du mana hybride dans l'activation : quatre manas, tous hybrides, pour piocher deux cartes."
+        },
+        {
+          "title": "« Inéquilibrable ici » est une raison, et ce n'est pas « mauvais »",
+          "rules": "Une mécanique peut être populaire, bien comprise, et pourtant inadaptée à un projet. Si elle exige que l'environnement soit réglé autour d'elle et que l'environnement croule déjà sous les exigences, l'affaire est close.",
+          "flavor": "La prolifération était le relais officiel de la vision pour les Simic et sa troisième tentative de retour. Elle « réclame beaucoup de réglage fin », et les éditions de Ravnica ont déjà bien des soucis d'équilibre."
+        },
+        {
+          "title": "Trop de synergie entre voisins est le même problème que pas assez",
+          "rules": "Deux groupes contigus qui partagent une ressource cessent d'être distincts et deviennent un seul deck. Surveillez la panne dans les deux sens, car le remède à l'une produit l'autre.",
+          "flavor": "Simic et Gruul se sont retrouvés tous deux sur les marqueurs +1/+1 une fois la mécanique gruul changée — le piège même que Guilds of Ravnica devait éviter entre Boros et Selesnya."
+        },
+        {
+          "title": "Renommez quand la faction n'emploierait pas le mot",
+          "rules": "Une étiquette écrite de l'extérieur d'un groupe peut être exacte et pourtant fausse, car votre public la lit comme la voix du groupe. Demandez-vous s'ils s'appelleraient ainsi.",
+          "flavor": "D'autres Ravnicains diraient peut-être que les créations simic sont des monstres. Les Simic non : monstruosité était le mauvais nom, si bien qu'elle collât mécaniquement."
+        },
+        {
+          "title": "Changez la condition et obtenez des interactions gratuites",
+          "rules": "Réécrire ce qu'une mécanique vérifie — plutôt que ce qu'elle fait — coûte une ligne et peut ouvrir des comportements que personne n'a conçus. Cherchez la version qui lit un état plutôt qu'un historique.",
+          "flavor": "La monstruosité demandait si la capacité avait été utilisée. L'adaptation demande si la créature a des marqueurs +1/+1 : les retirer permet de réadapter, en ajouter peut la verrouiller."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Construindo lealdades, parte 1",
+      "dek": "Os três ciclos de ajuste de mana que sustentam uma coleção de guildas, e como proliferar morreu como mecânica Simic pela terceira vez.",
+      "overview": "Rosewater abre a história de design de Ravnica Allegiance pelos ciclos de terrenos — shocklands, Guildgates, Medalhões — e depois pelas mecânicas de Simic e Orzhov. Proliferar foi a entrega oficial do design de visão, e o de coleção cortou: foi assim que monstruosidade virou adaptar.",
+      "takeaway": "Proliferar falhou pela terceira vez não por ser fraca, mas por ser inequilibrável numa coleção de guildas: exige que o ambiente seja afinado em torno dela, e Ravnica já carrega mais problemas de equilíbrio do que consegue absorver.",
+      "lessons": [
+        {
+          "title": "Agrupe a complexidade numa única pergunta",
+          "rules": "Um design que parece complicado talvez só pareça. Se todas as suas partes colapsam numa decisão única que o jogador toma uma vez, o custo percebido é aquela decisão, não as partes.",
+          "flavor": "A primeira leitura da P&D sobre as shocklands foi “complicadas demais”. O argumento de Rosewater: tudo se agrupa numa pergunta — você quer que este terreno duplo entre virado ou desvirado?"
+        },
+        {
+          "title": "Cobre o custo adiantado para ninguém ter de acompanhar",
+          "rules": "Uma pequena penalidade recorrente é contabilidade disfarçada. Quando der, cobre o preço inteiro de uma vez, num momento em que o jogador já está prestando atenção, e o custo contínuo cai a zero.",
+          "flavor": "Painlands machucam toda vez que você as vira. Shocklands cobram a perda de vida na entrada, como pagamento único."
+        },
+        {
+          "title": "Não dê a ela o nome do lugar se você pode querê-la em outro",
+          "rules": "Um nome que amarra um componente a um cenário fecha uma porta que você talvez queira depois. O nome neutro não custa nada agora e compra a opção de reaproveitar — mesmo que a opção nunca seja exercida.",
+          "flavor": "Rosewater pediu nomes não específicos de plano para as shocklands, achando que seriam úteis em outras coleções. Ironicamente, elas nunca apareceram em outro mundo que não Ravnica."
+        },
+        {
+          "title": "Um ciclo estritamente pior é pior que uma carta estritamente pior",
+          "rules": "Uma carta superada por outra mais rara é fato normal de uma coleção. Um ciclo inteiro nessa posição se lê como insulto sistemático, então o degrau fraco precisa de algo que o forte não tenha.",
+          "flavor": "Taplands comuns ao lado das shocklands soavam gritantes. Testaram ganho de vida, perda de vida do oponente e outros bônus pequenos, e todos soavam incomuns em vez de comuns."
+        },
+        {
+          "title": "A camada extra pode vir da necessidade de outro departamento",
+          "rules": "Um problema que você não resolve dentro da sua disciplina pode já estar resolvido por algo que uma equipe vizinha quer pelos próprios motivos. Pergunte do que precisam antes de inventar um bônus.",
+          "flavor": "O Criativo queria terrenos representando os portões das guildas, o que a história pedia. O subtipo Portão manteve as comuns simples e deu às outras cartas algo a que se referir."
+        },
+        {
+          "title": "Ajuste as cores de um jeito que empurre para duas, não para cinco",
+          "rules": "Qualquer ferramenta que suaviza um recurso também facilita a construção mais gananciosa. Modele o ajuste para que pagá-lo comprometa você com o par que deveria ter escolhido.",
+          "flavor": "Os Medalhões ajustam as Cluestones de Dragon's Maze pondo mana híbrido na ativação: quatro manas, todos híbridos, para comprar duas cartas."
+        },
+        {
+          "title": "“Inequilibrável aqui” é um motivo, e não é o mesmo que “ruim”",
+          "rules": "Uma mecânica pode ser popular, bem compreendida e ainda assim errada para um projeto. Se ela exige que o ambiente seja afinado em torno dela e o ambiente já tem mais exigências do que consegue atender, está decidido.",
+          "flavor": "Proliferar foi a entrega oficial da visão para os Simic e a terceira tentativa de retorno. Ela “exige muito ajuste fino do ambiente”, e coleções de Ravnica já têm muitos problemas de equilíbrio."
+        },
+        {
+          "title": "Sinergia demais entre vizinhos é o mesmo problema que de menos",
+          "rules": "Dois grupos vizinhos que dividem um recurso deixam de ser distinguíveis e viram um deck só. Vigie a falha nas duas direções, porque o conserto de uma produz a outra.",
+          "flavor": "Simic e Gruul acabaram os dois em marcadores +1/+1 depois que a mecânica gruul mudou — a mesma armadilha que Guilds of Ravnica teve de evitar entre Boros e Selesnya."
+        },
+        {
+          "title": "Renomeie quando a facção não usaria a palavra",
+          "rules": "Um rótulo escrito de fora de um grupo pode ser exato e ainda assim errado, porque o seu público o lê como a voz do próprio grupo. Pergunte se eles se chamariam assim.",
+          "flavor": "Outros ravnicanos talvez chamem as criações Simic de monstros. Os Simic não, então monstruosidade era o nome errado por melhor que encaixasse mecanicamente."
+        },
+        {
+          "title": "Mude a condição de disparo e ganhe interações de graça",
+          "rules": "Reescrever o que uma mecânica verifica — em vez do que ela faz — custa uma linha e pode abrir comportamentos que ninguém projetou. Procure a versão que lê estado em vez de histórico.",
+          "flavor": "Monstruosidade perguntava se a habilidade já fora usada. Adaptar pergunta se a criatura tem marcadores +1/+1: tirá-los deixa adaptar de novo, e colocá-los pode travar a habilidade."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "结盟建造，上",
+      "dek": "撑起一个公会系列的三组调色循环，以及增殖第三次死在「析米克机制」这个位置上。",
+      "overview": "罗斯瓦特从地循环开始讲《拉尼卡效忠》的设计故事——震击地、公会门、锁盒——然后是析米克和欧佐夫的机制。增殖是愿景设计正式交出去的那个机制，被系列设计砍掉了；正是这样，「怪兽性」才变成了「适应」。",
+      "takeaway": "增殖第三次失败，不是因为它弱，而是因为它在一个公会系列里无法配平：它要求整个环境围着它精调，而拉尼卡本来就背着比它承受得起更多的平衡难题。",
+      "lessons": [
+        {
+          "title": "把复杂度打包成一个问题",
+          "rules": "一个看起来复杂的设计，也许只是看起来复杂。如果它所有的零件最终坍缩成玩家只做一次的一个决定，那么被感受到的成本就是那一个决定，而不是那些零件。",
+          "flavor": "研发部对震击地的第一反应是「太复杂了」。罗斯瓦特的论点是：这一切归拢成一个问题——你想让这张双色地横置进场，还是不横置？"
+        },
+        {
+          "title": "把代价一次收清，好让没人需要记账",
+          "rules": "一份反复出现的小惩罚，是伪装起来的记账。只要做得到，就在玩家本来就在留意的那一刻把全部价钱一次收掉，持续成本随即归零。",
+          "flavor": "痛地每次横置都会伤你。震击地则把失去生命提到前面，作为进场时的一次性付款。"
+        },
+        {
+          "title": "如果你以后可能想在别处用它，就别拿地名给它命名",
+          "rules": "一个把部件绑死在某个场景上的名字，会关上一扇你日后也许想开的门。中性的名字现在不花你什么，却买下了复用的选择权——哪怕这个选择权从没被行使。",
+          "flavor": "罗斯瓦特要求震击地用与时空无关的名字，想着别的系列或许用得上。讽刺的是，它们至今没有在拉尼卡以外的任何世界出现过。"
+        },
+        {
+          "title": "一整个「严格更差」的循环，比一张「严格更差」的牌更糟",
+          "rules": "一张牌被更稀有的一张全面盖过，在一个集换收藏里是常事。但整整一个循环处在这个位置，就会被读成系统性的怠慢——所以较弱的那一档需要一样强的那档没有的东西。",
+          "flavor": "普通位上的进场横置地和震击地摆在一起，显得太难看了。他们试过获得生命、让对手失去生命和其他小福利，结果听上去都像非普通而不像普通。"
+        },
+        {
+          "title": "那一层额外的东西，可能来自另一个部门的需求",
+          "rules": "一个你在自己专业内解决不了的问题，也许早已被隔壁团队出于他们自己的理由解决了。在自己去发明一个附加值之前，先问问他们需要什么。",
+          "flavor": "创意团队想要能代表各公会大门的地，因为故事需要。「门」这个副类别让普通牌在机制上保持简单，同时给别的牌留下了可以在意的东西。"
+        },
+        {
+          "title": "调色要调成把人推向两色，而不是五色",
+          "rules": "任何抹平某种资源的工具，也会让那个最贪心的构筑更好过。把这个工具塑造成：为它付账，就等于把自己绑在你本该选的那一对上。",
+          "flavor": "锁盒是对《龙王迷宫》线索石的改造：把混血法术力放进启动费用里——四点法术力，全是混血，抽两张牌。"
+        },
+        {
+          "title": "「在这里配不平」是一个理由，而且它不等于「不好」",
+          "rules": "一个机制可以既受欢迎、又被充分理解，同时对某一个项目仍然是错的。如果它要求环境围着它精调，而这个环境本来就应付不过来那么多要求，那事情就定了。",
+          "flavor": "增殖是愿景设计给析米克的正式交付，也是它第三次尝试回归。它「需要对环境做大量精调」，而拉尼卡系列本来就有很多平衡问题。"
+        },
+        {
+          "title": "邻居之间协同过头，和协同不足是同一个问题",
+          "rules": "两个相邻的群体如果共用一种资源，就会从「可区分」变成「同一副套牌」。两个方向的失败都要盯着，因为治好其中一个，往往就制造出另一个。",
+          "flavor": "在鲁莽的机制换掉之后，析米克和古鲁双双落到了 +1/+1 指示物上——正是《拉尼卡公会》必须在波洛斯和瑟雷尼亚之间躲开的那个陷阱。"
+        },
+        {
+          "title": "如果这个阵营自己不会用这个词，就改名",
+          "rules": "一个从群体外部写下的标签，可能准确却依然是错的，因为你的受众会把它读成这个群体自己的口吻。问一句：他们会这样称呼自己吗？",
+          "flavor": "别的拉尼卡人也许会把析米克的造物叫作怪物。析米克自己不会——所以无论「怪兽性」在机制上多么合适，作为他们的机制名字都是错的。"
+        },
+        {
+          "title": "改动触发条件，白得一批新互动",
+          "rules": "改写一个机制「检查什么」——而不是「做什么」——只花一行字，却可能打开没人设计过的行为。去找那个读取状态、而不是读取历史的版本。",
+          "flavor": "怪兽性问的是「这个异能用过没有」。适应问的是「这个生物身上有没有 +1/+1 指示物」——于是把指示物拿掉就能再适应一次，而给它加上指示物则可以把它锁死。"
+        }
+      ]
+    }
+  }
+}
