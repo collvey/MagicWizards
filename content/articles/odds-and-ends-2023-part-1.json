@@ -1,0 +1,277 @@
+{
+  "id": "odds-and-ends-2023-part-1",
+  "slug": "odds-and-ends-2023-part-1",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2023-11-20",
+  "series": {
+    "id": "odds-and-ends-2023",
+    "order": 1,
+    "total": 2
+  },
+  "tags": [
+    "mailbag",
+    "rules",
+    "mechanics"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/odds-and-ends-2023-part-1",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T09:43:35.302Z",
+  "lessons": [
+    {
+      "n": 1,
+      "color": "U"
+    },
+    {
+      "n": 2,
+      "color": "U"
+    },
+    {
+      "n": 3,
+      "color": "W"
+    },
+    {
+      "n": 4,
+      "color": "R"
+    },
+    {
+      "n": 5,
+      "color": "G"
+    },
+    {
+      "n": 6,
+      "color": "W"
+    },
+    {
+      "n": 7,
+      "color": "B"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Odds & Ends: 2023, Part 1",
+      "dek": "Twenty roles became ten, then six — and he still says the fix was the tokens.",
+      "overview": "The 2023 mailbag, first half: battles as a new card type, what it would actually cost to let a player have ward, and why the roles problem wasn't the number of roles.",
+      "takeaway": "The most detailed answer here is about giving a player ward. Rewriting the rule is the easy part, and players would intuit it correctly; the expense is everything downstream — re-reading every existing ward card in case its template was chosen precisely because only permanents could be targeted, and handling what a triggered ability with no source does to the digital client. On roles, Rosewater declines the obvious conclusion: the count went twenty, then ten, then six, and he still thinks the variety was right and the tokens were wrong.",
+      "lessons": [
+        {
+          "title": "Don't let the first implementation's constraints be read as the category's",
+          "rules": "People generalise from the only example they have. If your debut instance carries a requirement the category doesn't, say so explicitly, because otherwise the requirement becomes what everyone believes the category is for.",
+          "flavor": "Sieges are the only kind of battle made so far, and Sieges need double-faced cards — so players assumed battles do. Rosewater's answer is that battles inherently don't: a single-faced battle would be a permanent with static, triggered or activated effects that your opponent destroys by attacking it."
+        },
+        {
+          "title": "The cost of a definition change is the audit of what was built on the old one",
+          "rules": "Rewriting a rule is usually cheap, and people often adapt to the new version without being told. What is expensive is going back through everything made under the old definition, because some of it was shaped by the limit you're removing.",
+          "flavor": "Ward could be given to players, and Rosewater thinks people would play it correctly. The cost is elsewhere: checking every existing ward card in case its design or template was chosen because only permanents could be targeted, plus what a triggered ability with no source means for the digital game."
+        },
+        {
+          "title": "When variety strains people, check whether it's the count or the equipment",
+          "rules": "The obvious response to “too much to keep track of” is to reduce how many kinds there are. Before you do, ask whether the difficulty is really in the number or in what you gave people to manage it with.",
+          "flavor": "Roles went from twenty in vision design to ten at handoff to six in the printed set. Rosewater's takeaway is not that six is too many: he still thinks the variety mattered for flavour and gameplay, and that what went wrong was the tokens — the set needed more double-faced ones, including roles on both faces."
+        },
+        {
+          "title": "A rename doesn't change the policy, but it does change the appetite",
+          "rules": "A word accumulates the reluctance of everyone who has argued about it. Replacing it leaves the rule intact and clears the residue, so people will propose things under the new name that nobody was going to propose under the old one.",
+          "flavor": "Tribal became kindred. Rosewater is explicit that changing the word doesn't change how they feel about the card type — it still isn't something to use in large amounts — but says the new name will allow the occasional one-off design they might not have done before."
+        },
+        {
+          "title": "A correction that rides on demand you don't control never finishes",
+          "rules": "Fixing old work by reissuing it means the fix only reaches the items people want reissued. Expect the correction to propagate unevenly and to stop short, and don't plan as though the whole population will eventually be updated.",
+          "flavor": "Updated wordings arrive on reprints, and Wizards looks for chances to use them. But a card only gets reprinted if the audience is interested enough in seeing it again — so some old tribal cards will return with the kindred wording, and Rosewater doubts it will be all of them."
+        },
+        {
+          "title": "A new component earns unrestricted use through a known progression",
+          "rules": "Something structurally new shouldn't arrive everywhere at once. Expect it to appear rarely and prominently at first, then more often as it proves out, and set the pace by how much it costs the audience to learn.",
+          "flavor": "Rosewater points at Sagas as the pattern battles will likely follow: small numbers, high profile, very flavourful, until they become a tool that can appear in any quantity whenever needed. His guess is that battles will roll out more slowly, because they're a bit more complex."
+        },
+        {
+          "title": "Quarantine a new capability to one release until it reports back",
+          "rules": "Adding something structural to your system commits everything that comes after. Put it in one product, publish nothing else that depends on it, and make the decision to spread it a separate decision taken on evidence.",
+          "flavor": "Battles were designed for March of the Machine, and the plan was to release them there and see how they were received before putting them in other products. They were much adored, and the team has since been given the green light to use them elsewhere."
+        }
+      ]
+    },
+    "es": {
+      "title": "Cabos sueltos: 2023, parte 1",
+      "dek": "Veinte roles pasaron a diez, y luego a seis; y él sigue diciendo que el arreglo eran las fichas.",
+      "overview": "El buzón de 2023, primera mitad: las batallas como nuevo tipo de carta, lo que costaría de verdad dar vigilancia a un jugador, y por qué el problema de los roles no era el número de roles.",
+      "takeaway": "La respuesta más detallada es la de dar vigilancia a un jugador. Reescribir la regla es lo fácil, y los jugadores lo jugarían bien por intuición; el gasto está aguas abajo: releer cada carta de vigilancia existente por si su plantilla se eligió precisamente porque solo se podía apuntar a permanentes, y resolver qué le hace al cliente digital una habilidad disparada sin fuente. Sobre los roles, Rosewater rechaza la conclusión obvia: el número fue veinte, luego diez, luego seis, y sigue pensando que la variedad era acertada y las fichas equivocadas.",
+      "lessons": [
+        {
+          "title": "No deje que las restricciones de la primera implementación se lean como las de la categoría",
+          "rules": "La gente generaliza a partir del único ejemplo que tiene. Si su primer caso arrastra un requisito que la categoría no impone, dígalo explícitamente, porque si no ese requisito pasará a ser lo que todos creen que la categoría es.",
+          "flavor": "Los asedios son el único tipo de batalla hecho hasta ahora, y los asedios necesitan cartas de doble cara, así que los jugadores supusieron que las batallas también. La respuesta de Rosewater es que no: una batalla de una sola cara sería un permanente con efectos estáticos, disparados o activados que el oponente destruye atacándolo."
+        },
+        {
+          "title": "El coste de cambiar una definición es auditar lo que se construyó sobre la anterior",
+          "rules": "Reescribir una regla suele ser barato, y la gente a menudo se adapta a la versión nueva sin que se lo digan. Lo caro es repasar todo lo hecho bajo la definición vieja, porque parte de ello tomó su forma por el límite que usted está quitando.",
+          "flavor": "Se podría dar vigilancia a los jugadores, y Rosewater cree que la jugarían bien. El coste está en otra parte: revisar cada carta de vigilancia existente por si su diseño o plantilla se eligió porque solo se podía apuntar a permanentes, más lo que una habilidad disparada sin fuente supone para el juego digital."
+        },
+        {
+          "title": "Cuando la variedad agobia, mire si el problema es el número o el equipamiento",
+          "rules": "La respuesta obvia a «hay demasiado que seguir» es reducir cuántas clases hay. Antes de hacerlo, pregúntese si la dificultad está de verdad en la cantidad o en lo que dio a la gente para manejarla.",
+          "flavor": "Los roles pasaron de veinte en diseño de visión a diez en el traspaso y a seis en la colección impresa. La conclusión de Rosewater no es que seis sean demasiados: sigue pensando que la variedad importaba, y que lo que falló fueron las fichas, pues hacían falta más de doble cara, con roles en ambas."
+        },
+        {
+          "title": "Un cambio de nombre no cambia la política, pero sí cambia las ganas",
+          "rules": "Una palabra acumula la reticencia de todos los que han discutido sobre ella. Sustituirla deja la regla intacta y limpia el poso, así que la gente propondrá bajo el nombre nuevo cosas que nadie iba a proponer bajo el viejo.",
+          "flavor": "«Tribal» pasó a ser «afín». Rosewater es explícito en que cambiar la palabra no cambia lo que opinan del tipo de carta —sigue sin ser algo para usar en grandes cantidades— pero dice que el nombre nuevo permitirá algún diseño puntual que antes no habrían hecho."
+        },
+        {
+          "title": "Una corrección que depende de una demanda ajena nunca se completa",
+          "rules": "Arreglar trabajo viejo reeditándolo hace que el arreglo solo alcance lo que la gente quiere ver reeditado. Cuente con que la corrección se propague de forma desigual y se quede a medias, y no planifique como si toda la población fuera a actualizarse.",
+          "flavor": "Las redacciones actualizadas llegan con las reimpresiones, y Wizards busca ocasiones de usarlas. Pero una carta solo se reimprime si al público le interesa lo bastante volver a verla, así que algunas cartas tribales viejas volverán con la nueva redacción, y Rosewater duda de que sean todas."
+        },
+        {
+          "title": "Un componente nuevo se gana el uso libre a través de una progresión conocida",
+          "rules": "Algo estructuralmente nuevo no debería aparecer en todas partes de golpe. Cuente con que salga poco y de forma destacada al principio, y más a menudo según se demuestre, marcando el ritmo por lo que le cuesta aprenderlo al público.",
+          "flavor": "Rosewater señala a las sagas como el patrón que probablemente sigan las batallas: pocas, muy visibles, muy ambientadas, hasta volverse una herramienta que puede aparecer en cualquier cantidad cuando haga falta. Su apuesta es que las batallas se desplegarán más despacio, por ser algo más complejas."
+        },
+        {
+          "title": "Ponga en cuarentena una capacidad nueva en un solo lanzamiento hasta que dé señales",
+          "rules": "Añadir algo estructural a su sistema compromete todo lo que venga después. Métalo en un producto, no publique nada más que dependa de él, y haga que extenderlo sea una decisión aparte tomada con pruebas.",
+          "flavor": "Las batallas se diseñaron para March of the Machine, y el plan era sacarlas ahí y ver cómo se recibían antes de meterlas en otros productos. Gustaron muchísimo, y desde entonces el equipo tiene luz verde para usarlas en otros sitios."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Bric-à-brac : 2023, partie 1",
+      "dek": "Vingt rôles sont devenus dix, puis six — et il maintient que le correctif, c'étaient les jetons.",
+      "overview": "Le courrier 2023, première moitié : les batailles comme nouveau type de carte, ce que coûterait vraiment de donner la vigilance protectrice à un joueur, et pourquoi le problème des rôles n'était pas leur nombre.",
+      "takeaway": "La réponse la plus détaillée porte sur le fait de donner le ward à un joueur. Réécrire la règle est la partie facile, et les joueurs joueraient cela correctement d'instinct ; la dépense est en aval : relire chaque carte à ward existante au cas où son gabarit aurait été choisi précisément parce que seuls des permanents pouvaient être ciblés, et régler ce qu'une capacité déclenchée sans source fait au client numérique. Sur les rôles, Rosewater refuse la conclusion évidente : on est passé de vingt à dix puis à six, et il estime toujours que la variété était juste et les jetons fautifs.",
+      "lessons": [
+        {
+          "title": "Ne laissez pas les contraintes de la première mise en œuvre passer pour celles de la catégorie",
+          "rules": "On généralise à partir du seul exemple disponible. Si votre premier cas porte une exigence que la catégorie n'impose pas, dites-le explicitement, faute de quoi cette exigence deviendra ce que tout le monde croit être la catégorie.",
+          "flavor": "Les sièges sont le seul type de bataille réalisé jusqu'ici, et les sièges exigent des cartes recto-verso : les joueurs ont donc supposé que les batailles aussi. Rosewater répond que non : une bataille à une face serait un permanent à effets statiques, déclenchés ou activés, que l'adversaire détruit en l'attaquant."
+        },
+        {
+          "title": "Le coût d'un changement de définition, c'est l'audit de ce qui a été bâti sur l'ancienne",
+          "rules": "Réécrire une règle est en général peu coûteux, et les gens s'adaptent souvent sans qu'on leur dise. Ce qui coûte, c'est de reparcourir tout ce qui a été fait sous l'ancienne définition, car une partie a pris sa forme à cause de la limite que vous supprimez.",
+          "flavor": "On pourrait donner le ward aux joueurs, et Rosewater pense qu'ils y joueraient juste. Le coût est ailleurs : vérifier chaque carte à ward existante au cas où son design ou son gabarit aurait été choisi parce que seuls des permanents étaient ciblables, plus ce qu'une capacité déclenchée sans source implique pour le jeu numérique."
+        },
+        {
+          "title": "Quand la variété pèse, vérifiez si c'est le nombre ou l'équipement",
+          "rules": "La réponse évidente à « il y a trop à suivre » est de réduire le nombre de sortes. Avant cela, demandez-vous si la difficulté tient vraiment à la quantité ou à ce que vous avez donné aux gens pour la gérer.",
+          "flavor": "Les rôles sont passés de vingt en vision design à dix à la passation, puis six dans l'extension imprimée. La conclusion de Rosewater n'est pas que six soit trop : il pense toujours que la variété comptait, et que ce sont les jetons qui ont raté — il en fallait davantage en recto-verso, avec des rôles sur les deux faces."
+        },
+        {
+          "title": "Un changement de nom ne change pas la politique, mais il change l'appétit",
+          "rules": "Un mot accumule la réticence de tous ceux qui en ont débattu. Le remplacer laisse la règle intacte et efface le dépôt : on proposera sous le nouveau nom des choses que personne n'allait proposer sous l'ancien.",
+          "flavor": "« Tribal » est devenu « apparenté ». Rosewater précise que changer le mot ne change pas leur avis sur ce type de carte — ce n'est toujours pas à employer en grande quantité — mais dit que le nouveau nom permettra le design ponctuel qu'ils n'auraient peut-être pas fait avant."
+        },
+        {
+          "title": "Une correction qui dépend d'une demande que vous ne maîtrisez pas ne s'achève jamais",
+          "rules": "Corriger d'anciens travaux en les rééditant ne touche que ce que les gens veulent voir revenir. Attendez-vous à une propagation inégale et incomplète, et ne planifiez pas comme si toute la population finirait par être mise à jour.",
+          "flavor": "Les formulations actualisées arrivent par les rééditions, et Wizards cherche les occasions de les employer. Mais une carte n'est rééditée que si le public tient assez à la revoir : certaines vieilles cartes tribales reviendront avec la nouvelle formulation, et Rosewater doute que ce soit toutes."
+        },
+        {
+          "title": "Un composant neuf gagne son usage libre par une progression connue",
+          "rules": "Une nouveauté structurelle ne devrait pas arriver partout d'un coup. Attendez-vous à ce qu'elle paraisse rarement et en évidence d'abord, puis plus souvent à mesure qu'elle fait ses preuves, en réglant le rythme sur ce qu'il en coûte au public de l'apprendre.",
+          "flavor": "Rosewater désigne les sagas comme le modèle que suivront sans doute les batailles : peu nombreuses, très visibles, très parlantes, jusqu'à devenir un outil mobilisable en toute quantité au besoin. Il devine un déploiement plus lent pour les batailles, un peu plus complexes."
+        },
+        {
+          "title": "Confinez une capacité neuve à une seule sortie jusqu'à ce qu'elle rende des comptes",
+          "rules": "Ajouter une chose structurelle à votre système engage tout ce qui viendra après. Mettez-la dans un produit, ne publiez rien d'autre qui en dépende, et faites de sa diffusion une décision distincte, prise sur preuves.",
+          "flavor": "Les batailles ont été conçues pour March of the Machine, et le plan était de les y sortir puis de voir l'accueil avant de les placer ailleurs. Elles ont été très appréciées, et l'équipe a depuis reçu le feu vert pour s'en servir dans d'autres extensions."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Miudezas: 2023, parte 1",
+      "dek": "Vinte funções viraram dez, depois seis — e ele mantém que o conserto eram as fichas.",
+      "overview": "A caixa de perguntas de 2023, primeira metade: batalhas como novo tipo de carta, quanto custaria de fato dar vigilância a um jogador, e por que o problema das funções não era o número delas.",
+      "takeaway": "A resposta mais detalhada é sobre dar vigilância a um jogador. Reescrever a regra é a parte fácil, e os jogadores jogariam certo por intuição; a despesa está adiante: reler cada carta de vigilância existente caso o modelo dela tenha sido escolhido justamente porque só permanentes podiam ser alvo, e resolver o que uma habilidade desencadeada sem fonte faz com o cliente digital. Sobre as funções, Rosewater recusa a conclusão óbvia: foram vinte, depois dez, depois seis, e ele ainda acha que a variedade estava certa e as fichas erradas.",
+      "lessons": [
+        {
+          "title": "Não deixe as restrições da primeira implementação serem lidas como as da categoria",
+          "rules": "As pessoas generalizam a partir do único exemplo que têm. Se o seu primeiro caso carrega uma exigência que a categoria não impõe, diga isso explicitamente, senão a exigência vira aquilo que todos acreditam ser a categoria.",
+          "flavor": "Cercos são o único tipo de batalha feito até agora, e cercos precisam de cartas de face dupla, então os jogadores supuseram que batalhas também. A resposta de Rosewater é que não: uma batalha de face única seria uma permanente com efeitos estáticos, desencadeados ou ativados que o oponente destrói atacando."
+        },
+        {
+          "title": "O custo de mudar uma definição é auditar o que foi construído sobre a antiga",
+          "rules": "Reescrever uma regra costuma ser barato, e as pessoas muitas vezes se adaptam à versão nova sem aviso. O caro é revisitar tudo o que foi feito sob a definição antiga, porque parte disso tomou forma por causa do limite que você está removendo.",
+          "flavor": "Vigilância poderia ser dada a jogadores, e Rosewater acha que jogariam certo. O custo está em outro lugar: conferir cada carta de vigilância existente caso o design ou o modelo dela tenha sido escolhido porque só permanentes eram alvos, mais o que uma habilidade desencadeada sem fonte significa para o jogo digital."
+        },
+        {
+          "title": "Quando a variedade pesa, veja se o problema é a contagem ou o equipamento",
+          "rules": "A resposta óbvia a “é coisa demais para acompanhar” é reduzir quantos tipos existem. Antes disso, pergunte se a dificuldade está mesmo na quantidade ou no que você deu às pessoas para lidar com ela.",
+          "flavor": "As funções foram de vinte no design de visão a dez na passagem e a seis na coleção impressa. A conclusão de Rosewater não é que seis sejam demais: ele ainda acha que a variedade importava, e que o que falhou foram as fichas — faltaram mais de face dupla, com funções nas duas faces."
+        },
+        {
+          "title": "Um novo nome não muda a política, mas muda a vontade",
+          "rules": "Uma palavra acumula a resistência de todos que já discutiram sobre ela. Trocá-la deixa a regra intacta e limpa o resíduo, então as pessoas vão propor sob o nome novo coisas que ninguém proporia sob o antigo.",
+          "flavor": "“Tribal” virou “semelhante”. Rosewater é explícito: mudar a palavra não muda o que sentem pelo tipo de carta — segue não sendo coisa para usar em grande quantidade — mas diz que o nome novo permitirá o design pontual que talvez não fizessem antes."
+        },
+        {
+          "title": "Uma correção que depende de uma demanda que você não controla nunca termina",
+          "rules": "Consertar trabalho antigo reimprimindo-o faz o conserto alcançar só o que as pessoas querem ver de volta. Conte com uma propagação desigual e incompleta, e não planeje como se toda a população fosse acabar atualizada.",
+          "flavor": "As redações atualizadas chegam nas reimpressões, e a Wizards procura oportunidades de usá-las. Mas uma carta só é reimpressa se o público se interessar o bastante por revê-la, então algumas cartas tribais antigas voltarão com a nova redação, e Rosewater duvida que sejam todas."
+        },
+        {
+          "title": "Um componente novo conquista o uso livre por uma progressão conhecida",
+          "rules": "Algo estruturalmente novo não deveria aparecer em todo lugar de uma vez. Conte que apareça pouco e com destaque no início, e mais vezes conforme se prove, marcando o ritmo pelo que custa ao público aprendê-lo.",
+          "flavor": "Rosewater aponta as sagas como o padrão que as batalhas devem seguir: poucas, de alto perfil, muito saborosas, até virarem uma ferramenta que pode aparecer em qualquer quantidade quando preciso. O palpite dele é que as batalhas sairão mais devagar, por serem um pouco mais complexas."
+        },
+        {
+          "title": "Ponha uma capacidade nova em quarentena num único lançamento até ela dar notícias",
+          "rules": "Acrescentar algo estrutural ao seu sistema compromete tudo o que vier depois. Coloque-a num produto, não publique mais nada que dependa dela, e faça de espalhá-la uma decisão separada, tomada com evidências.",
+          "flavor": "As batalhas foram desenhadas para March of the Machine, e o plano era lançá-las ali e ver a recepção antes de pô-las em outros produtos. Foram muito amadas, e desde então a equipe recebeu sinal verde para usá-las em outros lugares."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "零碎问答：2023年，第一部分",
+      "dek": "二十个角色减到十个，又减到六个——而他仍说该改的是衍生物。",
+      "overview": "2023年问答的上半场：作为新牌张类别的战地、让玩家拥有守护究竟要付出什么代价，以及为什么「角色」的问题并不出在角色的数量上。",
+      "takeaway": "这里最详尽的一条回答，是关于让玩家拥有守护。改写规则是容易的部分，玩家也会凭直觉玩对；花钱的在下游：得把现有的每一张守护牌重读一遍，看看它的模板当初是不是正因为「只有永久物能被指定」才那样选的；还得处理「一个没有来源的触发式异能」对数字端意味着什么。至于角色，罗斯华特拒绝了那个显而易见的结论：数量从二十到十再到六，而他仍认为多样性是对的，错的是衍生物。",
+      "lessons": [
+        {
+          "title": "别让第一次实现所带的限制，被读成整个类别的限制",
+          "rules": "人们会从手头唯一的例子往外推。如果你的首例带着一条该类别并不要求的条件，就把这一点明说出来；否则这条件就会变成所有人心目中「这个类别是干什么的」。",
+          "flavor": "攻城战是目前做过的唯一一种战地，而攻城战需要双面牌，于是玩家便以为战地都需要。罗斯华特的回答是并非如此：一张单面战地会是一个带静止式、触发式或起动式异能的永久物，对手靠攻击它来消灭它。"
+        },
+        {
+          "title": "改一条定义的代价，是把建立在旧定义之上的一切审一遍",
+          "rules": "改写一条规则通常很便宜，而且人们往往不用被告知就适应了新版本。贵的是回头去过一遍旧定义下做出来的所有东西——因为其中有些正是被你要拿掉的那条限制塑造成现在这个样子的。",
+          "flavor": "守护是可以给玩家的，罗斯华特也认为大家会玩对。代价在别处：把现有的每一张守护牌都查一遍，看它的设计或模板当初是不是因为「只能指定永久物」才如此；再加上「没有来源的触发式异能」对数字版意味着什么。"
+        },
+        {
+          "title": "当多样性让人吃力时，先看看问题出在数量上，还是出在配套的家伙什上",
+          "rules": "面对「要记的东西太多了」，显而易见的反应是减少种类。动手之前先问一句：难处究竟在数量本身，还是在你给了人们什么东西去应付它。",
+          "flavor": "角色从愿景设计阶段的二十种，减到交接时的十种，再减到印出来的六种。罗斯华特的结论并不是「六种还嫌多」：他仍认为这份多样性在风味和玩法上都有意义，出问题的是衍生物——这个系列需要更多双面衍生物，包括两面都是角色的那种。"
+        },
+        {
+          "title": "改名不会改变方针，却会改变胃口",
+          "rules": "一个词会攒下所有为它争论过的人的抵触。换掉它，规则原封不动，沉淀却被清掉了；于是人们会用新名字提出一些原本没人打算用旧名字提的东西。",
+          "flavor": "「部族」改成了「同族」。罗斯华特说得明白：换个词并不改变他们对这个牌张类别的看法——它依然不是可以大量使用的东西——但他说，新名字会让他们偶尔做一两张以前未必会做的设计。"
+        },
+        {
+          "title": "一项要搭着别人的需求才能推进的修正，永远做不完",
+          "rules": "靠重新发行来订正旧作，意味着修正只能触及那些人们还想再见到的东西。要预料到它传播得参差不齐、半途而止，也别按「全部存量最终都会被更新」来做计划。",
+          "flavor": "更新后的措辞随着重印出现，威世智也会找机会用上。但一张牌能否被重印，取决于受众是否还足够想再见到它——所以有些旧的部族牌会带着新措辞回来，而罗斯华特怀疑不会是全部。"
+        },
+        {
+          "title": "一个新部件，要沿着一条已知的路径才挣得「随便用」的资格",
+          "rules": "结构性的新东西不该一下子出现在所有地方。要预料到它起初出现得少而显眼，随着被验证而逐渐变多；而节奏的快慢，取决于受众学会它要花多少力气。",
+          "flavor": "罗斯华特指出传纪就是战地很可能会走的路：数量不多、位置显眼、风味十足，直到最后变成一件需要时可以任意数量登场的工具。他猜战地铺开得会更慢一些，因为它稍微复杂一点。"
+        },
+        {
+          "title": "把一项新能力隔离在单独一次发行里，等它反馈回来再说",
+          "rules": "往你的系统里加入一样结构性的东西，就等于替此后的一切都做了承诺。先只放进一个产品，别再发布任何依赖它的东西，并把「要不要推广」当成另一个凭证据来做的决定。",
+          "flavor": "战地是为《机械军团进军》设计的，计划是先在那里发布、看看反响，再决定要不要放进别的产品。它们大受喜爱，此后团队已获准在别处使用。"
+        }
+      ]
+    }
+  }
+}

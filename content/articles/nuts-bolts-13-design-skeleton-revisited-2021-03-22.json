@@ -1,0 +1,277 @@
+{
+  "id": "nuts-bolts-13-design-skeleton-revisited-2021-03-22",
+  "slug": "nuts-bolts-13-design-skeleton-revisited-2021-03-22",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2021-03-22",
+  "series": {
+    "id": "nuts-and-bolts",
+    "order": 13,
+    "total": 18
+  },
+  "tags": [
+    "nuts-and-bolts",
+    "design-skeleton",
+    "process"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/nuts-bolts-13-design-skeleton-revisited-2021-03-22",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T14:24:12.572Z",
+  "lessons": [
+    {
+      "n": 1,
+      "color": "W"
+    },
+    {
+      "n": 2,
+      "color": "U"
+    },
+    {
+      "n": 3,
+      "color": "U"
+    },
+    {
+      "n": 4,
+      "color": "B"
+    },
+    {
+      "n": 5,
+      "color": "R"
+    },
+    {
+      "n": 6,
+      "color": "W"
+    },
+    {
+      "n": 7,
+      "color": "G"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Nuts & Bolts #13: Design Skeleton Revisited",
+      "dek": "“The design skeleton is a living, breathing document that should be changing as you build your set.”",
+      "overview": "A complete default slot list for the commons and uncommons of a Magic set — and the reasoning that makes it a starting point rather than a rule.",
+      "takeaway": "Adam Prosak built a default design skeleton so new designers could start where experienced ones start: 101 commons, 80 uncommons, creature ratios stepped from white's 62% down to blue's 50%, a mana value against every creature slot, and keyword counts written as ranges. Rosewater publishes the whole thing.",
+      "lessons": [
+        {
+          "title": "Write down what the experienced people carry in their heads",
+          "rules": "Most of the defaults a veteran applies were never recorded anywhere; they are simply known. Someone converting that into a document is doing more for the newcomers than any amount of individual mentoring, because it arrives before the first mistake rather than after it.",
+          "flavor": "R&D began having its seasoned designers give talks to the studio. “One designer, Adam Prosak, made a default design skeleton to help new designers get a running start when making their first set,” detailed enough that Rosewater reproduced it in full for amateurs outside the company."
+        },
+        {
+          "title": "Count against a quota by what a thing does, not by what it is called",
+          "rules": "A quota exists to guarantee a function is present in sufficient quantity. Filling it by category lets things that don't perform the function count toward it, and excludes things that do. Define the tally by behaviour and the number starts meaning something again.",
+          "flavor": "“An instant or sorcery that creates one or more tokens is considered a creature for design-skeleton purposes and is put here. A creature with zero power or one that can't attack usually is not counted as a creature.”"
+        },
+        {
+          "title": "Write the default as a band, not a number",
+          "rules": "A reference meant to be reused across projects will be wrong for every one of them if each entry is a single figure. Give the entries widths. The structure then survives contact with a project that isn't average, and departures stay visible as departures.",
+          "flavor": "Nearly every keyword count in the skeleton is a range: defender 0–1, flash 0–1, flying 2–3, trample 1–2, haste 1–2. Even the creature counts come with slack — “these percentages don't work perfectly, so there's a little wiggle room as you can round up or down.”"
+        },
+        {
+          "title": "Every addition names the line it is paid from",
+          "rules": "A fixed-size structure has no free space, so wanting something new is really a question about what gets displaced. Enumerate the ways to pay before you decide, because each one takes from a different place and they are not equally cheap.",
+          "flavor": "Adding nonbasic lands has three routes: “you can swap any colorless slot for a land,” or “remove a card of each color to add a cycle of lands,” or put them in the basic land slot at some ratio under 100% — the last of which “doesn't remove anything from the design skeleton.”"
+        },
+        {
+          "title": "A default you never depart from was a template, not a default",
+          "rules": "Defaults exist to be overridden by the particulars of the job; a reference used unmodified means nobody looked at the job. Publish it as a running start and say plainly that adapting it is the work, or people will mistake the scaffolding for the building.",
+          "flavor": "“Remember, the design skeleton is a living, breathing document that should be changing as you build your set. What I'm presenting today is something to use as a starting point. A big part of making your set will be adapting the design skeleton to the needs of your particular set.”"
+        },
+        {
+          "title": "Rank the categories, then step the amount evenly",
+          "rules": "When several categories need different shares of the same resource, the decision worth making is their order. Once ranked, a constant step distributes the rest — you get defensible numbers everywhere without arguing each one separately.",
+          "flavor": "“The Magic colors have an order for how many creatures they have.” White, green, black, red, blue. “We start with 62% creatures in white and drop it three percent as you advance to the next color, ending with blue at 50%.”"
+        },
+        {
+          "title": "Be strictest where participation is compulsory",
+          "rules": "Structural discipline costs flexibility, so spend it where everyone is affected. The tier nobody can avoid has to be smooth and complete; the tier people reach for by choice can be irregular, because an irregularity there is opted into rather than inflicted.",
+          "flavor": "Every common creature slot carries a mana value — “it's very important, especially at common, to have a smooth creature curve.” Uncommon gets two slots of any size, and “common creatures don't often have more than one keyword. Uncommon is more likely to have creatures with multiple keywords.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Tuercas y tornillos #13: el esqueleto de diseño revisitado",
+      "dek": "«El esqueleto de diseño es un documento vivo que debe ir cambiando mientras construyes tu colección».",
+      "overview": "Una lista completa de huecos por defecto para los comunes e infrecuentes de una colección de Magic, y el razonamiento que la convierte en punto de partida y no en norma.",
+      "takeaway": "Adam Prosak construyó un esqueleto de diseño por defecto para que los diseñadores nuevos empiecen donde empiezan los veteranos: 101 comunes, 80 infrecuentes, proporciones de criaturas escalonadas del 62% del blanco al 50% del azul, un coste asignado a cada hueco de criatura y recuentos de palabras clave escritos como rangos.",
+      "lessons": [
+        {
+          "title": "Escriba lo que los veteranos llevan en la cabeza",
+          "rules": "Casi ninguno de los valores por defecto que aplica un veterano está registrado en sitio alguno: simplemente se saben. Quien los convierte en documento hace más por los novatos que cualquier tutoría individual, porque llega antes del primer error y no después.",
+          "flavor": "I+D empezó a hacer que sus diseñadores veteranos dieran charlas al estudio. «Un diseñador, Adam Prosak, hizo un esqueleto de diseño por defecto para que los nuevos arrancaran con ventaja en su primera colección», tan detallado que Rosewater lo reprodujo entero para los aficionados de fuera."
+        },
+        {
+          "title": "Cuente para una cuota por lo que algo hace, no por cómo se llama",
+          "rules": "Una cuota existe para garantizar que cierta función está presente en cantidad suficiente. Llenarla por categoría permite que cuenten cosas que no cumplen la función y excluye cosas que sí. Defina el recuento por comportamiento y el número vuelve a significar algo.",
+          "flavor": "«Un instantáneo o conjuro que crea una o más fichas se considera una criatura a efectos del esqueleto de diseño y va aquí. Una criatura con fuerza cero, o que no puede atacar, normalmente no cuenta como criatura»."
+        },
+        {
+          "title": "Escriba el valor por defecto como una banda, no como un número",
+          "rules": "Una referencia pensada para reutilizarse entre proyectos será errónea en todos ellos si cada entrada es una cifra única. Dele anchura a las entradas. Así la estructura sobrevive al proyecto que no es promedio, y las desviaciones siguen viéndose como desviaciones.",
+          "flavor": "Casi todos los recuentos de palabras clave del esqueleto son rangos: defensor 0–1, destello 0–1, volar 2–3, arrollar 1–2, prisa 1–2. Incluso los recuentos de criaturas traen holgura: «estos porcentajes no salen perfectos, así que hay algo de margen para redondear»."
+        },
+        {
+          "title": "Toda adición nombra la partida de la que sale",
+          "rules": "Una estructura de tamaño fijo no tiene espacio libre, así que querer algo nuevo es en realidad preguntar qué se desplaza. Enumere las formas de pagarlo antes de decidir, porque cada una toma de un sitio distinto y no todas cuestan lo mismo.",
+          "flavor": "Añadir tierras no básicas tiene tres vías: «puedes cambiar cualquier hueco incoloro por una tierra», o «quitar una carta de cada color para meter un ciclo de tierras», o ponerlas en el hueco de tierra básica a una proporción menor del 100%, lo cual «no quita nada del esqueleto»."
+        },
+        {
+          "title": "Un valor por defecto del que nunca se aparta era una plantilla, no un valor por defecto",
+          "rules": "Los valores por defecto existen para ser anulados por las particularidades del encargo; una referencia usada sin modificar significa que nadie miró el encargo. Publíquela como impulso inicial y diga claro que adaptarla es el trabajo, o confundirán el andamio con el edificio.",
+          "flavor": "«Recuerda: el esqueleto de diseño es un documento vivo que debe ir cambiando mientras construyes tu colección. Lo que presento hoy es algo para usar como punto de partida. Buena parte de hacer tu colección será adaptarlo a sus necesidades concretas»."
+        },
+        {
+          "title": "Ordene las categorías y luego escalone la cantidad de forma pareja",
+          "rules": "Cuando varias categorías necesitan porciones distintas del mismo recurso, la decisión que vale la pena tomar es su orden. Una vez ordenadas, un escalón constante reparte el resto: obtiene cifras defendibles en todas sin discutir cada una por separado.",
+          "flavor": "«Los colores de Magic tienen un orden en cuanto a cuántas criaturas tienen». Blanco, verde, negro, rojo, azul. «Empezamos con un 62% de criaturas en blanco y bajamos tres puntos al pasar al siguiente color, terminando con el azul en 50%»."
+        },
+        {
+          "title": "Sea más estricto donde la participación es obligatoria",
+          "rules": "La disciplina estructural cuesta flexibilidad, así que gástela donde afecta a todos. El nivel que nadie puede evitar debe ser suave y completo; aquel al que se llega por elección puede ser irregular, porque allí la irregularidad se acepta en vez de imponerse.",
+          "flavor": "Cada hueco de criatura común lleva un coste asignado: «es muy importante, sobre todo en común, tener una curva de criaturas suave». En infrecuente hay dos huecos de tamaño libre, y «las criaturas comunes rara vez tienen más de una palabra clave»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Écrous et boulons n°13 : le squelette de conception revisité",
+      "dek": "« Le squelette de conception est un document vivant, qui doit évoluer pendant que vous construisez votre extension. »",
+      "overview": "Une liste complète des emplacements par défaut pour les communes et peu communes d'une extension Magic, et le raisonnement qui en fait un point de départ plutôt qu'une règle.",
+      "takeaway": "Adam Prosak a bâti un squelette par défaut pour que les nouveaux concepteurs partent d'où partent les anciens : 101 communes, 80 peu communes, des proportions de créatures échelonnées de 62 % pour le blanc à 50 % pour le bleu, un coût affecté à chaque emplacement de créature, et des comptes de capacités écrits en fourchettes.",
+      "lessons": [
+        {
+          "title": "Écrivez ce que les gens d'expérience portent dans leur tête",
+          "rules": "La plupart des valeurs par défaut qu'applique un vétéran ne sont consignées nulle part : elles se savent, voilà tout. Celui qui les met en document fait plus pour les débutants que n'importe quel tutorat, car cela arrive avant la première erreur et non après.",
+          "flavor": "La R&D s'est mise à faire donner des exposés au studio par ses concepteurs chevronnés. « Un concepteur, Adam Prosak, a fait un squelette par défaut pour donner aux nouveaux un départ lancé », si détaillé que Rosewater l'a reproduit en entier pour les amateurs."
+        },
+        {
+          "title": "Comptez pour un quota selon ce qu'une chose fait, non selon son nom",
+          "rules": "Un quota existe pour garantir qu'une fonction est présente en quantité suffisante. Le remplir par catégorie y fait entrer ce qui n'assure pas la fonction et en exclut ce qui l'assure. Définissez le décompte par le comportement, et le nombre redevient signifiant.",
+          "flavor": "« Un éphémère ou un rituel qui crée un ou plusieurs jetons est considéré comme une créature pour le squelette de conception et se place ici. Une créature de force zéro, ou qui ne peut pas attaquer, n'est en général pas comptée comme une créature. »"
+        },
+        {
+          "title": "Écrivez la valeur par défaut comme une fourchette, non comme un nombre",
+          "rules": "Une référence destinée à servir sur plusieurs projets sera fausse pour chacun si chaque entrée est un chiffre unique. Donnez de la largeur aux entrées. La structure survit alors au projet qui n'est pas moyen, et les écarts restent visibles comme des écarts.",
+          "flavor": "Presque tous les comptes de capacités sont des fourchettes : défenseur 0–1, flash 0–1, vol 2–3, piétinement 1–2, célérité 1–2. Même les comptes de créatures ont du jeu : « ces pourcentages ne tombent pas juste, il y a donc un peu de marge pour arrondir »."
+        },
+        {
+          "title": "Toute addition nomme la ligne qui la paie",
+          "rules": "Une structure de taille fixe n'a pas d'espace libre : vouloir du neuf revient à demander ce qui sera déplacé. Énumérez les façons de payer avant de trancher, car chacune prélève ailleurs et elles ne coûtent pas la même chose.",
+          "flavor": "Ajouter des terrains non-basiques offre trois voies : « échanger n'importe quel emplacement incolore contre un terrain », ou « retirer une carte de chaque couleur pour ajouter un cycle de terrains », ou les glisser dans l'emplacement de terrain de base à un taux inférieur à 100 %."
+        },
+        {
+          "title": "Une valeur par défaut dont on ne s'écarte jamais était un gabarit, non une valeur par défaut",
+          "rules": "Les valeurs par défaut existent pour être contredites par les particularités du travail ; une référence employée telle quelle signifie que personne n'a regardé le travail. Publiez-la comme départ lancé et dites que l'adapter est le travail, sinon on prendra l'échafaudage pour le bâtiment.",
+          "flavor": "« Rappelez-vous : le squelette est un document vivant, qui doit évoluer pendant que vous construisez votre extension. Ce que je présente aujourd'hui est un point de départ. Une bonne part du travail consistera à l'adapter aux besoins de votre extension. »"
+        },
+        {
+          "title": "Classez les catégories, puis échelonnez la quantité régulièrement",
+          "rules": "Quand plusieurs catégories réclament des parts différentes d'une même ressource, la décision qui vaut la peine est leur ordre. Une fois classées, un pas constant répartit le reste : vous obtenez partout des chiffres défendables sans discuter chacun séparément.",
+          "flavor": "« Les couleurs de Magic ont un ordre selon leur nombre de créatures. » Blanc, vert, noir, rouge, bleu. « Nous partons de 62 % de créatures en blanc et retirons trois points à chaque couleur suivante, pour finir à 50 % en bleu. »"
+        },
+        {
+          "title": "Soyez le plus strict là où la participation est obligatoire",
+          "rules": "La discipline structurelle coûte de la souplesse : dépensez-la là où tout le monde est concerné. Le niveau que nul ne peut éviter doit être lisse et complet ; celui qu'on atteint par choix peut être irrégulier, car l'irrégularité y est acceptée plutôt qu'imposée.",
+          "flavor": "Chaque emplacement de créature commune porte un coût : « il est très important, surtout en commune, d'avoir une courbe de créatures lisse ». En peu commune, deux emplacements sont de taille libre, et « les créatures communes ont rarement plus d'une capacité »."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Porcas e parafusos #13: o esqueleto de design revisitado",
+      "dek": "“O esqueleto de design é um documento vivo, que deve ir mudando enquanto você constrói a sua coleção.”",
+      "overview": "Uma lista completa de vagas padrão para os comuns e incomuns de uma coleção de Magic, e o raciocínio que a torna um ponto de partida em vez de uma regra.",
+      "takeaway": "Adam Prosak montou um esqueleto de design padrão para que designers novos comecem de onde os experientes começam: 101 comuns, 80 incomuns, proporções de criaturas escalonadas dos 62% do branco aos 50% do azul, um custo atribuído a cada vaga de criatura e contagens de palavras-chave escritas como faixas.",
+      "lessons": [
+        {
+          "title": "Escreva o que as pessoas experientes carregam na cabeça",
+          "rules": "Quase nenhum dos padrões que um veterano aplica está registrado em algum lugar: eles simplesmente são sabidos. Quem os converte em documento faz mais pelos novatos do que qualquer mentoria individual, porque chega antes do primeiro erro, e não depois.",
+          "flavor": "A P&D passou a fazer os designers experientes darem palestras para o estúdio. “Um designer, Adam Prosak, fez um esqueleto de design padrão para dar aos novos uma largada com vantagem”, tão detalhado que Rosewater o reproduziu inteiro para os amadores de fora."
+        },
+        {
+          "title": "Conte para uma cota pelo que a coisa faz, não pelo nome dela",
+          "rules": "Uma cota existe para garantir que certa função esteja presente em quantidade suficiente. Preenchê-la por categoria deixa entrar coisas que não cumprem a função e exclui coisas que cumprem. Defina a contagem pelo comportamento e o número volta a significar algo.",
+          "flavor": "“Uma mágica instantânea ou feitiço que cria uma ou mais fichas é considerada criatura para efeitos do esqueleto de design e vai aqui. Uma criatura com poder zero, ou que não pode atacar, normalmente não é contada como criatura.”"
+        },
+        {
+          "title": "Escreva o padrão como uma faixa, não como um número",
+          "rules": "Uma referência feita para ser reusada entre projetos estará errada em todos eles se cada entrada for um número único. Dê largura às entradas. Assim a estrutura sobrevive ao projeto que não é médio, e os desvios continuam visíveis como desvios.",
+          "flavor": "Quase toda contagem de palavras-chave do esqueleto é uma faixa: defensor 0–1, lampejo 0–1, voar 2–3, atropelar 1–2, ímpeto 1–2. Até as contagens de criaturas vêm com folga: “essas porcentagens não fecham perfeitamente, então há uma margem para arredondar”."
+        },
+        {
+          "title": "Toda adição nomeia a rubrica de onde sai",
+          "rules": "Uma estrutura de tamanho fixo não tem espaço livre, então querer algo novo é na verdade perguntar o que será deslocado. Enumere as formas de pagar antes de decidir, porque cada uma tira de um lugar diferente e elas não custam igual.",
+          "flavor": "Acrescentar terrenos não-básicos tem três caminhos: “trocar qualquer vaga incolor por um terreno”, ou “remover uma carta de cada cor para incluir um ciclo de terrenos”, ou pô-los na vaga de terreno básico numa proporção abaixo de 100%."
+        },
+        {
+          "title": "Um padrão do qual você nunca se afasta era um modelo, não um padrão",
+          "rules": "Padrões existem para serem sobrepostos pelas particularidades do trabalho; uma referência usada sem modificação significa que ninguém olhou para o trabalho. Publique-a como largada e diga com clareza que adaptá-la é o trabalho, ou tomarão o andaime pelo prédio.",
+          "flavor": "“Lembre-se: o esqueleto de design é um documento vivo, que deve ir mudando enquanto você constrói a sua coleção. O que apresento hoje é um ponto de partida. Boa parte de fazer a sua coleção será adaptá-lo às necessidades dela.”"
+        },
+        {
+          "title": "Ordene as categorias e depois escalone a quantidade de modo uniforme",
+          "rules": "Quando várias categorias precisam de fatias diferentes do mesmo recurso, a decisão que vale a pena é a ordem delas. Uma vez ordenadas, um degrau constante distribui o resto: você obtém números defensáveis em todas sem discutir cada uma em separado.",
+          "flavor": "“As cores de Magic têm uma ordem quanto a quantas criaturas têm.” Branco, verde, preto, vermelho, azul. “Começamos com 62% de criaturas no branco e baixamos três pontos a cada cor seguinte, terminando com o azul em 50%.”"
+        },
+        {
+          "title": "Seja mais rigoroso onde a participação é obrigatória",
+          "rules": "Disciplina estrutural custa flexibilidade, então gaste-a onde todos são afetados. O nível que ninguém consegue evitar precisa ser suave e completo; aquele a que se chega por escolha pode ser irregular, porque ali a irregularidade é aceita, não imposta.",
+          "flavor": "Cada vaga de criatura comum carrega um custo: “é muito importante, sobretudo no comum, ter uma curva de criaturas suave”. No incomum há duas vagas de tamanho livre, e “criaturas comuns raramente têm mais de uma palavra-chave”."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "螺丝与螺母 #13：重访设计骨架",
+      "dek": "「设计骨架是一份活的文件，它应当随着你把系列一点点建起来而不断改变。」",
+      "overview": "一份完整的、面向 Magic 系列普通与非普通牌的默认位次清单——以及让它成为起点而非规章的那套推理。",
+      "takeaway": "亚当·普罗萨克做了一份默认设计骨架，好让新设计师从老手起步的地方起步：101 张普通、80 张非普通，生物比例从白色的 62% 每级递减到蓝色的 50%，每一个生物位次都标好法术力值，而关键字的数量则一律写成区间。",
+      "lessons": [
+        {
+          "title": "把有经验的人揣在脑子里的那些东西写下来",
+          "rules": "老手所套用的那些默认值，绝大多数从来没有被记录在任何地方；它们只是「大家都知道」。而把这些转写成一份文件的人，对新人的帮助胜过任何一对一的带教——因为它到达的时刻，是在第一个错误之前，而不是之后。",
+          "flavor": "研发部开始让资深设计师面向整个工作室做讲座。「有一位设计师，亚当·普罗萨克，做了一份默认设计骨架，好让新设计师在做第一个系列时能有个起跑加速。」它详细到罗斯华特把它整份转载给了公司之外的业余设计者。"
+        },
+        {
+          "title": "为配额计数时，按一样东西「做什么」来数，而不是按它「叫什么」",
+          "rules": "配额之所以存在，是为了保证某项功能以足够的数量出现。按类别来填它，会让不履行该功能的东西也计入，同时把真正履行该功能的东西排除在外。请按行为来定义这份账，那个数字才会重新有意义。",
+          "flavor": "「一张能产出一个或多个衍生物的瞬间或法术，就设计骨架而言算作生物，放在这一栏里。而一个力量为零、或者不能进行攻击的生物，通常不计为生物。」"
+        },
+        {
+          "title": "把默认值写成一条带宽，而不是一个数字",
+          "rules": "一份打算跨项目复用的参照文件，如果每一条都是一个单一数值，那它对每一个项目来说都会是错的。请给每一条以宽度。这样，结构才经得起「并不平均」的那个项目，而偏离也依然会显示为偏离。",
+          "flavor": "骨架里几乎每一个关键字数量都是区间：守军 0–1、闪现 0–1、飞行 2–3、践踏 1–2、敏捷 1–2。连生物数量也留着余地——「这些百分比并不能算得刚好，所以四舍五入时有一点回旋空间」。"
+        },
+        {
+          "title": "每一次添加，都要说清它从哪一条账目里出",
+          "rules": "一个尺寸固定的结构没有空余空间，因此「想要一样新东西」其实是在问「什么会被挤掉」。请在决定之前把付账的几种方式一一列出——因为每一种取自不同的地方，而它们的代价并不一样。",
+          "flavor": "要加入非基本地，有三条路：「你可以把任何一个无色位次换成一张地」，或者「每个颜色各抽掉一张牌，以塞进一轮地的循环」，又或者把它们放进基本地的位次、并让占比低于百分之百——最后这条「不会从骨架里拿走任何东西」。"
+        },
+        {
+          "title": "一份你从不偏离的默认值，其实是一个模板，而不是默认值",
+          "rules": "默认值之所以存在，正是为了被这份工作的具体情况所推翻；一份原封不动被使用的参照，说明根本没有人去看这份工作本身。请把它当作起跑加速发布出去，并明说「改造它才是工作」——否则人们会把脚手架当成大楼。",
+          "flavor": "「请记住：设计骨架是一份活的文件，它应当随着你把系列一点点建起来而不断改变。我今天呈现的东西，是拿来当起点用的。做你自己那个系列，很大一部分工作，就是把这份骨架改造成它所需要的样子。」"
+        },
+        {
+          "title": "先给这些类别排序，再让数量按固定步长递减",
+          "rules": "当若干类别需要同一项资源的不同份额时，真正值得作出的决定是它们的顺序。一旦排好，一个恒定的步长就能把其余的分配完毕：你在每一处都得到站得住脚的数字，而不必逐个去争。",
+          "flavor": "「Magic 的颜色，在『各自拥有多少生物』这件事上有一个次序。」白、绿、黑、红、蓝。「我们从白色的 62% 生物开始，每往下一个颜色就减掉三个百分点，最后停在蓝色的 50%。」"
+        },
+        {
+          "title": "在参与是强制的地方，把规矩定得最严",
+          "rules": "结构上的纪律要以灵活度为代价，所以请把它花在「所有人都会受到影响」的地方。谁都躲不开的那一层，必须平滑而完整；而人们凭自己选择才会去够的那一层，可以不规整——因为那里的不规整是被选择的，而不是被强加的。",
+          "flavor": "每一个普通生物位次都标着法术力值——「尤其在普通这一档，有一条平滑的生物曲线非常重要」。非普通则给出两个尺寸自由的位次，而且「普通生物通常不会带超过一个关键字」。"
+        }
+      ]
+    }
+  }
+}

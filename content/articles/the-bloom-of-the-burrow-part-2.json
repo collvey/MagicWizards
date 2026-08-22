@@ -1,0 +1,242 @@
+{
+  "id": "the-bloom-of-the-burrow-part-2",
+  "slug": "the-bloom-of-the-burrow-part-2",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2024-07-15",
+  "series": { "id": "the-bloom-of-the-burrow", "order": 2, "total": 2 },
+  "tags": ["bloomburrow", "mechanics", "set-design"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/the-bloom-of-the-burrow-part-2",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T06:15:42.760Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "The Bloom of the Burrow, Part 2",
+      "dek": "Some designs go into the first file and are never taken out again.",
+      "overview": "The mechanics half of Bloomburrow's story: where each one came from, which of them survived the handoff to set design, and what replaced the one that didn't.",
+      "takeaway": "Offspring — pay extra when casting a creature and a junior version arrives with it — was found while listing what people expect from animals. The team loved it on sight, put it in the very first vision design file, and it never left. It went onto all ten animal types, and the extra token art it demanded was approved early, while everyone was still charmed by it.",
+      "lessons": [
+        {
+          "title": "Search your own back catalogue before inventing",
+          "rules": "The first move on a new requirement is to check whether you have already built something that does the job. An existing structure carries known behaviour and known costs, and reskinning it is cheaper than starting over.",
+          "flavor": "Asked for something that captured a community of animals each doing a job, the team went looking through old mechanics and found Classes, built for Dungeons & Dragons adventuring roles. The same frame took blacksmiths and innkeepers instead."
+        },
+        {
+          "title": "Make tone a design requirement and then pay for it",
+          "rules": "A feeling can be specified as precisely as a function. Once you have committed to one, its consequences bind: the piece that produces the feeling must still work generically, and it will need tuning down.",
+          "flavor": "Wanting something friendlier, they built gift: an upgrade paid for by giving the opponent something. It had to be useful to any deck, so a creature — a 1/1. Even that ran strong, so the printed token arrives tapped, a blue Fish, since that is what these animals give one another."
+        },
+        {
+          "title": "Make things that more than one faction wants",
+          "rules": "If every part of a themed environment appeals to exactly one strategy, the choices collapse and every run through it looks the same. Deliberate overlap keeps the space alive and raises how often the pieces show up.",
+          "flavor": "R&D calls it typal glue. Bloomburrow used duos — two creatures working together, so two creature types on one card, wanted by drafters of either. Two common, monocolour cycles, an idea first discussed back in Lorwyn's design."
+        },
+        {
+          "title": "Two things that share a trait need different feels",
+          "rules": "When two elements are defined by the same property, they will read as one thing unless something drives them apart. Give each a second axis, ideally one that pulls against the shared trait.",
+          "flavor": "Birds and Bats both fly. So many of the Birds were made to care about non-fliers, making that deck want a mix, while Bats went to life — white gains it, black spends it — and play as a slow bleeder deck instead."
+        },
+        {
+          "title": "When the planned unifier is cut, distribute its job",
+          "rules": "One mechanic meant to hold everything together is a single point of failure. Losing it doesn't have to mean losing the cohesion — the same work can be spread across the parts, each carrying its own version.",
+          "flavor": "Vision design's typal mechanic, fellowship, was pulled by set design. In its place each archetype got its own mechanical identity — some a keyword, some just a throughline — with around eight typal rewards apiece, skewed toward higher rarity."
+        },
+        {
+          "title": "Make the reduced version's abilities land at its reduced size",
+          "rules": "A smaller copy of something needs abilities that still function at the smaller size without simply being a worse version of the original. Look to what triggers on events rather than to what scales with magnitude.",
+          "flavor": "Offspring's junior creatures are 1/1s, so the fruitful space was triggered abilities — especially those that fire on entering the battlefield or on attacking. That leaves the full-size body better in combat while keeping the small one worth having."
+        },
+        {
+          "title": "One currency, several exchange rates",
+          "rules": "Give a spell a pool of a resource and price its options at different amounts, then let people spend the pool however they like, repeats included. A short list of modes produces a much longer list of outcomes.",
+          "flavor": "The seasons cycle hands you five paws and offers three modes costing one, two, and three. Choose any number of them, the same one more than once if you want, so long as the paws cover it."
+        }
+      ]
+    },
+    "es": {
+      "title": "La flor de la madriguera, parte 2",
+      "dek": "Hay diseños que entran en el primer archivo y ya no vuelven a salir.",
+      "overview": "La mitad mecánica de la historia de Bloomburrow: de dónde salió cada una, cuáles sobrevivieron al traspaso al diseño de set y qué sustituyó a la que no.",
+      "takeaway": "Descendencia —pagas de más al lanzar una criatura y llega con una versión júnior— se encontró listando lo que la gente espera de los animales. Al equipo le encantó al verla, la metió en el primerísimo archivo de diseño de visión y nunca salió. Fue a los diez tipos de animal, y el arte extra de ficha que exigía se aprobó pronto, mientras todos seguían encantados con ella.",
+      "lessons": [
+        {
+          "title": "Registra tu propio catálogo antes de inventar",
+          "rules": "El primer movimiento ante un requisito nuevo es comprobar si ya construiste algo que haga ese trabajo. Una estructura existente trae comportamiento conocido y costes conocidos, y revestirla sale más barato que empezar de cero.",
+          "flavor": "Pedido algo que capturara una comunidad de animales con distintos oficios, el equipo rebuscó entre mecánicas viejas y halló las Clases, hechas para los roles de aventura de Dungeons & Dragons. El mismo marco acogió herreros y posaderos."
+        },
+        {
+          "title": "Haz del tono un requisito de diseño, y luego págalo",
+          "rules": "Una sensación puede especificarse con la misma precisión que una función. Una vez te comprometes con una, sus consecuencias obligan: la pieza que produce la sensación debe seguir sirviendo en general, y habrá que rebajarla.",
+          "flavor": "Queriendo algo más amable, construyeron el regalo: una mejora que pagas dándole algo al rival. Tenía que servir a cualquier mazo, así que una criatura: un 1/1. Aun así salía fuerte, y la ficha impresa llega girada, un Pez azul, que es lo que estos animales se regalan."
+        },
+        {
+          "title": "Haz cosas que quiera más de una facción",
+          "rules": "Si cada parte de un entorno temático atrae exactamente a una estrategia, las decisiones se colapsan y cada partida por él se parece a la anterior. El solapamiento deliberado mantiene vivo el espacio y sube la frecuencia con que aparecen las piezas.",
+          "flavor": "En I+D lo llaman pegamento de tipo. Bloomburrow usó dúos: dos criaturas colaborando, o sea dos tipos en una carta, deseada por quien draftee cualquiera de los dos. Dos ciclos comunes y monocolor, una idea ya hablada en el diseño de Lorwyn."
+        },
+        {
+          "title": "Dos cosas que comparten un rasgo necesitan sensaciones distintas",
+          "rules": "Cuando dos elementos se definen por la misma propiedad, se leerán como uno solo salvo que algo los separe. Dale a cada uno un segundo eje, idealmente uno que tire en contra del rasgo compartido.",
+          "flavor": "Aves y Murciélagos vuelan. Así que muchas Aves se hicieron para fijarse en los que no vuelan, haciendo que ese mazo quiera mezcla, mientras los Murciélagos fueron a la vida —el blanco la gana, el negro la gasta— y juegan como mazo de desgaste."
+        },
+        {
+          "title": "Cuando se corta el unificador previsto, reparte su tarea",
+          "rules": "Una única mecánica encargada de cohesionarlo todo es un punto único de fallo. Perderla no tiene por qué significar perder la cohesión: el mismo trabajo puede repartirse entre las partes, cada una con su versión.",
+          "flavor": "La mecánica de tipo del diseño de visión, hermandad, fue retirada por el diseño de set. En su lugar cada arquetipo recibió su identidad mecánica —unos una palabra clave, otros solo un hilo conductor— con unas ocho recompensas de tipo, sesgadas a rarezas altas."
+        },
+        {
+          "title": "Que las habilidades de la versión reducida funcionen a su tamaño reducido",
+          "rules": "Una copia menor de algo necesita habilidades que sigan funcionando en pequeño sin ser simplemente una peor versión del original. Mira hacia lo que se dispara con eventos, no hacia lo que escala con la magnitud.",
+          "flavor": "Las criaturas júnior de descendencia son 1/1, así que el espacio fértil fueron las habilidades disparadas, sobre todo las que saltan al entrar al campo de batalla o al atacar. Eso deja al cuerpo grande mejor en combate sin volver inútil al pequeño."
+        },
+        {
+          "title": "Una moneda, varios tipos de cambio",
+          "rules": "Dale a un hechizo una reserva de un recurso y ponle precios distintos a sus opciones; luego deja gastar la reserva como se quiera, repeticiones incluidas. Una lista corta de modos produce una lista mucho más larga de resultados.",
+          "flavor": "El ciclo de las estaciones te da cinco huellas y ofrece tres modos que cuestan una, dos y tres. Elige los que quieras, y el mismo más de una vez si te apetece, mientras las huellas den para ello."
+        }
+      ]
+    },
+    "fr": {
+      "title": "L'éclosion du terrier, partie 2",
+      "dek": "Certains designs entrent dans le premier fichier et n'en ressortent jamais.",
+      "overview": "La moitié mécanique de l'histoire de Bloomburrow : d'où vient chacune, lesquelles ont survécu au passage au design d'extension, et ce qui a remplacé celle qui n'a pas survécu.",
+      "takeaway": "Progéniture — payez un supplément en lançant une créature et une version junior l'accompagne — est née en listant ce qu'on attend des animaux. L'équipe l'a adorée d'emblée, l'a mise dans le tout premier fichier de vision design, et elle n'en est jamais sortie. Elle est allée sur les dix types d'animaux, et l'illustration de jeton supplémentaire qu'elle exigeait fut approuvée tôt, tant qu'elle charmait encore tout le monde.",
+      "lessons": [
+        {
+          "title": "Fouillez votre propre catalogue avant d'inventer",
+          "rules": "Face à un besoin nouveau, le premier geste est de vérifier si vous n'avez pas déjà bâti quelque chose qui fait l'affaire. Une structure existante apporte un comportement connu et des coûts connus, et la rhabiller coûte moins cher que repartir de zéro.",
+          "flavor": "Sommés de rendre une communauté d'animaux exerçant chacun un métier, ils ont fouillé les vieilles mécaniques et trouvé les Classes, faites pour les rôles d'aventure de Donjons & Dragons. Le même cadre a accueilli forgerons et aubergistes."
+        },
+        {
+          "title": "Faites du ton une exigence de design, puis payez-la",
+          "rules": "Une sensation se spécifie aussi précisément qu'une fonction. Une fois engagé, ses conséquences vous lient : la pièce qui produit la sensation doit rester utile en général, et il faudra la revoir à la baisse.",
+          "flavor": "Voulant plus chaleureux, ils ont bâti le cadeau : une amélioration payée en donnant quelque chose à l'adversaire. Il devait servir à tout deck, donc une créature — une 1/1. Trop forte encore : le jeton imprimé arrive engagé, un Poisson bleu, ce que ces animaux s'offrent."
+        },
+        {
+          "title": "Faites des choses que plus d'une faction convoite",
+          "rules": "Si chaque partie d'un environnement thématique n'attire qu'une seule stratégie, les choix s'effondrent et chaque passage se ressemble. Le recouvrement délibéré maintient l'espace vivant et augmente la fréquence des pièces.",
+          "flavor": "La R&D appelle cela la colle typale. Bloomburrow a employé des duos : deux créatures ensemble, donc deux types sur une carte, convoitée par les drafteurs des deux. Deux cycles communs et monocolores, idée déjà évoquée du temps de Lorwyn."
+        },
+        {
+          "title": "Deux choses partageant un trait ont besoin de sensations distinctes",
+          "rules": "Quand deux éléments se définissent par la même propriété, ils se liront comme un seul, sauf si quelque chose les écarte. Donnez à chacun un second axe, de préférence contraire au trait partagé.",
+          "flavor": "Oiseaux et Chauves-souris volent. Beaucoup d'Oiseaux ont donc été faits pour se soucier des non-volants, si bien que ce deck veut un mélange, tandis que les Chauves-souris sont allées vers les points de vie, en deck d'usure lent."
+        },
+        {
+          "title": "Quand l'unificateur prévu est coupé, répartissez sa tâche",
+          "rules": "Une mécanique unique chargée de tout tenir ensemble est un point de défaillance unique. La perdre n'oblige pas à perdre la cohésion : le même travail peut être réparti entre les parties, chacune portant sa version.",
+          "flavor": "La mécanique typale du vision design, camaraderie, fut retirée par le design d'extension. À sa place, chaque archétype reçut son identité mécanique — mot-clé pour certains, simple fil conducteur pour d'autres — avec environ huit récompenses typales chacun."
+        },
+        {
+          "title": "Que les capacités de la version réduite tiennent à sa taille réduite",
+          "rules": "Une copie plus petite a besoin de capacités qui fonctionnent encore en petit sans n'être qu'une version pire de l'original. Regardez du côté de ce qui se déclenche sur un événement, non de ce qui s'échelonne avec la taille.",
+          "flavor": "Les créatures junior de progéniture sont des 1/1 : l'espace fertile fut donc les capacités déclenchées, surtout à l'arrivée sur le champ de bataille ou à l'attaque. Le grand corps reste meilleur au combat sans rendre le petit inutile."
+        },
+        {
+          "title": "Une monnaie, plusieurs taux de change",
+          "rules": "Donnez à un sort une réserve de ressource et tarifez ses options à des montants différents, puis laissez dépenser la réserve comme on veut, répétitions comprises. Une courte liste de modes produit une bien plus longue liste de résultats.",
+          "flavor": "Le cycle des saisons vous remet cinq empreintes et propose trois modes coûtant une, deux et trois. Choisissez-en autant que vous voulez, le même plusieurs fois si cela vous chante, tant que les empreintes suffisent."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "O florescer da toca, parte 2",
+      "dek": "Alguns designs entram no primeiro arquivo e nunca mais saem.",
+      "overview": "A metade mecânica da história de Bloomburrow: de onde veio cada uma, quais sobreviveram à passagem para o design da coleção, e o que substituiu a que não sobreviveu.",
+      "takeaway": "Prole — pague a mais ao conjurar uma criatura e vem junto uma versão júnior — apareceu enquanto listavam o que se espera de animais. A equipe amou de cara, pôs no primeiríssimo arquivo do design de visão, e ela nunca saiu. Foi para os dez tipos de animal, e a arte extra de ficha que exigia foi aprovada cedo, enquanto todos ainda estavam encantados.",
+      "lessons": [
+        {
+          "title": "Vasculhe o próprio catálogo antes de inventar",
+          "rules": "O primeiro movimento diante de uma exigência nova é checar se você já construiu algo que dê conta. Uma estrutura existente traz comportamento conhecido e custos conhecidos, e revesti-la sai mais barato que começar do zero.",
+          "flavor": "Ao pedirem algo que capturasse uma comunidade de animais com ofícios diferentes, a equipe fuçou mecânicas antigas e achou as Classes, feitas para papéis de aventura de Dungeons & Dragons. O mesmo molde acolheu ferreiros e estalajadeiros."
+        },
+        {
+          "title": "Faça do tom uma exigência de design, e então pague por ela",
+          "rules": "Uma sensação pode ser especificada com a mesma precisão que uma função. Uma vez assumida, suas consequências obrigam: a peça que produz a sensação ainda precisa servir em geral, e vai precisar ser reduzida.",
+          "flavor": "Querendo algo mais amistoso, construíram o presente: uma melhoria paga dando algo ao oponente. Tinha de servir a qualquer baralho, então uma criatura — uma 1/1. Ainda saía forte, e a ficha impressa chega virada, um Peixe azul, que é o que esses animais se dão."
+        },
+        {
+          "title": "Faça coisas que mais de uma facção queira",
+          "rules": "Se cada parte de um ambiente temático atrai exatamente uma estratégia, as escolhas colapsam e cada passagem por ele fica igual. A sobreposição deliberada mantém o espaço vivo e aumenta a frequência com que as peças aparecem.",
+          "flavor": "A P&D chama isso de cola de tipo. Bloomburrow usou duplas: duas criaturas juntas, ou seja, dois tipos numa carta, desejada por quem drafta qualquer um dos dois. Dois ciclos comuns e monocoloridos, ideia já discutida no design de Lorwyn."
+        },
+        {
+          "title": "Duas coisas que dividem um traço precisam de sensações diferentes",
+          "rules": "Quando dois elementos são definidos pela mesma propriedade, serão lidos como um só, a menos que algo os afaste. Dê a cada um um segundo eixo, de preferência um que puxe contra o traço em comum.",
+          "flavor": "Aves e Morcegos voam. Então muitas Aves foram feitas para se importar com quem não voa, fazendo aquele baralho querer mistura, enquanto Morcegos foram para a vida — branco ganha, preto gasta — e jogam como baralho de desgaste."
+        },
+        {
+          "title": "Quando o unificador planejado é cortado, distribua o trabalho dele",
+          "rules": "Uma única mecânica encarregada de segurar tudo é um ponto único de falha. Perdê-la não obriga a perder a coesão: o mesmo trabalho pode ser espalhado pelas partes, cada uma carregando sua versão.",
+          "flavor": "A mecânica de tipo do design de visão, camaradagem, foi puxada pelo design da coleção. No lugar, cada arquétipo ganhou sua identidade mecânica — alguns uma palavra-chave, outros só um fio condutor — com cerca de oito recompensas de tipo cada."
+        },
+        {
+          "title": "Que as habilidades da versão reduzida funcionem no tamanho reduzido",
+          "rules": "Uma cópia menor precisa de habilidades que ainda funcionem em pequeno sem ser apenas uma versão pior da original. Olhe para o que dispara em eventos, não para o que escala com o tamanho.",
+          "flavor": "As criaturas júnior de prole são 1/1, então o espaço fértil foram as habilidades desencadeadas, sobretudo as que disparam ao entrar no campo de batalha ou ao atacar. O corpo grande fica melhor em combate sem tornar o pequeno inútil."
+        },
+        {
+          "title": "Uma moeda, vários câmbios",
+          "rules": "Dê a uma mágica uma reserva de um recurso e precifique suas opções em valores diferentes; depois deixe gastar a reserva como se quiser, repetições incluídas. Uma lista curta de modos produz uma lista bem mais longa de resultados.",
+          "flavor": "O ciclo das estações te dá cinco patas e oferece três modos custando uma, duas e três. Escolha quantos quiser, o mesmo mais de uma vez se preferir, desde que as patas cubram."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "洞穴绽放，第二部分",
+      "dek": "有些设计进了第一版文件，就再也没被拿出来过。",
+      "overview": "洞穴绽放故事里属于机制的那一半：每一个机制从哪儿来、哪些熬过了向系列设计的交接，以及没熬过的那个被什么顶替了。",
+      "takeaway": "「后代」——施放生物时多付一笔，就会随之带来一个小一号的版本——是在清点「人们想到动物时会期待什么」的过程中被发现的。团队一眼就爱上了它，把它放进了愿景设计的第一版文件，此后它再没被拿出来过。它铺到了全部十种动物类别；而它所要求的额外衍生物画作，也趁着所有人还被它迷住的时候早早获批。",
+      "lessons": [
+        {
+          "title": "在发明之前，先翻自己的旧库存",
+          "rules": "面对一项新要求，第一步是查一查：你是不是早就造过能干这活儿的东西。一个既有的结构自带已知的行为和已知的代价，而给它换层皮，比从头再来便宜得多。",
+          "flavor": "当要求做出「一群各司其职的动物构成的社群」时，团队去翻了旧机制，找到了「职业」——那本是为龙与地下城的冒险职业造的。同一副框架，这次装进去的是铁匠和客栈老板。"
+        },
+        {
+          "title": "把「调性」列为设计要求，然后为它付账",
+          "rules": "一种感觉，可以被指定得和一项功能一样精确。而一旦你为某种感觉做出了承诺，它的后果就会来约束你：那件产生这感觉的东西仍得普遍好用，并且多半还得往下调。",
+          "flavor": "想要更友善一些，他们造出了「馈赠」：一次靠「送对手点东西」来支付的升级。它必须对任何套牌都有用，于是是一个生物——一个 1/1。即便如此仍偏强，所以印出来的衍生物是横置进场的一条蓝色鱼。"
+        },
+        {
+          "title": "造一些不止一个阵营想要的东西",
+          "rules": "如果一个主题环境里的每一部分都只吸引恰好一种策略，选择就会塌缩，每一趟走下来都长得一样。刻意制造的重叠能让这片空间保持活着，也提高了这些东西露面的频率。",
+          "flavor": "研发部管这叫「类别胶水」。洞穴绽放用的是「双人组」：两只生物搭伙，于是一张牌上有两个生物类别，抽这两类中任何一类的人都想要它。两个普通、单色的循环——这个点子早在洛温的设计里就被谈起过。"
+        },
+        {
+          "title": "两样共享同一特征的东西，需要不同的手感",
+          "rules": "当两个元素由同一条属性来定义时，若没有什么把它们撑开，它们就会被读成同一样东西。给每一个都配上第二条轴——最好是一条与那条共享特征相拉扯的轴。",
+          "flavor": "鸟和蝙蝠都会飞。于是许多鸟被造成「在乎不会飞的东西」，让那副套牌想要一份混搭；而蝙蝠则被推向生命——白色擅长获得、黑色擅长支付——玩起来是一副慢速的消耗牌。"
+        },
+        {
+          "title": "当预定的黏合剂被砍掉，就把它的活儿分摊下去",
+          "rules": "指望单独一个机制把一切拢在一起，等于设了一个单点故障。失去它，并不必然意味着失去凝聚：同样这份活儿可以摊到各个部分身上，每一部分扛起自己那一版。",
+          "flavor": "愿景设计做的类别机制「同伴」，被系列设计撤掉了。取而代之，每个原型都拿到了自己的机制身份——有的是关键字，有的只是一条贯穿的思路——各配约八张类别奖励，并偏向更高的稀有度。"
+        },
+        {
+          "title": "让缩小版的异能，在缩小后的体格上依然成立",
+          "rules": "一个小一号的副本，需要那种缩小后仍然有效的异能，而不能只是原版的劣化。往「由事件触发的东西」那边看，而不是往「随体量放大的东西」那边看。",
+          "flavor": "「后代」造出的小家伙是 1/1，所以肥沃的空间是触发式异能——尤其是进战场时和攻击时触发的那些。这让大号的身体在战斗中更强，同时又不至于让小号的一无是处。"
+        },
+        {
+          "title": "同一种货币，几种不同的汇率",
+          "rules": "给一个咒语一池资源，再把它的各个选项标上不同的价钱，然后让人随意去花这一池——包括重复购买同一项。一份很短的模式清单，能生出一份长得多的结果清单。",
+          "flavor": "「季节」这一循环交给你五枚爪印，并提供三种分别要价一、二、三的模式。你想选几项就选几项，同一项想选几次也行，只要爪印付得起。"
+        }
+      ]
+    }
+  }
+}

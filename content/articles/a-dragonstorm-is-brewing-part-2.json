@@ -1,0 +1,242 @@
+{
+  "id": "a-dragonstorm-is-brewing-part-2",
+  "slug": "a-dragonstorm-is-brewing-part-2",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2025-03-24",
+  "series": { "id": "a-dragonstorm-is-brewing", "order": 2, "total": 2 },
+  "tags": ["tarkir", "factions", "mechanics"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/a-dragonstorm-is-brewing-part-2",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T06:56:26.659Z",
+  "lessons": [
+    { "n": 1, "color": "G" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "A Dragonstorm Is Brewing, Part 2",
+      "dek": "Four names, four conditions, and only the last one felt like the clan.",
+      "overview": "Five factions, five new keywords, and the discarded versions of each — a set of parallel design histories showing how many attempts a single faction mechanic absorbs before it lands.",
+      "takeaway": "One clan's mechanic went through erupt (cast it from the graveyard on a turn you played a land), rekindle (on a turn you cast a big creature, and free), fierce (a big creature merely on the battlefield, with the threshold varying by card), and finally harmonize. Free was the problem — it removed the knob balance needed — so the cost came back, reduced by the power of a creature you tap.",
+      "lessons": [
+        {
+          "title": "Returning: keep the sense, change the keyword",
+          "rules": "What has to survive a revisit is the identity, not the implementation. New mechanics are fine and expected; the test is that old and new material still play well together and still read as the same thing.",
+          "flavor": "The rule for revisiting a setting with factions is that cards from the first visit mixed with cards from the second have to work together. Keywords and archetypes may change, so long as the general sense of the faction doesn't."
+        },
+        {
+          "title": "Overlapping groups have to interoperate",
+          "rules": "When categories share members, their mechanics meet whether you planned it or not. Budget real time for making each one work with the ones it overlaps, and treat a good interaction as a reason to prefer a design.",
+          "flavor": "In a three-colour faction set every faction shares one or two colours with another. One clan's graveyard-recursion mechanic was liked partly because it played well with the spells-matter mechanic of the clan it overlapped in two colours."
+        },
+        {
+          "title": "A mechanic that dictates the rest of the file is the wrong mechanic",
+          "rules": "Judge a candidate not only on how it plays but on what it obliges everything around it to become. One that quietly reshapes the whole project to serve it is expensive no matter how well it works in isolation.",
+          "flavor": "Focus rewarded targeting any creature you controlled, so several could trigger at once. But it forced most of the set's spells to target creatures, pushing the file somewhere the team didn't want to go."
+        },
+        {
+          "title": "Nobody's favourite is a cut",
+          "rules": "A piece that draws no objections and no enthusiasm has failed a real test. Ask a room to name what they like best; anything nobody names should be changed before it goes any further.",
+          "flavor": "Adopt was the mechanic carried all the way to the vision summit. Not one person there picked it as their favourite, so it was changed before handoff — and the fallback, a tweak of an older mechanic, became the one that shipped."
+        },
+        {
+          "title": "Keep the unoriginal thing when it plays well and fits",
+          "rules": "Novelty is a nice property, not a requirement. Something you've effectively done before can be the right answer when it suits the subject exactly and behaves well — and knowing that is a discipline, not a concession.",
+          "flavor": "Flurry was an ability word for a theme already used often: the second spell each turn matters. The team knew it wasn't novel. It went into the file and never came out, because it played well and fit the clan perfectly."
+        },
+        {
+          "title": "Check the variety at both ends",
+          "rules": "A mechanic can fail for producing the same result every time, or for having too few things it can be built from. Look at its inputs and its outputs separately; either one being narrow is fatal on its own.",
+          "flavor": "Exhume always made the same tokens, so every deck using it went wide. Harvest drew on creature keywords instead — but there are only so many of those, fewer still in one faction's colours, and the space turned out too small."
+        },
+        {
+          "title": "Free is a knob you gave away",
+          "rules": "Making something cost nothing is not a neutral simplification. The price is where later adjustment happens, so removing it leaves you nothing to turn when the thing proves too strong or too weak.",
+          "flavor": "One version let you recast a spell from the graveyard at no cost. That removed the balance knob, so the cost returned in an unusual form: tap a creature you control and the cost drops by its power."
+        }
+      ]
+    },
+    "es": {
+      "title": "Se avecina una tormenta de dragones, parte 2",
+      "dek": "Cuatro nombres, cuatro condiciones, y solo el último se sintió como el clan.",
+      "overview": "Cinco facciones, cinco palabras clave nuevas y las versiones descartadas de cada una: historias de diseño paralelas que muestran cuántos intentos absorbe una sola mecánica de facción antes de acertar.",
+      "takeaway": "La mecánica de un clan pasó por erupción (lanzarla desde el cementerio en un turno en que jugaste una tierra), reavivar (en un turno en que lanzaste una criatura grande, y gratis), feroz (una criatura grande simplemente en el campo, con umbral variable por carta) y al fin armonizar. Lo gratis era el problema —eliminaba la palanca que el equilibrio necesita—, así que el coste volvió, reducido por la fuerza de una criatura que giras.",
+      "lessons": [
+        {
+          "title": "Al volver: conserva el sentido, cambia la palabra clave",
+          "rules": "Lo que debe sobrevivir a una revisita es la identidad, no la implementación. Mecánicas nuevas están bien y se esperan; la prueba es que el material viejo y el nuevo sigan jugando bien juntos y se sigan leyendo como la misma cosa.",
+          "flavor": "La regla al volver a un escenario con facciones es que las cartas de la primera visita mezcladas con las de la segunda tienen que funcionar juntas. Las palabras clave y los arquetipos pueden cambiar, mientras no cambie el sentido general de la facción."
+        },
+        {
+          "title": "Los grupos que se solapan tienen que interoperar",
+          "rules": "Cuando las categorías comparten miembros, sus mecánicas se encuentran lo hayas planeado o no. Reserva tiempo real para que cada una funcione con aquellas con las que se solapa, y toma una buena interacción como razón para preferir un diseño.",
+          "flavor": "En un set de facciones de tres colores, cada facción comparte uno o dos colores con otra. La mecánica de recursión de cementerio de un clan gustó en parte porque encajaba con la mecánica de hechizos del clan con el que compartía dos colores."
+        },
+        {
+          "title": "Una mecánica que dicta el resto del archivo es la mecánica equivocada",
+          "rules": "Juzga a un candidato no solo por cómo juega, sino por en qué obliga a convertirse a todo lo que lo rodea. Uno que remodela calladamente el proyecto entero para servirse a sí mismo sale caro por bien que funcione aislado.",
+          "flavor": "Enfoque premiaba fijar como objetivo a cualquier criatura tuya, de modo que varias podían dispararse a la vez. Pero obligaba a que la mayoría de los hechizos del set fijaran objetivos criatura, llevando el archivo a un sitio que el equipo no quería."
+        },
+        {
+          "title": "Lo que no es favorito de nadie se corta",
+          "rules": "Una pieza que no genera objeciones ni entusiasmo ha suspendido una prueba real. Pide a una sala que nombre lo que más le gusta; lo que nadie nombre debería cambiarse antes de seguir adelante.",
+          "flavor": "Adoptar fue la mecánica que se llevó hasta la cumbre de visión. Ni una sola persona la eligió como su favorita, así que se cambió antes del traspaso, y el recambio, un ajuste de una mecánica más vieja, fue el que acabó imprimiéndose."
+        },
+        {
+          "title": "Conserva lo poco original cuando juega bien y encaja",
+          "rules": "La novedad es una propiedad agradable, no un requisito. Algo que en la práctica ya has hecho puede ser la respuesta correcta cuando encaja exactamente con el tema y se porta bien; y saberlo es disciplina, no concesión.",
+          "flavor": "Ráfaga era una palabra de habilidad para un tema ya muy usado: el segundo hechizo de cada turno importa. El equipo sabía que no era novedoso. Entró en el archivo y nunca salió, porque jugaba bien y encajaba con el clan a la perfección."
+        },
+        {
+          "title": "Comprueba la variedad en ambos extremos",
+          "rules": "Una mecánica puede fallar por producir siempre el mismo resultado, o por tener demasiado poco con lo que construirse. Mira sus entradas y sus salidas por separado; que cualquiera de las dos sea estrecha basta para matarla.",
+          "flavor": "Exhumar hacía siempre las mismas fichas, así que todo mazo que la usaba iba a lo ancho. Cosechar recurría en cambio a palabras clave de criatura, pero no hay tantas, menos aún en los colores de una facción, y el espacio resultó demasiado pequeño."
+        },
+        {
+          "title": "Gratis es una palanca que regalaste",
+          "rules": "Hacer que algo no cueste nada no es una simplificación neutral. El precio es donde ocurren los ajustes posteriores, así que quitarlo te deja sin nada que girar cuando la cosa resulte demasiado fuerte o demasiado débil.",
+          "flavor": "Una versión te dejaba relanzar un hechizo desde el cementerio sin coste. Eso eliminaba la palanca de equilibrio, así que el coste volvió con una forma inusual: gira una criatura tuya y el coste baja en su fuerza."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Une tempête de dragons se prépare, partie 2",
+      "dek": "Quatre noms, quatre conditions, et seul le dernier sonnait comme le clan.",
+      "overview": "Cinq factions, cinq nouveaux mots-clés et les versions abandonnées de chacun : des histoires de design parallèles montrant combien de tentatives absorbe une seule mécanique de faction avant d'aboutir.",
+      "takeaway": "La mécanique d'un clan est passée par éruption (la lancer du cimetière un tour où vous avez joué un terrain), rallumage (un tour où vous avez lancé une grosse créature, et gratuitement), féroce (une grosse créature simplement sur le champ de bataille, seuil variable selon la carte) puis harmoniser. La gratuité était le problème — elle supprimait le bouton dont l'équilibrage a besoin — alors le coût est revenu, réduit par la force d'une créature engagée.",
+      "lessons": [
+        {
+          "title": "En revenant : gardez le sens, changez le mot-clé",
+          "rules": "Ce qui doit survivre à un retour, c'est l'identité, non l'implémentation. De nouvelles mécaniques sont attendues ; l'épreuve est que l'ancien et le nouveau matériel se jouent encore bien ensemble et se lisent encore comme la même chose.",
+          "flavor": "La règle, en revenant dans un décor à factions, est que les cartes de la première visite mêlées à celles de la seconde doivent fonctionner ensemble. Mots-clés et archétypes peuvent changer, tant que le sens général de la faction ne change pas."
+        },
+        {
+          "title": "Des groupes qui se recoupent doivent s'interfacer",
+          "rules": "Quand des catégories partagent des membres, leurs mécaniques se rencontrent, que vous l'ayez prévu ou non. Prévoyez du temps réel pour que chacune fonctionne avec celles qu'elle recoupe, et voyez une bonne interaction comme une raison de préférer un design.",
+          "flavor": "Dans une extension à factions tricolores, chaque faction partage une ou deux couleurs avec une autre. La mécanique de récupération d'un clan a plu en partie parce qu'elle s'entendait bien avec celle du clan avec lequel il partageait deux couleurs."
+        },
+        {
+          "title": "Une mécanique qui dicte le reste du fichier est la mauvaise",
+          "rules": "Jugez un candidat non seulement sur son jeu, mais sur ce qu'il oblige tout ce qui l'entoure à devenir. Celui qui remodèle sourdement le projet entier à son service coûte cher, si bien qu'il fonctionne isolément.",
+          "flavor": "Focus récompensait le ciblage de n'importe quelle créature vous appartenant, si bien que plusieurs pouvaient se déclencher ensemble. Mais elle forçait la plupart des sorts de l'extension à cibler des créatures, poussant le fichier là où l'équipe ne voulait pas aller."
+        },
+        {
+          "title": "Ce qui n'est le préféré de personne se coupe",
+          "rules": "Une pièce qui ne suscite ni objection ni enthousiasme a échoué à une vraie épreuve. Demandez à une salle de nommer ce qu'elle préfère ; ce que personne ne nomme doit être changé avant d'aller plus loin.",
+          "flavor": "Adopter fut la mécanique portée jusqu'au sommet de vision. Pas une personne ne l'a citée comme favorite : elle fut donc changée avant la passation, et le repli, une retouche d'une mécanique plus ancienne, est ce qui a été imprimé."
+        },
+        {
+          "title": "Gardez le peu original s'il se joue bien et convient",
+          "rules": "La nouveauté est une qualité agréable, non une exigence. Une chose que vous avez en somme déjà faite peut être la bonne réponse si elle épouse exactement le sujet et se comporte bien — le savoir est une discipline, non une concession.",
+          "flavor": "Rafale était un mot de capacité pour un thème déjà souvent employé : le second sort de chaque tour compte. L'équipe savait que ce n'était pas neuf. C'est entré dans le fichier et n'en est jamais ressorti."
+        },
+        {
+          "title": "Vérifiez la variété aux deux bouts",
+          "rules": "Une mécanique peut échouer parce qu'elle produit toujours le même résultat, ou parce qu'elle a trop peu de matière pour se construire. Regardez ses entrées et ses sorties séparément ; l'étroitesse de l'une suffit à la tuer.",
+          "flavor": "Exhumer faisait toujours les mêmes jetons, si bien que tout deck l'employant s'étalait. Récolte puisait plutôt dans les mots-clés de créature — mais il n'y en a qu'un nombre limité, moins encore dans les couleurs d'une faction."
+        },
+        {
+          "title": "Gratuit est un bouton que vous avez cédé",
+          "rules": "Rendre une chose gratuite n'est pas une simplification neutre. Le prix est l'endroit où se font les ajustements ultérieurs : le supprimer ne vous laisse rien à tourner quand la chose se révèle trop forte ou trop faible.",
+          "flavor": "Une version permettait de relancer un sort depuis le cimetière sans coût. Cela supprimait le bouton d'équilibrage ; le coût est donc revenu sous une forme inhabituelle : engagez une créature et le coût baisse de sa force."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Uma tempestade de dragões se forma, parte 2",
+      "dek": "Quatro nomes, quatro condições, e só o último soou como o clã.",
+      "overview": "Cinco facções, cinco palavras-chave novas e as versões descartadas de cada uma: histórias de design paralelas que mostram quantas tentativas uma única mecânica de facção absorve antes de acertar.",
+      "takeaway": "A mecânica de um clã passou por erupção (conjurá-la do cemitério num turno em que você jogou um terreno), reacender (num turno em que você conjurou uma criatura grande, e de graça), feroz (uma criatura grande apenas no campo, com limiar variando por carta) e enfim harmonizar. O de graça era o problema — tirava o botão de que o balanceamento precisa —, então o custo voltou, reduzido pelo poder de uma criatura que você vira.",
+      "lessons": [
+        {
+          "title": "Ao voltar: mantenha o sentido, troque a palavra-chave",
+          "rules": "O que precisa sobreviver a uma revisita é a identidade, não a implementação. Mecânicas novas são esperadas; o teste é se o material velho e o novo ainda jogam bem juntos e ainda se leem como a mesma coisa.",
+          "flavor": "A regra ao voltar a um cenário com facções é que cartas da primeira visita misturadas às da segunda precisam funcionar juntas. Palavras-chave e arquétipos podem mudar, desde que o sentido geral da facção não mude."
+        },
+        {
+          "title": "Grupos que se sobrepõem precisam interoperar",
+          "rules": "Quando categorias compartilham membros, suas mecânicas se encontram, tendo você planejado ou não. Reserve tempo real para cada uma funcionar com aquelas que ela cruza, e trate uma boa interação como razão para preferir um design.",
+          "flavor": "Numa coleção de facções de três cores, cada facção compartilha uma ou duas cores com outra. A mecânica de recursão de cemitério de um clã agradou em parte por se dar bem com a mecânica de mágicas do clã com que dividia duas cores."
+        },
+        {
+          "title": "Uma mecânica que dita o resto do arquivo é a mecânica errada",
+          "rules": "Julgue um candidato não só por como joga, mas pelo que ele obriga tudo em volta a virar. Um que silenciosamente remodela o projeto inteiro a seu serviço sai caro por melhor que funcione isolado.",
+          "flavor": "Foco premiava ter como alvo qualquer criatura sua, de modo que várias disparassem juntas. Mas obrigava a maioria das mágicas da coleção a ter criaturas como alvo, empurrando o arquivo para onde a equipe não queria ir."
+        },
+        {
+          "title": "O que não é favorito de ninguém é corte",
+          "rules": "Uma peça que não gera objeção nem entusiasmo reprovou num teste real. Peça a uma sala que nomeie o que mais gosta; o que ninguém nomear deve ser mudado antes de seguir adiante.",
+          "flavor": "Adotar foi a mecânica levada até a cúpula de visão. Nem uma pessoa a escolheu como favorita, então ela foi trocada antes da passagem — e o plano B, um ajuste de uma mecânica mais antiga, foi o que acabou impresso."
+        },
+        {
+          "title": "Mantenha o pouco original quando joga bem e serve",
+          "rules": "Novidade é uma propriedade agradável, não um requisito. Algo que você na prática já fez pode ser a resposta certa quando se encaixa exatamente no tema e se comporta bem — e saber disso é disciplina, não concessão.",
+          "flavor": "Rajada era uma palavra de habilidade para um tema já muito usado: a segunda mágica de cada turno importa. A equipe sabia que não era novidade. Entrou no arquivo e nunca saiu, porque jogava bem e servia ao clã perfeitamente."
+        },
+        {
+          "title": "Cheque a variedade nas duas pontas",
+          "rules": "Uma mecânica pode falhar por produzir sempre o mesmo resultado, ou por ter pouco de que ser construída. Olhe suas entradas e saídas separadamente; qualquer uma delas estreita já basta para matá-la.",
+          "flavor": "Exumar sempre fazia as mesmas fichas, então todo baralho que a usava ia para os lados. Colheita puxava de palavras-chave de criatura — mas há só um tanto delas, menos ainda nas cores de uma facção, e o espaço saiu pequeno demais."
+        },
+        {
+          "title": "De graça é um botão que você entregou",
+          "rules": "Fazer algo não custar nada não é uma simplificação neutra. O preço é onde os ajustes posteriores acontecem, então removê-lo deixa você sem nada para girar quando a coisa se mostrar forte ou fraca demais.",
+          "flavor": "Uma versão deixava reconjurar uma mágica do cemitério sem custo. Isso tirava o botão de balanceamento, então o custo voltou numa forma incomum: vire uma criatura sua e o custo cai pelo poder dela."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "龙风暴将至，第二部分",
+      "dek": "四个名字、四种条件，而只有最后一个像那个氏族。",
+      "overview": "五个阵营、五个新关键字，以及它们各自被丢掉的那些版本——一组并行的设计史，展示单单一个阵营机制在落地之前要吸收掉多少次尝试。",
+      "takeaway": "某个氏族的机制先后经历了「喷发」（在你使用了地的回合从坟场施放它）、「复燃」（在你施放了大生物的回合，而且免费）、「凶猛」（只要有大生物在战场上即可，且门槛因牌而异），最后成了「谐律」。免费才是问题所在——它把平衡所需的那个旋钮拿掉了；于是费用回来了，并且可以靠横置一只生物、按其力量来减免。",
+      "lessons": [
+        {
+          "title": "重访时：保住那份神韵，换掉关键字",
+          "rules": "一次重访必须存活下来的是身份，而不是实现方式。换新机制是可以的，也是被期待的；真正的检验在于：新旧材料混在一起仍然玩得起来，并且仍然被读成同一样东西。",
+          "flavor": "重访一个带阵营的舞台时的规矩是：第一次拜访的牌和第二次的牌混在一起，必须能配合。关键字和原型都可以变，只要这个阵营的总体神韵不变。"
+        },
+        {
+          "title": "彼此重叠的分组，必须能互通",
+          "rules": "当若干类别共享成员时，它们的机制就会碰面——无论你有没有计划过。要为「让每一个都能同它所重叠的那些配合」留出实打实的时间；并把「配合得好」当成偏爱某个设计的理由。",
+          "flavor": "在一个三色阵营系列里，每个阵营都和另一个共享一到两种颜色。某个氏族的坟场再利用机制之所以被看好，部分原因正是它和那个与之共享两种颜色的氏族的咒语机制配合得好。"
+        },
+        {
+          "title": "一个会去规定整份文件的机制，就是错的那个机制",
+          "rules": "评判一个候选者，不能只看它玩起来如何，还要看它逼着它周围的一切变成什么样。一个悄悄把整个项目改造成为自己服务的机制，无论单独看多好用，代价都很高。",
+          "flavor": "「专注」奖励你指定自己操控的任何生物为目标，于是好几个可以被同一个咒语一起触发。但它逼得这个系列的大部分咒语都得以生物为目标，把整份文件推向了团队并不想去的方向。"
+        },
+        {
+          "title": "谁都不把它当最爱，那就砍掉",
+          "rules": "一件既招不来反对、也招不来热情的东西，是没能通过一场真正的检验。让一屋子人各自说出「你最喜欢哪个」；凡是没有任何人点到名的，就该在它继续往前走之前被换掉。",
+          "flavor": "「收养」是一路带到愿景峰会上的那个机制。在场没有一个人把它选为自己最喜欢的，于是它在交接之前就被换掉了——而那个备选方案，对一个更老的机制的微调，才是最终付印的那个。"
+        },
+        {
+          "title": "当它玩得好又贴合时，就把那个不新鲜的东西留下",
+          "rules": "新颖是一项讨人喜欢的性质，而不是一条硬性要求。一样你其实早就做过的东西，只要与题材严丝合缝且表现良好，就可能正是那个对的答案；而明白这一点是一种自制，不是一种妥协。",
+          "flavor": "「疾风」只是给一个早已被反复使用的主题配了个异能词：每回合的第二个咒语很重要。团队清楚它并不新鲜。它进了文件，就再没出来过——因为它玩起来很好，也和这个氏族严丝合缝。"
+        },
+        {
+          "title": "两头都要查一查它的多样性",
+          "rules": "一个机制可能因为「每次产出的都一样」而失败，也可能因为「能拿来搭它的东西太少」而失败。把它的输入和输出分开来看；其中任何一头太窄，都足以单独要了它的命。",
+          "flavor": "「掘尸」造出来的衍生物永远相同，于是每一副用它的套牌都往宽里铺。「收获」改从生物关键字里取材——可那些关键字统共就那么多，落到单个阵营的颜色里就更少，空间最后还是太小了。"
+        },
+        {
+          "title": "免费，是一个你亲手送出去的旋钮",
+          "rules": "让某样东西不花钱，并不是一次中性的简化。价格正是日后进行调整的那个地方；把它拿掉，就等于在这东西被证明太强或太弱时，你手上一个可拧的旋钮也没有了。",
+          "flavor": "有一版允许你无代价地从坟场再施放一个咒语。这把平衡用的旋钮拿掉了；于是费用以一种不寻常的形式回来了：横置你的一只生物，费用便按它的力量减免。"
+        }
+      ]
+    }
+  }
+}

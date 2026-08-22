@@ -1,0 +1,273 @@
+{
+  "id": "even-more-words-rd-2022-01-10",
+  "slug": "even-more-words-rd-2022-01-10",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2022-01-10",
+  "series": null,
+  "tags": [
+    "vocabulary",
+    "process",
+    "r-and-d"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/even-more-words-rd-2022-01-10",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T12:25:54.345Z",
+  "lessons": [
+    {
+      "n": 1,
+      "color": "U"
+    },
+    {
+      "n": 2,
+      "color": "U"
+    },
+    {
+      "n": 3,
+      "color": "B"
+    },
+    {
+      "n": 4,
+      "color": "W"
+    },
+    {
+      "n": 5,
+      "color": "G"
+    },
+    {
+      "n": 6,
+      "color": "R"
+    },
+    {
+      "n": 7,
+      "color": "W"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Even More Words with R&D",
+      "dek": "“In general, we try to avoid block monsters.”",
+      "overview": "A third glossary of R&D's internal vocabulary, and the design reasoning buried inside the definitions.",
+      "takeaway": "A glossary is a record of the distinctions a group found worth naming. R&D separates a bend from a break, as-fan from as-played, a keyword from an ability word — each pair looks like a synonym from outside and marks a decision from inside. The entries that read as trivia mostly aren't: art waves are a scheduling policy, block monsters are a warning about rotation, and the mythic wall is a review process with a physical address.",
+      "lessons": [
+        {
+          "title": "Distinguish exceeding a boundary from negating the constraint that defines it",
+          "rules": "Not all departures from a rule are the same size. Doing something slightly outside your usual territory costs little; removing the specific limitation that gives your categories meaning costs everything. Name the two separately, and most of the arguments about exceptions resolve themselves.",
+          "flavor": "A bend is “an ability in a color that's not part of its natural slice of the color pie but isn't undermining that color's weakness” — white paying life. A break undermines the weakness: “a red card that can destroy enchantments, as that's supposed to be a weakness for red.”"
+        },
+        {
+          "title": "Measure frequency over what gets used, not over what you shipped",
+          "rules": "Counting how often something appears in what you produced tells you what the average recipient encounters. Counting only the portion people actually put into play tells you what the environment will feel like. Where the question is competitive impact, the second number is the real one.",
+          "flavor": "As-fan weighs all twenty-five cards carrying a mechanic by rarity. As-played might count only the thirteen expected in high-level play, and “gives us a better sense of whether the subset we're looking at will show up in enough quantity to impact the format the way we'd like.”"
+        },
+        {
+          "title": "Spread a strong configuration across your expiry cycles, or correction can't reach it",
+          "rules": "If everything holding a dominant strategy together arrives and departs at the same time, your rotation mechanism cannot dismantle it early — the whole thing survives until its youngest piece expires. Deliberately source powerful combinations from different cohorts so the correction has a handle.",
+          "flavor": "A block monster is a deck built entirely from one Magic year. “If a deck all within one year becomes broken, it will take an extra year before rotation can impact it. In general, we try to avoid block monsters.”"
+        },
+        {
+          "title": "When downstream work must start early, send the items least likely to change",
+          "rules": "Another discipline's schedule usually begins before yours has settled, and the order you hand things over is a decision you're making whether or not you notice. Sort by how confident you are that the item will survive, not by how important it is.",
+          "flavor": "Art is assigned in waves. “Usually, the cards the lead set designer has the most confidence in or which have a clear visual identity (such as legendary creatures we know are in the set) regardless of mechanics go in the earlier waves.”"
+        },
+        {
+          "title": "When an asset is fixed and the specification moved, trade rather than commission",
+          "rules": "Finished work that no longer matches its brief looks like a write-off. Before ordering a replacement, check whether another item in the same batch has drifted the opposite way — two mismatches can often be resolved by exchanging what each is attached to.",
+          "flavor": "An art swap is exchanging the art on two cards, done when a change contradicts the picture. “We want to add flying to a creature, but the art doesn't show it flying. We might add flying to one creature, remove it from another, and then do an art swap.”"
+        },
+        {
+          "title": "Include the items that reward doing something other than what the system teaches",
+          "rules": "Any environment gets solved: people learn its intended strategies and then repetition sets in. What extends its life is a small number of components that pay off a different plan entirely, visible early enough that someone can commit to chasing one.",
+          "flavor": "Build-arounds “encourage experienced drafters to try drafting something different than the set's normal archetypes when they pick that card early. Build-around cards are an important tool in extending the life of a draft environment.”"
+        },
+        {
+          "title": "Give the whole organisation one low-effort channel to comment on the highest-stakes items",
+          "rules": "The pieces carrying the most weight deserve more eyes than the team that made them, but a formal review costs everyone's day. Put the work somewhere people already walk past, make responding trivial, and open it to anyone — the cost of participating is what decides whether you hear from them.",
+          "flavor": "“When a set is close to being done, we will print up large copies of all the mythic rare cards and put them on a wall near the Pit. All members of Studio X are encouraged to leave notes.” The rare poll does the same by survey: any interested employee grades every rare in the set."
+        }
+      ]
+    },
+    "es": {
+      "title": "Aún más palabras con I+D",
+      "dek": "«En general, intentamos evitar los monstruos de bloque».",
+      "overview": "Un tercer glosario del vocabulario interno de I+D, y el razonamiento de diseño enterrado en las definiciones.",
+      "takeaway": "Un glosario es el registro de las distinciones que un grupo consideró dignas de nombre. I+D separa una torsión de una ruptura, el as-fan del as-played, una palabra clave de una palabra de habilidad: cada par parece un sinónimo desde fuera y marca una decisión desde dentro. Las entradas que suenan a trivia casi nunca lo son: las oleadas de arte son una política de calendario, los monstruos de bloque una advertencia sobre la rotación, y el muro de míticas un proceso de revisión con dirección física.",
+      "lessons": [
+        {
+          "title": "Distinga entre salirse de un límite y anular la restricción que lo define",
+          "rules": "No todas las desviaciones de una regla tienen el mismo tamaño. Hacer algo ligeramente fuera de su territorio habitual cuesta poco; eliminar la limitación concreta que da sentido a sus categorías lo cuesta todo. Nómbrelas por separado y casi todas las discusiones sobre excepciones se resuelven solas.",
+          "flavor": "Una torsión es «una habilidad en un color que no forma parte de su porción natural de la rueda pero no socava su debilidad»: blanco pagando vidas. Una ruptura sí la socava: «una carta roja que destruye encantamientos, ya que eso debería ser una debilidad del rojo»."
+        },
+        {
+          "title": "Mida la frecuencia sobre lo que se usa, no sobre lo que ha publicado",
+          "rules": "Contar cuántas veces aparece algo en lo que produjo le dice qué encuentra el destinatario medio. Contar solo la porción que la gente pone en juego le dice cómo se sentirá el entorno. Cuando la pregunta es el impacto competitivo, el número real es el segundo.",
+          "flavor": "El as-fan pondera por rareza las veinticinco cartas con una mecánica. El as-played podría contar solo las trece esperables en alto nivel, y «nos da mejor idea de si el subconjunto aparecerá en cantidad suficiente para impactar el formato como queremos»."
+        },
+        {
+          "title": "Reparta una configuración fuerte entre sus ciclos de caducidad, o la corrección no llegará",
+          "rules": "Si todo lo que sostiene una estrategia dominante llega y se va a la vez, su mecanismo de rotación no puede desmontarla antes: el conjunto sobrevive hasta que caduca su pieza más joven. Saque a propósito las combinaciones potentes de cohortes distintas, para que la corrección tenga asidero.",
+          "flavor": "Un monstruo de bloque es un mazo hecho enteramente de un mismo año de Magic. «Si un mazo todo dentro de un año se rompe, hará falta un año más para que la rotación lo afecte. En general, intentamos evitar los monstruos de bloque»."
+        },
+        {
+          "title": "Cuando el trabajo posterior debe empezar pronto, envíe lo que menos vaya a cambiar",
+          "rules": "El calendario de otra disciplina suele arrancar antes de que el suyo se asiente, y el orden en que entrega las cosas es una decisión que toma se dé cuenta o no. Ordene por lo seguro que esté de que la pieza sobrevivirá, no por lo importante que sea.",
+          "flavor": "El arte se asigna en oleadas. «Normalmente, las cartas en las que el líder de diseño tiene más confianza o que tienen una identidad visual clara (como las criaturas legendarias que sabemos que estarán) van en las primeras oleadas»."
+        },
+        {
+          "title": "Cuando el activo está fijo y la especificación se movió, intercambie en vez de encargar",
+          "rules": "Un trabajo terminado que ya no encaja con su encargo parece una pérdida. Antes de pedir un reemplazo, mire si otra pieza del mismo lote ha derivado en sentido contrario: dos desajustes suelen resolverse intercambiando aquello a lo que está unido cada uno.",
+          "flavor": "Un intercambio de arte es cambiar las ilustraciones de dos cartas cuando un cambio contradice la imagen. «Queremos añadir volar a una criatura pero el arte no la muestra volando. Podemos añadírselo a una, quitárselo a otra y hacer un intercambio de arte»."
+        },
+        {
+          "title": "Incluya piezas que premien hacer algo distinto de lo que el sistema enseña",
+          "rules": "Todo entorno acaba resuelto: la gente aprende sus estrategias previstas y llega la repetición. Lo que alarga su vida es un puñado de componentes que recompensan un plan completamente distinto, visibles lo bastante pronto como para que alguien se comprometa a perseguirlo.",
+          "flavor": "Las cartas para construir alrededor «animan a los drafters con experiencia a intentar draftear algo distinto de los arquetipos normales de la colección cuando la eligen pronto. Son una herramienta importante para alargar la vida de un entorno de draft»."
+        },
+        {
+          "title": "Dé a toda la organización un canal barato para comentar las piezas de mayor riesgo",
+          "rules": "Lo que más peso carga merece más ojos que el equipo que lo hizo, pero una revisión formal cuesta el día de todos. Ponga el trabajo donde la gente ya pasa, haga trivial responder y ábralo a cualquiera: el coste de participar es lo que decide si llega a oírlos.",
+          "flavor": "«Cuando una colección está casi lista, imprimimos copias grandes de todas las míticas y las ponemos en una pared cerca del Pozo. Se anima a todo Studio X a dejar notas». La encuesta de raras hace lo mismo: cualquier empleado interesado califica todas las raras."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Encore d'autres mots avec la R&D",
+      "dek": "« En général, nous essayons d'éviter les monstres de bloc. »",
+      "overview": "Un troisième glossaire du vocabulaire interne de la R&D, et le raisonnement de conception enfoui dans les définitions.",
+      "takeaway": "Un glossaire consigne les distinctions qu'un groupe a jugé bon de nommer. La R&D sépare une inflexion d'une rupture, l'as-fan de l'as-played, un mot-clé d'un mot de capacité : chaque paire ressemble de l'extérieur à des synonymes et marque de l'intérieur une décision. Les entrées qui semblent anecdotiques le sont rarement : les vagues d'illustration sont une politique de calendrier, les monstres de bloc un avertissement sur la rotation, et le mur des mythiques une relecture avec une adresse physique.",
+      "lessons": [
+        {
+          "title": "Distinguez le dépassement d'une limite de l'annulation de la contrainte qui la définit",
+          "rules": "Toutes les entorses à une règle n'ont pas la même taille. Faire une chose un peu hors de votre territoire coûte peu ; supprimer la limitation précise qui donne un sens à vos catégories coûte tout. Nommez les deux séparément, et la plupart des disputes sur les exceptions se règlent d'elles-mêmes.",
+          "flavor": "Une inflexion est « une capacité dans une couleur hors de sa part naturelle de la roue, mais qui ne sape pas la faiblesse de cette couleur » : du blanc payant des points de vie. Une rupture sape la faiblesse : « une carte rouge capable de détruire des enchantements ». "
+        },
+        {
+          "title": "Mesurez la fréquence sur ce qui est joué, non sur ce que vous avez publié",
+          "rules": "Compter la fréquence d'apparition dans ce que vous avez produit vous dit ce que rencontre le destinataire moyen. Ne compter que la part réellement mise en jeu vous dit ce que sera l'ambiance de l'environnement. Quand la question est l'impact compétitif, c'est le second nombre qui compte.",
+          "flavor": "L'as-fan pondère par rareté les vingt-cinq cartes portant une mécanique. L'as-played peut ne compter que les treize attendues à haut niveau, et « nous dit mieux si le sous-ensemble apparaîtra en quantité suffisante pour peser sur le format comme voulu »."
+        },
+        {
+          "title": "Répartissez une configuration forte sur vos cycles d'expiration, sinon la correction ne l'atteint pas",
+          "rules": "Si tout ce qui soutient une stratégie dominante arrive et repart en même temps, votre rotation ne peut la démonter plus tôt : l'ensemble survit jusqu'à l'expiration de sa pièce la plus jeune. Puisez délibérément les combinaisons puissantes dans des cohortes différentes, pour donner prise à la correction.",
+          "flavor": "Un monstre de bloc est un deck bâti entièrement sur une même année de Magic. « Si un deck entièrement issu d'une année devient cassé, il faudra une année de plus pour que la rotation l'atteigne. En général, nous essayons de les éviter. »"
+        },
+        {
+          "title": "Quand le travail en aval doit commencer tôt, envoyez ce qui risque le moins de changer",
+          "rules": "Le calendrier d'une autre discipline démarre d'ordinaire avant que le vôtre soit stabilisé, et l'ordre dans lequel vous transmettez est une décision, que vous le remarquiez ou non. Triez selon votre confiance dans la survie de la pièce, non selon son importance.",
+          "flavor": "L'illustration s'attribue par vagues. « D'ordinaire, les cartes dans lesquelles le lead a le plus confiance, ou qui ont une identité visuelle claire (comme les créatures légendaires dont on sait qu'elles seront là), partent dans les premières vagues. »"
+        },
+        {
+          "title": "Quand l'actif est figé et que la spécification a bougé, échangez plutôt que de commander",
+          "rules": "Un travail achevé qui ne correspond plus à sa commande ressemble à une perte sèche. Avant d'en commander un autre, vérifiez si une autre pièce du même lot a dérivé en sens inverse : deux décalages se règlent souvent en échangeant ce à quoi chacun est rattaché.",
+          "flavor": "Un échange d'illustrations consiste à permuter les images de deux cartes quand un changement contredit l'image. « On veut ajouter le vol à une créature, mais l'illustration ne la montre pas volant. On peut l'ajouter à l'une, le retirer à l'autre, puis échanger. »"
+        },
+        {
+          "title": "Incluez de quoi récompenser autre chose que ce que le système enseigne",
+          "rules": "Tout environnement finit résolu : on apprend ses stratégies prévues, puis la répétition s'installe. Ce qui prolonge sa vie, c'est une poignée de composants qui paient un plan tout autre, visibles assez tôt pour qu'on s'engage à le poursuivre.",
+          "flavor": "Les cartes à construire autour « encouragent les drafteurs expérimentés à tenter autre chose que les archétypes normaux de l'extension quand ils les prennent tôt. Ce sont un outil important pour prolonger la vie d'un environnement de draft. »"
+        },
+        {
+          "title": "Offrez à toute l'organisation un canal peu coûteux pour commenter les pièces à plus fort enjeu",
+          "rules": "Ce qui porte le plus de poids mérite plus d'yeux que l'équipe qui l'a fait, mais une relecture formelle coûte la journée de tous. Posez le travail là où l'on passe déjà, rendez la réponse triviale et ouvrez-la à tous : le coût de participer décide si vous les entendrez.",
+          "flavor": "« Quand une extension approche de la fin, nous imprimons en grand toutes les mythiques et les affichons sur un mur près du Pit. Tout Studio X est invité à y laisser des notes. » Le sondage des rares fait pareil : tout employé intéressé note chaque rare."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Ainda mais palavras com a P&D",
+      "dek": "“Em geral, tentamos evitar monstros de bloco.”",
+      "overview": "Um terceiro glossário do vocabulário interno da P&D, e o raciocínio de design enterrado nas definições.",
+      "takeaway": "Um glossário registra as distinções que um grupo achou que valia a pena nomear. A P&D separa uma dobra de uma quebra, o as-fan do as-played, uma palavra-chave de uma palavra de habilidade: cada par parece sinônimo de fora e marca uma decisão de dentro. As entradas que soam a curiosidade quase nunca são: ondas de arte são política de cronograma, monstros de bloco são um aviso sobre rotação, e o mural de míticas é um processo de revisão com endereço físico.",
+      "lessons": [
+        {
+          "title": "Distinga ultrapassar um limite de anular a restrição que o define",
+          "rules": "Nem todo desvio de uma regra tem o mesmo tamanho. Fazer algo um pouco fora do seu território custa pouco; remover a limitação específica que dá sentido às suas categorias custa tudo. Nomeie as duas em separado e quase toda discussão sobre exceções se resolve sozinha.",
+          "flavor": "Uma dobra é “uma habilidade numa cor que não faz parte da fatia natural dela, mas não mina a fraqueza daquela cor” — branco pagando pontos de vida. Uma quebra mina a fraqueza: “uma carta vermelha capaz de destruir encantamentos”."
+        },
+        {
+          "title": "Meça frequência sobre o que é usado, não sobre o que você publicou",
+          "rules": "Contar quantas vezes algo aparece no que você produziu diz o que o destinatário médio encontra. Contar só a parte que as pessoas de fato põem em jogo diz como o ambiente vai parecer. Quando a pergunta é impacto competitivo, o número real é o segundo.",
+          "flavor": "O as-fan pesa por raridade as vinte e cinco cartas com uma mecânica. O as-played pode contar só as treze esperadas em alto nível, e “nos dá uma noção melhor de se o subconjunto vai aparecer em quantidade suficiente para impactar o formato do jeito que queremos”."
+        },
+        {
+          "title": "Espalhe uma configuração forte pelos seus ciclos de validade, ou a correção não alcança",
+          "rules": "Se tudo o que sustenta uma estratégia dominante chega e sai junto, a sua rotação não consegue desmontá-la antes: o conjunto sobrevive até a peça mais nova vencer. Tire de propósito as combinações potentes de safras diferentes, para a correção ter onde pegar.",
+          "flavor": "Um monstro de bloco é um deck feito inteiramente de um mesmo ano de Magic. “Se um deck todo dentro de um ano fica quebrado, vai levar um ano a mais até a rotação alcançá-lo. Em geral, tentamos evitar monstros de bloco.”"
+        },
+        {
+          "title": "Quando o trabalho seguinte precisa começar cedo, mande o que menos deve mudar",
+          "rules": "O cronograma de outra disciplina costuma começar antes de o seu assentar, e a ordem em que você entrega é uma decisão, você percebendo ou não. Ordene pela confiança de que a peça vai sobreviver, não pela importância dela.",
+          "flavor": "A arte é atribuída em ondas. “Normalmente, as cartas em que o líder de design mais confia, ou que têm identidade visual clara (como criaturas lendárias que sabemos que estarão na coleção), vão nas ondas iniciais.”"
+        },
+        {
+          "title": "Quando o ativo está fixo e a especificação mudou, troque em vez de encomendar",
+          "rules": "Trabalho pronto que já não bate com o pedido parece perda. Antes de encomendar substituto, veja se outra peça do mesmo lote derivou no sentido oposto: dois desencontros muitas vezes se resolvem trocando aquilo a que cada um está preso.",
+          "flavor": "Uma troca de arte é permutar as ilustrações de duas cartas quando uma mudança contradiz a imagem. “Queremos dar voar a uma criatura, mas a arte não a mostra voando. Podemos dar voar a uma, tirar de outra e fazer a troca.”"
+        },
+        {
+          "title": "Inclua peças que premiem fazer algo diferente do que o sistema ensina",
+          "rules": "Todo ambiente acaba resolvido: as pessoas aprendem as estratégias previstas e vem a repetição. O que estende a vida dele é um punhado de componentes que pagam por um plano totalmente outro, visíveis cedo o bastante para alguém se comprometer a persegui-lo.",
+          "flavor": "Cartas para construir em torno “incentivam draftadores experientes a tentar algo diferente dos arquétipos normais da coleção quando as pegam cedo. São uma ferramenta importante para estender a vida de um ambiente de draft.”"
+        },
+        {
+          "title": "Dê à organização inteira um canal barato para comentar as peças de maior risco",
+          "rules": "O que carrega mais peso merece mais olhos do que a equipe que o fez, mas uma revisão formal custa o dia de todos. Ponha o trabalho onde as pessoas já passam, torne responder trivial e abra a qualquer um: o custo de participar é o que decide se você vai ouvi-las.",
+          "flavor": "“Quando uma coleção está quase pronta, imprimimos cópias grandes de todas as míticas e as pomos num mural perto do Poço. Todo o Studio X é incentivado a deixar notas.” A enquete de raras faz o mesmo: qualquer funcionário interessado avalia cada rara."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "再谈研发部的行话",
+      "dek": "「一般来说，我们会尽量避免出现『环境怪物』。」",
+      "overview": "研发部内部词汇的第三份词表，以及埋在这些定义底下的设计推理。",
+      "takeaway": "一份词表，记录的是一个群体认为值得为之命名的那些区分。研发部把「偏移」与「破坏」分开，把「每包张数」与「实战出现率」分开，把「关键字」与「异能提示词」分开——每一对从外面看像是同义词，从里面看则标记着一个决定。那些读上去像趣闻的条目，多半并不是趣闻：美术波次是一项排程政策，环境怪物是一句关于轮替的警告，而秘稀墙则是一道有实体地址的评审流程。",
+      "lessons": [
+        {
+          "title": "把「越出边界」与「抹掉那条赋予边界意义的限制」区分开来",
+          "rules": "并非所有对规则的偏离都是同一个量级。做一件略微越出你惯常地界的事，代价很小；而把那条赋予你的分类以意义的具体限制拿掉，代价则是全部。请给这两者分别命名——于是关于「例外」的争论，大半会自行了结。",
+          "flavor": "「偏移」是「某个颜色里、不属于它在色轮上天然那一份、但并未削弱该色弱点的异能」——比如白色支付生命。而「破坏」则削弱了那个弱点：「一张能摧毁结界的红色牌，因为那本该是红色的弱点。」"
+        },
+        {
+          "title": "要在「实际被用到的东西」上量频率，而不是在「你出货了的东西」上量",
+          "rules": "去数某样东西在你的产出里出现了多少次，得到的是「平均一个接收者会遇到多少」。而只去数人们真正拿上场的那一部分，得到的才是「这个环境实际会是什么手感」。当问题关乎竞技层面的影响时，真正算数的是后一个数字。",
+          "flavor": "「每包张数」会把带有某异能的全部二十五张牌按稀有度加权。而「实战出现率」可能只数其中高水平对局里预期会用的十三张，「这让我们更清楚：我们看的这一子集，是否会以足够的量出现，从而按我们想要的方式影响赛制」。"
+        },
+        {
+          "title": "把一套强力组合分散到不同的到期周期里，否则纠错机制够不着它",
+          "rules": "如果支撑某个统治性策略的所有零件是同时到场、又同时退场的，那你的轮替机制就无法提前把它拆掉：整套东西会一直活到它最年轻的那个零件到期为止。请刻意让强力组合的来源横跨不同批次，好让纠错有个把手可抓。",
+          "flavor": "「环境怪物」指的是一副完全由同一个万智牌年份的牌搭成的套牌。「如果一副全在同一年之内的套牌变得过强，那就要多等一年，轮替才碰得到它。一般来说，我们会尽量避免出现环境怪物。」"
+        },
+        {
+          "title": "当下游工作必须提早开工时，先把最不可能变的那些交出去",
+          "rules": "另一个工种的日程，通常在你这边尘埃落定之前就已经开跑；而你交付东西的先后次序，无论你有没有意识到，都是一个由你作出的决定。请按「你有多确信这件东西活得下来」来排序，而不是按它有多重要。",
+          "flavor": "美术是分波次分配的。「通常，主设计师最有把握的那些牌，或是不论机制如何、视觉身份都已然明确的那些牌（比如我们确知会在系列里的传奇生物），会被放进较早的波次。」"
+        },
+        {
+          "title": "当成品已经定死、而需求却挪了位时，去做交换，而不是重新委托",
+          "rules": "一件已经完工、却不再符合其委托要求的作品，看上去像是一笔要冲销的损失。在下单做替换之前，先看看同一批里有没有另一件正好朝相反方向漂移了：两处错配，往往可以靠交换「各自所依附的对象」来一并解决。",
+          "flavor": "「美术互换」就是把两张牌的画面对调，用在改动与画面相抵触的时候。「我们想给某个生物加上飞行，可它的画面里并没有在飞。那我们可以给一个加上飞行、从另一个身上拿掉，然后把两张画对调。」"
+        },
+        {
+          "title": "放进一些「奖励你去做系统所教之外的事」的东西",
+          "rules": "任何一个环境最终都会被解开：人们学会了它预设的那些策略，接着重复感便来了。真正延长它寿命的，是少量那种「回报一个完全不同的计划」的部件；而且它们出现得足够早，早到有人愿意为追逐它而下注。",
+          "flavor": "「围绕构筑」类的牌「鼓励有经验的轮抽玩家：当他们早早拿到这张牌时，去尝试一条不同于本系列常规原型的路线。这类牌是延长一个轮抽环境寿命的重要工具」。"
+        },
+        {
+          "title": "给整个组织留一条成本极低的通道，用来对最高风险的那批东西发表意见",
+          "rules": "承载分量最重的那些东西，理应被比「做它的那个团队」更多的眼睛看过；可一场正式评审要花掉所有人一天。请把作品摆在人们本来就会路过的地方，把「回应」变得毫不费力，并对任何人开放——参与的成本高低，决定了你究竟听不听得到他们的声音。",
+          "flavor": "「当一个系列接近完成时，我们会把所有秘稀牌印成大幅，贴到坑区旁边的一面墙上。X工作室的所有成员都被鼓励在上面留言。」而稀有牌投票以问卷做同一件事：任何有兴趣的员工都可以为系列里的每一张稀有牌打分。"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "id": "variance-part-1-2019-12-16",
+  "slug": "variance-part-1-2019-12-16",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2019-12-17",
+  "series": {
+    "id": "variance",
+    "order": 1,
+    "total": 2
+  },
+  "tags": [
+    "game-design",
+    "design-philosophy",
+    "audience"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/variance-part-1-2019-12-16",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T18:00:52.546Z",
+  "lessons": [
+    {
+      "n": 1,
+      "color": "U"
+    },
+    {
+      "n": 2,
+      "color": "W"
+    },
+    {
+      "n": 3,
+      "color": "U"
+    },
+    {
+      "n": 4,
+      "color": "W"
+    },
+    {
+      "n": 5,
+      "color": "B"
+    },
+    {
+      "n": 6,
+      "color": "G"
+    },
+    {
+      "n": 7,
+      "color": "R"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Variance, Part 1",
+      "dek": "Two perpendicular scales — how differently a thing plays out, and how much say you have in it — and the four audiences their grid produces.",
+      "overview": "Rosewater defines variance as how differently a gameplay element plays out from one experience to the next, then separates it from a second scale, choice. He catalogues the levers that produce variance at three zoom levels — a card, a mechanic, a whole deck — lists what each end of both scales buys you, and crosses them into four quadrants.",
+      "takeaway": "Every quality in the list is somebody's requirement: high choice with low variance suits experienced competitive players, high choice with high variance experienced casual ones, low choice with low variance newer competitive players, and low choice with high variance beginners.",
+      "lessons": [
+        {
+          "title": "How varied a thing is and how much say you have are perpendicular",
+          "rules": "Unpredictability and agency get discussed as one quality and are two. Something can change wildly without you touching it, or offer endless decisions that always resolve the same way, and confusing the two makes both impossible to tune.",
+          "flavor": "Rosewater's pair of scales: variance is “how differently a gameplay element plays out from one play experience to the next,” and choice is whether “your input affects how it functions.” Drawing a card is high variance and low choice."
+        },
+        {
+          "title": "Crossing two scales gives you an audience map",
+          "rules": "When two independent qualities each have a defensible high and low end, the grid they form is not four design options but four constituencies. Pick the quadrant you're aiming at and the arguments about which end is better resolve themselves.",
+          "flavor": "High choice with low variance is where experienced competitive players live; high choice with high variance suits experienced casual players; low choice with low variance suits newer competitive players; low choice with high variance is what beginners like, being simplest to grasp and best for the occasional upset."
+        },
+        {
+          "title": "An option nobody takes contributes nothing",
+          "rules": "Counting available options tells you about the interface, not the experience. If one is clearly correct most of the time, the others are decoration — so measure how often each is actually chosen before crediting a design with flexibility.",
+          "flavor": "Tutoring is the extreme case: enormous choice, and “often low variance because you're highly encouraged to always name the same card game to game.” The same trap applies to modal cards — “if a card gives you three choices but you're almost always going to choose the same one, that card has less variance overall.”"
+        },
+        {
+          "title": "Treat variance as a list of named dials rather than a property",
+          "rules": "Something described only as feeling samey can't be fixed. Break it into the specific mechanisms that generate difference, and each becomes a thing you can turn up or down deliberately.",
+          "flavor": "For a single card Rosewater names seven: targeting, modes, selecting a specific card, interacting with an unknown zone, randomisers, effects that read other cards, and additional costs. For a mechanic, five more; for a deck, five more again."
+        },
+        {
+          "title": "To change how varied a family feels, move which end of it is fixed",
+          "rules": "A repeating element has an input and an output, and holding one steady while varying the other is a deliberate choice with consequences. Which end you pin determines whether instances feel like one thing doing many jobs or many things doing one.",
+          "flavor": "Proliferate holds its output constant and varies its inputs; landfall holds its input constant — a land entering under your control — and varies its outputs; devotion varies both its thresholds and its effects. Cycling varies its cost, Food fixes it."
+        },
+        {
+          "title": "One dial can move two opposed outcomes at once",
+          "rules": "Before asking whether to increase something, check whether it has effects that pull against each other. A quality that both raises the reward for expertise and raises the chance the weaker party wins cannot be settled with a single question about whether you want skill to matter.",
+          "flavor": "Under the advantages of high variance, Rosewater lists both “rewards game comprehension” — the pieces are harder to learn, so the better player benefits — and “easier for less-experienced players to win,” because bigger luck swings let a worse player take a game."
+        },
+        {
+          "title": "Choices cost time at the table",
+          "rules": "Every decision you hand someone is paid for in the seconds they spend on it and in how far ahead anyone can see. When pace matters, or when people need to plan several steps out, fewer decisions is a feature and not a compromise.",
+          "flavor": "Rosewater's list of what low choice buys: easier play, simpler board states, the ability to think further ahead — “choices lead to many potential future board states, making it harder to predict what will happen” — and faster games, since “thinking slows down gameplay.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Varianza, parte 1",
+      "dek": "Dos escalas perpendiculares —cuán distinto se desarrolla algo y cuánta voz tienes en ello— y las cuatro audiencias que produce su cuadrícula.",
+      "overview": "Rosewater define la varianza como lo distinto que se desarrolla un elemento de juego de una experiencia a la siguiente, y luego la separa de una segunda escala: la elección. Cataloga las palancas que producen varianza en tres niveles de zoom —una carta, una mecánica, un mazo entero—, enumera lo que compra cada extremo de ambas escalas y las cruza en cuatro cuadrantes.",
+      "takeaway": "Toda cualidad de la lista es el requisito de alguien: mucha elección con poca varianza va con los competitivos veteranos; mucha elección con mucha varianza, con los casuales veteranos; poca elección con poca varianza, con los competitivos nuevos; y poca elección con mucha varianza, con los principiantes.",
+      "lessons": [
+        {
+          "title": "Cuán variable es algo y cuánta voz tienes en ello son ejes perpendiculares",
+          "rules": "La imprevisibilidad y la agencia se comentan como una cualidad y son dos. Algo puede cambiar salvajemente sin que lo toques, u ofrecer decisiones infinitas que siempre se resuelven igual; confundirlas hace imposible ajustar ninguna.",
+          "flavor": "El par de escalas de Rosewater: la varianza es «cuán distinto se desarrolla un elemento de juego de una experiencia a la siguiente», y la elección es si «tu intervención afecta a cómo funciona». Robar una carta es mucha varianza y poca elección."
+        },
+        {
+          "title": "Cruzar dos escalas te da un mapa de audiencias",
+          "rules": "Cuando dos cualidades independientes tienen cada una un extremo alto y otro bajo defendibles, la cuadrícula que forman no son cuatro opciones de diseño sino cuatro públicos. Elige el cuadrante al que apuntas y las discusiones sobre qué extremo es mejor se resuelven solas.",
+          "flavor": "Mucha elección con poca varianza es donde viven los competitivos veteranos; mucha elección con mucha varianza va con los casuales veteranos; poca elección con poca varianza, con los competitivos nuevos; y poca elección con mucha varianza es lo que gusta a los principiantes: lo más fácil de captar y lo mejor para la sorpresa ocasional."
+        },
+        {
+          "title": "Una opción que nadie toma no aporta nada",
+          "rules": "Contar las opciones disponibles te informa sobre la interfaz, no sobre la experiencia. Si una es claramente correcta casi siempre, las demás son decoración: mide con qué frecuencia se elige cada una antes de atribuir flexibilidad a un diseño.",
+          "flavor": "El tutor es el caso extremo: elección enorme y «a menudo poca varianza porque se te anima mucho a nombrar siempre la misma carta partida tras partida». La misma trampa vale para las cartas modales: «si una carta te da tres opciones pero casi siempre eliges la misma, tiene menos varianza en conjunto»."
+        },
+        {
+          "title": "Trata la varianza como una lista de diales con nombre, no como una propiedad",
+          "rules": "Algo descrito sólo como «se siente repetitivo» no se puede arreglar. Descomponlo en los mecanismos concretos que generan diferencia, y cada uno se convierte en algo que puedes subir o bajar a propósito.",
+          "flavor": "Para una sola carta, Rosewater nombra siete: objetivos, modos, seleccionar una carta concreta, interactuar con una zona desconocida, aleatorizadores, efectos que leen otras cartas y costes adicionales. Para una mecánica, cinco más; para un mazo, otros cinco."
+        },
+        {
+          "title": "Para cambiar cuán variada se siente una familia, mueve qué extremo está fijo",
+          "rules": "Un elemento que se repite tiene una entrada y una salida, y mantener una quieta mientras varía la otra es una decisión con consecuencias. El extremo que fijes determina si las instancias parecen una cosa haciendo muchos trabajos o muchas cosas haciendo uno.",
+          "flavor": "Proliferar mantiene constante su salida y varía sus entradas; landfall mantiene constante su entrada —una tierra que entra bajo tu control— y varía sus salidas; la devoción varía tanto sus umbrales como sus efectos. Ciclo varía su coste; la comida lo fija."
+        },
+        {
+          "title": "Un mismo dial puede mover dos resultados opuestos a la vez",
+          "rules": "Antes de preguntarte si subir algo, comprueba si tiene efectos que tiran en sentidos contrarios. Una cualidad que aumenta a la vez el premio a la pericia y la probabilidad de que gane el más débil no se zanja con una sola pregunta sobre si quieres que importe la habilidad.",
+          "flavor": "Entre las ventajas de la alta varianza, Rosewater enumera tanto «premia la comprensión del juego» —las piezas son más difíciles de aprender, así que gana el mejor jugador— como «es más fácil que ganen los menos experimentados», porque los vaivenes de suerte mayores permiten que un peor jugador se lleve una partida."
+        },
+        {
+          "title": "Las elecciones cuestan tiempo en la mesa",
+          "rules": "Cada decisión que entregas se paga con los segundos que la persona le dedica y con cuánto puede anticipar cualquiera. Cuando el ritmo importa, o cuando hace falta planear varios pasos, menos decisiones es una virtud y no una concesión.",
+          "flavor": "La lista de lo que compra la poca elección: juego más fácil, estados de mesa más simples, poder pensar más adelante —«las elecciones generan muchos estados futuros posibles y dificultan predecir qué pasará»— y partidas más rápidas, porque «pensar ralentiza el juego»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Variance, partie 1",
+      "dek": "Deux échelles perpendiculaires — à quel point une chose se déroule différemment, et quelle voix vous y avez — et les quatre publics que leur grille produit.",
+      "overview": "Rosewater définit la variance comme l'écart de déroulement d'un élément de jeu d'une expérience à la suivante, puis la sépare d'une seconde échelle : le choix. Il catalogue les leviers qui produisent de la variance à trois niveaux de zoom — une carte, une mécanique, un deck entier —, énumère ce qu'achète chaque extrémité des deux échelles, et les croise en quatre quadrants.",
+      "takeaway": "Chaque qualité de la liste est l'exigence de quelqu'un : beaucoup de choix et peu de variance convient aux compétitifs aguerris ; beaucoup de choix et beaucoup de variance aux casuels aguerris ; peu de choix et peu de variance aux compétitifs débutants ; peu de choix et beaucoup de variance aux novices.",
+      "lessons": [
+        {
+          "title": "À quel point une chose varie et quelle voix vous y avez sont perpendiculaires",
+          "rules": "L'imprévisibilité et la maîtrise sont discutées comme une seule qualité et en font deux. Une chose peut changer follement sans que vous y touchiez, ou offrir d'innombrables décisions qui se résolvent toujours pareil ; les confondre rend les deux impossibles à régler.",
+          "flavor": "Les deux échelles de Rosewater : la variance est « à quel point un élément de jeu se déroule différemment d'une partie à l'autre », et le choix est de savoir si « votre intervention affecte son fonctionnement ». Piocher une carte, c'est haute variance et faible choix."
+        },
+        {
+          "title": "Croiser deux échelles donne une carte des publics",
+          "rules": "Quand deux qualités indépendantes ont chacune un haut et un bas défendables, la grille qu'elles forment n'est pas quatre options de conception mais quatre publics. Choisissez le quadrant visé et les querelles sur la meilleure extrémité se règlent d'elles-mêmes.",
+          "flavor": "Beaucoup de choix avec peu de variance : les compétitifs aguerris. Beaucoup de choix et beaucoup de variance : les casuels aguerris. Peu de choix et peu de variance : les compétitifs débutants. Peu de choix et beaucoup de variance : les novices, car c'est le plus simple à saisir et le meilleur pour l'exploit occasionnel."
+        },
+        {
+          "title": "Une option que personne ne prend n'apporte rien",
+          "rules": "Compter les options disponibles renseigne sur l'interface, pas sur l'expérience. Si l'une est clairement correcte la plupart du temps, les autres sont décoratives : mesurez la fréquence réelle de chaque choix avant de créditer un design de souplesse.",
+          "flavor": "Le tuteur est le cas extrême : choix énorme, et « souvent faible variance, car on est fortement incité à nommer toujours la même carte d'une partie à l'autre ». Même piège pour les cartes modales : « si une carte offre trois choix mais que vous prenez presque toujours le même, elle a globalement moins de variance »."
+        },
+        {
+          "title": "Traitez la variance comme une liste de molettes nommées, non comme une propriété",
+          "rules": "Une chose décrite seulement comme « ça se ressemble toujours » ne peut pas être réparée. Décomposez-la en mécanismes précis qui produisent de la différence, et chacun devient quelque chose que vous pouvez monter ou baisser exprès.",
+          "flavor": "Pour une seule carte, Rosewater en nomme sept : ciblage, modes, sélection d'une carte précise, interaction avec une zone inconnue, aléa, effets qui lisent d'autres cartes, coûts additionnels. Pour une mécanique, cinq de plus ; pour un deck, cinq autres encore."
+        },
+        {
+          "title": "Pour changer la variété ressentie d'une famille, déplacez l'extrémité fixe",
+          "rules": "Un élément récurrent a une entrée et une sortie, et immobiliser l'une en faisant varier l'autre est un choix à conséquences. L'extrémité que vous fixez décide si les instances semblent une chose faisant plusieurs métiers ou plusieurs choses faisant le même.",
+          "flavor": "La prolifération garde sa sortie constante et varie ses entrées ; l'atterrissement garde son entrée constante — un terrain arrivant sous votre contrôle — et varie ses sorties ; la dévotion varie seuils et effets. Le recyclage varie son coût, la nourriture le fixe."
+        },
+        {
+          "title": "Une même molette peut déplacer deux résultats opposés à la fois",
+          "rules": "Avant de demander s'il faut augmenter quelque chose, vérifiez si ses effets tirent en sens contraires. Une qualité qui augmente à la fois la récompense de l'expertise et la probabilité que le plus faible l'emporte ne se tranche pas par une seule question sur la place de l'habileté.",
+          "flavor": "Parmi les avantages de la haute variance, Rosewater liste à la fois « récompense la compréhension du jeu » — les pièces sont plus dures à apprendre, donc le meilleur joueur en profite — et « il est plus facile aux joueurs moins expérimentés de gagner », les grands écarts de chance permettant à un moins bon de rafler une partie."
+        },
+        {
+          "title": "Les choix coûtent du temps à la table",
+          "rules": "Chaque décision que vous confiez se paie en secondes passées dessus et en horizon de prévision de tous. Quand le rythme compte, ou qu'il faut planifier plusieurs coups à l'avance, moins de décisions est une qualité et non un renoncement.",
+          "flavor": "Ce qu'achète le faible choix selon Rosewater : jeu plus facile, états de plateau plus simples, capacité à voir plus loin — « les choix créent de nombreux états futurs possibles, ce qui rend la prédiction difficile » — et parties plus rapides, puisque « réfléchir ralentit le jeu »."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Variância, parte 1",
+      "dek": "Duas escalas perpendiculares — o quanto uma coisa se desenrola de forma diferente, e quanta voz você tem nisso — e os quatro públicos que a grade delas produz.",
+      "overview": "Rosewater define variância como o quanto um elemento de jogo se desenrola de forma diferente de uma experiência para a seguinte, e então a separa de uma segunda escala: a escolha. Ele cataloga as alavancas que produzem variância em três níveis de zoom — uma carta, uma mecânica, um baralho inteiro —, lista o que cada extremo das duas escalas compra, e cruza as duas em quatro quadrantes.",
+      "takeaway": "Toda qualidade da lista é a exigência de alguém: muita escolha com pouca variância serve aos competitivos experientes; muita escolha com muita variância, aos casuais experientes; pouca escolha com pouca variância, aos competitivos novatos; e pouca escolha com muita variância, aos iniciantes.",
+      "lessons": [
+        {
+          "title": "O quanto uma coisa varia e quanta voz você tem nela são eixos perpendiculares",
+          "rules": "Imprevisibilidade e agência são discutidas como uma qualidade só e são duas. Algo pode mudar loucamente sem você tocar, ou oferecer decisões infinitas que sempre se resolvem igual; confundir as duas torna ambas impossíveis de ajustar.",
+          "flavor": "O par de escalas de Rosewater: variância é “o quanto um elemento de jogo se desenrola de forma diferente de uma partida para a seguinte”, e escolha é se “a sua intervenção afeta como aquilo funciona”. Comprar uma carta é alta variância e baixa escolha."
+        },
+        {
+          "title": "Cruzar duas escalas dá um mapa de públicos",
+          "rules": "Quando duas qualidades independentes têm cada uma um extremo alto e um baixo defensáveis, a grade que formam não são quatro opções de design, e sim quatro públicos. Escolha o quadrante que você mira e as brigas sobre qual extremo é melhor se resolvem sozinhas.",
+          "flavor": "Muita escolha com pouca variância é onde vivem os competitivos experientes; muita escolha com muita variância serve aos casuais experientes; pouca escolha com pouca variância, aos competitivos novatos; e pouca escolha com muita variância é o que os iniciantes gostam, sendo o mais simples de entender e o melhor para a zebra ocasional."
+        },
+        {
+          "title": "Uma opção que ninguém toma não contribui com nada",
+          "rules": "Contar opções disponíveis informa sobre a interface, não sobre a experiência. Se uma é claramente correta quase sempre, as outras são enfeite: meça com que frequência cada uma é de fato escolhida antes de creditar flexibilidade a um design.",
+          "flavor": "O tutor é o caso extremo: escolha enorme e “muitas vezes baixa variância, porque você é fortemente incentivado a nomear sempre a mesma carta partida após partida”. A mesma armadilha vale para cartas modais: “se uma carta dá três opções mas você quase sempre pega a mesma, ela tem menos variância no todo”."
+        },
+        {
+          "title": "Trate variância como uma lista de botões nomeados, não como uma propriedade",
+          "rules": "Algo descrito apenas como “parece sempre igual” não tem conserto. Decomponha nos mecanismos específicos que geram diferença, e cada um vira algo que você pode subir ou descer de propósito.",
+          "flavor": "Para uma única carta, Rosewater nomeia sete: alvos, modos, selecionar uma carta específica, interagir com uma zona desconhecida, aleatorizadores, efeitos que leem outras cartas e custos adicionais. Para uma mecânica, mais cinco; para um baralho, outros cinco."
+        },
+        {
+          "title": "Para mudar o quanto uma família parece variada, mude qual extremo está fixo",
+          "rules": "Um elemento que se repete tem uma entrada e uma saída, e manter uma parada enquanto varia a outra é uma decisão com consequências. O extremo que você prende determina se as instâncias parecem uma coisa fazendo muitos trabalhos ou muitas coisas fazendo um.",
+          "flavor": "Proliferar mantém a saída constante e varia as entradas; landfall mantém a entrada constante — um terreno entrando sob seu controle — e varia as saídas; devoção varia tanto os limiares quanto os efeitos. Ciclar varia o custo; comida o fixa."
+        },
+        {
+          "title": "Um mesmo botão pode mover dois resultados opostos ao mesmo tempo",
+          "rules": "Antes de perguntar se deve aumentar algo, cheque se ele tem efeitos que puxam em sentidos contrários. Uma qualidade que ao mesmo tempo aumenta o prêmio da perícia e a chance de o mais fraco vencer não se resolve com uma única pergunta sobre se você quer que a habilidade conte.",
+          "flavor": "Entre as vantagens da alta variância, Rosewater lista tanto “premia a compreensão do jogo” — as peças são mais difíceis de aprender, então o melhor jogador se beneficia — quanto “é mais fácil jogadores menos experientes vencerem”, porque oscilações maiores de sorte deixam um jogador pior levar uma partida."
+        },
+        {
+          "title": "Escolhas custam tempo na mesa",
+          "rules": "Cada decisão que você entrega é paga nos segundos gastos com ela e no quanto qualquer um consegue enxergar adiante. Quando o ritmo importa, ou quando é preciso planejar vários passos, menos decisões é uma virtude e não uma concessão.",
+          "flavor": "O que a baixa escolha compra, segundo Rosewater: jogo mais fácil, estados de mesa mais simples, capacidade de pensar mais adiante — “escolhas geram muitos estados futuros possíveis, dificultando prever o que vai acontecer” — e partidas mais rápidas, já que “pensar desacelera o jogo”."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "变异度（上）",
+      "dek": "两条互相垂直的刻度——一样东西每次展开得有多不同，以及你对它有多少发言权——以及它们交叉出的四类受众。",
+      "overview": "罗斯瓦特把「变异度」定义为一个游戏元素在两次体验之间展开得有多不同，然后把它与第二条刻度「选择」分开。他在三个尺度上——一张牌、一个机制、一整副套牌——清点出产生变异度的各种杠杆，列出两条刻度各自两端分别买来什么，最后把它们交叉成四个象限。",
+      "takeaway": "这份清单上的每一种性质都是某些人的刚需：高选择低变异适合资深竞技玩家，高选择高变异适合资深休闲玩家，低选择低变异适合刚入门的竞技玩家，而低选择高变异正是新手最喜欢的。",
+      "lessons": [
+        {
+          "title": "一样东西有多变，和你对它有多少发言权，是两条垂直的轴",
+          "rules": "不可预测性与主动权常被当成同一种性质来谈，其实是两种。有些东西你完全不去碰它也会剧烈变化；有些东西给你无穷的决定，却每次都以同样的方式收场。把两者混为一谈，就等于让两者都没法调。",
+          "flavor": "罗斯瓦特的两条刻度：变异度是「一个游戏元素在两次游戏体验之间展开得有多不同」，而选择则是「你的输入是否影响它如何运作」。抽一张牌，就是高变异、低选择。"
+        },
+        {
+          "title": "把两条刻度交叉起来，得到的是一张受众地图",
+          "rules": "当两种彼此独立的性质各自都有站得住脚的高端与低端时，它们构成的方格不是四个设计选项，而是四群人。选定你要瞄准的那一格，关于「哪一端更好」的争论就自行消失了。",
+          "flavor": "高选择、低变异是资深竞技玩家的地盘；高选择、高变异适合资深休闲玩家；低选择、低变异适合刚入门的竞技玩家；而低选择、高变异是新手的最爱——最容易理解，也最有机会偶尔爆冷。"
+        },
+        {
+          "title": "没人会去选的选项，什么也没贡献",
+          "rules": "数一数有多少可选项，告诉你的是界面，而不是体验。如果其中一个在大多数时候明显正确，其余的就只是装饰——所以在为某个设计的「灵活」记功之前，先量一量每个选项实际被选中的频率。",
+          "flavor": "教程类牌是极端例子：选择极大，却「往往变异度很低，因为你被强烈地鼓励每局都点同一张牌」。同一个陷阱也适用于模式牌：「如果一张牌给你三个选项，而你几乎总是选同一个，那它整体的变异度反而更低。」"
+        },
+        {
+          "title": "把变异度当成一份有名字的旋钮清单，而不是一种属性",
+          "rules": "一个只能被描述为「玩起来老是一个样」的东西，是没法修的。把它拆成具体产生差异的那些机制，于是每一个都变成你可以刻意调高调低的东西。",
+          "flavor": "光是一张牌，罗斯瓦特就点出七个：指定目标、模式、选定某张具体的牌、与未知区域互动、随机装置、读取其他牌的效果，以及额外费用。到了机制层面还有五个；到了套牌层面又是五个。"
+        },
+        {
+          "title": "想改变一族东西给人的多样感，就换一端来固定",
+          "rules": "一个反复出现的元素有输入也有输出，固定其一而让另一端变化，是一个带后果的决定。你钉住哪一端，决定了这些个例给人的感觉是「一样东西在干很多活」还是「很多东西在干同一件活」。",
+          "flavor": "增殖固定输出、变化输入；地落固定输入——一块地在你的操控下进场——而变化输出；虔敬则两端都变，阈值不同、效果也不同。循环的费用因牌而异，而食物的费用则被锁死。"
+        },
+        {
+          "title": "同一个旋钮可能同时推动两个相反的结果",
+          "rules": "在问「要不要把某样东西调高」之前，先看看它的各项效应是不是在互相拉扯。一种既提高对精通的回报、又提高弱者获胜概率的性质，没法用「你希不希望技术更重要」这一个问题来定案。",
+          "flavor": "在高变异度的好处里，罗斯瓦特同时列出了「奖励对游戏的理解」——各个零件更难学会，于是更强的玩家受益——和「让经验较少的玩家更容易赢」，因为更大的运气摆动会让水平较差的一方拿下一局。"
+        },
+        {
+          "title": "选择在牌桌上是要花时间的",
+          "rules": "你交给别人的每一个决定，都要用他花在上面的秒数、以及所有人能预见多远来支付。当节奏重要、或者人们需要往前规划好几步时，更少的决定是一项优点，而不是一次让步。",
+          "flavor": "罗斯瓦特列出低选择买来了什么：更容易上手、更简单的场面、能想得更远——「选择会带出许多可能的未来场面，让人更难预测接下来会怎样」——以及更快的对局，因为「思考会拖慢节奏」。"
+        }
+      ]
+    }
+  }
+}

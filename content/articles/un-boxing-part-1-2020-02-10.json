@@ -1,0 +1,277 @@
+{
+  "id": "un-boxing-part-1-2020-02-10",
+  "slug": "un-boxing-part-1-2020-02-10",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2020-02-11",
+  "series": {
+    "id": "un-boxing",
+    "order": 1,
+    "total": 3
+  },
+  "tags": [
+    "un-sets",
+    "card-by-card",
+    "product-design"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/un-boxing-part-1-2020-02-10",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T18:08:56.528Z",
+  "lessons": [
+    {
+      "n": 1,
+      "color": "W"
+    },
+    {
+      "n": 2,
+      "color": "W"
+    },
+    {
+      "n": 3,
+      "color": "R"
+    },
+    {
+      "n": 4,
+      "color": "U"
+    },
+    {
+      "n": 5,
+      "color": "B"
+    },
+    {
+      "n": 6,
+      "color": "B"
+    },
+    {
+      "n": 7,
+      "color": "G"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Un-Boxing, Part 1",
+      "dek": "Unsanctioned began as a product built to sit on a shelf until needed — and the first four of its sixteen new cards.",
+      "overview": "Gavin Verhey was handed a brief codenamed Parachute: make a product now, hold it, release it whenever a gap appears. Rosewater explains why silver border solved that brief, lists the six things he wanted the new cards to deliver, and then walks through Abstract Iguanart, Acornelia, Alexander Clamilton and Bat- in detail.",
+      "takeaway": "Every one of the four cards is a wishlist item colliding with the half-deck structure, and the design work is almost entirely about making the collision survivable.",
+      "lessons": [
+        {
+          "title": "Design for an unknown release date and the constraints derive themselves",
+          "rules": "Something built to be deployed at a moment nobody can predict cannot depend on anything around it. Work out what that rules out — timeliness, interlocking with neighbours, consuming a shared resource somebody else may need first — and you have your specification without anyone writing one.",
+          "flavor": "The brief was codenamed Parachute: a product to hold in reserve and pull when needed. It therefore couldn't be timely, couldn't strand a high-demand reprint that a scheduled set might want, and had to work alone. Silver border answered all of it — “it wouldn't cause any tension with sets around it, no matter when it was released.”"
+        },
+        {
+          "title": "When a wanted feature fights the format, make it work without its second half",
+          "rules": "Sometimes an audience wants something the structure can't hold. Rather than dropping it or distorting the structure, build the version that is complete on its own and gains the wanted property as an extra, so it degrades gracefully when the conditions aren't met.",
+          "flavor": "Enemy-coloured commanders were wanted, in a product of five monocolour half-decks. The answer: a single-colour mana cost plus an activated ability of a second colour, giving a two-colour identity — “the trick was making sure the card functioned without the second color in case you didn't pair up with the half-deck of that second color.”"
+        },
+        {
+          "title": "Reverse a mechanic's direction when the original suited a different format",
+          "rules": "A mechanic that rewards concentrating on one thing behaves badly wherever people can't choose their whole pool. Flip the incentive to reward variety instead, and the same idea starts working in exactly the places the original failed.",
+          "flavor": "Unhinged's artist-matters cards pushed you to play many cards by one artist — fine in casual Constructed, poor in Limited, worse in a half-deck product. “What if we went in the opposite direction? What if the card rewarded you for playing different artists?”"
+        },
+        {
+          "title": "When your key is unstable, key off a stable proxy",
+          "rules": "Identifiers you don't control will change: people are credited differently, records get corrected, names are legally changed. Find a coarser property that moves with the thing you meant but not with its label, and check what else the coarsening buys you.",
+          "flavor": "Recording the artist broke on artists who had changed how they wished to be credited. Caring about the first letter of the name instead still discouraged repeats, slowed the creature's growth in a way that helped balance, and produced a new creature type — Art."
+        },
+        {
+          "title": "When the population is too small, widen the predicate rather than the population",
+          "rules": "A theme with too few members to build around doesn't necessarily need more members made. Look for a property that captures the same feeling by a different test, especially one your medium permits and your usual rules do not.",
+          "flavor": "Only about twenty-two cards mention Squirrel by name — not enough for a deck. Silver border allowed caring about “a quality of squirrel-ness that black border couldn't — the art,” so Acornelia also triggers on casting cards with squirrels pictured on them."
+        },
+        {
+          "title": "Pick the subject whose expectations are cheapest to satisfy",
+          "rules": "Two subjects can deliver the same feeling and carry very different bills, because the audience expects more from one of them. When the tone is what matters, take the one that arrives already priced where you need it.",
+          "flavor": "The black augment wanted a creature. “My first thought was a Vampire, but I realized that a Bat would have a similar feel and wouldn't need as much of a bonus. A Bat let us do +1/+1. It also allowed us to add flying.”"
+        },
+        {
+          "title": "For a figure people know, the brief is the short list of what they know",
+          "rules": "When your subject is already familiar, don't research it — enumerate the two or three facts a general audience actually carries, and build from those. Anything outside that list will read as arbitrary no matter how accurate it is.",
+          "flavor": "For Alexander Clamilton they asked what people knew about Hamilton: a prolific writer, in government, died in a duel. The card cares about wordy spells, scrys to set up the top of your library, and has a red activation that makes him duel."
+        }
+      ]
+    },
+    "es": {
+      "title": "Un-Boxing, parte 1",
+      "dek": "Unsanctioned empezó como un producto hecho para esperar en un estante hasta hacer falta, y las primeras cuatro de sus dieciséis cartas nuevas.",
+      "overview": "A Gavin Verhey le encargaron un proyecto con nombre en clave Parachute: hacer ya un producto, guardarlo y sacarlo cuando apareciera un hueco. Rosewater explica por qué el borde plateado resolvía ese encargo, enumera las seis cosas que quería que entregaran las cartas nuevas y luego desmenuza Abstract Iguanart, Acornelia, Alexander Clamilton y Bat-.",
+      "takeaway": "Cada una de las cuatro cartas es un deseo de la lista chocando con la estructura de medio mazo, y el trabajo de diseño consiste casi por completo en hacer que el choque sea sobrevivible.",
+      "lessons": [
+        {
+          "title": "Diseña para una fecha de salida desconocida y las restricciones se deducen solas",
+          "rules": "Algo construido para desplegarse en un momento que nadie puede prever no puede depender de nada de su entorno. Deduce qué queda descartado —lo de actualidad, el engranaje con los vecinos, consumir un recurso compartido que otro pueda necesitar antes— y tendrás tu especificación sin que nadie la escriba.",
+          "flavor": "El encargo tenía el nombre en clave Parachute: un producto de reserva que sacar cuando hiciera falta. Por eso no podía ser de actualidad, no podía dejar varada una reimpresión codiciada y debía funcionar solo. El borde plateado lo resolvía todo: «no generaría tensión con las colecciones de alrededor, se publicara cuando se publicara»."
+        },
+        {
+          "title": "Cuando una función deseada choca con el formato, haz que funcione sin su segunda mitad",
+          "rules": "A veces el público quiere algo que la estructura no puede sostener. En vez de descartarlo o deformar la estructura, construye la versión completa por sí sola que gana la propiedad deseada como extra, de modo que se degrade con elegancia cuando no se cumplan las condiciones.",
+          "flavor": "Se querían comandantes de colores enemigos, en un producto de cinco medios mazos monocolor. La respuesta: coste de maná de un solo color más una habilidad activada de un segundo color, dando identidad bicolor. «El truco era asegurar que la carta funcionara sin el segundo color por si no te emparejabas con ese medio mazo.»"
+        },
+        {
+          "title": "Invierte la dirección de una mecánica cuando la original servía a otro formato",
+          "rules": "Una mecánica que premia concentrarse en una cosa se porta mal allí donde la gente no elige todo su fondo de cartas. Dale la vuelta al incentivo para premiar la variedad, y la misma idea empieza a funcionar justo donde la original fracasaba.",
+          "flavor": "Las cartas de «importa el artista» de Unhinged empujaban a jugar muchas cartas del mismo artista: bien en Construido casual, mal en Limitado, peor en un producto de medios mazos. «¿Y si vamos en la dirección contraria? ¿Y si la carta te premia por jugar artistas distintos?»"
+        },
+        {
+          "title": "Cuando tu clave es inestable, usa un sustituto estable",
+          "rules": "Los identificadores que no controlas cambian: a la gente se le acredita de otro modo, se corrigen registros, se cambian nombres legalmente. Busca una propiedad más gruesa que se mueva con la cosa que querías decir pero no con su etiqueta, y comprueba qué más te compra ese engrosamiento.",
+          "flavor": "Registrar al artista se rompía con quienes habían cambiado cómo querían ser acreditados. Fijarse en la primera letra del nombre seguía desalentando repeticiones, ralentizaba el crecimiento de la criatura de una forma que ayudaba al equilibrio, y produjo un nuevo tipo de criatura: Arte."
+        },
+        {
+          "title": "Cuando la población es pequeña, ensancha el predicado en vez de la población",
+          "rules": "Un tema con muy pocos miembros para construir alrededor no necesariamente requiere fabricar más miembros. Busca una propiedad que capture la misma sensación con otra prueba, sobre todo una que tu medio permita y tus reglas habituales no.",
+          "flavor": "Sólo unas veintidós cartas nombran a la Ardilla: insuficiente para un mazo. El borde plateado permitía atender a «una cualidad de ardillez que el borde negro no podía: el arte», así que Acornelia también se dispara al lanzar cartas con ardillas dibujadas."
+        },
+        {
+          "title": "Elige el sujeto cuyas expectativas salen más baratas",
+          "rules": "Dos sujetos pueden dar la misma sensación y traer facturas muy distintas, porque el público espera más de uno de ellos. Cuando lo que importa es el tono, quédate con el que llega ya tarifado donde lo necesitas.",
+          "flavor": "El augment negro quería una criatura. «Mi primera idea fue un Vampiro, pero me di cuenta de que un Murciélago daría una sensación parecida sin necesitar tanta bonificación. Con un Murciélago podíamos poner +1/+1. También nos permitió añadir volar.»"
+        },
+        {
+          "title": "Para una figura conocida, el encargo es la breve lista de lo que se sabe de ella",
+          "rules": "Cuando tu sujeto ya es familiar, no investigues: enumera los dos o tres datos que el público general lleva de verdad encima y construye a partir de ahí. Lo que quede fuera de esa lista se leerá como arbitrario por muy exacto que sea.",
+          "flavor": "Para Alexander Clamilton se preguntaron qué sabía la gente de Hamilton: escritor prolífico, hombre de gobierno, muerto en un duelo. La carta atiende a los hechizos verbosos, adivina para preparar el tope de tu biblioteca y tiene una activación roja que lo hace batirse en duelo."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Un-Boxing, partie 1",
+      "dek": "Unsanctioned est né d'un produit conçu pour attendre sur une étagère jusqu'au besoin — et les quatre premières de ses seize cartes inédites.",
+      "overview": "Gavin Verhey reçut une commande au nom de code Parachute : fabriquer un produit maintenant, le garder, le sortir dès qu'un trou apparaîtrait. Rosewater explique pourquoi la bordure argentée répondait à cette commande, énumère les six choses qu'il voulait voir livrées par les cartes inédites, puis détaille Abstract Iguanart, Acornelia, Alexander Clamilton et Bat-.",
+      "takeaway": "Chacune des quatre cartes est un vœu de la liste heurtant la structure en demi-decks, et le travail de conception consiste presque entièrement à rendre le heurt survivable.",
+      "lessons": [
+        {
+          "title": "Concevez pour une date de sortie inconnue et les contraintes se déduisent d'elles-mêmes",
+          "rules": "Une chose bâtie pour être déployée à un moment imprévisible ne peut dépendre de rien autour d'elle. Déduisez ce que cela exclut — l'actualité, l'imbrication avec les voisins, la consommation d'une ressource partagée dont un autre aura besoin avant — et vous avez votre cahier des charges sans que personne l'écrive.",
+          "flavor": "La commande portait le nom de code Parachute : un produit tenu en réserve, à tirer au besoin. Il ne pouvait donc pas être d'actualité, ni immobiliser une réédition convoitée, et devait tenir seul. La bordure argentée réglait tout : « elle ne créerait aucune tension avec les éditions voisines, quelle que soit la date de sortie »."
+        },
+        {
+          "title": "Quand une fonctionnalité désirée heurte le format, faites-la marcher sans sa seconde moitié",
+          "rules": "Parfois le public veut ce que la structure ne peut porter. Plutôt que d'y renoncer ou de déformer la structure, bâtissez la version complète en elle-même qui gagne la propriété voulue en supplément : elle se dégrade alors proprement quand les conditions manquent.",
+          "flavor": "On voulait des commandants en couleurs ennemies, dans un produit de cinq demi-decks monocolores. La réponse : un coût de mana d'une seule couleur plus une capacité activée d'une seconde, d'où une identité bicolore. « L'astuce était de garantir que la carte fonctionne sans la seconde couleur, au cas où vous ne l'associeriez pas à ce demi-deck. »"
+        },
+        {
+          "title": "Inversez le sens d'une mécanique quand l'original servait un autre format",
+          "rules": "Une mécanique qui récompense la concentration sur une chose se comporte mal partout où l'on ne choisit pas tout son vivier. Retournez l'incitation pour récompenser la variété, et la même idée se met à fonctionner là même où l'originale échouait.",
+          "flavor": "Les cartes « l'illustrateur compte » d'Unhinged poussaient à jouer beaucoup de cartes d'un même illustrateur : bon en Construit casual, faible en Limité, pire en demi-decks. « Et si nous allions dans le sens inverse ? Si la carte récompensait le fait de jouer des illustrateurs différents ? »"
+        },
+        {
+          "title": "Quand votre clé est instable, indexez sur un substitut stable",
+          "rules": "Les identifiants que vous ne contrôlez pas changent : les crédits évoluent, les registres se corrigent, les noms changent légalement. Trouvez une propriété plus grossière qui suive la chose visée sans suivre son étiquette, et regardez ce que ce grossissement vous rapporte d'autre.",
+          "flavor": "Noter l'illustrateur cassait dès qu'un illustrateur avait changé sa façon d'être crédité. S'attacher à la première lettre du nom décourageait toujours les répétitions, ralentissait la croissance de la créature d'une manière utile à l'équilibre, et a produit un nouveau type de créature : Art."
+        },
+        {
+          "title": "Quand la population est trop petite, élargissez le prédicat plutôt que la population",
+          "rules": "Un thème comptant trop peu de membres pour construire autour n'exige pas forcément d'en fabriquer d'autres. Cherchez une propriété qui rende la même sensation par un autre test, surtout une que votre support autorise et que vos règles habituelles interdisent.",
+          "flavor": "Environ vingt-deux cartes nomment l'Écureuil : trop peu pour un deck. La bordure argentée permettait de se soucier d'« une qualité d'écureuillité que la bordure noire ne pouvait pas — l'illustration », si bien qu'Acornelia se déclenche aussi sur les cartes où figurent des écureuils."
+        },
+        {
+          "title": "Choisissez le sujet dont les attentes coûtent le moins cher",
+          "rules": "Deux sujets peuvent produire la même sensation et présenter des factures très différentes, car le public attend davantage de l'un. Quand c'est le ton qui compte, prenez celui qui arrive déjà tarifé là où il vous le faut.",
+          "flavor": "L'augment noir voulait une créature. « J'ai d'abord pensé à un Vampire, puis j'ai vu qu'une Chauve-souris donnerait une sensation voisine sans exiger autant de bonus. Une Chauve-souris permettait un +1/+1. Elle permettait aussi d'ajouter le vol. »"
+        },
+        {
+          "title": "Pour une figure connue, le cahier des charges est la courte liste de ce qu'on en sait",
+          "rules": "Quand votre sujet est déjà familier, ne le documentez pas : énumérez les deux ou trois faits que le grand public porte réellement en tête et bâtissez à partir de là. Tout ce qui déborde de cette liste paraîtra arbitraire, si exact soit-il.",
+          "flavor": "Pour Alexander Clamilton, ils ont demandé ce qu'on savait de Hamilton : écrivain prolifique, homme de gouvernement, mort en duel. La carte s'intéresse aux sorts verbeux, prédit pour préparer le dessus de la bibliothèque, et possède une activation rouge qui le fait se battre en duel."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Un-Boxing, parte 1",
+      "dek": "Unsanctioned começou como um produto feito para esperar na prateleira até ser preciso — e as quatro primeiras de suas dezesseis cartas novas.",
+      "overview": "Gavin Verhey recebeu uma encomenda de codinome Parachute: fazer um produto agora, guardá-lo, e lançá-lo quando aparecesse um buraco. Rosewater explica por que a borda prateada resolvia essa encomenda, lista as seis coisas que queria que as cartas novas entregassem, e então destrincha Abstract Iguanart, Acornelia, Alexander Clamilton e Bat-.",
+      "takeaway": "Cada uma das quatro cartas é um item da lista de desejos colidindo com a estrutura de meio baralho, e o trabalho de design consiste quase todo em tornar a colisão sobrevivível.",
+      "lessons": [
+        {
+          "title": "Projete para uma data de lançamento desconhecida e as restrições se deduzem sozinhas",
+          "rules": "Algo construído para ser lançado num momento que ninguém prevê não pode depender de nada ao redor. Deduza o que isso exclui — atualidade, engate com os vizinhos, consumir um recurso compartilhado de que outro pode precisar antes — e você tem sua especificação sem ninguém escrevê-la.",
+          "flavor": "A encomenda tinha o codinome Parachute: um produto de reserva, a ser puxado quando preciso. Não podia, portanto, ser atual, nem prender uma reimpressão cobiçada, e tinha de funcionar sozinho. A borda prateada resolvia tudo: “não causaria tensão com as coleções ao redor, não importa quando fosse lançada”."
+        },
+        {
+          "title": "Quando um recurso desejado briga com o formato, faça-o funcionar sem a segunda metade",
+          "rules": "Às vezes o público quer algo que a estrutura não sustenta. Em vez de largar aquilo ou deformar a estrutura, construa a versão completa por si só que ganha a propriedade desejada como extra, de modo que degrade com elegância quando as condições faltarem.",
+          "flavor": "Queriam-se comandantes de cores inimigas, num produto de cinco meios baralhos monocoloridos. A resposta: custo de mana de uma cor só mais uma habilidade ativada de uma segunda cor, gerando identidade bicolor. “O truque era garantir que a carta funcionasse sem a segunda cor, caso você não se emparelhasse com aquele meio baralho.”"
+        },
+        {
+          "title": "Inverta a direção de uma mecânica quando a original servia a outro formato",
+          "rules": "Uma mecânica que premia concentrar-se numa coisa se comporta mal onde as pessoas não escolhem todo o próprio conjunto. Vire o incentivo para premiar variedade, e a mesma ideia começa a funcionar exatamente onde a original falhava.",
+          "flavor": "As cartas de “o ilustrador importa” de Unhinged empurravam você a jogar muitas cartas do mesmo ilustrador: bom no Construído casual, ruim no Limitado, pior num produto de meios baralhos. “E se fôssemos na direção oposta? E se a carta premiasse jogar ilustradores diferentes?”"
+        },
+        {
+          "title": "Quando sua chave é instável, indexe por um substituto estável",
+          "rules": "Identificadores que você não controla mudam: pessoas passam a ser creditadas de outro jeito, registros são corrigidos, nomes mudam legalmente. Ache uma propriedade mais grossa que acompanhe a coisa pretendida sem acompanhar o rótulo dela, e veja o que mais esse engrossamento compra.",
+          "flavor": "Registrar o ilustrador quebrava com quem havia mudado como queria ser creditado. Olhar a primeira letra do nome ainda desestimulava repetições, freava o crescimento da criatura de um jeito útil ao equilíbrio, e produziu um novo tipo de criatura: Arte."
+        },
+        {
+          "title": "Quando a população é pequena demais, alargue o predicado em vez da população",
+          "rules": "Um tema com poucos membros para construir em volta não exige necessariamente fabricar mais membros. Procure uma propriedade que capture a mesma sensação por outro teste, sobretudo uma que seu meio permita e suas regras habituais não.",
+          "flavor": "Só umas vinte e duas cartas citam Esquilo pelo nome: pouco para um baralho. A borda prateada permitia ligar para “uma qualidade de esquilice que a borda preta não podia — a arte”, então Acornelia também dispara ao conjurar cartas com esquilos na ilustração."
+        },
+        {
+          "title": "Escolha o sujeito cujas expectativas saem mais baratas",
+          "rules": "Dois sujeitos podem entregar a mesma sensação e trazer contas bem diferentes, porque o público espera mais de um deles. Quando o que importa é o tom, fique com aquele que já chega precificado onde você precisa.",
+          "flavor": "O augment preto queria uma criatura. “Meu primeiro pensamento foi um Vampiro, mas percebi que um Morcego daria sensação parecida sem precisar de tanto bônus. Um Morcego permitia +1/+1. Também permitia acrescentar voar.”"
+        },
+        {
+          "title": "Para uma figura conhecida, o briefing é a lista curta do que se sabe dela",
+          "rules": "Quando seu sujeito já é familiar, não pesquise: enumere os dois ou três fatos que o público geral de fato carrega e construa a partir deles. Qualquer coisa fora dessa lista soará arbitrária por mais exata que seja.",
+          "flavor": "Para Alexander Clamilton perguntaram o que as pessoas sabiam de Hamilton: escritor prolífico, homem de governo, morto em um duelo. A carta liga para mágicas prolixas, adivinha para preparar o topo da biblioteca, e tem uma ativação vermelha que o faz duelar."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "拆盒（上）",
+      "dek": "《Unsanctioned》起初是一件为了「先放在货架上、需要时再拿」而做的产品——以及它十六张新牌里的头四张。",
+      "overview": "盖文·维尔黑接到一个代号「降落伞」的任务：现在就把一件产品做出来，先存着，等哪天出现空档再发。罗斯瓦特解释银框为什么正好解决了这个任务，列出他希望这些新牌兑现的六件事，然后逐张细讲 Abstract Iguanart、Acornelia、Alexander Clamilton 与 Bat-。",
+      "takeaway": "这四张牌，每一张都是愿望清单上的某一项撞上「半套牌」这个结构，而设计工作几乎全部都是在让这场碰撞能被扛下来。",
+      "lessons": [
+        {
+          "title": "为一个未知的发售日期做设计，各种约束会自己推导出来",
+          "rules": "一件要在谁也预测不了的时刻投放的东西，不能依赖它周围的任何东西。把这一点排除掉的项目推演一遍——时效性、与邻居的咬合、抢用某个别人可能更早需要的共享资源——你就在没人动笔写规格的情况下拿到了规格。",
+          "flavor": "这个任务的代号是「降落伞」：一件留作储备、需要时再拉开的产品。因此它不能有时效性、不能占死某张各方都想要的重印牌，而且必须能独立成立。银框把这些一次解决：「无论什么时候发，它都不会和周围的系列产生张力。」"
+        },
+        {
+          "title": "当一项想要的功能与格式相冲突时，让它在没有另一半时也能成立",
+          "rules": "有时受众想要的东西，结构承载不了。与其放弃它、或把结构扭曲掉，不如做出那个「自身就是完整的」版本，让那项想要的性质作为附加而来——于是条件不满足时，它是优雅地降级而不是失灵。",
+          "flavor": "人们想要敌对色的指挥官，而这件产品由五副单色半套牌组成。答案是：单色的法术力费用，加上一个第二色的起动式异能，从而拥有双色的标识。「诀窍在于确保这张牌在没有第二个颜色时也能运作——万一你没有和那个颜色的半套牌搭配起来。」"
+        },
+        {
+          "title": "当一个机制原本的方向服务的是另一种格式时，把它反过来",
+          "rules": "一个奖励「集中于一样东西」的机制，在人们无法挑选自己全部牌池的地方一定表现糟糕。把激励翻转过来去奖励多样性，同一个想法就会开始在原版失败的那些地方奏效。",
+          "flavor": "《Unhinged》的「画师有意义」类牌鼓励你放很多同一位画师的牌：在休闲构组里没问题，在限制赛里很差，在半套牌产品里更糟。「如果我们反过来呢？如果这张牌奖励你打不同画师的牌呢？」"
+        },
+        {
+          "title": "当你的键不稳定时，改用一个稳定的替代键",
+          "rules": "不由你控制的标识符是会变的：署名方式会改、记录会被更正、名字会依法变更。找一个更粗的性质，它随你真正想指的东西一起变，却不随那个标签变；然后看看这次「变粗」还额外买到了什么。",
+          "flavor": "记录画师这条路，在那些改过署名方式的画师身上断掉了。改成在意名字的首字母，既仍然抑制重复，又让这个生物长得慢一些从而帮到了平衡，还顺带造出一个新的生物类别——Art。"
+        },
+        {
+          "title": "当总数太少时，扩宽的应该是判定条件，而不是总数",
+          "rules": "一个成员太少、撑不起围绕它搭建的主题，不一定就得再造更多成员。去找一个能用另一种检验方式捕捉同样感觉的性质，尤其是那种你的媒介允许、而你平时的规则不允许的性质。",
+          "flavor": "全部只有约二十二张牌点名提到松鼠，撑不起一副套牌。银框允许他们在意「一种黑框做不到的松鼠性——画面」，于是 Acornelia 在你施放画着松鼠的牌时也会触发。"
+        },
+        {
+          "title": "挑那个「期待值最便宜」的题材",
+          "rules": "两个题材可以给出同样的感觉，账单却相差甚远，因为受众对其中之一的期待更高。当真正重要的是调性时，就选那个到手时价格已经落在你需要的位置上的。",
+          "flavor": "那个黑色的强化牌需要一个生物。「我最先想到的是吸血鬼，但我意识到蝙蝠能给出相近的感觉，而且不需要那么大的加成。蝙蝠让我们可以只给 +1/+1，还顺带允许我们加上飞行。」"
+        },
+        {
+          "title": "对于一个人们已经认识的人物，需求书就是「大家都知道的那几条」",
+          "rules": "当你的题材本就为人熟知时，不要去做研究——把普通受众真正记得的那两三条事实列出来，从它们出发去造。落在这份清单之外的东西，无论多准确，读起来都会像是随手挑的。",
+          "flavor": "做 Alexander Clamilton 时，他们先问：人们知道汉密尔顿的什么？多产的写作者、身在政府、死于一场决斗。于是这张牌在意「话多」的咒语、用占卜去布置牌库顶，并有一个让他去决斗的红色起动式异能。"
+        }
+      ]
+    }
+  }
+}

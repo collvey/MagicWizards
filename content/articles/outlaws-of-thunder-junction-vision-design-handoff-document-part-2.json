@@ -1,0 +1,242 @@
+{
+  "id": "outlaws-of-thunder-junction-vision-design-handoff-document-part-2",
+  "slug": "outlaws-of-thunder-junction-vision-design-handoff-document-part-2",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2024-04-15",
+  "series": { "id": "outlaws-of-thunder-junction-vision-design-handoff", "order": 2, "total": 2 },
+  "tags": ["handoff-document", "mechanics", "self-criticism"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/outlaws-of-thunder-junction-vision-design-handoff-document-part-2",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T08:28:28.181Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Outlaws of Thunder Junction Vision Design Handoff, Part 2",
+      "dek": "\"Looking back, I can see the denial.\"",
+      "overview": "The second half of the handoff, including the one mechanic in it that didn't survive — and the author's account of why he couldn't see the simpler answer at the time.",
+      "takeaway": "The riding mechanic was built on the most complicated technology available, because the team had fallen for a literal image: the rider physically stacked on top of the mount, the two treated as one creature. Rosewater writes that he knew he was asking for a complicated solution to a problem with simpler answers — and notes that even the fallback he offered was probably more complicated than wanted.",
+      "lessons": [
+        {
+          "title": "Being enamoured of the literal representation is a form of denial",
+          "rules": "When an image of how the thing should look takes hold, it can outrank the question of whether it should work that way. The tell is knowing that simpler answers exist and continuing anyway.",
+          "flavor": "The attraction was that the rider would sit physically atop the mount and the pair would be a single creature. That committed the design to the most rules-intensive machinery in the game, for a concept that ultimately needed none of it."
+        },
+        {
+          "title": "Ask what the nearest existing thing is",
+          "rules": "Faced with a new concept, the productive question isn't how to model it faithfully but what already in the system is closest to it. The nearest neighbour supplies the direction, and usually the rules work is already done.",
+          "flavor": "The problem was solved by a different team coming at it from another angle, whose question was simply: what's the closest thing to this that already exists? The answer — the game's existing crewable machines — gave them everything they needed."
+        },
+        {
+          "title": "Name the load-bearing qualities so a simplification can preserve them",
+          "rules": "If you suspect your execution may be replaced, write down which properties are the point and which are incidental. Then whoever simplifies knows what they must keep, and can propose something entirely different that still delivers it.",
+          "flavor": "The document names its two essential qualities — the rider being physically atop the mount, and the two being one creature — and offers a named alternative technology to try if the current one proves untenable."
+        },
+        {
+          "title": "Hand over the runners-up you didn't vet",
+          "rules": "You will not have time to check every candidate you rejected. Pass the list on anyway, marked as unvetted, because the next team has information you didn't and may find that one of them has since become viable.",
+          "flavor": "Four creature types were chosen and checked for how often they'd appeared in recent sets. Six runners-up were listed without that check. A recent set had quietly filled the format with one of them, and set design added it as a fifth."
+        },
+        {
+          "title": "Charm can lose to the text budget",
+          "rules": "A small ornamental addition can genuinely improve how something reads and still not survive, because space is finite and the functional text has first claim. Note what it was doing, so a future version with more room can restore it.",
+          "flavor": "Each mode of the modal spells originally carried a flavour word. The vision team thought it added a lot of charm and captured the feel better. The cards turned out to be wordy enough already that the words weren't worth their space."
+        },
+        {
+          "title": "Record the option you explored and rejected — and reopen it",
+          "rules": "A considered-and-dropped alternative is worth documenting with its reasons, because those reasons may not survive the next round of changes. Say explicitly that the decision can be revisited, or it will read as settled.",
+          "flavor": "The team debated letting you cast a modal spell choosing no modes at all — doing nothing except counting as a spell. It was dropped for having too few uses and muddying the template, with an explicit note that the team could look again."
+        },
+        {
+          "title": "An accumulated connotation can disqualify a label",
+          "rules": "A word's meaning in your system is the sum of everything you've attached it to. A term that reads correctly in the dictionary can still be unusable, because your own back catalogue has taught people to expect the opposite.",
+          "flavor": "One obvious candidate for the villain grouping was considered and set aside for a simple reason: the game has used that creature type too often for the good guys."
+        }
+      ]
+    },
+    "es": {
+      "title": "Traspaso del diseño de visión de Outlaws of Thunder Junction, parte 2",
+      "dek": "«Mirando atrás, veo la negación».",
+      "overview": "La segunda mitad del traspaso, incluida la única mecánica que no sobrevivió, y el relato del autor sobre por qué entonces no podía ver la respuesta más sencilla.",
+      "takeaway": "La mecánica de montura se construyó sobre la tecnología más complicada disponible, porque el equipo se había encaprichado con una imagen literal: el jinete apilado físicamente encima de la montura, tratados los dos como una sola criatura. Rosewater escribe que sabía que estaba pidiendo una solución complicada a un problema con respuestas más simples, y señala que incluso el recambio que ofreció era probablemente más complicado de lo deseado.",
+      "lessons": [
+        {
+          "title": "Encapricharse con la representación literal es una forma de negación",
+          "rules": "Cuando una imagen de cómo debería verse la cosa se apodera de ti, puede imponerse sobre la pregunta de si debería funcionar así. La señal es saber que existen respuestas más simples y continuar de todos modos.",
+          "flavor": "El atractivo era que el jinete se sentara físicamente encima de la montura y que la pareja fuera una sola criatura. Eso comprometió el diseño con la maquinaria más intensiva en reglas del juego, para un concepto que al final no necesitaba nada de ella."
+        },
+        {
+          "title": "Pregunta cuál es la cosa existente más cercana",
+          "rules": "Ante un concepto nuevo, la pregunta productiva no es cómo modelarlo fielmente, sino qué hay ya en el sistema que se le parezca más. El vecino más próximo aporta la dirección, y normalmente el trabajo de reglas ya está hecho.",
+          "flavor": "El problema lo resolvió otro equipo que lo abordó desde otro ángulo, y cuya pregunta fue sencillamente: ¿qué es lo más parecido a esto que ya existe? La respuesta —las máquinas tripulables del juego— les dio todo lo que necesitaban."
+        },
+        {
+          "title": "Nombra las cualidades portantes para que una simplificación las conserve",
+          "rules": "Si sospechas que tu ejecución puede ser sustituida, escribe qué propiedades son el objetivo y cuáles son accesorias. Así quien simplifique sabrá qué debe conservar, y podrá proponer algo completamente distinto que aun así lo entregue.",
+          "flavor": "El documento nombra sus dos cualidades esenciales —el jinete estando físicamente encima de la montura y que ambos sean una sola criatura— y ofrece una tecnología alternativa concreta que probar si la actual resulta insostenible."
+        },
+        {
+          "title": "Entrega también a los finalistas que no verificaste",
+          "rules": "No tendrás tiempo de comprobar todos los candidatos que descartaste. Pasa la lista igualmente, marcada como no verificada, porque el equipo siguiente tiene información que tú no tenías y puede hallar que uno de ellos ya es viable.",
+          "flavor": "Se eligieron cuatro tipos de criatura y se comprobó con qué frecuencia habían aparecido en sets recientes. Seis finalistas se listaron sin esa comprobación. Un set reciente había llenado el formato con uno de ellos, y el diseño de set lo añadió como quinto."
+        },
+        {
+          "title": "El encanto puede perder frente al presupuesto de texto",
+          "rules": "Una pequeña adición ornamental puede mejorar de verdad cómo se lee algo y aun así no sobrevivir, porque el espacio es finito y el texto funcional tiene prioridad. Anota qué hacía, para que una versión futura con más sitio pueda restaurarla.",
+          "flavor": "Cada modo de los hechizos modales llevaba originalmente una palabra de sabor. El equipo de visión pensó que añadía mucho encanto y captaba mejor la sensación. Las cartas resultaron ser ya lo bastante verbosas."
+        },
+        {
+          "title": "Registra la opción que exploraste y descartaste, y reábrela",
+          "rules": "Una alternativa considerada y desechada merece documentarse con sus razones, porque esas razones pueden no sobrevivir a la siguiente ronda de cambios. Di explícitamente que la decisión puede revisarse, o se leerá como zanjada.",
+          "flavor": "El equipo debatió permitir lanzar un hechizo modal sin elegir modo alguno, sin hacer nada salvo contar como hechizo. Se descartó por tener pocos usos y enturbiar la plantilla, con una nota explícita de que el equipo podría volver a mirarlo."
+        },
+        {
+          "title": "Una connotación acumulada puede descalificar una etiqueta",
+          "rules": "El significado de una palabra en tu sistema es la suma de todo aquello a lo que la has adherido. Un término correcto en el diccionario puede ser inservible, porque tu propio catálogo ha enseñado a la gente a esperar lo contrario.",
+          "flavor": "Un candidato obvio para la agrupación de villanos se consideró y se apartó por una razón sencilla: el juego ha usado ese tipo de criatura demasiado a menudo para los buenos."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Passation du vision design d'Outlaws of Thunder Junction, partie 2",
+      "dek": "« Avec le recul, je vois le déni. »",
+      "overview": "La seconde moitié de la passation, dont l'unique mécanique qui n'a pas survécu — et le récit par l'auteur des raisons pour lesquelles il ne voyait pas alors la réponse plus simple.",
+      "takeaway": "La mécanique de monture fut bâtie sur la technologie la plus compliquée disponible, parce que l'équipe s'était éprise d'une image littérale : le cavalier physiquement empilé sur la monture, les deux traités comme une seule créature. Rosewater écrit qu'il savait demander une solution compliquée à un problème aux réponses plus simples — et note que même son repli était sans doute trop compliqué.",
+      "lessons": [
+        {
+          "title": "S'éprendre de la représentation littérale est une forme de déni",
+          "rules": "Quand une image de ce à quoi la chose devrait ressembler s'impose, elle peut passer avant la question de savoir si elle devrait fonctionner ainsi. Le signe : savoir que des réponses plus simples existent et continuer quand même.",
+          "flavor": "L'attrait tenait à ce que le cavalier siège physiquement sur la monture et que la paire ne fasse qu'une créature. Cela engageait le design dans la machinerie la plus gourmande en règles, pour un concept qui n'en avait finalement nul besoin."
+        },
+        {
+          "title": "Demandez quelle est la chose existante la plus proche",
+          "rules": "Face à un concept neuf, la question productive n'est pas comment le modéliser fidèlement, mais ce qui, déjà dans le système, s'en approche le plus. Le voisin le plus proche donne la direction, et le travail de règles est d'ordinaire déjà fait.",
+          "flavor": "Le problème fut résolu par une autre équipe l'abordant sous un autre angle, dont la question était simplement : quelle est la chose la plus proche qui existe déjà ? La réponse — les machines à équipage du jeu — leur a tout donné."
+        },
+        {
+          "title": "Nommez les qualités porteuses pour qu'une simplification les préserve",
+          "rules": "Si vous soupçonnez que votre exécution sera remplacée, notez quelles propriétés sont le but et lesquelles sont accessoires. Qui simplifiera saura alors ce qu'il doit conserver, et pourra proposer tout autre chose qui le livre encore.",
+          "flavor": "Le document nomme ses deux qualités essentielles — le cavalier physiquement au-dessus, et les deux ne faisant qu'une créature — et propose une technologie de rechange précise à essayer si l'actuelle se révèle intenable."
+        },
+        {
+          "title": "Transmettez aussi les finalistes que vous n'avez pas vérifiés",
+          "rules": "Vous n'aurez pas le temps de contrôler tous les candidats écartés. Transmettez la liste quand même, marquée comme non vérifiée : l'équipe suivante détient des informations que vous n'aviez pas et peut trouver que l'un d'eux est devenu viable.",
+          "flavor": "Quatre types de créature furent retenus et contrôlés quant à leur fréquence récente. Six finalistes furent listés sans ce contrôle. Une extension récente avait discrètement rempli le format de l'un d'eux, ajouté ensuite comme cinquième."
+        },
+        {
+          "title": "Le charme peut perdre contre le budget de texte",
+          "rules": "Un petit ajout ornemental peut réellement améliorer la lecture et ne pas survivre malgré tout, car la place est finie et le texte fonctionnel a priorité. Notez ce qu'il faisait, pour qu'une version future plus spacieuse le rétablisse.",
+          "flavor": "Chaque mode des sorts modaux portait à l'origine un mot de saveur. L'équipe vision trouvait qu'il ajoutait beaucoup de charme et rendait mieux l'ambiance. Les cartes se sont révélées déjà assez bavardes."
+        },
+        {
+          "title": "Consignez l'option explorée puis écartée — et rouvrez-la",
+          "rules": "Une alternative envisagée puis abandonnée mérite d'être documentée avec ses raisons, car celles-ci peuvent ne pas survivre au prochain tour de changements. Dites explicitement que la décision peut être revue, sinon elle se lira comme close.",
+          "flavor": "L'équipe a débattu de laisser lancer un sort modal sans choisir de mode — ne faisant rien sinon compter comme un sort. Écarté pour ses usages trop rares et pour le flou apporté au gabarit, avec la note explicite qu'on pouvait y revenir."
+        },
+        {
+          "title": "Une connotation accumulée peut disqualifier une étiquette",
+          "rules": "Le sens d'un mot dans votre système est la somme de tout ce à quoi vous l'avez attaché. Un terme juste au dictionnaire peut être inutilisable, parce que votre propre fonds a appris au public à attendre le contraire.",
+          "flavor": "Un candidat évident pour le regroupement des méchants fut envisagé puis écarté pour une raison simple : le jeu a trop souvent employé ce type de créature pour les gentils."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Passagem do design de visão de Outlaws of Thunder Junction, parte 2",
+      "dek": "\"Olhando para trás, eu vejo a negação.\"",
+      "overview": "A segunda metade da passagem, incluindo a única mecânica dela que não sobreviveu — e o relato do autor sobre por que na época ele não conseguia ver a resposta mais simples.",
+      "takeaway": "A mecânica de montaria foi construída sobre a tecnologia mais complicada disponível, porque a equipe se apaixonara por uma imagem literal: o cavaleiro fisicamente empilhado sobre a montaria, os dois tratados como uma só criatura. Rosewater escreve que sabia estar pedindo uma solução complicada para um problema com respostas mais simples — e nota que até o plano B que ofereceu era provavelmente complicado demais.",
+      "lessons": [
+        {
+          "title": "Apaixonar-se pela representação literal é uma forma de negação",
+          "rules": "Quando uma imagem de como a coisa deveria parecer toma conta, ela pode passar à frente da pergunta sobre se deveria funcionar assim. O sinal é saber que existem respostas mais simples e seguir mesmo assim.",
+          "flavor": "O atrativo era o cavaleiro sentar fisicamente sobre a montaria e a dupla ser uma criatura só. Isso comprometeu o design com a maquinaria mais pesada em regras do jogo, para um conceito que no fim não precisava de nada daquilo."
+        },
+        {
+          "title": "Pergunte qual é a coisa existente mais próxima",
+          "rules": "Diante de um conceito novo, a pergunta produtiva não é como modelá-lo fielmente, e sim o que já existe no sistema que mais se aproxima dele. O vizinho mais próximo dá a direção, e em geral o trabalho de regras já está feito.",
+          "flavor": "O problema foi resolvido por outra equipe atacando-o de outro ângulo, cuja pergunta era simplesmente: qual é a coisa mais parecida com isto que já existe? A resposta — as máquinas tripuláveis do jogo — deu tudo de que precisavam."
+        },
+        {
+          "title": "Nomeie as qualidades estruturais para que uma simplificação as preserve",
+          "rules": "Se você suspeita que sua execução pode ser substituída, anote quais propriedades são o ponto e quais são acessórias. Assim quem simplificar saberá o que precisa manter, e poderá propor algo totalmente diferente que ainda entregue aquilo.",
+          "flavor": "O documento nomeia suas duas qualidades essenciais — o cavaleiro estar fisicamente por cima e os dois serem uma só criatura — e oferece uma tecnologia alternativa específica para tentar se a atual se mostrar insustentável."
+        },
+        {
+          "title": "Entregue também os segundos colocados que você não verificou",
+          "rules": "Você não terá tempo de checar todos os candidatos que descartou. Passe a lista assim mesmo, marcada como não verificada, porque a equipe seguinte tem informação que você não tinha e pode achar que um deles se tornou viável.",
+          "flavor": "Quatro tipos de criatura foram escolhidos e checados quanto à frequência recente. Seis segundos colocados foram listados sem essa checagem. Uma coleção recente havia enchido o formato de um deles, e o design da coleção o acrescentou como quinto."
+        },
+        {
+          "title": "O charme pode perder para o orçamento de texto",
+          "rules": "Um pequeno acréscimo ornamental pode de fato melhorar como algo se lê e ainda assim não sobreviver, porque o espaço é finito e o texto funcional tem prioridade. Anote o que ele fazia, para uma versão futura com mais espaço restaurá-lo.",
+          "flavor": "Cada modo das mágicas modais trazia originalmente uma palavra de sabor. A equipe de visão achou que aquilo somava muito charme e capturava melhor a sensação. As cartas acabaram já sendo verbosas o bastante."
+        },
+        {
+          "title": "Registre a opção que você explorou e descartou — e reabra-a",
+          "rules": "Uma alternativa considerada e abandonada merece ser documentada com suas razões, pois essas razões podem não sobreviver à próxima rodada de mudanças. Diga explicitamente que a decisão pode ser revista, ou ela será lida como fechada.",
+          "flavor": "A equipe debateu permitir conjurar uma mágica modal sem escolher modo algum — sem fazer nada além de contar como mágica. Foi descartada por ter poucos usos e turvar o gabarito, com nota explícita de que dava para revisitar."
+        },
+        {
+          "title": "Uma conotação acumulada pode desqualificar um rótulo",
+          "rules": "O sentido de uma palavra no seu sistema é a soma de tudo a que você a prendeu. Um termo correto no dicionário pode ser inutilizável, porque o seu próprio acervo ensinou as pessoas a esperar o oposto.",
+          "flavor": "Um candidato óbvio para o agrupamento de vilões foi considerado e posto de lado por uma razão simples: o jogo usou aquele tipo de criatura vezes demais para os mocinhos."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "《雷霆枢纽的不法之徒》愿景设计交接文件，第二部分",
+      "dek": "「现在回头看，我看得见那份自欺。」",
+      "overview": "交接文件的后半部分，包括其中唯一一个没能活下来的机制——以及作者对「当时为什么看不见那个更简单的答案」的交代。",
+      "takeaway": "那个骑乘机制被建在了手头最复杂的技术之上，因为团队爱上了一幅字面意义上的图像：骑手实实在在地叠在坐骑上面，两者被当作同一只生物来处理。罗斯沃特写道：他当时就知道自己是在为一个本有更简单答案的问题索要一个复杂的解法——并且指出，连他给出的那个备选方案，多半也比想要的更复杂。",
+      "lessons": [
+        {
+          "title": "迷恋那种字面上的呈现，是一种自欺",
+          "rules": "当一幅「这东西应该长什么样」的图像占据了你时，它可能会盖过「它是不是应该这样运作」这个问题。识别的标志是：你明知存在更简单的答案，却还是继续走了下去。",
+          "flavor": "吸引人的地方在于：骑手会实实在在地坐在坐骑上，而这一对是一只生物。而这就把设计绑在了这个游戏里最吃规则的那套机器上——为了一个最终根本用不着它的概念。"
+        },
+        {
+          "title": "去问：现有的东西里，离它最近的是哪一个",
+          "rules": "面对一个新概念时，有产出的那个问题不是「怎样忠实地把它建模出来」，而是「系统里已经有的东西中，哪一个离它最近」。最近的那位邻居会给出方向；而且通常，规则那部分的活儿已经做完了。",
+          "flavor": "这个问题最后是由另一支团队从另一个角度解决的，而他们的问题很简单：现有的东西里，跟这个最像的是什么？答案——游戏里那些可被操作的机械——给了他们所需要的一切。"
+        },
+        {
+          "title": "把承重的那些性质点出名字，好让简化能把它们保住",
+          "rules": "如果你怀疑自己的实现方式可能会被替换掉，就把「哪些性质才是重点、哪些只是附带」写下来。于是负责简化的人知道自己必须保住什么，并且可以提出一个完全不同、却依然交付那份性质的方案。",
+          "flavor": "文件点明了它的两条本质性质——骑手实体地位于坐骑之上，以及两者是一只生物——并给出了一项具体的替代技术，供当前这套方案难以为继时试用。"
+        },
+        {
+          "title": "把那些你没来得及核查的备选，也一并交出去",
+          "rules": "你不会有时间去核查每一个被你否掉的候选。那就把这份名单照样交出去，并标明「未经核查」——因为下一支团队掌握着你所没有的信息，也许会发现其中某一个如今已经可行。",
+          "flavor": "有四个生物类别被选中，并被核查过它们在近期系列里的出现频率。另有六个备选被列了出来，却没有做这项核查。而最近的一个系列悄悄地让其中之一在赛制里遍地都是，于是系列设计把它加成了第五个。"
+        },
+        {
+          "title": "讨喜可能会输给文字预算",
+          "rules": "一处小小的装饰性添加，可以确实改善一样东西的阅读感受，却依然活不下来——因为空间是有限的，而功能性文字有优先权。把它当初在做什么记下来，好让日后空间更宽裕的版本能把它恢复。",
+          "flavor": "那些模式咒语的每一个模式，最初都带着一个风味词。愿景团队认为这添了不少韵味，也更好地抓住了那份感觉。而这些牌最后被证明，本来就已经够啰嗦了。"
+        },
+        {
+          "title": "把那个你探索过又否掉的选项记下来——并把它重新打开",
+          "rules": "一个被考虑过又被放弃的备选，值得连同它的理由一起被写进文件——因为那些理由未必能熬过下一轮改动。要明确地说这个决定可以被重新审视；否则它读起来就像是已经定案。",
+          "flavor": "团队讨论过：是否允许在施放模式咒语时一个模式都不选——除了「算作一个咒语」之外什么也不做。它因用途太少、且让模板变得不那么清晰而被否掉，同时明确注明了团队可以再看一眼。"
+        },
+        {
+          "title": "累积起来的言外之意，可以让一个标签失去资格",
+          "rules": "一个词在你系统里的含义，是你此前把它贴到过的一切东西的总和。一个在词典意义上完全正确的术语，仍可能不可用——因为你自己的旧库存，已经教会了人们去期待相反的东西。",
+          "flavor": "反派这一分组有一个显而易见的候选，被考虑过之后放下了，理由很简单：这个游戏此前用那个生物类别去指代好人，用得实在太频繁了。"
+        }
+      ]
+    }
+  }
+}

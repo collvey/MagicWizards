@@ -1,0 +1,242 @@
+{
+  "id": "do-the-math",
+  "slug": "do-the-math",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2025-06-30",
+  "series": null,
+  "tags": ["math", "as-fan", "production"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/do-the-math",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T07:42:37.956Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Do the Math",
+      "dek": "\"I'm not going to need math.\"",
+      "overview": "Every place arithmetic turns up in designing a randomised product — from what people are likely to open, through what the printing press permits, down to setting a single number on a single card.",
+      "takeaway": "Everyone who buys a board game gets the same pieces, so its designer knows exactly what the players will have. A randomised product designer doesn't — but does control the likelihood of encountering anything. That measure, expressed as an average across many packs, is what lets a set be designed at all: not what you will open, but how often the thing shows up.",
+      "lessons": [
+        {
+          "title": "Control the odds, not the contents",
+          "rules": "When you can't determine what any individual receives, the design object is the distribution. Fix the frequencies deliberately, and the experience becomes something you shaped rather than something that happened.",
+          "flavor": "The number can be fractional — one and a half of something per pack — which is not a claim about any pack but about the average across many. How many of a thing exist, and at what rarity, are the levers that set it."
+        },
+        {
+          "title": "Weight the metric by expected use",
+          "rules": "Counting how often something appears overstates its presence if some instances are ignored. Keep a second figure weighted by how much each instance will actually get used, or a pile of weak examples will read as coverage.",
+          "flavor": "R&D tracks as-fan and as-played side by side. A weak card carrying a mechanic raises the first without necessarily raising the second — the mechanic is technically present and functionally absent."
+        },
+        {
+          "title": "Manufacturing sets your content budget",
+          "rules": "How the thing is physically made determines how much of it there can be. Learn the constraint precisely, because the numbers that look like creative decisions are often arithmetic about what fits on a press.",
+          "flavor": "Cards are printed on large sheets and cut down, so most sets have eighty commons because three groups of eighty spread evenly across two sheets. Double-faced cards need a sheet of their own, which is why sets containing them simply have more cards."
+        },
+        {
+          "title": "A dedicated slot turns an average into a guarantee",
+          "rules": "Reserving a position for a category does more than raise its frequency — if that category can only come from there, the average becomes a floor. Every single unit contains one, and people can rely on it.",
+          "flavor": "Sets have used slots dedicated to double-faced cards, to legendary creatures, and to a new card type. The first of those had an as-fan of one and a guarantee of one, because the dedicated slot was the only way to get them."
+        },
+        {
+          "title": "Derive the number from the distribution — and from the dedicated case",
+          "rules": "When a design has an adjustable quantity, work it out from what people actually have rather than choosing by feel. Then check the same number against someone who has built specifically to exploit it, which is a different calculation.",
+          "flavor": "Deciding how deep a card should look for a land starts from lands being about forty per cent of a deck. Other card types vary far more between decks, so the average is only half the answer — the other half is what a dedicated deck does with it."
+        },
+        {
+          "title": "The arithmetic at the table is itself a design variable",
+          "rules": "Beyond the maths you do while designing, there's the maths your audience performs while using the thing. How much of it a decision demands, and how complicated it gets when several factors shift at once, is part of what you are choosing.",
+          "flavor": "Working out whether an attack is good means weighing damage dealt against damage taken, complicated by things like the value of a creature staying home to block. Testing a card means playing with it, which means doing that arithmetic repeatedly."
+        },
+        {
+          "title": "A number means nothing without the historical series",
+          "rules": "A measurement in isolation can't tell you whether it's right. What makes any of these figures usable is a long record of the same measurement on past work, so the current value can be read against what has and hasn't worked.",
+          "flavor": "The same move recurs throughout: frequencies compared against what previous sets did, poll results compared against historical polling, market research compared against the archive of earlier market research."
+        }
+      ]
+    },
+    "es": {
+      "title": "Haz las cuentas",
+      "dek": "«No voy a necesitar las matemáticas».",
+      "overview": "Todos los sitios donde aparece la aritmética al diseñar un producto aleatorio: desde lo que la gente probablemente abrirá, pasando por lo que permite la imprenta, hasta fijar un solo número en una sola carta.",
+      "takeaway": "Todo el que compra un juego de mesa recibe las mismas piezas, así que su diseñador sabe exactamente qué tendrán los jugadores. Quien diseña un producto aleatorio no lo sabe, pero sí controla la probabilidad de encontrarse con cualquier cosa. Esa medida, expresada como promedio entre muchos sobres, es lo que permite diseñar un set: no qué abrirás, sino con qué frecuencia aparece.",
+      "lessons": [
+        {
+          "title": "Controla las probabilidades, no el contenido",
+          "rules": "Cuando no puedes determinar qué recibe cada individuo, el objeto de diseño es la distribución. Fija las frecuencias a conciencia y la experiencia pasa a ser algo que moldeaste, no algo que ocurrió.",
+          "flavor": "El número puede ser fraccionario —uno y medio de algo por sobre—, lo cual no afirma nada sobre un sobre concreto sino sobre el promedio de muchos. Cuántas cosas existen y en qué rareza son las palancas que lo fijan."
+        },
+        {
+          "title": "Pondera la métrica por el uso esperado",
+          "rules": "Contar cuántas veces aparece algo exagera su presencia si algunos ejemplares se ignoran. Mantén una segunda cifra ponderada por cuánto se usará cada uno, o un montón de ejemplos flojos se leerá como cobertura.",
+          "flavor": "I+D sigue as-fan y as-played en paralelo. Una carta floja que lleva una mecánica sube la primera sin subir necesariamente la segunda: la mecánica está técnicamente presente y funcionalmente ausente."
+        },
+        {
+          "title": "La fabricación fija tu presupuesto de contenido",
+          "rules": "Cómo se hace físicamente la cosa determina cuánta puede haber. Aprende la restricción con precisión, porque los números que parecen decisiones creativas suelen ser aritmética sobre lo que cabe en una prensa.",
+          "flavor": "Las cartas se imprimen en pliegos grandes y se cortan, así que la mayoría de sets tienen ochenta comunes porque tres grupos de ochenta se reparten a partes iguales en dos pliegos. Las cartas de doble cara necesitan pliego propio."
+        },
+        {
+          "title": "Una casilla dedicada convierte un promedio en una garantía",
+          "rules": "Reservar una posición para una categoría hace más que subir su frecuencia: si esa categoría solo puede venir de ahí, el promedio se vuelve un mínimo. Cada unidad contiene una, y la gente puede contar con ello.",
+          "flavor": "Ha habido sets con casillas dedicadas a cartas de doble cara, a criaturas legendarias y a un tipo de carta nuevo. Las primeras tenían una frecuencia de uno y una garantía de uno, porque esa casilla era el único modo de conseguirlas."
+        },
+        {
+          "title": "Deriva el número de la distribución, y también del caso dedicado",
+          "rules": "Cuando un diseño tiene una cantidad ajustable, dedúcela de lo que la gente tiene de verdad en vez de elegir a ojo. Luego comprueba ese mismo número contra alguien que haya construido específicamente para explotarlo: es otro cálculo.",
+          "flavor": "Decidir cuánto debe mirar una carta para hallar una tierra parte de que las tierras son un cuarenta por ciento del mazo. Otros tipos varían mucho más entre mazos, así que el promedio es solo media respuesta."
+        },
+        {
+          "title": "La aritmética en la mesa es también una variable de diseño",
+          "rules": "Más allá de las cuentas que haces al diseñar, están las que hace tu público al usar la cosa. Cuántas exige una decisión, y cuánto se complican cuando varios factores se mueven a la vez, forma parte de lo que estás eligiendo.",
+          "flavor": "Calcular si un ataque es bueno implica pesar el daño infligido contra el recibido, complicado por cosas como el valor de que una criatura se quede a bloquear. Probar una carta implica jugarla, o sea hacer esas cuentas una y otra vez."
+        },
+        {
+          "title": "Un número no significa nada sin la serie histórica",
+          "rules": "Una medición aislada no puede decirte si está bien. Lo que vuelve utilizable cualquiera de estas cifras es un registro largo de la misma medición sobre trabajos pasados, para leer el valor actual contra lo que funcionó y lo que no.",
+          "flavor": "El mismo movimiento se repite todo el rato: frecuencias comparadas con lo que hicieron sets anteriores, encuestas comparadas con encuestas históricas, estudios de mercado comparados con el archivo de estudios previos."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Faites le calcul",
+      "dek": "« Je n'aurai pas besoin des maths. »",
+      "overview": "Tous les endroits où l'arithmétique surgit dans la conception d'un produit aléatoire : de ce que les gens ouvriront probablement, à ce que la presse autorise, jusqu'au réglage d'un seul nombre sur une seule carte.",
+      "takeaway": "Quiconque achète un jeu de plateau reçoit les mêmes pièces : son concepteur sait donc exactement ce que les joueurs auront. Celui qui conçoit un produit aléatoire l'ignore — mais il maîtrise la probabilité de rencontrer quoi que ce soit. Cette mesure, exprimée en moyenne sur de nombreux boosters, est ce qui rend la conception possible : non pas ce que vous ouvrirez, mais à quelle fréquence la chose apparaît.",
+      "lessons": [
+        {
+          "title": "Maîtrisez les probabilités, non le contenu",
+          "rules": "Quand vous ne pouvez déterminer ce que chacun reçoit, l'objet de conception est la distribution. Fixez les fréquences délibérément, et l'expérience devient une chose que vous avez façonnée plutôt qu'une chose survenue.",
+          "flavor": "Le nombre peut être fractionnaire — un et demi par booster —, ce qui n'affirme rien d'un booster donné mais de la moyenne sur beaucoup. Combien de choses existent, et à quelle rareté, sont les leviers qui le fixent."
+        },
+        {
+          "title": "Pondérez la mesure par l'usage attendu",
+          "rules": "Compter la fréquence d'apparition surestime la présence si certains exemplaires sont ignorés. Tenez une seconde valeur pondérée par l'usage réel de chacun, sinon un tas d'exemplaires faibles se lira comme de la couverture.",
+          "flavor": "La R&D suit deux mesures en parallèle. Une carte faible portant une mécanique fait monter la première sans forcément monter la seconde : la mécanique est techniquement présente et fonctionnellement absente."
+        },
+        {
+          "title": "La fabrication fixe votre budget de contenu",
+          "rules": "La façon dont la chose est physiquement produite détermine combien il peut y en avoir. Apprenez la contrainte avec précision, car les nombres qui ressemblent à des décisions créatives sont souvent de l'arithmétique de presse.",
+          "flavor": "Les cartes sont imprimées sur de grandes planches puis découpées : la plupart des extensions ont quatre-vingts communes parce que trois groupes de quatre-vingts se répartissent également sur deux planches."
+        },
+        {
+          "title": "Un emplacement dédié transforme une moyenne en garantie",
+          "rules": "Réserver une place à une catégorie fait plus qu'augmenter sa fréquence : si cette catégorie ne peut venir que de là, la moyenne devient un plancher. Chaque unité en contient une, et l'on peut compter dessus.",
+          "flavor": "Des extensions ont réservé un emplacement aux cartes recto-verso, aux créatures légendaires, à un nouveau type de carte. Les premières avaient une fréquence de un et une garantie de un, l'emplacement dédié étant le seul moyen de les obtenir."
+        },
+        {
+          "title": "Déduisez le nombre de la distribution — et du cas dédié",
+          "rules": "Quand un design comporte une quantité réglable, déduisez-la de ce que les gens ont réellement plutôt que de choisir au feeling. Puis vérifiez ce même nombre face à quelqu'un qui a bâti exprès pour l'exploiter : c'est un autre calcul.",
+          "flavor": "Décider jusqu'où une carte doit chercher un terrain part du fait que les terrains font environ quarante pour cent d'un deck. D'autres types varient bien plus d'un deck à l'autre : la moyenne n'est que la moitié de la réponse."
+        },
+        {
+          "title": "L'arithmétique à la table est aussi une variable de design",
+          "rules": "Au-delà des calculs que vous faites en concevant, il y a ceux que votre public fait en se servant de la chose. Combien une décision en exige, et leur complication quand plusieurs facteurs bougent, fait partie de ce que vous choisissez.",
+          "flavor": "Évaluer une attaque suppose de peser les blessures infligées contre celles reçues, compliqué par la valeur d'une créature restée en défense. Tester une carte, c'est y jouer, donc refaire ce calcul encore et encore."
+        },
+        {
+          "title": "Un nombre ne veut rien dire sans la série historique",
+          "rules": "Une mesure isolée ne peut vous dire si elle est bonne. Ce qui rend ces chiffres exploitables, c'est un long relevé de la même mesure sur les travaux passés, afin de lire la valeur actuelle face à ce qui a marché ou non.",
+          "flavor": "Le même geste revient sans cesse : fréquences comparées à celles des extensions antérieures, sondages comparés aux sondages historiques, études de marché comparées aux archives d'études précédentes."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Faça as contas",
+      "dek": "\"Não vou precisar de matemática.\"",
+      "overview": "Todos os lugares em que a aritmética aparece ao projetar um produto aleatório: do que as pessoas provavelmente vão abrir, passando pelo que a gráfica permite, até acertar um único número numa única carta.",
+      "takeaway": "Quem compra um jogo de tabuleiro recebe as mesmas peças, então o projetista sabe exatamente o que os jogadores terão. Quem projeta um produto aleatório não sabe — mas controla a probabilidade de encontrar qualquer coisa. Essa medida, expressa como média entre muitos pacotes, é o que torna possível projetar: não o que você vai abrir, e sim com que frequência a coisa aparece.",
+      "lessons": [
+        {
+          "title": "Controle as probabilidades, não o conteúdo",
+          "rules": "Quando você não pode determinar o que cada indivíduo recebe, o objeto de projeto é a distribuição. Fixe as frequências de propósito, e a experiência passa a ser algo que você moldou, não algo que aconteceu.",
+          "flavor": "O número pode ser fracionário — um e meio por pacote —, o que não afirma nada sobre um pacote específico, e sim sobre a média de muitos. Quantas coisas existem, e em que raridade, são as alavancas que o definem."
+        },
+        {
+          "title": "Pondere a métrica pelo uso esperado",
+          "rules": "Contar com que frequência algo aparece superestima sua presença se alguns exemplares são ignorados. Mantenha um segundo número ponderado pelo quanto cada exemplar será de fato usado, ou um monte de exemplos fracos vai parecer cobertura.",
+          "flavor": "A P&D acompanha as duas medidas lado a lado. Uma carta fraca carregando uma mecânica sobe a primeira sem necessariamente subir a segunda: a mecânica está tecnicamente presente e funcionalmente ausente."
+        },
+        {
+          "title": "A fabricação define seu orçamento de conteúdo",
+          "rules": "Como a coisa é fisicamente feita determina quanto dela pode existir. Aprenda a restrição com precisão, porque os números que parecem decisões criativas costumam ser aritmética sobre o que cabe numa prensa.",
+          "flavor": "Cartas são impressas em folhas grandes e cortadas, então a maioria das coleções tem oitenta comuns porque três grupos de oitenta se distribuem igualmente em duas folhas. Cartas de duas faces precisam de folha própria."
+        },
+        {
+          "title": "Um espaço dedicado transforma uma média em garantia",
+          "rules": "Reservar uma posição para uma categoria faz mais do que elevar sua frequência: se aquela categoria só pode vir dali, a média vira um piso. Cada unidade contém uma, e as pessoas podem contar com isso.",
+          "flavor": "Houve coleções com espaços dedicados a cartas de duas faces, a criaturas lendárias e a um novo tipo de carta. As primeiras tinham frequência de um e garantia de um, pois o espaço dedicado era o único jeito de obtê-las."
+        },
+        {
+          "title": "Derive o número da distribuição — e do caso dedicado",
+          "rules": "Quando um design tem uma quantidade ajustável, deduza-a do que as pessoas de fato têm, em vez de escolher no olho. Depois confira o mesmo número contra alguém que montou de propósito para explorá-lo: é outra conta.",
+          "flavor": "Decidir quão fundo uma carta deve procurar um terreno parte de terrenos serem cerca de quarenta por cento de um baralho. Outros tipos variam muito mais entre baralhos, então a média é só metade da resposta."
+        },
+        {
+          "title": "A aritmética na mesa também é variável de design",
+          "rules": "Além das contas que você faz projetando, há as que seu público faz usando a coisa. Quantas uma decisão exige, e o quanto elas se complicam quando vários fatores mudam de uma vez, faz parte do que você está escolhendo.",
+          "flavor": "Avaliar se um ataque é bom significa pesar dano causado contra dano recebido, complicado pelo valor de uma criatura ficar para bloquear. Testar uma carta significa jogá-la, o que significa refazer essa conta muitas vezes."
+        },
+        {
+          "title": "Um número não significa nada sem a série histórica",
+          "rules": "Uma medição isolada não pode dizer se está certa. O que torna qualquer um desses números utilizável é um registro longo da mesma medição em trabalhos passados, para ler o valor atual contra o que funcionou e o que não.",
+          "flavor": "O mesmo movimento se repete o tempo todo: frequências comparadas ao que coleções anteriores fizeram, enquetes comparadas a enquetes históricas, pesquisa de mercado comparada ao arquivo de pesquisas anteriores."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "算一算",
+      "dek": "「我以后又用不上数学。」",
+      "overview": "在设计一件「随机产品」的过程中，算术会冒出来的每一个地方：从人们大概率会开出什么，到印刷机允许什么，一直到给某一张牌上的某一个数字定值。",
+      "takeaway": "买桌游的每一个人拿到的组件都一样，所以它的设计师确切地知道玩家手上会有什么。而设计一件随机产品的人并不知道——但他确实掌控着「遇上任何一样东西的概率」。这个量度，以「许多包的平均值」来表达，正是让一个系列得以被设计出来的东西：重点不是你会开出什么，而是这样东西多久露一次面。",
+      "lessons": [
+        {
+          "title": "掌控的是概率，不是内容",
+          "rules": "当你无法决定每一个人各自拿到什么时，你的设计对象就是那个分布。有意识地把频率定下来，于是这份体验就成了你塑造出来的东西，而不是碰巧发生的事。",
+          "flavor": "这个数字可以是小数——每包一点五个某样东西——这并不是在陈述任何一包，而是在陈述许多包的平均。这样东西一共有多少个、各自在什么稀有度上，就是设定它的那两根杠杆。"
+        },
+        {
+          "title": "按「预期会被用到多少」给这个指标加权",
+          "rules": "如果其中一些实例根本没人理会，那么「它出现了多少次」会高估它的存在感。再维护一个「按每个实例实际会被用到多少来加权」的数字；否则一堆孱弱的样本，会被读成覆盖率。",
+          "flavor": "研发部把这两个指标并排追踪。一张带着某机制的弱牌会抬高前者，却未必抬高后者：这个机制在技术上在场，在功能上缺席。"
+        },
+        {
+          "title": "生产制造决定了你的内容预算",
+          "rules": "这件东西在物理上是怎么被造出来的，决定了它总共能有多少。把这条限制学得精确一些——因为那些看起来像创作决定的数字，往往是关于「印张上装得下什么」的算术。",
+          "flavor": "牌是印在大张纸上再裁下来的；所以多数系列有八十张普通牌，因为三组八十张，正好均匀地摊在两张印张上。双面牌需要属于自己的印张。"
+        },
+        {
+          "title": "一个专属位置，把平均值变成了保证",
+          "rules": "给某一类东西预留一个位置，作用不止是抬高它的频率：如果这一类东西只能从那里来，那个平均值就变成了下限。每一个单位里都有一个，而人们可以指望这一点。",
+          "flavor": "有的系列为双面牌、为传奇生物、为一种新牌张类别设过专属位置。其中双面牌的频率是一，同时保证是一——因为那个专属位置是拿到它们的唯一途径。"
+        },
+        {
+          "title": "从分布里推出这个数字——也从「专门为它搭建」的那种情形里推",
+          "rules": "当一个设计里有一个可调的量时，从人们实际手上有什么去把它推算出来，而不是凭感觉挑一个。然后再拿同一个数字，去对照「有人专门为了榨取它而搭套牌」的情形：那是另一道算题。",
+          "flavor": "决定一张牌该往下翻多深才找得到地，起点是「地大约占一副套牌的四成」。别的牌张类别在不同套牌之间的差异要大得多，所以平均值只是答案的一半。"
+        },
+        {
+          "title": "牌桌上的那些算术，本身就是一个设计变量",
+          "rules": "除了你在设计时做的那些计算，还有你的受众在使用这件东西时所做的计算。一个决定要求他们算多少、以及当好几个因素同时变动时会复杂到什么程度——这也是你正在做出的选择的一部分。",
+          "flavor": "判断一次进攻好不好，意味着把打出去的伤害和挨下的伤害放在一起权衡，还要加上「让一只生物留在后方阻挡的价值」这类因素。而测试一张牌就意味着去打它，也就意味着把那道算术反复做上许多遍。"
+        },
+        {
+          "title": "没有那条历史序列，一个数字什么也说明不了",
+          "rules": "一次孤立的测量，没法告诉你它是不是对的。真正让这些数字变得可用的，是一份「对过往作品做同一项测量」的长期记录——好让当下这个值，能对着「什么曾经奏效、什么不曾」来读。",
+          "flavor": "同一个动作反复出现：频率要对照此前的系列做过什么，问卷结果要对照历史问卷，市场调研要对照此前那些市场调研的存档。"
+        }
+      ]
+    }
+  }
+}

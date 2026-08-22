@@ -1,0 +1,277 @@
+{
+  "id": "dungeon-tales-part-1-2021-07-19",
+  "slug": "dungeon-tales-part-1-2021-07-19",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2021-07-19",
+  "series": {
+    "id": "dungeon-tales",
+    "order": 1,
+    "total": 2
+  },
+  "tags": [
+    "adventures-in-the-forgotten-realms",
+    "card-design",
+    "iteration"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/dungeon-tales-part-1-2021-07-19",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T13:11:15.255Z",
+  "lessons": [
+    {
+      "n": 1,
+      "color": "W"
+    },
+    {
+      "n": 2,
+      "color": "R"
+    },
+    {
+      "n": 3,
+      "color": "U"
+    },
+    {
+      "n": 4,
+      "color": "W"
+    },
+    {
+      "n": 5,
+      "color": "B"
+    },
+    {
+      "n": 6,
+      "color": "U"
+    },
+    {
+      "n": 7,
+      "color": "G"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Dungeon Tales, Part 1",
+      "dek": "“Basically everything you can get from green or white that flavorfully made sense.”",
+      "overview": "Four slots followed through the card database: Drizzt, the three artifacts of Vecna, Farideh, and Minsc with Boo.",
+      "takeaway": "Rosewater wasn't on the design teams, so he reads the card database instead. What the version histories show is that each slot had two or three fixed outputs and total freedom everywhere else: Drizzt had to fight well and produce a Guenhwyvar, Minsc had to produce a Boo and have some way to make Boo bigger. Everything between those constraints changed almost every pass.",
+      "lessons": [
+        {
+          "title": "Name the small number of outputs the slot must produce, and free everything else",
+          "rules": "A brief works best as a short list of things that must be true when you're done. State those, leave every other parameter open, and iteration becomes cheap — you can tell instantly whether a version is a candidate or has quietly stopped answering the question you set.",
+          "flavor": "Drizzt had to be good in a fight and make a legendary Cat. One draft dropped the Cat, and Rosewater's note is “I'm not sure how serious this version was, because it doesn't make a Guenhwyvar creature token, which was one of the two requirements.” Minsc had two demands too: make Boo, and grow Boo."
+        },
+        {
+          "title": "Build the maximal version once as a survey, then cut back",
+          "rules": "Somewhere in the middle of iterating, write the version that takes everything the subject could plausibly have. It isn't a proposal — it's a map of what's available, produced in one pass. The useful design is the next one, made by deleting from it rather than by adding to something thin.",
+          "flavor": "One Drizzt draft has haste, vigilance, double strike, lifelink, trample, reach and ward — “basically everything you can get from green or white that flavorfully made sense. (Okay, I guess they could have given him flash.)” The next version “is a cleaned-up design of the fourth.”"
+        },
+        {
+          "title": "When items must work together, re-derive the interlock at each iteration",
+          "rules": "A set of pieces built to combine will keep changing, and the temptation is to protect the particular combination you found first. Protect the requirement instead: at each pass, ask afresh how these versions help each other. The relationship is the specification; the mechanism is not.",
+          "flavor": "The Eye and Hand of Vecna were synergistic in every version and never the same way twice. First the Eye drew cards and the Hand rewarded a full hand; then the Eye discarded to cast and the Hand refilled; finally the Eye turns discards into draws and the Hand converts hand size into power."
+        },
+        {
+          "title": "An assembled reward must carry everything its parts did",
+          "rules": "When combining components consumes them, people are being asked to trade several working things for one. If the result can't do what all of them did, assembling is a downgrade and nobody takes it — so the combined form has to be a strict superset before it can be a payoff.",
+          "flavor": "Getting all three artifacts of Vecna together exiles them for an 8/8 legendary Zombie Wizard token. “Note that Vecna is an 8/8 indestructible creature that has the abilities of all three cards, so there's no loss of functionality when you create Vecna.”"
+        },
+        {
+          "title": "Offer two prices in different currencies rather than one price in both",
+          "rules": "A cost that demands two resources at once can only be paid by someone holding both, and it prices out everybody short of either. Splitting it into alternatives lets each person pay with whatever they have spare — the same access, reached by more of the people you wanted to reach.",
+          "flavor": "Hand of Vecna experimented with equip costs of life, of sacrificing a creature, and of mana plus life together. “The printed card has two different equip costs, one which is just life and one which is just mana rather than a single cost that combines them.”"
+        },
+        {
+          "title": "Write the nearest existing component when the one you need doesn't exist yet",
+          "rules": "A design waiting on something that hasn't been created can't be evaluated. Substitute the closest thing that does exist and carry on: the version in front of people now behaves like the version you intend to ship, and the substitution is a note rather than a decision.",
+          "flavor": "Minsc was drafted as a Scout: “This is because Ranger wasn't yet a creature type and they were trying to get the design closer to what they think will be the printed version.” Ward was in the file as armor before it had its final name, and mana value appeared as level."
+        },
+        {
+          "title": "A slot can acquire its subject late",
+          "rules": "Not every piece has to start from who or what it depicts. A slot can begin as a mechanical need, stay unnamed while the mechanics settle, and be assigned a subject once there's something to attach one to — which keeps the design from being bent early to suit a character.",
+          "flavor": "“Interestingly, this slot didn't start as a top-down design for Farideh but rather a bottom-up design playing into blue-red's spell theme.” It spent three versions as an unnamed Wizard, picking up die-rolling along the way, before it became Farideh at all."
+        }
+      ]
+    },
+    "es": {
+      "title": "Cuentos de mazmorra, parte 1",
+      "dek": "«Básicamente todo lo que puedes sacar de verde o blanco que tuviera sentido con el sabor».",
+      "overview": "Cuatro huecos seguidos en la base de datos de cartas: Drizzt, los tres artefactos de Vecna, Farideh, y Minsc con Boo.",
+      "takeaway": "Rosewater no estuvo en los equipos de diseño, así que lee la base de datos. Lo que muestran los historiales es que cada hueco tenía dos o tres salidas fijas y libertad total en todo lo demás: Drizzt debía pelear bien y producir una Guenhwyvar; Minsc debía producir a Boo y tener algún modo de agrandarlo. Todo lo que había entre esas restricciones cambió casi en cada pasada.",
+      "lessons": [
+        {
+          "title": "Nombre las pocas salidas que el hueco debe producir y libere todo lo demás",
+          "rules": "Un encargo funciona mejor como una lista corta de cosas que deben ser ciertas al terminar. Enúncielas, deje abiertos los demás parámetros, y la iteración sale barata: sabrá al instante si una versión es candidata o si ha dejado de responder calladamente a la pregunta que planteó.",
+          "flavor": "Drizzt debía ser bueno en combate y hacer un Gato legendario. Un borrador quitó el Gato, y la nota de Rosewater es: «No sé cuán en serio iba esta versión, porque no crea una ficha de Guenhwyvar, que era uno de los dos requisitos». Minsc también tenía dos: hacer a Boo y agrandarlo."
+        },
+        {
+          "title": "Construya una vez la versión máxima como reconocimiento, y luego recorte",
+          "rules": "En algún punto de la iteración, escriba la versión que se lleva todo lo que el sujeto podría plausiblemente tener. No es una propuesta: es un mapa de lo disponible, hecho de una pasada. El diseño útil es el siguiente, obtenido borrando de él y no añadiendo a algo escuálido.",
+          "flavor": "Un borrador de Drizzt tiene prisa, vigilancia, dañar dos veces, vínculo vital, arrollar, alcance y guardia: «básicamente todo lo que puedes sacar de verde o blanco que tuviera sentido con el sabor». La siguiente versión «es un diseño depurado de la cuarta»."
+        },
+        {
+          "title": "Cuando unas piezas deben funcionar juntas, vuelva a deducir el engranaje en cada iteración",
+          "rules": "Un conjunto de piezas hecho para combinarse seguirá cambiando, y la tentación es proteger la combinación concreta que encontró primero. Proteja el requisito: en cada pasada, pregúntese de nuevo cómo se ayudan estas versiones. La relación es la especificación; el mecanismo no.",
+          "flavor": "El Ojo y la Mano de Vecna fueron sinérgicos en todas las versiones y nunca de la misma manera. Primero el Ojo robaba y la Mano premiaba tener mano llena; luego el Ojo descartaba para lanzar y la Mano rellenaba; al final el Ojo convierte descartes en robos y la Mano convierte mano en fuerza."
+        },
+        {
+          "title": "Una recompensa ensamblada debe llevar todo lo que hacían sus partes",
+          "rules": "Cuando combinar componentes los consume, se está pidiendo cambiar varias cosas que funcionan por una sola. Si el resultado no hace lo que hacían todas, ensamblar es una rebaja y nadie lo hará: la forma combinada tiene que ser un superconjunto estricto antes de poder ser un premio.",
+          "flavor": "Reunir los tres artefactos de Vecna los exilia por una ficha 8/8 de Zombi Mago legendario. «Nótese que Vecna es una criatura 8/8 indestructible que tiene las habilidades de las tres cartas, así que no hay pérdida de funcionalidad al crear a Vecna»."
+        },
+        {
+          "title": "Ofrezca dos precios en monedas distintas en vez de un precio en ambas",
+          "rules": "Un coste que exige dos recursos a la vez solo lo paga quien tenga los dos, y deja fuera a todo el que ande corto de cualquiera. Partirlo en alternativas permite que cada cual pague con lo que le sobre: el mismo acceso, alcanzado por más de la gente a la que quería llegar.",
+          "flavor": "La Mano de Vecna experimentó con costes de equipar en vidas, en sacrificar una criatura, y en maná más vidas juntos. «La carta impresa tiene dos costes de equipar distintos, uno que es solo vidas y otro que es solo maná, en vez de uno que los combine»."
+        },
+        {
+          "title": "Escriba el componente existente más cercano cuando el que necesita aún no existe",
+          "rules": "Un diseño que espera a algo que no se ha creado no se puede evaluar. Sustitúyalo por lo más parecido que sí exista y siga: la versión que la gente tiene delante se comporta como la que usted piensa publicar, y la sustitución es una nota y no una decisión.",
+          "flavor": "Minsc se escribió como Explorador: «Esto es porque Guardabosques aún no era un tipo de criatura y estaban intentando acercar el diseño a lo que creen que será la versión impresa». Guardia figuraba como armadura antes de tener su nombre final."
+        },
+        {
+          "title": "Un hueco puede adquirir su sujeto tarde",
+          "rules": "No toda pieza tiene que partir de a quién o a qué representa. Un hueco puede empezar como una necesidad mecánica, seguir sin nombre mientras las mecánicas se asientan, y recibir un sujeto cuando ya haya algo a lo que atarlo, lo que evita que el diseño se doble pronto para servir a un personaje.",
+          "flavor": "«Curiosamente, este hueco no empezó como un diseño top-down de Farideh, sino como un diseño bottom-up que jugaba con el tema de hechizos azul-rojo». Pasó tres versiones como Mago sin nombre antes de llegar a ser Farideh."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Contes de donjon, partie 1",
+      "dek": "« En gros, tout ce que le vert ou le blanc peut donner et qui avait du sens côté saveur. »",
+      "overview": "Quatre emplacements suivis dans la base de cartes : Drizzt, les trois artefacts de Vecna, Farideh, et Minsc avec Boo.",
+      "takeaway": "Rosewater n'était dans aucune équipe de conception : il lit donc la base de données. Ce que montrent les historiques, c'est que chaque emplacement avait deux ou trois sorties fixes et une liberté totale ailleurs : Drizzt devait bien se battre et produire une Guenhwyvar ; Minsc devait produire Boo et pouvoir l'agrandir. Tout ce qui se trouvait entre ces contraintes changeait à presque chaque passe.",
+      "lessons": [
+        {
+          "title": "Nommez le petit nombre de sorties que l'emplacement doit produire, et libérez le reste",
+          "rules": "Un cahier des charges fonctionne mieux comme une courte liste de choses qui devront être vraies à la fin. Énoncez-les, laissez tous les autres paramètres ouverts, et l'itération devient bon marché : vous voyez aussitôt si une version est candidate ou si elle a cessé en silence de répondre à la question posée.",
+          "flavor": "Drizzt devait bien combattre et faire un Chat légendaire. Un brouillon a supprimé le Chat : « Je ne sais pas si cette version était sérieuse, car elle ne crée pas de jeton Guenhwyvar, l'une des deux exigences. » Minsc en avait deux aussi : faire Boo, et pouvoir l'agrandir."
+        },
+        {
+          "title": "Écrivez une fois la version maximale comme relevé, puis élaguez",
+          "rules": "Quelque part au milieu de l'itération, écrivez la version qui prend tout ce que le sujet pourrait plausiblement avoir. Ce n'est pas une proposition : c'est une carte du disponible, faite d'un trait. La conception utile est la suivante, obtenue en effaçant plutôt qu'en ajoutant à quelque chose de maigre.",
+          "flavor": "Un brouillon de Drizzt cumule célérité, vigilance, double initiative, lien de vie, piétinement, portée et garde : « en gros tout ce que le vert ou le blanc peut donner et qui avait du sens côté saveur ». La version suivante « est une version nettoyée de la quatrième »."
+        },
+        {
+          "title": "Quand des pièces doivent fonctionner ensemble, redéduisez l'emboîtement à chaque itération",
+          "rules": "Un jeu de pièces conçues pour se combiner continuera de changer, et l'on est tenté de protéger la combinaison précise trouvée en premier. Protégez plutôt l'exigence : à chaque passe, redemandez comment ces versions-ci s'entraident. La relation est la spécification ; le mécanisme, non.",
+          "flavor": "L'Œil et la Main de Vecna furent synergiques à chaque version, jamais deux fois de la même façon. D'abord l'Œil piochait et la Main récompensait la main pleine ; puis l'Œil défaussait pour lancer et la Main regarnissait ; enfin l'Œil change les défausses en pioches et la Main la main en puissance."
+        },
+        {
+          "title": "Une récompense assemblée doit porter tout ce que faisaient ses parties",
+          "rules": "Quand combiner des composants les consomme, on demande d'échanger plusieurs choses qui marchent contre une seule. Si le résultat ne fait pas tout ce qu'elles faisaient, assembler est une régression que nul ne choisira : la forme combinée doit être un sur-ensemble strict avant d'être un gain.",
+          "flavor": "Réunir les trois artefacts de Vecna les exile pour un jeton 8/8 de Zombie Sorcier légendaire. « Notez que Vecna est une créature 8/8 indestructible dotée des capacités des trois cartes : il n'y a aucune perte de fonctionnalité à créer Vecna. »"
+        },
+        {
+          "title": "Proposez deux prix dans des monnaies différentes plutôt qu'un prix dans les deux",
+          "rules": "Un coût exigeant deux ressources à la fois n'est payable que par qui détient les deux, et exclut quiconque manque de l'une. Le scinder en alternatives permet à chacun de payer avec ce qu'il a en trop : le même accès, atteint par davantage de ceux que vous visiez.",
+          "flavor": "La Main de Vecna a essayé des coûts d'équipement en points de vie, en sacrifice de créature, et en mana plus vie combinés. « La carte imprimée a deux coûts d'équipement distincts, l'un uniquement en vie et l'autre uniquement en mana, plutôt qu'un seul les combinant. »"
+        },
+        {
+          "title": "Écrivez le composant existant le plus proche quand celui qu'il vous faut n'existe pas encore",
+          "rules": "Une conception qui attend une chose non créée ne peut être évaluée. Substituez le plus proche parent existant et poursuivez : la version qu'on a sous les yeux se comporte comme celle que vous comptez publier, et la substitution est une note, non une décision.",
+          "flavor": "Minsc fut écrit en Éclaireur : « Parce que Rôdeur n'était pas encore un type de créature et qu'ils cherchaient à rapprocher la conception de ce qu'ils pensaient imprimer. » La garde figurait comme armure avant d'avoir son nom définitif."
+        },
+        {
+          "title": "Un emplacement peut recevoir son sujet tardivement",
+          "rules": "Toute pièce ne doit pas partir de qui ou de ce qu'elle représente. Un emplacement peut naître d'un besoin mécanique, rester sans nom le temps que les mécaniques se posent, et recevoir un sujet quand il y a enfin de quoi en accrocher un — ce qui évite de plier tôt la conception à un personnage.",
+          "flavor": "« Fait intéressant, cet emplacement n'a pas commencé comme une conception descendante pour Farideh, mais comme une conception ascendante jouant sur le thème des sorts bleu-rouge. » Il passa trois versions en Sorcier anonyme avant de devenir Farideh."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Contos de masmorra, parte 1",
+      "dek": "“Basicamente tudo o que dá para tirar de verde ou branco e que fizesse sentido no sabor.”",
+      "overview": "Quatro vagas seguidas pelo banco de dados de cartas: Drizzt, os três artefatos de Vecna, Farideh, e Minsc com Boo.",
+      "takeaway": "Rosewater não estava nas equipes de design, então lê o banco de dados. O que os históricos mostram é que cada vaga tinha duas ou três saídas fixas e liberdade total em todo o resto: Drizzt precisava brigar bem e produzir uma Guenhwyvar; Minsc precisava produzir Boo e ter algum jeito de aumentá-lo. Tudo entre essas restrições mudou em quase toda passada.",
+      "lessons": [
+        {
+          "title": "Nomeie as poucas saídas que a vaga precisa produzir, e libere todo o resto",
+          "rules": "Um briefing funciona melhor como uma lista curta de coisas que precisam ser verdade no fim. Enuncie-as, deixe os demais parâmetros abertos, e a iteração fica barata: você vê na hora se uma versão é candidata ou se parou em silêncio de responder à pergunta que você fez.",
+          "flavor": "Drizzt precisava ser bom de briga e fazer um Gato lendário. Um rascunho tirou o Gato, e a nota de Rosewater é: “Não sei o quanto essa versão era séria, porque ela não cria uma ficha de Guenhwyvar, que era um dos dois requisitos.” Minsc também tinha dois."
+        },
+        {
+          "title": "Construa uma vez a versão máxima como levantamento, e depois corte",
+          "rules": "Em algum ponto da iteração, escreva a versão que leva tudo o que o sujeito plausivelmente poderia ter. Não é uma proposta: é um mapa do que está disponível, feito numa passada. O design útil é o seguinte, obtido apagando dele em vez de somando a algo magro.",
+          "flavor": "Um rascunho de Drizzt tem ímpeto, vigilância, golpe duplo, vínculo com a vida, atropelar, alcance e guarda — “basicamente tudo o que dá para tirar de verde ou branco e que fizesse sentido no sabor”. A versão seguinte “é um design limpo da quarta”."
+        },
+        {
+          "title": "Quando as peças precisam funcionar juntas, rededuza o encaixe a cada iteração",
+          "rules": "Um conjunto de peças feito para combinar vai continuar mudando, e a tentação é proteger a combinação específica achada primeiro. Proteja o requisito: a cada passada, pergunte de novo como estas versões se ajudam. A relação é a especificação; o mecanismo não é.",
+          "flavor": "O Olho e a Mão de Vecna foram sinérgicos em toda versão e nunca do mesmo jeito. Primeiro o Olho comprava e a Mão premiava mão cheia; depois o Olho descartava para conjurar e a Mão reabastecia; por fim o Olho vira descarte em compra e a Mão vira mão em força."
+        },
+        {
+          "title": "Uma recompensa montada precisa carregar tudo o que as partes dela faziam",
+          "rules": "Quando combinar componentes os consome, você está pedindo que troquem várias coisas que funcionam por uma só. Se o resultado não faz o que todas faziam, montar é um rebaixamento e ninguém aceita: a forma combinada precisa ser um superconjunto estrito antes de poder ser um prêmio.",
+          "flavor": "Juntar os três artefatos de Vecna os exila por uma ficha 8/8 de Zumbi Mago lendário. “Repare que Vecna é uma criatura 8/8 indestrutível com as habilidades das três cartas, então não há perda de funcionalidade ao criar Vecna.”"
+        },
+        {
+          "title": "Ofereça dois preços em moedas diferentes em vez de um preço nas duas",
+          "rules": "Um custo que exige dois recursos ao mesmo tempo só é pago por quem tem os dois, e barra qualquer um que esteja curto de um deles. Dividi-lo em alternativas deixa cada um pagar com o que tem sobrando: o mesmo acesso, alcançado por mais gente de quem você queria alcançar.",
+          "flavor": "A Mão de Vecna experimentou custos de equipar em pontos de vida, em sacrificar criatura, e em mana mais vida juntos. “A carta impressa tem dois custos de equipar diferentes, um só de vida e outro só de mana, em vez de um que combine os dois.”"
+        },
+        {
+          "title": "Escreva o componente existente mais próximo quando o que você precisa ainda não existe",
+          "rules": "Um design que espera algo ainda não criado não pode ser avaliado. Substitua pelo parente mais próximo que já exista e siga: a versão diante das pessoas se comporta como a que você pretende publicar, e a substituição é uma nota, não uma decisão.",
+          "flavor": "Minsc foi escrito como Batedor: “Isso porque Patrulheiro ainda não era um tipo de criatura e eles tentavam aproximar o design do que achavam que seria a versão impressa.” Guarda constava como armadura antes de ter o nome final."
+        },
+        {
+          "title": "Uma vaga pode ganhar o seu sujeito tarde",
+          "rules": "Nem toda peça precisa partir de quem ou do que ela representa. Uma vaga pode começar como necessidade mecânica, ficar sem nome enquanto as mecânicas se assentam, e receber um sujeito quando já houver algo em que prendê-lo — o que evita torcer o design cedo para servir a um personagem.",
+          "flavor": "“Curiosamente, esta vaga não começou como um design top-down para Farideh, e sim como um design bottom-up jogando com o tema de mágicas azul-vermelho.” Passou três versões como um Mago sem nome antes de virar Farideh."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "地城故事，第一部分",
+      "dek": "「基本上就是绿色和白色能给的、且在风味上说得通的一切。」",
+      "overview": "顺着牌张数据库追踪四个牌位：崔斯特、维克那的三件神器、法瑞德，以及带着「波」的明斯克。",
+      "takeaway": "罗斯华特并不在这些设计团队里，于是他去读数据库。这些版本记录显示的是：每个牌位都有两三项固定的产出，而在其余一切上则完全自由——崔斯特必须能打，并且要造出一只关海法；明斯克必须造出「波」，并且要有办法把「波」养大。而夹在这些限制之间的一切，几乎每过一版就变一次。",
+      "lessons": [
+        {
+          "title": "点明这个位置必须产出的那少数几样东西，其余的一律放开",
+          "rules": "一份需求书，最好写成一张「做完时必须为真」的短清单。把这几条说清楚，把其余所有参数都留空——于是迭代变得很便宜：你能立刻看出某一版究竟是候选方案，还是已经悄悄不再回答你当初提的那个问题。",
+          "flavor": "崔斯特必须能打，而且要造出一只传奇猫。有一版草稿把猫拿掉了，而罗斯华特的批注是：「我不确定这一版有多认真，因为它并不造出关海法衍生物——而那是这张牌两项要求之一。」明斯克同样有两项要求。"
+        },
+        {
+          "title": "把「最大化版本」写一次，当作一次勘测，然后再往回削",
+          "rules": "在迭代进行到中途的某处，请写出那个「把这个题材可能拥有的一切都拿满」的版本。它不是一份提案，而是一张「可用之物」的地图，一遍就画完了。真正有用的设计是下一版：从它上面删，而不是往一个单薄的东西上加。",
+          "flavor": "崔斯特有一版草稿带着敏捷、警戒、双重先攻、系命、践踏、延势和守护——「基本上就是绿色和白色能给的、且在风味上说得通的一切。（好吧，我想他们本来还可以给他闪现。）」而下一版「是第四版清理过后的设计」。"
+        },
+        {
+          "title": "当几件东西必须彼此配合时，请在每一次迭代里重新推导一遍它们的咬合",
+          "rules": "一组为「彼此组合」而造的零件会不断变化，而人总想守住自己最先找到的那个特定组合。请改为守住那项要求：每过一版，都重新问一次「这几个当前版本是怎么互相帮忙的」。关系才是规格书；机制不是。",
+          "flavor": "维克那之眼与维克那之手在每一版里都彼此协同，而且没有两次是同一种协同。起初是眼抓牌、手奖励满手牌；后来是眼弃牌以施放、手负责补充；最后则是眼把弃牌变成抓牌，而手把手牌数量变成力量。"
+        },
+        {
+          "title": "一份「拼装而成」的回报，必须承载它各个零件原本做的全部事情",
+          "rules": "当「组合部件」会把这些部件消耗掉时，你其实是在要求别人拿几样能用的东西去换一样。如果结果做不到它们全部做过的事，那么拼装就是一次降级，没人会去做——所以合体形态必须先是一个严格的超集，然后才谈得上是奖赏。",
+          "flavor": "把维克那的三件神器凑齐，会把它们放逐，换来一个8/8的传奇僵尸／法术师衍生物。「请注意，维克那是一个8/8的不灭生物，且具有这三张牌的所有异能；所以当你造出维克那时，没有任何功能上的损失。」"
+        },
+        {
+          "title": "提供两个「不同货币」的价钱，而不是一个「两种都要」的价钱",
+          "rules": "一项同时索要两种资源的费用，只有同时握有两者的人付得起，而任何一样短缺的人都被挡在门外。把它拆成两个可选项，每个人就都能用自己富余的那样去付：同样的门槛，却被更多你本想触及的人跨了过去。",
+          "flavor": "维克那之手试过以生命、以牺牲一个生物、以及以「法术力加生命」为佩带费用。「而付印的那张牌有两个不同的佩带费用：一个纯粹是生命，一个纯粹是法术力——而不是一个把两者合起来的费用。」"
+        },
+        {
+          "title": "当你需要的那个部件还不存在时，就先写上现有的最接近的那个",
+          "rules": "一份在等待「尚未被造出来之物」的设计，是没法被评估的。请用现存的最近亲去替代它，然后继续往下走：摆在人们眼前的这一版，其行为就与你打算付印的那一版一致；而这次替换只是一条批注，而不是一个决定。",
+          "flavor": "明斯克当初被写成斥候：「这是因为『游侠』当时还不是一个生物类别，而他们想让这份设计更接近他们认为最终会付印的样子。」而守护在有正式名字之前，是以「护甲」的名义留在牌表里的。"
+        },
+        {
+          "title": "一个牌位可以很晚才获得它的题材",
+          "rules": "并不是每一件作品都必须从「它描绘的是谁、是什么」出发。一个位置可以先作为一项机制需求而存在，在机制尘埃落定之前一直不具名，等到有东西可供依附时再被指派题材——这能避免设计过早地为迁就某个角色而扭曲。",
+          "flavor": "「有意思的是，这个位置一开始并不是为法瑞德所做的自上而下设计，而是一个自下而上、呼应蓝红咒语主题的设计。」它以一个无名的法术师身份走过了三个版本，之后才成为法瑞德。"
+        }
+      ]
+    }
+  }
+}

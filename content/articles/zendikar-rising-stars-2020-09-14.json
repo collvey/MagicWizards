@@ -1,0 +1,273 @@
+{
+  "id": "zendikar-rising-stars-2020-09-14",
+  "slug": "zendikar-rising-stars-2020-09-14",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2020-09-14",
+  "series": null,
+  "tags": [
+    "zendikar-rising",
+    "card-design",
+    "scaling"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/zendikar-rising-stars-2020-09-14",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T15:54:04.523Z",
+  "lessons": [
+    {
+      "n": 1,
+      "color": "U"
+    },
+    {
+      "n": 2,
+      "color": "W"
+    },
+    {
+      "n": 3,
+      "color": "U"
+    },
+    {
+      "n": 4,
+      "color": "B"
+    },
+    {
+      "n": 5,
+      "color": "G"
+    },
+    {
+      "n": 6,
+      "color": "R"
+    },
+    {
+      "n": 7,
+      "color": "W"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Zendikar Rising Stars",
+      "dek": "“Aaron then suggested we remove the basic land type... What if we did the reverse?”",
+      "overview": "Card-by-card stories: how to design a scaling effect, and how the Pathways found their drawback.",
+      "takeaway": "Four questions govern any scaling card — does it scale by number or by volume, is it capped, is it linear, is it contained. And the Pathways became printable not by adding a cost but by taking away a bonus that dual lands normally get.",
+      "lessons": [
+        {
+          "title": "Repetition scales anything; magnitude only scales what already has a number",
+          "rules": "There are two ways to make something bigger: raise a value inside it, or run it more times. The first restricts you to effects containing a quantity, which is a narrow set. The second works on almost anything, because what varies is how many times you do it rather than what it does.",
+          "flavor": "“Mechanics that scale by number have less design space as the effect has to involve a number. Mechanics that scale by volume can do most effects because the number you care about is how many times you're generating the effect.” Domain and X spells scale by number; replicate and multikicker by volume."
+        },
+        {
+          "title": "A capped variable gives you both a worst case and a precedent",
+          "rules": "Something that can grow without limit has to be priced against a tail you can't see. Put a ceiling on it and two things become available at once: you can cost the maximum directly, and any earlier work with a similar ceiling becomes a reference you can read off.",
+          "flavor": "“Capped effects allow you a little more freedom as you know the top end of what's possible. Party's top end being four was useful in that we'd done the domain mechanic which stops at five, allowing us the ability to look at those cards as a jumping-off point.”"
+        },
+        {
+          "title": "To make a fixed effect scale, find the variant that already contains a quantity",
+          "rules": "Some effects have no number in them and resist being scaled directly — the obvious attempt produces something wildly swingy. Instead of forcing a magnitude onto the effect, go through the versions of it you've already built and look for the one that happens to have a countable part.",
+          "flavor": "A scaling discard was needed at common. “Discard X cards are non-contained and too high variance for Limited... The key is looking at discard effects we've done and finding a place where there's a number built in. The answer is the coercion effect,” where the count is cards in the opponent's hand."
+        },
+        {
+          "title": "Withhold a bonus instead of adding a penalty",
+          "rules": "When something needs a downside, the reflex is to attach a cost. Look instead at the small advantages you routinely grant things of that kind and simply don't grant one. The result is weaker by exactly as much, costs no rules text, and never has to be paid at the table.",
+          "flavor": "The Pathways looked close to strictly better than basics. Rosewater proposed a life payment; Aaron Forsythe asked whether it was needed. “Aaron then suggested we remove the basic land type. One of the ways we've slightly juiced up dual lands is to give them basic land types. What if we did the reverse?”"
+        },
+        {
+          "title": "Piggyback the experiment on work that was happening anyway",
+          "rules": "A trial built specially to be a trial costs a slot and arrives with everyone knowing what it is for. Attaching the thing you want to learn about to a piece that independently needed it gets you a real reaction, in context, for nothing.",
+          "flavor": "“The ability got added to Happily Ever After because that's the card in the set that needed the effect. We didn't design the card from the ground up to test that effect. We were testing the general response to how it felt. Did it feel white?”"
+        },
+        {
+          "title": "A benefit you must aim at someone creates a relationship",
+          "rules": "An effect that helps everyone equally is arithmetic. The same effect where you choose one recipient is a social act — it can be repaid, resented, or traded on. Where several people are present, who you point it at becomes more interesting than what it does.",
+          "flavor": "Group draw was reworked so that you and one chosen opponent each draw. “This way, it wouldn't be any different in two-player play, which didn't need the effect, but useful in multiplayer play, which did. I particularly like how it adds a political aspect because you get to choose which opponent gets the card.”"
+        },
+        {
+          "title": "“Right but useless” is a different verdict from “wrong”",
+          "rules": "Two objections that both look like rejection point at opposite fixes. If people accept the thing and simply never reach for it, the concept passed and the execution failed — keep the permission you won and rebuild the delivery. Sort your negative feedback into these piles before responding.",
+          "flavor": "On white universal draw: “Externally, no one had a problem with the effect being white.” The complaint was that it didn't help in Commander, and internal testing agreed it wasn't useful when everyone drew. So the effect stayed white and became “you and target opponent each draw a card.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Estrellas de Zendikar Rising",
+      "dek": "«Aaron sugirió entonces quitar el tipo de tierra básica... ¿Y si hacíamos lo contrario?».",
+      "overview": "Historias carta a carta: cómo se diseña un efecto escalable, y cómo las Sendas encontraron su inconveniente.",
+      "takeaway": "Cuatro preguntas rigen cualquier carta escalable: ¿escala por número o por volumen?, ¿tiene tope?, ¿es lineal?, ¿está contenida? Y las Sendas se volvieron publicables no añadiendo un coste, sino quitando una ventaja que las tierras dobles suelen recibir.",
+      "lessons": [
+        {
+          "title": "La repetición escala cualquier cosa; la magnitud solo escala lo que ya tiene un número",
+          "rules": "Hay dos formas de hacer algo más grande: subir un valor interno o ejecutarlo más veces. La primera le limita a efectos que contengan una cantidad, un conjunto estrecho. La segunda vale para casi todo, porque lo que varía es cuántas veces lo hace, no qué hace.",
+          "flavor": "«Las mecánicas que escalan por número tienen menos espacio de diseño, porque el efecto debe implicar un número. Las que escalan por volumen pueden hacer casi cualquier efecto, porque el número que importa es cuántas veces lo generas»."
+        },
+        {
+          "title": "Una variable con tope le da a la vez un peor caso y un precedente",
+          "rules": "Algo que puede crecer sin límite hay que tasarlo contra una cola que no se ve. Póngale techo y obtiene dos cosas a la vez: puede costear directamente el máximo, y cualquier trabajo anterior con un techo parecido se convierte en una referencia que puede leer.",
+          "flavor": "«Los efectos con tope dan algo más de libertad, porque conoces el extremo superior de lo posible. Que el tope del grupo fuera cuatro fue útil, ya que habíamos hecho la mecánica de dominio, que se detiene en cinco, y eso nos permitió usar esas cartas como punto de partida»."
+        },
+        {
+          "title": "Para hacer escalable un efecto fijo, busque la variante que ya contiene una cantidad",
+          "rules": "Algunos efectos no llevan número dentro y se resisten a escalar: el intento obvio produce algo muy volátil. En vez de forzarle una magnitud, repase las versiones que ya ha construido y busque la que casualmente tiene una parte contable.",
+          "flavor": "Hacía falta un descarte escalable en común. «Descartar X cartas no está contenido y tiene demasiada varianza para Limitado... La clave está en mirar los descartes que hemos hecho y encontrar dónde hay un número incorporado. La respuesta es el efecto de coerción»."
+        },
+        {
+          "title": "Retire una ventaja en vez de añadir una penalización",
+          "rules": "Cuando algo necesita un inconveniente, el reflejo es añadirle un coste. Mire en cambio las pequeñas ventajas que suele conceder a las cosas de ese tipo y simplemente no conceda una. El resultado es más débil en esa medida exacta, no cuesta texto y nunca hay que pagarlo en la mesa.",
+          "flavor": "Las Sendas parecían casi estrictamente mejores que las básicas. Rosewater propuso pagar vida; Aaron Forsythe preguntó si hacía falta. «Aaron sugirió entonces quitar el tipo de tierra básica. Una de las formas de mejorar un poco las tierras dobles es darles tipos básicos. ¿Y si hacíamos lo contrario?»"
+        },
+        {
+          "title": "Monte el experimento sobre un trabajo que ya se iba a hacer",
+          "rules": "Una prueba construida expresamente como prueba cuesta un hueco y llega con todo el mundo sabiendo para qué es. Enganchar aquello que quiere aprender a una pieza que lo necesitaba por su cuenta le consigue una reacción real, en contexto, gratis.",
+          "flavor": "«La habilidad se añadió a Happily Ever After porque era la carta de la colección que necesitaba el efecto. No diseñamos la carta desde cero para probar eso. Estábamos midiendo la reacción general a cómo sentaba. ¿Se sentía blanco?»"
+        },
+        {
+          "title": "Un beneficio que debe dirigir a alguien crea una relación",
+          "rules": "Un efecto que ayuda a todos por igual es aritmética. El mismo efecto en el que usted elige a un destinatario es un acto social: puede devolverse, resentirse o negociarse. Con varias personas presentes, a quién lo apunta se vuelve más interesante que lo que hace.",
+          "flavor": "El robo grupal se rehízo para que tú y un rival elegido robéis. «Así no cambiaba nada en partidas de dos, que no necesitaban el efecto, y servía en multijugador, que sí. Me gusta especialmente que añade un aspecto político, porque eliges qué rival recibe la carta»."
+        },
+        {
+          "title": "«Correcto pero inútil» es un veredicto distinto de «equivocado»",
+          "rules": "Dos objeciones que parecen rechazo apuntan a arreglos opuestos. Si la gente acepta la cosa y sencillamente nunca la usa, el concepto pasó y falló la ejecución: conserve el permiso ganado y rehaga la entrega. Clasifique sus críticas antes de responder.",
+          "flavor": "Sobre el robo universal en blanco: «Externamente, nadie tuvo problema con que el efecto fuera blanco». La queja era que no ayudaba en Commander, y las pruebas internas coincidieron. Así que el efecto siguió siendo blanco y pasó a ser «tú y un rival objetivo robáis una carta»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Les vedettes de Zendikar Rising",
+      "dek": "« Aaron a alors suggéré de retirer le type de terrain de base... Et si nous faisions l'inverse ? »",
+      "overview": "Histoires carte par carte : comment concevoir un effet à échelle, et comment les Voies ont trouvé leur inconvénient.",
+      "takeaway": "Quatre questions régissent toute carte à échelle : croît-elle par nombre ou par volume, est-elle plafonnée, linéaire, contenue ? Et les Voies sont devenues imprimables non par l'ajout d'un coût, mais par le retrait d'un avantage que reçoivent d'ordinaire les bi-terrains.",
+      "lessons": [
+        {
+          "title": "La répétition met tout à l'échelle ; la magnitude, seulement ce qui contient déjà un nombre",
+          "rules": "Deux façons d'agrandir une chose : hausser une valeur interne, ou l'exécuter plus souvent. La première vous limite aux effets contenant une quantité, ensemble étroit. La seconde vaut pour presque tout, car ce qui varie est le nombre de fois, non la nature de l'acte.",
+          "flavor": "« Les mécaniques qui croissent par nombre ont moins d'espace, car l'effet doit comporter un nombre. Celles qui croissent par volume peuvent faire presque tous les effets, car ce qui compte est combien de fois vous le produisez. »"
+        },
+        {
+          "title": "Une variable plafonnée vous donne à la fois un pire cas et un précédent",
+          "rules": "Ce qui peut croître sans limite doit être tarifé contre une queue invisible. Posez-lui un plafond et deux choses s'ouvrent : vous pouvez coûter directement le maximum, et tout travail antérieur au plafond voisin devient une référence lisible.",
+          "flavor": "« Les effets plafonnés donnent un peu plus de liberté, car on connaît le haut du possible. Que le plafond du groupe soit quatre fut utile : nous avions fait le domaine, qui s'arrête à cinq, ce qui nous permit de partir de ces cartes. »"
+        },
+        {
+          "title": "Pour mettre à l'échelle un effet fixe, cherchez la variante contenant déjà une quantité",
+          "rules": "Certains effets n'ont pas de nombre en eux et résistent à l'échelle : la tentative évidente donne quelque chose de très volatil. Plutôt que d'y forcer une magnitude, passez en revue les versions déjà bâties et cherchez celle qui possède par hasard une part dénombrable.",
+          "flavor": "Il fallait une défausse à échelle en commune. « Défausser X cartes n'est pas contenu et trop aléatoire en limité... La clé est de revoir nos effets de défausse et d'y trouver un nombre intégré. La réponse est l'effet de coercition. »"
+        },
+        {
+          "title": "Retirez un avantage plutôt que d'ajouter une pénalité",
+          "rules": "Quand une chose réclame un inconvénient, le réflexe est d'y attacher un coût. Regardez plutôt les petits avantages que vous accordez d'ordinaire à ce genre de chose, et n'en accordez pas un. Le résultat est plus faible d'autant, ne coûte aucun texte et ne se paie jamais à la table.",
+          "flavor": "Les Voies semblaient presque strictement meilleures que les terrains de base. Rosewater proposa un paiement en points de vie ; Aaron Forsythe demanda si c'était nécessaire. « Aaron a alors suggéré de retirer le type de terrain de base... Et si nous faisions l'inverse ? »"
+        },
+        {
+          "title": "Greffez l'expérience sur un travail déjà prévu",
+          "rules": "Un essai bâti exprès comme essai coûte une place et arrive avec chacun sachant à quoi il sert. Accrocher ce que vous voulez apprendre à une pièce qui en avait besoin de toute façon vous procure une réaction réelle, en contexte, pour rien.",
+          "flavor": "« La capacité a été ajoutée à Happily Ever After parce que c'était la carte de l'extension qui avait besoin de cet effet. Nous n'avons pas conçu la carte pour tester cela. Nous mesurions la réaction générale au ressenti. Est-ce que ça faisait blanc ? »"
+        },
+        {
+          "title": "Un bienfait qu'il faut adresser à quelqu'un crée une relation",
+          "rules": "Un effet qui aide tout le monde également relève de l'arithmétique. Le même effet où vous choisissez un bénéficiaire est un acte social : il peut être rendu, reproché ou monnayé. À plusieurs, vers qui vous le pointez devient plus intéressant que ce qu'il fait.",
+          "flavor": "La pioche de groupe fut refaite pour que vous et un adversaire choisi piochiez. « Ainsi, rien ne changeait à deux joueurs, qui n'en avaient pas besoin, et c'était utile en multijoueur. J'aime particulièrement la dimension politique : vous choisissez quel adversaire reçoit la carte. »"
+        },
+        {
+          "title": "« Juste mais inutile » n'est pas le même verdict que « faux »",
+          "rules": "Deux objections qui ressemblent à un rejet appellent des corrections opposées. Si l'on accepte la chose et qu'on n'y recourt jamais, le concept est passé et l'exécution a échoué : gardez l'autorisation obtenue et refaites la livraison. Triez vos retours avant de répondre.",
+          "flavor": "Sur la pioche universelle en blanc : « À l'extérieur, personne n'a trouvé à redire au fait que l'effet soit blanc. » Le grief était qu'il n'aidait pas en Commander, et les tests internes ont confirmé. L'effet resta blanc et devint « vous et un adversaire ciblé piochez une carte »."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Estrelas de Zendikar Rising",
+      "dek": "“Aaron então sugeriu tirarmos o tipo de terreno básico... E se fizéssemos o contrário?”",
+      "overview": "Histórias carta a carta: como se projeta um efeito que escala, e como as Trilhas acharam a desvantagem delas.",
+      "takeaway": "Quatro perguntas regem qualquer carta que escala: ela escala por número ou por volume, tem teto, é linear, é contida? E as Trilhas ficaram publicáveis não por acrescentar um custo, mas por retirar uma vantagem que terrenos duplos costumam ganhar.",
+      "lessons": [
+        {
+          "title": "Repetição escala qualquer coisa; magnitude só escala o que já tem um número",
+          "rules": "Há dois jeitos de aumentar algo: elevar um valor interno ou executá-lo mais vezes. O primeiro limita você a efeitos que contenham uma quantidade, um conjunto estreito. O segundo serve para quase tudo, porque o que varia é quantas vezes, e não o que é feito.",
+          "flavor": "“Mecânicas que escalam por número têm menos espaço de design, porque o efeito precisa envolver um número. As que escalam por volume conseguem quase qualquer efeito, porque o número que importa é quantas vezes você o gera.”"
+        },
+        {
+          "title": "Uma variável com teto lhe dá ao mesmo tempo um pior caso e um precedente",
+          "rules": "Algo que pode crescer sem limite precisa ser precificado contra uma cauda que você não vê. Ponha um teto e duas coisas se abrem: dá para custear o máximo diretamente, e qualquer trabalho anterior com teto parecido vira uma referência que você pode consultar.",
+          "flavor": "“Efeitos com teto dão um pouco mais de liberdade, porque você conhece o topo do possível. O teto do grupo ser quatro foi útil, já que tínhamos feito a mecânica de domínio, que para em cinco, o que nos permitiu partir daquelas cartas.”"
+        },
+        {
+          "title": "Para fazer um efeito fixo escalar, ache a variante que já contém uma quantidade",
+          "rules": "Alguns efeitos não têm número dentro e resistem a escalar: a tentativa óbvia produz algo muito instável. Em vez de forçar uma magnitude, repasse as versões que você já construiu e procure aquela que por acaso tem uma parte contável.",
+          "flavor": "Era preciso um descarte que escalasse no comum. “Descartar X cartas não é contido e tem variância demais para o Limitado... A chave é olhar os efeitos de descarte que já fizemos e achar onde há um número embutido. A resposta é o efeito de coerção.”"
+        },
+        {
+          "title": "Retire uma vantagem em vez de acrescentar uma punição",
+          "rules": "Quando algo precisa de uma desvantagem, o reflexo é anexar um custo. Olhe antes as pequenas vantagens que você costuma conceder a coisas daquele tipo e simplesmente não conceda uma. O resultado é mais fraco na exata medida, não custa texto e nunca é pago na mesa.",
+          "flavor": "As Trilhas pareciam quase estritamente melhores que os básicos. Rosewater propôs pagar pontos de vida; Aaron Forsythe perguntou se era preciso. “Aaron então sugeriu tirarmos o tipo de terreno básico. Um dos jeitos de turbinar terrenos duplos é dar tipos básicos a eles. E se fizéssemos o contrário?”"
+        },
+        {
+          "title": "Pegue carona com o experimento num trabalho que já ia acontecer",
+          "rules": "Um teste construído de propósito como teste custa uma vaga e chega com todos sabendo para que serve. Pendurar aquilo que você quer aprender numa peça que precisava disso por conta própria lhe dá uma reação real, em contexto, de graça.",
+          "flavor": "“A habilidade foi acrescentada a Happily Ever After porque era a carta da coleção que precisava do efeito. Não projetamos a carta do zero para testar aquilo. Estávamos medindo a reação geral à sensação. Parecia branco?”"
+        },
+        {
+          "title": "Um benefício que você precisa mirar em alguém cria uma relação",
+          "rules": "Um efeito que ajuda todos igualmente é aritmética. O mesmo efeito em que você escolhe um destinatário é um ato social: pode ser retribuído, ressentido ou negociado. Com várias pessoas presentes, para quem você aponta fica mais interessante do que o que ele faz.",
+          "flavor": "A compra em grupo foi refeita para que você e um oponente escolhido comprem. “Assim, nada mudava em partidas de dois, que não precisavam do efeito, e servia no multijogador, que precisava. Gosto especialmente do aspecto político: você escolhe qual oponente recebe a carta.”"
+        },
+        {
+          "title": "“Certo, mas inútil” é um veredito diferente de “errado”",
+          "rules": "Duas objeções que parecem rejeição apontam para consertos opostos. Se as pessoas aceitam a coisa e simplesmente nunca recorrem a ela, o conceito passou e a execução falhou: guarde a permissão conquistada e refaça a entrega. Separe as críticas antes de responder.",
+          "flavor": "Sobre a compra universal no branco: “Externamente, ninguém teve problema com o efeito ser branco.” A queixa era que não ajudava no Commander, e os testes internos concordaram. O efeito seguiu branco e virou “você e um oponente alvo compram um card”."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "赞迪卡再起群星",
+      "dek": "「接着亚伦提议：把基本地类别拿掉……如果我们反过来做呢？」",
+      "overview": "逐张牌的故事：一个「会随规模变化的效应」该怎么设计，以及通路是怎样找到它那份缺点的。",
+      "takeaway": "任何一张「会随规模变化」的牌，都由四个问题所支配：它是按数值放大还是按次数放大、它有没有封顶、它是不是线性的、它是不是被约束住的。而通路之所以能被印出来，靠的不是加上一项代价，而是拿掉了一项双色地通常都会得到的好处。",
+      "lessons": [
+        {
+          "title": "重复能把任何东西放大；而数值只能放大那些「本来就带着一个数字」的东西",
+          "rules": "要把一样东西做大，有两条路：把它内部的某个数值调高，或者把它多跑几遍。第一条路把你限制在「含有某个数量」的那些效应上，而那是个很窄的集合。第二条路几乎对什么都管用——因为变化的是「你做了多少次」，而不是「你做的是什么」。",
+          "flavor": "「按数值放大的机制，设计空间更小，因为这个效应必须含有一个数字。而按次数放大的机制，几乎什么效应都能做——因为你在乎的那个数字，是『你把这个效应生成了多少次』。」"
+        },
+        {
+          "title": "一个封了顶的变量，同时给了你一个最坏情况和一个先例",
+          "rules": "一样能够无限增长的东西，必须去对着一条你看不见的长尾来定价。给它加一个上限，两样东西便同时到手了：你可以直接按最大值来核算成本；而任何一件「上限相近」的既往作品，也就成了一份你可以直接读取的参照。",
+          "flavor": "「有封顶的效应给了你多一点自由，因为你知道可能性的上限在哪里。队伍的上限是四，这一点很有用——因为我们做过『领土』这个封顶在五的机制，于是我们可以拿那些牌当作起跳点。」"
+        },
+        {
+          "title": "要让一个固定的效应能够放大，请去找那个「本身已经含有一个数量」的变体",
+          "rules": "有些效应内部没有数字，因而抗拒被直接放大：那个显而易见的做法，只会产出某种起伏极大的东西。与其硬往这个效应上塞一个量级，不如把你已经造过的各个版本过一遍，找出其中那个「碰巧带着一个可数部件」的。",
+          "flavor": "他们需要一张能随规模变化的普通位弃牌。「『弃 X 张牌』既不受约束，对轮抽来说变数也太大了……关键在于回头去看我们做过的那些弃牌效应，找出其中内建了数字的地方。答案是『胁迫』这一类效应。」"
+        },
+        {
+          "title": "与其加上一项惩罚，不如扣下一项好处",
+          "rules": "当一样东西需要一份缺点时，人的反射动作是给它挂上一项代价。请转而去看：对于这一类东西，你通常都会顺手给予的那些小小的优待有哪些——然后，就是不给其中一项。结果恰好弱了那么多，不花任何规则文字，而且永远不必在牌桌上被支付。",
+          "flavor": "通路看上去几乎严格优于基本地。罗斯华特提议支付生命；亚伦·福赛斯则问：这真的必要吗。「接着亚伦提议：把基本地类别拿掉。我们让双色地稍微好用一点的办法之一，就是给它们基本地类别。那如果我们反过来做呢？」"
+        },
+        {
+          "title": "把实验搭在「反正也要做的工作」上",
+          "rules": "一次专门为了当作实验而造出来的测试，既要花掉一个位置，又会在所有人都知道「它是干什么用的」的情况下登场。而把「你想弄明白的那件事」挂到一件本来就需要它的作品上，能让你在真实的语境里、免费地拿到一份真实的反应。",
+          "flavor": "「这条异能之所以被加到『从此幸福快乐』上，是因为它正是这个系列里需要这个效应的那张牌。我们并不是为了测试这个效应而从头设计了这张牌。我们在测的是人们对『它感觉如何』的总体反应：它感觉像白色吗？」"
+        },
+        {
+          "title": "一份「你必须指定给某个人」的好处，会缔造出一段关系",
+          "rules": "一个对所有人一视同仁的好处，只是算术。而同样一个好处，若由你来挑选受益者，那就是一次社交行为了：它可以被回报、被记恨，也可以拿来交易。当在场的人不止一个时，「你把它指向谁」，就变得比「它做了什么」更有意思。",
+          "flavor": "团体抓牌被改成了「你和一位由你选择的对手各抓一张」。「这样一来，在双人对局里它毫无变化——那里本来也不需要这个效应；而在多人对局里它就有用了。我尤其喜欢它由此增添的政治性：你可以选择让哪一位对手拿到这张牌。」"
+        },
+        {
+          "title": "「对，但没用」和「不对」，是两种不同的判决",
+          "rules": "两种看起来都像否决的反对意见，指向的却是相反的修补方向。如果人们接受了这样东西、却单纯地从不去用它，那就是概念通过了、而执行失败了：请保住你已经赢得的那份许可，重做交付的方式。在回应之前，先把负面反馈分进这两堆里。",
+          "flavor": "谈到白色的全体抓牌：「在外部，没有人对『这个效应是白色的』有意见。」抱怨在于它在指挥官赛制里帮不上忙，而内部测试也认同：当所有人都抓牌时它没什么用。于是这个效应留在了白色，并变成了「你和一位目标对手各抓一张牌」。"
+        }
+      ]
+    }
+  }
+}

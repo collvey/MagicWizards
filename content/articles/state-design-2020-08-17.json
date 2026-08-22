@@ -1,0 +1,273 @@
+{
+  "id": "state-design-2020-08-17",
+  "slug": "state-design-2020-08-17",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2020-08-17",
+  "series": null,
+  "tags": [
+    "state-of-design",
+    "post-mortem",
+    "2020"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/state-design-2020-08-17",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T16:23:42.977Z",
+  "lessons": [
+    {
+      "n": 1,
+      "color": "W"
+    },
+    {
+      "n": 2,
+      "color": "U"
+    },
+    {
+      "n": 3,
+      "color": "R"
+    },
+    {
+      "n": 4,
+      "color": "U"
+    },
+    {
+      "n": 5,
+      "color": "G"
+    },
+    {
+      "n": 6,
+      "color": "R"
+    },
+    {
+      "n": 7,
+      "color": "B"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "State of Design 2020",
+      "dek": "“We were experimenting with raising complexity for our players. I think we didn't realize we were also raising the complexity for ourselves.”",
+      "overview": "The annual post-mortem: Oko, companions, a Godzilla misunderstanding, and a year with too many bannings.",
+      "takeaway": "Rosewater's verdict on Ikoria is that mutate and companions were both worth doing and should not have shared a set. Design raised the complexity for players successfully and for play design accidentally, and the bannings followed.",
+      "lessons": [
+        {
+          "title": "Two ambitious things in one release is a demand on the people who verify it",
+          "rules": "Ambition is not only a claim on your own effort. Everything novel you ship has to be checked by someone downstream whose capacity is fixed, and stacking two hard things into one release spends that capacity twice over. Ration your boldness by what the verification stage can absorb.",
+          "flavor": "“I think both mutate and companions are things we should have done, but in hindsight, it shouldn't have been in the same set. Part of the job of design is not overtaxing play design... We were experimenting with raising complexity for our players. I think we didn't realize we were also raising the complexity for ourselves.”"
+        },
+        {
+          "title": "An ability that pays for itself has no built-in ceiling",
+          "rules": "When using something makes it more able to be used again, nothing limits how many times it happens. A cost that depletes caps the total by construction. Put anything that transforms the situation behind the depleting kind, and check which of your options are quietly unlimited.",
+          "flavor": "On Oko: “The big takeaway from Oko's design is the need to be careful with what kind of effects we do with a positive loyalty cost. We can limit negative loyalty effects, but positive ones can just be done turn after turn. Making things into Elk, for example, needed to be a negative loyalty.”"
+        },
+        {
+          "title": "What you lead with is what you promised",
+          "rules": "The audience forms its expectation from the first thing you show them, not from your internal description of the work. If the opening emphasis isn't proportionate to the finished thing, they will experience the difference as a broken promise rather than as a surprise.",
+          "flavor": "Ikoria played with many monster tropes, but “the focus on Godzilla in the beginning of the previews made players think that we were doing something similar to Rise of the Eldrazi... This miscommunication did cause some player dissatisfaction, as they felt we didn't deliver what we promised them.”"
+        },
+        {
+          "title": "Parallel channels have to be reconciled, or each discredits the other",
+          "rules": "When two outputs describe the same events, the audience reads both and treats a conflict as evidence that neither is authoritative. Gaps are survivable — one side saying more than the other is normal. Direct contradiction is not, because there is no way to hold both.",
+          "flavor": "“Another common complaint I got was that the cards and the book contradicted one another on several occasions. In the past, we'd had elements in the book missing in the card set, or vice versa, but this was the first set in a while where the book said one thing and the cards said the opposite.”"
+        },
+        {
+          "title": "One instance sets the template you will be measured against",
+          "rules": "Do something a particular way once and it stops being one option among many — it becomes the expected form, and the next time you do the same thing at a different scale, the difference reads as a reduction. The precedent is created whether or not you intended to set one.",
+          "flavor": "Teferi got one planeswalker card, five thematic legends, and a vertical cycle. “A lot of players expected more than that... part of it seemed to stem from a belief that there would be three different planeswalker cards of Teferi,” because Chandra had three the year before."
+        },
+        {
+          "title": "Contradictory feedback from the same group is usually about scale",
+          "rules": "When people object to a thing and then object to its absence, they are not confused and they have not changed their minds. They wanted a different amount of it. Read the pair as a range rather than as two opposing camps, and the actual request becomes legible.",
+          "flavor": "On Teferi as the face of Core Set 2021, players first worried they were in for a lot of powerful, annoying Teferi cards, and then complained there was only one. “Yes, players were both anxious about and disappointed by there not being three Teferi planeswalkers.”"
+        },
+        {
+          "title": "Independence between releases costs the audience the ability to accumulate",
+          "rules": "Making each instalment self-contained buys you freedom and takes something from the people following along: what they built last time no longer grows. Continuity is not just a tidiness preference — it's what lets an audience's investment compound instead of resetting.",
+          "flavor": "“We're still adapting to a blockless world. Having a year where every set occurs on a different plane and has a unique set of mechanics is a challenge to creating mechanical flow... we want you to have the ability to build decks that can evolve as new sets come out. There are a lot of advantages to not having blocks, but there are also a number of challenges, and this has been the biggest one for me.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Estado del diseño 2020",
+      "dek": "«Experimentábamos subiendo la complejidad para los jugadores. Creo que no nos dimos cuenta de que también la subíamos para nosotros».",
+      "overview": "El post mortem anual: Oko, los compañeros, un malentendido con Godzilla y un año con demasiadas prohibiciones.",
+      "takeaway": "El veredicto de Rosewater sobre Ikoria es que mutar y los compañeros merecían hacerse, pero no en la misma colección. El diseño subió la complejidad para los jugadores con éxito y para el diseño de juego por accidente, y llegaron las prohibiciones.",
+      "lessons": [
+        {
+          "title": "Dos cosas ambiciosas en una misma entrega son una exigencia para quien las verifica",
+          "rules": "La ambición no reclama solo su propio esfuerzo. Todo lo novedoso que publique debe comprobarlo alguien aguas abajo cuya capacidad es fija, y apilar dos cosas difíciles en una entrega gasta esa capacidad por partida doble. Racione su audacia según lo que la fase de verificación pueda absorber.",
+          "flavor": "«Creo que tanto mutar como los compañeros eran cosas que debíamos hacer, pero, en retrospectiva, no debían estar en la misma colección. Parte del trabajo del diseño es no sobrecargar al diseño de juego... Experimentábamos subiendo la complejidad para los jugadores. No nos dimos cuenta de que también la subíamos para nosotros»."
+        },
+        {
+          "title": "Una habilidad que se paga sola no tiene techo incorporado",
+          "rules": "Cuando usar algo lo hace más capaz de volver a usarse, nada limita cuántas veces ocurre. Un coste que se agota pone tope al total por construcción. Ponga tras ese tipo de coste todo lo que transforme la situación, y revise cuáles de sus opciones son ilimitadas en silencio.",
+          "flavor": "Sobre Oko: «La gran lección de su diseño es la necesidad de tener cuidado con qué efectos ponemos en un coste de lealtad positivo. Podemos limitar los de lealtad negativa, pero los positivos pueden hacerse turno tras turno. Convertir cosas en alces, por ejemplo, tenía que ser lealtad negativa»."
+        },
+        {
+          "title": "Aquello con lo que abre es lo que prometió",
+          "rules": "El público forma su expectativa a partir de lo primero que le enseña, no de su descripción interna del trabajo. Si el énfasis inicial no guarda proporción con la obra terminada, vivirán la diferencia como una promesa rota, no como una sorpresa.",
+          "flavor": "Ikoria jugaba con muchos tópicos de monstruos, pero «el foco en Godzilla al principio de los avances hizo pensar a los jugadores que hacíamos algo parecido a Rise of the Eldrazi... Esa mala comunicación causó cierta insatisfacción, pues sintieron que no entregamos lo prometido»."
+        },
+        {
+          "title": "Los canales paralelos deben conciliarse, o cada uno desacredita al otro",
+          "rules": "Cuando dos salidas describen los mismos hechos, el público lee ambas y trata el conflicto como prueba de que ninguna manda. Los huecos se sobrellevan: que un lado diga más que el otro es normal. La contradicción directa no, porque no hay forma de sostener ambas.",
+          "flavor": "«Otra queja común fue que las cartas y el libro se contradecían en varias ocasiones. En el pasado habíamos tenido elementos del libro ausentes en las cartas, o al revés, pero esta fue la primera colección en un tiempo donde el libro decía una cosa y las cartas lo contrario»."
+        },
+        {
+          "title": "Una sola instancia fija la plantilla con la que le medirán",
+          "rules": "Haga algo de cierta manera una vez y deja de ser una opción entre muchas: se vuelve la forma esperada, y la próxima vez que lo haga a otra escala, la diferencia se leerá como una rebaja. El precedente se crea tanto si pretendía sentarlo como si no.",
+          "flavor": "Teferi tuvo una carta de planeswalker, cinco legendarias temáticas y un ciclo vertical. «Muchos jugadores esperaban más... en parte parecía venir de la creencia de que habría tres cartas distintas de planeswalker de Teferi», porque Chandra tuvo tres el año anterior."
+        },
+        {
+          "title": "La crítica contradictoria del mismo grupo suele ser sobre la cantidad",
+          "rules": "Cuando alguien objeta algo y luego objeta su ausencia, no está confundido ni ha cambiado de idea. Quería otra cantidad. Lea el par como un rango y no como dos bandos opuestos, y la petición real se vuelve legible.",
+          "flavor": "Con Teferi como cara de Core Set 2021, los jugadores primero temieron una tanda de cartas de Teferi poderosas y molestas, y luego se quejaron de que solo hubiera una. «Sí, los jugadores estaban a la vez inquietos y decepcionados por que no hubiera tres Teferis»."
+        },
+        {
+          "title": "La independencia entre entregas le cuesta al público la posibilidad de acumular",
+          "rules": "Hacer cada entrega autónoma le compra libertad y le quita algo a quien le sigue: lo que construyó la vez pasada deja de crecer. La continuidad no es una manía de orden, es lo que permite que la inversión del público se componga en vez de reiniciarse.",
+          "flavor": "«Seguimos adaptándonos a un mundo sin bloques. Tener un año donde cada colección ocurre en un plano distinto y con mecánicas únicas dificulta crear flujo mecánico... queremos que puedas construir mazos que evolucionen conforme salen colecciones nuevas»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "État de la conception 2020",
+      "dek": "« Nous expérimentions en augmentant la complexité pour nos joueurs. Je crois que nous n'avions pas vu que nous l'augmentions aussi pour nous. »",
+      "overview": "Le bilan annuel : Oko, les compagnons, un malentendu Godzilla et une année aux bannissements trop nombreux.",
+      "takeaway": "Le verdict de Rosewater sur Ikoria : la mutation et les compagnons méritaient d'exister, mais pas dans la même extension. La conception a augmenté la complexité pour les joueurs avec succès et pour la play design par accident ; les bannissements ont suivi.",
+      "lessons": [
+        {
+          "title": "Deux choses ambitieuses dans une même sortie sont une exigence pour ceux qui vérifient",
+          "rules": "L'ambition ne prélève pas que votre effort. Tout ce que vous publiez de neuf doit être vérifié en aval par quelqu'un dont la capacité est fixe ; empiler deux choses difficiles dans une sortie dépense cette capacité deux fois. Rationnez votre audace selon ce que la vérification peut absorber.",
+          "flavor": "« Je pense que la mutation et les compagnons méritaient d'être faits, mais avec le recul, pas dans la même extension. Une part du métier de la conception est de ne pas surcharger la play design... Nous n'avions pas vu que nous augmentions aussi la complexité pour nous. »"
+        },
+        {
+          "title": "Une capacité qui se paie elle-même n'a pas de plafond intégré",
+          "rules": "Quand employer une chose la rend plus apte à être réemployée, rien ne limite le nombre de fois. Un coût qui s'épuise plafonne le total par construction. Placez derrière ce type de coût tout ce qui transforme la situation, et vérifiez lesquelles de vos options sont illimitées en silence.",
+          "flavor": "Sur Oko : « La grande leçon est de se méfier des effets placés derrière un coût de loyauté positif. Les effets à loyauté négative se limitent ; les positifs peuvent se répéter tour après tour. Transformer des choses en élans, par exemple, devait être une loyauté négative. »"
+        },
+        {
+          "title": "Ce par quoi vous commencez est ce que vous avez promis",
+          "rules": "Le public se forge son attente sur la première chose que vous lui montrez, non sur votre description interne du travail. Si l'accent initial n'est pas proportionné à l'œuvre finie, il vivra l'écart comme une promesse rompue et non comme une surprise.",
+          "flavor": "Ikoria jouait de nombreux clichés de monstres, mais « l'accent mis sur Godzilla au début des avant-premières a fait croire aux joueurs que nous faisions quelque chose comme Rise of the Eldrazi... Cette mauvaise communication a causé de l'insatisfaction. »"
+        },
+        {
+          "title": "Les canaux parallèles doivent être accordés, sinon chacun décrédibilise l'autre",
+          "rules": "Quand deux productions décrivent les mêmes faits, le public lit les deux et traite le conflit comme la preuve qu'aucune ne fait autorité. Les manques se supportent : qu'un côté en dise plus est normal. La contradiction franche, non, car on ne peut tenir les deux.",
+          "flavor": "« Une autre plainte fréquente était que les cartes et le livre se contredisaient à plusieurs reprises. Auparavant, des éléments du livre manquaient dans les cartes, ou l'inverse ; mais c'était la première extension depuis longtemps où le livre disait une chose et les cartes le contraire. »"
+        },
+        {
+          "title": "Une seule occurrence fixe le gabarit auquel on vous mesurera",
+          "rules": "Faites une chose d'une certaine manière une fois et elle cesse d'être une option parmi d'autres : elle devient la forme attendue, et la fois suivante, à une autre échelle, l'écart se lira comme une diminution. Le précédent naît que vous l'ayez voulu ou non.",
+          "flavor": "Teferi eut une carte de planeswalker, cinq légendaires thématiques et un cycle vertical. « Beaucoup de joueurs en attendaient plus... cela venait en partie de la croyance qu'il y aurait trois cartes de Teferi », puisque Chandra en avait eu trois l'année d'avant."
+        },
+        {
+          "title": "Un retour contradictoire venant du même groupe porte d'ordinaire sur la quantité",
+          "rules": "Quand on reproche une chose puis son absence, on n'est ni confus ni versatile. On en voulait une autre quantité. Lisez la paire comme un intervalle et non comme deux camps opposés, et la demande réelle devient lisible.",
+          "flavor": "Teferi en visage du Core Set 2021 : les joueurs ont d'abord craint une série de cartes puissantes et agaçantes, puis déploré qu'il n'y en ait qu'une. « Oui, les joueurs étaient à la fois inquiets et déçus qu'il n'y ait pas trois Teferi. »"
+        },
+        {
+          "title": "L'indépendance entre sorties coûte au public la possibilité d'accumuler",
+          "rules": "Rendre chaque volet autonome vous achète de la liberté et retire quelque chose à qui vous suit : ce qu'il a bâti la fois précédente cesse de croître. La continuité n'est pas un goût de l'ordre, c'est ce qui permet à l'investissement du public de se cumuler au lieu de repartir de zéro.",
+          "flavor": "« Nous nous adaptons encore à un monde sans blocs. Une année où chaque extension se passe sur un plan différent avec des mécaniques uniques rend le flux mécanique difficile... nous voulons que vous puissiez bâtir des decks qui évoluent au fil des sorties. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Estado do design 2020",
+      "dek": "“Estávamos experimentando aumentar a complexidade para os jogadores. Acho que não percebemos que também a aumentávamos para nós.”",
+      "overview": "O post-mortem anual: Oko, os companheiros, um mal-entendido com Godzilla e um ano com banimentos demais.",
+      "takeaway": "O veredito de Rosewater sobre Ikoria é que mutação e companheiros mereciam existir, mas não na mesma coleção. O design elevou a complexidade para os jogadores com sucesso e para o play design por acidente, e os banimentos vieram.",
+      "lessons": [
+        {
+          "title": "Duas coisas ambiciosas num mesmo lançamento são uma exigência para quem verifica",
+          "rules": "Ambição não cobra só o seu esforço. Tudo o que você publica de novo precisa ser conferido por alguém adiante cuja capacidade é fixa, e empilhar duas coisas difíceis num lançamento gasta essa capacidade em dobro. Racione a ousadia pelo que a etapa de verificação consegue absorver.",
+          "flavor": "“Acho que tanto mutação quanto companheiros eram coisas que devíamos fazer, mas, em retrospecto, não deveriam estar na mesma coleção. Parte do trabalho do design é não sobrecarregar o play design... Não percebemos que também aumentávamos a complexidade para nós.”"
+        },
+        {
+          "title": "Uma habilidade que se paga sozinha não tem teto embutido",
+          "rules": "Quando usar algo o torna mais apto a ser usado de novo, nada limita quantas vezes aquilo acontece. Um custo que se esgota limita o total por construção. Ponha atrás desse tipo de custo tudo que transforme a situação, e veja quais das suas opções são silenciosamente ilimitadas.",
+          "flavor": "Sobre Oko: “A grande lição é ter cuidado com que efeitos colocamos num custo de lealdade positivo. Dá para limitar os de lealdade negativa, mas os positivos podem ser feitos turno após turno. Transformar coisas em alces, por exemplo, precisava ser lealdade negativa.”"
+        },
+        {
+          "title": "Aquilo com que você abre é o que você prometeu",
+          "rules": "O público forma a expectativa a partir da primeira coisa que você mostra, não da sua descrição interna do trabalho. Se a ênfase inicial não for proporcional à obra final, ele viverá a diferença como promessa quebrada, e não como surpresa.",
+          "flavor": "Ikoria brincava com muitos clichês de monstro, mas “o foco em Godzilla no começo das prévias fez os jogadores pensarem que fazíamos algo parecido com Rise of the Eldrazi... Essa má comunicação causou insatisfação, pois sentiram que não entregamos o prometido.”"
+        },
+        {
+          "title": "Canais paralelos precisam ser conciliados, ou cada um desacredita o outro",
+          "rules": "Quando duas saídas descrevem os mesmos fatos, o público lê ambas e trata o conflito como prova de que nenhuma tem autoridade. Lacunas se suportam: um lado dizer mais que o outro é normal. Contradição direta não, porque não há como sustentar as duas.",
+          "flavor": "“Outra queixa comum foi que as cartas e o livro se contradiziam em várias ocasiões. No passado tivemos elementos do livro ausentes nas cartas, ou o contrário, mas esta foi a primeira coleção em um tempo em que o livro dizia uma coisa e as cartas o oposto.”"
+        },
+        {
+          "title": "Uma única ocorrência fixa o modelo pelo qual você será medido",
+          "rules": "Faça algo de certo jeito uma vez e ele deixa de ser uma opção entre muitas: vira a forma esperada, e na vez seguinte, em outra escala, a diferença será lida como redução. O precedente se cria quer você pretendesse criá-lo, quer não.",
+          "flavor": "Teferi teve uma carta de planeswalker, cinco lendárias temáticas e um ciclo vertical. “Muitos jogadores esperavam mais... parte disso parecia vir da crença de que haveria três cartas de planeswalker de Teferi”, porque Chandra teve três no ano anterior."
+        },
+        {
+          "title": "Retorno contraditório vindo do mesmo grupo costuma ser sobre quantidade",
+          "rules": "Quando as pessoas reclamam de uma coisa e depois reclamam da ausência dela, não estão confusas nem mudaram de ideia. Queriam outra quantidade. Leia o par como um intervalo, e não como dois campos opostos, e o pedido real fica legível.",
+          "flavor": "Com Teferi como rosto do Core Set 2021, os jogadores primeiro temeram uma leva de cartas fortes e irritantes, e depois reclamaram de haver só uma. “Sim, os jogadores estavam ao mesmo tempo ansiosos e decepcionados por não haver três Teferis.”"
+        },
+        {
+          "title": "A independência entre lançamentos custa ao público a chance de acumular",
+          "rules": "Tornar cada parte autossuficiente compra liberdade para você e tira algo de quem acompanha: o que ele montou da vez passada deixa de crescer. Continuidade não é mania de ordem, é o que permite que o investimento do público componha em vez de reiniciar.",
+          "flavor": "“Ainda estamos nos adaptando a um mundo sem blocos. Ter um ano em que cada coleção se passa num plano diferente e com mecânicas próprias dificulta criar fluxo mecânico... queremos que você monte decks que evoluam conforme saem coleções novas.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "设计现状 2020",
+      "dek": "「我们当时在做的实验，是为玩家提高复杂度。我想，我们没有意识到：我们同时也在为自己提高复杂度。」",
+      "overview": "年度复盘：欧祝、寻伴、一次围绕哥斯拉的误会，以及一个禁牌太多的年份。",
+      "takeaway": "罗斯华特对依科黎的判词是：变身与寻伴都值得去做，但它们不该出现在同一个系列里。设计部为玩家提高复杂度这件事成功了，而为游戏设计部提高复杂度这件事是无意的——随后，禁牌就来了。",
+      "lessons": [
+        {
+          "title": "在同一次发布里放两样有野心的东西，是对「负责验证的人」提出的要求",
+          "rules": "野心索取的不只是你自己的工夫。你推出的每一样新东西，都必须由下游某个「产能是固定的」人去核验；而把两件难事叠进同一次发布，就等于把那份产能花了两遍。请按「验证这一环能吸收多少」来给你的大胆定量。",
+          "flavor": "「我认为变身和寻伴都是我们该做的东西；可事后看来，它们不该出现在同一个系列里。设计工作的一部分，就是不要把游戏设计部压垮……我们当时在做的实验是为玩家提高复杂度。我想，我们没有意识到：我们同时也在为自己提高复杂度。」"
+        },
+        {
+          "title": "一项「自己付得起自己」的异能，没有内建的上限",
+          "rules": "当使用一样东西反而会让它更有能力再被使用时，就没有任何东西在限制它发生的次数了。而一份会被消耗掉的代价，从构造上就给总量封了顶。请把一切会改变局面的东西放到后一类代价之后，并且检查一下：你手上哪些选项，其实是悄无声息地无限的。",
+          "flavor": "谈到欧祝：「它设计上最大的教训，是我们必须对『放在正向忠诚费用之后的效应』格外小心。负向忠诚的效应我们能加以限制，而正向的却可以一个回合又一个回合地做下去。比如说，把东西变成麋鹿，本来就该是一个负向忠诚异能。」"
+        },
+        {
+          "title": "你拿来开场的那样东西，就是你所许下的承诺",
+          "rules": "受众形成期待的依据，是你最先拿给他们看的那样东西，而不是你在内部对这份工作的描述。如果开场时的着重点与成品并不相称，他们会把这中间的落差体验为「承诺被打破」，而不是「一个惊喜」。",
+          "flavor": "依科黎玩的是许多种怪兽桥段，可「预览初期对哥斯拉的聚焦，让玩家以为我们在做类似『鹏洛客的时代』的东西……这次沟通失误确实造成了一些玩家的不满，因为他们觉得我们没有交付出承诺过的东西。」"
+        },
+        {
+          "title": "并行的两条渠道必须彼此对齐，否则它们会互相拆台",
+          "rules": "当两份产出在描述同样的事件时，受众会两边都看；而一旦发现冲突，他们就会把它当作「两边都不作数」的证据。留白是撑得住的——一边比另一边讲得多，很正常。而正面的自相矛盾撑不住，因为没有办法同时持有两者。",
+          "flavor": "「我收到的另一条常见抱怨是：牌与小说在好几处彼此矛盾。过去我们出现过『书里有的元素牌里没有』或者反过来的情况；可这是很久以来第一个『书里说一套、牌上说的正好相反』的系列。」"
+        },
+        {
+          "title": "仅仅一次，就定下了此后衡量你的那把尺子",
+          "rules": "把一件事以某种方式做过一次，它就不再是众多选项中的一个了——它成了「被预期的形态」；而下一次当你以另一种规模去做同样的事时，这中间的差别会被读成一次缩水。无论你是否有意要立下先例，先例都已经立下了。",
+          "flavor": "泰菲力拿到了一张鹏洛客牌、五张主题相关的传奇生物，以及一轮纵向循环。「很多玩家期待的不止这些……而这一部分似乎源自一种信念：泰菲力会有三张不同的鹏洛客牌」——因为前一年的茜卓就有三张。"
+        },
+        {
+          "title": "来自同一群人的自相矛盾的反馈，通常谈的是「多少」",
+          "rules": "当人们先是反对一样东西、接着又反对它的缺席时，他们既不是糊涂了，也不是改了主意。他们想要的，是另一个分量。请把这一对意见读作一个区间，而不是两个对立的阵营；于是他们真正的诉求，就变得清晰可读了。",
+          "flavor": "泰菲力作为 2021 核心系列的门面：玩家先是担心自己将要面对一批又强又烦人的泰菲力牌，随后又抱怨只有一张。「是的，玩家们既为此感到不安，又因为『没有三个泰菲力鹏洛客』而感到失望。」"
+        },
+        {
+          "title": "发布之间的彼此独立，代价是受众失去了「积累」的能力",
+          "rules": "让每一部分都自成一体，为你买来了自由，却从追随你的人那里拿走了一样东西：他们上一次搭起来的东西，不再继续生长了。连续性并不是一种整洁癖——它正是让受众的投入得以复利、而不是每次归零的那样东西。",
+          "flavor": "「我们仍在适应一个没有环境的世界。让一年里的每个系列都发生在不同的时空、并各自拥有一套独有的机制，会让『打通全年的机制流动』变得困难……我们希望你能搭出那种会随着新系列推出而演进的套牌。」"
+        }
+      ]
+    }
+  }
+}

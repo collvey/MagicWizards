@@ -1,0 +1,242 @@
+{
+  "id": "outlaws-of-the-land-part-1",
+  "slug": "outlaws-of-the-land-part-1",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2024-03-26",
+  "series": { "id": "outlaws-of-the-land", "order": 1, "total": 2 },
+  "tags": ["vision-design", "batching", "backwards-compatibility"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/outlaws-of-the-land-part-1",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T06:49:54.509Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Outlaws of the Land, Part 1",
+      "dek": "Cast Mutilate on four creatures and you have destroyed none of them.",
+      "overview": "How a villains set finally got made, and what it took to turn the phrase \"commit a crime\" into something the rules could actually count.",
+      "takeaway": "The obvious readings of committing a crime both broke. Destroying failed because a spell that reduces creatures to 0/0 destroys nothing — the game's state-based actions do. Damage failed twice over: burning a creature is both a targeting and a damaging, so two crimes, and a sweeper damages nothing if the creatures are sacrificed in response.",
+      "lessons": [
+        {
+          "title": "A new capability in the fiction unlocks new structures",
+          "rules": "A change to what your world permits is also a change to what kinds of work you can make. When one lands, treat it as a standing opportunity and plan a regular slot for exploiting it, not a one-off.",
+          "flavor": "Once the story opened paths letting non-planeswalkers travel between worlds, sets could gather characters from anywhere. Rosewater's plan was one set a year in that new space, starting with a showcase set: pick a theme and assemble it from across the Multiverse."
+        },
+        {
+          "title": "Combine shelved ideas until one of them is greenlightable",
+          "rules": "Ideas that can't carry a project alone may be exactly what another one needs. Keep the rejects, and when something new is being scoped, check the shelf for the pieces that make it whole.",
+          "flavor": "A villains theme had been started and abandoned once before; a Western plane had been proposed repeatedly, once as two consecutive sets. A villains showcase, on a frontier plane, told as a heist was the combination that got greenlit."
+        },
+        {
+          "title": "Start from what the fun of the thing is",
+          "rules": "Before listing what a subject contains, ask what makes it enjoyable to be. The answers describe the experience you owe people, which is a better brief than an inventory of the subject's furniture.",
+          "flavor": "The first brainstorm on the set opened with a single question: what is the fun of being the villain? The answers became the raw material for everything the set would try to deliver mechanically."
+        },
+        {
+          "title": "Prioritise by giving everyone a small budget of votes",
+          "rules": "A brainstorm produces more than any project can hold, and arguing it down favours whoever argues longest. Hand each person three to five votes to place instead: scarcity does the ranking, and quickly.",
+          "flavor": "Before exploratory design begins, seeds meetings gather the vision lead, the creative lead, and the other major stakeholders — two to four of them, depending on how well understood the set is — to settle the basic concept."
+        },
+        {
+          "title": "Define the theme as a class of existing actions",
+          "rules": "A theme built from newly invented parts only works where those parts exist. Define it instead as a category that things you already made fall into, and the theme arrives with a back catalogue already supporting it.",
+          "flavor": "Formats that never rotate have made parasitic themes a problem: if the pieces come only from the current set, nobody can build with them elsewhere. So \"crime\" became a kind of action many old cards already take, and \"outlaw\" became a batch of creature types that already existed."
+        },
+        {
+          "title": "Take the definition that is simplest in the rules",
+          "rules": "When several readings of a phrase are available, the one that the system can evaluate cleanly beats the one that best matches intuition. Accept that a few cases will slip through, and check that what remains is still large enough to build on.",
+          "flavor": "Targeting was the simplest to adjudicate and the least natural to a player. It misses board sweepers, but it caught most of what was wanted — and extending it from spells to abilities widened the net considerably."
+        },
+        {
+          "title": "Keep a batch between two and five",
+          "rules": "A named group has to be held in the head, and past about five members it can't be. Build the list from the obvious ones, then let each stakeholder add the one they can see is missing — and stop there.",
+          "flavor": "Rogue and Assassin were automatic; Mercenary came in for a new token. Creative added Warlock, because the list had no spellcaster and they needed enough types to flavour any card design as an outlaw. Set design added the one everyone felt was conspicuously absent."
+        }
+      ]
+    },
+    "es": {
+      "title": "Forajidos de la tierra, parte 1",
+      "dek": "Lanza Mutilate sobre cuatro criaturas y no has destruido ninguna.",
+      "overview": "Cómo se llegó por fin a hacer un set de villanos, y lo que costó convertir la frase «cometer un crimen» en algo que las reglas pudieran contar de verdad.",
+      "takeaway": "Las dos lecturas obvias de cometer un crimen se rompieron. Destruir falló porque un hechizo que reduce criaturas a 0/0 no destruye nada: lo hacen las acciones basadas en estado del juego. El daño falló por partida doble: quemar una criatura es a la vez fijar objetivo e infligir daño, o sea dos crímenes, y un barredor no daña nada si las criaturas se sacrifican en respuesta.",
+      "lessons": [
+        {
+          "title": "Una capacidad nueva en la ficción desbloquea estructuras nuevas",
+          "rules": "Un cambio en lo que tu mundo permite es también un cambio en qué tipos de obra puedes hacer. Cuando llegue uno, trátalo como una oportunidad permanente y planifica un hueco regular para explotarlo, no un caso único.",
+          "flavor": "Cuando la historia abrió caminos que permitían viajar entre mundos a quien no fuera Planeswalker, los sets pudieron reunir personajes de cualquier parte. El plan era un set al año en ese espacio, empezando por un set escaparate."
+        },
+        {
+          "title": "Combina ideas archivadas hasta que una sea aprobable",
+          "rules": "Ideas que no pueden sostener un proyecto por sí solas pueden ser justo lo que otra necesita. Guarda los descartes y, cuando se esté perfilando algo nuevo, revisa el estante en busca de las piezas que lo completan.",
+          "flavor": "Un tema de villanos se había empezado y abandonado una vez; un plano de estilo wéstern se había propuesto repetidamente, una vez como dos sets seguidos. Un escaparate de villanos, en un plano fronterizo, contado como un golpe fue lo que se aprobó."
+        },
+        {
+          "title": "Parte de cuál es la diversión de la cosa",
+          "rules": "Antes de listar lo que un tema contiene, pregunta qué lo hace disfrutable de ser. Las respuestas describen la experiencia que le debes a la gente, y eso es mejor encargo que un inventario del mobiliario del tema.",
+          "flavor": "La primera lluvia de ideas del set abrió con una sola pregunta: ¿cuál es la diversión de ser el villano? Las respuestas fueron la materia prima de todo lo que el set intentaría entregar mecánicamente."
+        },
+        {
+          "title": "Prioriza dando a cada uno un presupuesto pequeño de votos",
+          "rules": "Una lluvia de ideas produce más de lo que ningún proyecto puede sostener, y discutirla a la baja favorece a quien discuta más rato. Dale a cada persona de tres a cinco votos que colocar: la escasez ordena, y deprisa.",
+          "flavor": "Antes de que empiece el diseño exploratorio, las reuniones de semillas juntan al líder de visión, al líder creativo y a los demás grandes interesados —de dos a cuatro reuniones, según lo entendido que esté el set— para fijar el concepto básico."
+        },
+        {
+          "title": "Define el tema como una clase de acciones existentes",
+          "rules": "Un tema hecho de piezas recién inventadas solo funciona donde esas piezas existen. Defínelo en cambio como una categoría en la que ya caen cosas que hiciste, y el tema llega con un catálogo previo que ya lo sostiene.",
+          "flavor": "Los formatos que no rotan han vuelto problemáticos los temas parásitos: si las piezas salen solo del set actual, nadie puede construir con ellas en otro sitio. Así que «crimen» pasó a ser un tipo de acción que muchas cartas viejas ya hacen."
+        },
+        {
+          "title": "Toma la definición más simple en las reglas",
+          "rules": "Cuando hay varias lecturas disponibles de una frase, gana la que el sistema puede evaluar limpiamente, no la que mejor casa con la intuición. Asume que algunos casos se colarán y comprueba que lo que queda sigue siendo bastante para construir.",
+          "flavor": "Fijar objetivo era lo más simple de arbitrar y lo menos natural para un jugador. Se le escapan los barredores, pero atrapaba casi todo lo deseado; y extenderlo de hechizos a habilidades amplió mucho la red."
+        },
+        {
+          "title": "Mantén un lote entre dos y cinco",
+          "rules": "Un grupo con nombre hay que sostenerlo en la cabeza, y pasados unos cinco miembros ya no se puede. Construye la lista con los evidentes, deja que cada interesado añada el que ve que falta, y para ahí.",
+          "flavor": "Pícaro y Asesino eran automáticos; Mercenario entró por una ficha nueva. Creativo añadió Brujo, porque la lista no tenía lanzador de hechizos y necesitaban tipos suficientes para poder ambientar cualquier carta como forajido."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Hors-la-loi du pays, partie 1",
+      "dek": "Lancez Mutilate sur quatre créatures et vous n'en avez détruit aucune.",
+      "overview": "Comment une extension de méchants a fini par se faire, et ce qu'il a fallu pour transformer la formule « commettre un crime » en quelque chose que les règles pouvaient réellement compter.",
+      "takeaway": "Les deux lectures évidentes de commettre un crime ont cassé. Détruire échouait parce qu'un sort réduisant des créatures à 0/0 ne détruit rien : ce sont les actions basées sur l'état qui le font. Les blessures échouaient deux fois : brûler une créature, c'est cibler et blesser, donc deux crimes, et un balayage ne blesse rien si les créatures sont sacrifiées en réponse.",
+      "lessons": [
+        {
+          "title": "Une capacité nouvelle dans la fiction débloque des structures nouvelles",
+          "rules": "Un changement de ce que votre monde permet change aussi les types d'œuvres réalisables. Quand il survient, traitez-le comme une occasion permanente et prévoyez un créneau régulier pour l'exploiter, non un coup unique.",
+          "flavor": "Une fois que l'histoire eut ouvert des passages permettant à des non-planeswalkers de voyager entre les mondes, les extensions purent réunir des personnages venus de partout. Le plan : une extension par an dans cet espace."
+        },
+        {
+          "title": "Combinez les idées remisées jusqu'à ce que l'une passe",
+          "rules": "Des idées incapables de porter seules un projet peuvent être exactement ce qui manque à une autre. Gardez les refusées et, quand on cadre du nouveau, allez voir sur l'étagère les pièces qui le complètent.",
+          "flavor": "Un thème de méchants avait été entamé puis abandonné ; un plan d'inspiration western avait été proposé maintes fois, une fois en deux extensions consécutives. Une vitrine de méchants, sur un plan de frontière, racontée comme un casse : voilà ce qui fut validé."
+        },
+        {
+          "title": "Partez de ce qui fait le plaisir de la chose",
+          "rules": "Avant de lister ce qu'un sujet contient, demandez ce qui rend agréable de l'être. Les réponses décrivent l'expérience que vous devez au public, et c'est un meilleur cahier des charges qu'un inventaire du mobilier.",
+          "flavor": "Le premier brainstorming s'est ouvert sur une seule question : quel est le plaisir d'être le méchant ? Les réponses sont devenues la matière première de tout ce que l'extension tenterait de livrer mécaniquement."
+        },
+        {
+          "title": "Hiérarchisez en donnant à chacun un petit budget de voix",
+          "rules": "Un brainstorming produit plus que ce qu'un projet peut contenir, et le réduire par la discussion favorise qui parle le plus longtemps. Donnez plutôt à chacun trois à cinq voix à placer : la rareté fait le classement, et vite.",
+          "flavor": "Avant le début du design exploratoire, des réunions de semis rassemblent le responsable vision, le responsable créatif et les autres parties prenantes — de deux à quatre selon la clarté de l'extension — pour arrêter le concept de base."
+        },
+        {
+          "title": "Définissez le thème comme une classe d'actions existantes",
+          "rules": "Un thème fait de pièces neuves ne fonctionne que là où ces pièces existent. Définissez-le plutôt comme une catégorie dans laquelle tombe ce que vous avez déjà fait, et il arrive avec un fonds qui le soutient déjà.",
+          "flavor": "Les formats sans rotation ont rendu les thèmes parasites problématiques : si les pièces ne viennent que de l'extension en cours, personne ne peut bâtir avec ailleurs. « Crime » est donc devenu un type d'action que bien des cartes anciennes accomplissent déjà."
+        },
+        {
+          "title": "Prenez la définition la plus simple pour les règles",
+          "rules": "Quand plusieurs lectures d'une formule existent, celle que le système évalue proprement l'emporte sur celle qui colle le mieux à l'intuition. Acceptez que quelques cas passent au travers, et vérifiez que le reste suffit à bâtir.",
+          "flavor": "Le ciblage était le plus simple à arbitrer et le moins naturel pour un joueur. Il rate les balayages, mais attrapait l'essentiel du voulu ; et l'étendre des sorts aux capacités a considérablement élargi le filet."
+        },
+        {
+          "title": "Gardez un lot entre deux et cinq",
+          "rules": "Un groupe nommé doit tenir en tête, et passé cinq membres environ il n'y tient plus. Bâtissez la liste avec les évidents, laissez chaque partie prenante ajouter celui qui manque à ses yeux, et arrêtez-vous là.",
+          "flavor": "Roublard et Assassin allaient de soi ; Mercenaire est entré pour un nouveau jeton. Le créatif a ajouté Sorcier, la liste n'ayant aucun lanceur de sorts et l'équipe ayant besoin d'assez de types pour habiller n'importe quelle carte en hors-la-loi."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Foras da lei da terra, parte 1",
+      "dek": "Conjure Mutilate em quatro criaturas e você não destruiu nenhuma.",
+      "overview": "Como uma coleção de vilões finalmente foi feita, e o que custou transformar a frase \"cometer um crime\" em algo que as regras conseguissem de fato contar.",
+      "takeaway": "As duas leituras óbvias de cometer um crime quebraram. Destruir falhou porque uma mágica que reduz criaturas a 0/0 não destrói nada: quem destrói são as ações baseadas em estado. Dano falhou em dobro: queimar uma criatura é ter alvo e causar dano, ou seja, dois crimes, e um arrasa-tudo não causa dano algum se as criaturas forem sacrificadas em resposta.",
+      "lessons": [
+        {
+          "title": "Uma capacidade nova na ficção destrava estruturas novas",
+          "rules": "Uma mudança no que seu mundo permite é também uma mudança nos tipos de obra que você pode fazer. Quando uma aparecer, trate-a como oportunidade permanente e planeje um espaço regular para explorá-la, não um caso único.",
+          "flavor": "Assim que a história abriu caminhos permitindo que não planeswalkers viajassem entre mundos, as coleções puderam reunir personagens de qualquer lugar. O plano era uma coleção por ano nesse espaço novo."
+        },
+        {
+          "title": "Combine ideias engavetadas até uma delas ser aprovável",
+          "rules": "Ideias que não sustentam um projeto sozinhas podem ser exatamente o que falta a outra. Guarde as recusadas e, quando algo novo estiver sendo delineado, revise a prateleira atrás das peças que o completam.",
+          "flavor": "Um tema de vilões já fora começado e abandonado; um plano de faroeste fora proposto várias vezes, uma delas como duas coleções seguidas. Uma vitrine de vilões, num plano de fronteira, contada como um golpe foi o que passou."
+        },
+        {
+          "title": "Comece por qual é a graça da coisa",
+          "rules": "Antes de listar o que um assunto contém, pergunte o que torna gostoso ser aquilo. As respostas descrevem a experiência que você deve às pessoas, e isso é um briefing melhor do que um inventário da mobília do assunto.",
+          "flavor": "O primeiro brainstorm da coleção abriu com uma única pergunta: qual é a graça de ser o vilão? As respostas viraram a matéria-prima de tudo o que a coleção tentaria entregar mecanicamente."
+        },
+        {
+          "title": "Priorize dando a cada um um orçamento pequeno de votos",
+          "rules": "Um brainstorm produz mais do que qualquer projeto comporta, e reduzi-lo discutindo favorece quem argumenta por mais tempo. Dê a cada pessoa três a cinco votos para colocar: a escassez faz a classificação, e rápido.",
+          "flavor": "Antes de o design exploratório começar, reuniões de sementes juntam o líder de visão, o líder criativo e os demais interessados principais — de duas a quatro delas, conforme a coleção seja mais ou menos compreendida — para fechar o conceito básico."
+        },
+        {
+          "title": "Defina o tema como uma classe de ações já existentes",
+          "rules": "Um tema feito de peças recém-inventadas só funciona onde essas peças existem. Defina-o como uma categoria em que já caem coisas que você fez, e o tema chega com um acervo já o sustentando.",
+          "flavor": "Formatos que não rotacionam tornaram os temas parasitas um problema: se as peças vêm só da coleção atual, ninguém constrói com elas em outro lugar. Então \"crime\" virou um tipo de ação que muitas cartas antigas já executam."
+        },
+        {
+          "title": "Adote a definição mais simples nas regras",
+          "rules": "Quando há várias leituras de uma frase, vence a que o sistema avalia com limpeza, não a que melhor bate com a intuição. Aceite que alguns casos vão escapar, e cheque se o que sobra ainda dá para construir.",
+          "flavor": "Ter alvo era o mais simples de arbitrar e o menos natural para um jogador. Escapam os arrasa-tudo, mas pegava quase tudo o que se queria; e estendê-lo de mágicas para habilidades alargou muito a rede."
+        },
+        {
+          "title": "Mantenha um lote entre dois e cinco",
+          "rules": "Um grupo nomeado precisa caber na cabeça, e passados uns cinco membros já não cabe. Monte a lista com os óbvios, deixe cada interessado acrescentar o que enxerga faltando, e pare aí.",
+          "flavor": "Ladino e Assassino eram automáticos; Mercenário entrou por causa de uma ficha nova. O criativo acrescentou Bruxo, pois a lista não tinha conjurador e eles precisavam de tipos suficientes para ambientar qualquer carta como fora da lei."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "这片土地上的不法之徒，第一部分",
+      "dek": "对四只生物施放「残害」，你一只也没有消灭。",
+      "overview": "一个「反派」系列是怎么终于做成的，以及要把「犯下罪行」这句话变成规则真正数得清的东西，究竟得付出些什么。",
+      "takeaway": "「犯罪」两种最显而易见的读法都碎了。「消灭」不行，因为一个把生物削成 0/0 的咒语其实什么也没消灭——干这件事的是游戏的状态动作。「伤害」则一次错两回：烧掉一只生物既是指定目标又是造成伤害，于是算两次犯罪；而如果对手响应时把生物牺牲掉，一张横扫牌就什么也没伤到。",
+      "lessons": [
+        {
+          "title": "设定里新增的一项能力，会解锁新的结构",
+          "rules": "你的世界所允许的事发生了变化，你能做出来的作品类型也就跟着变了。当这样一次变化到来时，把它当成一项长期机会，并为「利用它」排一个固定的档期，而不是当成一次性事件。",
+          "flavor": "当故事打开了让非鹏洛客也能在世界之间旅行的通路之后，系列就可以从任何地方把角色聚拢过来。计划是每年在这片新空间里做一个系列，从一个「橱窗式系列」开始。"
+        },
+        {
+          "title": "把搁置的点子拼起来，直到其中一个能过审",
+          "rules": "那些单靠自己撑不起一个项目的点子，可能恰恰是另一个点子所缺的那一块。把被否掉的都留着；当有新东西正在划定范围时，回架子上翻一翻那些能让它变完整的零件。",
+          "flavor": "「反派」主题曾被开过头又放下；西部风格的时空被反复提过，有一次甚至规划成连着两个系列。而「一个反派橱窗、放在边疆时空、用一场劫案来讲」，才是那个被批准的组合。"
+        },
+        {
+          "title": "从「这件事的乐趣在哪」开始",
+          "rules": "在清点一个题材里都有些什么之前，先问：成为它、身处其中，快乐在哪儿。这些答案描述的是你欠受众的那份体验；而这比一份题材陈设清单，是好得多的任务书。",
+          "flavor": "这个系列的第一场头脑风暴，是以一个问题开场的：当反派的乐趣是什么？那些答案，成了这个系列此后想在机制上交付的一切的原料。"
+        },
+        {
+          "title": "靠给每个人一小笔票数预算来排优先级",
+          "rules": "一场头脑风暴产出的东西，总多过任何项目装得下的量；而靠讨论把它砍下来，只会让最能磨的人占便宜。改成给每人三到五票去投放：稀缺性会替你完成排序，而且很快。",
+          "flavor": "在探索设计开始之前，「播种会」会把愿景负责人、创意负责人和其余主要相关方聚在一起——视这个系列被理解得多清楚，开两到四次——把基本概念敲定。"
+        },
+        {
+          "title": "把主题定义成一类「已经存在的行为」",
+          "rules": "用全新发明的零件搭起来的主题，只在那些零件存在的地方才成立。改成把它定义为一个「你早就做过的东西本来就落在里面」的类别，主题一登场，就已经有一整份旧库存在托着它。",
+          "flavor": "不轮替的赛制让「寄生性主题」成了问题：如果零件只来自当前这个系列，别处的人就没法拿它们搭东西。于是「犯罪」被定成了一类许多旧牌本来就在做的行为。"
+        },
+        {
+          "title": "选那个在规则上最简单的定义",
+          "rules": "当一句话有好几种可选读法时，胜出的应当是系统能干净判定的那一种，而不是最贴合直觉的那一种。接受会有少数情形从缝里漏掉，并核实剩下的那一批仍然大到足以在上面搭东西。",
+          "flavor": "「指定目标」是最好裁定的，也是对玩家最不自然的。它漏掉了横扫类的牌，但抓住了绝大多数想抓的东西；而把它从咒语扩展到异能，又把网大大撑开了。"
+        },
+        {
+          "title": "让一个批次保持在二到五之间",
+          "rules": "一个有名字的分组，是要被人揣在脑子里的；而一旦超过五个成员左右，就揣不住了。先用那些显而易见的成员把名单搭起来，再让每一位相关方补上他看得出缺了的那一个——然后就打住。",
+          "flavor": "浪客和刺客是自动入选的；佣兵是为了一种新衍生物而加的。创意团队补上了术士，因为名单里一个施法者都没有，而他们需要足够多的类别，好把任何一张牌都描画成不法之徒。"
+        }
+      ]
+    }
+  }
+}

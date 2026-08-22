@@ -1,0 +1,242 @@
+{
+  "id": "bloomburrow-vision-design-handoff-part-2",
+  "slug": "bloomburrow-vision-design-handoff-part-2",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2024-07-29",
+  "series": { "id": "bloomburrow-vision-design-handoff", "order": 2, "total": 3 },
+  "tags": ["handoff-document", "typal", "complexity"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/bloomburrow-vision-design-handoff-part-2",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T08:05:37.385Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Bloomburrow Vision Design Handoff, Part 2",
+      "dek": "You would need sixteen Bats, and the set could never hold that many.",
+      "overview": "The middle section of the handoff, most of it devoted to a mechanic that doesn't exist — the one built to solve the set's central arithmetic problem, and cut by the next team anyway.",
+      "takeaway": "Ten two-colour archetypes need ten animals. To draft a deck of a single creature type you need roughly sixteen of them, and guaranteeing that for any one animal would require more of the set than existed. No single type could ever be dense enough. The mechanic at the centre of this document was invented entirely to answer that count.",
+      "lessons": [
+        {
+          "title": "Familiarity blinds you to your own complexity",
+          "rules": "A team that tuned something while playing it grows accustomed to its burden and stops seeing it. That is not a failing to be willed away — it's a structural reason to route the work past people who weren't there.",
+          "flavor": "The cut mechanic asked every player to maintain a remembered list, and to remember everyone else's too. Rosewater notes that vision design had adapted to that load. The later team could see the complexity the earlier team had gone blind to."
+        },
+        {
+          "title": "If a card grants the mechanic, it should care about the mechanic",
+          "rules": "Something that contributes to a shared state without benefiting from it teaches people that the state is bookkeeping. Make each contributor also a beneficiary, and the mechanic reads as a system rather than an obligation.",
+          "flavor": "The rule was that a creature adding a type to the list should also have an ability affecting the others already on it. The document admits exceptions, and names the rule anyway — which is what makes the exceptions visible as exceptions."
+        },
+        {
+          "title": "Invert an existing mechanic's parameter",
+          "rules": "Take something you already have and flip the number at its centre. The machinery is proven, the rules work is done, and the reversal often lands somewhere with a completely different meaning attached to it.",
+          "flavor": "An older mechanic made a token copy of a creature and set it at 4/4, usually stronger than the original. Turning that on its ear — a copy that arrives as a 1/1 — produced a young one following its parent, from the same apparatus."
+        },
+        {
+          "title": "Show the range, not just the concept",
+          "rules": "Demonstrating that a mechanism works is only half of what the next team needs. Show it at the cheap simple end and at the expensive splashy end, so they can see it spans the whole product rather than occupying one band of it.",
+          "flavor": "Handoff documents normally carry many card designs to show what a mechanic looks like in practice. This one is noted for demonstrating depth specifically: the same mechanic on very simple commons and on splashy rares."
+        },
+        {
+          "title": "Design the template for the uses you aren't making",
+          "rules": "If something might outlive this project, write it so that a later one can use it differently. Decide what you're restricting for local reasons and make sure that restriction lives in your usage, not in the rules the mechanic is built on.",
+          "flavor": "The mechanic was confined to animal types for flavour, though the rules would have allowed classes. The document explicitly anticipates other settings opening it up — and lists combining with the types this set established."
+        },
+        {
+          "title": "Flavour can propose it; play has to keep it",
+          "rules": "An idea generated purely from subject matter has no claim on a slot. Let it in on the strength of how it plays, and note the distinction — plenty of charming ideas don't survive that second test, and this one's survival is the fact worth recording.",
+          "flavor": "The parent-and-child mechanic came out of an exploratory list of everything associated with animals, where cute young ones ranked high. It stayed in the file from the very beginning because it played well and gave the set a mana sink."
+        },
+        {
+          "title": "Write the unresolved rules question into the document",
+          "rules": "Where you have played something one way without knowing it's correct, say both things: what you did, and that it may be wrong. A stated open question gets answered; an unstated one gets inherited as an assumption.",
+          "flavor": "The document records that the mechanic was played as taking effect when the spell is cast rather than when it resolves, so the type joins your list even if the creature is countered — then says plainly that this might not be right, and that the template hasn't been settled."
+        }
+      ]
+    },
+    "es": {
+      "title": "Traspaso del diseño de visión de Bloomburrow, parte 2",
+      "dek": "Harían falta dieciséis Murciélagos, y el set nunca podría contener tantos.",
+      "overview": "La sección central del traspaso, dedicada en su mayor parte a una mecánica que no existe: la construida para resolver el problema aritmético central del set, y cortada de todos modos por el equipo siguiente.",
+      "takeaway": "Diez arquetipos de dos colores necesitan diez animales. Para draftear un mazo de un solo tipo de criatura hacen falta unos dieciséis, y garantizar eso para cualquier animal exigiría más set del que existía. Ningún tipo podía ser lo bastante denso. La mecánica en el centro de este documento se inventó enteramente para responder a esa cuenta.",
+      "lessons": [
+        {
+          "title": "La familiaridad te ciega a tu propia complejidad",
+          "rules": "Un equipo que afinó algo jugándolo se acostumbra a su carga y deja de verla. Eso no es un fallo que se corrija a fuerza de voluntad: es una razón estructural para pasar el trabajo por gente que no estuvo allí.",
+          "flavor": "La mecánica cortada pedía a cada jugador mantener una lista recordada, y recordar también la de los demás. Rosewater señala que el diseño de visión se había adaptado a esa carga. El equipo posterior veía la complejidad a la que el anterior se había vuelto ciego."
+        },
+        {
+          "title": "Si una carta otorga la mecánica, debería fijarse en la mecánica",
+          "rules": "Algo que contribuye a un estado compartido sin beneficiarse de él enseña a la gente que ese estado es papeleo. Haz que cada contribuyente sea también beneficiario, y la mecánica se lee como un sistema y no como una obligación.",
+          "flavor": "La regla era que una criatura que añadiera un tipo a la lista debía tener también una habilidad que afectara a los que ya estaban en ella. El documento admite excepciones y enuncia la regla igualmente, que es lo que vuelve visibles las excepciones."
+        },
+        {
+          "title": "Invierte el parámetro de una mecánica existente",
+          "rules": "Coge algo que ya tienes y dale la vuelta al número que tiene en el centro. La maquinaria está probada, el trabajo de reglas ya está hecho, y la inversión suele aterrizar en un sitio con un significado completamente distinto adherido.",
+          "flavor": "Una mecánica antigua hacía una copia ficha de una criatura y la fijaba en 4/4, normalmente más fuerte que el original. Darle la vuelta —una copia que llega como 1/1— produjo una cría siguiendo a su progenitor, con el mismo aparato."
+        },
+        {
+          "title": "Enseña el rango, no solo el concepto",
+          "rules": "Demostrar que un mecanismo funciona es solo la mitad de lo que el equipo siguiente necesita. Enséñalo en el extremo barato y simple y en el caro y llamativo, para que vean que abarca todo el producto y no una sola banda de él.",
+          "flavor": "Los documentos de traspaso suelen llevar muchos diseños de carta para mostrar cómo se ve una mecánica en la práctica. De este se destaca que demostraba profundidad en concreto: la misma mecánica en comunes muy simples y en raras llamativas."
+        },
+        {
+          "title": "Diseña la plantilla para los usos que no estás haciendo",
+          "rules": "Si algo puede sobrevivir a este proyecto, redáctalo de forma que otro posterior pueda usarlo de otra manera. Decide qué estás restringiendo por razones locales y asegúrate de que la restricción viva en tu uso y no en las reglas de la mecánica.",
+          "flavor": "La mecánica se ciñó a tipos animales por sabor, aunque las reglas habrían permitido clases. El documento anticipa explícitamente que otros escenarios la abran, y que se combinen con los tipos que este set estableció."
+        },
+        {
+          "title": "El sabor puede proponerlo; el juego tiene que conservarlo",
+          "rules": "Una idea generada solo por el tema no tiene derecho a una casilla. Déjala entrar por cómo se juega, y anota la distinción: montones de ideas encantadoras no superan esa segunda prueba, y que esta sí lo hiciera es el hecho digno de registro.",
+          "flavor": "La mecánica de progenitor y cría salió de una lista exploratoria de todo lo asociado a los animales, donde las crías monas puntuaban alto. Se quedó en el archivo desde el principio porque se jugaba bien y daba al set un sumidero de maná."
+        },
+        {
+          "title": "Escribe en el documento la duda de reglas sin resolver",
+          "rules": "Donde hayas jugado algo de una forma sin saber si es la correcta, di ambas cosas: qué hiciste y que puede estar mal. Una pregunta abierta declarada se responde; una no declarada se hereda como suposición.",
+          "flavor": "El documento anota que la mecánica se jugó como si surtiera efecto al lanzar el hechizo y no al resolverse, de modo que el tipo se une a tu lista aunque contrarresten la criatura, y luego dice sin rodeos que quizá no sea lo correcto."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Passation du vision design de Bloomburrow, partie 2",
+      "dek": "Il en faudrait seize, et l'extension ne pourrait jamais en contenir autant.",
+      "overview": "La section médiane de la passation, consacrée pour l'essentiel à une mécanique qui n'existe pas : celle bâtie pour résoudre le problème arithmétique central de l'extension, et coupée malgré tout par l'équipe suivante.",
+      "takeaway": "Dix archétypes bicolores exigent dix animaux. Pour drafter un deck d'un seul type de créature, il en faut environ seize, et le garantir pour un animal quelconque demanderait plus d'extension qu'il n'en existait. Aucun type ne pouvait être assez dense. La mécanique au cœur de ce document fut inventée entièrement pour répondre à ce compte.",
+      "lessons": [
+        {
+          "title": "La familiarité vous aveugle sur votre propre complexité",
+          "rules": "Une équipe qui a réglé une chose en y jouant s'habitue à sa charge et cesse de la voir. Ce n'est pas un défaut qu'on corrige par la volonté : c'est une raison structurelle de faire passer le travail devant des gens qui n'étaient pas là.",
+          "flavor": "La mécanique coupée demandait à chaque joueur de tenir une liste mémorisée, et de retenir aussi celle des autres. Rosewater note que le vision design s'était adapté à cette charge. L'équipe suivante voyait la complexité à laquelle la précédente était devenue aveugle."
+        },
+        {
+          "title": "Si une carte accorde la mécanique, elle doit s'en soucier",
+          "rules": "Ce qui contribue à un état partagé sans en profiter apprend aux gens que cet état est de la paperasse. Faites de chaque contributeur un bénéficiaire, et la mécanique se lit comme un système et non comme une corvée.",
+          "flavor": "La règle voulait qu'une créature ajoutant un type à la liste ait aussi une capacité affectant ceux qui y figurent déjà. Le document admet des exceptions et énonce la règle quand même — ce qui rend les exceptions visibles comme telles."
+        },
+        {
+          "title": "Inversez le paramètre d'une mécanique existante",
+          "rules": "Prenez une chose que vous avez déjà et retournez le nombre en son centre. La machinerie est éprouvée, le travail de règles est fait, et l'inversion atterrit souvent sur un sens tout autre.",
+          "flavor": "Une ancienne mécanique créait une copie-jeton et la fixait à 4/4, d'ordinaire plus forte que l'original. Retourner cela — une copie arrivant en 1/1 — a produit un petit suivant son parent, avec le même appareillage."
+        },
+        {
+          "title": "Montrez l'amplitude, pas seulement le concept",
+          "rules": "Prouver qu'un mécanisme fonctionne n'est que la moitié de ce dont l'équipe suivante a besoin. Montrez-le à l'extrémité simple et bon marché comme à l'extrémité chère et voyante, pour qu'on voie qu'il couvre tout le produit.",
+          "flavor": "Les passations portent d'ordinaire de nombreux designs de cartes pour montrer l'allure d'une mécanique. Celle-ci est signalée pour avoir démontré la profondeur : la même mécanique sur des communes très simples et sur des rares voyantes."
+        },
+        {
+          "title": "Concevez le gabarit pour les usages que vous ne faites pas",
+          "rules": "Si une chose peut survivre à ce projet, rédigez-la pour qu'un projet ultérieur l'emploie autrement. Décidez ce que vous restreignez pour des raisons locales, et veillez à ce que cette restriction vive dans votre usage, non dans les règles.",
+          "flavor": "La mécanique fut cantonnée aux types animaux par souci de saveur, alors que les règles auraient permis les classes. Le document anticipe explicitement que d'autres décors l'ouvrent et se combinent aux types établis ici."
+        },
+        {
+          "title": "La saveur peut le proposer ; le jeu doit le garder",
+          "rules": "Une idée née du seul sujet n'a aucun droit à un emplacement. Laissez-la entrer sur la foi de son jeu, et notez la distinction : quantité d'idées charmantes échouent à cette seconde épreuve, et la survie de celle-ci est le fait à consigner.",
+          "flavor": "La mécanique parent-enfant est sortie d'une liste exploratoire de tout ce qu'on associe aux animaux, où les petits mignons figuraient haut. Elle est restée au fichier depuis le tout début parce qu'elle se jouait bien."
+        },
+        {
+          "title": "Inscrivez dans le document la question de règles non résolue",
+          "rules": "Là où vous avez joué une chose d'une certaine façon sans savoir si c'est la bonne, dites les deux : ce que vous avez fait, et que ce peut être faux. Une question ouverte énoncée reçoit une réponse ; tue, elle s'hérite en postulat.",
+          "flavor": "Le document consigne que la mécanique était jouée comme prenant effet au lancement du sort plutôt qu'à sa résolution — le type rejoignant votre liste même si la créature est contrée — puis dit franchement que ce n'est peut-être pas la bonne solution."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Passagem do design de visão de Bloomburrow, parte 2",
+      "dek": "Seriam necessários dezesseis Morcegos, e a coleção nunca comportaria tantos.",
+      "overview": "A seção do meio da passagem, dedicada em boa parte a uma mecânica que não existe: a construída para resolver o problema aritmético central da coleção, e cortada assim mesmo pela equipe seguinte.",
+      "takeaway": "Dez arquétipos de duas cores exigem dez animais. Para draftar um baralho de um único tipo de criatura são necessários uns dezesseis, e garantir isso para qualquer animal exigiria mais coleção do que existia. Nenhum tipo poderia ser denso o bastante. A mecânica no centro deste documento foi inventada inteiramente para responder a essa conta.",
+      "lessons": [
+        {
+          "title": "A familiaridade te cega para a sua própria complexidade",
+          "rules": "Uma equipe que ajustou algo jogando aquilo se acostuma ao peso e para de enxergá-lo. Isso não é um defeito que se corrija por força de vontade: é razão estrutural para passar o trabalho por gente que não estava lá.",
+          "flavor": "A mecânica cortada pedia a cada jogador manter uma lista de memória, e lembrar também a dos outros. Rosewater nota que o design de visão havia se adaptado a essa carga. A equipe posterior enxergava a complexidade a que a anterior ficara cega."
+        },
+        {
+          "title": "Se uma carta concede a mecânica, ela deveria se importar com a mecânica",
+          "rules": "Algo que contribui para um estado compartilhado sem se beneficiar dele ensina às pessoas que aquele estado é burocracia. Faça de cada contribuinte também um beneficiário, e a mecânica se lê como sistema, não como obrigação.",
+          "flavor": "A regra era que uma criatura que acrescentasse um tipo à lista devia ter também uma habilidade afetando os que já estavam nela. O documento admite exceções e enuncia a regra assim mesmo — o que é o que torna as exceções visíveis como exceções."
+        },
+        {
+          "title": "Inverta o parâmetro de uma mecânica existente",
+          "rules": "Pegue algo que você já tem e vire do avesso o número que está no centro dele. A maquinaria está comprovada, o trabalho de regras está feito, e a inversão costuma aterrissar num lugar com um significado completamente diferente.",
+          "flavor": "Uma mecânica antiga fazia uma cópia ficha e a fixava em 4/4, em geral mais forte que a original. Virar aquilo do avesso — uma cópia que chega como 1/1 — produziu um filhote seguindo o pai, com o mesmo aparato."
+        },
+        {
+          "title": "Mostre a amplitude, não só o conceito",
+          "rules": "Provar que um mecanismo funciona é só metade do que a equipe seguinte precisa. Mostre-o na ponta barata e simples e na cara e vistosa, para que vejam que ele cobre o produto inteiro e não apenas uma faixa dele.",
+          "flavor": "Documentos de passagem em geral trazem muitos designs de carta para mostrar como uma mecânica fica na prática. Este é destacado por demonstrar profundidade especificamente: a mesma mecânica em comuns bem simples e em raras vistosas."
+        },
+        {
+          "title": "Projete o gabarito para os usos que você não está fazendo",
+          "rules": "Se algo pode sobreviver a este projeto, redija-o de modo que um posterior possa usá-lo de outro jeito. Decida o que você está restringindo por razões locais e garanta que essa restrição more no seu uso, e não nas regras.",
+          "flavor": "A mecânica foi confinada a tipos de animais por sabor, embora as regras permitissem classes. O documento antecipa explicitamente que outros cenários a abram — e se combinem com os tipos que esta coleção estabeleceu."
+        },
+        {
+          "title": "O sabor pode propor; o jogo é que tem de manter",
+          "rules": "Uma ideia gerada só pelo tema não tem direito a um espaço. Deixe-a entrar pela força de como ela joga, e anote a distinção: montes de ideias encantadoras não passam nesse segundo teste, e o fato de esta ter passado é o que vale registrar.",
+          "flavor": "A mecânica de pai e filhote saiu de uma lista exploratória de tudo associado a animais, em que filhotes fofos pontuavam alto. Ficou no arquivo desde o comecinho porque jogava bem e dava à coleção um sorvedouro de mana."
+        },
+        {
+          "title": "Escreva no documento a dúvida de regras não resolvida",
+          "rules": "Onde você jogou algo de um jeito sem saber se é o certo, diga as duas coisas: o que fez, e que pode estar errado. Uma pergunta aberta declarada é respondida; uma não declarada é herdada como suposição.",
+          "flavor": "O documento registra que a mecânica era jogada como surtindo efeito ao conjurar a mágica e não ao resolvê-la, de modo que o tipo entra na sua lista mesmo se a criatura for anulada — e então diz sem rodeios que talvez não seja o certo."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "《碧洛荒原》愿景设计交接文件，第二部分",
+      "dek": "你会需要十六只蝙蝠，而这个系列永远装不下那么多。",
+      "overview": "交接文件的中段，其中绝大部分献给了一个并不存在的机制——那个为解决这个系列核心的算术难题而造出来、却还是被下一支团队砍掉的机制。",
+      "takeaway": "十个双色原型需要十种动物。而要抽出一副只由单一生物类别构成的套牌，你大约需要十六张；要为随便哪一种动物保证这一点，所需要的篇幅超过了这个系列所拥有的。没有哪个类别能够足够密集。这份文件核心处的那个机制，完全是为了回应这道算术题才被发明出来的。",
+      "lessons": [
+        {
+          "title": "熟悉会让你看不见自己造出来的复杂度",
+          "rules": "一支一边玩一边调的团队，会习惯于它的负担，然后不再看得见它。这不是一个靠意志力就能改掉的毛病：这是一条结构性的理由，说明你必须让这份工作经过那些「当时不在场」的人的眼睛。",
+          "flavor": "那个被砍掉的机制，要求每位玩家维护一份记在脑子里的名单，并且还要记住别人的那份。罗斯沃特指出，愿景设计已经适应了这份负荷。而后一支团队，看得见前一支团队已经视而不见的那份复杂度。"
+        },
+        {
+          "title": "如果一张牌赋予了这个机制，它就该同时在意这个机制",
+          "rules": "一样东西为某个共享状态做了贡献、自己却不从中获益，会教会人们：这个状态不过是记账。让每一个贡献者同时也是受益者，于是这个机制读起来就是一套系统，而不是一份义务。",
+          "flavor": "规矩是：一只往名单里添类别的生物，同时也该有一个作用于名单上已有成员的异能。文件承认存在例外，却依然把规矩写了出来——而正是这一点，让那些例外作为例外被看见。"
+        },
+        {
+          "title": "把一个既有机制的参数反过来",
+          "rules": "拿一样你已经有的东西，把它正中央的那个数字翻个面。机器是验证过的，规则的活儿已经做完了；而这次反转，往往会落在一个附带着截然不同含义的地方。",
+          "flavor": "一个更早的机制会造出生物的衍生物复制品，并把它定在 4/4——通常比原件更强。把这件事反过来——一个以 1/1 登场的复制品——就用同一套装置，造出了一个跟在亲代后面的幼崽。"
+        },
+        {
+          "title": "把幅度展示出来，而不只是把概念展示出来",
+          "rules": "证明一个机制行得通，只满足了下一支团队所需的一半。把它在「便宜而简单」的那一端和「昂贵而抢眼」的那一端都展示出来，好让他们看到它横跨整件产品，而不是只占据其中一条窄带。",
+          "flavor": "交接文件通常会带上大量牌张设计，用来展示一个机制实际长什么样。而这一份被特别点出的，是它展示的是纵深：同一个机制，既出现在极简单的普通牌上，也出现在抢眼的稀有牌上。"
+        },
+        {
+          "title": "为那些你并不打算做的用法来设计这套模板",
+          "rules": "如果一样东西有可能活过这个项目，那就把它写成「后来的项目可以用别的方式使用它」的样子。想清楚你是出于本地原因在限制什么，并确保那条限制住在你的用法里，而不是住在这个机制赖以成立的规则里。",
+          "flavor": "出于风味考虑，这个机制被限定在动物类别上，尽管规则本可以允许职业类别。文件明确地预期了别的舞台会把它放开——并与这个系列所确立的那些类别组合起来。"
+        },
+        {
+          "title": "风味可以提名它；而必须由「玩起来如何」来留下它",
+          "rules": "一个纯粹从题材里生出来的点子，并不因此就有权占一个位置。让它凭「玩起来怎么样」进门，并把这个区别记下来：大量讨人喜欢的点子过不了第二关；而这一个过了，才是值得被记录的那件事。",
+          "flavor": "这个「亲代与幼崽」的机制，出自一份把所有与动物相关的东西都写下来的探索清单，其中「可爱的幼崽」排位很高。它从最开始就留在了文件里——因为它玩起来很好，也给了这个系列一个法术力去处。"
+        },
+        {
+          "title": "把那个还没解决的规则问题写进文件里",
+          "rules": "凡是你按某种方式玩过、却并不确定那样对不对的地方，就把两件事都说出来：你当时怎么做的，以及它可能是错的。一个被写明的开放问题会得到解答；而一个没被写明的，会作为默认前提被继承下去。",
+          "flavor": "文件记下：这个机制当时是按「在咒语被施放时生效」而非「在结算时生效」来玩的，所以即便那只生物被反击，那个类别也已经进了你的名单——然后它直说：这也许并不是正确的解法。"
+        }
+      ]
+    }
+  }
+}

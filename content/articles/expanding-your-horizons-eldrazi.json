@@ -1,0 +1,277 @@
+{
+  "id": "expanding-your-horizons-eldrazi",
+  "slug": "expanding-your-horizons-eldrazi",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2024-06-03",
+  "series": {
+    "id": "expanding-your-horizons",
+    "order": 1,
+    "total": 2
+  },
+  "tags": [
+    "modern-horizons",
+    "card-design",
+    "iteration"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/expanding-your-horizons-eldrazi",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T06:29:24.191Z",
+  "lessons": [
+    {
+      "n": 1,
+      "color": "U"
+    },
+    {
+      "n": 2,
+      "color": "B"
+    },
+    {
+      "n": 3,
+      "color": "W"
+    },
+    {
+      "n": 4,
+      "color": "R"
+    },
+    {
+      "n": 5,
+      "color": "G"
+    },
+    {
+      "n": 6,
+      "color": "W"
+    },
+    {
+      "n": 7,
+      "color": "B"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Expanding Your Horizons: Eldrazi",
+      "dek": "The card became a homage to its ancestor only at version six.",
+      "overview": "Three Modern Horizons 3 Eldrazi traced back to the cards they descend from, with the full version history of each — including how late in the process the resemblance was decided.",
+      "takeaway": "Nulldrifter began as an energy spell, lost the energy, picked up dredge (which playtesting rejected), then became a rare, an Eldrazi, and gained evoke and annihilator. Only at the sixth version did anyone decide to make it a Mulldrifter reference — the thing the finished card most obviously is.",
+      "lessons": [
+        {
+          "title": "Change what the object is, not what it does",
+          "rules": "When a design breaks against your system's rules, look for a different classification that produces the same experience. Reclassifying can be free where re-engineering the behaviour is not.",
+          "flavor": "The original idea was a sorcery you could pay to turn into a creature, which collided with how the rules handle sorceries on the battlefield. The fix was to make it a creature the whole time: don't pay the cost, and you sacrifice it."
+        },
+        {
+          "title": "Check whether the reference price had slack in it",
+          "rules": "Refusing to match an existing item's price assumes that price was right. Often it wasn't — the old thing was overcosted — and once you check, the design you thought was impossible fits.",
+          "flavor": "Rosewater assumed he couldn't charge 2U for the spell half, since that would be strictly better than an existing card at the same cost. The developers pointed out that the existing card had wiggle room, and the whole card got a mana cheaper."
+        },
+        {
+          "title": "State the cost, don't state the adjustment",
+          "rules": "Asking people to compute a price from a base plus a modifier is harder than telling them the price. Arithmetic in the instructions is a cost you charge every single reader.",
+          "flavor": "The kicker style of the day had you add to or subtract from the original cost. R&D concluded that writing out what you actually pay is easier — so \"subtract 3\" became \"the cost for this ability is 2U.\""
+        },
+        {
+          "title": "Give the by-product a second purpose",
+          "rules": "A design that makes a lot of one thing and does nothing with it feels flat no matter how much it makes. One ability that consumes its own output fixes both the flatness and, often, the identity at once.",
+          "flavor": "A colleague's Goblin made a pile of Goblin tokens and felt lacklustre and not especially red. Rosewater's suggestion — a sacrifice-a-Goblin ability — put the tokens to work and landed the card squarely in red's part of the colour pie."
+        },
+        {
+          "title": "Make it a threat to itself so people will use it",
+          "rules": "People hold back things that punish their own side. Redirect the danger onto the object itself and the same effect becomes something they want to trigger — including by making it easier to destroy.",
+          "flavor": "Rather than have the creature endanger your team, it got a death trigger, which made attacking with it appealing. Then it dropped from a 6/6 to a 6/2, specifically to raise the number of times it could die and make tokens."
+        },
+        {
+          "title": "Separate two similar ideas rather than cutting one",
+          "rules": "Two designs too alike to sit together are not a choice between them. Put distance between them — different releases, different contexts — and pick which goes first by which is simpler.",
+          "flavor": "Two takes on multi-kicker creatures were both too close for one set. The simpler pair — effects on arrival, plain bodies thereafter — went into the earlier ally-colour set, the other into the later enemy-colour one."
+        },
+        {
+          "title": "Two effects that each reward being ahead compound",
+          "rules": "Abilities that pay out more the better you're doing are individually fine and jointly disastrous. Check combinations for whether they make a lead self-reinforcing, because that is what makes a game unrecoverable rather than merely lost.",
+          "flavor": "An early version combined a mechanic that triggers off your own permanents leaving with one that strips the opponent's lands. Together they proved too snowball-y — helping whoever was winning win harder, and making coming back nearly impossible."
+        }
+      ]
+    },
+    "es": {
+      "title": "Ampliando horizontes: los Eldrazi",
+      "dek": "La carta se volvió un homenaje a su antecesora solo en la versión seis.",
+      "overview": "Tres Eldrazi de Modern Horizons 3 rastreados hasta las cartas de las que descienden, con el historial completo de versiones de cada uno, incluido lo tarde que se decidió el parecido.",
+      "takeaway": "Nulldrifter empezó como un hechizo de energía, perdió la energía, adoptó dragado (que las pruebas rechazaron), y luego se volvió rara, Eldrazi, y ganó evocar y aniquilador. Solo en la sexta versión alguien decidió convertirla en una referencia a Mulldrifter, que es lo más evidente de la carta terminada.",
+      "lessons": [
+        {
+          "title": "Cambia qué es el objeto, no qué hace",
+          "rules": "Cuando un diseño choca con las reglas de tu sistema, busca otra clasificación que produzca la misma experiencia. Reclasificar puede salir gratis donde rediseñar el comportamiento no lo sale.",
+          "flavor": "La idea original era un conjuro que podías pagar para convertir en criatura, lo que chocaba con cómo tratan las reglas a los conjuros en el campo de batalla. El arreglo fue hacerla criatura todo el tiempo: si no pagas el coste, la sacrificas."
+        },
+        {
+          "title": "Comprueba si el precio de referencia tenía holgura",
+          "rules": "Negarte a igualar el precio de algo existente da por hecho que ese precio era correcto. Muchas veces no lo era —lo viejo estaba sobrecostado— y en cuanto lo compruebas, el diseño que creías imposible encaja.",
+          "flavor": "Rosewater dio por hecho que no podía cobrar 2U por la mitad hechizo, pues sería estrictamente mejor que una carta existente al mismo coste. Los desarrolladores señalaron que aquella carta tenía holgura, y la carta entera bajó un maná."
+        },
+        {
+          "title": "Di el coste, no digas el ajuste",
+          "rules": "Pedirle a la gente que calcule un precio a partir de una base más un modificador es más difícil que decirle el precio. La aritmética en las instrucciones es un coste que le cobras a cada lector.",
+          "flavor": "El estilo de kicker de entonces te hacía sumar o restar sobre el coste original. I+D concluyó que escribir lo que de verdad pagas es más fácil, así que «resta 3» se convirtió en «el coste de esta habilidad es 2U»."
+        },
+        {
+          "title": "Dale al subproducto un segundo propósito",
+          "rules": "Un diseño que fabrica mucho de algo y no hace nada con ello resulta plano por mucho que fabrique. Una sola habilidad que consuma su propia producción arregla a la vez la planitud y, a menudo, la identidad.",
+          "flavor": "El Trasgo de un compañero creaba un montón de fichas de Trasgo y resultaba anodino y poco rojo. La sugerencia de Rosewater —una habilidad de sacrificar un Trasgo— puso las fichas a trabajar y situó la carta de lleno en el rojo."
+        },
+        {
+          "title": "Que sea un peligro para sí misma y la gente la usará",
+          "rules": "La gente retiene aquello que castiga a su propio bando. Redirige el peligro hacia el propio objeto y el mismo efecto se vuelve algo que quieren disparar, incluso facilitando que lo destruyan.",
+          "flavor": "En vez de poner en peligro a tu equipo, la criatura recibió un disparo de muerte, lo que hizo atractivo atacar con ella. Después bajó de 6/6 a 6/2, precisamente para aumentar las veces que podía morir y crear fichas."
+        },
+        {
+          "title": "Separa dos ideas parecidas en vez de cortar una",
+          "rules": "Dos diseños demasiado parecidos para convivir no son una elección entre ambos. Ponles distancia —lanzamientos distintos, contextos distintos— y decide cuál va primero según cuál sea el más simple.",
+          "flavor": "Dos versiones de criaturas con varios kickers eran demasiado próximas para un mismo set. La pareja más simple —efectos al llegar, cuerpos corrientes después— fue al set anterior de colores aliados, y la otra al posterior de colores enemigos."
+        },
+        {
+          "title": "Dos efectos que premian ir por delante se componen",
+          "rules": "Las habilidades que pagan más cuanto mejor te va son inocuas por separado y desastrosas juntas. Revisa las combinaciones por si vuelven autorreforzante una ventaja, porque eso es lo que hace una partida irrecuperable y no solo perdida.",
+          "flavor": "Una versión temprana combinaba una mecánica que se dispara cuando tus permanentes se van con otra que arrasa las tierras del rival. Juntas resultaron demasiado de bola de nieve: ayudaban a ganar a quien ya iba ganando."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Élargir vos horizons : les Eldrazi",
+      "dek": "La carte n'est devenue un hommage à son ancêtre qu'à la version six.",
+      "overview": "Trois Eldrazi de Modern Horizons 3 remontés jusqu'aux cartes dont ils descendent, avec l'historique complet des versions de chacun — y compris à quel point la ressemblance fut décidée tard.",
+      "takeaway": "Nulldrifter a commencé en sort d'énergie, a perdu l'énergie, pris la draguée (que les tests ont rejetée), puis est devenue rare, Eldrazi, et a gagné évocation et annihilateur. C'est seulement à la sixième version qu'on a décidé d'en faire une référence à Mulldrifter — ce que la carte finie est le plus manifestement.",
+      "lessons": [
+        {
+          "title": "Changez ce qu'est l'objet, non ce qu'il fait",
+          "rules": "Quand un design se heurte aux règles de votre système, cherchez une autre classification produisant la même expérience. Reclasser peut être gratuit là où réusiner le comportement ne l'est pas.",
+          "flavor": "L'idée initiale était un rituel qu'on pouvait payer pour transformer en créature, ce qui heurtait la façon dont les règles traitent les rituels sur le champ de bataille. Le correctif : en faire une créature depuis le début, sacrifiée si l'on ne paie pas."
+        },
+        {
+          "title": "Vérifiez si le prix de référence avait du mou",
+          "rules": "Refuser d'égaler le prix d'un objet existant suppose que ce prix était juste. Souvent il ne l'était pas — l'ancien coûtait trop cher — et une fois vérifié, le design que vous croyiez impossible passe.",
+          "flavor": "Rosewater supposait ne pouvoir facturer 2U la moitié sort, ce qui serait strictement meilleur qu'une carte existante au même coût. Les développeurs ont signalé que cette carte avait du mou, et la carte entière a baissé d'un mana."
+        },
+        {
+          "title": "Énoncez le coût, non l'ajustement",
+          "rules": "Demander de calculer un prix à partir d'une base plus un modificateur est plus dur que d'annoncer le prix. L'arithmétique dans la consigne est un coût facturé à chaque lecteur.",
+          "flavor": "Le style de l'époque faisait ajouter ou retrancher au coût d'origine. La R&D a conclu qu'écrire ce qu'on paie vraiment est plus simple : « retranchez 3 » est devenu « le coût de cette capacité est 2U »."
+        },
+        {
+          "title": "Donnez au sous-produit une seconde fonction",
+          "rules": "Un design qui fabrique beaucoup d'une chose sans rien en faire paraît plat, quelle qu'en soit la quantité. Une seule capacité consommant sa propre production corrige à la fois la platitude et, souvent, l'identité.",
+          "flavor": "Le Gobelin d'un collègue produisait un tas de jetons et paraissait terne et peu rouge. La suggestion de Rosewater — une capacité de sacrifier un Gobelin — a mis les jetons au travail et ancré la carte en plein rouge."
+        },
+        {
+          "title": "Rendez-la dangereuse pour elle-même et on s'en servira",
+          "rules": "On garde en réserve ce qui punit son propre camp. Redirigez le danger sur l'objet lui-même et le même effet devient une chose qu'on veut déclencher, quitte à faciliter sa destruction.",
+          "flavor": "Plutôt que de menacer votre équipe, la créature a reçu un déclenchement à sa mort, rendant l'attaque attrayante. Puis elle est passée de 6/6 à 6/2, précisément pour multiplier les fois où elle pouvait mourir et créer des jetons."
+        },
+        {
+          "title": "Séparez deux idées voisines plutôt que d'en couper une",
+          "rules": "Deux designs trop semblables pour cohabiter ne sont pas un choix entre eux. Mettez-y de la distance — sorties différentes, contextes différents — et décidez lequel passe en premier selon le plus simple.",
+          "flavor": "Deux versions de créatures à kickers multiples étaient trop proches pour une même extension. La paire la plus simple — effets à l'arrivée, corps ordinaires ensuite — est allée dans l'extension alliée antérieure, l'autre dans l'ennemie postérieure."
+        },
+        {
+          "title": "Deux effets qui récompensent l'avance se composent",
+          "rules": "Les capacités qui rapportent d'autant plus qu'on va bien sont anodines séparément et désastreuses ensemble. Vérifiez si des combinaisons rendent une avance auto-renforçante : c'est ce qui rend une partie irrattrapable et non seulement perdue.",
+          "flavor": "Une version initiale associait une mécanique se déclenchant quand vos permanents partent à une autre qui rase les terrains adverses. Ensemble, trop « boule de neige » : elles aidaient celui qui gagnait à gagner davantage."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Ampliando horizontes: os Eldrazi",
+      "dek": "A carta só virou homenagem à sua ancestral na versão seis.",
+      "overview": "Três Eldrazi de Modern Horizons 3 rastreados até as cartas de que descendem, com o histórico completo de versões de cada um — inclusive quão tarde a semelhança foi decidida.",
+      "takeaway": "Nulldrifter começou como uma mágica de energia, perdeu a energia, pegou dragagem (que os testes rejeitaram), e então virou rara, Eldrazi, e ganhou evocar e aniquilador. Só na sexta versão alguém decidiu transformá-la numa referência a Mulldrifter — aquilo que a carta pronta mais obviamente é.",
+      "lessons": [
+        {
+          "title": "Mude o que o objeto é, não o que ele faz",
+          "rules": "Quando um design bate de frente com as regras do seu sistema, procure outra classificação que produza a mesma experiência. Reclassificar pode sair de graça onde reprojetar o comportamento não sai.",
+          "flavor": "A ideia original era um feitiço que você podia pagar para virar criatura, o que colidia com o modo como as regras tratam feitiços no campo de batalha. O conserto foi torná-la criatura o tempo todo: se não pagar o custo, você a sacrifica."
+        },
+        {
+          "title": "Cheque se o preço de referência tinha folga",
+          "rules": "Recusar-se a igualar o preço de algo existente presume que aquele preço estava certo. Muitas vezes não estava — o antigo custava caro demais — e assim que você confere, o design que julgava impossível cabe.",
+          "flavor": "Rosewater presumiu que não podia cobrar 2U pela metade mágica, pois seria estritamente melhor que uma carta existente pelo mesmo custo. Os desenvolvedores apontaram que aquela carta tinha folga, e a carta inteira baixou um mana."
+        },
+        {
+          "title": "Diga o custo, não diga o ajuste",
+          "rules": "Pedir que se calcule um preço a partir de uma base mais um modificador é mais difícil do que dizer o preço. Aritmética na instrução é um custo cobrado de cada leitor.",
+          "flavor": "O estilo da época mandava somar ou subtrair do custo original. A P&D concluiu que escrever o que se paga de fato é mais fácil, então \"subtraia 3\" virou \"o custo desta habilidade é 2U\"."
+        },
+        {
+          "title": "Dê ao subproduto um segundo propósito",
+          "rules": "Um design que fabrica muito de uma coisa e não faz nada com ela soa chato por mais que fabrique. Uma única habilidade que consome a própria produção conserta ao mesmo tempo a chatice e, muitas vezes, a identidade.",
+          "flavor": "O Goblin de um colega criava um monte de fichas e parecia sem graça e pouco vermelho. A sugestão de Rosewater — uma habilidade de sacrificar um Goblin — pôs as fichas para trabalhar e fincou a carta no vermelho."
+        },
+        {
+          "title": "Faça dela uma ameaça a si mesma e as pessoas a usarão",
+          "rules": "As pessoas seguram aquilo que pune o próprio lado. Redirecione o perigo para o próprio objeto e o mesmo efeito vira algo que se quer disparar — inclusive facilitando que ele seja destruído.",
+          "flavor": "Em vez de ameaçar seu time, a criatura ganhou um gatilho de morte, o que tornou atraente atacar com ela. Depois caiu de 6/6 para 6/2, justamente para aumentar quantas vezes ela podia morrer e criar fichas."
+        },
+        {
+          "title": "Separe duas ideias parecidas em vez de cortar uma",
+          "rules": "Dois designs parecidos demais para conviver não são uma escolha entre eles. Ponha distância — lançamentos diferentes, contextos diferentes — e decida qual vai primeiro pelo que for mais simples.",
+          "flavor": "Duas versões de criaturas com vários kickers eram próximas demais para uma coleção só. O par mais simples — efeitos ao chegar, corpos comuns depois — foi para a coleção anterior de cores aliadas, e a outra para a posterior de cores inimigas."
+        },
+        {
+          "title": "Dois efeitos que premiam estar na frente se compõem",
+          "rules": "Habilidades que pagam mais quanto melhor você vai são inofensivas isoladas e desastrosas juntas. Verifique combinações que tornem uma vantagem autorreforçada, pois é isso que torna uma partida irrecuperável e não apenas perdida.",
+          "flavor": "Uma versão inicial combinava uma mecânica disparada quando seus permanentes saem com outra que arrasa os terrenos do oponente. Juntas ficaram bola-de-neve demais: ajudavam quem já vencia a vencer mais."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "拓展你的视野：奥札奇",
+      "dek": "直到第六版，这张牌才成为对它祖先的致敬。",
+      "overview": "三张《摩登新篇 3》的奥札奇，被一路追溯回它们所继承的那些牌，并附上各自完整的版本史——包括那份「像谁」是在多晚才被定下来的。",
+      "takeaway": "Nulldrifter 最初是一张能量咒语，后来丢掉了能量，接上了「发掘」——试玩把它否掉了——然后变成了稀有、变成了奥札奇，并获得了唤醒与歼灭者。直到第六版，才有人决定把它做成对 Mulldrifter 的致敬——而这恰恰是成品牌上最显眼的那一点。",
+      "lessons": [
+        {
+          "title": "改变这个对象「是什么」，而不是它「做什么」",
+          "rules": "当一个设计撞上了你系统的规则时，去找另一种能产生同样体验的归类方式。重新归类可能是免费的，而把行为本身重新工程化则不是。",
+          "flavor": "最初的点子是一张「你可以付费把它变成生物」的法术，这与规则处理战场上法术的方式相冲突。修法是：让它从头到尾都是生物——你不付那笔费用，就把它牺牲掉。"
+        },
+        {
+          "title": "查一查那个参照价里是不是本来就有余量",
+          "rules": "你之所以不肯把价钱压到和某件既有物品一样，前提是假定那个价钱是对的。而它常常并不对——旧东西本来就标贵了；一旦你去核实，那个你以为不可能的设计就装得下了。",
+          "flavor": "罗斯沃特原本认定咒语那一半不能只收 2U，因为那会严格优于同费用的一张既有牌。开发部指出那张既有牌本来就留了余量，于是整张牌便宜了一点法术力。"
+        },
+        {
+          "title": "把费用写出来，而不是把「调整量」写出来",
+          "rules": "要求别人从一个基准加上一个修正量去算出价钱，比直接告诉他们价钱要难。写在说明里的算术，是一笔你向每一位读者都收取的费用。",
+          "flavor": "当年那种增幅写法要你在原始费用上加或减。研发部得出的结论是：把你实际要付的写出来更容易——于是「减 3」变成了「此异能的费用是 2U」。"
+        },
+        {
+          "title": "给副产品安排第二个用途",
+          "rules": "一个大量制造某样东西、却对它毫无用处的设计，无论造得多少都显得平。而一个「消耗掉自己产出」的异能，往往能同时治好这份平淡，还有它的身份问题。",
+          "flavor": "同事做的那只鬼怪会造出一堆鬼怪衍生物，却显得寡淡、也不太「红」。罗斯沃特的建议——加一个牺牲鬼怪的异能——让那些衍生物有了活干，也把这张牌牢牢地按进了红色。"
+        },
+        {
+          "title": "让它对自己构成威胁，人们才会去用它",
+          "rules": "凡是会惩罚自己这一方的东西，人们都会攥着不放。把危险重新指向这个对象自身，同样的效果就变成了他们想要触发的东西——包括让它更容易被毁掉。",
+          "flavor": "与其让这只生物危及你的队伍，不如给它一个死亡触发，这让派它去进攻变得诱人。随后它从 6/6 降成了 6/2——正是为了增加它能死掉、并造出衍生物的次数。"
+        },
+        {
+          "title": "把两个相近的点子分开，而不是砍掉其中一个",
+          "rules": "两个像到没法同处一室的设计，并不构成「二选一」。给它们之间拉开距离——不同的发行、不同的语境——再按「哪个更简单」来决定谁先上。",
+          "flavor": "两种「多重增幅生物」的做法，放进同一个系列实在太像。更简单的那一对——进场时有效果、此后就是普通身躯——去了较早的友好色系列，另一种去了较晚的敌对色系列。"
+        },
+        {
+          "title": "两个都在奖励「已经领先」的效果，会叠乘",
+          "rules": "那些「你越顺、赔付越多」的异能，单看无害，凑在一起是灾难。要专门检查各种组合会不会让领先自我强化——因为正是这一点，让一局棋变得无法挽回，而不只是落后。",
+          "flavor": "早期的一版把「你的永久物离场时触发」的机制，和一个铲掉对手地的机制凑在了一起。两者合起来「滚雪球」得太厉害：谁在赢，它就帮谁赢得更狠。"
+        }
+      ]
+    }
+  }
+}

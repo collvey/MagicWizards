@@ -1,0 +1,242 @@
+{
+  "id": "giving-the-players-an-edge-part-2",
+  "slug": "giving-the-players-an-edge-part-2",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2025-07-14",
+  "series": { "id": "giving-the-players-an-edge", "order": 2, "total": 2 },
+  "tags": ["set-design", "vision-design", "iteration"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/giving-the-players-an-edge-part-2",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T07:16:48.605Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Giving the Players an Edge, Part 2",
+      "dek": "Two mechanics designed to combine, defeated by what time of turn it is.",
+      "overview": "What the second team did with the first team's handoff: four mechanics followed through the stage where a proof of concept has to become a full set's worth of actual cards.",
+      "takeaway": "One mechanic exiles a card; another rewards you for things being exiled. The synergy was demonstrated in vision design and then broke in practice, because the exile happens at the beginning of the end step — so a cost reduction from the second could only ever apply to an instant. The fix was to have the second mechanic name the first outright instead of waiting for its effect.",
+      "lessons": [
+        {
+          "title": "When the form dies, keep the property it delivered",
+          "rules": "A cut piece was doing a job. Name the quality that made it work, then go looking for existing structures with that quality — the replacement rarely resembles the original, and shouldn't have to.",
+          "flavor": "What the team had liked about the abandoned giant cards was that they evolved gradually into their final forms. Holding on to that, they reviewed the mechanics that already work that way and built a new one where you tap creatures to advance a track of counters."
+        },
+        {
+          "title": "A proof of concept and a production run ask different questions",
+          "rules": "The first stage exists to show that interesting space exists; the second has to fill it. One is looking for what's possible, the other for the limits — and something can be genuinely promising and still not survive being multiplied by fifty.",
+          "flavor": "Rosewater's metaphor is that the first team draws the blueprints and the second builds the house. Their designs are proof that the space is there; the later team has to design every card that will actually be printed."
+        },
+        {
+          "title": "Check the mechanic against everything, not just its own set",
+          "rules": "Early design reasons about a project in relation to itself. Later design has to place it in the world it will live in, alongside everything already there — which usually means a definition has to widen.",
+          "flavor": "A mechanic that cared about artifacts and creatures leaving play was broadened to care about any nonland permanent, once the question changed from what works inside this set to what works across the formats it enters."
+        },
+        {
+          "title": "Add the restriction, then buy flexibility back elsewhere",
+          "rules": "Closing off an abusive line is not a net loss if you use it as an occasion to reopen something else. Having removed the bad pattern, revisit the conservative choices you made when you were afraid of it.",
+          "flavor": "Set design first blocked recasting the card the same turn, for balance. Then they questioned why it was exiled at end of combat at all — moving that to end of turn let you interact with it during your second main phase, adding flexibility while the bad line stayed shut."
+        },
+        {
+          "title": "Some mechanics are workhorses, and that's the job",
+          "rules": "Not every part needs to be striking. When a clever version can't do the practical work the project actually needs, take the plain version that can — a component whose value is that it quietly functions is a legitimate design outcome.",
+          "flavor": "The elegant token ramped without shuffling, but its fixed back face couldn't provide the colours the set needed. The replacement simply fetches a basic land, shuffling and all, because that was what the set required."
+        },
+        {
+          "title": "A cut clears room you couldn't otherwise have had",
+          "rules": "Removing something frees more than its own slot. Look immediately at what its presence had been foreclosing, because the space it vacates often admits several small additions at once.",
+          "flavor": "Dropping the two-faced token let set design add a theme about controlling differently named lands. It also removed a style of land that has historically caused problems in the digital version — a benefit nobody was aiming for."
+        },
+        {
+          "title": "If a returning mechanic won't take root, change the theme",
+          "rules": "When a familiar element fails in testing, the instinct is to add support for it. Ask instead whether the project can carry the structure it needs at all — and if not, find a different theme that expresses the same idea and does fit.",
+          "flavor": "The handed-off returning mechanic wanted a structure the rest of the set couldn't supply. Rather than build that structure, the team asked what the genre was actually about — travelling and discovering places — and used a land-based mechanic instead."
+        }
+      ]
+    },
+    "es": {
+      "title": "Dando ventaja a los jugadores, parte 2",
+      "dek": "Dos mecánicas diseñadas para combinarse, derrotadas por en qué momento del turno ocurren.",
+      "overview": "Qué hizo el segundo equipo con el traspaso del primero: cuatro mecánicas seguidas hasta la fase en que una prueba de concepto tiene que convertirse en un set entero de cartas reales.",
+      "takeaway": "Una mecánica exilia una carta; otra te premia por que las cosas sean exiliadas. La sinergia se demostró en el diseño de visión y luego se rompió en la práctica, porque el exilio ocurre al comienzo del paso final, así que una reducción de coste de la segunda solo podía aplicarse a un instantáneo. El arreglo fue que la segunda nombrara a la primera en vez de esperar su efecto.",
+      "lessons": [
+        {
+          "title": "Cuando muere la forma, conserva la propiedad que entregaba",
+          "rules": "Una pieza cortada estaba haciendo un trabajo. Nombra la cualidad que la hacía funcionar y luego busca estructuras existentes con esa cualidad: el sustituto rara vez se parece al original, y no tiene por qué.",
+          "flavor": "Lo que al equipo le había gustado de las cartas gigantes abandonadas era que evolucionaban poco a poco hasta su forma final. Aferrándose a eso, repasaron las mecánicas que ya funcionan así y construyeron una nueva."
+        },
+        {
+          "title": "Una prueba de concepto y una tirada de producción hacen preguntas distintas",
+          "rules": "La primera etapa existe para mostrar que hay espacio interesante; la segunda tiene que llenarlo. Una busca lo posible, la otra los límites, y algo puede ser genuinamente prometedor y aun así no sobrevivir a multiplicarse por cincuenta.",
+          "flavor": "La metáfora de Rosewater es que el primer equipo dibuja los planos y el segundo construye la casa. Sus diseños son la prueba de que el espacio existe; el equipo posterior tiene que diseñar cada carta que de verdad se imprimirá."
+        },
+        {
+          "title": "Contrasta la mecánica con todo, no solo con su propio set",
+          "rules": "El diseño temprano razona sobre un proyecto en relación consigo mismo. El diseño posterior tiene que situarlo en el mundo donde vivirá, junto a todo lo que ya está allí, lo que suele obligar a ensanchar una definición.",
+          "flavor": "Una mecánica que se fijaba en artefactos y criaturas dejando el juego se amplió para fijarse en cualquier permanente que no fuera tierra, en cuanto la pregunta pasó de qué funciona dentro del set a qué funciona en los formatos donde entra."
+        },
+        {
+          "title": "Pon la restricción, y recompra flexibilidad en otro sitio",
+          "rules": "Cerrar una línea abusiva no es una pérdida neta si lo aprovechas para reabrir otra cosa. Eliminado el patrón malo, revisa las decisiones conservadoras que tomaste cuando le tenías miedo.",
+          "flavor": "El diseño de set primero impidió relanzar la carta el mismo turno, por equilibrio. Luego cuestionó por qué se exiliaba al final del combate: pasarlo al final del turno permitía interactuar con ella en la segunda fase principal."
+        },
+        {
+          "title": "Algunas mecánicas son de carga, y ese es el trabajo",
+          "rules": "No toda pieza necesita ser llamativa. Cuando la versión ingeniosa no puede hacer el trabajo práctico que el proyecto necesita, quédate con la versión sencilla que sí: un componente cuyo valor es que funciona sin ruido es un resultado de diseño legítimo.",
+          "flavor": "La ficha elegante aceleraba sin barajar, pero su cara trasera fija no podía dar los colores que el set necesitaba. El sustituto simplemente busca una tierra básica, barajado incluido, porque era lo que el set requería."
+        },
+        {
+          "title": "Un corte despeja espacio que no habrías tenido de otro modo",
+          "rules": "Quitar algo libera más que su propia casilla. Mira enseguida qué estaba impidiendo su presencia, porque el hueco que deja suele admitir varias adiciones pequeñas a la vez.",
+          "flavor": "Retirar la ficha de doble cara permitió añadir un tema sobre controlar tierras de nombres distintos. También eliminó un estilo de tierra que históricamente ha dado problemas en la versión digital: un beneficio que nadie perseguía."
+        },
+        {
+          "title": "Si una mecánica que vuelve no arraiga, cambia el tema",
+          "rules": "Cuando un elemento familiar falla en las pruebas, el instinto es añadirle apoyo. Pregúntate en cambio si el proyecto puede sostener siquiera la estructura que necesita; si no, busca otro tema que exprese la misma idea y sí encaje.",
+          "flavor": "La mecánica de retorno traspasada quería una estructura que el resto del set no podía dar. En vez de construirla, el equipo preguntó de qué iba realmente el género —viajar y descubrir lugares— y usó una mecánica ligada a las tierras."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Donner l'avantage aux joueurs, partie 2",
+      "dek": "Deux mécaniques conçues pour se combiner, défaites par le moment du tour.",
+      "overview": "Ce que la seconde équipe a fait de la passation de la première : quatre mécaniques suivies jusqu'à l'étape où une preuve de concept doit devenir une extension entière de cartes réelles.",
+      "takeaway": "Une mécanique exile une carte ; une autre récompense l'exil. La synergie fut démontrée en vision design puis a cassé à l'usage, car l'exil survient au début de l'étape de fin : une réduction de coût de la seconde ne pouvait donc s'appliquer qu'à un éphémère. Le correctif fut de faire nommer la première par la seconde, au lieu d'attendre son effet.",
+      "lessons": [
+        {
+          "title": "Quand la forme meurt, gardez la propriété qu'elle apportait",
+          "rules": "Une pièce coupée faisait un travail. Nommez la qualité qui la faisait fonctionner, puis cherchez des structures existantes dotées de cette qualité : le remplaçant ressemble rarement à l'original, et n'a pas à le faire.",
+          "flavor": "Ce que l'équipe avait aimé dans les cartes géantes abandonnées, c'est qu'elles évoluaient peu à peu vers leur forme finale. En s'accrochant à cela, ils ont revu les mécaniques fonctionnant ainsi et en ont bâti une nouvelle."
+        },
+        {
+          "title": "Une preuve de concept et une série de production posent des questions différentes",
+          "rules": "La première étape existe pour montrer qu'un espace intéressant existe ; la seconde doit le remplir. L'une cherche le possible, l'autre les limites — et une chose peut être vraiment prometteuse sans survivre à être multipliée par cinquante.",
+          "flavor": "La métaphore de Rosewater : la première équipe dessine les plans, la seconde bâtit la maison. Leurs designs prouvent que l'espace existe ; l'équipe suivante doit concevoir chaque carte réellement imprimée."
+        },
+        {
+          "title": "Confrontez la mécanique à tout, pas seulement à son extension",
+          "rules": "Le design précoce raisonne sur un projet par rapport à lui-même. Le design tardif doit le placer dans le monde où il vivra, aux côtés de tout ce qui s'y trouve déjà — ce qui oblige généralement à élargir une définition.",
+          "flavor": "Une mécanique attentive aux artefacts et aux créatures quittant le jeu fut élargie à tout permanent non-terrain, dès que la question passa de ce qui marche dans l'extension à ce qui marche dans les formats où elle entre."
+        },
+        {
+          "title": "Posez la restriction, puis rachetez de la souplesse ailleurs",
+          "rules": "Fermer une ligne abusive n'est pas une perte nette si vous en profitez pour rouvrir autre chose. Le mauvais schéma écarté, revenez sur les choix prudents faits quand vous le craigniez.",
+          "flavor": "Le design d'extension a d'abord interdit de relancer la carte le même tour, pour l'équilibre. Puis il a questionné l'exil en fin de combat : le déplacer en fin de tour permettait d'interagir avec elle en seconde phase principale."
+        },
+        {
+          "title": "Certaines mécaniques sont des bêtes de somme, et c'est le travail",
+          "rules": "Toute pièce n'a pas à être frappante. Quand la version astucieuse ne peut faire le travail pratique dont le projet a besoin, prenez la version simple qui le peut : une pièce dont la valeur est de fonctionner sans bruit est un résultat légitime.",
+          "flavor": "Le jeton élégant accélérait sans mélanger, mais sa face arrière figée ne pouvait fournir les couleurs voulues. Le remplaçant va simplement chercher un terrain de base, mélange compris, parce que c'est ce dont l'extension avait besoin."
+        },
+        {
+          "title": "Une coupe libère une place que vous n'auriez pas eue autrement",
+          "rules": "Retirer une chose libère plus que son propre emplacement. Regardez aussitôt ce que sa présence interdisait, car l'espace laissé accueille souvent plusieurs petits ajouts d'un coup.",
+          "flavor": "Abandonner le jeton recto-verso a permis d'ajouter un thème sur le contrôle de terrains aux noms différents. Cela a aussi supprimé un type de terrain qui pose historiquement problème en version numérique — un bénéfice non recherché."
+        },
+        {
+          "title": "Si une mécanique de retour ne prend pas, changez de thème",
+          "rules": "Quand un élément familier échoue aux tests, l'instinct est de lui ajouter du soutien. Demandez plutôt si le projet peut porter la structure qu'il exige ; sinon, trouvez un autre thème qui exprime la même idée et qui, lui, convient.",
+          "flavor": "La mécanique de retour transmise voulait une structure que le reste de l'extension ne pouvait fournir. Plutôt que de la bâtir, l'équipe a demandé de quoi parlait vraiment le genre — voyager et découvrir des lieux — et a pris une mécanique liée aux terrains."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Dando vantagem aos jogadores, parte 2",
+      "dek": "Duas mecânicas feitas para combinar, derrotadas por que hora do turno é.",
+      "overview": "O que a segunda equipe fez com a entrega da primeira: quatro mecânicas acompanhadas até a etapa em que uma prova de conceito precisa virar uma coleção inteira de cartas reais.",
+      "takeaway": "Uma mecânica exila uma carta; outra premia coisas serem exiladas. A sinergia foi demonstrada no design de visão e depois quebrou na prática, porque o exílio acontece no início da etapa final — então uma redução de custo da segunda só podia se aplicar a uma instantânea. O conserto foi fazer a segunda nomear a primeira, em vez de esperar pelo efeito dela.",
+      "lessons": [
+        {
+          "title": "Quando a forma morre, guarde a propriedade que ela entregava",
+          "rules": "Uma peça cortada estava fazendo um trabalho. Dê nome à qualidade que a fazia funcionar e então procure estruturas existentes com essa qualidade: o substituto raramente se parece com o original, e não precisa.",
+          "flavor": "O que a equipe gostara nas cartas gigantes abandonadas era que elas evoluíam aos poucos até sua forma final. Segurando isso, revisaram as mecânicas que já funcionam assim e construíram uma nova."
+        },
+        {
+          "title": "Uma prova de conceito e uma tiragem fazem perguntas diferentes",
+          "rules": "A primeira etapa existe para mostrar que há espaço interessante; a segunda tem de preenchê-lo. Uma busca o possível, a outra os limites — e algo pode ser genuinamente promissor e ainda assim não sobreviver a ser multiplicado por cinquenta.",
+          "flavor": "A metáfora de Rosewater é que a primeira equipe desenha a planta e a segunda constrói a casa. Os designs deles provam que o espaço existe; a equipe posterior tem de projetar cada carta que será de fato impressa."
+        },
+        {
+          "title": "Confira a mecânica contra tudo, não só contra a própria coleção",
+          "rules": "O design inicial raciocina sobre um projeto em relação a si mesmo. O design posterior precisa situá-lo no mundo onde ele vai viver, ao lado de tudo que já está lá — o que em geral obriga a alargar uma definição.",
+          "flavor": "Uma mecânica que se importava com artefatos e criaturas deixando o jogo foi alargada para qualquer permanente que não fosse terreno, assim que a pergunta passou de o que funciona dentro da coleção para o que funciona nos formatos em que ela entra."
+        },
+        {
+          "title": "Ponha a restrição, e recompre flexibilidade em outro lugar",
+          "rules": "Fechar uma linha abusiva não é perda líquida se você usar isso como ocasião para reabrir outra coisa. Removido o padrão ruim, revisite as escolhas conservadoras feitas quando você tinha medo dele.",
+          "flavor": "O design da coleção primeiro impediu reconjurar a carta no mesmo turno, por equilíbrio. Depois questionou por que ela era exilada no fim do combate: mover isso para o fim do turno permitia interagir com ela na segunda fase principal."
+        },
+        {
+          "title": "Algumas mecânicas são de carga, e esse é o trabalho",
+          "rules": "Nem toda peça precisa ser chamativa. Quando a versão engenhosa não consegue fazer o trabalho prático de que o projeto precisa, fique com a versão simples que consegue: uma peça cujo valor é funcionar sem alarde é um resultado legítimo.",
+          "flavor": "A ficha elegante acelerava sem embaralhar, mas sua face de trás fixa não fornecia as cores de que a coleção precisava. A substituta simplesmente busca um terreno básico, embaralhamento e tudo, porque era o que a coleção exigia."
+        },
+        {
+          "title": "Um corte abre espaço que você não teria de outro jeito",
+          "rules": "Remover algo libera mais do que a própria vaga. Olhe imediatamente para o que a presença dele vinha impedindo, porque o espaço que ele desocupa costuma admitir várias adições pequenas de uma vez.",
+          "flavor": "Largar a ficha de duas faces permitiu acrescentar um tema sobre controlar terrenos de nomes diferentes. Também removeu um estilo de terreno que historicamente causa problemas na versão digital — um benefício que ninguém buscava."
+        },
+        {
+          "title": "Se uma mecânica de retorno não pega, mude o tema",
+          "rules": "Quando um elemento familiar falha nos testes, o instinto é acrescentar apoio a ele. Pergunte antes se o projeto consegue sustentar a estrutura de que ele precisa; se não, ache outro tema que expresse a mesma ideia e que caiba.",
+          "flavor": "A mecânica de retorno entregue queria uma estrutura que o resto da coleção não podia dar. Em vez de construí-la, a equipe perguntou do que o gênero tratava de fato — viajar e descobrir lugares — e usou uma mecânica ligada a terrenos."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "给玩家一点优势，第二部分",
+      "dek": "两个本为彼此配合而设计的机制，被「这是回合的哪个阶段」打败了。",
+      "overview": "第二支团队拿第一支团队的交接件做了些什么：四个机制被一路追到那个阶段——一份概念验证，必须变成整整一个系列的、真正要印出来的牌。",
+      "takeaway": "一个机制会把牌放逐；另一个则因为「东西被放逐」而给你回报。这份协同在愿景设计阶段被演示过，随后在实操中碎了：放逐发生在结束步骤开始时，于是后者提供的费用减免，只可能作用在瞬间上。修法是让后者直接点名前者，而不是干等它的效果发生。",
+      "lessons": [
+        {
+          "title": "当形态死掉时，把它所交付的那份性质留下",
+          "rules": "一件被砍掉的部件，原本是在干活的。给「让它成立的那份性质」起个名字，然后去找现成的、具备这份性质的结构——替代品很少长得像原件，也不必长得像。",
+          "flavor": "团队真正喜欢那些被放弃的大牌的地方，是它们会一点一点演变成最终形态。攥住这一点，他们把已经在这么运作的机制过了一遍，并造出了一个新的。"
+        },
+        {
+          "title": "一份概念验证和一次量产，问的不是同一个问题",
+          "rules": "第一个阶段的存在，是为了证明「这里有一片有意思的空间」；第二个阶段则必须把它填满。一个在找「可能性」，另一个在找「边界」——而一样东西完全可能确实有前途，却熬不过被乘以五十。",
+          "flavor": "罗斯沃特的比喻是：第一支团队画图纸，第二支团队盖房子。前者的设计是「这片空间确实存在」的证明；而后面那支团队，必须把每一张真要付印的牌都设计出来。"
+        },
+        {
+          "title": "拿这个机制去对照全部，而不只对照它自己的系列",
+          "rules": "早期设计是在「项目与它自身的关系」里推演。后期设计则必须把它安放到它将要生活的那个世界里，与那里已有的一切并排——而这通常意味着某条定义必须被拓宽。",
+          "flavor": "一个原本只关心神器与生物离场的机制，被拓宽为关心任何非地永久物——因为问题已经从「在这个系列里什么行得通」变成了「在它将进入的那些赛制里什么行得通」。"
+        },
+        {
+          "title": "先加上那条限制，再从别处把灵活性买回来",
+          "rules": "堵死一条被滥用的路线，如果你顺势用它当作「重新打开别的东西」的时机，就不是净损失。既然坏的套路已经被移除，就回头去重看那些你当初因为怕它而做的保守决定。",
+          "flavor": "系列设计先是禁止在同一回合再次施放这张牌，出于平衡考虑。随后他们追问：为什么要在战斗结束时放逐它？把它挪到回合结束时，就能在第二主阶段与它互动了。"
+        },
+        {
+          "title": "有些机制就是干粗活的，而那正是它的职责",
+          "rules": "不是每个零件都得抢眼。当那个聪明的版本干不了这个项目真正需要的实活时，就选那个干得了的朴素版本——一件「价值就在于它安安静静地能用」的部件，是完全正当的设计结果。",
+          "flavor": "那个优雅的衍生物能在不洗牌的前提下加速，但它固定的背面提供不了这个系列需要的颜色。替代方案只是去搜寻一张基本地，连洗牌一起认了——因为那才是这个系列要的。"
+        },
+        {
+          "title": "一次删减，会腾出你原本得不到的空间",
+          "rules": "拿掉一样东西，释放的不止是它自己那个位置。立刻去看它的存在此前一直在挡着什么——因为它空出来的地方，往往能一次容下好几样小的添加。",
+          "flavor": "放弃那个双面衍生物，让系列设计得以加进一条「在意你操控的地名称各异」的小主线。它同时还移除了一类在数字版里历来惹麻烦的地——一份没人瞄准过的收益。"
+        },
+        {
+          "title": "如果一个回归的机制扎不下根，那就换主题",
+          "rules": "当一个熟面孔在测试中失灵时，本能反应是给它加支撑。但先问一句：这个项目到底扛不扛得起它所需要的那套结构？如果扛不起，就去找另一个能表达同一个意思、而且确实装得下的主题。",
+          "flavor": "交接过来的那个回归机制，想要一套这个系列其余部分给不了的结构。团队没有去搭那套结构，而是问了一句：这个类型真正讲的是什么——旅行，以及发现新的地方——于是改用了一个绑在地上的机制。"
+        }
+      ]
+    }
+  }
+}

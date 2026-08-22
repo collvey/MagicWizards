@@ -1,0 +1,277 @@
+{
+  "id": "variance-part-2-2020-03-02",
+  "slug": "variance-part-2-2020-03-02",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2020-03-03",
+  "series": {
+    "id": "variance",
+    "order": 2,
+    "total": 2
+  },
+  "tags": [
+    "game-design",
+    "design-philosophy",
+    "audience"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/variance-part-2-2020-03-02",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T18:05:01.868Z",
+  "lessons": [
+    {
+      "n": 1,
+      "color": "W"
+    },
+    {
+      "n": 2,
+      "color": "B"
+    },
+    {
+      "n": 3,
+      "color": "G"
+    },
+    {
+      "n": 4,
+      "color": "U"
+    },
+    {
+      "n": 5,
+      "color": "U"
+    },
+    {
+      "n": 6,
+      "color": "B"
+    },
+    {
+      "n": 7,
+      "color": "R"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Variance, Part 2",
+      "dek": "Ten lessons from twenty-four years of tuning the dial: what excess variance destroys, where to hide it, and why a fair coin reads worse than a slightly worse library.",
+      "overview": "The practical half of the pair. Rosewater argues that variance is what makes games exciting at every level of play — the Chapin–Nassif storm kill is his example — and then works through where it goes wrong: the card that randomises the winner, the difference between variance you chose and variance that happened to you, and the presentation choices that make identical odds feel different.",
+      "takeaway": "His closing frame is that variance is a tool, neither good nor bad: it can be turned up, turned down, hidden, signposted, or handed to the player, and the job is knowing which of those you're doing.",
+      "lessons": [
+        {
+          "title": "What too much randomness destroys is the sense that your actions matter",
+          "rules": "There is a level past which unpredictability stops being exciting and starts telling people their effort was irrelevant. That's fatal even for participants who weren't trying to win, because it removes the point of taking part rather than the reward for doing well.",
+          "flavor": "A card designed and rejected many times: seven mana, sacrifice, flip a coin, win or lose the game. “Why should a player work hard to win if half the time their opponent can win without doing anything?” Even casual players “become disheartened if they feel their actions serve no purpose.”"
+        },
+        {
+          "title": "Make the uncontrolled kind rare and large rather than common and small",
+          "rules": "Anything that varies without the participant's input needs very little presence to be felt. Push it up in impact and down in frequency, because the same quantity spread thinly is just a persistent irritation with none of the payoff.",
+          "flavor": "Rosewater at fifteen, baking brownies from a handwritten recipe, read “¼ t. salt” as a quarter cup. “Some things do a lot with just a little bit of presence.” Low-choice, high-variance cards therefore skew to high rarity, low as-fan, and bigger effects."
+        },
+        {
+          "title": "Hide randomness inside the component people already accept as random",
+          "rules": "The same uncertainty provokes an objection or none at all depending on where it lives. Route it through the part of your system that everyone already understands to be shuffled, dealt or unordered, and it stops being a design decision people can resent.",
+          "flavor": "“No one blinks when they first learn the game and it involves a deck.” Drawing a card is high variance and is never described as a variance problem, because the library is “just part of the trappings of a card game.”"
+        },
+        {
+          "title": "The symbol you choose carries a verdict the odds don't",
+          "rules": "Two mechanisms with the same or better mathematics can be received completely differently, because one of them is what people picture when they think of luck. Check what your chosen representation already means to the audience before checking whether it's balanced.",
+          "flavor": "Three coin flips for a Wolf each is 50% a piece; revealing lands off the top is about 40%. The weaker card reads better in isolation — the library conceals it, more cards exist to manipulate a library than a coin, and “coin flips are the poster child of random decisions.”"
+        },
+        {
+          "title": "Let people touch the randomiser, but not enough to remove it",
+          "rules": "Offering some influence over an uncertain element buys most of the goodwill that removing it would. Provide the lever and the option to build around it — then check the lever isn't so effective that the committed will simply delete the uncertainty.",
+          "flavor": "Cascade is wildly variable, so a set carrying it wants cards that manipulate the top of the library, and its subset rule lets you build a deck with one viable hit. “Be careful not to make avoiding the variance too easy as experienced players will go to great lengths in deck building to remove the variance.”"
+        },
+        {
+          "title": "Keep the uncontrolled kind away from where people optimise",
+          "rules": "Wherever your audience competes, they are being paid to hate outcomes they can't influence. Aim that material at the venues where it is enjoyed, and where it must exist elsewhere, price it so the optimisers don't pick it up.",
+          "flavor": "This covers Draft as well as Constructed, which means being “extra careful about low-choice, high-variance cards at common and uncommon.” When they are made, they sit at rare and mythic, costed to stay off the tournament radar."
+        },
+        {
+          "title": "If you're going to use it, make the gap large",
+          "rules": "The people who enjoy an uncertain outcome enjoy the size of the difference between the possibilities, not the uncertainty itself. A small spread gives them nothing and still annoys everyone who dislikes it, so the timid version is the worst of both.",
+          "flavor": "“The group that most enjoys the high-variance cards tends to like a larger gap between the two (or more) effects… the higher the differential, the higher the excitement.” The same group splashes more, so the good outcome should be worth building toward."
+        }
+      ]
+    },
+    "es": {
+      "title": "Varianza, parte 2",
+      "dek": "Diez lecciones de veinticuatro años ajustando el dial: qué destruye el exceso de varianza, dónde esconderla y por qué una moneda justa se percibe peor que una biblioteca algo peor.",
+      "overview": "La mitad práctica del par. Rosewater sostiene que la varianza es lo que hace emocionantes las partidas en todos los niveles —su ejemplo es el remate con storm de Chapin contra Nassif— y luego repasa dónde se tuerce: la carta que sortea al ganador, la diferencia entre la varianza que elegiste y la que te ocurrió, y las decisiones de presentación que hacen que probabilidades idénticas se sientan distintas.",
+      "takeaway": "Su cierre es que la varianza es una herramienta, ni buena ni mala: se puede subir, bajar, esconder, señalizar o entregar al jugador, y el oficio consiste en saber cuál de esas cosas estás haciendo.",
+      "lessons": [
+        {
+          "title": "Lo que destruye el exceso de azar es la sensación de que tus actos importan",
+          "rules": "Hay un nivel a partir del cual la imprevisibilidad deja de emocionar y empieza a decirle a la gente que su esfuerzo era irrelevante. Eso es letal incluso para quien no buscaba ganar, porque elimina el sentido de participar, no el premio por hacerlo bien.",
+          "flavor": "Una carta diseñada y rechazada muchas veces: siete manás, sacrifícala, lanza una moneda, ganas o pierdes la partida. «¿Por qué esforzarse en ganar si la mitad de las veces el rival puede ganar sin hacer nada?» Incluso los casuales «se desaniman si sienten que sus actos no sirven de nada»."
+        },
+        {
+          "title": "Haz que la variedad no controlada sea rara y grande, no común y pequeña",
+          "rules": "Todo lo que varía sin intervención del participante necesita muy poca presencia para notarse. Súbelo en impacto y bájalo en frecuencia, porque la misma cantidad repartida en fino es sólo una molestia constante sin ninguna recompensa.",
+          "flavor": "Rosewater con quince años, horneando brownies con una receta manuscrita, leyó «¼ c. de sal» como un cuarto de taza. «Algunas cosas hacen mucho con muy poca presencia.» Por eso las cartas de poca elección y mucha varianza van a rareza alta, as-fan bajo y efectos mayores."
+        },
+        {
+          "title": "Esconde el azar dentro del componente que la gente ya acepta como azaroso",
+          "rules": "La misma incertidumbre provoca una queja o ninguna según dónde viva. Hazla pasar por la parte de tu sistema que todos ya entienden como barajada, repartida o desordenada, y deja de ser una decisión de diseño que se pueda reprochar.",
+          "flavor": "«Nadie pestañea cuando aprende el juego y descubre que lleva mazo.» Robar una carta es muy alta varianza y jamás se describe como un problema de varianza, porque la biblioteca es «parte de los aderezos de un juego de cartas»."
+        },
+        {
+          "title": "El símbolo que eliges lleva un veredicto que las probabilidades no llevan",
+          "rules": "Dos mecanismos con matemáticas iguales o mejores pueden recibirse de forma completamente distinta, porque uno de ellos es lo que la gente imagina al pensar en suerte. Comprueba qué significa ya tu representación para el público antes de comprobar si está equilibrada.",
+          "flavor": "Tres monedas, un lobo por cada cara, es un 50% cada una; revelar tierras del tope ronda el 40%. La carta más débil se percibe mejor en aislado: la biblioteca lo disimula, hay más cartas que manipulan bibliotecas que monedas, y «lanzar monedas es el emblema de las decisiones aleatorias»."
+        },
+        {
+          "title": "Deja que la gente toque el azar, pero no tanto como para eliminarlo",
+          "rules": "Ofrecer algo de influencia sobre un elemento incierto compra casi toda la buena voluntad que compraría eliminarlo. Da la palanca y la opción de construir alrededor, y luego comprueba que la palanca no sea tan eficaz que los más aplicados borren la incertidumbre.",
+          "flavor": "La cascada es salvajemente variable, así que una colección con ella quiere cartas que manipulen el tope, y su regla de subconjunto permite construir un mazo con un solo objetivo viable. «Cuidado con hacer demasiado fácil esquivar la varianza: los jugadores experimentados llegarán muy lejos para eliminarla.»"
+        },
+        {
+          "title": "Aparta la variedad no controlada de donde la gente optimiza",
+          "rules": "Allí donde tu público compite, se le premia por odiar los resultados en los que no puede influir. Dirige ese material a los espacios donde se disfruta, y donde deba existir igualmente, ponle un precio que impida que los optimizadores lo recojan.",
+          "flavor": "Esto incluye el Draft además del Construido, lo que obliga a ser «especialmente cuidadosos con las cartas de poca elección y mucha varianza en común e infrecuente». Cuando se hacen, van a rara y mítica, con costes pensados para no aparecer en el radar de torneo."
+        },
+        {
+          "title": "Si vas a usarla, haz que la diferencia sea grande",
+          "rules": "A quienes disfrutan de un resultado incierto les gusta el tamaño de la diferencia entre las posibilidades, no la incertidumbre en sí. Un margen pequeño no les da nada y sigue molestando a quien lo detesta, así que la versión tímida es lo peor de ambos mundos.",
+          "flavor": "«Al grupo que más disfruta las cartas de alta varianza le suele gustar una brecha mayor entre los dos (o más) efectos… cuanto mayor el diferencial, mayor la emoción.» Ese mismo grupo salpica más, así que el buen resultado debe merecer la construcción."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Variance, partie 2",
+      "dek": "Dix leçons tirées de vingt-quatre ans de réglage : ce que détruit l'excès de variance, où la cacher, et pourquoi une pièce équitable passe plus mal qu'une bibliothèque un peu moins bonne.",
+      "overview": "La moitié pratique du diptyque. Rosewater soutient que la variance rend les parties excitantes à tous les niveaux — son exemple est le kill au storm de Chapin contre Nassif — puis passe en revue les endroits où cela dérape : la carte qui tire au sort le vainqueur, la différence entre la variance choisie et celle subie, et les choix de présentation qui font que des probabilités identiques ne se ressemblent pas.",
+      "takeaway": "Sa conclusion : la variance est un outil, ni bon ni mauvais — on peut la monter, la baisser, la cacher, la signaler ou la confier au joueur, et le métier consiste à savoir laquelle de ces choses on fait.",
+      "lessons": [
+        {
+          "title": "Ce que détruit l'excès de hasard, c'est le sentiment que vos actes comptent",
+          "rules": "Il existe un seuil au-delà duquel l'imprévisibilité cesse d'exciter et se met à dire aux gens que leur effort était sans objet. C'est fatal même pour qui ne cherchait pas à gagner, car cela supprime l'intérêt de participer et non la récompense de bien faire.",
+          "flavor": "Une carte conçue et rejetée maintes fois : sept manas, sacrifiez-la, lancez une pièce, gagnez ou perdez la partie. « Pourquoi travailler à gagner si une fois sur deux l'adversaire gagne sans rien faire ? » Même les casuels « se découragent s'ils sentent que leurs actes ne servent à rien »."
+        },
+        {
+          "title": "Rendez la variété subie rare et forte plutôt que fréquente et faible",
+          "rules": "Tout ce qui varie sans l'intervention du participant se fait sentir avec très peu de présence. Montez son impact et baissez sa fréquence : la même quantité étalée finement n'est qu'une gêne persistante, sans la récompense.",
+          "flavor": "Rosewater à quinze ans, préparant des brownies d'après une recette manuscrite, a lu « ¼ c. de sel » comme un quart de tasse. « Certaines choses font beaucoup avec très peu de présence. » D'où : haute rareté, faible as-fan, effets plus gros."
+        },
+        {
+          "title": "Cachez le hasard dans le composant que chacun accepte déjà comme aléatoire",
+          "rules": "La même incertitude soulève une objection ou aucune selon l'endroit où elle loge. Faites-la passer par la partie de votre système que tout le monde comprend déjà comme mélangée, distribuée ou non ordonnée, et elle cesse d'être une décision de conception reprochable.",
+          "flavor": "« Personne ne sourcille en apprenant le jeu et en découvrant qu'il comporte un deck. » Piocher est de haute variance et n'est jamais décrit comme un problème de variance, la bibliothèque faisant « partie des accessoires d'un jeu de cartes »."
+        },
+        {
+          "title": "Le symbole choisi porte un verdict que les probabilités ne portent pas",
+          "rules": "Deux mécanismes aux mathématiques identiques ou meilleures peuvent être reçus tout autrement, parce que l'un est ce que les gens imaginent en pensant à la chance. Vérifiez ce que votre représentation signifie déjà pour le public avant de vérifier son équilibre.",
+          "flavor": "Trois pièces, un loup par face, c'est 50 % chacune ; révéler des terrains du dessus tourne à 40 %. La carte la plus faible passe mieux isolément : la bibliothèque le dissimule, il existe plus de cartes manipulant une bibliothèque qu'une pièce, et « le lancer de pièce est l'emblème du hasard »."
+        },
+        {
+          "title": "Laissez les gens toucher au hasard, mais pas au point de le supprimer",
+          "rules": "Offrir un peu d'influence sur un élément incertain achète l'essentiel de la bonne volonté que sa suppression achèterait. Fournissez le levier et la possibilité de construire autour, puis vérifiez que le levier n'est pas si efficace que les assidus effaceront l'incertitude.",
+          "flavor": "La cascade est très variable : une édition qui la porte veut des cartes manipulant le dessus, et sa règle de sous-ensemble permet de bâtir un deck à une seule cible viable. « Attention à ne pas rendre l'évitement trop facile : les joueurs expérimentés iront très loin pour supprimer la variance. »"
+        },
+        {
+          "title": "Éloignez la variété subie des lieux où l'on optimise",
+          "rules": "Là où votre public s'affronte, il est récompensé de détester ce qu'il ne peut pas influencer. Orientez ce matériel vers les espaces où il plaît, et là où il doit exister quand même, tarifez-le pour que les optimisateurs ne le ramassent pas.",
+          "flavor": "Cela vaut pour le Draft autant que pour le Construit, d'où une prudence accrue « sur les cartes à faible choix et haute variance en commune et inhabituelle ». Quand on en fait, elles sont rares ou mythiques, tarifées pour rester hors du radar des tournois."
+        },
+        {
+          "title": "Si vous vous en servez, faites l'écart grand",
+          "rules": "Ceux qui apprécient un résultat incertain apprécient la taille de l'écart entre les possibilités, pas l'incertitude elle-même. Un faible écart ne leur donne rien et agace toujours ceux qui la détestent : la version timide cumule les deux défauts.",
+          "flavor": "« Le groupe qui apprécie le plus les cartes à haute variance aime un écart plus grand entre les deux effets (ou plus)… plus le différentiel est élevé, plus l'excitation l'est. » Ce même groupe éclabousse davantage : le bon résultat doit valoir qu'on bâtisse vers lui."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Variância, parte 2",
+      "dek": "Dez lições de vinte e quatro anos girando o botão: o que o excesso de variância destrói, onde escondê-la, e por que uma moeda justa é recebida pior que uma biblioteca um pouco pior.",
+      "overview": "A metade prática do par. Rosewater argumenta que a variância é o que torna as partidas empolgantes em todos os níveis — seu exemplo é o remate de storm de Chapin contra Nassif — e depois percorre onde a coisa dá errado: a carta que sorteia o vencedor, a diferença entre a variância que você escolheu e a que aconteceu com você, e as decisões de apresentação que fazem probabilidades idênticas parecerem diferentes.",
+      "takeaway": "Seu fecho é que variância é uma ferramenta, nem boa nem má: dá para subir, baixar, esconder, sinalizar ou entregar ao jogador, e o ofício é saber qual dessas coisas você está fazendo.",
+      "lessons": [
+        {
+          "title": "O que o excesso de acaso destrói é a sensação de que seus atos importam",
+          "rules": "Existe um nível a partir do qual a imprevisibilidade deixa de empolgar e passa a dizer às pessoas que o esforço delas foi irrelevante. Isso é fatal até para quem não estava tentando vencer, porque remove o sentido de participar, não o prêmio por jogar bem.",
+          "flavor": "Uma carta projetada e rejeitada muitas vezes: sete de mana, sacrifique, jogue uma moeda, vença ou perca a partida. “Por que um jogador se esforçaria para vencer se metade das vezes o oponente vence sem fazer nada?” Até os casuais “se desanimam se sentem que seus atos não servem para nada”."
+        },
+        {
+          "title": "Faça a variedade não controlada rara e grande, não comum e pequena",
+          "rules": "Tudo que varia sem a intervenção do participante precisa de pouquíssima presença para ser sentido. Suba o impacto e baixe a frequência, porque a mesma quantidade espalhada fina é só um incômodo constante sem recompensa nenhuma.",
+          "flavor": "Rosewater aos quinze anos, assando brownies com uma receita manuscrita, leu “¼ c. de sal” como um quarto de xícara. “Algumas coisas fazem muito com pouquíssima presença.” Daí: raridade alta, as-fan baixo, efeitos maiores."
+        },
+        {
+          "title": "Esconda o acaso dentro do componente que as pessoas já aceitam como aleatório",
+          "rules": "A mesma incerteza provoca uma reclamação ou nenhuma, dependendo de onde ela mora. Faça-a passar pela parte do seu sistema que todos já entendem como embaralhada, distribuída ou sem ordem, e ela deixa de ser uma decisão de design passível de reprovação.",
+          "flavor": "“Ninguém pisca quando aprende o jogo e ele envolve um baralho.” Comprar uma carta é alta variância e nunca é descrito como problema de variância, porque a biblioteca é “parte dos adereços de um jogo de cartas”."
+        },
+        {
+          "title": "O símbolo que você escolhe carrega um veredito que as probabilidades não carregam",
+          "rules": "Dois mecanismos com matemática igual ou melhor podem ser recebidos de forma completamente diferente, porque um deles é o que as pessoas imaginam ao pensar em sorte. Cheque o que sua representação já significa para o público antes de checar se está equilibrada.",
+          "flavor": "Três moedas, um lobo por cara, é 50% cada; revelar terrenos do topo fica perto de 40%. A carta mais fraca é melhor recebida isoladamente: a biblioteca disfarça, existem mais cartas que manipulam bibliotecas do que moedas, e “jogar moeda é o símbolo máximo da decisão aleatória”."
+        },
+        {
+          "title": "Deixe as pessoas tocarem no acaso, mas não a ponto de removê-lo",
+          "rules": "Oferecer alguma influência sobre um elemento incerto compra quase toda a boa vontade que removê-lo compraria. Forneça a alavanca e a chance de construir em torno dela, e então cheque se a alavanca não é tão eficaz que os dedicados simplesmente apaguem a incerteza.",
+          "flavor": "Cascata é extremamente variável, então uma coleção que a carrega quer cartas que manipulem o topo, e sua regra de subconjunto permite montar um baralho com um único alvo viável. “Cuidado para não deixar fácil demais escapar da variância: jogadores experientes vão longe para removê-la.”"
+        },
+        {
+          "title": "Mantenha a variedade não controlada longe de onde as pessoas otimizam",
+          "rules": "Onde seu público compete, ele é recompensado por odiar resultados que não pode influenciar. Direcione esse material para os espaços em que ele é apreciado, e onde precisar existir mesmo assim, precifique-o para que os otimizadores não o peguem.",
+          "flavor": "Isso vale para o Draft tanto quanto para o Construído, o que exige cuidado extra “com cartas de baixa escolha e alta variância no comum e no incomum”. Quando são feitas, ficam em raro e mítico, custeadas para não entrar no radar de torneio."
+        },
+        {
+          "title": "Se for usar, faça o intervalo grande",
+          "rules": "Quem gosta de um resultado incerto gosta do tamanho da diferença entre as possibilidades, não da incerteza em si. Um intervalo pequeno não lhes dá nada e continua irritando quem detesta aquilo, então a versão tímida junta os dois defeitos.",
+          "flavor": "“O grupo que mais gosta das cartas de alta variância costuma gostar de um intervalo maior entre os dois (ou mais) efeitos… quanto maior o diferencial, maior a empolgação.” Esse mesmo grupo gosta de splash, então o bom resultado precisa valer a construção."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "变异度（下）",
+      "dek": "二十四年调这个旋钮学到的十条：变异度过量会毁掉什么、该把它藏在哪里，以及为什么一枚公平的硬币比一个概率略差的牌库更招人嫌。",
+      "overview": "这一对文章里偏实务的一半。罗斯瓦特主张：变异度正是让各个水平的对局都好看的东西——他举的例子是查平对纳西夫那次风暴致胜——随后逐条走过它出问题的地方：那张用随机决定胜负的牌、「你选来的变异」与「落到你头上的变异」之间的差别，以及那些让相同概率产生不同观感的呈现方式。",
+      "takeaway": "他的收尾是：变异度是一件工具，无所谓好坏——你可以把它调高、调低、藏起来、标出来，或者交到玩家手上；这门手艺就在于知道自己正在做哪一件。",
+      "lessons": [
+        {
+          "title": "随机一旦过量，被毁掉的是「你的行动有意义」这种感觉",
+          "rules": "越过某个水平之后，不可预测就不再令人兴奋，而是开始告诉人们：你的努力无关紧要。这对那些本来就不为赢而来的人同样致命，因为它拿走的不是「做得好的奖赏」，而是「参与本身的意义」。",
+          "flavor": "一张被设计过又被否掉过很多次的牌：七点法术力、牺牲它、掷一枚硬币，赢或输掉这盘。「如果有一半的时候对手什么都不做就能赢，玩家为什么还要费力去赢？」连休闲玩家也「会因为觉得自己的行动毫无用处而心灰意冷」。"
+        },
+        {
+          "title": "让不受控的那一类稀有而巨大，而不是常见而微小",
+          "rules": "任何不经参与者插手就会变化的东西，只需要很小的存在感就能被感觉到。把它的冲击调大、频率调小；因为同样的分量摊薄之后，只剩下持续的烦人，却一点回报都没有。",
+          "flavor": "十五岁的罗斯瓦特照着一份手写食谱烤布朗尼，把「¼ 茶匙盐」读成了四分之一杯。「有些东西只要一点点存在感，就能起很大作用。」所以低选择、高变异的牌被推向高稀有度、低出现率，以及更大的效果。"
+        },
+        {
+          "title": "把随机藏进人们本来就当它是随机的那个部件里",
+          "rules": "同样的不确定性，放在不同的位置上，可能招来抗议，也可能一句话都没有。让它经由你系统里那个所有人早已理解为「洗过的、发下来的、没有顺序的」部分来发生，它就不再是一个可以被埋怨的设计决定。",
+          "flavor": "「人们第一次学这个游戏、发现它要用一副牌库时，没有谁会眨一下眼。」抽一张牌是高变异度的，却从没被说成变异度的问题——因为牌库「就是卡牌游戏的自带行头」。"
+        },
+        {
+          "title": "你选的那个符号，带着一句概率本身并不带的判词",
+          "rules": "两个数学上相同、甚至更好的机制，可能被截然不同地接受，因为其中之一正是人们一想到「运气」就会浮现的画面。在核对它是否平衡之前，先核对你选的这种呈现方式对受众已经意味着什么。",
+          "flavor": "掷三次硬币、每个正面来一只狼，是各 50%；从牌库顶展示地牌大约是 40%。单独看时，反而是较弱的那张更讨喜：牌库把它掩饰过去了、操纵牌库的牌远多于操纵硬币的牌，而且「掷硬币是随机决定的头号招牌」。"
+        },
+        {
+          "title": "让人们能碰一碰那个随机装置，但别让他们能把它取消",
+          "rules": "给出对某个不确定元素的一点影响力，就能买下「彻底移除它」所能买到的大部分好感。把杠杆和「围绕它来搭建」的可能性都给出来——然后检查这根杠杆是不是有效到，让认真的人干脆把不确定性一笔勾销。",
+          "flavor": "威能是极不稳定的，所以带着它的系列会想要能操纵牌库顶的牌；而它「找特定子集」的规则，也让你能把套牌搭成只有一个可行命中。「小心别让规避变异度变得太容易，因为有经验的玩家会为了消除它在构组上无所不用其极。」"
+        },
+        {
+          "title": "把不受控的那一类放到远离人们优化的地方",
+          "rules": "在你的受众彼此竞争的地方，他们是被鼓励去厌恶那些自己无法影响的结果的。把这类材料引向真正享受它的场合；而在别处非要存在时，就把价钱定成优化者不会去捡的样子。",
+          "flavor": "这不只是构组赛，也包括轮抽——也就意味着要「对普通与非普通位上低选择、高变异的牌格外小心」。真要做时，它们落在稀有与秘稀，而且定价刻意避开竞技玩家的雷达。"
+        },
+        {
+          "title": "既然要用，就把差距拉大",
+          "rules": "喜欢不确定结果的人，喜欢的是各种可能之间差距的大小，而不是不确定性本身。差距小既满足不了他们，又照样惹恼讨厌它的人；所以那个畏首畏尾的版本，是两头不讨好。",
+          "flavor": "「最喜欢高变异度牌的那群人，往往偏好两个（或更多）效果之间更大的落差……落差越大，兴奋度越高。」同一群人也更爱补色，所以那个好结果应当值得为它去搭牌。"
+        }
+      ]
+    }
+  }
+}

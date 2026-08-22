@@ -1,0 +1,277 @@
+{
+  "id": "here-and-vow-part-1-2021-11-15",
+  "slug": "here-and-vow-part-1-2021-11-15",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2021-11-15",
+  "series": {
+    "id": "here-and-vow",
+    "order": 1,
+    "total": 2
+  },
+  "tags": [
+    "innistrad-crimson-vow",
+    "card-design",
+    "iteration"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/here-and-vow-part-1-2021-11-15",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T12:45:58.993Z",
+  "lessons": [
+    {
+      "n": 1,
+      "color": "W"
+    },
+    {
+      "n": 2,
+      "color": "W"
+    },
+    {
+      "n": 3,
+      "color": "U"
+    },
+    {
+      "n": 4,
+      "color": "B"
+    },
+    {
+      "n": 5,
+      "color": "G"
+    },
+    {
+      "n": 6,
+      "color": "R"
+    },
+    {
+      "n": 7,
+      "color": "U"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "Here and Vow, Part 1",
+      "dek": "“White doesn't normally do forced sacrifice, but the template for this card was so much cleaner with it.”",
+      "overview": "Card-by-card design stories from Crimson Vow: a wrath that changed colours twice, a Chandra dodging sixteen predecessors, and five failed attempts at Form of the Vampire.",
+      "takeaway": "Erik Lauer put multikicker in the file as the set's mana sink, and several cards were built on it. When Adam Prosak swapped it for cleave, those slots had to be designed again from nothing — which is why a white board wipe, a green-blue legend and a black enchantment all have a multikicker version in their history and nothing else in common.",
+      "lessons": [
+        {
+          "title": "Hold the duration constant while changing what happens during it",
+          "rules": "Once you have settled how long a recovery should take, that number is the balanced part and the activity is not. Rewrite what the player does across those turns as often as you like — tapping, sacrificing, accruing — while keeping the count, and you iterate freely without re-testing the pace.",
+          "flavor": "Edgar's coffin first asked you to tap three creatures, then to sacrifice three Vampires — which “matched the 'it takes three turns to get Edgar back' from the previous version.” The printed card accrues one counter a turn. Three turns throughout; three different things to do."
+        },
+        {
+          "title": "A faction's identity constrains how an effect distributes, not what it does",
+          "rules": "The thing that makes an effect belong to a group is rarely the outcome. It's the procedure — who is asked, who chooses, whether everyone is treated alike. Keep the outcome and rewrite the mechanism in your faction's characteristic manner, and the same card becomes theirs.",
+          "flavor": "A mass-kill spell that saved your own creatures “ended up not feeling balanced enough (in the sense that white's effect tends to treat all creatures the same)” and moved to black. It returned to white as “Choose a number. Each player sacrifices that many creatures” — everyone treated alike, while benefiting you."
+        },
+        {
+          "title": "When you remove a slot, check what it was carrying that can't be lost",
+          "rules": "Cutting a component removes the obvious thing it did and also whatever else had quietly accumulated on it. Before you finalise the cut, list what that piece was the only home for, and find those things somewhere else in the design.",
+          "flavor": "A Chandra draft dropped its small minus ability, and with it the direct damage. The redesign spread the old plus ability across two new plus abilities, and added damage back to one of them — “what's a pyromancer without some direct damage?”"
+        },
+        {
+          "title": "Add a restriction to place a card, not to weaken it",
+          "rules": "A narrowing clause is usually read as a nerf. Its more useful function is aim: the same power available only inside a particular kind of deck stops competing everywhere and starts belonging somewhere. Decide where you want the card played, then write the clause that puts it there.",
+          "flavor": "Chandra's impulsive-draw ability gained a colour requirement: “The second plus ability took the impulsive draw and added a red restriction to help narrow where the card would be played in Constructed formats.”"
+        },
+        {
+          "title": "When a concept resists five attempts, suspect the concept rather than the slot",
+          "rules": "Repeated failure on one idea is easy to read as a hard problem in that position. Test the other explanation: swap the concept and keep the slot. If the replacement works immediately, the difficulty was never structural, and you had been paying to keep an idea you liked.",
+          "flavor": "Form of the Vampire went through five designs — a life-total-as-Blood version, a feeding version, a Vampire-tribal version — and “the Set Design team wasn't happy with any of them.” Its replacement, Demonic Bargain, was identical in its first incarnation to the printed card."
+        },
+        {
+          "title": "A state you're forced into shouldn't be pure waiting",
+          "rules": "When a design pushes someone into a holding position, the time spent there is time spent playing your thing. Give that state something of its own to do, and a setback you're waiting out becomes a phase you're operating in — which is also what makes the return worth wanting.",
+          "flavor": "Edgar's coffin “had no utility other than to get Edgar back.” Later the team “decided they wanted the back of the card to have some utility,” so it makes a Vampire token each turn and accrues a counter. “This made the back feel like more of an upside.”"
+        },
+        {
+          "title": "Legibility can buy an exception",
+          "rules": "Rules about what belongs where exist to keep the whole thing comprehensible. When following one produces wording nobody can parse, the rule is working against its own purpose — and a stated, deliberate exception costs less than a compliant version people have to read twice.",
+          "flavor": "On the printed white board wipe: “While white doesn't normally do forced sacrifice, the template for this card was so much cleaner with it that we allowed the bend in white.” The number range was then set at 0 to 13, because the set wanted more thirteens in it."
+        }
+      ]
+    },
+    "es": {
+      "title": "Aquí y ahora, parte 1",
+      "dek": "«El blanco no suele hacer sacrificios forzados, pero la plantilla de esta carta quedaba mucho más limpia con ello».",
+      "overview": "Historias de diseño carta a carta de Voto Carmesí: un barrido que cambió de color dos veces, una Chandra esquivando dieciséis predecesoras, y cinco intentos fallidos de Forma del Vampiro.",
+      "takeaway": "Erik Lauer puso multipatada en el archivo como sumidero de maná de la colección, y varias cartas se construyeron sobre ella. Cuando Adam Prosak la cambió por romper, esos huecos hubo que diseñarlos otra vez desde cero: por eso un barrido blanco, una legendaria verde-azul y un encantamiento negro tienen todos una versión con multipatada en su historia y nada más en común.",
+      "lessons": [
+        {
+          "title": "Mantenga fija la duración mientras cambia lo que ocurre durante ella",
+          "rules": "Una vez fijado cuánto debe tardar una recuperación, ese número es la parte equilibrada y la actividad no lo es. Reescriba cuantas veces quiera lo que el jugador hace durante esos turnos —girar, sacrificar, acumular— conservando la cuenta, y podrá iterar sin volver a probar el ritmo.",
+          "flavor": "El ataúd de Edgar pedía primero girar tres criaturas, luego sacrificar tres Vampiros, lo que «coincidía con el 'hacen falta tres turnos para recuperar a Edgar' de la versión anterior». La carta impresa acumula un contador por turno. Siempre tres turnos; tres cosas distintas que hacer."
+        },
+        {
+          "title": "La identidad de una facción condiciona cómo reparte un efecto, no qué hace",
+          "rules": "Lo que hace que un efecto pertenezca a un grupo rara vez es el resultado. Es el procedimiento: a quién se pregunta, quién elige, si todos reciben el mismo trato. Conserve el resultado y reescriba el mecanismo al modo característico de su facción, y la misma carta pasa a ser suya.",
+          "flavor": "Un barrido que salvaba tus criaturas «acabó no pareciendo suficientemente equilibrado (en el sentido de que el efecto blanco tiende a tratar igual a todas las criaturas)» y se fue a negro. Volvió al blanco como «Elige un número. Cada jugador sacrifica esa cantidad de criaturas»."
+        },
+        {
+          "title": "Cuando elimine un hueco, mire qué llevaba que no se puede perder",
+          "rules": "Cortar un componente elimina lo obvio que hacía y también todo lo demás que se le había ido acumulando encima. Antes de cerrar el corte, enumere de qué era esa pieza el único hogar, y busque otro sitio en el diseño para esas cosas.",
+          "flavor": "Un borrador de Chandra eliminó su pequeña habilidad de menos y, con ella, el daño directo. El rediseño repartió la vieja habilidad de más entre dos nuevas y devolvió el daño a una de ellas: «¿qué es una piromántica sin algo de daño directo?»."
+        },
+        {
+          "title": "Añada una restricción para situar una carta, no para debilitarla",
+          "rules": "Una cláusula que estrecha suele leerse como un recorte. Su función más útil es apuntar: el mismo poder disponible solo dentro de cierta clase de mazo deja de competir en todas partes y empieza a pertenecer a algún sitio. Decida dónde quiere que se juegue y escriba la cláusula que la lleve allí.",
+          "flavor": "La habilidad de robo impulsivo de Chandra ganó un requisito de color: «La segunda habilidad de más tomó el robo impulsivo y le añadió una restricción de rojo para estrechar dónde se jugaría la carta en formatos Construidos»."
+        },
+        {
+          "title": "Cuando un concepto se resiste cinco veces, sospeche del concepto y no del hueco",
+          "rules": "El fracaso repetido con una idea se lee fácilmente como un problema difícil en esa posición. Pruebe la otra explicación: cambie el concepto y conserve el hueco. Si el sustituto funciona de inmediato, la dificultad nunca fue estructural: estaba pagando por conservar una idea que le gustaba.",
+          "flavor": "Forma del Vampiro pasó por cinco diseños, y «al equipo de diseño no le gustó ninguno». Su sustituta, Pacto demoníaco, era idéntica en su primera encarnación a la carta impresa."
+        },
+        {
+          "title": "Un estado al que se le obliga a entrar no debería ser pura espera",
+          "rules": "Cuando un diseño empuja a alguien a una posición de espera, ese tiempo es tiempo jugando a lo suyo. Dele a ese estado algo propio que hacer, y un revés que se aguanta se convierte en una fase en la que se opera, que es también lo que hace deseable el regreso.",
+          "flavor": "El ataúd de Edgar «no tenía más utilidad que recuperar a Edgar». Después el equipo «decidió que quería que el dorso tuviera alguna utilidad», así que crea una ficha de Vampiro por turno y acumula un contador. «Eso hizo que el dorso se sintiera más como una ventaja»."
+        },
+        {
+          "title": "La legibilidad puede comprar una excepción",
+          "rules": "Las reglas sobre qué pertenece a dónde existen para mantener el conjunto comprensible. Cuando seguir una produce una redacción que nadie descifra, la regla trabaja contra su propio fin, y una excepción declarada y deliberada cuesta menos que una versión obediente que hay que leer dos veces.",
+          "flavor": "Sobre el barrido blanco impreso: «Aunque el blanco no suele hacer sacrificios forzados, la plantilla de esta carta quedaba mucho más limpia con ello, así que permitimos la torsión». El rango se fijó de 0 a 13, porque la colección quería más treces."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Ici et maintenant, partie 1",
+      "dek": "« Le blanc ne fait pas d'ordinaire de sacrifice forcé, mais le gabarit de cette carte était bien plus propre avec. »",
+      "overview": "Histoires de conception carte par carte : un fléau qui change deux fois de couleur, une Chandra esquivant seize devancières, et cinq tentatives ratées de Forme du vampire.",
+      "takeaway": "Erik Lauer avait mis la charge multiple dans le fichier comme puits à mana de l'extension, et plusieurs cartes s'appuyaient dessus. Quand Adam Prosak l'a remplacée par le clivage, ces emplacements ont dû être reconçus de zéro — d'où un fléau blanc, une légende vert-bleu et un enchantement noir qui ont tous une version à charge multiple dans leur histoire et rien d'autre en commun.",
+      "lessons": [
+        {
+          "title": "Gardez la durée constante en changeant ce qui s'y passe",
+          "rules": "Une fois fixé le temps que doit prendre un retour, c'est ce nombre qui est équilibré, non l'activité. Réécrivez autant que vous voulez ce que le joueur fait pendant ces tours — engager, sacrifier, accumuler — en conservant le compte, et vous itérez sans retester le rythme.",
+          "flavor": "Le cercueil d'Edgar demandait d'abord d'engager trois créatures, puis de sacrifier trois Vampires, ce qui « correspondait au 'il faut trois tours pour récupérer Edgar' de la version précédente ». La carte imprimée accumule un marqueur par tour. Trois tours partout ; trois activités différentes."
+        },
+        {
+          "title": "L'identité d'une faction contraint la façon dont un effet se répartit, non ce qu'il fait",
+          "rules": "Ce qui fait qu'un effet appartient à un groupe est rarement le résultat. C'est la procédure : qui est sollicité, qui choisit, si tous sont traités pareil. Gardez le résultat et réécrivez le mécanisme à la manière caractéristique de votre faction, et la même carte devient sienne.",
+          "flavor": "Un fléau épargnant vos créatures « ne semblait finalement pas assez équilibré (au sens où l'effet blanc traite d'ordinaire toutes les créatures de la même façon) » et passa au noir. Il revint au blanc sous la forme « Choisissez un nombre. Chaque joueur sacrifie autant de créatures. »"
+        },
+        {
+          "title": "Quand vous supprimez un emplacement, regardez ce qu'il portait d'irremplaçable",
+          "rules": "Couper un composant en retire la fonction évidente et tout ce qui s'y était accumulé en silence. Avant d'entériner la coupe, dressez la liste de ce dont cette pièce était le seul foyer, et trouvez à ces choses une autre place dans la conception.",
+          "flavor": "Un brouillon de Chandra abandonna sa petite capacité négative, et avec elle les blessures directes. La refonte répartit l'ancienne capacité positive sur deux nouvelles et y remit des blessures : « qu'est-ce qu'une pyromancienne sans un peu de dégâts directs ? »"
+        },
+        {
+          "title": "Ajoutez une restriction pour placer une carte, non pour l'affaiblir",
+          "rules": "Une clause restrictive se lit d'ordinaire comme un affaiblissement. Sa fonction la plus utile est le ciblage : la même puissance disponible seulement dans un certain type de deck cesse de concurrencer partout et se met à appartenir quelque part. Décidez où vous voulez qu'elle se joue, puis écrivez la clause qui l'y mène.",
+          "flavor": "La capacité de pioche impulsive de Chandra a gagné une exigence de couleur : « La seconde capacité positive a repris la pioche impulsive en y ajoutant une restriction rouge, pour resserrer les formats où la carte se jouerait. »"
+        },
+        {
+          "title": "Quand un concept résiste à cinq tentatives, soupçonnez le concept plutôt que l'emplacement",
+          "rules": "Un échec répété sur une idée se lit aisément comme un problème difficile à cet endroit. Testez l'autre explication : changez le concept et gardez l'emplacement. Si le remplaçant marche aussitôt, la difficulté n'était pas structurelle : vous payiez pour conserver une idée qui vous plaisait.",
+          "flavor": "Forme du vampire connut cinq versions, et « l'équipe n'était contente d'aucune ». Son remplaçant, Marché démoniaque, était identique dès sa première incarnation à la carte imprimée."
+        },
+        {
+          "title": "Un état où l'on est contraint ne devrait pas être une simple attente",
+          "rules": "Quand une conception pousse quelqu'un dans une position d'attente, ce temps reste du temps passé à jouer à votre chose. Donnez à cet état une occupation propre : un revers qu'on subit devient une phase où l'on agit — et c'est aussi ce qui rend le retour désirable.",
+          "flavor": "Le cercueil d'Edgar « n'avait d'autre utilité que de ramener Edgar ». Ensuite l'équipe « a voulu que le verso ait une utilité » : il crée un jeton Vampire par tour et accumule un marqueur. « Cela a rendu le verso bien plus avantageux. »"
+        },
+        {
+          "title": "La lisibilité peut acheter une exception",
+          "rules": "Les règles sur ce qui appartient à quoi existent pour garder l'ensemble compréhensible. Quand en suivre une produit un libellé indéchiffrable, la règle travaille contre sa propre fin — et une exception déclarée et assumée coûte moins qu'une version conforme qu'il faut lire deux fois.",
+          "flavor": "Sur le fléau blanc imprimé : « Le blanc ne fait pas d'ordinaire de sacrifice forcé, mais le gabarit de cette carte était bien plus propre avec, alors nous avons autorisé l'inflexion. » L'intervalle fut fixé de 0 à 13, l'extension voulant davantage de treize."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Aqui e agora, parte 1",
+      "dek": "“O branco normalmente não faz sacrifício forçado, mas o modelo desta carta ficava bem mais limpo com ele.”",
+      "overview": "Histórias de design carta a carta: um varrimento que mudou de cor duas vezes, uma Chandra desviando de dezesseis antecessoras, e cinco tentativas fracassadas de Forma do Vampiro.",
+      "takeaway": "Erik Lauer pôs multiadicional no arquivo como o ralo de mana da coleção, e várias cartas foram construídas em cima. Quando Adam Prosak a trocou por clivar, aquelas vagas tiveram de ser projetadas de novo do zero — por isso um varrimento branco, uma lendária verde-azul e um encantamento preto têm todos uma versão com multiadicional na história e mais nada em comum.",
+      "lessons": [
+        {
+          "title": "Mantenha a duração constante enquanto muda o que acontece dentro dela",
+          "rules": "Depois de definido quanto tempo uma recuperação deve levar, esse número é a parte equilibrada e a atividade não é. Reescreva quantas vezes quiser o que o jogador faz nesses turnos — virar, sacrificar, acumular — mantendo a contagem, e você itera sem retestar o ritmo.",
+          "flavor": "O caixão de Edgar primeiro pedia virar três criaturas, depois sacrificar três Vampiros, o que “batia com o 'leva três turnos para trazer Edgar de volta' da versão anterior”. A carta impressa acumula um marcador por turno. Três turnos sempre; três coisas diferentes a fazer."
+        },
+        {
+          "title": "A identidade de uma facção limita como um efeito se distribui, não o que ele faz",
+          "rules": "O que faz um efeito pertencer a um grupo raramente é o resultado. É o procedimento: quem é consultado, quem escolhe, se todos são tratados igual. Mantenha o resultado e reescreva o mecanismo no modo característico da sua facção, e a mesma carta passa a ser dela.",
+          "flavor": "Um varrimento que salvava as suas criaturas “acabou não parecendo equilibrado o bastante (no sentido de que o efeito branco costuma tratar todas as criaturas igual)” e foi para o preto. Voltou ao branco como “Escolha um número. Cada jogador sacrifica essa quantidade de criaturas”."
+        },
+        {
+          "title": "Quando remover uma vaga, veja o que ela carregava e não pode se perder",
+          "rules": "Cortar um componente remove o óbvio que ele fazia e também tudo o mais que tinha se acumulado nele em silêncio. Antes de fechar o corte, liste de que aquela peça era o único lar, e ache outro lugar no design para essas coisas.",
+          "flavor": "Um rascunho de Chandra largou a pequena habilidade de menos e, com ela, o dano direto. O redesenho espalhou a antiga habilidade de mais por duas novas e devolveu dano a uma delas: “o que é uma piromante sem algum dano direto?”"
+        },
+        {
+          "title": "Acrescente uma restrição para posicionar uma carta, não para enfraquecê-la",
+          "rules": "Uma cláusula que estreita costuma ser lida como enfraquecimento. A função mais útil dela é mira: o mesmo poder disponível só dentro de certo tipo de deck para de competir em todo lugar e passa a pertencer a algum lugar. Decida onde quer que ela seja jogada e escreva a cláusula que a leve até lá.",
+          "flavor": "A habilidade de compra impulsiva de Chandra ganhou exigência de cor: “A segunda habilidade de mais pegou a compra impulsiva e acrescentou uma restrição de vermelho, para estreitar onde a carta seria jogada nos formatos Construídos.”"
+        },
+        {
+          "title": "Quando um conceito resiste a cinco tentativas, desconfie do conceito e não da vaga",
+          "rules": "Fracasso repetido numa ideia é fácil de ler como um problema difícil naquela posição. Teste a outra explicação: troque o conceito e mantenha a vaga. Se o substituto funciona de imediato, a dificuldade nunca foi estrutural: você estava pagando para manter uma ideia de que gostava.",
+          "flavor": "Forma do Vampiro passou por cinco designs, e “a equipe não gostou de nenhum deles”. A substituta, Barganha Demoníaca, era idêntica já na primeira encarnação à carta impressa."
+        },
+        {
+          "title": "Um estado ao qual se é forçado não deveria ser pura espera",
+          "rules": "Quando um design empurra alguém para uma posição de espera, aquele tempo continua sendo tempo jogando a sua coisa. Dê àquele estado algo próprio a fazer, e um revés que se aguenta vira uma fase em que se opera — que é também o que torna o retorno desejável.",
+          "flavor": "O caixão de Edgar “não tinha utilidade além de trazer Edgar de volta”. Depois a equipe “decidiu que queria que o verso tivesse alguma utilidade”: ele cria uma ficha de Vampiro por turno e acumula um marcador. “Isso fez o verso parecer bem mais uma vantagem.”"
+        },
+        {
+          "title": "A legibilidade pode comprar uma exceção",
+          "rules": "As regras sobre o que pertence a onde existem para manter o conjunto compreensível. Quando seguir uma delas produz um texto que ninguém decifra, a regra trabalha contra o próprio fim — e uma exceção declarada e deliberada custa menos que uma versão obediente que se precisa ler duas vezes.",
+          "flavor": "Sobre o varrimento branco impresso: “Embora o branco normalmente não faça sacrifício forçado, o modelo desta carta ficava bem mais limpo com ele, então permitimos a dobra.” A faixa ficou de 0 a 13, porque a coleção queria mais trezes."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "就在此处，第一部分",
+      "dek": "「白色通常不做强制牺牲，但这张牌的模板加上它之后要干净得多。」",
+      "overview": "猩红婚誓的逐张牌设计故事：一张两度改色的清场牌、一个要躲开十六位前任的茜卓，以及「吸血鬼之形」的五次失败尝试。",
+      "takeaway": "埃里克·劳尔把多重增幅放进牌表，作为这个系列消耗多余法术力的出口，好几张牌都是建在它之上的。等到亚当·普罗萨克用劈斩把它换掉时，那些位置只能从零重新设计——这就是为什么一张白色清场、一个绿蓝传奇生物和一张黑色结界，各自的历史里都有一个多重增幅版本，而彼此之间再无别的共同点。",
+      "lessons": [
+        {
+          "title": "让时长保持不变，只改变这段时间里发生的事",
+          "rules": "一旦你定下了「一次复原该花多久」，那个数字就是已经平衡好的部分，而其间的活动不是。请随意重写玩家在这几个回合里所做的事——横置、牺牲、累积——只要把这个计数保住，你就能自由迭代，而不必重新测试节奏。",
+          "flavor": "埃德加的棺材最初要求横置三个生物，后来改为牺牲三个吸血鬼——这「对上了前一版里『要花三个回合才能把埃德加弄回来』」。而付印版则是每回合累积一个指示物。始终是三个回合；却是三种不同的事情可做。"
+        },
+        {
+          "title": "一个阵营的身份，约束的是「效应如何分配」，而不是「效应做什么」",
+          "rules": "让一个效应归属于某个群体的，很少是结果本身，而是流程：谁被征询、谁来选择、是否人人一视同仁。请保住结果，再用你这个阵营特有的方式把机制重写一遍——同一张牌，就变成他们的了。",
+          "flavor": "一张能保住自家生物的清场牌，「最后感觉不够端正（在『白色的效应倾向于一视同仁地对待所有生物』这个意义上）」，于是被挪到了黑色。它后来又以「选择一个数字。每位牌手牺牲等量的生物」的形式回到了白色。"
+        },
+        {
+          "title": "当你砍掉一个位置时，去查一查它身上还载着什么是丢不得的",
+          "rules": "砍掉一个部件，拿走的不只是它那件显而易见的活儿，还有后来悄悄堆到它身上的一切。在把这一刀落定之前，请列一列：有哪些东西是以这个部件为唯一容身之处的——然后在设计里为它们另找地方。",
+          "flavor": "茜卓的某一版草稿去掉了那个小的减异能，也顺带把直接伤害一起去掉了。重做时把原来的加异能拆到两个新的加异能上，并把伤害又加了回去——「一个焰身术士要是没点直接伤害，那还叫什么焰身术士？」"
+        },
+        {
+          "title": "加上一条限制，是为了给一张牌定位，而不是为了削弱它",
+          "rules": "一条收窄的条款，通常会被读成一次削弱。可它更有用的功能是瞄准：同样的力量，只有在某一类套牌里才拿得到，于是它不再到处去竞争，而开始归属于某处。请先决定你希望它在哪里被使用，再写出那条能把它送去那里的条款。",
+          "flavor": "茜卓那个「冲动式抓牌」的异能被加上了颜色要求：「第二个加异能沿用了冲动式抓牌，并加上一条『红色』的限制，以此收窄这张牌在构筑赛制里会被打的范围。」"
+        },
+        {
+          "title": "当一个构想连着五次都做不成时，该怀疑的是构想，而不是那个位置",
+          "rules": "同一个想法反复失败，很容易被读成「这个位置本身是个难题」。请去检验另一种解释：换掉构想，保留位置。如果替补一上来就成了，那这份困难从来就不是结构性的——你只是一直在为「留住一个你喜欢的想法」而付账。",
+          "flavor": "吸血鬼之形一共做了五个版本，而「系列设计团队对其中任何一个都不满意」。顶替它的恶魔交易，其第一版就与最终付印的那张一模一样。"
+        },
+        {
+          "title": "一个被迫进入的状态，不该只是干等",
+          "rules": "当一个设计把人推进某个滞留位置时，待在那里的时间，仍然是他在玩你这个东西的时间。请给这个状态一件属于它自己的事去做——于是一场「熬过去」的挫折，就变成了一个「有事可做」的阶段；而这也正是让「回归」变得值得期待的东西。",
+          "flavor": "埃德加的棺材起初「除了把埃德加弄回来之外没有任何用处」。后来团队「决定希望这一面也有点用处」，于是它每回合造出一个吸血鬼衍生物，并累积一个指示物。「这让背面感觉更像是一份好处。」"
+        },
+        {
+          "title": "可读性可以买到一次例外",
+          "rules": "关于「什么归属于什么」的规则，存在的意义是让整套东西保持可理解。当遵守其中一条会写出没人读得通的措辞时，这条规则就在与它自己的目的作对——而一次被明确说出、有意为之的例外，代价要低于一个「合规但得读两遍」的版本。",
+          "flavor": "谈到最终付印的那张白色清场牌：「虽然白色通常不做强制牺牲，但这张牌的模板加上它之后要干净得多，所以我们允许了白色的这次偏移。」而数字范围被定在0到13，是因为这个系列想要更多的「十三」。"
+        }
+      ]
+    }
+  }
+}
