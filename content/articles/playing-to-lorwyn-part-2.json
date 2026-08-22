@@ -4,90 +4,237 @@
   "column": "making-magic",
   "author": "Mark Rosewater",
   "publishedAt": "2025-12-15",
-  "series": null,
-  "tags": [],
+  "series": { "id": "playing-to-lorwyn", "order": 2, "total": 2 },
+  "tags": ["blocks", "mechanics", "history"],
   "pointNoun": "point",
   "source": {
     "canonical": "https://magic.wizards.com/en/news/making-magic/playing-to-lorwyn-part-2",
-    "locales": [
-      "en",
-      "es",
-      "fr",
-      "pt-BR",
-      "zh-Hans"
-    ]
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
   },
   "summaryVersion": 1,
   "summarizedAt": "2026-08-22T03:33:18.456Z",
   "lessons": [
-    {
-      "n": 1,
-      "color": "W"
-    }
+    { "n": 1, "color": "G" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "R" }
   ],
   "translations": {
     "en": {
       "title": "Playing to Lorwyn, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "dek": "Every attempt to make it kinder made it play worse.",
+      "overview": "The mechanics of the Lorwyn block, assessed with eighteen years of hindsight — including the set whose complexity was bad enough to produce a design philosophy in response.",
+      "takeaway": "They tried to make Lorwyn mechanically kinder than its dark counterpart. Fewer destructive effects left players without answers; -1/-1 counters as injury rather than death felt meaner than killing. The tone had to come from the fiction, because every mechanical attempt made the set play worse.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Carry the tone in the fiction, not the mechanics",
+          "rules": "A mood you enforce through the rules is paid for in play quality, and the audience feels the cost long before they notice the mood. Let the setting say it and leave the system to work well.",
+          "flavor": "Kindness was tried as fewer destructive effects, which left players unable to answer threats, and as counters that injured instead of killing, which read meaner still. The fix was to express the tone creatively instead."
+        },
+        {
+          "title": "Complexity multiplies where categories cross",
+          "rules": "Two overlapping classification schemes don't add difficulty, they multiply it, because every item now sits at an intersection. What looks like richer choice from the inside is an impenetrable web from the outside.",
+          "flavor": "Morningtide layered class types over species types, expecting more deck-building options. At the employee prerelease people played one match and stopped. The lesson led directly to New World Order, the philosophy of keeping commons simple."
+        },
+        {
+          "title": "A game needs inertia that makes it end",
+          "rules": "Something in the system must push toward a conclusion, or sessions sprawl past the point of enjoyment. Check any escalating resource for which direction it points before making it the default.",
+          "flavor": "Rosewater calls this a favourite truism. +1/+1 counters grow the battlefield and encourage attacking; -1/-1 counters shrink it and make games harder to close, which is an extra burden on a set built around them."
+        },
+        {
+          "title": "A quota forces designs you didn't want",
+          "rules": "Committing to a proportion before knowing how restrictive the material is means the number starts making decisions. You end up producing things to hit it that would have been better as something else.",
+          "flavor": "Rosewater set hybrid at half of Shadowmoor's cards, then found hybrid design more restrictive than expected. Several cards that really wanted to be traditional multicolour were built as hybrid to reach the figure."
+        },
+        {
+          "title": "The same constraint that costs you one thing can open another",
+          "rules": "A restriction that narrows the usual options often widens an unusual one. Check what becomes possible under it before judging it, because the unusual mode may be the best thing you get.",
+          "flavor": "Because half the set was hybrid, thirty percent of the cards were playable in any given monocolour deck — half again the normal share. Monocolour draft archetypes became viable, and that draft remains a personal favourite of his."
+        },
+        {
+          "title": "Don't quietly break the compatibility you promised",
+          "rules": "When two of your goals collide, one usually wins without the conflict ever being stated. Name what you promised would keep working, and check each change against it rather than against its own merits.",
+          "flavor": "To dramatise the plane's transformation, the creature types were shifted into different colours. That broke the earlier plan for the two mini-blocks to combine; Rosewater would now keep the colours and add a third to some spells."
+        },
+        {
+          "title": "Ship what's intuitive over what's symmetrical",
+          "rules": "An inversion that's perfect on paper still has to be read at a glance under pressure. If the mirrored version looks like the original or asks people to think backwards, the elegance isn't worth what it costs.",
+          "flavor": "The untap symbol was thematically ideal for a set about duality. It looked too much like the tap symbol, untapping as a resource was hard to grasp, and players kept attacking into creatures that could untap and block."
         }
       ]
     },
     "es": {
-      "title": "Playing to Lorwyn, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Jugando hacia Lorwyn, parte 2",
+      "dek": "Cada intento de hacerlo más amable lo hacía jugar peor.",
+      "overview": "Las mecánicas del bloque de Lorwyn, evaluadas con dieciocho años de perspectiva, incluido el set cuya complejidad fue tan mala que engendró una filosofía de diseño como respuesta.",
+      "takeaway": "Intentaron hacer Lorwyn mecánicamente más amable que su contraparte oscura. Menos efectos destructivos dejaban a los jugadores sin respuestas; contadores -1/-1 como heridas en vez de muertes se sentían aún más crueles. El tono tenía que venir de la ficción, porque cada intento mecánico empeoraba el set.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Carga el tono en la ficción, no en las mecánicas",
+          "rules": "Un ambiente impuesto mediante las reglas se paga en calidad de juego, y el público nota ese coste mucho antes que el ambiente. Deja que lo diga el escenario y que el sistema se dedique a funcionar bien.",
+          "flavor": "La amabilidad se probó como menos efectos destructivos, lo que dejaba a los jugadores sin respuesta a las amenazas, y como contadores que herían en vez de matar, que resultaban aún más crueles. La solución fue expresar el tono creativamente."
+        },
+        {
+          "title": "La complejidad se multiplica donde se cruzan las categorías",
+          "rules": "Dos esquemas de clasificación solapados no suman dificultad: la multiplican, porque cada elemento pasa a estar en una intersección. Lo que desde dentro parece más riqueza de opciones, desde fuera es una red impenetrable.",
+          "flavor": "Morningtide superpuso tipos de clase a tipos de especie esperando más opciones de construcción. En el prerelease para empleados, la gente jugaba una partida y paraba. De ahí salió New World Order, la filosofía de mantener simples las comunes."
+        },
+        {
+          "title": "Un juego necesita una inercia que lo haga terminar",
+          "rules": "Algo en el sistema debe empujar hacia una conclusión, o las partidas se alargan más allá del disfrute. Comprueba hacia dónde apunta cualquier recurso creciente antes de convertirlo en el estándar.",
+          "flavor": "Rosewater lo llama uno de sus axiomas favoritos. Los contadores +1/+1 hacen crecer el campo y animan a atacar; los -1/-1 lo encogen y dificultan cerrar partidas, lo que es una carga extra para un set construido sobre ellos."
+        },
+        {
+          "title": "Una cuota te obliga a diseños que no querías",
+          "rules": "Comprometerte con una proporción antes de saber cuán restrictivo es el material significa que el número empieza a decidir por ti. Acabas produciendo cosas para alcanzarlo que habrían sido mejores de otra forma.",
+          "flavor": "Rosewater fijó el híbrido en la mitad de las cartas de Shadowmoor, y luego halló que diseñar híbrido era más restrictivo de lo esperado. Varias cartas que pedían ser multicolor tradicional se hicieron híbridas para llegar a la cifra."
+        },
+        {
+          "title": "La misma restricción que te cuesta algo puede abrirte otra cosa",
+          "rules": "Una limitación que estrecha las opciones habituales suele ensanchar una insólita. Mira qué se vuelve posible bajo ella antes de juzgarla, porque ese modo insólito puede ser lo mejor que obtengas.",
+          "flavor": "Al ser híbrida la mitad del set, un treinta por ciento de las cartas era jugable en cualquier mazo monocolor: la mitad más de lo normal. Los arquetipos monocolor se volvieron viables, y ese draft sigue siendo uno de sus favoritos."
+        },
+        {
+          "title": "No rompas en silencio la compatibilidad que prometiste",
+          "rules": "Cuando dos de tus objetivos chocan, uno suele ganar sin que el conflicto llegue a enunciarse. Nombra aquello que prometiste que seguiría funcionando, y contrasta cada cambio con eso, no con sus propios méritos.",
+          "flavor": "Para dramatizar la transformación del plano, los tipos de criatura se movieron a otros colores. Eso rompió el plan de que los dos miniblocques se combinaran; hoy Rosewater mantendría los colores y añadiría un tercero en algunos hechizos."
+        },
+        {
+          "title": "Publica lo intuitivo antes que lo simétrico",
+          "rules": "Una inversión perfecta sobre el papel todavía tiene que leerse de un vistazo y bajo presión. Si la versión especular se parece al original o pide pensar al revés, la elegancia no compensa lo que cuesta.",
+          "flavor": "El símbolo de enderezar era temáticamente ideal para un set sobre dualidad. Se parecía demasiado al de girar, enderezar como recurso costaba de entender, y los jugadores atacaban a criaturas que podían enderezarse y bloquear."
         }
       ]
     },
     "fr": {
-      "title": "Playing to Lorwyn, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Jouer vers Lorwyn, partie 2",
+      "dek": "Chaque tentative de l'adoucir la faisait moins bien jouer.",
+      "overview": "Les mécaniques du bloc de Lorwyn, jugées avec dix-huit ans de recul — dont l'extension dont la complexité fut assez mauvaise pour engendrer une philosophie de conception en réponse.",
+      "takeaway": "Ils ont voulu rendre Lorwyn mécaniquement plus douce que son pendant sombre. Moins d'effets destructeurs privaient les joueurs de réponses ; des marqueurs -1/-1 blessant au lieu de tuer paraissaient plus cruels encore. Le ton devait venir de la fiction, car chaque tentative mécanique dégradait le jeu.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Portez le ton dans la fiction, pas dans les mécaniques",
+          "rules": "Une ambiance imposée par les règles se paie en qualité de jeu, et le public sent ce coût bien avant de sentir l'ambiance. Laissez le décor l'exprimer et laissez le système bien fonctionner.",
+          "flavor": "La douceur fut tentée en réduisant les effets destructeurs, privant les joueurs de réponses, puis en marqueurs qui blessaient au lieu de tuer, plus cruels encore. La solution fut d'exprimer le ton par le créatif."
+        },
+        {
+          "title": "La complexité se multiplie là où les catégories se croisent",
+          "rules": "Deux grilles de classement superposées n'ajoutent pas de la difficulté, elles la multiplient, puisque chaque élément siège désormais à une intersection. Ce qui semble de l'intérieur une richesse de choix est de l'extérieur une toile impénétrable.",
+          "flavor": "Morningtide a superposé les types de classe aux types d'espèce en espérant plus d'options. À l'avant-première des employés, on jouait un match puis on s'arrêtait. D'où le New World Order, la philosophie de garder les communes simples."
+        },
+        {
+          "title": "Un jeu a besoin d'une inertie qui le fasse finir",
+          "rules": "Quelque chose dans le système doit pousser vers la conclusion, sinon les parties s'étirent au-delà du plaisir. Vérifiez la direction que pointe toute ressource croissante avant d'en faire le standard.",
+          "flavor": "Rosewater en fait un de ses adages favoris. Les marqueurs +1/+1 font grandir le champ et incitent à attaquer ; les -1/-1 le rétrécissent et rendent les parties plus dures à conclure — fardeau supplémentaire pour une extension bâtie dessus."
+        },
+        {
+          "title": "Un quota impose des designs dont vous ne vouliez pas",
+          "rules": "S'engager sur une proportion avant de savoir combien le matériau est contraignant, c'est laisser le chiffre décider. On finit par produire, pour l'atteindre, des choses qui auraient mieux valu autrement.",
+          "flavor": "Rosewater a fixé l'hybride à la moitié des cartes de Shadowmoor, puis a trouvé la conception hybride plus contraignante que prévu. Plusieurs cartes qui voulaient être multicolores classiques furent faites hybrides pour atteindre le chiffre."
+        },
+        {
+          "title": "La contrainte qui vous coûte une chose peut en ouvrir une autre",
+          "rules": "Une limite qui rétrécit les options habituelles en élargit souvent une inhabituelle. Regardez ce qu'elle rend possible avant de la juger, car ce mode inhabituel est parfois le meilleur de la récolte.",
+          "flavor": "La moitié de l'extension étant hybride, trente pour cent des cartes étaient jouables dans un deck monocolore donné — moitié plus que d'ordinaire. Les archétypes monocolores devinrent viables, et ce draft reste l'un de ses préférés."
+        },
+        {
+          "title": "Ne brisez pas en silence la compatibilité promise",
+          "rules": "Quand deux de vos objectifs s'opposent, l'un l'emporte souvent sans que le conflit soit jamais énoncé. Nommez ce que vous aviez promis de faire durer, et confrontez-y chaque changement plutôt qu'à ses seuls mérites.",
+          "flavor": "Pour dramatiser la transformation du plan, les types de créature furent déplacés vers d'autres couleurs. Cela a brisé le plan de combiner les deux mini-blocs ; Rosewater garderait aujourd'hui les couleurs et en ajouterait une troisième."
+        },
+        {
+          "title": "Publiez l'intuitif plutôt que le symétrique",
+          "rules": "Une inversion parfaite sur le papier doit encore se lire d'un coup d'œil et sous pression. Si la version en miroir ressemble à l'original ou demande de penser à l'envers, l'élégance ne vaut pas son prix.",
+          "flavor": "Le symbole de dégagement était thématiquement idéal pour une extension sur la dualité. Il ressemblait trop à celui d'engagement, le dégagement comme ressource était dur à saisir, et l'on attaquait des créatures capables de bloquer."
         }
       ]
     },
     "pt-BR": {
-      "title": "Playing to Lorwyn, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Jogando rumo a Lorwyn, parte 2",
+      "dek": "Cada tentativa de deixá-la mais gentil piorava o jogo.",
+      "overview": "As mecânicas do bloco de Lorwyn, avaliadas com dezoito anos de distância — incluindo a coleção cuja complexidade foi ruim o bastante para gerar uma filosofia de design em resposta.",
+      "takeaway": "Tentaram deixar Lorwyn mecanicamente mais gentil que sua contraparte sombria. Menos efeitos destrutivos deixavam os jogadores sem respostas; marcadores -1/-1 como ferimento em vez de morte pareciam ainda mais cruéis. O tom tinha de vir da ficção, porque toda tentativa mecânica piorava a coleção.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Carregue o tom na ficção, não nas mecânicas",
+          "rules": "Um clima imposto pelas regras é pago em qualidade de jogo, e o público sente esse custo muito antes de sentir o clima. Deixe o cenário dizer isso e deixe o sistema apenas funcionar bem.",
+          "flavor": "A gentileza foi tentada como menos efeitos destrutivos, o que deixava os jogadores sem resposta às ameaças, e como marcadores que feriam em vez de matar, que soavam ainda mais cruéis. A saída foi expressar o tom pelo criativo."
+        },
+        {
+          "title": "A complexidade se multiplica onde as categorias se cruzam",
+          "rules": "Dois esquemas de classificação sobrepostos não somam dificuldade, multiplicam, porque cada item passa a ficar num cruzamento. O que de dentro parece mais riqueza de escolha, de fora é uma teia impenetrável.",
+          "flavor": "Morningtide sobrepôs tipos de classe a tipos de espécie esperando mais opções de construção. No pré-lançamento dos funcionários, jogava-se uma partida e parava. Daí veio a New World Order, a filosofia de manter comuns simples."
+        },
+        {
+          "title": "Um jogo precisa de uma inércia que o faça terminar",
+          "rules": "Algo no sistema precisa empurrar rumo à conclusão, ou as partidas se esticam além do prazer. Verifique para que lado aponta qualquer recurso crescente antes de torná-lo o padrão.",
+          "flavor": "Rosewater chama isso de um de seus axiomas favoritos. Marcadores +1/+1 fazem o campo crescer e incentivam atacar; os -1/-1 encolhem e dificultam fechar partidas — peso extra para uma coleção construída sobre eles."
+        },
+        {
+          "title": "Uma cota força designs que você não queria",
+          "rules": "Comprometer-se com uma proporção antes de saber o quanto o material é restritivo faz o número começar a decidir. Você acaba produzindo, para bater a meta, coisas que teriam sido melhores de outro jeito.",
+          "flavor": "Rosewater fixou híbrido em metade das cartas de Shadowmoor e depois achou o design híbrido mais restritivo do que esperava. Várias cartas que queriam ser multicoloridas clássicas viraram híbridas para alcançar o número."
+        },
+        {
+          "title": "A mesma restrição que custa uma coisa pode abrir outra",
+          "rules": "Um limite que estreita as opções usuais costuma alargar uma incomum. Veja o que se torna possível sob ele antes de julgá-lo, porque esse modo incomum pode ser a melhor coisa que você leva.",
+          "flavor": "Como metade da coleção era híbrida, trinta por cento das cartas serviam a qualquer deck monocolorido — metade a mais que o normal. Arquétipos monocoloridos ficaram viáveis, e esse draft segue entre os favoritos dele."
+        },
+        {
+          "title": "Não quebre em silêncio a compatibilidade que você prometeu",
+          "rules": "Quando dois de seus objetivos colidem, um costuma vencer sem que o conflito seja sequer enunciado. Nomeie o que você prometeu que continuaria funcionando, e cheque cada mudança contra isso, não contra os próprios méritos.",
+          "flavor": "Para dramatizar a transformação do plano, os tipos de criatura foram movidos para outras cores. Isso quebrou o plano de os dois miniblocos combinarem; hoje Rosewater manteria as cores e somaria uma terceira em algumas mágicas."
+        },
+        {
+          "title": "Publique o intuitivo em vez do simétrico",
+          "rules": "Uma inversão perfeita no papel ainda precisa ser lida num relance e sob pressão. Se a versão espelhada parece o original ou pede que se pense ao contrário, a elegância não compensa o que custa.",
+          "flavor": "O símbolo de desvirar era tematicamente ideal para uma coleção sobre dualidade. Parecia demais com o de virar, desvirar como recurso era difícil de captar, e os jogadores atacavam criaturas que podiam desvirar e bloquear."
         }
       ]
     },
     "zh-Hans": {
-      "title": "Playing to Lorwyn, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "打向罗温，第二部分",
+      "dek": "每一次想让它变得温和的尝试，都让它打起来更糟。",
+      "overview": "罗温环境里的那些机制，隔了十八年再来评判——其中包括那个复杂到直接催生出一套设计哲学作为回应的系列。",
+      "takeaway": "他们想让罗温在机制上比它那个黑暗的对照面更温和。少放毁灭性效果，玩家就没有手段去回应威胁；把 -1/-1 指示物设定成「打伤而非打死」，读起来反而比杀掉更狠。调性只能从故事那一侧来，因为每一次机制上的尝试，都让这个系列打得更差。",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "让调性由故事去承担，而不是机制",
+          "rules": "靠规则强推出来的氛围，是拿玩起来的质量买单的；而受众感到这份代价，远早于他们感到那份氛围。让世界观去说这件事，让系统专心把自己做好。",
+          "flavor": "「温和」被试成了减少毁灭性效果——结果玩家面对威胁无从回应；又被试成了打伤而非打死的指示物——读起来更狠。最终的解法，是改从创作那一侧去表达这个调性。"
+        },
+        {
+          "title": "复杂度在类别交叉的地方是相乘的",
+          "rules": "两套彼此重叠的分类方式，带来的难度不是相加而是相乘——因为每样东西如今都坐在一个交叉点上。从里面看像是选择变丰富了，从外面看则是一张钻不进去的网。",
+          "flavor": "《Morningtide》把职业类别叠在种族类别之上，本以为能带来更多构组空间。而在员工预售会上，人们打完一局就停了。这件事直接催生了「新世界秩序」——把普通牌保持简单的那套原则。"
+        },
+        {
+          "title": "游戏需要一股让它结束的惯性",
+          "rules": "系统里必须有某种东西在推着局面走向终点，否则一局会拖到超出享受的范围。在你把某种会累积的资源定为默认之前，先看清它把局面往哪个方向推。",
+          "flavor": "罗斯沃特把这称作自己最喜欢的一条设计箴言。+1/+1 指示物让战场长大、鼓励进攻；而 -1/-1 指示物让战场缩小，使得对局更难收尾——这对一个围绕它们建起来的系列是额外的负担。"
+        },
+        {
+          "title": "配额会逼你做出你并不想要的设计",
+          "rules": "在还不知道这种材料有多难写之前就先许下一个比例，等于让那个数字开始替你做决定。为了凑够它，你会造出一些本来换个形态会更好的东西。",
+          "flavor": "罗斯沃特把混血定在《Shadowmoor》一半的牌上，之后才发现混血的设计比他以为的更受限。有好几张本来更想当传统多色牌的设计，为了凑数被做成了混血。"
+        },
+        {
+          "title": "让你付出代价的那条约束，也可能替你打开另一扇门",
+          "rules": "一条收窄了常规选项的限制，往往同时拓宽了某个非常规的选项。在给它下判断之前，先看看在它之下什么变得可能——那个非常规的玩法，有时正是你最大的收获。",
+          "flavor": "由于半个系列都是混血，任何一个单色套牌都有三成的牌可用——比通常多出一半。单色的轮抽套路因此成立，而这个轮抽环境至今仍是他个人最喜欢的之一。"
+        },
+        {
+          "title": "别不声不响地毁掉你许诺过的兼容",
+          "rules": "当你的两个目标相撞时，通常总有一个悄悄赢了，而这场冲突从头到尾都没有被说出口。把「我承诺过什么会继续管用」写明白，然后拿每一处改动去对照它，而不是只看这处改动本身好不好。",
+          "flavor": "为了把这个位面的转变演得更足，生物类别被挪到了别的颜色里。这毁掉了此前「让两个迷你环境能合起来玩」的计划；如今罗斯沃特会保留原来的颜色，转而在部分咒语上加第三个色。"
+        },
+        {
+          "title": "要发的是直觉上成立的那版，而不是对称上漂亮的那版",
+          "rules": "纸面上完美的一次反转，仍然得在压力之下被一眼读懂。如果这个镜像版本看上去像原版，或者要求人们倒过来思考，那么这份优雅并不值它的代价。",
+          "flavor": "重置符号在一个讲二元性的系列里，主题上简直完美。可它看着太像横置符号；把「重置」当作一种资源也很难领会；而玩家还老是去攻击那些其实能重置并阻挡的生物。"
         }
       ]
     }

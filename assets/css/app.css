@@ -147,6 +147,30 @@ img { max-width: 100%; }
 .rail nav a:hover { color: var(--ink); }
 .rail nav a[aria-current='page'] { color: var(--ink); border-bottom-color: var(--ink); }
 
+/* On a phone the three rail items don't fit on one line — the brand alone is
+   half the width — so the language picker used to be pushed off the right edge
+   and out of reach. Wrap instead: brand and picker share the first line, the
+   nav takes the second. */
+@media (max-width: 640px) {
+  .rail-in {
+    flex-wrap: wrap;
+    gap: 0.3rem 1rem;
+    min-height: 0;
+    padding-block: 0.5rem;
+  }
+  /* Basis, not content width, decides where the line breaks: on a very narrow
+     phone the brand shares its line with the picker and truncates instead of
+     claiming a line of its own. */
+  .brand { flex: 1 1 8rem; min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  .lang { order: 1; margin-inline-start: auto; }
+  .rail nav {
+    order: 2;
+    flex-basis: 100%;
+    margin-inline-start: 0;
+    gap: 1.1rem;
+  }
+}
+
 /* --- Language picker ---------------------------------------------------- */
 
 .lang { position: relative; }
