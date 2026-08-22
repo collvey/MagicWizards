@@ -4,90 +4,211 @@
   "column": "making-magic",
   "author": "Mark Rosewater",
   "publishedAt": "2022-05-30",
-  "series": null,
-  "tags": [],
+  "series": { "id": "going-baldurs-gate", "order": 2, "total": 2 },
+  "tags": ["card-by-card", "commander", "templating"],
   "pointNoun": "point",
   "source": {
     "canonical": "https://magic.wizards.com/en/news/making-magic/going-baldurs-gate-part-2",
-    "locales": [
-      "en",
-      "es",
-      "fr",
-      "pt-BR",
-      "zh-Hans"
-    ]
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
   },
   "summaryVersion": 1,
   "summarizedAt": "2026-08-22T00:45:29.810Z",
   "lessons": [
-    {
-      "n": 1,
-      "color": "W"
-    }
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "U" }
   ],
   "translations": {
     "en": {
       "title": "Going Baldur's Gate, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "dek": "Six versions of a god, and a red common that turned out to be Lightning Bolt.",
+      "overview": "The second half of the card-by-card stories from Commander Legends: Battle for Baldur's Gate. Bhaal took six versions to feel right; a red common took five before the team concluded the classic had been the answer all along.",
+      "takeaway": "Lightning Bolt warps Standard and is fair in Commander, because that format has more life and more opponents. Whether a card is too strong is a property of where it's played, not of the card.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Fill an undesigned slot with a reprint that occupies the same space",
+          "rules": "You can't playtest an empty line. Drop in an existing card that sits roughly where the eventual design will sit, and the format can be tested while the slot is still unsolved.",
+          "flavor": "Bhaal's slot began as Kresh, the Blood-Braided; Font of Magic's began as Sphinx of the Second Sun. Rosewater reads the placeholders backwards to infer what the team thought each slot was going to be."
+        },
+        {
+          "title": "An ability that resists balancing becomes conditional, not forbidden",
+          "rules": "When something is too strong to grant outright and too characteristic to drop, attach a condition. The same condition can be phrased as a bonus for meeting it or a penalty for failing it, and the two play differently.",
+          "flavor": "Gods are traditionally indestructible, and indestructible has proven hard to balance, so it is granted situationally. One Bhaal earned it from creature cards in the graveyard; the next couldn't attack or block without them."
+        },
+        {
+          "title": "In multiplayer, reward attacking the player who's ahead",
+          "rules": "Left alone, a group will hit whoever is easiest, which is whoever is already losing. Effects that pay out for attacking the leader make the table correct itself instead of piling on.",
+          "flavor": "One Bhaal doubled the power of any creature attacking the player with the most life. Rosewater notes this is a space Commander design has enjoyed working in."
+        },
+        {
+          "title": "A design that could only exist in this set is worth more than a portable one",
+          "rules": "Keying a card to what is unique about its own context makes it do something no other version of it could. The cost is that it doesn't travel, which for a one-off product is not a cost.",
+          "flavor": "Spellblaze counted instants, sorceries, and Adventures, because this set had Adventures. Rosewater says plainly that he appreciates designs that could only be made here."
+        },
+        {
+          "title": "A long chain of versions can end at the classic you already had",
+          "rules": "After several attempts at a card that does a familiar job, the honest conclusion is sometimes that the familiar card does it best. Abandoning your own five versions is a result, not a failure.",
+          "flavor": "A red common went Fists of Fire, Fists of Flame, Grapebullet, Spellblaze, Spellblaze again — and then the team asked why a three-damage red common shouldn't just be Lightning Bolt."
+        },
+        {
+          "title": "State the shared action once, then vary it by number",
+          "rules": "A card with many outcomes gets long if each outcome restates the whole effect. Put the effect in one sentence up front and let each result say only how many times it happens.",
+          "flavor": "Wand of Wonder needed twenty-two effects without twenty-two lines of text. It borrows the top of the library as both its randomizer and its content, and the d20 chart only says how far to dig."
         }
       ]
     },
     "es": {
-      "title": "Going Baldur's Gate, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Rumbo a Baldur's Gate, parte 2",
+      "dek": "Seis versiones de un dios, y una común roja que acabó siendo Lightning Bolt.",
+      "overview": "La segunda mitad de las historias carta por carta de Commander Legends: Battle for Baldur's Gate. Bhaal necesitó seis versiones para sentirse bien; una común roja necesitó cinco antes de que el equipo concluyera que el clásico ya era la respuesta.",
+      "takeaway": "Lightning Bolt deforma Estándar y es justa en Commander, porque ese formato tiene más vidas y más oponentes. Que una carta sea demasiado fuerte es una propiedad de dónde se juega, no de la carta.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Rellena un hueco sin diseñar con una reimpresión que ocupe el mismo espacio",
+          "rules": "No se puede probar una línea vacía. Mete una carta existente que se sitúe más o menos donde estará el diseño final, y el formato podrá probarse mientras el hueco sigue sin resolver.",
+          "flavor": "El hueco de Bhaal empezó como Kresh, the Blood-Braided; el de Font of Magic, como Sphinx of the Second Sun. Rosewater lee los comodines al revés para deducir qué creía el equipo que sería cada hueco."
+        },
+        {
+          "title": "Una habilidad que se resiste al equilibrio se vuelve condicional, no prohibida",
+          "rules": "Cuando algo es demasiado fuerte para darlo sin más y demasiado característico para quitarlo, ponle una condición. La misma condición puede formularse como premio por cumplirla o castigo por incumplirla, y se juegan distinto.",
+          "flavor": "Los dioses suelen ser indestructibles, e indestructible ha resultado difícil de equilibrar, así que se concede de forma situacional. Un Bhaal lo ganaba con cartas de criatura en el cementerio; el siguiente no podía atacar ni bloquear sin ellas."
+        },
+        {
+          "title": "En multijugador, premia atacar a quien va ganando",
+          "rules": "A su aire, un grupo golpea a quien resulta más fácil, que es quien ya va perdiendo. Los efectos que pagan por atacar al líder hacen que la mesa se corrija sola en vez de ensañarse.",
+          "flavor": "Un Bhaal doblaba la fuerza de cualquier criatura que atacara al jugador con más vidas. Rosewater señala que es un espacio en el que el diseño de Commander ha disfrutado trabajando."
+        },
+        {
+          "title": "Un diseño que solo podría existir en este set vale más que uno portátil",
+          "rules": "Atar una carta a lo que su propio contexto tiene de único hace que haga algo que ninguna otra versión suya podría. El coste es que no viaja, lo que en un producto único no es un coste.",
+          "flavor": "Spellblaze contaba instantáneos, conjuros y aventuras, porque este set tenía aventuras. Rosewater dice sin rodeos que aprecia los diseños que solo podrían hacerse aquí."
+        },
+        {
+          "title": "Una larga cadena de versiones puede terminar en el clásico que ya tenías",
+          "rules": "Tras varios intentos de una carta que hace un trabajo conocido, la conclusión honesta es a veces que la carta conocida lo hace mejor. Abandonar tus propias cinco versiones es un resultado, no un fracaso.",
+          "flavor": "Una común roja pasó por Fists of Fire, Fists of Flame, Grapebullet, Spellblaze y Spellblaze otra vez, hasta que el equipo se preguntó por qué una común roja de tres daños no debería ser simplemente Lightning Bolt."
+        },
+        {
+          "title": "Enuncia la acción compartida una vez y luego varíala por número",
+          "rules": "Una carta con muchos resultados se alarga si cada resultado repite el efecto entero. Pon el efecto en una frase al principio y deja que cada resultado diga solo cuántas veces ocurre.",
+          "flavor": "Wand of Wonder necesitaba veintidós efectos sin veintidós líneas de texto. Toma prestado lo alto de la biblioteca como aleatorizador y como contenido, y la tabla del d20 solo dice cuánto hay que excavar."
         }
       ]
     },
     "fr": {
-      "title": "Going Baldur's Gate, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "En route pour Baldur's Gate, partie 2",
+      "dek": "Six versions d'un dieu, et une commune rouge qui s'est révélée être Lightning Bolt.",
+      "overview": "La seconde moitié des histoires carte par carte de Commander Legends: Battle for Baldur's Gate. Bhaal a demandé six versions pour sonner juste ; une commune rouge en a demandé cinq avant que l'équipe ne conclue que le classique était la réponse depuis le début.",
+      "takeaway": "Lightning Bolt déforme le Standard et reste équitable en Commander, car ce format a plus de points de vie et plus d'adversaires. Qu'une carte soit trop forte est une propriété du lieu où on la joue, pas de la carte.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Remplissez un emplacement non conçu par une réimpression qui occupe le même espace",
+          "rules": "On ne teste pas une ligne vide. Posez-y une carte existante située à peu près là où le design final se situera, et le format peut être testé pendant que l'emplacement reste non résolu.",
+          "flavor": "L'emplacement de Bhaal a commencé comme Kresh, the Blood-Braided ; celui de Font of Magic comme Sphinx of the Second Sun. Rosewater lit ces bouche-trous à rebours pour deviner ce que l'équipe croyait mettre là."
+        },
+        {
+          "title": "Une capacité rétive à l'équilibrage devient conditionnelle, pas interdite",
+          "rules": "Quand une chose est trop forte pour être accordée telle quelle et trop caractéristique pour être retirée, attachez-lui une condition. La même condition s'énonce en récompense si elle est remplie ou en pénalité sinon, et les deux se jouent différemment.",
+          "flavor": "Les dieux sont traditionnellement indestructibles, et l'indestructibilité s'est révélée dure à équilibrer : on l'accorde donc au cas par cas. Un Bhaal la gagnait grâce aux cartes de créature du cimetière ; le suivant ne pouvait ni attaquer ni bloquer sans elles."
+        },
+        {
+          "title": "En multijoueur, récompensez l'attaque contre celui qui mène",
+          "rules": "Livré à lui-même, un groupe frappe le plus facile, c'est-à-dire celui qui perd déjà. Les effets qui paient pour attaquer le meneur font que la table se corrige d'elle-même au lieu de s'acharner.",
+          "flavor": "Un Bhaal doublait la force de toute créature attaquant le joueur ayant le plus de points de vie. Rosewater note que c'est un espace où la conception Commander a pris plaisir à travailler."
+        },
+        {
+          "title": "Un design qui ne pourrait exister que dans ce set vaut mieux qu'un design transportable",
+          "rules": "Accrocher une carte à ce que son contexte a d'unique lui fait faire une chose qu'aucune autre version d'elle-même ne pourrait. Le prix, c'est qu'elle ne voyage pas — ce qui, pour un produit unique, n'est pas un prix.",
+          "flavor": "Spellblaze comptait les éphémères, les rituels et les aventures, parce que ce set contenait des aventures. Rosewater dit sans détour qu'il apprécie les designs qui n'auraient pu être faits qu'ici."
+        },
+        {
+          "title": "Une longue chaîne de versions peut aboutir au classique que vous aviez déjà",
+          "rules": "Après plusieurs tentatives sur une carte qui remplit un rôle connu, la conclusion honnête est parfois que la carte connue le remplit mieux. Abandonner vos cinq versions est un résultat, pas un échec.",
+          "flavor": "Une commune rouge est passée par Fists of Fire, Fists of Flame, Grapebullet, Spellblaze, puis Spellblaze encore — avant que l'équipe ne demande pourquoi une commune rouge à trois blessures ne serait pas simplement Lightning Bolt."
+        },
+        {
+          "title": "Énoncez l'action commune une fois, puis faites-la varier par le nombre",
+          "rules": "Une carte à nombreux résultats s'allonge si chaque résultat redit l'effet entier. Mettez l'effet en une phrase au début et laissez chaque résultat dire seulement combien de fois il se produit.",
+          "flavor": "La Wand of Wonder devait offrir vingt-deux effets sans vingt-deux lignes de texte. Elle emprunte le dessus de la bibliothèque comme hasard et comme contenu, et la table du d20 ne dit que jusqu'où creuser."
         }
       ]
     },
     "pt-BR": {
-      "title": "Going Baldur's Gate, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Rumo a Baldur's Gate, parte 2",
+      "dek": "Seis versões de um deus, e uma comum vermelha que acabou sendo Lightning Bolt.",
+      "overview": "A segunda metade das histórias carta a carta de Commander Legends: Battle for Baldur's Gate. Bhaal precisou de seis versões para soar certo; uma comum vermelha precisou de cinco antes de a equipe concluir que o clássico já era a resposta.",
+      "takeaway": "Lightning Bolt deforma o Padrão e é justa no Commander, porque esse formato tem mais vida e mais oponentes. Uma carta ser forte demais é propriedade de onde se joga, não da carta.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Preencha um espaço ainda sem design com uma reimpressão que ocupe o mesmo lugar",
+          "rules": "Não dá para testar uma linha vazia. Ponha uma carta existente que fique mais ou menos onde o design final ficará, e o formato pode ser testado enquanto o espaço segue sem solução.",
+          "flavor": "O espaço de Bhaal começou como Kresh, the Blood-Braided; o de Font of Magic, como Sphinx of the Second Sun. Rosewater lê os provisórios ao contrário para deduzir o que a equipe achava que cada espaço seria."
+        },
+        {
+          "title": "Uma habilidade que resiste ao balanceamento vira condicional, não proibida",
+          "rules": "Quando algo é forte demais para ser concedido direto e característico demais para ser cortado, ponha uma condição. A mesma condição pode virar prêmio por cumpri-la ou castigo por falhar, e as duas se jogam diferente.",
+          "flavor": "Deuses costumam ser indestrutíveis, e indestrutível provou ser difícil de balancear, então é concedido de forma situacional. Um Bhaal ganhava isso com cartas de criatura no cemitério; o seguinte não podia atacar nem bloquear sem elas."
+        },
+        {
+          "title": "Em multijogador, premie atacar quem está na frente",
+          "rules": "Deixado por conta própria, um grupo bate em quem for mais fácil, que é quem já está perdendo. Efeitos que pagam por atacar o líder fazem a mesa se corrigir sozinha em vez de se acumular sobre um só.",
+          "flavor": "Um Bhaal dobrava o poder de qualquer criatura que atacasse o jogador com mais vida. Rosewater observa que é um espaço em que o design de Commander gostou de trabalhar."
+        },
+        {
+          "title": "Um design que só poderia existir neste set vale mais que um portátil",
+          "rules": "Amarrar uma carta ao que o próprio contexto tem de único faz com que ela faça algo que nenhuma outra versão dela poderia. O custo é que ela não viaja — o que, num produto único, não é custo.",
+          "flavor": "Spellblaze contava mágicas instantâneas, feitiçarias e aventuras, porque este set tinha aventuras. Rosewater diz sem rodeios que aprecia designs que só poderiam ser feitos aqui."
+        },
+        {
+          "title": "Uma longa cadeia de versões pode terminar no clássico que você já tinha",
+          "rules": "Depois de várias tentativas de uma carta que faz um trabalho conhecido, a conclusão honesta às vezes é que a carta conhecida o faz melhor. Abandonar suas próprias cinco versões é um resultado, não um fracasso.",
+          "flavor": "Uma comum vermelha passou por Fists of Fire, Fists of Flame, Grapebullet, Spellblaze e Spellblaze de novo — até a equipe perguntar por que uma comum vermelha de três de dano não deveria ser simplesmente Lightning Bolt."
+        },
+        {
+          "title": "Enuncie a ação comum uma vez e depois varie pelo número",
+          "rules": "Uma carta com muitos resultados fica longa se cada resultado repetir o efeito inteiro. Ponha o efeito numa frase no começo e deixe cada resultado dizer apenas quantas vezes ele acontece.",
+          "flavor": "Wand of Wonder precisava de vinte e dois efeitos sem vinte e duas linhas de texto. Ela toma emprestado o topo do grimório como sorteio e como conteúdo, e a tabela do d20 só diz o quanto cavar."
         }
       ]
     },
     "zh-Hans": {
-      "title": "Going Baldur's Gate, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "前往博德之门，第二部分",
+      "dek": "一位神明的六个版本，以及一张最后变成了 Lightning Bolt 的红色普通牌。",
+      "overview": "《Commander Legends: Battle for Baldur's Gate》逐张牌故事的后半。Bhaal 花了六个版本才对味；一张红色普通牌走了五个版本，团队才得出结论：那张经典牌本来就是答案。",
+      "takeaway": "Lightning Bolt 会扭曲标准赛，却在指挥官里很公道，因为那个赛制生命更多、对手更多。一张牌「是不是太强」，是它被打在哪里的属性，而不是这张牌本身的属性。",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "还没设计出来的牌位，先拿一张占同一片空间的重印牌填上",
+          "rules": "空着的一行是没法试玩的。放一张现成的牌进去，让它大致落在最终设计将会落到的位置上，这样在这个牌位仍未解决的同时，赛制已经可以开始被测试。",
+          "flavor": "Bhaal 的牌位最初是 Kresh, the Blood-Braided；Font of Magic 的牌位最初是 Sphinx of the Second Sun。罗斯沃特反过来读这些占位牌，来推断团队当初以为每个牌位会变成什么。"
+        },
+        {
+          "title": "一个难以平衡的异能，做法是加条件，而不是禁用",
+          "rules": "当某样东西强到不能白给、又太具标志性而不能砍掉时，就给它挂一个条件。同一个条件既可以写成「满足则奖励」，也可以写成「不满足则惩罚」，两者打起来并不一样。",
+          "flavor": "神明传统上是不灭的，而不灭已被证明很难平衡，于是它只在特定情境下给出。有一版 Bhaal 靠坟墓场里的生物牌挣得不灭；下一版则是没有它们就不能攻击或阻挡。"
+        },
+        {
+          "title": "在多人局里，奖励去打那个领先的人",
+          "rules": "放着不管，一桌人会去打最好打的那个，也就是本来就在输的那个。为「攻击领先者」付钱的效应，会让牌桌自我纠正，而不是集体踩踏同一个人。",
+          "flavor": "有一版 Bhaal 会让任何攻击「生命最多的玩家」的生物力量加倍。罗斯沃特指出，这是指挥官设计一直乐于耕耘的一片空间。"
+        },
+        {
+          "title": "只可能存在于这个系列里的设计，比一个能到处搬的设计更值钱",
+          "rules": "把一张牌挂在它自身脉络中独一无二的东西上，会让它做到任何别的版本都做不到的事。代价是它带不走——而对一次性产品来说，这并不算代价。",
+          "flavor": "Spellblaze 会数瞬间、法术与冒险，因为这个系列里有冒险。罗斯沃特直白地说：他欣赏那些只可能在这里做出来的设计。"
+        },
+        {
+          "title": "一条很长的版本链，可能终点就是你早就有的那张经典牌",
+          "rules": "在一张要干某件熟悉活儿的牌上试了好几次之后，诚实的结论有时是：那张熟悉的牌干得更好。放弃自己做的五个版本，是一个结果，不是一次失败。",
+          "flavor": "一张红色普通牌依次是 Fists of Fire、Fists of Flame、Grapebullet、Spellblaze，再一次 Spellblaze——直到团队自问：一张造成三点伤害的红色普通牌，为什么不干脆就是 Lightning Bolt？"
+        },
+        {
+          "title": "把共用的那个动作只说一遍，再用数字去变化它",
+          "rules": "一张有很多种结果的牌，如果每种结果都把整个效应重述一遍，就会变得很长。把效应写成开头的一句话，让每一条结果只负责说它发生几次。",
+          "flavor": "Wand of Wonder 需要二十二种效果，却不能有二十二行字。它把牌库顶同时借来当随机源和内容源，而 d20 表格只负责说要往下挖多深。"
         }
       ]
     }

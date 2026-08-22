@@ -1,0 +1,242 @@
+{
+  "id": "commander-legends-battle-baldurs-gate-vision-design-handoff",
+  "slug": "commander-legends-battle-baldurs-gate-vision-design-handoff",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2022-06-06",
+  "series": null,
+  "tags": ["handoff", "commander", "process"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/commander-legends-battle-baldurs-gate-vision-design-handoff",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T00:48:25.754Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Battle for Baldur's Gate Vision Design Handoff",
+      "dek": "The first handoff document in this column written by someone other than Rosewater.",
+      "overview": "Glenn Jones's vision design handoff for Commander Legends: Battle for Baldur's Gate, his first as a lead. Rosewater runs it precisely because it is built differently from his own, and the structural differences are the interesting part.",
+      "takeaway": "Every section opens with a TLDR grading its own certainty: \"Confident the set wants this.\" \"Take it or leave it.\" \"Creatively appealing, but the current implementation is a bit unsatisfying.\" The next team learns where to spend effort before reading a word of detail.",
+      "lessons": [
+        {
+          "title": "Hand over the instrument you reasoned with, and a legend for reading it",
+          "rules": "The model behind the decisions is worth more than the decisions. Pass the working tool along with the document, and explain every part of it, including which cells are inputs and which compute themselves.",
+          "flavor": "Glenn's spreadsheet tracks as-fan, rarity, class distribution, and colour-pair evaluations. Yellow cells take manual data, green cells calculate, orange cells are the answers — and one sheet is labelled defunct but kept as a record of how it was done."
+        },
+        {
+          "title": "State the parameters the standard process would have assumed",
+          "rules": "Work off the usual track can't inherit the usual defaults. Say what the audience is, how much complexity they can carry, and what the thing is not, because nobody downstream will have been told.",
+          "flavor": "Premier sets have these settled, so Rosewater's own handoffs never state them. Glenn writes a complexity target outright: harder than Adventures in the Forgotten Realms, easier than a Masters set, and explicitly not a first Magic experience."
+        },
+        {
+          "title": "Grade your own confidence, section by section",
+          "rules": "A handoff that says how sure it is of each part tells the receiving team where to spend their effort. Uniform prose hides the difference between a settled decision and a guess you'd like tested.",
+          "flavor": "Goad gets \"Confident the set wants this.\" Prowess gets \"Take it or leave it.\" Gates get \"Might as well make a few, but they can't bear weight.\" The Gods section is a question: \"They're here, but what makes them divine?\""
+        },
+        {
+          "title": "Write down what you rejected and why it failed",
+          "rules": "The discarded pile is part of the deliverable. Without the reasons, the next team walks the same dead ends, and the most promising-looking ideas are exactly the ones that get re-tried.",
+          "flavor": "Spell-pair failed because almost no instant can sit face up in the command zone without hanging over the game. Skilled and feats failed on templating and drew playtest comparisons to monstrosity and adapt that nobody enjoyed."
+        },
+        {
+          "title": "A contested prize must not let whoever holds it entrench",
+          "rules": "An object the whole table fights over stops being fun the moment its rewards help the holder keep it. Rewards that turn inward end the contest; the prize has to stay reachable to stay interesting.",
+          "flavor": "\"Gameplay suffers when rooms provide the occupant with particularly effective ways to protect themselves, because that makes the mechanic feel inaccessible to the rest of the table. It's the most fun when it's moving.\""
+        },
+        {
+          "title": "Aim sideways from the thing you'll be compared to",
+          "rules": "When a new version will be measured against a known predecessor, better is wasteful and worse reads as a loss. Move along a different axis so the comparison stops being a ranking.",
+          "flavor": "The dual land cycle should \"feel sideways from Battlebond lands.\" Stronger would be unnecessary; weaker would upset players as a missed chance at more Battlebond lands. The answer was weaker text plus land types."
+        },
+        {
+          "title": "Convergence, not failure, is what usually kills a mechanic",
+          "rules": "As a design settles, tools that started far apart drift into the same space, and one of them becomes redundant. The cut is then made for room, not for quality — and the room goes somewhere specific.",
+          "flavor": "The set's mechanics kept moving toward one-time activated abilities, which is monstrosity's territory, until Adventures could serve the role. Removing monstrosity is what let classes matter."
+        }
+      ]
+    },
+    "es": {
+      "title": "Traspaso de diseño de visión de Battle for Baldur's Gate",
+      "dek": "El primer documento de traspaso de esta columna escrito por alguien que no es Rosewater.",
+      "overview": "El traspaso de diseño de visión de Glenn Jones para Commander Legends: Battle for Baldur's Gate, el primero que dirige. Rosewater lo publica justamente porque está construido de otra forma que los suyos, y esas diferencias son lo interesante.",
+      "takeaway": "Cada sección abre con un TLDR que califica su propia certeza: «Seguro de que el set lo quiere». «Tómalo o déjalo». «Atractivo creativamente, pero la ejecución actual es poco satisfactoria». El siguiente equipo sabe dónde gastar esfuerzo antes de leer un solo detalle.",
+      "lessons": [
+        {
+          "title": "Entrega el instrumento con el que razonaste, y una leyenda para leerlo",
+          "rules": "El modelo que hay detrás de las decisiones vale más que las decisiones. Pasa la herramienta de trabajo junto con el documento y explica cada parte, incluido qué celdas son entradas y cuáles se calculan solas.",
+          "flavor": "La hoja de cálculo de Glenn sigue frecuencia, rareza, distribución de clases y evaluaciones de pares de colores. Las celdas amarillas piden datos manuales, las verdes calculan, las naranjas son las respuestas; y una hoja está marcada como obsoleta pero se conserva como registro."
+        },
+        {
+          "title": "Declara los parámetros que el proceso estándar habría dado por supuestos",
+          "rules": "Un trabajo fuera de la vía habitual no puede heredar los valores por defecto habituales. Di quién es el público, cuánta complejidad puede cargar y qué no es esto, porque nadie río abajo lo habrá oído.",
+          "flavor": "Los sets principales lo tienen resuelto, así que los traspasos del propio Rosewater nunca lo dicen. Glenn escribe un objetivo de complejidad explícito: más difícil que Adventures in the Forgotten Realms, más fácil que un Masters, y expresamente no una primera experiencia con Magic."
+        },
+        {
+          "title": "Califica tu propia confianza, sección por sección",
+          "rules": "Un traspaso que dice lo seguro que está de cada parte le indica al equipo receptor dónde invertir su esfuerzo. Una prosa uniforme oculta la diferencia entre una decisión cerrada y una corazonada que te gustaría probar.",
+          "flavor": "Azuzar recibe «Seguro de que el set lo quiere». Proeza recibe «Tómalo o déjalo». Las puertas: «Ya que estamos, hagamos unas pocas, pero no aguantan peso». La sección de dioses es una pregunta: «Están aquí, pero ¿qué los hace divinos?»"
+        },
+        {
+          "title": "Anota qué descartaste y por qué falló",
+          "rules": "El montón de descartes forma parte de la entrega. Sin las razones, el siguiente equipo recorre los mismos callejones sin salida, y las ideas de aspecto más prometedor son justo las que se vuelven a intentar.",
+          "flavor": "Par de conjuros falló porque casi ningún instantáneo puede estar boca arriba en la zona de mando sin planear sobre la partida. Diestro y las proezas fallaron por plantilla, y en pruebas se compararon con monstruosidad y adaptar de un modo que a nadie gustó."
+        },
+        {
+          "title": "Un premio disputado no debe permitir que quien lo tiene se atrinchere",
+          "rules": "Un objeto por el que pelea toda la mesa deja de ser divertido en cuanto sus recompensas ayudan a su portador a conservarlo. Las recompensas que miran hacia dentro terminan la disputa; el premio debe seguir alcanzable para seguir interesando.",
+          "flavor": "«El juego sufre cuando las salas dan al ocupante formas muy eficaces de protegerse, porque eso hace que la mecánica parezca inaccesible para el resto de la mesa. Es más divertida cuando se mueve.»"
+        },
+        {
+          "title": "Apunta de lado respecto a aquello con lo que te van a comparar",
+          "rules": "Cuando una versión nueva se va a medir contra una predecesora conocida, mejor es derrochar y peor se lee como pérdida. Muévete por otro eje para que la comparación deje de ser un ranking.",
+          "flavor": "El ciclo de tierras duales debía «sentirse de lado respecto a las tierras de Battlebond». Más fuertes sería innecesario; más débiles enfadaría a los jugadores como oportunidad perdida. La respuesta fue texto más débil más tipos de tierra."
+        },
+        {
+          "title": "Lo que suele matar una mecánica es la convergencia, no el fracaso",
+          "rules": "A medida que un diseño se asienta, herramientas que empezaron lejos derivan al mismo espacio, y una queda redundante. El corte se hace entonces por sitio, no por calidad, y ese sitio va a alguna parte concreta.",
+          "flavor": "Las mecánicas del set siguieron acercándose a las habilidades activadas de una sola vez, terreno de monstruosidad, hasta que las aventuras pudieron cumplir ese papel. Quitar monstruosidad es lo que dejó sitio a que las clases importaran."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Document de passation de Battle for Baldur's Gate",
+      "dek": "Le premier document de passation de cette chronique écrit par quelqu'un d'autre que Rosewater.",
+      "overview": "La passation de conception de vision de Glenn Jones pour Commander Legends: Battle for Baldur's Gate, sa première en tant que lead. Rosewater la publie justement parce qu'elle est bâtie autrement que les siennes, et ces différences sont l'essentiel.",
+      "takeaway": "Chaque section s'ouvre sur un TLDR qui note sa propre certitude : « Sûr que le set en veut. » « À prendre ou à laisser. » « Séduisant sur le plan créatif, mais l'exécution actuelle déçoit un peu. » L'équipe suivante sait où investir avant le premier détail.",
+      "lessons": [
+        {
+          "title": "Transmettez l'instrument avec lequel vous avez raisonné, et sa légende",
+          "rules": "Le modèle derrière les décisions vaut plus que les décisions. Passez l'outil de travail avec le document et expliquez-en chaque partie, y compris quelles cellules sont des entrées et lesquelles se calculent seules.",
+          "flavor": "Le tableur de Glenn suit la fréquence, la rareté, la répartition des classes et l'évaluation des paires de couleurs. Les cellules jaunes reçoivent des données, les vertes calculent, les orange sont les réponses ; une feuille est marquée obsolète mais conservée comme trace."
+        },
+        {
+          "title": "Énoncez les paramètres que le processus standard aurait supposés",
+          "rules": "Un travail hors des rails habituels n'hérite pas des valeurs par défaut habituelles. Dites quel est le public, quelle complexité il peut porter, et ce que la chose n'est pas, car personne en aval ne l'aura appris.",
+          "flavor": "Les sets premier ont cela réglé, aussi les passations de Rosewater n'en parlent jamais. Glenn écrit une cible de complexité explicite : plus dur qu'Adventures in the Forgotten Realms, plus simple qu'un Masters, et expressément pas une première expérience de Magic."
+        },
+        {
+          "title": "Notez votre propre confiance, section par section",
+          "rules": "Une passation qui dit à quel point elle est sûre de chaque partie indique à l'équipe réceptrice où dépenser son effort. Une prose uniforme masque la différence entre une décision arrêtée et une intuition à tester.",
+          "flavor": "L'aiguillonnage reçoit « Sûr que le set en veut ». La prouesse reçoit « À prendre ou à laisser ». Les portes : « Autant en faire quelques-unes, mais elles ne portent rien. » La section des dieux est une question : « Ils sont là, mais qu'est-ce qui les rend divins ? »"
+        },
+        {
+          "title": "Écrivez ce que vous avez rejeté et pourquoi cela a échoué",
+          "rules": "La pile des rebuts fait partie du livrable. Sans les raisons, l'équipe suivante refait les mêmes impasses, et les idées les plus prometteuses en apparence sont précisément celles qu'on réessaie.",
+          "flavor": "Le duo de sorts a échoué parce que presque aucun éphémère ne peut rester face visible dans la zone de commandement sans planer sur la partie. Le talent et les prouesses ont échoué au gabarit, et les tests les ont comparés à la monstruosité et à l'adaptation, sans plaisir."
+        },
+        {
+          "title": "Un prix disputé ne doit pas permettre à son détenteur de se retrancher",
+          "rules": "Un objet que toute la table se dispute cesse d'être amusant dès que ses récompenses aident son détenteur à le garder. Les récompenses tournées vers l'intérieur mettent fin à la lutte ; le prix doit rester atteignable pour rester intéressant.",
+          "flavor": "« Le jeu souffre quand les salles offrent à l'occupant des moyens très efficaces de se protéger, car la mécanique paraît alors inaccessible au reste de la table. Elle est plus amusante quand elle circule. »"
+        },
+        {
+          "title": "Visez de côté par rapport à ce à quoi on vous comparera",
+          "rules": "Quand une nouvelle version sera mesurée à une devancière connue, mieux est du gaspillage et moins bien se lit comme une perte. Déplacez-vous sur un autre axe pour que la comparaison cesse d'être un classement.",
+          "flavor": "Le cycle de bi-terrains devait « sembler de côté par rapport aux terrains de Battlebond ». Plus forts serait inutile ; plus faibles fâcherait comme une occasion manquée. La réponse fut un texte plus faible et des types de terrain."
+        },
+        {
+          "title": "Ce qui tue une mécanique, c'est en général la convergence, pas l'échec",
+          "rules": "À mesure qu'un design se stabilise, des outils partis de loin dérivent vers le même espace, et l'un devient redondant. La coupe se fait alors pour la place, pas pour la qualité — et cette place va quelque part de précis.",
+          "flavor": "Les mécaniques du set n'ont cessé de se rapprocher des capacités activées uniques, terrain de la monstruosité, jusqu'à ce que les aventures puissent tenir ce rôle. C'est la suppression de la monstruosité qui a permis aux classes de compter."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Documento de repasse de Battle for Baldur's Gate",
+      "dek": "O primeiro documento de repasse desta coluna escrito por outra pessoa que não Rosewater.",
+      "overview": "O repasse de design de visão de Glenn Jones para Commander Legends: Battle for Baldur's Gate, o primeiro dele como líder. Rosewater o publica justamente porque é construído de outro jeito que os dele, e essas diferenças são o ponto.",
+      "takeaway": "Cada seção abre com um TLDR que classifica a própria certeza: «Confiante de que o set quer isto.» «Pegue ou largue.» «Atraente no criativo, mas a execução atual é meio insatisfatória.» A equipe seguinte descobre onde gastar esforço antes de ler um detalhe sequer.",
+      "lessons": [
+        {
+          "title": "Entregue o instrumento com que você raciocinou, e uma legenda para lê-lo",
+          "rules": "O modelo por trás das decisões vale mais que as decisões. Passe a ferramenta de trabalho junto com o documento e explique cada parte, inclusive quais células são entradas e quais se calculam sozinhas.",
+          "flavor": "A planilha de Glenn acompanha frequência, raridade, distribuição de classes e avaliações de pares de cores. Células amarelas recebem dados, verdes calculam, laranjas são as respostas; e uma aba está marcada como obsoleta, mas guardada como registro."
+        },
+        {
+          "title": "Declare os parâmetros que o processo padrão teria pressuposto",
+          "rules": "Trabalho fora do trilho de sempre não herda os padrões de sempre. Diga quem é o público, quanta complexidade ele aguenta e o que a coisa não é, porque ninguém rio abaixo terá ouvido isso.",
+          "flavor": "Sets principais já têm isso resolvido, então os repasses do próprio Rosewater nunca dizem. Glenn escreve uma meta de complexidade explícita: mais difícil que Adventures in the Forgotten Realms, mais fácil que um Masters, e expressamente não uma primeira experiência com Magic."
+        },
+        {
+          "title": "Classifique a própria confiança, seção por seção",
+          "rules": "Um repasse que diz o quanto está seguro de cada parte informa à equipe receptora onde gastar esforço. Uma prosa uniforme esconde a diferença entre uma decisão fechada e um palpite que você gostaria de ver testado.",
+          "flavor": "Instigar recebe «Confiante de que o set quer isto». Ímpeto recebe «Pegue ou largue». Os portões: «Já que é assim, façamos uns poucos, mas eles não sustentam peso». A seção dos deuses é uma pergunta: «Eles estão aqui, mas o que os torna divinos?»"
+        },
+        {
+          "title": "Anote o que você descartou e por que falhou",
+          "rules": "A pilha de descartes faz parte da entrega. Sem os motivos, a equipe seguinte percorre os mesmos becos sem saída, e as ideias de aparência mais promissora são justamente as que voltam a ser tentadas.",
+          "flavor": "Par de mágicas falhou porque quase nenhuma instantânea pode ficar virada para cima na zona de comando sem pairar sobre a partida. Habilidoso e os feitos falharam no template, e nos testes foram comparados a monstruosidade e adaptar de um jeito que ninguém curtiu."
+        },
+        {
+          "title": "Um prêmio disputado não pode deixar quem o tem se entrincheirar",
+          "rules": "Um objeto pelo qual a mesa inteira briga deixa de ser divertido assim que suas recompensas ajudam o portador a mantê-lo. Recompensas voltadas para dentro encerram a disputa; o prêmio precisa seguir alcançável para seguir interessante.",
+          "flavor": "«A jogabilidade sofre quando as salas dão ao ocupante formas muito eficazes de se proteger, porque isso faz a mecânica parecer inacessível ao resto da mesa. É mais divertida quando está em movimento.»"
+        },
+        {
+          "title": "Mire de lado em relação àquilo com que você será comparado",
+          "rules": "Quando uma versão nova for medida contra uma antecessora conhecida, melhor é desperdício e pior se lê como perda. Mova-se por outro eixo para que a comparação deixe de ser um ranking.",
+          "flavor": "O ciclo de terrenos duplos devia «parecer de lado em relação aos terrenos de Battlebond». Mais fortes seria desnecessário; mais fracos irritaria como oportunidade perdida. A resposta foi texto mais fraco somado a tipos de terreno."
+        },
+        {
+          "title": "O que costuma matar uma mecânica é a convergência, não o fracasso",
+          "rules": "Conforme um design assenta, ferramentas que começaram distantes derivam para o mesmo espaço, e uma fica redundante. O corte é feito então por espaço, não por qualidade — e esse espaço vai para algum lugar específico.",
+          "flavor": "As mecânicas do set foram se aproximando das habilidades ativadas de uma vez só, terreno da monstruosidade, até que as aventuras pudessem cumprir o papel. Tirar monstruosidade é o que deixou as classes importarem."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "《博德之门争夺战》构想设计交接文件",
+      "dek": "本专栏里第一份不是罗斯沃特写的交接文件。",
+      "overview": "Glenn Jones 为《Commander Legends: Battle for Baldur's Gate》写的构想设计交接文件，也是他第一次担任主设计。罗斯沃特把它拿出来，恰恰是因为它的搭法和自己的不一样——而那些结构上的差别，才是重点。",
+      "takeaway": "每一节都以一句 TLDR 开头，为自己的把握程度打分：「有把握，这个系列需要它。」「要不要都行。」「创意上很吸引人，但目前的实现有点不尽如人意。」下一支团队还没读到任何细节，就已经知道该把力气花在哪里。",
+      "lessons": [
+        {
+          "title": "把你用来推理的那件仪器交出去，并附上一份读法说明",
+          "rules": "决定背后的那个模型，比这些决定本身更值钱。把工作用的工具连同文件一起交出去，并逐一说明它的每个部分，包括哪些格子要手填、哪些格子会自己算。",
+          "flavor": "Glenn 的表格追踪出现频率、稀有度、职业分布，以及各颜色配对的评估。黄色格子要手动填数据，绿色格子自行计算，橙色格子才是你想知道的答案；还有一页被标为「已废弃」，却作为记录保留了下来。"
+        },
+        {
+          "title": "把标准流程本来会默认掉的那些参数明写出来",
+          "rules": "不在常规轨道上的工作，继承不到常规的默认值。说清受众是谁、他们能扛住多少复杂度、以及这东西「不是」什么——因为下游没有任何人被告知过这些。",
+          "flavor": "主要系列早已把这些定死了，所以罗斯沃特自己的交接文件从不写。Glenn 则明写了复杂度目标：比《Adventures in the Forgotten Realms》难，比 Masters 系列简单，并且明确不是「第一次接触万智牌」的体验。"
+        },
+        {
+          "title": "为自己的把握程度逐节打分",
+          "rules": "一份会说明「每一部分我有多确定」的交接文件，等于告诉接手的团队该把力气花在哪。均质的行文会藏住一个区别：这是已经定死的决定，还是一个你希望被试一试的猜想。",
+          "flavor": "「唆使」得到的是「有把握，这个系列需要它」。「英勇」得到的是「要不要都行」。城门是：「顺手做几个也行，但它们撑不起分量。」而神明那一节本身就是个问句：「他们在这儿，可是什么让他们成其为神？」"
+        },
+        {
+          "title": "把你否掉的东西、以及它为什么不成，都写下来",
+          "rules": "那堆废案本身就是交付物的一部分。没有理由，下一支团队会把同样的死胡同再走一遍；而看上去最有希望的那些点子，恰恰是最会被重新试一次的。",
+          "flavor": "「咒语配对」不成，是因为几乎没有哪张瞬间能正面朝上待在指挥区而不整局悬在头顶。「熟练／专长」栽在模板上，试玩时被拿去和怪物化、适应作比较，而那种比较谁也不喜欢。"
+        },
+        {
+          "title": "一个被争夺的奖品，不能让持有者就地筑垒",
+          "rules": "一件全桌都在抢的东西，一旦它的奖励开始帮持有者守住它，就不好玩了。向内收的奖励会终结这场争夺；奖品必须始终够得着，才可能一直有意思。",
+          "flavor": "「当房间给占据者提供特别有效的自保手段时，对局体验会变差，因为那让这个机制对牌桌上其他人显得遥不可及。它最有意思的时候，是它在流动的时候。」"
+        },
+        {
+          "title": "相对于「你会被拿来跟它比」的那个东西，往旁边瞄",
+          "rules": "当一个新版本注定要被拿去和一个known的前作比较时，做得更好是浪费，做得更差则会被读成损失。往另一个轴上挪，好让这场比较不再是一次排名。",
+          "flavor": "这组双色地应当「相对于 Battlebond 的地往旁边站」。更强没有必要；更弱则会让玩家觉得错失了一次拿到更多 Battlebond 地的机会。答案是：规则文字更弱，但补上地牌类别。"
+        },
+        {
+          "title": "杀死一个机制的，通常是收敛，而不是失败",
+          "rules": "随着一个设计逐渐定型，原本相距很远的工具会漂到同一片空间里，其中一个就变得多余。这时候的删减是为了腾地方，而不是因为质量——而腾出的地方会去到某个很具体的地方。",
+          "flavor": "这个系列的机制不断朝「一次性起动式异能」靠拢，那正是怪物化的地盘，直到冒险足以承担这个角色。正是拿掉怪物化，才让「职业相关」有了容身之处。"
+        }
+      ]
+    }
+  }
+}
