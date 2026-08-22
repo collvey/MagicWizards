@@ -41,8 +41,8 @@ over `file://`.
 
 ```bash
 npm run validate   # check every article and translation file
-npm run build      # regenerate content/manifest.json
-npm run check      # both of the above; run this before committing
+npm run build      # write content/manifest.json by hand (the deploy does this for you)
+npm run check      # both of the above
 npm run discover   # rebuild the queue of every Making Magic article
 npm run discover -- --next 5   # print the next few URLs to work on
 ```
@@ -73,7 +73,7 @@ assets/js/
   dom.js                   small element helpers
 content/
   site.json                languages and series definitions — edit this
-  manifest.json            generated; do not edit
+  manifest.json            generated at deploy time; not in the repo
   articles/<id>.json       one file per article, all languages inside
   priority.json            curated order for the queue's first tier — edit this
   skip.json                articles not worth summarizing, with reasons — edit this
@@ -87,8 +87,9 @@ scripts/                   validate, build, fetch, discover, serve
 
 One file per article, with every language inside it, means adding an article is
 adding a file and nothing else — no index to update by hand, no per-language
-directory tree to keep in sync. `npm run build` regenerates the manifest from
-whatever is on disk, and CI refuses to deploy if the committed manifest is stale.
+directory tree to keep in sync. The manifest is derived from whatever is on
+disk, so it isn't committed: the deploy builds it, and the dev server rebuilds
+it per request. There is no generated file anyone has to remember to refresh.
 
 The manifest holds only what a card needs to render (titles, dates, series
 position, lesson colours), so the home and library views stay fast as the archive
@@ -117,7 +118,7 @@ English summary rather than an empty page, and the article header says so.
 ## Deployment
 
 Pushing to `main` runs `.github/workflows/deploy.yml`, which validates the
-content, confirms the manifest is current, and publishes to GitHub Pages at
+content, builds the manifest, and publishes to GitHub Pages at
 <https://collvey.github.io/MagicWizards/>.
 
 ## The queue

@@ -9,6 +9,7 @@ import http from 'node:http';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { ROOT } from './lib/paths.mjs';
+import { buildManifest, MANIFEST_FILE } from './lib/manifest.mjs';
 
 const PORT = Number(process.env.PORT ?? 8080);
 const TYPES = {
@@ -33,6 +34,10 @@ const server = http.createServer(async (req, res) => {
   }
 
   try {
+    // The manifest is generated, so build it fresh on demand: add an article
+    // file, reload the page, and it's there — no build step to remember.
+    if (file === MANIFEST_FILE) await buildManifest();
+
     const body = await fs.readFile(file);
     res.writeHead(200, {
       'content-type': TYPES[path.extname(file)] ?? 'application/octet-stream',

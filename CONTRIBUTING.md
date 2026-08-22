@@ -103,13 +103,13 @@ the article ids in order, and set `series` on each article:
 ## 5. Check and commit
 
 ```bash
-npm run check     # validate, then rebuild the manifest
+npm run validate  # check the article is complete in every language
 npm run serve     # look at it
 ```
 
-Commit `content/manifest.json` along with your article — CI fails the deploy if
-the committed manifest doesn't match what the content generates. `npm run check`
-also refreshes the `done` count in `content/progress.json`, so commit that too.
+Commit the article file. `content/manifest.json` is generated — it is not in the
+repo at all, the deploy builds it, and `npm run serve` rebuilds it on every
+request — so there is nothing to keep in sync by hand.
 
 Nothing else needs updating for the article to appear. The home page's *recently
 summarized* band ranks on `summarizedAt`, which `npm run fetch` stamps for you,
