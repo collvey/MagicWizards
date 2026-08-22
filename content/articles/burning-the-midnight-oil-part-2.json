@@ -1,0 +1,216 @@
+{
+  "id": "burning-the-midnight-oil-part-2",
+  "slug": "burning-the-midnight-oil-part-2",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2021-09-20",
+  "series": { "id": "burning-the-midnight-oil", "order": 2, "total": 2 },
+  "tags": ["card-by-card", "innistrad", "development"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/burning-the-midnight-oil-part-2",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T00:36:06.135Z",
+  "lessons": [
+    { "n": 1, "color": "G" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Burning the Midnight Oil, Part 2",
+      "dek": "Five-version design chains, read like a forensic record.",
+      "overview": "The second card-by-card column on Innistrad: Midnight Hunt, walking the version histories of Ludevic, Sigarda, Slogurk, and Tovolar. Rosewater reads the changes to infer which team made them and why.",
+      "takeaway": "R&D has shifted from tutoring toward impulsing — looking at the top few cards instead of the whole library — because a guaranteed fetch pushes a deck toward one card, and a limited look pushes it toward variety.",
+      "lessons": [
+        {
+          "title": "Prefer a look at the top few cards to a search of the whole deck",
+          "rules": "A guaranteed search rewards building around a single card and returns the same thing every time. A limited look rewards having many usable cards and varies what you get, which produces better games.",
+          "flavor": "Sigarda's coven ability finished as a look at the top five rather than a library search. Rosewater names this as a deliberate multi-year shift in how R&D writes these effects."
+        },
+        {
+          "title": "Boost power, not toughness",
+          "rules": "Raising toughness lifts a card's power level sharply and adds real board complexity at the same time. Raising power alone gets most of the effect for much less of both costs.",
+          "flavor": "Tovolar's back face began by pumping +X/+X and shipped pumping power only. Rosewater says this is now common practice, and playtesting is what established it."
+        },
+        {
+          "title": "Split a two-colour card's keywords to show both colours",
+          "rules": "Give a multicolour creature one keyword its first colour has and its second doesn't, one the reverse, and one they share. The abilities then carry the colour identity without any reminder text.",
+          "flavor": "A late Sigarda had flying, trample, and vigilance: white but not green, green but not white, and both. Vigilance was the one that didn't survive to print."
+        },
+        {
+          "title": "Effects that give something for free are the first thing playtesting kills",
+          "rules": "A card built around casting things for nothing rarely survives contact with the table. When it fails, the fix is usually a different card rather than a higher price on the same one.",
+          "flavor": "Slogurk spent three versions letting you cast flashback cards free, then changed completely. Rosewater infers the reason from the size of the change: doing things for free usually is the problem."
+        },
+        {
+          "title": "Design the ability, then its enabler, then the escape from it",
+          "rules": "Once you pick the behaviour a card is about, it needs something that feeds it, and it needs a way out if feeding it turns dangerous. All three are part of the same design, not additions to it.",
+          "flavor": "Oozes grow, so Slogurk grew on counters. Then it got a combat trigger to keep the growth coming, and an activated ability so its own trigger couldn't mill the player to death."
+        },
+        {
+          "title": "A request names a thing, but it means the thing for a purpose",
+          "rules": "Delivering the noun the audience asked for doesn't satisfy the ask if you miss what they wanted it to do. The gap won't be visible until the thing ships and doesn't work for them.",
+          "flavor": "Players wanted a legendary Werewolf. Ulrich was one and made a fine commander — just not one built to lead a Werewolf deck. Tovolar was the third attempt and the first designed for the job."
+        }
+      ]
+    },
+    "es": {
+      "title": "Quemando el aceite de medianoche, parte 2",
+      "dek": "Cadenas de cinco versiones, leídas como un expediente forense.",
+      "overview": "La segunda columna carta por carta sobre Innistrad: Midnight Hunt, recorriendo el historial de versiones de Ludevic, Sigarda, Slogurk y Tovolar. Rosewater lee los cambios para deducir qué equipo los hizo y por qué.",
+      "takeaway": "I+D ha pasado de tutorizar a «impulsar»: mirar las primeras cartas en lugar de toda la biblioteca, porque una búsqueda garantizada empuja el mazo hacia una sola carta y una mirada limitada lo empuja hacia la variedad.",
+      "lessons": [
+        {
+          "title": "Prefiere mirar las primeras cartas antes que buscar en todo el mazo",
+          "rules": "Una búsqueda garantizada premia construir alrededor de una sola carta y devuelve siempre lo mismo. Una mirada limitada premia tener muchas cartas útiles y varía lo que obtienes, lo que produce mejores partidas.",
+          "flavor": "La habilidad de aquelarre de Sigarda acabó mirando las cinco primeras cartas en vez de buscar en la biblioteca. Rosewater lo señala como un giro deliberado de varios años en cómo I+D escribe estos efectos."
+        },
+        {
+          "title": "Sube la fuerza, no la resistencia",
+          "rules": "Subir la resistencia eleva bruscamente el nivel de poder de una carta y a la vez añade bastante complejidad al campo. Subir solo la fuerza logra casi todo el efecto por mucho menos de ambos costes.",
+          "flavor": "El reverso de Tovolar empezó dando +X/+X y salió impreso subiendo solo la fuerza. Rosewater dice que ya es práctica habitual, y que fueron las pruebas de juego las que lo establecieron."
+        },
+        {
+          "title": "Reparte las habilidades de una carta bicolor para mostrar ambos colores",
+          "rules": "Dale a una criatura multicolor una habilidad que tenga su primer color y no el segundo, otra al revés, y otra compartida. Las habilidades cargan así con la identidad cromática sin ningún texto recordatorio.",
+          "flavor": "Una Sigarda tardía tenía volar, arrollar y vigilancia: blanco pero no verde, verde pero no blanco, y ambos. La vigilancia fue la que no llegó a la impresión."
+        },
+        {
+          "title": "Los efectos que regalan algo son lo primero que matan las pruebas de juego",
+          "rules": "Una carta construida alrededor de lanzar cosas gratis rara vez sobrevive al contacto con la mesa. Cuando falla, el arreglo suele ser otra carta distinta, y no un precio más alto sobre la misma.",
+          "flavor": "Slogurk pasó tres versiones dejándote lanzar gratis cartas con flashback, y luego cambió por completo. Rosewater deduce el motivo por el tamaño del cambio: hacer cosas gratis suele ser el problema."
+        },
+        {
+          "title": "Diseña la habilidad, luego lo que la alimenta, luego la salida",
+          "rules": "Una vez elegido el comportamiento del que trata la carta, hace falta algo que lo alimente y una vía de escape si alimentarlo se vuelve peligroso. Los tres son parte del mismo diseño, no añadidos a él.",
+          "flavor": "Los limos crecen, así que Slogurk creció con contadores. Luego recibió un disparo de combate para sostener el crecimiento y una habilidad activada para que su propio disparo no molera al jugador hasta matarlo."
+        },
+        {
+          "title": "Una petición nombra una cosa, pero se refiere a esa cosa para algo",
+          "rules": "Entregar el sustantivo que el público pidió no satisface la petición si te pierdes para qué lo querían. El hueco no se verá hasta que la cosa salga y no les sirva.",
+          "flavor": "Los jugadores querían un hombre lobo legendario. Ulrich lo era y servía de buen comandante, solo que no estaba construido para liderar un mazo de hombres lobo. Tovolar fue el tercer intento y el primero diseñado para el puesto."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Brûler l'huile de minuit, partie 2",
+      "dek": "Des chaînes de cinq versions, lues comme un dossier d'expertise.",
+      "overview": "La seconde chronique carte par carte sur Innistrad: Midnight Hunt, qui parcourt l'historique des versions de Ludevic, Sigarda, Slogurk et Tovolar. Rosewater lit les modifications pour deviner quelle équipe les a faites, et pourquoi.",
+      "takeaway": "La R&D est passée de la recherche à « l'impulsion » : regarder les premières cartes plutôt que toute la bibliothèque, car une recherche garantie pousse un deck vers une carte unique, et un regard limité le pousse vers la variété.",
+      "lessons": [
+        {
+          "title": "Préférez un regard sur les premières cartes à une fouille du deck entier",
+          "rules": "Une recherche garantie récompense la construction autour d'une seule carte et rend toujours la même chose. Un regard limité récompense le fait d'avoir beaucoup de cartes jouables et varie le résultat, ce qui donne de meilleures parties.",
+          "flavor": "La capacité de cabale de Sigarda a fini en regard sur les cinq premières cartes plutôt qu'en recherche dans la bibliothèque. Rosewater y voit un virage délibéré, pris sur plusieurs années, dans l'écriture de ces effets."
+        },
+        {
+          "title": "Augmentez la force, pas l'endurance",
+          "rules": "Augmenter l'endurance élève fortement le niveau de puissance d'une carte tout en ajoutant une réelle complexité de plateau. N'augmenter que la force obtient l'essentiel de l'effet pour bien moins de ces deux coûts.",
+          "flavor": "Le verso de Tovolar donnait au départ +X/+X et est sorti en n'augmentant que la force. Rosewater dit que c'est devenu la pratique courante, et que ce sont les tests qui l'ont établie."
+        },
+        {
+          "title": "Répartissez les capacités d'une carte bicolore pour montrer ses deux couleurs",
+          "rules": "Donnez à une créature multicolore une capacité que sa première couleur possède et pas la seconde, une à l'inverse, et une partagée. Les capacités portent alors l'identité chromatique sans le moindre texte de rappel.",
+          "flavor": "Une Sigarda tardive avait le vol, le piétinement et la vigilance : blanc mais pas vert, vert mais pas blanc, et les deux. C'est la vigilance qui n'a pas survécu jusqu'à l'impression."
+        },
+        {
+          "title": "Les effets qui donnent quelque chose gratuitement sont les premiers que les tests éliminent",
+          "rules": "Une carte bâtie autour du fait de lancer des choses pour rien survit rarement au contact de la table. Quand elle échoue, le correctif est en général une autre carte, pas un prix plus élevé sur la même.",
+          "flavor": "Slogurk a passé trois versions à vous laisser lancer gratuitement des cartes à flashback, puis a changé du tout au tout. Rosewater en déduit la raison à l'ampleur du changement : faire les choses gratuitement, c'est en général ça le problème."
+        },
+        {
+          "title": "Concevez la capacité, puis ce qui l'alimente, puis la sortie de secours",
+          "rules": "Une fois choisi le comportement dont parle la carte, il lui faut quelque chose qui l'alimente et une issue si l'alimenter devient dangereux. Les trois font partie du même design, ce ne sont pas des ajouts.",
+          "flavor": "Les limons grandissent, donc Slogurk grandit avec des marqueurs. Il a ensuite reçu un déclencheur au combat pour entretenir la croissance, et une capacité activée pour que son propre déclencheur ne le meule pas à mort."
+        },
+        {
+          "title": "Une demande nomme une chose, mais elle vise cette chose pour un usage",
+          "rules": "Livrer le nom que le public a demandé ne satisfait pas la demande si vous manquez l'usage qu'il en attendait. L'écart ne sera visible qu'une fois la chose sortie, et inutilisable pour lui.",
+          "flavor": "Les joueurs voulaient un loup-garou légendaire. Ulrich en était un et faisait un bon commandant — simplement pas un commandant conçu pour mener un deck de loups-garous. Tovolar fut la troisième tentative, et la première pensée pour le poste."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Queimando o óleo da meia-noite, parte 2",
+      "dek": "Cadeias de cinco versões, lidas como um laudo forense.",
+      "overview": "A segunda coluna carta a carta sobre Innistrad: Midnight Hunt, percorrendo o histórico de versões de Ludevic, Sigarda, Slogurk e Tovolar. Rosewater lê as mudanças para deduzir qual equipe as fez e por quê.",
+      "takeaway": "A P&D migrou da busca para o «impulso»: olhar as primeiras cartas em vez do grimório inteiro, porque uma busca garantida empurra o deck para uma única carta e um olhar limitado o empurra para a variedade.",
+      "lessons": [
+        {
+          "title": "Prefira olhar as primeiras cartas a vasculhar o deck inteiro",
+          "rules": "Uma busca garantida premia construir em torno de uma só carta e devolve sempre a mesma coisa. Um olhar limitado premia ter muitas cartas jogáveis e varia o que você recebe, o que gera partidas melhores.",
+          "flavor": "A habilidade de coven de Sigarda terminou olhando as cinco primeiras cartas em vez de buscar no grimório. Rosewater aponta isso como uma virada deliberada, de vários anos, em como a P&D escreve esses efeitos."
+        },
+        {
+          "title": "Aumente o poder, não a resistência",
+          "rules": "Aumentar a resistência eleva bruscamente o nível de poder de uma carta e ao mesmo tempo acrescenta bastante complexidade ao campo. Aumentar só o poder obtém quase todo o efeito por muito menos dos dois custos.",
+          "flavor": "O verso de Tovolar começou dando +X/+X e saiu impresso aumentando só o poder. Rosewater diz que virou prática comum, e que foram os testes de jogo que a estabeleceram."
+        },
+        {
+          "title": "Divida as habilidades de uma carta bicolor para mostrar as duas cores",
+          "rules": "Dê a uma criatura multicolorida uma habilidade que a primeira cor tenha e a segunda não, outra ao contrário, e outra compartilhada. As habilidades passam a carregar a identidade cromática sem nenhum texto de lembrete.",
+          "flavor": "Uma Sigarda tardia tinha voar, atropelar e vigilância: branco mas não verde, verde mas não branco, e ambos. A vigilância foi a que não chegou à impressão."
+        },
+        {
+          "title": "Efeitos que dão algo de graça são a primeira coisa que os testes matam",
+          "rules": "Uma carta construída em torno de conjurar coisas sem pagar raramente sobrevive ao contato com a mesa. Quando falha, o conserto costuma ser outra carta, e não um preço maior na mesma.",
+          "flavor": "Slogurk passou três versões deixando você conjurar de graça cartas com flashback, e então mudou por completo. Rosewater deduz o motivo pelo tamanho da mudança: fazer coisas de graça costuma ser o problema."
+        },
+        {
+          "title": "Projete a habilidade, depois o que a alimenta, depois a saída",
+          "rules": "Escolhido o comportamento de que a carta trata, ela precisa de algo que o alimente e de uma saída caso alimentá-lo fique perigoso. Os três fazem parte do mesmo design, não são acréscimos a ele.",
+          "flavor": "Gosmas crescem, então Slogurk cresceu com marcadores. Depois ganhou um gatilho de combate para sustentar o crescimento e uma habilidade ativada para que o próprio gatilho não moesse o jogador até a morte."
+        },
+        {
+          "title": "Um pedido nomeia uma coisa, mas quer essa coisa para alguma finalidade",
+          "rules": "Entregar o substantivo que o público pediu não satisfaz o pedido se você perder a finalidade que eles tinham em mente. A lacuna só ficará visível quando a coisa sair e não servir para eles.",
+          "flavor": "Os jogadores queriam um lobisomem lendário. Ulrich era um e dava um bom comandante — só que não um construído para liderar um deck de lobisomens. Tovolar foi a terceira tentativa e a primeira desenhada para o cargo."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "挑灯夜战，第二部分",
+      "dek": "五个版本的设计链条，读起来像一份法医记录。",
+      "overview": "关于《Innistrad: Midnight Hunt》的第二篇逐张牌专栏，梳理了 Ludevic、Sigarda、Slogurk 与 Tovolar 的版本史。罗斯沃特通过改动本身，反推是哪支团队改的、以及为什么。",
+      "takeaway": "研发部已经从「搜寻」转向「冲动式选择」——只看牌库顶的几张，而不是翻遍整个牌库。因为保证搜到会把套牌推向单一一张牌，而有限的一瞥会把它推向多样。",
+      "lessons": [
+        {
+          "title": "宁可看牌库顶的几张，也不要搜遍整个牌库",
+          "rules": "保证能搜到，奖励的是围绕单一一张牌来构筑，而且每次拿回的都一样。有限的一瞥奖励的是「手上有很多张能用的牌」，并且每次结果不同——这带来更好的对局。",
+          "flavor": "Sigarda 的聚会异能最终定为「看牌库顶五张」，而不是搜寻牌库。罗斯沃特把这称作研发部在这类效应写法上、跨越数年的一次有意转向。"
+        },
+        {
+          "title": "加力量，别加防御力",
+          "rules": "抬高防御力会大幅提升一张牌的强度，同时还会给战场增加相当可观的复杂度。只加力量，能以远低于这两项的代价，拿到其中大部分效果。",
+          "flavor": "Tovolar 的背面最初是给 +X/+X，印出来时只加力量。罗斯沃特说这如今已是常规做法，而确立它的正是试玩。"
+        },
+        {
+          "title": "把双色牌的异能拆开，让两个颜色都露面",
+          "rules": "给一张多色生物一个「第一色有、第二色没有」的异能，一个反过来的，再加一个两色共有的。这样异能本身就承载了颜色识别，不需要任何提示文字。",
+          "flavor": "后期某版 Sigarda 拥有飞行、践踏与警戒：白有绿无、绿有白无、以及两者皆有。最终没能撑到印刷的是警戒。"
+        },
+        {
+          "title": "「免费给东西」的效应，是试玩最先干掉的那一类",
+          "rules": "围绕「不付代价就施放东西」造出来的牌，很少能在真正上桌后活下来。它出问题时，修法通常是换一张完全不同的牌，而不是给同一张牌标个更高的价。",
+          "flavor": "Slogurk 有三个版本都让你免费施放具返照的牌，然后整张牌彻底变了。罗斯沃特从改动的幅度反推出原因：免费做事，通常本身就是问题所在。"
+        },
+        {
+          "title": "先设计异能，再设计喂养它的东西，最后设计逃生口",
+          "rules": "一旦选定了这张牌要讲的行为，它就需要有东西来喂养这个行为，也需要在喂养变得危险时有条退路。这三者属于同一个设计，而不是事后加上去的补丁。",
+          "flavor": "泥浆会长大，于是 Slogurk 靠指示物长大。接着它拿到一个战斗触发来维持生长，又拿到一个起动式异能，好让它自己的触发不至于把玩家磨死。"
+        },
+        {
+          "title": "一个请求说出的是一样东西，但它要的是这样东西去做某件事",
+          "rules": "把受众点名要的那个名词交出去，并不算满足了请求——如果你漏掉了他们想拿它来做什么。这道缺口要等到东西上市、对他们不管用时才会显形。",
+          "flavor": "玩家想要一只传奇狼人。Ulrich 是一只，也是不错的指挥官——只是并非为「领导一副狼人套牌」而造。Tovolar 是第三次尝试，也是第一次为这份工作而设计。"
+        }
+      ]
+    }
+  }
+}
