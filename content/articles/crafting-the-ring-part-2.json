@@ -1,0 +1,242 @@
+{
+  "id": "crafting-the-ring-part-2",
+  "slug": "crafting-the-ring-part-2",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2023-06-05",
+  "series": { "id": "crafting-the-ring", "order": 2, "total": 2 },
+  "tags": ["design-story", "universes-beyond", "mechanics"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/crafting-the-ring-part-2",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T02:43:40.391Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Crafting the Ring, Part 2",
+      "dek": "When \"it plays fine\" is a failing grade.",
+      "overview": "The set design half, and the Ring's full redesign chain — Equipment token, then a status, then a four-stage escalation. The reasoning at each step is unusually explicit about what counted as failure and why.",
+      "takeaway": "The status version played well and wasn't exciting — what R&D calls a workhorse mechanic. For the One Ring that was a failure. Too core to the books to be allowed to be mundane.",
+      "lessons": [
+        {
+          "title": "\"It works fine\" is a failing grade for the thing your project is named after",
+          "rules": "A competent, unremarkable result is acceptable almost everywhere and unacceptable at the centre. Judge the load-bearing element against what people expect of it, not against whether it functions.",
+          "flavor": "The status version played well but wasn't exciting — a workhorse, in R&D's term. Rosewater's verdict is that this simply didn't feel right: the One Ring is too core to the books to be mundane."
+        },
+        {
+          "title": "Escalating stages express a process that a fixed grant can't",
+          "rules": "When what you're depicting is something happening over time, a single unchanging effect can only describe its end state. A ladder of steps lets the audience feel the progression rather than being told about it.",
+          "flavor": "The Ring stopped granting one set of abilities and started growing in power each time you claimed it. That captured what a fixed bonus couldn't: something that keeps corrupting you the longer you hold it."
+        },
+        {
+          "title": "A downside nobody engages with communicates nothing",
+          "rules": "An accurate cost that makes people avoid the thing entirely fails at the job you gave it, because the experience never happens. Faithfulness that prevents participation isn't faithfulness at all.",
+          "flavor": "They explored having the Ring hurt its bearer over time, which is exactly right for the source. The gameplay was poor because it discouraged you from using the Ring, so nobody would ever have felt the corruption."
+        },
+        {
+          "title": "Give opposed sides opposed shapes",
+          "rules": "Two factions in conflict shouldn't just have different content — they should be structurally contrary, so that playing one feels like the opposite of playing the other. State that as a goal and pursue it deliberately.",
+          "flavor": "The Orc army amasses into one enormous creature; the human-led side goes wide with many small ones. Rosewater names this as a standing preference: contrast the two sides flavourfully and mechanically wherever possible."
+        },
+        {
+          "title": "Reject a version by enumerating the objections, including the one about fit",
+          "rules": "A rejection stated as a feeling can't be acted on. List the specific problems, and let one of them be about whether the thing is right, because that objection is real evidence alongside the technical ones.",
+          "flavor": "The Equipment token was wordy, confusing rather than fun, and gave different colours very different access. The fourth objection is that being destroyable by ordinary artifact removal just felt wrong."
+        },
+        {
+          "title": "When neither adjacent value works, change the effect",
+          "rules": "If the setting below is too weak and the setting above is too strong, the parameter isn't where the problem lives. Stop turning the dial and replace what it's attached to.",
+          "flavor": "Scry 1 was too weak and scry 2 too strong — and scry also clashed with the Elves' theme. They dropped scrying entirely for looting on attack, which brought the aggression they separately wanted."
+        },
+        {
+          "title": "Specify the outcome, not the ability, when you want it reliable",
+          "rules": "Granting an ability makes the result depend on the carrier's other properties and on how events play out. Naming the outcome directly cuts that dependency, and the effect happens whatever the circumstances.",
+          "flavor": "The third stage destroys any creature that blocks the Ring-bearer. They deliberately didn't grant deathtouch, because they wanted it to work even when the Ring-bearer never damaged the blocker."
+        }
+      ]
+    },
+    "es": {
+      "title": "Forjando el Anillo, parte 2",
+      "dek": "Cuando «funciona bien» es un suspenso.",
+      "overview": "La mitad de diseño de set, y la cadena completa de rediseño del Anillo: ficha de equipo, luego estatus, luego una escalada de cuatro etapas. El razonamiento en cada paso es inusualmente explícito sobre qué contaba como fracaso y por qué.",
+      "takeaway": "La versión de estatus jugaba bien y no era emocionante: lo que I+D llama una mecánica de carga. Para el Anillo Único eso era un fracaso. Demasiado central en los libros como para permitirse ser anodino.",
+      "lessons": [
+        {
+          "title": "«Funciona bien» es un suspenso para aquello que da nombre a tu proyecto",
+          "rules": "Un resultado competente y anodino es aceptable casi en cualquier sitio e inaceptable en el centro. Juzga el elemento que sostiene la obra contra lo que la gente espera de él, no contra si funciona.",
+          "flavor": "La versión de estatus jugaba bien pero no era emocionante: una mecánica de carga, en el término de I+D. El veredicto de Rosewater es que simplemente no encajaba: el Anillo Único es demasiado central para ser anodino."
+        },
+        {
+          "title": "Las etapas ascendentes expresan un proceso que un otorgamiento fijo no puede",
+          "rules": "Cuando lo que representas es algo que ocurre a lo largo del tiempo, un efecto único e inmutable solo puede describir su estado final. Una escalera de pasos deja que el público sienta la progresión en vez de que se la cuenten.",
+          "flavor": "El Anillo dejó de otorgar un conjunto de habilidades y pasó a crecer en poder cada vez que lo reclamabas. Eso capturó lo que un bono fijo no podía: algo que sigue corrompiéndote cuanto más lo conservas."
+        },
+        {
+          "title": "Un inconveniente con el que nadie interactúa no comunica nada",
+          "rules": "Un coste fiel que hace que la gente evite la cosa por completo fracasa en su tarea, porque la experiencia nunca ocurre. Una fidelidad que impide la participación no es fidelidad en absoluto.",
+          "flavor": "Exploraron que el Anillo dañara a su portador con el tiempo, que es exactamente lo correcto respecto a la fuente. El juego era pobre porque te desanimaba a usarlo, así que nadie habría sentido nunca la corrupción."
+        },
+        {
+          "title": "Dale formas opuestas a los bandos opuestos",
+          "rules": "Dos facciones en conflicto no deberían tener solo contenido distinto: deberían ser estructuralmente contrarias, de modo que jugar una se sienta como lo opuesto a jugar la otra. Enúncialo como objetivo y persíguelo.",
+          "flavor": "El ejército orco se acumula en una criatura enorme; el bando humano va a lo ancho con muchas pequeñas. Rosewater lo nombra como preferencia permanente: contrastar ambos bandos, en sabor y en mecánica, siempre que se pueda."
+        },
+        {
+          "title": "Rechaza una versión enumerando las objeciones, incluida la de encaje",
+          "rules": "Un rechazo expresado como sensación no se puede accionar. Lista los problemas concretos, y deja que uno sea sobre si la cosa es adecuada, porque esa objeción es prueba real junto a las técnicas.",
+          "flavor": "La ficha de equipo era prolija, confusa más que divertida, y daba a cada color un acceso muy distinto. La cuarta objeción es que poder destruirla con remoción de artefactos corriente simplemente sentaba mal."
+        },
+        {
+          "title": "Cuando ningún valor contiguo funciona, cambia el efecto",
+          "rules": "Si el ajuste inferior es demasiado débil y el superior demasiado fuerte, el problema no vive en el parámetro. Deja de girar el dial y sustituye aquello a lo que está conectado.",
+          "flavor": "Adivinar 1 era demasiado débil y adivinar 2 demasiado fuerte, y además chocaba con el tema de los elfos. Abandonaron el adivinar por completo a favor de robar y descartar al atacar, lo que aportó la agresión que buscaban aparte."
+        },
+        {
+          "title": "Especifica el resultado, no la habilidad, cuando lo quieras fiable",
+          "rules": "Otorgar una habilidad hace que el resultado dependa de las demás propiedades del portador y de cómo se desarrollen los sucesos. Nombrar el resultado directamente corta esa dependencia y el efecto ocurre pase lo que pase.",
+          "flavor": "La tercera etapa destruye a cualquier criatura que bloquee al portador. Deliberadamente no le dieron toque mortal, porque querían que funcionara incluso si el portador nunca llegaba a dañar al bloqueador."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Forger l'Anneau, partie 2",
+      "dek": "Quand « ça marche bien » est une note éliminatoire.",
+      "overview": "La moitié « conception de set », et toute la chaîne de refonte de l'Anneau : jeton d'équipement, puis statut, puis une montée en quatre paliers. Le raisonnement à chaque étape dit avec une netteté rare ce qui comptait comme échec, et pourquoi.",
+      "takeaway": "La version « statut » se jouait bien sans être excitante — ce que la R&D appelle une mécanique de labeur. Pour l'Anneau Unique, c'était un échec. Trop central dans les livres pour avoir le droit d'être banal.",
+      "lessons": [
+        {
+          "title": "« Ça fonctionne » est une note éliminatoire pour ce qui donne son nom au projet",
+          "rules": "Un résultat compétent et quelconque est acceptable presque partout et inacceptable au centre. Jugez l'élément porteur à l'aune de ce qu'on en attend, non à celle de son bon fonctionnement.",
+          "flavor": "La version statut se jouait bien sans être excitante — une mécanique de labeur, selon le terme maison. Le verdict de Rosewater : cela ne convenait pas ; l'Anneau Unique est trop central pour être banal."
+        },
+        {
+          "title": "Des paliers croissants expriment un processus qu'un octroi fixe ne peut pas rendre",
+          "rules": "Quand ce que vous représentez advient dans la durée, un effet unique et immuable ne peut qu'en décrire l'état final. Une échelle de paliers laisse le public ressentir la progression au lieu qu'on la lui raconte.",
+          "flavor": "L'Anneau a cessé d'octroyer un jeu de capacités pour croître en puissance à chaque fois qu'on le réclamait. Cela rendait ce qu'un bonus fixe ne pouvait pas : une chose qui vous corrompt d'autant plus qu'on la garde."
+        },
+        {
+          "title": "Un inconvénient auquel nul ne se frotte ne communique rien",
+          "rules": "Un coût fidèle qui pousse à éviter la chose échoue à sa mission, car l'expérience n'a jamais lieu. Une fidélité qui empêche la participation n'est pas une fidélité.",
+          "flavor": "On a exploré un Anneau blessant son porteur avec le temps, ce qui est exactement juste au regard de la source. Le jeu s'en trouvait mauvais car cela dissuadait de l'utiliser : nul n'aurait jamais senti la corruption."
+        },
+        {
+          "title": "Donnez des formes opposées aux camps opposés",
+          "rules": "Deux factions en conflit ne devraient pas seulement différer de contenu : elles devraient être structurellement contraires, de sorte que jouer l'une soit l'inverse de jouer l'autre. Posez-le en objectif et poursuivez-le.",
+          "flavor": "L'armée orque s'amasse en une créature énorme ; le camp mené par les hommes s'étend en petites créatures. Rosewater en fait une préférence permanente : opposer les deux camps, en ambiance et en mécanique, dès que possible."
+        },
+        {
+          "title": "Rejetez une version en énumérant les objections, y compris celle de convenance",
+          "rules": "Un refus exprimé comme un ressenti est inexploitable. Listez les problèmes précis, et laissez l'un d'eux porter sur la justesse de la chose : cette objection est une preuve réelle, à côté des objections techniques.",
+          "flavor": "Le jeton d'équipement était verbeux, plus déroutant qu'amusant, et donnait aux couleurs des accès très inégaux. Quatrième objection : pouvoir le détruire par un simple retrait d'artefact semblait tout bonnement faux."
+        },
+        {
+          "title": "Quand aucune valeur voisine ne convient, changez l'effet",
+          "rules": "Si le cran inférieur est trop faible et le supérieur trop fort, le problème ne réside pas dans le paramètre. Cessez de tourner le bouton et remplacez ce à quoi il est relié.",
+          "flavor": "Anticiper 1 était trop faible, anticiper 2 trop fort — et cela entrait en outre en conflit avec le thème des elfes. L'anticipation fut abandonnée pour un fouillage à l'attaque, qui apportait aussi l'agressivité recherchée."
+        },
+        {
+          "title": "Spécifiez le résultat, non la capacité, quand vous le voulez fiable",
+          "rules": "Octroyer une capacité fait dépendre le résultat des autres propriétés du porteur et du déroulé des événements. Nommer le résultat coupe cette dépendance : l'effet se produit quoi qu'il arrive.",
+          "flavor": "Le troisième palier détruit toute créature qui bloque le porteur. On a délibérément évité le contact mortel, pour que cela fonctionne même si le porteur ne blesse jamais le bloqueur."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Forjando o Anel, parte 2",
+      "dek": "Quando «funciona bem» é nota de reprovação.",
+      "overview": "A metade de design de set, e toda a cadeia de redesenho do Anel: ficha de equipamento, depois um status, depois uma escalada de quatro estágios. O raciocínio em cada passo é incomumente explícito sobre o que contava como fracasso e por quê.",
+      "takeaway": "A versão de status jogava bem e não era empolgante — o que a P&D chama de mecânica de carga. Para o Um Anel isso era fracasso. Central demais nos livros para ter permissão de ser banal.",
+      "lessons": [
+        {
+          "title": "«Funciona bem» é reprovação para aquilo que dá nome ao seu projeto",
+          "rules": "Um resultado competente e sem graça é aceitável em quase todo lugar e inaceitável no centro. Julgue o elemento que sustenta a obra contra o que as pessoas esperam dele, e não contra se ele funciona.",
+          "flavor": "A versão de status jogava bem mas não era empolgante — uma mecânica de carga, no termo da casa. O veredito de Rosewater: simplesmente não era certo; o Um Anel é central demais nos livros para ser banal."
+        },
+        {
+          "title": "Estágios crescentes expressam um processo que uma concessão fixa não consegue",
+          "rules": "Quando o que você representa acontece ao longo do tempo, um efeito único e imutável só consegue descrever o estado final. Uma escada de degraus deixa o público sentir a progressão, em vez de ouvir sobre ela.",
+          "flavor": "O Anel deixou de conceder um conjunto de habilidades e passou a crescer em poder a cada vez que você o reivindicava. Isso capturou o que um bônus fixo não conseguia: algo que segue te corrompendo quanto mais você o mantém."
+        },
+        {
+          "title": "Uma desvantagem com que ninguém se envolve não comunica nada",
+          "rules": "Um custo fiel que faz as pessoas evitarem a coisa por completo falha na tarefa que você lhe deu, porque a experiência nunca acontece. Fidelidade que impede a participação não é fidelidade.",
+          "flavor": "Exploraram fazer o Anel machucar seu portador com o tempo, o que é exatamente certo em relação à fonte. A jogabilidade ficou ruim porque desestimulava usá-lo, e assim ninguém jamais sentiria a corrupção."
+        },
+        {
+          "title": "Dê formas opostas aos lados opostos",
+          "rules": "Duas facções em conflito não deveriam apenas ter conteúdo diferente: deveriam ser estruturalmente contrárias, de modo que jogar uma seja o oposto de jogar a outra. Declare isso como objetivo e persiga-o.",
+          "flavor": "O exército orc se acumula numa criatura enorme; o lado liderado por humanos vai largo com muitas pequenas. Rosewater nomeia isso como preferência permanente: contrastar os dois lados, no tema e na mecânica, sempre que possível."
+        },
+        {
+          "title": "Rejeite uma versão enumerando as objeções, inclusive a de adequação",
+          "rules": "Uma rejeição expressa como sensação não é acionável. Liste os problemas específicos, e deixe um deles ser sobre se a coisa é adequada, porque essa objeção é evidência real ao lado das técnicas.",
+          "flavor": "A ficha de equipamento era prolixa, mais confusa que divertida, e dava às cores acessos muito distintos. A quarta objeção é que poder destruí-la com remoção comum de artefato simplesmente parecia errado."
+        },
+        {
+          "title": "Quando nenhum valor vizinho serve, mude o efeito",
+          "rules": "Se o ajuste abaixo é fraco demais e o de cima é forte demais, o problema não mora no parâmetro. Pare de girar o botão e substitua aquilo a que ele está ligado.",
+          "flavor": "Adivinhar 1 era fraco demais e adivinhar 2 forte demais — e adivinhar ainda chocava com o tema dos elfos. Largaram adivinhar por completo em favor de saquear ao atacar, o que trouxe a agressividade que queriam à parte."
+        },
+        {
+          "title": "Especifique o resultado, não a habilidade, quando o quiser confiável",
+          "rules": "Conceder uma habilidade faz o resultado depender das outras propriedades do portador e de como os eventos se desenrolam. Nomear o resultado corta essa dependência: o efeito acontece independentemente das circunstâncias.",
+          "flavor": "O terceiro estágio destrói qualquer criatura que bloqueie o portador. Deliberadamente não deram toque mortífero, porque queriam que funcionasse mesmo se o portador nunca causasse dano ao bloqueador."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "铸造魔戒，第二部分",
+      "dek": "当「它打起来还行」是一个不及格分数时。",
+      "overview": "属于系列设计的那一半，以及魔戒完整的重设计链条：武具衍生物、然后是一种状态、再然后是四级递进。每一步的推理都异常明确地说出了「什么算作失败」以及为什么。",
+      "takeaway": "那个「状态」版本打起来不错，但并不令人兴奋——研发部管这叫「劳力型机制」。而对至尊魔戒来说，这就是失败。它在书里太核心了，不被允许平庸。",
+      "lessons": [
+        {
+          "title": "对「你的项目以它命名」的那样东西来说，「能用」就是不及格",
+          "rules": "一个称职但不出彩的结果，在几乎所有地方都可以接受，唯独在核心位置不能接受。评判那个承重的元素时，要拿它去对照人们对它的期待，而不是对照它能不能运转。",
+          "flavor": "那个状态版本打起来不错，却不令人兴奋——用他们内部的说法，是一个「劳力型机制」。罗斯沃特的判词是：这就是不对劲；至尊魔戒在书里太核心，不能是平庸的。"
+        },
+        {
+          "title": "层层递进的阶段，能表达出一个固定的赋予所表达不了的过程",
+          "rules": "当你要呈现的是一件在时间中发生的事情时，一个固定不变的效果，只能描述它的终态。而一道阶梯，能让受众亲身感到这个推进过程，而不是被告知它。",
+          "flavor": "魔戒不再赋予一组固定的异能，而是每次你占有它时都变得更强。这抓住了固定加成抓不住的东西：一样你握得越久、它就越是在腐蚀你的东西。"
+        },
+        {
+          "title": "一个没人会去碰的负面代价，什么也没传达出来",
+          "rules": "一份忠实的代价，如果让人们干脆彻底避开这样东西，那它就没能完成你交给它的任务——因为那份体验从未发生。一种阻止参与的忠实，根本不是忠实。",
+          "flavor": "他们试过让魔戒随时间伤害它的持有者，就原作而言这完全正确。可对局体验很差，因为它劝阻你去使用魔戒——于是没有人会真正感受到那份腐蚀。"
+        },
+        {
+          "title": "给对立的两方以对立的形状",
+          "rules": "两个彼此冲突的阵营，不该只是内容不同：它们应当在结构上互为反面，好让「打这一方」感觉起来就是「打另一方」的反面。把它明确当作目标，并有意去追求它。",
+          "flavor": "半兽人军队汇聚成一个巨大的生物；而人类领衔的一方则铺开许多小生物。罗斯沃特把这称为一项长期偏好：只要有可能，就让冲突的两方在风味和机制上都彼此对照。"
+        },
+        {
+          "title": "否掉一个版本时，把反对意见一条条列出来——包括那条关于「合不合适」的",
+          "rules": "一个以「感觉」形式表达出来的否决，是没法据以行动的。把具体问题列出来，并且允许其中一条是关于「这东西对不对味」的——因为这条反对意见，与那些技术性的一样，是真实的证据。",
+          "flavor": "那个武具衍生物字太多、造成的是困惑而不是乐趣、而且让不同颜色对它的可及性差异很大。第四条反对意见是：它能被普通的神器去除干掉，这感觉就是不对。"
+        },
+        {
+          "title": "当相邻的两个取值都不行时，就去换掉那个效果",
+          "rules": "如果下一档太弱、上一档太强，那么问题就不住在这个参数里。别再拧这个旋钮了，去把它所连接的那样东西换掉。",
+          "flavor": "占卜 1 太弱，占卜 2 太强——而且占卜还和精灵的主题撞了车。他们干脆放弃占卜，改成攻击时抽后弃；顺带还带来了他们本就另外想要的那份侵略性。"
+        },
+        {
+          "title": "当你想要它可靠时，就写明结果，而不是赋予一个异能",
+          "rules": "赋予一个异能，会让结果取决于持有者的其他属性、以及事件如何展开。而直接点明结果，就切断了这层依赖：无论情况如何，那个效果都会发生。",
+          "flavor": "第三阶段会消灭任何阻挡魔戒持有者的生物。他们有意没有给出死触，因为他们希望即使持有者从未对阻挡者造成伤害，这件事也照样成立。"
+        }
+      ]
+    }
+  }
+}

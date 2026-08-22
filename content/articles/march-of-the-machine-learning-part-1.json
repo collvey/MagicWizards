@@ -1,0 +1,242 @@
+{
+  "id": "march-of-the-machine-learning-part-1",
+  "slug": "march-of-the-machine-learning-part-1",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2023-03-29",
+  "series": { "id": "march-of-the-machine-learning", "order": 1, "total": 2 },
+  "tags": ["design-story", "march-of-the-machine", "mechanics"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/march-of-the-machine-learning-part-1",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T02:28:23.705Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "March of the Machine Learning, Part 1",
+      "dek": "One sentence that made an impossible scope tractable.",
+      "overview": "The design story of a set that had to be about every plane at once. The hook arrived early in exploratory design as a single analogy, and most of what follows is that analogy being cashed out.",
+      "takeaway": "Planes were going to be to March of the Machine what Planeswalkers were to War of the Spark. One sentence, and a scope Rosewater calls daunting became something the whole team could work from.",
+      "lessons": [
+        {
+          "title": "Give a daunting scope one governing analogy",
+          "rules": "A project too large to hold in mind needs a sentence that fixes its essence. Compare it to something the team already understands, and every later question becomes answerable by asking what the comparison implies.",
+          "flavor": "Rosewater describes the ask as daunting and says the key was finding a hook. The analogy came in exploratory design and did the rest of the work: planes here are what planeswalkers were there."
+        },
+        {
+          "title": "Make each item legibly belong to one subject",
+          "rules": "In a work covering many things, the audience needs to find the one that's theirs. Design so that any single piece announces which subject it comes from, and everyone can pick out their own without being told.",
+          "flavor": "About seventy percent of the creatures represent the defenders, and the stated goal is that anyone who knows the planes could look at a card and say which one it came from."
+        },
+        {
+          "title": "When the subject's defining behaviour is transformation, the mechanic is already there",
+          "rules": "Sometimes what a thing is known for maps directly onto a form you already have. Don't invent around it — notice the match, and the flavour and the mechanic arrive as the same decision.",
+          "flavor": "Phyrexians turn other creatures into Phyrexians. That is a double-faced card, and it also let the set show each plane's iconic creatures in their original form before the change."
+        },
+        {
+          "title": "Once a tool is adopted, audit what else it unlocks",
+          "rules": "The cost of introducing a technology is paid once, at the start. After that, go looking for the other problems it solves, because they're now much cheaper than they were an hour ago.",
+          "flavor": "Double-faced cards entered for the Phyrexianized creatures. They then carried the Praetors transforming into Sagas, the incubate tokens, and the plane cards Rosewater had been trying to invent all along."
+        },
+        {
+          "title": "Something gated behind a second cost can be given away freely",
+          "rules": "Handing out a resource is expensive if getting it is the whole transaction. Put a price on redeeming it and you can be generous with the thing itself, because possessing it isn't yet the same as having it.",
+          "flavor": "The best artifact tokens have been the ones you must spend mana to cash in — Clues, Food. Rosewater names the consequence directly: having a cost allows cards to be more generous about creating the token."
+        },
+        {
+          "title": "Vote to order the exploration, not to make the decision",
+          "rules": "A group preference is good evidence about where to look first and poor evidence about what's right. Use the vote to sort the queue, then still test in order — the favourite just gets tested first.",
+          "flavor": "Every mechanic that might capture teamwork went on a list, the list was narrowed, and the team voted on which to explore first. Convoke won handily, played immediately, and nobody had to reach the second entry."
+        },
+        {
+          "title": "Tune the parameter so the decision stays live",
+          "rules": "A number set too high stops being a variable and starts being the whole point. Pick the value that keeps the alternatives genuinely competitive, so people are choosing rather than following the arithmetic.",
+          "flavor": "Backup grants counters and an ability to another creature. Higher numbers were tried and made it about the counters instead. One or two keeps it worth pointing at someone else — often, but not always."
+        }
+      ]
+    },
+    "es": {
+      "title": "Aprendiendo de March of the Machine, parte 1",
+      "dek": "Una frase que volvió tratable un alcance imposible.",
+      "overview": "La historia de diseño de un set que debía tratar de todos los planos a la vez. El anzuelo llegó pronto, en el diseño exploratorio, como una sola analogía, y casi todo lo demás es esa analogía cobrándose.",
+      "takeaway": "Los planos iban a ser para March of the Machine lo que los planeswalkers fueron para War of the Spark. Una frase, y un alcance que Rosewater llama abrumador se volvió algo con lo que todo el equipo podía trabajar.",
+      "lessons": [
+        {
+          "title": "Dale a un alcance abrumador una sola analogía que lo gobierne",
+          "rules": "Un proyecto demasiado grande para sostenerlo en la cabeza necesita una frase que fije su esencia. Compáralo con algo que el equipo ya entienda, y toda pregunta posterior se responderá preguntando qué implica la comparación.",
+          "flavor": "Rosewater describe el encargo como abrumador y dice que la clave fue encontrar un anzuelo. La analogía llegó en el diseño exploratorio e hizo el resto del trabajo: los planos aquí son lo que allí fueron los planeswalkers."
+        },
+        {
+          "title": "Haz que cada pieza pertenezca legiblemente a un solo tema",
+          "rules": "En una obra que cubre muchas cosas, el público necesita encontrar la suya. Diseña de modo que cualquier pieza anuncie de qué tema procede, y cada cual podrá reconocer la propia sin que se lo digan.",
+          "flavor": "Cerca del setenta por ciento de las criaturas representan a los defensores, y el objetivo declarado es que cualquiera que conozca los planos pueda mirar una carta y decir de cuál viene."
+        },
+        {
+          "title": "Si la conducta definitoria del tema es la transformación, la mecánica ya está ahí",
+          "rules": "A veces aquello por lo que algo es conocido encaja directamente en una forma que ya tienes. No inventes a su alrededor: nota la coincidencia, y el sabor y la mecánica llegan como una misma decisión.",
+          "flavor": "Los phyrexianos convierten a otras criaturas en phyrexianos. Eso es una carta de doble cara, y además permitió al set mostrar las criaturas icónicas de cada plano en su forma original antes del cambio."
+        },
+        {
+          "title": "Una vez adoptada una herramienta, revisa qué más desbloquea",
+          "rules": "El coste de introducir una tecnología se paga una vez, al principio. Después, sal a buscar los otros problemas que resuelve, porque ahora son mucho más baratos que hace una hora.",
+          "flavor": "Las cartas de doble cara entraron por las criaturas phyrexianizadas. Luego cargaron con los pretores transformándose en sagas, con las fichas de incubar, y con las cartas de plano que Rosewater llevaba tiempo intentando inventar."
+        },
+        {
+          "title": "Algo protegido tras un segundo coste puede regalarse con generosidad",
+          "rules": "Repartir un recurso sale caro si obtenerlo es toda la transacción. Ponle precio a canjearlo y podrás ser generoso con la cosa misma, porque poseerla aún no equivale a tenerla.",
+          "flavor": "Las mejores fichas de artefacto han sido aquellas que hay que canjear gastando maná: pistas, comida. Rosewater nombra la consecuencia: tener un coste permite que las cartas sean más generosas al crear la ficha."
+        },
+        {
+          "title": "Vota para ordenar la exploración, no para tomar la decisión",
+          "rules": "Una preferencia de grupo es buena prueba de dónde mirar primero y mala prueba de qué es correcto. Usa la votación para ordenar la cola, y luego prueba igualmente en ese orden: la favorita solo se prueba antes.",
+          "flavor": "Toda mecánica que pudiera capturar el trabajo en equipo entró en una lista, la lista se redujo, y el equipo votó cuál explorar primero. Convocar ganó con holgura, jugó de inmediato, y nadie tuvo que llegar a la segunda."
+        },
+        {
+          "title": "Ajusta el parámetro para que la decisión siga viva",
+          "rules": "Un número puesto demasiado alto deja de ser una variable y pasa a ser el asunto entero. Elige el valor que mantenga las alternativas realmente competitivas, para que la gente elija en vez de seguir la aritmética.",
+          "flavor": "Refuerzo otorga contadores y una habilidad a otra criatura. Se probaron números mayores y la volvieron una mecánica sobre los contadores. Uno o dos mantiene que valga la pena señalar a otro: a menudo, pero no siempre."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Ce que March of the Machine nous apprend, partie 1",
+      "dek": "Une phrase qui a rendu praticable une ampleur impossible.",
+      "overview": "L'histoire de conception d'un set qui devait porter sur tous les plans à la fois. L'accroche est venue tôt, en design exploratoire, sous forme d'une seule analogie, et presque tout le reste en est l'encaissement.",
+      "takeaway": "Les plans allaient être à March of the Machine ce que les planeswalkers avaient été à War of the Spark. Une phrase, et une ampleur que Rosewater dit intimidante est devenue quelque chose sur quoi toute l'équipe pouvait travailler.",
+      "lessons": [
+        {
+          "title": "Donnez à une ampleur intimidante une seule analogie directrice",
+          "rules": "Un projet trop vaste pour tenir en tête exige une phrase qui en fixe l'essence. Comparez-le à une chose que l'équipe comprend déjà, et toute question ultérieure se résoudra en demandant ce que la comparaison implique.",
+          "flavor": "Rosewater qualifie la commande d'intimidante et dit que la clé fut de trouver une accroche. L'analogie est venue en exploratoire et a fait le reste : les plans sont ici ce que les planeswalkers étaient là-bas."
+        },
+        {
+          "title": "Faites que chaque pièce appartienne lisiblement à un seul sujet",
+          "rules": "Dans une œuvre couvrant beaucoup de choses, le public doit trouver la sienne. Concevez de sorte que toute pièce annonce de quel sujet elle vient, et chacun repérera la sienne sans qu'on le lui dise.",
+          "flavor": "Environ soixante-dix pour cent des créatures représentent les défenseurs, et l'objectif énoncé est que quiconque connaît les plans puisse regarder une carte et dire d'où elle vient."
+        },
+        {
+          "title": "Si le comportement définitoire du sujet est la transformation, la mécanique est déjà là",
+          "rules": "Parfois ce pour quoi une chose est connue correspond directement à une forme dont vous disposez. N'inventez pas autour : notez la coïncidence, et l'ambiance et la mécanique arrivent comme une seule décision.",
+          "flavor": "Les Phyrexians transforment les autres créatures en Phyrexians. C'est une carte recto-verso, et cela a permis en outre de montrer les créatures emblématiques de chaque plan avant leur transformation."
+        },
+        {
+          "title": "Une fois un outil adopté, examinez ce qu'il débloque d'autre",
+          "rules": "Le coût d'introduire une technologie se paie une fois, au départ. Ensuite, cherchez les autres problèmes qu'elle résout, car ils sont désormais bien moins chers qu'une heure plus tôt.",
+          "flavor": "Les cartes recto-verso sont entrées pour les créatures phyrexianisées. Elles ont ensuite porté les préteurs devenant sagas, les jetons d'incubation, et les cartes de plan que Rosewater cherchait depuis le début à inventer."
+        },
+        {
+          "title": "Ce qui est verrouillé derrière un second coût peut se distribuer largement",
+          "rules": "Distribuer une ressource coûte cher si l'obtenir est toute la transaction. Mettez un prix à son encaissement et vous pourrez être généreux sur la chose elle-même, car la posséder n'équivaut pas encore à l'avoir.",
+          "flavor": "Les meilleurs jetons d'artefact ont été ceux qu'il faut encaisser en dépensant du mana : indices, nourriture. Rosewater en nomme la conséquence : un coût permet aux cartes d'être plus généreuses à en créer."
+        },
+        {
+          "title": "Votez pour ordonner l'exploration, non pour trancher",
+          "rules": "Une préférence collective renseigne bien sur où regarder d'abord et mal sur ce qui est juste. Servez-vous du vote pour trier la file, puis testez quand même dans cet ordre : la favorite passe simplement en premier.",
+          "flavor": "Toute mécanique susceptible de capter l'esprit d'équipe fut listée, la liste réduite, et l'équipe a voté sur celle à explorer d'abord. La convocation l'a emporté largement, a marché tout de suite, et nul n'a eu à passer à la suivante."
+        },
+        {
+          "title": "Réglez le paramètre pour que la décision reste vivante",
+          "rules": "Un nombre trop élevé cesse d'être une variable et devient tout le propos. Choisissez la valeur qui garde les alternatives réellement concurrentes, pour qu'on choisisse au lieu de suivre l'arithmétique.",
+          "flavor": "Le renfort accorde des marqueurs et une capacité à une autre créature. Des nombres plus élevés furent essayés et rendaient la mécanique affaire de marqueurs. Un ou deux garde l'intérêt de viser quelqu'un d'autre : souvent, pas toujours."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Aprendendo com March of the Machine, parte 1",
+      "dek": "Uma frase que tornou tratável um escopo impossível.",
+      "overview": "A história de design de um set que precisava tratar de todos os planos ao mesmo tempo. O gancho chegou cedo, no design exploratório, como uma única analogia, e quase todo o resto é essa analogia sendo sacada.",
+      "takeaway": "Os planos seriam para March of the Machine o que os planeswalkers foram para War of the Spark. Uma frase, e um escopo que Rosewater chama de intimidador virou algo com que a equipe inteira podia trabalhar.",
+      "lessons": [
+        {
+          "title": "Dê a um escopo intimidador uma única analogia que o governe",
+          "rules": "Um projeto grande demais para caber na cabeça precisa de uma frase que fixe sua essência. Compare-o a algo que a equipe já entende, e toda pergunta seguinte passa a ser respondível perguntando o que a comparação implica.",
+          "flavor": "Rosewater descreve a encomenda como intimidadora e diz que a chave foi achar um gancho. A analogia veio no exploratório e fez o resto: os planos aqui são o que os planeswalkers foram lá."
+        },
+        {
+          "title": "Faça cada peça pertencer legivelmente a um só assunto",
+          "rules": "Numa obra que cobre muitas coisas, o público precisa achar a sua. Projete de modo que qualquer peça anuncie de que assunto ela vem, e cada um reconhecerá a própria sem que lhe digam.",
+          "flavor": "Cerca de setenta por cento das criaturas representam os defensores, e o objetivo declarado é que qualquer um que conheça os planos possa olhar uma carta e dizer de qual ela veio."
+        },
+        {
+          "title": "Se o comportamento definidor do assunto é a transformação, a mecânica já está ali",
+          "rules": "Às vezes aquilo pelo qual algo é conhecido mapeia direto numa forma que você já tem. Não invente em volta: note a coincidência, e o tema e a mecânica chegam como uma decisão só.",
+          "flavor": "Phyrexianos transformam outras criaturas em phyrexianos. Isso é uma carta de face dupla — e ainda permitiu ao set mostrar as criaturas icônicas de cada plano em sua forma original, antes da mudança."
+        },
+        {
+          "title": "Adotada uma ferramenta, verifique o que mais ela destrava",
+          "rules": "O custo de introduzir uma tecnologia se paga uma vez, no começo. Depois disso, vá atrás dos outros problemas que ela resolve, porque agora eles são muito mais baratos do que eram uma hora atrás.",
+          "flavor": "As cartas de face dupla entraram pelas criaturas phyrexianizadas. Depois carregaram os pretores virando sagas, as fichas de incubar, e as cartas de plano que Rosewater vinha tentando inventar desde o início."
+        },
+        {
+          "title": "Algo trancado atrás de um segundo custo pode ser distribuído com generosidade",
+          "rules": "Distribuir um recurso sai caro se obtê-lo é a transação inteira. Ponha preço no resgate e você poderá ser generoso com a coisa em si, porque possuí-la ainda não equivale a tê-la.",
+          "flavor": "As melhores fichas de artefato têm sido aquelas que exigem gastar mana para resgatar: pistas, comida. Rosewater nomeia a consequência: ter um custo permite que as cartas sejam mais generosas ao criar a ficha."
+        },
+        {
+          "title": "Vote para ordenar a exploração, não para decidir",
+          "rules": "Uma preferência de grupo é boa evidência de onde olhar primeiro e má evidência do que é certo. Use a votação para ordenar a fila, e ainda assim teste nessa ordem: a favorita apenas é testada antes.",
+          "flavor": "Toda mecânica capaz de capturar trabalho em equipe entrou numa lista, a lista foi reduzida, e a equipe votou em qual explorar primeiro. Convocar venceu com folga, funcionou de imediato, e ninguém precisou chegar à segunda."
+        },
+        {
+          "title": "Ajuste o parâmetro para que a decisão siga viva",
+          "rules": "Um número alto demais deixa de ser variável e vira o assunto inteiro. Escolha o valor que mantém as alternativas realmente competitivas, para que as pessoas escolham em vez de seguir a aritmética.",
+          "flavor": "Reforço concede marcadores e uma habilidade a outra criatura. Números maiores foram testados e a tornaram uma mecânica sobre marcadores. Um ou dois mantém valer a pena apontar para outro: muitas vezes, mas nem sempre."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "从《机器之战》学到的，第一部分",
+      "dek": "一句话，把一个不可能的体量变成了可以着手的东西。",
+      "overview": "一个必须同时讲遍所有次元的系列的设计故事。那个抓手在探索设计阶段很早就到了，形态是一句类比；而此后的大部分内容，都是这句类比在被逐步兑现。",
+      "takeaway": "次元之于《机器之战》，就相当于鹏洛客之于《大战伊始》。一句话，就让一个被罗斯沃特形容为「令人望而生畏」的体量，变成了整支团队可以据以工作的东西。",
+      "lessons": [
+        {
+          "title": "给一个令人生畏的体量，配一句统摄它的类比",
+          "rules": "一个大到脑子里装不下的项目，需要一句话来钉住它的本质。把它类比到团队已经理解的某样东西上，此后的每一个问题，都能通过「这个类比意味着什么」来回答。",
+          "flavor": "罗斯沃特把这个任务形容为令人生畏，并说关键是找到一个抓手。这个类比在探索设计阶段到来，剩下的活儿由它完成：次元在这里，就是鹏洛客在那里。"
+        },
+        {
+          "title": "让每一件东西都清楚地归属于某一个题材",
+          "rules": "在一部覆盖许多东西的作品里，受众需要找到属于自己的那一个。设计成「任何单独一件都会自报它出自哪个题材」，于是每个人都能不经指点地认出自己的那一份。",
+          "flavor": "约七成的生物代表防守方；而明说出来的目标是：任何熟悉这些次元的人，看一眼一张牌就能说出它来自哪一个。"
+        },
+        {
+          "title": "当题材的标志性行为本身就是「转化」时，机制早就在那儿了",
+          "rules": "有时候，某样东西之所以出名的那件事，恰好直接对应着你手上已有的一种形式。别绕着它另起炉灶——认出这个吻合，风味与机制就会作为同一个决定一起到来。",
+          "flavor": "非瑞克西亚人会把其他生物变成非瑞克西亚人。这就是一张双面牌——而且它还让这个系列得以展示每个次元的标志性生物在变化之前的原本模样。"
+        },
+        {
+          "title": "一件工具一旦被采用，就去盘点它还解开了什么",
+          "rules": "引入一项技术的代价，是在一开始一次性付掉的。此后就该主动去找它还能解决哪些别的问题——因为那些问题如今比一小时前便宜得多了。",
+          "flavor": "双面牌是为了那些被非瑞克西亚化的生物才进来的。之后它又扛起了「执政官转化成传纪」、孵化衍生物，以及罗斯沃特一直想发明的那种次元牌。"
+        },
+        {
+          "title": "被第二道费用挡着的东西，可以放开了发",
+          "rules": "如果「拿到它」就是这笔交易的全部，那么发放一份资源就会很贵。给「兑现它」标上价钱，你就可以对这样东西本身慷慨起来——因为「持有它」还不等于「得到它」。",
+          "flavor": "表现最好的那些神器衍生物，都是必须花法术力去兑现的：线索、食物。罗斯沃特点明了这带来的结果：有了这道费用，牌在「制造这个衍生物」上就可以更大方。"
+        },
+        {
+          "title": "投票是用来给探索排序的，不是用来做决定的",
+          "rules": "一群人的偏好，作为「先往哪儿看」的证据很好，作为「什么是对的」的证据很差。用投票去给队列排序，然后仍然照这个顺序一个个去测：最受欢迎的那个，只是被先测而已。",
+          "flavor": "所有可能承载「协作」这份风味的机制都被列进了一张单子，单子被收窄，然后团队投票决定先探索哪一个。群策以压倒性优势胜出，一上手就成立，于是没人需要走到第二个。"
+        },
+        {
+          "title": "把参数调到让那个决定仍然活着",
+          "rules": "一个被设得过高的数字，会从「一个变量」变成「全部重点」。挑那个能让各个替代方案仍然真正有竞争力的取值——好让人们是在做选择，而不是在跟着算术走。",
+          "flavor": "后援会给另一个生物一些指示物和一个异能。他们试过更大的数字，结果这个机制就变成了关于指示物的。而 1 或 2 才能保住「指点别人」这件事的价值——经常值得，但不总是。"
+        }
+      ]
+    }
+  }
+}

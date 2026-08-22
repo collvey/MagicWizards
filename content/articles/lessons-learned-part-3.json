@@ -1,0 +1,216 @@
+{
+  "id": "lessons-learned-part-3",
+  "slug": "lessons-learned-part-3",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2023-05-22",
+  "series": { "id": "lessons-learned", "order": 3, "total": 9 },
+  "tags": ["retrospective", "top-down", "process"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/lessons-learned-part-3",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T02:46:32.327Z",
+  "lessons": [
+    { "n": 1, "color": "R" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Lessons Learned, Part 3",
+      "dek": "Five sets, five lessons, one of them about how to generate fear.",
+      "overview": "The third instalment of the set-by-set retrospective, running from Scars of Mirrodin through Theros. Each entry states its lesson outright, and one describes the only time a design was nearly taken away from Rosewater.",
+      "takeaway": "How do you make a game of Magic generate fear? Two answers: creatures that might transform into something worse, so the opponent has to keep worrying — and making the ordinary thing, death, unpredictable.",
+      "lessons": [
+        {
+          "title": "Adapting a genre means eliciting its emotion, not depicting its furniture",
+          "rules": "The tropes are how you get there, not what you're making. Name the feeling the source produces, then ask what in your own medium produces that same feeling — the answer will be structural, not decorative.",
+          "flavor": "The core emotion of horror is fear. So: creatures that transform into worse versions of themselves, and the most ordinary event in Magic — a creature dying — made into something that might escalate."
+        },
+        {
+          "title": "The interesting part is the transformation, not either end state",
+          "rules": "When something has changed dramatically, the temptation is to depict the before or the after. The change itself is the material, and skipping it leaves you trying to make a story out of a situation.",
+          "flavor": "The plan had the block starting on New Phyrexia with a late reveal that it had been Mirrodin. Rosewater's breakthrough was asking why they were skipping the war. The three sets became before, during, and after."
+        },
+        {
+          "title": "Ask who the audience becomes, and make being that enjoyable",
+          "rules": "Every work casts its audience in a role. Work out what that role is, and then check whether occupying it is a pleasure — a faithful depiction of a bleak situation makes the audience feel bad rather than powerful.",
+          "flavor": "The lead developer's note on Dark Ascension was that it was kind of depressing. The set was about humans on the brink, but the player is the monster, and monsters are winning. That needed to feel like a thrill."
+        },
+        {
+          "title": "Keep an inventory of unused ideas from every source",
+          "rules": "Good mechanisms don't only come from the project that needs them. Maintain a record of everything anyone has proposed and never used, and check it against each new problem before inventing something.",
+          "flavor": "Evolve and battalion both came from submissions to a design competition run to find new hires. A third mechanic from the earlier competition became overload. All three shipped, two under their original names."
+        },
+        {
+          "title": "A failed idea may have failed on execution — diagnose before discarding",
+          "rules": "A poor result is evidence about that attempt, not about the idea. Work out specifically what went wrong; if the diagnosis is fixable, the same idea can be run again and become one of your successes.",
+          "flavor": "Chroma tested badly. The diagnosis was that its cards looked in different zones — battlefield, hand, graveyard — so nobody could build around it. Refocused on one zone and renamed devotion, it was a hit."
+        },
+        {
+          "title": "A late rejection is when the deferred idea gets its chance",
+          "rules": "Something you've wanted to do for years never rises to the top on its own, because there's always a plan already in place. When a plan collapses close to the deadline, the ready-made idea is what fills the gap.",
+          "flavor": "The original year was to be prehistoric, medieval, and modern planes — rejected because Creative couldn't build three worlds at their then staffing. Greek mythology had been discussed since the early days and had never had its turn."
+        }
+      ]
+    },
+    "es": {
+      "title": "Lecciones aprendidas, parte 3",
+      "dek": "Cinco sets, cinco lecciones, una de ellas sobre cómo generar miedo.",
+      "overview": "La tercera entrega del repaso set por set, de Scars of Mirrodin a Theros. Cada entrada enuncia su lección sin rodeos, y una describe la única vez que a Rosewater casi le quitan un diseño.",
+      "takeaway": "¿Cómo se hace que una partida de Magic genere miedo? Dos respuestas: criaturas que podrían transformarse en algo peor, para que el oponente deba seguir preocupándose, y volver impredecible lo más corriente: la muerte.",
+      "lessons": [
+        {
+          "title": "Adaptar un género es evocar su emoción, no retratar su mobiliario",
+          "rules": "Los tropos son el modo de llegar, no lo que estás haciendo. Nombra el sentimiento que produce la fuente y pregunta qué produce ese mismo sentimiento en tu medio: la respuesta será estructural, no decorativa.",
+          "flavor": "La emoción central del terror es el miedo. De ahí: criaturas que se transforman en versiones peores de sí mismas, y el suceso más corriente de Magic —que una criatura muera— convertido en algo que podría escalar."
+        },
+        {
+          "title": "Lo interesante es la transformación, no ninguno de los dos estados finales",
+          "rules": "Cuando algo ha cambiado drásticamente, la tentación es retratar el antes o el después. El cambio mismo es el material, y saltárselo te deja intentando hacer una historia con una situación.",
+          "flavor": "El plan hacía empezar el bloque en New Phyrexia con una revelación tardía de que había sido Mirrodin. El avance de Rosewater fue preguntar por qué se saltaban la guerra. Los tres sets pasaron a ser antes, durante y después."
+        },
+        {
+          "title": "Pregunta en quién se convierte el público, y haz que serlo resulte grato",
+          "rules": "Toda obra asigna un papel a su público. Averigua cuál es, y comprueba si ocuparlo es un placer: un retrato fiel de una situación sombría hace que el público se sienta mal en vez de poderoso.",
+          "flavor": "La nota del desarrollador principal sobre Dark Ascension fue que resultaba deprimente. El set iba de humanos al borde, pero el jugador es el monstruo, y los monstruos van ganando. Eso debía sentirse como una emoción."
+        },
+        {
+          "title": "Mantén un inventario de ideas no usadas de toda procedencia",
+          "rules": "Los buenos mecanismos no salen solo del proyecto que los necesita. Mantén un registro de todo lo que alguien haya propuesto y nunca se haya usado, y cotéjalo con cada problema nuevo antes de inventar algo.",
+          "flavor": "Evolucionar y batallón salieron ambos de propuestas a un concurso de diseño hecho para encontrar contrataciones. Una tercera mecánica del concurso anterior se convirtió en sobrecarga. Las tres se publicaron."
+        },
+        {
+          "title": "Una idea fallida puede haber fallado en la ejecución: diagnostica antes de descartar",
+          "rules": "Un mal resultado es prueba sobre ese intento, no sobre la idea. Averigua qué falló exactamente; si el diagnóstico tiene arreglo, la misma idea puede repetirse y convertirse en uno de tus éxitos.",
+          "flavor": "Cromatismo salió mal en las pruebas. El diagnóstico fue que sus cartas miraban a zonas distintas —campo, mano, cementerio—, así que nadie podía construir alrededor. Reenfocada a una zona y renombrada devoción, fue un éxito."
+        },
+        {
+          "title": "Un rechazo tardío es cuando la idea aplazada tiene su oportunidad",
+          "rules": "Algo que llevas años queriendo hacer nunca sube solo a lo alto, porque siempre hay ya un plan en marcha. Cuando un plan se derrumba cerca del plazo, la idea ya lista es la que llena el hueco.",
+          "flavor": "El año original iban a ser planos prehistórico, medieval y moderno, rechazados porque Creativo no podía construir tres mundos con la plantilla de entonces. La mitología griega llevaba desde los inicios en la conversación."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Leçons apprises, partie 3",
+      "dek": "Cinq sets, cinq leçons, dont une sur la façon d'engendrer la peur.",
+      "overview": "Le troisième volet du bilan set par set, de Scars of Mirrodin à Theros. Chaque entrée énonce sa leçon franchement, et l'une raconte la seule fois où l'on a failli retirer une conception à Rosewater.",
+      "takeaway": "Comment faire qu'une partie de Magic engendre la peur ? Deux réponses : des créatures susceptibles de se transformer en pire, pour que l'adversaire doive s'inquiéter, et rendre imprévisible la chose la plus ordinaire : la mort.",
+      "lessons": [
+        {
+          "title": "Adapter un genre, c'est en susciter l'émotion, non en peindre le mobilier",
+          "rules": "Les tropes sont le chemin, non l'objet. Nommez le sentiment que produit la source, puis demandez ce qui produit ce même sentiment dans votre médium : la réponse sera structurelle, non décorative.",
+          "flavor": "L'émotion centrale de l'horreur est la peur. D'où : des créatures qui se transforment en pires versions d'elles-mêmes, et l'événement le plus ordinaire de Magic — la mort d'une créature — rendu susceptible d'escalade."
+        },
+        {
+          "title": "L'intéressant est la transformation, non l'un ou l'autre état final",
+          "rules": "Quand une chose a radicalement changé, la tentation est de peindre l'avant ou l'après. Le changement lui-même est la matière, et le sauter revient à tenter de faire un récit avec une situation.",
+          "flavor": "Le plan faisait débuter le bloc sur Nouvelle Phyrexia avec révélation tardive qu'il s'agissait de Mirrodin. La percée fut de demander pourquoi on sautait la guerre. Les trois sets sont devenus avant, pendant et après."
+        },
+        {
+          "title": "Demandez qui le public devient, et faites que l'être soit un plaisir",
+          "rules": "Toute œuvre attribue un rôle à son public. Déterminez lequel, puis vérifiez qu'il est agréable à occuper : une peinture fidèle d'une situation sombre fait que le public se sent mal, non puissant.",
+          "flavor": "La note du développeur principal sur Dark Ascension : c'était plutôt déprimant. Le set parlait d'humains au bord du gouffre, mais le joueur est le monstre, et les monstres gagnent. Cela devait procurer un frisson."
+        },
+        {
+          "title": "Tenez un inventaire des idées inutilisées, d'où qu'elles viennent",
+          "rules": "Les bons mécanismes ne viennent pas seulement du projet qui en a besoin. Tenez un registre de tout ce qui a été proposé et jamais employé, et confrontez-le à chaque problème neuf avant d'inventer.",
+          "flavor": "L'évolution et le bataillon viennent tous deux de propositions à un concours de conception organisé pour recruter. Une troisième mécanique du concours précédent est devenue la surcharge. Les trois ont été imprimées."
+        },
+        {
+          "title": "Une idée ratée a peut-être raté son exécution : diagnostiquez avant de jeter",
+          "rules": "Un mauvais résultat renseigne sur cette tentative, non sur l'idée. Déterminez précisément ce qui a cloché ; si le diagnostic est réparable, la même idée peut être rejouée et compter parmi vos réussites.",
+          "flavor": "Le chroma a mal testé. Le diagnostic : ses cartes regardaient des zones différentes — champ, main, cimetière — si bien qu'on ne pouvait rien bâtir autour. Recentré sur une zone et rebaptisé dévotion, ce fut un succès."
+        },
+        {
+          "title": "Un refus tardif, c'est quand l'idée différée obtient sa chance",
+          "rules": "Ce qu'on veut faire depuis des années ne remonte jamais seul en tête de liste, car un plan est toujours déjà en place. Quand un plan s'effondre près de l'échéance, c'est l'idée toute prête qui comble le trou.",
+          "flavor": "L'année devait comporter des plans préhistorique, médiéval et moderne — refusés faute d'effectifs pour bâtir trois mondes. La mythologie grecque était en discussion depuis les débuts et n'avait jamais eu son tour."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Lições aprendidas, parte 3",
+      "dek": "Cinco sets, cinco lições, uma delas sobre como gerar medo.",
+      "overview": "A terceira parte do balanço set a set, de Scars of Mirrodin a Theros. Cada entrada enuncia sua lição sem rodeios, e uma delas descreve a única vez em que quase tiraram um design de Rosewater.",
+      "takeaway": "Como fazer uma partida de Magic gerar medo? Duas respostas: criaturas que podem se transformar em algo pior, para que o oponente siga preocupado, e tornar imprevisível a coisa mais corriqueira: a morte.",
+      "lessons": [
+        {
+          "title": "Adaptar um gênero é evocar sua emoção, não retratar seu mobiliário",
+          "rules": "Os clichês são o caminho, não a obra. Nomeie o sentimento que a fonte produz e então pergunte o que produz esse mesmo sentimento no seu meio: a resposta será estrutural, não decorativa.",
+          "flavor": "A emoção central do horror é o medo. Daí: criaturas que se transformam em versões piores de si mesmas, e o evento mais corriqueiro de Magic — uma criatura morrer — transformado em algo que pode escalar."
+        },
+        {
+          "title": "O interessante é a transformação, não nenhum dos dois estados finais",
+          "rules": "Quando algo mudou drasticamente, a tentação é retratar o antes ou o depois. A mudança em si é o material, e pulá-la deixa você tentando fazer uma história a partir de uma situação.",
+          "flavor": "O plano fazia o bloco começar em Nova Phyrexia com uma revelação tardia de que fora Mirrodin. A virada foi perguntar por que estavam pulando a guerra. Os três sets viraram antes, durante e depois."
+        },
+        {
+          "title": "Pergunte em quem o público se torna, e faça ser aquilo dar prazer",
+          "rules": "Toda obra atribui um papel ao seu público. Descubra qual é, e confira se ocupá-lo é prazeroso: um retrato fiel de uma situação sombria faz o público se sentir mal, e não poderoso.",
+          "flavor": "A observação do desenvolvedor-líder sobre Dark Ascension foi que era meio deprimente. O set falava de humanos à beira do fim, mas o jogador é o monstro, e os monstros estão vencendo. Isso precisava dar frio na barriga."
+        },
+        {
+          "title": "Mantenha um inventário de ideias não usadas, venham de onde vierem",
+          "rules": "Bons mecanismos não vêm só do projeto que precisa deles. Mantenha um registro de tudo que alguém propôs e nunca foi usado, e confronte-o com cada problema novo antes de inventar algo.",
+          "flavor": "Evoluir e batalhão vieram ambos de propostas a um concurso de design feito para achar contratações. Uma terceira mecânica do concurso anterior virou sobrecarga. As três foram impressas."
+        },
+        {
+          "title": "Uma ideia fracassada pode ter fracassado na execução: diagnostique antes de descartar",
+          "rules": "Um mau resultado é evidência sobre aquela tentativa, não sobre a ideia. Descubra exatamente o que deu errado; se o diagnóstico for reparável, a mesma ideia pode voltar e virar um dos seus acertos.",
+          "flavor": "Cromatismo testou mal. O diagnóstico foi que suas cartas olhavam para zonas diferentes — campo, mão, cemitério —, então ninguém conseguia construir em torno. Refocada numa zona e renomeada devoção, foi um sucesso."
+        },
+        {
+          "title": "Uma rejeição tardia é quando a ideia adiada ganha sua chance",
+          "rules": "Algo que você quer fazer há anos nunca sobe sozinho ao topo, porque sempre já existe um plano em curso. Quando um plano desaba perto do prazo, é a ideia já pronta que preenche o buraco.",
+          "flavor": "O ano original teria planos pré-histórico, medieval e moderno — rejeitados porque o Criativo não conseguiria construir três mundos com o quadro de então. A mitologia grega estava em pauta desde os primórdios."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "学到的功课，第三部分",
+      "dek": "五个系列，五条功课，其中一条是关于如何制造恐惧。",
+      "overview": "逐个系列回顾的第三篇，从《Scars of Mirrodin》讲到《Theros》。每一条都把自己的功课直说出来；而其中一条讲的是罗斯沃特唯一一次险些被收走一个设计。",
+      "takeaway": "怎样让一局万智牌产生恐惧？两个答案：会变成更糟版本的生物，好让对手一直得担着心；以及把最寻常的那件事——死亡——变得难以预料。",
+      "lessons": [
+        {
+          "title": "改编一个类型，是要唤起它的情绪，而不是照搬它的道具",
+          "rules": "那些套路是通往目的地的路，而不是你要做的东西本身。先把原作所产生的那种感受命名出来，再问：在你自己的媒介里，是什么能产生同样的感受？答案会是结构性的，不是装饰性的。",
+          "flavor": "恐怖的核心情绪是恐惧。于是：会变成更糟版本的生物；以及万智牌里最寻常的那件事——一个生物死掉——被改造成了一件可能升级的事。"
+        },
+        {
+          "title": "有意思的是那段转变，而不是它两端的任何一个状态",
+          "rules": "当某样东西发生了剧变时，人的本能是去描绘它的「之前」或「之后」。而变化本身才是素材；跳过它，你就是在试图用一个「状况」去做出一个「故事」。",
+          "flavor": "原计划让整个环境从新非瑞克西亚开始，并在后期揭晓它其实就是密尔沃。而罗斯沃特的突破是问：我们为什么要跳过那场战争？三个系列于是变成了战前、战中、战后。"
+        },
+        {
+          "title": "去问受众变成了谁，并让「当那个人」这件事本身是愉快的",
+          "rules": "任何一部作品都会给它的受众派一个角色。弄清那是什么角色，再检查一下：待在那个角色里是不是一种享受？对一个灰暗处境的忠实描绘，会让受众感觉糟糕，而不是感觉强大。",
+          "flavor": "主开发对《Dark Ascension》的意见是：它有点让人沮丧。这个系列讲的是人类濒临灭绝，可玩家扮演的是怪物——而怪物正在赢。这件事必须让人感到快意。"
+        },
+        {
+          "title": "为「尚未被使用的点子」建一份不问出处的清单",
+          "rules": "好机制并不只来自那个需要它的项目。把所有人提过、却从未被采用的东西记录下来；在动手发明之前，先拿每一个新问题去对照这份清单。",
+          "flavor": "进化与军团，都出自一场「为招人而办的设计比赛」的参赛作品。上一届比赛的第三个机制变成了超载。三个全都印了出来，其中两个还沿用了原名。"
+        },
+        {
+          "title": "一个失败的点子，可能只是败在执行上——先诊断，再丢弃",
+          "rules": "一个糟糕的结果，是关于「那一次尝试」的证据，而不是关于「这个点子」的证据。弄清究竟哪里出了错；如果这份诊断是可修的，同一个点子可以再跑一次，并成为你的成功之一。",
+          "flavor": "色度在测试中表现很差。诊断结果是：它的牌看向不同的区域——战场、手牌、坟墓场——于是没人能围着它构筑。重新聚焦到单一区域、并改名为虔诚之后，它大获成功。"
+        },
+        {
+          "title": "一次来得很晚的否决，正是那个被搁置多年的点子拿到机会的时候",
+          "rules": "一件你想做了很多年的事，永远不会自己浮到最上面——因为总是已经有一个计划在推进了。而当某个计划在临近期限时垮掉，顶上去填这个洞的，就是那个早已备好的点子。",
+          "flavor": "原定的那一年是史前、中世纪与现代三个次元——被创意团队以「以当时的人手造不出三个世界」为由否掉了。而希腊神话，从很早的年代起就一直在被讨论，却始终没轮到它。"
+        }
+      ]
+    }
+  }
+}

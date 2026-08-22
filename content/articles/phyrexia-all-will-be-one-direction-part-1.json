@@ -1,0 +1,216 @@
+{
+  "id": "phyrexia-all-will-be-one-direction-part-1",
+  "slug": "phyrexia-all-will-be-one-direction-part-1",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2023-01-17",
+  "series": { "id": "phyrexia-all-will-be-one-direction", "order": 1, "total": 2 },
+  "tags": ["design-story", "phyrexia", "mechanics"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/phyrexia-all-will-be-one-direction-part-1",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T02:22:42.325Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Phyrexia: All Will Be One Direction, Part 1",
+      "dek": "Nine associations, ranked by what the audience would expect.",
+      "overview": "The design story from exploratory design through the handoff. It opens with a method — inventory everything the subject has ever been associated with, then sort by obligation — and proceeds by deliberately building the version they suspected was broken.",
+      "takeaway": "Nine mechanics had ever been tied to the Phyrexians. The team listed all of them and asked which ones the audience would expect. Three rose to the top, and those three became the set's obligations.",
+      "lessons": [
+        {
+          "title": "Inventory every association, then sort by expectation",
+          "rules": "Before deciding what a project about a known subject should contain, write down everything that subject has ever been connected with. Then ask a different question of the list: not which are best, but which would be missed.",
+          "flavor": "Nine items went on the list, from poison to death triggers to living weapon. Three were agreed to be what anyone would expect of a Phyrexian set, and the team gave them a name of their own: the three P's."
+        },
+        {
+          "title": "Build the version you suspect is broken, to reproduce the problem",
+          "rules": "A known failure everyone half-remembers is not a specification. Make it again, put it in front of people, and the vague objection becomes a precise shared statement of what actually goes wrong.",
+          "flavor": "Infect was polarising and R&D had soured on the counters it needed, but it was rebuilt anyway. The first playtest played exactly like the old block and reminded everyone of the real problem: you played poison or you didn't."
+        },
+        {
+          "title": "Removing one component frees the others",
+          "rules": "A part you cut was constraining more than itself. After it goes, audit everything that had been shaped around it — some of those decisions were never really decisions and are now open again.",
+          "flavor": "Dropping infect meant they no longer needed a set built on −1/−1 counters, which Rosewater doubted he could sell downstream. It also freed proliferate to be about building things up rather than tearing them down."
+        },
+        {
+          "title": "Choose which direction the number runs so the interaction is always good",
+          "rules": "The same limit can be expressed as counting up to a threshold or counting down to zero. Pick the direction that makes your other mechanics helpful rather than harmful — identical effect, opposite relationship.",
+          "flavor": "A creature meant to last three turns starts with three counters and counts down, rather than accumulating up to a removal trigger. Proliferating therefore buys you an extra turn instead of costing you one."
+        },
+        {
+          "title": "Give the resistance a co-opted version of the oppressor's signature",
+          "rules": "A small faction inside a dominant one shouldn't get its own unrelated toolkit. Have it repurpose the dominant group's most characteristic thing — surviving by taking their tools is a stronger idea than opposing them with new ones.",
+          "flavor": "Living weapon was the most Phyrexian item left unused on the list. The rebels got it with the 0/0 Germ replaced by a 2/2 Rebel — the mechanic being stolen is itself the characterisation."
+        },
+        {
+          "title": "Keep a list of things waiting for the right home",
+          "rules": "Not everything you want to revive has somewhere to go when you think of it. Hold them, and recognise the moment a project arrives whose needs they happen to fit exactly.",
+          "flavor": "The Rebel creature type had sat unused since Mercadian Masques. The closest near-miss was Battle for Zendikar, where the people fighting the Eldrazi were made Allies instead. This set was finally the right place."
+        }
+      ]
+    },
+    "es": {
+      "title": "Phyrexia: All Will Be One Direction, parte 1",
+      "dek": "Nueve asociaciones, ordenadas por lo que el público esperaría.",
+      "overview": "La historia de diseño desde el diseño exploratorio hasta el traspaso. Abre con un método —inventariar todo aquello con lo que el tema se ha asociado alguna vez, y luego ordenarlo por obligación— y avanza construyendo a propósito la versión que sospechaban rota.",
+      "takeaway": "Nueve mecánicas se habían ligado alguna vez a los phyrexianos. El equipo las listó todas y preguntó cuáles esperaría el público. Tres subieron a lo alto, y esas tres se convirtieron en las obligaciones del set.",
+      "lessons": [
+        {
+          "title": "Inventaría cada asociación y luego ordénalas por expectativa",
+          "rules": "Antes de decidir qué debe contener un proyecto sobre un tema conocido, anota todo aquello con lo que ese tema se ha conectado alguna vez. Luego hazle otra pregunta a la lista: no cuáles son mejores, sino cuáles se echarían de menos.",
+          "flavor": "Nueve elementos entraron en la lista, del veneno a los disparos de muerte y el arma viviente. Se acordó que tres eran lo que cualquiera esperaría de un set phyrexiano, y el equipo les dio nombre propio: las tres P."
+        },
+        {
+          "title": "Construye la versión que sospechas rota, para reproducir el problema",
+          "rules": "Un fallo conocido que todos recuerdan a medias no es una especificación. Vuelve a hacerlo, ponlo delante de la gente, y la objeción vaga se convierte en un enunciado preciso y compartido de qué falla realmente.",
+          "flavor": "Infectar era polarizante y en I+D se habían cansado de los contadores que exigía, pero se reconstruyó igualmente. La primera prueba jugó igual que el bloque antiguo y recordó a todos el problema real: o jugabas veneno o no."
+        },
+        {
+          "title": "Quitar un componente libera a los demás",
+          "rules": "Una pieza que cortas estaba restringiendo más que a sí misma. Cuando se va, revisa todo lo que se había moldeado a su alrededor: algunas de esas decisiones nunca fueron decisiones y ahora vuelven a estar abiertas.",
+          "flavor": "Dejar infectar significó que ya no hacía falta un set construido sobre contadores −1/−1, algo que Rosewater dudaba poder vender río abajo. También liberó a proliferar para tratar de construir en vez de destruir."
+        },
+        {
+          "title": "Elige en qué dirección corre el número para que la interacción sea siempre buena",
+          "rules": "El mismo límite puede expresarse contando hacia arriba hasta un umbral o hacia abajo hasta cero. Elige la dirección que haga que tus otras mecánicas ayuden en vez de perjudicar: efecto idéntico, relación opuesta.",
+          "flavor": "Una criatura pensada para durar tres turnos empieza con tres contadores y cuenta hacia abajo, en vez de acumular hasta un disparo que la elimina. Proliferar te compra así un turno extra en lugar de costarte uno."
+        },
+        {
+          "title": "Dale a la resistencia una versión apropiada de la firma del opresor",
+          "rules": "Una facción pequeña dentro de una dominante no debería recibir su propio instrumental sin relación. Haz que reutilice lo más característico del grupo dominante: sobrevivir tomando sus herramientas es una idea más fuerte que oponerse con otras nuevas.",
+          "flavor": "Arma viviente era lo más phyrexiano que quedaba sin usar en la lista. Los rebeldes la recibieron con el germen 0/0 sustituido por un rebelde 2/2: la mecánica robada es en sí misma la caracterización."
+        },
+        {
+          "title": "Mantén una lista de cosas que esperan el hogar adecuado",
+          "rules": "No todo lo que quieres recuperar tiene dónde ir cuando se te ocurre. Guárdalo, y reconoce el momento en que llega un proyecto cuyas necesidades encajan exactamente.",
+          "flavor": "El tipo de criatura rebelde llevaba sin usarse desde Mercadian Masques. El casi-acierto más cercano fue Battle for Zendikar, donde a quienes luchaban contra los Eldrazi se les hizo aliados. Este set fue por fin el sitio."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Phyrexia: All Will Be One Direction, partie 1",
+      "dek": "Neuf associations, classées selon ce que le public attendrait.",
+      "overview": "L'histoire de conception, du design exploratoire à la passation. Elle s'ouvre sur une méthode — inventorier tout ce à quoi le sujet a jamais été associé, puis trier par obligation — et procède en bâtissant exprès la version qu'ils soupçonnaient défaillante.",
+      "takeaway": "Neuf mécaniques avaient un jour été liées aux Phyrexians. L'équipe les a toutes listées puis a demandé lesquelles le public attendrait. Trois sont remontées, et ces trois-là sont devenues les obligations du set.",
+      "lessons": [
+        {
+          "title": "Inventoriez chaque association, puis triez par attente",
+          "rules": "Avant de décider ce que doit contenir un projet sur un sujet connu, notez tout ce à quoi ce sujet a jamais été relié. Puis posez à la liste une autre question : non pas lesquelles sont les meilleures, mais lesquelles manqueraient.",
+          "flavor": "Neuf éléments furent listés, du poison aux déclencheurs de mort en passant par l'arme vivante. Trois furent jugés attendus de tout set phyrexian, et l'équipe leur a donné un nom : les trois P."
+        },
+        {
+          "title": "Bâtissez la version que vous soupçonnez défaillante, pour reproduire le problème",
+          "rules": "Un échec connu dont chacun se souvient à moitié n'est pas un cahier des charges. Refaites-le, mettez-le devant des gens, et l'objection vague devient un énoncé précis et partagé de ce qui cloche vraiment.",
+          "flavor": "L'infection était clivante et la R&D lassée des marqueurs qu'elle exigeait ; on l'a tout de même reconstruite. Le premier test a joué comme l'ancien bloc et a rappelé le vrai problème : soit vous jouiez poison, soit non."
+        },
+        {
+          "title": "Retirer un composant libère les autres",
+          "rules": "Une pièce que vous coupez contraignait plus qu'elle-même. Une fois partie, réexaminez tout ce qui avait été façonné autour : certaines de ces décisions n'en étaient pas et redeviennent ouvertes.",
+          "flavor": "Abandonner l'infection signifiait ne plus avoir besoin d'un set bâti sur des marqueurs −1/−1, ce que Rosewater doutait de pouvoir faire accepter en aval. Cela a aussi libéré la prolifération pour construire au lieu de détruire."
+        },
+        {
+          "title": "Choisissez le sens de la numération pour que l'interaction soit toujours bénéfique",
+          "rules": "La même limite peut s'exprimer en comptant vers un seuil ou en décomptant vers zéro. Choisissez le sens qui rend vos autres mécaniques utiles plutôt que nuisibles : effet identique, relation inverse.",
+          "flavor": "Une créature censée durer trois tours part avec trois marqueurs et décompte, plutôt que d'accumuler jusqu'à un déclencheur qui la retire. Proliférer vous offre donc un tour de plus au lieu de vous en coûter un."
+        },
+        {
+          "title": "Donnez à la résistance une version détournée de la signature de l'oppresseur",
+          "rules": "Une petite faction au sein d'une dominante ne devrait pas recevoir son propre outillage sans lien. Faites-lui détourner ce que le groupe dominant a de plus caractéristique : survivre en prenant leurs outils est plus fort que s'y opposer avec du neuf.",
+          "flavor": "L'arme vivante était la chose la plus phyrexiane restée inutilisée sur la liste. Les rebelles l'ont reçue, le germe 0/0 remplacé par un rebelle 2/2 : la mécanique volée est elle-même la caractérisation."
+        },
+        {
+          "title": "Tenez une liste des choses qui attendent le bon foyer",
+          "rules": "Tout ce que vous voulez faire revivre n'a pas où aller au moment où vous y pensez. Gardez-les, et reconnaissez l'instant où arrive un projet dont les besoins leur correspondent exactement.",
+          "flavor": "Le type de créature rebelle dormait depuis Mercadian Masques. Le presque-bon moment fut Battle for Zendikar, où ceux qui combattaient les Eldrazi furent faits alliés. Ce set fut enfin le bon endroit."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Phyrexia: All Will Be One Direction, parte 1",
+      "dek": "Nove associações, ordenadas pelo que o público esperaria.",
+      "overview": "A história de design, do design exploratório ao repasse. Ela abre com um método — inventariar tudo a que o assunto já foi associado, e então ordenar por obrigação — e prossegue construindo de propósito a versão que suspeitavam estar quebrada.",
+      "takeaway": "Nove mecânicas já haviam sido ligadas aos phyrexianos. A equipe listou todas e perguntou quais o público esperaria. Três subiram ao topo, e essas três viraram as obrigações do set.",
+      "lessons": [
+        {
+          "title": "Inventarie cada associação e depois ordene por expectativa",
+          "rules": "Antes de decidir o que um projeto sobre um assunto conhecido deve conter, anote tudo a que esse assunto já esteve ligado. Depois faça à lista outra pergunta: não quais são melhores, mas quais fariam falta.",
+          "flavor": "Nove itens entraram na lista, de veneno a gatilhos de morte e arma viva. Três foram tidos como o que qualquer um esperaria de um set phyrexiano, e a equipe lhes deu um nome próprio: os três P."
+        },
+        {
+          "title": "Construa a versão que você suspeita estar quebrada, para reproduzir o problema",
+          "rules": "Uma falha conhecida de que todos se lembram pela metade não é uma especificação. Refaça-a, ponha diante das pessoas, e a objeção vaga vira um enunciado preciso e compartilhado do que de fato dá errado.",
+          "flavor": "Infectar era polarizante e a P&D havia enjoado dos marcadores que ela exigia, mas foi reconstruída assim mesmo. O primeiro teste jogou igual ao bloco antigo e lembrou a todos o problema real: ou você jogava veneno, ou não."
+        },
+        {
+          "title": "Remover um componente liberta os outros",
+          "rules": "Uma peça que você corta estava restringindo mais do que a si mesma. Depois que ela sai, revise tudo que fora moldado ao redor dela: algumas dessas decisões nunca foram decisões e agora estão abertas de novo.",
+          "flavor": "Largar infectar significou não precisar mais de um set construído sobre marcadores −1/−1, algo que Rosewater duvidava conseguir emplacar rio abaixo. Também libertou proliferar para construir em vez de destruir."
+        },
+        {
+          "title": "Escolha em que direção o número corre, para que a interação seja sempre boa",
+          "rules": "O mesmo limite pode ser expresso contando para cima até um limiar ou para baixo até zero. Escolha a direção que faz suas outras mecânicas ajudarem em vez de atrapalharem: efeito idêntico, relação oposta.",
+          "flavor": "Uma criatura feita para durar três turnos começa com três marcadores e conta para baixo, em vez de acumular até um gatilho que a remove. Proliferar, assim, compra um turno a mais em vez de custar um."
+        },
+        {
+          "title": "Dê à resistência uma versão apropriada da assinatura do opressor",
+          "rules": "Uma facção pequena dentro de uma dominante não deveria ganhar seu próprio instrumental sem relação. Faça-a reaproveitar o que o grupo dominante tem de mais característico: sobreviver tomando as ferramentas deles é ideia mais forte que se opor com novas.",
+          "flavor": "Arma viva era a coisa mais phyrexiana ainda não usada da lista. Os rebeldes a ganharam com o germe 0/0 trocado por um rebelde 2/2 — a mecânica roubada é, ela mesma, a caracterização."
+        },
+        {
+          "title": "Mantenha uma lista de coisas esperando a casa certa",
+          "rules": "Nem tudo que você quer ressuscitar tem para onde ir no momento em que você pensa nisso. Guarde-as, e reconheça o instante em que chega um projeto cujas necessidades encaixam exatamente.",
+          "flavor": "O tipo de criatura rebelde estava parado desde Mercadian Masques. O quase-acerto mais próximo foi Battle for Zendikar, onde quem lutava contra os Eldrazi virou aliado. Este set foi, enfim, o lugar certo."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "《非瑞克西亚：万界归一》的方向，第一部分",
+      "dek": "九条联想，按「受众会期待什么」排出次序。",
+      "overview": "从探索设计一直到交接的设计故事。它以一套方法开场——把这个题材曾经关联过的一切列出清单，再按「义务」排序——然后有意去把那个他们怀疑已经坏掉的版本重新造一遍。",
+      "takeaway": "历史上共有九个机制曾与非瑞克西亚人绑定过。团队把它们全部列了出来，然后问：受众会期待其中哪几个？三个浮到了最上面——而这三个，成了这个系列的义务。",
+      "lessons": [
+        {
+          "title": "把每一条联想都列成清单，再按「期待度」排序",
+          "rules": "在决定「一个关于某个known题材的项目该包含什么」之前，先把这个题材曾经关联过的一切写下来。然后换一个问题去问这份清单：不是哪些最好，而是哪些一旦缺席会被想念。",
+          "flavor": "清单上有九项，从中毒、到死亡触发、再到活体武器。其中三项被公认为「任何人都会期待一个非瑞克西亚系列拥有」的东西，团队还给它们起了个自己的名字：三个 P。"
+        },
+        {
+          "title": "把你怀疑已经坏掉的那个版本造出来，好把问题复现出来",
+          "rules": "一次「所有人都只记得一半」的已知失败，不构成一份规格书。把它重新做一遍、摆到人面前去——那句含糊的反对意见，就会变成一句关于「究竟哪里出了错」的、精确而且被共享的陈述。",
+          "flavor": "感染是有争议的，研发部也早已厌倦了它所需要的那种指示物；但他们还是把它重建了一遍。第一次试玩打起来和当年那个环境一模一样，也让所有人重新想起了真正的问题：你要么打毒，要么不打。"
+        },
+        {
+          "title": "拿掉一个零件，会把其他零件解放出来",
+          "rules": "你砍掉的那个零件，此前约束的不只是它自己。等它走了之后，把所有「曾经围着它成形」的东西复查一遍——其中有些决定其实从来就不是决定，而现在它们重新敞开了。",
+          "flavor": "放弃感染，意味着不再需要一个建立在 −1/−1 指示物上的系列——而罗斯沃特本就怀疑自己能不能把那个说服下游接受。这同时也把增殖解放了出来，让它可以是「往上建」而不是「往下拆」。"
+        },
+        {
+          "title": "选好这个数字往哪个方向走，好让互动永远是好的",
+          "rules": "同一个限制，既可以表达成「往上数到某个门槛」，也可以表达成「往下数到零」。挑那个能让你其他机制帮忙、而不是帮倒忙的方向——效果完全相同，关系正好相反。",
+          "flavor": "一个打算只存在三个回合的生物，是带着三个指示物往下数，而不是往上累积到某个把它移除的触发。于是增殖买给你的是多一个回合，而不是少一个回合。"
+        },
+        {
+          "title": "给抵抗者一个「把压迫者的招牌挪为己用」的版本",
+          "rules": "一个身处强势阵营内部的小派系，不该拿到一套与之毫无关系的自有工具。让它去挪用强势方最具标志性的那样东西——「靠夺取他们的工具活下来」，比「用全新的工具去对抗他们」是更有力的点子。",
+          "flavor": "活体武器是清单上剩下没用、却最具非瑞克西亚气质的那一项。反抗军拿到了它，只是把 0/0 的芽孢换成了 2/2 的反抗军——这个被偷来的机制，本身就是人物刻画。"
+        },
+        {
+          "title": "保留一份「正在等一个合适归宿」的清单",
+          "rules": "不是每一样你想复活的东西，在你想到它的那一刻都有地方可去。把它们留着，并在某个项目到来、而它的需求恰好与之吻合时，认出那一刻。",
+          "flavor": "「反抗军」这个生物类别自《Mercadian Masques》之后就一直搁着。最接近的一次擦肩是《Battle for Zendikar》——那些对抗奥札奇的人最后被做成了盟友。而这个系列，终于是那个对的地方。"
+        }
+      ]
+    }
+  }
+}

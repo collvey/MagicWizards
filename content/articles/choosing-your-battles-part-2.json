@@ -4,90 +4,237 @@
   "column": "making-magic",
   "author": "Mark Rosewater",
   "publishedAt": "2023-04-17",
-  "series": null,
-  "tags": [],
+  "series": { "id": "choosing-your-battles", "order": 2, "total": 3 },
+  "tags": ["card-by-card", "march-of-the-machine", "cycles"],
   "pointNoun": "point",
   "source": {
     "canonical": "https://magic.wizards.com/en/news/making-magic/choosing-your-battles-part-2",
-    "locales": [
-      "en",
-      "es",
-      "fr",
-      "pt-BR",
-      "zh-Hans"
-    ]
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
   },
   "summaryVersion": 1,
   "summarizedAt": "2026-08-22T02:10:57.039Z",
   "lessons": [
-    {
-      "n": 1,
-      "color": "W"
-    }
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "U" }
   ],
   "translations": {
     "en": {
       "title": "Choosing Your Battles, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "dek": "Filling the gaps with the subjects nobody remembers.",
+      "overview": "The middle third of the battle catalogue. Where part one derived each card's mechanics from its plane's identity, this one shows the reverse process: the effects the set still needed, matched to whichever obscure plane could plausibly host them.",
+      "takeaway": "The famous planes got the slots they obviously deserved. The obscure ones worked the other way round — the team wanted a plane that damages everything, then went looking for which plane could carry it. Four were considered.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Design the effect first, then find the subject that can host it",
+          "rules": "Prominent subjects dictate their own treatment. The forgettable ones are your slack: identify what the project still needs mechanically, then look through them for whichever can plausibly justify it.",
+          "flavor": "The team wanted a plane that deals damage to everything and considered four obscure candidates before settling on Karsus. The well-known planes had already claimed their slots by being themselves."
+        },
+        {
+          "title": "An artifact can carry a story beat the narrative never got to",
+          "rules": "When something important didn't make it into the telling, the objects can say it instead. Design backwards from the moment you need people to know about, and the fact reaches them anyway.",
+          "flavor": "Kaldheim's inhabitants burn their own World Tree to stop the invasion — a decision with huge implications that never appeared in the written story. The card discards land to deal damage, so players would see it."
+        },
+        {
+          "title": "Trigger off your own category so it's never dead and still scales",
+          "rules": "Something that counts members of a group it belongs to always counts at least itself. It works with no support at all, and rewards anyone who chooses to invest — one design covering both audiences.",
+          "flavor": "Tarkir's Dragon rewards you for having Dragons, and is one. Rosewater names it as a technique they like: the card functions in a vacuum for Limited while letting a Constructed player build around it."
+        },
+        {
+          "title": "A scalable cost stops an expensive card being a dead draw",
+          "rules": "Something built for the late game is a blank early, which is what keeps people from playing it. Let the price vary and the same card becomes usable whenever it arrives, at whatever size you can afford.",
+          "flavor": "The Ikoria battle fetches creatures from your deck and has an X in its cost — so you can find enormous things late without holding an uncastable card in the opening hand."
+        },
+        {
+          "title": "Assign individual pieces to cover an archetype's structural deficit",
+          "rules": "A strategy whose parts don't naturally supply what it needs won't come together on its own. Work out the shortfall and place specific items to fill it, matched to the exact form the strategy requires.",
+          "flavor": "The blue-red archetype was built on convoke, and blue and red have the fewest creatures. So token-makers were added deliberately — and the Mercadia battle's tokens are blue and red, so they can convoke for those colours."
+        },
+        {
+          "title": "In a comprehensive survey, leaving something out is a statement",
+          "rules": "When you set out to cover everything, an omission is louder than an inclusion. Something unloved still earns its place, because its absence would be read as a judgment you didn't intend to make.",
+          "flavor": "Mercadia isn't a popular plane and its set wasn't a popular set. Rosewater's reasoning is simply that it seemed wrong not to make a nod to it."
+        },
+        {
+          "title": "Two rules can interact to forbid the obvious answer",
+          "rules": "The natural design sometimes turns out to be impossible because of how two unrelated pieces of the system meet. You find out late, having assumed the easy thing was available all along.",
+          "flavor": "Zendikar is the land plane, so the reward should have been a creature land. Battles are exiled and then cast transformed when defeated — and lands can't be cast."
         }
       ]
     },
     "es": {
-      "title": "Choosing Your Battles, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Eligiendo tus batallas, parte 2",
+      "dek": "Tapar los huecos con los temas que nadie recuerda.",
+      "overview": "El tercio central del catálogo de batallas. Donde la primera parte derivaba las mecánicas de la identidad de cada plano, esta muestra el proceso inverso: los efectos que el set aún necesitaba, emparejados con el plano oscuro que pudiera albergarlos.",
+      "takeaway": "Los planos famosos recibieron los huecos que obviamente merecían. Con los oscuros fue al revés: el equipo quería un plano que dañara todo, y luego buscó cuál podía cargar con ello. Se consideraron cuatro.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Diseña el efecto primero y luego busca el tema que pueda albergarlo",
+          "rules": "Los temas prominentes dictan su propio tratamiento. Los olvidables son tu holgura: identifica qué necesita todavía el proyecto mecánicamente y luego repásalos buscando cuál puede justificarlo de forma plausible.",
+          "flavor": "El equipo quería un plano que hiciera daño a todo y consideró cuatro candidatos oscuros antes de quedarse con Karsus. Los planos conocidos ya habían reclamado sus huecos por el simple hecho de ser ellos mismos."
+        },
+        {
+          "title": "Un objeto puede cargar con un momento de la historia al que el relato nunca llegó",
+          "rules": "Cuando algo importante no entró en la narración, los objetos pueden decirlo en su lugar. Diseña hacia atrás desde el momento que quieres que la gente conozca, y el hecho les llegará igualmente.",
+          "flavor": "Los habitantes de Kaldheim queman su propio Árbol del Mundo para detener la invasión: una decisión de enormes implicaciones que nunca apareció en la historia escrita. La carta descarta tierras para hacer daño, para que los jugadores lo vieran."
+        },
+        {
+          "title": "Dispárate con tu propia categoría: nunca será una carta muerta y aun así escala",
+          "rules": "Algo que cuenta miembros de un grupo al que pertenece siempre se cuenta al menos a sí mismo. Funciona sin ningún apoyo y premia a quien decida invertir: un solo diseño cubre a ambos públicos.",
+          "flavor": "El dragón de Tarkir te premia por tener dragones, y es uno. Rosewater lo llama una técnica que les gusta: la carta funciona en el vacío para Limitado y permite construir alrededor en Construido."
+        },
+        {
+          "title": "Un coste escalable impide que una carta cara sea un robo muerto",
+          "rules": "Algo hecho para el juego tardío es un blanco al principio, y eso es lo que impide que la gente lo juegue. Deja que el precio varíe y la misma carta se vuelve usable cuando llegue, al tamaño que puedas permitirte.",
+          "flavor": "La batalla de Ikoria busca criaturas en tu mazo y lleva una X en su coste, de modo que puedes encontrar cosas enormes tarde sin sostener una carta inlanzable en la mano inicial."
+        },
+        {
+          "title": "Asigna piezas concretas para cubrir el déficit estructural de un arquetipo",
+          "rules": "Una estrategia cuyas partes no aportan de forma natural lo que necesita no cuajará sola. Calcula el déficit y coloca elementos específicos para cubrirlo, ajustados a la forma exacta que la estrategia requiere.",
+          "flavor": "El arquetipo azul-rojo se construyó sobre convocar, y azul y rojo tienen las menos criaturas. Así que se añadieron generadores de fichas a propósito, y las fichas de la batalla de Mercadia son azules y rojas para poder convocar esos colores."
+        },
+        {
+          "title": "En un repaso exhaustivo, dejar algo fuera es una declaración",
+          "rules": "Cuando te propones cubrirlo todo, una omisión suena más fuerte que una inclusión. Algo poco querido se gana igualmente su sitio, porque su ausencia se leería como un juicio que no pretendías emitir.",
+          "flavor": "Mercadia no es un plano popular y su set tampoco lo fue. El razonamiento de Rosewater es simplemente que parecía mal no hacerle un guiño."
+        },
+        {
+          "title": "Dos reglas pueden interactuar para prohibir la respuesta obvia",
+          "rules": "El diseño natural a veces resulta imposible por cómo se encuentran dos piezas del sistema sin relación aparente. Te enteras tarde, habiendo dado por hecho todo el tiempo que lo fácil estaba disponible.",
+          "flavor": "Zendikar es el plano de las tierras, así que el premio debía haber sido una tierra-criatura. Las batallas se exilian y luego se lanzan transformadas al ser derrotadas, y las tierras no pueden lanzarse."
         }
       ]
     },
     "fr": {
-      "title": "Choosing Your Battles, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Choisir ses batailles, partie 2",
+      "dek": "Combler les trous avec les sujets dont nul ne se souvient.",
+      "overview": "Le tiers central du catalogue des batailles. Là où la première partie dérivait les mécaniques de l'identité de chaque plan, celle-ci montre le procédé inverse : les effets dont le set avait encore besoin, appariés au plan obscur capable de les héberger.",
+      "takeaway": "Les plans célèbres ont eu les emplacements qu'ils méritaient d'évidence. Pour les obscurs, ce fut l'inverse : on voulait un plan qui blesse tout, puis on a cherché lequel pouvait le porter. Quatre furent envisagés.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Concevez l'effet d'abord, puis cherchez le sujet capable de l'héberger",
+          "rules": "Les sujets marquants dictent leur propre traitement. Les oubliables sont votre marge : repérez ce dont le projet a encore besoin mécaniquement, puis passez-les en revue pour trouver qui peut plausiblement le justifier.",
+          "flavor": "L'équipe voulait un plan blessant tout et a envisagé quatre candidats obscurs avant d'arrêter Karsus. Les plans connus avaient déjà pris leurs emplacements du simple fait d'être eux-mêmes."
+        },
+        {
+          "title": "Un objet peut porter un moment de l'histoire que le récit n'a jamais atteint",
+          "rules": "Quand une chose importante n'est pas entrée dans le récit, les objets peuvent le dire à sa place. Concevez à rebours depuis le moment que vous voulez faire connaître, et le fait parviendra quand même.",
+          "flavor": "Les habitants de Kaldheim brûlent leur propre Arbre-Monde pour stopper l'invasion — une décision aux implications énormes, absente du récit écrit. La carte défausse des terrains pour blesser, afin que les joueurs le voient."
+        },
+        {
+          "title": "Déclenchez sur votre propre catégorie : jamais morte, et pourtant elle monte en puissance",
+          "rules": "Une chose qui compte les membres d'un groupe auquel elle appartient se compte toujours elle-même. Elle fonctionne sans aucun soutien et récompense qui choisit d'investir : un seul design pour deux publics.",
+          "flavor": "Le dragon de Tarkir vous récompense d'avoir des dragons, et en est un. Rosewater y voit une technique qu'ils aiment : la carte tient toute seule en Limité tout en permettant de construire autour en Construit."
+        },
+        {
+          "title": "Un coût variable empêche une carte chère d'être une pioche morte",
+          "rules": "Une chose faite pour la fin de partie est un blanc au début, et c'est ce qui dissuade de la jouer. Laissez le prix varier et la même carte devient utilisable dès qu'elle arrive, à la taille que vous pouvez payer.",
+          "flavor": "La bataille d'Ikoria va chercher des créatures dans votre deck et porte un X dans son coût — vous pouvez donc trouver des choses énormes tard sans garder une carte injouable en main de départ."
+        },
+        {
+          "title": "Affectez des pièces précises pour combler le déficit structurel d'un archétype",
+          "rules": "Une stratégie dont les composants ne fournissent pas naturellement ce qu'il lui faut ne se formera pas seule. Calculez le manque et placez des éléments précis pour le combler, à la forme exacte requise.",
+          "flavor": "L'archétype bleu-rouge reposait sur la convocation, et le bleu et le rouge ont le moins de créatures. On a donc ajouté exprès des créateurs de jetons — et les jetons de la bataille de Mercadia sont bleus et rouges, pour convoquer dans ces couleurs."
+        },
+        {
+          "title": "Dans un panorama exhaustif, omettre est une déclaration",
+          "rules": "Quand on entreprend de tout couvrir, une omission parle plus fort qu'une inclusion. Une chose mal-aimée gagne quand même sa place, car son absence se lirait comme un jugement que vous n'entendiez pas rendre.",
+          "flavor": "Mercadia n'est pas un plan populaire, et son set ne l'était pas non plus. Le raisonnement de Rosewater est simplement qu'il aurait paru mal de ne pas lui faire un clin d'œil."
+        },
+        {
+          "title": "Deux règles peuvent interagir pour interdire la réponse évidente",
+          "rules": "Le design naturel se révèle parfois impossible du fait de la rencontre de deux pièces sans rapport du système. On l'apprend tard, ayant supposé tout du long que la solution facile était disponible.",
+          "flavor": "Zendikar est le plan des terrains : la récompense aurait dû être un terrain-créature. Les batailles sont exilées puis lancées transformées une fois vaincues — et un terrain ne se lance pas."
         }
       ]
     },
     "pt-BR": {
-      "title": "Choosing Your Battles, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Escolhendo suas batalhas, parte 2",
+      "dek": "Tapar as lacunas com os assuntos de que ninguém se lembra.",
+      "overview": "O terço central do catálogo de batalhas. Onde a primeira parte derivava as mecânicas da identidade de cada plano, esta mostra o processo inverso: os efeitos de que o set ainda precisava, casados com o plano obscuro que pudesse hospedá-los.",
+      "takeaway": "Os planos famosos ficaram com os espaços que obviamente mereciam. Com os obscuros foi o contrário: a equipe queria um plano que causasse dano a tudo, e então foi procurar qual poderia carregar isso. Quatro foram considerados.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Projete o efeito primeiro, e então ache o assunto capaz de hospedá-lo",
+          "rules": "Assuntos proeminentes ditam o próprio tratamento. Os esquecíveis são a sua folga: identifique do que o projeto ainda precisa mecanicamente e depois vasculhe-os atrás de quem possa justificar aquilo de forma plausível.",
+          "flavor": "A equipe queria um plano que causasse dano a tudo e considerou quatro candidatos obscuros antes de fechar com Karsus. Os planos conhecidos já haviam reivindicado seus espaços por simplesmente serem eles mesmos."
+        },
+        {
+          "title": "Um objeto pode carregar um momento da história ao qual a narrativa nunca chegou",
+          "rules": "Quando algo importante não entrou na narração, os objetos podem dizê-lo no lugar dela. Projete de trás para frente a partir do momento que você quer que as pessoas conheçam, e o fato chega até elas mesmo assim.",
+          "flavor": "Os habitantes de Kaldheim queimam a própria Árvore do Mundo para deter a invasão — uma decisão de enormes implicações que nunca apareceu na história escrita. A carta descarta terrenos para causar dano, para que os jogadores vissem."
+        },
+        {
+          "title": "Dispare pela sua própria categoria: nunca é carta morta e ainda escala",
+          "rules": "Algo que conta membros de um grupo ao qual pertence sempre conta ao menos a si mesmo. Funciona sem apoio nenhum e premia quem escolher investir: um único design cobrindo os dois públicos.",
+          "flavor": "O dragão de Tarkir premia você por ter dragões, e é um. Rosewater chama isso de uma técnica que eles gostam: a carta funciona no vácuo para o Limitado e permite construir em torno dela no Construído."
+        },
+        {
+          "title": "Um custo escalável impede que uma carta cara seja uma compra morta",
+          "rules": "Algo feito para o fim de jogo é um branco no início, e é isso que impede as pessoas de jogá-lo. Deixe o preço variar e a mesma carta fica usável quando chegar, no tamanho que você puder pagar.",
+          "flavor": "A batalha de Ikoria busca criaturas no seu deck e traz um X no custo — então você pode achar coisas enormes tarde sem segurar uma carta injogável na mão inicial."
+        },
+        {
+          "title": "Designe peças específicas para cobrir o déficit estrutural de um arquétipo",
+          "rules": "Uma estratégia cujas partes não fornecem naturalmente o que ela precisa não se forma sozinha. Calcule a falta e coloque itens específicos para cobri-la, no formato exato que a estratégia exige.",
+          "flavor": "O arquétipo azul-vermelho foi construído sobre convocar, e azul e vermelho têm as menos criaturas. Então geradores de fichas foram acrescentados de propósito — e as fichas da batalha de Mercadia são azuis e vermelhas, para convocar nessas cores."
+        },
+        {
+          "title": "Num panorama exaustivo, deixar algo de fora é uma declaração",
+          "rules": "Quando você se propõe a cobrir tudo, uma omissão soa mais alto que uma inclusão. Algo pouco querido ganha lugar assim mesmo, porque sua ausência seria lida como um juízo que você não pretendia emitir.",
+          "flavor": "Mercadia não é um plano popular e o set dele também não foi. O raciocínio de Rosewater é simplesmente que parecia errado não lhe fazer um aceno."
+        },
+        {
+          "title": "Duas regras podem interagir para proibir a resposta óbvia",
+          "rules": "O design natural às vezes se revela impossível pelo modo como duas peças sem relação do sistema se encontram. Você descobre tarde, tendo suposto o tempo todo que a saída fácil estava disponível.",
+          "flavor": "Zendikar é o plano dos terrenos, então o prêmio deveria ter sido um terreno-criatura. Batalhas são exiladas e depois conjuradas transformadas ao serem derrotadas — e terrenos não podem ser conjurados."
         }
       ]
     },
     "zh-Hans": {
-      "title": "Choosing Your Battles, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "选择你的战役，第二部分",
+      "dek": "用那些没人记得的题材去补空。",
+      "overview": "战役牌目录的中间三分之一。第一部分是从每个次元的身份里推导出机制，而这一部分展示的是反过来的流程：先看这个系列还缺哪些效果，再去配上那个「说得通能承载它」的冷门次元。",
+      "takeaway": "有名的次元拿到了它们理所当然该拿的位置。而冷门的那些走的是反方向：团队想要一个「对所有东西造成伤害」的次元，然后才去找哪一个次元扛得起它。当时有四个候选。",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "先设计效果，再去找那个能承载它的题材",
+          "rules": "有分量的题材会规定它自己该被怎么处理。而那些容易被忘掉的，是你的余量：先弄清这个项目在机制上还缺什么，再从它们中间翻找，看谁能给出一个说得通的理由。",
+          "flavor": "团队想要一个「对所有东西造成伤害」的次元，并在敲定卡瑟斯之前考虑过四个冷门候选。而那些有名的次元，仅仅因为它们是它们自己，就已经把位置占下了。"
+        },
+        {
+          "title": "一件实物可以承载叙事从未讲到的那个节点",
+          "rules": "当某样重要的东西没能进入叙述时，这些实物可以替它把话说出来。从「你希望人们知道的那个瞬间」倒着往回设计，这个事实照样能抵达他们。",
+          "flavor": "卡尔德海姆的居民烧掉了自己的世界树来阻止入侵——一个影响极其深远、却从未出现在成文故事里的决定。于是那张牌用「弃掉地牌来造成伤害」，好让玩家看见它。"
+        },
+        {
+          "title": "让它以自己所属的类别为触发条件：永远不会是废牌，同时仍然能放大",
+          "rules": "一样「统计某个群体成员数量」的东西，只要它自己也属于那个群体，就至少能数到它自己。它在毫无支援时也能运作，同时又奖励那些愿意投入的人——一个设计同时照顾了两批受众。",
+          "flavor": "鞑契那条龙会因为你拥有龙而给你回报，而它自己就是一条龙。罗斯沃特把这称作他们喜欢的一种手法：这张牌在限制赛里能孤立地起作用，同时又允许构筑玩家围着它搭套牌。"
+        },
+        {
+          "title": "一个可缩放的费用，能让昂贵的牌不再是一张废抓",
+          "rules": "一样为后期而造的东西，在前期就是一张白板——而这正是人们不愿意打它的原因。让价钱可变，同一张牌就变成了「什么时候到手都能用」，用你当时付得起的规模去用。",
+          "flavor": "依克黎那张战役牌会从你的套牌里找出生物，而它的费用里带一个 X——于是你既能在后期找到巨大的东西，又不会在起手里捏着一张打不出去的牌。"
+        },
+        {
+          "title": "指派具体的零件，去补上某个原型在结构上的亏空",
+          "rules": "一条策略，如果它的组成部分并不天然提供它所需要的东西，它就不会自己成形。算出这份亏空，再放进具体的东西去填它——而且要按这条策略所要求的确切形态来配。",
+          "flavor": "蓝红原型是围绕「群策」搭的，而蓝色和红色恰好是生物最少的两个颜色。于是衍生物制造者被有意加了进来——而梅尔卡蒂亚那张战役牌造出的衍生物是蓝色和红色的，好让它们能为这两个颜色群策。"
+        },
+        {
+          "title": "在一次力求穷尽的清点里，把某样东西漏掉本身就是一种表态",
+          "rules": "当你打算把一切都覆盖到时，一处遗漏比一处收录更响亮。一样不受待见的东西照样挣得它的位置——因为它的缺席，会被读成一个你本无意作出的评判。",
+          "flavor": "梅尔卡蒂亚不是一个受欢迎的次元，它所在的那个系列也不受欢迎。而罗斯沃特给出的理由很简单：不向它点个头，感觉不对。"
+        },
+        {
+          "title": "两条规则可能互相作用，从而封死那个显而易见的答案",
+          "rules": "最自然的那个设计，有时会因为系统中两块看似无关的部件相遇的方式而变得不可能。你会很晚才发现这一点——此前你一直默认那条容易的路是敞开的。",
+          "flavor": "赞迪卡是地牌的次元，所以奖励本该是一块生物地。可战役牌在被击败时会被放逐、然后以转化的形态被施放——而地牌是没法被施放的。"
         }
       ]
     }

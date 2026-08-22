@@ -1,0 +1,242 @@
+{
+  "id": "march-of-the-machine-learning-part-2",
+  "slug": "march-of-the-machine-learning-part-2",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2023-04-03",
+  "series": { "id": "march-of-the-machine-learning", "order": 2, "total": 2 },
+  "tags": ["design-story", "march-of-the-machine", "process"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/march-of-the-machine-learning-part-2",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T02:31:22.147Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "March of the Machine Learning, Part 2",
+      "dek": "Three requirements written down before anyone brainstormed.",
+      "overview": "The set design half, and the story of how a land that transforms into a land became a new card type. The method shows through: name what's wrong item by item, write the requirements, and only then invent.",
+      "takeaway": "Before brainstorming a replacement, the team wrote three requirements: each card represents a different plane, it captures a war, and it should be novel — with the third openly hedged. The brainstorm then had something to be judged against.",
+      "lessons": [
+        {
+          "title": "Write the requirements before brainstorming the replacement",
+          "rules": "A brainstorm with nothing to be measured against produces ideas you can only compare to each other. State what the answer must do first, and mark which requirements are firm and which are merely hoped for.",
+          "flavor": "Three were written: represent a different plane each, capture the sense of a war, and be novel — the last hedged as hopefully enough for a new card type, but that wasn't essential. It got one anyway."
+        },
+        {
+          "title": "Diagnose a failing design by listing every separate reason",
+          "rules": "Something can be wrong without any single objection being fatal. Write them all out; the case for replacing it is the accumulation, and you can't see that while you're answering the objections one at a time.",
+          "flavor": "The land version had a lower power budget, too many mana sinks crowding the design space, land destruction as a risky safety valve, and it didn't feel novel. As all this added up, they wanted to try something new."
+        },
+        {
+          "title": "Unsupported is much cheaper than prohibited",
+          "rules": "When a system can't do what you want, find out which kind of can't it is. Something nobody has asked for yet takes a small extension; something the system actively forbids is a different order of problem.",
+          "flavor": "The rules didn't support a double-faced token. Rosewater draws the distinction explicitly: the rules manager finds which rules would apply and changes them, which is a far lighter ask than fighting a rule that says no."
+        },
+        {
+          "title": "Borrow an existing interaction pattern to make a new thing intuitive",
+          "rules": "Novelty in what something does is valuable; novelty in how you interact with it is a tax. Make the new thing behave like something people already handle, and the unfamiliar part is the only part they have to learn.",
+          "flavor": "Battles arrive with counters that come off when damaged. The reason given is simply that it plays like a planeswalker, and is therefore more intuitive — the interaction is borrowed so the card type can be new."
+        },
+        {
+          "title": "Default to open, and tighten only when testing forces it",
+          "rules": "A permissive version interacts with everything that came before, which is where the surprises live. Start there, accept that some of it will be trouble, and narrow only after repeated testing shows the trouble is real.",
+          "flavor": "Backup first granted whatever abilities the creature had, so granted or cloned abilities could spread too. Rosewater names the standing policy: err on the side of open, and revert to the tighter version if playtests demand it."
+        },
+        {
+          "title": "Restrict the reward to the intended path",
+          "rules": "A payoff meant to reward one behaviour will be reached by every route that produces the same end state. If the behaviour is the point, say so — exclude the shortcuts, even the ones that look equivalent.",
+          "flavor": "A battle has to be brought down by damage, or by having its counters removed, to transform. Destroying it with a spell removes it and gives you nothing, because winning the battle was supposed to mean fighting it."
+        },
+        {
+          "title": "Put a returning mechanic where it hasn't been",
+          "rules": "A familiar tool feels new in unfamiliar hands. Move it somewhere it has barely appeared and the design space is genuinely open again — provided you also supply whatever that place structurally lacks.",
+          "flavor": "Convoke went to blue and red, which had never really had it. Those two colours have the fewest creatures, so set design had to add extra token-making before the mechanic could function there at all."
+        }
+      ]
+    },
+    "es": {
+      "title": "Aprendiendo de March of the Machine, parte 2",
+      "dek": "Tres requisitos escritos antes de que nadie hiciera una lluvia de ideas.",
+      "overview": "La mitad de diseño de set, y la historia de cómo una tierra que se transforma en tierra acabó siendo un tipo de carta nuevo. El método se transparenta: nombra lo que falla punto por punto, escribe los requisitos, y solo entonces inventa.",
+      "takeaway": "Antes de idear un sustituto, el equipo escribió tres requisitos: que cada carta represente un plano distinto, que capture una guerra, y que sea novedosa, este último con reservas explícitas. La lluvia de ideas ya tenía contra qué medirse.",
+      "lessons": [
+        {
+          "title": "Escribe los requisitos antes de idear el sustituto",
+          "rules": "Una lluvia de ideas sin nada contra qué medirse produce ideas que solo puedes comparar entre sí. Declara primero qué debe hacer la respuesta, y marca qué requisitos son firmes y cuáles son meramente deseables.",
+          "flavor": "Se escribieron tres: representar cada uno un plano distinto, capturar la sensación de una guerra, y ser novedoso, este último matizado con «ojalá bastante como para justificar un tipo de carta nuevo, pero no era esencial». Lo consiguió igualmente."
+        },
+        {
+          "title": "Diagnostica un diseño que falla listando cada razón por separado",
+          "rules": "Algo puede estar mal sin que ninguna objeción concreta sea mortal. Escríbelas todas: el argumento para sustituirlo es la acumulación, y eso no se ve mientras respondes a las objeciones de una en una.",
+          "flavor": "La versión de tierras tenía menor presupuesto de poder, demasiados sumideros de maná que ahogaban el espacio de diseño, la destrucción de tierras como válvula de seguridad arriesgada, y no se sentía novedosa. Sumado todo, quisieron probar otra cosa."
+        },
+        {
+          "title": "«No soportado» sale mucho más barato que «prohibido»",
+          "rules": "Cuando un sistema no puede hacer lo que quieres, averigua de qué tipo de imposibilidad se trata. Lo que nadie ha pedido aún requiere una pequeña ampliación; lo que el sistema prohíbe activamente es otro orden de problema.",
+          "flavor": "Las reglas no soportaban una ficha de doble cara. Rosewater marca la distinción: el gestor de reglas mira a qué reglas afectaría y las cambia, lo que es una petición mucho más leve que pelearse con una regla que dice no."
+        },
+        {
+          "title": "Toma prestado un patrón de interacción existente para hacer intuitivo lo nuevo",
+          "rules": "La novedad en lo que algo hace es valiosa; la novedad en cómo interactúas con ello es un impuesto. Haz que lo nuevo se comporte como algo que la gente ya maneja, y lo desconocido será lo único que deban aprender.",
+          "flavor": "Las batallas llegan con contadores que se quitan al recibir daño. La razón dada es sencillamente que se juega como un planeswalker y por tanto resulta más intuitivo: la interacción se toma prestada para que el tipo de carta pueda ser nuevo."
+        },
+        {
+          "title": "Empieza abierto y cierra solo cuando las pruebas obliguen",
+          "rules": "Una versión permisiva interactúa con todo lo anterior, que es donde viven las sorpresas. Empieza ahí, acepta que parte dará problemas, y estrecha solo tras pruebas repetidas que muestren que el problema es real.",
+          "flavor": "Refuerzo otorgaba al principio cualesquiera habilidades tuviera la criatura, así que las concedidas o clonadas también se propagaban. Rosewater nombra la política vigente: errar del lado abierto, y volver a la versión estrecha si las pruebas lo exigen."
+        },
+        {
+          "title": "Restringe la recompensa a la vía prevista",
+          "rules": "Un premio pensado para recompensar una conducta será alcanzado por toda ruta que produzca el mismo estado final. Si la conducta es el punto, dilo: excluye los atajos, incluso los que parecen equivalentes.",
+          "flavor": "Una batalla debe caer por daño, o quitándole los contadores, para transformarse. Destruirla con un conjuro la quita y no te da nada, porque ganar la batalla debía significar librarla."
+        },
+        {
+          "title": "Pon una mecánica que regresa donde no ha estado",
+          "rules": "Una herramienta conocida parece nueva en manos desconocidas. Llévala a donde apenas ha aparecido y el espacio de diseño vuelve a estar realmente abierto, siempre que además aportes lo que ese sitio carece estructuralmente.",
+          "flavor": "Convocar fue al azul y al rojo, que nunca la habían tenido de verdad. Esos dos colores tienen las menos criaturas, así que el diseño de set tuvo que añadir generación de fichas antes de que la mecánica pudiera funcionar allí."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Ce que March of the Machine nous apprend, partie 2",
+      "dek": "Trois exigences écrites avant toute séance d'idées.",
+      "overview": "La moitié « conception de set », et l'histoire d'un terrain qui se transforme en terrain devenu un nouveau type de carte. La méthode transparaît : nommer ce qui cloche point par point, écrire les exigences, et seulement ensuite inventer.",
+      "takeaway": "Avant d'imaginer un remplaçant, l'équipe a écrit trois exigences : que chaque carte représente un plan différent, qu'elle capte une guerre, et qu'elle soit inédite — cette dernière ouvertement nuancée. La séance avait alors une mesure.",
+      "lessons": [
+        {
+          "title": "Écrivez les exigences avant d'imaginer le remplaçant",
+          "rules": "Une séance d'idées sans étalon produit des idées qu'on ne peut comparer qu'entre elles. Énoncez d'abord ce que la réponse doit faire, et marquez quelles exigences sont fermes et lesquelles ne sont qu'espérées.",
+          "flavor": "Trois furent écrites : représenter chacune un plan différent, rendre la sensation d'une guerre, et être inédite — la dernière nuancée d'un « assez, espérons-le, pour un nouveau type de carte, mais ce n'est pas essentiel ». Elle l'a eu quand même."
+        },
+        {
+          "title": "Diagnostiquez un design défaillant en listant chaque raison séparément",
+          "rules": "Une chose peut être mauvaise sans qu'aucune objection isolée soit fatale. Écrivez-les toutes : l'argument du remplacement est l'accumulation, et on ne la voit pas tant qu'on répond aux objections une à une.",
+          "flavor": "La version terrain avait un budget de puissance plus faible, trop de puits à mana étouffant l'espace de conception, la destruction de terrain comme soupape risquée, et ne semblait pas neuve. Tout cumulé, on a voulu autre chose."
+        },
+        {
+          "title": "« Non pris en charge » coûte bien moins cher qu'« interdit »",
+          "rules": "Quand un système ne peut pas faire ce que vous voulez, déterminez de quel genre d'impossibilité il s'agit. Ce que nul n'a encore demandé exige une petite extension ; ce que le système interdit activement est d'un autre ordre.",
+          "flavor": "Les règles ne prenaient pas en charge un jeton recto-verso. Rosewater pose la distinction : le responsable des règles voit lesquelles s'appliqueraient et les modifie — demande bien plus légère que de se battre contre une règle qui dit non."
+        },
+        {
+          "title": "Empruntez un schéma d'interaction existant pour rendre le neuf intuitif",
+          "rules": "La nouveauté dans ce qu'une chose fait a de la valeur ; la nouveauté dans la façon d'interagir avec elle est une taxe. Faites que le neuf se comporte comme ce qu'on sait déjà manier, et seul l'inédit restera à apprendre.",
+          "flavor": "Les batailles arrivent avec des marqueurs qui partent quand elles sont blessées. La raison donnée : cela se joue comme un planeswalker, donc c'est plus intuitif — l'interaction est empruntée pour que le type de carte puisse être neuf."
+        },
+        {
+          "title": "Partez ouvert, et resserrez seulement si les tests l'imposent",
+          "rules": "Une version permissive interagit avec tout l'existant, là où vivent les surprises. Commencez là, acceptez qu'une part posera problème, et resserrez seulement après des tests répétés montrant que le problème est réel.",
+          "flavor": "Le renfort accordait d'abord toutes les capacités de la créature : les capacités octroyées ou clonées se propageaient donc aussi. Rosewater énonce la politique : pencher vers l'ouvert, et revenir au resserré si les tests l'exigent."
+        },
+        {
+          "title": "Réservez la récompense au chemin prévu",
+          "rules": "Un gain censé récompenser un comportement sera atteint par toute route menant au même état final. Si le comportement est le propos, dites-le : excluez les raccourcis, même ceux qui semblent équivalents.",
+          "flavor": "Une bataille doit tomber par blessures, ou par retrait de ses marqueurs, pour se transformer. La détruire par un sort la retire et ne donne rien, car gagner la bataille devait signifier la livrer."
+        },
+        {
+          "title": "Placez une mécanique de retour là où elle n'a pas été",
+          "rules": "Un outil familier paraît neuf en des mains inhabituelles. Déplacez-le là où il n'est presque jamais allé et l'espace de conception se rouvre vraiment — à condition de fournir aussi ce qui manque structurellement à cet endroit.",
+          "flavor": "La convocation est allée au bleu et au rouge, qui ne l'avaient jamais vraiment eue. Ces deux couleurs ont le moins de créatures : la conception de set a dû ajouter des créateurs de jetons pour qu'elle puisse seulement fonctionner."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Aprendendo com March of the Machine, parte 2",
+      "dek": "Três requisitos escritos antes de qualquer sessão de ideias.",
+      "overview": "A metade de design de set, e a história de como um terreno que se transforma em terreno virou um novo tipo de carta. O método aparece: nomeie o que está errado item por item, escreva os requisitos, e só então invente.",
+      "takeaway": "Antes de bolar um substituto, a equipe escreveu três requisitos: cada carta representa um plano diferente, captura uma guerra, e deve ser inédita — este último abertamente ressalvado. A sessão de ideias passou a ter contra o que ser medida.",
+      "lessons": [
+        {
+          "title": "Escreva os requisitos antes de bolar o substituto",
+          "rules": "Uma sessão de ideias sem parâmetro produz ideias que só podem ser comparadas entre si. Declare primeiro o que a resposta precisa fazer, e marque quais requisitos são firmes e quais são apenas desejados.",
+          "flavor": "Três foram escritos: representar cada um um plano diferente, capturar a sensação de uma guerra, e ser inédito — o último ressalvado como «tomara que o bastante para um novo tipo de carta, mas não era essencial». Ganhou um mesmo assim."
+        },
+        {
+          "title": "Diagnostique um design que falha listando cada razão em separado",
+          "rules": "Algo pode estar errado sem que nenhuma objeção isolada seja fatal. Escreva todas: o argumento para substituí-lo é o acúmulo, e isso não se enxerga enquanto você responde às objeções uma a uma.",
+          "flavor": "A versão de terrenos tinha orçamento de poder menor, sumidouros de mana demais sufocando o espaço de design, destruição de terreno como válvula arriscada, e não parecia nova. Somado tudo, quiseram tentar outra coisa."
+        },
+        {
+          "title": "«Não suportado» sai muito mais barato que «proibido»",
+          "rules": "Quando um sistema não consegue fazer o que você quer, descubra de que tipo de impossibilidade se trata. O que ninguém pediu ainda exige uma pequena extensão; o que o sistema proíbe ativamente é outra ordem de problema.",
+          "flavor": "As regras não suportavam uma ficha de face dupla. Rosewater marca a distinção: o gestor de regras vê quais regras se aplicariam e as muda — pedido bem mais leve que brigar com uma regra que diz não."
+        },
+        {
+          "title": "Tome emprestado um padrão de interação existente para tornar o novo intuitivo",
+          "rules": "Novidade no que algo faz é valiosa; novidade em como se interage com aquilo é imposto. Faça o novo se comportar como algo que as pessoas já manejam, e o desconhecido será a única parte a aprender.",
+          "flavor": "Batalhas chegam com marcadores que saem ao receber dano. A razão dada é simplesmente que se joga como um planeswalker, e portanto é mais intuitivo — a interação é emprestada para que o tipo de carta possa ser novo."
+        },
+        {
+          "title": "Comece aberto, e feche só quando os testes obrigarem",
+          "rules": "Uma versão permissiva interage com tudo o que veio antes, que é onde moram as surpresas. Comece ali, aceite que parte dará problema, e estreite só depois de testes repetidos mostrarem que o problema é real.",
+          "flavor": "Reforço primeiro concedia quaisquer habilidades que a criatura tivesse, então as concedidas ou clonadas também se espalhavam. Rosewater nomeia a política vigente: errar pelo lado aberto, e voltar à versão estreita se os testes exigirem."
+        },
+        {
+          "title": "Restrinja a recompensa ao caminho pretendido",
+          "rules": "Um prêmio feito para recompensar um comportamento será alcançado por toda rota que produza o mesmo estado final. Se o comportamento é o ponto, diga isso: exclua os atalhos, mesmo os que parecem equivalentes.",
+          "flavor": "Uma batalha precisa cair por dano, ou por ter os marcadores removidos, para se transformar. Destruí-la com uma mágica a remove e não dá nada, porque vencer a batalha deveria significar travá-la."
+        },
+        {
+          "title": "Ponha uma mecânica que retorna onde ela não esteve",
+          "rules": "Uma ferramenta conhecida parece nova em mãos incomuns. Leve-a para onde ela mal apareceu e o espaço de design se reabre de verdade — desde que você também forneça o que aquele lugar carece estruturalmente.",
+          "flavor": "Convocar foi para o azul e o vermelho, que nunca a tiveram de fato. Essas duas cores têm as menos criaturas, então o design de set teve de acrescentar geração de fichas antes que a mecânica pudesse sequer funcionar ali."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "从《机器之战》学到的，第二部分",
+      "dek": "在任何人开始头脑风暴之前，先写下来的三条要求。",
+      "overview": "属于系列设计的那一半，以及「一块会变成另一块地的地」如何变成一种全新牌张类别的故事。方法一直透出来：把问题一条条点名，写下要求，然后才去发明。",
+      "takeaway": "在构想替代方案之前，团队先写下了三条要求：每张牌各代表一个不同的次元、要传达出战争的感觉、要足够新颖——而第三条被明确地留了余地。于是那场头脑风暴有了可供衡量的标尺。",
+      "lessons": [
+        {
+          "title": "在构想替代方案之前，先把要求写下来",
+          "rules": "一场没有标尺的头脑风暴，产出的点子只能彼此互比。先声明这个答案必须做到什么，并标明哪些要求是硬的、哪些只是期望。",
+          "flavor": "写下的有三条：各自代表一个不同的次元、传达出战争的感觉、以及要新颖——最后一条被加了余地：「最好新到足以值得一个新牌张类别，但这不是必须的。」结果它还是拿到了。"
+        },
+        {
+          "title": "诊断一个失败的设计时，把每一条理由分开列出来",
+          "rules": "一样东西可以是坏的，而其中没有任何单独一条反对意见足以致命。把它们全写出来：支持更换它的论据是「累积」；而当你一条一条去回应这些意见时，你是看不见这份累积的。",
+          "flavor": "地牌版本的强度预算更低、太多法术力去处挤占了设计空间、拿毁地当构筑安全阀风险很大，而且它感觉不够新。这些加到一起，他们决定去试点别的。"
+        },
+        {
+          "title": "「没被支持」比「被禁止」便宜得多",
+          "rules": "当一个系统做不到你想要的事情时，先弄清这是哪一种「做不到」。没人提出过的需求，只需要一次小小的扩展；而系统主动禁止的事情，是另一个数量级的问题。",
+          "flavor": "规则当时不支持双面衍生物。罗斯沃特把这个区别点了出来：规则经理去看这会牵动哪些条款，然后把它们改掉——这比去硬碰一条明确说「不行」的规则，是轻得多的请求。"
+        },
+        {
+          "title": "借用一套已有的互动方式，好让新东西变得直觉",
+          "rules": "「这东西做什么」上的新意是有价值的；而「你如何与它互动」上的新意是一笔税。让新东西的行为方式像人们已经会处理的某样东西，那么真正需要学的就只剩下那个新的部分。",
+          "flavor": "战役牌登场时带着指示物，受到伤害时会被移除。给出的理由很简单：这打起来像鹏洛客，因此更直觉——互动方式是借来的，好让这个牌张类别可以是全新的。"
+        },
+        {
+          "title": "默认放宽，只有当测试逼你时才收紧",
+          "rules": "一个宽松的版本会与此前的一切互动，而意外正住在那里。就从那儿开始，接受其中一部分会惹麻烦；只有在反复测试证明麻烦是真的之后，才去收窄它。",
+          "flavor": "后援最初是把该生物拥有的任何异能都授予出去，于是被赋予的、或被复制来的异能也会跟着扩散。罗斯沃特说明了现行方针：偏向开放；如果试玩要求，就退回更紧的那个版本。"
+        },
+        {
+          "title": "把奖励限制在那条你想要的路径上",
+          "rules": "一份「为了奖励某种行为」而设的回报，会被任何一条能产生同样终局状态的路径拿到。如果那个行为才是重点，就把话说明白：排除掉那些捷径——包括那些看上去等价的。",
+          "flavor": "一张战役牌必须被伤害打垮、或被移除指示物，才会转化。用咒语把它消灭掉，只是让它离场、你什么也拿不到——因为「赢下这场战役」本该意味着「打过这一仗」。"
+        },
+        {
+          "title": "把一个回归的机制，放到它没去过的地方",
+          "rules": "一件熟悉的工具，落在不熟悉的手里就会显得新。把它挪到一个它几乎没出现过的地方，设计空间就真正重新敞开了——前提是你还得补上那个地方在结构上缺的东西。",
+          "flavor": "群策去了蓝色和红色，而这两个颜色此前几乎没有过它。它们恰好是生物最少的两个颜色，于是系列设计必须先补上额外的衍生物制造，这个机制才可能在那里运转起来。"
+        }
+      ]
+    }
+  }
+}
