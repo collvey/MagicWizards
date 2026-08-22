@@ -306,7 +306,7 @@ export function article(manifest, data) {
         ),
       ),
       body,
-      pager(manifest, data, series),
+      pager(manifest, data),
     ),
   );
 }
@@ -374,25 +374,47 @@ function aside(data, series, manifest) {
   return box;
 }
 
-function pager(manifest, data, series) {
-  if (!series) return null;
-  const idx = series.articleIds.indexOf(data.id);
-  const prevId = series.articleIds[idx - 1];
-  const nextId = series.articleIds[idx + 1];
-  if (!prevId && !nextId) return null;
+/**
+ * Previous / next across the whole archive, in publication order — older on the
+ * left, newer on the right. Within-series order is already covered by the
+ * aside's series nav, so the pager is free to be the archive-wide spine: every
+ * article reaches its neighbours in time, and only the oldest and the newest
+ * are missing one side.
+ *
+ * Several columns share a publication date, so the sort breaks ties on id.
+ * Otherwise the order would depend on whatever order the manifest happens to
+ * list them in, and two same-day articles could each point back at the other.
+ */
+function chronological(articles) {
+  return [...articles].sort(
+    (a, b) => a.publishedAt.localeCompare(b.publishedAt) || a.id.localeCompare(b.id),
+  );
+}
 
-  const link = (id, dir, cls) => {
-    const entry = manifest.articles.find((a) => a.id === id);
-    if (!entry) return null;
-    return el(
+function pager(manifest, data) {
+  const ordered = chronological(manifest.articles);
+  const idx = ordered.findIndex((a) => a.id === data.id);
+  if (idx === -1) return null; // summary on disk, not in the manifest yet
+  const prev = ordered[idx - 1];
+  const next = ordered[idx + 1];
+  if (!prev && !next) return null;
+
+  const link = (entry, dir, cls) =>
+    entry &&
+    el(
       'a',
-      { href: href(`/a/${id}`), class: cls },
+      { href: href(`/a/${entry.id}`), class: cls },
       el('span', { class: 'p-dir', text: t(dir) }),
       el('span', { class: 'p-title', text: entry.titles[getLang()] ?? entry.titles.en }),
+      el('span', { class: 'p-date util', text: formatDate(entry.publishedAt) }),
     );
-  };
 
-  return el('nav', { class: 'pager' }, link(prevId, 'article.prev', ''), link(nextId, 'article.next', 'is-next'));
+  return el(
+    'nav',
+    { class: 'pager', 'aria-label': t('article.archiveNav') },
+    link(prev, 'article.prev', ''),
+    link(next, 'article.next', 'is-next'),
+  );
 }
 
 /* --------------------------------------------------------------------- */

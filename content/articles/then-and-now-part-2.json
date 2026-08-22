@@ -1,0 +1,216 @@
+{
+  "id": "then-and-now-part-2",
+  "slug": "then-and-now-part-2",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2026-02-02",
+  "series": { "id": "then-and-now", "order": 2, "total": 2 },
+  "tags": ["lorwyn", "callbacks", "card-design"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/then-and-now-part-2",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T00:24:19.123Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Then and Now, Part 2",
+      "dek": "Goats, Figures, and Incarnations — what a callback owes the original, and what it has to change.",
+      "overview": "The second half of the Lorwyn Eclipsed callbacks. Each card is a small case study in how much of an old design survives translation: colours that moved between visits, power levels that shifted underneath, and one argument about whether the set needed an actual Goat.",
+      "takeaway": "A callback is recognisable because of what it keeps and playable because of what it changes. The Kithkin changed colours, the Figure changed rate, and the Goat took two sets to arrive.",
+      "lessons": [
+        {
+          "title": "A strong typal theme needs glue, or the draft goes stale",
+          "rules": "When creature type drives the archetypes, each drafter locks onto one type and stops competing with their neighbours. That costs variance inside a deck and interaction across the table, so the set needs cards several types want.",
+          "flavor": "Draft a Goblin in your first pack and you're heavily incentivised to keep drafting Goblins. Games repeat, drafts go stale faster, and two players sitting beside each other are never interested in the same card."
+        },
+        {
+          "title": "When you use a rare tool, find what only it can do",
+          "rules": "If you reach for something infrequently, spend the occasion on what it uniquely offers. Anything achievable by inverting the common version is a wasted use of a scarce mechanic.",
+          "flavor": "R&D prints few -1/-1 counter cards, so when they do they hunt for effects that +1/+1 counters can't easily replicate. Some overlap is unavoidable; the search is for the designs that don't."
+        },
+        {
+          "title": "Let a constraint become the flavour",
+          "rules": "A limit on space can be converted into the story. Making each upgrade grant a creature type that gates the next one solves the text problem and narrates the progression in the same stroke.",
+          "flavor": "Brian Tinsman wanted a creature upgradeable three times and had nowhere near the room for the rules text. The creature types became both the gate and the story — and the idea later became the Class subtype."
+        },
+        {
+          "title": "A joke card creates an obligation to the world",
+          "rules": "Once a card refers to something, the setting is committed to that thing existing. The debt can be paid later, and paying it makes the world more coherent than the original gag deserved.",
+          "flavor": "Goatnapper steals Goats, and the team argued over whether to spend a slot on an actual Goat for it to nab. Rosewater got them into Eventide instead — 0/1 tokens, absurd to steal, though Goblins were never the discerning sort."
+        },
+        {
+          "title": "Colour identity belongs to the set, not the plane",
+          "rules": "The same creature type can sit in different colours on different visits. A callback should match the colours of the set it's appearing in rather than the set it came from.",
+          "flavor": "Kithkin are white-green in Lorwyn and Morningtide, white-blue in Shadowmoor. The card being called back came from Eventide, and the new version is green-white — matching both this set's focus and the original Lorwyn."
+        },
+        {
+          "title": "A faithful callback still has to be repriced",
+          "rules": "Reproducing the original's numbers reproduces the original's power level, which the format has long since left behind. Keeping what makes it recognisable means changing what makes it playable.",
+          "flavor": "The 1/1 for one hybrid mana was worth carrying over. Becoming a 2/2 for one more activation felt weak — creatures have improved considerably since Eventide, and green and white are the most creature-centric colours."
+        }
+      ]
+    },
+    "es": {
+      "title": "Antes y ahora, parte 2",
+      "dek": "Cabras, Figuras y Encarnaciones: qué le debe un guiño al original y qué tiene que cambiar.",
+      "overview": "La segunda mitad de los guiños de Lorwyn Eclipsed. Cada carta es un pequeño estudio de cuánto de un diseño viejo sobrevive a la traducción: colores que se movieron entre visitas, niveles de poder que cambiaron por debajo, y una discusión sobre si el set necesitaba una cabra de verdad.",
+      "takeaway": "Un guiño se reconoce por lo que conserva y se juega por lo que cambia. Los kithkin cambiaron de colores, la Figura cambió de tasa, y la cabra tardó dos sets en llegar.",
+      "lessons": [
+        {
+          "title": "Un tema tribal fuerte necesita pegamento, o el draft se vuelve rancio",
+          "rules": "Cuando el tipo de criatura manda sobre los arquetipos, cada drafteador se ancla a un tipo y deja de competir con sus vecinos. Eso cuesta varianza dentro del mazo e interacción en la mesa, así que el set necesita cartas que quieran varios tipos.",
+          "flavor": "Draftea un goblin en tu primer sobre y tendrás todos los incentivos para seguir drafteando goblins. Las partidas se repiten, los drafts se ranciar antes, y dos jugadores sentados uno al lado del otro nunca se interesan por la misma carta."
+        },
+        {
+          "title": "Cuando uses una herramienta rara, busca lo que solo ella puede hacer",
+          "rules": "Si recurres a algo pocas veces, gasta la ocasión en lo que ofrece de manera única. Todo lo que se consiga invirtiendo la versión común es un uso desperdiciado de una mecánica escasa.",
+          "flavor": "En I+D imprimen pocas cartas con contadores -1/-1, así que cuando lo hacen buscan efectos que los contadores +1/+1 no puedan replicar con facilidad. Algo de solapamiento es inevitable; la búsqueda es de los diseños que no se solapan."
+        },
+        {
+          "title": "Deja que la restricción se convierta en el sabor",
+          "rules": "Un límite de espacio puede convertirse en la historia. Hacer que cada mejora otorgue un tipo de criatura que abre la siguiente resuelve el problema de texto y narra la progresión de una misma pasada.",
+          "flavor": "Brian Tinsman quería una criatura mejorable tres veces y no tenía ni de lejos sitio para el texto de reglas. Los tipos de criatura se volvieron a la vez la llave y el relato; y la idea acabó siendo el subtipo Clase."
+        },
+        {
+          "title": "Una carta de broma crea una obligación con el mundo",
+          "rules": "En cuanto una carta se refiere a algo, el escenario queda comprometido a que eso exista. La deuda puede pagarse más tarde, y pagarla vuelve el mundo más coherente de lo que el chiste original merecía.",
+          "flavor": "Goatnapper roba cabras, y el equipo discutió si gastar un hueco en una cabra de verdad a la que robar. Rosewater las metió en Eventide en su lugar: fichas 0/1, absurdas de robar, aunque los goblins nunca fueron muy exigentes."
+        },
+        {
+          "title": "La identidad de color pertenece al set, no al plano",
+          "rules": "El mismo tipo de criatura puede vivir en colores distintos en visitas distintas. Un guiño debe encajar con los colores del set en el que aparece, no con los del set del que viene.",
+          "flavor": "Los kithkin son blanquiverdes en Lorwyn y Morningtide, y blanquiazules en Shadowmoor. La carta a la que se guiña venía de Eventide, y la versión nueva es verdiblanca, acorde tanto al foco de este set como al Lorwyn original."
+        },
+        {
+          "title": "Un guiño fiel también hay que revalorarlo",
+          "rules": "Reproducir los números del original reproduce el nivel de poder del original, que el formato dejó atrás hace mucho. Conservar lo que lo hace reconocible implica cambiar lo que lo hace jugable.",
+          "flavor": "El 1/1 por un maná híbrido merecía conservarse. Que se volviera 2/2 por otra activación se sentía flojo: las criaturas han mejorado bastante desde Eventide, y el verde y el blanco son los colores más centrados en criaturas."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Avant et maintenant, partie 2",
+      "dek": "Chèvres, Figures et Incarnations — ce qu'un clin d'œil doit à l'original, et ce qu'il doit changer.",
+      "overview": "La seconde moitié des clins d'œil de Lorwyn Eclipsed. Chaque carte est une petite étude de ce qui survit d'un vieux design à la traduction : des couleurs déplacées d'une visite à l'autre, des niveaux de puissance qui ont bougé dessous, et une dispute sur la nécessité d'une vraie chèvre.",
+      "takeaway": "Un clin d'œil se reconnaît à ce qu'il garde et se joue grâce à ce qu'il change. Les kithkins ont changé de couleurs, la Figure de tarif, et la chèvre a mis deux sets à arriver.",
+      "lessons": [
+        {
+          "title": "Un thème typal fort a besoin de colle, sinon le draft s'évente",
+          "rules": "Quand le type de créature commande les archétypes, chaque drafteur se verrouille sur un type et cesse de concurrencer ses voisins. Cela coûte de la variance dans le deck et de l'interaction à la table : le set a donc besoin de cartes que plusieurs types veulent.",
+          "flavor": "Draftez un gobelin dans votre premier booster et tout vous pousse à continuer avec des gobelins. Les parties se répètent, les drafts s'éventent plus vite, et deux joueurs voisins ne convoitent jamais la même carte."
+        },
+        {
+          "title": "Quand vous employez un outil rare, cherchez ce que lui seul permet",
+          "rules": "Si vous n'y recourez que rarement, dépensez l'occasion sur ce qu'il offre d'unique. Tout ce qu'on obtiendrait en inversant la version courante est un usage gâché d'une mécanique rare.",
+          "flavor": "La R&D imprime peu de cartes à marqueurs -1/-1 : quand elle le fait, elle cherche des effets que les marqueurs +1/+1 ne sauraient reproduire facilement. Un peu de recouvrement est inévitable ; la quête vise ceux qui n'en ont pas."
+        },
+        {
+          "title": "Laissez la contrainte devenir la saveur",
+          "rules": "Une limite de place peut se convertir en récit. Faire que chaque amélioration accorde un type de créature qui ouvre la suivante règle le problème de texte et raconte la progression du même geste.",
+          "flavor": "Brian Tinsman voulait une créature améliorable trois fois et n'avait pas la moitié de la place nécessaire au texte. Les types de créature sont devenus à la fois la clé et l'histoire — et l'idée est plus tard devenue le sous-type Classe."
+        },
+        {
+          "title": "Une carte pour rire crée une dette envers le monde",
+          "rules": "Dès qu'une carte fait référence à quelque chose, le décor s'engage sur l'existence de cette chose. La dette peut se régler plus tard, et la régler rend le monde plus cohérent que la blague d'origine ne le méritait.",
+          "flavor": "Goatnapper vole des chèvres, et l'équipe s'est disputée sur l'opportunité de dépenser un emplacement pour une vraie chèvre à voler. Rosewater les a mises dans Eventide à la place : des jetons 0/1, absurdes à voler, mais les gobelins n'ont jamais été difficiles."
+        },
+        {
+          "title": "L'identité de couleur appartient au set, pas au plan",
+          "rules": "Le même type de créature peut occuper des couleurs différentes selon les visites. Un clin d'œil doit s'accorder aux couleurs du set où il paraît, non à celles du set d'où il vient.",
+          "flavor": "Les kithkins sont blanc-vert dans Lorwyn et Morningtide, blanc-bleu dans Shadowmoor. La carte rappelée venait d'Eventide, et la nouvelle version est vert-blanc — accordée à la fois au centre de ce set et au Lorwyn d'origine."
+        },
+        {
+          "title": "Un clin d'œil fidèle doit quand même être retarifé",
+          "rules": "Reproduire les chiffres de l'original reproduit son niveau de puissance, que le format a laissé loin derrière. Garder ce qui le rend reconnaissable suppose de changer ce qui le rend jouable.",
+          "flavor": "La 1/1 pour un mana hybride méritait d'être reprise. Devenir 2/2 pour une activation de plus paraissait faible : les créatures se sont beaucoup améliorées depuis Eventide, et le vert et le blanc sont les couleurs les plus axées créatures."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Antes e agora, parte 2",
+      "dek": "Cabras, Figuras e Encarnações — o que um aceno deve ao original, e o que ele precisa mudar.",
+      "overview": "A segunda metade dos acenos de Lorwyn Eclipsed. Cada carta é um pequeno estudo de quanto de um design antigo sobrevive à tradução: cores que se moveram entre visitas, níveis de poder que mudaram por baixo, e uma discussão sobre se o set precisava de uma cabra de verdade.",
+      "takeaway": "Um aceno é reconhecível pelo que mantém e jogável pelo que muda. Os kithkin mudaram de cores, a Figura mudou de custo, e a cabra levou dois sets para chegar.",
+      "lessons": [
+        {
+          "title": "Um tema typal forte precisa de cola, ou o draft fica choco",
+          "rules": "Quando o tipo de criatura comanda os arquétipos, cada drafter se prende a um tipo e para de competir com os vizinhos. Isso custa variância dentro do deck e interação na mesa, então o set precisa de cartas que vários tipos queiram.",
+          "flavor": "Drafte um goblin no primeiro booster e tudo te empurra a seguir draftando goblins. As partidas se repetem, os drafts ficam chocos mais rápido, e dois jogadores lado a lado nunca querem a mesma carta."
+        },
+        {
+          "title": "Quando usar uma ferramenta rara, ache o que só ela faz",
+          "rules": "Se você recorre a algo poucas vezes, gaste a ocasião no que ela oferece de único. Tudo que se obteria invertendo a versão comum é um uso desperdiçado de uma mecânica escassa.",
+          "flavor": "A P&D imprime poucas cartas com marcadores -1/-1, então quando o faz procura efeitos que marcadores +1/+1 não reproduzam com facilidade. Alguma sobreposição é inevitável; a busca é pelos designs que não se sobrepõem."
+        },
+        {
+          "title": "Deixe a restrição virar o sabor",
+          "rules": "Um limite de espaço pode ser convertido em narrativa. Fazer cada melhoria conceder um tipo de criatura que destrava a seguinte resolve o problema de texto e narra a progressão no mesmo gesto.",
+          "flavor": "Brian Tinsman queria uma criatura aprimorável três vezes e não tinha nem perto do espaço para o texto de regras. Os tipos de criatura viraram ao mesmo tempo a chave e a história — e a ideia depois virou o subtipo Classe."
+        },
+        {
+          "title": "Uma carta de piada cria uma obrigação com o mundo",
+          "rules": "Assim que uma carta se refere a algo, o cenário fica comprometido com a existência daquilo. A dívida pode ser paga depois, e pagá-la torna o mundo mais coerente do que a piada original merecia.",
+          "flavor": "Goatnapper rouba cabras, e o time discutiu se valia gastar uma vaga numa cabra de verdade para ele roubar. Rosewater as pôs em Eventide: fichas 0/1, absurdas de roubar, embora goblins nunca tenham sido exigentes."
+        },
+        {
+          "title": "Identidade de cor pertence ao set, não ao plano",
+          "rules": "O mesmo tipo de criatura pode ficar em cores diferentes em visitas diferentes. Um aceno deve casar com as cores do set em que aparece, não com as do set de onde veio.",
+          "flavor": "Kithkin são branco-verdes em Lorwyn e Morningtide, e branco-azuis em Shadowmoor. A carta acenada vinha de Eventide, e a nova versão é verde-branca — casando tanto com o foco deste set quanto com o Lorwyn original."
+        },
+        {
+          "title": "Um aceno fiel ainda precisa ser reprecificado",
+          "rules": "Reproduzir os números do original reproduz o nível de poder do original, que o formato deixou para trás faz tempo. Manter o que o torna reconhecível implica mudar o que o torna jogável.",
+          "flavor": "O 1/1 por um mana híbrido valia manter. Virar 2/2 por mais uma ativação parecia fraco: criaturas melhoraram bastante desde Eventide, e verde e branco são as cores mais centradas em criaturas."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "彼时与此时，第二部分",
+      "dek": "山羊、雕像与化身——一次回响欠原作什么，又必须改掉什么。",
+      "overview": "《Lorwyn Eclipsed》回响的下半部分。每一张牌都是一则小小的案例研究：一个旧设计在被翻译过来之后还剩多少——两次造访之间挪动过的颜色、在底下悄悄变过的强度基准，以及一场关于「这个系列到底需不需要一只真山羊」的争论。",
+      "takeaway": "一次回响之所以被认出来，靠的是它保留了什么；之所以还能打，靠的是它改掉了什么。仄群人换了颜色，雕像换了费率，而那只山羊，用了两个系列才到场。",
+      "lessons": [
+        {
+          "title": "强类别流主题需要黏合剂，否则轮抽会变馊",
+          "rules": "当生物类别主导原型时，每个抽牌者都锁死在一个类别上，也就不再和邻座竞争。这既牺牲了套牌内部的变数，也牺牲了牌桌上的互动；因此这样的系列需要一些「多个类别都想要」的牌。",
+          "flavor": "第一包抽到一只鬼怪，你就有充分理由一路抽鬼怪下去。对局重复、轮抽更快变馊，而并排坐着的两个人，从来不会看上同一张牌。"
+        },
+        {
+          "title": "使用一件罕用的工具时，去找只有它才能做的事",
+          "rules": "如果你很少动用某样东西，那就把这次机会花在它独有的能力上。凡是「把常用版本反过来」就能达成的效果，都是对一个稀缺机制的浪费。",
+          "flavor": "研发部很少印带 -1/-1 指示物的牌；正因如此，一旦要印，他们就去找那些 +1/+1 指示物不容易复刻的效果。有些重叠无法避免，而他们要找的，正是那些不重叠的设计。"
+        },
+        {
+          "title": "让约束变成风味本身",
+          "rules": "空间上的限制，是可以被转化成故事的。让每一次升级授予一个生物类别、并以此作为下一次升级的门槛，既解决了文本问题，又在同一个动作里把这段成长讲了出来。",
+          "flavor": "布莱恩·廷斯曼想做一只能升级三次的生物，而规则叙述的位置远远不够。于是生物类别同时成了钥匙与叙事——这个想法后来变成了「职业」次类别。"
+        },
+        {
+          "title": "一张玩笑牌，会对这个世界产生一份义务",
+          "rules": "一张牌一旦指涉了某样东西，这个设定就承诺了那样东西的存在。这笔债可以日后再还；而还清它，会让这个世界比当初那个玩笑所配得上的更自洽。",
+          "flavor": "Goatnapper 偷的是山羊，而团队为「要不要花一个牌位做一只真山羊给它偷」吵了一架。罗斯沃特改把山羊放进了 Eventide——0/1 的衍生物，偷起来荒唐，不过鬼怪本来也不是什么讲究的角色。"
+        },
+        {
+          "title": "颜色身份属于这个系列，而不属于这个次元",
+          "rules": "同一个生物类别，在不同次造访里可以待在不同的颜色。一次回响，应当贴合它出现于其中的那个系列的颜色，而不是它出处的那个系列。",
+          "flavor": "仄群人在洛温和《晨光》里是白绿，在暗影荒原是白蓝。被回响的那张牌来自 Eventide，而新版本是绿白——既贴合这个系列的重心，也贴合初代洛温。"
+        },
+        {
+          "title": "一次忠实的回响，仍然必须重新定价",
+          "rules": "照搬原作的数值，就等于照搬原作的强度水平，而这个赛制早已把它甩在身后。保住让它可被认出的部分，就意味着必须改掉让它可堪一用的部分。",
+          "flavor": "「一点混血法术力的 1/1」值得保留。而「再启动一次变成 2/2」就显得偏弱了——自 Eventide 以来生物进步了不少，而绿和白又是最以生物为中心的两个颜色。"
+        }
+      ]
+    }
+  }
+}

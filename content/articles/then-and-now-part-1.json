@@ -1,0 +1,216 @@
+{
+  "id": "then-and-now-part-1",
+  "slug": "then-and-now-part-1",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2026-01-26",
+  "series": { "id": "then-and-now", "order": 1, "total": 2 },
+  "tags": ["lorwyn", "callbacks", "mechanics"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/then-and-now-part-1",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T00:20:59.033Z",
+  "lessons": [
+    { "n": 1, "color": "G" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Then and Now, Part 1",
+      "dek": "Callbacks in Lorwyn Eclipsed, and the long path from an Unglued card to behold.",
+      "overview": "The first of two columns on the mechanical callbacks in Lorwyn Eclipsed. Most of it traces a single thread — cards in your hand as a resource — from an improvised Unglued solution through Lorwyn's reveal cycles and Dragons of Tarkir to behold, and how that finally fixed champion.",
+      "takeaway": "The fix for champion is one clause long: the creature can come from your hand instead. It took fifteen years and a keyword invented for an entirely different problem.",
+      "lessons": [
+        {
+          "title": "A constraint you solved badly can open a design space",
+          "rules": "An improvised answer to a problem you couldn't solve properly sometimes turns out to be the interesting part. What began as the only way to make one card work can become a resource the game keeps coming back to.",
+          "flavor": "The Unglued design needed a creature that looked innocent and was secretly malevolent, so Rosewater had you reveal it from hand — \"out of necessity. I simply didn't know how else to use the card.\" Urza's Destiny, Lorwyn, Dragons of Tarkir, and eventually behold all follow from that."
+        },
+        {
+          "title": "Solve the problem the fiction creates for the format",
+          "rules": "When a creature type's own cost keeps it off the battlefield, a typal theme built on the battlefield cannot work. Look instead at the zone where those cards actually are.",
+          "flavor": "Dragons of Tarkir had a Dragon typal theme, and Dragons are expensive. Cards that cared whether you were holding one solved a problem the battlefield was never going to solve."
+        },
+        {
+          "title": "Promote the tool that keeps being needed",
+          "rules": "When one piece of technology solves the same problem across several sets, stop reinventing it and make it generally available. Deciduous means any set that needs it can simply reach for it.",
+          "flavor": "Behold arrived on the return to Tarkir and proved useful enough that R&D dubbed it deciduous internally — a tool they knew they would want again, so nobody has to argue for it next time."
+        },
+        {
+          "title": "If you're changing how it works, don't reuse the name",
+          "rules": "A keyword carries its rules with it. Once your version behaves differently, bolting the change on with extra text is both unwieldy and misleading — build the new thing and let the old name stay accurate.",
+          "flavor": "They tried adding behold to champion and found it unwieldy, and it would have worked differently from the champion players already knew. So the set has cards called Champions rather than cards with champion."
+        },
+        {
+          "title": "Set design can take a pass at what vision design didn't hand over",
+          "rules": "A handoff is not a boundary. A mechanic left out of the file can still be attempted downstream, and the later team may reach the same diagnosis and then find the better fix.",
+          "flavor": "Vision design handed off neither champion nor any variant of it. Set design tried anyway, arrived at the identical conclusion — it needs something more — and then found that something: let the creature come from your hand."
+        },
+        {
+          "title": "One connective thread lets everything else vary",
+          "rules": "If a cycle shares a strong enough element, the rest of each card is free. The shared idea does all the work of making them read as a set.",
+          "flavor": "The five Champions share only the championing. White's other ability is static, black's is activated, and the remaining three are triggered — each shaped to whatever its own colour wanted to do."
+        }
+      ]
+    },
+    "es": {
+      "title": "Antes y ahora, parte 1",
+      "dek": "Guiños en Lorwyn Eclipsed, y el largo camino desde una carta de Unglued hasta contemplar.",
+      "overview": "La primera de dos columnas sobre los guiños mecánicos de Lorwyn Eclipsed. Casi toda ella sigue un solo hilo —las cartas de tu mano como recurso— desde una solución improvisada en Unglued, pasando por los ciclos de revelar de Lorwyn y por Dragons of Tarkir, hasta contemplar; y cómo eso arregló por fin campeonar.",
+      "takeaway": "El arreglo de campeonar cabe en una cláusula: la criatura puede venir de tu mano. Costó quince años y una palabra clave inventada para un problema completamente distinto.",
+      "lessons": [
+        {
+          "title": "Una restricción que resolviste mal puede abrir un espacio de diseño",
+          "rules": "Una respuesta improvisada a un problema que no supiste resolver bien resulta a veces ser lo interesante. Lo que empezó como la única manera de hacer funcionar una carta puede convertirse en un recurso al que el juego vuelve una y otra vez.",
+          "flavor": "El diseño de Unglued necesitaba una criatura de aspecto inocente y secretamente malvada, así que Rosewater hacía que la revelaras desde la mano, «por necesidad. Sencillamente no sabía de qué otra forma usar la carta». De ahí salen Urza's Destiny, Lorwyn, Dragons of Tarkir y, al final, contemplar."
+        },
+        {
+          "title": "Resuelve el problema que la ficción le crea al formato",
+          "rules": "Cuando el propio coste de un tipo de criatura lo mantiene fuera del campo de batalla, un tema tribal construido sobre el campo no puede funcionar. Mira en cambio la zona donde esas cartas están de verdad.",
+          "flavor": "Dragons of Tarkir tenía un tema tribal de dragones, y los dragones son caros. Las cartas que se fijaban en si tenías uno en la mano resolvieron un problema que el campo de batalla nunca iba a resolver."
+        },
+        {
+          "title": "Asciende la herramienta que hace falta una y otra vez",
+          "rules": "Cuando una misma tecnología resuelve el mismo problema en varios sets, deja de reinventarla y hazla de acceso general. Decidual significa que cualquier set que la necesite simplemente la coge.",
+          "flavor": "Contemplar llegó en el regreso a Tarkir y resultó tan útil que en I+D lo declararon decidual internamente: una herramienta que sabían que querrían de nuevo, para que nadie tenga que defenderla la próxima vez."
+        },
+        {
+          "title": "Si vas a cambiar cómo funciona, no reutilices el nombre",
+          "rules": "Una palabra clave arrastra sus reglas consigo. En cuanto tu versión se comporta distinto, atornillar el cambio con texto extra resulta engorroso y engañoso: haz la cosa nueva y deja que el nombre viejo siga siendo exacto.",
+          "flavor": "Probaron a añadir contemplar a campeonar y les resultó engorroso, y además habría funcionado distinto del campeonar que los jugadores ya conocían. Así que el set tiene cartas llamadas Campeones, no cartas con campeonar."
+        },
+        {
+          "title": "El diseño de set puede intentar lo que el diseño de visión no entregó",
+          "rules": "Un traspaso no es una frontera. Una mecánica que quedó fuera del archivo puede intentarse aguas abajo, y el equipo posterior quizá llegue al mismo diagnóstico y encuentre después el arreglo mejor.",
+          "flavor": "El diseño de visión no entregó campeonar ni variante alguna. El diseño de set lo intentó igual, llegó a la conclusión idéntica —le falta algo más— y luego encontró ese algo: que la criatura pueda venir de tu mano."
+        },
+        {
+          "title": "Un solo hilo conector deja libre todo lo demás",
+          "rules": "Si un ciclo comparte un elemento lo bastante fuerte, el resto de cada carta queda libre. La idea compartida hace todo el trabajo de que se lean como un conjunto.",
+          "flavor": "Los cinco Campeones solo comparten el campeonar. La otra habilidad de la blanca es estática, la de la negra es activada, y las tres restantes son disparadas: cada una moldeada a lo que su propio color quería hacer."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Avant et maintenant, partie 1",
+      "dek": "Les clins d'œil de Lorwyn Eclipsed, et le long chemin d'une carte d'Unglued jusqu'à contempler.",
+      "overview": "La première de deux chroniques sur les clins d'œil mécaniques de Lorwyn Eclipsed. L'essentiel suit un seul fil — les cartes en main comme ressource — d'une solution improvisée dans Unglued aux cycles de révélation de Lorwyn puis à Dragons of Tarkir, jusqu'à contempler ; et comment cela a enfin réparé champion.",
+      "takeaway": "Le correctif de champion tient en une clause : la créature peut venir de votre main. Il aura fallu quinze ans et un mot-clé inventé pour un tout autre problème.",
+      "lessons": [
+        {
+          "title": "Une contrainte mal résolue peut ouvrir un espace de conception",
+          "rules": "Une réponse improvisée à un problème qu'on ne savait pas résoudre s'avère parfois être la part intéressante. Ce qui n'était que le seul moyen de faire marcher une carte peut devenir une ressource sur laquelle le jeu revient sans cesse.",
+          "flavor": "La conception d'Unglued voulait une créature d'apparence innocente et secrètement malveillante : Rosewater vous la faisait donc révéler depuis la main, « par nécessité. Je ne savais tout simplement pas comment utiliser la carte autrement ». Urza's Destiny, Lorwyn, Dragons of Tarkir et finalement contempler en découlent."
+        },
+        {
+          "title": "Résolvez le problème que la fiction crée pour le format",
+          "rules": "Quand le coût propre d'un type de créature le tient hors du champ de bataille, un thème typal bâti sur le champ ne peut pas fonctionner. Regardez plutôt la zone où ces cartes se trouvent réellement.",
+          "flavor": "Dragons of Tarkir avait un thème typal de dragons, et les dragons coûtent cher. Les cartes qui regardaient si vous en teniez un ont résolu un problème que le champ de bataille n'allait jamais régler."
+        },
+        {
+          "title": "Promouvez l'outil dont on a sans cesse besoin",
+          "rules": "Quand une même technologie règle le même problème dans plusieurs sets, cessez de la réinventer et rendez-la disponible pour tous. Décidu signifie que tout set qui en a besoin peut simplement s'en servir.",
+          "flavor": "Contempler est arrivé lors du retour à Tarkir et s'est révélé assez utile pour que la R&D le déclare décidu en interne : un outil dont ils savaient avoir encore besoin, pour que personne n'ait à le défendre la prochaine fois."
+        },
+        {
+          "title": "Si vous changez son fonctionnement, ne réutilisez pas le nom",
+          "rules": "Un mot-clé emporte ses règles avec lui. Dès que votre version se comporte autrement, visser le changement avec du texte supplémentaire devient lourd et trompeur : faites la chose neuve et laissez l'ancien nom rester exact.",
+          "flavor": "Ils ont essayé d'ajouter contempler à champion et l'ont trouvé lourd ; en outre cela aurait fonctionné autrement que le champion connu des joueurs. Le set contient donc des cartes appelées Champions, pas des cartes avec champion."
+        },
+        {
+          "title": "Le set design peut tenter ce que le vision design n'a pas transmis",
+          "rules": "Une passation n'est pas une frontière. Une mécanique laissée hors du fichier peut être tentée en aval, et l'équipe suivante peut poser le même diagnostic puis trouver le meilleur correctif.",
+          "flavor": "Le vision design n'a transmis ni champion ni la moindre variante. Le set design a essayé quand même, est parvenu exactement à la même conclusion — il lui manque quelque chose — puis a trouvé ce quelque chose : que la créature puisse venir de la main."
+        },
+        {
+          "title": "Un seul fil conducteur libère tout le reste",
+          "rules": "Si un cycle partage un élément assez fort, le reste de chaque carte est libre. L'idée commune fait à elle seule le travail de les faire lire comme un ensemble.",
+          "flavor": "Les cinq Champions ne partagent que le fait de champion. L'autre capacité de la blanche est statique, celle de la noire activée, et les trois restantes déclenchées — chacune taillée pour ce que sa couleur voulait faire."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Antes e agora, parte 1",
+      "dek": "Os acenos de Lorwyn Eclipsed, e o longo caminho de uma carta de Unglued até contemplar.",
+      "overview": "A primeira de duas colunas sobre os acenos mecânicos de Lorwyn Eclipsed. Quase tudo segue um único fio — cartas na sua mão como recurso — de uma solução improvisada em Unglued, passando pelos ciclos de revelar de Lorwyn e por Dragons of Tarkir, até contemplar; e como isso finalmente consertou campeonar.",
+      "takeaway": "O conserto de campeonar cabe numa cláusula: a criatura pode vir da sua mão. Levou quinze anos e uma palavra-chave inventada para um problema completamente diferente.",
+      "lessons": [
+        {
+          "title": "Uma restrição que você resolveu mal pode abrir um espaço de design",
+          "rules": "Uma resposta improvisada a um problema que você não soube resolver às vezes acaba sendo a parte interessante. O que começou como o único jeito de fazer uma carta funcionar pode virar um recurso ao qual o jogo volta sempre.",
+          "flavor": "O design de Unglued queria uma criatura de aparência inocente e secretamente maligna, então Rosewater fazia você revelá-la da mão, «por necessidade. Eu simplesmente não sabia como mais usar a carta». Urza's Destiny, Lorwyn, Dragons of Tarkir e por fim contemplar decorrem daí."
+        },
+        {
+          "title": "Resolva o problema que a ficção cria para o formato",
+          "rules": "Quando o próprio custo de um tipo de criatura a mantém fora do campo de batalha, um tema typal construído sobre o campo não funciona. Olhe em vez disso a zona onde essas cartas de fato estão.",
+          "flavor": "Dragons of Tarkir tinha tema typal de dragões, e dragões são caros. Cartas que se importavam se você segurava um resolveram um problema que o campo de batalha nunca resolveria."
+        },
+        {
+          "title": "Promova a ferramenta de que se precisa sempre",
+          "rules": "Quando uma mesma tecnologia resolve o mesmo problema em vários sets, pare de reinventá-la e a torne disponível em geral. Decíduo significa que qualquer set que precise dela simplesmente a pega.",
+          "flavor": "Contemplar chegou no retorno a Tarkir e se mostrou útil o bastante para a P&D declará-lo decíduo internamente: uma ferramenta que sabiam que iam querer de novo, para que ninguém precise defendê-la da próxima vez."
+        },
+        {
+          "title": "Se você vai mudar como funciona, não reutilize o nome",
+          "rules": "Uma palavra-chave carrega as regras dela junto. Assim que sua versão se comporta diferente, aparafusar a mudança com texto extra fica pesado e enganoso: faça a coisa nova e deixe o nome antigo continuar exato.",
+          "flavor": "Tentaram acrescentar contemplar a campeonar e acharam pesado, e além disso teria funcionado diferente do campeonar que os jogadores já conheciam. Então o set tem cartas chamadas Campeões, e não cartas com campeonar."
+        },
+        {
+          "title": "O set design pode tentar o que o vision design não entregou",
+          "rules": "Uma passagem não é uma fronteira. Uma mecânica deixada fora do arquivo ainda pode ser tentada rio abaixo, e o time posterior pode chegar ao mesmo diagnóstico e então achar o conserto melhor.",
+          "flavor": "O vision design não entregou campeonar nem variante alguma. O set design tentou mesmo assim, chegou à conclusão idêntica — falta algo mais — e então achou esse algo: deixar a criatura vir da sua mão."
+        },
+        {
+          "title": "Um único fio conector libera todo o resto",
+          "rules": "Se um ciclo compartilha um elemento forte o bastante, o resto de cada carta fica livre. A ideia compartilhada faz sozinha o trabalho de fazê-las lerem como um conjunto.",
+          "flavor": "Os cinco Campeões só compartilham o campeonar. A outra habilidade da branca é estática, a da preta é ativada, e as três restantes são disparadas — cada uma moldada ao que a própria cor queria fazer."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "彼时与此时，第一部分",
+      "dek": "《Lorwyn Eclipsed》里的回响，以及从一张 Unglued 牌走到「注视」的那条长路。",
+      "overview": "关于《Lorwyn Eclipsed》机制回响的两篇专栏之一。其中大部分在追踪同一条线索——把手牌当作资源——从 Unglued 里一个临时凑合的解法，经由洛温的展示牌循环、经由 Dragons of Tarkir，一路走到「注视」；以及这如何终于修好了「拥护」。",
+      "takeaway": "修好拥护只需要一个子句：这只生物也可以来自你的手牌。而这花了十五年，外加一个为完全不同的问题而发明的关键字。",
+      "lessons": [
+        {
+          "title": "一个你没解好的约束，可能打开一整片设计空间",
+          "rules": "面对一个你当时无法妥善解决的问题，临时凑出来的答案，有时反倒是真正有意思的那一部分。当初只是「让某一张牌能运转」的唯一办法，可能变成这个游戏一再回头取用的一种资源。",
+          "flavor": "Unglued 的设计需要一只看着无辜、实则恶毒的生物，于是罗斯沃特让你从手上展示它——「纯属无奈。我实在不知道还能怎么用这张牌」。Urza's Destiny、洛温、Dragons of Tarkir，直到最后的注视，都由此而来。"
+        },
+        {
+          "title": "去解决虚构为这个赛制制造出来的那个问题",
+          "rules": "当某个生物类别自身的费用让它很难出现在战场上时，一个建立在战场之上的类别流主题就无法运转。那就改去看这些牌真正待着的那个区域。",
+          "flavor": "Dragons of Tarkir 有龙的类别流主题，而龙很贵。那些「在意你手上有没有一条龙」的牌，解决了战场永远解决不了的一个问题。"
+        },
+        {
+          "title": "把那个一再被需要的工具扶正",
+          "rules": "当同一项技术在好几个系列里解决同一个问题时，就别再重新发明它，而应把它变成通用可取的。「落叶级」的意思是：任何需要它的系列，直接拿来用就行。",
+          "flavor": "注视在重返塔尔基尔时登场，好用到研发部在内部把它定为落叶级——一件他们知道日后还会想要的工具，于是下一次谁都不必再为它辩护。"
+        },
+        {
+          "title": "如果你要改变它的运作方式，就别再用它的名字",
+          "rules": "一个关键字会把它的规则一并带着走。一旦你的版本行为不同，用额外的叙述把改动拧上去，既笨重又误导：那就做一样新东西，让旧名字继续保持准确。",
+          "flavor": "他们试过把注视加到拥护上，结果很笨重，而且运作方式会和玩家已知的拥护不一样。于是这个系列里有的是名叫「拥护者」的牌，而不是带着「拥护」的牌。"
+        },
+        {
+          "title": "套牌设计可以去试愿景设计没有交过来的东西",
+          "rules": "交接不是一条边界。被留在卡表之外的机制，仍然可以在下游被尝试；而后面的团队可能得出同样的诊断，随后找到那个更好的解法。",
+          "flavor": "愿景设计既没有交出拥护，也没有交出它的任何变体。套牌设计还是试了，得出了一模一样的结论——它还缺点什么——然后找到了那个「什么」：让这只生物可以来自你的手牌。"
+        },
+        {
+          "title": "一条连接的线索，就足以让其余一切自由",
+          "rules": "如果一个循环共享的那个元素足够强，每张牌的其余部分就自由了。共享的那个想法，独自完成了「让它们读起来像一组」这件事。",
+          "flavor": "这五张拥护者，共享的只有「拥护」这一点。白色那张的另一个异能是静止式的，黑色那张是启动式的，其余三张是触发式的——各自被塑造成它所属颜色想做的样子。"
+        }
+      ]
+    }
+  }
+}
