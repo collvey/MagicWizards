@@ -1,0 +1,216 @@
+{
+  "id": "starting-with-a-good-foundations-part-2",
+  "slug": "starting-with-a-good-foundations-part-2",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2024-11-04",
+  "series": { "id": "starting-with-a-good-foundations", "order": 2, "total": 2 },
+  "tags": ["onboarding", "products", "testing"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/starting-with-a-good-foundations-part-2",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T05:45:03.548Z",
+  "lessons": [
+    { "n": 1, "color": "R" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Starting with a Good Foundations, Part 2",
+      "dek": "They understood it. They found it boring.",
+      "overview": "The finding that reversed decades of beginner-product strategy, and the four-product path built around it — from a scripted first game to a box of cards you can actually build from.",
+      "takeaway": "For years the plan was to simplify the starter product as far as possible, so that a first game ended with someone understanding the basics. Then a focus group said they didn't want to play again, because it was boring. In stripping out what intimidates, they had stripped out what excites.",
+      "lessons": [
+        {
+          "title": "For a first experience, excitement beats comprehension",
+          "rules": "Understanding everything is not the goal of an introduction — wanting a second go is. Someone who leaves eager and half-informed will fill the gaps themselves; someone who leaves fully informed and unmoved will not come back to use what they learned.",
+          "flavor": "Rosewater's conclusion is that they had been pushing the wrong goal. It's fine if newcomers don't understand everything, so long as they're eager to play more games — because then they'll work the details out eventually."
+        },
+        {
+          "title": "Ask whether they'd do it again, and why",
+          "rules": "The clearest signal that something is working is that people want to repeat it. Make that the question you actually ask, and follow it immediately with why, because the reason is where the finding lives.",
+          "flavor": "Rosewater calls wanting to play again the best indication that a game design is succeeding, and it's the central focus-group question. On this occasion the answers were no, and the reason given was that the game lacked depth."
+        },
+        {
+          "title": "Design the path, not the entry point",
+          "rules": "Teaching someone to begin, then leaving them there, wastes the teaching. The gap between having done something a few times and doing it regularly is its own design problem, and it needs its own deliberate steps.",
+          "flavor": "Their word for this is pathing, and Rosewater names it as something they'd previously failed to execute: they'd teach people to play and leave them to find their own way from the shallow end of the pool to the deep end."
+        },
+        {
+          "title": "Test it unaided",
+          "rules": "If the artefact is meant to do the teaching, the test has to have nobody else in the room. Any help you supply is help the real user won't get, and it hides exactly the failures you built the test to find.",
+          "flavor": "Testers are handed the product with nothing else, and watched from behind a two-way mirror; a professional only joins afterwards to ask questions. Rosewater says these sessions are frustrating, because people always surprise you with how they mess things up."
+        },
+        {
+          "title": "A small kit that combines gives outsized value",
+          "rules": "Pieces designed to be mixed multiply what a fixed amount of material can do, and the mixing itself teaches the thing you most want understood. Count the combinations, not the components.",
+          "flavor": "The box holds ten twenty-card halves, two per colour, and any two combine into a deck — forty-five decks from one box. Rosewater notes that mixing and matching is exactly how a newcomer first meets the idea of synergy."
+        },
+        {
+          "title": "Productise the informal advantage some beginners have",
+          "rules": "Look at what the lucky newcomers get from their circumstances rather than from you — a mentor, a stash, a shortcut — and build that. It's the difference between an activity being open to anyone and being open to the well-connected.",
+          "flavor": "Rosewater calls having a friend with a shoebox of leftover cards an integral part of starting to play. So one of the products is a fixed collection of over 370 cards with real staples in it, so that everyone can acquire one."
+        }
+      ]
+    },
+    "es": {
+      "title": "Empezar con unos buenos Foundations, parte 2",
+      "dek": "Lo entendieron. Les pareció aburrido.",
+      "overview": "El hallazgo que revirtió décadas de estrategia de productos para principiantes, y la ruta de cuatro productos construida a su alrededor: de una primera partida guiada a una caja de cartas con la que de verdad puedes construir.",
+      "takeaway": "Durante años el plan fue simplificar el producto inicial todo lo posible, para que la primera partida acabara con alguien entendiendo lo básico. Entonces un grupo de prueba dijo que no querría volver a jugar, porque era aburrido. Al quitar lo que intimida, habían quitado lo que emociona.",
+      "lessons": [
+        {
+          "title": "En una primera experiencia, la emoción vence a la comprensión",
+          "rules": "Entenderlo todo no es el objetivo de una introducción; querer repetir sí. Quien se marcha entusiasmado y a medio informar rellenará los huecos solo; quien se marcha bien informado e indiferente no volverá a usar lo aprendido.",
+          "flavor": "La conclusión de Rosewater es que habían estado persiguiendo el objetivo equivocado. Está bien que los recién llegados no lo entiendan todo, siempre que estén deseando jugar más partidas: ya irán resolviendo los detalles."
+        },
+        {
+          "title": "Pregunta si lo repetirían, y por qué",
+          "rules": "La señal más clara de que algo funciona es que la gente quiera repetirlo. Haz de eso la pregunta que de verdad formulas, y síguela de inmediato con un porqué, porque ahí es donde vive el hallazgo.",
+          "flavor": "Rosewater llama a querer jugar otra vez la mejor señal de que un diseño funciona, y es la pregunta central en los grupos de prueba. Aquel día las respuestas fueron que no, y la razón dada fue que al juego le faltaba profundidad."
+        },
+        {
+          "title": "Diseña el camino, no la puerta de entrada",
+          "rules": "Enseñar a alguien a empezar y dejarlo ahí desperdicia la enseñanza. El trecho entre haber hecho algo unas pocas veces y hacerlo con regularidad es un problema de diseño en sí, y necesita sus propios pasos deliberados.",
+          "flavor": "Su palabra para esto es «ruta», y Rosewater la señala como algo que antes no supieron ejecutar: enseñaban a jugar y luego dejaban a la gente buscarse la vida para pasar de la parte poco profunda de la piscina a la honda."
+        },
+        {
+          "title": "Pruébalo sin ayuda",
+          "rules": "Si el objeto debe hacer la enseñanza, en la prueba no puede haber nadie más en la sala. Toda ayuda que aportes es ayuda que el usuario real no tendrá, y oculta justo los fallos para los que montaste la prueba.",
+          "flavor": "A los probadores se les entrega el producto y nada más, y se les observa tras un espejo unidireccional; un profesional solo se suma después para preguntar. Rosewater dice que estas sesiones son frustrantes porque la gente siempre te sorprende."
+        },
+        {
+          "title": "Un kit pequeño que se combina rinde un valor desproporcionado",
+          "rules": "Las piezas pensadas para mezclarse multiplican lo que puede hacer una cantidad fija de material, y la propia mezcla enseña justo aquello que más quieres que se entienda. Cuenta las combinaciones, no los componentes.",
+          "flavor": "La caja trae diez mitades de veinte cartas, dos por color, y dos cualesquiera se combinan en un mazo: cuarenta y cinco mazos de una caja. Mezclar y combinar es justo cómo un recién llegado conoce por primera vez la idea de sinergia."
+        },
+        {
+          "title": "Convierte en producto la ventaja informal que algunos principiantes tienen",
+          "rules": "Fíjate en lo que los recién llegados afortunados obtienen de sus circunstancias y no de ti —un mentor, un alijo, un atajo— y constrúyelo. Es la diferencia entre una actividad abierta a cualquiera y una abierta a los bien conectados.",
+          "flavor": "Rosewater considera parte integral de empezar a jugar el tener un amigo con una caja de zapatos llena de cartas sobrantes. Así que uno de los productos es una colección fija de más de 370 cartas con clásicos de verdad dentro."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Bien commencer avec Foundations, partie 2",
+      "dek": "Ils avaient compris. Ils ont trouvé cela ennuyeux.",
+      "overview": "La découverte qui a renversé des décennies de stratégie pour débutants, et le parcours en quatre produits bâti autour : d'une première partie scriptée à une boîte de cartes avec laquelle on peut vraiment construire.",
+      "takeaway": "Pendant des années, le plan fut de simplifier le produit d'entrée autant que possible, pour qu'une première partie s'achève sur la compréhension des bases. Puis un groupe test a dit ne pas vouloir rejouer, parce que c'était ennuyeux. En ôtant ce qui intimide, on avait ôté ce qui enthousiasme.",
+      "lessons": [
+        {
+          "title": "Pour une première expérience, l'enthousiasme prime sur la compréhension",
+          "rules": "Tout comprendre n'est pas le but d'une initiation ; vouloir recommencer, si. Qui repart enthousiaste et à moitié informé comblera seul les lacunes ; qui repart pleinement informé et indifférent ne reviendra pas s'en servir.",
+          "flavor": "La conclusion de Rosewater : ils poursuivaient le mauvais objectif. Peu importe que les nouveaux venus ne comprennent pas tout, pourvu qu'ils brûlent de jouer d'autres parties — ils finiront par démêler les détails."
+        },
+        {
+          "title": "Demandez s'ils recommenceraient, et pourquoi",
+          "rules": "Le signe le plus net qu'une chose fonctionne est qu'on veuille la refaire. Faites-en la question réellement posée, et enchaînez aussitôt sur le pourquoi, car c'est là que loge la découverte.",
+          "flavor": "Rosewater tient l'envie de rejouer pour le meilleur indice de réussite d'un design, et c'est la question centrale des groupes tests. Ce jour-là, les réponses furent non, au motif que le jeu manquait de profondeur."
+        },
+        {
+          "title": "Concevez le parcours, pas la porte d'entrée",
+          "rules": "Apprendre à quelqu'un à débuter puis l'y laisser gâche l'apprentissage. L'écart entre avoir fait une chose quelques fois et la pratiquer régulièrement est un problème de conception à part entière.",
+          "flavor": "Leur mot pour cela est parcours, et Rosewater y voit un échec passé : on apprenait aux gens à jouer, puis on les laissait trouver seuls le chemin du petit bain vers le grand."
+        },
+        {
+          "title": "Testez sans assistance",
+          "rules": "Si l'objet doit assurer l'enseignement, le test ne peut compter personne d'autre dans la pièce. Toute aide fournie est une aide que l'usager réel n'aura pas, et elle masque précisément les échecs que le test devait révéler.",
+          "flavor": "On remet le produit aux testeurs et rien d'autre, en les observant derrière un miroir sans tain ; un professionnel ne les rejoint qu'après, pour les interroger. Ces séances sont frustrantes : les gens surprennent toujours par leur façon de tout emmêler."
+        },
+        {
+          "title": "Un petit kit combinable rend une valeur disproportionnée",
+          "rules": "Des pièces conçues pour se mélanger multiplient ce qu'une quantité fixe de matière peut produire, et le mélange lui-même enseigne ce que vous vouliez faire comprendre. Comptez les combinaisons, non les composants.",
+          "flavor": "La boîte contient dix demi-decks de vingt cartes, deux par couleur, et deux quelconques se combinent : quarante-cinq decks pour une boîte. Mélanger est exactement la façon dont un nouveau venu rencontre l'idée de synergie."
+        },
+        {
+          "title": "Transformez en produit l'avantage informel de certains débutants",
+          "rules": "Regardez ce que les nouveaux venus chanceux tirent de leur entourage plutôt que de vous — un mentor, un stock, un raccourci — et fabriquez-le. C'est la différence entre une activité ouverte à tous et une ouverte aux bien entourés.",
+          "flavor": "Rosewater tient le fait d'avoir un ami avec une boîte à chaussures pleine de cartes en trop pour une part intégrante des débuts. D'où un produit : une collection fixe de plus de 370 cartes, avec de vrais classiques dedans."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Começando com bons Foundations, parte 2",
+      "dek": "Eles entenderam. Acharam chato.",
+      "overview": "A descoberta que inverteu décadas de estratégia de produtos para iniciantes, e o caminho de quatro produtos construído em torno dela: de uma primeira partida roteirizada a uma caixa de cartas com a qual dá para construir de verdade.",
+      "takeaway": "Por anos o plano foi simplificar o produto inicial ao máximo, para que uma primeira partida terminasse com alguém entendendo o básico. Então um grupo de teste disse que não queria jogar de novo, porque era chato. Ao tirar o que intimida, tinham tirado o que empolga.",
+      "lessons": [
+        {
+          "title": "Numa primeira experiência, empolgação vence compreensão",
+          "rules": "Entender tudo não é o objetivo de uma introdução; querer repetir é. Quem sai empolgado e meio informado preenche as lacunas sozinho; quem sai plenamente informado e indiferente não volta para usar o que aprendeu.",
+          "flavor": "A conclusão de Rosewater é que vinham perseguindo o objetivo errado. Tudo bem que os recém-chegados não entendam tudo, desde que estejam ansiosos por jogar mais partidas: os detalhes eles resolvem depois."
+        },
+        {
+          "title": "Pergunte se repetiriam, e por quê",
+          "rules": "O sinal mais claro de que algo funciona é as pessoas quererem repetir. Faça disso a pergunta que você de fato faz, e emende imediatamente com um porquê, porque é ali que mora a descoberta.",
+          "flavor": "Rosewater chama o querer jogar de novo de melhor indicação de que um design está dando certo, e é a pergunta central dos grupos de teste. Naquele dia as respostas foram não, e o motivo dado foi falta de profundidade."
+        },
+        {
+          "title": "Projete o caminho, não a porta de entrada",
+          "rules": "Ensinar alguém a começar e deixá-lo ali desperdiça o ensino. A distância entre ter feito algo poucas vezes e fazê-lo com regularidade é um problema de design em si, e precisa dos próprios passos deliberados.",
+          "flavor": "A palavra deles para isso é caminho, e Rosewater a aponta como algo que antes não souberam executar: ensinavam a jogar e deixavam as pessoas se virarem para ir da parte rasa da piscina até a funda."
+        },
+        {
+          "title": "Teste sem ajuda",
+          "rules": "Se o objeto deve fazer o ensino, o teste não pode ter mais ninguém na sala. Toda ajuda que você fornece é ajuda que o usuário real não terá, e ela esconde exatamente as falhas que o teste existia para achar.",
+          "flavor": "Os testadores recebem o produto e nada mais, observados atrás de um espelho falso; um profissional só entra depois, para perguntar. Rosewater diz que essas sessões são frustrantes porque as pessoas sempre surpreendem."
+        },
+        {
+          "title": "Um kit pequeno que combina rende valor desproporcional",
+          "rules": "Peças feitas para se misturar multiplicam o que uma quantidade fixa de material consegue fazer, e a própria mistura ensina justamente o que você mais quer que se entenda. Conte as combinações, não os componentes.",
+          "flavor": "A caixa traz dez metades de vinte cartas, duas por cor, e duas quaisquer se combinam num deck: quarenta e cinco decks de uma caixa. Misturar é exatamente como um recém-chegado conhece a ideia de sinergia."
+        },
+        {
+          "title": "Transforme em produto a vantagem informal que alguns iniciantes têm",
+          "rules": "Olhe o que os recém-chegados de sorte ganham das circunstâncias e não de você — um mentor, um estoque, um atalho — e construa aquilo. É a diferença entre uma atividade aberta a qualquer um e uma aberta aos bem relacionados.",
+          "flavor": "Rosewater considera ter um amigo com uma caixa de sapatos cheia de cartas sobrando parte integral de começar a jogar. Daí um dos produtos: uma coleção fixa de mais de 370 cartas, com clássicos de verdade dentro."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "从一个好地基开始，第二部分",
+      "dek": "他们看懂了。他们觉得无聊。",
+      "overview": "那个推翻了数十年新手产品策略的发现，以及围绕它搭起来的四件套路径：从一场有脚本的初次对局，到一盒真的可以拿来搭牌的卡。",
+      "takeaway": "多年以来的方针，是把入门产品尽可能地简化，好让一场初次对局结束时，人已经懂得了基本规则。而后一场焦点测试给出的回答是：不想再玩了，因为无聊。在剔除掉那些令人生畏的东西的同时，他们也把令人兴奋的东西一起剔掉了。",
+      "lessons": [
+        {
+          "title": "对于第一次体验，「兴奋」胜过「看懂」",
+          "rules": "把一切都弄懂并不是一次入门的目标；「还想再来一次」才是。一个带着兴奋、只懂了一半就离开的人，会自己把缺口补上；而一个全都懂了却毫无触动地离开的人，不会回来使用他学到的东西。",
+          "flavor": "罗斯沃特的结论是：他们一直在追一个错误的目标。新来的人没全懂没关系，只要他们迫不及待想多打几局——因为那样，细节他们迟早会自己弄明白。"
+        },
+        {
+          "title": "去问他们还愿不愿意再来一次，以及为什么",
+          "rules": "一样东西行不行，最清楚的信号是人们想不想重来一次。把它作为你真正会问出口的那个问题，并且紧接着追问为什么——因为发现就住在那个理由里。",
+          "flavor": "罗斯沃特把「还想再玩」称作一个游戏设计是否成功的最佳指标，而它也是焦点小组的核心问题。那一天的回答是「不」，而给出的理由是：这个游戏缺乏深度。"
+        },
+        {
+          "title": "去设计那条路径，而不是那个入口",
+          "rules": "教会一个人怎么开始，然后把他撂在那里，等于浪费了这场教学。从「做过几次」到「经常在做」之间的那段距离，本身就是一个设计问题，需要属于它自己的、有意为之的台阶。",
+          "flavor": "他们管这叫「路径」，而罗斯沃特把它点名为过去没能做好的事：他们教会人怎么玩，然后就让他们自己想办法，从泳池的浅水区游到深水区去。"
+        },
+        {
+          "title": "在无人协助的情况下测试它",
+          "rules": "如果这件东西本身应当承担教学任务，那么测试时房间里就不能有别人。你所提供的任何帮助，都是真实用户不会得到的帮助；而它恰好会掩盖掉那些你设这场测试正是为了找出来的失败。",
+          "flavor": "测试者拿到的只有产品本身，人们在单向玻璃后面看着；专业人员只在事后进来提问。罗斯沃特说这类场次让人挫败，因为人们总能以你想不到的方式把事情搞砸。"
+        },
+        {
+          "title": "一套能互相组合的小工具包，能给出不成比例的价值",
+          "rules": "被设计成可以混搭的零件，会把固定数量的材料所能做的事翻上好几倍；而混搭这个动作本身，恰好在教你最希望被理解的那件事。去数组合，而不是数零件。",
+          "flavor": "这个盒子里有十份二十张牌的半副牌，每个颜色两份，任意两份都能拼成一副：一个盒子四十五副牌。而混搭，正是一个新人第一次遇见「协同」这个概念的方式。"
+        },
+        {
+          "title": "把某些新手所拥有的那份非正式优势，做成产品",
+          "rules": "去看看那些幸运的新来者从环境里、而不是从你这里得到了什么——一位引路人、一箱存货、一条捷径——然后把它造出来。这就是「一件事向所有人开放」与「它只向人脉好的人开放」之间的区别。",
+          "flavor": "罗斯沃特认为，有一个装着一鞋盒多余卡牌的朋友，是「开始玩这个游戏」不可分割的一部分。于是其中一件产品，是一套固定的三百七十多张牌，里面装着货真价实的经典。"
+        }
+      ]
+    }
+  }
+}

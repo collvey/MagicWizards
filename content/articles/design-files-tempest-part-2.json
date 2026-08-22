@@ -4,90 +4,211 @@
   "column": "making-magic",
   "author": "Mark Rosewater",
   "publishedAt": "2024-12-09",
-  "series": null,
-  "tags": [],
+  "series": { "id": "design-files-tempest", "order": 2, "total": 3 },
+  "tags": ["design-files", "tempest", "cut-cards"],
   "pointNoun": "point",
   "source": {
     "canonical": "https://magic.wizards.com/en/news/making-magic/design-files-tempest-part-2",
-    "locales": [
-      "en",
-      "es",
-      "fr",
-      "pt-BR",
-      "zh-Hans"
-    ]
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
   },
   "summaryVersion": 1,
   "summarizedAt": "2026-08-22T05:21:08.381Z",
   "lessons": [
-    {
-      "n": 1,
-      "color": "W"
-    }
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "U" }
   ],
   "translations": {
     "en": {
       "title": "Design Files: Tempest, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "dek": "Bad if the set has it. Bad if it doesn't. That's the tell.",
+      "overview": "Cards from the same handoff that changed on the way to print, including a poison theme that development removed entirely — and Rosewater's later account of why it couldn't have worked.",
+      "takeaway": "He wanted poison counters to be both a way to win and a price you could pay. Years later he can say why that fails: against an opponent attacking with poison it's ruinous, and in a set without poison it costs you nothing. Failing in both cases is the signal.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "If it fails whether or not the condition holds, the problem is structural",
+          "rules": "Test a doubtful design in both worlds: the one where the surrounding thing is present and the one where it isn't. Trouble in one is a tuning problem. Trouble in both means the idea itself is wrong, and no amount of adjustment reaches it.",
+          "flavor": "Spending poison counters is catastrophic against an opponent trying to poison you, and free in a set with no offensive poison. Rosewater's line: problematic when the set has it and problematic if it doesn't, which is usually a sign of a big problem."
+        },
+        {
+          "title": "Ask whether the rules already support what you want",
+          "rules": "Elaborate workarounds get built because nobody checked whether the direct version was permitted. One question to whoever owns the rules can replace a clever contraption with the plain statement of the thing you meant.",
+          "flavor": "His card had a convoluted way of coming back after being countered, because he assumed the simple version was impossible. In development he asked whether the rules could support \"can't be countered.\" They could, and the card became that."
+        },
+        {
+          "title": "Remove the drawback rather than balancing it",
+          "rules": "When you've attached a cost to keep an ability in check, check whether the ability needs checking at all. Sometimes the honest move is to delete the penalty and hand the whole thing over as an option people can use freely.",
+          "flavor": "The mechanic began as an upkeep cost they were trying to turn into a situational benefit. Development realised no drawback was needed: it became an activated ability, usable whenever you wanted, and all upside."
+        },
+        {
+          "title": "When the rules block you, find the venue where the rules differ",
+          "rules": "A design refused on structural grounds isn't refused on merit. Somewhere in your range of products there may be one operating under looser constraints, and that's where the original version can exist intact.",
+          "flavor": "The card wanted to shuffle itself into an opponent's library, which the rules forbid, so a workaround shipped instead. He tried again years later and was turned down again. It finally ran, name and all, in a set exempt from the usual rules."
+        },
+        {
+          "title": "Cost by the stable attribute, not the exploitable one",
+          "rules": "When two measures of a thing usually agree, pick the one that can't be cheaply divorced from what you're actually pricing. The exceptional cases are exactly where people will aim.",
+          "flavor": "A card originally keyed off creatures' power and was much easier to abuse that way, because expensive low-power creatures with strong abilities exist. Switching it to mana value closed the gap."
+        },
+        {
+          "title": "Collective caution is an error mode too",
+          "rules": "Groups reliably catch things that are too strong and reliably fail to notice when their own fear is the problem. A vote can be wrong in the safe direction, and the cost of that is invisible because nothing breaks.",
+          "flavor": "Rosewater costed a token-making card correctly and was outvoted by a team afraid it was too good, so mana was added and compensating text bolted on. The original number turned out to have room to spare."
         }
       ]
     },
     "es": {
-      "title": "Design Files: Tempest, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Archivos de diseño: Tempest, parte 2",
+      "dek": "Malo si el set lo tiene. Malo si no. Esa es la señal.",
+      "overview": "Cartas de la misma entrega que cambiaron camino de la imprenta, incluido un tema de veneno que desarrollo eliminó por completo, y el relato posterior de Rosewater sobre por qué no podía funcionar.",
+      "takeaway": "Quería que los contadores de veneno fueran a la vez forma de ganar y precio a pagar. Años después puede decir por qué eso falla: contra un rival que ataca con veneno es ruinoso, y en un set sin veneno no te cuesta nada. Fallar en ambos casos es la señal.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Si falla tanto si se cumple la condición como si no, el problema es estructural",
+          "rules": "Prueba un diseño dudoso en ambos mundos: aquel donde lo circundante está presente y aquel donde no. Problemas en uno son cuestión de ajuste. Problemas en los dos significan que la idea está mal, y ningún retoque llega hasta ahí.",
+          "flavor": "Gastar contadores de veneno es catastrófico contra quien intenta envenenarte, y gratis en un set sin veneno ofensivo. La frase de Rosewater: problemático si el set lo tiene y problemático si no, lo que suele indicar un problema gordo."
+        },
+        {
+          "title": "Pregunta si las reglas ya soportan lo que quieres",
+          "rules": "Los apaños elaborados se construyen porque nadie comprobó si la versión directa estaba permitida. Una pregunta a quien manda en las reglas puede sustituir un artefacto ingenioso por el enunciado llano de lo que querías decir.",
+          "flavor": "Su carta tenía una forma enrevesada de volver tras ser contrarrestada, porque supuso que la versión simple era imposible. En desarrollo preguntó si las reglas admitían «no puede ser contrarrestado». Sí podían, y la carta pasó a serlo."
+        },
+        {
+          "title": "Quita el inconveniente en vez de equilibrarlo",
+          "rules": "Cuando has añadido un coste para tener a raya una habilidad, comprueba si de verdad hace falta tenerla a raya. A veces lo honesto es borrar la penalización y entregar el conjunto como una opción que la gente pueda usar libremente.",
+          "flavor": "La mecánica empezó como un coste de mantenimiento que intentaban convertir en un beneficio situacional. Desarrollo vio que no hacía falta inconveniente alguno: pasó a ser una habilidad activada, usable cuando quisieras, todo ventajas."
+        },
+        {
+          "title": "Si las reglas te bloquean, busca el sitio donde las reglas son otras",
+          "rules": "Un diseño rechazado por motivos estructurales no está rechazado por su calidad. En algún punto de tu catálogo puede haber un producto que opere con restricciones más laxas, y ahí la versión original puede existir intacta.",
+          "flavor": "La carta quería barajarse dentro de la biblioteca del rival, algo que las reglas prohíben, así que salió un apaño. Lo intentó de nuevo años después y volvió a recibir un no. Acabó publicándose, con nombre y todo, en un set exento de las reglas habituales."
+        },
+        {
+          "title": "Tasa por el atributo estable, no por el explotable",
+          "rules": "Cuando dos medidas de una cosa suelen coincidir, elige la que no pueda separarse fácilmente de aquello que en realidad estás tasando. Los casos excepcionales son justo adonde apuntará la gente.",
+          "flavor": "Una carta se fijaba originalmente en la fuerza de las criaturas y así era mucho más fácil de abusar, porque existen criaturas caras, de poca fuerza y con habilidades potentes. Cambiarla al valor de maná cerró el hueco."
+        },
+        {
+          "title": "La cautela colectiva también es un modo de error",
+          "rules": "Los grupos detectan con fiabilidad lo demasiado fuerte y fallan con fiabilidad al notar que el problema es su propio miedo. Una votación puede equivocarse hacia el lado seguro, y ese coste es invisible porque nada se rompe.",
+          "flavor": "Rosewater tasó bien una carta que creaba una ficha y fue derrotado en votación por un equipo que la temía demasiado buena, así que se añadió maná y se le atornilló texto compensatorio. El número original tenía margen de sobra."
         }
       ]
     },
     "fr": {
-      "title": "Design Files: Tempest, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Dossiers de conception : Tempest, partie 2",
+      "dek": "Mauvais si l'extension l'a. Mauvais si elle ne l'a pas. Voilà l'indice.",
+      "overview": "Des cartes de la même transmission modifiées avant l'impression, dont un thème de poison entièrement retiré par le développement — et l'explication donnée plus tard par Rosewater de son impossibilité.",
+      "takeaway": "Il voulait que les marqueurs poison soient à la fois une façon de gagner et un prix à payer. Des années après, il sait pourquoi cela échoue : face à un adversaire qui vous empoisonne, c'est ruineux ; dans une extension sans poison, cela ne coûte rien. Échouer dans les deux cas est le signal.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "S'il échoue que la condition soit remplie ou non, le problème est structurel",
+          "rules": "Testez une conception douteuse dans les deux mondes : celui où l'élément environnant est présent et celui où il ne l'est pas. Un souci d'un côté est un réglage. Un souci des deux côtés signifie que l'idée est fausse.",
+          "flavor": "Dépenser des marqueurs poison est catastrophique face à qui vous empoisonne, et gratuit dans une extension sans poison offensif. La formule de Rosewater : problématique si l'extension en a, problématique si elle n'en a pas."
+        },
+        {
+          "title": "Demandez si les règles permettent déjà ce que vous voulez",
+          "rules": "Les contournements élaborés naissent de ce que nul n'a vérifié si la version directe était permise. Une question au responsable des règles peut remplacer un bricolage ingénieux par l'énoncé simple de ce que vous vouliez dire.",
+          "flavor": "Sa carte revenait par un détour compliqué après avoir été contrecarrée, faute d'avoir cru la version simple possible. En développement, il a demandé si les règles supportaient « ne peut pas être contrecarré ». Elles le pouvaient."
+        },
+        {
+          "title": "Supprimez l'inconvénient plutôt que de l'équilibrer",
+          "rules": "Quand vous avez attaché un coût pour contenir une capacité, vérifiez s'il faut vraiment la contenir. Parfois le geste honnête est d'effacer la pénalité et de livrer l'ensemble comme une option librement employable.",
+          "flavor": "La mécanique commença comme un coût d'entretien qu'on cherchait à transformer en avantage situationnel. Le développement a vu qu'aucun inconvénient n'était nécessaire : ce devint une capacité activée, employable à volonté."
+        },
+        {
+          "title": "Si les règles vous bloquent, trouvez le lieu où elles diffèrent",
+          "rules": "Une conception refusée pour raisons structurelles n'est pas refusée sur le fond. Quelque part dans votre gamme existe peut-être un produit aux contraintes plus lâches : c'est là que la version d'origine peut vivre intacte.",
+          "flavor": "La carte voulait se mêler à la bibliothèque adverse, ce que les règles interdisent : un contournement fut imprimé. Il a retenté des années plus tard, refusé encore. Elle a fini par paraître, nom compris, dans une extension hors règles."
+        },
+        {
+          "title": "Tarifez sur l'attribut stable, non sur l'exploitable",
+          "rules": "Quand deux mesures d'une chose coïncident d'ordinaire, choisissez celle qu'on ne peut détacher à bon compte de ce que vous tarifez réellement. Les cas d'exception sont exactement là où l'on visera.",
+          "flavor": "Une carte se référait à la force des créatures et s'abusait bien plus aisément ainsi, car il existe des créatures chères, peu puissantes et aux capacités fortes. Passer au coût converti a refermé la faille."
+        },
+        {
+          "title": "La prudence collective est aussi un mode d'erreur",
+          "rules": "Les groupes repèrent fiablement ce qui est trop fort et manquent fiablement de voir que leur propre peur est le problème. Un vote peut se tromper du côté sûr, et ce coût reste invisible puisque rien ne casse.",
+          "flavor": "Rosewater avait correctement tarifé une carte à jeton et fut mis en minorité par une équipe qui la craignait trop bonne : on ajouta du mana et du texte compensatoire. Le chiffre d'origine avait même de la marge."
         }
       ]
     },
     "pt-BR": {
-      "title": "Design Files: Tempest, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Arquivos de design: Tempest, parte 2",
+      "dek": "Ruim se a coleção tem. Ruim se não tem. É esse o sinal.",
+      "overview": "Cartas do mesmo repasse que mudaram a caminho da impressão, incluindo um tema de veneno que o desenvolvimento removeu por inteiro — e o relato posterior de Rosewater sobre por que aquilo não podia funcionar.",
+      "takeaway": "Ele queria que os marcadores de veneno fossem ao mesmo tempo um jeito de vencer e um preço a pagar. Anos depois consegue dizer por que isso falha: contra quem ataca com veneno é ruinoso, e numa coleção sem veneno não custa nada. Falhar nos dois casos é o sinal.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Se falha havendo ou não a condição, o problema é estrutural",
+          "rules": "Teste um design duvidoso nos dois mundos: aquele em que a coisa ao redor existe e aquele em que não existe. Problema num deles é ajuste. Problema nos dois significa que a ideia está errada, e retoque nenhum alcança isso.",
+          "flavor": "Gastar marcadores de veneno é catastrófico contra quem tenta envenenar você, e gratuito numa coleção sem veneno ofensivo. A frase de Rosewater: problemático se a coleção tem e problemático se não tem."
+        },
+        {
+          "title": "Pergunte se as regras já suportam o que você quer",
+          "rules": "Contornos elaborados são construídos porque ninguém checou se a versão direta era permitida. Uma pergunta a quem manda nas regras pode substituir uma engenhoca esperta pelo enunciado simples do que você queria dizer.",
+          "flavor": "A carta dele tinha um jeito tortuoso de voltar após ser anulada, porque ele supôs que a versão simples fosse impossível. No desenvolvimento perguntou se as regras suportavam «não pode ser anulado». Podiam."
+        },
+        {
+          "title": "Remova a desvantagem em vez de equilibrá-la",
+          "rules": "Quando você prendeu um custo para conter uma habilidade, cheque se ela precisa mesmo ser contida. Às vezes o gesto honesto é apagar a penalidade e entregar o conjunto como uma opção de uso livre.",
+          "flavor": "A mecânica começou como um custo de manutenção que tentavam transformar em benefício situacional. O desenvolvimento viu que desvantagem alguma era necessária: virou habilidade ativada, usável quando você quisesse."
+        },
+        {
+          "title": "Se as regras bloqueiam você, ache o lugar onde as regras são outras",
+          "rules": "Um design recusado por motivos estruturais não foi recusado pelo mérito. Em algum ponto da sua linha pode haver um produto operando sob restrições mais frouxas, e é ali que a versão original pode existir intacta.",
+          "flavor": "A carta queria se embaralhar no grimório do oponente, o que as regras proíbem, então saiu um contorno. Ele tentou de novo anos depois e ouviu não outra vez. Acabou saindo, com nome e tudo, numa coleção isenta das regras usuais."
+        },
+        {
+          "title": "Precifique pelo atributo estável, não pelo explorável",
+          "rules": "Quando duas medidas de uma coisa costumam coincidir, escolha a que não pode ser barato separar daquilo que você está de fato precificando. Os casos excepcionais são exatamente onde as pessoas vão mirar.",
+          "flavor": "Uma carta originalmente olhava o poder das criaturas e era muito mais fácil de abusar assim, pois existem criaturas caras, de pouco poder e com habilidades fortes. Trocar para custo de mana fechou a brecha."
+        },
+        {
+          "title": "Cautela coletiva também é um modo de erro",
+          "rules": "Grupos pegam com confiabilidade o que é forte demais e falham com confiabilidade em notar que o problema é o próprio medo deles. Uma votação pode errar para o lado seguro, e esse custo é invisível porque nada quebra.",
+          "flavor": "Rosewater precificou certo uma carta que criava ficha e foi voto vencido por uma equipe que a temia boa demais, então somaram mana e parafusaram texto compensatório. O número original ainda tinha folga."
         }
       ]
     },
     "zh-Hans": {
-      "title": "Design Files: Tempest, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "设计档案：《Tempest》，第二部分",
+      "dek": "系列里有它，糟；没有它，也糟。这就是信号。",
+      "overview": "同一份交接文件里那些在通往印刷的路上被改动过的牌，包括一个被开发整个删掉的毒素主题——以及罗斯沃特多年后关于「它为什么不可能成立」的说明。",
+      "takeaway": "他想让毒指示物既是一种取胜方式，又是一种你可以支付的代价。多年之后他能说清这为什么行不通：面对一个正拿毒素攻击你的对手，它是灾难性的；而在一个没有毒素的系列里，它又什么代价都不是。两种情形下都不成立，正是那个信号。",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "如果条件成立与否它都失败，那问题是结构性的",
+          "rules": "把一个可疑的设计放到两个世界里各试一遍：周围那样东西存在的世界，和它不存在的世界。只在其中一边出问题，那是调参；两边都出问题，说明这个点子本身是错的，而任何微调都够不着它。",
+          "flavor": "面对一个想毒死你的对手，花掉毒指示物是灾难；而在一个没有攻击性毒素的系列里，这么花又不痛不痒。罗斯沃特的原话是：系列里有它是问题，没有它也是问题——而这通常说明出了大麻烦。"
+        },
+        {
+          "title": "先问一句：规则是不是本来就支持你想要的东西",
+          "rules": "那些精巧的绕行方案之所以被造出来，是因为没有人去确认「直白的那个版本」是否被允许。向规则的主管问上一句，就可能把一台聪明的装置，换成你本来想说的那句大白话。",
+          "flavor": "他那张牌用了一套绕来绕去的机制，好在被反击之后还能回来——因为他假定简单版本不可能成立。到了开发阶段，他问规则能不能支持「本咒语不能被反击」。能。于是这张牌就变成了那样。"
+        },
+        {
+          "title": "把缺点删掉，而不是去配平它",
+          "rules": "当你为了压住某个异能而给它挂上一份代价时，先确认这个异能到底需不需要被压住。有时候诚实的做法，是把那份惩罚整个抹掉，把这样东西作为一个可以随意使用的选项交出去。",
+          "flavor": "这个机制起初是一份维持费用，他们试图把它转成一种视情况而定的好处。而开发发现：根本不需要任何缺点。于是它变成了一个起动式异能，想什么时候用就什么时候用，全是好处。"
+        },
+        {
+          "title": "当规则挡住你时，去找那个规则不一样的场子",
+          "rules": "一个因为结构性理由被驳回的设计，并不是因为质量被驳回的。在你的产品线里，某处可能存在一个在更宽松的约束下运作的东西——而那里，正是原始版本能够完整存在的地方。",
+          "flavor": "那张牌想把自己洗进对手的牌库，而规则不允许，于是印出去的是一个变通版。多年后他再试了一次，又被驳回。它最终原名原样地登场了——在一个不受常规规则约束的系列里。"
+        },
+        {
+          "title": "按那个稳定的属性定价，而不是那个可被利用的属性",
+          "rules": "当一样东西的两种度量通常一致时，请选那个「没法被便宜地与你真正要定价的东西剥离开」的度量。而那些例外情形，恰恰就是人们会瞄准的地方。",
+          "flavor": "有一张牌最初看的是生物的力量，那样要被钻空子容易得多——因为世上就是存在着又贵、力量又低、异能却很强的生物。改成看法术力值之后，这个口子就补上了。"
+        },
+        {
+          "title": "集体的谨慎，同样是一种出错方式",
+          "rules": "一群人能可靠地抓住那些「太强了」的东西，也同样可靠地看不见「问题出在他们自己的害怕上」。一次投票是可能朝着安全的方向出错的；而这笔代价是隐形的，因为并没有什么东西坏掉。",
+          "flavor": "罗斯沃特把一张造衍生物的牌的费用定对了，却被一支担心它太强的团队投票否决；于是加了法术力，又拧上一段用来补偿的文字。而事后证明，他原本那个数字其实还有富余。"
         }
       ]
     }

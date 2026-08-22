@@ -1,0 +1,216 @@
+{
+  "id": "design-files-urzas-destiny-part-2",
+  "slug": "design-files-urzas-destiny-part-2",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2025-04-28",
+  "series": { "id": "design-files-urzas-destiny", "order": 2, "total": 3 },
+  "tags": ["design-files", "urzas-destiny", "development"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/design-files-urzas-destiny-part-2",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T05:30:09.899Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Design Files: Urza's Destiny, Part 2",
+      "dek": "Keep what the card wants to be. Replace how it gets there.",
+      "overview": "More cards from the same handoff, several of them printed untouched — and one where Rosewater set out to make a fair version of the most broken card in the game and left out the part that made it fair.",
+      "takeaway": "An enchantment pushing everyone to cast spells each turn kept its purpose and lost its method: the penalty for holding back went from losing a land to taking damage, because losing a land makes future turns worse. Rosewater calls that the whole job of the later stages — keep the core, find the best execution.",
+      "lessons": [
+        {
+          "title": "Keep the intent and change the execution",
+          "rules": "Late revision isn't about preserving what you wrote; it's about preserving what the thing is for. Identify the purpose precisely enough that you can throw away every mechanism currently serving it and go looking for a better one.",
+          "flavor": "The card was meant to push all players into acting each turn. Losing a land did push, but it also made the following turns harder, which fights the goal. Damage was simply a better incentive for the same intent."
+        },
+        {
+          "title": "Check that you copied the brake, not just the engine",
+          "rules": "When taking a safer relative of a notorious design as your model, work out precisely which feature made it safe. It is very easy to inherit everything appealing about it and quietly leave behind the part doing the restraining.",
+          "flavor": "Rosewater set out to make a fair version of a card that had warped the format for over a year, modelling it on a tamer cousin — and, as he puts it, seemed to skip over the part where that cousin also had a mana cost."
+        },
+        {
+          "title": "Reveal only what the effect requires",
+          "rules": "Concealed information is what keeps a situation live, so every disclosure you demand should be the minimum the effect needs to function. Asking for more than that is a cost paid in every future decision, not just this one.",
+          "flavor": "The handoff had you reveal your entire hand. The printed version asks only for the artifacts in it — enough for the card to work, and no more given away than that."
+        },
+        {
+          "title": "Split the busy piece in two",
+          "rules": "When something is doing two jobs and feels crowded, the fix usually isn't trimming but separating. Each half becomes cheaper, clearer, and easier to place, and you end up with two usable things instead of one awkward one.",
+          "flavor": "One creature both fetched a creature on entering and handed out counters when it died. Breaking it apart gave the counters to a new card and moved the fetching to a death trigger, which let the cost drop and the rarity fall."
+        },
+        {
+          "title": "Strip the incidental constraints off the effect you actually wanted",
+          "rules": "The existing versions of a thing you love are usually encumbered — expensive, or dependent on circumstances they shouldn't need. Isolate the part you actually reach for and build the clean version with nothing else attached.",
+          "flavor": "Rosewater's old decks gave opponents specific cards as part of a plan, using effects that swapped permanents. Those were costly and required the opponent to own something worth trading for. His card just gives a permanent away."
+        },
+        {
+          "title": "Refuse the generalisation that erases the point",
+          "rules": "People will ask you to widen a restriction until the thing does everything, because narrower always looks like an oversight. Sometimes the restriction is the design, and granting the request produces a strictly better piece with nothing to say.",
+          "flavor": "Asked to make his artifact destroy all permanents at or below a chosen cost, Rosewater declined. What he liked was being able to address one specific slice of the board — and not the whole of it."
+        }
+      ]
+    },
+    "es": {
+      "title": "Archivos de diseño: Urza's Destiny, parte 2",
+      "dek": "Conserva lo que la carta quiere ser. Sustituye cómo llega ahí.",
+      "overview": "Más cartas de la misma entrega, varias impresas sin tocar, y una en la que Rosewater se propuso hacer una versión justa de la carta más rota del juego y se dejó fuera lo que la hacía justa.",
+      "takeaway": "Un encantamiento que empujaba a todos a lanzar hechizos cada turno conservó su propósito y perdió su método: la penalización por contenerse pasó de perder una tierra a recibir daño, porque perder una tierra empeora los turnos siguientes. Rosewater llama a eso el trabajo entero de las etapas tardías.",
+      "lessons": [
+        {
+          "title": "Conserva la intención y cambia la ejecución",
+          "rules": "La revisión tardía no va de preservar lo que escribiste, sino para qué sirve la cosa. Identifica el propósito con precisión suficiente como para tirar todo mecanismo que hoy lo sirve y salir a buscar uno mejor.",
+          "flavor": "La carta pretendía empujar a todos los jugadores a actuar cada turno. Perder una tierra empujaba, sí, pero también volvía más duros los turnos siguientes, lo que combate el objetivo. El daño era mejor incentivo para la misma intención."
+        },
+        {
+          "title": "Comprueba que copiaste el freno y no solo el motor",
+          "rules": "Al tomar como modelo un pariente más seguro de un diseño infame, averigua exactamente qué rasgo lo hacía seguro. Es facilísimo heredar todo lo atractivo y dejar atrás, calladamente, la pieza que hacía de contención.",
+          "flavor": "Rosewater se propuso hacer una versión justa de una carta que había deformado el formato más de un año, tomando como modelo a una prima más mansa; y, según él mismo, se saltó la parte en que esa prima también tenía coste de maná."
+        },
+        {
+          "title": "Revela solo lo que el efecto necesita",
+          "rules": "La información oculta es lo que mantiene viva una situación, así que toda revelación que exijas debe ser el mínimo que el efecto requiere para funcionar. Pedir más es un coste que se paga en todas las decisiones futuras.",
+          "flavor": "La entrega te hacía revelar la mano entera. La versión impresa pide solo los artefactos que hay en ella: lo justo para que la carta funcione, y nada más entregado de la cuenta."
+        },
+        {
+          "title": "Parte en dos la pieza recargada",
+          "rules": "Cuando algo hace dos trabajos y se siente abarrotado, el arreglo no suele ser recortar sino separar. Cada mitad sale más barata, más clara y más fácil de colocar, y acabas con dos cosas útiles en vez de una incómoda.",
+          "flavor": "Una criatura buscaba otra al entrar y repartía contadores al morir. Separarlas dio los contadores a una carta nueva y trasladó la búsqueda al disparo por muerte, lo que permitió bajar el coste y la rareza."
+        },
+        {
+          "title": "Quítale al efecto que querías las restricciones accesorias",
+          "rules": "Las versiones existentes de algo que amas suelen venir cargadas: caras, o dependientes de circunstancias que no deberían hacer falta. Aísla la parte a la que de verdad recurres y construye la versión limpia sin nada más pegado.",
+          "flavor": "Los viejos mazos de Rosewater daban cartas concretas al rival como parte de un plan, usando efectos que intercambiaban permanentes. Eran caros y exigían que el rival tuviera algo por lo que valiera la pena cambiar."
+        },
+        {
+          "title": "Rechaza la generalización que borra el sentido",
+          "rules": "Te pedirán ensanchar una restricción hasta que la cosa lo haga todo, porque lo estrecho siempre parece un descuido. A veces la restricción es el diseño, y conceder la petición produce una pieza estrictamente mejor y sin nada que decir.",
+          "flavor": "Cuando le pidieron que su artefacto destruyera todos los permanentes de coste igual o menor al elegido, Rosewater se negó. Lo que le gustaba era poder atender una porción concreta del tablero, y no el tablero entero."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Dossiers de conception : Urza's Destiny, partie 2",
+      "dek": "Gardez ce que la carte veut être. Remplacez la manière d'y parvenir.",
+      "overview": "D'autres cartes de la même transmission, dont plusieurs imprimées telles quelles — et une où Rosewater entreprit de faire une version équitable de la carte la plus cassée du jeu, en omettant ce qui la rendait équitable.",
+      "takeaway": "Un enchantement poussant chacun à lancer des sorts chaque tour a gardé son but et perdu sa méthode : la peine pour l'inaction est passée de perdre un terrain à subir des blessures, car perdre un terrain gâche les tours suivants. Rosewater y voit tout le travail des étapes tardives.",
+      "lessons": [
+        {
+          "title": "Gardez l'intention et changez l'exécution",
+          "rules": "La révision tardive ne consiste pas à préserver ce que vous avez écrit, mais ce à quoi la chose sert. Cernez ce but assez précisément pour jeter tout mécanisme qui le sert aujourd'hui et partir en chercher un meilleur.",
+          "flavor": "La carte devait pousser tous les joueurs à agir chaque tour. Perdre un terrain poussait, certes, mais rendait aussi les tours suivants plus durs, ce qui contrarie l'objectif. Les blessures étaient un meilleur aiguillon pour la même intention."
+        },
+        {
+          "title": "Vérifiez que vous avez copié le frein, pas seulement le moteur",
+          "rules": "Quand vous prenez pour modèle un parent plus sage d'une conception tristement célèbre, établissez précisément quel trait le rendait sûr. Il est très facile d'hériter de tout ce qui séduit en laissant discrètement derrière la pièce qui retenait.",
+          "flavor": "Rosewater voulait une version équitable d'une carte ayant déformé le format plus d'un an, sur le modèle d'une cousine plus douce — et, dit-il, semble avoir sauté le passage où cette cousine avait aussi un coût de mana."
+        },
+        {
+          "title": "Ne révélez que ce que l'effet exige",
+          "rules": "L'information cachée maintient une situation vivante : toute révélation que vous exigez doit donc être le minimum nécessaire au fonctionnement. En demander plus est un coût payé sur toutes les décisions à venir.",
+          "flavor": "La version transmise faisait révéler la main entière. La version imprimée ne réclame que les artefacts qui s'y trouvent : de quoi faire fonctionner la carte, sans rien céder de plus."
+        },
+        {
+          "title": "Coupez en deux la pièce surchargée",
+          "rules": "Quand une chose fait deux métiers et paraît encombrée, le remède n'est pas de rogner mais de séparer. Chaque moitié devient moins chère, plus claire et plus facile à placer : vous obtenez deux objets utiles au lieu d'un maladroit.",
+          "flavor": "Une créature cherchait une autre créature à l'arrivée et distribuait des marqueurs à la mort. La scinder a donné les marqueurs à une nouvelle carte et déplacé la recherche sur le déclenchement à la mort, d'où un coût et une rareté moindres."
+        },
+        {
+          "title": "Ôtez à l'effet voulu ses contraintes accessoires",
+          "rules": "Les versions existantes d'une chose que vous aimez sont d'ordinaire encombrées : chères, ou dépendantes de circonstances dont elles n'auraient pas besoin. Isolez la part que vous employez vraiment et bâtissez la version nette, sans rien d'autre.",
+          "flavor": "Les vieux decks de Rosewater donnaient des cartes précises à l'adversaire dans le cadre d'un plan, via des effets d'échange de permanents. C'était coûteux et cela exigeait que l'adversaire possède quelque chose à échanger."
+        },
+        {
+          "title": "Refusez la généralisation qui efface le propos",
+          "rules": "On vous demandera d'élargir une restriction jusqu'à ce que la chose fasse tout, car l'étroit passe toujours pour un oubli. Parfois la restriction est la conception, et céder produit une pièce strictement meilleure et sans rien à dire.",
+          "flavor": "Prié de faire détruire à son artefact tous les permanents au coût choisi ou moindre, Rosewater a refusé. Ce qu'il aimait, c'était pouvoir traiter une tranche précise du champ de bataille, et non le champ entier."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Arquivos de design: Urza's Destiny, parte 2",
+      "dek": "Guarde o que a carta quer ser. Troque o modo como ela chega lá.",
+      "overview": "Mais cartas do mesmo repasse, várias impressas sem toque algum — e uma em que Rosewater se propôs a fazer uma versão justa da carta mais quebrada do jogo e deixou de fora justamente o que a tornava justa.",
+      "takeaway": "Um encantamento que empurrava todos a conjurar a cada turno manteve o propósito e perdeu o método: a punição por se conter passou de perder um terreno a sofrer dano, porque perder terreno piora os turnos seguintes. Rosewater chama isso do trabalho inteiro das etapas finais.",
+      "lessons": [
+        {
+          "title": "Guarde a intenção e mude a execução",
+          "rules": "A revisão tardia não trata de preservar o que você escreveu, e sim para que a coisa serve. Identifique o propósito com precisão bastante para jogar fora todo mecanismo que hoje o serve e ir procurar um melhor.",
+          "flavor": "A carta devia empurrar todos os jogadores a agir a cada turno. Perder um terreno empurrava, sim, mas também deixava os turnos seguintes mais duros, o que briga com o objetivo. Dano era simplesmente um incentivo melhor."
+        },
+        {
+          "title": "Cheque se você copiou o freio, e não só o motor",
+          "rules": "Ao tomar como modelo um parente mais seguro de um design infame, apure exatamente qual traço o tornava seguro. É facílimo herdar tudo o que atrai e deixar para trás, em silêncio, a peça que fazia a contenção.",
+          "flavor": "Rosewater quis fazer uma versão justa de uma carta que deformara o formato por mais de um ano, espelhando-se numa prima mais mansa — e, nas palavras dele, parece ter pulado a parte em que essa prima também tinha custo de mana."
+        },
+        {
+          "title": "Revele só o que o efeito exige",
+          "rules": "Informação oculta é o que mantém uma situação viva, então toda revelação exigida deve ser o mínimo de que o efeito precisa para funcionar. Pedir mais é um custo pago em todas as decisões futuras.",
+          "flavor": "O repasse fazia você revelar a mão inteira. A versão impressa pede apenas os artefatos que há nela: o suficiente para a carta funcionar, e nada além disso entregue."
+        },
+        {
+          "title": "Parta em duas a peça sobrecarregada",
+          "rules": "Quando algo faz dois trabalhos e parece apinhado, o conserto não costuma ser aparar, e sim separar. Cada metade fica mais barata, mais clara e mais fácil de posicionar, e você acaba com duas coisas úteis em vez de uma desajeitada.",
+          "flavor": "Uma criatura buscava outra ao entrar e distribuía marcadores ao morrer. Separá-las deu os marcadores a uma carta nova e mudou a busca para o gatilho de morte, o que permitiu baixar o custo e a raridade."
+        },
+        {
+          "title": "Tire do efeito que você queria as restrições acessórias",
+          "rules": "As versões existentes de algo que você ama costumam vir carregadas: caras, ou dependentes de circunstâncias de que não deveriam precisar. Isole a parte a que você de fato recorre e construa a versão limpa, sem mais nada grudado.",
+          "flavor": "Os decks antigos de Rosewater davam cartas específicas ao oponente como parte de um plano, usando efeitos que trocavam permanentes. Eram caros e exigiam que o oponente tivesse algo pelo que valesse a pena trocar."
+        },
+        {
+          "title": "Recuse a generalização que apaga o ponto",
+          "rules": "Vão lhe pedir para alargar uma restrição até a coisa fazer tudo, porque o estreito sempre parece um descuido. Às vezes a restrição é o design, e atender ao pedido produz uma peça estritamente melhor e sem nada a dizer.",
+          "flavor": "Pedido a fazer seu artefato destruir todos os permanentes de custo igual ou menor ao escolhido, Rosewater recusou. O que ele gostava era de poder tratar uma fatia específica do campo, e não o campo inteiro."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "设计档案：《Urza's Destiny》，第二部分",
+      "dek": "留住这张牌想成为的样子。换掉它抵达那里的方式。",
+      "overview": "同一份交接文件里的更多牌，其中好几张原样印了出来——还有一张，罗斯沃特本想做出那张史上最坏的牌的「公道版本」，却恰好漏掉了让它公道的那一部分。",
+      "takeaway": "一张推动所有人每回合都施放咒语的结界，保住了目的，换掉了手段：对「按兵不动」的惩罚，从失去一块地改成了承受伤害——因为失去一块地会让此后的回合更难过。罗斯沃特说，这就是后期阶段的全部工作。",
+      "lessons": [
+        {
+          "title": "留住意图，换掉执行",
+          "rules": "后期的修改，不是要保住你写下的东西，而是要保住这样东西是为什么而存在的。把这个目的辨认得足够精确，精确到你可以把当前所有为它服务的机制统统扔掉，再出门去找一个更好的。",
+          "flavor": "这张牌的用意是推动所有玩家每回合都动起来。失去一块地确实是在推，但它同时也让接下来的回合更难打——而这与目的相抵触。对同一个意图来说，伤害只是一种更好的激励。"
+        },
+        {
+          "title": "确认你抄来的是刹车，而不只是发动机",
+          "rules": "当你拿某个臭名昭著的设计的「更安全的亲戚」来做模板时，要精确地弄清：究竟是哪一处特征让它安全。人极容易把它身上所有诱人的部分都继承下来，却把那个负责约束的零件悄悄留在了原地。",
+          "flavor": "罗斯沃特想为一张曾把赛制扭曲了一年多的牌做一个公道的版本，参照的是它那位更温顺的表亲——而用他自己的话说，他似乎跳过了「那位表亲还带着一个法术力费用」这一段。"
+        },
+        {
+          "title": "只揭示这个效果所必需的那部分",
+          "rules": "暗信息正是让一个局面保持活着的东西；因此你所要求的每一次揭示，都应该是这个效果得以运转所需的最小量。要得比这更多，是一笔要在此后每一个决策上反复支付的成本。",
+          "flavor": "交接时的版本要你亮出整只手。而印出来的版本只要求你亮出手里的神器——刚好够这张牌运转，而不多交出去一点。"
+        },
+        {
+          "title": "把那件挤得慌的东西一分为二",
+          "rules": "当一样东西同时在干两份活、显得拥挤时，解法通常不是修剪，而是分家。每一半都会变得更便宜、更清楚、也更好安置；而你最终得到的是两样能用的东西，而不是一样别扭的东西。",
+          "flavor": "有一只生物既在进场时找出另一只生物，又在死亡时分发指示物。把它拆开之后，指示物那半给了一张新牌，找生物那半挪到了死亡触发上——于是费用降了，稀有度也降了。"
+        },
+        {
+          "title": "把你真正想要的那个效果身上，附带的限制统统剥掉",
+          "rules": "你所钟爱的那样东西的现成版本，通常都是负重前行的：要么很贵，要么依赖着一些它本不该需要的条件。把你真正会去取用的那一部分单独拎出来，做一个什么都不附带的干净版本。",
+          "flavor": "罗斯沃特早年的套牌会作为计划的一部分，把特定的牌塞给对手，用的是那些「交换永久物」的效果。可它们既贵，又要求对手手上恰好有一样值得交换的东西。"
+        },
+        {
+          "title": "拒绝那种会把要点抹掉的一般化",
+          "rules": "人们会要求你把一条限制越放越宽，直到这样东西什么都能干——因为「窄」看上去总像是一时疏忽。可有时候，那条限制就是这个设计本身；而答应了这个要求，你得到的是一件严格更强、却无话可说的东西。",
+          "flavor": "当有人要求他那件神器改成「消灭所有法术力值不超过所选数字的永久物」时，罗斯沃特拒绝了。他喜欢的正是「你可以处理战场上特定的一小片」，而不是整个战场。"
+        }
+      ]
+    }
+  }
+}
