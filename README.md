@@ -40,7 +40,7 @@ modules. The dev server exists only because ES modules and `fetch` don't work
 over `file://`.
 
 ```bash
-npm run validate   # check every article and translation file
+npm run validate   # check every article and translation file (fails on any unfinished article)
 npm run build      # write content/manifest.json by hand (the deploy does this for you)
 npm run check      # both of the above
 npm run discover   # rebuild the queue of every Making Magic article
@@ -120,6 +120,14 @@ English summary rather than an empty page, and the article header says so.
 Pushing to `main` runs `.github/workflows/deploy.yml`, which validates the
 content, builds the manifest, and publishes to GitHub Pages at
 <https://collvey.github.io/MagicWizards/>.
+
+Validation there is scoped to the article, not the push. An article that isn't
+finished — a missing translation, an empty lesson — is withheld from the
+manifest and flagged as a warning on the run; every other article deploys as
+usual. Nothing links to a withheld article and the router treats it as not
+found, so it is invisible rather than broken, and committing a stub you haven't
+filled in yet costs nothing. Only a repo-wide problem, like a broken UI string
+file that no per-article skip can contain, stops a deploy.
 
 ## The queue
 

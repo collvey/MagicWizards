@@ -2,121 +2,79 @@
 /**
  * Checks every article file against the rules the site relies on.
  *
- * This is what stops a half-translated or mis-shaped article from reaching the
- * site. CI runs it on every push; run it yourself before opening a PR.
+ * Two kinds of problem, treated differently, because they differ in what they
+ * would break:
  *
- * Run: npm run validate
+ *   - Repo-wide (a missing UI string file) breaks every page in a language.
+ *     Nothing can be published around it, so it always exits non-zero.
+ *   - Article-level (a half-translated summary) breaks exactly that article.
+ *     The build withholds it and ships everything else, so on a deploy this is
+ *     reported and tolerated — one unfinished summary is not a reason to hold
+ *     back the other eighty-nine.
+ *
+ * Run: npm run validate            hard failure on anything wrong, for authors
+ *      npm run validate -- --ship  article problems are warnings, for the deploy
  */
 import path from 'node:path';
-import fs from 'node:fs/promises';
-import { ROOT, readJSON, listArticleFiles } from './lib/paths.mjs';
+import { ROOT, readJSON } from './lib/paths.mjs';
+import { checkRepo, loadArticles } from './lib/validate.mjs';
 
-const COLORS = new Set(['W', 'U', 'B', 'R', 'G']);
-const DATE = /^\d{4}-\d{2}-\d{2}$/;
-// summarizedAt is a full ISO timestamp, not a bare date. The home page ranks
-// its "recently summarized" band on it, and several articles often land on
-// the same day — a bare date ties them all, which silently sinks the newest
-// below whichever happens to carry the latest publication date.
-const STAMP = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[+-]\d{2}:\d{2})$/;
+// The deploy passes --ship: it wants to know what it is withholding, not to be
+// stopped by it. Authors get the strict default, so `npm run check` still says
+// no to an article that isn't finished.
+const ship = process.argv.includes('--ship');
 
 const site = await readJSON(path.join(ROOT, 'content', 'site.json'));
 const langs = site.languages.map((l) => l.code);
 
-const problems = [];
-const fail = (file, msg) => problems.push(`${path.basename(file)}: ${msg}`);
+const blocking = await checkRepo(site);
+const { published, withheld } = await loadArticles(langs);
 
-// Every UI string file must carry the same keys as English, or the interface
-// silently falls back mid-page and looks broken in one language only.
-const enKeys = Object.keys(await readJSON(path.join(ROOT, 'i18n', 'en.json')));
-for (const lang of langs) {
-  const file = path.join(ROOT, 'i18n', `${lang}.json`);
-  let strings;
-  try {
-    strings = await readJSON(file);
-  } catch {
-    fail(file, 'missing or unparseable UI string file');
-    continue;
-  }
-  const missing = enKeys.filter((k) => !(k in strings));
-  const extra = Object.keys(strings).filter((k) => !enKeys.includes(k));
-  if (missing.length) fail(file, `missing UI keys: ${missing.join(', ')}`);
-  if (extra.length) fail(file, `unknown UI keys: ${extra.join(', ')}`);
-}
-
-const seenIds = new Set();
-const files = await listArticleFiles();
-
-for (const file of files) {
-  let a;
-  try {
-    a = await readJSON(file);
-  } catch (err) {
-    fail(file, `invalid JSON — ${err.message}`);
-    continue;
-  }
-
-  for (const field of ['id', 'slug', 'column', 'author', 'publishedAt']) {
-    if (!a[field]) fail(file, `missing required field "${field}"`);
-  }
-  if (a.id && seenIds.has(a.id)) fail(file, `duplicate id "${a.id}"`);
-  seenIds.add(a.id);
-
-  const expected = `${a.id}.json`;
-  if (path.basename(file) !== expected) fail(file, `filename should be "${expected}"`);
-  if (a.publishedAt && !DATE.test(a.publishedAt)) fail(file, 'publishedAt must be YYYY-MM-DD');
-  // The home page ranks on summarizedAt, so a missing or mis-shaped one would
-  // silently drop the article to the bottom of the "recently summarized" band.
-  if (!a.summarizedAt) fail(file, 'missing required field "summarizedAt"');
-  else if (!STAMP.test(a.summarizedAt)) {
-    fail(file, `summarizedAt must be a full ISO timestamp, not "${a.summarizedAt}"`);
-  }
-  if (!a.source?.canonical?.startsWith('https://magic.wizards.com/')) {
-    fail(file, 'source.canonical must be a magic.wizards.com URL');
-  }
-
-  if (a.pointNoun && !['lesson', 'point'].includes(a.pointNoun)) {
-    fail(file, 'pointNoun must be "lesson" or "point"');
-  }
-
-  const lessons = a.lessons ?? [];
-  lessons.forEach((l, i) => {
-    if (!Number.isInteger(l.n)) fail(file, `lessons[${i}].n must be an integer`);
-    if (!COLORS.has(l.color)) fail(file, `lessons[${i}].color must be one of W U B R G`);
-  });
-
-  // A missing language leaves a reader stranded on a blank page, so every
-  // configured language must be present and complete.
-  for (const lang of langs) {
-    const t = a.translations?.[lang];
-    if (!t) {
-      fail(file, `missing translation for "${lang}"`);
-      continue;
-    }
-    for (const field of ['title', 'overview', 'takeaway']) {
-      if (!t[field]?.trim()) fail(file, `translations.${lang}.${field} is empty`);
-    }
-    const tl = t.lessons ?? [];
-    if (tl.length !== lessons.length) {
-      fail(file, `translations.${lang}.lessons has ${tl.length} entries, expected ${lessons.length}`);
-    }
-    tl.forEach((l, i) => {
-      for (const field of ['title', 'rules', 'flavor']) {
-        if (!l[field]?.trim()) fail(file, `translations.${lang}.lessons[${i}].${field} is empty`);
-      }
-    });
-  }
-}
-
-// Series listed in site.json must actually resolve to files on disk.
+// Series listed in site.json must resolve to an article that is actually going
+// to be published — a reference to a withheld article is the withheld
+// article's problem, already reported below, so it isn't repeated here.
+const publishedIds = new Set(published.map((p) => p.article.id));
+const withheldIds = new Set(withheld.map((w) => w.id).filter(Boolean));
 for (const s of site.series ?? []) {
   for (const id of s.articleIds ?? s.articles ?? []) {
-    if (!seenIds.has(id)) problems.push(`site.json: series "${s.id}" references unknown article "${id}"`);
+    if (!publishedIds.has(id) && !withheldIds.has(id)) {
+      blocking.push(`site.json: series "${s.id}" references unknown article "${id}"`);
+    }
   }
 }
 
-if (problems.length) {
-  console.error(`validate: ${problems.length} problem(s)\n`);
-  for (const p of problems) console.error(`  - ${p}`);
+if (withheld.length) {
+  // A green build that quietly drops an article is worse than a red one, so on
+  // CI each withheld article also becomes an annotation on the run itself —
+  // visible without opening the log.
+  if (ship && process.env.GITHUB_ACTIONS) {
+    for (const w of withheld) {
+      const where = path.relative(ROOT, w.file).split(path.sep).join('/');
+      console.log(`::warning file=${where}::withheld from the site — ${w.problems.length} problem(s): ${w.problems[0]}`);
+    }
+  }
+
+  const count = withheld.reduce((n, w) => n + w.problems.length, 0);
+  const verb = ship ? 'will not be published' : 'would not be published';
+  console.error(`validate: ${withheld.length} article(s) ${verb} — ${count} problem(s)\n`);
+  for (const w of withheld) {
+    console.error(`  ${w.name}`);
+    for (const p of w.problems) console.error(`    - ${p}`);
+    console.error('');
+  }
+}
+
+if (blocking.length) {
+  console.error(`validate: ${blocking.length} problem(s) affecting the whole site\n`);
+  for (const p of blocking) console.error(`  - ${p}`);
   process.exit(1);
 }
-console.log(`validate: ${files.length} article(s) across ${langs.length} languages — all good`);
+
+console.log(
+  `validate: ${published.length} article(s) across ${langs.length} languages ready to publish` +
+    (withheld.length ? `, ${withheld.length} withheld` : ' — all good'),
+);
+
+// An author running this wants a hard no on an unfinished article; the deploy
+// has already been told which ones it is leaving out and should carry on.
+if (withheld.length && !ship) process.exit(1);

@@ -25,14 +25,18 @@ jobs:
         with:
           node-version: '20'
 
-      # Content is validated before it can ship: a half-translated or
-      # mis-shaped article fails here rather than rendering as a blank page.
+      # --ship scopes the gate to the article: a half-translated or mis-shaped
+      # article is withheld from the manifest and annotated on the run, rather
+      # than blocking the deploy of every other article. Only a repo-wide
+      # problem — a broken UI string file, which no per-article skip can
+      # contain — stops the publish here.
       - name: Validate content
-        run: node scripts/validate.mjs
+        run: node scripts/validate.mjs --ship
 
       # The manifest is derived from content/articles/, so it is generated here
       # rather than committed. Adding an article is adding a file; nothing can
-      # fall out of sync, because nothing is kept in sync by hand.
+      # fall out of sync, because nothing is kept in sync by hand. It contains
+      # only the articles that passed above.
       - name: Build manifest
         run: node scripts/build-manifest.mjs
 

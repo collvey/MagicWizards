@@ -10,6 +10,9 @@
  */
 import { buildManifest } from './lib/manifest.mjs';
 
-const { articleCount, seriesCount, langCount, progress } = await buildManifest();
+const { articleCount, seriesCount, langCount, progress, withheld } = await buildManifest();
 console.log(`manifest: ${articleCount} article(s), ${seriesCount} series, ${langCount} languages`);
 if (progress) console.log(`progress: done ${progress.from} -> ${progress.to}`);
+// Articles that failed validation are left out rather than published broken.
+// Say which, so a shrinking manifest is never a mystery.
+for (const w of withheld) console.log(`withheld: ${w.name} (${w.problems.length} problem(s))`);

@@ -107,6 +107,12 @@ npm run validate  # check the article is complete in every language
 npm run serve     # look at it
 ```
 
+`npm run validate` says no to an article that isn't finished, which is the point
+of running it here. The deploy is more forgiving on purpose: it withholds an
+unfinished article from the site and publishes the rest, so a work-in-progress
+on `main` never blocks anyone else's summary from shipping. Check it here rather
+than relying on that — a withheld article is one nobody can read.
+
 Commit the article file. `content/manifest.json` is generated — it is not in the
 repo at all, the deploy builds it, and `npm run serve` rebuilds it on every
 request — so there is nothing to keep in sync by hand.

@@ -5,89 +5,236 @@
   "author": "Mark Rosewater",
   "publishedAt": "2022-11-21",
   "series": null,
-  "tags": [],
+  "tags": ["history", "creature-types", "color-pie"],
   "pointNoun": "point",
   "source": {
     "canonical": "https://magic.wizards.com/en/news/making-magic/the-shapeshifting-sands",
-    "locales": [
-      "en",
-      "es",
-      "fr",
-      "pt-BR",
-      "zh-Hans"
-    ]
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
   },
   "summaryVersion": 1,
   "summarizedAt": "2026-08-22T02:04:55.370Z",
   "lessons": [
-    {
-      "n": 1,
-      "color": "W"
-    }
+    { "n": 1, "color": "G" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "W" }
   ],
   "translations": {
     "en": {
-      "title": "Jumpstart 2022 | The Shapeshifting Sands",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "The Shapeshifting Sands",
+      "dek": "A creature type that existed for four years before it had a name.",
+      "overview": "A history of Shapeshifters from Alpha to Lorwyn, written to introduce a Jumpstart booster. What it actually documents is how a category comes into being, and what it costs to be early.",
+      "takeaway": "Shapeshifting creatures existed from Alpha; the creature type arrived four years later. Before that, each odd creature got a type of its own — Shyft was a Shyft — which meant none of them could ever combine.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Things get made before the category exists, and naming it is what makes them combinable",
+          "rules": "A family of related work accumulates long before anyone labels it. Until the label exists, each piece is its own isolated case and none of them can be built on together — the naming is the useful act, not the noticing.",
+          "flavor": "Early Magic gave quirky creatures their own name as their type: Shyft was a Shyft. Rosewater pushed for one consolidated word because he wanted to build decks that combined different Shapeshifters."
+        },
+        {
+          "title": "Pick the most open-ended name that still describes",
+          "rules": "A category you intend to keep filling should be named for the widest thing it could hold while still telling someone what's inside. Too specific and you'll be naming a second category shortly.",
+          "flavor": "Rosewater's stated reason for the word: Shapeshifter seemed like the most open-ended yet descriptive choice. The only shared quality across the cards was that each changed something about itself."
+        },
+        {
+          "title": "The boundary is a property of the effect, not the effect itself",
+          "rules": "Two things that look like the same ability can belong to different owners because of one attribute they don't share. Find the attribute that actually divides them, and the rule becomes statable instead of arbitrary.",
+          "flavor": "Turning into something from your library is blue, as long as you know what you're becoming. If the change is random, that same effect now belongs to red. The line isn't the transformation — it's the knowledge."
+        },
+        {
+          "title": "An idea can arrive before the system that would support it",
+          "rules": "Something the rules can't yet express ships as a reduced version of itself and waits. That's not a failure; it's the idea holding its place until the machinery catches up, sometimes decades later.",
+          "flavor": "Dracoplasm was Rosewater's first attempt at squishing two creatures together. The rules of the day couldn't manage it, so it just took their combined power and toughness. The original design was much closer to mutate."
+        },
+        {
+          "title": "A classification blocked by structure stays blocked until someone fixes the structure",
+          "rules": "Some things can't be labelled correctly because of an unrelated limitation elsewhere in the system. No amount of wanting it changes that; the fix is upstream, and it may take years of advocacy to get there.",
+          "flavor": "Artifact creatures had no creature types at all, and legendary creatures were all just Legends. So a decade of Shapeshifters went unlabelled. Rosewater calls it his years-long goal, finally paid off in Mirrodin."
+        },
+        {
+          "title": "When the upstream plan dies, the downstream commitment becomes the brief",
+          "rules": "Work that has already been produced doesn't disappear when the thing it was made for does. What was a supporting detail is now the specification, and you design backwards from it.",
+          "flavor": "Morphling began as a Clone reprint. Late in development, after the art was already in, the rules manager ruled the reprint impossible — so the card was designed to match a picture drawn for a different card."
+        },
+        {
+          "title": "One member of every category makes each of them viable",
+          "rules": "When a project has more subthemes than its size supports, none of them reach the density they need. Something that counts as belonging to all of them raises every one at once, for the cost of a single slot.",
+          "flavor": "Lorwyn cared about eight creature types and couldn't give each enough cards. Changeling creatures count as all of them, which let players mix themes and got every type to the frequency Limited required."
         }
       ]
     },
     "es": {
-      "title": "Jumpstart 2022 | The Shapeshifting Sands",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Las arenas cambiantes",
+      "dek": "Un tipo de criatura que existió cuatro años antes de tener nombre.",
+      "overview": "Una historia de los cambiaformas desde Alpha hasta Lorwyn, escrita para presentar un sobre de Jumpstart. Lo que en realidad documenta es cómo nace una categoría, y qué cuesta llegar temprano.",
+      "takeaway": "Las criaturas cambiaformas existían desde Alpha; el tipo de criatura llegó cuatro años después. Antes, cada criatura rara recibía su propio tipo —Shyft era un Shyft—, lo que impedía que ninguna se combinara.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Las cosas se hacen antes de que exista la categoría, y nombrarla es lo que las hace combinables",
+          "rules": "Una familia de trabajos afines se acumula mucho antes de que alguien la etiquete. Hasta que existe la etiqueta, cada pieza es un caso aislado y ninguna puede construirse junto a las demás: nombrar es el acto útil, no notar.",
+          "flavor": "El Magic temprano daba a las criaturas raras su propio nombre como tipo: Shyft era un Shyft. Rosewater presionó por una única palabra consolidada porque quería armar mazos que combinaran distintos cambiaformas."
+        },
+        {
+          "title": "Elige el nombre más abierto que aun así describa",
+          "rules": "Una categoría que piensas seguir llenando debería nombrarse por lo más amplio que pueda contener sin dejar de decirle a alguien qué hay dentro. Demasiado específica y pronto estarás nombrando una segunda.",
+          "flavor": "La razón que da Rosewater para la palabra: cambiaformas parecía la elección más abierta y a la vez descriptiva. La única cualidad compartida por esas cartas era que cada una cambiaba algo de sí misma."
+        },
+        {
+          "title": "El límite es una propiedad del efecto, no el efecto",
+          "rules": "Dos cosas que parecen la misma habilidad pueden pertenecer a dueños distintos por un atributo que no comparten. Encuentra el atributo que de verdad las separa y la regla pasa a ser enunciable en vez de arbitraria.",
+          "flavor": "Convertirse en algo de tu biblioteca es azul, siempre que sepas en qué te conviertes. Si el cambio es aleatorio, ese mismo efecto pertenece ahora al rojo. La línea no es la transformación: es el conocimiento."
+        },
+        {
+          "title": "Una idea puede llegar antes que el sistema que la sostendría",
+          "rules": "Algo que las reglas aún no pueden expresar sale como una versión reducida de sí mismo y espera. No es un fracaso: es la idea guardando su sitio hasta que la maquinaria la alcance, a veces décadas después.",
+          "flavor": "Dracoplasm fue el primer intento de Rosewater de aplastar dos criaturas en una. Las reglas de entonces no daban para ello, así que solo tomó su fuerza y resistencia combinadas. El diseño original se parecía mucho más a mutar."
+        },
+        {
+          "title": "Una clasificación bloqueada por la estructura sigue bloqueada hasta que alguien arregla la estructura",
+          "rules": "Algunas cosas no pueden etiquetarse bien por una limitación ajena en otra parte del sistema. Por mucho que se quiera, eso no cambia; el arreglo está río arriba y puede llevar años de insistencia llegar hasta él.",
+          "flavor": "Las criaturas artefacto no tenían tipos de criatura, y las legendarias eran todas simplemente Legends. Así que una década de cambiaformas quedó sin etiquetar. Rosewater lo llama su meta de años, cumplida al fin en Mirrodin."
+        },
+        {
+          "title": "Cuando muere el plan río arriba, el compromiso río abajo se vuelve el encargo",
+          "rules": "El trabajo ya producido no desaparece cuando desaparece aquello para lo que se hizo. Lo que era un detalle de apoyo pasa a ser la especificación, y diseñas hacia atrás desde ahí.",
+          "flavor": "Morphling empezó como una reimpresión de Clone. Tarde en el desarrollo, con el arte ya entregado, el gestor de reglas dictaminó que la reimpresión era imposible; así que la carta se diseñó para encajar con un dibujo hecho para otra."
+        },
+        {
+          "title": "Un miembro de todas las categorías hace viable a cada una",
+          "rules": "Cuando un proyecto tiene más subtemas de los que su tamaño soporta, ninguno alcanza la densidad que necesita. Algo que cuenta como perteneciente a todos los eleva a la vez, al coste de un solo hueco.",
+          "flavor": "Lorwyn se fijaba en ocho tipos de criatura y no podía dar suficientes cartas a cada uno. Las criaturas con cambiaformas cuentan como todos, lo que permitió mezclar temas y llevar cada tipo a la frecuencia que exigía el Limitado."
         }
       ]
     },
     "fr": {
-      "title": "Jumpstart 2022 | The Shapeshifting Sands",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Les sables changeants",
+      "dek": "Un type de créature qui a existé quatre ans avant d'avoir un nom.",
+      "overview": "Une histoire des changeformes d'Alpha à Lorwyn, écrite pour présenter un booster Jumpstart. Ce qu'elle documente en réalité, c'est comment naît une catégorie, et ce qu'il en coûte d'arriver trop tôt.",
+      "takeaway": "Les créatures changeformes existent depuis Alpha ; le type de créature est arrivé quatre ans plus tard. Avant, chaque créature bizarre recevait son propre type — Shyft était un Shyft — si bien qu'aucune ne pouvait se combiner.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "On fabrique avant que la catégorie n'existe, et c'est la nommer qui rend les pièces combinables",
+          "rules": "Une famille de travaux apparentés s'accumule bien avant que quiconque l'étiquette. Tant que l'étiquette manque, chaque pièce est un cas isolé et nulle ne peut être bâtie avec les autres : nommer est l'acte utile, non remarquer.",
+          "flavor": "Le Magic des débuts donnait aux créatures bizarres leur propre nom pour type : Shyft était un Shyft. Rosewater a poussé pour un mot unique, parce qu'il voulait bâtir des decks combinant différents changeformes."
+        },
+        {
+          "title": "Prenez le nom le plus ouvert qui décrive encore",
+          "rules": "Une catégorie que vous comptez continuer de remplir doit être nommée d'après la chose la plus large qu'elle puisse contenir tout en disant ce qu'il y a dedans. Trop précis, et vous nommerez bientôt une deuxième catégorie.",
+          "flavor": "La raison donnée par Rosewater : changeforme semblait le choix le plus ouvert tout en restant descriptif. La seule qualité commune à ces cartes était que chacune changeait quelque chose d'elle-même."
+        },
+        {
+          "title": "La frontière est une propriété de l'effet, non l'effet lui-même",
+          "rules": "Deux choses qui ressemblent à la même capacité peuvent appartenir à des propriétaires différents à cause d'un attribut qu'elles ne partagent pas. Trouvez l'attribut qui les sépare vraiment, et la règle devient énonçable.",
+          "flavor": "Se transformer en une chose de sa bibliothèque est bleu, tant qu'on sait en quoi. Si le changement est aléatoire, ce même effet appartient désormais au rouge. La ligne n'est pas la transformation : c'est le savoir."
+        },
+        {
+          "title": "Une idée peut précéder le système qui la porterait",
+          "rules": "Ce que les règles ne savent pas encore exprimer sort en version réduite et attend. Ce n'est pas un échec : c'est l'idée qui garde sa place jusqu'à ce que la machinerie la rattrape, parfois des décennies plus tard.",
+          "flavor": "Dracoplasm fut la première tentative de Rosewater d'écraser deux créatures en une. Les règles d'alors n'y suffisaient pas : elle prend simplement leur force et endurance combinées. Le design d'origine tenait bien plus de la mutation."
+        },
+        {
+          "title": "Un classement bloqué par la structure le reste jusqu'à ce qu'on répare la structure",
+          "rules": "Certaines choses ne peuvent être étiquetées correctement à cause d'une limite sans rapport ailleurs dans le système. Le vouloir n'y change rien : le correctif est en amont, et il peut demander des années de plaidoyer.",
+          "flavor": "Les créatures-artefact n'avaient aucun type, et les légendaires étaient toutes de type Legend. Une décennie de changeformes est restée sans étiquette. Rosewater parle d'un objectif de plusieurs années, enfin atteint dans Mirrodin."
+        },
+        {
+          "title": "Quand le plan amont meurt, l'engagement aval devient le cahier des charges",
+          "rules": "Le travail déjà produit ne disparaît pas avec la chose pour laquelle il fut fait. Ce qui n'était qu'un détail d'appoint devient la spécification, et vous concevez à rebours à partir de là.",
+          "flavor": "Morphling a commencé en réimpression de Clone. Tard dans le développement, l'illustration déjà livrée, le responsable des règles a jugé la réimpression impossible : la carte fut donc conçue pour coller à une image faite pour une autre."
+        },
+        {
+          "title": "Un membre de toutes les catégories rend chacune viable",
+          "rules": "Quand un projet a plus de sous-thèmes que sa taille n'en supporte, aucun n'atteint la densité nécessaire. Une chose comptant comme appartenant à tous les relève tous d'un coup, pour le prix d'un seul emplacement.",
+          "flavor": "Lorwyn se souciait de huit types de créature et ne pouvait donner assez de cartes à chacun. Les créatures à changelin comptent comme tous, ce qui a permis de mêler les thèmes et d'amener chaque type à la fréquence exigée."
         }
       ]
     },
     "pt-BR": {
-      "title": "Jumpstart 2022 | The Shapeshifting Sands",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "As areias mutáveis",
+      "dek": "Um tipo de criatura que existiu quatro anos antes de ter nome.",
+      "overview": "Uma história dos metamorfos, de Alpha a Lorwyn, escrita para apresentar um booster de Jumpstart. O que ela de fato documenta é como uma categoria nasce, e o que custa chegar cedo demais.",
+      "takeaway": "Criaturas metamorfas existiam desde Alpha; o tipo de criatura chegou quatro anos depois. Antes disso, cada criatura estranha ganhava um tipo próprio — Shyft era um Shyft — de modo que nenhuma podia se combinar.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "As coisas são feitas antes de a categoria existir, e nomeá-la é o que as torna combináveis",
+          "rules": "Uma família de trabalhos afins se acumula muito antes de alguém rotulá-la. Enquanto o rótulo não existe, cada peça é um caso isolado e nenhuma pode ser construída junto às outras: nomear é o ato útil, não notar.",
+          "flavor": "O Magic dos primórdios dava às criaturas estranhas o próprio nome como tipo: Shyft era um Shyft. Rosewater pressionou por uma palavra única porque queria montar decks combinando metamorfos diferentes."
+        },
+        {
+          "title": "Escolha o nome mais aberto que ainda descreva",
+          "rules": "Uma categoria que você pretende continuar preenchendo deve ser nomeada pela coisa mais ampla que ela possa conter sem deixar de dizer o que há dentro. Específica demais, e você logo estará nomeando uma segunda.",
+          "flavor": "A razão que Rosewater dá para a palavra: metamorfo parecia a escolha mais aberta e ainda assim descritiva. A única qualidade comum a essas cartas era que cada uma mudava algo em si mesma."
+        },
+        {
+          "title": "A fronteira é uma propriedade do efeito, não o efeito",
+          "rules": "Duas coisas que parecem a mesma habilidade podem pertencer a donos diferentes por um atributo que não compartilham. Ache o atributo que de fato as separa, e a regra passa a ser enunciável em vez de arbitrária.",
+          "flavor": "Virar algo do seu grimório é azul, desde que você saiba no que está virando. Se a mudança é aleatória, esse mesmo efeito agora pertence ao vermelho. A linha não é a transformação: é o conhecimento."
+        },
+        {
+          "title": "Uma ideia pode chegar antes do sistema que a sustentaria",
+          "rules": "Algo que as regras ainda não conseguem expressar sai como versão reduzida de si mesmo e espera. Não é fracasso: é a ideia guardando lugar até o maquinário alcançá-la, às vezes décadas depois.",
+          "flavor": "Dracoplasm foi a primeira tentativa de Rosewater de espremer duas criaturas numa só. As regras da época não davam conta, então ela só tomou o poder e a resistência somados. O design original lembrava muito mais mutar."
+        },
+        {
+          "title": "Uma classificação travada pela estrutura fica travada até alguém consertar a estrutura",
+          "rules": "Algumas coisas não podem ser rotuladas direito por uma limitação alheia em outra parte do sistema. Querer não muda isso; o conserto está rio acima, e pode levar anos de insistência chegar até ele.",
+          "flavor": "Criaturas artefato não tinham tipo algum, e as lendárias eram todas apenas Legends. Assim, uma década de metamorfos ficou sem rótulo. Rosewater chama isso de sua meta de anos, enfim cumprida em Mirrodin."
+        },
+        {
+          "title": "Quando o plano rio acima morre, o compromisso rio abaixo vira o briefing",
+          "rules": "O trabalho já produzido não some quando some aquilo para o qual foi feito. O que era um detalhe de apoio passa a ser a especificação, e você projeta de trás para frente a partir dali.",
+          "flavor": "Morphling começou como reimpressão de Clone. Tarde no desenvolvimento, com a arte já entregue, o gestor de regras julgou a reimpressão impossível — então a carta foi projetada para casar com uma imagem feita para outra."
+        },
+        {
+          "title": "Um membro de todas as categorias torna cada uma viável",
+          "rules": "Quando um projeto tem mais subtemas do que seu tamanho suporta, nenhum alcança a densidade de que precisa. Algo que conta como pertencente a todos eleva todos de uma vez, ao custo de um único espaço.",
+          "flavor": "Lorwyn se importava com oito tipos de criatura e não podia dar cartas suficientes a cada um. Criaturas com metamorfose contam como todos, o que permitiu misturar temas e levar cada tipo à frequência que o Limitado exigia."
         }
       ]
     },
     "zh-Hans": {
-      "title": "Jumpstart 2022 | The Shapeshifting Sands",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "变形之沙",
+      "dek": "一个在拥有名字之前，已经存在了四年的生物类别。",
+      "overview": "一篇从 Alpha 讲到 Lorwyn 的变形兽小史，本是为了介绍一个 Jumpstart 补充包而写。而它实际记录下来的，是一个类别如何诞生，以及「来得太早」要付出什么代价。",
+      "takeaway": "会变形的生物从 Alpha 就有了；而这个生物类别是四年后才出现的。在那之前，每个古怪的生物都被安上自己的专属类别——Shyft 的类别就是 Shyft——这意味着它们谁也没法与谁组合。",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "东西总是先被造出来，类别才出现；而正是命名让它们变得可以组合",
+          "rules": "一族相互关联的作品，往往在有人给它贴上标签之前就已经堆积起来了。在标签存在之前，每一件都是孤立的个案，谁也没法与谁一起被继续建造——有用的那个动作是「命名」，而不是「注意到」。",
+          "flavor": "早期万智牌会把古怪生物的名字直接当作它的类别：Shyft 的类别就是 Shyft。而罗斯沃特之所以推动把它们并到一个词下面，是因为他想搭出把不同变形兽组合起来的套牌。"
+        },
+        {
+          "title": "挑那个「最开放、但仍然在描述」的名字",
+          "rules": "一个你打算持续往里装东西的类别，应当以「它可能容纳的最宽泛之物」来命名，同时仍要能告诉别人里面是什么。太具体，你很快就得再命名第二个类别了。",
+          "flavor": "罗斯沃特给出的理由是：变形兽看起来是那个最开放、同时又仍具描述性的选择。而这些牌唯一共享的性质，只是「每一张都会改变自身的某样东西」。"
+        },
+        {
+          "title": "界线是效果的某个属性，而不是效果本身",
+          "rules": "两样看上去是同一个异能的东西，可能因为一条它们并不共享的属性而分属不同归属。找到真正把它们分开的那条属性，这条规则就从「随意」变成了「说得出口」。",
+          "flavor": "从牌库里变成某样东西是蓝色的——只要你知道自己要变成什么。而如果这个变化是随机的，同一个效果如今就归红色了。界线不在「变形」，而在「知情」。"
+        },
+        {
+          "title": "一个点子可能比支撑它的系统来得更早",
+          "rules": "规则还表达不了的东西，会以一个被削弱的版本先发出去，然后等着。这不算失败：那是这个点子在占着位置，直到机器追上来——有时要等上几十年。",
+          "flavor": "Dracoplasm 是罗斯沃特第一次尝试「把两个生物挤成一个」。当时的规则应付不了，于是它只取了两者力量与防御力的合计。而它最初的设计，其实非常接近后来的异变。"
+        },
+        {
+          "title": "被结构卡住的分类，会一直卡着，直到有人去修那个结构",
+          "rules": "有些东西之所以没法被正确地贴上标签，是因为系统别处一条看似无关的限制。再想要也改变不了这一点；修法在上游，而走到那一步可能需要多年的游说。",
+          "flavor": "神器生物当时根本没有生物类别，而传奇生物的类别一律就是 Legend。于是整整十年的变形兽都没被贴上标签。罗斯沃特称之为他多年的目标，最终在《Mirrodin》兑现。"
+        },
+        {
+          "title": "当上游的计划死掉时，下游那份已经作出的承诺，就变成了新的需求书",
+          "rules": "已经被生产出来的东西，不会因为「它当初为之而做的那样东西」消失而跟着消失。原本只是配套细节的那件东西，如今成了规格；而你要从它倒推着做设计。",
+          "flavor": "Morphling 最初是 Clone 的重印。开发后期、画作都已交付之后，规则经理裁定这次重印不可行——于是这张牌只能照着一幅为另一张牌而画的图去设计。"
+        },
+        {
+          "title": "一个「属于所有类别」的成员，能让每一个类别都变得可行",
+          "rules": "当一个项目的子主题数量超出它的体量所能支撑时，没有一个子主题能达到自己所需的密度。而一样「算作属于全部子主题」的东西，能一次把它们全都抬起来——代价只是一个位置。",
+          "flavor": "《Lorwyn》关心八个生物类别，却没法给每一个都配上足够的牌。带变身兽的生物算作全部八个类别，这既让玩家能混搭主题，也把每个类别推到了限制赛所需的出现频率上。"
         }
       ]
     }

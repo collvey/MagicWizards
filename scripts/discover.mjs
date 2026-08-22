@@ -19,7 +19,8 @@
  */
 import path from 'node:path';
 import fs from 'node:fs/promises';
-import { ROOT, readJSON, writeJSON, listArticleFiles } from './lib/paths.mjs';
+import { ROOT, readJSON, writeJSON } from './lib/paths.mjs';
+import { loadArticles } from './lib/validate.mjs';
 import { listColumnUrls, parseUrl } from './lib/wotc.mjs';
 
 const argv = process.argv.slice(2);
@@ -61,8 +62,14 @@ try {
 }
 const priorityRank = new Map((priority.ids ?? []).map((id, i) => [id, i]));
 
-const done = new Set();
-for (const file of await listArticleFiles()) done.add((await readJSON(file)).id);
+// "Done" means published, not merely present: an article file that fails
+// validation is withheld from the site, so counting it as done would retire it
+// from the queue while nobody can actually read it. A stub stays pending, which
+// is what it is.
+const site = await readJSON(path.join(ROOT, 'content', 'site.json'));
+const { published, withheld } = await loadArticles(site.languages.map((l) => l.code));
+const done = new Set(published.map((p) => p.article.id));
+const unfinished = new Set(withheld.map((w) => w.id).filter(Boolean));
 
 if (!nextOnly) console.log(`reading sitemap for ${COLUMN}…`);
 const urls = await listColumnUrls(COLUMN);
@@ -84,6 +91,8 @@ const items = urls.map(({ url, lastmod }) => {
     tier,
     status: done.has(id) ? 'done' : skipped.has(id) ? 'skipped' : 'pending',
     skipReason: skipped.get(id) ?? undefined,
+    // Started but not publishable — a fetched stub waiting to be filled in.
+    started: unfinished.has(id) || undefined,
   };
 });
 
@@ -129,7 +138,11 @@ await writeJSON(path.join(ROOT, 'content', 'progress.json'), {
 });
 
 const doneCount = items.filter((i) => i.status === 'done').length;
-console.log(`total ${items.length} · done ${doneCount} · skipped ${skippedCount} · pending ${pending.length}`);
+const startedCount = pending.filter((i) => i.started).length;
+console.log(
+  `total ${items.length} · done ${doneCount} · skipped ${skippedCount} · pending ${pending.length}` +
+    (startedCount ? ` (${startedCount} started, not yet publishable)` : ''),
+);
 const tierLine = (n, label) => {
   const inTier = items.filter((i) => i.tier === n);
   const d = inTier.filter((i) => i.status === 'done').length;

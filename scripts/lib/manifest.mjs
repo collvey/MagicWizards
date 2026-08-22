@@ -9,9 +9,15 @@
  * The manifest is derived entirely from content/articles/, so it is never
  * committed: the deploy builds it, and `npm run serve` rebuilds it on every
  * request. Nothing has to remember to regenerate it.
+ *
+ * Only articles that pass validation get in. An article that is half-translated
+ * or mis-shaped is withheld rather than published: it is the one article that
+ * would render badly, so it is the one article that disappears, and everything
+ * else ships as usual.
  */
 import path from 'node:path';
-import { ROOT, readJSON, writeJSON, listArticleFiles } from './paths.mjs';
+import { ROOT, readJSON, writeJSON } from './paths.mjs';
+import { loadArticles } from './validate.mjs';
 
 export const MANIFEST_FILE = path.join(ROOT, 'content', 'manifest.json');
 
@@ -19,11 +25,10 @@ export async function buildManifest() {
   const site = await readJSON(path.join(ROOT, 'content', 'site.json'));
   const langs = site.languages.map((l) => l.code);
 
-  const files = await listArticleFiles();
+  const { published, withheld } = await loadArticles(langs);
   const entries = [];
 
-  for (const file of files) {
-    const a = await readJSON(file);
+  for (const { article: a } of published) {
     const titles = {};
     const deks = {};
     for (const lang of langs) {
@@ -87,7 +92,14 @@ export async function buildManifest() {
   await writeJSON(MANIFEST_FILE, manifest);
   const progress = await syncProgress(entries.length);
 
-  return { manifest, articleCount: entries.length, seriesCount: series.length, langCount: langs.length, progress };
+  return {
+    manifest,
+    articleCount: entries.length,
+    seriesCount: series.length,
+    langCount: langs.length,
+    progress,
+    withheld,
+  };
 }
 
 /**
