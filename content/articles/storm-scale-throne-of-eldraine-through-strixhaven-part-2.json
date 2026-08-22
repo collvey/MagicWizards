@@ -4,90 +4,237 @@
   "column": "making-magic",
   "author": "Mark Rosewater",
   "publishedAt": "2023-01-03",
-  "series": null,
-  "tags": [],
+  "series": { "id": "storm-scale-eldraine-through-strixhaven", "order": 2, "total": 2 },
+  "tags": ["storm-scale", "methodology", "mechanics"],
   "pointNoun": "point",
   "source": {
     "canonical": "https://magic.wizards.com/en/news/making-magic/storm-scale-throne-of-eldraine-through-strixhaven-part-2",
-    "locales": [
-      "en",
-      "es",
-      "fr",
-      "pt-BR",
-      "zh-Hans"
-    ]
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
   },
   "summaryVersion": 1,
   "summarizedAt": "2026-08-22T01:58:38.820Z",
   "lessons": [
-    {
-      "n": 1,
-      "color": "W"
-    }
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "U" }
   ],
   "translations": {
     "en": {
-      "title": "Storm Scale: Throne of Eldraine through Strixhaven, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Storm Scale: Eldraine through Strixhaven, Part 2",
+      "dek": "What design space actually means once you measure it honestly.",
+      "overview": "The second half of the Storm Scale ratings. The recurring theme is measurement — of design space, of hidden information, and of what a wording does to something's reception before anybody plays it.",
+      "takeaway": "When Rosewater grades design space he counts what they would print, not what could technically be printed. Most mechanics have a small vein of designs that play well, sitting inside a much larger vein that is merely possible.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Count what you'd actually make, not what's technically possible",
+          "rules": "The set of things a rule permits is always far larger than the set worth doing. Measure your remaining room by the second number, because the first one will let you believe you have space you'll never use.",
+          "flavor": "Rosewater states the accounting rule explicitly while grading boast: a smaller vein of good design space sits inside a larger vein that's potentially doable, and only the smaller one counts."
+        },
+        {
+          "title": "How you word it determines how it's received",
+          "rules": "The same thing framed as a gain and as a restriction lands completely differently, and people respond to the framing, not the mechanism. The wording is part of the design, not a description applied afterwards.",
+          "flavor": "Boast was meant as an attack trigger that costs mana. Players read it as a drawback — a cool activated ability you can't use all the time — and it landed in the bottom quarter of the ratings."
+        },
+        {
+          "title": "Two combining halves are easier to balance because you control the ratio",
+          "rules": "When something only works by pairing element A with element B, you set how much of each exists. That's a dial the designer holds and the audience doesn't, which makes the combination far more tunable than a single self-contained thing.",
+          "flavor": "R&D calls this an A/B mechanic. Magecraft is A and instants and sorceries are B, and play design's control over the volume of each component is precisely why it's easy to keep in line."
+        },
+        {
+          "title": "Each additional simultaneous condition compounds the difficulty",
+          "rules": "Requirements that must all hold at the same moment don't add up, they multiply. A payoff behind four concurrent conditions isn't four times harder to reach than one — it's mostly unreachable.",
+          "flavor": "Party asks for four different creature types on the battlefield at once. Not many competitive decks can manage that, and Rosewater names it as the likely reason for the mechanic's low rating."
+        },
+        {
+          "title": "Don't extend a label past where it's mechanically relevant",
+          "rules": "A category applied wherever it flavourfully fits accumulates words that do nothing. Once you start, there's no principled stopping point, so the discipline is to add it only where something reads it.",
+          "flavor": "R&D has debated giving every thematically cold card the snow supertype. The worry is a slippery path of extra words for minimal payoff — why stop at cold? The current rule is: only when mechanically relevant."
+        },
+        {
+          "title": "Material worth reusing is a finite shared resource",
+          "rules": "The pool of old things people are glad to see again is consumed by every project that draws on it. Spend it across the whole line rather than per product, or one success empties what everything after it needed.",
+          "flavor": "Rosewater's reason for using bonus sheets judiciously isn't that they're hard: reprints are a resource used across many different products, and they have to be doled out carefully."
+        },
+        {
+          "title": "Hidden information needs a pool large enough to hide in",
+          "rules": "Concealing something achieves nothing if the observer can guess it. The mechanism only works when enough plausible candidates are live at once, which is a constraint on the whole set, not on the one card.",
+          "flavor": "Balancing foretell for Constructed means printing enough relevant foretell cards that an opponent can't automatically deduce which one is face down — which further narrows the effects that make good foretell cards."
         }
       ]
     },
     "es": {
-      "title": "Storm Scale: Throne of Eldraine through Strixhaven, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Escala Storm: de Eldraine a Strixhaven, parte 2",
+      "dek": "Qué significa realmente «espacio de diseño» cuando lo mides con honestidad.",
+      "overview": "La segunda mitad de las puntuaciones de la Escala Storm. El tema recurrente es la medición: del espacio de diseño, de la información oculta, y de lo que una redacción le hace a la recepción de algo antes de que nadie lo juegue.",
+      "takeaway": "Cuando Rosewater califica el espacio de diseño, cuenta lo que imprimirían, no lo que técnicamente podría imprimirse. La mayoría de las mecánicas tienen una veta pequeña de diseños que juegan bien dentro de otra mucho mayor que es solo posible.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Cuenta lo que harías de verdad, no lo técnicamente posible",
+          "rules": "El conjunto de cosas que una regla permite es siempre mucho mayor que el conjunto de cosas que merece la pena hacer. Mide tu margen restante con la segunda cifra: la primera te hará creer que tienes espacio que jamás usarás.",
+          "flavor": "Rosewater enuncia la regla contable mientras califica alarde: una veta menor de buen espacio de diseño vive dentro de una veta mayor de lo potencialmente factible, y solo cuenta la menor."
+        },
+        {
+          "title": "Cómo lo redactas determina cómo se recibe",
+          "rules": "La misma cosa presentada como ganancia o como restricción aterriza de forma completamente distinta, y la gente responde al encuadre, no al mecanismo. La redacción es parte del diseño, no una descripción añadida después.",
+          "flavor": "Alarde se pensó como un disparo al atacar que cuesta maná. Los jugadores lo leyeron como un inconveniente —una habilidad activada que no puedes usar siempre— y acabó en el cuarto inferior de las puntuaciones."
+        },
+        {
+          "title": "Dos mitades que se combinan son más fáciles de equilibrar porque controlas la proporción",
+          "rules": "Cuando algo solo funciona emparejando el elemento A con el B, tú fijas cuánto hay de cada uno. Ese es un dial que sostiene el diseñador y no el público, lo que hace la combinación mucho más ajustable que una cosa autocontenida.",
+          "flavor": "I+D lo llama mecánica A/B. Magisterio es A y los instantáneos y conjuros son B, y el control del diseño de juego sobre el volumen de cada componente es justo lo que la hace fácil de mantener a raya."
+        },
+        {
+          "title": "Cada condición simultánea adicional multiplica la dificultad",
+          "rules": "Los requisitos que deben cumplirse todos a la vez no se suman, se multiplican. Un premio tras cuatro condiciones concurrentes no es cuatro veces más difícil de alcanzar que uno: es prácticamente inalcanzable.",
+          "flavor": "Grupo pide cuatro tipos de criatura distintos en el campo a la vez. Pocos mazos competitivos lo logran, y Rosewater lo señala como la razón probable de la baja puntuación de la mecánica."
+        },
+        {
+          "title": "No extiendas una etiqueta más allá de donde es mecánicamente relevante",
+          "rules": "Una categoría aplicada allí donde encaje por sabor acumula palabras que no hacen nada. Una vez que empiezas, no hay punto de parada con principios, así que la disciplina es añadirla solo donde algo la lea.",
+          "flavor": "I+D ha debatido dar el supertipo nieve a toda carta temáticamente fría. El temor es una pendiente de palabras extra por un rendimiento mínimo: ¿por qué parar en el frío? La regla actual: solo cuando sea mecánicamente relevante."
+        },
+        {
+          "title": "El material que merece reutilizarse es un recurso compartido y finito",
+          "rules": "La reserva de cosas antiguas que la gente se alegra de volver a ver la consume cada proyecto que echa mano de ella. Gástala pensando en toda la línea y no por producto, o un éxito vaciará lo que todo lo posterior necesitaba.",
+          "flavor": "La razón de Rosewater para usar hojas extra con criterio no es que sean difíciles: las reimpresiones son un recurso usado en muchos productos distintos, y hay que dosificarlas con cuidado."
+        },
+        {
+          "title": "La información oculta necesita un conjunto lo bastante grande donde esconderse",
+          "rules": "Ocultar algo no logra nada si el observador puede adivinarlo. El mecanismo solo funciona cuando hay suficientes candidatos plausibles vivos a la vez, lo cual es una restricción sobre el set entero, no sobre la carta.",
+          "flavor": "Equilibrar presagiar para Construido implica imprimir suficientes cartas con presagiar relevantes para que el oponente no deduzca automáticamente cuál está boca abajo, lo que estrecha aún más los efectos idóneos."
         }
       ]
     },
     "fr": {
-      "title": "Storm Scale: Throne of Eldraine through Strixhaven, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Échelle Storm : d'Eldraine à Strixhaven, partie 2",
+      "dek": "Ce que signifie vraiment « espace de conception » quand on le mesure honnêtement.",
+      "overview": "La seconde moitié des notes de l'Échelle Storm. Le thème récurrent est la mesure : de l'espace de conception, de l'information cachée, et de ce qu'une formulation fait à la réception d'une chose avant que quiconque n'y joue.",
+      "takeaway": "Quand Rosewater note l'espace de conception, il compte ce qu'ils imprimeraient, non ce qui pourrait techniquement être imprimé. La plupart des mécaniques ont un petit filon de designs qui se jouent bien, logé dans un filon bien plus large du seulement possible.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Comptez ce que vous feriez vraiment, pas ce qui est techniquement possible",
+          "rules": "L'ensemble de ce qu'une règle autorise est toujours bien plus vaste que l'ensemble de ce qui vaut la peine. Mesurez votre marge avec le second nombre : le premier vous fera croire à un espace que vous n'utiliserez jamais.",
+          "flavor": "Rosewater énonce la règle comptable en notant la fanfaronnade : un petit filon de bon espace de conception loge dans un filon plus large du potentiellement faisable, et seul le petit compte."
+        },
+        {
+          "title": "La formulation détermine la réception",
+          "rules": "La même chose présentée comme un gain ou comme une restriction n'atterrit pas du tout pareil, et les gens réagissent au cadrage, non au mécanisme. La formulation fait partie du design, ce n'est pas une description ajoutée après.",
+          "flavor": "La fanfaronnade se voulait un déclencheur à l'attaque coûtant du mana. Les joueurs y ont lu un inconvénient — une belle capacité activée qu'on ne peut pas toujours utiliser — et elle a fini dans le dernier quart des notes."
+        },
+        {
+          "title": "Deux moitiés qui se combinent s'équilibrent mieux, car vous tenez la proportion",
+          "rules": "Quand une chose ne marche qu'en appariant l'élément A avec le B, c'est vous qui fixez la quantité de chacun. C'est une molette que le concepteur tient et que le public n'a pas, ce qui rend l'ensemble bien plus réglable.",
+          "flavor": "La R&D parle de mécanique A/B. La magie savante est A, les éphémères et rituels sont B, et c'est justement le contrôle du volume de chaque composant qui la rend facile à tenir."
+        },
+        {
+          "title": "Chaque condition simultanée supplémentaire multiplie la difficulté",
+          "rules": "Des exigences qui doivent toutes tenir au même instant ne s'additionnent pas, elles se multiplient. Un gain derrière quatre conditions concurrentes n'est pas quatre fois plus dur à atteindre qu'une seule : il est quasi inatteignable.",
+          "flavor": "La compagnie réclame quatre types de créature différents en jeu en même temps. Peu de decks compétitifs y parviennent, et Rosewater y voit la raison probable de la note basse de la mécanique."
+        },
+        {
+          "title": "N'étendez pas une étiquette au-delà de sa pertinence mécanique",
+          "rules": "Une catégorie appliquée partout où elle colle à l'ambiance accumule des mots qui ne font rien. Une fois lancé, aucun point d'arrêt de principe : la discipline est de ne l'ajouter que là où quelque chose la lit.",
+          "flavor": "La R&D a débattu de donner le supertype neige à toute carte thématiquement froide. La crainte : une pente de mots en plus pour un rendement minime — pourquoi s'arrêter au froid ? Règle actuelle : seulement si c'est mécaniquement pertinent."
+        },
+        {
+          "title": "Ce qui mérite d'être réutilisé est une ressource partagée et finie",
+          "rules": "Le vivier d'anciennes choses qu'on est content de revoir est consommé par chaque projet qui y puise. Dépensez-le à l'échelle de toute la gamme et non par produit, sinon un succès videra ce dont la suite avait besoin.",
+          "flavor": "Si Rosewater plaide pour un usage parcimonieux des feuilles bonus, ce n'est pas qu'elles soient difficiles : les rééditions sont une ressource utilisée dans bien des produits, à distribuer avec soin."
+        },
+        {
+          "title": "L'information cachée exige un ensemble assez grand pour s'y cacher",
+          "rules": "Dissimuler ne sert à rien si l'observateur peut deviner. Le mécanisme ne marche que si assez de candidats plausibles sont actifs en même temps, ce qui contraint le set entier, non la seule carte.",
+          "flavor": "Équilibrer la prédiction pour le Construit suppose d'imprimer assez de cartes à prédiction pertinentes pour que l'adversaire ne déduise pas d'emblée laquelle est face cachée — ce qui restreint encore les effets adaptés."
         }
       ]
     },
     "pt-BR": {
-      "title": "Storm Scale: Throne of Eldraine through Strixhaven, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "Escala Storm: de Eldraine a Strixhaven, parte 2",
+      "dek": "O que «espaço de design» realmente significa quando você o mede com honestidade.",
+      "overview": "A segunda metade das notas da Escala Storm. O tema recorrente é medição: do espaço de design, da informação oculta, e do que uma redação faz à recepção de algo antes de alguém jogá-lo.",
+      "takeaway": "Quando Rosewater avalia espaço de design, ele conta o que imprimiriam, não o que tecnicamente poderia ser impresso. A maioria das mecânicas tem um veio pequeno de designs que jogam bem, dentro de um veio muito maior do que é apenas possível.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Conte o que você faria de fato, não o tecnicamente possível",
+          "rules": "O conjunto do que uma regra permite é sempre muito maior que o conjunto do que vale a pena fazer. Meça sua margem pelo segundo número: o primeiro fará você acreditar num espaço que jamais vai usar.",
+          "flavor": "Rosewater enuncia a regra de contagem ao avaliar bravata: um veio menor de bom espaço de design mora dentro de um veio maior do potencialmente factível, e só o menor conta."
+        },
+        {
+          "title": "Como você redige determina como é recebido",
+          "rules": "A mesma coisa enquadrada como ganho ou como restrição chega de forma completamente diferente, e as pessoas respondem ao enquadramento, não ao mecanismo. A redação faz parte do design, não é descrição posterior.",
+          "flavor": "Bravata foi pensada como um gatilho de ataque que custa mana. Os jogadores leram como desvantagem — uma habilidade ativada legal que você não pode usar sempre — e ela caiu no quarto inferior das notas."
+        },
+        {
+          "title": "Duas metades que se combinam são mais fáceis de balancear porque você controla a proporção",
+          "rules": "Quando algo só funciona pareando o elemento A com o B, é você que define quanto há de cada. Esse é um botão que o designer segura e o público não, o que torna a combinação muito mais ajustável que uma coisa autocontida.",
+          "flavor": "A P&D chama isso de mecânica A/B. Magisterialidade é A, e instantâneas e feitiçarias são B; e é justamente o controle do play design sobre o volume de cada componente que a torna fácil de manter na linha."
+        },
+        {
+          "title": "Cada condição simultânea a mais multiplica a dificuldade",
+          "rules": "Exigências que precisam valer todas ao mesmo tempo não se somam, se multiplicam. Um prêmio atrás de quatro condições concorrentes não é quatro vezes mais difícil que uma: é praticamente inalcançável.",
+          "flavor": "Grupo pede quatro tipos de criatura diferentes em campo ao mesmo tempo. Poucos decks competitivos dão conta, e Rosewater aponta isso como a razão provável da nota baixa da mecânica."
+        },
+        {
+          "title": "Não estenda um rótulo além de onde ele é mecanicamente relevante",
+          "rules": "Uma categoria aplicada onde quer que combine tematicamente acumula palavras que não fazem nada. Uma vez começado, não há ponto de parada com princípio; a disciplina é acrescentá-la só onde algo a lê.",
+          "flavor": "A P&D debateu dar o supertipo neve a toda carta tematicamente fria. O receio é uma ladeira de palavras extras por retorno mínimo — por que parar no frio? A regra atual: só quando for mecanicamente relevante."
+        },
+        {
+          "title": "Material que vale reaproveitar é um recurso compartilhado e finito",
+          "rules": "O estoque de coisas antigas que as pessoas gostam de rever é consumido por todo projeto que recorre a ele. Gaste-o pensando na linha inteira, e não por produto, ou um sucesso esvazia o que tudo depois dele precisava.",
+          "flavor": "A razão de Rosewater para usar folhas bônus com parcimônia não é que sejam difíceis: reimpressões são um recurso usado em muitos produtos diferentes, e precisam ser distribuídas com cuidado."
+        },
+        {
+          "title": "Informação oculta precisa de um conjunto grande o bastante para se esconder",
+          "rules": "Esconder algo não alcança nada se o observador puder adivinhar. O mecanismo só funciona quando há candidatos plausíveis suficientes ativos ao mesmo tempo, o que é restrição sobre o set inteiro, não sobre a carta.",
+          "flavor": "Balancear predizer para o Construído significa imprimir cartas com predizer relevantes o bastante para que o oponente não deduza automaticamente qual está virada — o que estreita ainda mais os efeitos adequados."
         }
       ]
     },
     "zh-Hans": {
-      "title": "Storm Scale: Throne of Eldraine through Strixhaven, Part 2",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "风暴指数：从艾卓到史迦兰，第二部分",
+      "dek": "当你诚实地去量它时，「设计空间」到底指的是什么。",
+      "overview": "风暴指数评分的后半。反复出现的主题是「测量」：测量设计空间、测量隐藏信息，以及测量一段措辞在任何人上手之前，就已经对这样东西的接受度做了什么。",
+      "takeaway": "罗斯沃特在给设计空间打分时，数的是「他们会印出来的东西」，而不是「技术上可以被印出来的东西」。大多数机制都有一条「打起来不错」的窄矿脉，嵌在一条大得多的、仅仅是「做得出来」的矿脉里。",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "去数你真会做的那些，而不是技术上做得出来的那些",
+          "rules": "一条规则允许的东西的集合，永远远大于「值得去做」的那个集合。用第二个数字去衡量你还剩多少余地——因为第一个数字会让你相信自己拥有一片永远也不会去用的空间。",
+          "flavor": "罗斯沃特在给夸耀评分时，把这条记账规则明说了出来：一条更小的「好设计空间」矿脉，嵌在一条更大的「潜在可行」矿脉之内；而只有更小的那条算数。"
+        },
+        {
+          "title": "你怎么写，决定了它怎么被接收",
+          "rules": "同一样东西，被表述成收益还是被表述成限制，落地效果完全不同；而人们回应的是那个框架，不是那个机制本身。措辞是设计的一部分，不是事后贴上去的说明。",
+          "flavor": "夸耀本意是一个「需要花法术力的攻击触发」。玩家读到的却是一个缺点——一个你不能随时使用的、还挺酷的起动式异能——于是它落进了评分的最后四分之一。"
+        },
+        {
+          "title": "两半拼合的东西更好平衡，因为比例握在你手里",
+          "rules": "当某样东西只有把元素 A 与元素 B 配起来才成立时，各有多少是由你来定的。这是一个设计者握着、而受众没有的旋钮；它让这个组合远比一件自给自足的东西更好调。",
+          "flavor": "研发部把这叫作 A/B 机制。法术巧技是 A，瞬间与法术是 B；而对局设计对「各自数量」的控制权，正是它容易被管住的原因。"
+        },
+        {
+          "title": "每多加一条「必须同时成立」的条件，难度就是乘上去的",
+          "rules": "那些必须在同一时刻全部成立的要求，不是相加，而是相乘。一个藏在四条并行条件之后的回报，并不是「比一条难四倍」——它基本上是够不着的。",
+          "flavor": "队伍要求战场上同时有四个不同的生物类别。没有多少竞技套牌做得到；而罗斯沃特点名这一点，正是这个机制评分偏低的可能原因。"
+        },
+        {
+          "title": "不要把一个标签，延伸到它在机制上不再相关的地方",
+          "rules": "一个「只要风味贴合就往上贴」的类别，会不断累积出不起任何作用的字。而一旦开了这个头，就没有任何有原则的停手点；于是纪律就变成：只在有东西会去读它的地方，才加上它。",
+          "flavor": "研发部争论过：是否该给每一张主题上「冷」的牌都加上冰雪超类别。顾虑在于这会滑向「为极小的回报堆一大堆多余的字」——凭什么停在冷？现行规则是：只在机制上相关时才加。"
+        },
+        {
+          "title": "值得重复利用的素材，是一种有限的共享资源",
+          "rules": "那批「人们乐于再见到」的旧东西，会被每一个动用它的项目消耗掉。要按整条产品线、而不是按单个产品去花它；否则一次成功，会把它之后所有东西所需要的那份掏空。",
+          "flavor": "罗斯沃特主张谨慎使用附赠页，理由并不是它们难做：重印是一种被许多不同产品共同动用的资源，必须小心地一点点分配。"
+        },
+        {
+          "title": "隐藏信息需要一个大到足以藏身的池子",
+          "rules": "如果观察者能猜出来，那么把某样东西藏起来就毫无意义。这个机制只有在「同时有足够多看似可能的候选项处于活跃状态」时才成立——而这是一条对整个系列、而不是对单张牌的约束。",
+          "flavor": "为构筑赛平衡预示，意味着必须印出足够多张有意义的预示牌，好让对手无法自动推断出面朝下的那张是什么——而这又进一步收窄了「适合做成预示」的效应范围。"
         }
       ]
     }
