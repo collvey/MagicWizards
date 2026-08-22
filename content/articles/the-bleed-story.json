@@ -5,89 +5,210 @@
   "author": "Mark Rosewater",
   "publishedAt": "2011-12-06",
   "series": null,
-  "tags": [],
+  "tags": ["color-pie", "philosophy", "bleeding"],
   "pointNoun": "point",
   "source": {
     "canonical": "https://magic.wizards.com/en/news/making-magic/the-bleed-story",
-    "locales": [
-      "en",
-      "es",
-      "fr",
-      "pt-BR",
-      "zh-Hans"
-    ]
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
   },
   "summaryVersion": 1,
   "summarizedAt": "2026-08-21T23:34:27.452Z",
   "lessons": [
-    {
-      "n": 1,
-      "color": "W"
-    }
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "W" }
   ],
   "translations": {
     "en": {
       "title": "The Bleed Story",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "dek": "Why R&D lets colours do things they shouldn't — and the three circles that decide how far.",
+      "overview": "Rosewater's fullest statement of how the colour pie actually works: an outer circle of fixed philosophy, an inner circle of current mechanical implementation that moves around inside it, and a middle band of things that still feel right. Written to answer the mail about Phyrexian mana.",
+      "takeaway": "The line that must not be crossed is the outer circle, not the inner one. Everything between them is available — but only to a set that needs it, and never at the cost of a colour's weaknesses.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "Philosophy is fixed; the implementation moves inside it",
+          "rules": "Three circles. The largest is colour philosophy, which doesn't change. The smallest is what each colour can currently do mechanically, and it can sit anywhere inside the largest. Between them lies everything that still feels related.",
+          "flavor": "The core is what the game does today. The mantle is what sits outside the norm but inside the accepted feel — where you bleed to strengthen a theme. The crust is philosophically legal and feels wrong; Planar Chaos is the only set that really lived there."
+        },
+        {
+          "title": "There is no final resting place for the current answer",
+          "rules": "The present assignment isn't a draft converging on a correct version that will one day be finished. Treating it as provisional is what lets it keep moving, and a bleed is often the first experiment in a shift you're considering making.",
+          "flavor": "R&D's own language encouraged the belief that the pie was being perfected toward a final form. Fifteen years in, Rosewater states flatly that there is no final resting state — the game, like a shark, can never rest."
+        },
+        {
+          "title": "Break the rule for a purpose, never for the shock",
+          "rules": "A rule broken for effect spends the foundation everything else stands on, and the effect wears off with repetition. Ask what the break does for this specific set — \"it seemed cool\" is a reason to save it, not to print it.",
+          "flavor": "Rosewater learned this doing stand-up. Shock gets a laugh you didn't earn and builds no comedic equity, and once it stops shocking you have no way left to make the audience laugh."
+        },
+        {
+          "title": "Weaknesses are the point, so don't bleed them away",
+          "rules": "The wheel exists to create vulnerabilities, which is what makes anyone play a second colour. Players will always push to erase their own weaknesses, because solving the puzzle is their job — and refusing them is yours.",
+          "flavor": "Red would love to answer enchantments, and that inability is crucial to the game. Historically the worst bleeds are the ones that filled a weakness in. \"You all don't want to be given the fish. You want to catch the fish.\""
+        },
+        {
+          "title": "Colourless cards are a permanent structural bleed",
+          "rules": "There are two different bleeds: what a colour is defined as able to do, and what a mono-colour deck can actually reach. Artifacts never touch the first and constantly affect the second, in every set ever printed.",
+          "flavor": "Notice how hard pinpoint enchantment removal is to find on an artifact. That's deliberate — it would undercut red's weakness. And where artifacts do have an ability, they're kept weaker at it than the colours that own it."
+        },
+        {
+          "title": "Hold a deliberate transgression to the standard of what it resembles",
+          "rules": "When a mechanic is designed to cross a line, anchor it to the nearest thing that already crosses that line legitimately. That gives the bleed a budget instead of leaving it to taste.",
+          "flavor": "Phyrexian mana splices a coloured spell with an artifact one, so every Phyrexian permanent is an artifact and the cards were held to artifact standards. Rosewater wouldn't have printed a handful of them, and calls that a tiny price for a group process that works."
         }
       ]
     },
     "es": {
-      "title": "The Bleed Story",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "La historia del sangrado",
+      "dek": "Por qué I+D deja que los colores hagan cosas que no deberían, y los tres círculos que deciden hasta dónde.",
+      "overview": "La exposición más completa de Rosewater sobre cómo funciona de verdad el pastel de color: un círculo exterior de filosofía fija, un círculo interior con la implementación mecánica actual que se mueve dentro de él, y una banda intermedia de cosas que aún se sienten bien. Escrito para responder al correo sobre el maná fireximita.",
+      "takeaway": "La línea que no debe cruzarse es el círculo exterior, no el interior. Todo lo que hay entre ambos está disponible, pero solo para un set que lo necesite, y nunca a costa de las debilidades de un color.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "La filosofía es fija; la implementación se mueve dentro de ella",
+          "rules": "Tres círculos. El mayor es la filosofía de color, que no cambia. El menor es lo que cada color puede hacer mecánicamente hoy, y puede situarse en cualquier punto del mayor. Entre ambos queda todo lo que aún se siente emparentado.",
+          "flavor": "El núcleo es lo que el juego hace hoy. El manto es lo que queda fuera de la norma pero dentro de lo que se acepta por sensación: ahí se sangra para reforzar un tema. La corteza es legal filosóficamente y se siente mal; Planar Chaos es el único set que vivió realmente allí."
+        },
+        {
+          "title": "No hay lugar de reposo final para la respuesta actual",
+          "rules": "La asignación presente no es un borrador que converge hacia una versión correcta que algún día quedará terminada. Tratarla como provisional es lo que le permite seguir moviéndose, y un sangrado suele ser el primer experimento de un desplazamiento que estás considerando.",
+          "flavor": "El propio lenguaje de I+D alimentó la creencia de que el pastel se estaba perfeccionando hacia una forma final. Quince años dentro, Rosewater afirma sin rodeos que no existe ese reposo final: el juego, como un tiburón, no puede detenerse."
+        },
+        {
+          "title": "Rompe la norma con un propósito, jamás por el impacto",
+          "rules": "Una norma rota por efecto gasta los cimientos sobre los que se apoya todo lo demás, y el efecto se desgasta con la repetición. Pregunta qué hace la ruptura por este set concreto: «parecía guay» es motivo para guardarla, no para imprimirla.",
+          "flavor": "Rosewater lo aprendió haciendo monólogos. El impacto consigue una risa que no te ganaste y no acumula capital cómico; y cuando deja de impactar, ya no te queda manera de hacer reír al público."
+        },
+        {
+          "title": "Las debilidades son el objetivo: no las sangres",
+          "rules": "La rueda existe para crear vulnerabilidades, que es lo que hace que alguien juegue un segundo color. Los jugadores siempre empujarán por borrar las suyas, porque resolver el rompecabezas es su trabajo; y negárselo es el tuyo.",
+          "flavor": "Al rojo le encantaría poder responder a los encantamientos, y esa incapacidad es crucial para el juego. Históricamente, los peores sangrados son los que rellenaron una debilidad. «No queréis que os den el pez. Queréis pescarlo»."
+        },
+        {
+          "title": "Las cartas incoloras son un sangrado estructural permanente",
+          "rules": "Hay dos sangrados distintos: lo que se define que un color puede hacer, y lo que un mazo monocolor puede alcanzar de hecho. Los artefactos nunca tocan el primero y afectan constantemente al segundo, en todos los sets jamás impresos.",
+          "flavor": "Fíjate en lo difícil que es encontrar remoción puntual de encantamientos en un artefacto. Es deliberado: socavaría la debilidad del rojo. Y donde los artefactos sí tienen una habilidad, se les mantiene peores en ella que a los colores que la poseen."
+        },
+        {
+          "title": "Mide una transgresión deliberada por el estándar de aquello a lo que se parece",
+          "rules": "Cuando una mecánica está diseñada para cruzar una línea, ánclala a lo más cercano que ya la cruza legítimamente. Eso le da al sangrado un presupuesto en vez de dejarlo al gusto.",
+          "flavor": "El maná fireximita empalma un conjuro de color con uno de artefacto, así que todo permanente fireximita es un artefacto y las cartas se midieron con el rasero de los artefactos. Rosewater no habría impreso un puñado de ellas, y lo llama un precio ínfimo por un proceso de grupo que funciona."
         }
       ]
     },
     "fr": {
-      "title": "The Bleed Story",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "L'histoire du débordement",
+      "dek": "Pourquoi la R&D laisse les couleurs faire ce qu'elles ne devraient pas — et les trois cercles qui décident jusqu'où.",
+      "overview": "L'exposé le plus complet de Rosewater sur le fonctionnement réel de la roue des couleurs : un cercle extérieur de philosophie fixe, un cercle intérieur d'implémentation mécanique actuelle qui se déplace à l'intérieur, et une bande intermédiaire de choses qui sonnent encore juste. Écrit pour répondre au courrier sur le mana phyrexian.",
+      "takeaway": "La ligne à ne pas franchir est le cercle extérieur, pas l'intérieur. Tout ce qui se trouve entre les deux est disponible — mais seulement pour un set qui en a besoin, et jamais au prix des faiblesses d'une couleur.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "La philosophie est fixe ; l'implémentation se déplace dedans",
+          "rules": "Trois cercles. Le plus grand est la philosophie des couleurs, qui ne change pas. Le plus petit est ce que chaque couleur peut faire mécaniquement aujourd'hui, et il peut se placer n'importe où dans le grand. Entre les deux se trouve tout ce qui semble encore apparenté.",
+          "flavor": "Le noyau, c'est ce que le jeu fait aujourd'hui. Le manteau, ce qui sort de la norme mais reste dans le ressenti acceptable : c'est là qu'on déborde pour renforcer un thème. La croûte est philosophiquement licite et sonne faux ; Planar Chaos est le seul set à y avoir vraiment vécu."
+        },
+        {
+          "title": "Il n'y a pas de position de repos définitive pour la réponse actuelle",
+          "rules": "L'attribution présente n'est pas un brouillon convergeant vers une version correcte qui serait un jour achevée. La tenir pour provisoire est ce qui lui permet de continuer à bouger, et un débordement est souvent la première expérience d'un déplacement envisagé.",
+          "flavor": "Le langage même de la R&D a nourri l'idée que la roue se perfectionnait vers une forme finale. Quinze ans après, Rosewater affirme sans détour qu'il n'existe pas d'état de repos : le jeu, comme un requin, ne peut jamais s'arrêter."
+        },
+        {
+          "title": "Brisez la règle pour une raison, jamais pour le choc",
+          "rules": "Une règle brisée pour l'effet dépense les fondations sur lesquelles tout le reste repose, et l'effet s'use à la répétition. Demandez ce que la brèche apporte à ce set précis : « ça avait l'air cool » est une raison de la garder, pas de l'imprimer.",
+          "flavor": "Rosewater l'a appris en faisant du stand-up. Le choc arrache un rire que vous n'avez pas mérité et ne bâtit aucun capital comique ; et quand il cesse de choquer, il ne vous reste plus rien pour faire rire la salle."
+        },
+        {
+          "title": "Les faiblesses sont le but : ne les faites pas déborder",
+          "rules": "La roue existe pour créer des vulnérabilités, c'est ce qui pousse à jouer une seconde couleur. Les joueurs chercheront toujours à effacer les leurs, parce que résoudre le casse-tête est leur travail — et le leur refuser est le vôtre.",
+          "flavor": "Le rouge adorerait pouvoir répondre aux enchantements, et cette incapacité est cruciale. Historiquement, les pires débordements sont ceux qui ont comblé une faiblesse. « Vous ne voulez pas qu'on vous donne le poisson. Vous voulez le pêcher. »"
+        },
+        {
+          "title": "Les cartes incolores sont un débordement structurel permanent",
+          "rules": "Il y a deux débordements distincts : ce qu'une couleur est définie comme pouvant faire, et ce qu'un deck monocolore peut réellement atteindre. Les artefacts ne touchent jamais au premier et affectent constamment le second, dans chaque set jamais imprimé.",
+          "flavor": "Voyez comme il est difficile de trouver du retrait ciblé d'enchantement sur un artefact. C'est délibéré : cela saperait la faiblesse du rouge. Et là où les artefacts ont une capacité, on les garde moins bons que les couleurs qui la possèdent."
+        },
+        {
+          "title": "Jugez une transgression délibérée à l'aune de ce qu'elle imite",
+          "rules": "Quand une mécanique est conçue pour franchir une ligne, arrimez-la à ce qui, tout près, la franchit déjà légitimement. Cela donne au débordement un budget au lieu de le laisser au goût.",
+          "flavor": "Le mana phyrexian épisse un sort coloré et un sort d'artefact : tout permanent phyrexian est donc un artefact, et les cartes ont été tenues aux standards des artefacts. Rosewater n'en aurait pas imprimé une poignée, et appelle cela un prix minuscule pour un processus collectif qui marche."
         }
       ]
     },
     "pt-BR": {
-      "title": "The Bleed Story",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "A história do sangramento",
+      "dek": "Por que a P&D deixa as cores fazerem o que não deveriam — e os três círculos que decidem até onde.",
+      "overview": "A exposição mais completa de Rosewater sobre como a pizza de cores realmente funciona: um círculo externo de filosofia fixa, um círculo interno com a implementação mecânica atual que se move dentro dele, e uma faixa intermediária de coisas que ainda soam certas. Escrito para responder às cartas sobre o mana fireximita.",
+      "takeaway": "A linha que não se cruza é o círculo externo, não o interno. Tudo entre os dois está disponível — mas só para um set que precise, e nunca ao custo das fraquezas de uma cor.",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "A filosofia é fixa; a implementação se move dentro dela",
+          "rules": "Três círculos. O maior é a filosofia das cores, que não muda. O menor é o que cada cor pode fazer mecanicamente hoje, e pode ficar em qualquer ponto do maior. Entre os dois está tudo que ainda parece aparentado.",
+          "flavor": "O núcleo é o que o jogo faz hoje. O manto é o que fica fora da norma mas dentro do que se aceita pela sensação: é ali que se sangra para reforçar um tema. A crosta é filosoficamente lícita e soa errada; Planar Chaos é o único set que de fato morou lá."
+        },
+        {
+          "title": "Não existe posição final de repouso para a resposta atual",
+          "rules": "A atribuição presente não é um rascunho convergindo para uma versão correta que um dia ficará pronta. Tratá-la como provisória é o que permite que siga se movendo, e um sangramento costuma ser o primeiro experimento de uma mudança que se cogita.",
+          "flavor": "A própria linguagem da P&D alimentou a crença de que a pizza estava sendo aperfeiçoada rumo a uma forma final. Quinze anos depois, Rosewater afirma sem rodeios que não há estado de repouso: o jogo, como um tubarão, nunca pode parar."
+        },
+        {
+          "title": "Quebre a regra por um propósito, nunca pelo choque",
+          "rules": "Uma regra quebrada pelo efeito gasta a fundação sobre a qual tudo mais se apoia, e o efeito se desgasta com a repetição. Pergunte o que a quebra faz por este set específico: «pareceu legal» é motivo para guardar, não para imprimir.",
+          "flavor": "Rosewater aprendeu isso fazendo stand-up. O choque arranca uma risada que você não mereceu e não constrói capital cômico; e quando deixa de chocar, não sobra jeito nenhum de fazer a plateia rir."
+        },
+        {
+          "title": "As fraquezas são o ponto, então não as sangre",
+          "rules": "A roda existe para criar vulnerabilidades, que é o que faz alguém jogar uma segunda cor. Os jogadores sempre vão empurrar para apagar as suas, porque resolver o quebra-cabeça é o trabalho deles — e negar isso é o seu.",
+          "flavor": "O vermelho adoraria responder a encantamentos, e essa incapacidade é crucial. Historicamente, os piores sangramentos foram os que preencheram uma fraqueza. «Vocês não querem que lhes deem o peixe. Querem pescá-lo.»"
+        },
+        {
+          "title": "Cartas incolores são um sangramento estrutural permanente",
+          "rules": "Há dois sangramentos distintos: o que se define que uma cor pode fazer, e o que um deck monocolorido consegue de fato alcançar. Artefatos nunca tocam no primeiro e afetam o segundo o tempo todo, em todo set já impresso.",
+          "flavor": "Repare como é difícil achar remoção pontual de encantamento num artefato. É de propósito: minaria a fraqueza do vermelho. E onde artefatos têm uma habilidade, eles são mantidos piores nela do que as cores que a possuem."
+        },
+        {
+          "title": "Meça uma transgressão deliberada pelo padrão daquilo que ela imita",
+          "rules": "Quando uma mecânica é feita para cruzar uma linha, ancore-a ao que, ali perto, já a cruza legitimamente. Isso dá ao sangramento um orçamento em vez de deixá-lo ao gosto.",
+          "flavor": "O mana fireximita emenda uma mágica colorida com uma de artefato, então todo permanente fireximita é um artefato e as cartas foram medidas pelo padrão dos artefatos. Rosewater não teria impresso um punhado delas, e chama isso de preço ínfimo por um processo coletivo que funciona."
         }
       ]
     },
     "zh-Hans": {
-      "title": "The Bleed Story",
-      "dek": "",
-      "overview": "",
-      "takeaway": "",
+      "title": "「渗色」的来龙去脉",
+      "dek": "研发部为什么允许颜色做它们不该做的事——以及决定「能走多远」的那三个圈。",
+      "overview": "罗斯沃特关于「色饼究竟如何运作」最完整的一次陈述：最外面是固定不变的颜色哲学，最里面是当前的机制实现（它会在外圈内部移动），而夹在中间的，是那些依然「感觉对」的地带。写作缘由，是读者关于非瑞克西亚法术力的大量来信。",
+      "takeaway": "不可跨越的那条线是外圈，不是内圈。两者之间的一切都可以动用——但只对真正需要它的系列开放，而且永远不能以牺牲某个颜色的弱点为代价。",
       "lessons": [
         {
-          "title": "",
-          "rules": "",
-          "flavor": ""
+          "title": "哲学是固定的；实现则在它内部移动",
+          "rules": "三个圈。最大的是颜色哲学，它不变。最小的是每个颜色当下在机制上能做什么，而它可以落在大圈里的任何位置。夹在两者之间的，是所有「仍然让人觉得沾亲带故」的东西。",
+          "flavor": "内核，是这个游戏今天在做的事。地幔，是越出常规却仍在可接受的感觉之内的地带——需要强化某个主题时，就往那里渗。地壳则是哲学上合法、感觉上不对；Planar Chaos 是唯一真正在那里住过的系列。"
+        },
+        {
+          "title": "当前答案没有一个「最终归位」",
+          "rules": "眼下的归属并不是一份正在收敛、终有一天会定稿的草案。把它当作临时的，才使它得以继续移动；而一次渗色，往往正是你正在考虑的某次迁移的第一场实验。",
+          "flavor": "研发部自己的措辞助长了「色饼正被打磨向某个最终形态」的想法。入行十五年后，罗斯沃特直截了当地说：不存在这样的终点——这个游戏像鲨鱼，永远不能停。"
+        },
+        {
+          "title": "为目的而破例，绝不为震撼而破例",
+          "rules": "为效果而打破的规则，花掉的是其余一切赖以站立的地基；而这效果会在重复中磨光。要问的是：这次破例为「这个具体的系列」做了什么。「它看起来很酷」是把它留起来的理由，不是把它印出去的理由。",
+          "flavor": "罗斯沃特是在说单口相声时学到这一课的。震撼换来的笑声不是你挣来的，攒不下任何喜剧本钱；而等它不再令人震撼时，你就再也没有别的办法逗观众笑了。"
+        },
+        {
+          "title": "弱点本身就是目的，所以别把它渗掉",
+          "rules": "色轮的存在正是为了制造脆弱，而这才是有人愿意去打第二个颜色的原因。玩家永远会推着去抹掉自己的弱点，因为解开这道谜题是他们的活儿；而不让他们解开，是你的活儿。",
+          "flavor": "红色当然很想能处理结界，而这份无能对整个游戏至关重要。历史上最糟糕的几次渗色，恰恰都是把某个弱点填平的那几次。「你们不想要别人递给你一条鱼。你们想自己把鱼钓上来。」"
+        },
+        {
+          "title": "无色牌是一种永久性的结构渗色",
+          "rules": "渗色其实有两种：一种关于「这个颜色被定义为能做什么」，另一种关于「一副单色套牌实际上够得着什么」。神器从不触碰前者，却在有史以来的每一个系列里持续影响着后者。",
+          "flavor": "留意一下：在神器上有多难找到指向性的结界解除。这是刻意的——那会削掉红色的弱点。而在神器确实拥有某项能力的地方，它们被刻意做得不如真正拥有该能力的颜色。"
+        },
+        {
+          "title": "用「它最像什么」的标准，去衡量一次刻意的越界",
+          "rules": "当一个机制就是为了越线而设计时，把它锚定到附近那个「本来就合法越线」的东西上。这样，这次渗色就有了预算，而不是全凭口味。",
+          "flavor": "非瑞克西亚法术力把有色咒语与神器咒语接在一起，所以每一个非瑞克西亚永久物都是神器，这些牌也按神器的标准来衡量。其中有几张罗斯沃特本不会印；而他把这称作「为一套行之有效的集体流程所付的极小代价」。"
         }
       ]
     }

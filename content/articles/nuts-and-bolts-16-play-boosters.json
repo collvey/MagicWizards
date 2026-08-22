@@ -1,0 +1,216 @@
+{
+  "id": "nuts-and-bolts-16-play-boosters",
+  "slug": "nuts-and-bolts-16-play-boosters",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2024-03-04",
+  "series": { "id": "nuts-and-bolts", "order": 16, "total": 18 },
+  "tags": ["nuts-and-bolts", "set-structure", "limited"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/nuts-and-bolts-16-play-boosters",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-21T23:51:23.199Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Nuts & Bolts #16: Play Boosters",
+      "dek": "What changed when Play Boosters replaced Draft Boosters — and everything downstream of it.",
+      "overview": "The sixteenth Nuts & Bolts walks through the default set skeleton rebuilt for Play Boosters. Two facts drive the whole article: twenty cards moved from common to uncommon, and a booster now carries a variable one to four rares. Everything else follows from those.",
+      "takeaway": "A change in how cards are packaged reached all the way down into how big the creatures are. This is the clearest demonstration in the archive that set structure sits downstream of product structure.",
+      "lessons": [
+        {
+          "title": "A packaging change is a design change",
+          "rules": "Moving cards between rarities and letting the rare count vary per pack doesn't merely alter what people open. It changes average power, creature sizes, the keyword mix, and which effects can exist at which rarity.",
+          "flavor": "Play Boosters keep the same 261 unique cards, but twenty shift from common to uncommon — 101 down to 81 — and a pack carries one to four rares or mythics, averaging just over 1.4. Everything else in the article is downstream of those two facts."
+        },
+        {
+          "title": "Fewer slots means no room for the marginal card",
+          "rules": "When the count drops, cards that only work sometimes stop being affordable. A common a sealed deck might not be able to play is a slot you no longer have to spare.",
+          "flavor": "R&D's term is the unplayable common — too narrow to make the cut in a given deck. With twenty fewer common slots, the standard becomes that most monocolour creatures in a colour should at least be playable in that colour's deck."
+        },
+        {
+          "title": "More bombs per pack means every colour needs answers at common",
+          "rules": "If a booster can contain up to four rares, the common slots have to change to cope. Each colour needs cheap answers to large threats, and the format's own threats grow to keep pace.",
+          "flavor": "Red gained a dedicated reach slot, because more rares means more fliers. Blue's counterspells lean toward stopping big spells, and its traditional lockdown Aura was traded for one that overwrites the creature outright."
+        },
+        {
+          "title": "When the frame changes, the creatures grow",
+          "rules": "Average creature size isn't a matter of taste; it tracks what the format has to survive. Raise the density of bombs and the baseline body has to rise along with it.",
+          "flavor": "White's default average power went from 2.95 to 3.28, blue's from 3.39 to 3.62, red's from 3.15 to 3.39. Blue and red also lost their guaranteed common one-drop along the way."
+        },
+        {
+          "title": "Specify frequencies, not slots",
+          "rules": "A skeleton that assigns each keyword a fixed slot is more brittle than one stating how often it should appear. A frequency below one simply means the ability might not show up at all this time.",
+          "flavor": "The Play Booster skeleton lists roughly how often each keyword occurs rather than reserving places for them. It also stopped breaking uncommon down in detail, tracking only creature against noncreature counts."
+        },
+        {
+          "title": "When an effect loses its slot, move it onto a creature",
+          "rules": "An effect squeezed out of the spell slots isn't necessarily cut. It can move up a rarity, or ride along as a creature's enters-the-battlefield ability instead.",
+          "flavor": "The simple team pump lost its home among common spells — uncommon can still afford the larger, game-winning version. Raise Dead effects went the same way: made at uncommon, or attached to a creature that returns something when it arrives."
+        }
+      ]
+    },
+    "es": {
+      "title": "Tuercas y tornillos n.º 16: los sobres de juego",
+      "dek": "Qué cambió cuando los Play Boosters sustituyeron a los Draft Boosters, y todo lo que se derivó de ello.",
+      "overview": "El decimosexto Tuercas y tornillos recorre el esqueleto de set por defecto reconstruido para los Play Boosters. Dos hechos gobiernan todo el artículo: veinte cartas pasaron de común a infrecuente, y un sobre lleva ahora entre una y cuatro raras. Todo lo demás se deriva de ahí.",
+      "takeaway": "Un cambio en cómo se empaquetan las cartas llegó hasta el tamaño de las criaturas. Es la demostración más clara del archivo de que la estructura de un set va por detrás de la estructura del producto.",
+      "lessons": [
+        {
+          "title": "Un cambio de empaquetado es un cambio de diseño",
+          "rules": "Mover cartas entre rarezas y dejar que el número de raras varíe por sobre no solo altera lo que la gente abre. Cambia el poder medio, el tamaño de las criaturas, la mezcla de palabras clave y qué efectos pueden existir en qué rareza.",
+          "flavor": "Los Play Boosters mantienen las mismas 261 cartas únicas, pero veinte pasan de común a infrecuente —de 101 a 81— y un sobre lleva de una a cuatro raras o míticas, con media algo superior a 1,4. Todo lo demás del artículo se deriva de esos dos hechos."
+        },
+        {
+          "title": "Menos huecos significa que no hay sitio para la carta marginal",
+          "rules": "Cuando baja el recuento, las cartas que solo funcionan a veces dejan de ser asumibles. Una común que un mazo sellado quizá no pueda jugar es un hueco que ya no te sobra.",
+          "flavor": "En I+D lo llaman la común injugable: demasiado estrecha para entrar en un mazo dado. Con veinte huecos comunes menos, el criterio pasa a ser que casi toda criatura monocolor de un color sea al menos jugable en el mazo de ese color."
+        },
+        {
+          "title": "Más bombas por sobre significa que cada color necesita respuestas en común",
+          "rules": "Si un sobre puede contener hasta cuatro raras, los huecos comunes tienen que cambiar para aguantarlo. Cada color necesita respuestas baratas a amenazas grandes, y las amenazas del propio formato crecen para seguir el ritmo.",
+          "flavor": "El rojo ganó un hueco dedicado al alcance, porque más raras significa más voladores. Los contrahechizos del azul se orientan a frenar conjuros grandes, y su aura de bloqueo tradicional se cambió por una que sobrescribe directamente a la criatura."
+        },
+        {
+          "title": "Cuando cambia el marco, las criaturas crecen",
+          "rules": "El tamaño medio de las criaturas no es cuestión de gusto: sigue a lo que el formato tiene que sobrevivir. Sube la densidad de bombas y el cuerpo de referencia tiene que subir con ella.",
+          "flavor": "El poder medio por defecto del blanco pasó de 2,95 a 3,28; el del azul de 3,39 a 3,62; el del rojo de 3,15 a 3,39. Por el camino, azul y rojo perdieron además su hueco garantizado de un maná en común."
+        },
+        {
+          "title": "Especifica frecuencias, no huecos",
+          "rules": "Un esqueleto que asigna a cada palabra clave un hueco fijo es más frágil que uno que indica con qué frecuencia debería aparecer. Una frecuencia inferior a uno significa sencillamente que esta vez la habilidad podría no salir.",
+          "flavor": "El esqueleto de los Play Boosters indica más o menos cada cuánto aparece cada palabra clave, en vez de reservarles sitio. También dejó de desglosar el infrecuente en detalle: solo lleva la cuenta de criaturas frente a no criaturas."
+        },
+        {
+          "title": "Cuando un efecto pierde su hueco, móntalo en una criatura",
+          "rules": "Un efecto expulsado de los huecos de conjuro no queda necesariamente cortado. Puede subir de rareza, o viajar como habilidad de entrada al campo de batalla de una criatura.",
+          "flavor": "El pump colectivo sencillo perdió su casa entre los conjuros comunes; el infrecuente todavía puede permitirse la versión grande que gana partidas. Los efectos tipo Raise Dead siguieron el mismo camino: hechos en infrecuente, o pegados a una criatura que devuelve algo al llegar."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Écrous et boulons n°16 : les boosters de jeu",
+      "dek": "Ce qui a changé quand les Play Boosters ont remplacé les Draft Boosters — et tout ce qui en découle.",
+      "overview": "Le seizième Écrous et boulons parcourt le squelette de set par défaut reconstruit pour les Play Boosters. Deux faits gouvernent tout l'article : vingt cartes sont passées de commune à inhabituelle, et un booster contient désormais de une à quatre rares. Le reste en découle.",
+      "takeaway": "Un changement d'emballage est descendu jusqu'à la taille des créatures. C'est la démonstration la plus nette des archives que la structure d'un set est en aval de la structure du produit.",
+      "lessons": [
+        {
+          "title": "Un changement d'emballage est un changement de conception",
+          "rules": "Déplacer des cartes entre raretés et laisser le nombre de rares varier par booster n'altère pas seulement ce qu'on ouvre. Cela change la puissance moyenne, la taille des créatures, le dosage des mots-clés et quels effets peuvent exister à quelle rareté.",
+          "flavor": "Les Play Boosters gardent les mêmes 261 cartes uniques, mais vingt passent de commune à inhabituelle — de 101 à 81 — et un booster porte de une à quatre rares ou mythiques, pour une moyenne d'un peu plus de 1,4. Tout le reste en découle."
+        },
+        {
+          "title": "Moins d'emplacements, plus de place pour la carte marginale",
+          "rules": "Quand le compte baisse, les cartes qui ne fonctionnent que parfois cessent d'être abordables. Une commune qu'un deck scellé pourrait ne pas pouvoir jouer est un emplacement dont vous n'avez plus le luxe.",
+          "flavor": "La R&D parle de commune injouable : trop étroite pour entrer dans un deck donné. Avec vingt emplacements communs de moins, la norme devient que la plupart des créatures monocolores d'une couleur soient au moins jouables dans le deck de cette couleur."
+        },
+        {
+          "title": "Plus de bombes par booster : chaque couleur a besoin de réponses en commune",
+          "rules": "Si un booster peut contenir jusqu'à quatre rares, les emplacements communs doivent évoluer pour l'encaisser. Chaque couleur a besoin de réponses bon marché aux grosses menaces, et les menaces du format grossissent pour suivre.",
+          "flavor": "Le rouge a gagné un emplacement dédié à la portée, car plus de rares signifie plus de créatures volantes. Les contresorts du bleu visent les gros sorts, et son aura de blocage traditionnelle a été échangée contre une aura qui écrase carrément la créature."
+        },
+        {
+          "title": "Quand le cadre change, les créatures grandissent",
+          "rules": "La taille moyenne des créatures n'est pas affaire de goût : elle suit ce à quoi le format doit survivre. Augmentez la densité de bombes et le corps de référence doit monter avec.",
+          "flavor": "La force moyenne par défaut du blanc est passée de 2,95 à 3,28, celle du bleu de 3,39 à 3,62, celle du rouge de 3,15 à 3,39. Bleu et rouge ont aussi perdu leur créature à un mana garantie en commune."
+        },
+        {
+          "title": "Spécifiez des fréquences, pas des emplacements",
+          "rules": "Un squelette qui attribue à chaque mot-clé un emplacement fixe est plus fragile qu'un squelette indiquant à quelle fréquence il devrait apparaître. Une fréquence inférieure à un signifie simplement que la capacité pourrait ne pas sortir cette fois.",
+          "flavor": "Le squelette Play Booster indique environ à quelle fréquence chaque mot-clé revient plutôt que de leur réserver des places. Il a aussi cessé de détailler l'inhabituelle : il ne suit plus que le compte créatures contre non-créatures."
+        },
+        {
+          "title": "Quand un effet perd son emplacement, montez-le sur une créature",
+          "rules": "Un effet chassé des emplacements de sorts n'est pas forcément coupé. Il peut monter d'une rareté, ou voyager comme capacité d'arrivée sur le champ de bataille d'une créature.",
+          "flavor": "Le pump collectif simple a perdu sa place parmi les sorts communs ; l'inhabituelle peut encore s'offrir la version large qui gagne les parties. Les effets à la Raise Dead ont suivi : faits en inhabituelle, ou accrochés à une créature qui rend quelque chose en arrivant."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Porcas e parafusos n.º 16: os boosters de jogo",
+      "dek": "O que mudou quando os Play Boosters substituíram os Draft Boosters — e tudo que veio depois.",
+      "overview": "O décimo sexto Porcas e parafusos percorre o esqueleto de set padrão reconstruído para os Play Boosters. Dois fatos governam o artigo inteiro: vinte cartas passaram de comum para incomum, e um booster agora traz de uma a quatro raras. Todo o resto decorre disso.",
+      "takeaway": "Uma mudança em como as cartas são embaladas chegou até o tamanho das criaturas. É a demonstração mais clara do acervo de que a estrutura de um set fica rio abaixo da estrutura do produto.",
+      "lessons": [
+        {
+          "title": "Uma mudança de embalagem é uma mudança de design",
+          "rules": "Mover cartas entre raridades e deixar a contagem de raras variar por pacote não altera só o que as pessoas abrem. Muda o poder médio, o tamanho das criaturas, a mistura de palavras-chave e quais efeitos podem existir em qual raridade.",
+          "flavor": "Os Play Boosters mantêm as mesmas 261 cartas únicas, mas vinte passam de comum para incomum — de 101 para 81 — e um pacote traz de uma a quatro raras ou míticas, com média pouco acima de 1,4. Todo o resto do artigo decorre desses dois fatos."
+        },
+        {
+          "title": "Menos vagas significa não haver espaço para a carta marginal",
+          "rules": "Quando a contagem cai, cartas que só funcionam às vezes deixam de ser bancáveis. Uma comum que um deck selado talvez não consiga jogar é uma vaga que você não tem mais de sobra.",
+          "flavor": "A P&D chama de comum injogável: estreita demais para entrar num deck qualquer. Com vinte vagas comuns a menos, o critério passa a ser que quase toda criatura monocolorida de uma cor seja ao menos jogável no deck daquela cor."
+        },
+        {
+          "title": "Mais bombas por pacote significa que toda cor precisa de respostas no comum",
+          "rules": "Se um booster pode conter até quatro raras, as vagas comuns precisam mudar para aguentar. Cada cor precisa de respostas baratas a ameaças grandes, e as próprias ameaças do formato crescem para acompanhar.",
+          "flavor": "O vermelho ganhou uma vaga dedicada ao alcance, porque mais raras significa mais criaturas voadoras. Os contrafeitiços do azul miram mágicas grandes, e sua aura de travamento tradicional foi trocada por uma que sobrescreve a criatura de vez."
+        },
+        {
+          "title": "Quando a moldura muda, as criaturas crescem",
+          "rules": "O tamanho médio das criaturas não é questão de gosto: acompanha aquilo a que o formato precisa sobreviver. Aumente a densidade de bombas e o corpo de referência tem de subir junto.",
+          "flavor": "O poder médio padrão do branco foi de 2,95 para 3,28, o do azul de 3,39 para 3,62, o do vermelho de 3,15 para 3,39. No caminho, azul e vermelho também perderam sua criatura de um mana garantida no comum."
+        },
+        {
+          "title": "Especifique frequências, não vagas",
+          "rules": "Um esqueleto que dá a cada palavra-chave uma vaga fixa é mais frágil que um que diz com que frequência ela deve aparecer. Uma frequência abaixo de um significa apenas que a habilidade pode não sair desta vez.",
+          "flavor": "O esqueleto do Play Booster lista mais ou menos de quanto em quanto cada palavra-chave aparece, em vez de reservar lugares. Também parou de detalhar o incomum: só acompanha a contagem de criaturas contra não criaturas."
+        },
+        {
+          "title": "Quando um efeito perde a vaga, ponha-o numa criatura",
+          "rules": "Um efeito espremido para fora das vagas de mágica não é necessariamente cortado. Pode subir de raridade, ou pegar carona como habilidade de entrada no campo de batalha de uma criatura.",
+          "flavor": "O pump coletivo simples perdeu a casa entre as mágicas comuns; o incomum ainda banca a versão grande que ganha partidas. Efeitos tipo Raise Dead seguiram o mesmo caminho: feitos no incomum, ou colados numa criatura que devolve algo ao chegar."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "螺丝与螺母 #16：游戏补充包",
+      "dek": "当游戏补充包取代轮抽补充包时，发生了什么变化——以及由此一路延伸下去的一切。",
+      "overview": "第十六期《螺丝与螺母》，逐条走过为游戏补充包重建的默认系列骨架。整篇文章由两个事实驱动：二十张牌从普通挪到了非普通，而一包现在装着一到四张稀有。其余的一切，都由此推导而来。",
+      "takeaway": "一次「牌怎么包装」的改动，一路影响到了「生物有多大」。这是本站收录的文章中，最清楚地说明「系列结构位于产品结构下游」的一篇。",
+      "lessons": [
+        {
+          "title": "包装的改动，就是设计的改动",
+          "rules": "在稀有度之间挪动牌、并让每包里稀有牌的数量浮动，改变的不只是人们拆开时看到什么。它改变了平均强度、生物体型、关键字配比，以及哪些效应可以存在于哪一档稀有度。",
+          "flavor": "游戏补充包保持同样的 261 张独特牌，但有二十张从普通挪到了非普通——从 101 降到 81；而每包携带一到四张稀有或秘稀，均值略高于 1.4。这篇文章其余的一切，都是这两个事实的下游。"
+        },
+        {
+          "title": "位子变少，就意味着容不下那些勉强的牌",
+          "rules": "当总数下降时，那些「有时才管用」的牌就变得负担不起了。一张现开套牌可能根本用不上的普通牌，就是一个你已经浪费不起的位子。",
+          "flavor": "研发部的说法叫「打不出来的普通牌」：太窄，进不了某一副具体的牌。少了二十个普通位之后，新的标准变成：一个颜色里的绝大多数单色生物，至少应该在该色的套牌里能用。"
+        },
+        {
+          "title": "每包炸弹更多，就意味着每个颜色都需要普通位上的答案",
+          "rules": "如果一包里可能出现最多四张稀有，那普通位就必须相应调整来扛住它。每个颜色都需要便宜的、能应对大威胁的答案；而这个赛制自身的威胁，也会随之变大以跟上节奏。",
+          "flavor": "红色多出了一个专门的延势位，因为稀有牌变多意味着飞行威胁变多。蓝色的反击咒语偏向拦截大咒语，而它传统上那张「锁住」的灵气，被换成了一张直接覆写生物的灵气。"
+        },
+        {
+          "title": "框架一变，生物就会长大",
+          "rules": "生物的平均体型不是口味问题，它跟随的是「这个赛制必须活过什么」。把炸弹的密度提上去，作为基准线的身材也必须跟着往上走。",
+          "flavor": "白色的默认平均力量从 2.95 升到 3.28，蓝色从 3.39 升到 3.62，红色从 3.15 升到 3.39。一路上，蓝色和红色还失去了它们在普通位上必有的那张一费生物。"
+        },
+        {
+          "title": "写频率，而不是写位子",
+          "rules": "一份给每个关键字都指定固定位子的骨架，比一份写明「它大约多久出现一次」的骨架更脆。而一个低于一的频率，含义很简单：这一次它可能压根不出现。",
+          "flavor": "游戏补充包的骨架标的是每个关键字大致的出现频率，而不是给它们预留位置。它同时也不再细分非普通位，只记录「生物」与「非生物」的数量。"
+        },
+        {
+          "title": "当一个效应失去位子时，把它挪到生物身上",
+          "rules": "被挤出咒语位的效应，未必就是被砍掉了。它可以升一档稀有度，也可以搭在一只生物的「进场时」异能上一起过去。",
+          "flavor": "简单的全体加成失去了它在普通咒语里的位置——非普通位依然供得起那种更大的、能直接赢下对局的版本。Raise Dead 一类效应走的是同一条路：要么做到非普通位，要么贴到一只「进场时归还某物」的生物上。"
+        }
+      ]
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21",
+  "generatedAt": "2026-08-22",
   "languages": [
     {
       "code": "en",
@@ -43,7 +43,7 @@
     }
   ],
   "defaultLanguage": "en",
-  "count": 41,
+  "count": 52,
   "series": [
     {
       "id": "twenty-years-twenty-lessons",
@@ -444,6 +444,75 @@
       "lessonCount": 24,
       "partCount": 4,
       "firstPublishedAt": "2026-03-02"
+    },
+    {
+      "id": "nuts-and-bolts",
+      "featured": false,
+      "translations": {
+        "en": {
+          "title": "Nuts & Bolts",
+          "blurb": "Rosewater’s annual how-to series for people building their own Magic sets: skeletons, curves, mechanics, and the unglamorous work that makes a set actually playable."
+        },
+        "es": {
+          "title": "Tuercas y tornillos",
+          "blurb": "La serie anual de Rosewater para quien construye sus propios sets de Magic: esqueletos, curvas, mecánicas y el trabajo poco lucido que hace que un set sea de verdad jugable."
+        },
+        "fr": {
+          "title": "Écrous et boulons",
+          "blurb": "La série annuelle de Rosewater pour qui bâtit ses propres sets Magic : squelettes, courbes, mécaniques, et le travail ingrat qui rend un set réellement jouable."
+        },
+        "pt-BR": {
+          "title": "Porcas e parafusos",
+          "blurb": "A série anual de Rosewater para quem constrói os próprios sets de Magic: esqueletos, curvas, mecânicas e o trabalho sem glamour que torna um set de fato jogável."
+        },
+        "zh-Hans": {
+          "title": "螺丝与螺母",
+          "blurb": "罗斯沃特写给自制万智牌系列者的年度教程：骨架、曲线、机制，以及那些让一个系列真正能玩起来的、不起眼的苦活。"
+        }
+      },
+      "articleIds": [
+        "nuts-and-bolts-15-structural-support",
+        "nuts-and-bolts-16-play-boosters",
+        "nuts-and-bolts-17-finding-your-mechanics-part-1",
+        "nuts-and-bolts-17-finding-your-mechanics-part-2",
+        "nuts-and-bolts-18-layering-your-mechanics"
+      ],
+      "lessonCount": 31,
+      "partCount": 5,
+      "firstPublishedAt": "2023-03-06"
+    },
+    {
+      "id": "happy-hunt-ing",
+      "featured": false,
+      "translations": {
+        "en": {
+          "title": "Happy Hunt-Ing",
+          "blurb": "The design story of Innistrad: Midnight Hunt, told through Magic’s twenty-seven-year struggle to make a Werewolf worth playing."
+        },
+        "es": {
+          "title": "Feliz cacería",
+          "blurb": "La historia de diseño de Innistrad: Midnight Hunt, contada a través de los veintisiete años que le costó a Magic hacer un hombre lobo que mereciera jugarse."
+        },
+        "fr": {
+          "title": "Bonne chasse",
+          "blurb": "L'histoire de conception d'Innistrad: Midnight Hunt, racontée à travers les vingt-sept ans qu'il a fallu à Magic pour réussir un loup-garou digne d'être joué."
+        },
+        "pt-BR": {
+          "title": "Boa caçada",
+          "blurb": "A história de design de Innistrad: Midnight Hunt, contada pelos vinte e sete anos que Magic levou para fazer um lobisomem que valesse a pena jogar."
+        },
+        "zh-Hans": {
+          "title": "狩猎愉快",
+          "blurb": "《Innistrad: Midnight Hunt》的设计故事，透过万智牌花了二十七年才做出一只值得一打的狼人这件事来讲。"
+        }
+      },
+      "articleIds": [
+        "happy-hunt-ing-part-1",
+        "happy-hunt-ing-part-2"
+      ],
+      "lessonCount": 12,
+      "partCount": 2,
+      "firstPublishedAt": "2021-09-02"
     }
   ],
   "articles": [
@@ -2156,6 +2225,216 @@
       }
     },
     {
+      "id": "the-history-of-turtles-in-magic",
+      "slug": "the-history-of-turtles-in-magic",
+      "column": "making-magic",
+      "author": "Mark Rosewater",
+      "publishedAt": "2026-02-23",
+      "summarizedAt": "2026-08-21T23:41:47.359Z",
+      "series": null,
+      "tags": [
+        "top-down",
+        "creature-types",
+        "history"
+      ],
+      "canonical": "https://magic.wizards.com/en/news/making-magic/the-history-of-turtles-in-magic",
+      "sourceLocales": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "lessonCount": 5,
+      "lessons": [
+        {
+          "n": 1,
+          "color": "U"
+        },
+        {
+          "n": 2,
+          "color": "W"
+        },
+        {
+          "n": 3,
+          "color": "B"
+        },
+        {
+          "n": 4,
+          "color": "R"
+        },
+        {
+          "n": 5,
+          "color": "G"
+        }
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "titles": {
+        "en": "The History of Turtles in Magic",
+        "es": "La historia de las tortugas en Magic",
+        "fr": "L'histoire des tortues dans Magic",
+        "pt-BR": "A história das tartarugas em Magic",
+        "zh-Hans": "万智牌里的陆龟简史"
+      },
+      "deks": {
+        "en": "Thirty years of Turtles — and what a creature type's design space actually consists of.",
+        "es": "Treinta años de tortugas, y en qué consiste realmente el espacio de diseño de un tipo de criatura.",
+        "fr": "Trente ans de tortues — et ce en quoi consiste vraiment l'espace de conception d'un type de créature.",
+        "pt-BR": "Trinta anos de tartarugas — e em que consiste de fato o espaço de design de um tipo de criatura.",
+        "zh-Hans": "三十年的陆龟——以及一个生物类别的设计空间，究竟由什么构成。"
+      }
+    },
+    {
+      "id": "the-heroes-in-a-half-shell-game",
+      "slug": "the-heroes-in-a-half-shell-game",
+      "column": "making-magic",
+      "author": "Mark Rosewater",
+      "publishedAt": "2026-02-17",
+      "summarizedAt": "2026-08-21T23:44:44.955Z",
+      "series": null,
+      "tags": [
+        "universes-beyond",
+        "mechanics",
+        "process"
+      ],
+      "canonical": "https://magic.wizards.com/en/news/making-magic/the-heroes-in-a-half-shell-game",
+      "sourceLocales": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "lessonCount": 6,
+      "lessons": [
+        {
+          "n": 1,
+          "color": "W"
+        },
+        {
+          "n": 2,
+          "color": "U"
+        },
+        {
+          "n": 3,
+          "color": "B"
+        },
+        {
+          "n": 4,
+          "color": "R"
+        },
+        {
+          "n": 5,
+          "color": "G"
+        },
+        {
+          "n": 6,
+          "color": "W"
+        }
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "titles": {
+        "en": "The Heroes in a Half Shell Game",
+        "es": "Héroes de media concha",
+        "fr": "Les héros à demi-carapace",
+        "pt-BR": "Os heróis de meia carapaça",
+        "zh-Hans": "半壳英雄的这盘棋"
+      },
+      "deks": {
+        "en": "Six things you can find when you search thirty years of mechanics for a licensed set.",
+        "es": "Seis cosas que puedes encontrar cuando rastreas treinta años de mecánicas para un set con licencia.",
+        "fr": "Six choses qu'on peut trouver en fouillant trente ans de mécaniques pour un set sous licence.",
+        "pt-BR": "Seis coisas que se pode achar ao vasculhar trinta anos de mecânicas para um set licenciado.",
+        "zh-Hans": "当你为一个授权系列去翻找三十年的机制时，可能翻出来的六种东西。"
+      }
+    },
+    {
+      "id": "nuts-and-bolts-18-layering-your-mechanics",
+      "slug": "nuts-and-bolts-18-layering-your-mechanics",
+      "column": "making-magic",
+      "author": "Mark Rosewater",
+      "publishedAt": "2026-02-09",
+      "summarizedAt": "2026-08-22T00:01:28.511Z",
+      "series": {
+        "id": "nuts-and-bolts",
+        "order": 18,
+        "total": 18
+      },
+      "tags": [
+        "nuts-and-bolts",
+        "mechanics",
+        "set-structure"
+      ],
+      "canonical": "https://magic.wizards.com/en/news/making-magic/nuts-and-bolts-18-layering-your-mechanics",
+      "sourceLocales": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "lessonCount": 6,
+      "lessons": [
+        {
+          "n": 1,
+          "color": "W"
+        },
+        {
+          "n": 2,
+          "color": "R"
+        },
+        {
+          "n": 3,
+          "color": "G"
+        },
+        {
+          "n": 4,
+          "color": "U"
+        },
+        {
+          "n": 5,
+          "color": "B"
+        },
+        {
+          "n": 6,
+          "color": "U"
+        }
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "titles": {
+        "en": "Nuts & Bolts #18: Layering Your Mechanics",
+        "es": "Tuercas y tornillos n.º 18: superponer tus mecánicas",
+        "fr": "Écrous et boulons n°18 : superposer vos mécaniques",
+        "pt-BR": "Porcas e parafusos n.º 18: sobrepondo suas mecânicas",
+        "zh-Hans": "螺丝与螺母 #18：把机制一层层叠进来"
+      },
+      "deks": {
+        "en": "How mechanics go into a file one at a time, and why the third one changes the job.",
+        "es": "Cómo entran las mecánicas en un archivo de una en una, y por qué la tercera cambia el trabajo.",
+        "fr": "Comment les mécaniques entrent dans un fichier une à une, et pourquoi la troisième change le métier.",
+        "pt-BR": "Como as mecânicas entram num arquivo uma de cada vez, e por que a terceira muda o serviço.",
+        "zh-Hans": "机制是怎样一次一个地进入卡表的，以及为什么到了第三个，工作的性质就变了。"
+      }
+    },
+    {
       "id": "lorwyn-eclipsed-vision-design-handoff-document-part-2",
       "slug": "lorwyn-eclipsed-vision-design-handoff-document-part-2",
       "column": "making-magic",
@@ -2304,6 +2583,76 @@
       }
     },
     {
+      "id": "total-eclipsed-of-the-sun",
+      "slug": "total-eclipsed-of-the-sun",
+      "column": "making-magic",
+      "author": "Mark Rosewater",
+      "publishedAt": "2026-01-05",
+      "summarizedAt": "2026-08-21T23:38:17.711Z",
+      "series": null,
+      "tags": [
+        "lorwyn",
+        "set-conception",
+        "returns"
+      ],
+      "canonical": "https://magic.wizards.com/en/news/making-magic/total-eclipsed-of-the-sun",
+      "sourceLocales": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "lessonCount": 6,
+      "lessons": [
+        {
+          "n": 1,
+          "color": "G"
+        },
+        {
+          "n": 2,
+          "color": "U"
+        },
+        {
+          "n": 3,
+          "color": "R"
+        },
+        {
+          "n": 4,
+          "color": "W"
+        },
+        {
+          "n": 5,
+          "color": "B"
+        },
+        {
+          "n": 6,
+          "color": "U"
+        }
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "titles": {
+        "en": "Total Eclipsed of the Sun",
+        "es": "Eclipse total del sol",
+        "fr": "Éclipse totale du soleil",
+        "pt-BR": "Eclipse total do sol",
+        "zh-Hans": "日全食"
+      },
+      "deks": {
+        "en": "How a plane nobody expected to revisit ended up getting one set instead of two.",
+        "es": "Cómo un plano al que nadie esperaba volver acabó recibiendo un set en vez de dos.",
+        "fr": "Comment un plan où personne ne comptait retourner a fini par obtenir un set au lieu de deux.",
+        "pt-BR": "Como um plano ao qual ninguém esperava voltar acabou ganhando um set em vez de dois.",
+        "zh-Hans": "一个没人指望还会重访的次元，最后是怎么拿到「一个系列」而不是「两个系列」的。"
+      }
+    },
+    {
       "id": "the-three-magic-psychographics",
       "slug": "the-three-magic-psychographics",
       "column": "making-magic",
@@ -2363,6 +2712,232 @@
         "fr": "Timmy et Tammy, Johnny et Jenny, Spike, redéfinis à partir de la raison pour laquelle chacun joue.",
         "pt-BR": "Timmy e Tammy, Johnny e Jenny, Spike, reconstruídos a partir do porquê de cada um jogar.",
         "zh-Hans": "提米与塔米、强尼与珍妮、斯派克——这一次从「他们为什么玩」重新定义。"
+      }
+    },
+    {
+      "id": "nuts-and-bolts-17-finding-your-mechanics-part-2",
+      "slug": "nuts-and-bolts-17-finding-your-mechanics-part-2",
+      "column": "making-magic",
+      "author": "Mark Rosewater",
+      "publishedAt": "2025-04-14",
+      "summarizedAt": "2026-08-21T23:57:56.699Z",
+      "series": {
+        "id": "nuts-and-bolts",
+        "order": 17.5,
+        "total": 18
+      },
+      "tags": [
+        "nuts-and-bolts",
+        "mechanics",
+        "playtesting"
+      ],
+      "canonical": "https://magic.wizards.com/en/news/making-magic/nuts-and-bolts-17-finding-your-mechanics-part-2",
+      "sourceLocales": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "lessonCount": 7,
+      "lessons": [
+        {
+          "n": 1,
+          "color": "U"
+        },
+        {
+          "n": 2,
+          "color": "B"
+        },
+        {
+          "n": 3,
+          "color": "W"
+        },
+        {
+          "n": 4,
+          "color": "R"
+        },
+        {
+          "n": 5,
+          "color": "G"
+        },
+        {
+          "n": 6,
+          "color": "W"
+        },
+        {
+          "n": 7,
+          "color": "U"
+        }
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "titles": {
+        "en": "Nuts & Bolts #17: Finding Your Mechanics, Part 2",
+        "es": "Tuercas y tornillos n.º 17: encontrar tus mecánicas, parte 2",
+        "fr": "Écrous et boulons n°17 : trouver vos mécaniques, partie 2",
+        "pt-BR": "Porcas e parafusos n.º 17: achando suas mecânicas, parte 2",
+        "zh-Hans": "螺丝与螺母 #17：找到你的机制，第二部分"
+      },
+      "deks": {
+        "en": "As-fan arithmetic, the questions to ask after a playtest, and how to know when to stop.",
+        "es": "La aritmética del as-fan, las preguntas que hacer tras una partida de prueba, y cómo saber cuándo parar.",
+        "fr": "L'arithmétique de l'as-fan, les questions à poser après un test, et comment savoir quand s'arrêter.",
+        "pt-BR": "A aritmética do as-fan, as perguntas a fazer depois de um playtest, e como saber quando parar.",
+        "zh-Hans": "as-fan 的算法、每次试玩之后该问的问题，以及怎么知道该收手了。"
+      }
+    },
+    {
+      "id": "nuts-and-bolts-17-finding-your-mechanics-part-1",
+      "slug": "nuts-and-bolts-17-finding-your-mechanics-part-1",
+      "column": "making-magic",
+      "author": "Mark Rosewater",
+      "publishedAt": "2025-04-07",
+      "summarizedAt": "2026-08-21T23:54:28.273Z",
+      "series": {
+        "id": "nuts-and-bolts",
+        "order": 17,
+        "total": 18
+      },
+      "tags": [
+        "nuts-and-bolts",
+        "mechanics",
+        "process"
+      ],
+      "canonical": "https://magic.wizards.com/en/news/making-magic/nuts-and-bolts-17-finding-your-mechanics-part-1",
+      "sourceLocales": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "lessonCount": 6,
+      "lessons": [
+        {
+          "n": 1,
+          "color": "U"
+        },
+        {
+          "n": 2,
+          "color": "B"
+        },
+        {
+          "n": 3,
+          "color": "W"
+        },
+        {
+          "n": 4,
+          "color": "R"
+        },
+        {
+          "n": 5,
+          "color": "U"
+        },
+        {
+          "n": 6,
+          "color": "G"
+        }
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "titles": {
+        "en": "Nuts & Bolts #17: Finding Your Mechanics, Part 1",
+        "es": "Tuercas y tornillos n.º 17: encontrar tus mecánicas, parte 1",
+        "fr": "Écrous et boulons n°17 : trouver vos mécaniques, partie 1",
+        "pt-BR": "Porcas e parafusos n.º 17: achando suas mecânicas, parte 1",
+        "zh-Hans": "螺丝与螺母 #17：找到你的机制，第一部分"
+      },
+      "deks": {
+        "en": "Seven places mechanics come from, and six questions that tell you how far one can go.",
+        "es": "Siete sitios de donde salen las mecánicas, y seis preguntas que te dicen hasta dónde puede llegar una.",
+        "fr": "Sept endroits d'où viennent les mécaniques, et six questions qui disent jusqu'où l'une peut aller.",
+        "pt-BR": "Sete lugares de onde vêm as mecânicas, e seis perguntas que dizem até onde uma pode ir.",
+        "zh-Hans": "机制的七个来处，以及六个能告诉你「它能走多远」的问题。"
+      }
+    },
+    {
+      "id": "nuts-and-bolts-16-play-boosters",
+      "slug": "nuts-and-bolts-16-play-boosters",
+      "column": "making-magic",
+      "author": "Mark Rosewater",
+      "publishedAt": "2024-03-04",
+      "summarizedAt": "2026-08-21T23:51:23.199Z",
+      "series": {
+        "id": "nuts-and-bolts",
+        "order": 16,
+        "total": 18
+      },
+      "tags": [
+        "nuts-and-bolts",
+        "set-structure",
+        "limited"
+      ],
+      "canonical": "https://magic.wizards.com/en/news/making-magic/nuts-and-bolts-16-play-boosters",
+      "sourceLocales": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "lessonCount": 6,
+      "lessons": [
+        {
+          "n": 1,
+          "color": "U"
+        },
+        {
+          "n": 2,
+          "color": "B"
+        },
+        {
+          "n": 3,
+          "color": "R"
+        },
+        {
+          "n": 4,
+          "color": "G"
+        },
+        {
+          "n": 5,
+          "color": "W"
+        },
+        {
+          "n": 6,
+          "color": "U"
+        }
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "titles": {
+        "en": "Nuts & Bolts #16: Play Boosters",
+        "es": "Tuercas y tornillos n.º 16: los sobres de juego",
+        "fr": "Écrous et boulons n°16 : les boosters de jeu",
+        "pt-BR": "Porcas e parafusos n.º 16: os boosters de jogo",
+        "zh-Hans": "螺丝与螺母 #16：游戏补充包"
+      },
+      "deks": {
+        "en": "What changed when Play Boosters replaced Draft Boosters — and everything downstream of it.",
+        "es": "Qué cambió cuando los Play Boosters sustituyeron a los Draft Boosters, y todo lo que se derivó de ello.",
+        "fr": "Ce qui a changé quand les Play Boosters ont remplacé les Draft Boosters — et tout ce qui en découle.",
+        "pt-BR": "O que mudou quando os Play Boosters substituíram os Draft Boosters — e tudo que veio depois.",
+        "zh-Hans": "当游戏补充包取代轮抽补充包时，发生了什么变化——以及由此一路延伸下去的一切。"
       }
     },
     {
@@ -2584,6 +3159,80 @@
       }
     },
     {
+      "id": "nuts-and-bolts-15-structural-support",
+      "slug": "nuts-and-bolts-15-structural-support",
+      "column": "making-magic",
+      "author": "Mark Rosewater",
+      "publishedAt": "2023-03-06",
+      "summarizedAt": "2026-08-21T23:48:02.105Z",
+      "series": {
+        "id": "nuts-and-bolts",
+        "order": 15,
+        "total": 18
+      },
+      "tags": [
+        "nuts-and-bolts",
+        "set-structure",
+        "limited"
+      ],
+      "canonical": "https://magic.wizards.com/en/news/making-magic/nuts-and-bolts-15-structural-support",
+      "sourceLocales": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "lessonCount": 6,
+      "lessons": [
+        {
+          "n": 1,
+          "color": "W"
+        },
+        {
+          "n": 2,
+          "color": "U"
+        },
+        {
+          "n": 3,
+          "color": "R"
+        },
+        {
+          "n": 4,
+          "color": "B"
+        },
+        {
+          "n": 5,
+          "color": "G"
+        },
+        {
+          "n": 6,
+          "color": "W"
+        }
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "titles": {
+        "en": "Nuts & Bolts #15: Structural Support",
+        "es": "Tuercas y tornillos n.º 15: soporte estructural",
+        "fr": "Écrous et boulons n°15 : le soutien structurel",
+        "pt-BR": "Porcas e parafusos n.º 15: suporte estrutural",
+        "zh-Hans": "螺丝与螺母 #15：结构性支撑"
+      },
+      "deks": {
+        "en": "The checklist a set has to pass before it's playable — which doubles as a guide to building a cube.",
+        "es": "La lista que un set debe superar antes de ser jugable, y que sirve además como guía para montar un cubo.",
+        "fr": "La liste qu'un set doit valider avant d'être jouable — et qui sert aussi de guide pour monter un cube.",
+        "pt-BR": "A lista que um set precisa passar antes de ser jogável — e que serve também de guia para montar um cubo.",
+        "zh-Hans": "一个系列在「能玩」之前必须通过的检查表——它同时也是一份组 cube 的指南。"
+      }
+    },
+    {
       "id": "mechanical-color-pie-2021",
       "slug": "mechanical-color-pie-2021",
       "column": "making-magic",
@@ -2647,6 +3296,154 @@
         "fr": "Non pas un règlement de la roue des couleurs mais un recensement — plus le vocabulaire qui rend ce recensement lisible.",
         "pt-BR": "Não é um regulamento da pizza de cores, e sim um censo — mais o vocabulário que torna esse censo legível.",
         "zh-Hans": "这不是色饼的法典，而是一次普查——外加让这份普查读得懂的那套词汇。"
+      }
+    },
+    {
+      "id": "happy-hunt-ing-part-2",
+      "slug": "happy-hunt-ing-part-2",
+      "column": "making-magic",
+      "author": "Mark Rosewater",
+      "publishedAt": "2021-09-06",
+      "summarizedAt": "2026-08-22T00:07:25.326Z",
+      "series": {
+        "id": "happy-hunt-ing",
+        "order": 2,
+        "total": 2
+      },
+      "tags": [
+        "innistrad",
+        "mechanics",
+        "top-down"
+      ],
+      "canonical": "https://magic.wizards.com/en/news/making-magic/happy-hunt-ing-part-2",
+      "sourceLocales": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "lessonCount": 6,
+      "lessons": [
+        {
+          "n": 1,
+          "color": "G"
+        },
+        {
+          "n": 2,
+          "color": "B"
+        },
+        {
+          "n": 3,
+          "color": "U"
+        },
+        {
+          "n": 4,
+          "color": "W"
+        },
+        {
+          "n": 5,
+          "color": "R"
+        },
+        {
+          "n": 6,
+          "color": "U"
+        }
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "titles": {
+        "en": "Happy Hunt-Ing, Part 2",
+        "es": "Feliz cacería, parte 2",
+        "fr": "Bonne chasse, partie 2",
+        "pt-BR": "Boa caçada, parte 2",
+        "zh-Hans": "狩猎愉快，第二部分"
+      },
+      "deks": {
+        "en": "Zombies, Spirits, and Humans — three mechanics and the questions that produced them.",
+        "es": "Zombis, espíritus y humanos: tres mecánicas y las preguntas que las produjeron.",
+        "fr": "Zombies, esprits et humains — trois mécaniques et les questions qui les ont produites.",
+        "pt-BR": "Zumbis, espíritos e humanos — três mecânicas e as perguntas que as produziram.",
+        "zh-Hans": "僵尸、灵体与人类——三个机制，以及催生它们的那些问题。"
+      }
+    },
+    {
+      "id": "happy-hunt-ing-part-1",
+      "slug": "happy-hunt-ing-part-1",
+      "column": "making-magic",
+      "author": "Mark Rosewater",
+      "publishedAt": "2021-09-02",
+      "summarizedAt": "2026-08-22T00:04:17.399Z",
+      "series": {
+        "id": "happy-hunt-ing",
+        "order": 1,
+        "total": 2
+      },
+      "tags": [
+        "innistrad",
+        "mechanics",
+        "set-conception"
+      ],
+      "canonical": "https://magic.wizards.com/en/news/making-magic/happy-hunt-ing-part-1",
+      "sourceLocales": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "lessonCount": 6,
+      "lessons": [
+        {
+          "n": 1,
+          "color": "R"
+        },
+        {
+          "n": 2,
+          "color": "W"
+        },
+        {
+          "n": 3,
+          "color": "G"
+        },
+        {
+          "n": 4,
+          "color": "U"
+        },
+        {
+          "n": 5,
+          "color": "B"
+        },
+        {
+          "n": 6,
+          "color": "U"
+        }
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "titles": {
+        "en": "Happy Hunt-Ing, Part 1",
+        "es": "Feliz cacería, parte 1",
+        "fr": "Bonne chasse, partie 1",
+        "pt-BR": "Boa caçada, parte 1",
+        "zh-Hans": "狩猎愉快，第一部分"
+      },
+      "deks": {
+        "en": "Twenty-seven years of bad Werewolves, and the mechanic that took a decade to come back.",
+        "es": "Veintisiete años de hombres lobo malos, y la mecánica que tardó una década en volver.",
+        "fr": "Vingt-sept ans de mauvais loups-garous, et la mécanique qui a mis dix ans à revenir.",
+        "pt-BR": "Vinte e sete anos de lobisomens ruins, e a mecânica que levou uma década para voltar.",
+        "zh-Hans": "二十七年的糟糕狼人，以及那个花了十年才回来的机制。"
       }
     },
     {
@@ -3103,6 +3900,76 @@
         "fr": "La liste que Rosewater a écrite pour une classe, puis utilisée pendant vingt ans.",
         "pt-BR": "A lista que Rosewater escreveu para uma sala de aula e continuou usando por vinte anos.",
         "zh-Hans": "罗斯沃特为一堂课写下的清单，此后用了二十年。"
+      }
+    },
+    {
+      "id": "the-bleed-story",
+      "slug": "the-bleed-story",
+      "column": "making-magic",
+      "author": "Mark Rosewater",
+      "publishedAt": "2011-12-06",
+      "summarizedAt": "2026-08-21T23:34:27.452Z",
+      "series": null,
+      "tags": [
+        "color-pie",
+        "philosophy",
+        "bleeding"
+      ],
+      "canonical": "https://magic.wizards.com/en/news/making-magic/the-bleed-story",
+      "sourceLocales": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "lessonCount": 6,
+      "lessons": [
+        {
+          "n": 1,
+          "color": "U"
+        },
+        {
+          "n": 2,
+          "color": "W"
+        },
+        {
+          "n": 3,
+          "color": "B"
+        },
+        {
+          "n": 4,
+          "color": "R"
+        },
+        {
+          "n": 5,
+          "color": "G"
+        },
+        {
+          "n": 6,
+          "color": "W"
+        }
+      ],
+      "languages": [
+        "en",
+        "es",
+        "fr",
+        "pt-BR",
+        "zh-Hans"
+      ],
+      "titles": {
+        "en": "The Bleed Story",
+        "es": "La historia del sangrado",
+        "fr": "L'histoire du débordement",
+        "pt-BR": "A história do sangramento",
+        "zh-Hans": "「渗色」的来龙去脉"
+      },
+      "deks": {
+        "en": "Why R&D lets colours do things they shouldn't — and the three circles that decide how far.",
+        "es": "Por qué I+D deja que los colores hagan cosas que no deberían, y los tres círculos que deciden hasta dónde.",
+        "fr": "Pourquoi la R&D laisse les couleurs faire ce qu'elles ne devraient pas — et les trois cercles qui décident jusqu'où.",
+        "pt-BR": "Por que a P&D deixa as cores fazerem o que não deveriam — e os três círculos que decidem até onde.",
+        "zh-Hans": "研发部为什么允许颜色做它们不该做的事——以及决定「能走多远」的那三个圈。"
       }
     },
     {
