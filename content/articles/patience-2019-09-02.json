@@ -1,0 +1,356 @@
+{
+  "id": "patience-2019-09-02",
+  "slug": "patience-2019-09-02",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2019-09-02",
+  "series": null,
+  "tags": [
+    "design-philosophy",
+    "process",
+    "history"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/patience-2019-09-02",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T21:12:15.187Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "U" },
+    { "n": 9, "color": "W" },
+    { "n": 10, "color": "U" },
+    { "n": 11, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Patience",
+      "dek": "Eight designs that took between six and sixteen years to reach print, and what actually unblocked each one.",
+      "overview": "Rosewater walks through cards and mechanics he waited years to get printed — Soul Foundry, delve, Mindslaver, proliferate, Heartbeat of Spring, Ambassador Oak, Bestial Menace, energy, and poison — saying for each what blocked it and what finally let it through.",
+      "takeaway": "Bestial Menace reached print without him: Kelly Digges designed the same card independently, unaware of the years of submissions. “Sometimes, if you're patient enough, other people will design the card for you.”",
+      "lessons": [
+        {
+          "title": "Rules verdicts expire; re-pitch the design",
+          "rules": "A no that came from the rules describes one moment in a system that keeps changing, not your idea. Keep the rejected designs, and when the next comparable project opens, take them to whoever holds the rules now.",
+          "flavor": "Clone Machine was killed by the rules manager during Urza's Saga; the art was already commissioned, so it became Phyrexian Processor. Years later Rosewater pitched it again for Mirrodin — “this time I'm told the rules can handle it” — and it printed as Soul Foundry."
+        },
+        {
+          "title": "Give the remembered thing an object to live on",
+          "rules": "Every choice you let someone customize is state a person then has to hold in their head. Find a physical token the choice can be recorded on, and the customization stops costing memory — the object is both the reminder and the proof.",
+          "flavor": "The more the creature token could be customized, “the more memory was involved.” The solution: “if you exiled a creature card from your hand when it entered the battlefield, you could use that card as a memory aid to remember what the card was making.”"
+        },
+        {
+          "title": "Diagnose the flaw exactly; some slot wants precisely that flaw",
+          "rules": "A component rejected again and again usually has one specific failure. State it precisely rather than as “it doesn't work,” and watch for the project whose constraints make that exact behaviour desirable instead of fatal.",
+          "flavor": "“We realized that delve tended to fight itself, meaning you couldn't play a lot in the same deck,” which ruled it out of graveyard sets needing it to carry weight. Khans of Tarkir had five factions and morph, so it wanted things in small quantities — “which made delve's bug into a feature.”"
+        },
+        {
+          "title": "Widen the scope until the loophole can't exist",
+          "rules": "When closing the gaps in an effect takes more text than the effect itself, the fix is usually not more text. Take a bigger bite — extend the window far enough that the response you were guarding against has nowhere left to happen.",
+          "flavor": "Word of Command needed endless text because “the opponent could always cast things in response.” The leap: “if you took control of an opponent for a whole turn, they weren't able to respond to it when it took effect, plus, you would get to untap all their lands and draw a card.”"
+        },
+        {
+          "title": "Keep the mechanic and change its neighbours",
+          "rules": "A returning component usually fails on interaction rather than on itself. Instead of watering it down, look at the things around it — the ones still being designed — and tune those until they're synergistic without being explosive.",
+          "flavor": "Proliferate broke against fabricate in Kaladesh, missed in Aether Revolt and Ravnica Allegiance, and landed on War of the Spark's planeswalkers. “We were able to tweak the other named keyword, amass, such that it was synergistic with proliferate without being problematic.”"
+        },
+        {
+          "title": "A design that fits every project loses to the one that fits this project",
+          "rules": "Being universally usable is not an advantage in a fight over slots. Anything central to the current theme beats it every time, so either give it a reason to belong here, or accept that you will be resubmitting it for years.",
+          "flavor": "The green Mana Flare went into set after set from 1995: “everyone was on board with us making a green Mana Flare, but it kept losing out to other more pressing stuff.” It stuck in Champions of Kamigawa, nine years later. Ambassador Oak got “cut for numbers” for twelve."
+        },
+        {
+          "title": "Your design ships when it solves somebody else's problem",
+          "rules": "Advocacy gets a design considered; someone else's need gets it made. Keep submitting so it stays visible, and expect it to arrive on the day a colleague reaches for it to fix a problem that isn't yours.",
+          "flavor": "Rosewater didn't submit Moose and Squirrel to Morningtide. “Mike Turian, the set's lead developer, was looking for ways to cross multiple creature types (and this card could let him have a card that was both a Treefolk and an Elf) and remembered Moose and Squirrel.”"
+        },
+        {
+          "title": "A blanket rule encodes a constraint; revisit it when the constraint lifts",
+          "rules": "Rules made to route around a practical problem outlive the problem, because nobody re-derives them. When the underlying condition changes, go back through what the old rule forbade — some of it is now simply fine.",
+          "flavor": "Cone of Creatures was blocked because tokens weren't printed yet, and “R&D eventually decided, as a rule, we didn't like cards that made more than one different creature token.” Once token cards shipped in boosters, Bestial Menace was “acceptable to print.”"
+        },
+        {
+          "title": "When told to cut, remove the least entangled piece",
+          "rules": "Asked to take one component out, pick the one holding the fewest threads. The rest of the work survives untouched, and the removed piece comes out whole rather than in fragments — so it can be used later exactly as designed.",
+          "flavor": "Bill Rose found Mirrodin's design overstuffed and asked for one major component out. “As energy was the least intertwined and thus the simplest to remove, I removed it… I kept it in the back of my mind as a mechanic we could use when the right world came along.”"
+        },
+        {
+          "title": "If tracking the resource isn't the fun part, move it off the objects",
+          "rules": "A resource stored on things that can be destroyed makes people spend attention defending bookkeeping instead of making decisions. Hand it to the player directly: the interesting choice survives and the monitoring disappears.",
+          "flavor": "Charge counters spread across artifacts “required a lot of monitoring… a lot of attention had to be paid to which artifact you were choosing to take the counters from. As I didn't feel this was the fun part of the design, I changed the mechanic over to counters that the player got directly, which I called energy.”"
+        },
+        {
+          "title": "When the blocker is opinion, ship a small sample and let the reaction argue",
+          "rules": "You can't talk an institution out of a position it holds on instinct. Get a minimal version in front of the audience, then come back with their response — evidence from outside the room settles what argument inside it cannot.",
+          "flavor": "Poison was whittled out of Tempest, and R&D stopped putting it in sets at all. Rosewater got poisonous onto two Future Sight cards to “dip my toe back into the poison pool and stir some player interest.” Years later, “thanks to the response I'd gotten to the two cards,” Scars of Mirrodin got its poison."
+        }
+      ]
+    },
+    "es": {
+      "title": "Paciencia",
+      "dek": "Ocho diseños que tardaron entre seis y dieciséis años en imprimirse, y qué desbloqueó de verdad cada uno.",
+      "overview": "Rosewater repasa cartas y mecánicas que esperó años para ver impresas —Soul Foundry, delve, Mindslaver, proliferar, Heartbeat of Spring, Ambassador Oak, Bestial Menace, la energía y el veneno— contando en cada caso qué la bloqueaba y qué acabó dejándola pasar.",
+      "takeaway": "Bestial Menace llegó a imprenta sin él: Kelly Digges diseñó la misma carta por su cuenta, sin saber nada de los años de propuestas. «A veces, si eres bastante paciente, otros diseñan la carta por ti.»",
+      "lessons": [
+        {
+          "title": "Los veredictos de reglas caducan; vuelve a proponer el diseño",
+          "rules": "Un no que viene de las reglas describe un momento de un sistema que no para de cambiar, no tu idea. Guarda los diseños rechazados y, cuando se abra el siguiente proyecto comparable, llévaselos a quien lleve ahora las reglas.",
+          "flavor": "Clone Machine murió a manos del jefe de reglas durante Urza's Saga; el arte ya estaba encargado, así que se convirtió en Phyrexian Processor. Años después Rosewater la propuso otra vez para Mirrodin —«esta vez me dicen que las reglas lo aguantan»— y se imprimió como Soul Foundry."
+        },
+        {
+          "title": "Dale al dato que hay que recordar un objeto donde vivir",
+          "rules": "Cada elección que dejas personalizar es un estado que alguien tendrá que sostener en la cabeza. Encuentra una pieza física donde anotar esa elección y la personalización deja de costar memoria: el objeto es a la vez el recordatorio y la prueba.",
+          "flavor": "Cuanto más se podía personalizar la ficha de criatura, «más memoria hacía falta». La solución: «si exiliabas una carta de criatura de tu mano al entrar al campo de batalla, podías usar esa carta como ayuda para recordar qué estaba creando la carta»."
+        },
+        {
+          "title": "Diagnostica el defecto con precisión: algún hueco quiere justo ese defecto",
+          "rules": "Un componente rechazado una y otra vez suele tener un fallo concreto. Enúncialo con precisión en vez de decir «no funciona», y estate atento al proyecto cuyas restricciones vuelvan deseable ese comportamiento exacto en lugar de fatal.",
+          "flavor": "«Nos dimos cuenta de que delve tendía a pelearse consigo mismo: no podías jugar muchas en el mismo mazo», lo que la descartaba de colecciones de cementerio donde debía cargar con el peso. Khans of Tarkir tenía cinco facciones y morph, así que quería cosas en pequeñas cantidades: «eso convirtió el defecto de delve en una virtud»."
+        },
+        {
+          "title": "Amplía el alcance hasta que el resquicio no pueda existir",
+          "rules": "Cuando tapar los huecos de un efecto exige más texto que el propio efecto, la solución no suele ser más texto. Da un bocado mayor: alarga la ventana lo bastante como para que la respuesta de la que te protegías ya no tenga dónde ocurrir.",
+          "flavor": "Word of Command necesitaba texto sin fin porque «el oponente siempre podía lanzar cosas en respuesta». El salto: «si tomabas el control del oponente durante todo un turno, no podía responder cuando el efecto se aplicaba, y además enderezabas todas sus tierras y robabas una carta»."
+        },
+        {
+          "title": "Conserva la mecánica y cambia a sus vecinas",
+          "rules": "Una pieza que vuelve suele fallar por interacción, no por sí misma. En vez de aguarla, mira lo que la rodea —lo que todavía estás diseñando— y ajústalo hasta que sea sinérgico sin ser explosivo.",
+          "flavor": "Proliferar chocó con fabricar en Kaladesh, no cuajó en Aether Revolt ni en Ravnica Allegiance, y aterrizó en los planeswalkers de War of the Spark. «Pudimos retocar la otra palabra clave, amasar, de modo que fuera sinérgica con proliferar sin ser problemática.»"
+        },
+        {
+          "title": "Un diseño que encaja en cualquier proyecto pierde ante el que encaja en éste",
+          "rules": "Servir para todo no es una ventaja en una pelea por huecos. Cualquier cosa central al tema actual le gana siempre, así que o le das un motivo para pertenecer aquí, o asumes que llevarás años volviéndola a presentar.",
+          "flavor": "El Mana Flare verde entró en colección tras colección desde 1995: «todos estaban de acuerdo en hacer un Mana Flare verde, pero siempre perdía frente a cosas más urgentes». Se quedó en Champions of Kamigawa, nueve años después. A Ambassador Oak lo «cortaron por números» durante doce."
+        },
+        {
+          "title": "Tu diseño sale cuando resuelve el problema de otra persona",
+          "rules": "Defenderlo hace que se considere; la necesidad de otro hace que se haga. Sigue presentándolo para que siga a la vista, y espera que llegue el día en que un compañero eche mano de él para arreglar un problema que no es tuyo.",
+          "flavor": "Rosewater no presentó «Moose and Squirrel» a Morningtide. «Mike Turian, el desarrollador jefe de la colección, buscaba maneras de cruzar tipos de criatura (y esta carta le permitía tener una que fuera Treefolk y Elfo a la vez) y se acordó de Moose and Squirrel.»"
+        },
+        {
+          "title": "Una regla general codifica una restricción; revísala cuando la restricción desaparezca",
+          "rules": "Las reglas hechas para esquivar un problema práctico sobreviven al problema, porque nadie las vuelve a deducir. Cuando cambie la condición de fondo, repasa lo que la vieja regla prohibía: parte de ello ahora simplemente está bien.",
+          "flavor": "«Cone of Creatures» estaba bloqueada porque aún no se imprimían fichas, y «R&D acabó decidiendo, como norma, que no nos gustaban las cartas que crean más de un tipo distinto de ficha de criatura». Cuando las fichas empezaron a venir en los sobres, Bestial Menace pasó a ser «aceptable para imprimir»."
+        },
+        {
+          "title": "Cuando te pidan cortar, quita la pieza menos enredada",
+          "rules": "Si te piden sacar un componente, elige el que sostenga menos hilos. El resto del trabajo sobrevive intacto, y la pieza retirada sale entera y no en fragmentos, así que después se puede usar tal como se diseñó.",
+          "flavor": "Bill Rose vio el diseño de Mirrodin sobrecargado y pidió sacar un componente grande. «Como la energía era lo menos entrelazado y por tanto lo más simple de quitar, la quité… La guardé en la cabeza como una mecánica que podríamos usar cuando llegara el mundo adecuado.»"
+        },
+        {
+          "title": "Si llevar la cuenta del recurso no es lo divertido, sácalo de los objetos",
+          "rules": "Un recurso guardado sobre cosas que pueden ser destruidas obliga a gastar atención defendiendo la contabilidad en vez de tomar decisiones. Dáselo al jugador directamente: la elección interesante sobrevive y la vigilancia desaparece.",
+          "flavor": "Los contadores de carga repartidos entre artefactos «exigían mucha vigilancia… había que fijarse mucho en de qué artefacto tomabas los contadores. Como no me parecía que ésa fuera la parte divertida del diseño, pasé la mecánica a contadores que recibe el jugador directamente, y la llamé energía»."
+        },
+        {
+          "title": "Si el obstáculo es una opinión, saca una muestra pequeña y deja que argumente la reacción",
+          "rules": "No vas a sacar a una institución de una postura que sostiene por instinto. Pon una versión mínima delante del público y vuelve con su respuesta: la prueba que viene de fuera de la sala zanja lo que la discusión dentro no puede.",
+          "flavor": "El veneno fue limado de Tempest y R&D dejó de ponerlo en las colecciones. Rosewater metió venenoso en dos cartas de Future Sight para «mojarme el pie otra vez en el veneno y despertar algo de interés en los jugadores». Años después, «gracias a la respuesta que tuvieron esas dos cartas», Scars of Mirrodin tuvo su veneno."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Patience",
+      "dek": "Huit conceptions qui ont mis de six à seize ans à être imprimées, et ce qui a réellement débloqué chacune.",
+      "overview": "Rosewater passe en revue des cartes et mécaniques qu'il a attendues des années — Soul Foundry, la fouille, Mindslaver, la prolifération, Heartbeat of Spring, Ambassador Oak, Bestial Menace, l'énergie et le poison — en disant pour chacune ce qui la bloquait et ce qui l'a enfin laissée passer.",
+      "takeaway": "Bestial Menace a été imprimée sans lui : Kelly Digges a conçu la même carte de son côté, sans rien savoir de ces années de propositions. « Parfois, si vous êtes assez patient, d'autres conçoivent la carte à votre place. »",
+      "lessons": [
+        {
+          "title": "Les verdicts de règles se périment ; reproposez la conception",
+          "rules": "Un non venu des règles décrit un instant d'un système qui ne cesse de changer, pas votre idée. Gardez les conceptions refusées et, au prochain projet comparable, portez-les à qui tient les règles maintenant.",
+          "flavor": "Clone Machine fut tuée par le responsable des règles pendant La Saga d'Urza ; l'illustration était déjà commandée, elle devint donc Phyrexian Processor. Des années plus tard, Rosewater la repropose pour Mirrodin — « cette fois on me dit que les règles le permettent » — et elle sort sous le nom de Soul Foundry."
+        },
+        {
+          "title": "Donnez à ce qu'il faut retenir un objet où vivre",
+          "rules": "Chaque choix que vous laissez personnaliser est un état qu'une personne devra ensuite garder en tête. Trouvez un objet physique où inscrire ce choix, et la personnalisation cesse de coûter de la mémoire : l'objet est à la fois le rappel et la preuve.",
+          "flavor": "Plus le jeton de créature était personnalisable, « plus il fallait de mémoire ». La solution : « si vous exiliez une carte de créature de votre main quand elle arrivait sur le champ de bataille, vous pouviez utiliser cette carte comme aide-mémoire pour vous rappeler ce que la carte fabriquait »."
+        },
+        {
+          "title": "Diagnostiquez le défaut avec précision : un emplacement veut exactement ce défaut",
+          "rules": "Un composant refusé encore et encore a d'ordinaire un échec bien précis. Énoncez-le exactement plutôt que « ça ne marche pas », et guettez le projet dont les contraintes rendent ce comportement désirable au lieu de fatal.",
+          "flavor": "« Nous avons compris que la fouille se combattait elle-même : on ne pouvait pas en jouer beaucoup dans le même deck », ce qui l'excluait des éditions de cimetière où elle devait porter l'ensemble. Les Khans de Tarkir avaient cinq clans et la morphe : il fallait des choses en petite quantité — « ce qui a transformé le défaut de la fouille en atout »."
+        },
+        {
+          "title": "Élargissez la portée jusqu'à ce que la faille ne puisse plus exister",
+          "rules": "Quand boucher les trous d'un effet demande plus de texte que l'effet lui-même, la solution n'est en général pas plus de texte. Prenez une plus grosse bouchée : élargissez la fenêtre jusqu'à ce que la réponse redoutée n'ait plus où se produire.",
+          "flavor": "Word of Command exigeait un texte sans fin car « l'adversaire pouvait toujours lancer des choses en réponse ». Le saut : « en prenant le contrôle de l'adversaire pour un tour entier, il ne pouvait plus répondre au moment de l'effet, et en plus vous dégagiez tous ses terrains et piochiez une carte »."
+        },
+        {
+          "title": "Gardez la mécanique et changez ses voisines",
+          "rules": "Un composant qui revient échoue d'ordinaire sur l'interaction, pas sur lui-même. Plutôt que de l'affaiblir, regardez ce qui l'entoure — ce que vous concevez encore — et réglez cela jusqu'à obtenir une synergie sans explosion.",
+          "flavor": "La prolifération se cassait sur la fabrication dans Kaladesh, ratait dans La Révolte éthérique et Allégeance de Ravnica, puis a trouvé les planeswalkers de La Guerre des Planeswalkers. « Nous avons pu ajuster l'autre mot-clé, l'amassement, pour qu'il soit synergique avec la prolifération sans être problématique. »"
+        },
+        {
+          "title": "Une conception qui va à tous les projets perd contre celle qui va à celui-ci",
+          "rules": "Être utilisable partout n'est pas un avantage dans une bataille de places. Tout ce qui est central au thème du moment l'emporte à chaque fois : donnez-lui donc une raison d'être ici, ou acceptez de la reproposer pendant des années.",
+          "flavor": "Le Mana Flare vert entrait dans édition après édition depuis 1995 : « tout le monde était d'accord pour faire un Mana Flare vert, mais il perdait toujours face à plus urgent ». Il est resté dans Champions de Kamigawa, neuf ans plus tard. Ambassador Oak fut « coupée pour les quotas » pendant douze ans."
+        },
+        {
+          "title": "Votre conception sort le jour où elle résout le problème d'un autre",
+          "rules": "La plaidoirie fait qu'on l'examine ; le besoin de quelqu'un d'autre fait qu'on la fabrique. Continuez à la soumettre pour qu'elle reste visible, et attendez-vous à ce qu'elle arrive le jour où un collègue s'en saisit pour un problème qui n'est pas le vôtre.",
+          "flavor": "Rosewater n'avait pas soumis « Moose and Squirrel » à Éclat de lune. « Mike Turian, le développeur en chef de l'édition, cherchait à croiser plusieurs types de créature (cette carte lui donnait une carte à la fois Sylvin et Elfe) et s'est souvenu de Moose and Squirrel. »"
+        },
+        {
+          "title": "Une règle générale encode une contrainte ; réexaminez-la quand la contrainte tombe",
+          "rules": "Les règles faites pour contourner un problème pratique survivent au problème, parce que personne ne les redémontre. Quand la condition de fond change, reprenez ce que l'ancienne règle interdisait : une partie est désormais tout simplement acceptable.",
+          "flavor": "« Cone of Creatures » était bloquée parce que les jetons n'étaient pas imprimés, et « R&D a fini par décider, par principe, que nous n'aimions pas les cartes créant plus d'un type de jeton de créature ». Une fois les cartes-jetons dans les boosters, Bestial Menace devenait « acceptable à imprimer »."
+        },
+        {
+          "title": "Quand on vous demande de couper, retirez la pièce la moins enchevêtrée",
+          "rules": "Si l'on vous demande d'ôter un composant, prenez celui qui tient le moins de fils. Le reste du travail survit intact, et la pièce retirée sort entière plutôt qu'en morceaux : elle resservira plus tard exactement telle qu'elle a été conçue.",
+          "flavor": "Bill Rose trouvait la conception de Mirrodin trop chargée et a demandé d'en ôter un composant majeur. « Comme l'énergie était la moins entrelacée et donc la plus simple à retirer, je l'ai retirée… Je l'ai gardée en tête comme une mécanique utilisable quand le bon monde viendrait. »"
+        },
+        {
+          "title": "Si compter la ressource n'est pas la partie amusante, sortez-la des objets",
+          "rules": "Une ressource stockée sur des choses destructibles fait dépenser de l'attention à défendre la comptabilité au lieu de décider. Donnez-la directement au joueur : le choix intéressant subsiste et la surveillance disparaît.",
+          "flavor": "Les marqueurs de charge répartis sur les artefacts « demandaient beaucoup de surveillance… il fallait faire très attention à l'artefact sur lequel on prenait les marqueurs. Comme ce n'était pas la partie amusante de la conception, j'ai basculé la mécanique vers des marqueurs reçus directement par le joueur : l'énergie »."
+        },
+        {
+          "title": "Quand le blocage est une opinion, sortez un petit échantillon et laissez la réaction plaider",
+          "rules": "On ne fait pas changer d'avis une institution sur une position tenue par instinct. Mettez une version minimale devant le public, puis revenez avec sa réaction : une preuve venue de l'extérieur tranche ce que la discussion intérieure ne peut pas.",
+          "flavor": "Le poison avait été raboté hors de Tempête, et R&D avait cessé d'en mettre. Rosewater a placé « venimeux » sur deux cartes de Vision de l'avenir pour « retremper un orteil dans le poison et éveiller l'intérêt des joueurs ». Des années après, « grâce à la réaction obtenue sur ces deux cartes », Les Cicatrices de Mirrodin a eu son poison."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Paciência",
+      "dek": "Oito designs que levaram de seis a dezesseis anos para serem impressos, e o que de fato destravou cada um.",
+      "overview": "Rosewater percorre cartas e mecânicas que esperou anos para ver impressas — Soul Foundry, escavar, Mindslaver, proliferar, Heartbeat of Spring, Ambassador Oak, Bestial Menace, a energia e o veneno — dizendo em cada caso o que travava e o que enfim deixou passar.",
+      "takeaway": "Bestial Menace chegou à impressão sem ele: Kelly Digges desenhou a mesma carta por conta própria, sem saber dos anos de propostas. “Às vezes, se você tiver paciência suficiente, outras pessoas desenham a carta por você.”",
+      "lessons": [
+        {
+          "title": "Vereditos de regras vencem; proponha o design de novo",
+          "rules": "Um não vindo das regras descreve um momento de um sistema que não para de mudar, não a sua ideia. Guarde os designs recusados e, quando abrir o próximo projeto parecido, leve-os a quem cuida das regras agora.",
+          "flavor": "Clone Machine foi morta pelo gerente de regras durante Urza's Saga; a arte já estava encomendada, então virou Phyrexian Processor. Anos depois Rosewater propôs de novo para Mirrodin — “desta vez me dizem que as regras dão conta” — e saiu como Soul Foundry."
+        },
+        {
+          "title": "Dê ao que precisa ser lembrado um objeto onde morar",
+          "rules": "Toda escolha que você deixa alguém personalizar é um estado que essa pessoa terá de segurar na cabeça. Ache uma peça física onde registrar a escolha, e a personalização deixa de custar memória: o objeto é ao mesmo tempo o lembrete e a prova.",
+          "flavor": "Quanto mais a ficha de criatura podia ser personalizada, “mais memória estava envolvida”. A solução: “se você exilasse uma carta de criatura da sua mão quando ela entrasse no campo de batalha, dava para usar essa carta como apoio de memória para lembrar o que a carta estava criando”."
+        },
+        {
+          "title": "Diagnostique o defeito com exatidão: algum espaço quer justamente esse defeito",
+          "rules": "Um componente recusado vez após vez costuma ter uma falha específica. Enuncie-a com precisão em vez de dizer “não funciona”, e fique de olho no projeto cujas restrições tornem esse comportamento exato desejável em vez de fatal.",
+          "flavor": "“Percebemos que escavar tendia a brigar consigo mesmo: não dava para jogar muitas no mesmo baralho”, o que a excluía de coleções de cemitério em que precisaria carregar o peso. Khans of Tarkir tinha cinco facções e metamorfose, então queria coisas em pouca quantidade — “o que transformou o defeito de escavar em virtude”."
+        },
+        {
+          "title": "Alargue o escopo até a brecha não poder existir",
+          "rules": "Quando tapar os buracos de um efeito exige mais texto do que o próprio efeito, a saída em geral não é mais texto. Dê uma mordida maior: estenda a janela o bastante para que a resposta de que você se defendia não tenha mais onde acontecer.",
+          "flavor": "Word of Command exigia texto sem fim porque “o oponente sempre podia conjurar coisas em resposta”. O salto: “se você tomasse o controle do oponente por um turno inteiro, ele não podia responder quando o efeito valia, e ainda por cima você desvirava todos os terrenos dele e comprava uma carta”."
+        },
+        {
+          "title": "Mantenha a mecânica e mude as vizinhas dela",
+          "rules": "Um componente que volta costuma falhar na interação, não em si mesmo. Em vez de aguá-lo, olhe o que está ao redor — o que ainda está sendo desenhado — e ajuste isso até haver sinergia sem explosão.",
+          "flavor": "Proliferar quebrou contra fabricar em Kaladesh, não pegou em Aether Revolt nem em Ravnica Allegiance, e aterrissou nos planeswalkers de War of the Spark. “Conseguimos ajustar a outra palavra-chave, amontoar, de modo que fosse sinérgica com proliferar sem ser problemática.”"
+        },
+        {
+          "title": "Um design que serve a qualquer projeto perde para o que serve a este",
+          "rules": "Servir para tudo não é vantagem numa briga por espaço. Qualquer coisa central ao tema atual ganha dele sempre; então ou você lhe dá um motivo para pertencer aqui, ou aceita que vai reapresentá-lo por anos.",
+          "flavor": "O Mana Flare verde entrou em coleção após coleção desde 1995: “todo mundo topava fazer um Mana Flare verde, mas ele sempre perdia para coisas mais urgentes”. Ficou em Champions of Kamigawa, nove anos depois. Ambassador Oak foi “cortada por números” durante doze."
+        },
+        {
+          "title": "O seu design sai quando resolve o problema de outra pessoa",
+          "rules": "Defender faz com que seja considerado; a necessidade de outro faz com que seja feito. Continue submetendo para que ele siga visível, e espere que ele chegue no dia em que um colega o pegar para consertar um problema que não é seu.",
+          "flavor": "Rosewater não submeteu “Moose and Squirrel” a Morningtide. “Mike Turian, o desenvolvedor líder da coleção, procurava formas de cruzar tipos de criatura (e esta carta lhe dava uma que era Treefolk e Elfo ao mesmo tempo) e se lembrou de Moose and Squirrel.”"
+        },
+        {
+          "title": "Uma regra geral codifica uma restrição; revise-a quando a restrição cair",
+          "rules": "Regras feitas para contornar um problema prático sobrevivem ao problema, porque ninguém as deduz de novo. Quando a condição de fundo mudar, releia o que a regra antiga proibia: parte disso agora está simplesmente tudo bem.",
+          "flavor": "“Cone of Creatures” estava travada porque fichas ainda não eram impressas, e “a P&D acabou decidindo, como regra, que não gostávamos de cartas que criam mais de um tipo diferente de ficha de criatura”. Quando as cartas de ficha passaram a vir nos boosters, Bestial Menace virou “aceitável de imprimir”."
+        },
+        {
+          "title": "Quando mandarem cortar, tire a peça menos enredada",
+          "rules": "Se pedirem para tirar um componente, escolha o que segura menos fios. O resto do trabalho sobrevive intacto, e a peça retirada sai inteira em vez de em pedaços — dá para usá-la depois exatamente como foi desenhada.",
+          "flavor": "Bill Rose achou o design de Mirrodin sobrecarregado e pediu a saída de um componente grande. “Como a energia era a menos entrelaçada e portanto a mais simples de remover, eu a removi… Guardei-a no fundo da cabeça como uma mecânica para quando viesse o mundo certo.”"
+        },
+        {
+          "title": "Se acompanhar o recurso não é a parte divertida, tire-o dos objetos",
+          "rules": "Um recurso guardado em coisas que podem ser destruídas faz as pessoas gastarem atenção defendendo a contabilidade em vez de decidir. Entregue-o direto ao jogador: a escolha interessante sobrevive e a vigilância some.",
+          "flavor": "Marcadores de carga espalhados por artefatos “exigiam muito monitoramento… era preciso prestar muita atenção em de qual artefato você tirava os marcadores. Como eu não achava que essa fosse a parte divertida do design, mudei a mecânica para marcadores que o jogador recebe direto, que chamei de energia”."
+        },
+        {
+          "title": "Quando o obstáculo é opinião, lance uma amostra pequena e deixe a reação argumentar",
+          "rules": "Não dá para convencer uma instituição a largar uma posição que ela sustenta por instinto. Ponha uma versão mínima diante do público e volte com a resposta dele: a evidência de fora da sala resolve o que a discussão dentro não resolve.",
+          "flavor": "O veneno foi raspado de Tempest, e a P&D parou de colocá-lo nas coleções. Rosewater pôs venenoso em duas cartas de Future Sight para “molhar o pé de novo no veneno e mexer com o interesse dos jogadores”. Anos depois, “graças à resposta que aquelas duas cartas tiveram”, Scars of Mirrodin ganhou o seu veneno."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "耐心",
+      "dek": "八个从提出到付印花了六到十六年的设计，以及真正把每一个解开的到底是什么。",
+      "overview": "罗斯瓦特回顾那些他等了很多年才印出来的牌与机制——Soul Foundry、探掘、Mindslaver、增殖、Heartbeat of Spring、Ambassador Oak、Bestial Menace、能量，以及中毒——逐个说明当初卡在哪里，以及最后是什么让它通过的。",
+      "takeaway": "Bestial Menace 最后是绕过他印出来的：Kelly Digges 独立设计出了同一张牌，完全不知道那些年的反复提交。「有时候，只要你足够有耐心，别人会替你把这张牌设计出来。」",
+      "lessons": [
+        {
+          "title": "规则给出的判决会过期；把设计再提一次",
+          "rules": "来自规则的否定，描述的是一个不断变化的系统在某一刻的状态，而不是你的想法。把被否掉的设计留着，等下一个类似的项目开张时，拿去给现在管规则的那个人。",
+          "flavor": "Clone Machine 在《乌尔萨传奇》期间被规则经理毙掉；插画已经约好了，于是它变成了 Phyrexian Processor。多年后罗斯瓦特为秘罗地又提了一次——「这一次他们告诉我，规则处理得了」——它以 Soul Foundry 的名字印了出来。"
+        },
+        {
+          "title": "给「需要被记住的东西」一个可以栖身的实物",
+          "rules": "你每允许一处自定义，就等于把一份状态塞进某个人的脑子里。找一件可以把这个选择记录下来的实物，自定义就不再消耗记忆——这件东西既是提醒，也是凭证。",
+          "flavor": "生物衍生物越是可以自定义，「需要记的东西就越多」。解法是：「如果它进战场时你从手上放逐一张生物牌，你就能拿那张牌当作备忘，记住这张牌在造什么。」"
+        },
+        {
+          "title": "把缺陷诊断到精确；总有某个位置要的正是这个缺陷",
+          "rules": "一个被反复否掉的组件，通常只有一处具体的失败。把它精确地说出来，而不是笼统地说「不行」，然后留意那个项目——它的约束条件恰好让这一模一样的行为从致命变成可取。",
+          "flavor": "「我们意识到探掘会自己跟自己打架，也就是说你没法在同一副牌里放很多张」，这让它进不了那些需要它挑大梁的坟场系列。《鞑契可汗》有五个阵营还有变身，正需要数量少的东西——「这就把探掘的缺陷变成了优点」。"
+        },
+        {
+          "title": "把范围放大到那个漏洞根本无处存在",
+          "rules": "当把一个效果的缝隙堵住所需的文字比效果本身还多时，解法通常不是再加文字。咬一口更大的：把窗口拉长到你原本防备的那个「回应」根本没地方发生。",
+          "flavor": "Word of Command 需要没完没了的文字，因为「对手总能在你施放时回应」。那一跃是：「如果你把对手接管整整一个回合，生效的那一刻他就无法回应，而且你还会重置他所有的地、抽一张牌。」"
+        },
+        {
+          "title": "留住这个机制，去改它的邻居",
+          "rules": "一个回归的组件，失败通常在互动上，而不在它自己身上。与其把它冲淡，不如去看它周围的东西——那些你还在设计中的东西——把它们调到既有协同又不会炸开。",
+          "flavor": "增殖在《卡拉德许》上撞了制造，在《以太之乱》和《拉尼卡效忠》都没成，最后落在《旅法师之战》的鹏洛客上。「我们得以调整另一个关键字——集结——让它与增殖有协同，却不至于出问题。」"
+        },
+        {
+          "title": "一个哪个项目都塞得进的设计，会输给那个只属于这个项目的设计",
+          "rules": "「哪儿都能用」在争位置时不是优点。任何对当前主题是核心的东西每次都赢它，所以要么给它一个「必须在这里」的理由，要么就接受你会反复提交好几年。",
+          "flavor": "绿色的 Mana Flare 从 1995 年起被放进一个又一个系列：「大家都赞成我们做一张绿色的 Mana Flare，但它总是输给更紧要的东西。」九年后它留在了《神河群英录》里。Ambassador Oak 则被「按数量砍掉」砍了十二年。"
+        },
+        {
+          "title": "你的设计会在它解决了别人的问题那天出场",
+          "rules": "你的推动只能让它被考虑；别人的需要才能让它被做出来。持续提交，好让它保持在视野里，然后等着那一天——某位同事伸手拿它，去解决一个不属于你的问题。",
+          "flavor": "罗斯瓦特并没有把「Moose and Squirrel」交给《晨光》。「这个系列的主开发 Mike Turian 当时正在找跨越多个生物类别的办法（这张牌能让他有一张同时是树精和妖精的牌），于是想起了 Moose and Squirrel。」"
+        },
+        {
+          "title": "一条一刀切的规则里编码着某个约束；约束消失时，请重新审视它",
+          "rules": "为绕开某个现实问题而立的规则，会比那个问题活得更久，因为没有人会再把它重新推导一遍。当底层条件变了，回头把旧规则禁止过的东西过一遍：其中有一些现在其实完全没问题。",
+          "flavor": "「Cone of Creatures」被卡住，是因为当时还不印衍生物牌，而且「研发部最后立了个规矩：我们不喜欢一张牌造出一种以上不同的生物衍生物」。等到衍生物牌开始随补充包发行，Bestial Menace 就变得「可以印了」。"
+        },
+        {
+          "title": "被要求砍东西时，拿掉牵连最少的那一块",
+          "rules": "如果要你拿掉一个组件，挑那个牵着最少线头的。其余的工作原封不动地活下来，而被拿掉的那块是整块出来的，不是碎的——所以日后还能照原样使用。",
+          "flavor": "Bill Rose 觉得秘罗地的设计塞得太满，要求拿掉一个大组件。「因为能量是交织得最少、因而最容易移除的，我就把它移除了……我把它记在心里，当作一个等合适的世界出现时可以用的机制。」"
+        },
+        {
+          "title": "如果记账不是有趣的那部分，就把资源从物件上挪走",
+          "rules": "存放在会被摧毁的东西上的资源，会逼着人们把注意力花在守护账目上，而不是花在做决定上。直接把它交给玩家：有意思的选择留下来，而监看消失了。",
+          "flavor": "分散在各个神器上的充电指示物「需要大量的盯防……你得非常留意自己是从哪个神器上取指示物。既然我觉得这并不是设计里有趣的部分，我就把这个机制改成了玩家直接获得的指示物，我叫它能量。」"
+        },
+        {
+          "title": "当阻力来自意见时，先发一份小样，让反应替你说话",
+          "rules": "一个机构凭直觉持有的立场，你是说不动的。把一个最小的版本放到观众面前，再带着他们的反应回来——来自屋外的证据，能了结屋内争论了结不了的事。",
+          "flavor": "中毒被从《时空风暴》里一点点削光，研发部干脆不再往系列里放。罗斯瓦特把「下毒」塞进了《预知未来》的两张牌，为的是「把脚尖再伸回毒池里，勾起玩家的一点兴趣」。多年之后，「多亏那两张牌得到的回应」，《秘罗地伤痕》拿到了它的中毒。"
+        }
+      ]
+    }
+  }
+}

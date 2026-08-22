@@ -1,0 +1,330 @@
+{
+  "id": "state-design-2019-08-26",
+  "slug": "state-design-2019-08-26",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2019-08-26",
+  "series": null,
+  "tags": [
+    "state-of-design",
+    "retrospective",
+    "process"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/state-design-2019-08-26",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-22T21:17:00.210Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "U" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "State of Design 2019",
+      "dek": "The fifteenth annual review: complexity finally landed in the middle, and the two sets that took real risks were the year's breakouts.",
+      "overview": "Rosewater's yearly assessment of Magic design — the shift to the vision design/set design/play design model, where complexity settled, and highlights and lessons for Guilds of Ravnica, Ravnica Allegiance, War of the Spark, Modern Horizons and Core Set 2020.",
+      "takeaway": "The year's two breakout sets were the two that took the biggest risks: “players seem more enamored when we're willing to push boundaries and try new things than when we just stick with the status quo.”",
+      "lessons": [
+        {
+          "title": "Publish a dated self-assessment every year",
+          "rules": "A review nobody outside can read is one you can quietly revise. Commit to a fixed cadence, say what went wrong alongside what worked, and leave last year's entry standing where the audience can check this year's against it.",
+          "flavor": "Rosewater has written the column since 2005, modelled on the State of the Union: “I look back at the last year of Magic and analyze how I felt the design went.” It is structured every time as highlights and lessons — for the year as a whole, then for each release."
+        },
+        {
+          "title": "Expect a correction to overshoot the other way",
+          "rules": "A dial you turned too far won't come to rest on the next adjustment. Plan for a few cycles of converging on the middle, and read each year's overshoot as part of the process rather than as a fresh failure.",
+          "flavor": "“Two years ago in my ‘State of Design' articles, I said we'd let complexity get a little too high. Last year, I said we overcompensated and ended up with complexity a little too low. I'm happy to say that we've found the middle ground.”"
+        },
+        {
+          "title": "Spend the complexity budget at the tier where it buys theme density",
+          "rules": "Complexity isn't one dial. Hold the entry tier steady, allow more at the tier just above it, and the pieces carrying your theme can drop down a level — so more people meet the theme without the entry point getting harder.",
+          "flavor": "R&D towed the line at common and raised what it allowed at uncommon: “the uncommon planeswalkers, in a vacuum, would probably be rares in a normal set, but by allowing ourselves to lower their rarity, we were able to infuse War of the Spark… with the planeswalker theme.”"
+        },
+        {
+          "title": "The production machinery is design surface",
+          "rules": "Treat the parts of the process usually filed under manufacturing — how the thing is packaged, distributed, framed — as tools the design can use. Some effects can only be produced there, and no amount of work on the content substitutes for them.",
+          "flavor": "Collation delivered War of the Spark's theme: “a complex collation scheme to ensure that every booster pack had a planeswalker that appeared in the rarity slot of that planeswalker,” which is why planeswalkers needed no dedicated slot. Card frames are being treated the same way."
+        },
+        {
+          "title": "Dropping the container means rebuilding the coherence deliberately",
+          "rules": "A structure you abandon was doing work you may never have credited it for. Once each unit is free to carry its own toolbox, they drift apart — unless connecting them becomes somebody's explicit goal.",
+          "flavor": "Moving away from the block structure left “a larger number of mechanical themes in Standard as each set tends to have its own toolbox… it's harder to play various sets with one another as each is pushing in a different direction.” The fix is designing synergies between sets."
+        },
+        {
+          "title": "A faithful revisit reproduces the old era's design too",
+          "rules": "Returning to something people loved, you inherit not only its content but the assumptions of the time it was made in. Decide consciously whether this trip re-imagines it, because doing nothing means shipping a competent copy of your older self.",
+          "flavor": "The Ravnica revisits “recreate the feel of Ravnica established by the original Ravnica block, but never innovate on it… we've never really re-envisioned the world through a modern design eye.” It was deliberate this time, since War of the Spark was carrying the risk."
+        },
+        {
+          "title": "Fix an imbalance by adding to the weak side",
+          "rules": "When one class of thing dominates, cutting it down costs you what made it exciting in the first place. Strengthening whatever is meant to check it keeps the excitement and restores the balance — usually at the tier where people meet the product first.",
+          "flavor": "On War of the Spark's rare bombs: players “disliked how many rare and mythic rare cards there were that were next to impossible to answer with common and uncommon cards… It's possible that this problem could be solved with more low-rarity answers rather than fewer rares and mythic rares.”"
+        },
+        {
+          "title": "A rarely-relevant permanent ability still costs attention forever",
+          "rules": "Something that seldom applies has to be remembered constantly anyway, and the rarer its moment, the likelier it is forgotten at exactly that moment. Be strictest about this at the tier where people will see the most copies.",
+          "flavor": "Every War of the Spark planeswalker had a static ability, and “a number of the static abilities were things that just didn't come up often, making them very hard to track.” Narset, Parter of Veils — an uncommon — was cited most: seldom live, devastating when it was."
+        },
+        {
+          "title": "Naming the audience is what lets a product be for them",
+          "rules": "A design that would be too much for everyone can be exactly right for a known subset. Say who it's for out loud, accept that most people will pass on it, and build without the compromises that trying to include them would force.",
+          "flavor": "Modern Horizons was pitched as high-complexity and nostalgia-rich: “Time Spiral block was a bit much as a Standard-legal set, but we believed it could thrive as a supplemental set… while it wasn't for everyone, it did have an audience, and that audience adored it.”"
+        },
+        {
+          "title": "The name is the expectation",
+          "rules": "Whatever attribute the name points at is the one people will measure the thing against, whatever else it does. If the name describes a secondary property, either change the name or spend real effort correcting the expectation before release.",
+          "flavor": "“We'd designed a Time Spiral 2–ish, high-complexity, nostalgia-rich set, and the name (and how we initially talked about it) created an expectation that it was more about a set maximizing Modern… we could have done a better job setting those expectations.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Estado del diseño 2019",
+      "dek": "El decimoquinto repaso anual: la complejidad por fin se asentó en el medio, y las dos colecciones que asumieron riesgos de verdad fueron las revelaciones del año.",
+      "overview": "El balance anual de Rosewater sobre el diseño de Magic: el cambio al modelo de diseño de visión / diseño de colección / diseño de juego, dónde acabó asentándose la complejidad, y los aciertos y las lecciones de Guilds of Ravnica, Ravnica Allegiance, War of the Spark, Modern Horizons y Core Set 2020.",
+      "takeaway": "Las dos colecciones revelación del año fueron las dos que corrieron más riesgos: «los jugadores parecen más entusiasmados cuando estamos dispuestos a forzar los límites y probar cosas nuevas que cuando nos quedamos en el statu quo».",
+      "lessons": [
+        {
+          "title": "Publica cada año una autoevaluación fechada",
+          "rules": "Una revisión que nadie de fuera puede leer es una revisión que puedes reescribir en silencio. Comprométete a una cadencia fija, cuenta lo que salió mal junto a lo que funcionó y deja en pie la entrada del año pasado para que el público pueda contrastar la de este año.",
+          "flavor": "Rosewater escribe la columna desde 2005, inspirada en el discurso del Estado de la Unión: «miro atrás el último año de Magic y analizo cómo creo que fue el diseño». Siempre está estructurada en aciertos y lecciones: primero del año entero y luego de cada lanzamiento."
+        },
+        {
+          "title": "Cuenta con que una corrección se pase por el otro lado",
+          "rules": "Un mando que giraste demasiado no se quedará quieto al siguiente ajuste. Cuenta con varios ciclos hasta converger en el punto medio y lee el exceso de cada año como parte del proceso y no como un fracaso nuevo.",
+          "flavor": "«Hace dos años, en mis artículos de “Estado del diseño”, dije que habíamos dejado subir demasiado la complejidad. El año pasado dije que nos habíamos pasado corrigiendo y la complejidad quedó un poco baja. Me alegra decir que hemos encontrado el término medio.»"
+        },
+        {
+          "title": "Gasta el presupuesto de complejidad en el escalón donde compra densidad de tema",
+          "rules": "La complejidad no es un único mando. Mantén firme el escalón de entrada, permite más en el inmediatamente superior, y las piezas que llevan tu tema pueden bajar un nivel: así más gente se encuentra con el tema sin que la entrada se endurezca.",
+          "flavor": "R&D mantuvo la raya en común y subió lo permitido en infrecuente: «los planeswalkers infrecuentes, en el vacío, seguramente serían raros en una colección normal, pero al permitirnos bajar su rareza pudimos impregnar War of the Spark… del tema de planeswalkers»."
+        },
+        {
+          "title": "La maquinaria de producción es superficie de diseño",
+          "rules": "Trata las partes del proceso que sueles archivar como fabricación —cómo se empaqueta, se distribuye, se enmarca— como herramientas a disposición del diseño. Hay efectos que sólo se producen ahí, y ningún trabajo sobre el contenido los sustituye.",
+          "flavor": "La colación entregó el tema de War of the Spark: «un esquema de colación complejo para asegurar que cada sobre tuviera un planeswalker aparecido en el hueco de rareza correspondiente», por lo que no hizo falta un hueco propio. Con los marcos de carta se está haciendo lo mismo."
+        },
+        {
+          "title": "Si quitas el contenedor, hay que reconstruir la coherencia a propósito",
+          "rules": "Una estructura que abandonas estaba haciendo un trabajo que quizá nunca le reconociste. Cuando cada unidad queda libre para llevar su propia caja de herramientas, se separan entre sí, a menos que conectarlas se vuelva un objetivo explícito de alguien.",
+          "flavor": "Alejarse de la estructura de bloque dejó «un número mayor de temas mecánicos en Estándar, porque cada colección tiende a tener su propia caja de herramientas… cuesta más jugar unas colecciones con otras, porque cada una empuja en una dirección distinta»."
+        },
+        {
+          "title": "Una vuelta fiel reproduce también el diseño de la época antigua",
+          "rules": "Al volver a algo que la gente quería, heredas no sólo su contenido sino los supuestos de la época en que se hizo. Decide conscientemente si este viaje lo reimagina, porque no hacer nada significa publicar una copia competente de tu yo antiguo.",
+          "flavor": "Las revisitas a Ravnica «recrean la sensación de Ravnica que estableció el bloque original, pero nunca innovan sobre ella… nunca hemos vuelto a imaginar el mundo con una mirada de diseño moderna». Fue deliberado esta vez, porque el riesgo lo llevaba War of the Spark."
+        },
+        {
+          "title": "Corrige un desequilibrio añadiendo al lado débil",
+          "rules": "Cuando una clase de cosas domina, recortarla te cuesta justo aquello que la hacía emocionante. Reforzar lo que debería contenerla conserva la emoción y restaura el equilibrio, normalmente en el escalón donde la gente se encuentra el producto por primera vez.",
+          "flavor": "Sobre las bombas raras de War of the Spark: a los jugadores «les disgustaba cuántas cartas raras y raras míticas eran casi imposibles de responder con comunes e infrecuentes… Es posible que esto se resuelva con más respuestas de rareza baja y no con menos raras»."
+        },
+        {
+          "title": "Una habilidad permanente que casi nunca importa cuesta atención para siempre",
+          "rules": "Algo que se aplica pocas veces hay que recordarlo igualmente todo el rato, y cuanto más raro es su momento, más probable es que se olvide justo entonces. Sé especialmente estricto en el escalón donde la gente verá más copias.",
+          "flavor": "Todos los planeswalkers de War of the Spark tenían habilidad estática, y «varias de esas estáticas eran cosas que no salían a menudo, lo que las hacía muy difíciles de seguir». La más citada fue Narset, Parter of Veils, infrecuente: rara vez activa, devastadora cuando lo estaba."
+        },
+        {
+          "title": "Nombrar al público es lo que permite que el producto sea para él",
+          "rules": "Un diseño que sería demasiado para todos puede ser justo lo adecuado para un subconjunto conocido. Di en voz alta para quién es, acepta que la mayoría pasará de largo y constrúyelo sin las concesiones que exigiría intentar incluirlos.",
+          "flavor": "Modern Horizons se propuso como una colección de alta complejidad y mucha nostalgia: «el bloque de Time Spiral era demasiado como colección legal en Estándar, pero creíamos que podía prosperar como colección suplementaria… no era para todos, pero tenía su público, y ese público la adoró»."
+        },
+        {
+          "title": "El nombre es la expectativa",
+          "rules": "El atributo al que apunta el nombre es aquel con el que la gente medirá la cosa, haga lo que haga además. Si el nombre describe una propiedad secundaria, o cambias el nombre o inviertes esfuerzo de verdad en corregir la expectativa antes del lanzamiento.",
+          "flavor": "«Habíamos diseñado una colección tipo Time Spiral 2, de alta complejidad y mucha nostalgia, y el nombre (y cómo hablamos de ella al principio) creó la expectativa de que iba más de maximizar Modern… podríamos haber gestionado mejor esas expectativas.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "État de la conception 2019",
+      "dek": "Le quinzième bilan annuel : la complexité a enfin trouvé le milieu, et les deux éditions qui ont pris de vrais risques ont été les révélations de l'année.",
+      "overview": "Le bilan annuel de Rosewater sur la conception de Magic : le passage au modèle conception de vision / conception d'édition / conception de jeu, où la complexité s'est stabilisée, et les points forts et les leçons de Guildes de Ravnica, Allégeance de Ravnica, La Guerre des Planeswalkers, Modern Horizons et Édition de base 2020.",
+      "takeaway": "Les deux révélations de l'année sont les deux éditions qui ont pris le plus de risques : « les joueurs semblent plus séduits quand nous acceptons de repousser les limites et d'essayer de nouvelles choses que quand nous nous en tenons au statu quo ».",
+      "lessons": [
+        {
+          "title": "Publiez chaque année une auto-évaluation datée",
+          "rules": "Un bilan que personne d'extérieur ne peut lire est un bilan que vous pouvez réécrire en silence. Tenez une cadence fixe, dites ce qui a raté autant que ce qui a marché, et laissez l'entrée de l'an dernier là où le public peut y confronter celle de cette année.",
+          "flavor": "Rosewater écrit cette chronique depuis 2005, sur le modèle du discours sur l'état de l'Union : « je regarde en arrière l'année écoulée de Magic et j'analyse ce que j'ai pensé de la conception ». Elle est toujours structurée en points forts et leçons — pour l'année, puis pour chaque sortie."
+        },
+        {
+          "title": "Attendez-vous à ce qu'une correction dépasse dans l'autre sens",
+          "rules": "Un curseur poussé trop loin ne s'immobilisera pas au réglage suivant. Prévoyez quelques cycles avant de converger vers le milieu, et lisez le dépassement de chaque année comme une étape du processus plutôt que comme un nouvel échec.",
+          "flavor": "« Il y a deux ans, dans mes chroniques “État de la conception”, j'ai dit que nous avions laissé la complexité monter un peu trop haut. L'an dernier, j'ai dit que nous avions surcorrigé et que la complexité était un peu trop basse. Je suis heureux de dire que nous avons trouvé le juste milieu. »"
+        },
+        {
+          "title": "Dépensez le budget de complexité là où il achète de la densité thématique",
+          "rules": "La complexité n'est pas un curseur unique. Maintenez le niveau d'entrée, autorisez davantage au niveau juste au-dessus, et les pièces qui portent votre thème peuvent descendre d'un cran : plus de gens rencontrent le thème sans que l'entrée devienne plus dure.",
+          "flavor": "R&D a tenu la ligne en commune et relevé ce qu'elle autorisait en peu commune : « dans l'absolu, les planeswalkers peu communs seraient sans doute des rares dans une édition normale, mais en nous autorisant à baisser leur rareté, nous avons pu imprégner La Guerre des Planeswalkers… du thème planeswalker »."
+        },
+        {
+          "title": "La machinerie de production est une surface de conception",
+          "rules": "Traitez les parties du processus qu'on range d'ordinaire sous « fabrication » — l'emballage, la distribution, le cadre — comme des outils à disposition de la conception. Certains effets ne se produisent que là, et aucun travail sur le contenu ne les remplace.",
+          "flavor": "La collation a livré le thème de La Guerre des Planeswalkers : « un schéma de collation complexe garantissant que chaque booster contienne un planeswalker apparaissant dans l'emplacement de sa rareté », d'où l'absence d'emplacement dédié. Les cadres de cartes sont traités de même."
+        },
+        {
+          "title": "Retirer le contenant oblige à reconstruire la cohérence exprès",
+          "rules": "Une structure que vous abandonnez faisait un travail que vous ne lui avez peut-être jamais reconnu. Dès que chaque unité peut porter sa propre boîte à outils, elles s'éloignent — sauf si les relier devient l'objectif explicite de quelqu'un.",
+          "flavor": "S'éloigner de la structure en blocs a laissé « un plus grand nombre de thèmes mécaniques en Standard, chaque édition ayant tendance à avoir sa propre boîte à outils… il est plus difficile de jouer les éditions ensemble, chacune poussant dans une direction différente »."
+        },
+        {
+          "title": "Un retour fidèle reproduit aussi la conception de l'époque",
+          "rules": "En revenant à ce que les gens ont aimé, vous héritez non seulement du contenu mais des présupposés de l'époque où il fut fait. Décidez sciemment si ce voyage le réinvente, car ne rien faire revient à publier une copie compétente de votre moi d'avant.",
+          "flavor": "Les retours à Ravnica « recréent la sensation de Ravnica établie par le bloc d'origine, sans jamais innover dessus… nous n'avons jamais vraiment repensé ce monde avec un regard de conception moderne ». C'était délibéré cette fois : le risque était porté par La Guerre des Planeswalkers."
+        },
+        {
+          "title": "Corrigez un déséquilibre en renforçant le côté faible",
+          "rules": "Quand une catégorie domine, la raboter vous coûte précisément ce qui la rendait excitante. Renforcer ce qui est censé la contenir garde l'excitation et rétablit l'équilibre — en général au niveau où le public rencontre le produit en premier.",
+          "flavor": "Sur les bombes rares de La Guerre des Planeswalkers : les joueurs « n'aimaient pas le nombre de rares et rares mythiques presque impossibles à traiter avec des communes et des peu communes… Ce problème pourrait se résoudre par plus de réponses de basse rareté plutôt que par moins de rares »."
+        },
+        {
+          "title": "Une capacité permanente rarement utile coûte de l'attention pour toujours",
+          "rules": "Ce qui s'applique rarement doit malgré tout être mémorisé en permanence, et plus son moment est rare, plus il risque d'être oublié précisément à ce moment-là. Soyez le plus strict au niveau où les gens verront le plus d'exemplaires.",
+          "flavor": "Chaque planeswalker de La Guerre des Planeswalkers avait une capacité statique, et « plusieurs de ces statiques ne se déclenchaient pas souvent, ce qui les rendait très difficiles à suivre ». La plus citée : Narset, fendeuse des voiles, peu commune — rarement active, dévastatrice quand elle l'était."
+        },
+        {
+          "title": "Nommer le public est ce qui permet au produit d'être pour lui",
+          "rules": "Une conception qui serait trop pour tout le monde peut convenir exactement à un sous-ensemble identifié. Dites tout haut à qui elle s'adresse, acceptez que la plupart passeront leur tour, et construisez sans les compromis qu'exigerait la volonté de les inclure.",
+          "flavor": "Modern Horizons fut proposée comme une édition très complexe et gorgée de nostalgie : « le bloc Spirale Temporelle était un peu trop pour une édition légale en Standard, mais nous pensions qu'elle prospérerait en édition supplémentaire… ce n'était pas pour tout le monde, mais ce public-là l'a adorée »."
+        },
+        {
+          "title": "Le nom, c'est l'attente",
+          "rules": "L'attribut que désigne le nom est celui à l'aune duquel le public jugera la chose, quoi qu'elle fasse par ailleurs. Si le nom décrit une propriété secondaire, changez le nom ou investissez réellement pour corriger l'attente avant la sortie.",
+          "flavor": "« Nous avions conçu une sorte de Spirale Temporelle 2, très complexe et nostalgique, et le nom (ainsi que notre façon d'en parler au début) a créé l'attente d'une édition surtout centrée sur le Modern… nous aurions pu mieux gérer ces attentes. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Estado do design 2019",
+      "dek": "O décimo quinto balanço anual: a complexidade enfim parou no meio, e as duas coleções que correram riscos de verdade foram as revelações do ano.",
+      "overview": "O balanço anual de Rosewater sobre o design de Magic: a mudança para o modelo design de visão / design de coleção / design de jogo, onde a complexidade se acomodou, e os destaques e as lições de Guilds of Ravnica, Ravnica Allegiance, War of the Spark, Modern Horizons e Core Set 2020.",
+      "takeaway": "As duas coleções revelação do ano foram justamente as que correram os maiores riscos: “os jogadores parecem mais encantados quando estamos dispostos a empurrar os limites e tentar coisas novas do que quando ficamos no status quo”.",
+      "lessons": [
+        {
+          "title": "Publique todo ano uma autoavaliação datada",
+          "rules": "Uma revisão que ninguém de fora pode ler é uma revisão que você reescreve em silêncio. Assuma uma cadência fixa, conte o que deu errado junto com o que funcionou, e deixe de pé o texto do ano passado onde o público possa conferir o deste ano contra ele.",
+          "flavor": "Rosewater escreve a coluna desde 2005, espelhada no discurso do Estado da União: “olho para trás, para o último ano de Magic, e analiso como acho que o design foi”. Ela é sempre estruturada em destaques e lições — do ano inteiro e depois de cada lançamento."
+        },
+        {
+          "title": "Conte que uma correção vai passar do ponto para o outro lado",
+          "rules": "Um botão que você girou demais não vai parar quieto no próximo ajuste. Conte com alguns ciclos até convergir para o meio e leia o excesso de cada ano como parte do processo, não como um fracasso novo.",
+          "flavor": "“Dois anos atrás, nos meus artigos de ‘Estado do design', eu disse que tínhamos deixado a complexidade subir um pouco demais. Ano passado, eu disse que compensamos demais e a complexidade ficou um pouco baixa. Fico feliz em dizer que achamos o meio-termo.”"
+        },
+        {
+          "title": "Gaste o orçamento de complexidade no degrau em que ele compra densidade de tema",
+          "rules": "Complexidade não é um botão só. Segure firme o degrau de entrada, permita mais no degrau logo acima, e as peças que carregam o seu tema podem descer um nível: mais gente encontra o tema sem que a entrada fique mais dura.",
+          "flavor": "A P&D segurou a linha no comum e elevou o que permitia no incomum: “os planeswalkers incomuns, no vácuo, provavelmente seriam raros numa coleção normal, mas ao nos permitirmos baixar a raridade deles, conseguimos impregnar War of the Spark… do tema de planeswalkers”."
+        },
+        {
+          "title": "A maquinaria de produção é superfície de design",
+          "rules": "Trate as partes do processo que costumam ser arquivadas como fabricação — como a coisa é embalada, distribuída, emoldurada — como ferramentas à disposição do design. Há efeitos que só se produzem ali, e nenhum trabalho sobre o conteúdo os substitui.",
+          "flavor": "A colação entregou o tema de War of the Spark: “um esquema de colação complexo para garantir que todo booster tivesse um planeswalker aparecendo no espaço de raridade dele”, e por isso não foi preciso um espaço dedicado. As molduras estão sendo tratadas do mesmo jeito."
+        },
+        {
+          "title": "Tirar o recipiente obriga a reconstruir a coerência de propósito",
+          "rules": "Uma estrutura que você abandona estava fazendo um trabalho que talvez você nunca tenha creditado a ela. Assim que cada unidade fica livre para ter a própria caixa de ferramentas, elas se afastam — a menos que ligá-las vire meta explícita de alguém.",
+          "flavor": "Sair da estrutura de bloco deixou “um número maior de temas mecânicos no Padrão, já que cada coleção tende a ter a própria caixa de ferramentas… fica mais difícil jogar várias coleções juntas, porque cada uma empurra numa direção diferente”."
+        },
+        {
+          "title": "Uma volta fiel reproduz também o design da era antiga",
+          "rules": "Ao voltar a algo que as pessoas amaram, você herda não só o conteúdo mas os pressupostos da época em que foi feito. Decida conscientemente se esta viagem o reimagina, porque não fazer nada significa lançar uma cópia competente do seu eu antigo.",
+          "flavor": "As revisitas a Ravnica “recriam a sensação de Ravnica estabelecida pelo bloco original, mas nunca inovam em cima dela… nunca reimaginamos de fato o mundo com um olhar de design moderno”. Desta vez foi deliberado, já que o risco estava com War of the Spark."
+        },
+        {
+          "title": "Conserte um desequilíbrio reforçando o lado fraco",
+          "rules": "Quando uma classe de coisas domina, aparar essa classe custa justamente o que a tornava empolgante. Reforçar o que deveria contê-la mantém a empolgação e restaura o equilíbrio — em geral no degrau em que as pessoas encontram o produto primeiro.",
+          "flavor": "Sobre as bombas raras de War of the Spark: os jogadores “não gostaram de quantas raras e raras míticas eram quase impossíveis de responder com comuns e incomuns… É possível que isso se resolva com mais respostas de raridade baixa, e não com menos raras”."
+        },
+        {
+          "title": "Uma habilidade permanente que raramente importa custa atenção para sempre",
+          "rules": "O que quase nunca se aplica ainda assim precisa ser lembrado o tempo todo, e quanto mais raro é o momento dele, maior a chance de ser esquecido exatamente nesse momento. Seja mais rigoroso no degrau em que as pessoas verão mais cópias.",
+          "flavor": "Todo planeswalker de War of the Spark tinha uma habilidade estática, e “várias dessas estáticas eram coisas que simplesmente não apareciam com frequência, o que as tornava muito difíceis de acompanhar”. A mais citada foi Narset, Parter of Veils, incomum: raramente ativa, devastadora quando estava."
+        },
+        {
+          "title": "Nomear o público é o que permite que o produto seja para ele",
+          "rules": "Um design que seria demais para todo mundo pode ser exatamente certo para um subconjunto conhecido. Diga em voz alta para quem ele é, aceite que a maioria vai passar, e construa sem as concessões que tentar incluí-los exigiria.",
+          "flavor": "Modern Horizons foi proposta como uma coleção de alta complexidade e cheia de nostalgia: “o bloco Time Spiral era demais como coleção legal no Padrão, mas acreditávamos que prosperaria como coleção suplementar… não era para todos, mas tinha um público, e esse público a adorou”."
+        },
+        {
+          "title": "O nome é a expectativa",
+          "rules": "O atributo para o qual o nome aponta é aquele com que as pessoas vão medir a coisa, faça ela o que fizer além disso. Se o nome descreve uma propriedade secundária, ou você muda o nome, ou gasta esforço de verdade corrigindo a expectativa antes do lançamento.",
+          "flavor": "“Tínhamos desenhado uma coleção meio Time Spiral 2, de alta complexidade e muita nostalgia, e o nome (e o modo como falamos dela no começo) criou a expectativa de que fosse mais sobre maximizar o Modern… poderíamos ter administrado melhor essas expectativas.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "设计现状 2019",
+      "dek": "第十五份年度检讨：复杂度终于落回中间，而这一年真正冒了风险的两个系列，成了年度爆款。",
+      "overview": "罗斯瓦特的年度设计总结——转向「愿景设计／系列设计／对局设计」的新流程、复杂度最后落在哪里，以及《拉尼卡公会》《拉尼卡效忠》《旅法师之战》《摩登新篇》和《基本系列 2020》各自的亮点与教训。",
+      "takeaway": "这一年的两个爆款系列，正是冒险最大的那两个：「比起我们守着现状，玩家似乎在我们愿意突破边界、尝试新东西时更为着迷。」",
+      "lessons": [
+        {
+          "title": "每年公开发表一份带日期的自我检讨",
+          "rules": "一份外人看不到的复盘，是一份你可以悄悄改掉的复盘。定下固定的节奏，把做砸的和做成的一起说出来，并把去年那一篇留在原地，让读者拿今年这篇去跟它对照。",
+          "flavor": "罗斯瓦特从 2005 年起写这个专栏，仿的是国情咨文：「我回头看 Magic 的这一年，分析我觉得设计做得怎么样。」它每次的结构都一样：亮点与教训——先讲整年，再逐个系列讲。"
+        },
+        {
+          "title": "预期一次修正会往另一边过头",
+          "rules": "被你拧过头的旋钮，不会在下一次调整时就停住。要为「花上几个周期才收敛到中间」做好准备，并把每一年的过头读作过程的一部分，而不是一次全新的失败。",
+          "flavor": "「两年前在我的『设计现状』文章里，我说我们让复杂度升得有点太高。去年我说我们矫枉过正，复杂度又稍微低了点。我很高兴地说，我们找到了那个中间地带。」"
+        },
+        {
+          "title": "把复杂度的预算花在能换来主题密度的那一层",
+          "rules": "复杂度不是只有一个旋钮。稳住入门那一层，在紧挨着它的上一层放宽，那么承载你主题的那些东西就能往下掉一级——于是更多人碰得到主题，而入门门槛并没有变高。",
+          "flavor": "研发部在普通位守住底线，同时提高了非普通位允许的复杂度：「这些非普通位的鹏洛客，单看的话在一般系列里大概会是稀有；但因为允许自己降低它们的稀有度，我们得以把鹏洛客主题灌进《旅法师之战》。」"
+        },
+        {
+          "title": "生产环节本身就是设计的表面",
+          "rules": "把那些通常被归到「制造」名下的环节——怎么包装、怎么分发、用什么边框——当作设计可以调用的工具。有些效果只能在那里被造出来，在内容上再怎么下功夫也替代不了。",
+          "flavor": "分配决定了《旅法师之战》主题的成败：「一套复杂的分配方案，确保每个补充包里都有一个出现在其对应稀有度位置上的鹏洛客」，因此鹏洛客根本不需要专属卡位。牌框现在也被同样对待。"
+        },
+        {
+          "title": "拿掉容器，就得刻意把连贯性重新造出来",
+          "rules": "被你放弃的那个结构，一直在做一份你也许从未记在它头上的工作。一旦每个单位都可以自带一套工具箱，它们就会各奔东西——除非「把它们连起来」成了某个人明确的目标。",
+          "flavor": "离开环境结构之后，「标准赛里的机制主题变多了，因为每个系列往往有自己的一套工具箱……各个系列之间更难一起玩，因为每一个都在往不同方向使劲。」"
+        },
+        {
+          "title": "忠实的重访，连旧时代的设计一起复刻了回来",
+          "rules": "回到人们喜爱过的东西时，你继承的不只是它的内容，还有它被做出来的那个年代的种种预设。要有意识地决定这一趟是否重新想象它——因为什么都不做，等于发行一份你旧日自我的合格复制品。",
+          "flavor": "几次重回拉尼卡「重现了初代拉尼卡环境确立的那种感觉，却从未在其上创新……我们从没真正用现代的设计眼光重新构想过这个世界」。这次是有意为之，因为冒险的部分由《旅法师之战》担着。"
+        },
+        {
+          "title": "修正失衡，要往弱的一边加，而不是从强的一边砍",
+          "rules": "当某一类东西压倒性地强时，把它削下去，削掉的恰恰是它令人兴奋的地方。加强本该制衡它的那一边，既保住了兴奋，又恢复了平衡——而且通常就落在人们最先接触到产品的那一层。",
+          "flavor": "关于《旅法师之战》的稀有炸弹：玩家「不喜欢有那么多稀有和秘稀，用普通位和非普通位的牌几乎没法应对……这个问题也许可以靠更多低稀有度的解答来解决，而不是靠减少强力的稀有牌。」"
+        },
+        {
+          "title": "一个很少用得上的永久性能力，仍然会永远收取注意力",
+          "rules": "很少适用的东西照样得一直记着，而且它的时刻越罕见，就越可能恰好在那一刻被忘掉。在人们会看到最多份数的那一层，对这件事要最严格。",
+          "flavor": "《旅法师之战》的每个鹏洛客都有静止式异能，而「其中不少静止式异能是不太会出现的情况，因此非常难以追踪」。被点名最多的是非普通位的 Narset, Parter of Veils：极少生效，一旦生效毁天灭地。"
+        },
+        {
+          "title": "把受众说出来，产品才可能真正属于他们",
+          "rules": "一个对所有人来说都过量的设计，对一个已知的子群体可能恰到好处。大声说清楚它是给谁的，接受大多数人会略过它，然后不必为了把他们塞进来而做那些妥协。",
+          "flavor": "《摩登新篇》当初就是按「高复杂度、浓怀旧」提案的：「时光漩涡环境作为标准赛合法系列确实有点过头，但我们相信它作为补充系列能活得很好……它不是给所有人的，但它有它的受众，而那群受众爱惨了它。」"
+        },
+        {
+          "title": "名字就是预期",
+          "rules": "名字指向哪个属性，人们就会拿哪个属性去衡量这样东西，不管它另外还做了什么。如果名字描述的是一个次要属性，那么要么改名字，要么在发行之前真正花力气去纠正预期。",
+          "flavor": "「我们做的是一个类似『时光漩涡 2』、高复杂度、浓怀旧的系列，而这个名字（以及我们最初谈论它的方式）造成了一种预期，好像它主要是关于把摩登赛制做到最大……在设定这些预期上，我们本可以做得更好。」"
+        }
+      ]
+    }
+  }
+}
