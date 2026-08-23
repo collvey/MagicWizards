@@ -1,0 +1,320 @@
+{
+  "id": "theroses-are-red-and-white-blue-black-and-green-part-2-2013-10-07",
+  "slug": "theroses-are-red-and-white-blue-black-and-green-part-2-2013-10-07",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-10-07",
+  "series": { "id": "theroses-are-red", "order": 2, "total": 2 },
+  "tags": ["card-by-card", "top-down", "design-story", "typal"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/theroses-are-red-and-white-blue-black-and-green-part-2-2013-10-07",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Theroses Are Red, and White, Blue, Black, and Green, Part 2",
+      "dek": "N through Z, including a cycle that grew out of one line in somebody else's document and a monster whose only two outcomes were losing and winning.",
+      "overview": "The second half of the card stories, and the better one, because more of the entries are about how a decision propagated. A land that arrived by a chain of forced narrowings. An enchantment cycle whose extra effect existed only because it made the rules text easy, and which development mistook — nearly — for the point. A weapon cycle seeded by an incidental detail in another department's character write-up. A tribal theme chosen against the grain of the source, then allocated a second colour by a knock-on from a decision about a different creature type entirely.",
+      "takeaway": "Most of these cards exist because of something adjacent to them: another team's prose, a constraint on a neighbouring type, a slot that had to be filled with something. The design work is less inventing than following the consequences of things already decided.",
+      "lessons": [
+        {
+          "title": "A chain of forced narrowings can produce the design on its own",
+          "rules": "Watch how one card arrives. The team decides the set must contain a temple. A temple is a place, and places are represented by lands, so it is a land. Lands produce mana. There were no slots for five of them, so it cannot be a cycle, which means it produces either one colour or all five. Meanwhile another mechanic wants concentration, so the land should help that without helping everything. At no point did anyone have an idea; each answer removed options until only one shape was left. Asking what the previous constraint forces is a way of designing.",
+          "flavor": "Where did it start? Our desire to make a temple."
+        },
+        {
+          "title": "Span a theme across two factions and the number of viable builds triples",
+          "rules": "Committing a creature type to a single colour gives people one deck to build. Committing it to two gives them three: each colour on its own, plus the pair. That is his stated reason for doing it this way every time the situation comes up, and it is a straightforwardly better return on the same amount of material. It also converts the theme from something you either are or are not doing into a set of positions with different amounts of commitment, which is where the interesting deck-building decisions live.",
+          "flavor": "Two-colour tribal is just more fun. It gives the players choices."
+        },
+        {
+          "title": "Allocation decisions cascade, so the second one is constrained by the first",
+          "rules": "The tribe's second colour looks like a free choice and was not. One candidate was rejected because that colour implies restraint and these creatures were meant to be wild. The final answer was partly determined by a decision about a completely different creature type — that one had already claimed a colour pair for story reasons, which removed it from consideration here. Whenever you are assigning things to a fixed set of positions, the later assignments are working in whatever space the earlier ones left, and the order you decide in is itself a decision.",
+          "flavor": "We didn't make them red-green because the creative team wanted the satyrs there."
+        },
+        {
+          "title": "One incidental line in another team's document can seed a whole cycle — go back and ask for the rest",
+          "rules": "A character write-up produced by the creative department mentioned, in passing, that one deity carried a particular weapon. Design liked the detail enough to build a card from it, then noticed a second write-up hinted at another item, built that too, and then went back to the other department and asked whether all five could have one. A cycle exists because somebody read someone else's prose closely and then requested the missing pieces. Read the documents you are handed for things nobody thought were load-bearing, and ask for symmetry when you find one.",
+          "flavor": "\"Could all the major gods have a special item, please?\""
+        },
+        {
+          "title": "When two cycles must interlock, form one cross-discipline group that owns the pair",
+          "rules": "There were five of one thing and five of another, and each pair was supposed to work together. Rather than tuning them separately and hoping, a small standing group was created spanning both design and development, whose whole remit was those ten cards and the relationships between them. That is the correct response to a coupling that crosses a departmental boundary: rather than negotiating at the boundary, create a body that contains it. Ten objects is small enough that one group can hold all of it at once.",
+          "flavor": "Erik set up a mini team for the gods and their weapons, and we worked to make each pair synergise."
+        },
+        {
+          "title": "Let the fiction supply the cost",
+          "rules": "The card had to depict a rescue from the underworld, which means the thing being rescued has to have been in the underworld. So the spell requires you to sacrifice a creature: it dies, it goes there, and the spell brings back both. The price is not a balancing device that was then dressed in flavour — it is the flavour, and it happens to be a sensible price. When you need a cost, check whether the story you are telling already contains one. Costs derived this way get explained by the card itself.",
+          "flavor": "It was key to the flavour that they were rescued, so the creature had to die to get there."
+        },
+        {
+          "title": "An ability whose only outcomes are dying and winning has no middle, and the middle is the game",
+          "rules": "The first version of one large creature attacked everything the opponent had when activated. In practice this produced two results: usually it died doing it, and occasionally it cleared the board and the game was effectively over. Neither is an interesting turn. The failure is not that the effect was too weak or too strong but that it had no distribution — nothing between total loss and total victory. When testing something decisive, check what the middling outcome looks like, and be suspicious if you cannot find one.",
+          "flavor": "It usually died. The few times it didn't, you essentially won."
+        },
+        {
+          "title": "Keep a mechanism that can absorb a decision made outside your process",
+          "rules": "Asked when design knew a particular card was in the set, the answer is: when the head developer said it was. A reprint had been reserved for this release by someone reasoning about an entirely different product line, and the response was to make a slot the same day and put it in. That is the right reflex. Some contents arrive by decree from a level above the project, and a file with no give in it turns each of those into a crisis rather than an insertion.",
+          "flavor": "I made a slot for it later that day and stuck it in."
+        },
+        {
+          "title": "Check whether the source supplies your structural theme before importing it from the last project",
+          "rules": "The previous top-down world had used a strong creature-type theme, and it worked because the genre is full of groups — hordes, clans, packs. Asked whether to repeat it, the answer was quickly no: this source has very little sense of like creatures banding together, so the structure would have had to be imposed rather than found. Themes that worked last time are the most tempting to carry forward and the easiest to carry forward wrongly. Test each against the new material before assuming it transfers.",
+          "flavor": "Greek mythology had less of a sense of like creatures banding together."
+        },
+        {
+          "title": "Deliver what people believe the source contains, not only what it contains",
+          "rules": "One famous monster in the set is not from this mythology at all — it is Norwegian, and it is here because a film put it in a Greek setting and a line from that film is what everyone remembers. The team's position is that this is not a mistake to be corrected. Perception of the source is what the audience arrives holding, and a set that contradicts it in order to be correct will read as wrong. Be accurate where accuracy is invisible, and deliver the popular version where it is what people came for.",
+          "flavor": "\"Release the Kraken!\" Krakens are actually Norwegian."
+        }
+      ]
+    },
+    "es": {
+      "title": "Las Theros son rojas, y blancas, azules, negras y verdes, parte 2",
+      "dek": "De la N a la Z, incluido un ciclo que creció de una línea en el documento de otro y un monstruo cuyos dos únicos desenlaces eran perder y ganar.",
+      "overview": "La segunda mitad de las historias de cartas, y la mejor, porque más entradas tratan de cómo se propagó una decisión. Una tierra que llegó por una cadena de estrechamientos forzados. Un ciclo de encantamientos cuyo efecto extra existía solo porque facilitaba el texto de reglas, y que desarrollo casi confunde con el objetivo. Un ciclo de armas sembrado por un detalle incidental en la descripción de un personaje hecha por otro departamento. Un tema tribal elegido a contrapelo de la fuente y luego asignado a un segundo color por rebote de una decisión sobre un tipo de criatura completamente distinto.",
+      "takeaway": "La mayoría de estas cartas existen por algo contiguo a ellas: la prosa de otro equipo, una restricción sobre un tipo vecino, un hueco que había que rellenar con algo. El trabajo de diseño es menos inventar que seguir las consecuencias de lo ya decidido.",
+      "lessons": [
+        {
+          "title": "Una cadena de estrechamientos forzados puede producir el diseño por sí sola",
+          "rules": "Fíjate en cómo llega una carta. El equipo decide que la colección debe contener un templo. Un templo es un lugar, y los lugares se representan con tierras, así que es una tierra. Las tierras producen maná. No había huecos para cinco de ellas, así que no puede ser un ciclo, lo que significa que produce un solo color o los cinco. Mientras tanto, otra mecánica quiere concentración, así que la tierra debería ayudar a eso sin ayudar a todo. En ningún momento nadie tuvo una idea: cada respuesta eliminó opciones hasta que solo quedó una forma. Preguntar qué obliga la restricción anterior es una manera de diseñar.",
+          "flavor": "¿Dónde empezó? En nuestro deseo de hacer un templo."
+        },
+        {
+          "title": "Extiende un tema por dos facciones y el número de construcciones viables se triplica",
+          "rules": "Comprometer un tipo de criatura a un solo color le da a la gente un mazo que construir. Comprometerlo a dos le da tres: cada color por su cuenta más la pareja. Ese es el motivo que él declara para hacerlo así siempre que se presenta la situación, y es un rendimiento sencillamente mejor sobre la misma cantidad de material. Además convierte el tema de algo que o haces o no haces en un conjunto de posiciones con distintos grados de compromiso, que es donde viven las decisiones interesantes de construcción de mazos.",
+          "flavor": "El tribal a dos colores es sencillamente más divertido. Le da opciones al jugador."
+        },
+        {
+          "title": "Las decisiones de asignación se encadenan, así que la segunda queda condicionada por la primera",
+          "rules": "El segundo color de la tribu parece una elección libre y no lo era. Un candidato se descartó porque ese color implica contención y estas criaturas debían ser salvajes. La respuesta final quedó determinada en parte por una decisión sobre un tipo de criatura completamente distinto: aquel ya había reclamado una pareja de colores por motivos de historia, lo que la sacó de la baraja aquí. Siempre que asignes cosas a un conjunto fijo de posiciones, las asignaciones posteriores trabajan en el espacio que dejaron las anteriores, y el orden en que decides es en sí una decisión.",
+          "flavor": "No los hicimos rojo-verde porque el equipo creativo quería allí a los sátiros."
+        },
+        {
+          "title": "Una línea incidental en el documento de otro equipo puede sembrar un ciclo entero: vuelve y pide el resto",
+          "rules": "Una descripción de personaje producida por el departamento creativo mencionaba de pasada que cierta deidad portaba un arma concreta. A diseño le gustó lo bastante el detalle como para construir una carta a partir de él, luego notó que otra descripción insinuaba otro objeto, construyó ese también, y después volvió al otro departamento a preguntar si los cinco podían tener uno. Existe un ciclo porque alguien leyó con atención la prosa ajena y luego pidió las piezas que faltaban. Lee los documentos que te pasan buscando cosas que nadie consideraba estructurales, y cuando encuentres una, pide simetría.",
+          "flavor": "«¿Podrían tener todos los dioses mayores un objeto especial, por favor?»"
+        },
+        {
+          "title": "Cuando dos ciclos deben encajar, forma un solo grupo interdisciplinar que sea dueño de la pareja",
+          "rules": "Había cinco de una cosa y cinco de otra, y se suponía que cada pareja funcionaba junta. En vez de ajustarlas por separado y confiar, se creó un pequeño grupo permanente que abarcaba diseño y desarrollo y cuya misión entera eran esas diez cartas y las relaciones entre ellas. Esa es la respuesta correcta a un acoplamiento que cruza una frontera departamental: en vez de negociar en la frontera, crea un órgano que la contenga. Diez objetos son lo bastante pocos como para que un grupo los sostenga todos a la vez.",
+          "flavor": "Erik montó un miniequipo para los dioses y sus armas, y trabajamos para que cada pareja tuviera sinergia."
+        },
+        {
+          "title": "Deja que la ficción aporte el coste",
+          "rules": "La carta tenía que representar un rescate del inframundo, lo que significa que lo rescatado tuvo que estar en el inframundo. Así que el hechizo exige que sacrifiques una criatura: muere, va allí y el hechizo trae de vuelta a las dos. El precio no es un dispositivo de equilibrio vestido después de sabor: es el sabor, y da la casualidad de que es un precio sensato. Cuando necesites un coste, comprueba si la historia que cuentas ya contiene uno. Los costes derivados así los explica la propia carta.",
+          "flavor": "Era clave para el sabor que fueran rescatados, así que la criatura tenía que morir para llegar allí."
+        },
+        {
+          "title": "Una habilidad cuyos únicos desenlaces son morir y ganar no tiene término medio, y el término medio es el juego",
+          "rules": "La primera versión de una criatura grande atacaba todo lo que tuviera el oponente al activarse. En la práctica esto producía dos resultados: normalmente moría al hacerlo y, de vez en cuando, limpiaba el tablero y la partida quedaba efectivamente terminada. Ninguno es un turno interesante. El fallo no es que el efecto fuera demasiado débil o demasiado fuerte, sino que no tenía distribución: nada entre la derrota total y la victoria total. Al probar algo decisivo, mira qué aspecto tiene el desenlace intermedio, y sospecha si no consigues encontrarlo.",
+          "flavor": "Normalmente moría. Las pocas veces que no, básicamente habías ganado."
+        },
+        {
+          "title": "Mantén un mecanismo capaz de absorber una decisión tomada fuera de tu proceso",
+          "rules": "Al preguntarle cuándo supo diseño que cierta carta estaba en la colección, la respuesta es: cuando el jefe de desarrollo dijo que lo estaba. Alguien que razonaba sobre una línea de producto completamente distinta había reservado una reimpresión para este lanzamiento, y la reacción fue hacer un hueco ese mismo día y meterla. Ese es el reflejo correcto. Algunos contenidos llegan por decreto desde un nivel superior al proyecto, y un archivo sin holgura convierte cada uno de ellos en una crisis en vez de en una inserción.",
+          "flavor": "Le hice un hueco ese mismo día y la metí."
+        },
+        {
+          "title": "Comprueba si la fuente aporta tu tema estructural antes de importarlo del proyecto anterior",
+          "rules": "El mundo top-down anterior había usado un fuerte tema de tipos de criatura, y funcionó porque ese género está lleno de grupos: hordas, clanes, manadas. Al preguntarse si repetirlo, la respuesta fue rápidamente no: esta fuente tiene muy poco sentido de criaturas iguales agrupándose, así que la estructura habría tenido que imponerse en vez de encontrarse. Los temas que funcionaron la última vez son los más tentadores de arrastrar y los más fáciles de arrastrar mal. Prueba cada uno contra el material nuevo antes de dar por hecho que se transfiere.",
+          "flavor": "La mitología griega tenía menos sentido de criaturas iguales agrupándose."
+        },
+        {
+          "title": "Entrega lo que la gente cree que contiene la fuente, y no solo lo que contiene",
+          "rules": "Uno de los monstruos famosos de la colección no es de esta mitología en absoluto: es noruego, y está aquí porque una película lo puso en un entorno griego y una frase de esa película es lo que todo el mundo recuerda. La postura del equipo es que esto no es un error a corregir. La percepción de la fuente es lo que el público trae consigo, y una colección que la contradice por ser correcta se leerá como equivocada. Sé exacto donde la exactitud sea invisible, y entrega la versión popular donde sea a lo que vino la gente.",
+          "flavor": "«¡Libera al kraken!» Los krakens son en realidad noruegos."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Les Theros sont rouges, et blanches, bleues, noires et vertes, partie 2",
+      "dek": "De N à Z, dont un cycle né d'une ligne dans le document d'un autre et un monstre dont les deux seuls dénouements étaient perdre et gagner.",
+      "overview": "La seconde moitié des histoires de cartes, et la meilleure, parce que davantage d'entrées portent sur la propagation d'une décision. Un terrain arrivé par une chaîne de rétrécissements forcés. Un cycle d'enchantements dont l'effet supplémentaire n'existait que parce qu'il facilitait le texte de règles, et que le développement a failli prendre pour l'essentiel. Un cycle d'armes semé par un détail incident dans la fiche de personnage d'un autre service. Un thème de type choisi à rebours de la source, puis doté d'une seconde couleur par ricochet d'une décision sur un type de créature tout autre.",
+      "takeaway": "La plupart de ces cartes existent à cause de quelque chose d'adjacent : la prose d'une autre équipe, une contrainte sur un type voisin, une case qu'il fallait remplir. Le travail de conception consiste moins à inventer qu'à suivre les conséquences de ce qui est déjà décidé.",
+      "lessons": [
+        {
+          "title": "Une chaîne de rétrécissements forcés peut produire la conception toute seule",
+          "rules": "Regardez comment arrive une carte. L'équipe décide que l'extension doit contenir un temple. Un temple est un lieu, et les lieux se représentent par des terrains : c'est donc un terrain. Les terrains produisent du mana. Il n'y avait pas de place pour cinq, donc ce ne peut être un cycle, ce qui signifie qu'il produit une couleur ou les cinq. Par ailleurs une autre mécanique veut de la concentration : le terrain doit donc l'aider sans aider tout le reste. À aucun moment quelqu'un n'a eu une idée ; chaque réponse a retiré des options jusqu'à ce qu'il ne reste qu'une forme. Demander ce que la contrainte précédente impose est une façon de concevoir.",
+          "flavor": "Où cela a-t-il commencé ? Dans notre envie de faire un temple."
+        },
+        {
+          "title": "Étalez un thème sur deux factions et le nombre de constructions viables triple",
+          "rules": "Attribuer un type de créature à une seule couleur donne un deck à bâtir. L'attribuer à deux en donne trois : chaque couleur seule, plus la paire. C'est la raison qu'il avance pour procéder ainsi chaque fois que la situation se présente, et c'est un rendement simplement meilleur pour la même quantité de matière. Cela transforme aussi le thème d'une chose qu'on fait ou ne fait pas en un ensemble de positions à degrés d'engagement variables, là où vivent les décisions intéressantes de construction.",
+          "flavor": "Le tribal bicolore est simplement plus amusant. Il donne des choix aux joueurs."
+        },
+        {
+          "title": "Les décisions d'attribution s'enchaînent : la seconde est contrainte par la première",
+          "rules": "La seconde couleur de la tribu ressemble à un choix libre et n'en était pas un. Un candidat a été écarté parce que cette couleur implique la retenue et que ces créatures devaient être sauvages. La réponse finale a été en partie déterminée par une décision sur un type de créature tout autre : celui-ci avait déjà revendiqué une paire de couleurs pour des raisons d'histoire, ce qui l'a retirée d'ici. Chaque fois que vous attribuez des choses à un ensemble fixe de positions, les attributions ultérieures travaillent dans l'espace laissé par les précédentes, et l'ordre dans lequel vous décidez est lui-même une décision.",
+          "flavor": "Nous ne les avons pas faits rouge-vert parce que l'équipe créative y voulait les satyres."
+        },
+        {
+          "title": "Une ligne incidente dans le document d'une autre équipe peut semer un cycle entier — revenez demander le reste",
+          "rules": "Une fiche de personnage produite par le service créatif mentionnait en passant qu'une divinité portait une arme particulière. La conception a assez aimé le détail pour en tirer une carte, a ensuite remarqué qu'une autre fiche suggérait un autre objet, l'a fait aussi, puis est retournée voir l'autre service pour demander si les cinq pouvaient en avoir un. Un cycle existe parce que quelqu'un a lu attentivement la prose d'autrui et a ensuite réclamé les pièces manquantes. Lisez les documents qu'on vous remet en cherchant ce que personne ne croyait porteur, et demandez la symétrie quand vous en trouvez.",
+          "flavor": "« Est-ce que tous les dieux majeurs pourraient avoir un objet spécial, s'il vous plaît ? »"
+        },
+        {
+          "title": "Quand deux cycles doivent s'emboîter, formez un seul groupe transversal qui possède la paire",
+          "rules": "Il y en avait cinq d'un côté et cinq de l'autre, et chaque paire devait fonctionner ensemble. Plutôt que de les régler séparément en espérant, un petit groupe permanent a été créé à cheval sur conception et développement, dont toute la mission était ces dix cartes et leurs relations. C'est la bonne réponse à un couplage qui traverse une frontière de service : au lieu de négocier à la frontière, créez un organe qui la contient. Dix objets, c'est assez peu pour qu'un groupe les tienne tous à la fois.",
+          "flavor": "Erik a monté une mini-équipe pour les dieux et leurs armes, et nous avons travaillé la synergie de chaque paire."
+        },
+        {
+          "title": "Laissez la fiction fournir le coût",
+          "rules": "La carte devait représenter un sauvetage aux enfers, ce qui suppose que la chose sauvée y ait été. Le sort exige donc que vous sacrifiiez une créature : elle meurt, elle y va, et le sort les ramène toutes deux. Le prix n'est pas un dispositif d'équilibrage habillé après coup d'ambiance — c'est l'ambiance, et il se trouve que c'est un prix sensé. Quand il vous faut un coût, vérifiez si l'histoire que vous racontez n'en contient pas déjà un. Les coûts obtenus ainsi sont expliqués par la carte elle-même.",
+          "flavor": "Il était essentiel à l'ambiance qu'ils soient sauvés : la créature devait donc mourir pour s'y rendre."
+        },
+        {
+          "title": "Une capacité dont les seuls dénouements sont mourir et gagner n'a pas de milieu, et le milieu est le jeu",
+          "rules": "La première version d'une grande créature attaquait tout ce que possédait l'adversaire lors de son activation. En pratique cela donnait deux résultats : le plus souvent elle y mourait, et parfois elle nettoyait le plateau et la partie était finie. Ni l'un ni l'autre n'est un tour intéressant. L'échec n'est pas que l'effet soit trop faible ou trop fort mais qu'il n'ait pas de distribution : rien entre la perte totale et la victoire totale. En testant une chose décisive, regardez à quoi ressemble le dénouement moyen, et méfiez-vous si vous n'en trouvez pas.",
+          "flavor": "En général elle mourait. Les rares fois où non, vous aviez pour ainsi dire gagné."
+        },
+        {
+          "title": "Gardez un mécanisme capable d'absorber une décision prise hors de votre processus",
+          "rules": "Interrogé sur le moment où la conception a su qu'une certaine carte était dans l'extension, la réponse est : quand le chef du développement l'a dit. Une réimpression avait été réservée pour cette sortie par quelqu'un raisonnant sur une gamme de produits toute différente, et la réaction a été de créer une case le jour même et de l'y mettre. C'est le bon réflexe. Certains contenus arrivent par décret d'un niveau supérieur au projet, et un fichier sans jeu transforme chacun d'eux en crise plutôt qu'en insertion.",
+          "flavor": "Je lui ai fait une case dans la journée et je l'ai mise dedans."
+        },
+        {
+          "title": "Vérifiez que la source fournit votre thème structurel avant de l'importer du projet précédent",
+          "rules": "Le monde descendant précédent avait usé d'un fort thème de types de créature, et cela marchait parce que ce genre regorge de groupes : hordes, clans, meutes. Fallait-il recommencer ? La réponse a vite été non : cette source a très peu le sens des créatures semblables se regroupant, la structure aurait donc dû être imposée et non trouvée. Les thèmes qui ont marché la dernière fois sont les plus tentants à reporter et les plus faciles à reporter de travers. Testez chacun contre la nouvelle matière avant de supposer qu'il se transfère.",
+          "flavor": "La mythologie grecque avait moins le sens des créatures semblables se regroupant."
+        },
+        {
+          "title": "Livrez ce que les gens croient que la source contient, pas seulement ce qu'elle contient",
+          "rules": "L'un des monstres célèbres de l'extension n'appartient pas du tout à cette mythologie : il est norvégien, et il est là parce qu'un film l'a placé dans un décor grec et qu'une réplique de ce film est ce dont tout le monde se souvient. La position de l'équipe est que ce n'est pas une erreur à corriger. La perception de la source est ce que le public apporte avec lui, et une extension qui la contredit par souci d'exactitude sera lue comme fausse. Soyez exact là où l'exactitude est invisible, et livrez la version populaire là où c'est pour elle qu'on est venu.",
+          "flavor": "« Libérez le Kraken ! » Les krakens sont en réalité norvégiens."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "As Theros são vermelhas, e brancas, azuis, pretas e verdes, parte 2",
+      "dek": "De N a Z, incluindo um ciclo que nasceu de uma linha no documento de outra pessoa e um monstro cujos dois únicos desfechos eram perder e ganhar.",
+      "overview": "A segunda metade das histórias de cartas, e a melhor, porque mais entradas tratam de como uma decisão se propagou. Um terreno que chegou por uma cadeia de estreitamentos forçados. Um ciclo de encantamentos cujo efeito extra existia só porque facilitava o texto de regras, e que o desenvolvimento quase confundiu com o ponto. Um ciclo de armas semeado por um detalhe incidental na descrição de personagem de outro departamento. Um tema de tipo escolhido na contramão da fonte e depois alocado a uma segunda cor por ricochete de uma decisão sobre um tipo de criatura totalmente diferente.",
+      "takeaway": "A maioria dessas cartas existe por causa de algo adjacente a elas: a prosa de outra equipe, uma restrição sobre um tipo vizinho, uma vaga que precisava ser preenchida com alguma coisa. O trabalho de design é menos inventar do que seguir as consequências do que já foi decidido.",
+      "lessons": [
+        {
+          "title": "Uma cadeia de estreitamentos forçados consegue produzir o design sozinha",
+          "rules": "Repare como uma carta chega. A equipe decide que a coleção precisa conter um templo. Um templo é um lugar, e lugares são representados por terrenos, então é um terreno. Terrenos produzem mana. Não havia vagas para cinco deles, então não pode ser um ciclo, o que significa que ele produz uma cor ou todas as cinco. Enquanto isso, outra mecânica quer concentração, então o terreno deve ajudar isso sem ajudar tudo. Em nenhum momento alguém teve uma ideia; cada resposta eliminou opções até sobrar um formato só. Perguntar o que a restrição anterior obriga é uma forma de projetar.",
+          "flavor": "Onde começou? No nosso desejo de fazer um templo."
+        },
+        {
+          "title": "Espalhe um tema por duas facções e o número de construções viáveis triplica",
+          "rules": "Comprometer um tipo de criatura a uma única cor dá às pessoas um baralho para montar. Comprometê-lo a duas dá três: cada cor sozinha, mais o par. Esse é o motivo declarado dele para fazer assim sempre que a situação aparece, e é um retorno simplesmente melhor sobre a mesma quantidade de material. Também converte o tema de algo que você faz ou não faz num conjunto de posições com graus diferentes de compromisso, que é onde moram as decisões interessantes de construção.",
+          "flavor": "Tribal de duas cores é simplesmente mais divertido. Dá escolhas aos jogadores."
+        },
+        {
+          "title": "Decisões de alocação se encadeiam, então a segunda é condicionada pela primeira",
+          "rules": "A segunda cor da tribo parece escolha livre e não era. Um candidato foi rejeitado porque aquela cor implica contenção e essas criaturas deviam ser selvagens. A resposta final foi em parte determinada por uma decisão sobre um tipo de criatura completamente diferente: aquele já tinha reivindicado um par de cores por motivos de história, o que o tirou de consideração aqui. Sempre que você atribui coisas a um conjunto fixo de posições, as atribuições posteriores trabalham no espaço que as anteriores deixaram, e a ordem em que você decide é ela mesma uma decisão.",
+          "flavor": "Não os fizemos vermelho-verde porque a equipe criativa queria os sátiros ali."
+        },
+        {
+          "title": "Uma linha incidental no documento de outra equipe pode semear um ciclo inteiro — volte e peça o resto",
+          "rules": "Uma descrição de personagem produzida pelo departamento criativo mencionava de passagem que certa divindade portava uma arma específica. O design gostou o bastante do detalhe para construir uma carta a partir dele, depois notou que outra descrição insinuava outro item, construiu esse também, e então voltou ao outro departamento para perguntar se os cinco podiam ter um. Existe um ciclo porque alguém leu com atenção a prosa alheia e depois pediu as peças faltantes. Leia os documentos que lhe entregam procurando coisas que ninguém achava estruturais, e peça simetria quando achar uma.",
+          "flavor": "\"Todos os deuses maiores poderiam ter um item especial, por favor?\""
+        },
+        {
+          "title": "Quando dois ciclos precisam se encaixar, forme um grupo transversal que seja dono do par",
+          "rules": "Havia cinco de uma coisa e cinco de outra, e cada par deveria funcionar junto. Em vez de ajustá-los separadamente e torcer, criou-se um pequeno grupo permanente abrangendo design e desenvolvimento, cuja missão inteira eram aquelas dez cartas e as relações entre elas. Essa é a resposta certa a um acoplamento que atravessa uma fronteira departamental: em vez de negociar na fronteira, crie um corpo que a contenha. Dez objetos são poucos o bastante para um grupo segurar todos de uma vez.",
+          "flavor": "Erik montou uma miniequipe para os deuses e as armas deles, e trabalhamos para cada par ter sinergia."
+        },
+        {
+          "title": "Deixe a ficção fornecer o custo",
+          "rules": "A carta tinha de representar um resgate do submundo, o que significa que a coisa resgatada precisava ter estado no submundo. Então a mágica exige que você sacrifique uma criatura: ela morre, vai para lá, e a mágica traz as duas de volta. O preço não é um dispositivo de equilíbrio depois vestido de sabor — ele é o sabor, e por acaso é um preço sensato. Quando precisar de um custo, veja se a história que você está contando já contém um. Custos derivados assim são explicados pela própria carta.",
+          "flavor": "Era essencial ao sabor que fossem resgatados, então a criatura tinha de morrer para chegar lá."
+        },
+        {
+          "title": "Uma habilidade cujos únicos desfechos são morrer e ganhar não tem meio, e o meio é o jogo",
+          "rules": "A primeira versão de uma criatura grande atacava tudo que o oponente tinha ao ser ativada. Na prática isso produzia dois resultados: em geral ela morria fazendo isso e, de vez em quando, limpava a mesa e o jogo estava efetivamente acabado. Nenhum dos dois é um turno interessante. A falha não é que o efeito fosse fraco ou forte demais, e sim que ele não tinha distribuição: nada entre a derrota total e a vitória total. Ao testar algo decisivo, veja como é o desfecho intermediário, e desconfie se não conseguir achar um.",
+          "flavor": "Em geral ela morria. Nas poucas vezes em que não, você basicamente tinha ganhado."
+        },
+        {
+          "title": "Mantenha um mecanismo capaz de absorver uma decisão tomada fora do seu processo",
+          "rules": "Perguntado quando o design soube que certa carta estava na coleção, a resposta é: quando o chefe de desenvolvimento disse que estava. Uma reimpressão tinha sido reservada para este lançamento por alguém raciocinando sobre uma linha de produto completamente diferente, e a reação foi abrir uma vaga no mesmo dia e enfiá-la. Esse é o reflexo certo. Alguns conteúdos chegam por decreto de um nível acima do projeto, e um arquivo sem folga transforma cada um deles numa crise em vez de numa inserção.",
+          "flavor": "Abri uma vaga para ela naquele mesmo dia e a coloquei."
+        },
+        {
+          "title": "Verifique se a fonte fornece o seu tema estrutural antes de importá-lo do projeto anterior",
+          "rules": "O mundo de cima para baixo anterior tinha usado um forte tema de tipos de criatura, e funcionou porque aquele gênero é cheio de grupos: hordas, clãs, matilhas. Perguntado se repetiria, a resposta foi rapidamente não: esta fonte tem muito pouco senso de criaturas iguais se juntando, então a estrutura teria de ser imposta em vez de encontrada. Temas que funcionaram da última vez são os mais tentadores de levar adiante e os mais fáceis de levar adiante errado. Teste cada um contra o material novo antes de supor que ele se transfere.",
+          "flavor": "A mitologia grega tinha menos senso de criaturas iguais se juntando."
+        },
+        {
+          "title": "Entregue o que as pessoas acreditam que a fonte contém, não só o que ela contém",
+          "rules": "Um dos monstros famosos da coleção não é desta mitologia de jeito nenhum: é norueguês, e está aqui porque um filme o pôs num cenário grego e uma fala desse filme é o que todo mundo lembra. A posição da equipe é que isso não é um erro a corrigir. A percepção da fonte é o que o público traz consigo, e uma coleção que a contradiz para ser correta será lida como errada. Seja exato onde a exatidão for invisível, e entregue a versão popular onde for isso que as pessoas vieram buscar.",
+          "flavor": "\"Libertem o Kraken!\" Krakens na verdade são noruegueses."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "泰罗斯是红的，也是白蓝黑绿的（下）",
+      "dek": "从N到Z：其中有一个循环长自别人文档里的一行字，还有一个怪物，它只有两种结局——输，和赢。",
+      "overview": "牌张故事的后半，也是更好的一半，因为有更多条目讲的是「一个决定如何往外传导」。一块靠着一连串被迫收窄而抵达的地。一个结界循环，它那个额外效果之所以存在只是因为那样写规则最省事，而开发部门差一点就把它当成了重点。一个武器循环，种子是另一个部门的角色设定文档里一处顺带的细节。一个逆着素材本性选出来的类别主题，其第二个颜色又是由一个关于完全另一种生物类别的决定反弹决定的。",
+      "takeaway": "这些牌里的大多数之所以存在，是因为紧挨着它们的某样东西：另一个团队写的散文、一条施加在邻近类别上的约束、一个必须用什么填上的位置。设计工作与其说是发明，不如说是跟着「已经被决定的事情」的后果往下走。",
+      "lessons": [
+        {
+          "title": "一连串被迫的收窄，自己就能产出这个设计",
+          "rules": "看一张牌是怎么抵达的。团队决定这套牌必须有一座神庙。神庙是一个地方，而地方由地牌来表示，所以它是一张地。地要产法术力。当时没有位置放五张，所以它不能是一个循环——这意味着它要么产一个颜色，要么产全部五个。与此同时另一个机制想要「集中度」，所以这块地应该帮到那件事，而不是帮到所有事。全过程中没有任何人「有了一个点子」；每一个答案都在删掉选项，直到只剩下一种形状。追问「上一条约束逼出了什么」，本身就是一种设计方法。",
+          "flavor": "它从哪儿开始的？从我们想做一座神庙。"
+        },
+        {
+          "title": "把一个主题横跨两个派系，可行的构筑数量会变成三倍",
+          "rules": "把一个生物类别绑定在单一颜色上，等于给人一副可以搭的牌。绑定在两个颜色上，就给了三副：每个颜色各自一副，再加上这一对。这是他每次遇到这种局面都这么做的明确理由；用同样多的材料，这就是更好的回报。它同时还把这个主题从「你要么做要么不做」变成了一组投入程度各不相同的位置——而那正是有意思的构筑决定所在的地方。",
+          "flavor": "双色类别就是更好玩。它给了玩家选择。"
+        },
+        {
+          "title": "分配决定是会级联的，所以第二个受制于第一个",
+          "rules": "这个族群的第二个颜色看上去是自由选择，其实不是。有一个候选被否掉，是因为那个颜色意味着克制，而这些生物本该是狂野的。最终答案的一部分，是被一个关于完全另一种生物类别的决定所决定的——那一种出于故事原因已经占下了一对颜色，于是这一对在这里就被排除了。每当你把一些东西分配到一组固定的位置上时，靠后的分配就只能在靠前的分配留下的空间里工作；而你按什么顺序做决定，本身就是一个决定。",
+          "flavor": "我们没把它们做成红绿，是因为创意团队想把萨特放在那儿。"
+        },
+        {
+          "title": "别人文档里一行顺带的字，可以种出一整个循环——回去把其余的要过来",
+          "rules": "创意部门写的一份角色设定里顺口提到，某位神持有一件特定的武器。设计团队喜欢这个细节，喜欢到照它做了一张牌；接着注意到另一份设定暗示了另一件物品，也把它做了出来；然后回到那个部门去问：五位主神能不能都有一件专属物品？一个循环之所以存在，是因为有人认真读了别人写的散文，然后把缺的部分要了过来。读那些交到你手上的文档时，去找那些没人认为是承重的东西；找到一个，就去要求对称。",
+          "flavor": "「能不能请所有的主神都有一件专属物品？」"
+        },
+        {
+          "title": "当两个循环必须互相咬合时，成立一个横跨学科、并且拥有这一对的小组",
+          "rules": "一边五个，另一边五个，而每一对都应该配合得起来。他们没有分别调、然后祈祷，而是成立了一个横跨设计与开发的常设小组，它的全部职责就是那十张牌以及它们之间的关系。这是对「一处跨越部门边界的耦合」的正确回应：与其在边界上谈判，不如造一个把这条边界包在里面的机构。十个物件足够少，少到一个小组能同时把它们全部握在手里。",
+          "flavor": "埃里克为诸神和他们的武器成立了一个小团队，我们努力让每一对都相互配合。"
+        },
+        {
+          "title": "让虚构去提供代价",
+          "rules": "这张牌要表现一次从冥界的营救，而这意味着被救的那个必须先待在冥界。于是这个咒语要求你牺牲一个生物：它死掉、去到那里，然后咒语把两个都带回来。这个价格不是一个先做出来、再披上风味外衣的平衡装置——它就是风味，而它恰好也是一个合理的价格。当你需要一个代价时，先看看你正在讲的这个故事里是不是已经含着一个。以这种方式得来的代价，由牌本身来解释。",
+          "flavor": "「他们是被救回来的」对风味至关重要，所以那个生物必须先死才能到那儿。"
+        },
+        {
+          "title": "一个只有「死掉」和「赢下」两种结局的异能没有中间地带，而中间地带才是游戏",
+          "rules": "某个大生物的第一个版本，在被启动时会去攻击对手拥有的一切。实际打起来产出两种结果：通常它在这个过程中死掉；偶尔它清空了场面，而这局基本上就结束了。这两个都不是有意思的一回合。问题不在于这个效果太弱或太强，而在于它没有分布——在「全盘皆输」和「全盘皆赢」之间什么都没有。在测试某样有决定性的东西时，看看那个「中不溜」的结果长什么样；如果你找不到一个，那就该起疑。",
+          "flavor": "它通常会死。少数没死的时候，你基本上就赢了。"
+        },
+        {
+          "title": "保留一套能吸收「在你流程之外做出的决定」的机制",
+          "rules": "被问到设计部门什么时候知道某张牌进了这套牌时，答案是：在开发负责人说它进了的时候。有人在为一条完全不同的产品线做推演时，把一张重印预留给了这次发布；而这边的反应是当天就腾出一个位置，把它塞进去。这是正确的反射。有些内容是从项目之上的层级以命令的形式抵达的；而一份没有任何余量的牌表，会把这里的每一次都变成一场危机，而不是一次插入。",
+          "flavor": "我当天晚些时候给它腾了个位置，把它放了进去。"
+        },
+        {
+          "title": "在把上一个项目的结构性主题搬过来之前，先确认这份素材供得起它",
+          "rules": "上一个由上而下的世界用过一个很强的生物类别主题，而它之所以成立，是因为那个类型片里到处都是群体——尸潮、家族、狼群。被问到要不要再来一次时，答案很快就是不：这份素材里「同类抱团」的意味非常淡，所以这个结构只能是被强加进去、而不是被找出来的。上次奏效的主题最诱人带进下一次，也最容易被错误地带进下一次。在假定它可以迁移之前，拿新素材把每一个都检验一遍。",
+          "flavor": "希腊神话里「同类抱团」的意味要淡得多。"
+        },
+        {
+          "title": "交付人们相信素材里有的东西，而不只是素材里真有的东西",
+          "rules": "这套牌里有一个著名怪物压根不属于这个神话——它是挪威的；它之所以在这里，是因为一部电影把它放进了希腊背景，而那部电影里的一句台词正是所有人记得的东西。团队的立场是：这不是一个需要纠正的错误。受众抵达时手里握着的，是他们对这份素材的印象；而一套为了正确而与之相抵触的牌，读起来会像是错的。在准确不被察觉的地方保持准确；在人们正是冲着它来的地方，交付那个流行的版本。",
+          "flavor": "「放出海妖！」海妖其实是挪威的。"
+        }
+      ]
+    }
+  }
+}
