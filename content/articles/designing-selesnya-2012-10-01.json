@@ -1,0 +1,320 @@
+{
+  "id": "designing-selesnya-2012-10-01",
+  "slug": "designing-selesnya-2012-10-01",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2012-10-01",
+  "series": { "id": "designing-the-color-pairs", "order": 1, "total": 10 },
+  "tags": ["color-pie", "mechanics", "green-white", "design-space", "tokens"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/designing-selesnya-2012-10-01",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Designing Selesnya",
+      "dek": "The first of ten colour-pair columns: the closest two colours in the game, a three-question test for how much room a mechanic actually has, and a mechanic that was designed for the wrong faction by the game's inventor.",
+      "overview": "Green and white are the most similar pair in the game across almost every card type, which is the easy part and also the hard part — decades of fine distinctions between them mean neither has a legible claim in the shared area. Rosewater then introduces a three-question test for how much design space a mechanic can support, applies it to the original faction keyword and finds it passes all three, and applies it to the replacement and finds it fails. He ships the replacement anyway, with one defect absorbed knowingly and the workarounds for the other one spelled out.",
+      "takeaway": "The three-question test is the reusable part: how many card types can carry it, does it require restrictions, and does it compete with itself for the same resource.",
+      "lessons": [
+        {
+          "title": "Splitting hairs between two similar parties costs each of them legibility",
+          "rules": "Because these colours are so close, the department has spent years making fine-grained allocations between them — one gets the smaller boosts, the other the larger ones. The consequence is subtle and expensive: you can't build the white half of a joint card out of a small boost, because although that is technically in white's allocation, it doesn't read as white to anyone. Precision in dividing a shared space can leave neither party with a claim the audience can recognise.",
+          "flavor": "Technically correct, and it doesn't feel like anybody's."
+        },
+        {
+          "title": "The best case isn't that it doesn't compete with itself — it's that it compounds",
+          "rules": "One of his three tests asks whether copies of a mechanic fight each other for the same resource, and he gives the example of one that eats the graveyard, so each additional copy starves the next. The original faction keyword avoided that problem and then went further: the cards that enable it work with every card carrying it, so playing more of them makes each one better. Non-competition is the pass mark. Compounding is what a mechanic looks like when it wants to be built around.",
+          "flavor": "Not just that two of them coexist. That two of them want a third."
+        },
+        {
+          "title": "Three questions for how much room a mechanic actually has",
+          "rules": "How many card types can it go on — each additional type opens more space. Does it require restrictions of its own, such as targeting, a variable number, or an ability that has to be tweakable, because self-imposed requirements are the biggest limiter there is. And does it fight itself for a resource. He walks all three on both faction mechanics and the answers predict, correctly, which one would be easy to fill out and which would be a headache.",
+          "flavor": "Three questions, asked before the cards exist, and both answers turned out right."
+        },
+        {
+          "title": "When you can't add instances, make the instances recur",
+          "rules": "The replacement mechanic supported fewer cards than its predecessor, which meant fewer chances per game for it to happen at all. Rather than force more cards into a space that wouldn't hold them, they made a number of the higher-rarity ones repeatable. Same total count, more occurrences. Where the constraint is on how many of a thing you can print, the remaining lever is how often each printed one fires.",
+          "flavor": "Fewer cards, each of them going off more than once."
+        },
+        {
+          "title": "A component can be right and misfiled",
+          "rules": "The first faction keyword was designed by the game's inventor, for a different faction, with a rationale that made sense — an army working together to strengthen itself. Rosewater liked the mechanic and told him it was in the wrong place. The author's own placement is a claim, not a fact, and reassignment is a distinct kind of contribution from invention: nothing about the thing changed, and it went from decent fit to perfect fit.",
+          "flavor": "Right mechanic, wrong door. Somebody has to be willing to say so to the person who made it."
+        },
+        {
+          "title": "Raising a resource obliges you to ration its counters",
+          "rules": "Supporting the new mechanic meant increasing the number of tokens across the whole release. He notes the consequence in one clause: that also meant being more cautious with the cards that are the natural enemies of tokens. Any deliberate increase in the supply of something changes what the answers to it are worth, and the adjustment has to be made in the same pass or the new abundance gets punished harder than it was meant to be.",
+          "flavor": "More of the thing, and therefore fewer of the things that eat it."
+        },
+        {
+          "title": "The brief for the sequel is \"don't retread\", with everything else open",
+          "rules": "For the return, the constraint list was short and asymmetric: the mechanic still had to be built on creatures, because that's this pairing's heart, and beyond that they were free to explore anything — provided it wasn't simply doing again what the first one had done. The predecessor's success is not a template. It's a region marked off, and the interesting question is which other part of the same identity has gone unused.",
+          "flavor": "The first one explored creatures helping each other. So the second one explored creatures multiplying."
+        },
+        {
+          "title": "Absorb one defect knowingly, and say which one it was",
+          "rules": "He names two problems with the shipped mechanic. One had workarounds and got them: make the cards supply their own input, or attach the ability as a rider so the card still functions without it. The other — that half of the system is meaningless on its own — had no fix, and he writes plainly that they knew they had to suck it up. Then he says the faction is his favourite to play. A defect you have decided to carry should be named as a decision rather than left to be discovered.",
+          "flavor": "\"The first problem we knew we had to suck up.\" No further defence offered."
+        },
+        {
+          "title": "Name the two-tier category, and require the second tier to stand alone",
+          "rules": "Some mechanics work by themselves; others need a second element to exist in the release, and he calls those two-tier. The rule attached to the category is what makes it useful: the second tier has to be viable on its own, otherwise the whole apparatus is parasitic and works only with material from the same box. Here the second tier was something the game already produced in quantity, which is what made the arrangement survivable.",
+          "flavor": "Two tiers, and the lower one has to be able to live without the upper one."
+        },
+        {
+          "title": "One positioning decision cascades into several allocation swaps",
+          "rules": "In an aside he mentions that mass token generation used to belong primarily to one colour and secondarily to the other, and that the two swapped — at the same time as, and because of, the decision to push one of them harder as the army colour. That is one editorial choice about character producing at least two reallocations of concrete capability. Positioning statements are not free; they cash out as a list of things that have to move.",
+          "flavor": "Decide who the army is, and then find out how many other things that decides."
+        }
+      ]
+    },
+    "es": {
+      "title": "Diseñando Selesnya",
+      "dek": "La primera de diez columnas sobre parejas de colores: los dos colores más cercanos del juego, una prueba de tres preguntas sobre cuánto espacio tiene realmente una mecánica, y una mecánica diseñada para la facción equivocada por el inventor del juego.",
+      "overview": "Verde y blanco son la pareja más parecida del juego en casi todos los tipos de carta, y eso es lo fácil y también lo difícil: décadas de distinciones finas entre ambos hacen que ninguno tenga una reclamación legible en el área compartida. Rosewater presenta después una prueba de tres preguntas sobre cuánto espacio de diseño puede sostener una mecánica, se la aplica a la primera palabra clave del gremio y ve que pasa las tres, y se la aplica a la sustituta y ve que falla. Publica la sustituta igualmente, con un defecto absorbido a sabiendas y con los apaños del otro bien explicados.",
+      "takeaway": "La prueba de tres preguntas es la parte reutilizable: cuántos tipos de carta pueden llevarla, si exige restricciones, y si compite consigo misma por el mismo recurso.",
+      "lessons": [
+        {
+          "title": "Hilar fino entre dos partes parecidas le cuesta legibilidad a cada una",
+          "rules": "Como estos colores son tan cercanos, el departamento ha pasado años haciendo asignaciones de grano fino entre ellos: uno recibe los aumentos pequeños, el otro los grandes. La consecuencia es sutil y cara: no puedes construir la mitad blanca de una carta conjunta con un aumento pequeño, porque aunque técnicamente eso esté en la asignación del blanco, no se lee como blanco para nadie. La precisión al dividir un espacio compartido puede dejar a ambas partes sin una reclamación que el público reconozca.",
+          "flavor": "Técnicamente correcto, y no parece de nadie."
+        },
+        {
+          "title": "El mejor caso no es que no compita consigo misma, sino que se componga",
+          "rules": "Una de sus tres pruebas pregunta si las copias de una mecánica pelean entre sí por el mismo recurso, y pone el ejemplo de una que devora el cementerio, de modo que cada copia adicional deja sin comida a la siguiente. La primera palabra clave del gremio evitó ese problema y fue más allá: las cartas que la habilitan funcionan con todas las que la llevan, así que jugar más de ellas mejora cada una. La no competencia es el aprobado. Componerse es el aspecto que tiene una mecánica cuando quiere que construyan a su alrededor.",
+          "flavor": "No solo que dos de ellas convivan. Que dos de ellas quieran una tercera."
+        },
+        {
+          "title": "Tres preguntas sobre cuánto espacio tiene realmente una mecánica",
+          "rules": "¿En cuántos tipos de carta puede ir? Cada tipo adicional abre más espacio. ¿Exige restricciones propias, como objetivos, un número variable o una habilidad que deba poder ajustarse? Porque los requisitos autoimpuestos son el mayor limitador que existe. Y ¿pelea consigo misma por un recurso? Recorre las tres con ambas mecánicas de gremio, y las respuestas predicen correctamente cuál sería fácil de rellenar y cuál sería un quebradero de cabeza.",
+          "flavor": "Tres preguntas, hechas antes de que existieran las cartas, y ambas respuestas resultaron acertadas."
+        },
+        {
+          "title": "Cuando no puedes añadir ejemplares, haz que los ejemplares se repitan",
+          "rules": "La mecánica sustituta soportaba menos cartas que su predecesora, lo que significaba menos ocasiones por partida de que ocurriera siquiera. En vez de forzar más cartas en un espacio que no las aguantaba, hicieron repetibles varias de las de rareza alta. El mismo total, más ocurrencias. Cuando la restricción está en cuántas puedes imprimir, la palanca que queda es con qué frecuencia se dispara cada una de las impresas.",
+          "flavor": "Menos cartas, y cada una de ellas activándose más de una vez."
+        },
+        {
+          "title": "Un componente puede ser correcto y estar mal archivado",
+          "rules": "La primera palabra clave del gremio la diseñó el inventor del juego, para otro gremio, con una justificación que tenía sentido: un ejército trabajando en conjunto para fortalecerse. A Rosewater le gustó la mecánica y le dijo que estaba en el sitio equivocado. La ubicación que le da su propio autor es una reclamación, no un hecho, y reasignar es una contribución distinta de inventar: nada cambió en la cosa, y pasó de encajar bien a encajar perfecto.",
+          "flavor": "Mecánica correcta, puerta equivocada. Alguien tiene que estar dispuesto a decírselo a quien la hizo."
+        },
+        {
+          "title": "Aumentar un recurso te obliga a racionar sus contramedidas",
+          "rules": "Sostener la nueva mecánica implicó aumentar el número de fichas en todo el lanzamiento. Él señala la consecuencia en una cláusula: eso también implicó ser más cauto con las cartas que son los enemigos naturales de las fichas. Cualquier aumento deliberado en la oferta de algo cambia lo que valen sus respuestas, y el ajuste hay que hacerlo en la misma pasada o la nueva abundancia acaba castigada más de lo previsto.",
+          "flavor": "Más de la cosa y, por tanto, menos de las cosas que se la comen."
+        },
+        {
+          "title": "El encargo de la secuela es «no repitas», con todo lo demás abierto",
+          "rules": "Para el regreso, la lista de restricciones era corta y asimétrica: la mecánica seguía teniendo que construirse sobre criaturas, porque ese es el corazón de esta pareja, y más allá de eso eran libres de explorar cualquier cosa, siempre que no fuera simplemente rehacer lo que la primera había hecho. El éxito del predecesor no es una plantilla. Es una región acordonada, y la pregunta interesante es qué otra parte de la misma identidad ha quedado sin usar.",
+          "flavor": "La primera exploró criaturas ayudándose entre sí. Así que la segunda exploró criaturas multiplicándose."
+        },
+        {
+          "title": "Absorbe un defecto a sabiendas, y di cuál fue",
+          "rules": "Nombra dos problemas de la mecánica publicada. Uno tenía apaños y los recibió: hacer que las cartas suministren su propio insumo, o adjuntar la habilidad como añadido para que la carta siga funcionando sin ella. El otro —que la mitad del sistema no significa nada por sí sola— no tenía arreglo, y escribe sin rodeos que sabían que había que tragárselo. Luego dice que ese gremio es su favorito para jugar. Un defecto que has decidido cargar debería enunciarse como decisión en vez de dejarse descubrir.",
+          "flavor": "«El primer problema sabíamos que había que tragárselo.» Sin más defensa."
+        },
+        {
+          "title": "Nombra la categoría de dos niveles, y exige que el segundo nivel se sostenga solo",
+          "rules": "Algunas mecánicas funcionan por sí mismas; otras necesitan que exista un segundo elemento en el lanzamiento, y a esas las llama de dos niveles. La regla adjunta a la categoría es lo que la hace útil: el segundo nivel tiene que ser viable por su cuenta, o el aparato entero es parasitario y solo funciona con material de la misma caja. Aquí el segundo nivel era algo que el juego ya producía en cantidad, y eso es lo que hizo el arreglo sobrevivible.",
+          "flavor": "Dos niveles, y el de abajo tiene que poder vivir sin el de arriba."
+        },
+        {
+          "title": "Una decisión de posicionamiento se propaga en varios intercambios de asignación",
+          "rules": "En un inciso menciona que la generación masiva de fichas solía pertenecer primariamente a un color y secundariamente al otro, y que ambos se intercambiaron, al mismo tiempo que —y a causa de— la decisión de empujar más a uno de ellos como el color del ejército. Eso es una sola elección editorial sobre carácter produciendo al menos dos reasignaciones de capacidad concreta. Las declaraciones de posicionamiento no son gratis: se cobran como una lista de cosas que tienen que moverse.",
+          "flavor": "Decide quién es el ejército, y luego descubre cuántas otras cosas queda decididas con eso."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Concevoir Selesnya",
+      "dek": "La première de dix chroniques sur les paires de couleurs : les deux couleurs les plus proches du jeu, un test en trois questions sur l'espace réel d'une mécanique, et une mécanique conçue pour la mauvaise faction par l'inventeur du jeu.",
+      "overview": "Le vert et le blanc forment la paire la plus semblable du jeu sur presque tous les types de carte, ce qui est la partie facile et aussi la partie difficile : des décennies de distinctions fines entre eux font qu'aucun n'a de revendication lisible dans l'espace commun. Rosewater présente ensuite un test en trois questions sur l'espace de conception qu'une mécanique peut soutenir, l'applique au premier mot-clé de guilde qui passe les trois, puis au remplaçant qui échoue. Il publie quand même le remplaçant, avec un défaut assumé sciemment et les contournements de l'autre détaillés.",
+      "takeaway": "Le test en trois questions est la partie réutilisable : combien de types de carte peuvent la porter, exige-t-elle des restrictions, et se dispute-t-elle la même ressource avec elle-même.",
+      "lessons": [
+        {
+          "title": "Couper les cheveux en quatre entre deux parties proches coûte à chacune sa lisibilité",
+          "rules": "Ces couleurs étant très proches, le département a passé des années à faire entre elles des attributions très fines — l'une reçoit les petits bonus, l'autre les grands. La conséquence est subtile et coûteuse : on ne peut pas bâtir la moitié blanche d'une carte commune avec un petit bonus, car même si cela relève techniquement de l'attribution du blanc, personne ne le lit comme blanc. La précision dans le partage d'un espace commun peut laisser les deux parties sans revendication reconnaissable.",
+          "flavor": "Techniquement juste, et cela n'a l'air d'appartenir à personne."
+        },
+        {
+          "title": "Le meilleur cas n'est pas l'absence de concurrence avec soi-même, c'est la composition",
+          "rules": "L'un de ses trois tests demande si les exemplaires d'une mécanique se disputent la même ressource, et il cite celle qui dévore le cimetière, si bien que chaque exemplaire supplémentaire affame le suivant. Le premier mot-clé de guilde évitait ce problème et allait plus loin : les cartes qui l'activent fonctionnent avec toutes celles qui la portent, donc en jouer davantage améliore chacune. La non-concurrence est la note de passage. La composition, c'est à quoi ressemble une mécanique autour de laquelle on veut bâtir.",
+          "flavor": "Pas seulement que deux coexistent. Que deux en réclament une troisième."
+        },
+        {
+          "title": "Trois questions sur l'espace réel d'une mécanique",
+          "rules": "Sur combien de types de carte peut-elle aller — chaque type supplémentaire ouvre de l'espace. Exige-t-elle des restrictions propres, comme un ciblage, un nombre variable, ou une capacité qui doit rester ajustable, car les exigences auto-imposées sont le plus grand limiteur qui soit. Et se dispute-t-elle une ressource avec elle-même. Il déroule les trois sur les deux mécaniques de guilde, et les réponses prédisent correctement laquelle serait facile à remplir et laquelle serait un casse-tête.",
+          "flavor": "Trois questions, posées avant que les cartes existent, et les deux réponses se sont vérifiées."
+        },
+        {
+          "title": "Quand vous ne pouvez pas ajouter d'exemplaires, faites-les se répéter",
+          "rules": "La mécanique de remplacement supportait moins de cartes que sa devancière, donc moins d'occasions par partie qu'elle se produise. Plutôt que de forcer des cartes dans un espace qui ne les tenait pas, ils ont rendu répétables plusieurs exemplaires de rareté élevée. Même total, plus d'occurrences. Quand la contrainte porte sur le nombre d'exemplaires imprimables, le levier restant est la fréquence de déclenchement de chacun.",
+          "flavor": "Moins de cartes, et chacune se déclenchant plus d'une fois."
+        },
+        {
+          "title": "Un composant peut être juste et mal classé",
+          "rules": "Le premier mot-clé de guilde a été conçu par l'inventeur du jeu, pour une autre guilde, avec une justification sensée — une armée œuvrant de concert pour se renforcer. Rosewater a aimé la mécanique et lui a dit qu'elle était au mauvais endroit. Le placement décidé par l'auteur est une revendication, pas un fait, et réaffecter est une contribution distincte d'inventer : rien de la chose n'a changé, et elle est passée de bien adaptée à parfaitement adaptée.",
+          "flavor": "Bonne mécanique, mauvaise porte. Il faut quelqu'un prêt à le dire à celui qui l'a faite."
+        },
+        {
+          "title": "Augmenter une ressource oblige à rationner ses contre-mesures",
+          "rules": "Soutenir la nouvelle mécanique a demandé d'augmenter le nombre de jetons dans toute la sortie. Il note la conséquence en une clause : cela a aussi imposé plus de prudence avec les cartes qui sont les ennemies naturelles des jetons. Toute augmentation délibérée de l'offre de quelque chose change la valeur de ses réponses, et l'ajustement doit se faire dans la même passe, sinon la nouvelle abondance est punie plus durement que prévu.",
+          "flavor": "Plus de la chose, et donc moins des choses qui la mangent."
+        },
+        {
+          "title": "Le brief de la suite est « ne refaites pas », le reste étant ouvert",
+          "rules": "Pour le retour, la liste de contraintes était courte et asymétrique : la mécanique devait toujours s'appuyer sur les créatures, parce que c'est le cœur de cette paire, et au-delà ils étaient libres d'explorer n'importe quoi — à condition de ne pas refaire simplement ce que la première avait fait. Le succès du prédécesseur n'est pas un modèle. C'est une zone balisée, et la question intéressante est quelle autre part de la même identité est restée inutilisée.",
+          "flavor": "La première explorait des créatures s'entraidant. La seconde a donc exploré des créatures se multipliant."
+        },
+        {
+          "title": "Assumez sciemment un défaut, et dites lequel",
+          "rules": "Il nomme deux problèmes de la mécanique publiée. L'un avait des contournements et les a reçus : faire que les cartes fournissent elles-mêmes leur intrant, ou attacher la capacité en supplément pour que la carte fonctionne sans. L'autre — la moitié du système ne signifie rien seule — n'avait pas de correctif, et il écrit franchement qu'ils savaient devoir l'encaisser. Puis il dit que cette guilde est sa préférée à jouer. Un défaut qu'on a décidé de porter doit être énoncé comme une décision plutôt que laissé à découvrir.",
+          "flavor": "« Pour le premier problème, on savait qu'il fallait l'encaisser. » Aucune autre défense."
+        },
+        {
+          "title": "Nommez la catégorie à deux étages, et exigez que le second tienne seul",
+          "rules": "Certaines mécaniques fonctionnent seules ; d'autres ont besoin qu'un second élément existe dans la sortie, et il appelle celles-là à deux étages. La règle attachée à la catégorie est ce qui la rend utile : le second étage doit être viable par lui-même, sinon tout l'appareil est parasitaire et ne fonctionne qu'avec du matériau de la même boîte. Ici le second étage était une chose que le jeu produisait déjà en quantité, et c'est ce qui a rendu l'arrangement viable.",
+          "flavor": "Deux étages, et celui du bas doit pouvoir vivre sans celui du haut."
+        },
+        {
+          "title": "Une décision de positionnement se propage en plusieurs échanges d'attribution",
+          "rules": "Dans un aparté, il mentionne que la production massive de jetons appartenait autrefois principalement à une couleur et secondairement à l'autre, et que les deux ont échangé — en même temps que, et à cause de, la décision de pousser l'une d'elles comme couleur d'armée. C'est un seul choix éditorial sur le caractère produisant au moins deux réattributions de capacité concrète. Les énoncés de positionnement ne sont pas gratuits : ils se paient en liste de choses à déplacer.",
+          "flavor": "Décidez qui est l'armée, puis découvrez combien d'autres choses cela décide."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Desenhando Selesnya",
+      "dek": "A primeira de dez colunas sobre pares de cores: as duas cores mais próximas do jogo, um teste de três perguntas sobre quanto espaço uma mecânica de fato tem, e uma mecânica desenhada para a facção errada pelo inventor do jogo.",
+      "overview": "Verde e branco são o par mais parecido do jogo em quase todos os tipos de carta, o que é a parte fácil e também a difícil: décadas de distinções finas entre eles fazem com que nenhum tenha uma reivindicação legível na área compartilhada. Rosewater então apresenta um teste de três perguntas sobre quanto espaço de design uma mecânica consegue sustentar, aplica-o à primeira palavra-chave de guilda e vê que passa nas três, e aplica-o à substituta e vê que falha. Ele publica a substituta assim mesmo, com um defeito absorvido conscientemente e as soluções alternativas do outro detalhadas.",
+      "takeaway": "O teste de três perguntas é a parte reutilizável: quantos tipos de carta podem carregá-la, ela exige restrições, e ela compete consigo mesma pelo mesmo recurso.",
+      "lessons": [
+        {
+          "title": "Dividir cabelos entre duas partes parecidas custa legibilidade a cada uma",
+          "rules": "Como estas cores são muito próximas, o departamento passou anos fazendo alocações de grão fino entre elas — uma recebe os aumentos menores, a outra os maiores. A consequência é sutil e cara: você não consegue construir a metade branca de uma carta conjunta com um aumento pequeno, porque, embora isso esteja tecnicamente na alocação do branco, não lê como branco para ninguém. Precisão ao dividir um espaço compartilhado pode deixar as duas partes sem uma reivindicação que o público reconheça.",
+          "flavor": "Tecnicamente correto, e não parece ser de ninguém."
+        },
+        {
+          "title": "O melhor caso não é não competir consigo mesma — é compor-se",
+          "rules": "Um dos três testes dele pergunta se cópias de uma mecânica brigam entre si pelo mesmo recurso, e ele dá o exemplo de uma que come o cemitério, de modo que cada cópia adicional deixa a seguinte sem comida. A primeira palavra-chave de guilda evitou esse problema e foi além: as cartas que a habilitam funcionam com todas as que a carregam, então jogar mais delas melhora cada uma. Não competir é a nota de aprovação. Compor-se é a cara de uma mecânica em torno da qual se quer construir.",
+          "flavor": "Não só que duas coexistam. Que duas queiram uma terceira."
+        },
+        {
+          "title": "Três perguntas sobre quanto espaço uma mecânica de fato tem",
+          "rules": "Em quantos tipos de carta ela pode ir — cada tipo adicional abre mais espaço. Ela exige restrições próprias, como alvo, um número variável, ou uma habilidade que precise ser ajustável, já que exigências autoimpostas são o maior limitador que existe. E ela briga consigo mesma por um recurso. Ele percorre as três nas duas mecânicas de guilda, e as respostas preveem corretamente qual seria fácil de preencher e qual seria uma dor de cabeça.",
+          "flavor": "Três perguntas, feitas antes de as cartas existirem, e as duas respostas se confirmaram."
+        },
+        {
+          "title": "Quando você não pode acrescentar exemplares, faça os exemplares se repetirem",
+          "rules": "A mecânica substituta sustentava menos cartas que a antecessora, o que significava menos chances por partida de ela sequer acontecer. Em vez de forçar mais cartas num espaço que não as comportava, tornaram repetíveis várias das de raridade alta. Mesmo total, mais ocorrências. Quando a restrição é sobre quantas você pode imprimir, a alavanca que sobra é com que frequência cada impressa dispara.",
+          "flavor": "Menos cartas, cada uma disparando mais de uma vez."
+        },
+        {
+          "title": "Um componente pode estar certo e mal arquivado",
+          "rules": "A primeira palavra-chave de guilda foi desenhada pelo inventor do jogo, para outra guilda, com uma justificativa que fazia sentido — um exército agindo em conjunto para se fortalecer. Rosewater gostou da mecânica e disse a ele que estava no lugar errado. A colocação dada pelo próprio autor é uma reivindicação, não um fato, e realocar é uma contribuição distinta de inventar: nada na coisa mudou, e ela passou de encaixe decente a encaixe perfeito.",
+          "flavor": "Mecânica certa, porta errada. Alguém precisa estar disposto a dizer isso a quem a fez."
+        },
+        {
+          "title": "Aumentar um recurso obriga você a racionar as respostas a ele",
+          "rules": "Sustentar a nova mecânica exigiu aumentar o número de fichas em todo o lançamento. Ele nota a consequência numa oração: isso também exigiu mais cautela com as cartas que são as inimigas naturais das fichas. Qualquer aumento deliberado na oferta de algo muda quanto valem as respostas a isso, e o ajuste tem de ser feito na mesma passada, ou a nova abundância acaba punida mais do que se pretendia.",
+          "flavor": "Mais da coisa e, portanto, menos das coisas que a comem."
+        },
+        {
+          "title": "O briefing da sequência é «não repita», com todo o resto aberto",
+          "rules": "Para o retorno, a lista de restrições era curta e assimétrica: a mecânica ainda tinha de se apoiar em criaturas, porque esse é o coração deste par, e além disso estavam livres para explorar qualquer coisa — desde que não fosse simplesmente refazer o que a primeira fizera. O sucesso do antecessor não é um molde. É uma região demarcada, e a pergunta interessante é qual outra parte da mesma identidade ficou sem uso.",
+          "flavor": "A primeira explorou criaturas se ajudando. Então a segunda explorou criaturas se multiplicando."
+        },
+        {
+          "title": "Absorva um defeito conscientemente, e diga qual foi",
+          "rules": "Ele nomeia dois problemas da mecânica publicada. Um tinha soluções alternativas e as recebeu: fazer as cartas fornecerem o próprio insumo, ou anexar a habilidade como adendo para que a carta ainda funcione sem ela. O outro — metade do sistema não significa nada sozinha — não tinha conserto, e ele escreve sem rodeios que sabiam que teriam de engolir. Depois diz que essa guilda é a favorita dele para jogar. Um defeito que você decidiu carregar deve ser enunciado como decisão em vez de deixado para ser descoberto.",
+          "flavor": "«O primeiro problema a gente sabia que teria de engolir.» Nenhuma outra defesa oferecida."
+        },
+        {
+          "title": "Nomeie a categoria de dois níveis, e exija que o segundo se sustente sozinho",
+          "rules": "Algumas mecânicas funcionam sozinhas; outras precisam que um segundo elemento exista no lançamento, e ele chama essas de dois níveis. A regra anexada à categoria é o que a torna útil: o segundo nível tem de ser viável por conta própria, senão o aparato inteiro é parasitário e só funciona com material da mesma caixa. Aqui o segundo nível era algo que o jogo já produzia em quantidade, e foi isso que tornou o arranjo sobrevivível.",
+          "flavor": "Dois níveis, e o de baixo tem de conseguir viver sem o de cima."
+        },
+        {
+          "title": "Uma decisão de posicionamento se propaga em vários trocas de alocação",
+          "rules": "Num aparte ele menciona que a geração em massa de fichas costumava pertencer primariamente a uma cor e secundariamente à outra, e que as duas trocaram — ao mesmo tempo que, e por causa da, decisão de empurrar uma delas mais como a cor do exército. Isso é uma única escolha editorial sobre caráter produzindo pelo menos duas realocações de capacidade concreta. Declarações de posicionamento não são de graça: elas se pagam como uma lista de coisas que têm de se mover.",
+          "flavor": "Decida quem é o exército, e então descubra quantas outras coisas isso decide."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "设计瑟雷尼亚",
+      "dek": "十篇双色搭配专栏的第一篇：这个游戏里最接近的两个颜色、一套判断「一个机制究竟有多少空间」的三问测试，以及一个被这个游戏的发明者设计给了错误阵营的机制。",
+      "overview": "绿与白是这个游戏里几乎在每种牌型上都最相似的一对——这既是容易的那一面，也是困难的那一面：几十年来在两者之间做的细微区分，让它们在共享区域里谁都没有一份读得出来的所有权。随后罗斯瓦特给出了一套三问测试，用来判断一个机制能撑起多大的设计空间；他把它套在第一个公会关键字上，三问全过；再套在替代者上，则不过关。他仍然把替代者发了出去——其中一处缺陷是明知而承担的，另一处的绕行办法则被一一说明。",
+      "takeaway": "那套三问测试才是可复用的部分：它能被放在多少种牌型上、它是否要求自带限制、以及它是否会与自己争夺同一份资源。",
+      "lessons": [
+        {
+          "title": "在两个相似的当事方之间抠细节，会让双方都失去可读性",
+          "rules": "因为这两个颜色太接近，部门花了很多年在它们之间做细粒度的分配——一个拿较小的增益，另一个拿较大的。后果既微妙又昂贵：你没法用一个小增益去构成一张联合牌里属于白色的那一半，因为尽管那在技术上确实归白色，可它在任何人读来都不像白色。在划分共享空间时的精确，可能让双方都拿不到一份观众认得出来的所有权。",
+          "flavor": "技术上完全正确，而它看上去不像属于任何人。"
+        },
+        {
+          "title": "最好的情况不是「不与自己竞争」，而是「与自己相乘」",
+          "rules": "他的三问之一，是问这个机制的多张牌会不会为同一份资源互相抢食；他举的例子是一个吞噬坟场的机制——每多一张，就把下一张饿着。第一个公会关键字避开了这个问题，并且更进一步：那些启用它的牌，与每一张带着它的牌都协同，于是放得越多、每一张就越好。不互相竞争只是及格线。相乘，才是一个「值得被围绕着搭建」的机制该有的样子。",
+          "flavor": "不只是两张能共存。而是两张会想要第三张。"
+        },
+        {
+          "title": "判断一个机制究竟有多少空间的三个问题",
+          "rules": "它能放在多少种牌型上——每多一种牌型就多开一片空间。它是否要求自带限制，比如需要指定目标、需要一个可变数字、或者需要一项必须可调的异能——因为自我施加的要求是最大的空间限制器。以及，它是否会与自己争夺一份资源。他把这三问在两个公会机制上都走了一遍，而答案准确地预言了哪一个会好填、哪一个会让人头疼。",
+          "flavor": "三个在牌还不存在时就问出的问题，而两个答案后来都应验了。"
+        },
+        {
+          "title": "当你没法增加数量时，就让每一张反复触发",
+          "rules": "替代机制能支撑的牌比它的前身更少，这意味着每局里它得以发生的机会也更少。他们没有硬把更多牌塞进一个撑不住的空间，而是把若干高稀有度的做成了可重复使用的。总数不变，发生次数变多。当约束落在「你能印几张」上时，剩下的那根杠杆，就是每一张印出来的能触发几次。",
+          "flavor": "更少的牌，而每一张都不止发动一次。"
+        },
+        {
+          "title": "一个部件可以是对的，却被归错了档",
+          "rules": "第一个公会关键字，是这个游戏的发明者为另一个公会设计的，理由也说得通——一支军队协同作战来强化自身。罗斯瓦特喜欢这个机制，并告诉他它放错了地方。作者自己给出的归属是一份主张，而不是一个事实；而「重新归位」是一种与「发明」不同的贡献：这样东西本身什么都没变，却从「还算合适」变成了「完全合适」。",
+          "flavor": "机制对，门走错了。而总得有人愿意去对做出它的那个人把这话说出来。"
+        },
+        {
+          "title": "抬高一份资源，就有义务对它的克制手段做配给",
+          "rules": "支撑新机制意味着要在整个发售里提高衍生物的数量。他用一个从句点出了后果：这同时也意味着，对那些天生克制衍生物的牌要更谨慎。任何对某样东西供给的刻意抬高，都会改变「针对它的解答」值多少钱；而这个调整必须在同一轮里做完，否则新增的丰盛会被惩罚得比预期更狠。",
+          "flavor": "那样东西更多了，于是吃它的那些东西就得更少。"
+        },
+        {
+          "title": "续作的任务书是「不要重走老路」，其余全部开放",
+          "rules": "为了这次回归，约束清单既短又不对称：这个机制仍然必须建立在生物之上，因为那是这一对的内核；除此之外他们可以探索任何东西——前提是不能只是把第一个做过的再做一遍。前作的成功不是一份模板。它是一片被划掉的区域；而有意思的问题是：同一份身份里，还有哪一部分没被用过。",
+          "flavor": "第一个探索的是生物互相帮助。于是第二个探索的是生物不断增殖。"
+        },
+        {
+          "title": "明知而承担一处缺陷，并且说清是哪一处",
+          "rules": "他点出了这个已发售机制的两个问题。其中一个有绕行办法，也确实用上了：让这些牌自己供给所需的输入，或者把这项异能挂成一个附带项，使这张牌在没有输入时仍然能用。另一个——这套系统的一半单独毫无意义——没有解法；他直白地写道，他们知道这一条只能咽下去。随后他说这个公会是他最爱玩的。一处你已经决定要背着的缺陷，应当被表述为一个决定，而不是留给别人去发现。",
+          "flavor": "「第一个问题我们知道只能咽下去。」再没有别的辩护。"
+        },
+        {
+          "title": "给「双层机制」这个类别命名，并要求第二层能独立成立",
+          "rules": "有些机制自己就能运转；另一些则需要发售里存在第二样元素，而他把后者称为双层机制。真正让这个类别有用的，是附在它上面的那条规则：第二层必须本身就站得住，否则整套装置就是寄生性的，只能与同一个盒子里的材料配合。这里的第二层，是这个游戏本来就在大量产出的东西——而这正是让这套安排能活下来的原因。",
+          "flavor": "两层，而下面那层必须能在没有上面那层时活下去。"
+        },
+        {
+          "title": "一个定位决定，会连带引发好几次配额互换",
+          "rules": "在一段插话里他提到：大量产出衍生物这件事，过去主要归一个颜色、次要归另一个，而两者后来对调了——时间上与「把其中一个更用力地推成军队色」的决定同步，原因也正是那个决定。这就是一个关于性格的编辑决定，产出了至少两次具体能力上的重新分配。定位声明并不免费：它们的账，是以一份「必须挪动的东西清单」的形式结清的。",
+          "flavor": "先定下谁是那支军队，然后再去看这一条还顺带定下了多少别的事。"
+        }
+      ]
+    }
+  }
+}
