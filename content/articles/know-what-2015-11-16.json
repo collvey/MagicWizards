@@ -1,0 +1,320 @@
+{
+  "id": "know-what-2015-11-16",
+  "slug": "know-what-2015-11-16",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-11-16",
+  "series": null,
+  "tags": ["mailbag", "split-cards", "history", "color-pie", "complexity"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/know-what-2015-11-16",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T03:05:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "G" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "U" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Know What",
+      "dek": "Literally everyone who saw split cards wanted them gone. The move that saved them was making people play with them first.",
+      "overview": "The fourth Question Mark Mailbag: what he'd redo, what he's afraid to try, and what the biggest mistake was.",
+      "takeaway": "\"My role is not to entertain myself or prove that I can do something, but rather to create a product that the greatest number of people can enjoy playing.\"",
+      "lessons": [
+        {
+          "title": "Change the interrogative to change the answers you get",
+          "rules": "A standing invitation for questions produces the same kinds of questions every time. Constraining the opening word forces people down a different grammatical path, and a different grammatical path produces genuinely different subject matter — for the cost of one word in the prompt.",
+          "flavor": "“Five years ago, I started a mega-series I call ‘Question Mark Mailbags.' For each one, I ask my Twitter followers for questions starting with a particular question word. I started with the word How… Next I did the word Why. Then last year I did When. Today marks the fourth in the series, and the word is What… The reason I am starting each of these mailbags with different words is to try and generate different styles of questions.”"
+        },
+        {
+          "title": "A free action is an option; a costed one is a choice",
+          "rules": "If using something costs nothing, there is no decision — you use it at the last possible moment, every time. Attaching a price makes it compete with everything else that price could buy, and it opens a window where the other side can play around you. The cost is what creates the interaction.",
+          "flavor": "“In the world where you can sacrifice creatures for free, there is little choice to make. You will sacrifice the creature at the moment before you will lose it… When there is mana involved, you now have to weigh using the sacrifice against other functions such as spells or different activated abilities. It also means that you will have moments of vulnerability, when your opponent can try to play around the sacrifice.”"
+        },
+        {
+          "title": "The clearest sign the feel is right is laughter",
+          "rules": "There's no instrument for whether a thing produces the emotion you intended, and asking people directly gets you their theory rather than their experience. The reliable signal is behavioural and it happens in the room: watch whether the testers are enjoying themselves out loud.",
+          "flavor": "Asked what the clearest indication is that playtesters are getting the feel you're aiming for: “The number-one, best indicator that you're doing something right in your design is when the playtesters are laughing and having a good time.”"
+        },
+        {
+          "title": "Make them play with it before they're allowed to kill it",
+          "rules": "An unfamiliar idea gets rejected on inspection by everyone whose job includes risk. You will not win that argument by arguing. Convert the decision into an experiment — ask only that they try it before removing it — and let the thing make its own case.",
+          "flavor": "On split cards: “Everyone else in the company (and I mean literally everyone else who saw and weighed in on them) didn't like them and thought we should not do them. Henry Stern, the set's lead developer, tried to kill them day one of development (I was on the team and convinced everyone to play with them before killing them). Brand tried to kill them. Organized Play tried to kill them.”"
+        },
+        {
+          "title": "The cost of a tag is the consistency it obliges you to",
+          "rules": "Introducing a marker means you can't apply it selectively — if one qualifying item carries it and another doesn't, the marker means nothing. So it goes everywhere it could go, and the bill is the total wording across all of them, weighed against the small fraction of cases where it actually does something.",
+          "flavor": "“If tribal existed, we wanted to make sure we tagged things, because we didn't want one Goblin-themed card to be a Goblin while another Goblin-themed card wasn't. This required us using it all over the place. The problem was, the vast majority of the time it didn't matter… That meant we were adding words to a lot of cards for very little gameplay improvement.”"
+        },
+        {
+          "title": "You can be proud of something built for the wrong reasons",
+          "rules": "Quality of execution and correctness of purpose are separate axes, and satisfaction with the first can hide a failure on the second for years. The check is simple and uncomfortable: was this made to serve the people who'd use it, or to entertain its maker and prove a point?",
+          "flavor": "Asked for his greatest disappointment as a designer: “I'd say Odyssey. I made something I was very proud of, only to realize after the fact that it was made for all the wrong reasons. On the plus side, it was probably the set I learned the most on as a designer. It made me understand that my role is not to entertain myself or prove that I can do something, but rather to create a product that the greatest number of people can enjoy playing.”"
+        },
+        {
+          "title": "\"Which is hardest?\" has no answer until you say at what level",
+          "rules": "Difficulty isn't a property of a category; it's a property of a category at a particular tier, because the binding constraint changes as you move up. The same thing that is starved for material at the bottom can be the most restricted at the top, for entirely unrelated reasons.",
+          "flavor": "“Red is the hardest color to design for at low rarities, because it has the second most spells but far fewer types of different spells than blue. Also, a number of things red does, such as land destruction and mana rituals, we've pulled back… Blue is probably the trickiest color to design for at high rarities, because we've pulled back on a lot of the things that blue does there—stealing, clones, et cetera.”"
+        },
+        {
+          "title": "The worst migration is the one where the old text still parses",
+          "rules": "A change is survivable when the existing material visibly breaks — you can find it and fix it. The dangerous case is where old wording remains grammatical under the new regime but now denotes something else. Nothing errors, nothing flags, and every affected item is silently wrong.",
+          "flavor": "On merging instants into sorceries: “I think we've passed the point where we can make the transition. The biggest problem is that there would be cards with wording on them that work under the new rules as written, but the cards wouldn't do what that text says. (For instance, ‘Return a sorcery to your hand' would mean one thing if we matched original functionality, but a different thing if it followed the text on the card.)”"
+        },
+        {
+          "title": "The long-run threat is the churn, not any one decision",
+          "rules": "Ask what actually endangers a thing and the answer usually isn't a mistake you could avoid — it's a structural pressure you can't switch off. An obligation to keep producing novelty accumulates complexity by default, and complexity closes the door behind the people already inside.",
+          "flavor": "Asked his biggest worry about the game's future: “My biggest worry is the same one I've had for a long time: that the need to constantly churn to create new content will cause the complexity to spin out of control, driving away new players from wanting to learn how to play and ultimately killing the game.”"
+        },
+        {
+          "title": "The most constrained category is rarely the flashiest one",
+          "rules": "When you look for where the design space has run out, the answer isn't the elaborate component everyone finds hard — it's the humble one with the most rules attached and the least room to vary. Ordinary things can be the ones with nowhere left to go.",
+          "flavor": "Asked which card type is hardest to design after planeswalkers: “The card type with the most restrictions and the least amount of design space is land.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Saber qué",
+      "dek": "Literalmente todos los que vieron las cartas partidas querían que desaparecieran. La jugada que las salvó fue hacer que la gente jugara con ellas primero.",
+      "overview": "El cuarto buzón de signos de interrogación: qué reharía, qué le da miedo intentar, y cuál fue el mayor error.",
+      "takeaway": "«Mi papel no es entretenerme a mí mismo ni demostrar que puedo hacer algo, sino crear un producto que el mayor número de personas pueda disfrutar jugando.»",
+      "lessons": [
+        {
+          "title": "Cambia la palabra interrogativa para cambiar las respuestas que recibes",
+          "rules": "Una invitación permanente a preguntar produce siempre el mismo tipo de preguntas. Restringir la palabra inicial obliga a la gente a tomar otro camino gramatical, y otro camino gramatical produce temas genuinamente distintos, por el coste de una palabra en la consigna.",
+          "flavor": "«Hace cinco años empecé una megaserie que llamo “Buzones de signo de interrogación”. En cada uno pido a mis seguidores de Twitter preguntas que empiecen por una palabra interrogativa concreta. Empecé con Cómo… Luego hice Por qué. El año pasado, Cuándo. Hoy es el cuarto de la serie, y la palabra es Qué… La razón de empezar cada buzón con una palabra distinta es intentar generar estilos distintos de preguntas.»"
+        },
+        {
+          "title": "Una acción gratuita es una opción; una con coste es una elección",
+          "rules": "Si usar algo no cuesta nada, no hay decisión: lo usas en el último momento posible, siempre. Ponerle precio lo hace competir con todo lo demás que ese precio podría comprar, y abre una ventana en la que el otro lado puede jugar a tu alrededor. El coste es lo que crea la interacción.",
+          "flavor": "«En un mundo donde puedes sacrificar criaturas gratis, hay poca elección que hacer. Sacrificarás la criatura justo antes de perderla… Cuando hay maná de por medio, ahora tienes que sopesar usar el sacrificio frente a otras funciones como hechizos o distintas habilidades activadas. También significa que tendrás momentos de vulnerabilidad, cuando tu oponente puede intentar jugar alrededor del sacrificio.»"
+        },
+        {
+          "title": "La señal más clara de que la sensación es la correcta son las risas",
+          "rules": "No hay instrumento que mida si algo produce la emoción que pretendías, y preguntar directamente te da su teoría en vez de su experiencia. La señal fiable es conductual y ocurre en la sala: mira si los probadores se lo están pasando bien en voz alta.",
+          "flavor": "Preguntado por la indicación más clara de que los probadores captan la sensación buscada: «El indicador número uno, el mejor, de que estás haciendo algo bien en tu diseño es cuando los probadores se ríen y se lo pasan bien.»"
+        },
+        {
+          "title": "Haz que lo jueguen antes de permitirles matarlo",
+          "rules": "Una idea poco familiar la rechaza de un vistazo todo aquel cuyo trabajo incluye el riesgo. No ganarás esa discusión discutiendo. Convierte la decisión en un experimento —pide solo que lo prueben antes de quitarlo— y deja que la cosa defienda su propio caso.",
+          "flavor": "Sobre las cartas partidas: «A todos los demás en la empresa (y digo literalmente todos los que las vieron y opinaron) no les gustaban y pensaban que no debíamos hacerlas. Henry Stern, el desarrollador principal del bloque, intentó matarlas el primer día de desarrollo (yo estaba en el equipo y convencí a todos de jugar con ellas antes de matarlas). Marca intentó matarlas. Juego Organizado intentó matarlas.»"
+        },
+        {
+          "title": "El coste de una etiqueta es la coherencia a la que te obliga",
+          "rules": "Introducir un marcador significa que no puedes aplicarlo selectivamente: si un elemento que califica lo lleva y otro no, el marcador no significa nada. Así que va a todas partes donde podría ir, y la factura es el total de palabras en todos ellos, frente a la pequeña fracción de casos en que de verdad hace algo.",
+          "flavor": "«Si existía tribal, queríamos asegurarnos de etiquetar las cosas, porque no queríamos que una carta con tema de Trasgo fuera Trasgo y otra no. Eso nos obligaba a usarlo por todas partes. El problema es que la inmensa mayoría de las veces no importaba… Eso significaba añadir palabras a un montón de cartas a cambio de muy poca mejora de juego.»"
+        },
+        {
+          "title": "Puedes estar orgulloso de algo hecho por los motivos equivocados",
+          "rules": "La calidad de la ejecución y la corrección del propósito son ejes distintos, y la satisfacción con el primero puede ocultar durante años un fallo en el segundo. La comprobación es simple e incómoda: ¿esto se hizo para servir a quienes iban a usarlo, o para entretener a su autor y demostrar algo?",
+          "flavor": "Preguntado por su mayor decepción como diseñador: «Diría que Odyssey. Hice algo de lo que estaba muy orgulloso, solo para darme cuenta después de que estaba hecho por todos los motivos equivocados. Por el lado bueno, fue seguramente el bloque en el que más aprendí. Me hizo entender que mi papel no es entretenerme a mí mismo ni demostrar que puedo hacer algo, sino crear un producto que el mayor número de personas pueda disfrutar jugando.»"
+        },
+        {
+          "title": "«¿Cuál es el más difícil?» no tiene respuesta hasta que digas a qué nivel",
+          "rules": "La dificultad no es una propiedad de una categoría; es una propiedad de una categoría en un escalón concreto, porque la restricción que aprieta cambia según subes. Lo mismo que está famélico de material abajo puede ser lo más restringido arriba, por razones completamente distintas.",
+          "flavor": "«El rojo es el color más difícil de diseñar en rarezas bajas, porque tiene el segundo mayor número de hechizos pero muchos menos tipos distintos de hechizo que el azul. Además, varias cosas que hace el rojo, como destruir tierras y los rituales de maná, las hemos recortado… El azul es probablemente el más peliagudo en rarezas altas, porque hemos recortado muchas de las cosas que el azul hace ahí: robar, clonar, etcétera.»"
+        },
+        {
+          "title": "La peor migración es aquella en que el texto viejo sigue teniendo sentido",
+          "rules": "Un cambio es soportable cuando el material existente se rompe visiblemente: puedes encontrarlo y arreglarlo. El caso peligroso es cuando la redacción vieja sigue siendo gramatical bajo el nuevo régimen pero ahora denota otra cosa. Nada da error, nada se marca, y cada elemento afectado está silenciosamente mal.",
+          "flavor": "Sobre fundir los instantáneos en los conjuros: «Creo que hemos pasado el punto en que podíamos hacer la transición. El mayor problema es que habría cartas con textos que funcionan bajo las nuevas reglas tal como están escritos, pero las cartas no harían lo que ese texto dice. (Por ejemplo, “Regresa un conjuro a tu mano” significaría una cosa si igualáramos la funcionalidad original y otra distinta si siguiera el texto de la carta.)»"
+        },
+        {
+          "title": "La amenaza a largo plazo es la producción incesante, no una decisión concreta",
+          "rules": "Pregunta qué pone realmente en peligro algo y la respuesta no suele ser un error evitable, sino una presión estructural que no puedes apagar. La obligación de seguir produciendo novedad acumula complejidad por defecto, y la complejidad cierra la puerta detrás de quienes ya están dentro.",
+          "flavor": "Preguntado por su mayor preocupación sobre el futuro del juego: «Mi mayor preocupación es la misma que tengo desde hace mucho: que la necesidad de producir sin parar contenido nuevo haga que la complejidad se descontrole, ahuyentando a los jugadores nuevos de querer aprender a jugar y matando finalmente el juego.»"
+        },
+        {
+          "title": "La categoría más restringida rara vez es la más llamativa",
+          "rules": "Cuando buscas dónde se ha agotado el espacio de diseño, la respuesta no es el componente elaborado que a todos les parece difícil: es el humilde, el que tiene más reglas atadas y menos margen para variar. Las cosas corrientes pueden ser las que ya no tienen adónde ir.",
+          "flavor": "Preguntado por el tipo de carta más difícil de diseñar después de los Planeswalkers: «El tipo de carta con más restricciones y menos espacio de diseño es la tierra.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Savoir quoi",
+      "dek": "Littéralement tous ceux qui ont vu les cartes divisées voulaient leur mort. Le geste qui les a sauvées : faire jouer les gens avec d'abord.",
+      "overview": "Le quatrième courrier en point d'interrogation : ce qu'il referait, ce qu'il a peur d'essayer, et quelle fut la plus grosse erreur.",
+      "takeaway": "« Mon rôle n'est pas de me divertir ni de prouver que je sais faire quelque chose, mais de créer un produit qu'un maximum de gens prendra plaisir à jouer. »",
+      "lessons": [
+        {
+          "title": "Changez le mot interrogatif pour changer les réponses obtenues",
+          "rules": "Une invitation permanente à poser des questions produit toujours le même type de questions. Contraindre le premier mot force les gens sur une autre voie grammaticale, et une autre voie grammaticale produit des sujets réellement différents — pour le prix d'un mot dans la consigne.",
+          "flavor": "« Il y a cinq ans, j'ai lancé une méga-série que j'appelle “Courriers en point d'interrogation”. À chaque fois, je demande à mes abonnés des questions commençant par un mot interrogatif précis. J'ai commencé par Comment… puis Pourquoi, puis Quand l'an dernier. Voici le quatrième, et le mot est Quoi… La raison de changer de mot à chaque fois est d'essayer de susciter des styles de questions différents. »"
+        },
+        {
+          "title": "Une action gratuite est une option ; une action payante est un choix",
+          "rules": "Si l'usage ne coûte rien, il n'y a pas de décision : on l'emploie au dernier instant possible, à chaque fois. Y attacher un prix la met en concurrence avec tout ce que ce prix pourrait acheter, et ouvre une fenêtre où l'adversaire peut jouer autour. Le coût est ce qui crée l'interaction.",
+          "flavor": "« Dans un monde où l'on peut sacrifier des créatures gratuitement, il y a peu de choix à faire. On sacrifie la créature juste avant de la perdre… Avec du mana en jeu, il faut désormais peser l'usage du sacrifice face à d'autres fonctions comme des sorts ou d'autres capacités activées. Cela crée aussi des moments de vulnérabilité, où l'adversaire peut jouer autour du sacrifice. »"
+        },
+        {
+          "title": "Le signe le plus clair que la sensation est juste, c'est le rire",
+          "rules": "Aucun instrument ne mesure si une chose produit l'émotion visée, et poser la question directement vous rend leur théorie plutôt que leur vécu. Le signal fiable est comportemental et se produit dans la pièce : regardez si les testeurs s'amusent à voix haute.",
+          "flavor": "Interrogé sur le signe le plus clair que les testeurs saisissent la sensation visée : « Le meilleur indicateur, numéro un, que vous faites quelque chose de bien dans votre conception, c'est quand les testeurs rient et s'amusent. »"
+        },
+        {
+          "title": "Faites-leur y jouer avant de les autoriser à la tuer",
+          "rules": "Une idée inhabituelle est rejetée à l'examen par tous ceux dont le métier comporte le risque. Vous ne gagnerez pas ce débat en débattant. Transformez la décision en expérience — demandez seulement qu'on l'essaie avant de la retirer — et laissez la chose plaider sa propre cause.",
+          "flavor": "Sur les cartes divisées : « Tout le reste de l'entreprise (et je dis bien littéralement tous ceux qui les ont vues et se sont prononcés) ne les aimait pas et pensait qu'on ne devait pas les faire. Henry Stern, responsable du développement, a tenté de les tuer au premier jour (j'étais dans l'équipe et j'ai convaincu tout le monde d'y jouer avant de les tuer). La marque a tenté de les tuer. Le jeu organisé a tenté de les tuer. »"
+        },
+        {
+          "title": "Le coût d'une étiquette, c'est la cohérence qu'elle vous impose",
+          "rules": "Introduire un marqueur signifie qu'on ne peut pas l'appliquer au choix : si un élément éligible le porte et un autre non, le marqueur ne veut rien dire. Il va donc partout où il pourrait aller, et la facture est le total des mots sur l'ensemble, face à la petite fraction de cas où il sert vraiment.",
+          "flavor": "« Si le type tribal existait, nous voulions étiqueter les choses, car nous ne voulions pas qu'une carte à thème gobelin soit Gobelin et une autre non. Cela nous obligeait à l'employer partout. Le problème, c'est que l'immense majorité du temps cela ne changeait rien… Nous ajoutions donc des mots à beaucoup de cartes pour une très faible amélioration du jeu. »"
+        },
+        {
+          "title": "On peut être fier d'une chose faite pour de mauvaises raisons",
+          "rules": "La qualité d'exécution et la justesse de l'intention sont deux axes, et la satisfaction sur le premier peut masquer des années durant un échec sur le second. La vérification est simple et inconfortable : cela a-t-il été fait pour servir ceux qui l'utiliseraient, ou pour amuser son auteur et prouver quelque chose ?",
+          "flavor": "Interrogé sur sa plus grande déception de concepteur : « Je dirais Odyssey. J'ai fait une chose dont j'étais très fier, pour réaliser après coup qu'elle avait été faite pour toutes les mauvaises raisons. Côté positif, c'est sans doute l'extension qui m'a le plus appris. Elle m'a fait comprendre que mon rôle n'est pas de me divertir ni de prouver que je sais faire, mais de créer un produit qu'un maximum de gens prendra plaisir à jouer. »"
+        },
+        {
+          "title": "« Lequel est le plus dur ? » n'a pas de réponse tant qu'on ne dit pas à quel niveau",
+          "rules": "La difficulté n'est pas une propriété d'une catégorie, mais d'une catégorie à un échelon donné, car la contrainte qui mord change à mesure qu'on monte. Ce qui manque de matière en bas peut être le plus contraint en haut, pour des raisons totalement étrangères.",
+          "flavor": "« Le rouge est la couleur la plus dure à concevoir aux basses raretés, car elle a le deuxième plus grand nombre de sorts mais bien moins de types de sorts différents que le bleu. De plus, plusieurs choses que fait le rouge, comme la destruction de terrains et les rituels de mana, ont été réduites… Le bleu est sans doute le plus délicat aux hautes raretés, car nous y avons réduit beaucoup de ce que le bleu fait : voler, cloner, etc. »"
+        },
+        {
+          "title": "La pire migration est celle où l'ancien texte reste grammatical",
+          "rules": "Un changement est supportable quand l'existant casse visiblement : on peut le trouver et le corriger. Le cas dangereux, c'est quand l'ancienne formulation reste correcte sous le nouveau régime mais désigne désormais autre chose. Rien ne plante, rien ne signale, et chaque élément touché est silencieusement faux.",
+          "flavor": "Sur la fusion des éphémères dans les rituels : « Je crois que nous avons passé le point où la transition était possible. Le plus gros problème, c'est qu'il y aurait des cartes dont le texte fonctionne sous les nouvelles règles telles qu'écrites, mais où la carte ne ferait pas ce que ce texte dit. (Par exemple, “Renvoyez un rituel dans votre main” voudrait dire une chose si l'on gardait la fonctionnalité d'origine, et une autre si l'on suivait le texte.) »"
+        },
+        {
+          "title": "La menace de long terme, c'est la production continue, pas une décision isolée",
+          "rules": "Demandez ce qui met vraiment une chose en danger : ce n'est d'ordinaire pas une erreur évitable, mais une pression structurelle qu'on ne peut pas éteindre. L'obligation de produire sans cesse du neuf accumule de la complexité par défaut, et la complexité referme la porte derrière ceux qui sont déjà entrés.",
+          "flavor": "Interrogé sur sa plus grande inquiétude pour l'avenir du jeu : « C'est la même depuis longtemps : que le besoin de produire sans relâche du contenu neuf fasse partir la complexité hors de contrôle, décourageant les nouveaux joueurs d'apprendre à jouer et finissant par tuer le jeu. »"
+        },
+        {
+          "title": "La catégorie la plus contrainte est rarement la plus voyante",
+          "rules": "Quand vous cherchez où l'espace de conception s'est épuisé, la réponse n'est pas le composant élaboré que tout le monde trouve difficile : c'est l'humble, celui qui porte le plus de règles et a le moins de marge. Les choses ordinaires peuvent être celles qui n'ont plus nulle part où aller.",
+          "flavor": "Interrogé sur le type de carte le plus dur à concevoir après les planeswalkers : « Le type de carte avec le plus de restrictions et le moins d'espace de conception, c'est le terrain. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Saber o quê",
+      "dek": "Literalmente todo mundo que viu as cartas divididas queria que sumissem. O lance que as salvou foi fazer as pessoas jogarem com elas primeiro.",
+      "overview": "A quarta caixa de perguntas com ponto de interrogação: o que ele refaria, o que tem medo de tentar, e qual foi o maior erro.",
+      "takeaway": "“Meu papel não é me divertir nem provar que consigo fazer algo, e sim criar um produto que o maior número de pessoas possa curtir jogando.”",
+      "lessons": [
+        {
+          "title": "Mude a palavra interrogativa para mudar as respostas que você recebe",
+          "rules": "Um convite permanente a perguntas produz sempre o mesmo tipo de pergunta. Restringir a palavra inicial força as pessoas por outro caminho gramatical, e outro caminho gramatical produz assuntos genuinamente diferentes — ao custo de uma palavra no enunciado.",
+          "flavor": "“Cinco anos atrás comecei uma megassérie que chamo de ‘Caixas de Perguntas com Ponto de Interrogação'. Em cada uma peço aos meus seguidores perguntas começando por uma palavra interrogativa específica. Comecei com Como… Depois fiz Por quê. No ano passado, Quando. Hoje é a quarta da série, e a palavra é O quê… A razão de começar cada caixa com uma palavra diferente é tentar gerar estilos diferentes de pergunta.”"
+        },
+        {
+          "title": "Uma ação gratuita é uma opção; uma com custo é uma escolha",
+          "rules": "Se usar algo não custa nada, não há decisão: você usa no último momento possível, sempre. Pôr um preço faz aquilo competir com tudo o mais que o preço poderia comprar, e abre uma janela em que o outro lado pode jogar em torno de você. O custo é o que cria a interação.",
+          "flavor": "“No mundo em que dá para sacrificar criaturas de graça, há pouca escolha a fazer. Você sacrifica a criatura no instante antes de perdê-la… Quando há mana envolvido, você passa a ter de pesar o sacrifício contra outras funções, como mágicas ou outras habilidades ativadas. Isso também significa que haverá momentos de vulnerabilidade, em que o oponente pode tentar jogar em torno do sacrifício.”"
+        },
+        {
+          "title": "O sinal mais claro de que a sensação está certa é a risada",
+          "rules": "Não há instrumento para medir se algo produz a emoção pretendida, e perguntar diretamente te dá a teoria da pessoa em vez da experiência dela. O sinal confiável é comportamental e acontece na sala: veja se os testadores estão se divertindo em voz alta.",
+          "flavor": "Perguntado qual é a indicação mais clara de que os testadores estão captando a sensação pretendida: “O indicador número um, o melhor, de que você está fazendo algo certo no seu design é quando os testadores estão rindo e se divertindo.”"
+        },
+        {
+          "title": "Faça-os jogar com aquilo antes de terem permissão para matá-lo",
+          "rules": "Uma ideia pouco familiar é rejeitada na inspeção por todo mundo cujo trabalho inclui risco. Você não vai vencer esse debate debatendo. Converta a decisão num experimento — peça apenas que experimentem antes de remover — e deixe a coisa defender o próprio caso.",
+          "flavor": "Sobre as cartas divididas: “Todo mundo mais na empresa (e digo literalmente todos que as viram e opinaram) não gostou e achou que não devíamos fazê-las. Henry Stern, o desenvolvedor-líder, tentou matá-las no primeiro dia do desenvolvimento (eu estava na equipe e convenci todos a jogar com elas antes de matá-las). A marca tentou matá-las. O jogo organizado tentou matá-las.”"
+        },
+        {
+          "title": "O custo de um rótulo é a consistência a que ele te obriga",
+          "rules": "Introduzir um marcador significa que você não pode aplicá-lo seletivamente: se um item qualificado o carrega e outro não, o marcador não significa nada. Então ele vai a todo lugar em que poderia ir, e a conta é o total de palavras em todos eles, contra a pequena fração de casos em que ele de fato faz algo.",
+          "flavor": "“Se o tipo tribal existia, queríamos garantir que marcávamos as coisas, porque não queríamos que uma carta com tema de Goblin fosse Goblin e outra não. Isso exigia usá-lo por toda parte. O problema é que na esmagadora maioria das vezes não importava… Ou seja, estávamos acrescentando palavras a muitas cartas por muito pouca melhoria de jogo.”"
+        },
+        {
+          "title": "Dá para se orgulhar de algo feito pelos motivos errados",
+          "rules": "Qualidade de execução e correção de propósito são eixos separados, e a satisfação com o primeiro pode esconder por anos uma falha no segundo. A checagem é simples e desconfortável: isto foi feito para servir a quem iria usá-lo, ou para entreter quem o fez e provar um ponto?",
+          "flavor": "Perguntado sobre sua maior decepção como designer: “Eu diria Odyssey. Fiz algo de que eu tinha muito orgulho, só para perceber depois que havia sido feito por todos os motivos errados. Do lado bom, foi provavelmente o bloco em que mais aprendi. Ele me fez entender que meu papel não é me divertir nem provar que consigo fazer algo, e sim criar um produto que o maior número de pessoas possa curtir jogando.”"
+        },
+        {
+          "title": "“Qual é o mais difícil?” não tem resposta até você dizer em que nível",
+          "rules": "Dificuldade não é propriedade de uma categoria; é propriedade de uma categoria num degrau específico, porque a restrição que aperta muda conforme se sobe. A mesma coisa que passa fome de material embaixo pode ser a mais restrita no topo, por razões totalmente distintas.",
+          "flavor": "“O vermelho é a cor mais difícil de projetar nas raridades baixas, porque tem o segundo maior número de mágicas mas muito menos tipos diferentes de mágica que o azul. Além disso, várias coisas que o vermelho faz, como destruição de terreno e rituais de mana, nós recuamos… O azul é provavelmente o mais complicado nas raridades altas, porque recuamos em muito do que o azul faz ali: roubar, clonar, etc.”"
+        },
+        {
+          "title": "A pior migração é aquela em que o texto antigo ainda faz sentido",
+          "rules": "Uma mudança é suportável quando o material existente quebra visivelmente: dá para achar e consertar. O caso perigoso é quando a redação antiga continua gramatical sob o novo regime mas agora denota outra coisa. Nada dá erro, nada é sinalizado, e cada item afetado está silenciosamente errado.",
+          "flavor": "Sobre fundir instantâneas em feitiços: “Acho que passamos do ponto em que dava para fazer a transição. O maior problema é que haveria cartas com textos que funcionam sob as novas regras como estão escritos, mas as cartas não fariam o que aquele texto diz. (Por exemplo, ‘Devolva um feitiço para sua mão' significaria uma coisa se mantivéssemos a funcionalidade original e outra se seguisse o texto da carta.)”"
+        },
+        {
+          "title": "A ameaça de longo prazo é a produção incessante, não uma decisão qualquer",
+          "rules": "Pergunte o que de fato põe algo em perigo e a resposta em geral não é um erro evitável, e sim uma pressão estrutural que você não consegue desligar. A obrigação de continuar produzindo novidade acumula complexidade por padrão, e a complexidade fecha a porta atrás de quem já está dentro.",
+          "flavor": "Perguntado sobre sua maior preocupação com o futuro do jogo: “Minha maior preocupação é a mesma de muito tempo: que a necessidade de produzir sem parar conteúdo novo faça a complexidade sair de controle, afastando jogadores novos de querer aprender a jogar e no fim matando o jogo.”"
+        },
+        {
+          "title": "A categoria mais restrita raramente é a mais vistosa",
+          "rules": "Quando você procura onde o espaço de design acabou, a resposta não é o componente elaborado que todos acham difícil: é o humilde, o que tem mais regras amarradas e menos margem para variar. Coisas comuns podem ser as que não têm mais para onde ir.",
+          "flavor": "Perguntado qual tipo de carta é o mais difícil de projetar depois dos planeswalkers: “O tipo de carta com mais restrições e menos espaço de design é o terreno.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "知道是什么",
+      "dek": "所有看过分裂牌的人，字面意义上的所有人，都想把它砍掉。而救下它的那一手，是让大家先玩一玩。",
+      "overview": "第四期「问号信箱」：他想重做哪个系列、他不敢尝试什么，以及最大的错误是什么。",
+      "takeaway": "「我的职责不是取悦我自己、也不是证明我能做到某件事，而是创造一个能让尽可能多的人享受的产品。」",
+      "lessons": [
+        {
+          "title": "换掉那个疑问词，就能换掉你收到的答案",
+          "rules": "一份长期敞开的提问邀请，每次产出的都是同一类问题。限定开头的那个词，会逼着人们走上另一条语法路径；而另一条语法路径会产出真正不同的题材——代价只是提示语里的一个词。",
+          "flavor": "「五年前我开了一个我称之为『问号信箱』的大系列。每一期，我都请推特上的关注者提出以某个特定疑问词开头的问题。我从『怎样』开始……接着做了『为什么』。去年做了『什么时候』。今天是这个系列的第四期，词是『什么』……我之所以让每一期以不同的词开头，是为了试着催生不同风格的问题。」"
+        },
+        {
+          "title": "一个免费的动作是一个选项；一个要付费的动作才是一次抉择",
+          "rules": "如果使用某样东西不花任何代价，那就没有决定可言：你每一次都会在最后一刻才用它。给它标上价格，就让它必须与这笔钱能买到的其他一切竞争；同时也打开了一扇窗口，让对手可以绕着你打。正是这份代价创造了互动。",
+          "flavor": "「在一个你可以免费牺牲生物的世界里，几乎没有什么选择可做。你会在即将失去这个生物的前一刻把它牺牲掉……而一旦牵涉到法术力，你现在就必须在『用掉这次牺牲』与咒语、其他起动式异能之间做权衡。这也意味着你会出现脆弱的时刻——你的对手可以试着绕开你的牺牲。」"
+        },
+        {
+          "title": "「感觉对了」最清楚的信号，是笑声",
+          "rules": "没有任何仪器能测量一样东西是否产生了你想要的那份情绪；而直接去问，得到的是他们的理论，而不是他们的体验。可靠的信号是行为上的，而且就发生在这个房间里：去看试玩者是不是正出声地玩得开心。",
+          "flavor": "当被问到「什么是『试玩者正在感受到你想要的那份感觉』最清楚的迹象」时：「你在设计上做对了事情的第一号、也是最好的指标，就是试玩者们正在大笑、玩得开心。」"
+        },
+        {
+          "title": "在允许他们砍掉它之前，先让他们玩一玩",
+          "rules": "一个不熟悉的点子，会被每一个「工作职责里包含风险」的人在一眼扫过时否掉。你没法靠辩论赢下这场辩论。把这个决定转化成一次实验——只要求他们在移除它之前先试一次——然后让这样东西自己为自己申辩。",
+          "flavor": "关于分裂牌：「公司里其余所有人——我指的是字面意义上所有看到过并且发表过意见的人——都不喜欢它们，认为我们不该做。这个系列的首席开发师亨利·斯特恩在开发的第一天就想把它们砍掉（我当时在那个团队里，说服了所有人在砍掉之前先玩一玩）。品牌部想砍掉它们。组织赛事部也想砍掉它们。」"
+        },
+        {
+          "title": "一个标签的成本，是它逼着你去维持的那份一致性",
+          "rules": "引入一个标记，意味着你没法选择性地使用它：如果一个符合条件的东西带着它、而另一个没带，这个标记就什么也不意味着。于是它会出现在所有可能出现的地方；而账单就是这些地方加起来的全部字数——再拿它去对比「它真正起作用的那一小部分场合」。",
+          "flavor": "「既然部族这个类别存在，我们就想确保把该标的都标上；因为我们不希望一张以鬼怪为主题的牌是鬼怪，而另一张同样主题的却不是。这就要求我们到处都用它。问题在于，绝大多数时候它根本无关紧要……这意味着我们在大量的牌上添了字，却换来极少的对局改善。」"
+        },
+        {
+          "title": "你可以为一件出于错误理由而做的东西感到自豪",
+          "rules": "执行的质量与目的的正当，是两根不同的轴；而对前者的满意，可以把后者的失败掩盖很多年。检验方法简单而令人不适：这东西被做出来，是为了服务将要使用它的人，还是为了让它的作者自娱、并证明点什么？",
+          "flavor": "当被问到作为设计师最大的失望是什么时：「我会说是《奥德赛》。我做出了一样我非常自豪的东西，事后却意识到：它是出于所有错误的理由被做出来的。好的一面是，那大概是我作为设计师学到最多的一个系列。它让我明白：我的职责不是取悦我自己、也不是证明我能做到某件事，而是创造一个能让尽可能多的人享受的产品。」"
+        },
+        {
+          "title": "「哪个最难？」在你说清是哪个层级之前，是没有答案的",
+          "rules": "难度并不是某个类别的属性；它是「某个类别在某个特定层级上」的属性——因为随着你往上走，真正卡住你的那条约束会换掉。同一样东西，可能在底层因缺乏素材而挨饿，又在顶层成为限制最多的那个；而且这两件事的原因毫不相干。",
+          "flavor": "「在低稀有度上，红色是最难设计的颜色；因为它拥有第二多的咒语，但咒语的种类却远远少于蓝色。而且红色做的一些事，比如毁地和法术力仪式，我们已经在收紧……而在高稀有度上，最棘手的多半是蓝色；因为我们已经收紧了蓝色在那儿做的很多事——偷取、复制之类。」"
+        },
+        {
+          "title": "最糟糕的迁移，是旧文本依然读得通的那一种",
+          "rules": "当既有材料会明显地坏掉时，一次改动是可以承受的：你能找到它、修好它。危险的情形是：旧的措辞在新体制下依然合乎语法，却指向了另一件事。什么都不报错，什么都不会被标记出来，而每一个受影响的东西都在无声地错着。",
+          "flavor": "关于把瞬间并入法术：「我认为我们已经过了那个还能完成转换的时点。最大的问题是：会有一些牌，它们上面的措辞在新规则下照字面依然成立，但这张牌并不会做它文字所说的事。（比如说，『将一张法术牌移回你手上』——如果我们照原本的功能来，它意味着一回事；而如果照牌面文字来，它意味着另一回事。）」"
+        },
+        {
+          "title": "长期的威胁是那份不停歇的产出，而不是某一个决定",
+          "rules": "去问「究竟什么在危及这样东西」，答案通常不是某个你本可以避免的错误，而是一股你关不掉的结构性压力。「必须不断产出新鲜内容」这项义务，会默认地累积复杂度；而复杂度会把门在那些已经进来的人身后关上。",
+          "flavor": "当被问到对这个游戏未来最大的担忧时：「我最大的担忧和我很久以来一直有的那个是同一个：为了创造新内容而必须不停歇地产出，会让复杂度失控地膨胀，把新玩家吓得不想再去学怎么玩，并最终杀死这个游戏。」"
+        },
+        {
+          "title": "限制最多的那个类别，很少是最抢眼的那个",
+          "rules": "当你去找「设计空间已经耗尽」的地方时，答案并不是那个人人都觉得难的复杂部件；而是那个朴素的、身上绑着最多规则、可变余地最小的。平平无奇的东西，可能正是那个已经无处可去的。",
+          "flavor": "当被问到「除了鹏洛客之外，哪种牌张类别最难设计」时：「限制最多、设计空间最少的牌张类别是地。」"
+        }
+      ]
+    }
+  }
+}
