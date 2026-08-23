@@ -1,0 +1,294 @@
+{
+  "id": "gatewatch-me-work-part-1-2016-01-11",
+  "slug": "gatewatch-me-work-part-1-2016-01-11",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-01-11",
+  "series": { "id": "gatewatch-me-work", "order": 1, "total": 2 },
+  "tags": ["oath-of-the-gatewatch", "card-design", "templating", "color-pie", "commander"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/gatewatch-me-work-part-1-2016-01-11",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T23:20:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Gatewatch Me Work, Part 1",
+      "dek": "Eighteen legendary Clerics, and not one of them white-black. Nobody inside knew the gap was there.",
+      "overview": "Card-by-card from Oath of the Gatewatch, A through K: what varies when the output is fixed, why a static effect became an activated one, and the five-colour commander that costs one colour.",
+      "takeaway": "\"This is a good example of why it's important to let us know things that you want that we haven't made, because often we have no idea that such a card doesn't exist yet.\"",
+      "lessons": [
+        {
+          "title": "When the output form is fixed and narrow, find the axes that still vary",
+          "rules": "A category that can only produce one kind of thing looks exhausted long before it is. List the dimensions that are still free — what it's labelled, when it can be used, how many arrive at once — and the space reopens without touching the constraint that defined it.",
+          "flavor": "White makes only small creature tokens, with square stats. Three axes remain: creature type, since “Magic has a lot of tribal components, so we can often make the creature token maker matter by selecting the right creature type”; instant versus sorcery, where one has “surprise value” and the other gets “more creatures for cheaper”; and how many arrive, since “some formats are very sensitive to how many creatures you have.”"
+        },
+        {
+          "title": "Tell the makers what doesn't exist, because they can't see the gap",
+          "rules": "People inside a large body of work assume the obvious combinations were covered years ago, and there's no natural moment at which anyone audits for absences. An outsider pointing at a specific missing thing is doing work nobody on the inside is doing.",
+          "flavor": "“If you had asked me if we made a white-black legendary Cleric before, I would have said absolutely… It turns out we hadn't.” Eighteen legendary Clerics: seven mono-white, two mono-black, two black-red, two green-white, two Bant, one white-blue, one white-black-red, one white-blue-black. “This is a good example of why it's important to let us know things that you want that we haven't made.”"
+        },
+        {
+          "title": "Structural pieces make a theme worth drafting from both directions",
+          "rules": "Alongside the exciting things, build plain, cheap items that are slightly better if you're already committed to a theme. They pull twice: someone in the theme takes them earlier, and someone who happens to take one now has a reason to commit. Neither effect requires the piece to be strong.",
+          "flavor": "“We have to make nice, simple cards that look elegant and are easy to understand at low rarities that help support one or more themes of the set… If you're already in a theme, then Baloth Pup is slightly better in your deck and thus you might pick it a little sooner. Second, if you pick up a Baloth Pup, you now have more incentive to draft cards with something like support.”"
+        },
+        {
+          "title": "Rewrite a rule as an action when the engine won't honour the intent",
+          "rules": "Some effects read as if they simply remove a property, and the underlying system won't do that — later effects can put it back. When continuous phrasing can't deliver what people expect, convert it into a discrete action taken at a moment, and it behaves the way they read it far more of the time.",
+          "flavor": "The first version was “all creatures controlled by other players lose hexproof and indestructibility.” But “the game has something called layers… If Bonds of Mortality were a static effect, then there would be times where something could grant hexproof and/or indestructibility after Bonds of Mortality took it away. By turning the removal into an activated ability, we were able to make a card that acts how players think it will act a greater portion of the time.”"
+        },
+        {
+          "title": "With no precedent to consult, restate the mechanic as a sentence of intent",
+          "rules": "When you're placing something genuinely new and there's nothing analogous to point at, stop reasoning from mechanics and ask what the action means in plain words. Whichever philosophy owns that sentence owns the effect — and yes, other readings exist, so let the project's own theme break the tie.",
+          "flavor": "“What color is planeswalker tutoring?… When it's a brand-new ability, I have to walk through the paces of figuring out what feels right… What exactly does tutoring for a planeswalker mean from a flavor sense? Well, you're calling for help. That felt more like white to me than anything else. And yes, there are ways to spin it to other colors… Black, for example, could be flavored as if you were blackmailing a planeswalker.”"
+        },
+        {
+          "title": "Make several so that one survives",
+          "rules": "When something previously got squeezed out entirely, aiming for one instance guarantees zero — attrition will take it. Deliberately overproduce against a modest target: the goal isn't a full set of them, it's that at least one is still standing when the pruning stops.",
+          "flavor": "The last visit had intended white Eldrazi and designed several, but “as the file evolved through design and into development, white ended up more Zendikari-focused… no white Eldrazi remained. Going into Oath of the Gatewatch, the design team was aware of this. Our goal wasn't to make a lot of white Eldrazi cards, but to make at least a few with the hope that one would make it to print.”"
+        },
+        {
+          "title": "Separate what the price says from what the identity says",
+          "rules": "A long-blocked request often fails because one attribute is doing two jobs at once. Split them: let the entry cost stay small so the thing is usable in ordinary contexts, and put the breadth somewhere that only counts toward eligibility. Both audiences get served by the same object.",
+          "flavor": "Ally players wanted a five-colour Ally commander. “The big jump Ethan made was the idea of making it a monocolored creature in its mana cost and then having a five-color activation, which would allow it to have a five-color identity and thus work as a five-color commander. This design would also allow the deck to be more playable in Limited because the card only required one color.”"
+        },
+        {
+          "title": "Design to the name and follow the literal reading",
+          "rules": "Starting from a phrase rather than a mechanic lands you somewhere you'd never have reached by building up from parts. Take the words at face value, ask what would happen if they were literally true, and then prune the trivial cases out of the result.",
+          "flavor": "Someone was designing to the name “Hedron Alignment.” “The flavor we were trying to capture was that if you align the hedrons correctly, you can create powerful effects… Well, what if winning was actually winning?… The game has five zones… What if you had to get a copy into four different zones? Library is the most problematic and the easiest to actually do, as cards start the game in that zone, so drop that one out.”"
+        },
+        {
+          "title": "The best pieces are the ones where every part feeds the next",
+          "rules": "A collection of individually reasonable abilities is worth less than a smaller set that forms a circuit. Check whether each element creates the resource the next one consumes — when it closes into a loop, the thing plays itself and the flavour comes out without being stated.",
+          "flavor": "“Kalitas is a Vampire, so the lifelink is a perfect fit. He is then able to turn any death of an opponent's creature into another Zombie. The Zombies can then be sacrificed, as well as the Vampires you're playing in your deck, to make Kalitas bigger—which strengthens the lifelink, which forces your opponent to block, which makes more creatures die, resulting in even more Zombies for Kalitas.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Míralos trabajar, parte 1",
+      "dek": "Dieciocho Clérigos legendarios, y ni uno solo blanco-negro. Nadie dentro sabía que el hueco estaba ahí.",
+      "overview": "Carta a carta de Oath of the Gatewatch, de la A a la K: qué varía cuando la salida es fija, por qué un efecto estático se volvió activado, y el comandante de cinco colores que cuesta uno.",
+      "takeaway": "«Este es un buen ejemplo de por qué es importante que nos digáis cosas que queréis y que no hemos hecho, porque a menudo no tenemos ni idea de que esa carta todavía no existe.»",
+      "lessons": [
+        {
+          "title": "Cuando la forma de salida es fija y estrecha, busca los ejes que aún varían",
+          "rules": "Una categoría que solo puede producir un tipo de cosa parece agotada mucho antes de estarlo. Enumera las dimensiones que siguen libres —cómo se etiqueta, cuándo se puede usar, cuántas llegan a la vez— y el espacio se reabre sin tocar la restricción que lo definía.",
+          "flavor": "El blanco solo hace fichas pequeñas, con características cuadradas. Quedan tres ejes: el tipo de criatura, pues «Magic tiene muchos componentes tribales, así que podemos hacer que el generador de fichas importe eligiendo el tipo correcto»; instantáneo o conjuro, donde uno tiene «valor sorpresa» y el otro saca «más criaturas por menos»; y cuántas llegan, pues «algunos formatos son muy sensibles a cuántas criaturas tienes»."
+        },
+        {
+          "title": "Dile a quien fabrica lo que no existe, porque él no puede ver el hueco",
+          "rules": "Quien está dentro de un cuerpo de trabajo grande asume que las combinaciones obvias se cubrieron hace años, y no hay un momento natural en que alguien audite las ausencias. Un extraño señalando algo concreto que falta hace un trabajo que nadie de dentro está haciendo.",
+          "flavor": "«Si me hubieras preguntado si habíamos hecho un Clérigo legendario blanco-negro, habría dicho que por supuesto… Resulta que no.» Dieciocho Clérigos legendarios: siete monoblancos, dos mononegros, dos negro-rojos, dos verde-blancos, dos Bant, uno blanco-azul, uno blanco-negro-rojo y uno blanco-azul-negro. «Por eso es importante que nos digáis lo que queréis y no hemos hecho.»"
+        },
+        {
+          "title": "Las piezas estructurales hacen que un tema merezca draftearse en ambos sentidos",
+          "rules": "Junto a las cosas llamativas, construye piezas sencillas y baratas que sean un poco mejores si ya estás comprometido con un tema. Tiran dos veces: quien está en el tema las coge antes, y quien coge una por casualidad ya tiene motivo para comprometerse. Ninguno de los dos efectos exige que la pieza sea fuerte.",
+          "flavor": "«Tenemos que hacer cartas simples y elegantes, fáciles de entender en rarezas bajas, que apoyen uno o más temas del bloque… Si ya estás en un tema, Baloth Pup es algo mejor en tu mazo y quizá la cojas un poco antes. Y segundo: si recoges un Baloth Pup, ahora tienes más incentivo para draftear cartas con algo como apoyar.»"
+        },
+        {
+          "title": "Reescribe una regla como acción cuando el motor no respeta la intención",
+          "rules": "Algunos efectos se leen como si simplemente quitaran una propiedad, y el sistema subyacente no hace eso: efectos posteriores pueden devolverla. Cuando la formulación continua no puede dar lo que la gente espera, conviértela en una acción puntual y se comportará como la leen mucho más a menudo.",
+          "flavor": "La primera versión era «todas las criaturas controladas por otros jugadores pierden antimaleficio e indestructible». Pero «el juego tiene algo llamado capas… Si Bonds of Mortality fuera un efecto estático, habría momentos en que algo pudiera otorgar antimaleficio o indestructible después de que se lo hubiera quitado. Al convertir la remoción en una habilidad activada, logramos una carta que actúa como los jugadores creen que actuará más veces.»"
+        },
+        {
+          "title": "Sin precedente que consultar, reformula la mecánica como una frase de intención",
+          "rules": "Cuando colocas algo genuinamente nuevo y no hay nada análogo a lo que apuntar, deja de razonar desde la mecánica y pregunta qué significa la acción en palabras llanas. Quien sea dueño de esa frase es dueño del efecto; y sí, existen otras lecturas, así que deja que el tema del propio proyecto desempate.",
+          "flavor": "«¿De qué color es buscar un Planeswalker?… Cuando es una habilidad nueva, tengo que recorrer el proceso de averiguar qué se siente correcto… ¿Qué significa exactamente buscar un Planeswalker en términos de sabor? Pues estás pidiendo ayuda. Eso me pareció más blanco que ninguna otra cosa. Y sí, hay formas de girarlo a otros colores… El negro, por ejemplo, podría ser chantajear a un Planeswalker.»"
+        },
+        {
+          "title": "Haz varios para que sobreviva uno",
+          "rules": "Cuando algo ya fue expulsado por completo una vez, apuntar a una única instancia garantiza cero: el desgaste se la llevará. Sobreproduce a propósito contra un objetivo modesto: la meta no es un conjunto completo, sino que al menos uno siga en pie cuando termine la poda.",
+          "flavor": "La visita anterior pretendía tener Eldrazi blancos y diseñó varios, pero «según el archivo evolucionaba hacia desarrollo, el blanco acabó más centrado en Zendikar… no quedó ningún Eldrazi blanco. Al entrar en Oath of the Gatewatch, el equipo de diseño era consciente. Nuestro objetivo no era hacer muchos Eldrazi blancos, sino hacer al menos unos pocos con la esperanza de que uno llegara a imprenta.»"
+        },
+        {
+          "title": "Separa lo que dice el precio de lo que dice la identidad",
+          "rules": "Una petición bloqueada durante mucho tiempo suele fracasar porque un atributo está haciendo dos trabajos a la vez. Sepáralos: deja el coste de entrada pequeño para que la cosa sirva en contextos normales, y pon la amplitud en algún sitio que solo cuente para la elegibilidad. El mismo objeto sirve a ambos públicos.",
+          "flavor": "Los jugadores de Aliados querían un comandante Aliado de cinco colores. «El gran salto de Ethan fue hacerlo una criatura monocolor en su coste de maná y darle una activación de cinco colores, lo que le daría identidad de cinco colores y así funcionaría como comandante. Este diseño también lo hacía más jugable en Limitado, porque la carta solo requería un color.»"
+        },
+        {
+          "title": "Diseña al nombre y sigue la lectura literal",
+          "rules": "Partir de una frase en vez de una mecánica te lleva a sitios a los que jamás habrías llegado montando piezas. Toma las palabras al pie de la letra, pregunta qué pasaría si fueran literalmente ciertas, y luego poda del resultado los casos triviales.",
+          "flavor": "Alguien diseñaba al nombre «Hedron Alignment». «El sabor que queríamos capturar era que si alineas los hedrones correctamente, puedes crear efectos poderosos… Bueno, ¿y si ganar fuera literalmente ganar?… El juego tiene cinco zonas… ¿Y si tuvieras que meter una copia en cuatro zonas distintas? La biblioteca es la más problemática y la más fácil de cumplir, pues las cartas empiezan ahí, así que fuera esa.»"
+        },
+        {
+          "title": "Las mejores piezas son aquellas en las que cada parte alimenta a la siguiente",
+          "rules": "Un montón de habilidades razonables por separado vale menos que un conjunto más pequeño que forma un circuito. Comprueba si cada elemento crea el recurso que consume el siguiente: cuando cierra el bucle, la cosa se juega sola y el sabor sale sin necesidad de enunciarlo.",
+          "flavor": "«Kalitas es un Vampiro, así que el vínculo vital le encaja perfecto. Luego puede convertir la muerte de cualquier criatura del oponente en otro Zombi. Los Zombis pueden sacrificarse, igual que los Vampiros de tu mazo, para hacer más grande a Kalitas, lo que refuerza el vínculo vital, lo que obliga a tu oponente a bloquear, lo que hace morir más criaturas, resultando en aún más Zombis para Kalitas.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Regardez-les travailler, partie 1",
+      "dek": "Dix-huit Clercs légendaires, et pas un seul blanc-noir. Personne à l'intérieur ne savait que le trou existait.",
+      "overview": "Carte par carte dans Oath of the Gatewatch, de A à K : ce qui varie quand la sortie est fixe, pourquoi un effet statique est devenu activé, et le commandant cinq couleurs qui ne coûte qu'une couleur.",
+      "takeaway": "« C'est un bon exemple de l'importance de nous dire ce que vous voulez et que nous n'avons pas fait, car souvent nous n'avons aucune idée qu'une telle carte n'existe pas encore. »",
+      "lessons": [
+        {
+          "title": "Quand la forme de sortie est fixe et étroite, cherchez les axes encore libres",
+          "rules": "Une catégorie qui ne peut produire qu'une sorte de chose paraît épuisée bien avant de l'être. Énumérez les dimensions encore libres — comment elle est étiquetée, quand on peut s'en servir, combien en arrivent d'un coup — et l'espace se rouvre sans toucher à la contrainte qui le définissait.",
+          "flavor": "Le blanc ne fabrique que de petits jetons, aux valeurs carrées. Trois axes restent : le type de créature, car « Magic a beaucoup de composantes tribales, on peut donc rendre le générateur pertinent en choisissant le bon type » ; éphémère ou rituel, l'un ayant une « valeur de surprise » et l'autre donnant « plus de créatures pour moins cher » ; et combien arrivent, car « certains formats sont très sensibles au nombre de créatures »."
+        },
+        {
+          "title": "Dites aux fabricants ce qui n'existe pas, car ils ne voient pas le trou",
+          "rules": "À l'intérieur d'un vaste corpus, on suppose que les combinaisons évidentes ont été couvertes depuis des lustres, et aucun moment naturel n'impose d'auditer les absences. Quelqu'un de l'extérieur qui désigne un manque précis fait un travail que personne ne fait dedans.",
+          "flavor": "« Si vous m'aviez demandé si nous avions déjà fait un Clerc légendaire blanc-noir, j'aurais dit absolument… Il s'avère que non. » Dix-huit Clercs légendaires : sept mono-blancs, deux mono-noirs, deux noir-rouge, deux vert-blanc, deux Bant, un blanc-bleu, un blanc-noir-rouge, un blanc-bleu-noir. « D'où l'importance de nous dire ce que vous voulez et que nous n'avons pas fait. »"
+        },
+        {
+          "title": "Les pièces structurelles rendent un thème draftable dans les deux sens",
+          "rules": "À côté des choses spectaculaires, fabriquez des pièces simples et bon marché, légèrement meilleures si l'on est déjà engagé dans un thème. Elles tirent deux fois : celui qui est dans le thème les prend plus tôt, et celui qui en ramasse une a désormais une raison de s'engager. Ni l'un ni l'autre n'exige qu'elles soient fortes.",
+          "flavor": "« Il faut faire des cartes simples et élégantes, faciles à comprendre aux basses raretés, qui soutiennent un ou plusieurs thèmes… Si vous êtes déjà dans le thème, Baloth Pup est un peu meilleure chez vous, donc vous la prenez un peu plus tôt. Ensuite, si vous ramassez une Baloth Pup, vous avez davantage de raisons de drafter des cartes avec le soutien. »"
+        },
+        {
+          "title": "Réécrivez une règle en action quand le moteur n'honore pas l'intention",
+          "rules": "Certains effets se lisent comme s'ils retiraient simplement une propriété, et le système sous-jacent ne fait pas cela : des effets ultérieurs peuvent la remettre. Quand la formulation continue ne peut livrer ce qu'on attend, convertissez-la en action ponctuelle : elle se comportera bien plus souvent comme on la lit.",
+          "flavor": "La première version : « toutes les créatures contrôlées par les autres joueurs perdent la défense talismanique et l'indestructible ». Or « le jeu a ce qu'on appelle les couches… Si Bonds of Mortality était un effet statique, il y aurait des moments où quelque chose pourrait redonner ces capacités après coup. En transformant le retrait en capacité activée, nous avons fait une carte qui agit comme les joueurs le croient bien plus souvent. »"
+        },
+        {
+          "title": "Sans précédent à consulter, reformulez la mécanique en une phrase d'intention",
+          "rules": "Quand vous placez une chose vraiment neuve et qu'aucun analogue n'existe, cessez de raisonner en mécaniques et demandez ce que l'action veut dire en mots simples. La philosophie qui possède cette phrase possède l'effet ; et oui, d'autres lectures existent : laissez le thème du projet trancher.",
+          "flavor": "« De quelle couleur est le fait de chercher un planeswalker ?… Quand la capacité est neuve, je dois dérouler tout le raisonnement… Que signifie chercher un planeswalker, question saveur ? Eh bien, vous appelez à l'aide. Cela m'a paru plus blanc que tout le reste. Et oui, on peut le tourner vers d'autres couleurs… Le noir, par exemple, pourrait faire chanter un planeswalker. »"
+        },
+        {
+          "title": "Faites-en plusieurs pour qu'il en survive un",
+          "rules": "Quand une chose a déjà été entièrement évincée, viser un seul exemplaire garantit zéro : l'attrition l'emportera. Surproduisez délibérément par rapport à un objectif modeste : le but n'est pas d'en avoir une série complète, mais qu'au moins un tienne encore debout à la fin de l'élagage.",
+          "flavor": "La visite précédente voulait des Eldrazi blancs et en avait conçu plusieurs, mais « à mesure que le fichier avançait vers le développement, le blanc est devenu plus zendikari… il ne restait aucun Eldrazi blanc. En abordant Oath of the Gatewatch, l'équipe le savait. Notre but n'était pas d'en faire beaucoup, mais d'en faire au moins quelques-uns en espérant qu'un aille à l'impression. »"
+        },
+        {
+          "title": "Séparez ce que dit le prix de ce que dit l'identité",
+          "rules": "Une demande longtemps bloquée échoue souvent parce qu'un attribut fait deux métiers à la fois. Séparez-les : gardez le coût d'entrée bas pour que la chose serve en contexte ordinaire, et mettez l'ampleur là où elle ne compte que pour l'éligibilité. Le même objet sert les deux publics.",
+          "flavor": "Les joueurs d'Alliés voulaient un commandant Allié à cinq couleurs. « Le grand saut d'Ethan fut d'en faire une créature mono-couleur par son coût, avec une activation à cinq couleurs, ce qui lui donnait une identité cinq couleurs et donc le statut de commandant. Cette conception la rendait aussi plus jouable en Limité, car la carte n'exigeait qu'une couleur. »"
+        },
+        {
+          "title": "Concevez d'après le nom et suivez la lecture littérale",
+          "rules": "Partir d'une expression plutôt que d'une mécanique vous mène là où l'assemblage de pièces ne vous aurait jamais conduit. Prenez les mots au pied de la lettre, demandez ce qui arriverait s'ils étaient littéralement vrais, puis élaguez du résultat les cas triviaux.",
+          "flavor": "Quelqu'un concevait d'après le nom « Hedron Alignment ». « La saveur visée : si l'on aligne correctement les hédrons, on crée des effets puissants… Et si gagner voulait dire gagner pour de bon ?… Le jeu a cinq zones… Et s'il fallait placer un exemplaire dans quatre zones différentes ? La bibliothèque est la plus problématique et la plus facile à remplir, puisque les cartes y commencent : on la retire. »"
+        },
+        {
+          "title": "Les meilleures pièces sont celles où chaque partie nourrit la suivante",
+          "rules": "Un ensemble de capacités raisonnables prises séparément vaut moins qu'un ensemble plus petit formant un circuit. Vérifiez que chaque élément crée la ressource que consomme le suivant : quand la boucle se referme, la chose se joue toute seule et la saveur ressort sans qu'on l'énonce.",
+          "flavor": "« Kalitas est un vampire : le lien de vie lui va parfaitement. Il transforme ensuite la mort de n'importe quelle créature adverse en un zombie de plus. Les zombies peuvent être sacrifiés, comme les vampires de votre deck, pour grossir Kalitas — ce qui renforce le lien de vie, ce qui force l'adversaire à bloquer, ce qui fait mourir plus de créatures, donc encore plus de zombies. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Vejam-nos trabalhar, parte 1",
+      "dek": "Dezoito Clérigos lendários, e nenhum deles branco-preto. Ninguém de dentro sabia que a lacuna existia.",
+      "overview": "Carta a carta de Oath of the Gatewatch, de A a K: o que varia quando a saída é fixa, por que um efeito estático virou ativado, e o comandante de cinco cores que custa uma cor.",
+      "takeaway": "“Este é um bom exemplo de por que é importante nos dizerem coisas que vocês querem e que não fizemos, porque muitas vezes não fazemos ideia de que tal carta ainda não existe.”",
+      "lessons": [
+        {
+          "title": "Quando a forma de saída é fixa e estreita, ache os eixos que ainda variam",
+          "rules": "Uma categoria que só produz um tipo de coisa parece esgotada muito antes de estar. Liste as dimensões ainda livres — como é rotulada, quando pode ser usada, quantas chegam de uma vez — e o espaço reabre sem tocar na restrição que o definia.",
+          "flavor": "O branco só faz fichas pequenas, com números quadrados. Restam três eixos: o tipo de criatura, pois “Magic tem muitos componentes tribais, então dá para fazer o gerador de fichas importar escolhendo o tipo certo”; instantânea ou feitiço, um com “valor de surpresa” e o outro rendendo “mais criaturas por menos”; e quantas chegam, pois “alguns formatos são muito sensíveis a quantas criaturas você tem”."
+        },
+        {
+          "title": "Diga a quem fabrica o que não existe, porque eles não veem a lacuna",
+          "rules": "Quem está dentro de um corpo de trabalho grande supõe que as combinações óbvias foram cobertas anos atrás, e não há um momento natural em que alguém audite as ausências. Uma pessoa de fora apontando algo específico que falta faz um trabalho que ninguém de dentro está fazendo.",
+          "flavor": "“Se você me perguntasse se já tínhamos feito um Clérigo lendário branco-preto, eu diria que com certeza… Acontece que não.” Dezoito Clérigos lendários: sete monobrancos, dois monopretos, dois preto-vermelhos, dois verde-brancos, dois Bant, um branco-azul, um branco-preto-vermelho, um branco-azul-preto. “Por isso é importante nos dizerem o que querem e não fizemos.”"
+        },
+        {
+          "title": "Peças estruturais fazem um tema valer a pena nos dois sentidos",
+          "rules": "Ao lado das coisas chamativas, construa peças simples e baratas que sejam um pouco melhores se você já estiver comprometido com um tema. Elas puxam duas vezes: quem está no tema as pega mais cedo, e quem pega uma por acaso agora tem motivo para se comprometer. Nenhum dos dois efeitos exige que a peça seja forte.",
+          "flavor": "“Precisamos fazer cartas simples e elegantes, fáceis de entender em raridades baixas, que sustentem um ou mais temas… Se você já está num tema, Baloth Pup fica um pouco melhor no seu deck e talvez você a pegue mais cedo. Segundo: se você pega uma Baloth Pup, agora tem mais incentivo para draftar cartas com algo como apoiar.”"
+        },
+        {
+          "title": "Reescreva uma regra como ação quando o motor não honra a intenção",
+          "rules": "Alguns efeitos se leem como se simplesmente removessem uma propriedade, e o sistema por baixo não faz isso: efeitos posteriores podem devolvê-la. Quando a formulação contínua não entrega o que se espera, converta-a numa ação pontual, e ela se comportará como as pessoas leem muito mais vezes.",
+          "flavor": "A primeira versão era “todas as criaturas controladas por outros jogadores perdem resistência a magia e indestrutível”. Mas “o jogo tem o que se chama camadas… Se Bonds of Mortality fosse um efeito estático, haveria momentos em que algo poderia conceder essas habilidades depois. Ao transformar a remoção numa habilidade ativada, fizemos uma carta que age como os jogadores acham que agirá numa proporção maior das vezes.”"
+        },
+        {
+          "title": "Sem precedente a consultar, reformule a mecânica como uma frase de intenção",
+          "rules": "Quando você aloca algo genuinamente novo e não há nada análogo a apontar, pare de raciocinar por mecânica e pergunte o que a ação significa em palavras simples. A filosofia dona daquela frase é dona do efeito; e sim, existem outras leituras, então deixe o tema do próprio projeto desempatar.",
+          "flavor": "“De que cor é buscar um planeswalker?… Quando é uma habilidade nova, tenho de percorrer todo o raciocínio… O que significa buscar um planeswalker em termos de sabor? Bem, você está pedindo ajuda. Isso me pareceu mais branco do que qualquer outra coisa. E sim, dá para girar para outras cores… O preto, por exemplo, poderia ser chantagear um planeswalker.”"
+        },
+        {
+          "title": "Faça vários para que um sobreviva",
+          "rules": "Quando algo já foi espremido para fora por completo uma vez, mirar em uma única instância garante zero: o desgaste vai levá-la. Superproduza de propósito contra uma meta modesta: o objetivo não é um conjunto completo, e sim que pelo menos um continue de pé quando a poda terminar.",
+          "flavor": "A visita anterior pretendia ter Eldrazi brancos e projetou vários, mas “conforme o arquivo evoluiu para o desenvolvimento, o branco ficou mais focado em Zendikar… nenhum Eldrazi branco restou. Ao entrar em Oath of the Gatewatch, a equipe sabia disso. Nosso objetivo não era fazer muitos Eldrazi brancos, e sim fazer ao menos alguns, na esperança de que um chegasse à impressão.”"
+        },
+        {
+          "title": "Separe o que o preço diz do que a identidade diz",
+          "rules": "Um pedido bloqueado há muito tempo costuma falhar porque um atributo está fazendo dois trabalhos ao mesmo tempo. Separe-os: deixe o custo de entrada pequeno para a coisa servir em contextos comuns, e ponha a amplitude em algum lugar que só conte para elegibilidade. O mesmo objeto atende aos dois públicos.",
+          "flavor": "Os jogadores de Aliados queriam um comandante Aliado de cinco cores. “O grande salto de Ethan foi fazer dela uma criatura monocolorida no custo de mana e dar uma ativação de cinco cores, o que lhe daria identidade de cinco cores e funcionaria como comandante. Esse design também a tornava mais jogável no Limitado, porque a carta exigia só uma cor.”"
+        },
+        {
+          "title": "Projete a partir do nome e siga a leitura literal",
+          "rules": "Partir de uma expressão em vez de uma mecânica leva você a lugares que montar peças jamais alcançaria. Tome as palavras ao pé da letra, pergunte o que aconteceria se fossem literalmente verdadeiras, e então pode os casos triviais do resultado.",
+          "flavor": "Alguém projetava a partir do nome “Hedron Alignment”. “O sabor que queríamos capturar era que, alinhando os hédrons corretamente, você cria efeitos poderosos… Bem, e se vencer fosse literalmente vencer?… O jogo tem cinco zonas… E se você tivesse de pôr uma cópia em quatro zonas diferentes? O grimório é o mais problemático e o mais fácil de cumprir, pois as cartas começam ali, então tiramos essa.”"
+        },
+        {
+          "title": "As melhores peças são aquelas em que cada parte alimenta a seguinte",
+          "rules": "Um punhado de habilidades individualmente razoáveis vale menos que um conjunto menor que forma um circuito. Verifique se cada elemento cria o recurso que o próximo consome: quando o laço fecha, a coisa se joga sozinha e o sabor sai sem precisar ser enunciado.",
+          "flavor": "“Kalitas é um Vampiro, então vínculo com a vida cai perfeito. Ele então transforma a morte de qualquer criatura do oponente em mais um Zumbi. Os Zumbis podem ser sacrificados, assim como os Vampiros do seu deck, para deixar Kalitas maior — o que fortalece o vínculo com a vida, o que força o oponente a bloquear, o que faz mais criaturas morrerem, resultando em ainda mais Zumbis.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "看他们干活（上）",
+      "dek": "十八个传奇祭师，没有一个是白黑双色的。里面没有任何人知道这个缺口的存在。",
+      "overview": "《环旅护卫誓约》逐张设计故事，A到K：当产出形态被固定时还有哪些轴可变、一个静止式效果为何变成了起动式，以及那位只需一个颜色的五色统帅。",
+      "takeaway": "「这正是一个好例子，说明为什么『把你们想要、而我们还没做过的东西告诉我们』很重要——因为我们往往根本不知道，那样一张牌至今还不存在。」",
+      "lessons": [
+        {
+          "title": "当产出的形态被固定得很窄时，去找那些仍然可变的轴",
+          "rules": "一个只能产出某一种东西的类别，往往在真正枯竭之前很久，就已经显得枯竭了。把仍然自由的那些维度列出来——它被贴什么标签、什么时候能用、一次来几个——于是这片空间重新打开，而你并没有动那条定义了它的限制。",
+          "flavor": "白色只做小型衍生物，而且数值多为方形。仍有三根轴：生物类别，因为「万智牌有大量的部族成分，所以我们常常可以靠挑对生物类别，来让这个衍生物制造者变得重要」；瞬间还是法术，前者有「突袭价值」，后者则能「用更少的钱换来更多生物」；以及一次来几个，因为「有些赛制对你有多少个生物非常敏感」。"
+        },
+        {
+          "title": "把「什么还不存在」告诉制作者，因为他们看不见那个缺口",
+          "rules": "身处一大批既有作品之内的人，会假定那些显而易见的组合早在多年前就被覆盖过了；而且并不存在一个自然而然的时刻，让谁去专门盘点缺席之物。一个来自外部的人指出某样具体缺失的东西，做的正是内部无人在做的那份工作。",
+          "flavor": "「如果你问我，我们以前有没有做过白黑双色的传奇祭师，我会说当然做过……结果我们并没有。」十八个传奇祭师：七个纯白、两个纯黑、两个黑红、两个绿白、两个班特、一个白蓝、一个白黑红、一个白蓝黑。「这正是一个好例子，说明为什么把你们想要、而我们还没做过的东西告诉我们很重要。」"
+        },
+        {
+          "title": "结构性的牌，能让一个主题在两个方向上都值得去抓",
+          "rules": "在那些华丽的东西之外，去造一些朴素、便宜、并且「如果你已经投入某个主题就会略强一点」的部件。它们会拉动两次：已在这个主题里的人会更早地拿走它；而碰巧拿到它的人，如今有了投入这个主题的理由。这两种效果，都不要求这个部件本身很强。",
+          "flavor": "「我们必须做一些漂亮、简单、在低稀有度上看起来优雅又容易理解、并且能支撑这个系列一个或多个主题的牌……如果你已经在某个主题里了，那么这张幼兽在你的套牌里就稍微更好一点，于是你可能会稍微早一点选它。其次，如果你捡到了一张它，那你现在就更有理由去抓那些带支援的牌了。」"
+        },
+        {
+          "title": "当引擎无法兑现你的意图时，把一条规则改写成一个动作",
+          "rules": "有些效果读起来就像是「直接把某项性质拿掉」，而底层系统并不这么运作——后续的效果可以把它再加回去。当持续性的措辞无法交付人们所期待的结果时，就把它转换成一个「在某个时刻执行的离散动作」；于是在远远更多的时候，它的行为会与人们读到的一致。",
+          "flavor": "最初的版本是「由其他牌手操控的所有生物失去辟邪与不灭异能」。但是「这个游戏里有一样叫作『层』的东西……如果《凡人枷锁》是一个静止式效果，那就会出现这样的时刻：在它把辟邪或不灭拿掉之后，别的东西又把它们赋予了回去。而把这份移除改成一个起动式异能，我们就做出了一张在更多情况下按牌手预期行事的牌。」"
+        },
+        {
+          "title": "在无先例可查时，把这个机制重新表述成一句「意图」",
+          "rules": "当你要给一样真正全新的东西定位、而又没有任何类似物可以指认时，就别再从机制上推理了，改问：这个动作用大白话说是什么意思。谁的哲学拥有那句话，谁就拥有这个效果；而且是的，别的解读也成立——那就让这个项目自身的主题来打破平局。",
+          "flavor": "「搜寻鹏洛客是什么颜色？……当它是一项全新的异能时，我就必须把『什么感觉上是对的』这套流程走一遍……从风味上说，搜寻一位鹏洛客究竟意味着什么？嗯，你是在呼救。这在我看来比任何别的颜色都更像白色。当然，我们也有办法把它拧到别的颜色去……比如黑色，可以写成你在勒索一位鹏洛客来帮你。」"
+        },
+        {
+          "title": "多做几个，好让其中一个活下来",
+          "rules": "当某样东西此前曾被彻底挤出去过时，「只瞄准做出一个」就等于保证是零：损耗会把它带走。针对一个不高的目标去刻意超量生产：目标不是拥有完整的一整套，而是当修剪停止时，至少还有一个仍然站着。",
+          "flavor": "上一次造访本打算要有白色的奥札奇，也设计了好几张；但「随着文件从设计走进开发，白色变得更偏赞迪卡本地……最后一张白色奥札奇都没剩下。进入《环旅护卫誓约》时，设计团队清楚这一点。我们的目标不是做很多张白色奥札奇，而是至少做出几张，指望其中一张能挺到付印。」"
+        },
+        {
+          "title": "把「价格所说的」和「身份所说的」分开",
+          "rules": "一份被长期卡住的诉求，往往之所以失败，是因为某一项属性同时在干两份活。把它们拆开：让准入成本保持很低，好让这样东西在寻常场合也用得上；再把那份「广度」放到一个只影响资格认定的地方。于是同一件东西同时服务了两批受众。",
+          "flavor": "盟友玩家想要一位五色的盟友统帅。「伊森做出的那一大跳，是把它的法术力费用做成单色生物，然后给它一个五色的起动异能；这让它拥有五色的身份标识，从而可以作为五色统帅使用。这个设计同时也让它在限制赛里更好用，因为这张牌只需要一个颜色。」"
+        },
+        {
+          "title": "照着名字来设计，并且顺着字面读下去",
+          "rules": "从一个词组、而不是从一套机制出发，会把你带到一个「靠零件往上搭永远到不了」的地方。把那些字眼照字面理解，问一句：如果它们真的成立，会发生什么？然后再把结果里那些无关痛痒的情形剪掉。",
+          "flavor": "有人在照着「奇岩归位」这个名字做设计。「我们想抓住的风味是：如果你把那些奇岩正确地对齐，就能创造出帮你打赢对手的强大效果……那么，如果『赢』就真的是赢呢？……这个游戏有五个区域……如果你必须把一份复制品送进四个不同的区域呢？牌库是最麻烦、同时也是最容易达成的，因为牌本来就从那儿开局，所以把它去掉。」"
+        },
+        {
+          "title": "最好的那些设计，是每一个部分都在喂养下一个部分",
+          "rules": "一堆各自看来都合理的异能，价值比不上一组更小的、能围成一个回路的异能。检查一下：每一个元素，是否都在制造下一个元素所要消耗的资源？当它闭合成一个环时，这件东西就会自己运转起来；而那份风味不需要被说出口，也自己浮现了出来。",
+          "flavor": "「卡力塔斯是吸血鬼，所以系命完美契合。接着，他能把对手任何一个生物的死亡都变成又一个僵尸。这些僵尸可以被牺牲掉——你套牌里的吸血鬼也可以——用来把卡力塔斯养大；这加强了系命，这逼迫你的对手去阻挡，这让更多生物死去，于是又给卡力塔斯带来更多的僵尸。」"
+        }
+      ]
+    }
+  }
+}
