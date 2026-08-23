@@ -1,0 +1,320 @@
+{
+  "id": "prose-and-khans-part-2-2014-09-22",
+  "slug": "prose-and-khans-part-2-2014-09-22",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2014-09-22",
+  "series": null,
+  "tags": ["khans-of-tarkir", "card-by-card", "morph", "handoff", "design-story"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/prose-and-khans-part-2-2014-09-22",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-25T04:15:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Prose and Khans, Part 2",
+      "dek": "Card-by-card design stories from Khans of Tarkir, M through Z.",
+      "overview": "A giant slow tortoise, three futureshifted reprints that all fell through, a planeswalker with no dragons to summon, and a morph cost paid in information.",
+      "takeaway": "\"We shouldn't put in a suboptimal card just for the gimmick of bringing back a futureshifted card.\"",
+      "lessons": [
+        {
+          "title": "Name what you're attached to at handoff, so the next team can weigh it",
+          "rules": "A receiving team can only evaluate what's in front of them, and some of what you're passing along is good for reasons that don't survive a cold read. Tell them plainly which pieces you fought for. It doesn't oblige them to keep anything — it gives them the information that this one was deliberate, so it isn't cut by default.",
+          "flavor": "“When we hand the design over to development, I always let the lead developer know which cards or cycles I'm most attached to. For Khans of Tarkir, I listed this cycle. It turns out not all of the developers were as much fans of this cycle as myself and my design team, but luckily Erik (knowing we valued them) made sure to keep them in the set.”"
+        },
+        {
+          "title": "A piece that embodies the theme by itself removes the reason to build the theme",
+          "rules": "Giving your headline element to the object that represents the theme reads as consistency and quietly defeats the point: the thing now works alone, so nobody assembles the surrounding structure it was meant to advertise. Strip the self-sufficiency out and it becomes a reason to build the rest.",
+          "flavor": "“We wanted the Jeskai khan to play well with the Jeskai mechanic, prowess. How exactly does a creature do that? The solution was to give Narset an ability which allowed her to play noncreature spells for free. Narset did have prowess at one time, but it ended up being too synergistic, so it was removed. The idea became play her with prowess creatures rather than her just being a one-card combo.”"
+        },
+        {
+          "title": "A cost paid in information feels free and isn't",
+          "rules": "Every ordinary price — money, time, material — registers as a loss at the moment you pay it, which makes people avoid the thing. A price paid by disclosing something feels like nothing was surrendered, while still restricting who can pay and when. And in any setting where concealment matters, the disclosure becomes a move in its own right.",
+          "flavor": "“Spending mana or life or cards always feels as if you're giving up something. Revealing a card in your hand gives away a little information but mostly feels like you're not paying much… it traded on the idea that information was a commodity… But in a world with morph, all sorts of mind games can be played. I could show you a morph card, for example, and then play one on the next turn. Was it what I showed you or did I show it to you to make you think that's what it is?”"
+        },
+        {
+          "title": "An exclusion made under a constraint doesn't get revisited when the constraint lifts",
+          "rules": "Things are removed for reasons, the reasons get forgotten, and the removal persists as a fact about the project. When you change a foundational decision, go back through what was rejected because of it — nobody will do this spontaneously, because the exclusions aren't in front of anyone any more.",
+          "flavor": "The third candidate for a futureshifted reprint: “Tombstalker was handed off from design to development, and development was willing to print it when we ran into our next problem. Tarkir (at the time) didn't have demons. Tombstalker is a demon. When we put demons into the set we didn't go back and revisit why we excluded Tombstalker. That meant it wouldn't work either.”"
+        },
+        {
+          "title": "A callback isn't worth a worse component",
+          "rules": "References to your own past are cheap to justify and easy to over-price, because the pleasure is real and lands on a small, vocal group. Run the candidate on its merits with the reference removed. If it wouldn't survive that test, the gimmick is what you'd be shipping, and there is usually a plainer way to make the same nod.",
+          "flavor": "Three futureshifted delve cards were tried and all three failed. “Development looked back at Death Rattle and Logic Knot, but in the end it was decided that we shouldn't put in a suboptimal card just for the gimmick of bringing back a futureshifted card. 'Introducing' delve, a futureshifted keyword, would have to be enough.” Earlier: “what delve really wanted was a nice clean kill spell—one that didn't have any restrictions.”"
+        },
+        {
+          "title": "Build the tool to decay on the same clock as the strategy it serves",
+          "rules": "A fast approach needs its equipment to stop working when the fast window closes, or it keeps competing in a phase it isn't supposed to win. Write the expiry into the tool itself rather than balancing it externally: attach a release condition the other side can't meet early and can meet later, and the decline is automatic.",
+          "flavor": "“We want Jeskai to be one of the faster clans, but we needed to make sure that in the late game, the slower clans would grow in strength while Jeskai would weaken… The tactic was simple. Put a buyout clause on the lockdown card. Early on, the opponent won't be able to pay the cost, but later in the game he or she will. This allowed the card to function best where Jeskai most want it and then weaken if the game gets to the later portion.”"
+        },
+        {
+          "title": "When the defining relationship has no object left, collapse the relation into the character",
+          "rules": "A figure known entirely for their connection to something absent looks unusable in the setting that removed it. Don't substitute a replacement object and don't drop the association. Fold it inward: whatever they were reaching toward, let them become it. The absence stops being a problem and turns into the reason the moment matters.",
+          "flavor": "“Here was the challenge: We had to make a kickass Sarkhan Planeswalker card. Sarkhan has always been defined by his connection with dragons, except he was now home in Tarkir, a world without dragons. What was a designer to do? What if instead of summoning dragons, Sarkhan just became a dragon? Ooh, that solved our problem.”"
+        },
+        {
+          "title": "The image that lands with none of its context is the one to lead with",
+          "rules": "Most promotional material assumes the audience knows who they're looking at. The rare piece that works on someone with no information at all is worth far more, because it survives every context in which it will be seen. Notice when your own reaction preceded recognition — that's the test, and it's already been run on you.",
+          "flavor": "“I remember the first time I saw the art for Savage Punch. I didn't even realize that it was Surrak Dragonclaw, the khan of the Temur, doing the punching. It didn't even matter. During the slideshow when it was shown, it got a similar response from the audience. We included it in the San Diego Comic-Con panel because we expected the same would hold true for the players. And it did. I saw more talk about bear punching than any other single attribute we showed off at the panel.”"
+        },
+        {
+          "title": "Build the object the plot will need before the plot has specified it",
+          "rules": "When a story requires some device to work at all, you can start on it while the writers are still deciding what it does. What you know is that it must exist and must be a real component of your system. Build versions now; the specifics will overwrite some of it and the rest carries through, which is faster than waiting for a settled brief.",
+          "flavor": "“If you're going to have a time-travel story, you usually need a means by which your characters are able to travel through time. Ugin's Nexus was designed specifically to be the 'time-travel machine' of the story. You have to understand that when we designed it, exactly how the time traveling was going to work wasn't known yet. The creative team was still working out the details… We tried a whole bunch of different designs.”"
+        },
+        {
+          "title": "Follow the associations outward and take the second property, not the first",
+          "rules": "Pick a subject for the quality you wanted, then keep going: what else is that thing famous for? The secondary association is where the interesting mechanism usually is, because the primary one is what everyone else already built. Old gave a tortoise; the tortoise gave slowness; slowness gave a creature that takes two turns to attack.",
+          "flavor": "“This card came about because we were trying to make something old. Not just a little old—very, very old. What kind of creature lives the longest? Well, tortoises are known for having long lives… Tortoises are also known for being very slow, so we top-down designed a giant, slow-moving, very old tortoise… To capture how slow it was, we made it take two whole turns to attack.” The design name, which survived to print in spirit, was Turtle McDurtle."
+        }
+      ]
+    },
+    "es": {
+      "title": "Prosa y khanes, parte 2",
+      "dek": "Historias de diseño carta por carta de Khans of Tarkir, de la M a la Z.",
+      "overview": "Una tortuga gigante y lenta, tres reimpresiones del futuro desplazado que se cayeron todas, un planeswalker sin dragones a los que invocar, y un coste de morfo pagado en información.",
+      "takeaway": "«No deberíamos meter una carta subóptima solo por el truco de recuperar una carta del futuro desplazado.»",
+      "lessons": [
+        {
+          "title": "Di de qué estás encariñado al entregar, para que el siguiente equipo pueda ponderarlo",
+          "rules": "Un equipo receptor solo puede evaluar lo que tiene delante, y parte de lo que le pasas es bueno por razones que no sobreviven a una lectura fría. Dile claramente por qué piezas peleaste. No le obliga a conservar nada: le da la información de que esta fue deliberada, de modo que no se corte por defecto.",
+          "flavor": "«Cuando entregamos el diseño a desarrollo, siempre le indico al desarrollador principal qué cartas o ciclos me tienen más encariñado. Para Khans of Tarkir, listé este ciclo. Resulta que no todos los desarrolladores eran tan fans de este ciclo como mi equipo y yo, pero por suerte Erik (sabiendo que los valorábamos) se aseguró de mantenerlos en la colección.»"
+        },
+        {
+          "title": "Una pieza que encarna el tema por sí sola elimina la razón para construir el tema",
+          "rules": "Darle tu elemento estrella al objeto que representa el tema parece coherencia y calladamente derrota el propósito: la cosa ya funciona sola, así que nadie monta la estructura circundante que debía publicitar. Quítale la autosuficiencia y pasa a ser una razón para construir el resto.",
+          "flavor": "«Queríamos que la khan Jeskai funcionara bien con la mecánica Jeskai, destreza. ¿Cómo hace eso exactamente una criatura? La solución fue dar a Narset una habilidad que le permitía lanzar hechizos que no son de criatura gratis. Narset llegó a tener destreza, pero resultó ser demasiado sinérgico y se le quitó. La idea pasó a ser jugarla con criaturas con destreza, en vez de que fuera un combo de una sola carta.»"
+        },
+        {
+          "title": "Un coste pagado en información se siente gratis y no lo es",
+          "rules": "Todo precio ordinario —dinero, tiempo, material— se registra como pérdida en el momento de pagarlo, y eso hace que la gente evite la cosa. Un precio pagado revelando algo se siente como si no se hubiera entregado nada, y aun así restringe quién puede pagarlo y cuándo. Y en cualquier entorno donde el ocultamiento importa, la revelación se convierte en una jugada por derecho propio.",
+          "flavor": "«Gastar maná, vida o cartas siempre se siente como renunciar a algo. Revelar una carta de tu mano cede un poco de información pero mayormente se siente como si no pagaras mucho… jugaba con la idea de que la información es una mercancía… Pero en un mundo con morfo pueden jugarse toda clase de juegos mentales. Podría enseñarte una carta de morfo y luego jugar una al turno siguiente. ¿Era la que te enseñé, o te la enseñé para que pensaras que lo es?»"
+        },
+        {
+          "title": "Una exclusión hecha bajo una restricción no se revisa cuando la restricción desaparece",
+          "rules": "Las cosas se eliminan por razones, las razones se olvidan, y la eliminación persiste como un hecho del proyecto. Cuando cambies una decisión fundacional, vuelve sobre lo que se rechazó por su culpa: nadie lo hará espontáneamente, porque las exclusiones ya no están delante de nadie.",
+          "flavor": "El tercer candidato a reimpresión del futuro desplazado: «Tombstalker pasó de diseño a desarrollo, y desarrollo estaba dispuesto a imprimirla cuando nos topamos con el siguiente problema. Tarkir (por entonces) no tenía demonios. Tombstalker es un demonio. Cuando metimos demonios en la colección, no volvimos atrás a revisar por qué habíamos excluido a Tombstalker. Eso significaba que tampoco funcionaría.»"
+        },
+        {
+          "title": "Un guiño no vale una pieza peor",
+          "rules": "Las referencias al propio pasado son baratas de justificar y fáciles de sobrevalorar, porque el placer es real y recae en un grupo pequeño y ruidoso. Evalúa el candidato por sus méritos con la referencia quitada. Si no sobrevive a esa prueba, lo que publicarías es el truco, y suele haber una forma más llana de hacer el mismo gesto.",
+          "flavor": "Se probaron tres cartas de escarbar del futuro desplazado y las tres fallaron. «Desarrollo volvió a mirar Death Rattle y Logic Knot, pero al final se decidió que no deberíamos meter una carta subóptima solo por el truco de recuperar una carta del futuro desplazado. “Presentar” escarbar, una palabra clave del futuro desplazado, tendría que bastar.» Antes: «lo que escarbar realmente quería era un buen hechizo de destrucción limpio, sin restricciones.»"
+        },
+        {
+          "title": "Construye la herramienta para que decaiga al mismo ritmo que la estrategia a la que sirve",
+          "rules": "Un enfoque rápido necesita que su equipamiento deje de funcionar cuando la ventana rápida se cierra, o seguirá compitiendo en una fase que no debería ganar. Escribe la caducidad en la propia herramienta en vez de equilibrarla desde fuera: añade una condición de liberación que el rival no pueda cumplir pronto y sí más tarde, y el declive es automático.",
+          "flavor": "«Queríamos que Jeskai fuera uno de los clanes rápidos, pero teníamos que asegurar que en el juego tardío los clanes lentos ganaran fuerza mientras Jeskai se debilitaba… La táctica era simple: poner una cláusula de rescate en la carta de bloqueo. Al principio el oponente no podrá pagar el coste, pero más adelante sí. Esto permitía que la carta funcionara mejor donde Jeskai más lo quiere y luego se debilitara si la partida llega a la parte tardía.»"
+        },
+        {
+          "title": "Cuando la relación definitoria se queda sin objeto, colapsa la relación en el personaje",
+          "rules": "Una figura conocida enteramente por su vínculo con algo ausente parece inutilizable en el escenario que lo eliminó. No sustituyas el objeto ni abandones la asociación. Pliégala hacia dentro: aquello hacia lo que tendía, déjale convertirse en ello. La ausencia deja de ser un problema y pasa a ser la razón por la que el momento importa.",
+          "flavor": "«El reto era este: teníamos que hacer una carta de planeswalker de Sarkhan que fuera brutal. Sarkhan siempre se ha definido por su conexión con los dragones, salvo que ahora estaba en casa, en Tarkir, un mundo sin dragones. ¿Qué hace un diseñador? ¿Y si en vez de invocar dragones, Sarkhan simplemente se convirtiera en uno? Ooh, eso resolvía nuestro problema.»"
+        },
+        {
+          "title": "La imagen que funciona sin nada de su contexto es la que debe ir por delante",
+          "rules": "Casi todo el material promocional da por hecho que el público sabe a quién está mirando. La pieza rara que funciona con alguien que no tiene información alguna vale muchísimo más, porque sobrevive a todos los contextos en los que va a verse. Fíjate en cuándo tu propia reacción precedió al reconocimiento: esa es la prueba, y ya te la han hecho.",
+          "flavor": "«Recuerdo la primera vez que vi el arte de Savage Punch. Ni siquiera me di cuenta de que quien daba el puñetazo era Surrak Dragonclaw, el khan de los Temur. Y ni siquiera importaba. Cuando se mostró en la presentación, tuvo una reacción parecida entre el público. La incluimos en el panel del Comic-Con de San Diego porque esperábamos que pasara lo mismo con los jugadores. Y así fue. Vi más comentarios sobre puñetazos a osos que sobre cualquier otro detalle del panel.»"
+        },
+        {
+          "title": "Construye el objeto que la trama va a necesitar antes de que la trama lo haya especificado",
+          "rules": "Cuando una historia requiere algún artefacto para funcionar siquiera, puedes empezarlo mientras los guionistas aún deciden qué hace. Lo que sabes es que debe existir y debe ser un componente real de tu sistema. Haz versiones ya: los detalles sobrescribirán parte y el resto seguirá adelante, lo cual es más rápido que esperar un encargo cerrado.",
+          "flavor": "«Si vas a tener una historia de viajes en el tiempo, normalmente necesitas un medio por el que tus personajes puedan viajar en el tiempo. Ugin's Nexus se diseñó específicamente para ser la «máquina del tiempo» de la historia. Tienes que entender que, cuando la diseñamos, aún no se sabía exactamente cómo iba a funcionar el viaje en el tiempo. El equipo creativo seguía perfilando los detalles… Probamos un montón de diseños distintos.»"
+        },
+        {
+          "title": "Sigue las asociaciones hacia fuera y toma la segunda propiedad, no la primera",
+          "rules": "Elige un sujeto por la cualidad que querías, y luego sigue: ¿por qué más es famoso? La asociación secundaria es donde suele estar el mecanismo interesante, porque la primaria es lo que ya han construido los demás. Viejo dio tortuga; la tortuga dio lentitud; la lentitud dio una criatura que tarda dos turnos en atacar.",
+          "flavor": "«Esta carta surgió porque intentábamos hacer algo viejo. No un poco viejo: muy, muy viejo. ¿Qué criatura vive más? Bueno, las tortugas son conocidas por sus vidas largas… Las tortugas también son conocidas por ser muy lentas, así que diseñamos de arriba abajo una tortuga gigante, lenta y viejísima… Para capturar lo lenta que era, hicimos que tardara dos turnos enteros en atacar.» El nombre de diseño era Turtle McDurtle."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Prose et khans, partie 2",
+      "dek": "Histoires de conception carte par carte dans Khans of Tarkir, de M à Z.",
+      "overview": "Une tortue géante et lente, trois rééditions du futur décalé toutes tombées à l'eau, un planeswalker sans dragons à invoquer, et un coût de morphie payé en information.",
+      "takeaway": "« Nous ne devrions pas mettre une carte sous-optimale juste pour le gadget de ramener une carte du futur décalé. »",
+      "lessons": [
+        {
+          "title": "Dites à quoi vous tenez au moment de la passation, pour que l'équipe suivante puisse en tenir compte",
+          "rules": "Une équipe qui reçoit ne peut évaluer que ce qu'elle a sous les yeux, et une part de ce que vous transmettez est bonne pour des raisons qui ne survivent pas à une lecture froide. Dites clairement pour quelles pièces vous vous êtes battu. Cela ne l'oblige à rien conserver : cela lui apprend que celle-ci était délibérée, et donc qu'elle ne se coupe pas par défaut.",
+          "flavor": "« Quand nous passons la conception au développement, j'indique toujours au développeur principal les cartes ou cycles auxquels je tiens le plus. Pour Khans of Tarkir, j'ai listé ce cycle. Il se trouve que tous les développeurs n'en étaient pas aussi fans que mon équipe et moi, mais heureusement Erik — sachant que nous y tenions — a veillé à les garder dans l'édition. »"
+        },
+        {
+          "title": "Une pièce qui incarne le thème à elle seule supprime la raison de bâtir le thème",
+          "rules": "Donner votre élément phare à l'objet qui représente le thème passe pour de la cohérence et en ruine discrètement le but : la chose fonctionne désormais seule, donc personne n'assemble la structure environnante qu'elle devait promouvoir. Retirez l'autosuffisance et elle devient une raison de bâtir le reste.",
+          "flavor": "« Nous voulions que la khan jeskaï s'accorde bien à la mécanique jeskaï, la prouesse. Comment une créature fait-elle cela ? La solution fut de donner à Narset une capacité lui permettant de lancer gratuitement des sorts non-créature. Narset a un temps possédé la prouesse, mais c'était trop synergique et cela a été retiré. L'idée est devenue : jouez-la avec des créatures à prouesse, plutôt qu'elle ne soit un combo à elle seule. »"
+        },
+        {
+          "title": "Un coût payé en information paraît gratuit et ne l'est pas",
+          "rules": "Tout prix ordinaire — argent, temps, matière — s'enregistre comme une perte au moment où on le paie, ce qui fait éviter la chose. Un prix payé en dévoilant quelque chose donne l'impression qu'on n'a rien cédé, tout en restreignant qui peut payer et quand. Et dans tout cadre où la dissimulation compte, le dévoilement devient un coup à part entière.",
+          "flavor": "« Dépenser du mana, des points de vie ou des cartes donne toujours l'impression de renoncer à quelque chose. Révéler une carte de sa main livre un peu d'information mais donne surtout l'impression de ne pas payer grand-chose… cela jouait sur l'idée que l'information est une marchandise… Mais dans un monde avec la morphie, toutes sortes de jeux d'esprit deviennent possibles. Je peux vous montrer une carte de morphie, puis en jouer une au tour suivant. Était-ce celle que je vous ai montrée, ou vous l'ai-je montrée pour que vous le croyiez ? »"
+        },
+        {
+          "title": "Une exclusion décidée sous contrainte n'est pas réexaminée quand la contrainte tombe",
+          "rules": "Les choses sont retirées pour des raisons, les raisons s'oublient, et le retrait subsiste comme un fait du projet. Quand vous modifiez une décision fondatrice, repassez en revue ce qui avait été rejeté à cause d'elle : personne ne le fera spontanément, puisque les exclusions ne sont plus sous les yeux de quiconque.",
+          "flavor": "Le troisième candidat à une réédition du futur décalé : « Tombstalker est passée de la conception au développement, et le développement était prêt à l'imprimer quand nous avons heurté le problème suivant. Tarkir (à l'époque) n'avait pas de démons. Tombstalker est un démon. Quand nous avons mis des démons dans l'édition, nous ne sommes pas revenus sur la raison de son exclusion. Elle ne marcherait donc pas non plus. »"
+        },
+        {
+          "title": "Un clin d'œil ne vaut pas une pièce moins bonne",
+          "rules": "Les références à son propre passé sont faciles à justifier et faciles à surévaluer, car le plaisir est réel et concerne un groupe restreint et bruyant. Évaluez le candidat sur ses mérites, référence retirée. S'il ne survit pas à ce test, c'est le gadget que vous publieriez — et il existe presque toujours une manière plus sobre de faire le même signe.",
+          "flavor": "Trois cartes à fouille du futur décalé furent tentées, et les trois échouèrent. « Le développement a réexaminé Death Rattle et Logic Knot, mais il a finalement été décidé que nous ne devions pas mettre une carte sous-optimale juste pour le gadget de ramener une carte du futur décalé. “Présenter” la fouille, un mot-clé du futur décalé, devrait suffire. » Plus tôt : « ce que la fouille voulait vraiment, c'était un beau sort de destruction net, sans restriction. »"
+        },
+        {
+          "title": "Construisez l'outil pour qu'il décline au même rythme que la stratégie qu'il sert",
+          "rules": "Une approche rapide a besoin que son équipement cesse de fonctionner quand la fenêtre rapide se referme, sinon il continue de concourir dans une phase qu'il n'est pas censé gagner. Inscrivez la péremption dans l'outil plutôt que de l'équilibrer de l'extérieur : ajoutez une condition de libération que l'adversaire ne peut pas remplir tôt et peut remplir tard, et le déclin est automatique.",
+          "flavor": "« Nous voulions que les Jeskaïs soient l'un des clans rapides, mais il fallait garantir qu'en fin de partie les clans lents gagnent en force pendant que les Jeskaïs faiblissent… La tactique était simple : mettre une clause de rachat sur la carte de blocage. Au début, l'adversaire ne pourra pas payer le coût ; plus tard, si. La carte fonctionnait donc au mieux là où les Jeskaïs le veulent, puis s'affaiblissait si la partie s'étirait. »"
+        },
+        {
+          "title": "Quand la relation définitoire n'a plus d'objet, repliez la relation sur le personnage",
+          "rules": "Une figure connue tout entière par son lien avec une chose absente paraît inutilisable dans le cadre qui l'a supprimée. Ne substituez pas un objet de remplacement et n'abandonnez pas l'association. Repliez-la : ce vers quoi il tendait, laissez-le le devenir. L'absence cesse d'être un problème et devient la raison pour laquelle le moment compte.",
+          "flavor": "« Voici le défi : il fallait faire une carte de planeswalker de Sarkhan qui déchire. Sarkhan a toujours été défini par son lien avec les dragons, sauf qu'il était de retour chez lui, sur Tarkir, un monde sans dragons. Que faire quand on est concepteur ? Et si, au lieu d'invoquer des dragons, Sarkhan devenait lui-même un dragon ? Ah — cela réglait notre problème. »"
+        },
+        {
+          "title": "L'image qui fonctionne sans rien de son contexte est celle qu'il faut mettre en avant",
+          "rules": "La plupart des visuels promotionnels supposent que le public sait qui il regarde. La pièce rare qui fonctionne sur quelqu'un dépourvu de toute information vaut bien davantage, car elle survit à tous les contextes où elle sera vue. Remarquez quand votre propre réaction a précédé la reconnaissance : c'est le test, et il a déjà été passé sur vous.",
+          "flavor": "« Je me souviens de la première fois que j'ai vu l'illustration de Savage Punch. Je n'avais même pas réalisé que celui qui frappait était Surrak Griffe-de-dragon, le khan des Temurs. Et cela n'avait aucune importance. Lors de la projection, le public a réagi de la même façon. Nous l'avons incluse au panel du Comic-Con de San Diego en pensant que ce serait pareil pour les joueurs. Ce fut le cas : j'ai vu plus de commentaires sur le coup de poing à l'ours que sur tout autre élément montré. »"
+        },
+        {
+          "title": "Construisez l'objet dont l'intrigue aura besoin avant qu'elle ne l'ait précisé",
+          "rules": "Quand un récit exige un dispositif pour seulement fonctionner, vous pouvez le commencer pendant que les auteurs décident encore de ce qu'il fait. Ce que vous savez : il doit exister, et être un vrai composant de votre système. Faites-en des versions maintenant ; les détails en écraseront une partie et le reste passera — plus rapide qu'attendre un cahier des charges arrêté.",
+          "flavor": "« Si vous racontez un voyage dans le temps, il vous faut d'ordinaire un moyen par lequel vos personnages voyagent dans le temps. Ugin's Nexus a été conçue expressément comme la « machine à voyager dans le temps » du récit. Comprenez qu'au moment de la concevoir, la façon exacte dont fonctionnerait le voyage temporel n'était pas connue. L'équipe créative en réglait encore les détails… Nous avons essayé quantité de versions. »"
+        },
+        {
+          "title": "Suivez les associations vers l'extérieur et prenez la deuxième propriété, pas la première",
+          "rules": "Choisissez un sujet pour la qualité voulue, puis continuez : pour quoi d'autre est-il célèbre ? L'association secondaire est là où se trouve d'ordinaire le mécanisme intéressant, car la première est déjà exploitée par tout le monde. Vieux a donné la tortue ; la tortue a donné la lenteur ; la lenteur a donné une créature qui met deux tours à attaquer.",
+          "flavor": "« Cette carte est née parce que nous voulions faire quelque chose de vieux. Pas un peu vieux — très, très vieux. Quelle créature vit le plus longtemps ? Les tortues sont réputées pour leur longévité… Les tortues sont aussi réputées pour leur lenteur : nous avons donc conçu, de haut en bas, une tortue géante, lente et très âgée… Pour rendre sa lenteur, nous lui avons fait mettre deux tours entiers à attaquer. » Son nom de conception était Turtle McDurtle."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Prosa e khans, parte 2",
+      "dek": "Histórias de design carta a carta de Khans of Tarkir, de M a Z.",
+      "overview": "Uma tartaruga gigante e lenta, três reimpressões do futuro deslocado que caíram todas, um planeswalker sem dragões para invocar, e um custo de metamorfose pago em informação.",
+      "takeaway": "“Não devíamos pôr uma carta subótima só pelo truque de trazer de volta uma carta do futuro deslocado.”",
+      "lessons": [
+        {
+          "title": "Diga a que você está apegado na passagem de bastão, para o próximo time poder pesar isso",
+          "rules": "Um time que recebe só consegue avaliar o que está diante dele, e parte do que você entrega é boa por razões que não sobrevivem a uma leitura fria. Diga com clareza por quais peças você brigou. Isso não obriga ninguém a manter nada: dá a informação de que aquela foi deliberada, para que não seja cortada por padrão.",
+          "flavor": "“Quando passamos o design para o desenvolvimento, sempre digo ao desenvolvedor-líder de quais cartas ou ciclos estou mais apegado. Para Khans of Tarkir, listei este ciclo. Acontece que nem todos os desenvolvedores eram tão fãs dele quanto eu e meu time, mas por sorte o Erik (sabendo que valorizávamos) fez questão de mantê-los na coleção.”"
+        },
+        {
+          "title": "Uma peça que encarna o tema sozinha elimina a razão de construir o tema",
+          "rules": "Dar seu elemento principal ao objeto que representa o tema parece coerência e silenciosamente derrota o propósito: a coisa agora funciona sozinha, então ninguém monta a estrutura ao redor que ela deveria anunciar. Tire a autossuficiência e ela vira uma razão para construir o resto.",
+          "flavor": "“Queríamos que a khan Jeskai funcionasse bem com a mecânica Jeskai, ímpeto. Como exatamente uma criatura faz isso? A solução foi dar a Narset uma habilidade que a deixava conjurar mágicas que não são de criatura de graça. Narset chegou a ter ímpeto, mas ficou sinérgico demais e foi removido. A ideia virou jogá-la com criaturas de ímpeto, em vez de ela ser um combo de uma carta só.”"
+        },
+        {
+          "title": "Um custo pago em informação parece gratuito e não é",
+          "rules": "Todo preço comum — dinheiro, tempo, material — registra-se como perda no momento em que é pago, e isso faz as pessoas evitarem a coisa. Um preço pago revelando algo parece que nada foi entregue, e ainda assim restringe quem pode pagar e quando. E em qualquer cenário em que ocultar importa, a revelação vira uma jogada por si só.",
+          "flavor": "“Gastar mana, vida ou cartas sempre parece abrir mão de algo. Revelar uma carta da mão entrega um pouco de informação, mas em geral parece que você não está pagando muito… apostava na ideia de que informação é mercadoria… Mas num mundo com metamorfose, dá para jogar todo tipo de jogo mental. Eu poderia lhe mostrar uma carta de metamorfose e jogar uma no turno seguinte. Era a que eu mostrei, ou mostrei para você achar que é?”"
+        },
+        {
+          "title": "Uma exclusão feita sob uma restrição não é revisitada quando a restrição cai",
+          "rules": "Coisas são removidas por razões, as razões são esquecidas, e a remoção persiste como um fato do projeto. Quando mudar uma decisão fundacional, volte ao que foi rejeitado por causa dela: ninguém fará isso espontaneamente, porque as exclusões não estão mais diante de ninguém.",
+          "flavor": "O terceiro candidato a reimpressão do futuro deslocado: “Tombstalker passou do design para o desenvolvimento, e o desenvolvimento estava disposto a imprimi-la quando esbarramos no problema seguinte. Tarkir (na época) não tinha demônios. Tombstalker é um demônio. Quando pusemos demônios na coleção, não voltamos para rever por que havíamos excluído Tombstalker. Isso significava que ela também não serviria.”"
+        },
+        {
+          "title": "Uma referência não vale uma peça pior",
+          "rules": "Referências ao próprio passado são baratas de justificar e fáceis de supervalorizar, porque o prazer é real e recai sobre um grupo pequeno e barulhento. Avalie o candidato pelos méritos com a referência removida. Se ele não sobreviver a esse teste, o que você publicaria é o truque — e quase sempre há um jeito mais simples de fazer o mesmo aceno.",
+          "flavor": "Três cartas de sondar do futuro deslocado foram tentadas e as três falharam. “O desenvolvimento reexaminou Death Rattle e Logic Knot, mas no fim decidiu-se que não devíamos pôr uma carta subótima só pelo truque de trazer de volta uma carta do futuro deslocado. ‘Apresentar’ sondar, uma palavra-chave do futuro deslocado, teria de bastar.” Antes: “o que sondar realmente queria era uma boa mágica de destruição limpa, sem restrições.”"
+        },
+        {
+          "title": "Construa a ferramenta para decair no mesmo relógio da estratégia que ela serve",
+          "rules": "Uma abordagem rápida precisa que o equipamento dela pare de funcionar quando a janela rápida fecha, ou ele segue competindo numa fase que não deveria vencer. Escreva a validade dentro da própria ferramenta em vez de equilibrá-la por fora: acrescente uma condição de liberação que o outro lado não consiga cumprir cedo e consiga depois, e o declínio é automático.",
+          "flavor": "“Queríamos que Jeskai fosse um dos clãs rápidos, mas precisávamos garantir que no fim de jogo os clãs lentos ganhassem força enquanto Jeskai enfraquecia… A tática era simples: pôr uma cláusula de resgate na carta de travamento. No começo o oponente não conseguirá pagar o custo, mas mais adiante conseguirá. Isso permitia que a carta funcionasse melhor onde Jeskai mais quer, e enfraquecesse se o jogo chegasse à parte tardia.”"
+        },
+        {
+          "title": "Quando a relação definidora fica sem objeto, dobre a relação para dentro do personagem",
+          "rules": "Uma figura conhecida inteiramente pelo vínculo com algo ausente parece inutilizável no cenário que o removeu. Não substitua o objeto nem largue a associação. Dobre-a para dentro: aquilo a que ele aspirava, deixe que ele se torne. A ausência deixa de ser problema e vira a razão pela qual o momento importa.",
+          "flavor": "“O desafio era este: tínhamos de fazer uma carta de planeswalker do Sarkhan que fosse arrasadora. Sarkhan sempre foi definido pela ligação dele com dragões, só que agora estava em casa, em Tarkir, um mundo sem dragões. O que um designer faz? E se, em vez de invocar dragões, Sarkhan simplesmente virasse um dragão? Ooh, isso resolvia nosso problema.”"
+        },
+        {
+          "title": "A imagem que funciona sem nada do contexto é a que deve ir na frente",
+          "rules": "Quase todo material promocional presume que o público sabe quem está vendo. A peça rara que funciona com alguém sem informação nenhuma vale muito mais, porque sobrevive a todos os contextos em que será vista. Note quando sua própria reação veio antes do reconhecimento: esse é o teste, e ele já foi aplicado em você.",
+          "flavor": "“Lembro da primeira vez que vi a arte de Savage Punch. Nem percebi que quem estava socando era Surrak Garra-de-dragão, o khan dos Temur. E nem importava. Quando foi mostrada na apresentação, teve reação parecida da plateia. Incluímos no painel da Comic-Con de San Diego porque esperávamos o mesmo dos jogadores. E foi. Vi mais gente falando de socar urso do que de qualquer outro detalhe do painel.”"
+        },
+        {
+          "title": "Construa o objeto de que a trama vai precisar antes de a trama tê-lo especificado",
+          "rules": "Quando uma história exige algum dispositivo só para funcionar, dá para começá-lo enquanto os roteiristas ainda decidem o que ele faz. O que você sabe é que ele precisa existir e precisa ser um componente real do seu sistema. Faça versões agora; os detalhes vão sobrescrever parte e o resto segue — mais rápido do que esperar um briefing fechado.",
+          "flavor": "“Se você vai ter uma história de viagem no tempo, geralmente precisa de um meio pelo qual seus personagens viajem no tempo. Ugin's Nexus foi desenhada especificamente para ser a ‘máquina do tempo’ da história. Você tem de entender que, quando a desenhamos, exatamente como a viagem no tempo funcionaria ainda não se sabia. O time criativo ainda acertava os detalhes… Tentamos um monte de designs diferentes.”"
+        },
+        {
+          "title": "Siga as associações para fora e pegue a segunda propriedade, não a primeira",
+          "rules": "Escolha um sujeito pela qualidade que você queria, e então continue: por que mais aquilo é famoso? A associação secundária é onde costuma estar o mecanismo interessante, porque a primária é o que todo mundo já construiu. Velho deu tartaruga; a tartaruga deu lentidão; a lentidão deu uma criatura que leva dois turnos para atacar.",
+          "flavor": "“Esta carta surgiu porque estávamos tentando fazer algo velho. Não um pouco velho — muito, muito velho. Que criatura vive mais? Bem, tartarugas são conhecidas por vidas longas… Tartarugas também são conhecidas por serem muito lentas, então desenhamos de cima para baixo uma tartaruga gigante, lenta e velhíssima… Para capturar o quão lenta era, fizemos com que levasse dois turnos inteiros para atacar.” O nome de design era Turtle McDurtle."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "散文与可汗，下篇",
+      "dek": "《鞑契可汗》逐张牌的设计故事，从 M 到 Z。",
+      "overview": "一只又大又慢的陆龟、三张全部落空的「未来移位」重印候选、一位无龙可召的鹏洛客，以及一项用「信息」来支付的变身费用。",
+      "takeaway": "「我们不该只为了『把一张未来移位牌带回来』这个噱头，就放进一张次优的牌。」",
+      "lessons": [
+        {
+          "title": "在交接时说明你对哪些东西有感情，好让下一支团队能把它称进去",
+          "rules": "接手的团队只能评估摆在他们面前的东西；而你交出去的东西里，有一部分之所以好，其理由撑不过一次冷读。请明确告诉他们：你为哪几件东西争取过。这并不构成「必须保留」的义务——它给出的信息是「这一件是刻意为之的」，于是它不会被默认砍掉。",
+          "flavor": "「当我们把设计交给开发时，我总会告诉主开发：我对哪些牌或哪些循环最有感情。对《鞑契可汗》，我列出了这个循环。事实证明，并不是所有开发人员都像我和我的设计团队那样喜欢它；但幸好埃里克（知道我们看重它们）确保了把它们留在这个系列里。」"
+        },
+        {
+          "title": "一件单靠自己就体现了主题的部件，会取消掉「去搭建这个主题」的理由",
+          "rules": "把你的招牌元素给那个代表主题的物件，看起来像是一致性，同时又悄悄地把目的给毁了：这样东西现在自己就能运作，于是没有人再去搭建它本该为之宣传的那圈结构。把它的自足性拿掉，它就变成了「去搭建其余部分」的理由。",
+          "flavor": "「我们希望洁斯凯的可汗能与洁斯凯的机制『非凡才是』配合良好。可一个生物具体要怎么做到这一点？解法是给娜尔施一项异能，让她能免费施放非生物咒语。娜尔施一度是带有非凡才是的，但那样过于协同了，于是被拿掉。想法转变成了：拿她和那些带非凡才是的生物一起打，而不是让她自己成为一张牌的连招。」"
+        },
+        {
+          "title": "用信息来支付的代价，感觉是免费的，而它不是",
+          "rules": "任何一种寻常的价格——钱、时间、材料——在支付的那一刻都会被登记为一次损失；而这会让人回避这样东西。用「披露某样东西」来支付的价格，感觉像是什么也没交出去，同时依然在限制谁能付、以及什么时候能付。而在任何一个「隐藏与否很要紧」的场合里，这次披露本身就成了一步棋。",
+          "flavor": "「花费法术力、生命或牌，感觉上总像是在放弃什么。而从手上展示一张牌，虽然让渡了一点信息，但大体上感觉不太像在付出什么……它押的正是『信息是一种商品』这个念头……但在一个有变身的世界里，各种心理战都玩得起来。比如我可以给你看一张变身牌，然后在下一回合打出一张。那到底是不是我给你看的那张？还是我给你看，就是为了让你以为它是？」"
+        },
+        {
+          "title": "在某条约束之下做出的排除，不会因为那条约束被解除而重新审视",
+          "rules": "东西是因为某些理由被拿掉的；那些理由随后被遗忘，而「被拿掉」这件事作为项目的一项事实留了下来。当你改动一项奠基性的决定时，请回头把「因为它而被否决的东西」过一遍：没有人会自发去做这件事，因为那些被排除的东西早已不在任何人的视野里了。",
+          "flavor": "「未来移位」重印的第三个候选：「《墓行者》从设计交到了开发手上，而开发本来是愿意印它的——直到我们撞上了下一个问题。鞑契（当时）没有恶魔。而《墓行者》是一个恶魔。后来当我们把恶魔放进这个系列时，我们没有回头去重新审视『我们当初为什么排除了《墓行者》』。这意味着它同样行不通。」"
+        },
+        {
+          "title": "一次致意，不值得用一件更差的部件去换",
+          "rules": "指向自己过往的引用，既容易被论证成合理，也容易被高估——因为那份愉悦是真的，只是它落在一小群嗓门很大的人身上。把引用拿掉，再按其本身的优劣去评估这个候选。如果它通不过这一关，那你要出的其实就是那个噱头；而通常总有一种更朴素的方式，可以做出同样那个点头示意。",
+          "flavor": "三张带「探险」的未来移位牌都被试过，三张都没成。「开发部回头又看了看那两张，但最后决定：我们不该只为了『把一张未来移位牌带回来』这个噱头，就放进一张次优的牌。『引入』探险这个未来移位关键字，就已经足够了。」而更早时：「探险真正想要的，是一张干净利落、不带任何限制的解杀。」"
+        },
+        {
+          "title": "让工具按照「它所服务的那套战略」的同一个时钟去衰减",
+          "rules": "一套求快的打法，需要它的装备在那扇快速窗口关上时也随之失效；否则它会继续在一个它本不该赢的阶段里参赛。请把有效期写进工具本身，而不是从外部去做平衡：附加一条「对手早期付不起、后期付得起」的解除条件，衰减就是自动发生的。",
+          "flavor": "「我们希望洁斯凯是较快的部族之一；但我们必须确保：到了后期，慢速的那些部族会变强，而洁斯凯会变弱……战术很简单：在这张定身牌上加一条赎回条款。早期对手付不起这个费用，而到了后面他就付得起了。这让这张牌在洁斯凯最需要它的地方发挥最好，然后在对局进入后段时随之变弱。」"
+        },
+        {
+          "title": "当那段定义性的关系失去了对象时，就把这段关系收拢进角色本身",
+          "rules": "一个完全以「与某样已不存在之物的联系」而为人所知的角色，在那个把它抹去的场景里看上去无从下手。不要去换一个替代对象，也不要放弃这段联系。把它向内折叠：他一直朝之伸手的那样东西，就让他成为它。于是缺席不再是问题，而成了这一刻之所以重要的原因。",
+          "flavor": "「挑战是这样的：我们必须做出一张牛得不行的萨坎鹏洛客牌。萨坎一直是由他与龙的联系来定义的——只不过他此刻回到了家乡鞑契，一个没有龙的世界。设计师该怎么办？如果不是让萨坎召唤龙，而是让萨坎自己变成一条龙呢？哦——这就把我们的问题解决了。」"
+        },
+        {
+          "title": "那张「脱离全部语境也依然成立」的画，才是你该拿到最前面的",
+          "rules": "绝大多数宣传素材都默认受众知道自己在看谁。而那件罕见的、对一个毫无信息的人也奏效的作品，价值要高得多——因为它能在它将被看到的每一种语境里存活。请留意：你自己的反应是不是先于「认出这是谁」而发生的。那就是那次检验，而且它已经在你身上做过一遍了。",
+          "flavor": "「我还记得第一次看到《野蛮重击》那张画的时候。我甚至没意识到出拳的那个人是铁木尔的可汗苏拉克·龙爪。而那根本不重要。在幻灯片放出来时，现场观众的反应也差不多。我们把它放进了圣地亚哥动漫展的座谈会里，因为我们预期牌手们也会一样。结果确实如此：那场座谈会上，我看到关于『打熊』的讨论，比任何单独一个我们展示过的要素都要多。」"
+        },
+        {
+          "title": "在剧情把它规定清楚之前，先把剧情将要用到的那件东西造出来",
+          "rules": "当一个故事需要某个装置才能成立时，你可以在编剧还在决定它到底做什么的时候就动手。你已经知道的是：它必须存在，并且必须是你这套系统里一个真实的部件。现在就做几个版本；细节确定后会覆盖掉其中一部分，而其余的会一路带过去——这比等一份定稿的任务书要快。",
+          "flavor": "「如果你要讲一个时间旅行的故事，你通常需要一个『让角色得以穿越时间』的手段。《乌金的连结点》就是被专门设计来充当这个故事的『时间机器』的。你要理解：我们设计它的时候，时间旅行到底会怎么运作还不为人知。创意团队仍在敲定细节……我们试了一大堆不同的设计。」"
+        },
+        {
+          "title": "顺着联想往外走，取第二项属性，而不是第一项",
+          "rules": "先按你想要的那个特质挑一个对象，然后继续往下问：这样东西还以什么闻名？有意思的机制通常就在那个次级联想里——因为第一级联想正是别人早就都造过的东西。「老」给出了陆龟；陆龟给出了缓慢；而缓慢给出了一个「要花两个回合才攻击得到」的生物。",
+          "flavor": "「这张牌的由来，是我们想做一样『老』的东西。不是有点老——是非常非常老。哪种生物活得最久？嗯，陆龟以长寿著称……陆龟同时也以非常缓慢著称，于是我们由上而下地设计了一只巨大、行动缓慢、非常年迈的陆龟……为了体现它有多慢，我们让它要花整整两个回合才攻得到。」它在设计期间的名字是 Turtle McDurtle。"
+        }
+      ]
+    }
+  }
+}
