@@ -1,0 +1,385 @@
+{
+  "id": "make-choice-part-1-2018-02-12",
+  "slug": "make-choice-part-1-2018-02-12",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2018-02-12",
+  "series": { "id": "make-the-choice", "order": 1, "total": 2 },
+  "tags": [
+    "great-designer-search",
+    "color-pie",
+    "multicolor",
+    "design-principles",
+    "playtesting",
+    "memory-issues"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/make-choice-part-1-2018-02-12",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T06:44:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "U" },
+    { "n": 11, "color": "W" },
+    { "n": 12, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Make the Choice, Part 1",
+      "dek": "The first half of the Great Designer Search 3 multiple-choice answer key, where the explanations matter more than the answers.",
+      "overview": "Seventy-five questions on colour assignment, rarity, templating, psychographics, and the reasoning behind rules nobody states. Rosewater walks through the first half, giving the argument for each.",
+      "takeaway": "The rule that decides the most cases: a two-colour card has to be impossible in either colour on its own. If both abilities live in one of the two colours, the card should just be that colour.",
+      "lessons": [
+        {
+          "title": "A two-colour thing must be impossible in either colour alone",
+          "rules": "Combining two categories isn't justified by drawing one element from each. It's justified when no single category could have produced the result — otherwise you've made a monocolour item wearing a second colour.",
+          "flavor": "First strike (white, red) plus prowess (blue, red) could be mono-red. Hexproof plus prowess could be mono-blue. Lifelink plus menace could be mono-black. Menace (black, red) plus vigilance (white, green) is the only pair that can't collapse."
+        },
+        {
+          "title": "One from each, one from both",
+          "rules": "When granting several properties across a pairing, there's a template that makes the combination read as itself: one that belongs to the first side, one to the second, and one shared by both. The shared element is what welds them.",
+          "flavor": "Gain control, untap, +1/+1, haste, hexproof, trample. Haste is red, hexproof is blue and green, trample is red and green. Blue-red and red-green both fit — but red-green wins, because trample is primary or secondary in both of its colours."
+        },
+        {
+          "title": "The least likely change is the one that breaks the point",
+          "rules": "Asked what you'd never alter, look for the component the whole thing depends on rather than the most prominent one. Remove it in your head; if the result is useless or nonsensical, that's your answer.",
+          "flavor": "Take haste off the temporary-steal spell and “you can no longer attack with the creature you've stolen. That would make the spell not very useful and quite unintuitive.” The other proposed changes are all things they'd consider."
+        },
+        {
+          "title": "Memory burden outranks the other objections",
+          "rules": "Anything that persists past the moment and has no physical marker is asking people to hold state in their heads, and that complaint beats power level, timing and elegance. Give it a token, an attachment, or a shorter duration.",
+          "flavor": "“R&D is very sensitive to memory issues. If something is going to last beyond your turn, we tend to give you a memory aid — add counters, make it an Aura.” A spell running three turns with a different effect each turn: “Every other answer just isn't as important.”"
+        },
+        {
+          "title": "The same restriction has a different reason every time",
+          "rules": "A convention that looks uniform from outside is usually a stack of unrelated arguments that happen to point the same way. Know which one applies to your case, because the others won't transfer.",
+          "flavor": "Discard is sorcery-speed because “we don't like players locking the opponent out of their draw.” Land destruction, because instant-speed responses confuse people. Land fetching, because lands should be played in the main phase. Reanimation, so it can't be a defensive surprise."
+        },
+        {
+          "title": "Enjoyment outranks everything, and it's worth testing repeatedly",
+          "rules": "Depth, power, coherence and clarity are all real goals that become worthless if the thing isn't enjoyable. If that ordering is genuinely your position, say it often enough that nobody can mistake it for a platitude.",
+          "flavor": "“This point was so important we hit on it in a number of questions. The primary goal of Magic is to be fun… none of that matters if a set isn't enjoyable to play.” And on a beginner's first game: “Nothing matters if the new player is uninterested in playing again.”"
+        },
+        {
+          "title": "Let the skilled player feel they won by deciding",
+          "rules": "Serving the competitive audience isn't about making things harder. It's about making the outcome track the decisions, so that winning is legible to the winner as something they did.",
+          "flavor": "“The key to making Spike happy is giving them the tools to prove their skills. We found the best way to do this is creating cards which are more skillful in the hands of a better player, allowing Spike to feel that they won because of their own decisions.”"
+        },
+        {
+          "title": "“Too slow” names a logistics problem, not a gameplay one",
+          "rules": "Some familiar complaints are about the operation surrounding the thing rather than the thing. Know which, because you'll otherwise fix the wrong property and the objection will survive.",
+          "flavor": "“When we talk about something being ‘too slow for tournament play,' we're thinking big picture: Are we making choices that will make tournaments harder to run?… For this issue, it's length of rounds.”"
+        },
+        {
+          "title": "State the product's real goal and the other criteria settle themselves",
+          "rules": "A project accumulates plausible objectives until nobody knows which to trade against which. Name the single thing it exists to do, and the rest become preferences you can be relaxed about.",
+          "flavor": "Commander decks: “Our biggest goal is promoting the Commander format… we want to create cards that will inspire new decks. We roughly balance colors, but being equal is not crucial.” Designing for Legacy and Vintage “caused all sorts of problems.”"
+        },
+        {
+          "title": "Test at the number people actually use",
+          "rules": "The point of a trial is to reproduce real conditions, so a parameter set for convenience quietly optimizes for a situation that doesn't occur. Match the configuration to the one in the field.",
+          "flavor": "Why eight-person draft tables? “The goal of playtesting is to simulate what players actually do in the real world.” Drafting with a different number “would lead to results that would skew the data and possibly lead us to make choices that don't optimize eight-player drafts.”"
+        },
+        {
+          "title": "Asking the specialist first buys quality and consent at once",
+          "rules": "Going to the person whose job it is gets you a better result than doing it adequately yourself. It also makes them a participant rather than an approver, which is a different relationship when you need sign-off later.",
+          "flavor": "“Could I cost a card? Sure, but I won't do it as well as a play designer who was hired specifically for their ability to judge power level… Also, if your goal is to get Play Design to sign off on something, it helps to involve them in the process.”"
+        },
+        {
+          "title": "When asked to fill a hole, the hole's shape is the requirement",
+          "rules": "A request for a specific gap is a request about the gap, not about the qualities you'd like the filler to have. Meet the stated property first; the rest can be solved elsewhere by whoever asked.",
+          "flavor": "“If the set lead asks you to fill a hole in black, there's no more important quality than the card being black. Yes, it's nice if it can have the same functionality, but if it doesn't, the set lead can tweak a different card to solve that problem.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Elige la respuesta, parte 1",
+      "dek": "La primera mitad del solucionario del test de la Great Designer Search 3, donde las explicaciones importan más que las respuestas.",
+      "overview": "Setenta y cinco preguntas sobre asignación de color, rareza, plantillas, psicográficos y el razonamiento tras reglas que nadie enuncia. Rosewater recorre la primera mitad dando el argumento de cada una.",
+      "takeaway": "La regla que decide más casos: una carta bicolor tiene que ser imposible en cualquiera de los dos colores por separado. Si ambas habilidades viven en uno de los dos, la carta debería ser sencillamente de ese color.",
+      "lessons": [
+        {
+          "title": "Una cosa bicolor debe ser imposible en cualquiera de sus colores por separado",
+          "rules": "Combinar dos categorías no se justifica sacando un elemento de cada una. Se justifica cuando ninguna categoría sola podría haber producido el resultado; si no, has hecho un objeto monocolor disfrazado de un segundo color.",
+          "flavor": "Dañar primero (blanco, rojo) más ímpetu (azul, rojo) podría ser mono-rojo. Antimaleficio más ímpetu, mono-azul. Vínculo vital más amenaza, mono-negro. Amenaza (negro, rojo) más vigilancia (blanco, verde) es el único par que no colapsa."
+        },
+        {
+          "title": "Uno de cada uno, uno de ambos",
+          "rules": "Al conceder varias propiedades en un emparejamiento, hay una plantilla que hace que la combinación se lea como ella misma: una que pertenece al primer lado, otra al segundo, y otra compartida por ambos. El elemento compartido es lo que los suelda.",
+          "flavor": "Ganar control, enderezar, +1/+1, prisa, antimaleficio, arrollar. La prisa es roja, el antimaleficio azul y verde, arrollar rojo y verde. Azul-rojo y rojo-verde encajan, pero gana rojo-verde porque arrollar es primaria o secundaria en sus dos colores."
+        },
+        {
+          "title": "El cambio menos probable es el que rompe el propósito",
+          "rules": "Cuando te preguntan qué no cambiarías nunca, busca el componente del que depende todo, no el más llamativo. Quítalo mentalmente: si el resultado es inútil o absurdo, esa es tu respuesta.",
+          "flavor": "Quita la prisa al hechizo de robo temporal y «ya no puedes atacar con la criatura robada. Eso haría el hechizo poco útil y bastante contraintuitivo». Los demás cambios propuestos sí son cosas que considerarían."
+        },
+        {
+          "title": "La carga de memoria pesa más que las otras objeciones",
+          "rules": "Todo lo que persiste más allá del momento y no tiene marcador físico pide a la gente que sostenga estado en la cabeza, y esa queja gana a la potencia, al momento y a la elegancia. Dale una ficha, un adjunto o menos duración.",
+          "flavor": "«I+D es muy sensible a los problemas de memoria. Si algo va a durar más allá de tu turno, tendemos a darte una ayuda: contadores, hacerlo un Aura.» Un hechizo que dura tres turnos cambiando de efecto: «Ninguna otra respuesta es tan importante.»"
+        },
+        {
+          "title": "La misma restricción tiene un motivo distinto cada vez",
+          "rules": "Una convención que parece uniforme desde fuera suele ser una pila de argumentos inconexos que casualmente apuntan igual. Sabe cuál aplica a tu caso, porque los otros no se transfieren.",
+          "flavor": "El descarte va a velocidad de conjuro porque «no nos gusta que los jugadores bloqueen el robo del rival». La destrucción de tierras, porque responder a velocidad de instantáneo confunde. La búsqueda de tierras, porque deben jugarse en la fase principal."
+        },
+        {
+          "title": "Disfrutar está por encima de todo, y merece preguntarse repetidamente",
+          "rules": "Profundidad, potencia, coherencia y claridad son metas reales que se vuelven inútiles si la cosa no se disfruta. Si ese orden es de verdad tu postura, dilo tantas veces que nadie pueda confundirlo con una frase hecha.",
+          "flavor": "«Este punto era tan importante que lo tocamos en varias preguntas. El objetivo principal de Magic es ser divertido… nada de eso importa si una edición no es disfrutable.» Y sobre la primera partida de un novato: «Nada importa si no le interesa jugar otra vez.»"
+        },
+        {
+          "title": "Deja que el jugador hábil sienta que ganó por decidir",
+          "rules": "Servir al público competitivo no va de hacer las cosas más difíciles. Va de que el resultado siga a las decisiones, para que ganar le resulte legible al ganador como algo que hizo él.",
+          "flavor": "«La clave para hacer feliz a Spike es darle herramientas para demostrar su habilidad. Descubrimos que la mejor forma es crear cartas más hábiles en manos de un mejor jugador, permitiéndole sentir que ganó por sus propias decisiones.»"
+        },
+        {
+          "title": "«Demasiado lento» nombra un problema logístico, no de juego",
+          "rules": "Algunas quejas familiares hablan de la operación que rodea a la cosa, no de la cosa. Sabe cuál es, porque si no arreglarás la propiedad equivocada y la objeción sobrevivirá.",
+          "flavor": "«Cuando hablamos de que algo es “demasiado lento para el juego de torneo”, pensamos a lo grande: ¿estamos tomando decisiones que harán más difícil organizar torneos?… En este caso, es la duración de las rondas.»"
+        },
+        {
+          "title": "Enuncia el objetivo real del producto y los demás criterios se ordenan solos",
+          "rules": "Un proyecto acumula objetivos plausibles hasta que nadie sabe cuál sacrificar por cuál. Nombra la única cosa para la que existe, y el resto pasan a ser preferencias con las que puedes ser flexible.",
+          "flavor": "Mazos de Commander: «Nuestro mayor objetivo es promover el formato… queremos crear cartas que inspiren mazos nuevos. Equilibramos los colores a grandes rasgos, pero que sea exacto no es crucial.»"
+        },
+        {
+          "title": "Prueba con el número que la gente usa de verdad",
+          "rules": "El sentido de un ensayo es reproducir condiciones reales, así que un parámetro fijado por comodidad optimiza calladamente para una situación que no ocurre. Iguala la configuración a la del mundo real.",
+          "flavor": "¿Por qué mesas de ocho para el draft? «El objetivo del playtesting es simular lo que los jugadores hacen de verdad.» Draftear con otro número «sesgaría los datos y podría llevarnos a decisiones que no optimizan los drafts de ocho»."
+        },
+        {
+          "title": "Preguntar antes al especialista compra calidad y consentimiento a la vez",
+          "rules": "Acudir a la persona cuyo trabajo es eso da mejor resultado que hacerlo tú aceptablemente. Además la convierte en participante y no en aprobadora, que es otra relación cuando después necesitas su visto bueno.",
+          "flavor": "«¿Podría costear yo una carta? Claro, pero no lo haría tan bien como un diseñador de juego contratado precisamente por su capacidad para juzgar potencia… Además, si tu objetivo es que te den el visto bueno, ayuda involucrarlos en el proceso.»"
+        },
+        {
+          "title": "Cuando te piden tapar un hueco, la forma del hueco es el requisito",
+          "rules": "Una petición sobre un hueco concreto va sobre el hueco, no sobre las cualidades que te gustaría que tuviera el relleno. Cumple primero la propiedad enunciada; el resto puede resolverlo en otro sitio quien te lo pidió.",
+          "flavor": "«Si el líder de la edición te pide tapar un hueco en negro, no hay cualidad más importante que la carta sea negra. Sí, está bien si además tiene la misma funcionalidad, pero si no, el líder puede retocar otra carta para resolver eso.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Faites votre choix, partie 1",
+      "dek": "La première moitié du corrigé du QCM de la Great Designer Search 3, où les explications comptent plus que les réponses.",
+      "overview": "Soixante-quinze questions sur l'attribution des couleurs, la rareté, la rédaction, les psychographies, et le raisonnement derrière des règles que personne n'énonce. Rosewater parcourt la première moitié en donnant l'argument de chacune.",
+      "takeaway": "La règle qui tranche le plus de cas : une carte bicolore doit être impossible dans chacune de ses deux couleurs prise seule. Si les deux capacités tiennent dans l'une des deux, la carte devrait simplement être de cette couleur.",
+      "lessons": [
+        {
+          "title": "Une chose bicolore doit être impossible dans chaque couleur prise seule",
+          "rules": "Combiner deux catégories ne se justifie pas en prenant un élément dans chacune. Cela se justifie quand aucune catégorie seule n'aurait pu produire le résultat — sinon vous avez fait un objet monocolore déguisé.",
+          "flavor": "L'initiative (blanc, rouge) plus la prouesse (bleu, rouge) pourrait être mono-rouge. La défense talismanique plus la prouesse, mono-bleu. Le lien de vie plus la menace, mono-noir. Menace plus vigilance est la seule paire qui ne s'effondre pas."
+        },
+        {
+          "title": "Une de chaque, une des deux",
+          "rules": "Quand vous accordez plusieurs propriétés sur une paire, il existe un gabarit qui fait lire la combinaison comme elle-même : une du premier côté, une du second, une partagée. L'élément partagé est ce qui soude.",
+          "flavor": "Gagner le contrôle, dégager, +1/+1, célérité, défense talismanique, piétinement. La célérité est rouge, la défense talismanique bleue et verte, le piétinement rouge et vert. Rouge-vert l'emporte car le piétinement est dans ses deux couleurs."
+        },
+        {
+          "title": "Le changement le moins probable est celui qui casse l'intention",
+          "rules": "Quand on vous demande ce que vous ne changeriez jamais, cherchez le composant dont tout dépend, pas le plus voyant. Retirez-le en pensée : si le résultat est inutile ou absurde, voilà votre réponse.",
+          "flavor": "Retirez la célérité au sort de vol temporaire et « vous ne pouvez plus attaquer avec la créature volée. Cela rendrait le sort peu utile et assez contre-intuitif. » Les autres changements proposés sont envisageables."
+        },
+        {
+          "title": "La charge de mémoire l'emporte sur les autres objections",
+          "rules": "Tout ce qui persiste au-delà de l'instant sans marqueur physique demande de tenir un état en tête, et cette plainte bat la puissance, le timing et l'élégance. Donnez un jeton, un attachement, ou une durée plus courte.",
+          "flavor": "« La R&D est très sensible aux questions de mémoire. Si une chose doit durer au-delà de votre tour, on donne une aide-mémoire — des marqueurs, une aura. » Un sort de trois tours changeant d'effet : « Aucune autre réponse n'est aussi importante. »"
+        },
+        {
+          "title": "La même restriction a une raison différente à chaque fois",
+          "rules": "Une convention qui paraît uniforme de l'extérieur est d'ordinaire un empilement d'arguments sans rapport qui pointent au même endroit. Sachez lequel s'applique à votre cas, car les autres ne se transposent pas.",
+          "flavor": "La défausse est au rythme du rituel car « nous n'aimons pas qu'on prive l'adversaire de sa pioche ». La destruction de terrains, car répondre en éphémère déroute. La recherche de terrains, car les terrains doivent se jouer en phase principale."
+        },
+        {
+          "title": "Le plaisir prime sur tout, et cela vaut la peine d'être testé plusieurs fois",
+          "rules": "Profondeur, puissance, cohérence et clarté sont des buts réels qui deviennent sans valeur si la chose n'est pas plaisante. Si cet ordre est vraiment votre position, dites-le assez souvent pour qu'on ne le prenne pas pour une formule.",
+          "flavor": "« Ce point était si important que nous l'avons abordé dans plusieurs questions. Le but premier de Magic est d'être amusant… rien de tout cela ne compte si une édition n'est pas plaisante à jouer. »"
+        },
+        {
+          "title": "Laissez le joueur habile sentir qu'il a gagné en décidant",
+          "rules": "Servir le public compétitif ne consiste pas à durcir les choses. Il s'agit de faire suivre le résultat aux décisions, pour que la victoire soit lisible par le gagnant comme quelque chose qu'il a fait.",
+          "flavor": "« La clé pour rendre Spike heureux, c'est de lui donner les outils pour prouver ses compétences. La meilleure façon est de créer des cartes plus exigeantes en habileté, pour qu'il sente qu'il a gagné grâce à ses propres décisions. »"
+        },
+        {
+          "title": "« Trop lent » nomme un problème de logistique, pas de jeu",
+          "rules": "Certaines plaintes familières portent sur l'exploitation autour de la chose, pas sur la chose. Sachez laquelle, sinon vous corrigerez la mauvaise propriété et l'objection survivra.",
+          "flavor": "« Quand on dit qu'une chose est “trop lente pour le tournoi”, on pense en grand : faisons-nous des choix qui rendront les tournois plus durs à organiser ?… Ici, c'est la durée des rondes. »"
+        },
+        {
+          "title": "Énoncez le vrai but du produit et les autres critères se rangent",
+          "rules": "Un projet accumule des objectifs plausibles jusqu'à ce que personne ne sache lequel arbitrer contre lequel. Nommez la seule chose pour laquelle il existe, et le reste devient des préférences sur lesquelles on peut être souple.",
+          "flavor": "Les decks Commander : « Notre plus grand but est de promouvoir le format… nous voulons créer des cartes qui inspireront de nouveaux decks. Nous équilibrons grossièrement les couleurs, mais l'égalité n'est pas cruciale. »"
+        },
+        {
+          "title": "Testez au nombre que les gens emploient réellement",
+          "rules": "Le but d'un essai est de reproduire les conditions réelles ; un paramètre fixé par commodité optimise donc en silence pour une situation qui n'arrive pas. Alignez la configuration sur celle du terrain.",
+          "flavor": "Pourquoi des tables de draft à huit ? « Le but du playtest est de simuler ce que les joueurs font réellement. » Drafter à un autre nombre « fausserait les données et nous mènerait peut-être à des choix qui n'optimisent pas les drafts à huit »."
+        },
+        {
+          "title": "Demander d'abord au spécialiste achète la qualité et l'accord d'un coup",
+          "rules": "Aller voir la personne dont c'est le métier donne un meilleur résultat que de le faire correctement soi-même. Cela en fait aussi un participant plutôt qu'un valideur — relation bien différente quand il faudra son aval.",
+          "flavor": "« Pourrais-je coster une carte ? Bien sûr, mais moins bien qu'un concepteur de jeu recruté précisément pour juger la puissance… Et si le but est d'obtenir leur aval, il est utile de les impliquer dans le processus. »"
+        },
+        {
+          "title": "Quand on vous demande de combler un trou, la forme du trou est l'exigence",
+          "rules": "Une demande portant sur un manque précis porte sur le manque, pas sur les qualités que vous aimeriez donner au bouchon. Satisfaites d'abord la propriété énoncée ; le reste sera réglé ailleurs par le demandeur.",
+          "flavor": "« Si le chef d'édition vous demande de combler un trou en noir, aucune qualité n'importe plus que la carte soit noire. C'est bien si elle a aussi la même fonction, mais sinon, le chef peut retoucher une autre carte. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Faça a escolha, parte 1",
+      "dek": "A primeira metade do gabarito do teste da Great Designer Search 3, em que as explicações importam mais que as respostas.",
+      "overview": "Setenta e cinco perguntas sobre atribuição de cor, raridade, redação, psicográficos e o raciocínio por trás de regras que ninguém enuncia. Rosewater percorre a primeira metade dando o argumento de cada uma.",
+      "takeaway": "A regra que decide mais casos: uma carta bicolor precisa ser impossível em cada uma das duas cores sozinha. Se as duas habilidades cabem numa delas, a carta deveria simplesmente ser daquela cor.",
+      "lessons": [
+        {
+          "title": "Uma coisa bicolor precisa ser impossível em cada cor sozinha",
+          "rules": "Combinar duas categorias não se justifica tirando um elemento de cada. Justifica-se quando nenhuma categoria sozinha poderia ter produzido o resultado — senão você fez um objeto monocolorido vestindo uma segunda cor.",
+          "flavor": "Iniciativa (branco, vermelho) mais ímpeto (azul, vermelho) poderia ser mono-vermelho. Resistência a magia mais ímpeto, mono-azul. Vínculo com a vida mais ameaçar, mono-preto. Ameaçar mais vigilância é o único par que não colapsa."
+        },
+        {
+          "title": "Uma de cada, uma das duas",
+          "rules": "Ao conceder várias propriedades num par, existe um molde que faz a combinação ler como ela mesma: uma que pertence ao primeiro lado, uma ao segundo, e uma compartilhada. O elemento compartilhado é o que solda.",
+          "flavor": "Ganhar controle, desvirar, +1/+1, ímpeto, resistência a magia, atropelar. Ímpeto é vermelho, resistência a magia é azul e verde, atropelar é vermelho e verde. Vermelho-verde vence porque atropelar está nas duas cores dele."
+        },
+        {
+          "title": "A mudança menos provável é a que quebra o propósito",
+          "rules": "Quando perguntam o que você nunca mudaria, procure o componente de que tudo depende, não o mais chamativo. Remova-o mentalmente: se o resultado é inútil ou sem sentido, essa é a resposta.",
+          "flavor": "Tire o ímpeto da mágica de roubo temporário e “você não consegue mais atacar com a criatura roubada. Isso deixaria a mágica pouco útil e bem contraintuitiva.” As outras mudanças propostas são coisas que eles considerariam."
+        },
+        {
+          "title": "A carga de memória pesa mais que as outras objeções",
+          "rules": "Tudo que persiste além do momento e não tem marcador físico pede que as pessoas segurem estado na cabeça, e essa queixa vence poder, timing e elegância. Dê uma ficha, um anexo, ou menos duração.",
+          "flavor": "“A P&D é muito sensível a questões de memória. Se algo vai durar além do seu turno, costumamos dar um auxílio: contadores, transformar em Aura.” Uma mágica de três turnos mudando de efeito: “Nenhuma outra resposta é tão importante.”"
+        },
+        {
+          "title": "A mesma restrição tem um motivo diferente a cada vez",
+          "rules": "Uma convenção que parece uniforme de fora costuma ser uma pilha de argumentos sem relação que por acaso apontam para o mesmo lado. Saiba qual se aplica ao seu caso, porque os outros não se transferem.",
+          "flavor": "Descarte é em velocidade de feitiço porque “não gostamos que jogadores tranquem a compra do oponente”. Destruição de terrenos, porque resposta em velocidade de instantânea confunde. Busca de terrenos, porque terrenos devem ser jogados na fase principal."
+        },
+        {
+          "title": "Diversão está acima de tudo, e vale ser testada repetidamente",
+          "rules": "Profundidade, poder, coerência e clareza são metas reais que ficam sem valor se a coisa não for gostosa. Se essa ordem é de fato a sua posição, diga-a tantas vezes que ninguém possa confundi-la com clichê.",
+          "flavor": "“Esse ponto era tão importante que o tocamos em várias perguntas. O objetivo principal de Magic é ser divertido… nada disso importa se uma coleção não é gostosa de jogar.”"
+        },
+        {
+          "title": "Deixe o jogador habilidoso sentir que venceu por ter decidido",
+          "rules": "Servir o público competitivo não é sobre dificultar as coisas. É sobre o resultado acompanhar as decisões, para que vencer seja legível ao vencedor como algo que ele fez.",
+          "flavor": "“A chave para deixar Spike feliz é dar a ele ferramentas para provar a habilidade. Descobrimos que o melhor jeito é criar cartas mais habilidosas nas mãos de um jogador melhor, permitindo que ele sinta que venceu por causa das próprias decisões.”"
+        },
+        {
+          "title": "“Lento demais” nomeia um problema de logística, não de jogo",
+          "rules": "Algumas queixas conhecidas falam da operação em volta da coisa, não da coisa. Saiba qual é, senão você conserta a propriedade errada e a objeção sobrevive.",
+          "flavor": "“Quando dizemos que algo é ‘lento demais para o jogo de torneio', pensamos no quadro grande: estamos fazendo escolhas que vão tornar torneios mais difíceis de operar?… Aqui, é a duração das rodadas.”"
+        },
+        {
+          "title": "Enuncie o objetivo real do produto e os outros critérios se acomodam",
+          "rules": "Um projeto acumula objetivos plausíveis até ninguém saber qual trocar por qual. Nomeie a única coisa para a qual ele existe, e o resto vira preferências com as quais dá para ser flexível.",
+          "flavor": "Decks de Commander: “Nosso maior objetivo é promover o formato… queremos criar cartas que inspirem decks novos. Equilibramos as cores grosso modo, mas ser igual não é crucial.”"
+        },
+        {
+          "title": "Teste no número que as pessoas de fato usam",
+          "rules": "O sentido de um ensaio é reproduzir condições reais, então um parâmetro definido por conveniência otimiza em silêncio para uma situação que não ocorre. Iguale a configuração à de campo.",
+          "flavor": "Por que mesas de draft com oito? “O objetivo do playtesting é simular o que os jogadores de fato fazem no mundo real.” Draftar com outro número “enviesaria os dados e poderia nos levar a escolhas que não otimizam drafts de oito”."
+        },
+        {
+          "title": "Perguntar ao especialista primeiro compra qualidade e consentimento de uma vez",
+          "rules": "Ir até quem tem aquilo como trabalho dá melhor resultado do que fazer você mesmo de forma aceitável. Também torna a pessoa participante em vez de aprovadora — relação bem diferente quando você precisar do aval.",
+          "flavor": "“Eu conseguiria precificar uma carta? Claro, mas não tão bem quanto um designer de jogo contratado exatamente pela capacidade de julgar poder… Além disso, se o objetivo é obter o aval, ajuda envolvê-los no processo.”"
+        },
+        {
+          "title": "Quando pedem para tapar um buraco, o formato do buraco é o requisito",
+          "rules": "Um pedido sobre uma lacuna específica é sobre a lacuna, não sobre as qualidades que você gostaria que o tapa-buraco tivesse. Atenda primeiro à propriedade enunciada; o resto quem pediu resolve em outro lugar.",
+          "flavor": "“Se o líder da coleção pede para você tapar um buraco no preto, não há qualidade mais importante do que a carta ser preta. É bom se ela também tiver a mesma função, mas se não tiver, o líder ajusta outra carta.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "做出选择，上",
+      "dek": "「伟大设计师搜寻3」选择题答案解析的前半部分——在这里，解释比答案重要。",
+      "overview": "七十五道题，涵盖颜色归属、稀有度、措辞模板、心理画像，以及那些从没被明说过的规则背后的推理。罗斯瓦特走过前半部分，给出每一条的论据。",
+      "takeaway": "决定案例数量最多的那条规则是：一张双色牌必须在它的任何一个单色下都做不出来。如果两个异能都落在其中某一个颜色里，那这张牌就该直接是那个颜色。",
+      "lessons": [
+        {
+          "title": "一样双色的东西，必须在它的任何一个单色下都做不出来",
+          "rules": "把两个类别组合起来，不能靠「一边各取一个元素」来证成。它的正当性在于：任何单独一个类别都不可能产出这个结果——否则你做出来的只是一件披了第二种颜色的单色物件。",
+          "flavor": "先攻（白、红）加敏捷（蓝、红）可以是单红。辟邪加敏捷可以是单蓝。系命加威慑可以是单黑。而威慑（黑、红）加警戒（白、绿）是唯一那个塌缩不了的组合。"
+        },
+        {
+          "title": "各取其一，再取共有的一个",
+          "rules": "在一对搭配上授予多项属性时，有一个能让这个组合读起来像它自己的模板：一项属于第一边，一项属于第二边，还有一项两边共有。共有的那一项，才是把它们焊在一起的东西。",
+          "flavor": "获得操控权、重置、+1/+1、敏捷、辟邪、践踏。敏捷是红色，辟邪是蓝绿，践踏是红绿。蓝红和红绿都说得通——但红绿胜出，因为践踏在它的两个颜色里都是主色或次色。"
+        },
+        {
+          "title": "最不可能做的那个改动，是会毁掉整个要点的那一个",
+          "rules": "当被问到「你绝不会改哪一处」时，去找那个「一切都依赖它」的部件，而不是最显眼的那个。在脑子里把它拿掉：如果结果变得没用或者说不通，那就是你的答案。",
+          "flavor": "把临时夺取那张咒语上的敏捷拿掉，「你就没法用抢来的生物攻击了。那会让这个咒语不太有用，而且相当反直觉。」其余几个改动方案，都是他们会考虑的。"
+        },
+        {
+          "title": "记忆负担的分量，压过其他所有反对意见",
+          "rules": "任何「延续到当下之外、又没有实体标记」的东西，都是在要求人们把状态记在脑子里；而这条抱怨胜过强度、时机和优雅。给它一个指示物、一个附着对象，或者一个更短的持续时间。",
+          "flavor": "「研发部对记忆问题非常敏感。如果一样东西要持续到你的回合之外，我们通常会给你一个记忆辅助——放指示物、做成灵气。」一个持续三回合、每回合效果还不一样的咒语：「其他任何答案都没有这一条重要。」"
+        },
+        {
+          "title": "同一条限制，每一次的理由都不一样",
+          "rules": "一条从外面看起来整齐划一的惯例，通常是一摞彼此无关、却恰好指向同一个方向的论据。要弄清哪一条适用于你的案例，因为其余那些并不会迁移过来。",
+          "flavor": "弃牌被放在法术速度，因为「我们不喜欢玩家把对手锁在抽不到牌的状态里」。毁地，因为「在咒语被施放时以瞬间速度响应会让一些玩家困惑」。找地，因为地应该在主要阶段打出。"
+        },
+        {
+          "title": "「好玩」压过一切，而且值得反复去考",
+          "rules": "深度、强度、连贯和清晰都是真实的目标，而一旦这东西不好玩，它们就全部作废。如果这个排序真的是你的立场，那就说得足够频繁，频繁到没人会把它当成一句场面话。",
+          "flavor": "「这一点重要到我们在好几道题里都碰了它。万智牌的首要目标是好玩……如果一个系列玩起来不愉快，那些都不重要。」以及关于新手的第一局：「如果这个新玩家不想再玩第二次，那什么都不重要。」"
+        },
+        {
+          "title": "让技术型玩家感到自己是靠决策赢的",
+          "rules": "服务竞技受众，不是把东西做得更难。而是让结果跟着决策走，好让「赢」这件事在赢家自己看来，是一件他做成的事。",
+          "flavor": "「让斯派克高兴的关键，是给他证明自己技术的工具。我们发现最好的办法，是做出那种『在更好的玩家手里更能体现技术』的牌，让斯派克感到自己是因为自己的决策而赢的。」"
+        },
+        {
+          "title": "「太慢」说的是一个后勤问题，不是一个对局问题",
+          "rules": "有些耳熟的抱怨，讲的是围绕这样东西的那套运营，而不是这样东西本身。要弄清是哪一种——否则你会去修错误的那项属性，而那条反对意见依然活着。",
+          "flavor": "「当我们说某样东西『对比赛来说太慢』时，我们想的是大局：我们做的这些选择，会不会让比赛更难组织？……在这个问题上，指的是每一轮的时长。」"
+        },
+        {
+          "title": "把产品真正的目标说出来，其余判准会自己各就各位",
+          "rules": "一个项目会不断累积看起来都合理的目标，直到没人知道该拿哪一个去换哪一个。把「它之所以存在的那一件事」点名说出来，其余的就都变成了你可以放松对待的偏好。",
+          "flavor": "指挥官套牌：「我们最大的目标是推广指挥官赛制……我们想做出能激发人们组新牌的牌。我们大致平衡颜色，但完全均等并不关键。」而为薪传赛和特选赛做牌「引发了各种各样的问题」。"
+        },
+        {
+          "title": "在人们真实使用的那个数字上做测试",
+          "rules": "一次试验的意义在于复现真实条件；所以一个为了方便而设定的参数，会悄悄地朝一个「现实中不会发生」的情形去做优化。让你的配置和现场那个对齐。",
+          "flavor": "为什么轮抽桌是八人？「试玩的目标，是模拟玩家在真实世界里实际会做的事。」用别的人数去轮抽「会让数据产生偏差，甚至可能让我们做出一些并不针对八人轮抽做优化的决定」。"
+        },
+        {
+          "title": "先去问那个专家，一次买到质量和同意两样东西",
+          "rules": "去找那个「这本来就是他工作」的人，比你自己做到「还过得去」结果更好。而且这会让他成为参与者、而不是审批者——当你之后需要他点头时，那是完全不同的一种关系。",
+          "flavor": "「我能不能给一张牌定价？当然能，但我不会做得像一个专门因为『判断强度的能力』而被招进来的对局设计师那么好……另外，如果你的目标是让对局设计组点头，把他们拉进流程里是有帮助的。」"
+        },
+        {
+          "title": "当有人请你补一个洞时，那个洞的形状就是需求",
+          "rules": "一个关于某个具体缺口的请求，说的是那个缺口，而不是你希望这块补丁具备的那些优点。先满足被明说出来的那项属性；其余的，提出请求的人可以在别处解决。",
+          "flavor": "「如果系列负责人请你补一个黑色的洞，那么没有哪项性质比『这张牌是黑色的』更重要。当然，如果它同时还能有同样的功能那很好；但如果做不到，系列负责人可以去调整另一张牌来解决那个问题。」"
+        }
+      ]
+    }
+  }
+}
