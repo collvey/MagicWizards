@@ -1,0 +1,320 @@
+{
+  "id": "developing-masters-2013-05-27",
+  "slug": "developing-masters-2013-05-27",
+  "column": "making-magic",
+  "author": "Erik Lauer",
+  "publishedAt": "2013-05-27",
+  "series": null,
+  "tags": ["development", "reprints", "limited", "rarity", "archetypes"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/developing-masters-2013-05-27",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "G" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "U" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Developing Masters",
+      "dek": "Erik Lauer on developing a set made entirely of reprints, where the two usual levers are gone and the only remaining dial is which rarity a card sits at.",
+      "overview": "The design team handed over a Modern Masters file that already met its stated goals, so development picked the one area it thought it could still improve: the draft environment. The problem was that some of the inherited archetypes were simply weaker than others, and in a reprint set you cannot make a new card or change a cost to fix that. What follows is a development team working almost entirely through selection and rarity — replacing weak themes rather than propping them up, pairing dredge with retrace so the draft version behaves like the Constructed one, and moving two cards down a rarity because an archetype needed a payoff big enough to compete.",
+      "takeaway": "With the usual instruments removed, everything that remains has to be pushed further than normal — which is why the interesting decisions in this set are all about which cards are chosen and where they sit.",
+      "lessons": [
+        {
+          "title": "Staff for different relationships to the thing, then pick the area you can most improve",
+          "rules": "The three developers were a tournament drafter, an online drafter and a casual drafter — the same activity approached three ways. Their first decision wasn't what to change, it was where they had leverage at all: the file already hit its design goals, so they chose the drafting experience as the one place their combined view could add something. Establish where you're strong before deciding what to do.",
+          "flavor": "Three people who all love drafting and none of whom draft the same way."
+        },
+        {
+          "title": "When you can't strengthen a weak option, replace it",
+          "rules": "The design had chosen archetypes from across the source blocks, and some of them produced weaker decks. The designers had already given those themes the best cards available. Development couldn't invent a card or change a cost, so the standard repair — buff the underperformer — was unavailable. They explored new themes instead. Where you cannot raise the floor of an option, the honest move is to swap the option out.",
+          "flavor": "Every card that could have helped was already in there."
+        },
+        {
+          "title": "When the usual dials are locked, the one that's left gets moved further than usual",
+          "rules": "With cards and costs fixed, rarity was the only remaining instrument, and one team member argued explicitly that they should be willing to bend the normal rules about it. Two cards ended up moved down a rarity purely to make an archetype work. A convention that exists for good reasons under normal conditions is exactly what you re-examine when the conditions aren't normal.",
+          "flavor": "Nothing about the card changed. Only how often you see it."
+        },
+        {
+          "title": "Tune the product to the context it feeds, not to the house default",
+          "rules": "This set existed to supply a particular constructed format, and that format's competitive decks don't behave like the usual ones. So the draft environment was deliberately built around themes unlikely to appear in a normal release. The house style is a default for the common case; a product with a specific downstream audience should be shaped by that audience instead.",
+          "flavor": "The decks it feeds don't look like the decks anything else feeds."
+        },
+        {
+          "title": "Bringing back an archetype isn't bringing back the experience of it",
+          "rules": "One condition placed on the whole exercise was that a returning strategy had to play differently than it had in its original block. Reprint the same cards into the same shape and you've reproduced the components while giving people something they already had. The interest is in what the new neighbours do to the old strategy, which means you have to change the neighbours on purpose.",
+          "flavor": "Same cards, and the draft still has to be a different draft."
+        },
+        {
+          "title": "Build the synergies, then leave room to play outside them",
+          "rules": "He wants cross-connections between the intended strategies and also does not want the environment to be entirely about the strategies he intended. Those pull against each other, and both matter: an environment where the designed paths are the only viable ones has replaced discovery with recognition. Leave enough slack that someone can build something you didn't list.",
+          "flavor": "Affinity, dredge, storm — and Giants, thrown in to make the mix stranger."
+        },
+        {
+          "title": "A mechanic's identity often gets set downstream of the person credited with it",
+          "rules": "Dredge was designed to let you draw the same card repeatedly. It became a self-milling mechanic because the lead developer of that set reframed it that way, and it became interesting because he made different cards mill different amounts. The thing people love about it is not what its author was going for. Check whose decision actually produced the property you're now building on.",
+          "flavor": "The character of the mechanic was a development note."
+        },
+        {
+          "title": "Reproduce the behaviour, not the component",
+          "rules": "Constructed dredge decks don't just dredge into more dredge cards — they run cards that do work from the graveyard. Copying dredge alone into a draft environment would have copied the keyword without the shape of play around it. Pairing it with a second graveyard mechanic gave the drafted version the same texture. When you port something, port the ecosystem that made it what it was.",
+          "flavor": "Dredge without anything to dredge into is just a slower draw step."
+        },
+        {
+          "title": "A payoff competes with the whole table, not just with its own theme",
+          "rules": "The reward card at the top of one strategy was, in his words, not doing enough — and \"enough\" was defined by the other decks available at the table, not by whether it fitted the theme. A capstone that's merely thematically correct loses to the decks that don't need one. Price the reward against the alternatives someone gives up to chase it.",
+          "flavor": "The obvious choice for the payoff, and it needed help to hold the slot."
+        },
+        {
+          "title": "Put one thing in the mix that doesn't belong to the pattern",
+          "rules": "The chosen themes were the powerful, format-defining ones — and then a creature-type theme that shares nothing with them, added specifically to make the whole mix stranger. A set of consistent choices produces a legible, predictable environment. One deliberate outlier makes the rest less easy to read and gives the room something to be surprised by.",
+          "flavor": "Affinity, dredge, storm, and, for no structural reason at all, Giants."
+        }
+      ]
+    },
+    "es": {
+      "title": "Desarrollando Masters",
+      "dek": "Erik Lauer sobre desarrollar una expansión hecha íntegramente de reimpresiones, donde faltan las dos palancas habituales y el único dial que queda es en qué rareza está cada carta.",
+      "overview": "El equipo de diseño entregó un archivo de Modern Masters que ya cumplía sus objetivos declarados, así que desarrollo eligió la única zona en la que creía poder mejorar todavía: el entorno de draft. El problema era que algunos de los arquetipos heredados eran sencillamente más débiles que otros, y en una expansión de reimpresiones no puedes crear una carta nueva ni cambiar un coste para arreglarlo. Lo que sigue es un equipo de desarrollo trabajando casi solo mediante selección y rareza: sustituyendo temas débiles en vez de apuntalarlos, emparejando el dragado con el retrazado para que la versión de draft se comporte como la de Construido, y bajando dos cartas de rareza porque un arquetipo necesitaba una recompensa lo bastante grande para competir.",
+      "takeaway": "Retirados los instrumentos habituales, todo lo que queda hay que forzarlo más de lo normal, y por eso las decisiones interesantes de esta expansión van todas de qué cartas se eligen y dónde se colocan.",
+      "lessons": [
+        {
+          "title": "Forma el equipo con relaciones distintas con la cosa, y luego elige dónde puedes mejorar más",
+          "rules": "Los tres desarrolladores eran un drafteador de torneo, uno de digital y uno casual: la misma actividad abordada de tres maneras. Su primera decisión no fue qué cambiar, sino dónde tenían margen: el archivo ya cumplía los objetivos de diseño, así que eligieron la experiencia de draft como el único punto donde su visión combinada podía aportar algo. Establece dónde eres fuerte antes de decidir qué hacer.",
+          "flavor": "Tres personas a las que les encanta draftear y ninguna draftea igual."
+        },
+        {
+          "title": "Cuando no puedes reforzar una opción débil, sustitúyela",
+          "rules": "El diseño había elegido arquetipos de todos los bloques de origen, y algunos producían mazos más flojos. Los diseñadores ya les habían dado las mejores cartas disponibles. Desarrollo no podía inventar una carta ni cambiar un coste, así que la reparación estándar —mejorar al que rinde poco— no estaba disponible. Exploraron temas nuevos en su lugar. Cuando no puedes subir el suelo de una opción, lo honesto es cambiar la opción.",
+          "flavor": "Todas las cartas que podían ayudar ya estaban dentro."
+        },
+        {
+          "title": "Cuando los diales habituales están bloqueados, el que queda se mueve más de lo normal",
+          "rules": "Con cartas y costes fijos, la rareza era el único instrumento restante, y un miembro del equipo argumentó explícitamente que debían estar dispuestos a doblar las reglas normales sobre ella. Dos cartas acabaron bajando de rareza únicamente para que un arquetipo funcionara. Una convención que existe por buenas razones en condiciones normales es justo lo que se reexamina cuando las condiciones no lo son.",
+          "flavor": "Nada cambió en la carta. Solo con qué frecuencia la ves."
+        },
+        {
+          "title": "Ajusta el producto al contexto que alimenta, no al estándar de la casa",
+          "rules": "Esta expansión existía para abastecer un formato construido concreto, y los mazos competitivos de ese formato no se comportan como los habituales. Así que el entorno de draft se construyó a propósito en torno a temas improbables en un lanzamiento normal. El estilo de la casa es un valor por defecto para el caso común; un producto con un público concreto río abajo debe tomar su forma de ese público.",
+          "flavor": "Los mazos que alimenta no se parecen a los mazos que alimenta ninguna otra cosa."
+        },
+        {
+          "title": "Traer de vuelta un arquetipo no es traer de vuelta la experiencia de jugarlo",
+          "rules": "Una condición impuesta a todo el ejercicio fue que una estrategia que regresara tenía que jugarse distinto de como se jugaba en su bloque original. Reimprime las mismas cartas en la misma forma y habrás reproducido los componentes dando a la gente algo que ya tenía. El interés está en lo que los nuevos vecinos le hacen a la vieja estrategia, lo que significa cambiar los vecinos a propósito.",
+          "flavor": "Las mismas cartas, y el draft aún tiene que ser un draft distinto."
+        },
+        {
+          "title": "Construye las sinergias y deja luego sitio para jugar fuera de ellas",
+          "rules": "Quiere conexiones cruzadas entre las estrategias previstas y a la vez no quiere que el entorno vaya enteramente sobre las estrategias que previó. Ambas cosas tiran en direcciones opuestas y ambas importan: un entorno donde los caminos diseñados son los únicos viables ha sustituido el descubrimiento por el reconocimiento. Deja holgura suficiente para que alguien construya algo que tú no listaste.",
+          "flavor": "Afinidad, dragado, tormenta... y Gigantes, metidos ahí para hacer la mezcla más rara."
+        },
+        {
+          "title": "La identidad de una mecánica suele fijarse río abajo de quien figura como su autor",
+          "rules": "El dragado se diseñó para permitirte robar la misma carta repetidamente. Se convirtió en una mecánica de automolienda porque el desarrollador líder de aquella expansión lo reencuadró así, y se volvió interesante porque hizo que distintas cartas molieran cantidades distintas. Lo que la gente adora de ella no es a lo que apuntaba su autor. Comprueba de quién fue la decisión que produjo la propiedad sobre la que ahora construyes.",
+          "flavor": "El carácter de la mecánica fue una nota de desarrollo."
+        },
+        {
+          "title": "Reproduce el comportamiento, no el componente",
+          "rules": "Los mazos de dragado en Construido no solo dragan hacia más cartas de dragado: llevan cartas que trabajan desde el cementerio. Copiar solo el dragado a un entorno de draft habría copiado la palabra clave sin la forma de juego a su alrededor. Emparejarlo con una segunda mecánica de cementerio le dio a la versión drafteada la misma textura. Cuando portas algo, porta el ecosistema que lo hizo lo que era.",
+          "flavor": "Dragar sin nada hacia lo que dragar es solo un paso de robo más lento."
+        },
+        {
+          "title": "Una recompensa compite con toda la mesa, no solo con su propio tema",
+          "rules": "La carta de recompensa en la cima de una estrategia, en sus palabras, no hacía lo suficiente, y «lo suficiente» lo definían los otros mazos disponibles en la mesa, no si encajaba con el tema. Un remate meramente correcto en lo temático pierde contra los mazos que no necesitan ninguno. Tarifa la recompensa contra las alternativas a las que alguien renuncia por perseguirla.",
+          "flavor": "La elección obvia para la recompensa, y necesitó ayuda para sostener el puesto."
+        },
+        {
+          "title": "Mete en la mezcla una cosa que no pertenezca al patrón",
+          "rules": "Los temas elegidos eran los potentes, los que definen formatos, y luego un tema de tipo de criatura que no comparte nada con ellos, añadido específicamente para hacer la mezcla más extraña. Un conjunto de elecciones coherentes produce un entorno legible y previsible. Un caso atípico deliberado hace el resto menos fácil de leer y le da a la sala algo con lo que sorprenderse.",
+          "flavor": "Afinidad, dragado, tormenta y, sin ninguna razón estructural, Gigantes."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Développer Masters",
+      "dek": "Erik Lauer sur le développement d'une extension entièrement composée de rééditions, où les deux leviers habituels ont disparu et où le seul réglage restant est la rareté de chaque carte.",
+      "overview": "L'équipe de conception a livré un fichier Modern Masters qui atteignait déjà ses objectifs affichés ; le développement a donc visé le seul domaine où il pensait pouvoir encore améliorer les choses : l'environnement de draft. Le problème : certains des archétypes hérités étaient tout simplement plus faibles que d'autres, et dans une extension de rééditions on ne peut ni créer une carte ni changer un coût pour y remédier. Ce qui suit est une équipe de développement travaillant presque uniquement par la sélection et la rareté — remplacer les thèmes faibles plutôt que les étayer, associer le dragage au retracement pour que la version draft se comporte comme celle de Construit, et descendre deux cartes d'un cran parce qu'un archétype avait besoin d'une récompense capable de rivaliser.",
+      "takeaway": "Les instruments habituels retirés, tout ce qui reste doit être poussé plus loin que d'ordinaire — d'où le fait que les décisions intéressantes de cette extension portent toutes sur le choix des cartes et leur emplacement.",
+      "lessons": [
+        {
+          "title": "Composez l'équipe avec des rapports différents à la chose, puis visez là où vous pouvez le plus améliorer",
+          "rules": "Les trois développeurs étaient un drafteur de tournoi, un drafteur en ligne et un drafteur occasionnel — la même activité abordée de trois façons. Leur première décision n'a pas été quoi changer, mais où ils avaient prise : le fichier atteignait déjà ses objectifs, ils ont donc choisi l'expérience de draft comme seul endroit où leur regard combiné pouvait apporter quelque chose. Établissez où vous êtes forts avant de décider quoi faire.",
+          "flavor": "Trois personnes qui adorent drafter et dont aucune ne drafte pareil."
+        },
+        {
+          "title": "Quand vous ne pouvez pas renforcer une option faible, remplacez-la",
+          "rules": "La conception avait choisi des archétypes issus de tous les blocs sources, et certains donnaient des decks plus faibles. Les concepteurs leur avaient déjà attribué les meilleures cartes disponibles. Le développement ne pouvait ni inventer une carte ni changer un coût : la réparation standard — renforcer le maillon faible — n'était pas disponible. Ils ont exploré d'autres thèmes. Quand vous ne pouvez pas relever le plancher d'une option, l'honnêteté consiste à changer l'option.",
+          "flavor": "Toutes les cartes susceptibles d'aider étaient déjà dedans."
+        },
+        {
+          "title": "Quand les réglages habituels sont bloqués, celui qui reste bouge plus que d'habitude",
+          "rules": "Cartes et coûts figés, la rareté était le seul instrument restant, et un membre de l'équipe a explicitement plaidé pour qu'on accepte d'en assouplir les règles normales. Deux cartes ont fini par descendre d'un cran uniquement pour faire fonctionner un archétype. Une convention justifiée en conditions normales est précisément ce qu'on réexamine quand les conditions ne le sont pas.",
+          "flavor": "Rien n'a changé sur la carte. Seulement la fréquence à laquelle on la voit."
+        },
+        {
+          "title": "Réglez le produit sur le contexte qu'il alimente, pas sur le standard maison",
+          "rules": "Cette extension existait pour alimenter un format construit précis, dont les decks compétitifs ne se comportent pas comme les autres. L'environnement de draft a donc été bâti volontairement autour de thèmes peu susceptibles d'apparaître dans une sortie ordinaire. Le style maison est un défaut pour le cas courant ; un produit avec un public spécifique en aval doit être façonné par ce public.",
+          "flavor": "Les decks qu'elle alimente ne ressemblent à ceux d'aucune autre extension."
+        },
+        {
+          "title": "Ramener un archétype n'est pas ramener l'expérience de le jouer",
+          "rules": "Une condition posée à tout l'exercice : une stratégie de retour devait se jouer autrement que dans son bloc d'origine. Rééditez les mêmes cartes dans la même forme et vous aurez reproduit les composants en offrant aux gens ce qu'ils avaient déjà. L'intérêt réside dans ce que les nouveaux voisins font à l'ancienne stratégie — ce qui suppose de changer les voisins exprès.",
+          "flavor": "Les mêmes cartes, et le draft doit quand même être un autre draft."
+        },
+        {
+          "title": "Construisez les synergies, puis laissez de la place pour jouer en dehors",
+          "rules": "Il veut des connexions croisées entre les stratégies prévues et ne veut pas que l'environnement porte entièrement sur les stratégies qu'il a prévues. Ces deux exigences tirent en sens inverse et comptent toutes deux : un environnement où les chemins conçus sont les seuls viables a remplacé la découverte par la reconnaissance. Laissez assez de jeu pour que quelqu'un bâtisse ce que vous n'avez pas listé.",
+          "flavor": "Affinité, dragage, tempête — et des Géants, jetés là pour rendre le mélange plus étrange."
+        },
+        {
+          "title": "L'identité d'une mécanique se fixe souvent en aval de celui qu'on en crédite",
+          "rules": "Le dragage a été conçu pour permettre de piocher plusieurs fois la même carte. Il est devenu une mécanique d'auto-meulage parce que le développeur en chef de cette extension l'a recadré ainsi, et il est devenu intéressant parce qu'il a fait meuler des quantités différentes selon les cartes. Ce que les gens adorent n'est pas ce que visait son auteur. Vérifiez de qui vient la décision qui a produit la propriété sur laquelle vous bâtissez.",
+          "flavor": "Le caractère de la mécanique était une note de développement."
+        },
+        {
+          "title": "Reproduisez le comportement, pas le composant",
+          "rules": "En Construit, les decks de dragage ne draguent pas seulement vers d'autres cartes de dragage : ils jouent des cartes qui agissent depuis le cimetière. Copier le dragage seul dans un environnement de draft aurait copié le mot-clé sans la forme de jeu autour. L'associer à une seconde mécanique de cimetière a donné à la version draftée la même texture. Quand vous portez quelque chose, portez l'écosystème qui l'a fait tel qu'il est.",
+          "flavor": "Draguer sans rien vers quoi draguer n'est qu'une phase de pioche plus lente."
+        },
+        {
+          "title": "Une récompense rivalise avec toute la table, pas seulement avec son propre thème",
+          "rules": "La carte-récompense au sommet d'une stratégie, selon ses mots, n'en faisait pas assez — et « assez » se définissait par les autres decks disponibles à la table, pas par sa cohérence thématique. Un aboutissement seulement juste thématiquement perd contre les decks qui n'en ont pas besoin. Évaluez la récompense face aux alternatives auxquelles on renonce pour la poursuivre.",
+          "flavor": "Le choix évident pour la récompense, et il a fallu l'aider à tenir sa place."
+        },
+        {
+          "title": "Mettez dans le mélange une chose qui n'appartient pas au motif",
+          "rules": "Les thèmes retenus étaient les puissants, ceux qui définissent les formats — puis un thème de type de créature qui ne partage rien avec eux, ajouté précisément pour rendre le mélange plus étrange. Un ensemble de choix cohérents produit un environnement lisible et prévisible. Un cas aberrant délibéré rend le reste moins facile à lire et donne de quoi surprendre.",
+          "flavor": "Affinité, dragage, tempête et, sans la moindre raison structurelle, des Géants."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Desenvolvendo Masters",
+      "dek": "Erik Lauer sobre desenvolver uma coleção feita inteiramente de reimpressões, em que as duas alavancas de sempre sumiram e o único botão restante é a raridade de cada carta.",
+      "overview": "A equipe de design entregou um arquivo de Modern Masters que já cumpria os objetivos declarados, então o desenvolvimento mirou a única área em que achava que ainda podia melhorar: o ambiente de draft. O problema era que alguns dos arquétipos herdados eram simplesmente mais fracos que outros, e numa coleção de reimpressões não dá para criar uma carta nova nem mudar um custo para consertar isso. O que se segue é uma equipe de desenvolvimento trabalhando quase só por seleção e raridade — trocando temas fracos em vez de escorá-los, juntando escavação e retraçar para que a versão de draft se comporte como a de Construído, e descendo duas cartas de raridade porque um arquétipo precisava de uma recompensa grande o bastante para competir.",
+      "takeaway": "Removidos os instrumentos habituais, tudo o que sobra precisa ser empurrado além do normal — e é por isso que as decisões interessantes desta coleção são todas sobre quais cartas foram escolhidas e onde elas ficam.",
+      "lessons": [
+        {
+          "title": "Monte a equipe com relações diferentes com a coisa, e então mire onde dá para melhorar mais",
+          "rules": "Os três desenvolvedores eram um draftador de torneio, um de digital e um casual — a mesma atividade abordada de três modos. A primeira decisão deles não foi o que mudar, e sim onde tinham alavanca: o arquivo já batia os objetivos de design, então escolheram a experiência de draft como o único ponto em que o olhar combinado deles podia acrescentar algo. Estabeleça onde você é forte antes de decidir o que fazer.",
+          "flavor": "Três pessoas que adoram draftar e nenhuma delas drafta do mesmo jeito."
+        },
+        {
+          "title": "Quando não dá para fortalecer uma opção fraca, troque-a",
+          "rules": "O design tinha escolhido arquétipos de todos os blocos de origem, e alguns produziam baralhos mais fracos. Os designers já haviam dado a esses temas as melhores cartas disponíveis. O desenvolvimento não podia inventar carta nem mudar custo, então o conserto padrão — reforçar quem rende pouco — estava indisponível. Exploraram temas novos no lugar. Quando não dá para levantar o piso de uma opção, o honesto é trocar a opção.",
+          "flavor": "Toda carta que poderia ajudar já estava lá dentro."
+        },
+        {
+          "title": "Quando os botões de sempre estão travados, o que sobra é girado além do normal",
+          "rules": "Com cartas e custos fixos, a raridade era o único instrumento restante, e um integrante argumentou explicitamente que deviam estar dispostos a dobrar as regras normais sobre ela. Duas cartas acabaram descendo de raridade só para um arquétipo funcionar. Uma convenção que existe por bons motivos em condições normais é exatamente o que se reexamina quando as condições não são normais.",
+          "flavor": "Nada mudou na carta. Só a frequência com que você a vê."
+        },
+        {
+          "title": "Ajuste o produto ao contexto que ele alimenta, não ao padrão da casa",
+          "rules": "Esta coleção existia para abastecer um formato construído específico, e os baralhos competitivos desse formato não se comportam como os de sempre. Então o ambiente de draft foi montado de propósito em torno de temas improváveis num lançamento comum. O estilo da casa é um padrão para o caso comum; um produto com um público específico rio abaixo deve ser moldado por esse público.",
+          "flavor": "Os baralhos que ela alimenta não se parecem com os de mais nada."
+        },
+        {
+          "title": "Trazer um arquétipo de volta não é trazer de volta a experiência dele",
+          "rules": "Uma condição imposta ao exercício inteiro foi que uma estratégia que voltasse tinha de jogar diferente de como jogava no bloco original. Reimprima as mesmas cartas no mesmo formato e você reproduziu os componentes entregando às pessoas algo que elas já tinham. O interesse está no que os vizinhos novos fazem com a estratégia velha, o que significa trocar os vizinhos de propósito.",
+          "flavor": "As mesmas cartas, e o draft ainda precisa ser um draft diferente."
+        },
+        {
+          "title": "Construa as sinergias e depois deixe espaço para jogar fora delas",
+          "rules": "Ele quer conexões cruzadas entre as estratégias pretendidas e também não quer que o ambiente seja inteiramente sobre as estratégias que ele pretendeu. As duas coisas puxam em sentidos opostos e ambas importam: um ambiente em que os caminhos desenhados são os únicos viáveis trocou descoberta por reconhecimento. Deixe folga suficiente para alguém montar algo que você não listou.",
+          "flavor": "Afinidade, escavação, tormenta — e Gigantes, jogados ali para deixar a mistura mais esquisita."
+        },
+        {
+          "title": "A identidade de uma mecânica costuma ser fixada rio abaixo de quem leva o crédito",
+          "rules": "Escavação foi desenhada para deixar você comprar a mesma carta repetidamente. Virou uma mecânica de automoagem porque o desenvolvedor líder daquela coleção a reenquadrou assim, e ficou interessante porque ele fez cartas diferentes moerem quantidades diferentes. O que as pessoas amam nela não é o que o autor buscava. Verifique de quem foi a decisão que produziu a propriedade sobre a qual você agora constrói.",
+          "flavor": "O caráter da mecânica foi uma anotação de desenvolvimento."
+        },
+        {
+          "title": "Reproduza o comportamento, não o componente",
+          "rules": "Em Construído, os baralhos de escavação não escavam só para achar mais escavação: rodam cartas que trabalham do cemitério. Copiar só a escavação para um ambiente de draft teria copiado a palavra-chave sem o formato de jogo em volta. Juntá-la a uma segunda mecânica de cemitério deu à versão draftada a mesma textura. Quando você porta algo, porte o ecossistema que o fez ser o que era.",
+          "flavor": "Escavar sem nada para escavar é só uma etapa de compra mais lenta."
+        },
+        {
+          "title": "Uma recompensa compete com a mesa inteira, não só com o próprio tema",
+          "rules": "A carta de recompensa no topo de uma estratégia, nas palavras dele, não estava fazendo o bastante — e «o bastante» era definido pelos outros baralhos disponíveis na mesa, não por caber no tema. Um remate apenas tematicamente correto perde para os baralhos que não precisam de um. Precifique a recompensa contra as alternativas que alguém abre mão para persegui-la.",
+          "flavor": "A escolha óbvia para a recompensa, e ela precisou de ajuda para segurar a vaga."
+        },
+        {
+          "title": "Ponha na mistura uma coisa que não pertence ao padrão",
+          "rules": "Os temas escolhidos eram os poderosos, os que definem formatos — e depois um tema de tipo de criatura que não compartilha nada com eles, incluído justamente para deixar a mistura mais estranha. Um conjunto de escolhas coerentes produz um ambiente legível e previsível. Um ponto fora da curva deliberado torna o resto menos fácil de ler e dá à mesa algo com que se surpreender.",
+          "flavor": "Afinidade, escavação, tormenta e, sem razão estrutural nenhuma, Gigantes."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "开发《近代大师》",
+      "dek": "艾瑞克·劳尔谈开发一个全部由重印组成的系列：两个常用的杠杆都没了，剩下的唯一旋钮，是每张牌放在哪个稀有度。",
+      "overview": "设计组交来的《近代大师》文件已经达成了它自己列出的目标，于是开发组挑了他们认为还能改进的唯一一块：轮抽环境。问题在于，继承下来的原型里有几个就是比别的弱，而在一个全是重印的系列里，你既不能造新牌也不能改费用去修它。接下来是一支开发团队几乎只靠「选牌」和「稀有度」在工作——用替换弱主题取代扶持弱主题；把发掘与回溯配成一对，好让轮抽版的行为像构筑版；以及把两张牌下调一级稀有度，因为某个原型需要一个大到足以竞争的回报。",
+      "takeaway": "常用的工具被拿走之后，剩下的每一样都得比平时用得更狠——这也正是这个系列里所有有意思的决定，都关于「选了哪些牌」和「它们放在哪儿」的原因。",
+      "lessons": [
+        {
+          "title": "按「与这件事的关系各不相同」来配人，然后挑你最能改进的那一块",
+          "rules": "三位开发者分别是竞技轮抽者、线上轮抽者和休闲轮抽者——同一件事的三种进入方式。他们的第一个决定不是改什么，而是自己在哪儿使得上劲：文件已经达成了设计目标，于是他们选了轮抽体验，作为他们合起来的视角唯一能添点东西的地方。先确定自己强在哪里，再决定要做什么。",
+          "flavor": "三个都热爱轮抽的人，而没有两个人的抽法是一样的。"
+        },
+        {
+          "title": "当你没法加强一个弱选项时，就把它换掉",
+          "rules": "设计从各个来源环境里挑了原型，其中一些产出的牌组偏弱。设计师已经把能给的最好的牌都给了这些主题。开发组既不能发明一张牌，也不能改费用，于是标准的修法——把落后者补强——用不上。他们改为去找新主题。当你抬不高一个选项的下限时，诚实的做法是换掉这个选项。",
+          "flavor": "所有可能帮上忙的牌，早就已经在里面了。"
+        },
+        {
+          "title": "当平常的旋钮都被锁死，剩下的那个就要拧得比平常更远",
+          "rules": "牌与费用都固定后，稀有度是仅剩的工具，而团队中有人明确主张：应该愿意在这件事上打破平常的规矩。最后有两张牌纯粹为了让某个原型跑得通而下调了一级稀有度。一条在正常条件下有充分理由的惯例，正是在条件不正常时该被重新审视的那一条。",
+          "flavor": "牌本身什么都没变，变的只是你多久能看见它一次。"
+        },
+        {
+          "title": "按它所服务的下游场景来调，而不是按公司的默认口味",
+          "rules": "这个系列的存在是为了供给某个特定的构筑赛制，而那个赛制里的竞技牌组行为方式与常见的不同。于是轮抽环境被刻意围绕一些不太可能出现在常规发售里的主题搭建起来。公司的既有风格是为常见情况准备的默认值；一个有特定下游受众的产品，应当由那批受众来定型。",
+          "flavor": "它供养的那些牌组，跟其他任何东西供养出来的都不一样。"
+        },
+        {
+          "title": "把一个原型带回来，不等于把玩它的体验带回来",
+          "rules": "整件事被加上的一条前提是：回归的策略必须和它在原环境里玩起来不一样。把同样的牌以同样的形状重印一遍，你复制的是零件，给人的是他们本来就有的东西。有意思的地方在于新邻居对旧策略做了什么，而这意味着你得刻意去换邻居。",
+          "flavor": "同样的牌，而这场轮抽仍然必须是另一场轮抽。"
+        },
+        {
+          "title": "把协同搭好，然后留出在它们之外玩的余地",
+          "rules": "他既想要预设策略之间的交叉连接，又不希望整个环境都只关于他预设的那些策略。这两者相互拉扯，而且都重要：一个「设计好的路径是唯一可行路径」的环境，等于把发现换成了辨认。留出足够的松动，好让有人搭出你没有列进清单的东西。",
+          "flavor": "亲和、发掘、风暴——再加上巨人，扔进去只为让这锅更古怪。"
+        },
+        {
+          "title": "一个异能的身份，往往是在它的署名者之后被定下来的",
+          "rules": "发掘最初的设计意图，是让你能反复抓到同一张牌。它之所以变成自磨牌库的机制，是因为那个系列的开发主管把它重新框定成了这样；而它之所以有意思，是因为他让不同的牌磨掉不同的数量。人们喜爱它的那一点，并不是它作者当初想做的那一点。去核实：你现在赖以施工的那个性质，究竟出自谁的决定。",
+          "flavor": "这个异能的性格，来自一条开发备注。"
+        },
+        {
+          "title": "要复制的是行为，不是零件",
+          "rules": "构筑里的发掘牌组不只是发掘到更多发掘牌，它们还带着一堆在坟场里干活的牌。把发掘单独搬进轮抽环境，复制到的只是关键字，而不是它周围的对局形状。把它与第二个坟场机制配成一对，才让轮抽版有了同样的质地。移植一样东西时，把让它成为它的那个生态一起移植过去。",
+          "flavor": "没有可发掘之物的发掘，不过是一个更慢的抓牌步骤。"
+        },
+        {
+          "title": "一个回报要和整张桌子竞争，而不只是和自己的主题竞争",
+          "rules": "某个策略顶端的那张回报牌，用他的话说「做得不够」——而「够」是由桌上其他可选牌组定义的，不是由它是否契合主题定义的。一个仅仅在主题上正确的收尾，会输给那些根本不需要收尾的牌组。给回报定价，要拿它对标「有人为了追它而放弃掉的那些选择」。",
+          "flavor": "回报的人选显而易见，可它还是得靠帮忙才守得住那个位置。"
+        },
+        {
+          "title": "在这锅里放一样不属于这个模式的东西",
+          "rules": "被选中的主题都是强力的、定义赛制的那类——然后又加进一个与它们毫无共同点的生物类别主题，加进来的目的正是让整锅更古怪。一组彼此一致的选择，产出的是一个可读、可预测的环境。一个刻意的异类会让其余部分没那么容易被看穿，也给这张桌子留下了可以被惊到的余地。",
+          "flavor": "亲和、发掘、风暴，以及毫无结构上的理由的——巨人。"
+        }
+      ]
+    }
+  }
+}

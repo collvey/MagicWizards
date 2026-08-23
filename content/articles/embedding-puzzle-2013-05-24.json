@@ -1,0 +1,320 @@
+{
+  "id": "embedding-puzzle-2013-05-24",
+  "slug": "embedding-puzzle-2013-05-24",
+  "column": "making-magic",
+  "author": "Trick Jarrett",
+  "publishedAt": "2013-05-24",
+  "series": null,
+  "tags": ["easter-eggs", "collaboration", "localisation", "typography", "audience"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/embedding-puzzle-2013-05-24",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "G" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "U" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Embedding a Puzzle",
+      "dek": "How a secret message got hidden across twenty-five Guildgates in eleven languages, using nothing but letters nudged a few pixels off the baseline.",
+      "overview": "Doug Beyer wanted a puzzle buried inside Ravnica and knew he couldn't build it himself, so he brought in the rules manager, who happens to be a serious puzzler. The art and flavour text already existed, so the solution had to be made out of what was there: four letters per Guildgate, no complete word on any card, legible only when the gates are put in guild order. The rest of the story is calibration — how far off the baseline a letter can sit before it reads as an error, and how little you can hint before the audience stops finding it. They hinted almost not at all, and the community found it in every language.",
+      "takeaway": "Everything here was decided by two constraints written down early — visible to the naked eye, not mistakable for a misprint — and by an accurate read of how thorough the audience actually is.",
+      "lessons": [
+        {
+          "title": "An idea that arrives after the content is fixed has to be made out of the content",
+          "rules": "By the time the puzzle was proposed, the set was in development and the art and flavour text already existed. So the method wasn't a cipher or an added layer — it was simple obfuscation of letters that were going to be printed anyway. When you're late, stop looking for room to add something and start looking at what is already there for something you can use twice.",
+          "flavor": "No encoding. No cipher. Just letters that were already on the card."
+        },
+        {
+          "title": "Find the person whose hobby is your problem",
+          "rules": "He had the concept and knew immediately he couldn't execute it, so he went looking for a collaborator — and found one inside the building, in a job with no obvious relationship to the task. The rules manager was also a devoted puzzle-maker. Skills sit in people, not in job titles, and the specialist you need for a one-off is often already on the payroll doing something else.",
+          "flavor": "\"Avid puzzler\" may be too timid a phrase."
+        },
+        {
+          "title": "Write down the two constraints that oppose each other",
+          "rules": "Before choosing a technique they fixed two rules: it has to be visible with the naked eye, and it can't just look like a mistake at a glance. Those pull in opposite directions, which is exactly what makes them useful — every candidate could then be rejected by naming which one it broke. Underlining looked like a printing error; removing the italic was jarring. Neither rejection needed an argument about taste.",
+          "flavor": "Two sentences, and every variation after that could be judged in seconds."
+        },
+        {
+          "title": "Tune a perceptual threshold empirically, in the smallest unit you have",
+          "rules": "Having settled on offsetting the letters, the question was how far — so they reduced the offset a pixel at a time, over and over, until it sat exactly where a reader's eye slides past it in normal reading but sees it clearly on inspection. You cannot reason your way to that number. You can only approach it from one side and stop when both behaviours hold.",
+          "flavor": "The perfect distance was found by making it smaller until it almost wasn't there."
+        },
+        {
+          "title": "Split the secret so no single piece is worth anything",
+          "rules": "The message was laid out as a four-column grid written vertically: every gate carries four letters and no gate carries a complete word. The message is only legible once the gates are put in the right order. Distributing a secret this way means possessing one part gives you nothing and possessing all of them still requires knowing the ordering — two separate barriers from one layout decision.",
+          "flavor": "Four letters per card, and not one of them spells anything."
+        },
+        {
+          "title": "The people doing the work scope it down; expansion has to come from elsewhere",
+          "rules": "The original plan was English only, and the reason was honest uncertainty: neither of them knew whether it could be translated or what that would cost. Faced with an unknown bill, the makers narrowed the scope, which is what makers reliably do. It took someone outside the work — with a stake in reach rather than in delivery — to insist on all eleven languages.",
+          "flavor": "Two questions nobody could answer, so the answer was \"just English.\""
+        },
+        {
+          "title": "Extra work lands well when it's the same pleasure as the work",
+          "rules": "The localisation teams had finished and moved on to other projects when they were handed a new requirement late. They weren't annoyed; they were delighted, because what they'd been given was a puzzle of their own — how do I hide this message in my language? Each of them ended up rewording flavour text to produce the letters they needed. Unplanned work is tolerable in proportion to how much it resembles the reason people took the job.",
+          "flavor": "Everyone who touched the puzzle got handed a puzzle."
+        },
+        {
+          "title": "Size the hint budget from what the audience has found before",
+          "rules": "There was internal worry that the thing was too subtle to be noticed. Doug's counter came from years of watching the same community: they are dogged, they have a hive mind, and almost nothing slips past them. So the reveal plan was almost no hinting at all. That is not optimism — it's an estimate built from prior evidence about a specific audience, and it can be made carefully.",
+          "flavor": "Inside the building they barely discussed it, as if talking would let it out."
+        },
+        {
+          "title": "A signal spread across releases isn't detectable until enough of it is co-present",
+          "rules": "The offsets were on the first set's gates and nobody drew a conclusion — the letters were likely seen and dismissed as misprints. It was the second set, where five gates were revealed at once, that made it register: either the second batch confirmed the pattern, or simply seeing five side by side on one page did it. Detection depends on how many instances your audience can hold at the same time, not on how many you shipped.",
+          "flavor": "One offset letter is a typo. Five of them on a page is a message."
+        },
+        {
+          "title": "Once the audience knows the game exists, the release schedule becomes part of it",
+          "rules": "The first reveal dropped all five gates at once, which was what made the puzzle findable. For the final set, with the community already hunting, they released one gate per day instead, stretching the solve out for the people at home working on it. The same material can be delivered to be discovered or delivered to be played with, and which one you want changes after the secret is out.",
+          "flavor": "Ten gates, one a day, for an audience that already knew what it was looking at."
+        }
+      ]
+    },
+    "es": {
+      "title": "Incrustar un rompecabezas",
+      "dek": "Cómo se escondió un mensaje secreto en veinticinco Puertas de gremio y once idiomas, usando solo letras desplazadas unos píxeles respecto a la línea base.",
+      "overview": "Doug Beyer quería un rompecabezas enterrado en Ravnica y sabía que no podía construirlo él, así que recurrió al gestor de reglas, que resulta ser un enigmista serio. El arte y los textos de ambientación ya existían, así que la solución tuvo que hacerse con lo que había: cuatro letras por Puerta de gremio, ninguna palabra completa en ninguna carta, legible solo al ordenar las puertas por gremio. El resto de la historia es calibración: cuánto puede desplazarse una letra antes de leerse como un error, y qué poco se puede insinuar antes de que el público deje de encontrarlo. No insinuaron casi nada, y la comunidad lo encontró en todos los idiomas.",
+      "takeaway": "Todo aquí lo decidieron dos restricciones escritas pronto —visible a simple vista, no confundible con una errata— y una lectura acertada de lo meticuloso que es realmente el público.",
+      "lessons": [
+        {
+          "title": "Una idea que llega después de fijar el contenido tiene que hacerse con el contenido",
+          "rules": "Cuando se propuso el rompecabezas, la expansión estaba en desarrollo y el arte y los textos ya existían. Así que el método no fue un cifrado ni una capa añadida, sino una ofuscación sencilla de letras que iban a imprimirse de todos modos. Cuando llegas tarde, deja de buscar hueco para añadir algo y empieza a mirar lo que ya está ahí buscando algo que puedas usar dos veces.",
+          "flavor": "Sin codificación. Sin cifrado. Solo letras que ya estaban en la carta."
+        },
+        {
+          "title": "Busca a la persona cuyo pasatiempo es tu problema",
+          "rules": "Tenía el concepto y supo enseguida que no podía ejecutarlo, así que buscó colaborador, y lo encontró dentro del edificio, en un puesto sin relación evidente con la tarea. El gestor de reglas era también un constructor de rompecabezas devoto. Las habilidades están en las personas, no en los cargos, y el especialista que necesitas para algo puntual suele estar ya en nómina haciendo otra cosa.",
+          "flavor": "«Enigmista aficionado» quizá sea una frase demasiado tímida."
+        },
+        {
+          "title": "Escribe las dos restricciones que se oponen entre sí",
+          "rules": "Antes de elegir técnica fijaron dos reglas: tiene que ser visible a simple vista, y no puede parecer un error a primera ojeada. Tiran en direcciones opuestas, y eso es justo lo que las hace útiles: cada candidata podía rechazarse nombrando cuál incumplía. El subrayado parecía un error de imprenta; quitar la cursiva chirriaba. Ninguno de los rechazos necesitó una discusión de gusto.",
+          "flavor": "Dos frases, y a partir de ahí cada variación se juzgaba en segundos."
+        },
+        {
+          "title": "Calibra un umbral perceptivo empíricamente, en la unidad más pequeña que tengas",
+          "rules": "Decidido el desplazamiento de las letras, la pregunta era cuánto, así que fueron reduciéndolo píxel a píxel, una y otra vez, hasta dejarlo exactamente donde el ojo del lector pasa de largo al leer pero lo ve con claridad al examinarlo. A ese número no se llega razonando. Solo se puede llegar desde un lado y parar cuando ambos comportamientos se cumplen.",
+          "flavor": "La distancia perfecta se encontró haciéndola más pequeña hasta casi no estar."
+        },
+        {
+          "title": "Reparte el secreto para que ninguna pieza suelta valga nada",
+          "rules": "El mensaje se dispuso como una cuadrícula de cuatro columnas escrita en vertical: cada puerta lleva cuatro letras y ninguna lleva una palabra completa. El mensaje solo es legible al poner las puertas en el orden correcto. Repartir un secreto así hace que tener una parte no dé nada y tenerlas todas siga exigiendo conocer el orden: dos barreras distintas con una sola decisión de maquetación.",
+          "flavor": "Cuatro letras por carta, y ninguna de ellas deletrea nada."
+        },
+        {
+          "title": "Quien hace el trabajo reduce el alcance; ampliarlo tiene que venir de fuera",
+          "rules": "El plan original era solo en inglés, y el motivo era incertidumbre honesta: ninguno sabía si podía traducirse ni cuánto costaría. Ante una factura desconocida, los que hacen el trabajo estrechan el alcance, que es lo que hacen siempre. Hizo falta alguien ajeno al trabajo —con intereses en el alcance más que en la entrega— para insistir en los once idiomas.",
+          "flavor": "Dos preguntas que nadie sabía responder, así que la respuesta fue «solo inglés»."
+        },
+        {
+          "title": "El trabajo extra cae bien cuando es el mismo placer que el trabajo",
+          "rules": "Los equipos de localización habían terminado y estaban en otros proyectos cuando les llegó un requisito nuevo y tardío. No se molestaron: se entusiasmaron, porque lo que les habían dado era un rompecabezas propio: ¿cómo escondo este mensaje en mi idioma? Cada uno acabó reescribiendo textos de ambientación para producir las letras necesarias. El trabajo imprevisto se tolera en proporción a cuánto se parece a la razón por la que la gente aceptó el puesto.",
+          "flavor": "A todo el que tocó el rompecabezas le entregaron un rompecabezas."
+        },
+        {
+          "title": "Dimensiona el presupuesto de pistas según lo que el público ya ha encontrado antes",
+          "rules": "Había preocupación interna de que fuera demasiado sutil para notarse. La réplica de Doug venía de años observando a esa misma comunidad: son tenaces, tienen mente colmena y casi nada se les escapa. Así que el plan de revelación fue casi ninguna pista. Eso no es optimismo: es una estimación construida sobre evidencia previa de un público concreto, y se puede hacer con cuidado.",
+          "flavor": "Dentro del edificio apenas lo comentaban, como si hablar fuera a dejarlo escapar."
+        },
+        {
+          "title": "Una señal repartida entre lanzamientos no es detectable hasta que hay bastante presente a la vez",
+          "rules": "Los desplazamientos estaban en las puertas de la primera expansión y nadie sacó conclusiones: probablemente se vieron las letras y se descartaron como erratas. Fue la segunda expansión, donde se revelaron cinco puertas de golpe, la que hizo que cuajara: o bien el segundo lote confirmó el patrón, o bien bastó con ver cinco juntas en una página. La detección depende de cuántos ejemplares puede sostener el público a la vez, no de cuántos publicaste.",
+          "flavor": "Una letra desplazada es una errata. Cinco en una página es un mensaje."
+        },
+        {
+          "title": "Una vez que el público sabe que el juego existe, el calendario pasa a formar parte de él",
+          "rules": "La primera revelación soltó las cinco puertas a la vez, y eso fue lo que hizo el rompecabezas encontrable. Para la expansión final, con la comunidad ya cazando, publicaron una puerta al día, alargando la resolución para quienes estaban en casa trabajándola. El mismo material puede entregarse para ser descubierto o para ser jugado, y cuál de los dos quieres cambia una vez que el secreto ha salido.",
+          "flavor": "Diez puertas, una al día, para un público que ya sabía qué estaba mirando."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Encastrer une énigme",
+      "dek": "Comment un message secret a été dissimulé sur vingt-cinq Portes de guilde en onze langues, avec pour seul moyen des lettres décalées de quelques pixels sous la ligne de base.",
+      "overview": "Doug Beyer voulait une énigme enfouie dans Ravnica et savait qu'il ne pouvait pas la construire seul ; il est allé chercher le responsable des règles, par ailleurs sérieux amateur de casse-têtes. Les illustrations et les textes d'ambiance existaient déjà : la solution a donc dû être faite avec ce qui était là. Quatre lettres par Porte de guilde, aucun mot complet sur une carte, lisible seulement quand on range les portes dans l'ordre des guildes. Le reste de l'histoire est un travail de calibrage : jusqu'où une lettre peut être décalée avant de passer pour une coquille, et à quel point on peut ne pas indiquer sans que le public cesse de trouver. Ils n'ont presque rien indiqué, et la communauté a trouvé, dans toutes les langues.",
+      "takeaway": "Tout s'est décidé sur deux contraintes posées tôt — visible à l'œil nu, non confondable avec une coquille — et sur une lecture juste du degré réel d'acharnement du public.",
+      "lessons": [
+        {
+          "title": "Une idée qui arrive après que le contenu est figé doit être faite avec le contenu",
+          "rules": "Quand l'énigme a été proposée, l'extension était en développement et les illustrations et textes d'ambiance existaient déjà. La méthode n'a donc été ni un chiffre ni une couche ajoutée, mais une obfuscation simple de lettres qui allaient être imprimées de toute façon. Quand vous arrivez tard, cessez de chercher de la place pour ajouter et regardez ce qui est déjà là en cherchant ce que vous pouvez utiliser deux fois.",
+          "flavor": "Pas d'encodage. Pas de chiffre. Juste des lettres déjà présentes sur la carte."
+        },
+        {
+          "title": "Trouvez la personne dont le loisir est votre problème",
+          "rules": "Il avait le concept et a tout de suite su qu'il ne pouvait pas l'exécuter ; il a donc cherché un collaborateur, et l'a trouvé dans les murs, à un poste sans rapport évident avec la tâche. Le responsable des règles était aussi un fabricant de casse-têtes passionné. Les compétences résident dans les personnes, pas dans les intitulés, et le spécialiste dont vous avez besoin pour un coup unique est souvent déjà salarié, à faire autre chose.",
+          "flavor": "« Amateur de casse-têtes » est peut-être une formule trop timide."
+        },
+        {
+          "title": "Écrivez les deux contraintes qui s'opposent",
+          "rules": "Avant de choisir une technique, ils ont fixé deux règles : ce doit être visible à l'œil nu, et cela ne doit pas ressembler à une erreur au premier coup d'œil. Elles tirent en sens contraires, et c'est précisément ce qui les rend utiles : chaque candidate pouvait être écartée en nommant celle qu'elle violait. Le soulignement passait pour une erreur d'impression ; retirer l'italique choquait. Aucun de ces rejets n'a exigé un débat de goût.",
+          "flavor": "Deux phrases, et chaque variante suivante se jugeait en quelques secondes."
+        },
+        {
+          "title": "Calibrez un seuil perceptif empiriquement, dans la plus petite unité disponible",
+          "rules": "Une fois le décalage des lettres retenu, restait la question de l'ampleur : ils l'ont réduit pixel par pixel, encore et encore, jusqu'à le poser exactement là où l'œil glisse dessus en lecture courante mais le voit nettement à l'examen. On n'atteint pas ce nombre par le raisonnement. On ne peut l'approcher que d'un côté et s'arrêter quand les deux comportements tiennent.",
+          "flavor": "La distance parfaite a été trouvée en la réduisant jusqu'à ce qu'elle n'y soit presque plus."
+        },
+        {
+          "title": "Découpez le secret pour qu'aucune pièce seule ne vaille rien",
+          "rules": "Le message a été disposé en grille de quatre colonnes écrite verticalement : chaque porte porte quatre lettres et aucune ne porte un mot entier. Le message n'est lisible qu'une fois les portes rangées dans le bon ordre. Répartir un secret ainsi fait qu'en posséder une part ne donne rien, et que les posséder toutes exige encore de connaître l'ordre — deux barrières distinctes pour une seule décision de mise en page.",
+          "flavor": "Quatre lettres par carte, et pas une qui épelle quoi que ce soit."
+        },
+        {
+          "title": "Ceux qui font le travail réduisent le périmètre ; l'élargir doit venir d'ailleurs",
+          "rules": "Le plan initial était l'anglais seul, pour une raison honnête : aucun des deux ne savait si cela pouvait être traduit ni ce que cela coûterait. Face à une facture inconnue, ceux qui font le travail resserrent le périmètre, comme toujours. Il a fallu quelqu'un d'extérieur — intéressé par la portée plutôt que par la livraison — pour imposer les onze langues.",
+          "flavor": "Deux questions sans réponse, donc la réponse fut « anglais seulement »."
+        },
+        {
+          "title": "Le travail supplémentaire passe bien quand c'est le même plaisir que le travail",
+          "rules": "Les équipes de localisation avaient fini et étaient passées à d'autres projets quand une exigence nouvelle et tardive leur est tombée dessus. Elles n'ont pas râlé : elles se sont enthousiasmées, car ce qu'on leur donnait était une énigme à elles — comment cacher ce message dans ma langue ? Chacune a fini par reformuler des textes d'ambiance pour produire les lettres voulues. Le travail imprévu se supporte à proportion de sa ressemblance avec ce qui a donné envie du métier.",
+          "flavor": "Tous ceux qui ont touché l'énigme se sont vu remettre une énigme."
+        },
+        {
+          "title": "Dimensionnez le budget d'indices d'après ce que le public a déjà trouvé",
+          "rules": "En interne on craignait que ce soit trop subtil pour être remarqué. La réponse de Doug venait d'années d'observation de cette communauté : acharnée, dotée d'une intelligence collective, et à peu près rien ne lui échappe. Le plan de révélation fut donc : presque aucun indice. Ce n'est pas de l'optimisme, c'est une estimation bâtie sur des précédents concernant un public précis, et elle peut être faite avec soin.",
+          "flavor": "Dans les bureaux, on en parlait à peine, comme si en parler allait l'ébruiter."
+        },
+        {
+          "title": "Un signal réparti sur plusieurs sorties n'est détectable que si assez d'exemplaires coexistent",
+          "rules": "Les décalages étaient sur les portes de la première extension et personne n'en a rien conclu : les lettres ont probablement été vues et prises pour des coquilles. C'est la deuxième extension, où cinq portes ont été révélées d'un coup, qui a fait déclic : soit le second lot a confirmé le motif, soit voir cinq exemplaires côte à côte a suffi. La détection dépend du nombre d'occurrences que le public peut tenir ensemble, pas du nombre que vous avez publié.",
+          "flavor": "Une lettre décalée est une coquille. Cinq sur une page, c'est un message."
+        },
+        {
+          "title": "Une fois que le public sait que le jeu existe, le calendrier en fait partie",
+          "rules": "La première révélation a lâché les cinq portes d'un coup, et c'est ce qui a rendu l'énigme trouvable. Pour l'extension finale, la communauté étant déjà à l'affût, ils ont sorti une porte par jour, étirant la résolution pour ceux qui cherchaient chez eux. Le même matériau peut être livré pour être découvert ou livré pour être joué, et lequel vous voulez change une fois le secret éventé.",
+          "flavor": "Dix portes, une par jour, pour un public qui savait déjà ce qu'il regardait."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Embutindo um quebra-cabeça",
+      "dek": "Como uma mensagem secreta foi escondida em vinte e cinco Portões de guilda e onze idiomas, usando apenas letras deslocadas alguns pixels da linha de base.",
+      "overview": "Doug Beyer queria um quebra-cabeça enterrado em Ravnica e sabia que não conseguiria construí-lo sozinho, então chamou o gerente de regras, que por acaso é um enigmista sério. A arte e os textos de ambientação já existiam, então a solução teve de ser feita com o que havia: quatro letras por Portão de guilda, nenhuma palavra completa em carta alguma, legível só quando os portões são postos na ordem das guildas. O resto da história é calibragem: o quanto uma letra pode se deslocar antes de ser lida como erro, e o quão pouco dá para insinuar antes de o público parar de achar. Eles quase não insinuaram, e a comunidade achou em todos os idiomas.",
+      "takeaway": "Tudo aqui foi decidido por duas restrições escritas cedo — visível a olho nu, não confundível com erro de impressão — e por uma leitura correta de quão meticuloso o público de fato é.",
+      "lessons": [
+        {
+          "title": "Uma ideia que chega depois de o conteúdo estar fixado precisa ser feita com o conteúdo",
+          "rules": "Quando o quebra-cabeça foi proposto, a coleção estava em desenvolvimento e a arte e os textos já existiam. Então o método não foi cifra nem camada nova, e sim uma ofuscação simples de letras que seriam impressas de qualquer jeito. Quando você chega tarde, pare de procurar espaço para acrescentar e comece a olhar o que já está lá em busca de algo que dê para usar duas vezes.",
+          "flavor": "Sem codificação. Sem cifra. Só letras que já estavam na carta."
+        },
+        {
+          "title": "Ache a pessoa cujo passatempo é o seu problema",
+          "rules": "Ele tinha o conceito e soube na hora que não conseguiria executá-lo, então foi atrás de um colaborador — e achou dentro do prédio, num cargo sem relação óbvia com a tarefa. O gerente de regras também era um fabricante devoto de quebra-cabeças. Habilidades ficam em pessoas, não em títulos, e o especialista de que você precisa para um trabalho pontual costuma já estar na folha, fazendo outra coisa.",
+          "flavor": "«Entusiasta de quebra-cabeças» talvez seja uma expressão tímida demais."
+        },
+        {
+          "title": "Escreva as duas restrições que se opõem",
+          "rules": "Antes de escolher a técnica, fixaram duas regras: tem de ser visível a olho nu, e não pode parecer erro numa olhada rápida. Elas puxam em sentidos opostos, e é justamente isso que as torna úteis: cada candidata podia ser rejeitada nomeando qual delas violava. Sublinhar parecia erro de impressão; tirar o itálico soava esquisito. Nenhuma dessas rejeições precisou de discussão de gosto.",
+          "flavor": "Duas frases, e dali em diante cada variação se julgava em segundos."
+        },
+        {
+          "title": "Calibre um limiar perceptivo empiricamente, na menor unidade que você tiver",
+          "rules": "Definido o deslocamento das letras, a pergunta era de quanto — então reduziram pixel a pixel, repetidas vezes, até deixá-lo exatamente onde o olho do leitor escorrega por cima na leitura normal mas o vê claramente ao examinar. Não se chega a esse número raciocinando. Só dá para se aproximar por um lado e parar quando os dois comportamentos se sustentam.",
+          "flavor": "A distância perfeita foi achada encolhendo-a até quase não estar lá."
+        },
+        {
+          "title": "Reparta o segredo para que nenhuma peça sozinha valha nada",
+          "rules": "A mensagem foi disposta como uma grade de quatro colunas escrita na vertical: cada portão carrega quatro letras e nenhum carrega palavra completa. A mensagem só é legível quando os portões são postos na ordem certa. Repartir um segredo assim faz com que ter uma parte não dê nada e ter todas ainda exija saber a ordem — duas barreiras distintas a partir de uma decisão de diagramação.",
+          "flavor": "Quatro letras por carta, e nenhuma delas soletra coisa alguma."
+        },
+        {
+          "title": "Quem faz o trabalho reduz o escopo; ampliar tem de vir de fora",
+          "rules": "O plano original era só em inglês, e o motivo era incerteza honesta: nenhum dos dois sabia se dava para traduzir nem quanto custaria. Diante de uma conta desconhecida, quem faz o trabalho estreita o escopo, que é o que sempre faz. Foi preciso alguém de fora do trabalho — interessado em alcance, não em entrega — para insistir nos onze idiomas.",
+          "flavor": "Duas perguntas que ninguém sabia responder, então a resposta foi «só inglês»."
+        },
+        {
+          "title": "Trabalho extra cai bem quando é o mesmo prazer que o trabalho",
+          "rules": "As equipes de localização tinham terminado e já estavam em outros projetos quando receberam um requisito novo e tardio. Não ficaram irritadas; ficaram encantadas, porque o que lhes deram foi um quebra-cabeça próprio: como escondo esta mensagem no meu idioma? Cada uma acabou reescrevendo textos de ambientação para produzir as letras necessárias. Trabalho imprevisto é tolerável na medida em que se parece com o motivo pelo qual as pessoas aceitaram o cargo.",
+          "flavor": "Todo mundo que encostou no quebra-cabeça recebeu um quebra-cabeça."
+        },
+        {
+          "title": "Dimensione o orçamento de pistas pelo que o público já achou antes",
+          "rules": "Havia preocupação interna de que fosse sutil demais para ser notado. A resposta de Doug vinha de anos observando essa mesma comunidade: são obstinados, têm mente coletiva e quase nada lhes escapa. Então o plano de revelação foi quase nenhuma pista. Isso não é otimismo: é uma estimativa construída sobre evidência anterior a respeito de um público específico, e dá para fazê-la com cuidado.",
+          "flavor": "Dentro do prédio mal se falava disso, como se falar já deixasse escapar."
+        },
+        {
+          "title": "Um sinal espalhado por lançamentos só é detectável quando há o bastante presente ao mesmo tempo",
+          "rules": "Os deslocamentos estavam nos portões da primeira coleção e ninguém concluiu nada: as letras provavelmente foram vistas e descartadas como erros. Foi a segunda coleção, em que cinco portões foram revelados de uma vez, que fez a ficha cair: ou o segundo lote confirmou o padrão, ou bastou ver cinco lado a lado numa página. A detecção depende de quantas ocorrências o público consegue segurar ao mesmo tempo, não de quantas você publicou.",
+          "flavor": "Uma letra deslocada é um erro de digitação. Cinco numa página é uma mensagem."
+        },
+        {
+          "title": "Depois que o público sabe que o jogo existe, o calendário passa a fazer parte dele",
+          "rules": "A primeira revelação soltou os cinco portões de uma vez, e foi isso que tornou o quebra-cabeça achável. Para a coleção final, com a comunidade já caçando, soltaram um portão por dia, esticando a resolução para quem estava em casa trabalhando nela. O mesmo material pode ser entregue para ser descoberto ou entregue para ser brincado, e qual dos dois você quer muda depois que o segredo sai.",
+          "flavor": "Dez portões, um por dia, para um público que já sabia o que estava olhando."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "把一道谜题嵌进去",
+      "dek": "一条秘密讯息如何被藏进二十五张公会门、十一种语言里——所用的手段，只是让几个字母偏离基线几个像素。",
+      "overview": "道格·拜尔想在拉尼卡里埋一道谜题，也清楚自己造不出来，于是找上了规则主管——那位恰好是个认真的谜题爱好者。美术与背景叙述文都已经定稿，所以解法只能用现成的东西做出来：每张公会门四个字母，任何一张牌上都不出现完整单词，唯有把这些门按公会顺序排好才读得出来。故事余下的部分全是校准：一个字母能偏多远才不至于被当成印刷错误，以及提示可以少到什么程度而观众仍找得到。他们几乎没有给任何提示，而社群把每一种语言里的都找了出来。",
+      "takeaway": "这里的一切，都由两条早早写下的约束决定——肉眼可见、不会被误认成印错——以及一次对「这批观众到底有多锲而不舍」的准确判断。",
+      "lessons": [
+        {
+          "title": "在内容定稿之后才到来的想法，必须用这些内容做出来",
+          "rules": "这道谜题被提出来时，系列已进入开发，美术与背景叙述文都已存在。于是方法既不是密码也不是加一层，而是对那些反正都会印出来的字母做一次简单的遮掩。当你来得晚，就别再找地方添东西，改为盯着已经在那里的东西，找出哪一样可以被用两次。",
+          "flavor": "没有编码，没有密码，只有本来就印在牌上的字母。"
+        },
+        {
+          "title": "去找那个「业余爱好正好是你的难题」的人",
+          "rules": "他有了概念，也立刻明白自己执行不了，于是去找合作者——而且在自家楼里找到了，那人所在的岗位与这件事没有任何显然的关联：规则主管同时是个虔诚的谜题制作者。技能长在人身上，不在职位名称上；你为一次性任务所需的那位专家，往往已经在工资单上，正做着别的事。",
+          "flavor": "「谜题爱好者」这个说法，也许还太保守了。"
+        },
+        {
+          "title": "把两条互相冲突的约束写下来",
+          "rules": "在选定手法之前，他们先定下两条规则：必须肉眼可见；扫一眼时不能像是个错误。这两条拉向相反方向，而这恰恰是它们有用的地方——此后每一个候选方案都能靠「它违反了哪一条」被否掉。下划线看着像印刷故障；取消斜体则很刺眼。这两次否决都不需要一场关于品味的争论。",
+          "flavor": "两句话，此后每一个变体都能在几秒钟内被判定。"
+        },
+        {
+          "title": "用你手上最小的单位，靠实测去校准一个知觉阈值",
+          "rules": "确定了让字母偏移之后，问题变成偏多少，于是他们一个像素一个像素地往回收，反复调整，直到它恰好落在这样一个位置：正常阅读时读者的眼睛会滑过去，专门端详时又看得清清楚楚。这个数字推不出来。你只能从一侧逼近它，并在两种表现同时成立时停下。",
+          "flavor": "完美的距离，是靠把它一直缩小到几乎不存在才找到的。"
+        },
+        {
+          "title": "把秘密拆开，让任何单独一片都一文不值",
+          "rules": "讯息被排成一个竖写的四列网格：每张门带四个字母，没有一张门带着完整的单词。只有把这些门按正确顺序排好，讯息才读得出来。这样分配秘密，意味着拿到一片什么也得不到，而拿齐全部之后仍需知道排序——一次排版决定，换来两道彼此独立的门槛。",
+          "flavor": "每张牌四个字母，而没有一组能拼出任何东西。"
+        },
+        {
+          "title": "干活的人会把范围收小；把它放大得由别处来推",
+          "rules": "最初的方案只做英文，理由是诚实的不确定：两人都不知道它能不能被翻译，也不知道那要花多少工。面对一张金额未知的账单，做事的人会收紧范围——做事的人一向如此。最后是一位在这项工作之外的人，一位关心触达而非交付的人，坚持要把十一种语言都做了。",
+          "flavor": "两个没人答得上来的问题，于是答案成了「只做英文」。"
+        },
+        {
+          "title": "当额外的活儿就是同一种乐趣时，它落下来并不难受",
+          "rules": "本地化团队已经收工、转去别的项目，这时一项新的要求晚到了。他们没有不悦，反而很兴奋，因为交到他们手上的是一道属于他们自己的谜题：我要怎么把这条讯息藏进我的语言里？每一队最后都调整了背景叙述文的措辞，好凑出需要的那些字母。计划外的工作能被接受的程度，取决于它与「这些人当初为什么接下这份职业」有多像。",
+          "flavor": "每一个碰过这道谜题的人，都被递上了一道谜题。"
+        },
+        {
+          "title": "提示预算的大小，要按这批观众过去找到过什么来定",
+          "rules": "内部有人担心它太隐晦、根本不会被注意到。道格的反驳来自多年对同一个社群的观察：他们锲而不舍，有蜂群式的集体注意力，几乎没有什么能从他们眼皮底下溜走。于是揭示方案定为：几乎不给提示。这不是乐观，而是一份基于特定受众既往证据搭出来的估计，是可以认真做的。",
+          "flavor": "在公司内部大家都很少谈这件事，仿佛一开口就会泄出去。"
+        },
+        {
+          "title": "分散在多次发售里的信号，要等到同时在场的量够了才可能被察觉",
+          "rules": "第一个系列的门上就已经有那些偏移，却没有人得出结论——那些字母多半被看见了，然后被当成印错略过。真正让它成立的是第二个系列：五张门被一次性揭晓。或许是第二批印证了这个规律，或许仅仅是五张同时出现在一页上就够了。能否被察觉，取决于观众一次能同时握住多少个实例，而不是你一共发出去了多少。",
+          "flavor": "一个偏移的字母是错字。一页上五个，就是一条讯息。"
+        },
+        {
+          "title": "一旦观众知道这个游戏存在，发布节奏本身就成了游戏的一部分",
+          "rules": "第一次揭晓是五张门一次性放出，而正是这一点让谜题变得可被发现。到了最后一个系列，社群已经在主动搜寻，于是他们改成一天放一张门，把解谜的过程为在家里琢磨的人拉长。同样的材料，可以被当作「供人发现」来交付，也可以被当作「供人把玩」来交付；而在秘密曝光之后，你想要的是哪一种，就变了。",
+          "flavor": "十张门，一天一张，面对的是一批已经知道自己在看什么的观众。"
+        }
+      ]
+    }
+  }
+}
