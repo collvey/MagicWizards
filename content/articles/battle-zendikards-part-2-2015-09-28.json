@@ -1,0 +1,320 @@
+{
+  "id": "battle-zendikards-part-2-2015-09-28",
+  "slug": "battle-zendikards-part-2-2015-09-28",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-09-28",
+  "series": { "id": "battle-zendikards", "order": 2, "total": 2 },
+  "tags": ["battle-for-zendikar", "card-design", "lands", "awaken", "reprints"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/battle-zendikards-part-2-2015-09-28",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T05:30:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "R" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Battle Zendikards, Part 2",
+      "dek": "What do two- and three-colour decks have more of than four- and five-colour decks? Basic lands. That answer designed the whole cycle.",
+      "overview": "More card-by-card from Battle for Zendikar: the miniature made by multiplying by two-thirds, ramping up in the right order, and the Ghostfire that isn't.",
+      "takeaway": "\"The solution came by reexamining the intended target. What do two- and three-color decks have more of than four- and five-color decks? The answer was basic lands.\"",
+      "lessons": [
+        {
+          "title": "Make the miniature by scaling every number at once",
+          "rules": "When you want a smaller version of a beloved thing, don't redesign it — multiply. Take the existing card and apply the same fraction to every quantity on it. You get something recognisably the same shape at a new size, and the arithmetic does the design work for you.",
+          "flavor": "“Rise of the Eldrazi had a card called Dreamstone Hedron… I thought we needed something a little smaller, so we came up with the idea of doing a miniature version. We took the card as it is and then multiplied every number by two-thirds.” And the consequence, cheerfully noted: “This, of course, means we're setting ourselves up for our next return to Zendikar to include a two-mana artifact.”"
+        },
+        {
+          "title": "A number that sums a concept lets people choose how to combine",
+          "rules": "An effect keyed to a total rather than a count creates a real trade: many cheap things or a few expensive ones, and the player decides. The reason it keeps appearing on one-off cards rather than becoming a mechanic is that nobody has yet picked which quantity to standardise on.",
+          "flavor": "“The ability is what I have dubbed ‘girth,' which is the use of a number that represents the sum of a singular concept—in this case, converted mana cost. Girth is interesting mechanically because it lets a player make a choice of how to combine other cards… The thing that I think keeps getting in our way is we want to keep girth open-ended. This card cares about converted mana costs, while this other card cares about power.”"
+        },
+        {
+          "title": "Read the other team's in-progress documents and take designs from them",
+          "rules": "Work happening in parallel elsewhere is a source, not just context. Somebody else's world document contains specific objects invented for their own reasons — and one of them will fit a hole you already have, giving you a design that satisfies your requirement and reinforces theirs at the same time.",
+          "flavor": "“While design is busy creating a card file, the story team is putting together a document that spells out the cosmology of the world… The story team came up with the idea that the goblins figured out there is some connection between the Eldrazi and the hedrons, so they started using pieces of the hedrons as arrowheads. On the design side, we knew we wanted some anti-Eldrazi cards… we realized that they would be a perfect fit.”"
+        },
+        {
+          "title": "Write the question on the board: what combines well with this?",
+          "rules": "For a mechanic that attaches to other effects, make the pairing an explicit exercise. Ask what situation makes the attachment most valuable, and the answer names the effect you should build it onto. Then ask the ordering question, because which half resolves first changes what's possible.",
+          "flavor": "“One day in a design meeting, I wrote a simple question on the board: What effects would combine nicely with awaken? Awaken animates a land. When would that be extra handy? How about when you have no other creatures? Even better, how about when no one has any other creatures? We wrote ‘mass creature kill' on the board.” Then: put the added effect second, per the editing convention — which happened to be exactly right here."
+        },
+        {
+          "title": "Solve a targeting problem by finding what the target has more of",
+          "rules": "When you want to help one group without helping another, don't try to describe the groups. Find a property they differ on and key the benefit to that. The right property is often something incidental that neither group thinks of as their defining trait.",
+          "flavor": "“We wanted good dual lands that helped two- and three-color decks but didn't easily enable four- and five-color decks… The solution came by reexamining the intended target. What do two- and three-color decks have more of than four- and five-color decks? The answer was basic lands. By caring about having basic lands, the dual cycle was able to thrive in the types of decks we wanted.”"
+        },
+        {
+          "title": "Ramp up in the order that maximises each step's excitement",
+          "rules": "If a feature can come in several magnitudes, the sequence matters as much as the destination. Going from one to two is an advance; going from one to three and later doing two is a retreat. Map the space so each release is the biggest step available from where the audience currently stands.",
+          "flavor": "“We had never made a landfall card with two effects. Before ramping up to three, how about we start with two? Remember, if we go from one to two, that's exciting. If we go from one to three and then later go to two, that's less exciting. Part of mapping out design space is trying to go in an order that maximizes the excitement of each new evolution.” Three also didn't fit in the text box."
+        },
+        {
+          "title": "Double the colour requirement to stop the splash",
+          "rules": "A powerful card at low rarity that only needs one of something will be taken by everyone regardless of what else they're doing. Requiring two of the same thing doesn't change the power — it changes who can reach it, which is usually what you actually wanted to control.",
+          "flavor": "After the first Pro Tour, “one takeaway was more people played red than any other color. A lot of the decks that had red only had one red card—Kaervek's Torch… I was determined to correct that mistake, so my common red X spell had two red mana in its cost to make it harder to splash… the idea of using double colored mana on powerful low-rarity cards did prove to be a valuable strategy.”"
+        },
+        {
+          "title": "Put the safeguard on the smaller class of cards",
+          "rules": "When a whole category needs protecting against one kind of abuse, ask which side of the interaction has fewer members. Attaching a clause to every large thing is a permanent tax on all of them; adjusting the handful of things that exploit them is one change that covers the same ground.",
+          "flavor": "“Why his original card in Rise of the Eldrazi had an anti-reanimation rider while the new version does not. The big answer is we've made a conscious choice to put the responsibility of reanimating giant creatures not on each giant creature but rather on the reanimation spells. That's why we've made them more expensive and moved them up in rarity. This felt like a better plan than having to add an extra clause onto every big creature.”"
+        },
+        {
+          "title": "Consistency outranks the beloved reference",
+          "rules": "A famous item everyone expects to see can still be wrong, if including it breaks the rule the audience is learning. Reskinning doesn't save it either, if the reskin can't meet the membership criteria. Ship the near-miss and be honest that the reference was close but not exact.",
+          "flavor": "Ghostfire inspired devoid, but “every single devoid card in the entire block is an Eldrazi… Throwing one non-Eldrazi devoid spell in the mix just led to awkward design.” Reskinning failed too: “we have rules about what makes a devoid card and Ghostfire didn't quite fit.” So Touch of the Void got a rider and shipped. “The potential future we saw in Future Sight was close to our reality, but off in a few ways.”"
+        },
+        {
+          "title": "Split a cycle across instalments when one is already overloaded",
+          "rules": "A complete set of parallel items doesn't have to arrive at once. If the current release is already dense in that category, ship part of the cycle now and finish it later — the promise is kept, the density stays manageable, and the follow-up gets something people are already waiting for.",
+          "flavor": "“Would Battle for Zendikar do the enemy cycle? The answer is yes, but only partially yes. Battle for Zendikar block will complete the cycle, but Battle for Zendikar itself only has two. Why stretch it across the block? Well, there were a lot of lands in Battle for Zendikar, and we wanted to save a few for Oath of the Gatewatch.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Cartas de Zendikar, parte 2",
+      "dek": "¿De qué tienen más los mazos de dos y tres colores que los de cuatro y cinco? De tierras básicas. Esa respuesta diseñó el ciclo entero.",
+      "overview": "Más carta a carta de Battle for Zendikar: la miniatura hecha multiplicando por dos tercios, escalar en el orden correcto, y el Ghostfire que no es.",
+      "takeaway": "«La solución vino de reexaminar el objetivo previsto. ¿De qué tienen más los mazos de dos y tres colores que los de cuatro y cinco? La respuesta eran las tierras básicas.»",
+      "lessons": [
+        {
+          "title": "Haz la miniatura escalando todos los números a la vez",
+          "rules": "Cuando quieras una versión más pequeña de algo querido, no lo rediseñes: multiplícalo. Coge la carta existente y aplica la misma fracción a cada cantidad. Obtienes algo reconociblemente de la misma forma a otro tamaño, y la aritmética hace el trabajo de diseño por ti.",
+          "flavor": "«Rise of the Eldrazi tenía una carta llamada Dreamstone Hedron… Pensé que necesitábamos algo un poco más pequeño, así que se nos ocurrió hacer una versión en miniatura. Cogimos la carta tal cual y multiplicamos cada número por dos tercios.» Y la consecuencia, anotada con alegría: «Esto, claro, significa que nos estamos preparando para que nuestro próximo regreso a Zendikar incluya un artefacto de dos manás.»"
+        },
+        {
+          "title": "Un número que suma un concepto deja que la gente elija cómo combinar",
+          "rules": "Un efecto ligado a un total en vez de a un recuento crea un intercambio real: muchas cosas baratas o pocas caras, y decide el jugador. La razón de que siga apareciendo en cartas sueltas en vez de convertirse en mecánica es que aún nadie ha elegido qué cantidad estandarizar.",
+          "flavor": "«La habilidad es lo que he bautizado como “corpulencia”: el uso de un número que representa la suma de un concepto singular, en este caso el coste de maná convertido. Es interesante porque deja al jugador elegir cómo combinar otras cartas… Lo que creo que se nos interpone es que queremos mantenerla abierta. Esta carta se fija en el coste convertido, mientras que esta otra se fija en la fuerza.»"
+        },
+        {
+          "title": "Lee los documentos en curso del otro equipo y saca diseños de ellos",
+          "rules": "El trabajo que ocurre en paralelo en otra parte es una fuente, no solo contexto. El documento de mundo de otro contiene objetos concretos inventados por sus propias razones; y uno de ellos encajará en un hueco que ya tienes, dándote un diseño que satisface tu requisito y refuerza el suyo a la vez.",
+          "flavor": "«Mientras el diseño está ocupado creando un archivo de cartas, el equipo de historia está montando un documento que detalla la cosmología del mundo… Al equipo de historia se le ocurrió que los trasgos descubrieron que hay alguna conexión entre los Eldrazi y los hedrones, así que empezaron a usar trozos de hedrón como puntas de flecha. Del lado del diseño, sabíamos que queríamos cartas anti-Eldrazi… nos dimos cuenta de que encajaban perfectamente.»"
+        },
+        {
+          "title": "Escribe la pregunta en la pizarra: ¿qué combina bien con esto?",
+          "rules": "Para una mecánica que se adhiere a otros efectos, haz del emparejamiento un ejercicio explícito. Pregunta qué situación hace más valioso el añadido, y la respuesta te nombra el efecto sobre el que construirlo. Luego plantea el orden, porque cuál mitad se resuelve antes cambia lo que es posible.",
+          "flavor": "«Un día, en una reunión de diseño, escribí una pregunta simple en la pizarra: ¿qué efectos combinarían bien con el despertar? El despertar anima una tierra. ¿Cuándo sería especialmente útil? ¿Qué tal cuando no tienes otras criaturas? Mejor aún: ¿cuando nadie tiene otras criaturas? Escribimos “matanza masiva de criaturas” en la pizarra.»"
+        },
+        {
+          "title": "Resuelve un problema de puntería buscando de qué tiene más el objetivo",
+          "rules": "Cuando quieras ayudar a un grupo sin ayudar a otro, no intentes describir los grupos. Encuentra una propiedad en la que difieran y liga el beneficio a eso. La propiedad adecuada suele ser algo incidental que ninguno de los dos considera su rasgo definitorio.",
+          "flavor": "«Queríamos buenas tierras duales que ayudaran a los mazos de dos y tres colores pero que no facilitaran los de cuatro y cinco… La solución vino de reexaminar el objetivo previsto. ¿De qué tienen más los mazos de dos y tres colores que los de cuatro y cinco? La respuesta eran las tierras básicas. Al fijarse en tener tierras básicas, el ciclo dual pudo prosperar en los tipos de mazo que queríamos.»"
+        },
+        {
+          "title": "Escala en el orden que maximice la emoción de cada paso",
+          "rules": "Si una función puede venir en varias magnitudes, la secuencia importa tanto como el destino. Pasar de uno a dos es un avance; pasar de uno a tres y luego hacer dos es un retroceso. Mapea el espacio para que cada entrega sea el mayor paso disponible desde donde el público está ahora.",
+          "flavor": "«Nunca habíamos hecho una carta de desembarco con dos efectos. Antes de escalar a tres, ¿qué tal si empezamos por dos? Recuerda: si vamos de uno a dos, eso emociona. Si vamos de uno a tres y luego hacemos dos, emociona menos. Parte de mapear el espacio de diseño es intentar ir en un orden que maximice la emoción de cada nueva evolución.»"
+        },
+        {
+          "title": "Duplica el requisito de color para frenar la salpicadura",
+          "rules": "Una carta potente en rareza baja que solo necesita una unidad de algo la cogerá todo el mundo, haga lo que haga. Exigir dos de lo mismo no cambia la potencia: cambia quién puede alcanzarla, que suele ser lo que de verdad querías controlar.",
+          "flavor": "Tras el primer Pro Tour, «una conclusión fue que más gente jugó rojo que cualquier otro color. Muchos de esos mazos solo tenían una carta roja: Kaervek's Torch… Estaba decidido a corregir ese error, así que mi hechizo X rojo común llevaba dos manás rojos en su coste para dificultar salpicarlo… la idea de usar maná coloreado doble en cartas potentes de rareza baja demostró ser una estrategia valiosa.»"
+        },
+        {
+          "title": "Pon la salvaguarda en la clase de cartas más pequeña",
+          "rules": "Cuando toda una categoría necesita protección contra cierto abuso, pregúntate qué lado de la interacción tiene menos miembros. Añadir una cláusula a cada cosa grande es un impuesto permanente sobre todas ellas; ajustar el puñado de cosas que las explotan es un solo cambio que cubre el mismo terreno.",
+          "flavor": "«Por qué su carta original en Rise of the Eldrazi tenía un añadido anti-reanimación y la nueva no. La respuesta grande es que hemos tomado la decisión consciente de poner la responsabilidad de reanimar criaturas gigantes no en cada criatura gigante sino en los hechizos de reanimación. Por eso los hemos encarecido y subido de rareza. Nos pareció mejor plan que añadir una cláusula extra a cada criatura grande.»"
+        },
+        {
+          "title": "La consistencia manda sobre la referencia querida",
+          "rules": "Un objeto famoso que todos esperan ver puede seguir estando mal, si incluirlo rompe la regla que el público está aprendiendo. Reskinearlo tampoco lo salva, si el reskin no cumple los criterios de pertenencia. Publica el casi-acierto y sé honesto: la referencia estaba cerca, pero no era exacta.",
+          "flavor": "Ghostfire inspiró la vacuidad, pero «cada una de las cartas con vacuidad del bloque entero es un Eldrazi… Meter un hechizo con vacuidad que no fuera Eldrazi solo llevaba a un diseño torpe.» Reskinearlo también falló: «tenemos reglas sobre qué hace a una carta con vacuidad y Ghostfire no encajaba del todo.» Así que Touch of the Void recibió un añadido y se publicó."
+        },
+        {
+          "title": "Reparte un ciclo entre entregas cuando una ya va sobrecargada",
+          "rules": "Un conjunto completo de piezas paralelas no tiene por qué llegar de golpe. Si la entrega actual ya es densa en esa categoría, publica parte del ciclo ahora y termínalo después: la promesa se cumple, la densidad sigue manejable, y la continuación recibe algo que la gente ya está esperando.",
+          "flavor": "«¿Haría Battle for Zendikar el ciclo enemigo? La respuesta es sí, pero solo parcialmente. El bloque completará el ciclo, pero Battle for Zendikar en sí solo tiene dos. ¿Por qué estirarlo por el bloque? Bueno, había muchas tierras en Battle for Zendikar, y queríamos guardar unas cuantas para Oath of the Gatewatch.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Cartes de Zendikar, partie 2",
+      "dek": "De quoi les decks à deux ou trois couleurs ont-ils plus que ceux à quatre ou cinq ? De terrains de base. Cette réponse a conçu tout le cycle.",
+      "overview": "Encore du carte par carte dans Battle for Zendikar : la miniature obtenue en multipliant par deux tiers, monter en puissance dans le bon ordre, et le Ghostfire qui n'en est pas un.",
+      "takeaway": "« La solution est venue en réexaminant la cible visée. De quoi les decks à deux ou trois couleurs ont-ils plus que ceux à quatre ou cinq ? La réponse : des terrains de base. »",
+      "lessons": [
+        {
+          "title": "Faites la miniature en mettant tous les nombres à l'échelle d'un coup",
+          "rules": "Quand vous voulez une version plus petite d'une chose aimée, ne la reconcevez pas : multipliez. Prenez la carte existante et appliquez la même fraction à chaque quantité. Vous obtenez la même forme reconnaissable à une autre taille, et l'arithmétique fait le travail de conception à votre place.",
+          "flavor": "« Rise of the Eldrazi avait une carte nommée Dreamstone Hedron… Il nous fallait quelque chose d'un peu plus petit : nous avons eu l'idée d'une version miniature. Nous avons pris la carte telle quelle et multiplié chaque nombre par deux tiers. » Et la conséquence, notée avec bonne humeur : « Cela veut dire, bien sûr, que nous nous préparons à inclure un artefact à deux manas lors du prochain retour. »"
+        },
+        {
+          "title": "Un nombre qui somme un concept laisse choisir comment combiner",
+          "rules": "Un effet indexé sur un total plutôt que sur un décompte crée un vrai arbitrage : beaucoup de choses bon marché ou quelques-unes chères, et le joueur tranche. S'il continue d'apparaître sur des cartes isolées plutôt que de devenir une mécanique, c'est que nul n'a encore choisi quelle quantité normaliser.",
+          "flavor": "« Cette capacité, je l'ai baptisée “corpulence” : l'usage d'un nombre représentant la somme d'un concept unique — ici le coût converti de mana. C'est intéressant car cela laisse le joueur choisir comment combiner d'autres cartes… Ce qui nous gêne, je crois, c'est que nous voulons la garder ouverte. Cette carte regarde les coûts convertis, cette autre la force. »"
+        },
+        {
+          "title": "Lisez les documents en cours de l'autre équipe et prenez-y des conceptions",
+          "rules": "Le travail mené en parallèle ailleurs est une source, non un simple contexte. Le document d'univers d'un autre contient des objets précis inventés pour ses propres raisons ; l'un d'eux comblera un trou que vous avez déjà, vous donnant une conception qui satisfait votre besoin tout en renforçant le sien.",
+          "flavor": "« Pendant que la conception fabrique un fichier de cartes, l'équipe narrative rédige un document exposant la cosmologie du monde… L'équipe narrative a imaginé que les gobelins avaient compris un lien entre les Eldrazi et les hédrons, et s'étaient mis à en utiliser des éclats comme pointes de flèche. Côté conception, nous voulions des cartes anti-Eldrazi… nous avons vu qu'elles collaient parfaitement. »"
+        },
+        {
+          "title": "Écrivez la question au tableau : qu'est-ce qui se marie bien avec ceci ?",
+          "rules": "Pour une mécanique qui se greffe sur d'autres effets, faites de l'appariement un exercice explicite. Demandez quelle situation rend l'ajout le plus précieux : la réponse nomme l'effet sur lequel le bâtir. Posez ensuite la question de l'ordre, car savoir quelle moitié se résout d'abord change le possible.",
+          "flavor": "« Un jour, en réunion, j'ai écrit une question simple au tableau : quels effets se marieraient bien avec l'éveil ? L'éveil anime un terrain. Quand cela serait-il particulièrement pratique ? Quand vous n'avez pas d'autres créatures ? Mieux : quand personne n'en a ? Nous avons écrit “destruction massive de créatures” au tableau. »"
+        },
+        {
+          "title": "Réglez un problème de ciblage en cherchant ce dont la cible a davantage",
+          "rules": "Quand vous voulez aider un groupe sans aider l'autre, n'essayez pas de décrire les groupes. Trouvez une propriété sur laquelle ils diffèrent et indexez le bénéfice dessus. La bonne propriété est souvent incidente : aucun des deux ne la considère comme son trait définitoire.",
+          "flavor": "« Nous voulions de bons bi-terrains aidant les decks à deux ou trois couleurs sans faciliter ceux à quatre ou cinq… La solution est venue en réexaminant la cible visée. De quoi les decks à deux ou trois couleurs ont-ils plus ? Des terrains de base. En s'intéressant à la possession de terrains de base, le cycle a pu prospérer dans les decks voulus. »"
+        },
+        {
+          "title": "Montez en puissance dans l'ordre qui maximise l'effet de chaque palier",
+          "rules": "Si une fonctionnalité peut venir en plusieurs magnitudes, la séquence compte autant que la destination. Passer de un à deux est une avancée ; passer de un à trois puis faire deux est un recul. Cartographiez l'espace pour que chaque sortie soit le plus grand pas disponible depuis là où se tient le public.",
+          "flavor": "« Nous n'avions jamais fait de carte à atterrissement avec deux effets. Avant de monter à trois, pourquoi ne pas commencer par deux ? Rappelez-vous : passer de un à deux, c'est excitant. Passer de un à trois puis revenir à deux, moins. Cartographier l'espace, c'est aussi choisir un ordre qui maximise l'excitation de chaque évolution. »"
+        },
+        {
+          "title": "Doublez l'exigence de couleur pour empêcher l'éclaboussure",
+          "rules": "Une carte puissante à basse rareté qui n'exige qu'une unité de quelque chose sera prise par tout le monde, quoi qu'ils fassent par ailleurs. Exiger deux fois la même chose ne change pas la puissance : cela change qui peut y accéder — ce que vous vouliez en réalité contrôler.",
+          "flavor": "Après le premier Pro Tour, « un enseignement : plus de gens jouaient le rouge que toute autre couleur. Beaucoup de ces decks n'avaient qu'une seule carte rouge — Kaervek's Torch… J'étais résolu à corriger cela : mon sort X rouge commun coûtait deux manas rouges pour être plus difficile à éclabousser… l'idée d'un double mana coloré sur les cartes puissantes de basse rareté s'est révélée précieuse. »"
+        },
+        {
+          "title": "Placez la protection sur la classe de cartes la plus petite",
+          "rules": "Quand toute une catégorie doit être protégée d'un abus, demandez quel côté de l'interaction compte le moins de membres. Ajouter une clause à chaque grosse chose est un impôt permanent sur toutes ; ajuster la poignée de choses qui les exploitent est un seul changement de même portée.",
+          "flavor": "« Pourquoi sa carte d'origine dans Rise of the Eldrazi avait une clause anti-réanimation et pas la nouvelle. La grande réponse : nous avons choisi de placer la responsabilité de réanimer les créatures géantes non sur chaque créature géante, mais sur les sorts de réanimation. D'où leur coût accru et leur montée en rareté. Cela nous a paru meilleur que d'ajouter une clause sur chaque grosse créature. »"
+        },
+        {
+          "title": "La cohérence prime sur la référence adorée",
+          "rules": "Un objet célèbre que tout le monde s'attend à voir peut rester une erreur, si l'inclure brise la règle que le public est en train d'apprendre. Le reskin ne le sauve pas davantage si le reskin ne remplit pas les critères d'appartenance. Livrez le presque-ça et dites honnêtement que la référence était proche, non exacte.",
+          "flavor": "Ghostfire a inspiré le vide, mais « toutes les cartes avec le vide du bloc entier sont des Eldrazi… Glisser un sort avec le vide non eldrazi menait à une conception bancale. » Le reskin échoua aussi : « nous avons des règles sur ce qui fait une carte avec le vide, et Ghostfire n'y entrait pas tout à fait. »"
+        },
+        {
+          "title": "Étalez un cycle sur plusieurs volets quand l'un est déjà surchargé",
+          "rules": "Un ensemble complet de pièces parallèles n'a pas à arriver d'un coup. Si la sortie actuelle est déjà dense dans cette catégorie, livrez une partie maintenant et finissez plus tard : la promesse tient, la densité reste gérable, et la suite hérite de quelque chose que l'on attend déjà.",
+          "flavor": "« Battle for Zendikar ferait-elle le cycle ennemi ? Oui, mais seulement en partie. Le bloc complétera le cycle, mais Battle for Zendikar n'en a que deux. Pourquoi l'étaler ? Il y avait beaucoup de terrains dans Battle for Zendikar, et nous voulions en garder quelques-uns pour Oath of the Gatewatch. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Cartas de Zendikar, parte 2",
+      "dek": "Do que os decks de duas e três cores têm mais que os de quatro e cinco? Terrenos básicos. Essa resposta projetou o ciclo inteiro.",
+      "overview": "Mais carta a carta de Battle for Zendikar: a miniatura feita multiplicando por dois terços, escalar na ordem certa, e o Ghostfire que não é.",
+      "takeaway": "“A solução veio de reexaminar o alvo pretendido. Do que os decks de duas e três cores têm mais que os de quatro e cinco? A resposta eram terrenos básicos.”",
+      "lessons": [
+        {
+          "title": "Faça a miniatura escalando todos os números de uma vez",
+          "rules": "Quando quiser uma versão menor de algo querido, não redesenhe: multiplique. Pegue a carta existente e aplique a mesma fração a cada quantidade. Você fica com algo reconhecivelmente da mesma forma em outro tamanho, e a aritmética faz o trabalho de design por você.",
+          "flavor": "“Rise of the Eldrazi tinha uma carta chamada Dreamstone Hedron… Achei que precisávamos de algo um pouco menor, então tivemos a ideia de fazer uma versão em miniatura. Pegamos a carta como estava e multiplicamos cada número por dois terços.” E a consequência, anotada com bom humor: “Isso, claro, significa que estamos nos preparando para incluir um artefato de dois manas no próximo retorno.”"
+        },
+        {
+          "title": "Um número que soma um conceito deixa as pessoas escolherem como combinar",
+          "rules": "Um efeito atrelado a um total em vez de a uma contagem cria uma troca real: muitas coisas baratas ou poucas caras, e quem decide é o jogador. O motivo de aquilo seguir aparecendo em cartas avulsas em vez de virar mecânica é que ninguém escolheu ainda qual quantidade padronizar.",
+          "flavor": "“A habilidade é o que apelidei de ‘corpulência': o uso de um número que representa a soma de um conceito singular — neste caso, o custo de mana convertido. É interessante porque deixa o jogador escolher como combinar outras cartas… O que acho que atrapalha é querermos mantê-la aberta. Esta carta liga para custos convertidos, aquela outra liga para poder.”"
+        },
+        {
+          "title": "Leia os documentos em andamento da outra equipe e tire designs deles",
+          "rules": "O trabalho que corre em paralelo em outro lugar é uma fonte, não só contexto. O documento de mundo de outra pessoa contém objetos específicos inventados pelas razões dela; e um deles vai encaixar num buraco que você já tem, dando um design que satisfaz o seu requisito e reforça o dela ao mesmo tempo.",
+          "flavor": "“Enquanto o design monta um arquivo de cartas, a equipe de história monta um documento que detalha a cosmologia do mundo… A equipe de história teve a ideia de que os goblins descobriram uma conexão entre os Eldrazi e os hédrons, e passaram a usar pedaços de hédron como pontas de flecha. Do lado do design, sabíamos que queríamos cartas anti-Eldrazi… percebemos que seriam um encaixe perfeito.”"
+        },
+        {
+          "title": "Escreva a pergunta no quadro: o que combina bem com isto?",
+          "rules": "Para uma mecânica que se acopla a outros efeitos, faça do pareamento um exercício explícito. Pergunte que situação torna o acréscimo mais valioso, e a resposta nomeia o efeito sobre o qual construí-lo. Depois faça a pergunta da ordem, porque qual metade resolve primeiro muda o que é possível.",
+          "flavor": "“Um dia, numa reunião de design, escrevi uma pergunta simples no quadro: que efeitos combinariam bem com despertar? Despertar anima um terreno. Quando isso seria especialmente útil? Que tal quando você não tem outras criaturas? Melhor ainda: quando ninguém tem outras criaturas? Escrevemos ‘matança em massa de criaturas' no quadro.”"
+        },
+        {
+          "title": "Resolva um problema de mira achando do que o alvo tem mais",
+          "rules": "Quando quiser ajudar um grupo sem ajudar outro, não tente descrever os grupos. Ache uma propriedade em que eles diferem e atrele o benefício a ela. A propriedade certa costuma ser algo incidental que nenhum dos dois considera seu traço definidor.",
+          "flavor": "“Queríamos bons terrenos duplos que ajudassem decks de duas e três cores mas não facilitassem os de quatro e cinco… A solução veio de reexaminar o alvo pretendido. Do que os decks de duas e três cores têm mais? Terrenos básicos. Ao se importar com ter terrenos básicos, o ciclo duplo pôde prosperar nos tipos de deck que queríamos.”"
+        },
+        {
+          "title": "Escale na ordem que maximiza a empolgação de cada passo",
+          "rules": "Se um recurso pode vir em várias magnitudes, a sequência importa tanto quanto o destino. Ir de um para dois é um avanço; ir de um para três e depois fazer dois é um recuo. Mapeie o espaço para que cada lançamento seja o maior passo disponível a partir de onde o público está.",
+          "flavor": "“Nunca tínhamos feito uma carta de aterrissar com dois efeitos. Antes de subir para três, que tal começar com dois? Lembre: ir de um para dois é empolgante. Ir de um para três e depois fazer dois é menos empolgante. Parte de mapear o espaço de design é tentar ir numa ordem que maximize a empolgação de cada nova evolução.”"
+        },
+        {
+          "title": "Dobre a exigência de cor para conter o respingo",
+          "rules": "Uma carta poderosa em raridade baixa que só precisa de uma unidade de algo será pega por todo mundo, faça o que fizer o resto do deck. Exigir duas da mesma coisa não muda o poder: muda quem consegue alcançá-la, que costuma ser o que você de fato queria controlar.",
+          "flavor": "Depois do primeiro Pro Tour, “uma conclusão foi que mais gente jogou vermelho do que qualquer outra cor. Muitos desses decks tinham apenas uma carta vermelha — Kaervek's Torch… Eu estava decidido a corrigir esse erro, então minha mágica X vermelha comum tinha dois manas vermelhos no custo, para ficar mais difícil de respingar.”"
+        },
+        {
+          "title": "Ponha a salvaguarda na classe menor de cartas",
+          "rules": "Quando uma categoria inteira precisa de proteção contra certo abuso, pergunte qual lado da interação tem menos membros. Acrescentar uma cláusula a cada coisa grande é um imposto permanente sobre todas elas; ajustar o punhado de coisas que as exploram é uma única mudança de mesmo alcance.",
+          "flavor": "“Por que a carta original dele em Rise of the Eldrazi tinha um adendo antirreanimação e a nova não. A grande resposta é que fizemos a escolha consciente de pôr a responsabilidade de reanimar criaturas gigantes não em cada criatura gigante, e sim nas mágicas de reanimação. Por isso as encarecemos e subimos de raridade.”"
+        },
+        {
+          "title": "Consistência vale mais que a referência querida",
+          "rules": "Um objeto famoso que todos esperam ver ainda pode estar errado, se incluí-lo quebra a regra que o público está aprendendo. Reskin também não salva, se o reskin não atende aos critérios de pertencimento. Publique o quase-acerto e seja honesto: a referência estava perto, mas não exata.",
+          "flavor": "Ghostfire inspirou o vazio, mas “cada uma das cartas com vazio do bloco inteiro é um Eldrazi… Jogar no meio uma mágica com vazio que não fosse Eldrazi só levava a um design esquisito.” O reskin também falhou: “temos regras sobre o que faz uma carta com vazio, e Ghostfire não se encaixava direito.”"
+        },
+        {
+          "title": "Divida um ciclo entre partes quando uma já está sobrecarregada",
+          "rules": "Um conjunto completo de peças paralelas não precisa chegar de uma vez. Se o lançamento atual já está denso naquela categoria, publique parte do ciclo agora e termine depois: a promessa se cumpre, a densidade fica administrável, e a continuação recebe algo que as pessoas já estão esperando.",
+          "flavor": "“Battle for Zendikar faria o ciclo inimigo? A resposta é sim, mas só parcialmente. O bloco vai completar o ciclo, mas Battle for Zendikar em si tem apenas dois. Por que espalhar pelo bloco? Bem, havia muitos terrenos em Battle for Zendikar, e queríamos guardar alguns para Oath of the Gatewatch.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "赞迪卡战牌（下）",
+      "dek": "双色和三色套牌，比四色和五色套牌多的是什么？基本地。这个答案设计出了整个循环。",
+      "overview": "《赞迪卡之战》更多逐张故事：把每个数字乘以三分之二做出的迷你版、按正确的顺序往上加码，以及那张「不是《幽魂焰》」的《虚空之触》。",
+      "takeaway": "「解法来自重新审视我们真正要瞄准的目标。双色和三色套牌，比四色和五色套牌多的是什么？答案是基本地。」",
+      "lessons": [
+        {
+          "title": "把所有数字一起按比例缩放，做出那个迷你版",
+          "rules": "当你想要一件受人喜爱之物的更小版本时，别去重新设计它——去做乘法。拿现成那张牌，把同一个分数应用到它上面的每一个数量上。你会得到一个「形状明显还是它、尺寸变了」的东西；而算术替你完成了设计工作。",
+          "flavor": "「《世界觉醒》里有一张牌叫《梦石奇岩》……我觉得我们需要小一点的东西，于是想到做一个迷你版本。我们照着这张牌，把每一个数字都乘以三分之二。」而它的后果，被愉快地记了下来：「当然，这意味着我们正在给自己挖坑：下次重返赞迪卡时，得包含一张两费的神器。」"
+        },
+        {
+          "title": "一个「把某个概念求和」的数字，让人们自己选择怎么组合",
+          "rules": "一个挂在「总和」而不是「个数」上的效果，创造出一次真实的取舍：许多便宜的，还是少数昂贵的——由玩家决定。而它之所以一直只出现在零散的单卡上、没能变成一个机制，是因为还没有人挑定要以哪一个量作为标准。",
+          "flavor": "「这个异能就是我起名叫『体量』的东西：使用一个代表某个单一概念之总和的数字——在这张牌上是总法术力费用。它在机制上有意思，因为它让玩家去选择如何组合其他的牌……我想一直挡在我们前面的，是我们想让『体量』保持开放。这张牌在乎总法术力费用，而另一张在乎力量。」"
+        },
+        {
+          "title": "去读别的团队正在进行中的文档，并从里面取用设计",
+          "rules": "在别处并行推进的工作是一处素材来源，而不只是背景。别人的世界观文档里，装着他们出于自己的理由发明出来的具体物件；而其中之一，会正好填上你早已存在的一个缺口——它给了你一份既满足自己需求、又同时强化了对方需求的设计。",
+          "flavor": "「在设计忙着做卡牌文件的同时，故事团队正在整理一份阐明这个世界宇宙观的文档……故事团队想出：鬼怪们发现奥札奇与奇岩之间存在某种联系，于是开始用奇岩的碎片做箭头。而在设计这一侧，我们知道自己想要一些能在机制上克制无色牌的反奥札奇牌……我们意识到它们简直是完美的契合。」"
+        },
+        {
+          "title": "把这个问题写到白板上：什么东西与它配得好？",
+          "rules": "对于一个「附着在其他效果之上」的机制，把配对这件事做成一次明确的练习。问：哪一种处境会让这份附加物最有价值？而答案就点出了你应该把它建在哪个效果上。然后再问顺序的问题——因为哪一半先结算，会改变什么是可能的。",
+          "flavor": "「有一天在设计会上，我在白板上写下一个简单的问题：什么效果会和觉醒配得好？觉醒把一块地变成生物。什么时候这会格外好用？比如当你没有别的生物的时候？更妙的是——当所有人都没有别的生物的时候？我们在白板上写下了『大规模消灭生物』。」"
+        },
+        {
+          "title": "通过「找出目标一方拥有更多的是什么」，来解决一个瞄准问题",
+          "rules": "当你想帮到一群人、又不想帮到另一群时，不要试图去描述这两群人。找出一项他们之间存在差异的性质，把好处挂在那上面。而正确的那项性质，往往是某样附带的东西——两群人都不会把它当作自己的定义性特征。",
+          "flavor": "「我们想要好的双色地，去帮到双色和三色套牌，却不轻易成全四色和五色套牌……解法来自重新审视我们真正要瞄准的目标。双色和三色套牌，比四色和五色套牌多的是什么？答案是基本地。通过让它在乎『你有基本地』，这组双色地得以在我们想要的那类套牌里茁壮起来。」"
+        },
+        {
+          "title": "按照「让每一步的兴奋度最大化」的顺序往上加码",
+          "rules": "如果一项功能可以有好几种量级，那么顺序和终点同样重要。从一到二是一次前进；而从一到三、之后再做二，则是一次后退。把这片空间画成地图，好让每一次发布都是「从观众当前所站的位置出发、可走出的最大的一步」。",
+          "flavor": "「我们从没做过带两个效果的登陆牌。在加码到三之前，何不先从二开始？记住：如果我们从一走到二，那令人兴奋。如果我们从一走到三、之后再去做二，那就没那么兴奋了。绘制设计空间地图的一部分，就是设法按一个『让每一次新演进的兴奋度都最大化』的顺序去走。」"
+        },
+        {
+          "title": "把颜色需求翻倍，以阻止溅射",
+          "rules": "一张低稀有度的强力牌，如果只需要一点某种东西，那么无论其他人在做什么，所有人都会把它拿走。要求两点同样的东西并不会改变它的强度——它改变的是「谁够得着它」；而那通常正是你真正想控制的。",
+          "flavor": "在第一届大奖赛之后，「一条结论是：玩红色的人比玩任何其他颜色的都多。而其中很多套牌里只有一张红牌——《卡尔维克火炬》……我下决心要纠正这个错误；于是我那张普通位的红色X咒语，费用里带了两点红，好让它更难被溅射……而『在低稀有度的强力牌上使用双色法术力』这个想法，确实被证明是一项有价值的策略。」"
+        },
+        {
+          "title": "把那道防护装在数量更少的那一类牌上",
+          "rules": "当一整个类别都需要防范某一种滥用时，问一句：这场互动的哪一侧成员更少？给每一件大东西都加上一条款项，是对它们所有人的一项永久性征税；而去调整那少数几件「利用它们」的东西，则是一次改动就覆盖了同一片范围。",
+          "flavor": "「为什么他在《世界觉醒》里的原版牌带有一条反复生的附加条款，而新版没有。主要的答案是：我们做了一个有意识的选择——把『复生巨型生物』这件事的责任，不放在每一个巨型生物身上，而是放在复生咒语身上。这就是我们把它们做得更贵、并提高稀有度的原因。比起在每一个大生物身上都加一条额外条款，这感觉是个更好的方案。」"
+        },
+        {
+          "title": "一致性的位阶高于那件人人喜爱的引用之物",
+          "rules": "一件所有人都期待看到的著名之物，仍然可能是错的——如果把它放进来，会打破观众正在学习的那条规则。而换皮也救不了它，如果换皮之后仍然满足不了成员资格的判据。那就把那个「差一点」的版本发出去，并诚实地说：那份引用很接近，但不精确。",
+          "flavor": "《幽魂焰》启发了虚无，但「整个环境里的每一张虚无牌都是奥札奇……往里面扔进一个非奥札奇的虚无咒语，只会导致别扭的设计。」换皮同样失败了：「我们对『什么才算一张虚无牌』是有规则的，而《幽魂焰》并不完全符合。」"
+        },
+        {
+          "title": "当其中一部已经超载时，把一个循环拆到几部作品里去",
+          "rules": "一组完整的平行部件，不必一次性全部到齐。如果当前这一部在那个类别上已经很密了，就现在发出循环的一部分、之后再补完：承诺仍然兑现了，密度保持在可控范围内，而后续那一部也拿到了一样「人们已经在等」的东西。",
+          "flavor": "「《赞迪卡之战》会做敌对色的那一组吗？答案是会，但只是部分地会。这个环境会补完这个循环；但《赞迪卡之战》本身只有两张。为什么要把它摊到整个环境上？因为《赞迪卡之战》里的地已经很多了，而我们想给《环旅护卫誓约》留几张。」"
+        }
+      ]
+    }
+  }
+}

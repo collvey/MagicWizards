@@ -1,0 +1,320 @@
+{
+  "id": "battle-zendikards-part-one-2015-09-21",
+  "slug": "battle-zendikards-part-one-2015-09-21",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-09-21",
+  "series": { "id": "battle-zendikards", "order": 1, "total": 2 },
+  "tags": ["battle-for-zendikar", "card-design", "devoid", "landfall", "reprints"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/battle-zendikards-part-one-2015-09-21",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T05:10:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Battle Zendikards, Part 1",
+      "dek": "You couldn't just take any card in the set, add devoid, and be done. So they wrote down the six ways a card could qualify as an Eldrazi.",
+      "overview": "Card-by-card from Battle for Zendikar, A through E: the devoid membership rules, landfall with a mana cost, and one card in a retired mechanic's space.",
+      "takeaway": "\"There is a big difference between a single card doing something and an entire mechanic doing something.\"",
+      "lessons": [
+        {
+          "title": "Write down what qualifies something for the label",
+          "rules": "A marker applied by feel gets applied inconsistently, and then it means nothing. Enumerate the ways an item can earn it — several routes, not one — so anyone on the team can check a candidate against the list and the audience can perceive a real category rather than a decoration.",
+          "flavor": "“We couldn't just take any card in the set, add devoid, and be done with it. A card with devoid had to feel like an Eldrazi. How did we decide what was good enough?” Six routes: be creature type Eldrazi; exile something; produce Scions; help colorless things; consume the opponent's exiled cards; or, for the simple non-wordy ones, just feel invasive."
+        },
+        {
+          "title": "A patch applied for balance can turn out to be a design tool",
+          "rules": "Look back at the awkward fixes you made to get something playable. Adding a cost to a trigger was a way of paying for a card that was too expensive to see play — but the same structure lets the trigger do far bigger things than it otherwise could. The compromise was hiding a capability.",
+          "flavor": "Seer's Sundial drew a card on landfall, was priced high, and wasn't getting played — “so we tweaked it by making you have to pay two when it triggered to get the card. This allowed us to make the card cheaper.” Years later: “Having to pay mana with landfall triggers meant that it could do bigger, splashier things. We experimented with it and found that our initial inclination was right, it opened up new design space.”"
+        },
+        {
+          "title": "Ask what the iconic object actually did, then find the effect that feels like it",
+          "rules": "For a top-down design of a famous prop, don't start from what it looks like — start from the one thing it is known to have done. Then try executions until one produces the same relationship, including what happens when it's undone.",
+          "flavor": "“We were back on Zendikar, so we felt we needed to have a card represent some hedrons… The big question we asked ourselves was what exactly do hedrons do? We knew of only one thing—the hedrons were used by Ugin, Sorin, and Nahiri to trap the Eldrazi… We ended up with the current version, because an Oblivion Ring–style effect did the best job of feeling like it was imprisoning the creature.”"
+        },
+        {
+          "title": "One card in a retired mechanic's space is fine; a mechanic is not",
+          "rules": "Retiring something because it played badly doesn't put the whole neighbourhood off limits. The problem was the frequency, not the effect — so a single instance can exist as a nod to the people who liked it, and the difference between one and many is the entire argument.",
+          "flavor": "“Since we're not doing annihilator, should we avoid cards that seem to occupy similar space? We debated this point in design and decided to keep it. The issue also came up in development—they then had a very similar discussion and also decided to keep it… The answer is that there is a big difference between a single card doing something and an entire mechanic doing something, and it was a little bone to throw the annihilator fans.”"
+        },
+        {
+          "title": "A word count can decide an apparently unrelated attribute",
+          "rules": "When the text is already long, every additional clause you'd need costs you an effect you wanted. So the seemingly separate question — what should this produce? — gets settled by the line budget, because the richer answer would drag a balancing clause in behind it.",
+          "flavor": "On the Blighted lands: “The reason the lands ended up producing a colorless mana is the cards were already wordy, and having them produce colored mana would require them to come into play tapped or have some additional cost like life payment. Either of those would have added an additional line on the card, which would have impacted the type of effects we could do.”"
+        },
+        {
+          "title": "The version that makes the resource bind is the one that creates the decision",
+          "rules": "A cost you can always pay isn't a cost. If every instance is a one-shot you happen to be able to afford, nobody ever chooses. Make one repeatable, and suddenly the supply is scarce, the timing matters, and the same mechanic becomes a thing to think about.",
+          "flavor": "“All the other Processors I had were one-shot enters-the-battlefield effects, and I was finding that I could always meet their exile cost. But then I drew Cryptic Cruiser, and with its repeatable effect, I found I wanted to use the ability every turn. But my opponent didn't have enough cards in exile, so I was forced to think through how and when to use my opponent's exile cards as a resource. I found that interaction very fun.”"
+        },
+        {
+          "title": "Remove a venue and its function has to be absorbed elsewhere",
+          "rules": "When you retire a product whose job was mostly one thing, that job doesn't disappear with it. Work out what it was quietly providing to the whole line, and deliberately loosen your rules elsewhere to make up the shortfall — otherwise the loss shows up as a slow deficit nobody attributes to the change.",
+          "flavor": "“I've spent less time talking about the impact of removing the core sets. We're making the same number of cards each year, but one big thing has gone way down: reprints. For most of its life, the core set was all reprints… We realized that if we want reprints in the game, we're going to have to be a little more liberal with using reprints in normal expansions.”"
+        },
+        {
+          "title": "A rider has to connect mechanically to the thing it's riding on",
+          "rules": "Bolting an extra effect onto a spell is easy and usually wrong. Ask what the added part needs in order to be worth having, and then choose base effects that supply exactly that. The pairing then reads as one idea rather than two things sharing a card.",
+          "flavor": "“When we add a rider, we like for the rider to mechanically connect with the rest of the spell. Well, what exactly works with animating a land? More than you might think.” Encircling Fissure is a one-sided Fog: “if you block with a creature, you have the ability to stop (and possibly destroy) an attacker without any threat of losing your creature. Awaken makes sure you have a creature to block with.”"
+        },
+        {
+          "title": "Sometimes the answer is to wait for the environment to move",
+          "rules": "An idea rejected as too strong isn't wrong forever — it's wrong at the current settings. If the surrounding baseline drifts over the years, the same design becomes ordinary. Keep the list, and check it against the world periodically rather than re-arguing it on the old terms.",
+          "flavor": "“I had wanted to just straight-up make a creature for X that was an X/X, but at the time it was considered too good. It took many years, but I finally got my X for an X/X. The key apparently was to wait until creatures got better, when X for an X/X just became more reasonable.”"
+        },
+        {
+          "title": "Choose the default that prevents the bad experience, and pay for the exception",
+          "rules": "When a mechanic could be used as an ambush, make the safe timing the rule rather than trusting each instance. If one part of the system needs the exception, grant it — and pay for it by making that part's version smaller, so the exception is bought rather than simply allowed.",
+          "flavor": "“For most of the awaken cards, we made them sorceries because we didn't want them to be surprise ambush cards. We made one exception, and that was in white. To offset this, we made the white awaken effects smaller.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Cartas de Zendikar, parte 1",
+      "dek": "No podías coger cualquier carta del bloque, añadirle vacuidad y listo. Así que escribieron las seis formas en que una carta podía calificar como Eldrazi.",
+      "overview": "Carta a carta de Battle for Zendikar, de la A a la E: las reglas de pertenencia de la vacuidad, el desembarco con coste de maná, y una carta en el espacio de una mecánica retirada.",
+      "takeaway": "«Hay una gran diferencia entre que una sola carta haga algo y que una mecánica entera lo haga.»",
+      "lessons": [
+        {
+          "title": "Escribe qué cualifica a algo para llevar la etiqueta",
+          "rules": "Un marcador aplicado a ojo se aplica de forma inconsistente, y entonces no significa nada. Enumera las maneras en que un elemento puede ganárselo —varias rutas, no una— para que cualquiera del equipo pueda contrastar un candidato con la lista y el público perciba una categoría real y no un adorno.",
+          "flavor": "«No podíamos coger cualquier carta del bloque, añadirle vacuidad y ya está. Una carta con vacuidad tenía que sentirse como un Eldrazi. ¿Cómo decidíamos qué era suficiente?» Seis rutas: ser del tipo de criatura Eldrazi; exiliar algo; producir Vástagos; ayudar a las cosas incoloras; consumir cartas exiliadas del oponente; o, para las sencillas y poco palabreras, simplemente resultar invasiva."
+        },
+        {
+          "title": "Un parche puesto por equilibrio puede resultar ser una herramienta de diseño",
+          "rules": "Repasa los arreglos incómodos que hiciste para que algo fuera jugable. Añadir un coste a un disparo era una forma de pagar por una carta demasiado cara para verse jugada; pero esa misma estructura permite que el disparo haga cosas mucho mayores. El apaño escondía una capacidad.",
+          "flavor": "Seer's Sundial robaba una carta con desembarco, era cara y no se jugaba, «así que lo ajustamos haciendo que tuvieras que pagar dos cuando se disparara para llevarte la carta. Eso nos permitió abaratarla». Años después: «Tener que pagar maná con los disparos de desembarco significaba que podía hacer cosas más grandes y llamativas… abrió nuevo espacio de diseño.»"
+        },
+        {
+          "title": "Pregunta qué hizo realmente el objeto icónico, y busca el efecto que se sienta así",
+          "rules": "Para un diseño descendente de un objeto famoso, no partas de su aspecto: parte de la única cosa que se sabe que hizo. Luego prueba ejecuciones hasta que una produzca la misma relación, incluyendo qué pasa cuando se deshace.",
+          "flavor": "«Volvíamos a Zendikar, así que sentíamos que hacía falta una carta que representara los hedrones… La gran pregunta que nos hicimos fue: ¿qué hacen exactamente los hedrones? Solo sabíamos una cosa: Ugin, Sorin y Nahiri los usaron para atrapar a los Eldrazi… Acabamos con la versión actual porque un efecto tipo Oblivion Ring era el que mejor transmitía que estaba encarcelando a la criatura.»"
+        },
+        {
+          "title": "Una carta en el espacio de una mecánica retirada está bien; una mecánica no",
+          "rules": "Retirar algo porque jugaba mal no pone todo el vecindario fuera de límites. El problema era la frecuencia, no el efecto; así que un único ejemplar puede existir como guiño a quienes lo apreciaban, y la diferencia entre uno y muchos es todo el argumento.",
+          "flavor": "«Ya que no vamos a hacer aniquilador, ¿deberíamos evitar cartas que parezcan ocupar un espacio similar? Debatimos el punto en diseño y decidimos conservarla. El asunto surgió también en desarrollo: tuvieron una discusión muy parecida y también decidieron conservarla… La respuesta es que hay una gran diferencia entre que una sola carta haga algo y que lo haga una mecánica entera.»"
+        },
+        {
+          "title": "Un recuento de palabras puede decidir un atributo en apariencia inconexo",
+          "rules": "Cuando el texto ya es largo, cada cláusula adicional que necesitarías te cuesta un efecto que querías. Así que la pregunta aparentemente aparte —¿qué debería producir esto?— la zanja el presupuesto de líneas, porque la respuesta más rica arrastraría detrás una cláusula de equilibrio.",
+          "flavor": "Sobre las tierras Malditas: «La razón de que acabaran produciendo maná incoloro es que las cartas ya eran palabreras, y hacer que produjeran maná coloreado habría exigido que entraran giradas o algún coste adicional como pagar vidas. Cualquiera de las dos habría añadido una línea más, lo que habría afectado al tipo de efectos que podíamos hacer.»"
+        },
+        {
+          "title": "La versión que hace escaso el recurso es la que crea la decisión",
+          "rules": "Un coste que siempre puedes pagar no es un coste. Si cada ejemplar es de un solo uso y da la casualidad de que puedes permitírtelo, nadie elige nunca. Haz uno repetible y de pronto la oferta escasea, el momento importa, y la misma mecánica se convierte en algo en lo que pensar.",
+          "flavor": "«Todos los demás Procesadores que tenía eran efectos de entrada de un solo uso, y me encontraba con que siempre podía cubrir su coste de exilio. Pero entonces robé Cryptic Cruiser y, con su efecto repetible, quería usar la habilidad cada turno. Pero mi oponente no tenía suficientes cartas en el exilio, así que me vi obligado a pensar cómo y cuándo usar sus cartas exiliadas como recurso.»"
+        },
+        {
+          "title": "Elimina un canal y su función tendrá que absorberse en otro sitio",
+          "rules": "Cuando retiras un producto cuyo trabajo era sobre todo una cosa, ese trabajo no desaparece con él. Averigua qué le estaba dando calladamente a toda la línea y afloja deliberadamente tus reglas en otra parte para cubrir el déficit; si no, la pérdida aparece como una carencia lenta que nadie atribuye al cambio.",
+          "flavor": "«He hablado menos del impacto de eliminar las colecciones básicas. Hacemos el mismo número de cartas cada año, pero una cosa grande ha bajado muchísimo: las reimpresiones. Durante casi toda su vida, la colección básica fueron todo reimpresiones… Nos dimos cuenta de que si queremos reimpresiones en el juego, vamos a tener que ser algo más liberales usándolas en las expansiones normales.»"
+        },
+        {
+          "title": "Un añadido tiene que conectar mecánicamente con aquello a lo que se añade",
+          "rules": "Atornillar un efecto extra a un hechizo es fácil y suele estar mal. Pregúntate qué necesita la parte añadida para merecer la pena, y luego elige efectos base que suministren exactamente eso. El emparejamiento se lee entonces como una idea y no como dos cosas compartiendo una carta.",
+          "flavor": "«Cuando añadimos un rider, nos gusta que conecte mecánicamente con el resto del hechizo. ¿Y qué funciona exactamente con animar una tierra? Más de lo que crees.» Encircling Fissure es un Fog unilateral: «si bloqueas con una criatura, puedes detener (y quizá destruir) a un atacante sin riesgo de perder la tuya. El despertar se asegura de que tengas una criatura con la que bloquear.»"
+        },
+        {
+          "title": "A veces la respuesta es esperar a que se mueva el entorno",
+          "rules": "Una idea rechazada por demasiado fuerte no está mal para siempre: está mal con los ajustes actuales. Si la línea base circundante se desplaza con los años, ese mismo diseño se vuelve corriente. Guarda la lista y contrástala periódicamente con el mundo, en vez de rediscutirla en los términos viejos.",
+          "flavor": "«Yo quería hacer directamente una criatura por X que fuera X/X, pero en su momento se consideró demasiado buena. Tardó muchos años, pero al fin conseguí mi X por un X/X. Al parecer la clave era esperar a que las criaturas mejoraran, cuando X por un X/X sencillamente se volvió más razonable.»"
+        },
+        {
+          "title": "Elige el valor por defecto que evita la mala experiencia, y paga por la excepción",
+          "rules": "Cuando una mecánica podría usarse como emboscada, haz que el momento seguro sea la regla en vez de confiar en cada ejemplar. Si una parte del sistema necesita la excepción, concédela; y págala haciendo más pequeña la versión de esa parte, de modo que la excepción se compre y no simplemente se permita.",
+          "flavor": "«En la mayoría de las cartas con despertar las hicimos conjuros, porque no queríamos que fueran cartas de emboscada sorpresa. Hicimos una excepción, y fue en blanco. Para compensarlo, hicimos más pequeños los efectos de despertar en blanco.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Cartes de Zendikar, partie 1",
+      "dek": "On ne pouvait pas prendre n'importe quelle carte, y coller le vide et en rester là. Ils ont donc écrit les six façons de se qualifier comme Eldrazi.",
+      "overview": "Carte par carte dans Battle for Zendikar, de A à E : les règles d'appartenance du vide, l'atterrissement à coût de mana, et une carte dans l'espace d'une mécanique retirée.",
+      "takeaway": "« Il y a une grande différence entre une seule carte qui fait quelque chose et une mécanique entière qui le fait. »",
+      "lessons": [
+        {
+          "title": "Écrivez ce qui qualifie une chose pour porter l'étiquette",
+          "rules": "Un marqueur posé au feeling est posé de façon incohérente, et alors il ne signifie plus rien. Énumérez les façons dont un élément peut le mériter — plusieurs voies, pas une — pour que chacun puisse confronter un candidat à la liste et que le public perçoive une vraie catégorie, non un ornement.",
+          "flavor": "« On ne pouvait pas prendre n'importe quelle carte de l'extension, y ajouter le vide et en rester là. Une carte avec le vide devait donner la sensation d'un Eldrazi. Comment décider de ce qui suffisait ? » Six voies : être du type Eldrazi ; exiler quelque chose ; produire des Rejetons ; aider les choses incolores ; consommer les cartes exilées de l'adversaire ; ou, pour les plus simples, paraître envahissante."
+        },
+        {
+          "title": "Un correctif d'équilibrage peut se révéler être un outil de conception",
+          "rules": "Revoyez les rustines maladroites posées pour rendre une chose jouable. Ajouter un coût à un déclenchement était une façon de payer une carte trop chère pour être jouée — mais la même structure permet au déclenchement de faire bien plus. Le compromis cachait une capacité.",
+          "flavor": "Seer's Sundial piochait sur atterrissement, coûtait cher et n'était pas jouée — « alors nous l'avons ajustée en exigeant deux manas au déclenchement pour obtenir la carte. Cela nous a permis de la rendre moins chère. » Des années plus tard : « Devoir payer du mana sur un déclenchement d'atterrissement signifiait qu'il pouvait faire des choses plus grosses… cela ouvrait un nouvel espace. »"
+        },
+        {
+          "title": "Demandez ce que l'objet iconique a réellement fait, puis trouvez l'effet qui y ressemble",
+          "rules": "Pour une conception descendante d'un accessoire célèbre, ne partez pas de son apparence : partez de la seule chose qu'on lui connaît. Puis essayez des exécutions jusqu'à ce que l'une produise la même relation — y compris ce qui arrive quand on la défait.",
+          "flavor": "« Nous revenions sur Zendikar : il nous fallait une carte représentant les hédrons… La grande question fut : que font au juste les hédrons ? Nous n'en connaissions qu'une chose — Ugin, Sorin et Nahiri s'en étaient servis pour piéger les Eldrazi… Nous avons retenu la version actuelle car un effet à la Oblivion Ring donnait le mieux la sensation d'emprisonner la créature. »"
+        },
+        {
+          "title": "Une carte dans l'espace d'une mécanique retirée, oui ; une mécanique, non",
+          "rules": "Retirer une chose parce qu'elle jouait mal ne met pas tout le quartier hors limites. Le problème était la fréquence, non l'effet : un exemplaire unique peut donc exister en clin d'œil à ceux qui l'aimaient, et la différence entre un et beaucoup est tout l'argument.",
+          "flavor": "« Puisque nous ne faisons pas l'annihilateur, devrions-nous éviter les cartes qui semblent occuper un espace voisin ? Nous en avons débattu en conception et décidé de la garder. La question s'est reposée en développement — même discussion, même décision… La réponse : il y a une grande différence entre une seule carte qui fait quelque chose et une mécanique entière qui le fait. »"
+        },
+        {
+          "title": "Un décompte de mots peut décider d'un attribut apparemment sans rapport",
+          "rules": "Quand le texte est déjà long, chaque clause supplémentaire nécessaire vous coûte un effet voulu. La question en apparence séparée — que doit produire ceci ? — est donc tranchée par le budget de lignes, car la réponse plus riche traînerait derrière elle une clause d'équilibrage.",
+          "flavor": "Sur les terrains Corrompus : « S'ils produisent du mana incolore, c'est que les cartes étaient déjà bavardes : produire du mana coloré aurait exigé qu'ils arrivent engagés ou un coût supplémentaire comme des points de vie. L'un ou l'autre aurait ajouté une ligne, ce qui aurait pesé sur le type d'effets possibles. »"
+        },
+        {
+          "title": "La version qui rend la ressource rare est celle qui crée la décision",
+          "rules": "Un coût qu'on peut toujours payer n'est pas un coût. Si chaque exemplaire est à usage unique et qu'on peut se le permettre, personne ne choisit jamais. Rendez-en un répétable : soudain l'offre est rare, le moment compte, et la même mécanique devient une chose à laquelle penser.",
+          "flavor": "« Tous les autres Traiteurs que j'avais étaient des effets d'arrivée à usage unique, et je pouvais toujours en payer le coût d'exil. Puis j'ai pioché Cryptic Cruiser : avec son effet répétable, je voulais l'utiliser chaque tour. Mais mon adversaire n'avait pas assez de cartes en exil : j'étais forcé de réfléchir à comment et quand utiliser ses cartes exilées comme ressource. »"
+        },
+        {
+          "title": "Supprimez un canal et sa fonction devra être absorbée ailleurs",
+          "rules": "Quand vous retirez un produit dont le rôle était surtout une chose, ce rôle ne disparaît pas avec lui. Cherchez ce qu'il fournissait discrètement à toute la gamme et relâchez délibérément vos règles ailleurs pour compenser — sinon la perte se manifeste en déficit lent que personne n'attribue au changement.",
+          "flavor": "« J'ai moins parlé de l'effet de la suppression des éditions de base. Nous faisons autant de cartes par an, mais une chose a beaucoup baissé : les rééditions. Presque toute sa vie, l'édition de base n'était que des rééditions… Nous avons compris que pour garder des rééditions dans le jeu, il faudrait être un peu plus libéraux dans les extensions normales. »"
+        },
+        {
+          "title": "Un ajout doit se relier mécaniquement à ce sur quoi il se greffe",
+          "rules": "Visser un effet en plus sur un sort est facile et généralement faux. Demandez ce dont la partie ajoutée a besoin pour valoir la peine, puis choisissez des effets de base qui fournissent exactement cela. L'appariement se lit alors comme une idée, non comme deux choses partageant une carte.",
+          "flavor": "« Quand nous ajoutons un rider, nous aimons qu'il se relie mécaniquement au reste du sort. Or que va bien avec animer un terrain ? Plus qu'on ne croit. » Encircling Fissure est un Fog unilatéral : « si vous bloquez avec une créature, vous pouvez arrêter (voire détruire) un attaquant sans risquer la vôtre. L'éveil garantit que vous ayez une créature pour bloquer. »"
+        },
+        {
+          "title": "Parfois la réponse est d'attendre que l'environnement bouge",
+          "rules": "Une idée refusée comme trop forte n'est pas fausse pour toujours : elle est fausse aux réglages actuels. Si la ligne de base dérive au fil des ans, la même conception devient ordinaire. Gardez la liste et confrontez-la périodiquement au monde, plutôt que de replaider dans les anciens termes.",
+          "flavor": "« Je voulais simplement faire une créature pour X qui soit une X/X, mais on jugeait cela trop fort à l'époque. Il a fallu des années, mais j'ai fini par avoir mon X pour une X/X. La clé était apparemment d'attendre que les créatures s'améliorent, moment où X pour une X/X est devenu raisonnable. »"
+        },
+        {
+          "title": "Choisissez le défaut qui évite la mauvaise expérience, et payez l'exception",
+          "rules": "Quand une mécanique pourrait servir d'embuscade, faites du timing sûr la règle plutôt que de vous fier à chaque exemplaire. Si une partie du système a besoin de l'exception, accordez-la — et payez-la en rendant sa version plus petite, pour que l'exception soit achetée et non simplement permise.",
+          "flavor": "« Pour la plupart des cartes à éveil, nous en avons fait des rituels, car nous ne voulions pas de cartes-embuscades. Nous avons fait une exception, en blanc. Pour compenser, nous avons rendu les effets d'éveil blancs plus petits. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Cartas de Zendikar, parte 1",
+      "dek": "Não dava para pegar qualquer carta da coleção, acrescentar vazio e pronto. Então escreveram as seis formas de uma carta se qualificar como Eldrazi.",
+      "overview": "Carta a carta de Battle for Zendikar, de A a E: as regras de pertencimento do vazio, aterrissar com custo de mana, e uma carta no espaço de uma mecânica aposentada.",
+      "takeaway": "“Há uma grande diferença entre uma única carta fazer algo e uma mecânica inteira fazer aquilo.”",
+      "lessons": [
+        {
+          "title": "Escreva o que qualifica algo para receber o rótulo",
+          "rules": "Um marcador aplicado no feeling é aplicado de forma inconsistente, e então não significa nada. Enumere as maneiras pelas quais um item pode conquistá-lo — várias rotas, não uma — para que qualquer um da equipe possa checar um candidato contra a lista e o público perceba uma categoria real, não um enfeite.",
+          "flavor": "“Não dava para pegar qualquer carta da coleção, acrescentar vazio e encerrar o assunto. Uma carta com vazio precisava parecer um Eldrazi. Como decidíamos o que era suficiente?” Seis rotas: ser do tipo Eldrazi; exilar algo; produzir Rebentos; ajudar coisas incolores; consumir as cartas exiladas do oponente; ou, nas simples e pouco verbosas, apenas parecer invasiva."
+        },
+        {
+          "title": "Um remendo feito por balanceamento pode se revelar uma ferramenta de design",
+          "rules": "Reveja os consertos desajeitados que você fez para deixar algo jogável. Acrescentar um custo a um gatilho era um jeito de pagar por uma carta cara demais para ser jogada — mas essa mesma estrutura deixa o gatilho fazer coisas bem maiores. O remendo escondia uma capacidade.",
+          "flavor": "Seer's Sundial comprava uma carta ao aterrissar, era cara e não era jogada — “então ajustamos fazendo você pagar dois quando o gatilho disparasse para pegar a carta. Isso nos permitiu baratear a carta.” Anos depois: “Ter de pagar mana com gatilhos de aterrissar significava que ele podia fazer coisas maiores e mais chamativas… abriu espaço de design novo.”"
+        },
+        {
+          "title": "Pergunte o que o objeto icônico de fato fez, e ache o efeito que soa como aquilo",
+          "rules": "Para um design de cima para baixo de um objeto famoso, não parta da aparência: parta da única coisa que se sabe que ele fez. Depois teste execuções até que uma produza a mesma relação, inclusive o que acontece quando ela é desfeita.",
+          "flavor": "“Estávamos de volta a Zendikar, então sentimos que precisávamos de uma carta representando os hédrons… A grande pergunta foi: o que exatamente os hédrons fazem? Só sabíamos de uma coisa — Ugin, Sorin e Nahiri os usaram para prender os Eldrazi… Ficamos com a versão atual porque um efeito estilo Oblivion Ring foi o que melhor passou a sensação de aprisionar a criatura.”"
+        },
+        {
+          "title": "Uma carta no espaço de uma mecânica aposentada tudo bem; uma mecânica, não",
+          "rules": "Aposentar algo porque jogava mal não coloca o bairro inteiro fora de alcance. O problema era a frequência, não o efeito; então um único exemplar pode existir como aceno a quem gostava, e a diferença entre um e muitos é o argumento inteiro.",
+          "flavor": "“Já que não vamos fazer aniquilador, deveríamos evitar cartas que parecem ocupar espaço parecido? Debatemos isso no design e decidimos manter. A questão voltou no desenvolvimento — tiveram discussão bem parecida e também decidiram manter… A resposta é que há uma grande diferença entre uma única carta fazer algo e uma mecânica inteira fazer aquilo.”"
+        },
+        {
+          "title": "Uma contagem de palavras pode decidir um atributo aparentemente sem relação",
+          "rules": "Quando o texto já é longo, cada cláusula extra de que você precisaria custa um efeito que você queria. Então a pergunta aparentemente separada — o que isto deve produzir? — é resolvida pelo orçamento de linhas, porque a resposta mais rica arrastaria atrás de si uma cláusula de balanceamento.",
+          "flavor": "Sobre os terrenos Devastados: “O motivo de acabarem produzindo mana incolor é que as cartas já eram verbosas, e fazê-las produzir mana colorido exigiria que entrassem viradas ou algum custo adicional, como pagamento de vida. Qualquer um dos dois teria acrescentado mais uma linha, o que afetaria o tipo de efeito que podíamos fazer.”"
+        },
+        {
+          "title": "A versão que torna o recurso escasso é a que cria a decisão",
+          "rules": "Um custo que você sempre consegue pagar não é um custo. Se todo exemplar é de uso único e por acaso você consegue arcar, ninguém escolhe nunca. Faça um deles repetível e de repente a oferta é escassa, o momento importa, e a mesma mecânica vira algo em que pensar.",
+          "flavor": "“Todos os outros Processadores que eu tinha eram efeitos de entrada de uso único, e eu percebia que sempre conseguia cobrir o custo de exílio. Mas então comprei Cryptic Cruiser e, com o efeito repetível dele, eu queria usar a habilidade todo turno. Só que meu oponente não tinha cartas suficientes no exílio, então fui forçado a pensar como e quando usar as cartas exiladas dele como recurso.”"
+        },
+        {
+          "title": "Remova um canal e a função dele terá de ser absorvida em outro lugar",
+          "rules": "Quando você aposenta um produto cujo trabalho era sobretudo uma coisa, esse trabalho não some com ele. Descubra o que ele vinha fornecendo em silêncio à linha inteira e afrouxe de propósito as suas regras em outro lugar para cobrir a falta — senão a perda aparece como um déficit lento que ninguém atribui à mudança.",
+          "flavor": "“Falei menos do impacto de remover as coleções básicas. Fazemos o mesmo número de cartas por ano, mas uma coisa grande despencou: as reimpressões. Durante quase toda a sua vida, a coleção básica era só reimpressão… Percebemos que, se quisermos reimpressões no jogo, vamos ter de ser um pouco mais liberais em usá-las nas expansões normais.”"
+        },
+        {
+          "title": "Um adendo precisa se conectar mecanicamente àquilo em que ele pega carona",
+          "rules": "Parafusar um efeito extra numa mágica é fácil e em geral errado. Pergunte do que a parte acrescentada precisa para valer a pena, e então escolha efeitos-base que forneçam exatamente isso. O par então se lê como uma ideia, e não como duas coisas dividindo uma carta.",
+          "flavor": "“Quando acrescentamos um adendo, gostamos que ele se conecte mecanicamente ao resto da mágica. E o que combina com animar um terreno? Mais do que se imagina.” Encircling Fissure é um Fog unilateral: “se você bloqueia com uma criatura, dá para parar (e talvez destruir) um atacante sem risco de perder a sua. Despertar garante que você tenha uma criatura para bloquear.”"
+        },
+        {
+          "title": "Às vezes a resposta é esperar o ambiente se mover",
+          "rules": "Uma ideia recusada por ser forte demais não está errada para sempre: está errada nos ajustes atuais. Se a linha de base ao redor deriva ao longo dos anos, o mesmo design vira comum. Guarde a lista e confira periodicamente contra o mundo, em vez de rediscuti-la nos termos antigos.",
+          "flavor": "“Eu queria simplesmente fazer uma criatura por X que fosse X/X, mas na época isso era considerado bom demais. Levou muitos anos, mas enfim consegui meu X por um X/X. Aparentemente a chave era esperar as criaturas melhorarem, quando X por um X/X simplesmente virou razoável.”"
+        },
+        {
+          "title": "Escolha o padrão que evita a experiência ruim, e pague pela exceção",
+          "rules": "Quando uma mecânica poderia ser usada como emboscada, faça do momento seguro a regra em vez de confiar em cada exemplar. Se uma parte do sistema precisa da exceção, conceda — e pague por ela deixando a versão daquela parte menor, para que a exceção seja comprada e não apenas permitida.",
+          "flavor": "“Na maioria das cartas com despertar, nós as fizemos feitiços, porque não queríamos cartas de emboscada surpresa. Abrimos uma exceção, e foi no branco. Para compensar, deixamos os efeitos de despertar brancos menores.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "赞迪卡战牌（上）",
+      "dek": "你不能随便拿这个系列里的任何一张牌，加上虚无，然后就算完事。于是他们写下了「一张牌可以凭哪六种方式算作奥札奇」。",
+      "overview": "《赞迪卡之战》逐张设计故事，A到E：虚无的成员资格规则、带法术力费用的登陆，以及一张落在已退休机制地盘上的牌。",
+      "takeaway": "「单独一张牌做某件事，和一整个机制做某件事，这两者之间有着巨大的差别。」",
+      "lessons": [
+        {
+          "title": "把「凭什么资格才能贴上这个标签」写下来",
+          "rules": "凭感觉贴上去的标记，贴得就不一致；而那样它就什么也不意味着。把「一件东西可以凭哪些方式挣得它」列举出来——是好几条路径，而不是一条——好让团队里任何人都能拿候选对象去对照这份清单；也好让观众感知到的是一个真实的类别，而不是一件装饰。",
+          "flavor": "「我们不能随便拿这个系列里的任何一张牌，加上虚无，然后就算完事。一张带虚无的牌必须让人觉得像奥札奇。我们是怎么判定『什么才够格』的？」六条路径：生物类别是奥札奇；放逐某样东西；产出探侍；以某种方式帮助无色的东西；消耗对手在放逐区里的牌；或者——对那些简单、字少的牌来说——单纯地让人觉得具有侵略性。"
+        },
+        {
+          "title": "一个为了平衡而打的补丁，可能后来成为一件设计工具",
+          "rules": "回头看看那些「为了让某样东西能被打出来」而做的别扭修补。给一个触发加上一份费用，本来是为了给一张「贵到没人玩」的牌找补；但同一套结构，也让这个触发能做比原本大得多的事。那次妥协里藏着一项能力。",
+          "flavor": "《预言者日晷》在登陆时抓一张牌，价格定得高，结果没人玩——「于是我们做了调整：触发时你要付两点，才能拿到那张牌。这让我们得以把这张牌做得更便宜。」多年之后：「『登陆触发时需要付法术力』意味着它可以做更大、更抢眼的事情……它打开了新的设计空间。」"
+        },
+        {
+          "title": "问一问这件标志性的物件到底做过什么，然后去找那个「感觉就是它」的效果",
+          "rules": "要为一件著名的道具做自上而下的设计，别从它长什么样出发——从「它被人所知的那件事」出发。然后一版版地试，直到某一版产生了同样的关系；包括「当它被解除时会发生什么」。",
+          "flavor": "「我们回到了赞迪卡，所以我们觉得需要有一张牌来代表奇岩……我们问自己的那个大问题是：奇岩到底是干什么的？我们只知道一件事——乌金、索霖和娜希丽用它们困住了奥札奇……我们最后选定了现在这个版本，因为一个《遗忘之环》式的效果，最能传达出『它正把这个生物囚禁起来』的感觉。」"
+        },
+        {
+          "title": "在一个已退休机制的地盘上放一张牌没问题；放一整个机制则不行",
+          "rules": "因为「玩起来不好」而退休掉某样东西，并不会把整片街区都划为禁地。当初的问题是频率，而不是那个效果本身；所以单独一个实例可以存在，作为送给喜欢它的人的一点心意——而「一张」与「很多张」之间的差别，就是全部的论据。",
+          "flavor": "「既然我们不做歼灭了，那我们是不是该避开那些看起来占据相似空间的牌？我们在设计阶段就此辩论过，并决定把它留下。这个问题在开发阶段又出现了一次——他们进行了非常相似的讨论，同样决定留下……答案是：单独一张牌做某件事，和一整个机制做某件事，这两者之间有着巨大的差别。」"
+        },
+        {
+          "title": "一份字数账，可能决定一项看似毫不相干的属性",
+          "rules": "当文本已经很长时，你所需要的每一条附加条款，都会花掉你一个原本想要的效果。于是那个看似另一码事的问题——「这东西应该产出什么？」——最终是由行数预算裁决的；因为那个更丰富的答案，会把一条用于平衡的条款一并拖进来。",
+          "flavor": "关于那些「荒废」的地：「这些地最后产出无色法术力的原因是：这些牌本来就已经字很多了；而要让它们产出有色法术力，就得让它们横置进场、或者加上诸如支付生命之类的额外代价。这两者中的任何一个，都会在牌上多加一行字；而那会影响到我们能做出什么样的效果。」"
+        },
+        {
+          "title": "那个「让资源真正吃紧」的版本，才是创造出抉择的那一个",
+          "rules": "一份你总能付得起的代价，不是代价。如果每一个实例都是一次性的、而你恰好总能负担得起，那就从来没有人做过选择。把其中一个做成可重复的，供给顿时变得稀缺，时机开始要紧；于是同一个机制变成了一件值得琢磨的事。",
+          "flavor": "「我手上其余的处理器全都是一次性的进场效果；而我发现自己总能满足它们的放逐成本。可后来我抽到了《谜面巡舰》；有了它那个可重复的效果，我发现自己每个回合都想用这个异能。但我的对手在放逐区里没有足够的牌，于是我被迫去思考：该如何、以及在什么时候，把对手被放逐的牌当作一种资源来用。」"
+        },
+        {
+          "title": "撤掉一个渠道，它的职能就必须被别处吸收",
+          "rules": "当你退休掉一个「其职责主要是某一件事」的产品时，那份职责并不会随它一起消失。弄清它此前在悄悄地为整条产品线提供着什么，并有意识地在别处放宽你的规矩来补上这个缺口；否则，这份损失会以一种「没人把它归因于这次改动」的缓慢赤字显现出来。",
+          "flavor": "「关于取消核心系列所带来的影响，我谈得比较少。我们每年做的牌张数量还是一样；但有一样东西大幅下降了：重印。在它生命的大部分时间里，核心系列全是重印……我们意识到：如果我们希望游戏里还有重印，那我们就得在常规扩充系列里更放开一些去使用它们。」"
+        },
+        {
+          "title": "附带条款必须在机制上与它所依附的那样东西连起来",
+          "rules": "在一个咒语上外挂一个额外效果，很容易，而且通常是错的。去问：这个被加上去的部分，需要什么才值得拥有？然后挑选那些恰好能提供这一点的基础效果。于是这对组合读起来就是一个念头，而不是两样东西合用一张牌。",
+          "flavor": "「当我们加上一条附带条款时，我们希望它在机制上与这个咒语的其余部分连得上。那么，究竟什么东西与『把一块地变成生物』相配？比你想的要多。」《环绕裂缝》是一个单向的『雾』：「如果你用一个生物去阻挡，你就有机会挡住（甚至消灭）一个攻击者，而完全不必担心失去自己的生物。而觉醒确保了你有一个可以用来阻挡的生物。」"
+        },
+        {
+          "title": "有时候答案是：等环境自己挪动",
+          "rules": "一个因为「太强」而被否掉的点子，并不是永远错的——它只是在当前的参数下是错的。如果周围的基准线在这些年里发生了漂移，同一个设计就变得平平无奇了。把这份清单留着，定期拿它去对照这个世界，而不是照着旧的说法再争一遍。",
+          "flavor": "「我一直想干脆做一个『费用为X、身材是X/X』的生物；但在当时，这被认为太强了。这花了很多年，但我终于拿到了我的『X换一个X/X』。看起来关键在于：等到生物整体变强之后——那时『X换一个X/X』就只是变得合情合理而已。」"
+        },
+        {
+          "title": "选那个能避免糟糕体验的默认值，并且为例外付费",
+          "rules": "当一个机制可能被拿来做伏击时，就把「安全的时点」定为规则，而不是去指望每一个实例自觉。如果系统的某一部分确实需要这个例外，那就批准它——并且通过把那一部分的版本做小来为它付账；这样，这个例外是被买下来的，而不只是被放行的。",
+          "flavor": "「对大多数带觉醒的牌，我们把它们做成了法术，因为我们不想让它们变成出其不意的伏击牌。我们开了一个例外，而那是在白色。作为抵消，我们把白色的觉醒效果做得更小。」"
+        }
+      ]
+    }
+  }
+}
