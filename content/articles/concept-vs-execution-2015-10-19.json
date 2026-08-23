@@ -1,0 +1,320 @@
+{
+  "id": "concept-vs-execution-2015-10-19",
+  "slug": "concept-vs-execution-2015-10-19",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-10-19",
+  "series": null,
+  "tags": ["devoid", "rules", "templating", "constraints", "battle-for-zendikar"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/concept-vs-execution-2015-10-19",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T03:45:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Concept vs. Execution",
+      "dek": "Why does devoid have to be the way it is? Because every other version of it we tried failed.",
+      "overview": "The gap between an idea and something that can actually be made, with devoid as the case study.",
+      "takeaway": "\"Concepts are great, but a concept without an execution is nothing more than a dream.\"",
+      "lessons": [
+        {
+          "title": "Imagination reliably produces things that cannot be built",
+          "rules": "Ask people for the best version of something and a large fraction of what comes back will be impossible to construct — not because they lacked taste, but because the constraints that make a thing stand up aren't visible from the outside. Expect the gap; the work is closing it.",
+          "flavor": "“Let's say you go out on the street, find 100 random people, and ask them to draw the coolest house they can think of… You then take these drawings to an architect and ask their opinion. What do you think would be the number one comment? Most likely, it would be that many of them look cool but couldn't actually be built. Why? Because a building has to have structural integrity.”"
+        },
+        {
+          "title": "A rule can be impossible because of the order things are evaluated in",
+          "rules": "Some perfectly sensible statement fails not on its meaning but on its dependency: it asks the system to consult an attribute that gets computed after the one it's setting. Nothing about reading it reveals this. When you work in space the rules have never had to handle, ask early.",
+          "flavor": "“Creatures you control with power 4 or greater have flying.” “When I showed this to our rules manager, he informed me that it couldn't be done. Why? Because of something called ‘layers'… If an effect creates a relationship between two attributes, the attribute being affected has to happen at a layer prior to the attribute being added. You determine flying before you determine a creature's power.”"
+        },
+        {
+          "title": "Weigh the change against the whole system, not against its own merit",
+          "rules": "A proposal can be coherent, well-understood in use, and still not worth it — because accommodating it means rebuilding the machinery everything else stands on. The question isn't whether the thing is good; it's whether the rework it forces is worth this one addition.",
+          "flavor": "Last strike happens after normal combat damage, as first strike happens before. “We had no problem playing with it. It's logically consistent, and we always knew what happened… but the rules manager at the time explained that adding last strike to the game would require a complete overhaul of how combat works… the work required and the impact of the change on the rest of the game wasn't worth it for the new mechanic.”"
+        },
+        {
+          "title": "Enumerate every gate an idea has to pass, and start killing things earlier",
+          "rules": "The ways a concept can die are numerous, unrelated to each other, and mostly owned by departments you don't sit in. List them, learn what each one refuses, and move those checks as early as you can — the cost of a rejection is proportional to how much has been built on top of it.",
+          "flavor": "The list: it doesn't work within the rules; it isn't worth the stress the rules change would require; it can't be templated; the text won't fit; it contradicts flavour; it has a developmental issue; it can't work digitally; it creates excessive digital problems; it breaks organized play; it has a brand issue; it has a legal issue. “We've started doing more work in design to address all these issues so we can kill things earlier if we know they're not going to work out.”"
+        },
+        {
+          "title": "Physical space is a design constraint like any other",
+          "rules": "How much room the finished object has is not a production detail to be handled later — it decides what the thing can be. Categories that would otherwise be obvious become unavailable because the line they'd have to go on is already full.",
+          "flavor": "“When we made the cycle of gods' items in Theros, many people questioned why we didn't make them Equipment, and the answer was because they were already legendary enchantment artifacts. We simply didn't have room on the card type line for the word ‘Equipment.'… A lot of people like to think of design as an open-ended blue sky capable of doing anything, but there are constraints that we must meet.”"
+        },
+        {
+          "title": "Split the presentation by where the thing is being used",
+          "rules": "When one object has to communicate two contradictory facts, check whether it needs to say both at the same moment. If the two audiences are looking at it in different places, the presentation can lean one way in the first context and the other way in the second.",
+          "flavor": "The requirement: “in your hand, they wanted the card to communicate that it required colored mana to cast, but on the battlefield, it had to be clear that the card was a colorless permanent. How could a card be ‘colored' in your hand and colorless in play?” Liz Leo's answer: “What if the card title looked like a title bar on a colored card but the rest of the card below it looked more like a colorless card?”"
+        },
+        {
+          "title": "Your audience's model may admit a state that yours forbids",
+          "rules": "Test the negative as well as the positive. People can answer your first question correctly and still hold a picture in which two mutually exclusive things are both true — and you'll never discover it by asking only whether they got the intended answer.",
+          "flavor": "“We then did another round of testing and found a new problem. When we showed new players the cards and asked, ‘Is this card colorless?' they said yes. But if we then asked, ‘Is this card red?' (for a devoid card with red in its mana cost), they also said yes. Players believed it was possible for cards to be both colorless and a color.”"
+        },
+        {
+          "title": "You can't depict an absence in the medium of the thing that's absent",
+          "rules": "A symbol built from a property cannot represent the lack of that property; every attempt just reads as one more instance of it. When the tests keep coming back the same way for structural reasons, stop iterating the symbol and go back to the other options.",
+          "flavor": "“It is near-impossible to convey with a colored circle the concept of colorlessness. If it's gray, it reads as gray. If it's brown, it reads as brown. If it's see-through, it reads as whatever color is in the art below it. We tried test after test, and it became clear that people just weren't getting it.”"
+        },
+        {
+          "title": "Naming a thing buys looser wording and a way to talk about it",
+          "rules": "Turning a property into a named keyword pays twice. The formal text can move into the explanatory note, where the rules for phrasing are relaxed and you can use the sentence people actually understand. And the audience gets a word for the subset, which they need in order to discuss it at all.",
+          "flavor": "“The rules text we wanted to use, ‘This card has no color,' doesn't actually work as stand-alone rules text… Tim Aten, the editor on the set, came up with the solution. If we keyworded it, we could use the line we wanted as reminder text… In addition, keywording it solved another problem. How could players talk about devoid cards without an assigned name? Calling them colorless cards was incorrect.”"
+        },
+        {
+          "title": "The shipped form is the residue of everything that failed",
+          "rules": "When people ask why something is shaped so awkwardly, the honest answer is usually that each cleaner version was tried and defeated by a different constraint. The final design isn't a preference — it's what's left. Say so, because the alternative is defending it as though it were chosen.",
+          "flavor": "“And that is how an idea that started off as one concept ended up being executed very differently. Why does devoid have to be the way it is? Because every other version of it we tried failed.” The general form: “It's wonderful to have a cool idea, but if that idea can't be practically applied, it's of no use… Concepts are great, but a concept without an execution is nothing more than a dream.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Concepto contra ejecución",
+      "dek": "¿Por qué la vacuidad tiene que ser como es? Porque todas las demás versiones que probamos fracasaron.",
+      "overview": "La distancia entre una idea y algo que de verdad puede fabricarse, con la vacuidad como caso de estudio.",
+      "takeaway": "«Los conceptos están muy bien, pero un concepto sin ejecución no es más que un sueño.»",
+      "lessons": [
+        {
+          "title": "La imaginación produce de forma fiable cosas que no pueden construirse",
+          "rules": "Pide a la gente la mejor versión de algo y buena parte de lo que vuelva será imposible de construir; no por falta de gusto, sino porque las restricciones que hacen que una cosa se sostenga no se ven desde fuera. Cuenta con esa brecha: el trabajo consiste en cerrarla.",
+          "flavor": "«Supón que sales a la calle, encuentras a 100 personas al azar y les pides que dibujen la casa más chula que se les ocurra… Luego llevas esos dibujos a un arquitecto y le pides su opinión. ¿Cuál crees que sería el comentario número uno? Lo más probable: que muchas se ven chulas pero no podrían construirse. ¿Por qué? Porque un edificio tiene que tener integridad estructural.»"
+        },
+        {
+          "title": "Una regla puede ser imposible por el orden en que se evalúan las cosas",
+          "rules": "Cierta afirmación perfectamente sensata falla no por su significado sino por su dependencia: pide al sistema consultar un atributo que se calcula después del que está fijando. Nada al leerla lo revela. Cuando trabajes en un espacio que las reglas nunca han tenido que tratar, pregunta pronto.",
+          "flavor": "«Las criaturas que controlas con fuerza 4 o mayor tienen la habilidad de volar.» «Cuando se la enseñé a nuestro gerente de reglas, me informó de que no podía hacerse. ¿Por qué? Por algo llamado “capas”… Si un efecto crea una relación entre dos atributos, el atributo afectado tiene que ocurrir en una capa previa a la del atributo añadido. Determinas volar antes de determinar la fuerza de una criatura.»"
+        },
+        {
+          "title": "Sopesa el cambio contra el sistema entero, no contra su propio mérito",
+          "rules": "Una propuesta puede ser coherente, bien entendida en la práctica, y aun así no compensar: porque acomodarla significa reconstruir la maquinaria sobre la que se apoya todo lo demás. La pregunta no es si la cosa es buena, sino si la reforma que obliga vale por esa única adición.",
+          "flavor": "El «golpe final» ocurriría después del daño de combate normal, igual que dañar primero ocurre antes. «No tuvimos problema al jugarlo. Es lógicamente consistente y siempre sabíamos qué pasaba… pero el gerente de reglas de entonces explicó que añadirlo requeriría revisar por completo cómo funciona el combate… el trabajo requerido y el impacto en el resto del juego no compensaban por esa nueva mecánica.»"
+        },
+        {
+          "title": "Enumera todas las puertas que una idea debe pasar, y empieza a matar antes",
+          "rules": "Las maneras en que un concepto puede morir son numerosas, no relacionadas entre sí, y en su mayoría propiedad de departamentos en los que no te sientas. Enuméralas, aprende qué rechaza cada una, y adelanta esas comprobaciones todo lo posible: el coste de un rechazo es proporcional a lo que ya se ha construido encima.",
+          "flavor": "La lista: no funciona dentro de las reglas; no vale el estrés que el cambio de reglas exigiría; no se puede templetear; el texto no cabe; contradice el sabor; tiene un problema de desarrollo; no puede funcionar en digital; crea problemas digitales excesivos; rompe el juego organizado; tiene un problema de marca; tiene un problema legal. «Hemos empezado a trabajar más en diseño sobre todo esto para poder matar cosas antes.»"
+        },
+        {
+          "title": "El espacio físico es una restricción de diseño como cualquier otra",
+          "rules": "Cuánto sitio tiene el objeto acabado no es un detalle de producción para resolver después: decide lo que la cosa puede ser. Categorías que serían obvias dejan de estar disponibles porque la línea en la que tendrían que ir ya está llena.",
+          "flavor": "«Cuando hicimos el ciclo de objetos de los dioses en Theros, mucha gente preguntó por qué no los hicimos Equipo, y la respuesta es que ya eran artefactos encantamiento legendarios. Simplemente no teníamos sitio en la línea de tipo para la palabra “Equipo”… A mucha gente le gusta pensar en el diseño como un cielo abierto capaz de todo, pero hay restricciones que debemos cumplir.»"
+        },
+        {
+          "title": "Divide la presentación según dónde se esté usando la cosa",
+          "rules": "Cuando un objeto tiene que comunicar dos hechos contradictorios, comprueba si necesita decir ambos en el mismo momento. Si los dos públicos lo miran en sitios distintos, la presentación puede inclinarse hacia un lado en el primer contexto y hacia el otro en el segundo.",
+          "flavor": "El requisito: «en tu mano querían que la carta comunicara que requería maná coloreado para lanzarse, pero en el campo de batalla tenía que quedar claro que era un permanente incoloro. ¿Cómo puede una carta ser “coloreada” en tu mano e incolora en juego?» La respuesta de Liz Leo: «¿Y si el título pareciera la barra de título de una carta coloreada pero el resto de la carta pareciera más una carta incolora?»"
+        },
+        {
+          "title": "El modelo de tu público puede admitir un estado que el tuyo prohíbe",
+          "rules": "Prueba también lo negativo, no solo lo positivo. La gente puede contestar bien tu primera pregunta y aun así sostener una imagen en la que dos cosas mutuamente excluyentes son ambas ciertas; y no lo descubrirás preguntando solo si dieron la respuesta pretendida.",
+          "flavor": "«Hicimos otra ronda de pruebas y encontramos un problema nuevo. Cuando enseñábamos las cartas a jugadores nuevos y preguntábamos “¿es incolora esta carta?”, decían que sí. Pero si luego preguntábamos “¿es roja esta carta?” (para una carta con vacuidad con rojo en su coste), también decían que sí. Los jugadores creían posible que una carta fuera a la vez incolora y de un color.»"
+        },
+        {
+          "title": "No puedes representar una ausencia con el medio de aquello que falta",
+          "rules": "Un símbolo construido a partir de una propiedad no puede representar la falta de esa propiedad; cada intento se lee simplemente como un ejemplar más de ella. Cuando las pruebas vuelven siempre igual por razones estructurales, deja de iterar el símbolo y regresa a las otras opciones.",
+          "flavor": "«Es casi imposible transmitir con un círculo de color el concepto de incoloridad. Si es gris, se lee gris. Si es marrón, se lee marrón. Si es transparente, se lee del color que haya en la ilustración de debajo. Probamos test tras test, y quedó claro que la gente simplemente no lo captaba.»"
+        },
+        {
+          "title": "Ponerle nombre compra una redacción más suelta y una forma de hablar de ello",
+          "rules": "Convertir una propiedad en palabra clave paga dos veces. El texto formal puede mudarse a la nota explicativa, donde las reglas de redacción se relajan y puedes usar la frase que la gente sí entiende. Y el público recibe una palabra para el subconjunto, que necesita para poder discutirlo siquiera.",
+          "flavor": "«El texto que queríamos usar, “esta carta no tiene color”, no funciona como texto de reglas autónomo… Tim Aten, el editor del bloque, dio con la solución. Si lo convertíamos en palabra clave, podíamos usar la frase que queríamos como texto recordatorio… Además resolvía otro problema: ¿cómo iban los jugadores a hablar de esas cartas sin un nombre asignado? Llamarlas incoloras era incorrecto.»"
+        },
+        {
+          "title": "La forma que se publica es el residuo de todo lo que fracasó",
+          "rules": "Cuando alguien pregunta por qué algo tiene una forma tan rara, la respuesta honesta suele ser que cada versión más limpia se intentó y fue derrotada por una restricción distinta. El diseño final no es una preferencia: es lo que quedó. Dilo, porque la alternativa es defenderlo como si hubiera sido elegido.",
+          "flavor": "«Y así una idea que empezó como un concepto acabó ejecutándose de forma muy distinta. ¿Por qué la vacuidad tiene que ser como es? Porque todas las demás versiones que probamos fracasaron.» La forma general: «Es maravilloso tener una idea chula, pero si esa idea no puede aplicarse en la práctica, no sirve de nada… Un concepto sin ejecución no es más que un sueño.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Concept contre exécution",
+      "dek": "Pourquoi le vide est-il ainsi ? Parce que toutes les autres versions que nous avons essayées ont échoué.",
+      "overview": "L'écart entre une idée et une chose réellement fabricable, avec le vide comme étude de cas.",
+      "takeaway": "« Les concepts, c'est bien ; mais un concept sans exécution n'est rien de plus qu'un rêve. »",
+      "lessons": [
+        {
+          "title": "L'imagination produit immanquablement des choses impossibles à bâtir",
+          "rules": "Demandez aux gens la meilleure version d'une chose : une bonne part de ce qui revient sera inconstructible — non par manque de goût, mais parce que les contraintes qui font tenir une chose ne se voient pas de l'extérieur. Attendez-vous à cet écart ; le travail consiste à le combler.",
+          "flavor": "« Imaginez : vous arrêtez 100 personnes au hasard dans la rue et leur demandez de dessiner la maison la plus chouette qu'elles puissent imaginer… Vous portez ces dessins à un architecte. Quel serait son premier commentaire ? Sans doute que beaucoup sont chouettes mais ne pourraient pas être construites. Pourquoi ? Parce qu'un bâtiment doit avoir une intégrité structurelle. »"
+        },
+        {
+          "title": "Une règle peut être impossible à cause de l'ordre d'évaluation",
+          "rules": "Une formulation parfaitement sensée échoue non sur son sens mais sur sa dépendance : elle demande au système de consulter un attribut calculé après celui qu'elle fixe. Rien dans la lecture ne le révèle. Quand vous travaillez dans un espace que les règles n'ont jamais eu à traiter, demandez tôt.",
+          "flavor": "« Les créatures que vous contrôlez avec une force supérieure ou égale à 4 ont le vol. » « Quand je l'ai montrée à notre responsable des règles, il m'a dit que c'était impossible. Pourquoi ? À cause de ce qu'on appelle les “couches”… Si un effet crée une relation entre deux attributs, l'attribut affecté doit se produire à une couche antérieure. On détermine le vol avant de déterminer la force. »"
+        },
+        {
+          "title": "Pesez le changement contre le système entier, non contre son mérite propre",
+          "rules": "Une proposition peut être cohérente, bien comprise à l'usage, et ne pas valoir le coup : parce que l'accueillir suppose de refaire la machinerie sur laquelle tout le reste repose. La question n'est pas si la chose est bonne, mais si la refonte qu'elle impose vaut cet unique ajout.",
+          "flavor": "La « dernière initiative » agirait après les blessures de combat normales, comme l'initiative agit avant. « Nous n'avons eu aucun mal à y jouer. C'est logiquement cohérent… mais le responsable des règles d'alors a expliqué que l'ajouter exigerait une refonte complète du fonctionnement du combat… le travail requis et l'impact sur le reste du jeu n'en valaient pas la peine pour cette mécanique. »"
+        },
+        {
+          "title": "Énumérez chaque porte que l'idée doit franchir, et tuez plus tôt",
+          "rules": "Les façons dont un concept peut mourir sont nombreuses, sans lien entre elles, et appartiennent surtout à des services où vous ne siégez pas. Listez-les, apprenez ce que chacune refuse, et avancez ces contrôles autant que possible : le coût d'un refus est proportionnel à ce qu'on a déjà bâti dessus.",
+          "flavor": "La liste : ne fonctionne pas dans les règles ; ne vaut pas la contrainte que le changement de règles imposerait ; ne peut pas être rédigée ; le texte ne rentre pas ; contredit la saveur ; pose un problème de développement ; ne marche pas en numérique ; y crée des problèmes excessifs ; casse le jeu organisé ; pose un problème de marque ; pose un problème juridique. « Nous travaillons désormais davantage en conception sur tout cela, pour tuer plus tôt. »"
+        },
+        {
+          "title": "L'espace physique est une contrainte de conception comme une autre",
+          "rules": "La place dont dispose l'objet fini n'est pas un détail de production à régler plus tard : elle décide de ce que la chose peut être. Des catégories autrement évidentes deviennent indisponibles parce que la ligne où elles devraient figurer est déjà pleine.",
+          "flavor": "« Quand nous avons fait le cycle des objets des dieux dans Theros, beaucoup ont demandé pourquoi nous n'en avions pas fait des équipements ; la réponse est qu'ils étaient déjà des artefacts-enchantements légendaires. Nous n'avions tout simplement pas la place sur la ligne de type pour le mot “équipement”… Beaucoup imaginent la conception comme un ciel ouvert, mais il y a des contraintes à respecter. »"
+        },
+        {
+          "title": "Séparez la présentation selon l'endroit où la chose est utilisée",
+          "rules": "Quand un objet doit communiquer deux faits contradictoires, vérifiez s'il doit les dire au même instant. Si les deux publics le regardent à des endroits différents, la présentation peut pencher d'un côté dans le premier contexte et de l'autre dans le second.",
+          "flavor": "L'exigence : « en main, ils voulaient que la carte dise qu'elle exige du mana coloré ; mais sur le champ de bataille, il fallait qu'il soit clair que c'était un permanent incolore. Comment une carte peut-elle être “colorée” en main et incolore en jeu ? » La réponse de Liz Leo : « Et si le titre ressemblait à la barre de titre d'une carte colorée, mais que le reste ressemblât davantage à une carte incolore ? »"
+        },
+        {
+          "title": "Le modèle de votre public peut admettre un état que le vôtre interdit",
+          "rules": "Testez aussi le négatif, pas seulement le positif. On peut répondre correctement à votre première question et tenir malgré tout une image où deux choses exclusives sont vraies ensemble — et vous ne le découvrirez jamais en demandant seulement si la bonne réponse est donnée.",
+          "flavor": "« Nous avons refait un tour de tests et trouvé un nouveau problème. Quand nous montrions les cartes à de nouveaux joueurs en demandant “cette carte est-elle incolore ?”, ils disaient oui. Mais si nous demandions ensuite “cette carte est-elle rouge ?” (pour une carte avec le vide ayant du rouge dans son coût), ils disaient aussi oui. Les joueurs croyaient qu'une carte pouvait être à la fois incolore et d'une couleur. »"
+        },
+        {
+          "title": "On ne peut pas figurer une absence dans le médium de ce qui est absent",
+          "rules": "Un symbole construit à partir d'une propriété ne peut pas représenter le manque de cette propriété ; chaque tentative se lit comme un exemplaire de plus. Quand les tests reviennent toujours pareils pour des raisons structurelles, cessez d'itérer le symbole et revenez aux autres options.",
+          "flavor": "« Il est quasi impossible de transmettre par un cercle coloré le concept d'incolore. S'il est gris, on lit gris. S'il est brun, on lit brun. S'il est transparent, on lit la couleur de l'illustration en dessous. Nous avons enchaîné les tests, et il est devenu clair que les gens ne comprenaient tout simplement pas. »"
+        },
+        {
+          "title": "Nommer une chose achète une formulation plus libre et de quoi en parler",
+          "rules": "Transformer une propriété en mot-clé rapporte deux fois. Le texte formel peut migrer vers la note explicative, où les règles de rédaction se relâchent et où l'on peut employer la phrase que les gens comprennent vraiment. Et le public obtient un mot pour le sous-ensemble, sans lequel il ne peut pas en discuter.",
+          "flavor": "« Le texte que nous voulions, “cette carte n'a pas de couleur”, ne fonctionne pas comme texte de règles autonome… Tim Aten, l'éditeur, a trouvé la solution : en en faisant un mot-clé, nous pouvions employer la phrase voulue en texte de rappel… Cela réglait aussi un autre souci : comment parler de ces cartes sans nom attribué ? Les appeler cartes incolores était faux. »"
+        },
+        {
+          "title": "La forme livrée est le résidu de tout ce qui a échoué",
+          "rules": "Quand on demande pourquoi une chose a une forme si tordue, la réponse honnête est d'ordinaire que chaque version plus propre a été essayée et vaincue par une contrainte différente. La conception finale n'est pas une préférence : c'est ce qui reste. Dites-le, sinon vous la défendrez comme si elle avait été choisie.",
+          "flavor": "« Voilà comment une idée partie d'un concept a fini exécutée tout autrement. Pourquoi le vide est-il ainsi ? Parce que toutes les autres versions essayées ont échoué. » La forme générale : « C'est merveilleux d'avoir une idée chouette, mais si elle ne peut pas s'appliquer en pratique, elle ne sert à rien… Un concept sans exécution n'est rien de plus qu'un rêve. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Conceito versus execução",
+      "dek": "Por que o vazio precisa ser do jeito que é? Porque todas as outras versões que tentamos falharam.",
+      "overview": "A distância entre uma ideia e algo que de fato pode ser feito, com o vazio como estudo de caso.",
+      "takeaway": "“Conceitos são ótimos, mas um conceito sem execução não passa de um sonho.”",
+      "lessons": [
+        {
+          "title": "A imaginação produz, com toda a confiabilidade, coisas que não podem ser construídas",
+          "rules": "Peça às pessoas a melhor versão de algo e boa parte do que voltar será impossível de construir — não por falta de gosto, mas porque as restrições que fazem uma coisa se sustentar não são visíveis de fora. Conte com essa distância; o trabalho é fechá-la.",
+          "flavor": "“Digamos que você vá à rua, ache 100 pessoas aleatórias e peça que desenhem a casa mais legal que conseguirem imaginar… Você leva esses desenhos a um arquiteto e pede a opinião dele. Qual seria o comentário número um? Provavelmente que muitas parecem legais mas não poderiam ser construídas. Por quê? Porque um edifício precisa ter integridade estrutural.”"
+        },
+        {
+          "title": "Uma regra pode ser impossível por causa da ordem em que as coisas são avaliadas",
+          "rules": "Uma afirmação perfeitamente sensata falha não pelo significado, mas pela dependência: ela pede que o sistema consulte um atributo calculado depois daquele que ela define. Nada na leitura revela isso. Quando você trabalha num espaço que as regras nunca tiveram de tratar, pergunte cedo.",
+          "flavor": "“As criaturas que você controla com poder 4 ou maior têm voar.” “Quando mostrei isso ao nosso gerente de regras, ele me informou que não dava. Por quê? Por causa de algo chamado ‘camadas'… Se um efeito cria uma relação entre dois atributos, o atributo afetado precisa ocorrer numa camada anterior à do atributo acrescentado. Você determina voar antes de determinar o poder.”"
+        },
+        {
+          "title": "Pese a mudança contra o sistema inteiro, não contra o mérito dela",
+          "rules": "Uma proposta pode ser coerente, bem compreendida no uso, e ainda assim não valer a pena: porque acomodá-la significa reconstruir o maquinário sobre o qual todo o resto se apoia. A pergunta não é se a coisa é boa, e sim se o retrabalho que ela força vale por essa única adição.",
+          "flavor": "O “golpe final” aconteceria depois do dano de combate normal, assim como a iniciativa acontece antes. “Não tivemos problema em jogar com aquilo. É logicamente consistente… mas o gerente de regras da época explicou que acrescentá-lo exigiria refazer por completo como o combate funciona… o trabalho exigido e o impacto no resto do jogo não valiam a pena por essa mecânica.”"
+        },
+        {
+          "title": "Enumere cada portão que uma ideia precisa passar, e comece a matar mais cedo",
+          "rules": "As formas de um conceito morrer são numerosas, sem relação entre si, e em geral pertencem a departamentos onde você não senta. Liste-as, aprenda o que cada uma recusa, e antecipe essas checagens o quanto puder: o custo de uma recusa é proporcional ao que já foi construído por cima.",
+          "flavor": "A lista: não funciona dentro das regras; não vale o estresse que a mudança de regras exigiria; não dá para redigir; o texto não cabe; contradiz o sabor; tem problema de desenvolvimento; não funciona no digital; cria problemas digitais excessivos; quebra o jogo organizado; tem problema de marca; tem problema jurídico. “Passamos a trabalhar mais no design sobre tudo isso, para poder matar coisas mais cedo.”"
+        },
+        {
+          "title": "Espaço físico é uma restrição de design como qualquer outra",
+          "rules": "Quanto lugar o objeto acabado tem não é um detalhe de produção para resolver depois: isso decide o que a coisa pode ser. Categorias que seriam óbvias ficam indisponíveis porque a linha em que teriam de entrar já está cheia.",
+          "flavor": "“Quando fizemos o ciclo dos itens dos deuses em Theros, muita gente questionou por que não os fizemos Equipamento, e a resposta é que eles já eram artefatos encantamento lendários. Simplesmente não tínhamos espaço na linha de tipo para a palavra ‘Equipamento'… Muita gente gosta de pensar no design como um céu aberto capaz de tudo, mas há restrições que precisamos cumprir.”"
+        },
+        {
+          "title": "Divida a apresentação conforme o lugar em que a coisa está sendo usada",
+          "rules": "Quando um objeto precisa comunicar dois fatos contraditórios, verifique se ele precisa dizer ambos no mesmo momento. Se os dois públicos o olham em lugares diferentes, a apresentação pode pender para um lado no primeiro contexto e para o outro no segundo.",
+          "flavor": "O requisito: “na mão, queriam que a carta comunicasse que exigia mana colorido para ser conjurada; mas no campo de batalha tinha de ficar claro que era uma permanente incolor. Como uma carta pode ser ‘colorida' na mão e incolor em jogo?” A resposta de Liz Leo: “E se o título parecesse a barra de título de uma carta colorida, mas o resto da carta parecesse mais uma carta incolor?”"
+        },
+        {
+          "title": "O modelo do seu público pode admitir um estado que o seu proíbe",
+          "rules": "Teste também o negativo, não só o positivo. As pessoas podem responder certo à sua primeira pergunta e ainda assim sustentar uma imagem em que duas coisas mutuamente excludentes são ambas verdadeiras — e você nunca vai descobrir isso perguntando só se acertaram a resposta pretendida.",
+          "flavor": "“Fizemos outra rodada de testes e achamos um problema novo. Quando mostrávamos as cartas a jogadores novos e perguntávamos ‘esta carta é incolor?', eles diziam que sim. Mas se então perguntávamos ‘esta carta é vermelha?' (para uma carta com vazio com vermelho no custo), também diziam que sim. Os jogadores acreditavam ser possível uma carta ser incolor e de uma cor ao mesmo tempo.”"
+        },
+        {
+          "title": "Você não consegue retratar uma ausência no meio daquilo que está ausente",
+          "rules": "Um símbolo construído a partir de uma propriedade não pode representar a falta dessa propriedade; cada tentativa se lê apenas como mais uma instância dela. Quando os testes voltam sempre iguais por razões estruturais, pare de iterar o símbolo e volte às outras opções.",
+          "flavor": "“É quase impossível transmitir com um círculo colorido o conceito de ser incolor. Se é cinza, lê-se cinza. Se é marrom, lê-se marrom. Se é transparente, lê-se a cor que estiver na arte embaixo. Fizemos teste após teste, e ficou claro que as pessoas simplesmente não estavam entendendo.”"
+        },
+        {
+          "title": "Dar nome a algo compra redação mais solta e um jeito de falar daquilo",
+          "rules": "Transformar uma propriedade em palavra-chave paga duas vezes. O texto formal pode migrar para a nota explicativa, onde as regras de redação afrouxam e você pode usar a frase que as pessoas de fato entendem. E o público ganha uma palavra para o subconjunto, sem a qual nem consegue discuti-lo.",
+          "flavor": "“O texto que queríamos usar, ‘esta carta não tem cor', não funciona como texto de regras autônomo… Tim Aten, o editor da coleção, achou a solução. Se transformássemos aquilo em palavra-chave, poderíamos usar a frase desejada como texto de lembrete… Além disso, resolvia outro problema: como os jogadores falariam dessas cartas sem um nome? Chamá-las de incolores era incorreto.”"
+        },
+        {
+          "title": "A forma publicada é o resíduo de tudo o que falhou",
+          "rules": "Quando perguntam por que algo tem uma forma tão desajeitada, a resposta honesta costuma ser que cada versão mais limpa foi tentada e derrotada por uma restrição diferente. O design final não é uma preferência: é o que sobrou. Diga isso, porque a alternativa é defendê-lo como se tivesse sido escolhido.",
+          "flavor": "“E foi assim que uma ideia que começou como um conceito acabou executada de forma muito diferente. Por que o vazio precisa ser do jeito que é? Porque todas as outras versões que tentamos falharam.” A forma geral: “É maravilhoso ter uma ideia legal, mas se ela não pode ser aplicada na prática, não serve de nada.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "构想与实现",
+      "dek": "虚无为什么非得是现在这个样子？因为我们试过的其他每一个版本都失败了。",
+      "overview": "从「一个点子」到「一件真的能被造出来的东西」之间的落差；案例是虚无。",
+      "takeaway": "「构想很好；但一个没有实现的构想，不过是一场梦。」",
+      "lessons": [
+        {
+          "title": "想象力会可靠地产出造不出来的东西",
+          "rules": "请人们给出某样东西的最好版本，回来的东西里会有很大一部分根本无法建造——不是因为他们没有品味，而是因为「让一样东西立得住」的那些约束，从外面是看不见的。预料到这道落差；而工作，就是把它填平。",
+          "flavor": "「假设你上街随便找100个人，请他们画出自己能想到的最酷的房子……然后你把这些画拿给一位建筑师，问他的意见。你觉得他的第一号评论会是什么？多半是：其中很多看着很酷，但实际上盖不起来。为什么？因为一栋建筑必须具备结构完整性。」"
+        },
+        {
+          "title": "一条规则可能仅仅因为「求值的顺序」而无法成立",
+          "rules": "某句完全合理的表述之所以失败，不在于它的含义，而在于它的依赖关系：它要求系统去查询一个「在它所设定的那个属性之后才被算出来」的属性。而读它的时候，没有任何东西会透露这一点。当你在规则从未处理过的空间里工作时，早点去问。",
+          "flavor": "「由你操控且力量等于或大于4的生物具有飞行异能。」「我把它拿给我们的规则经理看，他告诉我这做不了。为什么？因为一样叫作『层』的东西……如果一个效应在两个属性之间建立了关系，那么被影响的那个属性，必须发生在被添加的那个属性之前的层上。你在确定生物的力量之前，就已经确定了飞行。」"
+        },
+        {
+          "title": "把这次改动放在整个系统的尺度上称，而不是称它自身的优点",
+          "rules": "一项提案可以是自洽的、在实际使用中也被理解得很好，却仍然不值得：因为容纳它，意味着要把「其余一切赖以站立」的那套机器重造一遍。问题不是这样东西好不好，而是它所迫使的那场返工，值不值得换这一项新增。",
+          "flavor": "「后攻」会在一般战斗伤害之后发生，正如先攻在之前发生。「我们玩它时毫无问题。它逻辑自洽，我们也总是清楚会发生什么……但当时的规则经理解释说：把后攻加进游戏，将需要彻底重构战斗的运作方式……所需的工作量、以及这个改动对游戏其余部分的影响，都不值得为这一个新机制去付。」"
+        },
+        {
+          "title": "把一个点子必须通过的每一道关卡列出来，并且开始更早地做减法",
+          "rules": "一个构想能死掉的方式有很多，彼此之间毫不相干，而且大多归属于你并不坐在其中的那些部门。把它们列出来，弄清每一道关卡会拒绝什么，并尽可能把这些检查往前挪：一次否决的代价，与「已经在它之上建起了多少东西」成正比。",
+          "flavor": "这份清单是：规则上行不通；不值得为它承受规则改动带来的压力；写不成规范文本；文字放不下；与风味相矛盾；有开发上的问题；在数字端无法实现；在数字端造成过多问题；破坏组织赛事；有品牌问题；有法律问题。「我们已经开始在设计阶段就多做一些这方面的工作，好在明知行不通时更早地把东西砍掉。」"
+        },
+        {
+          "title": "物理空间和别的约束一样，是一条设计约束",
+          "rules": "成品有多少地方，不是一个「留到后面再处理」的生产细节——它决定了这样东西能是什么。那些本来显而易见的类别会变得不可用，仅仅因为它们本该待的那一行已经满了。",
+          "flavor": "「我们在《赛洛斯》里做那组神器物的循环时，很多人质疑我们为什么不把它们做成武具；答案是它们已经是传奇结界神器了。牌张类别那一行上，我们根本没有地方再放『武具』这个词……很多人喜欢把设计想成一片什么都能做的开阔天空；但我们必须满足一些约束。」"
+        },
+        {
+          "title": "按照「这东西正在哪里被使用」来拆分它的呈现方式",
+          "rules": "当一件东西必须同时传达两个互相矛盾的事实时，先确认它是否需要在同一个时刻把两者都说出来。如果这两批观看者是在不同的地方看它，那么这份呈现就可以在第一种语境里偏向一边、在第二种语境里偏向另一边。",
+          "flavor": "那项要求是：「在手上时，他们希望这张牌传达出『施放它需要有色法术力』；而在战场上，又必须清楚地看出这是一个无色的永久物。一张牌怎么可能在手上是『有色的』、在场上却是无色的？」莉兹·利奥的答案是：「如果这张牌的标题栏看起来像一张有色牌的标题栏，而标题以下的部分看起来更像一张无色牌呢？」"
+        },
+        {
+          "title": "你的受众心里的模型，可能允许一个你的模型所禁止的状态",
+          "rules": "既要测正面的问题，也要测反面的。人们可以正确地回答你的第一个问题，同时脑子里却装着一幅「两件互斥的事同时为真」的图景；而如果你只问「他们有没有给出你想要的那个答案」，你永远发现不了它。",
+          "flavor": "「我们又做了一轮测试，发现了一个新问题。当我们把这些牌拿给新玩家看、问『这张牌是无色的吗？』时，他们说是。但如果我们接着问『这张牌是红色的吗？』（对一张法术力费用里有红色的虚无牌），他们也说是。玩家们相信：一张牌可以既是无色的、又是某个颜色的。」"
+        },
+        {
+          "title": "你没法用「缺席之物本身的媒介」去描绘那份缺席",
+          "rules": "一个由某项性质构成的符号，无法用来表示这项性质的缺失；每一次尝试，读起来都只是它的又一个实例。当测试出于结构性的原因一次次给出同样的结果时，就别再迭代这个符号了，回到其他那些选项上去。",
+          "flavor": "「用一个有颜色的圆圈去传达『无色』这个概念，几乎是不可能的。如果它是灰的，人们读到的是灰色。如果它是棕的，读到的是棕色。如果它是透明的，读到的就是它下面那幅画里的颜色。我们一次次做测试，事情越来越清楚：人们就是没懂。」"
+        },
+        {
+          "title": "给一样东西起名字，买到的是更宽松的措辞、以及一个谈论它的说法",
+          "rules": "把一项性质变成一个具名的关键字，会有双重回报。那段正式文字可以搬进提示文本里；而在那里，行文的规矩是放宽的，你可以用那句人们真正听得懂的话。同时，受众也拿到了一个称呼这个子集的词——而没有它，他们根本没法讨论。",
+          "flavor": "「我们想用的那句规则文字『这张牌没有颜色』，作为独立的规则文本其实并不成立……这个系列的编辑蒂姆·艾滕想出了办法：如果我们把它做成关键字，就可以把想用的那句话放进提示文本里……此外，把它关键字化还解决了另一个问题：在没有一个指定名称的情况下，牌手要怎么谈论这些牌？把它们叫作无色牌是不对的。」"
+        },
+        {
+          "title": "最终出厂的形态，是所有失败之物留下的残渣",
+          "rules": "当有人问「这东西的形状怎么这么别扭」时，诚实的答案通常是：每一个更干净的版本都被试过，并且各自被一条不同的约束击败了。最终的设计并不是一种偏好——它是剩下的那个。把这一点说出来；否则你就得像辩护一个「被选中的方案」那样去辩护它。",
+          "flavor": "「于是，一个以某个构想起步的点子，最终以非常不同的方式被实现了出来。虚无为什么非得是现在这个样子？因为我们试过的其他每一个版本都失败了。」而它的一般形式是：「有一个很酷的点子固然美妙；但如果那个点子无法被实际应用，它就没有用处……构想很好；但一个没有实现的构想，不过是一场梦。」"
+        }
+      ]
+    }
+  }
+}
