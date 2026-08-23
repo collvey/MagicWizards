@@ -1,0 +1,320 @@
+{
+  "id": "designing-izzet-2012-11-12",
+  "slug": "designing-izzet-2012-11-12",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2012-11-12",
+  "series": { "id": "designing-the-color-pairs", "order": 3, "total": 10 },
+  "tags": ["color-pie", "mechanics", "blue-red", "spells", "design-search"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/designing-izzet-2012-11-12",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Designing Izzet",
+      "dek": "The third colour-pair column: the only pairing in the game with no shared creature keyword at all, and a mechanic that took eight years to reach print because the judging notes on it were right the first time.",
+      "overview": "Rank the colours by how many creatures they get and read the list backwards, and you have the colours that get the most spells — which is why this pairing is about spells and nothing else. It is also, by his tabulation, the one pairing with zero overlap in evergreen creature keywords, which makes hybrid cards genuinely difficult. So the connection has to be manufactured, and he enumerates five distinct ways of doing it. The second half traces one mechanic from a contest submission eight years earlier, where the judges identified exactly the difficulty the shipped version would have to solve.",
+      "takeaway": "With almost nothing shared, everything here is constructed rather than discovered — the tie between the colours, the list of usable effects, and the target restrictions that keep the mechanic from ever being a downside.",
+      "lessons": [
+        {
+          "title": "One ranked list read backwards gives you the complementary allocation",
+          "rules": "He orders the five colours by how many creatures each receives, and notes — not remotely coincidentally — that inverting the list gives the ordering for spells. The two at the bottom of one list are the two at the top of the other, which is what makes them the spell colours. Where a system allocates a fixed budget across two competing categories, one ranking is two rankings, and you don't have to measure the second.",
+          "flavor": "Fewest creatures, most spells. The same list, upside down."
+        },
+        {
+          "title": "The pairing with the least overlap is where the shared-ability tool has nothing to work with",
+          "rules": "He tabulates every evergreen creature keyword that appears in two or more colours and assigns each to its pairing. Every combination gets something — except this one, which gets nothing at all. He flags the specific consequence: it is especially painful for hybrid cards, where a shared ability is the only material available. Before assuming a technique is available, check that the particular pair you're working on has the input the technique consumes.",
+          "flavor": "Ten pairings, nine entries on the list, and one blank line."
+        },
+        {
+          "title": "When two parties share almost nothing, enumerate the ways to connect the one thing they do share",
+          "rules": "Both colours like casting spells, for entirely different reasons, and that is the whole of the common ground. Rather than treating that as a single option, he lists five distinct ways to build on it: modify the spells themselves, trigger off them being cast, care about any spell at all, put boosts on permanents that respond to them, or interact with them once they're in the graveyard. A thin overlap is workable once you stop treating it as one idea.",
+          "flavor": "One thing in common, and five different ways to make something of it."
+        },
+        {
+          "title": "The constraint binds on the bigger half only",
+          "rules": "The mechanic has a small mode and a large mode, and the rarity problem is that both have to belong where the card sits. The resolution is asymmetric: at the entry tier both halves must be acceptable there, so they enumerated what large effects already exist at that tier and worked from that list. Higher up, only the large half has to fit — the small half may be borrowed from below. Work out which end of a range your constraint actually applies to before rationing both ends.",
+          "flavor": "At the top, the small mode can be a common. At the bottom, the big mode cannot be a rare."
+        },
+        {
+          "title": "Add the parameter now, even at its identity value, so the future can move it",
+          "rules": "The earlier mechanic's extra cost was introduced in development even though it was set to exactly match the card's own cost every single time — functionally a no-op. The reason was that they thought the mechanic had a decent chance of returning, and a separate cost that happens to be equal is trivially adjustable later, while a mechanic hardwired to reuse the same figure is not. Building the dial in while it's still free is cheaper than retrofitting one.",
+          "flavor": "A cost that equalled the other cost, printed anyway, so that one day it wouldn't have to."
+        },
+        {
+          "title": "Encode the decision you don't want players to make into the target restriction",
+          "rules": "The processing problem with the later mechanic was that a player might have to work out whether they even wanted the larger mode, because it could hit their own things too. They decided it should essentially never be a downside, and implemented that decision in the targeting: the card says whose things it can point at, so the enlarged version automatically hits the right side. A restriction written into the target line removes a calculation rather than adding a rule.",
+          "flavor": "\"Target creature you don't control\" is a whole paragraph of player deliberation, deleted."
+        },
+        {
+          "title": "The notes you wrote years ago are the spec when the idea comes back",
+          "rules": "The mechanic arrived as a contest submission eight years before it shipped. The judges liked the concept and all landed on the same criticism: the effects chosen were wrong, and the mechanic could only work at the entry tier if both of its modes were acceptable there. When the same designer re-proposed it years later, that was precisely the difficulty the team had to solve. His response in the meeting was three words — I remember that — and the old critique was the brief.",
+          "flavor": "Eight years between the note and the printing, and the note still described the job."
+        },
+        {
+          "title": "Publish a standing verdict on each old component, with the reason attached",
+          "rules": "Asked which of a block's ten mechanics might return, he answers all ten in a single pass, each with a one-clause reason: repetition of play, confusion and likeability, a category being cut back, insufficient power headroom, poor reception combined with limited space. Nobody has to ask again, and anybody proposing one of them knows in advance what they have to argue against. A published disposition is a cheaper artefact than a series of individual conversations.",
+          "flavor": "Ten verdicts, ten reasons, one paragraph."
+        },
+        {
+          "title": "The same identity expresses differently depending on how much control the player has",
+          "rules": "This pairing is the most build-around-me of the ten in a constructed context — start with one card of grandiose potential and assemble the rest around it. In limited play that character largely disappears, and he gives the mechanism: the sensibility requires control over which cards you have, and with far less control the pairing falls back on the mechanical connection instead of the personality. An identity built on deliberate assembly needs the player to be doing the assembling.",
+          "flavor": "The mad scientist needs a laboratory he chose the equipment for."
+        },
+        {
+          "title": "An allocation can be made to enable a cycle rather than on its own merits",
+          "rules": "Explaining which colour recovers which card type from the graveyard, he gives a reason that isn't about any individual colour: there are times they want a cycle where each colour retrieves a different type, and the assignments were made so that cycle would be possible. One colour's claim exists because the other four had already taken theirs. Some of your system's rules are there to make a pattern completable, and it's worth knowing which.",
+          "flavor": "Somebody had to get the leftovers, and that is how the leftovers became a rule."
+        }
+      ]
+    },
+    "es": {
+      "title": "Diseñando Izzet",
+      "dek": "La tercera columna de parejas de colores: la única pareja del juego sin ningún keyword de criatura compartido, y una mecánica que tardó ocho años en llegar a imprenta porque las notas del jurado acertaron a la primera.",
+      "overview": "Ordena los colores por cuántas criaturas reciben y lee la lista al revés: tienes los colores que más hechizos reciben, y por eso esta pareja va de hechizos y de nada más. Es también, según su tabulación, la única pareja con cero solape en keywords de criatura permanentes, lo que hace las cartas híbridas genuinamente difíciles. Así que la conexión hay que fabricarla, y él enumera cinco formas distintas de hacerlo. La segunda mitad rastrea una mecánica desde una entrega de concurso ocho años antes, donde el jurado identificó exactamente la dificultad que la versión publicada tendría que resolver.",
+      "takeaway": "Sin casi nada compartido, todo aquí está construido y no descubierto: el vínculo entre los colores, la lista de efectos utilizables y las restricciones de objetivo que impiden que la mecánica sea nunca un inconveniente.",
+      "lessons": [
+        {
+          "title": "Una lista ordenada leída al revés te da la asignación complementaria",
+          "rules": "Ordena los cinco colores por cuántas criaturas recibe cada uno y señala —nada casualmente— que invertir la lista da el orden de los hechizos. Los dos del fondo de una lista son los dos de arriba de la otra, y eso es lo que los hace los colores de hechizos. Cuando un sistema reparte un presupuesto fijo entre dos categorías que compiten, una clasificación son dos clasificaciones, y no hace falta medir la segunda.",
+          "flavor": "Menos criaturas, más hechizos. La misma lista, del revés."
+        },
+        {
+          "title": "La pareja con menos solape es aquella donde la herramienta de la habilidad compartida no tiene con qué trabajar",
+          "rules": "Tabula cada keyword de criatura permanente que aparece en dos o más colores y lo asigna a su pareja. Toda combinación recibe algo, salvo esta, que no recibe nada. Señala la consecuencia concreta: es especialmente doloroso para las cartas híbridas, donde una habilidad compartida es el único material disponible. Antes de suponer que una técnica está disponible, comprueba que la pareja concreta en la que trabajas tenga el insumo que esa técnica consume.",
+          "flavor": "Diez parejas, nueve entradas en la lista, y una línea en blanco."
+        },
+        {
+          "title": "Cuando dos partes casi no comparten nada, enumera las formas de conectar lo único que sí comparten",
+          "rules": "A ambos colores les gusta lanzar hechizos, por razones completamente distintas, y en eso se agota el terreno común. En vez de tratarlo como una sola opción, enumera cinco formas distintas de construir sobre ello: modificar los propios hechizos, dispararse al lanzarlos, importar cualquier hechizo, poner mejoras en permanentes que respondan a ellos, o interactuar con ellos una vez en el cementerio. Un solape delgado es trabajable en cuanto dejas de tratarlo como una sola idea.",
+          "flavor": "Una cosa en común, y cinco maneras distintas de sacarle algo."
+        },
+        {
+          "title": "La restricción solo ata a la mitad más grande",
+          "rules": "La mecánica tiene un modo pequeño y uno grande, y el problema de rareza es que ambos tienen que pertenecer al lugar donde está la carta. La solución es asimétrica: en el nivel de entrada ambas mitades deben ser aceptables ahí, así que enumeraron qué efectos grandes ya existían en ese nivel y trabajaron desde esa lista. Más arriba, solo la mitad grande tiene que encajar; la pequeña puede tomarse prestada de abajo. Averigua a qué extremo del rango se aplica de verdad tu restricción antes de racionar ambos.",
+          "flavor": "Arriba, el modo pequeño puede ser una común. Abajo, el modo grande no puede ser una rara."
+        },
+        {
+          "title": "Añade el parámetro ahora, aunque valga lo mismo, para que el futuro pueda moverlo",
+          "rules": "El coste extra de la mecánica anterior se introdujo en desarrollo aunque estuviera fijado para igualar exactamente el propio coste de la carta cada vez: funcionalmente, nada. La razón era que creían que la mecánica tenía buenas probabilidades de volver, y un coste separado que casualmente coincide es trivialmente ajustable después, mientras que una mecánica cableada para reutilizar la misma cifra no lo es. Instalar el dial mientras todavía es gratis sale más barato que retroadaptarlo.",
+          "flavor": "Un coste que igualaba al otro coste, impreso igualmente, para que algún día no tuviera que igualarlo."
+        },
+        {
+          "title": "Codifica en la restricción de objetivo la decisión que no quieres que los jugadores tomen",
+          "rules": "El problema de procesamiento de la mecánica posterior era que un jugador podía tener que averiguar si siquiera quería el modo grande, porque podía golpear también sus propias cosas. Decidieron que esencialmente nunca debía ser un inconveniente, e implementaron esa decisión en el objetivo: la carta dice a qué cosas puede apuntar, así que la versión ampliada golpea automáticamente el lado correcto. Una restricción escrita en la línea de objetivo elimina un cálculo en vez de añadir una regla.",
+          "flavor": "«Criatura objetivo que no controlas» es un párrafo entero de deliberación del jugador, borrado."
+        },
+        {
+          "title": "Las notas que escribiste hace años son la especificación cuando la idea vuelve",
+          "rules": "La mecánica llegó como entrega de un concurso ocho años antes de publicarse. Al jurado le gustó el concepto y todos aterrizaron en la misma crítica: los efectos elegidos eran los equivocados, y la mecánica solo podía funcionar en el nivel de entrada si ambos modos eran aceptables ahí. Cuando el mismo diseñador la volvió a proponer años después, esa era precisamente la dificultad que el equipo tuvo que resolver. Su respuesta en la reunión fueron tres palabras —me acuerdo de eso— y la vieja crítica fue el encargo.",
+          "flavor": "Ocho años entre la nota y la impresión, y la nota seguía describiendo el trabajo."
+        },
+        {
+          "title": "Publica un veredicto permanente sobre cada componente antiguo, con el motivo adjunto",
+          "rules": "Preguntado por cuáles de las diez mecánicas de un bloque podrían volver, responde las diez de una pasada, cada una con un motivo de una cláusula: repetición de juego, confusión y agrado, una categoría que se está recortando, insuficiente margen de potencia, mala acogida combinada con espacio limitado. Nadie tiene que volver a preguntar, y quien proponga una de ellas sabe de antemano contra qué tiene que argumentar. Una disposición publicada es un artefacto más barato que una serie de conversaciones individuales.",
+          "flavor": "Diez veredictos, diez motivos, un párrafo."
+        },
+        {
+          "title": "La misma identidad se expresa distinto según cuánto control tenga el jugador",
+          "rules": "Esta pareja es la más «construye alrededor de mí» de las diez en contexto construido: empieza con una carta de potencial grandioso y monta el resto a su alrededor. En juego limitado ese carácter desaparece en buena medida, y él da el mecanismo: la sensibilidad requiere control sobre qué cartas tienes, y con mucho menos control la pareja recae en la conexión mecánica en lugar de la personalidad. Una identidad basada en el ensamblaje deliberado necesita que el jugador sea quien ensambla.",
+          "flavor": "El científico loco necesita un laboratorio cuyo equipamiento eligió él."
+        },
+        {
+          "title": "Una asignación puede hacerse para posibilitar un ciclo y no por sus propios méritos",
+          "rules": "Al explicar qué color recupera qué tipo de carta del cementerio, da una razón que no va de ningún color en particular: hay veces en que quieren un ciclo donde cada color recupere un tipo distinto, y las asignaciones se hicieron para que ese ciclo fuera posible. La reclamación de un color existe porque los otros cuatro ya habían tomado la suya. Algunas reglas de tu sistema están ahí para que un patrón pueda completarse, y conviene saber cuáles.",
+          "flavor": "Alguien tenía que quedarse con las sobras, y así es como las sobras se convirtieron en una regla."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Concevoir Izzet",
+      "dek": "La troisième chronique sur les paires de couleurs : la seule paire du jeu sans aucun mot-clé de créature partagé, et une mécanique qui a mis huit ans à être imprimée parce que les notes du jury avaient vu juste du premier coup.",
+      "overview": "Classez les couleurs selon le nombre de créatures qu'elles reçoivent et lisez la liste à l'envers : vous avez les couleurs qui reçoivent le plus de sorts, et c'est pourquoi cette paire parle de sorts et de rien d'autre. C'est aussi, selon son tableau, la seule paire à recouvrement nul en mots-clés de créature permanents, ce qui rend les cartes hybrides réellement difficiles. Le lien doit donc être fabriqué, et il énumère cinq façons distinctes de le faire. La seconde moitié suit une mécanique depuis une copie de concours huit ans plus tôt, où le jury avait identifié exactement la difficulté que la version imprimée devrait résoudre.",
+      "takeaway": "Avec presque rien de partagé, tout ici est construit et non découvert : le lien entre les couleurs, la liste des effets utilisables, et les restrictions de ciblage qui empêchent la mécanique d'être jamais un inconvénient.",
+      "lessons": [
+        {
+          "title": "Une liste classée lue à l'envers vous donne l'allocation complémentaire",
+          "rules": "Il classe les cinq couleurs selon le nombre de créatures reçues et note — nullement par hasard — qu'inverser la liste donne l'ordre pour les sorts. Les deux du bas d'une liste sont les deux du haut de l'autre, et c'est ce qui en fait les couleurs de sorts. Quand un système répartit un budget fixe entre deux catégories concurrentes, un classement en vaut deux, et vous n'avez pas à mesurer le second.",
+          "flavor": "Le moins de créatures, le plus de sorts. La même liste, retournée."
+        },
+        {
+          "title": "La paire au plus faible recouvrement est celle où l'outil de la capacité partagée n'a rien à se mettre sous la dent",
+          "rules": "Il tabule chaque mot-clé de créature permanent apparaissant dans deux couleurs ou plus et l'attribue à sa paire. Chaque combinaison reçoit quelque chose — sauf celle-ci, qui ne reçoit rien. Il signale la conséquence précise : c'est particulièrement pénible pour les cartes hybrides, où une capacité partagée est le seul matériau disponible. Avant de supposer qu'une technique est disponible, vérifiez que la paire sur laquelle vous travaillez possède l'intrant que cette technique consomme.",
+          "flavor": "Dix paires, neuf entrées dans la liste, et une ligne vide."
+        },
+        {
+          "title": "Quand deux parties ne partagent presque rien, énumérez les façons de relier la seule chose qu'elles partagent",
+          "rules": "Les deux couleurs aiment lancer des sorts, pour des raisons entièrement différentes, et c'est là tout le terrain commun. Plutôt que de traiter cela comme une seule option, il liste cinq façons distinctes d'en tirer parti : modifier les sorts eux-mêmes, se déclencher à leur lancement, se soucier de n'importe quel sort, poser des bonus sur des permanents qui y réagissent, ou interagir avec eux une fois au cimetière. Un recouvrement mince devient exploitable dès qu'on cesse de le traiter comme une seule idée.",
+          "flavor": "Une chose en commun, et cinq manières différentes d'en faire quelque chose."
+        },
+        {
+          "title": "La contrainte ne lie que la moitié la plus grande",
+          "rules": "La mécanique a un mode petit et un mode grand, et le problème de rareté est que les deux doivent appartenir à l'endroit où siège la carte. La résolution est asymétrique : au niveau d'entrée, les deux moitiés doivent y être acceptables, on a donc énuméré les grands effets déjà existants à ce niveau et travaillé à partir de cette liste. Plus haut, seule la grande moitié doit convenir ; la petite peut être empruntée en dessous. Déterminez à quelle extrémité de l'échelle votre contrainte s'applique vraiment avant de rationner les deux.",
+          "flavor": "En haut, le petit mode peut être une commune. En bas, le grand mode ne peut pas être une rare."
+        },
+        {
+          "title": "Ajoutez le paramètre maintenant, même à sa valeur neutre, pour que l'avenir puisse le déplacer",
+          "rules": "Le coût supplémentaire de la mécanique antérieure a été introduit en développement alors qu'il était réglé pour égaler exactement le coût de la carte à chaque fois — fonctionnellement inutile. La raison : on estimait que la mécanique avait de bonnes chances de revenir, et un coût séparé qui se trouve être égal est trivialement ajustable plus tard, alors qu'une mécanique câblée pour réutiliser le même chiffre ne l'est pas. Poser le réglage tant qu'il est encore gratuit coûte moins cher que de le rétro-installer.",
+          "flavor": "Un coût qui égalait l'autre coût, imprimé quand même, pour qu'un jour il n'ait plus à l'égaler."
+        },
+        {
+          "title": "Encodez dans la restriction de ciblage la décision que vous ne voulez pas voir prendre",
+          "rules": "Le problème de traitement de la mécanique tardive était qu'un joueur pouvait avoir à déterminer s'il voulait seulement le grand mode, puisqu'il pouvait aussi toucher ses propres choses. Ils ont décidé qu'elle ne devait pour ainsi dire jamais être un inconvénient, et ont inscrit cette décision dans le ciblage : la carte dit ce qu'elle peut viser, si bien que la version élargie frappe automatiquement le bon côté. Une restriction écrite dans la ligne de ciblage supprime un calcul au lieu d'ajouter une règle.",
+          "flavor": "« Créature ciblée que vous ne contrôlez pas » : tout un paragraphe de délibération, supprimé."
+        },
+        {
+          "title": "Les notes écrites il y a des années sont le cahier des charges quand l'idée revient",
+          "rules": "La mécanique est arrivée comme copie de concours huit ans avant son impression. Le jury a aimé le concept et a convergé sur la même critique : les effets choisis étaient les mauvais, et la mécanique ne pouvait fonctionner au niveau d'entrée que si ses deux modes y étaient acceptables. Quand le même concepteur l'a reproposée des années plus tard, c'était exactement la difficulté que l'équipe a dû résoudre. Sa réponse en réunion fut de trois mots — je m'en souviens — et la vieille critique fut le brief.",
+          "flavor": "Huit ans entre la note et l'impression, et la note décrivait toujours le travail."
+        },
+        {
+          "title": "Publiez un verdict permanent sur chaque ancien composant, motif à l'appui",
+          "rules": "Interrogé sur celles des dix mécaniques d'un bloc susceptibles de revenir, il répond aux dix d'un seul tenant, chacune avec un motif en une clause : répétition de jeu, confusion et adhésion, une catégorie qu'on réduit, marge de puissance insuffisante, mauvais accueil combiné à un espace limité. Personne n'a besoin de redemander, et quiconque en propose une sait d'avance contre quoi il doit argumenter. Une disposition publiée est un artefact moins coûteux qu'une série de conversations individuelles.",
+          "flavor": "Dix verdicts, dix motifs, un paragraphe."
+        },
+        {
+          "title": "La même identité s'exprime différemment selon le contrôle dont dispose le joueur",
+          "rules": "Cette paire est la plus « bâtissez autour de moi » des dix en contexte construit : partez d'une carte au potentiel grandiose et assemblez le reste autour. En jeu limité, ce caractère disparaît largement, et il en donne le mécanisme : la sensibilité exige de contrôler quelles cartes on possède, et avec bien moins de contrôle la paire se rabat sur le lien mécanique plutôt que sur la personnalité. Une identité fondée sur l'assemblage délibéré exige que ce soit le joueur qui assemble.",
+          "flavor": "Le savant fou a besoin d'un laboratoire dont il a choisi l'équipement."
+        },
+        {
+          "title": "Une attribution peut se faire pour rendre un cycle possible, non pour ses mérites propres",
+          "rules": "En expliquant quelle couleur récupère quel type de carte au cimetière, il donne une raison qui ne concerne aucune couleur en particulier : il arrive qu'on veuille un cycle où chaque couleur récupère un type différent, et les attributions ont été faites pour rendre ce cycle possible. La revendication d'une couleur existe parce que les quatre autres avaient déjà pris la leur. Certaines règles de votre système sont là pour rendre un motif complétable, et il vaut mieux savoir lesquelles.",
+          "flavor": "Quelqu'un devait hériter des restes, et c'est ainsi que les restes sont devenus une règle."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Desenhando Izzet",
+      "dek": "A terceira coluna sobre pares de cores: o único par do jogo sem nenhuma palavra-chave de criatura compartilhada, e uma mecânica que levou oito anos para ser impressa porque as notas de jurado acertaram de primeira.",
+      "overview": "Ordene as cores por quantas criaturas recebem e leia a lista de trás para frente: você tem as cores que recebem mais mágicas, e é por isso que este par é sobre mágicas e nada mais. É também, pela tabulação dele, o único par com zero sobreposição em palavras-chave de criatura permanentes, o que torna as cartas híbridas genuinamente difíceis. Então a conexão precisa ser fabricada, e ele enumera cinco formas distintas de fazê-lo. A segunda metade rastreia uma mecânica desde uma entrega de concurso oito anos antes, em que os jurados identificaram exatamente a dificuldade que a versão publicada teria de resolver.",
+      "takeaway": "Com quase nada compartilhado, tudo aqui é construído e não descoberto: o laço entre as cores, a lista de efeitos utilizáveis, e as restrições de alvo que impedem a mecânica de alguma vez ser uma desvantagem.",
+      "lessons": [
+        {
+          "title": "Uma lista ordenada lida de trás para frente dá a alocação complementar",
+          "rules": "Ele ordena as cinco cores por quantas criaturas cada uma recebe e nota — nada por acaso — que inverter a lista dá a ordem das mágicas. As duas do fim de uma lista são as duas do topo da outra, e é isso que as torna as cores de mágicas. Quando um sistema reparte um orçamento fixo entre duas categorias concorrentes, uma classificação vale por duas, e você não precisa medir a segunda.",
+          "flavor": "Menos criaturas, mais mágicas. A mesma lista, de cabeça para baixo."
+        },
+        {
+          "title": "O par com menos sobreposição é aquele em que a ferramenta da habilidade compartilhada não tem com que trabalhar",
+          "rules": "Ele tabula toda palavra-chave de criatura permanente que aparece em duas ou mais cores e a atribui ao seu par. Toda combinação recebe alguma coisa — exceto esta, que não recebe nada. Ele aponta a consequência específica: é especialmente doloroso para cartas híbridas, em que uma habilidade compartilhada é o único material disponível. Antes de supor que uma técnica está disponível, confira se o par específico em que você trabalha tem o insumo que ela consome.",
+          "flavor": "Dez pares, nove entradas na lista, e uma linha em branco."
+        },
+        {
+          "title": "Quando duas partes quase nada compartilham, enumere os modos de conectar a única coisa que compartilham",
+          "rules": "As duas cores gostam de lançar mágicas, por razões inteiramente distintas, e nisso se esgota o terreno comum. Em vez de tratar isso como uma opção só, ele lista cinco formas distintas de construir em cima: modificar as próprias mágicas, disparar quando são lançadas, importar-se com qualquer mágica, pôr bônus em permanentes que reagem a elas, ou interagir com elas depois de irem para o cemitério. Uma sobreposição fina fica trabalhável assim que você para de tratá-la como uma ideia só.",
+          "flavor": "Uma coisa em comum, e cinco maneiras diferentes de tirar algo dela."
+        },
+        {
+          "title": "A restrição prende só na metade maior",
+          "rules": "A mecânica tem um modo pequeno e um grande, e o problema de raridade é que os dois têm de pertencer ao lugar onde a carta está. A resolução é assimétrica: no nível de entrada as duas metades têm de ser aceitáveis ali, então enumeraram quais efeitos grandes já existiam naquele nível e trabalharam a partir dessa lista. Mais acima, só a metade grande precisa caber; a pequena pode ser emprestada de baixo. Descubra a qual ponta da faixa a sua restrição de fato se aplica antes de racionar as duas.",
+          "flavor": "No topo, o modo pequeno pode ser um comum. Embaixo, o modo grande não pode ser um raro."
+        },
+        {
+          "title": "Acrescente o parâmetro agora, mesmo no valor neutro, para o futuro poder movê-lo",
+          "rules": "O custo extra da mecânica anterior foi introduzido no desenvolvimento embora estivesse fixado para igualar exatamente o custo da própria carta toda vez — funcionalmente nada. O motivo era que achavam que a mecânica tinha boa chance de voltar, e um custo separado que por acaso é igual é trivialmente ajustável depois, enquanto uma mecânica cravada para reutilizar o mesmo número não é. Instalar o botão enquanto ele ainda é de graça sai mais barato que adaptá-lo depois.",
+          "flavor": "Um custo que igualava o outro custo, impresso mesmo assim, para que um dia não precisasse igualar."
+        },
+        {
+          "title": "Codifique na restrição de alvo a decisão que você não quer que os jogadores tomem",
+          "rules": "O problema de processamento da mecânica posterior era que um jogador podia ter de descobrir se sequer queria o modo grande, já que ele podia atingir também as coisas dele. Decidiram que ela essencialmente nunca deveria ser uma desvantagem, e implementaram essa decisão no alvo: a carta diz para o que pode apontar, então a versão ampliada atinge automaticamente o lado certo. Uma restrição escrita na linha de alvo remove um cálculo em vez de acrescentar uma regra.",
+          "flavor": "«Criatura alvo que você não controla» é um parágrafo inteiro de deliberação do jogador, apagado."
+        },
+        {
+          "title": "As notas que você escreveu anos atrás são a especificação quando a ideia volta",
+          "rules": "A mecânica chegou como entrega de concurso oito anos antes de ser publicada. Os jurados gostaram do conceito e todos chegaram à mesma crítica: os efeitos escolhidos estavam errados, e a mecânica só podia funcionar no nível de entrada se os dois modos fossem aceitáveis ali. Quando o mesmo designer a repropôs anos depois, era exatamente essa a dificuldade que a equipe teve de resolver. A resposta dele na reunião foram três palavras — eu me lembro disso — e a crítica antiga foi o briefing.",
+          "flavor": "Oito anos entre a anotação e a impressão, e a anotação ainda descrevia o serviço."
+        },
+        {
+          "title": "Publique um veredicto permanente sobre cada componente antigo, com o motivo anexado",
+          "rules": "Perguntado sobre quais das dez mecânicas de um bloco poderiam voltar, ele responde as dez de uma vez, cada uma com um motivo de uma oração: repetição de jogo, confusão e simpatia, uma categoria em recuo, margem de potência insuficiente, má recepção somada a espaço limitado. Ninguém precisa perguntar de novo, e quem propuser uma delas sabe de antemão contra o que tem de argumentar. Uma disposição publicada é um artefato mais barato que uma série de conversas individuais.",
+          "flavor": "Dez veredictos, dez motivos, um parágrafo."
+        },
+        {
+          "title": "A mesma identidade se expressa de modo diferente conforme o controle que o jogador tem",
+          "rules": "Este par é o mais «construa em torno de mim» dos dez num contexto construído: comece com uma carta de potencial grandioso e monte o resto em volta. No jogo limitado esse caráter em boa parte desaparece, e ele dá o mecanismo: a sensibilidade exige controle sobre quais cartas você tem, e com muito menos controle o par recai na conexão mecânica em vez da personalidade. Uma identidade baseada em montagem deliberada precisa que o jogador seja quem monta.",
+          "flavor": "O cientista maluco precisa de um laboratório cujo equipamento ele escolheu."
+        },
+        {
+          "title": "Uma alocação pode ser feita para viabilizar um ciclo, e não pelos méritos próprios",
+          "rules": "Ao explicar qual cor recupera qual tipo de carta do cemitério, ele dá uma razão que não é sobre nenhuma cor em particular: há vezes em que querem um ciclo no qual cada cor recupera um tipo diferente, e as atribuições foram feitas para que esse ciclo fosse possível. A reivindicação de uma cor existe porque as outras quatro já tinham pegado a delas. Algumas regras do seu sistema estão ali para tornar um padrão completável, e vale saber quais.",
+          "flavor": "Alguém tinha de ficar com as sobras, e foi assim que as sobras viraram uma regra."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "设计伊捷",
+      "dek": "双色搭配专栏的第三篇：全游戏唯一一对完全没有共享生物关键字的搭配；以及一个花了八年才付印的机制——因为当年评审的意见第一次就说对了。",
+      "overview": "把五个颜色按「各自能拿到多少生物」排序，再把这张表倒过来读，你得到的就是「谁拿到最多咒语」的排序——这也是为什么这一对只关于咒语，别无其他。按他的列表，它同时还是唯一一对在常青生物关键字上零重叠的搭配，这让混血牌变得真正困难。于是这条纽带必须被制造出来，而他列举了五种不同的做法。文章后半追溯了一个机制：它来自八年前的一份参赛作业，而当年的评审已经精准指出了最终那个上市版本必须解决的困难。",
+      "takeaway": "在几乎毫无共享的前提下，这里的一切都是被建造出来而不是被发现的：两个颜色之间的纽带、可用效果的清单，以及那些让这个机制永远不至于成为负担的指定目标限制。",
+      "lessons": [
+        {
+          "title": "一张排好序的表倒过来读，就给出了互补的那份分配",
+          "rules": "他按「各自拿到多少生物」把五个颜色排了序，并指出——绝非巧合——把这张表倒过来，就得到了咒语的排序。一张表底部的那两个，正是另一张表顶部的那两个，而这正是它们成为「咒语色」的原因。当一个系统要把固定的额度分给两个互相竞争的类别时，一份排序就等于两份排序，而你不必去测量第二份。",
+          "flavor": "生物最少，咒语最多。同一张表，倒过来看。"
+        },
+        {
+          "title": "重叠最少的那一对，正是「共享异能」这件工具没有原料可用的那一对",
+          "rules": "他把每一个出现在两个或更多颜色里的常青生物关键字都列了出来，并归到各自对应的搭配下。每一种组合都拿到了点什么——唯独这一对什么也没有。他点出了那个具体的后果：这对混血牌尤其难受，因为在那里，一个共享的异能是唯一可用的材料。在假定某项技法可用之前，先确认你手上这一对，是否具备这项技法所消耗的那份原料。",
+          "flavor": "十对搭配，表上九个条目，还有一行空白。"
+        },
+        {
+          "title": "当两方几乎毫无共享时，就把「连接它们唯一共享之物」的各种方式列出来",
+          "rules": "两个颜色都喜欢施放咒语，理由却完全不同——而共同点到此为止。他没有把这当成一个选项，而是列出了在其上施工的五种不同方式：改造咒语本身、在咒语被施放时触发、在乎任何一种咒语、把加成放在会对咒语作出反应的永久物上，或者在咒语进入坟场之后与之互动。一片很薄的重叠，只要你不再把它当作一个想法来对待，就变得可以施工。",
+          "flavor": "只有一样共同点，却有五种不同的方式从中做出东西来。"
+        },
+        {
+          "title": "这条约束只捆住更大的那一半",
+          "rules": "这个机制有一个小模式和一个大模式，而稀有度上的问题是：两者都必须属于这张牌所在的位置。解法是不对称的：在入门稀有度上，两半都必须在那里说得过去，所以他们把那个稀有度上已经存在的大效果一一列出，并从那份清单出发。往上走，只有大的那一半必须合身；小的那一半可以从更低处借。在对两端都做配给之前，先弄清你的约束究竟适用于区间的哪一端。",
+          "flavor": "在上面，小模式可以是一张普通位的牌。在下面，大模式不能是一张稀有位的牌。"
+        },
+        {
+          "title": "现在就把这个参数加上，哪怕它取的是等值，好让未来能挪动它",
+          "rules": "更早那个机制的额外费用是在开发阶段加进去的，尽管它被设定为每一次都恰好等于这张牌自身的费用——功能上等于没有。理由是：他们判断这个机制颇有可能回归，而一个「恰好相等的独立费用」日后调整起来是件小事，可一个被写死为「重复使用同一个数字」的机制却不是。趁这个旋钮还免费的时候把它装上，比事后再加装便宜。",
+          "flavor": "一个与另一个费用相等的费用，照样印了出来——好让它有朝一日可以不相等。"
+        },
+        {
+          "title": "把你不希望玩家去做的那个决定，写进指定目标的限制里",
+          "rules": "后来那个机制在处理负担上的问题是：玩家可能得先判断自己到底想不想用大模式，因为它也可能打到自己的东西。他们决定它基本上永远不该成为负担，并把这个决定落实在了目标上：牌面写明它能指向谁的东西，于是放大之后的版本自动只打向正确的那一边。写在目标那一行里的限制，去掉的是一次计算，而不是增加了一条规则。",
+          "flavor": "「目标由你不操控的生物」——一整段玩家的心理挣扎，被删掉了。"
+        },
+        {
+          "title": "你多年前写下的评语，就是这个想法回来时的规格书",
+          "rules": "这个机制是在它付印的八年前，作为一份参赛作业出现的。评审们喜欢这个概念，而且都落在同一条批评上：所选的效果不对，而这个机制只有在两个模式都能在入门稀有度上说得过去时，才可能用在那里。当同一位设计师多年后再次提出它时，团队要解决的恰恰就是那个困难。他在会上的回应只有三个字——「我记得」——而那条旧评语就是任务书。",
+          "flavor": "从那条评语到付印隔了八年，而那条评语仍然在描述这份工作。"
+        },
+        {
+          "title": "为每一个旧部件公开一份长期结论，并附上理由",
+          "rules": "被问到某个环境的十个机制里哪些可能回归时，他一口气把十个全答了，每一个都配上一句话的理由：对局重复性、令人困惑且不讨喜、某个类别正在收缩、强度上没有余量、口碑不佳外加空间有限。没有人需要再问一遍，而任何想提出其中之一的人，事先就知道自己要论证的是什么。一份公开的处置意见，是比一连串一对一谈话更便宜的物件。",
+          "flavor": "十个结论，十条理由，一个段落。"
+        },
+        {
+          "title": "同一种身份，会随着玩家掌握多少控制权而表达得不同",
+          "rules": "在构筑的语境里，这一对是十对中最「围着我来搭牌组」的：从一张潜力宏大的牌出发，把其余一切围绕它组装起来。而在限制赛里，这份性格在很大程度上消失了；他给出了机制：这种敏感性要求你能控制自己拥有哪些牌，而在控制权少得多的情况下，这一对会退回到机制层面的连接，而不是那份人格。一个建立在「刻意组装」之上的身份，需要那个组装者是玩家本人。",
+          "flavor": "疯狂科学家需要一间由他自己挑选设备的实验室。"
+        },
+        {
+          "title": "一次分配可以是为了让某个循环成立，而不是因为它自身的道理",
+          "rules": "在解释「哪个颜色从坟场取回哪种牌型」时，他给出的理由与任何单个颜色都无关：有些时候他们想要一个「每个颜色各取回一种牌型」的循环，而这些归属正是为了让那个循环成为可能才定下来的。某个颜色的这份权利之所以存在，是因为另外四个已经先把自己的那份拿走了。你系统里的某些规则之所以在那儿，是为了让一个图案能被补全——而知道是哪些规则很有价值。",
+          "flavor": "总得有人分到剩下的那份，而剩下的那份就这样变成了一条规则。"
+        }
+      ]
+    }
+  }
+}
