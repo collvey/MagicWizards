@@ -1,0 +1,307 @@
+{
+  "id": "amonkhet-talking-part-3-2017-05-08",
+  "slug": "amonkhet-talking-part-3-2017-05-08",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2017-05-08",
+  "series": { "id": "amonkhet-talking", "order": 3, "total": 3 },
+  "tags": [
+    "amonkhet",
+    "card-design",
+    "top-down-design",
+    "planeswalkers",
+    "design-space",
+    "characters"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/amonkhet-talking-part-3-2017-05-08",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T12:47:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Amonkhet Talking, Part 3",
+      "dek": "A source can be rich in imagery and poor in characters — and Amonkhet was the first time R&D hit that particular wall.",
+      "overview": "The last of Amonkhet's card stories: what to do when a mythology has no famous people left, why Ramesses II couldn't be used, and the first X in a planeswalker's mana cost.",
+      "takeaway": "\"The only characters people knew at all… were the gods, and they were already being incorporated into the Amonkhet Gods. So we turned to history.\"",
+      "lessons": [
+        {
+          "title": "A source has two separate supplies, and one can run out while the other is abundant",
+          "rules": "Texture — the objects, places and imagery — and named figures are different resources. A subject can be famous for its texture and have almost no people your audience could name. Audit both before committing, and know where the substitute figures will come from.",
+          "flavor": "“Egyptian mythology and history provided a lot of broad influences (mummies, pyramids, deserts, hieroglyphics) that let us make cards.” But Innistrad had Dracula and Frankenstein; Theros had Icarus and Medusa. “The only characters people knew at all… were the gods, and they were already being incorporated. So we turned to history.”"
+        },
+        {
+          "title": "Fame doesn't imply a translatable action",
+          "rules": "Being iconic and being adaptable are unrelated. Before committing to a figure, ask what verb they supply — what they actually did that your medium can express. Some of the most recognizable names have no answer to that question.",
+          "flavor": "“Cleopatra VII Philopator lived from 69 BC to 30 BC. At eighteen, she became leader of Egypt and has gone on to become a historically iconic figure featured in over a dozen films. Designing her proved a challenge, though, because what exactly did Cleopatra do that translates into a Magic card? She was a leader.”"
+        },
+        {
+          "title": "A figure's defining conflict can be incompatible with your premise",
+          "rules": "Famous people come with the story that made them famous, and it may contradict something your setting has already established. Check the popular version against your premise, not against the historical record — and be prepared to lose the figure.",
+          "flavor": "“The Ramesses character was problematic. The pop culture portrayal of Ramesses revolved around him treating his people (a subset of them) badly and them suffering. The people of Amonkhet gladly embraced what is being asked of them.” Cleopatra and King Tut found homes; Ramesses didn't."
+        },
+        {
+          "title": "Make each part work in the narrow deck and in a generic one",
+          "rules": "A build-around whose abilities only function inside its own strategy is unplayable everywhere else, which is most places. Write each ability so it's generally useful and better in the intended deck — the theme comes from the aggregate, not from any one restriction.",
+          "flavor": "Liliana in a Zombie world: the +1 makes a Zombie, the ultimate destroys all non-Zombies, the minus reanimates as a Zombie. “As she's a much beloved character, we wanted to make sure the design still enabled her to be played in a large amount of black decks.”"
+        },
+        {
+          "title": "Thematic connection is not mechanical connection — test the pairs",
+          "rules": "Elements that all reference the same idea can still fail to interact. Take them two at a time and ask what one does for the other; if the answer is nothing, the coherence is decorative, and one small rider usually fixes it.",
+          "flavor": "“The card was close, but there was one small problem. The first and second abilities didn't synergize. Yes, they both made Zombies, which was thematically connected, and they both worked with the ultimate, but the two didn't interact mechanically. The solution to this problem was to add a rider to the first ability.”"
+        },
+        {
+          "title": "Conserve hardest in the most popular category with the least room",
+          "rules": "Resource management across years means spending most carefully where demand is highest and space is smallest — which is often the same place, because popularity is what exhausted it. Name that category explicitly and treat every use of it as a withdrawal.",
+          "flavor": "“One of my jobs as head designer is conserving design space. We plan to keep making Magic for years and years to come. At 600-plus new card designs a year, that requires a lot of resource management. One of my biggest concerns has always been planeswalkers. It's our most popular card type, and it has the smallest amount of design space.”"
+        },
+        {
+          "title": "Spend a long-deferred first on the use that's obvious",
+          "rules": "When you finally do something for the first time after years of putting it off, the debut should be the version nobody has to have explained. Save the clever applications for later, once the basic form has taught people what it means.",
+          "flavor": "“Finally, it was decided it was time to put an X in a planeswalker mana cost. (We've done an X in a loyalty payment cost many times.) The obvious choice for our first use was to have X be the loyalty count. Pay X and the planeswalker” arrives with that much loyalty."
+        },
+        {
+          "title": "Rules-legal and comprehensible are different tests",
+          "rules": "That the system can resolve something is the lower bar. Ask separately whether people will be able to hold it in their heads — and accept the restriction even when you can point to the rule that would have handled it.",
+          "flavor": "“We didn't want to use an X in an activation cost because we were worried it would cause confusion (yes, as long as X is the same variable the rules can handle it, but experience has shown us time and again that variables are one of the most confusing things in the game for a lot of players).”"
+        },
+        {
+          "title": "Express a quality by shopping the existing vocabulary, then extend it outward",
+          "rules": "For a character defined by one trait, first sweep everything the system already has that means that trait and take what fits. Then push the same trait past the character onto what surrounds them — the second step is what turns a statline into a portrait.",
+          "flavor": "Samut is a speedster. “The first thing we did was look at all the evergreen mechanics available as primary or secondary to red or green.” Then: “We added the ‘other creatures you control have haste' to imply that she could speedily carry allies around. The activation was added to similarly imply that she was using speed to help others.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Hablando de Amonkhet, parte 3",
+      "dek": "Una fuente puede ser rica en imágenes y pobre en personajes, y Amonkhet fue la primera vez que I+D chocó con ese muro concreto.",
+      "overview": "Las últimas historias de cartas de Amonkhet: qué hacer cuando a una mitología no le quedan personas famosas, por qué no se pudo usar a Ramsés II, y la primera X en el coste de maná de un planeswalker.",
+      "takeaway": "«Los únicos personajes que la gente conocía… eran los dioses, y ya se estaban incorporando a los dioses de Amonkhet. Así que recurrimos a la historia.»",
+      "lessons": [
+        {
+          "title": "Una fuente tiene dos suministros separados, y uno puede agotarse mientras el otro abunda",
+          "rules": "La textura —los objetos, lugares e imágenes— y las figuras con nombre son recursos distintos. Un tema puede ser famoso por su textura y no tener casi ninguna persona que tu público sepa nombrar. Audita ambos antes de comprometerte y sabe de dónde vendrán las figuras sustitutas.",
+          "flavor": "«La mitología y la historia egipcias aportaban muchas influencias amplias (momias, pirámides, desiertos, jeroglíficos) que nos permitían hacer cartas.» Pero Innistrad tenía a Drácula y Frankenstein; Theros, a Ícaro y Medusa. «Los únicos personajes que la gente conocía eran los dioses, y ya se estaban incorporando.»"
+        },
+        {
+          "title": "La fama no implica una acción traducible",
+          "rules": "Ser icónico y ser adaptable no guardan relación. Antes de comprometerte con una figura, pregunta qué verbo aporta: qué hizo realmente que tu medio pueda expresar. Algunos de los nombres más reconocibles no tienen respuesta a esa pregunta.",
+          "flavor": "«Cleopatra VII Filopátor vivió del 69 a.C. al 30 a.C. A los dieciocho se convirtió en gobernante de Egipto y ha pasado a ser una figura históricamente icónica presente en más de una docena de películas. Diseñarla resultó un reto: ¿qué hizo exactamente Cleopatra que se traduzca en una carta? Fue una líder.»"
+        },
+        {
+          "title": "El conflicto que define a una figura puede ser incompatible con tu premisa",
+          "rules": "Las personas famosas vienen con la historia que las hizo famosas, y puede contradecir algo que tu escenario ya ha establecido. Comprueba la versión popular contra tu premisa, no contra el registro histórico, y prepárate para perder a la figura.",
+          "flavor": "«El personaje de Ramsés era problemático. El retrato popular de Ramsés giraba en torno a que trataba mal a su pueblo (a una parte de él) y este sufría. La gente de Amonkhet abraza gustosa lo que se le pide.» Cleopatra y Tutankamón encontraron sitio; Ramsés no."
+        },
+        {
+          "title": "Haz que cada pieza funcione en el mazo estrecho y en uno genérico",
+          "rules": "Una carta para construir alrededor cuyas habilidades solo funcionan dentro de su propia estrategia es injugable en todo lo demás, que es casi todo. Escribe cada habilidad para que sea útil en general y mejor en el mazo previsto: el tema sale del conjunto, no de ninguna restricción concreta.",
+          "flavor": "Liliana en un mundo de zombis: el +1 hace un zombi, el definitivo destruye todo lo no zombi, el negativo reanima como zombi. «Al ser un personaje muy querido, queríamos asegurarnos de que el diseño le permitiera jugarse en muchos mazos negros.»"
+        },
+        {
+          "title": "La conexión temática no es conexión mecánica: prueba las parejas",
+          "rules": "Elementos que remiten todos a la misma idea pueden aun así no interactuar. Tómalos de dos en dos y pregunta qué hace uno por el otro; si la respuesta es nada, la coherencia es decorativa, y una pequeña coletilla suele arreglarlo.",
+          "flavor": "«La carta estaba cerca, pero había un pequeño problema. La primera y la segunda habilidad no tenían sinergia. Sí, ambas hacían zombis, lo cual estaba conectado temáticamente, y ambas funcionaban con el definitivo, pero las dos no interactuaban mecánicamente. La solución fue añadir una coletilla a la primera.»"
+        },
+        {
+          "title": "Conserva con más fuerza en la categoría más popular y con menos sitio",
+          "rules": "Gestionar recursos a lo largo de años significa gastar con más cuidado donde la demanda es mayor y el espacio menor, que suele ser el mismo sitio, porque fue la popularidad lo que lo agotó. Nombra esa categoría explícitamente y trata cada uso como una retirada de fondos.",
+          "flavor": "«Uno de mis trabajos como diseñador jefe es conservar espacio de diseño. Pensamos seguir haciendo Magic durante años y años. A más de 600 diseños nuevos al año, eso exige mucha gestión de recursos. Una de mis mayores preocupaciones siempre han sido los planeswalkers.»"
+        },
+        {
+          "title": "Gasta un «primero» largamente aplazado en el uso obvio",
+          "rules": "Cuando por fin haces algo por primera vez tras años posponiéndolo, el debut debería ser la versión que nadie necesita que le expliquen. Guarda las aplicaciones ingeniosas para después, cuando la forma básica ya haya enseñado qué significa.",
+          "flavor": "«Por fin se decidió que era hora de poner una X en el coste de maná de un planeswalker. (X en un coste de pago de lealtad lo hemos hecho muchas veces.) La opción obvia para nuestro primer uso era que X fuera el recuento de lealtad.»"
+        },
+        {
+          "title": "Legal según las reglas y comprensible son pruebas distintas",
+          "rules": "Que el sistema pueda resolver algo es el listón bajo. Pregunta por separado si la gente podrá sostenerlo en la cabeza, y acepta la restricción incluso cuando puedas señalar la regla que lo habría gestionado.",
+          "flavor": "«No queríamos usar una X en un coste de activación porque temíamos que causara confusión (sí, mientras X sea la misma variable las reglas pueden manejarlo, pero la experiencia nos ha demostrado una y otra vez que las variables son de las cosas más confusas del juego para mucha gente).»"
+        },
+        {
+          "title": "Expresa una cualidad comprando en el vocabulario existente y luego extendiéndola hacia fuera",
+          "rules": "Para un personaje definido por un rasgo, barre primero todo lo que el sistema ya tiene que signifique ese rasgo y coge lo que encaje. Después empuja el mismo rasgo más allá del personaje, hacia lo que le rodea: ese segundo paso es lo que convierte una línea de estadísticas en un retrato.",
+          "flavor": "Samut es veloz. «Lo primero que hicimos fue mirar todas las mecánicas perennes disponibles como primarias o secundarias en rojo o verde.» Luego: «Añadimos “las otras criaturas que controlas tienen prisa” para implicar que podía llevar aliados a toda velocidad.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Parlons d'Amonkhet, partie 3",
+      "dek": "Une source peut être riche en images et pauvre en personnages — et Amonkhet fut la première fois que la R&D heurta ce mur-là.",
+      "overview": "Les dernières histoires de cartes d'Amonkhet : que faire quand une mythologie n'a plus de gens célèbres, pourquoi Ramsès II était inutilisable, et le premier X dans le coût de mana d'un planeswalker.",
+      "takeaway": "« Les seuls personnages que les gens connaissaient… étaient les dieux, et ils étaient déjà intégrés aux dieux d'Amonkhet. Nous nous sommes donc tournés vers l'histoire. »",
+      "lessons": [
+        {
+          "title": "Une source a deux réserves distinctes, et l'une peut s'épuiser quand l'autre abonde",
+          "rules": "La texture — objets, lieux, imagerie — et les figures nommées sont des ressources différentes. Un sujet peut être célèbre pour sa texture et n'offrir presque aucune personne que votre public saurait nommer. Auditez les deux avant de vous engager.",
+          "flavor": "« La mythologie et l'histoire égyptiennes fournissaient beaucoup d'influences larges (momies, pyramides, déserts, hiéroglyphes) permettant de faire des cartes. » Mais Innistrad avait Dracula et Frankenstein ; Theros, Icare et Méduse. « Les seuls personnages connus étaient les dieux, déjà intégrés. »"
+        },
+        {
+          "title": "La célébrité n'implique pas une action traduisible",
+          "rules": "Être iconique et être adaptable sont sans rapport. Avant de vous engager sur une figure, demandez quel verbe elle fournit : ce qu'elle a réellement fait que votre médium sache exprimer. Certains des noms les plus reconnaissables n'ont pas de réponse.",
+          "flavor": "« Cléopâtre VII Philopator a vécu de 69 à 30 av. J.-C. À dix-huit ans elle devint souveraine d'Égypte et est devenue une figure historiquement iconique présente dans plus d'une douzaine de films. La concevoir s'est avéré ardu : qu'a exactement fait Cléopâtre qui se traduise en carte ? Elle a dirigé. »"
+        },
+        {
+          "title": "Le conflit qui définit une figure peut être incompatible avec votre prémisse",
+          "rules": "Les gens célèbres arrivent avec l'histoire qui les a rendus célèbres, et elle peut contredire ce que votre cadre a déjà posé. Confrontez la version populaire à votre prémisse, non au dossier historique — et préparez-vous à perdre la figure.",
+          "flavor": "« Le personnage de Ramsès posait problème. Le portrait qu'en donne la culture populaire tourne autour du mauvais traitement qu'il inflige à son peuple (à une partie) et de sa souffrance. Le peuple d'Amonkhet embrasse volontiers ce qu'on lui demande. » Cléopâtre et Toutankhamon ont trouvé place ; Ramsès non."
+        },
+        {
+          "title": "Faites que chaque pièce fonctionne dans le deck étroit et dans un deck générique",
+          "rules": "Une carte-pivot dont les capacités ne fonctionnent que dans sa propre stratégie est injouable partout ailleurs, c'est-à-dire presque partout. Écrivez chaque capacité pour qu'elle soit utile en général et meilleure dans le deck visé : le thème vient de l'ensemble.",
+          "flavor": "Liliana dans un monde de zombies : le +1 fait un zombie, l'ultime détruit tout ce qui n'en est pas, la capacité négative réanime en zombie. « Comme c'est un personnage très aimé, nous voulions que la conception lui permette d'être jouée dans beaucoup de decks noirs. »"
+        },
+        {
+          "title": "Un lien thématique n'est pas un lien mécanique — testez les paires",
+          "rules": "Des éléments qui renvoient tous à la même idée peuvent malgré tout ne pas interagir. Prenez-les deux par deux et demandez ce que l'un fait pour l'autre ; si la réponse est rien, la cohérence est décorative, et une petite clause suffit d'ordinaire à corriger.",
+          "flavor": "« La carte y était presque, mais il restait un petit problème. Les première et deuxième capacités n'avaient pas de synergie. Oui, toutes deux faisaient des zombies, ce qui les liait thématiquement, et toutes deux servaient l'ultime, mais elles n'interagissaient pas mécaniquement. »"
+        },
+        {
+          "title": "Économisez le plus dans la catégorie la plus populaire et la plus étroite",
+          "rules": "Gérer une ressource sur des années, c'est dépenser le plus prudemment là où la demande est la plus forte et l'espace le plus réduit — souvent le même endroit, car c'est la popularité qui l'a épuisé. Nommez cette catégorie et traitez chaque usage comme un retrait.",
+          "flavor": "« L'un de mes rôles de concepteur en chef est de préserver l'espace de conception. Nous comptons continuer à faire Magic pendant des années. À plus de 600 conceptions nouvelles par an, cela demande beaucoup de gestion. Les planeswalkers ont toujours été l'une de mes plus grandes inquiétudes. »"
+        },
+        {
+          "title": "Dépensez une « première fois » longtemps différée sur l'usage évident",
+          "rules": "Quand vous faites enfin une chose pour la première fois après des années de report, le début devrait être la version que personne n'a besoin de se faire expliquer. Gardez les applications malignes pour plus tard, une fois la forme de base assimilée.",
+          "flavor": "« Il fut enfin décidé qu'il était temps de mettre un X dans le coût de mana d'un planeswalker. (Un X dans un coût de loyauté, nous l'avons fait bien des fois.) Le choix évident pour ce premier usage était que X soit le compteur de loyauté. »"
+        },
+        {
+          "title": "Conforme aux règles et compréhensible sont deux tests différents",
+          "rules": "Que le système sache résoudre une chose est la barre basse. Demandez séparément si les gens pourront la tenir en tête — et acceptez la restriction même quand vous pouvez désigner la règle qui l'aurait gérée.",
+          "flavor": "« Nous ne voulions pas de X dans un coût d'activation, de peur que cela sème la confusion (oui, tant que X est la même variable les règles gèrent, mais l'expérience nous a montré maintes fois que les variables sont l'une des choses les plus déroutantes du jeu pour beaucoup de joueurs). »"
+        },
+        {
+          "title": "Exprimez une qualité en puisant dans le vocabulaire existant, puis en l'étendant au dehors",
+          "rules": "Pour un personnage défini par un trait, balayez d'abord tout ce que le système possède déjà qui signifie ce trait et prenez ce qui convient. Puis poussez le même trait au-delà du personnage, sur ce qui l'entoure : ce second pas transforme une ligne de statistiques en portrait.",
+          "flavor": "Samut est une sprinteuse. « La première chose que nous avons faite fut de passer en revue toutes les mécaniques permanentes disponibles en primaire ou secondaire au rouge ou au vert. » Puis : « Nous avons ajouté “les autres créatures que vous contrôlez ont la célérité” pour suggérer qu'elle emmenait ses alliés à toute vitesse. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Falando de Amonkhet, parte 3",
+      "dek": "Uma fonte pode ser rica em imagens e pobre em personagens — e Amonkhet foi a primeira vez que a P&D bateu nessa parede específica.",
+      "overview": "As últimas histórias de cartas de Amonkhet: o que fazer quando uma mitologia não tem mais gente famosa, por que Ramsés II não pôde ser usado, e o primeiro X no custo de mana de um planeswalker.",
+      "takeaway": "“Os únicos personagens que as pessoas conheciam… eram os deuses, e eles já estavam sendo incorporados aos deuses de Amonkhet. Então recorremos à história.”",
+      "lessons": [
+        {
+          "title": "Uma fonte tem dois estoques separados, e um pode acabar enquanto o outro é abundante",
+          "rules": "Textura — objetos, lugares e imagens — e figuras nomeadas são recursos diferentes. Um tema pode ser famoso pela textura e quase não ter pessoas que o seu público saberia nomear. Audite os dois antes de se comprometer.",
+          "flavor": "“A mitologia e a história egípcias forneciam muitas influências amplas (múmias, pirâmides, desertos, hieróglifos) que nos deixavam fazer cartas.” Mas Innistrad tinha Drácula e Frankenstein; Theros, Ícaro e Medusa. “Os únicos personagens que as pessoas conheciam eram os deuses, e já estavam sendo incorporados.”"
+        },
+        {
+          "title": "Fama não implica uma ação traduzível",
+          "rules": "Ser icônico e ser adaptável não têm relação. Antes de se comprometer com uma figura, pergunte que verbo ela fornece: o que ela de fato fez que o seu meio consegue expressar. Alguns dos nomes mais reconhecíveis não têm resposta para isso.",
+          "flavor": "“Cleópatra VII Filopátor viveu de 69 a.C. a 30 a.C. Aos dezoito virou líder do Egito e se tornou uma figura historicamente icônica presente em mais de uma dúzia de filmes. Projetá-la foi um desafio: o que exatamente Cleópatra fez que se traduza numa carta de Magic? Ela liderou.”"
+        },
+        {
+          "title": "O conflito que define uma figura pode ser incompatível com a sua premissa",
+          "rules": "Pessoas famosas vêm com a história que as tornou famosas, e ela pode contradizer algo que o seu cenário já estabeleceu. Confira a versão popular contra a sua premissa, não contra o registro histórico — e esteja pronto para perder a figura.",
+          "flavor": "“O personagem Ramsés era problemático. O retrato dele na cultura pop girava em torno de ele tratar mal o próprio povo (uma parte dele) e do sofrimento dessas pessoas. O povo de Amonkhet abraça de bom grado o que lhe é pedido.” Cleópatra e Tutancâmon acharam lugar; Ramsés não."
+        },
+        {
+          "title": "Faça cada peça funcionar no deck estreito e num genérico",
+          "rules": "Uma carta-pivô cujas habilidades só funcionam dentro da própria estratégia é injogável em todo o resto, que é quase tudo. Escreva cada habilidade para ser útil em geral e melhor no deck pretendido: o tema vem do conjunto, não de nenhuma restrição isolada.",
+          "flavor": "Liliana num mundo de zumbis: o +1 faz um zumbi, a suprema destrói tudo que não é zumbi, a negativa reanima como zumbi. “Como ela é uma personagem muito querida, queríamos garantir que o design ainda permitisse jogá-la em muitos decks pretos.”"
+        },
+        {
+          "title": "Conexão temática não é conexão mecânica — teste os pares",
+          "rules": "Elementos que remetem todos à mesma ideia podem ainda assim não interagir. Pegue-os dois a dois e pergunte o que um faz pelo outro; se a resposta for nada, a coerência é decorativa, e uma pequena cláusula costuma resolver.",
+          "flavor": "“A carta estava perto, mas havia um probleminha. A primeira e a segunda habilidade não tinham sinergia. Sim, as duas faziam zumbis, o que as ligava tematicamente, e as duas serviam à suprema, mas elas não interagiam mecanicamente. A solução foi acrescentar uma cláusula à primeira.”"
+        },
+        {
+          "title": "Economize com mais rigor na categoria mais popular e com menos espaço",
+          "rules": "Gerir recurso ao longo de anos significa gastar com mais cuidado onde a demanda é maior e o espaço é menor — em geral o mesmo lugar, porque foi a popularidade que o esgotou. Nomeie essa categoria e trate cada uso como um saque.",
+          "flavor": "“Um dos meus trabalhos como designer-chefe é conservar espaço de design. Pretendemos seguir fazendo Magic por muitos e muitos anos. A mais de 600 designs novos por ano, isso exige muita gestão de recursos. Uma das minhas maiores preocupações sempre foram os planeswalkers.”"
+        },
+        {
+          "title": "Gaste um “primeiro” longamente adiado no uso óbvio",
+          "rules": "Quando você enfim faz algo pela primeira vez depois de anos adiando, a estreia deveria ser a versão que ninguém precisa que expliquem. Guarde as aplicações espertas para depois, quando a forma básica já tiver ensinado o que aquilo significa.",
+          "flavor": "“Finalmente foi decidido que era hora de pôr um X no custo de mana de um planeswalker. (X em custo de pagamento de lealdade já fizemos muitas vezes.) A escolha óbvia para o primeiro uso era X ser a contagem de lealdade.”"
+        },
+        {
+          "title": "Legal pelas regras e compreensível são testes diferentes",
+          "rules": "Que o sistema consiga resolver algo é a barra baixa. Pergunte separadamente se as pessoas vão conseguir segurar aquilo na cabeça — e aceite a restrição mesmo quando você puder apontar a regra que teria dado conta.",
+          "flavor": "“Não queríamos usar um X num custo de ativação porque temíamos causar confusão (sim, desde que X seja a mesma variável as regras dão conta, mas a experiência nos mostrou repetidas vezes que variáveis são uma das coisas mais confusas do jogo para muita gente).”"
+        },
+        {
+          "title": "Expresse uma qualidade garimpando o vocabulário existente, depois estenda-a para fora",
+          "rules": "Para um personagem definido por um traço, varra primeiro tudo que o sistema já tem que signifique aquele traço e pegue o que servir. Depois empurre o mesmo traço para além do personagem, sobre o que o cerca: esse segundo passo é o que transforma uma linha de atributos num retrato.",
+          "flavor": "Samut é veloz. “A primeira coisa que fizemos foi olhar todas as mecânicas perenes disponíveis como primárias ou secundárias no vermelho ou no verde.” Depois: “Acrescentamos ‘as outras criaturas que você controla têm ímpeto' para sugerir que ela levava aliados em alta velocidade.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "聊聊阿芒凯，下",
+      "dek": "一份源材料可以图像丰沛而人物贫瘠——而《阿芒凯》是研发部第一次撞上这堵特定的墙。",
+      "overview": "《阿芒凯》牌张故事的最后一批：当一套神话再也拿不出有名的人物时该怎么办、为什么拉美西斯二世用不了，以及鹏洛客法术力费用里的第一个X。",
+      "takeaway": "「人们唯一多少认识的角色……就是那些神明，而他们已经被吸收进阿芒凯的诸神里了。于是我们转向了历史。」",
+      "lessons": [
+        {
+          "title": "一份源材料有两份彼此独立的存货，其中一份可以在另一份还很丰沛时就见底",
+          "rules": "质感——那些器物、地点和图像——和有名字的人物，是两种不同的资源。一个题材可以因为它的质感而出名，同时几乎拿不出一个你的受众叫得上名字的人。在下承诺之前把两者都盘一遍，并且想好替补人物从哪儿来。",
+          "flavor": "「埃及的神话与历史提供了大量宽泛的影响（木乃伊、金字塔、沙漠、象形文字），足够我们拿来做牌。」但《依尼翠》有德古拉和弗兰肯斯坦；《西奥斯》有伊卡洛斯和美杜莎。「人们唯一多少认识的角色就是那些神明，而他们已经被吸收进去了。于是我们转向了历史。」"
+        },
+        {
+          "title": "有名，并不意味着有一个可以翻译的动作",
+          "rules": "「是标志性人物」和「可被改编」之间没有关系。在为一个人物下承诺之前，先问：他提供的是哪个动词——他究竟做过什么，是你这个媒介表达得出来的？有些最叫得响的名字，对这个问题给不出答案。",
+          "flavor": "「克利奥帕特拉七世生于公元前69年，卒于公元前30年。十八岁时她成为埃及的统治者，后来成了一位登上过十几部电影的历史标志性人物。可设计她相当有挑战，因为克利奥帕特拉究竟做了什么，是能被翻译成一张万智牌的？她是个领袖。」"
+        },
+        {
+          "title": "一个人物赖以成名的那场冲突，可能和你的前提互不相容",
+          "rules": "名人是连着「让他们成名的那个故事」一起来的，而那个故事可能和你的舞台已经确立的某件事相矛盾。拿那个流行版本去对照你的前提，而不是去对照史料——并且做好失去这个人物的准备。",
+          "flavor": "「拉美西斯这个角色有问题。流行文化里对拉美西斯的刻画，围绕的是他苛待自己的人民（其中一部分人）以及那些人的苦难。而阿芒凯的人民是欣然接受被要求去做的一切的。」克利奥帕特拉和图坦卡蒙都找到了位置；拉美西斯没有。"
+        },
+        {
+          "title": "让每一块都在那副窄套牌里管用，也在一副通用套牌里管用",
+          "rules": "一张「围着它构筑」的牌，如果它的异能只在自己那套策略里起作用，那它在其余所有地方都是打不出去的——而其余所有地方才是大多数。把每个异能都写成「总体上有用、在目标套牌里更好」：主题来自总和，而不是来自任何一条限制。",
+          "flavor": "在一个僵尸世界里的莉莲娜：+1造一个僵尸，大招消灭所有非僵尸生物，负能力则把生物复生成僵尸。「因为她是一位很受喜爱的角色，我们想确保这份设计仍然让她能被放进大量的黑色套牌里。」"
+        },
+        {
+          "title": "主题上的关联不是机制上的关联——把每一对都测一遍",
+          "rules": "全都指向同一个想法的几个元素，依然可能彼此毫无互动。把它们两两取出来，问一句：这一个为那一个做了什么？如果答案是「什么都没做」，那这份一致性只是装饰性的；而通常一条小小的附加条款就能修好它。",
+          "flavor": "「这张牌已经很接近了，但还有一个小问题。第一个和第二个异能没有协同。是的，它们都造僵尸，这在主题上是相连的，而且它们都能配合大招；但这两者之间在机制上并不互动。解决这个问题的办法，是给第一个异能加一条附加条款。」"
+        },
+        {
+          "title": "在「最受欢迎、空间最小」的那个类别上省得最狠",
+          "rules": "以年为尺度做资源管理，意味着在需求最高、空间最小的地方花得最谨慎——而这往往是同一个地方，因为正是它的受欢迎程度把它耗光的。把那个类别明确点名，并且把对它的每一次动用都当成一次取款。",
+          "flavor": "「我作为总设计师的职责之一，是保育设计空间。我们打算把《万智牌》一年又一年地做下去。以每年六百多张新牌设计的速度，这需要大量的资源管理。而我最大的担忧之一一直是鹏洛客：它是我们最受欢迎的牌张类别，而它的设计空间是最小的。」"
+        },
+        {
+          "title": "把一个拖了很久的「第一次」，花在那个显而易见的用法上",
+          "rules": "当你在推迟了多年之后终于第一次做某件事时，这次首秀应该是那个「不需要任何人解释」的版本。把那些聪明的用法留到以后——等基础形态已经教会了人们它意味着什么。",
+          "flavor": "「终于有人决定，是时候在鹏洛客的法术力费用里放一个X了。（在忠诚支付费用里放X我们做过很多次。）而我们第一次使用它时，显而易见的选择就是让X等于忠诚指示物的数量。」"
+        },
+        {
+          "title": "「规则上合法」和「能被理解」是两项不同的测试",
+          "rules": "系统能把一件事结算出来，只是那条低的门槛。另外单独去问：人们能不能把它装在脑子里？——并且接受这条限制，哪怕你能指出那条本可以处理它的规则。",
+          "flavor": "「我们不想在启动式费用里用X，因为我们担心它会造成困惑（是的，只要X是同一个变量，规则处理得了；但经验一次又一次地向我们表明，对很多玩家来说，变量是这个游戏里最令人困惑的东西之一）。」"
+        },
+        {
+          "title": "先在现有的词汇里采购来表达一种气质，然后把它向外延伸",
+          "rules": "对一个由单一特质定义的角色，先把系统里所有「意味着那个特质」的东西扫一遍，挑合适的拿走。然后把同一个特质推到这个角色之外、推到他周围的东西身上——正是这第二步，把一行身材数据变成了一幅肖像。",
+          "flavor": "萨姆特是个速度型角色。「我们做的第一件事，是把红色或绿色里作为主色或次色可用的所有常青机制都看了一遍。」然后：「我们加上了『你操控的其他生物具有敏捷异能』，以暗示她能飞快地带着盟友移动。而那个启动式异能的加入，同样是为了暗示她在用速度帮助别人。」"
+        }
+      ]
+    }
+  }
+}

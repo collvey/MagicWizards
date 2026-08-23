@@ -1,0 +1,333 @@
+{
+  "id": "amonkhet-talking-part-1-2017-04-24",
+  "slug": "amonkhet-talking-part-1-2017-04-24",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2017-04-24",
+  "series": { "id": "amonkhet-talking", "order": 1, "total": 3 },
+  "tags": [
+    "amonkhet",
+    "card-design",
+    "counters",
+    "templating",
+    "color-shifting",
+    "futureshifted"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/amonkhet-talking-part-1-2017-04-24",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T12:45:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "G" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Amonkhet Talking, Part 1",
+      "dek": "Card-by-card stories from Amonkhet, A through D — including a template made deliberately redundant so people would understand it.",
+      "overview": "A colour-shift that finally put a doubler where the tokens actually are, the long list of futureshifted cards that never got pre-printed, and the card that doomed wither.",
+      "takeaway": "\"Not enough players got that the effect was referring to cycling. Eventually we decided it was better to be clear and changed the template to 'cycle or discard,' even though the 'cycling' is technically redundant.\"",
+      "lessons": [
+        {
+          "title": "Move the variant to whichever part actually produces the thing",
+          "rules": "When an effect that multiplies something moves out of its original home, don't move it by aesthetic association. Move it to wherever the underlying thing is genuinely most abundant, because that's where the effect has something to act on.",
+          "flavor": "“Anointed Procession is the first Doubling Season variant to move out of green. It is basically a color-shifted Parallel Lives. This was because white is the best color at making volumes of creature tokens, as it creates a lot of small 1/1 tokens, playing up its flavor as the army color that beats you down with a large number.”"
+        },
+        {
+          "title": "Redundancy that buys comprehension is worth the words",
+          "rules": "A wording can be technically complete and still fail, because the reader doesn't connect it to the case in front of them. Spell out the instance even when the general term already covers it — the extra words cost less than the misunderstanding.",
+          "flavor": "“Initially, the trigger just said, ‘when you discard a card' because both cycling and madness require discarding, but playtesting showed that not enough players got that the effect was referring to cycling. Eventually we decided it was better to be clear and changed the template to ‘cycle or discard,' even though the ‘cycling' is technically redundant.”"
+        },
+        {
+          "title": "A standing promise to honour old work collides with every later decision",
+          "rules": "Committing in advance to pay off earlier material sounds cheap and turns out expensive: each opportunity has to survive every independent choice made in the years between. Expect most attempts to fail, for reasons that have nothing to do with the promise.",
+          "flavor": "The pre-printing pledge for futureshifted cards. Sarcomite Myr was blocked because Esper had used coloured artifacts. Delve's three foretellers each had a different problem — an abandoned template, a card that was “too clever for its own good,” unwanted flavour. Ghostfire's colourless magic clashed with devoid meaning Eldrazi."
+        },
+        {
+          "title": "Enumerate the readings of a shared element before picking one",
+          "rules": "When two groups share a feature, that feature can be highlighted in several distinct ways, and they aren't interchangeable — some belong more to a different pairing. List the readings, and choose the one that isn't already claimed elsewhere.",
+          "flavor": "For a white-blue signpost, the shared mechanic was embalm. “You can focus on Zombie tribal, but that is more of a white-black thing as those are the two colors that naturally have Zombies. You could focus on how they are all white after embalming. You could focus on that they have an ability that works in the graveyard.”"
+        },
+        {
+          "title": "Research the source for a structural fact, not only for imagery",
+          "rules": "Most adaptation harvests a place's pictures. Its arrangements are worth more: how it was organized, what made it possible, what it depended on. Those translate into behaviour rather than decoration.",
+          "flavor": "Shawn Main's Egypt research turned up the Fertile Crescent, “vital… while being surrounded by harsh deserts.” Bounty of the Luxa is a top-down design of that: a land alternating between giving you knowledge and giving you mana, so the fertile stretch provides in turns."
+        },
+        {
+          "title": "Condense the cycle to the fewest states that still read as alternation",
+          "rules": "A rotating effect needs enough states to feel like a cycle and few enough to be tracked. Two is usually the answer, and then you can make the states unequal — the stronger outcome goes in the slot that's harder to reach.",
+          "flavor": "“Homarid was the first card to mechanically capture the feel of the tides. For Bounty of the Luxa, we condensed down to just two states, rather than four, which we then rotate between… Because the card draw was the more powerful effect, we let the” harder position carry it."
+        },
+        {
+          "title": "An inverted resource enables designs the original can't, because it's bounded",
+          "rules": "The mirror image of a growth resource isn't just growth backwards. It bottoms out, which makes it safe to hand out freely — and using it as both a cost and a payment produces exchanges the unbounded version could never be trusted with.",
+          "flavor": "“+1/+1 counters are about growth, which is basically infinite; -1/-1 counters are about shrinking.” Channeler Initiate uses them as cost and resource at once: “Using -1/-1 counters as a cost essentially lets you swap power and toughness between creatures. Using [them] as a resource has a side effect of making them act similarly to +1/+1 counters but with a built-in cap.”"
+        },
+        {
+          "title": "A colour-shift can be a pure correction with nothing else edited",
+          "rules": "Some old items sit in the wrong category for historical reasons rather than design ones. Moving them takes no rebalancing and no rewrite — the point is precisely that everything else was already right.",
+          "flavor": "“Unstable Mutation was a flavorful little card from Arabian Nights that let you pump up your creature at the long-term cost of it slowly weakening and dying. Not really a blue thing… First, we moved it to the color it should always have been in, the color of short-term thinking: red. Other than a slight tweak of flavor, the card is exactly the same.”"
+        },
+        {
+          "title": "Two uses of one resource can be individually good and mutually disabling",
+          "rules": "Check every pair of things that touch the same currency. If one use makes the resource valuable to receive, it stops the other use — which depends on the resource being unwelcome — from ever being played, and no amount of tuning either card fixes it.",
+          "flavor": "“It was ultimately this card and cards like it that doomed wither. It turned out we couldn't both aggressively put -1/-1 counters on the opponent's creatures and also use them as a resource. For example, players weren't attacking with wither creatures if their opponent had a means to turn -1/-1 counters into something of value.”"
+        },
+        {
+          "title": "When the execution already exists, the only question left is quantity",
+          "rules": "Reaching for something the system has already solved skips the hard part and hands you a different problem: how many. Answer that one explicitly, because with no design work to constrain it the count will otherwise drift.",
+          "flavor": "“I talked about how we had written Curses down on our list of top-down Egyptian things. Magic already had a mechanical execution for Curses, so it became more a question of how many did we want rather than how we represented them. In the end, we decided that a little would go a long way.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Hablando de Amonkhet, parte 1",
+      "dek": "Historias carta a carta de Amonkhet, de la A a la D, incluida una plantilla hecha redundante a propósito para que la gente la entendiera.",
+      "overview": "Un cambio de color que por fin puso un duplicador donde de verdad están las fichas, la larga lista de cartas del futuro que nunca se pre-imprimieron, y la carta que condenó a marchitar.",
+      "takeaway": "«No había bastantes jugadores que entendieran que el efecto se refería al ciclaje. Al final decidimos que era mejor ser claros y cambiamos la plantilla a “cicles o descartes”, aunque el “cicles” es técnicamente redundante.»",
+      "lessons": [
+        {
+          "title": "Mueve la variante a la parte que realmente produce la cosa",
+          "rules": "Cuando un efecto que multiplica algo sale de su hogar original, no lo muevas por asociación estética. Muévelo a donde esa cosa sea genuinamente más abundante, porque ahí es donde el efecto tiene sobre qué actuar.",
+          "flavor": "«Anointed Procession es la primera variante de Doubling Season que sale del verde. Es básicamente un Parallel Lives con cambio de color. Fue porque el blanco es el mejor color haciendo volúmenes de fichas de criatura, ya que crea muchas fichas 1/1 pequeñas, jugando con su sabor de color-ejército.»"
+        },
+        {
+          "title": "La redundancia que compra comprensión vale las palabras",
+          "rules": "Una redacción puede ser técnicamente completa y aun así fallar, porque el lector no la conecta con el caso que tiene delante. Deletrea el caso aunque el término general ya lo cubra: las palabras de más cuestan menos que el malentendido.",
+          "flavor": "«Al principio el disparo decía solo “cuando descartes una carta”, porque tanto ciclar como demencia requieren descartar, pero las pruebas mostraron que no había bastantes jugadores que entendieran que el efecto se refería al ciclaje. Al final decidimos que era mejor ser claros.»"
+        },
+        {
+          "title": "Una promesa permanente de honrar trabajo antiguo choca con cada decisión posterior",
+          "rules": "Comprometerse de antemano a pagar material anterior suena barato y sale caro: cada oportunidad tiene que sobrevivir a todas las decisiones independientes tomadas en los años intermedios. Cuenta con que la mayoría de intentos fallen, por razones que nada tienen que ver con la promesa.",
+          "flavor": "La promesa de pre-imprimir las cartas del futuro. Sarcomite Myr quedó bloqueada porque Esper ya había usado artefactos de color. Los tres precursores de excavar tenían cada uno un problema distinto: una plantilla abandonada, una carta «demasiado lista para su propio bien», un sabor no deseado."
+        },
+        {
+          "title": "Enumera las lecturas de un elemento compartido antes de elegir una",
+          "rules": "Cuando dos grupos comparten un rasgo, ese rasgo puede destacarse de varias formas distintas, y no son intercambiables: algunas pertenecen más a otra pareja. Lista las lecturas y escoge la que no esté ya reclamada en otro sitio.",
+          "flavor": "Para la carta guía blanco-azul, la mecánica compartida era embalsamar. «Puedes centrarte en el tribal de zombis, pero eso es más cosa blanco-negro, ya que esos son los dos colores que tienen zombis de forma natural. Podrías centrarte en que todos son blancos después de embalsamar. O en que tienen una habilidad que funciona en el cementerio.»"
+        },
+        {
+          "title": "Investiga la fuente buscando un hecho estructural, no solo imágenes",
+          "rules": "La mayor parte de la adaptación cosecha las imágenes de un lugar. Sus disposiciones valen más: cómo estaba organizado, qué lo hacía posible, de qué dependía. Eso se traduce en comportamiento y no en decoración.",
+          "flavor": "La investigación de Shawn Main sobre Egipto sacó el Creciente Fértil, «vital… mientras estaba rodeado de desiertos duros». Bounty of the Luxa es un diseño descendente de eso: una tierra que alterna entre darte conocimiento y darte maná, de modo que la franja fértil provee por turnos."
+        },
+        {
+          "title": "Condensa el ciclo al mínimo de estados que aún se lea como alternancia",
+          "rules": "Un efecto rotatorio necesita suficientes estados para sentirse como un ciclo y pocos para poder seguirse. Dos suele ser la respuesta, y entonces puedes hacer los estados desiguales: el resultado más fuerte va en el hueco más difícil de alcanzar.",
+          "flavor": "«Homarid fue la primera carta que capturó mecánicamente la sensación de las mareas. Para Bounty of the Luxa condensamos a solo dos estados en vez de cuatro, entre los que luego rotamos… Como robar cartas era el efecto más potente, dejamos» que lo llevara la posición más difícil."
+        },
+        {
+          "title": "Un recurso invertido permite diseños que el original no, porque está acotado",
+          "rules": "La imagen especular de un recurso de crecimiento no es solo crecimiento al revés. Toca fondo, lo que lo hace seguro de repartir; y usarlo a la vez como coste y como pago produce intercambios en los que la versión ilimitada nunca sería de fiar.",
+          "flavor": "«Los contadores +1/+1 van de crecer, que es básicamente infinito; los -1/-1 van de encoger.» Channeler Initiate los usa como coste y recurso a la vez: «Usarlos como coste te permite básicamente intercambiar fuerza y resistencia entre criaturas. Usarlos como recurso hace que actúen como +1/+1 pero con un tope incorporado.»"
+        },
+        {
+          "title": "Un cambio de color puede ser una corrección pura sin editar nada más",
+          "rules": "Algunos objetos antiguos están en la categoría equivocada por razones históricas y no de diseño. Moverlos no requiere reequilibrar ni reescribir: el sentido es precisamente que todo lo demás ya estaba bien.",
+          "flavor": "«Unstable Mutation era una cartita evocadora de Arabian Nights que te dejaba potenciar tu criatura al coste a largo plazo de que se debilitara y muriera. No es realmente cosa del azul… Primero la movimos al color en el que siempre debió estar, el color del pensamiento a corto plazo: el rojo.»"
+        },
+        {
+          "title": "Dos usos de un mismo recurso pueden ser buenos por separado y anularse entre sí",
+          "rules": "Revisa cada par de cosas que tocan la misma moneda. Si un uso hace que el recurso sea valioso de recibir, impide que el otro uso —que depende de que el recurso sea indeseado— llegue a jugarse, y ninguna cantidad de ajuste en ninguna de las dos cartas lo arregla.",
+          "flavor": "«Fueron en última instancia esta carta y cartas como esta las que condenaron a marchitar. Resultó que no podíamos a la vez poner agresivamente contadores -1/-1 en las criaturas del rival y usarlos como recurso. Los jugadores no atacaban con criaturas con marchitar si el rival podía convertir esos contadores en algo de valor.»"
+        },
+        {
+          "title": "Cuando la ejecución ya existe, la única pregunta que queda es cuántos",
+          "rules": "Echar mano de algo que el sistema ya ha resuelto se salta la parte difícil y te entrega otro problema: cuántos. Responde a ese explícitamente, porque sin trabajo de diseño que lo limite el número se irá a la deriva.",
+          "flavor": "«Conté que habíamos apuntado las maldiciones en nuestra lista de cosas egipcias para diseñar de arriba abajo. Magic ya tenía una ejecución mecánica para las maldiciones, así que pasó a ser más una cuestión de cuántas queríamos que de cómo las representábamos. Al final decidimos que pocas darían mucho.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Parlons d'Amonkhet, partie 1",
+      "dek": "Histoires carte par carte d'Amonkhet, de A à D — dont un gabarit rendu volontairement redondant pour être compris.",
+      "overview": "Un décalage de couleur qui met enfin un doubleur là où sont vraiment les jetons, la longue liste de cartes du futur jamais pré-imprimées, et la carte qui a condamné le flétrissement.",
+      "takeaway": "« Pas assez de joueurs comprenaient que l'effet parlait du recyclage. Nous avons finalement décidé qu'il valait mieux être clairs et changé le gabarit en “recyclez ou défaussez”, même si le “recyclez” est techniquement redondant. »",
+      "lessons": [
+        {
+          "title": "Déplacez la variante vers la partie qui produit réellement la chose",
+          "rules": "Quand un effet multiplicateur quitte son foyer d'origine, ne le déplacez pas par association esthétique. Mettez-le là où la chose sous-jacente est vraiment la plus abondante : c'est là qu'il aura de quoi agir.",
+          "flavor": "« Anointed Procession est la première variante de Doubling Season à sortir du vert. C'est en gros un Parallel Lives décalé en couleur. Parce que le blanc est la meilleure couleur pour produire des jetons de créature en volume : il crée beaucoup de petits 1/1, jouant sa saveur de couleur-armée. »"
+        },
+        {
+          "title": "Une redondance qui achète la compréhension vaut les mots",
+          "rules": "Une formulation peut être techniquement complète et échouer quand même, parce que le lecteur ne la relie pas au cas qu'il a sous les yeux. Explicitez l'occurrence même si le terme général la couvre déjà : les mots en trop coûtent moins que le malentendu.",
+          "flavor": "« Au départ le déclencheur disait simplement “quand vous défaussez une carte”, car le recyclage comme la démence exigent une défausse, mais les tests ont montré que pas assez de joueurs comprenaient que l'effet parlait du recyclage. »"
+        },
+        {
+          "title": "Une promesse permanente d'honorer d'anciens travaux heurte chaque décision ultérieure",
+          "rules": "S'engager d'avance à payer une matière antérieure paraît bon marché et revient cher : chaque occasion doit survivre à toutes les décisions indépendantes prises entre-temps. Attendez-vous à ce que la plupart des tentatives échouent, pour des raisons étrangères à la promesse.",
+          "flavor": "L'engagement de pré-impression des cartes du futur. Sarcomite Myr fut bloquée parce qu'Esper avait pris les artefacts colorés. Les trois annonciateurs de la fouille avaient chacun un problème différent : un gabarit abandonné, une carte « trop maligne pour son bien », une saveur non désirée."
+        },
+        {
+          "title": "Énumérez les lectures d'un élément commun avant d'en choisir une",
+          "rules": "Quand deux groupes partagent un trait, ce trait peut être mis en avant de plusieurs façons distinctes, non interchangeables : certaines appartiennent davantage à une autre paire. Listez les lectures et prenez celle qui n'est pas déjà revendiquée ailleurs.",
+          "flavor": "Pour la carte-repère blanc-bleu, la mécanique commune était l'embaumement. « On peut se concentrer sur le typal zombie, mais c'est plutôt une affaire blanc-noir. On pourrait se concentrer sur le fait qu'ils sont tous blancs après embaumement. Ou sur le fait qu'ils ont une capacité fonctionnant au cimetière. »"
+        },
+        {
+          "title": "Cherchez dans la source un fait structurel, pas seulement des images",
+          "rules": "L'adaptation moissonne le plus souvent les images d'un lieu. Ses agencements valent davantage : comment il était organisé, ce qui le rendait possible, ce dont il dépendait. Cela se traduit en comportements plutôt qu'en décor.",
+          "flavor": "Les recherches de Shawn Main ont fait surgir le Croissant fertile, « vital… tout en étant entouré de déserts rudes ». Bounty of the Luxa en est la conception descendante : un terrain alternant entre vous donner du savoir et vous donner du mana."
+        },
+        {
+          "title": "Condensez le cycle au minimum d'états qui se lise encore comme une alternance",
+          "rules": "Un effet rotatif a besoin d'assez d'états pour ressembler à un cycle et d'assez peu pour être suivi. Deux est souvent la réponse, et vous pouvez alors les rendre inégaux : le résultat le plus fort va dans la position la plus difficile à atteindre.",
+          "flavor": "« Homarid fut la première carte à saisir mécaniquement la sensation des marées. Pour Bounty of the Luxa, nous avons condensé à deux états au lieu de quatre, entre lesquels nous alternons… La pioche étant l'effet le plus puissant, nous l'avons mise » dans la position la plus dure."
+        },
+        {
+          "title": "Une ressource inversée permet des conceptions que l'originale interdit, parce qu'elle est bornée",
+          "rules": "Le miroir d'une ressource de croissance n'est pas seulement la croissance à l'envers. Elle touche un plancher, ce qui la rend sûre à distribuer ; et l'employer à la fois comme coût et comme paiement produit des échanges auxquels la version illimitée ne pourrait jamais se prêter.",
+          "flavor": "« Les marqueurs +1/+1 parlent de croissance, essentiellement infinie ; les -1/-1 parlent de rétrécissement. » Channeler Initiate les emploie comme coût et comme ressource : « Comme coût, cela revient à échanger force et endurance entre créatures. Comme ressource, ils agissent comme des +1/+1 mais avec un plafond intégré. »"
+        },
+        {
+          "title": "Un décalage de couleur peut être une correction pure, sans rien d'autre à modifier",
+          "rules": "Certains objets anciens sont dans la mauvaise catégorie pour des raisons historiques et non de conception. Les déplacer ne demande ni rééquilibrage ni réécriture : c'est justement parce que tout le reste était déjà juste.",
+          "flavor": "« Unstable Mutation était une jolie petite carte d'Arabian Nights permettant de gonfler sa créature au prix, à long terme, de son affaiblissement et de sa mort. Pas vraiment une affaire bleue… Nous l'avons d'abord mise dans la couleur où elle aurait toujours dû être : le rouge, couleur du court terme. »"
+        },
+        {
+          "title": "Deux usages d'une même ressource peuvent être bons séparément et s'annuler mutuellement",
+          "rules": "Examinez chaque paire de choses touchant la même monnaie. Si un usage rend la ressource désirable à recevoir, il empêche l'autre — qui suppose qu'elle soit indésirable — d'être jamais joué, et aucun réglage de l'une ou l'autre carte n'y remédie.",
+          "flavor": "« Ce sont finalement cette carte et celles de son espèce qui ont condamné le flétrissement. Il s'est avéré impossible à la fois de poser agressivement des marqueurs -1/-1 sur les créatures adverses et de s'en servir comme ressource. Les joueurs n'attaquaient plus avec des créatures à flétrissement. »"
+        },
+        {
+          "title": "Quand l'exécution existe déjà, la seule question restante est la quantité",
+          "rules": "Reprendre une chose que le système a déjà résolue saute la partie difficile et vous remet un autre problème : combien. Répondez-y explicitement, car sans travail de conception pour le contraindre, le nombre dérivera.",
+          "flavor": "« J'ai raconté que nous avions noté les malédictions sur notre liste de choses égyptiennes à concevoir en descendant. Magic avait déjà une exécution mécanique pour les malédictions : la question est devenue combien nous en voulions plutôt que comment les représenter. Nous avons décidé qu'un peu suffirait largement. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Falando de Amonkhet, parte 1",
+      "dek": "Histórias carta a carta de Amonkhet, de A a D — inclusive um template deixado redundante de propósito para as pessoas entenderem.",
+      "overview": "Uma troca de cor que finalmente pôs um duplicador onde as fichas realmente estão, a longa lista de cartas do futuro que nunca foram pré-impressas, e a carta que condenou definhar.",
+      "takeaway": "“Não havia jogadores suficientes entendendo que o efeito se referia ao ciclo. No fim decidimos que era melhor ser claros e mudamos o template para ‘cicle ou descarte', embora o ‘cicle' seja tecnicamente redundante.”",
+      "lessons": [
+        {
+          "title": "Mova a variante para a parte que de fato produz a coisa",
+          "rules": "Quando um efeito que multiplica algo sai da casa original, não o mova por associação estética. Mova-o para onde a coisa subjacente é genuinamente mais abundante, porque é ali que o efeito tem sobre o que agir.",
+          "flavor": "“Anointed Procession é a primeira variante de Doubling Season a sair do verde. É basicamente um Parallel Lives com troca de cor. Isso porque o branco é a melhor cor em produzir volume de fichas de criatura, já que cria muitas fichas 1/1 pequenas, reforçando o sabor de cor-exército.”"
+        },
+        {
+          "title": "Redundância que compra compreensão vale as palavras",
+          "rules": "Uma redação pode ser tecnicamente completa e ainda assim falhar, porque o leitor não a conecta ao caso à frente dele. Explicite a instância mesmo que o termo geral já a cubra: as palavras a mais custam menos que o mal-entendido.",
+          "flavor": "“No início o gatilho dizia só ‘quando você descartar uma carta', porque tanto ciclo quanto insanidade exigem descarte, mas os testes mostraram que não havia jogadores suficientes entendendo que o efeito se referia ao ciclo.”"
+        },
+        {
+          "title": "Uma promessa permanente de honrar trabalho antigo colide com cada decisão posterior",
+          "rules": "Comprometer-se de antemão a pagar material anterior parece barato e sai caro: cada oportunidade tem de sobreviver a todas as decisões independentes tomadas nos anos intermediários. Espere que a maioria das tentativas falhe, por razões que nada têm a ver com a promessa.",
+          "flavor": "A promessa de pré-imprimir as cartas do futuro. Sarcomite Myr foi bloqueada porque Esper já tinha usado artefatos coloridos. Os três precursores de escavar tinham cada um um problema diferente: um template abandonado, uma carta “esperta demais para o próprio bem”, um sabor indesejado."
+        },
+        {
+          "title": "Enumere as leituras de um elemento compartilhado antes de escolher uma",
+          "rules": "Quando dois grupos compartilham um traço, esse traço pode ser destacado de várias formas distintas, e elas não são intercambiáveis: algumas pertencem mais a outro par. Liste as leituras e escolha a que ainda não foi reivindicada em outro lugar.",
+          "flavor": "Para a carta-guia branco-azul, a mecânica compartilhada era embalsamar. “Dá para focar em tipal de zumbis, mas isso é mais coisa de branco-preto. Dá para focar em como todos ficam brancos depois de embalsamados. Ou em que eles têm uma habilidade que funciona no cemitério.”"
+        },
+        {
+          "title": "Pesquise a fonte atrás de um fato estrutural, não só de imagens",
+          "rules": "A maior parte da adaptação colhe as imagens de um lugar. Os arranjos dele valem mais: como estava organizado, o que o tornava possível, do que dependia. Isso se traduz em comportamento, não em decoração.",
+          "flavor": "A pesquisa de Shawn Main sobre o Egito trouxe o Crescente Fértil, “vital… enquanto cercado por desertos duros”. Bounty of the Luxa é um design descendente disso: um terreno que alterna entre te dar conhecimento e te dar mana."
+        },
+        {
+          "title": "Condense o ciclo ao mínimo de estados que ainda se leia como alternância",
+          "rules": "Um efeito rotativo precisa de estados suficientes para parecer um ciclo e poucos o bastante para ser acompanhado. Dois costuma ser a resposta, e aí você pode torná-los desiguais: o resultado mais forte vai na posição mais difícil de alcançar.",
+          "flavor": "“Homarid foi a primeira carta a capturar mecanicamente a sensação das marés. Para Bounty of the Luxa condensamos para apenas dois estados, em vez de quatro, entre os quais alternamos… Como comprar carta era o efeito mais poderoso, deixamos” que a posição mais difícil o carregasse."
+        },
+        {
+          "title": "Um recurso invertido permite designs que o original não permite, porque é limitado",
+          "rules": "O espelho de um recurso de crescimento não é só crescimento ao contrário. Ele encosta num piso, o que o torna seguro de distribuir; e usá-lo ao mesmo tempo como custo e como pagamento produz trocas em que a versão ilimitada jamais seria confiável.",
+          "flavor": "“Marcadores +1/+1 são sobre crescimento, que é basicamente infinito; -1/-1 são sobre encolher.” Channeler Initiate os usa como custo e recurso: “Como custo, isso basicamente permite trocar poder e resistência entre criaturas. Como recurso, eles agem como +1/+1 mas com um teto embutido.”"
+        },
+        {
+          "title": "Uma troca de cor pode ser correção pura, sem mais nada editado",
+          "rules": "Alguns itens antigos estão na categoria errada por razões históricas, não de design. Movê-los não exige rebalancear nem reescrever: o ponto é justamente que todo o resto já estava certo.",
+          "flavor": "“Unstable Mutation era uma cartinha saborosa de Arabian Nights que deixava você inflar sua criatura ao custo, no longo prazo, de ela enfraquecer e morrer. Não é bem coisa de azul… Primeiro a movemos para a cor em que ela sempre deveria ter estado, a cor do pensamento de curto prazo: o vermelho.”"
+        },
+        {
+          "title": "Dois usos de um mesmo recurso podem ser bons isoladamente e se anular",
+          "rules": "Revise cada par de coisas que tocam a mesma moeda. Se um uso torna o recurso valioso de receber, ele impede que o outro — que depende de o recurso ser indesejado — chegue a ser jogado, e nenhum ajuste em qualquer das cartas conserta isso.",
+          "flavor": "“Foram, em última instância, esta carta e cartas como ela que condenaram definhar. Descobrimos que não dava para ao mesmo tempo pôr agressivamente marcadores -1/-1 nas criaturas do oponente e usá-los como recurso. Os jogadores não atacavam com criaturas com definhar.”"
+        },
+        {
+          "title": "Quando a execução já existe, a única pergunta que resta é quantos",
+          "rules": "Puxar algo que o sistema já resolveu pula a parte difícil e te entrega outro problema: quantos. Responda a esse explicitamente, porque sem trabalho de design para limitá-lo o número vai derivar.",
+          "flavor": "“Contei que tínhamos anotado as maldições na nossa lista de coisas egípcias para projetar de cima para baixo. Magic já tinha uma execução mecânica para maldições, então virou mais uma questão de quantas queríamos do que de como as representaríamos. No fim, decidimos que pouco renderia muito.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "聊聊阿芒凯，上",
+      "dek": "《阿芒凯》从A到D的逐张设计故事——包括一段为了让人看懂而被刻意做成冗余的规则措辞。",
+      "overview": "一次终于把「加倍」放到真正在造衍生物的那个颜色里的变色移植、那份从未被预先印出来的未来牌长名单，以及那张判了「凋零」死刑的牌。",
+      "takeaway": "「没有足够多的玩家意识到这个效应指的是循环。最后我们判定，讲清楚更好，于是把措辞改成了『循环或弃掉』——尽管『循环』在技术上是冗余的。」",
+      "lessons": [
+        {
+          "title": "把这个变体挪到「真正在生产那样东西」的那一边去",
+          "rules": "当一个「把某物加倍」的效应要离开它原本的家时，别按审美上的联想去挪它。把它挪到那样底层东西真正最丰沛的地方——因为那里才有东西供它作用。",
+          "flavor": "「《受膏行列》是第一张走出绿色的『丰收季节』变体。它基本上就是换了颜色的《平行生命》。原因是白色是最擅长成批制造生物衍生物的颜色——它会造出大量小小的1/1衍生物，呼应它作为『用数量把你打垮的军队之色』的风味。」"
+        },
+        {
+          "title": "能买到理解的冗余，值那几个字",
+          "rules": "一段措辞可以在技术上完备，却依然失败——因为读者没有把它和眼前这个具体情况联系起来。哪怕那个总称已经涵盖了它，也把这个具体情形明写出来：多出来的字，比那场误解要便宜。",
+          "flavor": "「起初这个触发只写了『当你弃掉一张牌时』，因为循环和狂搅都需要弃牌；但试玩显示，没有足够多的玩家意识到这个效应指的是循环。最后我们判定，讲清楚更好，于是把措辞改成了『循环或弃掉』——尽管『循环』在技术上是冗余的。」"
+        },
+        {
+          "title": "一份「兑现旧作」的长期承诺，会和之后的每一个决定相撞",
+          "rules": "事先承诺去偿付早先的材料，听上去很便宜，做起来很贵：每一次机会都必须挺过这些年间做出的所有独立决定。要预料到大多数尝试会失败——而失败的理由和这份承诺毫无关系。",
+          "flavor": "关于未来牌的「预先印刷」承诺。《肉瘤秘罗兽》被卡住了，因为艾斯波已经用掉了有色神器。「探查」的三张预告牌各有各的毛病：一套已被弃用的措辞、一张「聪明过了头」的牌、一份不想要的风味。而《幽火》的无色魔法，和「无色」在那里意味着「奥札奇」相冲突。"
+        },
+        {
+          "title": "在挑定一种之前，先把这个共享元素的各种读法列出来",
+          "rules": "当两个群体共享一项特征时，这项特征可以被以好几种截然不同的方式突出，而它们并不可互换——其中有些更属于另一对组合。把这些读法列出来，然后挑那个还没有被别处认领的。",
+          "flavor": "在做白蓝的指路牌时，共享的机制是防腐。「你可以聚焦在僵尸部族上，但那更像是白黑的事，因为那是天然拥有僵尸的两个颜色。你可以聚焦在『它们防腐之后都是白色的』。你也可以聚焦在『它们有一个在坟墓场里起作用的异能』。」"
+        },
+        {
+          "title": "去源材料里找一个结构性的事实，而不只是找图像",
+          "rules": "大部分改编收割的是一个地方的图像。而它的种种安排更值钱：它是怎么组织的、是什么让它成为可能、它依赖着什么。这些东西翻译出来是行为，而不是装饰。",
+          "flavor": "肖恩·梅因关于埃及的调研挖出了「新月沃地」——它「至关重要……同时被严酷的沙漠所环绕」。《卢克撒河的恩赐》就是它的自上而下设计：一块在「给你知识」和「给你法术力」之间轮替的地，于是这条肥沃地带轮流供养着你。"
+        },
+        {
+          "title": "把这个循环压缩到「仍然读得出交替」的最少状态数",
+          "rules": "一个轮转的效应，需要状态多到让人觉得是个循环，又少到追踪得过来。答案通常是二；而在那之后，你可以让这两个状态不对等——更强的那个结果，放进更难够到的那一格。",
+          "flavor": "「《居民》是第一张在机制上捕捉到潮汐感的牌。而《卢克撒河的恩赐》，我们把它压缩到只有两个状态、而不是四个，然后在两者之间轮替……由于抓牌是更强的那个效应，我们让」更难的那一格来承载它。"
+        },
+        {
+          "title": "一项被反转的资源，能带来原版做不到的设计——正因为它有底",
+          "rules": "一项「成长型资源」的镜像，并不只是倒过来的成长。它会触底，而这让它可以放心地大量发放；并且把它同时用作代价和用作报酬，会产出一些「无上限的那个版本」永远不能被信任去做的交换。",
+          "flavor": "「+1/+1指示物讲的是成长，而成长基本上是无限的；-1/-1指示物讲的是缩小。」《引导学徒》同时把它们用作代价和资源：「把-1/-1指示物用作代价，本质上让你在生物之间交换力量和防御力。而把它们用作资源，会有一个副作用：它们的表现变得类似+1/+1指示物，只是自带了一个上限。」"
+        },
+        {
+          "title": "一次变色可以是一次纯粹的修正，别的什么都不用改",
+          "rules": "有些旧物件之所以待在错误的类别里，原因是历史的，而不是设计的。挪动它们不需要重新平衡，也不需要重写——重点恰恰在于：其余的一切本来就是对的。",
+          "flavor": "「《不稳变异》是《阿拉伯之夜》里一张很有味道的小牌：它让你增强自己的生物，长期代价是它会慢慢衰弱而死。这其实不太像蓝色的事……首先，我们把它挪到了它本该一直待着的那个颜色——短线思维之色，红色。除了风味上的微调，这张牌一模一样。」"
+        },
+        {
+          "title": "同一项资源的两种用法，可以各自都很好，同时又互相废掉对方",
+          "rules": "把每一对触碰同一种通货的东西都核对一遍。如果其中一种用法让「收到这项资源」变成了好事，它就会让另一种用法——那种依赖于「这项资源不受欢迎」的用法——永远打不出去；而无论怎么调这两张牌都修不好。",
+          "flavor": "「最终正是这张牌、以及和它同类的牌，判了凋零的死刑。结果证明，我们没法既激进地把-1/-1指示物放到对手的生物身上，又同时把它们当成一项资源。举例来说，如果对手有办法把-1/-1指示物变成有价值的东西，玩家就不会用带凋零的生物去进攻了。」"
+        },
+        {
+          "title": "当实现方式早就存在时，剩下的唯一问题就是数量",
+          "rules": "去够一样系统已经解决过的东西，等于跳过了难的那部分，然后被交到手上另一个问题：多少个。把这个问题明确地回答掉——因为没有设计工作去约束它，这个数量否则就会飘。",
+          "flavor": "「我讲过，我们把『诅咒』写进了那份自上而下的埃及元素清单。《万智牌》本来就已经有一套诅咒的机制实现，所以问题就更多变成了『我们想要多少张』，而不是『我们怎么表现它』。最后我们判定：少许即可，足够走很远。」"
+        }
+      ]
+    }
+  }
+}

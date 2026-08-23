@@ -1,0 +1,307 @@
+{
+  "id": "amonkhet-talking-part-2-2017-05-01",
+  "slug": "amonkhet-talking-part-2-2017-05-01",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2017-05-01",
+  "series": { "id": "amonkhet-talking", "order": 2, "total": 3 },
+  "tags": [
+    "amonkhet",
+    "card-design",
+    "templating",
+    "reprints",
+    "planeswalkers",
+    "returning-mechanics"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/amonkhet-talking-part-2-2017-05-01",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T12:46:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Amonkhet Talking, Part 2",
+      "dek": "The twenty-year path from a rare that countered every future copy of a discarded card to a narrow exile spell — and a Giant Spider that finally left home.",
+      "overview": "More Amonkhet card stories: two objections answered by one change of verb, a threshold loosened by exactly one, and the search procedure for a card that has to be a 1/1 for one mana.",
+      "takeaway": "\"Every time we had ever put it in a non-core expansion, we had changed the card in some way, and it seemed only right to finally let Giant Spider visit a new plane.\"",
+      "lessons": [
+        {
+          "title": "The change that answers two objections usually widens the scope too",
+          "rules": "When one alteration resolves two separate complaints, look immediately at what else it now permits. A fix that good is rarely just a fix — the new mechanism generally reaches further than the old one did.",
+          "flavor": "Countering every future copy of a discarded card had a memory problem and gave the opponent enormous card disadvantage. “The solution to both issues was to go through your opponent's library and exile the cards instead… Once we were removing cards from the game, it became clear that we could hit more areas other than just the library.”"
+        },
+        {
+          "title": "A popular effect narrows over time",
+          "rules": "The general version arrives first, because nobody yet knows what it costs. Each subsequent printing carves out one more exception, and the shape of those exceptions is the accumulated record of what the system turned out not to be able to afford.",
+          "flavor": "Lobotomy hit everything. “Eventually with time, we started making more narrow Lobotomy effects. In Kaladesh, we made Lost Legacy that went after everything but lands (we normally don't let you Lobotomy land for gameplay reasons) and artifacts.” Amonkhet narrowed it again."
+        },
+        {
+          "title": "The commonest improvement to an old mechanic is loosening its threshold by one",
+          "rules": "A mechanic that demanded a perfect state usually failed on reachability rather than on concept. Move the requirement one step toward achievable and you keep everything that was good about it while multiplying how often it comes up.",
+          "flavor": "“An unnamed mechanic R&D likes to call ‘heckbent,' as it's a riff off of the Rakdos mechanic hellbent from Dissension. Heckbent cares about you having one or fewer cards in your hand (as opposed to hellbent, which requires your hand [be empty])… R&D often talks about how we would tweak old mechanics to improve them.”"
+        },
+        {
+          "title": "Check the whole prior population at the same specification first",
+          "rules": "Before designing to a tight slot, pull every existing item that already meets its constraints. Usually one of them is close enough to adapt, and if none are, the search tells you exactly which constraint to relax first.",
+          "flavor": "“We wanted a one-drop mummy, so we did what we often do—check Gatherer for every card we've previously printed with the same mana cost/stats. Prior to Amonkhet, there were ten one-mana 1/1 black Zombies. None of them were a great fit, so we broadened the search to just black creatures, removing the Zombie restriction.”"
+        },
+        {
+          "title": "A forward-pointing card has to be worth playing before its payoff exists",
+          "rules": "Something that gains a second function later spends the interim being judged on its first. Design so the first is genuinely playable on its own, or the tease reaches only the people who were going to buy the next thing anyway.",
+          "flavor": "“Gate to the Afterlife has two abilities. The first is useful by itself—it turns your dying creatures into life gain.” On doing this twice in consecutive sets: “The trick mechanically is to make sure that the card is useful in the set it appears in but that it will have an additional function with the next set.”"
+        },
+        {
+          "title": "When one ability isn't enough value, add a second that feeds the same deck",
+          "rules": "A card short of a reason to play it can be fixed by scaling its ability up or by giving it another. The second is usually better: two moderate abilities pointed at one strategy add up, and neither has to be pushed past what the format can take.",
+          "flavor": "Embalmer's Tools broadened from embalm to any graveyard activation. “This change still wasn't giving the card enough value, so we added a Zombie tribal ability that milled.” Earlier, letting it embalm any creature “was much more abusable than just allowing you to embalm creatures we designed for you to embalm.”"
+        },
+        {
+          "title": "Notice when a fixture has never once travelled unmodified",
+          "rules": "Some elements only ever appear in altered form, because every project that wanted them also wanted to put its own mark on them. That's worth noticing as a pattern — and eventually worth breaking, by letting the plain original show up somewhere new.",
+          "flavor": "Giant Spider had left the core sets several times, always changed: Blightwidow added infect, Graverobber Spider added a graveyard activation, Guardian of the Great Conduit turned it into an Elemental. “Amonkhet marks the first time Giant Spider itself has ventured forth from the core set.”"
+        },
+        {
+          "title": "For a recurring figure, build the invariant ability first",
+          "rules": "Characters who return accumulate one thing they always do. Write that ability before anything else, at whatever size this version needs, and design the rest around it — the recognition is already paid for and the remaining slots are free.",
+          "flavor": "“His middle ability was done first, as one of the constant traits of Gideon planeswalkers is that he always gets personally into the fight. He's been a 4/4, 5/5, 6/6, and */* in the past, always with some type of indestructability. For this version, we were interested in having a cheaper three-mana version.”"
+        },
+        {
+          "title": "Cut the version whose output duplicates the neighbouring project's",
+          "rules": "A mechanic can be fine in isolation and still be wrong because what it produces looks like what the adjacent release already produces. Check the outputs against everything sharing the format, not just against the rest of your own file.",
+          "flavor": "“We also tried a mechanic called mummify… an activated ability usable only in the graveyard that allowed you to exile it to make a 2/2 black Zombie token with wither. We ended up ultimately not liking these because the Zombie tokens were feeling a bit too similar to what Shadows over Innistrad” was doing."
+        }
+      ]
+    },
+    "es": {
+      "title": "Hablando de Amonkhet, parte 2",
+      "dek": "El camino de veinte años desde una rara que contrarrestaba todas las copias futuras de una carta descartada hasta un hechizo de exilio estrecho, y una araña gigante que por fin salió de casa.",
+      "overview": "Más historias de cartas de Amonkhet: dos objeciones resueltas con un cambio de verbo, un umbral aflojado exactamente en uno, y el procedimiento de búsqueda para una carta que tiene que ser un 1/1 por un maná.",
+      "takeaway": "«Cada vez que la habíamos puesto en una expansión no básica, habíamos cambiado la carta de algún modo, y parecía justo dejar por fin que Giant Spider visitara un plano nuevo.»",
+      "lessons": [
+        {
+          "title": "El cambio que responde a dos objeciones suele además ampliar el alcance",
+          "rules": "Cuando una sola modificación resuelve dos quejas distintas, mira enseguida qué permite ahora además. Un arreglo así rara vez es solo un arreglo: el mecanismo nuevo suele llegar más lejos que el viejo.",
+          "flavor": "Contrarrestar toda copia futura de una carta descartada tenía un problema de memoria y daba enorme desventaja de cartas al rival. «La solución a ambos era recorrer la biblioteca del rival y exiliar las cartas… Una vez que quitábamos cartas del juego, quedó claro que podíamos alcanzar más zonas.»"
+        },
+        {
+          "title": "Un efecto popular se estrecha con el tiempo",
+          "rules": "La versión general llega primero, porque todavía nadie sabe cuánto cuesta. Cada impresión posterior recorta una excepción más, y la forma de esas excepciones es el registro acumulado de lo que el sistema resultó no poder permitirse.",
+          "flavor": "Lobotomy lo alcanzaba todo. «Con el tiempo empezamos a hacer efectos Lobotomy más estrechos. En Kaladesh hicimos Lost Legacy, que iba a por todo menos tierras (normalmente no dejamos hacer Lobotomy a tierras por razones de juego) y artefactos.» Amonkhet lo estrechó otra vez."
+        },
+        {
+          "title": "La mejora más común a una mecánica antigua es aflojar su umbral en uno",
+          "rules": "Una mecánica que exigía un estado perfecto solía fallar por alcanzabilidad y no por concepto. Mueve el requisito un paso hacia lo alcanzable y conservas todo lo bueno multiplicando cuántas veces se activa.",
+          "flavor": "«Una mecánica sin nombre que en I+D llamamos “heckbent”, porque es una variación de la mecánica rakdos hellbent de Dissension. Heckbent se fija en que tengas una carta o menos en la mano (mientras que hellbent exige la mano vacía)… En I+D hablamos a menudo de cómo retocaríamos mecánicas antiguas para mejorarlas.»"
+        },
+        {
+          "title": "Revisa primero toda la población anterior con la misma especificación",
+          "rules": "Antes de diseñar para un hueco estrecho, saca todos los objetos existentes que ya cumplen sus restricciones. Normalmente alguno está lo bastante cerca para adaptarlo, y si ninguno lo está, la búsqueda te dice exactamente qué restricción relajar primero.",
+          "flavor": "«Queríamos una momia de un maná, así que hicimos lo que hacemos a menudo: revisar Gatherer buscando cada carta impresa con el mismo coste de maná y estadísticas. Antes de Amonkhet había diez zombis negros 1/1 por un maná. Ninguno encajaba bien, así que ampliamos la búsqueda a criaturas negras.»"
+        },
+        {
+          "title": "Una carta que apunta al futuro tiene que valer la pena antes de que exista su pago",
+          "rules": "Algo que gana una segunda función más tarde pasa el intervalo siendo juzgado por la primera. Diseña para que la primera sea de verdad jugable sola, o el adelanto solo llegará a quienes iban a comprar lo siguiente de todos modos.",
+          "flavor": "«Gate to the Afterlife tiene dos habilidades. La primera es útil por sí sola: convierte a tus criaturas que mueren en ganancia de vidas.» Sobre hacerlo dos veces seguidas: «El truco mecánico es asegurarse de que la carta sea útil en la edición donde aparece, pero que tenga una función adicional con la siguiente.»"
+        },
+        {
+          "title": "Cuando una habilidad no da bastante valor, añade otra que alimente el mismo mazo",
+          "rules": "Una carta a la que le falta una razón para jugarse se arregla escalando su habilidad o dándole otra. Lo segundo suele ser mejor: dos habilidades moderadas apuntando a una estrategia suman, y ninguna hay que empujarla más allá de lo que el formato aguanta.",
+          "flavor": "Embalmer's Tools se amplió de embalsamar a cualquier activación en el cementerio. «Ese cambio seguía sin darle bastante valor a la carta, así que añadimos una habilidad tribal de zombis que molía.» Antes, dejarla embalsamar cualquier criatura «era mucho más abusable»."
+        },
+        {
+          "title": "Fíjate cuando algo fijo nunca ha viajado sin modificar",
+          "rules": "Algunos elementos solo aparecen en forma alterada, porque todo proyecto que los quería también quería dejarles su marca. Merece la pena notarlo como patrón, y llegado el momento romperlo dejando que el original llano aparezca en un sitio nuevo.",
+          "flavor": "Giant Spider había salido de las ediciones básicas varias veces, siempre cambiada: Blightwidow añadió infectar, Graverobber Spider una activación de cementerio, Guardian of the Great Conduit la convirtió en elemental. «Amonkhet marca la primera vez que Giant Spider en sí se aventura fuera de la edición básica.»"
+        },
+        {
+          "title": "Para una figura recurrente, construye primero la habilidad invariante",
+          "rules": "Los personajes que vuelven acumulan una cosa que siempre hacen. Escribe esa habilidad antes que nada, del tamaño que esta versión necesite, y diseña el resto alrededor: el reconocimiento ya está pagado y los huecos restantes quedan libres.",
+          "flavor": "«Su habilidad del medio se hizo primero, porque uno de los rasgos constantes de los Gideon es que siempre se mete personalmente en la pelea. Ha sido 4/4, 5/5, 6/6 y */*, siempre con algún tipo de indestructibilidad. Para esta versión nos interesaba una más barata, de tres manás.»"
+        },
+        {
+          "title": "Corta la versión cuya salida duplica la del proyecto vecino",
+          "rules": "Una mecánica puede estar bien en aislamiento y aun así ser incorrecta porque lo que produce se parece a lo que ya produce el lanzamiento contiguo. Compara las salidas con todo lo que comparte formato, no solo con el resto de tu propio archivo.",
+          "flavor": "«También probamos una mecánica llamada momificar… una habilidad activada usable solo en el cementerio que te dejaba exiliarla para hacer una ficha de zombi negro 2/2 con marchitar. Al final no nos gustaron porque las fichas de zombi se parecían demasiado a lo que hacía Shadows over Innistrad.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Parlons d'Amonkhet, partie 2",
+      "dek": "Vingt ans de trajet, d'une rare qui contrecarrait toutes les copies futures d'une carte défaussée à un sort d'exil étroit — et une araignée géante qui a enfin quitté la maison.",
+      "overview": "D'autres histoires de cartes d'Amonkhet : deux objections réglées par un changement de verbe, un seuil desserré d'exactement un, et la procédure de recherche pour une carte qui doit être une 1/1 pour un mana.",
+      "takeaway": "« Chaque fois que nous l'avions mise dans une extension non basique, nous avions modifié la carte, et il paraissait juste de laisser enfin Giant Spider visiter un nouveau plan. »",
+      "lessons": [
+        {
+          "title": "Le changement qui répond à deux objections élargit d'ordinaire aussi la portée",
+          "rules": "Quand une seule modification règle deux plaintes distinctes, regardez tout de suite ce qu'elle autorise en plus. Un correctif aussi bon est rarement un simple correctif : le nouveau mécanisme porte en général plus loin que l'ancien.",
+          "flavor": "Contrecarrer toute copie future d'une carte défaussée posait un problème de mémoire et infligeait un désavantage énorme. « La solution aux deux était de parcourir la bibliothèque adverse et d'exiler les cartes… Dès lors que nous retirions des cartes du jeu, il devint clair que nous pouvions viser plus de zones. »"
+        },
+        {
+          "title": "Un effet populaire se rétrécit avec le temps",
+          "rules": "La version générale arrive en premier, car nul ne sait encore ce qu'elle coûte. Chaque impression suivante découpe une exception de plus, et la forme de ces exceptions est le relevé cumulé de ce que le système s'est finalement révélé incapable de s'offrir.",
+          "flavor": "Lobotomy touchait tout. « Avec le temps, nous avons fait des effets Lobotomy plus étroits. Dans Kaladesh, Lost Legacy visait tout sauf les terrains (nous n'autorisons normalement pas cela sur les terrains, pour des raisons de jeu) et les artefacts. » Amonkhet a resserré encore."
+        },
+        {
+          "title": "L'amélioration la plus courante d'une vieille mécanique est de desserrer son seuil d'un cran",
+          "rules": "Une mécanique qui exigeait un état parfait échouait d'ordinaire sur l'accessibilité, non sur le concept. Déplacez l'exigence d'un cran vers l'atteignable : vous gardez tout ce qui était bon en multipliant la fréquence.",
+          "flavor": "« Une mécanique sans nom que la R&D appelle “heckbent”, variation du hellbent rakdos de Dissension. Heckbent se soucie que vous ayez une carte ou moins en main (là où hellbent exige la main vide)… La R&D parle souvent de retoucher d'anciennes mécaniques pour les améliorer. »"
+        },
+        {
+          "title": "Passez d'abord en revue toute la population antérieure à la même spécification",
+          "rules": "Avant de concevoir pour un emplacement serré, sortez tous les objets existants qui satisfont déjà ses contraintes. D'ordinaire l'un d'eux est assez proche pour être adapté ; sinon, la recherche vous dit exactement quelle contrainte relâcher en premier.",
+          "flavor": "« Nous voulions une momie à un mana, alors nous avons fait ce que nous faisons souvent : vérifier sur Gatherer chaque carte déjà imprimée aux mêmes coût et caractéristiques. Avant Amonkhet, il y avait dix zombies noirs 1/1 à un mana. Aucun n'allait vraiment, donc nous avons élargi. »"
+        },
+        {
+          "title": "Une carte tournée vers l'avenir doit valoir d'être jouée avant que son gain existe",
+          "rules": "Une chose qui gagnera une seconde fonction plus tard passe l'intervalle à être jugée sur la première. Concevez pour que la première soit réellement jouable seule, sinon le teaser n'atteint que ceux qui allaient de toute façon acheter la suite.",
+          "flavor": "« Gate to the Afterlife a deux capacités. La première est utile en soi : elle transforme vos créatures mourantes en gain de vie. » Sur le fait de le refaire coup sur coup : « L'astuce est de s'assurer que la carte est utile dans l'édition où elle paraît, tout en ayant une fonction supplémentaire avec la suivante. »"
+        },
+        {
+          "title": "Quand une capacité ne suffit pas, ajoutez-en une seconde qui nourrit le même deck",
+          "rules": "Une carte à qui manque une raison d'être jouée se répare en augmentant sa capacité ou en lui en donnant une autre. La seconde option est d'ordinaire meilleure : deux capacités modérées visant une même stratégie s'additionnent, sans qu'aucune doive être poussée au-delà du supportable.",
+          "flavor": "Embalmer's Tools est passée de l'embaumement à toute activation au cimetière. « Ce changement ne donnait toujours pas assez de valeur à la carte, alors nous avons ajouté une capacité typale zombie qui meulait. » Auparavant, embaumer n'importe quelle créature « était bien plus abusif »."
+        },
+        {
+          "title": "Remarquez quand un élément fixe n'a jamais voyagé sans être modifié",
+          "rules": "Certains éléments ne paraissent que sous forme altérée, car tout projet qui les voulait voulait aussi y laisser sa marque. Cela vaut d'être remarqué comme un motif — et, le moment venu, d'être rompu en laissant l'original nu apparaître ailleurs.",
+          "flavor": "Giant Spider avait quitté les éditions de base plusieurs fois, toujours modifiée : Blightwidow ajoutait l'infection, Graverobber Spider une activation au cimetière, Guardian of the Great Conduit en faisait un élémental. « Amonkhet marque la première fois que Giant Spider elle-même s'aventure hors de l'édition de base. »"
+        },
+        {
+          "title": "Pour une figure récurrente, bâtissez d'abord la capacité invariante",
+          "rules": "Les personnages qui reviennent accumulent une chose qu'ils font toujours. Écrivez cette capacité avant tout le reste, au calibre dont cette version a besoin, et concevez le reste autour : la reconnaissance est déjà payée et les autres emplacements sont libres.",
+          "flavor": "« Sa capacité du milieu a été faite en premier, car l'un des traits constants des Gideon est qu'il entre toujours personnellement dans la bataille. Il a été 4/4, 5/5, 6/6 et */*, toujours avec une forme d'indestructibilité. Pour cette version, nous voulions une variante moins chère, à trois manas. »"
+        },
+        {
+          "title": "Coupez la version dont la production double celle du projet voisin",
+          "rules": "Une mécanique peut être bonne isolément et rester mauvaise parce que ce qu'elle produit ressemble à ce que la sortie voisine produit déjà. Comparez les sorties à tout ce qui partage le format, pas seulement au reste de votre propre fichier.",
+          "flavor": "« Nous avons aussi essayé une mécanique appelée momification… une capacité activée utilisable uniquement au cimetière, permettant de l'exiler pour faire un jeton de zombie noir 2/2 avec le flétrissement. Nous ne les avons finalement pas aimées, car les jetons ressemblaient trop à ceux de Shadows over Innistrad. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Falando de Amonkhet, parte 2",
+      "dek": "O caminho de vinte anos de uma rara que anulava toda cópia futura de uma carta descartada até uma mágica de exílio estreita — e uma aranha gigante que enfim saiu de casa.",
+      "overview": "Mais histórias de cartas de Amonkhet: duas objeções resolvidas com uma troca de verbo, um limiar afrouxado em exatamente um, e o procedimento de busca para uma carta que precisa ser 1/1 por um mana.",
+      "takeaway": "“Toda vez que a tínhamos posto numa expansão não básica, tínhamos mudado a carta de algum jeito, e parecia justo deixar Giant Spider finalmente visitar um plano novo.”",
+      "lessons": [
+        {
+          "title": "A mudança que responde a duas objeções costuma também ampliar o alcance",
+          "rules": "Quando uma única alteração resolve duas queixas distintas, olhe imediatamente para o que ela agora permite além. Um conserto tão bom raramente é só um conserto: o mecanismo novo em geral alcança mais longe que o antigo.",
+          "flavor": "Anular toda cópia futura de uma carta descartada tinha problema de memória e dava enorme desvantagem de cartas. “A solução para os dois era percorrer o grimório do oponente e exilar as cartas… Uma vez que estávamos removendo cartas do jogo, ficou claro que podíamos atingir mais zonas.”"
+        },
+        {
+          "title": "Um efeito popular se estreita com o tempo",
+          "rules": "A versão geral chega primeiro, porque ninguém ainda sabe quanto ela custa. Cada impressão seguinte recorta mais uma exceção, e o formato dessas exceções é o registro acumulado do que o sistema acabou não conseguindo bancar.",
+          "flavor": "Lobotomy atingia tudo. “Com o tempo, começamos a fazer efeitos Lobotomy mais estreitos. Em Kaladesh fizemos Lost Legacy, que atacava tudo menos terrenos (normalmente não deixamos fazer isso com terrenos, por razões de jogo) e artefatos.” Amonkhet estreitou de novo."
+        },
+        {
+          "title": "A melhoria mais comum numa mecânica antiga é afrouxar o limiar dela em um",
+          "rules": "Uma mecânica que exigia um estado perfeito em geral falhava na alcançabilidade, não no conceito. Mova a exigência um passo em direção ao alcançável e você mantém tudo que era bom, multiplicando a frequência com que ela aparece.",
+          "flavor": "“Uma mecânica sem nome que a P&D chama de ‘heckbent', por ser uma variação do hellbent rakdos de Dissension. Heckbent se importa com você ter uma carta ou menos na mão (ao passo que hellbent exige a mão vazia)… A P&D fala com frequência sobre ajustar mecânicas antigas para melhorá-las.”"
+        },
+        {
+          "title": "Revise primeiro toda a população anterior com a mesma especificação",
+          "rules": "Antes de projetar para uma vaga apertada, puxe todos os itens existentes que já atendem às restrições dela. Em geral um deles está perto o bastante para adaptar; e se nenhum estiver, a busca te diz exatamente qual restrição afrouxar primeiro.",
+          "flavor": "“Queríamos uma múmia de um mana, então fizemos o que costumamos fazer: checar no Gatherer toda carta já impressa com o mesmo custo e atributos. Antes de Amonkhet havia dez zumbis pretos 1/1 por um mana. Nenhum encaixava bem, então ampliamos a busca para criaturas pretas.”"
+        },
+        {
+          "title": "Uma carta que aponta para a frente precisa valer a pena antes de o pagamento existir",
+          "rules": "Algo que ganha uma segunda função depois passa o intervalo sendo julgado pela primeira. Projete para que a primeira seja genuinamente jogável sozinha, ou a prévia só alcança quem já ia comprar a próxima coisa de qualquer jeito.",
+          "flavor": "“Gate to the Afterlife tem duas habilidades. A primeira é útil sozinha: transforma suas criaturas que morrem em ganho de vida.” Sobre fazer isso duas vezes seguidas: “O truque mecânico é garantir que a carta seja útil na coleção em que aparece, mas que tenha uma função adicional com a seguinte.”"
+        },
+        {
+          "title": "Quando uma habilidade não dá valor suficiente, acrescente outra que alimente o mesmo deck",
+          "rules": "Uma carta sem razão para ser jogada se conserta aumentando a habilidade dela ou dando outra. A segunda costuma ser melhor: duas habilidades moderadas apontadas para uma estratégia somam, e nenhuma precisa ser empurrada além do que o formato aguenta.",
+          "flavor": "Embalmer's Tools se ampliou de embalsamar para qualquer ativação no cemitério. “Essa mudança ainda não dava valor suficiente à carta, então acrescentamos uma habilidade tipal de zumbis que moía.” Antes, deixá-la embalsamar qualquer criatura “era muito mais abusável”."
+        },
+        {
+          "title": "Repare quando um item fixo nunca viajou sem modificação",
+          "rules": "Alguns elementos só aparecem em forma alterada, porque todo projeto que os queria também queria deixar a própria marca neles. Vale reparar nisso como padrão — e, no momento certo, quebrá-lo deixando o original simples aparecer em lugar novo.",
+          "flavor": "Giant Spider já tinha saído das coleções básicas várias vezes, sempre mudada: Blightwidow acrescentou infectar, Graverobber Spider uma ativação de cemitério, Guardian of the Great Conduit a transformou em elemental. “Amonkhet marca a primeira vez que a própria Giant Spider se aventura para fora.”"
+        },
+        {
+          "title": "Para uma figura recorrente, construa primeiro a habilidade invariante",
+          "rules": "Personagens que voltam acumulam uma coisa que sempre fazem. Escreva essa habilidade antes de tudo, no tamanho de que esta versão precisa, e projete o resto em torno dela: o reconhecimento já está pago e as vagas restantes ficam livres.",
+          "flavor": "“A habilidade do meio foi feita primeiro, porque um dos traços constantes dos Gideon é que ele sempre entra pessoalmente na briga. Ele já foi 4/4, 5/5, 6/6 e */*, sempre com algum tipo de indestrutibilidade. Nesta versão, queríamos uma mais barata, de três manas.”"
+        },
+        {
+          "title": "Corte a versão cuja saída duplica a do projeto vizinho",
+          "rules": "Uma mecânica pode estar boa isolada e ainda assim estar errada porque o que ela produz se parece com o que o lançamento vizinho já produz. Compare as saídas com tudo que compartilha o formato, não só com o resto do seu próprio arquivo.",
+          "flavor": "“Também testamos uma mecânica chamada mumificar… uma habilidade ativada usável só no cemitério, que deixava exilá-la para fazer uma ficha de zumbi preto 2/2 com definhar. No fim não gostamos, porque as fichas de zumbi pareciam parecidas demais com o que Shadows over Innistrad fazia.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "聊聊阿芒凯，中",
+      "dek": "从一张「反击那张被弃掉的牌的所有未来副本」的稀有牌，到一张狭窄的放逐咒语，这条路走了二十年——以及一只终于离家出走的巨型蜘蛛。",
+      "overview": "更多《阿芒凯》牌张故事：用换一个动词同时答掉两条反对意见、把一个门槛正好放宽一格，以及为一张「必须是一费1/1」的牌所走的检索流程。",
+      "takeaway": "「我们每一次把它放进非基本系列时，都以某种方式改动过这张牌；而现在，终于让《巨型蜘蛛》去拜访一个新时空，似乎才是应该的。」",
+      "lessons": [
+        {
+          "title": "那个同时答掉两条反对意见的改动，通常也会把适用范围拓宽",
+          "rules": "当一处修改同时解决了两条彼此独立的抱怨时，立刻去看它现在还额外允许了什么。这么好的一个修补很少只是修补——新的机制通常比旧的伸得更远。",
+          "flavor": "「反击那张被弃掉的牌的所有未来副本」既有记忆负担，又给对手带来巨大的牌张劣势。「这两个问题的解法是：翻过对手的牌库，把那些牌放逐掉……而一旦我们是在把牌移出游戏，就显然可以打到牌库之外的更多区域。」"
+        },
+        {
+          "title": "一个受欢迎的效应会随时间变窄",
+          "rules": "通用的版本最先出现，因为还没有人知道它要花多少钱。此后每一次印刷都再削掉一处例外；而这些例外的形状，正是一份累积起来的记录——记录着这套系统最终被证明负担不起的是什么。",
+          "flavor": "《脑白质切除》什么都打。「随着时间推移，我们开始做更窄的『脑白质切除』类效应。在《卡拉德许》里我们做了《失落遗产》，它针对除地（出于对局考虑，我们通常不允许对地这么做）和神器之外的一切。」《阿芒凯》又收窄了一次。"
+        },
+        {
+          "title": "对一个老机制最常见的改进，是把它的门槛放宽一格",
+          "rules": "一个要求「完美状态」的机制，通常败在可达成性上，而不是败在概念上。把那条要求朝「够得着」的方向挪一步：你保住了它身上所有好的东西，同时把它出场的频率翻了好几倍。",
+          "flavor": "「一个研发部私下叫作『heckbent』的无名机制——它是《万象裂纹》里拉铎司机制hellbent的变奏。heckbent在意的是你手上有一张或更少的牌（而hellbent要求你的手牌为空）……研发部经常讨论我们会怎么调整老机制来改进它们。」"
+        },
+        {
+          "title": "先按同样的规格，把此前的全部存量过一遍",
+          "rules": "在为一个很紧的位置做设计之前，先把所有「已经满足它约束条件」的现成物件拉出来。通常其中有一个近到可以改造；而如果一个都没有，这次检索会明确告诉你该先放松哪一条约束。",
+          "flavor": "「我们想要一张一费的木乃伊，于是我们做了我们常做的事——去Gatherer上把我们此前印过的、同样费用同样身材的每一张牌都查一遍。在《阿芒凯》之前，一共有十张一费1/1的黑色僵尸。没有一张特别合适，于是我们把检索范围放宽到黑色生物，去掉了僵尸这个限制。」"
+        },
+        {
+          "title": "一张指向未来的牌，必须在它的回报存在之前就值得打",
+          "rules": "一样日后会获得第二种功能的东西，在这段空档期里是靠它的第一种功能被评判的。要把它设计成第一种功能本身就真的能打——否则这次预告只触及那些本来就会买下一件东西的人。",
+          "flavor": "「《来世之门》有两个异能。第一个自己就有用——它把你死去的生物转化成生命的获得。」关于连着两个系列都这么做：「机制上的诀窍在于，确保这张牌在它出现的那个系列里是有用的，同时它会在下一个系列里获得一项额外的功能。」"
+        },
+        {
+          "title": "当一个异能给的价值不够时，加第二个去喂同一副套牌",
+          "rules": "一张缺少「被打出的理由」的牌，可以靠把它的异能调大来修，也可以靠再给它一个异能来修。后者通常更好：两个中等的异能指向同一套策略是会相加的，而且哪一个都不必被推到超出这个赛制能承受的程度。",
+          "flavor": "《防腐师工具》从「防腐」拓宽到了「任何坟墓场里的启动式异能」。「这个改动仍然没能给这张牌足够的价值，于是我们加了一个会磨牌的僵尸部族异能。」而更早的时候，让它防腐任何生物「比只让你防腐我们特意为你设计的那些生物，要好滥用得多」。"
+        },
+        {
+          "title": "留意那些「从来没有一次原封不动地出过门」的常驻物件",
+          "rules": "有些元素只以被改动过的形态出现——因为每一个想要它们的项目，同时也想在它们身上留下自己的印记。这值得作为一种模式被注意到；并且到了时候值得被打破：让那个朴素的原版出现在一个新地方。",
+          "flavor": "《巨型蜘蛛》离开基本系列好几次，每次都被改过：《枯萎黑寡妇》加了感染，《盗墓蜘蛛》加了一个坟墓场启动式异能，《大导管守护者》把它变成了元素。「而《阿芒凯》标志着《巨型蜘蛛》本身第一次走出基本系列。」"
+        },
+        {
+          "title": "对一个反复登场的人物，先把那个不变的异能做出来",
+          "rules": "会回归的角色，身上会积累起一件他们始终在做的事。在其余一切之前先把那个异能写下来，写成这一版所需要的尺寸，然后围着它设计其余部分——那份辨识度已经付过钱了，而剩下的卡位是白得的。",
+          "flavor": "「他中间那个异能是最先做出来的，因为基定这一系鹏洛客的恒定特征之一，就是他总会亲自下场参战。他此前当过4/4、5/5、6/6和*/*，而且总带着某种形式的不灭。在这一版里，我们有兴趣做一个更便宜的三费版本。」"
+        },
+        {
+          "title": "砍掉那个产出和隔壁项目重样的版本",
+          "rules": "一个机制可以孤立地看没问题，却依然是错的——因为它产出的东西，长得像隔壁那次发布已经在产出的东西。拿它的产出去对照「所有共享这个赛制的东西」，而不只是对照你自己文件里的其余部分。",
+          "flavor": "「我们还试过一个叫『木乃伊化』的机制……那是一个只能在坟墓场使用的启动式异能，让你把它放逐掉、换来一个带凋零的2/2黑色僵尸衍生物。我们最终还是不喜欢这些，因为这些僵尸衍生物感觉上和《依尼翠暗影》正在做的东西太像了。」"
+        }
+      ]
+    }
+  }
+}
