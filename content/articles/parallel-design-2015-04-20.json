@@ -1,0 +1,320 @@
+{
+  "id": "parallel-design-2015-04-20",
+  "slug": "parallel-design-2015-04-20",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-04-20",
+  "series": null,
+  "tags": ["design-process", "exploit", "dash", "convergence", "briefs"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/parallel-design-2015-04-20",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T13:10:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "G" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "U" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Parallel Design",
+      "dek": "Every single person on the team designed Wooden Stake, and all of them designed it doing exactly the same thing.",
+      "overview": "Four ways two people invent the same thing without knowing it, and what the phenomenon implies about where design effort should actually go.",
+      "takeaway": "\"Rather than jump to the brainstorming, we spend more time clearly defining the parameters.\"",
+      "lessons": [
+        {
+          "title": "Identical briefs reliably produce identical answers, and that validates the brief",
+          "rules": "When several people working separately return the same thing, the natural reading is that somebody copied or that the group has gone stale. Usually it means the specification was tight enough to determine its own answer. Treat matching submissions as a measurement of the brief rather than of the people.",
+          "flavor": "“So who designed the dash mechanic? I did. And Sam Stoddard did… We were given the same parameters and followed similar logic.” And from Innistrad: “Every single person not only designed Wooden Stake but had it do the exact same thing… Whenever someone asks me who designed Wooden Stake, I answer ‘Everyone.'”"
+        },
+        {
+          "title": "Set the work as independent parallel homework, then compare the returns",
+          "rules": "Having a group solve something together produces one answer shaped by whoever spoke first. Send everyone away with the same written requirements and no contact, and you get several attempts you can lay side by side — including the information carried by which parts they all reached and which parts nobody did.",
+          "flavor": "“In design, the lead designer of a set will give out homework for the design team to work on in their own time and bring to the next meeting. The lead designer usually is very specific on what they are looking for. Sometimes… it will be to fill a specific hole; while in others, it might be a call for designs within a chosen area.”"
+        },
+        {
+          "title": "Mature practice is uncovering what the medium implies, not finding new territory",
+          "rules": "Early on, the work feels like exploration and the prize is somewhere nobody has been. Later it stops being about that. The material has a grain, the good answers are already latent in it, and the skill becomes reading the shape that's there rather than hunting for one that isn't.",
+          "flavor": "“Good design isn't about discovering what hasn't been done, but rather figuring out where the elegant part of the game lies. The metaphor I like to use is that of sculpting. Design is often faced with giant blocks of stone. Our job is to find the statue within the stone. We're not creating the statue as much as we are uncovering it.”"
+        },
+        {
+          "title": "When the rules block the form, hold the experience fixed and find another shape",
+          "rules": "A prohibition applies to the implementation you happened to think of first, not to what you wanted. Write down the experience in plain terms — what should the person be able to do — and then search for a legal construction that produces it. The blocked version was never the idea.",
+          "flavor": "He wanted a split card, half spell and half creature. “There was just one small problem—split cards can't support permanents. So I did what we always do when an idea doesn't work within the rules, I tried to figure out a different way to do it. Okay, what I wanted was a card that could be either a creature or a spell.” Several attempts later: sacrifice it on arrival for the effect."
+        },
+        {
+          "title": "Re-deriving a known design from a different start can improve on it",
+          "rules": "Arriving somewhere that already exists isn't wasted effort. Because you got there by your own route, you tested constraints the original author inherited rather than examined, and you'll often land a step past them — carrying a fix for a flaw you had no way of knowing was there.",
+          "flavor": "“Jon Loucks was playtesting Khans of Tarkir and he commented how he was happy we used his energize mechanic that he had submitted in the second Great Designer Search. The interesting thing was that we didn't start with his mechanic but had evolved into it. In fact, we went a step further, fixing a problem I had noted when I judged the mechanic during the GDS2.”"
+        },
+        {
+          "title": "When a theme forces every piece to carry counting and targeting text, change the mechanic, not the pieces",
+          "rules": "A subject that must be referenced explicitly makes each item wordier than it should be, and the whole thing gets heavy long before it gets deep. The fix isn't cleverer wording on each one. It's a mechanism that makes plain, ordinary effects count as belonging, so the theme rides underneath the text.",
+          "flavor": "“I made creature lords, cards that targeted certain creature types, and cards that needed a threshold of that creature type to work… the effects I was generating were getting a bit on the complex side. The spells either had to count the number of a particular creature type, had to target just that creature type, or just tended to do things that took a lot of words. I was eager to find a mechanic that would allow me to do simple basic effects, but in a way that mattered in a tribal environment.”"
+        },
+        {
+          "title": "Make the object its own fallback, then price it so using the fallback is slightly wasteful",
+          "rules": "An ability that consumes something else strands anyone who has nothing to feed it. Let it consume itself as the default, so it never reads as blank — then make it a fraction more valuable than the alternatives, so spending it on itself always feels like the lesser line. You get reliability and an incentive at once.",
+          "flavor": "“In the end, we put the mechanic on creatures so that if you didn't have any other creatures you could always sacrifice it. We made the creature a smidgen bigger on purpose, to encourage you to sacrifice other creatures. We also designed smaller creatures that gave you benefits for sacrificing them, most often by having death triggers.”"
+        },
+        {
+          "title": "If well-specified briefs converge, then specification is the work",
+          "rules": "The evidence that different people given the same requirements produce the same answer has a direct consequence: the answer was determined by the requirements. So the leverage isn't in generating options, it's upstream, in being precise about what's actually needed. Move the hours there.",
+          "flavor": "“Parallel design reinforces the idea that good design will push in a similar direction. What this means is that the key to finding answers in design is better understanding what it is you need. Adopting this concept has changed how we problem-solve in design. Rather than jump to the brainstorming, we spend more time clearly defining the parameters.”"
+        },
+        {
+          "title": "Quality is a relation between the thing and its surroundings, not a property of the thing",
+          "rules": "\"Is this good?\" is not answerable on its own and people answer it anyway. The real question is whether it's good here — beside these other elements, serving this purpose, for this audience. Something can be excellent and wrong, and the two words describe different measurements.",
+          "flavor": "“An idea doesn't exist in a vacuum. In order to judge it, you have to see the environment it's being proposed in. There are mechanics that can shine in one block that would be miserable in another. Context is important. Synergy is important. Flavor is important. A mechanic doesn't get put into a set because it's a great mechanic, it gets put in because it's a great mechanic in that set.”"
+        },
+        {
+          "title": "Don't privilege an answer by where it came from",
+          "rules": "Ideas arrive from a brief, from an accident, from someone's old file, from a route you'd be embarrassed to describe. None of that survives into the finished thing. Judging by origin makes you defend your own paths and discount other people's, when the only question that matters is where it ended up.",
+          "flavor": "“The final lesson from parallel design is that the path to a good design is not a singular thing. Take any good idea and there are a multiple ways to get there. The key is not dwelling on where you start but rather on where you end.” Onslaught reached exploit through a tribal need; Dragons of Tarkir through a need to sacrifice."
+        }
+      ]
+    },
+    "es": {
+      "title": "Diseño paralelo",
+      "dek": "Todas y cada una de las personas del equipo diseñaron la Estaca de Madera, y todas la hicieron hacer exactamente lo mismo.",
+      "overview": "Cuatro maneras en que dos personas inventan lo mismo sin saberlo, y qué implica el fenómeno sobre dónde debería ir de verdad el esfuerzo de diseño.",
+      "takeaway": "«En vez de saltar a la lluvia de ideas, dedicamos más tiempo a definir claramente los parámetros.»",
+      "lessons": [
+        {
+          "title": "Encargos idénticos producen respuestas idénticas de manera fiable, y eso valida el encargo",
+          "rules": "Cuando varias personas trabajando por separado devuelven lo mismo, la lectura natural es que alguien copió o que el grupo se ha estancado. Normalmente significa que la especificación era lo bastante ceñida como para determinar su propia respuesta. Toma las entregas coincidentes como una medida del encargo, no de la gente.",
+          "flavor": "«¿Quién diseñó la mecánica de arremeter? Yo. Y Sam Stoddard… Nos dieron los mismos parámetros y seguimos una lógica parecida.» Y de Innistrad: «Absolutamente todos no solo diseñaron la Estaca de Madera, sino que le hicieron hacer exactamente lo mismo… Cuando alguien me pregunta quién diseñó la Estaca de Madera, respondo “todos”.»"
+        },
+        {
+          "title": "Plantea el trabajo como deberes paralelos e independientes, y luego compara lo que vuelve",
+          "rules": "Que un grupo resuelva algo junto produce una única respuesta moldeada por quien habló primero. Mándalos a todos con los mismos requisitos por escrito y sin contacto, y obtendrás varios intentos que puedes poner uno al lado del otro, incluida la información que llevan las partes a las que todos llegaron y aquellas a las que no llegó nadie.",
+          "flavor": "«En diseño, el líder de un set reparte deberes para que el equipo trabaje en su propio tiempo y los traiga a la siguiente reunión. El líder suele ser muy concreto sobre lo que busca. A veces… será para tapar un agujero específico; en otras, puede ser una llamada a diseños dentro de un área elegida.»"
+        },
+        {
+          "title": "El oficio maduro consiste en descubrir lo que el medio ya implica, no en hallar territorio nuevo",
+          "rules": "Al principio el trabajo parece exploración y el premio está donde nadie ha estado. Más tarde deja de ir de eso. El material tiene una veta, las buenas respuestas ya están latentes en él, y la destreza pasa a ser leer la forma que hay en vez de perseguir una que no existe.",
+          "flavor": "«El buen diseño no va de descubrir lo que no se ha hecho, sino de averiguar dónde está la parte elegante del juego. La metáfora que me gusta usar es la de la escultura. El diseño se enfrenta a menudo a bloques gigantes de piedra. Nuestro trabajo es encontrar la estatua dentro de la piedra. No la creamos tanto como la descubrimos.»"
+        },
+        {
+          "title": "Cuando las reglas bloquean la forma, mantén fija la experiencia y busca otra figura",
+          "rules": "Una prohibición se aplica a la implementación que se te ocurrió primero, no a lo que querías. Escribe la experiencia en términos llanos —qué debería poder hacer la persona— y luego busca una construcción legal que la produzca. La versión bloqueada nunca fue la idea.",
+          "flavor": "Quería una carta partida, mitad conjuro y mitad criatura. «Solo había un pequeño problema: las cartas partidas no admiten permanentes. Así que hice lo que siempre hacemos cuando una idea no funciona dentro de las reglas: intenté encontrar otra manera de hacerlo. Vale, lo que yo quería era una carta que pudiera ser criatura o conjuro.» Varios intentos después: sacrificarla al entrar para generar el efecto."
+        },
+        {
+          "title": "Volver a deducir un diseño conocido desde otro punto de partida puede mejorarlo",
+          "rules": "Llegar a algo que ya existe no es esfuerzo desperdiciado. Como llegaste por tu propia ruta, pusiste a prueba restricciones que el autor original heredó sin examinar, y a menudo aterrizarás un paso más allá, trayendo el arreglo de un defecto que no tenías cómo saber que estaba ahí.",
+          "flavor": "«Jon Loucks estaba probando Khans of Tarkir y comentó lo contento que estaba de que usáramos su mecánica “energize”, que había presentado en la segunda Gran Búsqueda de Diseñadores. Lo interesante es que no partimos de su mecánica, sino que evolucionamos hasta ella. De hecho, fuimos un paso más allá, arreglando un problema que yo había señalado al juzgarla en la GDS2.»"
+        },
+        {
+          "title": "Cuando un tema obliga a cada pieza a cargar con contar y apuntar, cambia la mecánica, no las piezas",
+          "rules": "Un asunto que debe referenciarse explícitamente hace cada ítem más palabrero de lo debido, y el conjunto se vuelve pesado mucho antes de volverse profundo. El arreglo no es una redacción más lista en cada uno. Es un mecanismo que hace que efectos llanos y corrientes cuenten como pertenecientes, de modo que el tema viaje por debajo del texto.",
+          "flavor": "«Hice señores de criaturas, cartas que apuntaban a ciertos tipos de criatura y cartas que necesitaban un umbral de ese tipo para funcionar… los efectos que generaba se estaban poniendo un poco complejos. Los conjuros tenían que contar el número de un tipo concreto, o apuntar solo a ese tipo, o hacían cosas que requerían muchas palabras. Yo tenía muchas ganas de hallar una mecánica que permitiera efectos simples y básicos pero que importaran en un entorno tribal.»"
+        },
+        {
+          "title": "Haz que el objeto sea su propio recurso de reserva, y tarifícalo para que usar la reserva salga un poco a pérdida",
+          "rules": "Una habilidad que consume otra cosa deja tirado a quien no tiene nada que darle. Deja que se consuma a sí misma por defecto, para que nunca se lea como en blanco; y luego hazla una fracción más valiosa que las alternativas, para que gastarla en sí misma siempre parezca la línea menor. Obtienes fiabilidad e incentivo a la vez.",
+          "flavor": "«Al final pusimos la mecánica en criaturas para que, si no tenías otras criaturas, siempre pudieras sacrificarla. Hicimos la criatura un pelín más grande a propósito, para animarte a sacrificar otras criaturas. También diseñamos criaturas más pequeñas que te daban beneficios por sacrificarlas, casi siempre con disparos de muerte.»"
+        },
+        {
+          "title": "Si los encargos bien especificados convergen, entonces especificar es el trabajo",
+          "rules": "La evidencia de que personas distintas con los mismos requisitos producen la misma respuesta tiene una consecuencia directa: la respuesta la determinaron los requisitos. Así que la palanca no está en generar opciones, sino aguas arriba, en ser preciso sobre lo que de verdad hace falta. Traslada allí las horas.",
+          "flavor": "«El diseño paralelo refuerza la idea de que el buen diseño empuja en una dirección similar. Lo que esto significa es que la clave para hallar respuestas en diseño es entender mejor qué es lo que necesitas. Adoptar este concepto ha cambiado cómo resolvemos problemas. En vez de saltar a la lluvia de ideas, dedicamos más tiempo a definir claramente los parámetros.»"
+        },
+        {
+          "title": "La calidad es una relación entre la cosa y su entorno, no una propiedad de la cosa",
+          "rules": "«¿Esto es bueno?» no tiene respuesta por sí solo, y la gente lo responde igualmente. La pregunta real es si es bueno aquí: junto a estos otros elementos, sirviendo a este propósito, para este público. Algo puede ser excelente y estar equivocado, y las dos palabras describen mediciones distintas.",
+          "flavor": "«Una idea no existe en el vacío. Para juzgarla, tienes que ver el entorno en el que se propone. Hay mecánicas que pueden brillar en un bloque y que serían miserables en otro. El contexto importa. La sinergia importa. El sabor importa. Una mecánica no entra en un set porque sea una gran mecánica; entra porque es una gran mecánica en ese set.»"
+        },
+        {
+          "title": "No privilegies una respuesta por su procedencia",
+          "rules": "Las ideas llegan de un encargo, de un accidente, del archivo viejo de alguien, de una ruta que te daría vergüenza describir. Nada de eso sobrevive hasta la cosa terminada. Juzgar por origen te lleva a defender tus propios caminos y a descontar los ajenos, cuando la única pregunta que importa es adónde fue a parar.",
+          "flavor": "«La última lección del diseño paralelo es que el camino a un buen diseño no es algo singular. Toma cualquier buena idea y hay múltiples maneras de llegar. La clave no es detenerse en dónde empiezas, sino en dónde terminas.» Onslaught llegó a explotar por una necesidad tribal; Dragons of Tarkir, por una necesidad de sacrificar."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Conception parallèle",
+      "dek": "Toutes les personnes de l'équipe ont conçu le Pieu de bois, et toutes lui ont fait faire exactement la même chose.",
+      "overview": "Quatre façons dont deux personnes inventent la même chose sans le savoir, et ce que ce phénomène implique sur l'endroit où doit vraiment aller l'effort de conception.",
+      "takeaway": "« Plutôt que de sauter au brainstorming, nous passons plus de temps à définir clairement les paramètres. »",
+      "lessons": [
+        {
+          "title": "Des consignes identiques produisent fiablement des réponses identiques, et cela valide la consigne",
+          "rules": "Quand plusieurs personnes travaillant séparément rendent la même chose, on lit d'abord une copie ou un groupe sclérosé. Cela signifie d'ordinaire que la spécification était assez serrée pour déterminer sa propre réponse. Prenez les rendus concordants comme une mesure de la consigne, non des gens.",
+          "flavor": "« Alors, qui a conçu la mécanique de ruée ? Moi. Et Sam Stoddard… On nous avait donné les mêmes paramètres et nous avons suivi une logique semblable. » Et pour Innistrad : « Absolument chacun a conçu le Pieu de bois, et lui a fait faire exactement la même chose… Quand on me demande qui l'a conçu, je réponds “tout le monde”. »"
+        },
+        {
+          "title": "Posez le travail en devoirs parallèles et indépendants, puis comparez ce qui revient",
+          "rules": "Faire résoudre une chose par un groupe produit une réponse unique, façonnée par qui a parlé en premier. Renvoyez chacun avec les mêmes exigences écrites et sans contact, et vous obtenez plusieurs tentatives à mettre côte à côte — y compris l'information portée par ce que tous ont trouvé et par ce que personne n'a trouvé.",
+          "flavor": "« En conception, le chef d'une édition distribue des devoirs à faire sur son propre temps et à rapporter à la réunion suivante. Le chef est d'ordinaire très précis sur ce qu'il cherche. Parfois… il s'agit de combler un trou précis ; d'autres fois, c'est un appel à des conceptions dans un domaine choisi. »"
+        },
+        {
+          "title": "Le métier mûr consiste à dégager ce que le matériau implique, non à trouver du territoire neuf",
+          "rules": "Au début, le travail ressemble à une exploration et le prix se trouve là où nul n'est allé. Plus tard, ce n'est plus cela. La matière a un fil, les bonnes réponses y sont déjà latentes, et l'habileté devient de lire la forme présente plutôt que d'en chasser une qui n'existe pas.",
+          "flavor": "« Une bonne conception ne consiste pas à découvrir ce qui n'a pas été fait, mais à trouver où se situe la part élégante du jeu. La métaphore que j'aime est celle de la sculpture. La conception fait face à d'énormes blocs de pierre. Notre travail est de trouver la statue dans la pierre. Nous ne créons pas tant la statue que nous la dégageons. »"
+        },
+        {
+          "title": "Quand les règles bloquent la forme, gardez l'expérience et trouvez une autre figure",
+          "rules": "Une interdiction porte sur la mise en œuvre qui vous est venue en premier, pas sur ce que vous vouliez. Écrivez l'expérience en termes simples — que doit pouvoir faire la personne — puis cherchez une construction légale qui la produise. La version bloquée n'a jamais été l'idée.",
+          "flavor": "Il voulait une carte partagée, moitié sort et moitié créature. « Il n'y avait qu'un petit problème : les cartes partagées ne peuvent pas porter de permanents. J'ai donc fait ce que nous faisons toujours quand une idée ne passe pas dans les règles : j'ai cherché une autre façon de la faire. » Plusieurs essais plus tard : la sacrifier à l'arrivée pour obtenir l'effet."
+        },
+        {
+          "title": "Redériver une conception connue depuis un autre départ peut l'améliorer",
+          "rules": "Arriver à quelque chose qui existe déjà n'est pas de l'effort gaspillé. Comme vous y êtes allé par votre propre route, vous avez éprouvé des contraintes que l'auteur d'origine avait héritées sans les examiner, et vous atterrirez souvent un cran plus loin, avec la correction d'un défaut que vous ne pouviez pas connaître.",
+          "flavor": "« Jon Loucks testait Les Khans de Tarkir et s'est réjoui que nous ayons utilisé sa mécanique “energize”, soumise lors du deuxième Great Designer Search. Le plus intéressant est que nous n'étions pas partis de sa mécanique : nous y avions évolué. Nous sommes même allés plus loin, en corrigeant un problème que j'avais noté en la jugeant à la GDS2. »"
+        },
+        {
+          "title": "Quand un thème force chaque pièce à compter et à cibler, changez la mécanique, pas les pièces",
+          "rules": "Un sujet qui doit être référencé explicitement alourdit chaque élément, et l'ensemble devient pesant bien avant d'être profond. Le remède n'est pas une rédaction plus habile sur chacun. C'est un mécanisme qui fait que des effets simples et ordinaires comptent comme appartenant au thème, lequel passe alors sous le texte.",
+          "flavor": "« J'ai fait des seigneurs, des cartes ciblant certains types de créature, des cartes exigeant un seuil de ce type… les effets devenaient un peu complexes. Les sorts devaient compter un type précis, ne cibler que ce type, ou faisaient des choses très bavardes. J'avais hâte de trouver une mécanique permettant des effets simples et basiques, mais qui comptent dans un environnement tribal. »"
+        },
+        {
+          "title": "Faites de l'objet son propre recours, puis tarifez-le pour que ce recours soit légèrement dommageable",
+          "rules": "Une capacité qui consomme autre chose laisse démuni celui qui n'a rien à lui donner. Laissez-la se consommer elle-même par défaut, pour qu'elle ne soit jamais vide — puis rendez-la un peu plus précieuse que les solutions de rechange, pour que la dépenser sur elle-même reste toujours la ligne mineure.",
+          "flavor": "« Au final, nous avons mis la mécanique sur des créatures, pour que si vous n'aviez aucune autre créature vous puissiez toujours la sacrifier. Nous avons fait la créature un chouïa plus grosse exprès, pour vous encourager à en sacrifier d'autres. Nous avons aussi conçu de plus petites créatures qui vous récompensaient d'être sacrifiées, le plus souvent par des déclenchements à la mort. »"
+        },
+        {
+          "title": "Si des consignes bien spécifiées convergent, alors spécifier est le travail",
+          "rules": "Le constat que des personnes différentes, avec les mêmes exigences, produisent la même réponse a une conséquence directe : la réponse était déterminée par les exigences. Le levier n'est donc pas dans la production d'options, mais en amont, dans la précision sur le besoin réel. Déplacez-y les heures.",
+          "flavor": "« La conception parallèle renforce l'idée qu'une bonne conception pousse dans une direction semblable. Cela veut dire que la clé pour trouver des réponses est de mieux comprendre ce dont on a besoin. Adopter cette idée a changé notre façon de résoudre les problèmes. Plutôt que de sauter au brainstorming, nous passons plus de temps à définir clairement les paramètres. »"
+        },
+        {
+          "title": "La qualité est une relation entre la chose et son entourage, non une propriété de la chose",
+          "rules": "« Est-ce bon ? » n'est pas répondable en soi, et l'on y répond quand même. La vraie question est : est-ce bon ici — à côté de ces autres éléments, pour cette fin, pour ce public. Une chose peut être excellente et fausse, et ces deux mots décrivent des mesures différentes.",
+          "flavor": "« Une idée n'existe pas dans le vide. Pour la juger, il faut voir l'environnement où elle est proposée. Certaines mécaniques brillent dans un bloc et seraient misérables dans un autre. Le contexte compte. La synergie compte. La saveur compte. Une mécanique n'entre pas dans une édition parce que c'est une grande mécanique, mais parce que c'est une grande mécanique dans cette édition. »"
+        },
+        {
+          "title": "Ne privilégiez pas une réponse pour sa provenance",
+          "rules": "Les idées viennent d'une consigne, d'un accident, du vieux fichier de quelqu'un, d'un chemin que vous auriez honte de décrire. Rien de cela ne survit dans l'objet fini. Juger sur l'origine amène à défendre ses propres routes et à déprécier celles des autres, alors que la seule question qui compte est où l'on a abouti.",
+          "flavor": "« La dernière leçon de la conception parallèle est que le chemin vers une bonne conception n'est pas unique. Prenez n'importe quelle bonne idée : il y a plusieurs façons d'y arriver. La clé n'est pas de s'attarder sur le point de départ mais sur le point d'arrivée. » Onslaught a atteint l'exploitation par un besoin tribal ; Les Dragons de Tarkir, par un besoin de sacrifice."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Design paralelo",
+      "dek": "Todas as pessoas da equipe projetaram a Estaca de Madeira, e todas fizeram com que ela fizesse exatamente a mesma coisa.",
+      "overview": "Quatro maneiras pelas quais duas pessoas inventam a mesma coisa sem saber, e o que esse fenômeno implica sobre onde o esforço de design deveria realmente ir.",
+      "takeaway": "“Em vez de pular para o brainstorm, passamos mais tempo definindo claramente os parâmetros.”",
+      "lessons": [
+        {
+          "title": "Briefings idênticos produzem respostas idênticas de forma confiável, e isso valida o briefing",
+          "rules": "Quando várias pessoas trabalhando em separado entregam a mesma coisa, a leitura natural é que alguém copiou ou que o grupo estagnou. Em geral significa que a especificação era apertada o bastante para determinar a própria resposta. Trate entregas coincidentes como uma medida do briefing, não das pessoas.",
+          "flavor": "“Então quem projetou a mecânica de arremeter? Eu. E o Sam Stoddard… Recebemos os mesmos parâmetros e seguimos uma lógica parecida.” E de Innistrad: “Absolutamente todos não só projetaram a Estaca de Madeira como fizeram com que ela fizesse exatamente a mesma coisa… Quando alguém me pergunta quem a projetou, respondo ‘todo mundo'.”"
+        },
+        {
+          "title": "Passe o trabalho como dever de casa paralelo e independente, e depois compare o que voltar",
+          "rules": "Fazer um grupo resolver algo junto produz uma resposta única, moldada por quem falou primeiro. Mande todos embora com os mesmos requisitos por escrito e sem contato, e você obtém várias tentativas para pôr lado a lado — inclusive a informação carregada pelas partes a que todos chegaram e por aquelas a que ninguém chegou.",
+          "flavor": "“No design, o líder de uma coleção passa dever de casa para a equipe trabalhar no próprio tempo e trazer na reunião seguinte. O líder costuma ser bem específico sobre o que procura. Às vezes… é para tapar um buraco específico; em outras, pode ser um chamado por designs dentro de uma área escolhida.”"
+        },
+        {
+          "title": "O ofício maduro é revelar o que o meio já implica, não achar território novo",
+          "rules": "No começo, o trabalho parece exploração e o prêmio está onde ninguém esteve. Mais tarde deixa de ser isso. O material tem um veio, as boas respostas já estão latentes nele, e a habilidade passa a ser ler a forma que está ali em vez de caçar uma que não existe.",
+          "flavor": "“Bom design não é descobrir o que não foi feito, e sim descobrir onde está a parte elegante do jogo. A metáfora que gosto de usar é a da escultura. O design muitas vezes encara blocos gigantes de pedra. Nosso trabalho é achar a estátua dentro da pedra. Não estamos tanto criando a estátua quanto a desenterrando.”"
+        },
+        {
+          "title": "Quando as regras bloqueiam a forma, mantenha a experiência fixa e ache outro formato",
+          "rules": "Uma proibição se aplica à implementação que lhe ocorreu primeiro, não ao que você queria. Escreva a experiência em termos simples — o que a pessoa deveria conseguir fazer — e então procure uma construção legal que a produza. A versão bloqueada nunca foi a ideia.",
+          "flavor": "Ele queria uma carta dividida, metade mágica e metade criatura. “Havia só um probleminha: cartas divididas não suportam permanentes. Então fiz o que sempre fazemos quando uma ideia não funciona dentro das regras: tentei achar outro jeito de fazê-la.” Várias tentativas depois: sacrificá-la ao entrar para gerar o efeito."
+        },
+        {
+          "title": "Rederivar um design conhecido a partir de outro início pode melhorá-lo",
+          "rules": "Chegar a algo que já existe não é esforço desperdiçado. Como você chegou pela sua própria rota, testou restrições que o autor original herdou sem examinar, e muitas vezes vai aterrissar um passo além, trazendo o conserto de um defeito que você não tinha como saber que estava lá.",
+          "flavor": "“Jon Loucks estava testando Khans of Tarkir e comentou como estava feliz por termos usado a mecânica ‘energize' que ele havia submetido na segunda Great Designer Search. O interessante é que não partimos da mecânica dele, e sim evoluímos até ela. Aliás, fomos um passo além, consertando um problema que eu havia apontado ao julgá-la na GDS2.”"
+        },
+        {
+          "title": "Quando um tema obriga cada peça a contar e mirar, mude a mecânica, não as peças",
+          "rules": "Um assunto que precisa ser referenciado explicitamente deixa cada item mais prolixo do que deveria, e o conjunto fica pesado muito antes de ficar profundo. O conserto não é uma redação mais esperta em cada um. É um mecanismo que faz efeitos simples e comuns contarem como pertencentes, de modo que o tema corra por baixo do texto.",
+          "flavor": "“Fiz senhores, cartas que miravam certos tipos de criatura e cartas que exigiam um limiar daquele tipo… os efeitos estavam ficando um tanto complexos. As mágicas tinham de contar um tipo específico, ou mirar só aquele tipo, ou faziam coisas que exigiam muitas palavras. Eu estava ansioso por achar uma mecânica que permitisse efeitos simples e básicos, mas que importassem num ambiente tribal.”"
+        },
+        {
+          "title": "Faça do objeto o próprio recurso reserva, e precifique para que usar a reserva seja levemente desperdício",
+          "rules": "Uma habilidade que consome outra coisa deixa na mão quem não tem nada para alimentá-la. Deixe que ela consuma a si mesma como padrão, para nunca ser lida como em branco — e então torne-a uma fração mais valiosa que as alternativas, para que gastá-la em si mesma sempre pareça a linha menor.",
+          "flavor": "“No fim, pusemos a mecânica em criaturas para que, se você não tivesse outras criaturas, sempre pudesse sacrificá-la. Fizemos a criatura um tiquinho maior de propósito, para encorajar você a sacrificar outras. Também projetamos criaturas menores que davam benefícios por serem sacrificadas, quase sempre com gatilhos de morte.”"
+        },
+        {
+          "title": "Se briefings bem especificados convergem, então especificar é o trabalho",
+          "rules": "A evidência de que pessoas diferentes com os mesmos requisitos produzem a mesma resposta tem uma consequência direta: a resposta foi determinada pelos requisitos. Então a alavanca não está em gerar opções, e sim rio acima, em ser preciso sobre o que de fato é preciso. Mude as horas para lá.",
+          "flavor": "“O design paralelo reforça a ideia de que bom design empurra numa direção semelhante. Isso significa que a chave para achar respostas no design é entender melhor o que você precisa. Adotar esse conceito mudou como resolvemos problemas. Em vez de pular para o brainstorm, passamos mais tempo definindo claramente os parâmetros.”"
+        },
+        {
+          "title": "Qualidade é uma relação entre a coisa e o entorno, não uma propriedade da coisa",
+          "rules": "“Isto é bom?” não é respondível sozinho, e as pessoas respondem mesmo assim. A pergunta real é se é bom aqui — ao lado destes outros elementos, servindo a este propósito, para este público. Algo pode ser excelente e errado, e as duas palavras descrevem medições diferentes.",
+          "flavor": "“Uma ideia não existe no vácuo. Para julgá-la, você tem de ver o ambiente em que está sendo proposta. Há mecânicas que brilham num bloco e seriam miseráveis em outro. Contexto importa. Sinergia importa. Sabor importa. Uma mecânica não entra numa coleção porque é uma ótima mecânica; entra porque é uma ótima mecânica naquela coleção.”"
+        },
+        {
+          "title": "Não privilegie uma resposta pela procedência",
+          "rules": "Ideias chegam de um briefing, de um acidente, do arquivo velho de alguém, de um caminho que você teria vergonha de descrever. Nada disso sobrevive na coisa pronta. Julgar pela origem faz você defender os próprios caminhos e descontar os dos outros, quando a única pergunta que importa é onde a coisa foi parar.",
+          "flavor": "“A lição final do design paralelo é que o caminho para um bom design não é uma coisa singular. Pegue qualquer boa ideia e há múltiplas maneiras de chegar lá. A chave não é se demorar em onde você começa, e sim em onde você termina.” Onslaught chegou a explorar por uma necessidade tribal; Dragons of Tarkir, por uma necessidade de sacrificar."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "平行设计",
+      "dek": "团队里的每一个人都设计出了「木桩」，而且所有人都让它做的是一模一样的事。",
+      "overview": "两个人在互不知情的情况下发明出同一样东西的四种方式，以及这个现象对于「设计的力气究竟该往哪儿使」意味着什么。",
+      "takeaway": "「我们不再一上来就冲进头脑风暴，而是花更多时间去把参数清楚地定义出来。」",
+      "lessons": [
+        {
+          "title": "完全相同的任务书，可靠地产出完全相同的答案；而这验证的是任务书",
+          "rules": "当好几个各自独立工作的人交回同一样东西时，最自然的读法是：有人抄了，或者这个团队已经僵化了。但通常这意味着：那份规格紧到足以决定它自己的答案。把彼此雷同的交付当作对任务书的一次测量，而不是对人的测量。",
+          "flavor": "「那么，冲杀这个机制是谁设计的？是我。也是山姆·斯托达德……我们拿到的是同样的参数，走的是相似的逻辑。」以及依尼翠的那次：「每一个人不但都设计了木桩，而且都让它做同样的事……每当有人问我木桩是谁设计的，我的回答是『所有人』。」"
+        },
+        {
+          "title": "把工作布置成彼此独立的平行作业，然后比较收上来的东西",
+          "rules": "让一群人一起解决一个问题，产出的是一个由「谁先开口」所塑造的答案。给每个人同样的书面要求、让他们各自离开、互不接触，你就得到了好几份可以并排摆开的尝试——其中还包括这样的信息：哪些部分是所有人都到达的，哪些部分是没有一个人到达的。",
+          "flavor": "「在设计部，一个系列的主设计师会布置作业，让设计团队在自己的时间里去做，并带到下一次会议上来。主设计师通常会非常具体地说明他要找的是什么。有时候……那是为了填上一个具体的空缺；而在另一些时候，那可能是在某个选定领域内的一次征集。」"
+        },
+        {
+          "title": "成熟的手艺，是把这个媒介本来就蕴含着的东西揭出来，而不是去找新大陆",
+          "rules": "早期，这份工作感觉像是勘探，而奖赏在某个还没人去过的地方。到了后来，它就不再是关于那个了。材料是有纹理的，好的答案早已潜伏在其中；而技艺变成了「读出那里本就存在的形状」，而不是去追猎一个并不存在的形状。",
+          "flavor": "「好的设计不是关于去发现还没有被做过的东西，而是去弄清楚这个游戏优雅的那一部分究竟在哪里。我喜欢用的比喻是雕塑。设计常常要面对一块块巨大的石头。我们的工作是在石头里找到那尊雕像。与其说我们在创造这尊雕像，不如说我们是在把它揭出来。」"
+        },
+        {
+          "title": "当规则挡住了这个形式时，把「体验」固定住，再去找另一副形状",
+          "rules": "一条禁令针对的是「你碰巧最先想到的那个实现」，而不是你想要的东西。用平白的话把那份体验写下来——这个人应该能够做什么——然后去搜寻一种能产出它的合法构造。那个被挡住的版本，从来就不是那个点子本身。",
+          "flavor": "他想要一张分裂牌，一半是咒语一半是生物。「只有一个小问题——分裂牌承载不了永久物。于是我做了我们每次遇到『某个想法在规则里行不通』时都会做的事：我去想另一种做法。好吧，我想要的是一张既可以是生物、也可以是咒语的牌。」几次尝试之后：让它在进场时被献祭，以产生那个效果。"
+        },
+        {
+          "title": "从另一个起点把一个已知的设计重新推导一遍，可能会把它做得更好",
+          "rules": "抵达一个已经存在的东西，并不是白费力气。因为你是沿着自己的路线走过来的，你实际检验了那些「原作者只是继承下来、并未加以审视」的约束；而你往往会落在比它更前一步的位置上，顺带带来一个「你本来无从知晓其存在」的缺陷的修正。",
+          "flavor": "「乔恩·卢克斯当时正在试玩《鞑契可汗》，他说他很高兴我们用上了他在第二届伟大设计师搜寻赛里提交的『energize』机制。有意思的是，我们并不是从他的机制出发的，而是演化到了那里。事实上我们还多走了一步，修好了我当年在GDS2上评审这个机制时所指出的一个问题。」"
+        },
+        {
+          "title": "当一个主题逼着每一张牌都去承载「计数」和「指定」的文字时，要改的是机制，不是那些牌",
+          "rules": "一个必须被明确引用的题材，会让每一件东西都比它应有的样子更啰嗦；而整件作品会在「变深」之前很久就先「变重」。补救办法不是在每一件上写出更机灵的措辞。而是找到一套机制，让平实、普通的效果也算作属于这个主题——于是主题在文字的下面跑。",
+          "flavor": "「我做了生物领主、做了指定特定生物类别的牌，也做了需要该类别数量达到门槛才能运作的牌……我所生成的那些效应开始变得有点复杂了。那些咒语要么得去数某个特定生物类别的数量，要么只能指定那个类别，要么就是干的事情需要一大堆字。我很想找到一个机制，能让我做出简单、基本的效果，却又能在部族环境里产生意义。」"
+        },
+        {
+          "title": "让这个物件成为它自己的备选，然后把它定价成「动用这个备选略微吃亏」",
+          "rules": "一个要消耗别的东西的异能，会把「手上没有可喂的东西」的人晾在那里。让它默认可以消耗自己，这样它就永远不会读成一张白牌；然后把它做得比那些替代品略微值钱一点，于是「把它花在它自己身上」看起来永远是稍差的那条线。你同时得到了可靠性和一份激励。",
+          "flavor": "「最后我们把这个机制放在生物上，这样如果你没有别的生物，你总是可以把它自己献祭掉。我们有意把这个生物做得稍微大了那么一点点，好鼓励你去献祭别的生物。我们还设计了一些更小的生物，它们在被献祭时会给你好处，最常见的形式是死亡触发。」"
+        },
+        {
+          "title": "如果写得好的任务书会收敛，那么「写规格」才是那份工作",
+          "rules": "「不同的人拿到同样的要求会产出同样的答案」这个证据有一个直接的推论：答案是由要求决定的。所以杠杆并不在「生成选项」这一端，而在它的上游——在于把「究竟需要什么」讲得精确。把工时挪到那边去。",
+          "flavor": "「平行设计强化了这样一个观念：好的设计会朝着相似的方向去推。这意味着：在设计中找到答案的关键，在于更好地理解你需要的到底是什么。接受这个观念改变了我们解决问题的方式。我们不再一上来就冲进头脑风暴，而是花更多时间去把参数清楚地定义出来。」"
+        },
+        {
+          "title": "质量是这样东西与它周遭之间的一种关系，而不是这样东西的一项属性",
+          "rules": "「这个好不好？」这个问题单独摆着是没法回答的，而人们照样在回答它。真正的问题是：它在这里好不好——挨着这些别的元素、服务于这个目的、面向这批受众。一样东西可以既出色又不对；而这两个词衡量的是不同的东西。",
+          "flavor": "「一个点子并不存在于真空里。要评判它，你得看到它被提出来的那个环境。有些机制在一个环境里能大放异彩，放到另一个环境里则会惨不忍睹。语境很重要。协同很重要。风味很重要。一个机制被放进一个系列，不是因为它是个好机制，而是因为它在那个系列里是个好机制。」"
+        },
+        {
+          "title": "不要因为一个答案的出身而给它特殊待遇",
+          "rules": "点子来自一份任务书、来自一次意外、来自某个人的旧文件、来自一条你说出来都会不好意思的路。这些没有任何一样能存活到成品里去。按出身来评判，会让你去维护自己走过的路、去贬低别人走过的路；而唯一重要的问题是：它最终落到了哪里。",
+          "flavor": "「平行设计给出的最后一条教训是：通往一个好设计的路径并不是单一的。随便拿一个好点子，抵达它的方式有很多种。关键不在于纠结你从哪里出发，而在于你在哪里落脚。」《突袭》通过部族需求抵达了榨取；《鞑契龙王》则是通过一个「需要献祭」的需求抵达的。"
+        }
+      ]
+    }
+  }
+}
