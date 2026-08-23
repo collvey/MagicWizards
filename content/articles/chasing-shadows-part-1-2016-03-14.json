@@ -1,0 +1,294 @@
+{
+  "id": "chasing-shadows-part-1-2016-03-14",
+  "slug": "chasing-shadows-part-1-2016-03-14",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-03-14",
+  "series": { "id": "chasing-shadows", "order": 1, "total": 2 },
+  "tags": ["shadows-over-innistrad", "preview", "delirium", "madness", "design-team"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/chasing-shadows-part-1-2016-03-14",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T19:50:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Chasing Shadows, Part 1",
+      "dek": "You weren't trying to make others crazy. You were trying to keep from driving yourself insane — so the milling had to point inward.",
+      "overview": "How Shadows over Innistrad started: a five-minute pitch that put a plane on the board, insanity counters, and the leap from counting cards to counting card types.",
+      "takeaway": "\"We started with a more straightforward milling strategy, but soon realized that we weren't lining up with what the set was about. You weren't trying to make others crazy. You were trying to keep from driving yourself insane.\"",
+      "lessons": [
+        {
+          "title": "Give everyone five minutes to pitch anything",
+          "rules": "Set aside a session where each person presents on whatever they like, with no brief and no approval process attached. It costs an afternoon. Occasionally what comes out of it goes straight onto the roadmap, and the person who pitched it becomes the obvious one to staff it.",
+          "flavor": "“As part of the off-site, we spend a few hours doing a series of talks where each member of R&D is allowed to present on any Magic-related topic they wish in a five-minute micro-presentation. Adam chose to talk about his idea for a return to Innistrad… Everyone loved Adam's idea, and when we were planning out our future sets, we stuck ‘return to Innistrad' on the board.”"
+        },
+        {
+          "title": "Put the lead of the follow-on project on the current team",
+          "rules": "Whoever will run the next instalment should be in the room for this one — not briefed afterward. Most of what they inherit is being decided now, and sitting through the arguments is a cheaper and more complete handoff than any document.",
+          "flavor": "“Ken was given the task of being the lead designer on Eldritch Moon, the small set to follow Shadows over Innistrad. As is normal practice, we always like the lead of the small set to be on the team for the large set so that they are very familiar with the world and mechanics of the block, as most of it will carry over.” Sam Stoddard, who would lead its development, was on the team too."
+        },
+        {
+          "title": "Something can be cut for tone rather than quality",
+          "rules": "A perfectly good component can be wrong because of what it says. Check what each piece implies about the situation you're depicting, and drop the ones whose meaning contradicts the mood — not because they're weak, but because they'd be telling the audience something untrue.",
+          "flavor": "Miracle was out for two reasons. “First, we had made a conscious decision to return more to Innistrad the set than Innistrad the block, and miracle was tied to Avacyn Restored. Second, things were going horribly in the SOI story. This wasn't the time for miracles. No one was getting lucky.” Soulbond went the same way: “this was not a time of creatures coming together.”"
+        },
+        {
+          "title": "Pick the metaphor, then check which way it points",
+          "rules": "Settle what stands for what — and then verify the direction. An implementation can match the metaphor's mechanics exactly while aiming them at the wrong target, and the mismatch only shows up when you ask whose experience the piece is supposed to be about.",
+          "flavor": "“We decided to focus on the metaphor of the library being your mind (with your hand being your current thoughts) and losing cards from your library representing the idea of losing sanity. We started with a more straightforward milling strategy, but soon realized that we weren't lining up with what the set was about. You weren't trying to make others crazy. You were trying to keep from driving yourself insane.”"
+        },
+        {
+          "title": "Counting instances instead of magnitude changes who wins",
+          "rules": "Whether a penalty scales with the size of an event or just with how many events there were is not a detail — it reweights the entire field. Decide which one you want, and then look at what suddenly becomes strong, because that's the environment you've actually built.",
+          "flavor": "Insanity counters made you mill per source of damage, not per point. “Because insanity counters cared about how many things damaged you, not how big those things were, small, evasive creatures proved very good in the environment. (In the past, when we've tied milling one-to-one with damage, we found that players died before getting milled out.)”"
+        },
+        {
+          "title": "Build the evasion so it undoes itself as the creature grows",
+          "rules": "The frustrating version of an escape hatch is the one you can enlarge without limit. Write the condition in terms of the thing people would pump, so investing more turns the advantage off. The answer to the abuse is inside the mechanic instead of bolted on.",
+          "flavor": "“Invisible Stalker in original Innistrad had proven very frustrating, because you could put Equipment or Auras on it and make the unblockable creature quite big, ending the game in just a few turns. Skulk has a built-in answer to this problem, because as the creature gets bigger, it starts to lose its evasion.”"
+        },
+        {
+          "title": "Count how many different kinds, on an axis everyone can already reach",
+          "rules": "When counting one thing gives shallow decisions, try counting variety instead — but check the deck-building cost of the category you chose. The right axis is one every participant already has access to, so the requirement shapes play without dictating what you're allowed to build.",
+          "flavor": "Threshold counts cards; they tried creatures, noncreatures, colored, colorless. “At some point, we made the leap to counting not a particular thing but rather a certain number of things… Colors was problematic, though, because it made for very difficult deck building. We then stumbled upon card types. (And by ‘we,' I mean Ken Nagle.) Every monocolored deck had access to all the card types.”"
+        },
+        {
+          "title": "“It works because we say it works” is a debt that comes due",
+          "rules": "Some old machinery only functions because the rules assert it does, and everyone agrees not to look too closely. That survives in person and fails the moment the thing has to be implemented exactly. Before reviving it, budget for making the rules genuinely hold.",
+          "flavor": "Madness had two problems. “One was developmental—it's a hard mechanic to balance and has the ability to be abused. The other was rules-based. Madness is one of those mechanics that works out of pure willpower from the rules, which just kind of says it works. In the modern day with things like digital play, we are more rigorous in making sure our rules work smoothly.”"
+        },
+        {
+          "title": "A theme you cut still leaves a dial you have to turn back",
+          "rules": "Raising the density of something to support a theme is a separate decision from the theme itself. When the theme fails to play well and gets removed, the density stays raised unless you deliberately lower it. Undo both, and land somewhere between the old value and the new.",
+          "flavor": "“The design team embraced the idea of having a ‘double-faced cards matter' theme. Instead of one double-faced card per booster pack, we raised it to two and then made a bunch of cards that cared about things being or having been transformed… In the end, though, this theme didn't play well enough to keep. We ended up lowering the as-fan of the double-faced cards from two per pack down to about 1.125.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Persiguiendo sombras, parte 1",
+      "dek": "No intentabas volver locos a los demás. Intentabas no volverte loco tú, así que el molido tenía que apuntar hacia dentro.",
+      "overview": "Cómo empezó Shadows over Innistrad: una charla de cinco minutos que puso un plano en la pizarra, los contadores de locura, y el salto de contar cartas a contar tipos de carta.",
+      "takeaway": "«Empezamos con una estrategia de molido más directa, pero pronto vimos que no encajaba con lo que iba el bloque. No intentabas volver locos a los demás. Intentabas no volverte loco tú.»",
+      "lessons": [
+        {
+          "title": "Dale a cada cual cinco minutos para proponer lo que quiera",
+          "rules": "Reserva una sesión donde cada persona presente sobre lo que le apetezca, sin encargo ni proceso de aprobación. Cuesta una tarde. De vez en cuando lo que sale de ahí va directo a la hoja de ruta, y quien lo propuso se convierte en la elección obvia para trabajarlo.",
+          "flavor": "«Como parte del retiro, dedicamos unas horas a una serie de charlas donde cada miembro de I+D puede presentar sobre el tema de Magic que quiera en una micropresentación de cinco minutos. Adam eligió hablar de su idea de un regreso a Innistrad… A todos les encantó, y al planificar los bloques futuros pusimos “regreso a Innistrad” en la pizarra.»"
+        },
+        {
+          "title": "Pon al líder del proyecto siguiente en el equipo actual",
+          "rules": "Quien vaya a dirigir la siguiente entrega debería estar en la sala para esta, no recibir un informe después. Casi todo lo que heredará se está decidiendo ahora, y aguantar las discusiones es un traspaso más barato y más completo que cualquier documento.",
+          "flavor": "«A Ken se le encargó ser el diseñador principal de Eldritch Moon, el bloque pequeño posterior a Shadows over Innistrad. Como es práctica habitual, siempre queremos que el líder del bloque pequeño esté en el equipo del grande, para que conozca a fondo el mundo y las mecánicas.» Sam Stoddard, que dirigiría su desarrollo, también estaba en el equipo."
+        },
+        {
+          "title": "Algo puede caer por tono y no por calidad",
+          "rules": "Un componente perfectamente bueno puede estar mal por lo que dice. Comprueba qué implica cada pieza sobre la situación que retratas, y descarta aquellas cuyo significado contradiga el ambiente: no por débiles, sino porque le estarían contando al público algo falso.",
+          "flavor": "El milagro quedó fuera por dos razones. «Primero, habíamos decidido conscientemente volver más al Innistrad-bloque pequeño que al Innistrad-bloque grande, y el milagro estaba atado a Avacyn Restored. Segundo, las cosas iban fatal en la historia. No era momento de milagros. Nadie estaba teniendo suerte.» Con el vínculo de almas pasó igual: «no era momento de criaturas uniéndose.»"
+        },
+        {
+          "title": "Elige la metáfora y luego comprueba hacia dónde apunta",
+          "rules": "Fija qué representa a qué, y después verifica la dirección. Una implementación puede reproducir la mecánica de la metáfora al milímetro y apuntarla al objetivo equivocado; el desajuste solo aparece cuando preguntas de quién se supone que trata la experiencia.",
+          "flavor": "«Decidimos centrarnos en la metáfora de que tu biblioteca es tu mente (y tu mano tus pensamientos actuales) y perder cartas de la biblioteca representa perder la cordura. Empezamos con una estrategia de molido más directa, pero pronto vimos que no encajaba con lo que iba el bloque. No intentabas volver locos a los demás. Intentabas no volverte loco tú.»"
+        },
+        {
+          "title": "Contar instancias en vez de magnitud cambia quién gana",
+          "rules": "Que un castigo escale con el tamaño de un suceso o solo con cuántos sucesos hubo no es un detalle: repondera todo el campo. Decide cuál quieres y luego mira qué se vuelve fuerte de golpe, porque ese es el entorno que has construido de verdad.",
+          "flavor": "Los contadores de locura te hacían moler por fuente de daño, no por punto. «Como a los contadores de locura les importaba cuántas cosas te dañaban, no lo grandes que fueran, las criaturas pequeñas y evasivas resultaron muy buenas. (En el pasado, cuando atamos el molido uno a uno con el daño, los jugadores morían antes de quedarse sin biblioteca.)»"
+        },
+        {
+          "title": "Haz que la evasión se deshaga a sí misma según crece la criatura",
+          "rules": "La versión frustrante de una vía de escape es la que puedes agrandar sin límite. Escribe la condición en términos de aquello que la gente potenciaría, de modo que invertir más apague la ventaja. La respuesta al abuso queda dentro de la mecánica, no atornillada por fuera.",
+          "flavor": "«Invisible Stalker, en el Innistrad original, resultó muy frustrante, porque podías ponerle equipo o auras y hacer enorme a la criatura imbloqueable, acabando la partida en pocos turnos. El acecho lleva incorporada una respuesta a ese problema, porque a medida que la criatura se hace más grande empieza a perder su evasión.»"
+        },
+        {
+          "title": "Cuenta cuántas clases distintas, en un eje que todos puedan alcanzar ya",
+          "rules": "Cuando contar una sola cosa da decisiones planas, prueba a contar variedad, pero mira el coste de construcción de la categoría elegida. El eje adecuado es uno al que todo participante ya tiene acceso, para que el requisito moldee el juego sin dictar qué te está permitido construir.",
+          "flavor": "El umbral cuenta cartas; probaron criaturas, no criaturas, coloreadas, incoloras. «En algún momento dimos el salto a contar no una cosa concreta sino cierto número de cosas… El color era problemático porque complicaba muchísimo construir. Entonces topamos con los tipos de carta. (Y por “topamos” quiero decir Ken Nagle.) Todo mazo monocolor tenía acceso a todos los tipos.»"
+        },
+        {
+          "title": "«Funciona porque decimos que funciona» es una deuda que vence",
+          "rules": "Cierta maquinaria antigua solo funciona porque las reglas lo afirman y todos acuerdan no mirar de cerca. Eso sobrevive en persona y falla en cuanto hay que implementarlo con exactitud. Antes de revivirla, presupuesta el trabajo de hacer que las reglas se sostengan de verdad.",
+          "flavor": "La locura tenía dos problemas. «Uno era de desarrollo: es difícil de equilibrar y se puede abusar de ella. El otro era de reglas. La locura es una de esas mecánicas que funciona por pura fuerza de voluntad de las reglas, que sencillamente dicen que funciona. Hoy, con cosas como el juego digital, somos más rigurosos en asegurar que nuestras reglas funcionen con suavidad.»"
+        },
+        {
+          "title": "Un tema que cortas deja un dial que tienes que devolver a su sitio",
+          "rules": "Subir la densidad de algo para sostener un tema es una decisión aparte del tema mismo. Cuando el tema no juega bien y se elimina, la densidad sigue subida a menos que la bajes a propósito. Deshaz ambas cosas y quédate entre el valor viejo y el nuevo.",
+          "flavor": "«El equipo abrazó la idea de un tema de “importan las cartas de doble cara”. En vez de una por sobre, subimos a dos y luego hicimos un montón de cartas a las que les importaba que algo se hubiera transformado… Al final el tema no jugaba lo bastante bien como para conservarlo. Acabamos bajando el as-fan de dos por sobre a unos 1,125.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "À la poursuite des ombres, partie 1",
+      "dek": "Vous ne cherchiez pas à rendre les autres fous. Vous cherchiez à ne pas le devenir — le meule devait donc pointer vers l'intérieur.",
+      "overview": "Comment Shadows over Innistrad a commencé : une présentation de cinq minutes qui a mis un plan au tableau, les marqueurs de folie, et le passage du comptage de cartes au comptage de types de carte.",
+      "takeaway": "« Nous avons commencé par une stratégie de meule plus directe, mais nous avons vite vu que cela ne collait pas au propos du bloc. Vous ne cherchiez pas à rendre les autres fous. Vous cherchiez à ne pas le devenir. »",
+      "lessons": [
+        {
+          "title": "Donnez à chacun cinq minutes pour proposer ce qu'il veut",
+          "rules": "Réservez une séance où chacun présente ce qui lui plaît, sans cahier des charges ni validation. Cela coûte un après-midi. De temps à autre, ce qui en sort file droit sur la feuille de route, et celui qui l'a proposé devient l'évidence pour le mener.",
+          "flavor": "« Lors du séminaire, nous passons quelques heures en séries d'exposés où chaque membre de la R&D peut présenter le sujet Magic de son choix en une micro-présentation de cinq minutes. Adam a choisi de parler de son idée d'un retour sur Innistrad… Tout le monde a adoré, et en planifiant nos futurs blocs, nous avons inscrit “retour sur Innistrad” au tableau. »"
+        },
+        {
+          "title": "Mettez le responsable du projet suivant dans l'équipe actuelle",
+          "rules": "Celui qui pilotera la prochaine livraison devrait être dans la pièce pour celle-ci, et non briefé après coup. L'essentiel de ce qu'il héritera se décide maintenant, et assister aux débats est une passation moins chère et plus complète que n'importe quel document.",
+          "flavor": "« Ken s'est vu confier la direction de la conception d'Eldritch Moon, la petite extension suivant Shadows over Innistrad. Comme d'usage, nous aimons que le responsable de la petite extension soit dans l'équipe de la grande, afin de bien connaître le monde et les mécaniques du bloc. » Sam Stoddard, futur responsable de son développement, y était aussi."
+        },
+        {
+          "title": "On peut couper pour le ton, non pour la qualité",
+          "rules": "Un composant parfaitement bon peut être faux à cause de ce qu'il dit. Vérifiez ce que chaque pièce implique sur la situation représentée, et retirez celles dont le sens contredit l'atmosphère — non parce qu'elles sont faibles, mais parce qu'elles diraient au public quelque chose de faux.",
+          "flavor": "Le miracle est sorti pour deux raisons. « D'abord, nous avions décidé de revenir davantage à Innistrad l'extension qu'à Innistrad le bloc, et le miracle était lié à Avacyn Restored. Ensuite, tout allait horriblement mal dans l'histoire. Ce n'était pas le moment des miracles. Personne n'avait de chance. » Idem pour le lien spirituel : « ce n'était pas un temps où les créatures se rassemblent. »"
+        },
+        {
+          "title": "Choisissez la métaphore, puis vérifiez dans quel sens elle pointe",
+          "rules": "Fixez ce qui représente quoi — puis vérifiez la direction. Une mise en œuvre peut reproduire la mécanique de la métaphore au millimètre en la braquant sur la mauvaise cible ; le décalage n'apparaît qu'en demandant de qui l'expérience est censée parler.",
+          "flavor": "« Nous avons choisi la métaphore de la bibliothèque comme votre esprit (la main étant vos pensées du moment), perdre des cartes représentant la perte de raison. Nous avons commencé par une stratégie de meule plus directe, mais avons vite vu que cela ne collait pas au propos du bloc. Vous ne cherchiez pas à rendre les autres fous. Vous cherchiez à ne pas le devenir. »"
+        },
+        {
+          "title": "Compter les occurrences plutôt que l'ampleur change qui gagne",
+          "rules": "Qu'une pénalité varie avec la taille d'un événement ou seulement avec leur nombre n'est pas un détail : cela repondère tout le terrain. Choisissez, puis regardez ce qui devient soudain fort, car c'est là l'environnement que vous avez réellement bâti.",
+          "flavor": "Les marqueurs de folie faisaient meuler par source de blessures, non par point. « Comme les marqueurs de folie regardaient combien de choses vous blessaient, et non leur taille, les petites créatures évasives se sont révélées très fortes. (Par le passé, en liant le meule aux blessures un pour un, les joueurs mouraient avant d'être meulés.) »"
+        },
+        {
+          "title": "Bâtissez l'évasion pour qu'elle se défasse à mesure que la créature grandit",
+          "rules": "La version pénible d'une échappatoire, c'est celle qu'on peut agrandir sans limite. Écrivez la condition en fonction de ce que les gens gonfleraient, pour qu'investir davantage éteigne l'avantage. La réponse à l'abus est dans la mécanique, pas vissée dessus.",
+          "flavor": "« Invisible Stalker, dans l'Innistrad d'origine, s'est révélé très frustrant : on pouvait lui mettre équipements et auras et rendre la créature imblocable très grosse, finissant la partie en quelques tours. Le tapinois porte en lui la réponse à ce problème, car plus la créature grossit, plus elle perd son évasion. »"
+        },
+        {
+          "title": "Comptez combien de sortes différentes, sur un axe déjà accessible à tous",
+          "rules": "Quand compter une seule chose donne des décisions plates, comptez la variété — mais regardez le coût de construction de la catégorie choisie. Le bon axe est celui auquel chaque participant a déjà accès : l'exigence façonne le jeu sans dicter ce qu'on a le droit de bâtir.",
+          "flavor": "Le seuil compte les cartes ; ils ont essayé les créatures, les non-créatures, les colorées, les incolores. « À un moment, nous avons fait le saut : compter non une chose précise mais un certain nombre de choses… Les couleurs posaient problème car la construction devenait très difficile. Puis nous sommes tombés sur les types de carte. (Et par “nous”, j'entends Ken Nagle.) Tout deck mono-couleur avait accès à tous les types. »"
+        },
+        {
+          "title": "« Ça marche parce qu'on le dit » est une dette qui arrive à échéance",
+          "rules": "Certaines vieilles machineries ne fonctionnent que parce que les règles l'affirment et que chacun accepte de ne pas trop y regarder. Cela tient en présentiel et cède dès qu'il faut l'implémenter exactement. Avant de la ressusciter, budgétez le travail pour que les règles tiennent vraiment.",
+          "flavor": "La folie avait deux problèmes. « L'un tenait au développement : difficile à équilibrer, et abusable. L'autre tenait aux règles. La folie est de ces mécaniques qui fonctionnent par pure force de volonté des règles, lesquelles disent simplement que ça marche. Aujourd'hui, avec le jeu numérique, nous sommes plus rigoureux sur le bon fonctionnement de nos règles. »"
+        },
+        {
+          "title": "Un thème coupé laisse un curseur qu'il faut remettre",
+          "rules": "Augmenter la densité d'une chose pour soutenir un thème est une décision distincte du thème lui-même. Quand le thème joue mal et disparaît, la densité reste haute si vous ne la baissez pas exprès. Défaites les deux, et atterrissez entre l'ancienne et la nouvelle valeur.",
+          "flavor": "« L'équipe a adopté l'idée d'un thème “les cartes recto verso comptent”. Au lieu d'une par booster, nous sommes passés à deux, puis avons fait quantité de cartes s'intéressant aux transformations… Au final, le thème ne jouait pas assez bien pour être gardé. Nous avons ramené la fréquence de deux par booster à environ 1,125. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Perseguindo sombras, parte 1",
+      "dek": "Você não estava tentando enlouquecer os outros. Estava tentando não enlouquecer a si mesmo — então o moer tinha de apontar para dentro.",
+      "overview": "Como Shadows over Innistrad começou: uma apresentação de cinco minutos que pôs um plano no quadro, os marcadores de insanidade, e o salto de contar cartas para contar tipos de carta.",
+      "takeaway": "“Começamos com uma estratégia de moer mais direta, mas logo vimos que não batia com o que o bloco era. Você não estava tentando enlouquecer os outros. Estava tentando não enlouquecer a si mesmo.”",
+      "lessons": [
+        {
+          "title": "Dê a cada um cinco minutos para propor o que quiser",
+          "rules": "Reserve uma sessão em que cada pessoa apresente o que bem entender, sem briefing e sem processo de aprovação. Custa uma tarde. De vez em quando o que sai dali vai direto para o roteiro, e quem propôs vira a escolha óbvia para tocar aquilo.",
+          "flavor": "“Como parte do encontro fora, passamos algumas horas em uma série de palestras nas quais cada membro da P&D pode apresentar qualquer tema de Magic que queira, numa microapresentação de cinco minutos. Adam escolheu falar da ideia dele de um retorno a Innistrad… Todos amaram, e ao planejar os blocos futuros colocamos ‘retorno a Innistrad' no quadro.”"
+        },
+        {
+          "title": "Ponha o líder do projeto seguinte na equipe atual",
+          "rules": "Quem vai conduzir a próxima entrega deveria estar na sala nesta, não ser informado depois. Quase tudo que ele vai herdar está sendo decidido agora, e assistir às discussões é uma passagem de bastão mais barata e mais completa do que qualquer documento.",
+          "flavor": "“Ken recebeu a tarefa de liderar o design de Eldritch Moon, o bloco pequeno que segue Shadows over Innistrad. Como é praxe, sempre gostamos que o líder do bloco pequeno esteja na equipe do grande, para conhecer bem o mundo e as mecânicas.” Sam Stoddard, que lideraria o desenvolvimento dele, também estava na equipe."
+        },
+        {
+          "title": "Algo pode ser cortado por tom, não por qualidade",
+          "rules": "Um componente perfeitamente bom pode estar errado pelo que diz. Verifique o que cada peça implica sobre a situação que você retrata, e descarte aquelas cujo sentido contradiz o clima — não por serem fracas, mas porque estariam contando ao público algo falso.",
+          "flavor": "O milagre saiu por dois motivos. “Primeiro, tínhamos decidido conscientemente voltar mais à Innistrad-coleção do que à Innistrad-bloco, e o milagre estava atado a Avacyn Restored. Segundo, as coisas iam horrivelmente mal na história. Não era hora de milagres. Ninguém estava com sorte.” Com o elo de almas foi igual: “não era hora de criaturas se unindo.”"
+        },
+        {
+          "title": "Escolha a metáfora e então confira para onde ela aponta",
+          "rules": "Defina o que representa o quê — e então verifique a direção. Uma implementação pode reproduzir a mecânica da metáfora ao milímetro e mirá-la no alvo errado; o descompasso só aparece quando você pergunta de quem a experiência deveria tratar.",
+          "flavor": "“Decidimos focar na metáfora do grimório como a sua mente (com a mão sendo seus pensamentos atuais), e perder cartas do grimório representando perder a sanidade. Começamos com uma estratégia de moer mais direta, mas logo vimos que não batia com o que o bloco era. Você não estava tentando enlouquecer os outros. Estava tentando não enlouquecer a si mesmo.”"
+        },
+        {
+          "title": "Contar ocorrências em vez de magnitude muda quem vence",
+          "rules": "Se uma punição escala com o tamanho de um evento ou apenas com quantos eventos houve não é detalhe: repondera o campo inteiro. Decida qual você quer e então olhe o que de repente fica forte, porque esse é o ambiente que você de fato construiu.",
+          "flavor": "Marcadores de insanidade faziam você moer por fonte de dano, não por ponto. “Como os marcadores de insanidade se importavam com quantas coisas te causavam dano, e não com o tamanho delas, criaturas pequenas e evasivas se mostraram muito boas. (No passado, ao atrelar o moer um-para-um ao dano, os jogadores morriam antes de esvaziar o grimório.)”"
+        },
+        {
+          "title": "Construa a evasão para que ela se desfaça conforme a criatura cresce",
+          "rules": "A versão frustrante de uma saída de emergência é aquela que dá para ampliar sem limite. Escreva a condição em termos daquilo que as pessoas iriam inflar, de modo que investir mais desligue a vantagem. A resposta ao abuso fica dentro da mecânica, não parafusada por fora.",
+          "flavor": "“Invisible Stalker, na Innistrad original, se mostrou muito frustrante, porque dava para pôr equipamentos e auras e deixar a criatura imbloqueável bem grande, encerrando o jogo em poucos turnos. O esgueirar traz uma resposta embutida para esse problema, pois conforme a criatura cresce ela começa a perder a evasão.”"
+        },
+        {
+          "title": "Conte quantos tipos diferentes, num eixo que todos já alcançam",
+          "rules": "Quando contar uma coisa só dá decisões rasas, tente contar variedade — mas olhe o custo de construção da categoria escolhida. O eixo certo é aquele a que todo participante já tem acesso, para que a exigência molde o jogo sem ditar o que se pode montar.",
+          "flavor": "O limiar conta cartas; tentaram criaturas, não criaturas, coloridas, incolores. “Em certo momento demos o salto de contar não uma coisa específica, mas certo número de coisas… Cor era problemático, pois tornava a construção muito difícil. Então esbarramos nos tipos de carta. (E por ‘nós', quero dizer Ken Nagle.) Todo deck monocolorido tinha acesso a todos os tipos.”"
+        },
+        {
+          "title": "“Funciona porque dizemos que funciona” é uma dívida que vence",
+          "rules": "Certa maquinaria antiga só funciona porque as regras afirmam que sim, e todos combinam de não olhar de perto. Isso sobrevive presencialmente e falha assim que a coisa precisa ser implementada com exatidão. Antes de ressuscitá-la, orce o trabalho de fazer as regras se sustentarem de verdade.",
+          "flavor": "A insanidade tinha dois problemas. “Um era de desenvolvimento: é difícil de balancear e dá para abusar. O outro era de regras. Insanidade é uma daquelas mecânicas que funcionam por pura força de vontade das regras, que simplesmente dizem que funciona. Hoje, com coisas como o jogo digital, somos mais rigorosos em garantir que nossas regras funcionem lisas.”"
+        },
+        {
+          "title": "Um tema que você corta ainda deixa um botão para girar de volta",
+          "rules": "Aumentar a densidade de algo para sustentar um tema é uma decisão separada do tema em si. Quando o tema não joga bem e é removido, a densidade continua alta a menos que você a baixe de propósito. Desfaça as duas coisas, e pare entre o valor antigo e o novo.",
+          "flavor": "“A equipe abraçou a ideia de um tema de ‘cartas de dupla face importam'. Em vez de uma por booster, subimos para duas e então fizemos um monte de cartas que se importavam com coisas terem se transformado… No fim, o tema não jogava bem o bastante para ficar. Acabamos baixando a frequência de duas por booster para cerca de 1,125.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "追逐暗影（上）",
+      "dek": "你要做的不是把别人逼疯，而是别把自己逼疯——所以磨牌必须朝向自己。",
+      "overview": "《暗影笼罩依尼翠》是怎么起步的：一场把一个次元写上白板的五分钟演讲、疯狂指示物，以及从「数牌」跃到「数牌张类别」。",
+      "takeaway": "「我们一开始用的是更直接的磨牌策略，但很快就发现，这跟这个系列讲的事情对不上。你要做的不是把别人逼疯，而是别把自己逼疯。」",
+      "lessons": [
+        {
+          "title": "给每个人五分钟，讲什么都行",
+          "rules": "留出一场会，让每个人就自己喜欢的任何题目做个演讲，不带命题，也不附带审批流程。它的成本是一个下午。而每隔一阵子，从里面冒出来的东西会直接进入路线图；而提出它的那个人，也就成了负责它的不二人选。",
+          "flavor": "「作为外出会议的一部分，我们会花几个小时做一连串演讲：研发部的每个成员都可以就自己想讲的任何万智牌话题，做一个五分钟的微演讲。亚当选择讲他关于重返依尼翠的想法……所有人都喜欢亚当的点子；于是在规划未来的系列时，我们把『重返依尼翠』写上了白板。」"
+        },
+        {
+          "title": "把下一个项目的负责人，放进这一个项目的团队里",
+          "rules": "将要主导下一部作品的那个人，应该此刻就在这间屋子里，而不是事后听汇报。他将要继承的东西，绝大部分正在此刻被决定；而全程旁听那些争论，是一种比任何文档都更便宜、也更完整的交接。",
+          "flavor": "「肯被指派为《依尼翠暗夜猎踪》的首席设计师——那是紧随《暗影笼罩依尼翠》之后的小型系列。按照惯例，我们总是希望小型系列的负责人待在大型系列的团队里，好让他对这个环境的世界和机制非常熟悉。」将要领导其开发的山姆·斯托达德，也在这个团队里。"
+        },
+        {
+          "title": "一样东西可能是因为「调子不对」被砍，而不是因为不够好",
+          "rules": "一个完全够格的零件，可能因为它「说了什么」而不合适。检查每一件零件对你所描绘的处境暗示了什么，把那些含义与气氛相抵触的拿掉——不是因为它们弱，而是因为它们会向观众传达一件不真实的事。",
+          "flavor": "奇迹出局有两个原因。「第一，我们已经有意识地决定，这次更多是回到『依尼翠这个系列』，而不是『依尼翠这个环境』，而奇迹是绑在《阿维波恩复临》上的。第二，这个故事里一切都在急转直下。这不是奇迹发生的时候。没有人正在走运。」灵魂缔连也是同样的理由：「这不是生物们携手并肩的时候。」"
+        },
+        {
+          "title": "先挑定比喻，然后检查它指向哪一边",
+          "rules": "把「什么代表什么」定下来——然后去核对方向。一份实现可以在机制上与这个比喻分毫不差，却把它对准了错误的目标；而这份错位，只有当你追问「这段体验本该是关于谁的」时，才会显形。",
+          "flavor": "「我们决定围绕这样一个比喻：你的牌库就是你的心智（而手牌是你此刻的念头），从牌库失去牌，代表着理智的流失。我们一开始用的是更直接的磨牌策略，但很快就发现，这跟这个系列讲的事情对不上。你要做的不是把别人逼疯，而是别把自己逼疯。」"
+        },
+        {
+          "title": "数「次数」而不是数「量级」，会改变谁赢",
+          "rules": "一份惩罚是随着某个事件的大小放大，还是只随着事件发生了多少次而累加，这不是细节：它会给整个场面重新赋权。先决定你要哪一种，然后去看什么东西突然变强了——那才是你真正造出来的环境。",
+          "flavor": "疯狂指示物让你按「伤害来源」而不是按「点数」磨牌。「因为疯狂指示物在乎的是有多少个东西伤到了你，而不是它们有多大，所以小而带闪避的生物在这个环境里表现极好。（过去我们把磨牌与伤害做成一比一时，发现牌手往往在被磨光之前就先死了。）」"
+        },
+        {
+          "title": "把闪避做成「生物越大就越失效」的样子",
+          "rules": "一条逃生通道最令人烦躁的版本，就是那种可以被无限加宽的。把条件写成与「人们会去增强的那样东西」挂钩，于是投入越多，这份优势就越关掉。对滥用的回答，长在机制内部，而不是外挂上去。",
+          "flavor": "「最初依尼翠里的《隐形潜行者》被证明非常令人沮丧：你可以给它装上武具或灵气，把这个无法被阻挡的生物养得相当大，几个回合就结束游戏。而『潜近』自带了对这个问题的回答，因为随着这个生物变大，它开始失去自己的闪避能力。」"
+        },
+        {
+          "title": "去数「有多少种不同」，而且要选一根人人本来就够得着的轴",
+          "rules": "当只数一样东西只能带来浅薄的抉择时，试着改数「种类的多少」——但要看看你选的那个类别在构筑上的成本。正确的那根轴，是每个参与者本来就能用得上的；这样，这项要求会塑造对局，却不会规定你被允许造什么。",
+          "flavor": "门槛数的是牌；他们试过数生物、非生物、有色、无色。「在某个时点，我们完成了那一跃：不去数某一样特定的东西，而去数『有多少样东西』……但颜色有问题，因为它让构筑变得非常困难。接着我们撞上了牌张类别。（我说『我们』，指的是肯·内格尔。）任何单色套牌都用得上所有的牌张类别。」"
+        },
+        {
+          "title": "「它能用，是因为我们说它能用」，是一笔迟早要还的债",
+          "rules": "有些老机器之所以能转，只是因为规则宣称它能转，而所有人都同意别凑太近看。这在面对面时能撑住，但一旦这东西必须被精确地实现出来，它就垮了。在把它复活之前，先把「让规则真的成立」这份工作列进预算。",
+          "flavor": "魔鬼缠身有两个问题。「一个是开发上的：它很难平衡，而且有被滥用的能力。另一个是规则上的。魔鬼缠身属于那种全靠规则的意志力硬撑着运转的机制——规则就那么说它能用。而在如今这个有数字对战之类东西的时代，我们在确保规则运转顺畅这件事上要严格得多。」"
+        },
+        {
+          "title": "一个被你砍掉的主题，仍然留下一个必须调回去的旋钮",
+          "rules": "为了撑起一个主题而调高某样东西的密度，是与这个主题本身分开的一项决定。当主题因为不好玩而被移除时，如果你不刻意把密度调下来，它就会一直停在高位。两件事都要撤销，然后落在旧值与新值之间的某处。",
+          "flavor": "「设计团队接纳了『双面牌很重要』这个主题的想法。我们把每包补充包里的双面牌从一张提高到两张，然后做了一堆在乎『某样东西已经转化过』的牌……但最终，这个主题玩起来还没好到值得保留。我们把双面牌的出现率从每包两张，降到了大约1.125张。」"
+        }
+      ]
+    }
+  }
+}
