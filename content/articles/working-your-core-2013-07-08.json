@@ -1,0 +1,320 @@
+{
+  "id": "working-your-core-2013-07-08",
+  "slug": "working-your-core-2013-07-08",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-07-08",
+  "series": null,
+  "tags": ["card-by-card", "card-design", "templating", "color-pie"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/working-your-core-2013-07-08",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Working Your Core",
+      "dek": "Instead of card stories, a walkthrough of nine cards answering one question each: why is it written exactly that way?",
+      "overview": "Rosewater varies his usual card-by-card format by picking cards and interrogating a single word or clause in each. Why is this a sorcery rather than an instant. Why does it say another creature. Why does it round down. Why does it say equal to rather than equal to or less. The answers are almost all about the second-order consequences of small wording choices, and taken together they amount to an argument that the interesting decisions in card design happen at the level of individual words.",
+      "takeaway": "A clause is not just a description of what happens; it determines whether a decision exists, whether the effect can ever complete, and whether anybody can hold the situation in their head. Most of these cards would function with the other wording. They would play worse.",
+      "lessons": [
+        {
+          "title": "Restrict the timing to force the use you want",
+          "rules": "The effect steals a creature briefly, and it is far more valuable defensively — wait for an attack, take the attacker, have it kill something. They wanted it in the colour least suited to defence, and rather than change the effect they changed when you may cast it. Making it sorcery-speed removes the defensive use entirely, leaving only the aggressive one. When an ability has two applications and you only want one, restricting the window is often cleaner than rewriting the ability, because it subtracts a use without complicating the text.",
+          "flavor": "If we want it used offensively, we just had to make it a sorcery. Then that would be the only way to use it."
+        },
+        {
+          "title": "Write a general rule for the edge case instead of adjudicating each instance",
+          "rules": "Creatures that sacrifice a creature used to be allowed to sacrifice themselves, until someone asked whether it was confusing to permit an action whose payoff can never arrive. Rather than deciding card by card, they drew a line: if sacrificing itself still produces the effect, it may; if the effect is negated by its own absence, the card says another creature. One sentence, applied everywhere, and the individual cases stop being arguments. Where a small question keeps recurring, spend the effort once on the rule.",
+          "flavor": "Is it confusing that creatures could sacrifice themselves for an effect that could never happen?"
+        },
+        {
+          "title": "Ask the complainers for the solution, and route their answer into production",
+          "rules": "Readers raised a recurring grievance that one colour's share of the design space was too small. Instead of defending or conceding, he turned the question round and asked them what they thought should be in it. One suggestion from that thread — grant the colour effects other colours have, but only for a moment — he liked, remembered, and then offered up months later when another team was trying to improve a specific card. The route from public complaint to printed card ran through him asking, and then carrying the answer to a room where it fit.",
+          "flavor": "I asked if there were things not in red that they felt should be in red."
+        },
+        {
+          "title": "Audit each word for what it buys, and be able to say which side you lost on",
+          "rules": "A two-word phrase on a simple card generated a real internal argument: does specifying a target add flexibility worth the complexity, or is the shorter version simply easier to understand? Both positions are given fairly, the simplicity argument won, and Rosewater notes in passing that he was on the other side. Two things worth copying — the practice of putting individual words under a microscope and asking what value each adds, and the habit of reporting a decision you lost without relitigating it.",
+          "flavor": "There was much debate as to whether the words added complexity. In the end, three words rather than five."
+        },
+        {
+          "title": "Stand up a recurring forum for questions too small for a project meeting",
+          "rules": "The question of which of two colours should own a particular effect did not belong to any one project, and would have been settled inconsistently if left to whoever hit it first. So it went to a standing weekly meeting whose entire purpose is exactly these technical adjudications, attended by all three disciplines. Every organisation accumulates questions that are too minor to interrupt a project for and too consequential to answer ad hoc. Give them a scheduled venue and they get decided once, by the right people.",
+          "flavor": "Card Crafting is a weekly meeting where designers, developers and creative folk gather to talk technical issues."
+        },
+        {
+          "title": "Look for the fix that costs one word",
+          "rules": "A card had a balance problem — you always paid your half of the cost before the opponent paid theirs — and the solution was to insert a single hyphenated qualifier exempting one creature type. It fixed the asymmetry, it made flavour sense, and it encouraged a particular kind of deck, all for one word of rules text. Years later the same word solved an unrelated absurdity on a different card. When you are weighing a redesign, first check whether there is a qualifier that does the job, because a word is the cheapest thing you can add.",
+          "flavor": "It solved the problem by only having to add one word to the rules text."
+        },
+        {
+          "title": "Repeat one number across the parts, and the mismatch will be felt by people who cannot name it",
+          "rules": "A card with three abilities of visibly unequal power holds together because every one of them uses the number three, and there are exactly three of them. The unevenness is deliberate — variance makes each trigger a moment — but the numerical rhyme makes the whole thing pleasing in a way players do not consciously register. The converse is evidence: a famous card whose cost is eight while its text is full of sevens irritated a great many people, none of whom were complaining about arithmetic.",
+          "flavor": "They might not match in power, but the fact that each ability uses three makes the card more pleasing, subconsciously."
+        },
+        {
+          "title": "An option that is always correct is not an option",
+          "rules": "Compare two wordings of the same device. Under the inclusive one, adding a counter each turn is strictly better than not, so there is never a decision — you simply do it. Under the exact one, adding a counter changes what you can destroy and what you cannot, so the choice is live every turn, and the opponent gets play too, because they can bait you into advancing past the thing they want to cast. Same card, one word different, and only one version contains a game.",
+          "flavor": "There's never any decision whether or not to add a counter."
+        },
+        {
+          "title": "Use a rounding rule so the effect can never close the loop by itself",
+          "rules": "He wanted a card that removes a large fraction of the opponent's library without ever being the thing that finishes them, and the mechanism is a riddle about a vehicle that always travels exactly half the remaining distance — you approach forever and never arrive. Halving and rounding down has the same property: it always leaves something. The opponent has to draw the last card themselves. A rounding direction is an almost invisible lever, and here it is the entire difference between a strong effect and a win condition.",
+          "flavor": "The answer is an infinite amount of time, because you'll never get there."
+        },
+        {
+          "title": "Do not subdivide an effect that appears too rarely to establish the distinction",
+          "rules": "Two colours had a plausible claim to the same effect, and one camp proposed splitting the space — give the neighbouring version to one and the classic version to the other, creating a finer distinction. The counter-argument won, and it is about frequency: the effect does not come up often enough for anybody to learn that the two colours own different variants of it. A distinction only exists if the audience meets it enough times to notice. Below that rate you have not created nuance, you have created an exception.",
+          "flavor": "It wasn't the kind of ability used often enough to have it occur in two different colours."
+        }
+      ]
+    },
+    "es": {
+      "title": "Trabajando tu núcleo",
+      "dek": "En vez de historias de cartas, un repaso de nueve cartas respondiendo a una pregunta en cada una: ¿por qué está escrita exactamente así?",
+      "overview": "Rosewater varía su formato habitual de carta a carta eligiendo cartas e interrogando una sola palabra o cláusula en cada una. Por qué es un conjuro y no un instantáneo. Por qué dice otra criatura. Por qué redondea hacia abajo. Por qué dice igual a y no igual o menor. Las respuestas van casi todas sobre las consecuencias de segundo orden de pequeñas elecciones de redacción y, juntas, componen un argumento: las decisiones interesantes del diseño de cartas ocurren a nivel de palabras sueltas.",
+      "takeaway": "Una cláusula no es solo una descripción de lo que pasa: determina si existe una decisión, si el efecto puede llegar a completarse y si alguien puede sostener la situación en la cabeza. Casi todas estas cartas funcionarían con la otra redacción. Jugarían peor.",
+      "lessons": [
+        {
+          "title": "Restringe el momento para forzar el uso que quieres",
+          "rules": "El efecto roba una criatura brevemente, y es mucho más valioso a la defensiva: esperas un ataque, te llevas al atacante y le haces matar algo. Lo querían en el color menos apto para la defensa y, en vez de cambiar el efecto, cambiaron cuándo puedes lanzarlo. Hacerlo a velocidad de conjuro elimina por completo el uso defensivo y deja solo el agresivo. Cuando una habilidad tiene dos aplicaciones y solo quieres una, restringir la ventana suele ser más limpio que reescribir la habilidad, porque resta un uso sin complicar el texto.",
+          "flavor": "Si queríamos que se usara en ataque, bastaba con hacerlo un conjuro. Entonces esa sería la única forma de usarlo."
+        },
+        {
+          "title": "Escribe una regla general para el caso límite en vez de arbitrar caso por caso",
+          "rules": "Las criaturas que sacrifican una criatura podían sacrificarse a sí mismas, hasta que alguien preguntó si resultaba confuso permitir una acción cuya recompensa no puede llegar nunca. En vez de decidir carta por carta, trazaron una línea: si sacrificarse a sí misma aún produce el efecto, puede; si el efecto queda anulado por su propia ausencia, la carta dice otra criatura. Una frase, aplicada en todas partes, y los casos individuales dejan de ser discusiones. Cuando una pregunta pequeña se repite, gasta el esfuerzo una vez en la regla.",
+          "flavor": "¿Es confuso que las criaturas puedan sacrificarse a sí mismas por un efecto que nunca podría ocurrir?"
+        },
+        {
+          "title": "Pide la solución a quien se queja y lleva su respuesta a producción",
+          "rules": "Los lectores planteaban una queja recurrente: que la porción de espacio de diseño de un color era demasiado pequeña. En vez de defenderse o conceder, él dio la vuelta a la pregunta y les preguntó qué creían que debería estar ahí. Una sugerencia de aquel hilo — dar al color efectos que tienen otros colores, pero solo por un instante — le gustó, la recordó y la ofreció meses después, cuando otro equipo intentaba mejorar una carta concreta. La ruta de la queja pública a la carta impresa pasó por él preguntando y luego llevando la respuesta a una sala donde encajaba.",
+          "flavor": "Pregunté si había cosas que no estaban en rojo y que ellos creían que deberían estarlo."
+        },
+        {
+          "title": "Audita cada palabra por lo que compra, y sé capaz de decir en qué bando perdiste",
+          "rules": "Una frase de dos palabras en una carta simple generó una discusión interna real: ¿especificar un objetivo añade una flexibilidad que compense la complejidad, o la versión más corta es sencillamente más fácil de entender? Ambas posturas se exponen con justicia, ganó el argumento de la simplicidad, y Rosewater señala de pasada que él estaba en el otro bando. Dos cosas dignas de copiar: la práctica de poner palabras sueltas bajo el microscopio preguntando qué aporta cada una, y el hábito de informar de una decisión que perdiste sin volver a litigarla.",
+          "flavor": "Hubo mucho debate sobre si esas palabras añadían complejidad. Al final, tres palabras en vez de cinco."
+        },
+        {
+          "title": "Monta un foro periódico para las preguntas demasiado pequeñas para una reunión de proyecto",
+          "rules": "La cuestión de cuál de dos colores debía poseer cierto efecto no pertenecía a ningún proyecto concreto, y se habría zanjado de forma inconsistente si se dejaba a quien la topara primero. Así que fue a una reunión semanal permanente cuyo propósito entero son exactamente estos arbitrajes técnicos, con las tres disciplinas presentes. Toda organización acumula preguntas demasiado menores para interrumpir un proyecto y demasiado consecuentes para responderlas sobre la marcha. Dales un espacio agendado y se deciden una vez, por la gente correcta.",
+          "flavor": "Card Crafting es una reunión semanal donde diseñadores, desarrolladores y gente de creativo hablan de temas técnicos."
+        },
+        {
+          "title": "Busca el arreglo que cuesta una palabra",
+          "rules": "Una carta tenía un problema de equilibrio — siempre pagabas tu mitad del coste antes de que el oponente pagara la suya — y la solución fue insertar un único calificativo que eximía a un tipo de criatura. Arregló la asimetría, tenía sentido de sabor y fomentaba cierto tipo de mazo, todo por una palabra de texto de reglas. Años después, esa misma palabra resolvió un absurdo no relacionado en otra carta. Cuando sopeses un rediseño, comprueba primero si hay un calificativo que haga el trabajo, porque una palabra es lo más barato que puedes añadir.",
+          "flavor": "Resolvió el problema teniendo que añadir solo una palabra al texto de reglas."
+        },
+        {
+          "title": "Repite un número por las partes, y el desajuste lo notará gente incapaz de nombrarlo",
+          "rules": "Una carta con tres habilidades de poder visiblemente desigual se sostiene porque todas usan el número tres, y hay exactamente tres. La desigualdad es deliberada — la varianza hace de cada disparo un momento — pero la rima numérica hace que el conjunto resulte agradable de un modo que los jugadores no registran conscientemente. Lo contrario es la prueba: una carta famosa cuyo coste es ocho mientras su texto está lleno de sietes irritó a muchísima gente, ninguna de la cual se quejaba de aritmética.",
+          "flavor": "Puede que no coincidan en poder, pero que cada habilidad use el tres hace la carta más agradable, subconscientemente."
+        },
+        {
+          "title": "Una opción que siempre es correcta no es una opción",
+          "rules": "Compara dos redacciones del mismo artefacto. Con la inclusiva, añadir un contador cada turno es estrictamente mejor que no hacerlo, así que nunca hay decisión: simplemente lo haces. Con la exacta, añadir un contador cambia qué puedes destruir y qué no, así que la elección está viva cada turno, y el oponente también tiene juego, porque puede cebarte para que avances más allá de lo que quiere lanzar. La misma carta, una palabra de diferencia, y solo una versión contiene un juego.",
+          "flavor": "Nunca hay ninguna decisión sobre si añadir un contador o no."
+        },
+        {
+          "title": "Usa una regla de redondeo para que el efecto no pueda cerrar el círculo por sí solo",
+          "rules": "Quería una carta que quitara una fracción grande de la biblioteca del oponente sin ser nunca lo que lo remata, y el mecanismo es un acertijo sobre un vehículo que siempre recorre exactamente la mitad de la distancia restante: te acercas eternamente y nunca llegas. Partir por la mitad redondeando hacia abajo tiene la misma propiedad: siempre deja algo. El oponente tiene que robar la última carta él mismo. La dirección del redondeo es una palanca casi invisible y aquí es toda la diferencia entre un efecto fuerte y una condición de victoria.",
+          "flavor": "La respuesta es un tiempo infinito, porque nunca vas a llegar."
+        },
+        {
+          "title": "No subdividas un efecto que aparece demasiado poco como para establecer la distinción",
+          "rules": "Dos colores tenían una pretensión plausible sobre el mismo efecto, y un bando propuso repartir el espacio: dar la versión vecina a uno y la clásica al otro, creando una distinción más fina. Ganó el contraargumento, y va de frecuencia: el efecto no sale lo bastante a menudo como para que alguien aprenda que los dos colores poseen variantes distintas. Una distinción solo existe si el público la encuentra las veces suficientes para notarla. Por debajo de ese ritmo no has creado matiz, has creado una excepción.",
+          "flavor": "No era el tipo de habilidad que se usa lo bastante como para tenerla en dos colores distintos."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Travailler son noyau",
+      "dek": "Au lieu d'histoires de cartes, une revue de neuf cartes répondant chacune à une question : pourquoi est-elle écrite exactement ainsi ?",
+      "overview": "Rosewater varie son format habituel carte par carte en choisissant des cartes et en interrogeant un seul mot ou une seule clause dans chacune. Pourquoi est-ce un rituel et non un éphémère. Pourquoi dit-elle une autre créature. Pourquoi arrondit-elle à l'inférieur. Pourquoi dit-elle égal à et non égal ou inférieur. Les réponses portent presque toutes sur les conséquences de second ordre de petits choix de rédaction et, ensemble, elles forment un argument : les décisions intéressantes de la conception de cartes se prennent au niveau des mots.",
+      "takeaway": "Une clause n'est pas seulement une description de ce qui se passe : elle détermine s'il existe une décision, si l'effet peut jamais s'achever, et si quiconque peut tenir la situation en tête. Presque toutes ces cartes fonctionneraient avec l'autre rédaction. Elles se joueraient moins bien.",
+      "lessons": [
+        {
+          "title": "Restreignez le moment pour imposer l'usage que vous voulez",
+          "rules": "L'effet vole brièvement une créature, et il vaut bien plus en défense : on attend une attaque, on prend l'attaquant, on lui fait tuer quelque chose. Ils le voulaient dans la couleur la moins apte à la défense et, plutôt que de changer l'effet, ils ont changé le moment où on peut le lancer. Le passer à la vitesse d'un rituel supprime entièrement l'usage défensif et ne laisse que l'agressif. Quand une capacité a deux applications et que vous n'en voulez qu'une, restreindre la fenêtre est souvent plus propre que réécrire la capacité : cela retire un usage sans alourdir le texte.",
+          "flavor": "Si nous voulions un usage offensif, il suffisait d'en faire un rituel. Ce serait alors la seule façon de s'en servir."
+        },
+        {
+          "title": "Écrivez une règle générale pour le cas limite au lieu d'arbitrer chaque occurrence",
+          "rules": "Les créatures qui sacrifient une créature pouvaient se sacrifier elles-mêmes, jusqu'à ce que quelqu'un demande s'il n'était pas déroutant d'autoriser une action dont la récompense ne peut jamais arriver. Plutôt que de décider carte par carte, ils ont tracé une ligne : si se sacrifier produit quand même l'effet, c'est permis ; si l'effet est annulé par sa propre absence, la carte dit une autre créature. Une phrase, appliquée partout, et les cas particuliers cessent d'être des débats. Quand une petite question revient sans cesse, dépensez l'effort une fois sur la règle.",
+          "flavor": "Est-ce déroutant que des créatures puissent se sacrifier pour un effet qui ne pourrait jamais advenir ?"
+        },
+        {
+          "title": "Demandez la solution à ceux qui se plaignent, et faites remonter leur réponse en production",
+          "rules": "Les lecteurs soulevaient un grief récurrent : la part d'espace de conception d'une couleur serait trop petite. Plutôt que de se défendre ou de concéder, il a retourné la question et leur a demandé ce qui devrait s'y trouver. Une suggestion issue de ce fil — accorder à la couleur des effets que d'autres possèdent, mais pour un instant seulement — lui a plu, il s'en est souvenu, et l'a proposée des mois plus tard quand une autre équipe cherchait à améliorer une carte précise. Le chemin de la plainte publique à la carte imprimée est passé par lui : demander, puis porter la réponse là où elle convenait.",
+          "flavor": "J'ai demandé s'il y avait des choses absentes du rouge qui, selon eux, devraient y être."
+        },
+        {
+          "title": "Auditez chaque mot pour ce qu'il achète, et sachez dire de quel côté vous avez perdu",
+          "rules": "Une expression de deux mots sur une carte simple a produit une vraie dispute interne : préciser une cible ajoute-t-il une souplesse qui vaut la complexité, ou la version courte est-elle simplement plus facile à comprendre ? Les deux positions sont exposées loyalement, l'argument de simplicité l'a emporté, et Rosewater note en passant qu'il était de l'autre bord. Deux choses à copier : l'habitude de passer les mots un à un au microscope en demandant ce que chacun apporte, et celle de rapporter une décision perdue sans la rejouer.",
+          "flavor": "Il y eut beaucoup de débat sur le fait que ces mots ajoutaient de la complexité. À la fin, trois mots plutôt que cinq."
+        },
+        {
+          "title": "Instituez un forum régulier pour les questions trop petites pour une réunion de projet",
+          "rules": "La question de savoir laquelle de deux couleurs devait posséder un certain effet n'appartenait à aucun projet, et aurait été tranchée de façon incohérente par le premier à la rencontrer. Elle est donc allée à une réunion hebdomadaire permanente dont l'objet même est ce genre d'arbitrages techniques, avec les trois disciplines présentes. Toute organisation accumule des questions trop mineures pour interrompre un projet et trop lourdes pour être réglées au fil de l'eau. Donnez-leur un lieu programmé et elles se décident une fois, par les bonnes personnes.",
+          "flavor": "Card Crafting est une réunion hebdomadaire où concepteurs, développeurs et créatifs traitent les questions techniques."
+        },
+        {
+          "title": "Cherchez le correctif qui coûte un mot",
+          "rules": "Une carte avait un problème d'équilibre — vous payiez toujours votre moitié du coût avant que l'adversaire paie la sienne — et la solution fut d'insérer un unique qualificatif exemptant un type de créature. Cela corrigeait l'asymétrie, faisait sens en termes d'ambiance et encourageait un certain type de deck, le tout pour un mot de texte. Des années plus tard, le même mot a réglé une absurdité sans rapport sur une autre carte. Avant d'envisager une refonte, vérifiez s'il existe un qualificatif qui fait le travail : un mot est la chose la moins chère à ajouter.",
+          "flavor": "Cela réglait le problème en n'ajoutant qu'un seul mot au texte de règles."
+        },
+        {
+          "title": "Répétez un même nombre dans les parties, et le désaccord sera senti par ceux qui ne sauraient le nommer",
+          "rules": "Une carte à trois capacités de puissance visiblement inégale tient parce que toutes emploient le nombre trois, et qu'il y en a exactement trois. L'inégalité est délibérée — la variance fait de chaque déclenchement un moment — mais la rime numérique rend l'ensemble plaisant d'une façon que les joueurs n'enregistrent pas consciemment. L'inverse le prouve : une carte célèbre dont le coût est huit alors que son texte est plein de sept a agacé énormément de gens, dont aucun ne se plaignait d'arithmétique.",
+          "flavor": "Elles ne s'égalent pas en puissance, mais que chaque capacité emploie le trois rend la carte plus plaisante, inconsciemment."
+        },
+        {
+          "title": "Une option toujours correcte n'est pas une option",
+          "rules": "Comparez deux rédactions du même dispositif. Avec l'inclusive, ajouter un marqueur chaque tour est strictement meilleur que de s'en abstenir : il n'y a donc jamais de décision, on le fait. Avec l'exacte, ajouter un marqueur change ce que vous pouvez détruire et ce que vous ne pouvez pas : le choix est vivant chaque tour, et l'adversaire joue aussi, car il peut vous appâter pour que vous dépassiez ce qu'il veut lancer. Même carte, un mot d'écart, et une seule version contient un jeu.",
+          "flavor": "Il n'y a jamais la moindre décision quant à savoir s'il faut ajouter un marqueur."
+        },
+        {
+          "title": "Servez-vous d'une règle d'arrondi pour que l'effet ne puisse jamais boucler seul",
+          "rules": "Il voulait une carte retirant une large fraction de la bibliothèque adverse sans jamais être ce qui achève l'adversaire, et le mécanisme est une devinette sur un véhicule qui parcourt toujours exactement la moitié de la distance restante : on approche indéfiniment sans jamais arriver. Diviser par deux en arrondissant à l'inférieur a la même propriété : il reste toujours quelque chose. L'adversaire doit piocher lui-même la dernière carte. Le sens de l'arrondi est un levier quasi invisible, et il fait ici toute la différence entre un effet fort et une condition de victoire.",
+          "flavor": "La réponse est un temps infini, parce que vous n'arriverez jamais."
+        },
+        {
+          "title": "Ne subdivisez pas un effet qui paraît trop rarement pour installer la distinction",
+          "rules": "Deux couleurs avaient une prétention plausible sur le même effet, et un camp proposait de partager l'espace : la version voisine à l'une, la version classique à l'autre, créant une distinction plus fine. Le contre-argument l'a emporté, et il porte sur la fréquence : l'effet ne revient pas assez souvent pour que quiconque apprenne que les deux couleurs en possèdent des variantes différentes. Une distinction n'existe que si le public la rencontre assez de fois pour la remarquer. En dessous, vous n'avez pas créé de nuance, vous avez créé une exception.",
+          "flavor": "Ce n'était pas le genre de capacité assez employée pour la faire exister dans deux couleurs différentes."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Trabalhando o seu núcleo",
+      "dek": "Em vez de histórias de cartas, um passeio por nove cartas respondendo a uma pergunta em cada: por que ela está escrita exatamente assim?",
+      "overview": "Rosewater varia o seu formato habitual de carta a carta escolhendo cartas e interrogando uma única palavra ou cláusula em cada uma. Por que isto é um feitiço e não uma mágica instantânea. Por que diz outra criatura. Por que arredonda para baixo. Por que diz igual a e não igual ou menor. As respostas tratam quase todas das consequências de segunda ordem de pequenas escolhas de redação e, juntas, compõem um argumento: as decisões interessantes do design de cartas acontecem no nível das palavras.",
+      "takeaway": "Uma cláusula não é só uma descrição do que acontece: ela determina se existe uma decisão, se o efeito pode chegar a se completar, e se alguém consegue segurar a situação na cabeça. Quase todas essas cartas funcionariam com a outra redação. Jogariam pior.",
+      "lessons": [
+        {
+          "title": "Restrinja o momento para forçar o uso que você quer",
+          "rules": "O efeito rouba uma criatura brevemente, e é bem mais valioso na defesa: você espera um ataque, pega o atacante, faz ele matar algo. Eles a queriam na cor menos apta à defesa e, em vez de mudar o efeito, mudaram quando você pode conjurá-la. Passá-la para velocidade de feitiço remove por completo o uso defensivo e deixa só o agressivo. Quando uma habilidade tem duas aplicações e você quer só uma, restringir a janela costuma ser mais limpo que reescrever a habilidade, porque subtrai um uso sem complicar o texto.",
+          "flavor": "Se queríamos que fosse usada na ofensiva, bastava torná-la um feitiço. Aí essa seria a única forma de usá-la."
+        },
+        {
+          "title": "Escreva uma regra geral para o caso limite em vez de arbitrar caso a caso",
+          "rules": "Criaturas que sacrificam uma criatura podiam sacrificar a si mesmas, até alguém perguntar se era confuso permitir uma ação cuja recompensa nunca pode chegar. Em vez de decidir carta a carta, traçaram uma linha: se sacrificar-se ainda produz o efeito, pode; se o efeito é anulado pela própria ausência, a carta diz outra criatura. Uma frase, aplicada em todo lugar, e os casos individuais deixam de ser discussões. Quando uma pergunta pequena volta sempre, gaste o esforço uma vez na regra.",
+          "flavor": "É confuso que criaturas possam se sacrificar por um efeito que nunca poderia acontecer?"
+        },
+        {
+          "title": "Peça a solução a quem reclama e leve a resposta deles para a produção",
+          "rules": "Os leitores levantavam uma queixa recorrente: a fatia de espaço de design de uma cor seria pequena demais. Em vez de se defender ou conceder, ele virou a pergunta e perguntou a eles o que achavam que deveria estar ali. Uma sugestão daquele fio — dar à cor efeitos que outras têm, mas só por um instante — ele gostou, guardou, e ofereceu meses depois, quando outra equipe tentava melhorar uma carta específica. O caminho da queixa pública até a carta impressa passou por ele perguntar e depois levar a resposta a uma sala onde ela cabia.",
+          "flavor": "Perguntei se havia coisas fora do vermelho que eles achassem que deveriam estar nele."
+        },
+        {
+          "title": "Audite cada palavra pelo que ela compra, e saiba dizer de que lado você perdeu",
+          "rules": "Uma expressão de duas palavras numa carta simples gerou uma discussão interna real: especificar um alvo acrescenta uma flexibilidade que compensa a complexidade, ou a versão curta é simplesmente mais fácil de entender? As duas posições são expostas com justiça, o argumento da simplicidade venceu, e Rosewater observa de passagem que ele estava do outro lado. Duas coisas dignas de cópia: a prática de pôr palavras isoladas sob o microscópio perguntando o que cada uma agrega, e o hábito de relatar uma decisão perdida sem relitigá-la.",
+          "flavor": "Houve muito debate sobre se aquelas palavras acrescentavam complexidade. No fim, três palavras em vez de cinco."
+        },
+        {
+          "title": "Monte um fórum recorrente para as perguntas pequenas demais para uma reunião de projeto",
+          "rules": "A questão de qual de duas cores deveria possuir certo efeito não pertencia a nenhum projeto, e teria sido resolvida de forma inconsistente por quem esbarrasse nela primeiro. Então foi para uma reunião semanal permanente cujo propósito inteiro são exatamente esses arbitramentos técnicos, com as três disciplinas presentes. Toda organização acumula perguntas pequenas demais para interromper um projeto e importantes demais para responder de improviso. Dê a elas um espaço agendado e serão decididas uma vez, pelas pessoas certas.",
+          "flavor": "Card Crafting é uma reunião semanal em que designers, desenvolvedores e criativos tratam de questões técnicas."
+        },
+        {
+          "title": "Procure o conserto que custa uma palavra",
+          "rules": "Uma carta tinha um problema de equilíbrio — você sempre pagava a sua metade do custo antes de o oponente pagar a dele — e a solução foi inserir um único qualificador isentando um tipo de criatura. Consertou a assimetria, fazia sentido de sabor e incentivava certo tipo de baralho, tudo por uma palavra de texto de regras. Anos depois, a mesma palavra resolveu um absurdo sem relação em outra carta. Ao considerar um redesenho, verifique antes se existe um qualificador que faça o serviço, porque uma palavra é a coisa mais barata que você pode acrescentar.",
+          "flavor": "Resolveu o problema tendo de acrescentar só uma palavra ao texto de regras."
+        },
+        {
+          "title": "Repita um número pelas partes, e o descompasso será sentido por quem não sabe nomeá-lo",
+          "rules": "Uma carta com três habilidades de poder visivelmente desigual se sustenta porque todas usam o número três, e há exatamente três delas. A desigualdade é deliberada — a variância faz de cada disparo um momento — mas a rima numérica torna o conjunto agradável de um jeito que os jogadores não registram conscientemente. O inverso é a prova: uma carta famosa cujo custo é oito enquanto o texto está cheio de setes irritou muitíssima gente, e nenhuma delas estava reclamando de aritmética.",
+          "flavor": "Podem não se igualar em poder, mas o fato de cada habilidade usar o três torna a carta mais agradável, subconscientemente."
+        },
+        {
+          "title": "Uma opção que está sempre certa não é uma opção",
+          "rules": "Compare duas redações do mesmo dispositivo. Na inclusiva, acrescentar um marcador a cada turno é estritamente melhor que não acrescentar, então nunca há decisão: você simplesmente faz. Na exata, acrescentar um marcador muda o que você pode destruir e o que não pode, então a escolha está viva a cada turno, e o oponente também tem jogo, porque pode te atrair a avançar além do que ele quer conjurar. Mesma carta, uma palavra de diferença, e só uma versão contém um jogo.",
+          "flavor": "Nunca há decisão nenhuma sobre acrescentar ou não um marcador."
+        },
+        {
+          "title": "Use uma regra de arredondamento para o efeito nunca fechar o ciclo sozinho",
+          "rules": "Ele queria uma carta que removesse uma fração grande do grimório do oponente sem nunca ser a coisa que o finaliza, e o mecanismo é um enigma sobre um veículo que sempre percorre exatamente metade da distância restante: você se aproxima para sempre e nunca chega. Dividir ao meio arredondando para baixo tem a mesma propriedade: sempre sobra algo. O oponente tem de comprar a última carta sozinho. A direção do arredondamento é uma alavanca quase invisível, e aqui é toda a diferença entre um efeito forte e uma condição de vitória.",
+          "flavor": "A resposta é um tempo infinito, porque você nunca vai chegar lá."
+        },
+        {
+          "title": "Não subdivida um efeito que aparece raro demais para estabelecer a distinção",
+          "rules": "Duas cores tinham uma pretensão plausível sobre o mesmo efeito, e um lado propôs dividir o espaço: dar a versão vizinha a uma e a clássica à outra, criando uma distinção mais fina. O contra-argumento venceu, e é sobre frequência: o efeito não aparece com frequência suficiente para alguém aprender que as duas cores possuem variantes diferentes dele. Uma distinção só existe se o público a encontra vezes bastantes para notar. Abaixo dessa taxa você não criou nuance, criou uma exceção.",
+          "flavor": "Não era o tipo de habilidade usada com frequência suficiente para existir em duas cores diferentes."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "打磨你的核心",
+      "dek": "这一次不是讲牌张故事，而是走过九张牌，每张只回答一个问题：它为什么恰好是这样写的？",
+      "overview": "罗斯瓦特把他惯常的逐张牌形式变了个花样：挑几张牌，每张只审问其中一个词或一个从句。它为什么是巫术而不是瞬间。它为什么写「另一个生物」。它为什么向下取整。它为什么写「等于」而不是「等于或小于」。这些答案几乎全都关乎细小措辞选择的二阶后果；而合起来，它们构成了一个论点：卡牌设计里有意思的决定，是在单词这个层面上做出的。",
+      "takeaway": "一个从句不只是对「会发生什么」的描述；它决定了是否存在一个决定、这个效果能不能被完成，以及有没有人能把局面装在脑子里。这里几乎每一张牌用另一种写法也照样能运转。只是会打得更差。",
+      "lessons": [
+        {
+          "title": "限制时点，好逼出你想要的那种用法",
+          "rules": "这个效果短暂地夺走一个生物，而它在防守时价值大得多：等对方攻击，把攻击者抢过来，让它杀掉点什么。他们想把它放进最不适合防守的那个颜色里；而他们没有改效果，改的是「你什么时候可以施放它」。把它做成巫术速度，就彻底移除了防守用法，只剩下进攻用法。当一个异能有两种用途而你只想要其中一种时，限制窗口通常比重写这个异能更干净，因为它减掉了一种用法，却没有让文本变复杂。",
+          "flavor": "如果我们想让它用在进攻上，只要把它做成巫术就行。那样它就只剩这一种用法。"
+        },
+        {
+          "title": "为边缘情形写一条通则，而不是逐个裁决",
+          "rules": "会「牺牲一个生物」的生物过去可以牺牲自己，直到有人问：允许一个「回报永远不可能到达」的动作，会不会让人困惑？他们没有一张一张地裁决，而是划了一条线：如果牺牲自己仍然产出那个效果，就允许；如果那个效果会因它自己的缺席而落空，那这张牌就写「另一个生物」。一句话，处处适用，而那些个案就不再是争论了。当一个小问题反复出现时，把力气一次性花在规则上。",
+          "flavor": "让生物为了一个永远不可能发生的效果而牺牲自己，会不会让人困惑？"
+        },
+        {
+          "title": "向抱怨的人索要解法，并把他们的答案送进生产",
+          "rules": "读者反复提出一条抱怨：某个颜色分到的设计空间太小。他既没有辩护也没有让步，而是把问题反了回去，问他们：你们觉得哪些东西应该在里面？那个话题串里的一条建议——让这个颜色获得别的颜色才有的效果，但只能持续一瞬——他喜欢、记住了，并在几个月后另一支团队想改进某张具体的牌时把它端了出来。从公开抱怨到印出来的牌，这条路径经过的是「他去问」，再「把答案带到一个装得下它的房间里」。",
+          "flavor": "我问过：有没有什么不在红色里、而你们觉得应该在红色里的东西？"
+        },
+        {
+          "title": "逐词审计它买到了什么，并且说得出你是在哪一边输的",
+          "rules": "一张简单牌上的一个两字短语，引发了一场真实的内部争论：指定目标所增加的灵活性，值不值它带来的复杂度；还是说更短的版本就是更好懂？两边的立场都被公允地陈述，简洁那一方赢了；而罗斯瓦特顺带指出，他站在另一边。有两件事值得照搬：把一个个单词放到显微镜下、追问每一个带来了什么价值的做法；以及汇报一个你输掉的决定、而不重新翻案的习惯。",
+          "flavor": "关于那两个词是否增加了复杂度，争论了很久。最后是三个词而不是五个词。"
+        },
+        {
+          "title": "为那些「小到不值得打断项目、又重到不该随手决定」的问题，设一个常设论坛",
+          "rules": "「两个颜色中该由谁拥有某个效果」这个问题不属于任何一个项目；如果留给最先撞上它的人，它会被不一致地解决掉。于是它被送进了一个常设的每周会议，而这个会议的全部目的正是这类技术性裁决，三个工种都到场。任何组织都会积攒一批问题：小到不值得为它打断一个项目，重到不该临时随手回答。给它们一个排好期的场合，它们就会被由正确的人一次性决定。",
+          "flavor": "Card Crafting 是一个每周例会，设计、开发和创意的人聚在一起讨论技术性问题。"
+        },
+        {
+          "title": "去找那个只花一个词的修法",
+          "rules": "有一张牌存在平衡问题——你总是要在对手付出他那一半之前先付出你这一半——而解法是插入一个把某个生物类别排除在外的限定词。它修好了这份不对称，在风味上说得通，还鼓励了某一类套牌；而这一切只花了规则文字里的一个词。多年之后，同一个词又解决了另一张牌上一个毫不相干的荒谬之处。在权衡一次重做之前，先看看有没有一个限定词能把活干了；因为一个词是你能添加的最便宜的东西。",
+          "flavor": "它只用在规则文字里加一个词，就把这个问题解决了。"
+        },
+        {
+          "title": "让同一个数字在各个部分里重复，而那些说不出所以然的人也会感到不协调",
+          "rules": "一张带着三个强度明显不等的异能的牌之所以立得住，是因为它们每一个都用了「三」这个数字，而且恰好有三个。这份不均等是刻意的——波动让每一次触发都成为一个时刻——但这份数字上的押韵，让整张牌以一种玩家不会有意识察觉的方式变得悦目。反例就是证据：一张著名的牌，费用是八，而它的文本里全是七；这惹恼了非常多的人，而他们没有一个是在抱怨算术。",
+          "flavor": "它们在强度上并不相等，但每个异能都用到三这一点，让这张牌在潜意识里更悦目。"
+        },
+        {
+          "title": "一个永远正确的选项不是选项",
+          "rules": "把同一件装置的两种写法比一比。用包含式的那种，每回合加一个指示物严格优于不加，于是根本不存在决定——你就是加。用精确式的那种，加一个指示物会改变你能摧毁什么、不能摧毁什么，于是这个选择每回合都是活的；而且对手也有戏可唱，因为他可以引诱你越过他想施放的那个东西。同一张牌，差一个词，而只有一个版本里装着一场游戏。",
+          "flavor": "关于加不加一个指示物，从来不存在任何决定。"
+        },
+        {
+          "title": "用一条取整规则，让这个效果永远无法靠自己闭合",
+          "rules": "他想要一张能拿掉对手牌库很大一部分、却永远不会是「终结他」的那一张的牌；而它的机制来自一个谜题：一辆车每次都恰好行进剩余距离的一半——你会永远接近，永远到不了。折半并向下取整具有同样的性质：它总会剩下点什么。对手必须自己抽掉最后那一张。取整的方向是一根几乎看不见的杠杆；而在这里，它就是「一个强力效果」和「一个胜利手段」之间的全部差别。",
+          "flavor": "答案是无限长的时间，因为你永远到不了。"
+        },
+        {
+          "title": "不要去细分一个「出现得太少、立不住这份区分」的效果",
+          "rules": "两个颜色对同一个效果都有说得过去的主张，而一派提议把这片空间切开：把邻近版本给一个、把经典版本给另一个，从而造出一份更精细的区分。反对意见赢了，而它讲的是频率：这个效果出现得不够频繁，频繁不到让任何人学会「这两个颜色各自拥有它的不同变体」。一份区分只有在受众遇见它足够多次、多到能注意到时才存在。低于那个频率，你造出来的不是层次，而是一个例外。",
+          "flavor": "这不是那种被用得足够多、多到可以让它同时存在于两个颜色里的异能。"
+        }
+      ]
+    }
+  }
+}

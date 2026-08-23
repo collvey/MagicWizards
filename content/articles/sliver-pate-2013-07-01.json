@@ -1,0 +1,320 @@
+{
+  "id": "sliver-pate-2013-07-01",
+  "slug": "sliver-pate-2013-07-01",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-07-01",
+  "series": null,
+  "tags": ["mailbag", "typal", "complexity", "returning-mechanics"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/sliver-pate-2013-07-01",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "W" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Sliver Pâté",
+      "dek": "A returning creature type comes back with one rule changed, and the mailbag is almost entirely about that change.",
+      "overview": "A preview column that turns into a defence. A beloved group of cards returns for its fourth appearance, altered so that each member now benefits only its controller's copies rather than everybody's, and Rosewater takes reader questions about it. The answer runs through a general theory of where a game's mental cost actually comes from: not the difficulty of individual cards but the standing obligation to monitor things that rarely matter, plus the continuous tax of any rule that contradicts what people assume.",
+      "takeaway": "Complexity is not only what a thing asks you to understand once. It is also what it asks you to keep checking, and what it asks you to keep overriding — and both of those are invisible when you evaluate a card on its own.",
+      "lessons": [
+        {
+          "title": "Audit for the cost of standing monitoring, not only for foreground difficulty",
+          "rules": "The frame is a phone draining too fast: you do not fix it by removing the app you use, you find the small background processes that nobody wanted running and switch them off. He argues the game had accumulated many obligations to keep watching for things that seldom actually happen, each negligible alone and collectively enough to exhaust people. That is a different audit from asking whether any given component is hard. Look for what your system requires people to hold in attention continuously, and count how often that attention pays out.",
+          "flavor": "Figure out the tiny things that aren't important that are draining it, and turn those off."
+        },
+        {
+          "title": "A rule that contradicts intuition charges rent forever, not once at learning time",
+          "rules": "The second mechanism he names is subtler than difficulty. When a thing behaves as people assume, understanding it costs nothing after the first encounter, because the brain has already absorbed the pattern. When it behaves otherwise, they have to spend energy every single time reminding themselves how it actually works. So a counter-intuitive rule is not a one-off learning cost that amortises away — it is a recurring charge that never stops, and it is invisible in any test that measures whether people can learn the rule.",
+          "flavor": "If things don't work the way you assume, you have to take mental energy to keep reminding yourself how they do work."
+        },
+        {
+          "title": "The creator's flavour logic and the audience's default assumption are different intuitions, and the audience's wins",
+          "rules": "The original design had these cards affect every copy on the table, and the reasoning was impeccable: within the fiction, why would the effect stop at the table's edge? The audience's intuition runs on a different axis entirely — my cards are good for me and bad for you, and it should not benefit you when I play something. Neither is wrong about anything. But one of them belongs to the person reading the card, which makes it the one that determines how the card is experienced.",
+          "flavor": "He felt that intuition would match flavour. Why wouldn't all Goblins be influenced by the Goblin King?"
+        },
+        {
+          "title": "\"Nobody complained\" can mean the feature was invisible",
+          "rules": "Asked why they changed something new players had never had trouble with, he reports a focus-testing result: most players did not know the old version affected the opponent's copies at all. The absence of complaint was not evidence of comprehension, it was evidence of the opposite — the rule was not a problem because it was not being perceived. Before treating quiet as approval, check whether the thing you are asking about is actually reaching people. A feature nobody notices generates the same feedback as a feature that works.",
+          "flavor": "The majority of players didn't know that their Slivers affected their opponents' Slivers."
+        },
+        {
+          "title": "Somebody has to volunteer their project as the one that eats the deferred change",
+          "rules": "The change had been discussed for years and passed over each time, including once explicitly, because the project it came up in had reasons to leave it alone. What broke the pattern was a team saying out loud that this will have to change eventually and it may as well be us. Known-necessary changes do not schedule themselves; each individual project has a locally good reason to defer, and the deferral compounds. The change happens when a team accepts the cost of being the one it happens in.",
+          "flavor": "\"We're going to have to change them one day. That day can be now.\""
+        },
+        {
+          "title": "One theme, two audiences, two distribution levers",
+          "rules": "The same group of cards had to work for two very different ways of playing, and the team pulled a different lever for each. For the format where you build from what you open, they concentrated the group into a few colours at low rarity so that a coherent strategy would actually assemble. For the format where you build from everything, they made sure all five colours were represented at high rarity so the thin colours still had something worth using. Same theme, two distributions, chosen against two different constraints.",
+          "flavor": "For Limited that meant raising the as-fan of a few colours. For Constructed it meant making them in all five."
+        },
+        {
+          "title": "If the testers keep naming the old thing, it is the old thing",
+          "rules": "They built the group under a placeholder name, then a second name chosen to signal that this was something new and foreign. Playtesters kept telling the leads that the mechanic felt like the old one — and on being told that it was the old one, kept asking why it was not simply called that. The team concluded the name carried equity worth keeping. When people who do not know the history keep identifying your new thing as the old thing, they have answered the naming question for you.",
+          "flavor": "\"Why don't you just call them Slivers, then?\""
+        },
+        {
+          "title": "When both branches generate complaints, that symmetry tells you the real stakes",
+          "rules": "Having explained why they kept the old name, he adds a line worth more than the explanation: there is a parallel universe in which they chose the other option and a contingent of players is writing to ask why they did not use the name. It is a joke and it is a genuine analytical move. Where you can see that either decision produces objection, the volume of objection stops being evidence about which was right, and you are free to decide on the merits.",
+          "flavor": "There is a parallel universe where we chose not to call them Slivers, and people write me asking why we didn't."
+        },
+        {
+          "title": "Choose the wording that makes the computation a single pass",
+          "rules": "Asked why the text grants abilities to all of them rather than all others, the answer is arithmetic in the player's head. Under the mutual-exclusion wording, three on the table means tracking three separate combinations of what each is receiving from the other two. Under the inclusive wording you total the effects once and apply the same total to everything. Both produce nearly identical board states; only one can be held in memory. When two templates are functionally close, pick the one whose bookkeeping is a single operation.",
+          "flavor": "If each only affected the other two, it requires a lot of memory to track what's going on."
+        },
+        {
+          "title": "The design space you lose may be space you should not have been in",
+          "rules": "The new rule forecloses a category of cards in this group — ones that hurt everybody including you — and a reader raises this as a cost. He accepts the loss and then reframes it: that category was contentious when it was made, and to him those cards never really felt like members of the group anyway. Not all forfeited space is equally valuable. Before mourning what a restriction removes, check whether the removed region was one you were reaching into against your own better judgement.",
+          "flavor": "I'm willing to make the mechanic more intuitive at the cost of losing something that didn't even feel like a Sliver."
+        }
+      ]
+    },
+    "es": {
+      "title": "Paté de fragmentado",
+      "dek": "Un tipo de criatura muy querido vuelve con una regla cambiada, y el buzón va casi enteramente sobre ese cambio.",
+      "overview": "Una columna de vista previa que se convierte en una defensa. Un grupo de cartas muy querido vuelve por cuarta vez, alterado de modo que cada miembro beneficia ahora solo a las copias de su controlador y no a las de todos, y Rosewater responde preguntas de los lectores al respecto. La respuesta atraviesa una teoría general de dónde sale realmente el coste mental de un juego: no de la dificultad de las cartas sueltas, sino de la obligación permanente de vigilar cosas que rara vez importan, más el impuesto continuo de cualquier regla que contradiga lo que la gente asume.",
+      "takeaway": "La complejidad no es solo lo que una cosa te pide entender una vez. Es también lo que te pide seguir comprobando y lo que te pide seguir anulando, y ambas cosas son invisibles cuando evalúas una carta por separado.",
+      "lessons": [
+        {
+          "title": "Audita el coste de la vigilancia permanente, no solo la dificultad en primer plano",
+          "rules": "El marco es un teléfono que se descarga demasiado rápido: no lo arreglas quitando la aplicación que usas, sino encontrando los pequeños procesos de fondo que nadie quería en marcha y apagándolos. Él sostiene que el juego había acumulado muchas obligaciones de estar pendiente de cosas que rara vez ocurren, cada una insignificante por su cuenta y colectivamente suficientes para agotar a la gente. Esa es una auditoría distinta de preguntar si un componente concreto es difícil. Busca qué exige tu sistema mantener en atención de forma continua, y cuenta con qué frecuencia esa atención rinde.",
+          "flavor": "Averigua qué cosas pequeñas y poco importantes lo están drenando, y apágalas."
+        },
+        {
+          "title": "Una regla que contradice la intuición cobra alquiler para siempre, no una vez al aprenderla",
+          "rules": "El segundo mecanismo que nombra es más sutil que la dificultad. Cuando una cosa se comporta como la gente asume, entenderla no cuesta nada después del primer encuentro, porque el cerebro ya ha absorbido el patrón. Cuando se comporta de otro modo, hay que gastar energía cada vez para recordarse cómo funciona en realidad. Así que una regla contraintuitiva no es un coste de aprendizaje único que se amortiza: es un cargo recurrente que no cesa, y es invisible en cualquier prueba que mida si la gente puede aprender la regla.",
+          "flavor": "Si las cosas no funcionan como asumes, tienes que gastar energía mental recordándote cómo funcionan de verdad."
+        },
+        {
+          "title": "La lógica de sabor del creador y la asunción por defecto del público son intuiciones distintas, y gana la del público",
+          "rules": "El diseño original hacía que estas cartas afectaran a todas las copias en la mesa, y el razonamiento era impecable: dentro de la ficción, ¿por qué se iba a detener el efecto en el borde de la mesa? La intuición del público corre por un eje completamente distinto: mis cartas son buenas para mí y malas para ti, y no debería beneficiarte que yo juegue algo. Ninguna se equivoca sobre nada. Pero una de las dos pertenece a quien lee la carta, y eso la convierte en la que determina cómo se experimenta la carta.",
+          "flavor": "Sentía que la intuición coincidiría con el sabor. ¿Por qué no iban a verse afectados todos los duendes por el Rey Duende?"
+        },
+        {
+          "title": "«Nadie se quejó» puede significar que la característica era invisible",
+          "rules": "Al preguntarle por qué cambiaron algo con lo que los jugadores nuevos nunca habían tenido problemas, informa de un resultado de pruebas: la mayoría de los jugadores no sabía que la versión antigua afectaba a las copias del oponente. La ausencia de queja no era prueba de comprensión, era prueba de lo contrario: la regla no era un problema porque no se estaba percibiendo. Antes de tomar el silencio por aprobación, comprueba si aquello por lo que preguntas está llegando de verdad a la gente. Una característica que nadie nota genera la misma retroalimentación que una que funciona.",
+          "flavor": "La mayoría de los jugadores no sabía que sus fragmentados afectaban a los fragmentados del oponente."
+        },
+        {
+          "title": "Alguien tiene que ofrecer su proyecto como aquel en el que se paga el cambio aplazado",
+          "rules": "El cambio llevaba años discutiéndose y se había pospuesto cada vez, incluida una explícitamente, porque el proyecto en que surgía tenía motivos para dejarlo estar. Lo que rompió el patrón fue que un equipo dijera en voz alta que esto va a tener que cambiar en algún momento y bien puede ser con nosotros. Los cambios que se saben necesarios no se programan solos; cada proyecto concreto tiene un motivo localmente bueno para aplazar, y el aplazamiento se acumula. El cambio ocurre cuando un equipo acepta el coste de ser aquel en el que ocurre.",
+          "flavor": "«Vamos a tener que cambiarlos algún día. Ese día puede ser hoy.»"
+        },
+        {
+          "title": "Un tema, dos públicos, dos palancas de distribución",
+          "rules": "El mismo grupo de cartas tenía que funcionar para dos formas de jugar muy distintas, y el equipo tiró de una palanca diferente para cada una. Para el formato en que construyes con lo que abres, concentraron el grupo en unos pocos colores en rarezas bajas, para que una estrategia coherente llegara a montarse. Para el formato en que construyes con todo, se aseguraron de que los cinco colores estuvieran representados en rarezas altas, para que los colores escasos tuvieran algo que mereciera la pena. Mismo tema, dos distribuciones, elegidas contra dos restricciones distintas.",
+          "flavor": "Para Limitado eso significó subir el as-fan de unos pocos colores. Para Construido, hacerlos en los cinco."
+        },
+        {
+          "title": "Si quienes prueban siguen nombrando la cosa vieja, es la cosa vieja",
+          "rules": "Construyeron el grupo con un nombre provisional y luego con un segundo nombre elegido para señalar que esto era algo nuevo y ajeno. Los probadores seguían diciendo a los responsables que la mecánica se sentía como la vieja y, al enterarse de que era la vieja, seguían preguntando por qué no se llamaba así sin más. El equipo concluyó que el nombre tenía un valor acumulado que valía la pena conservar. Cuando gente que no conoce la historia sigue identificando tu cosa nueva como la vieja, ya te ha respondido a la pregunta del nombre.",
+          "flavor": "«Entonces, ¿por qué no los llamáis fragmentados sin más?»"
+        },
+        {
+          "title": "Cuando ambas ramas generan quejas, esa simetría te dice cuáles son las apuestas reales",
+          "rules": "Tras explicar por qué conservaron el nombre viejo, añade una línea que vale más que la explicación: hay un universo paralelo en el que eligieron la otra opción y un contingente de jugadores le escribe preguntando por qué no usaron el nombre. Es un chiste y es un movimiento analítico genuino. Cuando puedes ver que cualquiera de las dos decisiones produce objeción, el volumen de la objeción deja de ser prueba sobre cuál era la correcta, y quedas libre para decidir por el fondo.",
+          "flavor": "Hay un universo paralelo donde decidimos no llamarlos fragmentados y la gente me escribe preguntando por qué no."
+        },
+        {
+          "title": "Elige la redacción que hace del cálculo una sola pasada",
+          "rules": "Al preguntar por qué el texto concede habilidades a todos ellos y no a todos los demás, la respuesta es aritmética en la cabeza del jugador. Con la redacción de exclusión mutua, tres en mesa significa seguir tres combinaciones separadas de qué recibe cada uno de los otros dos. Con la inclusiva sumas los efectos una vez y aplicas el mismo total a todo. Ambas producen estados de mesa casi idénticos; solo una se puede sostener en la memoria. Cuando dos plantillas son funcionalmente cercanas, elige aquella cuya contabilidad sea una única operación.",
+          "flavor": "Si cada uno solo afectara a los otros dos, hace falta mucha memoria para seguir lo que pasa."
+        },
+        {
+          "title": "El espacio de diseño que pierdes puede ser espacio en el que no deberías haber estado",
+          "rules": "La nueva regla clausura una categoría de cartas de este grupo — las que perjudican a todos, incluido tú — y un lector lo plantea como un coste. Él acepta la pérdida y luego la replantea: esa categoría fue polémica cuando se hizo, y a él aquellas cartas nunca le parecieron realmente miembros del grupo. No todo espacio cedido vale lo mismo. Antes de lamentar lo que una restricción elimina, comprueba si la región eliminada era una en la que te estabas metiendo contra tu propio criterio.",
+          "flavor": "Estoy dispuesto a hacer la mecánica más intuitiva a costa de perder algo que ni siquiera me parecía un fragmentado."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Pâté d'éclat",
+      "dek": "Un type de créature très aimé revient avec une règle changée, et le courrier des lecteurs ne porte presque que sur ce changement.",
+      "overview": "Une chronique d'avant-première qui vire à la défense. Un groupe de cartes très aimé revient pour la quatrième fois, modifié de sorte que chaque membre ne profite plus qu'aux exemplaires de son contrôleur, et Rosewater répond aux questions des lecteurs. La réponse passe par une théorie générale de l'origine réelle du coût mental d'un jeu : non la difficulté des cartes prises une à une, mais l'obligation permanente de surveiller des choses qui comptent rarement, plus l'impôt continu de toute règle contredisant ce que les gens supposent.",
+      "takeaway": "La complexité n'est pas seulement ce qu'une chose vous demande de comprendre une fois. C'est aussi ce qu'elle vous demande de continuer à vérifier et de continuer à corriger mentalement — et les deux sont invisibles quand vous évaluez une carte isolément.",
+      "lessons": [
+        {
+          "title": "Auditez le coût de la surveillance permanente, pas seulement la difficulté de premier plan",
+          "rules": "Le cadre est un téléphone qui se vide trop vite : on ne le répare pas en supprimant l'application qu'on utilise, mais en trouvant les petits processus d'arrière-plan que personne ne voulait et en les coupant. Il soutient que le jeu avait accumulé beaucoup d'obligations de guetter des choses qui surviennent rarement, chacune négligeable seule et collectivement suffisantes pour épuiser. C'est un autre audit que de demander si tel composant est difficile. Cherchez ce que votre système exige de garder en attention continue, et comptez à quelle fréquence cette attention rapporte.",
+          "flavor": "Trouvez les petites choses sans importance qui le vident, et coupez-les."
+        },
+        {
+          "title": "Une règle qui contredit l'intuition prélève un loyer à vie, non une fois à l'apprentissage",
+          "rules": "Le second mécanisme qu'il nomme est plus subtil que la difficulté. Quand une chose se comporte comme on le suppose, la comprendre ne coûte rien après la première rencontre, le cerveau ayant déjà absorbé le motif. Quand elle se comporte autrement, il faut dépenser de l'énergie chaque fois pour se rappeler comment elle marche réellement. Une règle contre-intuitive n'est donc pas un coût d'apprentissage unique qui s'amortit : c'est une charge récurrente qui ne cesse jamais, et elle est invisible à tout test mesurant si les gens savent apprendre la règle.",
+          "flavor": "Si les choses ne marchent pas comme vous le supposez, il faut de l'énergie pour se rappeler sans cesse comment elles marchent."
+        },
+        {
+          "title": "La logique d'ambiance du créateur et l'hypothèse par défaut du public sont deux intuitions, et celle du public l'emporte",
+          "rules": "La conception d'origine faisait affecter par ces cartes tous les exemplaires sur la table, et le raisonnement était impeccable : dans la fiction, pourquoi l'effet s'arrêterait-il au bord de la table ? L'intuition du public suit un tout autre axe : mes cartes sont bonnes pour moi et mauvaises pour vous, et il ne devrait pas vous profiter que je joue quelque chose. Aucune n'a tort sur rien. Mais l'une appartient à celui qui lit la carte, ce qui en fait celle qui détermine comment la carte est vécue.",
+          "flavor": "Il pensait que l'intuition rejoindrait l'ambiance. Pourquoi tous les gobelins ne seraient-ils pas influencés par le Roi gobelin ?"
+        },
+        {
+          "title": "« Personne ne s'est plaint » peut vouloir dire que la fonctionnalité était invisible",
+          "rules": "Interrogé sur le changement d'une chose qui n'avait jamais gêné les nouveaux joueurs, il rapporte un résultat de test : la plupart des joueurs ignoraient que l'ancienne version affectait aussi les exemplaires de l'adversaire. L'absence de plainte n'était pas la preuve d'une compréhension, mais du contraire : la règle n'était pas un problème parce qu'elle n'était pas perçue. Avant de prendre le silence pour un accord, vérifiez que la chose sur laquelle vous interrogez atteint réellement les gens. Une fonctionnalité que personne ne remarque produit les mêmes retours qu'une qui marche.",
+          "flavor": "La majorité des joueurs ignoraient que leurs éclats affectaient les éclats de l'adversaire."
+        },
+        {
+          "title": "Il faut que quelqu'un propose son projet comme celui qui absorbe le changement différé",
+          "rules": "Le changement était discuté depuis des années et repoussé chaque fois, dont une explicitement, parce que le projet où il surgissait avait des raisons de laisser tel quel. Ce qui a rompu le cycle, c'est une équipe disant à voix haute qu'il faudra bien changer un jour et que ce peut être nous. Les changements reconnus nécessaires ne se programment pas seuls ; chaque projet a une raison localement bonne de différer, et le report s'accumule. Le changement arrive quand une équipe accepte le coût d'être celle où il se produit.",
+          "flavor": "« Il faudra bien les changer un jour. Ce jour peut être aujourd'hui. »"
+        },
+        {
+          "title": "Un thème, deux publics, deux leviers de distribution",
+          "rules": "Le même groupe de cartes devait fonctionner pour deux façons de jouer très différentes, et l'équipe a tiré un levier différent pour chacune. Pour le format où l'on bâtit avec ce qu'on ouvre, ils ont concentré le groupe dans quelques couleurs à basse rareté afin qu'une stratégie cohérente puisse effectivement se former. Pour le format où l'on bâtit avec tout, ils ont veillé à ce que les cinq couleurs soient représentées à haute rareté, pour que les couleurs pauvres aient tout de même de quoi jouer. Même thème, deux distributions, choisies contre deux contraintes.",
+          "flavor": "Pour le Limité, cela voulait dire monter la fréquence de quelques couleurs. Pour le Construit, en faire dans les cinq."
+        },
+        {
+          "title": "Si les testeurs continuent de nommer l'ancienne chose, c'est l'ancienne chose",
+          "rules": "Ils ont bâti le groupe sous un nom provisoire, puis sous un second nom choisi pour signaler qu'il s'agissait de quelque chose de neuf et d'étranger. Les testeurs répétaient aux responsables que la mécanique ressemblait à l'ancienne — et, apprenant que c'était l'ancienne, demandaient pourquoi ne pas simplement l'appeler ainsi. L'équipe en a conclu que le nom portait un capital qu'il valait mieux garder. Quand des gens ignorant l'histoire identifient sans cesse votre nouveauté comme l'ancienne chose, ils ont répondu pour vous à la question du nom.",
+          "flavor": "« Pourquoi ne pas simplement les appeler des éclats, alors ? »"
+        },
+        {
+          "title": "Quand les deux branches produisent des plaintes, cette symétrie vous dit l'enjeu réel",
+          "rules": "Après avoir expliqué pourquoi ils ont gardé l'ancien nom, il ajoute une phrase qui vaut mieux que l'explication : il existe un univers parallèle où ils ont choisi l'autre option et où un contingent de joueurs lui écrit pour demander pourquoi ils n'ont pas repris le nom. C'est une plaisanterie et c'est un vrai geste analytique. Là où vous voyez que l'une comme l'autre décision produit de l'objection, le volume d'objection cesse d'être une preuve sur laquelle avait raison, et vous êtes libre de trancher sur le fond.",
+          "flavor": "Il existe un univers parallèle où nous ne les avons pas appelés éclats, et où l'on m'écrit pour demander pourquoi."
+        },
+        {
+          "title": "Choisissez la rédaction qui fait du calcul une seule passe",
+          "rules": "À la question de savoir pourquoi le texte accorde les capacités à tous plutôt qu'à tous les autres, la réponse est l'arithmétique dans la tête du joueur. Avec la formule d'exclusion mutuelle, trois en jeu signifie suivre trois combinaisons distinctes de ce que chacun reçoit des deux autres. Avec la formule inclusive, on totalise une fois et l'on applique le même total à tout. Les deux donnent des états de jeu presque identiques ; une seule tient en mémoire. Quand deux gabarits sont fonctionnellement proches, prenez celui dont la comptabilité est une opération unique.",
+          "flavor": "Si chacun n'affectait que les deux autres, il faut beaucoup de mémoire pour suivre ce qui se passe."
+        },
+        {
+          "title": "L'espace de conception perdu est peut-être un espace où vous n'auriez pas dû être",
+          "rules": "La nouvelle règle ferme une catégorie de cartes de ce groupe — celles qui nuisent à tout le monde, vous compris — et un lecteur en fait un coût. Il accepte la perte puis la recadre : cette catégorie était contestée quand elle a été faite, et pour lui ces cartes n'ont jamais vraiment paru appartenir au groupe. Tout espace cédé ne se vaut pas. Avant de pleurer ce qu'une restriction supprime, vérifiez si la région supprimée était une où vous vous aventuriez contre votre propre jugement.",
+          "flavor": "Je suis prêt à rendre la mécanique plus intuitive au prix de perdre une chose qui ne ressemblait même pas à un éclat."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Patê de fractius",
+      "dek": "Um tipo de criatura muito querido volta com uma regra alterada, e a caixa de perguntas trata quase inteiramente dessa alteração.",
+      "overview": "Uma coluna de prévia que vira defesa. Um grupo de cartas muito querido volta pela quarta vez, alterado para que cada membro beneficie apenas as cópias do próprio controlador em vez das de todos, e Rosewater responde a perguntas dos leitores sobre isso. A resposta atravessa uma teoria geral de onde de fato vem o custo mental de um jogo: não da dificuldade das cartas isoladas, mas da obrigação permanente de vigiar coisas que raramente importam, mais o imposto contínuo de qualquer regra que contradiga o que as pessoas supõem.",
+      "takeaway": "Complexidade não é só o que uma coisa lhe pede para entender uma vez. É também o que ela lhe pede para continuar conferindo e o que ela lhe pede para continuar corrigindo mentalmente — e as duas coisas são invisíveis quando você avalia uma carta isolada.",
+      "lessons": [
+        {
+          "title": "Audite o custo da vigilância permanente, não só a dificuldade em primeiro plano",
+          "rules": "O enquadramento é um celular descarregando rápido demais: você não conserta removendo o aplicativo que usa, e sim achando os pequenos processos de fundo que ninguém queria rodando e desligando-os. Ele argumenta que o jogo havia acumulado muitas obrigações de ficar vigiando coisas que raramente acontecem, cada uma desprezível sozinha e coletivamente suficientes para esgotar as pessoas. Essa é uma auditoria diferente de perguntar se um componente é difícil. Procure o que o seu sistema exige manter em atenção continuamente, e conte com que frequência essa atenção rende.",
+          "flavor": "Descubra as coisinhas sem importância que estão drenando, e desligue-as."
+        },
+        {
+          "title": "Uma regra que contradiz a intuição cobra aluguel para sempre, não uma vez na hora de aprender",
+          "rules": "O segundo mecanismo que ele nomeia é mais sutil que a dificuldade. Quando uma coisa se comporta como as pessoas supõem, entendê-la não custa nada depois do primeiro encontro, porque o cérebro já absorveu o padrão. Quando ela se comporta de outro jeito, é preciso gastar energia toda vez para lembrar a si mesmo como ela funciona de fato. Então uma regra contraintuitiva não é um custo único de aprendizado que se amortiza — é uma cobrança recorrente que nunca cessa, e é invisível em qualquer teste que meça se as pessoas conseguem aprender a regra.",
+          "flavor": "Se as coisas não funcionam como você supõe, você gasta energia mental relembrando como elas de fato funcionam."
+        },
+        {
+          "title": "A lógica de sabor do criador e a suposição padrão do público são intuições diferentes, e a do público vence",
+          "rules": "O design original fazia essas cartas afetarem todas as cópias na mesa, e o raciocínio era impecável: dentro da ficção, por que o efeito pararia na borda da mesa? A intuição do público corre num eixo completamente diferente: minhas cartas são boas para mim e ruins para você, e não deveria beneficiá-lo eu jogar alguma coisa. Nenhuma das duas está errada sobre nada. Mas uma delas pertence a quem lê a carta, e é isso que a torna a que determina como a carta é vivida.",
+          "flavor": "Ele achava que a intuição bateria com o sabor. Por que todos os goblins não seriam influenciados pelo Rei Goblin?"
+        },
+        {
+          "title": "\"Ninguém reclamou\" pode significar que o recurso era invisível",
+          "rules": "Perguntado por que mudaram algo com que jogadores novos nunca tiveram problema, ele relata um resultado de teste: a maioria dos jogadores não sabia que a versão antiga afetava as cópias do oponente. A ausência de reclamação não era prova de compreensão, era prova do contrário — a regra não era problema porque não estava sendo percebida. Antes de tomar o silêncio por aprovação, verifique se aquilo sobre o que você pergunta está de fato chegando às pessoas. Um recurso que ninguém nota gera o mesmo retorno que um que funciona.",
+          "flavor": "A maioria dos jogadores não sabia que os fractius deles afetavam os fractius do oponente."
+        },
+        {
+          "title": "Alguém tem de oferecer o próprio projeto como aquele que absorve a mudança adiada",
+          "rules": "A mudança vinha sendo discutida havia anos e fora adiada toda vez, incluindo uma explicitamente, porque o projeto em que ela surgia tinha motivos para deixar quieto. O que quebrou o padrão foi uma equipe dizer em voz alta que isso vai ter de mudar em algum momento e pode muito bem ser com a gente. Mudanças sabidamente necessárias não se agendam sozinhas; cada projeto tem um motivo localmente bom para adiar, e o adiamento se acumula. A mudança acontece quando uma equipe aceita o custo de ser aquela em que ela acontece.",
+          "flavor": "\"Vamos ter de mudá-los um dia. Esse dia pode ser hoje.\""
+        },
+        {
+          "title": "Um tema, dois públicos, duas alavancas de distribuição",
+          "rules": "O mesmo grupo de cartas tinha de funcionar para dois jeitos muito diferentes de jogar, e a equipe puxou uma alavanca diferente para cada um. Para o formato em que você constrói com o que abre, concentraram o grupo em poucas cores em raridades baixas, para que uma estratégia coerente de fato se montasse. Para o formato em que você constrói com tudo, garantiram que as cinco cores estivessem representadas em raridades altas, para que as cores escassas ainda tivessem algo que valesse a pena. Mesmo tema, duas distribuições, escolhidas contra duas restrições.",
+          "flavor": "Para o Limitado isso significou elevar a frequência de algumas cores. Para o Construído, fazê-los nas cinco."
+        },
+        {
+          "title": "Se os testadores continuam nomeando a coisa antiga, é a coisa antiga",
+          "rules": "Eles construíram o grupo com um nome provisório e depois com um segundo nome escolhido para sinalizar que aquilo era algo novo e estranho. Os testadores continuavam dizendo aos líderes que a mecânica parecia a antiga — e, ao saberem que era a antiga, continuavam perguntando por que não a chamavam assim. A equipe concluiu que o nome carregava um capital que valia manter. Quando pessoas que não conhecem a história insistem em identificar a sua coisa nova como a antiga, elas já responderam a pergunta do nome por você.",
+          "flavor": "\"Então por que vocês não chamam eles de fractius, simplesmente?\""
+        },
+        {
+          "title": "Quando os dois caminhos geram reclamação, essa simetria lhe diz qual é a aposta real",
+          "rules": "Depois de explicar por que mantiveram o nome antigo, ele acrescenta uma linha que vale mais que a explicação: existe um universo paralelo em que escolheram a outra opção e um contingente de jogadores lhe escreve perguntando por que não usaram o nome. É uma piada e é um movimento analítico genuíno. Onde você consegue ver que qualquer das duas decisões produz objeção, o volume de objeção deixa de ser prova sobre qual estava certa, e você fica livre para decidir pelo mérito.",
+          "flavor": "Existe um universo paralelo em que não os chamamos de fractius, e as pessoas me escrevem perguntando por quê."
+        },
+        {
+          "title": "Escolha a redação que torna o cálculo uma passada só",
+          "rules": "Perguntado por que o texto concede habilidades a todos eles e não a todos os outros, a resposta é aritmética na cabeça do jogador. Com a redação de exclusão mútua, três em mesa significa acompanhar três combinações separadas do que cada um recebe dos outros dois. Com a inclusiva, você soma os efeitos uma vez e aplica o mesmo total a tudo. As duas produzem estados de mesa quase idênticos; só uma cabe na memória. Quando dois gabaritos são funcionalmente próximos, pegue aquele cuja contabilidade é uma operação única.",
+          "flavor": "Se cada um só afetasse os outros dois, exige muita memória para acompanhar o que está acontecendo."
+        },
+        {
+          "title": "O espaço de design que você perde pode ser espaço em que você não deveria estar",
+          "rules": "A nova regra fecha uma categoria de cartas deste grupo — as que prejudicam todo mundo, inclusive você — e um leitor levanta isso como custo. Ele aceita a perda e então a reenquadra: aquela categoria foi contenciosa quando foi feita, e para ele aquelas cartas nunca pareceram de fato membros do grupo. Nem todo espaço cedido vale o mesmo. Antes de lamentar o que uma restrição remove, verifique se a região removida era uma em que você estava entrando contra o seu próprio bom senso.",
+          "flavor": "Estou disposto a tornar a mecânica mais intuitiva ao custo de perder algo que nem parecia um fractius."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "裂片妖肉酱",
+      "dek": "一个深受喜爱的生物类别带着一条被改动的规则回归，而读者信箱几乎全部围绕这次改动。",
+      "overview": "一篇变成了辩护的预览专栏。一组深受喜爱的牌第四次回归，并被改成「每一个成员如今只惠及它自己操控者的那些同类，而不是所有人的」；罗斯瓦特就此回答读者提问。这份回答穿过了一套关于「一个游戏的心智成本究竟从哪来」的一般理论：不是来自单张牌的难度，而是来自「持续盯住那些很少真正发生的事」这项长期义务，再加上任何一条与人们预设相抵触的规则所收取的持续税金。",
+      "takeaway": "复杂度不只是一样东西要你理解一次的那部分，还包括它要你持续核查的部分，以及它要你持续在心里纠正的部分——而当你孤立地评估一张牌时，这两者都是看不见的。",
+      "lessons": [
+        {
+          "title": "去审计「长期盯梢」的成本，而不只是台前的难度",
+          "rules": "这个框架是一部耗电太快的手机：你不是靠删掉自己在用的那个应用来修它，而是找出那些没人希望它跑着的小后台进程，把它们关掉。他主张这个游戏已经积攒了许多「要一直留意某些很少真正发生的事」的义务；每一项单独看都微不足道，合起来却足以把人耗干。这是一种和「某个部件难不难」不同的审计。去找出你的系统要求人们持续保持注意的是什么，并数一数那份注意力多久才兑现一次。",
+          "flavor": "找出那些不重要、却在耗电的小东西，然后把它们关掉。"
+        },
+        {
+          "title": "一条与直觉相抵触的规则会永远收租，而不是在学会时收一次",
+          "rules": "他点出的第二个机制比「难度」更微妙。当一样东西的行为符合人们的预设时，第一次遇到之后再理解它就不花什么成本了，因为大脑已经吸收了那个模式。而当它的行为不符合时，人们每一次都要花能量去提醒自己它实际上是怎么运作的。所以一条反直觉的规则并不是一次性的、会被摊薄掉的学习成本——它是一笔永不停止的经常性费用；而在任何一项「测量人们能不能学会这条规则」的测试里，它都是看不见的。",
+          "flavor": "如果事情不按你预设的方式运作，你就得花心力不断提醒自己它到底是怎么运作的。"
+        },
+        {
+          "title": "创作者的风味逻辑和受众的默认预设是两种直觉，而受众那一种赢",
+          "rules": "原始设计让这些牌影响桌上所有的同类，而其推理无可挑剔：在虚构世界里，这个效果凭什么会停在桌沿？受众的直觉走的却是一条完全不同的轴：我的牌对我好、对你坏；我打出一样东西，不应该反过来让你受益。这两者都没有说错任何事。但其中一种属于「正在读这张牌的那个人」——而这就让它成为了决定这张牌被如何体验的那一种。",
+          "flavor": "他觉得直觉会和风味吻合。凭什么不是所有地精都受地精王影响呢？"
+        },
+        {
+          "title": "「没人抱怨」可能意味着这个特性根本没被看见",
+          "rules": "被问到「为什么要改一件新玩家从来没觉得有问题的事」时，他汇报了一项焦点测试结果：大多数玩家根本不知道旧版本也会影响对手的同类。没有抱怨并不是理解的证据，而是相反的证据——这条规则之所以不构成问题，是因为它压根没被感知到。在把沉默当成认可之前，先确认你所问的那样东西是不是真的抵达了人们那里。一个没人注意到的特性，产生的反馈和一个运作良好的特性一模一样。",
+          "flavor": "大多数玩家并不知道自己的裂片妖会影响对手的裂片妖。"
+        },
+        {
+          "title": "必须有人主动把自己的项目献出来，作为吃下那笔延迟改动的那一个",
+          "rules": "这次改动已经被讨论了很多年，每一次都被放过去了——其中一次还是明确放过的，因为它当时冒出来的那个项目有理由不动它。打破这个循环的，是一支团队把话说了出来：这东西早晚要改，那不如就是我们。已知必要的改动不会自己排进日程；每一个具体项目都有一个局部上很好的理由去推迟，而推迟会累积。改动之所以发生，是因为有一支团队接受了「成为它发生在其中的那一个」的代价。",
+          "flavor": "「我们总有一天得改它们。那一天可以就是今天。」"
+        },
+        {
+          "title": "一个主题，两批受众，两根分布杠杆",
+          "rules": "同一组牌必须为两种非常不同的玩法服务，而团队为每一种拉动了不同的杠杆。对于「用你开出来的东西来搭」的那个赛制，他们把这一组集中到少数几个颜色的低稀有度上，好让一条连贯的策略真的能凑齐。对于「用一切来搭」的那个赛制，他们确保五个颜色在高稀有度上都有代表，好让那些数量稀薄的颜色仍有值得一用的东西。同一个主题，两套分布，各自针对一条不同的约束选定。",
+          "flavor": "对限制赛，这意味着提高少数几个颜色的出现率。对构筑赛，意味着五个颜色都要做。"
+        },
+        {
+          "title": "如果试玩的人一直用旧名字来叫它，那它就是那个旧东西",
+          "rules": "他们先用一个占位名字搭起了这一组，随后又换了第二个名字，用来传达「这是一样全新的、外来的东西」。试玩者不断告诉负责人：这个机制感觉就像那个旧的——而当被告知它就是那个旧的之后，他们又不断追问：那你们为什么不干脆就那么叫它？团队由此得出结论：这个名字带着值得保留的资产。当那些并不了解历史的人反复把你的新东西认成旧东西时，他们已经替你回答了命名这个问题。",
+          "flavor": "「那你们干脆就叫它们裂片妖不就好了？」"
+        },
+        {
+          "title": "当两个分支都会产生抱怨时，这份对称告诉你真正的赌注在哪",
+          "rules": "在解释完为什么保留旧名字之后，他补了一句比那份解释更值钱的话：存在一个平行宇宙，在那里他们选了另一个选项，而一群玩家正在写信问他们为什么不用那个名字。这既是玩笑，也是一次货真价实的分析动作。当你能看出「无论怎么决定都会招来反对」时，反对的音量就不再是关于「哪个才对」的证据；而你也就自由了，可以按事情本身来决定。",
+          "flavor": "存在一个平行宇宙：我们没叫它们裂片妖，而人们写信来问我们为什么没有。"
+        },
+        {
+          "title": "选那个让计算只需一遍的写法",
+          "rules": "被问到为什么文本是「赋予它们全部」而不是「赋予其他所有」时，答案是玩家脑子里的算术。用互相排除的那种写法，场上有三个就意味着要追踪三组各自不同的组合——每一个从另外两个那里收到了什么。用包含式的写法，你把效果加总一次，然后把同一个总数套用到全部身上。两者产出的场面几乎完全相同；但只有一种能被装进记忆里。当两种模板在功能上很接近时，挑那个记账只需一次运算的。",
+          "flavor": "如果每一个只影响另外两个，要追踪场面就需要很大的记忆量。"
+        },
+        {
+          "title": "你失去的那片设计空间，也许本来就不该待在里面",
+          "rules": "新规则封掉了这一组里的一类牌——那些会伤到所有人、包括你自己的——而一位读者把这提了出来，当作一项代价。他接受了这份损失，然后重新框定了它：那一类牌在被做出来的时候就很有争议，而在他看来，那些牌从来就不真的像这一组的成员。并非所有被让出去的空间都同样值钱。在为一条限制所移除的东西惋惜之前，先看看被移除的那片区域，是不是你本来就在违背自己判断硬闯进去的地方。",
+          "flavor": "为了让这个机制更符合直觉，我愿意付出「失去一样在我看来根本不像裂片妖的东西」的代价。"
+        }
+      ]
+    }
+  }
+}
