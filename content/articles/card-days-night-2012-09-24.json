@@ -1,0 +1,320 @@
+{
+  "id": "card-days-night-2012-09-24",
+  "slug": "card-days-night-2012-09-24",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2012-09-24",
+  "series": null,
+  "tags": ["card-by-card", "color-pie", "development", "rarity", "return-to-ravnica"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/card-days-night-2012-09-24",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "G" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Card Days Night",
+      "dek": "Card-by-card stories from Return to Ravnica — most of them arguments about where something belongs, and who had to give ground.",
+      "overview": "The card-by-card column for Return to Ravnica, and it is unusually adversarial. He is on the receiving end of the colour-pie argument for once, walked through a cycle clause by clause until only one genuine violation remained. Elsewhere: a card that doesn't fit the set and shipped anyway because the format needed it; a rarity decision made on prerequisite grounds rather than power; a cut keyword preserved on the one card that guarantees its setup; and an experiment in breaking a rule the department deliberately maintains so that it has something to break.",
+      "takeaway": "Almost every decision here is a collision between two things that were both correct, and the interesting part is which one was made to lose and whether anyone said so.",
+      "lessons": [
+        {
+          "title": "Reduce the objection to the smallest true violation before asking for the exception",
+          "rules": "He objected to a whole cycle on the grounds that the rider wouldn't fit every card. The reply was a walkthrough, one item at a time: this one's fine because of its colour and type, this one's fine for the same reason, this one's fine because the ability exists as a minor allowance here and was last used years ago. By the end only one card was genuinely out of place, and even that one was in a colour that already has the ability — just not on that card type. Then the exception was requested, once, for a specific card, on the record.",
+          "flavor": "Five objections became one, and one is negotiable."
+        },
+        {
+          "title": "Say which recurring cycles carry over and which are single-instalment",
+          "rules": "Asked how the cycle would extend to the following set given that one faction's colours have nothing to do with the ability, his answer is that it won't. Some cycles carry over and some do not, and this one does not; the ones he names as continuing are the charms, the guildmages, the lands, the duals and the leaders. A recurring form and a one-off can look identical on the shelf. Declaring which is which is what stops the audience reading a deliberate stop as an omission.",
+          "flavor": "Not every cycle is a promise. Say which ones are."
+        },
+        {
+          "title": "A wording difference can encode an engine edge case rather than a design one",
+          "rules": "Two variants of the same phrase appear on cards in the same cycle, and the question is why. The answer has nothing to do with intent: it depends on whether the spell has a target. If it does, the wording has to leave room for the game itself to remove the spell when no legal target remains. There is no design distinction between the two phrasings — one of them is carrying a rules obligation, and reading a difference in meaning into it would be a mistake.",
+          "flavor": "The extra clause isn't saying anything. It's holding a door open for the rules."
+        },
+        {
+          "title": "Internal consistency loses to a healthy environment, and you should name which one lost",
+          "rules": "Reactive cards get added late in development, deliberately, so the decision uses the most current information about what's actually loose in the format. They usually answer a problem from a completely different block, which is why they arrive looking foreign. This one didn't fit — no relevant theme in the set, no interaction with the faction keyword closest to it — and versions were tried to make it fit and none did the necessary work. It shipped anyway, and he says plainly that the set took one for the team.",
+          "flavor": "It doesn't belong here. It's here because the format needed it somewhere."
+        },
+        {
+          "title": "Raise the price so it competes for an occupied slot, rather than weakening it",
+          "rules": "A card built to support one faction in draft turned out to be helping an existing constructed deck the developer already thought was strong enough. The fix wasn't to make the card worse. It was to raise the cost by one so that it landed at the same point on the curve as a card that deck would usually rather play. The card kept doing its intended job in the format it was designed for, and stopped doing the unintended one, because the slot was already taken.",
+          "flavor": "You don't have to make it bad. You have to make it lose an argument it now has to have."
+        },
+        {
+          "title": "Some ideas are simply multicolour — don't force them, and wait for a set that can hold them",
+          "rules": "The standard failure is a designer with a card that doesn't fit any one colour, jamming it into the one where it makes most sense. His mission has been to get people to recognise the misfit instead. His example splits cleanly down the middle: the card is an enchantment that boosts the whole team, which is one colour's territory, and the size of the boost is another's. The answer he gave was that it's both. If the set in hand couldn't use a gold card, the answer would have been the same and the card would have waited.",
+          "flavor": "\"Which colour is it?\" \"Both. Next question.\""
+        },
+        {
+          "title": "Maintain rules partly so you have something to break, then ship the break as an experiment",
+          "rules": "He had stated a policy — a certain card type would not be named directly in rules text — and here is a card that names it. His account of why is a general principle about the department: the reason so many rules exist is that you need rules in order to have rules you can break, and breaking them is part of what the game is. This isn't a licence to break them freely. It's an explicit experiment, shipped in order to find out how people react, and he asks for the feedback in the column.",
+          "flavor": "The rule was made to be broken. Not casually, and not without asking afterwards."
+        },
+        {
+          "title": "Don't put the answer at a lower rarity than the question",
+          "rules": "The card answers a card type that only ever appears at the highest rarity. Placed at uncommon, it would have massively increased the number of players holding an answer to something they have never seen. So it went to rare — not because it is powerful for its cost, and not by comparison to similar cards that sit lower. The reasoning is about prerequisites: a spell that refers to cards the audience might not own has to appear about as often as those cards do.",
+          "flavor": "Rare because the thing it kills is rare. That's the whole argument."
+        },
+        {
+          "title": "Take the effect everyone uses one way and build the version that wants the opposite",
+          "rules": "Every set has the same small tool: an attachment that shrinks a creature, used in practice as a way to kill the small ones. His example takes that familiar shape and inverts its incentive. It can still be used as removal in a pinch, but it would rather you left the creature alive, because as long as the creature survives the attachment keeps working on its controller. The pleasure for the designer is precise — not a new effect, but a familiar one that now punishes the habit players brought to it.",
+          "flavor": "The same card everyone has played a hundred times, asking you not to do the thing you always do."
+        },
+        {
+          "title": "When you cut the keyword, keep the idea on one card and site it where the setup is guaranteed",
+          "rules": "The faction's original mechanic was cut for two named reasons: it warped play by requiring a block of cards that only worked inside its own deck, and it was rich-get-richer — most helpful exactly when the player needed help least. But the idea was genuinely flavourful, so it survived, unnamed, on a single card: the faction's own leader. He gives the reason that makes the placement work rather than sentimental. Because the ability sits on that creature, you have necessarily already built up the resource it spends by the time you can use it.",
+          "flavor": "The mechanic that needed you to be ahead, put on a card you only cast when you are."
+        }
+      ]
+    },
+    "es": {
+      "title": "Noche de cartas y días",
+      "dek": "Historias carta a carta de Return to Ravnica: casi todas discusiones sobre dónde va cada cosa, y sobre quién tuvo que ceder.",
+      "overview": "La columna carta a carta de Return to Ravnica, e inusualmente combativa. Por una vez es él quien recibe la discusión del pastel de colores, llevado cláusula por cláusula a través de un ciclo hasta que solo quedó una infracción real. Además: una carta que no encaja en la expansión y salió igual porque el formato la necesitaba; una decisión de rareza tomada por prerrequisitos y no por poder; una palabra clave cortada que sobrevive en la única carta que garantiza su preparación; y un experimento de romper una regla que el departamento mantiene precisamente para tener algo que romper.",
+      "takeaway": "Casi cada decisión aquí es un choque entre dos cosas que ambas eran correctas, y lo interesante es cuál fue obligada a perder y si alguien lo dijo.",
+      "lessons": [
+        {
+          "title": "Reduce la objeción a la infracción más pequeña que sea real, y solo entonces pide la excepción",
+          "rules": "Él objetó a un ciclo entero alegando que la coletilla no cabría en todas las cartas. La respuesta fue un recorrido, elemento a elemento: esta vale por su color y su tipo, esta vale por lo mismo, esta vale porque la habilidad existe como concesión menor aquí y se usó por última vez hace años. Al final solo una carta estaba genuinamente fuera de sitio, y hasta esa era de un color que ya tiene la habilidad, solo que no en ese tipo de carta. Entonces se pidió la excepción, una vez, para una carta concreta y por escrito.",
+          "flavor": "Cinco objeciones se volvieron una, y una se negocia."
+        },
+        {
+          "title": "Di qué ciclos recurrentes continúan y cuáles son de una sola entrega",
+          "rules": "Preguntado por cómo se extendería el ciclo a la expansión siguiente, dado que los colores de una facción no tienen nada que ver con la habilidad, su respuesta es que no lo hará. Algunos ciclos continúan y otros no, y este no; los que nombra como continuados son los encantos, los magos de gremio, las tierras, las duales y los líderes. Una forma recurrente y una única pueden verse idénticas en la estantería. Declarar cuál es cuál es lo que impide que el público lea una parada deliberada como un olvido.",
+          "flavor": "No todo ciclo es una promesa. Di cuáles lo son."
+        },
+        {
+          "title": "Una diferencia de redacción puede codificar un caso límite del motor, no uno de diseño",
+          "rules": "Dos variantes de la misma frase aparecen en cartas del mismo ciclo, y la pregunta es por qué. La respuesta no tiene nada que ver con la intención: depende de si el hechizo tiene objetivo. Si lo tiene, la redacción debe dejar sitio para que el propio juego retire el hechizo cuando no quede objetivo legal. No hay distinción de diseño entre ambas formulaciones: una carga con una obligación de reglas, y leer en ella una diferencia de sentido sería un error.",
+          "flavor": "La cláusula extra no dice nada. Le sostiene la puerta a las reglas."
+        },
+        {
+          "title": "La consistencia interna pierde ante un entorno sano, y conviene decir cuál perdió",
+          "rules": "Las cartas reactivas se añaden tarde en desarrollo, deliberadamente, para que la decisión use la información más actual sobre lo que anda suelto en el formato. Suelen responder a un problema de un bloque completamente distinto, y por eso llegan con pinta de extranjeras. Esta no encajaba —ningún tema relevante en la expansión, ninguna interacción con la palabra clave de facción más cercana— y se probaron versiones para que encajara y ninguna hacía el trabajo necesario. Salió igual, y él dice sin rodeos que la expansión se sacrificó por el equipo.",
+          "flavor": "No pertenece aquí. Está aquí porque el formato la necesitaba en alguna parte."
+        },
+        {
+          "title": "Sube el precio para que compita por una casilla ocupada, en vez de debilitarla",
+          "rules": "Una carta hecha para apoyar a una facción en draft resultó estar ayudando a un mazo construido que el desarrollador ya consideraba bastante bueno. El arreglo no fue empeorar la carta. Fue subir el coste en uno, para que cayera en el mismo punto de la curva que una carta que ese mazo normalmente preferiría jugar. La carta siguió haciendo su trabajo previsto en el formato para el que se diseñó, y dejó de hacer el imprevisto, porque la casilla ya estaba ocupada.",
+          "flavor": "No hace falta hacerla mala. Hace falta hacerle perder una discusión que ahora tiene que tener."
+        },
+        {
+          "title": "Hay ideas que sencillamente son multicolor: no las fuerces, y espera una expansión que las aguante",
+          "rules": "El fallo habitual es un diseñador con una carta que no cabe en ningún color, metiéndola a la fuerza en aquel donde más sentido tiene. Su misión ha sido lograr que la gente reconozca el desajuste en vez de eso. Su ejemplo se parte limpiamente por la mitad: la carta es un encantamiento que refuerza a todo el equipo, territorio de un color, y el tamaño del refuerzo es de otro. La respuesta que dio fue que es de ambos. Si la expansión en curso no hubiera podido usar una carta dorada, la respuesta habría sido la misma y la carta habría esperado.",
+          "flavor": "«¿De qué color es?» «De los dos. Siguiente pregunta.»"
+        },
+        {
+          "title": "Mantén reglas en parte para tener algo que romper, y luego lanza la ruptura como experimento",
+          "rules": "Había enunciado una política —cierto tipo de carta no se nombraría directamente en el texto de reglas— y aquí hay una carta que lo nombra. Su explicación es un principio general sobre el departamento: la razón de que existan tantas reglas es que necesitas reglas para tener reglas que romper, y romperlas forma parte de lo que es el juego. Esto no es licencia para romperlas alegremente. Es un experimento explícito, lanzado para averiguar cómo reacciona la gente, y en la columna pide esa reacción.",
+          "flavor": "La regla se hizo para romperse. Ni a la ligera, ni sin preguntar después."
+        },
+        {
+          "title": "No pongas la respuesta en una rareza menor que la pregunta",
+          "rules": "La carta responde a un tipo de carta que solo aparece en la rareza más alta. Colocada en infrecuente, habría aumentado enormemente el número de jugadores con una respuesta a algo que nunca han visto. Así que fue a rara: no porque sea potente para su coste, y no por comparación con cartas similares que están más abajo. El razonamiento es de prerrequisitos: un hechizo que se refiere a cartas que el público puede no tener debe aparecer más o menos con la misma frecuencia que ellas.",
+          "flavor": "Rara porque lo que mata es raro. Ese es todo el argumento."
+        },
+        {
+          "title": "Coge el efecto que todos usan de una manera y construye la versión que quiere lo contrario",
+          "rules": "Toda expansión tiene la misma herramienta pequeña: un adosado que encoge a una criatura, usado en la práctica para matar a las pequeñas. Su ejemplo toma esa forma familiar y le invierte el incentivo. Todavía sirve de remoción en un apuro, pero preferiría que dejaras viva a la criatura, porque mientras la criatura sobreviva el adosado sigue actuando sobre su controlador. El placer del diseñador es preciso: no un efecto nuevo, sino uno familiar que ahora castiga la costumbre que los jugadores traen puesta.",
+          "flavor": "La misma carta que todos han jugado cien veces, pidiéndote que no hagas lo que siempre haces."
+        },
+        {
+          "title": "Cuando cortes la palabra clave, conserva la idea en una carta y colócala donde la preparación esté garantizada",
+          "rules": "La mecánica original de la facción se cortó por dos razones nombradas: deformaba el juego al exigir un bloque de cartas que solo funcionaban dentro de su propio mazo, y era del tipo «el rico se hace más rico», más útil justo cuando el jugador menos ayuda necesitaba. Pero la idea era genuinamente sabrosa, así que sobrevivió, sin nombre, en una sola carta: el propio líder de la facción. Da la razón que vuelve funcional esa colocación en lugar de sentimental: como la habilidad está en esa criatura, para cuando puedes usarla ya has acumulado por fuerza el recurso que gasta.",
+          "flavor": "La mecánica que exigía ir por delante, puesta en una carta que solo lanzas cuando lo vas."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Cartes de jour, cartes de nuit",
+      "dek": "Histoires carte par carte de Return to Ravnica — pour la plupart des disputes sur la place de chaque chose, et sur qui a dû céder.",
+      "overview": "La chronique carte par carte de Return to Ravnica, et elle est inhabituellement conflictuelle. Pour une fois, c'est lui qui subit l'argument sur la roue des couleurs, mené clause par clause à travers un cycle jusqu'à ce qu'il ne reste qu'une seule vraie infraction. Ailleurs : une carte qui ne colle pas à l'extension et qui sort quand même parce que le format en avait besoin ; une décision de rareté prise sur des prérequis et non sur la puissance ; un mot-clé coupé préservé sur la seule carte qui garantit sa mise en place ; et une expérience consistant à enfreindre une règle que le service maintient précisément pour avoir quelque chose à enfreindre.",
+      "takeaway": "Presque chaque décision est ici une collision entre deux choses également justes, et l'intéressant est de savoir laquelle on a fait perdre et si quelqu'un l'a dit.",
+      "lessons": [
+        {
+          "title": "Réduisez l'objection à la plus petite infraction réelle avant de demander l'exception",
+          "rules": "Il s'est opposé à tout un cycle au motif que la clause ne conviendrait pas à toutes les cartes. La réponse fut un parcours, élément par élément : celle-ci passe par sa couleur et son type, celle-là pour la même raison, cette autre parce que la capacité existe ici en concession mineure et n'a plus servi depuis des années. À la fin, une seule carte était vraiment déplacée — et encore, dans une couleur qui possède déjà la capacité, mais pas sur ce type de carte. L'exception fut alors demandée, une fois, pour une carte précise et de façon assumée.",
+          "flavor": "Cinq objections en sont devenues une, et une seule se négocie."
+        },
+        {
+          "title": "Dites quels cycles récurrents se poursuivent et lesquels sont d'un seul épisode",
+          "rules": "Interrogé sur la façon dont le cycle s'étendrait à l'extension suivante, alors que les couleurs d'une faction n'ont rien à voir avec la capacité, il répond qu'il ne s'étendra pas. Certains cycles se poursuivent, d'autres non, et celui-ci non ; ceux qu'il nomme comme continuant sont les charmes, les mages de guilde, les terrains, les doubles et les chefs. Une forme récurrente et un coup unique peuvent sembler identiques en rayon. Déclarer laquelle est laquelle empêche le public de lire un arrêt délibéré comme un oubli.",
+          "flavor": "Tout cycle n'est pas une promesse. Dites lesquels le sont."
+        },
+        {
+          "title": "Une différence de rédaction peut encoder un cas limite du moteur, pas un choix de conception",
+          "rules": "Deux variantes de la même phrase apparaissent sur des cartes du même cycle, et la question est pourquoi. La réponse n'a rien à voir avec l'intention : elle dépend de la présence d'une cible. S'il y en a une, la rédaction doit laisser au jeu lui-même la possibilité de retirer le sort quand plus aucune cible légale ne subsiste. Il n'y a aucune distinction de conception entre les deux formulations : l'une porte une obligation de règles, et y lire une différence de sens serait une erreur.",
+          "flavor": "La clause en plus ne dit rien. Elle tient la porte ouverte aux règles."
+        },
+        {
+          "title": "La cohérence interne perd face à un environnement sain, et il faut dire laquelle a perdu",
+          "rules": "Les cartes réactives sont ajoutées tard en développement, délibérément, pour que la décision s'appuie sur l'information la plus récente sur ce qui circule dans le format. Elles répondent souvent à un problème d'un tout autre bloc, d'où leur air étranger. Celle-ci ne collait pas — aucun thème pertinent dans l'extension, aucune interaction avec le mot-clé de faction le plus proche — et des versions ont été tentées sans qu'aucune fasse le travail nécessaire. Elle est sortie quand même, et il dit franchement que l'extension s'est sacrifiée pour l'équipe.",
+          "flavor": "Elle n'a pas sa place ici. Elle est ici parce que le format en avait besoin quelque part."
+        },
+        {
+          "title": "Montez le prix pour qu'elle dispute une case occupée, plutôt que de l'affaiblir",
+          "rules": "Une carte faite pour soutenir une faction en draft s'est mise à aider un deck construit existant que le développeur jugeait déjà assez fort. Le correctif n'a pas été de rendre la carte moins bonne, mais d'augmenter son coût d'un point pour qu'elle atterrisse au même endroit de la courbe qu'une carte que ce deck préférerait généralement jouer. La carte a continué son travail prévu dans le format visé et cessé l'imprévu, parce que la case était déjà prise.",
+          "flavor": "Pas besoin de la rendre mauvaise. Il faut lui faire perdre un débat qu'elle doit désormais avoir."
+        },
+        {
+          "title": "Certaines idées sont simplement multicolores — ne les forcez pas, attendez une extension qui les porte",
+          "rules": "L'échec classique, c'est un concepteur avec une carte qui n'entre dans aucune couleur, qui la force dans celle où elle a le plus de sens. Sa mission a été d'amener les gens à reconnaître le décalage à la place. Son exemple se coupe nettement en deux : la carte est un enchantement qui renforce toute l'équipe, territoire d'une couleur, et l'ampleur du renfort appartient à une autre. Sa réponse fut : elle est des deux. Si l'extension en cours n'avait pas pu accueillir une carte or, la réponse aurait été la même et la carte aurait attendu.",
+          "flavor": "« De quelle couleur ? » « Des deux. Question suivante. »"
+        },
+        {
+          "title": "Maintenez des règles en partie pour avoir de quoi enfreindre, puis sortez l'entorse comme une expérience",
+          "rules": "Il avait énoncé une politique — un certain type de carte ne serait pas nommé directement dans le texte de règles — et voici une carte qui le nomme. Son explication est un principe général sur le service : s'il existe autant de règles, c'est qu'il faut des règles pour avoir des règles à enfreindre, et les enfreindre fait partie de ce qu'est le jeu. Ce n'est pas un permis d'y aller gaiement. C'est une expérience explicite, sortie pour savoir comment les gens réagissent, et il demande ce retour dans la chronique.",
+          "flavor": "La règle a été faite pour être enfreinte. Pas à la légère, et pas sans demander ensuite."
+        },
+        {
+          "title": "Ne mettez pas la réponse à une rareté inférieure à la question",
+          "rules": "La carte répond à un type de carte qui n'apparaît qu'à la rareté la plus haute. Placée en peu commune, elle aurait massivement augmenté le nombre de joueurs détenant une réponse à quelque chose qu'ils n'ont jamais vu. Elle est donc passée rare — non parce qu'elle est puissante pour son coût, ni par comparaison avec des cartes similaires situées plus bas. Le raisonnement porte sur les prérequis : un sort qui renvoie à des cartes que le public peut ne pas posséder doit apparaître à peu près aussi souvent qu'elles.",
+          "flavor": "Rare parce que ce qu'elle tue est rare. C'est tout l'argument."
+        },
+        {
+          "title": "Prenez l'effet que tout le monde utilise d'une façon et bâtissez la version qui veut l'inverse",
+          "rules": "Chaque extension a le même petit outil : un attachement qui rapetisse une créature, utilisé en pratique pour tuer les petites. Son exemple prend cette forme familière et en inverse l'incitation. On peut encore s'en servir comme retrait en cas de besoin, mais elle préférerait que la créature reste en vie, car tant qu'elle survit l'attachement continue d'agir sur son contrôleur. Le plaisir du concepteur est précis : non pas un nouvel effet, mais un effet familier qui punit désormais l'habitude que les joueurs y apportent.",
+          "flavor": "La même carte jouée cent fois par tout le monde, vous demandant de ne pas faire ce que vous faites toujours."
+        },
+        {
+          "title": "Quand vous coupez le mot-clé, gardez l'idée sur une carte et placez-la là où la mise en place est garantie",
+          "rules": "La mécanique d'origine de la faction a été coupée pour deux raisons nommées : elle déformait le jeu en exigeant un bloc de cartes ne fonctionnant que dans son propre deck, et elle enrichissait les riches — plus utile précisément quand le joueur en avait le moins besoin. Mais l'idée était vraiment savoureuse, alors elle a survécu, sans nom, sur une seule carte : le chef de la faction. Il donne la raison qui rend ce placement fonctionnel plutôt que sentimental : la capacité étant sur cette créature, vous avez forcément déjà accumulé la ressource qu'elle dépense au moment où vous pouvez l'utiliser.",
+          "flavor": "La mécanique qui exigeait d'être devant, posée sur une carte qu'on ne lance que quand on l'est."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Noite de cartas e dias",
+      "dek": "Histórias carta a carta de Return to Ravnica — quase todas discussões sobre onde cada coisa vai, e sobre quem teve de ceder.",
+      "overview": "A coluna carta a carta de Return to Ravnica, e incomumente combativa. Pela primeira vez é ele quem recebe a discussão da roda de cores, levado cláusula por cláusula por um ciclo até restar uma única infração real. Além disso: uma carta que não cabe na coleção e saiu mesmo assim porque o formato precisava; uma decisão de raridade tomada por pré-requisitos e não por poder; uma palavra-chave cortada preservada na única carta que garante sua preparação; e um experimento de quebrar uma regra que o departamento mantém justamente para ter algo a quebrar.",
+      "takeaway": "Quase toda decisão aqui é um choque entre duas coisas que estavam ambas certas, e o interessante é qual foi obrigada a perder e se alguém disse isso.",
+      "lessons": [
+        {
+          "title": "Reduza a objeção à menor infração verdadeira antes de pedir a exceção",
+          "rules": "Ele se opôs a um ciclo inteiro alegando que a cláusula não caberia em todas as cartas. A resposta foi um percurso, item por item: esta passa pela cor e pelo tipo, esta pelo mesmo motivo, esta porque a habilidade existe aqui como concessão menor e não é usada há anos. No fim, só uma carta estava genuinamente fora de lugar — e mesmo essa numa cor que já tem a habilidade, só não naquele tipo de carta. Então a exceção foi pedida, uma vez, para uma carta específica e às claras.",
+          "flavor": "Cinco objeções viraram uma, e uma se negocia."
+        },
+        {
+          "title": "Diga quais ciclos recorrentes continuam e quais são de uma única edição",
+          "rules": "Perguntado como o ciclo se estenderia à coleção seguinte, dado que as cores de uma facção nada têm a ver com a habilidade, ele responde que não vai se estender. Alguns ciclos continuam e outros não, e este não; os que ele nomeia como continuando são os encantos, os magos de guilda, os terrenos, os duplos e os líderes. Uma forma recorrente e uma única podem parecer idênticas na prateleira. Declarar qual é qual é o que impede o público de ler uma parada deliberada como esquecimento.",
+          "flavor": "Nem todo ciclo é uma promessa. Diga quais são."
+        },
+        {
+          "title": "Uma diferença de redação pode codificar um caso-limite do motor, não um de design",
+          "rules": "Duas variantes da mesma frase aparecem em cartas do mesmo ciclo, e a pergunta é por quê. A resposta nada tem a ver com intenção: depende de a mágica ter alvo. Se tiver, a redação precisa deixar espaço para o próprio jogo remover a mágica quando não restar alvo legal. Não há distinção de design entre as duas formulações: uma carrega uma obrigação de regras, e ler nela uma diferença de sentido seria erro.",
+          "flavor": "A cláusula extra não diz nada. Ela segura a porta para as regras."
+        },
+        {
+          "title": "A consistência interna perde para um ambiente saudável, e convém dizer qual perdeu",
+          "rules": "Cartas reativas são acrescentadas tarde no desenvolvimento, de propósito, para a decisão usar a informação mais atual sobre o que está solto no formato. Costumam responder a um problema de um bloco completamente diferente, e por isso chegam com cara de estrangeiras. Esta não cabia — nenhum tema relevante na coleção, nenhuma interação com a palavra-chave de facção mais próxima — e versões foram tentadas para fazê-la caber, e nenhuma fazia o trabalho necessário. Saiu mesmo assim, e ele diz sem rodeios que a coleção se sacrificou pelo time.",
+          "flavor": "Ela não pertence aqui. Está aqui porque o formato precisava dela em algum lugar."
+        },
+        {
+          "title": "Suba o preço para que ela dispute uma casa ocupada, em vez de enfraquecê-la",
+          "rules": "Uma carta feita para apoiar uma facção no draft acabou ajudando um baralho construído que o desenvolvedor já achava forte o bastante. O conserto não foi piorar a carta. Foi subir o custo em um, para ela cair no mesmo ponto da curva que uma carta que aquele baralho normalmente preferiria jogar. A carta seguiu fazendo o trabalho pretendido no formato para o qual foi desenhada, e parou de fazer o não pretendido, porque a casa já estava tomada.",
+          "flavor": "Não é preciso deixá-la ruim. É preciso fazê-la perder uma discussão que agora ela tem de travar."
+        },
+        {
+          "title": "Algumas ideias são simplesmente multicoloridas — não force, e espere uma coleção que as comporte",
+          "rules": "A falha padrão é um designer com uma carta que não cabe em cor nenhuma, enfiando-a naquela em que faz mais sentido. A missão dele tem sido levar as pessoas a reconhecer o desencaixe em vez disso. O exemplo se parte limpo ao meio: a carta é um encantamento que reforça o time inteiro, território de uma cor, e o tamanho do reforço é de outra. A resposta que ele deu foi: é das duas. Se a coleção em curso não pudesse usar uma carta dourada, a resposta seria a mesma e a carta teria esperado.",
+          "flavor": "\"De que cor é?\" \"Das duas. Próxima pergunta.\""
+        },
+        {
+          "title": "Mantenha regras em parte para ter o que quebrar, e então lance a quebra como experimento",
+          "rules": "Ele havia enunciado uma política — certo tipo de carta não seria nomeado diretamente no texto de regras — e aqui está uma carta que o nomeia. A explicação é um princípio geral sobre o departamento: a razão de existirem tantas regras é que você precisa de regras para ter regras a quebrar, e quebrá-las faz parte do que o jogo é. Isso não é licença para quebrá-las à vontade. É um experimento explícito, lançado para descobrir como as pessoas reagem, e ele pede esse retorno na coluna.",
+          "flavor": "A regra foi feita para ser quebrada. Não à toa, e não sem perguntar depois."
+        },
+        {
+          "title": "Não ponha a resposta numa raridade menor que a pergunta",
+          "rules": "A carta responde a um tipo de carta que só aparece na raridade mais alta. Colocada em incomum, teria aumentado enormemente o número de jogadores com uma resposta a algo que nunca viram. Então foi para rara — não por ser potente para o custo, e não por comparação com cartas parecidas que ficam mais abaixo. O raciocínio é de pré-requisitos: uma mágica que se refere a cartas que o público pode não ter precisa aparecer mais ou menos com a mesma frequência que elas.",
+          "flavor": "Rara porque o que ela mata é raro. Esse é o argumento inteiro."
+        },
+        {
+          "title": "Pegue o efeito que todos usam de um jeito e construa a versão que quer o contrário",
+          "rules": "Toda coleção tem a mesma ferramentinha: um anexo que encolhe uma criatura, usado na prática para matar as pequenas. O exemplo dele pega essa forma familiar e inverte o incentivo. Ainda dá para usar como remoção num aperto, mas ele preferiria que você deixasse a criatura viva, porque enquanto ela sobrevive o anexo continua agindo sobre o controlador dela. O prazer do designer é preciso: não um efeito novo, mas um familiar que agora pune o hábito que os jogadores trazem consigo.",
+          "flavor": "A mesma carta que todos jogaram cem vezes, pedindo que você não faça o que sempre faz."
+        },
+        {
+          "title": "Quando cortar a palavra-chave, guarde a ideia numa carta e a coloque onde a preparação é garantida",
+          "rules": "A mecânica original da facção foi cortada por duas razões nomeadas: deformava o jogo ao exigir um bloco de cartas que só funcionavam dentro do próprio baralho, e era do tipo \"o rico fica mais rico\", mais útil justamente quando o jogador menos precisava de ajuda. Mas a ideia era genuinamente saborosa, então sobreviveu, sem nome, numa única carta: o próprio líder da facção. Ele dá a razão que torna essa colocação funcional em vez de sentimental: como a habilidade está naquela criatura, quando você pode usá-la já acumulou por força o recurso que ela gasta.",
+          "flavor": "A mecânica que exigia estar na frente, posta numa carta que só se conjura quando se está."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "牌的日与夜",
+      "dek": "《拉尼卡之回归》的逐张牌故事——其中大多数是关于「某样东西该归到哪里」的争论，以及谁最后让了步。",
+      "overview": "《拉尼卡之回归》的逐张牌专栏，而且异常地充满对抗。这一次轮到他来接色环之争：对方一条一条地带着他走过一整轮循环，直到只剩下唯一一处真正的越界。此外还有：一张放进这个系列并不合适、却仍然发售了的牌，因为赛制需要它；一次按「前置条件」而不是按强度作出的稀有度决定；一个被砍掉的关键字，被保留在唯一能保证其铺垫的那张牌上；以及一次「打破规则」的实验——而部门维持这条规则，本来就有一部分是为了留下可打破的东西。",
+      "takeaway": "这里几乎每一个决定，都是两件同样正确的事情之间的碰撞；而有意思的部分在于：是哪一件被迫落败，以及有没有人把这件事说出来。",
+      "lessons": [
+        {
+          "title": "在请求例外之前，先把反对意见收缩到最小的那处真实越界",
+          "rules": "他以「这条附加语放不进每一张牌」为由，反对了整轮循环。对方的回应是一次逐项走查：这张没问题，因为它的颜色和类别；这张也没问题，理由相同；这张没问题，因为这项异能在此处作为次要许可存在，上一次使用还是好些年前。走到最后，真正不合适的只剩一张——而且它所在的颜色本来就有这项异能，只是不在那个牌张类别上。于是例外被提了出来：一次、针对一张具体的牌、并且是摆在明面上的。",
+          "flavor": "五条反对变成了一条，而一条是可以谈的。"
+        },
+        {
+          "title": "说清楚哪些反复出现的循环会延续，哪些只此一期",
+          "rules": "有人问：既然某个阵营的两种颜色和这项异能毫无关系，这轮循环要怎么延伸到下一个系列？他的回答是：不会延伸。有些循环会延续，有些不会，而这一轮不会；他点名会继续的是护符、公会法师、地、双色地和首领。一个反复出现的形式和一次性的东西，摆在货架上看起来可以一模一样。声明哪一个是哪一个，才能让观众不把一次刻意的停止读成一次遗漏。",
+          "flavor": "不是每一轮循环都是一个承诺。说清楚哪些是。"
+        },
+        {
+          "title": "措辞上的差别，可能编码的是引擎的边界情况，而不是设计上的区别",
+          "rules": "同一轮循环的牌上出现了同一句话的两种写法，问题是为什么。答案与意图无关：它取决于这个咒语有没有目标。如果有，措辞就必须给游戏本身留出余地，让它在没有合法目标时把这个咒语移除。这两种写法之间不存在设计上的区分——其中一种承载的是规则义务，而从中读出意义上的差别，会是一个误解。",
+          "flavor": "多出来的那半句什么也没说。它是在给规则扶着门。"
+        },
+        {
+          "title": "内部自洽输给健康的环境，而你应该说清是哪一边输了",
+          "rules": "应对性的牌是在开发后期才被加进来的，而且是刻意如此，好让这个决定用上关于「赛制里眼下究竟有什么在跑」的最新信息。它们通常回应的是来自完全另一个系列组的问题，所以它们一到场就像外来户。这一张不合适——系列里没有相关主题，和最接近它的那个阵营关键字也没有互动——他们试过几个版本想让它合身，但没有一个能做到必需的那份工作。它还是发售了，而他直说：这个系列替大家挨了一下。",
+          "flavor": "它不属于这里。它在这里，是因为赛制需要它出现在某个地方。"
+        },
+        {
+          "title": "把价格抬上去，让它去争一个已被占用的位子，而不是把它削弱",
+          "rules": "一张为了在轮抽里支撑某个阵营而做的牌，结果开始帮助一副构组牌组——而开发者本就觉得那副牌组已经够强了。修法不是把这张牌做差，而是把费用抬高一点，让它落在曲线上和另一张「那副牌组通常更愿意打」的牌相同的位置。这张牌在它被设计的那个赛制里继续做着预定的工作，而不再做那件意外的工作，因为那个位子已经有人了。",
+          "flavor": "你不必把它做烂。你只需要让它去输掉一场它现在不得不打的争论。"
+        },
+        {
+          "title": "有些点子本来就是多色的——别硬塞，等一个装得下它的系列",
+          "rules": "常见的失败是：一位设计师手上有一张不属于任何单一颜色的牌，于是把它硬塞进那个「最说得通」的颜色里。他的使命一直是让人学会认出这种不合，而不是硬塞。他举的例子干净地从中间劈开：这张牌是一个强化整队的结界，那是一种颜色的地盘；而强化的幅度属于另一种颜色。他给出的回答是：它是两种颜色的。就算手上这个系列用不了金色牌，答案也会一样，而这张牌会继续等下去。",
+          "flavor": "「它是什么颜色的？」「两种都是。下一个问题。」"
+        },
+        {
+          "title": "维持规则，有一部分是为了有东西可打破；然后把这次打破当作实验发出去",
+          "rules": "他曾经宣布过一条政策——某个牌张类别不会在规则文本里被直接点名——而这里就有一张点了名的牌。他给出的理由是一条关于这个部门的通则：之所以存在这么多规则，是因为你得先有规则，才会有可以打破的规则；而打破它们，本来就是这个游戏的一部分。这不是随意打破的许可证。它是一次明确的实验，发出去就是为了弄清人们怎么反应，而他在专栏里请大家给出反馈。",
+          "flavor": "这条规则就是用来被打破的。不能随便破，破了之后也不能不问。"
+        },
+        {
+          "title": "不要把答案放在比问题更低的稀有度上",
+          "rules": "这张牌回应的是一个只会出现在最高稀有度上的牌张类别。如果把它放在非普通，就会极大增加「手里握着某样东西的解答、却从未见过那样东西」的玩家数量。所以它去了稀有——不是因为它相对费用而言强，也不是因为和那些位置更低的同类牌相比。理由在于前置条件：一个提到「玩家可能根本没有的牌」的咒语，出现的频率必须和那些牌大致相当。",
+          "flavor": "它稀有，是因为它杀的东西稀有。整个论证就这么多。"
+        },
+        {
+          "title": "拿那个所有人都只用一种方式去用的效果，去做那个想要相反用法的版本",
+          "rules": "每个系列都有同一件小工具：一个让生物变小的附着物，实际用法是拿来杀掉小生物。他的例子取了这个熟悉的形状，却把它的激励反了过来。急的时候你仍然可以拿它当去除，但它更希望你让那个生物活着，因为只要生物还在，这个附着物就会持续作用在它的操控者身上。设计师的乐趣所在很精确：这不是一个新效果，而是一个熟悉的效果，如今开始惩罚玩家带着的那个习惯。",
+          "flavor": "所有人都打过一百遍的那张牌，正在请你别做那件你总是会做的事。"
+        },
+        {
+          "title": "砍掉关键字时，把这个点子留在一张牌上，并且放在铺垫必然成立的位置",
+          "rules": "这个阵营原本的机制被砍掉，理由有两条并且都被点了名：它扭曲了对局，因为它要求做出一批只在自己那副牌组里才管用的牌；而且它是「富者愈富」型的——恰恰在玩家最不需要帮助的时候最有用。但这个点子在风味上是真的好，于是它以不具名的形式活了下来，落在唯一一张牌上：这个阵营自己的首领。他给出的理由让这个位置是功能性的而非感情用事的：因为这项异能长在那个生物身上，等到你能用它的时候，你必然已经积攒好了它所消耗的那份资源。",
+          "flavor": "那个要求你已经领先的机制，被放在了一张你只有在领先时才会施放的牌上。"
+        }
+      ]
+    }
+  }
+}
