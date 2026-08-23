@@ -1,0 +1,320 @@
+{
+  "id": "days-core-part-1-2014-06-23",
+  "slug": "days-core-part-1-2014-06-23",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2014-06-23",
+  "series": { "id": "days-core", "order": 1, "total": 2 },
+  "tags": ["magic-2015", "core-set", "convoke", "you-make-the-card", "design-team"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/days-core-part-1-2014-06-23",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-25T06:15:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Days of Core, Part 1",
+      "dek": "The Magic 2015 design team, the return of convoke, and how fourteen outside designers became fifteen.",
+      "overview": "Aaron Forsythe's third core-set lead needed something no core set had done. Also: why white can't draw cards, and what the crowd chose when handed a card to design.",
+      "takeaway": "\"We create new cool mechanics faster than we use old cool mechanics.\"",
+      "lessons": [
+        {
+          "title": "Reserve a permanent seat for the never-included, and keep a standing queue for it",
+          "rules": "Every team assembles from the same pool of people who have done this before, which quietly guarantees the same range of instincts. Fix it structurally: designate one slot on every team for someone with long experience of the product who has never worked on it directly. Maintain a list, so the seat is filled by rotation rather than by whoever comes to mind.",
+          "flavor": "“Most design teams have what we call the 'fifth member.' This slot is reserved for someone who has spent years working on Magic but hasn't yet had the chance to be on a design or development team. The idea behind the 'fifth member' is that it brings fresh blood to a design and allows the design team to get a perspective that has yet to find a voice in cards. Mike spent many years working in our organized play department and was sitting on the short list for a 'fifth member' for numerous years.”"
+        },
+        {
+          "title": "A product made of good independent parts has no identity — give each edition one shared element",
+          "rules": "When a release is a collection of individually strong pieces with nothing running through them, every edition feels like the last one. The cheapest fix isn't better pieces, it's a single common element per edition that people encounter throughout. It gives the edition a character to remember it by and gives everyone something to organise around.",
+          "flavor": "“Besides adding splash, this would solve a different problem, which was how to make core sets feel different from one another. When the core set is defined by lots of cool individual cards, it's hard to create an overall feel. By adding in a simple mechanic, the design team could have something to craft Limited play around… At the top of the list were the mechanics that were simple to understand but that added a new play pattern, meaning they functioned as a seasoning.”"
+        },
+        {
+          "title": "Ask whether the mechanism fights the recipient's objective, not only whether it suits their theme",
+          "rules": "Thematic fit is the easy check and it isn't the one that matters. A feature can express exactly what a party is about and still work against what that party is trying to do — because using it costs them the resource their plan runs on. Trace what the thing asks people to spend, and give it to whoever can afford it.",
+          "flavor": "Convoke was designed for Boros. “First, we wanted Boros to be our most aggressive guild and taking time to tap your creatures to play spells rather than tapping them to attack worked against this goal. Selesnya, on the other hand, was a slower, ramping deck… Convoke played into exactly what this deck needed—a means to quickly get out larger creatures. It didn't matter that you were tapping some as this deck usually was willing to trade aggression for long-term buildup.”"
+        },
+        {
+          "title": "Choose the restricting attribute that correlates with what you mean to exclude, not the one that's easiest to grasp",
+          "rules": "When you limit something by a threshold, the intuitive measure is rarely the one that tracks the danger. Check the actual population: if the attribute you picked admits a set of powerful outliers, you'll have to price the whole thing against them, and it stops doing the ordinary job you wanted. Take the less legible attribute that draws the line where the line belongs.",
+          "flavor": "“We spent some time going back and forth between having a low power and having a low converted mana cost. At first, we leaned toward power, as the concept is easier to understand, but what we found was that there were many powerful and expensive low-powered creatures, and if we allowed white to get those creatures we would have to cost the spells such that it would only be able to use it to do the broken things and wouldn't have the common usage we wanted for it.”"
+        },
+        {
+          "title": "When the standard solution is barred, name the actual need and find a route that delivers only that",
+          "rules": "A shortage has an obvious remedy, and sometimes that remedy is off-limits for reasons unrelated to the shortage. Don't relax the prohibition. State precisely what's running out, and look for a mechanism that replenishes that and nothing else — the restriction survives, and you often end up with something more characteristic than the general tool would have been.",
+          "flavor": "White runs out of small creatures, and can't be given card draw because that would also find its answers. “The key is figuring out how we can get white more small white creatures without drawing more cards that might be spells that serve as answers. The first answer was token making… But tokens only get us so far… Then it dawned on us that white didn't really need to get big creatures out of the graveyard because most of its cards were cheap and small. What if we let white reanimate tiny creatures?”"
+        },
+        {
+          "title": "Your stock of good unused ideas grows faster than your slots — build a recurring one to draw it down",
+          "rules": "Any group that generates more good ideas than it can ship accumulates a backlog that gets larger every year, and nothing in the normal schedule ever consumes it. The fix is structural rather than editorial: reserve a slot in a recurring product specifically for taking something off the pile. Otherwise the best of the backlog just ages.",
+          "flavor": "“R&D figured out that we create new cool mechanics faster than we use old cool mechanics, meaning that we tend to create a stockpile of cool mechanics that we want to do again but just didn't have many slots to use. (This is also, by the way, why we are being influenced to start bringing back more than one mechanic a year…) What if the core set made use of some of the nice, simple mechanics from Magic's past?”"
+        },
+        {
+          "title": "Each instalment inherits the obligation to add an axis the last one didn't have",
+          "rules": "Once you've improved a recurring product twice, the third time can't just execute the previous two improvements well. The audience reads a repeat as a plateau. Whoever leads it has to find a dimension nobody has used, which is a harder brief each cycle and is the actual job — the accumulated additions are what the product now is.",
+          "flavor": "“So Magic 2015 would make new cards like Magic 2010 and bring back a popular mechanic like Magic 2011 (Aaron's last two core set design leads), but Aaron still wanted something brand new. How could he add something to the set that had never been added before? That is when Aaron came up with an interesting idea.” The idea was to hand fourteen cards to outside designers."
+        },
+        {
+          "title": "A crowd deciding collectively optimises for difference from what already exists",
+          "rules": "Given a series of open votes, a large group won't converge on the most popular option in the abstract — it will converge on whatever contrasts with the previous outcomes. That makes the result predictable in advance: list what you've produced before, and the crowd will choose from what's left. Plan the option set knowing this.",
+          "flavor": "“When we started, we made some bold predictions, most of which ended up coming true. Forgotten Ancient was a green creature. Crucible of Worlds was an artifact. Vanish into Memory was a white and blue multicolor instant. We assumed the audience would want to make something different than what had been done before. That meant it would most likely be black or red and be an enchantment, land, or sorcery… As it turned out, you all chose to make a black enchantment.”"
+        },
+        {
+          "title": "A strength in one dimension is the reason for a weakness in another, and the weakness is load-bearing",
+          "rules": "Before you fix someone's obvious deficiency, check what it's holding up. Deficiencies in a well-tuned system are frequently the counterweight to a strength elsewhere: remove the limit and the strength becomes unbounded, because the two were priced against each other. The right question is not how to close the gap but what the gap is paying for.",
+          "flavor": "“White is the color with the most answers. It's the color of structure and order, so it plans ahead and makes sure it has tools in its arsenal to deal with whatever problems come its way. That is one of the advantages of organization. To offset this, we have made white the worst color at card drawing. If white could draw cards too efficiently, it would be able to find its answers too consistently.”"
+        },
+        {
+          "title": "Putting someone somewhere for an unrelated reason exposes capability nobody was testing for",
+          "rules": "Assessment procedures only measure what they were built to measure. A person placed on a team for an incidental purpose — to observe, to report, to fill a gap — is being evaluated by nobody, which is exactly why what they turn out to be good at can surprise everyone. Create those incidental placements on purpose, and watch what happens.",
+          "flavor": "“For those unfamiliar with Aaron's history at Wizards, he was originally hired to run DailyMTG.com when it first went live. We put him on the design team for Fifth Dawn to allow him a chance to write a behind-the-scenes article, but Aaron did such amazing work that we brought him into R&D.” He would go on to lead three core-set designs and become senior director of Magic R&D."
+        }
+      ]
+    },
+    "es": {
+      "title": "Días de básica, parte 1",
+      "dek": "El equipo de diseño de Magic 2015, el regreso de convocar, y cómo catorce diseñadores externos se convirtieron en quince.",
+      "overview": "El tercer liderazgo de Aaron Forsythe en una colección básica necesitaba algo que ninguna básica hubiera hecho. Además: por qué el blanco no puede robar cartas, y qué eligió el público cuando le dieron una carta que diseñar.",
+      "takeaway": "«Creamos mecánicas geniales nuevas más rápido de lo que usamos las mecánicas geniales viejas.»",
+      "lessons": [
+        {
+          "title": "Reserva un asiento permanente para quien nunca ha sido incluido, y mantén una cola para él",
+          "rules": "Todo equipo se arma con la misma reserva de gente que ya ha hecho esto antes, lo que garantiza calladamente el mismo abanico de instintos. Arréglalo estructuralmente: designa una plaza en cada equipo para alguien con larga experiencia en el producto que nunca haya trabajado directamente en él. Mantén una lista, para que la plaza se llene por rotación y no por quien te venga a la mente.",
+          "flavor": "«La mayoría de los equipos de diseño tienen lo que llamamos el «quinto miembro». Esta plaza se reserva para alguien que lleva años trabajando en Magic pero no ha tenido aún la oportunidad de estar en un equipo de diseño o desarrollo. La idea es que aporta sangre fresca y permite al equipo obtener una perspectiva que aún no ha encontrado voz en las cartas. Mike pasó muchos años en nuestro departamento de juego organizado y llevaba años en la lista corta.»"
+        },
+        {
+          "title": "Un producto hecho de buenas piezas independientes no tiene identidad: dale a cada edición un elemento compartido",
+          "rules": "Cuando un lanzamiento es una colección de piezas fuertes por separado sin nada que las atraviese, cada edición se siente igual que la anterior. El arreglo más barato no son mejores piezas, sino un único elemento común por edición con el que la gente se encuentre por todas partes. Le da a la edición un carácter con el que recordarla y a todos algo alrededor de lo cual organizarse.",
+          "flavor": "«Además de añadir chispa, esto resolvía otro problema: cómo hacer que las colecciones básicas se sintieran distintas entre sí. Cuando la básica está definida por muchas cartas geniales individuales, es difícil crear una sensación de conjunto. Al añadir una mecánica sencilla, el equipo de diseño tenía algo alrededor de lo cual construir el juego Limitado… En lo alto de la lista estaban las mecánicas fáciles de entender pero que añadían un patrón de juego nuevo: funcionaban como un condimento.»"
+        },
+        {
+          "title": "Pregunta si el mecanismo pelea con el objetivo del receptor, no solo si encaja con su tema",
+          "rules": "El encaje temático es la comprobación fácil y no es la que importa. Una característica puede expresar exactamente lo que una parte es y aun así ir contra lo que esa parte intenta hacer, porque usarla le cuesta el recurso del que depende su plan. Traza qué le pide gastar a la gente y dáselo a quien pueda permitírselo.",
+          "flavor": "Convocar se diseñó para los Boros. «Primero, queríamos que Boros fuera nuestro gremio más agresivo, y tomarse el tiempo de girar tus criaturas para lanzar hechizos en vez de girarlas para atacar iba contra ese objetivo. Selesnya, en cambio, era un mazo más lento y de rampa… Convocar encajaba exactamente con lo que ese mazo necesitaba: un medio de sacar rápido criaturas grandes. Daba igual girar algunas, porque ese mazo solía estar dispuesto a cambiar agresión por acumulación a largo plazo.»"
+        },
+        {
+          "title": "Elige el atributo restrictivo que se correlaciona con lo que quieres excluir, no el más fácil de captar",
+          "rules": "Cuando limitas algo mediante un umbral, la medida intuitiva rara vez es la que sigue al peligro. Comprueba la población real: si el atributo que elegiste admite un conjunto de casos extremos potentes, tendrás que tarificar todo contra ellos, y dejará de hacer el trabajo corriente que querías. Toma el atributo menos legible que traza la línea donde corresponde.",
+          "flavor": "«Estuvimos un tiempo yendo y viniendo entre exigir fuerza baja o coste de maná convertido bajo. Al principio nos inclinamos por la fuerza, porque el concepto es más fácil de entender; pero descubrimos que había muchas criaturas potentes y caras con fuerza baja, y si permitíamos al blanco recuperar esas criaturas, tendríamos que tarificar los hechizos de forma que solo sirvieran para hacer las cosas rotas y no tuvieran el uso corriente que queríamos.»"
+        },
+        {
+          "title": "Cuando la solución estándar está vetada, nombra la necesidad real y busca una vía que entregue solo eso",
+          "rules": "Una escasez tiene un remedio obvio, y a veces ese remedio está prohibido por razones que nada tienen que ver con la escasez. No relajes la prohibición. Enuncia con precisión qué se está acabando y busca un mecanismo que reponga eso y nada más: la restricción sobrevive, y a menudo acabas con algo más característico de lo que habría sido la herramienta general.",
+          "flavor": "Al blanco se le acaban las criaturas pequeñas, y no se le puede dar robo de cartas porque también encontraría sus respuestas. «La clave está en averiguar cómo darle al blanco más criaturas blancas pequeñas sin robar más cartas que podrían ser hechizos que sirvan de respuesta. La primera respuesta fue hacer fichas… Pero las fichas solo llegan hasta cierto punto… Entonces caímos en que el blanco no necesitaba realmente sacar criaturas grandes del cementerio, porque la mayoría de sus cartas eran baratas y pequeñas. ¿Y si dejábamos al blanco reanimar criaturas diminutas?»"
+        },
+        {
+          "title": "Tu reserva de buenas ideas sin usar crece más rápido que tus huecos: crea uno recurrente para vaciarla",
+          "rules": "Cualquier grupo que genere más buenas ideas de las que puede publicar acumula un atraso que crece cada año, y nada en el calendario normal lo consume. El arreglo es estructural, no editorial: reserva un hueco en un producto recurrente específicamente para sacar algo del montón. De lo contrario, lo mejor del atraso simplemente envejece.",
+          "flavor": "«En I+D nos dimos cuenta de que creamos mecánicas geniales nuevas más rápido de lo que usamos las viejas, lo que significa que tendemos a acumular una reserva de mecánicas geniales que queremos volver a hacer pero para las que no había muchos huecos. (Esta es también, por cierto, la razón por la que nos vemos empujados a empezar a traer de vuelta más de una mecánica al año.) ¿Y si la colección básica hiciera uso de algunas de esas mecánicas sencillas del pasado de Magic?»"
+        },
+        {
+          "title": "Cada entrega hereda la obligación de añadir un eje que la anterior no tenía",
+          "rules": "Una vez que has mejorado un producto recurrente dos veces, la tercera no puede limitarse a ejecutar bien las dos mejoras anteriores. El público lee la repetición como un estancamiento. Quien lo lidere tiene que encontrar una dimensión que nadie haya usado, lo cual es un encargo más difícil cada ciclo y es el verdadero trabajo: las adiciones acumuladas son lo que el producto es ahora.",
+          "flavor": "«Así que Magic 2015 haría cartas nuevas como Magic 2010 y traería de vuelta una mecánica popular como Magic 2011 (los dos últimos liderazgos de Aaron en básicas), pero Aaron seguía queriendo algo completamente nuevo. ¿Cómo podía añadir a la colección algo que nunca se hubiera añadido antes? Fue entonces cuando a Aaron se le ocurrió una idea interesante.» La idea fue entregar catorce cartas a diseñadores externos."
+        },
+        {
+          "title": "Una multitud que decide colectivamente optimiza por diferencia respecto a lo ya existente",
+          "rules": "Dada una serie de votaciones abiertas, un grupo grande no converge hacia la opción más popular en abstracto: converge hacia lo que contrasta con los resultados anteriores. Eso hace el resultado predecible de antemano: enumera lo que ya has producido y la multitud elegirá de lo que quede. Planifica el conjunto de opciones sabiéndolo.",
+          "flavor": "«Cuando empezamos, hicimos algunas predicciones audaces, la mayoría de las cuales acabaron cumpliéndose. Forgotten Ancient fue una criatura verde. Crucible of Worlds fue un artefacto. Vanish into Memory fue un instantáneo multicolor blanco y azul. Supusimos que el público querría hacer algo distinto de lo ya hecho. Eso significaba que lo más probable era negro o rojo, y encantamiento, tierra o conjuro… Y en efecto, elegisteis hacer un encantamiento negro.»"
+        },
+        {
+          "title": "Una fuerza en una dimensión es la razón de una debilidad en otra, y la debilidad es estructural",
+          "rules": "Antes de arreglar la deficiencia evidente de alguien, mira qué está sosteniendo. En un sistema bien ajustado, las deficiencias suelen ser el contrapeso de una fuerza en otro sitio: quita el límite y la fuerza se vuelve ilimitada, porque las dos estaban tarificadas una contra otra. La pregunta correcta no es cómo cerrar la brecha, sino qué está pagando la brecha.",
+          "flavor": "«El blanco es el color con más respuestas. Es el color de la estructura y el orden, así que planifica y se asegura de tener herramientas en su arsenal para lo que venga. Esa es una de las ventajas de la organización. Para compensarlo, hemos hecho del blanco el peor color robando cartas. Si el blanco pudiera robar cartas con demasiada eficiencia, encontraría sus respuestas con demasiada consistencia.»"
+        },
+        {
+          "title": "Colocar a alguien en un sitio por una razón ajena revela capacidades que nadie estaba evaluando",
+          "rules": "Los procedimientos de evaluación solo miden aquello para lo que fueron construidos. Una persona colocada en un equipo con un propósito incidental —observar, informar, tapar un hueco— no está siendo evaluada por nadie, y justamente por eso aquello en lo que resulta buena puede sorprender a todos. Crea esas colocaciones incidentales a propósito, y observa qué pasa.",
+          "flavor": "«Para quienes no conozcan la historia de Aaron en Wizards: fue contratado originalmente para dirigir DailyMTG.com cuando se lanzó. Lo pusimos en el equipo de diseño de Fifth Dawn para darle ocasión de escribir un artículo entre bastidores, pero Aaron hizo un trabajo tan asombroso que lo trajimos a I+D.» Llegaría a liderar tres diseños de colección básica y a ser director sénior de I+D de Magic."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Jours de base, partie 1",
+      "dek": "L'équipe de conception de Magic 2015, le retour de la convocation, et comment quatorze concepteurs extérieurs sont devenus quinze.",
+      "overview": "La troisième édition de base menée par Aaron Forsythe devait apporter ce qu'aucune édition de base n'avait fait. Aussi : pourquoi le blanc ne peut pas piocher, et ce que la foule a choisi quand on lui a confié une carte.",
+      "takeaway": "« Nous créons de nouvelles mécaniques épatantes plus vite que nous n'employons les anciennes. »",
+      "lessons": [
+        {
+          "title": "Réservez un siège permanent à ceux qu'on n'inclut jamais, et tenez-en la file d'attente",
+          "rules": "Chaque équipe se compose du même vivier de gens qui l'ont déjà fait, ce qui garantit en silence le même éventail d'instincts. Corrigez cela structurellement : réservez une place, dans chaque équipe, à quelqu'un qui connaît le produit de longue date sans y avoir jamais travaillé directement. Tenez une liste, pour que la place se remplisse par rotation et non au gré des souvenirs.",
+          "flavor": "« La plupart des équipes de conception ont ce que nous appelons le « cinquième membre ». Cette place est réservée à quelqu'un qui travaille sur Magic depuis des années sans avoir jamais eu l'occasion d'être dans une équipe de conception ou de développement. L'idée est que cela apporte du sang neuf et donne à l'équipe une perspective qui n'a pas encore trouvé de voix dans les cartes. Mike a passé des années au service du jeu organisé et figurait depuis longtemps sur la liste. »"
+        },
+        {
+          "title": "Un produit fait de bonnes pièces indépendantes n'a pas d'identité — donnez à chaque édition un élément commun",
+          "rules": "Quand une sortie est une collection de pièces solides sans rien qui les traverse, chaque édition ressemble à la précédente. Le remède le moins cher n'est pas de meilleures pièces, mais un unique élément commun par édition, rencontré partout. Cela donne à l'édition un caractère par lequel s'en souvenir, et à chacun quelque chose autour de quoi s'organiser.",
+          "flavor": "« Outre l'éclat ajouté, cela réglait un autre problème : comment faire que les éditions de base se distinguent les unes des autres. Quand l'édition de base est définie par une foule de cartes individuellement épatantes, il est difficile de créer une impression d'ensemble. En ajoutant une mécanique simple, l'équipe avait de quoi construire le jeu Limité… En tête de liste figuraient les mécaniques simples à comprendre mais qui ajoutaient un schéma de jeu neuf : elles faisaient office d'assaisonnement. »"
+        },
+        {
+          "title": "Demandez si le mécanisme combat l'objectif du destinataire, pas seulement s'il colle à son thème",
+          "rules": "L'adéquation thématique est la vérification facile, et ce n'est pas celle qui compte. Une fonctionnalité peut exprimer exactement ce qu'est une partie tout en contrariant ce que cette partie cherche à faire, parce que l'utiliser lui coûte la ressource dont dépend son plan. Repérez ce que la chose demande de dépenser, et donnez-la à qui peut se le permettre.",
+          "flavor": "La convocation fut conçue pour les Boros. « D'abord, nous voulions que les Boros soient notre guilde la plus agressive, et prendre le temps d'engager ses créatures pour lancer des sorts plutôt que pour attaquer allait contre cet objectif. Les Selesnyas, eux, étaient un deck plus lent, à accélération… La convocation correspondait exactement à ce dont ce deck avait besoin. Peu importait d'engager quelques créatures : ce deck acceptait volontiers d'échanger l'agressivité contre une montée en puissance. »"
+        },
+        {
+          "title": "Choisissez l'attribut restrictif qui corrèle avec ce que vous voulez exclure, pas le plus facile à saisir",
+          "rules": "Quand vous limitez par un seuil, la mesure intuitive est rarement celle qui suit le danger. Examinez la population réelle : si l'attribut choisi laisse passer un ensemble d'exceptions puissantes, il faudra tarifer l'ensemble contre elles, et la chose cessera de faire le travail ordinaire que vous vouliez. Prenez l'attribut moins lisible qui trace la ligne au bon endroit.",
+          "flavor": "« Nous avons hésité un moment entre une force faible et un coût converti faible. Au début nous penchions pour la force, notion plus facile à comprendre ; mais nous avons constaté qu'il existait beaucoup de créatures puissantes et chères à force faible, et que si le blanc pouvait les récupérer, il aurait fallu tarifer les sorts de sorte qu'ils ne servent qu'aux abus, sans l'usage courant que nous voulions. »"
+        },
+        {
+          "title": "Quand la solution standard est interdite, nommez le besoin réel et trouvez une voie qui ne livre que cela",
+          "rules": "Une pénurie a un remède évident, et parfois ce remède est interdit pour des raisons étrangères à la pénurie. Ne relâchez pas l'interdit. Énoncez précisément ce qui manque, et cherchez un mécanisme qui reconstitue cela et rien d'autre : la restriction survit, et vous obtenez souvent quelque chose de plus caractéristique que ne l'aurait été l'outil général.",
+          "flavor": "Le blanc épuise ses petites créatures et ne peut recevoir de pioche, qui lui trouverait aussi ses réponses. « La clé est de trouver comment donner au blanc davantage de petites créatures blanches sans piocher des cartes qui pourraient être des sorts-réponses. La première réponse fut les jetons… Mais les jetons ne vont pas si loin… Puis nous avons compris que le blanc n'avait pas besoin de sortir de grosses créatures du cimetière, la plupart de ses cartes étant petites et bon marché. Et si le blanc réanimait de minuscules créatures ? »"
+        },
+        {
+          "title": "Votre stock de bonnes idées inutilisées croît plus vite que vos créneaux — créez-en un récurrent pour l'écouler",
+          "rules": "Tout groupe qui produit plus de bonnes idées qu'il ne peut en publier accumule un arriéré qui grossit chaque année, et rien dans le calendrier ordinaire ne le consomme. Le remède est structurel, non éditorial : réservez, dans un produit récurrent, un créneau destiné à prendre quelque chose sur la pile. Sinon, le meilleur de l'arriéré ne fait que vieillir.",
+          "flavor": "« La R&D a constaté que nous créons de nouvelles mécaniques épatantes plus vite que nous n'employons les anciennes, ce qui signifie que nous accumulons un stock de mécaniques que nous voulons refaire mais pour lesquelles nous manquions de créneaux. (C'est d'ailleurs pourquoi nous sommes poussés à en ramener plus d'une par an.) Et si l'édition de base employait quelques-unes de ces mécaniques simples du passé de Magic ? »"
+        },
+        {
+          "title": "Chaque livraison hérite de l'obligation d'ajouter un axe que la précédente n'avait pas",
+          "rules": "Une fois un produit récurrent amélioré deux fois, la troisième ne peut se contenter de bien exécuter les deux améliorations précédentes. Le public lit la répétition comme un palier. Celui qui la dirige doit trouver une dimension inutilisée — brief plus difficile à chaque cycle, et véritable travail : les ajouts accumulés sont désormais ce qu'est le produit.",
+          "flavor": "« Magic 2015 ferait donc des cartes neuves comme Magic 2010 et ramènerait une mécanique populaire comme Magic 2011 (les deux précédentes éditions de base menées par Aaron), mais Aaron voulait encore quelque chose de totalement inédit. Comment ajouter à l'édition une chose qu'on n'y avait jamais ajoutée ? C'est alors qu'Aaron a eu une idée intéressante. » L'idée : confier quatorze cartes à des concepteurs extérieurs."
+        },
+        {
+          "title": "Une foule qui décide collectivement optimise l'écart avec ce qui existe déjà",
+          "rules": "Soumis à une série de votes ouverts, un grand groupe ne converge pas vers l'option la plus populaire dans l'absolu : il converge vers ce qui contraste avec les résultats précédents. Le résultat devient donc prévisible : listez ce que vous avez déjà produit, et la foule choisira dans le reste. Composez l'éventail d'options en le sachant.",
+          "flavor": "« Au départ, nous avons fait des prédictions audacieuses, presque toutes vérifiées. Forgotten Ancient était une créature verte. Crucible of Worlds, un artefact. Vanish into Memory, un éphémère multicolore blanc-bleu. Nous supposions que le public voudrait faire autre chose que ce qui avait déjà été fait. Cela signifiait très probablement du noir ou du rouge, et un enchantement, un terrain ou un rituel… Et vous avez en effet choisi un enchantement noir. »"
+        },
+        {
+          "title": "Une force sur un axe est la raison d'une faiblesse sur un autre, et la faiblesse est porteuse",
+          "rules": "Avant de corriger la carence évidente de quelqu'un, regardez ce qu'elle soutient. Dans un système bien réglé, les carences sont souvent le contrepoids d'une force ailleurs : ôtez la limite et la force devient sans bornes, car les deux étaient tarifées l'une contre l'autre. La bonne question n'est pas comment combler l'écart, mais ce que l'écart paie.",
+          "flavor": "« Le blanc est la couleur qui a le plus de réponses. C'est la couleur de la structure et de l'ordre : elle anticipe et s'assure d'avoir dans son arsenal de quoi traiter ce qui viendra. C'est l'un des avantages de l'organisation. Pour compenser, nous avons fait du blanc la pire couleur à la pioche. Si le blanc piochait trop efficacement, il trouverait ses réponses avec trop de constance. »"
+        },
+        {
+          "title": "Placer quelqu'un quelque part pour une raison étrangère révèle des aptitudes que personne n'évaluait",
+          "rules": "Les procédures d'évaluation ne mesurent que ce pour quoi elles ont été bâties. Une personne placée dans une équipe pour un motif incident — observer, rendre compte, boucher un trou — n'est évaluée par personne, et c'est précisément pourquoi ce en quoi elle excelle peut surprendre tout le monde. Créez ces placements incidents à dessein, et regardez ce qui arrive.",
+          "flavor": "« Pour qui ignore le parcours d'Aaron chez Wizards : il fut d'abord recruté pour diriger DailyMTG.com à son lancement. Nous l'avons mis dans l'équipe de conception de Fifth Dawn pour qu'il puisse écrire un article des coulisses, mais Aaron a fait un travail si remarquable que nous l'avons fait venir en R&D. » Il mènerait trois conceptions d'édition de base et deviendrait directeur principal de la R&D de Magic."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Dias de básica, parte 1",
+      "dek": "O time de design de Magic 2015, a volta de convocação, e como quatorze designers de fora viraram quinze.",
+      "overview": "A terceira coleção básica liderada por Aaron Forsythe precisava de algo que nenhuma básica tivesse feito. Além disso: por que o branco não pode comprar cartas, e o que a multidão escolheu quando lhe deram uma carta para desenhar.",
+      "takeaway": "“Criamos mecânicas novas e legais mais rápido do que usamos as mecânicas legais antigas.”",
+      "lessons": [
+        {
+          "title": "Reserve um assento permanente para quem nunca é incluído, e mantenha uma fila para ele",
+          "rules": "Todo time se monta com o mesmo conjunto de gente que já fez isso antes, o que garante silenciosamente a mesma gama de instintos. Resolva estruturalmente: destine uma vaga em cada time a alguém com longa experiência no produto que nunca tenha trabalhado nele diretamente. Mantenha uma lista, para que a vaga seja preenchida por rodízio e não por quem vier à cabeça.",
+          "flavor": "“A maioria dos times de design tem o que chamamos de ‘quinto membro’. Essa vaga é reservada a alguém que passou anos trabalhando em Magic mas ainda não teve a chance de estar num time de design ou desenvolvimento. A ideia é que isso traz sangue novo e dá ao time uma perspectiva que ainda não encontrou voz nas cartas. Mike passou muitos anos no nosso departamento de jogo organizado e estava na lista curta havia anos.”"
+        },
+        {
+          "title": "Um produto feito de boas peças independentes não tem identidade — dê a cada edição um elemento compartilhado",
+          "rules": "Quando um lançamento é uma coleção de peças fortes isoladamente, sem nada atravessando-as, cada edição parece igual à anterior. O conserto mais barato não são peças melhores, e sim um único elemento comum por edição, encontrado por toda parte. Isso dá à edição um caráter pelo qual lembrá-la e a todos algo em torno do que se organizar.",
+          "flavor": "“Além de dar brilho, isso resolvia outro problema: como fazer as coleções básicas parecerem diferentes umas das outras. Quando a básica é definida por muitas cartas individualmente legais, é difícil criar uma sensação de conjunto. Acrescentando uma mecânica simples, o time tinha algo em torno do que construir o Limitado… No topo da lista estavam as mecânicas fáceis de entender mas que acrescentavam um padrão de jogo novo: funcionavam como um tempero.”"
+        },
+        {
+          "title": "Pergunte se o mecanismo briga com o objetivo de quem o recebe, não só se combina com o tema dele",
+          "rules": "Encaixe temático é a checagem fácil e não é a que importa. Um recurso pode expressar exatamente o que uma parte é e ainda assim trabalhar contra o que ela tenta fazer, porque usá-lo custa a ela o recurso de que o plano depende. Rastreie o que a coisa pede para gastar, e dê a quem puder pagar.",
+          "flavor": "Convocação foi desenhada para os Boros. “Primeiro, queríamos que Boros fosse nossa guilda mais agressiva, e gastar tempo virando criaturas para conjurar mágicas em vez de virá-las para atacar ia contra esse objetivo. Selesnya, por outro lado, era um deck mais lento e de rampa… Convocação era exatamente o que aquele deck precisava. Não importava virar algumas, pois aquele deck costumava topar trocar agressão por acúmulo de longo prazo.”"
+        },
+        {
+          "title": "Escolha o atributo restritivo que se correlaciona com o que você quer excluir, não o mais fácil de entender",
+          "rules": "Quando você limita por um limiar, a medida intuitiva raramente é a que acompanha o perigo. Confira a população real: se o atributo escolhido admite um conjunto de exceções poderosas, você terá de precificar tudo contra elas, e a coisa deixa de fazer o trabalho comum que você queria. Fique com o atributo menos legível que traça a linha onde ela deve estar.",
+          "flavor": "“Passamos um tempo indo e voltando entre exigir poder baixo ou custo de mana convertido baixo. No começo pendemos para o poder, por ser conceito mais fácil de entender; mas descobrimos que havia muitas criaturas poderosas e caras com poder baixo, e se deixássemos o branco pegá-las teríamos de precificar as mágicas de modo que só servissem para as coisas quebradas, sem o uso corriqueiro que queríamos.”"
+        },
+        {
+          "title": "Quando a solução padrão está vetada, nomeie a necessidade real e ache uma rota que entregue só isso",
+          "rules": "Uma escassez tem um remédio óbvio, e às vezes esse remédio está vetado por razões alheias à escassez. Não afrouxe a proibição. Diga com precisão o que está acabando e procure um mecanismo que reponha aquilo e nada mais: a restrição sobrevive, e muitas vezes você acaba com algo mais característico do que a ferramenta geral teria sido.",
+          "flavor": "O branco fica sem criaturas pequenas, e não pode receber compra de cartas porque isso também acharia as respostas dele. “A chave é descobrir como dar ao branco mais criaturas brancas pequenas sem comprar mais cartas que possam ser mágicas-resposta. A primeira resposta foram as fichas… Mas fichas só levam até certo ponto… Aí nos ocorreu que o branco não precisava tirar criaturas grandes do cemitério, já que a maioria das cartas dele é barata e pequena. E se deixássemos o branco reanimar criaturas minúsculas?”"
+        },
+        {
+          "title": "Seu estoque de boas ideias não usadas cresce mais rápido que suas vagas — crie uma recorrente para escoá-lo",
+          "rules": "Qualquer grupo que gere mais boas ideias do que consegue lançar acumula um atraso que cresce todo ano, e nada no calendário normal o consome. O conserto é estrutural, não editorial: reserve uma vaga num produto recorrente especificamente para tirar algo da pilha. Caso contrário, o melhor do atraso simplesmente envelhece.",
+          "flavor": "“A P&D percebeu que criamos mecânicas novas e legais mais rápido do que usamos as antigas, o que significa que tendemos a acumular um estoque de mecânicas legais que queremos refazer mas para as quais não havia vagas. (É também por isso, aliás, que estamos sendo levados a trazer de volta mais de uma mecânica por ano.) E se a coleção básica usasse algumas daquelas mecânicas simples do passado de Magic?”"
+        },
+        {
+          "title": "Cada entrega herda a obrigação de acrescentar um eixo que a anterior não tinha",
+          "rules": "Depois de melhorar um produto recorrente duas vezes, a terceira não pode apenas executar bem as duas melhorias anteriores. O público lê a repetição como estagnação. Quem lidera precisa achar uma dimensão que ninguém usou — briefing mais difícil a cada ciclo, e o verdadeiro trabalho: os acréscimos acumulados são o que o produto agora é.",
+          "flavor": "“Então Magic 2015 faria cartas novas como Magic 2010 e traria de volta uma mecânica popular como Magic 2011 (as duas básicas anteriores lideradas por Aaron), mas Aaron ainda queria algo totalmente novo. Como acrescentar à coleção algo que nunca tinha sido acrescentado antes? Foi aí que Aaron teve uma ideia interessante.” A ideia foi entregar quatorze cartas a designers de fora."
+        },
+        {
+          "title": "Uma multidão decidindo coletivamente otimiza a diferença em relação ao que já existe",
+          "rules": "Dada uma série de votações abertas, um grupo grande não converge para a opção mais popular no abstrato: converge para o que contrasta com os resultados anteriores. Isso torna o resultado previsível de antemão: liste o que você já produziu e a multidão escolherá do que sobrar. Planeje o conjunto de opções sabendo disso.",
+          "flavor": "“Quando começamos, fizemos algumas previsões ousadas, quase todas cumpridas. Forgotten Ancient foi uma criatura verde. Crucible of Worlds, um artefato. Vanish into Memory, um instantâneo multicolorido branco e azul. Presumimos que o público iria querer fazer algo diferente do já feito. Isso significava provavelmente preto ou vermelho, e encantamento, terreno ou feitiço… E de fato vocês escolheram fazer um encantamento preto.”"
+        },
+        {
+          "title": "Uma força numa dimensão é a razão de uma fraqueza em outra, e a fraqueza é estrutural",
+          "rules": "Antes de consertar a deficiência óbvia de alguém, veja o que ela sustenta. Num sistema bem ajustado, deficiências costumam ser o contrapeso de uma força em outro lugar: tire o limite e a força fica ilimitada, porque as duas foram precificadas uma contra a outra. A pergunta certa não é como fechar a lacuna, e sim o que a lacuna está pagando.",
+          "flavor": "“O branco é a cor com mais respostas. É a cor da estrutura e da ordem, então planeja adiante e garante ter ferramentas no arsenal para o que vier. Essa é uma das vantagens da organização. Para compensar, fizemos do branco a pior cor em compra de cartas. Se o branco comprasse cartas com eficiência demais, acharia suas respostas com consistência demais.”"
+        },
+        {
+          "title": "Pôr alguém em algum lugar por uma razão alheia revela capacidade que ninguém estava testando",
+          "rules": "Procedimentos de avaliação só medem aquilo para o que foram feitos. Uma pessoa colocada num time por um motivo incidental — observar, relatar, tapar um buraco — não está sendo avaliada por ninguém, e é exatamente por isso que aquilo em que ela se revela boa pode surpreender todo mundo. Crie essas colocações incidentais de propósito, e observe o que acontece.",
+          "flavor": "“Para quem não conhece a história de Aaron na Wizards: ele foi contratado originalmente para tocar o DailyMTG.com quando o site entrou no ar. Nós o pusemos no time de design de Fifth Dawn para dar a ele a chance de escrever um artigo de bastidores, mas Aaron fez um trabalho tão incrível que o trouxemos para a P&D.” Ele viria a liderar três designs de coleção básica e a ser diretor sênior da P&D de Magic."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "核心的日子，上篇",
+      "dek": "《万智牌2015》的设计团队、「群策」的回归，以及十四位外部设计师如何变成了十五位。",
+      "overview": "亚伦·福赛思第三次主导核心系列，需要一样任何核心系列都没做过的东西。此外：白色为什么不能抓牌，以及当一张牌交给大众来设计时，他们选了什么。",
+      "takeaway": "「我们创造出新的好机制的速度，快过我们用掉旧的好机制的速度。」",
+      "lessons": [
+        {
+          "title": "为「从未被纳入过的人」留一个常设席位，并为它维护一份排队名单",
+          "rules": "每一支团队都从同一批「以前做过这件事的人」里组建，这在无声中保证了同一套直觉范围。请从结构上解决它：在每支团队里指定一个位置，留给那些长期与这个产品打交道、却从未直接参与过它的人。维护一份名单，好让这个位置是靠轮换填满的，而不是靠「谁碰巧被想起来」。",
+          "flavor": "「大多数设计团队都有一个我们称之为『第五名成员』的位置。这个席位留给那些已经在万智牌上工作了多年、却还没有机会进入设计或开发团队的人。『第五名成员』背后的想法是：它为一次设计带来新血，并让设计团队获得一种『尚未在牌上找到声音』的视角。麦克在我们的官方赛事部门工作了很多年，多年来一直在那份短名单上。」"
+        },
+        {
+          "title": "一件由若干各自优秀、彼此独立的零件构成的产品没有身份——请给每一版一样共有的元素",
+          "rules": "当一次发行只是一堆各自很强、彼此之间却没有任何贯穿之物的零件时，每一版感觉起来都和上一版一样。最便宜的补救办法不是「更好的零件」，而是「每一版一样共有的、人们到处都会遇到的元素」。它给了这一版一个可供记住的性格，也给了所有人一个可以围绕它来组织的东西。",
+          "flavor": "「除了添彩之外，这还解决了另一个问题：如何让各个核心系列彼此感觉不同。当一个核心系列是由一大堆各自很酷的单张牌来定义时，就很难营造出一种整体感受。加进一个简单的机制，设计团队就有了可以围绕它来打造限制赛的东西……名单最上面的，是那些容易理解、却又带来一种新打法模式的机制——它们起的是调味料的作用。」"
+        },
+        {
+          "title": "要问的是「这个机制是否与接收方的目标相冲突」，而不只是「它是否与对方的主题相符」",
+          "rules": "主题上是否相符是那道容易的核对，而它并不是要紧的那一道。一项特性可以精确地表达出某一方「是什么」，同时又与那一方「正试图做什么」相抵触——因为使用它，要花掉他这套计划所依赖的那种资源。请追踪这样东西要求人们花掉什么，然后把它给那个花得起的人。",
+          "flavor": "「群策」当初是为波洛斯设计的。「首先，我们希望波洛斯是我们最具侵略性的公会；而花时间去横置自己的生物来施放咒语、而不是横置它们去攻击，与这个目标是相悖的。而瑟雷尼亚则是一副更慢的、加速型的套牌……群策恰好对上了这副套牌所需要的东西。横置掉几个并不要紧，因为这副套牌通常愿意用侵略性去换长期的积累。」"
+        },
+        {
+          "title": "挑那个「与你真正想排除之物相关联」的限制属性，而不是那个最容易被理解的",
+          "rules": "当你用一道门槛去限制某样东西时，那个符合直觉的度量，很少就是与危险同向变化的那一个。请去核对真实的样本分布：如果你选的那个属性放进了一批强力的异常值，你就不得不按它们来给整件东西定价；于是它也就不再做你原本想让它做的那件寻常工作了。请取那个不那么好读、却把线划在了该划之处的属性。",
+          "flavor": "「我们在『低力量』和『低总法术力费用』之间来回斟酌了一阵。起初我们偏向力量，因为这个概念更容易理解；但我们发现，有很多力量低、却既强又贵的生物；如果我们允许白色去拿回这些生物，我们就不得不把这些咒语的费用定成『只够用来做那些崩坏的事』，而失去我们想要的那种日常用法。」"
+        },
+        {
+          "title": "当那条标准解法被禁止时，说清楚真正的需求，并找一条只交付这一项的路径",
+          "rules": "一种短缺总有一个显而易见的解药；而有时那个解药出于与短缺本身无关的理由被禁止了。不要去松动那条禁令。请精确地说出「究竟是什么在耗尽」，然后去寻找一个只补充这一样、别的什么也不补充的机制：禁令得以存活，而你往往还会得到一样比那件通用工具更有特色的东西。",
+          "flavor": "白色会打光自己的小生物；而又不能给它抓牌，因为那同时也会让它找到自己的答案。「关键在于：怎样才能让白色获得更多的白色小生物，而不去抓更多可能是『答案类咒语』的牌。第一个答案是做衍生物……但衍生物只能带我们走这么远……接着我们恍然大悟：白色其实并不需要从坟墓场里弄出大生物，因为它的大部分牌本来就又便宜又小。如果我们让白色去复生那些很小的生物呢？」"
+        },
+        {
+          "title": "你手上「好而未用」的点子存量，增长得比你的档期更快——请造一个周期性的档期来消化它",
+          "rules": "任何一个「产生好点子的速度快过它能发布的速度」的团队，都会积起一份逐年增大的积压；而正常的日程表里没有任何一环会去消耗它。补救办法是结构性的、而不是编辑性的：在某个周期性的产品里专门留一个档期，用来从那堆积压里取一样出来。否则，积压中最好的那些只会不断变旧。",
+          "flavor": "「研发部发现：我们创造出新的好机制的速度，快过我们用掉旧的好机制的速度；这意味着我们往往会积起一堆『想再做一次、却没有多少档期可用』的好机制。（顺带一提，这也是我们正被推着开始『一年带回不止一个机制』的原因。）如果核心系列去用掉万智牌过往那些漂亮而简单的机制中的一些呢？」"
+        },
+        {
+          "title": "每一次出品都继承了「加上一根上一次所没有的轴」的义务",
+          "rules": "当你把一件周期性产品改进过两次之后，第三次就不能只是把前两次的改进执行得很好。受众会把重复读成停滞。主导它的人必须找到一个没有人用过的维度；这份任务书一轮比一轮难，而它正是真正的工作——那些累积起来的添加物，就是这件产品如今之所是。",
+          "flavor": "「所以《万智牌2015》会像《万智牌2010》那样做新牌，也会像《万智牌2011》那样带回一个受欢迎的机制（那是亚伦此前两次主导的核心系列）；但亚伦仍然想要一样全新的东西。他要怎样才能往这个系列里加进一样从来没有被加进去过的东西？就在那时，亚伦想出了一个有意思的主意。」那个主意，是把十四张牌交给外部设计师。"
+        },
+        {
+          "title": "一群人集体做决定时，优化的是「与已经存在之物的差异」",
+          "rules": "在一连串公开投票中，一个大群体并不会收敛到「抽象意义上最受欢迎的那个选项」上——它会收敛到「与此前那些结果形成对比的那一个」上。这让结果可以被事先预测：把你以前产出过的东西列出来，而这群人会从剩下的里面挑。请带着这份认识去规划那份选项清单。",
+          "flavor": "「一开始，我们做了几个大胆的预测，其中大部分后来都应验了。《遗忘古神》是一个绿色生物。《万世熔炉》是一个神器。《化入回忆》是一张白蓝多色瞬间。我们假定受众会想做一样与此前所做不同的东西。那就意味着它多半会是黑色或红色，并且是结界、地或法术……而结果证明，你们选的是做一个黑色结界。」"
+        },
+        {
+          "title": "一个维度上的强项，正是另一个维度上弱项存在的原因；而这个弱项是承重的",
+          "rules": "在你去修补某人那个显眼的欠缺之前，先看看它撑住了什么。在一个被仔细调校过的系统里，欠缺往往是别处某项强项的配重：把这道限制拿掉，那项强项就变得没有上界——因为这两者当初就是互相定价的。正确的问题不是「怎样补上这道缺口」，而是「这道缺口在为什么买单」。",
+          "flavor": "「白色是拥有最多答案的颜色。它是结构与秩序之色，所以它会提前谋划，确保自己的军械库里备有工具去应付将要到来的任何问题。这正是有组织的好处之一。为了抵消这一点，我们把白色做成了抓牌最差的颜色。如果白色能够太高效地抓牌，它就能太稳定地找到自己的答案。」"
+        },
+        {
+          "title": "出于一个不相干的理由把某人放到某个位置上，会暴露出没有人在考核的能力",
+          "rules": "考核程序只测量它被造出来去测量的那些东西。一个因为附带目的——去观察、去汇报、去补个缺——而被放进某支团队的人，并没有被任何人评估；而这恰恰就是「他最终展现出擅长什么」能让所有人吃惊的原因。请刻意地去制造这类附带的安置，然后看看会发生什么。",
+          "flavor": "「对不了解亚伦在威世智履历的人：他最初是被雇来主管刚上线的官方网站的。我们把他放进《第五黎明》的设计团队，是为了给他一个写幕后文章的机会；但亚伦做得实在太出色，于是我们把他调进了研发部。」他后来主导了三次核心系列的设计，并成为万智牌研发部的资深总监。"
+        }
+      ]
+    }
+  }
+}
