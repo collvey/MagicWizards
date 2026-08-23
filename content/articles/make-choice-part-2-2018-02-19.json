@@ -1,0 +1,385 @@
+{
+  "id": "make-choice-part-2-2018-02-19",
+  "slug": "make-choice-part-2-2018-02-19",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2018-02-19",
+  "series": null,
+  "tags": [
+    "great-designer-search",
+    "color-pie",
+    "rarity",
+    "limited",
+    "design-principles",
+    "standard"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/make-choice-part-2-2018-02-19",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T06:15:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "U" },
+    { "n": 10, "color": "G" },
+    { "n": 11, "color": "W" },
+    { "n": 12, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Make the Choice, Part 2",
+      "dek": "The second half of the Great Designer Search 3 multiple-choice answer key — each answer a small, self-contained piece of design reasoning.",
+      "overview": "Seventy-five questions, and the explanations are the point. Why rituals never get pushed for Standard, why an eight-damage red spell is wrong, why a locked number beats an X, and what the colour pie is actually for.",
+      "takeaway": "The clearest statement in the batch is about the colour pie: its most important function is forcing players to make choices about what to include, and the diversity of play that produces matters more than the variety of cards it makes possible.",
+      "lessons": [
+        {
+          "title": "Tolerance for variance follows from what someone came for",
+          "rules": "How much randomness a person accepts isn't a personality trait, it's a consequence of their goal. Anyone who is there to have their skill rewarded is the one it costs, because randomness is exactly what dilutes the signal.",
+          "flavor": "Timmy and Tammy enjoy high variance. Johnny and Jenny accept it, since they're doing offbeat things anyway. New players like that they occasionally win. “Spike is the least happy with variance because they want their skill to be rewarded.”"
+        },
+        {
+          "title": "Flexibility appreciates as the pool shrinks",
+          "rules": "In a constrained selection, the item that answers many situations beats the item that answers one better. Narrow excellence needs a deck built around it; universal adequacy needs nothing.",
+          "flavor": "Which is strongest in Limited — Cowl Prowler, Duress, Lava Axe, Pacifism, or Wind Drake? “Universal answers, especially relatively cheap ones, are very powerful in Limited, making Pacifism the strongest Limited card of the bunch.”"
+        },
+        {
+          "title": "Repeated failure retires a class from consideration",
+          "rules": "Some categories accumulate enough bad history that they stop being evaluated on the merits of the individual case. They remain permitted and stop being pushed, and that distinction is worth stating out loud.",
+          "flavor": "Asked which effect isn't aimed at competitive Standard: “Time and again, we've been burned by ‘rituals,' so much so that we avoid pushing them for Standard.” Card draw, counterspells, flexible direct damage and mass creature kill all still get pushed."
+        },
+        {
+          "title": "Fix the loop inside the combo, not with an answer",
+          "rules": "Adding a tool that beats the problem leaves the problem intact and dependent on people drawing the tool. Changing one of the pieces so the loop can't close is the smaller and more reliable intervention.",
+          "flavor": "On Felidar Guardian and Saheeli Rai: “The key to solving the problem is stopping the combo from going infinite… It's true that D puts an answer in the environment, but that's not as efficient a solution as addressing the problem within the combo itself.”"
+        },
+        {
+          "title": "Judge a lock by how many parties can undo it",
+          "rules": "The danger of something that shuts down play isn't the shutdown, it's the exit. Count who can remove it once it's established, and the worst version is the one most people simply can't answer.",
+          "flavor": "An enchantment stopping all creatures from attacking is the most problematic of five candidates, because it “shuts down a key element of gameplay… with a component that only two of the five colors can destroy once it's on the battlefield.”"
+        },
+        {
+          "title": "The cap on a shared axis protects identity, not balance",
+          "rules": "When two categories can both do a thing, the limit on how far one may go isn't about power level. It's about keeping the two from producing outputs nobody can tell apart.",
+          "flavor": "Why an eight-damage red instant for four mana is wrong: “we've been limiting how much damage red can do to creatures so that we don't make red spells that feel like black destruction spells.” Not the cost, not the timing — the blur."
+        },
+        {
+          "title": "Lock the number to remove text, not to change the power",
+          "rules": "Replacing a variable with a fixed value looks like a balance decision and often isn't. The gain is that a whole clause disappears and the thing becomes readable at a glance.",
+          "flavor": "Of five proposed changes, the right one is fixing the variable: “Changing the number to a locked number would eliminate a bunch of rules text and make the card easier to process.” Haste would only come from a power need; squaring the stats has no purpose here."
+        },
+        {
+          "title": "Move the effect up a tier to rate-limit the loop",
+          "rules": "Something that can feed itself doesn't need banning; it needs to occur less often. Placing it one tier up changes how many copies show up, which changes whether the loop is a strategy or an occasional pleasure.",
+          "flavor": "Which effect no longer belongs at common? “We've moved the Gravedigger effect to uncommon to lessen the creation of loops.” The other four candidate effects are all still fine at common."
+        },
+        {
+          "title": "A policy adopted for one reason can silently retire a design surface",
+          "rules": "Rules made to solve an unrelated problem take options off the table without anyone noticing. Check what your own conventions have foreclosed, because some of it used to work and quietly stopped.",
+          "flavor": "Cards can care about subtypes, supertypes, converted mana cost, power and toughness. But because identically named cards are treated identically and reprints exist across many symbols, “black-border Magic can no longer mechanically care about expansion symbols. (It did in some of Magic's early sets.)”"
+        },
+        {
+          "title": "Match the returning mechanic to how the faction already plays",
+          "rules": "Reintroducing something is a fit question before it's a quality question. Ask what the recipient already does every game, and pick the one that compounds with it rather than the one that's merely good.",
+          "flavor": "Which mechanic best suits Simic? The guild upgrades creatures, often with +1/+1 counters, so proliferate has the best synergy. “Entwine and rebound are too spell focused. Dash is too much about attacking, and undying is much more Golgari than Simic.”"
+        },
+        {
+          "title": "The constraint's main value is diversity of play, not variety of content",
+          "rules": "A system of restrictions justifies itself two ways: it makes more distinguishable things possible, and it forces the people using it to choose. The second is the one that matters, and it's the one people forget.",
+          "flavor": "“The color pie's most important function is to ensure players must make choices about which cards to include. This leads to both deck and gameplay diversity. It does also allow more distinct cards to be designed, but that's not as important.”"
+        },
+        {
+          "title": "When all the obvious explanations are wrong, the real constraint is elsewhere",
+          "rules": "A rule people can't account for usually has a reason nobody guesses, because the plausible answers are about the thing itself and the real one is about what it does to its surroundings.",
+          "flavor": "Why so few expensive commons? Not the arithmetic, not the design difficulty, not beginner complexity, and not the card type. “The problem is that it's almost impossible to make effects that cost that much that aren't too impactful for common.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Elige la respuesta, parte 2",
+      "dek": "La segunda mitad del solucionario del test de la Great Designer Search 3: cada respuesta es una pieza pequeña y autocontenida de razonamiento de diseño.",
+      "overview": "Setenta y cinco preguntas, y lo importante son las explicaciones. Por qué los rituales nunca se empujan para Estándar, por qué un hechizo rojo de ocho de daño está mal, por qué un número fijo gana a una X, y para qué sirve realmente la rueda de color.",
+      "takeaway": "La afirmación más clara del lote es sobre la rueda de color: su función más importante es obligar a los jugadores a elegir qué incluir, y la diversidad de juego que eso produce importa más que la variedad de cartas que hace posible.",
+      "lessons": [
+        {
+          "title": "La tolerancia a la varianza se deriva de a qué vino cada uno",
+          "rules": "Cuánta aleatoriedad acepta una persona no es un rasgo de carácter, es consecuencia de su objetivo. A quien está ahí para que se le recompense la habilidad es a quien le cuesta, porque la aleatoriedad es justo lo que diluye la señal.",
+          "flavor": "A Timmy y Tammy les gusta la varianza alta. Johnny y Jenny la aceptan, porque de todos modos hacen cosas raras. A los novatos les gusta ganar de vez en cuando. «Spike es el menos contento con la varianza porque quiere que se recompense su habilidad.»"
+        },
+        {
+          "title": "La flexibilidad se revaloriza a medida que el conjunto se encoge",
+          "rules": "En una selección restringida, lo que responde a muchas situaciones le gana a lo que responde mejor a una. La excelencia estrecha necesita un mazo construido a su alrededor; la suficiencia universal no necesita nada.",
+          "flavor": "¿Cuál es la más fuerte en Limitado —Cowl Prowler, Duress, Lava Axe, Pacifism o Wind Drake? «Las respuestas universales, sobre todo las relativamente baratas, son muy potentes en Limitado, lo que hace de Pacifism la más fuerte del grupo.»"
+        },
+        {
+          "title": "El fracaso repetido retira toda una clase de la consideración",
+          "rules": "Algunas categorías acumulan suficiente mal historial como para dejar de evaluarse por los méritos del caso concreto. Siguen permitidas y dejan de empujarse, y esa distinción conviene decirla en voz alta.",
+          "flavor": "«Una y otra vez nos hemos quemado con los “rituales”, tanto que evitamos empujarlos para Estándar.» El robo de cartas, los contrahechizos, el daño directo flexible y la destrucción masiva de criaturas sí se siguen empujando."
+        },
+        {
+          "title": "Arregla el bucle dentro del combo, no con una respuesta",
+          "rules": "Añadir una herramienta que vence al problema deja el problema intacto y dependiente de que la gente robe la herramienta. Cambiar una de las piezas para que el bucle no cierre es la intervención más pequeña y más fiable.",
+          "flavor": "Sobre Felidar Guardian y Saheeli Rai: «La clave está en impedir que el combo sea infinito… Es cierto que D pone una respuesta en el entorno, pero no es una solución tan eficiente como abordar el problema dentro del propio combo.»"
+        },
+        {
+          "title": "Juzga un candado por cuánta gente puede abrirlo",
+          "rules": "El peligro de algo que apaga el juego no es el apagón, es la salida. Cuenta quién puede quitarlo una vez puesto, y la peor versión es aquella que la mayoría simplemente no puede responder.",
+          "flavor": "Un encantamiento que impide atacar a todas las criaturas es el más problemático de cinco candidatos porque «apaga un elemento clave del juego… con un componente que solo dos de los cinco colores pueden destruir una vez está en el campo»."
+        },
+        {
+          "title": "El tope en un eje compartido protege la identidad, no el equilibrio",
+          "rules": "Cuando dos categorías pueden hacer lo mismo, el límite de hasta dónde puede llegar una no va del nivel de potencia. Va de impedir que las dos produzcan resultados que nadie pueda distinguir.",
+          "flavor": "Por qué un instantáneo rojo de ocho de daño por cuatro manás está mal: «hemos estado limitando cuánto daño puede hacer el rojo a las criaturas para no hacer hechizos rojos que se sientan como destrucción negra». No el coste, no el momento: el difuminado."
+        },
+        {
+          "title": "Fija el número para quitar texto, no para cambiar la potencia",
+          "rules": "Sustituir una variable por un valor fijo parece una decisión de equilibrio y a menudo no lo es. La ganancia es que desaparece una cláusula entera y la cosa se vuelve legible de un vistazo.",
+          "flavor": "De cinco cambios propuestos, el correcto es fijar la variable: «Cambiar el número por uno fijo eliminaría un montón de texto de reglas y haría la carta más fácil de procesar.»"
+        },
+        {
+          "title": "Sube el efecto un nivel para limitar la frecuencia del bucle",
+          "rules": "Algo que puede alimentarse a sí mismo no necesita prohibirse; necesita ocurrir menos. Colocarlo un nivel arriba cambia cuántas copias aparecen, y eso cambia si el bucle es una estrategia o un placer ocasional.",
+          "flavor": "¿Qué efecto ya no encaja en común? «Hemos movido el efecto de Gravedigger a infrecuente para reducir la creación de bucles.» Los otros cuatro efectos candidatos siguen estando bien en común."
+        },
+        {
+          "title": "Una política adoptada por un motivo puede retirar en silencio una superficie de diseño",
+          "rules": "Reglas hechas para resolver un problema no relacionado quitan opciones de la mesa sin que nadie lo note. Revisa qué han cerrado tus propias convenciones, porque parte de eso antes funcionaba y dejó de hacerlo calladamente.",
+          "flavor": "Las cartas pueden fijarse en subtipos, supertipos, coste convertido, fuerza y resistencia. Pero como las cartas con el mismo nombre se tratan igual y hay reimpresiones con símbolos distintos, «el Magic de borde negro ya no puede fijarse mecánicamente en los símbolos de edición»."
+        },
+        {
+          "title": "Ajusta la mecánica que vuelve a cómo ya juega la facción",
+          "rules": "Reintroducir algo es primero una cuestión de encaje y luego de calidad. Pregunta qué hace ya el receptor cada partida, y elige lo que se compone con eso, no lo que simplemente es bueno.",
+          "flavor": "¿Qué mecánica encaja mejor con Simic? El gremio mejora criaturas, a menudo con contadores +1/+1, así que proliferar tiene la mejor sinergia. «Entrelazar y rebotar están demasiado centrados en hechizos. Correr es demasiado de atacar.»"
+        },
+        {
+          "title": "El valor principal de la restricción es la diversidad de juego, no la variedad de contenido",
+          "rules": "Un sistema de restricciones se justifica de dos formas: hace posibles más cosas distinguibles, y obliga a elegir a quienes lo usan. La segunda es la que importa, y es la que se olvida.",
+          "flavor": "«La función más importante de la rueda de color es asegurar que los jugadores tengan que elegir qué cartas incluir. Eso lleva a diversidad de mazos y de juego. También permite diseñar cartas más distintas, pero eso no es tan importante.»"
+        },
+        {
+          "title": "Cuando todas las explicaciones obvias fallan, la restricción real está en otra parte",
+          "rules": "Una regla que la gente no sabe explicar suele tener un motivo que nadie adivina, porque las respuestas plausibles hablan de la cosa en sí y la verdadera habla de lo que le hace a su entorno.",
+          "flavor": "¿Por qué hay tan pocas comunes caras? No es la aritmética, ni la dificultad de diseño, ni la complejidad para principiantes, ni el tipo de carta. «El problema es que es casi imposible hacer efectos que cuesten tanto y no sean demasiado impactantes para común.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Faites votre choix, partie 2",
+      "dek": "La seconde moitié du corrigé du QCM de la Great Designer Search 3 : chaque réponse est un petit morceau autonome de raisonnement de conception.",
+      "overview": "Soixante-quinze questions, et ce sont les explications qui comptent. Pourquoi les rituels ne sont jamais poussés en Standard, pourquoi un sort rouge à huit blessures est faux, pourquoi un nombre fixe vaut mieux qu'un X, et à quoi sert vraiment la roue des couleurs.",
+      "takeaway": "L'énoncé le plus clair du lot porte sur la roue des couleurs : sa fonction la plus importante est d'obliger les joueurs à choisir, et la diversité de jeu que cela produit compte davantage que la variété de cartes qu'elle rend possible.",
+      "lessons": [
+        {
+          "title": "La tolérance à la variance découle de ce pour quoi on est venu",
+          "rules": "La dose de hasard qu'une personne accepte n'est pas un trait de caractère, c'est une conséquence de son but. Celui qui vient pour que sa compétence soit récompensée est celui à qui cela coûte, car le hasard est précisément ce qui dilue le signal.",
+          "flavor": "Timmy et Tammy apprécient la forte variance. Johnny et Jenny l'acceptent, faisant de toute façon des choses décalées. Les nouveaux aiment gagner de temps en temps. « Spike est le moins content de la variance car il veut que sa compétence soit récompensée. »"
+        },
+        {
+          "title": "La souplesse prend de la valeur à mesure que le vivier rétrécit",
+          "rules": "Dans une sélection contrainte, ce qui répond à beaucoup de situations bat ce qui répond mieux à une seule. L'excellence étroite exige un deck bâti autour ; la suffisance universelle n'exige rien.",
+          "flavor": "Laquelle est la plus forte en Limité ? « Les réponses universelles, surtout relativement bon marché, sont très puissantes en Limité, ce qui fait de Pacifism la plus forte du lot. »"
+        },
+        {
+          "title": "L'échec répété retire toute une classe de la considération",
+          "rules": "Certaines catégories accumulent assez de mauvais antécédents pour cesser d'être évaluées au mérite du cas particulier. Elles restent autorisées et cessent d'être poussées, et cette distinction mérite d'être dite.",
+          "flavor": "« Encore et encore, nous nous sommes brûlés avec les “rituels”, au point d'éviter de les pousser en Standard. » Pioche, contresorts, blessures directes flexibles et destruction massive de créatures continuent d'être poussés."
+        },
+        {
+          "title": "Réparez la boucle à l'intérieur du combo, pas avec une réponse",
+          "rules": "Ajouter un outil qui bat le problème laisse le problème intact et dépendant du fait qu'on pioche l'outil. Modifier une des pièces pour que la boucle ne se referme pas est l'intervention la plus petite et la plus fiable.",
+          "flavor": "Sur Felidar Guardian et Saheeli Rai : « La clé est d'empêcher le combo de tourner à l'infini… Il est vrai que D met une réponse dans l'environnement, mais ce n'est pas aussi efficace que de traiter le problème dans le combo lui-même. »"
+        },
+        {
+          "title": "Jugez un verrou au nombre de gens qui peuvent l'ouvrir",
+          "rules": "Le danger d'une chose qui bloque le jeu n'est pas le blocage, c'est la sortie. Comptez qui peut l'enlever une fois posée : la pire version est celle à laquelle la plupart ne peuvent tout simplement pas répondre.",
+          "flavor": "Un enchantement empêchant toute créature d'attaquer est le plus problématique des cinq, car il « bloque un élément clé du jeu… avec un composant que seules deux des cinq couleurs peuvent détruire une fois en jeu »."
+        },
+        {
+          "title": "Le plafond sur un axe partagé protège l'identité, pas l'équilibre",
+          "rules": "Quand deux catégories savent faire la même chose, la limite imposée à l'une ne porte pas sur la puissance. Elle porte sur le fait d'empêcher que les deux produisent des résultats indiscernables.",
+          "flavor": "Pourquoi un éphémère rouge à huit blessures pour quatre manas est faux : « nous limitons les blessures que le rouge peut infliger aux créatures pour ne pas faire de sorts rouges qui ressemblent à de la destruction noire »."
+        },
+        {
+          "title": "Figez le nombre pour retirer du texte, pas pour changer la puissance",
+          "rules": "Remplacer une variable par une valeur fixe ressemble à une décision d'équilibrage et n'en est souvent pas une. Le gain, c'est qu'une clause entière disparaît et que la chose devient lisible d'un coup d'œil.",
+          "flavor": "Des cinq changements proposés, le bon est de figer la variable : « Passer à un nombre fixe éliminerait beaucoup de texte de règles et rendrait la carte plus facile à traiter. »"
+        },
+        {
+          "title": "Montez l'effet d'un palier pour limiter la fréquence de la boucle",
+          "rules": "Une chose capable de s'auto-alimenter n'a pas besoin d'être interdite ; elle a besoin d'arriver moins souvent. La placer un cran plus haut change le nombre d'exemplaires, donc si la boucle est une stratégie ou un plaisir occasionnel.",
+          "flavor": "Quel effet n'a plus sa place en commune ? « Nous avons déplacé l'effet de Gravedigger en inhabituelle pour réduire la création de boucles. » Les quatre autres effets candidats vont toujours très bien en commune."
+        },
+        {
+          "title": "Une règle adoptée pour un motif peut retirer en silence un terrain de conception",
+          "rules": "Des règles faites pour résoudre un problème sans rapport retirent des options sans que personne ne le remarque. Vérifiez ce que vos propres conventions ont fermé : une partie fonctionnait autrefois et a cessé sans bruit.",
+          "flavor": "Les cartes peuvent se soucier des sous-types, supertypes, coût converti, force et endurance. Mais comme les cartes de même nom sont traitées identiquement et que les rééditions existent sous divers symboles, « le Magic bordure noire ne peut plus s'en soucier »."
+        },
+        {
+          "title": "Accordez la mécanique de retour à la façon dont la faction joue déjà",
+          "rules": "Réintroduire une chose est d'abord une question d'adéquation, ensuite de qualité. Demandez ce que le destinataire fait déjà chaque partie, et choisissez ce qui s'y compose, pas ce qui est simplement bon.",
+          "flavor": "Quelle mécanique convient le mieux aux Simic ? La guilde améliore les créatures, souvent avec des marqueurs +1/+1 : la prolifération a la meilleure synergie. « L'entrelacement et le rebond sont trop tournés vers les sorts. »"
+        },
+        {
+          "title": "La valeur première de la contrainte est la diversité de jeu, pas la variété de contenu",
+          "rules": "Un système de restrictions se justifie de deux façons : il rend possibles plus de choses distinguables, et il oblige ceux qui l'emploient à choisir. La seconde est celle qui compte, et c'est celle qu'on oublie.",
+          "flavor": "« La fonction la plus importante de la roue des couleurs est d'assurer que les joueurs doivent choisir quelles cartes inclure. Cela mène à la diversité des decks et du jeu. Elle permet aussi des cartes plus distinctes, mais c'est moins important. »"
+        },
+        {
+          "title": "Quand toutes les explications évidentes sont fausses, la vraie contrainte est ailleurs",
+          "rules": "Une règle que les gens n'arrivent pas à justifier a d'ordinaire une raison que personne ne devine, car les réponses plausibles portent sur la chose elle-même et la vraie porte sur son effet sur l'entourage.",
+          "flavor": "Pourquoi si peu de communes coûteuses ? Ni l'arithmétique, ni la difficulté de conception, ni la complexité pour débutants, ni le type de carte. « Le problème, c'est qu'il est presque impossible de faire des effets si coûteux sans qu'ils pèsent trop pour la commune. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Faça a escolha, parte 2",
+      "dek": "A segunda metade do gabarito do teste de múltipla escolha da Great Designer Search 3 — cada resposta é um pequeno pedaço autocontido de raciocínio de design.",
+      "overview": "Setenta e cinco perguntas, e as explicações são o ponto. Por que rituais nunca são empurrados para o Standard, por que uma mágica vermelha de oito de dano está errada, por que um número fixo vence um X, e para que serve de fato a roda de cores.",
+      "takeaway": "A afirmação mais clara do lote é sobre a roda de cores: a função mais importante dela é obrigar os jogadores a escolher o que incluir, e a diversidade de jogo que isso produz importa mais que a variedade de cartas que ela viabiliza.",
+      "lessons": [
+        {
+          "title": "A tolerância à variância decorre daquilo que a pessoa veio buscar",
+          "rules": "Quanta aleatoriedade alguém aceita não é traço de personalidade, é consequência do objetivo. Quem está ali para ter a própria habilidade recompensada é a quem isso custa, porque a aleatoriedade é justamente o que dilui o sinal.",
+          "flavor": "Timmy e Tammy gostam de variância alta. Johnny e Jenny aceitam, já que fazem coisas fora do comum de qualquer jeito. Novatos gostam de vencer de vez em quando. “Spike é o menos feliz com variância porque quer que a habilidade dele seja recompensada.”"
+        },
+        {
+          "title": "Flexibilidade se valoriza conforme o conjunto encolhe",
+          "rules": "Numa seleção restrita, o que responde a muitas situações vence o que responde melhor a uma. Excelência estreita precisa de um deck construído em volta; suficiência universal não precisa de nada.",
+          "flavor": "Qual é a mais forte no Limitado? “Respostas universais, sobretudo relativamente baratas, são muito poderosas no Limitado, o que faz de Pacifism a mais forte do grupo.”"
+        },
+        {
+          "title": "O fracasso repetido aposenta uma classe inteira da consideração",
+          "rules": "Algumas categorias acumulam histórico ruim o bastante para deixarem de ser avaliadas pelo mérito do caso individual. Continuam permitidas e deixam de ser empurradas, e vale dizer essa distinção em voz alta.",
+          "flavor": "“Vez após vez nos queimamos com os ‘rituais', tanto que evitamos empurrá-los para o Standard.” Compra de cartas, contramágicas, dano direto flexível e destruição em massa de criaturas continuam sendo empurrados."
+        },
+        {
+          "title": "Conserte o laço dentro do combo, não com uma resposta",
+          "rules": "Acrescentar uma ferramenta que vence o problema deixa o problema intacto e dependente de as pessoas comprarem a ferramenta. Mudar uma das peças para que o laço não feche é a intervenção menor e mais confiável.",
+          "flavor": "Sobre Felidar Guardian e Saheeli Rai: “A chave é impedir que o combo fique infinito… É verdade que D põe uma resposta no ambiente, mas isso não é tão eficiente quanto tratar o problema dentro do próprio combo.”"
+        },
+        {
+          "title": "Julgue uma tranca por quantas pessoas conseguem abri-la",
+          "rules": "O perigo de algo que trava o jogo não é a trava, é a saída. Conte quem consegue removê-la depois de posta, e a pior versão é aquela que a maioria simplesmente não consegue responder.",
+          "flavor": "Um encantamento que impede todas as criaturas de atacar é o mais problemático dos cinco, porque “trava um elemento-chave do jogo… com um componente que só duas das cinco cores conseguem destruir depois de ele estar em campo”."
+        },
+        {
+          "title": "O teto num eixo compartilhado protege a identidade, não o equilíbrio",
+          "rules": "Quando duas categorias conseguem fazer a mesma coisa, o limite de até onde uma pode ir não é sobre nível de poder. É sobre impedir que as duas produzam resultados que ninguém consegue distinguir.",
+          "flavor": "Por que uma instantânea vermelha de oito de dano por quatro manas está errada: “viemos limitando quanto dano o vermelho pode causar a criaturas para não fazer mágicas vermelhas que pareçam destruição preta”."
+        },
+        {
+          "title": "Trave o número para tirar texto, não para mudar o poder",
+          "rules": "Trocar uma variável por um valor fixo parece decisão de equilíbrio e muitas vezes não é. O ganho é que uma cláusula inteira some e a coisa fica legível num relance.",
+          "flavor": "Das cinco mudanças propostas, a certa é fixar a variável: “Mudar o número para um número travado eliminaria um monte de texto de regras e deixaria a carta mais fácil de processar.”"
+        },
+        {
+          "title": "Suba o efeito um nível para limitar a frequência do laço",
+          "rules": "Algo capaz de se autoalimentar não precisa ser banido; precisa acontecer menos. Colocá-lo um nível acima muda quantas cópias aparecem, e isso muda se o laço é uma estratégia ou um prazer ocasional.",
+          "flavor": "Qual efeito já não cabe na comum? “Movemos o efeito do Gravedigger para incomum para reduzir a criação de laços.” Os outros quatro efeitos candidatos continuam bem na comum."
+        },
+        {
+          "title": "Uma política adotada por um motivo pode aposentar em silêncio uma superfície de design",
+          "rules": "Regras feitas para resolver um problema sem relação tiram opções da mesa sem ninguém notar. Verifique o que as suas próprias convenções fecharam, porque parte disso funcionava e parou caladamente.",
+          "flavor": "Cartas podem se importar com subtipos, supertipos, custo convertido, poder e resistência. Mas como cartas de mesmo nome são tratadas igualmente e há reimpressões com vários símbolos, “o Magic de borda preta não pode mais se importar com símbolos de coleção”."
+        },
+        {
+          "title": "Case a mecânica de retorno com o jeito que a facção já joga",
+          "rules": "Reintroduzir algo é primeiro uma questão de encaixe, depois de qualidade. Pergunte o que o destinatário já faz toda partida, e escolha aquilo que se compõe com isso, não aquilo que é apenas bom.",
+          "flavor": "Qual mecânica combina melhor com Simic? A guilda melhora criaturas, muitas vezes com contadores +1/+1, então proliferar tem a melhor sinergia. “Entrelaçar e ricochetear são focados demais em mágicas.”"
+        },
+        {
+          "title": "O valor principal da restrição é diversidade de jogo, não variedade de conteúdo",
+          "rules": "Um sistema de restrições se justifica de dois jeitos: torna possíveis mais coisas distinguíveis, e obriga quem o usa a escolher. O segundo é o que importa, e é o que as pessoas esquecem.",
+          "flavor": "“A função mais importante da roda de cores é garantir que os jogadores tenham de fazer escolhas sobre quais cartas incluir. Isso leva à diversidade de decks e de jogo. Ela também permite cartas mais distintas, mas isso não é tão importante.”"
+        },
+        {
+          "title": "Quando todas as explicações óbvias estão erradas, a restrição real está em outro lugar",
+          "rules": "Uma regra que as pessoas não conseguem justificar costuma ter um motivo que ninguém adivinha, porque as respostas plausíveis falam da coisa em si e a verdadeira fala do que ela faz com o entorno.",
+          "flavor": "Por que tão poucas comuns caras? Não é a aritmética, nem a dificuldade de projetar, nem a complexidade para iniciantes, nem o tipo de carta. “O problema é que é quase impossível fazer efeitos que custem tanto e não sejam impactantes demais para a comum.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "做出选择，下",
+      "dek": "「伟大设计师搜寻3」选择题答案解析的后半部分——每一条解析都是一小块自成一体的设计推理。",
+      "overview": "七十五道题，而重点在于那些解释。为什么仪式类效应永远不会被推向标准赛、为什么一张八点伤害的红色咒语是错的、为什么固定数字胜过X，以及色轮到底是干什么用的。",
+      "takeaway": "这一批里最清楚的一条陈述是关于色轮的：它最重要的功能，是迫使玩家在「放什么进牌组」上做出选择；而由此产生的对局多样性，比它所使得可能的卡牌多样性更重要。",
+      "lessons": [
+        {
+          "title": "对随机性的容忍度，取决于一个人是为什么而来的",
+          "rules": "一个人能接受多少随机，不是一种性格特质，而是他目标的一个推论。那个「来这里是为了让自己的技术得到回报」的人，正是要为随机付账的那个人——因为随机恰恰是稀释掉信号的东西。",
+          "flavor": "提米和塔米享受高随机。强尼和珍妮接受它，反正他们本来就在做些不走寻常路的事。新玩家喜欢自己偶尔也能赢。「斯派克是对随机最不满的那个，因为他想要自己的技术得到回报。」"
+        },
+        {
+          "title": "牌池越小，灵活性越值钱",
+          "rules": "在一个受限的选取里，「能应对很多情形」的东西，胜过「把某一种情形应对得更好」的东西。狭窄的卓越需要一整副围着它建的牌；而普遍的够用，什么都不需要。",
+          "flavor": "在限制赛里哪张最强？「万用型的解答，尤其是相对便宜的那些，在限制赛里非常强——这让《和平主义》成了这几张里最强的限制赛牌。」"
+        },
+        {
+          "title": "反复的失败，会把一整类东西从考虑范围里退役掉",
+          "rules": "有些类别积累了足够多的黑历史，以至于人们不再按「这一个具体案例的优劣」来评估它了。它仍然被允许，但不再被推动——而这个区别，值得说出口。",
+          "flavor": "「一次又一次，我们被『仪式』类效应烧到过，烧到我们避免为标准赛去推动它们。」而抓牌、反击、灵活的直接伤害和群体解生物，都仍然是会被推动的效应。"
+        },
+        {
+          "title": "在组合内部修好那个循环，而不是靠一张解答牌",
+          "rules": "加一件「能打败这个问题」的工具，会让问题原封不动地留着，并且依赖人们抽到那件工具。改动组合中的某一块、让这个循环闭合不了，才是更小、也更可靠的干预。",
+          "flavor": "关于《菲莉达守护兽》和《萨希丽·莱》：「解决问题的关键，是阻止这个组合变成无限……选项D确实往环境里放了一张解答，但那不如『在组合内部处理这个问题』来得高效。」"
+        },
+        {
+          "title": "评判一把锁，要看有多少方能把它打开",
+          "rules": "一样「让游戏停摆」的东西，危险之处不在于停摆，而在于出口。数一数它一旦落地之后有谁能移除它；最糟的那个版本，是大多数人根本无法回应的那一个。",
+          "flavor": "一个「所有生物都不能攻击」的结界，是五个候选里最成问题的那个，因为它「用一个『落地之后五个颜色里只有两个能摧毁』的部件，关掉了游戏的一个关键环节」。"
+        },
+        {
+          "title": "在一根共享的轴上设上限，保护的是身份，而不是平衡",
+          "rules": "当两个类别都能做同一件事时，「其中一个最多能走多远」这条界线，说的并不是强度。它说的是：别让这两者产出谁也分不出来的结果。",
+          "flavor": "为什么一张四费、八点伤害的红色瞬间是错的：「我们一直在限制红色能对生物造成多少伤害，好让我们不要做出感觉像黑色解生物咒语的红色咒语。」不是费用，不是时机——是那份模糊。"
+        },
+        {
+          "title": "把数字锁死，是为了去掉文字，不是为了改动强度",
+          "rules": "把一个变量换成固定值，看起来像是个平衡决定，而常常并不是。真正的收益是：一整个从句消失了，而这样东西变得一眼就能读懂。",
+          "flavor": "五个改动方案里，正确的那个是把变量固定下来：「把这个数字改成一个锁死的数字，会去掉一大堆规则文字，让这张牌更容易被处理。」"
+        },
+        {
+          "title": "把这个效应往上挪一档，来给循环限速",
+          "rules": "一样能自我喂食的东西，不需要被禁掉；它需要的是少发生一些。把它放到高一档上，会改变出现的份数，而那就改变了这个循环究竟是一套策略，还是一份偶尔的乐趣。",
+          "flavor": "哪个效应已经不适合放在普通了？「我们把《掘墓人》那个效应挪到了非普通，好减少循环的产生。」其余四个候选效应放在普通都还没问题。"
+        },
+        {
+          "title": "一条出于某个理由采纳的政策，可能悄悄地把一整块设计面退役掉",
+          "rules": "为了解决某个不相干的问题而定下的规则，会在没人注意的情况下把一些选项从桌上拿走。检查一下你自己的那些惯例都关掉了什么——其中有一部分曾经是能用的，然后无声无息地不能用了。",
+          "flavor": "牌可以关心亚类别、超类别、总法术力费用、力量和防御力。但因为同名的牌一律同等对待、而重印意味着同一张牌带着各种不同的系列符号存在，「黑框万智牌在机制上已经不能再关心系列符号了」。"
+        },
+        {
+          "title": "让回归的异能去贴合这个阵营本来就在怎么打",
+          "rules": "把一样东西重新引入，首先是个「合不合」的问题，其次才是「好不好」的问题。问一问：接收方每一局本来就在做什么？然后挑那个能和它复利叠加的，而不是那个仅仅很好的。",
+          "flavor": "哪个异能最适合析米克？这个公会擅长强化生物，常常靠+1/+1指示物，所以「增殖」的协同最好。「缠结和回响太偏咒语。冲击太偏攻击，而不死则更像果园鬼怪而不是析米克。」"
+        },
+        {
+          "title": "这份约束的首要价值是对局的多样，而不是内容的多样",
+          "rules": "一套限制体系为自己辩护有两条路：它让更多可区分的东西成为可能，以及它迫使使用它的人做出选择。第二条才是要紧的那条，而它也正是人们会忘掉的那条。",
+          "flavor": "「色轮最重要的功能，是确保玩家必须就『放哪些牌进来』做出选择。这带来了套牌与对局两方面的多样性。它确实也让我们能设计出更有区分度的牌，但那没有那么重要。」"
+        },
+        {
+          "title": "当所有显而易见的解释都不对时，真正的约束在别处",
+          "rules": "一条人们说不清理由的规则，其理由通常是没人猜得到的那个——因为那些看似合理的答案讲的都是这样东西本身，而真正的答案讲的是它对周围造成了什么。",
+          "flavor": "为什么昂贵的普通牌这么少？不是算术难，不是设计难，不是对新手太复杂，也不是牌张类别的问题。「问题在于：几乎不可能做出那么贵、同时又不会对普通档来说影响力过大的效应。」"
+        }
+      ]
+    }
+  }
+}
