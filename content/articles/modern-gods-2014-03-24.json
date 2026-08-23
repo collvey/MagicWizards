@@ -1,0 +1,320 @@
+{
+  "id": "modern-gods-2014-03-24",
+  "slug": "modern-gods-2014-03-24",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2014-03-24",
+  "series": null,
+  "tags": ["theros", "gods", "devotion", "iteration", "development"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/modern-gods-2014-03-24",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-25T10:45:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Modern Gods",
+      "dek": "Twenty versions of Heliod, from the first design file to print.",
+      "overview": "Rosewater pulls every recorded version of one card out of the database and walks through what changed at each step — including a brand-new game zone that didn't survive.",
+      "takeaway": "\"I felt that the one area that still needed work was the Gods… we hadn't quite found the right execution yet.\"",
+      "lessons": [
+        {
+          "title": "Name the unsolved part in the handoff, and say you're still working on it",
+          "rules": "Handing over a project tempts you to present it as finished, because the parts that don't work reflect on you. Do the opposite: write down which piece isn't right yet, say so plainly, and state that you intend to keep at it. The receiving team already suspects, and hearing it from you converts a hidden problem into a shared one with someone still assigned to it.",
+          "flavor": "“It's at this point that the file got handed from design to development. In my write-up for the design handoff, I said that while I was happy with the set as a whole, I felt that the one area that still needed work was the Gods. I knew they were going to be a focal point for the set and I explained that we hadn't quite found the right execution yet but that I was going to continue to work to find a solution. In his final pass on the design file, Aaron had made the same note.”"
+        },
+        {
+          "title": "State the downstream requirement, and the same mechanism gets re-expressed to satisfy it",
+          "rules": "Two constructions can produce identical behaviour and differ entirely in what they let people do afterwards. If you need a property that isn't functional — a value printed on the face, eligibility for some other use — say so, and let whoever holds the file rewrite the same logic from the other side. It costs nothing and it isn't a matter of taste.",
+          "flavor": "“It was at this point that I made mention to Erik that we hoped the Gods would be able to serve as commanders and, in general, we wanted them to have power and toughness printed on the card, as we really were interested in playing up their role as enchantment creatures. Erik happily obliged as he and his team had come to the same conclusion and made it such that lack of devotion turned them into noncreatures.”"
+        },
+        {
+          "title": "Fix the slot and search the content",
+          "rules": "When one part of a design keeps failing, don't redesign the whole object. Hold its shape constant — this many abilities, of these kinds, at this cost — and treat the failing one as a vacancy to be filled by candidates. You can then run a dozen attempts without renegotiating anything else, and the accumulated work on the rest of the object stays banked.",
+          "flavor": "Heliod's global static ability across twenty versions: a Glorious Anthem, then a Rule of Law, then an Eye for an Eye, then a Propaganda, then a Kismet, then tap-unless-you-pay, then a token trigger, then a toughness pump, then first strike, then vigilance. The slot never moved."
+        },
+        {
+          "title": "When the text is too long, change the mechanism rather than editing the sentence",
+          "rules": "The instinct with an overlong description is to compress the wording, which produces something shorter and harder to read. Go back a step and look for a different mechanism that lands in nearly the same place — not the same effect stated tersely, but a neighbouring effect that happens to be simple. Accept the small behavioural difference; it buys a great deal of clarity.",
+          "flavor": "Version 11 made every opposing permanent enter tapped, kept creatures from untapping, and let the opponent pay per creature during upkeep. Version 12: “Each creature your opponents control has 'At the beginning of your upkeep, tap this creature unless you pay 1.'” — “I believe this change was addressing the problem that the rules text was getting lengthy… It's a little different, but it captures the same basic effect with a lot fewer words.”"
+        },
+        {
+          "title": "Keep the behaviour the extreme prototype demonstrated, and drop the machinery it needed",
+          "rules": "A wild version exists to show you what an experience feels like, not to ship. When the next team removes its infrastructure, that isn't a rejection — it's the correct reading. Separate the two before they do: write down which sensation the prototype produced, and treat everything built to enable it as provisional from the moment you make it.",
+          "flavor": "Version 7 introduced Nyx, an entirely new game zone the Gods lived in and returned to. “The first thing Erik and team did was to get rid of the Nyx zone. They liked the general sense that the God had an enchantment effect and, with work, most likely using devotion, could become a creature, but they felt making a brand-new zone to pull this off was unnecessary.” The final card keeps exactly that sense."
+        },
+        {
+          "title": "Two independent ways to defuse a repeatable search: cut the frequency, narrow the pool",
+          "rules": "Anything that fetches the best available option is priced against the best thing you will ever print, and applying that repeatedly compounds it. There are two separate dials. Make it happen once instead of every cycle, and restrict what it can reach to a subset you're comfortable being maximised. Turning both is usually what makes the effect printable.",
+          "flavor": "“Having the enchantment searching trigger every turn ended up being too powerful. To fix this, we did two things. First, we made the search a one-time, enter-the-battlefield trigger. Second, we limited the search to Auras. Why Auras? At this point, we had realized that we were putting a lot of focus on Auras and it felt like a safer subset to search for.”"
+        },
+        {
+          "title": "When your own team's output is too tame, hand the problem to a group with no stake in it",
+          "rules": "A team that has been living with a problem converges on cautious answers, because every wild option collides with something they've already committed to. Take the problem to people carrying none of that history, and set the brief explicitly at the far end — say you want something out of the box, not something workable. You can retreat from too far; you cannot advance from too tame.",
+          "flavor": "“With the Theros file out of my hands, I was able to focus on the one area I hadn't quite cracked yet. One Tuesday afternoon, I took my design team… the collected groups of designers that work in R&D… and gave us the task of coming up with something out of the box. I wanted flavorful and 'out there.' The design handoff had been too tame. I wanted to try something really crazy. And my team delivered.”"
+        },
+        {
+          "title": "Add the protection that prevents the humiliating outcome, not only the unbalanced one",
+          "rules": "Some interactions aren't a balance problem at all — they're a dignity problem. A thing built up as momentous, dispatched by something trivial, produces a joke that everyone will tell and that becomes the thing itself. Protect against that specifically, even where the numbers say it doesn't matter, because the story is what people will remember.",
+          "flavor": "The Gods were made indestructible “to keep players from having to deal with the following: 'Hello, I am Heliod, lord of the gods!' 'Naturalize.'”"
+        },
+        {
+          "title": "Mark placeholder state visibly, so nobody mistakes it for a decision",
+          "rules": "Work in progress travels through many hands, and anything written plainly gets read as settled. Adopt a visible convention for the parts that are not yet decided — brackets, a marker, anything consistent — and drop it the moment the real answer arrives. Then anyone picking the file up can see at a glance which choices are theirs to make.",
+          "flavor": "Names in the file ran Helo, then Heliod, then Aelion, God of the Sun, then Heliod, God of the Sun. And on the tokens: “design and development will name tokens something that sounds good and the creative team will later figure out what creature type they actually are.” The type appeared in brackets until version 18 — “you can tell because it is no longer in brackets, which means 'not yet decided.'”"
+        },
+        {
+          "title": "The threshold is found by oscillating around it, not derived",
+          "rules": "For a number that gates behaviour, calculation gets you a plausible starting value and no more, because what you're setting is how often a situation should arise. Move it up, play, move it down, play, and move it back. The repetition is not indecision — the value you converge on after several passes is the only kind of evidence available.",
+          "flavor": "The devotion threshold ran six, then five, then back to six, then five again. “I should point out here that the best way to figure out what the right number is supposed to be is to keep shifting it around during playtests to get a feel for what works best.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Dioses modernos",
+      "dek": "Veinte versiones de Heliod, del primer archivo de diseño a la imprenta.",
+      "overview": "Rosewater saca de la base de datos todas las versiones registradas de una carta y recorre qué cambió en cada paso, incluida una zona de juego totalmente nueva que no sobrevivió.",
+      "takeaway": "«Sentía que la única área que aún necesitaba trabajo eran los Dioses… todavía no habíamos dado con la ejecución correcta.»",
+      "lessons": [
+        {
+          "title": "Nombra la parte sin resolver en la entrega, y di que sigues trabajando en ella",
+          "rules": "Entregar un proyecto tienta a presentarlo como terminado, porque lo que no funciona te retrata. Haz lo contrario: escribe qué pieza aún no está bien, dilo con claridad y afirma que piensas seguir con ello. El equipo receptor ya lo sospecha, y oírlo de ti convierte un problema oculto en uno compartido con alguien todavía asignado a él.",
+          "flavor": "«Es en este punto donde el archivo pasó de diseño a desarrollo. En mi informe de entrega dije que, aunque estaba contento con la colección en conjunto, sentía que la única área que aún necesitaba trabajo eran los Dioses. Sabía que iban a ser un punto focal de la colección y expliqué que todavía no habíamos dado con la ejecución correcta, pero que yo iba a seguir buscando una solución. En su última pasada por el archivo, Aaron había hecho la misma anotación.»"
+        },
+        {
+          "title": "Enuncia el requisito de aguas abajo, y el mismo mecanismo se reexpresará para satisfacerlo",
+          "rules": "Dos construcciones pueden producir un comportamiento idéntico y diferir por completo en lo que permiten hacer después. Si necesitas una propiedad que no es funcional —un valor impreso en la cara, la elegibilidad para otro uso—, dilo, y deja que quien tenga el archivo reescriba la misma lógica desde el otro lado. No cuesta nada y no es cuestión de gustos.",
+          "flavor": "«Fue entonces cuando le comenté a Erik que esperábamos que los Dioses pudieran servir como comandantes y, en general, que queríamos que llevaran fuerza y resistencia impresas en la carta, porque nos interesaba mucho realzar su papel como criaturas encantamiento. Erik accedió encantado, ya que él y su equipo habían llegado a la misma conclusión, e hizo que fuera la falta de devoción lo que los convirtiera en no criaturas.»"
+        },
+        {
+          "title": "Fija el hueco y busca el contenido",
+          "rules": "Cuando una parte de un diseño falla una y otra vez, no rediseñes el objeto entero. Mantén su forma constante —tantas habilidades, de estos tipos, a este coste— y trata la que falla como una vacante que llenar con candidatos. Así puedes hacer una docena de intentos sin renegociar nada más, y el trabajo acumulado en el resto del objeto queda a salvo.",
+          "flavor": "La habilidad estática global de Heliod a lo largo de veinte versiones: un Glorious Anthem, luego un Rule of Law, luego un Eye for an Eye, luego un Propaganda, luego un Kismet, luego girar-salvo-que-pagues, luego un disparo de fichas, luego un potenciador de resistencia, luego dañar primero, luego vigilancia. El hueco no se movió nunca."
+        },
+        {
+          "title": "Cuando el texto es demasiado largo, cambia el mecanismo en vez de editar la frase",
+          "rules": "El instinto ante una descripción larguísima es comprimir la redacción, lo que produce algo más corto y más difícil de leer. Retrocede un paso y busca un mecanismo distinto que aterrice casi en el mismo sitio: no el mismo efecto dicho con concisión, sino un efecto vecino que resulta ser simple. Acepta la pequeña diferencia de comportamiento; compra muchísima claridad.",
+          "flavor": "La versión 11 hacía que todos los permanentes rivales entraran girados, impedía que las criaturas se enderezaran y permitía pagar por criatura en el mantenimiento. La versión 12: «Cada criatura que controlen tus oponentes tiene «Al comienzo de tu mantenimiento, gira esta criatura a menos que pagues 1».» — «Creo que este cambio abordaba el problema de que el texto de reglas se estaba alargando… Es un poco distinto, pero capta el mismo efecto básico con muchas menos palabras.»"
+        },
+        {
+          "title": "Conserva el comportamiento que demostró el prototipo extremo, y descarta la maquinaria que necesitaba",
+          "rules": "Una versión salvaje existe para enseñarte cómo se siente una experiencia, no para publicarse. Cuando el siguiente equipo retira su infraestructura, eso no es un rechazo: es la lectura correcta. Separa ambas cosas antes que ellos: anota qué sensación producía el prototipo, y trata todo lo construido para habilitarla como provisional desde el momento en que lo haces.",
+          "flavor": "La versión 7 introdujo Nyx, una zona de juego totalmente nueva donde vivían los Dioses y a la que regresaban. «Lo primero que Erik y su equipo hicieron fue deshacerse de la zona Nyx. Les gustaba la sensación general de que el Dios tuviera un efecto de encantamiento y que, con trabajo, seguramente mediante la devoción, pudiera convertirse en criatura; pero sentían que crear una zona nueva para lograrlo era innecesario.» La carta final conserva exactamente esa sensación."
+        },
+        {
+          "title": "Dos formas independientes de desactivar una búsqueda repetible: baja la frecuencia, estrecha el conjunto",
+          "rules": "Todo lo que va a buscar la mejor opción disponible se tarifica contra lo mejor que llegues a imprimir jamás, y aplicarlo repetidamente lo compone. Hay dos diales distintos. Haz que ocurra una vez en lugar de cada ciclo, y restringe lo que puede alcanzar a un subconjunto con cuya maximización estés cómodo. Girar ambos suele ser lo que hace imprimible el efecto.",
+          "flavor": "«Tener el disparo de búsqueda de encantamientos cada turno acabó siendo demasiado potente. Para arreglarlo hicimos dos cosas. Primero, convertimos la búsqueda en un disparo único al entrar en el campo de batalla. Segundo, limitamos la búsqueda a Auras. ¿Por qué Auras? A esas alturas nos habíamos dado cuenta de que poníamos mucho foco en las Auras y parecía un subconjunto más seguro que buscar.»"
+        },
+        {
+          "title": "Cuando la producción de tu propio equipo es demasiado tímida, dale el problema a un grupo sin nada invertido en él",
+          "rules": "Un equipo que lleva tiempo conviviendo con un problema converge hacia respuestas cautelosas, porque cada opción salvaje choca con algo que ya ha comprometido. Lleva el problema a gente sin nada de esa historia, y sitúa el encargo explícitamente en el extremo: di que quieres algo fuera de lo común, no algo viable. De demasiado lejos se puede retroceder; de demasiado tímido no se puede avanzar.",
+          "flavor": "«Con el archivo de Theros fuera de mis manos, pude centrarme en la única área que no había logrado resolver. Un martes por la tarde reuní a mi equipo de diseño… los grupos de diseñadores que trabajan en I+D… y nos puse la tarea de idear algo fuera de lo común. Quería algo con sabor y «de locos». La entrega de diseño había sido demasiado tímida. Quería probar algo realmente descabellado. Y mi equipo cumplió.»"
+        },
+        {
+          "title": "Añade la protección que evita el desenlace humillante, no solo el desequilibrado",
+          "rules": "Algunas interacciones no son un problema de equilibrio en absoluto: son un problema de dignidad. Una cosa presentada como trascendental, liquidada por algo trivial, produce un chiste que todo el mundo contará y que acaba siendo la cosa misma. Protege contra eso en concreto, aunque los números digan que da igual, porque lo que la gente recordará es la anécdota.",
+          "flavor": "Los Dioses se hicieron indestructibles «para evitar que los jugadores tuvieran que lidiar con lo siguiente: «¡Hola, soy Heliod, señor de los dioses!» «Naturalize.»»"
+        },
+        {
+          "title": "Marca visiblemente lo provisional, para que nadie lo confunda con una decisión",
+          "rules": "El trabajo en curso pasa por muchas manos, y todo lo escrito con normalidad se lee como cerrado. Adopta una convención visible para las partes aún no decididas —corchetes, una marca, algo consistente— y quítala en cuanto llegue la respuesta real. Así, quien coja el archivo verá de un vistazo qué elecciones le corresponden.",
+          "flavor": "Los nombres en el archivo fueron Helo, luego Heliod, luego Aelion, Dios del Sol, y luego Heliod, Dios del Sol. Y sobre las fichas: «diseño y desarrollo pondrán a las fichas un nombre que suene bien, y el equipo creativo averiguará más tarde de qué tipo de criatura son en realidad.» El tipo apareció entre corchetes hasta la versión 18: «se nota porque ya no está entre corchetes, lo que significa «aún sin decidir».»"
+        },
+        {
+          "title": "El umbral se encuentra oscilando en torno a él, no se deduce",
+          "rules": "Para un número que condiciona una conducta, el cálculo te da un valor de partida plausible y nada más, porque lo que estás fijando es con qué frecuencia debe darse una situación. Súbelo, juega, bájalo, juega, y vuelve a subirlo. La repetición no es indecisión: el valor al que convergen varias pasadas es la única clase de evidencia disponible.",
+          "flavor": "El umbral de devoción fue seis, luego cinco, luego otra vez seis, luego cinco de nuevo. «Debo señalar aquí que la mejor forma de averiguar cuál se supone que es el número correcto es seguir moviéndolo durante las pruebas para hacerse una idea de qué funciona mejor.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Dieux modernes",
+      "dek": "Vingt versions d'Héliode, du premier fichier de conception à l'impression.",
+      "overview": "Rosewater sort de la base toutes les versions enregistrées d'une carte et détaille ce qui a changé à chaque étape — y compris une zone de jeu entièrement nouvelle qui n'a pas survécu.",
+      "takeaway": "« Le seul domaine qui demandait encore du travail, c'étaient les Dieux… nous n'avions pas encore trouvé la bonne exécution. »",
+      "lessons": [
+        {
+          "title": "Nommez la partie non résolue dans la passation, et dites que vous y travaillez encore",
+          "rules": "Transmettre un projet incite à le présenter comme achevé, car ce qui ne marche pas rejaillit sur vous. Faites l'inverse : écrivez quelle pièce n'est pas encore juste, dites-le franchement, et annoncez que vous comptez continuer. L'équipe qui reçoit s'en doute déjà, et l'entendre de vous transforme un problème caché en problème partagé, avec quelqu'un encore affecté dessus.",
+          "flavor": "« C'est à ce moment que le fichier est passé de la conception au développement. Dans ma note de passation, j'ai dit que, tout en étant content de l'édition dans son ensemble, je jugeais que le seul domaine demandant encore du travail, c'étaient les Dieux. Je savais qu'ils seraient un point focal et j'ai expliqué que nous n'avions pas encore trouvé la bonne exécution, mais que j'allais continuer à chercher. Dans sa dernière passe, Aaron avait fait la même remarque. »"
+        },
+        {
+          "title": "Énoncez l'exigence en aval, et le même mécanisme sera réécrit pour la satisfaire",
+          "rules": "Deux constructions peuvent produire un comportement identique et différer totalement par ce qu'elles autorisent ensuite. S'il vous faut une propriété non fonctionnelle — une valeur imprimée sur la face, l'éligibilité à un autre usage — dites-le, et laissez celui qui tient le fichier réécrire la même logique par l'autre bout. Cela ne coûte rien et ce n'est pas affaire de goût.",
+          "flavor": "« C'est alors que j'ai signalé à Erik que nous espérions que les Dieux puissent servir de commandants et que, de façon générale, nous voulions une force et une endurance imprimées sur la carte, tenant à mettre en avant leur rôle de créatures-enchantements. Erik s'est volontiers exécuté, son équipe étant arrivée à la même conclusion, et a fait en sorte que ce soit l'absence de dévotion qui les rende non-créatures. »"
+        },
+        {
+          "title": "Fixez l'emplacement et cherchez le contenu",
+          "rules": "Quand une partie d'une conception échoue sans cesse, ne refaites pas l'objet entier. Maintenez sa forme constante — tant de capacités, de tels types, à tel coût — et traitez celle qui échoue comme un poste vacant à pourvoir par des candidats. Vous pouvez alors enchaîner une douzaine d'essais sans renégocier le reste, et le travail accumulé ailleurs reste acquis.",
+          "flavor": "La capacité statique globale d'Héliode au fil de vingt versions : un Glorious Anthem, puis un Rule of Law, puis un Eye for an Eye, puis un Propaganda, puis un Kismet, puis engager-sauf-si-vous-payez, puis un déclencheur à jetons, puis un bonus d'endurance, puis l'initiative, puis la vigilance. L'emplacement n'a jamais bougé."
+        },
+        {
+          "title": "Quand le texte est trop long, changez le mécanisme plutôt que de retoucher la phrase",
+          "rules": "L'instinct devant une description trop longue est d'en comprimer la formulation, ce qui donne quelque chose de plus court et de plus difficile à lire. Reculez d'un pas et cherchez un autre mécanisme atterrissant presque au même endroit — non pas le même effet dit brièvement, mais un effet voisin qui se trouve être simple. Acceptez la petite différence de comportement : elle achète beaucoup de clarté.",
+          "flavor": "La version 11 faisait arriver engagés tous les permanents adverses, empêchait les créatures de se dégager, et laissait l'adversaire payer par créature à l'entretien. La version 12 : « Chaque créature que contrôlent vos adversaires possède « Au début de votre entretien, engagez cette créature à moins que vous ne payiez 1 ». » — « Ce changement traitait le problème d'un texte de règles qui s'allongeait… C'est un peu différent, mais cela rend le même effet de base avec bien moins de mots. »"
+        },
+        {
+          "title": "Gardez le comportement démontré par le prototype extrême, et jetez la machinerie qu'il exigeait",
+          "rules": "Une version débridée existe pour vous montrer ce que produit une expérience, non pour être publiée. Quand l'équipe suivante en retire l'infrastructure, ce n'est pas un rejet — c'est la bonne lecture. Séparez les deux avant elle : notez quelle sensation le prototype produisait, et considérez tout ce qui a été bâti pour la permettre comme provisoire dès sa fabrication.",
+          "flavor": "La version 7 introduisait Nyx, une zone de jeu entièrement nouvelle où vivaient les Dieux et où ils revenaient. « La première chose qu'Erik et son équipe ont faite fut de supprimer la zone Nyx. Ils aimaient l'idée générale que le Dieu ait un effet d'enchantement et puisse, moyennant travail et sans doute via la dévotion, devenir une créature ; mais créer une zone inédite pour cela leur paraissait inutile. » La carte finale garde exactement cette impression."
+        },
+        {
+          "title": "Deux leviers indépendants pour désamorcer une recherche répétable : la fréquence et le vivier",
+          "rules": "Tout ce qui va chercher la meilleure option disponible se tarife contre le meilleur objet que vous imprimerez jamais, et le répéter compose l'effet. Il y a deux molettes distinctes. Faites que cela n'arrive qu'une fois au lieu de chaque cycle, et restreignez ce que cela peut atteindre à un sous-ensemble dont la maximisation ne vous gêne pas. Tourner les deux est d'ordinaire ce qui rend l'effet imprimable.",
+          "flavor": "« Déclencher la recherche d'enchantement à chaque tour s'est révélé trop puissant. Pour y remédier, nous avons fait deux choses. D'abord, nous avons transformé la recherche en un déclencheur unique à l'arrivée sur le champ de bataille. Ensuite, nous avons limité la recherche aux auras. Pourquoi les auras ? Nous avions compris que nous mettions beaucoup l'accent sur elles et cela semblait un sous-ensemble plus sûr. »"
+        },
+        {
+          "title": "Quand la production de votre équipe est trop sage, confiez le problème à un groupe qui n'y a rien investi",
+          "rules": "Une équipe qui vit depuis longtemps avec un problème converge vers des réponses prudentes, car chaque option débridée heurte un engagement déjà pris. Portez le problème à des gens sans cette histoire, et placez explicitement la commande à l'extrême : dites que vous voulez quelque chose d'inattendu, non quelque chose de viable. On peut reculer depuis trop loin ; on ne peut pas avancer depuis trop sage.",
+          "flavor": "« Le fichier Theros n'étant plus entre mes mains, j'ai pu me concentrer sur le seul point que je n'avais pas résolu. Un mardi après-midi, j'ai réuni mon équipe de conception… l'ensemble des concepteurs de la R&D… et nous ai donné pour tâche de trouver quelque chose de hors des sentiers. Je voulais du savoureux et du « délirant ». La passation avait été trop sage. Je voulais essayer quelque chose de vraiment fou. Et mon équipe a livré. »"
+        },
+        {
+          "title": "Ajoutez la protection qui empêche l'issue humiliante, pas seulement l'issue déséquilibrée",
+          "rules": "Certaines interactions ne posent aucun problème d'équilibre — elles posent un problème de dignité. Une chose présentée comme considérable, expédiée par une broutille, produit une blague que tout le monde racontera et qui finit par être la chose elle-même. Protégez contre cela précisément, même si les chiffres disent que c'est indifférent : c'est l'anecdote qu'on retiendra.",
+          "flavor": "Les Dieux ont été rendus indestructibles « pour éviter aux joueurs d'avoir à subir ceci : « Bonjour, je suis Héliode, seigneur des dieux ! » « Naturalize. » »"
+        },
+        {
+          "title": "Marquez visiblement ce qui est provisoire, pour que nul ne le prenne pour une décision",
+          "rules": "Un travail en cours passe par beaucoup de mains, et tout ce qui est écrit normalement se lit comme arrêté. Adoptez une convention visible pour ce qui n'est pas encore décidé — des crochets, un marqueur, n'importe quoi de constant — et retirez-la dès que la vraie réponse arrive. Qui reprend le fichier voit alors d'un coup d'œil quels choix lui reviennent.",
+          "flavor": "Les noms au fichier furent Helo, puis Heliod, puis Aelion, dieu du Soleil, puis Héliode, dieu du Soleil. Et sur les jetons : « la conception et le développement donnent aux jetons un nom qui sonne bien, et l'équipe créative déterminera plus tard de quel type de créature il s'agit vraiment. » Le type est resté entre crochets jusqu'à la version 18 — « on le voit parce qu'il n'est plus entre crochets, ce qui signifie « pas encore décidé ». »"
+        },
+        {
+          "title": "Le seuil se trouve en oscillant autour, il ne se déduit pas",
+          "rules": "Pour un nombre qui conditionne un comportement, le calcul vous donne une valeur de départ plausible et rien de plus, car ce que vous réglez, c'est la fréquence à laquelle une situation doit survenir. Montez-le, jouez, descendez-le, jouez, remontez-le. La répétition n'est pas de l'indécision : la valeur vers laquelle plusieurs passes convergent est la seule sorte de preuve disponible.",
+          "flavor": "Le seuil de dévotion est passé de six à cinq, puis de nouveau à six, puis encore à cinq. « Je signale ici que la meilleure façon de trouver le bon nombre est de continuer à le déplacer pendant les tests pour sentir ce qui marche le mieux. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Deuses modernos",
+      "dek": "Vinte versões de Heliod, do primeiro arquivo de design até a impressão.",
+      "overview": "Rosewater tira do banco de dados todas as versões registradas de uma carta e percorre o que mudou em cada passo — inclusive uma zona de jogo totalmente nova que não sobreviveu.",
+      "takeaway": "“Eu sentia que a única área que ainda precisava de trabalho eram os Deuses… ainda não tínhamos achado a execução certa.”",
+      "lessons": [
+        {
+          "title": "Nomeie a parte não resolvida na passagem de bastão, e diga que você ainda está nela",
+          "rules": "Entregar um projeto tenta você a apresentá-lo como pronto, porque o que não funciona respinga em você. Faça o contrário: escreva qual peça ainda não está certa, diga isso com clareza e afirme que pretende continuar. A equipe que recebe já desconfia, e ouvir de você converte um problema oculto em problema compartilhado, com alguém ainda designado para ele.",
+          "flavor": "“É neste ponto que o arquivo passou do design para o desenvolvimento. Na minha nota de entrega, eu disse que, embora estivesse contente com a coleção como um todo, sentia que a única área que ainda precisava de trabalho eram os Deuses. Eu sabia que seriam um ponto focal e expliquei que ainda não tínhamos achado a execução certa, mas que eu continuaria procurando uma solução. Na última passada dele pelo arquivo, Aaron fizera a mesma anotação.”"
+        },
+        {
+          "title": "Enuncie o requisito lá na ponta, e o mesmo mecanismo será reescrito para atendê-lo",
+          "rules": "Duas construções podem produzir comportamento idêntico e diferir completamente no que permitem depois. Se você precisa de uma propriedade que não é funcional — um valor impresso na face, elegibilidade para outro uso —, diga, e deixe quem tem o arquivo reescrever a mesma lógica pelo outro lado. Não custa nada e não é questão de gosto.",
+          "flavor": "“Foi então que comentei com Erik que esperávamos que os Deuses pudessem servir como comandantes e que, em geral, queríamos poder e resistência impressos na carta, pois nos interessava muito realçar o papel deles como criaturas encantamento. Erik atendeu de bom grado, já que ele e a equipe tinham chegado à mesma conclusão, e fez com que fosse a falta de devoção a torná-los não criaturas.”"
+        },
+        {
+          "title": "Fixe a vaga e procure o conteúdo",
+          "rules": "Quando uma parte de um design falha repetidamente, não redesenhe o objeto inteiro. Mantenha a forma constante — tantas habilidades, destes tipos, a este custo — e trate a que falha como uma vaga a ser preenchida por candidatos. Aí dá para rodar uma dúzia de tentativas sem renegociar mais nada, e o trabalho acumulado no resto do objeto fica guardado.",
+          "flavor": "A habilidade estática global de Heliod ao longo de vinte versões: um Glorious Anthem, depois um Rule of Law, depois um Eye for an Eye, depois um Propaganda, depois um Kismet, depois virar-a-menos-que-pague, depois um gatilho de fichas, depois um bônus de resistência, depois iniciativa, depois vigilância. A vaga nunca se moveu."
+        },
+        {
+          "title": "Quando o texto está longo demais, mude o mecanismo em vez de editar a frase",
+          "rules": "O instinto diante de uma descrição longa demais é comprimir a redação, o que produz algo mais curto e mais difícil de ler. Volte um passo e procure um mecanismo diferente que caia quase no mesmo lugar — não o mesmo efeito dito de forma concisa, e sim um efeito vizinho que por acaso é simples. Aceite a pequena diferença de comportamento; ela compra muitíssima clareza.",
+          "flavor": "A versão 11 fazia toda permanente adversária entrar virada, impedia criaturas de desvirar e deixava o oponente pagar por criatura na manutenção. A versão 12: “Cada criatura que seus oponentes controlam tem ‘No início da sua manutenção, vire esta criatura a menos que você pague 1’.” — “Acho que essa mudança atacava o problema de o texto de regras estar ficando comprido… É um pouco diferente, mas capta o mesmo efeito básico com muito menos palavras.”"
+        },
+        {
+          "title": "Guarde o comportamento que o protótipo extremo demonstrou, e descarte a maquinaria de que ele precisava",
+          "rules": "Uma versão selvagem existe para mostrar como uma experiência é, não para ser lançada. Quando a equipe seguinte remove a infraestrutura dela, isso não é rejeição — é a leitura correta. Separe as duas coisas antes deles: anote que sensação o protótipo produzia, e trate tudo o que foi construído para viabilizá-la como provisório desde o momento em que você o faz.",
+          "flavor": "A versão 7 introduziu Nyx, uma zona de jogo inteiramente nova onde os Deuses viviam e para onde voltavam. “A primeira coisa que Erik e a equipe fizeram foi se livrar da zona Nyx. Eles gostavam da noção geral de o Deus ter um efeito de encantamento e, com trabalho, provavelmente via devoção, poder virar criatura; mas achavam desnecessário criar uma zona nova para isso.” A carta final mantém exatamente essa noção."
+        },
+        {
+          "title": "Dois jeitos independentes de desarmar uma busca repetível: cortar a frequência, estreitar o conjunto",
+          "rules": "Tudo que vai buscar a melhor opção disponível é precificado contra a melhor coisa que você jamais vai imprimir, e aplicar isso repetidamente compõe. Há dois botões distintos. Faça acontecer uma vez em vez de a cada ciclo, e restrinja o que aquilo alcança a um subconjunto cuja maximização não o incomode. Girar os dois costuma ser o que torna o efeito imprimível.",
+          "flavor": "“Ter o gatilho de busca de encantamento a cada turno acabou ficando poderoso demais. Para consertar, fizemos duas coisas. Primeiro, transformamos a busca num gatilho único de entrada no campo de batalha. Segundo, limitamos a busca a Auras. Por que Auras? A essa altura tínhamos percebido que estávamos pondo muito foco nelas e parecia um subconjunto mais seguro de buscar.”"
+        },
+        {
+          "title": "Quando a produção da sua própria equipe está tímida demais, entregue o problema a um grupo sem nada investido nele",
+          "rules": "Uma equipe que convive há tempo com um problema converge para respostas cautelosas, porque toda opção selvagem esbarra em algo com que ela já se comprometeu. Leve o problema a gente sem nada dessa história, e ponha o briefing explicitamente no extremo: diga que quer algo fora da caixa, não algo viável. Dá para recuar do longe demais; não dá para avançar do tímido demais.",
+          "flavor": "“Com o arquivo de Theros fora das minhas mãos, pude focar na única área que eu não tinha destravado. Numa terça à tarde, reuni minha equipe de design… os grupos de designers que trabalham na P&D… e nos dei a tarefa de bolar algo fora da caixa. Eu queria algo saboroso e ‘maluco’. A entrega do design tinha ficado tímida demais. Eu queria tentar algo realmente doido. E minha equipe entregou.”"
+        },
+        {
+          "title": "Acrescente a proteção que evita o desfecho humilhante, não só o desequilibrado",
+          "rules": "Algumas interações não são problema de equilíbrio nenhum — são problema de dignidade. Uma coisa apresentada como monumental, despachada por algo trivial, produz uma piada que todo mundo vai contar e que acaba virando a coisa em si. Proteja-se disso especificamente, mesmo onde os números digam que não importa, porque é a anedota que as pessoas vão lembrar.",
+          "flavor": "Os Deuses foram feitos indestrutíveis “para poupar os jogadores de terem de lidar com o seguinte: ‘Olá, eu sou Heliod, senhor dos deuses!’ ‘Naturalize.’”"
+        },
+        {
+          "title": "Marque visivelmente o que é provisório, para ninguém confundir com decisão",
+          "rules": "Trabalho em andamento passa por muitas mãos, e tudo escrito normalmente é lido como fechado. Adote uma convenção visível para as partes ainda não decididas — colchetes, um marcador, qualquer coisa consistente — e retire-a assim que a resposta real chegar. Aí quem pegar o arquivo vê num relance quais escolhas cabem a ele.",
+          "flavor": "Os nomes no arquivo foram Helo, depois Heliod, depois Aelion, Deus do Sol, depois Heliod, Deus do Sol. E sobre as fichas: “design e desenvolvimento dão às fichas um nome que soe bem, e o time criativo depois descobre de que tipo de criatura elas realmente são.” O tipo apareceu entre colchetes até a versão 18 — “dá para ver porque não está mais entre colchetes, o que significa ‘ainda não decidido’.”"
+        },
+        {
+          "title": "O limiar é encontrado oscilando em torno dele, não deduzido",
+          "rules": "Para um número que condiciona comportamento, o cálculo lhe dá um valor inicial plausível e nada mais, porque o que você está fixando é com que frequência uma situação deve surgir. Suba, jogue, desça, jogue, e suba de novo. A repetição não é indecisão: o valor para o qual várias passadas convergem é o único tipo de evidência disponível.",
+          "flavor": "O limiar de devoção foi seis, depois cinco, depois de volta a seis, depois cinco de novo. “Devo apontar aqui que o melhor jeito de descobrir qual deve ser o número certo é ficar movendo-o durante os testes para sentir o que funciona melhor.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "现代诸神",
+      "dek": "赫利欧德的二十个版本，从最初的设计档案到付印。",
+      "overview": "罗斯瓦特把一张牌在数据库里留下的每一个版本都翻了出来，逐步讲解每一次改动改了什么——其中包括一个没能活下来的、全新的游戏区域。",
+      "takeaway": "「我觉得唯一还需要下功夫的地方就是诸神……我们还没有找到正确的实现方式。」",
+      "lessons": [
+        {
+          "title": "在交接文件里把「还没解决的那一块」点名出来，并说明你仍在做",
+          "rules": "把一个项目交出去时，你会被诱使着把它呈现成已完成的样子——因为那些不成立的部分会反映到你身上。请反过来做：写下哪一块还不对、把它直说出来，并声明你打算继续攻它。接手的团队本来就在怀疑；而从你口中听到，会把一个隐藏的问题变成一个共有的问题，并且有一个仍在岗位上的人负责它。",
+          "flavor": "「就是在这一刻，档案从设计交到了开发手上。在我的设计交接说明里，我写道：虽然我对这个系列的整体感到满意，但我觉得唯一还需要下功夫的地方就是诸神。我知道它们会是这个系列的焦点；我说明了我们还没有找到正确的实现方式，但我会继续去找出一个解法。而亚伦在他对设计档案的最后一遍过目中，也写下了同样的批注。」"
+        },
+        {
+          "title": "把下游的那条要求说出来，同一套机制就会为了满足它而被换一种写法",
+          "rules": "两种构造可以产生完全相同的行为，而在「此后允许人们做什么」上截然不同。如果你需要某项并非功能性的属性——一个印在牌面上的数值、参与某种其他用途的资格——就把它说出来，并让掌握档案的那个人从另一头把同样的逻辑重写一遍。这不花什么成本，而且它不是品味问题。",
+          "flavor": "「也正是在这个时候，我向埃里克提到：我们希望诸神能够用作指挥官；而且总体来说，我们希望牌面上印着力量和防御力——因为我们很想凸显它们作为结界生物的身份。埃里克欣然照办（他和他的团队也得出了同样的结论），并把它改成了：是『缺少虔诚』让它们变成非生物。」"
+        },
+        {
+          "title": "把位置固定住，去搜索内容",
+          "rules": "当一个设计里的某一部分反复失败时，不要把整件物件重做一遍。让它的形状保持不变——多少项异能、分别是哪些类型、什么费用——并把那个不成立的部分当成一个待填的空缺，由候选者来竞聘。这样你就可以跑上十几次尝试而不必重新谈判其他任何事；而在物件其余部分上累积起来的工作，也都存了下来。",
+          "flavor": "赫利欧德那项全局静止式异能在二十个版本里的变迁：先是一个「荣耀颂歌」，然后是「法治」，然后是「以眼还眼」，然后是「宣传战」，然后是「命运」，然后是「除非付费否则横置」，然后是一个衍生物触发，然后是防御力加成，然后是先攻，最后是警戒。而那个位置本身从未挪动过。"
+        },
+        {
+          "title": "当文字太长时，去换掉机制，而不是去修那个句子",
+          "rules": "面对一段过长的描述，本能是把措辞压缩——而那产出的是一样更短、也更难读的东西。请退后一步，去找一个「落点几乎相同」的不同机制：不是把同一个效应说得更简练，而是一个碰巧很简单的、邻近的效应。接受那一点点行为上的差异；它买回来的是大量的清晰度。",
+          "flavor": "第11版让对手的每个永久物进战场时都横置、让生物无法重置，并允许对手在维持阶段按生物数量付费。第12版：「你的对手所操控的每个生物都具有『在你的维持开始时，横置此生物，除非你支付1』。」——「我相信这次改动针对的是『规则文字越来越长』这个问题……它稍有不同，但用少得多的字数抓住了同样的基本效果。」"
+        },
+        {
+          "title": "把那个极端原型所展示出来的「行为」留下，把它所需要的「机械装置」扔掉",
+          "rules": "一个放飞的版本之所以存在，是为了让你看见某种体验是什么感觉，而不是为了发行。当下一支团队把它的基础设施拆掉时，那并不是一次否决——那是正确的读法。请在他们动手之前就把这两者分开：把这个原型所产生的那种感受写下来；并且从你造出它的那一刻起，就把所有为了实现它而搭建的东西视为临时的。",
+          "flavor": "第7版引入了「尼克斯」——一个诸神栖身其中、并会回归其中的、全新的游戏区域。「埃里克和他的团队做的第一件事，就是把尼克斯这个区域去掉。他们喜欢那种大致的感觉：这位神拥有一个结界式的效应，并且经过一番努力（多半是通过虔诚）可以变成一个生物；但他们觉得，为了做到这一点而造出一个全新的区域是不必要的。」最终的那张牌，保留的正是那种感觉。"
+        },
+        {
+          "title": "拆解一个「可重复的搜寻」有两个彼此独立的办法：降低频率、收窄范围",
+          "rules": "任何一样「去把当下最好的选项找出来」的东西，其定价对标的是你此生将会印出的最好的那样东西；而反复施加会让它复利。这里有两个不同的旋钮：让它只发生一次、而不是每个周期一次；并把它够得着的范围限制到一个「你能接受它被最大化」的子集上。通常，两个都拧，才是让这个效应变得可印的原因。",
+          "flavor": "「让搜寻结界的触发每回合都发生，结果太强了。为了修正它，我们做了两件事。第一，我们把这次搜寻改成了『进战场时触发一次』。第二，我们把搜寻范围限制到灵气。为什么是灵气？到那个时候我们已经意识到，我们在灵气上投入了很多注意力；而它看起来是一个更安全的搜寻范围。」"
+        },
+        {
+          "title": "当你自己团队的产出过于保守时，把这个问题交给一群「在它上面没有任何投入」的人",
+          "rules": "一支与某个问题共处了很久的团队，会收敛到谨慎的答案上——因为每一个放飞的选项都会撞上他们已经承诺过的某样东西。请把这个问题带给那些完全没有这段历史的人；并明确地把任务书设在最远端：说你要的是出格的东西，而不是可行的东西。从「太远」可以往回撤；而从「太保守」是没法往前进的。",
+          "flavor": "「赛洛斯的档案脱手之后，我就得以专注在那唯一一处我还没攻下来的地方。某个周二下午，我把我的设计团队——我指的不是赛洛斯的设计团队，而是研发部里的那一整群设计师——召集起来，给我们定下了一项任务：想出某种出格的东西。我要的是有风味的、『离谱的』。那份设计交接太温吞了。我想试点真正疯狂的。而我的团队交货了。」"
+        },
+        {
+          "title": "加上那道「防止难堪结局」的保护，而不只是防止「失衡结局」的那道",
+          "rules": "有些互动根本不是平衡问题——它们是尊严问题。一样被塑造得举足轻重的东西，被某种微不足道的玩意儿一下打发掉，会产出一个人人都会讲的笑话；而那个笑话最终会变成这样东西本身。请专门针对那一点做防护——哪怕数字说它无关紧要；因为人们会记住的正是那个段子。",
+          "flavor": "诸神被做成不灭，是「为了让牌手不必面对下面这种情形：『你好，我是赫利欧德，众神之主！』『《归于自然》。』」"
+        },
+        {
+          "title": "把「尚未定案」的状态显眼地标出来，别让任何人把它误认成一个决定",
+          "rules": "在制品会经过很多人的手；而任何以正常方式写下来的东西，都会被读成已经定了。请为那些尚未决定的部分采用一种看得见的约定——方括号、一个记号、任何一致的东西——并在真正的答案到来的那一刻把它去掉。这样，任何一个接手这份档案的人，一眼就能看出哪些选择是轮到他来做的。",
+          "flavor": "档案里的名字依次是 Helo、Heliod、「日神埃利昂」，最后是「日神赫利欧德」。而关于衍生物：「设计和开发会给衍生物起一个听起来不错的名字；至于它们实际上属于哪一种生物类别，创意团队会在之后弄清楚。」那个类别一直被放在方括号里，直到第18版——「你看得出来，因为它不再被方括号括着了；而方括号的意思是『尚未决定』。」"
+        },
+        {
+          "title": "那个门槛值是靠在它周围来回摆动找到的，而不是推导出来的",
+          "rules": "对于一个用来卡住行为的数字，计算只能给你一个说得过去的起始值，仅此而已——因为你在设定的，其实是「某种局面应该多久出现一次」。把它调高，玩；调低，玩；再调回去。这份反复并不是优柔寡断：几轮之后收敛到的那个值，是你所能拿到的唯一一种证据。",
+          "flavor": "虔诚的门槛先是六，然后是五，然后又回到六，然后再回到五。「我要在这里指出：想弄清楚正确的数字应该是多少，最好的办法就是在试玩过程中不断地挪动它，去感受哪一个最好使。」"
+        }
+      ]
+    }
+  }
+}
