@@ -1,0 +1,333 @@
+{
+  "id": "just-ixalan-part-2-2017-09-11",
+  "slug": "just-ixalan-part-2-2017-09-11",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2017-09-11",
+  "series": { "id": "just-ixalan", "order": 2, "total": 3 },
+  "tags": [
+    "ixalan",
+    "mechanic-design",
+    "keywords",
+    "iteration",
+    "complexity",
+    "explore"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/just-ixalan-part-2-2017-09-11",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T09:56:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Just Ixalan, Part 2",
+      "dek": "A beautiful four-faction grid that worked on paper and not at the table, a keyword that meant four different things, and the throwaway rider that became explore.",
+      "overview": "Ixalan's mechanics from exploratory design through the two halves of design, told as a sequence of structures that were each abandoned — and the one element that never changed.",
+      "takeaway": "\"There was balance and synergy and differentiation between both the factions and the individual colors. It was a thing of beauty. Unfortunately, it didn't work.\"",
+      "lessons": [
+        {
+          "title": "Know which kind of project you're on",
+          "rules": "Some projects find their core in the first weeks and spend the rest of the time refining; others churn through structures for years. These need different management, and mistaking the second for the first produces panic at exactly the wrong moment.",
+          "flavor": "“Some sets find the mechanics early on and most of design and development is about fine-tuning them. For example, both energy and Vehicles were first tested in the initial weeks of Kaladesh exploratory design. Ixalan, though, is an example of the other end of the spectrum, where the mechanics go through major changes throughout the process.”"
+        },
+        {
+          "title": "In a high-churn project, whatever survives every revision is the premise",
+          "rules": "When structures keep collapsing, the one element that comes through each rebuild untouched is telling you what the work is actually about. Identify it explicitly and protect it, because it's the only thing giving continuity to a process that otherwise looks like starting over repeatedly.",
+          "flavor": "“The front would essentially give you a task to complete, and when done, you ‘discovered' the land (transforming the card into it). We spent a lot of time figuring out how best to do this mechanically, but the flavor of the idea never changed. It's the one mechanical element of the design that stayed constant throughout.”"
+        },
+        {
+          "title": "The complexity budget is set by what shipped last, not by this project alone",
+          "rules": "Audiences experience your work in sequence. If the previous release ran heavy, this one has to run light regardless of how much it could individually support — the budget belongs to the run, not the item.",
+          "flavor": "“We knew coming off Amonkhet block that we had been slightly over par on mechanics, so I was trying to pull back a little.” With a splashy exploration theme committed and Vehicles returning for the Pirate ships, “I didn't think each faction could have its own keyword mechanic.”"
+        },
+        {
+          "title": "Share a mechanic across two groups but vary its payload",
+          "rules": "One mechanic can serve two groups without blurring them if the shared part is the trigger and the varying part is the reward. You spend one unit of vocabulary and get two identities, plus a visible relationship between them.",
+          "flavor": "Plunder — derived from bloodthirst — went to the Vampires and Pirates, the two outsider factions: “We made the bonus unique to each tribe to both add flavor and mechanical identity. The Vampires drained the opponent for 2 and the Pirates looted.” Enlist made a white 1/1 Warrior for one faction and a green 3/3 Dinosaur that couldn't block for the other."
+        },
+        {
+          "title": "Cross two axes so the overlaps carry meaning",
+          "rules": "Arranging groups on a grid rather than a list gives every intersection something to say. Each element then sits at the crossing of two properties, and the shared colours or categories between them acquire a character you never had to author directly.",
+          "flavor": "Four factions at the corners of a square: top and bottom pairs shared a mechanic; the other axis split creature enters-the-battlefield effects from instants and sorceries. “White overlapped on creature-based spells… Blue overlapped on instants and sorceries… Red, the one color that overlapped the two three-color factions, was given tribal cards that let you choose the tribe.”"
+        },
+        {
+          "title": "A structure invisible to the player isn't elegant, it's overhead",
+          "rules": "A scheme's beauty is visible from inside the project and nowhere else. If the audience can't perceive the organizing principle, they get the constraints it imposed without any of the coherence it was supposed to buy.",
+          "flavor": "“When you stepped back and looked at this grid, everything looked wonderful… There was balance and synergy and differentiation between both the factions and the individual colors. It was a thing of beauty. Unfortunately, it didn't work.” Among the reasons: “the entire structure was basically invisible to the player.”"
+        },
+        {
+          "title": "A word that means four things costs more than four words",
+          "rules": "Shared vocabulary saves effort only when the shared word predicts what happens. Give one term several distinct inputs and outputs and you've removed the shortcut while keeping the abstraction — every instance now has to be read in full.",
+          "flavor": "Ken's version gave each tribe its own enlist payment and token: 2 life for a lifelinker, a discard for a menace 2/2, three mana for a 3/3, a bounced land for a prowess 1/1. “It only took one playtest… Having all four versions share a singular word just meant that you never knew what any one card was doing and were always forced to read it.”"
+        },
+        {
+          "title": "Not every group needs a keyword",
+          "rules": "Parallel treatment is a habit, not a requirement. Give the named vocabulary to the parts you're actually focusing on, and let the others have a theme without a word — they stay distinct and the total load drops.",
+          "flavor": "“Maybe the way to only use two keywords was to just give a keyword mechanic to the two three-color factions… Vampires and Merfolk could have mechanical themes; they just wouldn't have a keyword.” The two three-colour tribes were also the two the set was built to feature."
+        },
+        {
+          "title": "Check the emotional shape of the sequence, not just the maths",
+          "rules": "A mechanic can be balanced, interesting and entirely correct on paper while producing a bad experience, because the order in which its parts arrive is itself the experience. Ask what the player feels at each step, not what they end up with.",
+          "flavor": "“Call” gave you a big Dinosaur cheaply that couldn't attack or block until you paid a one-time cost. “Call was greatly disliked though because it was mostly a feel-bad. You have this big, exciting Dinosaur (good!) that you could play cheaply (good!) and then you couldn't use it for many, many turns (bad!).”"
+        },
+        {
+          "title": "Watch what you're incidentally making while you fail at the headline problem",
+          "rules": "A team hunting one answer produces small unaccounted work along the way. That work isn't burdened by the requirements everyone is arguing about, which is often exactly why it's better. Review it before the deadline forces a choice among the official candidates.",
+          "flavor": "While chasing a Dinosaur mechanic, the team made a rider nicknamed “landtrips.” Mark Gottlieb suggested moving it from spells to creatures, adding a +1/+1 counter when the revealed card wasn't a land, and keywording it. Devign ended with no Pirate or Dinosaur mechanic — “although explore was kept as it polled really well with the players.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Solo Ixalan, parte 2",
+      "dek": "Una preciosa cuadrícula de cuatro facciones que funcionaba sobre el papel y no en la mesa, una palabra clave que significaba cuatro cosas, y la coletilla desechable que se convirtió en explorar.",
+      "overview": "Las mecánicas de Ixalan desde el diseño exploratorio hasta las dos mitades del diseño, contadas como una sucesión de estructuras abandonadas, y el único elemento que nunca cambió.",
+      "takeaway": "«Había equilibrio y sinergia y diferenciación entre las facciones y entre los colores. Era una preciosidad. Por desgracia, no funcionaba.»",
+      "lessons": [
+        {
+          "title": "Sabe en qué tipo de proyecto estás",
+          "rules": "Algunos proyectos encuentran su núcleo en las primeras semanas y dedican el resto a pulir; otros van rotando estructuras durante años. Requieren gestiones distintas, y confundir el segundo con el primero produce pánico justo en el peor momento.",
+          "flavor": "«Algunas ediciones encuentran las mecánicas pronto y casi todo el diseño y desarrollo es afinarlas. Por ejemplo, energía y vehículos se probaron en las primeras semanas del diseño exploratorio de Kaladesh. Ixalan, en cambio, es un ejemplo del otro extremo, donde las mecánicas cambian mucho durante todo el proceso.»"
+        },
+        {
+          "title": "En un proyecto con mucha rotación, lo que sobrevive a todas las revisiones es la premisa",
+          "rules": "Cuando las estructuras se derrumban una tras otra, el único elemento que atraviesa cada reconstrucción intacto te está diciendo de qué va realmente el trabajo. Identifícalo explícitamente y protégelo: es lo único que da continuidad a un proceso que si no parece empezar de cero cada vez.",
+          "flavor": "«La cara frontal te daba una tarea, y al completarla “descubrías” la tierra (la carta se transformaba). Dedicamos mucho tiempo a cómo hacerlo mecánicamente, pero el sabor de la idea nunca cambió. Es el único elemento mecánico del diseño que se mantuvo constante.»"
+        },
+        {
+          "title": "El presupuesto de complejidad lo fija lo último que publicaste, no este proyecto solo",
+          "rules": "El público vive tu trabajo en secuencia. Si la entrega anterior fue pesada, esta tiene que ser ligera por mucho que aguantase por sí sola: el presupuesto pertenece a la serie, no a la pieza.",
+          "flavor": "«Sabíamos que veníamos de Amonkhet algo por encima de la media en mecánicas, así que intentaba recortar un poco.» Con un tema de exploración llamativo ya comprometido y los vehículos volviendo para los barcos piratas, «no creía que cada facción pudiera tener su propia palabra clave»."
+        },
+        {
+          "title": "Comparte una mecánica entre dos grupos pero varía su carga",
+          "rules": "Una mecánica puede servir a dos grupos sin difuminarlos si lo compartido es el disparo y lo que varía es la recompensa. Gastas una unidad de vocabulario y obtienes dos identidades, más una relación visible entre ellas.",
+          "flavor": "Plunder —derivado de sed de sangre— fue a los vampiros y a los piratas: «Hicimos el bono único para cada tribu, para añadir sabor e identidad mecánica. Los vampiros drenaban 2 al rival y los piratas saqueaban.» Enlist hacía un guerrero 1/1 blanco para una facción y un dinosaurio 3/3 verde que no podía bloquear para la otra."
+        },
+        {
+          "title": "Cruza dos ejes para que los solapes signifiquen algo",
+          "rules": "Colocar los grupos en una cuadrícula en vez de una lista hace que cada intersección diga algo. Cada elemento queda en el cruce de dos propiedades, y los colores o categorías compartidos adquieren un carácter que nunca tuviste que escribir a mano.",
+          "flavor": "Cuatro facciones en las esquinas de un cuadrado: las parejas de arriba y abajo compartían mecánica; el otro eje separaba efectos de entrar al campo de batalla de instantáneos y conjuros. «El blanco solapaba en hechizos de criatura… El azul en instantáneos y conjuros… El rojo, el único color que solapaba las dos facciones tricolor, recibió cartas tribales que te dejaban elegir la tribu.»"
+        },
+        {
+          "title": "Una estructura invisible para el jugador no es elegante: es sobrecarga",
+          "rules": "La belleza de un esquema se ve desde dentro del proyecto y en ningún otro sitio. Si el público no percibe el principio organizador, recibe las restricciones que impuso sin nada de la coherencia que debía comprar.",
+          "flavor": "«Cuando te alejabas y mirabas esa cuadrícula, todo parecía maravilloso… Había equilibrio y sinergia y diferenciación. Era una preciosidad. Por desgracia, no funcionaba.» Entre las razones: «la estructura entera era básicamente invisible para el jugador»."
+        },
+        {
+          "title": "Una palabra que significa cuatro cosas cuesta más que cuatro palabras",
+          "rules": "El vocabulario compartido ahorra esfuerzo solo cuando la palabra compartida predice lo que pasa. Dale a un término varias entradas y salidas distintas y habrás eliminado el atajo conservando la abstracción: ahora hay que leer cada caso entero.",
+          "flavor": "La versión de Ken daba a cada tribu su propio pago y su propia ficha: 2 vidas por un vínculo vital, un descarte por un 2/2 con amenaza, tres manás por un 3/3, devolver una tierra por un 1/1 con impulso. «Bastó un playtest… Que las cuatro versiones compartieran una sola palabra solo significaba que nunca sabías qué hacía cada carta.»"
+        },
+        {
+          "title": "No todos los grupos necesitan palabra clave",
+          "rules": "El trato paralelo es una costumbre, no un requisito. Dale el vocabulario con nombre a las partes en las que realmente te estás centrando, y deja que las otras tengan un tema sin palabra: siguen siendo distintas y la carga total baja.",
+          "flavor": "«Quizá la forma de usar solo dos palabras clave era dárselas únicamente a las dos facciones de tres colores… Los vampiros y los tritones podían tener temas mecánicos; simplemente no tendrían palabra clave.» Las dos tribus tricolor eran también las dos que la edición quería destacar."
+        },
+        {
+          "title": "Comprueba la forma emocional de la secuencia, no solo las cuentas",
+          "rules": "Una mecánica puede estar equilibrada, ser interesante y ser del todo correcta sobre el papel y aun así producir una mala experiencia, porque el orden en que llegan sus partes es la experiencia. Pregunta qué siente el jugador en cada paso, no con qué acaba.",
+          "flavor": "«Call» te daba un dinosaurio grande barato que no podía atacar ni bloquear hasta pagar un coste único. «Call se detestaba porque era sobre todo un feel-bad. Tienes este dinosaurio grande y emocionante (¡bien!) que puedes jugar barato (¡bien!) y luego no puedes usarlo durante muchísimos turnos (¡mal!).»"
+        },
+        {
+          "title": "Fíjate en lo que haces de refilón mientras fracasas en el problema principal",
+          "rules": "Un equipo persiguiendo una respuesta produce por el camino pequeños trabajos no contabilizados. Esos trabajos no cargan con los requisitos por los que todos discuten, y a menudo es justo por eso que son mejores. Revísalos antes de que el plazo te obligue a elegir entre los candidatos oficiales.",
+          "flavor": "Mientras perseguían una mecánica de dinosaurio, el equipo hizo una coletilla apodada «landtrips». Mark Gottlieb sugirió pasarla de hechizos a criaturas, añadir un contador +1/+1 si la carta revelada no era tierra, y convertirla en palabra clave. El devign acabó sin mecánica de piratas ni de dinosaurios, «aunque explorar se quedó porque puntuaba muy bien con los jugadores»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Rien qu'Ixalan, partie 2",
+      "dek": "Une belle grille à quatre factions qui marchait sur le papier et pas à table, un mot-clé qui voulait dire quatre choses, et la clause jetable devenue exploration.",
+      "overview": "Les mécaniques d'Ixalan, de la conception exploratoire aux deux moitiés de la conception, racontées comme une suite de structures successivement abandonnées — et le seul élément qui n'a jamais changé.",
+      "takeaway": "« Il y avait de l'équilibre, de la synergie et de la différenciation, entre les factions comme entre les couleurs. C'était une splendeur. Malheureusement, cela ne marchait pas. »",
+      "lessons": [
+        {
+          "title": "Sachez sur quel type de projet vous êtes",
+          "rules": "Certains projets trouvent leur cœur dès les premières semaines et passent le reste à affiner ; d'autres brassent des structures pendant des années. Ils ne se gèrent pas pareil, et prendre le second pour le premier produit la panique au pire moment.",
+          "flavor": "« Certaines éditions trouvent leurs mécaniques tôt et l'essentiel du travail consiste à les régler. L'énergie et les véhicules ont été testés dès les premières semaines de la conception exploratoire de Kaladesh. Ixalan illustre l'autre extrémité du spectre. »"
+        },
+        {
+          "title": "Dans un projet à forte rotation, ce qui survit à toutes les révisions est la prémisse",
+          "rules": "Quand les structures s'effondrent l'une après l'autre, le seul élément qui traverse chaque reconstruction intact vous dit de quoi le travail parle vraiment. Nommez-le et protégez-le : c'est la seule continuité d'un processus qui ressemble sinon à repartir de zéro.",
+          "flavor": "« Le recto vous donnait une tâche, et une fois accomplie vous “découvriez” le terrain. Nous avons beaucoup cherché comment le faire mécaniquement, mais la saveur de l'idée n'a jamais changé. C'est le seul élément mécanique resté constant tout du long. »"
+        },
+        {
+          "title": "Le budget de complexité est fixé par ce qui vient de sortir, pas par ce projet seul",
+          "rules": "Le public vit votre travail en séquence. Si la sortie précédente était lourde, celle-ci doit être légère quel que soit ce qu'elle pourrait supporter seule : le budget appartient à la série, pas à l'objet.",
+          "flavor": "« Nous savions qu'après le bloc Amonkhet nous étions un peu au-dessus du quota de mécaniques, alors j'essayais de réduire. » Avec un thème d'exploration spectaculaire déjà engagé et le retour des véhicules pour les navires pirates, « je ne pensais pas que chaque faction pouvait avoir son propre mot-clé »."
+        },
+        {
+          "title": "Partagez une mécanique entre deux groupes mais variez sa charge",
+          "rules": "Une mécanique peut servir deux groupes sans les confondre si la partie partagée est le déclencheur et la partie variable la récompense. Vous dépensez une unité de vocabulaire et obtenez deux identités, plus une relation visible entre elles.",
+          "flavor": "Le plunder — dérivé de la soif de sang — est allé aux vampires et aux pirates : « Nous avons rendu le bonus unique à chaque tribu, pour la saveur et pour l'identité mécanique. » L'enlist créait un guerrier 1/1 blanc pour l'une et un dinosaure 3/3 vert incapable de bloquer pour l'autre."
+        },
+        {
+          "title": "Croisez deux axes pour que les recouvrements signifient quelque chose",
+          "rules": "Disposer les groupes en grille plutôt qu'en liste donne quelque chose à dire à chaque intersection. Chaque élément se tient au croisement de deux propriétés, et les couleurs partagées acquièrent un caractère que vous n'avez jamais eu à écrire.",
+          "flavor": "Quatre factions aux coins d'un carré : les paires haut et bas partageaient une mécanique ; l'autre axe séparait les effets d'arrivée des éphémères et rituels. « Le rouge, seule couleur commune aux deux factions tricolores, a reçu des cartes typales laissant choisir la tribu. »"
+        },
+        {
+          "title": "Une structure invisible pour le joueur n'est pas élégante, c'est du surcoût",
+          "rules": "La beauté d'un schéma se voit de l'intérieur du projet et nulle part ailleurs. Si le public ne perçoit pas le principe d'organisation, il reçoit les contraintes imposées sans rien de la cohérence qu'elles devaient acheter.",
+          "flavor": "« En prenant du recul, tout paraissait magnifique… Il y avait équilibre, synergie et différenciation. C'était une splendeur. Malheureusement, cela ne marchait pas. » Parmi les raisons : « la structure entière était pour ainsi dire invisible pour le joueur. »"
+        },
+        {
+          "title": "Un mot qui veut dire quatre choses coûte plus cher que quatre mots",
+          "rules": "Un vocabulaire partagé n'économise l'effort que si le mot partagé prédit ce qui se passe. Donnez à un terme plusieurs entrées et sorties distinctes et vous avez supprimé le raccourci en gardant l'abstraction : chaque cas doit désormais se lire en entier.",
+          "flavor": "La version de Ken donnait à chaque tribu son paiement et son jeton : 2 points de vie, une défausse, trois manas, un terrain renvoyé. « Il n'a fallu qu'un playtest… Faire partager un mot unique aux quatre versions signifiait simplement qu'on ne savait jamais ce que faisait une carte donnée. »"
+        },
+        {
+          "title": "Tous les groupes n'ont pas besoin d'un mot-clé",
+          "rules": "Le traitement parallèle est une habitude, pas une exigence. Donnez le vocabulaire nommé aux parties que vous mettez réellement en avant, et laissez les autres avoir un thème sans mot : elles restent distinctes et la charge totale baisse.",
+          "flavor": "« Peut-être que pour n'utiliser que deux mots-clés il fallait n'en donner qu'aux deux factions tricolores… Les vampires et les ondins pouvaient avoir des thèmes mécaniques, simplement pas de mot-clé. »"
+        },
+        {
+          "title": "Vérifiez la forme émotionnelle de la séquence, pas seulement les chiffres",
+          "rules": "Une mécanique peut être équilibrée, intéressante et parfaitement correcte sur le papier tout en produisant une mauvaise expérience, car l'ordre d'arrivée de ses parties est l'expérience. Demandez ce que le joueur ressent à chaque étape.",
+          "flavor": "« Call » donnait un gros dinosaure à bas coût, incapable d'attaquer ou bloquer avant un paiement unique. « Call était très mal aimé car c'était surtout un feel-bad. Vous avez ce gros dinosaure excitant (bien !), jouable pour pas cher (bien !), et vous ne pouvez pas vous en servir pendant des tours et des tours (mal !). »"
+        },
+        {
+          "title": "Regardez ce que vous fabriquez incidemment pendant que vous échouez sur le problème principal",
+          "rules": "Une équipe qui traque une réponse produit en chemin de petits travaux non comptabilisés. Ces travaux ne portent pas les exigences dont tout le monde débat, et c'est souvent précisément pour cela qu'ils sont meilleurs. Passez-les en revue avant que l'échéance n'impose un choix entre candidats officiels.",
+          "flavor": "En cherchant une mécanique de dinosaure, l'équipe a fabriqué une clause surnommée « landtrips ». Mark Gottlieb a suggéré de la passer des sorts aux créatures, d'ajouter un marqueur +1/+1 et de la nommer. Le devign s'est achevé sans mécanique pirate ni dinosaure — « bien que l'exploration ait été gardée, car elle sondait très bien auprès des joueurs »."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Só Ixalan, parte 2",
+      "dek": "Uma linda grade de quatro facções que funcionava no papel e não na mesa, uma palavra-chave que significava quatro coisas, e a cláusula descartável que virou explorar.",
+      "overview": "As mecânicas de Ixalan, do design exploratório às duas metades do design, contadas como uma sequência de estruturas sucessivamente abandonadas — e o único elemento que nunca mudou.",
+      "takeaway": "“Havia equilíbrio e sinergia e diferenciação, tanto entre as facções quanto entre as cores. Era uma beleza. Infelizmente, não funcionava.”",
+      "lessons": [
+        {
+          "title": "Saiba em que tipo de projeto você está",
+          "rules": "Alguns projetos acham o núcleo nas primeiras semanas e passam o resto refinando; outros ficam trocando de estrutura por anos. Eles exigem gestões diferentes, e confundir o segundo com o primeiro produz pânico exatamente na hora errada.",
+          "flavor": "“Algumas coleções acham as mecânicas cedo e quase todo o design e desenvolvimento é ajuste fino. Energia e veículos foram testados nas primeiras semanas do design exploratório de Kaladesh. Ixalan, porém, é um exemplo do outro extremo.”"
+        },
+        {
+          "title": "Num projeto de muita rotatividade, o que sobrevive a todas as revisões é a premissa",
+          "rules": "Quando as estruturas desabam uma após a outra, o único elemento que atravessa cada reconstrução intacto está te dizendo do que o trabalho realmente trata. Identifique-o explicitamente e proteja-o: é a única continuidade de um processo que, sem ele, parece recomeçar do zero.",
+          "flavor": "“A frente te dava uma tarefa e, ao completá-la, você ‘descobria' o terreno. Passamos muito tempo descobrindo como fazer isso mecanicamente, mas o sabor da ideia nunca mudou. É o único elemento mecânico do design que se manteve constante o tempo todo.”"
+        },
+        {
+          "title": "O orçamento de complexidade é fixado pelo que saiu por último, não por este projeto sozinho",
+          "rules": "O público vive o seu trabalho em sequência. Se o lançamento anterior foi pesado, este tem de ser leve, por mais que sozinho aguentasse: o orçamento pertence à série, não à peça.",
+          "flavor": "“Sabíamos que, saindo do bloco de Amonkhet, estávamos um pouco acima da média em mecânicas, então eu tentava recuar um pouco.” Com um tema de exploração vistoso já assumido e os veículos voltando para os navios piratas, “eu não achava que cada facção pudesse ter a própria palavra-chave”."
+        },
+        {
+          "title": "Compartilhe uma mecânica entre dois grupos, mas varie a carga dela",
+          "rules": "Uma mecânica pode servir a dois grupos sem borrá-los se a parte compartilhada for o gatilho e a parte variável for a recompensa. Você gasta uma unidade de vocabulário e ganha duas identidades, mais uma relação visível entre elas.",
+          "flavor": "Plunder — derivado de sede de sangue — foi para os vampiros e os piratas: “Fizemos o bônus único para cada tribo, para acrescentar sabor e identidade mecânica.” Enlist criava um guerreiro 1/1 branco para uma facção e um dinossauro 3/3 verde que não podia bloquear para a outra."
+        },
+        {
+          "title": "Cruze dois eixos para que as sobreposições signifiquem algo",
+          "rules": "Dispor os grupos numa grade em vez de numa lista dá a cada interseção algo a dizer. Cada elemento fica no cruzamento de duas propriedades, e as cores compartilhadas ganham um caráter que você nunca precisou escrever à mão.",
+          "flavor": "Quatro facções nos cantos de um quadrado: os pares de cima e de baixo compartilhavam uma mecânica; o outro eixo separava efeitos de entrada em campo de mágicas instantâneas e feitiços. “O vermelho, a única cor que sobrepunha as duas facções de três cores, ganhou cartas tipais que deixavam você escolher a tribo.”"
+        },
+        {
+          "title": "Uma estrutura invisível ao jogador não é elegante, é sobrecarga",
+          "rules": "A beleza de um esquema é visível de dentro do projeto e de nenhum outro lugar. Se o público não percebe o princípio organizador, ele recebe as restrições impostas sem nada da coerência que elas deviam comprar.",
+          "flavor": "“Quando você se afastava e olhava para essa grade, tudo parecia maravilhoso… Havia equilíbrio e sinergia e diferenciação. Era uma beleza. Infelizmente, não funcionava.” Entre as razões: “a estrutura inteira era basicamente invisível ao jogador”."
+        },
+        {
+          "title": "Uma palavra que significa quatro coisas custa mais que quatro palavras",
+          "rules": "Vocabulário compartilhado só poupa esforço quando a palavra compartilhada prevê o que acontece. Dê a um termo várias entradas e saídas distintas e você removeu o atalho mantendo a abstração: agora cada caso precisa ser lido por inteiro.",
+          "flavor": "A versão de Ken dava a cada tribo o próprio pagamento e a própria ficha: 2 pontos de vida, um descarte, três manas, devolver um terreno. “Bastou um playtest… As quatro versões compartilharem uma única palavra só significava que você nunca sabia o que qualquer carta fazia.”"
+        },
+        {
+          "title": "Nem todo grupo precisa de palavra-chave",
+          "rules": "Tratamento paralelo é hábito, não exigência. Dê o vocabulário nomeado às partes em que você está de fato focando, e deixe as outras terem um tema sem palavra: elas continuam distintas e a carga total cai.",
+          "flavor": "“Talvez o jeito de usar só duas palavras-chave fosse dá-las apenas às duas facções de três cores… Vampiros e tritões podiam ter temas mecânicos; só não teriam palavra-chave.”"
+        },
+        {
+          "title": "Confira o formato emocional da sequência, não só as contas",
+          "rules": "Uma mecânica pode estar equilibrada, ser interessante e estar totalmente correta no papel e ainda assim produzir uma experiência ruim, porque a ordem em que as partes chegam é a experiência. Pergunte o que o jogador sente a cada passo.",
+          "flavor": "“Call” te dava um dinossauro grande e barato que não podia atacar nem bloquear até você pagar um custo único. “Call era muito detestada porque era sobretudo um feel-bad. Você tem esse dinossauro grande e empolgante (bom!) que dá para jogar barato (bom!) e aí não pode usá-lo por muitos e muitos turnos (ruim!).”"
+        },
+        {
+          "title": "Observe o que você faz de passagem enquanto fracassa no problema principal",
+          "rules": "Um time caçando uma resposta produz pelo caminho pequenos trabalhos não contabilizados. Esses trabalhos não carregam as exigências sobre as quais todos discutem, e é muitas vezes por isso que são melhores. Revise-os antes de o prazo forçar uma escolha entre os candidatos oficiais.",
+          "flavor": "Enquanto caçava uma mecânica de dinossauro, o time fez uma cláusula apelidada de “landtrips”. Mark Gottlieb sugeriu tirá-la das mágicas e pô-la nas criaturas, acrescentar um marcador +1/+1 e transformá-la em palavra-chave. O devign acabou sem mecânica de pirata nem de dinossauro — “embora explorar tenha ficado, porque teve ótima nota nas pesquisas com jogadores”."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "只谈依克撒兰，中",
+      "dek": "一张在纸面上成立、在牌桌上不成立的漂亮四派系网格；一个同时意味着四件事的关键字；以及那条随手写下、后来变成「探查」的附加条件。",
+      "overview": "《依克撒兰》的机制历程：从探索性设计到设计的上下半场，讲成了一连串被逐个放弃的结构——以及那个自始至终没变过的元素。",
+      "takeaway": "「派系之间和颜色之间都有平衡、有协同、有区分度。那是件美物。可惜，它不管用。」",
+      "lessons": [
+        {
+          "title": "搞清楚你身处的是哪一类项目",
+          "rules": "有些项目在最初几周就找到了自己的内核，剩下的时间都在打磨；另一些则要在各种结构之间翻腾好几年。这两类需要不同的管理方式，而把第二类误当成第一类，会在最不该慌的时候引发恐慌。",
+          "flavor": "「有些系列很早就找到了机制，之后的设计与开发大多是在微调。比如能量和载具，都是在《卡拉德许》探索性设计的头几周就试过的。而《依克撒兰》是光谱另一端的例子：机制在整个过程中经历了重大变化。」"
+        },
+        {
+          "title": "在一个反复推倒重来的项目里，挺过每一轮修订的那样东西，就是它的前提",
+          "rules": "当一个又一个结构垮掉时，那个原封不动地穿过每一次重建的元素，正在告诉你这份工作真正关于什么。把它明确地指认出来并且护住它——在一个看起来像是不断从头再来的过程里，它是唯一提供连续性的东西。",
+          "flavor": "「正面基本上是给你一项要完成的任务，完成之后你就『发现』了那块地（牌翻面变成它）。我们花了大量时间琢磨机制上怎么做最好，但这个想法的风味从没变过。它是这份设计里唯一自始至终保持恒定的机制元素。」"
+        },
+        {
+          "title": "复杂度预算由「上一个发出去的东西」定，而不是由这个项目单独来定",
+          "rules": "受众是按顺序来体验你的作品的。如果上一次发布分量偏重，那么这一次就得轻——不管它自己单独能扛多少。这份预算属于这一整串，而不属于其中某一件。",
+          "flavor": "「我们知道，从《阿芒凯》系列组下来时，我们的机制数量略微超标了，所以我在试着往回收一点。」而一个抢眼的探索主题已经定了，载具又要为海盗船回归，「我不认为每个派系还能各有一个自己的关键字机制」。"
+        },
+        {
+          "title": "让两个群体共用一个机制，但让它的载荷各不相同",
+          "rules": "一个机制可以同时服务两个群体而不把它们糊在一起——只要共用的是触发条件，各异的是回报。你花掉一份词汇量，换回两份身份，外加一层它们之间看得见的关系。",
+          "flavor": "由「嗜血」衍生出来的plunder给了吸血鬼和海盗这两个外来派系：「我们让每个部族的加成各不相同，既加风味也加机制身份。吸血鬼让对手失去2点生命而自己获得2点，海盗则是摸一弃一。」enlist则给一个派系造白色1/1战士，给另一个造不能阻挡的绿色3/3恐龙。"
+        },
+        {
+          "title": "交叉两条轴，好让重叠之处也有话可说",
+          "rules": "把几个群体摆成网格而不是列表，会让每一个交点都有内容。于是每个元素都坐落在两项属性的交叉处，而它们之间共享的颜色或类别，会获得一种你从来不必亲手书写的性格。",
+          "flavor": "四个派系放在一个正方形的四角：上下两对各共用一个机制；另一条轴则把「生物的进战场效应」和「瞬间与法术」分开。「白色重叠在以生物为载体的咒语上……蓝色重叠在瞬间与法术上……而红色，那个同时重叠了两个三色派系的颜色，拿到了让你自选部族的部族牌。」"
+        },
+        {
+          "title": "一个玩家看不见的结构不是优雅，是开销",
+          "rules": "一套方案的美，只在项目内部看得见，别处都看不见。如果受众感知不到那条组织原则，他们拿到的就只是它强加的种种约束，却拿不到它本该买来的那份整体感。",
+          "flavor": "「你退后一步看这张网格，一切都很棒……派系之间和颜色之间都有平衡、有协同、有区分度。那是件美物。可惜，它不管用。」原因之一是：「整个结构对玩家来说基本上是隐形的。」"
+        },
+        {
+          "title": "一个意味着四件事的词，比四个词还贵",
+          "rules": "共享词汇只有在「这个共享的词能预测接下来发生什么」时才省力。给同一个术语配上好几套不同的输入和输出，你就等于删掉了那条捷径、却留下了那层抽象——现在每一个实例都必须被完整读一遍。",
+          "flavor": "肯的版本给每个部族配了各自的支付和各自的衍生物：2点生命换一个系命的、弃一张牌换一个威慑2/2、三点法术力换一个3/3、送回一块地换一个敏捷1/1。「只试玩了一次……让这四个版本共用同一个词，结果只是让你永远不知道任何一张牌在干什么，每次都得把它读完。」"
+        },
+        {
+          "title": "不是每个群体都需要一个关键字",
+          "rules": "「一视同仁」是一种习惯，不是一项要求。把带名字的词汇给你真正要突出的那几部分，让其余的拥有一个没有名字的主题——它们照样各自分明，而总的负担降下来了。",
+          "flavor": "「也许只用两个关键字的办法，就是只给那两个三色派系配关键字机制……吸血鬼和人鱼可以有机制主题，只是没有关键字。」而那两个三色部族，恰好也是这个系列想要突出的那两个。"
+        },
+        {
+          "title": "去检查这段序列的情绪形状，而不只是它的算术",
+          "rules": "一个机制可以在纸面上平衡、有趣、完全正确，却依然产出糟糕的体验——因为它各个部分抵达的顺序，本身就是那份体验。要问玩家在每一步感受到什么，而不是问他最后得到了什么。",
+          "flavor": "「call」让你用很低的费用拿到一只大恐龙，但在付清一次性费用之前它既不能攻击也不能阻挡。「call非常不受待见，因为它基本上就是个『糟心感』。你有这么一只又大又带劲的恐龙（好！），还能便宜地打出来（好！），然后你有很多很多回合都用不了它（糟！）。」"
+        },
+        {
+          "title": "在你于主问题上失败的同时，留意你顺手做出来的东西",
+          "rules": "一支正在追捕某个答案的队伍，会在路上做出一些不被计入账的小东西。这些小东西身上没有背着所有人正在争论的那些要求——而这往往恰恰是它们更好的原因。要在截止日期逼你在几个正式候选里二选一之前，先把它们过一遍。",
+          "flavor": "在追一个恐龙机制的同时，团队做了一条外号叫「landtrips」的附加条件。马克·戈特利布建议把它从咒语挪到生物身上，在翻出来的牌不是地时补一个+1/+1指示物，并且把它设成关键字。devign阶段结束时海盗和恐龙的机制都没着落——「不过探查留了下来，因为它在玩家调研里得分非常高」。"
+        }
+      ]
+    }
+  }
+}

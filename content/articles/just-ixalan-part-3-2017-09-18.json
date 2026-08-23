@@ -1,0 +1,333 @@
+{
+  "id": "just-ixalan-part-3-2017-09-18",
+  "slug": "just-ixalan-part-3-2017-09-18",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2017-09-18",
+  "series": { "id": "just-ixalan", "order": 3, "total": 3 },
+  "tags": [
+    "ixalan",
+    "development",
+    "typal",
+    "archetypes",
+    "raid",
+    "enrage"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/just-ixalan-part-3-2017-09-18",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T09:57:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Just Ixalan, Part 3",
+      "dek": "Development cracks the two missing mechanics: one by noticing the placeholder was the answer, and one during hole-filling.",
+      "overview": "Design handed off without a Pirate mechanic or a Dinosaur mechanic. Sam Stoddard's team found raid by taking their own shorthand literally, and enrage came out of the routine work of filling the last slots.",
+      "takeaway": "\"Throughout our search for a Pirate mechanic, we kept saying we wanted a 'raid-like mechanic.' Well, what better to fill the spot of a raid-like mechanic than raid?\"",
+      "lessons": [
+        {
+          "title": "Stop hunting for something like X and try X",
+          "rules": "Teams use an existing thing as shorthand for the target they're describing. That shorthand accumulates authority without ever being evaluated as a candidate, because everyone assumes the point is to find a new one. Put it on the list.",
+          "flavor": "Rosewater calls it a Daryl Hannah moment, after the actress cast in a part described as “a Daryl Hannah type.” “Throughout our search for a Pirate mechanic, we kept saying we wanted a ‘raid-like mechanic.'… It just took one person in a development meeting to utter this aloud to get the development team to just try using raid. It obviously got the part.”"
+        },
+        {
+          "title": "Continue the previous team's search rather than restarting it",
+          "rules": "Inheriting an unsolved problem invites a fresh start, which throws away the map of where the answer isn't. Read what they tried, decide whether the search area was right, and if it was, pick up where they stopped.",
+          "flavor": "“Development continued searching to find the perfect Pirate mechanic. They agreed that design had been searching in the right place, so they started by continuing the keyword search where design had left off.” They had the answer relatively early in the process."
+        },
+        {
+          "title": "An interaction with existing material can force both a functional and a nominal change",
+          "rules": "A new component doesn't just have to work; it has to work alongside everything already published. When an interaction breaks it, the repair often has two parts — the mechanical fix, and a rename so the thing isn't mistaken for what it used to be.",
+          "flavor": "Gold tokens fitted the Pirates perfectly until “playtesting showed that Gold tokens were too good with the Aether Revolt mechanic improvise as it essentially let each one produce two mana of any color. The development team added a tap to the activation to prevent this interaction and renamed the tokens to Treasure.”"
+        },
+        {
+          "title": "Name the emotional register of each sub-pairing",
+          "rules": "Sub-archetypes within a larger group need to feel different, not merely play different. Choose one adjective for each, then let the mechanical assignment fall out of the adjective — the result is legible from the outside and settles a dozen small arguments inside.",
+          "flavor": "The Pirates: blue-black “plays up the Pirates' craftiness,” black-red “their ruthlessness,” blue-red “their trickiness.” The Dinosaurs: red-green “the ferocity,” green-white “the size,” red-white “the aggressiveness.” Each adjective then picks the effects — artifacts and counterspells for craftiness, toughness-matters for size."
+        },
+        {
+          "title": "The group is not only its named members",
+          "rules": "A theme built on one category will have a hole wherever that category is naturally scarce — usually the cheap end. Fill it with things that aren't members but care about members: they support the strategy without diluting what the category means.",
+          "flavor": "“The one other thing to remember about this tribe is that it's not just made up of Dinosaurs but also the many Humans that make up the Sun Empire… there are numerous cards that aren't Dinosaurs but get better when you control at least one Dinosaur. This is one of the main ways we're able to fill in a lot of the lower end of the creature curve.”"
+        },
+        {
+          "title": "The target that resembles your default output is the cheap one",
+          "rules": "Two briefs can look equally hard and differ enormously in cost, depending on how much of what they need you already make anyway. Work out which one is asking for your normal production in a costume, and budget the other one's time accordingly.",
+          "flavor": "“The Pirates wanted to be sneaky and attack, usually with small to medium bodies. Well, normal Magic does that in volume. The Dinosaurs, in contrast, wanted to be big, scary monsters that had a large impact on the game. There's just not as much of that in a typical set.” The Pirate mechanic landed early; the Dinosaur one took far longer."
+        },
+        {
+          "title": "Before assuming a repeat problem is as hard, list what's different",
+          "rules": "Recognizing that you've faced this shape before is useful; concluding it will cost the same is not. Enumerate the differences between then and now first — sometimes two small ones remove most of the difficulty.",
+          "flavor": "Filling a set with Dinosaurs resembled filling one with Dragons. “Luckily, Dinosaurs had two advantages over Dragons. One, they come in more shapes and sizes… Second, while a few flying Dinosaurs existed… they were mostly ground creatures. These two things together helped immensely.”"
+        },
+        {
+          "title": "The routine hole-filling pass is where the answer turns up",
+          "rules": "The low-status phase where you're just making enough of something is the only phase with real volume, and volume is what finds things. Staff it properly and read what comes out of it, rather than treating it as cleanup after the thinking is done.",
+          "flavor": "The development team had tried monstrosity-like upgrades, blocking restrictions, and a Phantom-style counter mechanic; “none of them quite fit.” Then: “The solution to the problem was solved in hole filling by a man named John Stone. What if the power of the Dinosaurs was that they didn't like being damaged?”"
+        },
+        {
+          "title": "A theme built on the cards outside the category fights itself",
+          "rules": "If membership of a category is the payoff, and the trigger is something outside that category, then every copy of the trigger is a copy that isn't a member. The two requirements compete for the same deck slots, and the tension has no fix short of moving the theme.",
+          "flavor": "“Focusing a tribal theme on noncreature cards leads to problems. You want to have a lot of creature cards of the tribe to pay off the synergy, but if the tribe requires a lot of noncreature cards, then you have this uncomfortable tension.” Merfolk moved to a +1/+1-counter theme."
+        },
+        {
+          "title": "A sound argument for extending into new territory can still lose on feel",
+          "rules": "You can construct a correct case that an existing tool belongs somewhere it has never been — the logic of what that place cares about will support it. Test it anyway, because the objection that kills it is usually not an argument but a reaction.",
+          "flavor": "Prowess is primary in blue and absent from green. “Sam made a strong argument that the thing green would most care about in a spells-matter environment was getting its creatures bigger, which was exactly what prowess did.” They tried it. “In the end, it was a bit more complicated than we liked. Also, green prowess just felt weird.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Solo Ixalan, parte 3",
+      "dek": "Desarrollo resuelve las dos mecánicas que faltaban: una al darse cuenta de que el sustituto era la respuesta, y otra durante el tapado de huecos.",
+      "overview": "El diseño se entregó sin mecánica de piratas ni de dinosaurios. El equipo de Sam Stoddard encontró asalto tomándose su propia abreviatura al pie de la letra, y enfurecer salió del trabajo rutinario de rellenar los últimos huecos.",
+      "takeaway": "«Durante toda la búsqueda de una mecánica pirata, no parábamos de decir que queríamos una “mecánica tipo asalto”. Bueno, ¿y quién mejor para ocupar el puesto de una mecánica tipo asalto que asalto?»",
+      "lessons": [
+        {
+          "title": "Deja de buscar algo parecido a X y prueba X",
+          "rules": "Los equipos usan algo existente como abreviatura del objetivo que describen. Esa abreviatura acumula autoridad sin ser evaluada nunca como candidata, porque todos asumen que la tarea es encontrar una nueva. Ponla en la lista.",
+          "flavor": "Rosewater lo llama un momento Daryl Hannah, por la actriz elegida para un papel descrito como «tipo Daryl Hannah». «Durante toda la búsqueda no parábamos de decir que queríamos una “mecánica tipo asalto”… Bastó que alguien lo dijera en voz alta en una reunión para que el equipo probara directamente asalto. Obviamente, consiguió el papel.»"
+        },
+        {
+          "title": "Continúa la búsqueda del equipo anterior en vez de reiniciarla",
+          "rules": "Heredar un problema sin resolver invita a empezar de cero, y eso tira el mapa de dónde no está la respuesta. Lee lo que probaron, decide si el área de búsqueda era correcta y, si lo era, sigue donde lo dejaron.",
+          "flavor": "«Desarrollo siguió buscando la mecánica pirata perfecta. Coincidían en que diseño había estado buscando en el lugar correcto, así que empezaron continuando la búsqueda de palabra clave donde diseño la había dejado.» Dieron con la respuesta bastante pronto."
+        },
+        {
+          "title": "Una interacción con material existente puede forzar un cambio funcional y otro nominal",
+          "rules": "Un componente nuevo no solo tiene que funcionar: tiene que funcionar junto a todo lo ya publicado. Cuando una interacción lo rompe, la reparación suele tener dos partes: el arreglo mecánico y un cambio de nombre para que no se confunda con lo que era.",
+          "flavor": "Las fichas de oro encajaban perfectamente con los piratas hasta que «las pruebas mostraron que eran demasiado buenas con improvisar, de Aether Revolt, porque cada una producía en la práctica dos manás de cualquier color. Desarrollo añadió un giro a la activación y renombró las fichas como tesoro.»"
+        },
+        {
+          "title": "Nómbrale a cada subpareja su registro emocional",
+          "rules": "Los subarquetipos dentro de un grupo mayor tienen que sentirse distintos, no solo jugarse distinto. Elige un adjetivo para cada uno y deja que la asignación mecánica salga del adjetivo: el resultado es legible desde fuera y zanja una docena de discusiones pequeñas por dentro.",
+          "flavor": "Piratas: azul-negro «juega con la astucia», negro-rojo «con la crueldad», azul-rojo «con la picardía». Dinosaurios: rojo-verde «la ferocidad», verde-blanco «el tamaño», rojo-blanco «la agresividad». Cada adjetivo elige después los efectos."
+        },
+        {
+          "title": "El grupo no son solo sus miembros nombrados",
+          "rules": "Un tema construido sobre una categoría tendrá un agujero allí donde esa categoría escasee de forma natural, normalmente en la parte barata. Rellénalo con cosas que no son miembros pero se preocupan por los miembros: apoyan la estrategia sin diluir lo que la categoría significa.",
+          "flavor": "«Lo otro que hay que recordar de esta tribu es que no está hecha solo de dinosaurios, sino también de los muchos humanos del Imperio del Sol… hay numerosas cartas que no son dinosaurios pero mejoran si controlas al menos uno. Es una de las formas principales de rellenar la parte baja de la curva.»"
+        },
+        {
+          "title": "El objetivo que se parece a tu producción habitual es el barato",
+          "rules": "Dos encargos pueden parecer igual de difíciles y costar cosas muy distintas, según cuánto de lo que piden ya fabricas de todos modos. Averigua cuál te está pidiendo tu producción normal disfrazada, y presupuesta el tiempo del otro en consecuencia.",
+          "flavor": "«Los piratas querían ser furtivos y atacar, normalmente con cuerpos pequeños o medianos. Bueno, el Magic normal hace eso en volumen. Los dinosaurios, en cambio, querían ser monstruos grandes y aterradores con gran impacto. De eso no hay tanto en una edición típica.»"
+        },
+        {
+          "title": "Antes de suponer que un problema repetido será igual de duro, lista lo que ha cambiado",
+          "rules": "Reconocer que ya te enfrentaste a esta forma es útil; concluir que costará lo mismo, no. Enumera primero las diferencias entre entonces y ahora: a veces dos pequeñas eliminan casi toda la dificultad.",
+          "flavor": "Llenar una edición de dinosaurios se parecía a llenarla de dragones. «Por suerte, los dinosaurios tenían dos ventajas sobre los dragones. Una, vienen en más formas y tamaños… Segunda, aunque existían algunos dinosaurios voladores… eran sobre todo criaturas terrestres. Estas dos cosas juntas ayudaron muchísimo.»"
+        },
+        {
+          "title": "La pasada rutinaria de tapar huecos es donde aparece la respuesta",
+          "rules": "La fase de bajo estatus en la que solo estás haciendo suficiente cantidad de algo es la única con volumen real, y el volumen es lo que encuentra cosas. Dótala bien de personal y lee lo que sale de ella, en vez de tratarla como limpieza posterior al pensamiento.",
+          "flavor": "Desarrollo había probado mejoras tipo monstruosidad, restricciones de bloqueo y una mecánica de contadores estilo Phantom; «ninguna encajaba del todo». Entonces: «La solución al problema la resolvió en el tapado de huecos un hombre llamado John Stone. ¿Y si el poder de los dinosaurios fuera que no les gusta recibir daño?»"
+        },
+        {
+          "title": "Un tema construido sobre las cartas de fuera de la categoría se pelea consigo mismo",
+          "rules": "Si pertenecer a una categoría es el premio, y el disparo está fuera de esa categoría, cada copia del disparo es una copia que no es miembro. Los dos requisitos compiten por los mismos huecos del mazo, y esa tensión no se arregla salvo moviendo el tema.",
+          "flavor": "«Centrar un tema tribal en cartas que no son criaturas trae problemas. Quieres muchas cartas de criatura de la tribu para cobrar la sinergia, pero si la tribu exige muchas cartas que no son criaturas, tienes esa tensión incómoda.» Los tritones pasaron a un tema de contadores +1/+1."
+        },
+        {
+          "title": "Un argumento sólido para extenderse a territorio nuevo puede perder igualmente por sensación",
+          "rules": "Puedes construir un caso correcto de que una herramienta existente pertenece a un sitio donde nunca ha estado: la lógica de lo que a ese sitio le importa lo respaldará. Pruébalo igualmente, porque lo que suele matarlo no es un argumento sino una reacción.",
+          "flavor": "Impulso es primario en azul y no existe en verde. «Sam argumentó con fuerza que lo que más le importaría al verde en un entorno de hechizos sería hacer más grandes a sus criaturas, que es exactamente lo que hace impulso.» Lo probaron. «Al final resultó algo más complicado de lo que queríamos. Además, el impulso verde simplemente se sentía raro.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Rien qu'Ixalan, partie 3",
+      "dek": "Le développement résout les deux mécaniques manquantes : l'une en remarquant que le substitut était la réponse, l'autre pendant le bouchage de trous.",
+      "overview": "La conception a livré sans mécanique pirate ni mécanique dinosaure. L'équipe de Sam Stoddard a trouvé le raid en prenant son propre raccourci au pied de la lettre, et la fureur est sortie du travail de routine consistant à remplir les derniers emplacements.",
+      "takeaway": "« Pendant toute notre recherche d'une mécanique pirate, nous répétions vouloir une “mécanique du genre raid”. Eh bien, qui mieux que le raid pour tenir le rôle d'une mécanique du genre raid ? »",
+      "lessons": [
+        {
+          "title": "Cessez de chercher quelque chose comme X et essayez X",
+          "rules": "Les équipes se servent d'une chose existante comme raccourci pour décrire leur cible. Ce raccourci accumule de l'autorité sans jamais être évalué comme candidat, car chacun suppose qu'il s'agit d'en trouver un nouveau. Mettez-le sur la liste.",
+          "flavor": "Rosewater appelle cela un moment Daryl Hannah, du nom de l'actrice engagée pour un rôle décrit comme « du type Daryl Hannah ». « Il a suffi qu'une personne le dise à voix haute en réunion pour que l'équipe essaie simplement le raid. Il a évidemment obtenu le rôle. »"
+        },
+        {
+          "title": "Poursuivez la recherche de l'équipe précédente au lieu de la relancer",
+          "rules": "Hériter d'un problème non résolu invite à repartir de zéro, ce qui jette la carte des endroits où la réponse n'est pas. Lisez ce qu'ils ont essayé, jugez si la zone de recherche était bonne, et si oui, reprenez là où ils se sont arrêtés.",
+          "flavor": "« Le développement a poursuivi la recherche de la mécanique pirate parfaite. Ils convenaient que la conception avait cherché au bon endroit, alors ils ont commencé par continuer la recherche de mot-clé là où la conception s'était arrêtée. »"
+        },
+        {
+          "title": "Une interaction avec l'existant peut imposer un changement fonctionnel et un changement de nom",
+          "rules": "Un nouveau composant ne doit pas seulement fonctionner : il doit fonctionner avec tout ce qui est déjà publié. Quand une interaction le casse, la réparation a souvent deux volets — le correctif mécanique, et un renommage pour qu'on ne le confonde pas avec ce qu'il était.",
+          "flavor": "Les jetons d'or convenaient parfaitement aux pirates jusqu'à ce que « les tests montrent qu'ils étaient trop forts avec l'improvisation d'Aether Revolt, puisque chacun produisait en pratique deux manas de n'importe quelle couleur. L'équipe a ajouté un engagement au coût d'activation et rebaptisé les jetons en trésors. »"
+        },
+        {
+          "title": "Nommez le registre émotionnel de chaque sous-paire",
+          "rules": "Les sous-archétypes d'un groupe doivent se ressentir différemment, pas seulement se jouer différemment. Choisissez un adjectif pour chacun, puis laissez l'attribution mécanique découler de l'adjectif : le résultat est lisible de l'extérieur et tranche une douzaine de petits débats à l'intérieur.",
+          "flavor": "Les pirates : bleu-noir met en avant « leur habileté », noir-rouge « leur cruauté », bleu-rouge « leur roublardise ». Les dinosaures : rouge-vert « la férocité », vert-blanc « la taille », rouge-blanc « l'agressivité »."
+        },
+        {
+          "title": "Le groupe, ce ne sont pas seulement ses membres nommés",
+          "rules": "Un thème bâti sur une catégorie aura un trou là où cette catégorie est naturellement rare — d'ordinaire le bas de la courbe. Remplissez-le avec des choses qui n'en sont pas membres mais s'en soucient : elles soutiennent la stratégie sans diluer le sens de la catégorie.",
+          "flavor": "« L'autre chose à retenir sur cette tribu, c'est qu'elle n'est pas faite que de dinosaures mais aussi des nombreux humains de l'Empire du Soleil… de nombreuses cartes ne sont pas des dinosaures mais s'améliorent si vous en contrôlez au moins un. C'est l'un des principaux moyens de remplir le bas de la courbe. »"
+        },
+        {
+          "title": "La cible qui ressemble à votre production habituelle est la moins chère",
+          "rules": "Deux cahiers des charges peuvent sembler aussi difficiles et coûter des sommes très différentes, selon la part de ce qu'ils demandent que vous fabriquez déjà. Déterminez lequel réclame votre production normale déguisée, et budgétez le temps de l'autre en conséquence.",
+          "flavor": "« Les pirates voulaient être sournois et attaquer, avec des corps petits à moyens. Or le Magic normal fait cela en volume. Les dinosaures, eux, voulaient être de gros monstres effrayants à fort impact. Il n'y en a pas tant que ça dans une édition typique. »"
+        },
+        {
+          "title": "Avant de supposer qu'un problème récurrent sera aussi dur, listez ce qui a changé",
+          "rules": "Reconnaître que vous avez déjà affronté cette forme est utile ; en conclure que cela coûtera pareil ne l'est pas. Énumérez d'abord les différences entre alors et maintenant : parfois deux petites suppriment l'essentiel de la difficulté.",
+          "flavor": "Remplir une édition de dinosaures ressemblait à la remplir de dragons. « Heureusement, les dinosaures avaient deux avantages sur les dragons. Un, ils viennent en plus de formes et de tailles… Deux, s'il existait quelques dinosaures volants… ils étaient surtout terrestres. »"
+        },
+        {
+          "title": "C'est dans le bouchage de trous que la réponse surgit",
+          "rules": "La phase peu prestigieuse où l'on fabrique simplement assez de quelque chose est la seule qui ait du volume, et c'est le volume qui trouve. Dotez-la correctement et lisez ce qui en sort, au lieu de la traiter comme un nettoyage après la réflexion.",
+          "flavor": "L'équipe avait essayé des améliorations façon monstruosité, des restrictions de blocage, une mécanique de marqueurs façon Phantom ; « aucune ne convenait tout à fait ». Puis : « La solution a été trouvée en bouchage de trous par un homme nommé John Stone. Et si la force des dinosaures était qu'ils n'aiment pas être blessés ? »"
+        },
+        {
+          "title": "Un thème bâti sur les cartes hors catégorie se combat lui-même",
+          "rules": "Si appartenir à une catégorie est la récompense et que le déclencheur est hors de cette catégorie, chaque exemplaire du déclencheur est un exemplaire qui n'en est pas membre. Les deux exigences se disputent les mêmes emplacements, et la tension ne se règle qu'en déplaçant le thème.",
+          "flavor": "« Centrer un thème typal sur des cartes qui ne sont pas des créatures pose problème. On veut beaucoup de créatures de la tribu pour payer la synergie, mais si la tribu exige beaucoup de non-créatures, on a cette tension inconfortable. » Les ondins sont passés à un thème de marqueurs +1/+1."
+        },
+        {
+          "title": "Un argument solide pour s'étendre en terrain neuf peut quand même perdre au ressenti",
+          "rules": "On peut construire un raisonnement correct montrant qu'un outil existant a sa place là où il n'est jamais allé : la logique de ce qui compte là-bas le soutiendra. Testez quand même, car ce qui le tue est en général non pas un argument mais une réaction.",
+          "flavor": "La prouesse est primaire en bleu et absente du vert. « Sam a soutenu avec force que ce à quoi le vert tiendrait le plus dans un environnement à sorts serait de grossir ses créatures — exactement ce que fait la prouesse. » Ils ont essayé. « Au final c'était un peu plus compliqué que voulu. Et la prouesse verte donnait une impression bizarre. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Só Ixalan, parte 3",
+      "dek": "O desenvolvimento resolve as duas mecânicas que faltavam: uma ao perceber que o substituto era a resposta, e outra durante o preenchimento de buracos.",
+      "overview": "O design entregou sem mecânica de pirata nem de dinossauro. O time de Sam Stoddard achou ataque levando o próprio atalho ao pé da letra, e fúria saiu do trabalho rotineiro de preencher as últimas vagas.",
+      "takeaway": "“Durante toda a busca por uma mecânica pirata, ficávamos dizendo que queríamos uma ‘mecânica tipo ataque'. Bom, quem melhor para ocupar o posto de mecânica tipo ataque do que ataque?”",
+      "lessons": [
+        {
+          "title": "Pare de caçar algo parecido com X e experimente X",
+          "rules": "Times usam algo existente como atalho para o alvo que estão descrevendo. Esse atalho acumula autoridade sem nunca ser avaliado como candidato, porque todos supõem que a tarefa é achar um novo. Ponha-o na lista.",
+          "flavor": "Rosewater chama isso de momento Daryl Hannah, pela atriz escalada para um papel descrito como “tipo Daryl Hannah”. “Bastou uma pessoa dizer isso em voz alta numa reunião de desenvolvimento para o time simplesmente experimentar ataque. Obviamente, ele ficou com o papel.”"
+        },
+        {
+          "title": "Continue a busca do time anterior em vez de reiniciá-la",
+          "rules": "Herdar um problema não resolvido convida a recomeçar do zero, o que joga fora o mapa de onde a resposta não está. Leia o que eles tentaram, decida se a área de busca estava certa e, se estava, continue de onde pararam.",
+          "flavor": "“O desenvolvimento continuou procurando a mecânica pirata perfeita. Eles concordavam que o design tinha procurado no lugar certo, então começaram continuando a busca por palavra-chave de onde o design havia parado.”"
+        },
+        {
+          "title": "Uma interação com o material existente pode forçar mudança funcional e nominal",
+          "rules": "Um componente novo não só precisa funcionar: precisa funcionar junto de tudo que já foi publicado. Quando uma interação o quebra, o conserto costuma ter duas partes — o ajuste mecânico e uma renomeação para que não seja confundido com o que era.",
+          "flavor": "As fichas de ouro serviam perfeitamente aos piratas até que “os testes mostraram que eram boas demais com improvisar, de Aether Revolt, porque cada uma na prática produzia dois manas de qualquer cor. O time acrescentou um virar ao custo de ativação e renomeou as fichas para tesouro.”"
+        },
+        {
+          "title": "Nomeie o registro emocional de cada subpar",
+          "rules": "Subarquétipos dentro de um grupo maior precisam parecer diferentes, não só jogar diferente. Escolha um adjetivo para cada um e deixe a atribuição mecânica sair do adjetivo: o resultado é legível de fora e encerra uma dúzia de discussões pequenas por dentro.",
+          "flavor": "Piratas: azul-preto realça “a astúcia”, preto-vermelho “a crueldade”, azul-vermelho “a malandragem”. Dinossauros: vermelho-verde “a ferocidade”, verde-branco “o tamanho”, vermelho-branco “a agressividade”."
+        },
+        {
+          "title": "O grupo não é só seus membros nomeados",
+          "rules": "Um tema construído sobre uma categoria terá um buraco onde essa categoria é naturalmente escassa — em geral na ponta barata. Preencha-o com coisas que não são membros mas se importam com membros: elas apoiam a estratégia sem diluir o que a categoria significa.",
+          "flavor": "“A outra coisa a lembrar sobre esta tribo é que ela não é feita só de dinossauros, mas também dos muitos humanos do Império do Sol… há inúmeras cartas que não são dinossauros mas melhoram se você controla pelo menos um. É um dos principais jeitos de preencher a parte baixa da curva.”"
+        },
+        {
+          "title": "O alvo que se parece com a sua produção padrão é o barato",
+          "rules": "Dois briefings podem parecer igualmente difíceis e custar coisas muito diferentes, conforme quanto do que pedem você já fabrica de qualquer jeito. Descubra qual deles está pedindo a sua produção normal fantasiada, e orce o tempo do outro de acordo.",
+          "flavor": "“Os piratas queriam ser furtivos e atacar, geralmente com corpos pequenos a médios. Bom, o Magic normal faz isso em volume. Os dinossauros, em contraste, queriam ser monstros grandes e assustadores de grande impacto. Disso não há tanto numa coleção típica.”"
+        },
+        {
+          "title": "Antes de supor que um problema repetido é igualmente difícil, liste o que mudou",
+          "rules": "Reconhecer que você já enfrentou este formato é útil; concluir que vai custar o mesmo, não. Enumere primeiro as diferenças entre então e agora: às vezes duas pequenas removem quase toda a dificuldade.",
+          "flavor": "Encher uma coleção de dinossauros lembrava enchê-la de dragões. “Por sorte, os dinossauros tinham duas vantagens sobre os dragões. Uma, vêm em mais formas e tamanhos… Segunda, embora existissem alguns dinossauros voadores… eram na maioria criaturas terrestres.”"
+        },
+        {
+          "title": "É na rotina de preencher buracos que a resposta aparece",
+          "rules": "A fase de baixo prestígio em que você só está fazendo quantidade suficiente de algo é a única com volume real, e volume é o que encontra coisas. Coloque gente nela e leia o que sai dali, em vez de tratá-la como faxina depois que o pensamento acabou.",
+          "flavor": "O time tinha tentado melhorias tipo monstruosidade, restrições de bloqueio e uma mecânica de marcadores estilo Phantom; “nenhuma encaixava direito”. Então: “A solução do problema foi resolvida no preenchimento de buracos por um homem chamado John Stone. E se o poder dos dinossauros fosse não gostarem de levar dano?”"
+        },
+        {
+          "title": "Um tema construído sobre as cartas de fora da categoria briga consigo mesmo",
+          "rules": "Se pertencer a uma categoria é o prêmio e o gatilho está fora dela, então cada cópia do gatilho é uma cópia que não é membro. As duas exigências disputam as mesmas vagas do deck, e a tensão não tem conserto a não ser mover o tema.",
+          "flavor": "“Focar um tema tipal em cartas que não são criaturas traz problemas. Você quer muitas criaturas da tribo para pagar a sinergia, mas se a tribo exige muitas cartas que não são criaturas, você tem essa tensão desconfortável.” Os tritões passaram a um tema de marcadores +1/+1."
+        },
+        {
+          "title": "Um argumento sólido para se estender a território novo ainda pode perder no sentimento",
+          "rules": "Dá para construir um caso correto de que uma ferramenta existente pertence a um lugar onde ela nunca esteve: a lógica do que aquele lugar valoriza vai apoiá-la. Teste mesmo assim, porque o que costuma matá-la não é um argumento, e sim uma reação.",
+          "flavor": "Ímpeto é primário no azul e ausente no verde. “Sam argumentou com força que o que o verde mais valorizaria num ambiente de mágicas seria deixar suas criaturas maiores, que é exatamente o que ímpeto faz.” Testaram. “No fim, era um pouco mais complicado do que gostaríamos. Além disso, ímpeto verde simplesmente parecia estranho.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "只谈依克撒兰，下",
+      "dek": "开发部把缺的那两个机制补上了：一个是因为有人发现「占位用的那个」其实就是答案，另一个则出自补洞的例行工作。",
+      "overview": "设计交接时，海盗机制和恐龙机制都还没着落。萨姆·斯托达德的团队把自己那句口头简称当真，于是找到了「突袭」；而「暴怒」是在填补最后几个卡位的日常工作里冒出来的。",
+      "takeaway": "「在整个寻找海盗机制的过程中，我们一直在说我们想要一个『类似突袭的机制』。那么，还有谁比突袭更适合来演一个『类似突袭的机制』呢？」",
+      "lessons": [
+        {
+          "title": "别再找「像X那样的东西」了，直接试试X",
+          "rules": "团队会拿某个现成的东西，当作描述目标时的口头简称。这个简称会不断积累权威，却从来没有被当成候选评估过——因为所有人都默认，任务是去找一个新的。把它列进候选名单。",
+          "flavor": "罗斯瓦特管这叫「达丽尔·汉纳时刻」，源自那位女演员拿到一个被形容为「达丽尔·汉纳那一型」的角色。「在整个寻找海盗机制的过程中，我们一直说我们想要一个『类似突袭的机制』……只需要有一个人在开发会上把这话说出口，开发组就直接去试突袭了。它当然拿到了这个角色。」"
+        },
+        {
+          "title": "接着上一支队伍的搜索往下走，而不是重新开始",
+          "rules": "接手一个没解决的问题，会诱使你从头再来——而那等于扔掉了一张「答案不在哪里」的地图。读一遍他们试过什么，判断那片搜索区域对不对；如果对，就从他们停下的地方接着走。",
+          "flavor": "「开发部继续寻找完美的海盗机制。他们认同设计部一直是在正确的地方找，所以他们的起点，就是从设计部停下的地方继续这场关键字搜索。」他们相当早就拿到了答案。"
+        },
+        {
+          "title": "和既有材料的一次互动，可能同时逼出功能上和名称上的两处改动",
+          "rules": "一个新部件不只是要能用，它还得和所有已经发出去的东西一起能用。当某次互动把它弄坏时，修复往往分成两半：机制上的修正，以及一次改名——好让它不再被误认成它原来的样子。",
+          "flavor": "黄金衍生物本来和海盗完美契合，直到「试玩显示，黄金衍生物和《以太之乱》的『临时应变』配合太强了，因为它实际上让每一个都能产出两点任意颜色的法术力。开发组在启动式异能里加了『横置』来阻断这个互动，并把这种衍生物改名为宝藏。」"
+        },
+        {
+          "title": "给每一个子组合命名它的情绪调性",
+          "rules": "一个大群体内部的子原型，需要「感觉」不同，而不只是「打法」不同。给每一个挑一个形容词，然后让机制分配从那个形容词里长出来——结果是从外面看得懂，而且在里面一口气了结了十几场小争论。",
+          "flavor": "海盗：蓝黑突出「他们的狡黠」，黑红突出「他们的狠辣」，蓝红突出「他们的耍花招」。恐龙：红绿是「凶猛」，绿白是「体型」，红白是「攻击性」。然后由每个形容词去挑效果——狡黠配神器与反击，体型配「在意防御力」。"
+        },
+        {
+          "title": "这个群体不只由挂着它名字的成员构成",
+          "rules": "一个建立在某个类别之上的主题，会在这个类别天然稀缺的地方留下一个洞——通常是费用低的那一端。用那些「不是成员、但在意成员」的东西去填它：它们支撑了这套策略，又没有稀释这个类别本身的含义。",
+          "flavor": "「关于这个部族还要记住一件事：它不只由恐龙组成，还包括构成太阳帝国的众多人类……有大量不是恐龙、但只要你操控至少一只恐龙就会变强的牌。这是我们能把生物费用曲线的低端填满的主要手段之一。」"
+        },
+        {
+          "title": "那个「长得像你日常产出」的目标，是便宜的那一个",
+          "rules": "两份任务书可以看上去一样难，实际成本却相差极大——取决于它们要的东西里，有多少是你本来就在生产的。弄清楚哪一份只是让你的常规产出换了身衣服，然后照此给另一份留出时间预算。",
+          "flavor": "「海盗想要偷偷摸摸地进攻，身材通常是中小号。而普通的《万智牌》本来就在大量生产这种东西。恐龙则相反，它们想当那种对局势有巨大影响的、又大又吓人的怪物。而这种东西在一个典型系列里就没那么多了。」海盗机制很早就定了；恐龙机制拖了很久。"
+        },
+        {
+          "title": "在断定「这个重复出现的难题一样难」之前，先列出有哪些不同",
+          "rules": "认出「我以前遇到过这个形状」是有用的；由此断定「它会一样贵」则不是。先把当时和现在之间的差别一条条列出来——有时候两个小差别就消掉了大部分难度。",
+          "flavor": "把一个系列填满恐龙，和把一个系列填满龙很像。「幸运的是，恐龙比龙有两个优势。第一，它们的形状和大小种类更多……第二，虽然确实存在少数会飞的恐龙……但它们大多是地面生物。这两点加在一起帮了大忙。」"
+        },
+        {
+          "title": "答案往往出现在「补洞」这道例行工序里",
+          "rules": "那个地位不高、只是在「把数量凑够」的阶段，是唯一一个真正有产量的阶段——而找到东西靠的正是产量。给它配足人手，并且认真读它产出的东西，而不是把它当成「思考结束之后的收尾打扫」。",
+          "flavor": "开发组试过类似「壮观」的一次性升级、试过限制小东西阻挡、试过类似「幻影」的指示物机制；「没有一个真正合适」。然后：「这个问题的解法，是一位叫约翰·斯通的人在补洞时解决的。如果恐龙的强大之处，就在于它们不喜欢被弄伤呢？」"
+        },
+        {
+          "title": "一个建立在「类别之外的牌」上的主题，会自己和自己打架",
+          "rules": "如果「属于某个类别」是那份回报，而触发条件却在这个类别之外，那么每一张触发牌都是一张「不属于该类别」的牌。两项要求在争夺同一批牌位，而这种张力除了挪走主题之外没有别的解法。",
+          "flavor": "「把一个部族主题聚焦在非生物牌上会带来问题。你想要很多该部族的生物牌来兑现协同，但如果这个部族要求大量非生物牌，你就有了这种别扭的张力。」人鱼后来改成了+1/+1指示物主题。"
+        },
+        {
+          "title": "一个「把它扩展到新地盘」的扎实论证，仍然可能输在感觉上",
+          "rules": "你可以为「某件现成工具属于它从没去过的那个地方」构建出一套正确的论证——那个地方在意什么，其逻辑会站在你这边。但还是要去试，因为最终杀死它的，通常不是一个论点，而是一种反应。",
+          "flavor": "「战技」在蓝色是主色，在绿色则完全没有。「萨姆给出了一个很有力的论证：在一个『咒语很重要』的环境里，绿色最会在意的事情就是让自己的生物变大，而这正是战技所做的。」他们试了。「最后它比我们希望的稍微复杂了一点。另外，绿色的战技就是感觉怪。」"
+        }
+      ]
+    }
+  }
+}
