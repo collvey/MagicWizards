@@ -1,0 +1,359 @@
+{
+  "id": "stories-dominaria-part-1-2018-04-16",
+  "slug": "stories-dominaria-part-1-2018-04-16",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2018-04-16",
+  "series": { "id": "stories-of-dominaria", "order": 1, "total": 3 },
+  "tags": [
+    "dominaria",
+    "card-design",
+    "sagas",
+    "historic",
+    "nostalgia",
+    "naming"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/stories-dominaria-part-1-2018-04-16",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T04:14:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "W" },
+    { "n": 10, "color": "G" },
+    { "n": 11, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "The Stories of Dominaria, Part 1",
+      "dek": "Card-by-card design stories from the 25th-anniversary set, starting with a Twitter poll that produced a result nobody in R&D predicted.",
+      "overview": "The first vision design meeting began with a whiteboard: what will players expect to see? With more than thirty sets set on the plane, the list was always going to be longer than the set. These are the ones that made it, and why.",
+      "takeaway": "Two habits run through the whole batch. Design the last chapter first and derive the earlier ones from it. And make each reference legible to someone who's never heard of it — a powerful sword is cool even if you don't know its history.",
+      "lessons": [
+        {
+          "title": "A cheap public measurement is worth it for the surprises",
+          "rules": "The point of asking the audience directly isn't confirmation. It's the one result your experts got wrong, which is information you had no other way to obtain.",
+          "flavor": "Rosewater runs Head-to-Head polls on Twitter and prints the ladder for R&D to fill out March Madness–style. On the creature-type vote, “there was one outcome that most of R&D had not anticipated. Wizards were doing exceedingly well.” Dominaria vision design started soon after."
+        },
+        {
+          "title": "Name it so a newcomer can place it",
+          "rules": "Insiders already know what a thing is called; the name's remaining job is to orient everyone else. Prefer the version that tells a stranger where it belongs, even over the one the veterans use.",
+          "flavor": "The Antiquities War, not the Brothers' War. In world, most Dominarians call it that. “We tried to use the naming to help players less familiar with the past have a sense of where the story came from.” And “antiquities” carries the artifact flavour."
+        },
+        {
+          "title": "Put the expectations on the board before you start choosing",
+          "rules": "A project with a long history arrives carrying obligations you haven't enumerated. Write them all down first, knowing most won't fit, so what you cut is a decision rather than an oversight.",
+          "flavor": "The first vision design meeting opened with “What will players expect to see in the set?” More than thirty sets to pull from, “inevitably going to be way more things that could be in the set than would actually end up in the set.” The Blackblade was called out first."
+        },
+        {
+          "title": "Make the reference legible at two levels",
+          "rules": "A callback that only works for people who get it wastes the slot on everyone else. Choose the version that stands on its own, and let the history be a bonus for those who have it.",
+          "flavor": "They picked the sword over another wielder — Equipment exists now, so your creatures can carry it. And: “one of my concerns was making sure that newer players who wouldn't know of the history could appreciate the items in context. A powerful sword is cool even if you don't know its history.”"
+        },
+        {
+          "title": "Don't gate the fun behind a draw you might not get",
+          "rules": "A restriction that makes something thematically tighter can also make it dead in hand. Prefer the version that rewards the ideal case over the one that requires it.",
+          "flavor": "Blackblade Reforged costs less to equip to a legendary creature. “We talked about making it only equippable to legendary creatures, but decided it wouldn't be fun to draw it and never get to equip it because you haven't drawn any of your legendary creatures yet.”"
+        },
+        {
+          "title": "A superset that's only partly relevant is harder than the subset",
+          "rules": "Widening a term to catch more cases looks like generosity and reads as homework, because now the reader has to work out which members of the wider class qualify. Narrow it back and write the rule down.",
+          "flavor": "Blessing of Belzenlok went from legendary to historic to catch artifact creatures, and testers found it confusing “because it only referred to a subset of historic cards.” It went back. The resulting rule: if something only affects creatures, say legendary creatures."
+        },
+        {
+          "title": "Find the action that literally performs the story beat",
+          "rules": "Depicting an event is weaker than enacting it. Look for the case where the ordinary game action and the narrative event are the same sentence.",
+          "flavor": "Nissa leaves the Gatewatch. All the Oath cards are enchantments — so a card destroying an enchantment “could literally break an Oath.” Green, so a Naturalize, with a land rider because Nissa is bound to land."
+        },
+        {
+          "title": "Notice the pattern you made by accident, then decide about it",
+          "rules": "Regularities emerge from independent decisions and the audience will spot them. You then owe the pattern a deliberate answer — continue it, or break it for a stated reason.",
+          "flavor": "Liliana's demons came out 6/6, 7/7, and 8/8 in order of death. “We never set out to make a pattern. We didn't even design them in chronological order.” Belzenlok should have been a 9/9, but “it's difficult to properly cost a 9/9 and still make it tournament relevant.” He's a 6/6."
+        },
+        {
+          "title": "Let the two halves disagree when the flavour is better for it",
+          "rules": "Internal symmetry is a default, not a requirement. If the mismatch says something true about the subject, the tidier version is the worse one.",
+          "flavor": "Daring Archaeologist has one ability about artifacts and another referencing historic. “Shouldn't the two be lined up? I argued no… The archeologist recovers specific artifacts, but is still a student of broader history.”"
+        },
+        {
+          "title": "Keep the orphan when the flavour survives its theme",
+          "rules": "When the thing a piece was built for disappears, the reflex is to strip out the part that referenced it. Check first whether that part still works on its own terms.",
+          "flavor": "Dub was made for Salad's Knight tribal theme. Salad became Core Set 2019 and only a trace of Knight tribal reached Dominaria. “We talked about taking the rider off… but the flavor was so perfect (as was the name) that we left it alone.”"
+        },
+        {
+          "title": "Design the ending first and derive the beginning from it",
+          "rules": "In anything with a shape, the final beat is the one that has to land. Fix it, then work backwards — the earlier parts have a job now, which is to make it arrive well.",
+          "flavor": "The Eldest Reborn began with its third chapter reanimating a planeswalker, widened to creature-or-planeswalker, which let chapter one make opponents sacrifice one — Bolas dies, Bolas returns. Chapter two is discard, because what they discard is what you reanimate."
+        }
+      ]
+    },
+    "es": {
+      "title": "Las historias de Dominaria, parte 1",
+      "dek": "Historias de diseño carta por carta de la edición del 25.º aniversario, empezando por una encuesta de Twitter con un resultado que nadie en I+D predijo.",
+      "overview": "La primera reunión de diseño de visión empezó con una pizarra: ¿qué esperarán ver los jugadores? Con más de treinta ediciones ambientadas en el plano, la lista siempre iba a ser más larga que la edición. Estas son las que entraron, y por qué.",
+      "takeaway": "Dos hábitos recorren todo el lote. Diseña el último capítulo primero y deriva los anteriores de él. Y haz que cada referencia sea legible para quien no la conoce: una espada poderosa mola aunque no sepas su historia.",
+      "lessons": [
+        {
+          "title": "Una medición pública barata vale por las sorpresas",
+          "rules": "El sentido de preguntar directamente al público no es la confirmación. Es ese único resultado que tus expertos fallaron, que es información que no tenías otra forma de obtener.",
+          "flavor": "Rosewater hace encuestas Head-to-Head en Twitter e imprime el cuadro para que I+D lo rellene. En la votación de tipos de criatura, «hubo un resultado que la mayoría de I+D no había anticipado. Los magos iban excepcionalmente bien.»"
+        },
+        {
+          "title": "Nómbralo para que un recién llegado pueda ubicarlo",
+          "rules": "Los de dentro ya saben cómo se llama algo; el trabajo que le queda al nombre es orientar a los demás. Prefiere la versión que le dice a un extraño dónde encaja, incluso frente a la que usan los veteranos.",
+          "flavor": "La Guerra de las Antigüedades, no la Guerra de los Hermanos. En el mundo, la mayoría de dominarianos la llama así. «Intentamos usar el nombre para ayudar a los jugadores menos familiarizados con el pasado a situar de dónde venía la historia.»"
+        },
+        {
+          "title": "Pon las expectativas en la pizarra antes de empezar a elegir",
+          "rules": "Un proyecto con mucha historia llega cargado de obligaciones que no has enumerado. Escríbelas todas primero, sabiendo que la mayoría no cabrá, para que lo que cortes sea una decisión y no un descuido.",
+          "flavor": "La primera reunión de diseño de visión abrió con «¿qué esperarán ver los jugadores en la edición?». Más de treinta ediciones de las que tirar, «inevitablemente muchas más cosas de las que acabarían entrando». Lo primero que salió fue la Blackblade."
+        },
+        {
+          "title": "Haz que la referencia sea legible en dos niveles",
+          "rules": "Un guiño que solo funciona para quien lo pilla desperdicia el hueco para todos los demás. Elige la versión que se sostiene sola y deja que la historia sea un extra para quien la tenga.",
+          "flavor": "Escogieron la espada en vez de otro portador: ahora existe el equipo, así que tus criaturas pueden llevarla. Y: «una de mis preocupaciones era que los jugadores nuevos pudieran apreciar los objetos en contexto. Una espada poderosa mola aunque no sepas su historia.»"
+        },
+        {
+          "title": "No pongas la diversión detrás de un robo que quizá no llegue",
+          "rules": "Una restricción que aprieta la ambientación también puede dejar la carta muerta en la mano. Prefiere la versión que premia el caso ideal a la que lo exige.",
+          "flavor": "Blackblade Reforged cuesta menos equiparla a una criatura legendaria. «Hablamos de hacerla equipable solo a criaturas legendarias, pero decidimos que no sería divertido robarla y no poder equiparla nunca por no haber robado ninguna legendaria.»"
+        },
+        {
+          "title": "Un superconjunto solo parcialmente relevante es más difícil que el subconjunto",
+          "rules": "Ampliar un término para abarcar más casos parece generosidad y se lee como deberes, porque ahora el lector tiene que averiguar qué miembros de la clase mayor cuentan. Estréchalo de nuevo y escribe la regla.",
+          "flavor": "Blessing of Belzenlok pasó de legendario a histórico para alcanzar criaturas artefacto, y a los probadores les confundía «porque solo se refería a un subconjunto de las cartas históricas». Volvió atrás. La regla resultante: si solo afecta criaturas, di criaturas legendarias."
+        },
+        {
+          "title": "Busca la acción que literalmente ejecuta el momento de la historia",
+          "rules": "Representar un suceso es más débil que ejecutarlo. Busca el caso en que la acción normal del juego y el suceso narrativo son la misma frase.",
+          "flavor": "Nissa deja la Guardia. Todas las cartas de Juramento son encantamientos, así que una carta que destruye un encantamiento «podía literalmente romper un juramento». Verde, así que un Naturalize, con un extra de tierra porque Nissa está ligada a la tierra."
+        },
+        {
+          "title": "Fíjate en el patrón que hiciste por accidente y luego decide",
+          "rules": "Las regularidades emergen de decisiones independientes y el público las verá. A partir de ahí le debes al patrón una respuesta deliberada: continuarlo, o romperlo por un motivo declarado.",
+          "flavor": "Los demonios de Liliana salieron 6/6, 7/7 y 8/8 en orden de muerte. «Nunca nos propusimos hacer un patrón.» Belzenlok debería haber sido un 9/9, pero «es difícil costear bien un 9/9 y que siga siendo relevante en torneo». Es un 6/6."
+        },
+        {
+          "title": "Deja que las dos mitades discrepen cuando la ambientación gane con ello",
+          "rules": "La simetría interna es un valor por defecto, no un requisito. Si el desajuste dice algo verdadero sobre el sujeto, la versión más ordenada es la peor.",
+          "flavor": "Daring Archaeologist tiene una habilidad sobre artefactos y otra que referencia lo histórico. «¿No deberían estar alineadas? Yo argumenté que no… El arqueólogo recupera artefactos concretos, pero sigue siendo estudioso de la historia en general.»"
+        },
+        {
+          "title": "Conserva al huérfano cuando la ambientación sobrevive a su tema",
+          "rules": "Cuando desaparece aquello para lo que se hizo una pieza, el reflejo es quitar la parte que lo referenciaba. Comprueba antes si esa parte sigue funcionando por sí sola.",
+          "flavor": "Dub se hizo para el tema tribal de caballeros de Salad. Salad se convirtió en Core Set 2019 y a Dominaria solo llegó un rastro. «Hablamos de quitar el añadido… pero la ambientación era tan perfecta (y el nombre también) que lo dejamos.»"
+        },
+        {
+          "title": "Diseña el final primero y deriva el principio de él",
+          "rules": "En cualquier cosa con forma, el último tiempo es el que tiene que aterrizar. Fíjalo y trabaja hacia atrás: las partes anteriores ya tienen un trabajo, que es hacer que llegue bien.",
+          "flavor": "The Eldest Reborn empezó con su tercer capítulo reanimando un planeswalker, se amplió a criatura o planeswalker, y eso permitió que el primer capítulo hiciera sacrificar uno a los rivales. El segundo es descarte, porque lo que descartan es lo que reanimas."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Les histoires de Dominaria, partie 1",
+      "dek": "Histoires de conception carte par carte de l'édition du 25e anniversaire, à commencer par un sondage Twitter au résultat que personne à la R&D n'avait prévu.",
+      "overview": "La première réunion de conception de vision a commencé par un tableau blanc : qu'est-ce que les joueurs s'attendent à voir ? Avec plus de trente éditions situées sur ce plan, la liste allait forcément dépasser l'édition.",
+      "takeaway": "Deux habitudes traversent tout le lot. Concevoir le dernier chapitre en premier et en déduire les précédents. Et rendre chaque référence lisible pour qui l'ignore : une épée puissante est cool même sans en connaître l'histoire.",
+      "lessons": [
+        {
+          "title": "Une mesure publique bon marché vaut pour ses surprises",
+          "rules": "L'intérêt d'interroger le public directement n'est pas la confirmation. C'est le seul résultat que vos experts ont manqué, et c'est une information que vous n'aviez aucun autre moyen d'obtenir.",
+          "flavor": "Rosewater tient des sondages Head-to-Head sur Twitter et imprime le tableau pour que la R&D le remplisse. Sur le vote des types de créatures, « il y a eu un résultat que la plupart de la R&D n'avait pas anticipé : les sorciers marchaient très fort »."
+        },
+        {
+          "title": "Nommez-le pour qu'un nouveau venu puisse le situer",
+          "rules": "Les initiés savent déjà comment la chose s'appelle ; il reste au nom à orienter tous les autres. Préférez la version qui dit à un étranger où cela se range, même face à celle qu'emploient les vétérans.",
+          "flavor": "La Guerre des Antiquités, pas la Guerre des Frères. Dans le monde, la plupart des Dominariens l'appellent ainsi. « Nous avons cherché à aider par le nom les joueurs moins familiers du passé à situer d'où venait l'histoire. »"
+        },
+        {
+          "title": "Mettez les attentes au tableau avant de choisir",
+          "rules": "Un projet à longue histoire arrive chargé d'obligations que vous n'avez pas listées. Écrivez-les toutes d'abord, en sachant que la plupart ne tiendront pas, pour que vos coupes soient des décisions et non des oublis.",
+          "flavor": "La première réunion s'est ouverte sur « qu'est-ce que les joueurs s'attendent à voir ? ». Plus de trente éditions à puiser, « forcément bien plus de choses possibles que de choses retenues ». La Blackblade a été citée en premier."
+        },
+        {
+          "title": "Rendez la référence lisible à deux niveaux",
+          "rules": "Un clin d'œil qui ne fonctionne que pour les initiés gâche la place pour tous les autres. Choisissez la version qui tient debout seule, et laissez l'histoire être un bonus pour qui la possède.",
+          "flavor": "Ils ont pris l'épée plutôt qu'un autre porteur : l'équipement existe désormais. Et : « je tenais à ce que les nouveaux joueurs, ignorant l'histoire, puissent apprécier les objets en contexte. Une épée puissante est cool même sans en connaître l'histoire. »"
+        },
+        {
+          "title": "Ne mettez pas le plaisir derrière une pioche incertaine",
+          "rules": "Une restriction qui resserre l'ambiance peut aussi rendre la carte morte en main. Préférez la version qui récompense le cas idéal à celle qui l'exige.",
+          "flavor": "Blackblade Reforged coûte moins cher à attacher à une créature légendaire. « On a envisagé de la réserver aux légendaires, mais ce ne serait pas amusant de la piocher et de ne jamais pouvoir l'attacher faute de légendaire. »"
+        },
+        {
+          "title": "Un sur-ensemble à moitié pertinent est plus dur que le sous-ensemble",
+          "rules": "Élargir un terme pour attraper plus de cas ressemble à de la générosité et se lit comme un devoir, car le lecteur doit maintenant déterminer quels membres comptent. Resserrez et écrivez la règle.",
+          "flavor": "Blessing of Belzenlok est passée de légendaire à historique pour toucher les créatures-artefacts, et les testeurs trouvaient cela confus « parce que cela ne visait qu'un sous-ensemble des cartes historiques ». Retour en arrière, et une règle en est sortie."
+        },
+        {
+          "title": "Trouvez l'action qui accomplit littéralement le moment du récit",
+          "rules": "Représenter un événement est plus faible que l'accomplir. Cherchez le cas où l'action ordinaire du jeu et l'événement narratif sont la même phrase.",
+          "flavor": "Nissa quitte la Garde. Toutes les cartes de Serment sont des enchantements, donc une carte détruisant un enchantement « pouvait littéralement briser un serment ». En vert, donc un Naturalize, avec un terrain en prime."
+        },
+        {
+          "title": "Repérez le motif créé par accident, puis tranchez",
+          "rules": "Des régularités émergent de décisions indépendantes et le public les verra. Vous devez alors au motif une réponse délibérée : le poursuivre, ou le rompre pour une raison énoncée.",
+          "flavor": "Les démons de Liliana sont sortis 6/6, 7/7, 8/8 dans l'ordre de leur mort. « Nous n'avions jamais voulu créer un motif. » Belzenlok aurait dû être un 9/9, mais « un 9/9 est difficile à coster tout en restant pertinent en tournoi ». Il est 6/6."
+        },
+        {
+          "title": "Laissez les deux moitiés diverger quand l'ambiance y gagne",
+          "rules": "La symétrie interne est un défaut, pas une exigence. Si le décalage dit quelque chose de vrai sur le sujet, la version plus propre est la moins bonne.",
+          "flavor": "Daring Archaeologist a une capacité sur les artefacts et une autre référant à l'historique. « Ne devraient-elles pas s'aligner ? J'ai dit non… L'archéologue récupère des artefacts précis, mais reste un étudiant de l'histoire au sens large. »"
+        },
+        {
+          "title": "Gardez l'orphelin quand l'ambiance survit à son thème",
+          "rules": "Quand disparaît ce pour quoi une pièce a été faite, le réflexe est d'ôter la partie qui y renvoyait. Vérifiez d'abord si cette partie tient encore d'elle-même.",
+          "flavor": "Dub a été faite pour le thème tribal chevalier de Salad. Salad est devenue Core Set 2019 et il n'en est presque rien resté. « On a parlé d'enlever la clause… mais l'ambiance était si parfaite, et le nom aussi, qu'on l'a laissée. »"
+        },
+        {
+          "title": "Concevez la fin d'abord et déduisez-en le début",
+          "rules": "Dans toute chose qui a une forme, c'est le dernier temps qui doit atterrir. Fixez-le, puis remontez : les parties antérieures ont désormais un travail, celui de le faire bien arriver.",
+          "flavor": "The Eldest Reborn a commencé par son troisième chapitre ranimant un planeswalker, élargi à créature ou planeswalker, ce qui a permis au premier chapitre d'en faire sacrifier un. Le deuxième est de la défausse : ce qu'ils défaussent, vous le ranimez."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "As histórias de Dominaria, parte 1",
+      "dek": "Histórias de design carta a carta da coleção de 25 anos, começando por uma enquete no Twitter cujo resultado ninguém na P&D previu.",
+      "overview": "A primeira reunião de design de visão começou com um quadro branco: o que os jogadores vão esperar ver? Com mais de trinta coleções ambientadas no plano, a lista sempre seria maior que a coleção.",
+      "takeaway": "Dois hábitos atravessam o lote inteiro. Projete o último capítulo primeiro e derive dele os anteriores. E torne cada referência legível para quem não a conhece: uma espada poderosa é legal mesmo sem você saber a história dela.",
+      "lessons": [
+        {
+          "title": "Uma medição pública barata vale pelas surpresas",
+          "rules": "O sentido de perguntar diretamente ao público não é confirmação. É aquele único resultado que seus especialistas erraram, que é informação que você não tinha outro jeito de obter.",
+          "flavor": "Rosewater faz enquetes Head-to-Head no Twitter e imprime a chave para a P&D preencher. Na votação de tipos de criatura, “houve um resultado que a maior parte da P&D não tinha antecipado: os magos estavam indo excepcionalmente bem”."
+        },
+        {
+          "title": "Nomeie de um jeito que um recém-chegado consiga situar",
+          "rules": "Quem é de dentro já sabe como a coisa se chama; o que resta ao nome é orientar todos os outros. Prefira a versão que diz a um estranho onde aquilo se encaixa, mesmo em vez da que os veteranos usam.",
+          "flavor": "A Guerra das Antiguidades, não a Guerra dos Irmãos. No mundo, a maioria dos dominarianos chama assim. “Tentamos usar o nome para ajudar jogadores menos familiarizados com o passado a situar de onde a história vinha.”"
+        },
+        {
+          "title": "Ponha as expectativas no quadro antes de começar a escolher",
+          "rules": "Um projeto com história longa chega carregado de obrigações que você não enumerou. Escreva todas primeiro, sabendo que a maioria não vai caber, para que o que você cortar seja decisão e não descuido.",
+          "flavor": "A primeira reunião abriu com “o que os jogadores vão esperar ver na coleção?”. Mais de trinta coleções de onde puxar, “inevitavelmente muito mais coisas do que caberia”. A Blackblade foi a primeira citada."
+        },
+        {
+          "title": "Torne a referência legível em dois níveis",
+          "rules": "Um aceno que só funciona para quem sacou desperdiça a vaga para todos os outros. Escolha a versão que se sustenta sozinha e deixe a história ser um bônus para quem a tiver.",
+          "flavor": "Escolheram a espada em vez de outro portador: equipamentos existem agora. E: “uma preocupação minha era garantir que jogadores novos, que não conheceriam a história, pudessem apreciar os itens no contexto. Uma espada poderosa é legal mesmo sem saber a história dela.”"
+        },
+        {
+          "title": "Não tranque a diversão atrás de uma compra que talvez não venha",
+          "rules": "Uma restrição que aperta a ambientação também pode deixar a carta morta na mão. Prefira a versão que premia o caso ideal à que o exige.",
+          "flavor": "Blackblade Reforged custa menos para equipar numa criatura lendária. “Falamos em torná-la equipável só em lendárias, mas achamos que não seria divertido comprá-la e nunca poder equipar por não ter comprado nenhuma lendária.”"
+        },
+        {
+          "title": "Um superconjunto só parcialmente relevante é mais difícil que o subconjunto",
+          "rules": "Alargar um termo para pegar mais casos parece generosidade e se lê como dever de casa, porque agora o leitor precisa descobrir quais membros contam. Estreite de novo e escreva a regra.",
+          "flavor": "Blessing of Belzenlok foi de lendário para histórico para pegar criaturas-artefato, e os testadores acharam confuso “porque só se referia a um subconjunto das cartas históricas”. Voltou atrás, e virou regra."
+        },
+        {
+          "title": "Ache a ação que literalmente executa o momento da história",
+          "rules": "Representar um evento é mais fraco do que executá-lo. Procure o caso em que a ação comum do jogo e o evento narrativo são a mesma frase.",
+          "flavor": "Nissa deixa a Guarda. Todas as cartas de Juramento são encantamentos, então uma carta que destrói encantamento “podia literalmente quebrar um juramento”. Verde, logo um Naturalize, com um terreno de brinde."
+        },
+        {
+          "title": "Note o padrão que você criou sem querer, e então decida",
+          "rules": "Regularidades emergem de decisões independentes, e o público vai notá-las. A partir daí você deve ao padrão uma resposta deliberada: continuá-lo, ou quebrá-lo por um motivo declarado.",
+          "flavor": "Os demônios de Liliana saíram 6/6, 7/7 e 8/8 na ordem das mortes. “Nunca quisemos criar um padrão.” Belzenlok deveria ser 9/9, mas “é difícil precificar um 9/9 e ainda ser relevante em torneio”. Ele é 6/6."
+        },
+        {
+          "title": "Deixe as duas metades discordarem quando o sabor melhorar com isso",
+          "rules": "Simetria interna é um padrão, não uma exigência. Se o descompasso diz algo verdadeiro sobre o sujeito, a versão mais arrumadinha é a pior.",
+          "flavor": "Daring Archaeologist tem uma habilidade sobre artefatos e outra referenciando histórico. “Não deveriam estar alinhadas? Argumentei que não… O arqueólogo recupera artefatos específicos, mas continua sendo estudioso da história em geral.”"
+        },
+        {
+          "title": "Guarde o órfão quando o sabor sobrevive ao tema dele",
+          "rules": "Quando some aquilo para o que uma peça foi feita, o reflexo é arrancar a parte que se referia a isso. Confira antes se essa parte ainda funciona por conta própria.",
+          "flavor": "Dub foi feita para o tema tribal de cavaleiros de Salad. Salad virou Core Set 2019 e só um traço chegou a Dominaria. “Falamos em tirar a cláusula… mas o sabor era tão perfeito, e o nome também, que deixamos.”"
+        },
+        {
+          "title": "Projete o final primeiro e derive dele o começo",
+          "rules": "Em qualquer coisa com forma, é o último tempo que precisa acertar. Fixe-o e trabalhe de trás para a frente: as partes anteriores agora têm um trabalho, que é fazê-lo chegar bem.",
+          "flavor": "The Eldest Reborn começou pelo terceiro capítulo reanimando um planeswalker, alargou para criatura ou planeswalker, o que deixou o primeiro capítulo fazer os oponentes sacrificarem um. O segundo é descarte: o que descartam é o que você reanima."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "多明纳里亚的故事，上",
+      "dek": "这个二十五周年纪念系列的逐张设计故事，从一次结果连研发部都没人猜中的推特投票开始。",
+      "overview": "第一次愿景设计会议是从一块白板开始的：玩家会期待在这里看到什么？考虑到有三十多个系列的故事发生在这个时空上，这份清单注定会比这个系列本身长。",
+      "takeaway": "有两个习惯贯穿了这一整批：先设计最后一章，再从它反推出前面的；以及让每一处致敬对「从没听说过它的人」也读得懂——一把强大的剑很酷，就算你不知道它的来历。",
+      "lessons": [
+        {
+          "title": "一次廉价的公开测量，值就值在那些意外上",
+          "rules": "直接去问受众，意义并不在于得到确认。而在于那个「你的专家们猜错了的」结果——那是一份你没有任何别的途径可以拿到的信息。",
+          "flavor": "罗斯瓦特在推特上办「一对一对决」投票，并把对阵表打印出来让研发部像填赛事预测那样填。在生物类别那一轮里，「有一个结果是研发部大多数人都没预料到的：法术师的成绩好得出奇」。"
+        },
+        {
+          "title": "给它起一个能让新人「定位」的名字",
+          "rules": "圈内人早就知道这东西叫什么；名字剩下的工作，是给其他所有人指路。哪怕老玩家习惯用另一个说法，也优先选那个「能告诉陌生人它属于哪儿」的版本。",
+          "flavor": "叫「安塔基亚战争」而不是「兄弟之战」。在世界观内部，多数多明纳里亚人就是这么叫的。「我们试图用命名来帮助那些对这段过去不太熟的玩家，弄清这个故事是从哪儿来的。」"
+        },
+        {
+          "title": "在开始挑选之前，先把期待写到板上",
+          "rules": "一个有着漫长历史的项目，一上来就带着一堆你还没清点过的义务。先把它们全部写下来——明知道大多数装不下——这样你砍掉的东西才是决定，而不是疏漏。",
+          "flavor": "第一次愿景设计会议是以「玩家会期待在这个系列里看到什么？」开场的。有三十多个系列可以取材，「可以放进来的东西必然远多于最终能放进来的」。第一个被点到的就是黑锋剑。"
+        },
+        {
+          "title": "让这处致敬在两个层次上都读得懂",
+          "rules": "一个只对「懂的人」有效的回响，对其他所有人来说都浪费了这个位置。挑那个自身就立得住的版本，把那段历史留给拥有它的人当作额外奖励。",
+          "flavor": "他们选了那把剑，而不是又一个使剑的人——毕竟现在有了武具，你的生物可以拿着它。而且：「我担心的一点，是要让不了解这段历史的新玩家也能在语境里欣赏这些物件。一把强大的剑很酷，就算你不知道它的来历。」"
+        },
+        {
+          "title": "别把乐趣锁在一张你未必抓得到的牌后面",
+          "rules": "一条让风味更紧的限制，同时也可能让这张牌死在手里。优先选那个「奖励理想情况」的版本，而不是那个「要求理想情况」的版本。",
+          "flavor": "《重铸黑锋剑》装备到传奇生物身上更便宜。「我们讨论过让它只能装备在传奇生物上，但觉得那不好玩——你抓到了它，却因为一直没抓到传奇生物而永远装不上去。」"
+        },
+        {
+          "title": "一个只有部分相关的超集，比子集更难懂",
+          "rules": "把一个术语放宽以覆盖更多情况，看上去像慷慨，读起来却像作业——因为读者现在得自己去算：这个更大的类别里，哪些成员算数。把它收回去，并且把规则写下来。",
+          "flavor": "《贝赞洛的祝福》从「传奇」改成「史迹」以便涵盖神器生物，而试玩者觉得困惑，「因为它只指向史迹牌里的一个子集」。于是改了回去。由此产生的规则：如果只影响生物，就写传奇生物。"
+        },
+        {
+          "title": "去找那个「字面上就在执行这个故事节拍」的动作",
+          "rules": "描绘一个事件，弱于执行这个事件。去找那种情形：游戏里那个普通动作，和叙事上那个事件，是同一句话。",
+          "flavor": "妮莎离开守护者密探。所有「誓约」牌都是结界——于是一张摧毁结界的牌，「可以字面意义上打破一个誓约」。因为是绿色，就做成《自然化》，再附带一块地，因为妮莎和土地紧紧相连。"
+        },
+        {
+          "title": "注意到那个你无意中造出来的模式，然后对它做个决定",
+          "rules": "规律会从一系列各自独立的决定中浮现出来，而观众会看见它。从那一刻起，你就欠这个模式一个有意识的回应：要么延续它，要么带着一个说得出口的理由打破它。",
+          "flavor": "莉莲娜的恶魔按死亡顺序依次是6/6、7/7、8/8。「我们从来没打算造一个模式。」按理贝赞洛该是9/9，但「一个9/9很难定价得既合理又在比赛里站得住」。所以他是6/6。"
+        },
+        {
+          "title": "当风味因此更好时，就让两半彼此不对称",
+          "rules": "内部对称是一个默认值，不是一项要求。如果这份错位说出了关于这个对象的某件真话，那么更整齐的那个版本才是更差的那个。",
+          "flavor": "《大胆考古学家》的一个异能关于神器，另一个引用史迹。「这两个不是应该对齐吗？我主张不必……考古学家找回的是具体的神器，但他同时仍然是更广义历史的研究者。」"
+        },
+        {
+          "title": "当风味比它所属的主题活得更久时，把这个孤儿留下",
+          "rules": "当一件作品「为之而生」的那个东西消失了，本能反应是把那处引用它的部分剔掉。先检查一下：那一部分脱离原来的语境，是不是仍然成立。",
+          "flavor": "《册封》是为「沙拉」的骑士部族主题做的。沙拉变成了《基础系列2019》，只有一点点痕迹进了《多明纳里亚》。「我们讨论过把那句附带效果拿掉……但它的风味实在太贴切了，牌名也是，所以我们没动它。」"
+        },
+        {
+          "title": "先设计结尾，再从结尾反推开头",
+          "rules": "在任何有形状的东西里，最后那一拍才是必须落稳的那一拍。先把它钉住，然后倒着走——前面那些部分现在有活干了，它们的工作就是让那一拍漂亮地到来。",
+          "flavor": "《最古者重生》是从第三章「从坟墓场把一个鹏洛客放回战场」开始的，随后放宽为生物或鹏洛客——这让第一章可以变成「每位对手牺牲一个」。第二章是弃牌，因为对手弃掉的，正是你下回合要复活的。"
+        }
+      ]
+    }
+  }
+}
