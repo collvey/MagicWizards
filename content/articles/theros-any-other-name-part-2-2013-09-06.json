@@ -1,0 +1,320 @@
+{
+  "id": "theros-any-other-name-part-2-2013-09-06",
+  "slug": "theros-any-other-name-part-2-2013-09-06",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-09-06",
+  "series": { "id": "theros-any-other-name", "order": 2, "total": 3 },
+  "tags": ["design-story", "top-down", "mechanics", "limited"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/theros-any-other-name-part-2-2013-09-06",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Theros by Any Other Name, Part 2",
+      "dek": "Why the template from the last top-down world did not transfer, and how a counting problem in Limited decided the set's central mechanic.",
+      "overview": "Rosewater began this set by copying the process that had worked on the previous top-down world, and a few weeks in discovered the two subjects had reached the audience through completely different channels — one through film, one through text — with the consequence that only one of them came with shared expectations about how its creatures behave. The rest of the column is the second problem: the set needed far more of one card type than a deck can physically hold, and the fix arrived from a team working on a different project entirely.",
+      "takeaway": "Before copying a process that worked, check whether the new subject reaches people the same way the old one did. And when your theme requires more of something than the format can accommodate, the answer is usually to change what slot it occupies rather than to print more of it.",
+      "lessons": [
+        {
+          "title": "Check how your audience acquired the source, because that decides whether shared expectations exist",
+          "rules": "One subject reached people through film and television, so everybody has watched the same creatures behave and holds the same picture of what they do. The other reached people through text, where each reader imagined it privately, so there is no common answer to what one of its creatures is like. That difference is invisible when you compare the two subjects on paper and it determines everything downstream. Before you rely on the audience recognising something, establish not just whether they know it but through what medium — because only some media produce agreement.",
+          "flavor": "How does a centaur behave? There wasn't a shared cultural answer."
+        },
+        {
+          "title": "With no shared expectation of the parts, structure by tone instead of by component",
+          "rules": "The previous world could be decomposed by creature, because each one came with an agreed set of behaviours to design toward. This one could not, so it had to be decomposed some other way — and what the audience does hold consistently turned out to be the story shapes the subject gave the culture, not its individual figures. So the set was broken into three tonal elements rather than into monsters. He is explicit that this sounds like hair-splitting and is not: capturing the feel of your source and capturing its tone are different jobs with different structures.",
+          "flavor": "For the other set, I had to make the werewolves feel like werewolves. Here I had to make the whole thing feel Greek."
+        },
+        {
+          "title": "As-played caps as-fan: supply is limited by consumption, not production",
+          "rules": "He names two measurements. One is how often something appears in what people open. The other is how much of it can actually go into a deck — and the second one is a hard ceiling set by the format, not by you. The arithmetic here allowed at most seven of the card type per deck, and even that assumed they were doing the work other spells normally do, which they cannot fully do. Printing more does not help once you are against the consumption limit. Work out the ceiling before you build a theme that needs volume.",
+          "flavor": "We can give you a giant number of Auras, but if only so many fit in a deck it doesn't matter how many you open."
+        },
+        {
+          "title": "When a theme is starved by a slot limit, change which slot it occupies",
+          "rules": "The set needed more of one card type than the deck-building maths permitted, and the fix was not more of them, a lower requirement, or accepting the shortfall. Somebody on another project built objects that can be played as either card type, so they occupy the plentiful slot while counting toward the scarce one. Two people arrived at that conclusion independently and one of them had already put them in the file. Where a constraint is arithmetic rather than aesthetic, look for a way to make the item satisfy two slots at once.",
+          "flavor": "\"Bestow creatures would solve our problem.\" \"I came to the same conclusion. They're already in the set.\""
+        },
+        {
+          "title": "When a category matters mechanically, give it a visual marker",
+          "rules": "The whole block cares about a hybrid card type, and a decision was made that every instance of it would use a new, distinct frame — one variant per colour. That is production expense spent purely on legibility, and the justification is one sentence: the block cares about them, so it must be easy to tell them apart from the ordinary version. If your system asks people to treat one category differently, the category needs to be identifiable without reading. Text can state membership; only appearance makes it visible across the table.",
+          "flavor": "The block very much cares about them, so we made sure they were easy to differentiate."
+        },
+        {
+          "title": "A rule applied strictly will exclude your own precedent, and that is the price of the rule",
+          "rules": "The card that first gestured at this hybrid type years earlier is not in the set that finally delivers it, because it fails the rule that both halves must be mechanically present — the earlier version had lost its distinguishing half in development. He could have granted the ancestor an exemption; instead the rule holds and the card stays out. That is what makes the rule real. A principle that admits its own founding example when the example does not qualify is a preference with a rhetorical costume on.",
+          "flavor": "The reason that card isn't in this set is that it breaks the rule."
+        },
+        {
+          "title": "Price the modes apart, or the choice is not a choice",
+          "rules": "The mechanic as designed cost the same however you used it, and development changed it so the more flexible mode costs more. The stated reason is that it is more interesting when there is a decision — an identical price for both uses means you simply take whichever is better in the moment and never weigh them. Note also what the higher price bought elsewhere: it gave players something to spend surplus resources on late in the game, which was a separate need nobody had solved. One change, two requirements.",
+          "flavor": "Development quickly figured out it was more interesting if you had a choice."
+        },
+        {
+          "title": "The influence of the thing is a bigger subject than the thing",
+          "rules": "Deciding to have gods in the set was the easy half. The observation that carried the design is that the source material is not really about the gods — it is about their interference in other people's lives, the gifts and curses and meddling. So the mechanical weight went onto representing influence rather than onto the figures themselves, which is where the card type came from and, downstream, most of the set. When adapting something centred on powerful agents, check whether the actual subject is the agents or their effects on everyone else.",
+          "flavor": "It's not just about the gods but about their interaction with the people."
+        },
+        {
+          "title": "Choose the card type for the temporal shape you need",
+          "rules": "The reasoning for building the set on this particular card type is entirely about duration: it is the type that expresses lasting influence, sitting on the board and redefining the situation, or attaching to something and changing it fundamentally. That is a property of the category rather than of any card in it. Categories in a system usually differ in how long they persist and how they attach, and those are design tools. Pick by the shape you need over time, not only by what effects the category is allowed to have.",
+          "flavor": "Enchantments are the perfect card type to show lasting influence."
+        },
+        {
+          "title": "A team working on a different project can be the one that solves yours",
+          "rules": "The mechanic that resolved the set's central arithmetic problem was made by someone who was not on the design team, working within a group that had been assembled to think about a project two years further out. It got design credit anyway. The general arrangement is worth noting: a group with no delivery of its own, working further ahead, is available to be pointed at whatever is currently stuck — and its output arrives without the assumptions of the team that has been staring at the problem.",
+          "flavor": "He wasn't even on the design team. He gets design credit because of the mechanic."
+        }
+      ]
+    },
+    "es": {
+      "title": "Theros con cualquier otro nombre, parte 2",
+      "dek": "Por qué la plantilla del último mundo top-down no se transfirió, y cómo un problema de cuentas en Limitado decidió la mecánica central de la colección.",
+      "overview": "Rosewater empezó esta colección copiando el proceso que había funcionado en el mundo top-down anterior, y a las pocas semanas descubrió que los dos temas habían llegado al público por canales completamente distintos — uno por el cine, otro por el texto — con la consecuencia de que solo uno traía expectativas compartidas sobre cómo se comportan sus criaturas. El resto de la columna es el segundo problema: la colección necesitaba mucho más de un tipo de carta del que cabe físicamente en un mazo, y el arreglo llegó de un equipo que trabajaba en un proyecto completamente distinto.",
+      "takeaway": "Antes de copiar un proceso que funcionó, comprueba si el nuevo tema llega a la gente igual que el anterior. Y cuando tu tema exige más de algo de lo que el formato admite, la respuesta suele ser cambiar qué hueco ocupa en vez de imprimir más.",
+      "lessons": [
+        {
+          "title": "Comprueba cómo adquirió el público la fuente, porque eso decide si existen expectativas compartidas",
+          "rules": "Un tema llegó a la gente por el cine y la televisión, así que todos han visto a las mismas criaturas comportarse y guardan la misma imagen de lo que hacen. El otro llegó por el texto, donde cada lector se lo imaginaba en privado, así que no hay respuesta común a cómo es una de sus criaturas. Esa diferencia es invisible cuando comparas ambos temas sobre el papel y determina todo lo que viene después. Antes de contar con que el público reconozca algo, establece no solo si lo conoce sino a través de qué medio, porque solo algunos medios producen acuerdo.",
+          "flavor": "¿Cómo se comporta un centauro? No había una respuesta cultural compartida."
+        },
+        {
+          "title": "Sin expectativa compartida sobre las partes, estructura por tono y no por componente",
+          "rules": "El mundo anterior se podía descomponer por criatura, porque cada una traía un conjunto acordado de comportamientos hacia los que diseñar. Este no, así que había que descomponerlo de otra manera, y lo que el público sí guarda de forma consistente resultaron ser las formas narrativas que el tema legó a la cultura, no sus figuras individuales. Así que la colección se partió en tres elementos tonales y no en monstruos. Él dice explícitamente que esto suena a hilar fino y no lo es: capturar el sabor de tu fuente y capturar su tono son trabajos distintos con estructuras distintas.",
+          "flavor": "En la otra colección tenía que hacer que los hombres lobo parecieran hombres lobo. Aquí tenía que hacer que el conjunto pareciera griego."
+        },
+        {
+          "title": "Lo jugado limita lo abierto: el suministro lo limita el consumo, no la producción",
+          "rules": "Nombra dos medidas. Una es con qué frecuencia algo aparece en lo que la gente abre. La otra es cuánto de ello cabe realmente en un mazo, y la segunda es un techo duro fijado por el formato y no por ti. Aquí la aritmética permitía como mucho siete de ese tipo de carta por mazo, y eso suponiendo que hicieran el trabajo que normalmente hacen otros hechizos, cosa que no pueden hacer del todo. Imprimir más no ayuda cuando chocas contra el límite de consumo. Calcula el techo antes de construir un tema que necesita volumen.",
+          "flavor": "Podemos darte un montón de auras, pero si solo caben unas pocas en el mazo, da igual cuántas abras."
+        },
+        {
+          "title": "Cuando un tema se muere de hambre por un límite de huecos, cambia qué hueco ocupa",
+          "rules": "La colección necesitaba más de un tipo de carta del que permitían las cuentas de construcción, y el arreglo no fue más de esas cartas, ni rebajar el requisito, ni aceptar el déficit. Alguien en otro proyecto construyó objetos que se pueden jugar como cualquiera de los dos tipos, de modo que ocupan el hueco abundante mientras cuentan para el escaso. Dos personas llegaron a esa conclusión por separado y una de ellas ya las había metido en el archivo. Cuando una restricción es aritmética y no estética, busca la manera de que la pieza satisfaga dos huecos a la vez.",
+          "flavor": "«Las criaturas con bestow resolverían el problema.» «Llegué a la misma conclusión. Ya están en la colección.»"
+        },
+        {
+          "title": "Cuando una categoría importa mecánicamente, dale un marcador visual",
+          "rules": "Todo el bloque se preocupa por un tipo de carta híbrido, y se decidió que cada instancia usaría un marco nuevo y distinto, con una variante por color. Eso es gasto de producción destinado puramente a la legibilidad, y la justificación cabe en una frase: el bloque se preocupa por ellas, así que tiene que ser fácil distinguirlas de la versión normal. Si tu sistema pide que se trate una categoría de forma distinta, esa categoría tiene que ser identificable sin leer. El texto puede declarar pertenencia; solo la apariencia la hace visible al otro lado de la mesa.",
+          "flavor": "El bloque se preocupa mucho por ellas, así que nos aseguramos de que fueran fáciles de diferenciar."
+        },
+        {
+          "title": "Una regla aplicada con rigor excluirá a tu propio precedente, y ese es el precio de la regla",
+          "rules": "La carta que años atrás apuntó por primera vez a este tipo híbrido no está en la colección que finalmente lo entrega, porque incumple la regla de que ambas mitades deben estar mecánicamente presentes: aquella versión había perdido su mitad distintiva en desarrollo. Podría haber concedido una exención al antepasado; en cambio la regla se sostiene y la carta se queda fuera. Eso es lo que hace real a la regla. Un principio que admite su propio ejemplo fundacional cuando el ejemplo no cualifica es una preferencia con disfraz retórico.",
+          "flavor": "La razón de que esa carta no esté en esta colección es que incumple la regla."
+        },
+        {
+          "title": "Pon precios distintos a los modos, o la elección no es una elección",
+          "rules": "La mecánica, tal como se diseñó, costaba lo mismo la usaras como la usaras, y desarrollo la cambió para que el modo más flexible costara más. La razón declarada es que resulta más interesante cuando hay una decisión: un precio idéntico para ambos usos significa que simplemente coges el que sea mejor en el momento y nunca los sopesas. Fíjate también en lo que compró el precio más alto en otro sitio: dio a los jugadores en qué gastar recursos sobrantes en el juego tardío, una necesidad aparte que nadie había resuelto. Un cambio, dos requisitos.",
+          "flavor": "Desarrollo se dio cuenta enseguida de que era más interesante si había una elección."
+        },
+        {
+          "title": "La influencia de la cosa es un tema más grande que la cosa",
+          "rules": "Decidir que hubiera dioses en la colección era la mitad fácil. La observación que sostuvo el diseño es que el material de origen no va realmente sobre los dioses: va sobre su injerencia en la vida de los demás, los dones y las maldiciones y el meterse por medio. Así que el peso mecánico fue a representar la influencia y no a las figuras mismas, de donde salió el tipo de carta y, aguas abajo, la mayor parte de la colección. Al adaptar algo centrado en agentes poderosos, comprueba si el tema real son los agentes o sus efectos sobre todos los demás.",
+          "flavor": "No va solo sobre los dioses, sino sobre su interacción con la gente."
+        },
+        {
+          "title": "Elige el tipo de carta por la forma temporal que necesitas",
+          "rules": "El razonamiento para construir la colección sobre este tipo de carta concreto va enteramente de duración: es el tipo que expresa influencia duradera, quedándose en el campo y redefiniendo la situación, o adhiriéndose a algo y cambiándolo de raíz. Eso es una propiedad de la categoría y no de ninguna carta suya. Las categorías de un sistema suelen diferir en cuánto persisten y en cómo se adhieren, y eso son herramientas de diseño. Elige por la forma que necesitas en el tiempo, y no solo por qué efectos le está permitido tener a la categoría.",
+          "flavor": "Los encantamientos son el tipo de carta perfecto para mostrar influencia duradera."
+        },
+        {
+          "title": "Un equipo que trabaja en otro proyecto puede ser el que resuelva el tuyo",
+          "rules": "La mecánica que resolvió el problema aritmético central de la colección la hizo alguien que no estaba en el equipo de diseño, trabajando dentro de un grupo montado para pensar en un proyecto dos años más adelante. Aun así recibió crédito de diseño. El montaje general merece anotarse: un grupo sin entrega propia, trabajando más adelante en el tiempo, está disponible para ser apuntado hacia lo que esté atascado, y su producto llega sin los supuestos del equipo que lleva mirando el problema.",
+          "flavor": "Ni siquiera estaba en el equipo de diseño. Tiene crédito de diseño por la mecánica."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Theros sous un autre nom, partie 2",
+      "dek": "Pourquoi le modèle du précédent monde descendant ne s'est pas transféré, et comment un problème de calcul en Limité a décidé la mécanique centrale de l'extension.",
+      "overview": "Rosewater a commencé cette extension en copiant le processus qui avait marché sur le monde descendant précédent, et il a découvert au bout de quelques semaines que les deux sujets avaient atteint le public par des canaux entièrement différents — l'un par le film, l'autre par le texte — avec pour conséquence qu'un seul s'accompagnait d'attentes partagées sur le comportement de ses créatures. Le reste de la chronique est le second problème : l'extension avait besoin de bien plus d'un type de carte qu'un deck ne peut physiquement en contenir, et la solution est venue d'une équipe travaillant sur un tout autre projet.",
+      "takeaway": "Avant de copier un processus qui a marché, vérifiez si le nouveau sujet atteint les gens de la même façon que l'ancien. Et quand votre thème exige plus d'une chose que le format n'en accepte, la réponse est en général de changer la case qu'elle occupe plutôt que d'en imprimer davantage.",
+      "lessons": [
+        {
+          "title": "Vérifiez comment le public a acquis la source, car cela décide si des attentes partagées existent",
+          "rules": "Un sujet a atteint les gens par le cinéma et la télévision : tous ont vu les mêmes créatures agir et détiennent la même image de ce qu'elles font. L'autre a atteint les gens par le texte, où chaque lecteur l'imaginait en privé : il n'existe donc pas de réponse commune à ce qu'est une de ses créatures. Cette différence est invisible quand on compare les deux sujets sur le papier, et elle détermine tout l'aval. Avant de compter sur la reconnaissance du public, établissez non seulement s'il connaît, mais par quel médium — car seuls certains médiums produisent de l'accord.",
+          "flavor": "Comment se comporte un centaure ? Il n'y avait pas de réponse culturelle partagée."
+        },
+        {
+          "title": "Sans attente partagée sur les parties, structurez par le ton plutôt que par le composant",
+          "rules": "Le monde précédent se décomposait par créature, car chacune arrivait avec un jeu convenu de comportements à viser. Celui-ci non : il fallait donc le décomposer autrement, et ce que le public détient de façon constante s'est révélé être les formes narratives que le sujet a léguées à la culture, non ses figures individuelles. L'extension a donc été découpée en trois éléments tonals et non en monstres. Il dit explicitement que cela ressemble à couper les cheveux en quatre et que non : saisir le ressenti d'une source et saisir son ton sont deux travaux aux structures différentes.",
+          "flavor": "Dans l'autre extension, je devais faire que les loups-garous fassent loups-garous. Ici, que l'ensemble fasse grec."
+        },
+        {
+          "title": "Le joué plafonne l'ouvert : l'offre est limitée par la consommation, non par la production",
+          "rules": "Il nomme deux mesures. L'une est la fréquence d'apparition dans ce que les gens ouvrent. L'autre est la quantité qui peut réellement entrer dans un deck — et la seconde est un plafond dur fixé par le format, pas par vous. L'arithmétique ici autorisait au plus sept de ce type de carte par deck, et encore en supposant qu'elles fassent le travail que d'autres sorts font d'habitude, ce qu'elles ne peuvent pas tout à fait. Imprimer plus n'aide pas quand on bute sur la limite de consommation. Calculez le plafond avant de bâtir un thème qui exige du volume.",
+          "flavor": "On peut vous donner un nombre énorme d'auras, mais si peu tiennent dans un deck, peu importe combien vous en ouvrez."
+        },
+        {
+          "title": "Quand un thème est affamé par une limite de cases, changez la case qu'il occupe",
+          "rules": "L'extension avait besoin de plus d'un type de carte que les calculs de construction ne le permettaient, et la solution n'a été ni d'en faire plus, ni d'abaisser l'exigence, ni d'accepter le manque. Quelqu'un d'un autre projet a bâti des objets jouables comme l'un ou l'autre type, occupant ainsi la case abondante tout en comptant pour la rare. Deux personnes y sont arrivées séparément et l'une avait déjà agi. Là où une contrainte est arithmétique et non esthétique, cherchez à faire satisfaire deux cases à la fois par le même objet.",
+          "flavor": "« Les créatures avec le legs régleraient le problème. » « J'ai conclu pareil. Elles sont déjà dans l'extension. »"
+        },
+        {
+          "title": "Quand une catégorie compte mécaniquement, donnez-lui un marqueur visuel",
+          "rules": "Tout le bloc se soucie d'un type de carte hybride, et il a été décidé que chaque instance porterait un cadre neuf et distinct, une variante par couleur. C'est de la dépense de production consacrée uniquement à la lisibilité, et la justification tient en une phrase : le bloc s'en soucie, il faut donc les distinguer facilement de la version ordinaire. Si votre système demande de traiter une catégorie différemment, cette catégorie doit être identifiable sans lecture. Le texte peut déclarer l'appartenance ; seule l'apparence la rend visible de l'autre côté de la table.",
+          "flavor": "Le bloc s'en soucie beaucoup, alors nous avons veillé à ce qu'elles soient faciles à différencier."
+        },
+        {
+          "title": "Une règle appliquée strictement exclura votre propre précédent, et c'est le prix de la règle",
+          "rules": "La carte qui, des années plus tôt, faisait signe vers ce type hybride n'est pas dans l'extension qui le livre enfin, parce qu'elle enfreint la règle voulant que les deux moitiés soient mécaniquement présentes : cette version avait perdu sa moitié distinctive au développement. Il aurait pu accorder une dispense à l'ancêtre ; au lieu de quoi la règle tient et la carte reste dehors. C'est ce qui rend la règle réelle. Un principe qui admet son propre exemple fondateur alors qu'il ne qualifie pas est une préférence déguisée en règle.",
+          "flavor": "Si cette carte n'est pas dans cette extension, c'est qu'elle enfreint la règle."
+        },
+        {
+          "title": "Tarifez les modes différemment, sinon le choix n'en est pas un",
+          "rules": "La mécanique telle que conçue coûtait pareil quel que soit l'usage, et le développement l'a modifiée pour que le mode le plus souple coûte plus cher. La raison donnée est que c'est plus intéressant quand il y a une décision : un prix identique pour les deux usages signifie qu'on prend simplement le meilleur sur le moment sans jamais les peser. Notez aussi ce que le prix plus élevé a acheté ailleurs : il a donné de quoi dépenser les ressources excédentaires en fin de partie, un besoin distinct que personne n'avait réglé. Un changement, deux exigences.",
+          "flavor": "Le développement a vite compris que c'était plus intéressant s'il y avait un choix."
+        },
+        {
+          "title": "L'influence de la chose est un sujet plus vaste que la chose",
+          "rules": "Décider qu'il y aurait des dieux était la moitié facile. L'observation qui a porté la conception est que la matière source ne parle pas vraiment des dieux : elle parle de leur ingérence dans la vie des autres, des dons, des malédictions, des manigances. Le poids mécanique est donc allé à la représentation de l'influence plutôt qu'aux figures elles-mêmes, d'où est venu le type de carte et, en aval, l'essentiel de l'extension. En adaptant une matière centrée sur des agents puissants, vérifiez si le vrai sujet est les agents ou leurs effets sur tous les autres.",
+          "flavor": "Il ne s'agit pas seulement des dieux, mais de leur interaction avec les gens."
+        },
+        {
+          "title": "Choisissez le type de carte pour la forme temporelle dont vous avez besoin",
+          "rules": "Le raisonnement pour bâtir l'extension sur ce type de carte précis porte entièrement sur la durée : c'est le type qui exprime une influence durable, restant en jeu et redéfinissant la situation, ou s'attachant à quelque chose et le changeant en profondeur. C'est une propriété de la catégorie, non d'une carte particulière. Les catégories d'un système diffèrent en général par leur persistance et leur mode d'attache, et ce sont des outils de conception. Choisissez selon la forme dont vous avez besoin dans le temps, pas seulement selon les effets que la catégorie a le droit de porter.",
+          "flavor": "Les enchantements sont le type de carte parfait pour montrer une influence durable."
+        },
+        {
+          "title": "Une équipe travaillant sur un autre projet peut être celle qui résout le vôtre",
+          "rules": "La mécanique qui a réglé le problème arithmétique central de l'extension a été faite par quelqu'un qui n'était pas dans l'équipe de conception, au sein d'un groupe rassemblé pour réfléchir à un projet situé deux ans plus loin. Il a tout de même été crédité comme concepteur. L'agencement mérite d'être noté : un groupe sans livrable propre, travaillant plus en avant, est disponible pour être braqué sur ce qui coince — et sa production arrive sans les présupposés de l'équipe qui fixe le problème depuis des semaines.",
+          "flavor": "Il n'était même pas dans l'équipe de conception. Il est crédité à cause de la mécanique."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Theros com qualquer outro nome, parte 2",
+      "dek": "Por que o modelo do último mundo de cima para baixo não se transferiu, e como um problema de contas no Limitado decidiu a mecânica central da coleção.",
+      "overview": "Rosewater começou esta coleção copiando o processo que tinha funcionado no mundo de cima para baixo anterior, e poucas semanas depois descobriu que os dois assuntos haviam chegado ao público por canais completamente diferentes — um pelo cinema, outro pelo texto — com a consequência de que só um deles vinha com expectativas compartilhadas sobre como suas criaturas se comportam. O resto da coluna é o segundo problema: a coleção precisava de muito mais de um tipo de carta do que cabe fisicamente num baralho, e o conserto veio de uma equipe que trabalhava num projeto completamente diferente.",
+      "takeaway": "Antes de copiar um processo que funcionou, verifique se o novo assunto chega às pessoas do mesmo jeito que o antigo. E quando o seu tema exige mais de algo do que o formato comporta, a resposta em geral é mudar que vaga aquilo ocupa, e não imprimir mais.",
+      "lessons": [
+        {
+          "title": "Verifique como o público adquiriu a fonte, porque isso decide se existem expectativas compartilhadas",
+          "rules": "Um assunto chegou às pessoas pelo cinema e pela televisão, então todos viram as mesmas criaturas agindo e guardam a mesma imagem do que elas fazem. O outro chegou pelo texto, onde cada leitor imaginava em particular, então não há resposta comum sobre como é uma de suas criaturas. Essa diferença é invisível quando você compara os dois assuntos no papel, e ela determina tudo o que vem depois. Antes de contar com o reconhecimento do público, estabeleça não só se ele conhece, mas por qual meio — porque só alguns meios produzem acordo.",
+          "flavor": "Como um centauro se comporta? Não havia uma resposta cultural compartilhada."
+        },
+        {
+          "title": "Sem expectativa compartilhada sobre as partes, estruture por tom em vez de por componente",
+          "rules": "O mundo anterior podia ser decomposto por criatura, porque cada uma vinha com um conjunto acordado de comportamentos a mirar. Este não podia, então precisava ser decomposto de outro jeito — e o que o público de fato guarda de forma consistente acabou sendo as formas narrativas que o assunto legou à cultura, não as figuras individuais. Então a coleção foi partida em três elementos tonais, e não em monstros. Ele diz explicitamente que isso soa como picuinha e não é: capturar o sabor da sua fonte e capturar o tom dela são trabalhos diferentes com estruturas diferentes.",
+          "flavor": "Na outra coleção eu tinha de fazer os lobisomens parecerem lobisomens. Aqui, o conjunto todo parecer grego."
+        },
+        {
+          "title": "O jogado limita o aberto: a oferta é limitada pelo consumo, não pela produção",
+          "rules": "Ele nomeia duas medidas. Uma é com que frequência algo aparece no que as pessoas abrem. A outra é quanto daquilo cabe de fato num baralho — e a segunda é um teto duro fixado pelo formato, não por você. A aritmética aqui permitia no máximo sete daquele tipo de carta por baralho, e ainda assim supondo que fizessem o trabalho que outras mágicas normalmente fazem, o que elas não conseguem inteiramente. Imprimir mais não ajuda quando você bate no limite de consumo. Calcule o teto antes de construir um tema que precisa de volume.",
+          "flavor": "Podemos te dar um monte de auras, mas se só algumas cabem no baralho não importa quantas você abre."
+        },
+        {
+          "title": "Quando um tema passa fome por um limite de vagas, mude que vaga ele ocupa",
+          "rules": "A coleção precisava de mais de um tipo de carta do que as contas de construção permitiam, e o conserto não foi mais delas, nem baixar a exigência, nem aceitar a falta. Alguém em outro projeto construiu objetos jogáveis como qualquer um dos dois tipos, ocupando assim a vaga farta enquanto contam para a escassa. Duas pessoas chegaram àquela conclusão separadamente e uma delas já as tinha posto no arquivo. Onde uma restrição é aritmética e não estética, procure um jeito de o item satisfazer duas vagas de uma vez.",
+          "flavor": "\"As criaturas com conceder resolveriam o problema.\" \"Cheguei à mesma conclusão. Já estão na coleção.\""
+        },
+        {
+          "title": "Quando uma categoria importa mecanicamente, dê a ela um marcador visual",
+          "rules": "O bloco inteiro se importa com um tipo de carta híbrido, e decidiu-se que cada instância usaria uma moldura nova e distinta, com uma variante por cor. Isso é gasto de produção destinado puramente à legibilidade, e a justificativa cabe numa frase: o bloco se importa com elas, então tem de ser fácil distingui-las da versão comum. Se o seu sistema pede que uma categoria seja tratada de outro jeito, essa categoria precisa ser identificável sem leitura. O texto pode declarar pertencimento; só a aparência o torna visível do outro lado da mesa.",
+          "flavor": "O bloco se importa muito com elas, então garantimos que fossem fáceis de diferenciar."
+        },
+        {
+          "title": "Uma regra aplicada com rigor vai excluir o seu próprio precedente, e esse é o preço da regra",
+          "rules": "A carta que anos antes apontou pela primeira vez para este tipo híbrido não está na coleção que enfim o entrega, porque ela viola a regra de que as duas metades devem estar mecanicamente presentes: aquela versão perdera a metade distintiva no desenvolvimento. Ele poderia ter concedido uma dispensa ao ancestral; em vez disso a regra se mantém e a carta fica de fora. É isso que torna a regra real. Um princípio que admite o próprio exemplo fundador quando o exemplo não qualifica é uma preferência com fantasia retórica.",
+          "flavor": "O motivo de aquela carta não estar nesta coleção é que ela viola a regra."
+        },
+        {
+          "title": "Precifique os modos de forma diferente, ou a escolha não é escolha",
+          "rules": "A mecânica como projetada custava o mesmo de qualquer jeito, e o desenvolvimento a mudou para que o modo mais flexível custasse mais. O motivo declarado é que fica mais interessante quando há uma decisão: preço idêntico para os dois usos significa que você simplesmente pega o melhor do momento e nunca os pesa. Repare também no que o preço mais alto comprou em outro lugar: deu aos jogadores em que gastar recursos sobrando no fim do jogo, uma necessidade separada que ninguém tinha resolvido. Uma mudança, duas exigências.",
+          "flavor": "O desenvolvimento logo percebeu que era mais interessante se houvesse uma escolha."
+        },
+        {
+          "title": "A influência da coisa é um assunto maior que a coisa",
+          "rules": "Decidir que haveria deuses na coleção era a metade fácil. A observação que sustentou o design é que o material de origem não trata realmente dos deuses: trata da interferência deles na vida alheia, das dádivas e maldições e da intromissão. Então o peso mecânico foi para representar influência, e não para as figuras em si, de onde veio o tipo de carta e, adiante, a maior parte da coleção. Ao adaptar algo centrado em agentes poderosos, verifique se o assunto real são os agentes ou os efeitos deles sobre todos os outros.",
+          "flavor": "Não é só sobre os deuses, é sobre a interação deles com as pessoas."
+        },
+        {
+          "title": "Escolha o tipo de carta pela forma temporal de que você precisa",
+          "rules": "O raciocínio para construir a coleção sobre este tipo de carta específico é inteiramente sobre duração: é o tipo que expressa influência duradoura, ficando no campo e redefinindo a situação, ou se prendendo a algo e mudando-o de raiz. Isso é propriedade da categoria, não de qualquer carta dela. As categorias de um sistema em geral diferem em quanto persistem e em como se prendem, e essas são ferramentas de design. Escolha pela forma de que você precisa no tempo, e não só pelos efeitos que a categoria tem permissão de carregar.",
+          "flavor": "Encantamentos são o tipo de carta perfeito para mostrar influência duradoura."
+        },
+        {
+          "title": "Uma equipe trabalhando em outro projeto pode ser a que resolve o seu",
+          "rules": "A mecânica que resolveu o problema aritmético central da coleção foi feita por alguém que não estava na equipe de design, trabalhando dentro de um grupo montado para pensar num projeto dois anos adiante. Ainda assim recebeu crédito de design. O arranjo geral vale registrar: um grupo sem entrega própria, trabalhando mais à frente, está disponível para ser apontado ao que estiver travado — e a produção dele chega sem as suposições da equipe que vem encarando o problema.",
+          "flavor": "Ele nem estava na equipe de design. Tem crédito de design por causa da mecânica."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "泰罗斯，换个名字（中）",
+      "dek": "上一个由上而下的世界所用的模板为什么没能迁移过来；以及限制赛里的一道算术题如何决定了这套牌的核心机制。",
+      "overview": "罗斯瓦特一开始是照抄上一个由上而下的世界里管用的那套流程；几周之后他发现，这两个题材抵达受众所经由的渠道完全不同——一个经由影视，一个经由文字——其后果是：只有其中一个自带「大家对它的生物如何行事」的共同预期。这一期其余的部分是第二个问题：这套牌需要的某种牌张类别的数量，远超一副套牌在物理上装得下的量；而解法来自一支正在做完全另一个项目的队伍。",
+      "takeaway": "在照抄一套管用过的流程之前，先检查新题材抵达人们的方式是否和旧的一样。而当你的主题要求的某样东西超出了这个赛制所能容纳的量时，答案通常是改变它占用哪个位置，而不是多印一些。",
+      "lessons": [
+        {
+          "title": "去查受众是怎么获得这份素材的，因为那决定了共同预期是否存在",
+          "rules": "一个题材是经由电影和电视抵达人们的，所以所有人都看过同样那些生物如何行动，脑子里握着同一幅「它们会做什么」的图像。另一个是经由文字抵达的，每个读者各自私下想象，因此关于「它的某种生物是什么样」根本不存在共同答案。当你把这两个题材摊在纸面上比较时，这个差别是看不见的；而它决定了下游的一切。在指望受众能认出某样东西之前，先确立的不只是他们知不知道，而是通过什么媒介知道的——因为只有某些媒介会产出共识。",
+          "flavor": "半人马是怎么行事的？并不存在一个共享的文化答案。"
+        },
+        {
+          "title": "在对「零件」没有共同预期时，按调性来划分结构，而不是按部件",
+          "rules": "上一个世界可以按生物来拆解，因为每一种都自带一套公认的行为可供设计瞄准。这一个不行，所以必须换个方式拆——而受众确实一致握着的东西，结果是这个题材留给文化的那些故事形状，而不是它的一个个具体形象。于是这套牌被拆成了三个调性元素，而不是拆成怪物。他明确说这听上去像在抠字眼、而其实不是：抓住素材的「感觉」和抓住它的「调性」，是两件结构不同的活。",
+          "flavor": "在另一套牌里，我得让狼人像狼人。在这里，我得让整个东西像希腊。"
+        },
+        {
+          "title": "「实际打进去的」给「开出来的」封顶：供给受限于消耗，而不是产出",
+          "rules": "他点出了两个量。一个是某样东西在人们开出来的东西里出现得多频繁。另一个是它实际能有多少装进一副套牌——而后者是由赛制、而不是由你设定的一个硬顶。这里的算术最多允许每副套牌装七张那种牌，而且这还得假设它们在干别的咒语通常干的活，而它们并不能完全干。一旦顶到消耗上限，多印是没有用的。在建立一个需要数量的主题之前，先把这个上限算出来。",
+          "flavor": "我们可以给你海量的灵气，但如果套牌里只装得下那么几张，你开出多少都无所谓。"
+        },
+        {
+          "title": "当一个主题被「位置上限」饿着时，改变它占用哪个位置",
+          "rules": "这套牌需要的某种牌张类别的数量超出了构筑算术所允许的，而解法不是多做几张、不是降低要求、也不是接受这个缺口。另一个项目上的某个人造出了「两种类别都能当」的物件：它们占的是充裕的那个位置，同时计入稀缺的那个。两个人各自独立得出了这个结论，而其中一个已经动手了。当一条约束是算术性的而不是审美性的时，就去想办法让这件东西一次满足两个位置。",
+          "flavor": "「带授予的生物能解决我们的问题。」「我得出了同样的结论。它们已经在牌里了。」"
+        },
+        {
+          "title": "当一个类别在机制上要紧时，给它一个视觉标记",
+          "rules": "整个环境都在意某种混合牌张类别，于是有了一个决定：它的每一个实例都使用一种全新的、独特的牌框，每个颜色一种变体。这是一笔纯粹花在「可读性」上的生产成本，而理由只有一句：这个环境很在意它们，所以必须让它们容易和普通版本区分开。如果你的系统要求人们区别对待某个类别，那么这个类别就必须不用读字也能被认出来。文字可以声明归属；只有外观能让它在桌子对面也看得见。",
+          "flavor": "这个环境非常在意它们，所以我们确保它们很容易被区分出来。"
+        },
+        {
+          "title": "一条被严格执行的规则会把你自己的先例排除在外，而那正是这条规则的价格",
+          "rules": "多年前第一次指向这种混合类别的那张牌，并不在最终交付了这个类别的那套牌里——因为它违反了「两半必须在机制上都在场」这条规则：那个早期版本在开发阶段丢掉了它那具有区分度的一半。他本可以给这位祖先开个特例；然而规则守住了，那张牌留在了外面。正是这一点让规则成为真的规则。一条在自己的奠基案例不合格时仍然放它进来的原则，只是一份穿着修辞外衣的偏好。",
+          "flavor": "那张牌之所以不在这套牌里，就是因为它违反了这条规则。"
+        },
+        {
+          "title": "把两种模式定成不同的价，否则那个选择不是选择",
+          "rules": "这个机制被设计出来时，无论你怎么用它都是同一个费用；而开发把它改成了「更灵活的那种模式更贵」。给出的理由是：有一个决定在的时候更有意思——两种用法价格相同，意味着你只会拿当下更好的那个，从不去权衡它们。也请留意这个更高的价格在别处买到了什么：它给了玩家在后期消耗多余资源的去处，而那是一项谁都还没解决的、独立的需求。一次改动，两项要求。",
+          "flavor": "开发很快就想明白了：有一个选择在，会更有意思。"
+        },
+        {
+          "title": "一样东西的「影响」，是一个比这样东西本身更大的题目",
+          "rules": "决定这套牌里要有神，是容易的那一半。真正撑起这次设计的观察是：这份素材讲的其实不是神，而是他们对别人生活的插手——那些恩赐、诅咒和搅局。于是机制上的重量被放到了「表现影响」上，而不是放到那些形象本身；牌张类别由此而来，再往下，这套牌的大部分也由此而来。在改编一份以强大行动者为中心的素材时，先确认真正的题目是这些行动者，还是他们对其他所有人造成的影响。",
+          "flavor": "它讲的不只是神，而是他们与人们之间的互动。"
+        },
+        {
+          "title": "按你需要的「时间形状」来挑牌张类别",
+          "rules": "把这套牌建立在这一种具体牌张类别之上的理由，完全关乎时长：它是那个表达「持续影响」的类别——留在场上重新定义局面，或者附着在某样东西上从根本上改变它。这是这个类别的性质，而不是其中某一张牌的性质。一个系统里的各个类别，通常在「能持续多久」和「如何附着」上彼此不同，而这些都是设计工具。按你在时间维度上需要的形状来挑，而不只是按这个类别被允许拥有哪些效果来挑。",
+          "flavor": "结界是展现持续影响的完美牌张类别。"
+        },
+        {
+          "title": "一支在做另一个项目的队伍，可能正是解决你问题的那一支",
+          "rules": "解决了这套牌核心算术难题的那个机制，是一个并不在设计团队里的人做出来的；他所在的那个小组，是为了思考两年之后的一个项目而组建的。他照样拿到了设计署名。这个安排值得记下来：一支没有自己交付物、并且跑在更前面的队伍，随时可以被指向当下卡住的任何地方——而它的产出抵达时，不带着那支已经盯着这个问题看了很久的团队的种种假设。",
+          "flavor": "他甚至不在设计团队里。他因为那个机制而拿到了设计署名。"
+        }
+      ]
+    }
+  }
+}

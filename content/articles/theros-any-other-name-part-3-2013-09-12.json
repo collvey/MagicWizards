@@ -1,0 +1,320 @@
+{
+  "id": "theros-any-other-name-part-3-2013-09-12",
+  "slug": "theros-any-other-name-part-3-2013-09-12",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-09-12",
+  "series": { "id": "theros-any-other-name", "order": 3, "total": 3 },
+  "tags": ["design-story", "mechanics", "process", "top-down"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/theros-any-other-name-part-3-2013-09-12",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Theros by Any Other Name, Part 3",
+      "dek": "The two remaining pillars — heroes and monsters — each got a mechanic commissioned against a written list of requirements, and a fifth mechanic arrived after the handoff.",
+      "overview": "The last instalment is the most methodical. For each of the two remaining components Rosewater writes down what the mechanic must do before anyone starts looking, separates the requirements from the wishes, and then sends the team off with the list. The hero mechanic came out of an idea shelved twice across a decade and unlocked by an incidental rules property. The monster mechanic was built from the dramatic beat it had to produce. And the set's fifth mechanic was not in it at handoff — development asked for one, chose something familiar on purpose, and got approval on flavour grounds.",
+      "takeaway": "Writing the parameters is how you create the puzzle the team solves, and the discipline is in marking which ones are actually binding. The characteristic error, in design as in his mother's dating advice, is promoting a want into a need.",
+      "lessons": [
+        {
+          "title": "Separate what must be true from what you want to be true, and mark which is which",
+          "rules": "He calls the first group nonnegotiables, and the term comes from his mother telling him to work out, before dating anyone, which requirements were actually requirements. The point is not that constraints help — it is that a list where everything looks equally mandatory cannot be worked against, because the team cannot tell what may be traded. Note that one of the four monster parameters is explicitly a wish rather than a requirement, and is labelled as such. The mistake, he says, is incorrectly labelling something a nonnegotiable when it is not.",
+          "flavor": "Designing is a lot like dating. You have to know your nonnegotiables."
+        },
+        {
+          "title": "When the category does not exist in the system, the mechanic you attach becomes its definition",
+          "rules": "There is no creature type for hero, so there was nothing the rules could point at, and therefore no way to write a card that cares about heroes. The team could not add the category — so the mechanic had to go on the heroes rather than refer to them, and by being on all of them it became the thing that makes them a group. Everything downstream could then reference the mechanic instead. When you need a set of things to be addressable and the system has no label for them, the shared mechanic is the label.",
+          "flavor": "A hero mechanic couldn't care about heroes. It had to be on heroes."
+        },
+        {
+          "title": "The connector between your problem and a shelved idea can be a technicality",
+          "rules": "The eventual mechanic came from something tried during one block and shelved, revisited during another and shelved again — a decade of nothing. What unlocked it was noticing that Auras target the creature they attach to. That is a rules fact with no thematic content whatsoever, and it is what married the stored idea to the current need. When you are looking through old material for something that fits, do not only compare subjects. Compare incidental properties, because the join is often a mechanism rather than a meaning.",
+          "flavor": "Then it dawned on me that Auras target the creature they are put on."
+        },
+        {
+          "title": "Derive the mechanic's shape from the dramatic beat it has to produce",
+          "rules": "The monsters needed one big climactic moment rather than incremental gain, and the reason is a specific sequence he can describe: the hero is losing, then rallies, then appears to be winning — and then the monster escalates, and the hero's expression changes. He wanted that particular beat. A once-only activation produces it. The requirement was not a mechanical property but a moment, and the mechanic was selected for making the moment happen. Where you know the beat you want, specify the beat and let the machinery be whatever produces it.",
+          "flavor": "I love that level-up moment. \"Oh, this is going to be harder than I thought.\""
+        },
+        {
+          "title": "The wording that teaches the concept can be lost to a corner case, and that is a real cost",
+          "rules": "The ability was written as usable once per game, which says exactly what it is for. It was changed during templating over a worry about what happens when the permanent leaves and returns — a legitimate concern about a rare situation. He accepts the decision and records the loss anyway, as someone who cares about the impact of words. Precision that covers the edge case sometimes costs you the phrase that made the ordinary case obvious. That trade is often correct and is never free, and it is worth saying which you paid.",
+          "flavor": "As someone big on the impact of the words, I was sorry to lose \"use once per game.\""
+        },
+        {
+          "title": "When adding something late, pick the thing you already understand",
+          "rules": "Development wanted a fifth mechanic after handoff and stated up front that it would be a returning one, on the grounds that they already knew how it behaves. That is the right instinct at that stage. A late addition has to be integrated, balanced and taught in the time remaining, and a known quantity costs a fraction of what an invention would. Novelty is a thing to spend early, when there is room to be wrong about it. Late in a project, familiarity is not a compromise, it is the correct specification.",
+          "flavor": "He said he planned to use a repeat mechanic, as it would be something he already understood."
+        },
+        {
+          "title": "A requirement nobody owns will be missed by everybody",
+          "rules": "Every set wants somewhere to put surplus resources late in the game, and this one arrived at handoff without it. Three separate mechanics had each been expected, loosely, to cover some of the need; none had been assigned it, and between them they did not. It took a fourth mechanic added after design was over to solve a requirement that had been known from the start. Standing requirements that belong to no particular component are the ones that fall through, because everyone assumes the coverage is incidental to somebody else's work.",
+          "flavor": "I was hoping monstrosity would cover some of this need. Erik didn't feel it was enough."
+        },
+        {
+          "title": "A source that over-supplies changes the job from invention to placement",
+          "rules": "He notes the reversal explicitly. Usually when planning a set they find gaps where nothing quite fits and have to invent something for the slot. Here the problem ran the other way: the source has more recognisable monsters than there were places to put them, so the work became finding a home for each rather than finding a candidate for each hole. Both are hard and they are hard differently, and a team used to one will apply the wrong methods to the other. Establish early which of the two situations you are in.",
+          "flavor": "We had the reverse problem — trying to find a home for all of them."
+        },
+        {
+          "title": "Say which parts of the work are not going to be settled by evidence",
+          "rules": "Setting out the third requirement for the hero mechanic — that it had to make the hero feel heroic — he flags that this is the vaguest of the three and also the most important, and then states the general position: some of design is science and some is art, and when you are trying to capture a feel you are on the art side and have to operate by feel. Marking that boundary is useful to everyone downstream, because it tells them which disagreements can be resolved by testing and which will come down to somebody's judgement.",
+          "flavor": "When you are capturing the feel of something, you are clearly on the art side. You operate by feel."
+        },
+        {
+          "title": "Fix the relationship between two numbers and every instance is decided",
+          "rules": "Rather than pricing each monster's activation individually, they set a rule: the activation always costs more than the creature itself, usually by two or more. One decision, applied across the whole group, and every card's number follows from its own cost. That is worth reaching for whenever you have a cycle of things that each need a value — a stated relationship between two quantities is faster than a series of judgement calls, produces consistency for free, and gives you one thing to argue about instead of a dozen.",
+          "flavor": "The activation would always cost more than the mana cost of the creature — usually two or more."
+        }
+      ]
+    },
+    "es": {
+      "title": "Theros con cualquier otro nombre, parte 3",
+      "dek": "Los dos pilares restantes — héroes y monstruos — recibieron cada uno una mecánica encargada contra una lista escrita de requisitos, y una quinta mecánica llegó después de la entrega.",
+      "overview": "La última entrega es la más metódica. Para cada uno de los dos componentes restantes, Rosewater escribe qué debe hacer la mecánica antes de que nadie empiece a buscar, separa los requisitos de los deseos y luego manda al equipo con la lista. La mecánica de los héroes salió de una idea archivada dos veces a lo largo de una década y desbloqueada por una propiedad incidental de las reglas. La mecánica de los monstruos se construyó a partir del momento dramático que debía producir. Y la quinta mecánica de la colección no estaba en ella al entregarla: desarrollo pidió una, eligió a propósito algo conocido y obtuvo el visto bueno por motivos de sabor.",
+      "takeaway": "Escribir los parámetros es cómo creas el puzle que el equipo resuelve, y la disciplina está en marcar cuáles son de verdad vinculantes. El error característico, en diseño como en los consejos amorosos de su madre, es ascender un deseo a necesidad.",
+      "lessons": [
+        {
+          "title": "Separa lo que tiene que ser cierto de lo que quieres que sea cierto, y marca cuál es cuál",
+          "rules": "Al primer grupo lo llama innegociables, y el término viene de que su madre le dijo que averiguara, antes de salir con nadie, qué requisitos eran requisitos de verdad. La cuestión no es que las restricciones ayuden: es que contra una lista donde todo parece igual de obligatorio no se puede trabajar, porque el equipo no sabe qué se puede negociar. Fíjate en que uno de los cuatro parámetros de los monstruos es explícitamente un deseo y no un requisito, y está etiquetado como tal. El error, dice, es etiquetar mal algo como innegociable cuando no lo es.",
+          "flavor": "Diseñar se parece mucho a salir con alguien. Tienes que conocer tus innegociables."
+        },
+        {
+          "title": "Cuando la categoría no existe en el sistema, la mecánica que le pegas se convierte en su definición",
+          "rules": "No hay un tipo de criatura para héroe, así que no había nada a lo que las reglas pudieran señalar y, por tanto, ninguna manera de escribir una carta que se preocupe por los héroes. El equipo no podía añadir la categoría, así que la mecánica tenía que ir en los héroes y no referirse a ellos; y al estar en todos, pasó a ser lo que los convierte en un grupo. Todo lo demás podía después referirse a la mecánica. Cuando necesitas que un conjunto de cosas sea direccionable y el sistema no tiene etiqueta para ellas, la mecánica compartida es la etiqueta.",
+          "flavor": "Una mecánica de héroes no podía preocuparse por los héroes. Tenía que ir en los héroes."
+        },
+        {
+          "title": "El conector entre tu problema y una idea archivada puede ser un tecnicismo",
+          "rules": "La mecánica final venía de algo probado en un bloque y archivado, retomado en otro y archivado otra vez: una década de nada. Lo que la desbloqueó fue darse cuenta de que las auras hacen objetivo a la criatura a la que se pegan. Ese es un hecho de reglas sin ningún contenido temático, y es lo que casó la idea guardada con la necesidad presente. Cuando repases material viejo buscando algo que encaje, no compares solo los temas. Compara propiedades incidentales, porque la junta suele ser un mecanismo y no un significado.",
+          "flavor": "Entonces caí en que las auras hacen objetivo a la criatura sobre la que se ponen."
+        },
+        {
+          "title": "Deriva la forma de la mecánica del momento dramático que debe producir",
+          "rules": "Los monstruos necesitaban un gran momento culminante y no una ganancia incremental, y la razón es una secuencia concreta que él sabe describir: el héroe va perdiendo, luego se recupera, luego parece que va a ganar, y entonces el monstruo sube de nivel y la cara del héroe cambia. Quería ese momento en particular. Una activación de un solo uso lo produce. El requisito no era una propiedad mecánica sino un instante, y la mecánica se eligió por hacer que ese instante ocurriera. Cuando sepas qué momento quieres, especifica el momento y deja que la maquinaria sea lo que sea que lo produzca.",
+          "flavor": "Me encanta ese momento de subida de nivel. «Ah, esto va a ser más difícil de lo que pensaba.»"
+        },
+        {
+          "title": "La redacción que enseña el concepto puede perderse por un caso límite, y eso es un coste real",
+          "rules": "La habilidad se escribió como utilizable una vez por partida, lo cual dice exactamente para qué está. Se cambió durante el proceso de plantillas por la preocupación de qué pasa cuando el permanente se va y vuelve: una inquietud legítima sobre una situación rara. Él acepta la decisión y aun así deja constancia de la pérdida, como alguien a quien le importa el impacto de las palabras. La precisión que cubre el caso límite a veces te cuesta la frase que hacía obvio el caso ordinario. Ese intercambio suele ser correcto y nunca es gratis, y conviene decir cuál pagaste.",
+          "flavor": "Como alguien a quien le importa el impacto de las palabras, sentí perder «utilízalo una vez por partida»."
+        },
+        {
+          "title": "Cuando añadas algo tarde, elige lo que ya entiendes",
+          "rules": "Desarrollo quería una quinta mecánica después de la entrega y declaró de entrada que sería una que volvía, con el argumento de que ya sabían cómo se comporta. Ese es el instinto correcto en esa fase. Una adición tardía hay que integrarla, equilibrarla y enseñarla en el tiempo que queda, y una cantidad conocida cuesta una fracción de lo que costaría una invención. La novedad es algo que se gasta pronto, cuando hay margen para equivocarse con ella. Tarde en un proyecto, la familiaridad no es un apaño: es la especificación correcta.",
+          "flavor": "Dijo que planeaba usar una mecánica repetida, porque sería algo que ya entendía."
+        },
+        {
+          "title": "Un requisito que no tiene dueño se le escapará a todo el mundo",
+          "rules": "Toda colección quiere un sitio donde meter recursos sobrantes al final de la partida, y esta llegó a la entrega sin él. De tres mecánicas distintas se esperaba, vagamente, que cada una cubriera parte de la necesidad; a ninguna se le había asignado, y entre las tres no lo hicieron. Hizo falta una cuarta mecánica añadida después de terminar el diseño para resolver un requisito que se conocía desde el principio. Los requisitos permanentes que no pertenecen a ningún componente concreto son los que se caen, porque todos suponen que la cobertura es incidental al trabajo de otro.",
+          "flavor": "Yo esperaba que la monstruosidad cubriera parte de esta necesidad. Erik no lo veía suficiente."
+        },
+        {
+          "title": "Una fuente que sobreabastece cambia el trabajo de inventar a colocar",
+          "rules": "Él señala la inversión explícitamente. Normalmente, al planificar una colección, encuentran huecos donde no encaja bien nada y tienen que inventar algo para el sitio. Aquí el problema iba al revés: la fuente tiene más monstruos reconocibles que sitios donde ponerlos, así que el trabajo pasó a ser encontrarle casa a cada uno en vez de encontrar un candidato para cada hueco. Ambas cosas son difíciles y lo son de forma distinta, y un equipo acostumbrado a una aplicará los métodos equivocados a la otra. Establece pronto en cuál de las dos situaciones estás.",
+          "flavor": "Teníamos el problema inverso: intentar encontrarles casa a todos."
+        },
+        {
+          "title": "Di qué partes del trabajo no las va a zanjar la evidencia",
+          "rules": "Al exponer el tercer requisito de la mecánica de héroes — que tenía que hacer que el héroe se sintiera heroico —, señala que es el más vago de los tres y también el más importante, y luego enuncia la posición general: parte del diseño es ciencia y parte es arte, y cuando intentas capturar una sensación estás en el lado del arte y tienes que operar por instinto. Marcar esa frontera le sirve a todos aguas abajo, porque les dice qué desacuerdos se pueden resolver probando y cuáles acabarán dependiendo del criterio de alguien.",
+          "flavor": "Cuando estás capturando la sensación de algo, estás claramente del lado del arte. Operas por instinto."
+        },
+        {
+          "title": "Fija la relación entre dos números y cada instancia queda decidida",
+          "rules": "En vez de poner precio a la activación de cada monstruo por separado, establecieron una regla: la activación siempre cuesta más que la criatura misma, normalmente dos o más. Una decisión, aplicada a todo el grupo, y el número de cada carta se deduce de su propio coste. Merece la pena recurrir a esto siempre que tengas un ciclo de cosas que necesitan cada una un valor: una relación declarada entre dos cantidades es más rápida que una serie de juicios, produce consistencia gratis y te deja una sola cosa que discutir en lugar de una docena.",
+          "flavor": "La activación siempre costaría más que el coste de maná de la criatura, normalmente dos o más."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Theros sous un autre nom, partie 3",
+      "dek": "Les deux piliers restants — héros et monstres — ont chacun reçu une mécanique commandée sur une liste écrite d'exigences, et une cinquième mécanique est arrivée après la remise.",
+      "overview": "Le dernier volet est le plus méthodique. Pour chacun des deux composants restants, Rosewater écrit ce que la mécanique doit faire avant que quiconque commence à chercher, sépare les exigences des souhaits, puis envoie l'équipe avec la liste. La mécanique des héros vient d'une idée mise de côté deux fois en une décennie et débloquée par une propriété incidente des règles. La mécanique des monstres a été bâtie à partir du temps dramatique qu'elle devait produire. Et la cinquième mécanique de l'extension n'y était pas à la remise : le développement en a demandé une, a choisi exprès quelque chose de connu, et a obtenu l'accord sur des bases d'ambiance.",
+      "takeaway": "Écrire les paramètres est la façon de créer l'énigme que l'équipe résout, et la discipline consiste à marquer lesquels sont réellement contraignants. L'erreur caractéristique, en conception comme dans les conseils amoureux de sa mère, est de promouvoir une envie en besoin.",
+      "lessons": [
+        {
+          "title": "Séparez ce qui doit être vrai de ce que vous voulez vrai, et marquez lequel est lequel",
+          "rules": "Il appelle le premier groupe les non-négociables, terme venu de sa mère lui disant de déterminer, avant de fréquenter quiconque, quelles exigences en étaient vraiment. Le point n'est pas que les contraintes aident : c'est qu'on ne peut pas travailler contre une liste où tout paraît également obligatoire, car l'équipe ne sait pas ce qui est négociable. Notez qu'un des quatre paramètres des monstres est explicitement un souhait et non une exigence, et qu'il est étiqueté comme tel. L'erreur, dit-il, est d'étiqueter à tort quelque chose comme non négociable.",
+          "flavor": "Concevoir ressemble beaucoup à sortir avec quelqu'un. Il faut connaître ses non-négociables."
+        },
+        {
+          "title": "Quand la catégorie n'existe pas dans le système, la mécanique que vous y attachez en devient la définition",
+          "rules": "Il n'existe pas de type de créature pour héros : les règles n'avaient donc rien à désigner, et aucun moyen d'écrire une carte qui se soucie des héros. L'équipe ne pouvait pas ajouter la catégorie — la mécanique devait donc être sur les héros plutôt que s'y référer, et en étant sur tous, elle est devenue ce qui en fait un groupe. Tout l'aval pouvait ensuite se référer à la mécanique. Quand vous avez besoin qu'un ensemble soit adressable et que le système n'a pas d'étiquette pour lui, la mécanique partagée est l'étiquette.",
+          "flavor": "Une mécanique de héros ne pouvait pas se soucier des héros. Elle devait être sur les héros."
+        },
+        {
+          "title": "Le connecteur entre votre problème et une idée rangée peut être une technicalité",
+          "rules": "La mécanique finale venait d'une chose essayée dans un bloc et rangée, reprise dans un autre et rangée à nouveau : une décennie de rien. Ce qui l'a débloquée, c'est d'avoir remarqué que les auras ciblent la créature à laquelle elles s'attachent. C'est un fait de règles sans aucun contenu thématique, et c'est lui qui a marié l'idée stockée au besoin présent. Quand vous fouillez du vieux matériau à la recherche de ce qui convient, ne comparez pas seulement les sujets. Comparez les propriétés incidentes, car la jointure est souvent un mécanisme, non un sens.",
+          "flavor": "Puis il m'est apparu que les auras ciblent la créature sur laquelle on les pose."
+        },
+        {
+          "title": "Déduisez la forme de la mécanique du temps dramatique qu'elle doit produire",
+          "rules": "Les monstres avaient besoin d'un grand moment culminant plutôt que d'un gain progressif, et la raison est une séquence précise qu'il sait décrire : le héros perd, puis se ressaisit, puis semble l'emporter — et alors le monstre monte d'un cran, et l'expression du héros change. C'est ce temps-là qu'il voulait. Une activation unique le produit. L'exigence n'était pas une propriété mécanique mais un instant, et la mécanique a été retenue pour faire advenir cet instant. Quand vous connaissez le temps voulu, spécifiez le temps et laissez la machinerie être ce qui le produit.",
+          "flavor": "J'adore ce moment où le monstre monte d'un cran. « Ah, ça va être plus dur que prévu. »"
+        },
+        {
+          "title": "La formulation qui enseigne le concept peut se perdre pour un cas limite, et c'est un coût réel",
+          "rules": "La capacité était écrite comme utilisable une fois par partie, ce qui dit exactement à quoi elle sert. Elle a été changée au moment du gabarit par crainte de ce qui arrive quand le permanent quitte le jeu et revient — inquiétude légitime sur une situation rare. Il accepte la décision et consigne tout de même la perte, en homme attaché à l'impact des mots. La précision qui couvre le cas limite vous coûte parfois la phrase qui rendait le cas ordinaire évident. Cet échange est souvent juste et n'est jamais gratuit : dites lequel vous avez payé.",
+          "flavor": "Attaché comme je le suis à l'impact des mots, j'ai regretté de perdre « une fois par partie »."
+        },
+        {
+          "title": "Quand vous ajoutez tard, choisissez ce que vous comprenez déjà",
+          "rules": "Le développement voulait une cinquième mécanique après la remise et a annoncé d'emblée que ce serait une mécanique de retour, au motif qu'ils savaient déjà comment elle se comporte. C'est le bon instinct à ce stade. Un ajout tardif doit être intégré, équilibré et enseigné dans le temps restant, et une quantité connue coûte une fraction de ce que coûterait une invention. La nouveauté se dépense tôt, quand il reste de la place pour se tromper. Tard dans un projet, la familiarité n'est pas un compromis : c'est la bonne spécification.",
+          "flavor": "Il a dit qu'il comptait utiliser une mécanique de retour, puisqu'il la comprenait déjà."
+        },
+        {
+          "title": "Une exigence que personne ne possède échappera à tout le monde",
+          "rules": "Toute extension veut un endroit où dépenser les ressources excédentaires en fin de partie, et celle-ci est arrivée à la remise sans. On attendait vaguement de trois mécaniques distinctes qu'elles couvrent chacune une part du besoin ; aucune n'en était chargée, et à elles trois elles ne l'ont pas fait. Il a fallu une quatrième mécanique ajoutée après la fin de la conception pour régler une exigence connue depuis le début. Les exigences permanentes qui n'appartiennent à aucun composant précis sont celles qui passent au travers, chacun supposant que la couverture est incidente au travail d'un autre.",
+          "flavor": "J'espérais que la monstruosité couvrirait une partie de ce besoin. Erik ne trouvait pas cela suffisant."
+        },
+        {
+          "title": "Une source surabondante change le travail : de l'invention au placement",
+          "rules": "Il note explicitement le renversement. D'ordinaire, en planifiant une extension, on trouve des trous où rien ne convient tout à fait et il faut inventer quelque chose pour la case. Ici le problème allait dans l'autre sens : la source a plus de monstres reconnaissables qu'il n'y avait de places, si bien que le travail est devenu de trouver un foyer à chacun plutôt qu'un candidat pour chaque trou. Les deux sont difficiles et le sont différemment, et une équipe habituée à l'un appliquera les mauvaises méthodes à l'autre. Établissez tôt dans laquelle des deux situations vous êtes.",
+          "flavor": "Nous avions le problème inverse : essayer de trouver un foyer à tous."
+        },
+        {
+          "title": "Dites quelles parties du travail ne seront pas tranchées par les preuves",
+          "rules": "En exposant la troisième exigence de la mécanique des héros — qu'elle rende le héros héroïque — il signale que c'est la plus vague des trois et aussi la plus importante, puis énonce la position générale : une part de la conception est science et une part est art, et quand on cherche à saisir un ressenti on est du côté de l'art et l'on procède au feeling. Marquer cette frontière sert tout l'aval, car cela dit quels désaccords se règlent par les tests et lesquels relèveront du jugement de quelqu'un.",
+          "flavor": "Quand vous saisissez le ressenti d'une chose, vous êtes clairement du côté de l'art. Vous procédez au feeling."
+        },
+        {
+          "title": "Fixez la relation entre deux nombres et chaque instance est décidée",
+          "rules": "Plutôt que de tarifer l'activation de chaque monstre séparément, ils ont posé une règle : l'activation coûte toujours plus que la créature elle-même, en général de deux ou plus. Une décision, appliquée au groupe entier, et le nombre de chaque carte découle de son propre coût. Cela vaut d'être tenté chaque fois que vous avez un cycle d'objets ayant chacun besoin d'une valeur : une relation énoncée entre deux quantités est plus rapide qu'une série de jugements, produit gratuitement de la cohérence, et vous laisse une seule chose à débattre au lieu de douze.",
+          "flavor": "L'activation coûterait toujours plus que le coût de mana de la créature — d'ordinaire deux de plus ou davantage."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Theros com qualquer outro nome, parte 3",
+      "dek": "Os dois pilares restantes — heróis e monstros — cada um recebeu uma mecânica encomendada contra uma lista escrita de exigências, e uma quinta mecânica chegou depois da entrega.",
+      "overview": "A última parte é a mais metódica. Para cada um dos dois componentes restantes, Rosewater escreve o que a mecânica precisa fazer antes de alguém começar a procurar, separa as exigências dos desejos, e então manda a equipe com a lista. A mecânica dos heróis saiu de uma ideia engavetada duas vezes ao longo de uma década e destravada por uma propriedade incidental das regras. A mecânica dos monstros foi construída a partir da batida dramática que precisava produzir. E a quinta mecânica da coleção não estava nela na entrega: o desenvolvimento pediu uma, escolheu de propósito algo conhecido, e obteve aprovação por motivos de sabor.",
+      "takeaway": "Escrever os parâmetros é como você cria o quebra-cabeça que a equipe resolve, e a disciplina está em marcar quais são de fato vinculantes. O erro característico, no design como no conselho amoroso da mãe dele, é promover um desejo a necessidade.",
+      "lessons": [
+        {
+          "title": "Separe o que precisa ser verdade do que você quer que seja verdade, e marque qual é qual",
+          "rules": "Ele chama o primeiro grupo de inegociáveis, e o termo vem de a mãe dele lhe dizer para descobrir, antes de sair com alguém, quais exigências eram de fato exigências. A questão não é que restrições ajudam: é que não dá para trabalhar contra uma lista em que tudo parece igualmente obrigatório, porque a equipe não sabe o que pode ser negociado. Repare que um dos quatro parâmetros dos monstros é explicitamente um desejo e não uma exigência, e está rotulado como tal. O erro, ele diz, é rotular algo como inegociável quando não é.",
+          "flavor": "Projetar é muito parecido com namorar. Você precisa conhecer os seus inegociáveis."
+        },
+        {
+          "title": "Quando a categoria não existe no sistema, a mecânica que você prende a ela vira a definição dela",
+          "rules": "Não existe tipo de criatura para herói, então não havia nada a que as regras pudessem apontar e, portanto, nenhum jeito de escrever uma carta que se importe com heróis. A equipe não podia acrescentar a categoria — então a mecânica tinha de ficar nos heróis em vez de se referir a eles, e por estar em todos, virou aquilo que os torna um grupo. Tudo adiante podia então se referir à mecânica. Quando você precisa que um conjunto de coisas seja endereçável e o sistema não tem rótulo para elas, a mecânica compartilhada é o rótulo.",
+          "flavor": "Uma mecânica de herói não podia se importar com heróis. Ela tinha de estar nos heróis."
+        },
+        {
+          "title": "O conector entre o seu problema e uma ideia engavetada pode ser um detalhe técnico",
+          "rules": "A mecânica final veio de algo tentado num bloco e engavetado, retomado em outro e engavetado de novo: uma década de nada. O que a destravou foi perceber que auras têm como alvo a criatura à qual se prendem. Esse é um fato de regras sem nenhum conteúdo temático, e é o que casou a ideia guardada com a necessidade presente. Quando vasculhar material antigo atrás de algo que sirva, não compare só os assuntos. Compare propriedades incidentais, porque a junção costuma ser um mecanismo, não um significado.",
+          "flavor": "Aí me ocorreu que as auras têm como alvo a criatura em que são postas."
+        },
+        {
+          "title": "Derive o formato da mecânica da batida dramática que ela precisa produzir",
+          "rules": "Os monstros precisavam de um grande momento culminante em vez de ganho incremental, e o motivo é uma sequência específica que ele sabe descrever: o herói está perdendo, então se recupera, então parece que vai vencer — e aí o monstro sobe de nível, e a expressão do herói muda. Ele queria aquela batida em particular. Uma ativação de uso único a produz. A exigência não era uma propriedade mecânica e sim um instante, e a mecânica foi escolhida por fazer o instante acontecer. Quando você souber que batida quer, especifique a batida e deixe o maquinário ser o que a produzir.",
+          "flavor": "Adoro aquele momento em que o monstro sobe de nível. \"Ah, isto vai ser mais difícil do que eu pensava.\""
+        },
+        {
+          "title": "A redação que ensina o conceito pode se perder por um caso limite, e isso é um custo real",
+          "rules": "A habilidade foi escrita como utilizável uma vez por partida, o que diz exatamente para que ela serve. Foi alterada durante o gabarito por preocupação com o que acontece quando o permanente sai e volta — uma inquietação legítima sobre uma situação rara. Ele aceita a decisão e registra a perda mesmo assim, como alguém que se importa com o impacto das palavras. A precisão que cobre o caso limite às vezes custa a você a frase que tornava o caso comum óbvio. Essa troca costuma estar certa e nunca é grátis, e vale dizer qual delas você pagou.",
+          "flavor": "Como alguém que se importa com o impacto das palavras, lamentei perder \"use uma vez por partida\"."
+        },
+        {
+          "title": "Ao acrescentar algo tarde, escolha aquilo que você já entende",
+          "rules": "O desenvolvimento queria uma quinta mecânica depois da entrega e declarou de saída que seria uma mecânica de retorno, com o argumento de que já sabiam como ela se comporta. Esse é o instinto certo nesse estágio. Uma adição tardia precisa ser integrada, balanceada e ensinada no tempo restante, e uma quantidade conhecida custa uma fração do que custaria uma invenção. Novidade é coisa para gastar cedo, quando há espaço para errar. Tarde num projeto, familiaridade não é concessão: é a especificação correta.",
+          "flavor": "Ele disse que planejava usar uma mecânica de retorno, por ser algo que já entendia."
+        },
+        {
+          "title": "Uma exigência que ninguém possui vai escapar de todo mundo",
+          "rules": "Toda coleção quer um lugar para gastar recursos sobrando no fim do jogo, e esta chegou à entrega sem ele. Esperava-se, vagamente, que três mecânicas distintas cobrissem cada uma parte da necessidade; a nenhuma ela tinha sido atribuída, e juntas elas não cobriram. Foi preciso uma quarta mecânica acrescentada depois do fim do design para resolver uma exigência conhecida desde o começo. Exigências permanentes que não pertencem a nenhum componente específico são as que caem no vão, porque todos supõem que a cobertura é incidental ao trabalho de outra pessoa.",
+          "flavor": "Eu esperava que a monstruosidade cobrisse parte dessa necessidade. Erik não achou suficiente."
+        },
+        {
+          "title": "Uma fonte que fornece demais muda o trabalho de invenção para colocação",
+          "rules": "Ele nota a inversão explicitamente. Normalmente, ao planejar uma coleção, encontram-se lacunas onde nada encaixa direito e é preciso inventar algo para a vaga. Aqui o problema corria ao contrário: a fonte tem mais monstros reconhecíveis do que havia lugares para pô-los, então o trabalho virou achar uma casa para cada um em vez de achar um candidato para cada buraco. As duas coisas são difíceis e difíceis de modos diferentes, e uma equipe acostumada a uma aplicará os métodos errados à outra. Estabeleça cedo em qual das duas situações você está.",
+          "flavor": "Tínhamos o problema inverso: tentar achar uma casa para todos eles."
+        },
+        {
+          "title": "Diga que partes do trabalho não vão ser resolvidas por evidência",
+          "rules": "Ao expor a terceira exigência da mecânica dos heróis — que ela fizesse o herói se sentir heroico — ele sinaliza que essa é a mais vaga das três e também a mais importante, e então enuncia a posição geral: parte do design é ciência e parte é arte, e quando você tenta capturar uma sensação está do lado da arte e opera por intuição. Marcar essa fronteira serve a todos adiante, porque diz quais divergências podem ser resolvidas testando e quais vão depender do julgamento de alguém.",
+          "flavor": "Quando você está capturando a sensação de algo, está claramente do lado da arte. Você opera por intuição."
+        },
+        {
+          "title": "Fixe a relação entre dois números e cada instância fica decidida",
+          "rules": "Em vez de precificar a ativação de cada monstro individualmente, estabeleceram uma regra: a ativação sempre custa mais que a própria criatura, em geral dois ou mais. Uma decisão, aplicada ao grupo inteiro, e o número de cada carta decorre do próprio custo dela. Vale recorrer a isso sempre que você tiver um ciclo de coisas que precisam cada uma de um valor: uma relação declarada entre duas quantidades é mais rápida que uma série de julgamentos, produz consistência de graça, e deixa você com uma coisa só para discutir em vez de uma dúzia.",
+          "flavor": "A ativação sempre custaria mais que o custo de mana da criatura — em geral dois a mais ou mais."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "泰罗斯，换个名字（下）",
+      "dek": "剩下的两根支柱——英雄与怪物——各自都是照着一份写下来的要求清单去订做机制的；而第五个机制是在交接之后才到来的。",
+      "overview": "最后这一篇是最有条理的。对剩下的两个部件，罗斯瓦特都在任何人开始寻找之前先写下「这个机制必须做到什么」，把要求和愿望分开，然后带着清单把团队派出去。英雄的机制来自一个在十年间被搁置过两次的点子，而解锁它的是规则上一条附带性质。怪物的机制则是从「它必须产出的那个戏剧节拍」出发建起来的。而这套牌的第五个机制在交接时并不在里面：开发方要了一个，刻意选了一样熟悉的东西，并在风味理由上拿到了批准。",
+      "takeaway": "写下参数，正是你为团队造出那道待解之题的方式；而纪律在于标明哪些参数是真正有约束力的。这里典型的错误——和他母亲给的恋爱建议里一样——是把一个「想要」提拔成「必须」。",
+      "lessons": [
+        {
+          "title": "把「必须为真」和「希望为真」分开，并标明哪个是哪个",
+          "rules": "他把第一类叫做不可谈判项；这个说法来自他母亲告诉他：在和任何人交往之前，先弄清楚哪些要求才是真正的要求。要点不在于「约束有帮助」，而在于：一份「看上去每条都同等必须」的清单是没法拿来干活的，因为团队分辨不出哪些可以拿去交换。请注意，怪物的四条参数里有一条被明确写成愿望而不是要求，并且被如此标注。他说，错误在于把一样其实不是不可谈判项的东西错标成了不可谈判项。",
+          "flavor": "做设计很像谈恋爱。你必须知道自己的不可谈判项。"
+        },
+        {
+          "title": "当这个类别在系统里并不存在时，你挂上去的那个机制就成了它的定义",
+          "rules": "「英雄」不是一个生物类别，所以规则没有任何东西可以指向它，因此也就没有办法写出一张「在意英雄」的牌。团队没法凭空添一个类别——于是这个机制只能装在英雄身上，而不是去引用他们；而正因为它装在所有英雄身上，它变成了「让他们成为一个群体」的那样东西。此后下游的一切就可以转而引用这个机制。当你需要一组东西可被指涉、而系统又没有给它们标签时，那个共享的机制就是标签。",
+          "flavor": "英雄机制没法「在意」英雄。它只能「装在」英雄身上。"
+        },
+        {
+          "title": "你的问题和一个被搁置的点子之间的连接件，可能只是一处技术细节",
+          "rules": "最终的机制来自某个在一个环境里试过、被搁置，又在另一个环境里被重新拿出来、再次被搁置的东西——十年一无所获。解锁它的，是注意到灵气会以它所附着的那个生物为目标。这是一条毫无主题内容的规则事实，而正是它把库存里的点子和当下的需求撮合在了一起。当你翻旧材料找合用的东西时，不要只比较题材。去比较那些附带性质，因为接缝往往是一个机制，而不是一层含义。",
+          "flavor": "然后我忽然想到：灵气会以它所附着的那个生物为目标。"
+        },
+        {
+          "title": "从它必须产出的那个戏剧节拍，反推机制的形状",
+          "rules": "怪物需要的是一个大的高潮时刻，而不是逐步累积的收益；而理由是一段他能具体描述出来的序列：英雄先落下风，然后扳回来，然后看起来要赢了——这时怪物升了一级，而英雄的表情变了。他想要的正是那一拍。一个「每局只能用一次」的启动式能力能产出它。这里的要求不是一项机制属性，而是一个瞬间；而机制是因为「能让那个瞬间发生」而被选中的。当你知道自己想要哪一拍时，就把那一拍写成规格，让机械部分是任何能产出它的东西。",
+          "flavor": "我太喜欢怪物升级的那一刻了。「哦，这比我想的要难。」"
+        },
+        {
+          "title": "那句「教会人们这个概念」的措辞，可能因为一个边缘情形而失去，而这是一笔真实的代价",
+          "rules": "这个异能原本写成「每局使用一次」，而这句话恰好说清了它是干什么的。它在制作模板时被改掉了，起因是对「这个永久物离场后又回来会怎样」的担心——一个关于罕见情形的正当顾虑。他接受这个决定，同时仍然把这份损失记了下来，因为他是个很看重字句冲击力的人。覆盖住边缘情形的那份精确，有时会让你付出「本来让常见情形一目了然的那句话」。这笔交换往往是对的，而它从来不是免费的；值得说清楚你付掉的是哪一样。",
+          "flavor": "作为一个很看重字句冲击力的人，失去「每局使用一次」让我难过。"
+        },
+        {
+          "title": "在很晚才要加东西时，挑你已经理解的那一个",
+          "rules": "交接之后开发方想要第五个机制，并且一开口就说明那会是一个回归的机制，理由是他们已经知道它怎么运作。在那个阶段，这是正确的直觉。一个晚加的东西必须在剩下的时间里被整合、被平衡、被教会给玩家；而一个已知量的成本，只是发明一样东西的零头。新意是要早花的东西——在还有余地犯错的时候花。到了项目后期，熟悉不是妥协，而是正确的规格。",
+          "flavor": "他说他打算用一个回归机制，因为那会是一样他已经理解的东西。"
+        },
+        {
+          "title": "一项没有主人的要求，会被所有人漏掉",
+          "rules": "每一套牌都希望有个地方能在后期消耗多余的资源，而这一套在交接时并没有。有三个不同的机制，各自都被松散地指望着「覆盖这份需求的一部分」；但没有任何一个被正式指派过，而它们合起来也没做到。最后要靠一个在设计结束之后才追加的第四个机制，去解决一项从一开始就知道的要求。那些不归属于任何具体部件的长期要求，正是会从缝里掉下去的那些——因为每个人都假定这份覆盖是别人工作的附带产物。",
+          "flavor": "我原指望「化猛」能覆盖一部分。埃里克觉得那不够。"
+        },
+        {
+          "title": "一份供过于求的素材，会把工作从「发明」变成「安放」",
+          "rules": "他明确指出了这次的颠倒。通常在规划一套牌时，他们会发现一些「什么都不太合适」的空缺，必须为那个位置发明点什么。而这里的问题反了过来：这份素材里可辨认的怪物，比可以摆放它们的位置还多；于是工作变成了给每一个找个家，而不是给每个窟窿找个候选。两件事都难，而且难法不同；一支习惯了其中一种的队伍，会把错误的方法用到另一种上。尽早确立你身处这两种情形中的哪一种。",
+          "flavor": "我们遇到的是反过来的问题——想办法给它们全都找个家。"
+        },
+        {
+          "title": "说清楚这项工作里哪些部分不会由证据来裁决",
+          "rules": "在提出英雄机制的第三条要求时——它必须让英雄感觉像英雄——他指出这是三条里最含糊的一条，同时也是最重要的一条；然后他说出了那个一般性的立场：设计有一部分是科学，有一部分是艺术；而当你试图抓住某种感觉时，你显然在艺术那一侧，只能凭感觉行事。把这条界线标出来，对下游的每一个人都有用，因为它告诉他们：哪些分歧可以靠测试解决，哪些最终会归结为某个人的判断。",
+          "flavor": "当你在抓一样东西的感觉时，你显然在艺术那一侧。你靠感觉行事。"
+        },
+        {
+          "title": "把两个数字之间的关系钉死，每一个实例就都被决定了",
+          "rules": "他们没有逐个给每只怪物的启动式能力定价，而是定了一条规则：这个启动费用永远高于这个生物本身的费用，通常高两点或更多。一个决定，套用到整个群体，于是每张牌的数字都从它自己的费用推导出来。凡是你手上有一组「每一个都需要一个数值」的东西时，这个做法都值得一试：一条被说明的、两个量之间的关系，比一连串的个案判断更快，免费产出一致性，并且把要争论的东西从十几个减少到一个。",
+          "flavor": "启动费用永远比生物的法术力费用更高——通常高两点或更多。"
+        }
+      ]
+    }
+  }
+}
