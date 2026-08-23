@@ -1,0 +1,320 @@
+{
+  "id": "whims-fate-reforged-part-1-2014-12-29",
+  "slug": "whims-fate-reforged-part-1-2014-12-29",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2014-12-29",
+  "series": { "id": "whims-of-fate-reforged", "order": 1, "total": 2 },
+  "tags": ["fate-reforged", "exploratory-design", "manifest", "morph", "team"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/whims-fate-reforged-part-1-2014-12-29",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T19:00:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Whims of Fate Reforged, Part 1",
+      "dek": "They needed a mechanic that could have an ancestor. Then they needed the ancestor to feel new.",
+      "overview": "The exploratory design that produced the Tarkir block plan: writing a mechanic's spec as a relation across three sets, and finding manifest inside morph.",
+      "takeaway": "\"Face-downness had a lot of potential.\"",
+      "lessons": [
+        {
+          "title": "Staff the team with whoever will do this job next time",
+          "rules": "The cheapest preparation for a role is a seat on a team already doing it. Not shadowing, not observation — an actual position with actual responsibilities, one level below the job you're preparing them for. They arrive at their own turn having already lived through the particular difficulties that role carries.",
+          "flavor": "“Ethan's first expansion design lead was Journey into Nyx. His second will be ‘Sweat,' the January 2016 small set… In order to start prepping him for his first second-set design, Mark Gottlieb (the design manager) and I thought it would be good for him to serve on a second set as a design team member.”"
+        },
+        {
+          "title": "Put the person whose idea created the constraint on the team that has to live with it",
+          "rules": "Whoever proposed the structure everyone is now working inside understands its intent better than anyone, and is also the person most likely to know which parts of it are load-bearing and which were arbitrary. Assign them to the hardest consequence of their own proposal. It isn't a punishment; it's where their knowledge is worth most.",
+          "flavor": "“Ethan was the person who came up with the time-travel structure during exploratory design that we ended up building the Khans of Tarkir block plan around, so it only seemed appropriate to toss him into the set that served as the crux of the entire block… a perfect fit for a set built around solving a big puzzle.”"
+        },
+        {
+          "title": "Have the receiving team's lead sit on the sending team",
+          "rules": "A handoff transfers the artefact and loses the intent. The fix costs one seat: put whoever will run the next stage inside the current one, as a working member. They spend the following months knowing not just what was made but what it was for — and nobody has to write that down.",
+          "flavor": "“Dave was not only the development representative on the design team, he was also the lead developer for Fate Reforged. Every R&D member has his or her quirks, and Dave likes being on the design team of sets he's going to lead. It allows him to get into the mindset of the lead designer and understand what exactly the design team was up to.”"
+        },
+        {
+          "title": "Temperament is a staffing consideration, and reliable cheerful output is a role",
+          "rules": "Teams need someone who responds to a hard problem by producing a pile of attempts and not by producing a diagnosis. That's a disposition rather than a skill, it's rare, and it changes what the rest of the group can do. Name it when you're assembling people, the same way you'd name any other capability.",
+          "flavor": "“My favorite thing about having Gavin on the team is that he brings with him a wondrous sense of optimism. Gavin is a happy guy and he always brought that sense of joy to the design. No matter what design challenge you throw at Gavin he always comes back with a smile and a list of new cards.”"
+        },
+        {
+          "title": "Write the requirement as a relation across instalments before you know what fills it",
+          "rules": "You can specify a component entirely by how its versions have to relate to each other, without any idea what the component is. Do that first. The spec is short, it's checkable against candidates, and it tells you immediately which of them are impossible — which is a much faster filter than evaluating each on its own merits.",
+          "flavor": "“We needed a mechanic, what I'll call Mechanic X… Set 1: The mechanic would just do its thing. Set 2: We could create a proto-version of the mechanic. Something that felt like it existed before the mechanic in Set 1. Set 3: We see the mechanic from Set 1 but not quite the same, because things went a little differently in this timeline.”"
+        },
+        {
+          "title": "A primitive ancestor has to be new material, not the finished thing minus features",
+          "rules": "When you need an earlier, cruder version of something, subtraction is the obvious route and the wrong one. An audience reads a reduced version as a worse version, not as an earlier one. The ancestor has to be its own thing, doing something the descendant doesn't, so that the descendant reads as a development rather than an upgrade.",
+          "flavor": "“The big challenge was the need for Set 2. The proto-mechanic had to feel like a devolution but still had to feel fresh and new. It couldn't just be a simpler version of the mechanic in the first set, it had to be its own thing.” Then: “it felt like a new mechanic rather than just a redone version of morph. Manifest, for example, allows some different gameplay from morph.”"
+        },
+        {
+          "title": "Two requirements that each demand the whole project may be the same requirement",
+          "rules": "When you're carrying two separate wants, both of which would need the entire project organised around them, check whether one thing can be both. It sounds like wishful thinking and it's worth the ten minutes, because a single element satisfying two whole-project demands is the only way you get to have both.",
+          "flavor": "“We had been looking to bring back morph and I knew that if we were going to do it, it was a complex enough mechanic that we'd have to build the block around it. Mechanic X would also need to have the block built around it. Two birds, one stone.” Morph also had “enough different elements that we had a lot to work with” and “a sense of intrigue.”"
+        },
+        {
+          "title": "Separate the state from the only mechanism that produces it",
+          "rules": "Where one feature is the sole way to reach a particular condition, people treat the condition as belonging to that feature. It doesn't. Name the state on its own, ask what else could produce it and what else could care about it, and a single mechanic turns into a design space several things can occupy.",
+          "flavor": "“The game defines face-down cards as colorless 2/2 creatures. Morph was the only mechanic that got cards into a face-down state (there are some individual cards that could do it) but it didn't need to be. Face-downness (hey, Shakespeare made up words) had a lot of potential. The team explored every facet it could think of about face-down cards.”"
+        },
+        {
+          "title": "A gate on a property fails below a density threshold — measure the density first",
+          "rules": "Any mechanism that only pays off when it encounters a particular kind of thing is silently a bet on how common that kind of thing is. Count before you build. If the hit rate is low, the feature won't read as conditional — it'll read as broken, and the fix is usually to widen what counts rather than to add more of the thing.",
+          "flavor": "“In design, the ability only put cards face-down and it required the card to have morph to be able to get it face-up. It turned out that cards being morph cards was not high enough of a percentage and the gameplay didn't work out correctly so… the mechanic was changed to allow you to turn creatures face-up for their mana cost.”"
+        },
+        {
+          "title": "Uncertainty about whether the thing exists beats uncertainty about which one it is",
+          "rules": "Hidden information comes in grades. Concealing an item's identity while confirming its category leaves the other party with a bounded problem. Concealing whether there's anything there at all is a different order of thing: they can't price the possibilities, because the set of possibilities now includes nothing.",
+          "flavor": "“Your opponent doesn't know what your morph card is or what its morph cost is, but he or she knows that eventually you'll be able to turn it up. With manifest, maybe it's a dangerous creature or maybe it's just a basic land. Who knows? Well, you do, but your opponent doesn't. It's great fun when your opponent destroys your face-down creature to learn it was…a Plains.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Caprichos de Fate Reforged, parte 1",
+      "dek": "Necesitaban una mecánica que pudiera tener un antepasado. Luego necesitaban que el antepasado se sintiera nuevo.",
+      "overview": "El diseño exploratorio que produjo el plan del bloque Tarkir: escribir la especificación de una mecánica como una relación entre tres sets, y hallar manifestar dentro de la metamorfosis.",
+      "takeaway": "«El estar boca abajo tenía mucho potencial.»",
+      "lessons": [
+        {
+          "title": "Pon en el equipo a quien vaya a hacer este trabajo la próxima vez",
+          "rules": "La preparación más barata para un puesto es un asiento en un equipo que ya lo está haciendo. Ni acompañamiento ni observación: un puesto real con responsabilidades reales, un nivel por debajo del trabajo para el que lo preparas. Llegará a su turno habiendo vivido ya las dificultades concretas que ese papel acarrea.",
+          "flavor": "«El primer liderazgo de expansión de Ethan fue Journey into Nyx. El segundo será “Sweat”, el set pequeño de enero de 2016… Para empezar a prepararlo para su primer diseño de segundo set, Mark Gottlieb (el gestor de diseño) y yo pensamos que le vendría bien servir en un segundo set como miembro del equipo de diseño.»"
+        },
+        {
+          "title": "Pon a quien tuvo la idea que creó la restricción en el equipo que ha de vivir con ella",
+          "rules": "Quien propuso la estructura dentro de la cual todos trabajan ahora entiende su intención mejor que nadie, y es también quien más probablemente sepa qué partes soportan carga y cuáles eran arbitrarias. Asígnale la consecuencia más dura de su propia propuesta. No es un castigo: es donde su conocimiento vale más.",
+          "flavor": "«Ethan fue quien se le ocurrió la estructura de viaje en el tiempo durante el diseño exploratorio, la que acabamos usando para construir el plan del bloque Khans of Tarkir; así que solo parecía apropiado lanzarlo al set que servía de eje de todo el bloque… un encaje perfecto para un set construido en torno a resolver un gran rompecabezas.»"
+        },
+        {
+          "title": "Que el líder del equipo receptor se siente en el equipo emisor",
+          "rules": "Un traspaso transfiere el artefacto y pierde la intención. El arreglo cuesta un asiento: mete a quien vaya a dirigir la siguiente etapa dentro de la actual, como miembro que trabaja. Pasará los meses siguientes sabiendo no solo qué se hizo, sino para qué era; y nadie tiene que ponerlo por escrito.",
+          "flavor": "«Dave no solo era el representante de desarrollo en el equipo de diseño, también era el desarrollador líder de Fate Reforged. Cada miembro de I+D tiene sus manías, y a Dave le gusta estar en el equipo de diseño de los sets que va a liderar. Le permite meterse en la mentalidad del diseñador líder y entender exactamente qué se traía el equipo de diseño.»"
+        },
+        {
+          "title": "El temperamento es una consideración de plantilla, y la producción alegre y fiable es un puesto",
+          "rules": "Los equipos necesitan a alguien que responda a un problema difícil produciendo un montón de intentos y no produciendo un diagnóstico. Eso es una disposición más que una habilidad, es raro, y cambia lo que el resto del grupo puede hacer. Nómbralo al montar la gente, igual que nombrarías cualquier otra capacidad.",
+          "flavor": "«Lo que más me gusta de tener a Gavin en el equipo es que trae consigo un maravilloso sentido del optimismo. Gavin es un tipo feliz y siempre llevaba esa alegría al diseño. Le lances el reto de diseño que le lances, siempre vuelve con una sonrisa y una lista de cartas nuevas.»"
+        },
+        {
+          "title": "Escribe el requisito como una relación entre entregas antes de saber qué lo llenará",
+          "rules": "Puedes especificar un componente enteramente por cómo tienen que relacionarse sus versiones entre sí, sin idea alguna de qué es el componente. Hazlo primero. La especificación es corta, es verificable contra candidatos, y te dice de inmediato cuáles son imposibles, que es un filtro mucho más rápido que evaluar cada uno por sus méritos.",
+          "flavor": "«Necesitábamos una mecánica, lo que llamaré Mecánica X… Set 1: la mecánica simplemente hace lo suyo. Set 2: podríamos crear una protoversión de la mecánica. Algo que se sintiera como existente antes de la mecánica del Set 1. Set 3: vemos la mecánica del Set 1 pero no exactamente igual, porque las cosas fueron algo distintas en esta línea temporal.»"
+        },
+        {
+          "title": "Un antepasado primitivo tiene que ser material nuevo, no la cosa acabada menos rasgos",
+          "rules": "Cuando necesitas una versión anterior y más tosca de algo, la sustracción es la ruta obvia y la equivocada. El público lee una versión reducida como una versión peor, no como una anterior. El antepasado tiene que ser cosa suya, haciendo algo que el descendiente no hace, para que el descendiente se lea como un desarrollo y no como una mejora.",
+          "flavor": "«El gran reto era la necesidad del Set 2. La protomecánica tenía que sentirse como una devolución pero aun así fresca y nueva. No podía ser solo una versión más simple de la mecánica del primer set: tenía que ser cosa suya.» Y luego: «se sintió como una mecánica nueva y no como una versión rehecha de la metamorfosis.»"
+        },
+        {
+          "title": "Dos requisitos que cada uno exige el proyecto entero pueden ser el mismo requisito",
+          "rules": "Cuando cargas con dos deseos separados, y ambos necesitarían que el proyecto entero se organizara en torno a ellos, comprueba si una sola cosa puede ser las dos. Suena a pensamiento ilusorio y merece los diez minutos, porque un único elemento que satisfaga dos exigencias de proyecto entero es la única forma de llegar a tener ambas.",
+          "flavor": "«Llevábamos tiempo queriendo traer de vuelta la metamorfosis, y yo sabía que si íbamos a hacerlo, era una mecánica lo bastante compleja como para tener que construir el bloque en torno a ella. La Mecánica X también necesitaría que el bloque se construyera en torno a ella. Dos pájaros de un tiro.»"
+        },
+        {
+          "title": "Separa el estado del único mecanismo que lo produce",
+          "rules": "Cuando un rasgo es la única forma de alcanzar cierta condición, la gente trata la condición como perteneciente a ese rasgo. No lo es. Nombra el estado por sí mismo, pregunta qué más podría producirlo y qué más podría fijarse en él, y una sola mecánica se convierte en un espacio de diseño que varias cosas pueden ocupar.",
+          "flavor": "«El juego define las cartas boca abajo como criaturas 2/2 incoloras. La metamorfosis era la única mecánica que ponía cartas en estado boca abajo (hay algunas cartas sueltas que podían hacerlo), pero no tenía por qué serlo. El estar boca abajo tenía mucho potencial. El equipo exploró todas las facetas que se le ocurrieron sobre cartas boca abajo.»"
+        },
+        {
+          "title": "Una condición sobre una propiedad falla por debajo de un umbral de densidad: mide la densidad primero",
+          "rules": "Todo mecanismo que solo rinde cuando se topa con cierto tipo de cosa es, en silencio, una apuesta sobre lo común que es ese tipo de cosa. Cuenta antes de construir. Si la tasa de acierto es baja, el rasgo no se leerá como condicional, se leerá como roto; y el arreglo suele ser ampliar qué cuenta, no añadir más de esa cosa.",
+          "flavor": "«En diseño, la habilidad solo ponía cartas boca abajo y requería que la carta tuviera metamorfosis para poder girarla boca arriba. Resultó que el porcentaje de cartas con metamorfosis no era lo bastante alto y el juego no funcionaba bien, así que… se cambió la mecánica para permitirte girar criaturas boca arriba por su coste de maná.»"
+        },
+        {
+          "title": "La incertidumbre sobre si la cosa existe supera a la incertidumbre sobre cuál es",
+          "rules": "La información oculta tiene grados. Ocultar la identidad de un objeto confirmando su categoría deja a la otra parte con un problema acotado. Ocultar si hay algo siquiera es otro orden de cosa: no pueden tarificar las posibilidades, porque el conjunto de posibilidades ahora incluye la nada.",
+          "flavor": "«Tu oponente no sabe cuál es tu carta de metamorfosis ni cuál es su coste, pero sabe que tarde o temprano podrás girarla. Con manifestar, quizá sea una criatura peligrosa o quizá solo sea una tierra básica. ¿Quién sabe? Bueno, tú sí, pero tu oponente no. Es divertidísimo cuando tu oponente destruye tu criatura boca abajo para descubrir que era… una Llanura.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Caprices de Destin reforgé, partie 1",
+      "dek": "Il leur fallait une mécanique qui puisse avoir un ancêtre. Puis il fallait que l'ancêtre paraisse neuf.",
+      "overview": "La conception exploratoire qui a produit le plan du bloc Tarkir : rédiger la spécification d'une mécanique comme une relation entre trois éditions, et trouver la manifestation à l'intérieur de la morphie.",
+      "takeaway": "« Le fait d'être face cachée avait beaucoup de potentiel. »",
+      "lessons": [
+        {
+          "title": "Recrutez dans l'équipe celui qui fera ce travail la prochaine fois",
+          "rules": "La préparation la moins chère à un rôle est un siège dans une équipe qui l'exerce déjà. Pas de l'observation : un poste réel avec de vraies responsabilités, un cran sous le travail auquel vous le préparez. Il arrivera à son tour en ayant déjà vécu les difficultés particulières que ce rôle comporte.",
+          "flavor": "« La première édition dirigée par Ethan fut Voyage vers Nyx. La deuxième sera “Sweat”, la petite édition de janvier 2016… Pour commencer à le préparer à sa première conception de deuxième édition, Mark Gottlieb (le responsable de la conception) et moi avons pensé qu'il serait bon qu'il serve dans une deuxième édition comme membre d'équipe. »"
+        },
+        {
+          "title": "Mettez celui dont l'idée a créé la contrainte dans l'équipe qui doit vivre avec",
+          "rules": "Qui a proposé la structure dans laquelle tout le monde travaille désormais en comprend l'intention mieux que quiconque, et c'est aussi la personne la plus à même de savoir quelles parties portent et lesquelles étaient arbitraires. Confiez-lui la conséquence la plus dure de sa propre proposition : c'est là que son savoir vaut le plus.",
+          "flavor": "« C'est Ethan qui a trouvé la structure de voyage dans le temps pendant la conception exploratoire, celle autour de laquelle nous avons bâti le plan du bloc des Khans de Tarkir ; il semblait donc juste de le jeter dans l'édition qui servait de pivot au bloc entier… un choix parfait pour une édition bâtie autour d'un grand casse-tête. »"
+        },
+        {
+          "title": "Faites siéger le responsable de l'équipe réceptrice dans l'équipe émettrice",
+          "rules": "Un transfert transmet l'objet et perd l'intention. Le remède coûte un siège : placez celui qui mènera l'étape suivante à l'intérieur de l'étape actuelle, comme membre actif. Il passera les mois suivants en sachant non seulement ce qui a été fait, mais à quoi cela servait — et nul n'a besoin de l'écrire.",
+          "flavor": "« Dave n'était pas seulement le représentant du développement dans l'équipe de conception, il était aussi le développeur en chef de Destin reforgé. Chacun a ses manies, et Dave aime siéger dans l'équipe de conception des éditions qu'il va diriger. Cela lui permet d'entrer dans l'état d'esprit du concepteur en chef. »"
+        },
+        {
+          "title": "Le tempérament est un critère de recrutement, et une production joyeuse et fiable est un rôle",
+          "rules": "Les équipes ont besoin de quelqu'un qui répond à un problème difficile en produisant une pile de tentatives et non un diagnostic. C'est une disposition plus qu'une compétence, c'est rare, et cela change ce que le reste du groupe peut faire. Nommez-le en assemblant les gens, comme n'importe quelle autre capacité.",
+          "flavor": "« Ce que je préfère chez Gavin dans l'équipe, c'est qu'il apporte un merveilleux sens de l'optimisme. Gavin est un gars heureux et il apportait toujours cette joie à la conception. Quel que soit le défi qu'on lui lance, il revient toujours avec le sourire et une liste de nouvelles cartes. »"
+        },
+        {
+          "title": "Rédigez l'exigence comme une relation entre épisodes avant de savoir ce qui la remplira",
+          "rules": "On peut spécifier un composant uniquement par la façon dont ses versions doivent se rapporter les unes aux autres, sans idée de ce qu'est le composant. Faites-le d'abord. La spécification est courte, vérifiable contre des candidats, et vous dit aussitôt lesquels sont impossibles — filtre bien plus rapide que d'évaluer chacun sur ses mérites.",
+          "flavor": "« Il nous fallait une mécanique, que j'appellerai Mécanique X… Édition 1 : la mécanique fait simplement son office. Édition 2 : nous pourrions créer une proto-version, quelque chose qui semble avoir existé avant la mécanique de l'édition 1. Édition 3 : nous revoyons la mécanique de l'édition 1, mais pas tout à fait la même. »"
+        },
+        {
+          "title": "Un ancêtre primitif doit être de la matière neuve, non la chose finie moins des traits",
+          "rules": "Quand il vous faut une version antérieure et plus fruste, la soustraction est la voie évidente et la mauvaise. Le public lit une version réduite comme une version moins bonne, non comme une version antérieure. L'ancêtre doit être une chose à part entière, faisant ce que le descendant ne fait pas.",
+          "flavor": "« Le grand défi était le besoin de l'édition 2. La proto-mécanique devait sembler une dévolution tout en restant fraîche et neuve. Elle ne pouvait pas être une simple version simplifiée de la mécanique de la première édition : il fallait qu'elle soit une chose à elle. » Puis : « elle semblait une mécanique neuve plutôt qu'une morphie refaite. »"
+        },
+        {
+          "title": "Deux exigences réclamant chacune tout le projet peuvent n'en faire qu'une",
+          "rules": "Quand vous portez deux souhaits distincts qui exigeraient chacun que tout le projet s'organise autour d'eux, vérifiez si une seule chose peut être les deux. Cela ressemble à un vœu pieux et cela mérite dix minutes, car un élément unique satisfaisant deux exigences totales est le seul moyen d'avoir les deux.",
+          "flavor": "« Nous cherchions depuis un moment à ramener la morphie, et je savais que si nous le faisions, elle était assez complexe pour qu'il faille bâtir le bloc autour d'elle. La Mécanique X aussi exigerait que le bloc soit bâti autour d'elle. D'une pierre deux coups. »"
+        },
+        {
+          "title": "Séparez l'état de l'unique mécanisme qui le produit",
+          "rules": "Là où une fonctionnalité est le seul moyen d'atteindre une condition donnée, on traite la condition comme appartenant à cette fonctionnalité. Elle ne lui appartient pas. Nommez l'état pour lui-même, demandez quoi d'autre pourrait le produire et quoi d'autre pourrait s'en soucier, et une seule mécanique devient un espace que plusieurs choses peuvent occuper.",
+          "flavor": "« Le jeu définit les cartes face cachée comme des créatures 2/2 incolores. La morphie était la seule mécanique qui mettait des cartes en état face cachée (quelques cartes isolées le faisaient), mais elle n'avait pas à l'être. Le fait d'être face cachée avait beaucoup de potentiel. »"
+        },
+        {
+          "title": "Une condition portant sur une propriété échoue sous un seuil de densité — mesurez d'abord",
+          "rules": "Tout mécanisme qui ne paie que lorsqu'il rencontre un certain type de chose est en silence un pari sur la fréquence de ce type. Comptez avant de bâtir. Si le taux de rencontre est faible, la fonctionnalité ne se lira pas comme conditionnelle mais comme cassée ; et le remède est d'ordinaire d'élargir ce qui compte.",
+          "flavor": "« En conception, la capacité ne faisait que poser des cartes face cachée, et il fallait que la carte ait la morphie pour pouvoir la retourner. Il s'est avéré que le pourcentage de cartes à morphie n'était pas assez élevé et que le jeu ne fonctionnait pas correctement, alors… la mécanique fut changée pour permettre de retourner les créatures pour leur coût de mana. »"
+        },
+        {
+          "title": "L'incertitude sur l'existence de la chose l'emporte sur l'incertitude sur son identité",
+          "rules": "L'information cachée a des degrés. Masquer l'identité d'un objet tout en confirmant sa catégorie laisse à l'autre un problème borné. Masquer s'il y a seulement quelque chose est d'un autre ordre : il ne peut plus chiffrer les possibilités, car l'ensemble des possibilités inclut désormais le rien.",
+          "flavor": "« Votre adversaire ignore quelle est votre carte à morphie et quel est son coût, mais il sait que vous pourrez finir par la retourner. Avec la manifestation, c'est peut-être une créature dangereuse ou peut-être juste un terrain de base. Qui sait ? Vous, mais pas lui. C'est très drôle quand l'adversaire détruit votre créature face cachée pour apprendre que c'était… une Plaine. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Caprichos de Fate Reforged, parte 1",
+      "dek": "Precisavam de uma mecânica que pudesse ter um ancestral. Depois precisavam que o ancestral parecesse novo.",
+      "overview": "O design exploratório que produziu o plano do bloco Tarkir: escrever a especificação de uma mecânica como uma relação entre três coleções, e achar manifestar dentro da metamorfose.",
+      "takeaway": "“Estar virado para baixo tinha muito potencial.”",
+      "lessons": [
+        {
+          "title": "Coloque na equipe quem vai fazer este trabalho da próxima vez",
+          "rules": "O preparo mais barato para um cargo é uma cadeira numa equipe que já o exerce. Não acompanhamento nem observação: um posto real com responsabilidades reais, um nível abaixo do trabalho para o qual você o prepara. Ele chega à própria vez já tendo vivido as dificuldades específicas que aquele papel carrega.",
+          "flavor": "“A primeira expansão liderada por Ethan foi Journey into Nyx. A segunda será ‘Sweat', a coleção pequena de janeiro de 2016… Para começar a prepará-lo para o primeiro design de segunda coleção, Mark Gottlieb (o gerente de design) e eu achamos que seria bom ele servir numa segunda coleção como membro da equipe.”"
+        },
+        {
+          "title": "Ponha quem teve a ideia que criou a restrição na equipe que precisa conviver com ela",
+          "rules": "Quem propôs a estrutura dentro da qual todos agora trabalham entende a intenção dela melhor que ninguém, e é também quem mais provavelmente sabe que partes sustentam carga e quais eram arbitrárias. Atribua a essa pessoa a consequência mais dura da própria proposta. Não é punição: é onde o conhecimento dela vale mais.",
+          "flavor": "“Ethan foi quem bolou a estrutura de viagem no tempo durante o design exploratório, aquela em torno da qual acabamos construindo o plano do bloco Khans of Tarkir; então parecia apropriado jogá-lo na coleção que servia de eixo do bloco inteiro… um encaixe perfeito para uma coleção construída em torno de resolver um grande quebra-cabeça.”"
+        },
+        {
+          "title": "Faça o líder da equipe receptora sentar na equipe emissora",
+          "rules": "Uma entrega transfere o artefato e perde a intenção. O conserto custa uma cadeira: ponha quem vai tocar a etapa seguinte dentro da atual, como membro atuante. Ele passará os meses seguintes sabendo não só o que foi feito, mas para que servia — e ninguém precisa escrever isso.",
+          "flavor": "“Dave não era só o representante do desenvolvimento na equipe de design, era também o desenvolvedor líder de Fate Reforged. Cada membro da P&D tem suas manias, e Dave gosta de estar na equipe de design das coleções que vai liderar. Isso o deixa entrar na mentalidade do designer-líder e entender exatamente o que a equipe de design estava fazendo.”"
+        },
+        {
+          "title": "Temperamento é uma consideração de equipe, e produção alegre e confiável é um papel",
+          "rules": "Equipes precisam de alguém que responda a um problema difícil produzindo uma pilha de tentativas e não um diagnóstico. Isso é uma disposição mais que uma habilidade, é raro, e muda o que o resto do grupo consegue fazer. Nomeie isso ao montar as pessoas, do mesmo jeito que nomearia qualquer outra capacidade.",
+          "flavor": "“Minha coisa favorita em ter Gavin na equipe é que ele traz consigo um maravilhoso senso de otimismo. Gavin é um cara feliz e sempre trazia essa alegria ao design. Não importa que desafio de design você jogue nele, ele sempre volta com um sorriso e uma lista de cartas novas.”"
+        },
+        {
+          "title": "Escreva o requisito como uma relação entre parcelas antes de saber o que vai preenchê-lo",
+          "rules": "Dá para especificar um componente inteiramente pelo modo como as versões dele têm de se relacionar entre si, sem ideia alguma do que o componente é. Faça isso primeiro. A especificação é curta, é verificável contra candidatos, e diz na hora quais deles são impossíveis — filtro bem mais rápido que avaliar cada um pelos próprios méritos.",
+          "flavor": "“Precisávamos de uma mecânica, que vou chamar de Mecânica X… Coleção 1: a mecânica simplesmente faz o que faz. Coleção 2: poderíamos criar uma protoversão dela. Algo que parecesse ter existido antes da mecânica da Coleção 1. Coleção 3: vemos a mecânica da Coleção 1, mas não exatamente igual.”"
+        },
+        {
+          "title": "Um ancestral primitivo tem de ser material novo, não a coisa pronta menos recursos",
+          "rules": "Quando você precisa de uma versão anterior e mais tosca de algo, a subtração é a rota óbvia e a errada. O público lê uma versão reduzida como uma versão pior, não como uma anterior. O ancestral tem de ser coisa própria, fazendo algo que o descendente não faz, para que o descendente seja lido como desenvolvimento e não como melhoria.",
+          "flavor": "“O grande desafio era a necessidade da Coleção 2. A protomecânica tinha de parecer uma devolução e ainda assim parecer fresca e nova. Não podia ser só uma versão mais simples da mecânica da primeira coleção: tinha de ser coisa dela.” E depois: “pareceu uma mecânica nova, e não uma metamorfose refeita.”"
+        },
+        {
+          "title": "Dois requisitos que cada um exige o projeto inteiro podem ser o mesmo requisito",
+          "rules": "Quando você carrega dois desejos separados, e ambos exigiriam que o projeto inteiro se organizasse em torno deles, verifique se uma coisa só pode ser as duas. Soa a ilusão e vale os dez minutos, porque um único elemento que satisfaça duas exigências de projeto inteiro é o único jeito de ter as duas.",
+          "flavor": "“Fazia tempo que queríamos trazer de volta a metamorfose, e eu sabia que, se fôssemos fazer isso, ela era complexa o bastante para exigir que o bloco fosse construído em torno dela. A Mecânica X também exigiria que o bloco fosse construído em torno dela. Dois coelhos, uma cajadada.”"
+        },
+        {
+          "title": "Separe o estado do único mecanismo que o produz",
+          "rules": "Onde um recurso é o único jeito de chegar a certa condição, as pessoas tratam a condição como pertencente àquele recurso. Ela não pertence. Nomeie o estado por si mesmo, pergunte o que mais poderia produzi-lo e o que mais poderia se importar com ele, e uma única mecânica vira um espaço de design que várias coisas podem ocupar.",
+          "flavor": "“O jogo define cartas viradas para baixo como criaturas 2/2 incolores. A metamorfose era a única mecânica que punha cartas nesse estado (há algumas cartas avulsas que conseguiam), mas não precisava ser. Estar virado para baixo tinha muito potencial. A equipe explorou cada faceta em que conseguiu pensar.”"
+        },
+        {
+          "title": "Uma condição sobre uma propriedade falha abaixo de um limiar de densidade — meça primeiro",
+          "rules": "Todo mecanismo que só rende quando encontra certo tipo de coisa é, em silêncio, uma aposta em quão comum aquele tipo é. Conte antes de construir. Se a taxa de acerto é baixa, o recurso não será lido como condicional, e sim como quebrado; e o conserto costuma ser alargar o que conta, não acrescentar mais daquela coisa.",
+          "flavor": "“No design, a habilidade só punha cartas viradas para baixo e exigia que a carta tivesse metamorfose para poder ser virada para cima. Acabou que a porcentagem de cartas com metamorfose não era alta o suficiente e a jogabilidade não funcionou direito, então… a mecânica foi mudada para permitir virar criaturas para cima pelo custo de mana delas.”"
+        },
+        {
+          "title": "Incerteza sobre se a coisa existe supera incerteza sobre qual coisa é",
+          "rules": "Informação oculta tem graus. Ocultar a identidade de um objeto confirmando a categoria dele deixa a outra parte com um problema delimitado. Ocultar se há sequer alguma coisa é de outra ordem: ela não consegue precificar as possibilidades, porque o conjunto de possibilidades agora inclui o nada.",
+          "flavor": "“Seu oponente não sabe qual é a sua carta de metamorfose nem qual é o custo dela, mas sabe que em algum momento você poderá virá-la. Com manifestar, talvez seja uma criatura perigosa ou talvez seja só um terreno básico. Quem sabe? Bem, você sabe, mas o oponente não. É ótimo quando o oponente destrói sua criatura virada para baixo e descobre que era… uma Planície.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "宿命的心血来潮，第一部分",
+      "dek": "他们需要一个「能拥有祖先」的机制。然后他们又需要这个祖先感觉起来是新的。",
+      "overview": "催生出鞑契环境方案的那次探索性设计：把一个机制的规格写成「跨三个系列的一种关系」，并在变身内部找出了显化。",
+      "takeaway": "「『盖着』这件事本身，有着大量的潜力。」",
+      "lessons": [
+        {
+          "title": "把「下一次要做这份工作的人」编进这个团队",
+          "rules": "为某个岗位所做的最便宜的准备，是在一个已经在做这件事的团队里给他一个座位。不是跟班，也不是旁观——是一个带着真实职责的实际位置，比你要培养他去做的那份工作低一级。等轮到他自己的时候，他已经亲历过这个角色所带的那些具体困难了。",
+          "flavor": "「伊桑第一次主导扩充系列是《尼克斯之旅》。他的第二次将是『Sweat』，那个2016年1月的小型系列……为了开始为他的第一次『第二系列设计』做准备，马克·戈特利布（设计经理）和我认为，让他先作为团队成员在一个第二系列里服役会是件好事。」"
+        },
+        {
+          "title": "把「提出了那个造成约束的点子」的人，放进那支必须与之共处的团队里",
+          "rules": "提出了「如今所有人都在其中工作的这套结构」的那个人，比任何人都更理解它的意图；而他也最有可能知道其中哪些部分在承重、哪些部分只是随手定下的。把他自己那份提案所带来的最难的后果分派给他。那不是惩罚，而是他的知识最值钱的地方。",
+          "flavor": "「在探索性设计期间想出那个时间旅行结构的人正是伊桑，而我们最后就是围绕它搭起了《鞑契可汗》的环境方案；所以把他扔进那个『充当整个环境枢纽』的系列里，看起来再合适不过了……对于一个围绕『解开一个大谜题』而搭起来的系列来说，他是完美人选。」"
+        },
+        {
+          "title": "让接收方团队的负责人，坐进发送方的团队里",
+          "rules": "一次交接会转移那件成品，同时丢掉意图。补救办法只花一个座位：把那个将要主持下一阶段的人，作为一名实际工作的成员放进当前阶段里去。接下来的几个月里，他不只知道做出了什么，还知道它是为了什么——而这不需要任何人写下来。",
+          "flavor": "「戴夫不只是设计团队里的开发部代表，他同时也是《宿命再燃》的开发主管。研发部的每个人都有自己的怪癖；而戴夫喜欢待在那些他将要主导的系列的设计团队里。这让他能够进入主设计师的心态，并弄明白设计团队究竟在忙些什么。」"
+        },
+        {
+          "title": "脾性是配人时要考虑的因素；而「可靠且愉快地产出」本身就是一个岗位",
+          "rules": "团队需要这样一个人：面对一个难题，他的反应是产出一堆尝试，而不是产出一份诊断。那是一种性情而不是一项技能，它很少见，而且它改变了小组其余部分所能做到的事。在组建人手时，就像你会点名任何其他能力那样，把它点出来。",
+          "flavor": "「有加文在团队里，我最喜欢的一点是：他随身带着一种美妙的乐观。加文是个快乐的人，他总是把那份喜悦带进设计里。不管你把什么样的设计难题丢给他，他每次回来都是带着笑容和一张新牌的清单。」"
+        },
+        {
+          "title": "在还不知道拿什么去填之前，就先把要求写成「跨各部分之间的一种关系」",
+          "rules": "你完全可以只用「它的各个版本之间必须如何相互关联」来给一个部件写规格，而对这个部件究竟是什么毫无概念。先做这一步。这份规格很短、可以拿去核对候选项，并且能立刻告诉你其中哪些是不可能的——那是一道比「逐个按各自的优劣去评估」快得多的过滤器。",
+          "flavor": "「我们需要一个机制，我姑且叫它机制X……第一个系列：这个机制就照常发挥它的作用。第二个系列：我们可以造出这个机制的一个原型版本，一样『感觉像是在第一个系列的机制之前就已经存在』的东西。第三个系列：我们再看到第一个系列的那个机制，但不完全一样。」"
+        },
+        {
+          "title": "一个原始的祖先必须是新的材料，而不是「成品减去一些特性」",
+          "rules": "当你需要某样东西的一个更早、更粗糙的版本时，做减法是那条显而易见的路，也是错的那条。受众会把一个被削减的版本读成一个更糟的版本，而不是一个更早的版本。这个祖先必须是它自己的东西，做着后代做不到的事；这样后代才会被读成一次发展，而不是一次升级。",
+          "flavor": "「最大的挑战在于对第二个系列的需求。这个原型机制得让人觉得是一次退化，同时又必须新鲜、有新意。它不能只是第一个系列那个机制的简化版；它必须是它自己的东西。」后来：「它感觉像是一个新机制，而不只是变身的一个重做版本。」"
+        },
+        {
+          "title": "两项各自都要求「整个项目围着它转」的需求，也许其实是同一项需求",
+          "rules": "当你身上背着两个各自独立的愿望，而它们每一个都需要整个项目围绕自己来组织时，去查一查：有没有可能一样东西同时就是这两者。这听起来像是一厢情愿，而它值得那十分钟；因为「单独一个元素同时满足两项『整项目级』的要求」，是你能同时拥有这两者的唯一途径。",
+          "flavor": "「我们一直在找机会把变身带回来；而我知道，如果我们要这么做，它复杂到我们必须围绕它来搭整个环境。机制X同样需要整个环境围绕它来搭。一石二鸟。」"
+        },
+        {
+          "title": "把那个「状态」，与「唯一能产生它的那个机制」分开",
+          "rules": "当某一项特性是抵达某个特定状况的唯一途径时，人们就会把这个状况当成属于那项特性的东西。它不属于。把这个状态单独命名出来，去问：还有什么能产生它？还有什么可以在乎它？于是单独一个机制就变成了一片好几样东西都能进驻的设计空间。",
+          "flavor": "「这个游戏把盖着的牌定义为无色的2/2生物。变身是唯一一个能把牌变成盖着状态的机制（有一些零散的牌也能做到），但它本不必是唯一的。『盖着』这件事本身，有着大量的潜力。团队把它所能想到的、关于盖着的牌的每一个侧面都探索了一遍。」"
+        },
+        {
+          "title": "一个挂在某项属性上的门槛，在密度低于某条线时就会失效——先去测那个密度",
+          "rules": "任何一个「只有在遇上某一类东西时才兑现」的机制，都在无声地押注于「那一类东西有多常见」。在搭建之前先去数。如果命中率低，这项特性读起来就不会像是「有条件的」，而会像是「坏掉的」；而补救办法通常是把「算数的范围」放宽，而不是去增加那类东西的数量。",
+          "flavor": "「在设计阶段，这个异能只是把牌盖着放下来；而要把它翻回正面，就要求这张牌本身带有变身。结果发现，带变身的牌所占的比例不够高，对局体验也不对劲；于是……这个机制被改成了允许你按生物的法术力费用把它翻回正面。」"
+        },
+        {
+          "title": "「这东西究竟存不存在」的不确定性，胜过「它是哪一个」的不确定性",
+          "rules": "隐藏信息是有等级的。隐藏一件东西的身份、同时确认它的类别，留给对方的是一个有界的问题。而隐藏「那里究竟有没有东西」，则是另一个量级的事情：他没法给这些可能性定价，因为如今这个可能性集合里包含了「什么也不是」。",
+          "flavor": "「你的对手不知道你那张变身牌是什么，也不知道它的变身费用是多少；但他知道你迟早能把它翻过来。而有了显化，那也许是一个危险的生物，也许只是一张基本地。谁知道呢？嗯，你知道，但你的对手不知道。当你的对手把你那个盖着的生物消灭掉、然后发现那是……一座平原时，那可太有意思了。」"
+        }
+      ]
+    }
+  }
+}
