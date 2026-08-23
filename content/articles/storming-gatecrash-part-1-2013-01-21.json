@@ -1,0 +1,320 @@
+{
+  "id": "storming-gatecrash-part-1-2013-01-21",
+  "slug": "storming-gatecrash-part-1-2013-01-21",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-01-21",
+  "series": { "id": "storming-gatecrash", "order": 1, "total": 2 },
+  "tags": ["card-stories", "color-pie", "hole-filling", "process", "characters"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/storming-gatecrash-part-1-2013-01-21",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Storming Gatecrash, Part 1",
+      "dek": "Card-by-card origins: one slot that had to serve two opposed needs, a cycle rewritten because players wouldn't play cards naming two colours, and an ability bolted onto a creature purely to answer a card from a previous set.",
+      "overview": "A grab-bag of individual designs, and what runs through it is that most of these cards were made to satisfy something other than themselves. One exists because a slot had two incompatible requirements and the answer was to point a weapon at your own creatures. One cycle was rebuilt twice, once because inexperienced players wouldn't touch a card that named two colours and once because another mechanic claimed the trigger it was using. One creature carries a second ability with no thematic reason beyond needing a home for a specific answer. Plus the mana slice black is allowed, and why a returning character has to repeat himself.",
+      "takeaway": "Very little here was designed outward from an idea. Almost all of it was designed inward from a constraint — a hole, a collision, a policy, or a problem card already loose in the world.",
+      "lessons": [
+        {
+          "title": "Invert the mechanism: the weapon you aim at them, aimed at yourself",
+          "rules": "One slot had to be creature control for the format and also had to support a mechanic that rewards playing bigger creatures than your own. Those wants point in opposite directions. The unlock was to take an effect normally used to weaken an opponent's creature and apply it to your own, making your creature small enough to be outgrown — then attach a cost to pick it back up, so the shrink can be moved onto a real threat later. The same effect served both requirements once its direction was reversed.",
+          "flavor": "Shrink your own creature so the next one looks big by comparison, then take the shrink back."
+        },
+        {
+          "title": "A card naming two categories gets filed under their intersection, not their union",
+          "rules": "A cycle originally cared about two colours each — its own, plus one it shared a faction with. The intent was cards that were better in one deck and still usable in another. Playtesting found the opposite: less-experienced players wouldn't put a card naming two colours into anything but that specific two-colour deck. Narrowing each card to its own colour alone made it playable in every deck containing that colour. Naming a second thing doesn't widen the audience; it narrows it to people who have both.",
+          "flavor": "Written to be flexible. Read as a requirement."
+        },
+        {
+          "title": "Build the joint object from each party's exclusive share, not their shared one",
+          "rules": "Both of these colours can destroy creatures, which makes a combined removal spell harder rather than easier — anything built from what they share reads as belonging to one of them alone. The method was to find the part of each that the other genuinely cannot do: one has a flavour of never striking first, the other has no objection to being unseen, and only one of them gets the shrinking effects. Combine the exclusive halves and you get something neither could have made.",
+          "flavor": "Not the overlap. The two pieces the overlap doesn't contain."
+        },
+        {
+          "title": "Broadcast the gap, collect submissions, and let the party with the need choose",
+          "rules": "He describes the standing procedure for filling holes left by cuts: the downstream team reports what is missing, the lead circulates the list to everyone who has volunteered, submissions come in on a deadline, and the team that identified the gap picks which card fills it. Nobody is assigned a hole. An open call with a deadline produces competing options, and letting the requester choose means the selection is made by whoever actually knows what the slot has to do.",
+          "flavor": "Sometimes the shortcut happens instead: the lead developer walks over and asks whether you have anything."
+        },
+        {
+          "title": "An exception for one party is earned by a standing structural need — and you say what the need is",
+          "rules": "Laying out who gets to produce mana, he gives each colour a defensible share: one owns durable fixing, one owns temporary bursts, and one gets a single narrow slice — extra mana of its own colour from its own lands. The justification is not symmetry. It's that this colour has needed heavier coloured commitments than any other since the beginning, so the allowance answers a real and continuing pressure. Exceptions survive scrutiny when the need behind them is stated.",
+          "flavor": "It gets to beget more of itself, and that is the whole of its claim."
+        },
+        {
+          "title": "A healthy environment beats a clean card",
+          "rules": "An earlier release contained a card that turned out stronger than intended, so the answer had to appear somewhere. There was no host where the needed text would blend in invisibly, so it went onto the card that could carry it with the least strain — two abilities that both feel like protecting others, which is a nod rather than a fit. He states the trade explicitly, and says the decision was made long ago: a card carrying an awkward second line is a smaller cost than a format nobody can correct.",
+          "flavor": "You can see the join if you look. They decided years ago that you looking is the cheaper problem."
+        },
+        {
+          "title": "A component outlives the reason it was made",
+          "rules": "One card was designed as support for a mechanic that was subsequently cut. It was no longer needed for its original purpose and it was still good, so it stayed — through the design lead's handoff and then through development, each of whom agreed independently. When the thing a component was built to serve disappears, that is a prompt to re-evaluate it on its own terms, not an instruction to remove it along with its parent.",
+          "flavor": "Made to feed a mechanic that never shipped, and it outlasted the mechanic by a decade."
+        },
+        {
+          "title": "A sub-team chartered for flavour finds a form, and the form outlives the charter",
+          "rules": "A small group was assigned to produce top-down cards expressing the feel of a city. Along the way they discovered something structural rather than thematic: a particular card form is unusually good at conveying place, because it attaches to the land itself. That discovery then got reused by the next release's team, which had no such charter. Exploratory groups pay out in techniques as often as in the deliverables they were asked for.",
+          "flavor": "Sent to make city cards. Came back with a form that says \"somewhere.\""
+        },
+        {
+          "title": "Print the card that the dominant thing is afraid of",
+          "rules": "He traces the habit back to one of the first cards he ever designed, made before he worked there and slipped into the first set he led: something built specifically so that the strongest strategy of the era had a card it feared. He does it deliberately and repeatedly — the current example targets an ability that had become frustrating in competitive play. Where something is running the environment, the correction can be a single card that exists to be its answer.",
+          "flavor": "Even the deck that says no to everything should have something it doesn't want to see."
+        },
+        {
+          "title": "A returning character must be the same person and still be new",
+          "rules": "Second appearances are harder than first ones: the new version has to stay consistent with the identity established last time and still deliver mechanical novelty. Prompted by complaints that one character's latest version didn't match her earlier ones, they put someone on cataloguing what each character's defining quality is supposed to be — and concluded the roster must not blur, because there are far more characters than there are mechanics to distribute. So the signature repeats and everything around it varies.",
+          "flavor": "The one who joins the fight himself joins the fight again, at a different size."
+        }
+      ]
+    },
+    "es": {
+      "title": "Asaltando Gatecrash, parte 1",
+      "dek": "Orígenes carta a carta: un hueco que debía servir a dos necesidades opuestas, un ciclo reescrito porque los jugadores no jugaban cartas que nombraran dos colores, y una habilidad atornillada a una criatura solo para responder a una carta de una expansión anterior.",
+      "overview": "Un saco de diseños sueltos, y lo que los atraviesa es que casi todas estas cartas se hicieron para satisfacer algo distinto de sí mismas. Una existe porque un hueco tenía dos requisitos incompatibles y la respuesta fue apuntar un arma a tus propias criaturas. Un ciclo se rehízo dos veces, una porque los jugadores con menos experiencia no tocaban una carta que nombrara dos colores y otra porque otra mecánica reclamó el disparador que usaba. Una criatura lleva una segunda habilidad sin más razón temática que necesitar hogar para una respuesta concreta. Más la porción de maná que se le permite al negro y por qué un personaje que vuelve tiene que repetirse.",
+      "takeaway": "Muy poco de esto se diseñó hacia fuera desde una idea. Casi todo se diseñó hacia dentro desde una restricción: un hueco, una colisión, una política o una carta problemática ya suelta por el mundo.",
+      "lessons": [
+        {
+          "title": "Invierte el mecanismo: el arma que les apuntas, apuntada a ti",
+          "rules": "Un hueco tenía que ser control de criaturas para el formato y además apoyar una mecánica que premia jugar criaturas más grandes que las tuyas. Esos deseos apuntan en direcciones opuestas. El desbloqueo fue tomar un efecto que normalmente se usa para debilitar a la criatura del rival y aplicarlo a la propia, dejándola lo bastante pequeña como para ser superada, y luego añadir un coste para recogerlo, de modo que el encogimiento pueda trasladarse después a una amenaza real. El mismo efecto sirvió a ambos requisitos en cuanto se invirtió su dirección.",
+          "flavor": "Encoge tu propia criatura para que la siguiente parezca grande, y luego recupera el encogimiento."
+        },
+        {
+          "title": "Una carta que nombra dos categorías se archiva en su intersección, no en su unión",
+          "rules": "Un ciclo originalmente se preocupaba por dos colores cada uno: el suyo, más uno con el que compartía facción. La intención era cartas mejores en un mazo y aun así usables en otro. Las pruebas mostraron lo contrario: los jugadores con menos experiencia no metían una carta que nombrara dos colores en nada que no fuera ese mazo bicolor concreto. Estrechar cada carta a su propio color la volvió jugable en cualquier mazo con ese color. Nombrar una segunda cosa no amplía el público: lo estrecha a quien tenga ambas.",
+          "flavor": "Escrita para ser flexible. Leída como un requisito."
+        },
+        {
+          "title": "Construye el objeto conjunto con la parte exclusiva de cada uno, no con la compartida",
+          "rules": "Ambos colores pueden destruir criaturas, lo que hace más difícil y no más fácil un hechizo de remoción combinado: cualquier cosa construida con lo que comparten se lee como propiedad de uno solo. El método fue encontrar la parte de cada uno que el otro genuinamente no puede hacer: uno tiene el sabor de no golpear primero, al otro no le importa pasar desapercibido, y solo uno de los dos recibe los efectos de reducción. Combina las mitades exclusivas y obtienes algo que ninguno podría haber hecho.",
+          "flavor": "No el solape. Las dos piezas que el solape no contiene."
+        },
+        {
+          "title": "Difunde el hueco, recoge propuestas y deja elegir a quien tiene la necesidad",
+          "rules": "Describe el procedimiento habitual para rellenar huecos dejados por recortes: el equipo de río abajo informa de lo que falta, el líder circula la lista entre todos los que se han apuntado, las propuestas llegan con fecha límite, y el equipo que identificó el hueco elige qué carta lo rellena. A nadie se le asigna un hueco. Una convocatoria abierta con plazo produce opciones que compiten, y dejar elegir al solicitante significa que la selección la hace quien de verdad sabe qué debe hacer ese hueco.",
+          "flavor": "A veces ocurre el atajo: el desarrollador líder se acerca y pregunta si tienes algo."
+        },
+        {
+          "title": "Una excepción para una parte se gana por una necesidad estructural permanente, y hay que decir cuál es",
+          "rules": "Al exponer quién puede producir maná, da a cada color una porción defendible: uno posee el fijado duradero, otro los estallidos temporales, y otro recibe una única rebanada estrecha: maná extra de su propio color desde sus propias tierras. La justificación no es la simetría. Es que ese color ha necesitado compromisos de color más pesados que ningún otro desde el principio, así que la concesión responde a una presión real y continua. Las excepciones sobreviven al escrutinio cuando se enuncia la necesidad que hay detrás.",
+          "flavor": "Se le permite engendrar más de sí mismo, y esa es toda su reivindicación."
+        },
+        {
+          "title": "Un entorno sano vale más que una carta limpia",
+          "rules": "Un lanzamiento anterior contenía una carta que resultó más fuerte de lo previsto, así que la respuesta tenía que aparecer en algún sitio. No había anfitrión donde el texto necesario se fundiera invisiblemente, así que fue a la carta que podía llevarlo con menos tensión: dos habilidades que ambas parecen proteger a otros, lo cual es un guiño más que un encaje. Enuncia el intercambio explícitamente y dice que la decisión se tomó hace mucho: una carta con una segunda línea incómoda cuesta menos que un formato que nadie puede corregir.",
+          "flavor": "La costura se ve si miras. Hace años decidieron que tú mirando es el problema más barato."
+        },
+        {
+          "title": "Un componente sobrevive a la razón por la que se hizo",
+          "rules": "Una carta se diseñó como apoyo de una mecánica que después se cortó. Ya no hacía falta para su propósito original y seguía siendo buena, así que se quedó, pasando por el traspaso del líder de diseño y luego por desarrollo, y cada uno estuvo de acuerdo por su cuenta. Cuando desaparece aquello a lo que un componente servía, eso es una invitación a reevaluarlo por sus propios méritos, no una instrucción para eliminarlo junto a su progenitor.",
+          "flavor": "Hecha para alimentar una mecánica que nunca salió, y sobrevivió a la mecánica una década."
+        },
+        {
+          "title": "Un subequipo encargado de la ambientación encuentra una forma, y la forma sobrevive al encargo",
+          "rules": "Se asignó a un grupo pequeño producir cartas descendentes que expresaran la sensación de una ciudad. Por el camino descubrieron algo estructural y no temático: cierta forma de carta es inusualmente buena transmitiendo lugar, porque se adhiere a la tierra misma. Ese descubrimiento lo reutilizó luego el equipo del siguiente lanzamiento, que no tenía tal encargo. Los grupos exploratorios rinden en técnicas tan a menudo como en los entregables que se les pidieron.",
+          "flavor": "Enviados a hacer cartas de ciudad. Volvieron con una forma que dice «un lugar»."
+        },
+        {
+          "title": "Imprime la carta a la que lo dominante teme",
+          "rules": "Rastrea el hábito hasta una de las primeras cartas que diseñó, hecha antes de trabajar allí y colada en la primera expansión que lideró: algo construido específicamente para que la estrategia más fuerte de la época tuviera una carta a la que temer. Lo hace deliberada y repetidamente; el ejemplo actual apunta a una habilidad que se había vuelto frustrante en juego competitivo. Cuando algo domina el entorno, la corrección puede ser una sola carta que existe para ser su respuesta.",
+          "flavor": "Incluso el mazo que le dice que no a todo debería tener algo que no quiere ver."
+        },
+        {
+          "title": "Un personaje que vuelve debe ser la misma persona y aun así ser nuevo",
+          "rules": "Las segundas apariciones son más difíciles que las primeras: la nueva versión tiene que mantenerse consistente con la identidad establecida y a la vez aportar novedad mecánica. A raíz de quejas de que la última versión de cierto personaje no casaba con las anteriores, pusieron a alguien a catalogar cuál se supone que es la cualidad definitoria de cada uno, y concluyeron que el elenco no debe difuminarse, porque hay muchos más personajes que mecánicas para repartir. Así que la firma se repite y todo lo demás varía.",
+          "flavor": "El que se mete él mismo en la pelea vuelve a meterse, con otro tamaño."
+        }
+      ]
+    },
+    "fr": {
+      "title": "À l'assaut de Gatecrash, partie 1",
+      "dek": "Origines carte par carte : un emplacement devant servir deux besoins opposés, un cycle réécrit parce que les joueurs refusaient les cartes nommant deux couleurs, et une capacité boulonnée sur une créature uniquement pour répondre à une carte d'une extension antérieure.",
+      "overview": "Un sac de conceptions isolées, traversé par un même fait : presque toutes ces cartes ont été faites pour satisfaire autre chose qu'elles-mêmes. L'une existe parce qu'un emplacement avait deux exigences incompatibles et que la réponse fut de pointer une arme vers ses propres créatures. Un cycle a été refait deux fois, une fois parce que les joueurs peu expérimentés ne touchaient pas une carte nommant deux couleurs, une fois parce qu'une autre mécanique a revendiqué le déclencheur qu'il utilisait. Une créature porte une seconde capacité sans autre raison thématique que le besoin de loger une réponse précise. Plus la part de mana concédée au noir, et pourquoi un personnage qui revient doit se répéter.",
+      "takeaway": "Très peu de tout cela a été conçu vers l'extérieur à partir d'une idée. Presque tout a été conçu vers l'intérieur à partir d'une contrainte : un trou, une collision, une politique, ou une carte problématique déjà lâchée dans le monde.",
+      "lessons": [
+        {
+          "title": "Inversez le mécanisme : l'arme que vous pointez sur eux, pointée sur vous",
+          "rules": "Un emplacement devait servir de contrôle de créatures pour le format et soutenir une mécanique qui récompense l'arrivée de créatures plus grosses que les vôtres. Ces désirs pointent en sens contraires. Le déblocage fut de prendre un effet normalement employé pour affaiblir une créature adverse et de l'appliquer à la vôtre, la rendant assez petite pour être dépassée — puis d'ajouter un coût pour la récupérer, afin de déplacer ensuite l'affaiblissement sur une vraie menace. Le même effet a servi les deux exigences dès qu'on en a inversé le sens.",
+          "flavor": "Rapetissez votre créature pour que la suivante paraisse grande, puis reprenez le rapetissement."
+        },
+        {
+          "title": "Une carte nommant deux catégories est classée à leur intersection, pas à leur union",
+          "rules": "Un cycle s'intéressait à l'origine à deux couleurs chacun : la sienne, plus une avec laquelle il partageait une faction. L'intention : des cartes meilleures dans un deck et néanmoins jouables dans un autre. Les tests ont montré l'inverse : les joueurs peu expérimentés ne mettaient une carte nommant deux couleurs que dans ce deck bicolore précis. Restreindre chaque carte à sa seule couleur l'a rendue jouable dans tout deck de cette couleur. Nommer une seconde chose n'élargit pas le public, cela le réduit à ceux qui ont les deux.",
+          "flavor": "Écrite pour être souple. Lue comme une exigence."
+        },
+        {
+          "title": "Bâtissez l'objet commun à partir de la part exclusive de chacun, pas de la part partagée",
+          "rules": "Ces deux couleurs savent détruire des créatures, ce qui rend un sort de retrait combiné plus difficile et non plus facile : tout ce qui est bâti sur leur part commune se lit comme appartenant à l'une d'elles seule. La méthode fut de trouver ce que chacune fait et que l'autre ne peut vraiment pas : l'une a la saveur de ne jamais frapper la première, l'autre ne voit aucun inconvénient à rester invisible, et une seule reçoit les effets d'affaiblissement. Combinez les moitiés exclusives et vous obtenez ce que ni l'une ni l'autre n'aurait pu faire.",
+          "flavor": "Pas le recouvrement. Les deux morceaux que le recouvrement ne contient pas."
+        },
+        {
+          "title": "Diffusez le manque, recueillez les propositions, et laissez choisir celui qui a le besoin",
+          "rules": "Il décrit la procédure établie pour combler les trous laissés par les coupes : l'équipe en aval signale ce qui manque, le responsable diffuse la liste à tous les volontaires, les propositions arrivent à une date limite, et l'équipe qui a signalé le trou choisit la carte qui le comble. Personne ne se voit attribuer un trou. Un appel ouvert avec échéance produit des options concurrentes, et laisser choisir le demandeur signifie que la sélection est faite par qui sait vraiment ce que l'emplacement doit accomplir.",
+          "flavor": "Parfois le raccourci l'emporte : le développeur en chef passe et demande si vous avez quelque chose."
+        },
+        {
+          "title": "Une exception pour une partie se mérite par un besoin structurel permanent — et on dit lequel",
+          "rules": "En exposant qui a le droit de produire du mana, il donne à chaque couleur une part défendable : l'une possède le filtrage durable, l'autre les poussées temporaires, et une reçoit une seule tranche étroite — du mana supplémentaire de sa propre couleur depuis ses propres terrains. La justification n'est pas la symétrie. C'est que cette couleur exige des engagements colorés plus lourds que toute autre depuis le début, si bien que l'allocation répond à une pression réelle et continue. Les exceptions résistent à l'examen quand le besoin est énoncé.",
+          "flavor": "Elle a le droit d'engendrer davantage d'elle-même, et c'est là toute sa revendication."
+        },
+        {
+          "title": "Un environnement sain vaut mieux qu'une carte propre",
+          "rules": "Une sortie antérieure contenait une carte plus forte que prévu : la réponse devait donc apparaître quelque part. Aucun hôte ne permettait au texte requis de se fondre invisiblement, il est donc allé sur la carte qui pouvait le porter avec le moins de tension — deux capacités qui évoquent toutes deux la protection d'autrui, ce qui est un clin d'œil plutôt qu'un ajustement. Il énonce l'arbitrage : une carte portant une seconde ligne maladroite coûte moins cher qu'un format que personne ne peut corriger.",
+          "flavor": "La soudure se voit si l'on regarde. Ils ont décidé depuis longtemps que vous regardiez est le moindre problème."
+        },
+        {
+          "title": "Un composant survit à la raison qui l'a fait naître",
+          "rules": "Une carte fut conçue pour soutenir une mécanique ensuite coupée. Elle n'était plus nécessaire à son objet d'origine et restait bonne : elle est donc restée, traversant le passage de relais du responsable de conception puis le développement, chacun approuvant indépendamment. Quand ce qu'un composant devait servir disparaît, c'est une invitation à le réévaluer pour lui-même, non une consigne de le supprimer avec son parent.",
+          "flavor": "Faite pour nourrir une mécanique jamais sortie, elle lui a survécu d'une décennie."
+        },
+        {
+          "title": "Une sous-équipe mandatée pour l'ambiance trouve une forme, et la forme survit au mandat",
+          "rules": "Un petit groupe fut chargé de produire des cartes descendantes exprimant l'atmosphère d'une ville. En chemin, il a découvert quelque chose de structurel et non de thématique : une certaine forme de carte est excellente pour transmettre le lieu, car elle s'attache au terrain lui-même. Cette découverte fut ensuite réemployée par l'équipe de la sortie suivante, qui n'avait aucun tel mandat. Les groupes exploratoires rendent en techniques aussi souvent qu'en livrables demandés.",
+          "flavor": "Envoyés faire des cartes de ville. Revenus avec une forme qui dit « un endroit »."
+        },
+        {
+          "title": "Imprimez la carte que la chose dominante redoute",
+          "rules": "Il fait remonter l'habitude à l'une des premières cartes qu'il ait conçues, faite avant son embauche et glissée dans la première extension qu'il a dirigée : une chose bâtie précisément pour que la stratégie la plus forte de l'époque ait une carte à craindre. Il le fait délibérément et régulièrement ; l'exemple actuel vise une capacité devenue agaçante en jeu compétitif. Là où une chose gouverne l'environnement, le correctif peut être une seule carte qui existe pour lui répondre.",
+          "flavor": "Même le deck qui dit non à tout devrait avoir quelque chose qu'il n'a pas envie de voir."
+        },
+        {
+          "title": "Un personnage qui revient doit être la même personne et pourtant être neuf",
+          "rules": "Les secondes apparitions sont plus dures que les premières : la nouvelle version doit rester cohérente avec l'identité établie et apporter une nouveauté mécanique. Après des plaintes disant que la dernière version d'un personnage ne collait pas aux précédentes, quelqu'un a été chargé de cataloguer la qualité déterminante de chacun — et la conclusion fut que le casting ne doit pas se brouiller, car il y a bien plus de personnages que de mécaniques à répartir. La signature se répète donc, et tout le reste varie.",
+          "flavor": "Celui qui va lui-même au combat y retourne, à une autre taille."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Invadindo Gatecrash, parte 1",
+      "dek": "Origens carta a carta: uma vaga que tinha de servir a duas necessidades opostas, um ciclo reescrito porque os jogadores não jogavam cartas que nomeassem duas cores, e uma habilidade aparafusada numa criatura só para responder a uma carta de uma coleção anterior.",
+      "overview": "Um punhado de designs avulsos, e o que os atravessa é que quase todas estas cartas foram feitas para satisfazer algo que não elas mesmas. Uma existe porque uma vaga tinha dois requisitos incompatíveis e a resposta foi apontar uma arma para as próprias criaturas. Um ciclo foi refeito duas vezes, uma porque jogadores menos experientes não encostavam numa carta que nomeasse duas cores e outra porque outra mecânica reivindicou o gatilho que ele usava. Uma criatura carrega uma segunda habilidade sem outra razão temática além de precisar de casa para uma resposta específica. Mais a fatia de mana permitida ao preto e por que um personagem que volta tem de se repetir.",
+      "takeaway": "Muito pouco disso foi projetado de dentro para fora a partir de uma ideia. Quase tudo foi projetado de fora para dentro a partir de uma restrição: um buraco, uma colisão, uma política ou uma carta problemática já solta pelo mundo.",
+      "lessons": [
+        {
+          "title": "Inverta o mecanismo: a arma que você aponta para eles, apontada para você",
+          "rules": "Uma vaga tinha de ser controle de criaturas para o formato e também sustentar uma mecânica que recompensa jogar criaturas maiores que as suas. Esses desejos apontam em sentidos opostos. O destravamento foi pegar um efeito normalmente usado para enfraquecer a criatura do oponente e aplicá-lo à própria, deixando-a pequena o bastante para ser superada — e então acrescentar um custo para recolhê-lo, de modo que o encolhimento possa depois ser movido para uma ameaça de verdade. O mesmo efeito serviu aos dois requisitos assim que a direção foi invertida.",
+          "flavor": "Encolha a sua própria criatura para a próxima parecer grande, e depois pegue o encolhimento de volta."
+        },
+        {
+          "title": "Uma carta que nomeia duas categorias é arquivada na interseção delas, não na união",
+          "rules": "Um ciclo originalmente se importava com duas cores cada: a própria, mais uma com que dividia facção. A intenção era cartas melhores num baralho e ainda usáveis noutro. Os testes mostraram o contrário: jogadores menos experientes só punham uma carta que nomeasse duas cores naquele baralho de duas cores específico. Estreitar cada carta à própria cor a tornou jogável em qualquer baralho daquela cor. Nomear uma segunda coisa não amplia o público; estreita-o a quem tem as duas.",
+          "flavor": "Escrita para ser flexível. Lida como um requisito."
+        },
+        {
+          "title": "Construa o objeto conjunto com a parte exclusiva de cada um, não com a compartilhada",
+          "rules": "As duas cores conseguem destruir criaturas, o que torna uma remoção combinada mais difícil e não mais fácil: qualquer coisa construída com o que compartilham lê como pertencente a uma delas sozinha. O método foi achar a parte de cada uma que a outra genuinamente não faz: uma tem o sabor de nunca golpear primeiro, a outra não se incomoda de passar despercebida, e só uma delas recebe os efeitos de redução. Combine as metades exclusivas e você obtém algo que nenhuma teria conseguido fazer.",
+          "flavor": "Não a sobreposição. As duas peças que a sobreposição não contém."
+        },
+        {
+          "title": "Divulgue a lacuna, colete propostas e deixe escolher quem tem a necessidade",
+          "rules": "Ele descreve o procedimento padrão para preencher buracos deixados por cortes: a equipe rio abaixo informa o que falta, o líder circula a lista entre todos os que se voluntariaram, as propostas chegam num prazo, e a equipe que identificou o buraco escolhe qual carta o preenche. Ninguém é designado a um buraco. Uma chamada aberta com prazo produz opções concorrentes, e deixar o solicitante escolher significa que a seleção é feita por quem de fato sabe o que a vaga precisa fazer.",
+          "flavor": "Às vezes acontece o atalho: o desenvolvedor líder passa e pergunta se você tem alguma coisa."
+        },
+        {
+          "title": "Uma exceção para uma parte se ganha por uma necessidade estrutural permanente — e você diz qual é",
+          "rules": "Ao expor quem pode produzir mana, ele dá a cada cor uma fatia defensável: uma tem a correção duradoura, outra os surtos temporários, e uma recebe uma única fatia estreita — mana extra da própria cor a partir dos próprios terrenos. A justificativa não é simetria. É que essa cor precisou de compromissos coloridos mais pesados que qualquer outra desde o começo, então a concessão responde a uma pressão real e contínua. Exceções sobrevivem ao escrutínio quando a necessidade por trás delas é enunciada.",
+          "flavor": "Ela pode gerar mais de si mesma, e essa é toda a reivindicação dela."
+        },
+        {
+          "title": "Um ambiente saudável vale mais que uma carta limpa",
+          "rules": "Um lançamento anterior tinha uma carta que saiu mais forte que o pretendido, então a resposta precisava aparecer em algum lugar. Não havia hospedeiro em que o texto necessário se fundisse invisivelmente, então ele foi para a carta que podia carregá-lo com menos tensão — duas habilidades que ambas parecem proteger os outros, o que é um aceno e não um encaixe. Ele enuncia a troca: uma carta com uma segunda linha estranha custa menos que um formato que ninguém consegue corrigir.",
+          "flavor": "A emenda aparece se você olhar. Faz anos que eles decidiram que você olhar é o problema mais barato."
+        },
+        {
+          "title": "Um componente sobrevive ao motivo pelo qual foi feito",
+          "rules": "Uma carta foi desenhada como apoio a uma mecânica que depois foi cortada. Já não era necessária para o propósito original e continuava boa, então ficou — passando pela entrega do líder de design e depois pelo desenvolvimento, cada um concordando de forma independente. Quando aquilo a que um componente servia desaparece, isso é um convite a reavaliá-lo pelos próprios méritos, não uma instrução para removê-lo junto com o pai.",
+          "flavor": "Feita para alimentar uma mecânica que nunca saiu, e sobreviveu à mecânica por uma década."
+        },
+        {
+          "title": "Uma subequipe encarregada da ambientação acha uma forma, e a forma sobrevive ao encargo",
+          "rules": "Um grupo pequeno foi incumbido de produzir cartas de cima para baixo que expressassem a sensação de uma cidade. No caminho descobriram algo estrutural e não temático: certa forma de carta é excepcionalmente boa em transmitir lugar, porque se prende ao próprio terreno. Essa descoberta foi depois reaproveitada pela equipe do lançamento seguinte, que não tinha tal encargo. Grupos exploratórios rendem em técnicas com a mesma frequência com que rendem nas entregas pedidas.",
+          "flavor": "Mandados fazer cartas de cidade. Voltaram com uma forma que diz «um lugar»."
+        },
+        {
+          "title": "Imprima a carta de que a coisa dominante tem medo",
+          "rules": "Ele rastreia o hábito até uma das primeiras cartas que desenhou, feita antes de trabalhar lá e enfiada na primeira coleção que liderou: algo construído especificamente para que a estratégia mais forte da época tivesse uma carta a temer. Ele faz isso de propósito e repetidamente; o exemplo atual mira uma habilidade que virara frustrante no jogo competitivo. Onde algo domina o ambiente, a correção pode ser uma única carta que existe para ser a resposta dele.",
+          "flavor": "Até o baralho que diz não a tudo deveria ter algo que não quer ver."
+        },
+        {
+          "title": "Um personagem que volta precisa ser a mesma pessoa e ainda assim ser novo",
+          "rules": "Segundas aparições são mais difíceis que primeiras: a nova versão tem de se manter coerente com a identidade estabelecida e ainda entregar novidade mecânica. Motivados por reclamações de que a última versão de certo personagem não batia com as anteriores, puseram alguém para catalogar qual deveria ser a qualidade definidora de cada um — e concluíram que o elenco não pode borrar, porque há muito mais personagens do que mecânicas a distribuir. Então a assinatura se repete e tudo em volta varia.",
+          "flavor": "O que entra ele mesmo na briga volta a entrar, num tamanho diferente."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "强攻《巨龙迷城》（上）",
+      "dek": "逐张牌的来历：一个必须同时满足两种相反需求的位置；一个因为玩家不肯用「同时点名两个颜色」的牌而被改写的循环；以及一项被硬装到某个生物身上、纯粹为了回应前一个系列某张牌的异能。",
+      "overview": "一堆零散的设计，而贯穿其间的是：这些牌里绝大多数都是为了满足自身之外的东西才被造出来的。有一张之所以存在，是因为某个位置同时背着两个互不相容的要求，而答案是把武器对准自己的生物。有一个循环被重做了两次：一次是因为经验较少的玩家根本不会碰「同时点名两个颜色」的牌，一次是因为另一个机制抢走了它原本使用的触发条件。有一个生物带着第二项异能，除了「需要给某个特定的解答找个落脚处」之外，没有任何主题上的理由。此外还有黑色被允许拥有的那一小片法术力份额，以及一个回归角色为什么必须重复自己。",
+      "takeaway": "这里几乎没有什么是从一个想法出发、向外设计出来的。几乎全部都是从一条约束出发、向内设计出来的：一个空缺、一次撞车、一条政策，或者一张已经放出去、正在外面惹麻烦的牌。",
+      "lessons": [
+        {
+          "title": "把机制反过来：本来对准他们的武器，对准你自己",
+          "rules": "有一个位置既要为这个赛制提供生物控制，又要支撑一个「奖励你放下比自己更大的生物」的机制。这两个诉求方向相反。破局的办法，是把一个通常用来削弱对手生物的效果，改用在自己的生物身上——让它小到能被超过；然后再加一个把它收回来的代价，好让这份削弱之后能被挪到一个真正的威胁身上。一旦方向被反转，同一个效果就同时满足了两项要求。",
+          "flavor": "把自己的生物缩小，好让下一个显得大；然后再把那份缩小收回来。"
+        },
+        {
+          "title": "一张点名了两个类别的牌，会被归进它们的交集，而不是并集",
+          "rules": "有一个循环最初各自在乎两个颜色：自己的颜色，加上一个与它同属某个阵营的颜色。本意是做出「在某个牌组里更好、但在别的牌组里仍然可用」的牌。测试的结果正相反：经验较少的玩家除了那个特定的双色牌组，什么牌组都不会放这张牌。把每张牌收窄到只在乎自己的颜色之后，它在任何含有该颜色的牌组里都能用了。多点名一样东西并不会扩大受众，只会把受众缩到「两样都有」的那批人。",
+          "flavor": "写的时候是为了灵活。读起来却成了一条门槛。"
+        },
+        {
+          "title": "用双方各自独占的那部分去造这个共有的东西，而不是用它们共有的那部分",
+          "rules": "这两个颜色都能消灭生物，而这让一张双色去除牌变得更难而不是更容易：任何用它们共有的东西造出来的牌，读起来都像只属于其中一方。方法是找出各自身上「另一方确实做不到」的那部分：一方带着「从不先出手」的调性，另一方毫不介意不被看见，而削弱数值的效果只有其中一个拿得到。把这两份独占的一半合起来，你就得到了任何一方单独都造不出来的东西。",
+          "flavor": "不是那块重叠。是重叠之外的那两块。"
+        },
+        {
+          "title": "把空缺广播出去，收集投稿，然后让有需求的那一方来挑",
+          "rules": "他描述了填补「因删牌而产生的空缺」的常规流程：下游团队报出缺了什么，牵头者把清单发给所有报过名的人，投稿在截止日前汇总，然后由发现这个空缺的团队来挑用哪张牌去填。没有人被指派某个空缺。一次带截止日的公开征集会产出互相竞争的选项，而让提出需求的一方来挑，意味着做出选择的是真正清楚「这个位置要干什么」的人。",
+          "flavor": "有时候走的是捷径：主开发直接走过来问你手上有没有现成的。"
+        },
+        {
+          "title": "给某一方的例外，靠的是一项长期存在的结构性需求——而且你要把这份需求说出来",
+          "rules": "在讲清谁有资格产出法术力时，他给每个颜色一份站得住脚的份额：一个掌管持久的调色，一个掌管一次性的爆发，还有一个只拿到一小片——从自家的地里产出额外的自家颜色。理由不是对称。理由是这个颜色从一开始就比任何别的颜色更需要沉重的有色投入，所以这份许可回应的是一份真实且持续的压力。当例外背后的需求被明说出来时，它才经得起追问。",
+          "flavor": "它被允许繁衍更多的自己，而这就是它全部的主张。"
+        },
+        {
+          "title": "一个健康的环境，胜过一张干净的牌",
+          "rules": "更早的一次发售里有一张牌比预期更强，于是解答必须在某处出现。当时没有任何一张牌能让所需的文字毫无痕迹地融进去，于是它被放在了「承受得最自然」的那张牌上——两项异能都像是在保护他人，这算是点头示意，而不是严丝合缝。他把这笔交换明说了出来，并说这个决定很久以前就做好了：一张带着一行别扭附加文字的牌，代价小于一个没人能纠正的赛制。",
+          "flavor": "你仔细看是看得出接缝的。他们多年前就判定：你看得出来，是更便宜的那个问题。"
+        },
+        {
+          "title": "一个部件会比「它当初被造出来的理由」活得更久",
+          "rules": "有一张牌是作为某个机制的配套支撑而设计的，而那个机制后来被砍掉了。它已经不再为原本的目的所需要，可它仍然好，于是就留了下来——一路穿过设计主导者的交接，再穿过开发，而每一方都是独立地认可了它。当一个部件所服务的对象消失时，那是一个「按它自身价值重新评估它」的提示，而不是一条「把它连同母体一起删掉」的指令。",
+          "flavor": "为一个从未上市的机制而造，结果比那个机制多活了十年。"
+        },
+        {
+          "title": "一支为调性而设的子团队找到了一种形式，而这种形式比它的委任活得更久",
+          "rules": "一个小组被指派去做「自上而下、传达城市感」的牌。过程中他们发现的却是一件结构性而非主题性的事：某一种牌面形式在传达「地点」上格外好用，因为它附着在地本身上。这个发现随后被下一次发售的团队沿用，而那支团队并没有这样的委任。探索性小组的产出，落在技法上的次数，和落在被要求的交付物上的次数一样多。",
+          "flavor": "派去做城市牌，带回来的是一种会说「某个地方」的形式。"
+        },
+        {
+          "title": "把那张让「统治者」害怕的牌印出来",
+          "rules": "他把这个习惯追溯到自己最早设计的牌之一：那是在他入职之前做的，后来被塞进了他主导的第一个系列——一张专门造出来、好让当时最强的那套策略也有一张牌可怕的牌。他刻意且反复地这么做；眼下这个例子瞄准的是一项在竞技对局中已变得令人厌烦的异能。当某样东西在统治环境时，纠正可以是一张单卡，而它存在的全部意义就是当那样东西的解答。",
+          "flavor": "哪怕是那副对什么都说不的牌组，也该有一样它不想看到的东西。"
+        },
+        {
+          "title": "一个回归的角色必须还是同一个人，同时又必须是新的",
+          "rules": "第二次登场比第一次更难：新版本既要与上次确立的身份保持一致，又要提供机制上的新意。因为有人抱怨某个角色的最新版本与她此前的几张对不上，他们指派了一个人去整理每个角色「应该是什么」的那条定义性特质——并得出结论：这份名单不能糊掉，因为角色远多于可供分配的机制。于是招牌动作重复，其余一切改变。",
+          "flavor": "那个亲自下场打的，又一次亲自下场了，只是体型换了。"
+        }
+      ]
+    }
+  }
+}
