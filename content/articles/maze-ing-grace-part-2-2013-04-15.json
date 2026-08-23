@@ -1,0 +1,320 @@
+{
+  "id": "maze-ing-grace-part-2-2013-04-15",
+  "slug": "maze-ing-grace-part-2-2013-04-15",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-04-15",
+  "series": { "id": "maze-ing-grace", "order": 2, "total": 2 },
+  "tags": ["constraints", "mechanics", "novelty", "reuse", "split-cards"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/maze-ing-grace-part-2-2013-04-15",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "G" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Maze-ing Grace, Part 2",
+      "dek": "Seven conditions the new mechanic had to satisfy, written down before anyone went looking — and an answer that had been waiting since a set that was cancelled fifteen years earlier.",
+      "overview": "Every release owes its audience something new, and this one had no room for it. So Rosewater lists the seven requirements: it can't consume attention the set has already spent, can't favour a faction, can't sit outside the faction system, must be used evenly across all ten, must belong to this world, must be exciting, and must fit in a set with no space. He then tells the history of split cards — invented as an inversion of a two-card creature, made for a cancelled set, revived years later, extended twice more — and shows that fuse clears all seven conditions because split cards had already paid for six of them.",
+      "takeaway": "The spec was written as vetoes, and the winner is an idea old enough that this world had already established it, which is why the constraint that kills most candidates — has to belong here — cost nothing.",
+      "lessons": [
+        {
+          "title": "Write the requirements as vetoes before you start looking",
+          "rules": "Seven conditions, each phrased as something the answer cannot do or must do, all fixed before the search began. That structure does two jobs: it stops a charming candidate from surviving on enthusiasm, and it makes the eventual winner defensible item by item — which is exactly how he presents fuse at the end, walking the same seven in the same order. A spec written as prohibitions is a spec you can check.",
+          "flavor": "\"That's it. That's all we had to do.\""
+        },
+        {
+          "title": "What's left of the attention budget determines what kind of novelty you can afford",
+          "rules": "The set was already consuming an enormous amount of what a player can hold, which didn't rule out a new mechanic — it ruled out a whole class of them. Whatever went in had to be graspable on sight. When your budget for a resource is nearly gone, the constraint isn't on quantity, it's on kind: you can still add something, provided it costs nothing to understand.",
+          "flavor": "Players had to see it and just get it. That was the entire specification for the interesting part."
+        },
+        {
+          "title": "To serve every faction equally, mechanise the property they share",
+          "rules": "Three of the seven conditions together say the new thing has to touch all ten factions without belonging to any. The general solution is to find what the factions have in common and build on that — here, that all of them are multicoloured, which is one of the few constants across the group. A mechanic keyed to a shared property is automatically even-handed, because the evenness is structural rather than budgeted.",
+          "flavor": "Caring about multicolour is caring about all ten of them and none of them in particular."
+        },
+        {
+          "title": "Split the setting's signature devices across the instalments",
+          "rules": "Two distinctive card structures were both established on this world and both wanted. The decision, made at block-planning time, was to spend one on the first two sets and hold the other for the third. Neither would have been surprising by itself; separated, each arrives as the thing that release does. When a setting has more than one signature, allocate them rather than deploying them together.",
+          "flavor": "Hybrid up front, split cards at the end, and neither had to compete with the other."
+        },
+        {
+          "title": "An idea rejected as unclear becomes shippable when the presentation layer catches up",
+          "rules": "When split cards were first made, the team discussed baking \"you may play both halves\" into what a split card is, and he said no, because it wouldn't be obvious. Years later the same functionality shipped — as a named keyword with reminder text on the card. The idea hadn't changed and the objection had been correct. What changed was that there was now somewhere on the object to explain it.",
+          "flavor": "The same behaviour, refused once for being invisible and accepted once it could be written down."
+        },
+        {
+          "title": "An idea can survive cancellation, inversion and two revivals before it fits",
+          "rules": "The chain is long and every link is a different project. A meeting with the production team revealed one card's art could span two cards, which produced a creature made of two cards. Inverting that gave two cards on one card, made for a set that was then cancelled. It resurfaced in a multicolour block, returned in a later set with both halves the same colour, then with both halves multicoloured, and finally acquired fuse. Keep the thing; the occasion for it arrives on its own schedule.",
+          "flavor": "Designed for a set that never came out, and still in print two decades later."
+        },
+        {
+          "title": "Reuse from inside the same setting arrives with its belonging already paid for",
+          "rules": "One of the seven conditions was that the mechanic had to feel native to a world that oozes flavour, and that condition usually costs a great deal of work. Here it cost nothing: split cards had been established on this plane in the previous visit. Reaching into your own back catalogue for the same setting means the fit question is already answered, which is often worth more than the novelty you gave up.",
+          "flavor": "The hardest requirement on the list was satisfied before the search started."
+        },
+        {
+          "title": "The best novelty is the obvious extension everyone has imagined and nobody has shipped",
+          "rules": "His own reasoning for why fuse would excite people: it's something R&D had talked about doing forever, which means the audience had too. Not an invention nobody saw coming — the move everyone could see and nobody had made. That kind of idea carries anticipation you didn't have to build, and delivering it reads as attentiveness rather than as surprise.",
+          "flavor": "An obvious place to go that they had never gone before."
+        },
+        {
+          "title": "Express escalation by moving the threshold",
+          "rules": "The earlier sets had cards that cared about having one of a particular land. The final set has cards that need two. That is the whole change, and it does the narrative work by itself: nobody has to be told these lands matter more now, because the requirement says it and means it literally. When you want something to have grown in importance, raising the bar to reach it is the cheapest possible statement.",
+          "flavor": "One was enough before. Now you need two, and that is the point."
+        },
+        {
+          "title": "The addition that costs nothing is the one riding an allocation you already made",
+          "rules": "The last and hardest condition was that the new mechanic had to fit into a set with no room. Split cards clear it because they are faction cards — they come out of the allocation each faction already has, rather than asking for space of their own. When you're out of budget, stop looking for things to add and start looking for things that can be the work you were already doing.",
+          "flavor": "It doesn't take up any space. It naturally fits into what they were already trying to do."
+        }
+      ]
+    },
+    "es": {
+      "title": "Sublime laberinto, parte 2",
+      "dek": "Siete condiciones que la nueva mecánica debía cumplir, escritas antes de que nadie saliera a buscar, y una respuesta que llevaba esperando desde una expansión cancelada quince años antes.",
+      "overview": "Todo lanzamiento debe algo nuevo a su público, y este no tenía sitio. Así que Rosewater enumera los siete requisitos: no puede consumir la atención que la expansión ya ha gastado, no puede favorecer a una facción, no puede quedar fuera del sistema de facciones, debe usarse por igual en las diez, debe pertenecer a este mundo, debe entusiasmar y debe caber en una expansión sin espacio. Luego cuenta la historia de las cartas divididas —inventadas como inversión de una criatura de dos cartas, hechas para una expansión cancelada, revividas años después, extendidas dos veces más— y muestra que el fusionado supera las siete condiciones porque las cartas divididas ya habían pagado seis.",
+      "takeaway": "La especificación se escribió como vetos, y la ganadora es una idea tan antigua que este mundo ya la había establecido, por lo que la restricción que mata a casi todos los candidatos —tiene que pertenecer aquí— no costó nada.",
+      "lessons": [
+        {
+          "title": "Escribe los requisitos como vetos antes de empezar a buscar",
+          "rules": "Siete condiciones, cada una formulada como algo que la respuesta no puede hacer o debe hacer, todas fijadas antes de empezar la búsqueda. Esa estructura hace dos trabajos: impide que un candidato encantador sobreviva por entusiasmo, y hace que el ganador final sea defendible punto por punto, que es exactamente como presenta el fusionado al final, recorriendo las mismas siete en el mismo orden. Una especificación escrita como prohibiciones es una especificación comprobable.",
+          "flavor": "«Eso es todo. Eso era todo lo que teníamos que hacer.»"
+        },
+        {
+          "title": "Lo que quede del presupuesto de atención decide qué tipo de novedad te puedes permitir",
+          "rules": "La expansión ya consumía una cantidad enorme de lo que un jugador puede sostener, lo que no descartaba una mecánica nueva: descartaba toda una clase de ellas. Lo que entrara tenía que captarse a simple vista. Cuando el presupuesto de un recurso está casi agotado, la restricción no es de cantidad sino de tipo: aún puedes añadir algo, siempre que entenderlo no cueste nada.",
+          "flavor": "Los jugadores tenían que verlo y pillarlo sin más. Esa era toda la especificación de la parte interesante."
+        },
+        {
+          "title": "Para servir a todas las facciones por igual, mecaniza la propiedad que comparten",
+          "rules": "Tres de las siete condiciones dicen juntas que lo nuevo debe tocar a las diez facciones sin pertenecer a ninguna. La solución general es encontrar qué tienen en común y construir sobre eso: aquí, que todas son multicolor, una de las pocas constantes del grupo. Una mecánica anclada a una propiedad compartida es automáticamente ecuánime, porque la equidad es estructural y no presupuestada.",
+          "flavor": "Preocuparse por lo multicolor es preocuparse por las diez y por ninguna en particular."
+        },
+        {
+          "title": "Reparte los dispositivos característicos del escenario entre las entregas",
+          "rules": "Dos estructuras de carta distintivas estaban ambas establecidas en este mundo y ambas se querían. La decisión, tomada al planificar el bloque, fue gastar una en las dos primeras expansiones y guardar la otra para la tercera. Ninguna habría sorprendido por sí sola; separadas, cada una llega como «lo que hace ese lanzamiento». Cuando un escenario tiene más de una firma, repártelas en vez de desplegarlas juntas.",
+          "flavor": "El híbrido al principio, las divididas al final, y ninguna tuvo que competir con la otra."
+        },
+        {
+          "title": "Una idea rechazada por poco clara se vuelve publicable cuando la capa de presentación se pone al día",
+          "rules": "Cuando se hicieron las primeras cartas divididas, el equipo discutió si «puedes jugar ambas mitades» debía formar parte de lo que una carta dividida es, y él dijo que no, porque no sería obvio. Años después la misma funcionalidad salió: como palabra clave con nombre y texto recordatorio en la carta. La idea no había cambiado y la objeción había sido correcta. Lo que cambió es que ahora había un sitio en el objeto donde explicarla.",
+          "flavor": "El mismo comportamiento, rechazado una vez por invisible y aceptado en cuanto pudo escribirse."
+        },
+        {
+          "title": "Una idea puede sobrevivir a una cancelación, una inversión y dos resurrecciones antes de encajar",
+          "rules": "La cadena es larga y cada eslabón es otro proyecto. Una reunión con producción reveló que el arte de una carta podía abarcar dos cartas, lo que produjo una criatura hecha de dos cartas. Invertir eso dio dos cartas en una, hechas para una expansión que luego se canceló. Reapareció en un bloque multicolor, volvió en otra expansión con ambas mitades del mismo color, después con ambas mitades multicolor, y por fin adquirió el fusionado. Guarda la cosa; la ocasión llega con su propio calendario.",
+          "flavor": "Diseñada para una expansión que nunca salió, y todavía impresa dos décadas después."
+        },
+        {
+          "title": "La reutilización dentro del mismo escenario llega con la pertenencia ya pagada",
+          "rules": "Una de las siete condiciones era que la mecánica se sintiera nativa de un mundo que rezuma ambientación, y esa condición suele costar muchísimo trabajo. Aquí costó cero: las cartas divididas ya estaban establecidas en este plano desde la visita anterior. Meter la mano en tu propio catálogo del mismo escenario significa que la pregunta del encaje ya está respondida, lo que a menudo vale más que la novedad a la que renunciaste.",
+          "flavor": "El requisito más difícil de la lista quedó satisfecho antes de empezar la búsqueda."
+        },
+        {
+          "title": "La mejor novedad es la extensión obvia que todos han imaginado y nadie ha publicado",
+          "rules": "Su propio razonamiento sobre por qué el fusionado entusiasmaría: es algo que en I+D llevaban hablando de hacer desde siempre, lo que significa que el público también. No un invento que nadie vio venir, sino la jugada que todos veían y nadie había hecho. Ese tipo de idea trae una expectación que no tuviste que construir, y entregarla se lee como atención más que como sorpresa.",
+          "flavor": "Un sitio obvio al que ir al que nunca habían ido."
+        },
+        {
+          "title": "Expresa la escalada moviendo el umbral",
+          "rules": "Las expansiones anteriores tenían cartas a las que les importaba tener una tierra concreta. La final tiene cartas que necesitan dos. Ese es todo el cambio, y hace el trabajo narrativo por sí solo: a nadie hay que decirle que esas tierras importan más ahora, porque el requisito lo dice y lo dice literalmente. Cuando quieras que algo haya crecido en importancia, subir el listón para alcanzarlo es la declaración más barata posible.",
+          "flavor": "Antes bastaba con una. Ahora necesitas dos, y ese es justo el mensaje."
+        },
+        {
+          "title": "La adición que no cuesta nada es la que va montada sobre una asignación que ya hiciste",
+          "rules": "La última y más dura condición era que la nueva mecánica cupiera en una expansión sin sitio. Las cartas divididas la superan porque son cartas de facción: salen de la asignación que cada facción ya tiene, en vez de pedir espacio propio. Cuando te has quedado sin presupuesto, deja de buscar cosas que añadir y empieza a buscar cosas que puedan ser el trabajo que ya estabas haciendo.",
+          "flavor": "No ocupa espacio. Encaja de forma natural en lo que ya estaban intentando hacer."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Labyrinthe et grâce, partie 2",
+      "dek": "Sept conditions que la nouvelle mécanique devait remplir, écrites avant que quiconque parte chercher — et une réponse qui attendait depuis une extension annulée quinze ans plus tôt.",
+      "overview": "Toute sortie doit du nouveau à son public, et celle-ci n'avait pas de place. Rosewater énumère donc les sept exigences : elle ne peut pas consommer l'attention que l'extension a déjà dépensée, ne peut pas favoriser une faction, ne peut pas se tenir hors du système de factions, doit être utilisée également par les dix, doit appartenir à ce monde, doit enthousiasmer, et doit tenir dans une extension sans espace. Il raconte ensuite l'histoire des cartes divisées — inventées comme inversion d'une créature en deux cartes, faites pour une extension annulée, ressuscitées des années après, étendues deux fois encore — et montre que la fusion franchit les sept conditions parce que les cartes divisées en avaient déjà payé six.",
+      "takeaway": "Le cahier des charges a été écrit en vetos, et la gagnante est une idée assez ancienne pour que ce monde l'ait déjà établie : la contrainte qui tue la plupart des candidates — devoir appartenir ici — n'a donc rien coûté.",
+      "lessons": [
+        {
+          "title": "Écrivez les exigences en vetos avant de commencer à chercher",
+          "rules": "Sept conditions, chacune formulée comme ce que la réponse ne peut pas ou doit faire, toutes fixées avant le début de la recherche. Cette structure fait deux choses : elle empêche une candidate séduisante de survivre par enthousiasme, et elle rend la gagnante défendable point par point — exactement la façon dont il présente la fusion à la fin, en reparcourant les sept dans le même ordre. Un cahier des charges écrit en interdictions est vérifiable.",
+          "flavor": "« Voilà. C'est tout ce que nous avions à faire. »"
+        },
+        {
+          "title": "Ce qui reste du budget d'attention décide du type de nouveauté que vous pouvez vous offrir",
+          "rules": "L'extension consommait déjà une part énorme de ce qu'un joueur peut retenir, ce qui n'excluait pas une mécanique nouvelle — cela excluait toute une classe d'entre elles. Ce qui entrerait devait se saisir d'un coup d'œil. Quand le budget d'une ressource est presque épuisé, la contrainte ne porte pas sur la quantité mais sur la nature : vous pouvez encore ajouter, à condition que la compréhension soit gratuite.",
+          "flavor": "Les joueurs devaient le voir et comprendre. C'était tout le cahier des charges de la partie intéressante."
+        },
+        {
+          "title": "Pour servir toutes les factions également, mécanisez la propriété qu'elles partagent",
+          "rules": "Trois des sept conditions disent ensemble que le nouveau doit toucher les dix factions sans appartenir à aucune. La solution générale est de trouver ce qu'elles ont en commun et de bâtir dessus — ici, qu'elles sont toutes multicolores, une des rares constantes du groupe. Une mécanique indexée sur une propriété partagée est automatiquement équitable, car l'équité est structurelle plutôt que budgétée.",
+          "flavor": "Se soucier du multicolore, c'est se soucier des dix et d'aucune en particulier."
+        },
+        {
+          "title": "Répartissez les dispositifs signature du décor entre les livraisons",
+          "rules": "Deux structures de carte distinctives étaient toutes deux établies sur ce monde et toutes deux désirées. La décision, prise à la planification du bloc, fut d'en dépenser une sur les deux premières extensions et de garder l'autre pour la troisième. Ni l'une ni l'autre n'aurait surpris seule ; séparées, chacune arrive comme ce que cette sortie-là fait. Quand un décor a plusieurs signatures, répartissez-les au lieu de les déployer ensemble.",
+          "flavor": "L'hybride d'abord, les cartes divisées à la fin, et aucune n'a eu à concurrencer l'autre."
+        },
+        {
+          "title": "Une idée refusée pour manque de clarté devient publiable quand la couche de présentation rattrape",
+          "rules": "Lors de la création des premières cartes divisées, l'équipe a discuté d'intégrer « vous pouvez jouer les deux moitiés » à la définition même, et il a dit non, parce que ce ne serait pas évident. Des années plus tard, la même fonctionnalité est sortie — comme mot-clé nommé, avec texte de rappel sur la carte. L'idée n'avait pas changé et l'objection était juste. Ce qui a changé, c'est qu'il y avait désormais un endroit sur l'objet pour l'expliquer.",
+          "flavor": "Le même comportement, refusé une fois pour son invisibilité et accepté dès qu'on a pu l'écrire."
+        },
+        {
+          "title": "Une idée peut survivre à une annulation, une inversion et deux résurrections avant de convenir",
+          "rules": "La chaîne est longue et chaque maillon est un autre projet. Une réunion avec la production a révélé que l'illustration d'une carte pouvait s'étendre sur deux cartes, d'où une créature faite de deux cartes. Inverser cela a donné deux cartes sur une, faites pour une extension ensuite annulée. Elle a refait surface dans un bloc multicolore, est revenue plus tard avec les deux moitiés de la même couleur, puis avec les deux moitiés multicolores, et a enfin reçu la fusion. Gardez la chose ; l'occasion arrive à son propre rythme.",
+          "flavor": "Conçue pour une extension jamais sortie, et toujours imprimée vingt ans après."
+        },
+        {
+          "title": "Le réemploi au sein du même décor arrive avec son appartenance déjà payée",
+          "rules": "L'une des sept conditions était que la mécanique paraisse native d'un monde saturé d'ambiance, et cette condition coûte d'ordinaire un travail énorme. Ici elle n'a rien coûté : les cartes divisées avaient été établies sur ce plan lors de la visite précédente. Puiser dans votre propre catalogue pour le même décor signifie que la question de l'adéquation est déjà tranchée, ce qui vaut souvent plus que la nouveauté abandonnée.",
+          "flavor": "L'exigence la plus dure de la liste était satisfaite avant même le début de la recherche."
+        },
+        {
+          "title": "La meilleure nouveauté est le prolongement évident que tous ont imaginé et que personne n'a publié",
+          "rules": "Son propre raisonnement sur l'enthousiasme que susciterait la fusion : c'est une chose dont la R&D parlait depuis toujours, donc le public aussi. Non pas une invention que personne n'avait vue venir, mais le geste que tout le monde voyait et que personne n'avait fait. Ce genre d'idée porte une attente que vous n'avez pas eu à construire, et la livrer se lit comme de l'attention plutôt que comme une surprise.",
+          "flavor": "Un endroit évident où aller, où ils n'étaient jamais allés."
+        },
+        {
+          "title": "Exprimez l'escalade en déplaçant le seuil",
+          "rules": "Les extensions précédentes avaient des cartes qui se souciaient d'avoir un terrain particulier. La finale a des cartes qui en exigent deux. C'est tout le changement, et il fait le travail narratif tout seul : personne n'a besoin qu'on lui dise que ces terrains comptent davantage, car l'exigence le dit et le dit littéralement. Pour signifier qu'une chose a gagné en importance, relever la barre est la déclaration la moins chère possible.",
+          "flavor": "Un suffisait avant. Il en faut deux maintenant, et c'est tout le propos."
+        },
+        {
+          "title": "L'ajout qui ne coûte rien est celui qui chevauche une allocation déjà faite",
+          "rules": "La dernière et plus dure condition était que la nouvelle mécanique tienne dans une extension sans place. Les cartes divisées la franchissent parce qu'elles sont des cartes de faction : elles sortent de l'allocation que chaque faction possède déjà, au lieu de réclamer un espace propre. Quand le budget est épuisé, cessez de chercher quoi ajouter et cherchez ce qui peut être le travail que vous faisiez déjà.",
+          "flavor": "Cela ne prend aucune place. Cela s'insère naturellement dans ce qu'ils tentaient déjà de faire."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Sublime labirinto, parte 2",
+      "dek": "Sete condições que a nova mecânica tinha de satisfazer, escritas antes de alguém sair procurando — e uma resposta que estava esperando desde uma coleção cancelada quinze anos antes.",
+      "overview": "Todo lançamento deve algo novo ao seu público, e este não tinha espaço. Então Rosewater lista os sete requisitos: não pode consumir a atenção que a coleção já gastou, não pode favorecer uma facção, não pode ficar fora do sistema de facções, tem de ser usada igualmente pelas dez, tem de pertencer a este mundo, tem de empolgar e tem de caber numa coleção sem espaço. Ele então conta a história das cartas divididas — inventadas como inversão de uma criatura de duas cartas, feitas para uma coleção cancelada, revividas anos depois, estendidas mais duas vezes — e mostra que fundir passa nas sete condições porque as cartas divididas já haviam pago seis.",
+      "takeaway": "A especificação foi escrita como vetos, e a vencedora é uma ideia velha o bastante para que este mundo já a tivesse estabelecido — por isso a restrição que mata a maioria das candidatas, ter de pertencer aqui, não custou nada.",
+      "lessons": [
+        {
+          "title": "Escreva os requisitos como vetos antes de começar a procurar",
+          "rules": "Sete condições, cada uma formulada como algo que a resposta não pode ou tem de fazer, todas fixadas antes de a busca começar. Essa estrutura faz dois trabalhos: impede que uma candidata simpática sobreviva por entusiasmo, e torna a vencedora defensável item por item — que é exatamente como ele apresenta fundir no fim, percorrendo as mesmas sete na mesma ordem. Uma especificação escrita como proibições é uma especificação conferível.",
+          "flavor": "«É isso. Era só isso que a gente tinha de fazer.»"
+        },
+        {
+          "title": "O que sobrou do orçamento de atenção decide que tipo de novidade você pode bancar",
+          "rules": "A coleção já consumia uma quantidade enorme do que um jogador consegue segurar, o que não descartava uma mecânica nova — descartava uma classe inteira delas. O que entrasse tinha de ser apreensível de bate-pronto. Quando o orçamento de um recurso está quase no fim, a restrição não é de quantidade, é de tipo: ainda dá para acrescentar algo, desde que entender não custe nada.",
+          "flavor": "Os jogadores tinham de ver e simplesmente sacar. Essa era a especificação inteira da parte interessante."
+        },
+        {
+          "title": "Para servir todas as facções igualmente, mecanize a propriedade que elas compartilham",
+          "rules": "Três das sete condições juntas dizem que a coisa nova tem de tocar as dez facções sem pertencer a nenhuma. A solução geral é achar o que elas têm em comum e construir sobre isso — aqui, que todas são multicoloridas, uma das poucas constantes do grupo. Uma mecânica atrelada a uma propriedade compartilhada é automaticamente equânime, porque a equidade é estrutural em vez de orçada.",
+          "flavor": "Importar-se com multicolorido é importar-se com as dez e com nenhuma em particular."
+        },
+        {
+          "title": "Distribua os dispositivos característicos do cenário entre as parcelas",
+          "rules": "Duas estruturas de carta distintivas estavam ambas estabelecidas neste mundo e ambas eram desejadas. A decisão, tomada no planejamento do bloco, foi gastar uma nas duas primeiras coleções e guardar a outra para a terceira. Nenhuma teria surpreendido sozinha; separadas, cada uma chega como «o que aquele lançamento faz». Quando um cenário tem mais de uma assinatura, distribua em vez de disparar tudo junto.",
+          "flavor": "Híbrido na frente, cartas divididas no fim, e nenhuma teve de competir com a outra."
+        },
+        {
+          "title": "Uma ideia recusada por falta de clareza fica publicável quando a camada de apresentação alcança",
+          "rules": "Quando as primeiras cartas divididas foram feitas, a equipe discutiu embutir «você pode jogar as duas metades» na própria definição, e ele disse não, porque não seria óbvio. Anos depois a mesma funcionalidade saiu — como palavra-chave nomeada, com texto lembrete na carta. A ideia não tinha mudado e a objeção estava certa. O que mudou é que agora havia um lugar no objeto para explicá-la.",
+          "flavor": "O mesmo comportamento, recusado uma vez por ser invisível e aceito assim que pôde ser escrito."
+        },
+        {
+          "title": "Uma ideia pode sobreviver a um cancelamento, uma inversão e duas ressurreições antes de servir",
+          "rules": "A corrente é longa e cada elo é outro projeto. Uma reunião com a produção revelou que a arte de uma carta podia atravessar duas cartas, o que produziu uma criatura feita de duas cartas. Inverter isso deu duas cartas em uma, feitas para uma coleção que depois foi cancelada. Ela ressurgiu num bloco multicolorido, voltou numa coleção posterior com as duas metades da mesma cor, depois com as duas metades multicoloridas, e enfim ganhou fundir. Guarde a coisa; a ocasião chega no calendário dela.",
+          "flavor": "Projetada para uma coleção que nunca saiu, e ainda impressa duas décadas depois."
+        },
+        {
+          "title": "Reúso de dentro do mesmo cenário chega com o pertencimento já pago",
+          "rules": "Uma das sete condições era que a mecânica parecesse nativa de um mundo que transborda ambientação, e essa condição costuma custar um trabalho enorme. Aqui custou zero: as cartas divididas já tinham sido estabelecidas neste plano na visita anterior. Enfiar a mão no próprio catálogo do mesmo cenário significa que a pergunta do encaixe já está respondida, o que muitas vezes vale mais que a novidade abandonada.",
+          "flavor": "O requisito mais difícil da lista foi satisfeito antes de a busca começar."
+        },
+        {
+          "title": "A melhor novidade é a extensão óbvia que todos imaginaram e ninguém publicou",
+          "rules": "O raciocínio dele sobre por que fundir empolgaria: é algo que a P&D vinha falando em fazer desde sempre, o que significa que o público também. Não uma invenção que ninguém viu vir, e sim a jogada que todos viam e ninguém tinha feito. Esse tipo de ideia carrega uma expectativa que você não precisou construir, e entregá-la se lê como atenção, não como surpresa.",
+          "flavor": "Um lugar óbvio para ir aonde nunca tinham ido."
+        },
+        {
+          "title": "Expresse a escalada movendo o limiar",
+          "rules": "As coleções anteriores tinham cartas que se importavam em ter um terreno específico. A final tem cartas que precisam de dois. Essa é a mudança inteira, e ela faz o trabalho narrativo sozinha: ninguém precisa ser avisado de que esses terrenos importam mais agora, porque a exigência diz isso e diz literalmente. Quando você quer que algo tenha crescido em importância, subir a barra para alcançá-lo é a declaração mais barata possível.",
+          "flavor": "Antes um bastava. Agora você precisa de dois, e o recado é exatamente esse."
+        },
+        {
+          "title": "O acréscimo que não custa nada é o que pega carona numa alocação que você já fez",
+          "rules": "A última e mais dura condição era a nova mecânica caber numa coleção sem espaço. As cartas divididas passam porque são cartas de facção: saem da alocação que cada facção já tem, em vez de pedir espaço próprio. Quando o orçamento acabou, pare de procurar coisas para acrescentar e comece a procurar coisas que possam ser o trabalho que você já estava fazendo.",
+          "flavor": "Não ocupa espaço nenhum. Encaixa naturalmente no que já estavam tentando fazer."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "迷宫奇缘（下）",
+      "dek": "新机制必须满足的七项条件，在任何人动身去找之前就写好了——而答案早在十五年前一个被砍掉的系列里就已经在等着。",
+      "overview": "每一次发售都欠观众一样新东西，而这一个没有地方放。于是罗斯瓦特列出七项要求：它不能占用这个系列已经花掉的注意力；不能偏袒某个阵营；不能待在阵营体系之外；必须被十个阵营均等地使用；必须属于这个世界；必须够抓人；还必须塞进一个没有空间的系列里。接着他讲了「分裂牌」的来历——它诞生于对「一个生物占两张牌」的反转，为一个后来被取消的系列而做，多年后复活，之后又两度扩展——并逐条说明「熔接」为何能通过全部七项：因为分裂牌早已替它付清了其中六项。",
+      "takeaway": "这份规格是以「否决项」的形式写下来的；而胜出者是一个老到「这个世界早就确立过它」的想法，所以那条淘汰掉大多数候选者的约束——必须属于这里——分文未花。",
+      "lessons": [
+        {
+          "title": "在开始寻找之前，把要求写成一条条否决项",
+          "rules": "七项条件，每一条都被表述为「答案不能做什么」或「必须做什么」，全部在搜索开始之前定死。这个结构干了两件事：它让一个讨人喜欢的候选者无法靠热情活下来；同时也让最终的胜出者可以被逐条辩护——文章结尾他正是这么呈现熔接的，按同样的顺序把七条再走一遍。写成禁令的规格，是一份可以核对的规格。",
+          "flavor": "「就这些。我们要做的全部就是这些。」"
+        },
+        {
+          "title": "注意力预算还剩多少，决定你付得起哪一类的新意",
+          "rules": "这个系列已经吃掉了玩家心智容量中极大的一块，这并不排除加一个新机制——它排除的是一整类新机制。无论加什么进去，都必须一眼就能抓住。当某项资源的预算快见底时，约束就不再是数量，而是种类：你仍然可以增加东西，前提是理解它不花钱。",
+          "flavor": "玩家得看一眼就懂。关于「有意思的那部分」，整份规格就只有这一句。"
+        },
+        {
+          "title": "要让所有阵营被同等对待，就把它们共有的那条性质机制化",
+          "rules": "七项条件里有三条合起来说的是：新东西必须触及全部十个阵营，同时又不属于其中任何一个。通用解法是找出它们的共同点并在其上施工——这里是「它们全都是多色的」，这是这一组为数不多的常量之一。挂在共有性质上的机制天然公平，因为这份公平是结构性的，而不是靠预算分配出来的。",
+          "flavor": "在乎「多色」，就是同时在乎那十个阵营，又不特别在乎其中任何一个。"
+        },
+        {
+          "title": "把这个世界的招牌装置分摊到各部去用",
+          "rules": "有两种独特的牌面结构都曾在这个世界上被确立过，而且都被想要。在环境规划阶段做出的决定是：把其中一种花在前两个系列，把另一种留给第三个。单独看，哪一种都算不上惊喜；分开之后，每一种都成了「那一次发售所做的事」。当一个世界有不止一个招牌时，把它们分配开，而不是一起端出来。",
+          "flavor": "混血在前，分裂牌在后，而两者谁也不用跟谁争。"
+        },
+        {
+          "title": "一个因「说不清楚」被否决的想法，会在呈现层跟上之后变得可以发售",
+          "rules": "最早做分裂牌时，团队讨论过要不要把「两半都可以打出」直接写进「分裂牌是什么」里，而他说不行，因为那不够显然。多年后，同样的功能上市了——作为一个有名字的关键字，牌面上还带着提示文字。想法没变，当年的反对也没错。变了的是：现在这个物件上有了一个可以把它解释清楚的地方。",
+          "flavor": "同样的行为，曾因看不见而被拒，等到它能被写下来时就被接受了。"
+        },
+        {
+          "title": "一个想法可以熬过一次取消、一次反转和两度复活，才终于合适",
+          "rules": "这条链子很长，每一环都是另一个项目。一次与生产部门的会议透露出「一张牌的美术可以横跨两张牌」，于是有了一个由两张牌组成的生物。把它反过来，就得到了「两张牌合在一张牌上」，为一个随后被取消的系列而做。它在一个多色环境里重新浮出水面，之后又在某个系列里以「两半同色」的形态回归，再之后是「两半都多色」，最后才拿到熔接。把东西留着；属于它的场合会按自己的时间表到来。",
+          "flavor": "为一个从未上市的系列而设计，二十年后仍在印刷。"
+        },
+        {
+          "title": "在同一个世界内部做的复用，其「归属感」已经预付过了",
+          "rules": "七项条件之一，是这个机制必须让人觉得它天生属于这个韵味浓得溢出来的世界，而这条通常要耗掉大量工作。这里它一分钱没花：分裂牌在上一次造访时就已经在这个次元上被确立过了。伸手到自己的旧目录里、并且取的是同一个世界的东西，意味着「合不合」这个问题已经有答案了——而这往往比你放弃掉的那点新鲜感更值钱。",
+          "flavor": "清单上最难的那条要求，在搜索开始之前就已经被满足了。"
+        },
+        {
+          "title": "最好的新意，是那个所有人都设想过、却没人做出来的显然延伸",
+          "rules": "他自己给出的「熔接为什么会让人兴奋」的理由是：这是研发部一直念叨着要做的事，也就意味着玩家同样一直在念叨。它不是一个谁都没料到的发明，而是所有人都看得见、却没人迈出去的那一步。这类想法自带一份你不必费力去营造的期待，而把它交付出去，读起来更像是「你听见了」，而不是「你出其不意」。",
+          "flavor": "一个显而易见该去的地方，而他们从来没去过。"
+        },
+        {
+          "title": "用挪动门槛来表达升级",
+          "rules": "先前的系列里，有些牌在乎你是否拥有某一种地。最后这个系列里，有些牌需要两块。改动就这么多，而它自己就把叙事的活儿干完了：没有人需要被告知这些地现在更重要了，因为那条要求就是这么说的，而且是字面意义上的。当你想表达某样东西的分量上升时，抬高够到它的门槛，是可能的最便宜的一句声明。",
+          "flavor": "以前一块就够。现在你需要两块，而这正是要说的话。"
+        },
+        {
+          "title": "不花钱的那个新增项，是搭在你已经做好的分配上的那一个",
+          "rules": "最后也最难的一条，是这个新机制必须塞进一个没有空间的系列里。分裂牌之所以能过，是因为它们本身就是阵营牌：它们从每个阵营已有的配额里出，而不是另外索要地盘。当预算见底时，别再找「还能加什么」，改为去找「什么可以就是你本来就在做的那件事」。",
+          "flavor": "它不占任何空间。它自然而然地落进了他们本来就想做的事情里。"
+        }
+      ]
+    }
+  }
+}

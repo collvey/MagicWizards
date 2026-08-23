@@ -1,0 +1,320 @@
+{
+  "id": "maze-ing-grace-part-1-2013-04-08",
+  "slug": "maze-ing-grace-part-1-2013-04-08",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-04-08",
+  "series": { "id": "maze-ing-grace", "order": 1, "total": 2 },
+  "tags": ["constraints", "planning", "capacity", "identity", "limited"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/maze-ing-grace-part-1-2013-04-08",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Maze-ing Grace, Part 1",
+      "dek": "Six numbered problems, 14.5 cards per faction, ten mandatory keywords in a slot that normally holds seven, and a schedule argument built entirely out of the list.",
+      "overview": "Before Dragon's Maze design began, Rosewater wrote down what stood in its way: ten factions to service, ten keywords in a set that can carry seven, an obligation to contain something new, a need for its own identity, a draft format to glue together, and a complexity policy to honour. He took the list to the director, who agreed and started design early — which is what the list was for. The article then works through the six in order, and the honest part is that two of them don't get solved. They get accepted, out loud.",
+      "takeaway": "The enumeration is the deliverable. Six named problems bought an early start, the director's own time, and a shared understanding of which of them were going to be answered and which were going to be survived.",
+      "lessons": [
+        {
+          "title": "Enumerate the obstacles and number them, because the count is the schedule argument",
+          "rules": "He didn't approach the set as generally hard. He wrote out six specific problems, each with a name, and took the list upstairs. The director agreed, and the consequence was concrete: design started earlier than normal and he assigned himself to the team. \"This will be difficult\" gets sympathy. Six items on a page gets resources, because a list is something someone else can check.",
+          "flavor": "Six problems, in order, before a single card existed."
+        },
+        {
+          "title": "Buy a few weeks of prototyping before signing off on a structural change",
+          "rules": "The block plan changed shape twice in the pitch stage, and he was sceptical that the revised version was buildable at all. Rather than argue, he was given a few weeks to kick the tires and find out — and came back with a qualified yes: tight, but it works. A bounded feasibility check costs a fraction of the commitment it de-risks, and its output can be an honest \"barely\" rather than a verdict.",
+          "flavor": "They later made both of the earlier sets slightly bigger anyway, to buy back the breathing room."
+        },
+        {
+          "title": "Scarce senior time goes to the item most likely to fail",
+          "rules": "The director of the department gets very little time on actual teams and carves out a small amount each year. He spent it on this set — the one everybody had already identified as the trickiest of the three. Where a senior person's involvement is rationed, allocating it by interest or by prestige wastes it. Allocate it by risk, and say that's what you're doing.",
+          "flavor": "One slot a year, and he chose the set everyone was worried about."
+        },
+        {
+          "title": "A property of the last environment gets bought by changing the earlier ones",
+          "rules": "Mixing the packs makes two-colour decks harder and three-colour decks attractive, and three colours need time to set up — so the final draft environment had to be the slowest of the three. That isn't a change you can make in the last set alone, because slow is relative. The two earlier sets were made faster specifically to produce the contrast. Some qualities of a finale are properties of the sequence and have to be paid for upstream.",
+          "flavor": "The third environment was made slow by speeding up the first two."
+        },
+        {
+          "title": "A mandatory single displaces the cycle, not itself",
+          "rules": "Ten faction champions belonged at mythic, where legendary creatures normally sit. Then a planeswalker was scheduled into the set, planeswalkers must be mythic, and there were ten mythic slots. The one card didn't move; the ten did, down a full rarity. When a fixed requirement collides with a cycle, the cycle is the flexible party — which means a single mandatory item can quietly re-price ten cards.",
+          "flavor": "One planeswalker, and every champion in the set changed rarity."
+        },
+        {
+          "title": "A keyword is a compression device, so the thing raising complexity is also saving space",
+          "rules": "Ten keywords is above the ceiling for a set this size, and the obvious fix was to keep them out of the lower rarities where they'd be seen most. That got rejected once they started building: with 14.5 cards per faction, the keywords were how you make a card unmistakably belong to its faction while staying simple. Restricting them would have bought complexity budget and spent identity. Count what an expensive component is doing before you ration it.",
+          "flavor": "Every keyword they removed would have cost two more cards to say the same thing."
+        },
+        {
+          "title": "When you have no choice but to revisit everything, make revisiting the identity",
+          "rules": "The set was so busy servicing the other two that it had nothing left to be about — which is the identity problem in its pure form. The answer was to stop treating the obligation as overhead and name it as the point: this is the release where every faction gets more. A known complaint about the previous visit was that your faction appeared once and then never again, so the constraint had an audience waiting for it.",
+          "flavor": "Someone had argued for exactly this set years earlier and lost. It came back as the only option."
+        },
+        {
+          "title": "Say yes and say it's the hardest thing you'll do — the second half is what buys the resources",
+          "rules": "Asked whether all of it was possible, he answered in character: optimistic, so assume yes. But he told the director in the same breath that this was going to be the trickiest set of the block. Both halves were needed. The optimism kept the plan; the warning bought the early start and the director's presence on the team. A yes with no flag attached gets a normal schedule.",
+          "flavor": "\"I really didn't know. I assumed it was.\" And then he said the other thing."
+        },
+        {
+          "title": "Some risks get accepted rather than solved, and the acceptance should be said out loud",
+          "rules": "On the ten-mechanics problem, after the elegant options were exhausted, the actual resolution was to bite the bullet and hope that players' experience with the two earlier sets would make ten keywords less overwhelming than ten keywords normally are. He names it as crossing his fingers. Recording which of your problems were solved and which were merely accepted is what lets anyone afterwards tell a plan from a gamble.",
+          "flavor": "\"This is definitely one of the solutions where we had to cross our fingers.\""
+        },
+        {
+          "title": "A constraint with no single answer is paid in a thousand small details",
+          "rules": "The complexity policy got no clever solution and he says so: it wasn't one decision, it was every little detail, checked. And the honest version includes the concession — cramming this much into a small set meant accepting the level would rise. The work was to make sure it rose a little rather than a lot. Not every constraint has a move. Some have only sustained attention and a target for how much you're willing to lose.",
+          "flavor": "No answer, just eleven mechanics' worth of small decisions and a limit on how much worse it was allowed to get."
+        }
+      ]
+    },
+    "es": {
+      "title": "Sublime laberinto, parte 1",
+      "dek": "Seis problemas numerados, 14,5 cartas por facción, diez palabras clave obligatorias en un hueco que normalmente aguanta siete, y un argumento de calendario construido enteramente con la lista.",
+      "overview": "Antes de empezar el diseño de El laberinto del dragón, Rosewater escribió qué se interponía: diez facciones que atender, diez palabras clave en una expansión que soporta siete, la obligación de contener algo nuevo, la necesidad de identidad propia, un formato de draft que había que pegar y una política de complejidad que respetar. Llevó la lista al director, que estuvo de acuerdo y adelantó el inicio del diseño, que es para lo que servía la lista. El artículo recorre luego los seis por orden, y la parte honesta es que dos no se resuelven: se aceptan, en voz alta.",
+      "takeaway": "La enumeración es el entregable. Seis problemas nombrados compraron un arranque temprano, el tiempo del propio director y un entendimiento compartido de cuáles iban a responderse y cuáles iban a sobrevivirse.",
+      "lessons": [
+        {
+          "title": "Enumera los obstáculos y numéralos, porque la cuenta es el argumento de calendario",
+          "rules": "No abordó la expansión como algo genéricamente difícil. Escribió seis problemas concretos, cada uno con nombre, y subió la lista. El director estuvo de acuerdo y la consecuencia fue concreta: el diseño empezó antes de lo normal y él se asignó al equipo. «Esto será difícil» genera compasión. Seis puntos en una hoja genera recursos, porque una lista es algo que otro puede comprobar.",
+          "flavor": "Seis problemas, por orden, antes de que existiera una sola carta."
+        },
+        {
+          "title": "Compra unas semanas de prototipado antes de firmar un cambio estructural",
+          "rules": "El plan del bloque cambió de forma dos veces en la fase de propuesta, y él dudaba de que la versión revisada fuera siquiera construible. En vez de discutir, le dieron unas semanas para tantearlo y averiguarlo, y volvió con un sí matizado: justo, pero funciona. Una comprobación de viabilidad acotada cuesta una fracción del compromiso que desarriesga, y su resultado puede ser un honesto «a duras penas» en vez de un veredicto.",
+          "flavor": "Después agrandaron un poco las dos expansiones anteriores igualmente, para recuperar el aire."
+        },
+        {
+          "title": "El tiempo escaso de los veteranos va al elemento con más probabilidad de fallar",
+          "rules": "El director del departamento tiene muy poco tiempo para estar en equipos y se reserva un poco cada año. Lo gastó en esta expansión, la que todo el mundo había identificado ya como la más peliaguda de las tres. Cuando la implicación de un veterano está racionada, repartirla por interés o por prestigio la desperdicia. Repártela por riesgo, y di que eso es lo que estás haciendo.",
+          "flavor": "Un hueco al año, y eligió la expansión que a todos preocupaba."
+        },
+        {
+          "title": "Una propiedad del último entorno se compra cambiando los anteriores",
+          "rules": "Mezclar los sobres hace más difíciles los mazos a dos colores y atractivos los de tres, y tres colores necesitan tiempo de montaje, así que el entorno final de draft tenía que ser el más lento de los tres. Eso no es un cambio que puedas hacer solo en la última expansión, porque «lento» es relativo. Las dos anteriores se hicieron más rápidas específicamente para producir el contraste. Algunas cualidades de un cierre son propiedades de la secuencia y hay que pagarlas río arriba.",
+          "flavor": "El tercer entorno se volvió lento acelerando los dos primeros."
+        },
+        {
+          "title": "Un elemento único obligatorio desplaza al ciclo, no a sí mismo",
+          "rules": "Los diez campeones de facción pertenecían a mítica, donde suelen ir las legendarias. Entonces se programó un planeswalker en la expansión, los planeswalkers deben ser míticos, y había diez huecos míticos. La carta única no se movió; se movieron las diez, una rareza entera hacia abajo. Cuando un requisito fijo choca con un ciclo, el ciclo es la parte flexible, lo que significa que un solo elemento obligatorio puede recotizar diez cartas en silencio.",
+          "flavor": "Un planeswalker, y todos los campeones de la expansión cambiaron de rareza."
+        },
+        {
+          "title": "Una palabra clave es un dispositivo de compresión: lo que sube la complejidad también ahorra espacio",
+          "rules": "Diez palabras clave está por encima del techo para una expansión de este tamaño, y el arreglo obvio era mantenerlas fuera de las rarezas bajas, donde más se ven. Se descartó al empezar a construir: con 14,5 cartas por facción, las palabras clave eran cómo haces que una carta pertenezca inconfundiblemente a su facción sin dejar de ser simple. Restringirlas habría comprado presupuesto de complejidad y gastado identidad. Cuenta qué está haciendo un componente caro antes de racionarlo.",
+          "flavor": "Cada palabra clave que quitaran habría costado dos cartas más para decir lo mismo."
+        },
+        {
+          "title": "Cuando no te queda más remedio que revisitarlo todo, haz que revisitar sea la identidad",
+          "rules": "La expansión estaba tan ocupada dando servicio a las otras dos que no le quedaba nada de qué tratar, que es el problema de identidad en estado puro. La respuesta fue dejar de tratar la obligación como sobrecoste y nombrarla como el objetivo: este es el lanzamiento donde cada facción recibe más. Una queja conocida de la visita anterior era que tu facción aparecía una vez y nunca más, así que la restricción tenía un público esperándola.",
+          "flavor": "Alguien había defendido exactamente esta expansión años antes y había perdido. Volvió como la única opción."
+        },
+        {
+          "title": "Di que sí y di que será lo más difícil que harás: la segunda mitad es la que compra recursos",
+          "rules": "Preguntado si todo aquello era posible, respondió como es él: optimista, así que asume que sí. Pero le dijo al director en la misma frase que esta iba a ser la expansión más peliaguda del bloque. Hacían falta las dos mitades. El optimismo conservó el plan; la advertencia compró el arranque temprano y la presencia del director en el equipo. Un sí sin aviso adjunto recibe un calendario normal.",
+          "flavor": "«Realmente no lo sabía. Asumí que sí.» Y entonces dijo la otra cosa."
+        },
+        {
+          "title": "Algunos riesgos se aceptan en vez de resolverse, y la aceptación debe decirse en voz alta",
+          "rules": "En el problema de las diez mecánicas, agotadas las opciones elegantes, la resolución real fue apechugar y esperar que la experiencia de los jugadores con las dos expansiones previas hiciera que diez palabras clave abrumaran menos de lo que suelen. Lo llama cruzar los dedos. Registrar cuáles de tus problemas se resolvieron y cuáles solo se aceptaron es lo que permite a cualquiera después distinguir un plan de una apuesta.",
+          "flavor": "«Esta es sin duda una de las soluciones en las que tuvimos que cruzar los dedos.»"
+        },
+        {
+          "title": "Una restricción sin respuesta única se paga en mil pequeños detalles",
+          "rules": "La política de complejidad no tuvo solución ingeniosa y él lo dice: no fue una decisión, fueron todos los pequeños detalles, comprobados. Y la versión honesta incluye la concesión: meter tanto en una expansión pequeña significaba aceptar que el nivel subiría. El trabajo era asegurarse de que subiera poco y no mucho. No toda restricción tiene una jugada. Algunas solo tienen atención sostenida y un objetivo de cuánto estás dispuesto a perder.",
+          "flavor": "Sin respuesta: solo once mecánicas de pequeñas decisiones y un límite a cuánto podía empeorar."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Labyrinthe et grâce, partie 1",
+      "dek": "Six problèmes numérotés, 14,5 cartes par faction, dix mots-clés obligatoires dans un format qui en porte sept, et un argument de calendrier bâti entièrement sur la liste.",
+      "overview": "Avant le début de la conception du Labyrinthe du dragon, Rosewater a écrit ce qui lui barrait la route : dix factions à servir, dix mots-clés dans une extension qui en supporte sept, l'obligation de contenir du nouveau, le besoin d'une identité propre, un format de draft à souder, une politique de complexité à respecter. Il a porté la liste au directeur, qui a acquiescé et avancé le début de la conception — c'était le but de la liste. L'article traite ensuite les six dans l'ordre, et la partie honnête est que deux d'entre eux ne sont pas résolus : ils sont acceptés, à voix haute.",
+      "takeaway": "L'énumération est le livrable. Six problèmes nommés ont acheté un démarrage anticipé, le temps propre du directeur, et une compréhension partagée de ceux qui allaient recevoir une réponse et de ceux qu'il faudrait subir.",
+      "lessons": [
+        {
+          "title": "Énumérez les obstacles et numérotez-les, car le décompte est l'argument de calendrier",
+          "rules": "Il n'a pas abordé l'extension comme globalement difficile. Il a écrit six problèmes précis, chacun nommé, et a monté la liste. Le directeur a acquiescé, et la conséquence fut concrète : la conception a démarré plus tôt que d'ordinaire et il s'est affecté à l'équipe. « Ce sera dur » suscite de la compassion. Six points sur une page obtient des moyens, car une liste est vérifiable par quelqu'un d'autre.",
+          "flavor": "Six problèmes, dans l'ordre, avant qu'une seule carte existe."
+        },
+        {
+          "title": "Achetez quelques semaines de prototypage avant de valider un changement structurel",
+          "rules": "Le plan du bloc a changé de forme deux fois au stade de la proposition, et il doutait que la version révisée soit même réalisable. Plutôt que d'argumenter, on lui a donné quelques semaines pour tâter le terrain et vérifier — et il est revenu avec un oui nuancé : juste, mais ça tient. Une vérification de faisabilité bornée coûte une fraction de l'engagement qu'elle dérisque, et son résultat peut être un honnête « tout juste » plutôt qu'un verdict.",
+          "flavor": "Ils ont ensuite un peu agrandi les deux extensions antérieures, pour racheter de l'air."
+        },
+        {
+          "title": "Le temps rare des seniors va à l'élément le plus susceptible d'échouer",
+          "rules": "Le directeur du département a très peu de temps à passer en équipe et s'en réserve un peu chaque année. Il l'a dépensé sur cette extension — celle que tout le monde avait déjà désignée comme la plus délicate des trois. Quand l'implication d'un senior est rationnée, la répartir par intérêt ou par prestige la gaspille. Répartissez-la par risque, et dites que c'est ce que vous faites.",
+          "flavor": "Un créneau par an, et il a choisi l'extension qui inquiétait tout le monde."
+        },
+        {
+          "title": "Une propriété du dernier environnement s'achète en modifiant les précédents",
+          "rules": "Mélanger les boosters rend les decks bicolores plus durs et les tricolores attirants, et trois couleurs demandent du temps de mise en place : l'environnement de draft final devait donc être le plus lent des trois. Ce n'est pas un changement réalisable dans la seule dernière extension, car « lent » est relatif. Les deux précédentes ont été accélérées exprès pour produire le contraste. Certaines qualités d'une finale sont des propriétés de la séquence et se paient en amont.",
+          "flavor": "Le troisième environnement a été rendu lent en accélérant les deux premiers."
+        },
+        {
+          "title": "Un élément unique obligatoire déplace le cycle, pas lui-même",
+          "rules": "Les dix champions de faction avaient leur place en mythique, où logent d'ordinaire les légendaires. Puis un arpenteur a été programmé dans l'extension, les arpenteurs doivent être mythiques, et il y avait dix emplacements mythiques. La carte unique n'a pas bougé ; les dix, si, d'une rareté entière. Quand une exigence fixe percute un cycle, le cycle est la partie souple — donc un seul élément obligatoire peut discrètement retarifer dix cartes.",
+          "flavor": "Un arpenteur, et tous les champions de l'extension ont changé de rareté."
+        },
+        {
+          "title": "Un mot-clé est un dispositif de compression : ce qui augmente la complexité économise aussi de la place",
+          "rules": "Dix mots-clés dépasse le plafond pour une extension de cette taille, et le remède évident était de les tenir hors des raretés basses, où on les voit le plus. Cela a été écarté dès la construction : avec 14,5 cartes par faction, les mots-clés étaient le moyen de rendre une carte indubitablement propre à sa faction tout en restant simple. Les restreindre aurait acheté du budget de complexité et dépensé de l'identité. Comptez ce que fait un composant coûteux avant de le rationner.",
+          "flavor": "Chaque mot-clé retiré aurait coûté deux cartes de plus pour dire la même chose."
+        },
+        {
+          "title": "Quand vous n'avez d'autre choix que tout revisiter, faites de la revisite l'identité",
+          "rules": "L'extension était si occupée à servir les deux autres qu'il ne lui restait rien à être — c'est le problème d'identité à l'état pur. La réponse fut de cesser de traiter l'obligation comme un surcoût et de la nommer comme le propos : voici la sortie où chaque faction reçoit plus. Un reproche connu de la visite précédente était que votre faction apparaissait une fois puis jamais plus : la contrainte avait donc un public qui l'attendait.",
+          "flavor": "Quelqu'un avait plaidé exactement pour cette extension des années plus tôt et perdu. Elle est revenue comme seule option."
+        },
+        {
+          "title": "Dites oui et dites que ce sera le plus dur : c'est la seconde moitié qui achète les moyens",
+          "rules": "Interrogé sur la faisabilité de tout cela, il a répondu conformément à son tempérament : optimiste, donc supposons que oui. Mais il a dit au directeur dans la même phrase que ce serait l'extension la plus délicate du bloc. Les deux moitiés étaient nécessaires. L'optimisme a sauvé le plan ; l'avertissement a acheté le démarrage anticipé et la présence du directeur dans l'équipe. Un oui sans signalement obtient un calendrier normal.",
+          "flavor": "« Je n'en savais rien. J'ai supposé que oui. » Et puis il a dit l'autre chose."
+        },
+        {
+          "title": "Certains risques sont acceptés plutôt que résolus, et l'acceptation doit être dite à voix haute",
+          "rules": "Sur le problème des dix mécaniques, les options élégantes épuisées, la vraie résolution fut de serrer les dents et d'espérer que l'expérience des joueurs avec les deux extensions précédentes rendrait dix mots-clés moins écrasants qu'ils ne le sont d'ordinaire. Il appelle cela croiser les doigts. Consigner lesquels de vos problèmes ont été résolus et lesquels seulement acceptés est ce qui permet ensuite de distinguer un plan d'un pari.",
+          "flavor": "« C'est clairement une des solutions où il a fallu croiser les doigts. »"
+        },
+        {
+          "title": "Une contrainte sans réponse unique se paie en mille petits détails",
+          "rules": "La politique de complexité n'a reçu aucune solution astucieuse, et il le dit : ce ne fut pas une décision, ce fut chaque petit détail, vérifié. Et la version honnête inclut la concession : tasser autant dans une petite extension signifiait accepter que le niveau monte. Le travail consistait à s'assurer qu'il monte un peu et non beaucoup. Toute contrainte n'a pas de coup à jouer. Certaines n'ont qu'une attention soutenue et une cible de ce qu'on accepte de perdre.",
+          "flavor": "Pas de réponse : seulement onze mécaniques de petites décisions et une limite à l'aggravation permise."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Sublime labirinto, parte 1",
+      "dek": "Seis problemas numerados, 14,5 cartas por facção, dez palavras-chave obrigatórias num espaço que normalmente comporta sete, e um argumento de cronograma construído inteiramente a partir da lista.",
+      "overview": "Antes de o design de Labirinto do Dragão começar, Rosewater escreveu o que estava no caminho: dez facções a atender, dez palavras-chave numa coleção que aguenta sete, a obrigação de conter algo novo, a necessidade de identidade própria, um formato de draft a colar e uma política de complexidade a respeitar. Levou a lista ao diretor, que concordou e antecipou o início do design — que era para isso que a lista servia. O artigo então percorre os seis em ordem, e a parte honesta é que dois deles não são resolvidos: são aceitos, em voz alta.",
+      "takeaway": "A enumeração é a entrega. Seis problemas nomeados compraram um começo antecipado, o tempo do próprio diretor e um entendimento compartilhado de quais seriam respondidos e quais seriam apenas sobrevividos.",
+      "lessons": [
+        {
+          "title": "Enumere os obstáculos e numere-os, porque a contagem é o argumento de cronograma",
+          "rules": "Ele não abordou a coleção como genericamente difícil. Escreveu seis problemas específicos, cada um com nome, e levou a lista para cima. O diretor concordou, e a consequência foi concreta: o design começou mais cedo que o normal e ele se alocou na equipe. «Isso vai ser difícil» rende simpatia. Seis itens numa página rende recursos, porque uma lista é algo que outra pessoa pode conferir.",
+          "flavor": "Seis problemas, em ordem, antes de existir uma única carta."
+        },
+        {
+          "title": "Compre algumas semanas de prototipagem antes de assinar uma mudança estrutural",
+          "rules": "O plano do bloco mudou de forma duas vezes na fase de proposta, e ele duvidava que a versão revisada fosse sequer construível. Em vez de discutir, deram-lhe algumas semanas para testar e descobrir — e ele voltou com um sim qualificado: apertado, mas dá. Uma verificação de viabilidade delimitada custa uma fração do compromisso que ela desarrisca, e o resultado dela pode ser um honesto «por pouco» em vez de um veredicto.",
+          "flavor": "Depois eles aumentaram um pouco as duas coleções anteriores mesmo assim, para recomprar fôlego."
+        },
+        {
+          "title": "Tempo escasso de gente sênior vai para o item com mais chance de falhar",
+          "rules": "O diretor do departamento tem pouquíssimo tempo em equipes e reserva um pouco por ano. Gastou nesta coleção — a que todo mundo já tinha identificado como a mais espinhosa das três. Quando o envolvimento de um sênior é racionado, distribuí-lo por interesse ou por prestígio o desperdiça. Distribua por risco, e diga que é isso que você está fazendo.",
+          "flavor": "Uma vaga por ano, e ele escolheu a coleção que preocupava todo mundo."
+        },
+        {
+          "title": "Uma propriedade do último ambiente se compra mudando os anteriores",
+          "rules": "Misturar os boosters torna baralhos de duas cores mais difíceis e os de três atraentes, e três cores precisam de tempo de montagem — então o ambiente final de draft tinha de ser o mais lento dos três. Isso não é uma mudança que dê para fazer só na última coleção, porque «lento» é relativo. As duas anteriores foram deixadas mais rápidas especificamente para produzir o contraste. Algumas qualidades de um encerramento são propriedades da sequência e precisam ser pagas rio acima.",
+          "flavor": "O terceiro ambiente ficou lento porque aceleraram os dois primeiros."
+        },
+        {
+          "title": "Um item único obrigatório desloca o ciclo, não a si mesmo",
+          "rules": "Os dez campeões de facção pertenciam ao mítico, onde lendárias costumam ficar. Aí um planeswalker foi programado para a coleção, planeswalkers têm de ser míticos, e havia dez vagas míticas. A carta única não se moveu; as dez se moveram, uma raridade inteira para baixo. Quando uma exigência fixa colide com um ciclo, o ciclo é a parte flexível — o que significa que um único item obrigatório pode reprecificar dez cartas em silêncio.",
+          "flavor": "Um planeswalker, e todo campeão da coleção mudou de raridade."
+        },
+        {
+          "title": "Uma palavra-chave é um dispositivo de compressão: o que eleva a complexidade também economiza espaço",
+          "rules": "Dez palavras-chave está acima do teto para uma coleção deste tamanho, e o conserto óbvio era mantê-las fora das raridades baixas, onde mais aparecem. Isso foi descartado quando começaram a montar: com 14,5 cartas por facção, as palavras-chave eram como se faz uma carta pertencer inconfundivelmente à sua facção continuando simples. Restringi-las teria comprado orçamento de complexidade e gasto identidade. Conte o que um componente caro está fazendo antes de racioná-lo.",
+          "flavor": "Cada palavra-chave removida teria custado mais duas cartas para dizer a mesma coisa."
+        },
+        {
+          "title": "Quando não há escolha senão revisitar tudo, faça do revisitar a identidade",
+          "rules": "A coleção estava tão ocupada atendendo as outras duas que não sobrava nada para ela ser — que é o problema de identidade em estado puro. A resposta foi parar de tratar a obrigação como custo e nomeá-la como o ponto: este é o lançamento em que cada facção ganha mais. Uma reclamação conhecida da visita anterior era que sua facção aparecia uma vez e nunca mais, então a restrição tinha um público esperando por ela.",
+          "flavor": "Alguém tinha defendido exatamente esta coleção anos antes e perdido. Ela voltou como a única opção."
+        },
+        {
+          "title": "Diga sim e diga que será a coisa mais difícil que fará: é a segunda metade que compra recursos",
+          "rules": "Perguntado se tudo aquilo era possível, respondeu conforme seu temperamento: otimista, então suponha que sim. Mas disse ao diretor na mesma frase que esta seria a coleção mais espinhosa do bloco. As duas metades eram necessárias. O otimismo salvou o plano; o aviso comprou o começo antecipado e a presença do diretor na equipe. Um sim sem sinalização recebe um cronograma normal.",
+          "flavor": "«Eu realmente não sabia. Supus que sim.» E então disse a outra coisa."
+        },
+        {
+          "title": "Alguns riscos são aceitos em vez de resolvidos, e a aceitação deve ser dita em voz alta",
+          "rules": "No problema das dez mecânicas, esgotadas as opções elegantes, a resolução de fato foi engolir e torcer para que a experiência dos jogadores com as duas coleções anteriores fizesse dez palavras-chave assoberbarem menos do que costumam. Ele chama isso de cruzar os dedos. Registrar quais dos seus problemas foram resolvidos e quais foram apenas aceitos é o que permite a quem vier depois distinguir um plano de uma aposta.",
+          "flavor": "«Esta é sem dúvida uma das soluções em que tivemos de cruzar os dedos.»"
+        },
+        {
+          "title": "Uma restrição sem resposta única é paga em mil detalhes pequenos",
+          "rules": "A política de complexidade não teve solução engenhosa e ele diz isso: não foi uma decisão, foram todos os detalhes pequenos, conferidos. E a versão honesta inclui a concessão: enfiar tanta coisa numa coleção pequena significava aceitar que o nível subiria. O trabalho era garantir que subisse pouco e não muito. Nem toda restrição tem uma jogada. Algumas têm só atenção sustentada e uma meta de quanto você aceita perder.",
+          "flavor": "Sem resposta: só onze mecânicas de decisões pequenas e um limite para o quanto podia piorar."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "迷宫奇缘（上）",
+      "dek": "六个编了号的问题、每个阵营14.5张牌、十个必须出现的关键字塞进一个通常只装得下七个的位置，以及一份完全由这份清单撑起来的排期论证。",
+      "overview": "在《龙王迷宫》的设计开始之前，罗斯瓦特先把挡在前面的东西写了下来：十个要照顾的阵营；一个只承载得了七个关键字的系列里要塞十个；必须含有新东西的义务；必须有自己身份的需求；一个要靠它粘合起来的轮抽格局；以及一条要遵守的复杂度政策。他把清单拿给总监，总监同意了，并把设计提前启动——这正是这份清单的用处。文章随后按顺序处理这六项，而诚实之处在于：其中两项并没有被解决，它们是被公开地接受下来的。",
+      "takeaway": "这份枚举本身就是交付物。六个具名的问题换来了提前开工、总监本人的时间，以及一份共识：哪些会被回答，哪些只能被熬过去。",
+      "lessons": [
+        {
+          "title": "把障碍逐条列出并编号，因为「数量」就是那份排期论证",
+          "rules": "他没有把这个系列当作笼统的「很难」来处理。他写下六个具体的问题，每一个都有名字，然后把清单拿了上去。总监同意了，后果非常具体：设计比平时提前开始，而他把自己也编进了团队。「这会很难」换来的是同情。一页纸上的六条换来的是资源，因为清单是别人可以核查的东西。",
+          "flavor": "六个问题，按顺序排好，那时还没有任何一张牌存在。"
+        },
+        {
+          "title": "在为结构性改动签字之前，先买下几周的原型验证",
+          "rules": "环境计划在提案阶段两度改变形状，而他怀疑修订后的版本根本造不出来。他没有去争论，而是被给了几周时间去实地摸底——回来时给出的是一个带保留的「行」：很紧，但立得住。一次有边界的可行性检验，所花的只是它所降险的那份承诺的一个零头，而它的产出可以是一句诚实的「勉强」，而不是一纸裁决。",
+          "flavor": "后来他们还是把前两个系列各自稍微做大了一点，把喘息空间买回来。"
+        },
+        {
+          "title": "稀缺的资深时间，要投给最可能失败的那一项",
+          "rules": "部门总监能待在实际团队里的时间非常少，每年只挤出一点。他把这点时间花在了这个系列上——那个所有人早已认定是三者中最棘手的一个。当一位资深者的参与是配给制的，按兴趣或按声望去分配就是浪费。按风险分配，并且把「我就是这么分配的」说出来。",
+          "flavor": "一年一个名额，而他选了那个让所有人担心的系列。"
+        },
+        {
+          "title": "最后一个环境的某项性质，要靠修改前面的环境来买",
+          "rules": "把补充包混起来，会让双色牌组更难成型、三色牌组更有吸引力；而三色需要时间铺垫，所以最终的轮抽环境必须是三者中最慢的。这不是能在最后一个系列里单独完成的改动，因为「慢」是相对的。前两个系列被特意做得更快，就是为了造出这个反差。收尾之作的某些品质，其实是整个序列的性质，必须在上游付账。",
+          "flavor": "第三个环境之所以变慢，是靠把前两个加速做到的。"
+        },
+        {
+          "title": "一件强制的单品，挪动的是那一整个循环，而不是它自己",
+          "rules": "十位阵营勇士本该放在秘稀有，传奇生物通常在那儿。然后一位鹏洛客被排进了这个系列，而鹏洛客必须是秘稀有，秘稀有一共只有十个位置。那张单卡没有动，动的是那十张，整整降了一级稀有度。当一项固定要求撞上一个循环时，循环才是有弹性的那一方——也就是说，一件强制单品可以悄无声息地把十张牌重新定价。",
+          "flavor": "一位鹏洛客，然后系列里每一位勇士都换了稀有度。"
+        },
+        {
+          "title": "关键字是一种压缩装置：抬高复杂度的那样东西，同时也在省空间",
+          "rules": "十个关键字超出了这个体量的系列所能承受的上限，而显而易见的修法是把它们挡在低稀有度之外——那里正是它们最常被看见的地方。可一旦开始拼装，这条就被否掉了：每个阵营只有14.5张牌，而关键字正是「让一张牌毫无疑问地属于它的阵营、同时又保持简单」的手段。限制它们，等于买来了复杂度预算、花掉了身份。在给一个昂贵部件配给之前，先数清它到底在做几件事。",
+          "flavor": "每砍掉一个关键字，都要多花两张牌才能把同样的话说清楚。"
+        },
+        {
+          "title": "当你除了「重访一切」别无选择时，就让重访成为身份",
+          "rules": "这个系列忙于服务另外两个，忙到自己没剩下什么可讲——这就是身份问题最纯粹的形态。答案是不再把这项义务当成额外开销，而是把它指认为要点本身：这是每个阵营都能再拿到东西的那一次发售。上一次造访时一个众所周知的抱怨，正是你的阵营出现一次之后就再也没有下文，所以这条约束其实有一批观众在等着它。",
+          "flavor": "多年前曾有人力主做的正是这样一个系列，当时输了。如今它作为唯一选项回来了。"
+        },
+        {
+          "title": "答应下来，同时说这将是你做过最难的事——真正换来资源的是后半句",
+          "rules": "被问到这一切是否可能时，他的回答符合他的性格：我天性乐观，所以假定可以。但他在同一口气里告诉总监，这将是这个环境里最棘手的一个系列。两半都不可少。乐观保住了这个计划；警示则换来了提前开工和总监亲自加入团队。一句不带风险标注的「可以」，换来的是一个正常排期。",
+          "flavor": "「我其实并不知道。我只是假定可以。」然后他说了另外那句话。"
+        },
+        {
+          "title": "有些风险是被接受而不是被解决的，而这份接受应当说出口",
+          "rules": "在十个机制这个问题上，优雅的选项用尽之后，真正的处置是咬牙硬上，并寄望于玩家在前两个系列里积累的经验，能让十个关键字不像通常那样压人。他把这称为「交叉手指祈祷」。把「哪些问题被解决了、哪些只是被接受了」记录下来，正是让后来者能分清「计划」与「赌博」的东西。",
+          "flavor": "「这肯定属于那种我们只能交叉手指祈祷的解法。」"
+        },
+        {
+          "title": "没有单一答案的约束，是用一千个小细节来偿付的",
+          "rules": "复杂度政策没有得到什么巧妙的解法，他也照直说了：那不是一个决定，而是每一个小细节都被逐一核过。而诚实的版本还包括那句让步：往一个小系列里塞进这么多东西，就意味着接受复杂度会上升。要做的是确保它只升一点，而不是升很多。不是每条约束都有招可出。有些只有持续的注意力，外加一个「你愿意输掉多少」的目标值。",
+          "flavor": "没有答案，只有十一个机制份量的小决定，和一条「最多能糟到什么程度」的界线。"
+        }
+      ]
+    }
+  }
+}
