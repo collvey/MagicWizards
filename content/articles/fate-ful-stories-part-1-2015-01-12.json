@@ -1,0 +1,320 @@
+{
+  "id": "fate-ful-stories-part-1-2015-01-12",
+  "slug": "fate-ful-stories-part-1-2015-01-12",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-01-12",
+  "series": { "id": "fate-ful-stories", "order": 1, "total": 2 },
+  "tags": ["fate-reforged", "card-by-card", "hybrid", "manifest", "cycles"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/fate-ful-stories-part-1-2015-01-12",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T18:15:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Fate-ful Stories, Part 1",
+      "dek": "They didn't have to make a three-colour card. They had to make a card with three colours represented on it.",
+      "overview": "Card-by-card through Fate Reforged, A to J: the hybrid trick that made monocolour legends work in Commander, and a set built around a choice.",
+      "takeaway": "\"For the first time ever, the structure was built around the second set.\"",
+      "lessons": [
+        {
+          "title": "A role that's usually the easy one becomes the hardest when the structure changes",
+          "rules": "Every position in a sequence carries an inherited reputation for how demanding it is, and people plan and staff against that reputation. When you rearrange the structure, those reputations don't update. Check which slot now bears the most constraints, because it may be the one everyone has learned to treat as routine.",
+          "flavor": "“Normally, the second set in a three-set block is the easiest to design. It wants to stay close to the first set, tweaking a few things but leaving room for the third set to make a larger shift. Fate Reforged, though, was hardly the easy set in this block. In fact, for the first time ever, the structure was built around the second set.”"
+        },
+        {
+          "title": "Read the exact wording — the requirement is often a marker, not the substance",
+          "rules": "Before assuming a rule forces you into an expensive construction, read what it literally checks for. Frequently it counts a token or a symbol rather than the property you assumed it was about. Satisfying the marker directly is legitimate, far cheaper, and usually opens designs the substantial version couldn't support.",
+          "flavor": "“Color identity is defined by both colored mana in the card's mana cost and in its rules text… a hybrid mana symbol is considered to be a mana symbol of each color. What all this meant was that we didn't have to make a three-color card. We merely had to make a card that had three colors represented on it.” So: monocolour bodies with a hybrid-cost ability."
+        },
+        {
+          "title": "When two categories overlap on an ability but one is restricted, the restricted version is the shared one",
+          "rules": "Two things can both be able to do something and not be able to do it equally. The overlap isn't the ability in general — it's whatever the weaker one is permitted. Grant that narrower version and you have something both can honestly claim, which is exactly what a joint object needs.",
+          "flavor": "“One of the areas of overlap between white and black is reanimation. Both colors can take creature cards from the graveyard and put them onto the battlefield. The problem is that white is more limited, as it can only do so with smaller creatures. (Black is the best at reanimation.) The key was to take the overlap, which is white's ability, and grant that.”"
+        },
+        {
+          "title": "A cycle needs only enough shared surface to be recognised as one",
+          "rules": "Once a set of things has one clear property in common, that's usually sufficient for the audience to read it as a group. Insisting on further alignment — matching costs, matching sizes, matching shapes — buys no additional legibility and costs you the freedom to make each member good. Pick the minimum and spend the rest.",
+          "flavor": "“Other than being in an ally color pair (with only one colored mana from each color) and epitomizing the appropriate clan attribute, each Dragon was free to do whatever it wanted. The mana didn't have to line up. The power/toughness didn't have to line up. Being a cycle of ally-colored Dragons was enough to make them feel connected.”"
+        },
+        {
+          "title": "Express the story's central situation as a recurring decision shape",
+          "rules": "A work about a particular predicament can depict that predicament, or it can put the audience in it repeatedly at every scale. The second is stronger, and it's structural rather than narrative: find the decision that has the same shape as the story's premise, and make it a form you use over and over.",
+          "flavor": "“The entire set sits on the crossroads of time and is the forked path that leads to two different timelines… To capture this feel, we wanted the set to give you, the player, a lot of decisions where you had a similar feel, where you were at your own crossroads.” From a rare cycle choosing between “Khans” and “Dragons” down to a common cycle choosing a counter or a spell effect."
+        },
+        {
+          "title": "Invert the direction of an effect the category already owns",
+          "rules": "Something you're only marginally allowed to do can become clearly permissible by reversing who pays. Take an effect your category is known for taking from others, and have it take from itself instead. The mechanism is the same one everyone recognises; the direction is new; and the result still reads as belonging.",
+          "flavor": "“Black tended to get +1/+1 counters, but usually at other creatures' expenses. Hmm, what if we turned that idea on its ear? What if black used the ability a little backwards? What if the +1/+1 counter generation was at the expense of the creature it was on? Rather than have Daghatar be a 4/4, it could be a 0/0 with four +1/+1 counters.”"
+        },
+        {
+          "title": "To make a binary choice real, price both options at parity against a common unit",
+          "rules": "A choice where one branch is usually right isn't a choice; it's a formality with an extra step. Fix a common unit of value and tune both branches to it. Then the answer genuinely depends on the situation, which is the only condition under which the decision is worth asking for.",
+          "flavor": "“The tricky part of the design is we wanted to make a choice where one answer wasn't clearly always correct. The key was finding an effect that was equivalent to your creature permanently being +1/+1.” The counter “would play out more over time while the spell effect was something you would get right away.”"
+        },
+        {
+          "title": "When the rule forbids the value, produce it by composition — and expect side benefits",
+          "rules": "If your system can't express the number you want directly, look for two things it can express that add up to it. The composed version isn't a workaround with a cost; it usually inherits interactions the direct version wouldn't have had, because the parts are things the rest of your work already knows how to touch.",
+          "flavor": "“The rules have to define a face-down card as a singular thing… Knowing that players have been asking for non-2/2 face-down cards, we made this card. This card makes a face-down 3/3. Okay, it has to use a +1/+1 counter to achieve this but you work with the tools you have… If you are able to turn a manifest creature made by this card face up, it retains the +1/+1 counter.”"
+        },
+        {
+          "title": "Assign a deliberately over-broad exploration — one artefact will move a constraint you thought was fixed",
+          "rules": "Send people to design past a limit you've assumed, not because you intend to lift it, but to see what turns up. Most of what comes back will be unusable. One item usually won't be, and it will demonstrate that the limit was a habit rather than a requirement — which you couldn't have argued into existence.",
+          "flavor": "“When manifest was first designed, it only put cards from the top of your library onto the battlefield. At one of our exploratory design meetings, I asked the team to broaden the mechanic. ‘See what happens if you can put cards onto the battlefield face-down from other zones.' One of the cards generated was an early version of this card and it was what convinced me that manifest didn't have to always be from the top of the library.”"
+        },
+        {
+          "title": "Hand over a structure with named slots and no content",
+          "rules": "The most useful thing to give another discipline isn't a brief describing what you want, and it isn't a blank page. It's a skeleton: the positions, what each one has to accomplish, and how they connect — with every actual choice left open. They fill it with things you would never have specified, and it still holds together.",
+          "flavor": "“The first set would be a troubled world visited by our hero… The second set would be the past world, where both timelines still existed as possibilities… What the troubled world was, why it was troubled, who the hero was, what needed to get changed, what happened when the change occurred—all that was left up to the creative team. We had created a structure to design around, but the details were left to the experts.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Historias del destino, parte 1",
+      "dek": "No hacía falta hacer una carta de tres colores. Hacía falta hacer una carta con tres colores representados en ella.",
+      "overview": "Carta a carta por Fate Reforged, de la A a la J: el truco híbrido que hizo funcionar leyendas monocolor en Commander, y un set construido en torno a una elección.",
+      "takeaway": "«Por primera vez en la historia, la estructura se construyó en torno al segundo set.»",
+      "lessons": [
+        {
+          "title": "Un puesto que suele ser el fácil pasa a ser el más difícil cuando cambia la estructura",
+          "rules": "Cada posición de una secuencia carga con una reputación heredada sobre lo exigente que es, y la gente planifica y asigna personal según esa reputación. Cuando reorganizas la estructura, esas reputaciones no se actualizan. Comprueba qué hueco soporta ahora más restricciones, porque puede ser el que todos han aprendido a tratar como rutina.",
+          "flavor": "«Normalmente, el segundo set de un bloque de tres es el más fácil de diseñar. Quiere mantenerse cerca del primero, ajustar unas pocas cosas y dejar sitio para que el tercero dé un giro mayor. Fate Reforged, sin embargo, no fue precisamente el set fácil de este bloque. De hecho, por primera vez en la historia, la estructura se construyó en torno al segundo set.»"
+        },
+        {
+          "title": "Lee la redacción exacta: el requisito suele ser un marcador, no la sustancia",
+          "rules": "Antes de dar por hecho que una regla te obliga a una construcción cara, lee qué comprueba literalmente. Con frecuencia cuenta un símbolo o una marca, no la propiedad que suponías. Satisfacer el marcador directamente es legítimo, mucho más barato, y suele abrir diseños que la versión sustantiva no podría sostener.",
+          "flavor": "«La identidad de color se define tanto por el maná coloreado del coste como por el del texto de reglas… y un símbolo de maná híbrido se considera un símbolo de maná de cada color. Todo esto significaba que no teníamos que hacer una carta de tres colores. Solo teníamos que hacer una carta con tres colores representados en ella.»"
+        },
+        {
+          "title": "Cuando dos categorías se solapan en una habilidad pero una está restringida, la versión restringida es la compartida",
+          "rules": "Dos cosas pueden poder hacer algo y no poder hacerlo por igual. El solapamiento no es la habilidad en general: es aquello que le está permitido a la más débil. Concede esa versión más estrecha y tendrás algo que ambas pueden reclamar con honestidad, que es exactamente lo que un objeto conjunto necesita.",
+          "flavor": "«Una de las áreas de solapamiento entre blanco y negro es la reanimación. Ambos colores pueden tomar cartas de criatura del cementerio y ponerlas en el campo. El problema es que el blanco está más limitado, pues solo puede hacerlo con criaturas pequeñas. (El negro es el mejor reanimando.) La clave fue tomar el solapamiento, que es la habilidad del blanco, y conceder eso.»"
+        },
+        {
+          "title": "Un ciclo solo necesita superficie compartida suficiente para ser reconocido como tal",
+          "rules": "Una vez que un conjunto de cosas tiene una propiedad clara en común, suele bastar para que el público lo lea como grupo. Insistir en más alineación —costes iguales, tamaños iguales, formas iguales— no compra legibilidad adicional y te cuesta la libertad de hacer bueno a cada miembro. Elige el mínimo y gasta el resto.",
+          "flavor": "«Aparte de estar en una pareja de colores aliados (con un solo maná coloreado de cada color) y de encarnar el atributo de clan apropiado, cada dragón era libre de hacer lo que quisiera. El maná no tenía que cuadrar. La fuerza y resistencia no tenían que cuadrar. Ser un ciclo de dragones de colores aliados bastaba para que se sintieran conectados.»"
+        },
+        {
+          "title": "Expresa la situación central de la historia como una forma de decisión recurrente",
+          "rules": "Una obra sobre un dilema concreto puede representar ese dilema, o puede poner al público dentro de él una y otra vez, a todas las escalas. Lo segundo es más potente y es estructural, no narrativo: halla la decisión que tiene la misma forma que la premisa de la historia y conviértela en una plantilla que uses sin parar.",
+          "flavor": "«Todo el set se sitúa en la encrucijada del tiempo y es el camino bifurcado que lleva a dos líneas temporales distintas… Para captar esa sensación, queríamos que el set te diera a ti, jugador, muchas decisiones con una sensación parecida, donde tú estuvieras en tu propia encrucijada.»"
+        },
+        {
+          "title": "Invierte la dirección de un efecto que la categoría ya posee",
+          "rules": "Algo que solo te está permitido a duras penas puede volverse claramente admisible invirtiendo quién paga. Toma un efecto por el que tu categoría es conocida por quitárselo a otros y haz que se lo quite a sí misma. El mecanismo es el mismo que todos reconocen, la dirección es nueva, y el resultado sigue leyéndose como propio.",
+          "flavor": "«El negro solía obtener contadores +1/+1, pero normalmente a costa de otras criaturas. Hmm, ¿y si le damos la vuelta a esa idea? ¿Y si el negro usara la habilidad un poco al revés? ¿Y si la generación de contadores +1/+1 fuera a costa de la criatura que los lleva? En vez de que Daghatar fuera un 4/4, podía ser un 0/0 con cuatro contadores +1/+1.»"
+        },
+        {
+          "title": "Para que una elección binaria sea real, tarifica ambas opciones a la par contra una unidad común",
+          "rules": "Una elección en la que una rama casi siempre es la correcta no es una elección: es un trámite con un paso extra. Fija una unidad común de valor y ajusta ambas ramas a ella. Entonces la respuesta depende de verdad de la situación, que es la única condición bajo la cual merece la pena pedir la decisión.",
+          "flavor": "«La parte peliaguda del diseño es que queríamos hacer una elección donde una respuesta no fuera claramente siempre la correcta. La clave fue hallar un efecto equivalente a que tu criatura fuera permanentemente +1/+1.» El contador «se desplegaría más con el tiempo, mientras que el efecto de conjuro era algo que obtenías de inmediato»."
+        },
+        {
+          "title": "Cuando la regla prohíbe el valor, prodúcelo por composición, y espera beneficios secundarios",
+          "rules": "Si tu sistema no puede expresar directamente el número que quieres, busca dos cosas que sí pueda expresar y que sumen a él. La versión compuesta no es un apaño con coste: suele heredar interacciones que la versión directa no habría tenido, porque las partes son cosas que el resto de tu obra ya sabe tocar.",
+          "flavor": "«Las reglas tienen que definir una carta boca abajo como una cosa singular… Sabiendo que los jugadores llevan tiempo pidiendo cartas boca abajo que no sean 2/2, hicimos esta carta. Esta carta hace un 3/3 boca abajo. Vale, tiene que usar un contador +1/+1 para lograrlo, pero trabajas con las herramientas que tienes… Si logras girarla boca arriba, conserva el contador.»"
+        },
+        {
+          "title": "Encarga una exploración deliberadamente demasiado amplia: un solo artefacto moverá un límite que creías fijo",
+          "rules": "Manda a la gente a diseñar más allá de un límite que dabas por supuesto, no porque pretendas levantarlo, sino para ver qué aparece. Casi todo lo que vuelva será inservible. Un elemento normalmente no lo será, y demostrará que el límite era un hábito y no un requisito, cosa que no podrías haber establecido discutiendo.",
+          "flavor": "«Cuando se diseñó manifestar por primera vez, solo ponía cartas de lo alto de tu biblioteca en el campo. En una de nuestras reuniones de diseño exploratorio, pedí al equipo que ampliara la mecánica. “Ved qué pasa si podéis poner cartas boca abajo en el campo desde otras zonas.” Una de las cartas generadas fue una versión temprana de esta, y fue lo que me convenció.»"
+        },
+        {
+          "title": "Entrega una estructura con huecos nombrados y sin contenido",
+          "rules": "Lo más útil que puedes darle a otra disciplina no es un encargo que describa lo que quieres, ni una página en blanco. Es un esqueleto: las posiciones, qué tiene que lograr cada una y cómo se conectan, con todas las decisiones reales abiertas. Lo llenarán con cosas que tú jamás habrías especificado, y aun así se sostendrá.",
+          "flavor": "«El primer set sería un mundo atribulado visitado por nuestro héroe… El segundo sería el mundo del pasado, donde ambas líneas temporales aún existían como posibilidades… Qué era el mundo atribulado, por qué lo estaba, quién era el héroe, qué había que cambiar, qué pasaba al ocurrir el cambio: todo eso se dejó al equipo creativo.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Histoires du destin, partie 1",
+      "dek": "Ils n'avaient pas à faire une carte tricolore. Ils devaient faire une carte où trois couleurs sont représentées.",
+      "overview": "Carte par carte dans Destin reforgé, de A à J : l'astuce hybride qui a fait fonctionner des légendes monocolores en Commander, et une édition bâtie autour d'un choix.",
+      "takeaway": "« Pour la première fois, la structure a été bâtie autour de la deuxième édition. »",
+      "lessons": [
+        {
+          "title": "Un rôle d'ordinaire facile devient le plus dur quand la structure change",
+          "rules": "Chaque position d'une suite porte une réputation héritée quant à son exigence, et l'on planifie et dote selon cette réputation. Quand vous réorganisez la structure, ces réputations ne se mettent pas à jour. Vérifiez quelle case porte désormais le plus de contraintes : ce peut être celle que tous ont appris à traiter comme routinière.",
+          "flavor": "« D'ordinaire, la deuxième édition d'un bloc de trois est la plus facile à concevoir. Elle reste proche de la première, ajuste quelques points et laisse de la place à la troisième pour un virage plus net. Destin reforgé, pourtant, n'a guère été l'édition facile de ce bloc. En fait, pour la première fois, la structure a été bâtie autour de la deuxième édition. »"
+        },
+        {
+          "title": "Lisez la formulation exacte — l'exigence porte souvent sur un marqueur, non sur la substance",
+          "rules": "Avant de supposer qu'une règle vous impose une construction coûteuse, lisez ce qu'elle vérifie littéralement. Souvent elle compte un symbole plutôt que la propriété que vous imaginiez. Satisfaire directement le marqueur est légitime, bien moins cher, et ouvre d'ordinaire des conceptions que la version substantielle ne supporterait pas.",
+          "flavor": "« L'identité de couleur se définit par le mana coloré du coût et par celui du texte de règles… et un symbole hybride compte comme un symbole de chacune de ses couleurs. Tout cela signifiait que nous n'avions pas à faire une carte tricolore. Nous devions seulement faire une carte où trois couleurs sont représentées. »"
+        },
+        {
+          "title": "Quand deux catégories se recoupent sur une capacité mais que l'une est bridée, la version bridée est la version commune",
+          "rules": "Deux choses peuvent toutes deux savoir faire quelque chose sans le savoir également. Le recoupement n'est pas la capacité en général : c'est ce que la plus faible a le droit de faire. Accordez cette version plus étroite et vous tenez une chose que les deux peuvent honnêtement revendiquer — exactement ce qu'il faut à un objet mixte.",
+          "flavor": "« L'un des recoupements entre le blanc et le noir est la réanimation. Les deux couleurs peuvent ramener des créatures du cimetière sur le champ de bataille. Le problème est que le blanc est plus limité : il ne peut le faire qu'avec de petites créatures. (Le noir est le meilleur en réanimation.) La clé fut de prendre le recoupement, c'est-à-dire la capacité du blanc, et de l'accorder. »"
+        },
+        {
+          "title": "Un cycle n'a besoin que d'assez de surface commune pour être reconnu comme tel",
+          "rules": "Dès qu'un ensemble de choses a une propriété claire en commun, cela suffit d'ordinaire pour que le public y voie un groupe. Exiger davantage d'alignement — coûts identiques, tailles identiques — n'achète pas de lisibilité supplémentaire et vous coûte la liberté de rendre chaque membre bon. Prenez le minimum et dépensez le reste.",
+          "flavor": "« Hormis le fait d'être dans une paire de couleurs alliées (avec un seul mana coloré de chaque) et d'incarner l'attribut de clan approprié, chaque dragon était libre de faire ce qu'il voulait. Les manas n'avaient pas à s'aligner. Les forces et endurances non plus. Être un cycle de dragons en couleurs alliées suffisait à les faire sentir liés. »"
+        },
+        {
+          "title": "Exprimez la situation centrale du récit comme une forme de décision récurrente",
+          "rules": "Une œuvre portant sur un dilemme peut le représenter, ou bien y placer le public encore et encore, à toutes les échelles. La seconde voie est plus forte, et elle est structurelle plutôt que narrative : trouvez la décision qui a la même forme que la prémisse, et faites-en un gabarit que vous employez sans cesse.",
+          "flavor": "« L'édition entière se tient au carrefour du temps et constitue le chemin qui bifurque vers deux lignes temporelles… Pour rendre cette sensation, nous voulions que l'édition vous donne, à vous joueur, quantité de décisions du même ordre, où vous seriez à votre propre carrefour. »"
+        },
+        {
+          "title": "Inversez le sens d'un effet que la catégorie possède déjà",
+          "rules": "Une chose qui ne vous est permise qu'à la marge peut devenir clairement admissible en renversant qui paie. Prenez un effet que votre catégorie est réputée prendre aux autres, et faites qu'elle se le prenne à elle-même. Le mécanisme est celui que tous reconnaissent, le sens est neuf, et le résultat se lit toujours comme vôtre.",
+          "flavor": "« Le noir obtenait des marqueurs +1/+1, mais d'ordinaire aux dépens d'autres créatures. Et si nous retournions l'idée ? Et si le noir employait la capacité à l'envers ? Et si la production de marqueurs +1/+1 se faisait aux dépens de la créature qui les porte ? Plutôt qu'une 4/4, Daghatar pouvait être une 0/0 avec quatre marqueurs +1/+1. »"
+        },
+        {
+          "title": "Pour qu'un choix binaire soit réel, tarifez les deux options à parité contre une unité commune",
+          "rules": "Un choix dont une branche est presque toujours la bonne n'est pas un choix : c'est une formalité avec une étape en plus. Fixez une unité commune de valeur et calez les deux branches dessus. La réponse dépend alors vraiment de la situation — seule condition sous laquelle la décision vaut d'être demandée.",
+          "flavor": "« Le point délicat, c'est que nous voulions un choix où une réponse ne soit pas toujours clairement la bonne. La clé fut de trouver un effet équivalant à ce que votre créature soit définitivement +1/+1. » Le marqueur « se déployait davantage dans la durée, tandis que l'effet de sort s'obtenait tout de suite »."
+        },
+        {
+          "title": "Quand la règle interdit la valeur, produisez-la par composition — et attendez-vous à des bénéfices annexes",
+          "rules": "Si votre système ne peut pas exprimer directement le nombre voulu, cherchez deux choses qu'il sait exprimer et dont la somme donne ce nombre. La version composée n'est pas un contournement coûteux : elle hérite d'ordinaire d'interactions que la version directe n'aurait pas eues, car ses parties sont déjà des choses que le reste de votre travail sait toucher.",
+          "flavor": "« Les règles doivent définir une carte face cachée comme une chose unique… Sachant que les joueurs réclamaient des faces cachées autres que 2/2, nous avons fait cette carte. Elle produit une 3/3 face cachée. Bon, il lui faut un marqueur +1/+1 pour y parvenir, mais on fait avec les outils qu'on a… Retournée, la créature conserve le marqueur. »"
+        },
+        {
+          "title": "Commandez une exploration volontairement trop large — un seul objet déplacera une limite que vous croyiez fixe",
+          "rules": "Envoyez les gens concevoir au-delà d'une limite que vous teniez pour acquise, non pour la lever, mais pour voir ce qui remonte. L'essentiel sera inutilisable. Un élément ne le sera pas, et démontrera que la limite était une habitude et non une exigence — ce qu'aucun argument n'aurait pu établir.",
+          "flavor": "« À sa création, la manifestation ne mettait en jeu que des cartes du dessus de la bibliothèque. Lors d'une réunion de conception exploratoire, j'ai demandé à l'équipe d'élargir la mécanique. “Voyez ce qui se passe si l'on peut mettre des cartes face cachée en jeu depuis d'autres zones.” L'une des cartes produites fut une version précoce de celle-ci, et c'est elle qui m'a convaincu. »"
+        },
+        {
+          "title": "Livrez une structure avec des cases nommées et sans contenu",
+          "rules": "Le plus utile à donner à une autre discipline n'est ni un cahier des charges décrivant ce que vous voulez, ni une page blanche. C'est un squelette : les positions, ce que chacune doit accomplir, et comment elles se relient — tous les vrais choix restant ouverts. Ils le rempliront de choses que vous n'auriez jamais spécifiées, et cela tiendra.",
+          "flavor": "« La première édition serait un monde troublé visité par notre héros… La deuxième serait le monde du passé, où les deux lignes temporelles existaient encore comme possibles… Quel était ce monde troublé, pourquoi, qui était le héros, que fallait-il changer — tout cela fut laissé à l'équipe créative. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Histórias do destino, parte 1",
+      "dek": "Eles não precisavam fazer uma carta de três cores. Precisavam fazer uma carta com três cores representadas nela.",
+      "overview": "Carta a carta por Fate Reforged, de A a J: o truque híbrido que fez lendas monocoloridas funcionarem no Commander, e uma coleção construída em torno de uma escolha.",
+      "takeaway": "“Pela primeira vez na história, a estrutura foi construída em torno da segunda coleção.”",
+      "lessons": [
+        {
+          "title": "Um papel que costuma ser o fácil vira o mais difícil quando a estrutura muda",
+          "rules": "Cada posição numa sequência carrega uma reputação herdada sobre o quanto é exigente, e as pessoas planejam e alocam gente conforme essa reputação. Quando você reorganiza a estrutura, essas reputações não se atualizam. Cheque qual vaga agora carrega mais restrições, porque pode ser a que todos aprenderam a tratar como rotina.",
+          "flavor": "“Normalmente, a segunda coleção de um bloco de três é a mais fácil de projetar. Ela quer ficar perto da primeira, ajustar algumas coisas e deixar espaço para a terceira dar uma guinada maior. Fate Reforged, porém, não foi lá a coleção fácil deste bloco. Na verdade, pela primeira vez na história, a estrutura foi construída em torno da segunda coleção.”"
+        },
+        {
+          "title": "Leia a redação exata — a exigência costuma ser um marcador, não a substância",
+          "rules": "Antes de supor que uma regra o obriga a uma construção cara, leia o que ela literalmente verifica. Com frequência ela conta um símbolo, não a propriedade que você imaginava. Satisfazer o marcador diretamente é legítimo, muito mais barato e costuma abrir designs que a versão substantiva não sustentaria.",
+          "flavor": "“A identidade de cor é definida tanto pelo mana colorido no custo quanto pelo do texto de regras… e um símbolo de mana híbrido é considerado um símbolo de mana de cada cor. Tudo isso significava que não precisávamos fazer uma carta de três cores. Só precisávamos fazer uma carta com três cores representadas nela.”"
+        },
+        {
+          "title": "Quando duas categorias se sobrepõem numa habilidade mas uma é restrita, a versão restrita é a compartilhada",
+          "rules": "Duas coisas podem ambas conseguir fazer algo sem conseguirem igualmente. A sobreposição não é a habilidade em geral: é aquilo que a mais fraca tem permissão de fazer. Conceda essa versão mais estreita e você tem algo que ambas podem reivindicar com honestidade — exatamente o que um objeto conjunto precisa.",
+          "flavor": "“Uma das áreas de sobreposição entre branco e preto é a reanimação. As duas cores podem pegar criaturas do cemitério e pô-las no campo. O problema é que o branco é mais limitado, pois só pode fazê-lo com criaturas menores. (O preto é o melhor em reanimação.) A chave foi pegar a sobreposição, que é a habilidade do branco, e conceder isso.”"
+        },
+        {
+          "title": "Um ciclo só precisa de superfície comum suficiente para ser reconhecido como tal",
+          "rules": "Assim que um conjunto de coisas tem uma propriedade clara em comum, isso em geral basta para o público lê-lo como grupo. Insistir em mais alinhamento — custos iguais, tamanhos iguais — não compra legibilidade adicional e custa a liberdade de fazer cada membro bom. Escolha o mínimo e gaste o resto.",
+          "flavor": "“Fora estarem num par de cores aliadas (com só um mana colorido de cada cor) e encarnarem o atributo de clã apropriado, cada dragão era livre para fazer o que quisesse. O mana não precisava bater. Poder e resistência não precisavam bater. Ser um ciclo de dragões em cores aliadas bastava para fazê-los parecer conectados.”"
+        },
+        {
+          "title": "Expresse a situação central da história como um formato de decisão recorrente",
+          "rules": "Uma obra sobre um dilema pode retratá-lo, ou pode colocar o público dentro dele repetidas vezes, em todas as escalas. O segundo é mais forte e é estrutural, não narrativo: ache a decisão que tem o mesmo formato da premissa e transforme-a num molde que você usa sem parar.",
+          "flavor": "“A coleção inteira se assenta na encruzilhada do tempo e é o caminho bifurcado que leva a duas linhas temporais diferentes… Para captar essa sensação, queríamos que a coleção desse a você, jogador, muitas decisões com uma sensação parecida, em que você estivesse na sua própria encruzilhada.”"
+        },
+        {
+          "title": "Inverta a direção de um efeito que a categoria já possui",
+          "rules": "Algo que só lhe é permitido na margem pode ficar claramente admissível invertendo quem paga. Pegue um efeito pelo qual sua categoria é conhecida por tirar dos outros e faça com que ela tire de si mesma. O mecanismo é o mesmo que todos reconhecem, a direção é nova, e o resultado ainda é lido como seu.",
+          "flavor": "“O preto costumava ganhar marcadores +1/+1, mas em geral às custas de outras criaturas. Hmm, e se virarmos essa ideia do avesso? E se o preto usasse a habilidade um pouco ao contrário? E se a geração de marcadores +1/+1 fosse às custas da própria criatura? Em vez de Daghatar ser 4/4, ele podia ser 0/0 com quatro marcadores +1/+1.”"
+        },
+        {
+          "title": "Para uma escolha binária ser real, precifique as duas opções em paridade contra uma unidade comum",
+          "rules": "Uma escolha em que um ramo quase sempre é o certo não é escolha: é formalidade com um passo a mais. Fixe uma unidade comum de valor e calibre os dois ramos nela. Aí a resposta depende de verdade da situação, que é a única condição sob a qual vale a pena pedir a decisão.",
+          "flavor": "“A parte delicada é que queríamos fazer uma escolha em que uma resposta não fosse claramente sempre a correta. A chave foi achar um efeito equivalente a a sua criatura ser permanentemente +1/+1.” O marcador “se desdobraria mais ao longo do tempo, enquanto o efeito de mágica era algo que você obtinha na hora”."
+        },
+        {
+          "title": "Quando a regra proíbe o valor, produza-o por composição — e espere benefícios laterais",
+          "rules": "Se o seu sistema não consegue expressar diretamente o número que você quer, procure duas coisas que ele consiga expressar e que somem a esse número. A versão composta não é uma gambiarra com custo: ela costuma herdar interações que a versão direta não teria, porque as partes já são coisas que o resto do seu trabalho sabe tocar.",
+          "flavor": "“As regras têm de definir uma carta virada para baixo como uma coisa singular… Sabendo que os jogadores vinham pedindo cartas viradas que não fossem 2/2, fizemos esta carta. Ela faz um 3/3 virado para baixo. Ok, precisa usar um marcador +1/+1 para isso, mas você trabalha com as ferramentas que tem… Ao ser virada para cima, ela mantém o marcador.”"
+        },
+        {
+          "title": "Encomende uma exploração deliberadamente ampla demais — um único artefato moverá um limite que você julgava fixo",
+          "rules": "Mande as pessoas projetarem além de um limite que você assumia, não porque pretenda levantá-lo, mas para ver o que aparece. Quase tudo que voltar será inútil. Um item em geral não será, e vai demonstrar que o limite era hábito e não exigência — o que nenhum argumento teria estabelecido.",
+          "flavor": "“Quando manifestar foi projetado, ele só punha cartas do topo do grimório no campo. Numa das reuniões de design exploratório, pedi à equipe que ampliasse a mecânica. ‘Vejam o que acontece se der para pôr cartas viradas para baixo no campo vindas de outras zonas.' Uma das cartas geradas foi uma versão inicial desta, e foi ela que me convenceu.”"
+        },
+        {
+          "title": "Entregue uma estrutura com vagas nomeadas e sem conteúdo",
+          "rules": "A coisa mais útil a dar a outra disciplina não é um briefing descrevendo o que você quer, nem uma página em branco. É um esqueleto: as posições, o que cada uma precisa realizar e como se conectam — com todas as escolhas reais em aberto. Eles o preencherão com coisas que você jamais teria especificado, e ainda assim vai se sustentar.",
+          "flavor": "“A primeira coleção seria um mundo conturbado visitado pelo nosso herói… A segunda seria o mundo do passado, onde ambas as linhas temporais ainda existiam como possibilidades… O que era o mundo conturbado, por que estava, quem era o herói, o que precisava mudar — tudo isso ficou a cargo da equipe criativa.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "命运故事，第一部分",
+      "dek": "他们并不需要做一张三色牌。他们需要做的是一张「上面出现了三种颜色」的牌。",
+      "overview": "逐张走过《宿命再燃》，从A到J：那个让单色传奇在指挥官中成立的混血把戏，以及一个围绕「选择」搭起来的系列。",
+      "takeaway": "「这是史上第一次，整个结构是围绕第二个系列搭起来的。」",
+      "lessons": [
+        {
+          "title": "一个通常最轻松的位置，会在结构改变时变成最难的那个",
+          "rules": "一个序列里的每一个位置，都背着一份关于「它有多吃力」的祖传名声；而人们是照着这份名声来做计划和配人的。当你重排了结构，这些名声并不会随之更新。去查一查：现在承受约束最多的是哪一格？因为那很可能正是所有人都已经习惯当成例行公事来对待的那一格。",
+          "flavor": "「通常，一个三件套环境里的第二个系列是最容易设计的。它想贴着第一个系列走，微调几处，同时给第三个系列留出做更大转向的余地。可《宿命再燃》在这个环境里根本算不上轻松的那一个。事实上，这是史上第一次，整个结构是围绕第二个系列搭起来的。」"
+        },
+        {
+          "title": "读那条规则的确切措辞——它要求的往往是一个标记，而不是实质",
+          "rules": "在断定某条规则逼着你去做一个昂贵的构造之前，先读一读它字面上究竟在检查什么。它经常数的是一个符号或一个标记，而不是你以为它在说的那项性质。直接去满足那个标记是正当的、便宜得多的；而且通常会打开一些「实质版本撑不起来」的设计。",
+          "flavor": "「色彩标识既由法术力费用中的有色法术力来定义，也由规则文字中的来定义……而一个混血法术力符号被视为其中每一种颜色的法术力符号各一个。这一切意味着：我们并不需要做一张三色牌。我们只需要做一张『上面出现了三种颜色』的牌。」"
+        },
+        {
+          "title": "当两个类别在某项能力上重叠、而其中一个受限时，那个受限的版本才是共有的版本",
+          "rules": "两样东西可以都会做某件事，却做得不一样多。重叠的并不是这项能力本身——而是「较弱的那一方被允许做到的那部分」。把那个更窄的版本授予出去，你就拿到了一样两边都能诚实地宣称拥有的东西；而这正是一件「同属两边」的物件所需要的。",
+          "flavor": "「白色和黑色重叠的领域之一是复活。两种颜色都能把生物牌从坟场放回战场。问题在于白色更受限，它只能对较小的生物这么做。（黑色是复活最强的颜色。）关键在于：取那个重叠的部分——也就是白色的那个版本——然后把它授予出去。」"
+        },
+        {
+          "title": "一组循环只需要「足以被认出是一组」的那点共同表面",
+          "rules": "一旦一组东西有了一项清晰的共同性质，那通常就足够让受众把它读成一个群体了。再去坚持更多的对齐——费用一致、体型一致、形状一致——买不到额外的可读性，却让你失去了「把每一个成员都做好」的自由。取那个最低限度，把其余的花掉。",
+          "flavor": "「除了处在一个友好色对里（每种颜色各只有一点有色法术力）、以及体现出相应的氏族特质之外，每一条龙都可以自由地去做它想做的事。法术力不必对齐。力量和防御力不必对齐。作为一组友好色的龙，这一点就足以让它们显得彼此相连了。」"
+        },
+        {
+          "title": "把故事的核心处境，表达成一种反复出现的「决定形状」",
+          "rules": "一部关于某种两难的作品，可以去描绘那种两难；也可以在各个尺度上，一次又一次地把受众放进它里面。后者更有力，而且它是结构性的、不是叙事性的：找出那个「与故事前提形状相同」的决定，然后把它做成一个你反复使用的模板。",
+          "flavor": "「整个系列坐落在时间的十字路口上，它就是那条通向两条不同时间线的分岔之路……为了抓住这份感觉，我们希望这个系列能给你——牌手——大量带有相似质感的决定；在这些决定里，你自己也站在你的十字路口上。」"
+        },
+        {
+          "title": "把这个类别本来就拥有的某个效果，方向反过来",
+          "rules": "一件你只是勉强被允许去做的事，可以通过「反转由谁来付账」而变得明确可行。取一个「你这个类别以从别人那里拿走它而闻名」的效果，改成让它从自己身上拿。机制还是所有人都认得的那一个，方向是新的；而结果读起来依然属于你。",
+          "flavor": "「黑色确实能拿到+1/+1指示物，但通常是以别的生物为代价。嗯，如果我们把这个想法翻过来呢？如果黑色把这项能力反着用呢？如果那些+1/+1指示物的产生，代价落在它自己身上呢？与其让达迦塔是一个4/4，它可以是一个带着四个+1/+1指示物的0/0。」"
+        },
+        {
+          "title": "要让一次二选一是真的，就把两个选项按同一个单位定价成等值",
+          "rules": "一个「其中一支几乎总是对的」的选择，不是选择；那是多走了一步的例行手续。定下一个共同的价值单位，把两支都对着它调平。于是答案就真的取决于处境了；而那是「值得向人索要这个决定」的唯一条件。",
+          "flavor": "「这个设计里棘手的部分是：我们想做出一个『没有哪个答案永远明显正确』的选择。关键在于找到一个与『你的生物永久+1/+1』等值的效果。」那个指示物「会在更长的时间里发挥作用，而那个咒语效果是你当场就拿到的东西」。"
+        },
+        {
+          "title": "当规则禁止那个数值时，就用组合把它造出来——并且预料到会有额外的好处",
+          "rules": "如果你的系统没法直接表达你想要的那个数字，就去找两样它能表达、加起来正好等于它的东西。这个组合出来的版本不是一个带代价的将就：它通常会继承一些「直接版本本来不会有」的互动；因为它的组成部分，正是你作品的其余部分本来就懂得如何触碰的东西。",
+          "flavor": "「规则必须把一张盖着的牌定义为单一的一样东西……知道牌手们一直在要求『不是2/2的盖牌』，我们做了这张牌。这张牌造出一个盖着的3/3。好吧，它得靠一个+1/+1指示物才能做到；但你就是拿手上有的工具去干活……如果你能把它翻回正面，它会保留那个指示物。」"
+        },
+        {
+          "title": "有意布置一次「过宽」的探索——其中会有一件产物，挪动你以为已经钉死的某条限制",
+          "rules": "派人去越过一条你一直当作既定的限制来做设计；不是因为你打算取消它，而是为了看看能捞上来什么。收回来的东西绝大部分都不可用。而通常会有那么一件不是；它会证明这条限制其实是一个习惯、而不是一项要求——这是你光靠争论无法确立的。",
+          "flavor": "「显化最初被设计出来时，只能把牌库顶的牌放到战场上去。在我们的一次探索性设计会议上，我要求团队把这个机制放宽。『看看如果可以从别的区域把牌盖着放上战场，会发生什么。』产出的其中一张牌就是这张牌的早期版本；而正是它说服了我。」"
+        },
+        {
+          "title": "交出去一副「有名字的格子、但没有内容」的结构",
+          "rules": "你能给另一个工种的最有用的东西，既不是一份描述你想要什么的任务书，也不是一张白纸。而是一副骨架：有哪些位置、每一个必须完成什么、它们如何相连——而每一个真正的选择都留白。他们会用你根本不会指定出来的东西把它填满；而它依然立得住。",
+          "flavor": "「第一个系列会是一个被我们的主角造访的、陷入困境的世界……第二个系列会是那个过去的世界，在那里两条时间线都还作为可能性存在着……那个陷入困境的世界是什么、它为什么陷入困境、主角是谁、什么东西需要被改变——所有这些都留给了创意团队。」"
+        }
+      ]
+    }
+  }
+}
