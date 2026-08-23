@@ -1,0 +1,320 @@
+{
+  "id": "state-design-2015-2015-08-24",
+  "slug": "state-design-2015-2015-08-24",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-08-24",
+  "series": null,
+  "tags": ["state-of-design", "khans-of-tarkir", "post-mortem", "megamorph", "dragons"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/state-design-2015-2015-08-24",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T07:15:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "U" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "State of Design 2015",
+      "dek": "A set full of Dragons seemed like a slam dunk. The year's biggest design mistake was complacency.",
+      "overview": "The annual self-assessment: the clans and manifest as the highs, the Dragon set and megamorph as the lows, and why the block ended in the wrong world.",
+      "takeaway": "\"We made a very compelling world that players fell in love with, and then we changed it to a less compelling world forever.\"",
+      "lessons": [
+        {
+          "title": "The obvious winner is where complacency does its damage",
+          "rules": "A project everyone agrees will succeed gets less rigour than one people are worried about. The confidence is the hazard: nobody interrogates the premise, nobody asks what would make it fail, and the thing that was supposed to design itself arrives with several unexamined problems at once.",
+          "flavor": "“A set filled with Dragons seemed like a slam dunk. We've done lots of market research, and players love Dragons. It was a set that would design itself. Interestingly, our biggest design mistake of the year was complacency.” Four separate errors followed, from where the Dragons were placed to how varied they were to who they appealed to."
+        },
+        {
+          "title": "Don't put the headline element in the thing immediately before it",
+          "rules": "Whatever you're building anticipation for has to be scarce until it arrives. If the preceding release needs to show that thing exists, show it minimally — a handful of important instances, not enough to satisfy the appetite. Otherwise the main event lands on an audience that has already had some.",
+          "flavor": "“Dragons of Tarkir had the most Dragons ever in the history of the game, beating the record of… Fate Reforged. If you want to make something exciting, you probably need to refrain from putting that element into the thing that comes right before—especially in large numbers… I would have kept the rare cycle of legendary Dragons and pulled the rest of the Dragons from the set.”"
+        },
+        {
+          "title": "If you're pushing one component hard, you have to engineer variety inside it",
+          "rules": "Volume of a single thing isn't the same as a theme working. Twenty-six of something that all feel alike reads as one thing repeated. Before committing, list the axes along which instances could differ — and challenge any constraint that flattens them, rather than accepting it because it came from elsewhere.",
+          "flavor": "“We spread the Dragons across all the colors, but we did little else to create variety. Baby Dragons were off the table because of the story (although I do wish I challenged this idea in retrospect), and as a result, all the Dragons tended to fall into the same size range… Yes, Dragons of Tarkir had 26 Dragons, but they were just too similar to one another.”"
+        },
+        {
+          "title": "A beloved thing may be beloved by only part of your audience",
+          "rules": "Research showing people love something doesn't tell you everyone does. Check the group whose relationship with it is different — often because it has historically not served them — because to them, an entire release built around it reads as an announcement that this one isn't for them.",
+          "flavor": "“Yes, Dragons are beloved, but not by all players. In particular, Dragons historically have not been tournament-level cards, meaning that a certain subset of the players don't have a positive impression of Dragons. ‘Hey, it's a set dedicated to a Timmy/Tammy thing that's probably not going to affect you.'” The developers made tournament-viable Dragons; it took a while for anyone to notice."
+        },
+        {
+          "title": "A thing is judged against what its siblings promised, not on its own merits",
+          "rules": "The same work lands differently depending on what came before it. Following two well-received variations on a theme, the third is measured against an expectation of escalation that nobody stated. Playing well isn't enough at that point — the audience was promised surprise by the sequence itself.",
+          "flavor": "“If megamorph was its own mechanic in its own block, it would probably have fared okay—but it was the morph variant in the alternate-present set. The players had enjoyed morph coming back. They really enjoyed the variant of manifest. There was a lot of expectation for the final morph variant, and megamorph under that lens simply didn't live up. I think we thought that good gameplay would be enough.”"
+        },
+        {
+          "title": "Check whether the interaction you rejected it for ever actually happens",
+          "rules": "A candidate gets cut because of a bad interaction with something else. Before accepting that, work out how often the two will genuinely meet. If the answer is almost never — different formats, different contexts — you've discarded the better option to protect a case that doesn't arise.",
+          "flavor": "“In retrospect, I wish we had gone with the variant we called ‘smorph'… The reason we didn't do it was it played poorly with morph, because you knew by the +1/+1 counter it wasn't a morph creature. But the two never played together in Limited and morph didn't show up enough in Constructed to make this problem matter enough.”"
+        },
+        {
+          "title": "The realisation that settings are reusable arrives later than the one about mechanics",
+          "rules": "Every kind of asset goes through a period of being treated as disposable before anyone notices it could be revisited. You'll learn this about your components first and about your contexts second — and in the interval you will spend places you'd have wanted back.",
+          "flavor": "“Long ago, we saw mechanics as disposable; we then came to realize that they were valuable tools we could reuse. I think in many ways we used to see worlds in the same way. We visit and move on. But now we're realizing we've built cool places we want to go back to… We made a very compelling world that players fell in love with, and then we changed it to a less compelling world forever.”"
+        },
+        {
+          "title": "A taste of something you can't sustain creates a demand you can't meet",
+          "rules": "Sometimes an element is chosen precisely because it's too thin to carry a whole project. Showing it anyway is not free: an audience given a sample assumes more is coming, and the appetite you've created is one you already know you can't satisfy.",
+          "flavor": "“One of the reasons we chose a wedge theme for Khans of Tarkir was because we knew it wasn't mechanically deep enough to use for an entire block. But by giving players a taste of wedge in the beginning, we set up a desire for us to deliver that for the whole block when there was no way we could.”"
+        },
+        {
+          "title": "Run the transformation so it ends on the thing people will want more of",
+          "rules": "When a project changes state partway through, the final state is what the audience is left holding. Order the change so it arrives at the thing they'd wish continued — ending on the scarce, exciting element means the appetite you leave behind is satisfied rather than thwarted.",
+          "flavor": "“With 20/20 hindsight, we did the change backwards. We should have started with Dragons, probably with another layer added in, and then had the world change to clan-filled wedge world. Players would have been excited to get wedge without any expectation for more as the block would have ended.” The catch: the premise required a Dragonless world to begin with."
+        },
+        {
+          "title": "Stop setting the criteria you're going to be graded against",
+          "rules": "Publishing goals and then grading yourself on them invites the obvious objection, and the objection is correct. When the assessment is yours and the yardstick is yours too, the exercise measures your goal-setting rather than your work. Retire the part that undermines the rest.",
+          "flavor": "“I have decided to stop doing that for a few reasons. One, every year when I do my goals, I get a lot of complaints because I'm picking the goals. How do we not succeed when I get to pick what we're judged on?… I haven't restructured my State of Design since I started it eleven years ago, and it feels like time for a change.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Estado del diseño 2015",
+      "dek": "Un bloque lleno de Dragones parecía pan comido. El mayor error de diseño del año fue la complacencia.",
+      "overview": "La autoevaluación anual: los clanes y manifestar como puntos altos, el bloque de Dragones y la megametamorfosis como bajos, y por qué el ciclo terminó en el mundo equivocado.",
+      "takeaway": "«Hicimos un mundo muy atractivo del que los jugadores se enamoraron, y luego lo cambiamos para siempre por un mundo menos atractivo.»",
+      "lessons": [
+        {
+          "title": "El ganador obvio es donde la complacencia hace su daño",
+          "rules": "Un proyecto que todos dan por triunfador recibe menos rigor que uno que preocupa. La confianza es el peligro: nadie interroga la premisa, nadie pregunta qué lo haría fracasar, y aquello que iba a diseñarse solo llega con varios problemas sin examinar a la vez.",
+          "flavor": "«Un bloque lleno de Dragones parecía pan comido. Hemos hecho mucha investigación de mercado y a los jugadores les encantan los Dragones. Era un bloque que se diseñaría solo. Curiosamente, nuestro mayor error de diseño del año fue la complacencia.» Siguieron cuatro errores distintos: dónde se pusieron los Dragones, cuánto variaban y a quién atraían."
+        },
+        {
+          "title": "No pongas el elemento estrella en lo que va justo antes",
+          "rules": "Aquello para lo que generas expectativa tiene que escasear hasta que llegue. Si la entrega anterior necesita mostrar que eso existe, muéstralo al mínimo: un puñado de casos importantes, no los suficientes para saciar el apetito. Si no, el plato fuerte cae sobre un público que ya ha comido algo.",
+          "flavor": "«Dragons of Tarkir tuvo la mayor cantidad de Dragones de la historia del juego, batiendo el récord de… Fate Reforged. Si quieres hacer algo emocionante, probablemente debas abstenerte de meter ese elemento en lo que viene justo antes, y menos en grandes cantidades… Habría conservado el ciclo de Dragones legendarios raros y sacado el resto del bloque.»"
+        },
+        {
+          "title": "Si vas a empujar un componente, tienes que fabricar variedad dentro de él",
+          "rules": "Volumen de una sola cosa no es lo mismo que un tema que funciona. Veintiséis ejemplares que se sienten iguales se leen como una sola cosa repetida. Antes de comprometerte, enumera los ejes por los que podrían diferir; y cuestiona cualquier restricción que los aplane, en vez de aceptarla porque viene de otra parte.",
+          "flavor": "«Repartimos los Dragones por todos los colores, pero poco más hicimos para crear variedad. Los Dragones bebé estaban descartados por la historia (aunque en retrospectiva ojalá hubiera cuestionado esa idea), y como resultado todos caían en el mismo rango de tamaño… Sí, Dragons of Tarkir tenía 26 Dragones, pero eran demasiado parecidos entre sí.»"
+        },
+        {
+          "title": "Algo querido puede serlo solo por una parte de tu público",
+          "rules": "Que la investigación muestre que la gente adora algo no te dice que lo adoren todos. Comprueba el grupo cuya relación con eso es distinta —a menudo porque históricamente no les ha servido—, porque para ellos una entrega entera construida en torno a eso se lee como un anuncio de que esta no es para ellos.",
+          "flavor": "«Sí, los Dragones son queridos, pero no por todos los jugadores. En particular, históricamente no han sido cartas de nivel de torneo, lo que significa que cierto subconjunto de jugadores no tiene una impresión positiva de ellos. “Oye, es un bloque dedicado a una cosa Timmy/Tammy que probablemente no te va a afectar.”»"
+        },
+        {
+          "title": "Una cosa se juzga contra lo que prometieron sus hermanas, no por sus méritos",
+          "rules": "El mismo trabajo cae distinto según lo que vino antes. Tras dos variaciones bien recibidas sobre un tema, la tercera se mide contra una expectativa de escalada que nadie enunció. En ese punto, jugar bien no basta: la secuencia misma prometió sorpresa.",
+          "flavor": "«Si la megametamorfosis hubiera sido su propia mecánica en su propio bloque, probablemente habría ido bien; pero era la variante de metamorfosis del bloque del presente alternativo. A los jugadores les había gustado el regreso de la metamorfosis. Disfrutaron mucho la variante de manifestar. Había mucha expectativa por la variante final, y bajo esa lente la megametamorfosis simplemente no estuvo a la altura.»"
+        },
+        {
+          "title": "Comprueba si la interacción por la que lo rechazaste ocurre alguna vez",
+          "rules": "Un candidato se corta por una mala interacción con otra cosa. Antes de aceptarlo, calcula con qué frecuencia se encontrarán de verdad. Si la respuesta es casi nunca —formatos distintos, contextos distintos—, has descartado la mejor opción para protegerte de un caso que no se da.",
+          "flavor": "«En retrospectiva, ojalá hubiéramos ido con la variante que llamábamos “smorph”… La razón de no hacerlo fue que jugaba mal con la metamorfosis, porque por el contador +1/+1 sabías que no era una criatura con metamorfosis. Pero las dos nunca jugaron juntas en Limitado y la metamorfosis no apareció lo suficiente en Construido como para que el problema importara.»"
+        },
+        {
+          "title": "Darse cuenta de que los escenarios son reutilizables llega después que con las mecánicas",
+          "rules": "Todo tipo de activo pasa por una época en que se le trata como desechable antes de que alguien note que podía revisitarse. Lo aprenderás primero de tus componentes y después de tus contextos; y en ese intervalo gastarás lugares que habrías querido recuperar.",
+          "flavor": "«Hace mucho veíamos las mecánicas como desechables; luego nos dimos cuenta de que eran herramientas valiosas y reutilizables. Creo que en muchos sentidos veíamos los mundos igual. Visitamos y seguimos adelante. Pero ahora nos damos cuenta de que hemos construido lugares chulos a los que queremos volver… Hicimos un mundo muy atractivo y luego lo cambiamos para siempre por uno menos atractivo.»"
+        },
+        {
+          "title": "Un anticipo de algo que no puedes sostener crea una demanda que no puedes cubrir",
+          "rules": "A veces un elemento se elige precisamente porque es demasiado fino para sostener un proyecto entero. Mostrarlo igualmente no sale gratis: un público al que se le da una muestra asume que viene más, y el apetito que has creado es uno que ya sabes que no podrás saciar.",
+          "flavor": "«Una de las razones por las que elegimos un tema de cuñas para Khans of Tarkir fue que sabíamos que no era mecánicamente lo bastante profundo para usarlo en un bloque entero. Pero al dar a los jugadores una probada de cuña al principio, generamos el deseo de que lo entregáramos durante todo el bloque, cuando no había forma de hacerlo.»"
+        },
+        {
+          "title": "Ordena la transformación para acabar en aquello de lo que la gente querrá más",
+          "rules": "Cuando un proyecto cambia de estado a mitad de camino, el estado final es con lo que el público se queda. Ordena el cambio de modo que llegue a aquello que desearían que continuara: terminar en el elemento escaso y emocionante hace que el apetito que dejas atrás quede satisfecho y no frustrado.",
+          "flavor": "«Con la perspectiva de la retrospectiva, hicimos el cambio al revés. Deberíamos haber empezado con Dragones, probablemente con otra capa añadida, y luego haber hecho que el mundo cambiara al mundo de cuñas lleno de clanes. Los jugadores habrían estado encantados de recibir cuña sin expectativa de más, porque el bloque habría terminado.»"
+        },
+        {
+          "title": "Deja de fijar los criterios con los que vas a ser calificado",
+          "rules": "Publicar objetivos y luego calificarte según ellos invita a la objeción obvia, y la objeción tiene razón. Cuando la evaluación es tuya y la vara también, el ejercicio mide tu fijación de objetivos y no tu trabajo. Retira la parte que socava al resto.",
+          "flavor": "«He decidido dejar de hacerlo por varias razones. Una: cada año que pongo mis objetivos recibo muchas quejas porque los elijo yo. ¿Cómo no vamos a triunfar si yo elijo aquello por lo que se nos juzga?… No he reestructurado mi Estado del Diseño desde que lo empecé hace once años, y parece momento de un cambio.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "État de la conception 2015",
+      "dek": "Une extension pleine de dragons semblait gagnée d'avance. La plus grosse erreur de conception de l'année fut la complaisance.",
+      "overview": "L'auto-évaluation annuelle : les clans et le manifeste en points hauts, l'extension des dragons et la mégamorph en points bas, et pourquoi le bloc s'est achevé dans le mauvais monde.",
+      "takeaway": "« Nous avons fait un monde très séduisant dont les joueurs sont tombés amoureux, puis nous l'avons changé pour toujours en un monde moins séduisant. »",
+      "lessons": [
+        {
+          "title": "Le vainqueur évident est là où la complaisance fait ses dégâts",
+          "rules": "Un projet dont tout le monde s'accorde à dire qu'il réussira reçoit moins de rigueur qu'un projet qui inquiète. La confiance est le danger : nul n'interroge la prémisse, nul ne demande ce qui le ferait échouer, et la chose censée se concevoir toute seule arrive avec plusieurs problèmes inexaminés à la fois.",
+          "flavor": "« Une extension pleine de dragons semblait gagnée d'avance. Nos études le montrent : les joueurs adorent les dragons. C'était une extension qui allait se concevoir toute seule. Or, notre plus grosse erreur de conception de l'année fut la complaisance. » Quatre erreurs distinctes ont suivi : où furent placés les dragons, leur variété, et à qui ils plaisaient."
+        },
+        {
+          "title": "Ne mettez pas l'élément vedette dans ce qui précède immédiatement",
+          "rules": "Ce dont vous construisez l'attente doit rester rare jusqu'à son arrivée. Si la livraison précédente doit montrer que la chose existe, montrez-la au minimum : quelques exemplaires importants, pas de quoi rassasier. Sinon l'événement principal atterrit sur un public déjà servi.",
+          "flavor": "« Dragons of Tarkir comptait le plus de dragons de l'histoire du jeu, battant le record de… Fate Reforged. Pour rendre une chose excitante, il faut sans doute éviter de mettre cet élément dans ce qui vient juste avant — surtout en grand nombre… J'aurais gardé le cycle de dragons légendaires rares et retiré les autres. »"
+        },
+        {
+          "title": "Si vous poussez un composant, il faut fabriquer de la variété à l'intérieur",
+          "rules": "Le volume d'une seule chose n'équivaut pas à un thème qui fonctionne. Vingt-six exemplaires qui se ressemblent se lisent comme une seule chose répétée. Avant de vous engager, listez les axes sur lesquels ils pourraient différer — et contestez toute contrainte qui les aplatit, plutôt que de l'accepter parce qu'elle vient d'ailleurs.",
+          "flavor": "« Nous avons réparti les dragons sur toutes les couleurs, mais n'avons guère fait davantage pour créer de la variété. Les bébés dragons étaient exclus par l'histoire (et rétrospectivement, j'aurais aimé contester cette idée) : tous tombaient donc dans la même gamme de tailles… Oui, il y avait 26 dragons, mais bien trop semblables entre eux. »"
+        },
+        {
+          "title": "Une chose aimée peut ne l'être que d'une partie de votre public",
+          "rules": "Que les études montrent qu'on adore une chose ne dit pas que tout le monde l'adore. Vérifiez le groupe dont le rapport à elle diffère — souvent parce qu'elle ne l'a historiquement pas servi — car pour lui, une livraison entière bâtie autour se lit comme l'annonce que celle-ci n'est pas pour lui.",
+          "flavor": "« Oui, les dragons sont aimés, mais pas de tous. En particulier, ils n'ont historiquement pas été des cartes de tournoi : un certain sous-ensemble de joueurs n'en a donc pas une impression positive. “Tiens, une extension dédiée à un truc Timmy/Tammy qui ne va probablement pas te concerner.” »"
+        },
+        {
+          "title": "Une chose est jugée sur ce que ses sœurs ont promis, non sur ses mérites",
+          "rules": "Le même travail est reçu différemment selon ce qui l'a précédé. Après deux variations bien accueillies sur un thème, la troisième est mesurée à une attente d'escalade que personne n'a formulée. À ce moment-là, bien jouer ne suffit pas : la séquence elle-même avait promis la surprise.",
+          "flavor": "« Si la mégamorph avait été sa propre mécanique dans son propre bloc, elle s'en serait sans doute bien tirée — mais c'était la variante de morph de l'extension du présent alternatif. Les joueurs avaient apprécié le retour de la morph. Ils avaient beaucoup aimé la variante manifeste. L'attente pour la variante finale était forte, et sous cet angle la mégamorph n'a pas été à la hauteur. »"
+        },
+        {
+          "title": "Vérifiez si l'interaction pour laquelle vous l'avez rejetée survient jamais",
+          "rules": "Un candidat est coupé à cause d'une mauvaise interaction avec autre chose. Avant d'accepter cela, estimez la fréquence réelle de leur rencontre. Si la réponse est « presque jamais » — formats différents, contextes différents — vous avez écarté la meilleure option pour vous protéger d'un cas qui ne se produit pas.",
+          "flavor": "« Rétrospectivement, j'aurais aimé retenir la variante que nous appelions “smorph”… Nous ne l'avons pas fait car elle jouait mal avec la morph : le marqueur +1/+1 révélait que ce n'était pas une créature morph. Mais les deux n'ont jamais joué ensemble en Limité, et la morph n'apparaissait pas assez en Construit pour que le problème compte. »"
+        },
+        {
+          "title": "Comprendre que les décors sont réutilisables vient après l'avoir compris pour les mécaniques",
+          "rules": "Chaque type d'actif traverse une période où on le traite comme jetable avant que quelqu'un remarque qu'on pourrait y revenir. Vous l'apprendrez d'abord de vos composants, ensuite de vos contextes — et dans l'intervalle, vous dépenserez des lieux que vous auriez voulu récupérer.",
+          "flavor": "« Autrefois, nous voyions les mécaniques comme jetables ; puis nous avons compris que c'étaient des outils précieux et réutilisables. À bien des égards, nous voyions les mondes de la même façon. On visite, on passe. Mais nous réalisons désormais que nous avons bâti de beaux endroits où nous voulons retourner… »"
+        },
+        {
+          "title": "Un avant-goût de ce que vous ne pouvez pas soutenir crée une demande insatisfiable",
+          "rules": "Parfois un élément est choisi précisément parce qu'il est trop mince pour porter tout un projet. Le montrer quand même n'est pas gratuit : un public à qui l'on donne un échantillon suppose qu'il y aura plus, et l'appétit ainsi créé est celui que vous savez déjà ne pas pouvoir combler.",
+          "flavor": "« L'une des raisons du thème des coins pour Khans of Tarkir, c'est que nous savions qu'il n'était pas mécaniquement assez profond pour un bloc entier. Mais en donnant aux joueurs un avant-goût de coin au début, nous avons créé le désir de le voir livré sur tout le bloc, alors que c'était impossible. »"
+        },
+        {
+          "title": "Ordonnez la transformation pour finir sur ce dont on voudra davantage",
+          "rules": "Quand un projet change d'état en cours de route, l'état final est ce qui reste entre les mains du public. Ordonnez le changement pour aboutir à ce qu'ils souhaiteraient voir continuer : finir sur l'élément rare et excitant laisse un appétit comblé plutôt que contrarié.",
+          "flavor": "« Avec le recul, nous avons fait le changement à l'envers. Nous aurions dû commencer par les dragons, sans doute avec une couche supplémentaire, puis faire basculer le monde vers le monde de coins rempli de clans. Les joueurs auraient été ravis d'obtenir du coin sans en attendre davantage, puisque le bloc se serait terminé. »"
+        },
+        {
+          "title": "Cessez de fixer les critères sur lesquels vous serez noté",
+          "rules": "Publier des objectifs puis s'auto-noter dessus appelle l'objection évidente, et l'objection a raison. Quand l'évaluation est la vôtre et l'étalon aussi, l'exercice mesure votre façon de fixer des objectifs, non votre travail. Retirez la partie qui sape le reste.",
+          "flavor": "« J'ai décidé d'arrêter, pour plusieurs raisons. Un : chaque année où je fixe mes objectifs, je reçois beaucoup de plaintes parce que c'est moi qui les choisis. Comment échouerions-nous si je choisis ce sur quoi l'on nous juge ?… Je n'ai pas restructuré mon État de la conception depuis onze ans, et il semble temps de changer. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Estado do design 2015",
+      "dek": "Uma coleção cheia de Dragões parecia moleza. O maior erro de design do ano foi a complacência.",
+      "overview": "A autoavaliação anual: os clãs e manifestar como pontos altos, a coleção de Dragões e a megamorfose como baixos, e por que o bloco terminou no mundo errado.",
+      "takeaway": "“Fizemos um mundo muito atraente pelo qual os jogadores se apaixonaram, e então o trocamos para sempre por um mundo menos atraente.”",
+      "lessons": [
+        {
+          "title": "O vencedor óbvio é onde a complacência faz o estrago",
+          "rules": "Um projeto que todos concordam que vai dar certo recebe menos rigor do que um que preocupa. A confiança é o perigo: ninguém interroga a premissa, ninguém pergunta o que o faria falhar, e aquilo que ia se projetar sozinho chega com vários problemas não examinados de uma vez.",
+          "flavor": "“Uma coleção cheia de Dragões parecia moleza. Fizemos muita pesquisa de mercado, e os jogadores amam Dragões. Era uma coleção que se projetaria sozinha. Curiosamente, nosso maior erro de design do ano foi a complacência.” Seguiram-se quatro erros distintos: onde os Dragões foram postos, quão variados eram, e a quem agradavam."
+        },
+        {
+          "title": "Não ponha o elemento-título naquilo que vem logo antes",
+          "rules": "Aquilo para o qual você constrói expectativa precisa ser escasso até chegar. Se o lançamento anterior precisa mostrar que aquilo existe, mostre no mínimo: um punhado de instâncias importantes, não o bastante para saciar o apetite. Senão o prato principal cai sobre um público que já comeu um pouco.",
+          "flavor": "“Dragons of Tarkir teve o maior número de Dragões da história do jogo, batendo o recorde de… Fate Reforged. Se você quer fazer algo empolgante, provavelmente precisa evitar pôr esse elemento naquilo que vem logo antes — ainda mais em grande quantidade… Eu teria mantido o ciclo de Dragões lendários raros e tirado o resto.”"
+        },
+        {
+          "title": "Se você vai empurrar um componente, tem de fabricar variedade dentro dele",
+          "rules": "Volume de uma coisa só não é o mesmo que um tema funcionando. Vinte e seis exemplares que parecem iguais se leem como uma coisa repetida. Antes de se comprometer, liste os eixos em que eles poderiam diferir — e questione qualquer restrição que os achate, em vez de aceitá-la porque veio de outro lugar.",
+          "flavor": "“Espalhamos os Dragões por todas as cores, mas pouco mais fizemos para criar variedade. Dragões filhotes estavam fora por causa da história (embora, em retrospecto, eu gostaria de ter questionado essa ideia), e o resultado é que todos caíam na mesma faixa de tamanho… Sim, Dragons of Tarkir tinha 26 Dragões, mas eram parecidos demais entre si.”"
+        },
+        {
+          "title": "Algo querido pode ser querido só por parte do seu público",
+          "rules": "Pesquisa mostrando que as pessoas amam algo não te diz que todos amam. Cheque o grupo cuja relação com aquilo é diferente — muitas vezes porque historicamente não os serviu —, porque para eles um lançamento inteiro construído em torno daquilo se lê como um aviso de que este não é para eles.",
+          "flavor": "“Sim, Dragões são amados, mas não por todos os jogadores. Em particular, Dragões historicamente não têm sido cartas de nível de torneio, o que significa que certo subconjunto de jogadores não tem impressão positiva deles. ‘Ei, é uma coleção dedicada a uma coisa Timmy/Tammy que provavelmente não vai te afetar.'”"
+        },
+        {
+          "title": "Uma coisa é julgada contra o que as irmãs dela prometeram, não pelos próprios méritos",
+          "rules": "O mesmo trabalho cai diferente conforme o que veio antes. Depois de duas variações bem recebidas sobre um tema, a terceira é medida contra uma expectativa de escalada que ninguém enunciou. A essa altura, jogar bem não basta: a própria sequência prometeu surpresa.",
+          "flavor": "“Se a megamorfose fosse a própria mecânica no próprio bloco, provavelmente teria se saído bem — mas era a variante de morfose da coleção do presente alternativo. Os jogadores gostaram do retorno da morfose. Curtiram muito a variante manifestar. Havia muita expectativa pela variante final, e sob essa lente a megamorfose simplesmente não correspondeu.”"
+        },
+        {
+          "title": "Cheque se a interação pela qual você o rejeitou chega a acontecer",
+          "rules": "Um candidato é cortado por uma interação ruim com outra coisa. Antes de aceitar isso, calcule com que frequência os dois vão de fato se encontrar. Se a resposta for quase nunca — formatos diferentes, contextos diferentes —, você descartou a opção melhor para se proteger de um caso que não ocorre.",
+          "flavor": "“Em retrospecto, eu gostaria que tivéssemos ido com a variante que chamávamos de ‘smorph'… A razão de não termos feito é que ela jogava mal com a morfose, porque pelo marcador +1/+1 você sabia que não era uma criatura com morfose. Mas as duas nunca jogaram juntas no Limitado e a morfose não apareceu o bastante no Construído para o problema importar.”"
+        },
+        {
+          "title": "Perceber que cenários são reutilizáveis chega depois da percepção sobre mecânicas",
+          "rules": "Todo tipo de ativo passa por um período de ser tratado como descartável antes que alguém note que dava para revisitá-lo. Você vai aprender isso primeiro sobre os seus componentes e depois sobre os seus contextos — e nesse intervalo vai gastar lugares que gostaria de ter de volta.",
+          "flavor": "“Há muito tempo víamos as mecânicas como descartáveis; depois percebemos que eram ferramentas valiosas e reutilizáveis. Acho que de muitas formas víamos os mundos do mesmo jeito. Visitamos e seguimos. Mas agora estamos percebendo que construímos lugares legais aos quais queremos voltar…”"
+        },
+        {
+          "title": "Uma amostra do que você não consegue sustentar cria uma demanda que você não consegue atender",
+          "rules": "Às vezes um elemento é escolhido justamente por ser fino demais para carregar um projeto inteiro. Mostrá-lo mesmo assim não é de graça: um público que recebe uma amostra supõe que vem mais, e o apetite que você criou é um que você já sabe que não vai poder saciar.",
+          "flavor": "“Uma das razões de escolhermos um tema de cunhas para Khans of Tarkir foi sabermos que ele não era mecanicamente profundo o bastante para um bloco inteiro. Mas, ao dar aos jogadores um gostinho de cunha no começo, criamos o desejo de que entregássemos aquilo pelo bloco todo, quando não havia como.”"
+        },
+        {
+          "title": "Ordene a transformação para terminar naquilo de que as pessoas vão querer mais",
+          "rules": "Quando um projeto muda de estado no meio do caminho, o estado final é o que fica com o público. Ordene a mudança para chegar àquilo que eles gostariam que continuasse: terminar no elemento escasso e empolgante deixa um apetite satisfeito em vez de frustrado.",
+          "flavor": "“Com a visão retrospectiva, fizemos a mudança ao contrário. Deveríamos ter começado com Dragões, provavelmente com outra camada acrescentada, e então feito o mundo mudar para o mundo de cunhas cheio de clãs. Os jogadores teriam ficado empolgados de receber cunha sem expectativa de mais, já que o bloco teria terminado.”"
+        },
+        {
+          "title": "Pare de estabelecer os critérios pelos quais você vai ser avaliado",
+          "rules": "Publicar metas e então se avaliar por elas convida à objeção óbvia, e a objeção está certa. Quando a avaliação é sua e a régua também, o exercício mede a sua definição de metas, não o seu trabalho. Aposente a parte que mina o resto.",
+          "flavor": "“Decidi parar de fazer isso por algumas razões. Uma: todo ano em que defino minhas metas, recebo muitas reclamações porque sou eu quem as escolhe. Como não teríamos sucesso se eu escolho aquilo pelo que somos julgados?… Não reestruturei meu Estado do Design desde que comecei, onze anos atrás, e parece ser hora de mudar.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "2015年设计现状",
+      "dek": "一个塞满龙的系列看上去是稳赢的。而这一年最大的设计错误，正是自满。",
+      "overview": "一年一度的自我检讨：氏族与显化是高点，龙系列与超级变身是低点，以及这个环境为何终结在了错误的那个世界上。",
+      "takeaway": "「我们造出了一个非常动人的世界，玩家爱上了它；然后我们把它永久地改成了一个不那么动人的世界。」",
+      "lessons": [
+        {
+          "title": "那个显而易见的赢家，正是自满造成损害的地方",
+          "rules": "一个所有人都同意「肯定会成功」的项目，得到的严格程度反而比一个让人担忧的项目更少。这份信心正是那个危险：没有人去盘问前提，没有人问「什么会让它失败」；而那个「本该自己把自己设计出来」的东西，最后带着好几个从未被检视过的问题一起到货。",
+          "flavor": "「一个塞满龙的系列看上去是稳赢的。我们做过大量的市场调研，玩家爱龙。这是一个会自己把自己设计出来的系列。而有意思的是，我们这一年最大的设计错误，正是自满。」随后是四个各自独立的错误：龙被放在了哪里、它们有多少变化、以及它们吸引的是谁。"
+        },
+        {
+          "title": "别把那个招牌元素放进「紧挨着它之前」的那样东西里",
+          "rules": "你正在为之积蓄期待的那样东西，必须在它到来之前保持稀缺。如果前一部作品需要表明「那东西确实存在」，那就以最小的量去展示：几个重要的实例，而不足以喂饱那份胃口。否则，正餐落到的是一群已经吃过一点的观众身上。",
+          "flavor": "「《鞑契龙王》拥有这个游戏史上最多的龙——它打破的纪录来自……《命运重铸》。如果你想让某样东西令人兴奋，那你多半得克制住，不要把那个元素放进紧挨着它之前的那样东西里——尤其不要大量地放……我会保留那组稀有的传奇龙循环，并把其余的龙从那个系列里撤掉。」"
+        },
+        {
+          "title": "如果你要重推某一个部件，你就必须在它内部制造出变化",
+          "rules": "某一样东西的数量，并不等于一个主题成立了。二十六个感觉都一样的东西，读起来就是同一样东西被重复了二十六遍。在下注之前，把「这些实例可以在哪些轴上彼此不同」列出来；并且去质疑任何一条会把它们抹平的约束，而不是因为它来自别处就接受它。",
+          "flavor": "「我们把龙铺满了所有颜色，但除此之外几乎没做别的事情来制造变化。幼龙因为故事的缘故被排除在外（尽管事后回看，我很希望自己当初质疑过这个设定）；结果所有的龙都落在了同一个体型区间里……是的，《鞑契龙王》里有26条龙；但它们彼此之间实在太像了。」"
+        },
+        {
+          "title": "一样受人喜爱的东西，可能只被你受众中的一部分人喜爱",
+          "rules": "调研显示人们爱某样东西，并不等于告诉你所有人都爱它。去查那个「与它的关系不一样」的群体——通常是因为这样东西在历史上没有服务过他们——因为在他们看来，一整部围绕它打造的作品，读起来就像是在宣告：这一部不是给你们的。",
+          "flavor": "「是的，龙很受喜爱，但并非被所有玩家喜爱。特别是，龙在历史上一直不是竞技级别的牌；这意味着某一部分玩家对龙并没有正面印象。『喂，这是一个献给某样提米／塔米式东西的系列，而它多半不会影响到你。』」"
+        },
+        {
+          "title": "一样东西被拿去对照的是「它的姐妹们许下的承诺」，而不是它自身的优点",
+          "rules": "同一份作品，会因为它前面是什么而被接收得完全不同。在同一主题的两次广受好评的变奏之后，第三次会被拿去对照一份「没有任何人明说过的、关于持续加码」的期待。到那时，好玩已经不够了：是这个序列本身向观众许诺了惊喜。",
+          "flavor": "「如果超级变身是它自己环境里的一个独立机制，它大概会过得还行；可它是那个『平行现在』系列里的变身变体。玩家享受了变身的回归。他们非常喜欢显化那个变体。人们对最后这个变身变体抱有很高的期待；而在那面透镜之下，超级变身根本没能达标。我想我们当时以为，好玩就够了。」"
+        },
+        {
+          "title": "去查一查：你据以否决它的那个互动，究竟会不会真的发生",
+          "rules": "一个候选方案因为「与别的东西互动得不好」而被砍掉。在接受这个理由之前，先算清楚：这两者到底会以多高的频率真的相遇。如果答案是「几乎从不」——不同的赛制、不同的场合——那你就是为了防一个根本不会出现的情形，丢掉了更好的那个选项。",
+          "flavor": "「事后回看，我很希望我们当初选了那个我们在设计里叫作『smorph』的变体……我们没这么做的原因是它与变身配合得不好：因为那个+1/+1指示物会让你知道它不是一个变身生物。可这两者在限制赛里从来没有同场出现过；而变身在构筑赛里出现得也不够多，不足以让这个问题重要到那个地步。」"
+        },
+        {
+          "title": "「舞台也是可以复用的」这个觉悟，比「机制可以复用」来得更晚",
+          "rules": "每一类资产，都要先经历一段「被当作一次性用品」的时期，然后才有人注意到它其实可以被重访。你会先从自己的部件上学到这一课，再从自己的舞台上学到；而在这段间隔里，你会挥霍掉一些你后来会想要回来的地方。",
+          "flavor": "「很久以前，我们把机制看作一次性的；后来我们才意识到，它们是可以复用的宝贵工具。我想在很多方面，我们过去看待世界的方式也是一样的：造访一次，然后往前走。但如今我们意识到：我们建起过一些很棒的地方，而我们想回去……」"
+        },
+        {
+          "title": "一份你撑不起来的东西的试吃，会制造出你满足不了的需求",
+          "rules": "有时候，选中某个元素恰恰是因为它太薄，撑不起一整个项目。可即便如此还是把它端出来，并不是免费的：一群拿到了样品的观众会假定后面还有；而你所制造出来的这份胃口，正是你早已知道自己填不满的那一份。",
+          "flavor": "「我们之所以为《鞑契可汗》选了楔形这个主题，原因之一恰恰是：我们知道它在机制上不够深，撑不起一整个环境。可是，在开头就给了玩家一口楔形的滋味，我们也就制造出了『希望我们在整个环境里都端上它』的欲望——而那是我们根本做不到的。」"
+        },
+        {
+          "title": "安排这场蜕变的顺序，让它终结在「人们会想要更多」的那样东西上",
+          "rules": "当一个项目中途改变了状态时，最终的那个状态，就是观众手里最后握着的东西。安排这次改变的顺序，让它抵达那个「他们会希望它继续下去」的东西：以那个稀缺而令人兴奋的元素收尾，意味着你留下的那份胃口是被满足了，而不是被辜负了。",
+          "flavor": "「以事后诸葛亮的眼光看，我们把这次转变做反了。我们本该从龙开始——大概再加上另一层东西——然后让这个世界变成那个由氏族填满的楔形世界。玩家会为拿到楔形而兴奋，同时又不会期待更多，因为这个环境到此就结束了。」"
+        },
+        {
+          "title": "别再由你自己来设定「你将据以被打分」的那些标准",
+          "rules": "先公布目标、再照着这些目标给自己打分，会招来那个显而易见的反对意见；而这个反对意见是对的。当评估是你做的、尺子也是你定的时，这项练习衡量的是你设定目标的本事，而不是你的工作。把那个正在拖累其余部分的环节撤掉。",
+          "flavor": "「我决定不再这么做了，理由有几个。其一：每一年我定下目标时，都会收到很多抱怨，因为目标是我自己挑的。既然由我来挑我们要被评判的标准，我们怎么可能不成功呢？……自十一年前开始写以来，我还没有重构过我的『设计现状』；感觉是时候做点改变了。」"
+        }
+      ]
+    }
+  }
+}
