@@ -1,0 +1,320 @@
+{
+  "id": "piggybacking-2012-08-20",
+  "slug": "piggybacking-2012-08-20",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2012-08-20",
+  "series": null,
+  "tags": ["theory", "complexity", "flavor", "teaching", "resonance"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/piggybacking-2012-08-20",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Piggybacking",
+      "dek": "A lunch conversation about why the plants are plants, expanded into the technique for sneaking complexity into a game without making it more complex.",
+      "overview": "The designer of Plants vs. Zombies visited the building, and over lunch explained his two title choices in purely functional terms: plants because a tower defence game needs units that stay put and nobody expects a plant to move, zombies because it needs a slow invading force and slow is what zombies are known for. Rosewater had assumed the pairing was quirky. Discovering it was load-bearing produced this column — first an honest catalogue of the six things complexity does for a game, then the technique that lets you have those things without paying for them, then four questions to ask when applying it.",
+      "takeaway": "Complexity is something you want and can be killed by, and piggybacking is the only way to have it and not have it — but only if the thing you borrow already contains the property you need.",
+      "lessons": [
+        {
+          "title": "Choose the representation that epitomises the property, not the one that's quirky",
+          "rules": "Two design problems, two answers arrived at the same way. The units must be immobile, so pick a thing nobody expects to move. The invaders must be numerous, slow and not very bright, so pick the thing famous for exactly those. The second answer is the better demonstration, because it collapses three separate requirements into one word. He connects it to chunking, the brain's habit of remembering things by fusing them into single units, and calls piggybacking a very efficient form of it — several concepts condensed down to one.",
+          "flavor": "Not \"plants and zombies, what a pair.\" Plants because plants don't move."
+        },
+        {
+          "title": "Make the honest case for the thing you usually warn against",
+          "rules": "He has written repeatedly about complexity's costs, so here he lists its six benefits. It adds strategic depth, letting every part of the game take the room it wants. It matches flavour, which is messy and doesn't fit the tidy boxes mechanics fit in. It multiplies variety by simple arithmetic — fifty possible things beats ten. It opens design space, which is a limited resource. It rewards invested players, who feel their time paid off when they can follow all the moving pieces. And it makes design easier, because concision is expensive: he cites the line about writing a shorter letter if there had been time.",
+          "flavor": "Six good reasons, from someone whose day job is arguing the other side."
+        },
+        {
+          "title": "The goal is to add complexity without making the thing more complex",
+          "rules": "He gives the counterweight in one sentence and treats it as decisive: complexity is the greatest force capable of killing your game. Everything else on the ledger is outweighed by that. What follows is not a compromise between the two columns but a way to refuse the trade — find ways to sneak complexity in without the game becoming more complex. The whole technique exists because he will not give up either side of a contradiction.",
+          "flavor": "Want it. Fear it. Take it without paying for it."
+        },
+        {
+          "title": "Any prior knowledge will do — it doesn't have to be flavour",
+          "rules": "The other story from lunch involves damage numbers. Tower defence games routinely ask you to learn that one unit deals one and another deals two, which is hard to follow and arbitrary. The solution was a plant that fires two projectiles instead of one. No flavour is doing any work there; the borrowed knowledge is simply that two is twice one, which every human already holds. Piggybacking requires only that you build on something the player knows, and some of the strongest anchors are the most primitive.",
+          "flavor": "Why is it twice as strong? Because you can see two of them."
+        },
+        {
+          "title": "When you can't cover everything, plug the part that most misleads",
+          "rules": "He is explicit that perfect piggybacking is often unavailable, and gives the rule for the imperfect case. Plants communicate immobility superbly and defensive firepower not at all. That gap was accepted deliberately, because the designer judged he could sell shooting plants with graphics, while the property that had actually rung false to him in other games of the genre was units being locked to a location. Spend the borrowed knowledge on the misconception, not on the part you can teach by other means.",
+          "flavor": "Plants don't shoot peas. Nobody was ever going to be confused about that."
+        },
+        {
+          "title": "Retrofit a context that also teaches the play pattern",
+          "rules": "A mechanic rewarding you for what you drew was mechanically sound but had no place in a set about angels turning the tide. Rather than cut it, he supplied a reading: these are miracles. That did two jobs at once. It gave the mechanic a reason to be in this set, and — the half he stresses as equally important — it taught the behaviour. Miracles are unplanned, arrive at unknown moments and do great works, which is precisely the instruction to watch the top of your library before you pick the card up.",
+          "flavor": "The context wasn't decoration. It was the tutorial."
+        },
+        {
+          "title": "Make the borrowed concepts relate to each other",
+          "rules": "The technique explains relationships as well as functions. His example is a faction built on a disease metaphor with two mechanics — one that inflicts and one that spreads. Because both sit inside the same borrowed idea, the metaphor defines each mechanic, defines how they connect, and defines the character of the faction using them, all at once. Your choices of what to borrow do not live in a vacuum; the more they relate, the less of your game has to be learned separately.",
+          "flavor": "One inflicts it, one spreads it. Now you know what they are and what they're for."
+        },
+        {
+          "title": "The success signal is the listener saying \"Oh\"",
+          "rules": "He compares the technique to metaphor and then uses metaphor as the test case, because he can tell when one has worked. The response is always the same syllable. That \"Oh\" is the listener's internal processing converting something unfamiliar into something familiar — and the deeper claim under it is that humans embrace familiarity and shun unfamiliarity, so a metaphor's real message is that this new thing isn't new. Piggybacking is the same move without the intermediate step: the guide is already in place the first time the player meets the thing.",
+          "flavor": "You don't have to ask whether they understood. You'll hear it."
+        },
+        {
+          "title": "Let the borrowed concept change the mechanics, not just describe them",
+          "rules": "He handed over a design with an aggressive creature type and no mechanic expressing why. The developer took the idea of those creatures feeding and built a mechanic around it — grow permanently when you connect in combat. He draws the general rule out of the specific case: if you have found something that ties elements together but doesn't quite complete the connection, the right call is sometimes to shift the mechanics to match. The borrowed concept is a design input, not a coat of paint applied at the end.",
+          "flavor": "They're vampires. What do vampires get out of hitting you?"
+        },
+        {
+          "title": "Complexity rewards the invested, which is why criticising it lands as an insult",
+          "rules": "He describes a block that most players disliked, documented in research and in sales, and a minority who loved it intensely. His account of why is not about quality: they got it, they followed every reference and every moving piece, and that was possible because of the time they had already put into the game. So the block felt like a reward for that investment. He then names the consequence for himself — that group takes offence every time he lists the block's problems, and he understands the reason.",
+          "flavor": "It wasn't the block they were defending."
+        }
+      ]
+    },
+    "es": {
+      "title": "A hombros de lo conocido",
+      "dek": "Una conversación de sobremesa sobre por qué las plantas son plantas, convertida en la técnica para colar complejidad en un juego sin hacerlo más complejo.",
+      "overview": "El diseñador de Plants vs. Zombies visitó el edificio y, durante el almuerzo, explicó sus dos elecciones del título en términos puramente funcionales: plantas porque un tower defense necesita unidades que se queden quietas y nadie espera que una planta se mueva; zombis porque necesita una fuerza invasora lenta, y lento es por lo que se conoce a los zombis. Rosewater había supuesto que la pareja era una excentricidad. Descubrir que era estructural produjo esta columna: primero un catálogo honesto de las seis cosas que la complejidad le da a un juego, luego la técnica que permite tenerlas sin pagarlas, y luego cuatro preguntas para aplicarla.",
+      "takeaway": "La complejidad es algo que quieres y que puede matarte, y esta técnica es la única forma de tenerla y no tenerla, pero solo si aquello que tomas prestado ya contiene la propiedad que necesitas.",
+      "lessons": [
+        {
+          "title": "Elige la representación que epitomiza la propiedad, no la que resulta pintoresca",
+          "rules": "Dos problemas de diseño, dos respuestas obtenidas del mismo modo. Las unidades deben ser inmóviles, así que elige algo que nadie espera que se mueva. Los invasores deben ser numerosos, lentos y no muy listos, así que elige aquello famoso justo por eso. La segunda respuesta es la mejor demostración, porque colapsa tres requisitos distintos en una sola palabra. Lo conecta con el chunking, la costumbre del cerebro de recordar cosas fundiéndolas en unidades únicas, y llama a esta técnica una forma muy eficiente de eso: varios conceptos condensados en uno.",
+          "flavor": "No «plantas y zombis, qué combinación». Plantas porque las plantas no se mueven."
+        },
+        {
+          "title": "Defiende honestamente aquello contra lo que sueles advertir",
+          "rules": "Ha escrito repetidamente sobre los costes de la complejidad, así que aquí enumera sus seis beneficios. Añade profundidad estratégica, dejando que cada parte del juego ocupe el espacio que quiere. Encaja con el sabor, que es desordenado y no cabe en las cajitas ordenadas donde caben las mecánicas. Multiplica la variedad por pura aritmética: cincuenta cosas posibles superan a diez. Abre espacio de diseño, que es un recurso limitado. Premia a los jugadores implicados, que sienten que su tiempo rindió cuando pueden seguir todas las piezas. Y facilita el diseño, porque la concisión es cara: cita aquello de que habría escrito una carta más corta de haber tenido tiempo.",
+          "flavor": "Seis buenas razones, de alguien cuyo trabajo diario es defender lo contrario."
+        },
+        {
+          "title": "El objetivo es añadir complejidad sin volver la cosa más compleja",
+          "rules": "Da el contrapeso en una frase y lo trata como decisivo: la complejidad es la mayor fuerza capaz de matar tu juego. Todo lo demás del balance queda superado por eso. Lo que sigue no es un compromiso entre las dos columnas, sino una manera de rechazar el trueque: encontrar formas de colar complejidad sin que el juego se vuelva más complejo. La técnica entera existe porque él se niega a renunciar a cualquiera de los dos lados de una contradicción.",
+          "flavor": "Deséala. Témela. Llévatela sin pagarla."
+        },
+        {
+          "title": "Sirve cualquier conocimiento previo: no tiene por qué ser sabor",
+          "rules": "La otra historia del almuerzo va de números de daño. Los tower defense suelen pedirte aprender que una unidad hace uno y otra hace dos, lo cual es difícil de seguir y arbitrario. La solución fue una planta que dispara dos proyectiles en vez de uno. Ahí el sabor no hace ningún trabajo; el conocimiento prestado es sencillamente que dos es el doble de uno, cosa que todo humano ya posee. Esta técnica solo exige construir sobre algo que el jugador sepa, y algunos de los mejores anclajes son los más primitivos.",
+          "flavor": "¿Por qué es el doble de fuerte? Porque puedes ver dos."
+        },
+        {
+          "title": "Cuando no puedes cubrirlo todo, tapa la parte que más engaña",
+          "rules": "Es explícito en que el préstamo perfecto suele no existir, y da la regla para el caso imperfecto. Las plantas comunican inmovilidad de maravilla y potencia defensiva en absoluto. Ese hueco se aceptó a propósito, porque el diseñador juzgó que podía vender plantas que disparan con los gráficos, mientras que la propiedad que de verdad le había sonado falsa en otros juegos del género era que las unidades quedaran ancladas a una posición. Gasta el conocimiento prestado en el malentendido, no en la parte que puedes enseñar por otros medios.",
+          "flavor": "Las plantas no disparan guisantes. Nadie iba a confundirse con eso."
+        },
+        {
+          "title": "Añade después un contexto que además enseñe el patrón de juego",
+          "rules": "Una mecánica que premiaba lo que robabas era sólida mecánicamente pero no pintaba nada en una expansión sobre ángeles dando la vuelta a la batalla. En vez de cortarla, aportó una lectura: son milagros. Eso hizo dos trabajos a la vez. Le dio a la mecánica una razón para estar en esa expansión y —la mitad que él subraya como igual de importante— enseñó el comportamiento. Los milagros no se planean, llegan en momentos desconocidos y obran grandes cosas, que es exactamente la instrucción de mirar lo alto de tu biblioteca antes de coger la carta.",
+          "flavor": "El contexto no era decoración. Era el tutorial."
+        },
+        {
+          "title": "Haz que los conceptos prestados se relacionen entre sí",
+          "rules": "La técnica explica relaciones además de funciones. Su ejemplo es una facción construida sobre una metáfora de enfermedad con dos mecánicas: una que la inflige y otra que la propaga. Como ambas viven dentro de la misma idea prestada, la metáfora define cada mecánica, define cómo se conectan y define el carácter de la facción que las usa, todo a la vez. Tus elecciones de qué tomar prestado no viven en el vacío: cuanto más se relacionen, menos partes de tu juego habrá que aprender por separado.",
+          "flavor": "Una la inflige, otra la propaga. Ya sabes qué son y para qué sirven."
+        },
+        {
+          "title": "La señal de éxito es que el interlocutor diga «ah»",
+          "rules": "Compara la técnica con la metáfora y luego usa la metáfora como caso de prueba, porque sabe reconocer cuándo una ha funcionado. La respuesta es siempre la misma sílaba. Ese «ah» es el procesamiento interno del oyente convirtiendo lo desconocido en conocido, y bajo eso hay una afirmación más profunda: los humanos abrazan lo familiar y rehúyen lo desconocido, así que el mensaje real de una metáfora es que esta cosa nueva no es nueva. Esta técnica es el mismo movimiento sin paso intermedio: la guía ya está puesta la primera vez que el jugador se topa con la cosa.",
+          "flavor": "No hace falta preguntar si lo han entendido. Lo vas a oír."
+        },
+        {
+          "title": "Deja que el concepto prestado cambie las mecánicas, no solo que las describa",
+          "rules": "Entregó un diseño con un tipo de criatura agresivo y ninguna mecánica que expresara por qué. El desarrollador tomó la idea de que esas criaturas se alimentan y construyó una mecánica alrededor: crecer permanentemente al conectar en combate. Él extrae la regla general del caso concreto: si has encontrado algo que ata elementos pero no completa del todo la conexión, a veces lo correcto es mover las mecánicas para que encajen. El concepto prestado es una entrada del diseño, no una capa de pintura al final.",
+          "flavor": "Son vampiros. ¿Qué sacan los vampiros de golpearte?"
+        },
+        {
+          "title": "La complejidad premia a los implicados, y por eso criticarla se recibe como un insulto",
+          "rules": "Describe un bloque que a la mayoría de jugadores no gustó, documentado en investigación y en ventas, y una minoría que lo amó intensamente. Su explicación no va de calidad: lo pillaban, seguían cada referencia y cada pieza en movimiento, y eso era posible por el tiempo que ya habían invertido en el juego. Así que el bloque se sintió como una recompensa por esa inversión. Luego nombra la consecuencia para sí mismo: ese grupo se ofende cada vez que él enumera los problemas del bloque, y entiende la razón.",
+          "flavor": "No era el bloque lo que estaban defendiendo."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Sur le dos du connu",
+      "dek": "Une conversation de déjeuner sur pourquoi les plantes sont des plantes, développée en la technique permettant de glisser de la complexité dans un jeu sans le rendre plus complexe.",
+      "overview": "Le concepteur de Plants vs. Zombies est venu dans les locaux et, au déjeuner, a expliqué ses deux choix de titre en termes purement fonctionnels : des plantes parce qu'un tower defense a besoin d'unités qui restent en place et que personne n'attend d'une plante qu'elle bouge ; des zombies parce qu'il faut une force d'invasion lente, et que la lenteur est ce pour quoi les zombies sont connus. Rosewater croyait le duo pittoresque. Découvrir qu'il était porteur a produit cette chronique : d'abord un catalogue honnête des six apports de la complexité, puis la technique qui permet de les avoir sans les payer, puis quatre questions pour l'appliquer.",
+      "takeaway": "La complexité est une chose que l'on veut et qui peut vous tuer, et cette technique est la seule façon de l'avoir et de ne pas l'avoir — à condition que ce que vous empruntez contienne déjà la propriété voulue.",
+      "lessons": [
+        {
+          "title": "Choisissez la représentation qui incarne la propriété, pas celle qui est pittoresque",
+          "rules": "Deux problèmes de conception, deux réponses obtenues de la même manière. Les unités doivent être immobiles : prenez une chose dont personne n'attend qu'elle bouge. Les envahisseurs doivent être nombreux, lents et peu futés : prenez ce qui est célèbre précisément pour cela. La seconde réponse est la meilleure démonstration, car elle réduit trois exigences distinctes à un seul mot. Il la relie au chunking, cette habitude du cerveau de retenir en fusionnant les choses en unités uniques, et qualifie la technique de forme très efficace de ce procédé : plusieurs concepts condensés en un.",
+          "flavor": "Pas « des plantes et des zombies, quel duo ». Des plantes parce que les plantes ne bougent pas."
+        },
+        {
+          "title": "Plaidez honnêtement pour ce contre quoi vous mettez habituellement en garde",
+          "rules": "Il a maintes fois écrit sur les coûts de la complexité ; il en énumère donc ici les six bénéfices. Elle ajoute de la profondeur stratégique, chaque partie du jeu prenant la place qu'elle veut. Elle épouse la saveur, qui est brouillonne et n'entre pas dans les cases nettes des mécaniques. Elle multiplie la variété par simple arithmétique : cinquante possibilités valent mieux que dix. Elle ouvre de l'espace de conception, ressource limitée. Elle récompense les joueurs investis, qui sentent leur temps payé quand ils suivent toutes les pièces. Et elle facilite la conception, car la concision coûte cher : il cite la formule sur la lettre plus courte, faute de temps.",
+          "flavor": "Six bonnes raisons, de la part de quelqu'un dont le métier est de plaider l'inverse."
+        },
+        {
+          "title": "Le but est d'ajouter de la complexité sans rendre la chose plus complexe",
+          "rules": "Il livre le contrepoids en une phrase et le tient pour décisif : la complexité est la plus grande force capable de tuer votre jeu. Tout le reste du bilan est écrasé par cela. Ce qui suit n'est pas un compromis entre les deux colonnes mais une façon de refuser l'échange : trouver comment glisser de la complexité sans que le jeu devienne plus complexe. Toute la technique existe parce qu'il refuse d'abandonner l'un des deux côtés d'une contradiction.",
+          "flavor": "La vouloir. La craindre. La prendre sans la payer."
+        },
+        {
+          "title": "N'importe quel savoir préalable convient — ce n'est pas forcément la saveur",
+          "rules": "L'autre histoire du déjeuner porte sur les chiffres de dégâts. Les tower defense demandent couramment d'apprendre qu'une unité inflige un et une autre deux, ce qui est difficile à suivre et arbitraire. La solution fut une plante qui tire deux projectiles au lieu d'un. Aucune saveur ne travaille ici ; le savoir emprunté est simplement que deux vaut deux fois un, ce que tout humain possède déjà. La technique exige seulement de bâtir sur quelque chose que le joueur sait, et certains des meilleurs points d'ancrage sont les plus primitifs.",
+          "flavor": "Pourquoi est-elle deux fois plus forte ? Parce qu'on en voit deux."
+        },
+        {
+          "title": "Quand vous ne pouvez pas tout couvrir, bouchez la partie qui trompe le plus",
+          "rules": "Il dit clairement que l'emprunt parfait est souvent hors d'atteinte, et donne la règle du cas imparfait. Les plantes communiquent superbement l'immobilité et absolument pas la puissance défensive. Cet écart fut accepté délibérément, car le concepteur jugeait pouvoir faire admettre des plantes qui tirent grâce aux graphismes, tandis que la propriété qui sonnait faux dans les autres jeux du genre était l'ancrage des unités à un emplacement. Dépensez le savoir emprunté sur le malentendu, pas sur ce que vous pouvez enseigner autrement.",
+          "flavor": "Les plantes ne tirent pas de petits pois. Personne n'allait s'y perdre."
+        },
+        {
+          "title": "Greffez après coup un contexte qui enseigne aussi le schéma de jeu",
+          "rules": "Une mécanique récompensant ce que vous piochiez tenait la route mécaniquement mais n'avait rien à faire dans une extension sur des anges renversant le cours de la bataille. Plutôt que de la couper, il a fourni une lecture : ce sont des miracles. Cela a rempli deux offices. Cela a donné à la mécanique une raison d'être là et — la moitié qu'il souligne comme aussi importante — cela a enseigné le comportement. Les miracles ne se planifient pas, surviennent à des moments inconnus et accomplissent de grandes choses : c'est exactement la consigne de regarder le dessus de sa bibliothèque avant de prendre la carte.",
+          "flavor": "Le contexte n'était pas un décor. C'était le tutoriel."
+        },
+        {
+          "title": "Faites en sorte que les concepts empruntés se répondent",
+          "rules": "La technique explique les relations autant que les fonctions. Son exemple est une faction bâtie sur une métaphore de maladie, avec deux mécaniques : l'une qui l'inflige, l'autre qui la propage. Comme les deux vivent dans la même idée empruntée, la métaphore définit chaque mécanique, définit leur lien, et définit le caractère de la faction qui les emploie, tout à la fois. Vos choix d'emprunts ne vivent pas dans le vide : plus ils se répondent, moins il reste de votre jeu à apprendre séparément.",
+          "flavor": "L'une l'inflige, l'autre la propage. Vous savez déjà ce qu'elles sont et à quoi elles servent."
+        },
+        {
+          "title": "Le signal de réussite, c'est l'interlocuteur qui dit « ah »",
+          "rules": "Il compare la technique à la métaphore puis prend la métaphore comme cas d'essai, parce qu'il sait reconnaître quand elle a fonctionné. La réponse est toujours la même syllabe. Ce « ah » est le traitement intérieur de l'auditeur convertissant l'inconnu en familier — et l'affirmation plus profonde en dessous est que les humains embrassent le familier et fuient l'inconnu, si bien que le vrai message d'une métaphore est que cette chose nouvelle n'est pas nouvelle. La technique fait le même geste sans étape intermédiaire : le guide est déjà en place la première fois que le joueur rencontre la chose.",
+          "flavor": "Inutile de demander s'ils ont compris. Vous l'entendrez."
+        },
+        {
+          "title": "Laissez le concept emprunté modifier les mécaniques, pas seulement les décrire",
+          "rules": "Il a livré une conception avec un type de créature agressif et aucune mécanique disant pourquoi. Le développeur a repris l'idée que ces créatures se nourrissent et a bâti une mécanique dessus : grandir définitivement en touchant au combat. Il tire la règle générale du cas particulier : si vous avez trouvé quelque chose qui relie des éléments sans achever tout à fait la liaison, la bonne décision est parfois de déplacer les mécaniques pour qu'elles collent. Le concept emprunté est une entrée de la conception, pas une couche de peinture finale.",
+          "flavor": "Ce sont des vampires. Que gagnent les vampires à vous frapper ?"
+        },
+        {
+          "title": "La complexité récompense les investis, et c'est pourquoi la critiquer passe pour une insulte",
+          "rules": "Il décrit un bloc que la majorité des joueurs n'a pas aimé, documenté par les études et les ventes, et une minorité qui l'a adoré intensément. Son explication ne parle pas de qualité : ils comprenaient, ils suivaient chaque référence et chaque rouage, et cela n'était possible qu'à cause du temps déjà investi dans le jeu. Le bloc a donc semblé une récompense pour cet investissement. Il nomme ensuite la conséquence pour lui-même : ce groupe se froisse chaque fois qu'il énumère les défauts du bloc, et il en comprend la raison.",
+          "flavor": "Ce n'était pas le bloc qu'ils défendaient."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Nas costas do que já se sabe",
+      "dek": "Uma conversa de almoço sobre por que as plantas são plantas, expandida na técnica de enfiar complexidade num jogo sem torná-lo mais complexo.",
+      "overview": "O designer de Plants vs. Zombies visitou o prédio e, no almoço, explicou suas duas escolhas do título em termos puramente funcionais: plantas porque um tower defense precisa de unidades que fiquem paradas e ninguém espera que uma planta se mova; zumbis porque precisa de uma força invasora lenta, e lento é aquilo pelo que zumbis são conhecidos. Rosewater supunha que a dupla fosse uma excentricidade. Descobrir que era estrutural produziu esta coluna: primeiro um catálogo honesto das seis coisas que a complexidade dá a um jogo, depois a técnica que permite tê-las sem pagá-las, depois quatro perguntas para aplicá-la.",
+      "takeaway": "Complexidade é algo que você quer e que pode te matar, e esta técnica é o único jeito de tê-la e não tê-la — mas só se aquilo que você toma emprestado já contiver a propriedade de que precisa.",
+      "lessons": [
+        {
+          "title": "Escolha a representação que sintetiza a propriedade, não a que é pitoresca",
+          "rules": "Dois problemas de design, duas respostas obtidas do mesmo modo. As unidades precisam ser imóveis: escolha algo que ninguém espera que se mova. Os invasores precisam ser numerosos, lentos e pouco espertos: escolha aquilo que é famoso exatamente por isso. A segunda resposta é a melhor demonstração, porque colapsa três requisitos distintos numa só palavra. Ele liga isso ao chunking, o hábito do cérebro de lembrar fundindo coisas em unidades únicas, e chama a técnica de uma forma muito eficiente disso: vários conceitos condensados em um.",
+          "flavor": "Não \"plantas e zumbis, que dupla\". Plantas porque plantas não se movem."
+        },
+        {
+          "title": "Faça o caso honesto a favor daquilo contra o que você costuma alertar",
+          "rules": "Ele já escreveu muitas vezes sobre os custos da complexidade, então aqui lista seus seis benefícios. Ela acrescenta profundidade estratégica, deixando cada parte do jogo ocupar o espaço que quer. Ela acompanha o sabor, que é bagunçado e não cabe nas caixinhas em que as mecânicas cabem. Ela multiplica a variedade por aritmética simples: cinquenta coisas possíveis batem dez. Ela abre espaço de design, que é recurso limitado. Ela premia jogadores investidos, que sentem o tempo render quando conseguem acompanhar todas as peças. E ela facilita o design, porque concisão é cara: ele cita aquela frase sobre a carta mais curta, se houvesse tempo.",
+          "flavor": "Seis boas razões, vindas de quem trabalha defendendo o contrário."
+        },
+        {
+          "title": "O objetivo é acrescentar complexidade sem tornar a coisa mais complexa",
+          "rules": "Ele dá o contrapeso numa frase e o trata como decisivo: complexidade é a maior força capaz de matar seu jogo. Todo o resto do balanço é superado por isso. O que vem depois não é um meio-termo entre as duas colunas, mas um jeito de recusar a troca: achar formas de enfiar complexidade sem que o jogo fique mais complexo. A técnica inteira existe porque ele se recusa a abrir mão de qualquer um dos lados de uma contradição.",
+          "flavor": "Querer. Temer. Levar sem pagar."
+        },
+        {
+          "title": "Qualquer conhecimento prévio serve — não precisa ser sabor",
+          "rules": "A outra história do almoço é sobre números de dano. Tower defenses costumam pedir que você aprenda que uma unidade causa um e outra causa dois, o que é difícil de acompanhar e arbitrário. A solução foi uma planta que dispara dois projéteis em vez de um. Ali nenhum sabor faz trabalho algum; o conhecimento emprestado é simplesmente que dois é o dobro de um, coisa que todo humano já tem. A técnica só exige construir sobre algo que o jogador saiba, e algumas das melhores âncoras são as mais primitivas.",
+          "flavor": "Por que é duas vezes mais forte? Porque dá para ver dois."
+        },
+        {
+          "title": "Quando não dá para cobrir tudo, tape a parte que mais engana",
+          "rules": "Ele é explícito em que o empréstimo perfeito muitas vezes não existe, e dá a regra para o caso imperfeito. Plantas comunicam imobilidade otimamente e poder de fogo defensivo nem um pouco. Essa lacuna foi aceita de propósito, porque o designer julgou que conseguiria vender plantas atiradoras com os gráficos, enquanto a propriedade que de fato soara falsa nos outros jogos do gênero era unidades presas a um lugar. Gaste o conhecimento emprestado no mal-entendido, não na parte que você pode ensinar por outros meios.",
+          "flavor": "Plantas não atiram ervilhas. Ninguém ia se confundir com isso."
+        },
+        {
+          "title": "Encaixe depois um contexto que também ensine o padrão de jogo",
+          "rules": "Uma mecânica que premiava o que você comprava era sólida mecanicamente mas não tinha lugar numa coleção sobre anjos virando o jogo. Em vez de cortá-la, ele forneceu uma leitura: são milagres. Isso fez duas coisas de uma vez. Deu à mecânica uma razão para estar naquela coleção e — a metade que ele frisa como igualmente importante — ensinou o comportamento. Milagres não são planejados, chegam em momentos desconhecidos e realizam grandes obras, que é exatamente a instrução de olhar o topo do grimório antes de pegar a carta.",
+          "flavor": "O contexto não era decoração. Era o tutorial."
+        },
+        {
+          "title": "Faça os conceitos emprestados se relacionarem entre si",
+          "rules": "A técnica explica relações além de funções. O exemplo é uma facção construída sobre uma metáfora de doença com duas mecânicas: uma que a inflige e outra que a espalha. Como ambas moram dentro da mesma ideia emprestada, a metáfora define cada mecânica, define como elas se ligam e define o caráter da facção que as usa, tudo de uma vez. Suas escolhas do que tomar emprestado não vivem no vácuo: quanto mais se relacionam, menos partes do jogo precisam ser aprendidas em separado.",
+          "flavor": "Uma inflige, a outra espalha. Já se sabe o que são e para que servem."
+        },
+        {
+          "title": "O sinal de sucesso é o interlocutor dizer \"ah\"",
+          "rules": "Ele compara a técnica à metáfora e então usa a metáfora como caso de teste, porque sabe reconhecer quando uma funcionou. A resposta é sempre a mesma sílaba. Esse \"ah\" é o processamento interno de quem ouve convertendo o desconhecido em familiar — e a afirmação mais funda por baixo é que humanos abraçam o familiar e fogem do desconhecido, de modo que a mensagem real de uma metáfora é que essa coisa nova não é nova. A técnica é o mesmo gesto sem etapa intermediária: o guia já está posto na primeira vez que o jogador encontra a coisa.",
+          "flavor": "Não precisa perguntar se entenderam. Você vai ouvir."
+        },
+        {
+          "title": "Deixe o conceito emprestado mudar as mecânicas, não só descrevê-las",
+          "rules": "Ele entregou um design com um tipo de criatura agressivo e nenhuma mecânica que dissesse por quê. O desenvolvedor pegou a ideia de que aquelas criaturas se alimentam e construiu uma mecânica em torno disso: crescer permanentemente ao conectar em combate. Ele extrai a regra geral do caso concreto: se você achou algo que amarra elementos mas não completa a ligação, às vezes o certo é mexer nas mecânicas para que combinem. O conceito emprestado é uma entrada do design, não uma demão de tinta no fim.",
+          "flavor": "São vampiros. O que vampiros ganham em te acertar?"
+        },
+        {
+          "title": "A complexidade premia os investidos, e por isso criticá-la chega como insulto",
+          "rules": "Ele descreve um bloco de que a maioria dos jogadores não gostou, documentado em pesquisa e em vendas, e uma minoria que o amou intensamente. A explicação dele não é sobre qualidade: eles sacavam, acompanhavam cada referência e cada peça em movimento, e isso só era possível pelo tempo que já haviam posto no jogo. Então o bloco pareceu uma recompensa por esse investimento. Depois ele nomeia a consequência para si: aquele grupo se ofende toda vez que ele lista os problemas do bloco, e ele entende a razão.",
+          "flavor": "Não era o bloco que eles estavam defendendo."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "借力",
+      "dek": "一场关于「为什么是植物」的午餐对话，被展开成了一门技艺：如何往游戏里塞进复杂度，却不让它变得更复杂。",
+      "overview": "《植物大战僵尸》的设计者来访，午餐时他用纯粹功能性的语言解释了标题里的这两个选择：用植物，是因为塔防游戏需要待在原地的单位，而没有人会指望一株植物走动；用僵尸，是因为它需要一支缓慢的入侵力量，而「慢」正是僵尸出名的地方。罗斯瓦特原本以为这对组合只是一种古怪趣味。发现它其实是承重结构，于是有了这一篇：先是一份关于「复杂度为一个游戏带来的六样好处」的诚实清单，然后是那门让你不必为这些好处付账的技艺，再然后是运用它时要问的四个问题。",
+      "takeaway": "复杂度是你想要、同时也可能要你命的东西；而这门技艺是唯一能让你既拥有它又不拥有它的办法——前提是你借来的那样东西，本身就已经含有你需要的那个性质。",
+      "lessons": [
+        {
+          "title": "挑那个最能概括所需性质的表示物，而不是那个看着新奇的",
+          "rules": "两个设计难题，两个用同一种方法得出的答案。单位必须不能移动，那就挑一样没人指望它会动的东西。入侵者必须数量众多、速度缓慢、脑子不太灵光，那就挑那个恰好以这三点闻名的东西。第二个答案是更好的示范，因为它把三条互相独立的要求塌缩进了一个词里。他把这一点和「组块」联系起来——大脑把若干东西融成单一单位来记忆的那个习惯——并称这门技艺是组块极高效的一种形式：把好几个概念压缩成一个。",
+          "flavor": "不是「植物加僵尸，这搭配真妙」。是植物，因为植物不会走。"
+        },
+        {
+          "title": "为你平时警告的那样东西，诚实地做一次正面辩护",
+          "rules": "他反复写过复杂度的代价，所以这里他列出它的六项好处。它增加策略深度，让游戏的每一部分都占到它想要的空间。它贴合风味——而风味是杂乱的，装不进机制那些整齐的小盒子里。它靠简单算术把变化量翻上去：五十种可能的事情胜过十种。它打开设计空间，而那是一种有限资源。它奖赏那些投入过的玩家：当他们能跟上所有活动着的零件时，会觉得自己花的时间有了回报。而且它让设计更容易，因为简洁是昂贵的——他引了那句「若有时间，我会写一封更短的信」。",
+          "flavor": "六条好理由，出自一个日常工作就是替反方说话的人。"
+        },
+        {
+          "title": "目标是加进复杂度，而不让这东西变得更复杂",
+          "rules": "他用一句话给出对面的砝码，并且把它当作决定性的：复杂度是最有能力杀死你的游戏的那股力量。账本上其余的一切都被它压过去。接下来他给的并不是两栏之间的折中，而是一种拒绝做这笔交易的办法：找到把复杂度偷偷塞进去、而游戏本身不变复杂的路子。整门技艺之所以存在，是因为他不肯放弃一对矛盾中的任何一边。",
+          "flavor": "想要它。怕它。不付钱把它拿走。"
+        },
+        {
+          "title": "任何既有知识都行，不一定非得是风味",
+          "rules": "午餐上的另一个故事关于伤害数值。塔防游戏惯常要求你去记住「这个单位造成一点、那个造成两点」，既难跟得住又显得随意。他的解法是做一株发射两颗弹丸而不是一颗的植物。这里没有任何风味在做工；被借用的知识只是「二是一的两倍」，而每一个人类都已经握有这条。这门技艺只要求你建立在玩家已知的东西上，而其中最牢固的一些锚点，恰恰是最原始的那些。",
+          "flavor": "为什么它强一倍？因为你看得见两颗。"
+        },
+        {
+          "title": "当你没法全都覆盖时，去堵那块最容易把人带偏的",
+          "rules": "他明说：完美的借力常常拿不到，并给出了不完美情况下的规则。植物在传达「不能移动」这件事上极出色，在传达「防御火力」上则完全无能。这个缺口是被刻意接受的，因为设计者判断他能靠美术把「会射击的植物」卖出去；而真正让他在这个类型的其他游戏里觉得别扭的那条性质，是单位被锁死在某个位置上。把借来的知识花在那处误解上，而不是花在你能用别的手段教会的部分。",
+          "flavor": "植物不会射豌豆。而从来就没有人会被这一点弄糊涂。"
+        },
+        {
+          "title": "事后补上的语境，同时也应该把玩法教出来",
+          "rules": "一个奖励「你抽到了什么」的机制，在机制上是成立的，但在一个讲天使扭转战局的系列里毫无位置。他没有把它砍掉，而是补上了一种读法：这些是奇迹。这一手同时干了两件事。它给了这个机制留在这个系列里的理由；而另一半——他强调这一半同等重要——它把行为教了出来。奇迹是无法计划的，它在未知的时刻降临并成就大事；而这恰恰就是那条指令：在你把牌拿起来之前，先盯住你牌库的顶端。",
+          "flavor": "那个语境不是装饰。它是教程。"
+        },
+        {
+          "title": "让借来的那些概念彼此发生关系",
+          "rules": "这门技艺解释的不只是功能，还有关系。他举的例子是一个建立在疾病隐喻之上的阵营，带着两个机制：一个施加它，一个扩散它。因为两者都住在同一个借来的想法里面，这个隐喻同时定义了每一个机制、定义了它们之间的连接方式，也定义了使用它们的那个种族的气质。你借什么，这些选择并不活在真空里：它们彼此关联得越紧，你的游戏里需要被单独学习的部分就越少。",
+          "flavor": "一个施加它，一个扩散它。你已经知道它们是什么、又是干什么用的了。"
+        },
+        {
+          "title": "成功的信号，是听的人说出那声「哦」",
+          "rules": "他把这门技艺比作比喻，然后又拿比喻当作测试案例，因为他能判断一个比喻什么时候奏效了。回应永远是同一个音节。那声「哦」是听者内部的处理过程，正把陌生转换成熟悉——而底下更深的一层主张是：人类拥抱熟悉、躲开陌生，所以一个比喻真正传达的信息是「这个新东西其实不新」。这门技艺做的是同一个动作，只是省掉了中间那一步：玩家第一次遇见这样东西时，那份指引就已经在原地等着了。",
+          "flavor": "你不必去问他们懂了没有。你会听见。"
+        },
+        {
+          "title": "让借来的概念去改动机制，而不只是描述机制",
+          "rules": "他交出去的设计里有一类富有攻击性的生物，却没有任何机制说明这份攻击性从何而来。开发者接过「这些生物要进食」的想法，围绕它做出了一个机制：在战斗中打中对手时永久变大。他从这个具体案例里抽出通则：如果你找到了某样能把若干元素系在一起、但那份连接还不算完整的东西，那么正确的做法有时是去挪动机制来迁就它。借来的概念是设计的一项输入，而不是收尾时刷上去的一层漆。",
+          "flavor": "它们是吸血鬼。吸血鬼打中你，能得到什么？"
+        },
+        {
+          "title": "复杂度奖赏那些投入过的人，所以批评它会被当成一种冒犯",
+          "rules": "他描述了一个大多数玩家都不喜欢的系列组——这一点在市场调研和销量上都有记录——以及一小群极度喜爱它的人。他对原因的解释与质量无关：他们「懂」，他们跟得上每一处引用和每一个活动的零件；而这之所以可能，是因为他们此前已经在这个游戏上花掉的时间。于是这个系列组感觉像是对那份投入的一份回报。随后他点出了这件事对他自己的后果：每当他列举这个系列组的问题时，那群人都会被冒犯——而他明白其中的道理。",
+          "flavor": "他们要护的并不是那个系列组。"
+        }
+      ]
+    }
+  }
+}
