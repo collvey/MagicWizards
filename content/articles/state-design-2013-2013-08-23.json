@@ -1,0 +1,320 @@
+{
+  "id": "state-design-2013-2013-08-23",
+  "slug": "state-design-2013-2013-08-23",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-08-23",
+  "series": null,
+  "tags": ["state-of-design", "self-criticism", "retrospective", "process"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/state-design-2013-2013-08-23",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "State of Design 2013",
+      "dek": "The ninth annual public self-assessment: a B+ for the best-selling year in the game's history, and a grading of last year's three stated goals.",
+      "overview": "The format is fixed by now — a letter grade, a list of highs, a list of lows, a scored verdict on the goals set twelve months ago, and three new goals for the year ahead. What makes this instalment worth reading is the gap it opens between two kinds of success. The year in question sold better than any before it and he grades it B+, because the block did the safe thing extremely well and did not attempt anything he considers a real innovation. The rest is a careful separation of which failures belong to which level of the organisation.",
+      "takeaway": "Grade your own work against what you were aiming for, not against how it performed. And when a thing goes wrong, establish whether the fault is in the execution or in the structure that made the execution's job impossible — those go on different people's records.",
+      "lessons": [
+        {
+          "title": "Separate the commercial result from the craft assessment, and say both numbers",
+          "rules": "The paragraph is remarkable for what it puts next to what: last year was the best-selling year in the game's history, and the grade is B+. He does not use the sales figure to argue the design was good, and he does not use the grade to imply the sales were undeserved. They are two measurements of different things, both true, and reporting only the flattering one would be the ordinary move. If your work has a commercial number attached to it, publish it alongside your own verdict rather than in place of it.",
+          "flavor": "Last year was our best-selling year in the game's history. If I had to give it a letter grade, I'd give it a B+."
+        },
+        {
+          "title": "You can make the correct cautious decision and still record it as the year's shortfall",
+          "rules": "His single largest criticism is that they revisited without reinventing — and in the same breath he grants that if there was ever a project to be conservative on, this was it, because the audience arrived with strong expectations about a beloved thing. Both are held at once. The caution was defensible and it is still the reason the year is not an A. This is what an honest retrospective looks like: a decision can be right at the time and be the thing that capped the outcome, and pretending otherwise costs you the lesson.",
+          "flavor": "We revisited Ravnica but we didn't reinvent Ravnica."
+        },
+        {
+          "title": "When a goal admits two readings, score the one the audience took and state the other verdict too",
+          "rules": "One of the three goals could be read narrowly or broadly, and he scores it both ways: by the narrow reading they met it, by the broad reading they failed. Then he awards the point, on the explicit grounds that most people understood the goal in the first sense. That is the right procedure. The audience's reading determines whether the goal was delivered, and your own reading determines whether you learned anything — so record both rather than choosing whichever is more comfortable.",
+          "flavor": "Most people interpreted the goal in the first way, so I'm going to give us a thumbs up."
+        },
+        {
+          "title": "Match the component to the temperament of its own fans, not to general quality",
+          "rules": "Two of his three complaints have the same shape. One faction is played by people who want something wild and got a mechanic he calls as calculating as they come. Another is the one he personally identifies with, and it was built around the wrong half of what makes it appealing. In neither case is the mechanic bad. The failure is a mismatch between what the group attracts and what the group now does — and he uses his own lack of enthusiasm for playing his favourite as the instrument that detected it.",
+          "flavor": "I don't need every player to love every guild. I want players to love their guilds."
+        },
+        {
+          "title": "A differentiator pushed hard enough to succeed can destroy the variety it was protecting",
+          "rules": "One release was deliberately made faster so it would feel distinct from the one following it, and his verdict is that they succeeded a little too well. The speed made the slower strategies unplayable, which removed options, and it moved games past the point where the interesting things happen. The differentiation worked and the cost was the thing differentiation exists to protect. When you turn a dial to make two neighbours feel different, check what stops being viable at the setting you chose.",
+          "flavor": "In an attempt to separate them, we made the second one faster. I think we succeeded a little too well."
+        },
+        {
+          "title": "Assign the failure to the level where the constraint was created",
+          "rules": "The third release underperformed, and he is careful about where the blame lands: the set inherited an impossible brief from the block structure, and the block structure was his. He says explicitly that the issue was much more how the block was set up than the design of the set. That distinction matters beyond politeness — a team told they executed badly will try harder next time on something that was never executable, while the person who set the constraint learns nothing. Name the level.",
+          "flavor": "The issue here was much more about how the block was set up — my responsibility — than the design of the set."
+        },
+        {
+          "title": "The granularity of your complaints is itself a measurement",
+          "rules": "Having spent three paragraphs on detailed objections to individual factions, he stops and notes that the fact he is down to such nitty-gritty is a sign they did a pretty good job. That is a genuinely useful reading of a critique list. When the remaining problems are specific and small, the large ones have been solved; when your notes are still about whether the whole thing works, they have not. Before responding to a list of faults, check what altitude the faults are at, because that tells you where the work actually is.",
+          "flavor": "The fact that I'm getting down to such nitty-gritty is a sign that we did a pretty good job."
+        },
+        {
+          "title": "Give each unit its own moment before letting them mingle",
+          "rules": "The structural innovation he is happiest with gave every faction a chance to be central, gave each release its own distinct environment, and let the first one step back and return later. The general property is a sequence where each component gets a period of isolation in which it can be understood on its own, followed by a period of combination. Under the previous arrangement only the opening release ever got that isolation. If your parts are meant to be appreciated individually and then together, the schedule has to provide both phases.",
+          "flavor": "Each large set got some time to have focus on just itself. Normally only the first one gets that luxury."
+        },
+        {
+          "title": "Build each faction so that what it produces is usable by its neighbours",
+          "rules": "His favourite thing in the year's work is not any individual faction but how they interlock: each was built so that what it brings to the table can be used by the others, and specifically so that the synergies would appear first between adjacent groups and then across the whole field as the releases combined. That is a design property of the set of things rather than of any thing in it, and it has to be planned from the start. Ask not only whether each component is good but what each one supplies to the ones beside it.",
+          "flavor": "No matter what two guilds you picked, they played wonderfully."
+        },
+        {
+          "title": "Some briefs may be impossible, and saying so is part of the assessment",
+          "rules": "Describing what the final release had been asked to do — carry all ten factions and everything they entail without becoming too complicated — he adds a parenthesis: there is some chance that such a feat is not even possible. That is worth doing explicitly. A retrospective that treats every miss as an execution failure will keep re-issuing the same impossible assignment with encouragement attached. Holding open the possibility that the requirement itself could not be met is what lets you change the requirement.",
+          "flavor": "There's some chance that such a feat isn't even possible."
+        }
+      ]
+    },
+    "es": {
+      "title": "Estado del diseño 2013",
+      "dek": "La novena autoevaluación pública anual: un notable alto para el año más vendido de la historia del juego, y una calificación de los tres objetivos declarados el año anterior.",
+      "overview": "El formato ya está fijado: una nota, una lista de aciertos, una lista de fallos, un veredicto puntuado sobre los objetivos marcados doce meses antes y tres objetivos nuevos para el año siguiente. Lo que hace que esta entrega merezca la lectura es la brecha que abre entre dos tipos de éxito. El año en cuestión vendió mejor que ninguno anterior y él le pone un notable alto, porque el bloque hizo lo seguro extremadamente bien y no intentó nada que él considere una innovación real. El resto es una separación cuidadosa de qué fallos pertenecen a qué nivel de la organización.",
+      "takeaway": "Califica tu propio trabajo contra lo que apuntabas, no contra cómo rindió. Y cuando algo salga mal, establece si el fallo está en la ejecución o en la estructura que hizo imposible el trabajo de la ejecución: eso va en el expediente de personas distintas.",
+      "lessons": [
+        {
+          "title": "Separa el resultado comercial de la valoración del oficio, y di las dos cifras",
+          "rules": "El párrafo es notable por lo que pone al lado de qué: el año pasado fue el más vendido de la historia del juego, y la nota es un notable alto. No usa la cifra de ventas para argumentar que el diseño fue bueno, ni usa la nota para insinuar que las ventas no se merecían. Son dos medidas de cosas distintas, ambas ciertas, y comunicar solo la halagadora sería la jugada habitual. Si tu trabajo lleva pegada una cifra comercial, publícala junto a tu propio veredicto en vez de en su lugar.",
+          "flavor": "El año pasado fue el más vendido de la historia del juego. Si tuviera que ponerle nota, sería un notable alto."
+        },
+        {
+          "title": "Puedes tomar la decisión cauta correcta y aun así registrarla como el déficit del año",
+          "rules": "Su mayor crítica es que revisitaron sin reinventar, y en la misma frase concede que si alguna vez hubo un proyecto en el que ser conservador, era este, porque el público llegaba con expectativas fuertes sobre algo muy querido. Sostiene ambas cosas a la vez. La cautela era defendible y sigue siendo la razón de que el año no sea un sobresaliente. Así es una retrospectiva honesta: una decisión puede ser correcta en su momento y ser lo que puso techo al resultado, y fingir lo contrario te cuesta la lección.",
+          "flavor": "Revisitamos Ravnica pero no reinventamos Ravnica."
+        },
+        {
+          "title": "Cuando un objetivo admite dos lecturas, puntúa la que tomó el público y enuncia también el otro veredicto",
+          "rules": "Uno de los tres objetivos se podía leer en sentido estrecho o amplio, y él lo puntúa de las dos maneras: en la lectura estrecha lo cumplieron, en la amplia fracasaron. Después concede el punto, con el argumento explícito de que la mayoría entendió el objetivo en el primer sentido. Ese es el procedimiento correcto. La lectura del público determina si el objetivo se entregó, y la tuya determina si aprendiste algo; así que registra ambas en vez de elegir la más cómoda.",
+          "flavor": "La mayoría interpretó el objetivo de la primera manera, así que nos voy a dar el visto bueno."
+        },
+        {
+          "title": "Ajusta el componente al temperamento de sus propios aficionados, no a la calidad general",
+          "rules": "Dos de sus tres quejas tienen la misma forma. A una facción la juega gente que quiere algo salvaje y recibió una mecánica que él llama todo lo calculadora que se puede ser. Otra es aquella con la que él se identifica personalmente, y se construyó en torno a la mitad equivocada de lo que la hace atractiva. En ninguno de los dos casos la mecánica es mala. El fallo es un desajuste entre lo que el grupo atrae y lo que el grupo ahora hace, y usa su propia falta de ganas de jugar su favorita como el instrumento que lo detectó.",
+          "flavor": "No necesito que cada jugador ame cada gremio. Quiero que los jugadores amen su gremio."
+        },
+        {
+          "title": "Un diferenciador empujado lo bastante como para triunfar puede destruir la variedad que protegía",
+          "rules": "Un lanzamiento se hizo más rápido a propósito para que resultara distinto del siguiente, y su veredicto es que triunfaron un poco demasiado. La velocidad hizo injugables las estrategias lentas, lo que eliminó opciones, y llevó las partidas más allá del punto donde ocurren las cosas interesantes. La diferenciación funcionó y el coste fue justamente lo que la diferenciación existe para proteger. Cuando gires un dial para que dos vecinos se sientan distintos, comprueba qué deja de ser viable en el valor que elegiste.",
+          "flavor": "Para separarlos, hicimos el segundo más rápido. Creo que lo logramos un poco demasiado bien."
+        },
+        {
+          "title": "Asigna el fallo al nivel donde se creó la restricción",
+          "rules": "El tercer lanzamiento rindió por debajo, y él es cuidadoso con dónde cae la culpa: la colección heredó un encargo imposible de la estructura del bloque, y esa estructura era suya. Dice explícitamente que el problema fue mucho más cómo se montó el bloque que el diseño de la colección. Esa distinción importa más allá de la cortesía: a un equipo al que le dicen que ejecutó mal se esforzará más la próxima vez en algo que nunca fue ejecutable, mientras que quien fijó la restricción no aprende nada. Nombra el nivel.",
+          "flavor": "El problema aquí fue mucho más cómo se montó el bloque — responsabilidad mía — que el diseño de la colección."
+        },
+        {
+          "title": "La granularidad de tus quejas es en sí una medida",
+          "rules": "Tras dedicar tres párrafos a objeciones detalladas sobre facciones concretas, se detiene y señala que el hecho de estar bajando a semejante minucia es señal de que hicieron un trabajo bastante bueno. Es una lectura genuinamente útil de una lista de críticas. Cuando los problemas restantes son específicos y pequeños, los grandes están resueltos; cuando tus notas siguen tratando de si la cosa entera funciona, no lo están. Antes de responder a una lista de fallos, mira a qué altura están, porque eso te dice dónde está de verdad el trabajo.",
+          "flavor": "El hecho de que esté bajando a semejante minucia es señal de que hicimos un trabajo bastante bueno."
+        },
+        {
+          "title": "Dale a cada unidad su propio momento antes de dejar que se mezclen",
+          "rules": "La innovación estructural que más le contenta dio a cada facción la ocasión de ser central, dio a cada lanzamiento su propio entorno distinto, y dejó que el primero se retirara y volviera después. La propiedad general es una secuencia donde cada componente tiene un periodo de aislamiento en el que se le puede entender por sí solo, seguido de un periodo de combinación. Con el arreglo anterior, solo el lanzamiento inicial tenía ese aislamiento. Si tus piezas deben apreciarse primero por separado y luego juntas, el calendario tiene que proporcionar ambas fases.",
+          "flavor": "Cada colección grande tuvo un tiempo para centrarse en sí misma. Normalmente solo la primera tiene ese lujo."
+        },
+        {
+          "title": "Construye cada facción de modo que lo que produce sea utilizable por sus vecinas",
+          "rules": "Lo que más le gusta del año no es ninguna facción concreta sino cómo encajan: cada una se construyó de modo que lo que aporta pueda ser usado por las demás, y en concreto de modo que las sinergias aparecieran primero entre grupos adyacentes y luego por todo el campo según se combinaban los lanzamientos. Es una propiedad de diseño del conjunto de cosas y no de ninguna cosa en él, y hay que planificarla desde el principio. Pregunta no solo si cada componente es bueno, sino qué le suministra cada uno a los de al lado.",
+          "flavor": "Eligieras los dos gremios que eligieras, jugaban de maravilla."
+        },
+        {
+          "title": "Algunos encargos pueden ser imposibles, y decirlo forma parte de la evaluación",
+          "rules": "Al describir lo que se le había pedido al lanzamiento final — cargar con las diez facciones y todo lo que implican sin volverse demasiado complicado — añade un paréntesis: hay alguna posibilidad de que semejante hazaña ni siquiera sea posible. Merece la pena hacerlo explícito. Una retrospectiva que trate cada fallo como un fallo de ejecución seguirá reemitiendo el mismo encargo imposible con ánimos incluidos. Mantener abierta la posibilidad de que el requisito en sí no se pudiera cumplir es lo que te permite cambiar el requisito.",
+          "flavor": "Hay alguna posibilidad de que semejante hazaña ni siquiera sea posible."
+        }
+      ]
+    },
+    "fr": {
+      "title": "État de la conception 2013",
+      "dek": "La neuvième auto-évaluation publique annuelle : un B+ pour l'année la plus vendeuse de l'histoire du jeu, et une notation des trois objectifs annoncés l'an passé.",
+      "overview": "Le format est désormais fixé : une note, une liste de réussites, une liste de manques, un verdict chiffré sur les objectifs posés douze mois plus tôt, et trois nouveaux objectifs pour l'année à venir. Ce qui rend ce volet digne d'être lu, c'est l'écart qu'il ouvre entre deux sortes de succès. L'année en question s'est mieux vendue que toutes les précédentes et il lui donne un B+, parce que le bloc a fait la chose sûre extrêmement bien sans tenter rien qu'il tienne pour une vraie innovation. Le reste est une séparation soigneuse de quels échecs relèvent de quel niveau de l'organisation.",
+      "takeaway": "Notez votre travail par rapport à ce que vous visiez, non à sa performance. Et quand une chose rate, établissez si la faute est dans l'exécution ou dans la structure qui a rendu la tâche impossible — cela s'inscrit au dossier de personnes différentes.",
+      "lessons": [
+        {
+          "title": "Séparez le résultat commercial de l'évaluation du métier, et dites les deux chiffres",
+          "rules": "Le paragraphe est remarquable par ce qu'il met côte à côte : l'an passé fut l'année la plus vendeuse de l'histoire du jeu, et la note est un B+. Il n'use pas du chiffre de ventes pour soutenir que la conception était bonne, ni de la note pour insinuer que les ventes étaient imméritées. Ce sont deux mesures de choses différentes, toutes deux vraies, et ne rapporter que la flatteuse serait le geste ordinaire. Si votre travail porte un chiffre commercial, publiez-le à côté de votre propre verdict plutôt qu'à sa place.",
+          "flavor": "L'an passé fut notre année la plus vendeuse. S'il fallait une note, je donnerais un B+."
+        },
+        {
+          "title": "Vous pouvez prendre la bonne décision prudente et la consigner quand même comme le manque de l'année",
+          "rules": "Sa plus grande critique est qu'ils ont revisité sans réinventer — et dans la même phrase il accorde que s'il y eut jamais un projet où être conservateur, c'était celui-là, le public arrivant avec de fortes attentes sur une chose aimée. Les deux tiennent ensemble. La prudence était défendable et reste la raison pour laquelle l'année n'est pas un A. Voilà à quoi ressemble une rétrospective honnête : une décision peut être juste sur le moment et être ce qui a plafonné le résultat, et prétendre le contraire vous coûte la leçon.",
+          "flavor": "Nous avons revisité Ravnica mais nous n'avons pas réinventé Ravnica."
+        },
+        {
+          "title": "Quand un objectif admet deux lectures, notez celle qu'a prise le public et énoncez aussi l'autre verdict",
+          "rules": "L'un des trois objectifs se lisait au sens étroit ou au sens large, et il le note des deux façons : au sens étroit ils l'ont atteint, au sens large ils ont échoué. Puis il accorde le point, au motif explicite que la plupart ont compris l'objectif au premier sens. C'est la bonne procédure. La lecture du public détermine si l'objectif a été livré, la vôtre détermine si vous avez appris quelque chose : consignez les deux plutôt que de choisir la plus confortable.",
+          "flavor": "La plupart des gens ont interprété l'objectif de la première manière, je nous accorde donc un pouce levé."
+        },
+        {
+          "title": "Accordez le composant au tempérament de ses propres amateurs, non à la qualité générale",
+          "rules": "Deux de ses trois griefs ont la même forme. Une faction est jouée par des gens qui veulent quelque chose de sauvage et a reçu une mécanique qu'il qualifie d'aussi calculatrice qu'on puisse l'être. Une autre est celle à laquelle il s'identifie, et elle a été bâtie autour de la mauvaise moitié de ce qui la rend attirante. Dans aucun cas la mécanique n'est mauvaise. L'échec est un décalage entre ce que le groupe attire et ce que le groupe fait désormais — et il se sert de son propre manque d'envie de jouer sa préférée comme de l'instrument qui l'a détecté.",
+          "flavor": "Je n'ai pas besoin que chaque joueur aime chaque guilde. Je veux que les joueurs aiment leur guilde."
+        },
+        {
+          "title": "Un différenciateur poussé assez loin pour réussir peut détruire la variété qu'il protégeait",
+          "rules": "Une sortie a été délibérément accélérée pour se distinguer de la suivante, et son verdict est qu'ils ont un peu trop bien réussi. La vitesse a rendu injouables les stratégies lentes, ce qui a supprimé des options, et a poussé les parties au-delà du point où les choses intéressantes arrivent. La différenciation a marché et le coût fut précisément ce que la différenciation existe pour protéger. Quand vous tournez un curseur pour que deux voisins semblent différents, vérifiez ce qui cesse d'être viable au réglage choisi.",
+          "flavor": "Pour les séparer, nous avons accéléré la seconde. Je crois que nous avons un peu trop bien réussi."
+        },
+        {
+          "title": "Attribuez l'échec au niveau où la contrainte a été créée",
+          "rules": "La troisième sortie a sous-performé, et il est attentif à l'endroit où tombe le blâme : l'extension a hérité d'une commande impossible venue de la structure du bloc, et cette structure était la sienne. Il dit explicitement que le problème tenait bien plus au montage du bloc qu'à la conception de l'extension. Cette distinction dépasse la politesse : une équipe à qui l'on dit qu'elle a mal exécuté redoublera d'efforts sur une chose qui n'était pas exécutable, tandis que celui qui a posé la contrainte n'apprend rien. Nommez le niveau.",
+          "flavor": "Le problème tenait bien plus au montage du bloc — ma responsabilité — qu'à la conception de l'extension."
+        },
+        {
+          "title": "La granularité de vos griefs est elle-même une mesure",
+          "rules": "Après trois paragraphes d'objections détaillées sur des factions précises, il s'arrête et note que le fait d'en être à de tels détails est signe qu'ils ont plutôt bien travaillé. C'est une lecture réellement utile d'une liste de critiques. Quand les problèmes restants sont précis et petits, les gros sont réglés ; quand vos notes portent encore sur le fonctionnement de l'ensemble, ils ne le sont pas. Avant de répondre à une liste de défauts, regardez à quelle altitude ils se situent, car cela vous dit où en est vraiment le travail.",
+          "flavor": "Le fait que j'en sois à de tels détails est signe que nous avons plutôt bien travaillé."
+        },
+        {
+          "title": "Donnez à chaque unité son moment avant de les laisser se mêler",
+          "rules": "L'innovation structurelle dont il est le plus content a donné à chaque faction l'occasion d'être centrale, à chaque sortie son environnement propre, et a laissé la première se retirer puis revenir. La propriété générale est une séquence où chaque composant obtient une période d'isolement où on peut le comprendre seul, suivie d'une période de combinaison. Sous l'arrangement précédent, seule la sortie d'ouverture obtenait cet isolement. Si vos parties doivent être appréciées séparément puis ensemble, le calendrier doit fournir les deux phases.",
+          "flavor": "Chaque grande extension a eu un temps pour se concentrer sur elle seule. D'ordinaire, seule la première a ce luxe."
+        },
+        {
+          "title": "Bâtissez chaque faction pour que ce qu'elle produit soit utilisable par ses voisines",
+          "rules": "Ce qu'il préfère dans l'année n'est aucune faction en particulier mais leur emboîtement : chacune a été bâtie pour que ce qu'elle apporte puisse servir aux autres, et précisément pour que les synergies apparaissent d'abord entre groupes adjacents puis sur tout le terrain à mesure des combinaisons. C'est une propriété de conception de l'ensemble et non d'un élément, et cela se planifie dès le début. Demandez non seulement si chaque composant est bon, mais ce que chacun fournit à ses voisins.",
+          "flavor": "Quelles que soient les deux guildes choisies, elles jouaient à merveille."
+        },
+        {
+          "title": "Certaines commandes sont peut-être impossibles, et le dire fait partie de l'évaluation",
+          "rules": "En décrivant ce qu'on avait demandé à la dernière sortie — porter les dix factions et tout ce qu'elles impliquent sans devenir trop compliquée — il ajoute une parenthèse : il y a une chance qu'un tel exploit ne soit même pas possible. Cela vaut d'être dit explicitement. Une rétrospective qui traite chaque manque comme un défaut d'exécution rééditera la même mission impossible en y ajoutant des encouragements. Garder ouverte la possibilité que l'exigence elle-même fût inatteignable est ce qui permet de changer l'exigence.",
+          "flavor": "Il y a une chance qu'un tel exploit ne soit même pas possible."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Estado do design 2013",
+      "dek": "A nona autoavaliação pública anual: um B+ para o ano de maior venda da história do jogo, e uma nota para as três metas declaradas no ano anterior.",
+      "overview": "O formato já está fixado: uma nota, uma lista de acertos, uma lista de falhas, um veredicto pontuado sobre as metas postas doze meses antes, e três metas novas para o ano seguinte. O que faz esta edição valer a leitura é a distância que ela abre entre dois tipos de sucesso. O ano em questão vendeu melhor que qualquer anterior e ele lhe dá um B+, porque o bloco fez o seguro extremamente bem e não tentou nada que ele considere inovação de verdade. O resto é uma separação cuidadosa de quais falhas pertencem a qual nível da organização.",
+      "takeaway": "Avalie o próprio trabalho contra o que você mirava, não contra como ele performou. E quando algo dá errado, estabeleça se a falha está na execução ou na estrutura que tornou o trabalho da execução impossível — isso vai para a ficha de pessoas diferentes.",
+      "lessons": [
+        {
+          "title": "Separe o resultado comercial da avaliação do ofício, e diga os dois números",
+          "rules": "O parágrafo é notável pelo que põe ao lado de quê: o ano passado foi o de maior venda da história do jogo, e a nota é B+. Ele não usa o número de vendas para argumentar que o design foi bom, nem usa a nota para insinuar que as vendas foram imerecidas. São duas medidas de coisas diferentes, ambas verdadeiras, e reportar só a lisonjeira seria o movimento comum. Se o seu trabalho tem um número comercial colado nele, publique-o ao lado do seu próprio veredicto, e não no lugar dele.",
+          "flavor": "O ano passado foi o de maior venda da história do jogo. Se eu tivesse de dar uma nota, seria B+."
+        },
+        {
+          "title": "Você pode tomar a decisão cautelosa correta e ainda assim registrá-la como o déficit do ano",
+          "rules": "A maior crítica dele é que revisitaram sem reinventar — e na mesma frase concede que, se alguma vez houve um projeto em que ser conservador, era este, porque o público chegava com expectativas fortes sobre algo muito querido. As duas coisas são sustentadas ao mesmo tempo. A cautela era defensável e continua sendo o motivo de o ano não ser A. É assim que se parece uma retrospectiva honesta: uma decisão pode estar certa na hora e ser aquilo que pôs teto no resultado, e fingir o contrário lhe custa a lição.",
+          "flavor": "Revisitamos Ravnica, mas não reinventamos Ravnica."
+        },
+        {
+          "title": "Quando uma meta admite duas leituras, pontue a que o público tomou e enuncie também o outro veredicto",
+          "rules": "Uma das três metas podia ser lida em sentido estreito ou amplo, e ele a pontua dos dois jeitos: na leitura estreita cumpriram, na ampla falharam. Depois concede o ponto, com o argumento explícito de que a maioria entendeu a meta no primeiro sentido. Esse é o procedimento certo. A leitura do público determina se a meta foi entregue, e a sua determina se você aprendeu algo — então registre ambas em vez de escolher a mais confortável.",
+          "flavor": "A maioria interpretou a meta do primeiro jeito, então vou nos dar um joinha."
+        },
+        {
+          "title": "Case o componente com o temperamento dos fãs dele, não com a qualidade geral",
+          "rules": "Duas das três queixas dele têm o mesmo formato. Uma facção é jogada por gente que quer algo selvagem e recebeu uma mecânica que ele chama de tão calculista quanto se pode ser. Outra é aquela com que ele pessoalmente se identifica, e foi construída em torno da metade errada do que a torna atraente. Em nenhum dos casos a mecânica é ruim. A falha é um descompasso entre o que o grupo atrai e o que o grupo agora faz — e ele usa a própria falta de vontade de jogar a sua favorita como o instrumento que detectou isso.",
+          "flavor": "Não preciso que todo jogador ame toda guilda. Quero que os jogadores amem a guilda deles."
+        },
+        {
+          "title": "Um diferenciador empurrado o bastante para dar certo pode destruir a variedade que ele protegia",
+          "rules": "Um lançamento foi deliberadamente acelerado para parecer distinto do seguinte, e o veredicto dele é que tiveram sucesso um pouco demais. A velocidade tornou injogáveis as estratégias lentas, o que eliminou opções, e levou as partidas para além do ponto em que as coisas interessantes acontecem. A diferenciação funcionou, e o custo foi exatamente aquilo que a diferenciação existe para proteger. Quando você girar um botão para dois vizinhos parecerem diferentes, verifique o que deixa de ser viável no valor que você escolheu.",
+          "flavor": "Para separá-los, fizemos o segundo mais rápido. Acho que tivemos sucesso um pouco demais."
+        },
+        {
+          "title": "Atribua a falha ao nível em que a restrição foi criada",
+          "rules": "O terceiro lançamento rendeu abaixo, e ele é cuidadoso com onde a culpa cai: a coleção herdou uma encomenda impossível da estrutura do bloco, e aquela estrutura era dele. Ele diz explicitamente que o problema foi muito mais como o bloco foi montado do que o design da coleção. Essa distinção importa além da cortesia: uma equipe a quem se diz que executou mal vai se esforçar mais da próxima vez em algo que nunca foi executável, enquanto quem fixou a restrição não aprende nada. Nomeie o nível.",
+          "flavor": "O problema foi muito mais como o bloco foi montado — responsabilidade minha — do que o design da coleção."
+        },
+        {
+          "title": "A granularidade das suas queixas é ela mesma uma medida",
+          "rules": "Depois de gastar três parágrafos com objeções detalhadas a facções específicas, ele para e observa que o fato de estar descendo a tal minúcia é sinal de que fizeram um trabalho bem bom. É uma leitura genuinamente útil de uma lista de críticas. Quando os problemas restantes são específicos e pequenos, os grandes foram resolvidos; quando suas anotações ainda tratam de se a coisa inteira funciona, não foram. Antes de responder a uma lista de defeitos, veja em que altitude eles estão, porque isso diz onde o trabalho de fato está.",
+          "flavor": "O fato de eu estar descendo a tal minúcia é sinal de que fizemos um trabalho bem bom."
+        },
+        {
+          "title": "Dê a cada unidade o seu próprio momento antes de deixá-las se misturar",
+          "rules": "A inovação estrutural com que ele está mais contente deu a cada facção a chance de ser central, deu a cada lançamento o seu próprio ambiente distinto, e deixou o primeiro recuar e voltar depois. A propriedade geral é uma sequência em que cada componente ganha um período de isolamento em que pode ser entendido sozinho, seguido de um período de combinação. No arranjo anterior, só o lançamento de abertura ganhava esse isolamento. Se as suas peças devem ser apreciadas individualmente e depois juntas, o cronograma precisa fornecer as duas fases.",
+          "flavor": "Cada coleção grande teve um tempo para focar só em si. Normalmente só a primeira tem esse luxo."
+        },
+        {
+          "title": "Construa cada facção de modo que o que ela produz seja usável pelas vizinhas",
+          "rules": "O que ele mais gosta no ano não é nenhuma facção em particular, e sim como elas se encaixam: cada uma foi construída de modo que o que ela traz possa ser usado pelas outras, e especificamente de modo que as sinergias aparecessem primeiro entre grupos adjacentes e depois por todo o campo conforme os lançamentos se combinavam. Isso é propriedade de design do conjunto de coisas, e não de qualquer coisa nele, e precisa ser planejado desde o começo. Pergunte não só se cada componente é bom, mas o que cada um fornece aos que estão ao lado.",
+          "flavor": "Não importava que duas guildas você escolhesse, elas jogavam maravilhosamente."
+        },
+        {
+          "title": "Algumas encomendas podem ser impossíveis, e dizer isso faz parte da avaliação",
+          "rules": "Ao descrever o que se pediu ao lançamento final — carregar as dez facções e tudo que elas implicam sem ficar complicado demais — ele acrescenta um parêntese: há alguma chance de que tal façanha nem seja possível. Vale fazer isso explicitamente. Uma retrospectiva que trata cada falha como falha de execução vai continuar reemitindo a mesma missão impossível com incentivo anexado. Manter aberta a possibilidade de que a própria exigência não pudesse ser cumprida é o que lhe permite mudar a exigência.",
+          "flavor": "Há alguma chance de que tal façanha nem seja possível."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "2013年设计现状",
+      "dek": "第九次年度公开自评：给这个游戏史上销售最好的一年打了个B+，并为去年立下的三个目标逐一评分。",
+      "overview": "这个格式到现在已经固定了：一个等第、一份亮点清单、一份不足清单、对十二个月前所立目标的一份带评分的裁定，以及为下一年立下的三个新目标。这一期值得读的地方，在于它在两种成功之间拉开的那道缝。所讨论的这一年销售超过了此前任何一年，而他给了B+；因为这个环境把「稳妥的那件事」做得极好，却没有尝试任何一件他认为算得上真正创新的事。其余部分是一次仔细的切分：哪些失败属于组织的哪一层。",
+      "takeaway": "拿你瞄准的东西来给自己的作品打分，而不是拿它的表现来打。而当一件事出了问题时，先确立错在执行，还是错在那个「让执行的活儿变得不可能」的结构——这两者记在不同人的账上。",
+      "lessons": [
+        {
+          "title": "把商业结果和手艺评价分开，并且两个数字都说出来",
+          "rules": "这一段之所以了不起，在于它把什么和什么并排放在了一起：去年是这个游戏史上销售最好的一年；而等第是B+。他没有拿销售数字去论证设计有多好，也没有拿这个等第去暗示那份销售不配。这是对两样不同东西的两次测量，两者都为真；而只汇报讨喜的那一个，才是通常的做法。如果你的作品身上挂着一个商业数字，就把它和你自己的裁定并排发布，而不是用它取代你的裁定。",
+          "flavor": "去年是我们游戏史上销售最好的一年。如果一定要打个等第，我会打B+。"
+        },
+        {
+          "title": "你可以做出那个正确的、谨慎的决定，同时仍然把它记为这一年的欠账",
+          "rules": "他最大的一条批评是：他们重访了，却没有重新发明——而在同一句话里，他也承认：如果说有哪个项目值得保守，那就是这一个，因为受众带着对一样心爱之物的强烈期待而来。两件事同时成立。那份谨慎站得住脚，而它仍然是这一年拿不到A的原因。这就是一份诚实的复盘该有的样子：一个决定可以在当时是对的，同时又正是那个给结果封了顶的东西；而假装不是这样，代价是你失去这条教训。",
+          "flavor": "我们重访了拉尼卡，但我们没有重新发明拉尼卡。"
+        },
+        {
+          "title": "当一个目标有两种读法时，按受众采用的那一种评分，同时也把另一种的裁定说出来",
+          "rules": "三个目标里有一个既可以窄读也可以宽读，而他两种都评了：按窄的读法他们达成了，按宽的读法他们失败了。然后他把这一分判给了自己，理由明确写出：大多数人是按第一种意思理解这个目标的。这是正确的程序。受众的读法决定了这个目标有没有被交付，而你自己的读法决定了你有没有学到东西——所以两个都记下来，而不是挑那个更让人舒服的。",
+          "flavor": "大多数人是按第一种方式理解这个目标的，所以这一项我给我们一个赞。"
+        },
+        {
+          "title": "让这个部件去匹配它自己那批爱好者的性情，而不是去匹配一般意义上的质量",
+          "rules": "他三条抱怨里有两条是同一个形状。有一个派系，玩它的人想要的是狂野的东西，拿到的却是一个被他形容为「算计到家」的机制。另一个是他本人认同的那个，而它被建立在了「让它有吸引力的那一半」的反面上。这两个案例里，机制本身都不坏。失败在于「这个群体吸引来的人」和「这个群体现在做的事」之间的错配——而他把自己对最爱的那个提不起劲这件事，当成了检测出它的仪器。",
+          "flavor": "我不需要每个玩家都爱每个公会。我要的是玩家爱自己的公会。"
+        },
+        {
+          "title": "一个被推到足以成功的区分手段，可能会摧毁它本来要保护的多样性",
+          "rules": "有一次发布被刻意做得更快，好让它显得与紧随其后的那一次不同；而他的裁定是：他们成功得有点过头了。那份速度让慢速的策略变得不可打，这就删掉了选项；也把对局推过了那个「有意思的事情会发生」的点。区分手段奏效了，而代价恰恰是区分手段存在的目的。当你为了让两个相邻的东西显得不同而去拧一个旋钮时，请检查在你选定的这个刻度上，什么变得不再可行。",
+          "flavor": "为了把它们分开，我们把第二套做得更快。我觉得我们成功得有点过头。"
+        },
+        {
+          "title": "把失败归到那个「约束在此被创造出来」的层级上",
+          "rules": "第三次发布表现不佳，而他很小心地处理责任落在哪里：那套牌从环境结构那里继承了一份不可能完成的任务书，而那个结构是他定的。他明确地说：问题更多在于这个环境是怎么搭的，而不在于那套牌的设计。这个区分的意义超出了礼貌——一支被告知「你们执行得不好」的团队，下次会在一件本来就不可执行的事情上更用力；而那个设下约束的人则什么都学不到。把层级点出来。",
+          "flavor": "这里的问题更多在于这个环境是怎么搭起来的——那是我的责任——而不在那套牌的设计。"
+        },
+        {
+          "title": "你抱怨的颗粒度，本身就是一种测量",
+          "rules": "在用三段篇幅对几个具体派系提出细致反对之后，他停下来指出：自己已经细究到这个地步，本身就是他们干得相当不错的一个信号。这是对一份批评清单的一种真正有用的读法。当剩下的问题都具体而细小时，大的那些已经被解决了；而当你的笔记还在讨论「整件东西成不成立」时，它们还没有。在回应一份缺陷清单之前，先看看这些缺陷位于什么高度，因为那会告诉你这项工作实际进行到了哪里。",
+          "flavor": "我已经细究到这个地步，这本身就说明我们干得相当不错。"
+        },
+        {
+          "title": "在让各个单元混在一起之前，先给每一个自己的时刻",
+          "rules": "他最满意的那项结构创新，让每一个派系都有机会站到中心，让每一次发布都有自己独特的环境，并且让第一次发布退后一步、稍后再回来。一般性的性质是：一个序列里，每个部件都先获得一段可以被单独理解的隔离期，然后才进入组合期。在此前的安排下，只有开篇那次发布享有这份隔离。如果你的各个部分既要被单独欣赏、又要被合起来欣赏，那么日程就必须提供这两个阶段。",
+          "flavor": "每一套大型牌都有一段只关注自己的时间。通常只有第一套才有这份奢侈。"
+        },
+        {
+          "title": "把每个派系造成「它产出的东西能被邻居使用」的样子",
+          "rules": "这一年的工作里他最喜欢的不是某一个具体派系，而是它们如何互相咬合：每一个都被造成「它带来的东西能被其他派系用上」，而且具体安排成：协同先出现在相邻的群体之间，再随着几次发布合流而铺满整个场面。这是关于「这一组东西」的设计性质，而不是关于其中任何一个的；而且它必须从一开始就规划。不要只问每个部件好不好，还要问每一个给它旁边的那些供应了什么。",
+          "flavor": "不管你挑的是哪两个公会，它们配起来都好极了。"
+        },
+        {
+          "title": "有些任务书可能本来就不可能，而说出这一点是评估的一部分",
+          "rules": "在描述最后一次发布被要求做到什么时——扛住全部十个派系以及它们所带来的一切，同时又不能太复杂——他加了一句括号：这样的壮举有一定可能压根就做不到。这值得明确地说出来。一份把每一次未达标都当成执行失败的复盘，会一遍遍地重新下发同一份不可能的任务，外加一点鼓励。为「这项要求本身可能无法被满足」保留可能性，正是让你能去改这项要求的东西。",
+          "flavor": "这样的壮举有一定可能压根就做不到。"
+        }
+      ]
+    }
+  }
+}
