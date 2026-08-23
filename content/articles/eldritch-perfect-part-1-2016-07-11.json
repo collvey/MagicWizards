@@ -1,0 +1,294 @@
+{
+  "id": "eldritch-perfect-part-1-2016-07-11",
+  "slug": "eldritch-perfect-part-1-2016-07-11",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-07-11",
+  "series": { "id": "eldritch-perfect", "order": 1, "total": 2 },
+  "tags": ["eldritch-moon", "card-by-card", "meld", "color-pie", "emrakul"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/eldritch-perfect-part-1-2016-07-11",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T17:30:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Eldritch Perfect, Part 1",
+      "dek": "Two Angels designed backwards from the thing they become — including one ability chosen because it wouldn't have to carry over.",
+      "overview": "Card stories from Eldritch Moon: dividing a fixed pool of abilities between two halves, capping a scaling spell by narrowing it rather than weakening it, and a colour-pie argument that ran for twenty years and was settled by drift.",
+      "takeaway": "\"An 'enters the battlefield' trigger worked well because we didn't have to move that over to Brisela, as the melded card wouldn't enter the battlefield.\"",
+      "lessons": [
+        {
+          "title": "For a merge, work backwards from the combined object",
+          "rules": "When two pieces are meant to become one, the union is the real design and the halves are a partition of it. List what the combination may have, remove anything too strong for the whole, then divide the remainder evenly — and make the numbers add up exactly, because someone will check.",
+          "flavor": "“What are white's creature keywords? … Double strike was a bit much, and they both needed flying. That meant we got to divvy up first strike, lifelink, and vigilance… we wanted to have the power and toughness line up so that Brisela had the combined power and combined toughness of the two Angels. (Interestingly, with various tweaking, we accidentally had them not add up.)”"
+        },
+        {
+          "title": "Give one half something that won't carry over",
+          "rules": "Balancing two components that combine is hard because everything you add to either shows up in the result. An ability that can't apply to the merged form solves it — the half gets its share of content and the whole absorbs nothing.",
+          "flavor": "“That's three abilities. We wanted each of the Angels to have the same number of abilities, so that meant we needed one more thing. An ‘enters the battlefield' trigger worked well because we didn't have to move that over to Brisela, as the melded card wouldn't enter the battlefield.”"
+        },
+        {
+          "title": "Administrative text is paid out of the content budget",
+          "rules": "Whichever piece carries the instructions for how the system works has that much less room for anything else. Decide early which one takes the overhead, and give the other the material that needs the space — otherwise both end up cramped.",
+          "flavor": "“Gisela was made a bit smaller and given first strike and lifelink. It was important to keep her text short, because one of the two Angels had to have the transform text that caused them to meld together if they were both on the battlefield.”"
+        },
+        {
+          "title": "When a scaling effect breaks, cap the breadth rather than the magnitude",
+          "rules": "An effect that grows with a count will eventually grow past what you want. Reducing the rate makes it feel weak everywhere. Instead, let the size keep scaling and limit how many things it can reach — the ceiling arrives without the small cases being punished.",
+          "flavor": "“An early version experimented with each Zombie getting to give -1/-1 to target creature until end of turn, but that ended up being too powerful… The solution was to disconnect the targeting from the Zombie tokens. Instead of each token generating an effect, the spell now generates the -N/-N effect, which allowed us to limit it to targeting a single creature.”"
+        },
+        {
+          "title": "Give the absence a reason and it stops being a gap",
+          "rules": "A schedule change can strip a piece out of a structure people will notice is incomplete. Rather than hiding it, write the missing item's absence into the story — the thing that is conspicuously not here becomes a setup for wherever it went.",
+          "flavor": "“We had three sets to play with and three titans… And then, mid-design, we changed from a three-block model to a two-block model… If we did only two, the audience would keep asking where the third one was. Maybe that wasn't a bug, though, but a feature. What if Emrakul was gone because she was lured somewhere else?”"
+        },
+        {
+          "title": "When the effect isn't in your lane, find a mechanism that is",
+          "rules": "A required moment can demand something the party performing it isn't allowed to do. Don't force the effect — enumerate what they can do and ask whether one of those verbs produces the same outcome by a different route. The bend then lands on the mechanism rather than the boundary.",
+          "flavor": "“Blue doesn't destroy things, and imprisonment really isn't destruction… Blue can transform creatures. Was there some way to use transformation? What if you shut off a creature by making it do something different?… We ended up with transforming the creature into a mana generator… It was a big color pie bend but not quite a break.”"
+        },
+        {
+          "title": "Two steps down justify one step up",
+          "rules": "When you revise something familiar and two of its properties come back weaker, the total has quietly dropped even though each individual change looked reasonable. Track the aggregate and spend the difference somewhere visible, so the new version doesn't read as a downgrade.",
+          "flavor": "“We weren't bringing back annihilator, so we swapped it for trample. Protection from colored spells got changed to protection from instants. As both of those were a slight step down, we decided to up the cast trigger… What if we tweaked that by giving you an extra turn—just not an extra turn for you?”"
+        },
+        {
+          "title": "Some permissions arrive because the baseline moved, not because anyone won the argument",
+          "rules": "A long-running dispute about what one party may have can sit unresolved for years and then resolve itself, because the general standard drifted until the contested thing stopped being remarkable. Notice when that's what happened — the argument didn't get better, the world did.",
+          "flavor": "Green and white had a vanilla 2/2 for two; black got one in Innistrad after “huge amounts of debate.” Then red: “Many argued that red should also be allowed a 2/2 vanilla for 1R. This debate has been going on for a while, but it finally got settled in Eldritch Moon… As we've made creatures better over the years, we've upped the creature curve.”"
+        },
+        {
+          "title": "A revisit is the chance to apply the conventions learned since",
+          "rules": "Old work encodes the practices of its era, including ones you'd no longer choose. When you return to it, port the design forward: keep what made it good, and quietly update the parts that only looked that way because everything did.",
+          "flavor": "“Both Kindle and Accumulated Knowledge counted cards in all graveyards. Back in the day, that's just how we did effects that looked for things… Over the years, we've realized that the gameplay was better (and easier to parse) if your things mostly just affected or counted your other things. That means the first change is that both cards only look at copies of the card in your graveyard.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Eldritch perfecto, parte 1",
+      "dek": "Dos Ángeles diseñados hacia atrás desde aquello en lo que se convierten, incluida una habilidad elegida porque no tendría que trasladarse.",
+      "overview": "Historias de cartas de Eldritch Moon: repartir un conjunto fijo de habilidades entre dos mitades, poner techo a un hechizo escalable estrechándolo en vez de debilitarlo, y una discusión de rueda de color que duró veinte años y se resolvió por deriva.",
+      "takeaway": "«Un disparo de entrada al campo de batalla funcionaba bien porque no teníamos que trasladarlo a Brisela: la carta fundida no entra al campo de batalla.»",
+      "lessons": [
+        {
+          "title": "Para una fusión, trabaja hacia atrás desde el objeto combinado",
+          "rules": "Cuando dos piezas van a convertirse en una, la unión es el diseño real y las mitades son una partición de ella. Enumera qué puede tener el conjunto, quita lo demasiado fuerte para el todo, reparte el resto equitativamente, y haz que los números cuadren exactamente: alguien lo comprobará.",
+          "flavor": "«¿Cuáles son las palabras clave de criatura del blanco?… Dañar primero dos veces era demasiado, y ambas necesitaban volar. Así que repartimos dañar primero, vínculo vital y vigilancia… queríamos que la fuerza y la resistencia cuadraran, de modo que Brisela tuviera la suma de ambas. (Curiosamente, con tanto retoque, se nos descuadraron por accidente.)»"
+        },
+        {
+          "title": "Dale a una mitad algo que no se traslade",
+          "rules": "Equilibrar dos componentes que se combinan es difícil porque todo lo que añades a cualquiera aparece en el resultado. Una habilidad que no puede aplicarse a la forma fundida lo resuelve: la mitad recibe su parte de contenido y el todo no absorbe nada.",
+          "flavor": "«Eso son tres habilidades. Queríamos que cada Ángel tuviera el mismo número, así que necesitábamos una cosa más. Un disparo de entrada al campo de batalla funcionaba bien porque no teníamos que trasladarlo a Brisela: la carta fundida no entra al campo de batalla.»"
+        },
+        {
+          "title": "El texto administrativo se paga del presupuesto de contenido",
+          "rules": "La pieza que lleve las instrucciones de cómo funciona el sistema tendrá justo ese espacio menos para todo lo demás. Decide pronto cuál asume la sobrecarga y dale a la otra el material que necesita sitio; si no, ambas acaban apretadas.",
+          "flavor": "«Gisela se hizo algo más pequeña y recibió dañar primero y vínculo vital. Era importante mantener su texto corto, porque uno de los dos Ángeles tenía que llevar el texto de transformación que los fundía si ambos estaban en el campo de batalla.»"
+        },
+        {
+          "title": "Cuando un efecto escalable se rompe, pon techo a la amplitud, no a la magnitud",
+          "rules": "Un efecto que crece con un recuento acabará creciendo más de lo que quieres. Bajar la tasa lo hace sentir flojo en todas partes. En su lugar, deja que el tamaño siga escalando y limita a cuántas cosas puede alcanzar: el techo llega sin castigar los casos pequeños.",
+          "flavor": "«Una versión temprana probó que cada Zombie diera -1/-1 a una criatura objetivo hasta el final del turno, pero resultó demasiado poderosa… La solución fue desconectar el objetivo de las fichas de Zombie. En vez de que cada ficha genere un efecto, el hechizo genera el efecto -N/-N, lo que nos permitió limitarlo a una sola criatura objetivo.»"
+        },
+        {
+          "title": "Dale una razón a la ausencia y dejará de ser un hueco",
+          "rules": "Un cambio de calendario puede arrancar una pieza de una estructura cuya incompletitud la gente notará. En vez de esconderlo, escribe esa ausencia dentro de la historia: aquello que llamativamente no está se convierte en la preparación de a dónde se fue.",
+          "flavor": "«Teníamos tres ediciones y tres titanes… Y entonces, a mitad del diseño, pasamos de un modelo de tres bloques a uno de dos… Si hacíamos solo dos, el público preguntaría dónde estaba el tercero. Pero quizá eso no era un error, sino una función. ¿Y si Emrakul no estaba porque la habían atraído a otro sitio?»"
+        },
+        {
+          "title": "Cuando el efecto no está en tu carril, busca un mecanismo que sí lo esté",
+          "rules": "Un momento obligado puede exigir algo que quien lo ejecuta no tiene permitido hacer. No fuerces el efecto: enumera lo que sí puede hacer y pregunta si alguno de esos verbos produce el mismo resultado por otra ruta. Así la torsión recae en el mecanismo y no en la frontera.",
+          "flavor": "«El azul no destruye cosas, y encarcelar no es realmente destruir… El azul puede transformar criaturas. ¿Había forma de usar la transformación? ¿Y si apagas una criatura haciéndole hacer algo distinto?… Acabamos transformando la criatura en un generador de maná… Fue una gran torsión de la rueda de color, pero no una ruptura.»"
+        },
+        {
+          "title": "Dos pasos atrás justifican un paso adelante",
+          "rules": "Cuando revisas algo conocido y dos de sus propiedades vuelven más flojas, el total ha bajado calladamente aunque cada cambio pareciera razonable por separado. Vigila el agregado y gasta la diferencia en algo visible, para que la nueva versión no se lea como un recorte.",
+          "flavor": "«No íbamos a traer de vuelta aniquilador, así que lo cambiamos por arrolladora. Protección contra hechizos de color pasó a protección contra instantáneos. Como ambas eran un pequeño paso atrás, decidimos subir el disparo al lanzarla… ¿Y si lo retocábamos dándote un turno extra, solo que no un turno extra para ti?»"
+        },
+        {
+          "title": "Algunos permisos llegan porque se movió la línea base, no porque alguien ganara la discusión",
+          "rules": "Una disputa larga sobre qué puede tener una parte puede quedar sin resolver años y luego resolverse sola, porque el estándar general derivó hasta que lo discutido dejó de ser notable. Fíjate cuando pasa eso: no mejoró el argumento, mejoró el mundo.",
+          "flavor": "Verde y blanco tenían una 2/2 vainilla por dos; el negro consiguió una en Innistrad tras «enormes debates». Luego el rojo: «Muchos argumentaban que al rojo también debía permitírsele una 2/2 vainilla por 1R. El debate llevaba tiempo, pero por fin se zanjó en Eldritch Moon… Al mejorar las criaturas con los años, hemos subido la curva.»"
+        },
+        {
+          "title": "Una revisita es la ocasión de aplicar las convenciones aprendidas desde entonces",
+          "rules": "El trabajo antiguo codifica las prácticas de su época, incluidas las que ya no elegirías. Cuando vuelvas a él, porta el diseño hacia delante: conserva lo que lo hacía bueno y actualiza calladamente las partes que solo lo parecían porque todo lo era.",
+          "flavor": "«Tanto Kindle como Accumulated Knowledge contaban cartas en todos los cementerios. En su día, así hacíamos los efectos que buscaban cosas… Con los años vimos que el juego era mejor (y más fácil de leer) si tus cosas afectaban o contaban sobre todo tus otras cosas. Ese es el primer cambio: ambas solo miran tu cementerio.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Eldritch parfait, partie 1",
+      "dek": "Deux anges conçus à rebours de ce qu'ils deviennent — dont une capacité choisie parce qu'elle n'aurait pas à être reportée.",
+      "overview": "Histoires de cartes d'Eldritch Moon : répartir un ensemble fixe de capacités entre deux moitiés, plafonner un sort à échelle en le rétrécissant plutôt qu'en l'affaiblissant, et une querelle de roue des couleurs vieille de vingt ans réglée par la dérive.",
+      "takeaway": "« Un déclencheur d'arrivée convenait bien, car nous n'avions pas à le reporter sur Brisela : la carte fusionnée n'arrive pas sur le champ de bataille. »",
+      "lessons": [
+        {
+          "title": "Pour une fusion, travaillez à rebours depuis l'objet combiné",
+          "rules": "Quand deux pièces doivent n'en faire qu'une, l'union est la vraie conception et les moitiés en sont une partition. Listez ce que l'ensemble peut avoir, retirez ce qui est trop fort pour le tout, partagez le reste équitablement — et faites que les nombres tombent juste : quelqu'un vérifiera.",
+          "flavor": "« Quels sont les mots-clés de créature du blanc ?… La double initiative était un peu trop, et il leur fallait le vol à toutes deux. Restaient l'initiative, le lien de vie et la vigilance… nous voulions que force et endurance s'additionnent pour Brisela. (Curieusement, à force de retouches, elles ne tombaient plus juste.) »"
+        },
+        {
+          "title": "Donnez à une moitié une chose qui ne sera pas reportée",
+          "rules": "Équilibrer deux composants qui se combinent est difficile, car tout ce que vous ajoutez à l'un apparaît dans le résultat. Une capacité inapplicable à la forme fusionnée règle cela : la moitié reçoit sa part de contenu et le tout n'absorbe rien.",
+          "flavor": "« Cela fait trois capacités. Nous voulions que chaque ange en ait autant, il en fallait donc une de plus. Un déclencheur d'arrivée convenait bien, car nous n'avions pas à le reporter sur Brisela : la carte fusionnée n'arrive pas sur le champ de bataille. »"
+        },
+        {
+          "title": "Le texte administratif se paie sur le budget du contenu",
+          "rules": "La pièce qui porte le mode d'emploi du système a d'autant moins de place pour le reste. Décidez tôt laquelle assume la charge et donnez à l'autre la matière qui demande de l'espace — sinon les deux finissent à l'étroit.",
+          "flavor": "« Gisela a été faite un peu plus petite et dotée de l'initiative et du lien de vie. Il importait de garder son texte court, car l'un des deux anges devait porter le texte de transformation qui les fusionnait si tous deux étaient sur le champ de bataille. »"
+        },
+        {
+          "title": "Quand un effet à échelle casse, plafonnez l'étendue plutôt que l'ampleur",
+          "rules": "Un effet qui croît avec un décompte finira par dépasser ce que vous vouliez. Baisser le taux le rend faible partout. Laissez plutôt la taille croître et limitez le nombre de cibles : le plafond arrive sans punir les petits cas.",
+          "flavor": "« Une version initiale donnait à chaque zombie un -1/-1 sur une créature ciblée jusqu'à la fin du tour, mais c'était trop puissant… La solution fut de déconnecter le ciblage des jetons. Au lieu que chaque jeton produise un effet, le sort produit l'effet -N/-N, ce qui permettait de le limiter à une seule créature ciblée. »"
+        },
+        {
+          "title": "Donnez une raison à l'absence et ce n'est plus un trou",
+          "rules": "Un changement de calendrier peut arracher une pièce d'une structure dont chacun verra qu'elle est incomplète. Plutôt que de le cacher, inscrivez cette absence dans l'histoire : ce qui manque ostensiblement devient l'amorce de là où c'est parti.",
+          "flavor": "« Nous avions trois éditions et trois titans… Puis, en pleine conception, nous sommes passés d'un modèle à trois blocs à deux… Avec seulement deux, le public demanderait où est le troisième. Mais ce n'était peut-être pas un bug : une fonctionnalité. Et si Emrakul manquait parce qu'on l'avait attirée ailleurs ? »"
+        },
+        {
+          "title": "Quand l'effet n'est pas dans votre couloir, trouvez un mécanisme qui l'est",
+          "rules": "Un moment obligé peut exiger une chose que celui qui l'accomplit n'a pas le droit de faire. Ne forcez pas l'effet : listez ce qu'il peut faire et demandez si l'un de ces verbes produit le même résultat par une autre route. La torsion porte alors sur le mécanisme, non sur la frontière.",
+          "flavor": "« Le bleu ne détruit pas, et emprisonner n'est pas détruire… Le bleu peut transformer des créatures. Y avait-il moyen d'user de la transformation ? Et si l'on éteignait une créature en lui faisant faire autre chose ?… Nous avons fini par la transformer en générateur de mana… Une grosse torsion, mais pas tout à fait une rupture. »"
+        },
+        {
+          "title": "Deux pas en arrière justifient un pas en avant",
+          "rules": "Quand vous révisez une chose connue et que deux de ses propriétés reviennent plus faibles, le total a discrètement baissé même si chaque changement semblait raisonnable. Suivez l'agrégat et dépensez la différence quelque part de visible, pour que la nouvelle version ne se lise pas comme un recul.",
+          "flavor": "« Nous ne ramenions pas l'annihilateur, remplacé par le piétinement. La protection contre les sorts colorés est devenue protection contre les éphémères. Ces deux reculs légers nous ont fait relever le déclencheur de lancement… Et si l'on donnait un tour supplémentaire — mais pas à vous ? »"
+        },
+        {
+          "title": "Certaines permissions arrivent parce que la référence a bougé, non parce qu'on a gagné le débat",
+          "rules": "Une longue querelle sur ce qu'une partie peut avoir peut rester ouverte des années puis se résoudre seule, car le standard général a dérivé jusqu'à rendre la chose contestée banale. Repérez ces cas : ce n'est pas l'argument qui s'est amélioré, c'est le monde.",
+          "flavor": "Le vert et le blanc avaient une 2/2 vanille pour deux ; le noir en a eu une dans Innistrad après « d'énormes débats ». Puis le rouge : « Beaucoup soutenaient que le rouge devait y avoir droit aussi. Le débat durait, et il s'est enfin réglé dans Eldritch Moon… À force d'améliorer les créatures, nous avons relevé la courbe. »"
+        },
+        {
+          "title": "Un retour est l'occasion d'appliquer les conventions apprises depuis",
+          "rules": "Le travail ancien encode les pratiques de son époque, y compris celles que vous ne choisiriez plus. En y revenant, portez la conception vers l'avant : gardez ce qui la rendait bonne et mettez discrètement à jour ce qui ne semblait bon que parce que tout l'était.",
+          "flavor": "« Kindle et Accumulated Knowledge comptaient les cartes dans tous les cimetières. À l'époque, c'est ainsi qu'on faisait les effets qui cherchaient des choses… Avec les années, nous avons vu que le jeu était meilleur si vos choses n'affectaient et ne comptaient surtout que vos autres choses. D'où : les deux ne regardent que votre cimetière. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Eldritch perfeito, parte 1",
+      "dek": "Dois Anjos projetados de trás para frente a partir daquilo em que se tornam — inclusive uma habilidade escolhida porque não precisaria ser transferida.",
+      "overview": "Histórias de cartas de Eldritch Moon: dividir um conjunto fixo de habilidades entre duas metades, pôr teto numa mágica escalável estreitando-a em vez de enfraquecê-la, e uma discussão de roda de cores que durou vinte anos e se resolveu por deriva.",
+      "takeaway": "“Um gatilho de entrada no campo de batalha funcionava bem porque não precisávamos transferi-lo para Brisela: a carta fundida não entra no campo de batalha.”",
+      "lessons": [
+        {
+          "title": "Para uma fusão, trabalhe de trás para frente a partir do objeto combinado",
+          "rules": "Quando duas peças vão virar uma, a união é o design de verdade e as metades são uma partição dela. Liste o que o conjunto pode ter, remova o que for forte demais para o todo, divida o resto por igual — e faça os números fecharem exatamente, porque alguém vai conferir.",
+          "flavor": "“Quais são as palavras-chave de criatura do branco?… Golpe duplo era demais, e ambas precisavam de voar. Sobrou dividir iniciativa, vínculo com a vida e vigilância… queríamos que poder e resistência somassem, de modo que Brisela tivesse o total das duas. (Curiosamente, com tanto ajuste, acabaram não fechando.)”"
+        },
+        {
+          "title": "Dê a uma metade algo que não será transferido",
+          "rules": "Balancear dois componentes que se combinam é difícil porque tudo que você acrescenta a qualquer um aparece no resultado. Uma habilidade que não pode se aplicar à forma fundida resolve: a metade recebe a sua parte de conteúdo e o todo não absorve nada.",
+          "flavor": "“São três habilidades. Queríamos que cada Anjo tivesse o mesmo número, então precisávamos de mais uma coisa. Um gatilho de entrada no campo de batalha funcionava bem porque não precisávamos transferi-lo para Brisela: a carta fundida não entra no campo de batalha.”"
+        },
+        {
+          "title": "Texto administrativo é pago com o orçamento de conteúdo",
+          "rules": "A peça que carrega as instruções de como o sistema funciona tem exatamente esse tanto a menos de espaço para o resto. Decida cedo qual assume a sobrecarga e dê à outra o material que precisa de espaço — senão as duas acabam apertadas.",
+          "flavor": "“Gisela foi feita um pouco menor e recebeu iniciativa e vínculo com a vida. Era importante manter o texto dela curto, porque um dos dois Anjos tinha de carregar o texto de transformação que os fundia se ambos estivessem no campo de batalha.”"
+        },
+        {
+          "title": "Quando um efeito escalável quebra, ponha teto na amplitude, não na magnitude",
+          "rules": "Um efeito que cresce com uma contagem vai acabar crescendo além do que você quer. Baixar a taxa o faz parecer fraco em todo lugar. Em vez disso, deixe o tamanho escalar e limite quantas coisas ele alcança: o teto chega sem punir os casos pequenos.",
+          "flavor": "“Uma versão inicial testou cada Zumbi dando -1/-1 a uma criatura alvo até o fim do turno, mas ficou poderosa demais… A solução foi desconectar a mira das fichas de Zumbi. Em vez de cada ficha gerar um efeito, a mágica gera o efeito -N/-N, o que nos permitiu limitá-la a uma única criatura alvo.”"
+        },
+        {
+          "title": "Dê uma razão à ausência e ela deixa de ser uma lacuna",
+          "rules": "Uma mudança de cronograma pode arrancar uma peça de uma estrutura cuja incompletude as pessoas vão notar. Em vez de esconder, escreva essa ausência dentro da história: aquilo que ostensivamente não está vira a preparação para onde foi parar.",
+          "flavor": "“Tínhamos três coleções e três titãs… E então, no meio do design, mudamos de um modelo de três blocos para dois… Se fizéssemos só dois, o público perguntaria onde estava o terceiro. Mas talvez isso não fosse um bug, e sim um recurso. E se Emrakul não estivesse porque fora atraída para outro lugar?”"
+        },
+        {
+          "title": "Quando o efeito não está na sua faixa, ache um mecanismo que esteja",
+          "rules": "Um momento obrigatório pode exigir algo que quem o executa não tem permissão de fazer. Não force o efeito: liste o que essa parte pode fazer e pergunte se algum desses verbos produz o mesmo resultado por outra rota. A torção recai então sobre o mecanismo, não sobre a fronteira.",
+          "flavor": "“O azul não destrói coisas, e aprisionar não é bem destruir… O azul pode transformar criaturas. Havia como usar a transformação? E se você desligasse uma criatura fazendo-a fazer outra coisa?… Acabamos transformando a criatura num gerador de mana… Foi uma grande torção da roda de cores, mas não bem uma quebra.”"
+        },
+        {
+          "title": "Dois passos para trás justificam um passo à frente",
+          "rules": "Quando você revisa algo conhecido e duas propriedades voltam mais fracas, o total caiu em silêncio mesmo que cada mudança parecesse razoável. Acompanhe o agregado e gaste a diferença em algo visível, para que a nova versão não se leia como rebaixamento.",
+          "flavor": "“Não íamos trazer aniquilador de volta, então trocamos por atropelar. Proteção contra mágicas coloridas virou proteção contra instantâneas. Como ambas eram um pequeno passo atrás, decidimos subir o gatilho ao conjurar… E se ajustássemos dando um turno extra — só que não um turno extra para você?”"
+        },
+        {
+          "title": "Algumas permissões chegam porque a linha de base se moveu, não porque alguém venceu a discussão",
+          "rules": "Uma disputa longa sobre o que uma parte pode ter fica anos sem resolução e então se resolve sozinha, porque o padrão geral derivou até o item em disputa deixar de ser notável. Note quando é isso: não foi o argumento que melhorou, foi o mundo.",
+          "flavor": "Verde e branco tinham um 2/2 baunilha por dois; o preto ganhou um em Innistrad após “enormes debates”. Depois o vermelho: “Muitos argumentavam que o vermelho também deveria poder. O debate durava havia tempo, mas enfim se resolveu em Eldritch Moon… Como melhoramos as criaturas ao longo dos anos, subimos a curva.”"
+        },
+        {
+          "title": "Uma revisita é a chance de aplicar as convenções aprendidas desde então",
+          "rules": "Trabalho antigo codifica as práticas da época dele, inclusive as que você já não escolheria. Ao voltar a ele, porte o design para a frente: mantenha o que o tornava bom e atualize em silêncio as partes que só pareciam boas porque tudo era assim.",
+          "flavor": "“Tanto Kindle quanto Accumulated Knowledge contavam cartas em todos os cemitérios. Na época, era assim que fazíamos efeitos que procuravam coisas… Com os anos, percebemos que o jogo era melhor (e mais fácil de ler) se as suas coisas afetassem ou contassem sobretudo as suas outras coisas. Daí: ambas só olham o seu cemitério.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "诡邪完美（上）",
+      "dek": "两位天使是从「她们会变成的那样东西」倒推着设计出来的——其中一项异能之所以被选中，正是因为它不必被带过去。",
+      "overview": "《异月传奇》的卡牌故事：把一份固定的异能池分给两半、靠收窄而不是削弱来给一个可缩放的咒语封顶，以及一场持续了二十年、最后靠「漂移」了结的色轮争论。",
+      "takeaway": "「一个『进战场』触发很合适，因为我们不必把它挪到布莉赛拉身上——那张融合后的牌不会进战场。」",
+      "lessons": [
+        {
+          "title": "做一次合体，要从那个合体后的对象倒推回来",
+          "rules": "当两块东西注定要变成一个时，那个「并集」才是真正的设计，而两半只是它的一次划分。列出这个组合体可以拥有什么，把对整体而言过强的拿掉，再把剩下的平均分开——并且让数字精确地加得起来，因为一定会有人去核。",
+          "flavor": "「白色的生物关键字有哪些？……连击有点过头，而且她俩都需要飞行。这就意味着我们可以去分先攻、系命和警戒……我们还希望力量和防御力能对得上，好让布莉赛拉拥有两位天使的力量之和与防御力之和。（有意思的是，在各种微调之中，我们不小心让它们加不起来了。）」"
+        },
+        {
+          "title": "给其中一半一样不会被带过去的东西",
+          "rules": "要平衡两个会合体的部件很难，因为你加到任何一边的东西都会出现在结果里。一项「无法作用于合体形态」的异能解决了这个问题：这一半拿到了属于它的那份内容，而整体一点也没吸收进去。",
+          "flavor": "「这就是三项异能。我们希望两位天使拥有的异能数量相同，所以我们还需要一样东西。一个『进战场』触发很合适，因为我们不必把它挪到布莉赛拉身上——那张融合后的牌不会进战场。」"
+        },
+        {
+          "title": "事务性的文字，是从内容预算里付的钱",
+          "rules": "哪一块承载了「这套系统如何运作」的说明，它留给其余一切的空间就少了那么多。早点决定由谁来扛这份开销，并把需要篇幅的材料交给另一块——否则两边都会挤。",
+          "flavor": "「吉赛拉被做得小了一点，并拿到了先攻和系命。让她的文字保持简短很重要，因为两位天使里必须有一位带上那段『若两者都在战场上则融合』的转化文字。」"
+        },
+        {
+          "title": "当一个可缩放的效果坏掉时，给「广度」封顶，而不是给「量级」封顶",
+          "rules": "一个随计数增长的效果，最终会长到超出你想要的程度。把增长率调低，会让它在所有情形下都显得弱。反过来，让规模继续放大，同时限制它能触及多少个对象：天花板到位了，而小场面没有被惩罚。",
+          "flavor": "「一个早期版本试过让每个僵尸给目标生物-1/-1直到回合结束，但那太强了……解法是把『选择目标』与僵尸衍生物脱钩。现在不是每个衍生物各生成一个效果，而是这个咒语生成那个-N/-N的效果；这就让我们能把它限制为只选择一个目标生物。」"
+        },
+        {
+          "title": "给这份缺席一个理由，它就不再是一个窟窿",
+          "rules": "一次日程变动，可能会从一个「人们看得出不完整」的结构里抠掉一块。与其把它藏起来，不如把这件缺失写进故事里：那样显眼地不在场的东西，就变成了「它去哪儿了」的铺垫。",
+          "flavor": "「我们手上有三个系列和三位泰坦……然后，在设计中途，我们从三系列组模式改成了两系列组模式……如果只做两位，观众会一直问第三位在哪儿。不过，也许那不是个缺陷，而是个特性。要是伊莫库之所以不在，是因为她被引到别处去了呢？」"
+        },
+        {
+          "title": "当那个效果不在你的车道上时，去找一个在你车道上的机制",
+          "rules": "一个非做不可的时刻，可能要求的正是「执行它的那一方不被允许做」的事。别硬去做那个效果——把这一方能做的事列出来，然后问：这些动词里有没有哪一个能换条路径产出同样的结果。于是这次弯折落在了机制上，而不是落在边界上。",
+          "flavor": "「蓝色不摧毁东西，而囚禁其实也不是摧毁……蓝色可以转化生物。有没有办法用上转化？要是你通过『让它去做别的事』来把一个生物关停呢？……我们最后是把这个生物转化成了一个产法术力的东西……这是一次很大的色轮弯折，但还算不上破裂。」"
+        },
+        {
+          "title": "两步下调，换来一步上调的正当性",
+          "rules": "当你改一样人们熟悉的东西、而它有两项性质回来时都变弱了，总量其实已经悄悄下滑了——尽管每一处改动单看都合情合理。盯住这个总和，并把这份差额花在某个看得见的地方，好让新版本读起来不像是缩水。",
+          "flavor": "「我们不打算把歼灭带回来，所以把它换成了践踏。『反有色咒语保护』改成了『反瞬间保护』。由于这两项都算是小幅下调，我们决定把施放触发往上调一调……要是我们把它改一改：给你一个额外回合——只不过，不是给你自己用的额外回合呢？」"
+        },
+        {
+          "title": "有些许可之所以到手，是因为基准线移动了，而不是因为谁赢了那场争论",
+          "rules": "一场关于「某一方可不可以拥有什么」的长期争执，可以悬而不决好些年，然后自己解决掉——因为总体的标准一路漂移，直到那件有争议的东西不再显眼。要注意到这种情形：变好的不是论据，是这个世界。",
+          "flavor": "绿色和白色有两点法术力的2/2香草；黑色在《依尼翠》里经过「大量争论」之后也拿到了一张。接着轮到红色：「许多人主张红色也应该被允许有1R的2/2香草。这场争论持续了一阵，但终于在《异月传奇》里被了结了……随着这些年我们把生物做得越来越好，我们把生物曲线抬高了。」"
+        },
+        {
+          "title": "一次重访，正是应用「此后学到的那些惯例」的机会",
+          "rules": "旧作品把它那个年代的做法编码在了里面，包括那些你如今不会再选的做法。当你回到它那里时，把这个设计往前搬运：保留让它变好的那些东西，同时悄悄更新那些「只是因为当时所有东西都那样」才看起来对的部分。",
+          "flavor": "「《点火》和《累积知识》数的都是所有坟墓场里的牌。在当年，我们做这类『去寻找什么』的效果就是这么做的……这些年我们意识到，如果你的东西大体上只影响、只计数你自己的其他东西，游戏体验会更好（也更容易读懂）。所以第一处改动是：两张牌都只看你自己坟墓场里的副本。」"
+        }
+      ]
+    }
+  }
+}
