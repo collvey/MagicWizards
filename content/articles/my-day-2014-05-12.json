@@ -1,0 +1,320 @@
+{
+  "id": "my-day-2014-05-12",
+  "slug": "my-day-2014-05-12",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2014-05-12",
+  "series": null,
+  "tags": ["magic-history", "sixth-edition-rules", "obsolete-rules", "iconography", "templating"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/my-day-2014-05-12",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-25T07:45:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "My Day",
+      "dek": "Interrupts, mana sources, poly artifacts, and the rule that got a player disqualified from a Pro Tour final.",
+      "overview": "A tour of everything Magic used to do and stopped doing — card types that no longer exist, three versions of the tap symbol, and the rules the Sixth Edition change swept away.",
+      "takeaway": "\"Part of the Sixth Edition rules change was to strip out rules that weren't carrying their weight.\"",
+      "lessons": [
+        {
+          "title": "If your rules reference a category, the objects must declare membership in it",
+          "rules": "The type line is where the rules look, and anything you put there for atmosphere is occupying a slot the system needs. Flavourful phrasing that implies a category without naming it leaves people unable to answer the most basic question about an object — what is it? — and that question is the one every other rule depends on.",
+          "flavor": "“Nowhere on a creature card did the word 'creature' actually appear. Instead, creature cards said 'Summon [creature type].' This was done for flavor reasons… The problem with this approach was it made it very hard for players to understand what a creature was. For example… the Terror says 'destroys target nonartifact, nonblack creature.' The Shivan Dragon, flavorwise, seems like a creature, but where on the card was that confirmed? It wasn't.”"
+        },
+        {
+          "title": "Don't create a global rule to enable a handful of cases — write the clause on those cases",
+          "rules": "A behaviour you want in three places can be granted by a universal rule or by three sentences. The universal rule is shorter and applies to everything you make afterwards, including the things you didn't think about, and it will be exploited by people who remembered it when you didn't. Pay the three sentences.",
+          "flavor": "“Continuous artifacts had a special rule that said they turned off when tapped… The problem with this rule is that it applied not just to the handful of cards where R&D wanted the interaction, but on every continuous artifact. This caused us all sorts of problems, because we kept forgetting that this rule existed and broken decks kept exploiting it… My solution was to take the handful of cards that we wanted to turn off when tapped and just write it on those cards.”"
+        },
+        {
+          "title": "Replace a taxonomy people must memorise with a convention they can read off the object",
+          "rules": "Formal subcategories that encode how something behaves put the burden on the reader to learn a vocabulary before they can use anything. The same information can live in the presentation instead: make every object of a kind look the same, and people infer the rule from the pattern without ever being taught it. Then the category names can go.",
+          "flavor": "“Mono artifacts were ones that essentially had a tap symbol… Poly artifacts were artifacts that had an ability that could be used multiple times… Continuous artifacts were ones with an ongoing global effect. The interesting thing about the use of these three types is that they forced players to learn additional vocabulary to understand how the cards worked. With time, we would get better at having the cards have a consistent application.”"
+        },
+        {
+          "title": "Contrast is only available to someone holding both — test the variant in isolation",
+          "rules": "You design a counterpart by putting it next to the original, where every difference is obvious to you. The person who meets only one has no comparison and reads it against their memory of the common case, which is where it will be misidentified. Show the new thing alone, to someone who has just seen the ordinary one, and find out what they call it.",
+          "flavor": "On the untap symbol introduced in Shadowmoor: “While in comparison, the untap symbol seems very different from the tap symbol (inverted colors and reverse arrow direction), in isolation, we found that people read it as the tap symbol.”"
+        },
+        {
+          "title": "Skill expressed through obscure knowledge is the cheapest kind, and the first to cut",
+          "rules": "Any inconsistency in your system becomes a thing experts know and novices don't, and its defenders will call that an edge worth preserving. It isn't much of one. Mastery that consists of remembering an arbitrary exception is available to anyone who reads a list, and there are always better places for expertise to show. Remove the rule.",
+          "flavor": "On tapped blockers dealing no damage: “Part of the Sixth Edition rules change was to strip out rules that weren't carrying their weight, and the tapped-blockers rule had always been a bit wonky… you'll see there were some who were very opposed to this change. They felt that knowing about this trick and exploiting it was part of what gave experienced players an edge. We countered that there were plenty of other places for the better players to excel.”"
+        },
+        {
+          "title": "A rule you only notice when it destroys someone was never doing any work",
+          "rules": "Some requirements sit unexamined for years because nothing ever turns on them. Then one is enforced at the worst possible moment, and the enforcement is what makes everyone look at it. Read that as evidence: a rule whose only visible effect in its whole life was a catastrophe for one person is a rule with no upside to weigh against it.",
+          "flavor": "“At the second Pro Tour Los Angeles, David Mills was disqualified from the finals of the Pro Tour (making his competitor Tommi Hovi the winner) because he kept playing his spells before he tapped his mana. Yes, once upon a time, you had to tap your mana before you played your spell… The incident made us realize that the rule was a little silly, so we changed it—creating what no one but me refers to as the David Mills Rule.”"
+        },
+        {
+          "title": "Don't wait for the clean boundary — ship the change into the first slot you can touch",
+          "rules": "Whenever you want to change something structural, the room will advise starting at the next natural break, because it's tidier. Tidiness is not worth the delay: the boundary is often a year away, and every release in between ships without the improvement. If the change is worth making, make it in the first thing you can still affect.",
+          "flavor": "Neither rarity indicators nor collector numbers existed until 1999. “Joel Mick took over as the Magic brand manager. He felt it was important for the information of the cards to be available on the cards themselves… Joel took over during the middle of the Urza's Saga block and was told by others that he should wait until the next block to make his change, but Joel thought it was important enough that he made the change during the first set he could affect.”"
+        },
+        {
+          "title": "For the element people see most, appearance outweighs marginal instructional value",
+          "rules": "There's usually one component that appears far more often than anything else you make. Arguments about it will be conducted on function — this version explains itself better to newcomers — and function is the wrong axis at that frequency. Something encountered constantly should be good to look at, and that consideration legitimately wins.",
+          "flavor": "Basic lands lost their reminder text after Portal, a set with no tapped activated abilities, tried a giant mana symbol instead. “It's still a topic of argument. There are some who believe that the game is better for beginners if the lands tell you more exactly what they do… Regardless, we really like the aesthetic of how they look and feel it's important for something that sees so much play to be as visually pleasing as possible.”"
+        },
+        {
+          "title": "A symbol built out of a word breaks at the first translation",
+          "rules": "Iconography derived from the initial of a term works perfectly in the language it was designed in and nowhere else. Check the destination languages before committing: the word may start with a different letter, or the alphabet may not contain the letter at all. And expect further revisions from conditions you haven't met yet — legibility at a distance is a different test from legibility in the hand.",
+          "flavor": "“In Alpha, cards told you in text to tap them. Then in Revised, this symbol appeared: a tilted T in a circle… This symbol proved to be problematic as soon as Magic started printing cards in other languages as the word for 'tap' didn't always start with a T (and some languages didn't even have a T). In Fourth Edition, the symbol changed… With time, it became clear that this tap symbol was hard to read from a distance, so in Eighth Edition it was changed.”"
+        },
+        {
+          "title": "A design that depends on information scarcity has a shelf life set by the information environment",
+          "rules": "Building an experience around not knowing what exists is legitimate and is not a property of your work — it's a property of the surrounding world, which will change without consulting you. When it does, the withholding stops producing discovery and starts producing only inconvenience for the people who want to know. Notice the moment and give the information up.",
+          "flavor": "“In the early days, Wizards purposefully didn't tell anyone which cards were in the set. Why was this? Because Magic was made just as the Internet was in its infancy. Richard Garfield liked the idea that part of the game was the discovery of what cards existed. You would learn of new cards as you played new people… Eventually, Wizards realized that withholding information in a new age of information was fruitless, so we began listing sets.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Mis tiempos",
+      "dek": "Interrupciones, fuentes de maná, artefactos poli, y la regla que descalificó a un jugador en la final de un Pro Tour.",
+      "overview": "Un recorrido por todo lo que Magic hacía y dejó de hacer: tipos de carta que ya no existen, tres versiones del símbolo de girar, y las reglas que barrió el cambio de la Sexta Edición.",
+      "takeaway": "«Parte del cambio de reglas de la Sexta Edición fue eliminar reglas que no se ganaban su sitio.»",
+      "lessons": [
+        {
+          "title": "Si tus reglas se refieren a una categoría, los objetos deben declarar que pertenecen a ella",
+          "rules": "La línea de tipo es donde miran las reglas, y todo lo que pongas ahí por ambiente ocupa un espacio que el sistema necesita. Una formulación con sabor que insinúa una categoría sin nombrarla deja a la gente sin poder responder la pregunta más básica sobre un objeto —¿qué es?— y esa pregunta es de la que dependen todas las demás reglas.",
+          "flavor": "«En ninguna parte de una carta de criatura aparecía realmente la palabra «criatura». En su lugar, las cartas de criatura decían «Invocar [tipo de criatura]». Esto se hizo por razones de sabor… El problema de este enfoque es que hacía muy difícil que los jugadores entendieran qué era una criatura. Por ejemplo… Terror dice «destruye la criatura objetivo que no sea artefacto ni negra». El Shivan Dragon, por sabor, parece una criatura, ¿pero dónde se confirmaba eso en la carta? En ninguna parte.»"
+        },
+        {
+          "title": "No crees una regla global para habilitar un puñado de casos: escribe la cláusula en esos casos",
+          "rules": "Un comportamiento que quieres en tres sitios puede concederse con una regla universal o con tres frases. La regla universal es más corta y se aplica a todo lo que hagas después, incluidas las cosas en las que no pensaste, y la explotará gente que la recordaba cuando tú no. Paga las tres frases.",
+          "flavor": "«Los artefactos continuos tenían una regla especial que decía que se apagaban al girarse… El problema de esta regla es que se aplicaba no solo al puñado de cartas donde I+D quería la interacción, sino a todos los artefactos continuos. Esto nos causó toda clase de problemas, porque seguíamos olvidando que la regla existía y los mazos rotos la explotaban una y otra vez… Mi solución fue tomar el puñado de cartas que queríamos que se apagaran al girarse y escribirlo simplemente en esas cartas.»"
+        },
+        {
+          "title": "Sustituye una taxonomía que hay que memorizar por una convención que se lee en el objeto",
+          "rules": "Las subcategorías formales que codifican cómo se comporta algo cargan al lector con aprender un vocabulario antes de poder usar nada. La misma información puede vivir en la presentación: haz que todos los objetos de una clase se vean igual, y la gente inferirá la regla del patrón sin que nadie se la enseñe. Entonces los nombres de categoría pueden desaparecer.",
+          "flavor": "«Los artefactos mono eran los que esencialmente tenían un símbolo de girar… Los poli eran artefactos con una habilidad que podía usarse varias veces… Los continuos eran los que tenían un efecto global continuo. Lo interesante del uso de estos tres tipos es que obligaban a los jugadores a aprender vocabulario adicional para entender cómo funcionaban las cartas. Con el tiempo, mejoramos en hacer que las cartas tuvieran una aplicación consistente.»"
+        },
+        {
+          "title": "El contraste solo está disponible para quien tiene los dos: prueba la variante aislada",
+          "rules": "Diseñas una contraparte poniéndola junto al original, donde cada diferencia te resulta obvia. Quien solo se encuentra con una no tiene comparación y la lee contra su recuerdo del caso común, que es donde se identificará mal. Enseña lo nuevo solo, a alguien que acaba de ver lo corriente, y averigua cómo lo llama.",
+          "flavor": "Sobre el símbolo de enderezar introducido en Shadowmoor: «Aunque en comparación el símbolo de enderezar parece muy distinto del de girar (colores invertidos y flecha en sentido contrario), aislado descubrimos que la gente lo leía como el símbolo de girar.»"
+        },
+        {
+          "title": "La habilidad que consiste en conocimiento oscuro es la más barata, y la primera en cortarse",
+          "rules": "Cualquier inconsistencia de tu sistema se convierte en algo que los expertos saben y los novatos no, y sus defensores lo llamarán una ventaja digna de conservar. No lo es tanto. La maestría que consiste en recordar una excepción arbitraria está al alcance de cualquiera que lea una lista, y siempre hay mejores sitios donde la pericia puede lucirse. Quita la regla.",
+          "flavor": "Sobre los bloqueadores girados que no hacían daño: «Parte del cambio de reglas de la Sexta Edición fue eliminar reglas que no se ganaban su sitio, y la de los bloqueadores girados siempre había sido algo rara… verás que hubo quien se opuso mucho al cambio. Sentían que conocer ese truco y explotarlo era parte de lo que daba ventaja a los jugadores experimentados. Nosotros respondimos que había muchos otros sitios donde los mejores podían destacar.»"
+        },
+        {
+          "title": "Una regla que solo notas cuando destroza a alguien nunca estuvo haciendo ningún trabajo",
+          "rules": "Algunos requisitos pasan años sin ser examinados porque nunca depende nada de ellos. Entonces uno se aplica en el peor momento posible, y esa aplicación es lo que hace que todos lo miren. Léelo como evidencia: una regla cuyo único efecto visible en toda su vida fue una catástrofe para una persona es una regla sin nada positivo que poner en la balanza.",
+          "flavor": "«En el segundo Pro Tour Los Ángeles, David Mills fue descalificado en la final del Pro Tour (haciendo ganador a su rival Tommi Hovi) porque no dejaba de jugar sus hechizos antes de girar su maná. Sí, hubo un tiempo en que había que girar el maná antes de jugar el hechizo… El incidente nos hizo ver que la regla era un poco tonta, así que la cambiamos, creando lo que nadie salvo yo llama la Regla David Mills.»"
+        },
+        {
+          "title": "No esperes a la frontera limpia: mete el cambio en el primer hueco que puedas tocar",
+          "rules": "Siempre que quieras cambiar algo estructural, la sala te aconsejará empezar en el siguiente corte natural, porque queda más ordenado. El orden no compensa el retraso: la frontera suele estar a un año, y todo lo que salga entretanto sale sin la mejora. Si el cambio merece la pena, hazlo en lo primero sobre lo que aún puedas influir.",
+          "flavor": "Ni los indicadores de rareza ni los números de coleccionista existieron hasta 1999. «Joel Mick asumió como brand manager de Magic. Le parecía importante que la información de las cartas estuviera disponible en las propias cartas… Joel asumió a mitad del bloque de Urza's Saga y otros le dijeron que esperara al siguiente bloque para hacer el cambio, pero a Joel le pareció lo bastante importante como para hacerlo en la primera colección sobre la que pudo influir.»"
+        },
+        {
+          "title": "En el elemento que más se ve, la apariencia pesa más que un valor instructivo marginal",
+          "rules": "Suele haber un componente que aparece muchísimo más a menudo que todo lo demás que haces. Las discusiones sobre él se llevarán al terreno de la función —esta versión se explica mejor a los recién llegados— y a esa frecuencia la función es el eje equivocado. Algo con lo que uno se encuentra constantemente debería dar gusto verlo, y esa consideración gana legítimamente.",
+          "flavor": "Las tierras básicas perdieron su texto recordatorio después de que Portal, una colección sin habilidades activadas de girar, probara en su lugar un símbolo de maná gigante. «Sigue siendo tema de discusión. Hay quien cree que el juego es mejor para principiantes si las tierras dicen con más exactitud lo que hacen… En cualquier caso, nos gusta mucho la estética de cómo quedan y creemos que es importante que algo que se ve tanto sea lo más agradable posible a la vista.»"
+        },
+        {
+          "title": "Un símbolo construido a partir de una palabra se rompe en la primera traducción",
+          "rules": "La iconografía derivada de la inicial de un término funciona perfectamente en el idioma en que se diseñó y en ningún otro. Comprueba los idiomas de destino antes de comprometerte: la palabra puede empezar por otra letra, o el alfabeto puede no contener esa letra. Y cuenta con más revisiones por condiciones que aún no has encontrado: legible a distancia es una prueba distinta de legible en la mano.",
+          "flavor": "«En Alpha, las cartas te decían con texto que las giraras. Luego, en Revised, apareció este símbolo: una T inclinada dentro de un círculo… Este símbolo resultó problemático en cuanto Magic empezó a imprimir cartas en otros idiomas, porque la palabra «girar» no siempre empezaba por T (y algunos idiomas ni siquiera tenían T). En la Cuarta Edición el símbolo cambió… Con el tiempo quedó claro que era difícil de leer a distancia, así que en la Octava Edición se cambió.»"
+        },
+        {
+          "title": "Un diseño que depende de la escasez de información caduca cuando cambia el entorno informativo",
+          "rules": "Construir una experiencia alrededor de no saber qué existe es legítimo y no es una propiedad de tu obra: es una propiedad del mundo circundante, que cambiará sin consultarte. Cuando lo haga, ocultar deja de producir descubrimiento y solo produce molestia para quien quiere saber. Advierte ese momento y suelta la información.",
+          "flavor": "«En los primeros tiempos, Wizards deliberadamente no le decía a nadie qué cartas había en la colección. ¿Por qué? Porque Magic se hizo justo cuando internet estaba en pañales. A Richard Garfield le gustaba la idea de que parte del juego fuera descubrir qué cartas existían. Te enterabas de cartas nuevas al jugar con gente nueva… Con el tiempo, Wizards se dio cuenta de que ocultar información en una nueva era de la información era inútil, así que empezamos a publicar las listas.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "De mon temps",
+      "dek": "Interruptions, sources de mana, artefacts poly, et la règle qui a fait disqualifier un joueur en finale de Pro Tour.",
+      "overview": "Une visite de tout ce que Magic faisait et ne fait plus : des types de carte disparus, trois versions du symbole d'engagement, et les règles balayées par la refonte de la Sixième Édition.",
+      "takeaway": "« Une part de la refonte des règles de la Sixième Édition consistait à retirer les règles qui ne portaient pas leur poids. »",
+      "lessons": [
+        {
+          "title": "Si vos règles évoquent une catégorie, les objets doivent déclarer qu'ils en font partie",
+          "rules": "La ligne de type est l'endroit où les règles regardent, et tout ce que vous y mettez pour l'ambiance occupe une place dont le système a besoin. Une formulation savoureuse qui suggère une catégorie sans la nommer laisse les gens incapables de répondre à la question la plus élémentaire sur un objet — qu'est-ce que c'est ? — et c'est d'elle que dépendent toutes les autres règles.",
+          "flavor": "« Nulle part sur une carte de créature n'apparaissait le mot « créature ». À la place, les cartes de créature disaient « Invoquer [type de créature] ». C'était pour des raisons de saveur… Le problème est que cela rendait très difficile de comprendre ce qu'était une créature. Par exemple… Terror dit « détruisez la créature ciblée non-artefact et non-noire ». Le Shivan Dragon, par la saveur, semble une créature, mais où sur la carte était-ce confirmé ? Nulle part. »"
+        },
+        {
+          "title": "Ne créez pas une règle globale pour permettre une poignée de cas — écrivez la clause sur ces cas",
+          "rules": "Un comportement voulu à trois endroits peut être accordé par une règle universelle ou par trois phrases. La règle universelle est plus courte et s'applique à tout ce que vous ferez ensuite, y compris ce à quoi vous n'avez pas pensé, et elle sera exploitée par des gens qui s'en souvenaient quand vous l'aviez oubliée. Payez les trois phrases.",
+          "flavor": "« Les artefacts continus avaient une règle spéciale : ils s'éteignaient quand ils étaient engagés… Le problème est qu'elle s'appliquait non seulement à la poignée de cartes où la R&D voulait l'interaction, mais à tous les artefacts continus. Cela nous a causé toutes sortes d'ennuis, car nous oubliions sans cesse que cette règle existait et des decks cassés l'exploitaient… Ma solution : prendre la poignée de cartes que nous voulions voir s'éteindre et l'écrire dessus. »"
+        },
+        {
+          "title": "Remplacez une taxinomie à mémoriser par une convention qui se lit sur l'objet",
+          "rules": "Les sous-catégories formelles qui encodent le comportement obligent le lecteur à apprendre un vocabulaire avant de pouvoir se servir de quoi que ce soit. La même information peut vivre dans la présentation : faites que tous les objets d'une sorte se ressemblent, et l'on déduira la règle du motif sans jamais l'avoir apprise. Les noms de catégorie peuvent alors disparaître.",
+          "flavor": "« Les artefacts mono avaient en somme un symbole d'engagement… Les poly avaient une capacité utilisable plusieurs fois… Les continus avaient un effet global permanent. Ce qui est intéressant, c'est que ces trois types obligeaient les joueurs à apprendre du vocabulaire supplémentaire pour comprendre le fonctionnement des cartes. Avec le temps, nous sommes devenus meilleurs pour donner aux cartes une application cohérente. »"
+        },
+        {
+          "title": "Le contraste n'est offert qu'à qui détient les deux — testez la variante isolée",
+          "rules": "On conçoit un pendant en le posant à côté de l'original, où chaque différence saute aux yeux. Celui qui n'en rencontre qu'un n'a pas de comparaison et le lit contre son souvenir du cas courant : c'est là qu'il sera mal identifié. Montrez la nouveauté seule, à quelqu'un qui vient de voir l'ordinaire, et voyez comment il la nomme.",
+          "flavor": "Sur le symbole de dégagement introduit dans Shadowmoor : « Alors que, par comparaison, le symbole de dégagement paraît très différent de celui d'engagement (couleurs inversées, flèche en sens contraire), isolé, nous avons constaté que les gens le lisaient comme le symbole d'engagement. »"
+        },
+        {
+          "title": "L'habileté faite de savoir obscur est la moins chère, et la première à couper",
+          "rules": "Toute incohérence de votre système devient une chose que les experts savent et pas les novices, et ses défenseurs appelleront cela un avantage à préserver. Ce n'en est guère un. Une maîtrise qui consiste à se rappeler une exception arbitraire est à la portée de quiconque lit une liste, et l'expertise a toujours de meilleurs endroits où se montrer. Retirez la règle.",
+          "flavor": "Sur les bloqueurs engagés qui n'infligeaient pas de blessures : « Une part de la refonte de la Sixième Édition consistait à retirer les règles qui ne portaient pas leur poids, et celle des bloqueurs engagés avait toujours été bancale… certains s'y sont vivement opposés. Ils estimaient que connaître cette astuce et l'exploiter faisait partie de l'avantage des joueurs expérimentés. Nous répondions qu'il existait bien d'autres endroits où les meilleurs pouvaient exceller. »"
+        },
+        {
+          "title": "Une règle qu'on ne remarque que le jour où elle détruit quelqu'un n'a jamais rien fait",
+          "rules": "Certaines exigences restent des années sans examen parce que rien n'en dépend jamais. Puis l'une est appliquée au pire moment possible, et c'est cette application qui la rend visible à tous. Lisez-le comme une preuve : une règle dont le seul effet visible de toute son existence fut une catastrophe pour une personne est une règle sans rien à mettre dans l'autre plateau.",
+          "flavor": "« Au deuxième Pro Tour Los Angeles, David Mills fut disqualifié de la finale (faisant de son adversaire Tommi Hovi le vainqueur) parce qu'il lançait ses sorts avant d'engager son mana. Oui, il fut un temps où il fallait engager son mana avant de lancer son sort… L'incident nous a fait comprendre que la règle était un peu sotte, alors nous l'avons changée — créant ce que personne sauf moi n'appelle la règle David Mills. »"
+        },
+        {
+          "title": "N'attendez pas la frontière nette — glissez le changement dans le premier créneau que vous pouvez toucher",
+          "rules": "Chaque fois que vous voulez changer une chose structurelle, la salle conseillera de commencer à la prochaine coupure naturelle, parce que c'est plus propre. La propreté ne vaut pas le retard : la frontière est souvent à un an, et tout ce qui sort entre-temps sort sans l'amélioration. Si le changement en vaut la peine, faites-le dans la première chose que vous pouvez encore influencer.",
+          "flavor": "Ni indicateur de rareté ni numéro de collection n'existaient avant 1999. « Joel Mick est devenu directeur de marque de Magic. Il jugeait important que l'information sur les cartes figure sur les cartes elles-mêmes… Joel a pris ses fonctions au milieu du bloc Urza's Saga et on lui a dit d'attendre le bloc suivant, mais il a jugé cela assez important pour le faire dans la première édition qu'il pouvait influencer. »"
+        },
+        {
+          "title": "Pour l'élément le plus vu, l'apparence l'emporte sur une valeur pédagogique marginale",
+          "rules": "Il existe d'ordinaire un composant qui apparaît bien plus souvent que tout le reste. Les débats à son sujet se mèneront sur la fonction — cette version s'explique mieux aux nouveaux venus — et à cette fréquence, la fonction est le mauvais axe. Ce qu'on rencontre constamment devrait être agréable à regarder, et cette considération l'emporte légitimement.",
+          "flavor": "Les terrains de base ont perdu leur texte de rappel après que Portal, édition sans capacités activées d'engagement, eut essayé un immense symbole de mana. « Cela reste un sujet de dispute. Certains pensent que le jeu est meilleur pour les débutants si les terrains disent plus précisément ce qu'ils font… Quoi qu'il en soit, nous aimons beaucoup leur esthétique et jugeons important qu'une chose aussi souvent vue soit aussi agréable à l'œil que possible. »"
+        },
+        {
+          "title": "Un symbole bâti sur un mot casse à la première traduction",
+          "rules": "Une iconographie tirée de l'initiale d'un terme fonctionne parfaitement dans la langue où elle fut conçue, et nulle part ailleurs. Vérifiez les langues de destination avant de vous engager : le mot peut commencer par une autre lettre, ou l'alphabet peut ne pas la contenir. Et attendez-vous à d'autres révisions dues à des conditions non encore rencontrées : lisible à distance est un autre test que lisible en main.",
+          "flavor": "« Dans Alpha, les cartes vous disaient par un texte de les engager. Puis, dans Revised, ce symbole est apparu : un T penché dans un cercle… Il est devenu problématique dès que Magic a imprimé dans d'autres langues, car le mot pour « engager » ne commençait pas toujours par un T (et certaines langues n'ont même pas de T). Dans la Quatrième Édition, le symbole a changé… Avec le temps, il est apparu qu'il était difficile à lire de loin, d'où un nouveau changement en Huitième Édition. »"
+        },
+        {
+          "title": "Une conception qui repose sur la rareté de l'information a une durée fixée par l'environnement informationnel",
+          "rules": "Bâtir une expérience sur l'ignorance de ce qui existe est légitime et n'est pas une propriété de votre œuvre : c'est une propriété du monde alentour, lequel changera sans vous consulter. Quand cela arrivera, la rétention cessera de produire de la découverte pour ne produire que de la gêne chez ceux qui veulent savoir. Repérez ce moment et lâchez l'information.",
+          "flavor": "« Au début, Wizards s'abstenait délibérément de dire à quiconque quelles cartes composaient l'édition. Pourquoi ? Parce que Magic est né juste quand Internet balbutiait. Richard Garfield aimait l'idée qu'une part du jeu soit la découverte des cartes existantes. On apprenait de nouvelles cartes en jouant contre de nouvelles personnes… Finalement, Wizards a compris que retenir l'information à l'ère de l'information était vain, et nous avons commencé à publier les listes. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "No meu tempo",
+      "dek": "Interrupções, fontes de mana, artefatos poli, e a regra que desclassificou um jogador na final de um Pro Tour.",
+      "overview": "Um passeio por tudo o que Magic fazia e deixou de fazer: tipos de carta que não existem mais, três versões do símbolo de virar, e as regras que a mudança da Sexta Edição varreu.",
+      "takeaway": "“Parte da mudança de regras da Sexta Edição foi tirar regras que não estavam pagando o próprio peso.”",
+      "lessons": [
+        {
+          "title": "Se suas regras se referem a uma categoria, os objetos precisam declarar que pertencem a ela",
+          "rules": "A linha de tipo é onde as regras olham, e tudo o que você põe ali por atmosfera ocupa um espaço de que o sistema precisa. Uma formulação saborosa que sugere uma categoria sem nomeá-la deixa as pessoas sem conseguir responder à pergunta mais básica sobre um objeto — o que é isto? — e é dessa pergunta que todas as outras regras dependem.",
+          "flavor": "“Em lugar nenhum de uma carta de criatura aparecia de fato a palavra ‘criatura’. Em vez disso, as cartas de criatura diziam ‘Invocar [tipo de criatura]’. Isso foi feito por razões de sabor… O problema é que tornava muito difícil os jogadores entenderem o que era uma criatura. Por exemplo… Terror diz ‘destrua a criatura alvo que não seja artefato nem preta’. O Shivan Dragon, pelo sabor, parece uma criatura, mas onde na carta isso era confirmado? Em lugar nenhum.”"
+        },
+        {
+          "title": "Não crie uma regra global para habilitar um punhado de casos — escreva a cláusula neles",
+          "rules": "Um comportamento que você quer em três lugares pode ser concedido por uma regra universal ou por três frases. A regra universal é mais curta e se aplica a tudo o que você fizer depois, inclusive ao que não pensou, e será explorada por quem lembrava dela quando você não lembrava. Pague as três frases.",
+          "flavor": "“Artefatos contínuos tinham uma regra especial: desligavam quando virados… O problema é que ela se aplicava não só ao punhado de cartas em que a P&D queria a interação, mas a todo artefato contínuo. Isso nos causou todo tipo de problema, porque vivíamos esquecendo que a regra existia e decks quebrados a exploravam… Minha solução foi pegar o punhado de cartas que queríamos que desligassem e simplesmente escrever isso nelas.”"
+        },
+        {
+          "title": "Troque uma taxonomia que exige decorar por uma convenção que se lê no próprio objeto",
+          "rules": "Subcategorias formais que codificam comportamento jogam sobre o leitor o ônus de aprender um vocabulário antes de poder usar qualquer coisa. A mesma informação pode morar na apresentação: faça todos os objetos de um tipo parecerem iguais, e as pessoas inferem a regra do padrão sem nunca terem sido ensinadas. Aí os nomes das categorias podem sumir.",
+          "flavor": "“Artefatos mono eram os que essencialmente tinham um símbolo de virar… Poli eram os com uma habilidade utilizável várias vezes… Contínuos eram os de efeito global permanente. O interessante é que esses três tipos obrigavam os jogadores a aprender vocabulário adicional para entender como as cartas funcionavam. Com o tempo, ficamos melhores em dar às cartas uma aplicação consistente.”"
+        },
+        {
+          "title": "O contraste só está disponível a quem tem os dois — teste a variante isolada",
+          "rules": "Você projeta uma contraparte colocando-a ao lado do original, onde cada diferença é óbvia para você. Quem encontra apenas uma não tem comparação e a lê contra a memória do caso comum, que é onde ela será identificada errado. Mostre a coisa nova sozinha, a alguém que acabou de ver a comum, e descubra como a pessoa a chama.",
+          "flavor": "Sobre o símbolo de desvirar introduzido em Shadowmoor: “Embora, em comparação, o símbolo de desvirar pareça muito diferente do de virar (cores invertidas e seta em sentido contrário), isolado, descobrimos que as pessoas o liam como o símbolo de virar.”"
+        },
+        {
+          "title": "Habilidade feita de conhecimento obscuro é a mais barata, e a primeira a cortar",
+          "rules": "Qualquer inconsistência do seu sistema vira algo que os experientes sabem e os novatos não, e os defensores vão chamar isso de vantagem digna de preservar. Não é grande coisa. Maestria que consiste em lembrar de uma exceção arbitrária está ao alcance de quem lê uma lista, e sempre há lugares melhores para a perícia aparecer. Remova a regra.",
+          "flavor": "Sobre bloqueadores virados não causarem dano: “Parte da mudança de regras da Sexta Edição foi tirar regras que não estavam pagando o próprio peso, e a dos bloqueadores virados sempre foi meio esquisita… houve quem se opusesse muito à mudança. Sentiam que conhecer esse truque e explorá-lo era parte do que dava vantagem aos jogadores experientes. Respondíamos que havia muitos outros lugares onde os melhores podiam se destacar.”"
+        },
+        {
+          "title": "Uma regra que você só nota quando ela destrói alguém nunca esteve fazendo trabalho nenhum",
+          "rules": "Algumas exigências ficam anos sem exame porque nada nunca depende delas. Aí uma é aplicada no pior momento possível, e é essa aplicação que faz todo mundo olhar para ela. Leia isso como evidência: uma regra cujo único efeito visível na vida inteira foi uma catástrofe para uma pessoa é uma regra sem nada a colocar no outro prato da balança.",
+          "flavor": "“No segundo Pro Tour Los Angeles, David Mills foi desclassificado na final (fazendo do adversário Tommi Hovi o campeão) porque vivia conjurando as mágicas antes de virar o mana. Sim, houve um tempo em que era preciso virar o mana antes de jogar a mágica… O incidente nos fez ver que a regra era meio boba, então a mudamos — criando o que ninguém além de mim chama de Regra David Mills.”"
+        },
+        {
+          "title": "Não espere a fronteira limpa — enfie a mudança no primeiro espaço que puder tocar",
+          "rules": "Sempre que você quiser mudar algo estrutural, a sala vai aconselhar começar no próximo corte natural, porque fica mais arrumado. Arrumação não compensa o atraso: a fronteira costuma estar a um ano, e tudo o que sair no meio sai sem a melhoria. Se a mudança vale a pena, faça-a na primeira coisa que você ainda consegue afetar.",
+          "flavor": "Nem indicadores de raridade nem números de colecionador existiram até 1999. “Joel Mick assumiu como gerente de marca de Magic. Ele achava importante que a informação das cartas estivesse disponível nas próprias cartas… Joel assumiu no meio do bloco de Urza's Saga e ouviu de outros que devia esperar o bloco seguinte, mas achou importante o bastante para fazer a mudança na primeira coleção que pôde afetar.”"
+        },
+        {
+          "title": "No elemento que mais se vê, a aparência pesa mais do que um valor instrutivo marginal",
+          "rules": "Costuma haver um componente que aparece muito mais do que tudo o mais que você faz. As discussões sobre ele serão travadas no terreno da função — esta versão se explica melhor a quem chega — e nessa frequência a função é o eixo errado. Algo encontrado o tempo todo deveria ser bom de olhar, e essa consideração vence legitimamente.",
+          "flavor": "Os terrenos básicos perderam o texto de lembrete depois que Portal, uma coleção sem habilidades ativadas de virar, tentou um símbolo de mana gigante. “Ainda é motivo de discussão. Há quem ache que o jogo é melhor para iniciantes se os terrenos disserem com mais exatidão o que fazem… De todo modo, gostamos muito da estética deles e achamos importante que algo tão visto seja o mais agradável possível aos olhos.”"
+        },
+        {
+          "title": "Um símbolo construído a partir de uma palavra quebra na primeira tradução",
+          "rules": "Iconografia derivada da inicial de um termo funciona perfeitamente no idioma em que foi criada e em nenhum outro. Confira os idiomas de destino antes de se comprometer: a palavra pode começar com outra letra, ou o alfabeto pode não ter aquela letra. E conte com novas revisões vindas de condições que você ainda não encontrou: legível à distância é um teste diferente de legível na mão.",
+          "flavor": "“Em Alpha, as cartas mandavam você virá-las por texto. Aí, em Revised, apareceu este símbolo: um T inclinado dentro de um círculo… Ele se mostrou problemático assim que Magic começou a imprimir cartas em outros idiomas, pois a palavra ‘virar’ nem sempre começava com T (e alguns idiomas nem tinham T). Na Quarta Edição o símbolo mudou… Com o tempo ficou claro que era difícil de ler à distância, então na Oitava Edição foi mudado.”"
+        },
+        {
+          "title": "Um design que depende de escassez de informação tem prazo definido pelo ambiente informacional",
+          "rules": "Construir uma experiência em torno de não saber o que existe é legítimo e não é propriedade da sua obra: é propriedade do mundo ao redor, que vai mudar sem consultar você. Quando mudar, reter deixa de produzir descoberta e passa a produzir só incômodo para quem quer saber. Perceba o momento e entregue a informação.",
+          "flavor": "“Nos primeiros tempos, a Wizards deliberadamente não contava a ninguém quais cartas havia na coleção. Por quê? Porque Magic foi feito bem quando a internet engatinhava. Richard Garfield gostava da ideia de que parte do jogo fosse descobrir quais cartas existiam. Você conhecia cartas novas jogando com gente nova… Por fim, a Wizards percebeu que reter informação numa nova era da informação era inútil, e começamos a publicar as listas.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "我那个年代",
+      "dek": "中断、法术力来源、多用神器，以及那条让一位牌手在职业巡回赛决赛中被取消资格的规则。",
+      "overview": "一趟关于「万智牌曾经这么做、后来不这么做了」的巡览：已经消失的牌张类别、三个版本的横置符号，以及被第六版规则一扫而空的那些规矩。",
+      "takeaway": "「第六版规则改动的目的之一，就是把那些没有撑起自身分量的规则剔掉。」",
+      "lessons": [
+        {
+          "title": "如果你的规则要引用某个类别，那么这些物件必须声明自己属于那个类别",
+          "rules": "类别栏是规则去查看的地方；而你为了气氛放进那里的任何东西，占的都是系统需要的位置。一句「暗示了某个类别却没有把它点名」的有风味的措辞，会让人们无法回答关于一个物件最基本的那个问题——它是什么？——而其余每一条规则，都依赖于这个问题。",
+          "flavor": "「一张生物牌上，任何地方都没有真的出现『生物』这个词。取而代之的是，生物牌上写的是『召唤〔生物类别〕』。这是出于风味上的理由……这种做法的问题在于：它让牌手很难理解什么是生物。举例来说……《恐惧》说的是『消灭目标非神器、非黑色的生物』。《西瓦巨龙》从风味上看像是个生物；可是这一点在牌面上的哪里得到确认了呢？没有。」"
+        },
+        {
+          "title": "不要为了让少数几个情形成立而立一条全局规则——把那句话写在那几张牌上",
+          "rules": "一个你想在三处拥有的行为，可以靠一条普适规则来授予，也可以靠三句话。那条普适规则更短，并且会适用于你此后做的一切——包括你没想到的那些；而它会被那些「在你忘了的时候还记得它」的人利用。请付那三句话的钱。",
+          "flavor": "「持续型神器有一条特殊规则：它们在被横置时会关闭……这条规则的问题在于，它不只适用于研发部想要这种互动的那少数几张牌，而是适用于每一个持续型神器。这给我们造成了各种各样的麻烦——因为我们自己老是忘了这条规则的存在，而崩坏的套牌一次次地利用它……我的解法是：把我们希望在横置时关闭的那几张牌拿出来，直接把这句话写在它们身上。」"
+        },
+        {
+          "title": "把一套需要人去背诵的分类法，换成一套可以从物件本身读出来的惯例",
+          "rules": "那些「把行为方式编码进去」的正式子类别，把负担压在了读者身上：他必须先学会一套词汇，然后才用得了任何东西。同样的信息可以改为存放在呈现方式里：让同一类的每一个物件长得一样，人们就会从这个图案里推断出规则，而完全不需要有谁教过他。这样一来，那些类别名称就可以撤掉了。",
+          "flavor": "「单用神器基本上就是那些带横置符号的……多用神器是那些拥有可以多次使用之异能的神器……持续型神器则是那些带有持续性全局效应的。这三种类型在使用上有意思的一点是：它们迫使牌手去额外学一套词汇，才能理解这些牌是怎么运作的。随着时间推移，我们在『让牌张拥有一致的呈现方式』这件事上做得越来越好。」"
+        },
+        {
+          "title": "「对比」只对同时握有两者的人才存在——请把变体单独拿出来测试",
+          "rules": "你设计一个对应物时，是把它摆在原件旁边设计的；在那里，每一处差异对你都是显而易见的。而那个只遇到其中一个的人没有可比对象，他会拿它去对着自己记忆中那个常见版本来读——错认就发生在那里。请把新东西单独拿给一个刚看过普通版本的人，然后看看他管它叫什么。",
+          "flavor": "关于《暗影荒原》里引入的重置符号：「虽然对比着看时，重置符号与横置符号显得非常不同（颜色反转、箭头方向相反）；但单独放着时，我们发现人们把它读成了横置符号。」"
+        },
+        {
+          "title": "以「冷门知识」形式存在的技术含量是最廉价的一种，也是最先该被砍掉的",
+          "rules": "你系统里的任何一处不一致，都会变成「老手知道而新手不知道」的东西；而它的辩护者会把那称作一项值得保留的优势。它算不上什么优势。那种「记住一条武断例外」式的精通，任何一个读过清单的人都能拥有；而供专精展示的更好去处永远都有。把那条规则拿掉。",
+          "flavor": "关于「被横置的阻挡者不造成伤害」：「第六版规则改动的目的之一，就是把那些没有撑起自身分量的规则剔掉；而『横置阻挡者』这条规则一向有点别扭……你会看到有些人非常反对这次改动。他们觉得，知道这个诀窍并加以利用，正是让有经验的牌手拥有优势的一部分。我们的回应是：让更好的牌手脱颖而出的地方，还有的是。」"
+        },
+        {
+          "title": "一条「只有在它毁掉某个人时你才注意到」的规则，从来就没有在做任何工作",
+          "rules": "有些要求多年来无人过问，因为从来没有任何东西取决于它们。然后其中一条在最糟糕的时刻被执行了；而正是这次执行，让所有人都去看了它一眼。请把这当作证据：一条在其整个生命里唯一可见的效果是「让一个人遭了大难」的规则，是一条在天平另一端没有任何东西可放的规则。",
+          "flavor": "「在第二届洛杉矶职业巡回赛上，大卫·米尔斯在决赛中被取消资格（从而让他的对手托米·霍维成为冠军），原因是他一直在横置法术力之前就先施放咒语。是的，曾几何时，你必须先横置法术力、然后才施放咒语……这次事件让我们意识到这条规则有点傻，于是我们改掉了它——从而创造出了一条除我之外没人这么叫的『大卫·米尔斯规则』。」"
+        },
+        {
+          "title": "别等那道干净的分界线——把这次改动塞进你还够得着的第一个位置里",
+          "rules": "每当你想改动某样结构性的东西时，屋子里的人都会建议你从下一个自然的断点开始，因为那样更整齐。整齐并不值得这份拖延：那道分界线常常在一年之后，而这中间发出去的每一件东西，都是没有这项改进的版本。如果这次改动值得做，那就把它做在你还能影响到的第一样东西上。",
+          "flavor": "稀有度标识和收藏编号直到1999年才出现。「乔尔·米克接任万智牌的品牌经理。他认为，让牌张的信息就出现在牌本身上，这一点很重要……乔尔是在乌尔札那个环境进行到一半时接手的，别人告诉他应该等到下一个环境再做这项改动；但乔尔认为它重要到值得——于是他在自己所能影响到的第一个系列里就做了。」"
+        },
+        {
+          "title": "对于人们看得最多的那个元素，观感重过那点边际上的说明价值",
+          "rules": "在你所做的一切之中，通常有一个部件出现的频率远高于其他所有。关于它的争论会被拉到「功能」这条轴上——这一版对新来者解释得更清楚——而在那样的出现频率下，功能是错误的那条轴。一样会被不断遇到的东西应当好看；而这项考量，是正当地胜出的。",
+          "flavor": "基本地失去了它们的提示文字：起因是《门户》——一个没有任何横置启动式异能的系列——改为试用了一个巨大的法术力符号。「这至今仍是一个有争议的话题。有些人认为，如果地牌更确切地说明自己在做什么，这个游戏对初学者会更友好……但无论如何，我们非常喜欢它们现在的美感；并且认为，对于一样被使用得如此频繁的东西来说，尽可能地赏心悦目是重要的。」"
+        },
+        {
+          "title": "一个由某个单词造出来的符号，会在第一次翻译时就碎掉",
+          "rules": "从某个术语的首字母推导出来的图形符号，在它被设计出来的那种语言里完美无缺，出了那种语言就哪里都不行。在你做出承诺之前，先去核对目标语言：那个词可能以另一个字母开头，或者那套字母表里根本就没有那个字母。而且要预期还会有进一步的修订，来自你还没有遇到过的使用条件——「远看清不清楚」和「拿在手里清不清楚」是两项不同的检验。",
+          "flavor": "「在 Alpha 里，牌是用文字告诉你把它横置的。然后在 Revised 里，出现了这个符号：一个圆圈里倾斜的字母 T……万智牌一开始用其他语言印牌，这个符号就出问题了——因为『横置』这个词并不总是以 T 开头（而且有些语言里根本就没有 T）。到了第四版，符号变了……随着时间推移，人们发现这个横置符号在远处很难辨认；于是在第八版里它又被改了。」"
+        },
+        {
+          "title": "一个依赖「信息稀缺」的设计，它的保质期是由信息环境、而不是由这个设计本身决定的",
+          "rules": "围绕「不知道有什么存在」来构建一种体验是正当的；而它并不是你作品的一项属性——它是周遭世界的一项属性，而那个世界会在不征求你意见的情况下改变。当它改变时，扣住信息就不再产出「发现」，而只产出「对那些想知道的人的妨碍」。请察觉那个时刻，并把信息交出去。",
+          "flavor": "「在早期，威世智是刻意不告诉任何人这个系列里有哪些牌的。为什么？因为万智牌诞生的时候，互联网还处在襁褓期。理查·加菲喜欢这样一个想法：『发现有哪些牌存在』本身就是这个游戏的一部分。你会在和新的人对局时得知新的牌……最终，威世智意识到：在一个新的信息时代里扣住信息是徒劳的；于是我们开始公布牌表。」"
+        }
+      ]
+    }
+  }
+}
