@@ -1,0 +1,320 @@
+{
+  "id": "gates-foundation-2013-05-20",
+  "slug": "gates-foundation-2013-05-20",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-05-20",
+  "series": null,
+  "tags": ["constraints", "research", "rarity", "lands", "invention"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/gates-foundation-2013-05-20",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "G" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Gates Foundation",
+      "dek": "Months of work on one small problem: what a common dual land is allowed to be, once three separate rule systems and everything already printed have finished taking their share.",
+      "overview": "Rosewater walks through the whole search behind Ravnica's Guildgates, and the point of the walk is how little room was left. Three independent regimes govern the slot — the standing rules for land design, the complexity limits at common, and whatever has already been established at other rarities — and their intersection reduced eight possible drawbacks to three, then to one. He surveys every existing cycle that might have worked, finds nothing, and the answer finally arrives from someone else in the room proposing to solve a different problem: invent a subtype, then print cards that care about it.",
+      "takeaway": "The exhaustive survey wasn't wasted effort that a good idea rescued — it's what established that nothing off the shelf could work, which is the only thing that makes inventing a new category defensible.",
+      "lessons": [
+        {
+          "title": "When several rule systems govern one slot, design inside the intersection",
+          "rules": "Three separate regimes applied here, each written without the others in mind: the standing rules for land design, the complexity limits that apply at the entry rarity, and the precedents already set at other rarities. None of them is negotiable and none of them was drafted to accommodate the others. Work out what the overlap actually contains before you start proposing, because the overlap is the whole space.",
+          "flavor": "Three rulebooks, one card slot, and nobody had ever checked what was left."
+        },
+        {
+          "title": "Walk the rules that don't apply, and say why they don't",
+          "rules": "Of the five standing land rules he lists, three have no bearing on this problem at all, and he goes through each one to establish that. Marking a constraint inapplicable is not wasted breath — it's what turns the list from something you half-remember into a boundary you can trust. The ones you skip silently are the ones that surface later as objections.",
+          "flavor": "Three rules that mattered, two that didn't, and knowing which was which was the work."
+        },
+        {
+          "title": "A mechanism established at a higher tier is claimed, and you can only reclaim one step",
+          "rules": "Several perfectly simple land cycles were unavailable — not for complexity, but because they had already been defined elsewhere in the rarity structure. Something done at uncommon can sometimes be slid down one step. Something done at rare is off limits. Precedent doesn't just occupy space; it holds it against you, and the distance the thing sits above you determines whether the claim can be challenged.",
+          "flavor": "The creature lands and the conditional lands were both simple enough. Both were spoken for."
+        },
+        {
+          "title": "Banning one device removes every mechanism built on that device",
+          "rules": "The no-bookkeeping rule at common looks like it forbids one thing. In practice it deleted three of the eight available drawbacks at once, because lands that limit uses, lands that untap every other turn, and lands that remember last turn are all counter-based underneath. When you rule out an implementation primitive, go and count what was standing on it before you decide the rule is cheap.",
+          "flavor": "One line about counters, and a third of the option space went with it."
+        },
+        {
+          "title": "Exhausting the catalogue is what earns the right to invent",
+          "rules": "He surveys every dual-land cycle ever printed with a simple rider and rules each one out with a reason. The remaining list is three items long, and he says so plainly. That short list is the deliverable: it converts \"we should try something new\" from a preference into a finding. Nobody funds a new category on enthusiasm — they fund it once the old ones have been shown, one by one, not to work.",
+          "flavor": "\"Not a long list, I know.\" That was the argument."
+        },
+        {
+          "title": "Include the obviously-inapplicable in the survey anyway",
+          "rules": "He lists the three-colour cycle from Shards of Alara knowing full well that a block about two-colour identity can't use it, and says why he lists it: when design does research, it wants to see everything, even the things off the beaten path, because bad ideas are stepping stones to good ones. The wrong option shown in full is often what makes the shape of the right one visible.",
+          "flavor": "The supertype idea came from the snow lands, which were never going to work either."
+        },
+        {
+          "title": "Strictly better is routine across releases and toxic inside one",
+          "rules": "The simplest possible common dual — the plain tapped land — was unshippable, not because it was bad but because the shocklands were sitting at rare in the same set, doing the same job with an extra option and better types. He notes that the game makes strictly-better cards all the time. The rule is narrower than it looks: avoid it in the same release, and especially against something high-profile, because that's where the comparison actually gets made.",
+          "flavor": "The card was fine. The card next to it was the problem."
+        },
+        {
+          "title": "The environment decides which drawback you can afford",
+          "rules": "Filtering was the one remaining alternative, and playtesting killed it: a set with that much gold in it needs lands that just make mana. The same drawback that is a fair price in one environment is unpayable in another, and the deciding factor isn't the card, it's the density of what surrounds it. Test the candidate in the actual mix before ranking it on paper.",
+          "flavor": "Behind on mana is survivable. Behind on mana in a set where everything costs two colours is not."
+        },
+        {
+          "title": "When the category is exhausted, change what you're searching for",
+          "rules": "Months on the problem, every existing option eliminated, and the room stuck on a bad fallback. Zac Hill's contribution was not a better land — it was a different question: what if we invent a new subtype and then print cards elsewhere in the set that make it matter? The distinguishing feature no longer had to live on the land. Nobody in the design had thought to look outside the cards they were designing.",
+          "flavor": "The answer to \"what should this land do?\" was \"something else should mention it.\""
+        },
+        {
+          "title": "Give the invented tag an owner in the fiction immediately, or it stays arbitrary",
+          "rules": "A made-up subtype that exists purely so other cards can reference it is bookkeeping wearing a name. Doug Beyer supplied the fix in the next breath: tie it to the guilds, each of which has a gate leading into its territory. The mechanical need and the world's own furniture met in one sentence, and the room stopped arguing. Invented categories survive when the setting already had a word for them.",
+          "flavor": "They left the meeting with gates and never looked back."
+        }
+      ]
+    },
+    "es": {
+      "title": "Fundación de las puertas",
+      "dek": "Meses de trabajo sobre un problema pequeño: qué se le permite ser a una tierra dual en común, una vez que tres sistemas de reglas distintos y todo lo ya impreso han cobrado su parte.",
+      "overview": "Rosewater recorre toda la búsqueda que hay detrás de las Puertas de gremio de Ravnica, y lo que el recorrido demuestra es lo poco que quedaba libre. Tres regímenes independientes gobiernan ese hueco —las reglas permanentes del diseño de tierras, los límites de complejidad en común y lo que ya se haya establecido en otras rarezas— y su intersección redujo ocho desventajas posibles a tres, y luego a una. Repasa todos los ciclos existentes que podrían haber servido, no encuentra nada, y la respuesta llega de otra persona en la sala que propone resolver otro problema: inventar un subtipo y luego imprimir cartas a las que les importe.",
+      "takeaway": "El repaso exhaustivo no fue esfuerzo perdido que luego rescató una buena idea: es lo que estableció que nada del catálogo servía, y es lo único que hace defendible inventar una categoría nueva.",
+      "lessons": [
+        {
+          "title": "Cuando varios sistemas de reglas gobiernan un hueco, diseña en la intersección",
+          "rules": "Aquí se aplicaban tres regímenes distintos, cada uno escrito sin pensar en los otros: las reglas permanentes del diseño de tierras, los límites de complejidad de la rareza de entrada y los precedentes ya fijados en otras rarezas. Ninguno es negociable y ninguno se redactó para acomodar a los demás. Averigua qué contiene realmente el solapamiento antes de proponer nada, porque el solapamiento es todo el espacio.",
+          "flavor": "Tres reglamentos, un hueco de carta, y nadie había comprobado qué quedaba."
+        },
+        {
+          "title": "Recorre también las reglas que no aplican, y di por qué no aplican",
+          "rules": "De las cinco reglas permanentes de tierras que enumera, tres no tienen ninguna incidencia en este problema, y las repasa una a una para dejarlo establecido. Marcar una restricción como inaplicable no es aire perdido: es lo que convierte la lista de algo medio recordado en un límite fiable. Las que te saltas en silencio son las que reaparecen luego como objeciones.",
+          "flavor": "Tres reglas que importaban, dos que no, y saber cuál era cuál era el trabajo."
+        },
+        {
+          "title": "Un mecanismo establecido en un nivel superior está reclamado, y solo puedes recuperar un escalón",
+          "rules": "Varios ciclos de tierras perfectamente simples no estaban disponibles, no por complejidad, sino porque ya se habían definido en otro punto de la estructura de rarezas. Lo hecho en infrecuente a veces se puede bajar un escalón. Lo hecho en rara está vedado. El precedente no solo ocupa espacio: lo defiende contra ti, y la distancia a la que está por encima decide si la reclamación se puede disputar.",
+          "flavor": "Las tierras-criatura y las condicionales eran bastante simples. Las dos estaban apalabradas."
+        },
+        {
+          "title": "Prohibir un dispositivo elimina todos los mecanismos construidos sobre él",
+          "rules": "La regla de no llevar cuentas en común parece prohibir una sola cosa. En la práctica borró de golpe tres de las ocho desventajas disponibles, porque las tierras con usos limitados, las que no se enderezan un turno de cada dos y las que recuerdan el turno anterior funcionan todas con contadores por debajo. Cuando descartes una primitiva de implementación, cuenta qué se apoyaba en ella antes de decidir que la regla sale barata.",
+          "flavor": "Una línea sobre contadores, y con ella se fue un tercio del espacio de opciones."
+        },
+        {
+          "title": "Agotar el catálogo es lo que da derecho a inventar",
+          "rules": "Repasa todos los ciclos de tierras duales jamás impresos con un añadido sencillo y descarta cada uno con un motivo. La lista restante tiene tres elementos, y lo dice sin adornos. Esa lista corta es el entregable: convierte «deberíamos probar algo nuevo» de preferencia en hallazgo. Nadie financia una categoría nueva por entusiasmo; la financian cuando se ha demostrado, una por una, que las viejas no sirven.",
+          "flavor": "«No es una lista larga, ya lo sé.» Ese era el argumento."
+        },
+        {
+          "title": "Incluye igualmente en el repaso lo que es obviamente inaplicable",
+          "rules": "Enumera el ciclo tricolor de Fragmentos de Alara sabiendo perfectamente que un bloque sobre identidad bicolor no puede usarlo, y dice por qué lo enumera: cuando diseño investiga, quiere verlo todo, incluso lo que se sale del camino, porque las malas ideas son peldaños hacia las buenas. La opción equivocada, mostrada entera, suele ser lo que hace visible la forma de la correcta.",
+          "flavor": "La idea del supertipo salió de las tierras de nieve, que tampoco iban a servir."
+        },
+        {
+          "title": "«Estrictamente mejor» es rutina entre lanzamientos y veneno dentro de uno",
+          "rules": "La dual en común más simple posible —la tierra que entra girada— era impublicable, no por mala, sino porque las shocklands estaban en rara en la misma expansión haciendo el mismo trabajo con una opción extra y mejores tipos. Él señala que el juego hace cartas estrictamente mejores continuamente. La regla es más estrecha de lo que parece: evítalo dentro del mismo lanzamiento, y sobre todo frente a algo de alto perfil, porque ahí es donde la comparación se hace de verdad.",
+          "flavor": "La carta estaba bien. El problema era la carta de al lado."
+        },
+        {
+          "title": "El entorno decide qué desventaja te puedes permitir",
+          "rules": "El filtrado era la única alternativa que quedaba, y las pruebas lo mataron: una expansión con tanto multicolor necesita tierras que simplemente produzcan maná. La misma desventaja que es un precio justo en un entorno resulta impagable en otro, y lo que decide no es la carta sino la densidad de lo que la rodea. Prueba el candidato en la mezcla real antes de puntuarlo sobre el papel.",
+          "flavor": "Ir por detrás en maná es sobrevivible. Ir por detrás en maná donde todo cuesta dos colores, no."
+        },
+        {
+          "title": "Cuando la categoría está agotada, cambia lo que estás buscando",
+          "rules": "Meses con el problema, todas las opciones existentes eliminadas y la sala atascada en un mal recurso. La aportación de Zac Hill no fue una tierra mejor, sino otra pregunta: ¿y si inventamos un subtipo nuevo y luego imprimimos cartas en otra parte de la expansión que lo hagan importar? El rasgo distintivo ya no tenía que vivir en la tierra. A nadie en el diseño se le había ocurrido mirar fuera de las cartas que estaba diseñando.",
+          "flavor": "La respuesta a «¿qué debería hacer esta tierra?» fue «que otra cosa la mencione»."
+        },
+        {
+          "title": "Dale de inmediato al rótulo inventado un dueño en la ficción, o seguirá siendo arbitrario",
+          "rules": "Un subtipo inventado que existe solo para que otras cartas lo referencien es contabilidad con nombre. Doug Beyer aportó el arreglo en la frase siguiente: átalo a los gremios, cada uno de los cuales tiene una puerta que da a su territorio. La necesidad mecánica y el mobiliario propio del mundo se encontraron en una frase, y la sala dejó de discutir. Las categorías inventadas sobreviven cuando el escenario ya tenía una palabra para ellas.",
+          "flavor": "Salieron de la reunión con puertas y nunca miraron atrás."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Fondation des portes",
+      "dek": "Des mois de travail sur un petit problème : ce qu'une bi-terre en commune a le droit d'être, une fois que trois systèmes de règles distincts et tout ce qui est déjà imprimé ont pris leur part.",
+      "overview": "Rosewater déroule toute la recherche derrière les Portes de guilde de Ravnica, et ce que le parcours démontre, c'est le peu de place restante. Trois régimes indépendants gouvernent cet emplacement — les règles permanentes de conception des terrains, les limites de complexité en commune, et ce qui est déjà établi aux autres raretés — et leur intersection a réduit huit inconvénients possibles à trois, puis à un. Il passe en revue tous les cycles existants susceptibles de convenir, ne trouve rien, et la réponse vient d'un autre participant qui propose de résoudre un autre problème : inventer un sous-type, puis imprimer des cartes qui s'y intéressent.",
+      "takeaway": "L'inventaire exhaustif n'est pas un effort perdu qu'une bonne idée aurait sauvé : c'est lui qui a établi que rien du catalogue ne convenait, et c'est la seule chose qui rende défendable l'invention d'une catégorie.",
+      "lessons": [
+        {
+          "title": "Quand plusieurs systèmes de règles gouvernent un emplacement, concevez dans l'intersection",
+          "rules": "Trois régimes distincts s'appliquaient ici, chacun écrit sans tenir compte des autres : les règles permanentes de conception des terrains, les limites de complexité de la rareté d'entrée, et les précédents déjà posés aux autres raretés. Aucun n'est négociable et aucun n'a été rédigé pour accommoder les autres. Établissez ce que contient réellement le recouvrement avant de proposer quoi que ce soit, car le recouvrement est tout l'espace disponible.",
+          "flavor": "Trois règlements, un emplacement de carte, et personne n'avait vérifié ce qu'il restait."
+        },
+        {
+          "title": "Parcourez aussi les règles qui ne s'appliquent pas, et dites pourquoi",
+          "rules": "Sur les cinq règles permanentes qu'il énumère, trois n'ont aucune incidence ici, et il les passe en revue une à une pour l'établir. Marquer une contrainte comme inapplicable n'est pas du souffle perdu : c'est ce qui transforme la liste, de chose à moitié mémorisée, en frontière fiable. Celles qu'on saute en silence sont celles qui reviennent plus tard sous forme d'objections.",
+          "flavor": "Trois règles qui comptaient, deux qui ne comptaient pas, et savoir lesquelles était le travail."
+        },
+        {
+          "title": "Un mécanisme établi à un niveau supérieur est revendiqué, et on ne récupère qu'un cran",
+          "rules": "Plusieurs cycles de terrains parfaitement simples étaient indisponibles — non par complexité, mais parce qu'ils avaient déjà été définis ailleurs dans la structure de rareté. Ce qui a été fait en inhabituelle peut parfois descendre d'un cran. Ce qui a été fait en rare est interdit. Le précédent n'occupe pas seulement la place : il la défend contre vous, et la distance qui vous en sépare décide si la revendication peut être contestée.",
+          "flavor": "Les terrains-créatures et les terrains conditionnels étaient assez simples. Tous deux étaient réservés."
+        },
+        {
+          "title": "Interdire un dispositif supprime tous les mécanismes bâtis dessus",
+          "rules": "La règle interdisant la comptabilité en commune semble n'interdire qu'une chose. En pratique elle a effacé d'un coup trois des huit inconvénients disponibles, car les terrains à usages limités, ceux qui ne se dégagent qu'un tour sur deux et ceux qui se souviennent du tour précédent reposent tous sur des marqueurs. Quand vous excluez une primitive d'implémentation, comptez ce qui s'appuyait dessus avant de juger la règle bon marché.",
+          "flavor": "Une ligne sur les marqueurs, et un tiers de l'espace des options est parti avec."
+        },
+        {
+          "title": "Épuiser le catalogue est ce qui donne le droit d'inventer",
+          "rules": "Il recense tous les cycles de bi-terres jamais imprimés avec un ajout simple et écarte chacun avec un motif. La liste restante compte trois entrées, et il le dit sans détour. Cette liste courte est le livrable : elle transforme « on devrait essayer autre chose » d'une préférence en un constat. Personne ne finance une nouvelle catégorie sur de l'enthousiasme ; on la finance une fois démontré, une par une, que les anciennes ne marchent pas.",
+          "flavor": "« Pas une longue liste, je sais. » C'était ça, l'argument."
+        },
+        {
+          "title": "Incluez quand même dans l'inventaire ce qui est manifestement inapplicable",
+          "rules": "Il liste le cycle tricolore des Éclats d'Alara en sachant parfaitement qu'un bloc sur l'identité bicolore ne peut pas s'en servir, et dit pourquoi il le liste : quand la conception fait ses recherches, elle veut tout voir, même ce qui sort des sentiers battus, car les mauvaises idées sont des tremplins vers les bonnes. La mauvaise option montrée en entier est souvent ce qui rend visible la forme de la bonne.",
+          "flavor": "L'idée du super-type est venue des terrains de neige, qui n'allaient pas convenir non plus."
+        },
+        {
+          "title": "« Strictement meilleur » est banal d'une sortie à l'autre et toxique au sein d'une seule",
+          "rules": "La bi-terre en commune la plus simple possible — celle qui arrive engagée — était impubliable, non parce qu'elle était mauvaise, mais parce que les shocklands siégeaient en rare dans la même extension, au même poste, avec une option en plus et de meilleurs types. Il note que le jeu produit des strictement meilleurs en permanence. La règle est plus étroite qu'il n'y paraît : évitez-le dans la même sortie, surtout face à quelque chose de très en vue, car c'est là que la comparaison se fait vraiment.",
+          "flavor": "La carte allait très bien. C'est la carte d'à côté qui posait problème."
+        },
+        {
+          "title": "L'environnement décide de l'inconvénient que vous pouvez vous offrir",
+          "rules": "Le filtrage était la dernière option restante, et les tests l'ont tuée : une extension avec autant de multicolore veut des terrains qui produisent simplement du mana. Le même inconvénient qui est un prix juste dans un environnement devient impayable dans un autre, et ce qui tranche n'est pas la carte mais la densité de ce qui l'entoure. Testez le candidat dans le mélange réel avant de le classer sur le papier.",
+          "flavor": "Être en retard sur le mana est survivable. L'être là où tout coûte deux couleurs, non."
+        },
+        {
+          "title": "Quand la catégorie est épuisée, changez ce que vous cherchez",
+          "rules": "Des mois sur le problème, toutes les options existantes éliminées, et la salle bloquée sur un mauvais repli. L'apport de Zac Hill ne fut pas un meilleur terrain, mais une autre question : et si l'on inventait un sous-type, puis qu'on imprimait ailleurs dans l'extension des cartes qui le rendent important ? Le trait distinctif n'avait plus à vivre sur le terrain. Personne dans l'équipe n'avait songé à regarder hors des cartes qu'elle concevait.",
+          "flavor": "La réponse à « que doit faire ce terrain ? » fut « autre chose doit le mentionner »."
+        },
+        {
+          "title": "Donnez tout de suite à l'étiquette inventée un propriétaire dans la fiction, sinon elle reste arbitraire",
+          "rules": "Un sous-type inventé qui n'existe que pour être référencé par d'autres cartes est de la comptabilité affublée d'un nom. Doug Beyer a fourni le correctif dans la foulée : rattachez-le aux guildes, dont chacune a une porte donnant sur son territoire. Le besoin mécanique et le mobilier propre du monde se sont rencontrés en une phrase, et la salle a cessé de débattre. Les catégories inventées survivent quand le décor avait déjà un mot pour elles.",
+          "flavor": "Ils sont sortis de la réunion avec des portes et n'ont jamais regardé en arrière."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Fundação dos portões",
+      "dek": "Meses de trabalho num problema pequeno: o que um terreno duplo comum tem permissão de ser, depois que três sistemas de regras distintos e tudo o que já foi impresso cobraram a parte deles.",
+      "overview": "Rosewater percorre toda a busca por trás dos Portões de guilda de Ravnica, e o que o percurso mostra é o pouco espaço que sobrava. Três regimes independentes governam essa vaga — as regras permanentes de design de terrenos, os limites de complexidade no comum e o que já foi estabelecido em outras raridades — e a interseção deles reduziu oito desvantagens possíveis a três, e depois a uma. Ele revisa todos os ciclos existentes que poderiam servir, não acha nada, e a resposta chega de outra pessoa na sala propondo resolver um problema diferente: inventar um subtipo e depois imprimir cartas que se importem com ele.",
+      "takeaway": "O levantamento exaustivo não foi esforço perdido que uma boa ideia resgatou: foi ele que estabeleceu que nada do catálogo servia, e é a única coisa que torna defensável inventar uma categoria nova.",
+      "lessons": [
+        {
+          "title": "Quando vários sistemas de regras governam uma vaga, projete na interseção",
+          "rules": "Três regimes distintos se aplicavam aqui, cada um escrito sem considerar os outros: as regras permanentes de design de terrenos, os limites de complexidade da raridade de entrada e os precedentes já fixados em outras raridades. Nenhum é negociável e nenhum foi redigido para acomodar os demais. Descubra o que a sobreposição realmente contém antes de propor qualquer coisa, porque a sobreposição é o espaço inteiro.",
+          "flavor": "Três regulamentos, uma vaga de carta, e ninguém tinha conferido o que restava."
+        },
+        {
+          "title": "Percorra também as regras que não se aplicam, e diga por que não",
+          "rules": "Das cinco regras permanentes de terrenos que ele lista, três não têm nenhuma influência neste problema, e ele passa por cada uma para deixar isso estabelecido. Marcar uma restrição como inaplicável não é fôlego perdido: é o que transforma a lista, de algo meio lembrado, num limite confiável. As que você pula em silêncio são as que voltam depois como objeções.",
+          "flavor": "Três regras que importavam, duas que não, e saber qual era qual era o trabalho."
+        },
+        {
+          "title": "Um mecanismo estabelecido num nível acima está reivindicado, e só dá para recuperar um degrau",
+          "rules": "Vários ciclos de terrenos perfeitamente simples estavam indisponíveis — não por complexidade, mas porque já haviam sido definidos em outro ponto da estrutura de raridades. O que foi feito em incomum às vezes desce um degrau. O que foi feito em raro está vetado. O precedente não só ocupa espaço: ele o defende contra você, e a distância a que está acima decide se a reivindicação pode ser contestada.",
+          "flavor": "Os terrenos-criatura e os condicionais eram simples o bastante. Ambos estavam reservados."
+        },
+        {
+          "title": "Proibir um dispositivo remove todo mecanismo construído sobre ele",
+          "rules": "A regra de não haver contabilidade no comum parece proibir uma coisa só. Na prática apagou de uma vez três das oito desvantagens disponíveis, porque terrenos com usos limitados, terrenos que não desviram em turnos alternados e terrenos que lembram o turno anterior funcionam todos com marcadores por baixo. Ao descartar uma primitiva de implementação, conte o que se apoiava nela antes de julgar que a regra sai barata.",
+          "flavor": "Uma linha sobre marcadores, e um terço do espaço de opções foi junto."
+        },
+        {
+          "title": "Esgotar o catálogo é o que dá o direito de inventar",
+          "rules": "Ele levanta todo ciclo de terrenos duplos já impresso com um acréscimo simples e descarta cada um com um motivo. A lista restante tem três itens, e ele diz isso sem rodeios. Essa lista curta é a entrega: converte «devíamos tentar algo novo» de preferência em constatação. Ninguém financia uma categoria nova por entusiasmo; financia quando se demonstrou, uma a uma, que as antigas não servem.",
+          "flavor": "«Não é uma lista longa, eu sei.» Esse era o argumento."
+        },
+        {
+          "title": "Inclua no levantamento até o que é obviamente inaplicável",
+          "rules": "Ele lista o ciclo tricolor de Fragmentos de Alara sabendo perfeitamente que um bloco sobre identidade bicolor não pode usá-lo, e diz por que lista: quando o design pesquisa, quer ver tudo, inclusive o que foge do caminho, porque ideias ruins são degraus para as boas. A opção errada mostrada por inteiro costuma ser o que torna visível o formato da certa.",
+          "flavor": "A ideia do supertipo veio dos terrenos de neve, que também não iam servir."
+        },
+        {
+          "title": "«Estritamente melhor» é rotina entre lançamentos e veneno dentro de um",
+          "rules": "O duplo comum mais simples possível — o terreno que entra virado — era impublicável, não por ser ruim, mas porque as shocklands estavam em raro na mesma coleção fazendo o mesmo serviço com uma opção extra e tipos melhores. Ele nota que o jogo faz cartas estritamente melhores o tempo todo. A regra é mais estreita do que parece: evite dentro do mesmo lançamento, e sobretudo diante de algo de alto perfil, porque é ali que a comparação de fato acontece.",
+          "flavor": "A carta estava ótima. O problema era a carta ao lado."
+        },
+        {
+          "title": "O ambiente decide qual desvantagem você pode bancar",
+          "rules": "A filtragem era a única alternativa restante, e os testes a mataram: uma coleção com tanto multicolorido precisa de terrenos que simplesmente produzam mana. A mesma desvantagem que é preço justo num ambiente fica impagável em outro, e o que decide não é a carta e sim a densidade do que a cerca. Teste o candidato na mistura real antes de classificá-lo no papel.",
+          "flavor": "Ficar atrás em mana é sobrevivível. Ficar atrás em mana onde tudo custa duas cores, não."
+        },
+        {
+          "title": "Quando a categoria se esgota, mude o que você está procurando",
+          "rules": "Meses no problema, todas as opções existentes eliminadas, e a sala travada num recurso ruim. A contribuição de Zac Hill não foi um terreno melhor, e sim outra pergunta: e se inventarmos um subtipo novo e depois imprimirmos cartas em outro lugar da coleção que o façam importar? O traço distintivo não precisava mais morar no terreno. Ninguém no design tinha pensado em olhar fora das cartas que estava desenhando.",
+          "flavor": "A resposta para «o que este terreno deve fazer?» foi «outra coisa deve mencioná-lo»."
+        },
+        {
+          "title": "Dê já ao rótulo inventado um dono na ficção, ou ele continua arbitrário",
+          "rules": "Um subtipo inventado que existe só para outras cartas o referenciarem é contabilidade com nome. Doug Beyer trouxe o conserto na frase seguinte: amarre-o às guildas, cada uma com um portão que dá para o seu território. A necessidade mecânica e o mobiliário próprio do mundo se encontraram numa frase, e a sala parou de discutir. Categorias inventadas sobrevivem quando o cenário já tinha uma palavra para elas.",
+          "flavor": "Saíram da reunião com portões e nunca mais olharam para trás."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "门之奠基",
+      "dek": "为一个小问题耗上数月：当三套彼此独立的规则体系、以及所有已印出来的牌各自取走一份之后，一张普通位的双色地还剩下什么可以做。",
+      "overview": "罗斯瓦特把拉尼卡「公会门」背后的整个搜索过程走了一遍，而这一遍走下来所显示的，是剩余空间有多小。有三套互不相干的规则同时管着这个位置——地牌设计的长期规则、普通位的复杂度上限，以及在其他稀有度上已经确立的先例——它们的交集把八种可用的负面效果削到三种，再削到一种。他把所有可能合用的既有循环逐一检视，一无所获；最终的答案来自房间里另一个人，而那人提议解决的是另一个问题：发明一个副类别，然后印一些在乎它的牌。",
+      "takeaway": "这份穷举式的检视并不是白费力气、然后被一个好点子救了回来；正是它确立了「现成的东西没有一样能用」，而这也是「发明一个新类别」唯一站得住脚的理由。",
+      "lessons": [
+        {
+          "title": "当多套规则体系同时管着一个位置，就在交集里做设计",
+          "rules": "这里同时适用三套规则，而且每一套在写的时候都没考虑另外两套：地牌设计的长期规则、入门稀有度上的复杂度上限，以及其他稀有度上已经立下的先例。三者都不可商量，也都不是为了迁就彼此而写的。在开始提方案之前，先弄清重叠区里到底剩下什么，因为重叠区就是全部空间。",
+          "flavor": "三本规章，一个牌位，而没有人核对过还剩下什么。"
+        },
+        {
+          "title": "那些用不上的规则也要走一遍，并说清为什么用不上",
+          "rules": "他列出的五条地牌规则中，有三条对这个问题毫无影响，而他仍逐条走过，把这一点确立下来。把某条约束标注为「不适用」不是废话：正是它把一份半记不清的清单，变成一道可以信赖的边界。你默默跳过的那几条，会在后面以反对意见的形式冒出来。",
+          "flavor": "三条有关，两条无关，而分清哪条是哪条，本身就是工作。"
+        },
+        {
+          "title": "在更高层级上确立过的机制已被占据，而你最多只能往回要一级",
+          "rules": "有好几个足够简单的地牌循环用不了——不是因为复杂，而是因为它们已经在稀有度结构的别处被定义过了。做在非普通位上的东西，有时可以往下挪一级；做在稀有位上的，则完全禁入。先例不只是占了地方，它还会替自己守着这块地方；而它高出你多少级，决定了这份占有能不能被挑战。",
+          "flavor": "生物地和条件地都够简单，可两者都名花有主。"
+        },
+        {
+          "title": "禁掉一种装置，就等于抹掉所有建立在它之上的机制",
+          "rules": "普通位「不做记账」这条规则看上去只禁了一件事。实际上它一次性抹掉了八种负面效果中的三种：限次数的地、隔回合才重置的地、需要记住上一回合的地，底层全都靠指示物。当你排除掉一个实现层面的基本件时，先数一数有多少东西站在它上面，再判断这条规则是不是便宜。",
+          "flavor": "关于指示物的一句话，带走了三分之一的选项空间。"
+        },
+        {
+          "title": "把目录穷尽一遍，才换来发明的资格",
+          "rules": "他把历史上所有带简单附加效果的双色地循环全部列出，并为每一个给出被排除的理由。剩下的清单只有三项，他也直说了。这份短清单才是交付物：它把「我们该试点新东西」从一种偏好变成一个结论。没人会为热情去资助一个新类别；他们资助的是「旧的已被逐一证明行不通」之后的那个新类别。",
+          "flavor": "「我知道，这清单不长。」这就是论证本身。"
+        },
+        {
+          "title": "明显不适用的选项，也照样纳入检视",
+          "rules": "他列出了阿拉若碎片的三色循环，尽管他很清楚一个讲双色身份的环境用不上它；而他说明了为什么要列：设计做调研时想看到全部，包括那些偏离主道的，因为坏点子是通往好点子的垫脚石。把错误选项完整摆出来，往往正是让正确选项的形状显形的东西。",
+          "flavor": "超类别这个念头来自冰雪地，而冰雪地同样是用不上的。"
+        },
+        {
+          "title": "「严格更优」在不同发售之间稀松平常，在同一次发售里则是毒药",
+          "rules": "最简单的那种普通位双色地——横置进场——不能印，不是因为它差，而是因为同一个系列的稀有位上就坐着震击地：同样的活儿，多一个选项，还有更好的类别。他指出这个游戏一直在制造严格更优的牌。这条规则比看上去窄得多：要避开的是同一次发售之内，尤其是面对一张高关注度的牌，因为比较正是在那里真正发生的。",
+          "flavor": "这张牌本身没问题。有问题的是它旁边那张。"
+        },
+        {
+          "title": "环境决定你付得起哪种负面效果",
+          "rules": "过滤是仅剩的另一个选项，而测试把它否掉了：多色比例这么高的系列，需要的是能直接产出法术力的地。同一种负面效果，在一个环境里是公道的价格，在另一个环境里就付不起；起决定作用的不是这张牌，而是它周围东西的密度。在纸面上给候选方案排序之前，先把它放进真实的混合环境里测。",
+          "flavor": "法术力落后是能活的。在一切都要两个颜色的系列里落后，就不行。"
+        },
+        {
+          "title": "当这个类别被穷尽了，就改变你在找的东西",
+          "rules": "在这个问题上耗了数月，现有选项全部出局，房间僵在一个糟糕的退路上。扎克·希尔的贡献不是一张更好的地，而是另一个问题：如果我们发明一个新的副类别，再在系列的别处印一些让它有意义的牌呢？那个区分性的特征不必再长在地牌身上。设计组里没有一个人想过要往「自己正在设计的牌」之外去看。",
+          "flavor": "「这张地该做什么？」的答案是「让别的东西来提到它」。"
+        },
+        {
+          "title": "立刻给这个发明出来的标签找一个故事里的主人，否则它就只是随意之物",
+          "rules": "一个只为了让别的牌引用而存在的自造副类别，不过是取了名字的记账。道格·拜尔在下一句话里给出了修补：把它系到公会身上，每个公会都有一道通往自家地界的门。机械上的需求与这个世界本就有的陈设，在一句话里碰到了一起，房间也就不再争了。发明出来的类别之所以能活下来，是因为那个世界原本就有一个词在等着它。",
+          "flavor": "他们带着「门」离开那场会议，此后再没回头。"
+        }
+      ]
+    }
+  }
+}
