@@ -1,0 +1,294 @@
+{
+  "id": "council-colors-2016-08-22",
+  "slug": "council-colors-2016-08-22",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-08-22",
+  "series": null,
+  "tags": ["council-of-colors", "color-pie", "process", "review", "governance"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/council-colors-2016-08-22",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T17:10:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "G" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "The Council of Colors",
+      "dek": "Training everyone in the standard worked for costing and failed for the colour pie — because one domain converges and the other doesn't.",
+      "overview": "The first public account of the Council of Colors: why a single guardian stopped scaling, why the obvious fix didn't work, and the structure that replaced it — one owner per colour, cross-review, and a rating scale.",
+      "takeaway": "\"If I asked every developer to cost the same card, all the answers would probably be within one of each other. If I asked the designers about brand-new mechanical space, the answers weren't as tight.\"",
+      "lessons": [
+        {
+          "title": "Before distributing a judgement, check whether the domain converges",
+          "rules": "Teaching everyone the standard works when trained people independently reach nearly the same answer. Where the judgement is closer to taste than arithmetic, the same training produces a wide spread — and you'll have replaced a bottleneck with inconsistency you can't see.",
+          "flavor": "“If I asked every developer to cost the same card, for example, all the answers would probably be within one of each other. If I asked the designers about brand-new mechanical space, the answers weren't as tight… I would often see cards in file that I would question, only to learn that another designer had signed off on them.”"
+        },
+        {
+          "title": "A standard that gets bent every project needs different governance from one applied uniformly",
+          "rules": "Some rules are followed the same way each time; others are deliberately stretched to serve whatever the current project is about. The second kind can't be policed by a fixed checklist, because every stretch is a judgement about how far is too far in this particular case.",
+          "flavor": "“The costing system isn't bent all that much… The color pie, in contrast, is constantly being bent. Part of what happens is we choose a theme and then we bend design toward that theme. But not every color naturally does whatever we are leaning toward, which means that certain colors have to be bent a little to stay in theme.”"
+        },
+        {
+          "title": "Pair single ownership with cross-review",
+          "rules": "One person per category gives you someone accountable and steeped in it. Then have everyone rate outside their own category, because the owner has both the sharpest eye and the most acclimatised one. Neither pass alone catches what the other does.",
+          "flavor": "“Each of the five designers would be assigned a color. They would be responsible for doing the initial monitoring.” Then: “Once all the cards have been labeled, a file is made of every card that is rated 2 or higher. Each council member is then asked to rate the cards outside their color… so that we can get a broader sense of whether or not cards need to be changed.”"
+        },
+        {
+          "title": "Read the disagreements, not just the averages",
+          "rules": "Sorting by severity finds the loudest problems. Sorting by spread finds the ones only the specialist can see — a large gap between the owner's rating and everyone else's is itself a signal, and it points at exactly the cases where the general view is least reliable.",
+          "flavor": "“We then review all the cards that rank above 2… starting with the most egregious (the highest average ranking). We also look at any card that has a high delta between its initial ranking and the team. This usually happens because the council member responsible for the color sees a problem no one else sees.”"
+        },
+        {
+          "title": "Assign by ranked preference, with seniority only as a tiebreak",
+          "rules": "For work that runs on care rather than capability, let people rank what they want and hand out first choices in order of tenure. Enthusiasm is the scarce input, and it usually turns out that preferences collide far less than you expected.",
+          "flavor": "“The way we handled it was to have each designer stack rank the colors, with No. 1 being the color they most wanted to represent. The secondary factor was seniority.” Ken had ranked green first and everything else fifth. “Luckily, the two were interested in different colors, so it didn't end up mattering.”"
+        },
+        {
+          "title": "The newest person can see the area nobody scoped",
+          "rules": "A structure built by the people already inside it inherits their sense of where the boundaries are. Someone who just arrived hasn't learned to stop looking at the gap — so when they point at uncovered ground and volunteer, let them have it.",
+          "flavor": "“This last assignment didn't happen until a couple meetings later. Jules had just started as our summer intern and he was interested in being involved. He noted that there was a gap, as only the colors were covered, so Jules volunteered to monitor the colorless cards, most often artifacts and lands.”"
+        },
+        {
+          "title": "Review when it's settled enough to judge and early enough to change",
+          "rules": "There's one window where a review is worth holding. Too early and you're critiquing something that will move anyway; too late and you produce findings nobody can act on. Name that point in the schedule rather than reviewing when someone gets round to it.",
+          "flavor": "“At a certain point in development, late enough that the set is mostly settled but early enough that changes can still be made, the council is asked to officially review a set.”"
+        },
+        {
+          "title": "A guardian role that scales with volume breaks, and the fix is structural",
+          "rules": "One person holding a standard across everything works until the amount of work grows. At that point no amount of additional effort closes the gap — the answer is to change who holds it, not to try harder, and admitting the failure is what unlocks the redesign.",
+          "flavor": "“I have made it my goal over my 20-plus years of working in R&D to be the protector of the color pie… But over the last few years, I started having a problem. We've increased the number of products we're producing… I'm busier than I've ever been and we're making more products than we ever have. I was falling down in my job as protector of the color pie.”"
+        },
+        {
+          "title": "Route general issues out of the specific reviews, and batch them",
+          "rules": "Case-by-case review keeps surfacing questions that aren't about the case. Don't settle those in the meeting where they arose — collect them, wait until there are enough to justify the audience, and take them to the forum where the whole organisation can agree on the change.",
+          "flavor": "“While the meetings are about dealing with specific card-relevant issues to help sets in late development, often during our discussions we will come across larger color pie meta-issues… Once we have enough meta-issues, we bring them to a cardcrafting meeting where we can walk through them with all of design and development.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "El Consejo de Colores",
+      "dek": "Formar a todos en el estándar funcionó para el costeo y falló para la rueda de color, porque un dominio converge y el otro no.",
+      "overview": "El primer relato público del Consejo de Colores: por qué un único guardián dejó de escalar, por qué el arreglo obvio no funcionó, y la estructura que lo sustituyó: un dueño por color, revisión cruzada y una escala de valoración.",
+      "takeaway": "«Si pidiera a cada desarrollador costear la misma carta, todas las respuestas estarían probablemente a menos de uno de distancia. Si preguntaba a los diseñadores por espacio mecánico nuevo, las respuestas no eran tan ajustadas.»",
+      "lessons": [
+        {
+          "title": "Antes de repartir un criterio, comprueba si el dominio converge",
+          "rules": "Enseñar el estándar a todos funciona cuando gente formada llega por su cuenta casi a la misma respuesta. Donde el juicio se parece más al gusto que a la aritmética, la misma formación produce una gran dispersión, y habrás cambiado un cuello de botella por una inconsistencia que no ves.",
+          "flavor": "«Si pidiera a cada desarrollador costear la misma carta, todas las respuestas estarían probablemente a menos de uno de distancia. Si preguntaba a los diseñadores por espacio mecánico nuevo, las respuestas no eran tan ajustadas… A menudo veía cartas en el archivo que cuestionaba, solo para saber que otro diseñador las había aprobado.»"
+        },
+        {
+          "title": "Un estándar que se dobla en cada proyecto necesita otro gobierno que uno aplicado uniformemente",
+          "rules": "Hay reglas que se siguen igual cada vez; otras se estiran a propósito para servir a lo que va el proyecto actual. Las segundas no se vigilan con una lista fija, porque cada estiramiento es un juicio sobre hasta dónde es demasiado en ese caso concreto.",
+          "flavor": "«El sistema de costeo no se dobla tanto… La rueda de color, en cambio, se dobla constantemente. Parte de lo que ocurre es que elegimos un tema y luego doblamos el diseño hacia ese tema. Pero no todos los colores hacen de forma natural aquello hacia lo que nos inclinamos, así que hay colores que hay que doblar un poco.»"
+        },
+        {
+          "title": "Empareja la propiedad individual con la revisión cruzada",
+          "rules": "Una persona por categoría te da a alguien responsable y empapado en ella. Luego haz que todos valoren fuera de su propia categoría, porque el dueño tiene a la vez el ojo más fino y el más acostumbrado. Ninguna de las dos pasadas por separado detecta lo que detecta la otra.",
+          "flavor": "«A cada uno de los cinco diseñadores se le asignaría un color. Serían responsables de la vigilancia inicial.» Y luego: «Una vez etiquetadas todas las cartas, se hace un archivo con todas las valoradas 2 o más. Después se pide a cada miembro que valore las cartas fuera de su color… para tener una idea más amplia.»"
+        },
+        {
+          "title": "Lee los desacuerdos, no solo los promedios",
+          "rules": "Ordenar por gravedad encuentra los problemas más ruidosos. Ordenar por dispersión encuentra los que solo ve el especialista: una gran diferencia entre la valoración del dueño y la del resto es en sí una señal, y apunta justo a los casos donde la mirada general es menos fiable.",
+          "flavor": "«Repasamos todas las cartas que puntúan por encima de 2… empezando por las más flagrantes (la media más alta). También miramos cualquier carta con un delta alto entre su valoración inicial y la del equipo. Esto suele ocurrir porque el miembro responsable de ese color ve un problema que nadie más ve.»"
+        },
+        {
+          "title": "Asigna por preferencia ordenada, con la antigüedad solo como desempate",
+          "rules": "Para trabajo que funciona por cariño más que por capacidad, deja que la gente ordene lo que quiere y reparte las primeras opciones por antigüedad. El entusiasmo es el insumo escaso, y suele resultar que las preferencias chocan mucho menos de lo esperado.",
+          "flavor": "«Lo hicimos pidiendo a cada diseñador que ordenara los colores, siendo el nº 1 el que más quería representar. El factor secundario era la antigüedad.» Ken había puesto verde primero y todo lo demás quinto. «Por suerte, los dos estaban interesados en colores distintos, así que no acabó importando.»"
+        },
+        {
+          "title": "La persona más nueva puede ver el área que nadie delimitó",
+          "rules": "Una estructura construida por quienes ya están dentro hereda su noción de dónde están las fronteras. Quien acaba de llegar aún no ha aprendido a dejar de mirar el hueco; así que cuando señale terreno sin cubrir y se ofrezca, dáselo.",
+          "flavor": "«Esta última asignación no ocurrió hasta un par de reuniones después. Jules acababa de empezar como becario de verano y le interesaba participar. Señaló que había un hueco, porque solo se cubrían los colores; así que Jules se ofreció a vigilar las cartas incoloras, la mayoría artefactos y tierras.»"
+        },
+        {
+          "title": "Revisa cuando está bastante asentado para juzgarlo y bastante pronto para cambiarlo",
+          "rules": "Hay una sola ventana en la que merece la pena hacer una revisión. Demasiado pronto y criticas algo que se moverá igualmente; demasiado tarde y produces hallazgos sobre los que nadie puede actuar. Sitúa ese punto en el calendario, en vez de revisar cuando alguien tenga tiempo.",
+          "flavor": "«En cierto punto del desarrollo, lo bastante tarde como para que la edición esté mayormente asentada pero lo bastante pronto como para que aún se puedan hacer cambios, se pide al consejo que revise oficialmente una edición.»"
+        },
+        {
+          "title": "Un papel de guardián que escala con el volumen se rompe, y el arreglo es estructural",
+          "rules": "Una persona sosteniendo un estándar sobre todo funciona hasta que crece la cantidad de trabajo. A partir de ahí, ningún esfuerzo adicional cierra la brecha: la respuesta es cambiar quién lo sostiene, no esforzarse más; y admitir el fallo es lo que desbloquea el rediseño.",
+          "flavor": "«He hecho de ello mi objetivo durante más de 20 años en I+D: ser el protector de la rueda de color… Pero en los últimos años empecé a tener un problema. Hemos aumentado el número de productos… Estoy más ocupado que nunca y hacemos más productos que nunca. Estaba fallando en mi trabajo como protector de la rueda de color.»"
+        },
+        {
+          "title": "Saca los asuntos generales de las revisiones concretas y agrúpalos",
+          "rules": "La revisión caso por caso no para de sacar cuestiones que no son del caso. No las resuelvas en la reunión donde surgieron: recógelas, espera a que haya suficientes para justificar la audiencia, y llévalas al foro donde toda la organización puede acordar el cambio.",
+          "flavor": "«Aunque las reuniones tratan de asuntos concretos de cartas para ayudar a ediciones en desarrollo tardío, a menudo durante las discusiones nos topamos con metacuestiones más amplias de la rueda de color… Cuando tenemos suficientes, las llevamos a una reunión de cardcrafting donde podemos repasarlas con todo diseño y desarrollo.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Le Conseil des couleurs",
+      "dek": "Former tout le monde au standard a marché pour le chiffrage et échoué pour la roue des couleurs — parce qu'un domaine converge et l'autre non.",
+      "overview": "Le premier récit public du Conseil des couleurs : pourquoi un gardien unique a cessé de tenir la charge, pourquoi la solution évidente n'a pas marché, et la structure qui l'a remplacée — un responsable par couleur, une relecture croisée et une échelle de notation.",
+      "takeaway": "« Si je demandais à chaque développeur de chiffrer la même carte, les réponses tiendraient sans doute à un près. Aux concepteurs, sur un espace mécanique inédit, les réponses n'étaient pas aussi resserrées. »",
+      "lessons": [
+        {
+          "title": "Avant de distribuer un jugement, vérifiez si le domaine converge",
+          "rules": "Former tout le monde au standard marche quand des gens formés atteignent indépendamment presque la même réponse. Là où le jugement tient plus du goût que de l'arithmétique, la même formation produit une large dispersion — et vous aurez remplacé un goulot par une incohérence invisible.",
+          "flavor": "« Si je demandais à chaque développeur de chiffrer la même carte, les réponses tiendraient sans doute à un près. Aux concepteurs, sur un espace mécanique inédit, les réponses n'étaient pas aussi resserrées… Je voyais souvent dans le fichier des cartes qui m'interrogeaient, pour apprendre qu'un autre concepteur les avait validées. »"
+        },
+        {
+          "title": "Un standard qu'on plie à chaque projet demande une autre gouvernance qu'un standard appliqué uniformément",
+          "rules": "Certaines règles se suivent pareil à chaque fois ; d'autres sont exprès étirées pour servir le sujet du projet en cours. Les secondes ne se surveillent pas par une liste fixe, car chaque étirement est un jugement sur ce qui est trop loin dans ce cas précis.",
+          "flavor": "« Le système de chiffrage ne se plie pas tant que ça… La roue des couleurs, en revanche, est constamment pliée. Nous choisissons un thème, puis nous plions la conception vers ce thème. Mais toutes les couleurs ne font pas naturellement ce vers quoi nous penchons ; certaines doivent donc être un peu pliées. »"
+        },
+        {
+          "title": "Associez la responsabilité individuelle et la relecture croisée",
+          "rules": "Une personne par catégorie vous donne quelqu'un de responsable et d'imprégné. Faites ensuite noter chacun hors de sa catégorie, car le responsable a à la fois l'œil le plus sûr et le plus acclimaté. Aucune des deux passes ne repère seule ce que l'autre repère.",
+          "flavor": "« Chacun des cinq concepteurs recevrait une couleur. Ils seraient chargés de la surveillance initiale. » Puis : « Une fois toutes les cartes étiquetées, on constitue un fichier de celles notées 2 ou plus. Chaque membre du conseil doit alors noter les cartes hors de sa couleur… pour avoir une vue plus large. »"
+        },
+        {
+          "title": "Lisez les désaccords, pas seulement les moyennes",
+          "rules": "Trier par gravité trouve les problèmes les plus bruyants. Trier par dispersion trouve ceux que seul le spécialiste voit : un grand écart entre la note du responsable et celle des autres est en soi un signal, et il pointe exactement les cas où l'avis général est le moins fiable.",
+          "flavor": "« Nous passons en revue toutes les cartes notées au-dessus de 2… en commençant par les plus flagrantes (la moyenne la plus élevée). Nous regardons aussi toute carte présentant un fort écart entre sa note initiale et celle de l'équipe. Cela arrive d'ordinaire parce que le responsable de la couleur voit un problème que nul autre ne voit. »"
+        },
+        {
+          "title": "Attribuez par préférences classées, l'ancienneté ne servant que de départage",
+          "rules": "Pour un travail qui tient à l'attachement plus qu'à la compétence, laissez chacun classer ce qu'il veut et attribuez les premiers choix par ancienneté. L'enthousiasme est l'intrant rare, et il s'avère d'ordinaire que les préférences se heurtent bien moins que prévu.",
+          "flavor": "« Nous avons demandé à chaque concepteur de classer les couleurs, le nº 1 étant celle qu'il voulait le plus représenter. Le critère secondaire était l'ancienneté. » Ken avait mis le vert premier et tout le reste cinquième. « Heureusement, les deux s'intéressaient à des couleurs différentes, donc cela n'a pas compté. »"
+        },
+        {
+          "title": "La personne la plus récente peut voir la zone que personne n'a délimitée",
+          "rules": "Une structure bâtie par ceux qui sont déjà dedans hérite de leur sens des frontières. Qui vient d'arriver n'a pas encore appris à ne plus regarder le vide — alors quand il désigne un terrain non couvert et se porte volontaire, laissez-le faire.",
+          "flavor": "« Cette dernière attribution n'a eu lieu que quelques réunions plus tard. Jules venait d'arriver comme stagiaire d'été et voulait participer. Il a noté qu'il y avait un manque, puisque seules les couleurs étaient couvertes ; Jules s'est donc porté volontaire pour surveiller les cartes incolores, surtout les artefacts et les terrains. »"
+        },
+        {
+          "title": "Relisez quand c'est assez arrêté pour être jugé et assez tôt pour être changé",
+          "rules": "Il n'y a qu'une fenêtre où une relecture vaut la peine. Trop tôt, vous critiquez une chose qui bougera de toute façon ; trop tard, vous produisez des constats inexploitables. Inscrivez ce point au calendrier plutôt que de relire quand quelqu'un trouve le temps.",
+          "flavor": "« À un certain moment du développement, assez tard pour que l'édition soit à peu près arrêtée mais assez tôt pour que des changements restent possibles, on demande au conseil de relire officiellement une édition. »"
+        },
+        {
+          "title": "Un rôle de gardien qui croît avec le volume casse, et la réparation est structurelle",
+          "rules": "Une personne tenant un standard sur tout marche jusqu'à ce que la quantité de travail augmente. Passé ce point, aucun effort supplémentaire ne comble l'écart : la réponse est de changer qui le tient, pas d'essayer plus fort ; et reconnaître l'échec est ce qui débloque la refonte.",
+          "flavor": "« Depuis plus de 20 ans à la R&D, je me suis donné pour but d'être le protecteur de la roue des couleurs… Mais ces dernières années, un problème est apparu. Nous produisons davantage… Je n'ai jamais été aussi occupé et nous n'avons jamais fait autant de produits. Je faillissais à mon rôle de protecteur. »"
+        },
+        {
+          "title": "Sortez les questions générales des relectures particulières, et groupez-les",
+          "rules": "La relecture au cas par cas fait sans cesse surgir des questions qui ne concernent pas le cas. Ne les tranchez pas dans la réunion où elles sont apparues : collectez-les, attendez d'en avoir assez pour justifier l'auditoire, et portez-les au forum où toute l'organisation peut acter le changement.",
+          "flavor": "« Si les réunions traitent de questions propres à des cartes pour aider des éditions en développement tardif, souvent au fil des discussions nous tombons sur des méta-questions plus larges… Quand nous en avons assez, nous les portons à une réunion de cardcrafting pour les dérouler avec toute la conception et le développement. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "O Conselho das Cores",
+      "dek": "Treinar todo mundo no padrão funcionou para a precificação e falhou para a roda de cores — porque um domínio converge e o outro não.",
+      "overview": "O primeiro relato público do Conselho das Cores: por que um único guardião parou de escalar, por que a solução óbvia não funcionou, e a estrutura que a substituiu — um dono por cor, revisão cruzada e uma escala de notas.",
+      "takeaway": "“Se eu pedisse a cada desenvolvedor para precificar a mesma carta, as respostas provavelmente ficariam a menos de um de distância. Se eu perguntasse aos designers sobre espaço mecânico inédito, as respostas não eram tão apertadas.”",
+      "lessons": [
+        {
+          "title": "Antes de distribuir um julgamento, confira se o domínio converge",
+          "rules": "Ensinar o padrão a todos funciona quando pessoas treinadas chegam, cada uma por si, quase à mesma resposta. Onde o julgamento se parece mais com gosto do que com aritmética, o mesmo treino produz uma dispersão ampla — e você terá trocado um gargalo por uma inconsistência que não enxerga.",
+          "flavor": "“Se eu pedisse a cada desenvolvedor para precificar a mesma carta, as respostas ficariam a menos de um de distância. Se eu perguntasse aos designers sobre espaço mecânico inédito, as respostas não eram tão apertadas… Eu via com frequência cartas no arquivo que questionava, só para descobrir que outro designer as tinha aprovado.”"
+        },
+        {
+          "title": "Um padrão que é dobrado a cada projeto exige governança diferente de um aplicado uniformemente",
+          "rules": "Algumas regras são seguidas igual toda vez; outras são esticadas de propósito para servir ao assunto do projeto atual. As segundas não se fiscalizam com uma lista fixa, porque cada esticada é um julgamento sobre até onde é longe demais naquele caso.",
+          "flavor": "“O sistema de precificação não é dobrado tanto assim… A roda de cores, ao contrário, é dobrada constantemente. Parte do que acontece é que escolhemos um tema e então dobramos o design em direção a ele. Mas nem toda cor faz naturalmente aquilo para onde estamos pendendo, então certas cores precisam ser dobradas um pouco.”"
+        },
+        {
+          "title": "Combine a propriedade individual com a revisão cruzada",
+          "rules": "Uma pessoa por categoria te dá alguém responsável e imerso nela. Depois faça todos avaliarem fora da própria categoria, porque o dono tem ao mesmo tempo o olho mais aguçado e o mais acostumado. Nenhuma das duas passadas sozinha pega o que a outra pega.",
+          "flavor": "“Cada um dos cinco designers receberia uma cor. Seriam responsáveis pelo monitoramento inicial.” E então: “Depois de todas as cartas rotuladas, faz-se um arquivo com todas as avaliadas 2 ou mais. Cada membro do conselho é então convidado a avaliar as cartas fora da sua cor… para termos uma visão mais ampla.”"
+        },
+        {
+          "title": "Leia as discordâncias, não só as médias",
+          "rules": "Ordenar por gravidade acha os problemas mais barulhentos. Ordenar por dispersão acha os que só o especialista vê: uma diferença grande entre a nota do dono e a dos demais é por si só um sinal, e aponta exatamente os casos em que a visão geral é menos confiável.",
+          "flavor": "“Então revisamos todas as cartas que pontuam acima de 2… começando pelas mais gritantes (a maior média). Também olhamos qualquer carta com um delta alto entre a nota inicial e a do time. Isso costuma acontecer porque o membro responsável pela cor vê um problema que mais ninguém vê.”"
+        },
+        {
+          "title": "Atribua por preferência ordenada, com senioridade só como desempate",
+          "rules": "Para trabalho que funciona por apego mais do que por capacidade, deixe as pessoas ordenarem o que querem e distribua as primeiras escolhas por tempo de casa. Entusiasmo é o insumo escasso, e em geral as preferências colidem bem menos do que você esperava.",
+          "flavor": "“Fizemos assim: cada designer ordenou as cores, com o nº 1 sendo a que mais queria representar. O fator secundário era a senioridade.” Ken tinha posto verde em primeiro e tudo o mais em quinto. “Por sorte, os dois se interessavam por cores diferentes, então acabou não importando.”"
+        },
+        {
+          "title": "A pessoa mais nova consegue ver a área que ninguém delimitou",
+          "rules": "Uma estrutura construída por quem já está dentro herda o senso deles de onde ficam as fronteiras. Quem acabou de chegar ainda não aprendeu a parar de olhar para o vão — então, quando apontar terreno descoberto e se oferecer, deixe.",
+          "flavor": "“Esta última atribuição só aconteceu algumas reuniões depois. Jules tinha acabado de começar como estagiário de verão e queria participar. Ele notou que havia uma lacuna, já que só as cores estavam cobertas; então Jules se ofereceu para monitorar as cartas incolores, na maioria artefatos e terrenos.”"
+        },
+        {
+          "title": "Revise quando estiver assentado o bastante para julgar e cedo o bastante para mudar",
+          "rules": "Há uma única janela em que vale a pena fazer uma revisão. Cedo demais e você critica algo que vai se mexer de qualquer jeito; tarde demais e você produz achados sobre os quais ninguém pode agir. Marque esse ponto no cronograma, em vez de revisar quando alguém tiver tempo.",
+          "flavor": "“Em certo ponto do desenvolvimento, tarde o bastante para a coleção estar em boa parte assentada mas cedo o bastante para ainda caberem mudanças, pede-se ao conselho que revise oficialmente uma coleção.”"
+        },
+        {
+          "title": "Um papel de guardião que escala com o volume quebra, e o conserto é estrutural",
+          "rules": "Uma pessoa segurando um padrão sobre tudo funciona até a quantidade de trabalho crescer. A partir daí, nenhum esforço adicional fecha a lacuna: a resposta é mudar quem segura, não tentar mais forte; e admitir a falha é o que destrava o redesenho.",
+          "flavor": "“Fiz disso meu objetivo ao longo de mais de 20 anos na P&D: ser o protetor da roda de cores… Mas nos últimos anos comecei a ter um problema. Aumentamos o número de produtos… Estou mais ocupado do que nunca e fazemos mais produtos do que nunca. Eu estava falhando no meu trabalho de protetor da roda de cores.”"
+        },
+        {
+          "title": "Tire as questões gerais das revisões específicas e agrupe-as",
+          "rules": "A revisão caso a caso não para de levantar questões que não são do caso. Não as resolva na reunião em que surgiram: recolha-as, espere haver o bastante para justificar a plateia, e leve-as ao fórum onde a organização inteira pode acordar a mudança.",
+          "flavor": "“Embora as reuniões tratem de questões específicas de cartas para ajudar coleções em desenvolvimento tardio, muitas vezes durante as discussões esbarramos em metaquestões maiores da roda de cores… Quando temos o bastante, levamos a uma reunião de cardcrafting para percorrê-las com todo o design e desenvolvimento.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "色彩议会",
+      "dek": "「把标准教给所有人」这一招在定价上奏效，在色轮上失败了——因为一个领域会收敛，另一个不会。",
+      "overview": "色彩议会的第一份公开记述：为什么单一守门人不再撑得住、为什么那个显而易见的修法没有奏效，以及取而代之的那套结构——每种颜色一位负责人、交叉复审，以及一把评级尺。",
+      "takeaway": "「如果我让每一位开发师去给同一张牌定价，所有答案大概都会落在彼此相差不超过一的范围内。而如果我去问设计师们关于全新的机制空间，答案就没那么收得拢了。」",
+      "lessons": [
+        {
+          "title": "在把一项判断分派出去之前，先查一查这个领域会不会收敛",
+          "rules": "「把标准教给所有人」这一招，在受过训练的人各自独立地得出几乎相同答案时才管用。而在判断更接近品味、而不是算术的地方，同样的训练会产出很大的离散——于是你只是把一个瓶颈换成了一份你看不见的不一致。",
+          "flavor": "「举例来说，如果我让每一位开发师去给同一张牌定价，所有答案大概都会落在彼此相差不超过一的范围内。而如果我去问设计师们关于全新的机制空间，答案就没那么收得拢了……我常常在文件里看到一些让我起疑的牌，结果才知道是另一位设计师批过的。」"
+        },
+        {
+          "title": "一条每个项目都会被弯折的标准，需要与「一律照办的标准」不同的治理方式",
+          "rules": "有些规则每次都以同样方式被遵守；另一些则会被有意拉伸，去服务当下这个项目讲的是什么。后一类没法靠一份固定清单来监管，因为每一次拉伸都是一个判断：在这个具体的案例里，多远才算太远。",
+          "flavor": "「定价系统并不怎么被弯折……而色轮则相反，它一直在被弯折。发生的事情之一是：我们选定一个主题，然后把设计朝那个主题弯过去。可并不是每种颜色都天然会做我们正倾向的那件事，这就意味着某些颜色得被弯一点点，好待在主题里。」"
+        },
+        {
+          "title": "把「单一归属」和「交叉复审」配成一对",
+          "rules": "每个类别一个人，给了你一位既担责又浸润其中的负责人。然后让每个人也去给自己类别之外的东西评级；因为那位负责人既拥有最锐利的眼睛，也拥有最被驯化的眼睛。这两遍中的任何一遍单独进行，都抓不到另一遍能抓到的东西。",
+          "flavor": "「五位设计师每人分派一种颜色。他们负责做最初的监看。」然后：「等所有牌都被标注完，会做出一份包含所有被评为2或更高的牌的文件。接着每一位议会成员都被要求去给自己颜色之外的牌评级……这样我们才能得到一份更宽的判断。」"
+        },
+        {
+          "title": "去读那些分歧，而不只是读平均值",
+          "rules": "按严重程度排序，找到的是最吵的那些问题。按离散度排序，找到的是只有专才看得见的那些——负责人的评分与其他人之间的巨大落差，本身就是一个信号；而它恰恰指向那些「大众判断最不可靠」的案例。",
+          "flavor": "「随后我们复审所有评分高于2的牌……从最严重的（平均分最高的）开始。我们也会去看任何一张『初始评分与团队评分之间落差很大』的牌。这通常是因为负责那个颜色的议会成员，看见了一个别人都没看见的问题。」"
+        },
+        {
+          "title": "按排序偏好来分派，资历只用来打破平手",
+          "rules": "对那些靠「在乎」而不是靠「能力」运转的工作，让人们把自己想要的排个序，然后按入职先后把第一志愿发下去。热情才是那个稀缺的投入品；而结果通常是，偏好之间的碰撞远比你预想的少。",
+          "flavor": "「我们的做法，是让每位设计师给这些颜色排个序，第1名就是他最想代表的那个颜色。次要因素是资历。」肯把绿色排第一，其余全排第五。「幸运的是，这两个人感兴趣的是不同的颜色，所以最后并没有起冲突。」"
+        },
+        {
+          "title": "最新来的那个人，能看见没有人划进范围的那片区域",
+          "rules": "一套由「已经在里面的人」搭起来的结构，会继承他们对边界在哪儿的感觉。刚到的人还没学会不去看那处空缺——所以当他指着一片没被覆盖的地并且自告奋勇时，就让他去。",
+          "flavor": "「最后这项分派是在又开了几次会之后才发生的。朱尔斯刚以暑期实习生的身份入职，他有兴趣参与进来。他注意到有一处缺口：被覆盖的只有各个颜色。于是朱尔斯自告奋勇去监看无色的牌，主要是神器和地。」"
+        },
+        {
+          "title": "在「定得够稳可以判断」且「早得还改得动」的时候复审",
+          "rules": "一次复审只有一个值得举行的窗口。太早，你评的是一样反正还会动的东西；太晚，你产出的是没人能据以行动的结论。把那个时间点写进日程表里，而不是等谁有空了再来看。",
+          "flavor": "「在开发过程中的某个时点——晚到这个系列已大体定型、又早到改动仍然做得出来——议会会被正式请去复审一个系列。」"
+        },
+        {
+          "title": "一个随产量增长的守门人角色一定会坏掉，而修法是结构性的",
+          "rules": "一个人扛着一套横跨一切的标准，在工作量增长之前都还行得通。过了那个点，再多的额外努力也补不上这道缺口——答案是换掉「由谁来扛」，而不是更努力；而承认这次失败，正是让重新设计得以启动的那件事。",
+          "flavor": "「在研发部工作的二十多年里，我把『做色轮的守护者』当成自己的目标……但在过去这几年，我开始遇到一个问题。我们增加了正在生产的产品数量……我比以往任何时候都忙，而我们做的产品也比以往任何时候都多。我在『色轮守护者』这份工作上正在掉链子。」"
+        },
+        {
+          "title": "把一般性的议题从个案复审里分流出去，并攒成一批",
+          "rules": "逐案复审会不断浮出一些与这个案子无关的问题。别在它们冒出来的那场会上就地解决——把它们收集起来，等到数量足够撑得起那批听众，再带去那个「全组织可以就这项改动达成一致」的场合。",
+          "flavor": "「虽然这些会议处理的是与具体卡牌相关的问题、以帮助那些处在开发后期的系列，但在讨论过程中我们常常会碰上更大的色轮元议题……等我们攒够了元议题，就把它们带到一次『造牌会』上，在那里和全部的设计与开发一起把它们走一遍。」"
+        }
+      ]
+    }
+  }
+}
