@@ -1,0 +1,359 @@
+{
+  "id": "un-ending-saga-part-2-2017-11-13",
+  "slug": "un-ending-saga-part-2-2017-11-13",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2017-11-13",
+  "series": { "id": "un-ending-saga", "order": 2, "total": 3 },
+  "tags": [
+    "unstable",
+    "un-sets",
+    "contraptions",
+    "mechanic-design",
+    "iteration",
+    "limited"
+  ],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/un-ending-saga-part-2-2017-11-13",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T08:41:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "W" },
+    { "n": 10, "color": "G" },
+    { "n": 11, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "The Un-ending Saga, Part 2",
+      "dek": "Five years, fifty attempts, and a trading card game abandoned in 1993 — how Contraptions finally got built.",
+      "overview": "Every black-border attempt at Contraptions failed in one of exactly two ways. The version that worked came from an unfinished robot-building game the author had been designing when Wizards hired him.",
+      "takeaway": "The first working prototype had a hub with four sides and strict placement rules. The shipping version has three columns and no placement rules at all — and removing the restrictions is what added the strategy.",
+      "lessons": [
+        {
+          "title": "When the word is the spec, read the definition",
+          "rules": "A name you've committed to carries requirements whether or not you've enumerated them. Look up what it actually means and write down what that obliges you to build — most of the failed attempts will turn out to have been failing that clause.",
+          "flavor": "“Probably the biggest limitation though was the word Contraption itself. According to my dictionary, a contraption is ‘a piece of equipment or machinery that is unusual or strange.' The fact that it was assembled implied to me that it was made of multiple pieces that were somehow being forced together to create a larger machine.”"
+        },
+        {
+          "title": "When every attempt fails in one of two ways, the two ways are your real problem",
+          "rules": "Failures that sort cleanly into a pair of buckets aren't fifty separate problems — they're one dilemma with two horns. That's diagnostic: the medium, not the idea, is what's forcing the trade.",
+          "flavor": "“In about a five-year span, I experimented with 50-some different mechanical executions. They mostly fell into two camps. Either they had a glimmer of hope… but they didn't work in the current rules, or they worked within the rules and just felt kind of blah.”"
+        },
+        {
+          "title": "Refuse the version that is legal but small",
+          "rules": "There is usually a safe implementation available that satisfies the letter of the promise. If the promise was about scale or audacity, shipping the safe one is worse than shipping nothing — it spends the idea and delivers none of it.",
+          "flavor": "“Yeah, assembling a Contraption could mean tutor… or impulse… for an artifact with the subtype Contraption, but that wasn't delivering on the crazy promise of Steamflogger Boss. If I was going to capture the essence of Contraptions, I felt like I had to be trying something amazing and not just playing it safe.”"
+        },
+        {
+          "title": "Change the medium rather than the design",
+          "rules": "When an idea keeps dying at the same gate, the fix may not be a better idea. Move it somewhere the gate doesn't exist and the version you already had starts working unmodified.",
+          "flavor": "Contraptions had failed for five years inside black-border rules. “So, when the idea came up in the Unstable meeting that maybe Contraptions could be a silver-border thing, I was excited to explore what that might mean.” Nothing about the goal changed; the rules around it did."
+        },
+        {
+          "title": "The game you never finished is a design you already own",
+          "rules": "Abandoned personal projects are stocked with fully-worked structures nobody else has. When a problem matches one of them, you aren't starting from a sketch — you're starting from something you already solved and never shipped.",
+          "flavor": "In 1993 he was building Qubit, a card game about attaching component cards to a robot core, where position relative to other cards mattered. “I was in the middle of making Qubit when I got hired by Wizards, so it was never completed… Qubit is where my brain went when silver-border Magic was made available for Contraptions.”"
+        },
+        {
+          "title": "The first playtest that thrills you is the start of testing, not the end",
+          "rules": "Excitement after one session tells you the concept is alive. It tells you nothing about the failure modes, which surface only once people stop being delighted and start optimizing.",
+          "flavor": "“After the first playtest, I was very excited. We finally had something that felt like a Contraption… It was the first time I had made a mechanic that felt like it truly lived up to the idea.” Then: “As we played with this version, we started to find some problems.”"
+        },
+        {
+          "title": "When several unrelated complaints appear at once, look for the one dimension they all ride on",
+          "rules": "A list of separate problems can share a single parameter. Change that parameter and the whole list resolves together — which is a far better outcome than three independent patches that each cost something.",
+          "flavor": "Three problems: Contraptions with nowhere legal to go, a four-turn cycle that was too slow, and cards taking up too much table space. “So, we changed from a system of four to a system of three.” Columns instead of a hub, and the placement restrictions dropped."
+        },
+        {
+          "title": "The restriction you thought was the game may be the thing suppressing it",
+          "rules": "Constraints that look like the interesting decision sometimes only remove options. Try deleting the rule you assumed was load-bearing; if depth goes up rather than down, it was overhead.",
+          "flavor": "“Also, we removed all placement restrictions. Any Contraption could be placed in any column. This allowed for more strategy and more combo potential. It didn't take a lot of playtesting to realize that this new version was a significant improvement.”"
+        },
+        {
+          "title": "Give each group a short fixed vocabulary of effects",
+          "rules": "A faction feels like itself when its members draw from a small, stated list rather than from anything thematically defensible. Three or four effect types per group is enough to be recognizable and few enough to stay distinct from the others.",
+          "flavor": "Each faction's Contraptions do one of three or four things. The Goblins: enhance creatures toward attacking, cause chaos, and “have effects based on rolling two six-sided dice and caring about the difference.” The spies mess with information, evade blockers, make tokens, and scale with creature count."
+        },
+        {
+          "title": "A presentation idea is allowed to rewrite the count",
+          "rules": "Numbers set during design are usually round rather than necessary. When someone finds a way to make the object itself better, changing the count to fit is a cheaper concession than it feels like.",
+          "flavor": "“We originally had 50 Contraptions, ten per faction, but Dawn Murin… came up with a cool idea of how to illustrate the cards. Each faction's Contraptions were given to an artist, who made a giant illustration combining nine different Contraptions into a three-by-three grid… This required us to go down from ten Contraptions per guild to nine.”"
+        },
+        {
+          "title": "Make it a resource that has to be drafted",
+          "rules": "A subsystem players can ignore stays a curiosity. Put its components in the pack alongside the cards that use them, and balancing the two becomes a real decision every player has to make.",
+          "flavor": "“We spent a bunch of time trying to figure out how exactly players got the Contraptions, and ended up dedicating two slots per booster… the Contraptions are a resource that you must draft, so keep track of how many cards you draft that assemble Contraptions and make sure you're picking up enough Contraptions to go along with them.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "La saga interminable, parte 2",
+      "dek": "Cinco años, cincuenta intentos y un juego de cartas abandonado en 1993: cómo se construyeron por fin los artefactos raros.",
+      "overview": "Todos los intentos en borde negro fallaban exactamente de una de dos maneras. La versión que funcionó vino de un juego de robots sin terminar que el autor diseñaba cuando Wizards lo contrató.",
+      "takeaway": "El primer prototipo que funcionaba tenía un núcleo con cuatro lados y reglas estrictas de colocación. La versión publicada tiene tres columnas y ninguna regla de colocación, y fue quitar las restricciones lo que añadió la estrategia.",
+      "lessons": [
+        {
+          "title": "Cuando la palabra es la especificación, lee la definición",
+          "rules": "Un nombre al que te has comprometido acarrea requisitos los hayas enumerado o no. Busca qué significa de verdad y anota a qué te obliga construir: la mayoría de los intentos fallidos habrán estado fallando esa cláusula.",
+          "flavor": "«Seguramente la mayor limitación era la palabra Contraption en sí. Según mi diccionario, es “una pieza de equipo o maquinaria inusual o extraña”. El hecho de que se ensamblara me implicaba que estaba hecha de varias piezas forzadas de algún modo a formar una máquina mayor.»"
+        },
+        {
+          "title": "Si todos los intentos fallan de una de dos maneras, esas dos maneras son tu problema real",
+          "rules": "Los fracasos que se ordenan limpiamente en dos cubos no son cincuenta problemas: son un dilema con dos cuernos. Y eso es diagnóstico: lo que fuerza el intercambio es el medio, no la idea.",
+          "flavor": "«En unos cinco años experimenté con más de 50 ejecuciones mecánicas distintas. Casi todas caían en dos campos. O tenían un destello de esperanza… pero no funcionaban con las reglas actuales, o funcionaban con las reglas y resultaban sosas.»"
+        },
+        {
+          "title": "Rechaza la versión que es legal pero pequeña",
+          "rules": "Suele haber una implementación segura que cumple la letra de la promesa. Si la promesa iba de escala o audacia, publicar la segura es peor que no publicar nada: gasta la idea y no entrega nada de ella.",
+          "flavor": "«Sí, ensamblar un artefacto raro podía significar buscar en la biblioteca un artefacto con ese subtipo, pero eso no cumplía la promesa loca de Steamflogger Boss. Si iba a capturar la esencia, sentía que tenía que estar intentando algo asombroso y no ir a lo seguro.»"
+        },
+        {
+          "title": "Cambia el medio en vez de cambiar el diseño",
+          "rules": "Cuando una idea muere siempre en la misma puerta, la solución puede no ser una idea mejor. Llévala a un sitio donde esa puerta no exista y la versión que ya tenías empieza a funcionar sin modificarla.",
+          "flavor": "Los artefactos raros llevaban cinco años fallando dentro de las reglas de borde negro. «Así que cuando en la reunión de Unstable surgió la idea de que quizá pudieran ser algo de borde plateado, me entusiasmó explorar qué podía significar eso.»"
+        },
+        {
+          "title": "El juego que nunca terminaste es un diseño que ya posees",
+          "rules": "Los proyectos personales abandonados están llenos de estructuras completamente resueltas que nadie más tiene. Cuando un problema encaja con una de ellas, no partes de un boceto: partes de algo que ya resolviste y nunca publicaste.",
+          "flavor": "En 1993 construía Qubit, un juego donde ibas acoplando componentes a un núcleo de robot y donde la posición respecto a otras cartas importaba. «Estaba en mitad de Qubit cuando me contrató Wizards, así que nunca se terminó… A Qubit fue a donde se me fue la cabeza.»"
+        },
+        {
+          "title": "El primer playtest que te emociona es el principio de las pruebas, no el final",
+          "rules": "El entusiasmo tras una sesión te dice que el concepto está vivo. No te dice nada de los modos de fallo, que solo asoman cuando la gente deja de maravillarse y empieza a optimizar.",
+          "flavor": "«Después del primer playtest estaba entusiasmadísimo. Por fin teníamos algo que se sentía como un artefacto raro… Era la primera vez que hacía una mecánica que de verdad estaba a la altura de la idea.» Y después: «Al jugar con esta versión empezamos a encontrar problemas.»"
+        },
+        {
+          "title": "Cuando aparecen varias quejas inconexas a la vez, busca la dimensión que comparten",
+          "rules": "Una lista de problemas separados puede colgar de un único parámetro. Cambia ese parámetro y la lista entera se resuelve de golpe, que es mucho mejor que tres parches independientes que cuestan algo cada uno.",
+          "flavor": "Tres problemas: artefactos raros sin sitio legal donde ir, un ciclo de cuatro turnos demasiado lento, y demasiado espacio ocupado en la mesa. «Así que pasamos de un sistema de cuatro a un sistema de tres.» Columnas en vez de núcleo, y fuera las restricciones."
+        },
+        {
+          "title": "La restricción que creías que era el juego puede ser lo que lo estaba ahogando",
+          "rules": "Hay límites que parecen la decisión interesante y en realidad solo quitan opciones. Prueba a borrar la regla que dabas por portante: si la profundidad sube en vez de bajar, era sobrecarga.",
+          "flavor": "«Además, quitamos todas las restricciones de colocación. Cualquier artefacto raro podía ir en cualquier columna. Esto permitió más estrategia y más potencial de combo. No hicieron falta muchas pruebas para ver que la nueva versión era una mejora significativa.»"
+        },
+        {
+          "title": "Dale a cada grupo un vocabulario corto y fijo de efectos",
+          "rules": "Una facción se siente ella misma cuando sus miembros tiran de una lista pequeña y declarada, no de cualquier cosa temáticamente defendible. Tres o cuatro tipos de efecto por grupo bastan para ser reconocible y son pocos para no pisarse con los demás.",
+          "flavor": "Los artefactos raros de cada facción hacen una de tres o cuatro cosas. Los duendes: mejoran criaturas para atacar, causan caos y «tienen efectos basados en tirar dos dados de seis caras y en la diferencia entre ellos»."
+        },
+        {
+          "title": "Una idea de presentación puede reescribir las cifras",
+          "rules": "Los números fijados en diseño suelen ser redondos, no necesarios. Cuando alguien encuentra la forma de mejorar el objeto en sí, cambiar la cifra para que encaje es una concesión más barata de lo que parece.",
+          "flavor": "«Al principio teníamos 50 artefactos raros, diez por facción, pero Dawn Murin… tuvo una gran idea para ilustrarlos. Los de cada facción se dieron a un artista, que hizo una ilustración gigante combinando nueve en una cuadrícula de tres por tres… Esto nos obligó a bajar de diez a nueve.»"
+        },
+        {
+          "title": "Haz que sea un recurso que haya que draftear",
+          "rules": "Un subsistema que los jugadores pueden ignorar se queda en curiosidad. Pon sus componentes en el sobre junto a las cartas que los usan, y equilibrar ambas cosas pasa a ser una decisión real para todo el mundo.",
+          "flavor": "«Dedicamos mucho tiempo a averiguar cómo obtenían exactamente los jugadores los artefactos raros, y acabamos dedicando dos espacios por sobre… son un recurso que debes draftear, así que lleva la cuenta de cuántas cartas que los ensamblan estás cogiendo.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "La saga sans fin, partie 2",
+      "dek": "Cinq ans, cinquante tentatives et un jeu de cartes abandonné en 1993 : comment les machins ont fini par être construits.",
+      "overview": "Toutes les tentatives en bordure noire échouaient d'exactement l'une de deux façons. La version qui a marché venait d'un jeu de robots inachevé que l'auteur concevait quand Wizards l'a embauché.",
+      "takeaway": "Le premier prototype fonctionnel avait un moyeu à quatre côtés et des règles de placement strictes. La version publiée a trois colonnes et aucune règle de placement — et c'est la suppression des restrictions qui a ajouté la stratégie.",
+      "lessons": [
+        {
+          "title": "Quand le mot est le cahier des charges, lisez la définition",
+          "rules": "Un nom auquel vous vous êtes engagé porte des exigences, que vous les ayez listées ou non. Cherchez ce qu'il veut dire et notez ce que cela vous oblige à bâtir : la plupart des tentatives ratées auront échoué sur cette clause.",
+          "flavor": "« La plus grande limite était sans doute le mot Contraption lui-même. Selon mon dictionnaire, c'est “un équipement ou une machine inhabituelle ou étrange”. Le fait qu'on l'assemble impliquait pour moi plusieurs pièces forcées ensemble pour former une machine plus grande. »"
+        },
+        {
+          "title": "Si toutes les tentatives échouent de l'une de deux façons, ces deux façons sont le vrai problème",
+          "rules": "Des échecs qui se rangent proprement en deux paniers ne sont pas cinquante problèmes : c'est un dilemme à deux cornes. Et c'est un diagnostic : ce qui impose l'arbitrage, c'est le support, pas l'idée.",
+          "flavor": "« Sur environ cinq ans, j'ai essayé plus de 50 exécutions mécaniques différentes. Elles tombaient dans deux camps. Soit elles avaient une lueur d'espoir… mais ne marchaient pas dans les règles actuelles, soit elles marchaient et étaient simplement fades. »"
+        },
+        {
+          "title": "Refusez la version légale mais petite",
+          "rules": "Il existe presque toujours une mise en œuvre sûre qui satisfait la lettre de la promesse. Si la promesse portait sur l'ampleur ou l'audace, livrer la version sûre est pire que ne rien livrer : cela dépense l'idée sans en délivrer aucune part.",
+          "flavor": "« Oui, assembler un machin pouvait vouloir dire aller chercher un artefact du sous-type dans sa bibliothèque, mais cela ne tenait pas la promesse folle de Steamflogger Boss. Pour en saisir l'essence, je sentais qu'il fallait tenter quelque chose d'extraordinaire, pas jouer la sécurité. »"
+        },
+        {
+          "title": "Changez de support plutôt que de conception",
+          "rules": "Quand une idée meurt toujours à la même porte, le remède n'est pas forcément une meilleure idée. Déplacez-la là où la porte n'existe pas et la version que vous aviez déjà se met à fonctionner telle quelle.",
+          "flavor": "Les machins échouaient depuis cinq ans dans les règles bordure noire. « Alors quand l'idée est venue, en réunion Unstable, que les machins pourraient être une affaire de bordure argentée, j'étais tout excité d'explorer ce que cela voulait dire. »"
+        },
+        {
+          "title": "Le jeu que vous n'avez jamais fini est une conception que vous possédez déjà",
+          "rules": "Les projets personnels abandonnés regorgent de structures entièrement travaillées que personne d'autre n'a. Quand un problème correspond à l'une d'elles, vous ne partez pas d'une esquisse : vous partez d'un problème déjà résolu et jamais livré.",
+          "flavor": "En 1993, il construisait Qubit, un jeu où l'on rattachait des composants à un noyau de robot et où la position relative comptait. « J'étais en plein Qubit quand Wizards m'a embauché, donc il n'a jamais été terminé… C'est là que mon cerveau est allé. »"
+        },
+        {
+          "title": "Le premier playtest qui vous enthousiasme est le début des tests, pas la fin",
+          "rules": "L'enthousiasme après une séance vous dit que le concept est vivant. Il ne dit rien des modes de défaillance, qui n'apparaissent que lorsque les gens cessent de s'émerveiller et commencent à optimiser.",
+          "flavor": "« Après le premier playtest, j'étais très enthousiaste. Nous avions enfin quelque chose qui ressemblait à un machin… » Puis : « En jouant avec cette version, nous avons commencé à trouver des problèmes. »"
+        },
+        {
+          "title": "Quand plusieurs plaintes sans rapport surgissent ensemble, cherchez la dimension commune",
+          "rules": "Une liste de problèmes distincts peut tenir à un seul paramètre. Changez ce paramètre et la liste entière se résout d'un coup — bien mieux que trois rustines indépendantes qui coûtent chacune quelque chose.",
+          "flavor": "Trois problèmes : des machins sans emplacement légal, un cycle de quatre tours trop lent, et trop de place sur la table. « Nous sommes donc passés d'un système de quatre à un système de trois. » Des colonnes plutôt qu'un moyeu, et les restrictions supprimées."
+        },
+        {
+          "title": "La restriction que vous croyiez être le jeu est peut-être ce qui l'étouffait",
+          "rules": "Certaines contraintes ont l'air d'être la décision intéressante alors qu'elles ne font que retirer des options. Essayez de supprimer la règle que vous croyiez porteuse : si la profondeur monte au lieu de descendre, c'était du surcoût.",
+          "flavor": "« Nous avons aussi supprimé toutes les restrictions de placement. N'importe quel machin pouvait aller dans n'importe quelle colonne. Cela a permis plus de stratégie et plus de combos. Il n'a pas fallu beaucoup de tests pour voir que c'était nettement mieux. »"
+        },
+        {
+          "title": "Donnez à chaque groupe un vocabulaire d'effets court et fixe",
+          "rules": "Une faction se ressemble quand ses membres puisent dans une petite liste énoncée, et non dans tout ce qui est thématiquement défendable. Trois ou quatre types d'effets par groupe suffisent à la rendre reconnaissable et restent assez peu nombreux pour la distinguer des autres.",
+          "flavor": "Les machins de chaque faction font l'une de trois ou quatre choses. Les gobelins : renforcer les créatures vers l'attaque, semer le chaos, et « avoir des effets fondés sur le lancer de deux dés à six faces et sur la différence entre eux »."
+        },
+        {
+          "title": "Une idée de présentation a le droit de réécrire le compte",
+          "rules": "Les nombres fixés en conception sont d'ordinaire ronds plutôt que nécessaires. Quand quelqu'un trouve comment améliorer l'objet lui-même, ajuster le compte est une concession moins chère qu'elle n'en a l'air.",
+          "flavor": "« Nous avions au départ 50 machins, dix par faction, mais Dawn Murin… a eu une chouette idée d'illustration. Les machins de chaque faction ont été confiés à un artiste, qui a fait une immense illustration combinant neuf machins en grille de trois sur trois… Il a fallu passer de dix à neuf. »"
+        },
+        {
+          "title": "Faites-en une ressource qu'il faut drafter",
+          "rules": "Un sous-système qu'on peut ignorer reste une curiosité. Mettez ses composants dans le booster à côté des cartes qui s'en servent, et équilibrer les deux devient une vraie décision pour tout le monde.",
+          "flavor": "« Nous avons beaucoup cherché comment les joueurs obtiendraient les machins, et nous avons fini par leur dédier deux emplacements par booster… les machins sont une ressource qu'il faut drafter : comptez donc combien de cartes qui les assemblent vous prenez. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "A saga sem fim, parte 2",
+      "dek": "Cinco anos, cinquenta tentativas e um jogo de cartas abandonado em 1993: como as engenhocas finalmente foram construídas.",
+      "overview": "Toda tentativa em borda preta falhava de exatamente uma entre duas maneiras. A versão que funcionou veio de um jogo de robôs inacabado que o autor projetava quando a Wizards o contratou.",
+      "takeaway": "O primeiro protótipo funcional tinha um núcleo de quatro lados e regras rígidas de posicionamento. A versão publicada tem três colunas e nenhuma regra de posicionamento — e foi tirar as restrições que acrescentou a estratégia.",
+      "lessons": [
+        {
+          "title": "Quando a palavra é a especificação, leia a definição",
+          "rules": "Um nome com o qual você se comprometeu carrega exigências, tenha você as enumerado ou não. Procure o que ele de fato significa e anote a que isso te obriga a construir: a maioria das tentativas fracassadas terá falhado nessa cláusula.",
+          "flavor": "“Provavelmente a maior limitação era a própria palavra Contraption. Segundo meu dicionário, é ‘um equipamento ou maquinário incomum ou estranho'. O fato de ser montada implicava, para mim, várias peças forçadas juntas para formar uma máquina maior.”"
+        },
+        {
+          "title": "Se toda tentativa falha de uma entre duas maneiras, essas duas maneiras são o problema real",
+          "rules": "Fracassos que se organizam limpamente em dois baldes não são cinquenta problemas: são um dilema com dois chifres. E isso é diagnóstico: o que força a troca é o meio, não a ideia.",
+          "flavor": "“Em cerca de cinco anos, experimentei mais de 50 execuções mecânicas diferentes. Quase todas caíam em dois campos. Ou tinham um lampejo de esperança… mas não funcionavam nas regras atuais, ou funcionavam nas regras e eram meio sem graça.”"
+        },
+        {
+          "title": "Recuse a versão que é legal mas pequena",
+          "rules": "Quase sempre existe uma implementação segura que cumpre a letra da promessa. Se a promessa era sobre escala ou ousadia, publicar a segura é pior que não publicar nada: gasta a ideia e não entrega parte alguma dela.",
+          "flavor": "“Sim, montar uma engenhoca podia significar buscar na biblioteca um artefato daquele subtipo, mas isso não cumpria a promessa maluca de Steamflogger Boss. Se eu ia capturar a essência, sentia que tinha de estar tentando algo incrível, não jogando no seguro.”"
+        },
+        {
+          "title": "Mude o meio em vez de mudar o design",
+          "rules": "Quando uma ideia morre sempre no mesmo portão, o conserto pode não ser uma ideia melhor. Leve-a para onde o portão não existe e a versão que você já tinha passa a funcionar sem alteração.",
+          "flavor": "As engenhocas vinham falhando havia cinco anos dentro das regras de borda preta. “Então, quando surgiu na reunião de Unstable a ideia de que talvez elas pudessem ser coisa de borda prateada, fiquei animado para explorar o que isso significaria.”"
+        },
+        {
+          "title": "O jogo que você nunca terminou é um design que você já possui",
+          "rules": "Projetos pessoais abandonados estão cheios de estruturas plenamente resolvidas que mais ninguém tem. Quando um problema casa com uma delas, você não parte de um esboço: parte de algo que já resolveu e nunca publicou.",
+          "flavor": "Em 1993 ele construía Qubit, um jogo em que se acoplavam componentes a um núcleo de robô e a posição relativa importava. “Eu estava no meio de Qubit quando a Wizards me contratou, então ele nunca foi terminado… Foi para lá que minha cabeça foi.”"
+        },
+        {
+          "title": "O primeiro playtest que te empolga é o começo dos testes, não o fim",
+          "rules": "Empolgação depois de uma sessão diz que o conceito está vivo. Não diz nada sobre os modos de falha, que só aparecem quando as pessoas param de se encantar e começam a otimizar.",
+          "flavor": "“Depois do primeiro playtest, eu estava empolgadíssimo. Finalmente tínhamos algo que parecia uma engenhoca…” E então: “Ao jogar com essa versão, começamos a achar problemas.”"
+        },
+        {
+          "title": "Quando várias queixas sem relação aparecem juntas, procure a dimensão que todas compartilham",
+          "rules": "Uma lista de problemas separados pode pender de um único parâmetro. Mude esse parâmetro e a lista inteira se resolve de uma vez — bem melhor do que três remendos independentes que custam cada um alguma coisa.",
+          "flavor": "Três problemas: engenhocas sem lugar legal para ir, um ciclo de quatro turnos lento demais, e ocupação demais da mesa. “Então mudamos de um sistema de quatro para um sistema de três.” Colunas em vez de núcleo, e restrições removidas."
+        },
+        {
+          "title": "A restrição que você achava ser o jogo pode ser o que o estava sufocando",
+          "rules": "Há limites que parecem a decisão interessante e na verdade só tiram opções. Tente apagar a regra que você supunha estrutural: se a profundidade sobe em vez de cair, era sobrecarga.",
+          "flavor": "“Também removemos todas as restrições de posicionamento. Qualquer engenhoca podia ir em qualquer coluna. Isso permitiu mais estratégia e mais potencial de combo. Não foi preciso muito playtest para ver que a nova versão era uma melhora significativa.”"
+        },
+        {
+          "title": "Dê a cada grupo um vocabulário curto e fixo de efeitos",
+          "rules": "Uma facção parece ela mesma quando seus membros puxam de uma lista pequena e declarada, e não de qualquer coisa tematicamente defensável. Três ou quatro tipos de efeito por grupo bastam para ser reconhecível e são poucos para não se confundir com os outros.",
+          "flavor": "As engenhocas de cada facção fazem uma de três ou quatro coisas. Os goblins: melhoram criaturas para atacar, causam caos e “têm efeitos baseados em rolar dois dados de seis faces e na diferença entre eles”."
+        },
+        {
+          "title": "Uma ideia de apresentação pode reescrever a contagem",
+          "rules": "Números fixados no design costumam ser redondos, não necessários. Quando alguém acha um jeito de melhorar o próprio objeto, mudar a contagem para caber é uma concessão mais barata do que parece.",
+          "flavor": "“Originalmente tínhamos 50 engenhocas, dez por facção, mas Dawn Murin… teve uma ideia legal de como ilustrá-las. As de cada facção foram dadas a um artista, que fez uma ilustração gigante combinando nove numa grade três por três… Isso nos obrigou a cair de dez para nove.”"
+        },
+        {
+          "title": "Faça dela um recurso que precisa ser draftado",
+          "rules": "Um subsistema que os jogadores podem ignorar continua sendo curiosidade. Ponha seus componentes no pacote ao lado das cartas que os usam, e equilibrar os dois vira uma decisão real para todo mundo.",
+          "flavor": "“Gastamos um bom tempo descobrindo como exatamente os jogadores obteriam as engenhocas, e acabamos dedicando dois espaços por pacote… elas são um recurso que você precisa draftar, então acompanhe quantas cartas que as montam você está pegando.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "没完没了的传奇，中",
+      "dek": "五年、五十次尝试，以及一个在1993年被丢下的卡牌游戏——「装置」最终是怎么被造出来的。",
+      "overview": "每一次在黑框规则里做「装置」的尝试，失败的方式都精确地落在两类之一。最后成立的那个版本，来自作者被威世智雇用时正在设计、后来再没做完的一个组装机器人的游戏。",
+      "takeaway": "第一个能跑的原型有一个四面的中枢和严格的摆放规则。最终发行的版本有三列，而且完全没有摆放规则——恰恰是「把限制拿掉」这一步，才把策略加了进来。",
+      "lessons": [
+        {
+          "title": "当那个词就是需求说明书时，去读它的定义",
+          "rules": "一个你已经承诺下来的名字，无论你有没有把它的要求逐条列出来，那些要求都在。去查它究竟是什么意思，并写下它逼着你去造什么——你会发现，大多数失败的尝试，败的都是那一条。",
+          "flavor": "「最大的限制大概是Contraption这个词本身。按我的词典，它是『一件不寻常或古怪的器械或机器』。而『组装』这个动作对我而言意味着：它由多个零件构成，被某种方式硬凑到一起，形成一台更大的机器。」"
+        },
+        {
+          "title": "如果每次失败都落在两种方式之一，那这两种方式才是你真正的问题",
+          "rules": "能被干净地分进两个筐里的失败，不是五十个问题，而是一个两难的两只角。这本身就是诊断结论：逼出这个取舍的是媒介，不是那个点子。",
+          "flavor": "「在大约五年的跨度里，我试过五十多种不同的机制实现。它们基本都落进两个阵营：要么它们有那么一线希望……但在现行规则下跑不通；要么它们在规则下跑得通，却平淡得让人提不起劲。」"
+        },
+        {
+          "title": "拒绝那个「合法但很小」的版本",
+          "rules": "通常总有一个安全的实现方式，能满足承诺的字面。可如果这份承诺原本关乎的是规模或胆量，那么发出那个安全版本比什么都不发更糟：它花掉了这个点子，却一点都没兑现。",
+          "flavor": "「是啊，『组装一个装置』可以定义成从牌库里搜一张该副类别的神器，但那没有兑现《蒸汽鞭策头目》许下的那个疯狂承诺。如果我要抓住装置的本质，我觉得我必须去尝试某种了不起的东西，而不是求稳。」"
+        },
+        {
+          "title": "去换媒介，而不是去换设计",
+          "rules": "当一个点子总是死在同一道关口时，解法未必是一个更好的点子。把它挪到那道关口不存在的地方，你原本手上那个版本就会原封不动地开始运转。",
+          "flavor": "装置在黑框规则里已经失败了五年。「所以，当《Unstable》的会上有人提出，装置或许可以是一件银框的事情时，我非常兴奋地想去看看那意味着什么。」目标什么都没变，变的是它周围的规则。"
+        },
+        {
+          "title": "你从没做完的那个游戏，是一份你已经拥有的设计",
+          "rules": "被搁置的个人项目里，堆满了别人没有、而你已经彻底想通的结构。当一个问题和其中之一对上时，你不是从一张草图起步，而是从一件你早就解决过、只是从没发出去的东西起步。",
+          "flavor": "1993年他在做《Qubit》——一个把部件牌接到机器人核心上、且「牌与牌的相对位置」有意义的卡牌游戏。「我做《Qubit》做到一半就被威世智雇走了，所以它从没完成……当银框《万智牌》向装置敞开时，我的脑子去的就是那里。」"
+        },
+        {
+          "title": "第一次让你激动的试玩，是测试的开始，不是结束",
+          "rules": "一场之后的兴奋，告诉你这个概念是活的。它关于失效模式什么也没告诉你——那些东西只在人们不再惊叹、开始优化之后才浮出来。",
+          "flavor": "「第一次试玩之后，我非常兴奋。我们终于有了一个感觉真像装置的东西……这是我第一次做出一个真正配得上『组装装置』这个想法的机制。」然后：「随着我们继续玩这个版本，我们开始发现一些问题。」"
+        },
+        {
+          "title": "当几条互不相干的抱怨同时冒出来时，去找它们共同骑着的那一个维度",
+          "rules": "一串彼此分离的问题，可能挂在同一个参数上。改掉那个参数，整串问题会一起消解——这比打三个各有代价的独立补丁要好得多。",
+          "flavor": "三个问题：装置常常无处可放；四回合一轮的循环太慢；牌在桌上占地方太多。「于是我们把一个四的系统改成了一个三的系统。」用竖列取代中枢，并且把摆放限制全部去掉。"
+        },
+        {
+          "title": "你以为「就是游戏本身」的那条限制，可能正是压着它的东西",
+          "rules": "有些约束看上去像是那个有趣的决定，实际上只是在删掉选项。试着把你默认它承重的那条规则删掉：如果深度上升而不是下降，那它原本就只是负担。",
+          "flavor": "「另外，我们移除了所有的摆放限制。任何装置都可以放进任何一列。这带来了更多策略，也带来了更多连招的可能。没试玩几次我们就明白，这个新版本是一次显著的改进。」"
+        },
+        {
+          "title": "给每一个群体一套简短而固定的效果词汇",
+          "rules": "一个派系之所以像它自己，是因为它的成员都从一份小而明确的清单里取材，而不是从任何「在主题上说得通」的东西里取材。每个群体三到四类效果，既足以被认出来，又少到不会和别人糊在一起。",
+          "flavor": "每个派系的装置只做三到四类事情之一。鬼怪：强化生物以鼓励攻击、制造混乱，以及「拥有基于投掷两颗六面骰、并在意两者之差的效果」。"
+        },
+        {
+          "title": "一个关于呈现方式的点子，是有权改写数量的",
+          "rules": "设计阶段定下的数字，通常只是「整齐」，而不是「必要」。当有人找到一个能让这件东西本身变得更好的做法时，为了迁就它去改数字，是一项比它感觉上便宜得多的让步。",
+          "flavor": "「我们原本有50个装置，每个派系十个，但《Unstable》的美术总监道恩·穆林……想出了一个很酷的插图方案。每个派系的装置交给一位画师，画一张把九个装置拼成三乘三网格的巨幅插画……这要求我们把每个派系从十个降到九个。」"
+        },
+        {
+          "title": "把它做成一项「必须去轮抽」的资源",
+          "rules": "一个玩家可以无视的子系统，永远只是个新奇玩意。把它的零件和使用它们的牌一起放进补充包，于是「在两者之间做取舍」就变成了每个玩家都必须面对的真实决定。",
+          "flavor": "「我们花了不少时间琢磨玩家究竟要怎么拿到装置，最后给每包补充包留了两个卡位……装置是一项你必须去轮抽的资源，所以要留意自己抓了多少张能组装装置的牌，并确保配套的装置数量跟得上。」"
+        }
+      ]
+    }
+  }
+}
