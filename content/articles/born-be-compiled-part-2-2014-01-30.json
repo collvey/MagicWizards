@@ -1,0 +1,320 @@
+{
+  "id": "born-be-compiled-part-2-2014-01-30",
+  "slug": "born-be-compiled-part-2-2014-01-30",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2014-01-30",
+  "series": { "id": "born-be-compiled", "order": 2, "total": 2 },
+  "tags": ["card-by-card", "design-story", "mechanics", "templating"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/born-be-compiled-part-2-2014-01-30",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Born to Be Compiled, Part 2",
+      "dek": "The rest of the alphabet, and a run of decisions about the operational cost of playing — shuffling, counting, tracking, and what each one bought.",
+      "overview": "The second half of the card stories, N through Z. Where part one was mostly about block inventory, this one keeps returning to the physical experience of using the thing: how much shuffling a card causes, how many times you have to count something, whether a granted ability will confuse people at the moment it is granted. Alongside those sit the stories of a card cut for the wrong reason and rescued by somebody who disagreed, and of a tidy structural plan for fifteen gods that had to bend once the story existed.",
+      "takeaway": "A lot of design is spent on costs that never appear in the rules text — shuffling time, counting effort, the moment a keyword confuses somebody. And several of the best cards in a set are there because someone reopened a decision that had already been made.",
+      "lessons": [
+        {
+          "title": "Restrict the first instalment's expression so the later one still has a low-text variation left",
+          "rules": "The most complex mechanic in the block was deliberately constrained in its debut: every creature carrying it had matching power and toughness. Two reasons, and the second is the interesting one. The obvious one is that uniform numbers are less to track when several are on the table at once. The subtler one is that later instalments trend wordier — the opening set spends the simple applications — so holding back a variation that needs no extra text at all guarantees the sequel has at least one cheap way to do something new. Ration the low-complexity variants forward, not backward.",
+          "flavor": "Non-square stats aren't much complexity. They're also the cheapest new thing the second set could possibly have."
+        },
+        {
+          "title": "Print the niche thing for the mode you don't primarily serve, and print very few of them",
+          "rules": "Some components exist for a way of using the product that is not the main one — in this case, cards designed to keep changing hands around a multiplayer table, adding interaction and variance rather than reducing it. They are deliberately rare, because the mode they serve is a minority mode and because their whole appeal is being unusual. The rule is not to ignore the secondary audience and not to build for it at volume, but to include a small amount of material that is unmistakably for them. A little goes a long way precisely because it is scarce.",
+          "flavor": "It's more about the journey than the destination, and it belongs to whoever is sitting at a table of five."
+        },
+        {
+          "title": "The reason something was cut doesn't bind the person who picks it up",
+          "rules": "A card was removed from the first set because a policy call had gone against the tradition it referenced, and it went into the pile of cuts. The next set's lead went through that pile — as leads have learned to, since most cuts happen for slot pressure rather than quality — and took it. Told about the original objection, he judged that the card stood on its own without the reference, and the department that had made the policy agreed. Record why you cut something, but do not treat the reason as travelling with it. A different person, in a different file, is entitled to weigh it again.",
+          "flavor": "\"You know that's a Roman myth, not a Greek one.\" \"It doesn't need to be either.\""
+        },
+        {
+          "title": "Introducing something that dodges the standard answer creates an obligation to supply a new one",
+          "rules": "A new class of threat was made indestructible so it would land hard, which was correct for the opening release. But almost every existing tool against that permanent type worked by destroying it, so the block had shipped a threat and no answer. The rest of the block then owes the answers, and specifically owes them across several colours rather than one. Whenever you make something immune to the ordinary counter, write down what now has to exist and when, or you will find you have created an unanswerable problem and called it a feature.",
+          "flavor": "Make it indestructible for the entrance. Then spend the next two sets giving people something that isn't destruction."
+        },
+        {
+          "title": "Accept a real failure rate to remove a physical operation, then find the number where the miss is rare",
+          "rules": "Searching your library for a land is an effect the game needs and keeps needing, and it costs the table a shuffle every time — slow, skill-dependent, and doubly slow under tournament conditions. So the alternative reveals a few cards instead and takes a land if one is there. It can fail, and that is the trade being made on purpose. The design question stops being how to guarantee the effect and becomes what number makes the miss uncommon enough to accept. Four, it turns out. Operational cost is a real cost even though it never appears in the rules.",
+          "flavor": "It isn't perfect. Four is the number where you hit the vast majority of the time."
+        },
+        {
+          "title": "Loosen the trigger and the same effect acquires a whole new set of enablers",
+          "rules": "There is a familiar ability that rewards you when a creature connects in combat. One card in this set produces almost the same outcome but keys off the creature becoming tapped, however that happens. In most games it behaves like the card everyone knows. But the looser condition means anything that taps the creature now counts, so it can be set up in ways the original never allowed. This is the cheapest kind of novelty available: keep the payoff, widen the condition, and the design space around it opens without anybody needing to learn a new effect.",
+          "flavor": "Almost the card you already know, and just different enough to do things that card never could."
+        },
+        {
+          "title": "Repeal the restriction that only buys flavour and costs people options",
+          "rules": "For years the resources supporting friendly colour pairs were made easier to get than those supporting hostile ones, on the reasoning that the difficulty should express the relationship. Eventually somebody totted up what the policy actually did: it made some perfectly reasonable combinations harder to play, and bought in exchange a slight reinforcement of a piece of flavour nobody was struggling to understand. That is a bad trade, and the fact that it was longstanding is not an argument. Audit your restrictions for the ones whose only return is thematic consistency.",
+          "flavor": "It limited what people could build. In exchange it made a point they already knew."
+        },
+        {
+          "title": "Each fix breeds the next problem, so keep the lineage in view",
+          "rules": "The first attempt at protecting a permanent from targeting protected it from its own controller too, and a significant number of players simply misread it and played as though they could still target it. So it was replaced with a version that reads the way people were already behaving — which then turned out to be a gameplay problem rather than a comprehension one, being unpleasantly hard to interact with. The current move is to reintroduce conditions. Each step fixed the previous step's defect and produced its own. Expect that shape rather than expecting to converge.",
+          "flavor": "Shroud confused people. Hexproof stopped confusing people and started being a problem child."
+        },
+        {
+          "title": "Put the property on the object rather than granting it, when the moment of granting would confuse",
+          "rules": "The default construction is to make plain tokens and have the permanent that creates them hand out the extra ability from a distance. Here they printed the ability onto the tokens themselves, because a grant that applies to something arriving in the middle of combat is exactly where people lose track of what has what. And because one card had done it that way, a second card making the same tokens had to match — the earlier decision constrains the later one. Choose between granting and building-in by asking when the property arrives, not by which is tidier to write.",
+          "flavor": "Nobody misreads what's printed on the thing in front of them."
+        },
+        {
+          "title": "The tidy structural plan made before the content exists will have to bend to the content",
+          "rules": "The original scheme was orderly and mechanically sound: three cycles of five, one per release, partitioned along an obvious axis. It was also decided before there was a story, and once the story existed it needed one of those figures to be a character who becomes what the cycle is made of — so the opening set had fourteen where the plan said fifteen, and the flavour text quietly said fourteen too. They did not announce the discrepancy and did not explain the structure, and let the reveal do the explaining. A clean plan built in the absence of content is a placeholder; expect to pay for it once the content shows up.",
+          "flavor": "Fifteen was the elegant number. Then somebody wrote a story, and the elegant number was fourteen plus one."
+        }
+      ]
+    },
+    "es": {
+      "title": "Nacidos para ser compilados, parte 2",
+      "dek": "El resto del alfabeto y una tanda de decisiones sobre el coste operativo de jugar: barajar, contar, hacer seguimiento, y qué compró cada una.",
+      "overview": "La segunda mitad de las historias de cartas, de la N a la Z. Donde la primera parte iba sobre todo de inventario de bloque, esta vuelve una y otra vez a la experiencia física de usar la cosa: cuánto barajar provoca una carta, cuántas veces hay que contar algo, si una habilidad otorgada confundirá a la gente justo en el momento en que se otorga. Junto a eso están la historia de una carta cortada por un motivo equivocado y rescatada por alguien que discrepaba, y la de un plan estructural pulcro de quince dioses que tuvo que doblarse cuando apareció la historia.",
+      "takeaway": "Buena parte del diseño se gasta en costes que nunca aparecen en el texto de reglas: tiempo de barajar, esfuerzo de contar, el instante en que una palabra clave confunde a alguien. Y varias de las mejores cartas de una colección están ahí porque alguien reabrió una decisión que ya estaba tomada.",
+      "lessons": [
+        {
+          "title": "Restringe la expresión de la primera entrega para que a la siguiente le quede una variación de poco texto",
+          "rules": "La mecánica más compleja del bloque se limitó a propósito en su debut: todas las criaturas que la llevaban tenían fuerza y resistencia iguales. Dos motivos, y el segundo es el interesante. El obvio es que los números uniformes son menos cosas que seguir cuando hay varias en mesa a la vez. El sutil es que las entregas posteriores tienden a ser más verbosas — la colección inicial gasta las aplicaciones simples —, así que reservar una variación que no necesita ni una palabra extra garantiza que la secuela tenga al menos una forma barata de hacer algo nuevo. Raciona las variantes de baja complejidad hacia delante, no hacia atrás.",
+          "flavor": "Las estadísticas desiguales no son mucha complejidad. También son lo nuevo más barato que la segunda colección podía tener."
+        },
+        {
+          "title": "Imprime lo de nicho para el modo al que no sirves principalmente, e imprime muy poco de ello",
+          "rules": "Algunos componentes existen para una forma de usar el producto que no es la principal; aquí, cartas diseñadas para ir cambiando de manos alrededor de una mesa multijugador, añadiendo interacción y varianza en vez de reducirlas. Son deliberadamente escasas, porque el modo al que sirven es minoritario y porque todo su atractivo consiste en ser inusuales. La regla no es ignorar al público secundario ni construir para él en volumen, sino incluir una pequeña cantidad de material inequívocamente suyo. Un poco cunde mucho justamente porque es escaso.",
+          "flavor": "Va más del viaje que del destino, y pertenece a quien esté sentado en una mesa de cinco."
+        },
+        {
+          "title": "El motivo por el que algo se cortó no vincula a quien lo recoge",
+          "rules": "Una carta salió de la primera colección porque una decisión de política fue en contra de la tradición a la que aludía, y fue a parar al montón de descartes. El responsable de la siguiente colección repasó ese montón — como han aprendido a hacer, ya que la mayoría de los cortes ocurren por presión de huecos y no por calidad — y la cogió. Al contarle la objeción original, juzgó que la carta se sostenía sola sin la referencia, y el departamento que había fijado la política estuvo de acuerdo. Anota por qué cortas algo, pero no trates el motivo como si viajara con ello. Otra persona, en otro archivo, tiene derecho a sopesarlo de nuevo.",
+          "flavor": "«Sabes que ese mito es romano, no griego.» «No necesita ser ninguno de los dos.»"
+        },
+        {
+          "title": "Introducir algo que esquiva la respuesta estándar crea la obligación de suministrar una nueva",
+          "rules": "Una nueva clase de amenaza se hizo indestructible para que entrara con fuerza, lo cual era correcto para el lanzamiento inicial. Pero casi todas las herramientas existentes contra ese tipo de permanente funcionaban destruyéndolo, así que el bloque había publicado una amenaza y ninguna respuesta. El resto del bloque debe entonces las respuestas, y las debe repartidas entre varios colores y no en uno. Siempre que hagas algo inmune al contragolpe habitual, apunta qué tiene que existir ahora y cuándo, o descubrirás que has creado un problema sin solución y lo has llamado característica.",
+          "flavor": "Hazlo indestructible para la entrada. Y pásate las dos colecciones siguientes dando a la gente algo que no sea destrucción."
+        },
+        {
+          "title": "Acepta una tasa real de fallo a cambio de eliminar una operación física, y busca el número donde el fallo sea raro",
+          "rules": "Buscar una tierra en tu biblioteca es un efecto que el juego necesita y sigue necesitando, y le cuesta a la mesa un barajado cada vez: lento, dependiente de la destreza y doblemente lento en condiciones de torneo. Así que la alternativa revela unas cuantas cartas y coge una tierra si la hay. Puede fallar, y ese es el intercambio hecho a propósito. La pregunta de diseño deja de ser cómo garantizar el efecto y pasa a ser qué número hace el fallo lo bastante infrecuente como para aceptarlo. Cuatro, resulta. El coste operativo es un coste real aunque nunca aparezca en las reglas.",
+          "flavor": "No es perfecto. Cuatro es el número con el que aciertas la gran mayoría de las veces."
+        },
+        {
+          "title": "Afloja el disparador y el mismo efecto adquiere todo un conjunto nuevo de habilitadores",
+          "rules": "Hay una habilidad conocida que te premia cuando una criatura conecta en combate. Una carta de esta colección produce casi el mismo resultado pero se activa al girarse la criatura, ocurra como ocurra. En la mayoría de las partidas se comporta como la carta que todo el mundo conoce. Pero la condición más laxa hace que ahora cuente cualquier cosa que gire a la criatura, así que puede prepararse de maneras que la original nunca permitió. Es la novedad más barata disponible: conserva la recompensa, amplía la condición, y el espacio de diseño a su alrededor se abre sin que nadie tenga que aprender un efecto nuevo.",
+          "flavor": "Casi la carta que ya conoces, y lo bastante distinta como para hacer cosas que aquella jamás pudo."
+        },
+        {
+          "title": "Deroga la restricción cuyo único rendimiento es el sabor y que le cuesta opciones a la gente",
+          "rules": "Durante años, los recursos que apoyaban las parejas de colores amigas se hicieron más fáciles de conseguir que los de las enemigas, con el razonamiento de que la dificultad debía expresar la relación. Al final alguien sumó lo que la política hacía de verdad: volvía más difíciles de jugar combinaciones perfectamente razonables y compraba a cambio un leve refuerzo de un punto de sabor que nadie tenía problemas en entender. Es un mal trato, y que llevara mucho tiempo vigente no es un argumento. Audita tus restricciones buscando aquellas cuyo único retorno es la coherencia temática.",
+          "flavor": "Limitaba lo que la gente podía construir. A cambio, subrayaba algo que ya sabían."
+        },
+        {
+          "title": "Cada arreglo engendra el problema siguiente, así que mantén el linaje a la vista",
+          "rules": "El primer intento de proteger un permanente de ser objetivo lo protegía también de su propio controlador, y un número considerable de jugadores sencillamente lo leyó mal y jugó como si todavía pudieran hacerlo objetivo. Así que se sustituyó por una versión que se lee tal y como la gente ya se comportaba, lo cual resultó ser un problema de juego en vez de uno de comprensión: desagradablemente difícil de interactuar con él. El movimiento actual es reintroducir condiciones. Cada paso arregló el defecto del anterior y produjo el suyo. Espera esa forma en vez de esperar converger.",
+          "flavor": "La protección confundía. La antimaleficio dejó de confundir y empezó a ser un niño problemático."
+        },
+        {
+          "title": "Pon la propiedad en el objeto en vez de otorgarla, cuando el momento de otorgarla vaya a confundir",
+          "rules": "La construcción por defecto es hacer fichas simples y que el permanente que las crea reparta la habilidad extra a distancia. Aquí imprimieron la habilidad en las propias fichas, porque una concesión que se aplica a algo que llega en mitad del combate es justo donde la gente pierde la cuenta de qué tiene qué. Y como una carta ya lo había hecho así, una segunda que creaba las mismas fichas tuvo que igualarla: la decisión anterior condiciona la posterior. Elige entre otorgar e incorporar preguntándote cuándo llega la propiedad, no cuál queda más limpio de escribir.",
+          "flavor": "Nadie lee mal lo que está impreso en la cosa que tiene delante."
+        },
+        {
+          "title": "El plan estructural pulcro hecho antes de que exista el contenido tendrá que doblarse ante el contenido",
+          "rules": "El esquema original era ordenado y mecánicamente sólido: tres ciclos de cinco, uno por lanzamiento, repartidos según un eje evidente. También se decidió antes de que hubiera historia y, una vez que la hubo, esta necesitaba que una de esas figuras fuera un personaje que se convierte en aquello de lo que está hecho el ciclo, así que la colección inicial tuvo catorce donde el plan decía quince, y el texto de ambientación decía catorce discretamente. No anunciaron la discrepancia ni explicaron la estructura, y dejaron que la revelación lo explicara todo. Un plan limpio construido en ausencia de contenido es un marcador de posición: cuenta con pagarlo cuando el contenido aparezca.",
+          "flavor": "Quince era el número elegante. Luego alguien escribió una historia, y el número elegante fue catorce más uno."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Nés pour être compilés, partie 2",
+      "dek": "Le reste de l'alphabet, et une série de décisions sur le coût opératoire du jeu — mélanger, compter, suivre — et ce que chacune a acheté.",
+      "overview": "La seconde moitié des histoires de cartes, de N à Z. Là où la première partie parlait surtout d'inventaire de bloc, celle-ci revient sans cesse à l'expérience physique de la manipulation : combien de mélanges une carte provoque, combien de fois il faut compter quelque chose, si une capacité octroyée va embrouiller au moment précis où elle est octroyée. À côté de cela, l'histoire d'une carte coupée pour une mauvaise raison et sauvée par quelqu'un qui n'était pas d'accord, et celle d'un plan structurel impeccable de quinze dieux qui a dû plier quand l'histoire a existé.",
+      "takeaway": "Une bonne part de la conception se dépense sur des coûts qui n'apparaissent jamais dans le texte de règles : le temps de mélanger, l'effort de compter, l'instant où un mot-clé embrouille quelqu'un. Et plusieurs des meilleures cartes d'une extension sont là parce que quelqu'un a rouvert une décision déjà prise.",
+      "lessons": [
+        {
+          "title": "Bridez l'expression du premier épisode pour qu'il reste au suivant une variation peu bavarde",
+          "rules": "La mécanique la plus complexe du bloc a été volontairement contrainte à ses débuts : toutes les créatures qui la portaient avaient force et endurance égales. Deux raisons, et la seconde est la plus intéressante. L'évidente : des chiffres uniformes font moins de choses à suivre quand plusieurs sont sur la table. La subtile : les épisodes suivants tendent à être plus verbeux — l'extension d'ouverture dépense les applications simples — donc réserver une variation qui n'exige aucun texte supplémentaire garantit à la suite au moins un moyen bon marché de faire du neuf. Rationnez les variantes peu complexes vers l'avant, pas vers l'arrière.",
+          "flavor": "Des caractéristiques inégales, ce n'est pas beaucoup de complexité. C'est aussi la nouveauté la moins chère que la seconde extension pouvait avoir."
+        },
+        {
+          "title": "Imprimez la chose de niche pour le mode que vous ne servez pas d'abord, et n'en imprimez que très peu",
+          "rules": "Certains composants existent pour une façon d'utiliser le produit qui n'est pas la principale — ici, des cartes conçues pour changer de mains autour d'une table multijoueur, ajoutant de l'interaction et de la variance au lieu d'en retirer. Elles sont délibérément rares, parce que le mode servi est minoritaire et parce que tout leur charme tient à leur étrangeté. La règle n'est ni d'ignorer le public secondaire ni de produire pour lui en volume, mais d'inclure une petite quantité de matériau qui lui est manifestement destinée. Un peu suffit largement, justement parce que c'est rare.",
+          "flavor": "C'est plus le voyage que la destination, et cela appartient à qui se trouve à une table de cinq."
+        },
+        {
+          "title": "La raison d'une coupe n'engage pas celui qui ramasse",
+          "rules": "Une carte a été retirée de la première extension parce qu'une décision de politique était allée contre la tradition qu'elle citait, et elle est partie dans le tas des coupes. Le responsable de l'extension suivante a passé ce tas en revue — comme les responsables ont appris à le faire, la plupart des coupes tenant à la pression sur les cases et non à la qualité — et l'a prise. Informé de l'objection d'origine, il a jugé que la carte tenait debout sans la référence, et le service qui avait fixé la politique a été d'accord. Notez pourquoi vous coupez, mais ne traitez pas la raison comme si elle voyageait avec l'objet. Une autre personne, dans un autre fichier, a le droit de repeser.",
+          "flavor": "« Tu sais que c'est un mythe romain, pas grec. » « Il n'a besoin d'être ni l'un ni l'autre. »"
+        },
+        {
+          "title": "Introduire ce qui esquive la réponse habituelle crée l'obligation d'en fournir une nouvelle",
+          "rules": "Une nouvelle classe de menace a été rendue indestructible pour marquer son entrée, ce qui était juste pour la sortie initiale. Mais presque tous les outils existants contre ce type de permanent fonctionnaient en le détruisant : le bloc avait donc livré une menace et aucune réponse. Le reste du bloc doit alors les réponses, et les doit réparties sur plusieurs couleurs plutôt qu'une seule. Chaque fois que vous rendez quelque chose immunisé au contre ordinaire, écrivez ce qui doit désormais exister et quand, ou vous découvrirez que vous avez créé un problème sans solution et l'avez appelé une fonctionnalité.",
+          "flavor": "Indestructible pour l'entrée. Puis deux extensions passées à donner aux gens autre chose que de la destruction."
+        },
+        {
+          "title": "Acceptez un vrai taux d'échec pour supprimer une opération physique, puis trouvez le chiffre qui rend le raté rare",
+          "rules": "Chercher un terrain dans sa bibliothèque est un effet dont le jeu a besoin et continuera d'avoir besoin, et il coûte un mélange à la table à chaque fois — lent, dépendant de l'adresse, et deux fois plus lent en tournoi. L'alternative révèle donc quelques cartes et prend un terrain s'il y en a un. Elle peut échouer, et c'est l'échange consenti exprès. La question de conception cesse d'être comment garantir l'effet et devient quel chiffre rend le raté assez rare pour être accepté. Quatre, en l'occurrence. Le coût opératoire est un coût réel même s'il n'apparaît jamais dans les règles.",
+          "flavor": "Ce n'est pas parfait. Quatre est le chiffre où l'on touche la grande majorité du temps."
+        },
+        {
+          "title": "Desserrez le déclencheur et le même effet acquiert tout un jeu de nouveaux activateurs",
+          "rules": "Il existe une capacité familière qui récompense une créature qui touche en combat. Une carte de cette extension produit presque le même résultat mais se déclenche quand la créature s'engage, quelle qu'en soit la cause. Dans la plupart des parties elle se comporte comme la carte que tout le monde connaît. Mais la condition plus lâche fait que tout ce qui engage la créature compte désormais, si bien qu'on peut la monter d'une façon que l'originale n'a jamais permise. C'est la nouveauté la moins chère qui soit : gardez la récompense, élargissez la condition, et l'espace autour s'ouvre sans que personne ait à apprendre un effet neuf.",
+          "flavor": "Presque la carte que vous connaissez déjà, et juste assez différente pour faire ce qu'elle n'a jamais pu."
+        },
+        {
+          "title": "Abrogez la restriction dont le seul rendement est l'ambiance et qui coûte des options aux gens",
+          "rules": "Pendant des années, les ressources servant les paires de couleurs alliées ont été rendues plus faciles à obtenir que celles des paires ennemies, au motif que la difficulté devait exprimer la relation. Quelqu'un a fini par additionner ce que cette politique faisait réellement : elle rendait plus difficiles à jouer des combinaisons parfaitement raisonnables, en échange d'un léger renforcement d'un point d'ambiance que personne n'avait de mal à comprendre. C'est un mauvais échange, et son ancienneté n'est pas un argument. Auditez vos restrictions pour trouver celles dont le seul retour est la cohérence thématique.",
+          "flavor": "Elle limitait ce qu'on pouvait construire. En échange, elle rappelait ce qu'on savait déjà."
+        },
+        {
+          "title": "Chaque correctif engendre le problème suivant : gardez la lignée sous les yeux",
+          "rules": "La première tentative pour protéger un permanent du ciblage le protégeait aussi de son propre contrôleur, et un nombre important de joueurs l'ont tout simplement mal lue et ont joué comme s'ils pouvaient encore le cibler. On l'a donc remplacée par une version qui se lit comme les gens se comportaient déjà — laquelle s'est révélée un problème de jeu et non de compréhension, désagréablement difficile à contrer. Le mouvement actuel consiste à réintroduire des conditions. Chaque étape a corrigé le défaut de la précédente et produit le sien. Attendez-vous à cette forme plutôt qu'à une convergence.",
+          "flavor": "La défense embrouillait. La défense talismanique a cessé d'embrouiller et est devenue un enfant difficile."
+        },
+        {
+          "title": "Mettez la propriété sur l'objet plutôt que de l'octroyer, quand le moment de l'octroi embrouillerait",
+          "rules": "La construction par défaut consiste à fabriquer des jetons simples et à laisser le permanent qui les crée distribuer la capacité supplémentaire à distance. Ici la capacité a été imprimée sur les jetons eux-mêmes, parce qu'un octroi s'appliquant à quelque chose qui arrive au milieu du combat est exactement l'endroit où l'on perd le fil de qui a quoi. Et parce qu'une carte l'avait fait ainsi, une seconde créant les mêmes jetons a dû s'aligner : la décision antérieure contraint la suivante. Choisissez entre octroyer et intégrer en demandant quand la propriété arrive, pas laquelle s'écrit le plus proprement.",
+          "flavor": "Personne ne lit de travers ce qui est imprimé sur la chose posée devant lui."
+        },
+        {
+          "title": "Le plan structurel impeccable fait avant que le contenu existe devra plier devant le contenu",
+          "rules": "Le schéma initial était ordonné et mécaniquement sain : trois cycles de cinq, un par sortie, découpés selon un axe évident. Il a aussi été décidé avant qu'il y ait une histoire, et une fois l'histoire là, il lui fallait qu'une de ces figures soit un personnage qui devient ce dont le cycle est fait — l'extension d'ouverture en a donc eu quatorze là où le plan en disait quinze, et le texte d'ambiance disait discrètement quatorze. Ils n'ont annoncé ni l'écart ni la structure, et ont laissé la révélation faire l'explication. Un plan propre bâti en l'absence de contenu est un espace réservé : prévoyez de le payer quand le contenu arrive.",
+          "flavor": "Quinze était le nombre élégant. Puis quelqu'un a écrit une histoire, et le nombre élégant a été quatorze plus un."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Nascidos para ser compilados, parte 2",
+      "dek": "O resto do alfabeto e uma série de decisões sobre o custo operacional de jogar — embaralhar, contar, acompanhar — e o que cada uma comprou.",
+      "overview": "A segunda metade das histórias de cartas, de N a Z. Onde a primeira parte tratava sobretudo de inventário de bloco, esta volta sempre à experiência física de manusear a coisa: quanto embaralhamento uma carta provoca, quantas vezes é preciso contar algo, se uma habilidade concedida vai confundir as pessoas justamente no momento da concessão. Ao lado disso estão a história de uma carta cortada pelo motivo errado e resgatada por quem discordou, e a de um plano estrutural impecável de quinze deuses que teve de ceder quando a história passou a existir.",
+      "takeaway": "Boa parte do design é gasta em custos que nunca aparecem no texto de regras: tempo de embaralhar, esforço de contar, o instante em que uma palavra-chave confunde alguém. E várias das melhores cartas de uma coleção estão ali porque alguém reabriu uma decisão já tomada.",
+      "lessons": [
+        {
+          "title": "Restrinja a expressão da primeira parcela para que sobre à seguinte uma variação de pouco texto",
+          "rules": "A mecânica mais complexa do bloco foi deliberadamente limitada na estreia: toda criatura que a carregava tinha poder e resistência iguais. Dois motivos, e o segundo é o interessante. O óbvio: números uniformes são menos coisas a acompanhar quando há várias na mesa. O sutil: as parcelas posteriores tendem a ser mais verbosas — a coleção de abertura gasta as aplicações simples —, então guardar uma variação que não exige texto extra nenhum garante à sequência ao menos um jeito barato de fazer algo novo. Racione as variantes de baixa complexidade para frente, não para trás.",
+          "flavor": "Atributos desiguais não são muita complexidade. Também são a coisa nova mais barata que a segunda coleção poderia ter."
+        },
+        {
+          "title": "Imprima o item de nicho para o modo que você não atende principalmente, e imprima pouquíssimos",
+          "rules": "Alguns componentes existem para um jeito de usar o produto que não é o principal — aqui, cartas feitas para ir trocando de mãos numa mesa multijogador, acrescentando interação e variância em vez de reduzi-las. São deliberadamente raras, porque o modo que atendem é minoritário e porque todo o apelo delas é serem incomuns. A regra não é ignorar o público secundário nem produzir para ele em volume, e sim incluir uma pequena quantidade de material inequivocamente dele. Pouco rende muito justamente porque é escasso.",
+          "flavor": "É mais sobre a viagem do que sobre o destino, e pertence a quem estiver sentado numa mesa de cinco."
+        },
+        {
+          "title": "O motivo pelo qual algo foi cortado não obriga quem o pega de volta",
+          "rules": "Uma carta saiu da primeira coleção porque uma decisão de política foi contra a tradição a que ela aludia, e foi parar na pilha de cortes. O responsável pela coleção seguinte revirou essa pilha — como os responsáveis aprenderam a fazer, já que a maioria dos cortes acontece por pressão de vagas e não por qualidade — e a pegou. Avisado da objeção original, julgou que a carta se sustentava sozinha sem a referência, e o departamento que havia fixado a política concordou. Registre por que você corta algo, mas não trate o motivo como se viajasse junto. Outra pessoa, em outro arquivo, tem o direito de pesar de novo.",
+          "flavor": "\"Você sabe que esse mito é romano, não grego.\" \"Ele não precisa ser nenhum dos dois.\""
+        },
+        {
+          "title": "Introduzir algo que desvia da resposta padrão cria a obrigação de fornecer uma nova",
+          "rules": "Uma nova classe de ameaça foi feita indestrutível para entrar com força, o que estava certo para o lançamento inicial. Mas quase toda ferramenta existente contra aquele tipo de permanente funcionava destruindo-o, então o bloco tinha publicado uma ameaça e nenhuma resposta. O resto do bloco passa a dever as respostas, e a devê-las espalhadas por várias cores em vez de uma. Sempre que você tornar algo imune ao contragolpe comum, anote o que agora precisa existir e quando, ou vai descobrir que criou um problema sem solução e o chamou de recurso.",
+          "flavor": "Indestrutível para a entrada. Depois duas coleções inteiras dando às pessoas algo que não seja destruição."
+        },
+        {
+          "title": "Aceite uma taxa real de falha para eliminar uma operação física, e ache o número em que o erro é raro",
+          "rules": "Procurar um terreno no grimório é um efeito de que o jogo precisa e continuará precisando, e custa à mesa um embaralhamento toda vez — lento, dependente de habilidade e duplamente lento em torneio. Então a alternativa revela algumas cartas e pega um terreno se houver. Ela pode falhar, e essa é a troca feita de propósito. A pergunta de design deixa de ser como garantir o efeito e passa a ser qual número torna o erro incomum o bastante para ser aceito. Quatro, no caso. Custo operacional é custo real mesmo que nunca apareça nas regras.",
+          "flavor": "Não é perfeito. Quatro é o número em que você acerta na esmagadora maioria das vezes."
+        },
+        {
+          "title": "Afrouxe o gatilho e o mesmo efeito ganha um conjunto inteiro de novos habilitadores",
+          "rules": "Existe uma habilidade conhecida que recompensa quando uma criatura conecta em combate. Uma carta desta coleção produz quase o mesmo resultado, mas dispara quando a criatura fica virada, aconteça como acontecer. Na maioria dos jogos ela se comporta como a carta que todo mundo conhece. Mas a condição mais frouxa faz com que agora conte qualquer coisa que vire a criatura, então dá para montá-la de jeitos que a original nunca permitiu. É a novidade mais barata disponível: mantenha o prêmio, alargue a condição, e o espaço em volta se abre sem que ninguém precise aprender um efeito novo.",
+          "flavor": "Quase a carta que você já conhece, e diferente o bastante para fazer o que aquela nunca pôde."
+        },
+        {
+          "title": "Revogue a restrição cujo único retorno é sabor e que custa opções às pessoas",
+          "rules": "Durante anos, os recursos que apoiavam pares de cores aliadas foram feitos mais fáceis de obter do que os das inimigas, sob o argumento de que a dificuldade deveria expressar a relação. No fim alguém somou o que a política de fato fazia: tornava mais difíceis de jogar combinações perfeitamente razoáveis e comprava em troca um leve reforço de um ponto de sabor que ninguém tinha dificuldade de entender. Isso é uma troca ruim, e ser antiga não é argumento. Audite suas restrições atrás daquelas cujo único retorno é coerência temática.",
+          "flavor": "Limitava o que as pessoas podiam construir. Em troca, sublinhava algo que elas já sabiam."
+        },
+        {
+          "title": "Cada conserto gera o problema seguinte, então mantenha a linhagem à vista",
+          "rules": "A primeira tentativa de proteger um permanente de ser alvo o protegia também do próprio controlador, e um número considerável de jogadores simplesmente leu errado e jogou como se ainda pudesse mirá-lo. Então foi substituída por uma versão que se lê do jeito que as pessoas já se comportavam — o que se revelou um problema de jogo e não de compreensão, desagradavelmente difícil de interagir. O movimento atual é reintroduzir condições. Cada passo consertou o defeito do anterior e produziu o seu. Espere esse formato em vez de esperar convergência.",
+          "flavor": "A camuflagem confundia. A resistência a magia parou de confundir e virou uma criança problemática."
+        },
+        {
+          "title": "Ponha a propriedade no objeto em vez de concedê-la, quando o momento da concessão for confundir",
+          "rules": "A construção padrão é fazer fichas simples e deixar o permanente que as cria distribuir a habilidade extra à distância. Aqui a habilidade foi impressa nas próprias fichas, porque uma concessão que se aplica a algo que chega no meio do combate é exatamente onde as pessoas perdem a conta de quem tem o quê. E como uma carta já tinha feito assim, uma segunda que criava as mesmas fichas teve de acompanhar: a decisão anterior condiciona a posterior. Escolha entre conceder e embutir perguntando quando a propriedade chega, não qual fica mais limpo de escrever.",
+          "flavor": "Ninguém lê errado o que está impresso na coisa à sua frente."
+        },
+        {
+          "title": "O plano estrutural impecável feito antes de o conteúdo existir vai ter de ceder ao conteúdo",
+          "rules": "O esquema original era ordenado e mecanicamente sólido: três ciclos de cinco, um por lançamento, repartidos por um eixo evidente. Também foi decidido antes de haver história e, uma vez que houve, ela precisava que uma daquelas figuras fosse um personagem que se torna aquilo de que o ciclo é feito — então a coleção de abertura teve catorze onde o plano dizia quinze, e o texto de ambientação dizia catorze discretamente. Não anunciaram a discrepância nem explicaram a estrutura, e deixaram a revelação explicar. Um plano limpo construído na ausência de conteúdo é um marcador de lugar: conte com pagá-lo quando o conteúdo aparecer.",
+          "flavor": "Quinze era o número elegante. Aí alguém escreveu uma história, e o número elegante foi catorze mais um."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "为编纂而生（下）",
+      "dek": "字母表的后半段，以及一连串关于「玩这件事的操作成本」的决定——洗牌、计数、追踪——还有每一个决定各自买到了什么。",
+      "overview": "牌张故事的后半，N到Z。如果说上半篇主要讲的是环境层面的库存，这一篇则不断回到「实际动手用这东西」的体验：一张牌会造成多少次洗牌、某样东西要数几遍、一个被赋予的异能会不会恰好在被赋予的那一刻把人搞晕。与这些并排的，还有一张因为错误理由被砍、又被一个持异议者救回来的牌，以及一个「十五位神」的漂亮结构规划——在故事真正存在之后，它不得不弯了腰。",
+      "takeaway": "设计里有很大一部分花在了从不出现在规则文字里的成本上：洗牌的时间、计数的力气、某个关键字把人搞晕的那一瞬。而一套牌里最好的几张，往往是因为有人重新打开了一个已经做出的决定。",
+      "lessons": [
+        {
+          "title": "限制第一部的表达方式，好给后一部留下一种「不费字数」的变化",
+          "rules": "这个环境里最复杂的机制在首次登场时被刻意约束了：所有带它的生物，力量和防御力都相等。理由有两条，第二条才有意思。显而易见的那条是：数值统一，在桌上同时摆着好几个时要追踪的东西就少。更微妙的那条是：后续几部往往越来越啰嗦——开篇那套把简单用法花光了——所以刻意扣下一种「一个字都不用多写」的变化，就等于保证续作至少握着一个便宜的、能做出新东西的办法。低复杂度的变体要往后配给，而不是往前。",
+          "flavor": "不等的数值算不上多复杂。它也是第二套牌所能拥有的、最便宜的一样新东西。"
+        },
+        {
+          "title": "为你并非主要服务的那种玩法印一点小众的东西，而且只印极少",
+          "rules": "有些零件是为一种「不是主流」的使用方式而存在的——在这里，是一些被设计成在多人桌上不断易手的牌，它们增加互动与波动，而不是削减。它们被刻意做得稀少，因为它们服务的是少数派玩法，也因为它们全部的魅力就在于罕见。规则既不是无视次要受众，也不是为他们大批量生产，而是放进一小撮明明白白属于他们的材料。少量之所以顶用，恰恰因为它稀缺。",
+          "flavor": "重要的是过程而不是终点，而它属于任何一个坐在五人桌旁的人。"
+        },
+        {
+          "title": "一样东西当初被砍掉的理由，并不约束把它捡起来的那个人",
+          "rules": "有一张牌被从第一套里拿掉了，因为一项决策否定了它所引用的那个传统，于是它进了废案堆。下一套的负责人翻了那个堆——负责人们都学会了这么做，因为大多数砍牌是位置压力而非质量问题——把它拿走了。有人告诉他原本的反对意见，他判断这张牌不靠那个引用也立得住，而当初定下那项政策的部门也同意了。要记下你为什么砍掉一样东西，但不要把那个理由当成会跟着它一起走的属性。换一个人、换一份牌表，人家有权重新掂量一次。",
+          "flavor": "「你知道那是罗马神话，不是希腊的吧。」「它不需要是其中任何一个。」"
+        },
+        {
+          "title": "放进一个能绕开标准答案的东西，就等于欠下了「提供新答案」这笔债",
+          "rules": "一类新的威胁被做成不灭，好让它登场有分量——对开篇那次发布来说这是对的。但针对那类永久物的现有工具几乎全靠「消灭」来运作，于是这个环境交付了一个威胁，却没有交付任何答案。接下来整个环境就欠着这些答案，而且欠的是分布在好几个颜色里的答案，而不是集中在一个。每当你让某样东西免疫于常规的反制手段时，写下现在必须存在什么、以及在什么时候，否则你会发现自己造了一个无解的问题，还管它叫特色。",
+          "flavor": "为了登场，把它做成不灭。然后用接下来两套牌，给大家一些「不是消灭」的东西。"
+        },
+        {
+          "title": "接受一个真实的失败率，换掉一道物理操作；然后找出让失手变得罕见的那个数字",
+          "rules": "从牌库里搜一块地，是这个游戏需要、并且会持续需要的效果，而它每次都要让全桌付出一次洗牌——慢、依赖手上功夫，在比赛环境下更是加倍地慢。所以替代方案改成翻开几张，有地就拿一块。它会落空，而这正是被刻意接受的交换。设计的问题不再是「如何保证这个效果」，而是「哪个数字能让落空罕见到可以接受」。结果是四。操作成本是真实成本，哪怕它从不出现在规则里。",
+          "flavor": "它并不完美。四是那个让你绝大多数时候都能命中的数字。"
+        },
+        {
+          "title": "把触发条件放宽，同一个效果就会获得一整套新的启动手段",
+          "rules": "有一种大家都熟的异能：当生物在战斗中打到人时给你回报。这套牌里有一张产出的结果几乎一样，但它挂在「这个生物被横置」上——不管是怎么被横置的。在大多数对局里，它的表现就跟那张人人皆知的牌一样。但更宽松的条件意味着，任何能横置它的东西现在都算数，于是它能用原版从不允许的方式来铺设。这是最便宜的一种新意：保留奖励，放宽条件，它周围的设计空间就打开了，而没有任何人需要学一个新效果。",
+          "flavor": "几乎就是你已经认识的那张牌，又刚好不同到能做那张牌永远做不到的事。"
+        },
+        {
+          "title": "凡是只买到风味、却让人少了选项的限制，废掉它",
+          "rules": "多年来，支撑友好色组的资源一直被做得比支撑敌对色组的更容易拿到，理由是「难度应当表达关系」。终于有人把这项政策实际做到的事加总了一遍：它让一些完全合理的组合更难打，换来的是对某个大家本来就毫无理解障碍的风味点的轻微强调。这是笔亏本买卖，而「它由来已久」不构成理由。把你的各种限制过一遍，找出那些唯一回报只有主题一致性的。",
+          "flavor": "它限制了人们能造什么。换来的是重申一件他们早就知道的事。"
+        },
+        {
+          "title": "每一次修补都会孕育下一个问题，所以把这条谱系摆在眼前",
+          "rules": "第一次尝试保护一个永久物不被指定为目标时，连它自己的操控者也一起挡在外面了；而相当数量的玩家干脆读错，照着「我还能指定它」在打。于是它被换成了一个「读起来正合大家已有行为」的版本——结果这个版本变成了对局问题而非理解问题：难以互动到令人不快。眼下的动作是重新给它加上条件。每一步都修好了上一步的缺陷，又生出自己的。要预期的是这个形状，而不是预期最终收敛。",
+          "flavor": "「不能成为目标」把人搞糊涂了。「辟邪」不再把人搞糊涂，转而成了个麻烦孩子。"
+        },
+        {
+          "title": "当「赋予」发生的那一刻会造成混乱时，就把属性直接印在物件上",
+          "rules": "默认写法是造出朴素的衍生物，再让制造它们的永久物从旁边把额外异能发下去。这里他们把异能直接印在了衍生物身上，因为「赋予」若作用于一个在战斗中途才出现的东西，恰恰就是人们弄不清谁身上有什么的那个位置。而且因为已经有一张牌这么做了，第二张造出同样衍生物的牌就必须跟着一致——先做的决定约束后做的。在「赋予」和「内建」之间做选择时，问的应该是这个属性在什么时候到达，而不是哪种写法更整洁。",
+          "flavor": "没有人会读错印在眼前那样东西上的字。"
+        },
+        {
+          "title": "在内容还不存在时定下的漂亮结构规划，最终必须向内容让步",
+          "rules": "最初的方案既整齐又在机制上说得通：三个五张的循环，每次发布一个，沿一条显而易见的轴切开。它也是在还没有故事的时候定下的；而一旦故事存在，故事就需要其中一位是「一个变成了这个循环所由构成之物的角色」——于是开篇那套牌里只有十四位，而规划写的是十五，风味文字也不动声色地说了十四。他们既没有公布这个差额，也没有解释这个结构，而是让揭晓本身来做解释。在没有内容的情况下搭起来的干净方案是一个占位符；等内容出现时，准备好为它付账。",
+          "flavor": "十五是那个优雅的数字。然后有人写了个故事，优雅的数字变成了十四加一。"
+        }
+      ]
+    }
+  }
+}
