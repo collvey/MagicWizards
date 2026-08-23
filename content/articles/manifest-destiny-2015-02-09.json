@@ -1,0 +1,320 @@
+{
+  "id": "manifest-destiny-2015-02-09",
+  "slug": "manifest-destiny-2015-02-09",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-02-09",
+  "series": null,
+  "tags": ["manifest", "morph", "fate-reforged", "rules", "complexity"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/manifest-destiny-2015-02-09",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T17:30:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Manifest Destiny",
+      "dek": "\"Are you happy?\" the rules manager said one day. \"We've made triple-faced cards.\"",
+      "overview": "A question-and-answer column on manifest: why it only turns up creatures, why it comes off the top of the library, and why a face-down card is a 2/2.",
+      "takeaway": "\"While these two mechanics are complex, they are complex in the exact same areas.\"",
+      "lessons": [
+        {
+          "title": "List every independent reason for a restriction — the convergence is what makes it robust",
+          "rules": "Asked why something is limited, people give the reason that occurs to them first, and the limit then looks like it rests on that one argument. Write them all down. A restriction supported by five unrelated considerations survives the loss of any of them; one supported by a single good reason is one counterexample from collapsing.",
+          "flavor": "Five separate answers to why manifest only turns up creatures: flavour (morph only turns up creatures, so the proto-version matches), complexity (“manifest creatures can never change card type”), rules (“the game does not like having nonpermanents on the battlefield”), costing (“a much stronger effect, forcing development to cost the spells higher”), and gameplay."
+        },
+        {
+          "title": "Itemise the conceptual hurdles — two features sharing a core cost roughly one",
+          "rules": "Complexity isn't counted in named features; it's counted in ideas the audience has to accept for the first time. Write out the specific hurdles each feature demands, then compare the lists. Two things that look separately daunting can be nearly free together if the hard part is the same hard part.",
+          "flavor": "“While these two mechanics are complex, they are complex in the exact same areas. Learning morph teaches you most of the complex things about learning manifest.” The three: cards can be face down and become colourless 2/2 creatures; face-down cards can be turned face up; and turning one face up doesn't use the stack."
+        },
+        {
+          "title": "Enumerate the whole domain and write each option's disqualifying property",
+          "rules": "When a parameter has a small fixed set of possible values, don't reason from the one that occurred to you. List all of them, and against each write the specific thing that rules it out. The survivor is then a justified choice rather than an assumption, and the notes tell whoever revisits it what would have to change.",
+          "flavor": "Six candidate zones, each with its reason: hand (“zero surprise… would have led to the manifested card being a creature a high percentage of the time”), graveyard (“a public zone”), battlefield (“conceptually a bit weird”), exile, inside your library (“functions just like a tutor… It also requires shuffling”), and the top of the library."
+        },
+        {
+          "title": "Keep one destination genuinely terminal",
+          "rules": "A system benefits enormously from having somewhere that things go and do not come back from — it's the release valve for anything you need to remove permanently. That property only holds while it's near-absolute. Every route back you allow costs you the guarantee, so grant them narrowly and never for things the actor put there themselves.",
+          "flavor": "“The exile zone is meant to be a place where things go and don't return. We allow cards to exile other cards or themselves and then bring those cards back, but we try to avoid allowing players to get back cards exiled by other means—especially cards players have exiled themselves, because that is where broken interactions are most likely to happen.”"
+        },
+        {
+          "title": "A difference between identical-looking objects needs a physical marker",
+          "rules": "Two things that present the same way cannot quietly differ. Whatever distinguishes them has to sit on the object, or everyone involved is holding invisible state — and holding it for several objects at once, which is where it fails. If you can't attach a marker, the difference can't exist.",
+          "flavor": "“Creature keywords other than haste became memory issues. This is especially bad because you often have multiple manifest creatures on the battlefield, so remembering that ‘this one flies while this one doesn't' without any object(s) to help you remember seemed suboptimal.” The workable versions used +1/+1 counters and Auras, which are visible."
+        },
+        {
+          "title": "Accept a wonky implementation when the play is good",
+          "rules": "Sometimes the only legal construction of a thing you want is inelegant — a two-step that exists purely to satisfy a rule. Weigh the awkwardness against where it's felt. Wording ugliness is paid once by whoever reads it closely; the experience is paid out every time it's used, and that side usually wins.",
+          "flavor": "“Auras have to target when cast and the manifested creature doesn't exist until the spell resolves. Eventually, with the help of Rules Manager Matt Tabak, a solution was found. The cards could be enchantments that turned into Auras when they entered the battlefield. It was a little wonky but the cards played well enough that we decided it was worth the wonkiness.”"
+        },
+        {
+          "title": "A system-level default is set once and constrains everything after — be in the room",
+          "rules": "Some decisions are made early, for a narrow reason, and then become the fixed definition every future feature has to build against. They rarely feel important at the time. If you can see that a choice is going to become a permanent default, that's the moment your opinion is worth the most it will ever be worth.",
+          "flavor": "“The game defines what a face-down creature is and that definition has to be a single consistent thing. This all came about years ago because the rules team was trying to make the cards Illusionary Mask and Camouflage work, and they realized that the key to doing it was to have the game provide a property to face-down cards. My contribution to this story is I convinced them to make it a 2/2 rather than a 1/1.”"
+        },
+        {
+          "title": "\"Simpler\" and \"derivative\" are judgements about the order you met things in",
+          "rules": "Whichever version you encountered first becomes the baseline, and the other one gets read as a variation on it — including when the second is actually the plainer of the two. Before concluding that something is an offshoot, ask whether you'd say that if the sequence had been reversed.",
+          "flavor": "“I think some of manifest's complication comes from its newness. If morph and manifest had been introduced in the reverse order, I do believe that morph would feel more like an offshoot of manifest than manifest would feel like an offshoot of morph… Imagine if you had never seen morph before but rather had seen manifest first.”"
+        },
+        {
+          "title": "Key the ability off the state, not the route that produced it",
+          "rules": "Write a capability as a condition on how something currently is, rather than on how it got there, and it will compose with mechanisms that didn't exist when you wrote it. Anything phrased in terms of the process that created the state has to be revisited every time a new process arrives.",
+          "flavor": "“The morph ability allows you to cast the card for three generic mana to play it as a face-down 2/2, but morph also has a second ability that is the ability to turn the creature face up. That second ability works no matter how the card got face down on the battlefield.” So a manifested morph card can be turned up by either cost."
+        },
+        {
+          "title": "An interaction that can't occur in the current product still has to be defined",
+          "rules": "Rules have to answer questions the shipping work never asks, because the objects outlive the release they came in. That work looks like time spent on nothing and isn't — it's the reason the combination is available later, and the reason nobody has to stop and adjudicate it when it finally happens.",
+          "flavor": "“Of all the things in Magic, it was the double-faced cards that probably proved to be the stickiest wicket for manifest… I know Matt Tabak spent a lot of time on this question. He often joked with me how much time was spent on an interaction that wasn't even in the set!” The resolution: “‘Are you happy?' he said to me one day, ‘We've made triple-faced cards.'”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Destino manifiesto",
+      "dek": "«¿Estás contento?», dijo un día el gestor de reglas. «Hemos hecho cartas de tres caras.»",
+      "overview": "Una columna de preguntas y respuestas sobre manifestar: por qué solo saca criaturas, por qué viene de lo alto de la biblioteca y por qué una carta boca abajo es un 2/2.",
+      "takeaway": "«Aunque estas dos mecánicas son complejas, lo son exactamente en las mismas áreas.»",
+      "lessons": [
+        {
+          "title": "Enumera todas las razones independientes de una restricción: la convergencia es lo que la vuelve robusta",
+          "rules": "Cuando se pregunta por qué algo está limitado, la gente da la razón que le viene primero, y entonces el límite parece apoyarse solo en ese argumento. Escríbelas todas. Una restricción sostenida por cinco consideraciones sin relación sobrevive a la pérdida de cualquiera; una sostenida por una sola buena razón está a un contraejemplo de derrumbarse.",
+          "flavor": "Cinco respuestas distintas a por qué manifestar solo saca criaturas: sabor (la metamorfosis solo saca criaturas, así que la protoversión encaja), complejidad («las criaturas manifestadas nunca pueden cambiar de tipo de carta»), reglas («al juego no le gusta tener no permanentes en el campo»), coste («un efecto mucho más fuerte») y juego."
+        },
+        {
+          "title": "Desglosa los obstáculos conceptuales: dos rasgos que comparten núcleo cuestan más o menos uno",
+          "rules": "La complejidad no se cuenta en rasgos con nombre; se cuenta en ideas que el público tiene que aceptar por primera vez. Escribe los obstáculos concretos que exige cada rasgo y compara las listas. Dos cosas que por separado parecen intimidantes pueden salir casi gratis juntas si la parte difícil es la misma.",
+          "flavor": "«Aunque estas dos mecánicas son complejas, lo son exactamente en las mismas áreas. Aprender metamorfosis te enseña casi todo lo complejo de aprender manifestar.» Los tres: las cartas pueden estar boca abajo y ser criaturas 2/2 incoloras; pueden girarse boca arriba; y girarlas no usa la pila."
+        },
+        {
+          "title": "Enumera todo el dominio y anota la propiedad que descalifica a cada opción",
+          "rules": "Cuando un parámetro tiene un pequeño conjunto fijo de valores posibles, no razones desde el que se te ocurrió. Lístalos todos y, frente a cada uno, escribe lo concreto que lo descarta. El superviviente pasa a ser una elección justificada y no un supuesto, y las notas dicen a quien lo revise qué tendría que cambiar.",
+          "flavor": "Seis zonas candidatas, cada una con su motivo: mano («cero sorpresa… habría hecho que la carta manifestada fuera criatura un alto porcentaje de las veces»), cementerio («una zona pública»), campo de batalla («conceptualmente algo raro»), exilio, dentro de la biblioteca («funciona igual que un tutor… Además exige barajar») y lo alto de la biblioteca."
+        },
+        {
+          "title": "Mantén un destino genuinamente terminal",
+          "rules": "A un sistema le beneficia enormemente tener un sitio al que las cosas van y del que no vuelven: es la válvula de escape para todo lo que necesites retirar de forma permanente. Esa propiedad solo se sostiene mientras sea casi absoluta. Cada vía de regreso que permitas te cuesta la garantía, así que concédelas con cuentagotas.",
+          "flavor": "«La zona de exilio pretende ser un lugar al que las cosas van y no vuelven. Permitimos que las cartas exilien otras cartas o a sí mismas y luego las recuperen, pero procuramos evitar que los jugadores recuperen cartas exiliadas por otros medios, sobre todo cartas que ellos mismos han exiliado, porque ahí es donde más probablemente ocurren las interacciones rotas.»"
+        },
+        {
+          "title": "Una diferencia entre objetos de aspecto idéntico necesita un marcador físico",
+          "rules": "Dos cosas que se presentan igual no pueden diferir en silencio. Lo que las distinga tiene que estar sobre el objeto, o todos los implicados sostienen un estado invisible; y sosteniéndolo para varios objetos a la vez, que es donde falla. Si no puedes adjuntar un marcador, la diferencia no puede existir.",
+          "flavor": "«Las palabras clave de criatura distintas de prisa se convertían en problemas de memoria. Esto es especialmente malo porque a menudo tienes varias criaturas manifestadas en el campo, así que recordar que “esta vuela y esta no” sin ningún objeto que te ayude parecía subóptimo.» Las versiones viables usaron contadores +1/+1 y auras, que se ven."
+        },
+        {
+          "title": "Acepta una implementación torpe cuando el juego resultante es bueno",
+          "rules": "A veces la única construcción legal de lo que quieres es poco elegante: un doble paso que existe solo para satisfacer una regla. Sopesa la torpeza contra dónde se siente. La fealdad del texto la paga una vez quien lo lee con lupa; la experiencia se cobra cada vez que se usa, y ese lado suele ganar.",
+          "flavor": "«Las auras tienen que fijar objetivo al lanzarse, y la criatura manifestada no existe hasta que el conjuro se resuelve. Al final, con ayuda del gestor de reglas Matt Tabak, se halló una solución. Las cartas podían ser encantamientos que se convertían en auras al entrar en el campo. Era algo torpe, pero las cartas jugaban lo bastante bien como para que decidiéramos que la torpeza valía la pena.»"
+        },
+        {
+          "title": "Un valor por defecto a nivel de sistema se fija una vez y condiciona todo lo posterior: hay que estar en la sala",
+          "rules": "Algunas decisiones se toman pronto, por un motivo estrecho, y luego se convierten en la definición fija contra la que todo rasgo futuro tendrá que construirse. Rara vez parecen importantes en su momento. Si ves que una elección va a convertirse en un valor por defecto permanente, ese es el momento en que tu opinión vale más que nunca.",
+          "flavor": "«El juego define qué es una criatura boca abajo, y esa definición tiene que ser una sola cosa consistente. Todo esto surgió hace años porque el equipo de reglas intentaba hacer funcionar Illusionary Mask y Camouflage, y se dieron cuenta de que la clave era que el juego otorgara una propiedad a las cartas boca abajo. Mi aportación es que los convencí de hacerla un 2/2 en vez de un 1/1.»"
+        },
+        {
+          "title": "«Más simple» y «derivado» son juicios sobre el orden en que conociste las cosas",
+          "rules": "La versión con la que te topaste primero se convierte en la referencia, y la otra se lee como una variación de ella; incluso cuando la segunda es en realidad la más llana de las dos. Antes de concluir que algo es un derivado, pregúntate si dirías lo mismo si la secuencia hubiera sido la inversa.",
+          "flavor": "«Creo que parte de la complicación de manifestar viene de su novedad. Si metamorfosis y manifestar se hubieran introducido en orden inverso, creo que la metamorfosis parecería más un derivado de manifestar que al revés… Imagina que nunca hubieras visto la metamorfosis y hubieras visto manifestar primero.»"
+        },
+        {
+          "title": "Ancla la habilidad al estado, no a la ruta que lo produjo",
+          "rules": "Escribe una capacidad como una condición sobre cómo está algo ahora, y no sobre cómo llegó ahí, y compondrá con mecanismos que no existían cuando la escribiste. Todo lo formulado en términos del proceso que creó el estado hay que revisarlo cada vez que aparece un proceso nuevo.",
+          "flavor": "«La habilidad de metamorfosis te permite lanzar la carta por tres manás genéricos para jugarla como un 2/2 boca abajo; pero la metamorfosis tiene además una segunda habilidad, la de girar la criatura boca arriba. Esa segunda habilidad funciona sin importar cómo la carta acabó boca abajo en el campo.» Así, una carta de metamorfosis manifestada puede girarse por cualquiera de los dos costes."
+        },
+        {
+          "title": "Una interacción que no puede ocurrir en el producto actual igualmente hay que definirla",
+          "rules": "Las reglas tienen que responder preguntas que la obra publicada nunca plantea, porque los objetos sobreviven a la entrega en que salieron. Ese trabajo parece tiempo gastado en nada y no lo es: es la razón por la que la combinación estará disponible después, y por la que nadie tendrá que pararse a arbitrarla cuando por fin ocurra.",
+          "flavor": "«De todas las cosas de Magic, fueron las cartas de doble cara las que probablemente resultaron el hueso más duro para manifestar… Sé que Matt Tabak dedicó mucho tiempo a esta cuestión. A menudo bromeaba conmigo sobre cuánto tiempo se gastó en una interacción que ni siquiera estaba en el set.» La resolución: «“¿Estás contento?”, me dijo un día, “Hemos hecho cartas de tres caras.”»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Destinée manifeste",
+      "dek": "« Tu es content ? » m'a dit un jour le gestionnaire des règles. « Nous avons fait des cartes à trois faces. »",
+      "overview": "Une chronique de questions-réponses sur la manifestation : pourquoi elle ne retourne que des créatures, pourquoi elle vient du dessus de la bibliothèque, et pourquoi une carte face cachée est une 2/2.",
+      "takeaway": "« Ces deux mécaniques sont complexes, mais elles le sont exactement dans les mêmes domaines. »",
+      "lessons": [
+        {
+          "title": "Énumérez toutes les raisons indépendantes d'une restriction — c'est la convergence qui la rend solide",
+          "rules": "Interrogé sur une limite, on donne la raison qui vient en premier, et la limite semble alors reposer sur ce seul argument. Écrivez-les toutes. Une restriction soutenue par cinq considérations sans lien survit à la perte de n'importe laquelle ; une soutenue par une seule bonne raison est à un contre-exemple de s'effondrer.",
+          "flavor": "Cinq réponses distinctes à la question de savoir pourquoi la manifestation ne retourne que des créatures : la saveur (la morphie ne retourne que des créatures), la complexité (« les créatures manifestées ne changent jamais de type de carte »), les règles (« le jeu n'aime pas les non-permanents sur le champ de bataille »), le coût, et le jeu lui-même."
+        },
+        {
+          "title": "Détaillez les obstacles conceptuels — deux traits partageant un cœur coûtent à peu près un",
+          "rules": "La complexité ne se compte pas en traits nommés, mais en idées que le public doit accepter pour la première fois. Écrivez les obstacles précis qu'exige chaque trait, puis comparez les listes. Deux choses séparément intimidantes peuvent être presque gratuites ensemble si la difficulté est la même difficulté.",
+          "flavor": "« Ces deux mécaniques sont complexes, mais exactement dans les mêmes domaines. Apprendre la morphie vous enseigne l'essentiel de ce qui est complexe dans la manifestation. » Les trois : des cartes peuvent être face cachée et devenir des créatures 2/2 incolores ; elles peuvent être retournées ; et les retourner n'utilise pas la pile."
+        },
+        {
+          "title": "Énumérez tout le domaine et notez la propriété disqualifiante de chaque option",
+          "rules": "Quand un paramètre n'a qu'un petit ensemble fixe de valeurs possibles, ne raisonnez pas depuis celle qui vous est venue. Listez-les toutes et inscrivez en face de chacune ce qui l'écarte précisément. Le survivant devient un choix justifié plutôt qu'une supposition, et les notes disent à qui reviendra dessus ce qui devrait changer.",
+          "flavor": "Six zones candidates, chacune avec sa raison : la main (« zéro surprise… la carte manifestée aurait été une créature dans une forte proportion des cas »), le cimetière (« une zone publique »), le champ de bataille (« conceptuellement un peu étrange »), l'exil, l'intérieur de la bibliothèque (« fonctionne comme un tuteur… et impose de mélanger »), et le dessus de la bibliothèque."
+        },
+        {
+          "title": "Gardez une destination réellement terminale",
+          "rules": "Un système gagne énormément à disposer d'un endroit d'où les choses ne reviennent pas : c'est la soupape pour tout ce qu'il faut retirer définitivement. Cette propriété ne tient que tant qu'elle est quasi absolue. Chaque retour que vous autorisez vous coûte la garantie : accordez-les étroitement, et jamais pour ce que l'acteur y a mis lui-même.",
+          "flavor": "« La zone d'exil est censée être un lieu où les choses vont sans revenir. Nous laissons des cartes exiler d'autres cartes ou elles-mêmes puis les récupérer, mais nous évitons de laisser récupérer des cartes exilées par d'autres moyens — surtout celles que les joueurs ont exilées eux-mêmes, car c'est là que les interactions cassées surviennent le plus. »"
+        },
+        {
+          "title": "Une différence entre objets d'apparence identique exige un marqueur physique",
+          "rules": "Deux choses qui se présentent pareil ne peuvent pas différer en silence. Ce qui les distingue doit se trouver sur l'objet, sinon tout le monde retient un état invisible — et pour plusieurs objets à la fois, ce qui est le point de rupture. Si vous ne pouvez pas y attacher un marqueur, la différence ne peut pas exister.",
+          "flavor": "« Les mots-clés de créature autres que la célérité posaient des problèmes de mémoire. C'est d'autant plus grave qu'on a souvent plusieurs créatures manifestées en jeu : se rappeler que “celle-ci vole et pas celle-là”, sans objet pour aider, semblait sous-optimal. » Les versions retenues employaient des marqueurs +1/+1 et des auras, qui se voient."
+        },
+        {
+          "title": "Acceptez une mise en œuvre bancale quand le jeu qui en sort est bon",
+          "rules": "Parfois la seule construction légale de ce que vous voulez est inélégante : un détour en deux temps qui n'existe que pour satisfaire une règle. Pesez la maladresse selon où elle se ressent. La laideur du texte est payée une fois par qui le lit de près ; l'expérience se paie à chaque usage, et ce côté-là l'emporte d'ordinaire.",
+          "flavor": "« Les auras doivent cibler à la lancée, or la créature manifestée n'existe pas avant la résolution. Finalement, avec l'aide du gestionnaire des règles Matt Tabak, une solution fut trouvée : des enchantements qui devenaient des auras en arrivant sur le champ de bataille. C'était un peu bancal, mais les cartes jouaient assez bien pour que cela en vaille la peine. »"
+        },
+        {
+          "title": "Un défaut au niveau du système se fixe une fois et contraint tout ensuite — soyez dans la pièce",
+          "rules": "Certaines décisions sont prises tôt, pour une raison étroite, et deviennent la définition figée contre laquelle tout trait futur devra se construire. Elles paraissent rarement importantes sur le moment. Si vous voyez qu'un choix va devenir un défaut permanent, c'est l'instant où votre avis vaudra le plus qu'il vaudra jamais.",
+          "flavor": "« Le jeu définit ce qu'est une créature face cachée, et cette définition doit être une chose unique et cohérente. Tout cela remonte à l'époque où l'équipe des règles cherchait à faire fonctionner Illusionary Mask et Camouflage, et comprit qu'il fallait que le jeu donne une propriété aux cartes face cachée. Ma contribution : je les ai convaincus d'en faire une 2/2 plutôt qu'une 1/1. »"
+        },
+        {
+          "title": "« Plus simple » et « dérivé » sont des jugements sur l'ordre de rencontre",
+          "rules": "La version rencontrée en premier devient la référence, et l'autre se lit comme une variation — y compris quand la seconde est en fait la plus dépouillée des deux. Avant de conclure qu'une chose est un rejeton, demandez-vous si vous le diriez encore si l'ordre avait été inversé.",
+          "flavor": "« Je pense qu'une partie de la complication de la manifestation vient de sa nouveauté. Si la morphie et la manifestation avaient été introduites dans l'ordre inverse, je crois que la morphie semblerait davantage un rejeton de la manifestation que l'inverse… Imaginez n'avoir jamais vu la morphie et avoir découvert la manifestation d'abord. »"
+        },
+        {
+          "title": "Accrochez la capacité à l'état, non au chemin qui l'a produit",
+          "rules": "Écrivez une capacité comme une condition sur l'état actuel d'une chose plutôt que sur la façon dont elle y est arrivée, et elle se composera avec des mécanismes qui n'existaient pas à l'écriture. Tout ce qui est formulé selon le processus créateur doit être revu à chaque nouveau processus.",
+          "flavor": "« La morphie permet de lancer la carte pour trois manas génériques en 2/2 face cachée, mais elle comporte aussi une seconde capacité : retourner la créature face visible. Cette seconde capacité fonctionne quelle que soit la façon dont la carte s'est retrouvée face cachée sur le champ de bataille. » Une carte à morphie manifestée peut donc être retournée par l'un ou l'autre coût."
+        },
+        {
+          "title": "Une interaction impossible dans le produit actuel doit tout de même être définie",
+          "rules": "Les règles doivent répondre à des questions que l'œuvre publiée ne pose jamais, car les objets survivent à la sortie dont ils viennent. Ce travail ressemble à du temps dépensé pour rien et ne l'est pas : c'est pourquoi la combinaison sera disponible plus tard, et pourquoi nul n'aura à s'arrêter pour arbitrer quand elle surviendra.",
+          "flavor": "« De toutes les choses dans Magic, ce sont les cartes recto-verso qui ont sans doute été le plus épineux pour la manifestation… Je sais que Matt Tabak y a passé beaucoup de temps. Il plaisantait souvent sur le temps consacré à une interaction qui n'était même pas dans l'édition ! » Le dénouement : « “Tu es content ? m'a-t-il dit un jour. Nous avons fait des cartes à trois faces.” »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Destino manifesto",
+      "dek": "“Você está feliz?”, disse um dia o gerente de regras. “Fizemos cartas de três faces.”",
+      "overview": "Uma coluna de perguntas e respostas sobre manifestar: por que só vira criaturas, por que vem do topo do grimório, e por que uma carta virada para baixo é um 2/2.",
+      "takeaway": "“Embora estas duas mecânicas sejam complexas, elas são complexas exatamente nas mesmas áreas.”",
+      "lessons": [
+        {
+          "title": "Liste todas as razões independentes de uma restrição — a convergência é o que a torna robusta",
+          "rules": "Perguntadas por que algo é limitado, as pessoas dão a razão que lhes ocorre primeiro, e o limite passa a parecer apoiado só naquele argumento. Escreva todas. Uma restrição sustentada por cinco considerações sem relação sobrevive à perda de qualquer uma; uma sustentada por uma boa razão só está a um contraexemplo de desabar.",
+          "flavor": "Cinco respostas distintas para por que manifestar só vira criaturas: sabor (metamorfose só vira criaturas, então a protoversão combina), complexidade (“criaturas manifestadas nunca podem mudar de tipo de carta”), regras (“o jogo não gosta de não permanentes no campo”), custo (“um efeito bem mais forte”) e jogabilidade."
+        },
+        {
+          "title": "Detalhe os obstáculos conceituais — dois recursos que compartilham um núcleo custam mais ou menos um",
+          "rules": "Complexidade não se conta em recursos nomeados; conta-se em ideias que o público tem de aceitar pela primeira vez. Escreva os obstáculos específicos que cada recurso exige e compare as listas. Duas coisas separadamente intimidadoras podem sair quase de graça juntas se a parte difícil for a mesma parte difícil.",
+          "flavor": "“Embora estas duas mecânicas sejam complexas, elas são complexas exatamente nas mesmas áreas. Aprender metamorfose te ensina quase tudo o que é complexo em aprender manifestar.” Os três: cartas podem ficar viradas para baixo e virar criaturas 2/2 incolores; podem ser viradas para cima; e virá-las não usa a pilha."
+        },
+        {
+          "title": "Enumere o domínio inteiro e anote a propriedade que desqualifica cada opção",
+          "rules": "Quando um parâmetro tem um conjunto pequeno e fixo de valores possíveis, não raciocine a partir daquele que lhe ocorreu. Liste todos e, diante de cada um, escreva o que especificamente o descarta. O sobrevivente vira uma escolha justificada em vez de suposição, e as notas dizem a quem revisitar o que teria de mudar.",
+          "flavor": "Seis zonas candidatas, cada uma com seu motivo: mão (“zero surpresa… faria a carta manifestada ser criatura numa porcentagem alta das vezes”), cemitério (“uma zona pública”), campo de batalha (“conceitualmente um tanto estranho”), exílio, dentro do grimório (“funciona como um tutor… e exige embaralhar”) e o topo do grimório."
+        },
+        {
+          "title": "Mantenha um destino genuinamente terminal",
+          "rules": "Um sistema ganha enormemente ao ter um lugar de onde as coisas não voltam: é a válvula de escape para tudo que precise ser removido em definitivo. Essa propriedade só se sustenta enquanto for quase absoluta. Cada rota de volta que você permite custa a garantia, então conceda-as de forma estreita.",
+          "flavor": "“A zona de exílio existe para ser um lugar aonde as coisas vão e não voltam. Permitimos que cartas exilem outras cartas ou a si mesmas e depois as tragam de volta, mas evitamos deixar os jogadores recuperarem cartas exiladas por outros meios — sobretudo cartas que eles mesmos exilaram, porque é ali que as interações quebradas mais provavelmente acontecem.”"
+        },
+        {
+          "title": "Uma diferença entre objetos de aparência idêntica precisa de um marcador físico",
+          "rules": "Duas coisas que se apresentam do mesmo jeito não podem diferir em silêncio. O que as distingue tem de estar sobre o objeto, ou todos os envolvidos estão segurando um estado invisível — e segurando-o para vários objetos ao mesmo tempo, que é onde isso falha. Se você não consegue anexar um marcador, a diferença não pode existir.",
+          "flavor": "“Palavras-chave de criatura além de ímpeto viravam problemas de memória. Isso é especialmente ruim porque muitas vezes você tem várias criaturas manifestadas no campo, então lembrar que ‘esta voa e aquela não', sem nenhum objeto que ajude, parecia subótimo.” As versões viáveis usaram marcadores +1/+1 e Auras, que são visíveis."
+        },
+        {
+          "title": "Aceite uma implementação torta quando o jogo resultante é bom",
+          "rules": "Às vezes a única construção legal daquilo que você quer é deselegante: um passo duplo que existe só para satisfazer uma regra. Pese a estranheza contra onde ela é sentida. A feiura do texto é paga uma vez por quem o lê com atenção; a experiência é paga toda vez que se usa, e esse lado costuma vencer.",
+          "flavor": "“Auras precisam ter alvo ao serem conjuradas, e a criatura manifestada não existe até a mágica resolver. No fim, com ajuda do gerente de regras Matt Tabak, achou-se uma solução. As cartas podiam ser encantamentos que viravam Auras ao entrarem no campo. Era um pouco torto, mas as cartas jogavam bem o bastante para decidirmos que valia a torção.”"
+        },
+        {
+          "title": "Um padrão em nível de sistema é fixado uma vez e restringe tudo depois — esteja na sala",
+          "rules": "Algumas decisões são tomadas cedo, por um motivo estreito, e viram a definição fixa contra a qual todo recurso futuro terá de se construir. Elas raramente parecem importantes na hora. Se você percebe que uma escolha vai virar um padrão permanente, esse é o momento em que a sua opinião vale mais do que jamais valerá.",
+          "flavor": "“O jogo define o que é uma criatura virada para baixo, e essa definição tem de ser uma coisa só e consistente. Isso veio de anos atrás, quando a equipe de regras tentava fazer Illusionary Mask e Camouflage funcionarem e percebeu que a chave era o jogo conferir uma propriedade às cartas viradas. Minha contribuição foi convencê-los a fazer 2/2 em vez de 1/1.”"
+        },
+        {
+          "title": "“Mais simples” e “derivado” são juízos sobre a ordem em que você conheceu as coisas",
+          "rules": "A versão que você encontrou primeiro vira a referência, e a outra é lida como variação dela — inclusive quando a segunda é, na verdade, a mais simples das duas. Antes de concluir que algo é um derivado, pergunte se você diria o mesmo caso a sequência tivesse sido invertida.",
+          "flavor": "“Acho que parte da complicação de manifestar vem da novidade. Se metamorfose e manifestar tivessem sido introduzidas na ordem inversa, acredito que metamorfose pareceria mais um derivado de manifestar do que o contrário… Imagine que você nunca tivesse visto metamorfose e tivesse visto manifestar primeiro.”"
+        },
+        {
+          "title": "Ancore a habilidade no estado, não na rota que o produziu",
+          "rules": "Escreva uma capacidade como condição sobre como algo está agora, e não sobre como chegou lá, e ela vai se compor com mecanismos que não existiam quando você a escreveu. Tudo formulado em termos do processo que criou o estado precisa ser revisto sempre que um processo novo aparece.",
+          "flavor": "“A habilidade de metamorfose permite conjurar a carta por três manas genéricos para jogá-la como um 2/2 virado para baixo, mas metamorfose também tem uma segunda habilidade: virar a criatura para cima. Essa segunda habilidade funciona não importa como a carta foi parar virada para baixo no campo.” Assim, uma carta de metamorfose manifestada pode ser virada por qualquer um dos custos."
+        },
+        {
+          "title": "Uma interação que não pode ocorrer no produto atual ainda assim tem de ser definida",
+          "rules": "As regras precisam responder perguntas que a obra publicada nunca faz, porque os objetos sobrevivem ao lançamento de onde vieram. Esse trabalho parece tempo gasto em nada e não é: é o motivo de a combinação estar disponível depois, e de ninguém ter de parar para arbitrá-la quando ela finalmente acontecer.",
+          "flavor": "“De todas as coisas em Magic, foram as cartas de face dupla que provavelmente se mostraram o osso mais duro para manifestar… Sei que Matt Tabak passou muito tempo nessa questão. Ele costumava brincar comigo sobre quanto tempo se gastou numa interação que nem estava na coleção!” O desfecho: “‘Você está feliz?', ele me disse um dia, ‘Fizemos cartas de três faces.'”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "昭昭天命",
+      "dek": "「你满意了吧？」规则主管有一天对他说。「我们做出三面牌了。」",
+      "overview": "一篇关于「显化」的问答专栏：为什么它只能翻出生物、为什么它取自牌库顶，以及为什么一张盖着的牌是2/2。",
+      "takeaway": "「这两个机制虽然都复杂，但它们复杂的地方完全相同。」",
+      "lessons": [
+        {
+          "title": "把一条限制的每一条独立理由都列出来——正是这份汇聚让它变得稳固",
+          "rules": "被问到「某样东西为什么受限」时，人们会给出最先想到的那条理由；于是这条限制看上去就只靠那一个论证支撑着。把它们全都写下来。一条由五条互不相干的考虑所支撑的限制，丢掉其中任何一条都还站得住；而一条只靠一个好理由支撑的限制，离塌掉只差一个反例。",
+          "flavor": "关于「显化为什么只翻出生物」，给出了五条各自独立的回答：风味（变身只翻出生物，所以原型版本要与之呼应）、复杂度（「显化出来的生物永远不会改变牌张类别」）、规则（「这个游戏不喜欢战场上有非永久物」）、定价（「那是一个强得多的效应」），以及对局体验。"
+        },
+        {
+          "title": "把概念上的门槛逐条列出来——两个共享同一内核的特性，加起来大约只值一个",
+          "rules": "复杂度不是按「有名字的特性」来计数的，而是按「受众必须头一回接受的观念」来计数的。把每个特性所要求的具体门槛写出来，然后比较这两份清单。两样单独看都令人生畏的东西，如果难的那一块是同一块，放在一起可能几乎是免费的。",
+          "flavor": "「这两个机制虽然都复杂，但它们复杂的地方完全相同。学会变身，就等于学会了学习显化时那些复杂的东西的绝大部分。」那三条是：牌可以被盖住，并成为无色的2/2生物；盖着的牌可以被翻回正面；而把它翻回正面不使用堆叠。"
+        },
+        {
+          "title": "把整个取值范围列全，并写下每个选项被淘汰的那条性质",
+          "rules": "当一个参数只有一小组固定的可能取值时，别从「你碰巧想到的那一个」出发去推理。把它们全部列出来，并在每一个旁边写下把它排除掉的那件具体的事。于是留下来的那个成了一个有理由的选择，而不是一个假定；而这些笔记会告诉日后重访的人：什么条件变了才需要改。",
+          "flavor": "六个候选区域，各有各的理由：手牌（「毫无惊喜……会让显化出来的牌有很高比例都是生物」）、坟场（「一个公开区域」）、战场（「在概念上有点怪」）、放逐区、牌库内部（「作用起来就像一张教程牌……而且还要洗牌」），以及牌库顶。"
+        },
+        {
+          "title": "留住一个真正意义上的终点站",
+          "rules": "一个系统能从「有那么一个地方，东西进去就不回来」中获益极大——它是你需要永久移除任何东西时的泄压阀。而这项性质只有在它近乎绝对时才成立。你每允许一条回来的路，就损失掉一分这份保证；所以要吝啬地给，并且绝不给「行动者自己放进去的东西」。",
+          "flavor": "「放逐区的本意，是一个东西去了就不回来的地方。我们允许牌去放逐别的牌或它自己、之后再把那些牌带回来；但我们尽量避免让牌手取回那些通过别的途径被放逐掉的牌——尤其是牌手自己放逐掉的牌，因为那正是最容易出现破坏性互动的地方。」"
+        },
+        {
+          "title": "两个长得一模一样的物件之间的差别，需要一个物理标记",
+          "rules": "两样呈现方式相同的东西，没法在无声无息中彼此不同。区分它们的那样东西必须坐落在物件之上；否则在场的每一个人都在脑子里存着一份看不见的状态——而且是同时为好几个物件存着，那正是它崩掉的地方。如果你没法挂上一个标记，这份差别就不能存在。",
+          "flavor": "「敏捷之外的生物关键字都变成了记忆问题。这一点尤其糟糕，因为战场上你常常同时有好几个显化出来的生物；而在没有任何物件帮你记的情况下，要记住『这一个会飞而那一个不会』，看起来是次优的。」可行的那些版本用的是+1/+1指示物和灵气——它们看得见。"
+        },
+        {
+          "title": "当实际玩起来很好时，接受一个别扭的实现方式",
+          "rules": "有时候，你想要的那样东西唯一合法的构造方式并不优雅——一个纯粹为了满足某条规则而存在的两步走。要把这份别扭放到「它在哪里被感受到」上去权衡。措辞上的丑陋，由那个逐字细读的人一次性付掉；而体验则是在每一次使用时都要兑现的，通常是后者赢。",
+          "flavor": "「灵气在被施放时必须指定目标，而显化出来的生物在咒语结算之前并不存在。最后，在规则主管马特·塔巴克的帮助下找到了一个解法：这些牌可以是结界，在进入战场时变成灵气。这有点别扭；但这些牌玩起来足够好，于是我们判断这份别扭是值得的。」"
+        },
+        {
+          "title": "一个系统层面的默认值只会被设定一次，之后约束着一切——要在那间屋子里",
+          "rules": "有些决定是很早、出于一个很窄的理由做出的；而它们随后成了那条固定的定义，日后每一项特性都必须对着它来搭建。它们在当时很少显得重要。如果你看得出某个选择将要变成一个永久的默认值，那就是你的意见「一辈子里最值钱」的那一刻。",
+          "flavor": "「这个游戏定义了『一张盖着的生物牌是什么』，而这个定义必须是单一而一致的一样东西。这一切要追溯到很多年前：规则团队当时想让《幻影面具》和《伪装》这两张牌能运作起来，他们意识到关键在于让游戏本身赋予盖着的牌一项属性。我在这个故事里的贡献是：我说服了他们把它定成2/2而不是1/1。」"
+        },
+        {
+          "title": "「更简单」和「衍生品」，是关于你以什么顺序遇到它们的判断",
+          "rules": "你最先遇到的那个版本会成为基准，而另一个则会被读成它的一种变体——哪怕第二个其实是两者之中更朴素的那个。在断定某样东西是某样东西的分支之前，先问一句：如果次序反过来，你还会这么说吗？",
+          "flavor": "「我觉得显化的一部分复杂感来自它的新。如果变身和显化是以相反的顺序被引入的，我确实相信：变身会更像是显化的一个分支，而不是反过来……想象一下，如果你从来没见过变身，而是先见到了显化。」"
+        },
+        {
+          "title": "把异能挂在「状态」上，而不是挂在「产生这个状态的那条路径」上",
+          "rules": "把一项能力写成「关于某样东西当前处于什么状态」的条件，而不是「它是怎么到那儿去的」，于是它就能和那些「你写它的时候还不存在」的机制组合起来。任何以「造出这个状态的那个过程」来措辞的东西，每来一个新过程就得重新审一遍。",
+          "flavor": "「变身异能让你可以花三点通用法术力把这张牌作为一个盖着的2/2打出来；但变身还有第二个异能，也就是把这个生物翻回正面的能力。第二个异能无论这张牌是以什么方式变成盖着的状态出现在战场上，都能生效。」于是一张被显化出来的变身牌，用哪个费用都能翻。"
+        },
+        {
+          "title": "一个在当前产品里不可能发生的互动，仍然必须被定义出来",
+          "rules": "规则必须回答那些已出货的作品从来不会提出的问题；因为这些物件的寿命比它们所属的那次发售要长。这份工作看上去像是在没有意义的地方花时间，其实不是——正是它让这种组合在日后是可用的，也正是它让这件事真的发生时没有人需要停下来裁决。",
+          "flavor": "「万智牌里的所有东西当中，对显化而言最棘手的大概就是双面牌了……我知道马特·塔巴克在这个问题上花了大量时间。他常常和我开玩笑，说在一个连这个系列里都没有的互动上花了那么多工夫！」最后的收场：「『你满意了吧？』他有一天对我说，『我们做出三面牌了。』」"
+        }
+      ]
+    }
+  }
+}
