@@ -1,0 +1,320 @@
+{
+  "id": "maros-command-2015-04-13",
+  "slug": "maros-command-2015-04-13",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-04-13",
+  "series": null,
+  "tags": ["modal-spells", "charms", "commands", "entwine", "new-phyrexia"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/maros-command-2015-04-13",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T14:00:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Maro's Command",
+      "dek": "He woke his wife up screaming \"And! And! And!\" She responded \"And what?\"",
+      "overview": "Four origin stories for the modal spell: charms, entwine, the Commands and the Exarchs — and the invisible cost that produced all of them.",
+      "takeaway": "\"It turns out that one small effect might not be worth a mana, but the option between three small effects was.\"",
+      "lessons": [
+        {
+          "title": "Name the second, invisible cost — the slot",
+          "rules": "Every item has a visible price and an occupancy price: the place it takes up in someone's limited allocation. The second one doesn't appear anywhere and is often the binding one, which is why some things can't justify themselves even when they're free. Say it out loud and a whole class of problems becomes legible.",
+          "flavor": "“One option was cards that didn't cost any mana… The problem with this solution was that cards actually had two costs: one was the mana and the other was the cost of the card itself. Some effects were small enough that even for free, they could not justify the spending of a card.”"
+        },
+        {
+          "title": "A safeguard against one narrow abuse can impose a broad recurring tax",
+          "rules": "Precautions get written against the worst case someone imagined at the time, and they then apply to every ordinary use forever. Once you know how rare the abuse actually is, weigh it against the cost paid by everyone else. Often the guard costs more in aggregate than the thing it was guarding against.",
+          "flavor": "“Because the team was tickled with the card Urza's Bauble… they made all the card draw delayed, having the players get it at the beginning of the next upkeep. (Urza's Bauble with a normal draw would have let you essentially play a deck with four fewer cards.)” Later: “R&D would tweak the cantrips to have the card draw happen immediately to avoid memory issues—players forgetting to draw the card.”"
+        },
+        {
+          "title": "The count is fixed by two opposing limits, and raising the ceiling costs you elsewhere",
+          "rules": "How many of something you include is rarely a matter of taste. There's a floor set by when the thing becomes worth having, and a ceiling set by the space available, and the answer is whatever number sits between them. If you want more, you have to buy the room from something, and it's worth naming what.",
+          "flavor": "“Why three effects? Two wasn't enough to justify the cost and four didn't fit on the card. (Commands would later solve this problem, but it required committing to slightly shorter abilities.)”"
+        },
+        {
+          "title": "Define the hole by subtraction from what's already there",
+          "rules": "A brief that says only \"we need something\" produces nothing. Inventory what the project already contains, and for each item write down the territory it has claimed. What remains is the specification — usually a short list of properties, arrived at without anyone having to guess what would be nice.",
+          "flavor": "“The key to solving the problem was figuring out what we had, so that we could scope out what we were missing. We didn't want cost reduction, we had affinity for artifacts. We didn't want something confusing and/or wordy, imprint was taking up that space. We also didn't want anything that copied things… I realized we needed a mechanic that allowed players to use their mana late-game.”"
+        },
+        {
+          "title": "Sustained saturation recruits the hours you aren't working, so keep capture cheap",
+          "rules": "A problem you have been fully occupied by for weeks keeps being worked on when you stop. That's a real resource and it delivers at inconvenient moments in a form that evaporates in about a minute. The only preparation that matters is having something to write on within reach of wherever it finds you.",
+          "flavor": "“I was spending all my time at work fixing up the file and all my time away from work trying to solve the problem. It felt like it was all I was thinking about… I found myself awake with one thought in my brain: Where's a pencil?… Luckily, I had a pencil by my bed (us creative types like to be prepared for situations like this) and managed to write down my idea before it faded away.”"
+        },
+        {
+          "title": "Change the connective, not the content",
+          "rules": "When a form is well established, the fresh territory may not be in what the options are but in the word joining them. Take a structure everyone knows and swap the relation — exclusive to inclusive, sequential to simultaneous, either to both — and you have something genuinely new built entirely from familiar parts.",
+          "flavor": "“The key to making a choice card that did something unique was to take a modal card and allow the player the option of not just doing ‘or' but doing ‘and.' I woke my wife up screaming ‘And! And! And!' She responded ‘And what?'” He mocked up cards “in which the two effects had synergy, so you wanted to entwine them.”"
+        },
+        {
+          "title": "When whoever inserted something un-reviewed later controls its review, say so",
+          "rules": "A late addition that skipped scrutiny is a normal risk. It becomes a different problem when the same person moves into the seat that would have caught it. Nothing has to go wrong for this to be worth stating; disclosing the arrangement is what lets the eventual outcome be read honestly by everyone.",
+          "flavor": "“This cycle didn't really go through any design playtesting. Aaron decided the set was lacking something and, just before the design handoff to development, he added it in. He refers to it as ‘vigilante design.'” Then: “Aaron got promoted to being head developer… This meant that Aaron was able to make sure his favorite cycle got aggressively costed.”"
+        },
+        {
+          "title": "To make a variant read as a different class, move two parameters rather than one",
+          "rules": "A single change reads as the same thing, bigger. Two changes read as a new category. If you need something to feel like a step up in kind rather than degree, find a second axis to alter alongside the obvious one — and the second can be modest, because its job is to break the comparison.",
+          "flavor": "Aaron started from a card called Rakdos Choose-Two Charm: “Aaron was trying to find a way to make the cards feel rare, and choosing two modes instead of one felt more grandiose. But it wasn't quite enough. Aaron wanted just one more deviation from a charm. What if instead of three choices, you had four? That helped it feel a little different, and more, helped justify it being a rare cycle.”"
+        },
+        {
+          "title": "An identity defined by its effect on others can't produce the effects you still need",
+          "rules": "Characterise something entirely by what it does to people and you've quietly ruled out every self-directed capability — which your work still has to contain. You find this out by attempting the ordinary requirements, not by inspecting the definition. Then the fix is a construction that keeps the hostile reading available.",
+          "flavor": "“Whenever I created a card that did something bad to the opponent, it felt very Phyrexian; but whenever I created a card that helped you, it didn't. The Phyrexians had been defined by how violating they were.” The answer: “I might be able to make cards with positive effects, as long as I paired them with a negative effect. That way each card felt like it had the potential to abuse the opponent even if, at times, you didn't.”"
+        },
+        {
+          "title": "Cut work circulates as inspiration even when it never prints",
+          "rules": "Something removed from a project doesn't stop existing for the people who saw it. It gets carried around, shown to others, and reused as a starting point years later in places that have nothing to do with where it came from. That's a reason to keep unshipped work visible instead of quietly deleting it.",
+          "flavor": "Aaron's \"Mode Men,\" cut from Fifth Dawn, have still never been printed — and they inspired both the Commands and the New Phyrexia Exarchs. “My solution came from Fifth Dawn. Not from any of the cards that actually got printed, but from a vertical cycle that Aaron Forsythe had turned in, which later got removed from the set.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "La orden de Maro",
+      "dek": "Despertó a su mujer gritando «¡Y! ¡Y! ¡Y!». Ella respondió: «¿Y qué?».",
+      "overview": "Cuatro historias de origen del conjuro modal: los talismanes, el entrelazar, las Órdenes y los Exarcas, y el coste invisible que los produjo a todos.",
+      "takeaway": "«Resulta que un efecto pequeño podía no valer un maná, pero la opción entre tres efectos pequeños sí.»",
+      "lessons": [
+        {
+          "title": "Nombra el segundo coste, el invisible: la plaza",
+          "rules": "Todo elemento tiene un precio visible y un precio de ocupación: el sitio que quita dentro de la asignación limitada de alguien. El segundo no aparece en ninguna parte y a menudo es el que ata; por eso hay cosas que no se justifican ni siendo gratis. Dilo en voz alta y toda una clase de problemas se vuelve legible.",
+          "flavor": "«Una opción eran cartas que no costaran maná… El problema de esa solución era que las cartas en realidad tenían dos costes: uno era el maná y el otro era el coste de la carta misma. Algunos efectos eran tan pequeños que, incluso gratis, no podían justificar el gasto de una carta.»"
+        },
+        {
+          "title": "Una salvaguarda contra un abuso concreto puede imponer un impuesto amplio y permanente",
+          "rules": "Las precauciones se escriben contra el peor caso que alguien imaginó entonces, y luego se aplican a cada uso corriente para siempre. Cuando sepas lo raro que es realmente el abuso, ponlo en la balanza frente al coste que pagan todos los demás. A menudo la guardia cuesta más en conjunto que aquello de lo que guardaba.",
+          "flavor": "«Como al equipo le hacía gracia la carta Urza's Bauble… hicieron que todo el robo fuera diferido, dando la carta al comienzo del siguiente mantenimiento. (Urza's Bauble con un robo normal te habría permitido jugar un mazo con cuatro cartas menos.)» Después: «I+D ajustaría los cantrips para que el robo fuera inmediato y evitar problemas de memoria: jugadores que olvidaban robar.»"
+        },
+        {
+          "title": "La cifra la fijan dos límites opuestos, y subir el techo te cuesta en otra parte",
+          "rules": "Cuántos de algo incluyes rara vez es cuestión de gusto. Hay un suelo marcado por el momento en que la cosa merece la pena, y un techo marcado por el espacio disponible, y la respuesta es el número que quepa entre ambos. Si quieres más, tienes que comprarle el sitio a algo, y conviene decir a qué.",
+          "flavor": "«¿Por qué tres efectos? Dos no bastaban para justificar el coste y cuatro no cabían en la carta. (Las Órdenes resolverían más tarde este problema, pero exigió comprometerse con habilidades algo más cortas.)»"
+        },
+        {
+          "title": "Define el agujero por sustracción de lo que ya hay",
+          "rules": "Un encargo que solo dice «necesitamos algo» no produce nada. Inventaría lo que el proyecto ya contiene y, para cada elemento, anota el territorio que ha reclamado. Lo que quede es la especificación: normalmente una lista corta de propiedades, obtenida sin que nadie tenga que adivinar qué estaría bien.",
+          "flavor": "«La clave para resolver el problema fue averiguar qué teníamos, para poder acotar lo que nos faltaba. No queríamos reducción de coste, teníamos afinidad con artefactos. No queríamos algo confuso ni palabrero, imprimar ocupaba ese espacio. Tampoco queríamos nada que copiara cosas… Me di cuenta de que necesitábamos una mecánica que permitiera usar el maná en la fase tardía.»"
+        },
+        {
+          "title": "La saturación sostenida recluta las horas en que no trabajas: ten la captura a mano",
+          "rules": "Un problema que te ha ocupado por completo durante semanas se sigue trabajando cuando paras. Es un recurso real y entrega en momentos inoportunos, en una forma que se evapora en un minuto. La única preparación que importa es tener con qué escribir al alcance de dondequiera que te encuentre.",
+          "flavor": "«Pasaba todo mi tiempo en el trabajo arreglando el archivo y todo mi tiempo fuera intentando resolver el problema. Parecía que era en lo único que pensaba… Me encontré despierto con un solo pensamiento en la cabeza: ¿dónde hay un lápiz?… Por suerte tenía un lápiz junto a la cama y logré anotar la idea antes de que se desvaneciera.»"
+        },
+        {
+          "title": "Cambia la conjunción, no el contenido",
+          "rules": "Cuando una forma está bien establecida, el territorio fresco puede no estar en cuáles son las opciones, sino en la palabra que las une. Toma una estructura que todos conocen e intercambia la relación —exclusiva por inclusiva, sucesiva por simultánea, «o» por «y»— y tendrás algo genuinamente nuevo hecho de piezas conocidas.",
+          "flavor": "«La clave para hacer una carta de elección que hiciera algo único era tomar una carta modal y permitir al jugador la opción no solo de “o” sino de “y”. Desperté a mi mujer gritando “¡Y! ¡Y! ¡Y!”. Ella respondió: “¿Y qué?”.» Maquetó cartas «en las que los dos efectos tenían sinergia, para que quisieras entrelazarlos.»"
+        },
+        {
+          "title": "Cuando quien introdujo algo sin revisión controla luego su revisión, dilo",
+          "rules": "Una adición tardía que se saltó el escrutinio es un riesgo normal. Se convierte en otro problema cuando esa misma persona pasa al puesto que lo habría detectado. No hace falta que salga nada mal para que valga la pena decirlo: revelar el arreglo es lo que permite que todos lean el resultado con honestidad.",
+          "flavor": "«Este ciclo no pasó realmente por ningún playtest de diseño. Aaron decidió que al set le faltaba algo y, justo antes del traspaso a desarrollo, lo metió. Él lo llama “diseño vigilante”.» Y luego: «Aaron ascendió a jefe de desarrollo… Eso hizo que Aaron pudiera asegurarse de que su ciclo favorito quedara agresivamente costeado.»"
+        },
+        {
+          "title": "Para que una variante se lea como otra clase, mueve dos parámetros, no uno",
+          "rules": "Un solo cambio se lee como lo mismo, pero más grande. Dos cambios se leen como una categoría nueva. Si necesitas que algo parezca un salto de tipo y no de grado, busca un segundo eje que alterar junto al obvio; y el segundo puede ser modesto, porque su trabajo es romper la comparación.",
+          "flavor": "Aaron partió de una carta llamada Rakdos Choose-Two Charm: «Aaron buscaba la forma de que las cartas se sintieran raras, y escoger dos modos en vez de uno resultaba más grandioso. Pero no bastaba del todo. Aaron quería una desviación más respecto de un talismán. ¿Y si en vez de tres opciones hubiera cuatro? Eso ayudó a que se sintiera algo distinto y a justificar que fuera un ciclo raro.»"
+        },
+        {
+          "title": "Una identidad definida por su efecto sobre los demás no puede producir los efectos que aún necesitas",
+          "rules": "Caracteriza algo por completo mediante lo que le hace a la gente y habrás excluido en silencio toda capacidad dirigida a uno mismo, que tu obra sigue teniendo que contener. Esto se descubre intentando los requisitos ordinarios, no inspeccionando la definición. Luego el arreglo es una construcción que mantiene disponible la lectura hostil.",
+          "flavor": "«Cada vez que creaba una carta que hacía algo malo al oponente, se sentía muy fireshiana; pero cada vez que creaba una que te ayudaba, no. A los fireshianos los había definido su carácter violador.» La respuesta: «Podría hacer cartas con efectos positivos, siempre que los emparejara con un efecto negativo. Así cada carta sentía que tenía el potencial de abusar del oponente aunque a veces no lo hicieras.»"
+        },
+        {
+          "title": "El trabajo cortado circula como inspiración aunque nunca se imprima",
+          "rules": "Algo eliminado de un proyecto no deja de existir para quienes lo vieron. Se lleva encima, se enseña a otros y se reutiliza como punto de partida años después en sitios que no tienen nada que ver con su origen. Eso es una razón para mantener visible el trabajo no publicado en vez de borrarlo en silencio.",
+          "flavor": "Los «Mode Men» de Aaron, cortados de Fifth Dawn, siguen sin imprimirse nunca; e inspiraron tanto las Órdenes como los Exarcas de New Phyrexia. «Mi solución vino de Fifth Dawn. No de ninguna de las cartas que llegaron a imprimirse, sino de un ciclo vertical que Aaron Forsythe había entregado y que luego se quitó del set.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Le commandement de Maro",
+      "dek": "Il a réveillé sa femme en criant « Et ! Et ! Et ! ». Elle a répondu « Et quoi ? ».",
+      "overview": "Quatre récits d'origine du sort modal : les charmes, l'enchevêtrement, les Commandements et les Exarques — et le coût invisible qui les a tous produits.",
+      "takeaway": "« Il s'avère qu'un petit effet ne valait peut-être pas un mana, mais que le choix entre trois petits effets, si. »",
+      "lessons": [
+        {
+          "title": "Nommez le second coût, l'invisible : la place",
+          "rules": "Tout élément a un prix visible et un prix d'occupation : la place qu'il prend dans une allocation limitée. Le second ne figure nulle part et c'est souvent lui qui contraint — d'où des choses qui ne se justifient pas même gratuites. Énoncez-le et toute une classe de problèmes devient lisible.",
+          "flavor": "« Une option était des cartes ne coûtant aucun mana… Le problème, c'est que les cartes avaient en réalité deux coûts : le mana et le coût de la carte elle-même. Certains effets étaient si petits que, même gratuits, ils ne pouvaient justifier la dépense d'une carte. »"
+        },
+        {
+          "title": "Un garde-fou contre un abus étroit peut imposer une taxe large et durable",
+          "rules": "Les précautions sont écrites contre le pire cas imaginé à l'époque, puis s'appliquent à chaque usage ordinaire pour toujours. Une fois connue la rareté réelle de l'abus, pesez-la contre le coût payé par tous les autres. Souvent la garde coûte plus, au total, que ce contre quoi elle protégeait.",
+          "flavor": "« Comme l'équipe était amusée par la carte Urza's Bauble… elle a rendu toute la pioche différée, au début de l'entretien suivant. (Urza's Bauble avec une pioche normale aurait permis de jouer un deck de quatre cartes en moins.) » Plus tard : « la R&D a modifié les cantrips pour que la pioche soit immédiate, afin d'éviter les oublis. »"
+        },
+        {
+          "title": "Le nombre est fixé par deux limites opposées, et relever le plafond coûte ailleurs",
+          "rules": "Combien d'une chose vous incluez relève rarement du goût. Il y a un plancher, fixé par le moment où la chose vaut la peine, et un plafond, fixé par la place disponible ; la réponse est le nombre qui tient entre les deux. Si vous en voulez plus, il faut acheter la place à quelque chose, et il vaut mieux dire à quoi.",
+          "flavor": "« Pourquoi trois effets ? Deux ne suffisaient pas à justifier le coût, et quatre ne tenaient pas sur la carte. (Les Commandements résoudront plus tard ce problème, mais au prix de capacités un peu plus courtes.) »"
+        },
+        {
+          "title": "Définissez le trou par soustraction de ce qui est déjà là",
+          "rules": "Une consigne qui dit seulement « il nous faut quelque chose » ne produit rien. Inventoriez ce que le projet contient déjà et, pour chaque élément, notez le territoire qu'il a revendiqué. Ce qui reste est la spécification : d'ordinaire une courte liste de propriétés, obtenue sans que personne ait à deviner.",
+          "flavor": "« La clé était de savoir ce que nous avions, pour cerner ce qui manquait. Pas de réduction de coût : nous avions l'affinité avec les artefacts. Rien de confus ni de bavard : l'empreinte occupait cet espace. Rien qui copie non plus… J'ai compris qu'il nous fallait une mécanique permettant d'employer son mana en fin de partie. »"
+        },
+        {
+          "title": "La saturation prolongée recrute les heures où vous ne travaillez pas : gardez la capture à portée",
+          "rules": "Un problème qui vous a entièrement occupé pendant des semaines continue d'être travaillé quand vous arrêtez. C'est une vraie ressource, qui livre à des moments incommodes et sous une forme qui s'évapore en une minute. La seule préparation qui compte est d'avoir de quoi écrire à portée de là où cela vous trouve.",
+          "flavor": "« Je passais tout mon temps au travail à retoucher le fichier et tout mon temps hors du travail à chercher la solution. J'avais l'impression de ne penser qu'à ça… Je me suis retrouvé éveillé avec une seule pensée : où est un crayon ?… Par chance, j'avais un crayon près du lit et j'ai pu noter l'idée avant qu'elle ne s'efface. »"
+        },
+        {
+          "title": "Changez la conjonction, pas le contenu",
+          "rules": "Quand une forme est bien établie, le terrain neuf n'est peut-être pas dans les options mais dans le mot qui les relie. Prenez une structure que tout le monde connaît et échangez la relation — exclusive contre inclusive, successive contre simultanée, « ou » contre « et » — et vous obtenez du neuf fait de pièces connues.",
+          "flavor": "« La clé pour faire une carte à choix qui fasse quelque chose d'unique était de prendre une carte modale et de permettre non seulement le “ou” mais le “et”. J'ai réveillé ma femme en criant “Et ! Et ! Et !”. Elle a répondu “Et quoi ?”. » Il a maquetté des cartes « où les deux effets avaient une synergie, pour donner envie de les enchevêtrer ». "
+        },
+        {
+          "title": "Quand celui qui a inséré une chose non revue en contrôle ensuite la revue, dites-le",
+          "rules": "Un ajout tardif qui a esquivé l'examen est un risque normal. Cela devient un autre problème quand la même personne passe au poste qui l'aurait rattrapé. Rien n'a besoin de mal tourner pour que cela mérite d'être dit : divulguer l'arrangement est ce qui permet à chacun de lire honnêtement le résultat.",
+          "flavor": "« Ce cycle n'a pas vraiment été testé en conception. Aaron a décidé qu'il manquait quelque chose et, juste avant la remise au développement, il l'a ajouté. Il appelle cela de la “conception justicière”. » Puis : « Aaron a été promu chef du développement… Ce qui lui a permis de veiller à ce que son cycle préféré soit coûté agressivement. »"
+        },
+        {
+          "title": "Pour qu'une variante se lise comme une autre classe, déplacez deux paramètres, pas un",
+          "rules": "Un seul changement se lit comme la même chose en plus gros. Deux changements se lisent comme une catégorie neuve. S'il vous faut un saut de nature et non de degré, trouvez un second axe à modifier à côté de l'évident ; le second peut être modeste, car son rôle est de casser la comparaison.",
+          "flavor": "Aaron est parti d'une carte nommée Rakdos Choose-Two Charm : « Aaron cherchait à rendre ces cartes dignes d'être rares, et choisir deux modes plutôt qu'un semblait plus grandiose. Mais ce n'était pas tout à fait assez. Il voulait un écart de plus par rapport à un charme. Et si, au lieu de trois choix, il y en avait quatre ? Cela a aidé à justifier un cycle rare. »"
+        },
+        {
+          "title": "Une identité définie par son effet sur autrui ne peut pas produire les effets dont vous avez encore besoin",
+          "rules": "Caractérisez une chose entièrement par ce qu'elle fait aux autres et vous avez exclu en silence toute capacité tournée vers soi — que votre travail doit pourtant contenir. On le découvre en tentant les exigences ordinaires, non en inspectant la définition. Le remède est alors une construction qui garde la lecture hostile disponible.",
+          "flavor": "« Chaque fois que je créais une carte faisant du mal à l'adversaire, cela semblait très phyrexian ; chaque fois que j'en créais une qui vous aidait, non. Les Phyrexians avaient été définis par leur caractère violateur. » La réponse : « Je pouvais faire des cartes à effets positifs, à condition de les apparier à un effet négatif. »"
+        },
+        {
+          "title": "Le travail coupé circule comme inspiration même s'il n'est jamais imprimé",
+          "rules": "Une chose retirée d'un projet ne cesse pas d'exister pour ceux qui l'ont vue. Elle est trimballée, montrée à d'autres, réemployée comme point de départ des années plus tard dans des lieux sans rapport avec son origine. C'est une raison de garder le travail non publié visible plutôt que de l'effacer discrètement.",
+          "flavor": "Les « Mode Men » d'Aaron, coupés de Fifth Dawn, n'ont toujours jamais été imprimés — et ils ont inspiré à la fois les Commandements et les Exarques de New Phyrexia. « Ma solution venait de Fifth Dawn. Pas d'une carte réellement imprimée, mais d'un cycle vertical qu'Aaron Forsythe avait rendu et qui fut ensuite retiré. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "O comando do Maro",
+      "dek": "Ele acordou a esposa gritando “E! E! E!”. Ela respondeu: “E o quê?”.",
+      "overview": "Quatro histórias de origem da mágica modal: os amuletos, o entrelaçar, os Comandos e os Exarcas — e o custo invisível que produziu todos eles.",
+      "takeaway": "“Acontece que um efeito pequeno podia não valer um mana, mas a opção entre três efeitos pequenos valia.”",
+      "lessons": [
+        {
+          "title": "Nomeie o segundo custo, o invisível: a vaga",
+          "rules": "Todo item tem um preço visível e um preço de ocupação: o lugar que ele toma dentro da alocação limitada de alguém. O segundo não aparece em lugar nenhum e muitas vezes é o que aperta; por isso algumas coisas não se justificam nem de graça. Diga isso em voz alta e uma classe inteira de problemas fica legível.",
+          "flavor": "“Uma opção eram cartas que não custassem mana… O problema dessa solução é que cartas na verdade tinham dois custos: um era o mana e o outro era o custo da própria carta. Alguns efeitos eram tão pequenos que, mesmo de graça, não justificavam o gasto de uma carta.”"
+        },
+        {
+          "title": "Uma salvaguarda contra um abuso estreito pode impor um imposto amplo e permanente",
+          "rules": "Precauções são escritas contra o pior caso que alguém imaginou na época, e depois se aplicam a todo uso comum para sempre. Quando você souber quão raro o abuso de fato é, ponha isso na balança contra o custo pago por todo o resto. Muitas vezes a guarda custa mais no agregado do que aquilo de que guardava.",
+          "flavor": "“Como a equipe achou graça na carta Urza's Bauble… fizeram toda a compra ser adiada, entregando a carta no início da próxima manutenção. (Urza's Bauble com compra normal teria permitido jogar um deck com quatro cartas a menos.)” Depois: “a P&D ajustaria os cantrips para que a compra fosse imediata, evitando problemas de memória.”"
+        },
+        {
+          "title": "A contagem é fixada por dois limites opostos, e subir o teto custa em outro lugar",
+          "rules": "Quantos de algo você inclui raramente é questão de gosto. Há um piso, dado por quando a coisa passa a valer a pena, e um teto, dado pelo espaço disponível; a resposta é o número que couber entre os dois. Se quiser mais, tem de comprar o espaço de algo, e vale dizer de quê.",
+          "flavor": "“Por que três efeitos? Dois não bastavam para justificar o custo e quatro não cabiam na carta. (Os Comandos resolveriam esse problema depois, mas exigiu se comprometer com habilidades um pouco mais curtas.)”"
+        },
+        {
+          "title": "Defina o buraco por subtração do que já está lá",
+          "rules": "Um briefing que diz apenas “precisamos de algo” não produz nada. Inventarie o que o projeto já contém e, para cada item, anote o território que ele reivindicou. O que sobrar é a especificação: em geral uma lista curta de propriedades, obtida sem que ninguém precise adivinhar o que seria bom.",
+          "flavor": "“A chave para resolver o problema foi descobrir o que tínhamos, para poder delimitar o que faltava. Não queríamos redução de custo, tínhamos afinidade com artefatos. Não queríamos algo confuso ou prolixo, imprimir ocupava esse espaço. Também não queríamos nada que copiasse coisas… Percebi que precisávamos de uma mecânica que permitisse usar o mana no fim da partida.”"
+        },
+        {
+          "title": "Saturação prolongada recruta as horas em que você não trabalha: mantenha a captura à mão",
+          "rules": "Um problema que tomou você por completo durante semanas continua sendo trabalhado quando você para. É um recurso real, que entrega em momentos inconvenientes e numa forma que evapora em um minuto. A única preparação que importa é ter com que escrever ao alcance de onde quer que ele encontre você.",
+          "flavor": "“Eu passava todo o tempo no trabalho arrumando o arquivo e todo o tempo fora tentando resolver o problema. Parecia que era só nisso que eu pensava… Me vi acordado com um único pensamento na cabeça: cadê um lápis?… Por sorte eu tinha um lápis ao lado da cama e consegui anotar a ideia antes que ela sumisse.”"
+        },
+        {
+          "title": "Mude a conjunção, não o conteúdo",
+          "rules": "Quando uma forma está bem estabelecida, o território novo pode não estar em quais são as opções, e sim na palavra que as une. Pegue uma estrutura que todos conhecem e troque a relação — exclusiva por inclusiva, sucessiva por simultânea, “ou” por “e” — e você terá algo genuinamente novo feito de peças conhecidas.",
+          "flavor": "“A chave para fazer uma carta de escolha que fizesse algo único era pegar uma carta modal e permitir ao jogador a opção não só de ‘ou' mas de ‘e'. Acordei minha esposa gritando ‘E! E! E!'. Ela respondeu: ‘E o quê?'.” Ele esboçou cartas “em que os dois efeitos tinham sinergia, para você querer entrelaçá-los.”"
+        },
+        {
+          "title": "Quando quem inseriu algo sem revisão passa a controlar a revisão, diga isso",
+          "rules": "Um acréscimo tardio que escapou do escrutínio é um risco normal. Vira outro problema quando essa mesma pessoa assume a cadeira que o teria pegado. Nada precisa dar errado para que valha a pena declarar: revelar o arranjo é o que permite que todos leiam o resultado com honestidade.",
+          "flavor": "“Esse ciclo não passou de fato por nenhum playtest de design. Aaron decidiu que faltava algo à coleção e, pouco antes da entrega ao desenvolvimento, o acrescentou. Ele chama isso de ‘design justiceiro'.” Depois: “Aaron foi promovido a chefe de desenvolvimento… Isso permitiu que ele garantisse que seu ciclo favorito fosse precificado agressivamente.”"
+        },
+        {
+          "title": "Para uma variante ser lida como outra classe, mova dois parâmetros, não um",
+          "rules": "Uma única mudança é lida como a mesma coisa, maior. Duas mudanças são lidas como categoria nova. Se você precisa que algo pareça um salto de tipo e não de grau, ache um segundo eixo a alterar junto ao óbvio; e o segundo pode ser modesto, porque a função dele é quebrar a comparação.",
+          "flavor": "Aaron partiu de uma carta chamada Rakdos Choose-Two Charm: “Aaron buscava um jeito de fazer as cartas parecerem raras, e escolher dois modos em vez de um soava mais grandioso. Mas não bastava. Ele queria mais um desvio em relação a um amuleto. E se, em vez de três escolhas, fossem quatro? Isso ajudou a justificar um ciclo raro.”"
+        },
+        {
+          "title": "Uma identidade definida pelo efeito sobre os outros não consegue produzir os efeitos de que você ainda precisa",
+          "rules": "Caracterize algo inteiramente pelo que ele faz às pessoas e você excluiu em silêncio toda capacidade voltada para si — que seu trabalho ainda precisa conter. Isso se descobre tentando os requisitos comuns, não inspecionando a definição. O conserto é então uma construção que mantém disponível a leitura hostil.",
+          "flavor": "“Toda vez que eu criava uma carta que fazia algo ruim ao oponente, ela parecia bem phyrexiana; mas toda vez que criava uma que ajudava você, não. Os phyrexianos tinham sido definidos por quão violadores eram.” A resposta: “Eu poderia fazer cartas com efeitos positivos, desde que as pareasse com um efeito negativo.”"
+        },
+        {
+          "title": "Trabalho cortado circula como inspiração mesmo quando nunca é impresso",
+          "rules": "Algo removido de um projeto não deixa de existir para quem o viu. Ele é carregado por aí, mostrado a outros e reaproveitado como ponto de partida anos depois, em lugares que nada têm a ver com sua origem. Isso é motivo para manter visível o trabalho não publicado em vez de apagá-lo em silêncio.",
+          "flavor": "Os “Mode Men” de Aaron, cortados de Fifth Dawn, seguem nunca tendo sido impressos — e inspiraram tanto os Comandos quanto os Exarcas de New Phyrexia. “Minha solução veio de Fifth Dawn. Não de nenhuma das cartas que de fato foram impressas, e sim de um ciclo vertical que Aaron Forsythe havia entregado e que depois foi retirado.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "马罗的号令",
+      "dek": "他把太太叫醒，喊着「和！和！和！」。她回答：「和什么？」",
+      "overview": "模式咒语的四个起源故事：护符、缠曲、号令与主教——以及那个把它们全都催生出来的隐形成本。",
+      "takeaway": "「事实证明：单独一个小效果也许不值一点法术力；但在三个小效果之间做选择，值。」",
+      "lessons": [
+        {
+          "title": "把第二项、也就是那项看不见的成本点出来：位置",
+          "rules": "每一件东西都有一个看得见的价格，以及一个占位的价格：它在某人有限的配额里所占掉的那个位置。第二项不出现在任何地方，而且往往才是真正卡住你的那一项——这正是有些东西即便免费也还是说不通的原因。把它说出来，一整类问题就都变得可读了。",
+          "flavor": "「一个选项是做完全不花法术力的牌……这个方案的问题在于：牌其实有两项成本，一项是法术力，另一项是这张牌本身的成本。有些效果小到即便免费，也没法为『花掉一张牌』这件事提供正当理由。」"
+        },
+        {
+          "title": "一道针对某个狭窄滥用的防护，可能会加征一笔宽泛而长期的税",
+          "rules": "防范措施是照着当时某个人所设想的最坏情形写下来的；而它此后会永远地作用在每一次普通使用上。当你知道那种滥用实际上有多罕见之后，把它和其他所有人所付出的代价放在一起称一称。往往，这道守卫在总量上比它所防的东西还要贵。",
+          "flavor": "「因为团队很喜欢《乌尔札的小玩意》这张牌……他们把所有的抓牌都做成延后的，让牌手在下一个维持开始时才抓。（《乌尔札的小玩意》如果配上正常抓牌，等于让你打一副少了四张牌的套牌。）」后来：「研发部会把连环牌调整成立即抓牌，以避免记忆问题——牌手忘记去抓那张牌。」"
+        },
+        {
+          "title": "这个数目是由两条相反的界限钉死的；而抬高上限，代价要从别处出",
+          "rules": "你要放进去多少个，很少是口味问题。有一条下限，由「这东西从什么时候起才值得拥有」划定；还有一条上限，由可用的空间划定；而答案就是能夹在这两者之间的那个数。如果你想要更多，就必须从某样东西那里把空间买过来——而值得把「从哪里买的」说明白。",
+          "flavor": "「为什么是三个效果？两个不足以支撑这个费用，而四个在牌面上放不下。（号令后来解决了这个问题，但那要求接受略短一些的异能。）」"
+        },
+        {
+          "title": "用「从已有之物里做减法」的方式来定义那个缺口",
+          "rules": "一份只说「我们需要点什么」的任务书，什么也产不出来。把这个项目已经拥有的东西盘点一遍，并为每一项写下它已经占住的地盘。剩下的那部分就是规格——通常是一小串性质，而且是在没有任何人需要去猜「什么会比较好」的情况下得出来的。",
+          "flavor": "「解决这个问题的关键，是先弄清楚我们手上有什么，这样才能圈出我们缺的是什么。我们不要费用减免，我们已经有神器亲和了。我们不要令人困惑或啰嗦的东西，铭印已经占着那块地方了。我们也不要任何复制东西的机制……我意识到，我们需要一个能让牌手在后期把法术力用掉的机制。」"
+        },
+        {
+          "title": "长时间的饱和会征用你不在工作的那些钟点：所以要让「记下来」这件事随手可得",
+          "rules": "一个已经把你整个占满了好几周的问题，在你停下来之后仍然在被处理。那是一项真实的资源；而它会在不方便的时刻交付，并且以一种大约一分钟就会蒸发掉的形态出现。唯一重要的准备，是在「它找上你的任何地方」的伸手可及处，放着可以写字的东西。",
+          "flavor": "「我在公司的全部时间都在修那个文件，下班之后的全部时间都在琢磨这个问题。感觉我脑子里就只有这一件事……我发现自己醒了过来，脑袋里只有一个念头：铅笔在哪儿？……幸好我床边放着一支铅笔（我们这些搞创作的喜欢为这种场合做好准备），赶在这个念头消散之前把它写了下来。」"
+        },
+        {
+          "title": "改那个连接词，而不是改内容",
+          "rules": "当一种形式已经确立下来时，新鲜的地盘也许不在「这些选项是什么」上，而在「把它们连起来的那个词」上。拿一个所有人都熟悉的结构，把其中的关系换掉——互斥换成兼容、先后换成同时、「或」换成「和」——你就得到了一样完全由熟悉零件搭成的、真正新的东西。",
+          "flavor": "「要做出一张能干出独特事情的选择牌，关键在于：拿一张模式牌，然后让牌手不只可以选『或』，还可以选『和』。我把太太叫醒，喊着『和！和！和！』。她回答：『和什么？』」他做了一些样牌，「其中那两个效果彼此有协同，所以你会想把它们缠曲起来」。"
+        },
+        {
+          "title": "当那个「把未经审查的东西塞进去的人」后来又掌管了对它的审查时，把这件事说出来",
+          "rules": "一次绕过了审查的临门添加，是一种正常的风险。而当同一个人挪到了那个「本该拦住它」的位子上时，它就变成了另一种问题。并不需要真的出什么岔子，这件事才值得声明；把这层关系披露出来，才使得最终的结果能够被所有人诚实地读懂。",
+          "flavor": "「这一组循环其实根本没有经过任何设计阶段的试玩。亚伦判断这个系列缺了点什么，于是在设计交接给开发的前夕把它加了进去。他把这称为『义警式设计』。」然后：「亚伦被提拔为开发主管……这意味着亚伦有能力确保他最喜欢的这组循环被给予了相当激进的费用。」"
+        },
+        {
+          "title": "要让一个变体读起来像是另一个类别，就要动两个参数，而不是一个",
+          "rules": "单独一处改动，读起来只是「同一样东西，更大了」。两处改动，读起来才是一个新的类别。如果你需要某样东西给人「种类上的跃迁」而不是「程度上的增加」的感觉，就在那个明显的轴之外再找出第二个轴来改动；而第二个可以很轻微，因为它的工作只是把那次比较打断。",
+          "flavor": "亚伦的起点是一张叫做「拉铎司二选护符」的牌：「亚伦一直在想办法让这些牌有稀有牌的分量，而『选二』而不是『选一』感觉更宏大。可这还不太够。亚伦想要相对于护符的再多一处偏离。如果不是三个选项、而是四个呢？这让它感觉有些不同了，而且更进一步，帮着支撑起了它作为一组稀有牌的正当性。」"
+        },
+        {
+          "title": "一个「由它对别人的作用来定义」的身份，产不出你仍然需要的那些效果",
+          "rules": "如果你完全用「它对别人做了什么」来刻画一样东西，你就已经悄悄地把一切「朝向自身」的能力排除掉了——而你的作品仍然必须包含那些。你会通过「尝试去做那些普通的必需品」而不是「检查这条定义」来发现这一点。于是补救办法，是一种能让那份敌意读法始终在场的构造。",
+          "flavor": "「每当我做出一张对对手不利的牌，它感觉就非常非瑞克西亚；可每当我做出一张帮到你自己的牌，它就不是了。非瑞克西亚人是被『他们有多么具有侵犯性』所定义的。」答案是：「只要我把正面效果和一个负面效果配成一对，我也许就能做出带有正面效果的牌。这样每一张牌都让人觉得它具有欺凌对手的潜力——即便有些时候你并没有那样做。」"
+        },
+        {
+          "title": "被砍掉的作品即便从未印出来，也会作为灵感继续流通",
+          "rules": "从一个项目里被拿掉的东西，对那些见过它的人来说并没有停止存在。它会被随身带着、被拿给别人看，并在许多年后、在与它的出处毫无关系的地方被当作起点再次使用。这就是「把没能出货的作品保持可见、而不是悄悄删掉」的一个理由。",
+          "flavor": "亚伦那组从《第五纪元黎明》被砍掉的「Mode Men」，至今仍然从未被印出来过——而它们同时启发了号令与《新非瑞克西亚》的主教们。「我的解法来自《第五纪元黎明》。不是来自任何一张真正印出来的牌，而是来自亚伦·福赛斯交上来、后来又被从这个系列里拿掉的一组纵向循环。」"
+        }
+      ]
+    }
+  }
+}
