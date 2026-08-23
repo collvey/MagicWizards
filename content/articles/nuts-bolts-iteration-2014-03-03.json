@@ -1,0 +1,320 @@
+{
+  "id": "nuts-bolts-iteration-2014-03-03",
+  "slug": "nuts-bolts-iteration-2014-03-03",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2014-03-03",
+  "series": { "id": "nuts-and-bolts", "order": 6, "total": 18 },
+  "tags": ["nuts-and-bolts", "iteration", "playtesting", "process"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/nuts-bolts-iteration-2014-03-03",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Nuts & Bolts #6: Iteration",
+      "dek": "The sixth annual how-to instalment: what to do once the skeleton is filled in and the first playtests are done.",
+      "overview": "Rosewater's Nuts & Bolts series walks amateur designers through building a set, and by the sixth instalment the file exists and has been played a few times. What comes next is the loop that occupies the rest of design: play, take notes, change the file, play again. The column's structure is a widening lens — you start by asking whether each card works, then whether pairs work, then whether themes work, then whether themes work with each other — and a closing list of the four things that go wrong while you are absorbed in the loop.",
+      "takeaway": "Iteration is not repetition; it is repetition with the feedback attached. Start with the smallest unit you can judge, widen only when that unit is settled, and watch for the four drifts — complexity, volume, clarity, novelty — that the loop itself produces.",
+      "lessons": [
+        {
+          "title": "Repetition only counts as practice when the feedback is attached",
+          "rules": "The popular version of the ten-thousand-hour rule drops the condition that makes it work. Time spent doing something is not what separates the expert; time spent doing something and then finding out whether it worked is. Doing the same thing again with no signal in between is not iteration, it is volume. Before you schedule another round of anything, check that the previous round produced a readable answer and that someone acted on it.",
+          "flavor": "Ten thousand hours of playing the wrong note is ten thousand hours of the wrong note."
+        },
+        {
+          "title": "Widen the unit of evaluation in stages, and refuse the bigger question until the smaller one is settled",
+          "rules": "Judge individual pieces first, then pairs, then groups, then how the groups interact. Each stage assumes the previous one is roughly right, which is what keeps the feedback attributable. The discipline is in the refusal: while you are asking whether this card works, do not let yourself ask whether the set works. You cannot answer the second question with a file whose parts are still failing, and trying to will contaminate both answers.",
+          "flavor": "The focus expands. It does not start expanded."
+        },
+        {
+          "title": "Fourteen failures and one success is a good round when you are testing whether a thing can work at all",
+          "rules": "Read the result against the question you actually asked. Early on, the question about a new mechanic is not what fraction of its cards are good — it is whether any of them are. One clear success is an existence proof and tells you where to look next; fourteen clear failures tell you fourteen directions not to take. Both are strong data. The same numbers read as a fourteen-to-one failure rate only if you were asking a question you have no business asking yet.",
+          "flavor": "There are many ways to do it wrong and few ways to do it right. Finding one right way is the whole job."
+        },
+        {
+          "title": "Keep the unresolved out of the verdict column, and make it the next round's assignment",
+          "rules": "Give every item four possible marks, not two: yes, no, unsure, and did not come up. The last two are not soft verdicts, they are unfinished work, and mixing them into yes or no is how you end up with confident conclusions about things nobody actually saw. Between rounds, read off the unsure and did-not-come-up items and build the next session specifically to convert them. Coverage is something you have to schedule; it will not happen by playing normally.",
+          "flavor": "\"Didn't play\" is not a rating. It is a to-do."
+        },
+        {
+          "title": "A piece that scored well alone and fights everything else has to go",
+          "rules": "After the solo pass, evaluate by interaction: for each pair, note whether they help each other, hurt each other, or neither. Most pairs are neither, and that is fine — the signal is the item that keeps landing on the wrong list. When something accumulates enough of those, cut it, and cut it even though it is good, because its quality is not the thing being measured any more. What is being measured is whether the whole is better with it in.",
+          "flavor": "No movie is worth a scene; no scene is worth a line."
+        },
+        {
+          "title": "The fast fix is additive and the good fix usually is not, so make new material pay for itself",
+          "rules": "Every problem has an answer that adds a component and an answer that changes or removes one. The additive answer is always faster to find, which is why length, word count, and board complexity climb steadily across a project without anyone deciding they should. Two habits hold it: prefer the subtractive fix when both are available, and hold the total fixed so that admitting something new requires naming what leaves. A file that needs a new thing is usually a file with an old thing in the way.",
+          "flavor": "Creation comes hand in hand with destruction. Something has to go out for something to come in."
+        },
+        {
+          "title": "You may keep the thing you believe in past its results, but fix the number of rounds in advance",
+          "rules": "Sometimes the data says cut and your judgement says the execution was wrong, not the idea. Overriding the data is allowed — instinct is why you are doing this rather than a spreadsheet — but it is only allowed once, with a count attached. Decide now how many more chances it gets, and honour the count when it comes due. Belief with no expiry is not conviction; it is the reason bad components survive to print.",
+          "flavor": "Give it another look. Then give it a deadline."
+        },
+        {
+          "title": "The test decides the direction; the common beginner's error is assuming you know more than the game does",
+          "rules": "You will start with a picture of where the project is going, and the play will start suggesting somewhere else. The instinct is to steer back, on the grounds that you can see the whole plan and the session cannot. Resist it. If your picture is right, the play will eventually say so; if the play keeps saying otherwise, the picture is wrong, and the number of times that resolves in the plan's favour is small. Let the thing tell you what it wants to be, and follow the part that is working.",
+          "flavor": "Feedback has to come from what happened, not from what you think about what happened."
+        },
+        {
+          "title": "Synergy you designed in at the start has to be re-verified after everything has moved",
+          "rules": "Connections between components are normally planned when the components are chosen, and then hundreds of small changes happen to both. The intent survives in your head and stops being true in the file. So schedule a pass whose only job is to check that the parts still touch — and where they no longer do, build the connecting material explicitly. Without it you get a collection of individually good things that never adds up, which is a harder failure to diagnose than any single bad component.",
+          "flavor": "Glue is not a by-product. It is a thing you have to go and make."
+        },
+        {
+          "title": "The front of a craft is teachable and the rest is yours to find",
+          "rules": "Notice what a how-to series can and cannot hand over. The early structure — how to lay a project out, what to fill in first, what order to do things in — is close to identical for everyone, which is why it can be written down. The iterative part diverges immediately, because it is a response to your particular material, and the honest instruction is a set of principles and a warning that your path will not look like anyone else's. When guidance stops being specific, that is usually the subject changing, not the guide giving up.",
+          "flavor": "Everyone's skeleton looks the same. Nobody's iteration does."
+        }
+      ]
+    },
+    "es": {
+      "title": "Tuercas y tornillos n.º 6: la iteración",
+      "dek": "Sexta entrega anual del manual: qué hacer cuando el esqueleto ya está relleno y has hecho las primeras pruebas de juego.",
+      "overview": "La serie Tuercas y tornillos acompaña a los diseñadores aficionados en la construcción de una colección, y a la sexta entrega el archivo ya existe y se ha jugado unas cuantas veces. Lo que viene después es el bucle que ocupa el resto del diseño: jugar, tomar notas, cambiar el archivo, volver a jugar. La estructura de la columna es una lente que se abre — primero preguntas si cada carta funciona, luego si funcionan las parejas, luego los temas, luego los temas entre sí — y termina con una lista de las cuatro cosas que se tuercen mientras estás absorto en el bucle.",
+      "takeaway": "Iterar no es repetir: es repetir con la respuesta pegada detrás. Empieza por la unidad más pequeña que puedas juzgar, amplía solo cuando esa unidad esté resuelta, y vigila las cuatro derivas — complejidad, volumen, claridad, novedad — que el propio bucle produce.",
+      "lessons": [
+        {
+          "title": "La repetición solo cuenta como práctica cuando lleva la respuesta pegada",
+          "rules": "La versión popular de la regla de las diez mil horas omite la condición que la hace funcionar. Lo que distingue al experto no es el tiempo dedicado a hacer algo, sino el tiempo dedicado a hacerlo y averiguar después si salió bien. Volver a hacer lo mismo sin ninguna señal por medio no es iteración, es volumen. Antes de programar otra ronda de lo que sea, comprueba que la ronda anterior produjo una respuesta legible y que alguien actuó en consecuencia.",
+          "flavor": "Diez mil horas tocando la nota equivocada son diez mil horas de la nota equivocada."
+        },
+        {
+          "title": "Amplía la unidad de evaluación por etapas y niégate a la pregunta grande mientras la pequeña siga abierta",
+          "rules": "Juzga primero las piezas sueltas, después las parejas, después los grupos, y por último cómo interactúan los grupos. Cada etapa da por buena la anterior, y eso es lo que mantiene la respuesta atribuible. La disciplina está en la negativa: mientras preguntas si esta carta funciona, no te permitas preguntar si la colección funciona. No puedes responder a lo segundo con un archivo cuyas piezas todavía fallan, e intentarlo contamina ambas respuestas.",
+          "flavor": "El foco se abre. No empieza abierto."
+        },
+        {
+          "title": "Catorce fracasos y un acierto es una buena ronda cuando lo que pruebas es si la cosa puede funcionar",
+          "rules": "Lee el resultado contra la pregunta que de verdad hiciste. Al principio, la pregunta sobre una mecánica nueva no es qué proporción de sus cartas es buena, sino si alguna lo es. Un acierto claro es una prueba de existencia y te dice dónde mirar; catorce fracasos claros te señalan catorce direcciones que no debes tomar. Ambas cosas son datos fuertes. Esos mismos números se leen como un fracaso de catorce a uno solo si estabas haciendo una pregunta que aún no te toca.",
+          "flavor": "Hay muchas maneras de hacerlo mal y pocas de hacerlo bien. Encontrar una buena es todo el trabajo."
+        },
+        {
+          "title": "Saca lo no resuelto de la columna del veredicto y conviértelo en la tarea de la siguiente ronda",
+          "rules": "Da a cada elemento cuatro marcas posibles, no dos: sí, no, no estoy seguro y no llegó a salir. Las dos últimas no son veredictos suaves, son trabajo pendiente, y mezclarlas con el sí o el no es como acabas sacando conclusiones firmes sobre cosas que nadie llegó a ver. Entre rondas, extrae los elementos inseguros y los que no salieron y construye la siguiente sesión expresamente para convertirlos. La cobertura hay que programarla; jugando normal no aparece.",
+          "flavor": "«No se jugó» no es una nota. Es un pendiente."
+        },
+        {
+          "title": "La pieza que puntuó bien sola y se pelea con todo lo demás tiene que irse",
+          "rules": "Tras la pasada individual, evalúa por interacción: para cada pareja, anota si se ayudan, se estorban o ninguna de las dos cosas. La mayoría no serán ninguna de las dos, y está bien: la señal es el elemento que reaparece una y otra vez en la lista mala. Cuando acumule suficientes, córtalo, y córtalo aunque sea bueno, porque su calidad ya no es lo que se está midiendo. Lo que se mide es si el conjunto mejora con él dentro.",
+          "flavor": "Ninguna película vale una escena; ninguna escena vale una línea."
+        },
+        {
+          "title": "El arreglo rápido añade y el bueno casi nunca, así que haz que el material nuevo se pague solo",
+          "rules": "Todo problema tiene una solución que añade un componente y otra que cambia o elimina uno. La aditiva siempre se encuentra antes, y por eso la longitud, el recuento de palabras y la complejidad del tablero suben sin parar a lo largo de un proyecto sin que nadie lo haya decidido. Dos hábitos lo frenan: prefiere el arreglo sustractivo cuando ambos estén disponibles, y mantén el total fijo, de modo que admitir algo nuevo obligue a nombrar lo que sale. Un archivo que necesita algo nuevo suele ser un archivo con algo viejo estorbando.",
+          "flavor": "Crear va de la mano de destruir. Para que entre algo, algo tiene que salir."
+        },
+        {
+          "title": "Puedes mantener aquello en lo que crees pese a los resultados, pero fija de antemano cuántas rondas más",
+          "rules": "A veces los datos dicen córtalo y tu criterio dice que lo que estaba mal era la ejecución, no la idea. Contradecir los datos está permitido — el instinto es la razón de que hagas esto y no una hoja de cálculo —, pero solo una vez y con un número al lado. Decide ahora cuántas oportunidades más tiene y respeta la cuenta cuando venza. La fe sin fecha de caducidad no es convicción: es la razón por la que los componentes malos llegan a imprenta.",
+          "flavor": "Dale otra oportunidad. Y ponle plazo."
+        },
+        {
+          "title": "La prueba decide la dirección; el error clásico del novato es suponer que sabe más que el juego",
+          "rules": "Empezarás con una imagen de hacia dónde va el proyecto, y el juego empezará a sugerir otro sitio. El impulso es corregir el rumbo, con el argumento de que tú ves el plan entero y la partida no. Resístete. Si tu imagen es correcta, el juego acabará confirmándolo; si el juego insiste en lo contrario, la imagen está mal, y las veces que eso se resuelve a favor del plan son pocas. Deja que la cosa te diga qué quiere ser y sigue la parte que está funcionando.",
+          "flavor": "La respuesta tiene que venir de lo que pasó, no de lo que tú piensas de lo que pasó."
+        },
+        {
+          "title": "La sinergia que diseñaste al principio hay que volver a comprobarla cuando todo se ha movido",
+          "rules": "Las conexiones entre componentes se planifican normalmente al elegirlos, y después les ocurren cientos de cambios pequeños a ambos. La intención sobrevive en tu cabeza y deja de ser cierta en el archivo. Así que programa una pasada cuyo único cometido sea comprobar que las piezas siguen tocándose, y donde ya no lo hagan, construye el material de enlace de forma explícita. Sin él tienes una colección de cosas individualmente buenas que nunca suma, y ese fallo es más difícil de diagnosticar que cualquier componente malo.",
+          "flavor": "El pegamento no es un subproducto. Es algo que hay que ir a fabricar."
+        },
+        {
+          "title": "La entrada de un oficio se puede enseñar; el resto tienes que encontrarlo tú",
+          "rules": "Fíjate en lo que una guía puede y no puede entregar. La estructura inicial — cómo organizar un proyecto, qué rellenar primero, en qué orden hacer las cosas — es casi idéntica para todo el mundo, y por eso se puede escribir. La parte iterativa diverge de inmediato, porque responde a tu material concreto, y la instrucción honesta es un puñado de principios y un aviso de que tu camino no se parecerá al de nadie. Cuando el consejo deja de ser específico, suele ser el tema el que cambia, no el guía el que se rinde.",
+          "flavor": "El esqueleto de todos se parece. La iteración de nadie."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Rouages et boulons nº 6 : l'itération",
+      "dek": "Sixième épisode annuel du mode d'emploi : que faire une fois le squelette rempli et les premiers tests de jeu passés.",
+      "overview": "La série Rouages et boulons accompagne les concepteurs amateurs dans la fabrication d'une extension, et au sixième épisode le fichier existe et a déjà été joué plusieurs fois. Vient ensuite la boucle qui occupe tout le reste de la conception : jouer, prendre des notes, modifier le fichier, rejouer. La structure de la chronique est un objectif qui s'élargit — on demande d'abord si chaque carte fonctionne, puis si les paires fonctionnent, puis les thèmes, puis les thèmes entre eux — et elle se termine par la liste des quatre choses qui dérivent pendant qu'on est absorbé par la boucle.",
+      "takeaway": "Itérer, ce n'est pas répéter : c'est répéter avec le retour attaché derrière. Commencez par la plus petite unité que vous puissiez juger, n'élargissez qu'une fois cette unité réglée, et surveillez les quatre dérives — complexité, volume, clarté, nouveauté — que la boucle elle-même produit.",
+      "lessons": [
+        {
+          "title": "La répétition ne compte comme entraînement que si le retour y est attaché",
+          "rules": "La version populaire de la règle des dix mille heures laisse tomber la condition qui la fait marcher. Ce qui distingue l'expert, ce n'est pas le temps passé à faire quelque chose, c'est le temps passé à le faire puis à savoir si ça a marché. Refaire la même chose sans aucun signal entre les deux n'est pas de l'itération, c'est du volume. Avant de programmer une nouvelle série de quoi que ce soit, vérifiez que la précédente a produit une réponse lisible et que quelqu'un en a tenu compte.",
+          "flavor": "Dix mille heures à jouer la mauvaise note, ce sont dix mille heures de mauvaise note."
+        },
+        {
+          "title": "Élargissez l'unité d'évaluation par étapes et refusez la grande question tant que la petite reste ouverte",
+          "rules": "Jugez d'abord les pièces isolées, puis les paires, puis les groupes, puis la façon dont les groupes interagissent. Chaque étape suppose la précédente à peu près juste, et c'est ce qui rend le retour attribuable. La discipline est dans le refus : tant que vous demandez si cette carte fonctionne, ne vous autorisez pas à demander si l'extension fonctionne. On ne répond pas à la seconde question avec un fichier dont les pièces échouent encore, et essayer contamine les deux réponses.",
+          "flavor": "La focale s'élargit. Elle ne commence pas élargie."
+        },
+        {
+          "title": "Quatorze échecs et une réussite font une bonne série quand vous testez si la chose peut fonctionner",
+          "rules": "Lisez le résultat à l'aune de la question réellement posée. Au début, la question sur une nouvelle mécanique n'est pas quelle proportion de ses cartes est bonne, mais si l'une d'elles l'est. Une réussite nette est une preuve d'existence et vous indique où chercher ; quatorze échecs nets vous indiquent quatorze directions à ne pas prendre. Les deux sont des données fortes. Ces mêmes chiffres ne se lisent comme un taux d'échec de quatorze contre un que si vous posiez une question qui n'est pas encore de votre ressort.",
+          "flavor": "Il y a beaucoup de façons de rater et peu de façons de réussir. En trouver une bonne, c'est tout le travail."
+        },
+        {
+          "title": "Sortez l'indécis de la colonne du verdict et faites-en le programme de la série suivante",
+          "rules": "Donnez à chaque élément quatre marques possibles, pas deux : oui, non, pas sûr, et pas vu. Les deux dernières ne sont pas des verdicts atténués, ce sont des tâches inachevées, et les mélanger au oui ou au non est la façon dont on finit par tirer des conclusions fermes sur des choses que personne n'a vues. Entre deux séries, relevez les pas sûr et les pas vu et construisez la session suivante expressément pour les convertir. La couverture, cela se programme ; en jouant normalement, elle n'arrive pas.",
+          "flavor": "« Pas joué » n'est pas une note. C'est une tâche."
+        },
+        {
+          "title": "La pièce qui brille toute seule et se bat avec tout le reste doit partir",
+          "rules": "Après la passe individuelle, évaluez par interaction : pour chaque paire, notez si elles s'entraident, se nuisent, ou ni l'un ni l'autre. La plupart seront ni l'un ni l'autre, et c'est très bien : le signal, c'est l'élément qui revient sans cesse sur la mauvaise liste. Quand il en accumule assez, coupez-le, et coupez-le même s'il est bon, parce que sa qualité n'est plus ce qu'on mesure. Ce qu'on mesure, c'est si l'ensemble va mieux avec lui dedans.",
+          "flavor": "Aucun film ne vaut une scène ; aucune scène ne vaut une réplique."
+        },
+        {
+          "title": "La réparation rapide ajoute et la bonne presque jamais : faites payer le matériau neuf",
+          "rules": "Tout problème a une solution qui ajoute un composant et une qui en change ou en retire un. L'additive se trouve toujours plus vite, et c'est pourquoi la longueur, le nombre de mots et la complexité du plateau montent régulièrement sans que personne l'ait décidé. Deux habitudes y résistent : préférez la réparation soustractive quand les deux existent, et maintenez le total fixe, de sorte qu'admettre du neuf oblige à nommer ce qui sort. Un fichier qui réclame quelque chose de neuf est le plus souvent un fichier encombré par quelque chose de vieux.",
+          "flavor": "Créer va de pair avec détruire. Pour que quelque chose entre, quelque chose doit sortir."
+        },
+        {
+          "title": "Vous pouvez garder ce en quoi vous croyez malgré les résultats, mais fixez d'avance combien de séries encore",
+          "rules": "Parfois les données disent coupez et votre jugement dit que c'était l'exécution qui clochait, pas l'idée. Passer outre est permis — l'instinct est la raison pour laquelle c'est vous qui faites ça et pas un tableur — mais une seule fois, et avec un nombre à côté. Décidez maintenant combien de chances supplémentaires elle obtient, et respectez le compte à l'échéance. Une foi sans date de péremption n'est pas de la conviction : c'est la raison pour laquelle de mauvais composants arrivent à l'impression.",
+          "flavor": "Redonnez-lui une chance. Puis donnez-lui une échéance."
+        },
+        {
+          "title": "Le test décide de la direction ; l'erreur classique du débutant est de croire qu'il en sait plus que le jeu",
+          "rules": "Vous partirez avec une image de la direction du projet, et le jeu commencera à en suggérer une autre. Le réflexe est de redresser la barre, au motif que vous voyez le plan entier et pas la partie. Résistez. Si votre image est juste, le jeu finira par le confirmer ; si le jeu répète le contraire, l'image est fausse, et les fois où cela tranche en faveur du plan sont rares. Laissez la chose vous dire ce qu'elle veut être et suivez la partie qui marche.",
+          "flavor": "Le retour doit venir de ce qui s'est passé, pas de ce que vous en pensez."
+        },
+        {
+          "title": "La synergie prévue au départ doit être revérifiée une fois que tout a bougé",
+          "rules": "Les liens entre composants se planifient normalement au moment où on les choisit, puis des centaines de petits changements arrivent aux deux. L'intention survit dans votre tête et cesse d'être vraie dans le fichier. Programmez donc une passe dont l'unique tâche est de vérifier que les pièces se touchent encore, et là où ce n'est plus le cas, fabriquez explicitement le matériau de liaison. Sans lui, vous obtenez une collection de bonnes choses qui ne fait jamais un tout, et cette panne est plus difficile à diagnostiquer que n'importe quel mauvais composant.",
+          "flavor": "La colle n'est pas un sous-produit. C'est une chose qu'il faut aller fabriquer."
+        },
+        {
+          "title": "Le début d'un métier s'enseigne ; le reste, c'est à vous de le trouver",
+          "rules": "Remarquez ce qu'un mode d'emploi peut et ne peut pas transmettre. La structure initiale — comment poser un projet, quoi remplir d'abord, dans quel ordre procéder — est presque identique pour tout le monde, et c'est pour cela qu'elle s'écrit. La partie itérative diverge aussitôt, parce qu'elle répond à votre matériau particulier, et l'instruction honnête se réduit à des principes et à un avertissement : votre chemin ne ressemblera à celui de personne. Quand le conseil cesse d'être précis, c'est en général le sujet qui change, pas le guide qui abandonne.",
+          "flavor": "Le squelette de chacun se ressemble. L'itération de personne."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Porcas e parafusos nº 6: iteração",
+      "dek": "Sexta edição anual do manual: o que fazer depois que o esqueleto está preenchido e os primeiros testes de jogo já aconteceram.",
+      "overview": "A série Porcas e parafusos acompanha designers amadores na construção de uma coleção e, na sexta edição, o arquivo já existe e já foi jogado algumas vezes. O que vem depois é o ciclo que ocupa todo o resto do design: jogar, anotar, mudar o arquivo, jogar de novo. A estrutura da coluna é uma lente que se abre — primeiro você pergunta se cada carta funciona, depois se os pares funcionam, depois os temas, depois os temas entre si — e termina com a lista das quatro coisas que se desviam enquanto você está absorto no ciclo.",
+      "takeaway": "Iterar não é repetir: é repetir com a resposta presa atrás. Comece pela menor unidade que consiga julgar, amplie só quando essa unidade estiver resolvida e vigie os quatro desvios — complexidade, volume, clareza, novidade — que o próprio ciclo produz.",
+      "lessons": [
+        {
+          "title": "Repetição só conta como prática quando vem com a resposta presa atrás",
+          "rules": "A versão popular da regra das dez mil horas descarta a condição que a faz funcionar. O que separa o especialista não é o tempo gasto fazendo algo, e sim o tempo gasto fazendo e descobrindo depois se deu certo. Refazer a mesma coisa sem nenhum sinal no meio não é iteração, é volume. Antes de agendar mais uma rodada de qualquer coisa, confira se a rodada anterior produziu uma resposta legível e se alguém agiu a partir dela.",
+          "flavor": "Dez mil horas tocando a nota errada são dez mil horas de nota errada."
+        },
+        {
+          "title": "Amplie a unidade de avaliação por etapas e recuse a pergunta maior enquanto a menor não estiver resolvida",
+          "rules": "Julgue primeiro as peças isoladas, depois os pares, depois os grupos, depois como os grupos interagem. Cada etapa assume que a anterior está aproximadamente certa, e é isso que mantém o retorno atribuível. A disciplina está na recusa: enquanto pergunta se esta carta funciona, não se permita perguntar se a coleção funciona. Você não responde à segunda pergunta com um arquivo cujas peças ainda falham, e tentar contamina as duas respostas.",
+          "flavor": "O foco se abre. Ele não começa aberto."
+        },
+        {
+          "title": "Catorze fracassos e um acerto é uma boa rodada quando o que se testa é se a coisa pode funcionar",
+          "rules": "Leia o resultado contra a pergunta que você de fato fez. No começo, a pergunta sobre uma mecânica nova não é qual fração das cartas é boa, e sim se alguma é. Um acerto claro é uma prova de existência e diz onde procurar; catorze fracassos claros apontam catorze direções a não seguir. Os dois são dados fortes. Esses mesmos números viram uma taxa de fracasso de catorze para um só se você estava fazendo uma pergunta que ainda não lhe cabe.",
+          "flavor": "Há muitas maneiras de errar e poucas de acertar. Achar uma certa é o trabalho inteiro."
+        },
+        {
+          "title": "Tire o indefinido da coluna do veredicto e transforme-o na pauta da rodada seguinte",
+          "rules": "Dê a cada item quatro marcas possíveis, não duas: sim, não, incerto e não apareceu. As duas últimas não são veredictos suaves, são trabalho inacabado, e misturá-las ao sim ou ao não é como se acaba tirando conclusões firmes sobre coisas que ninguém viu. Entre rodadas, extraia os incertos e os que não apareceram e monte a sessão seguinte especificamente para convertê-los. Cobertura é algo que se agenda; jogando normalmente ela não acontece.",
+          "flavor": "\"Não jogou\" não é uma nota. É uma pendência."
+        },
+        {
+          "title": "A peça que foi bem sozinha e briga com todo o resto precisa sair",
+          "rules": "Depois da passada individual, avalie por interação: para cada par, anote se um ajuda o outro, atrapalha, ou nenhum dos dois. A maioria será nenhum dos dois, e tudo bem — o sinal é o item que reaparece sempre na lista ruim. Quando ele acumular o bastante, corte, e corte mesmo sendo bom, porque a qualidade dele já não é o que está sendo medido. O que se mede é se o conjunto melhora com ele dentro.",
+          "flavor": "Nenhum filme vale uma cena; nenhuma cena vale uma fala."
+        },
+        {
+          "title": "O conserto rápido acrescenta e o bom quase nunca, então faça o material novo se pagar",
+          "rules": "Todo problema tem uma solução que acrescenta um componente e outra que muda ou remove um. A aditiva sempre aparece mais rápido, e é por isso que comprimento, contagem de palavras e complexidade de mesa sobem sem parar ao longo de um projeto sem que ninguém tenha decidido isso. Dois hábitos seguram: prefira o conserto subtrativo quando os dois existirem, e mantenha o total fixo, de modo que admitir algo novo obrigue a nomear o que sai. Um arquivo que precisa de algo novo costuma ser um arquivo com algo velho atravancando.",
+          "flavor": "Criar anda de mãos dadas com destruir. Para algo entrar, algo tem que sair."
+        },
+        {
+          "title": "Você pode manter aquilo em que acredita apesar dos resultados, mas fixe de antemão quantas rodadas mais",
+          "rules": "Às vezes os dados dizem corte e seu julgamento diz que o problema era a execução, não a ideia. Contrariar os dados é permitido — o instinto é o motivo de ser você fazendo isso e não uma planilha —, mas só uma vez e com um número ao lado. Decida agora quantas chances a mais ela tem e respeite a contagem no vencimento. Fé sem prazo de validade não é convicção: é o motivo de componentes ruins chegarem à impressão.",
+          "flavor": "Dê outra chance. Depois dê um prazo."
+        },
+        {
+          "title": "O teste decide a direção; o erro clássico do iniciante é supor que sabe mais do que o jogo",
+          "rules": "Você começará com uma imagem de para onde o projeto vai, e o jogo começará a sugerir outro lugar. O impulso é corrigir o rumo, com o argumento de que você enxerga o plano inteiro e a partida não. Resista. Se a sua imagem estiver certa, o jogo acabará confirmando; se o jogo insistir no contrário, a imagem está errada, e as vezes em que isso se resolve a favor do plano são poucas. Deixe a coisa dizer o que quer ser e siga a parte que está funcionando.",
+          "flavor": "O retorno tem que vir do que aconteceu, não do que você acha sobre o que aconteceu."
+        },
+        {
+          "title": "A sinergia que você desenhou no início precisa ser reconferida depois que tudo se moveu",
+          "rules": "As conexões entre componentes normalmente são planejadas quando os componentes são escolhidos, e depois centenas de pequenas mudanças acontecem aos dois. A intenção sobrevive na sua cabeça e deixa de ser verdade no arquivo. Então agende uma passada cuja única função seja checar se as peças ainda se tocam, e onde não se tocarem mais, construa o material de ligação explicitamente. Sem ele você tem uma coleção de coisas boas isoladamente que nunca soma, e essa falha é mais difícil de diagnosticar do que qualquer componente ruim.",
+          "flavor": "Cola não é subproduto. É algo que você tem que ir fabricar."
+        },
+        {
+          "title": "A entrada de um ofício dá para ensinar; o resto é você que tem que achar",
+          "rules": "Repare no que um manual consegue e não consegue entregar. A estrutura inicial — como armar um projeto, o que preencher primeiro, em que ordem fazer as coisas — é quase idêntica para todo mundo, e por isso pode ser escrita. A parte iterativa diverge de imediato, porque responde ao seu material específico, e a instrução honesta se reduz a princípios mais um aviso: seu caminho não vai se parecer com o de ninguém. Quando o conselho deixa de ser específico, em geral é o assunto que mudou, não o guia que desistiu.",
+          "flavor": "O esqueleto de todo mundo se parece. A iteração de ninguém."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "螺丝与螺帽 #6：迭代",
+      "dek": "年度教学系列第六篇：骨架填完、头几轮试玩也做过之后，接下来该做什么。",
+      "overview": "《螺丝与螺帽》系列带业余设计师一步步造出一个系列，写到第六篇时，牌表已经存在，也已经试玩过几轮。接下来就是占据整个设计期的那个循环：试玩、记笔记、改牌表、再试玩。这一期的结构是一个逐渐拉开的镜头——先问每张牌成不成立，再问两张牌配不配，再问主题成不成立，再问主题之间合不合——最后列出四件在你埋头循环时会悄悄跑偏的事。",
+      "takeaway": "迭代不是重复，而是带着回馈的重复。从你能判断的最小单位开始，等这个单位稳住了再往外扩，并盯住循环本身制造出的四种偏移：复杂度、体量、清晰度、新鲜感。",
+      "lessons": [
+        {
+          "title": "只有带着回馈，重复才算练习",
+          "rules": "一万小时定律的流行版本，把让它成立的那个条件丢掉了。把高手和普通人分开的不是花在做某件事上的时间，而是花在做完之后弄清楚它成不成的时间。中间没有任何信号的重复不是迭代，只是数量。在排下一轮之前，先确认上一轮产出了可读的答案，并且有人据此动过手。",
+          "flavor": "一万小时弹错一个音，就是一万小时的错音。"
+        },
+        {
+          "title": "分阶段扩大评估单位，小问题没结之前拒绝去问大问题",
+          "rules": "先判断单个部件，再判断两两配合，再判断成组，最后判断组与组之间。每个阶段都默认上一个阶段大致成立，这正是回馈能够归因的原因。纪律在于拒绝：当你在问这张牌成不成立时，不要允许自己去问整个系列成不成立。零件还在坏的牌表回答不了第二个问题，硬要回答会同时污染两个答案。",
+          "flavor": "焦距是逐渐拉开的，不是一开始就开着的。"
+        },
+        {
+          "title": "当你测的是这东西能不能成立时，十四败一胜是好一轮",
+          "rules": "拿你真正问出口的那个问题去读结果。早期对一个新机制的提问，不是它的牌里有多大比例是好的，而是有没有一张是好的。一次明确的成功就是存在性证明，告诉你该往哪儿找；十四次明确的失败则告诉你十四个不该走的方向。两者都是强数据。同样这组数字只有在你问了一个此刻还轮不到你问的问题时，才读成十四比一的失败率。",
+          "flavor": "做错的方式很多，做对的方式很少。找到一种对的，就是全部工作。"
+        },
+        {
+          "title": "把未定的从结论栏里挪出来，让它成为下一轮的任务",
+          "rules": "给每个条目四种标记，而不是两种：可以、不行、说不准、没轮到。后两种不是打了折的结论，而是没做完的活；把它们混进可以或不行，正是你最后对谁都没看见的东西下定论的原因。两轮之间，把说不准和没轮到的挑出来，专门为了转化它们去安排下一场。覆盖率必须靠排期，正常打是打不出来的。",
+          "flavor": "「没打到」不是评分，是待办。"
+        },
+        {
+          "title": "单独看得分很高、和其他一切都打架的部件必须走",
+          "rules": "单独评过一轮之后，改按互动来评：每一对都记下它们是互相加分、互相扣分，还是都不算。多数会是都不算，这没问题——信号在于那个反复出现在坏名单上的条目。当它攒够了，就砍掉，而且要在它本身很好的情况下砍，因为被衡量的已经不是它的质量了。被衡量的是整体加上它之后有没有变好。",
+          "flavor": "没有哪部电影值一场戏，没有哪场戏值一句台词。"
+        },
+        {
+          "title": "快的修法是往上加，好的修法通常不是，所以让新材料自己付账",
+          "rules": "每个问题都有一个加部件的解法和一个改或减部件的解法。加法那条永远先被找到，这就是为什么长度、字数和场面复杂度会在整个项目里稳步上升，而没有人做过这个决定。两个习惯能压住它：两条路都在时优先选减法，以及把总量钉死，让接纳新东西必须同时说出走的是哪个。一个需要新东西的牌表，通常是有个旧东西挡在路上的牌表。",
+          "flavor": "创造与破坏是一只手的两面。要进来一样，就得出去一样。"
+        },
+        {
+          "title": "你可以不顾结果留住你相信的东西，但要事先定下还剩几轮",
+          "rules": "有时数据说砍，你的判断说错的是执行而不是想法。推翻数据是允许的——直觉正是这件事由你而不是由表格来做的原因——但只允许一次，而且要附一个数。现在就定下它还有几次机会，到期就认账。没有有效期的信念不是坚持，而是坏部件一路活到印刷的原因。",
+          "flavor": "再看一眼可以。再给它定个期限。"
+        },
+        {
+          "title": "方向由测试决定；新手的典型错误是以为自己比这个游戏更懂",
+          "rules": "你会带着一幅项目该往哪走的图开始，而实际的对局会开始指向别处。本能是把方向掰回来，理由是你看得见整张图而这一局看不见。忍住。如果你的图是对的，对局最终会证明；如果对局一直说不是，那图就是错的，而这种事最后判给计划的次数很少。让这东西告诉你它想成为什么，然后顺着能跑通的那部分走。",
+          "flavor": "回馈要来自发生过的事，而不是你对发生过的事的想法。"
+        },
+        {
+          "title": "开头设计好的协同，在一切都挪动过之后必须重新验一遍",
+          "rules": "部件之间的连接通常在挑选部件时就规划好了，之后两边各自发生了几百处小改动。意图还活在你脑子里，却已经不再是牌表里的事实。所以专门排一遍只做一件事的检查：这些零件还挨着吗。凡是已经不挨着的地方，就明确地把连接材料造出来。少了它，你会得到一堆单看都不错、却怎么也凑不成整体的东西，而这种毛病比任何一个坏部件都难诊断。",
+          "flavor": "胶水不是副产品，是要专门去做的东西。"
+        },
+        {
+          "title": "一门手艺的前段能教，后面得你自己找",
+          "rules": "留意一套教程能交出什么、交不出什么。前期结构——怎么铺开一个项目、先填哪部分、按什么顺序做——对每个人都几乎一样，所以能写下来。迭代那部分立刻就分岔了，因为它是对你手上这批具体材料的回应；诚实的说法只能是几条原则，外加一句提醒：你的路不会长得像别人的。当指导不再具体时，通常是题目变了，而不是带路的人放弃了。",
+          "flavor": "每个人的骨架都差不多，没有谁的迭代是一样的。"
+        }
+      ]
+    }
+  }
+}
