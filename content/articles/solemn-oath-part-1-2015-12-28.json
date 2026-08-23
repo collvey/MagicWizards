@@ -1,0 +1,320 @@
+{
+  "id": "solemn-oath-part-1-2015-12-28",
+  "slug": "solemn-oath-part-1-2015-12-28",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-12-28",
+  "series": { "id": "solemn-oath", "order": 1, "total": 2 },
+  "tags": ["oath-of-the-gatewatch", "preview", "colorless", "notation", "eldrazi"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/solemn-oath-part-1-2015-12-28",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T00:10:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "R" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "A Solemn Oath, Part 1",
+      "dek": "For twenty-two years colorlessness had only ever been a downside. The question was whether it could be made to mean something.",
+      "overview": "Oath of the Gatewatch previews begin: capturing Kozilek, the notation that had been doing two jobs, and the question from another department that reopened the whole design.",
+      "takeaway": "\"So far in the history of Magic, colorlessness was nothing but a downside; it could only restrict your options. Ethan wanted to explore the idea of colorless mana meaning something.\"",
+      "lessons": [
+        {
+          "title": "Stop making it strange and start making people notice something",
+          "rules": "A brief like \"this thing breaks the normal rules\" invites you to invert your own conventions, and inversions are odd without being interesting. Turn the question around: instead of making the familiar work differently, find a dimension nobody currently pays attention to and make it matter.",
+          "flavor": "“We tried inverting how keyword mechanics worked. We explored altering certain game rules… The problem was that we kept creating things that were odd for the sake of being odd and not things that led to fun gameplay. Ethan finally decided to change our approach. Instead of making things work differently, was there some way to care about something that players normally don't care about?”"
+        },
+        {
+          "title": "Exposure to other people's unfinished work seeds ideas years later",
+          "rules": "Structure some part of your process so that people have to engage seriously with somebody else's abandoned project. What they take away isn't the project — it's a specific mechanism, filed away, retrieved years later when a problem finally fits it.",
+          "flavor": "“Ethan got the idea from a man named Jon Loucks, who was a fellow contestant in the second Great Designer Search. Jon had created an underground world named Penumbria… The ‘colorless mana matters' mechanic was attached to the dark side. In one of the assignments, contestants had to work on another player's world, and Ethan had a chance to work more closely with Jon.”"
+        },
+        {
+          "title": "A property that has only ever been a penalty can be made to mean something",
+          "rules": "Some attribute in your system exists solely as a way to make things worse — it's the knob you turn down when a thing is too good. Ask what happens if it becomes a requirement instead of a restriction. The whole history of it being a drawback is what makes the reversal land.",
+          "flavor": "“Colorless mana is often used as a way to balance cards, especially lands. If a land does something that would make it strictly better than a basic land, one of the downsides you can give it is to have it tap for colorless mana rather than colored. But so far in the history of Magic, colorlessness was nothing but a downside; it could only restrict your options. Ethan wanted to explore the idea of colorless mana meaning something.”"
+        },
+        {
+          "title": "One notation doing two jobs survives until the two meet",
+          "rules": "An ambiguity that's always resolved by position will pass unnoticed for years — everyone reads it correctly because the two meanings never appear side by side. The moment a design needs both in the same place, the shorthand isn't merely unclear, it can't express the thing at all.",
+          "flavor": "“We got along for years with this not being too big of a problem, because if the mana circle appeared in the mana cost or in the cost of a text box, it was generic. If it was something produced as part of an effect, it was colorless. But Oath of the Gatewatch was planning to mess this all up… A mana circle with a 4 next to a mana circle with a 1? That would both confuse players and not even be accurate.”"
+        },
+        {
+          "title": "Give the new symbol to the rarer meaning",
+          "rules": "When you have to split an overloaded notation, the cheap direction is the one that appears least. Leave the common meaning where it is, and invent the new form for the uncommon one — the total amount of relearning is proportional to how often the changed thing shows up.",
+          "flavor": "“We came to the conclusion that we had to stop using the mana circle with a number to represent both generic and colorless mana. This decision isn't just for Oath of the Gatewatch but for all of Magic. Changing how we represent colorless mana was easier, as it's represented far less, so we opted to make a new mana symbol that represents one colorless mana.”"
+        },
+        {
+          "title": "Notation gets invented under deadline by whoever is holding the pen",
+          "rules": "The conventions everyone later treats as fundamental often start as one person's improvisation on a card nobody remembers, at a moment when the correct form was ugly and the deadline was near. It survives because people understood it, which is the only test it was ever given.",
+          "flavor": "Nantuko Elder tapped for GG until late in development, when it became one colorless and one green. “Writing it all out felt ugly… The editor (Del Laugel, who is now Magic's head editor) tried out 1G using a mana circle for the 1. Everyone understood it, so it stayed. Now that we had a simpler way to write out colorless mana in effects, editing started using the mana circle on things like lands that produced colorless mana.”"
+        },
+        {
+          "title": "You can serve one of the two constituencies and still ship",
+          "rules": "When the same missing object has been requested for years by two unrelated groups, satisfying only one is a real result, not a failure. Check which constraint still binds, deliver to whoever the rules will let you, and say plainly which request remains unmet.",
+          "flavor": "The basic land producing colorless mana had been wanted twice: to push domain to six, and by Commander players, because a colorless commander's deck can't contain any coloured mana symbol and so can't use basic lands at all. “After some investigation, the design team realized that they could help the Commander players but not the domain fans. The rules still prevent a true ‘Barry land.'”"
+        },
+        {
+          "title": "If it behaves like a member of the category, give it the category's rules",
+          "rules": "Something that starts as an exception can acquire enough of the structural properties of a class that it should be governed like one. Check the real constraint: if using it costs you access to the others in the same way they cost each other, then it's a member, and it should get a defined remit.",
+          "flavor": "“We spent a lot of time talking about what effects colorless mana should be able to get you, and finally decided that as it functions a lot like a sixth color (you need lands/other permanents that produce specifically it), we could define a color pie for colorless mana. Also, its use lessened your ability to access other colors, making it harder to bleed effects in other colors.”"
+        },
+        {
+          "title": "Make the reward require the commitment, so it verifies itself",
+          "rules": "The cleanest way to pay out a build-around is to key it to something you can only accumulate by having genuinely committed. No separate check is needed and no partial cheating is possible — holding a lot of the qualifying thing is itself proof that the rest of the structure is in place.",
+          "flavor": "“The idea behind Walker of the Wastes was that Oath of the Gatewatch wanted to reward players playing decks full of colorless cards, and one way to do that was to reward them for playing a lot of Wastes—something you could only do if you had mostly colorless costs.”"
+        },
+        {
+          "title": "The cross-team review asks the question your own team never had to",
+          "rules": "A team working hard on a well-defined problem can be months in before anyone asks what else the project is on the hook for. That question tends to arrive from a department with a different scoreboard, and the correct answer to it is not a defence of the work so far.",
+          "flavor": "“After a few months of work, the Oath of the Gatewatch design team had made a lot of headway into creating a set that played up the influence of Kozilek. And then Ethan was called to a cross-team meeting… ‘So,' asked a member of the brand team, ‘how does this set reinforce the idea that it's about our heroes finally forming their own team?' Ethan's reply: ‘I'll have to get back to you.'”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Un juramento solemne, parte 1",
+      "dek": "Durante veintidós años, la incoloridad solo había sido un inconveniente. La pregunta era si se la podía hacer significar algo.",
+      "overview": "Empiezan los avances de Oath of the Gatewatch: capturar a Kozilek, la notación que hacía dos trabajos, y la pregunta de otro departamento que reabrió todo el diseño.",
+      "takeaway": "«Hasta ahora en la historia de Magic, la incoloridad no era más que un inconveniente; solo podía restringir tus opciones. Ethan quería explorar la idea de que el maná incoloro significara algo.»",
+      "lessons": [
+        {
+          "title": "Deja de hacerlo raro y empieza a hacer que la gente se fije en algo",
+          "rules": "Un encargo del tipo «esto rompe las reglas normales» te invita a invertir tus propias convenciones, y las inversiones son extrañas sin llegar a ser interesantes. Da la vuelta a la pregunta: en vez de hacer que lo familiar funcione distinto, busca una dimensión a la que nadie presta atención y haz que importe.",
+          "flavor": "«Probamos a invertir cómo funcionaban las palabras clave. Exploramos alterar ciertas reglas del juego… El problema es que seguíamos creando cosas raras por el gusto de ser raras y no cosas que llevaran a un juego divertido. Ethan decidió por fin cambiar el enfoque. En vez de hacer que las cosas funcionaran distinto, ¿había alguna manera de que importara algo que a los jugadores normalmente no les importa?»"
+        },
+        {
+          "title": "La exposición al trabajo inacabado de otros siembra ideas para años después",
+          "rules": "Estructura alguna parte de tu proceso de modo que la gente tenga que involucrarse en serio con el proyecto abandonado de otra persona. Lo que se llevan no es el proyecto: es un mecanismo concreto, archivado, recuperado años más tarde cuando por fin un problema le encaja.",
+          "flavor": "«Ethan sacó la idea de un hombre llamado Jon Loucks, compañero concursante en la segunda Gran Búsqueda de Diseñadores. Jon había creado un mundo subterráneo llamado Penumbria… La mecánica de “el maná incoloro importa” estaba atada al lado oscuro. En una de las pruebas, los concursantes tenían que trabajar en el mundo de otro, y Ethan pudo trabajar más de cerca con Jon.»"
+        },
+        {
+          "title": "Una propiedad que solo ha sido penalización puede hacerse significar algo",
+          "rules": "En tu sistema hay algún atributo que existe únicamente para empeorar las cosas: es el dial que bajas cuando algo es demasiado bueno. Pregúntate qué pasa si se convierte en requisito en vez de restricción. Toda su historia como inconveniente es lo que hace que la inversión funcione.",
+          "flavor": "«El maná incoloro se usa a menudo para equilibrar cartas, sobre todo tierras. Si una tierra hace algo que la haría estrictamente mejor que una básica, uno de los inconvenientes que puedes darle es que gire para maná incoloro en vez de coloreado. Pero hasta ahora en la historia de Magic, la incoloridad no era más que un inconveniente. Ethan quería explorar la idea de que significara algo.»"
+        },
+        {
+          "title": "Una notación que hace dos trabajos sobrevive hasta que los dos se encuentran",
+          "rules": "Una ambigüedad que siempre se resuelve por la posición pasa desapercibida durante años: todos la leen bien porque los dos significados nunca aparecen juntos. En cuanto un diseño necesita ambos en el mismo sitio, la abreviatura no es solo poco clara: ya no puede expresar la cosa.",
+          "flavor": "«Nos fue bien durante años porque, si el círculo de maná aparecía en el coste de maná o en el coste de un cuadro de texto, era genérico. Si era algo producido como parte de un efecto, era incoloro. Pero Oath of the Gatewatch iba a estropear todo eso… ¿Un círculo con un 4 junto a un círculo con un 1? Eso confundiría a los jugadores y ni siquiera sería exacto.»"
+        },
+        {
+          "title": "Dale el símbolo nuevo al significado más raro",
+          "rules": "Cuando hay que separar una notación sobrecargada, la dirección barata es la que aparece menos. Deja el significado común donde está e inventa la forma nueva para el infrecuente: el total de reaprendizaje es proporcional a lo a menudo que aparece lo que has cambiado.",
+          "flavor": "«Llegamos a la conclusión de que teníamos que dejar de usar el círculo de maná con un número para representar tanto el maná genérico como el incoloro. Esta decisión no es solo para Oath of the Gatewatch sino para todo Magic. Cambiar cómo representamos el maná incoloro era más fácil, pues se representa mucho menos, así que optamos por un símbolo nuevo.»"
+        },
+        {
+          "title": "La notación se inventa contrarreloj y la inventa quien tiene la pluma",
+          "rules": "Las convenciones que todos tratan luego como fundamentales suelen empezar como la improvisación de una persona en una carta que nadie recuerda, en un momento en que la forma correcta quedaba fea y la fecha límite estaba encima. Sobrevive porque la gente la entendió, que es la única prueba que se le hizo.",
+          "flavor": "Nantuko Elder giraba para GG hasta muy tarde en desarrollo, cuando pasó a uno incoloro y uno verde. «Escribirlo entero quedaba feo… El editor (Del Laugel, hoy jefe de edición de Magic) probó 1G usando un círculo de maná para el 1. Todos lo entendieron, así que se quedó. Con una forma más simple de escribir maná incoloro en efectos, edición empezó a usar el círculo en tierras que producían maná incoloro.»"
+        },
+        {
+          "title": "Puedes atender a uno de los dos públicos y aun así publicar",
+          "rules": "Cuando el mismo objeto ausente lleva años siendo pedido por dos grupos sin relación, satisfacer solo a uno es un resultado real, no un fracaso. Mira qué restricción sigue apretando, entrega a quien las reglas te dejen, y di con claridad qué petición sigue sin cumplirse.",
+          "flavor": "La tierra básica de maná incoloro se había querido dos veces: para llevar el dominio a seis, y por los jugadores de Commander, ya que el mazo de un comandante incoloro no puede contener ningún símbolo de maná coloreado y por tanto no puede usar tierras básicas. «Tras investigar, el equipo vio que podían ayudar a los de Commander pero no a los del dominio. Las reglas siguen impidiendo una verdadera “tierra de Barry”.»"
+        },
+        {
+          "title": "Si se comporta como miembro de la categoría, dale las reglas de la categoría",
+          "rules": "Algo que empieza como excepción puede adquirir suficientes propiedades estructurales de una clase como para que deba regirse igual. Mira la restricción real: si usarlo te cuesta el acceso a los demás del mismo modo en que ellos se lo cuestan entre sí, entonces es un miembro y merece un ámbito definido.",
+          "flavor": "«Pasamos mucho tiempo hablando de qué efectos debería poder darte el maná incoloro, y finalmente decidimos que, como funciona bastante como un sexto color (necesitas tierras u otros permanentes que lo produzcan específicamente), podíamos definirle un pastel de color. Además, su uso reducía tu acceso a otros colores, dificultando filtrar efectos de otros colores.»"
+        },
+        {
+          "title": "Haz que la recompensa exija el compromiso, para que se verifique sola",
+          "rules": "La forma más limpia de pagar un «construye alrededor» es ligarlo a algo que solo puedes acumular si te has comprometido de verdad. No hace falta ninguna comprobación aparte ni cabe hacer trampa a medias: tener mucho de aquello que califica es en sí la prueba de que el resto de la estructura está en su sitio.",
+          "flavor": "«La idea tras Walker of the Wastes era que Oath of the Gatewatch quería premiar a los jugadores con mazos llenos de cartas incoloras, y una forma de hacerlo era premiarles por jugar muchos Wastes, algo que solo podías hacer si tenías costes mayoritariamente incoloros.»"
+        },
+        {
+          "title": "La revisión entre equipos hace la pregunta que el tuyo nunca tuvo que hacerse",
+          "rules": "Un equipo que trabaja duro en un problema bien definido puede llevar meses antes de que alguien pregunte de qué más responde el proyecto. Esa pregunta suele venir de un departamento con otro marcador, y la respuesta correcta no es una defensa del trabajo hecho hasta ahora.",
+          "flavor": "«Tras unos meses de trabajo, el equipo había avanzado mucho en crear un bloque que resaltara la influencia de Kozilek. Y entonces llamaron a Ethan a una reunión entre equipos… “Bueno”, preguntó alguien del equipo de marca, “¿cómo refuerza este bloque la idea de que va de que nuestros héroes por fin forman su propio equipo?” La respuesta de Ethan: “Tendré que responderte más adelante.”»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Un serment solennel, partie 1",
+      "dek": "Pendant vingt-deux ans, l'incolore n'avait jamais été qu'un inconvénient. La question était de savoir si on pouvait lui faire vouloir dire quelque chose.",
+      "overview": "Les avant-premières d'Oath of the Gatewatch commencent : capturer Kozilek, la notation qui faisait deux métiers, et la question d'un autre service qui a rouvert toute la conception.",
+      "takeaway": "« Jusqu'ici dans l'histoire de Magic, l'incolore n'était qu'un inconvénient ; il ne pouvait que restreindre vos options. Ethan voulait explorer l'idée d'un mana incolore qui signifie quelque chose. »",
+      "lessons": [
+        {
+          "title": "Cessez de faire étrange et faites remarquer quelque chose",
+          "rules": "Un brief du genre « cette chose brise les règles normales » invite à inverser vos propres conventions, et les inversions sont bizarres sans être intéressantes. Retournez la question : au lieu de faire fonctionner autrement le familier, trouvez une dimension à laquelle nul ne prête attention et rendez-la importante.",
+          "flavor": "« Nous avons essayé d'inverser le fonctionnement des mots-clés. Nous avons exploré la modification de certaines règles… Le problème, c'est que nous fabriquions des choses bizarres pour le plaisir d'être bizarres, et non des choses qui donnaient du bon jeu. Ethan a fini par changer d'approche. Plutôt que faire fonctionner les choses autrement, pouvait-on s'intéresser à une chose dont les joueurs ne se soucient pas d'ordinaire ? »"
+        },
+        {
+          "title": "L'exposition au travail inachevé d'autrui sème des idées pour des années",
+          "rules": "Structurez une partie de votre processus pour que chacun doive s'impliquer sérieusement dans le projet abandonné de quelqu'un d'autre. Ce qu'on en retient n'est pas le projet : c'est un mécanisme précis, rangé de côté, ressorti des années plus tard quand un problème lui correspond enfin.",
+          "flavor": "« Ethan tient l'idée d'un certain Jon Loucks, concurrent de la deuxième Grande Recherche de Concepteurs. Jon avait créé un monde souterrain nommé Penumbria… La mécanique “le mana incolore compte” était attachée au côté sombre. Lors d'une épreuve, les concurrents devaient travailler sur le monde d'un autre, et Ethan a pu collaborer de plus près avec Jon. »"
+        },
+        {
+          "title": "Une propriété qui n'a jamais été qu'une pénalité peut se mettre à signifier",
+          "rules": "Dans votre système, un attribut n'existe que pour rendre les choses moins bonnes : c'est le curseur qu'on baisse quand une chose est trop forte. Demandez ce qui se passe s'il devient une exigence plutôt qu'une restriction. Toute son histoire d'inconvénient est ce qui fait mouche au moment du renversement.",
+          "flavor": "« Le mana incolore sert souvent à équilibrer, surtout les terrains. Si un terrain fait quelque chose qui le rendrait strictement meilleur qu'un terrain de base, un des inconvénients possibles est qu'il produise de l'incolore plutôt que de la couleur. Mais jusqu'ici, l'incolore n'était qu'un inconvénient. Ethan voulait explorer l'idée qu'il signifie quelque chose. »"
+        },
+        {
+          "title": "Une notation à deux métiers survit jusqu'à ce que les deux se rencontrent",
+          "rules": "Une ambiguïté toujours levée par la position passe inaperçue des années : chacun lit juste, car les deux sens n'apparaissent jamais côte à côte. Dès qu'une conception a besoin des deux au même endroit, le raccourci n'est plus seulement flou : il ne peut plus exprimer la chose.",
+          "flavor": "« Cela allait depuis des années, car si le cercle de mana figurait dans le coût de mana ou dans un coût du cadre de texte, il était générique. S'il provenait d'un effet, il était incolore. Mais Oath of the Gatewatch allait tout gâcher… Un cercle avec un 4 à côté d'un cercle avec un 1 ? Cela embrouillerait les joueurs et ne serait même pas exact. »"
+        },
+        {
+          "title": "Donnez le nouveau symbole au sens le plus rare",
+          "rules": "Quand il faut scinder une notation surchargée, la direction bon marché est celle qui apparaît le moins. Laissez le sens courant en place et inventez la forme neuve pour le sens rare : le total de réapprentissage est proportionnel à la fréquence de ce que vous changez.",
+          "flavor": "« Nous avons conclu qu'il fallait cesser d'utiliser le cercle chiffré pour représenter à la fois le générique et l'incolore. Cette décision ne vaut pas que pour Oath of the Gatewatch mais pour tout Magic. Changer la représentation de l'incolore était plus facile, car il est bien moins représenté : nous avons donc créé un nouveau symbole. »"
+        },
+        {
+          "title": "La notation s'invente dans l'urgence, par celui qui tient la plume",
+          "rules": "Les conventions que tous traitent ensuite comme fondamentales commencent souvent par l'improvisation d'une personne sur une carte dont nul ne se souvient, à un moment où la forme correcte était laide et l'échéance proche. Elle survit parce qu'on l'a comprise — le seul test qu'on lui ait fait passer.",
+          "flavor": "Nantuko Elder produisait GG jusqu'à tard en développement, quand elle est passée à un incolore et un vert. « Tout écrire était laid… L'éditeur (Del Laugel, aujourd'hui rédacteur en chef de Magic) a essayé 1V avec un cercle de mana pour le 1. Tout le monde a compris, c'est resté. Ayant une écriture plus simple pour l'incolore dans les effets, l'édition s'est mise à l'employer sur les terrains produisant de l'incolore. »"
+        },
+        {
+          "title": "Vous pouvez servir l'un des deux publics et livrer quand même",
+          "rules": "Quand le même objet manquant est réclamé depuis des années par deux groupes sans lien, n'en satisfaire qu'un est un vrai résultat, pas un échec. Regardez quelle contrainte tient encore, livrez à qui les règles le permettent, et dites clairement quelle demande reste non satisfaite.",
+          "flavor": "Le terrain de base produisant de l'incolore avait été voulu deux fois : pour pousser le domaine à six, et par les joueurs de Commander, car le deck d'un commandant incolore ne peut contenir aucun symbole de mana coloré et donc aucun terrain de base. « Après enquête, l'équipe a vu qu'elle pouvait aider les joueurs de Commander mais pas les amateurs de domaine. Les règles interdisent toujours un vrai “terrain de Barry”. »"
+        },
+        {
+          "title": "S'il se comporte comme un membre de la catégorie, donnez-lui les règles de la catégorie",
+          "rules": "Ce qui commence comme exception peut acquérir assez de propriétés structurelles d'une classe pour devoir être régi comme elle. Regardez la contrainte réelle : si son emploi vous coûte l'accès aux autres comme ceux-ci se le coûtent entre eux, alors c'en est un membre, et il mérite un périmètre défini.",
+          "flavor": "« Nous avons longuement discuté des effets auxquels le mana incolore devrait donner accès, et conclu que, fonctionnant beaucoup comme une sixième couleur (il faut des terrains ou permanents qui le produisent spécifiquement), nous pouvions lui définir une roue des couleurs. De plus, son usage réduisait l'accès aux autres couleurs, rendant les infiltrations plus difficiles. »"
+        },
+        {
+          "title": "Faites que la récompense exige l'engagement, pour qu'elle se vérifie d'elle-même",
+          "rules": "La façon la plus propre de payer un « à construire autour » est de l'indexer sur une chose qu'on ne peut accumuler qu'en s'étant réellement engagé. Aucune vérification séparée n'est requise et nulle triche partielle n'est possible : en détenir beaucoup prouve à soi seul que le reste de la structure est en place.",
+          "flavor": "« L'idée derrière Walker of the Wastes était qu'Oath of the Gatewatch voulait récompenser les decks pleins de cartes incolores, et un moyen était de récompenser le fait de jouer beaucoup de Wastes — ce que l'on ne peut faire qu'avec des coûts majoritairement incolores. »"
+        },
+        {
+          "title": "La revue inter-équipes pose la question que la vôtre n'a jamais eu à poser",
+          "rules": "Une équipe absorbée par un problème bien défini peut avoir des mois d'avance avant que quiconque demande de quoi d'autre le projet répond. Cette question vient d'ordinaire d'un service au tableau de bord différent, et la bonne réponse n'est pas une défense du travail déjà fait.",
+          "flavor": "« Après quelques mois, l'équipe avait bien avancé sur une extension mettant en valeur l'influence de Kozilek. Puis Ethan a été convoqué à une réunion inter-équipes… “Alors, a demandé quelqu'un de la marque, en quoi cette extension renforce-t-elle l'idée que nos héros forment enfin leur propre équipe ?” Réponse d'Ethan : “Il faudra que je vous réponde plus tard.” »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Um juramento solene, parte 1",
+      "dek": "Por vinte e dois anos, ser incolor tinha sido apenas uma desvantagem. A questão era se dava para fazê-lo significar algo.",
+      "overview": "Começam as prévias de Oath of the Gatewatch: capturar Kozilek, a notação que fazia dois trabalhos, e a pergunta de outro departamento que reabriu o design inteiro.",
+      "takeaway": "“Até agora na história de Magic, ser incolor não era nada além de desvantagem; só podia restringir suas opções. Ethan queria explorar a ideia de o mana incolor significar algo.”",
+      "lessons": [
+        {
+          "title": "Pare de fazer estranho e comece a fazer as pessoas repararem em algo",
+          "rules": "Um briefing do tipo “isto quebra as regras normais” convida você a inverter suas próprias convenções, e inversões são esquisitas sem chegar a ser interessantes. Vire a pergunta: em vez de fazer o familiar funcionar diferente, ache uma dimensão a que ninguém presta atenção e faça-a importar.",
+          "flavor": "“Tentamos inverter como as palavras-chave funcionavam. Exploramos alterar certas regras… O problema é que continuávamos criando coisas estranhas pelo prazer de serem estranhas, e não coisas que rendessem jogo divertido. Ethan por fim decidiu mudar a abordagem. Em vez de fazer as coisas funcionarem diferente, haveria um jeito de se importar com algo com que os jogadores normalmente não se importam?”"
+        },
+        {
+          "title": "A exposição ao trabalho inacabado dos outros semeia ideias para anos depois",
+          "rules": "Estruture alguma parte do seu processo para que as pessoas tenham de se envolver a sério com o projeto abandonado de outra pessoa. O que elas levam não é o projeto: é um mecanismo específico, arquivado, resgatado anos depois quando um problema finalmente lhe serve.",
+          "flavor": "“Ethan tirou a ideia de um sujeito chamado Jon Loucks, colega de concurso na segunda Grande Busca de Designers. Jon havia criado um mundo subterrâneo chamado Penumbria… A mecânica de ‘mana incolor importa' estava presa ao lado escuro. Numa das tarefas, os concorrentes tinham de trabalhar no mundo de outro, e Ethan pôde trabalhar mais de perto com Jon.”"
+        },
+        {
+          "title": "Uma propriedade que só foi punição pode passar a significar algo",
+          "rules": "No seu sistema existe algum atributo que só serve para piorar as coisas: é o botão que você abaixa quando algo está bom demais. Pergunte o que acontece se ele virar exigência em vez de restrição. Toda a história dele como desvantagem é o que faz a inversão funcionar.",
+          "flavor": "“Mana incolor é muito usado para balancear cartas, sobretudo terrenos. Se um terreno faz algo que o tornaria estritamente melhor que um básico, uma das desvantagens que dá para colocar é ele virar para mana incolor em vez de colorido. Mas até agora na história de Magic, ser incolor não era nada além de desvantagem. Ethan queria explorar a ideia de que significasse algo.”"
+        },
+        {
+          "title": "Uma notação fazendo dois trabalhos sobrevive até os dois se encontrarem",
+          "rules": "Uma ambiguidade sempre resolvida pela posição passa despercebida por anos: todos leem certo porque os dois sentidos nunca aparecem lado a lado. No instante em que um design precisa dos dois no mesmo lugar, a abreviatura não é só pouco clara: ela não consegue expressar a coisa.",
+          "flavor": "“Levamos anos sem que isso fosse grande problema, porque se o círculo de mana aparecia no custo de mana ou no custo dentro do quadro de texto, era genérico. Se era algo produzido por um efeito, era incolor. Mas Oath of the Gatewatch ia bagunçar tudo isso… Um círculo com 4 ao lado de um círculo com 1? Isso confundiria os jogadores e nem seria exato.”"
+        },
+        {
+          "title": "Dê o símbolo novo ao significado mais raro",
+          "rules": "Quando é preciso dividir uma notação sobrecarregada, a direção barata é a que aparece menos. Deixe o sentido comum onde está e invente a forma nova para o incomum: o total de reaprendizado é proporcional a quão frequente é aquilo que você mudou.",
+          "flavor": "“Chegamos à conclusão de que tínhamos de parar de usar o círculo com número para representar tanto mana genérico quanto incolor. Essa decisão não é só para Oath of the Gatewatch, e sim para todo o Magic. Mudar como representamos o mana incolor era mais fácil, pois ele é representado muito menos, então optamos por um novo símbolo.”"
+        },
+        {
+          "title": "Notação se inventa no aperto do prazo, por quem está com a caneta",
+          "rules": "As convenções que todos depois tratam como fundamentais costumam começar como a improvisação de uma pessoa numa carta de que ninguém se lembra, num momento em que a forma correta ficava feia e o prazo estava em cima. Ela sobrevive porque as pessoas entenderam — o único teste que ela chegou a fazer.",
+          "flavor": "Nantuko Elder virava para GG até tarde no desenvolvimento, quando passou a um incolor e um verde. “Escrever tudo ficava feio… O editor (Del Laugel, hoje editor-chefe de Magic) testou 1V usando um círculo de mana para o 1. Todo mundo entendeu, então ficou. Com um jeito mais simples de escrever mana incolor em efeitos, a edição passou a usar o círculo em terrenos que produziam mana incolor.”"
+        },
+        {
+          "title": "Dá para servir um dos dois públicos e ainda assim entregar",
+          "rules": "Quando o mesmo objeto ausente é pedido há anos por dois grupos sem relação, satisfazer só um é um resultado real, não um fracasso. Veja qual restrição ainda aperta, entregue a quem as regras permitirem, e diga com clareza qual pedido segue sem atendimento.",
+          "flavor": "O terreno básico de mana incolor tinha sido desejado duas vezes: para levar o domínio a seis, e pelos jogadores de Commander, já que o deck de um comandante incolor não pode conter símbolo de mana colorido e portanto não usa terrenos básicos. “Depois de investigar, a equipe viu que podia ajudar os de Commander, mas não os do domínio. As regras ainda impedem um verdadeiro ‘terreno do Barry'.”"
+        },
+        {
+          "title": "Se ele se comporta como membro da categoria, dê a ele as regras da categoria",
+          "rules": "Algo que começa como exceção pode adquirir propriedades estruturais suficientes de uma classe para dever ser regido como uma. Olhe a restrição real: se usá-lo te custa o acesso aos outros do mesmo jeito que eles se custam entre si, então ele é um membro, e merece um escopo definido.",
+          "flavor": "“Passamos muito tempo discutindo que efeitos o mana incolor deveria poder dar, e por fim decidimos que, como ele funciona bastante como uma sexta cor (você precisa de terrenos ou permanentes que o produzam especificamente), podíamos definir uma roda de cores para ele. Além disso, usá-lo reduzia seu acesso às outras cores, dificultando vazar efeitos delas.”"
+        },
+        {
+          "title": "Faça a recompensa exigir o compromisso, para que ela se verifique sozinha",
+          "rules": "O jeito mais limpo de pagar um “construa em torno” é atrelá-lo a algo que só dá para acumular tendo se comprometido de verdade. Nenhuma checagem separada é necessária e nenhuma trapaça parcial é possível: ter muito daquilo que qualifica já é a prova de que o resto da estrutura está no lugar.",
+          "flavor": "“A ideia por trás de Walker of the Wastes era que Oath of the Gatewatch queria recompensar decks cheios de cartas incolores, e um jeito de fazer isso era recompensar jogar muitos Wastes — algo que você só conseguia se tivesse custos majoritariamente incolores.”"
+        },
+        {
+          "title": "A revisão entre equipes faz a pergunta que a sua nunca precisou fazer",
+          "rules": "Uma equipe empenhada num problema bem definido pode estar meses adiante antes que alguém pergunte de que mais o projeto responde. Essa pergunta costuma vir de um departamento com outro placar, e a resposta certa não é uma defesa do trabalho feito até ali.",
+          "flavor": "“Depois de alguns meses de trabalho, a equipe tinha avançado bastante em criar uma coleção que destacasse a influência de Kozilek. E então Ethan foi chamado a uma reunião entre equipes… ‘Então', perguntou alguém da equipe de marca, ‘como esta coleção reforça a ideia de que ela é sobre nossos heróis finalmente formando o próprio time?' A resposta de Ethan: ‘Vou ter que voltar a falar sobre isso.'”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "庄严的誓约（上）",
+      "dek": "二十二年来，无色一直只是个缺点。问题在于：能不能让它变得有意义。",
+      "overview": "《环旅护卫誓约》的预览周开始了：如何抓住寇基雷、那个一直身兼两职的记号，以及来自另一个部门的一句提问如何把整个设计重新打开。",
+      "takeaway": "「在万智牌迄今为止的历史里，无色不过是个缺点；它只能限制你的选项。而伊森想探索的是：让无色法术力变得有意义。」",
+      "lessons": [
+        {
+          "title": "别再把它做得古怪，改为让人们去注意某样东西",
+          "rules": "一份「这东西打破常规」的命题，会诱使你去把自己的惯例反过来；而反转只是怪，并不有趣。把问题掉个头：与其让熟悉的东西以不同的方式运作，不如去找一个当下无人留意的维度，然后让它变得重要。",
+          "flavor": "「我们试过把关键字机制的运作方式反过来。我们探索过在特定情况下改动某些游戏规则……问题在于，我们不断造出的是『为怪而怪』的东西，而不是能带来有趣对局的东西。伊森最终决定改变我们的路径：与其让事物以不同方式运作，有没有办法去在乎一样『玩家平常并不在乎』的东西？」"
+        },
+        {
+          "title": "接触别人未完成的作品，会为多年之后播下种子",
+          "rules": "把你流程中的某一环设计成：人们必须认真地投入到别人那个被搁置的项目里去。他们带走的并不是那个项目本身，而是某一个具体的机制；它被归档收好，在多年之后、当某个问题终于与它契合时被取出来。",
+          "flavor": "「伊森这个点子来自一位叫乔恩·卢克斯的人——第二届伟大设计师搜寻的同期参赛者。乔恩创造了一个名叫『半影』的地下世界……那个『无色法术力很重要』的机制，正是挂在黑暗那一侧的。在其中一项任务里，参赛者必须去做另一位选手的世界；伊森因此有机会与乔恩更紧密地合作。」"
+        },
+        {
+          "title": "一项从来只当惩罚用的性质，可以被做得有意义",
+          "rules": "你的系统里总有某个属性，它存在的唯一用途就是把东西变差——它是当某样东西太强时你往下调的那个旋钮。问一问：如果它从一条限制变成一项要求，会发生什么？正是它长年作为缺点的那段历史，让这次反转打得中。",
+          "flavor": "「无色法术力常被用来平衡牌张，尤其是地。如果一张地做的事会让它严格强于基本地，那么你能给它的缺点之一，就是让它横置产生无色而非有色的法术力。但在万智牌迄今为止的历史里，无色不过是个缺点；它只能限制你的选项。而伊森想探索的是：让它变得有意义。」"
+        },
+        {
+          "title": "一个身兼两职的记号，能撑到这两职相遇的那一天",
+          "rules": "一处总能靠位置来消解的歧义，会安然无恙地混过很多年：所有人都读对了，因为这两个含义从不并排出现。而一旦某个设计需要它们同时出现在同一个位置上，这套简写就不只是不清楚了——它根本无法表达那样东西。",
+          "flavor": "「多年来这都不算什么大问题：因为如果那个法术力圆圈出现在法术力费用里、或者出现在规则叙述框内的费用里，它就是泛用的；如果它是某个效果产出的东西，那就是无色的。可是《环旅护卫誓约》正打算把这一切都搅乱……一个写着4的圆圈，旁边再来一个写着1的圆圈？那既会让牌手困惑，而且甚至并不准确。」"
+        },
+        {
+          "title": "把新符号给那个更少见的含义",
+          "rules": "当你不得不拆分一个被超载的记号时，便宜的那个方向，就是出现次数更少的那一边。把常见的含义留在原处，为不常见的那个发明新形式：需要重新学习的总量，与「你所改动的那样东西出现得有多频繁」成正比。",
+          "flavor": "「我们得出的结论是：必须停止用『带数字的法术力圆圈』同时表示泛用与无色两种法术力。这个决定不只针对《环旅护卫誓约》，而是针对整个万智牌。改变我们表示无色法术力的方式更容易，因为它被表示的次数少得多；于是我们选择了造一个新的法术力符号。」"
+        },
+        {
+          "title": "记号是在赶工期时、由手里握着笔的那个人发明出来的",
+          "rules": "那些后来被所有人当作根本大法的惯例，往往起源于某个人在一张没人记得的牌上的一次即兴——那时正确的写法很难看，而截稿日就在眼前。它之所以活下来，是因为大家看懂了；而这也是它接受过的唯一一次检验。",
+          "flavor": "《南瓯长老》直到开发后期都还是横置产生绿绿，之后才改成一个无色加一个绿。「把它整个写出来显得很难看……那位编辑（戴尔·劳格尔，如今是万智牌的主编）试了『1绿』这种写法，用一个法术力圆圈来表示那个1。所有人都看懂了，于是它就留下了。有了这种更简洁的写法之后，编辑部开始把这个圆圈用在诸如『产生无色法术力的地』这类东西上。」"
+        },
+        {
+          "title": "你可以只服务两拨诉求者中的一拨，然后照样发货",
+          "rules": "当同一样缺失的东西被两个毫不相干的群体要了很多年时，只满足其中一方是一份真实的成果，而不是失败。看看哪条约束仍然卡着，向规则允许你交付的那一方交付，并且明白地说清：还有哪一份请求仍未被满足。",
+          "flavor": "这张产生无色法术力的基本地曾被要过两次：一次是为了把「域」推到六；另一次来自统帅玩家——因为一副无色统帅的套牌里不能有任何有色法术力符号，因此根本用不了基本地。「经过一番调查，设计团队意识到：他们能帮到统帅玩家，但帮不了『域』的爱好者。规则依然挡住了一张真正的『巴瑞之地』。」"
+        },
+        {
+          "title": "如果它的行为像这个类别的一员，那就把这个类别的规矩给它",
+          "rules": "一样以例外身份起步的东西，可能会积累起足够多的、属于某一类的结构性性质，以至于它就该被照那一类来治理。去看真正的约束：如果使用它所付出的「无法取用其他成员」的代价，与那些成员彼此之间的代价是同一种，那它就是一员，并且应当被赋予一份明确的职权范围。",
+          "flavor": "「我们花了很长时间讨论：无色法术力应该能换来哪些效果。最后我们认定：既然它的运作方式很像第六个颜色（你需要专门产它的地或其他永久物），我们就可以为无色法术力定义一份色轮。而且，使用它会削弱你取用其他颜色的能力，这也让把别的颜色的效果渗进来变得更难。」"
+        },
+        {
+          "title": "让那份回报要求这份投入，于是它自己就完成了验证",
+          "rules": "为一张「围绕它构筑」的牌支付回报，最干净的办法，是把它挂在某样「只有你真的投入了才可能积累起来」的东西上。这样既不需要额外的检查，也不可能半吊子地作弊：手上握有大量符合条件的那样东西，本身就是「其余结构都已到位」的证明。",
+          "flavor": "「《荒地行者》背后的想法是：《环旅护卫誓约》想奖励那些套牌里塞满无色牌的玩家；而做到这一点的办法之一，就是奖励他们放很多张《荒地》——而这件事，只有当你的费用大多是无色的时候，你才做得到。」"
+        },
+        {
+          "title": "跨部门的评审，会提出你自己团队从来不必面对的那个问题",
+          "rules": "一支正埋头解决一个定义清晰的问题的团队，可能已经推进了好几个月，才有人问起：这个项目还欠着别的什么账？这个问题往往来自一个考核标准完全不同的部门；而它的正确答案，并不是为迄今为止的工作作辩护。",
+          "flavor": "「工作了几个月之后，《环旅护卫誓约》的设计团队在『打造一个凸显寇基雷影响力的系列』这件事上已大有进展。然后伊森被叫去参加一场跨团队会议……『那么，』品牌团队的一位成员问道，『这个系列是怎么强化「我们的英雄们终于组成了自己的队伍」这个主题的？』伊森的回答是：『这个我得回头再答复你。』」"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "id": "solemn-oath-part-2-2016-01-04",
+  "slug": "solemn-oath-part-2-2016-01-04",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-01-04",
+  "series": { "id": "solemn-oath", "order": 2, "total": 2 },
+  "tags": ["oath-of-the-gatewatch", "preview", "surge", "support", "draft"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/solemn-oath-part-2-2016-01-04",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T00:35:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "R" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "A Solemn Oath, Part 2",
+      "dek": "Instead of asking \"should we do this?\", they asked \"what would we need to change if we did?\"",
+      "overview": "How a set about Kozilek also became the set where the Gatewatch forms: surge, support, cohort, and the Oaths.",
+      "takeaway": "\"For years we've ignored this suggestion, because we believed that the smaller card pool would lead to a less robust drafting experience. But in the spirit of change, we decided to finally question our assumptions.\"",
+      "lessons": [
+        {
+          "title": "Start the brainstorm at the far end of the list",
+          "rules": "Explore the strangest suggestion first, not last. The familiar directions lead reliably back to things you've already built, so working through them in order means spending your best energy re-deriving your own back catalogue. The unfamiliar end is the only part that can produce somewhere new.",
+          "flavor": "“A very common thing to do when using a brainstorm to come up with new mechanics in design is to start with some of the more ‘out there' suggestions. Going down paths you've trod numerous times will only result in you remaking mechanics you've already made, but starting somewhere fresh allows you to explore places that perhaps you've never visited before.”"
+        },
+        {
+          "title": "For an optional participant, find the trigger they can contribute to but you can also satisfy",
+          "rules": "To make something that rewards a collaborator without being dead when you're alone, don't reference the collaborator — reference an event that either of you can cause. The cooperative reading is a bonus on top, and the thing remains fully functional by yourself.",
+          "flavor": "“We didn't want to print cards in black borders that were meaningless in two-player play. So how could we care about teammates in a way that mattered and was relevant but didn't render the card obsolete in a traditional two-person duel? The solution was to find a way to care about something that teammates could help with but that didn't necessarily require them… spells being cast. It's something that other players do that you also do.”"
+        },
+        {
+          "title": "The reward has to fit the state the condition leaves you in",
+          "rules": "Before choosing what a conditional payoff gives, work out what the person meeting the condition still has available. A bigger effect is worthless to someone whose resources are spent getting there. Ask what they're short of at that exact moment, and pay them in that.",
+          "flavor": "“We toyed around with the idea that it enhanced the spell, either making it have a bigger effect or possibly having a second synergistic effect. In the end, we decided that it was more important to make sure you could cast it. After all, in a two-player game, you had to have cast another spell—and thus didn't have a lot of mana. This led us to decide to make the benefit a reduced cost.”"
+        },
+        {
+          "title": "When you bend a policy, hand the reviewer a clean removal path",
+          "rules": "Arguing for an exception is much easier when the exception is separable. Build it so the underlying thing still works without the contested part, say so explicitly at handoff, and the next team can test both versions instead of having to accept or reject yours whole.",
+          "flavor": "“Yes, we didn't want to start using the word ‘teammate' in every set, but in the set all about a team being formed, we felt it was an acceptable bend. We stressed to the development team that the mechanic still worked if you took off the teammate part, so they would have the ability to test it, and if they found the ‘teammate' inclusion too problematic, it would be easy to remove it later.”"
+        },
+        {
+          "title": "Abstract two incompatible resources up one level to find the shared handle",
+          "rules": "When one effect needs to serve two things that don't share a currency, don't build two effects. Go up a level and describe what both currencies are instances of — then act on that. You get one mechanic that reads as a single idea and reaches both.",
+          "flavor": "“Planeswalkers on the battlefield mostly cared about loyalty. The obvious way to help them would be to grant them extra loyalty. The problem, though, was that creatures don't have loyalty. We took a step back and thought about loyalty more abstractly. Planeswalkers have a resource represented by a counter. Creatures could also do that through the use of things like +1/+1 counters.”"
+        },
+        {
+          "title": "When it's too late to rework, amputate — then check what you actually lost",
+          "rules": "A problem found near the end doesn't get the redesign it deserves. Cut the offending half rather than gambling on a rushed fix, and immediately measure the damage where the thing was supposed to shine. Often the removed part was carrying less of the value than its prominence suggested.",
+          "flavor": "“Late in the process, it became clear that putting loyalty counters on planeswalkers created a number of developmental problems. It was so late in the process that there wasn't time to do extensive reworking of the mechanic, so unfortunately the only option was to remove the loyalty-granting part of the ability. Luckily, the change had very little impact on Limited, where the mechanic was made to shine.”"
+        },
+        {
+          "title": "Once one long-standing assumption falls, the rest become re-openable",
+          "rules": "A refusal that has held for years is usually resting on the general stability around it rather than on its own merits. When a period of genuine change arrives, that's the moment to revisit the whole list of things you've always said no to — the surrounding conditions that justified them may already be gone.",
+          "flavor": "“Rather than one block a year, we're doing two. Instead of three sets in a block, there's two. Core sets are gone… Well, once you start making changes as big as these, you're open to making other big changes.” The long-refused request: more of the new set in a draft. “Instead of asking ‘Should we do this?' we asked instead, ‘What would we need to change if we did do this?'”"
+        },
+        {
+          "title": "A fundamental shift on one side obliges a shift on the other",
+          "rules": "When one half of a paired structure changes character between instalments, leaving the other half as it was doesn't read as stability — it reads as one half having been forgotten. Match the magnitude of the change deliberately, so the two continue to feel like counterparts.",
+          "flavor": "“The design team was trying to be more proactive about changing up block elements. The Ulamog-flavored mechanics were giving way to the Kozilek mechanics, so the Eldrazi side was having a fundamental shift. That meant the design team had to do the same for the Zendikari side. The plan to do this was to introduce a new Ally keyword mechanic.”"
+        },
+        {
+          "title": "Borrow the ritual from the genre you're evoking",
+          "rules": "If you're depicting something a genre has depicted a thousand times, go and look at how it's usually staged. The conventional moment — the ceremony everyone recognises — gives you an image, a mechanical hook, and a repeatable slot for every future occasion of the same kind.",
+          "flavor": "“I flashed back to a comic from my youth: the Justice League… The original team started with seven members, and then every once in a while the team would add a new member. Whenever a new member was added, the comic would most often end with them taking an oath to uphold the principles of the team. I liked the imagery… This would also help in the future as other Planeswalkers joined the Gatewatch.”"
+        },
+        {
+          "title": "Reject the version that makes all the members alike",
+          "rules": "An effect that grants every member of a class the same new capability is tidy and wrong: it erodes the distinctions that made them worth having separately, it's hard to balance, and it uses up the space you'd need for future instalments. Make each one help in its own way instead.",
+          "flavor": "“In our original version, we had the static ability grant all your planeswalkers a new loyalty ability, but development pointed out that this would make all planeswalkers more similar and would create repetitive gameplay. Also, they would be hard to balance, and if we wanted the ability to make many Oaths in the future, it would leave limited design space.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Un juramento solemne, parte 2",
+      "dek": "En vez de preguntar «¿deberíamos hacer esto?», preguntaron «¿qué tendríamos que cambiar si lo hiciéramos?».",
+      "overview": "Cómo un bloque sobre Kozilek se convirtió también en el bloque donde se forma la Guardia: oleada, apoyar, cohorte y los Juramentos.",
+      "takeaway": "«Durante años ignoramos esta sugerencia, porque creíamos que un fondo de cartas menor daría una experiencia de draft menos robusta. Pero en el espíritu del cambio, decidimos por fin cuestionar nuestras suposiciones.»",
+      "lessons": [
+        {
+          "title": "Empieza la lluvia de ideas por el extremo más lejano de la lista",
+          "rules": "Explora primero la sugerencia más extraña, no la última. Las direcciones familiares llevan de vuelta, fiablemente, a cosas que ya has construido; recorrerlas en orden significa gastar tu mejor energía en volver a deducir tu propio catálogo. El extremo desconocido es la única parte que puede llevarte a un sitio nuevo.",
+          "flavor": "«Algo muy común al usar una lluvia de ideas para sacar mecánicas nuevas es empezar por las sugerencias más “rarunas”. Recorrer caminos que ya has pisado muchas veces solo te llevará a rehacer mecánicas que ya has hecho, mientras que empezar por algo fresco te permite explorar lugares que quizá nunca has visitado.»"
+        },
+        {
+          "title": "Para un participante opcional, busca el disparador al que puede contribuir y que tú también puedes cumplir",
+          "rules": "Para hacer algo que premie a un colaborador sin quedar muerto cuando estás solo, no menciones al colaborador: menciona un suceso que cualquiera de los dos pueda provocar. La lectura cooperativa es una bonificación encima, y la cosa sigue siendo plenamente funcional en solitario.",
+          "flavor": "«No queríamos imprimir cartas de borde negro que fueran irrelevantes en partidas de dos. ¿Cómo podíamos entonces preocuparnos por los compañeros de forma que importara pero sin volver la carta obsoleta en un duelo tradicional? La solución fue preocuparnos por algo con lo que los compañeros pudieran ayudar sin ser necesarios… lanzar hechizos. Es algo que hacen otros jugadores y que tú también haces.»"
+        },
+        {
+          "title": "La recompensa tiene que encajar con el estado en que te deja la condición",
+          "rules": "Antes de elegir qué da un pago condicional, calcula de qué dispone todavía quien cumple la condición. Un efecto mayor no vale nada para alguien cuyos recursos se han ido en llegar hasta ahí. Pregunta de qué anda escaso justo en ese instante y págale en eso.",
+          "flavor": "«Jugueteamos con la idea de que mejorara el hechizo, dándole un efecto mayor o quizá un segundo efecto sinérgico. Al final decidimos que era más importante asegurarse de que pudieras lanzarlo. Al fin y al cabo, en una partida de dos tenías que haber lanzado otro hechizo, y por tanto no tenías mucho maná. Eso nos llevó a hacer que el beneficio fuera un coste reducido.»"
+        },
+        {
+          "title": "Cuando dobles una norma, entrégale al revisor una vía limpia de retirada",
+          "rules": "Defender una excepción es mucho más fácil cuando la excepción es separable. Constrúyela de modo que lo de debajo siga funcionando sin la parte discutida, dilo explícitamente en el traspaso, y el siguiente equipo podrá probar ambas versiones en vez de tener que aceptar o rechazar la tuya entera.",
+          "flavor": "«Sí, no queríamos empezar a usar la palabra “compañero” en todos los bloques, pero en el bloque que va justo de formar un equipo nos pareció un doblez aceptable. Le insistimos a desarrollo en que la mecánica seguía funcionando si le quitabas la parte del compañero, para que pudieran probarlo y, si la inclusión resultaba demasiado problemática, fuera fácil quitarla después.»"
+        },
+        {
+          "title": "Abstrae dos recursos incompatibles un nivel arriba para hallar el asa común",
+          "rules": "Cuando un efecto debe servir a dos cosas que no comparten moneda, no construyas dos efectos. Sube un nivel y describe de qué son instancias ambas monedas, y actúa sobre eso. Obtienes una sola mecánica que se lee como una sola idea y alcanza a las dos.",
+          "flavor": "«A los Planeswalkers en el campo de batalla les importaba sobre todo la lealtad. La forma obvia de ayudarlos sería darles lealtad extra. El problema es que las criaturas no tienen lealtad. Dimos un paso atrás y pensamos en la lealtad de forma más abstracta. Los Planeswalkers tienen un recurso representado por un contador. Las criaturas también podrían tenerlo mediante cosas como contadores +1/+1.»"
+        },
+        {
+          "title": "Cuando ya es tarde para rehacer, amputa; y luego mide qué has perdido de verdad",
+          "rules": "Un problema encontrado cerca del final no recibe el rediseño que merecería. Corta la mitad culpable en vez de apostar por un arreglo apresurado, y mide de inmediato el daño allí donde la cosa debía brillar. A menudo la parte eliminada cargaba con menos valor del que su prominencia sugería.",
+          "flavor": "«Tarde en el proceso quedó claro que poner contadores de lealtad en Planeswalkers creaba varios problemas de desarrollo. Era tan tarde que no había tiempo para reelaborar la mecánica, así que por desgracia la única opción era quitar la parte que otorgaba lealtad. Por suerte, el cambio tuvo muy poco impacto en Limitado, que es donde la mecánica estaba hecha para brillar.»"
+        },
+        {
+          "title": "Cuando cae una suposición de años, las demás vuelven a estar sobre la mesa",
+          "rules": "Un rechazo que lleva años sosteniéndose suele apoyarse en la estabilidad general que lo rodea más que en sus propios méritos. Cuando llega una época de cambio real, ese es el momento de revisar toda la lista de cosas a las que siempre has dicho que no: puede que las condiciones que las justificaban ya no existan.",
+          "flavor": "«En vez de un bloque al año, hacemos dos. En vez de tres bloques por ciclo, hay dos. Las colecciones básicas han desaparecido… Bueno, en cuanto empiezas a hacer cambios así de grandes, te abres a hacer otros cambios grandes.» La petición largamente rechazada: más del bloque nuevo en el draft. «En vez de preguntar “¿deberíamos hacerlo?”, preguntamos “¿qué tendríamos que cambiar si lo hiciéramos?”.»"
+        },
+        {
+          "title": "Un cambio de fondo en un lado obliga a un cambio en el otro",
+          "rules": "Cuando una mitad de una estructura emparejada cambia de carácter entre entregas, dejar la otra como estaba no se lee como estabilidad: se lee como que una mitad se ha olvidado. Iguala la magnitud del cambio a propósito, para que las dos sigan pareciendo contrapartes.",
+          "flavor": "«El equipo de diseño intentaba ser más proactivo cambiando los elementos del ciclo. Las mecánicas con sabor a Ulamog dejaban paso a las de Kozilek, así que el lado Eldrazi sufría un cambio fundamental. Eso significaba que el equipo tenía que hacer lo mismo con el lado zendikari. El plan para ello era introducir una nueva palabra clave de Aliados.»"
+        },
+        {
+          "title": "Toma prestado el ritual del género que estás evocando",
+          "rules": "Si retratas algo que un género ha retratado mil veces, ve a mirar cómo se escenifica habitualmente. El momento convencional —la ceremonia que todos reconocen— te da una imagen, un gancho mecánico y un hueco repetible para cada ocasión futura del mismo tipo.",
+          "flavor": "«Me acordé de un cómic de mi juventud: la Liga de la Justicia… El equipo original empezó con siete miembros, y de vez en cuando sumaba uno nuevo. Cada vez que se añadía un miembro, el cómic solía terminar con él prestando juramento de mantener los principios del equipo. Me gustaba la imagen… Además ayudaría en el futuro, según otros Planeswalkers se unieran a la Guardia.»"
+        },
+        {
+          "title": "Rechaza la versión que iguala a todos los miembros",
+          "rules": "Un efecto que da a cada miembro de una clase la misma capacidad nueva es ordenado y equivocado: erosiona las distinciones que hacían que valiera la pena tenerlos por separado, es difícil de equilibrar, y gasta el espacio que necesitarás para entregas futuras. Haz en cambio que cada uno ayude a su manera.",
+          "flavor": "«En nuestra versión original, la habilidad estática daba a todos tus Planeswalkers una nueva habilidad de lealtad, pero desarrollo señaló que eso haría a todos los Planeswalkers más parecidos y crearía un juego repetitivo. Además serían difíciles de equilibrar, y si queríamos poder hacer muchos Juramentos en el futuro, dejaría poco espacio de diseño.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Un serment solennel, partie 2",
+      "dek": "Au lieu de demander « devrions-nous le faire ? », ils ont demandé « que faudrait-il changer si nous le faisions ? ».",
+      "overview": "Comment une extension sur Kozilek est aussi devenue celle où se forme la Garde : la vague, le soutien, la cohorte et les Serments.",
+      "takeaway": "« Pendant des années nous avons ignoré cette suggestion, croyant qu'un réservoir de cartes plus petit donnerait un draft moins riche. Mais dans l'esprit du changement, nous avons enfin décidé de questionner nos hypothèses. »",
+      "lessons": [
+        {
+          "title": "Commencez le remue-méninges par le bout le plus lointain",
+          "rules": "Explorez d'abord la suggestion la plus étrange, pas en dernier. Les directions familières ramènent immanquablement à ce que vous avez déjà bâti : les parcourir dans l'ordre revient à dépenser votre meilleure énergie à redériver votre propre catalogue. Le bout inconnu est la seule part qui peut mener ailleurs.",
+          "flavor": "« Une pratique très courante, quand on cherche des mécaniques neuves par remue-méninges, est de commencer par les suggestions les plus “barrées”. Emprunter des chemins déjà foulés maintes fois ne fera que vous faire refaire des mécaniques déjà faites, tandis que partir d'un endroit neuf permet d'explorer des lieux jamais visités. »"
+        },
+        {
+          "title": "Pour un participant facultatif, trouvez le déclencheur qu'il peut alimenter et que vous pouvez aussi remplir",
+          "rules": "Pour récompenser un partenaire sans être inerte quand vous êtes seul, ne parlez pas du partenaire : parlez d'un événement que l'un ou l'autre peut provoquer. La lecture coopérative devient un bonus, et la chose reste pleinement fonctionnelle en solitaire.",
+          "flavor": "« Nous ne voulions pas imprimer en bordure noire des cartes vides de sens à deux joueurs. Comment se soucier des coéquipiers de façon pertinente sans rendre la carte obsolète en duel ? La solution fut de se soucier d'une chose à laquelle des coéquipiers peuvent contribuer sans être nécessaires… le fait de lancer des sorts. C'est une chose que les autres font et que vous faites aussi. »"
+        },
+        {
+          "title": "La récompense doit convenir à l'état où la condition vous laisse",
+          "rules": "Avant de choisir ce que donne un gain conditionnel, calculez ce dont dispose encore celui qui remplit la condition. Un effet plus gros ne vaut rien pour qui a épuisé ses ressources à y parvenir. Demandez ce qui lui manque précisément à cet instant, et payez-le en cela.",
+          "flavor": "« Nous avons joué avec l'idée que cela améliore le sort, effet plus grand ou second effet synergique. Finalement, nous avons jugé plus important de garantir que vous puissiez le lancer. Après tout, à deux joueurs, il fallait avoir lancé un autre sort — donc il ne restait pas beaucoup de mana. D'où le choix d'une réduction de coût. »"
+        },
+        {
+          "title": "Quand vous ployez une règle, donnez au relecteur une sortie propre",
+          "rules": "Plaider une exception est bien plus facile quand elle est détachable. Construisez-la pour que le fond fonctionne sans la partie contestée, dites-le explicitement à la passation, et l'équipe suivante pourra tester les deux versions au lieu de devoir accepter ou rejeter la vôtre en bloc.",
+          "flavor": "« Nous ne voulions pas employer le mot “coéquipier” dans chaque extension, mais dans celle qui parle de la formation d'une équipe, cela nous semblait un ploiement acceptable. Nous avons insisté auprès du développement : la mécanique marchait encore sans la partie coéquipier, ils pouvaient donc la tester et, si l'inclusion posait trop de problèmes, il serait facile de la retirer. »"
+        },
+        {
+          "title": "Abstrayez deux ressources incompatibles d'un cran pour trouver la poignée commune",
+          "rules": "Quand un effet doit servir deux choses sans monnaie commune, ne bâtissez pas deux effets. Montez d'un niveau, décrivez ce dont les deux monnaies sont des cas particuliers, puis agissez là-dessus. Vous obtenez une mécanique unique qui se lit comme une seule idée et atteint les deux.",
+          "flavor": "« Les planeswalkers en jeu se souciaient surtout de loyauté. La façon évidente de les aider serait de leur en donner. Problème : les créatures n'ont pas de loyauté. Nous avons pris du recul et pensé la loyauté plus abstraitement. Les planeswalkers ont une ressource représentée par un marqueur. Les créatures aussi, via les marqueurs +1/+1. »"
+        },
+        {
+          "title": "Quand il est trop tard pour refondre, amputez — puis mesurez ce que vous avez perdu",
+          "rules": "Un problème découvert vers la fin n'obtient pas la refonte qu'il mériterait. Coupez la moitié fautive plutôt que de parier sur un correctif hâtif, et mesurez aussitôt les dégâts là où la chose devait briller. Souvent, la part retirée portait moins de valeur que sa visibilité ne le laissait croire.",
+          "flavor": "« Tard dans le processus, il est apparu que mettre des marqueurs de loyauté sur les planeswalkers créait plusieurs problèmes de développement. C'était si tard qu'il n'y avait pas le temps de refondre la mécanique : la seule option fut de retirer la part accordant de la loyauté. Heureusement, le changement a eu très peu d'impact en Limité, où la mécanique devait briller. »"
+        },
+        {
+          "title": "Une hypothèse ancienne tombe, et toutes les autres redeviennent discutables",
+          "rules": "Un refus qui tient depuis des années repose d'ordinaire sur la stabilité alentour plus que sur ses propres mérites. Quand vient une période de vrai changement, c'est le moment de reprendre toute la liste de ce à quoi vous avez toujours dit non : les conditions qui les justifiaient ont peut-être déjà disparu.",
+          "flavor": "« Au lieu d'un bloc par an, nous en faisons deux. Au lieu de trois extensions par bloc, deux. Les éditions de base ont disparu… Or, dès qu'on entreprend des changements de cette ampleur, on s'ouvre à d'autres grands changements. » La demande longtemps refusée : plus de la nouvelle extension dans le draft. « Au lieu de demander “devrions-nous ?”, nous avons demandé “que faudrait-il changer si nous le faisions ?” »"
+        },
+        {
+          "title": "Un changement de fond d'un côté oblige un changement de l'autre",
+          "rules": "Quand une moitié d'une structure appariée change de caractère d'un volet à l'autre, laisser l'autre en l'état ne se lit pas comme de la stabilité : cela se lit comme une moitié oubliée. Égalez l'ampleur du changement exprès, pour que les deux continuent d'apparaître comme des pendants.",
+          "flavor": "« L'équipe cherchait à être plus proactive dans le renouvellement des éléments du bloc. Les mécaniques à saveur d'Ulamog cédaient la place à celles de Kozilek : le côté Eldrazi vivait un basculement fondamental. Il fallait donc en faire autant du côté zendikari. Le plan : introduire une nouvelle mécanique à mot-clé pour les Alliés. »"
+        },
+        {
+          "title": "Empruntez le rituel au genre que vous évoquez",
+          "rules": "Si vous représentez une chose qu'un genre a représentée mille fois, allez voir comment on la met en scène d'ordinaire. Le moment convenu — la cérémonie que tout le monde reconnaît — vous donne une image, une accroche mécanique et un emplacement reproductible pour chaque occasion future du même type.",
+          "flavor": "« Je me suis souvenu d'une BD de ma jeunesse : la Ligue des justiciers… L'équipe d'origine comptait sept membres, et de temps à autre elle en accueillait un nouveau. Chaque fois, l'épisode se terminait le plus souvent par un serment de respecter les principes de l'équipe. J'aimais cette image… Cela aiderait aussi à l'avenir, à mesure que d'autres planeswalkers rejoindraient la Garde. »"
+        },
+        {
+          "title": "Refusez la version qui rend tous les membres semblables",
+          "rules": "Un effet qui donne à chaque membre d'une classe la même capacité neuve est bien rangé et faux : il érode les distinctions qui les rendaient dignes d'exister séparément, il est dur à équilibrer, et il consomme l'espace nécessaire aux volets futurs. Faites plutôt que chacun aide à sa manière.",
+          "flavor": "« Dans notre version d'origine, la capacité statique donnait à tous vos planeswalkers une nouvelle capacité de loyauté ; mais le développement a souligné que cela les rendrait plus semblables et créerait un jeu répétitif. De plus, ce serait dur à équilibrer, et si nous voulions pouvoir faire beaucoup de Serments plus tard, cela laisserait peu d'espace de conception. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Um juramento solene, parte 2",
+      "dek": "Em vez de perguntar “devemos fazer isso?”, perguntaram “o que teríamos de mudar se fizéssemos?”.",
+      "overview": "Como uma coleção sobre Kozilek também virou a coleção em que a Guarda se forma: ímpeto, apoiar, coorte e os Juramentos.",
+      "takeaway": "“Por anos ignoramos essa sugestão, porque acreditávamos que um conjunto menor de cartas daria uma experiência de draft menos robusta. Mas, no espírito da mudança, decidimos enfim questionar nossas suposições.”",
+      "lessons": [
+        {
+          "title": "Comece o brainstorm pela ponta mais distante da lista",
+          "rules": "Explore primeiro a sugestão mais estranha, não por último. As direções familiares levam de volta, com toda a confiabilidade, ao que você já construiu; percorrê-las em ordem significa gastar sua melhor energia rederivando o próprio catálogo. A ponta desconhecida é a única parte capaz de levar a algum lugar novo.",
+          "flavor": "“Algo muito comum ao usar um brainstorm para criar mecânicas novas é começar pelas sugestões mais ‘malucas'. Percorrer caminhos que você já pisou muitas vezes só vai resultar em refazer mecânicas que você já fez; começar por algo fresco permite explorar lugares que talvez você nunca tenha visitado.”"
+        },
+        {
+          "title": "Para um participante opcional, ache o gatilho que ele pode alimentar e você também consegue cumprir",
+          "rules": "Para fazer algo que recompense um parceiro sem ficar morto quando você está sozinho, não mencione o parceiro: mencione um evento que qualquer um dos dois possa causar. A leitura cooperativa vira um bônus por cima, e a coisa continua plenamente funcional sozinha.",
+          "flavor": "“Não queríamos imprimir cartas de borda preta sem sentido em partidas de dois. Como, então, nos importarmos com companheiros de um jeito relevante sem tornar a carta obsoleta num duelo tradicional? A solução foi nos importarmos com algo com que companheiros pudessem ajudar mas que não os exigisse… conjurar mágicas. É algo que outros jogadores fazem e que você também faz.”"
+        },
+        {
+          "title": "A recompensa tem de caber no estado em que a condição te deixa",
+          "rules": "Antes de escolher o que um prêmio condicional dá, calcule o que ainda resta a quem cumpriu a condição. Um efeito maior não vale nada para quem gastou os recursos chegando lá. Pergunte do que essa pessoa está carente naquele exato momento, e pague nisso.",
+          "flavor": "“Brincamos com a ideia de que aquilo melhorasse a mágica, dando um efeito maior ou talvez um segundo efeito sinérgico. No fim, decidimos que era mais importante garantir que você conseguisse conjurá-la. Afinal, num jogo de dois, você tinha de ter conjurado outra mágica — e portanto não tinha muito mana. Isso nos levou a fazer o benefício ser um custo reduzido.”"
+        },
+        {
+          "title": "Quando dobrar uma política, entregue ao revisor um caminho limpo de remoção",
+          "rules": "Defender uma exceção é bem mais fácil quando ela é separável. Construa de modo que a base continue funcionando sem a parte contestada, diga isso explicitamente na passagem de bastão, e a próxima equipe poderá testar as duas versões em vez de ter de aceitar ou rejeitar a sua inteira.",
+          "flavor": "“Sim, não queríamos começar a usar a palavra ‘companheiro' em toda coleção, mas na coleção que trata justamente da formação de um time nos pareceu uma dobra aceitável. Frisamos ao desenvolvimento que a mecânica continuava funcionando sem a parte do companheiro, para que pudessem testá-la e, se a inclusão fosse problemática demais, fosse fácil removê-la depois.”"
+        },
+        {
+          "title": "Abstraia dois recursos incompatíveis um nível acima para achar a alça comum",
+          "rules": "Quando um efeito precisa servir a duas coisas que não compartilham moeda, não construa dois efeitos. Suba um nível e descreva de que as duas moedas são instâncias, e então aja sobre isso. Você fica com uma mecânica só, que se lê como uma ideia só e alcança as duas.",
+          "flavor": "“Planeswalkers no campo de batalha se importavam sobretudo com lealdade. O jeito óbvio de ajudá-los seria dar lealdade extra. O problema é que criaturas não têm lealdade. Demos um passo atrás e pensamos em lealdade de forma mais abstrata. Planeswalkers têm um recurso representado por um marcador. Criaturas também podem, via marcadores +1/+1.”"
+        },
+        {
+          "title": "Quando é tarde demais para refazer, ampute — e então meça o que de fato se perdeu",
+          "rules": "Um problema achado perto do fim não recebe o redesenho que mereceria. Corte a metade culpada em vez de apostar num remendo apressado, e meça imediatamente o estrago onde a coisa deveria brilhar. Muitas vezes a parte removida carregava menos valor do que sua proeminência sugeria.",
+          "flavor": "“Tarde no processo, ficou claro que pôr marcadores de lealdade em planeswalkers criava vários problemas de desenvolvimento. Era tão tarde que não havia tempo para retrabalhar bastante a mecânica, então infelizmente a única opção foi remover a parte que concedia lealdade. Por sorte, a mudança teve pouquíssimo impacto no Limitado, onde a mecânica foi feita para brilhar.”"
+        },
+        {
+          "title": "Quando uma suposição antiga cai, as demais voltam a ficar abertas",
+          "rules": "Uma recusa que se sustenta há anos costuma se apoiar na estabilidade geral em volta, e não nos próprios méritos. Quando chega um período de mudança real, esse é o momento de revisitar a lista inteira das coisas a que você sempre disse não: as condições que as justificavam podem já ter sumido.",
+          "flavor": "“Em vez de um bloco por ano, fazemos dois. Em vez de três coleções por bloco, duas. As coleções básicas acabaram… Pois bem, quando você começa a fazer mudanças desse tamanho, fica aberto a fazer outras grandes mudanças.” O pedido longamente recusado: mais da coleção nova no draft. “Em vez de perguntar ‘devemos fazer isso?', perguntamos ‘o que teríamos de mudar se fizéssemos?'.”"
+        },
+        {
+          "title": "Uma mudança de fundo de um lado obriga uma mudança do outro",
+          "rules": "Quando metade de uma estrutura pareada muda de caráter entre partes, deixar a outra como estava não se lê como estabilidade: lê-se como uma metade esquecida. Iguale a magnitude da mudança de propósito, para que as duas continuem parecendo contrapartes.",
+          "flavor": "“A equipe de design tentava ser mais proativa em renovar os elementos do bloco. As mecânicas com sabor de Ulamog davam lugar às de Kozilek, então o lado Eldrazi passava por uma virada fundamental. Isso significava que a equipe tinha de fazer o mesmo pelo lado zendikari. O plano era introduzir uma nova palavra-chave de Aliados.”"
+        },
+        {
+          "title": "Empreste o ritual do gênero que você está evocando",
+          "rules": "Se você está retratando algo que um gênero já retratou mil vezes, vá ver como aquilo costuma ser encenado. O momento convencional — a cerimônia que todos reconhecem — te dá uma imagem, um gancho mecânico e uma vaga repetível para toda ocasião futura do mesmo tipo.",
+          "flavor": "“Lembrei de um quadrinho da minha juventude: a Liga da Justiça… O time original começou com sete membros, e de vez em quando acrescentava um novo. Sempre que um membro entrava, a edição em geral terminava com ele fazendo um juramento de sustentar os princípios do time. Eu gostava da imagem… Isso também ajudaria no futuro, conforme outros planeswalkers entrassem na Guarda.”"
+        },
+        {
+          "title": "Rejeite a versão que deixa todos os membros iguais",
+          "rules": "Um efeito que dá a cada membro de uma classe a mesma capacidade nova é arrumadinho e errado: corrói as distinções que faziam valer a pena tê-los separados, é difícil de balancear, e consome o espaço de que você precisará em partes futuras. Faça, em vez disso, cada um ajudar do seu próprio jeito.",
+          "flavor": "“Na nossa versão original, a habilidade estática dava a todos os seus planeswalkers uma nova habilidade de lealdade, mas o desenvolvimento apontou que isso deixaria todos os planeswalkers mais parecidos e criaria jogo repetitivo. Além disso, seriam difíceis de balancear, e se quiséssemos poder fazer muitos Juramentos no futuro, sobraria pouco espaço de design.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "庄严的誓约（下）",
+      "dek": "他们没有问「我们该不该做这件事」，而是问「如果我们做了，我们需要改变什么」。",
+      "overview": "一个关于寇基雷的系列，如何同时成了环旅护卫诞生的那个系列：涌现、支援、群体，以及那些誓约。",
+      "takeaway": "「多年来我们一直无视这个建议，因为我们相信更小的牌池会带来不够丰富的轮抽体验。但本着求变的精神，我们决定终于去质疑一下自己的假设。」",
+      "lessons": [
+        {
+          "title": "头脑风暴要从清单最远的那一端开始",
+          "rules": "先去探索最古怪的那个提议，而不是把它留到最后。那些熟悉的方向会可靠地把你带回你早已造过的东西；按顺序走一遍，就等于把你最好的精力花在重新推导自己的旧目录上。只有那个陌生的一端，才可能把你带到新地方。",
+          "flavor": "「在设计中用头脑风暴去找新机制时，一件很常见的做法是从那些更『离谱』的提议开始。走那些你已经踏过许多遍的路，只会让你把自己做过的机制再做一遍；而从一个新鲜的地方起步，才让你有机会探索那些也许从未去过的所在。」"
+        },
+        {
+          "title": "为一个「可有可无的参与者」，去找那个他能贡献、而你自己也能满足的触发条件",
+          "rules": "要做一样「有队友时给你回报、没队友时也不至于变成废牌」的东西，就别去提那个队友——去提一个「你们两边谁都能造成」的事件。于是那层合作的读法成了额外的加成，而这样东西在你独自一人时依然完全可用。",
+          "flavor": "「我们不想印出在双人对局里毫无意义的黑框牌。那么，我们怎样才能既真的在乎队友、又不让这张牌在传统的两人决斗里变成废纸？解法是：去找一件『队友能帮上忙、但并非非有不可』的事……施放咒语。这是别的牌手会做、而你自己也会做的事。」"
+        },
+        {
+          "title": "那份回报，必须契合这个条件把你留在的那个状态",
+          "rules": "在决定一份有条件的回报给什么之前，先算清楚：满足了这个条件的人，手上还剩下什么。对一个把资源都花在「走到这一步」上的人来说，一个更大的效果一文不值。去问他在那个确切的时刻缺的是什么，然后就用那样东西来付账。",
+          "flavor": "「我们摆弄过『让它强化这个咒语』的想法：要么效果更大，要么再来一个有协同的第二效果。但最后我们认定：更重要的是确保你能把它施放出来。毕竟在双人对局里，你必须先施放过另一个咒语——因此你手上并没有多少法术力。这让我们决定：把这份好处做成费用的减免。」"
+        },
+        {
+          "title": "当你要弯折一条方针时，请给审阅者留一条干净的拆除路径",
+          "rules": "为一项例外辩护，会在这项例外「可被分离」时容易得多。把它造成「拿掉那个有争议的部分之后，底下的东西照样能用」，并在交接时把这一点明说；于是下一支团队可以把两个版本都测一遍，而不必对你的方案整体地接受或否决。",
+          "flavor": "「没错，我们并不想从此在每个系列里都用『队友』这个词；但在这个正好讲『一支队伍成形』的系列里，我们觉得这是一次可以接受的弯折。我们向开发团队强调：把队友那部分拿掉之后，这个机制照样运作；这样他们既能去测试它，而万一觉得『队友』的加入太麻烦，事后拿掉也很容易。」"
+        },
+        {
+          "title": "把两种互不兼容的资源向上抽象一层，去找那个共用的把手",
+          "rules": "当一个效果必须同时服务两样「没有共同货币」的东西时，不要去造两个效果。往上走一层，描述这两种货币各自是什么东西的实例，然后对那个东西下手。你会得到单独一个机制：它读起来是一个念头，却同时够到了两边。",
+          "flavor": "「战场上的鹏洛客主要在乎的是忠诚。帮他们的显然办法就是给他们额外的忠诚。可问题在于，生物并没有忠诚。我们退后一步，用更抽象的方式去想忠诚这回事：鹏洛客拥有一种由指示物代表的资源；而生物也可以通过诸如+1/+1指示物之类的东西拥有它。」"
+        },
+        {
+          "title": "当已经来不及重做时，就截肢——然后去核对你实际失去了什么",
+          "rules": "一个在临近尾声时才被发现的问题，得不到它本应得到的那次重新设计。与其去赌一个仓促的修补，不如把出问题的那一半切掉；然后立刻到「这样东西本该发光的地方」去测量损失。很多时候，被切掉的那部分所承载的价值，比它的显眼程度所暗示的要少。",
+          "flavor": "「到了流程后期，情况已经很清楚：把忠诚指示物放到鹏洛客身上会制造出一堆开发上的问题。那时已经太晚，来不及对这个机制做大幅返工；所以很遗憾，唯一的选择就是把『给予忠诚』的那部分拿掉。所幸，这个改动对限制赛的影响非常小——而这个机制本就是为在限制赛里发光而做的。」"
+        },
+        {
+          "title": "一旦有一条长年的假设倒下，其余的就重新变得可以被打开",
+          "rules": "一条撑了很多年的拒绝，通常靠的是它周围的整体稳定，而不是它自身的道理。当一个真正变革的时期到来时，正是重新翻一遍「你一直说不的那张清单」的时刻：当初为它们提供正当性的那些外部条件，也许早已不复存在。",
+          "flavor": "「我们不再是一年一个环境，而是两个。一个环境不再是三个系列，而是两个。核心系列没有了……那么好，一旦你开始做这么大的改变，你也就对做出别的大改变敞开了。」那个被拒绝了很久的请求是：让轮抽里有更多新系列的包。「我们没有问『我们该不该做这件事』，而是问『如果我们做了，我们需要改变什么』。」"
+        },
+        {
+          "title": "一侧的根本性转变，逼着另一侧也必须转",
+          "rules": "当一个成对结构中的一半在两部作品之间改变了性格时，把另一半原样留着并不会读成「稳定」——它读起来像是有一半被遗忘了。刻意去匹配这次改动的量级，好让这两者继续像是彼此的对应物。",
+          "flavor": "「设计团队当时正试图在『更新环境元素』这件事上更主动一些。带有乌拉莫风味的机制正让位给寇基雷的机制，所以奥札奇那一侧正经历一次根本性的转变。这就意味着，设计团队必须对赞迪卡人那一侧做同样的事。而实现这一点的计划，是引入一个新的盟友关键字机制。」"
+        },
+        {
+          "title": "从你正在唤起的那个类型里，把它的仪式借过来",
+          "rules": "如果你正在描绘一件某个类型已经描绘过一千遍的事，那就去看看它通常是怎么被搬上舞台的。那个约定俗成的时刻——那个人人都认得的仪式——会同时给你一个画面、一个机制上的抓手，以及一个可以在此后每一次同类场合重复使用的位置。",
+          "flavor": "「我想起了我年少时的一部漫画：正义联盟……最初的队伍有七名成员，而每隔一阵子队伍就会加入一位新成员。每当有新成员加入时，那一期漫画常常以他宣誓维护团队原则作结。我喜欢这个画面……而且它在将来也会有用——当其他鹏洛客加入环旅护卫时。」"
+        },
+        {
+          "title": "否掉那个「让所有成员都变得一样」的版本",
+          "rules": "一个「给这一类的每个成员都加上同一项新能力」的效果，整齐，而且是错的：它侵蚀掉了那些让他们值得分开存在的区别；它很难平衡；而且它把你日后各部作品所需要的空间给用光了。改为让每一个都以自己的方式提供帮助。",
+          "flavor": "「在我们最初的版本里，那个静止式异能会给你所有的鹏洛客一个新的忠诚异能；但开发部指出：这会让所有鹏洛客变得更像彼此，并且造成重复的对局。而且它们会很难平衡；再者，如果我们希望将来能做很多张誓约，这样留下的设计空间就很有限了。」"
+        }
+      ]
+    }
+  }
+}
