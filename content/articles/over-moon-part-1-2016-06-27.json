@@ -1,0 +1,268 @@
+{
+  "id": "over-moon-part-1-2016-06-27",
+  "slug": "over-moon-part-1-2016-06-27",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-06-27",
+  "series": { "id": "over-moon", "order": 1, "total": 2 },
+  "tags": ["eldritch-moon", "meld", "unglued", "link", "design-history"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/over-moon-part-1-2016-06-27",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T17:40:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Over the Moon, Part 1",
+      "dek": "Twenty years from a printing-sheet trick to meld, by way of two silver-bordered jokes and a mechanic killed twice.",
+      "overview": "The long road to meld: turning a decorative capability into a load-bearing one, an idea that playtested fine and couldn't be templated, and what happens when the person most upset by a cancellation gets to try again.",
+      "takeaway": "\"Link was the perfect example of an idea that is simple in concept but troubling in execution.\"",
+      "lessons": [
+        {
+          "title": "After using a new capability decoratively, ask what would make it load-bearing",
+          "rules": "A newly discovered technique will first get used for effect, because that's easy and it proves the technique works. The real question comes next: what would have to be true for this to matter functionally? Work backwards from that and the capability stops being a garnish.",
+          "flavor": "One card's figure is knocked off the edge and lands on another card. “But the gag was merely visual. I wanted to find a way to take advantage of this technique to do something mechanically unique. So I asked myself, why would you need to have art on two cards in a way that would matter in how you played them?”"
+        },
+        {
+          "title": "Enumerate what the format permits, then ask which of those needs the new thing",
+          "rules": "Don't start from what would be fun. List the categories the system actually allows, eliminate the ones the capability can't apply to, and then look for the case that couldn't exist without it — a use that merely benefits isn't a justification.",
+          "flavor": "“As I wanted it on the battlefield so you could put the two pieces together, that meant it had to be a permanent. Land didn't make sense, so I was left with an artifact, creature, or enchantment… Whatever I chose would have to explain why it needed two cards. It was then I came up with the idea of making a big creature.”"
+        },
+        {
+          "title": "The second attempt should relax whichever parameter the first one fixed",
+          "rules": "A follow-up to a successful shape isn't more of the same. Find the number the original hard-coded and make it variable — the version that combines with any quantity of itself teaches you something the fixed-size version couldn't.",
+          "flavor": "“Rather than having a right and left side like B.F.M., S.N.O.T. was designed to combine with itself, and not just once but multiple times… What S.N.O.T. added to the mix was the idea that the cards didn't have to be locked into a single location like B.F.M.; S.N.O.T. could be as many cards as you wanted. This idea of modularity would come back.”"
+        },
+        {
+          "title": "Comprehension in testing doesn't measure specification difficulty",
+          "rules": "Two different failure modes wear the same clothes. Something can be immediately obvious to everyone who plays it and still be impossible to state precisely enough for the rules to carry — and testing well is no evidence at all about the second one.",
+          "flavor": "“Link was the perfect example of an idea that is simple in concept but troubling in execution. When we explained the basics to playtesters, they had no problems playing with the cards. The problems were more about how exactly the cards interacted with the rules and whether there was clear templating language to communicate it effectively.”"
+        },
+        {
+          "title": "When the blocker is a definition, find the formulation where the awkward object never exists",
+          "rules": "Some obstacles aren't about behaviour at all — they're about a thing your system has no coherent account of. Don't answer the question; restructure so it never gets asked. If the troublesome entity can be assembled out of ordinary ones, the definition problem evaporates.",
+          "flavor": "“What is the converted mana cost of the left side of B.F.M.? Is it 15 because that's what the cost of the card is, or is it 0 because the left size doesn't have any mana cost?… What if cards could individually exist but then snap together when two or more were on the battlefield? That was the path we went down.”"
+        },
+        {
+          "title": "Hand the retry to whoever grieved the cancellation",
+          "rules": "The person who took a shelving hardest is the one still carrying the idea years later. They know why it failed, they've kept thinking about it, and they'll notice the moment a new capability makes it possible. Give them the next attempt on purpose.",
+          "flavor": "“Shadowmoor was the very first design team that Ken Nagle worked on. No one was more upset than Ken when I decided to shelve link.” Ken brought link back in New Phyrexia; it was killed again. Years later, leading Eldritch Moon: “That's it,” Ken cries out. “We can do it!”"
+        },
+        {
+          "title": "A full cycle of effort isn't a reason to ship it",
+          "rules": "Something can absorb an entire project's worth of work and still be wrong at the end, and the effort already spent makes it harder to see. Someone senior has to be willing to kill it at the last moment — and to have the replacement ready when they do.",
+          "flavor": "“Link went through numerous iterations as Ken and the New Phyrexia design team tried tackling all the various issues. Even as the problems seemed to grow, Ken was determined to find a way to make link work. At the very end of design, right before the set was to be handed off to development, Aaron Forsythe… stepped in and killed link, replacing it with Phyrexian mana.”"
+        },
+        {
+          "title": "Ship the simplest version and leave the extension to whoever comes next",
+          "rules": "When something finally works after years of trying, the temptation is to do everything it can do at once. Do the minimum instead — enough to prove it, few enough to survive failing — and let the elaboration be somebody else's opportunity rather than your risk.",
+          "flavor": "“The design team was instantly enamored with the meld cards, but it took some time to convince all of R&D. We experimented with different numbers of meld cards before deciding to have three. We even fooled around with meld cards using more than two pieces, but decided that we should first walk before we ran—and if meld was a success, future design teams could figure out what new things could be done.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Sobre la luna, parte 1",
+      "dek": "Veinte años desde un truco de la plancha de impresión hasta fundir, pasando por dos bromas de borde plateado y una mecánica asesinada dos veces.",
+      "overview": "El largo camino hasta fundir: convertir una capacidad decorativa en estructural, una idea que se jugaba bien y no se podía redactar, y qué pasa cuando quien más lamentó una cancelación puede volver a intentarlo.",
+      "takeaway": "«Link era el ejemplo perfecto de una idea simple en concepto y problemática en ejecución.»",
+      "lessons": [
+        {
+          "title": "Tras usar una capacidad nueva de forma decorativa, pregunta qué la volvería estructural",
+          "rules": "Una técnica recién descubierta se usará primero por el efecto, porque es fácil y demuestra que funciona. La pregunta de verdad viene después: ¿qué tendría que ser cierto para que esto importe funcionalmente? Trabaja hacia atrás desde ahí y la capacidad dejará de ser adorno.",
+          "flavor": "En una carta, una figura sale despedida del borde y aterriza en otra carta. «Pero el chiste era meramente visual. Quería encontrar la forma de aprovechar esta técnica para hacer algo mecánicamente único. Así que me pregunté: ¿por qué necesitarías tener arte en dos cartas de un modo que importara al jugarlas?»"
+        },
+        {
+          "title": "Enumera lo que el formato permite y pregunta cuál de esas cosas necesita lo nuevo",
+          "rules": "No empieces por lo que sería divertido. Lista las categorías que el sistema realmente permite, elimina aquellas a las que la capacidad no puede aplicarse, y busca el caso que no podría existir sin ella: un uso que solo se beneficia no es una justificación.",
+          "flavor": "«Como lo quería en el campo de batalla para poder juntar las dos piezas, tenía que ser un permanente. La tierra no tenía sentido, así que me quedaban artefacto, criatura o encantamiento… Lo que eligiera tendría que explicar por qué necesitaba dos cartas. Fue entonces cuando se me ocurrió hacer una criatura enorme.»"
+        },
+        {
+          "title": "El segundo intento debe liberar el parámetro que el primero fijó",
+          "rules": "La continuación de una forma exitosa no es más de lo mismo. Encuentra el número que el original dejó fijo y hazlo variable: la versión que se combina con cualquier cantidad de sí misma te enseña algo que la de tamaño fijo no podía.",
+          "flavor": "«En vez de tener lado derecho e izquierdo como B.F.M., S.N.O.T. se diseñó para combinarse consigo misma, y no una vez sino varias… Lo que S.N.O.T. añadió fue la idea de que las cartas no tenían que estar fijadas a un único lugar como B.F.M.; S.N.O.T. podía ser tantas cartas como quisieras. Esa idea de modularidad volvería.»"
+        },
+        {
+          "title": "Que se entienda en pruebas no mide la dificultad de especificarlo",
+          "rules": "Dos modos de fallo distintos visten igual. Algo puede resultar inmediatamente obvio para quien lo juega y aun así ser imposible de enunciar con la precisión que las reglas requieren, y probarlo bien no dice absolutamente nada sobre lo segundo.",
+          "flavor": "«Link era el ejemplo perfecto de una idea simple en concepto y problemática en ejecución. Cuando explicábamos lo básico a los probadores, no tenían problemas para jugar las cartas. Los problemas eran más bien cómo interactuaban exactamente con las reglas y si había un lenguaje de plantilla claro para comunicarlo.»"
+        },
+        {
+          "title": "Cuando el bloqueo es una definición, busca la formulación donde el objeto incómodo no exista",
+          "rules": "Algunos obstáculos no son de comportamiento: son sobre una cosa de la que tu sistema no tiene un relato coherente. No respondas la pregunta; reestructura para que nunca se formule. Si la entidad problemática puede ensamblarse a partir de otras corrientes, el problema de definición se evapora.",
+          "flavor": "«¿Cuál es el coste convertido de maná del lado izquierdo de B.F.M.? ¿15, porque es el coste de la carta, o 0, porque el lado izquierdo no tiene coste?… ¿Y si las cartas pudieran existir individualmente y luego encajarse cuando dos o más estuvieran en el campo de batalla? Ese fue el camino que tomamos.»"
+        },
+        {
+          "title": "Dale el reintento a quien lamentó la cancelación",
+          "rules": "Quien peor se tomó un archivado es quien sigue cargando la idea años después. Sabe por qué falló, ha seguido pensando en ella y notará el momento en que una capacidad nueva la haga posible. Dale el siguiente intento a propósito.",
+          "flavor": "«Shadowmoor fue el primer equipo de diseño en el que trabajó Ken Nagle. Nadie se disgustó más que Ken cuando decidí archivar link.» Ken lo trajo de vuelta en New Phyrexia; lo mataron otra vez. Años después, liderando Eldritch Moon: «“Eso es”, grita Ken. “¡Podemos hacerlo!”»"
+        },
+        {
+          "title": "Un ciclo entero de esfuerzo no es razón para publicarlo",
+          "rules": "Algo puede absorber el trabajo de todo un proyecto y seguir estando mal al final, y el esfuerzo ya gastado dificulta verlo. Alguien con autoridad tiene que estar dispuesto a matarlo en el último momento, y a tener el sustituto listo cuando lo haga.",
+          "flavor": "«Link pasó por numerosas iteraciones mientras Ken y el equipo de New Phyrexia intentaban abordar todos los problemas. Aun cuando estos parecían crecer, Ken estaba decidido a hacerlo funcionar. Al final del diseño, justo antes de entregar la edición a desarrollo, Aaron Forsythe intervino y mató link, sustituyéndolo por el maná phyrexiano.»"
+        },
+        {
+          "title": "Publica la versión más simple y deja la ampliación a quien venga después",
+          "rules": "Cuando algo por fin funciona tras años de intentos, la tentación es hacer de golpe todo lo que puede hacer. Haz el mínimo: lo suficiente para demostrarlo y lo bastante poco para sobrevivir a un fracaso, y deja que la elaboración sea la oportunidad de otro y no tu riesgo.",
+          "flavor": "«El equipo se enamoró al instante de las cartas de fundir, pero costó convencer a toda I+D. Experimentamos con distintas cantidades antes de decidirnos por tres. Incluso trasteamos con fundir usando más de dos piezas, pero decidimos que primero había que andar antes que correr; y si fundir era un éxito, futuros equipos ya averiguarían qué más se podía hacer.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Par-delà la lune, partie 1",
+      "dek": "Vingt ans d'une astuce de planche d'impression jusqu'à la fusion, en passant par deux blagues à bordure argentée et une mécanique tuée deux fois.",
+      "overview": "La longue route vers la fusion : transformer une capacité décorative en capacité porteuse, une idée qui se jouait bien et ne se rédigeait pas, et ce qui arrive quand celui que l'annulation a le plus peiné peut réessayer.",
+      "takeaway": "« La liaison était l'exemple parfait d'une idée simple en concept et pénible à l'exécution. »",
+      "lessons": [
+        {
+          "title": "Après un usage décoratif d'une capacité neuve, demandez ce qui la rendrait porteuse",
+          "rules": "Une technique nouvellement trouvée servira d'abord à l'effet, car c'est facile et cela prouve qu'elle marche. La vraie question vient ensuite : que faudrait-il pour que cela compte fonctionnellement ? Remontez depuis là et la capacité cesse d'être une garniture.",
+          "flavor": "Sur une carte, un personnage est projeté hors du bord et atterrit sur une autre carte. « Mais le gag n'était que visuel. Je voulais tirer de cette technique quelque chose de mécaniquement unique. Je me suis donc demandé : pourquoi aurait-on besoin d'une illustration sur deux cartes d'une façon qui compte dans la manière de les jouer ? »"
+        },
+        {
+          "title": "Énumérez ce que le format autorise, puis demandez laquelle de ces choses a besoin du neuf",
+          "rules": "Ne partez pas de ce qui serait amusant. Listez les catégories réellement permises, éliminez celles auxquelles la capacité ne s'applique pas, puis cherchez le cas qui ne pourrait pas exister sans elle — un usage qui en profite seulement n'est pas une justification.",
+          "flavor": "« Comme je la voulais sur le champ de bataille pour pouvoir assembler les deux pièces, ce devait être un permanent. Le terrain n'avait pas de sens ; restaient artefact, créature ou enchantement… Quoi que je choisisse, il faudrait expliquer pourquoi cela nécessitait deux cartes. C'est là que m'est venue l'idée d'une créature énorme. »"
+        },
+        {
+          "title": "La seconde tentative doit libérer le paramètre que la première avait figé",
+          "rules": "La suite d'une forme réussie n'est pas la même chose en plus. Trouvez le nombre que l'original avait codé en dur et rendez-le variable : la version qui se combine à n'importe quelle quantité d'elle-même vous apprend ce que la version à taille fixe ne pouvait pas.",
+          "flavor": "« Au lieu d'un côté droit et d'un côté gauche comme B.F.M., S.N.O.T. était conçue pour se combiner avec elle-même, et pas une seule fois… Ce que S.N.O.T. ajoutait, c'est que les cartes n'avaient pas à être verrouillées à un emplacement unique ; S.N.O.T. pouvait faire autant de cartes qu'on voulait. Cette idée de modularité reviendrait. »"
+        },
+        {
+          "title": "La compréhension en test ne mesure pas la difficulté de spécification",
+          "rules": "Deux modes d'échec portent le même habit. Une chose peut être immédiatement évidente pour qui la joue et rester impossible à énoncer avec la précision qu'exigent les règles — et bien tester ne dit strictement rien du second point.",
+          "flavor": "« La liaison était l'exemple parfait d'une idée simple en concept et pénible à l'exécution. Quand nous en expliquions les bases aux testeurs, ils n'avaient aucun mal à jouer les cartes. Les problèmes tenaient plutôt à leur interaction exacte avec les règles et à l'existence d'une formulation claire pour la communiquer. »"
+        },
+        {
+          "title": "Quand l'obstacle est une définition, trouvez la formulation où l'objet gênant n'existe pas",
+          "rules": "Certains obstacles ne concernent pas le comportement : ils portent sur une chose dont votre système n'a aucun compte cohérent. Ne répondez pas à la question ; restructurez pour qu'elle ne se pose jamais. Si l'entité problématique peut s'assembler à partir d'entités ordinaires, le problème s'évapore.",
+          "flavor": "« Quel est le coût converti du côté gauche de B.F.M. ? 15, puisque c'est le coût de la carte, ou 0, puisque le côté gauche n'en a pas ?… Et si les cartes pouvaient exister individuellement puis s'emboîter dès que deux ou plus sont sur le champ de bataille ? C'est la voie que nous avons prise. »"
+        },
+        {
+          "title": "Confiez la nouvelle tentative à celui qui a pleuré l'annulation",
+          "rules": "Celui qui a le plus mal pris une mise au placard est celui qui porte encore l'idée des années après. Il sait pourquoi elle a échoué, il y a continué de penser, et il verra l'instant où une capacité neuve la rend possible. Donnez-lui la prochaine tentative exprès.",
+          "flavor": "« Shadowmoor fut la toute première équipe de conception de Ken Nagle. Personne ne fut plus contrarié que Ken quand j'ai décidé de remiser la liaison. » Ken la ramena dans New Phyrexia ; elle fut tuée de nouveau. Des années plus tard, à la tête d'Eldritch Moon : « “Ça y est”, s'écrie Ken. “On peut le faire !” »"
+        },
+        {
+          "title": "Un cycle entier d'efforts n'est pas une raison de le sortir",
+          "rules": "Une chose peut absorber le travail d'un projet entier et rester fausse à la fin, et l'effort déjà dépensé rend cela plus difficile à voir. Quelqu'un d'assez haut placé doit accepter de la tuer au dernier moment — et avoir le remplaçant prêt à cet instant.",
+          "flavor": "« La liaison a connu de nombreuses itérations tandis que Ken et l'équipe de New Phyrexia s'attaquaient aux problèmes. Alors même qu'ils semblaient croître, Ken était déterminé à la faire marcher. Tout à la fin de la conception, juste avant la remise au développement, Aaron Forsythe est intervenu et l'a tuée, remplacée par le mana phyrexian. »"
+        },
+        {
+          "title": "Sortez la version la plus simple et laissez l'extension au suivant",
+          "rules": "Quand une chose marche enfin après des années, la tentation est de faire d'un coup tout ce qu'elle permet. Faites le minimum — assez pour le prouver, assez peu pour survivre à un échec — et laissez l'élaboration être l'occasion d'un autre plutôt que votre risque.",
+          "flavor": "« L'équipe s'est instantanément entichée des cartes de fusion, mais il a fallu du temps pour convaincre toute la R&D. Nous avons essayé plusieurs quantités avant d'en retenir trois. Nous avons même bricolé des fusions à plus de deux pièces, mais décidé qu'il fallait marcher avant de courir — et si la fusion réussissait, d'autres équipes trouveraient la suite. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Além da lua, parte 1",
+      "dek": "Vinte anos de um truque da folha de impressão até fundir, passando por duas piadas de borda prateada e uma mecânica morta duas vezes.",
+      "overview": "O longo caminho até fundir: transformar uma capacidade decorativa em estrutural, uma ideia que jogava bem e não dava para redigir, e o que acontece quando quem mais lamentou um cancelamento pode tentar de novo.",
+      "takeaway": "“Link era o exemplo perfeito de uma ideia simples no conceito e problemática na execução.”",
+      "lessons": [
+        {
+          "title": "Depois de usar uma capacidade nova de forma decorativa, pergunte o que a tornaria estrutural",
+          "rules": "Uma técnica recém-descoberta será usada primeiro pelo efeito, porque é fácil e prova que ela funciona. A pergunta de verdade vem depois: o que precisaria ser verdade para isso importar funcionalmente? Trabalhe de trás para frente a partir daí e a capacidade deixa de ser enfeite.",
+          "flavor": "Numa carta, uma figura é arremessada para fora da borda e cai em outra carta. “Mas a piada era meramente visual. Eu queria achar um jeito de aproveitar essa técnica para fazer algo mecanicamente único. Então me perguntei: por que você precisaria de arte em duas cartas de um jeito que importasse na hora de jogá-las?”"
+        },
+        {
+          "title": "Enumere o que o formato permite e pergunte qual dessas coisas precisa do novo",
+          "rules": "Não comece pelo que seria divertido. Liste as categorias que o sistema de fato permite, elimine aquelas a que a capacidade não se aplica, e então procure o caso que não poderia existir sem ela — um uso que apenas se beneficia não é justificativa.",
+          "flavor": "“Como eu a queria no campo de batalha para poder juntar as duas peças, tinha de ser uma permanente. Terreno não fazia sentido, então sobravam artefato, criatura ou encantamento… O que eu escolhesse teria de explicar por que precisava de duas cartas. Foi aí que me veio a ideia de fazer uma criatura enorme.”"
+        },
+        {
+          "title": "A segunda tentativa deve soltar o parâmetro que a primeira fixou",
+          "rules": "A continuação de um formato bem-sucedido não é mais do mesmo. Ache o número que o original deixou fixo e torne-o variável: a versão que se combina com qualquer quantidade de si mesma ensina algo que a de tamanho fixo não podia.",
+          "flavor": "“Em vez de ter lado direito e esquerdo como B.F.M., S.N.O.T. foi projetada para se combinar consigo mesma, e não uma vez, mas várias… O que S.N.O.T. acrescentou foi a ideia de que as cartas não precisavam ficar travadas num único lugar; S.N.O.T. podia ser quantas cartas você quisesse. Essa ideia de modularidade voltaria.”"
+        },
+        {
+          "title": "Ser compreendido nos testes não mede a dificuldade de especificar",
+          "rules": "Dois modos de falha vestem a mesma roupa. Algo pode ser imediatamente óbvio para quem joga e ainda assim ser impossível de enunciar com a precisão que as regras exigem — e testar bem não diz absolutamente nada sobre o segundo.",
+          "flavor": "“Link era o exemplo perfeito de uma ideia simples no conceito e problemática na execução. Quando explicávamos o básico aos testadores, eles não tinham problema em jogar as cartas. Os problemas eram mais sobre como exatamente as cartas interagiam com as regras e se havia uma linguagem de modelo clara para comunicar isso.”"
+        },
+        {
+          "title": "Quando o bloqueio é uma definição, ache a formulação em que o objeto incômodo não existe",
+          "rules": "Alguns obstáculos não são de comportamento: são sobre uma coisa da qual o seu sistema não tem relato coerente. Não responda à pergunta; reestruture para que ela nunca seja feita. Se a entidade problemática puder ser montada a partir de entidades comuns, o problema de definição evapora.",
+          "flavor": "“Qual é o custo de mana convertido do lado esquerdo de B.F.M.? É 15, porque esse é o custo da carta, ou 0, porque o lado esquerdo não tem custo?… E se as cartas pudessem existir individualmente e então se encaixassem quando duas ou mais estivessem no campo de batalha? Foi esse o caminho que seguimos.”"
+        },
+        {
+          "title": "Entregue a nova tentativa a quem lamentou o cancelamento",
+          "rules": "Quem levou pior um arquivamento é quem ainda carrega a ideia anos depois. Ele sabe por que falhou, continuou pensando nela, e vai notar o instante em que uma capacidade nova a torne possível. Dê a ele a próxima tentativa de propósito.",
+          "flavor": "“Shadowmoor foi a primeira equipe de design em que Ken Nagle trabalhou. Ninguém ficou mais chateado que Ken quando decidi engavetar o link.” Ken o trouxe de volta em New Phyrexia; foi morto de novo. Anos depois, liderando Eldritch Moon: “‘É isso', Ken exclama. ‘Nós conseguimos!'”"
+        },
+        {
+          "title": "Um ciclo inteiro de esforço não é razão para lançar",
+          "rules": "Algo pode absorver o trabalho de um projeto inteiro e continuar errado no fim, e o esforço já gasto torna isso mais difícil de enxergar. Alguém sênior precisa estar disposto a matá-lo no último momento — e a ter o substituto pronto quando o fizer.",
+          "flavor": "“O link passou por inúmeras iterações enquanto Ken e a equipe de New Phyrexia tentavam resolver todas as questões. Mesmo com os problemas parecendo crescer, Ken estava determinado a fazê-lo funcionar. Bem no fim do design, pouco antes da entrega ao desenvolvimento, Aaron Forsythe interveio e matou o link, substituindo-o pelo mana phyrexiano.”"
+        },
+        {
+          "title": "Lance a versão mais simples e deixe a ampliação para quem vier depois",
+          "rules": "Quando algo finalmente funciona depois de anos, a tentação é fazer de uma vez tudo o que aquilo permite. Faça o mínimo — o bastante para provar, e poucos o bastante para sobreviver a um fracasso — e deixe a elaboração ser a oportunidade de outra pessoa, não o seu risco.",
+          "flavor": "“A equipe se encantou na hora com as cartas de fundir, mas levou tempo para convencer toda a P&D. Experimentamos números diferentes antes de fixar em três. Chegamos a brincar com fundir usando mais de duas peças, mas decidimos que era preciso andar antes de correr — e, se fundir desse certo, equipes futuras descobririam o que mais dava para fazer.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "月之彼端（上）",
+      "dek": "从一个印刷版面的小技巧到「融合」，走了二十年；中间经过两个银边玩笑，和一个被杀掉两次的机制。",
+      "overview": "通往融合的漫长道路：把一项装饰性的能力变成承重的能力；一个试玩顺利、却写不成规则文字的想法；以及当那个「为取消最难过的人」有机会再试一次时会发生什么。",
+      "takeaway": "「『连结』是那种『概念上简单、执行上麻烦』的想法的完美范例。」",
+      "lessons": [
+        {
+          "title": "在把一项新能力用作装饰之后，去问什么才能让它承重",
+          "rules": "一项刚发现的技术，最先会被用来出效果，因为那容易，而且能证明这项技术管用。真正的问题在后面：要让它在功能上要紧，什么必须成立？从那里倒推回来，这项能力就不再是配菜。",
+          "flavor": "一张牌上的角色被打飞出边框，落到了另一张牌上。「但这个梗纯粹是视觉上的。我想找到办法利用这项技术，去做出某种机制上独一无二的东西。于是我问自己：为什么你会需要让画面横跨两张牌、并且这件事在你打牌时是要紧的？」"
+        },
+        {
+          "title": "把这个形式允许的东西列出来，然后问其中哪一样需要这个新东西",
+          "rules": "别从「什么会好玩」出发。列出这套系统实际允许的类别，把这项能力用不上的划掉，然后去找那个「没有它就不可能存在」的情形——一个只是从中获益的用法，不构成正当理由。",
+          "flavor": "「因为我想让它在战场上，好让你能把两块拼起来，所以它必须是永久物。地说不通，于是我剩下神器、生物和结界……无论我选哪一个，它都必须解释清楚为什么它需要两张牌。就在那时，我想到了做一个巨大生物。」"
+        },
+        {
+          "title": "第二次尝试，应该把第一次写死的那个参数放开",
+          "rules": "一个成功形状的续作，不是同样东西再来一遍。找出原版硬编码进去的那个数字，把它变成可变的：那个「能与任意数量的自己合体」的版本，会教给你固定尺寸版本教不了的东西。",
+          "flavor": "「与其像B.F.M.那样有左右两半，S.N.O.T.被设计成与自己合体，而且不止一次、可以多次……S.N.O.T.额外带来的，是『这些牌不必像B.F.M.那样被锁死在单一位置上』这个想法；S.N.O.T.可以是你想要的任意张数。这份模块化的想法后来会再回来。」"
+        },
+        {
+          "title": "在测试中被理解，量不出「把它写清楚有多难」",
+          "rules": "两种不同的失效方式穿着同一件衣服。一样东西可以对每一个上手玩它的人都一目了然，同时又完全无法被精确到「规则承载得住」的程度——而「测试顺利」对后面这一点毫无证明力。",
+          "flavor": "「『连结』是那种『概念上简单、执行上麻烦』的想法的完美范例。当我们把基本原理讲给试玩者听时，他们打这些牌毫无问题。问题更多在于这些牌究竟如何与规则互动，以及是否存在一套清晰的模板语言能把它有效地传达出来。」"
+        },
+        {
+          "title": "当挡路的是一个定义时，去找那个「让这个尴尬对象根本不存在」的表述",
+          "rules": "有些障碍完全不关行为的事——它们关乎一样你的系统给不出连贯说法的东西。别去回答那个问题；重新组织，让这个问题根本不会被提出来。如果那个麻烦的实体可以用普通实体拼装出来，定义问题就蒸发了。",
+          "flavor": "「B.F.M.左半边的总法术力费用是多少？是15，因为那是这张牌的费用；还是0，因为左半边根本没有法术力费用？……要是这些牌可以各自单独存在，然后在两张或更多同时在战场上时咔嗒一声扣到一起呢？我们走的就是这条路。」"
+        },
+        {
+          "title": "把重试的机会交给那个为取消而难过的人",
+          "rules": "把一次搁置看得最重的那个人，就是多年之后仍然揣着这个想法的那个人。他知道它当初为什么失败、他一直在想它，而且当一项新能力让它成为可能的那一刻，他会察觉到。有意识地把下一次尝试交给他。",
+          "flavor": "「《暗影微光》是肯·内格尔参与的第一支设计团队。当我决定把『连结』搁置时，没有人比肯更沮丧。」肯在《新非瑞克西亚》里把它带了回来；它又一次被杀掉。多年后，在主导《异月传奇》时：「『就是它，』肯喊道，『我们做得成！』」"
+        },
+        {
+          "title": "投进去一整个周期的力气，不构成把它发出去的理由",
+          "rules": "一样东西可以吃掉一整个项目份量的工作，到最后仍然是错的；而已经花掉的力气，会让这一点更难被看见。必须有一个够资历的人愿意在最后一刻把它杀掉——并且在动手时，替代方案已经就位。",
+          "flavor": "「随着肯和《新非瑞克西亚》设计团队试图解决各种问题，『连结』经历了无数次迭代。即便问题看起来越来越多，肯依然决心要让它成立。在设计的最末尾、就在这个系列即将交给开发之前，亚伦·福赛斯介入并杀掉了连结，用非瑞克西亚法术力取而代之。」"
+        },
+        {
+          "title": "发出最简单的版本，把扩展留给后来的人",
+          "rules": "当一样东西在尝试多年之后终于成立时，诱惑是把它能做的一切一次做完。反过来，做最小的那一份——足以证明它、又少到失败也熬得过去——并且让那些精细化成为别人的机会，而不是你的风险。",
+          "flavor": "「设计团队立刻就爱上了融合牌，但要说服整个研发部还花了些时间。我们试过不同的融合牌数量，最后定为三组。我们甚至摆弄过用超过两块的融合牌，但决定应该先学会走再学跑——而如果融合成功了，未来的设计团队可以去琢磨还能拿它做出什么新东西。」"
+        }
+      ]
+    }
+  }
+}
