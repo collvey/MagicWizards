@@ -1,0 +1,294 @@
+{
+  "id": "aether-way-part-1-2017-01-16",
+  "slug": "aether-way-part-1-2017-01-16",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2017-01-16",
+  "series": { "id": "aether-way", "order": 1, "total": 3 },
+  "tags": ["aether-revolt", "card-by-card", "cycles", "top-down", "planeswalkers"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/aether-way-part-1-2017-01-16",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T15:30:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "U" },
+    { "n": 9, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "The Aether Way, Part 1",
+      "dek": "Card-by-card stories from Aether Revolt: a cycle aimed at everyone at once, two teams inventing the same thing, and a 12/12 offered as a dare.",
+      "overview": "Design stories from A to D — how a cycle is built to be attractive to one audience and usable by all, what happens when you remove the mechanic that was solving a problem, and how the last mechanic slot gets decided by the ones already filled.",
+      "takeaway": "\"Two teams trying to solve a similar problem with the same tools come up with solutions that look a lot alike.\"",
+      "lessons": [
+        {
+          "title": "Aim each piece at one audience and keep it usable by all of them",
+          "rules": "A set of parallel options works hardest when each is clearly the choice for one group and still functional for anyone else who needs it in a pinch. That second property is what makes the whole thing hold up when people can't get the piece they wanted.",
+          "flavor": "“This cycle is designed so that each card is more attractive to players in that color, but still useable in a pinch if you need extra artifacts in your deck. Cycles like this are important for helping Limited work while also helping guide players when building a casual artifact deck.”"
+        },
+        {
+          "title": "Write it so it still works when your own supporting piece doesn't show up",
+          "rules": "A component built for a particular partner is dead weight on the days the partner is absent — and it will be absent often, including in the situations you controlled least. Widen the requirement so the thing degrades into something ordinary instead of nothing.",
+          "flavor": "“Note that the cards say ‘Enchant creature or Vehicle' because we wanted to make the cards as flexible as possible. If you don't happen to have a Vehicle, the Modifications can just be used like a normal Aura on a creature. This matters not just for Limited… but also in Constructed games where your Vehicles stubbornly won't show up.”"
+        },
+        {
+          "title": "Remove the thing that was solving a problem and you get the problem back",
+          "rules": "A component is rarely doing only the job it was named for. When you cut it, list what quietly depended on it — the load it was carrying doesn't disappear, it just moves to whoever notices last.",
+          "flavor": "“Once the decision was made to not use fabricate in Aether Revolt, there was a problem… One of the ways Kaladesh made its ‘artifacts matter' theme work was creating a lot of artifact creature tokens. That meant that Aether Revolt would have to find a flavorful way to create its own artifact creature tokens.”"
+        },
+        {
+          "title": "The same problem and the same tools produce the same answer twice",
+          "rules": "Convergent solutions are evidence that the constraints are doing the work, not the people. Don't treat a rediscovery as a mistake or as theft — treat it as confirmation that the answer was the shape of the problem all along.",
+          "flavor": "“This design was made in development, but it paralleled a cycle we had originally made in Kaladesh… Interestingly, I don't think the development team was aware that this cycle previously existed. As often happens in design, two teams trying to solve a similar problem with the same tools come up with solutions that look a lot alike.”"
+        },
+        {
+          "title": "Turn the fragility into the deterrent",
+          "rules": "When a thing is too strong, the tempting fix is a flat cap, which is inelegant, or exposure to risk, which is punishing. Better is to make the exposure itself generate the escape — then the vulnerability stops being a cost and becomes the reason nobody attacks it.",
+          "flavor": "“Aethergeode Miner gives you energy when it attacks. Normally, this would be troublesome because a 3/1 is very easy to kill in combat, but it has an activation that you can use, taking advantage of the energy you just got to flicker itself if things go badly. This discourages your opponent from blocking the Miner.”"
+        },
+        {
+          "title": "If the character is defined by what they do for others, point every ability outward",
+          "rules": "When you've established that someone's whole nature is directed at other people, that has to be legible in the mechanics rather than only in the text. Every capability should require someone else to be worth anything — including the weakness that follows from it.",
+          "flavor": "“Ajani is very much defined by what he can do for others… his magic has always been about enhancing other creatures and/or planeswalkers. Ajani is most powerless when he is alone. His magic is never turned inward, always outward. That is why he is such a great candidate for a team.”"
+        },
+        {
+          "title": "The last slot's criterion is set by whatever already filled the others",
+          "rules": "When you have to cut from five to three, the survivors aren't the three best in isolation. The first two are decided on their own merits, and then the third is judged against the budget the first two already spent — so the winner is whichever candidate is cheapest, not whichever is most loved.",
+          "flavor": "“It became apparent that the five mechanics in combination were too high in complexity, so we chose to drop down to three. Energy had to stay as it was the backbone of the design. Vehicles were a splashy thing that players had clamored about for years. That left just one slot. Reverse engineer proved to be not simple enough.”"
+        },
+        {
+          "title": "Reject the obvious mapping when it misdescribes who is doing what",
+          "rules": "The mechanically nearest match to an event is often flavourfully wrong in a way that only shows on inspection. Ask what the actor actually wants — taking a thing away is not the same as using it — and the correct effect is usually a different one you already own.",
+          "flavor": "“If it's blue, we could literally take control of the opponent's artifacts. But the Consulate isn't really using the artifacts, so the flavor's a little off. They're taking them away so the owners can't use them. At some point, we thought of it as the Consulate putting the artifacts in jail. And that we have an effect for.”"
+        },
+        {
+          "title": "When the gatekeeper says “make it cool enough,” overshoot",
+          "rules": "A conditional yes is an invitation to set the bar yourself. Meeting the stated ask exactly leaves the decision on the merits; going conspicuously past it turns the conversation into one about whether the bold version can be made to work.",
+          "flavor": "“I designed Phyrexian Dreadnought during the development of Mirage. I wanted to get a 12/12 into the set… and the lead developer, Bill Rose, told me he'd consider it if I designed something cool enough. I came back with ‘How about a 12/12 trampler for one mana?'”"
+        }
+      ]
+    },
+    "es": {
+      "title": "El camino del éter, parte 1",
+      "dek": "Historias carta por carta de Aether Revolt: un ciclo dirigido a todos a la vez, dos equipos inventando lo mismo y un 12/12 ofrecido como desafío.",
+      "overview": "Historias de diseño de la A a la D: cómo se construye un ciclo para resultar atractivo a un público y utilizable por todos, qué pasa cuando eliminas la mecánica que estaba resolviendo un problema, y cómo se decide el último hueco de mecánica según los que ya están ocupados.",
+      "takeaway": "«Dos equipos que intentan resolver un problema parecido con las mismas herramientas llegan a soluciones que se parecen mucho.»",
+      "lessons": [
+        {
+          "title": "Apunta cada pieza a un público y mantenla utilizable por todos ellos",
+          "rules": "Un conjunto de opciones paralelas rinde más cuando cada una es claramente la elección de un grupo y sigue siendo funcional para cualquier otro que la necesite en un apuro. Esa segunda propiedad es la que sostiene el conjunto cuando la gente no consigue la pieza que quería.",
+          "flavor": "«Este ciclo está diseñado para que cada carta resulte más atractiva a los jugadores de ese color, pero siga siendo utilizable en un apuro si necesitas artefactos extra en tu mazo. Ciclos así son importantes para que el Limitado funcione y a la vez para guiar a quien construye un mazo casual de artefactos.»"
+        },
+        {
+          "title": "Escríbelo de forma que siga funcionando cuando tu propia pieza de apoyo no aparezca",
+          "rules": "Un componente hecho para una pareja concreta es lastre los días en que esa pareja falta, y faltará a menudo, incluso en las situaciones que menos controlabas. Ensancha el requisito para que la cosa degrade a algo corriente en vez de a nada.",
+          "flavor": "«Fíjate en que las cartas dicen “Encantar criatura o Vehículo” porque queríamos hacerlas lo más flexibles posible. Si no tienes un Vehículo, las Modificaciones se pueden usar como un Aura normal sobre una criatura. Esto importa no solo en Limitado… sino también en Construido, cuando tus Vehículos se empeñan en no aparecer.»"
+        },
+        {
+          "title": "Quita lo que estaba resolviendo un problema y recuperas el problema",
+          "rules": "Un componente rara vez hace solo el trabajo por el que se le puso nombre. Cuando lo cortes, enumera qué dependía calladamente de él: la carga que llevaba no desaparece, solo se traslada a quien tarde más en darse cuenta.",
+          "flavor": "«Una vez tomada la decisión de no usar fabricar en Aether Revolt, había un problema… Una de las formas en que Kaladesh hizo funcionar su tema de “los artefactos importan” fue crear muchas fichas de criatura artefacto. Eso significaba que Aether Revolt tendría que encontrar su propia manera con sabor de crearlas.»"
+        },
+        {
+          "title": "El mismo problema con las mismas herramientas produce la misma respuesta dos veces",
+          "rules": "Las soluciones convergentes son prueba de que el trabajo lo hacen las restricciones, no las personas. No trates un redescubrimiento como un error ni como un plagio: trátalo como confirmación de que la respuesta era la forma del problema desde el principio.",
+          "flavor": "«Este diseño se hizo en desarrollo, pero era paralelo a un ciclo que habíamos hecho originalmente en Kaladesh… Curiosamente, no creo que el equipo de desarrollo supiera que ese ciclo ya había existido. Como suele pasar en diseño, dos equipos que resuelven un problema parecido con las mismas herramientas llegan a soluciones muy parecidas.»"
+        },
+        {
+          "title": "Convierte la fragilidad en la disuasión",
+          "rules": "Cuando algo es demasiado fuerte, el arreglo tentador es un tope plano, que es poco elegante, o la exposición al riesgo, que es un castigo. Mejor es hacer que la propia exposición genere la escapatoria: entonces la vulnerabilidad deja de ser un coste y pasa a ser la razón por la que nadie la ataca.",
+          "flavor": "«Aethergeode Miner te da energía cuando ataca. Normalmente eso sería problemático, porque una 3/1 es muy fácil de matar en combate, pero tiene una activación que puedes usar aprovechando la energía que acabas de obtener para parpadearse si las cosas van mal. Esto desanima al oponente de bloquearla.»"
+        },
+        {
+          "title": "Si el personaje se define por lo que hace por los demás, que todas sus habilidades apunten hacia fuera",
+          "rules": "Cuando has establecido que la naturaleza entera de alguien está dirigida a otras personas, eso tiene que ser legible en las mecánicas y no solo en el texto. Cada capacidad debería necesitar a otro para valer algo, incluida la debilidad que de ahí se sigue.",
+          "flavor": "«Ajani se define mucho por lo que puede hacer por los demás… su magia siempre ha ido de potenciar a otras criaturas y/o planeswalkers. Ajani es más impotente cuando está solo. Su magia nunca se vuelve hacia dentro, siempre hacia fuera. Por eso es tan buen candidato para un equipo.»"
+        },
+        {
+          "title": "El criterio del último hueco lo fijan los que ya están ocupados",
+          "rules": "Cuando hay que bajar de cinco a tres, los supervivientes no son los tres mejores por separado. Los dos primeros se deciden por sus méritos, y luego el tercero se juzga contra el presupuesto que ya gastaron los dos primeros: gana el candidato más barato, no el más querido.",
+          "flavor": "«Se hizo evidente que las cinco mecánicas juntas tenían demasiada complejidad, así que optamos por bajar a tres. Energía tenía que quedarse, era la columna vertebral del diseño. Los Vehículos eran algo vistoso que los jugadores llevaban años pidiendo. Quedaba un solo hueco. Ingeniería inversa resultó no ser lo bastante simple.»"
+        },
+        {
+          "title": "Rechaza la correspondencia obvia cuando describe mal quién hace qué",
+          "rules": "La coincidencia mecánicamente más cercana a un suceso suele ser errónea en cuanto al sabor, de un modo que solo se ve si lo miras. Pregunta qué quiere de verdad el actor —quitar algo no es lo mismo que usarlo— y el efecto correcto suele ser otro que ya tienes.",
+          "flavor": "«Si es azul, podríamos literalmente tomar control de los artefactos del oponente. Pero el Consulado no está usando realmente los artefactos, así que el sabor no cuadra. Se los quita para que sus dueños no puedan usarlos. En algún momento lo pensamos como el Consulado metiendo los artefactos en la cárcel. Y ese efecto sí lo tenemos.»"
+        },
+        {
+          "title": "Cuando el guardián dice «hazlo lo bastante genial», pásate",
+          "rules": "Un sí condicionado es una invitación a poner tú mismo el listón. Cumplir la petición exacta deja la decisión en los méritos; pasarse de forma llamativa convierte la conversación en si la versión audaz se puede hacer funcionar.",
+          "flavor": "«Diseñé Phyrexian Dreadnought durante el desarrollo de Mirage. Quería meter un 12/12 en la edición… y el desarrollador jefe, Bill Rose, me dijo que lo consideraría si diseñaba algo lo bastante genial. Volví con “¿Qué tal un 12/12 con arrolladora por un maná?”»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "La voie de l'éther, partie 1",
+      "dek": "Histoires carte par carte d'Aether Revolt : un cycle visant tout le monde à la fois, deux équipes inventant la même chose, et un 12/12 proposé comme un défi.",
+      "overview": "Histoires de conception de A à D : comment un cycle se construit pour séduire un public et rester utilisable par tous, ce qui arrive quand on retire la mécanique qui réglait un problème, et comment le dernier emplacement de mécanique se décide d'après ceux déjà pris.",
+      "takeaway": "« Deux équipes cherchant à résoudre un problème semblable avec les mêmes outils aboutissent à des solutions qui se ressemblent beaucoup. »",
+      "lessons": [
+        {
+          "title": "Visez chaque pièce sur un public et gardez-la utilisable par tous",
+          "rules": "Un jeu d'options parallèles rend le plus quand chacune est clairement le choix d'un groupe tout en restant fonctionnelle pour quiconque en a besoin faute de mieux. C'est cette seconde propriété qui fait tenir l'ensemble les jours où l'on n'obtient pas la pièce voulue.",
+          "flavor": "« Ce cycle est conçu pour que chaque carte soit plus attirante pour les joueurs de cette couleur, tout en restant utilisable au besoin si vous voulez plus d'artefacts. De tels cycles sont importants pour faire marcher le Limité tout en guidant ceux qui montent un deck d'artefacts en partie libre. »"
+        },
+        {
+          "title": "Écrivez-le pour qu'il marche encore quand votre propre pièce d'appui manque",
+          "rules": "Un composant fait pour un partenaire précis est un poids mort les jours où ce partenaire manque — et il manquera souvent, y compris dans les situations que vous maîtrisiez le moins. Élargissez l'exigence pour que la chose se dégrade en quelque chose d'ordinaire plutôt qu'en rien.",
+          "flavor": "« Notez que les cartes disent “Enchanter : créature ou Véhicule” car nous voulions les rendre aussi souples que possible. Sans Véhicule, les Modifications s'utilisent comme une Aura ordinaire. Cela compte non seulement en Limité… mais aussi en Construit, quand vos Véhicules s'obstinent à ne pas venir. »"
+        },
+        {
+          "title": "Retirez ce qui réglait un problème et le problème revient",
+          "rules": "Un composant fait rarement seulement le travail qui lui a donné son nom. En le coupant, énumérez ce qui en dépendait discrètement : la charge qu'il portait ne disparaît pas, elle passe à celui qui s'en apercevra en dernier.",
+          "flavor": "« Une fois décidé de ne pas utiliser fabrication dans Aether Revolt, il y avait un problème… L'une des façons dont Kaladesh faisait marcher son thème “les artefacts comptent” était de créer beaucoup de jetons de créature-artefact. Aether Revolt allait donc devoir trouver sa propre manière, savoureuse, d'en produire. »"
+        },
+        {
+          "title": "Le même problème avec les mêmes outils produit deux fois la même réponse",
+          "rules": "Les solutions convergentes prouvent que ce sont les contraintes qui travaillent, pas les personnes. Ne traitez pas une redécouverte comme une erreur ni comme un vol : c'est la confirmation que la réponse était la forme du problème depuis le début.",
+          "flavor": "« Cette conception vient du développement, mais elle recoupait un cycle fait à l'origine dans Kaladesh… Curieusement, je ne crois pas que l'équipe de développement savait que ce cycle avait existé. Comme souvent en conception, deux équipes résolvant un problème semblable avec les mêmes outils trouvent des solutions très proches. »"
+        },
+        {
+          "title": "Faites de la fragilité la dissuasion",
+          "rules": "Quand une chose est trop forte, la tentation est un plafond sec, peu élégant, ou l'exposition au risque, qui punit. Mieux vaut que l'exposition elle-même produise l'échappatoire : la vulnérabilité cesse d'être un coût et devient la raison pour laquelle personne ne s'y attaque.",
+          "flavor": "« Aethergeode Miner vous donne de l'énergie quand il attaque. Normalement ce serait gênant car une 3/1 se tue facilement au combat, mais il a une activation qui exploite l'énergie tout juste gagnée pour se faire clignoter si les choses tournent mal. Cela décourage l'adversaire de le bloquer. »"
+        },
+        {
+          "title": "Si le personnage se définit par ce qu'il fait pour autrui, tournez chaque capacité vers l'extérieur",
+          "rules": "Quand vous avez établi que toute la nature de quelqu'un est tournée vers les autres, cela doit se lire dans les mécaniques et pas seulement dans le texte. Chaque capacité devrait exiger autrui pour valoir quelque chose — y compris la faiblesse qui en découle.",
+          "flavor": "« Ajani se définit largement par ce qu'il peut faire pour les autres… sa magie a toujours consisté à améliorer d'autres créatures et/ou planeswalkers. Ajani est le plus impuissant quand il est seul. Sa magie n'est jamais tournée vers l'intérieur, toujours vers l'extérieur. D'où son excellence en équipe. »"
+        },
+        {
+          "title": "Le critère de la dernière place est fixé par celles déjà prises",
+          "rules": "Quand il faut passer de cinq à trois, les survivants ne sont pas les trois meilleurs pris isolément. Les deux premiers se décident sur leurs mérites, puis le troisième est jugé contre le budget déjà dépensé par les deux autres : gagne le candidat le moins coûteux, pas le plus aimé.",
+          "flavor": "« Il est devenu clair que les cinq mécaniques combinées étaient trop complexes ; nous sommes descendus à trois. L'énergie devait rester, c'était l'ossature. Les Véhicules étaient une chose voyante réclamée depuis des années. Restait une place. L'ingénierie inverse s'est révélée pas assez simple. »"
+        },
+        {
+          "title": "Rejetez la correspondance évidente quand elle décrit mal qui fait quoi",
+          "rules": "Le rapprochement mécaniquement le plus proche d'un événement est souvent faux quant au ressenti, d'une façon qui n'apparaît qu'à l'examen. Demandez ce que veut vraiment l'acteur — retirer une chose n'est pas s'en servir — et l'effet juste est d'ordinaire un autre que vous possédez déjà.",
+          "flavor": "« Si c'est bleu, on pourrait littéralement prendre le contrôle des artefacts adverses. Mais le Consulat ne s'en sert pas vraiment, donc le ressenti cloche. Il les confisque pour que leurs propriétaires ne s'en servent plus. Nous avons fini par y voir le Consulat mettant les artefacts en prison. Et cet effet-là, nous l'avons. »"
+        },
+        {
+          "title": "Quand le gardien dit « faites-le assez génial », dépassez la demande",
+          "rules": "Un oui conditionnel est une invitation à placer la barre vous-même. Répondre exactement à la demande laisse la décision sur les mérites ; la dépasser ostensiblement transforme la discussion en « peut-on faire marcher la version audacieuse ? ».",
+          "flavor": "« J'ai conçu Phyrexian Dreadnought pendant le développement de Mirage. Je voulais une 12/12 dans l'édition… et le développeur en chef, Bill Rose, m'a dit qu'il l'envisagerait si je concevais quelque chose d'assez génial. Je suis revenu avec “Et une 12/12 avec le piétinement pour un mana ?” »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "O caminho do éter, parte 1",
+      "dek": "Histórias carta a carta de Aether Revolt: um ciclo mirado em todos ao mesmo tempo, duas equipes inventando a mesma coisa e um 12/12 oferecido como desafio.",
+      "overview": "Histórias de design de A a D: como um ciclo é construído para atrair um público e ser utilizável por todos, o que acontece quando você remove a mecânica que resolvia um problema, e como a última vaga de mecânica é decidida pelas que já foram preenchidas.",
+      "takeaway": "“Duas equipes tentando resolver um problema parecido com as mesmas ferramentas chegam a soluções muito parecidas.”",
+      "lessons": [
+        {
+          "title": "Mire cada peça em um público e mantenha-a utilizável por todos eles",
+          "rules": "Um conjunto de opções paralelas rende mais quando cada uma é claramente a escolha de um grupo e continua funcional para qualquer outro que precise dela num aperto. É essa segunda propriedade que segura o conjunto quando as pessoas não conseguem a peça que queriam.",
+          "flavor": "“Este ciclo foi projetado para que cada carta seja mais atraente para jogadores daquela cor, mas ainda utilizável num aperto se você precisar de artefatos extras no deck. Ciclos assim são importantes para o Limitado funcionar e ao mesmo tempo guiar quem monta um deck casual de artefatos.”"
+        },
+        {
+          "title": "Escreva de modo que continue funcionando quando a sua peça de apoio não aparecer",
+          "rules": "Um componente feito para um parceiro específico é peso morto nos dias em que o parceiro falta — e ele vai faltar com frequência, inclusive nas situações que você menos controlava. Alargue o requisito para que a coisa degrade em algo comum, e não em nada.",
+          "flavor": "“Note que as cartas dizem ‘Encantar criatura ou Veículo' porque queríamos deixá-las o mais flexíveis possível. Se você não tiver um Veículo, as Modificações podem ser usadas como uma Aura normal. Isso importa não só no Limitado… mas também no Construído, quando seus Veículos teimam em não aparecer.”"
+        },
+        {
+          "title": "Remova o que estava resolvendo um problema e o problema volta",
+          "rules": "Um componente raramente faz só o trabalho pelo qual foi batizado. Ao cortá-lo, liste o que dependia dele em silêncio: a carga que ele levava não some, apenas passa para quem perceber por último.",
+          "flavor": "“Tomada a decisão de não usar fabricar em Aether Revolt, havia um problema… Uma das formas pelas quais Kaladesh fez o tema ‘artefatos importam' funcionar foi criar muitas fichas de criatura artefato. Isso significava que Aether Revolt teria de achar um jeito com sabor de criar as suas próprias.”"
+        },
+        {
+          "title": "O mesmo problema com as mesmas ferramentas produz a mesma resposta duas vezes",
+          "rules": "Soluções convergentes são prova de que quem trabalha são as restrições, não as pessoas. Não trate uma redescoberta como erro nem como plágio: trate como confirmação de que a resposta era o formato do problema desde o começo.",
+          "flavor": "“Este design foi feito no desenvolvimento, mas era paralelo a um ciclo que tínhamos feito originalmente em Kaladesh… Curiosamente, acho que a equipe de desenvolvimento não sabia que esse ciclo já existira. Como acontece muito em design, duas equipes com o mesmo problema e as mesmas ferramentas chegam a soluções parecidas.”"
+        },
+        {
+          "title": "Transforme a fragilidade na dissuasão",
+          "rules": "Quando algo é forte demais, a correção tentadora é um teto seco, que é deselegante, ou a exposição ao risco, que pune. Melhor é fazer a própria exposição gerar a saída: aí a vulnerabilidade deixa de ser custo e vira o motivo pelo qual ninguém a ataca.",
+          "flavor": "“Aethergeode Miner te dá energia quando ataca. Normalmente isso seria problemático, porque um 3/1 é fácil de matar em combate, mas ele tem uma ativação que aproveita a energia recém-ganha para se piscar se as coisas derem errado. Isso desestimula o oponente a bloqueá-lo.”"
+        },
+        {
+          "title": "Se o personagem se define pelo que faz pelos outros, aponte cada habilidade para fora",
+          "rules": "Quando você estabeleceu que a natureza inteira de alguém é dirigida a outras pessoas, isso precisa ser legível nas mecânicas, não só no texto. Cada capacidade deveria exigir outra pessoa para valer alguma coisa — inclusive a fraqueza que disso decorre.",
+          "flavor": "“Ajani é muito definido pelo que pode fazer pelos outros… a magia dele sempre foi sobre melhorar outras criaturas e/ou planeswalkers. Ajani é mais impotente quando está sozinho. A magia dele nunca se volta para dentro, sempre para fora. Por isso ele é um ótimo candidato a um time.”"
+        },
+        {
+          "title": "O critério da última vaga é fixado pelas que já foram preenchidas",
+          "rules": "Quando é preciso cair de cinco para três, os sobreviventes não são os três melhores isoladamente. Os dois primeiros se decidem pelos méritos, e então o terceiro é julgado contra o orçamento que os dois já gastaram: vence o candidato mais barato, não o mais querido.",
+          "flavor": "“Ficou evidente que as cinco mecânicas em combinação tinham complexidade alta demais, então descemos para três. Energia tinha de ficar, era a espinha dorsal. Veículos eram algo vistoso que os jogadores pediam havia anos. Sobrava uma vaga. Engenharia reversa se mostrou não simples o bastante.”"
+        },
+        {
+          "title": "Rejeite o mapeamento óbvio quando ele descreve errado quem faz o quê",
+          "rules": "A correspondência mecanicamente mais próxima de um evento costuma estar errada de sabor de um jeito que só aparece ao examinar. Pergunte o que o agente de fato quer — tirar uma coisa não é usá-la — e o efeito certo em geral é outro que você já tem.",
+          "flavor": "“Se for azul, poderíamos literalmente ganhar controle dos artefatos do oponente. Mas o Consulado não está realmente usando os artefatos, então o sabor fica torto. Eles os tomam para que os donos não possam usá-los. Em certo ponto pensamos nisso como o Consulado prendendo os artefatos. E esse efeito nós temos.”"
+        },
+        {
+          "title": "Quando o guardião diz “faça legal o bastante”, ultrapasse",
+          "rules": "Um sim condicional é um convite a colocar a régua você mesmo. Atender exatamente ao pedido deixa a decisão nos méritos; ultrapassá-lo de forma visível transforma a conversa em se a versão ousada pode ser feita funcionar.",
+          "flavor": "“Projetei Phyrexian Dreadnought durante o desenvolvimento de Mirage. Eu queria um 12/12 na coleção… e o desenvolvedor-chefe, Bill Rose, disse que consideraria se eu projetasse algo legal o bastante. Voltei com ‘Que tal um 12/12 com atropelar por um mana?'”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "以太之路（上）",
+      "dek": "《以太之乱》的逐张设计故事：一个同时面向所有人的循环、两支各自发明了同一样东西的团队，以及一个作为挑衅递上去的12/12。",
+      "overview": "从A到D的设计故事——一个循环如何被造得既吸引某一类人、又人人可用；当你拿掉那个正在解决问题的机制时会发生什么；以及最后一个机制名额是如何由已经占满的那几个来决定的。",
+      "takeaway": "「两支团队用同样的工具去解决相似的问题，会得出看起来非常相像的方案。」",
+      "lessons": [
+        {
+          "title": "让每一件都瞄准一类人，同时保持所有人都能用",
+          "rules": "一组并列的选项，在「每一个都明显是某一类人的首选、同时对任何在紧要关头需要它的人仍然可用」时最出力。正是后面这条性质，让整套东西在人们拿不到自己想要的那一件时依然立得住。",
+          "flavor": "「这个循环的设计是：每张牌对那个颜色的玩家更有吸引力，但如果你需要在套牌里多加些神器，它在紧要关头依然能用。这样的循环很重要，既能让限制赛跑得起来，也能在有人组休闲神器套牌时给他指路。」"
+        },
+        {
+          "title": "把它写成即便你自己的配套件没出现也照样成立",
+          "rules": "为某个特定搭档而造的部件，在搭档缺席的日子里就是死重——而它会经常缺席，包括在你最无从掌控的那些局面里。把条件放宽，让这样东西退化成某种平常的东西，而不是退化成什么都不是。",
+          "flavor": "「请注意这些牌写的是『结附于生物或载具』，因为我们想让它们尽可能灵活。如果你手上没有载具，这些『改装』就可以当作普通灵气用在生物上。这不只在限制赛里重要……在构筑赛里，当你的载具偏偏就是不肯出现时，它同样重要。」"
+        },
+        {
+          "title": "拿掉那个一直在解决问题的东西，问题就回来了",
+          "rules": "一个部件很少只做它名字上写的那份工作。当你砍掉它时，把「有什么在悄悄依赖它」列出来：它扛着的负担不会消失，只会转移到最后才察觉的那个人身上。",
+          "flavor": "「一旦决定了《以太之乱》不使用『制造』，问题就来了……《卡拉德许》让『神器很重要』这个主题跑起来的方式之一，就是造出大量的神器生物衍生物。这意味着《以太之乱》必须找到一个有味道的办法，来造出它自己的神器生物衍生物。」"
+        },
+        {
+          "title": "同一个问题配上同一批工具，会两次产出同一个答案",
+          "rules": "趋同的方案证明干活的是约束条件，而不是人。别把「被重新发现」当成失误或抄袭——把它当作一种确认：这个答案从一开始就是那个问题的形状。",
+          "flavor": "「这个设计出自开发部，但它和我们最初在《卡拉德许》里做过的一个循环是平行的……有意思的是，我不认为开发团队知道这个循环先前存在过。设计里常有的事：两支团队用同样的工具去解决相似的问题，会得出看起来非常相像的方案。」"
+        },
+        {
+          "title": "把脆弱本身变成威慑",
+          "rules": "当一样东西太强时，诱人的修法是加一个生硬的上限（不优雅），或者让它承担风险（是惩罚）。更好的做法是让这份暴露自己生成逃生手段——于是脆弱不再是代价，而成了没人愿意去打它的理由。",
+          "flavor": "「《以太晶簇矿工》在攻击时给你能量。通常这会很麻烦，因为3/1在战斗中很容易死掉；但它有一个起动式异能，可以用你刚拿到的能量把自己闪现走，以防事情不妙。这就让对手不太愿意去阻挡这位矿工。」"
+        },
+        {
+          "title": "如果这个角色是由「他为别人做什么」来定义的，就让每一项能力都朝外",
+          "rules": "当你确立了某人的整个本性都指向别人时，这一点必须在机制里读得出来，而不只是写在文字里。每一项能力都应当需要另一个人在场才值钱——包括由此而来的那份无力。",
+          "flavor": "「阿耶尼很大程度上是由他能为别人做什么来定义的……他的法术一直都是关于强化其他生物和／或鹏洛客的。阿耶尼最无力的时候，就是他独自一人的时候。他的法术从不向内，永远向外。这正是他成为团队绝佳人选的原因。」"
+        },
+        {
+          "title": "最后一个名额的评判标准，是由已经占满的那几个定下的",
+          "rules": "当必须从五个砍到三个时，活下来的并不是单独看最好的那三个。前两个按各自的功过来定，然后第三个要拿去和前两个已经花掉的预算比——于是胜出的是最便宜的那个候选，而不是最被喜爱的那个。",
+          "flavor": "「事情变得很明显：五个机制组合在一起复杂度太高，于是我们选择降到三个。能量必须留下，它是整个设计的骨干。载具是玩家喊了很多年的、很抓眼的东西。这就只剩一个名额了。『逆向工程』被证明不够简单。」"
+        },
+        {
+          "title": "当那个显而易见的对应描述错了「谁在做什么」时，就把它否掉",
+          "rules": "在机制上离某个事件最近的那个匹配，往往在味道上是错的，而且这种错只有细看才会露出来。去问这个行动者真正想要的是什么——把一样东西拿走，和使用它，不是一回事——而正确的效果通常是另一个你早就有的效果。",
+          "flavor": "「如果是蓝色，我们可以真的去获得对手神器的操控权。但领事馆并没有真的在使用这些神器，所以味道有点不对。他们是把神器拿走，好让物主用不上。到某个时候，我们把它想成是领事馆把这些神器关进了监狱。而这个效果，我们是有的。」"
+        },
+        {
+          "title": "当把关的人说「做得够酷我就考虑」时，就往过头了做",
+          "rules": "一个附条件的「行」，是在邀请你自己来定这条杠。恰好满足对方开出的要求，会把决定权留在「值不值」上；明显地越过它，则把这场对话变成「这个大胆版本能不能想办法跑起来」。",
+          "flavor": "「我是在《幻影》的开发期设计出《非瑞克西亚无畏战舰》的。我想往这个系列里塞一个12/12……而首席开发师比尔·罗斯告诉我，如果我能设计出够酷的东西，他会考虑。我回去拿了一个『一点法术力的12/12践踏，怎么样？』」"
+        }
+      ]
+    }
+  }
+}

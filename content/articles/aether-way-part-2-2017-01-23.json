@@ -1,0 +1,294 @@
+{
+  "id": "aether-way-part-2-2017-01-23",
+  "slug": "aether-way-part-2-2017-01-23",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2017-01-23",
+  "series": { "id": "aether-way", "order": 2, "total": 3 },
+  "tags": ["aether-revolt", "card-by-card", "color-pie", "templating", "discovery"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/aether-way-part-2-2017-01-23",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T15:31:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "R" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "The Aether Way, Part 2",
+      "dek": "Plant things for people to find, trace a rule back to the card that accidentally made it, and remember that one word can carry an entire system.",
+      "overview": "Design stories from D to I — why discovered functionality bonds people to a thing, how a colour claim from 1994 got re-decided in 2006, and the moment a rule that seemed to forbid a card turned out to permit it.",
+      "takeaway": "\"It becomes something they have found rather than something that we made.\"",
+      "lessons": [
+        {
+          "title": "Plant things for people to find, then let them find them",
+          "rules": "People attach to what they discover far more than to what they are shown. So build the discoverable combinations deliberately during the work, verify they're reachable, and then say nothing — the value is in the finding, and explaining it away spends it.",
+          "flavor": "“Players are more emotionally attached to things that they feel personally connected to, and one way to help forge that bond is create opportunities for the players to discover things. That way it becomes something they have found rather than something that we made… The rest of the examples you'll have to find on your own.”"
+        },
+        {
+          "title": "Trace the rule back to the card that made it and ask whether anyone decided",
+          "rules": "A long-standing allocation often rests on one early instance that was doing something else entirely. Find the first case, work out what it was actually for, and the precedent it set may turn out never to have been a decision at all.",
+          "flavor": "“The first card to do it was Rust from Legends… As was often the case in early Magic, when a card does something for the first time, it staked the claim for the ability in its color… Of the monocolored green cards, only Bind countered abilities that weren't from artifacts. It had really started as another way to demonstrate green's anti-artifact bias.”"
+        },
+        {
+          "title": "Under-specify, and each reader supplies the narrower version they need",
+          "rules": "A word that is deliberately looser than any single use of it lets a newcomer read their own intent into it and an expert read the full range. That's not vagueness — it's one term absorbing complexity that would otherwise have to be spelled out on every instance.",
+          "flavor": "“Richard was trying to make a game with a lot of modularity… The idea of targeting took what might have been a wordy, complex idea and narrowed it down to a single word… when people read ‘target,' they get to fill in what they think the spell is about… It hides some of the complexity from less experienced players while still leaving it available for more experienced players.”"
+        },
+        {
+          "title": "The best components are the ones fulfilling several charters at once",
+          "rules": "When a project has four separate mandates, the temptation is to serve each with its own piece. Look instead for the single item that discharges all four — that's the one worth the slot, and being able to enumerate the four is how you know it does.",
+          "flavor": "The Implements support improvise (cheap artifacts to tap), support revolt (permanents you can remove at will), raise the artifact as-fan without disturbing the colour pie, and smooth draws. “I'm always really happy when I can fulfill multiple functions with a single card or cycle.”"
+        },
+        {
+          "title": "Reset to the variable, not to today's value of it",
+          "rules": "Whenever a design restores something to a baseline, write the baseline as the name of the quantity rather than the number it currently is. Configurations you never built for will thank you, and the ones you did lose nothing.",
+          "flavor": "“Exquisite Archangel is our latest take on Platinum Angel. Still an Angel, it saves you from losing, but just once. It does reset your life total on its way out to keep you safe a little while longer. Note that we say ‘starting life total' to be kind to formats like Commander that start with more than 20 life.”"
+        },
+        {
+          "title": "A rule that seems to forbid the design is worth re-reading",
+          "rules": "Self-imposed rules describe a shape, not a prohibition, and the good answers usually live inside them rather than around them. Before concluding the thing can't be done, ask what else would satisfy the rule — the elegant version is often only obvious afterwards.",
+          "flavor": "“One of the rules we made for ourselves… was that we wanted every card that used energy to also be able to generate it. That made using energy as an additional mana cost hard to do. Greenbelt Rampager was our clever solution… If you had asked us earlier in the process if we could stick to our rule and have a creature which (essentially) required energy to cast, we probably would have said it was impossible.”"
+        },
+        {
+          "title": "When nothing clicks head-on, come at the same feeling from a different angle",
+          "rules": "Repeated failure on a brief usually means the question is wrong rather than the answers. Change what you're asking the thing to express — from what it does, to who uses it — and the constraint you thought was fixed becomes the design.",
+          "flavor": "“We started by trying to come up with a lot of different things the Vehicle could do… but nothing was clicking. We then asked ourselves if there was a way to hit the flavor from a different angle… was there a way to have the Vehicle interact with the Gatewatch members in card form? The problem was that Vehicles are crewed by creatures, not planeswalkers.”"
+        },
+        {
+          "title": "Widening an existing template is the cheapest source of new material",
+          "rules": "When a project introduces a new category of thing, every rule you already have that touches the old categories can be reissued to touch the new one. It isn't glamorous and it produces a great deal of usable material for almost no design cost.",
+          "flavor": "“During Kaladesh design, we came up with a joke that we had invented a new tool—the ‘or artifact' tool. Here's how it works. Take any card that affects a permanent other than an artifact, usually a creature. Then add ‘or artifact' to the text… In an artifact block, you can make new cards by simply taking things you normally do and letting them also affect artifacts.”"
+        },
+        {
+          "title": "When one thing satisfies every constituency at once, mine it",
+          "rules": "Most work pleases one group at the expense of another. The rare item that lands with all of them is not a one-off to be admired — it's a vein, and the returns come from varying one axis of it at a time: temporary, inverted, limited.",
+          "flavor": "“The Spikes liked it because it was powerful. The Timmies and Tammies liked it because it had such a potent ability. The Johnnies and Jennies liked it because you could combine it with cards that would normally make you lose the game… When anything is this popular, it makes us designers look for ways to do something similar.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "El camino del éter, parte 2",
+      "dek": "Planta cosas para que la gente las encuentre, rastrea una regla hasta la carta que la creó por accidente y recuerda que una sola palabra puede sostener todo un sistema.",
+      "overview": "Historias de diseño de la D a la I: por qué lo que se descubre une a la gente a una cosa, cómo una reclamación de color de 1994 se volvió a decidir en 2006, y el momento en que una regla que parecía prohibir una carta resultó permitirla.",
+      "takeaway": "«Se convierte en algo que ellos han encontrado, no en algo que nosotros hicimos.»",
+      "lessons": [
+        {
+          "title": "Planta cosas para que la gente las encuentre, y luego déjala encontrarlas",
+          "rules": "La gente se apega mucho más a lo que descubre que a lo que se le muestra. Así que construye a propósito las combinaciones descubribles durante el trabajo, comprueba que son alcanzables y luego calla: el valor está en el hallazgo, y explicarlo lo gasta.",
+          "flavor": "«Los jugadores se apegan emocionalmente más a las cosas con las que se sienten conectados, y una forma de forjar ese vínculo es crear ocasiones para que descubran cosas. Así se convierte en algo que ellos han encontrado, no en algo que nosotros hicimos… El resto de los ejemplos tendréis que encontrarlos vosotros.»"
+        },
+        {
+          "title": "Rastrea la regla hasta la carta que la creó y pregunta si alguien la decidió",
+          "rules": "Una asignación de toda la vida a menudo descansa sobre un único caso temprano que estaba haciendo otra cosa completamente distinta. Encuentra el primer caso, averigua para qué servía de verdad, y puede que el precedente que sentó nunca fuera una decisión.",
+          "flavor": "«La primera carta que lo hizo fue Rust, de Legends… Como pasaba a menudo en el Magic temprano, cuando una carta hace algo por primera vez, reclama esa habilidad para su color… De las verdes monocolor, solo Bind contrarrestaba habilidades que no fueran de artefactos. En realidad había empezado como otra muestra del sesgo antiartefactos del verde.»"
+        },
+        {
+          "title": "Subespecifica y cada lector aportará la versión estrecha que necesita",
+          "rules": "Una palabra deliberadamente más laxa que cualquier uso concreto permite al novato leer en ella su propia intención y al experto leer todo el rango. Eso no es vaguedad: es un término absorbiendo complejidad que si no habría que deletrear en cada caso.",
+          "flavor": "«Richard intentaba hacer un juego con mucha modularidad… La idea de objetivo tomó lo que podría haber sido una idea larga y compleja y la redujo a una sola palabra… cuando la gente lee “objetivo”, rellena con lo que cree que va el hechizo… Esconde parte de la complejidad a los menos experimentados sin quitársela a los más experimentados.»"
+        },
+        {
+          "title": "Los mejores componentes son los que cumplen varios encargos a la vez",
+          "rules": "Cuando un proyecto tiene cuatro mandatos distintos, la tentación es servir cada uno con su propia pieza. Busca en cambio el único elemento que despacha los cuatro: ese merece el hueco, y poder enumerar los cuatro es como sabes que lo hace.",
+          "flavor": "Los Implementos apoyan improvisar (artefactos baratos que girar), apoyan revuelta (permanentes que puedes quitar a voluntad), suben la presencia de artefactos sin tocar la rueda de color y suavizan los robos. «Siempre me alegra mucho poder cumplir varias funciones con una sola carta o ciclo.»"
+        },
+        {
+          "title": "Restablece a la variable, no al valor que hoy tiene",
+          "rules": "Siempre que un diseño devuelva algo a un valor de referencia, escribe ese valor como el nombre de la magnitud y no como el número que es ahora. Las configuraciones para las que no diseñaste te lo agradecerán, y las que sí no pierden nada.",
+          "flavor": "«Exquisite Archangel es nuestra última versión de Platinum Angel. Sigue siendo un Ángel, te salva de perder, pero solo una vez. Al irse te restablece el total de vidas para mantenerte a salvo un rato más. Fíjate en que decimos “total de vidas inicial” por amabilidad con formatos como Commander, que empiezan con más de 20.»"
+        },
+        {
+          "title": "Una regla que parece prohibir el diseño merece releerse",
+          "rules": "Las reglas que uno se impone describen una forma, no una prohibición, y las buenas respuestas suelen vivir dentro y no alrededor. Antes de concluir que no se puede, pregunta qué otra cosa satisfaría la regla: la versión elegante solo suele ser obvia después.",
+          "flavor": "«Una de las reglas que nos pusimos… era que queríamos que toda carta que usara energía pudiera también generarla. Eso hacía difícil usar energía como coste adicional. Greenbelt Rampager fue nuestra solución ingeniosa… Si nos hubieras preguntado antes si podíamos mantener la regla y aun así exigir energía para lanzar una criatura, habríamos dicho que era imposible.»"
+        },
+        {
+          "title": "Cuando nada encaja de frente, ataca la misma sensación desde otro ángulo",
+          "rules": "El fracaso repetido ante un encargo suele significar que la pregunta está mal, no las respuestas. Cambia lo que le pides expresar —de lo que hace, a quién lo usa— y la restricción que creías fija se convierte en el diseño.",
+          "flavor": "«Empezamos intentando idear un montón de cosas distintas que el Vehículo pudiera hacer… pero nada encajaba. Entonces nos preguntamos si había forma de atacar el sabor desde otro ángulo… ¿habría manera de que el Vehículo interactuara con los miembros del Guardián en forma de carta? El problema es que los Vehículos los tripulan criaturas, no planeswalkers.»"
+        },
+        {
+          "title": "Ensanchar una plantilla existente es la fuente más barata de material nuevo",
+          "rules": "Cuando un proyecto introduce una nueva categoría de cosa, cada regla que ya tienes y que toca las categorías viejas puede reeditarse para tocar la nueva. No es glamuroso y produce muchísimo material utilizable casi sin coste de diseño.",
+          "flavor": "«Durante el diseño de Kaladesh se nos ocurrió la broma de que habíamos inventado una herramienta nueva: la herramienta “o artefacto”. Funciona así. Coge cualquier carta que afecte a un permanente que no sea artefacto, normalmente una criatura. Añade “o artefacto” al texto… En un bloque de artefactos puedes hacer cartas nuevas así.»"
+        },
+        {
+          "title": "Cuando una sola cosa satisface a todos los públicos a la vez, explótala",
+          "rules": "Casi todo el trabajo agrada a un grupo a costa de otro. El raro elemento que cuaja con todos no es una pieza suelta que admirar: es una veta, y el rendimiento viene de variar un eje cada vez: temporal, invertido, limitado.",
+          "flavor": "«A los Spikes les gustaba porque era poderosa. A los Timmys y Tammys les gustaba porque tenía una habilidad potentísima. A los Johnnys y Jennys les gustaba porque podías combinarla con cartas que normalmente te harían perder… Cuando algo es así de popular, los diseñadores buscamos maneras de hacer algo parecido.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "La voie de l'éther, partie 2",
+      "dek": "Semez des choses à trouver, remontez une règle jusqu'à la carte qui l'a créée par accident, et rappelez-vous qu'un seul mot peut porter tout un système.",
+      "overview": "Histoires de conception de D à I : pourquoi ce qu'on découvre attache, comment une revendication de couleur de 1994 a été rejugée en 2006, et le moment où une règle qui semblait interdire une carte s'est révélée l'autoriser.",
+      "takeaway": "« Cela devient quelque chose qu'ils ont trouvé plutôt que quelque chose que nous avons fait. »",
+      "lessons": [
+        {
+          "title": "Semez des choses à trouver, puis laissez-les être trouvées",
+          "rules": "On s'attache bien plus à ce qu'on découvre qu'à ce qu'on nous montre. Construisez donc exprès les combinaisons trouvables pendant le travail, vérifiez qu'elles sont atteignables, puis taisez-vous : la valeur est dans la trouvaille, et l'expliquer la dépense.",
+          "flavor": "« Les joueurs s'attachent davantage à ce à quoi ils se sentent personnellement liés, et une façon de forger ce lien est de créer des occasions de découvrir. Cela devient quelque chose qu'ils ont trouvé plutôt que quelque chose que nous avons fait… Les autres exemples, à vous de les trouver. »"
+        },
+        {
+          "title": "Remontez la règle jusqu'à la carte qui l'a créée et demandez si quelqu'un a décidé",
+          "rules": "Une répartition ancienne repose souvent sur un unique cas précoce qui faisait tout autre chose. Trouvez le premier cas, cherchez à quoi il servait vraiment, et le précédent qu'il a posé n'aura peut-être jamais été une décision.",
+          "flavor": "« La première carte à le faire fut Rust, dans Legends… Comme souvent aux débuts de Magic, quand une carte fait une chose pour la première fois, elle revendique cette capacité pour sa couleur… Parmi les vertes monocolores, seule Bind contrait des capacités non issues d'artefacts. Cela avait commencé comme une preuve du parti pris anti-artefact du vert. »"
+        },
+        {
+          "title": "Sous-spécifiez, et chaque lecteur fournira la version étroite dont il a besoin",
+          "rules": "Un mot volontairement plus lâche que chacun de ses usages permet au débutant d'y lire sa propre intention et à l'expert d'y lire toute l'étendue. Ce n'est pas du flou : c'est un terme qui absorbe une complexité qu'il faudrait sinon détailler à chaque occurrence.",
+          "flavor": "« Richard voulait un jeu très modulaire… L'idée de ciblage a réduit à un seul mot ce qui aurait été une idée longue et complexe… quand on lit “ciblé”, on complète avec ce qu'on croit que le sort concerne… Cela cache une partie de la complexité aux moins expérimentés tout en la laissant disponible aux plus expérimentés. »"
+        },
+        {
+          "title": "Les meilleurs composants remplissent plusieurs mandats à la fois",
+          "rules": "Quand un projet a quatre mandats distincts, la tentation est de servir chacun par sa propre pièce. Cherchez plutôt l'élément unique qui les acquitte tous les quatre : c'est lui qui mérite la place, et pouvoir énumérer les quatre est la preuve qu'il le fait.",
+          "flavor": "Les Instruments soutiennent l'improvisation (des artefacts bon marché à engager), soutiennent la révolte (des permanents retirables à volonté), augmentent la présence d'artefacts sans toucher à la roue des couleurs et lissent les pioches. « Je suis toujours ravi de remplir plusieurs fonctions avec une seule carte ou un seul cycle. »"
+        },
+        {
+          "title": "Réinitialisez vers la variable, pas vers sa valeur du jour",
+          "rules": "Chaque fois qu'une conception ramène une chose à une valeur de référence, écrivez cette référence comme le nom de la grandeur, non comme le nombre qu'elle vaut aujourd'hui. Les configurations non prévues vous en remercieront, les autres n'y perdent rien.",
+          "flavor": "« Exquisite Archangel est notre dernière variation sur Platinum Angel. Toujours un Ange, il vous sauve de la défaite, mais une seule fois. Il réinitialise votre total de points de vie en partant. Notez que nous disons “total de points de vie de départ” par égard pour des formats comme le Commander, qui commencent au-dessus de 20. »"
+        },
+        {
+          "title": "Une règle qui semble interdire la conception mérite d'être relue",
+          "rules": "Les règles qu'on se donne décrivent une forme, pas une interdiction, et les bonnes réponses vivent d'ordinaire dedans plutôt qu'autour. Avant de conclure que c'est impossible, demandez quoi d'autre satisferait la règle : la version élégante n'est évidente qu'après coup.",
+          "flavor": "« L'une des règles que nous nous étions données… était que toute carte utilisant l'énergie devait aussi pouvoir en produire. Difficile, dès lors, d'en faire un coût supplémentaire. Greenbelt Rampager fut notre solution astucieuse… Plus tôt, nous aurions sans doute répondu que c'était impossible. »"
+        },
+        {
+          "title": "Quand rien ne colle de face, abordez le même ressenti sous un autre angle",
+          "rules": "Un échec répété sur un brief signifie d'ordinaire que la question est mauvaise, pas les réponses. Changez ce que vous demandez à la chose d'exprimer — de ce qu'elle fait à qui s'en sert — et la contrainte que vous croyiez fixe devient la conception.",
+          "flavor": "« Nous avons commencé par imaginer plein de choses que le Véhicule pourrait faire… rien ne collait. Nous nous sommes alors demandé s'il y avait moyen d'attaquer le ressenti sous un autre angle… le Véhicule pouvait-il interagir avec les membres de la Garde sous forme de cartes ? Or les Véhicules sont pilotés par des créatures, pas des planeswalkers. »"
+        },
+        {
+          "title": "Élargir un gabarit existant est la source la moins chère de matière neuve",
+          "rules": "Quand un projet introduit une nouvelle catégorie, chaque règle existante touchant les anciennes catégories peut être rééditée pour toucher la nouvelle. Ce n'est pas glorieux et cela produit énormément de matière utilisable pour presque aucun coût de conception.",
+          "flavor": "« Pendant la conception de Kaladesh, nous avons plaisanté sur un nouvel outil : l'outil “ou artefact”. Voici comment il marche. Prenez une carte affectant un permanent autre qu'un artefact, en général une créature. Ajoutez “ou artefact” au texte… Dans un bloc d'artefacts, on fabrique ainsi des cartes neuves. »"
+        },
+        {
+          "title": "Quand une chose satisfait tous les publics à la fois, exploitez le filon",
+          "rules": "Presque tout travail plaît à un groupe aux dépens d'un autre. L'objet rare qui plaît à tous n'est pas une pièce isolée à admirer : c'est un filon, et le rendement vient de faire varier un axe à la fois — temporaire, inversé, limité.",
+          "flavor": "« Les Spikes l'aimaient pour sa puissance. Les Timmy et Tammy pour la force de sa capacité. Les Johnny et Jenny parce qu'on pouvait la combiner avec des cartes qui vous feraient normalement perdre… Quand une chose est aussi populaire, nous cherchons des façons d'en refaire du semblable. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "O caminho do éter, parte 2",
+      "dek": "Plante coisas para as pessoas acharem, rastreie uma regra até a carta que a criou por acidente, e lembre que uma única palavra pode sustentar um sistema inteiro.",
+      "overview": "Histórias de design de D a I: por que o que se descobre prende as pessoas a uma coisa, como uma reivindicação de cor de 1994 foi redecidida em 2006, e o momento em que uma regra que parecia proibir uma carta acabou permitindo-a.",
+      "takeaway": "“Vira algo que eles acharam, e não algo que nós fizemos.”",
+      "lessons": [
+        {
+          "title": "Plante coisas para as pessoas acharem, e então deixe que achem",
+          "rules": "As pessoas se apegam muito mais ao que descobrem do que ao que lhes é mostrado. Então construa de propósito as combinações descobríveis durante o trabalho, verifique que são alcançáveis, e depois cale: o valor está no achado, e explicá-lo o gasta.",
+          "flavor": "“Jogadores se apegam mais àquilo com que se sentem pessoalmente conectados, e um jeito de forjar esse vínculo é criar oportunidades para que descubram coisas. Assim vira algo que eles acharam, e não algo que nós fizemos… O resto dos exemplos vocês vão ter de achar sozinhos.”"
+        },
+        {
+          "title": "Rastreie a regra até a carta que a criou e pergunte se alguém decidiu",
+          "rules": "Uma alocação antiga muitas vezes se apoia num único caso inicial que estava fazendo outra coisa completamente diferente. Ache o primeiro caso, descubra para que ele de fato servia, e o precedente que abriu pode nunca ter sido uma decisão.",
+          "flavor": "“A primeira carta a fazer isso foi Rust, de Legends… Como acontecia muito no Magic inicial, quando uma carta faz algo pela primeira vez, ela reivindica aquela habilidade para a sua cor… Das verdes monocoloridas, só Bind anulava habilidades que não eram de artefatos. Aquilo tinha começado como mais uma mostra do viés antiartefato do verde.”"
+        },
+        {
+          "title": "Subespecifique, e cada leitor fornece a versão estreita de que precisa",
+          "rules": "Uma palavra deliberadamente mais frouxa do que qualquer um de seus usos deixa o novato ler nela a própria intenção e o experiente ler toda a amplitude. Isso não é vagueza: é um termo absorvendo complexidade que de outro modo teria de ser soletrada a cada ocorrência.",
+          "flavor": "“Richard queria um jogo com muita modularidade… A ideia de alvo reduziu a uma única palavra o que seria uma ideia longa e complexa… quando as pessoas leem ‘alvo', elas preenchem com aquilo que acham que a mágica é… Isso esconde parte da complexidade dos menos experientes sem tirá-la dos mais experientes.”"
+        },
+        {
+          "title": "Os melhores componentes são os que cumprem vários encargos de uma vez",
+          "rules": "Quando um projeto tem quatro mandatos distintos, a tentação é atender cada um com sua peça. Procure em vez disso o único item que quita os quatro: é ele que merece a vaga, e conseguir enumerar os quatro é como você sabe que ele quita.",
+          "flavor": "Os Implementos apoiam improvisar (artefatos baratos de virar), apoiam revolta (permanentes que você remove quando quiser), elevam a presença de artefatos sem mexer na roda de cores e suavizam as compras. “Fico sempre muito feliz quando consigo cumprir várias funções com uma só carta ou ciclo.”"
+        },
+        {
+          "title": "Redefina para a variável, não para o valor que ela tem hoje",
+          "rules": "Sempre que um design devolve algo a um valor de referência, escreva esse valor como o nome da grandeza, e não como o número que ela é agora. As configurações para as quais você não projetou vão agradecer, e as que você projetou não perdem nada.",
+          "flavor": "“Exquisite Archangel é nossa versão mais recente de Platinum Angel. Ainda é um Anjo, salva você de perder, mas só uma vez. Ao sair, redefine seu total de pontos de vida para mantê-lo seguro mais um tempo. Note que dizemos ‘total inicial de pontos de vida' por gentileza com formatos como Commander, que começam acima de 20.”"
+        },
+        {
+          "title": "Uma regra que parece proibir o design merece ser relida",
+          "rules": "Regras autoimpostas descrevem um formato, não uma proibição, e as boas respostas costumam morar dentro delas, não em volta. Antes de concluir que não dá, pergunte o que mais satisfaria a regra: a versão elegante em geral só é óbvia depois.",
+          "flavor": "“Uma das regras que criamos para nós… era que toda carta que usasse energia também pudesse gerá-la. Isso tornava difícil usar energia como custo adicional. Greenbelt Rampager foi nossa solução esperta… Se você tivesse perguntado antes se dava para manter a regra e ainda exigir energia para conjurar uma criatura, teríamos dito que era impossível.”"
+        },
+        {
+          "title": "Quando nada encaixa de frente, ataque a mesma sensação por outro ângulo",
+          "rules": "Fracasso repetido diante de um briefing em geral significa que a pergunta está errada, não as respostas. Mude o que você pede que a coisa expresse — do que ela faz para quem a usa — e a restrição que parecia fixa vira o design.",
+          "flavor": "“Começamos tentando bolar um monte de coisas diferentes que o Veículo poderia fazer… mas nada encaixava. Então nos perguntamos se havia como atacar o sabor por outro ângulo… haveria um jeito de o Veículo interagir com os membros da Guarda em forma de carta? O problema é que Veículos são tripulados por criaturas, não por planeswalkers.”"
+        },
+        {
+          "title": "Alargar um modelo existente é a fonte mais barata de material novo",
+          "rules": "Quando um projeto introduz uma nova categoria de coisa, cada regra que você já tem tocando as categorias antigas pode ser reemitida para tocar a nova. Não é glamouroso e produz muitíssimo material utilizável por quase nenhum custo de design.",
+          "flavor": "“Durante o design de Kaladesh, criamos a piada de que tínhamos inventado uma ferramenta nova: a ferramenta ‘ou artefato'. Funciona assim. Pegue qualquer carta que afete uma permanente que não seja artefato, normalmente uma criatura. Acrescente ‘ou artefato' ao texto… Num bloco de artefatos, dá para fazer cartas novas assim.”"
+        },
+        {
+          "title": "Quando uma coisa satisfaz todos os públicos ao mesmo tempo, explore o filão",
+          "rules": "Quase todo trabalho agrada um grupo às custas de outro. O item raro que agrada a todos não é uma peça solta para admirar: é um filão, e o retorno vem de variar um eixo por vez — temporário, invertido, limitado.",
+          "flavor": "“Os Spikes gostavam porque era poderosa. Os Timmys e Tammys gostavam porque tinha uma habilidade potente. Os Johnnys e Jennys gostavam porque dava para combiná-la com cartas que normalmente fariam você perder… Quando algo é tão popular, nós designers procuramos jeitos de fazer algo parecido.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "以太之路（中）",
+      "dek": "埋一些东西让人去发现、把一条规则一路追溯到那张误打误撞造出它的牌，并且记住：一个词就能撑起一整套系统。",
+      "overview": "从D到I的设计故事——为什么「被发现的东西」会把人和一样东西绑在一起、一项1994年立下的颜色主张如何在2006年被重新裁定，以及某条看似禁止某张牌的规则最后反而允许了它的那一刻。",
+      "takeaway": "「它就变成了他们找到的东西，而不是我们做出来的东西。」",
+      "lessons": [
+        {
+          "title": "埋一些东西让人去发现，然后让他们自己发现",
+          "rules": "人对自己发现的东西，依恋远远超过对别人展示给他的东西。所以在做的时候有意把那些可被发现的组合搭好，确认它们够得着，然后什么都别说——价值在「找到」这件事上，而把它解释掉就等于把它花掉了。",
+          "flavor": "「玩家对自己觉得有个人联结的东西，情感上会更依恋；而促成这种联结的办法之一，就是为玩家创造发现事物的机会。这样它就变成了他们找到的东西，而不是我们做出来的东西……其余的例子，你们得自己去找了。」"
+        },
+        {
+          "title": "把这条规则一路追回到造出它的那张牌，然后问一句：真有人做过这个决定吗",
+          "rules": "一项由来已久的归属，往往只靠一个早期案例撑着，而那个案例当初做的完全是另一件事。找到第一个案例，弄清它真正是为了什么，你会发现它立下的先例可能从来就不是一个决定。",
+          "flavor": "「第一张这么做的牌是《传承》里的《锈蚀》……早期万智牌里常有这种事：当一张牌头一次做某件事时，它就为自己的颜色把这项异能的地盘占下了……在单绿牌里，只有《束缚》反击的是非神器来源的异能。它其实一开始只是又一次展示绿色的反神器倾向。」"
+        },
+        {
+          "title": "写得欠具体，每个读者就会自己补上他需要的那个更窄的版本",
+          "rules": "一个被有意写得比它任何一种具体用法都更宽松的词，能让新手在里面读出自己的意图，让老手读出全部的范围。这不是含混——这是让一个术语吸收掉那些否则就得在每一处逐条写明的复杂度。",
+          "flavor": "「理查德想做一个模块化程度很高的游戏……『目标』这个概念，把一个本来会啰嗦而复杂的想法收窄成了一个词……当人们读到『目标』时，他们会自行填入他们认为这个咒语讲的是什么……它对经验较少的玩家藏起了一部分复杂度，同时又把这部分留给经验更多的玩家。」"
+        },
+        {
+          "title": "最好的部件，是那些一次同时完成好几项职责的部件",
+          "rules": "当一个项目背着四条互不相同的任务时，诱惑是给每一条配一件自己的东西。反过来，去找那一件能把四条一并结清的：那才是值得占一个位置的，而「你能把这四条列出来」正是你判断它做到了的方式。",
+          "flavor": "「器具」循环支持「机变」（提供便宜、可横置的神器）、支持「反抗」（提供可以随你心意离场的永久物）、在不搅动色轮的前提下提高神器的出现率，还能顺牌。「当我能用一张牌或一个循环同时完成多项功能时，我总是特别开心。」"
+        },
+        {
+          "title": "重置到那个变量，而不是重置到它今天的取值",
+          "rules": "每当一个设计要把某样东西恢复到某个基准时，把这个基准写成那个量的名字，而不是写成它现在等于的那个数字。那些你从没为之设计过的配置会因此受益，而你为之设计过的那些一点也不吃亏。",
+          "flavor": "「《绝美天使》是我们对《白金天使》的最新一版。它仍然是天使，能救你不输，但只救一次。它在离场时会把你的生命总量重置，好让你再多安全一会儿。请注意我们写的是『起始生命总量』，这是为了照顾像指挥官这类起始生命高于20的赛制。」"
+        },
+        {
+          "title": "一条看上去禁止了这个设计的规则，值得再读一遍",
+          "rules": "你给自己定下的规则描述的是一个形状，而不是一道禁令；好答案通常住在规则里面，而不是绕在它外面。在断定「这做不到」之前，先问问还有什么别的东西能满足这条规则——那个优雅的版本，往往只有事后才显得理所当然。",
+          "flavor": "「我们给自己定的规则之一……是希望每一张使用能量的牌，自己也能产生能量。这就让『把能量当作额外费用』很难做。《绿带横行兽》是我们想出的巧解……如果你在流程更早的时候问我们，能不能既守住这条规则、又做出一个（本质上）需要能量才施放得出的生物，我们大概会说这不可能。」"
+        },
+        {
+          "title": "当正面怎么都不对味时，换一个角度去打同一种感觉",
+          "rules": "在同一份需求上反复失败，通常意味着问题问错了，而不是答案不够好。换一换你要求这样东西去表达什么——从「它做什么」换成「谁在用它」——那条你以为固定的约束，本身就会变成设计。",
+          "flavor": "「我们一开始试着想出一大堆这个载具能做的事……但怎么都不对味。于是我们问自己，有没有办法从另一个角度去打这个味道……有没有办法让这个载具与牌面形式的守护者盟军成员互动？问题在于载具是由生物来操纵的，不是鹏洛客。」"
+        },
+        {
+          "title": "把现成的模板加宽，是新素材最便宜的来源",
+          "rules": "当一个项目引入了一类新的东西时，你手上每一条触及旧类别的规则，都可以重新发行一遍去触及这个新类别。这不光鲜，却能以几乎为零的设计成本产出大量可用的素材。",
+          "flavor": "「在《卡拉德许》的设计期间，我们编了个玩笑，说我们发明了一件新工具——『或神器』工具。用法是这样：拿任何一张影响非神器永久物（通常是生物）的牌，然后在文字里加上『或神器』……在一个神器系列组里，你只要把平时就在做的事情也允许作用于神器，就能造出新牌。」"
+        },
+        {
+          "title": "当一样东西同时让所有群体都满意时，去开采它",
+          "rules": "绝大多数作品都是取悦一群人、代价是另一群人。那件罕见的、在所有人那里都落地的东西，不是一件供人赞叹的孤品——它是一条矿脉，而收益来自每次只改动它的一个轴：临时化、反转、限次。",
+          "flavor": "「史派克喜欢它，因为它强。提米和塔米喜欢它，因为它的异能如此有力。约翰尼和珍妮喜欢它，因为你可以把它和那些本来会让你输掉的牌组合起来……当一样东西这么受欢迎时，我们这些设计师就会去找办法做出类似的东西。」"
+        }
+      ]
+    }
+  }
+}
