@@ -1,0 +1,320 @@
+{
+  "id": "hero-complex-2013-10-18",
+  "slug": "hero-complex-2013-10-18",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-10-18",
+  "series": null,
+  "tags": ["mechanics", "design-story", "limited", "set-design"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/hero-complex-2013-10-18",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Hero Complex",
+      "dek": "Not how heroic was designed, but what its presence did to everything else in Theros — which turns out to be most of the set.",
+      "overview": "Rosewater had already written up how the mechanic came to be, so this column runs the causality the other way: the story starts with heroic existing and tracks the damage. A trigger condition limited to spells collided with the arithmetic of a forty-card deck, which produced the search that produced bestow, whose rules implementation was then decided by whether it would trigger heroic. Development added a whole extra mechanic to raise the rate at which any of it happened. And two other mechanics in the set got quietly retuned around it without changing what they did.",
+      "takeaway": "Introducing a component is not an addition, it is a change to the specification of everything already present. The visible consequences are the ones that produced new mechanics; the subtler ones are numbers moving on things that look untouched.",
+      "lessons": [
+        {
+          "title": "Once a component is in, run a pass asking what it now requires of everything else",
+          "rules": "The usual account of a mechanic's design is how the surrounding project shaped it. The opposite pass is a separate piece of work and rarely gets scheduled: given that this thing is now in, what does the rest of the file have to become? In this case the answer eventually included a second new mechanic, a third mechanic added by another department, and retuned costs on two more. None of that was foreseeable from the mechanic's own design discussion. Treat an accepted component as a set of new requirements rather than as a completed decision.",
+          "flavor": "Today's story doesn't end with heroic's design. It starts there."
+        },
+        {
+          "title": "Compute the expected trigger rate from the format's composition before you commit",
+          "rules": "The mechanic keys off spells, and the arithmetic is unforgiving: forty cards, seventeen of them land, sixteen of the rest creatures, which leaves about seven cards in the whole deck that can trigger anything. That number is a property of the format, not of the design, and it was knowable before a single card was made. Whenever a payoff depends on some category of thing appearing, count how many of that category a real deck contains. Enthusiasm for an interaction is not evidence that it will ever occur.",
+          "flavor": "Seven possible cards in the deck to trigger your heroic. That's the whole budget."
+        },
+        {
+          "title": "When the enabling slot is too scarce, move the enabler into the abundant slot",
+          "rules": "Faced with too few spell slots to trigger the mechanic, they did not lower the requirement or accept the low rate. They found a way to make the enablers occupy the slot that was plentiful — objects that go in the creature portion of the deck and function as spells for this purpose. The general form is useful: when an interaction is starved because one side of it competes for a scarce resource, look for a way to build that side out of the plentiful resource instead, rather than trying to make the scarce one go further.",
+          "flavor": "Bestow solved the maths by making Auras that went into the creature slots."
+        },
+        {
+          "title": "An implementation detail that looks internal is often decided by the neighbours",
+          "rules": "There were several ways to write the new mechanic, and one of them was clearer about an edge case — but it would have made the effect an ability rather than a spell, and abilities do not trigger the mechanic it existed to serve. So the wording was chosen by the interaction rather than by its own clarity. Rules-level implementation choices look like private questions for whoever owns that component. They are frequently settled by something two components away, and the person making the call has to know that.",
+          "flavor": "The entire point of heroic was to interact with Auras. That decided how bestow had to be written."
+        },
+        {
+          "title": "Put some of the enabler in a neighbouring faction, and the pairing becomes real",
+          "rules": "The payoff cards concentrated in one colour, and the things that trigger them were deliberately weighted into two others. That is not an accident of distribution; it is how a colour pair acquires a reason to exist. Anyone wanting to build around the payoff now has to reach outside its home, and the direction they reach in is a decision you made. Where you place the enabler relative to the payoff is a lever for shaping what combinations people assemble, and it costs nothing beyond deciding to use it.",
+          "flavor": "Green has the heroic creatures. White and black have more of the bestow commons."
+        },
+        {
+          "title": "When a payoff caps its own density, add an enabler that serves several copies at once",
+          "rules": "Some themes are self-limiting: each copy needs its own supply of triggers, so past a certain count the extra copies sit uselessly beside each other, and players correctly learn to stop adding them. The team's brief was to make more of the theme playable together, and the winning answer was not more enablers but enablers that hit multiple targets — one card feeding two payoffs at once. If your theme quietly caps its own density, the fix is usually in the enabler's shape rather than in the payoff's price.",
+          "flavor": "You put enough in your deck that some show up, but not so many that two are on the battlefield at once."
+        },
+        {
+          "title": "When the interactions exist but don't happen often enough, fix the draw rather than the cards",
+          "rules": "Development's verdict was not that the synergies were wrong — they were good and they were built correctly — but that they were not coming up often enough to be the experience of playing the set. The fix was a mechanic that lets players smooth what they draw, which touches none of the interactions and makes all of them more likely to occur. This is a distinct category of problem worth naming: correct content at too low a frequency. It is solved upstream of the content, by changing what reaches people's hands.",
+          "flavor": "Design set the vision. Development altered the set's make-up to let that vision actually happen."
+        },
+        {
+          "title": "A new component retunes its neighbours without changing what they are",
+          "rules": "The loud consequences produced whole new mechanics. The quiet ones were that a second mechanic drifted toward a particular card type because that type was now the overlap between them, and a third had its costs adjusted repeatedly to keep pace with something it had no relationship to. Neither of those shows up as a change in what those mechanics do, so neither appears in the account of how they were designed. The influence of an addition is mostly invisible in the finished object, which is why it has to be tracked while the work is live.",
+          "flavor": "The influence of a mechanic isn't always loud."
+        },
+        {
+          "title": "Two escalating systems have to be paced against each other, and cost is the dial",
+          "rules": "One side of the set builds up over time and so does the other, and the point of the design is that they arrive at scale together and collide. That is a timing requirement, and it was enforced empirically: if the heroes were growing too fast in testing, the monsters' upgrade costs came down; if the monsters got ahead, the costs went up. Neither mechanic changed. Where two independent growth curves are supposed to meet, the meeting point is a thing you tune, and the price of advancement is the control surface.",
+          "flavor": "If the heroes grew too fast, we lowered monstrosity's costs."
+        },
+        {
+          "title": "The audience sees the locked state, and that is why the schedule looks long from outside",
+          "rules": "What ships is fixed: every card exists and does exactly one thing. What the work is actually like is a structure where any element can still move, and where adjusting one card obliges you to adjust several others to get back to balance. The reason a year is spent on this is not that the individual pieces are hard. It is that each fix propagates, and someone has to follow the propagation all the way out and rebuild the equilibrium before the next change starts.",
+          "flavor": "Early in a house of cards, several cards hold each other up with exactly the right amount of force."
+        }
+      ]
+    },
+    "es": {
+      "title": "Complejo de héroe",
+      "dek": "No cómo se diseñó heroico, sino lo que su presencia le hizo a todo lo demás en Theros, que resulta ser casi toda la colección.",
+      "overview": "Rosewater ya había contado cómo surgió la mecánica, así que esta columna recorre la causalidad en sentido inverso: la historia empieza con heroico ya existiendo y sigue el rastro de los daños. Una condición de disparo limitada a los hechizos chocó con la aritmética de un mazo de cuarenta cartas, lo que produjo la búsqueda que produjo bestow, cuya implementación de reglas quedó luego decidida por si iba a disparar heroico. Desarrollo añadió una mecánica entera más para subir la frecuencia con que algo de eso ocurría. Y otras dos mecánicas de la colección quedaron reajustadas en silencio a su alrededor sin cambiar lo que hacían.",
+      "takeaway": "Introducir un componente no es una adición: es un cambio en la especificación de todo lo que ya está. Las consecuencias visibles son las que produjeron mecánicas nuevas; las sutiles son números que se mueven en cosas que parecen intactas.",
+      "lessons": [
+        {
+          "title": "Una vez que un componente está dentro, haz una pasada preguntando qué exige ahora de todo lo demás",
+          "rules": "El relato habitual del diseño de una mecánica es cómo la moldeó el proyecto que la rodea. La pasada contraria es un trabajo aparte y rara vez se programa: dado que esta cosa ya está dentro, ¿en qué tiene que convertirse el resto del archivo? Aquí, la respuesta acabó incluyendo una segunda mecánica nueva, una tercera añadida por otro departamento y costes reajustados en dos más. Nada de eso era previsible desde la discusión del diseño de la propia mecánica. Trata un componente aceptado como un conjunto de requisitos nuevos y no como una decisión terminada.",
+          "flavor": "La historia de hoy no termina con el diseño de heroico. Empieza ahí."
+        },
+        {
+          "title": "Calcula la frecuencia de disparo esperada a partir de la composición del formato antes de comprometerte",
+          "rules": "La mecánica se dispara con hechizos, y la aritmética no perdona: cuarenta cartas, diecisiete de ellas tierras, dieciséis del resto criaturas, lo que deja unas siete cartas en todo el mazo capaces de disparar algo. Ese número es una propiedad del formato y no del diseño, y era conocible antes de hacer una sola carta. Siempre que una recompensa dependa de que aparezca cierta categoría de cosa, cuenta cuántas de esa categoría contiene un mazo real. El entusiasmo por una interacción no es prueba de que vaya a ocurrir alguna vez.",
+          "flavor": "Siete cartas posibles en el mazo para disparar tu heroico. Ese es todo el presupuesto."
+        },
+        {
+          "title": "Cuando el hueco del habilitador escasea, mueve el habilitador al hueco abundante",
+          "rules": "Ante la falta de huecos de hechizo para disparar la mecánica, no bajaron el requisito ni aceptaron la frecuencia baja. Encontraron la manera de que los habilitadores ocuparan el hueco que sí sobraba: objetos que van en la parte de criaturas del mazo y que funcionan como hechizos a estos efectos. La forma general es útil: cuando una interacción se muere de hambre porque uno de sus lados compite por un recurso escaso, busca la manera de construir ese lado con el recurso abundante en vez de intentar estirar el escaso.",
+          "flavor": "Bestow resolvió las cuentas haciendo auras que iban en los huecos de criatura."
+        },
+        {
+          "title": "Un detalle de implementación que parece interno lo deciden a menudo los vecinos",
+          "rules": "Había varias formas de redactar la mecánica nueva, y una de ellas era más clara en un caso límite, pero habría convertido el efecto en una habilidad en vez de en un hechizo, y las habilidades no disparan la mecánica a la que servía. Así que la redacción la decidió la interacción y no su propia claridad. Las decisiones de implementación a nivel de reglas parecen preguntas privadas de quien lleva ese componente. Con frecuencia las zanja algo que está a dos componentes de distancia, y quien toma la decisión tiene que saberlo.",
+          "flavor": "Todo el sentido de heroico era interactuar con auras. Eso decidió cómo había que redactar bestow."
+        },
+        {
+          "title": "Pon parte del habilitador en una facción vecina y el emparejamiento se vuelve real",
+          "rules": "Las cartas de recompensa se concentraban en un color, y las cosas que las disparan se cargaron deliberadamente hacia otros dos. Eso no es un accidente de reparto: es cómo una pareja de colores adquiere una razón de existir. Quien quiera construir en torno a la recompensa tiene ahora que salir de su casa, y la dirección en la que sale la decidiste tú. Dónde colocas el habilitador respecto a la recompensa es una palanca para modelar qué combinaciones monta la gente, y no cuesta nada más que decidir usarla.",
+          "flavor": "El verde tiene las criaturas heroicas. El blanco y el negro tienen más comunes con bestow."
+        },
+        {
+          "title": "Cuando una recompensa limita su propia densidad, añade un habilitador que sirva a varias copias a la vez",
+          "rules": "Algunos temas se autolimitan: cada copia necesita su propio suministro de disparos, así que pasado cierto número las copias extra se quedan ahí paradas unas junto a otras, y los jugadores aprenden con razón a dejar de añadirlas. El encargo del equipo era hacer jugable más cantidad del tema a la vez, y la respuesta ganadora no fue más habilitadores sino habilitadores que alcanzan varios objetivos: una carta alimentando dos recompensas de golpe. Si tu tema limita en silencio su propia densidad, el arreglo suele estar en la forma del habilitador y no en el precio de la recompensa.",
+          "flavor": "Metías las suficientes para que aparecieran algunas, pero no tantas como para tener dos en la mesa a la vez."
+        },
+        {
+          "title": "Cuando las interacciones existen pero no ocurren lo bastante, arregla el robo y no las cartas",
+          "rules": "El veredicto de desarrollo no fue que las sinergias estuvieran mal — eran buenas y estaban bien construidas —, sino que no salían con la frecuencia suficiente como para ser la experiencia de jugar la colección. El arreglo fue una mecánica que permite a los jugadores suavizar lo que roban, que no toca ninguna interacción y hace más probables todas. Es una categoría de problema distinta y merece nombre: contenido correcto a demasiado baja frecuencia. Se resuelve aguas arriba del contenido, cambiando qué llega a las manos de la gente.",
+          "flavor": "Diseño fijó la visión. Desarrollo alteró la composición de la colección para que esa visión pudiera pasar."
+        },
+        {
+          "title": "Un componente nuevo reajusta a sus vecinos sin cambiar lo que son",
+          "rules": "Las consecuencias ruidosas produjeron mecánicas enteras nuevas. Las silenciosas fueron que una segunda mecánica derivó hacia cierto tipo de carta porque ese tipo era ahora el solapamiento entre ambas, y que a una tercera se le ajustaron los costes una y otra vez para seguir el ritmo de algo con lo que no tenía relación. Ninguna de las dos figura como un cambio en lo que esas mecánicas hacen, así que ninguna aparece en el relato de cómo se diseñaron. La influencia de una adición es casi invisible en el objeto acabado, y por eso hay que seguirla mientras el trabajo está vivo.",
+          "flavor": "La influencia de una mecánica no siempre es ruidosa."
+        },
+        {
+          "title": "Dos sistemas que escalan tienen que acompasarse entre sí, y el dial es el coste",
+          "rules": "Un lado de la colección se acumula con el tiempo y el otro también, y el sentido del diseño es que lleguen a lo grande a la vez y choquen. Eso es un requisito de tiempos, y se hizo cumplir empíricamente: si los héroes crecían demasiado rápido en las pruebas, bajaban los costes de mejora de los monstruos; si los monstruos se adelantaban, los costes subían. Ninguna mecánica cambió. Cuando dos curvas de crecimiento independientes deben encontrarse, el punto de encuentro es algo que se ajusta, y el precio del avance es la superficie de control.",
+          "flavor": "Si los héroes crecían demasiado rápido, bajábamos los costes de monstruosidad."
+        },
+        {
+          "title": "El público ve el estado cerrado, y por eso el calendario parece largo desde fuera",
+          "rules": "Lo que se publica está fijo: cada carta existe y hace exactamente una cosa. Cómo es de verdad el trabajo es una estructura donde cualquier elemento todavía puede moverse, y donde ajustar una carta te obliga a ajustar otras varias para recuperar el equilibrio. La razón de dedicarle un año no es que las piezas sueltas sean difíciles. Es que cada arreglo se propaga, y alguien tiene que seguir esa propagación hasta el final y reconstruir el equilibrio antes de que empiece el siguiente cambio.",
+          "flavor": "Al principio de un castillo de naipes, varias cartas se sostienen entre sí con exactamente la fuerza justa."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Complexe du héros",
+      "dek": "Non pas comment l'héroïsme a été conçu, mais ce que sa présence a fait à tout le reste de Theros — c'est-à-dire à presque toute l'extension.",
+      "overview": "Rosewater avait déjà raconté la genèse de la mécanique, alors cette chronique parcourt la causalité en sens inverse : l'histoire commence avec l'héroïsme déjà là et suit les dégâts. Une condition de déclenchement limitée aux sorts s'est heurtée à l'arithmétique d'un deck de quarante cartes, ce qui a produit la recherche qui a produit le legs, dont l'implémentation en règles a ensuite été décidée par le fait qu'elle déclencherait ou non l'héroïsme. Le développement a ajouté une mécanique entière de plus pour relever la fréquence à laquelle tout cela survenait. Et deux autres mécaniques de l'extension ont été discrètement réaccordées autour, sans changer ce qu'elles faisaient.",
+      "takeaway": "Introduire un composant n'est pas un ajout, c'est une modification du cahier des charges de tout ce qui est déjà là. Les conséquences visibles sont celles qui ont produit de nouvelles mécaniques ; les subtiles sont des chiffres qui bougent sur des choses qui semblent intactes.",
+      "lessons": [
+        {
+          "title": "Une fois un composant entré, faites une passe demandant ce qu'il exige désormais de tout le reste",
+          "rules": "Le récit habituel de la conception d'une mécanique porte sur la façon dont le projet environnant l'a façonnée. La passe inverse est un travail distinct et se planifie rarement : étant donné que cette chose est maintenant dedans, que doit devenir le reste du fichier ? Ici, la réponse a fini par inclure une deuxième mécanique nouvelle, une troisième ajoutée par un autre service, et des coûts réaccordés sur deux autres. Rien de tout cela n'était prévisible depuis la discussion de conception de la mécanique elle-même. Traitez un composant accepté comme un ensemble d'exigences nouvelles, non comme une décision achevée.",
+          "flavor": "L'histoire du jour ne finit pas avec la conception de l'héroïsme. Elle commence là."
+        },
+        {
+          "title": "Calculez la fréquence de déclenchement attendue d'après la composition du format avant de vous engager",
+          "rules": "La mécanique se déclenche sur les sorts, et l'arithmétique est impitoyable : quarante cartes, dix-sept terrains, seize créatures parmi le reste, ce qui laisse environ sept cartes dans tout le deck capables de déclencher quoi que ce soit. Ce nombre est une propriété du format, non de la conception, et il était connaissable avant qu'une seule carte soit faite. Chaque fois qu'une récompense dépend de l'apparition d'une catégorie de choses, comptez combien un vrai deck en contient. L'enthousiasme pour une interaction ne prouve pas qu'elle surviendra jamais.",
+          "flavor": "Sept cartes possibles dans le deck pour déclencher votre héroïsme. Voilà tout le budget."
+        },
+        {
+          "title": "Quand la case de l'activateur est trop rare, déplacez l'activateur vers la case abondante",
+          "rules": "Faute d'assez de cases de sort pour déclencher la mécanique, ils n'ont ni abaissé l'exigence ni accepté la faible fréquence. Ils ont trouvé le moyen de faire occuper aux activateurs la case qui, elle, abondait : des objets qui prennent place dans la partie créatures du deck et fonctionnent comme des sorts à cet égard. La forme générale est utile : quand une interaction est affamée parce qu'un de ses côtés se dispute une ressource rare, cherchez à bâtir ce côté avec la ressource abondante plutôt qu'à étirer la rare.",
+          "flavor": "Le legs a réglé le calcul en faisant des auras qui allaient dans les cases de créature."
+        },
+        {
+          "title": "Un détail d'implémentation qui semble interne est souvent tranché par les voisins",
+          "rules": "Il y avait plusieurs manières de rédiger la nouvelle mécanique, et l'une d'elles était plus claire sur un cas limite — mais elle aurait fait de l'effet une capacité et non un sort, et les capacités ne déclenchent pas la mécanique qu'elle servait. La rédaction a donc été décidée par l'interaction et non par sa propre clarté. Les choix d'implémentation au niveau des règles ressemblent à des questions privées pour qui possède ce composant. Ils sont fréquemment réglés par quelque chose situé deux composants plus loin, et celui qui tranche doit le savoir.",
+          "flavor": "Tout l'intérêt de l'héroïsme était d'interagir avec les auras. Cela a décidé de la rédaction du legs."
+        },
+        {
+          "title": "Placez une partie de l'activateur chez un voisin, et l'appariement devient réel",
+          "rules": "Les cartes-récompenses se concentraient dans une couleur, et ce qui les déclenche a été délibérément orienté vers deux autres. Ce n'est pas un hasard de répartition : c'est ainsi qu'une paire de couleurs acquiert une raison d'être. Qui veut bâtir autour de la récompense doit désormais sortir de chez elle, et la direction de cette sortie est une décision que vous avez prise. Où vous placez l'activateur par rapport à la récompense est un levier pour modeler les combinaisons que les gens assemblent, et il ne coûte rien de plus que de décider de s'en servir.",
+          "flavor": "Le vert a les créatures héroïques. Le blanc et le noir ont davantage de communes avec le legs."
+        },
+        {
+          "title": "Quand une récompense plafonne sa propre densité, ajoutez un activateur qui sert plusieurs exemplaires à la fois",
+          "rules": "Certains thèmes s'autolimitent : chaque exemplaire réclame sa propre réserve de déclencheurs, si bien qu'au-delà d'un certain nombre les exemplaires supplémentaires restent inutilement côte à côte, et les joueurs apprennent à juste titre à cesser d'en ajouter. La commande donnée à l'équipe était de rendre jouable davantage du thème ensemble, et la réponse gagnante n'a pas été plus d'activateurs mais des activateurs touchant plusieurs cibles : une carte nourrissant deux récompenses d'un coup. Si votre thème plafonne discrètement sa densité, le correctif est en général dans la forme de l'activateur, pas dans le prix de la récompense.",
+          "flavor": "On en mettait assez pour que certaines sortent, mais pas assez pour en avoir deux en jeu en même temps."
+        },
+        {
+          "title": "Quand les interactions existent mais ne surviennent pas assez, corrigez la pioche et non les cartes",
+          "rules": "Le verdict du développement n'était pas que les synergies étaient mauvaises — elles étaient bonnes et bien bâties — mais qu'elles ne se présentaient pas assez souvent pour constituer l'expérience de l'extension. Le correctif a été une mécanique permettant de lisser ce qu'on pioche, qui ne touche aucune interaction et rend toutes plus probables. C'est une catégorie de problème distincte qui mérite un nom : du contenu correct à une fréquence trop basse. Elle se résout en amont du contenu, en changeant ce qui parvient dans les mains.",
+          "flavor": "La conception a posé la vision. Le développement a modifié la composition pour que cette vision advienne."
+        },
+        {
+          "title": "Un composant nouveau réaccorde ses voisins sans changer ce qu'ils sont",
+          "rules": "Les conséquences bruyantes ont produit des mécaniques entières. Les silencieuses ont été qu'une deuxième mécanique a dérivé vers un type de carte parce que ce type était désormais le recouvrement entre les deux, et qu'une troisième a vu ses coûts ajustés à répétition pour suivre le rythme d'une chose sans rapport avec elle. Ni l'une ni l'autre n'apparaît comme un changement de ce que ces mécaniques font, donc ni l'une ni l'autre ne figure dans le récit de leur conception. L'influence d'un ajout est presque invisible dans l'objet fini : d'où la nécessité de la suivre tant que le travail est vivant.",
+          "flavor": "L'influence d'une mécanique n'est pas toujours bruyante."
+        },
+        {
+          "title": "Deux systèmes en escalade doivent être cadencés l'un sur l'autre, et le curseur est le coût",
+          "rules": "Un côté de l'extension monte en puissance avec le temps, l'autre aussi, et tout l'intérêt de la conception est qu'ils arrivent au sommet ensemble et se rencontrent. C'est une exigence de calendrier, et elle a été imposée empiriquement : si les héros grandissaient trop vite aux tests, les coûts d'amélioration des monstres baissaient ; si les monstres prenaient de l'avance, ils montaient. Aucune mécanique n'a changé. Là où deux courbes de croissance indépendantes doivent se rejoindre, le point de rencontre est une chose qu'on règle, et le prix de la progression est la commande.",
+          "flavor": "Si les héros grandissaient trop vite, nous baissions les coûts de la monstruosité."
+        },
+        {
+          "title": "Le public voit l'état verrouillé, et c'est pourquoi le calendrier paraît long de l'extérieur",
+          "rules": "Ce qui sort est figé : chaque carte existe et fait exactement une chose. Ce à quoi ressemble vraiment le travail, c'est une structure où tout élément peut encore bouger, et où ajuster une carte oblige à en ajuster plusieurs autres pour revenir à l'équilibre. Si l'on y consacre un an, ce n'est pas que les pièces isolées soient difficiles. C'est que chaque correctif se propage, et que quelqu'un doit suivre cette propagation jusqu'au bout et reconstruire l'équilibre avant le changement suivant.",
+          "flavor": "Au début d'un château de cartes, plusieurs cartes se tiennent mutuellement avec exactement la bonne force."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Complexo de herói",
+      "dek": "Não como heroico foi projetado, mas o que a presença dele fez com todo o resto de Theros — que acaba sendo quase a coleção inteira.",
+      "overview": "Rosewater já tinha contado como a mecânica surgiu, então esta coluna percorre a causalidade no sentido inverso: a história começa com heroico já existindo e acompanha os estragos. Uma condição de disparo limitada a mágicas colidiu com a aritmética de um baralho de quarenta cartas, o que produziu a busca que produziu conceder, cuja implementação em regras foi então decidida por se dispararia ou não heroico. O desenvolvimento acrescentou uma mecânica inteira a mais para elevar a frequência com que qualquer disso acontecia. E outras duas mecânicas da coleção foram silenciosamente reajustadas em volta, sem mudar o que faziam.",
+      "takeaway": "Introduzir um componente não é uma adição: é uma mudança na especificação de tudo que já está lá. As consequências visíveis são as que produziram mecânicas novas; as sutis são números se mexendo em coisas que parecem intocadas.",
+      "lessons": [
+        {
+          "title": "Uma vez que um componente entra, faça uma passada perguntando o que ele agora exige de todo o resto",
+          "rules": "O relato usual do design de uma mecânica é como o projeto em volta a moldou. A passada inversa é um trabalho à parte e raramente é agendada: dado que esta coisa agora está dentro, no que o resto do arquivo precisa se tornar? Aqui, a resposta acabou incluindo uma segunda mecânica nova, uma terceira acrescentada por outro departamento, e custos reajustados em mais duas. Nada disso era previsível a partir da discussão de design da própria mecânica. Trate um componente aceito como um conjunto de novos requisitos, e não como uma decisão concluída.",
+          "flavor": "A história de hoje não termina com o design de heroico. Ela começa aí."
+        },
+        {
+          "title": "Calcule a frequência de disparo esperada a partir da composição do formato antes de se comprometer",
+          "rules": "A mecânica dispara com mágicas, e a aritmética não perdoa: quarenta cartas, dezessete delas terrenos, dezesseis do resto criaturas, o que deixa cerca de sete cartas no baralho inteiro capazes de disparar qualquer coisa. Esse número é propriedade do formato, não do design, e era conhecível antes de uma única carta ser feita. Sempre que um prêmio depender de certa categoria de coisa aparecer, conte quantas dessa categoria um baralho real contém. Entusiasmo por uma interação não é prova de que ela vá ocorrer alguma vez.",
+          "flavor": "Sete cartas possíveis no baralho para disparar seu heroico. Esse é o orçamento inteiro."
+        },
+        {
+          "title": "Quando a vaga do habilitador é escassa, mova o habilitador para a vaga abundante",
+          "rules": "Diante de vagas de mágica insuficientes para disparar a mecânica, eles não baixaram a exigência nem aceitaram a frequência baixa. Acharam um jeito de os habilitadores ocuparem a vaga que era farta: objetos que vão na porção de criaturas do baralho e funcionam como mágicas para esse efeito. A forma geral é útil: quando uma interação passa fome porque um dos lados dela disputa um recurso escasso, procure um jeito de construir esse lado com o recurso abundante em vez de tentar esticar o escasso.",
+          "flavor": "Conceder resolveu a conta fazendo auras que iam nas vagas de criatura."
+        },
+        {
+          "title": "Um detalhe de implementação que parece interno costuma ser decidido pelos vizinhos",
+          "rules": "Havia várias formas de redigir a mecânica nova, e uma delas era mais clara num caso limite — mas teria tornado o efeito uma habilidade em vez de uma mágica, e habilidades não disparam a mecânica a que ela servia. Então a redação foi decidida pela interação, e não pela própria clareza. Escolhas de implementação no nível das regras parecem perguntas privadas de quem cuida daquele componente. Elas frequentemente são resolvidas por algo a dois componentes de distância, e quem decide precisa saber disso.",
+          "flavor": "O sentido inteiro de heroico era interagir com auras. Isso decidiu como conceder tinha de ser escrito."
+        },
+        {
+          "title": "Ponha parte do habilitador numa facção vizinha e o par vira real",
+          "rules": "As cartas de prêmio se concentravam numa cor, e as coisas que as disparam foram deliberadamente pesadas para outras duas. Isso não é acidente de distribuição: é como um par de cores adquire motivo de existir. Quem quiser construir em torno do prêmio agora precisa sair de casa, e a direção em que sai é uma decisão sua. Onde você coloca o habilitador em relação ao prêmio é uma alavanca para moldar que combinações as pessoas montam, e não custa nada além de decidir usá-la.",
+          "flavor": "O verde tem as criaturas heroicas. O branco e o preto têm mais comuns com conceder."
+        },
+        {
+          "title": "Quando um prêmio limita a própria densidade, acrescente um habilitador que sirva várias cópias de uma vez",
+          "rules": "Alguns temas se autolimitam: cada cópia precisa do próprio suprimento de disparos, então passado certo número as cópias extras ficam inúteis lado a lado, e os jogadores aprendem com razão a parar de acrescentá-las. A encomenda da equipe era tornar jogável mais do tema junto, e a resposta vencedora não foi mais habilitadores, e sim habilitadores que atingem vários alvos: uma carta alimentando dois prêmios de uma vez. Se o seu tema limita silenciosamente a própria densidade, o conserto costuma estar no formato do habilitador e não no preço do prêmio.",
+          "flavor": "Você punha o bastante para algumas aparecerem, mas não tantas a ponto de ter duas em mesa ao mesmo tempo."
+        },
+        {
+          "title": "Quando as interações existem mas não acontecem o bastante, conserte a compra e não as cartas",
+          "rules": "O veredicto do desenvolvimento não foi que as sinergias estavam erradas — eram boas e estavam bem construídas — e sim que não apareciam com frequência suficiente para serem a experiência de jogar a coleção. O conserto foi uma mecânica que deixa os jogadores suavizarem o que compram, que não toca em nenhuma interação e torna todas mais prováveis. É uma categoria distinta de problema e merece nome: conteúdo correto numa frequência baixa demais. Resolve-se a montante do conteúdo, mudando o que chega às mãos das pessoas.",
+          "flavor": "O design fixou a visão. O desenvolvimento alterou a composição para que essa visão acontecesse."
+        },
+        {
+          "title": "Um componente novo reajusta os vizinhos sem mudar o que eles são",
+          "rules": "As consequências barulhentas produziram mecânicas inteiras novas. As silenciosas foram que uma segunda mecânica derivou para certo tipo de carta porque aquele tipo era agora a sobreposição entre as duas, e que uma terceira teve os custos ajustados repetidas vezes para acompanhar algo com que não tinha relação. Nenhuma das duas aparece como mudança no que aquelas mecânicas fazem, então nenhuma consta do relato de como foram projetadas. A influência de uma adição é quase invisível no objeto acabado, e é por isso que precisa ser acompanhada enquanto o trabalho está vivo.",
+          "flavor": "A influência de uma mecânica nem sempre é barulhenta."
+        },
+        {
+          "title": "Dois sistemas em escalada precisam ser cadenciados um contra o outro, e o botão é o custo",
+          "rules": "Um lado da coleção se acumula com o tempo e o outro também, e o sentido do design é que cheguem grandes ao mesmo tempo e colidam. Isso é um requisito de tempo, e foi imposto empiricamente: se os heróis cresciam rápido demais nos testes, os custos de melhoria dos monstros caíam; se os monstros se adiantavam, subiam. Nenhuma mecânica mudou. Onde duas curvas de crescimento independentes devem se encontrar, o ponto de encontro é algo que você ajusta, e o preço do avanço é o painel de controle.",
+          "flavor": "Se os heróis cresciam rápido demais, baixávamos os custos de monstruosidade."
+        },
+        {
+          "title": "O público vê o estado travado, e por isso o cronograma parece longo de fora",
+          "rules": "O que é publicado está fixo: cada carta existe e faz exatamente uma coisa. Como o trabalho de fato é: uma estrutura em que qualquer elemento ainda pode se mexer, e em que ajustar uma carta obriga a ajustar várias outras para voltar ao equilíbrio. O motivo de se gastar um ano nisso não é que as peças isoladas sejam difíceis. É que cada conserto se propaga, e alguém precisa seguir essa propagação até o fim e reconstruir o equilíbrio antes de a próxima mudança começar.",
+          "flavor": "No começo de um castelo de cartas, várias cartas se sustentam com exatamente a força certa."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "英雄情结",
+      "dek": "不是「英勇」这个机制是怎么设计出来的，而是它的存在对《泰罗斯》里其他一切做了什么——而那基本上就是整套牌。",
+      "overview": "机制的来历罗斯瓦特已经写过了，所以这一期把因果反过来跑：故事从「英勇已经存在」开始，然后追踪它造成的连锁。一个只认咒语的触发条件，撞上了四十张牌套牌的算术；这催生了那场搜索，而那场搜索催生了「授予」；而「授予」在规则上该怎么写，又反过来由「它会不会触发英勇」来决定。开发部门为了提高这一切实际发生的频率，额外加了一整个机制。而这套牌里另外两个机制则在它周围被悄悄重新调过，同时没有改变它们做的是什么。",
+      "takeaway": "引入一个部件不是一次添加，而是对已经在场的一切的规格说明的一次修改。看得见的后果是那些催生了新机制的；更细微的那些，是一些看上去没被碰过的东西上的数字在移动。",
+      "lessons": [
+        {
+          "title": "一个部件进来之后，专门跑一遍：它现在对其他一切提出了什么要求",
+          "rules": "关于一个机制的设计，人们通常讲的是周围的项目如何塑造了它。反向的那一遍是另一件事，而且很少被排进日程：既然这东西现在进来了，牌表的其余部分必须变成什么样？在这个案例里，答案最终包含了第二个新机制、一个由另一个部门追加的第三个机制，以及另外两个机制上被重新调整的费用。这些从那个机制自身的设计讨论里一样都看不出来。把一个已被接受的部件当成一组新的要求，而不是一个已经做完的决定。",
+          "flavor": "今天这个故事不是终于「英勇」的设计。它是从那里开始的。"
+        },
+        {
+          "title": "在投入之前，用赛制的构成算出预期的触发频率",
+          "rules": "这个机制挂在咒语上，而算术毫不留情：四十张牌，其中十七张地，剩下的里有十六张生物，于是整副牌里能触发任何东西的大约只剩七张。这个数字是赛制的属性，而不是设计的属性；而且在做出第一张牌之前它就是可知的。每当一份回报依赖于某一类东西出现时，去数一数一副真实的套牌里到底装得下多少这一类。对一次互动的热情，并不构成「它真的会发生」的证据。",
+          "flavor": "套牌里能触发你英勇的可能只有七张。这就是全部预算。"
+        },
+        {
+          "title": "当启动者的位置太稀缺时，把启动者搬到那个充裕的位置上去",
+          "rules": "面对「咒语位不够、触发不了这个机制」，他们既没有降低要求，也没有接受那个低频率。他们找到了办法，让启动者去占据那个本来就富余的位置：一类装在套牌的生物部分里、但就这件事而言按咒语运作的物件。这个一般形式很好用：当一次互动因为它的某一侧要去争夺一种稀缺资源而挨饿时，去想办法用充裕的那种资源来搭建这一侧，而不是试图把稀缺的那种摊得更薄。",
+          "flavor": "「授予」用「让灵气去占生物位」的办法解决了这道算术题。"
+        },
+        {
+          "title": "一个看上去内部的实现细节，往往由邻居决定",
+          "rules": "新机制有好几种写法，其中一种在某个边缘情形上更清楚——但它会让这个效果变成一个异能而不是一个咒语，而异能不会触发它本来要服务的那个机制。于是措辞是由互动决定的，而不是由它自身的清晰度决定的。规则层面的实现选择，看上去像是「谁负责这个部件谁自己决定」的私事。它们经常是由隔着两个部件的某样东西拍板的，而做这个决定的人必须知道这一点。",
+          "flavor": "英勇存在的全部意义就是和灵气互动。这决定了「授予」必须怎么写。"
+        },
+        {
+          "title": "把一部分启动者放到邻近的派系里，这个搭配就变成真的了",
+          "rules": "回报牌集中在一个颜色里，而触发它们的东西被刻意地往另外两个颜色偏。这不是分配上的偶然，而是一个双色组合获得存在理由的方式。任何想围绕这份回报组牌的人，现在都必须伸手到它的老家之外去；而他伸向哪个方向，是你做的决定。你把启动者相对于回报放在哪里，是一根塑造「人们会拼出什么组合」的杠杆，而它除了「决定去用它」之外不花任何成本。",
+          "flavor": "绿色有英勇生物。白色和黑色有更多带授予的普通牌。"
+        },
+        {
+          "title": "当一份回报给自己的密度封了顶时，加一个能同时服务好几份的启动者",
+          "rules": "有些主题是自我设限的：每一份回报都需要自己那一份触发供给，于是超过某个数量之后，多出来的那些就毫无用处地并排杵着，而玩家会很正确地学会不再往里加。给团队的任务是让这个主题能有更多份同时可用；而胜出的答案不是更多启动者，而是能命中多个目标的启动者——一张牌一次喂饱两份回报。如果你的主题在悄悄给自己的密度封顶，修法通常在启动者的形状上，而不在回报的价格上。",
+          "flavor": "你会放足够多让它们出得来，但不会多到同时有两个摆在场上。"
+        },
+        {
+          "title": "当互动存在、却发生得不够频繁时，去修抽牌，而不是修牌",
+          "rules": "开发部门的判断不是这些协同做错了——它们是好的，也搭得对——而是它们出现的频率不足以构成「玩这套牌的体验」。修法是一个让玩家能把抽到的东西理顺的机制；它不碰任何一处互动，却让所有互动都更可能发生。这是一类值得单独命名的问题：内容正确，但频率过低。它的解法在内容的上游，靠改变「什么东西会到人们手里」来完成。",
+          "flavor": "设计定下了愿景。开发改动了这套牌的构成，好让那个愿景真的能发生。"
+        },
+        {
+          "title": "一个新部件会在不改变邻居是什么的前提下，把它们重新调音",
+          "rules": "吵闹的后果催生了一整个一整个的新机制。安静的那些则是：第二个机制朝某一类牌张漂了过去，因为那一类如今是它和新部件之间的重叠；而第三个机制的费用被一再调整，只为跟上一样与它毫无关系的东西的节奏。这两件事都不表现为「那些机制做的事变了」，所以它们都不会出现在「这些机制是怎么设计出来的」的叙述里。一次添加所产生的影响，在成品里几乎是看不见的——这正是它必须在工作还活着的时候被追踪的原因。",
+          "flavor": "一个机制的影响并不总是吵闹的。"
+        },
+        {
+          "title": "两个都在升级的系统必须彼此对表，而旋钮是费用",
+          "rules": "这套牌的一侧随时间累积，另一侧也是；而这个设计的意义在于让它们同时到达规模并且撞在一起。这是一项关于时机的要求，而它是靠实证来执行的：如果测试中英雄长得太快，就把怪物那边的升级费用调低；如果怪物跑在前面，就调高。两个机制本身都没有变。凡是两条独立的成长曲线该会合的地方，那个会合点就是一样你去调的东西，而「前进的价格」就是你的操纵面。",
+          "flavor": "如果英雄长得太快，我们就把化猛的费用降下来。"
+        },
+        {
+          "title": "受众看到的是已锁定的状态，这就是为什么日程从外面看那么长",
+          "rules": "发出去的东西是定死的：每张牌都存在，而且只做一件确定的事。而这份工作实际的样子，是一个任何元素都还可以移动的结构；在那里，调整一张牌会迫使你调整另外好几张，才能回到平衡。为它花掉一年，原因不是单个零件有多难，而是每一次修补都会传导；必须有人把这次传导一路跟到底、把平衡重新建起来，然后下一次改动才能开始。",
+          "flavor": "在纸牌屋刚起头的时候，好几张牌以恰到好处的力互相撑着。"
+        }
+      ]
+    }
+  }
+}
