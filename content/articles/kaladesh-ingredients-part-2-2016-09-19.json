@@ -1,0 +1,294 @@
+{
+  "id": "kaladesh-ingredients-part-2-2016-09-19",
+  "slug": "kaladesh-ingredients-part-2-2016-09-19",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-09-19",
+  "series": { "id": "kaladesh-ingredients", "order": 2, "total": 2 },
+  "tags": ["kaladesh", "vehicles", "crew", "fabricate", "playtesting"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/kaladesh-ingredients-part-2-2016-09-19",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T16:41:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "G" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Kaladesh Ingredients, Part 2",
+      "dek": "Crew counted creatures, which quietly made Vehicles a tokens-only strategy. The fix came from a mechanic in a different set, invented to avoid resembling Vehicles.",
+      "overview": "Vehicles from boarding to crew, and fabricate as the bridge between two themes that weren't meeting — including what a requirement silently mandates when it counts units instead of measuring them.",
+      "takeaway": "\"Instead of ‘crew 5' meaning you have to tap five creatures, it would mean you have to tap any number of creatures whose power added up to 5 or more.\"",
+      "lessons": [
+        {
+          "title": "If you couldn't solve it, hand over the constraints you did establish",
+          "rules": "An unfinished exploration isn't a failure if it produced a specification. Write out what the thing must do as a short numbered list, and the next team starts from your boundaries instead of rediscovering them.",
+          "flavor": "“We hadn't quite cracked Vehicles by the end of exploratory design, but we had discovered enough potential that I was more than willing to let the design team take a crack at it. I started by setting the following parameters:” Vehicles must be artifacts; must be able to attack and block; creatures must be able to board them and have that matter; and they must feel different than Equipment."
+        },
+        {
+          "title": "One session is enough when every question it raises has no good answer",
+          "rules": "You don't need extended testing to kill something that immediately generates a cascade of cases with no acceptable resolution. When the first trial produces four questions and every answer to each is wrong in a different way, that's the verdict.",
+          "flavor": "“It only took one playtest to understand the problems in this design.” Can the 2/2 attack alone and the 1/1 stay behind? “They're in the same Hot Air Balloon. Are they forced to attack or block together? Or if my 2/2 attacks in the Hot Air Balloon but my 1/1 stays behind, is the 1/1 now forced to leave the Hot Air Balloon? Or does it stay in and we wave away the flavor inconsistency?”"
+        },
+        {
+          "title": "A flavour-versus-rules deadlock is telling you about the container",
+          "rules": "When every version that plays well reads wrong, and every version that reads right plays badly, the problem isn't in the tuning. Stop generating variants and change the underlying structure — the two constraints are only irreconcilable inside the shape you've assumed.",
+          "flavor": "“The more we explored how Vehicles would work in this configuration, the more we realized there wasn't any way to make it play well while making the flavor work out correctly. So we tried something different.” The next attempt hit the same wall: “The flavor of that seemed wrong. Wasn't my 3/3 in the War Balloon?”"
+        },
+        {
+          "title": "Change the currency of the cost and several unrelated complaints resolve at once",
+          "rules": "When a list of grievances has accumulated around one component, check whether they all attach to how it's paid for rather than what it does. Swapping the payment type can clear the whole list in a single move.",
+          "flavor": "Three problems: creatures stayed permanently aboard, they wanted to remove the mana cost, and “people kept using their creatures for activated abilities while they were boarded to Vehicles, which felt weird flavor-wise.” The fix: “change the mana requirement to a tapping requirement.” All three went away together."
+        },
+        {
+          "title": "A requirement that counts units silently mandates a strategy",
+          "rules": "Ask for N of something and you haven't asked for a quantity — you've asked for a distribution, and you've made the smallest, cheapest unit the correct answer. Measure the property you actually care about and the requirement stops dictating how everything else must be built.",
+          "flavor": "“The reliance on having a certain number of creatures heavily rewarded you for having a lot of small creatures, especially tokens. Because the Vehicles worked so efficiently with tokens, development had to cost the Vehicles assuming you had tokens, and then they ended up being too expensive to work with anything but a token strategy.”"
+        },
+        {
+          "title": "Work done to create distance can travel back and become the cure",
+          "rules": "A change made purely so your project doesn't resemble another one is still a real invention. Keep track of those — the differentiating tweak is often the exact fix the thing you were distancing yourself from turns out to need.",
+          "flavor": "“In Ham, we were working on a new mechanic that I was worried felt too much like Vehicles because it required having a certain number of creatures to activate it. To try and distance my mechanic from Vehicles, I changed it so instead of caring about how many creatures you had, it cared about the total power… it dawned on me that my solution for the Ham mechanic might actually work in Kaladesh.”"
+        },
+        {
+          "title": "Build the dedicated version and make single inclusions viable too",
+          "rules": "A component that only pays off inside a deck built around it is unavailable to almost everyone. Spread the range so that someone who wants one of the thing can take one, without that undercutting the person who wants twelve.",
+          "flavor": "“While we definitely wanted players to be able to build a Vehicle deck, we designed the Vehicles such that they covered a range of different play styles—so that every player had the option of including a Vehicle or two in their deck if they so desired.”"
+        },
+        {
+          "title": "When one branch is chosen too often, improve the other branch",
+          "rules": "A choice that always resolves the same way is not a choice. The instinct is to weaken the popular option; the better move is usually to add reasons for the neglected one, because that raises the ceiling instead of lowering it.",
+          "flavor": "Players kept taking the token over the counters. “We talked about disconnecting the two numbers, but it made the card more complex and a lot harder to easily track. Our solution was to (often) put abilities on the fabricate creatures that scaled well with power. That way there was extra synergy if you chose the +1/+1 counter(s).”"
+        },
+        {
+          "title": "Look back in on work you handed off",
+          "rules": "The person who left a project carries context nobody currently on it has, including solutions invented since on something else entirely. Make revisiting a habit rather than waiting to be asked — the team in the problem rarely knows you hold the answer.",
+          "flavor": "“From time to time I poke my head back into sets that I had previously handed off. Kaladesh was in development, so I talked with Ian Duke and Erik Lauer, the co-leads for Kaladesh development. They explained that they were having a problem with Vehicles. As they walked through their problem, it dawned on me that my solution… might actually work.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Ingredientes de Kaladesh, parte 2",
+      "dek": "Tripular contaba criaturas, lo que calladamente convertía a los Vehículos en una estrategia solo de fichas. El arreglo vino de una mecánica de otra edición, inventada para no parecerse a los Vehículos.",
+      "overview": "Los Vehículos, de abordar a tripular, y fabricar como puente entre dos temas que no se encontraban, incluido lo que un requisito impone en silencio cuando cuenta unidades en vez de medirlas.",
+      "takeaway": "«En vez de que “tripular 5” significara girar cinco criaturas, significaría girar cualquier número de criaturas cuya fuerza sumara 5 o más.»",
+      "lessons": [
+        {
+          "title": "Si no lo resolviste, entrega las restricciones que sí estableciste",
+          "rules": "Una exploración inacabada no es un fracaso si produjo una especificación. Escribe qué debe hacer la cosa como una lista numerada corta, y el siguiente equipo empezará desde tus fronteras en vez de redescubrirlas.",
+          "flavor": "«No habíamos resuelto del todo los Vehículos al final del diseño exploratorio, pero habíamos descubierto suficiente potencial como para dejar que el equipo de diseño lo intentara. Empecé fijando los siguientes parámetros:» ser artefactos; poder atacar y bloquear; que las criaturas pudieran abordarlos y que eso importara; y sentirse distintos del Equipo."
+        },
+        {
+          "title": "Una sesión basta cuando cada pregunta que plantea no tiene buena respuesta",
+          "rules": "No hacen falta pruebas prolongadas para matar algo que genera de inmediato una cascada de casos sin resolución aceptable. Cuando el primer ensayo produce cuatro preguntas y cada respuesta está mal de una forma distinta, ese es el veredicto.",
+          "flavor": "«Bastó un playtest para entender los problemas de este diseño.» ¿Puede la 2/2 atacar sola y la 1/1 quedarse? «Están en el mismo globo aerostático. ¿Están obligadas a atacar o bloquear juntas? ¿O si mi 2/2 ataca en el globo pero la 1/1 se queda, la 1/1 está ahora obligada a salir del globo? ¿O se queda y hacemos la vista gorda con la incoherencia de sabor?»"
+        },
+        {
+          "title": "Un bloqueo entre sabor y reglas te está hablando del envase",
+          "rules": "Cuando toda versión que juega bien se lee mal, y toda versión que se lee bien juega mal, el problema no está en el ajuste. Deja de generar variantes y cambia la estructura de fondo: las dos restricciones solo son irreconciliables dentro de la forma que has dado por supuesta.",
+          "flavor": "«Cuanto más explorábamos cómo funcionarían los Vehículos en esta configuración, más nos dábamos cuenta de que no había forma de que jugara bien y a la vez el sabor cuadrara. Así que probamos otra cosa.» El siguiente intento chocó con el mismo muro: «El sabor de eso parecía mal. ¿No estaba mi 3/3 dentro del globo de guerra?»"
+        },
+        {
+          "title": "Cambia la moneda del coste y varias quejas inconexas se resuelven a la vez",
+          "rules": "Cuando se ha acumulado una lista de reproches alrededor de un componente, comprueba si todos se enganchan a cómo se paga en vez de a qué hace. Cambiar el tipo de pago puede despejar la lista entera de un solo movimiento.",
+          "flavor": "Tres problemas: las criaturas quedaban abordadas de forma permanente; querían quitar el coste de maná; y «la gente seguía usando sus criaturas para habilidades activadas mientras estaban abordadas, lo que resultaba raro de sabor». El arreglo: «cambiar el requisito de maná por un requisito de girar». Los tres desaparecieron juntos."
+        },
+        {
+          "title": "Un requisito que cuenta unidades impone una estrategia en silencio",
+          "rules": "Pide N de algo y no has pedido una cantidad: has pedido una distribución, y has convertido la unidad más pequeña y barata en la respuesta correcta. Mide la propiedad que de verdad te importa y el requisito dejará de dictar cómo debe construirse todo lo demás.",
+          "flavor": "«La dependencia de tener cierto número de criaturas premiaba mucho tener muchas criaturas pequeñas, sobre todo fichas. Como los Vehículos funcionaban tan eficientemente con fichas, desarrollo tuvo que costearlos asumiendo que las tenías, y entonces salían demasiado caros para funcionar con cualquier cosa que no fuera una estrategia de fichas.»"
+        },
+        {
+          "title": "El trabajo hecho para tomar distancia puede volver y ser la cura",
+          "rules": "Un cambio hecho solo para que tu proyecto no se parezca a otro sigue siendo una invención real. Llévales la cuenta: el retoque diferenciador suele ser justo el arreglo que necesita aquello de lo que te estabas distanciando.",
+          "flavor": "«En Ham trabajábamos en una mecánica nueva que me preocupaba que se pareciera demasiado a los Vehículos, porque requería tener cierto número de criaturas para activarla. Para distanciarla de los Vehículos la cambié: en vez de fijarse en cuántas criaturas tenías, se fijaba en la fuerza total… se me ocurrió que mi solución podría funcionar en Kaladesh.»"
+        },
+        {
+          "title": "Construye la versión dedicada y haz también viables las inclusiones sueltas",
+          "rules": "Un componente que solo rinde dentro de un mazo construido a su alrededor está fuera del alcance de casi todos. Reparte el rango para que quien quiera uno pueda llevarse uno, sin que eso perjudique a quien quiere doce.",
+          "flavor": "«Aunque sin duda queríamos que los jugadores pudieran construir un mazo de Vehículos, los diseñamos de modo que cubrieran una gama de estilos de juego distintos, para que cualquier jugador tuviera la opción de incluir uno o dos Vehículos en su mazo si así lo deseaba.»"
+        },
+        {
+          "title": "Cuando una rama se elige demasiado, mejora la otra rama",
+          "rules": "Una elección que siempre se resuelve igual no es una elección. El instinto es debilitar la opción popular; lo mejor suele ser añadir razones para la desatendida, porque eso sube el techo en vez de bajarlo.",
+          "flavor": "Los jugadores elegían la ficha antes que los contadores. «Hablamos de desacoplar los dos números, pero hacía la carta más compleja y bastante más difícil de seguir. Nuestra solución fue poner (a menudo) en las criaturas con fabricar habilidades que escalaran bien con la fuerza. Así había sinergia extra si elegías los contadores +1/+1.»"
+        },
+        {
+          "title": "Vuelve a asomarte al trabajo que entregaste",
+          "rules": "Quien dejó un proyecto lleva contexto que nadie de los que están ahora tiene, incluidas soluciones inventadas desde entonces en algo totalmente distinto. Haz del revisitar un hábito en vez de esperar a que te pregunten: el equipo metido en el problema rara vez sabe que tú tienes la respuesta.",
+          "flavor": "«De vez en cuando me asomo a ediciones que ya había entregado. Kaladesh estaba en desarrollo, así que hablé con Ian Duke y Erik Lauer, los co-líderes. Me explicaron que tenían un problema con los Vehículos. Mientras me contaban el problema, se me ocurrió que mi solución… quizá funcionara.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Les ingrédients de Kaladesh, partie 2",
+      "dek": "L'équipage comptait les créatures, ce qui faisait discrètement des Véhicules une stratégie à jetons. Le remède vint d'une mécanique d'une autre édition, inventée pour ne pas ressembler aux Véhicules.",
+      "overview": "Les Véhicules, de l'embarquement à l'équipage, et la fabrication comme pont entre deux thèmes qui ne se rencontraient pas — dont ce qu'une exigence impose en silence quand elle compte des unités au lieu de les mesurer.",
+      "takeaway": "« Au lieu que “équipage 5” veuille dire engager cinq créatures, cela voulait dire engager n'importe quel nombre de créatures dont la force totalise 5 ou plus. »",
+      "lessons": [
+        {
+          "title": "Si vous n'avez pas résolu, transmettez les contraintes que vous avez établies",
+          "rules": "Une exploration inachevée n'est pas un échec si elle a produit une spécification. Écrivez ce que la chose doit faire sous forme de courte liste numérotée, et l'équipe suivante partira de vos frontières au lieu de les redécouvrir.",
+          "flavor": "« Nous n'avions pas tout à fait percé les Véhicules à la fin de la conception exploratoire, mais nous avions vu assez de potentiel pour laisser l'équipe s'y essayer. J'ai commencé par poser les paramètres suivants : » être des artefacts ; pouvoir attaquer et bloquer ; que des créatures puissent y embarquer et que cela compte ; et se distinguer des Équipements."
+        },
+        {
+          "title": "Une séance suffit quand chaque question soulevée n'a pas de bonne réponse",
+          "rules": "Nul besoin de tests prolongés pour tuer une chose qui engendre aussitôt une cascade de cas sans issue acceptable. Quand le premier essai produit quatre questions et que chaque réponse est fausse d'une manière différente, c'est le verdict.",
+          "flavor": "« Il n'a fallu qu'un playtest pour comprendre les problèmes. » La 2/2 peut-elle attaquer seule et la 1/1 rester ? « Elles sont dans la même montgolfière. Sont-elles forcées d'attaquer ou de bloquer ensemble ? Si ma 2/2 attaque et que la 1/1 reste, la 1/1 doit-elle quitter la montgolfière ? Ou reste-t-elle dedans et l'on balaie l'incohérence ? »"
+        },
+        {
+          "title": "Un blocage entre ressenti et règles vous parle du contenant",
+          "rules": "Quand toute version qui joue bien se lit mal, et toute version qui se lit bien joue mal, le problème n'est pas dans le réglage. Cessez de produire des variantes et changez la structure sous-jacente : les deux contraintes ne sont inconciliables qu'à l'intérieur de la forme présupposée.",
+          "flavor": "« Plus nous explorions cette configuration, plus nous voyions qu'il n'y avait pas moyen de la faire bien jouer tout en faisant tomber juste le ressenti. Nous avons donc essayé autre chose. » La tentative suivante a heurté le même mur : « Le ressenti semblait faux. Ma 3/3 n'était-elle pas dans le ballon de guerre ? »"
+        },
+        {
+          "title": "Changez la monnaie du coût et plusieurs griefs sans rapport se règlent d'un coup",
+          "rules": "Quand une liste de reproches s'est accumulée autour d'un composant, vérifiez s'ils tiennent tous à la façon dont on le paie plutôt qu'à ce qu'il fait. Changer le type de paiement peut vider la liste entière en un seul geste.",
+          "flavor": "Trois problèmes : les créatures restaient embarquées à demeure ; ils voulaient supprimer le coût en mana ; et « les gens utilisaient leurs créatures pour des capacités activées pendant qu'elles étaient embarquées, ce qui semblait bizarre ». Le remède : « remplacer l'exigence de mana par une exigence d'engagement ». Les trois ont disparu ensemble."
+        },
+        {
+          "title": "Une exigence qui compte des unités impose une stratégie en silence",
+          "rules": "Demandez N de quelque chose et vous n'avez pas demandé une quantité : vous avez demandé une distribution, et fait de l'unité la plus petite et la moins chère la bonne réponse. Mesurez la propriété qui vous importe vraiment et l'exigence cesse de dicter la construction de tout le reste.",
+          "flavor": "« Dépendre d'un certain nombre de créatures récompensait fortement le fait d'en avoir beaucoup de petites, surtout des jetons. Comme les Véhicules marchaient si bien avec les jetons, le développement a dû les chiffrer en supposant qu'on en avait, et ils sont devenus trop chers pour tout ce qui n'était pas une stratégie à jetons. »"
+        },
+        {
+          "title": "Le travail fait pour prendre ses distances peut revenir et devenir le remède",
+          "rules": "Un changement opéré uniquement pour que votre projet ne ressemble pas à un autre reste une vraie invention. Notez-les : le réglage différenciateur est souvent exactement le correctif dont la chose dont vous vous éloigniez a besoin.",
+          "flavor": "« Sur Ham, nous travaillions une mécanique dont je craignais qu'elle ressemble trop aux Véhicules, car elle exigeait un certain nombre de créatures. Pour l'en éloigner, je l'ai changée : au lieu du nombre de créatures, elle regardait la force totale… il m'est apparu que ma solution pour Ham pourrait marcher dans Kaladesh. »"
+        },
+        {
+          "title": "Bâtissez la version dédiée et rendez aussi viables les inclusions isolées",
+          "rules": "Un composant qui ne rapporte qu'à l'intérieur d'un deck bâti autour de lui est hors de portée de presque tout le monde. Étalez la gamme pour que qui en veut un puisse en prendre un, sans desservir qui en veut douze.",
+          "flavor": "« Si nous voulions certainement que les joueurs puissent monter un deck de Véhicules, nous les avons conçus de façon à couvrir un éventail de styles de jeu — pour que chaque joueur ait la possibilité d'inclure un Véhicule ou deux dans son deck s'il le souhaitait. »"
+        },
+        {
+          "title": "Quand une branche est choisie trop souvent, améliorez l'autre branche",
+          "rules": "Un choix qui se résout toujours pareil n'est pas un choix. L'instinct est d'affaiblir l'option populaire ; mieux vaut d'ordinaire donner des raisons à la délaissée, car cela relève le plafond au lieu de l'abaisser.",
+          "flavor": "Les joueurs prenaient le jeton plutôt que les marqueurs. « Nous avons envisagé de déconnecter les deux nombres, mais cela compliquait la carte et la rendait bien plus difficile à suivre. Notre solution fut de mettre (souvent) sur les créatures à fabrication des capacités qui montaient bien avec la force. »"
+        },
+        {
+          "title": "Repassez la tête dans le travail que vous avez transmis",
+          "rules": "Qui a quitté un projet emporte un contexte que personne sur place n'a, y compris des solutions inventées depuis sur tout autre chose. Faites du retour une habitude au lieu d'attendre qu'on vous sollicite : l'équipe dans le problème sait rarement que vous tenez la réponse.",
+          "flavor": "« De temps en temps, je repasse la tête dans des éditions que j'avais transmises. Kaladesh était en développement, alors j'ai parlé avec Ian Duke et Erik Lauer, les co-responsables. Ils m'ont expliqué leur problème de Véhicules. Pendant qu'ils le déroulaient, il m'est apparu que ma solution pourrait marcher. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Ingredientes de Kaladesh, parte 2",
+      "dek": "Tripular contava criaturas, o que em silêncio tornava os Veículos uma estratégia só de fichas. O conserto veio de uma mecânica de outra coleção, inventada para não parecer com Veículos.",
+      "overview": "Veículos, de embarcar a tripular, e fabricar como ponte entre dois temas que não se encontravam — inclusive o que uma exigência impõe em silêncio quando conta unidades em vez de medi-las.",
+      "takeaway": "“Em vez de ‘tripular 5' significar virar cinco criaturas, passaria a significar virar qualquer número de criaturas cujo poder somasse 5 ou mais.”",
+      "lessons": [
+        {
+          "title": "Se você não resolveu, entregue as restrições que estabeleceu",
+          "rules": "Uma exploração inacabada não é fracasso se produziu uma especificação. Escreva o que a coisa precisa fazer como uma lista numerada curta, e a equipe seguinte começa das suas fronteiras em vez de redescobri-las.",
+          "flavor": "“Não tínhamos resolvido os Veículos ao fim do design exploratório, mas descobrimos potencial suficiente para eu deixar a equipe de design tentar. Comecei fixando os seguintes parâmetros:” serem artefatos; poderem atacar e bloquear; criaturas poderem embarcar e isso importar; e parecerem diferentes de Equipamentos."
+        },
+        {
+          "title": "Uma sessão basta quando toda pergunta que ela levanta não tem boa resposta",
+          "rules": "Não é preciso teste prolongado para matar algo que gera de imediato uma cascata de casos sem solução aceitável. Quando o primeiro ensaio produz quatro perguntas e cada resposta está errada de um jeito diferente, esse é o veredicto.",
+          "flavor": "“Bastou um playtest para entender os problemas desse design.” O 2/2 pode atacar sozinho e o 1/1 ficar? “Estão no mesmo balão. São obrigados a atacar ou bloquear juntos? Ou, se meu 2/2 ataca no balão e o 1/1 fica, o 1/1 agora é obrigado a sair do balão? Ou fica dentro e a gente ignora a incoerência de sabor?”"
+        },
+        {
+          "title": "Um impasse entre sabor e regras está falando do recipiente",
+          "rules": "Quando toda versão que joga bem se lê errado, e toda versão que se lê certo joga mal, o problema não está no ajuste. Pare de gerar variantes e mude a estrutura de base: as duas restrições só são irreconciliáveis dentro do formato que você presumiu.",
+          "flavor": "“Quanto mais explorávamos como os Veículos funcionariam nessa configuração, mais percebíamos que não havia jeito de fazer jogar bem e ao mesmo tempo o sabor fechar. Então tentamos outra coisa.” A tentativa seguinte bateu no mesmo muro: “O sabor disso parecia errado. Meu 3/3 não estava dentro do balão de guerra?”"
+        },
+        {
+          "title": "Mude a moeda do custo e várias queixas sem relação se resolvem de uma vez",
+          "rules": "Quando uma lista de reclamações se acumulou em torno de um componente, veja se todas se prendem a como ele é pago, e não ao que ele faz. Trocar o tipo de pagamento pode limpar a lista inteira num único movimento.",
+          "flavor": "Três problemas: as criaturas ficavam embarcadas permanentemente; queriam remover o custo de mana; e “as pessoas continuavam usando suas criaturas para habilidades ativadas enquanto estavam embarcadas, o que parecia estranho de sabor”. O conserto: “trocar a exigência de mana por uma exigência de virar”. Os três sumiram juntos."
+        },
+        {
+          "title": "Uma exigência que conta unidades impõe uma estratégia em silêncio",
+          "rules": "Peça N de algo e você não pediu uma quantidade: pediu uma distribuição, e transformou a unidade menor e mais barata na resposta certa. Meça a propriedade com que você de fato se importa e a exigência para de ditar como todo o resto precisa ser construído.",
+          "flavor": "“A dependência de ter certo número de criaturas premiava muito ter muitas criaturas pequenas, sobretudo fichas. Como os Veículos funcionavam tão bem com fichas, o desenvolvimento teve de precificá-los supondo que você as tinha, e então saíam caros demais para funcionar com qualquer coisa que não fosse uma estratégia de fichas.”"
+        },
+        {
+          "title": "O trabalho feito para criar distância pode voltar e virar a cura",
+          "rules": "Uma mudança feita só para que o seu projeto não se pareça com outro ainda é uma invenção de verdade. Anote essas: o ajuste diferenciador costuma ser exatamente o conserto de que aquilo de que você se afastava precisa.",
+          "flavor": "“Em Ham, trabalhávamos numa mecânica que eu temia parecer demais com Veículos, porque exigia ter certo número de criaturas para ativá-la. Para distanciá-la, mudei: em vez de olhar quantas criaturas você tinha, ela olhava o poder total… me ocorreu que a minha solução para Ham talvez funcionasse em Kaladesh.”"
+        },
+        {
+          "title": "Construa a versão dedicada e torne viáveis também as inclusões avulsas",
+          "rules": "Um componente que só compensa dentro de um deck montado em torno dele está fora do alcance de quase todo mundo. Espalhe a gama para que quem quer um possa levar um, sem prejudicar quem quer doze.",
+          "flavor": "“Embora certamente quiséssemos que os jogadores pudessem montar um deck de Veículos, projetamos os Veículos de modo que cobrissem uma gama de estilos de jogo diferentes — para que todo jogador tivesse a opção de incluir um Veículo ou dois no deck, se quisesse.”"
+        },
+        {
+          "title": "Quando um ramo é escolhido demais, melhore o outro ramo",
+          "rules": "Uma escolha que sempre se resolve igual não é escolha. O instinto é enfraquecer a opção popular; o melhor costuma ser acrescentar razões para a negligenciada, porque isso eleva o teto em vez de baixá-lo.",
+          "flavor": "Os jogadores pegavam a ficha em vez dos marcadores. “Falamos em desconectar os dois números, mas isso deixava a carta mais complexa e bem mais difícil de acompanhar. Nossa solução foi pôr (muitas vezes) nas criaturas com fabricar habilidades que escalassem bem com poder.”"
+        },
+        {
+          "title": "Volte a espiar o trabalho que você entregou",
+          "rules": "Quem saiu de um projeto carrega contexto que ninguém lá dentro tem, inclusive soluções inventadas depois em algo totalmente diferente. Faça do revisitar um hábito em vez de esperar ser chamado: a equipe dentro do problema raramente sabe que você tem a resposta.",
+          "flavor": "“De tempos em tempos eu enfio a cabeça de volta em coleções que já tinha entregado. Kaladesh estava em desenvolvimento, então conversei com Ian Duke e Erik Lauer, os co-líderes. Eles explicaram que tinham um problema com Veículos. Enquanto expunham o problema, me ocorreu que a minha solução… talvez funcionasse.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "《卡拉德许》的配料（下）",
+      "dek": "「操纵」数的是生物只数，这就在无声之中把载具变成了只有衍生物才玩得转的策略。修法来自另一个系列里的一个机制——那个机制之所以被改动，正是为了不像载具。",
+      "overview": "载具从「登载」到「操纵」的一路，以及「制造」如何充当两个原本碰不到一起的主题之间的桥梁——其中包括：当一条要求去数单位、而不是去量度时，它悄悄强制了什么。",
+      "takeaway": "「『操纵5』不再意味着你必须横置五个生物，而是意味着你必须横置任意数量、力量总和达到5或更多的生物。」",
+      "lessons": [
+        {
+          "title": "如果你没解出来，就把你确实定下来的那些约束交出去",
+          "rules": "一次没做完的探索，只要产出了一份规格说明，就不是失败。把「这样东西必须做到什么」写成一份简短的编号清单；于是下一支团队是从你的边界起步，而不是重新把这些边界再发现一遍。",
+          "flavor": "「到探索性设计结束时，我们还没能把载具彻底解出来，但我们已经发现了足够的潜力，让我非常愿意让设计团队去试一把。我一开始就定下了以下这些参数：」载具要是神器；要能攻击和阻挡；生物要能登上载具、并且这件事要有意义；载具要给人不同于武具的感觉。"
+        },
+        {
+          "title": "当一次试玩引出的每一个问题都没有好答案时，一次就够了",
+          "rules": "要杀掉一样「立刻就生出一连串没有可接受解法的情形」的东西，你不需要长期测试。当第一次试验就抛出四个问题、而每个问题的每一种答案都以不同的方式是错的，那就是判决。",
+          "flavor": "「只用了一次试玩，我们就明白了这个设计的问题所在。」那个2/2能不能单独攻击、把1/1留下？「它们在同一个热气球里。它们是不是被迫必须一起攻击或阻挡？或者说，如果我的2/2乘着热气球去攻击、而1/1留下，那这个1/1现在是不是被迫要离开热气球？还是它留在里面，而我们对这处味道上的不一致视而不见？」"
+        },
+        {
+          "title": "味道与规则之间的僵局，是在跟你说容器的事",
+          "rules": "当每一个玩起来好的版本读起来都不对、而每一个读起来对的版本玩起来都糟时，问题就不在调校上。别再产变体了，去改底下的结构：这两条约束之所以不可调和，只是在你预设的那个形状之内才如此。",
+          "flavor": "「我们越是探究载具在这种构型下会怎么运作，就越发现没有任何办法能既让它玩得好、又让味道说得通。于是我们试了点别的。」下一次尝试撞上了同一堵墙：「那个味道好像不对。我的3/3不是在战斗气球里吗？」"
+        },
+        {
+          "title": "换掉这笔费用的货币，好几件互不相干的抱怨会一起解决",
+          "rules": "当某个部件周围已经堆起一串怨言时，查一查它们是不是全都挂在「它怎么被支付」上，而不是「它做什么」上。换掉支付的类型，可能一步就把整张清单清空。",
+          "flavor": "三个问题：生物会永久地留在载具上；他们想去掉那笔法术力费用；以及「人们老是在自己的生物登载着载具的时候，还拿它们去用起动式异能，这在味道上感觉很怪」。修法是：「把法术力要求改成横置要求。」三个问题一起消失了。"
+        },
+        {
+          "title": "一条去数单位的要求，会在无声中强制一种策略",
+          "rules": "你要求某样东西N个，你要的就不是一个数量——你要的是一种分布，并且你已经把「最小、最便宜的那种单位」变成了正确答案。去量度你真正在意的那项性质，这条要求就不再规定其余一切必须怎么建了。",
+          "flavor": "「对『拥有一定数量的生物』的依赖，重重地奖励了『拥有很多小生物』，尤其是衍生物。由于载具和衍生物配合得如此高效，开发部不得不假定你手上有衍生物来给载具定价；于是它们最后变得太贵，除了衍生物策略之外什么都带不动。」"
+        },
+        {
+          "title": "为了拉开距离而做的工作，可能会绕回来成为解药",
+          "rules": "一处纯粹为了「让你的项目不像另一个」而做的改动，依然是一项真实的发明。把这些记下来：那处用来区分的微调，往往恰恰就是你当初想要远离的那样东西所需要的修法。",
+          "flavor": "「在『火腿』那边，我们在做一个新机制；我担心它太像载具，因为它同样要求拥有一定数量的生物才能起动。为了把我的机制和载具拉开距离，我把它改成：不再在意你有多少个生物，而是在意生物的力量总和……我忽然想到，我给『火腿』想的这个解法，说不定在《卡拉德许》里真的管用。」"
+        },
+        {
+          "title": "既造出那个专门的版本，也让「只放一两张」同样可行",
+          "rules": "一个只有在「围绕它搭起来的整副牌」里才有回报的部件，对几乎所有人来说都是够不着的。把这个范围铺开，让想要一个的人能拿一个，同时又不损害那个想要十二个的人。",
+          "flavor": "「虽然我们当然希望玩家能够组出一副载具套牌，但我们把这些载具设计成覆盖了一系列不同的玩法风格——这样每一位玩家，只要他愿意，都有把一两个载具放进自己套牌里的选项。」"
+        },
+        {
+          "title": "当一个分支被选得太频繁时，去改善另一个分支",
+          "rules": "一个总是以同一种方式收场的选择，不是选择。本能是去削弱那个受欢迎的选项；而更好的做法通常是给那个被冷落的选项添加理由，因为那是把天花板抬高，而不是把它压低。",
+          "flavor": "玩家一直在拿衍生物、而不拿指示物。「我们讨论过把这两个数字脱钩，但那会让牌更复杂、也远远更难追踪。我们的解法是：（经常）在带『制造』的生物身上放一些随力量而放大的异能。这样一来，如果你选了+1/+1指示物，就会有额外的协同。」"
+        },
+        {
+          "title": "回过头去看看你交接出去的那些工作",
+          "rules": "离开一个项目的人，身上带着当下项目里没人拥有的上下文，包括他此后在另一件完全不同的事情上发明出来的解法。把「回头看看」变成习惯，而不是等着别人来问：陷在问题里的那支团队，很少会知道答案在你手上。",
+          "flavor": "「我时不时会把头探回那些我此前已经交接出去的系列里。《卡拉德许》当时在开发中，于是我和伊恩·杜克、埃里克·劳尔——《卡拉德许》开发的两位共同负责人——聊了聊。他们说明他们在载具上遇到了一个问题。就在他们把问题一步步讲下来的时候，我忽然想到，我的那个解法……说不定真的管用。」"
+        }
+      ]
+    }
+  }
+}

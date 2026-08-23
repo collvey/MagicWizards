@@ -1,0 +1,294 @@
+{
+  "id": "kaladesh-ingredients-part-1-2016-09-05",
+  "slug": "kaladesh-ingredients-part-1-2016-09-05",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-09-05",
+  "series": { "id": "kaladesh-ingredients", "order": 1, "total": 2 },
+  "tags": ["kaladesh", "energy", "resources", "exploratory-design", "mirrodin"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/kaladesh-ingredients-part-1-2016-09-05",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T16:40:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Kaladesh Ingredients, Part 1",
+      "dek": "Energy was invented in 2001, cut twice, and carried by one person for fifteen years — who then made his team re-evaluate it without telling them which version he'd picked.",
+      "overview": "The origin of energy, from a Homelands artifact with a fixed number of uses to a plane-defining resource, and the framework work a new currency needs before anyone can spend it.",
+      "takeaway": "\"Because I didn't want to sway the testing, I didn't tell the team that this was the version I had chosen when I originally created the mechanic.\"",
+      "lessons": [
+        {
+          "title": "Compress the differentiator into one line and repeat it everywhere",
+          "rules": "When your project will inevitably be compared to a famous predecessor, the defence isn't a document — it's a single sentence short enough that everyone on the team can apply it to their own decisions without asking you. Say it early and keep saying it.",
+          "flavor": "“I knew going in that any artifact set would bring up memories of Mirrodin and I wanted to make sure that from the get-go, I was clear that Kaladesh wasn't just another ‘artifact set.' The line I came up with early on and used all during design and development is that on Kaladesh, artifacts are technology, not biology.”"
+        },
+        {
+          "title": "When the exception plays better than the rule, try inverting the rule",
+          "rules": "You build a system, then one piece that breaks the system turns out to be the most interesting thing in it. The instinct is to keep it as a special case. The bigger move is to ask what happens if everything works that way — sometimes the exception was the design.",
+          "flavor": "“Then one day, I made an artifact that could not only use its counters but could use counters from other artifacts. The card playtested well… I was so tickled by this new card that I decided to try something a little wilder. What if all my artifacts with charge counters worked this way?”"
+        },
+        {
+          "title": "A good idea that gets cut needs an owner, or it's gone",
+          "rules": "Nothing in an organisation remembers a cancelled component on its own. If you think something deserves another shot, that only happens because one person keeps a private list and checks each new project against it — for years, through more than one further rejection.",
+          "flavor": "“I knew energy was a good mechanic, so I kept a lookout for where we could use it. It actually got into the design of Shards of Alara for a little while… but it wasn't a perfect fit, and it wanted to use more space than the set allowed, so once again the mechanic was pulled.” It shipped fifteen years after it was invented."
+        },
+        {
+          "title": "Withhold your own prior answer so the re-evaluation is honest",
+          "rules": "When you revisit an old decision with new people, you already know what you concluded — and saying so converts an evaluation into a ratification. Present the options neutrally, keep your previous verdict to yourself, and the agreement you get afterwards actually means something.",
+          "flavor": "The team built three versions. Of the one matching his original: “Note that because I didn't want to sway the testing, I didn't tell the team that this was the version I had chosen when I originally created the mechanic.” They eliminated one, then “came to the exact same conclusions we had back during Mirrodin design.”"
+        },
+        {
+          "title": "A new currency needs a published exchange rate before anyone spends it",
+          "rules": "Introduce a second resource and every use of it is an implicit claim about what one unit is worth. Fix that rate deliberately and check every instance against it, or the currency inflates in some corners and is worthless in others.",
+          "flavor": "“We knew that energy would require an economy that development would have to put together, so we spent a bunch of time in design building the framework. For example, we made sure that energy expenditure lined up in power level. This means if you spend one energy on one card, it would roughly be the same power level of another card that also used one energy as a cost.”"
+        },
+        {
+          "title": "Write the resource's constitution, then grant the exceptions on purpose",
+          "rules": "Ask the closed questions out loud: must everything that produces this also consume it, and must everything that consumes it also produce it. Answer them as policy — and then say which violations you'll allow and why, so the exceptions are decisions rather than drift.",
+          "flavor": "“We also spent a bunch of time talking energy philosophy. For example, must every card that produces energy use energy? Must every card that uses energy produce energy? In the end, we decided that most of the time we wanted them to line up, but we would occasionally allow cards that produced energy without using it, as energy would be so prevalent in the set.”"
+        },
+        {
+          "title": "A second currency has to buy different things, or it's the first one renamed",
+          "rules": "The failure mode of a new resource is that it ends up sitting in exactly the slots the old one occupied. Watch for costs that use both, and for items that read as the familiar thing with the symbol swapped — the new resource has to enable shapes the old one couldn't.",
+          "flavor": "“We spent a lot of time working to make sure that energy didn't just feel like a mana replacement. We tried to limit how often you were using mana with energy in costs. We also tried to make sure our designs felt a little different from normal cards so that we didn't create cards that felt like the mana was simply swapped out for energy.”"
+        },
+        {
+          "title": "Give each faction a different relationship to the shared resource",
+          "rules": "A resource that every group uses identically makes every group play the same. Decide up front what each one's characteristic way of generating and spending it is, and the same mechanic produces genuinely different experiences depending on where you enter it.",
+          "flavor": "“And we worked hard to give each color a different identity in how it interacted with energy. It was important that if you drafted different energy decks in different colors, they would play differently.”"
+        },
+        {
+          "title": "State the qualitative goal as a range you could feel",
+          "rules": "“More interesting choices” isn't a target anyone can build against. Convert the quality you want into an observable spread — how different should two runs of the same thing be — and give the before and after numbers, even if they're impressionistic.",
+          "flavor": "“I knew I was looking for something that would create what's known as a ‘high variance of play.' The idea was that if you take a deck and play ten games with it, there is a spread of how differently the games play out. In normal Magic, that spread is something like one to five. I was interested in changing the spread to more like one to ten.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Ingredientes de Kaladesh, parte 1",
+      "dek": "La energía se inventó en 2001, se cortó dos veces y la cargó una sola persona durante quince años, que luego hizo a su equipo reevaluarla sin decirles qué versión había elegido él.",
+      "overview": "El origen de la energía, desde un artefacto de Homelands con un número fijo de usos hasta un recurso que define un plano, y el trabajo de marco que una moneda nueva necesita antes de que nadie la gaste.",
+      "takeaway": "«Como no quería sesgar las pruebas, no le dije al equipo que esa era la versión que yo había elegido cuando creé la mecánica.»",
+      "lessons": [
+        {
+          "title": "Comprime el diferenciador en una línea y repítela en todas partes",
+          "rules": "Cuando tu proyecto vaya a compararse inevitablemente con un predecesor famoso, la defensa no es un documento: es una sola frase, tan corta que cualquiera del equipo pueda aplicarla a sus propias decisiones sin preguntarte. Dila pronto y sigue diciéndola.",
+          "flavor": "«Sabía de entrada que cualquier edición de artefactos evocaría recuerdos de Mirrodin y quería dejar claro desde el principio que Kaladesh no era otra “edición de artefactos”. La frase que se me ocurrió pronto y que usé durante todo el diseño y desarrollo es que en Kaladesh los artefactos son tecnología, no biología.»"
+        },
+        {
+          "title": "Cuando la excepción juega mejor que la regla, prueba a invertir la regla",
+          "rules": "Construyes un sistema y luego resulta que la pieza que lo rompe es lo más interesante de todo. El instinto es conservarla como caso especial. La jugada mayor es preguntarse qué pasa si todo funciona así: a veces la excepción era el diseño.",
+          "flavor": "«Un día hice un artefacto que no solo podía usar sus propios contadores, sino también los de otros artefactos. La carta funcionó bien en pruebas… Me hizo tanta gracia que decidí probar algo más salvaje. ¿Y si todos mis artefactos con contadores de carga funcionaran así?»"
+        },
+        {
+          "title": "Una buena idea que se corta necesita un dueño, o desaparece",
+          "rules": "Nada en una organización recuerda por sí solo un componente cancelado. Si crees que algo merece otra oportunidad, eso solo pasa porque una persona guarda una lista privada y contrasta cada nuevo proyecto con ella, durante años y a través de más de un rechazo posterior.",
+          "flavor": "«Sabía que la energía era una buena mecánica, así que estuve atento a dónde podríamos usarla. De hecho entró un tiempo en el diseño de Shards of Alara… pero no encajaba del todo y quería más espacio del que la edición permitía, así que otra vez se retiró.» Llegó a imprimirse quince años después de inventarse."
+        },
+        {
+          "title": "Guárdate tu respuesta anterior para que la reevaluación sea honesta",
+          "rules": "Cuando revisas una decisión antigua con gente nueva, tú ya sabes qué concluiste; y decirlo convierte una evaluación en una ratificación. Presenta las opciones de forma neutra, calla tu veredicto previo, y el acuerdo posterior significará algo de verdad.",
+          "flavor": "El equipo construyó tres versiones. De la que coincidía con su original: «Como no quería sesgar las pruebas, no le dije al equipo que esa era la versión que yo había elegido cuando creé la mecánica.» Eliminaron una y luego «llegaron exactamente a las mismas conclusiones que habíamos alcanzado durante el diseño de Mirrodin»."
+        },
+        {
+          "title": "Una moneda nueva necesita un tipo de cambio publicado antes de que nadie la gaste",
+          "rules": "Introduce un segundo recurso y cada uso suyo es una afirmación implícita sobre cuánto vale una unidad. Fija ese cambio a propósito y contrasta cada caso con él, o la moneda se inflará en unos rincones y no valdrá nada en otros.",
+          "flavor": "«Sabíamos que la energía requeriría una economía que desarrollo tendría que montar, así que dedicamos bastante tiempo en diseño a construir el marco. Por ejemplo, nos aseguramos de que el gasto de energía cuadrara en nivel de poder: gastar una energía en una carta debía equivaler más o menos a otra carta que también costara una energía.»"
+        },
+        {
+          "title": "Escribe la constitución del recurso y luego concede las excepciones a propósito",
+          "rules": "Haz las preguntas cerradas en voz alta: ¿todo lo que produce esto debe también consumirlo?, ¿todo lo que lo consume debe producirlo? Respóndelas como política, y luego di qué infracciones permitirás y por qué, para que las excepciones sean decisiones y no deriva.",
+          "flavor": "«También dedicamos tiempo a hablar de filosofía de la energía. Por ejemplo: ¿toda carta que produce energía debe usarla? ¿Toda carta que la usa debe producirla? Al final decidimos que la mayoría de las veces queríamos que cuadraran, pero permitiríamos alguna carta que produjera energía sin usarla, dado lo omnipresente que sería.»"
+        },
+        {
+          "title": "Una segunda moneda tiene que comprar cosas distintas, o es la primera renombrada",
+          "rules": "El modo de fallo de un recurso nuevo es acabar ocupando exactamente los huecos del antiguo. Vigila los costes que usan ambos y los objetos que se leen como lo de siempre con el símbolo cambiado: el recurso nuevo debe permitir formas que el viejo no podía.",
+          "flavor": "«Dedicamos mucho tiempo a asegurarnos de que la energía no se sintiera como un sustituto del maná. Intentamos limitar cuántas veces usabas maná junto a energía en los costes. También procuramos que nuestros diseños se sintieran algo distintos de las cartas normales, para no crear cartas donde el maná simplemente se había cambiado por energía.»"
+        },
+        {
+          "title": "Dale a cada facción una relación distinta con el recurso compartido",
+          "rules": "Un recurso que todos los grupos usan igual hace que todos los grupos jueguen igual. Decide de antemano cuál es la forma característica de cada uno de generarlo y gastarlo, y la misma mecánica producirá experiencias genuinamente distintas según por dónde entres.",
+          "flavor": "«Y trabajamos duro para dar a cada color una identidad distinta en cómo interactuaba con la energía. Era importante que si drafteabas distintos mazos de energía en distintos colores, jugaran de forma diferente.»"
+        },
+        {
+          "title": "Enuncia el objetivo cualitativo como un rango que se pueda notar",
+          "rules": "«Más decisiones interesantes» no es una meta contra la que nadie pueda construir. Convierte la cualidad que quieres en una dispersión observable —cuán distintas deberían ser dos repeticiones de lo mismo— y da las cifras de antes y después, aunque sean impresionistas.",
+          "flavor": "«Sabía que buscaba algo que creara lo que se conoce como “alta varianza de juego”. La idea es que si coges un mazo y juegas diez partidas con él, hay una dispersión de cuán distinto se desarrollan. En el Magic normal esa dispersión es de uno a cinco. Me interesaba cambiarla a más bien uno a diez.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Les ingrédients de Kaladesh, partie 1",
+      "dek": "L'énergie fut inventée en 2001, coupée deux fois, et portée par une seule personne pendant quinze ans — qui fit ensuite réévaluer par son équipe sans dire quelle version il avait retenue.",
+      "overview": "L'origine de l'énergie, d'un artefact de Homelands à nombre d'usages fixe jusqu'à une ressource qui définit un plan, et le travail de cadre qu'exige une monnaie neuve avant que quiconque la dépense.",
+      "takeaway": "« Comme je ne voulais pas fausser les tests, je n'ai pas dit à l'équipe que c'était la version que j'avais choisie en créant la mécanique. »",
+      "lessons": [
+        {
+          "title": "Comprimez le différenciateur en une ligne et répétez-la partout",
+          "rules": "Quand votre projet sera fatalement comparé à un prédécesseur célèbre, la défense n'est pas un document : c'est une phrase unique, assez courte pour que chacun l'applique à ses propres décisions sans vous demander. Dites-la tôt et continuez à la dire.",
+          "flavor": "« Je savais d'emblée que toute édition d'artefacts évoquerait Mirrodin et je voulais qu'il soit clair dès le départ que Kaladesh n'était pas une énième “édition d'artefacts”. La formule trouvée tôt et employée pendant toute la conception et le développement : sur Kaladesh, les artefacts sont de la technologie, pas de la biologie. »"
+        },
+        {
+          "title": "Quand l'exception joue mieux que la règle, essayez d'inverser la règle",
+          "rules": "Vous bâtissez un système, puis la pièce qui le casse se révèle la plus intéressante. L'instinct est de la garder comme cas particulier. Le geste plus ample est de demander ce qui se passe si tout fonctionne ainsi : parfois l'exception était la conception.",
+          "flavor": "« Puis un jour, j'ai fait un artefact capable d'utiliser non seulement ses marqueurs mais aussi ceux d'autres artefacts. La carte a bien joué en test… Cela m'a tellement amusé que j'ai voulu tenter plus fou. Et si tous mes artefacts à marqueurs de charge marchaient ainsi ? »"
+        },
+        {
+          "title": "Une bonne idée coupée a besoin d'un propriétaire, sinon elle disparaît",
+          "rules": "Rien, dans une organisation, ne se souvient tout seul d'un composant annulé. Si vous croyez qu'une chose mérite une autre chance, cela n'arrive que parce qu'une personne tient une liste privée et confronte chaque nouveau projet à celle-ci — des années durant, à travers plus d'un refus.",
+          "flavor": "« Je savais que l'énergie était une bonne mécanique, alors je guettais où l'employer. Elle est entrée un temps dans la conception de Shards of Alara… mais l'adéquation n'était pas parfaite et elle voulait plus de place que l'édition n'en avait, alors elle a de nouveau été retirée. » Elle est sortie quinze ans après son invention."
+        },
+        {
+          "title": "Taisez votre réponse antérieure pour que la réévaluation soit honnête",
+          "rules": "Quand vous rouvrez une vieille décision avec de nouvelles personnes, vous savez déjà ce que vous aviez conclu — et le dire transforme une évaluation en ratification. Présentez les options neutrement, gardez votre verdict pour vous, et l'accord obtenu ensuite voudra vraiment dire quelque chose.",
+          "flavor": "L'équipe a bâti trois versions. De celle correspondant à son choix d'origine : « Comme je ne voulais pas fausser les tests, je n'ai pas dit à l'équipe que c'était la version que j'avais choisie en créant la mécanique. » Ils en ont éliminé une, puis « sont arrivés exactement aux mêmes conclusions qu'à l'époque de Mirrodin »."
+        },
+        {
+          "title": "Une monnaie neuve exige un taux publié avant que quiconque la dépense",
+          "rules": "Introduisez une seconde ressource et chaque emploi devient une affirmation implicite sur ce que vaut une unité. Fixez ce taux exprès et confrontez-y chaque cas, sinon la monnaie enfle dans certains coins et ne vaut rien ailleurs.",
+          "flavor": "« Nous savions que l'énergie exigerait une économie que le développement devrait monter, alors nous avons passé du temps en conception à bâtir le cadre. Par exemple, nous avons veillé à ce que la dépense d'énergie s'aligne en puissance : dépenser une énergie sur une carte devait valoir à peu près une autre carte coûtant aussi une énergie. »"
+        },
+        {
+          "title": "Écrivez la constitution de la ressource, puis accordez les exceptions exprès",
+          "rules": "Posez les questions fermées à voix haute : tout ce qui en produit doit-il en consommer, et tout ce qui en consomme doit-il en produire ? Répondez-y comme à une politique — puis dites quelles infractions vous tolérerez et pourquoi, pour que les exceptions soient des décisions et non une dérive.",
+          "flavor": "« Nous avons aussi discuté philosophie de l'énergie. Par exemple : toute carte qui produit de l'énergie doit-elle en utiliser ? Toute carte qui en utilise doit-elle en produire ? Au final, nous voulions que cela s'aligne la plupart du temps, en tolérant parfois des cartes qui en produisent sans en utiliser, tant l'énergie serait présente. »"
+        },
+        {
+          "title": "Une seconde monnaie doit acheter autre chose, sinon c'est la première renommée",
+          "rules": "Le mode d'échec d'une ressource neuve est de finir exactement dans les emplacements de l'ancienne. Surveillez les coûts qui emploient les deux, et les objets qui se lisent comme le familier avec un symbole changé : la nouvelle ressource doit permettre des formes impossibles à l'ancienne.",
+          "flavor": "« Nous avons beaucoup travaillé pour que l'énergie ne semble pas un simple remplacement du mana. Nous avons limité la fréquence des coûts mêlant mana et énergie. Nous avons aussi veillé à ce que nos conceptions se distinguent un peu des cartes normales, pour ne pas créer des cartes où le mana aurait simplement été troqué contre de l'énergie. »"
+        },
+        {
+          "title": "Donnez à chaque faction un rapport différent à la ressource commune",
+          "rules": "Une ressource que tous les groupes emploient à l'identique fait jouer tous les groupes pareil. Décidez d'avance de la manière caractéristique dont chacun la produit et la dépense, et la même mécanique donnera des expériences réellement différentes selon le point d'entrée.",
+          "flavor": "« Et nous avons travaillé dur pour donner à chaque couleur une identité propre dans sa façon d'interagir avec l'énergie. Il importait que, si vous draftiez différents decks à énergie dans différentes couleurs, ils jouent différemment. »"
+        },
+        {
+          "title": "Énoncez l'objectif qualitatif comme un intervalle qu'on puisse ressentir",
+          "rules": "« Plus de choix intéressants » n'est pas une cible contre laquelle bâtir. Convertissez la qualité voulue en un écart observable — à quel point deux exécutions de la même chose doivent différer — et donnez les chiffres avant/après, même impressionnistes.",
+          "flavor": "« Je cherchais quelque chose créant ce qu'on appelle une “forte variance de jeu”. L'idée : si vous prenez un deck et jouez dix parties, il y a un écart entre leurs déroulements. Dans Magic normal, cet écart va de un à cinq. Je voulais le porter plutôt de un à dix. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Ingredientes de Kaladesh, parte 1",
+      "dek": "Energia foi inventada em 2001, cortada duas vezes e carregada por uma pessoa durante quinze anos — que então fez a equipe reavaliá-la sem dizer qual versão ele havia escolhido.",
+      "overview": "A origem da energia, de um artefato de Homelands com número fixo de usos até um recurso que define um plano, e o trabalho de arcabouço que uma moeda nova exige antes de alguém gastá-la.",
+      "takeaway": "“Como eu não queria enviesar os testes, não contei à equipe que aquela era a versão que eu tinha escolhido quando criei a mecânica.”",
+      "lessons": [
+        {
+          "title": "Comprima o diferenciador em uma linha e repita-a em todo lugar",
+          "rules": "Quando o seu projeto for inevitavelmente comparado a um antecessor famoso, a defesa não é um documento: é uma única frase, curta o bastante para que qualquer um na equipe a aplique às próprias decisões sem te perguntar. Diga cedo e continue dizendo.",
+          "flavor": "“Eu sabia de saída que qualquer coleção de artefatos evocaria Mirrodin, e queria deixar claro desde o início que Kaladesh não era mais uma ‘coleção de artefatos'. A frase que criei cedo e usei durante todo o design e desenvolvimento é que em Kaladesh os artefatos são tecnologia, não biologia.”"
+        },
+        {
+          "title": "Quando a exceção joga melhor que a regra, tente inverter a regra",
+          "rules": "Você constrói um sistema e então a peça que quebra o sistema se revela a coisa mais interessante dele. O instinto é mantê-la como caso especial. O movimento maior é perguntar o que acontece se tudo funcionar assim: às vezes a exceção era o design.",
+          "flavor": "“Então um dia fiz um artefato que podia usar não só os próprios marcadores, mas os de outros artefatos. A carta foi bem nos testes… Fiquei tão animado que resolvi tentar algo mais ousado. E se todos os meus artefatos com marcadores de carga funcionassem assim?”"
+        },
+        {
+          "title": "Uma boa ideia cortada precisa de um dono, ou some",
+          "rules": "Nada numa organização se lembra sozinho de um componente cancelado. Se você acha que algo merece outra chance, isso só acontece porque uma pessoa mantém uma lista particular e confere cada projeto novo contra ela — por anos, atravessando mais de uma recusa.",
+          "flavor": "“Eu sabia que energia era uma boa mecânica, então fiquei de olho em onde poderíamos usá-la. Ela chegou a entrar no design de Shards of Alara por um tempo… mas não encaixava perfeitamente e queria mais espaço do que a coleção permitia, então de novo foi retirada.” Saiu quinze anos depois de inventada."
+        },
+        {
+          "title": "Guarde a sua resposta anterior para que a reavaliação seja honesta",
+          "rules": "Quando você reabre uma decisão antiga com gente nova, já sabe o que concluiu — e dizer isso transforma uma avaliação em ratificação. Apresente as opções de forma neutra, cale o seu veredicto prévio, e a concordância que vier depois vai significar alguma coisa.",
+          "flavor": "A equipe montou três versões. Sobre a que batia com a original dele: “Como eu não queria enviesar os testes, não contei à equipe que aquela era a versão que eu tinha escolhido quando criei a mecânica.” Eliminaram uma e então “chegaram exatamente às mesmas conclusões a que tínhamos chegado no design de Mirrodin”."
+        },
+        {
+          "title": "Uma moeda nova precisa de uma taxa publicada antes de alguém gastá-la",
+          "rules": "Introduza um segundo recurso e cada uso dele é uma afirmação implícita sobre quanto vale uma unidade. Fixe essa taxa de propósito e confira cada caso contra ela, ou a moeda infla em uns cantos e não vale nada em outros.",
+          "flavor": "“Sabíamos que energia exigiria uma economia que o desenvolvimento teria de montar, então passamos bastante tempo no design construindo o arcabouço. Por exemplo, garantimos que o gasto de energia se alinhasse em nível de poder: gastar uma energia numa carta deveria equivaler mais ou menos a outra carta que também custasse uma energia.”"
+        },
+        {
+          "title": "Escreva a constituição do recurso e então conceda as exceções de propósito",
+          "rules": "Faça as perguntas fechadas em voz alta: tudo que produz isso precisa também consumir? Tudo que consome precisa produzir? Responda como política — e então diga quais violações você vai permitir e por quê, para que as exceções sejam decisões e não deriva.",
+          "flavor": "“Também passamos um tempo falando de filosofia de energia. Por exemplo: toda carta que produz energia precisa usar energia? Toda carta que usa precisa produzir? No fim, decidimos que na maior parte do tempo queríamos que se alinhassem, mas permitiríamos ocasionalmente cartas que produzissem sem usar, dada a onipresença da energia.”"
+        },
+        {
+          "title": "Uma segunda moeda tem de comprar coisas diferentes, ou é a primeira renomeada",
+          "rules": "O modo de falha de um recurso novo é acabar ocupando exatamente as vagas do antigo. Fique de olho em custos que usam os dois e em itens que se leem como o familiar com o símbolo trocado: o recurso novo precisa viabilizar formatos que o velho não conseguia.",
+          "flavor": "“Trabalhamos muito para que a energia não parecesse apenas um substituto do mana. Tentamos limitar quantas vezes você usava mana junto com energia nos custos. Também tentamos fazer nossos designs parecerem um pouco diferentes das cartas normais, para não criar cartas em que o mana simplesmente tivesse sido trocado por energia.”"
+        },
+        {
+          "title": "Dê a cada facção uma relação diferente com o recurso compartilhado",
+          "rules": "Um recurso que todos os grupos usam igual faz todos os grupos jogarem igual. Decida de antemão qual é o jeito característico de cada um de gerá-lo e gastá-lo, e a mesma mecânica produzirá experiências genuinamente diferentes conforme por onde você entra.",
+          "flavor": "“E trabalhamos duro para dar a cada cor uma identidade diferente no modo como interagia com a energia. Era importante que, se você draftasse decks de energia diferentes em cores diferentes, eles jogassem de maneiras diferentes.”"
+        },
+        {
+          "title": "Enuncie o objetivo qualitativo como um intervalo que dê para sentir",
+          "rules": "“Mais escolhas interessantes” não é um alvo contra o qual alguém consiga construir. Converta a qualidade que você quer numa dispersão observável — quão diferentes duas execuções da mesma coisa devem ser — e dê os números de antes e depois, ainda que impressionistas.",
+          "flavor": "“Eu sabia que procurava algo que criasse o que se chama de ‘alta variância de jogo'. A ideia é que, se você pega um deck e joga dez partidas, há uma dispersão de quão diferentes elas se desenrolam. No Magic normal, essa dispersão é de um a cinco. Eu queria mudá-la para algo mais como um a dez.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "《卡拉德许》的配料（上）",
+      "dek": "能量发明于2001年，被砍过两次，由一个人扛了十五年——而他随后让团队重新评估它，却没告诉他们自己当初挑的是哪一版。",
+      "overview": "能量的来历：从《家园》里一件有固定使用次数的神器，到一个定义整个次元的资源；以及在任何人开始花掉它之前，一种新货币所需要的那套框架工作。",
+      "takeaway": "「因为我不想左右测试，我没有告诉团队：这就是我当初创造这个机制时选定的那一版。」",
+      "lessons": [
+        {
+          "title": "把「我们和它有什么不同」压缩成一句话，然后到处重复它",
+          "rules": "当你的项目注定要被拿去和一个著名的前作比较时，防守手段不是一份文件——而是一句话，短到团队里每个人都能不问你就把它用在自己的决定上。早点说出来，并且一直说下去。",
+          "flavor": "「我一开始就知道，任何一个神器系列都会勾起人们对《秘罗地》的记忆；而我想从一开头就说清楚，《卡拉德许》不是又一个『神器系列』。我很早想出来、并且在整个设计与开发期间一直在用的那句话是：在卡拉德许，神器是科技，不是生物性。」"
+        },
+        {
+          "title": "当那个例外比规则玩起来更好时，试着把规则反过来",
+          "rules": "你搭了一套系统，然后那个打破系统的部件，反倒成了里面最有意思的东西。本能是把它当作特例留着。更大的一步，是去问：如果所有东西都这么运作会怎样——有时候，那个例外才是设计本身。",
+          "flavor": "「后来有一天，我做了一件神器，它不但能用自己身上的指示物，还能用其他神器身上的指示物。这张牌试玩效果很好……我被这张新牌逗得很开心，于是决定试点更野的：要是我所有带充电指示物的神器都这么运作呢？」"
+        },
+        {
+          "title": "一个被砍掉的好想法需要一个主人，否则它就没了",
+          "rules": "在一个组织里，没有任何东西会自己记得一个被取消的部件。如果你认为某样东西值得再来一次，那只会因为有一个人私下留着一份清单，并且拿每一个新项目去对照它——年复一年，还要熬过不止一次新的否决。",
+          "flavor": "「我知道能量是个好机制，所以我一直留意可以在哪里用上它。它其实一度进了《阿拉若碎片》的设计……但契合得不够完美，而且它想占的空间超出那个系列所能给的，于是这个机制又一次被撤了下来。」它在被发明的十五年之后才印了出来。"
+        },
+        {
+          "title": "把你自己先前的答案藏起来，好让这次重新评估是诚实的",
+          "rules": "当你带着新人重开一个旧决定时，你已经知道自己当初的结论了——而把它说出口，就会把一次评估变成一次追认。中立地把各个选项摆出来，把你以前的判决闷在心里；于是之后得到的那份一致，才真的意味着什么。",
+          "flavor": "团队做了三个版本。关于那个与他原始选择相符的版本：「请注意，因为我不想左右测试，我没有告诉团队：这就是我当初创造这个机制时选定的那一版。」他们先淘汰了一个，然后「得出了和我们当年在《秘罗地》设计期间完全相同的结论」。"
+        },
+        {
+          "title": "在任何人花它之前，一种新货币需要一份公布出来的兑换率",
+          "rules": "你引入了第二种资源，于是它的每一次使用，都是在暗中宣称「一个单位值多少」。有意识地把这个汇率定下来，并拿每一个实例去对照它；否则这种货币会在某些角落里通胀，在另一些角落里一文不值。",
+          "flavor": "「我们知道能量会需要一套经济体系，而这套体系得由开发部来搭；所以我们在设计阶段花了不少时间去搭这个框架。举例来说，我们确保能量的支出在强度上是对齐的：在一张牌上花一点能量，大致应当与另一张同样以一点能量为费用的牌等强。」"
+        },
+        {
+          "title": "先把这个资源的宪法写下来，然后有意识地授予例外",
+          "rules": "把那些封闭式的问题大声问出来：凡是产出它的，是否都必须消耗它？凡是消耗它的，是否都必须产出它？把答案定成政策——然后说明你会允许哪些违例、以及为什么；这样例外就是决定，而不是漂移。",
+          "flavor": "「我们还花了不少时间讨论能量的哲学。比如说：每一张产出能量的牌，是否都必须使用能量？每一张使用能量的牌，是否都必须产出能量？最后我们决定，大多数时候希望两者对齐，但会偶尔允许一些只产出、不使用的牌，因为能量在这个系列里会非常普遍。」"
+        },
+        {
+          "title": "第二种货币必须能买到不同的东西，否则它就是改了名的第一种",
+          "rules": "一个新资源的失效方式，就是最后它坐进了旧资源占过的那些位置。留意那些同时用到两者的费用，以及那些读起来就是「老东西换了个符号」的东西：新资源必须让旧资源做不到的形状成为可能。",
+          "flavor": "「我们花了大量时间去确保能量不会只是感觉像法术力的替代品。我们试着限制『费用里同时出现法术力和能量』的频率。我们也努力让自己的设计跟普通牌有点不一样，以免造出那种『只是把法术力换成了能量』的牌。」"
+        },
+        {
+          "title": "让每一个阵营与这份共享资源之间的关系各不相同",
+          "rules": "一份所有群体都以相同方式使用的资源，会让所有群体玩起来都一样。事先决定每一方产出和花费它的特征方式；于是同一个机制，会因为你从哪里进入而产出真正不同的体验。",
+          "flavor": "「我们下了很大功夫，让每一种颜色在与能量互动的方式上都有各自的身份。这一点很重要：如果你在不同颜色里抓出不同的能量套牌，它们玩起来应当是不一样的。」"
+        },
+        {
+          "title": "把那个定性的目标，说成一个你能感觉得到的区间",
+          "rules": "「更多有趣的选择」不是任何人能照着建造的目标。把你想要的那份品质，转换成一个可观察的离散度——同一样东西跑两遍，应该差多少——并且把改动前后的数字给出来，哪怕它们是印象式的。",
+          "flavor": "「我知道我在找的是能造出所谓『高对局方差』的东西。想法是：你拿一副套牌打十盘，这十盘打出来的差异有一个离散范围。在通常的万智牌里，这个范围大概是一到五。我感兴趣的，是把它改成更像一到十。」"
+        }
+      ]
+    }
+  }
+}
