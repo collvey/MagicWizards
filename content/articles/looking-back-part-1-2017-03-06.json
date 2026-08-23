@@ -1,0 +1,333 @@
+{
+  "id": "looking-back-part-1-2017-03-06",
+  "slug": "looking-back-part-1-2017-03-06",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2017-03-06",
+  "series": { "id": "looking-back-2017", "order": 1, "total": 2 },
+  "tags": [
+    "card-design",
+    "multicolor",
+    "color-pie",
+    "planar-chaos",
+    "magic-history",
+    "complexity"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/looking-back-part-1-2017-03-06",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T14:10:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Looking Back, Part 1",
+      "dek": "Design stories from across the game's history, including the week Rosewater promised Bill Rose an explanation of Planar Chaos he did not yet have.",
+      "overview": "Cards from Eighth Edition through Magic 2014: what makes a two-colour card worth being two colours, why a red card can destroy lands but not transform them, and the fight to print a token instead of a creature.",
+      "takeaway": "\"I asked him to give me a few weeks and I'd give him a detailed explanation. Here's the thing: I hadn't figured it out yet.\"",
+      "lessons": [
+        {
+          "title": "Weave the two halves together rather than bolting them side by side",
+          "rules": "There are several ways to make something out of two parts: give it one ability from each, find where they overlap, or connect them thematically. The strongest is the fourth — braid their capabilities so the result reaches a target neither could reach alone.",
+          "flavor": "On Abrupt Decay: “we've taken things each color can do and woven them together. The first ability is just a green ability… The next ability is where things get interesting. The card destroys a nonland with converted mana cost 3 or less. That means it can destroy artifacts, creatures, enchantments, and planeswalkers.” Neither colour does exactly that."
+        },
+        {
+          "title": "Take the iconic thing and tweak it so only the partner wants it",
+          "rules": "To bind two groups together you need something that belongs squarely to one and is useless without the other. Don't invent it — take the most recognizable item the first group already has and change the one detail that determines who benefits.",
+          "flavor": "Innistrad needed “something in green that you only wanted to play with white. Was there a way to take something iconically green and with just a little tweak make it relevant to white? We searched for answers for weeks and in the end we found it in the unlikeliest of places”: Llanowar Elves, which became Avacyn's Pilgrim."
+        },
+        {
+          "title": "The same effect has three executions, and choosing between them is the design",
+          "rules": "Any granted effect can be an activated ability, a triggered one, or a static one. They aren't interchangeable: they differ in when they happen, how often, and whether the owner chooses. Work out which timing you want and the execution follows.",
+          "flavor": "“Let's say you want to give a creature +2/+0 until end of turn. Magic design gives you three choices on how to do this.” Battle-Rattle Shaman had all three available. “I believe the triggered option was chosen for a few reasons. First, we wanted [its] ability to be used the turn it was cast.”"
+        },
+        {
+          "title": "The image can decide the classification",
+          "rules": "When something is being built from a picture first, the picture's own properties are an input to where it belongs. A striking image in the wrong category looks like an error, so let the visual settle the placement rather than arguing it from the mechanics.",
+          "flavor": "“Blood Moon got made red because the image was going to be primarily red, and it felt odd for that image to go on a non-red card.” The Dark's designer, Jesper Myrfors, was Magic's first art director: “As an artist, Jesper was very visual in how he thought.”"
+        },
+        {
+          "title": "Destroying a thing and transforming it are different permissions",
+          "rules": "Two effects with a similar outcome can sit in completely different places, because the category is about the verb rather than the result. Check which verb you're using before assuming the permission carries over — and note that adding \"temporary\" or \"random\" can change the answer.",
+          "flavor": "“I'm often asked if Blood Moon is in today's part of red's color pie and the answer is no. Red can destroy lands, but the color that does land transformation is blue and not red. Red might be able to do transformation if it was temporary or had a random element where you didn't control the transformation.”"
+        },
+        {
+          "title": "Adding a step can make something simpler if it removes another",
+          "rules": "Complexity is counted in things the reader has to process, not in how indirect the route is. A version that produces one object instead of two objects is doing less, even if the one object arrives by a longer path — and it can be defended on exactly those grounds.",
+          "flavor": "A 3/3 for two mana as a sorcery making a token, in a set with populate. “Rather than making a creature and a creature token, I'm just going to have it make a creature token. The first card did two things. The new card only does one of them. It is, by definition, simpler. Just doing Thing A is simpler than doing Things A and B.”"
+        },
+        {
+          "title": "Winning the argument once doesn't carry to the second instance",
+          "rules": "A precedent you had to fight for isn't established by having been fought for. Expect to make the whole case again when the same idea comes back, and budget the stubbornness rather than being surprised by the repeat.",
+          "flavor": "“It took a lot of debating, but I finally managed to convince enough people that doing things a little differently was okay if there was a payoff for it in the set. And then when we went to print Advent of the Wurm, I had to have the same arguments all over again. Luckily I was stubborn enough to stick with it.”"
+        },
+        {
+          "title": "Mirror every clause, and let the numbers climb",
+          "rules": "A large multi-part effect holds together when each part has the same internal shape — the same thing lost on one side and gained on the other. Then let the magnitudes rise in a visible pattern: people register the balance without noticing why.",
+          "flavor": "Cruel Ultimatum: “we decided to have three effects where you, the spellcaster, would gain the very thing you were making your opponent lose.” And: “The first effect kills one creature, the second forces the discard of three cards and the third makes the opponent lose 5 life. 1-3-5. Design loves little patterns like this.”"
+        },
+        {
+          "title": "Take the deadline for the answer you don't have yet",
+          "rules": "When someone needs an explanation you can't give, asking for a specific amount of time is better than either bluffing or admitting you're stuck. You've converted an open question into a scheduled one, and the schedule is what makes you solve it.",
+          "flavor": "“Bill Rose was to be the lead designer for Planar Chaos, and he told me that he didn't understand what the set was supposed to be about. I asked him to give me a few weeks and I'd give him a detailed explanation. Here's the thing: I hadn't figured it out yet.”"
+        },
+        {
+          "title": "Find the concrete artefact the abstract brief has to produce",
+          "rules": "A concept that won't resolve in the abstract usually has one specific deliverable attached to it. Solve that instead: work out exactly what has to go in the box, and the concept turns out to have been defined by the answer.",
+          "flavor": "“The key, I believed, to cracking Planar Chaos was figuring out what was supposed to be on the timeshifted sheet. I knew Time Spiral would have actual cards from Magic's past. I knew Future Sight would have weird cards from the game's future… but I wasn't sure what Planar Chaos's timeshifted sheet” would be."
+        }
+      ]
+    },
+    "es": {
+      "title": "Mirando atrás, parte 1",
+      "dek": "Historias de diseño de toda la historia del juego, incluida la semana en que Rosewater le prometió a Bill Rose una explicación de Planar Chaos que todavía no tenía.",
+      "overview": "Cartas de Octava Edición a Magic 2014: qué hace que una carta de dos colores merezca serlo, por qué una carta roja puede destruir tierras pero no transformarlas, y la pelea por imprimir una ficha en vez de una criatura.",
+      "takeaway": "«Le pedí que me diera unas semanas y le daría una explicación detallada. La cosa es que aún no lo había resuelto.»",
+      "lessons": [
+        {
+          "title": "Entreteje las dos mitades en vez de atornillarlas una al lado de la otra",
+          "rules": "Hay varias formas de hacer algo con dos partes: darle una habilidad de cada una, buscar dónde se solapan, o conectarlas temáticamente. La más fuerte es la cuarta: trenzar sus capacidades para que el resultado alcance un objetivo que ninguna alcanzaría sola.",
+          "flavor": "Sobre Abrupt Decay: «hemos cogido cosas que cada color puede hacer y las hemos entretejido. La primera habilidad es solo verde… La siguiente es donde se pone interesante. La carta destruye un no-tierra con coste convertido 3 o menos: artefactos, criaturas, encantamientos y planeswalkers.» Ningún color hace exactamente eso."
+        },
+        {
+          "title": "Coge la cosa icónica y retócala para que solo el socio la quiera",
+          "rules": "Para atar dos grupos necesitas algo que pertenezca de lleno a uno y sea inútil sin el otro. No lo inventes: coge el objeto más reconocible que el primer grupo ya tiene y cambia el único detalle que determina quién se beneficia.",
+          "flavor": "Innistrad necesitaba «algo en verde que solo quisieras jugar con blanco. ¿Había forma de coger algo icónicamente verde y, con un pequeño retoque, hacerlo relevante para el blanco? Buscamos respuestas durante semanas y al final la encontramos en el sitio más improbable»: Llanowar Elves, que se convirtió en Avacyn's Pilgrim."
+        },
+        {
+          "title": "El mismo efecto tiene tres ejecuciones, y elegir entre ellas es el diseño",
+          "rules": "Cualquier efecto otorgado puede ser una habilidad activada, una disparada o una estática. No son intercambiables: difieren en cuándo ocurren, con qué frecuencia y si el dueño elige. Averigua qué momento quieres y la ejecución se sigue.",
+          "flavor": "«Digamos que quieres dar a una criatura +2/+0 hasta el final del turno. El diseño de Magic te da tres opciones.» Battle-Rattle Shaman tenía las tres disponibles. «Creo que se eligió la opción disparada por varias razones. Primero, queríamos que su habilidad pudiera usarse el turno en que se lanzaba.»"
+        },
+        {
+          "title": "La imagen puede decidir la clasificación",
+          "rules": "Cuando algo se construye primero a partir de una imagen, las propiedades de esa imagen son un dato de entrada para dónde encaja. Una imagen llamativa en la categoría equivocada parece un error, así que deja que lo visual zanje la colocación.",
+          "flavor": "«Blood Moon acabó siendo roja porque la imagen iba a ser principalmente roja, y resultaba raro que esa imagen fuera en una carta no roja.» El diseñador de The Dark, Jesper Myrfors, fue el primer director de arte de Magic: «Como artista, Jesper pensaba de forma muy visual.»"
+        },
+        {
+          "title": "Destruir algo y transformarlo son permisos distintos",
+          "rules": "Dos efectos con un resultado parecido pueden vivir en sitios completamente distintos, porque la categoría va del verbo y no del resultado. Comprueba qué verbo usas antes de suponer que el permiso se traslada, y ten en cuenta que añadir «temporal» o «aleatorio» puede cambiar la respuesta.",
+          "flavor": "«Me preguntan a menudo si Blood Moon está hoy en la parte roja del pastel de color, y la respuesta es no. El rojo puede destruir tierras, pero el color que hace transformación de tierras es el azul. El rojo podría hacer transformación si fuera temporal o tuviera un elemento aleatorio que no controlaras.»"
+        },
+        {
+          "title": "Añadir un paso puede simplificar algo si elimina otro",
+          "rules": "La complejidad se cuenta en cosas que el lector debe procesar, no en lo indirecta que sea la ruta. Una versión que produce un objeto en vez de dos está haciendo menos, aunque ese objeto llegue por un camino más largo; y puede defenderse exactamente sobre esa base.",
+          "flavor": "Un 3/3 por dos manás como conjuro que hace una ficha, en una edición con poblar. «En vez de hacer una criatura y una ficha, voy a hacer que solo haga una ficha. La primera carta hacía dos cosas. La nueva solo hace una. Es, por definición, más simple. Hacer solo la cosa A es más simple que hacer las cosas A y B.»"
+        },
+        {
+          "title": "Ganar la discusión una vez no vale para el segundo caso",
+          "rules": "Un precedente por el que tuviste que pelear no queda establecido por el hecho de haber peleado. Cuenta con exponer el caso entero otra vez cuando la misma idea vuelva, y presupuesta la testarudez en vez de sorprenderte por la repetición.",
+          "flavor": "«Costó mucho debate, pero al final logré convencer a bastante gente de que hacer las cosas algo distinto estaba bien si había una recompensa en la edición. Y luego, cuando fuimos a imprimir Advent of the Wurm, tuve que tener las mismas discusiones otra vez. Por suerte fui lo bastante terco.»"
+        },
+        {
+          "title": "Refleja cada cláusula y deja que los números suban",
+          "rules": "Un efecto grande de varias partes se sostiene cuando cada parte tiene la misma forma interna: lo mismo perdido de un lado y ganado del otro. Luego deja que las magnitudes suban siguiendo un patrón visible: la gente registra el equilibrio sin darse cuenta de por qué.",
+          "flavor": "Cruel Ultimatum: «decidimos tener tres efectos donde tú, el lanzador, ganarías justo aquello que hacías perder a tu rival.» Y: «El primero mata una criatura, el segundo obliga a descartar tres cartas y el tercero hace perder 5 vidas. 1-3-5. Al diseño le encantan estos patronescitos.»"
+        },
+        {
+          "title": "Acepta un plazo para la respuesta que aún no tienes",
+          "rules": "Cuando alguien necesita una explicación que no puedes dar, pedir una cantidad concreta de tiempo es mejor que farolear o que admitir que estás atascado. Has convertido una pregunta abierta en una programada, y es el calendario lo que te hace resolverla.",
+          "flavor": "«Bill Rose iba a ser el diseñador líder de Planar Chaos, y me dijo que no entendía de qué se suponía que iba la edición. Le pedí que me diera unas semanas y le daría una explicación detallada. La cosa es que aún no lo había resuelto.»"
+        },
+        {
+          "title": "Encuentra el objeto concreto que el encargo abstracto tiene que producir",
+          "rules": "Un concepto que no se resuelve en abstracto suele tener un entregable específico asociado. Resuelve ese: averigua exactamente qué tiene que ir en la caja, y resultará que el concepto estaba definido por esa respuesta.",
+          "flavor": "«La clave, creía yo, para descifrar Planar Chaos era averiguar qué se suponía que iba en la hoja de cartas desplazadas en el tiempo. Sabía que Time Spiral tendría cartas reales del pasado de Magic. Sabía que Future Sight tendría cartas raras del futuro… pero no sabía qué sería la de Planar Chaos.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Regard en arrière, partie 1",
+      "dek": "Histoires de conception à travers l'histoire du jeu, dont la semaine où Rosewater a promis à Bill Rose une explication de Planar Chaos qu'il n'avait pas encore.",
+      "overview": "Des cartes de la Huitième Édition à Magic 2014 : ce qui rend une carte bicolore digne de l'être, pourquoi une carte rouge peut détruire des terrains sans les transformer, et la bataille pour imprimer un jeton plutôt qu'une créature.",
+      "takeaway": "« Je lui ai demandé quelques semaines et promis une explication détaillée. Le problème, c'est que je n'avais pas encore trouvé. »",
+      "lessons": [
+        {
+          "title": "Tressez les deux moitiés au lieu de les boulonner côte à côte",
+          "rules": "Il existe plusieurs façons de faire une chose à partir de deux parties : une capacité de chacune, la zone où elles se recouvrent, ou un lien thématique. La plus forte est la quatrième : tresser leurs capacités pour que le résultat atteigne une cible qu'aucune n'atteindrait seule.",
+          "flavor": "Sur Abrupt Decay : « nous avons pris ce que chaque couleur sait faire et l'avons tressé. La première capacité est purement verte… La suivante devient intéressante : la carte détruit un non-terrain de coût converti 3 ou moins — artefacts, créatures, enchantements, planeswalkers. » Aucune couleur ne fait exactement cela."
+        },
+        {
+          "title": "Prenez la chose iconique et ajustez-la pour que seul le partenaire la veuille",
+          "rules": "Pour lier deux groupes, il faut une chose qui appartienne pleinement à l'un et soit inutile sans l'autre. Ne l'inventez pas : prenez l'objet le plus reconnaissable que le premier groupe possède déjà et changez le seul détail qui décide qui en profite.",
+          "flavor": "Innistrad avait besoin « d'une chose verte qu'on ne veuille jouer qu'avec du blanc. Pouvait-on prendre un objet iconiquement vert et, d'un léger ajustement, le rendre pertinent pour le blanc ? Nous avons cherché des semaines et l'avons trouvé à l'endroit le plus improbable » : les Elfes de Llanowar."
+        },
+        {
+          "title": "Le même effet a trois exécutions, et choisir entre elles est la conception",
+          "rules": "Tout effet accordé peut être une capacité activée, déclenchée ou statique. Elles ne sont pas interchangeables : elles diffèrent par le moment, la fréquence, et le fait que le propriétaire choisisse ou non. Déterminez le moment voulu, et l'exécution suit.",
+          "flavor": "« Disons que vous voulez donner +2/+0 jusqu'à la fin du tour. La conception offre trois choix. » Battle-Rattle Shaman avait les trois. « Je crois que l'option déclenchée a été retenue pour plusieurs raisons. D'abord, nous voulions que sa capacité serve dès le tour où elle est lancée. »"
+        },
+        {
+          "title": "L'image peut décider du classement",
+          "rules": "Quand une chose se bâtit d'abord à partir d'une image, les propriétés de cette image sont une donnée d'entrée pour savoir où elle appartient. Une image frappante dans la mauvaise catégorie a l'air d'une erreur : laissez le visuel trancher le placement.",
+          "flavor": "« Blood Moon a été faite rouge parce que l'image allait être principalement rouge, et il semblait bizarre que cette image aille sur une carte non rouge. » Jesper Myrfors, concepteur de The Dark, fut le premier directeur artistique de Magic : « En artiste, Jesper pensait de façon très visuelle. »"
+        },
+        {
+          "title": "Détruire une chose et la transformer sont deux permissions distinctes",
+          "rules": "Deux effets au résultat voisin peuvent se situer à des endroits tout à fait différents, car la catégorie porte sur le verbe et non sur le résultat. Vérifiez quel verbe vous employez avant de supposer que la permission se transfère.",
+          "flavor": "« On me demande souvent si Blood Moon est aujourd'hui dans la part rouge de la roue, et la réponse est non. Le rouge peut détruire des terrains, mais la couleur qui transforme les terrains est le bleu. Le rouge pourrait transformer si c'était temporaire ou aléatoire et hors de son contrôle. »"
+        },
+        {
+          "title": "Ajouter une étape peut simplifier si cela en retire une autre",
+          "rules": "La complexité se compte en choses que le lecteur doit traiter, non en longueur du chemin. Une version qui produit un objet au lieu de deux fait moins, même si cet objet arrive par une route plus longue — et cela se défend exactement sur ce terrain.",
+          "flavor": "Un 3/3 pour deux manas, en rituel créant un jeton, dans une édition avec le peuplement. « Au lieu de faire une créature et un jeton, je vais lui faire faire seulement un jeton. La première carte faisait deux choses. La nouvelle n'en fait qu'une. Elle est, par définition, plus simple. »"
+        },
+        {
+          "title": "Gagner l'argument une fois ne vaut pas pour le second cas",
+          "rules": "Un précédent pour lequel vous avez dû vous battre n'est pas établi du seul fait du combat. Attendez-vous à refaire toute la démonstration quand la même idée reviendra, et budgétez l'obstination au lieu d'être surpris par la répétition.",
+          "flavor": "« Il a fallu beaucoup de débats, mais j'ai fini par convaincre assez de monde que faire les choses un peu différemment était acceptable s'il y avait une contrepartie dans l'édition. Puis, au moment d'imprimer Advent of the Wurm, il a fallu tout recommencer. Heureusement, j'ai été assez têtu. »"
+        },
+        {
+          "title": "Faites rimer chaque clause, et laissez les nombres monter",
+          "rules": "Un grand effet en plusieurs parties tient quand chaque partie a la même forme interne : la même chose perdue d'un côté et gagnée de l'autre. Laissez ensuite les grandeurs croître selon un motif visible : on enregistre l'équilibre sans remarquer pourquoi.",
+          "flavor": "Cruel Ultimatum : « nous avons décidé d'avoir trois effets où vous, le lanceur, gagniez précisément ce que vous faisiez perdre à l'adversaire. » Et : « Le premier tue une créature, le deuxième force la défausse de trois cartes, le troisième fait perdre 5 points de vie. 1-3-5. »"
+        },
+        {
+          "title": "Acceptez un délai pour la réponse que vous n'avez pas encore",
+          "rules": "Quand quelqu'un réclame une explication que vous ne pouvez pas donner, demander un temps précis vaut mieux que bluffer ou avouer l'impasse. Vous avez converti une question ouverte en question datée, et c'est la date qui vous force à la résoudre.",
+          "flavor": "« Bill Rose devait diriger la conception de Planar Chaos, et il m'a dit qu'il ne comprenait pas de quoi l'édition était censée parler. Je lui ai demandé quelques semaines et promis une explication détaillée. Le problème, c'est que je n'avais pas encore trouvé. »"
+        },
+        {
+          "title": "Trouvez l'objet concret que le cahier des charges abstrait doit produire",
+          "rules": "Un concept qui ne se résout pas dans l'abstrait a d'ordinaire un livrable précis attaché. Résolvez celui-là : déterminez exactement ce qui doit entrer dans la boîte, et il s'avérera que le concept était défini par cette réponse.",
+          "flavor": "« La clé, selon moi, pour percer Planar Chaos, était de trouver ce qui devait figurer sur la feuille décalée dans le temps. Je savais que Time Spiral aurait de vraies cartes du passé. Je savais que Future Sight aurait des cartes étranges venues de l'avenir… mais j'ignorais ce que serait celle de Planar Chaos. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Olhando para trás, parte 1",
+      "dek": "Histórias de design de toda a história do jogo, incluindo a semana em que Rosewater prometeu a Bill Rose uma explicação de Planar Chaos que ainda não tinha.",
+      "overview": "Cartas da Oitava Edição até Magic 2014: o que faz uma carta de duas cores merecer sê-lo, por que uma carta vermelha pode destruir terrenos mas não transformá-los, e a briga para imprimir uma ficha em vez de uma criatura.",
+      "takeaway": "“Pedi que ele me desse algumas semanas e eu daria uma explicação detalhada. Acontece que eu ainda não tinha resolvido aquilo.”",
+      "lessons": [
+        {
+          "title": "Trance as duas metades em vez de parafusá-las lado a lado",
+          "rules": "Há várias formas de fazer algo com duas partes: dar uma habilidade de cada, achar onde elas se sobrepõem, ou conectá-las tematicamente. A mais forte é a quarta: trançar as capacidades para que o resultado alcance um alvo que nenhuma alcançaria sozinha.",
+          "flavor": "Sobre Abrupt Decay: “pegamos coisas que cada cor consegue fazer e as trançamos. A primeira habilidade é só verde… A seguinte é onde fica interessante. A carta destrói uma não-terreno com custo convertido 3 ou menos: artefatos, criaturas, encantamentos e planeswalkers.” Nenhuma cor faz exatamente isso."
+        },
+        {
+          "title": "Pegue a coisa icônica e ajuste-a para que só o parceiro a queira",
+          "rules": "Para amarrar dois grupos você precisa de algo que pertença inteiramente a um e seja inútil sem o outro. Não invente: pegue o item mais reconhecível que o primeiro grupo já tem e mude o único detalhe que determina quem se beneficia.",
+          "flavor": "Innistrad precisava de “algo no verde que você só quisesse jogar com branco. Havia como pegar algo iconicamente verde e, com um pequeno ajuste, torná-lo relevante para o branco? Procuramos por semanas e no fim achamos no lugar mais improvável”: os Elfos de Llanowar."
+        },
+        {
+          "title": "O mesmo efeito tem três execuções, e escolher entre elas é o design",
+          "rules": "Qualquer efeito concedido pode ser uma habilidade ativada, disparada ou estática. Elas não são intercambiáveis: diferem em quando acontecem, com que frequência, e se o dono escolhe. Descubra qual momento você quer e a execução decorre disso.",
+          "flavor": "“Digamos que você queira dar +2/+0 até o fim do turno. O design de Magic te dá três opções.” Battle-Rattle Shaman tinha as três. “Acho que a opção disparada foi escolhida por algumas razões. Primeiro, queríamos que a habilidade dela pudesse ser usada no turno em que fosse conjurada.”"
+        },
+        {
+          "title": "A imagem pode decidir a classificação",
+          "rules": "Quando algo é construído a partir de uma imagem primeiro, as propriedades dessa imagem são um dado de entrada para onde aquilo pertence. Uma imagem marcante na categoria errada parece um erro, então deixe o visual resolver a colocação.",
+          "flavor": "“Blood Moon virou vermelha porque a imagem ia ser predominantemente vermelha, e parecia estranho aquela imagem ir numa carta não vermelha.” Jesper Myrfors, designer de The Dark, foi o primeiro diretor de arte de Magic: “Como artista, Jesper pensava de forma muito visual.”"
+        },
+        {
+          "title": "Destruir uma coisa e transformá-la são permissões diferentes",
+          "rules": "Dois efeitos com resultado parecido podem morar em lugares completamente distintos, porque a categoria é sobre o verbo, não sobre o resultado. Confira qual verbo você está usando antes de supor que a permissão se transfere.",
+          "flavor": "“Vivem me perguntando se Blood Moon está hoje na fatia vermelha do círculo de cores, e a resposta é não. O vermelho pode destruir terrenos, mas a cor que faz transformação de terrenos é o azul. O vermelho poderia transformar se fosse temporário ou tivesse um elemento aleatório fora do seu controle.”"
+        },
+        {
+          "title": "Acrescentar um passo pode simplificar se ele remove outro",
+          "rules": "Complexidade se conta em coisas que o leitor precisa processar, não no quanto o caminho é indireto. Uma versão que produz um objeto em vez de dois está fazendo menos, mesmo que esse objeto chegue por um trajeto mais longo — e dá para defender exatamente nesses termos.",
+          "flavor": "Um 3/3 por dois manas, como feitiço que faz uma ficha, numa coleção com povoar. “Em vez de fazer uma criatura e uma ficha, vou fazer com que ela só faça uma ficha. A primeira carta fazia duas coisas. A nova faz só uma. Ela é, por definição, mais simples.”"
+        },
+        {
+          "title": "Ganhar a discussão uma vez não vale para o segundo caso",
+          "rules": "Um precedente pelo qual você teve de brigar não fica estabelecido pelo fato de ter havido briga. Espere refazer todo o argumento quando a mesma ideia voltar, e orce a teimosia em vez de se surpreender com a repetição.",
+          "flavor": "“Deu muito debate, mas no fim consegui convencer gente suficiente de que fazer as coisas um pouco diferente estava bem se houvesse um retorno na coleção. E aí, quando fomos imprimir Advent of the Wurm, tive de ter as mesmas discussões de novo. Por sorte fui teimoso o bastante.”"
+        },
+        {
+          "title": "Espelhe cada cláusula, e deixe os números subirem",
+          "rules": "Um efeito grande de várias partes se sustenta quando cada parte tem o mesmo formato interno: a mesma coisa perdida de um lado e ganha do outro. Depois deixe as magnitudes subirem num padrão visível: as pessoas registram o equilíbrio sem perceber por quê.",
+          "flavor": "Cruel Ultimatum: “decidimos ter três efeitos em que você, o conjurador, ganharia justamente aquilo que estava fazendo o oponente perder.” E: “O primeiro mata uma criatura, o segundo força o descarte de três cartas e o terceiro faz perder 5 pontos de vida. 1-3-5.”"
+        },
+        {
+          "title": "Aceite um prazo para a resposta que você ainda não tem",
+          "rules": "Quando alguém precisa de uma explicação que você não pode dar, pedir uma quantidade específica de tempo é melhor do que blefar ou admitir que travou. Você converteu uma pergunta aberta numa agendada, e é o prazo que faz você resolvê-la.",
+          "flavor": "“Bill Rose seria o designer líder de Planar Chaos, e me disse que não entendia sobre o que a coleção deveria ser. Pedi que ele me desse algumas semanas e eu daria uma explicação detalhada. Acontece que eu ainda não tinha resolvido aquilo.”"
+        },
+        {
+          "title": "Ache o objeto concreto que o briefing abstrato precisa produzir",
+          "rules": "Um conceito que não se resolve no abstrato costuma ter um entregável específico atrelado. Resolva esse: descubra exatamente o que precisa ir na caixa, e vai se revelar que o conceito estava definido por essa resposta.",
+          "flavor": "“A chave, eu achava, para destravar Planar Chaos era descobrir o que deveria estar na folha deslocada no tempo. Eu sabia que Time Spiral teria cartas reais do passado. Sabia que Future Sight teria cartas estranhas do futuro… mas não sabia o que seria a de Planar Chaos.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "回头看，上",
+      "dek": "跨越整个游戏历史的设计故事——包括罗斯瓦特向比尔·罗斯承诺给出一份《时空混沌》说明的那一周，而那份说明他当时还没有。",
+      "overview": "从第八版到《万智牌2014核心系列》的牌：什么让一张双色牌配得上是双色的、为什么一张红牌能消灭地却不能变化地，以及那场「印一个衍生物而不是一只生物」的争执。",
+      "takeaway": "「我请他给我几周，我会给他一份详细的解释。问题在于：那时候我还没想明白。」",
+      "lessons": [
+        {
+          "title": "把两半编织在一起，而不是把它们并排拧上去",
+          "rules": "用两个部分做出一样东西，有好几种方式：一边给它一个异能；找它们重叠的地方；或者在主题上把它们连起来。而最强的是第四种：把它们的能力编织起来，让结果抵达一个「两者单独都到不了」的目标。",
+          "flavor": "关于《突然衰败》：「我们把每个颜色各自能做的事情编织到了一起。第一个异能纯粹是绿色的……第二个才是有意思的地方。这张牌消灭一个总法术力费用小于或等于3的非地永久物——那意味着它能消灭神器、生物、结界和鹏洛客。」而这两个颜色，单独都做不到这件事。"
+        },
+        {
+          "title": "拿起那件标志性的东西，微调它，让只有伙伴才想要它",
+          "rules": "要把两个群体绑在一起，你需要一样「完全属于其中一方、而离开另一方就没用」的东西。别去发明它：拿起第一方本来就有的、最有辨识度的那件东西，改掉决定「谁受益」的那一个细节。",
+          "flavor": "《依尼翠》需要「一样绿色的、而你只想和白色一起打的东西。有没有办法拿起某样标志性的绿色东西，稍微一调，就让它对白色有意义？我们找了好几周的答案，最后在最不可能的地方找到了它」：罗堰精灵——它变成了《阿维波恩的信徒》。"
+        },
+        {
+          "title": "同一个效果有三种实现方式，而在它们之间做选择才是设计",
+          "rules": "任何一个被赋予的效果，都可以是启动式异能、触发式异能或静止式异能。它们不可互换：它们在「何时发生」「多久一次」「拥有者是否有得选」上都不同。先想清楚你要的是哪种时机，实现方式就跟着定了。",
+          "flavor": "「假设你想让一只生物获得+2/+0直到回合结束。《万智牌》设计给了你三种选择。」《战鼓萨满》三种都可行。「我认为最后选了触发式，有几个原因。首先，我们希望它的异能在它被施放的那一回合就能用上。」"
+        },
+        {
+          "title": "画面可以决定归类",
+          "rules": "当一样东西是先从一幅画建起来的时，这幅画自身的属性就是「它该归到哪里」的一项输入。一幅醒目的画出现在错误的类别里看上去像个失误——所以让视觉去定这个位置，而不是从机制上去争。",
+          "flavor": "「《血染月》之所以成了红色，是因为那幅画的主色调会是红的，而让那幅画出现在一张非红牌上感觉很怪。」《黑暗》的设计者耶斯佩尔·米尔福斯是《万智牌》的第一任美术总监：「作为一个画家，耶斯佩尔思考的方式非常视觉化。」"
+        },
+        {
+          "title": "「消灭一样东西」和「变化它」是两种不同的许可",
+          "rules": "两个结果相近的效应，可能坐落在完全不同的地方——因为分类看的是那个动词，而不是那个结果。在默认「许可会自动转移」之前，先核对你用的是哪个动词；并且注意：加上「暂时的」或「随机的」，可能会改变答案。",
+          "flavor": "「经常有人问我《血染月》在今天还算不算红色那一块色饼，答案是不算。红色可以消灭地，但做『地的变化』的颜色是蓝色而不是红色。如果它是暂时的、或者带有一个你无法控制的随机成分，红色也许可以做变化。」"
+        },
+        {
+          "title": "如果加一步能去掉另一步，那这一步反而让它更简单",
+          "rules": "复杂度是按「读者必须处理多少件事」来数的，不是按路径有多绕来数的。一个产出一件东西、而不是两件东西的版本，做的事更少——即使那一件东西是走了更长的路才到的；而且完全可以就在这条理由上为它辩护。",
+          "flavor": "在一个有增殖军的系列里，一张两费、造出一个3/3衍生物的法术。「与其造一只生物再造一个衍生物，我干脆让它只造一个衍生物。第一张牌做了两件事。新的这张只做其中一件。按定义，它更简单。只做A，比又做A又做B更简单。」"
+        },
+        {
+          "title": "赢下一次争论，不会自动适用于第二个案例",
+          "rules": "一个你必须争取才拿到的先例，并不会因为「你争取过」就此确立。要预料到：当同一个想法再来一次时，你得把整套论证重新做一遍；把这份固执列进预算，而不是被这次重复弄得意外。",
+          "flavor": "「争论了很久，但我最后总算说服了足够多的人：只要在这个系列里有相应的回报，做得稍微不一样是可以的。然后等到我们要印《亚龙降临》时，我又得把同样的争论从头来一遍。幸好我够固执，坚持了下来。」"
+        },
+        {
+          "title": "让每一句都对称，并且让数字往上爬",
+          "rules": "一个由多个部分构成的大效应，在每一部分都具有同样的内部形状时才立得住：一边失去的和另一边得到的是同一样东西。然后让这些量级按一个看得见的模式递增——人们会记录下那份平衡，却不会注意到为什么。",
+          "flavor": "《残酷最后通牒》：「我们决定做三个效应，让你——那个施法者——获得的，正是你让对手失去的那样东西。」以及：「第一个效应杀死一只生物，第二个迫使弃掉三张牌，第三个让对手失去5点生命。1-3-5。设计很喜欢这种小模式。」"
+        },
+        {
+          "title": "为一个你还没有的答案，先接下那个期限",
+          "rules": "当有人需要一份你给不出的解释时，请求一段具体的时间，比虚张声势或者承认自己卡住了都要好。你已经把一个开放的问题变成了一个有日程的问题——而正是这个日程，逼着你把它解决掉。",
+          "flavor": "「比尔·罗斯将要担任《时空混沌》的主设计师，而他告诉我，他不明白这个系列到底该是关于什么的。我请他给我几周，我会给他一份详细的解释。问题在于：那时候我还没想明白。」"
+        },
+        {
+          "title": "找出那个抽象的任务书必须产出的具体物件",
+          "rules": "一个在抽象层面上解不开的概念，通常挂着一件具体的交付物。去解那一件：弄清楚究竟什么必须装进那个盒子里——然后你会发现，这个概念一直就是由那个答案所定义的。",
+          "flavor": "「我当时认为，破解《时空混沌》的钥匙，是弄清楚那张『时间错置』特殊牌表上应该放什么。我知道《时间漩涡》会放来自《万智牌》过去的真实牌张。我知道《预知未来》会放来自这个游戏未来的、做着从未做过之事的怪牌……但我不确定《时空混沌》那张表该是什么。」"
+        }
+      ]
+    }
+  }
+}
