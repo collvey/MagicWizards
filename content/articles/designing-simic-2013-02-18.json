@@ -1,0 +1,320 @@
+{
+  "id": "designing-simic-2013-02-18",
+  "slug": "designing-simic-2013-02-18",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-02-18",
+  "series": { "id": "designing-the-color-pairs", "order": 7, "total": 10 },
+  "tags": ["color-pie", "mechanics", "green-blue", "counters", "identity"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/designing-simic-2013-02-18",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Designing Simic",
+      "dek": "The seventh colour-pair column: two colours that look unrelated and share more mechanical ground than almost any other pair, and the one pairing where the usual formula for reconciling opposites doesn't apply.",
+      "overview": "At first glance green and blue have nothing in common — one is a creature colour, the other a spell colour. Rosewater answers by enumerating ten places they already overlap, and concludes only two other pairings come close. The difficulty is the reverse of what you'd expect: the mechanics converge and the themes don't. Most enemy pairings get reconciled by making one colour the goal and the other the means, and this one refuses that treatment — neither leads. What follows are two mechanic histories, one from a homework assignment about mutation, one inherited from a design-contest entrant's block pitch, plus the tuning that made each work.",
+      "takeaway": "This is the pairing whose identity can't be derived from the formula, which is why it was the most rewritten of the ten and why Rosewater says you have to sense the middle ground rather than reason your way to it.",
+      "lessons": [
+        {
+          "title": "\"They have nothing in common\" is a claim to test by enumeration",
+          "rules": "The first-glance reading is that these two colours are opposites with no shared ground. He answers with a list of ten things they both already do — two shared creature keywords, an overlapping card-draw allocation, a shared ability that keeps getting proposed for keywording, both being the colours with large creatures at the entry tier, and more. His conclusion is that only two other pairings come close. Intuitions about overlap are worth exactly as much as the list you can write down.",
+          "flavor": "One is the creature colour and one is the spell colour, and they share more than almost anyone else."
+        },
+        {
+          "title": "When the standard reconciliation formula doesn't apply, the identity has to be sensed",
+          "rules": "Most opposed pairings get resolved the same way: one side supplies the goal and the other the means. He gives two clean examples. This one refuses the treatment — neither colour leads, and what results is not the sum but a blend. He says the resulting feel is neither of its parents and is something you have to sense as you work, which he calls a hard thing to do. Where your general method has an exception, the exception costs you a derivable answer.",
+          "flavor": "Not after growth exactly, and not after knowledge exactly. After improving on nature."
+        },
+        {
+          "title": "Repeated rewriting is a symptom of an underdetermined identity",
+          "rules": "He notes that of the ten groups, this is the one most overhauled creatively between the two visits — and links it directly to the same difficulty that makes its mechanics hard to place. That's worth generalising. A component that keeps being redesigned is usually not suffering from bad execution; it's suffering from a specification that never resolved, and each new team re-derives a different reading from the same underdetermined brief.",
+          "flavor": "Rebuilt more than any of the other nine, for the same reason it keeps being hard."
+        },
+        {
+          "title": "The heart is usually one question deeper than the obvious noun",
+          "rules": "Asked where to start with this pairing, the easy answer is creatures. He says that isn't enough: the pairing is about experimentation and forced change, so what you have to settle before anything else is how the creatures are going to change. The heart isn't the category, it's the verb applied to the category. Stopping at the noun leaves you with a starting point too broad to build a set around.",
+          "flavor": "Not creatures. What happens to the creatures."
+        },
+        {
+          "title": "A route to victory can leave its endpoint unspecified, if the growth is guaranteed",
+          "rules": "Most pairings have a known plan. This one's plan is that something will be made, and it will grow and adapt, and if unchecked that leads somewhere — aggressive creatures, a strange combination, a warped board, something. He treats the open-endedness itself as the focus rather than as a gap in it. A strategy defined by its trajectory rather than its destination is legitimate, provided the trajectory is reliable enough to be threatening.",
+          "flavor": "Things will happen. What things? You'll know when the deck figures it out."
+        },
+        {
+          "title": "A mechanic that measures against your board dictates the whole cycle's numbers",
+          "rules": "The later mechanic triggers when a creature with a bigger stat arrives, which means every creature carrying it needs at least one low stat to remain triggerable. He gives the distribution: of eleven, three have zero power, seven have a one somewhere, and one has a two as its lowest. None of that was a per-card judgement. Once a mechanic compares against what you already control, the statline of every card carrying it stops being free.",
+          "flavor": "Eleven creatures, and their power and toughness were decided by the mechanic before anyone drew them."
+        },
+        {
+          "title": "Differentiating from your own back catalogue is a weaker reason than making it usable",
+          "rules": "Design gave the creatures a base of one so they wouldn't be confused with a similar older mechanic. Development changed the base to zero, and he says they were right: the arithmetic became easier and the creature now leaves the battlefield once it has been spent. One team optimised for distinctness from history, the other for the person holding the card. Where those conflict, distinctness is the cheaper thing to give up.",
+          "flavor": "Nobody playing it was thinking about the mechanic from fifteen years earlier."
+        },
+        {
+          "title": "A piece that makes no sense alone can be right in context, and you'll argue for it every time",
+          "rules": "One card did nothing but hand out the mechanic's counters — it could neither attack nor block. R&D argued at length about whether it made any sense in a vacuum, and the team won the argument on two grounds: it would play well, and its oddity was itself worth having. Both arguments are about the surroundings rather than the object. Expect to make that case from scratch for every such piece, because the objection is always available.",
+          "flavor": "A creature that can't fight, whose entire job is giving other creatures hats."
+        },
+        {
+          "title": "Some things can't be judged on reading; first reception measures legibility",
+          "rules": "The earlier mechanic took people time to warm up to. Players had to actually play with it before the pattern landed, and once it did it became a favourite of the group's dedicated audience — and one of his own two favourites from that block. The initial lukewarm response was measuring how quickly the thing explains itself, not how good it is. Those are different quantities, and only one of them is fixed after release.",
+          "flavor": "Unpopular on sight, and second on his personal list for the whole block."
+        },
+        {
+          "title": "Spend the same resource a second way at higher rarity",
+          "rules": "The mechanic generates counters as a side effect of doing its job. The higher-rarity cards then use those counters again, in ways the common cards don't: one triggers whenever it receives one, others convert the count into the size of an effect. These are build-around cards, and they cost nothing extra to enable because the resource is already being produced. Look at what your mechanic leaves lying around and charge somebody for it.",
+          "flavor": "The commons make the counters. The rares are the reason to want more of them."
+        }
+      ]
+    },
+    "es": {
+      "title": "Diseñando Simic",
+      "dek": "La séptima columna de parejas de colores: dos colores que parecen no tener relación y comparten más terreno mecánico que casi ninguna otra pareja, y la única pareja donde no aplica la fórmula habitual para reconciliar opuestos.",
+      "overview": "A primera vista, verde y azul no tienen nada en común: uno es color de criaturas, el otro de hechizos. Rosewater responde enumerando diez puntos en los que ya se solapan, y concluye que solo otras dos parejas se acercan. La dificultad es la contraria a la esperada: las mecánicas convergen y los temas no. La mayoría de las parejas enemigas se reconcilian haciendo de un color el fin y del otro el medio, y esta rechaza ese tratamiento: ninguno lidera. Siguen dos historias de mecánicas, una nacida de un ejercicio sobre mutación y otra heredada de la propuesta de bloque de un concursante de diseño, más el ajuste que hizo funcionar a cada una.",
+      "takeaway": "Esta es la pareja cuya identidad no se deriva de la fórmula, y por eso fue la más reescrita de las diez y por eso Rosewater dice que hay que intuir el terreno intermedio en vez de razonarlo.",
+      "lessons": [
+        {
+          "title": "«No tienen nada en común» es una afirmación que se comprueba enumerando",
+          "rules": "La lectura de primera impresión es que estos dos colores son opuestos sin terreno compartido. Él responde con una lista de diez cosas que ambos ya hacen: dos palabras clave de criatura compartidas, un solape en la asignación de robo, una habilidad común que no deja de proponerse para volverse palabra clave, ser ambos los colores con criaturas grandes en la rareza de entrada, y más. Su conclusión es que solo otras dos parejas se acercan. Las intuiciones sobre solape valen exactamente lo que la lista que puedas escribir.",
+          "flavor": "Uno es el color de las criaturas y otro el de los hechizos, y comparten más que casi cualquiera."
+        },
+        {
+          "title": "Cuando la fórmula habitual de reconciliación no aplica, la identidad hay que intuirla",
+          "rules": "La mayoría de las parejas enfrentadas se resuelven igual: un lado aporta el fin y el otro el medio. Da dos ejemplos limpios. Esta rechaza el tratamiento: ninguno de los dos colores lidera, y lo que resulta no es la suma sino una mezcla. Dice que la sensación resultante no es la de ninguno de sus padres y que hay que percibirla mientras trabajas, algo que califica de difícil. Cuando tu método general tiene una excepción, la excepción te cuesta una respuesta derivable.",
+          "flavor": "No van exactamente tras el crecimiento, ni exactamente tras el conocimiento. Van tras mejorar la naturaleza."
+        },
+        {
+          "title": "La reescritura repetida es síntoma de una identidad indeterminada",
+          "rules": "Señala que, de los diez grupos, este es el más revisado creativamente entre las dos visitas, y lo vincula directamente con la misma dificultad que hace difícil ubicar sus mecánicas. Vale la pena generalizarlo. Un componente que no deja de rediseñarse no suele sufrir de mala ejecución: sufre de una especificación que nunca se resolvió, y cada equipo nuevo deriva una lectura distinta del mismo encargo indeterminado.",
+          "flavor": "Reconstruido más que cualquiera de los otros nueve, por la misma razón por la que sigue siendo difícil."
+        },
+        {
+          "title": "El corazón suele estar una pregunta más adentro que el sustantivo obvio",
+          "rules": "Preguntado por dónde empezar con esta pareja, la respuesta fácil son las criaturas. Dice que no basta: la pareja va de experimentación y de cambio forzado, así que lo que hay que fijar antes que nada es cómo van a cambiar las criaturas. El corazón no es la categoría, es el verbo aplicado a la categoría. Detenerse en el sustantivo te deja un punto de partida demasiado amplio para construir una expansión.",
+          "flavor": "No las criaturas. Lo que les pasa a las criaturas."
+        },
+        {
+          "title": "Una ruta a la victoria puede dejar su destino sin especificar, si el crecimiento está garantizado",
+          "rules": "La mayoría de las parejas tiene un plan conocido. El plan de esta es que se hará algo, y crecerá y se adaptará, y si no se detiene lleva a alguna parte: criaturas agresivas, una combinación rara, un tablero retorcido, algo. Trata la apertura misma como el foco y no como una laguna en él. Una estrategia definida por su trayectoria y no por su destino es legítima, siempre que la trayectoria sea lo bastante fiable para amenazar.",
+          "flavor": "Pasarán cosas. ¿Qué cosas? Lo sabrás cuando el mazo lo averigüe."
+        },
+        {
+          "title": "Una mecánica que se mide contra tu campo dicta los números de todo el ciclo",
+          "rules": "La mecánica posterior se dispara cuando entra una criatura con un valor mayor, lo que significa que cada criatura que la lleva necesita al menos un valor bajo para seguir siendo activable. Da la distribución: de once, tres tienen fuerza cero, siete tienen un uno en algún sitio y una tiene un dos como valor mínimo. Nada de eso fue un juicio carta por carta. En cuanto una mecánica compara contra lo que ya controlas, la estadística de cada carta que la lleva deja de ser libre.",
+          "flavor": "Once criaturas, y su fuerza y resistencia las decidió la mecánica antes de que nadie las dibujara."
+        },
+        {
+          "title": "Diferenciarse del propio catálogo es una razón más débil que hacerlo usable",
+          "rules": "Diseño dio a las criaturas una base de uno para que no se confundieran con una mecánica antigua parecida. Desarrollo cambió la base a cero, y él dice que tenían razón: la aritmética se volvió más fácil y la criatura ahora abandona el campo una vez gastada. Un equipo optimizó para distinguirse de la historia, el otro para la persona que sostiene la carta. Cuando eso choca, la distinción es lo más barato de ceder.",
+          "flavor": "Nadie que la jugara estaba pensando en la mecánica de quince años atrás."
+        },
+        {
+          "title": "Una pieza que sola no tiene sentido puede ser correcta en contexto, y lo defenderás cada vez",
+          "rules": "Una carta no hacía más que repartir los contadores de la mecánica: no podía atacar ni bloquear. En I+D se discutió largamente si tenía algún sentido en el vacío, y el equipo ganó la discusión con dos argumentos: jugaría bien, y su rareza merecía la pena por sí misma. Ambos argumentos van del entorno y no del objeto. Cuenta con exponerlos desde cero para cada pieza así, porque la objeción siempre está disponible.",
+          "flavor": "Una criatura que no puede pelear y cuyo único trabajo es repartirles sombreros a las demás."
+        },
+        {
+          "title": "Algunas cosas no se juzgan leyéndolas; la primera acogida mide legibilidad",
+          "rules": "A la gente le costó tomarle cariño a la mecánica anterior. Los jugadores tuvieron que jugarla de verdad antes de que el patrón calara, y una vez que lo hizo se volvió favorita del público entregado del grupo, y una de las dos favoritas de él en aquel bloque. La tibia respuesta inicial medía con qué rapidez la cosa se explica sola, no lo buena que es. Son cantidades distintas, y solo una queda fijada tras el lanzamiento.",
+          "flavor": "Impopular a primera vista, y segunda en su lista personal de todo el bloque."
+        },
+        {
+          "title": "Gasta el mismo recurso una segunda vez en las rarezas altas",
+          "rules": "La mecánica genera contadores como efecto secundario de hacer su trabajo. Las cartas de rareza alta usan luego esos contadores otra vez, de formas que las comunes no: una se dispara cada vez que recibe uno, otras convierten la cuenta en el tamaño de un efecto. Son cartas para construir mazos alrededor, y no cuestan nada extra de habilitar porque el recurso ya se está produciendo. Mira qué deja tirado por ahí tu mecánica y cóbraselo a alguien.",
+          "flavor": "Las comunes fabrican los contadores. Las raras son la razón para querer más."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Concevoir Simic",
+      "dek": "La septième chronique sur les paires de couleurs : deux couleurs qui semblent sans rapport et partagent plus de terrain mécanique que presque toute autre paire, et la seule paire où la formule habituelle de réconciliation des contraires ne s'applique pas.",
+      "overview": "À première vue, le vert et le bleu n'ont rien en commun : l'un est la couleur des créatures, l'autre celle des sorts. Rosewater répond en énumérant dix points où ils se recouvrent déjà, et conclut que seules deux autres paires s'en approchent. La difficulté est l'inverse de ce qu'on attendrait : les mécaniques convergent et les thèmes non. La plupart des paires ennemies se réconcilient en faisant d'une couleur le but et de l'autre le moyen, et celle-ci refuse ce traitement — aucune ne mène. Suivent deux histoires de mécaniques, l'une née d'un devoir sur la mutation, l'autre héritée du bloc proposé par un candidat à un concours de conception, plus les réglages qui ont fait fonctionner chacune.",
+      "takeaway": "C'est la paire dont l'identité ne se déduit pas de la formule, d'où le fait qu'elle ait été la plus réécrite des dix et que Rosewater dise qu'il faut sentir le terrain médian plutôt que le raisonner.",
+      "lessons": [
+        {
+          "title": "« Ils n'ont rien en commun » est une affirmation à vérifier par énumération",
+          "rules": "La lecture immédiate est que ces deux couleurs sont opposées et sans terrain partagé. Il répond par une liste de dix choses qu'elles font déjà toutes deux : deux mots-clés de créature partagés, un recouvrement dans l'attribution de la pioche, une capacité commune qu'on propose sans cesse de nommer, le fait d'être toutes deux les couleurs à grandes créatures à la rareté d'entrée, et davantage. Sa conclusion : seules deux autres paires s'en approchent. Les intuitions sur le recouvrement valent exactement la liste que vous pouvez écrire.",
+          "flavor": "L'une est la couleur des créatures et l'autre celle des sorts, et elles partagent plus que presque tout le monde."
+        },
+        {
+          "title": "Quand la formule habituelle de réconciliation ne s'applique pas, l'identité doit se sentir",
+          "rules": "La plupart des paires opposées se résolvent pareillement : un côté fournit le but, l'autre le moyen. Il en donne deux exemples nets. Celle-ci refuse le traitement — aucune couleur ne mène, et il en résulte non une somme mais un mélange. Il dit que le ressenti obtenu n'est celui d'aucun des parents et qu'il faut le sentir en travaillant, ce qu'il qualifie de difficile. Là où votre méthode générale a une exception, l'exception vous coûte une réponse déductible.",
+          "flavor": "Pas exactement en quête de croissance, pas exactement en quête de savoir. En quête d'améliorer la nature."
+        },
+        {
+          "title": "La réécriture répétée est le symptôme d'une identité sous-déterminée",
+          "rules": "Il note que, des dix groupes, c'est le plus remanié sur le plan créatif entre les deux visites — et le relie directement à la difficulté qui rend ses mécaniques dures à situer. Cela mérite d'être généralisé. Un composant sans cesse reconçu ne souffre généralement pas d'une mauvaise exécution ; il souffre d'une spécification jamais tranchée, et chaque nouvelle équipe tire une lecture différente du même cahier des charges indéterminé.",
+          "flavor": "Reconstruit plus que les neuf autres, pour la raison même qui le rend toujours difficile."
+        },
+        {
+          "title": "Le cœur se trouve d'ordinaire une question plus loin que le substantif évident",
+          "rules": "Interrogé sur le point de départ pour cette paire, la réponse facile est : les créatures. Il dit que cela ne suffit pas : la paire parle d'expérimentation et de changement forcé, donc ce qu'il faut arrêter avant tout est comment les créatures vont changer. Le cœur n'est pas la catégorie, c'est le verbe appliqué à la catégorie. S'arrêter au substantif laisse un point de départ trop large pour bâtir une extension.",
+          "flavor": "Pas les créatures. Ce qui arrive aux créatures."
+        },
+        {
+          "title": "Une route vers la victoire peut laisser sa destination non spécifiée, si la croissance est garantie",
+          "rules": "La plupart des paires ont un plan connu. Le plan de celle-ci est que quelque chose sera fabriqué, qu'il grandira et s'adaptera, et que sans intervention cela mène quelque part — créatures agressives, combinaison étrange, plateau déformé, quelque chose. Il traite cette ouverture comme le point d'appui lui-même et non comme une lacune. Une stratégie définie par sa trajectoire plutôt que par sa destination est légitime, pourvu que la trajectoire soit assez fiable pour menacer.",
+          "flavor": "Des choses vont arriver. Lesquelles ? Vous le saurez quand le deck l'aura trouvé."
+        },
+        {
+          "title": "Une mécanique qui se mesure à votre champ dicte les chiffres de tout le cycle",
+          "rules": "La mécanique tardive se déclenche à l'arrivée d'une créature dotée d'une valeur supérieure, donc chaque créature qui la porte a besoin d'au moins une valeur basse pour rester déclenchable. Il donne la répartition : sur onze, trois ont zéro en force, sept ont un un quelque part, et une a un deux comme plus petite valeur. Rien de tout cela n'était un jugement carte par carte. Dès qu'une mécanique compare à ce que vous contrôlez déjà, les caractéristiques de chaque carte qui la porte cessent d'être libres.",
+          "flavor": "Onze créatures, et leur force et endurance ont été décidées par la mécanique avant qu'on les dessine."
+        },
+        {
+          "title": "Se démarquer de son propre catalogue est une raison plus faible que rendre la chose utilisable",
+          "rules": "La conception a donné aux créatures une base de un pour éviter la confusion avec une ancienne mécanique voisine. Le développement a mis la base à zéro, et il dit qu'ils avaient raison : l'arithmétique devient plus simple et la créature quitte le champ une fois épuisée. Une équipe optimisait la distinction d'avec l'histoire, l'autre pour la personne qui tient la carte. En cas de conflit, la distinction est ce qu'il est le moins cher d'abandonner.",
+          "flavor": "Personne en la jouant ne songeait à la mécanique d'il y a quinze ans."
+        },
+        {
+          "title": "Une pièce absurde isolément peut être juste en contexte, et il faudra le plaider chaque fois",
+          "rules": "Une carte ne faisait que distribuer les marqueurs de la mécanique : elle ne pouvait ni attaquer ni bloquer. La R&D a longuement débattu de son sens dans l'absolu, et l'équipe a gagné sur deux arguments : elle se jouerait bien, et son étrangeté valait en soi. Les deux arguments portent sur l'entourage, non sur l'objet. Attendez-vous à refaire cette plaidoirie à chaque pièce de ce type, car l'objection est toujours disponible.",
+          "flavor": "Une créature incapable de se battre, dont le seul métier est de distribuer des chapeaux aux autres."
+        },
+        {
+          "title": "Certaines choses ne se jugent pas à la lecture ; l'accueil initial mesure la lisibilité",
+          "rules": "La mécanique antérieure a mis du temps à séduire. Il a fallu la jouer pour que le schéma s'installe, et une fois installé elle est devenue une favorite du public assidu du groupe — et l'une de ses deux préférées de ce bloc. L'accueil tiède initial mesurait la vitesse à laquelle la chose s'explique, pas sa qualité. Ce sont deux grandeurs distinctes, et une seule est figée après la sortie.",
+          "flavor": "Impopulaire au premier regard, et deuxième sur sa liste personnelle pour tout le bloc."
+        },
+        {
+          "title": "Dépensez la même ressource une seconde fois aux raretés supérieures",
+          "rules": "La mécanique produit des marqueurs comme effet secondaire de son fonctionnement. Les cartes de rareté supérieure réutilisent ensuite ces marqueurs autrement que les communes : l'une se déclenche à chaque marqueur reçu, d'autres convertissent le compte en amplitude d'effet. Ce sont des cartes autour desquelles bâtir, et elles ne coûtent rien de plus à activer puisque la ressource est déjà produite. Regardez ce que votre mécanique laisse traîner et faites-le payer.",
+          "flavor": "Les communes fabriquent les marqueurs. Les rares sont la raison d'en vouloir davantage."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Desenhando Simic",
+      "dek": "A sétima coluna sobre pares de cores: duas cores que parecem não ter relação e compartilham mais terreno mecânico que quase qualquer outro par, e o único par em que a fórmula habitual para reconciliar opostos não se aplica.",
+      "overview": "À primeira vista, verde e azul não têm nada em comum: um é cor de criaturas, o outro de mágicas. Rosewater responde enumerando dez pontos em que já se sobrepõem, e conclui que só dois outros pares chegam perto. A dificuldade é o oposto do esperado: as mecânicas convergem e os temas não. A maioria dos pares inimigos se reconcilia fazendo de uma cor o fim e da outra o meio, e este recusa esse tratamento — nenhuma lidera. Seguem duas histórias de mecânicas, uma nascida de uma tarefa sobre mutação e outra herdada da proposta de bloco de um concorrente de design, além do ajuste que fez cada uma funcionar.",
+      "takeaway": "Este é o par cuja identidade não se deriva da fórmula, e é por isso que foi o mais reescrito dos dez e por isso que Rosewater diz que é preciso sentir o meio-termo em vez de raciocinar até ele.",
+      "lessons": [
+        {
+          "title": "«Eles não têm nada em comum» é uma afirmação a testar enumerando",
+          "rules": "A leitura de primeira vista é que estas duas cores são opostas e sem terreno comum. Ele responde com uma lista de dez coisas que ambas já fazem: duas palavras-chave de criatura compartilhadas, uma sobreposição na alocação de compra, uma habilidade comum que vive sendo proposta para virar palavra-chave, o fato de serem as duas cores com criaturas grandes na raridade de entrada, e mais. A conclusão dele é que só dois outros pares chegam perto. Intuições sobre sobreposição valem exatamente a lista que você conseguir escrever.",
+          "flavor": "Uma é a cor das criaturas e a outra a das mágicas, e elas compartilham mais que quase todo mundo."
+        },
+        {
+          "title": "Quando a fórmula padrão de reconciliação não se aplica, a identidade precisa ser sentida",
+          "rules": "A maioria dos pares opostos se resolve do mesmo jeito: um lado fornece o fim e o outro o meio. Ele dá dois exemplos limpos. Este recusa o tratamento — nenhuma cor lidera, e o que resulta não é a soma e sim uma mistura. Ele diz que a sensação resultante não é a de nenhum dos pais e que é preciso senti-la enquanto se trabalha, o que ele chama de difícil. Onde seu método geral tem uma exceção, a exceção lhe custa uma resposta derivável.",
+          "flavor": "Não atrás do crescimento exatamente, nem do conhecimento exatamente. Atrás de melhorar a natureza."
+        },
+        {
+          "title": "Reescrita repetida é sintoma de identidade subdeterminada",
+          "rules": "Ele nota que, dos dez grupos, este é o mais reformulado criativamente entre as duas visitas — e liga isso diretamente à mesma dificuldade que torna as mecânicas dele difíceis de situar. Vale generalizar. Um componente que vive sendo redesenhado normalmente não sofre de má execução; sofre de uma especificação que nunca foi resolvida, e cada equipe nova extrai uma leitura diferente do mesmo briefing indeterminado.",
+          "flavor": "Reconstruído mais que qualquer um dos outros nove, pelo mesmo motivo que o mantém difícil."
+        },
+        {
+          "title": "O coração costuma estar uma pergunta mais fundo que o substantivo óbvio",
+          "rules": "Perguntado por onde começar com este par, a resposta fácil são as criaturas. Ele diz que não basta: o par é sobre experimentação e mudança forçada, então o que se tem de resolver antes de tudo é como as criaturas vão mudar. O coração não é a categoria, é o verbo aplicado à categoria. Parar no substantivo deixa um ponto de partida largo demais para construir uma coleção em torno.",
+          "flavor": "Não as criaturas. O que acontece com as criaturas."
+        },
+        {
+          "title": "Uma rota para a vitória pode deixar o destino em aberto, se o crescimento estiver garantido",
+          "rules": "A maioria dos pares tem um plano conhecido. O plano deste é que algo será feito, e vai crescer e se adaptar, e se não for contido leva a algum lugar — criaturas agressivas, uma combinação estranha, um campo retorcido, alguma coisa. Ele trata a abertura em si como o foco, e não como uma lacuna nele. Uma estratégia definida pela trajetória em vez do destino é legítima, desde que a trajetória seja confiável o bastante para ameaçar.",
+          "flavor": "Coisas vão acontecer. Que coisas? Você saberá quando o baralho descobrir."
+        },
+        {
+          "title": "Uma mecânica que se mede contra o seu campo dita os números do ciclo inteiro",
+          "rules": "A mecânica posterior dispara quando entra uma criatura com um valor maior, o que significa que toda criatura que a carrega precisa de ao menos um valor baixo para continuar disparável. Ele dá a distribuição: de onze, três têm poder zero, sete têm um um em algum lugar, e uma tem dois como menor valor. Nada disso foi julgamento carta a carta. Assim que uma mecânica compara com o que você já controla, os atributos de toda carta que a carrega deixam de ser livres.",
+          "flavor": "Onze criaturas, e o poder e a resistência delas foram decididos pela mecânica antes de alguém desenhá-las."
+        },
+        {
+          "title": "Diferenciar-se do próprio acervo é um motivo mais fraco que torná-la usável",
+          "rules": "O design deu às criaturas uma base de um para não serem confundidas com uma mecânica antiga parecida. O desenvolvimento mudou a base para zero, e ele diz que estavam certos: a aritmética ficou mais fácil e a criatura agora deixa o campo assim que é gasta. Uma equipe otimizou para se distinguir da história, a outra para a pessoa que segura a carta. Quando isso colide, a distinção é a coisa mais barata de abrir mão.",
+          "flavor": "Ninguém que a jogasse estava pensando na mecânica de quinze anos antes."
+        },
+        {
+          "title": "Uma peça sem sentido sozinha pode estar certa no contexto, e você vai defendê-la toda vez",
+          "rules": "Uma carta não fazia nada além de distribuir os marcadores da mecânica: não podia atacar nem bloquear. A P&D discutiu longamente se aquilo fazia algum sentido no vácuo, e a equipe venceu com dois argumentos: jogaria bem, e a esquisitice dela valia por si. Os dois argumentos são sobre o entorno, não sobre o objeto. Conte com refazer essa defesa do zero para cada peça assim, porque a objeção está sempre disponível.",
+          "flavor": "Uma criatura que não pode lutar e cujo único trabalho é dar chapéus às outras."
+        },
+        {
+          "title": "Algumas coisas não se julgam na leitura; a primeira recepção mede legibilidade",
+          "rules": "A mecânica anterior demorou a conquistar as pessoas. Os jogadores tiveram de jogar com ela antes de o padrão assentar, e quando assentou virou favorita do público dedicado do grupo — e uma das duas favoritas dele naquele bloco. A resposta morna inicial media a rapidez com que a coisa se explica, não quão boa ela é. São grandezas diferentes, e só uma fica travada depois do lançamento.",
+          "flavor": "Impopular à primeira vista, e segunda na lista pessoal dele do bloco inteiro."
+        },
+        {
+          "title": "Gaste o mesmo recurso uma segunda vez nas raridades altas",
+          "rules": "A mecânica gera marcadores como efeito colateral de fazer o trabalho dela. As cartas de raridade alta então usam esses marcadores de novo, de modos que as comuns não usam: uma dispara sempre que recebe um, outras convertem a contagem no tamanho de um efeito. São cartas para construir em torno, e não custam nada a mais para habilitar porque o recurso já está sendo produzido. Olhe o que a sua mecânica deixa largado por aí e cobre de alguém.",
+          "flavor": "As comuns fabricam os marcadores. As raras são o motivo para querer mais deles."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "设计析米克",
+      "dek": "双色搭配专栏的第七篇：两个看上去毫不相干、机制重叠却几乎多过任何一对的颜色；也是唯一一对无法套用「调和对立」那个惯常公式的搭配。",
+      "overview": "乍看之下，绿与蓝毫无共同点：一个是生物色，一个是咒语色。罗斯瓦特的回应是列出它们早已重叠的十处，并断定只有另外两对能与之接近。真正的难处与预期相反：机制在收敛，主题却没有。多数敌对搭配的调和方式是让一个颜色出目的、另一个出手段，而这一对拒绝这种处理——没有哪一方在主导。随后是两个机制的来历，一个源自一次关于「突变」的作业，一个继承自某位设计大赛选手的环境提案，外加让它们各自成立的那些调校。",
+      "takeaway": "这是那对无法用公式推导出身份的搭配——正因如此，它是十对里被改写得最多的一对；也正因如此，罗斯瓦特说那片中间地带只能靠感觉去摸，而不能靠推理走到。",
+      "lessons": [
+        {
+          "title": "「它们毫无共同点」是一个应当靠枚举去检验的断言",
+          "rules": "第一眼的读法是：这两个颜色是对立的，没有共享地带。他的回应是列出它们早已都在做的十件事——两个共享的生物关键字、抽牌配额上的重叠、一个不断被提议关键字化的共有异能、两者都是在入门稀有度上有大型生物的颜色，等等。他的结论是只有另外两对能接近这个程度。关于「重叠」的直觉，其价值恰好等于你能写下来的那份清单。",
+          "flavor": "一个是生物色，一个是咒语色，而它们共享的东西比几乎所有别人都多。"
+        },
+        {
+          "title": "当那套标准的调和公式失灵时，身份就只能靠感觉",
+          "rules": "多数对立搭配的化解方式是一样的：一方出目的，另一方出手段。他给了两个干净的例子。这一对拒绝这种处理——两个颜色都不主导，得到的不是加总而是融合。他说由此产生的感觉既不属于父方也不属于母方，只能在做的过程中去感知，而他坦承这很难。当你的通用方法出现例外时，这个例外拿走的正是「可推导出的答案」。",
+          "flavor": "并不完全是在追求成长，也并不完全是在追求知识。是在追求改良自然。"
+        },
+        {
+          "title": "反复重写，是身份「未被充分规定」的症状",
+          "rules": "他指出，十个群体里，这一个是两次造访之间在创作层面被大改得最多的——并把它直接与「它的机制难以安放」的同一份困难联系起来。这一点值得推广。一个不断被重新设计的部件，通常并不是执行不好；它是在承受一份从未被定死的规格，而每一支新团队都会从同一份未定的任务书里推出不同的读法。",
+          "flavor": "被重建的次数多过另外九个，而原因正是它一直很难的那个原因。"
+        },
+        {
+          "title": "内核通常比那个显而易见的名词再深一个问题",
+          "rules": "被问到这一对该从哪儿入手时，容易的答案是生物。他说这还不够：这一对讲的是实验，是被迫的改变，所以在别的一切之前必须定下来的是「这些生物将如何改变」。内核不是那个类别，而是施加在这个类别上的那个动词。停在名词上，你得到的起点会宽泛到撑不起一个系列。",
+          "flavor": "不是生物。是生物身上发生了什么。"
+        },
+        {
+          "title": "只要成长是有保证的，一条取胜路线可以不指定终点",
+          "rules": "多数搭配都有一个已知的计划。这一对的计划是：会造出某样东西，它会成长、会适应，而若不加阻拦就会通向某处——可能是进攻型生物、一个古怪的组合、一个被扭曲的场面，或者别的什么。他把这种开放本身当作着力点，而不是着力点上的缺口。一条由轨迹而非由终点定义的策略是成立的，前提是这条轨迹可靠到足以构成威胁。",
+          "flavor": "会有事情发生。什么事？等这副牌自己搞明白了你就知道了。"
+        },
+        {
+          "title": "一个「拿你的场面做比较」的机制，会替整个循环定死数值",
+          "rules": "后来那个机制在有更高数值的生物进场时触发，这意味着每一张带着它的生物都需要至少有一项数值偏低，才能保持可被触发。他给出了分布：十一张里有三张力量为零，七张在某一项上是一，还有一张最低的一项是二。这些都不是逐张的判断。一旦某个机制要与「你已经控制的东西」相比较，每一张携带它的牌的数值就不再自由了。",
+          "flavor": "十一个生物，而它们的力量与防御力，在有人把它们画出来之前就已经由机制定好了。"
+        },
+        {
+          "title": "「与自家旧作区分开」是一个比「让它好用」更弱的理由",
+          "rules": "设计把这些生物的基础值定为一，为的是不让它们和一个相似的旧机制混淆。开发把基础值改成了零，而他说他们是对的：算术变简单了，而且这个生物在被用尽之后会自动离场。一支团队在为「与历史区分」做优化，另一支在为「手里拿着这张牌的人」做优化。当两者冲突时，可区分性是更便宜的那个可以放弃的东西。",
+          "flavor": "在玩它的人里，没有一个人在想十五年前的那个机制。"
+        },
+        {
+          "title": "一个单看毫无道理的零件，在语境里可能是对的——而你每一次都得为它辩护",
+          "rules": "有一张牌除了发放这个机制的指示物之外什么也不做：它既不能攻击也不能阻挡。研发部就「它在真空中到底有没有道理」争论了很久，而团队靠两条理由赢下了争论：它在实战里会很好玩；而它的古怪本身就值得留着。这两条论据说的都是周围，而不是这个物件本身。要做好准备：每遇到这样一个零件，你都得从头再讲一遍，因为那句反对随时都在。",
+          "flavor": "一个不能打架的生物，它的全部工作就是给别的生物发帽子。"
+        },
+        {
+          "title": "有些东西没法靠阅读来评判；最初的反响衡量的是易读性",
+          "rules": "更早的那个机制花了些时间才被人喜欢上。玩家必须真的用过它，那套打法才在脑子里落定；而一旦落定，它就成了这个群体死忠玩家的心头好，也是他自己在那个环境里最喜欢的两个之一。最初那份不温不火，衡量的是这东西自我说明的速度，而不是它有多好。这是两个不同的量，而只有其中一个在发售之后就被定死了。",
+          "flavor": "第一眼不受欢迎，却在他自己整个环境的排名里位列第二。"
+        },
+        {
+          "title": "在更高的稀有度上，把同一份资源再花一次",
+          "rules": "这个机制在履行本职的同时会顺带产出指示物。稀有度更高的牌随后又把这些指示物用了第二遍，用法是普通位的牌不会有的：有一张在每次获得指示物时触发，另一些则把指示物的数量换算成某个效果的大小。这些是让人围绕它们搭牌组的牌，而启用它们不需要额外成本，因为那份资源本来就在被产出。看看你的机制在旁边落下了什么，然后向人收费。",
+          "flavor": "普通位负责生产指示物。稀有位是「你为什么想要更多」的理由。"
+        }
+      ]
+    }
+  }
+}
