@@ -1,0 +1,320 @@
+{
+  "id": "volume-control-2014-10-06",
+  "slug": "volume-control-2014-10-06",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2014-10-06",
+  "series": null,
+  "tags": ["as-fan", "volume", "rarity", "new-world-order", "nuts-and-bolts"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/volume-control-2014-10-06",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-25T01:45:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Volume Control",
+      "dek": "How much of your mechanic does the set need? The math article, with the math left in.",
+      "overview": "Rosewater works through as-fan from first principles — required limits, concentration by colour, rarity arithmetic, and the way one density decision drags four others behind it.",
+      "takeaway": "\"Most of the work isn't coming up with the idea, but figuring out how to make the idea actually work.\"",
+      "lessons": [
+        {
+          "title": "\"How much of it?\" is the second question, and it's the one that decides the impact",
+          "rules": "Defining what a component is feels like the whole job, and it settles almost nothing about how the finished work will feel. The quantity is a separate decision with its own reasoning, and it's the lever that controls how much of the experience the thing actually occupies. Ask it explicitly rather than letting the count fall out of how many you happened to make.",
+          "flavor": "“the first question you ask yourself is, 'What is it?'… The second question is, 'How much of it does my set/game need?' Knowing what the mechanic does is only the first step… That is volume. Volume is very important because it is one of the most key tools you have to control what kind of impact it will have on your overall design.”"
+        },
+        {
+          "title": "Randomised distribution costs you the running order, and frequency buys a little of it back",
+          "rules": "When each person receives a different subset of your work, you lose the most basic authorial tool: deciding what they meet first. You can't restore it, but frequency is a partial substitute — set the rate high enough and something is encountered early on average, low enough and it arrives late or never. Treat the rate as your sequencing control.",
+          "flavor": "“Combining a game and trading cards has a lot of upside… But this comes at a cost for the game designer, and that cost is control. Not being able to dictate in what order the audience sees the various game components is problematic. It takes away one of the most powerful tools a game designer has. Rarity is one of the few things that helps give a little of it back.”"
+        },
+        {
+          "title": "An aggregate count isn't availability when the items have to be compatible with each other",
+          "rules": "Working out that someone will receive enough of a category tells you nothing if the members can't be used together. The number you need is per compatible group, not overall — and the total that looked sufficient can be spread across incompatible subsets in a way that leaves nobody able to assemble anything. Recompute inside each group.",
+          "flavor": "“Except it's not quite that easy. Why?… the game has five colors. If the six cards all make use of different colors in their mana cost, it might be impossible to play them all together. That means you have to start doing things like getting an as-fan of the subset in each color… By crunching the numbers, we can figure out what will and won't be possible to play.”"
+        },
+        {
+          "title": "Two ways of acquiring the same content need two different densities",
+          "rules": "A quantity tuned for one distribution procedure will be wrong for another, because the procedures differ in how much a person sees and how much of it they get to choose. There is no single correct number for the material — there's one per mode of access. Work out which modes you support and check the figure against each.",
+          "flavor": "“Let's assume you're playing a Sealed Deck game. In it, you normally get six booster packs. Removing the basic land, that's 84 cards… What as-fan would you need to guarantee that you have six cards of the subset in question? The answer is an as-fan of 1.” And then: “To complicate things even further, be aware that what is needed for Sealed is different than what is needed for Draft.”"
+        },
+        {
+          "title": "The dose of the last use sets how soon you can use the thing again",
+          "rules": "How long a theme has to rest isn't a property of the theme. It's a function of how heavily the previous outing leaned on it — a light treatment leaves the audience unsaturated and buys you a much shorter interval than the standard one. Record the intensity, not just the fact, of each use, because that's what the next scheduling decision needs.",
+          "flavor": "“Khans of Tarkir's as-fan is 1.85, while Return to Ravnica's as-fan is 3.58… Both sets have the same theme, but in Return to Ravnica you're going to open almost twice as much of it… This also, by the way, has a lot to do with why we were able to revisit a multicolor block so soon. While Khans of Tarkir is a multicolor block, it relies on the multicolor cards much less than Return to Ravnica did.”"
+        },
+        {
+          "title": "A cap on your highest-throughput tier makes a whole class of designs unbuildable",
+          "rules": "Volume mostly comes from the layer that appears most often, so a rule restricting what may go there quietly decides which ideas can exist at all. The casualties aren't bad ideas — they're ideas whose required density can only be reached in the place they're barred from. Know that the constraint is doing this, so you can recognise the failure when it happens.",
+          "flavor": "“New World Order limits the amount of complexity at common… This becomes important for volume because if you need to get to a certain level, it's hard to do it without having some common cards. The end result is that sometimes you come up with a mechanic that requires a volume all but impossible to achieve without breaking New World Order.”"
+        },
+        {
+          "title": "The first number is a guess — the method is play, and the criterion is feel",
+          "rules": "All the arithmetic gets you a defensible starting figure, and it will still be wrong, because what you're actually tuning is an experience. Nothing about the calculation tells you whether the density feels right. Do the maths to make the first guess good, then treat it as a hypothesis and change it based on what happens.",
+          "flavor": "“I know I make it sound like the decision of what volume you need is a purely mathematical one that can be deduced by writing numbers on paper. The truth is that it's not that exact. In many ways, when you start, it's a guessing game. Yes, you can use some logic to increase the chances of your first guess being as accurate as possible, but in the end, you're going to need to playtest to figure out if your volume is correct or not. There's a lot of 'getting the right feel.'”"
+        },
+        {
+          "title": "Withholding a feature from most of the roster is what keeps the roster from feeling the same",
+          "rules": "Giving every option access to the new thing looks generous and flattens the differences between them, which is what makes a body of work tire people out. Restricting it is not a compromise forced by budget — it's how you keep the options distinct, and distinctness is what keeps the experience varied over repeated encounters.",
+          "flavor": "“You'll notice that, often, when we do a mechanic, we don't do it in every color. Why is that? First, it ensures that the colors play differently and increases the variance in play, meaning that over time players are less apt to get bored because the game play will be more varied.” And: “part of making a fun set is carving out different play styles for different color combinations.”"
+        },
+        {
+          "title": "One density decision drags a chain of dependent ones behind it",
+          "rules": "Setting the quantity of your headline element doesn't close the question, it opens several: whatever that element requires in order to function now needs its own quantity, and so does each subgroup, and each subgroup's own feature. None of these numbers can be chosen independently. Expect the second-order counts to be more work than the first.",
+          "flavor": "“Once you figure out your volume of multicolor cards, you're not done yet… In order to be able to play your multicolor cards, you are going to have to have the colored-mana producers to support it… you have to figure out not just how many multicolor cards there are, but how many cards exist in each faction… Each clan also has its own mechanic, and you'll need to figure out the volume of each of those.”"
+        },
+        {
+          "title": "Track every session's numbers, because your own experience is one skewed sample",
+          "rules": "Any single run through the material can hand you an unrepresentative mix, and the pull toward believing what you personally saw over the aggregate is strong enough to have a name. The countermeasure isn't willpower, it's collection: record what happened in every session, from everyone, so there's something to check your impression against.",
+          "flavor": "“Because there's math involved, it's important to track your results, as any one playtest can have skewed data. The card mix in any one sitting might not be representative and you can succumb to what we call 'experience bias,' where you overvalue your own experience over data… Development usually tracks numbers on every Sealed pool build in every playtest so Erik can run numbers.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Control de volumen",
+      "dek": "¿Cuánta cantidad de tu mecánica necesita la colección? El artículo de matemáticas, con las matemáticas dentro.",
+      "overview": "Rosewater desarrolla el as-fan desde cero: límites requeridos, concentración por color, aritmética de rarezas y cómo una decisión de densidad arrastra otras cuatro detrás.",
+      "takeaway": "«La mayor parte del trabajo no es tener la idea, sino averiguar cómo hacer que la idea funcione de verdad.»",
+      "lessons": [
+        {
+          "title": "«¿Cuánto de esto?» es la segunda pregunta, y es la que decide el impacto",
+          "rules": "Definir qué es un componente parece todo el trabajo, y apenas resuelve nada sobre cómo se sentirá la obra terminada. La cantidad es una decisión aparte con su propio razonamiento, y es la palanca que controla cuánta parte de la experiencia ocupa realmente la cosa. Plantéala de forma explícita, en vez de dejar que el número salga de cuántos hiciste por casualidad.",
+          "flavor": "«la primera pregunta que te haces es «¿qué es?»… La segunda es «¿cuánta cantidad de esto necesita mi colección/juego?». Saber qué hace la mecánica es solo el primer paso… Eso es el volumen. El volumen es muy importante porque es una de las herramientas clave que tienes para controlar qué impacto tendrá en tu diseño global.»"
+        },
+        {
+          "title": "La distribución aleatoria te cuesta el orden de aparición, y la frecuencia recupera un poco",
+          "rules": "Cuando cada persona recibe un subconjunto distinto de tu obra, pierdes la herramienta autoral más básica: decidir con qué se encuentran primero. No puedes restituirla, pero la frecuencia es un sustituto parcial: sube bastante la tasa y algo se encontrará pronto en promedio; bájala y llegará tarde o nunca. Trata la tasa como tu control de secuencia.",
+          "flavor": "«Combinar un juego con cartas coleccionables tiene mucho a favor… Pero eso tiene un coste para el diseñador, y ese coste es el control. No poder dictar en qué orden el público ve los distintos componentes del juego es problemático. Te quita una de las herramientas más potentes que tiene un diseñador. La rareza es una de las pocas cosas que ayudan a devolver un poco de eso.»"
+        },
+        {
+          "title": "Un recuento agregado no es disponibilidad cuando los elementos tienen que ser compatibles entre sí",
+          "rules": "Calcular que alguien recibirá suficientes elementos de una categoría no dice nada si esos miembros no pueden usarse juntos. El número que necesitas es por grupo compatible, no global; y el total que parecía suficiente puede repartirse entre subconjuntos incompatibles de tal modo que nadie logre montar nada. Recalcula dentro de cada grupo.",
+          "flavor": "«Salvo que no es tan fácil. ¿Por qué?… el juego tiene cinco colores. Si las seis cartas usan colores distintos en su coste de maná, puede ser imposible jugarlas todas juntas. Eso significa que tienes que empezar a hacer cosas como sacar el as-fan del subconjunto en cada color… Haciendo los números podemos averiguar qué será y qué no será posible jugar.»"
+        },
+        {
+          "title": "Dos formas de adquirir el mismo contenido necesitan dos densidades distintas",
+          "rules": "Una cantidad ajustada para un procedimiento de distribución será errónea para otro, porque los procedimientos difieren en cuánto ve una persona y en cuánto puede elegir. No hay un único número correcto para el material: hay uno por modo de acceso. Determina qué modos soportas y comprueba la cifra contra cada uno.",
+          "flavor": "«Supongamos que juegas una partida de Sellado. Ahí normalmente recibes seis sobres. Quitando las tierras básicas, son 84 cartas… ¿Qué as-fan necesitarías para garantizar seis cartas del subconjunto? La respuesta es un as-fan de 1.» Y luego: «Para complicarlo aún más, ten en cuenta que lo que hace falta para Sellado es distinto de lo que hace falta para Draft.»"
+        },
+        {
+          "title": "La dosis del último uso fija cuán pronto puedes volver a usarlo",
+          "rules": "Cuánto tiene que descansar un tema no es una propiedad del tema. Es función de cuánto se apoyó en él la vez anterior: un tratamiento ligero deja al público sin saturar y te compra un intervalo mucho más corto que el estándar. Registra la intensidad de cada uso, no solo el hecho, porque eso es lo que necesita la siguiente decisión de calendario.",
+          "flavor": "«El as-fan de Khans of Tarkir es 1,85, mientras que el de Return to Ravnica es 3,58… Ambas colecciones tienen el mismo tema, pero en Return to Ravnica vas a abrir casi el doble… Esto tiene mucho que ver, por cierto, con que pudiéramos revisitar un bloque multicolor tan pronto. Aunque Khans of Tarkir es un bloque multicolor, depende de las cartas multicolores mucho menos que Return to Ravnica.»"
+        },
+        {
+          "title": "Un tope en tu nivel de mayor caudal deja toda una clase de diseños fuera de lo construible",
+          "rules": "El volumen sale sobre todo de la capa que aparece más a menudo, así que una regla que restrinja lo que puede ir ahí decide calladamente qué ideas pueden existir siquiera. Las bajas no son ideas malas: son ideas cuya densidad requerida solo se alcanza en el sitio que tienen vetado. Ten presente que la restricción hace esto, para reconocer el fallo cuando ocurra.",
+          "flavor": "«El Nuevo Orden Mundial limita la cantidad de complejidad en común… Esto pasa a ser importante para el volumen porque, si necesitas llegar a cierto nivel, es difícil hacerlo sin tener algunas cartas comunes. El resultado es que a veces se te ocurre una mecánica que exige un volumen prácticamente imposible de alcanzar sin romper el Nuevo Orden Mundial.»"
+        },
+        {
+          "title": "La primera cifra es una conjetura: el método es jugar, y el criterio es la sensación",
+          "rules": "Toda la aritmética te da una cifra de partida defendible, y aun así estará mal, porque lo que en realidad estás afinando es una experiencia. Nada del cálculo te dice si la densidad se siente bien. Haz las cuentas para que la primera conjetura sea buena, y luego trátala como hipótesis y cámbiala según lo que ocurra.",
+          "flavor": "«Sé que hago que parezca que decidir el volumen es algo puramente matemático que se deduce escribiendo números en un papel. La verdad es que no es tan exacto. En muchos sentidos, al empezar es un juego de adivinanzas. Sí, puedes usar cierta lógica para que tu primera conjetura sea lo más certera posible, pero al final vas a tener que probarlo en mesa para saber si tu volumen es correcto. Hay mucho de «encontrar la sensación adecuada».»"
+        },
+        {
+          "title": "Negar una característica a la mayor parte del elenco es lo que impide que el elenco se parezca a sí mismo",
+          "rules": "Dar acceso a lo nuevo a todas las opciones parece generoso y aplana las diferencias entre ellas, que es lo que acaba cansando al público. Restringirlo no es una concesión impuesta por el presupuesto: es cómo mantienes distintas las opciones, y esa distinción es lo que mantiene variada la experiencia a lo largo de encuentros repetidos.",
+          "flavor": "«Habrás notado que a menudo, cuando hacemos una mecánica, no la hacemos en todos los colores. ¿Por qué? Primero, asegura que los colores se jueguen de forma distinta y aumenta la varianza en el juego, con lo que a la larga los jugadores se aburren menos porque el juego será más variado.» Y: «parte de hacer una colección divertida es tallar estilos de juego distintos para distintas combinaciones de colores.»"
+        },
+        {
+          "title": "Una decisión de densidad arrastra tras de sí una cadena de decisiones dependientes",
+          "rules": "Fijar la cantidad de tu elemento principal no cierra la cuestión, la abre: todo lo que ese elemento necesite para funcionar requiere ahora su propia cantidad, y también cada subgrupo, y la característica propia de cada subgrupo. Ninguno de estos números puede elegirse por separado. Cuenta con que los recuentos de segundo orden den más trabajo que el primero.",
+          "flavor": "«Una vez que averiguas tu volumen de cartas multicolores, aún no has terminado… Para poder jugar tus cartas multicolores vas a necesitar los productores de maná de color que las sostengan… tienes que averiguar no solo cuántas cartas multicolores hay, sino cuántas existen en cada facción… Cada clan tiene además su propia mecánica, y tendrás que calcular el volumen de cada una.»"
+        },
+        {
+          "title": "Registra los números de cada sesión, porque tu propia experiencia es una muestra sesgada",
+          "rules": "Cualquier pasada por el material puede entregarte una mezcla poco representativa, y la tendencia a creer lo que viste personalmente por encima del agregado es tan fuerte que tiene nombre. La contramedida no es fuerza de voluntad, es recolección: anota lo que pasó en cada sesión, de todo el mundo, para tener con qué contrastar tu impresión.",
+          "flavor": "«Como hay matemáticas de por medio, es importante registrar los resultados, porque cualquier partida de prueba puede dar datos sesgados. La mezcla de cartas de una sola sesión puede no ser representativa y puedes caer en lo que llamamos «sesgo de experiencia», donde sobrevaloras tu propia experiencia frente a los datos… Desarrollo suele registrar números de cada mazo Sellado construido en cada prueba para que Erik pueda hacer cálculos.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Réglage du volume",
+      "dek": "Quelle quantité de votre mécanique l'édition réclame-t-elle ? L'article de maths, maths comprises.",
+      "overview": "Rosewater reprend l'as-fan depuis le début : seuils requis, concentration par couleur, arithmétique des raretés, et la façon dont une décision de densité en traîne quatre autres derrière elle.",
+      "takeaway": "« L'essentiel du travail n'est pas de trouver l'idée, mais de comprendre comment la faire réellement fonctionner. »",
+      "lessons": [
+        {
+          "title": "« Combien en faut-il ? » est la deuxième question, et c'est elle qui décide de l'impact",
+          "rules": "Définir ce qu'est un composant paraît être tout le travail, et ne règle presque rien sur le ressenti de l'œuvre finie. La quantité est une décision distincte, avec son propre raisonnement, et c'est le levier qui commande la part d'expérience que la chose occupe réellement. Posez-la explicitement, au lieu de laisser le nombre découler de ce que vous avez fabriqué par hasard.",
+          "flavor": "« la première question qu'on se pose est : « qu'est-ce que c'est ? »… La seconde : « quelle quantité mon édition ou mon jeu en réclame-t-il ? » Savoir ce que fait la mécanique n'est que la première étape… C'est cela, le volume. Le volume est très important, car c'est l'un des outils clés dont vous disposez pour contrôler l'impact de la chose sur l'ensemble de votre conception. »"
+        },
+        {
+          "title": "La distribution aléatoire vous coûte l'ordre de découverte, et la fréquence en rachète un peu",
+          "rules": "Quand chacun reçoit un sous-ensemble différent de votre œuvre, vous perdez l'outil d'auteur le plus élémentaire : décider ce qu'on rencontre en premier. Vous ne pouvez pas le restituer, mais la fréquence en est un substitut partiel : un taux élevé fait rencontrer la chose tôt en moyenne, un taux bas la fait arriver tard ou jamais. Traitez le taux comme votre commande de séquence.",
+          "flavor": "« Marier un jeu et des cartes à collectionner a beaucoup d'avantages… Mais cela a un coût pour le concepteur, et ce coût est le contrôle. Ne pas pouvoir dicter dans quel ordre le public voit les différents composants est problématique. Cela retire l'un des outils les plus puissants d'un concepteur de jeu. La rareté est l'une des rares choses qui en rendent un peu. »"
+        },
+        {
+          "title": "Un total global n'est pas une disponibilité quand les éléments doivent être compatibles entre eux",
+          "rules": "Établir que quelqu'un recevra assez d'éléments d'une catégorie ne dit rien si ces membres ne peuvent pas servir ensemble. Le nombre requis se calcule par groupe compatible, non globalement — et le total qui semblait suffisant peut se répartir entre sous-ensembles incompatibles au point que personne ne puisse rien assembler. Recalculez à l'intérieur de chaque groupe.",
+          "flavor": "« Sauf que ce n'est pas si simple. Pourquoi ?… le jeu a cinq couleurs. Si les six cartes emploient des couleurs différentes dans leur coût, il peut être impossible de les jouer ensemble. Il faut donc se mettre à calculer l'as-fan du sous-ensemble dans chaque couleur… En faisant les comptes, on détermine ce qui sera jouable et ce qui ne le sera pas. »"
+        },
+        {
+          "title": "Deux façons d'acquérir le même contenu réclament deux densités différentes",
+          "rules": "Une quantité réglée pour un mode de distribution sera fausse pour un autre, car les modes diffèrent par ce que chacun voit et par ce qu'il peut choisir. Il n'existe pas un seul bon nombre pour la matière : il y en a un par mode d'accès. Déterminez les modes que vous prenez en charge et vérifiez le chiffre pour chacun.",
+          "flavor": "« Supposons une partie en Scellé. On y reçoit d'ordinaire six boosters. Terrains de base retirés, cela fait 84 cartes… Quel as-fan faudrait-il pour garantir six cartes du sous-ensemble ? La réponse est un as-fan de 1. » Puis : « Pour compliquer encore, sachez que ce qu'il faut en Scellé diffère de ce qu'il faut en Draft. »"
+        },
+        {
+          "title": "La dose du dernier emploi fixe le délai avant le suivant",
+          "rules": "Le temps de repos d'un thème n'est pas une propriété du thème. C'est une fonction de l'appui qu'a pris la fois précédente : un traitement léger laisse le public non saturé et vous achète un intervalle bien plus court que la norme. Consignez l'intensité de chaque emploi, pas seulement son existence, car c'est ce dont la prochaine décision de calendrier a besoin.",
+          "flavor": "« L'as-fan de Khans of Tarkir est de 1,85, celui de Return to Ravnica de 3,58… Les deux éditions ont le même thème, mais dans Return to Ravnica vous en ouvrirez près du double… C'est d'ailleurs pour beaucoup la raison pour laquelle nous avons pu revenir si vite à un bloc multicolore. Khans of Tarkir est un bloc multicolore, mais il s'appuie bien moins sur les cartes multicolores que Return to Ravnica. »"
+        },
+        {
+          "title": "Un plafond sur votre étage à plus fort débit rend inconstructible toute une classe de conceptions",
+          "rules": "Le volume vient surtout de la couche qui apparaît le plus souvent ; une règle limitant ce qu'on peut y mettre décide donc en silence quelles idées peuvent exister. Les victimes ne sont pas de mauvaises idées : ce sont celles dont la densité requise n'est atteignable qu'à l'endroit qui leur est interdit. Sachez que la contrainte fait cela, pour reconnaître l'échec quand il survient.",
+          "flavor": "« Le Nouvel Ordre Mondial limite la complexité en commune… Cela compte pour le volume : si vous devez atteindre un certain niveau, c'est difficile sans quelques cartes communes. Résultat : il arrive qu'on invente une mécanique dont le volume requis est quasi impossible à atteindre sans enfreindre le Nouvel Ordre Mondial. »"
+        },
+        {
+          "title": "Le premier chiffre est une conjecture — la méthode, c'est le jeu ; le critère, le ressenti",
+          "rules": "Toute l'arithmétique vous donne un point de départ défendable, et il sera quand même faux, parce que ce que vous réglez est en réalité une expérience. Rien dans le calcul ne dit si la densité est agréable. Faites les maths pour que la première conjecture soit bonne, puis traitez-la comme une hypothèse et modifiez-la selon ce qui se produit.",
+          "flavor": "« Je sais que je donne l'impression que le choix du volume est purement mathématique et se déduit en écrivant des nombres. En vérité, ce n'est pas si exact. À bien des égards, au début, c'est un jeu de devinettes. On peut user de logique pour rendre la première estimation aussi juste que possible, mais il faudra finalement tester pour savoir si le volume est bon. Il y a beaucoup de « trouver le bon ressenti ». »"
+        },
+        {
+          "title": "Priver la majorité du casting d'une fonctionnalité, c'est ce qui empêche le casting de se ressembler",
+          "rules": "Donner à toutes les options l'accès à la nouveauté paraît généreux et aplanit leurs différences, ce qui est précisément ce qui lasse. Restreindre n'est pas une concession imposée par le budget : c'est ainsi que vous gardez les options distinctes, et cette distinction est ce qui maintient la variété au fil des rencontres répétées.",
+          "flavor": "« Vous remarquerez que souvent, quand nous faisons une mécanique, nous ne la faisons pas dans toutes les couleurs. Pourquoi ? D'abord, cela garantit que les couleurs se jouent différemment et augmente la variance de jeu, si bien qu'à la longue les joueurs se lassent moins. » Et : « une part de ce qui rend une édition amusante consiste à tailler des styles de jeu différents pour différentes combinaisons de couleurs. »"
+        },
+        {
+          "title": "Une décision de densité en traîne toute une chaîne derrière elle",
+          "rules": "Fixer la quantité de votre élément principal ne clôt pas la question, elle en ouvre plusieurs : tout ce dont cet élément a besoin pour fonctionner réclame maintenant sa propre quantité, et chaque sous-groupe aussi, et la fonctionnalité propre de chaque sous-groupe. Aucun de ces nombres ne se choisit isolément. Attendez-vous à ce que les comptes de second ordre pèsent plus lourd que le premier.",
+          "flavor": "« Une fois déterminé votre volume de cartes multicolores, vous n'avez pas fini… Pour pouvoir les jouer, il vous faudra les producteurs de mana coloré qui les soutiennent… il faut déterminer non seulement combien il y a de cartes multicolores, mais combien il en existe dans chaque faction… Chaque clan a aussi sa propre mécanique, dont il faudra calculer le volume. »"
+        },
+        {
+          "title": "Consignez les chiffres de chaque séance, car votre propre expérience est un échantillon biaisé",
+          "rules": "N'importe quel passage dans la matière peut vous livrer un mélange non représentatif, et la tendance à croire ce que vous avez vu plutôt que l'agrégat est assez forte pour avoir un nom. La parade n'est pas la volonté, c'est la collecte : notez ce qui s'est passé à chaque séance, pour tout le monde, afin d'avoir de quoi confronter votre impression.",
+          "flavor": "« Comme il y a des maths, il importe de consigner vos résultats, car un test isolé peut donner des données biaisées. Le mélange de cartes d'une séance peut n'être pas représentatif, et l'on peut succomber à ce que nous appelons le « biais d'expérience », qui consiste à surévaluer son vécu par rapport aux données… Le développement relève d'ordinaire les chiffres de chaque pool Scellé de chaque test pour qu'Erik puisse les traiter. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Controle de volume",
+      "dek": "De quanto da sua mecânica a coleção precisa? O artigo de matemática, com a matemática incluída.",
+      "overview": "Rosewater desenvolve o as-fan do zero: limites exigidos, concentração por cor, aritmética de raridades e como uma decisão de densidade arrasta outras quatro atrás de si.",
+      "takeaway": "“A maior parte do trabalho não é ter a ideia, e sim descobrir como fazer a ideia realmente funcionar.”",
+      "lessons": [
+        {
+          "title": "“Quanto disso?” é a segunda pergunta, e é ela que decide o impacto",
+          "rules": "Definir o que é um componente parece ser o trabalho todo, e quase nada resolve sobre como a obra pronta vai soar. A quantidade é uma decisão à parte, com raciocínio próprio, e é a alavanca que controla quanto da experiência a coisa de fato ocupa. Faça essa pergunta explicitamente, em vez de deixar o número sair de quantos você por acaso fez.",
+          "flavor": "“a primeira pergunta que você se faz é: ‘o que é isso?’… A segunda é: ‘de quanto disso minha coleção/jogo precisa?’. Saber o que a mecânica faz é só o primeiro passo… Isso é volume. Volume é importantíssimo porque é uma das ferramentas-chave que você tem para controlar que impacto aquilo terá no design como um todo.”"
+        },
+        {
+          "title": "Distribuição aleatória custa a ordem de encontro, e a frequência recupera um pouco",
+          "rules": "Quando cada pessoa recebe um subconjunto diferente da sua obra, você perde a ferramenta autoral mais básica: decidir com o que ela se depara primeiro. Não dá para restituí-la, mas a frequência é substituto parcial — taxa alta faz algo ser encontrado cedo em média; taxa baixa faz chegar tarde ou nunca. Trate a taxa como seu controle de sequência.",
+          "flavor": "“Combinar um jogo com cartas colecionáveis tem muita vantagem… Mas isso tem um custo para o designer, e esse custo é controle. Não poder ditar em que ordem o público vê os vários componentes é problemático. Tira uma das ferramentas mais poderosas de um designer de jogos. A raridade é uma das poucas coisas que devolvem um pouco disso.”"
+        },
+        {
+          "title": "Uma contagem agregada não é disponibilidade quando os itens precisam ser compatíveis entre si",
+          "rules": "Calcular que alguém vai receber o suficiente de uma categoria não diz nada se os membros não puderem ser usados juntos. O número necessário é por grupo compatível, não no total — e o total que parecia bastar pode se espalhar por subconjuntos incompatíveis de um jeito que deixa ninguém capaz de montar nada. Recalcule dentro de cada grupo.",
+          "flavor": "“Só que não é tão fácil. Por quê?… o jogo tem cinco cores. Se as seis cartas usarem cores diferentes no custo de mana, pode ser impossível jogá-las juntas. Isso significa começar a fazer coisas como tirar o as-fan do subconjunto em cada cor… Rodando os números, dá para descobrir o que será e o que não será jogável.”"
+        },
+        {
+          "title": "Dois modos de adquirir o mesmo conteúdo precisam de duas densidades diferentes",
+          "rules": "Uma quantidade calibrada para um procedimento de distribuição estará errada para outro, porque os procedimentos diferem em quanto a pessoa vê e em quanto ela pode escolher. Não existe um único número certo para o material: existe um por modo de acesso. Descubra quais modos você suporta e confira a cifra contra cada um.",
+          "flavor": "“Suponha um jogo de Selado. Nele você normalmente recebe seis boosters. Tirando os terrenos básicos, são 84 cartas… Que as-fan seria preciso para garantir seis cartas do subconjunto? A resposta é um as-fan de 1.” E então: “Para complicar mais, saiba que o necessário para Selado é diferente do necessário para Draft.”"
+        },
+        {
+          "title": "A dose do último uso define em quanto tempo você pode usar de novo",
+          "rules": "Quanto um tema precisa descansar não é propriedade do tema. É função de quanto a rodada anterior se apoiou nele — um tratamento leve deixa o público não saturado e compra um intervalo bem menor que o padrão. Registre a intensidade de cada uso, não apenas o fato, porque é disso que a próxima decisão de calendário precisa.",
+          "flavor": "“O as-fan de Khans of Tarkir é 1,85, enquanto o de Return to Ravnica é 3,58… As duas coleções têm o mesmo tema, mas em Return to Ravnica você abrirá quase o dobro… Isso, aliás, tem muito a ver com o fato de termos podido revisitar um bloco multicolorido tão cedo. Khans of Tarkir é um bloco multicolorido, mas depende das cartas multicoloridas bem menos do que Return to Ravnica.”"
+        },
+        {
+          "title": "Um teto no seu nível de maior vazão torna toda uma classe de designs inconstruível",
+          "rules": "Volume vem sobretudo da camada que aparece com mais frequência, então uma regra que restringe o que pode ir ali decide silenciosamente quais ideias podem sequer existir. As baixas não são ideias ruins: são ideias cuja densidade exigida só é alcançável no lugar de onde estão barradas. Saiba que a restrição faz isso, para reconhecer a falha quando ela ocorrer.",
+          "flavor": "“A Nova Ordem Mundial limita a quantidade de complexidade em comum… Isso vira importante para volume porque, se você precisa chegar a certo nível, é difícil fazê-lo sem algumas cartas comuns. O resultado é que às vezes você inventa uma mecânica que exige um volume praticamente impossível de atingir sem quebrar a Nova Ordem Mundial.”"
+        },
+        {
+          "title": "O primeiro número é um palpite — o método é jogar, e o critério é a sensação",
+          "rules": "Toda a aritmética lhe dá um valor inicial defensável, e ele ainda estará errado, porque o que você está de fato ajustando é uma experiência. Nada no cálculo diz se a densidade parece certa. Faça a conta para que o primeiro palpite seja bom, e então trate-o como hipótese e mude conforme o que acontecer.",
+          "flavor": "“Eu sei que faço parecer que decidir o volume é algo puramente matemático, dedutível escrevendo números no papel. A verdade é que não é tão exato. De muitas formas, no começo é um jogo de adivinhação. Sim, dá para usar lógica para aumentar as chances de o primeiro palpite ser preciso, mas no fim você vai ter de testar para saber se o volume está certo. Há muito de ‘achar a sensação certa’.”"
+        },
+        {
+          "title": "Negar um recurso à maior parte do elenco é o que impede o elenco de parecer igual",
+          "rules": "Dar a todas as opções acesso ao novo parece generoso e achata as diferenças entre elas — que é justamente o que cansa as pessoas. Restringir não é concessão imposta pelo orçamento: é como você mantém as opções distintas, e essa distinção é o que mantém a experiência variada ao longo de encontros repetidos.",
+          "flavor": "“Você vai notar que, muitas vezes, quando fazemos uma mecânica, não a fazemos em todas as cores. Por quê? Primeiro, isso garante que as cores joguem de modo diferente e aumenta a variância do jogo, de modo que com o tempo os jogadores se entediam menos.” E: “parte de fazer uma coleção divertida é esculpir estilos de jogo distintos para combinações de cores distintas.”"
+        },
+        {
+          "title": "Uma decisão de densidade arrasta uma corrente de decisões dependentes",
+          "rules": "Fixar a quantidade do seu elemento principal não encerra a questão, abre várias: tudo aquilo de que esse elemento precisa para funcionar agora exige a própria quantidade, e cada subgrupo também, e o recurso próprio de cada subgrupo. Nenhum desses números pode ser escolhido isoladamente. Espere que as contagens de segunda ordem deem mais trabalho que a primeira.",
+          "flavor": "“Depois de descobrir seu volume de cartas multicoloridas, você ainda não terminou… Para poder jogá-las, você vai precisar dos produtores de mana colorido que as sustentem… é preciso descobrir não só quantas cartas multicoloridas existem, mas quantas existem em cada facção… Cada clã também tem a própria mecânica, e será preciso calcular o volume de cada uma.”"
+        },
+        {
+          "title": "Registre os números de cada sessão, porque sua própria experiência é uma amostra enviesada",
+          "rules": "Qualquer passagem pelo material pode lhe entregar uma mistura não representativa, e a tendência de acreditar no que você viu pessoalmente em vez do agregado é forte o bastante para ter nome. A contramedida não é força de vontade, é coleta: anote o que aconteceu em cada sessão, de todos, para haver algo com que conferir sua impressão.",
+          "flavor": "“Como há matemática envolvida, é importante registrar os resultados, pois qualquer teste isolado pode dar dados enviesados. A mistura de cartas de uma única sessão pode não ser representativa e você pode sucumbir ao que chamamos de ‘viés de experiência’, em que se supervaloriza a própria vivência ante os dados… O desenvolvimento costuma registrar números de cada pool de Selado montado em cada teste para que Erik possa rodar as contas.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "音量控制",
+      "dek": "你这个机制，系列到底需要多少？这是那篇讲数学的文章——而且数学没有被拿掉。",
+      "overview": "罗斯瓦特从头推演「每包平均张数」：必需的下限、按颜色做集中、稀有度的算术，以及一个密度决定会如何把另外四个拖在身后。",
+      "takeaway": "「绝大部分工作并不是想出那个点子，而是弄清楚怎样才能让这个点子真正成立。」",
+      "lessons": [
+        {
+          "title": "「要多少？」是第二个问题，而它才是决定影响力的那一个",
+          "rules": "把一个部件「是什么」定义清楚，感觉上像是全部的工作；而它几乎没有解决任何关于「成品会给人什么感受」的问题。数量是一个独立的决定，有它自己的推理；它正是那根控制「这样东西究竟占据了多少体验」的杠杆。要明确地问出这个问题，而不要让那个数字从「你碰巧做了多少个」里掉出来。",
+          "flavor": "「你问自己的第一个问题是：『它是什么？』……第二个问题是：『我的系列／我的游戏需要多少份它？』知道这个机制做什么，只是第一步……这就是『用量』。用量非常重要，因为它是你手上最关键的工具之一——用来控制它将对你整体设计造成何种影响。」"
+        },
+        {
+          "title": "随机分发夺走了「先后次序」，而频率买回来一点点",
+          "rules": "当每个人拿到的是你作品的不同子集时，你失去了作者最基本的那件工具：决定他们最先遇到什么。你没法把它还原，但频率是一个局部的替代品——把比率调得够高，某样东西在平均意义上就会被较早遇到；调得够低，它就来得很晚，或者根本不来。把这个比率当作你的排序控制。",
+          "flavor": "「把游戏和集换式卡牌结合在一起有很多好处……但这对游戏设计师是有代价的，而那个代价是控制权。无法规定受众以什么顺序看到各个游戏组件，是个麻烦事。它拿走了游戏设计师手上最强大的工具之一。而稀有度，是少数几样能把其中一点点还回来的东西。」"
+        },
+        {
+          "title": "当那些东西彼此之间必须相容时，「总数」并不等于「可用」",
+          "rules": "算出某人会拿到足够多的某一类东西，如果这些成员没法一起使用，那这个结论什么也没说明。你需要的那个数字是按「相容的组」来算的，而不是按总量；那个看上去足够的总数，可能被摊在互不相容的几个子集里，摊到最后谁也凑不出任何东西。请在每一个组的内部重新算一遍。",
+          "flavor": "「只是事情没那么简单。为什么？……这个游戏有五个颜色。如果那六张牌的法术力费用用到的是不同的颜色，那要把它们一起打出来可能根本不可能。这意味着你得开始做这样的事：分别求出这个子集在每个颜色里的每包平均张数……把数字算出来，我们就能弄清楚哪些打得出来、哪些打不出来。」"
+        },
+        {
+          "title": "同一批内容，两种获取方式需要两个不同的密度",
+          "rules": "为一种分发流程调好的数量，换到另一种流程上就是错的；因为这两种流程在「一个人能看到多少」和「其中他能挑多少」上并不相同。这批材料并不存在唯一正确的那个数字——每一种取用方式各有一个。弄清楚你要支持哪几种，并把这个数字对着每一种都核一遍。",
+          "flavor": "「假设你在打现开赛。在现开里，你通常拿到六个补充包。去掉基本地，是84张牌……要保证你手上有六张目标子集的牌，需要多大的每包平均张数？答案是1.0。」然后：「而且还要更复杂一点：请注意，现开所需要的量，和轮抽所需要的量并不一样。」"
+        },
+        {
+          "title": "上一次用了多大的剂量，决定了你多快可以再用一次",
+          "rules": "一个主题需要休息多久，并不是这个主题本身的属性。它是「上一次对它倚重了多少」的函数——轻量的处理让受众没有被喂饱，从而为你买到一个远比常规更短的间隔。请把每一次使用的强度记下来，而不只是记下「用过」；因为下一次的排期决定要的正是这个。",
+          "flavor": "「《鞑契可汗》的每包平均张数是1.85，而《拉尼卡之回归》是3.58……两个系列的主题相同，但在《拉尼卡之回归》里你开出来的量几乎是两倍……顺带一提，这也与『我们为什么能这么快重返一个多色环境』大有关系。《鞑契可汗》虽然是多色环境，但它对多色牌的倚重远小于《拉尼卡之回归》。」"
+        },
+        {
+          "title": "给你吞吐量最高的那一层设上限，会让一整类设计变得没法建造",
+          "rules": "用量主要来自那个出现频率最高的层级；因此，一条限制「什么可以放进那里」的规则，其实在无声中决定了哪些点子有资格存在。倒下的并不是坏点子——而是那些「所需密度只有在被禁入的那个地方才达得到」的点子。要知道这条约束正在做这件事，这样它导致失败时你才认得出来。",
+          "flavor": "「『新世界秩序』限制了普通牌上的复杂度总量……这一点对用量变得重要起来：如果你需要达到某个水位，不靠一些普通牌是很难做到的。最终结果是：你有时会想出一个机制，而它所要求的用量，在不违反『新世界秩序』的前提下几乎不可能达到。」"
+        },
+        {
+          "title": "第一个数字是猜的——方法是去玩，而判准是手感",
+          "rules": "所有的算术只能给你一个说得过去的起始数字，而它仍然会是错的；因为你真正在调的是一种体验。计算里没有任何一处能告诉你这个密度感觉对不对。把数学做好，让第一次猜测尽量准；然后把它当成一个假设，并根据实际发生的事情去改它。",
+          "flavor": "「我知道我说得好像『需要多少用量』纯粹是个数学问题，在纸上写写数字就能推出来。事实是它没那么精确。在很多方面，一开始它就是在猜。是的，你可以用一些逻辑来提高第一次猜测的准确率；但归根到底，你必须去试玩，才能知道你的用量对不对。这里头有很大一部分是『把手感找对』。」"
+        },
+        {
+          "title": "不把某项特性发给阵容里的大多数，正是让这个阵容不至于千篇一律的原因",
+          "rules": "让每一个选项都能用上这项新东西，看起来很慷慨，同时也把它们之间的差别抹平了——而那正是一部作品让人厌倦的原因。做限制并不是被预算逼出来的妥协：它正是你保持这些选项彼此不同的方式；而这种「不同」，才是让体验在反复接触中保持多样的东西。",
+          "flavor": "「你会注意到，我们做一个机制时，常常并不是在每个颜色里都做。为什么？第一，这确保了各个颜色打起来不一样，并提高了对局中的变化度；这意味着长期来看牌手不那么容易腻，因为对局会更多样。」以及：「做出一个好玩的系列，其中一部分工作就是为不同的颜色组合刻出不同的打法风格。」"
+        },
+        {
+          "title": "一个密度决定，会在身后拖出一整串从属的决定",
+          "rules": "把你那个主打元素的数量定下来，并没有把问题关上，反而打开了好几个：这个元素为了能运作所需要的一切，现在各自都需要一个数量；每一个子分组也需要；每一个子分组自己的那项特性同样需要。这些数字没有一个可以被单独选定。请预期：二阶的那些计数比第一个更费工夫。",
+          "flavor": "「一旦你算出了多色牌的用量，事情还没完……为了能打出你的多色牌，你必须有支撑它们的有色法术力来源……你要算的不只是有多少张多色牌，还有每一个派系里各有多少张牌……每个部族还各有自己的机制，你也得把每一个的用量都算出来。」"
+        },
+        {
+          "title": "把每一场的数字都记下来，因为你自己的经历只是一个有偏的样本",
+          "rules": "任何一次走过这批材料，都可能交给你一份不具代表性的混合；而「相信自己亲眼所见胜过相信汇总数据」这种倾向强到有专门的名字。对策不是靠意志力，而是靠采集：把每一场、每一个人身上发生的事都记录下来，这样你才有东西去核对自己的印象。",
+          "flavor": "「因为这里头有数学，所以把结果记录下来很重要——任何单独一次试玩都可能给出有偏的数据。某一场里的牌张组合可能并不具代表性；而你可能会落入我们所说的『经验偏误』：过度看重自己的亲身经历、而轻视数据……开发部通常会记录每一次试玩中每一副现开牌池的数字，好让埃里克能跑分析。」"
+        }
+      ]
+    }
+  }
+}
