@@ -1,0 +1,294 @@
+{
+  "id": "do-you-feel-lucky-aetherpunk-part-1-2016-09-26",
+  "slug": "do-you-feel-lucky-aetherpunk-part-1-2016-09-26",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-09-26",
+  "series": { "id": "do-you-feel-lucky-aetherpunk", "order": 1, "total": 2 },
+  "tags": ["kaladesh", "card-by-card", "cycles", "planeswalkers", "fabricate"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/do-you-feel-lucky-aetherpunk-part-1-2016-09-26",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T16:50:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "G" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Do You Feel Lucky, Aetherpunk? Part 1",
+      "dek": "A cycle where each piece's output is the next one's input — and every piece still has to be worth playing alone.",
+      "overview": "Card-by-card stories from Kaladesh: building a loop out of the resources the set already produces, designing an archetype when the character's power can't be turned into an effect, and what happens when nothing submitted fits a slot.",
+      "takeaway": "\"The trick to this cycle was that I wanted the activated ability on the card to be relevant to the triggered ability so that the card could function just fine on its own.\"",
+      "lessons": [
+        {
+          "title": "In a set of interlocking pieces, each piece must also stand alone",
+          "rules": "A cycle whose members feed each other is delightful for the people who assemble all of them and dead weight for everyone else. Give each one an internal loop — a way to trigger itself — and the combination becomes a bonus rather than a precondition.",
+          "flavor": "“The trick to this cycle was that I wanted the activated ability on the card to be relevant to the triggered ability so that the card could function just fine on its own.” Of the original Stations: “They share the quality that I like… in that they are fun to play both by themselves and with each other.”"
+        },
+        {
+          "title": "Build the connective piece out of what your project already produces",
+          "rules": "Before inventing anything for a linking component, list what the existing parts already output. Those are the currencies the system can actually supply, so a loop built from them will have inputs available in real use rather than only in theory.",
+          "flavor": "“I was also very interested to make use of resources that Kaladesh cared about. After some thought, I decided those resources were artifacts, +1/+1 counters, and energy—the two outputs of fabricate and the output of energy.” One card yields energy, one yields a counter, one yields an artifact — each triggering off the previous one's output."
+        },
+        {
+          "title": "A choice mechanic needs work at both the micro and the macro level",
+          "rules": "Two separate jobs. Each instance has to present a decision that could genuinely go either way. And the surrounding environment has to contain payoffs for both branches, or the local balance is irrelevant because one answer is always better in context.",
+          "flavor": "“First, we wanted to make sure that each card was, unto itself, an interesting decision… These two cards represent the other part of making the mechanic work. We needed to make cards that externally made both choices relevant… The trick here is focusing both on the micro… and the macro.”"
+        },
+        {
+          "title": "A tax that spoils the elegance stays if the alternative is unsafe",
+          "rules": "Sometimes the clean version of a system is the dangerous one, and the fix is a small charge that visibly interrupts it. Expect the objection, hear it, and keep the charge anyway — an inelegant thing that ships beats an elegant thing that has to be banned.",
+          "flavor": "The third module had to produce an artifact creature token. “In the end it was a Servo, and even then we had to make you pay 1 for it. There was much talk, as it added mana into the loop. But, developmentally, we needed it so it stayed.”"
+        },
+        {
+          "title": "When nothing submitted fits the slot, the reviewing stage should author it",
+          "rules": "A downstream team can keep rejecting until the deadline, or it can write the thing itself. If the requirement is specific and none of the candidates meet it, authoring is faster and produces something that actually satisfies the constraint that was never stated clearly enough to be met.",
+          "flavor": "“The Gearhulk cycle was added in development. They wanted a cycle of mythic rare artifact creatures and nothing design turned in quite fit the bill, so they designed their own cards. They all cost five or six mana with two colored mana required, they all have an evergreen creature keyword of their color and they all have a powerful ‘enters the battlefield' effect.”"
+        },
+        {
+          "title": "When two requirements each force something the setting forbids, name the exception",
+          "rules": "Occasionally the only object satisfying both constraints is one your own world rules say shouldn't exist. That's not a reason to drop a constraint — it's a reason to make the exception deliberately, in one visible place, rather than quietly weakening either requirement.",
+          "flavor": "“There was a little discussion about them being colored artifacts as that's not something found anywhere else on Kaladesh, but development both wanted them to require colored mana (to keep too many from going into the same deck) and wanted them to be artifact creatures for flavor reasons, so the colored artifacts ended up being the best choice.”"
+        },
+        {
+          "title": "When a trait won't translate into an effect, design the archetype instead",
+          "rules": "Some characterisations have no mechanical equivalent at all. Stop asking what the ability does and ask what kind of thing the person holding it would be used for — then build backwards from that role, and each part reads as an expression of the trait.",
+          "flavor": "“‘Can spot the weaknesses in things' is very hard to design. The trick to doing it was to take a step back and think a little more big picture. Instead of trying to imagine what, exactly, his ability meant as an effect, we tried to think about what it might mean as an archetype. What kind of deck would you imagine he'd be played in.”"
+        },
+        {
+          "title": "Spend the exception budget when the occasion finally fits",
+          "rules": "Some recurring element never quite works, attempt after attempt. Don't keep giving it ordinary treatment — wait for the project where it's genuinely central, and then break your own norms for it, because that's the moment the extra investment is legible.",
+          "flavor": "“Of all the Planeswalkers that show up on a somewhat regular basis, Chandra has historically proven the hardest to make tournament playable. This was Chandra's home plane and it was going to be her story, so we were determined to give her a good card.” She became the third planeswalker ever with four abilities."
+        },
+        {
+          "title": "Make it self-sufficient in the resource it spends, and scalable if you have more",
+          "rules": "A one-shot that consumes a resource can't rely on the resource being there. Have it supply its own baseline so it always does something, and let it consume any surplus so it grows for the people who invested — one design serving both audiences.",
+          "flavor": "“As a rule of thumb, you want to make sure that the card provides enough access to energy that you'll be able to properly use it. Beyond that, you also like to have your energy cards feel as if they can do something even bigger if you get access to additional energy… If you have no other access to energy, these cards are self-sufficient, but are limited in scope.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "¿Te sientes con suerte, aetherpunk? Parte 1",
+      "dek": "Un ciclo donde la salida de cada pieza es la entrada de la siguiente, y cada pieza tiene que merecer la pena por sí sola.",
+      "overview": "Historias carta por carta de Kaladesh: construir un bucle con los recursos que la edición ya produce, diseñar un arquetipo cuando el poder del personaje no se puede convertir en efecto, y qué pasa cuando nada de lo entregado encaja en un hueco.",
+      "takeaway": "«La clave de este ciclo era que quería que la habilidad activada de la carta fuera relevante para su habilidad disparada, de modo que la carta funcionara bien sola.»",
+      "lessons": [
+        {
+          "title": "En un conjunto de piezas engranadas, cada pieza debe sostenerse sola",
+          "rules": "Un ciclo cuyos miembros se alimentan entre sí es delicioso para quien reúne todos y lastre para todos los demás. Dale a cada uno un bucle interno —una forma de dispararse a sí mismo— y la combinación pasa de requisito a bonificación.",
+          "flavor": "«La clave de este ciclo era que quería que la habilidad activada de la carta fuera relevante para su habilidad disparada, de modo que la carta funcionara bien sola.» De las Estaciones originales: «Comparten la cualidad que me gusta… son divertidas de jugar tanto solas como juntas.»"
+        },
+        {
+          "title": "Construye la pieza conectora con lo que tu proyecto ya produce",
+          "rules": "Antes de inventar nada para un componente de enlace, enumera qué sacan ya las piezas existentes. Esas son las monedas que el sistema puede suministrar de verdad, así que un bucle hecho con ellas tendrá insumos disponibles en el uso real y no solo en teoría.",
+          "flavor": "«También me interesaba mucho usar recursos que a Kaladesh le importaran. Tras pensarlo, decidí que eran los artefactos, los contadores +1/+1 y la energía: las dos salidas de fabricar y la salida de la energía.» Una carta da energía, otra un contador, otra un artefacto, cada una disparándose con la salida de la anterior."
+        },
+        {
+          "title": "Una mecánica de elección necesita trabajo en lo micro y en lo macro",
+          "rules": "Dos tareas distintas. Cada caso tiene que plantear una decisión que pueda caer genuinamente de cualquier lado. Y el entorno debe contener recompensas para ambas ramas, o el equilibrio local dará igual porque en contexto una respuesta será siempre mejor.",
+          "flavor": "«Primero, queríamos que cada carta fuera, en sí misma, una decisión interesante… Estas dos cartas representan la otra parte de hacer funcionar la mecánica. Teníamos que hacer cartas que externamente volvieran relevantes ambas opciones… La clave está en atender a la vez lo micro y lo macro.»"
+        },
+        {
+          "title": "Un impuesto que estropea la elegancia se queda si la alternativa es insegura",
+          "rules": "A veces la versión limpia de un sistema es la peligrosa, y el arreglo es un pequeño cargo que la interrumpe visiblemente. Espera la objeción, escúchala y mantén el cargo igualmente: algo poco elegante que sale a la calle vale más que algo elegante que hay que prohibir.",
+          "flavor": "El tercer módulo tenía que producir una ficha de criatura artefacto. «Al final fue un Servo, y aun así tuvimos que hacerte pagar 1 por él. Se habló mucho, porque añadía maná al bucle. Pero desde desarrollo lo necesitábamos, así que se quedó.»"
+        },
+        {
+          "title": "Cuando nada de lo entregado encaja en el hueco, que lo escriba la etapa que revisa",
+          "rules": "Un equipo posterior puede seguir rechazando hasta la fecha límite, o puede escribirlo él mismo. Si el requisito es específico y ningún candidato lo cumple, escribirlo es más rápido y produce algo que de verdad satisface la restricción que nunca se enunció con claridad suficiente.",
+          "flavor": "«El ciclo de los Gearhulk se añadió en desarrollo. Querían un ciclo de criaturas artefacto mítico raras y nada de lo que diseño entregó daba la talla, así que diseñaron sus propias cartas. Todas cuestan cinco o seis manás con dos de maná de color, todas tienen una palabra clave perenne de su color y todas tienen un potente efecto de entrada.»"
+        },
+        {
+          "title": "Cuando dos requisitos obligan cada uno a algo que el escenario prohíbe, nombra la excepción",
+          "rules": "A veces el único objeto que satisface ambas restricciones es uno que tus propias reglas de mundo dicen que no debería existir. Eso no es motivo para soltar una restricción: es motivo para hacer la excepción a propósito, en un lugar visible, en vez de debilitar en silencio cualquiera de las dos.",
+          "flavor": "«Se habló un poco de que fueran artefactos de color, porque eso no aparece en ninguna otra parte de Kaladesh; pero desarrollo quería a la vez que requirieran maná de color (para que no fueran demasiados al mismo mazo) y que fueran criaturas artefacto por razones de sabor, así que los artefactos de color acabaron siendo la mejor opción.»"
+        },
+        {
+          "title": "Cuando un rasgo no se traduce en efecto, diseña el arquetipo",
+          "rules": "Algunas caracterizaciones no tienen equivalente mecánico ninguno. Deja de preguntar qué hace la habilidad y pregunta para qué se usaría a la persona que la tiene; luego construye hacia atrás desde ese papel, y cada parte se leerá como expresión del rasgo.",
+          "flavor": "«“Puede detectar las debilidades de las cosas” es muy difícil de diseñar. El truco fue dar un paso atrás y pensar más en grande. En vez de intentar imaginar qué significaba exactamente su habilidad como efecto, intentamos pensar qué podría significar como arquetipo. ¿En qué clase de mazo te lo imaginarías?»"
+        },
+        {
+          "title": "Gasta el presupuesto de excepciones cuando por fin llegue la ocasión",
+          "rules": "Hay elementos recurrentes que nunca acaban de funcionar, intento tras intento. No sigas dándoles trato ordinario: espera al proyecto donde sean genuinamente centrales y entonces rompe tus propias normas por ellos, porque ese es el momento en que la inversión extra se lee.",
+          "flavor": "«De todos los planeswalkers que aparecen con cierta regularidad, Chandra ha sido históricamente la más difícil de hacer jugable en torneo. Este era el plano natal de Chandra y esta era su historia, así que estábamos decididos a darle una buena carta.» Se convirtió en la tercera planeswalker de la historia con cuatro habilidades."
+        },
+        {
+          "title": "Hazlo autosuficiente en el recurso que gasta, y escalable si tienes más",
+          "rules": "Un efecto de un solo uso que consume un recurso no puede depender de que el recurso esté ahí. Que se suministre su propia base para que siempre haga algo, y que consuma cualquier excedente para crecer con quien invirtió: un solo diseño sirviendo a ambos públicos.",
+          "flavor": "«Como regla general, quieres asegurarte de que la carta dé acceso a suficiente energía para poder usarla bien. Más allá de eso, te gusta que tus cartas de energía parezcan capaces de algo aún mayor si consigues más energía… Si no tienes otro acceso a energía, estas cartas son autosuficientes, pero limitadas en alcance.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Tu te sens chanceux, aetherpunk ? Partie 1",
+      "dek": "Un cycle où la sortie de chaque pièce est l'entrée de la suivante — et où chaque pièce doit encore valoir la peine seule.",
+      "overview": "Histoires carte par carte de Kaladesh : bâtir une boucle avec les ressources que l'édition produit déjà, concevoir un archétype quand le pouvoir du personnage ne se traduit pas en effet, et ce qui arrive quand rien de ce qui est rendu ne remplit une place.",
+      "takeaway": "« L'astuce de ce cycle était que je voulais que la capacité activée soit pertinente pour la capacité déclenchée, afin que la carte fonctionne très bien seule. »",
+      "lessons": [
+        {
+          "title": "Dans un ensemble de pièces imbriquées, chaque pièce doit aussi tenir seule",
+          "rules": "Un cycle dont les membres s'alimentent est un délice pour qui les réunit tous et un poids mort pour tous les autres. Donnez à chacun une boucle interne — un moyen de se déclencher lui-même — et la combinaison devient un bonus plutôt qu'une condition.",
+          "flavor": "« L'astuce de ce cycle était que je voulais que la capacité activée soit pertinente pour la capacité déclenchée, afin que la carte fonctionne très bien seule. » Des Stations d'origine : « Elles partagent la qualité que j'aime… on s'amuse à les jouer seules comme ensemble. »"
+        },
+        {
+          "title": "Bâtissez la pièce de liaison avec ce que votre projet produit déjà",
+          "rules": "Avant d'inventer quoi que ce soit pour un composant de liaison, listez ce que les pièces existantes produisent déjà. Ce sont les monnaies que le système peut réellement fournir ; une boucle bâtie avec elles aura ses entrées disponibles à l'usage, pas seulement en théorie.",
+          "flavor": "« Je tenais aussi à employer des ressources qui comptaient pour Kaladesh. Après réflexion, j'ai décidé que c'étaient les artefacts, les marqueurs +1/+1 et l'énergie — les deux sorties de la fabrication et la sortie de l'énergie. » Une carte donne de l'énergie, une un marqueur, une un artefact, chacune se déclenchant sur la sortie de la précédente."
+        },
+        {
+          "title": "Une mécanique de choix demande du travail au micro et au macro",
+          "rules": "Deux tâches distinctes. Chaque occurrence doit présenter une décision qui puisse vraiment basculer des deux côtés. Et l'environnement doit contenir des récompenses pour les deux branches, sinon l'équilibre local ne compte pas, car en contexte une réponse sera toujours meilleure.",
+          "flavor": "« D'abord, nous voulions que chaque carte soit en elle-même une décision intéressante… Ces deux cartes représentent l'autre moitié du travail. Il fallait des cartes rendant extérieurement pertinents les deux choix… L'astuce est de s'occuper à la fois du micro et du macro. »"
+        },
+        {
+          "title": "Une taxe qui gâche l'élégance reste si l'alternative n'est pas sûre",
+          "rules": "Parfois la version propre d'un système est la dangereuse, et le correctif est un petit péage qui l'interrompt visiblement. Attendez l'objection, écoutez-la, et gardez le péage : une chose inélégante qui sort vaut mieux qu'une chose élégante qu'il faudra bannir.",
+          "flavor": "Le troisième module devait produire un jeton de créature-artefact. « Ce fut finalement un Servo, et encore fallait-il payer 1 pour l'obtenir. On en a beaucoup parlé, car cela ajoutait du mana dans la boucle. Mais le développement en avait besoin, alors c'est resté. »"
+        },
+        {
+          "title": "Quand rien de rendu ne remplit la place, que l'étape qui relit l'écrive",
+          "rules": "Une équipe en aval peut refuser jusqu'à l'échéance, ou écrire la chose elle-même. Si l'exigence est précise et qu'aucun candidat ne la remplit, écrire va plus vite et produit une chose qui satisfait vraiment la contrainte jamais énoncée assez clairement pour être remplie.",
+          "flavor": "« Le cycle des Gearhulks a été ajouté en développement. Ils voulaient un cycle de créatures-artefacts rares mythiques et rien de ce que la conception avait rendu ne convenait, alors ils ont conçu leurs propres cartes. Toutes coûtent cinq ou six manas dont deux colorés, toutes ont un mot-clé permanent de leur couleur et un puissant effet d'arrivée. »"
+        },
+        {
+          "title": "Quand deux exigences imposent chacune une chose que le cadre interdit, nommez l'exception",
+          "rules": "Parfois le seul objet satisfaisant les deux contraintes est un objet que vos propres règles de monde déclarent impossible. Ce n'est pas une raison de lâcher une contrainte, mais de faire l'exception exprès, en un endroit visible, plutôt que d'affaiblir l'une des deux en douce.",
+          "flavor": "« On a un peu discuté du fait qu'ils soient des artefacts colorés, ce qu'on ne trouve nulle part ailleurs sur Kaladesh ; mais le développement voulait à la fois qu'ils exigent du mana coloré (pour éviter qu'ils s'entassent dans le même deck) et qu'ils soient des créatures-artefacts pour le ressenti, donc les artefacts colorés se sont imposés. »"
+        },
+        {
+          "title": "Quand un trait ne se traduit pas en effet, concevez l'archétype",
+          "rules": "Certaines caractérisations n'ont aucun équivalent mécanique. Cessez de demander ce que fait la capacité et demandez à quoi servirait la personne qui la détient ; puis remontez depuis ce rôle, et chaque partie se lira comme une expression du trait.",
+          "flavor": "« “Sait repérer les faiblesses des choses” est très difficile à concevoir. L'astuce fut de prendre du recul et de voir plus large. Au lieu d'imaginer ce que sa capacité voulait dire comme effet, nous avons cherché ce qu'elle pouvait vouloir dire comme archétype. Dans quel genre de deck l'imagineriez-vous ? »"
+        },
+        {
+          "title": "Dépensez le budget d'exception quand l'occasion s'y prête enfin",
+          "rules": "Certains éléments récurrents ne marchent jamais tout à fait, tentative après tentative. Cessez de leur donner un traitement ordinaire : attendez le projet où ils sont vraiment centraux, et brisez alors vos propres normes pour eux, car c'est là que l'investissement supplémentaire se lit.",
+          "flavor": "« De tous les planeswalkers qui reviennent assez régulièrement, Chandra s'est historiquement révélée la plus dure à rendre jouable en tournoi. C'était son plan natal et ce serait son histoire, donc nous étions déterminés à lui donner une bonne carte. » Elle devint la troisième planeswalker de l'histoire à quatre capacités."
+        },
+        {
+          "title": "Rendez-la autosuffisante dans la ressource qu'elle dépense, et extensible si vous en avez plus",
+          "rules": "Un effet à usage unique qui consomme une ressource ne peut compter sur sa présence. Qu'il fournisse sa propre base pour faire toujours quelque chose, et qu'il consomme tout surplus pour croître chez qui a investi : une seule conception au service de deux publics.",
+          "flavor": "« En règle générale, il faut que la carte donne assez d'accès à l'énergie pour pouvoir bien l'utiliser. Au-delà, on aime que les cartes à énergie semblent capables de plus grand encore si l'on obtient de l'énergie ailleurs… Sans autre accès à l'énergie, ces cartes sont autosuffisantes, mais limitées en portée. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Está se sentindo com sorte, aetherpunk? Parte 1",
+      "dek": "Um ciclo em que a saída de cada peça é a entrada da seguinte — e cada peça ainda precisa valer a pena sozinha.",
+      "overview": "Histórias carta a carta de Kaladesh: construir um laço com os recursos que a coleção já produz, projetar um arquétipo quando o poder do personagem não vira efeito, e o que acontece quando nada do que foi entregue serve para uma vaga.",
+      "takeaway": "“O truque deste ciclo era que eu queria que a habilidade ativada da carta fosse relevante para a habilidade desencadeada, de modo que a carta funcionasse bem sozinha.”",
+      "lessons": [
+        {
+          "title": "Num conjunto de peças encaixadas, cada peça também precisa se sustentar sozinha",
+          "rules": "Um ciclo cujos membros se alimentam é uma delícia para quem reúne todos e peso morto para todo o resto. Dê a cada um um laço interno — um jeito de se desencadear sozinho — e a combinação vira bônus em vez de pré-condição.",
+          "flavor": "“O truque deste ciclo era que eu queria que a habilidade ativada da carta fosse relevante para a habilidade desencadeada, de modo que a carta funcionasse bem sozinha.” Sobre as Estações originais: “Elas compartilham a qualidade de que gosto… são divertidas de jogar tanto sozinhas quanto juntas.”"
+        },
+        {
+          "title": "Construa a peça conectora com o que o seu projeto já produz",
+          "rules": "Antes de inventar qualquer coisa para um componente de ligação, liste o que as peças existentes já produzem. Essas são as moedas que o sistema consegue de fato fornecer, então um laço feito com elas terá insumos disponíveis no uso real, e não só na teoria.",
+          "flavor": "“Eu também estava muito interessado em usar recursos com que Kaladesh se importava. Depois de pensar, decidi que eram artefatos, marcadores +1/+1 e energia — as duas saídas de fabricar e a saída da energia.” Uma carta dá energia, outra um marcador, outra um artefato, cada uma disparando com a saída da anterior."
+        },
+        {
+          "title": "Uma mecânica de escolha exige trabalho no micro e no macro",
+          "rules": "Dois trabalhos distintos. Cada ocorrência precisa apresentar uma decisão que possa genuinamente pender para qualquer lado. E o ambiente ao redor precisa conter recompensas para os dois ramos, senão o equilíbrio local é irrelevante, porque no contexto uma resposta será sempre melhor.",
+          "flavor": "“Primeiro, queríamos que cada carta fosse, em si, uma decisão interessante… Estas duas cartas representam a outra parte de fazer a mecânica funcionar. Precisávamos de cartas que externamente tornassem relevantes as duas escolhas… O truque é focar tanto no micro quanto no macro.”"
+        },
+        {
+          "title": "Um imposto que estraga a elegância fica se a alternativa é insegura",
+          "rules": "Às vezes a versão limpa de um sistema é a perigosa, e o conserto é uma pequena cobrança que a interrompe visivelmente. Espere a objeção, ouça-a e mantenha a cobrança mesmo assim: algo deselegante que sai vale mais que algo elegante que precisa ser banido.",
+          "flavor": "O terceiro módulo precisava produzir uma ficha de criatura artefato. “No fim foi um Servo, e mesmo assim tivemos de fazer você pagar 1 por ele. Falou-se muito, porque isso acrescentava mana ao laço. Mas, pelo desenvolvimento, precisávamos disso, então ficou.”"
+        },
+        {
+          "title": "Quando nada do entregue serve para a vaga, quem revisa deve escrever",
+          "rules": "Uma equipe posterior pode continuar recusando até o prazo, ou pode escrever ela mesma. Se a exigência é específica e nenhum candidato a cumpre, escrever é mais rápido e produz algo que de fato satisfaz a restrição que nunca foi enunciada com clareza suficiente.",
+          "flavor": "“O ciclo dos Gearhulks foi acrescentado no desenvolvimento. Eles queriam um ciclo de criaturas artefato míticas e nada do que o design entregou serviu, então projetaram as próprias cartas. Todas custam cinco ou seis manas com dois de mana colorido, todas têm uma palavra-chave perene da cor e um potente efeito de entrada.”"
+        },
+        {
+          "title": "Quando duas exigências forçam cada uma algo que o cenário proíbe, nomeie a exceção",
+          "rules": "Às vezes o único objeto que satisfaz as duas restrições é um que as suas próprias regras de mundo dizem não dever existir. Isso não é motivo para largar uma restrição: é motivo para fazer a exceção de propósito, num lugar visível, em vez de enfraquecer qualquer das duas em silêncio.",
+          "flavor": "“Houve alguma discussão sobre serem artefatos coloridos, já que isso não existe em nenhum outro lugar de Kaladesh; mas o desenvolvimento queria tanto que exigissem mana colorido (para que não fossem todos para o mesmo deck) quanto que fossem criaturas artefato por razões de sabor, então artefatos coloridos foi a melhor escolha.”"
+        },
+        {
+          "title": "Quando um traço não vira efeito, projete o arquétipo",
+          "rules": "Algumas caracterizações não têm equivalente mecânico nenhum. Pare de perguntar o que a habilidade faz e pergunte para que serviria a pessoa que a tem; então construa de trás para frente a partir desse papel, e cada parte se lerá como expressão do traço.",
+          "flavor": "“‘Consegue enxergar as fraquezas das coisas' é muito difícil de projetar. O truque foi dar um passo atrás e pensar de forma mais ampla. Em vez de imaginar o que exatamente a habilidade dele significava como efeito, tentamos pensar no que ela poderia significar como arquétipo. Em que tipo de deck você o imaginaria?”"
+        },
+        {
+          "title": "Gaste o orçamento de exceção quando a ocasião finalmente couber",
+          "rules": "Certos elementos recorrentes nunca funcionam direito, tentativa após tentativa. Não continue dando a eles tratamento comum: espere o projeto em que sejam genuinamente centrais e então quebre as suas próprias normas por eles, porque é aí que o investimento extra se lê.",
+          "flavor": "“De todos os planeswalkers que aparecem com certa regularidade, Chandra historicamente se mostrou a mais difícil de tornar jogável em torneio. Este era o plano natal dela e seria a história dela, então estávamos determinados a lhe dar uma boa carta.” Ela virou a terceira planeswalker da história com quatro habilidades."
+        },
+        {
+          "title": "Torne-a autossuficiente no recurso que gasta, e escalável se você tiver mais",
+          "rules": "Um efeito de uso único que consome um recurso não pode depender de o recurso estar lá. Faça-o fornecer a própria base para sempre fazer algo, e consumir qualquer excedente para crescer com quem investiu — um único design servindo aos dois públicos.",
+          "flavor": "“Como regra geral, você quer garantir que a carta dê acesso a energia suficiente para poder usá-la direito. Além disso, você gosta que suas cartas de energia pareçam capazes de algo ainda maior se você conseguir mais energia… Sem outro acesso a energia, estas cartas são autossuficientes, mas limitadas em alcance.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "你觉得自己走运吗，以太朋克？（上）",
+      "dek": "一个循环，每一件的产出正是下一件的输入——而每一件仍然必须单独拿出来也值得一玩。",
+      "overview": "《卡拉德许》的逐张设计故事：用这个系列已经在产出的资源来搭一个闭环；当角色的能力没法翻译成效果时，改去设计一个原型套牌；以及当交上来的东西没有一个填得上某个位置时会发生什么。",
+      "takeaway": "「这个循环的诀窍在于，我希望牌上的起动式异能与它的触发式异能彼此相关，这样这张牌单独拿出来也照样运转良好。」",
+      "lessons": [
+        {
+          "title": "在一组相互咬合的部件里，每一件也必须能单独立住",
+          "rules": "一个成员彼此供料的循环，对把它们全都凑齐的人来说妙不可言，对其余所有人则是死重。给每一件一个内部的小闭环——一个能自己触发自己的办法——于是「组合起来」就从前提条件变成了额外的奖励。",
+          "flavor": "「这个循环的诀窍在于，我希望牌上的起动式异能与它的触发式异能彼此相关，这样这张牌单独拿出来也照样运转良好。」谈到最初那组「工坊」：「它们共有我喜欢的那种品质……单独玩好玩，凑在一起玩也好玩。」"
+        },
+        {
+          "title": "用你的项目已经在产出的东西，去搭那个起连接作用的部件",
+          "rules": "在为一个连接性的部件发明任何东西之前，先把现有各部分已经在产出什么列出来。那些才是这套系统真正供得起的货币；于是用它们搭起来的闭环，在真实使用中是有输入的，而不只在理论上有。",
+          "flavor": "「我也很想用上《卡拉德许》所在意的那些资源。想了一阵之后，我认定那就是神器、+1/+1指示物和能量——制造的两种产出，加上能量的产出。」一张牌产出能量，一张产出指示物，一张产出神器；每一张都由前一张的产出来触发。"
+        },
+        {
+          "title": "一个「二选一」的机制，需要在微观和宏观两个层面上都下功夫",
+          "rules": "这是两份不同的工作。每一个实例都必须摆出一个真的可能往两边倒的决定。而周围的环境里必须同时存在给两个分支的回报；否则局部的平衡毫无意义，因为放在语境里总有一个答案更好。",
+          "flavor": "「第一，我们想确保每一张牌本身就是一个有趣的决定……而这两张牌代表着让这个机制成立的另一半工作。我们需要做出一些从外部让两个选项都变得有意义的牌……这里的诀窍是同时盯住微观和宏观。」"
+        },
+        {
+          "title": "一笔破坏了优雅感的税，只要另一条路不安全，就留着",
+          "rules": "有时候一套系统干净的那个版本，正是危险的那个；而修法是一笔明显打断它的小额收费。预料到那个反对意见、听完它，然后照样把这笔收费留下——一样不优雅但发得出去的东西，胜过一样优雅但最终得被禁的东西。",
+          "flavor": "第三个模块必须产出一个神器生物衍生物。「最后它给的是一个仆役，而且即便如此，我们还是得让你为它付1点。这件事讨论了很多，因为它往这个闭环里加进了法术力。但从开发的角度我们需要它，所以它留下了。」"
+        },
+        {
+          "title": "当交上来的东西没有一个填得上这个位置时，就由复审的那一环自己来写",
+          "rules": "下游的团队可以一直退回到截止日期，也可以自己把这样东西写出来。如果要求是具体的、而没有一个候选满足它，那么自己动手更快，并且产出的东西真的满足了那条「从来没被讲得足够清楚以至于能被满足」的约束。",
+          "flavor": "「齿轮巨怪这个循环是在开发阶段加进去的。他们想要一个秘稀神器生物的循环，而设计部交上来的东西没有一个够格，于是他们自己设计了这些牌。它们全都是五点或六点法术力、其中两点是有色法术力，全都带一个本色的常青关键字，也全都有一个强力的入场效果。」"
+        },
+        {
+          "title": "当两条要求各自都逼出一样这个设定禁止的东西时，把这个例外指名道姓地立出来",
+          "rules": "偶尔，唯一能同时满足两条约束的那样东西，正是你自己的世界规则说不该存在的东西。这不是放弃某条约束的理由——这是「有意识地、在一个看得见的地方开这个例外」的理由，而不是悄悄把其中任何一条削弱掉。",
+          "flavor": "「关于它们是有色神器这件事有过一点讨论，因为卡拉德许别的任何地方都找不到这种东西；但开发部既希望它们需要有色法术力（好让它们不至于太多张挤进同一副套牌），又出于味道上的理由希望它们是神器生物，于是有色神器最后成了最佳选择。」"
+        },
+        {
+          "title": "当一项特质翻译不成效果时，去设计那个原型套牌",
+          "rules": "有些人物刻画根本没有对应的机制。别再问「这项能力做什么」，改问「拥有这项能力的人会被用来做什么」；然后从那个角色定位倒推回来，于是每一个部分读起来都成了这项特质的表达。",
+          "flavor": "「『能看出事物的弱点』这一条非常难设计。做到它的诀窍，是退后一步，往更大的图景上去想。我们没有去设想他的能力作为一个效果究竟意味着什么，而是去想它作为一种原型套牌可能意味着什么。你会想象他被放进什么样的一副牌里？」"
+        },
+        {
+          "title": "当那个场合终于对上了，就把「破例预算」花出去",
+          "rules": "有些反复出现的元素，一次又一次地总是不太成功。别再给它常规待遇了——等到那个它真正处于核心位置的项目，然后为它打破你自己的惯例；因为那正是这份额外投入能被读出来的时刻。",
+          "flavor": "「在所有会比较规律地出现的鹏洛客里，茜卓历来是最难做得适合竞技的一个。这是茜卓的母星，而这将是她的故事，所以我们下定决心要给她一张好牌。」她成了史上第三位拥有四项异能的鹏洛客。"
+        },
+        {
+          "title": "让它在自己所花的那种资源上自给自足，并且在你有更多时能放大",
+          "rules": "一个消耗某种资源的一次性效果，不能指望那种资源一定在场。让它自己供出基础的那一份，好让它永远做得成事；同时让它能吃掉任何富余，从而在那些投入过的人手里变大——一份设计同时服务两批人。",
+          "flavor": "「一条经验法则是：你要确保这张牌本身提供的能量足够让你把它用起来。除此之外，你也希望你的能量牌给人一种感觉：如果你能拿到更多能量，它还能做出更大的事……如果你没有别的能量来源，这些牌是自给自足的，只是能做的范围有限。」"
+        }
+      ]
+    }
+  }
+}
