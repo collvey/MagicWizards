@@ -1,0 +1,320 @@
+{
+  "id": "nuts-bolts-initial-playtesting-2013-02-11",
+  "slug": "nuts-bolts-initial-playtesting-2013-02-11",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-02-11",
+  "series": { "id": "nuts-and-bolts", "order": 5, "total": 18 },
+  "tags": ["playtesting", "process", "iteration", "commons", "method"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/nuts-bolts-initial-playtesting-2013-02-11",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Nuts & Bolts: Initial Playtesting",
+      "dek": "How to run the first playtests of something that isn't finished: what to fill the empty slots with, which distortions your reduced version introduces, and why the testers must not be allowed to play to win.",
+      "overview": "The instalment where the skeleton stops being a document and starts being a game. Rosewater's rule is that you play as soon as the commons exist, because that's enough to tell whether the direction is right, and the rest of the file keeps getting filled in alongside. He walks the first Gatecrash all-common sessions — two mechanics were fun, one was fun only for the players committed to it, one was overpowering, one was a bust — and shows that each verdict produces a different next action rather than a single revision pass. Then the four ways a commons-only test lies to you, and the rules for running it.",
+      "takeaway": "The early playtest is not measuring the environment, because there isn't one yet. It's measuring individual pieces, which is why the surrounding cards should be deliberately dull and the testers should be forbidden from optimising.",
+      "lessons": [
+        {
+          "title": "Fill every slot before you test, because you can change something into something else",
+          "rules": "The reason to complete a skeleton first is that a test needs cohesion to be about anything. His formulation is the whole argument: you can easily change one thing into another, but it's hard to change nothing into something. A file with holes gives a playtest no shape to react to, and the notes you get back will be about the holes.",
+          "flavor": "It doesn't have to be the right something. It has to be a something."
+        },
+        {
+          "title": "Keep the rough version's audience small, and spend goodwill later",
+          "rules": "Early tests are restricted to the design team, and the stated reason is not secrecy or convenience — it's that the thing is rough and you don't want to sour people on it before it's worth their time. Every group you show an unfinished version to is a group whose first impression you have spent. Save the wider pool for the version that can survive being judged.",
+          "flavor": "You only get one first look from each person, and this isn't the version to spend it on."
+        },
+        {
+          "title": "Make the unchanged parts boring on purpose so the variable is visible",
+          "rules": "Asked what filled the non-mechanic slots during the earliest sessions, he answers: basic cards. Until you have a handle on what the thing does, plain filler serves two functions — it makes play possible, and it lets the new parts take the focus. An interesting control condition competes with the thing you're testing for the testers' attention, and their notes will come back about the wrong cards.",
+          "flavor": "The rest of the set was deliberately unremarkable, so nobody wrote anything down about it."
+        },
+        {
+          "title": "Grade each component separately; they don't have to advance together",
+          "rules": "After the first sessions he asks one question per component and gets five different answers — yes, yes, maybe with work, sceptical but needs due diligence, and no. Each answer routes to a different next step: build support cards, solve a specific fit problem, consult the specialist, or start over. He says it plainly: there's no reason all the parts have to advance at the same rate. A single project-wide revision pass throws away exactly this information.",
+          "flavor": "Two solved, one nearly, one under review, one back to zero — and that's a good morning."
+        },
+        {
+          "title": "The parts you settle first write the brief for the parts you haven't",
+          "rules": "As mechanics got locked down, the set's centre of gravity drifted toward creatures and combat — and that is what pushed the unsolved component toward caring about spells instead. Cementing things doesn't just reduce your remaining options; it tells you what the remaining slot is now for. Restriction accumulating over the course of a project is the mechanism by which the hardest problem eventually becomes specified.",
+          "flavor": "Nobody decided the last guild should be about spells. The other four decided it."
+        },
+        {
+          "title": "Know which distortions your reduced test introduces, so you don't fix the distortion",
+          "rules": "He lists four things a commons-only session gets wrong. Comebacks are harder, because the cards that let a player turn a game around are deliberately kept out of the entry tier. Stalemates are more common, because creature sizes are compressed. Play is more generic, because quirkiness scales with rarity. And repetition is higher, because there simply aren't as many cards. All four are artefacts of the test, and every one of them will generate notes.",
+          "flavor": "Four complaints you can predict before the first game, and none of them are about your set."
+        },
+        {
+          "title": "Enforce coverage, not competition",
+          "rules": "The environment isn't balanced yet, so a tester playing to win will converge on whatever is currently strongest and learn nothing about the rest. The goal at this stage is to experience and to learn, which means actively going after what hasn't been tried. He doesn't ask nicely: he assigns colours to testers, or forbids repeating a combination they've already played. Coverage has to be scheduled, because nobody produces it voluntarily.",
+          "flavor": "\"Make sure your playtesters don't just play to win.\""
+        },
+        {
+          "title": "Keep some options narrow, so they reach the person who needs them",
+          "rules": "When building cards that serve two factions, he deliberately leaves a share of them useful to only one. Two reasons: making everything overlap is impossible, and — the interesting one — a narrow card survives the picking order. Something good for everybody gets taken early by whoever sees it first; something good for one strategy waits for the person building that strategy. Specificity is a routing mechanism, not a weakness.",
+          "flavor": "Roughly a quarter for each side, half for both, and the quarters are the ones that arrive where they're wanted."
+        },
+        {
+          "title": "Tell testers not to judge the rough version against the finished experience",
+          "rules": "Early sessions genuinely are less fun, and for structural reasons the testers can't see: the comeback cards, the size range, and the strange effects are all missing by construction. If nobody says this out loud, the group measures the prototype against the product and reports that it's worse — which is true, uninformative, and demoralising. State the comparison you actually want before the first game.",
+          "flavor": "There's a real thrill in trying things first. It is not the same thrill as playing the finished thing."
+        },
+        {
+          "title": "The best connective pieces don't announce what they're for",
+          "rules": "The final layer of a design is the glue — cards that serve more than one strategy — and he argues the good ones are the unobvious ones. A card that visibly declares which two things it joins has done the player's work for them. One that appears to lead somewhere and turns out to reward something else produces the moment where a player discovers a use, which is worth more than the use itself.",
+          "flavor": "They look like they belong to one strategy right up until somebody finds the other one."
+        }
+      ]
+    },
+    "es": {
+      "title": "Tuercas y tornillos: pruebas iniciales",
+      "dek": "Cómo hacer las primeras pruebas de algo sin terminar: con qué rellenar los huecos vacíos, qué distorsiones introduce tu versión reducida y por qué no hay que dejar que los probadores jueguen para ganar.",
+      "overview": "La entrega en la que el esqueleto deja de ser un documento y empieza a ser un juego. La regla de Rosewater es jugar en cuanto existan los comunes, porque eso basta para saber si la dirección es correcta, y el resto del archivo se sigue rellenando en paralelo. Recorre las primeras sesiones de solo comunes de Gatecrash —dos mecánicas eran divertidas, una lo era solo para quien se comprometía con ella, una era arrolladora y otra un fiasco— y muestra que cada veredicto produce una acción siguiente distinta, no una única ronda de revisión. Luego, las cuatro maneras en que una prueba de solo comunes te miente, y las reglas para conducirla.",
+      "takeaway": "La prueba temprana no mide el entorno, porque todavía no hay ninguno. Mide piezas sueltas, y por eso las cartas de alrededor deben ser deliberadamente sosas y hay que prohibir a los probadores optimizar.",
+      "lessons": [
+        {
+          "title": "Rellena todos los huecos antes de probar, porque una cosa sí se puede convertir en otra",
+          "rules": "La razón para completar antes un esqueleto es que una prueba necesita cohesión para tratar de algo. Su formulación es todo el argumento: es fácil convertir una cosa en otra, pero es difícil convertir la nada en algo. Un archivo con agujeros no le da a la prueba ninguna forma a la que reaccionar, y las notas que recibas irán sobre los agujeros.",
+          "flavor": "No hace falta que sea el algo correcto. Hace falta que sea un algo."
+        },
+        {
+          "title": "Mantén pequeño el público de la versión tosca y gasta la buena voluntad más tarde",
+          "rules": "Las pruebas tempranas se restringen al equipo de diseño, y el motivo declarado no es el secreto ni la comodidad: es que la cosa está tosca y no quieres amargarles la impresión antes de que merezca su tiempo. Cada grupo al que enseñas una versión sin terminar es un grupo cuya primera impresión ya has gastado. Guarda el grupo amplio para la versión capaz de sobrevivir a ser juzgada.",
+          "flavor": "De cada persona solo obtienes una primera mirada, y esta no es la versión en la que gastarla."
+        },
+        {
+          "title": "Haz aposta que las partes que no cambian sean aburridas, para que se vea la variable",
+          "rules": "Preguntado por qué llenaba los huecos sin mecánica en las primeras sesiones, responde: cartas básicas. Hasta que tengas claro qué hace la cosa, el relleno simple cumple dos funciones: hace posible jugar y deja que las partes nuevas se lleven el foco. Una condición de control interesante compite con lo que estás probando por la atención de los probadores, y sus notas volverán sobre las cartas equivocadas.",
+          "flavor": "El resto de la expansión era deliberadamente anodino, así que nadie anotó nada sobre él."
+        },
+        {
+          "title": "Califica cada componente por separado; no tienen que avanzar juntos",
+          "rules": "Tras las primeras sesiones hace una pregunta por componente y obtiene cinco respuestas distintas: sí, sí, quizá con trabajo, escéptico pero hay que hacer la diligencia debida, y no. Cada respuesta conduce a un paso siguiente distinto: hacer cartas de apoyo, resolver un problema concreto de encaje, consultar al especialista, o empezar de cero. Lo dice sin rodeos: no hay razón para que todas las partes avancen al mismo ritmo. Una única ronda de revisión global tira justo esta información.",
+          "flavor": "Dos resueltas, una casi, una en revisión, una de vuelta a cero, y eso es una buena mañana."
+        },
+        {
+          "title": "Las partes que fijas primero escriben el encargo de las que aún no",
+          "rules": "A medida que las mecánicas se cerraban, el centro de gravedad de la expansión derivó hacia criaturas y combate, y eso fue lo que empujó al componente sin resolver a interesarse por los hechizos. Cementar cosas no solo reduce tus opciones restantes: te dice para qué sirve ahora el hueco que queda. La restricción acumulándose a lo largo de un proyecto es el mecanismo por el que el problema más difícil acaba quedando especificado.",
+          "flavor": "Nadie decidió que el último gremio fuera de hechizos. Lo decidieron los otros cuatro."
+        },
+        {
+          "title": "Conoce las distorsiones que introduce tu prueba reducida, para no arreglar la distorsión",
+          "rules": "Enumera cuatro cosas que una sesión de solo comunes hace mal. Remontar es más difícil, porque las cartas que permiten dar la vuelta a una partida se mantienen a propósito fuera del nivel de entrada. Los empates técnicos abundan, porque los tamaños de criatura están comprimidos. El juego es más genérico, porque la rareza escala lo estrafalario. Y hay más repetición, porque simplemente no hay tantas cartas. Las cuatro son artefactos de la prueba, y todas generarán notas.",
+          "flavor": "Cuatro quejas que puedes predecir antes de la primera partida, y ninguna trata de tu expansión."
+        },
+        {
+          "title": "Impón cobertura, no competición",
+          "rules": "El entorno todavía no está equilibrado, así que un probador que juega para ganar convergerá hacia lo que sea más fuerte ahora y no aprenderá nada del resto. El objetivo en esta fase es experimentar y aprender, lo que significa ir activamente a por lo que no se ha probado. Él no lo pide por favor: asigna colores a los probadores, o prohíbe repetir una combinación ya jugada. La cobertura hay que programarla, porque nadie la produce voluntariamente.",
+          "flavor": "«Asegúrate de que tus probadores no jueguen solo para ganar.»"
+        },
+        {
+          "title": "Mantén estrechas algunas opciones, para que lleguen a quien las necesita",
+          "rules": "Al construir cartas que sirven a dos facciones, deja a propósito una parte útil solo para una. Dos motivos: hacer que todo solape es imposible y —el interesante— una carta estrecha sobrevive al orden de selección. Lo bueno para todos se lo lleva pronto quien lo vea primero; lo bueno para una estrategia espera a quien esté construyendo esa estrategia. La especificidad es un mecanismo de encaminamiento, no una debilidad.",
+          "flavor": "Un cuarto para cada lado, la mitad para ambos, y los cuartos son los que llegan donde hacen falta."
+        },
+        {
+          "title": "Di a los probadores que no juzguen la versión tosca contra la experiencia acabada",
+          "rules": "Las sesiones tempranas son realmente menos divertidas, y por razones estructurales que los probadores no pueden ver: las cartas de remontada, el rango de tamaños y los efectos extraños faltan por construcción. Si nadie lo dice en voz alta, el grupo mide el prototipo contra el producto y reporta que es peor, lo cual es cierto, poco informativo y desmoralizante. Enuncia la comparación que de verdad quieres antes de la primera partida.",
+          "flavor": "Hay una emoción real en probar cosas por primera vez. No es la misma emoción que jugar a lo acabado."
+        },
+        {
+          "title": "Las mejores piezas conectoras no anuncian para qué son",
+          "rules": "La última capa de un diseño es el pegamento: cartas que sirven a más de una estrategia, y sostiene que las buenas son las poco obvias. Una carta que declara visiblemente qué dos cosas une ya ha hecho el trabajo del jugador. Una que parece llevar a un sitio y acaba premiando otra cosa produce el momento en que un jugador descubre un uso, y eso vale más que el uso mismo.",
+          "flavor": "Parecen pertenecer a una estrategia justo hasta que alguien encuentra la otra."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Écrous et boulons : les premiers tests",
+      "dek": "Comment mener les premiers tests d'une chose inachevée : de quoi remplir les cases vides, quelles distorsions votre version réduite introduit, et pourquoi les testeurs ne doivent pas avoir le droit de jouer pour gagner.",
+      "overview": "L'épisode où le squelette cesse d'être un document et devient un jeu. La règle de Rosewater : on joue dès que les communes existent, car cela suffit à dire si la direction est bonne, et le reste du fichier continue de se remplir en parallèle. Il déroule les premières séances tout-en-communes de Gatecrash — deux mécaniques amusantes, une amusante seulement pour qui s'y consacrait, une écrasante, une ratée — et montre que chaque verdict entraîne une action différente, non une passe de révision unique. Puis les quatre façons dont un test en communes seules vous ment, et les règles pour le conduire.",
+      "takeaway": "Le test précoce ne mesure pas l'environnement, puisqu'il n'y en a pas encore. Il mesure des pièces isolées : d'où le fait que les cartes alentour doivent être délibérément ternes et qu'il faut interdire aux testeurs d'optimiser.",
+      "lessons": [
+        {
+          "title": "Remplissez chaque case avant de tester, car on peut changer une chose en une autre",
+          "rules": "La raison de compléter d'abord un squelette est qu'un test a besoin de cohésion pour porter sur quelque chose. Sa formule est tout l'argument : il est facile de changer une chose en une autre, difficile de changer rien en quelque chose. Un fichier troué ne donne au test aucune forme à laquelle réagir, et les retours porteront sur les trous.",
+          "flavor": "Ce n'est pas obligé d'être le bon quelque chose. Il faut que ce soit un quelque chose."
+        },
+        {
+          "title": "Réduisez l'audience de la version brute, et dépensez la bonne volonté plus tard",
+          "rules": "Les premiers tests sont réservés à l'équipe de conception, et la raison affichée n'est ni le secret ni la commodité : la chose est brute et vous ne voulez pas dégoûter les gens avant qu'elle mérite leur temps. Chaque groupe à qui vous montrez une version inachevée est un groupe dont vous avez dépensé la première impression. Gardez le vivier large pour la version capable de survivre à un jugement.",
+          "flavor": "Chaque personne ne vous offre qu'un premier regard, et ce n'est pas la version où le dépenser."
+        },
+        {
+          "title": "Rendez exprès ternes les parties qui ne changent pas, pour que la variable se voie",
+          "rules": "Interrogé sur ce qui remplissait les cases sans mécanique lors des toutes premières séances, il répond : des cartes basiques. Tant que vous ne savez pas ce que fait la chose, le remplissage simple remplit deux fonctions : il rend le jeu possible et laisse la vedette aux parties neuves. Une condition témoin intéressante entre en concurrence avec ce que vous testez pour l'attention des testeurs, et leurs notes reviendront sur les mauvaises cartes.",
+          "flavor": "Le reste de l'extension était délibérément quelconque, si bien que personne n'a rien noté dessus."
+        },
+        {
+          "title": "Notez chaque composant séparément ; ils n'ont pas à avancer ensemble",
+          "rules": "Après les premières séances, il pose une question par composant et obtient cinq réponses différentes : oui, oui, peut-être avec du travail, sceptique mais il faut vérifier, et non. Chaque réponse mène à une étape différente : bâtir les cartes de soutien, régler un problème d'ajustement précis, consulter le spécialiste, ou tout reprendre. Il le dit franchement : rien n'oblige toutes les parties à avancer au même rythme. Une passe de révision globale unique jette exactement cette information.",
+          "flavor": "Deux réglées, une presque, une à l'examen, une repartie de zéro — et c'est une bonne matinée."
+        },
+        {
+          "title": "Les parties que vous figez d'abord écrivent le cahier des charges de celles qui restent",
+          "rules": "À mesure que les mécaniques se fixaient, le centre de gravité de l'extension a glissé vers les créatures et le combat — et c'est cela qui a poussé le composant non résolu vers les sorts. Figer des choses ne réduit pas seulement vos options restantes ; cela vous dit à quoi sert désormais la case qui reste. L'accumulation de contraintes au fil d'un projet est le mécanisme par lequel le problème le plus dur finit par être spécifié.",
+          "flavor": "Personne n'a décidé que la dernière guilde porterait sur les sorts. Les quatre autres l'ont décidé."
+        },
+        {
+          "title": "Sachez quelles distorsions votre test réduit introduit, pour ne pas corriger la distorsion",
+          "rules": "Il liste quatre choses qu'une séance en communes seules fausse. Les remontées sont plus dures, car les cartes qui permettent de renverser une partie sont volontairement écartées du niveau d'entrée. Les impasses abondent, car les tailles de créatures sont resserrées. Le jeu est plus générique, car l'étrangeté croît avec la rareté. Et la répétition augmente, car il y a simplement moins de cartes. Les quatre sont des artefacts du test, et chacune produira des retours.",
+          "flavor": "Quatre plaintes prévisibles avant la première partie, et aucune ne concerne votre extension."
+        },
+        {
+          "title": "Imposez la couverture, pas la compétition",
+          "rules": "L'environnement n'est pas encore équilibré : un testeur qui joue pour gagner convergera vers ce qui est momentanément le plus fort et n'apprendra rien du reste. Le but à ce stade est d'éprouver et d'apprendre, donc d'aller chercher activement ce qui n'a pas été essayé. Il ne demande pas gentiment : il attribue des couleurs aux testeurs, ou interdit de rejouer une combinaison déjà jouée. La couverture doit être planifiée, car personne ne la produit spontanément.",
+          "flavor": "« Veillez à ce que vos testeurs ne jouent pas seulement pour gagner. »"
+        },
+        {
+          "title": "Gardez certaines options étroites, pour qu'elles atteignent qui en a besoin",
+          "rules": "En bâtissant des cartes servant deux factions, il en laisse exprès une part utile à une seule. Deux raisons : tout faire se recouvrir est impossible, et — l'intéressante — une carte étroite survit à l'ordre de sélection. Ce qui est bon pour tous part tôt, pris par le premier qui le voit ; ce qui est bon pour une stratégie attend celui qui bâtit cette stratégie. La spécificité est un mécanisme d'acheminement, pas une faiblesse.",
+          "flavor": "Un quart pour chaque camp, la moitié pour les deux, et ce sont les quarts qui arrivent là où on les veut."
+        },
+        {
+          "title": "Dites aux testeurs de ne pas juger la version brute à l'aune du produit fini",
+          "rules": "Les premières séances sont réellement moins amusantes, pour des raisons structurelles que les testeurs ne voient pas : les cartes de retournement, l'amplitude des tailles et les effets bizarres manquent par construction. Si personne ne le dit tout haut, le groupe mesure le prototype contre le produit et rapporte que c'est moins bien — ce qui est vrai, peu informatif et démoralisant. Énoncez la comparaison que vous voulez vraiment avant la première partie.",
+          "flavor": "Il y a un vrai frisson à essayer les choses en premier. Ce n'est pas le frisson de jouer à la chose finie."
+        },
+        {
+          "title": "Les meilleures pièces de liaison n'annoncent pas à quoi elles servent",
+          "rules": "La dernière couche d'une conception est la colle — les cartes qui servent plusieurs stratégies — et il soutient que les bonnes sont les non évidentes. Une carte qui déclare visiblement quelles deux choses elle relie a fait le travail à la place du joueur. Une qui semble mener quelque part et récompense finalement autre chose produit le moment où un joueur découvre un usage, ce qui vaut plus que l'usage lui-même.",
+          "flavor": "Elles semblent appartenir à une stratégie, jusqu'à ce que quelqu'un trouve l'autre."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Porcas e parafusos: testes iniciais",
+      "dek": "Como rodar os primeiros testes de algo que não está pronto: com o que preencher as vagas vazias, quais distorções a sua versão reduzida introduz, e por que os testadores não podem jogar para ganhar.",
+      "overview": "O capítulo em que o esqueleto deixa de ser um documento e vira um jogo. A regra de Rosewater é jogar assim que os comuns existirem, porque isso basta para dizer se a direção está certa, e o resto do arquivo segue sendo preenchido em paralelo. Ele percorre as primeiras sessões só de comuns de Gatecrash — duas mecânicas eram divertidas, uma só para quem se dedicava a ela, uma era avassaladora e uma foi um fiasco — e mostra que cada veredicto produz uma ação seguinte diferente, não uma única rodada de revisão. Depois, os quatro modos pelos quais um teste só de comuns mente para você, e as regras para conduzi-lo.",
+      "takeaway": "O teste inicial não mede o ambiente, porque ainda não há um. Ele mede peças isoladas — por isso as cartas ao redor devem ser deliberadamente sem graça e os testadores devem ser proibidos de otimizar.",
+      "lessons": [
+        {
+          "title": "Preencha todas as vagas antes de testar, porque dá para transformar uma coisa em outra",
+          "rules": "O motivo para completar um esqueleto antes é que um teste precisa de coesão para ser sobre alguma coisa. A formulação dele é o argumento inteiro: é fácil transformar uma coisa em outra, mas é difícil transformar nada em alguma coisa. Um arquivo com buracos não dá ao teste forma alguma à qual reagir, e as anotações que voltarem serão sobre os buracos.",
+          "flavor": "Não precisa ser a coisa certa. Precisa ser uma coisa."
+        },
+        {
+          "title": "Mantenha pequeno o público da versão bruta e gaste a boa vontade depois",
+          "rules": "Os testes iniciais ficam restritos à equipe de design, e o motivo declarado não é sigilo nem conveniência: é que a coisa está bruta e você não quer azedar as pessoas antes de ela merecer o tempo delas. Todo grupo a quem você mostra uma versão inacabada é um grupo cuja primeira impressão você já gastou. Guarde o público amplo para a versão capaz de sobreviver a ser julgada.",
+          "flavor": "De cada pessoa você só ganha um primeiro olhar, e esta não é a versão em que gastá-lo."
+        },
+        {
+          "title": "Faça de propósito as partes que não mudam serem sem graça, para a variável aparecer",
+          "rules": "Perguntado sobre o que preenchia as vagas sem mecânica nas primeiras sessões, ele responde: cartas básicas. Enquanto você não tem noção do que a coisa faz, o recheio simples cumpre duas funções: torna o jogo possível e deixa as partes novas ficarem em foco. Uma condição de controle interessante compete com o que você está testando pela atenção dos testadores, e as anotações vão voltar sobre as cartas erradas.",
+          "flavor": "O resto da coleção era deliberadamente sem graça, então ninguém anotou nada sobre ela."
+        },
+        {
+          "title": "Avalie cada componente separadamente; eles não precisam avançar juntos",
+          "rules": "Depois das primeiras sessões ele faz uma pergunta por componente e recebe cinco respostas diferentes: sim, sim, talvez com trabalho, cético mas é preciso apurar, e não. Cada resposta leva a um próximo passo diferente: construir cartas de apoio, resolver um problema específico de encaixe, consultar o especialista, ou recomeçar. Ele diz sem rodeios: não há razão para todas as partes avançarem no mesmo ritmo. Uma única rodada de revisão geral joga fora exatamente essa informação.",
+          "flavor": "Duas resolvidas, uma quase, uma em exame, uma de volta ao zero — e isso é uma boa manhã."
+        },
+        {
+          "title": "As partes que você fecha primeiro escrevem o briefing das que faltam",
+          "rules": "Conforme as mecânicas foram sendo travadas, o centro de gravidade da coleção derivou para criaturas e combate — e foi isso que empurrou o componente não resolvido a se importar com mágicas. Cimentar coisas não só reduz suas opções restantes; diz para que serve agora a vaga que sobrou. A restrição se acumulando ao longo de um projeto é o mecanismo pelo qual o problema mais difícil acaba ficando especificado.",
+          "flavor": "Ninguém decidiu que a última guilda seria sobre mágicas. As outras quatro decidiram."
+        },
+        {
+          "title": "Saiba quais distorções o seu teste reduzido introduz, para não consertar a distorção",
+          "rules": "Ele lista quatro coisas que uma sessão só de comuns erra. Viradas são mais difíceis, porque as cartas que permitem inverter uma partida são deliberadamente mantidas fora do nível de entrada. Empates travados são mais comuns, porque os tamanhos de criatura estão comprimidos. O jogo é mais genérico, porque a esquisitice escala com a raridade. E há mais repetição, porque simplesmente não há tantas cartas. As quatro são artefatos do teste, e todas vão gerar anotações.",
+          "flavor": "Quatro reclamações que você prevê antes da primeira partida, e nenhuma é sobre a sua coleção."
+        },
+        {
+          "title": "Imponha cobertura, não competição",
+          "rules": "O ambiente ainda não está equilibrado, então um testador jogando para ganhar vai convergir para o que estiver mais forte no momento e não vai aprender nada sobre o resto. O objetivo nesta fase é experimentar e aprender, o que significa ir atrás ativamente do que não foi tentado. Ele não pede com jeitinho: distribui cores aos testadores, ou proíbe repetir uma combinação já jogada. Cobertura tem de ser agendada, porque ninguém a produz voluntariamente.",
+          "flavor": "«Garanta que seus testadores não estejam só jogando para ganhar.»"
+        },
+        {
+          "title": "Mantenha algumas opções estreitas, para que cheguem a quem precisa delas",
+          "rules": "Ao construir cartas que servem duas facções, ele deixa de propósito uma parte útil para só uma. Dois motivos: fazer tudo se sobrepor é impossível e — o interessante — uma carta estreita sobrevive à ordem de escolha. O que é bom para todos sai cedo, levado por quem vir primeiro; o que é bom para uma estratégia espera por quem estiver montando aquela estratégia. Especificidade é um mecanismo de roteamento, não uma fraqueza.",
+          "flavor": "Um quarto para cada lado, metade para ambos, e são os quartos que chegam onde são queridos."
+        },
+        {
+          "title": "Diga aos testadores para não julgarem a versão bruta contra a experiência acabada",
+          "rules": "As sessões iniciais são de fato menos divertidas, e por razões estruturais que os testadores não conseguem ver: as cartas de virada, a faixa de tamanhos e os efeitos estranhos faltam por construção. Se ninguém disser isso em voz alta, o grupo mede o protótipo contra o produto e reporta que é pior — o que é verdade, pouco informativo e desmoralizante. Enuncie a comparação que você de fato quer antes da primeira partida.",
+          "flavor": "Há uma emoção real em experimentar coisas primeiro. Não é a mesma emoção de jogar a coisa pronta."
+        },
+        {
+          "title": "As melhores peças de ligação não anunciam para que servem",
+          "rules": "A última camada de um design é a cola — cartas que servem a mais de uma estratégia — e ele defende que as boas são as pouco óbvias. Uma carta que declara visivelmente quais duas coisas ela une já fez o trabalho do jogador. Uma que parece levar a um lugar e acaba recompensando outra coisa produz o momento em que um jogador descobre um uso, e isso vale mais que o uso em si.",
+          "flavor": "Parecem pertencer a uma estratégia até que alguém encontre a outra."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "螺丝与螺帽：最初的测试",
+      "dek": "怎样对一个还没完成的东西做第一轮测试：空位该拿什么去填，你这个删减版会引入哪些失真，以及为什么绝不能让测试者去追求获胜。",
+      "overview": "这一篇里，骨架不再是一份文档，而开始成为一个游戏。罗斯瓦特的规矩是：普通位一到齐就开打，因为那已经足以判断方向对不对，而文件的其余部分继续同步填充。他复盘了《巨龙迷城》最初那几场全普通位测试——两个机制很好玩，一个只有全身心投入的人才觉得好玩，一个强得离谱，还有一个彻底失败——并指出每一种判决通向的是不同的下一步，而不是一轮统一的修订。接着是「只用普通位测试」会在四个方面骗你，以及怎样把这场测试跑起来。",
+      "takeaway": "早期测试测的不是环境，因为此时还不存在环境。它测的是一个个零件——正因如此，周围的牌应当被刻意做得平淡，而测试者应当被禁止去优化。",
+      "lessons": [
+        {
+          "title": "在测试之前把每个位置填满，因为你能把一样东西改成另一样",
+          "rules": "先把骨架填完的理由是：一场测试需要有内聚，才谈得上是在测什么。他的那句话本身就是全部论证：把一样东西改成另一样很容易，而把「什么都没有」变成「有点什么」很难。一份带着窟窿的文件，不能给测试提供任何可供反应的形状，而你收回来的意见会全是关于那些窟窿的。",
+          "flavor": "它不必是对的那个「什么」。它必须是一个「什么」。"
+        },
+        {
+          "title": "让粗糙版本的观众保持小规模，把善意留到后面再花",
+          "rules": "早期测试被限制在设计团队内部，而给出的理由既不是保密也不是方便：而是这东西还很粗糙，你不想在它值得占用别人时间之前就先把人家倒了胃口。每一个你展示未完成版本的群体，都是一个你已经花掉其「第一印象」的群体。把更大的人群留给那个经得起被评判的版本。",
+          "flavor": "每个人只会给你一次「第一眼」，而这不是该把它花掉的版本。"
+        },
+        {
+          "title": "刻意把不变的部分做得无趣，好让变量显形",
+          "rules": "被问到最初那几场测试里，那些没有机制的位置拿什么填时，他的回答是：基础牌。在你还没摸清这东西在做什么之前，朴素的填充物有两项功能：让对局跑得起来，以及让新的部分占住焦点。一个有意思的对照条件，会跟你正在测的东西争夺测试者的注意力，而他们的反馈会落在错误的那些牌上。",
+          "flavor": "整个系列的其余部分被刻意做得平淡无奇，于是没有人为它写下任何一条意见。"
+        },
+        {
+          "title": "逐个部件分别评级；它们不必齐头并进",
+          "rules": "在最初几场之后，他对每个部件各问一个问题，得到五个不同的答案：是、是、也许但还要改、存疑但得先做尽职调查、以及否。每个答案通向不同的下一步：去做支撑牌、去解决某个具体的适配问题、去找专家咨询、或者推倒重来。他直说了：没有理由要求所有部分以同样的速度推进。一轮覆盖全项目的统一修订，恰好会把这份信息扔掉。",
+          "flavor": "两个搞定、一个快了、一个待审、一个归零——而这已经算是个不错的上午。"
+        },
+        {
+          "title": "你先定下来的那些部分，会为还没定的部分写下任务书",
+          "rules": "随着一个个机制被敲定，整个系列的重心漂向了生物与战斗——而正是这一点，把那个尚未解决的部件推向了「在乎咒语」。把东西固定下来，不只是减少了你剩下的选项，它还告诉你那个剩下的位置现在是干什么用的。约束在一个项目里不断累积，正是最难的那个问题最终得以被规定下来的机制。",
+          "flavor": "没有人决定最后那个公会该关于咒语。是另外四个决定的。"
+        },
+        {
+          "title": "弄清你的删减版测试引入了哪些失真，免得你去修那份失真",
+          "rules": "他列出了「只用普通位」的场次会弄错的四件事。翻盘更难，因为那些能让人扭转局面的牌被刻意挡在了入门稀有度之外。僵局更多，因为生物体型被压缩了。对局更平庸，因为「古怪程度」是随稀有度递增的。重复更严重，因为牌本来就没那么多。这四条全是测试本身的产物，而每一条都会催生出反馈意见。",
+          "flavor": "四条在第一局开打前就能预测的抱怨，而没有一条是关于你这个系列的。"
+        },
+        {
+          "title": "强制覆盖率，而不是强制竞争",
+          "rules": "环境还没被平衡过，所以一个「为赢而打」的测试者会收敛到当下最强的那条路上，对其余部分一无所获。这个阶段的目标是体验和学习，也就是要主动去追那些还没试过的东西。他不是客气地请求：他给测试者分派颜色，或者禁止重复已经打过的组合。覆盖率必须被排进计划，因为没有人会自愿产出它。",
+          "flavor": "「务必确保你的测试者不是只在为赢而打。」"
+        },
+        {
+          "title": "让一部分选项保持狭窄，好让它们到达真正需要它们的人手里",
+          "rules": "在造那些服务两个阵营的牌时，他刻意留出一部分只对其中一方有用。理由有两条：让所有东西都重叠是不可能的；以及更有意思的那一条——一张狭窄的牌能熬过挑选顺序。对所有人都好的东西会被最先看见它的人早早拿走；只对某一种策略好的东西，会一直等到那个正在搭这套策略的人。专一是一种路由机制，而不是一种弱点。",
+          "flavor": "大约各四分之一给两边，一半给两边共用，而真正能送达需要它的人手里的，正是那两个四分之一。"
+        },
+        {
+          "title": "告诉测试者别拿粗糙版本去对标成品体验",
+          "rules": "早期场次确实更不好玩，而原因是结构性的、测试者看不见的：翻盘牌、体型跨度、以及那些奇怪的效果，全都因为构造方式而缺席。如果没有人把这一点说出口，这群人就会拿原型去对标成品，然后反馈说它更差——这话是真的、没有信息量、而且打击士气。在第一局开打之前，把你真正想要的那个比较对象说清楚。",
+          "flavor": "第一个试用某样东西确实有一种真实的兴奋。那和玩成品的兴奋不是同一种。"
+        },
+        {
+          "title": "最好的连接件不会宣告自己是干什么的",
+          "rules": "一个设计的最后一层是「粘合剂」——服务不止一种策略的牌——而他主张好的粘合剂是那些不显眼的。一张明白写出自己连接了哪两样东西的牌，等于替玩家把活干完了。而一张看上去通向某处、结果却回报了别的东西的牌，会造出「一个玩家发现了一种用法」的那个瞬间，而这比那种用法本身更值钱。",
+          "flavor": "它们看起来属于某一种策略——直到有人找出了另一种。"
+        }
+      ]
+    }
+  }
+}

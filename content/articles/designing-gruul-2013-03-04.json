@@ -1,0 +1,320 @@
+{
+  "id": "designing-gruul-2013-03-04",
+  "slug": "designing-gruul-2013-03-04",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-03-04",
+  "series": { "id": "designing-the-color-pairs", "order": 8, "total": 10 },
+  "tags": ["color-pie", "mechanics", "red-green", "aggression", "iteration"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/designing-gruul-2013-03-04",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "U" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Designing Gruul",
+      "dek": "The eighth colour-pair column: a pairing whose whole character is not thinking things through, which is exactly why it takes the most careful hand to design for.",
+      "overview": "Red and green agree about what they want — attack, get in the opponent's face — and that makes them easy to point in one direction and hard to give variety to. After a few obvious moves the space runs out, and the flavour pushes toward bluntness at precisely the moment the game play needs nuance. Rosewater then walks two mechanic searches. The first ended up on creatures for two unrelated reasons and the team reframed that as a feature. The second went through a version that was too strong, a version that broke a rarity policy, and finally one that survived only after a long list of tuning rules about how the two halves of the card had to line up.",
+      "takeaway": "What this pairing wants to do and how it needs to feel pull against each other, so almost every decision here is about finding nuance inside a character that has none.",
+      "lessons": [
+        {
+          "title": "A shared purpose buys direction and costs breadth",
+          "rules": "Both colours want the same thing, which makes pushing them the same way trivial. It also means that after the few obvious ways to help that purpose, the mechanical space dries up faster than it does for pairings that disagree. Alignment is not free: the property that removes your arguments about direction is the same property that shortens the list of things you can build.",
+          "flavor": "Easy to aim. Hard to keep finding new things to fire."
+        },
+        {
+          "title": "An unsubtle character requires a subtle hand",
+          "rules": "The group is defined by thinking things through the least, so a top-down reading pushes you toward blunt cards — and blunt cards give the player nothing to decide. He states the tension plainly: what this pairing wants to accomplish and the feel it needs to have are not in tandem. Where a character's defining trait is the absence of a quality your work needs, that quality has to be smuggled in below the level the character operates on.",
+          "flavor": "Designing for the guild that doesn't think requires more thought than any of the others."
+        },
+        {
+          "title": "The heart and the focus are different questions",
+          "rules": "The mechanical heart is attacking creatures. The focus — how the deck actually gets to the point where that works — is something else entirely, because this pairing isn't fast and needs to survive an early game before its size matters. Answer both separately. The thing you win with and the thing that carries you to the moment of winning are different design problems, and the second one is the one people forget to specify.",
+          "flavor": "It isn't going to get there first. It's going to get there with something you can't stop."
+        },
+        {
+          "title": "The slot is decided by what the neighbours already took",
+          "rules": "The team working out this group's identity began by looking at the other two groups in the same release: one clearly wanted spells, one clearly wanted a slow attrition plan. That left aggression, and the decision was made without arguing about it on the merits. When several parallel components share a release, the last one's brief is written by the others, so map the taken ground before proposing anything.",
+          "flavor": "Two identities claimed, and the third one didn't need a discussion."
+        },
+        {
+          "title": "Overlap the handoff so the outgoing team can act on the incoming team's objections",
+          "rules": "He names the stage between design and development where design still owns the file but development starts raising the problems it can see coming. The point isn't to warn design; it's to give design time to rework the set itself. Catching a downstream objection while the upstream team is still holding the pen is worth more than catching it accurately later, because only one of those states lets the original author fix it.",
+          "flavor": "Development's concerns arrive while design can still do something about them."
+        },
+        {
+          "title": "Let the character's trait set the variety budget",
+          "rules": "The team could have granted several different rewards and chose one unified effect instead. Two reasons, and the first is the interesting one: a single repeated payoff makes the group feel single-minded, which is what the group is supposed to be. The second is that it lowers complexity. When a component's identity includes narrowness, uniformity stops being a compromise and becomes characterisation.",
+          "flavor": "One effect, every time, because that is what this group would do."
+        },
+        {
+          "title": "A new mechanic re-prices the existing pool, so adjust the mix around it",
+          "rules": "Introducing the reward changed what other cards were worth: one-drop creatures, normally weak in this format, became stronger because they help turn the mechanic on. The design team then deliberately altered the set's composition in response. A mechanic doesn't just add cards; it revalues every card that interacts with it, and the correct response is a change to quantities elsewhere.",
+          "flavor": "The mechanic didn't make the small creatures better. It made them worth playing."
+        },
+        {
+          "title": "A granted ability is worth only what it's worth at the moment it arrives",
+          "rules": "The later mechanic hands a creature's keyword to whatever it pumps, at instant speed, mid-combat. That immediately rules out abilities whose value depends on being available earlier — one keyword was excluded because the moment you would need to use it is the moment this delivery makes unavailable. Before granting an ability conditionally, check the timing the condition forces, because an ability delivered too late is a blank.",
+          "flavor": "The ability was fine. It just arrived after the only turn it would have mattered."
+        },
+        {
+          "title": "A mechanic can fail by working",
+          "rules": "The first attempt was efficient at killing the opponent's creatures — so efficient that once its owner got ahead the opponent essentially could not come back, and often could not deploy creatures at all. Nothing was broken; it did what it was designed to do, at a rate that removed the game. The successor was killed by a different kind of success: it turned every creature into a two-for-one, which a standing policy reserves for higher rarities.",
+          "flavor": "\"The mechanic worked well. A little too well, actually.\""
+        },
+        {
+          "title": "Make the two halves share a number, or they won't read as one thing",
+          "rules": "The final mechanic lets you discard a creature to pump another one, and the first tuning rule was that the creature's own power and toughness had to equal the bonus it grants. Nothing forced that mechanically. Without it the two abilities feel like unrelated things sharing a card. A repeated figure is the cheapest way to tell someone that two behaviours are the same behaviour seen twice.",
+          "flavor": "No two of them share a power and toughness, and every one of them grants exactly what it is."
+        }
+      ]
+    },
+    "es": {
+      "title": "Diseñando Gruul",
+      "dek": "La octava columna de parejas de colores: una pareja cuyo carácter entero consiste en no pensar las cosas, y precisamente por eso la que exige la mano más delicada para diseñar.",
+      "overview": "Rojo y verde están de acuerdo en lo que quieren —atacar, meterse en la cara del rival— y eso los hace fáciles de apuntar en una dirección y difíciles de dotar de variedad. Tras unas pocas jugadas obvias, el espacio se agota, y la ambientación empuja hacia la contundencia justo cuando el juego necesita matices. Rosewater recorre luego dos búsquedas de mecánica. La primera acabó en criaturas por dos motivos sin relación entre sí, y el equipo reencuadró eso como una virtud. La segunda pasó por una versión demasiado fuerte, una versión que rompía una política de rareza, y por fin una que sobrevivió solo tras una larga lista de reglas de ajuste sobre cómo tenían que cuadrar las dos mitades de la carta.",
+      "takeaway": "Lo que esta pareja quiere hacer y cómo necesita sentirse tiran en direcciones opuestas, así que casi toda decisión aquí consiste en encontrar matiz dentro de un carácter que no tiene ninguno.",
+      "lessons": [
+        {
+          "title": "Un propósito compartido compra dirección y cuesta amplitud",
+          "rules": "Ambos colores quieren lo mismo, lo que hace trivial empujarlos igual. También significa que, tras las pocas formas obvias de servir ese propósito, el espacio mecánico se seca antes que en parejas que discrepan. La alineación no es gratis: la propiedad que elimina tus discusiones sobre la dirección es la misma que acorta la lista de cosas que puedes construir.",
+          "flavor": "Fácil de apuntar. Difícil de seguir encontrando cosas que disparar."
+        },
+        {
+          "title": "Un carácter sin sutileza exige una mano sutil",
+          "rules": "El grupo se define por ser el que menos piensa las cosas, así que una lectura descendente te empuja hacia cartas contundentes, y las cartas contundentes no le dan nada que decidir al jugador. Él enuncia la tensión sin rodeos: lo que esta pareja quiere lograr y la sensación que necesita tener no van a la par. Cuando el rasgo definitorio de un personaje es la ausencia de una cualidad que tu obra necesita, esa cualidad hay que colarla por debajo del nivel en que el personaje opera.",
+          "flavor": "Diseñar para el gremio que no piensa exige más reflexión que cualquier otro."
+        },
+        {
+          "title": "El corazón y el foco son preguntas distintas",
+          "rules": "El corazón mecánico son las criaturas que atacan. El foco —cómo llega el mazo al punto en que eso funciona— es otra cosa por completo, porque esta pareja no es rápida y necesita sobrevivir a un juego temprano antes de que su tamaño importe. Responde a ambas por separado. Aquello con lo que ganas y aquello que te lleva al momento de ganar son problemas de diseño distintos, y el segundo es el que la gente olvida especificar.",
+          "flavor": "No va a llegar primero. Va a llegar con algo que no puedes parar."
+        },
+        {
+          "title": "El hueco lo decide lo que ya se llevaron los vecinos",
+          "rules": "El equipo que buscaba la identidad de este grupo empezó mirando a los otros dos grupos del mismo lanzamiento: uno quería claramente hechizos, otro quería claramente un plan lento de desgaste. Eso dejaba la agresión, y la decisión se tomó sin discutirla por sus méritos. Cuando varios componentes paralelos comparten un lanzamiento, el encargo del último lo escriben los demás, así que cartografía el terreno ocupado antes de proponer nada.",
+          "flavor": "Dos identidades reclamadas, y la tercera no necesitó discusión."
+        },
+        {
+          "title": "Solapa el traspaso para que el equipo saliente pueda actuar sobre las objeciones del entrante",
+          "rules": "Él nombra la etapa entre diseño y desarrollo en la que diseño aún posee el archivo pero desarrollo empieza a plantear los problemas que ve venir. El punto no es avisar a diseño, sino darle tiempo para rehacer la expansión él mismo. Captar una objeción de río abajo mientras el equipo de río arriba sostiene aún la pluma vale más que captarla con precisión después, porque solo uno de esos estados permite que el autor original lo arregle.",
+          "flavor": "Las preocupaciones de desarrollo llegan cuando diseño todavía puede hacer algo con ellas."
+        },
+        {
+          "title": "Deja que el rasgo del personaje fije el presupuesto de variedad",
+          "rules": "El equipo podría haber concedido varias recompensas distintas y eligió un único efecto unificado. Dos razones, y la primera es la interesante: un pago único y repetido hace que el grupo se sienta obcecado, que es lo que se supone que es. La segunda es que baja la complejidad. Cuando la identidad de un componente incluye la estrechez, la uniformidad deja de ser un apaño y pasa a ser caracterización.",
+          "flavor": "Un efecto, siempre el mismo, porque eso es lo que haría este grupo."
+        },
+        {
+          "title": "Una mecánica nueva revaloriza el fondo existente, así que ajusta la mezcla a su alrededor",
+          "rules": "Introducir la recompensa cambió lo que valían otras cartas: las criaturas de coste uno, normalmente flojas en este formato, se volvieron más fuertes porque ayudan a activar la mecánica. El equipo de diseño alteró entonces deliberadamente la composición de la expansión. Una mecánica no solo añade cartas: revaloriza todas las que interactúan con ella, y la respuesta correcta es un cambio de cantidades en otra parte.",
+          "flavor": "La mecánica no hizo mejores a las criaturas pequeñas. Las hizo dignas de jugarse."
+        },
+        {
+          "title": "Una habilidad concedida vale solo lo que valga en el momento en que llega",
+          "rules": "La mecánica posterior entrega la palabra clave de una criatura a lo que sea que potencie, a velocidad de instantáneo, en mitad del combate. Eso descarta de inmediato habilidades cuyo valor depende de estar disponibles antes: una palabra clave quedó excluida porque el momento en que la necesitarías es justo el que esta entrega vuelve inalcanzable. Antes de conceder una habilidad de forma condicionada, comprueba el momento que impone la condición, porque una habilidad entregada demasiado tarde es una carta en blanco.",
+          "flavor": "La habilidad estaba bien. Solo llegaba después del único turno en que habría importado."
+        },
+        {
+          "title": "Una mecánica puede fracasar por funcionar",
+          "rules": "El primer intento era eficiente matando las criaturas del rival, tanto que, en cuanto su dueño se adelantaba, el rival esencialmente no podía volver, y a menudo no podía ni desplegar criaturas. Nada estaba roto: hacía lo que fue diseñada para hacer, a un ritmo que eliminaba la partida. A su sucesora la mató otro tipo de éxito: convertía cada criatura en un potencial dos por uno, algo que una política vigente reserva a rarezas superiores.",
+          "flavor": "«La mecánica funcionaba bien. Demasiado bien, en realidad.»"
+        },
+        {
+          "title": "Haz que las dos mitades compartan un número, o no se leerán como una sola cosa",
+          "rules": "La mecánica final te deja descartar una criatura para potenciar a otra, y la primera regla de ajuste fue que la fuerza y resistencia de la criatura tenían que igualar el bonificador que concede. Nada lo exigía mecánicamente. Sin eso, las dos habilidades parecen cosas sin relación compartiendo una carta. Una cifra repetida es la forma más barata de decirle a alguien que dos comportamientos son el mismo comportamiento visto dos veces.",
+          "flavor": "No hay dos con la misma fuerza y resistencia, y cada una concede exactamente lo que es."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Concevoir Gruul",
+      "dek": "La huitième chronique sur les paires de couleurs : une paire dont tout le caractère consiste à ne pas réfléchir, et c'est précisément pour cela qu'elle demande la main la plus délicate.",
+      "overview": "Le rouge et le vert s'accordent sur ce qu'ils veulent — attaquer, coller à l'adversaire — ce qui les rend faciles à orienter et difficiles à diversifier. Après quelques coups évidents, l'espace s'assèche, et l'ambiance pousse vers la brutalité au moment précis où le jeu réclame de la nuance. Rosewater déroule ensuite deux recherches de mécanique. La première a atterri sur les créatures pour deux raisons sans rapport, et l'équipe a rebaptisé cela une qualité. La seconde est passée par une version trop forte, une version qui violait une politique de rareté, et enfin une qui n'a survécu qu'après une longue liste de règles de réglage sur l'alignement des deux moitiés de la carte.",
+      "takeaway": "Ce que cette paire veut faire et ce qu'elle doit donner à ressentir tirent en sens contraires : presque chaque décision consiste ici à trouver de la nuance dans un caractère qui n'en a aucune.",
+      "lessons": [
+        {
+          "title": "Un but commun achète la direction et coûte l'étendue",
+          "rules": "Les deux couleurs veulent la même chose, ce qui rend trivial de les pousser du même côté. Cela signifie aussi qu'après les quelques manières évidentes de servir ce but, l'espace mécanique s'assèche plus vite que pour les paires en désaccord. L'alignement n'est pas gratuit : la propriété qui supprime vos débats sur la direction est celle qui raccourcit la liste de ce que vous pouvez bâtir.",
+          "flavor": "Facile à viser. Difficile de continuer à trouver quoi tirer."
+        },
+        {
+          "title": "Un caractère sans finesse exige une main fine",
+          "rules": "Le groupe se définit par le fait de réfléchir le moins, si bien qu'une lecture descendante pousse vers des cartes brutales — et les cartes brutales ne laissent rien à décider. Il énonce la tension : ce que cette paire veut accomplir et ce qu'elle doit faire ressentir ne vont pas ensemble. Quand le trait déterminant d'un personnage est l'absence d'une qualité dont votre travail a besoin, cette qualité doit être introduite sous le niveau où le personnage opère.",
+          "flavor": "Concevoir pour la guilde qui ne réfléchit pas demande plus de réflexion que toutes les autres."
+        },
+        {
+          "title": "Le cœur et le point d'appui sont deux questions distinctes",
+          "rules": "Le cœur mécanique, ce sont les créatures qui attaquent. Le point d'appui — comment le deck parvient au moment où cela marche — est tout autre chose, car cette paire n'est pas rapide et doit survivre à un début de partie avant que sa taille compte. Répondez aux deux séparément. Ce avec quoi vous gagnez et ce qui vous porte jusqu'au moment de gagner sont deux problèmes distincts, et le second est celui qu'on oublie de spécifier.",
+          "flavor": "Elle n'arrivera pas la première. Elle arrivera avec quelque chose d'inarrêtable."
+        },
+        {
+          "title": "L'emplacement est décidé par ce que les voisins ont déjà pris",
+          "rules": "L'équipe cherchant l'identité de ce groupe a commencé par regarder les deux autres groupes de la même sortie : l'un voulait clairement les sorts, l'autre un plan d'usure lent. Restait l'agression, et la décision s'est prise sans en débattre sur le fond. Quand plusieurs composants parallèles partagent une sortie, le cahier des charges du dernier est écrit par les autres : cartographiez le terrain pris avant de proposer quoi que ce soit.",
+          "flavor": "Deux identités revendiquées, et la troisième n'a pas eu besoin de discussion."
+        },
+        {
+          "title": "Chevauchez le passage de relais pour que l'équipe sortante puisse traiter les objections de l'entrante",
+          "rules": "Il nomme l'étape entre conception et développement où la conception détient encore le fichier tandis que le développement commence à soulever les problèmes qu'il voit venir. Le but n'est pas d'avertir la conception, mais de lui laisser le temps de retravailler l'extension elle-même. Attraper une objection d'aval pendant que l'amont tient encore la plume vaut mieux que l'attraper justement plus tard, car un seul de ces états permet à l'auteur d'origine de corriger.",
+          "flavor": "Les inquiétudes du développement arrivent quand la conception peut encore y faire quelque chose."
+        },
+        {
+          "title": "Laissez le trait du personnage fixer le budget de variété",
+          "rules": "L'équipe aurait pu accorder plusieurs récompenses différentes et a choisi un effet unique. Deux raisons, et la première est l'intéressante : un gain unique et répété fait sentir le groupe comme obstiné, ce qu'il est censé être. La seconde est que cela réduit la complexité. Quand l'identité d'un composant comprend l'étroitesse, l'uniformité cesse d'être un compromis et devient une caractérisation.",
+          "flavor": "Un effet, à chaque fois, parce que c'est ce que ce groupe ferait."
+        },
+        {
+          "title": "Une mécanique nouvelle revalorise le stock existant : ajustez le mélange autour",
+          "rules": "Introduire la récompense a changé la valeur d'autres cartes : les créatures à un mana, normalement faibles dans ce format, sont devenues plus fortes parce qu'elles aident à déclencher la mécanique. L'équipe a alors modifié délibérément la composition de l'extension. Une mécanique n'ajoute pas seulement des cartes : elle revalorise tout ce qui interagit avec elle, et la bonne réponse est un changement de quantités ailleurs.",
+          "flavor": "La mécanique n'a pas rendu les petites créatures meilleures. Elle les a rendues jouables."
+        },
+        {
+          "title": "Une capacité accordée ne vaut que ce qu'elle vaut à l'instant où elle arrive",
+          "rules": "La mécanique tardive transmet le mot-clé d'une créature à celle qu'elle renforce, à vitesse d'éphémère, en plein combat. Cela exclut d'emblée les capacités dont la valeur tient à être disponibles plus tôt : un mot-clé a été écarté parce que le moment où l'on en aurait besoin est précisément celui que cette livraison rend inaccessible. Avant d'accorder une capacité sous condition, vérifiez le tempo qu'impose la condition, car une capacité livrée trop tard est une carte blanche.",
+          "flavor": "La capacité allait bien. Elle arrivait simplement après le seul tour où elle aurait compté."
+        },
+        {
+          "title": "Une mécanique peut échouer en fonctionnant",
+          "rules": "La première tentative était efficace pour tuer les créatures adverses — au point qu'une fois son détenteur en avance, l'adversaire ne pouvait pratiquement plus revenir, ni souvent déployer de créatures. Rien n'était cassé : elle faisait ce pour quoi elle était conçue, à un rythme qui supprimait la partie. Sa remplaçante a été tuée par un autre genre de réussite : elle transformait chaque créature en un potentiel deux-pour-un, que la politique en vigueur réserve aux raretés supérieures.",
+          "flavor": "« La mécanique marchait bien. Un peu trop bien, à vrai dire. »"
+        },
+        {
+          "title": "Faites partager un nombre aux deux moitiés, sinon elles ne se liront pas comme une seule chose",
+          "rules": "La mécanique finale permet de défausser une créature pour renforcer une autre, et la première règle de réglage fut que la force et l'endurance de la créature devaient égaler le bonus accordé. Rien ne l'imposait mécaniquement. Sans cela, les deux capacités semblent deux choses sans rapport partageant une carte. Un chiffre répété est le moyen le moins cher de dire que deux comportements sont le même comportement vu deux fois.",
+          "flavor": "Aucune n'a la même force et endurance qu'une autre, et chacune accorde exactement ce qu'elle est."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Desenhando Gruul",
+      "dek": "A oitava coluna sobre pares de cores: um par cujo caráter inteiro é não pensar nas coisas, e justamente por isso o que exige a mão mais delicada para desenhar.",
+      "overview": "Vermelho e verde concordam no que querem — atacar, colar na cara do oponente — e isso os torna fáceis de apontar numa direção e difíceis de dotar de variedade. Depois de algumas jogadas óbvias o espaço acaba, e a ambientação empurra para a contundência exatamente quando o jogo precisa de nuance. Rosewater então percorre duas buscas por mecânica. A primeira acabou nas criaturas por dois motivos sem relação entre si, e a equipe reenquadrou isso como virtude. A segunda passou por uma versão forte demais, uma versão que quebrava uma política de raridade, e enfim uma que só sobreviveu depois de uma longa lista de regras de ajuste sobre como as duas metades da carta tinham de se alinhar.",
+      "takeaway": "O que este par quer fazer e como ele precisa soar puxam em sentidos opostos, então quase toda decisão aqui é sobre achar nuance dentro de um caráter que não tem nenhuma.",
+      "lessons": [
+        {
+          "title": "Um propósito compartilhado compra direção e custa amplitude",
+          "rules": "As duas cores querem a mesma coisa, o que torna trivial empurrá-las do mesmo jeito. Também significa que, depois das poucas maneiras óbvias de servir esse propósito, o espaço mecânico seca mais rápido do que em pares que discordam. Alinhamento não é de graça: a propriedade que elimina suas discussões sobre direção é a mesma que encurta a lista do que você pode construir.",
+          "flavor": "Fácil de mirar. Difícil de continuar achando o que atirar."
+        },
+        {
+          "title": "Um caráter sem sutileza exige uma mão sutil",
+          "rules": "O grupo se define por ser o que menos pensa nas coisas, então uma leitura de cima para baixo empurra para cartas contundentes — e cartas contundentes não dão ao jogador nada a decidir. Ele enuncia a tensão sem rodeios: o que este par quer realizar e a sensação de que ele precisa não andam juntos. Quando o traço definidor de um personagem é a ausência de uma qualidade de que o seu trabalho precisa, essa qualidade tem de ser contrabandeada abaixo do nível em que o personagem opera.",
+          "flavor": "Desenhar para a guilda que não pensa exige mais reflexão do que qualquer outra."
+        },
+        {
+          "title": "O coração e o foco são perguntas diferentes",
+          "rules": "O coração mecânico são as criaturas que atacam. O foco — como o baralho chega ao ponto em que isso funciona — é outra coisa, porque este par não é rápido e precisa sobreviver a um começo de partida antes de o tamanho dele importar. Responda às duas separadamente. Aquilo com que você vence e aquilo que te leva ao momento de vencer são problemas de design distintos, e o segundo é o que as pessoas esquecem de especificar.",
+          "flavor": "Ele não vai chegar primeiro. Vai chegar com algo que você não consegue parar."
+        },
+        {
+          "title": "A vaga é decidida pelo que os vizinhos já pegaram",
+          "rules": "A equipe que buscava a identidade deste grupo começou olhando os outros dois grupos do mesmo lançamento: um claramente queria mágicas, o outro claramente queria um plano lento de desgaste. Sobrou a agressão, e a decisão foi tomada sem discussão de mérito. Quando vários componentes paralelos dividem um lançamento, o briefing do último é escrito pelos outros: mapeie o terreno ocupado antes de propor qualquer coisa.",
+          "flavor": "Duas identidades reivindicadas, e a terceira não precisou de discussão."
+        },
+        {
+          "title": "Sobreponha a passagem para que a equipe que sai possa agir sobre as objeções da que entra",
+          "rules": "Ele nomeia a etapa entre design e desenvolvimento em que o design ainda é dono do arquivo mas o desenvolvimento começa a levantar os problemas que enxerga vindo. O ponto não é avisar o design; é dar ao design tempo de refazer a coleção ele mesmo. Pegar uma objeção rio abaixo enquanto a equipe rio acima ainda segura a caneta vale mais do que pegá-la com precisão depois, porque só um desses estados deixa o autor original consertar.",
+          "flavor": "As preocupações do desenvolvimento chegam enquanto o design ainda pode fazer algo a respeito."
+        },
+        {
+          "title": "Deixe o traço do personagem fixar o orçamento de variedade",
+          "rules": "A equipe poderia ter concedido várias recompensas diferentes e escolheu um único efeito unificado. Dois motivos, e o primeiro é o interessante: um pagamento único e repetido faz o grupo soar obstinado, que é o que ele deve ser. O segundo é que baixa a complexidade. Quando a identidade de um componente inclui a estreiteza, a uniformidade deixa de ser concessão e vira caracterização.",
+          "flavor": "Um efeito, sempre o mesmo, porque é isso que este grupo faria."
+        },
+        {
+          "title": "Uma mecânica nova reprecifica o acervo existente, então ajuste a mistura ao redor",
+          "rules": "Introduzir a recompensa mudou quanto outras cartas valiam: criaturas de custo um, normalmente fracas neste formato, ficaram mais fortes porque ajudam a ligar a mecânica. A equipe de design então alterou de propósito a composição da coleção. Uma mecânica não só acrescenta cartas: ela revaloriza tudo que interage com ela, e a resposta certa é uma mudança de quantidades em outro lugar.",
+          "flavor": "A mecânica não deixou as criaturas pequenas melhores. Deixou-as dignas de jogar."
+        },
+        {
+          "title": "Uma habilidade concedida vale apenas o que valer no instante em que chega",
+          "rules": "A mecânica posterior entrega a palavra-chave de uma criatura a quem quer que ela reforce, em velocidade de instantâneo, no meio do combate. Isso descarta de saída habilidades cujo valor depende de estarem disponíveis antes: uma palavra-chave foi excluída porque o momento em que você precisaria dela é exatamente o que essa entrega torna inalcançável. Antes de conceder uma habilidade condicionalmente, confira o tempo que a condição impõe, porque uma habilidade entregue tarde demais é uma carta em branco.",
+          "flavor": "A habilidade estava boa. Só chegava depois do único turno em que teria importado."
+        },
+        {
+          "title": "Uma mecânica pode fracassar por funcionar",
+          "rules": "A primeira tentativa era eficiente em matar as criaturas do oponente — tão eficiente que, quando o dono dela saía na frente, o oponente essencialmente não voltava, e muitas vezes nem conseguia colocar criaturas. Nada estava quebrado: fazia o que fora desenhada para fazer, num ritmo que removia a partida. A sucessora foi morta por outro tipo de sucesso: transformava cada criatura num potencial dois por um, algo que uma política vigente reserva a raridades mais altas.",
+          "flavor": "«A mecânica funcionava bem. Bem demais, na verdade.»"
+        },
+        {
+          "title": "Faça as duas metades compartilharem um número, ou elas não vão ler como uma coisa só",
+          "rules": "A mecânica final permite descartar uma criatura para reforçar outra, e a primeira regra de ajuste foi que o poder e a resistência da criatura tinham de igualar o bônus que ela concede. Nada exigia isso mecanicamente. Sem isso, as duas habilidades parecem coisas sem relação dividindo uma carta. Um número repetido é a forma mais barata de dizer a alguém que dois comportamentos são o mesmo comportamento visto duas vezes.",
+          "flavor": "Não há duas com o mesmo poder e resistência, e cada uma concede exatamente o que é."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "设计古鲁",
+      "dek": "双色搭配专栏的第八篇：一个整个性格就是「不把事情想清楚」的搭配，而正因如此，它需要最细腻的手来设计。",
+      "overview": "红与绿在「想要什么」上意见一致——进攻，怼到对手脸上——这让它们很容易被指向同一个方向，也很难被赋予多样性。做完那几件显而易见的事之后，空间就见底了；而调性把你推向直白粗暴，偏偏对局在这时最需要层次。随后罗斯瓦特讲了两次机制搜索。第一次因为两个毫不相干的理由落在了生物身上，而团队把这件事重新表述成了一项优点。第二次先后经历了一个太强的版本、一个违反稀有度政策的版本，最后那个能活下来的版本，是在一长串关于「牌的两半必须如何对齐」的调校规则之后才成立的。",
+      "takeaway": "这一对想做的事和它需要给人的感觉互相拉扯，所以这里几乎每一个决定，都是在一个毫无层次的性格里去找层次。",
+      "lessons": [
+        {
+          "title": "共同的目的买来方向，代价是宽度",
+          "rules": "两个颜色想要的是同一样东西，这让「把它们往同一个方向推」变得毫不费力。这同时也意味着：在为这个目的服务的少数几种显而易见的做法之后，机制空间会比那些彼此不合的搭配更快见底。一致性并不免费：那条替你省掉方向之争的性质，同时也是那条缩短「你能造什么」清单的性质。",
+          "flavor": "很好瞄准。很难持续找到可打的东西。"
+        },
+        {
+          "title": "一个不懂细腻的性格，需要一双细腻的手",
+          "rules": "这个群体的定义就是「最不把事情想清楚」，所以自上而下的读法会把你推向直白粗暴的牌——而直白粗暴的牌不给玩家任何可决定的东西。他把这份张力直说了出来：这一对想要达成的事，和它需要给人的感觉，并不同步。当一个角色的定义性特征，恰恰是你的作品所需要的某种品质的缺席时，这种品质就必须被偷偷放到这个角色运作的层面之下。",
+          "flavor": "给「不动脑子的那个公会」做设计，要动的脑子比其余任何一个都多。"
+        },
+        {
+          "title": "内核和着力点是两个不同的问题",
+          "rules": "机制内核是进攻的生物。着力点——牌组究竟怎样走到那一刻——则完全是另一回事，因为这一对并不快，必须先熬过前期，它的体型才开始有意义。这两个问题要分开回答。你用来取胜的东西，和把你带到取胜时刻的东西，是两个不同的设计问题，而人们忘记去规定的正是后者。",
+          "flavor": "它不会最先到。它会带着你拦不住的东西到。"
+        },
+        {
+          "title": "这个位置由邻居们已经拿走的东西决定",
+          "rules": "负责给这个群体找身份的团队，一上来先看的是同一次发售里的另外两个群体：一个显然想要咒语，一个显然想要缓慢的消耗路线。剩下的就是进攻，而这个决定并不是靠比较优劣做出来的。当若干并行的部件共处于同一次发售时，最后一个的任务书是由其余几个写的——所以在提任何方案之前，先把已被占据的地盘画出来。",
+          "flavor": "两个身份已被认领，第三个根本不需要讨论。"
+        },
+        {
+          "title": "让交接期重叠，好让离场的团队能对接手方的异议动手",
+          "rules": "他给设计与开发之间的那个阶段起了名字：设计仍然握着文件，而开发已经开始把它预见到的问题提出来。要点不是给设计打招呼，而是给设计时间自己去改这个系列。在上游团队还握着笔的时候接住下游的异议，比事后再精准地接住它更值钱——因为只有前一种状态才让原作者有机会去修。",
+          "flavor": "开发的顾虑在「设计还能做点什么」的时候到来。"
+        },
+        {
+          "title": "让角色的特质来定多样性的预算",
+          "rules": "团队本可以给出好几种不同的奖励，最后选了一个统一的效果。理由有两条，第一条才是有意思的那条：单一而重复的回报让这个群体显得一根筋，而这正是它应该是的样子。第二条是它降低了复杂度。当一个部件的身份里本就包含「狭窄」时，统一就不再是妥协，而成了人物刻画。",
+          "flavor": "永远是同一个效果，因为这个群体就会这么干。"
+        },
+        {
+          "title": "一个新机制会给既有牌池重新定价，所以要调整它周围的配比",
+          "rules": "引入这项奖励改变了其他牌的价值：一费生物在这个赛制里通常偏弱，如今却变强了，因为它们有助于把机制打开。设计团队随后有意改动了整个系列的构成。一个机制不只是增加了一些牌，它会给所有与它互动的牌重新估值，而正确的回应是在别处改动数量。",
+          "flavor": "这个机制没有让小生物变强。它让小生物变得值得放进牌组。"
+        },
+        {
+          "title": "一项被授予的异能，只值它抵达那一刻所值的价",
+          "rules": "后来那个机制会在战斗中以瞬间的速度，把一个生物的关键字交给它所强化的对象。这一下就排除了那些「价值取决于更早就已具备」的异能：有一个关键字被排除，正是因为你会需要用到它的那个时刻，恰好被这种交付方式挡在了外面。在有条件地授予一项异能之前，先核对这个条件所强制的时机，因为一项来得太晚的异能就是一张白纸。",
+          "flavor": "这项异能本身没问题。它只是在唯一会有用的那个回合之后才到。"
+        },
+        {
+          "title": "一个机制可以因为「有效」而失败",
+          "rules": "第一次尝试在杀掉对手生物这件事上非常高效——高效到只要它的主人一领先，对手基本就回不来了，而且常常连生物都放不下去。没有任何东西是坏的：它做的正是它被设计出来要做的事，只是速度快到把对局本身抹掉了。它的继任者死于另一种成功：它把每个生物都变成了潜在的一换二，而一条现行政策把一换二留给了更高的稀有度。",
+          "flavor": "「这个机制运转良好。实际上，好得有点过头。」"
+        },
+        {
+          "title": "让两半共用同一个数字，否则它们不会被读成同一件事",
+          "rules": "最终的机制允许你弃掉一个生物去强化另一个，而第一条调校规则是：这个生物自身的力量与防御力，必须等于它所给出的加成。机制上没有任何东西要求这一点。少了它，两个异能就像是两件无关的东西共用了一张牌。一个重复出现的数字，是告诉别人「这两种行为其实是同一种行为的两次现身」的最便宜的办法。",
+          "flavor": "它们当中没有两张共用同一组力量与防御力，而每一张给出的加成都恰好就是它自己。"
+        }
+      ]
+    }
+  }
+}
