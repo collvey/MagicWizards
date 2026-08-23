@@ -1,0 +1,268 @@
+{
+  "id": "untold-tales-2016-02-22",
+  "slug": "untold-tales-2016-02-22",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-02-22",
+  "series": null,
+  "tags": ["history", "anecdotes", "development", "hiring", "playtesting"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/untold-tales-2016-02-22",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T21:20:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Untold Tales",
+      "dek": "\"Mark's going to make suggestions. William's not going to talk.\" Best. Meeting. Ever.",
+      "overview": "Stories Rosewater had never told: a job interview conducted as a game of Magic, a set fixed by silencing one person, and a card forced in for a video game that was cancelled the next day.",
+      "takeaway": "\"Okay,\" said Joel, \"here's what we're going to do. The four of you are going to have a development meeting. Mark's going to make suggestions. William's not going to talk.\"",
+      "lessons": [
+        {
+          "title": "Interview by making them do the job, and ask questions while they do it",
+          "rules": "The strongest evidence of competence is watching the work happen. Have the candidate perform the actual task, then interrogate their choices mid-flow — you learn whether they can hold the work and explain it at once, which is most of what the job is.",
+          "flavor": "“Joel felt that the best way to tell if I had what it took to work in Magic R&D was for him to play me in a game of Magic… As the game dragged on, Joel began asking me interview questions. Why did I include a particular card, and what were my thoughts on its design and development? Joel knew that focusing on answering the questions would make it harder for me to focus on the game.”"
+        },
+        {
+          "title": "Bring the sample that shows judgement, not the one with the highest peak",
+          "rules": "Your most impressive work and your most representative work are rarely the same piece. When you're being assessed, pick the one that displays the range of decisions you can make — an inconsistent thing that occasionally wins spectacularly tells the assessor nothing about you.",
+          "flavor": "“My best deck was a blue-green weenie deck that had the ability to win on turn one… But that deck was inconsistent, and I didn't feel it showed off anything about my knowledge of Magic.” He chose Edgar instead: “it was probably my second-best deck competitively, and I felt it was a good deck to show off because it used a lot of cards in interesting combinations.”"
+        },
+        {
+          "title": "Staff someone whose bias runs against the default, and let the others hold them",
+          "rules": "A team that only contains cautious people will produce cautious output and never notice. Deliberately include someone pulling the other way, and be explicit that the rest exist to check them. The value is in the question always getting asked, not in that person being right.",
+          "flavor": "“I ended up being the yang to William's yin. Where William was very conservative in his costing, I was very aggressive… I understood I was a bit reckless, but I also knew the other three would keep me in check, especially William. I liked to think of myself as a force that made sure the team always considered tweaking the power level upward.”"
+        },
+        {
+          "title": "When the output is systematically off, change who talks",
+          "rules": "If a group keeps landing in the same wrong place, the problem is usually the balance of voices rather than any individual judgement. Adjusting who speaks and who doesn't, for one session, is a faster and more precise correction than arguing item by item.",
+          "flavor": "Visions was testing weak, and development was almost over. “Joel called the Visions development team to a meeting and sat the four of us down. ‘Okay,' said Joel, ‘here's what we're going to do. The four of you are going to have a development meeting. Mark's going to make suggestions. William's not going to talk.'” Visions ended up above average in power and reshaped the formats."
+        },
+        {
+          "title": "Confirm the partner's commitment before you pay an irreversible cost",
+          "rules": "Accommodating someone else's fixed requirements distorts your work permanently, while their project can evaporate at any time. The asymmetry is the whole risk: once your file locks, the compromise is printed forever whether or not the thing it was for exists.",
+          "flavor": "A video game wanted specific named cards in Tempest, names included. “There weren't really any bayous on Rath, but that was the name, so we had to work it in… green wasn't supposed to have fliers, but okay, we made an exception.” Then: “literally the day after the file was sent off, the day after we had any ability to change the file, we heard the video game had been canceled.”"
+        },
+        {
+          "title": "Removing the normal limits tells you about the effect, not the item",
+          "rules": "Stress-testing by lifting a structural constraint is a real technique — it shows you what an effect does when concentrated. But the result describes a situation your actual rules forbid, so it can't be evidence about whether the thing is safe under those rules.",
+          "flavor": "William Jockusch's method was “to forgo the four-of restriction… if you want to see what happens when a certain effect is amplified, you could see it in a single card if you allowed as many copies as the deck builder wanted.” His Island / Psychic Venom / Twiddle deck killed people. Psychic Venom was then cut from Seventh Edition for “power concerns” — while Counterspell and Opposition stayed."
+        },
+        {
+          "title": "An unopposed claim wins on its own, regardless of merit",
+          "rules": "Decisions about things nobody has strong feelings for are settled by whoever bothers to make an argument. That's an efficient default most of the time and produces obviously wrong outcomes some of the time — so notice when a call went through unchallenged rather than agreed.",
+          "flavor": "“William was convinced that the only answer to the threat of this deck was to remove Psychic Venom from the set. I don't think anyone cared enough about Psychic Venom to argue with William, so officially for ‘power reasons' it was removed—forcing blue players to have to settle for Counterspell, Opposition, and Force Spike.”"
+        },
+        {
+          "title": "To teach a system, send one part of it through all the others",
+          "rules": "An explanation that steps through the components in order teaches nobody. Give the audience a protagonist who fully embodies one piece, then force them out to encounter each of the rest — the contrasts do the teaching, and the journey supplies a reason to keep watching.",
+          "flavor": "The unmade Magic miniseries: “My protagonist came from a white-aligned village and was well steeped in the white-aligned philosophy of magic and style of dueling. During the course of the miniseries, he was forced to venture out and learn about all the colors, completing quests along the way… It was my attempt to let the audience get a really good understanding of what each of the five colors represented.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Historias no contadas",
+      "dek": "«Mark va a hacer sugerencias. William no va a hablar.» La mejor reunión de la historia.",
+      "overview": "Historias que Rosewater nunca había contado: una entrevista de trabajo hecha como partida de Magic, un bloque arreglado callando a una persona, y una carta forzada por un videojuego cancelado al día siguiente.",
+      "takeaway": "«Vale», dijo Joel, «esto es lo que vamos a hacer. Los cuatro vais a tener una reunión de desarrollo. Mark va a hacer sugerencias. William no va a hablar.»",
+      "lessons": [
+        {
+          "title": "Entrevista haciéndoles hacer el trabajo, y pregunta mientras lo hacen",
+          "rules": "La prueba más fuerte de competencia es ver el trabajo ocurrir. Haz que la persona ejecute la tarea real y luego interroga sus decisiones sobre la marcha: así sabes si puede sostener el trabajo y explicarlo a la vez, que es la mayor parte del puesto.",
+          "flavor": "«Joel creía que la mejor forma de saber si yo valía para I+D de Magic era jugar una partida conmigo… Según avanzaba la partida, Joel empezó a hacerme preguntas de entrevista. ¿Por qué incluí cierta carta y qué pensaba de su diseño y desarrollo? Joel sabía que concentrarme en responder me dificultaría concentrarme en la partida.»"
+        },
+        {
+          "title": "Lleva la muestra que enseña criterio, no la de pico más alto",
+          "rules": "Tu trabajo más impresionante y tu trabajo más representativo casi nunca son la misma pieza. Cuando te evalúan, elige el que muestre el rango de decisiones que sabes tomar: algo inconsistente que a veces gana de forma espectacular no le dice nada de ti a quien evalúa.",
+          "flavor": "«Mi mejor mazo era uno azul-verde de criaturas pequeñas capaz de ganar en el turno uno… Pero era inconsistente y no sentí que mostrara nada sobre mi conocimiento de Magic.» Eligió a Edgar: «era probablemente mi segundo mejor mazo competitivamente, y me pareció bueno para lucirse porque usaba muchas cartas en combinaciones interesantes.»"
+        },
+        {
+          "title": "Ficha a alguien cuyo sesgo vaya contra el defecto, y deja que el resto lo sujete",
+          "rules": "Un equipo formado solo por gente prudente producirá resultados prudentes y no se dará cuenta. Incluye a propósito a alguien que tire hacia el otro lado y di explícitamente que los demás están para contenerlo. El valor está en que la pregunta siempre se haga, no en que esa persona acierte.",
+          "flavor": "«Acabé siendo el yang del yin de William. Donde William era muy conservador al costear, yo era muy agresivo… Entendía que era algo temerario, pero también sabía que los otros tres me frenarían, sobre todo William. Me gustaba verme como una fuerza que aseguraba que el equipo siempre considerara subir el nivel de poder.»"
+        },
+        {
+          "title": "Cuando el resultado se desvía siempre igual, cambia quién habla",
+          "rules": "Si un grupo aterriza una y otra vez en el mismo sitio equivocado, el problema suele ser el equilibrio de voces y no el juicio de nadie. Ajustar quién habla y quién no, durante una sesión, es una corrección más rápida y precisa que discutir pieza por pieza.",
+          "flavor": "Visions salía débil en pruebas y el desarrollo casi había acabado. «Joel convocó al equipo de desarrollo de Visions y nos sentó a los cuatro. “Vale”, dijo Joel, “esto es lo que vamos a hacer. Los cuatro vais a tener una reunión de desarrollo. Mark va a hacer sugerencias. William no va a hablar.”» Visions acabó por encima de la media de poder."
+        },
+        {
+          "title": "Confirma el compromiso del socio antes de pagar un coste irreversible",
+          "rules": "Acomodar los requisitos fijos de otro deforma tu trabajo de forma permanente, mientras que el proyecto de ese otro puede evaporarse en cualquier momento. La asimetría es todo el riesgo: cuando tu archivo se cierra, el apaño queda impreso para siempre exista o no aquello para lo que se hizo.",
+          "flavor": "Un videojuego quería cartas concretas en Tempest, nombres incluidos. «No había pantanos en Rath, pero ese era el nombre, así que tuvimos que encajarlo… el verde no debía tener voladores, pero bueno, hicimos una excepción.» Y entonces: «literalmente al día siguiente de enviar el archivo, cuando ya no podíamos cambiar nada, supimos que el videojuego se había cancelado.»"
+        },
+        {
+          "title": "Quitar los límites normales te informa del efecto, no de la pieza",
+          "rules": "Poner algo a prueba levantando una restricción estructural es una técnica real: enseña qué hace un efecto concentrado. Pero el resultado describe una situación que tus propias reglas prohíben, así que no puede servir de prueba sobre si la pieza es segura bajo esas reglas.",
+          "flavor": "El método de William Jockusch era «renunciar al límite de cuatro copias… si quieres ver qué pasa cuando cierto efecto se amplifica, puedes verlo en una sola carta si permites tantas copias como quiera el constructor». Su mazo de Isla / Psychic Venom / Twiddle mataba. Psychic Venom fue cortada de Seventh Edition por «cuestiones de poder», mientras Counterspell y Opposition se quedaron."
+        },
+        {
+          "title": "Una afirmación sin oposición gana sola, con independencia de su mérito",
+          "rules": "Las decisiones sobre cosas que a nadie le importan mucho las zanja quien se molesta en argumentar. Eso es un valor por defecto eficiente casi siempre, y produce resultados obviamente erróneos de vez en cuando: fíjate en cuándo una decisión pasó sin ser rebatida en lugar de acordada.",
+          "flavor": "«William estaba convencido de que la única respuesta a la amenaza de ese mazo era quitar Psychic Venom del bloque. No creo que a nadie le importara lo bastante Psychic Venom como para discutir con William, así que oficialmente por “razones de poder” se eliminó, obligando a los jugadores azules a conformarse con Counterspell, Opposition y Force Spike.»"
+        },
+        {
+          "title": "Para enseñar un sistema, manda a una de sus partes a recorrer todas las demás",
+          "rules": "Una explicación que recorre los componentes en orden no enseña a nadie. Dale al público un protagonista que encarne por completo una pieza y luego oblígale a salir a encontrarse con cada una de las demás: los contrastes enseñan, y el viaje da motivos para seguir mirando.",
+          "flavor": "La miniserie nunca hecha: «Mi protagonista venía de una aldea alineada con el blanco y estaba bien empapado de la filosofía blanca de la magia y su estilo de duelo. A lo largo de la miniserie se veía obligado a salir y aprender sobre todos los colores, completando misiones… Era mi intento de que el público entendiera de verdad qué representaba cada uno de los cinco colores.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Histoires jamais racontées",
+      "dek": "« Mark va faire des suggestions. William ne va pas parler. » La meilleure réunion de tous les temps.",
+      "overview": "Des histoires que Rosewater n'avait jamais racontées : un entretien d'embauche mené comme une partie de Magic, une extension réparée en faisant taire une personne, et une carte imposée par un jeu vidéo annulé le lendemain.",
+      "takeaway": "« Bon, dit Joel, voilà ce qu'on va faire. Vous quatre allez tenir une réunion de développement. Mark va faire des suggestions. William ne va pas parler. »",
+      "lessons": [
+        {
+          "title": "Faites passer l'entretien en leur faisant faire le travail, et interrogez-les pendant",
+          "rules": "La meilleure preuve de compétence, c'est de voir le travail se faire. Faites exécuter la tâche réelle, puis interrogez les choix en pleine action : vous saurez si la personne peut tenir le travail et l'expliquer en même temps, ce qui constitue l'essentiel du poste.",
+          "flavor": "« Joel estimait que le meilleur moyen de savoir si j'avais l'étoffe de la R&D de Magic était de jouer une partie contre moi… La partie s'éternisant, Joel s'est mis à poser ses questions d'entretien. Pourquoi telle carte, et que pensais-je de sa conception et de son développement ? Joel savait que répondre me rendrait la partie plus difficile. »"
+        },
+        {
+          "title": "Apportez l'échantillon qui montre le jugement, pas celui au pic le plus haut",
+          "rules": "Votre travail le plus impressionnant et le plus représentatif sont rarement le même. Quand on vous évalue, choisissez celui qui montre l'éventail de vos décisions : une chose irrégulière qui gagne parfois spectaculairement n'apprend rien sur vous à l'évaluateur.",
+          "flavor": "« Mon meilleur deck était un bleu-vert de petites créatures capable de gagner au tour un… Mais il était irrégulier, et je ne trouvais pas qu'il montre quoi que ce soit de ma connaissance de Magic. » Il a pris Edgar : « c'était sans doute mon deuxième meilleur deck, et il me semblait bon à montrer car il utilisait beaucoup de cartes en combinaisons intéressantes. »"
+        },
+        {
+          "title": "Recrutez quelqu'un dont le biais s'oppose au défaut, et laissez les autres le tenir",
+          "rules": "Une équipe composée uniquement de prudents produira du prudent sans s'en apercevoir. Incluez délibérément quelqu'un qui tire dans l'autre sens, et dites que les autres sont là pour le brider. La valeur tient à ce que la question soit toujours posée, non à ce qu'il ait raison.",
+          "flavor": "« J'étais le yang du yin de William. Là où William était très conservateur dans le coût, j'étais très agressif… Je savais que j'étais un peu imprudent, mais je savais aussi que les trois autres me tiendraient, William surtout. J'aimais me voir comme la force qui garantissait qu'on envisage toujours de monter la puissance. »"
+        },
+        {
+          "title": "Quand le résultat dévie toujours pareil, changez qui parle",
+          "rules": "Si un groupe atterrit sans cesse au même mauvais endroit, le problème vient d'ordinaire de l'équilibre des voix, non du jugement de quelqu'un. Ajuster qui parle et qui se tait, le temps d'une séance, corrige plus vite et plus précisément que de discuter pièce par pièce.",
+          "flavor": "Visions testait faible et le développement touchait à sa fin. « Joel a convoqué l'équipe et nous a assis tous les quatre. “Bon, dit Joel, voilà ce qu'on va faire. Vous quatre allez tenir une réunion de développement. Mark va faire des suggestions. William ne va pas parler.” » Visions s'est retrouvée au-dessus de la moyenne en puissance."
+        },
+        {
+          "title": "Confirmez l'engagement du partenaire avant de payer un coût irréversible",
+          "rules": "Accommoder les exigences figées d'un autre déforme votre travail définitivement, alors que son projet peut s'évaporer à tout moment. L'asymétrie est tout le risque : une fois votre fichier verrouillé, le compromis est imprimé pour toujours, que la chose visée existe ou non.",
+          "flavor": "Un jeu vidéo voulait des cartes précises dans Tempest, noms compris. « Il n'y avait pas de bayous sur Rath, mais c'était le nom, alors il a fallu l'intégrer… le vert n'était pas censé avoir de créatures volantes, mais soit, nous avons fait une exception. » Puis : « littéralement le lendemain de l'envoi du fichier, on apprenait que le jeu était annulé. »"
+        },
+        {
+          "title": "Retirer les limites habituelles renseigne sur l'effet, pas sur l'objet",
+          "rules": "Tester en levant une contrainte structurelle est une vraie technique : cela montre ce que fait un effet concentré. Mais le résultat décrit une situation que vos propres règles interdisent : il ne peut donc pas prouver que l'objet est dangereux sous ces règles.",
+          "flavor": "La méthode de William Jockusch : « renoncer à la limite de quatre exemplaires… si vous voulez voir ce que donne un effet amplifié, vous pouvez le voir sur une seule carte en autorisant autant d'exemplaires que voulu ». Son deck Île / Psychic Venom / Twiddle tuait. Psychic Venom fut coupée de Seventh Edition pour « raisons de puissance », tandis que Counterspell et Opposition restaient."
+        },
+        {
+          "title": "Une affirmation sans contradicteur l'emporte d'elle-même, quel que soit son mérite",
+          "rules": "Les décisions sur ce dont personne ne se soucie sont tranchées par celui qui prend la peine d'argumenter. C'est un défaut efficace la plupart du temps, et parfois manifestement faux : repérez donc quand une décision est passée faute d'opposition plutôt que par accord.",
+          "flavor": "« William était convaincu que la seule réponse à la menace de ce deck était de retirer Psychic Venom. Je ne crois pas que quiconque tenait assez à Psychic Venom pour discuter avec William, donc officiellement, pour “raisons de puissance”, elle a été retirée — forçant les joueurs bleus à se contenter de Counterspell, Opposition et Force Spike. »"
+        },
+        {
+          "title": "Pour enseigner un système, envoyez l'une de ses parties traverser toutes les autres",
+          "rules": "Une explication qui parcourt les composants dans l'ordre n'apprend rien à personne. Donnez au public un protagoniste qui incarne pleinement une pièce, puis forcez-le à sortir rencontrer chacune des autres : les contrastes enseignent, et le voyage donne envie de rester.",
+          "flavor": "La mini-série jamais faite : « Mon protagoniste venait d'un village aligné sur le blanc et était nourri de la philosophie blanche de la magie et de son style de duel. Au fil de la mini-série, il devait partir et découvrir toutes les couleurs, accomplissant des quêtes… C'était ma tentative de faire vraiment comprendre au public ce que représentait chacune des cinq couleurs. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Histórias nunca contadas",
+      "dek": "“Mark vai fazer sugestões. William não vai falar.” A melhor reunião de todos os tempos.",
+      "overview": "Histórias que Rosewater nunca havia contado: uma entrevista de emprego conduzida como partida de Magic, um bloco consertado calando uma pessoa, e uma carta imposta por um videogame cancelado no dia seguinte.",
+      "takeaway": "“Certo”, disse Joel, “é o seguinte. Vocês quatro vão ter uma reunião de desenvolvimento. Mark vai fazer sugestões. William não vai falar.”",
+      "lessons": [
+        {
+          "title": "Entreviste fazendo a pessoa executar o trabalho, e pergunte enquanto ela executa",
+          "rules": "A prova mais forte de competência é ver o trabalho acontecer. Faça a pessoa executar a tarefa real e então interrogue as escolhas dela em pleno andamento: você descobre se ela consegue sustentar o trabalho e explicá-lo ao mesmo tempo, que é a maior parte do cargo.",
+          "flavor": "“Joel achava que o melhor jeito de saber se eu tinha o que era preciso para a P&D de Magic era jogar uma partida comigo… Conforme a partida se arrastava, Joel começou a fazer perguntas de entrevista. Por que incluí certa carta, e o que eu achava do design e do desenvolvimento dela? Joel sabia que responder dificultaria minha concentração no jogo.”"
+        },
+        {
+          "title": "Leve a amostra que mostra julgamento, não a de pico mais alto",
+          "rules": "Seu trabalho mais impressionante e o mais representativo raramente são a mesma peça. Quando estiver sendo avaliado, escolha o que exibe a amplitude das decisões que você sabe tomar: algo inconsistente que às vezes vence de forma espetacular não diz nada sobre você.",
+          "flavor": "“Meu melhor deck era um azul-verde de criaturas pequenas capaz de vencer no primeiro turno… Mas era inconsistente, e não senti que mostrasse nada sobre meu conhecimento de Magic.” Escolheu o Edgar: “era provavelmente meu segundo melhor deck competitivamente, e me pareceu bom de exibir porque usava muitas cartas em combinações interessantes.”"
+        },
+        {
+          "title": "Contrate alguém cujo viés vá contra o padrão, e deixe os outros segurarem",
+          "rules": "Uma equipe só de cautelosos vai produzir resultado cauteloso e não vai perceber. Inclua de propósito alguém puxando para o outro lado, e diga explicitamente que os demais existem para contê-lo. O valor está em a pergunta ser sempre feita, não em essa pessoa estar certa.",
+          "flavor": "“Acabei sendo o yang do yin do William. Onde William era muito conservador ao custear, eu era muito agressivo… Eu entendia que era um tanto imprudente, mas também sabia que os outros três me segurariam, sobretudo o William. Gostava de me ver como a força que garantia que o time sempre considerasse subir o nível de poder.”"
+        },
+        {
+          "title": "Quando o resultado erra sempre para o mesmo lado, mude quem fala",
+          "rules": "Se um grupo cai repetidamente no mesmo lugar errado, o problema costuma ser o equilíbrio das vozes, e não o julgamento de alguém. Ajustar quem fala e quem não fala, por uma sessão, corrige mais rápido e com mais precisão do que discutir item por item.",
+          "flavor": "Visions estava testando fraca e o desenvolvimento quase acabara. “Joel convocou a equipe e sentou nós quatro. ‘Certo', disse Joel, ‘é o seguinte. Vocês quatro vão ter uma reunião de desenvolvimento. Mark vai fazer sugestões. William não vai falar.'” Visions terminou acima da média em poder."
+        },
+        {
+          "title": "Confirme o compromisso do parceiro antes de pagar um custo irreversível",
+          "rules": "Acomodar os requisitos fixos de outro deforma o seu trabalho permanentemente, enquanto o projeto do outro pode evaporar a qualquer momento. A assimetria é todo o risco: quando o seu arquivo fecha, o remendo fica impresso para sempre, exista ou não aquilo para o que ele foi feito.",
+          "flavor": "Um videogame queria cartas específicas em Tempest, nomes inclusos. “Não havia pântanos em Rath, mas o nome era esse, então tivemos de encaixá-lo… o verde não deveria ter criaturas voadoras, mas tudo bem, abrimos uma exceção.” E então: “literalmente no dia seguinte ao envio do arquivo, soubemos que o videogame tinha sido cancelado.”"
+        },
+        {
+          "title": "Remover os limites normais informa sobre o efeito, não sobre a peça",
+          "rules": "Testar levantando uma restrição estrutural é uma técnica de verdade: mostra o que um efeito faz concentrado. Mas o resultado descreve uma situação que as suas próprias regras proíbem, então não serve de prova sobre a peça ser segura sob essas regras.",
+          "flavor": "O método de William Jockusch era “abrir mão do limite de quatro cópias… se você quer ver o que acontece quando um efeito é amplificado, dá para ver numa única carta permitindo quantas cópias o construtor quiser”. O deck dele de Ilha / Psychic Venom / Twiddle matava. Psychic Venom foi cortada de Seventh Edition por “questões de poder”, enquanto Counterspell e Opposition ficaram."
+        },
+        {
+          "title": "Uma afirmação sem oposição vence sozinha, independentemente do mérito",
+          "rules": "Decisões sobre coisas de que ninguém gosta muito são resolvidas por quem se dá ao trabalho de argumentar. Isso é um padrão eficiente na maior parte do tempo e às vezes produz resultados claramente errados: repare quando uma decisão passou por falta de contestação em vez de por acordo.",
+          "flavor": "“William estava convencido de que a única resposta à ameaça daquele deck era tirar Psychic Venom do bloco. Não acho que alguém se importasse o bastante com Psychic Venom para discutir com o William, então oficialmente por ‘razões de poder' ela foi removida — obrigando os jogadores azuis a se contentar com Counterspell, Opposition e Force Spike.”"
+        },
+        {
+          "title": "Para ensinar um sistema, mande uma de suas partes atravessar todas as outras",
+          "rules": "Uma explicação que percorre os componentes em ordem não ensina ninguém. Dê ao público um protagonista que encarne por inteiro uma peça, e então force-o a sair e encontrar cada uma das outras: os contrastes ensinam, e a jornada dá motivo para continuar assistindo.",
+          "flavor": "A minissérie nunca feita: “Meu protagonista vinha de uma aldeia alinhada ao branco e estava impregnado da filosofia branca da magia e do estilo branco de duelar. Ao longo da minissérie, ele era forçado a sair e aprender sobre todas as cores, cumprindo missões… Era minha tentativa de fazer o público entender de verdade o que cada uma das cinco cores representava.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "从未讲过的故事",
+      "dek": "「马克来提建议。威廉不许说话。」史上最棒的一次会议。",
+      "overview": "罗斯瓦特从没讲过的几个故事：一场以对局形式进行的求职面试、一个靠「让某人闭嘴」修好的系列，以及一张为一款次日就被取消的电子游戏而硬塞进去的牌。",
+      "takeaway": "「好，」乔尔说，「接下来我们这么办。你们四个开一次开发会。马克来提建议。威廉不许说话。」",
+      "lessons": [
+        {
+          "title": "让对方真的把这份工作做一遍来面试，并且在他做的过程中发问",
+          "rules": "能力最有力的证据，是亲眼看着这份工作发生。让候选人执行真实的任务，然后在他正忙着的时候追问他的每一个选择——你由此得知：他能不能一边扛住这份工作、一边把它讲清楚。而这两件事加起来，就是这份工作的大部分。",
+          "flavor": "「乔尔认为，判断我有没有本事进万智牌研发部，最好的办法就是跟我打一局万智牌……随着这局越拖越久，乔尔开始向我抛出面试问题：我为什么放进某张牌？我对它的设计与开发怎么看？乔尔知道，专心回答问题会让我更难专注在对局上。」"
+        },
+        {
+          "title": "带上那份展示判断力的样本，而不是峰值最高的那一份",
+          "rules": "你最惊艳的作品和你最有代表性的作品，几乎不会是同一件。当你被评估时，选那件能展示「你能做出多大范围的决定」的；一件不稳定、偶尔能赢得漂亮的东西，其实没能告诉评估者任何关于你的事。",
+          "flavor": "「我最好的一副套牌是蓝绿小生物套，有能力在第一回合就赢下来……但那副牌不稳定，而且我觉得它没能展示出我对万智牌的任何理解。」他改用了「埃德加」：「它大概是我竞技上第二强的套牌；而我觉得它很适合展示，因为它用了很多张牌、组成了有意思的组合。」"
+        },
+        {
+          "title": "招一个偏见与默认方向相反的人进来，然后让其余的人拉住他",
+          "rules": "一个只由谨慎的人组成的团队，会产出谨慎的东西，而且自己毫无察觉。刻意放进一个往另一个方向拽的人，并且明说：其余人的存在就是为了制衡他。价值在于「这个问题总会被提出来」，而不在于那个人是对的。",
+          "flavor": "「我最后成了威廉那个阴的阳。威廉在定费用上非常保守，而我非常激进……我明白自己有点鲁莽，但我也知道另外三个人会把我拉住，尤其是威廉。我愿意把自己想成一股力量：它确保这个团队永远会考虑把强度往上调一调。」"
+        },
+        {
+          "title": "当产出总是偏向同一边时，换一换谁在说话",
+          "rules": "如果一个小组一次次落在同一个错误的位置上，问题通常出在声音的配比，而不是任何一个人的判断。在一次会议的范围内，调整谁开口、谁不开口，比一条一条去争论要更快、也更精准。",
+          "flavor": "《幻境》试玩下来偏弱，而开发已近尾声。「乔尔把《幻境》的开发团队叫来开会，让我们四个坐下。『好，』乔尔说，『接下来我们这么办。你们四个开一次开发会。马克来提建议。威廉不许说话。』」《幻境》最终的强度高于平均，并对当时的所有赛制产生了巨大影响。"
+        },
+        {
+          "title": "在你付出不可逆的代价之前，先确认对方的承诺",
+          "rules": "去迁就别人固定不变的要求，会永久地扭曲你的作品；而对方的项目，随时都可能人间蒸发。这份不对称就是全部的风险所在：一旦你的文件锁定，那份妥协就永远印在那里了——不管它当初服务的那样东西还存不存在。",
+          "flavor": "一款电子游戏想让《时空风暴》里出现几张特定的牌，连名字都定死了。「拉斯上其实并没有什么沼泽湿地，但名字就是这个，所以我们必须把它塞进去……绿色本来不该有飞行，但好吧，我们破了个例。」然后：「就在文件寄出去的第二天——也就是我们再也无法改动文件的第二天——我们收到消息：那款游戏被取消了。」"
+        },
+        {
+          "title": "把常规限制拿掉，告诉你的是关于那个效果的事，而不是关于那件东西的事",
+          "rules": "通过解除某项结构性限制来做压力测试，是一门真正的技术：它让你看到一个效果被高度集中时会怎样。但这个结果所描述的，是一种你自己的规则本来就禁止的局面；所以它没法用来证明「在那些规则之下这件东西是否安全」。",
+          "flavor": "威廉·约库什的做法是「放弃四张上限……如果你想看看某个效果被放大后会怎样，只要允许构筑者想放几张就放几张，你在一张牌上就能看到。」他那副海岛／《灵能毒素》／《捻转》的套牌真的能把人杀死。于是《灵能毒素》以「强度顾虑」为由被移出了第七版——而《反击咒语》和《牵制》却留了下来。"
+        },
+        {
+          "title": "一个无人反对的主张会自己获胜，与它是否有道理无关",
+          "rules": "关于「没人有强烈感受」的那些事情的决定，是由那个愿意开口讲道理的人拍板的。这在大多数时候是一条高效的默认规则，而在少数时候会产出明显错误的结果——所以要留意：某个决定究竟是被同意了，还是仅仅无人质疑。",
+          "flavor": "「威廉坚信，应对这副套牌威胁的唯一办法，就是把《灵能毒素》从这个系列里拿掉。我想没有人在乎《灵能毒素》在乎到愿意为它跟威廉争，于是它就正式地以『强度原因』被移除了——逼得蓝色牌手只能将就着用《反击咒语》《牵制》和《魔力钉》。」"
+        },
+        {
+          "title": "要讲清一个系统，就派它的其中一个部分去走遍其余所有部分",
+          "rules": "一份按顺序把各个部件过一遍的讲解，谁也教不会。给观众一个完整体现着某一个部分的主角，然后逼他出门去逐一遭遇其余的每一个部分：对比会替你完成教学，而这趟旅程提供了继续看下去的理由。",
+          "flavor": "那部从未拍成的迷你剧：「我的主角来自一个白色阵营的村庄，深深浸润在白色的魔法哲学与决斗风格里。在这部迷你剧的过程中，他被迫踏出家门、去认识所有的颜色，一路完成各种任务……这是我的一次尝试：让观众真正弄明白，五个颜色各自代表着什么。」"
+        }
+      ]
+    }
+  }
+}
