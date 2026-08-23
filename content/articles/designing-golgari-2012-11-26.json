@@ -1,0 +1,320 @@
+{
+  "id": "designing-golgari-2012-11-26",
+  "slug": "designing-golgari-2012-11-26",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2012-11-26",
+  "series": { "id": "designing-the-color-pairs", "order": 4, "total": 10 },
+  "tags": ["color-pie", "mechanics", "black-green", "graveyard", "iteration"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/designing-golgari-2012-11-26",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Designing Golgari",
+      "dek": "The fourth colour-pair column: forty rejected mechanics, a taxonomy of the shared space that made the search tractable, and the version that finally came from asking what the simplest possible form would be.",
+      "overview": "Black and green overlap more than almost any pairing, and Rosewater's framing is that the flaw is the strength pushed too far — the synergy is so good it pulls every card into one narrow region and starts warping the set around it. The bulk of the article is a search: two clear criteria fixed from the start, and roughly forty mechanics that met them and failed anyway, mostly by breaking the playtest. What ended it was reaching deliberately for the simplest possible expression of the two criteria. Then development added the limiter that made it printable — and it became one of the most powerful mechanics they've made.",
+      "takeaway": "Having the criteria written down from day one didn't shorten the search at all. It just meant every one of the forty failures failed for a reason somebody could name.",
+      "lessons": [
+        {
+          "title": "The greatest flaw is the greatest strength pushed too far",
+          "rules": "The synergy between these two colours is unusually good, and that is precisely the problem: it pulls every card toward the same region, and because the region is flavourful, the designer keeps increasing the density until the whole environment is warped around it. The pairing ends up with a narrower band of possible cards than combinations that agree less. Where two things fit together too well, the fit itself is the constraint you have to manage.",
+          "flavor": "In a normal set each of these colours gets one card in this space. Put them together and the count runs away."
+        },
+        {
+          "title": "An option with a dominant timing isn't an option",
+          "rules": "Asked why a mechanic was restricted to the slowest speed — doesn't more choice make a better game? — he answers no, and gives the mechanism. If the ability could be used at any moment, the correct play is always to wait until the last moment it's needed. That isn't a decision; it's a default with extra steps. Restricting the timing is what converts the ability into something a player has to actually judge.",
+          "flavor": "Available always means used last. Used last means never chosen."
+        },
+        {
+          "title": "How many cards a space can generate and how many can coexist are different numbers",
+          "rules": "He describes this design space as deep but narrow: there are a great many cards you could make in it, and few of them make sense together unless the whole release is built around the theme. Those are separate measurements and people routinely conflate them. A rich vein tells you the idea can be sustained across years; it says nothing about how much of it fits in one box.",
+          "flavor": "Plenty of cards available. Very few of them able to share a room."
+        },
+        {
+          "title": "Map the shared space into sub-areas and give each party a niche in each",
+          "rules": "Rather than treating the overlap as one undifferentiated region, he breaks it into five distinct kinds of interaction and then assigns each colour its own territory within every one of them. One returns things to hand, the other returns them to the battlefield; one consumes the resource as fuel, the other draws strength from its size. The taxonomy is what makes a heavily shared space allocable instead of contested.",
+          "flavor": "Five sub-areas, and in every one of them a line down the middle."
+        },
+        {
+          "title": "Charge the repeatable effect in a resource the effect itself consumes",
+          "rules": "His version had no brake — nothing stopped a player retrieving the same card every turn indefinitely, and costing it safely would have made it look terrible. The development team's answer was to make the retrieval cost self-milling, which limits the number of uses while feeding the very thing the mechanic cares about. A limiter drawn from inside the mechanic's own subject is worth far more than an external cap, because it can't be read as arbitrary.",
+          "flavor": "The cost of digging it up is that you bury a few more things."
+        },
+        {
+          "title": "A false negative is affordable only if something else in the set pops on sight",
+          "rules": "He names the category: a mechanic more powerful than it looks, so that correctly costed it reads as weak. The first preview drew exactly the reaction you'd expect. He argues these are worth doing occasionally because discovery is the point — it's genuinely enjoyable to learn something is better than it appeared. But the balance condition is explicit: the release also needs mechanics that impress immediately, or the whole thing reads as underwhelming.",
+          "flavor": "\"Worthless!\" was the first reaction, from people who had not yet played with it."
+        },
+        {
+          "title": "Reach for the simplest possible form on purpose",
+          "rules": "After the long failed search he got fed up and applied a principle by name — the simplest form of a thing is usually the right one — and worked the question explicitly. He had two requirements. What is the absolute simplest thing satisfying both? He walks the candidates out loud: play it from the graveyard, no, that's an existing mechanic; draw it from the graveyard, interesting; and then constrains it until it's printable. Simplicity here was a deliberate move, not a taste.",
+          "flavor": "Forty attempts at being clever, then one deliberate attempt at being plain."
+        },
+        {
+          "title": "Keep the soft spot and state the verdict anyway",
+          "rules": "The mechanic he found became a powerhouse that has turned up in essentially every format where it's legal, and the synergy development added turned out better than anyone expected. He writes two sentences that sit uneasily together on purpose: he has a soft spot for it, and he understands it to be one of the more broken things they've made. Both are true and neither is allowed to soften the other.",
+          "flavor": "\"I have a soft spot for it, but I understand it's one of our more broken mechanics.\""
+        },
+        {
+          "title": "Clear criteria don't shorten the search",
+          "rules": "The requirements were fixed before the search began and never changed: the mechanic had to involve the graveyard and had to be recursive. Roughly forty candidates met both and were rejected anyway — most because they broke the playtest, others for being dull, confusing, or insufficiently in character. He's explicit that the number is not a joke. Knowing exactly what you need turns out to be compatible with forty failures in a row.",
+          "flavor": "Design it, team approves it, playtest it, it smashes the playtest, start again. About forty times."
+        },
+        {
+          "title": "A component that demands unusual attention needs the set to train that attention",
+          "rules": "Cards that do things from a zone players don't normally watch are restricted to releases where that zone is a theme, and the reason is that the theme does the teaching. Outside such a release the same card asks the player to monitor somewhere they have no habit of monitoring, and the ability goes unnoticed or unused. If an idea requires a behaviour people don't have, the surroundings have to supply the behaviour first.",
+          "flavor": "The card works fine. The habit it depends on has to be built somewhere else in the box."
+        }
+      ]
+    },
+    "es": {
+      "title": "Diseñando Golgari",
+      "dek": "La cuarta columna de parejas de colores: cuarenta mecánicas rechazadas, una taxonomía del espacio compartido que hizo tratable la búsqueda, y la versión que por fin salió de preguntarse cuál sería la forma más simple posible.",
+      "overview": "Negro y verde se solapan más que casi cualquier pareja, y el encuadre de Rosewater es que el defecto es la virtud llevada demasiado lejos: la sinergia es tan buena que arrastra todas las cartas a una región estrecha y empieza a deformar la expansión a su alrededor. El grueso del artículo es una búsqueda: dos criterios claros fijados desde el principio, y unas cuarenta mecánicas que los cumplían y fallaron igual, casi siempre rompiendo la prueba. Lo que la terminó fue recurrir a propósito a la expresión más simple posible de esos dos criterios. Después desarrollo añadió el limitador que la hizo imprimible, y se convirtió en una de las mecánicas más potentes que han hecho.",
+      "takeaway": "Tener los criterios escritos desde el primer día no acortó la búsqueda en absoluto. Solo significó que cada uno de los cuarenta fracasos falló por un motivo que alguien podía nombrar.",
+      "lessons": [
+        {
+          "title": "El mayor defecto es la mayor virtud llevada demasiado lejos",
+          "rules": "La sinergia entre estos dos colores es inusualmente buena, y ese es precisamente el problema: arrastra todas las cartas hacia la misma región y, como la región es evocadora, el diseñador sigue subiendo la densidad hasta que todo el entorno queda deformado a su alrededor. La pareja acaba con una banda de cartas posibles más estrecha que combinaciones que concuerdan menos. Cuando dos cosas encajan demasiado bien, el encaje mismo es la restricción que hay que gestionar.",
+          "flavor": "En una expansión normal cada uno de estos colores recibe una carta en este espacio. Júntalos y la cuenta se desboca."
+        },
+        {
+          "title": "Una opción con un momento dominante no es una opción",
+          "rules": "Preguntado por qué una mecánica se limitó a la velocidad más lenta —¿no mejora el juego tener más opciones?—, responde que no, y da el mecanismo. Si la habilidad pudiera usarse en cualquier momento, la jugada correcta es siempre esperar al último instante en que se necesita. Eso no es una decisión: es un valor por defecto con pasos extra. Restringir el momento es lo que convierte la habilidad en algo que el jugador tiene que juzgar de verdad.",
+          "flavor": "Disponible siempre significa usada la última. Usada la última significa nunca elegida."
+        },
+        {
+          "title": "Cuántas cartas puede generar un espacio y cuántas pueden convivir son números distintos",
+          "rules": "Describe este espacio de diseño como profundo pero estrecho: hay muchísimas cartas que podrías hacer en él, y pocas tienen sentido juntas salvo que todo el lanzamiento se construya en torno al tema. Son mediciones separadas y la gente las confunde de forma rutinaria. Una veta rica te dice que la idea puede sostenerse durante años; no dice nada sobre cuánta cabe en una sola caja.",
+          "flavor": "Cartas disponibles hay de sobra. Muy pocas de ellas pueden compartir habitación."
+        },
+        {
+          "title": "Cartografía el espacio compartido en subáreas y da a cada parte un nicho en cada una",
+          "rules": "En vez de tratar el solape como una región indiferenciada, lo divide en cinco tipos distintos de interacción y luego asigna a cada color su propio territorio dentro de cada uno. Uno devuelve cosas a la mano, el otro las devuelve al campo de batalla; uno consume el recurso como combustible, el otro saca fuerza de su tamaño. La taxonomía es lo que hace que un espacio muy compartido sea asignable en vez de disputado.",
+          "flavor": "Cinco subáreas, y en cada una de ellas una línea por el medio."
+        },
+        {
+          "title": "Cobra el efecto repetible en un recurso que el propio efecto consume",
+          "rules": "Su versión no tenía freno: nada impedía a un jugador recuperar la misma carta cada turno indefinidamente, y costearla con seguridad la habría hecho parecer pésima. La respuesta del equipo de desarrollo fue hacer que el coste de recuperación fuera automolienda, lo que limita el número de usos mientras alimenta justo aquello que a la mecánica le importa. Un limitador sacado del propio asunto de la mecánica vale mucho más que un tope externo, porque no puede leerse como arbitrario.",
+          "flavor": "El precio de desenterrarla es que entierras unas cuantas cosas más."
+        },
+        {
+          "title": "Un falso negativo solo es asequible si otra cosa de la expansión deslumbra a primera vista",
+          "rules": "Le pone nombre a la categoría: una mecánica más potente de lo que parece, de modo que bien costeada se lee como floja. El primer avance provocó exactamente la reacción esperable. Argumenta que vale la pena hacerlas de vez en cuando porque el descubrimiento es el objetivo: es genuinamente disfrutable aprender que algo es mejor de lo que parecía. Pero la condición de equilibrio es explícita: el lanzamiento también necesita mecánicas que impresionen de inmediato, o el conjunto se lee como decepcionante.",
+          "flavor": "«¡No vale nada!» fue la primera reacción, de gente que aún no había jugado con ella."
+        },
+        {
+          "title": "Recurre a propósito a la forma más simple posible",
+          "rules": "Tras la larga búsqueda fallida se hartó y aplicó un principio con nombre —la forma más simple de algo suele ser la correcta— y trabajó la pregunta explícitamente. Tenía dos requisitos. ¿Cuál es la cosa absolutamente más simple que satisface ambos? Recorre los candidatos en voz alta: jugarla desde el cementerio, no, eso ya existe; robarla desde el cementerio, interesante; y después la restringe hasta hacerla imprimible. Aquí la simplicidad fue una jugada deliberada, no un gusto.",
+          "flavor": "Cuarenta intentos de ser ingenioso, y luego un intento deliberado de ser llano."
+        },
+        {
+          "title": "Conserva la debilidad y enuncia el veredicto igualmente",
+          "rules": "La mecánica que encontró se convirtió en una potencia que ha aparecido en esencialmente todos los formatos donde es legal, y la sinergia que añadió desarrollo salió mejor de lo que nadie esperaba. Escribe dos frases que conviven incómodamente a propósito: tiene debilidad por ella, y entiende que es una de las cosas más rotas que han hecho. Ambas son ciertas y a ninguna se le permite suavizar la otra.",
+          "flavor": "«Le tengo cariño, pero entiendo que es una de nuestras mecánicas más rotas.»"
+        },
+        {
+          "title": "Los criterios claros no acortan la búsqueda",
+          "rules": "Los requisitos se fijaron antes de empezar y nunca cambiaron: la mecánica tenía que involucrar el cementerio y tenía que ser recursiva. Unos cuarenta candidatos cumplían ambos y fueron rechazados igualmente, la mayoría por romper la prueba, otros por aburridos, confusos o insuficientemente en carácter. Él es explícito en que la cifra no es una broma. Saber exactamente lo que necesitas resulta ser compatible con cuarenta fracasos seguidos.",
+          "flavor": "Diséñala, el equipo la aprueba, pruébala, revienta la prueba, vuelve a empezar. Unas cuarenta veces."
+        },
+        {
+          "title": "Un componente que exige atención inusual necesita que la expansión entrene esa atención",
+          "rules": "Las cartas que hacen cosas desde una zona que los jugadores no suelen vigilar se restringen a lanzamientos donde esa zona es un tema, y la razón es que el tema hace la enseñanza. Fuera de un lanzamiento así, la misma carta le pide al jugador que monitorice un sitio que no tiene costumbre de monitorizar, y la habilidad pasa desapercibida o sin usar. Si una idea requiere un comportamiento que la gente no tiene, el entorno tiene que suministrar el comportamiento primero.",
+          "flavor": "La carta funciona bien. El hábito del que depende hay que construirlo en otra parte de la caja."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Concevoir Golgari",
+      "dek": "La quatrième chronique sur les paires de couleurs : quarante mécaniques rejetées, une taxonomie de l'espace commun qui a rendu la recherche traitable, et la version enfin venue en se demandant quelle serait la forme la plus simple possible.",
+      "overview": "Le noir et le vert se recouvrent plus que presque toute paire, et le cadrage de Rosewater est que le défaut est la qualité poussée trop loin : la synergie est si bonne qu'elle attire toutes les cartes dans une région étroite et déforme l'extension autour d'elle. L'essentiel de l'article est une recherche : deux critères clairs fixés dès le départ, et une quarantaine de mécaniques qui les remplissaient et ont quand même échoué, surtout en explosant les tests. Ce qui y a mis fin fut de chercher délibérément l'expression la plus simple possible de ces deux critères. Puis le développement a ajouté le limiteur qui l'a rendue imprimable — et elle est devenue l'une des mécaniques les plus puissantes qu'ils aient faites.",
+      "takeaway": "Avoir les critères écrits dès le premier jour n'a nullement raccourci la recherche. Cela a seulement fait que chacun des quarante échecs a échoué pour une raison que quelqu'un pouvait nommer.",
+      "lessons": [
+        {
+          "title": "Le plus grand défaut est la plus grande qualité poussée trop loin",
+          "rules": "La synergie entre ces deux couleurs est exceptionnellement bonne, et c'est précisément le problème : elle attire chaque carte vers la même région, et comme la région est évocatrice, le concepteur augmente la densité jusqu'à ce que tout l'environnement en soit déformé. La paire finit avec une bande de cartes possibles plus étroite que des combinaisons moins accordées. Quand deux choses s'emboîtent trop bien, c'est l'emboîtement lui-même qu'il faut gérer.",
+          "flavor": "Dans une extension normale, chacune de ces couleurs reçoit une carte dans cet espace. Réunissez-les et le compte s'emballe."
+        },
+        {
+          "title": "Une option au moment dominant n'est pas une option",
+          "rules": "Interrogé sur la restriction d'une mécanique à la vitesse la plus lente — plus de choix ne fait-il pas un meilleur jeu ? — il répond non et donne le mécanisme. Si la capacité était utilisable à tout instant, le bon coup consiste toujours à attendre le dernier moment où elle est nécessaire. Ce n'est pas une décision, c'est un défaut avec des étapes en plus. Restreindre le moment est ce qui transforme la capacité en quelque chose que le joueur doit réellement juger.",
+          "flavor": "Disponible toujours veut dire utilisée en dernier. Utilisée en dernier veut dire jamais choisie."
+        },
+        {
+          "title": "Combien de cartes un espace peut produire et combien peuvent coexister sont deux nombres",
+          "rules": "Il décrit cet espace comme profond mais étroit : on pourrait y faire énormément de cartes, et peu d'entre elles ont du sens ensemble à moins que toute la sortie ne soit bâtie sur le thème. Ce sont deux mesures distinctes et on les confond couramment. Un filon riche vous dit que l'idée peut tenir des années ; il ne dit rien sur la quantité qui rentre dans une seule boîte.",
+          "flavor": "Des cartes disponibles en quantité. Très peu capables de partager une pièce."
+        },
+        {
+          "title": "Cartographiez l'espace commun en sous-domaines et donnez à chacun sa niche dans chacun",
+          "rules": "Plutôt que de traiter le recouvrement comme une région indifférenciée, il le découpe en cinq types d'interaction puis attribue à chaque couleur son territoire dans chacun. L'une renvoie les choses en main, l'autre les renvoie sur le champ de bataille ; l'une consomme la ressource comme carburant, l'autre tire sa force de sa taille. La taxonomie est ce qui rend un espace fortement partagé attribuable au lieu de disputé.",
+          "flavor": "Cinq sous-domaines, et dans chacun une ligne au milieu."
+        },
+        {
+          "title": "Faites payer l'effet répétable dans une ressource que l'effet consomme lui-même",
+          "rules": "Sa version n'avait pas de frein : rien n'empêchait un joueur de récupérer la même carte chaque tour indéfiniment, et la coûter prudemment l'aurait rendue lamentable. La réponse du développement fut de faire payer la récupération en auto-meulage, ce qui limite le nombre d'usages tout en alimentant précisément ce qui intéresse la mécanique. Un limiteur tiré du sujet même de la mécanique vaut bien plus qu'un plafond externe, car il ne peut pas se lire comme arbitraire.",
+          "flavor": "Le prix pour la déterrer, c'est d'en enterrer quelques autres."
+        },
+        {
+          "title": "Un faux négatif n'est abordable que si autre chose dans l'extension frappe au premier regard",
+          "rules": "Il nomme la catégorie : une mécanique plus puissante qu'elle n'en a l'air, si bien que correctement coûtée elle paraît faible. La première présentation a suscité exactement la réaction attendue. Il défend d'en faire de temps en temps parce que la découverte est le propos : il est réellement plaisant d'apprendre qu'une chose est meilleure qu'elle ne paraissait. Mais la condition d'équilibre est explicite : la sortie a aussi besoin de mécaniques qui impressionnent d'emblée, sinon l'ensemble paraît terne.",
+          "flavor": "« Nul ! » fut la première réaction, de gens qui n'y avaient pas encore joué."
+        },
+        {
+          "title": "Cherchez exprès la forme la plus simple possible",
+          "rules": "Après la longue recherche infructueuse, il en a eu assez et a appliqué un principe nommé — la forme la plus simple d'une chose est en général la bonne — en travaillant la question explicitement. Il avait deux exigences. Quelle est la chose absolument la plus simple qui satisfait les deux ? Il déroule les candidates à voix haute : la jouer depuis le cimetière, non, cela existe déjà ; la piocher depuis le cimetière, intéressant ; puis il la contraint jusqu'à la rendre imprimable. La simplicité fut ici un geste délibéré, pas un goût.",
+          "flavor": "Quarante tentatives d'être malin, puis une tentative délibérée d'être ordinaire."
+        },
+        {
+          "title": "Gardez votre faible et énoncez quand même le verdict",
+          "rules": "La mécanique trouvée est devenue une puissance présente dans pratiquement tous les formats où elle est légale, et la synergie ajoutée par le développement s'est révélée meilleure que prévu. Il écrit deux phrases qui cohabitent mal exprès : il a un faible pour elle, et il comprend qu'elle est l'une des choses les plus cassées qu'ils aient faites. Les deux sont vraies et aucune n'a le droit d'adoucir l'autre.",
+          "flavor": "« J'ai un faible pour elle, mais je comprends que c'est une de nos mécaniques les plus cassées. »"
+        },
+        {
+          "title": "Des critères clairs ne raccourcissent pas la recherche",
+          "rules": "Les exigences ont été fixées avant le début et n'ont jamais changé : la mécanique devait impliquer le cimetière et devait être récursive. Une quarantaine de candidates remplissaient les deux et ont été rejetées quand même, la plupart pour avoir explosé les tests, d'autres pour ennui, confusion ou manque de caractère. Il précise que le chiffre n'est pas une plaisanterie. Savoir exactement ce dont on a besoin s'avère compatible avec quarante échecs d'affilée.",
+          "flavor": "La concevoir, l'équipe l'approuve, la tester, elle explose le test, recommencer. Une quarantaine de fois."
+        },
+        {
+          "title": "Un composant qui exige une attention inhabituelle a besoin que l'extension entraîne cette attention",
+          "rules": "Les cartes agissant depuis une zone que les joueurs ne surveillent pas d'ordinaire sont réservées aux sorties où cette zone est un thème, et la raison est que le thème fait l'apprentissage. Hors d'une telle sortie, la même carte demande au joueur de surveiller un endroit qu'il n'a pas l'habitude de surveiller, et la capacité passe inaperçue ou inutilisée. Si une idée exige un comportement que les gens n'ont pas, l'entourage doit d'abord fournir le comportement.",
+          "flavor": "La carte fonctionne très bien. L'habitude dont elle dépend doit être construite ailleurs dans la boîte."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Desenhando Golgari",
+      "dek": "A quarta coluna sobre pares de cores: quarenta mecânicas rejeitadas, uma taxonomia do espaço compartilhado que tornou a busca tratável, e a versão que enfim veio de perguntar qual seria a forma mais simples possível.",
+      "overview": "Preto e verde se sobrepõem mais que quase qualquer par, e o enquadramento de Rosewater é que o defeito é a virtude levada longe demais: a sinergia é tão boa que puxa toda carta para uma região estreita e começa a distorcer a coleção em volta dela. O grosso do artigo é uma busca: dois critérios claros fixados desde o início, e cerca de quarenta mecânicas que os cumpriam e falharam assim mesmo, quase sempre estourando o teste. O que a encerrou foi buscar deliberadamente a expressão mais simples possível desses dois critérios. Depois o desenvolvimento acrescentou o limitador que a tornou imprimível — e ela virou uma das mecânicas mais potentes que já fizeram.",
+      "takeaway": "Ter os critérios escritos desde o primeiro dia não encurtou a busca em nada. Só fez com que cada um dos quarenta fracassos falhasse por um motivo que alguém conseguia nomear.",
+      "lessons": [
+        {
+          "title": "O maior defeito é a maior virtude levada longe demais",
+          "rules": "A sinergia entre estas duas cores é excepcionalmente boa, e é precisamente esse o problema: ela puxa toda carta para a mesma região e, como a região é evocativa, o designer segue aumentando a densidade até o ambiente inteiro ficar distorcido em volta dela. O par acaba com uma faixa de cartas possíveis mais estreita que combinações que concordam menos. Quando duas coisas se encaixam bem demais, o próprio encaixe é a restrição a administrar.",
+          "flavor": "Numa coleção normal cada uma dessas cores ganha uma carta neste espaço. Junte-as e a conta dispara."
+        },
+        {
+          "title": "Uma opção com um momento dominante não é uma opção",
+          "rules": "Perguntado por que uma mecânica foi limitada à velocidade mais lenta — mais escolha não faz um jogo melhor? —, ele responde que não, e dá o mecanismo. Se a habilidade pudesse ser usada a qualquer momento, a jogada certa é sempre esperar até o último instante em que ela é necessária. Isso não é uma decisão; é um padrão com passos extras. Restringir o momento é o que converte a habilidade em algo que o jogador de fato precisa julgar.",
+          "flavor": "Disponível sempre significa usada por último. Usada por último significa nunca escolhida."
+        },
+        {
+          "title": "Quantas cartas um espaço pode gerar e quantas podem coexistir são números diferentes",
+          "rules": "Ele descreve este espaço como profundo mas estreito: há muitíssimas cartas que se poderia fazer nele, e poucas fazem sentido juntas a menos que o lançamento inteiro seja construído em torno do tema. São medições separadas e as pessoas as confundem rotineiramente. Um veio rico diz que a ideia se sustenta por anos; não diz nada sobre quanto dela cabe numa caixa.",
+          "flavor": "Cartas disponíveis de sobra. Pouquíssimas capazes de dividir uma sala."
+        },
+        {
+          "title": "Mapeie o espaço compartilhado em subáreas e dê a cada parte um nicho em cada uma",
+          "rules": "Em vez de tratar a sobreposição como uma região indiferenciada, ele a divide em cinco tipos distintos de interação e então atribui a cada cor um território próprio dentro de cada um. Uma devolve coisas para a mão, a outra as devolve para o campo; uma consome o recurso como combustível, a outra tira força do tamanho dele. A taxonomia é o que torna um espaço muito compartilhado alocável em vez de disputado.",
+          "flavor": "Cinco subáreas, e em cada uma delas uma linha no meio."
+        },
+        {
+          "title": "Cobre o efeito repetível num recurso que o próprio efeito consome",
+          "rules": "A versão dele não tinha freio: nada impedia um jogador de recuperar a mesma carta todo turno indefinidamente, e precificá-la com segurança a teria feito parecer péssima. A resposta do desenvolvimento foi tornar o custo de recuperação uma automoagem, o que limita o número de usos enquanto alimenta justamente aquilo com que a mecânica se importa. Um limitador tirado do próprio assunto da mecânica vale muito mais que um teto externo, porque não pode ser lido como arbitrário.",
+          "flavor": "O preço de desenterrá-la é enterrar mais algumas coisas."
+        },
+        {
+          "title": "Um falso negativo só é bancável se outra coisa na coleção impressiona de cara",
+          "rules": "Ele nomeia a categoria: uma mecânica mais potente do que parece, de modo que, precificada corretamente, lê-se como fraca. A primeira prévia gerou exatamente a reação esperável. Ele defende fazê-las de vez em quando porque a descoberta é o ponto: é genuinamente prazeroso aprender que algo é melhor do que parecia. Mas a condição de equilíbrio é explícita: o lançamento também precisa de mecânicas que impressionem de imediato, ou o conjunto todo lê como sem graça.",
+          "flavor": "«Não vale nada!» foi a primeira reação, de gente que ainda não tinha jogado com ela."
+        },
+        {
+          "title": "Busque de propósito a forma mais simples possível",
+          "rules": "Depois da longa busca fracassada ele se cansou e aplicou um princípio pelo nome — a forma mais simples de algo costuma ser a certa — trabalhando a pergunta explicitamente. Ele tinha dois requisitos. Qual é a coisa absolutamente mais simples que satisfaz os dois? Ele percorre as candidatas em voz alta: jogá-la do cemitério, não, isso já existe; comprá-la do cemitério, interessante; e então a restringe até torná-la imprimível. Simplicidade aqui foi uma jogada deliberada, não um gosto.",
+          "flavor": "Quarenta tentativas de ser engenhoso, e depois uma tentativa deliberada de ser simples."
+        },
+        {
+          "title": "Mantenha a queda e enuncie o veredicto assim mesmo",
+          "rules": "A mecânica que ele achou virou uma potência que apareceu essencialmente em todo formato em que é legal, e a sinergia que o desenvolvimento acrescentou saiu melhor do que qualquer um esperava. Ele escreve duas frases que convivem mal de propósito: ele tem uma queda por ela, e entende que é uma das coisas mais quebradas que já fizeram. As duas são verdade e a nenhuma se permite suavizar a outra.",
+          "flavor": "«Tenho uma queda por ela, mas entendo que é uma das nossas mecânicas mais quebradas.»"
+        },
+        {
+          "title": "Critérios claros não encurtam a busca",
+          "rules": "Os requisitos foram fixados antes de a busca começar e nunca mudaram: a mecânica tinha de envolver o cemitério e tinha de ser recursiva. Cerca de quarenta candidatas cumpriam ambos e foram rejeitadas assim mesmo, a maioria por estourar o teste, outras por serem sem graça, confusas ou insuficientemente em caráter. Ele é explícito em que o número não é piada. Saber exatamente do que você precisa acaba sendo compatível com quarenta fracassos seguidos.",
+          "flavor": "Projete, a equipe aprova, teste, ela estoura o teste, recomece. Umas quarenta vezes."
+        },
+        {
+          "title": "Um componente que exige atenção incomum precisa que a coleção treine essa atenção",
+          "rules": "Cartas que fazem coisas a partir de uma zona que os jogadores normalmente não vigiam ficam restritas a lançamentos em que essa zona é um tema, e a razão é que o tema faz o ensino. Fora de um lançamento assim, a mesma carta pede ao jogador que monitore um lugar que ele não tem o hábito de monitorar, e a habilidade passa despercebida ou sem uso. Se uma ideia exige um comportamento que as pessoas não têm, o entorno precisa fornecer o comportamento primeiro.",
+          "flavor": "A carta funciona bem. O hábito de que ela depende tem de ser construído em outro ponto da caixa."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "设计葛加理",
+      "dek": "双色搭配专栏的第四篇：四十个被否掉的机制、一份让搜索变得可处理的共享空间分类法，以及那个最终来自「问一句：最简单的形态会是什么」的版本。",
+      "overview": "黑与绿的重叠比几乎任何一对都多，而罗斯瓦特的框定是：缺点就是优点被推得太远——它们的协同好到会把每一张牌都拽进一片狭窄的区域，并开始让整个系列围着它变形。文章的主体是一场搜索：两条从一开始就定死的标准，以及大约四十个满足了这两条却仍然失败的机制——多数是在测试里被打爆的。终结这场搜索的，是刻意去寻找这两条标准的「最简单的可能表达」。随后开发加上了那个让它可以付印的限制器——而它成了他们做过的最强力的机制之一。",
+      "takeaway": "从第一天起就把标准写下来，丝毫没有缩短这场搜索。它带来的只是：那四十次失败中的每一次，都失败得有一个说得出口的理由。",
+      "lessons": [
+        {
+          "title": "最大的缺点，就是最大的优点被推得太远",
+          "rules": "这两个颜色之间的协同好得异乎寻常，而这恰恰就是问题：它把每一张牌都拽向同一片区域；又因为这片区域很有味道，设计师会不断提高它的密度，直到整个环境都围着它变了形。这一对最终拥有的「可能的牌」的带宽，比那些没那么合拍的组合还要窄。当两样东西契合得太好时，这份契合本身就是你必须管理的那条约束。",
+          "flavor": "在一个普通系列里，这两个颜色在这片空间上各得一张牌。把它们放到一起，数字就失控了。"
+        },
+        {
+          "title": "一个存在支配性时机的选项，不是一个选项",
+          "rules": "被问到为什么某个机制被限制在最慢的速度上——「更多的选择不是让游戏更好吗？」——他回答不是，并给出了机制本身。如果这项异能随时都能用，那么正确的打法永远是等到「最后一个不得不用」的时刻。那不是一个决定，那只是一个多绕了几步的默认值。限制时机，才是把这项异能变成「玩家真的必须做判断」的东西。",
+          "flavor": "随时可用，意味着最后才用。最后才用，意味着从未被选择。"
+        },
+        {
+          "title": "一片空间能产出多少张牌，与多少张能共处，是两个不同的数字",
+          "rules": "他把这片设计空间形容为「深而窄」：你能在里面做出来的牌非常多，而其中能凑在一起有意义的却很少——除非整次发售就是围绕这个主题搭起来的。这是两次不同的测量，而人们经常把它们混为一谈。一条丰厚的矿脉告诉你这个想法能撑很多年；它对「一个盒子里能装下多少」只字未提。",
+          "flavor": "可做的牌多得是。而它们当中能同处一室的极少。"
+        },
+        {
+          "title": "把共享空间划成子领域，并在每一个里给各方一块自留地",
+          "rules": "他没有把重叠当成一整片不加区分的区域，而是把它拆成五种不同的互动方式，然后在每一种里给每个颜色划出自己的地盘。一个把东西送回手上，另一个把它们送回战场；一个把这份资源当燃料吃掉，另一个从它的体量里汲取力量。正是这份分类法，让一片高度共享的空间从「有争议」变成「可分配」。",
+          "flavor": "五个子领域，而每一个中间都划了一条线。"
+        },
+        {
+          "title": "让可重复的效果，用它自己所消耗的那种资源来付费",
+          "rules": "他的版本没有刹车：没有任何东西阻止一个玩家无限地每回合把同一张牌捞回来；而把它安全地定价，又会让它看上去很糟。开发团队的答案，是让「捞回来」的代价变成自磨牌库——这既限制了可用次数，又恰好在喂养这个机制所在乎的那样东西。一个从机制自身主题内部取出来的限制器，远比一个外加的上限值钱，因为它没法被读成随意为之。",
+          "flavor": "把它挖出来的代价，是你又埋下去几样东西。"
+        },
+        {
+          "title": "「假性弱牌」只有在系列里另有东西一眼就抓人时才付得起",
+          "rules": "他给这个类别命了名：一个比看上去更强的机制——于是当它被正确定价时，读起来是弱的。第一次预览得到的正是你能预料的那种反应。他主张偶尔做几个是值得的，因为发现本身就是要点：得知某样东西比它看上去更好，是真正的乐趣。但那条平衡条件被明说了出来：这次发售同时还需要一眼就令人惊艳的机制，否则整个东西读起来就是平淡。",
+          "flavor": "第一反应是「一文不值！」——来自那些还没用它玩过的人。"
+        },
+        {
+          "title": "刻意去够那个最简单的可能形态",
+          "rules": "在长久的无果搜索之后，他受够了，于是点名搬出了一条原则——一样东西最简单的形态通常就是对的那个——并把这个问题明明白白地做了一遍。他有两条要求。同时满足这两条的、绝对最简单的东西是什么？他把候选一个个说出声来：从坟场把它打出来？不行，那已经是别的机制了；从坟场把它抽上来？有意思；然后再一路收紧到可以付印。这里的简单是一步刻意的棋，不是一种品味。",
+          "flavor": "四十次试图机巧，然后是一次刻意为之的朴素。"
+        },
+        {
+          "title": "保留你的偏爱，同时照样把结论说出来",
+          "rules": "他找到的那个机制成了一台强力机器，几乎在每一个它合法的赛制里都出现过；而开发加上去的那份协同，效果比任何人预期的都好。他写下两句故意并不好受地并置在一起的话：他对它有偏爱，而他也明白它是他们做过的比较崩坏的东西之一。两句都为真，而任何一句都不被允许去软化另一句。",
+          "flavor": "「我对它有偏爱，但我明白它是我们更崩坏的机制之一。」"
+        },
+        {
+          "title": "清晰的标准不会缩短搜索",
+          "rules": "要求在搜索开始之前就定死了，而且从未变过：这个机制必须涉及坟场，而且必须具有递归性。大约四十个候选同时满足了这两条，却仍然被否掉——多数是因为它们把测试打爆了，另一些是因为无聊、令人困惑，或者不够有那个公会的味道。他明说这个数字不是为了搞笑。「精确知道自己需要什么」，原来是可以与「连着失败四十次」并存的。",
+          "flavor": "设计它、团队通过、拿去测试、它把测试打爆、重头再来。大约四十次。"
+        },
+        {
+          "title": "一个要求不寻常注意力的部件，需要这个系列去训练那份注意力",
+          "rules": "那些从「玩家平时不会盯着的区域」发挥作用的牌，被限制在「那个区域本身就是主题」的发售里；理由是：由主题来完成教学。在这样的发售之外，同一张牌会要求玩家去盯一个他并没有习惯去盯的地方，于是这项异能要么没被注意到，要么没被用上。如果一个想法需要一种人们尚未具备的行为，那就得由周围环境先把这种行为供出来。",
+          "flavor": "这张牌本身没问题。它所依赖的那个习惯，得在盒子里的别处被建立起来。"
+        }
+      ]
+    }
+  }
+}
