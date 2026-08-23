@@ -1,0 +1,294 @@
+{
+  "id": "state-design-2016-2016-08-29",
+  "slug": "state-design-2016-2016-08-29",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-08-29",
+  "series": null,
+  "tags": ["state-of-design", "complexity", "two-block-model", "zendikar", "innistrad"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/state-design-2016-2016-08-29",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T17:01:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "W" }
+  ],
+  "translations": {
+    "en": {
+      "title": "State of Design 2016",
+      "dek": "The year's verdict on itself: too many mechanics, too much change between instalments, and a return that focused on the part of the world people liked least.",
+      "overview": "Rosewater's twelfth annual self-assessment, covering the first year of the two-block model. The highlights are brief; the lessons are about a transition that turned out to be larger than anyone budgeted for.",
+      "takeaway": "\"We could have easily removed at least one mechanic per set and I don't think anyone would have noticed it missing.\"",
+      "lessons": [
+        {
+          "title": "Returning to a beloved thing, go back to what people loved — not to where you stopped",
+          "rules": "A revisit inherits two pulls: the unfinished business you left behind, and the quality that made people want to come back. They are rarely the same, and the cliffhanger will win by default because it feels like the obligation. Check the research on which part they actually liked.",
+          "flavor": "“The thing that players loved most about Zendikar was its adventure world feel… Then to justify shifting the final set mechanically, we introduced a brand-new villain, the Eldrazi… So in choosing to return to Zendikar, we picked up the cliffhanger of the original block and then focused on the aspect of the plane that the players liked less.”"
+        },
+        {
+          "title": "Some things are good in small doses and stop working at volume",
+          "rules": "An element can be excellent precisely because it's rare, unknowable, or overwhelming — and those are the properties that make it impossible to produce twenty variations of. Before scaling something up, ask whether its appeal survives being common.",
+          "flavor": "“I like the Eldrazi as a villain, but I think they work best in small doses. Giant, unfathomable world-eating aliens are cool characters, but they're very difficult to make compelling cards out of when you have to make more than a handful. A lot of the problems we had in design centered around trying to solve issues… that we shouldn't have ever had in the first place.”"
+        },
+        {
+          "title": "Name yourself when the root error is yours",
+          "rules": "A public post-mortem that attributes failures to circumstances teaches nobody anything. When the mistake traces back to a premise you personally set, say so in the same sentence as the diagnosis — it's what makes the rest of the assessment credible.",
+          "flavor": "“I should note that the idea to focus the block on a war between the Eldrazi and the Zendikari was my idea, so I'm trying to own up to the fact that, at the core of this design, I made a fundamental mistake.” On the mechanics' reception: “As design is primarily responsible for mechanics, I take full blame for this.”"
+        },
+        {
+          "title": "Piling on systems buys complexity, not depth",
+          "rules": "Wanting more for experienced people, teams add another mechanic, and another. That raises what everyone must learn while barely moving how deep the thing goes. Depth comes from layering inside what's already there — the same elements rewarding better understanding.",
+          "flavor": "“I know a lot of people worry whenever I talk about lowering complexity, as they think it means lessening strategic depth, but the relationship between those two things is actually much more detailed… The current execution of creating mechanical layering through the piling on of mechanics is fundamentally a flawed one.”"
+        },
+        {
+          "title": "Removing a liked element costs more than a new one gains",
+          "rules": "The follow-up needs room, so something gets cut, and it's usually cut for a reason internal to the project. But the audience experiences the removal directly and the addition only as one more thing to learn. Default to keeping, and make each new item beat the removal it forces.",
+          "flavor": "“Players really liked the investigate mechanic… We removed it from Eldritch Moon because we were adding three new mechanics… Looking back, I wish we had kept investigate and not introduced escalate… In general, moving forward, I am questioning removing mechanics in the large set from the small set. The majority of the times we've done it we've created more dissatisfaction than happiness.”"
+        },
+        {
+          "title": "Some change is invisible to the audience and expensive to you — cut that first",
+          "rules": "Not all variation between instalments is perceived. When you're deciding how much to alter, separate what people will register from what only costs you effort — and cut the second kind, because it consumes finite capacity and buys nothing.",
+          "flavor": "“I also believe both Oath of the Gatewatch and Eldritch Moon changed more than was necessary… This is more an internal issue than anything else, because what I'm fundamentally saying is we could have made the small sets just as much fun for all of you without using up valuable, finite resources on our end.”"
+        },
+        {
+          "title": "Ill will carries across into the next thing you make",
+          "rules": "A reveal doesn't land in a vacuum; it lands into whatever feeling the last instalment left behind. If the previous project soured people on an element, bringing it back immediately means the execution has to win them over before it can even be judged on its own.",
+          "flavor": "“I feel some of the ill will created by Battle for Zendikar block got brought to Shadows over Innistrad block. Rather than just excitement, I feel the reveal of Emrakul being on Innistrad created some disappointment. Now, I believe we did a great job of execution and won over most of the cynics, but… was there supposed to be a block or two between?”"
+        },
+        {
+          "title": "Revisit your own taboos and check whether the reason still binds",
+          "rules": "Every practice accumulates areas someone declared off limits. Periodically reopen them and ask what specifically the prohibition was protecting — you can often get the space you wanted without touching the thing the rule existed to defend.",
+          "flavor": "“Another part is being willing to revisit areas you have previously made off limits. Battle for Zendikar block found new space by messing with an area, the exile zone, that I had been very reluctant to explore—but I was happy that we were able to find new design area without undermining the reasons I had wanted to keep out of exile in the first place.”"
+        },
+        {
+          "title": "Anything you intend to keep forever should debut at a boundary",
+          "rules": "Holding a new permanent convention back until the moment it becomes relevant seems considerate and makes it harder to learn, because for one stretch people see two things that look different and behave the same. Introduce ongoing elements at the start, and let familiarity accumulate.",
+          "flavor": "“We made a conscious decision to hold back the introduction of the colorless mana symbol until the set that made it mechanically relevant came out. The result… is that we had cards that looked different but functioned similarly in the same Limited environment. I believe that decision was a mistake… we should start new ongoing things at the beginning of a block and not partway through.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Estado del diseño 2016",
+      "dek": "El veredicto del año sobre sí mismo: demasiadas mecánicas, demasiado cambio entre entregas, y un regreso que se centró en la parte del mundo que menos gustaba.",
+      "overview": "La duodécima autoevaluación anual de Rosewater, sobre el primer año del modelo de dos bloques. Los aciertos son breves; las lecciones tratan de una transición que resultó mayor de lo presupuestado.",
+      "takeaway": "«Podríamos haber quitado fácilmente al menos una mecánica por edición y no creo que nadie la hubiera echado en falta.»",
+      "lessons": [
+        {
+          "title": "Al volver a algo querido, vuelve a lo que gustaba, no a donde lo dejaste",
+          "rules": "Un regreso hereda dos tirones: los asuntos pendientes que dejaste y la cualidad que hizo que la gente quisiera volver. Rara vez son lo mismo, y el final en suspenso ganará por defecto porque parece la obligación. Consulta los datos sobre qué parte gustó de verdad.",
+          "flavor": "«Lo que más amaban los jugadores de Zendikar era su aire de mundo de aventuras… Luego, para justificar el giro mecánico de la última edición, introdujimos un villano nuevo, los Eldrazi… Así que al volver a Zendikar recogimos el final en suspenso del bloque original y nos centramos en el aspecto del plano que menos gustaba a los jugadores.»"
+        },
+        {
+          "title": "Hay cosas buenas en dosis pequeñas que dejan de funcionar en volumen",
+          "rules": "Un elemento puede ser excelente precisamente por ser raro, inescrutable o abrumador, y esas son justo las propiedades que hacen imposible producir veinte variaciones de él. Antes de escalar algo, pregunta si su atractivo sobrevive a volverse común.",
+          "flavor": "«Me gustan los Eldrazi como villanos, pero creo que funcionan mejor en dosis pequeñas. Los alienígenas gigantes e insondables que devoran mundos son personajes geniales, pero es muy difícil hacer cartas convincentes con ellos cuando tienes que hacer más de un puñado. Muchos de nuestros problemas fueron resolver cuestiones que nunca deberíamos haber tenido.»"
+        },
+        {
+          "title": "Nómbrate cuando el error de raíz sea tuyo",
+          "rules": "Una autopsia pública que atribuye los fallos a las circunstancias no enseña nada a nadie. Cuando el error se remonta a una premisa que pusiste tú, dilo en la misma frase que el diagnóstico: es lo que hace creíble el resto de la evaluación.",
+          "flavor": "«Debo señalar que la idea de centrar el bloque en una guerra entre los Eldrazi y los zendikari fue idea mía, así que intento asumir que, en el núcleo de este diseño, cometí un error fundamental.» Sobre la acogida de las mecánicas: «Como diseño es el principal responsable de las mecánicas, asumo toda la culpa.»"
+        },
+        {
+          "title": "Apilar sistemas compra complejidad, no profundidad",
+          "rules": "Queriendo dar más a los expertos, los equipos añaden otra mecánica, y otra. Eso sube lo que todos deben aprender y apenas mueve lo profundo que es aquello. La profundidad viene de estratificar dentro de lo que ya hay: que los mismos elementos premien entenderlos mejor.",
+          "flavor": "«Sé que a mucha gente le preocupa cuando hablo de bajar la complejidad, porque cree que significa reducir la profundidad estratégica, pero la relación entre ambas cosas es bastante más detallada… La ejecución actual de crear estratificación mecánica apilando mecánicas es fundamentalmente errónea.»"
+        },
+        {
+          "title": "Quitar algo querido cuesta más de lo que gana algo nuevo",
+          "rules": "La continuación necesita sitio, así que algo se corta, y suele cortarse por una razón interna al proyecto. Pero el público vive la eliminación directamente y la incorporación solo como una cosa más que aprender. Por defecto, conserva; y que cada novedad supere a la eliminación que fuerza.",
+          "flavor": "«A los jugadores les gustaba mucho la mecánica investigar… La quitamos de Eldritch Moon porque añadíamos tres mecánicas nuevas… Mirando atrás, ojalá hubiéramos conservado investigar y no introducido escalar… En general, de ahora en adelante cuestiono quitar mecánicas de la edición grande en la pequeña. La mayoría de las veces hemos creado más insatisfacción que alegría.»"
+        },
+        {
+          "title": "Hay cambios invisibles para el público y caros para ti: corta esos primero",
+          "rules": "No toda variación entre entregas se percibe. Cuando decidas cuánto alterar, separa lo que la gente registrará de lo que solo te cuesta esfuerzo, y corta lo segundo, porque consume capacidad finita y no compra nada.",
+          "flavor": "«También creo que tanto Oath of the Gatewatch como Eldritch Moon cambiaron más de lo necesario… Esto es más un problema interno que otra cosa, porque en el fondo lo que digo es que podríamos haber hecho las ediciones pequeñas igual de divertidas para vosotros sin gastar recursos valiosos y finitos por nuestra parte.»"
+        },
+        {
+          "title": "El mal ambiente se arrastra a lo siguiente que hagas",
+          "rules": "Una revelación no aterriza en el vacío: aterriza en el ánimo que dejó la entrega anterior. Si el proyecto previo agrió a la gente con un elemento, traerlo de vuelta enseguida obliga a la ejecución a reconquistarlos antes siquiera de poder ser juzgada por sí misma.",
+          "flavor": "«Siento que parte del mal ambiente creado por el bloque Battle for Zendikar se arrastró al bloque Shadows over Innistrad. Más que entusiasmo, creo que revelar que Emrakul estaba en Innistrad generó cierta decepción. Hicimos un gran trabajo de ejecución y ganamos a casi todos los cínicos, pero… ¿no debería haber habido un bloque o dos en medio?»"
+        },
+        {
+          "title": "Revisa tus propios tabúes y comprueba si la razón sigue vigente",
+          "rules": "Toda práctica acumula zonas que alguien declaró prohibidas. Reábrelas periódicamente y pregunta qué protegía exactamente la prohibición: a menudo puedes conseguir el espacio que querías sin tocar aquello que la regla existía para defender.",
+          "flavor": "«Otra parte es estar dispuesto a revisar zonas que antes declaraste fuera de límites. El bloque Battle for Zendikar encontró espacio nuevo tocando un área, la zona de exilio, que yo había sido muy reacio a explorar; pero me alegró que pudiéramos encontrar terreno nuevo sin socavar las razones por las que quise mantenerme fuera del exilio.»"
+        },
+        {
+          "title": "Todo lo que pienses conservar para siempre debería debutar en una frontera",
+          "rules": "Retener una convención permanente nueva hasta el momento en que se vuelve relevante parece considerado y la hace más difícil de aprender, porque durante un tramo la gente ve dos cosas que parecen distintas y se comportan igual. Introduce lo permanente al principio y deja que la familiaridad se acumule.",
+          "flavor": "«Decidimos conscientemente retrasar la introducción del símbolo de maná incoloro hasta que saliera la edición que lo hacía mecánicamente relevante. El resultado… fue que tuvimos cartas que parecían distintas pero funcionaban igual en el mismo entorno de Limitado. Creo que fue un error… deberíamos empezar las cosas permanentes al principio de un bloque.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "État de la conception 2016",
+      "dek": "Le verdict de l'année sur elle-même : trop de mécaniques, trop de changement entre les volets, et un retour centré sur la partie du monde qu'on aimait le moins.",
+      "overview": "La douzième auto-évaluation annuelle de Rosewater, sur la première année du modèle à deux blocs. Les réussites sont brèves ; les leçons portent sur une transition plus lourde que prévu.",
+      "takeaway": "« Nous aurions pu retirer sans peine au moins une mécanique par édition, et je ne crois pas que quiconque en aurait remarqué l'absence. »",
+      "lessons": [
+        {
+          "title": "En revenant à une chose aimée, revenez à ce qu'on aimait, pas à l'endroit où vous vous êtes arrêté",
+          "rules": "Un retour hérite de deux tractions : les affaires inachevées laissées derrière, et la qualité qui donnait envie de revenir. Elles coïncident rarement, et le suspense l'emporte par défaut car il ressemble à l'obligation. Vérifiez dans les études quelle part on aimait vraiment.",
+          "flavor": "« Ce que les joueurs aimaient le plus dans Zendikar, c'était son air de monde d'aventure… Puis, pour justifier le virage mécanique de la dernière édition, nous avons introduit un nouveau méchant, les Eldrazi… En revenant à Zendikar, nous avons repris le suspense du bloc d'origine et mis l'accent sur l'aspect du plan qu'on aimait le moins. »"
+        },
+        {
+          "title": "Certaines choses sont bonnes à petites doses et cessent de marcher en volume",
+          "rules": "Un élément peut être excellent précisément parce qu'il est rare, insondable ou écrasant — et ce sont ces propriétés qui rendent impossible d'en produire vingt variantes. Avant de démultiplier, demandez si son attrait survit à devenir courant.",
+          "flavor": "« J'aime les Eldrazi comme méchants, mais je crois qu'ils fonctionnent mieux à petites doses. Des aliens géants et insondables qui dévorent les mondes sont de beaux personnages, mais il est très difficile d'en tirer des cartes convaincantes quand il en faut plus qu'une poignée. Beaucoup de nos problèmes venaient de questions que nous n'aurions jamais dû avoir. »"
+        },
+        {
+          "title": "Nommez-vous quand l'erreur de fond est la vôtre",
+          "rules": "Un bilan public attribuant les échecs aux circonstances n'apprend rien à personne. Quand l'erreur remonte à une prémisse que vous avez posée, dites-le dans la même phrase que le diagnostic : c'est ce qui rend crédible le reste de l'évaluation.",
+          "flavor": "« Je dois préciser que l'idée de centrer le bloc sur une guerre entre les Eldrazi et les Zendikari était la mienne, alors j'essaie d'assumer qu'au cœur de cette conception, j'ai commis une erreur fondamentale. » Sur l'accueil des mécaniques : « La conception étant responsable des mécaniques, j'en porte l'entière responsabilité. »"
+        },
+        {
+          "title": "Empiler des systèmes achète de la complexité, pas de la profondeur",
+          "rules": "Voulant donner plus aux initiés, les équipes ajoutent une mécanique, puis une autre. Cela augmente ce que chacun doit apprendre sans guère bouger la profondeur. La profondeur vient d'un étagement à l'intérieur de l'existant : les mêmes éléments récompensant une meilleure compréhension.",
+          "flavor": "« Beaucoup s'inquiètent quand je parle de baisser la complexité, croyant que cela réduit la profondeur stratégique, mais la relation entre les deux est bien plus fine… L'exécution actuelle, qui crée un étagement mécanique en empilant les mécaniques, est fondamentalement défectueuse. »"
+        },
+        {
+          "title": "Retirer une chose appréciée coûte plus qu'une nouveauté ne rapporte",
+          "rules": "La suite a besoin de place, alors on coupe, d'ordinaire pour une raison interne au projet. Mais le public éprouve le retrait directement et l'ajout seulement comme une chose de plus à apprendre. Par défaut, gardez ; et que chaque nouveauté vaille mieux que le retrait qu'elle impose.",
+          "flavor": "« Les joueurs aimaient vraiment la mécanique d'investigation… Nous l'avons retirée d'Eldritch Moon car nous ajoutions trois mécaniques… Avec le recul, j'aurais préféré garder l'investigation et ne pas introduire l'escalade… Désormais, je questionne le retrait de mécaniques de la grande édition dans la petite : la plupart du temps, cela a créé plus d'insatisfaction que de joie. »"
+        },
+        {
+          "title": "Certains changements sont invisibles pour le public et coûteux pour vous — coupez ceux-là d'abord",
+          "rules": "Toute variation entre volets n'est pas perçue. Quand vous décidez de l'ampleur des modifications, séparez ce que les gens remarqueront de ce qui ne fait que vous coûter du travail — et coupez le second, car il consomme une capacité finie sans rien acheter.",
+          "flavor": "« Je crois aussi qu'Oath of the Gatewatch et Eldritch Moon ont changé plus que nécessaire… C'est surtout un problème interne, car ce que je dis au fond est que nous aurions pu rendre les petites éditions tout aussi amusantes pour vous sans consommer des ressources précieuses et limitées de notre côté. »"
+        },
+        {
+          "title": "La rancœur se reporte sur la chose suivante",
+          "rules": "Une révélation n'atterrit pas dans le vide : elle atterrit dans le sentiment laissé par le volet précédent. Si le projet d'avant a aigri les gens sur un élément, le ramener aussitôt oblige l'exécution à les reconquérir avant même de pouvoir être jugée pour elle-même.",
+          "flavor": "« J'ai le sentiment qu'une partie de la rancœur créée par le bloc Battle for Zendikar s'est reportée sur Shadows over Innistrad. Plutôt que de l'enthousiasme, la révélation d'Emrakul sur Innistrad a créé de la déception. Nous avons bien exécuté et rallié la plupart des sceptiques, mais… n'aurait-il pas fallu un bloc ou deux entre les deux ? »"
+        },
+        {
+          "title": "Rouvrez vos propres tabous et vérifiez si la raison tient encore",
+          "rules": "Toute pratique accumule des zones que quelqu'un a déclarées interdites. Rouvrez-les périodiquement et demandez ce que l'interdiction protégeait précisément : souvent, vous pouvez obtenir l'espace voulu sans toucher à ce que la règle défendait.",
+          "flavor": "« Une autre part consiste à accepter de rouvrir des zones qu'on avait déclarées interdites. Le bloc Battle for Zendikar a trouvé de l'espace neuf en touchant à une zone, l'exil, que j'étais très réticent à explorer — mais j'étais heureux que nous trouvions du terrain sans saper les raisons pour lesquelles je voulais rester hors de l'exil. »"
+        },
+        {
+          "title": "Ce que vous comptez garder pour toujours doit débuter à une frontière",
+          "rules": "Retenir une convention permanente jusqu'au moment où elle devient pertinente semble prévenant et la rend plus dure à apprendre, car pendant un temps on voit deux choses qui diffèrent d'aspect et se comportent pareil. Introduisez le durable au début, et laissez la familiarité s'accumuler.",
+          "flavor": "« Nous avons sciemment retardé l'introduction du symbole de mana incolore jusqu'à l'édition qui le rendait pertinent. Résultat… nous avions des cartes d'aspect différent au fonctionnement semblable dans le même Limité. Je crois que c'était une erreur… il faut lancer les choses durables au début d'un bloc, pas en cours de route. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Estado do design 2016",
+      "dek": "O veredicto do ano sobre si mesmo: mecânicas demais, mudança demais entre as parcelas, e um retorno que focou na parte do mundo de que menos gostavam.",
+      "overview": "A décima segunda autoavaliação anual de Rosewater, sobre o primeiro ano do modelo de dois blocos. Os acertos são breves; as lições tratam de uma transição maior do que o previsto.",
+      "takeaway": "“Poderíamos ter removido facilmente pelo menos uma mecânica por coleção e não acho que alguém sentiria falta.”",
+      "lessons": [
+        {
+          "title": "Ao voltar a algo querido, volte ao que as pessoas amavam, não ao ponto em que você parou",
+          "rules": "Um retorno herda duas forças: o assunto inacabado que ficou para trás e a qualidade que fez as pessoas quererem voltar. Raramente são a mesma coisa, e o gancho vence por padrão porque parece a obrigação. Confira na pesquisa de que parte gostavam de fato.",
+          "flavor": "“O que os jogadores mais amavam em Zendikar era a atmosfera de mundo de aventura… Então, para justificar a virada mecânica da última coleção, introduzimos um vilão novo, os Eldrazi… Ao escolher voltar a Zendikar, pegamos o gancho do bloco original e focamos no aspecto do plano de que os jogadores gostavam menos.”"
+        },
+        {
+          "title": "Algumas coisas são boas em doses pequenas e param de funcionar em volume",
+          "rules": "Um elemento pode ser excelente justamente por ser raro, insondável ou avassalador — e essas são as propriedades que tornam impossível produzir vinte variações dele. Antes de escalar algo, pergunte se o apelo sobrevive a virar comum.",
+          "flavor": "“Gosto dos Eldrazi como vilões, mas acho que funcionam melhor em doses pequenas. Alienígenas gigantes e insondáveis que devoram mundos são personagens ótimos, mas é muito difícil fazer cartas convincentes com eles quando é preciso fazer mais que um punhado. Muitos dos nossos problemas eram resolver questões que nunca deveríamos ter tido.”"
+        },
+        {
+          "title": "Cite a si mesmo quando o erro de raiz for seu",
+          "rules": "Uma autópsia pública que atribui falhas às circunstâncias não ensina nada a ninguém. Quando o erro remonta a uma premissa que você mesmo pôs, diga isso na mesma frase do diagnóstico — é o que torna crível o resto da avaliação.",
+          "flavor": "“Devo registrar que a ideia de centrar o bloco numa guerra entre os Eldrazi e os zendikari foi ideia minha, então estou tentando assumir que, no cerne deste design, cometi um erro fundamental.” Sobre a recepção das mecânicas: “Como o design é o principal responsável pelas mecânicas, assumo toda a culpa.”"
+        },
+        {
+          "title": "Empilhar sistemas compra complexidade, não profundidade",
+          "rules": "Querendo dar mais aos experientes, equipes acrescentam mais uma mecânica, e mais outra. Isso eleva o que todos precisam aprender e mal move o quão profunda a coisa é. Profundidade vem de estratificar dentro do que já existe: os mesmos elementos recompensando quem entende melhor.",
+          "flavor": "“Sei que muita gente se preocupa quando falo em baixar a complexidade, porque acha que isso reduz a profundidade estratégica, mas a relação entre as duas é bem mais detalhada… A execução atual, de criar estratificação mecânica empilhando mecânicas, é fundamentalmente falha.”"
+        },
+        {
+          "title": "Remover algo querido custa mais do que algo novo ganha",
+          "rules": "A continuação precisa de espaço, então algo é cortado, em geral por uma razão interna ao projeto. Mas o público vive a remoção diretamente e o acréscimo apenas como mais uma coisa a aprender. Por padrão, mantenha; e faça cada novidade superar a remoção que ela força.",
+          "flavor": "“Os jogadores gostavam muito da mecânica investigar… Nós a removemos de Eldritch Moon porque acrescentávamos três mecânicas novas… Olhando para trás, queria ter mantido investigar e não introduzido escalar… Em geral, daqui em diante questiono remover mecânicas da coleção grande na pequena. Na maioria das vezes criamos mais insatisfação que alegria.”"
+        },
+        {
+          "title": "Certa mudança é invisível para o público e cara para você — corte essa primeiro",
+          "rules": "Nem toda variação entre parcelas é percebida. Ao decidir quanto alterar, separe o que as pessoas vão registrar do que só custa esforço a você — e corte o segundo, porque consome capacidade finita e não compra nada.",
+          "flavor": "“Também acredito que tanto Oath of the Gatewatch quanto Eldritch Moon mudaram mais do que era necessário… Isso é mais uma questão interna, porque no fundo o que digo é que poderíamos ter feito as coleções pequenas igualmente divertidas para vocês sem consumir recursos valiosos e finitos do nosso lado.”"
+        },
+        {
+          "title": "A má vontade se transfere para a próxima coisa que você fizer",
+          "rules": "Uma revelação não aterrissa no vácuo: aterrissa no sentimento que a parcela anterior deixou. Se o projeto anterior azedou as pessoas com um elemento, trazê-lo de volta logo obriga a execução a reconquistá-las antes mesmo de poder ser julgada por si.",
+          "flavor": "“Sinto que parte da má vontade criada pelo bloco Battle for Zendikar foi levada para o bloco Shadows over Innistrad. Em vez de empolgação, acho que revelar Emrakul em Innistrad criou alguma decepção. Executamos muito bem e conquistamos a maioria dos céticos, mas… não deveria ter havido um bloco ou dois no meio?”"
+        },
+        {
+          "title": "Reabra os seus próprios tabus e confira se a razão ainda vale",
+          "rules": "Toda prática acumula áreas que alguém declarou proibidas. Reabra-as periodicamente e pergunte o que exatamente a proibição protegia — muitas vezes dá para conseguir o espaço que você queria sem tocar naquilo que a regra existia para defender.",
+          "flavor": "“Outra parte é estar disposto a revisitar áreas que você antes declarou fora dos limites. O bloco Battle for Zendikar achou espaço novo mexendo numa área, a zona de exílio, que eu relutava muito em explorar — mas fiquei feliz por acharmos terreno novo sem minar as razões pelas quais eu quisera ficar fora do exílio.”"
+        },
+        {
+          "title": "Tudo que você pretende manter para sempre deveria estrear numa fronteira",
+          "rules": "Segurar uma convenção permanente nova até o momento em que ela fica relevante parece atencioso e torna-a mais difícil de aprender, porque por um trecho as pessoas veem duas coisas que parecem diferentes e se comportam igual. Introduza o duradouro no começo e deixe a familiaridade se acumular.",
+          "flavor": "“Decidimos conscientemente segurar a introdução do símbolo de mana incolor até sair a coleção que o tornava relevante. O resultado… foi termos cartas que pareciam diferentes mas funcionavam de forma parecida no mesmo ambiente de Limitado. Acho que foi um erro… devemos começar as coisas duradouras no início de um bloco.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "2016年设计现状",
+      "dek": "这一年对自己的判决：机制太多、前后作之间的改动太多，以及一次「回访」把重心放在了人们最不喜欢的那一部分世界上。",
+      "overview": "罗斯瓦特第十二篇年度自评，覆盖「双系列组模式」的头一年。亮点很短；教训则关于一次比任何人预算的都要大的转型。",
+      "takeaway": "「我们本来很容易就能从每个系列里拿掉至少一个机制，而我认为不会有人察觉它不见了。」",
+      "lessons": [
+        {
+          "title": "回到一样被喜爱的东西时，回到人们喜爱的那一部分，而不是你停下的那个地方",
+          "rules": "一次回访会继承两股拉力：你留下的未竟之事，以及那份让人想要回来的品质。这两者很少是同一样东西；而那个悬念会默认胜出，因为它感觉像是义务。去查一查调研，看人们真正喜欢的是哪一部分。",
+          "flavor": "「玩家最爱赞迪卡的地方，是它那种冒险世界的感觉……随后，为了给最后一个系列在机制上的转向找理由，我们引入了一个全新的反派，鹏洛克……于是在选择回到赞迪卡时，我们接起了原系列组留下的那个悬念，然后把重心放到了玩家更不喜欢的那一面上。」"
+        },
+        {
+          "title": "有些东西在小剂量下很好，一上量就不灵了",
+          "rules": "一样元素之所以出色，可能恰恰因为它稀少、不可测度、或者压倒性——而正是这些性质，让「造出它的二十个变体」变得不可能。在把某样东西放大之前，先问：它的吸引力经得起变得常见吗。",
+          "flavor": "「我喜欢鹏洛克作为反派，但我认为它们在小剂量下效果最好。庞大、不可测度、吞噬世界的异形是很酷的角色；可当你必须做出不止一小把牌来时，用它们做出有说服力的牌就非常困难。我们在设计中遇到的很多问题，都是在解决一些我们本来根本不该有的问题。」"
+        },
+        {
+          "title": "当根子上的错误是你的时，把自己的名字说出来",
+          "rules": "一份把失败归给客观情况的公开复盘，谁也教不了。当这个错误可以追溯到一条由你亲自定下的前提时，就在诊断的同一句话里把它说出来——正是这一点，让这份评估的其余部分变得可信。",
+          "flavor": "「我应该说明：把这个系列组聚焦在鹏洛克与赞迪卡人之战上，这个主意是我出的；所以我在试着承认，在这个设计的核心处，我犯了一个根本性的错误。」谈到机制的接受度时：「由于机制主要由设计部负责，这件事我承担全部责任。」"
+        },
+        {
+          "title": "堆叠系统买到的是复杂度，不是深度",
+          "rules": "为了给老手更多，团队会加一个机制，再加一个。这抬高了所有人必须学的量，却几乎没有让这样东西变得更深。深度来自在已有的东西内部做分层——让同样的元素去奖励更好的理解。",
+          "flavor": "「我知道每当我谈到降低复杂度时，很多人会担心，因为他们以为这意味着削减策略深度；但这两者之间的关系其实要细致得多……眼下这种『靠把机制一个个堆上去来制造机制分层』的做法，根本上是有缺陷的。」"
+        },
+        {
+          "title": "拿掉一样被喜欢的东西，代价大于一样新东西的收益",
+          "rules": "续作需要空间，于是有东西被砍掉，而砍掉的理由通常是项目内部的。但受众直接体验到的是那次移除，而那次新增在他们那里只是「又一样要学的东西」。默认保留；并且让每一样新东西都得胜过它所迫使的那次移除。",
+          "flavor": "「玩家真的很喜欢『调查』这个机制……我们把它从《异月传奇》里拿掉了，因为我们要加进三个新机制……回头看，我希望我们当初留下了调查、而没有引入『升级』……总的来说，往后我对『把大系列的机制从小系列里拿掉』这件事是存疑的。我们这么做的大多数时候，制造出的不满多过快乐。」"
+        },
+        {
+          "title": "有些改动对受众不可见、对你却很贵——先砍这一类",
+          "rules": "并不是前后作之间的每一处变化都会被察觉。当你在决定改多少时，把「人们会注意到的」和「只是在消耗你力气的」分开——然后砍掉后一类，因为它吃掉有限的产能，却什么也没买到。",
+          "flavor": "「我也认为《誓约：守护者盟约》和《异月传奇》改动的都超出了必要……这更多是一个我们内部的问题；因为我从根本上想说的是：我们本可以把小系列做得对你们同样好玩，而不必消耗掉我们这边宝贵且有限的资源。」"
+        },
+        {
+          "title": "怨气会一路带到你做的下一样东西里",
+          "rules": "一次揭晓不会落进真空里；它落进的是上一部作品留下的那份情绪。如果前一个项目让人们对某样元素倒了胃口，紧接着把它拿回来，就意味着执行必须先把他们赢回来，然后才谈得上被就事论事地评判。",
+          "flavor": "「我感觉《战场：赞迪卡》系列组造成的一部分怨气，被带进了《暗影笼罩依尼翠》系列组。『伊莫库出现在依尼翠』这个揭晓带来的与其说是兴奋，不如说还夹着一些失望。我相信我们执行得很好、也赢回了大多数怀疑者，但……中间是不是本该隔上一两个系列组？」"
+        },
+        {
+          "title": "重新打开你自己立下的禁忌，查一查那条理由是否还成立",
+          "rules": "任何一门实践都会累积起一些「某人宣布过不许碰」的区域。定期把它们重新打开，并问清楚这条禁令具体在保护什么——你往往可以拿到自己想要的那片空间，而完全不碰那条规则原本要守护的东西。",
+          "flavor": "「另一部分，是愿意去重新审视那些你此前划为禁区的领域。《战场：赞迪卡》系列组通过去碰一个我一直非常不情愿探索的区域——放逐区——找到了新的空间；而让我高兴的是，我们能够在不动摇『我当初为什么想避开放逐区』那些理由的前提下，找到新的设计余地。」"
+        },
+        {
+          "title": "任何你打算永远保留的东西，都应当在一个边界处首次登场",
+          "rules": "把一项新的长期约定压住、直到它变得相关的那一刻才推出，看起来是体贴，实际却让它更难学——因为有那么一段时间，人们会看到两样长得不一样、行为却相同的东西。把长期性的东西放在开头引入，让熟悉度积累起来。",
+          "flavor": "「我们有意识地决定把无色法术力符号的引入压到『让它在机制上变得相关』的那个系列出来时。这个决定的结果……是我们在同一个限制赛环境里，有了一批看起来不一样、运作却相似的牌。我认为那个决定是个错误……我们应当在一个系列组的开头就启动新的长期性东西，而不是中途。」"
+        }
+      ]
+    }
+  }
+}
