@@ -1,0 +1,320 @@
+{
+  "id": "drawing-attention-2013-10-14",
+  "slug": "drawing-attention-2013-10-14",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-10-14",
+  "series": null,
+  "tags": ["game-design", "color-pie", "design-philosophy", "mechanics"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/drawing-attention-2013-10-14",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Drawing Attention",
+      "dek": "A whole column on the most basic mechanic there is: why the game hands out cards the way it does, and why too much of it breaks everything.",
+      "overview": "A preview card set Rosewater thinking about card drawing, and the result is a study of one mechanic from three directions. First, what the metered flow of cards does structurally — it is why each turn contains something new, why turns have a clean boundary, and where the game's recurring small drama comes from. Second, how each colour is permitted to do it, in a catalogue that turns out to include tutoring, regrowth, looting and land fetching. Third, the reason it is rationed, which he demonstrates by taking the Vintage restricted list apart and counting what is left.",
+      "takeaway": "The most dangerous resource in a system is usually the one that grants access to every other resource, and it will be hiding under several names. Count all of them, spread them across axes that make concentration expensive, and separate the versions that increase your total from the versions that only change what you are holding.",
+      "lessons": [
+        {
+          "title": "Hand out a resource all at once when it is the goal, and over time when it is the access",
+          "rules": "The game gives you your entire life total at the start and doles cards out one per turn, and the asymmetry is deliberate. Life is the win condition — it exists so there is something to be reduced, and it is not a means to anything. Cards are how you reach everything else: they become the resource system, they become the actions. Anything that grants access to the rest of the system has to be metered, because releasing it all at once collapses the sequence into a single decision. Anything that is purely the objective can be handed over up front.",
+          "flavor": "Life is frontloaded. Cards get doled out over the course of the game."
+        },
+        {
+          "title": "Put the reveal early, so it can be acted on in the same cycle",
+          "rules": "The new card arrives at the start of the turn rather than the end. The reason is not tidiness: information delivered at the top of a cycle has the whole cycle to change what somebody does with it, and information delivered at the bottom just sits there until next time. If your process periodically surfaces something new — a report, a reading, an assignment — check whether it lands before or after the decisions it should be informing. Moving it earlier costs nothing and multiplies what it is worth.",
+          "flavor": "You want to frontload the information to allow it maximum impact on the turn."
+        },
+        {
+          "title": "The number of options is a tuning parameter, and it should start low",
+          "rules": "Asked why the opening hand is seven, Richard Garfield's answer was a balance: enough cards to make the first decisions interesting, few enough that nobody is paralysed by them. The design intent is that a session opens narrow so the early turns move fast, then widens as it goes. That framing is the useful part — how many choices to present is not a fact about the content, it is a dial you set, and the right setting changes over the course of an experience rather than being constant.",
+          "flavor": "Enough cards to provide interesting decisions, without so much information that it causes paralysis."
+        },
+        {
+          "title": "Give a repeating process one visible, unmistakable boundary marker",
+          "rules": "Drawing a card is a clean physical action that happens at exactly one moment, and it does structural work beyond providing a card: it is what tells everyone where one person's turn ends and the next begins. Rosewater notes that people learning the game hold onto the structure of the turn, because it is the orderly thing available to grab. Any cyclical process benefits from one unambiguous act that marks the boundary. Without it the cycle is a continuum, and people cannot tell where they are in it.",
+          "flavor": "A nice, clean action that delineates the end of one turn with the beginning of the next."
+        },
+        {
+          "title": "Build a mechanism that manufactures unknown information continuously, rather than authoring surprises",
+          "rules": "A game needs hidden information, and there are two ways to have it: place specific surprises, which is finite work that runs out, or install a process that keeps producing them. The steady arrival of unseen cards does the second. It guarantees the supply without anybody deciding what any particular surprise will be, and it produces the secondary effect of making people reason about what might be coming — which is its own kind of play. Prefer the generator to the inventory whenever you can build one.",
+          "flavor": "One of the ways to guarantee hidden information is to constantly provide a flow of new cards."
+        },
+        {
+          "title": "A recurring uncertain moment pays out emotionally in both directions",
+          "rules": "Every draw is a small dramatic beat, and the reason it works is that you always need something. Get it and there is a spike; fail to get it and there is a different spike, no less felt. That is an unusually efficient piece of design — most devices produce a good outcome and a flat one, and this produces two live outcomes from the same event. When you are looking for where the feeling in an experience comes from, check the small repeated moments before the large staged ones.",
+          "flavor": "When you get it you're very happy. When you don't, there's an equal rush."
+        },
+        {
+          "title": "Audit your banned list for the common denominator; it names your most dangerous resource",
+          "rules": "He does the exercise in the column. Take the restricted list from the most permissive format, remove the cards that are about producing resources quickly, and twenty-six remain — of which twenty-two essentially draw cards. That is not an argument he constructed, it is a count he performed on a list assembled by other people for other reasons over two decades. Your own record of what had to be prohibited is data nobody deliberately collected. Sort it and see what keeps appearing.",
+          "flavor": "Twenty-six cards remain. Twenty-two of them essentially draw you cards. That's the problem."
+        },
+        {
+          "title": "The dangerous resource has aliases, and a budget that misses them is fiction",
+          "rules": "The first of his two stated keys is being more aware of what is and is not card drawing. Searching your library for a specific thing is card drawing. Returning something from the discard pile is card drawing. Discarding and then drawing is card drawing. Fetching a land is card drawing. None of these say so, and a team counting only the effects that use the word will build a budget that bears no relation to what is actually happening. Enumerate the aliases before you allocate.",
+          "flavor": "There are a lot of things that actually are card drawing but might not seem like it at first glance."
+        },
+        {
+          "title": "Diffuse a dangerous capability along axes that make concentration expensive",
+          "rules": "The second key is spreading it out, and specifically spreading it along dimensions that resist being recombined. Splitting it across colours works because the resource system punishes playing many colours. Splitting it across functionalities works because the different versions want to live in different decks. Both are better than simply printing less of it, because they preserve the total supply while making any individual player's access to all of it costly. Look for the dimension your system already charges people to cross.",
+          "flavor": "Sometimes it's done with colour, sometimes with functionality. The mana system does the rest."
+        },
+        {
+          "title": "Separate throughput from accumulation, because only one of them is dangerous",
+          "rules": "Not all of it is equally hazardous. Effects that move cards around without letting anyone end up with more than they started with are, in his words, nowhere near as dangerous and can be used liberally. The distinction is between changing what someone holds and increasing how much they hold, and it is invisible if you are counting instances. Two effects with the same word on them can sit in completely different risk categories, so classify by what happens to the total rather than by what the text says.",
+          "flavor": "Cards that draw but cannot net you card advantage are nowhere near as dangerous."
+        }
+      ]
+    },
+    "es": {
+      "title": "Robando atención",
+      "dek": "Una columna entera sobre la mecánica más básica que hay: por qué el juego reparte cartas como las reparte, y por qué demasiado de eso lo rompe todo.",
+      "overview": "Una carta de vista previa puso a Rosewater a pensar en el robo de cartas, y el resultado es un estudio de una mecánica desde tres direcciones. Primero, qué hace estructuralmente el flujo dosificado de cartas: es la razón de que cada turno contenga algo nuevo, de que los turnos tengan una frontera limpia, y de dónde sale el pequeño drama recurrente del juego. Segundo, cómo se le permite hacerlo a cada color, en un catálogo que resulta incluir tutores, regreso desde el cementerio, «looting» y búsqueda de tierras. Tercero, la razón de que esté racionado, que demuestra desmontando la lista restringida de Vintage y contando lo que queda.",
+      "takeaway": "El recurso más peligroso de un sistema suele ser el que da acceso a todos los demás, y estará escondido bajo varios nombres. Cuéntalos todos, repártelos por ejes que encarezcan la concentración, y separa las versiones que aumentan tu total de las que solo cambian lo que tienes en la mano.",
+      "lessons": [
+        {
+          "title": "Reparte un recurso de golpe cuando es la meta, y a lo largo del tiempo cuando es el acceso",
+          "rules": "El juego te da todo tu total de vidas al principio y te reparte cartas de una en una por turno, y la asimetría es deliberada. Las vidas son la condición de victoria: existen para que haya algo que reducir, y no son un medio para nada. Las cartas son cómo llegas a todo lo demás: se convierten en el sistema de recursos, se convierten en las acciones. Todo lo que da acceso al resto del sistema hay que dosificarlo, porque soltarlo entero colapsa la secuencia en una sola decisión. Todo lo que es puramente el objetivo se puede entregar por adelantado.",
+          "flavor": "Las vidas van todas por delante. Las cartas se reparten a lo largo de la partida."
+        },
+        {
+          "title": "Pon la revelación al principio, para que se pueda actuar sobre ella en el mismo ciclo",
+          "rules": "La carta nueva llega al comienzo del turno y no al final. El motivo no es el orden: la información entregada arriba de un ciclo tiene todo el ciclo para cambiar lo que alguien hace con ella, y la entregada abajo se queda ahí hasta la próxima vez. Si tu proceso saca a la superficie algo nuevo con periodicidad — un informe, una medición, una asignación —, comprueba si aterriza antes o después de las decisiones que debería informar. Adelantarlo no cuesta nada y multiplica lo que vale.",
+          "flavor": "Quieres poner la información por delante para que tenga el máximo impacto en el turno."
+        },
+        {
+          "title": "El número de opciones es un parámetro de ajuste, y debería empezar bajo",
+          "rules": "Preguntado por qué la mano inicial es de siete, la respuesta de Richard Garfield fue un equilibrio: cartas suficientes para que las primeras decisiones sean interesantes, y pocas suficientes para que nadie quede paralizado. La intención de diseño es que una partida abra estrecha para que los primeros turnos vayan rápido y luego se ensanche. Ese encuadre es lo útil: cuántas opciones presentar no es un hecho sobre el contenido, es un dial que tú fijas, y el valor correcto cambia a lo largo de la experiencia en vez de ser constante.",
+          "flavor": "Cartas suficientes para dar decisiones interesantes, sin tanta información como para causar parálisis."
+        },
+        {
+          "title": "Dale a un proceso repetitivo un marcador de frontera visible e inconfundible",
+          "rules": "Robar una carta es una acción física limpia que ocurre en un momento exacto, y hace un trabajo estructural más allá de proporcionar una carta: es lo que le dice a todos dónde acaba el turno de uno y empieza el del siguiente. Rosewater señala que quien está aprendiendo el juego se agarra a la estructura del turno, porque es lo ordenado que tiene a mano. Todo proceso cíclico se beneficia de un acto inequívoco que marque la frontera. Sin él, el ciclo es un continuo y la gente no sabe en qué punto está.",
+          "flavor": "Una acción limpia y clara que separa el final de un turno del comienzo del siguiente."
+        },
+        {
+          "title": "Construye un mecanismo que fabrique información desconocida sin parar, en vez de escribir sorpresas",
+          "rules": "Un juego necesita información oculta, y hay dos maneras de tenerla: colocar sorpresas concretas, que es trabajo finito y se agota, o instalar un proceso que las siga produciendo. La llegada constante de cartas no vistas hace lo segundo. Garantiza el suministro sin que nadie decida cuál será cada sorpresa concreta, y produce el efecto secundario de hacer que la gente razone sobre qué podría venir, que es un tipo de juego en sí mismo. Prefiere el generador al inventario siempre que puedas construir uno.",
+          "flavor": "Una forma de garantizar información oculta es proporcionar constantemente un flujo de cartas nuevas."
+        },
+        {
+          "title": "Un momento incierto recurrente paga emocionalmente en las dos direcciones",
+          "rules": "Cada robo es un pequeño golpe dramático, y funciona porque siempre necesitas algo. Lo consigues y hay un pico; no lo consigues y hay otro pico, no menos sentido. Es una pieza de diseño inusualmente eficiente: la mayoría de los dispositivos producen un resultado bueno y otro plano, y este produce dos resultados vivos del mismo suceso. Cuando busques de dónde sale el sentimiento en una experiencia, revisa los pequeños momentos repetidos antes que los grandes montados.",
+          "flavor": "Cuando lo consigues estás muy contento. Cuando no, hay una descarga igual."
+        },
+        {
+          "title": "Audita tu lista de prohibidos buscando el denominador común: nombra tu recurso más peligroso",
+          "rules": "Él hace el ejercicio en la columna. Coge la lista restringida del formato más permisivo, quita las cartas que van de producir recursos rápido y quedan veintiséis, de las cuales veintidós esencialmente roban cartas. Eso no es un argumento que él construyera, es un recuento que hizo sobre una lista ensamblada por otras personas y por otros motivos a lo largo de dos décadas. Tu propio registro de lo que hubo que prohibir son datos que nadie recopiló a propósito. Ordénalos y mira qué se repite.",
+          "flavor": "Quedan veintiséis cartas. Veintidós de ellas esencialmente te roban cartas. Ese es el problema."
+        },
+        {
+          "title": "El recurso peligroso tiene alias, y un presupuesto que se los salte es ficción",
+          "rules": "La primera de sus dos claves declaradas es ser más consciente de qué es y qué no es robar cartas. Buscar en tu biblioteca algo concreto es robar cartas. Devolver algo del cementerio es robar cartas. Descartar y luego robar es robar cartas. Buscar una tierra es robar cartas. Ninguna lo dice, y un equipo que solo cuente los efectos que usan la palabra construirá un presupuesto sin relación alguna con lo que de verdad ocurre. Enumera los alias antes de asignar.",
+          "flavor": "Hay muchas cosas que en realidad son robar cartas pero que a primera vista no lo parecen."
+        },
+        {
+          "title": "Difunde una capacidad peligrosa por ejes que encarezcan la concentración",
+          "rules": "La segunda clave es repartirla, y en concreto repartirla por dimensiones que se resistan a recombinarse. Dividirla por colores funciona porque el sistema de recursos castiga jugar muchos colores. Dividirla por funcionalidades funciona porque las distintas versiones quieren vivir en mazos distintos. Ambas son mejores que sencillamente imprimir menos, porque preservan el suministro total mientras encarecen el acceso de cualquier jugador concreto a todo él. Busca la dimensión que tu sistema ya cobra por cruzar.",
+          "flavor": "A veces se hace con el color, a veces con la funcionalidad. El sistema de maná hace el resto."
+        },
+        {
+          "title": "Separa el caudal de la acumulación, porque solo uno de los dos es peligroso",
+          "rules": "No todo es igual de arriesgado. Los efectos que mueven cartas sin permitir que nadie acabe con más de las que empezó son, en sus palabras, ni de lejos tan peligrosos y se pueden usar con generosidad. La distinción está entre cambiar lo que alguien tiene y aumentar cuánto tiene, y es invisible si cuentas instancias. Dos efectos con la misma palabra encima pueden estar en categorías de riesgo completamente distintas, así que clasifica por lo que le pasa al total y no por lo que dice el texto.",
+          "flavor": "Las cartas que roban pero no pueden darte ventaja de cartas no son ni de lejos tan peligrosas."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Attirer l'attention",
+      "dek": "Une chronique entière sur la mécanique la plus élémentaire qui soit : pourquoi le jeu distribue les cartes comme il le fait, et pourquoi en abuser casse tout.",
+      "overview": "Une carte d'avant-première a mis Rosewater à réfléchir à la pioche, et il en résulte l'étude d'une mécanique sous trois angles. D'abord ce que le flux dosé de cartes accomplit structurellement : c'est pourquoi chaque tour contient du neuf, pourquoi les tours ont une frontière nette, et d'où vient le petit drame récurrent du jeu. Ensuite comment chaque couleur est autorisée à le faire, dans un catalogue qui inclut finalement la recherche, le retour du cimetière, le défausser-piocher et la quête de terrain. Enfin la raison du rationnement, qu'il démontre en démontant la liste restreinte du Vintage et en comptant ce qui reste.",
+      "takeaway": "La ressource la plus dangereuse d'un système est en général celle qui donne accès à toutes les autres, et elle se cache sous plusieurs noms. Comptez-les toutes, répartissez-les sur des axes qui rendent la concentration coûteuse, et séparez les versions qui augmentent votre total de celles qui changent seulement ce que vous tenez.",
+      "lessons": [
+        {
+          "title": "Distribuez une ressource d'un coup quand elle est le but, et dans la durée quand elle est l'accès",
+          "rules": "Le jeu vous donne tout votre total de points de vie au départ et vous distribue une carte par tour, et l'asymétrie est délibérée. Les points de vie sont la condition de victoire : ils existent pour qu'il y ait quelque chose à réduire, et ne sont un moyen de rien. Les cartes sont la façon d'atteindre tout le reste : elles deviennent le système de ressources, elles deviennent les actions. Tout ce qui donne accès au reste du système doit être dosé, car tout libérer d'un coup réduit la séquence à une seule décision. Tout ce qui est purement l'objectif peut être remis d'emblée.",
+          "flavor": "Les points de vie sont donnés d'avance. Les cartes sont distribuées au fil de la partie."
+        },
+        {
+          "title": "Placez la révélation tôt, pour qu'on puisse agir dessus dans le même cycle",
+          "rules": "La nouvelle carte arrive au début du tour et non à la fin. La raison n'est pas la propreté : une information livrée en haut d'un cycle a tout le cycle pour changer ce qu'on en fait, tandis qu'une information livrée en bas reste là jusqu'à la fois suivante. Si votre processus fait périodiquement remonter du neuf — un rapport, une mesure, une affectation — vérifiez s'il atterrit avant ou après les décisions qu'il devrait éclairer. L'avancer ne coûte rien et multiplie sa valeur.",
+          "flavor": "On veut placer l'information en amont pour lui donner un impact maximal sur le tour."
+        },
+        {
+          "title": "Le nombre d'options est un paramètre de réglage, et il devrait démarrer bas",
+          "rules": "Interrogé sur les sept cartes de la main de départ, Richard Garfield a répondu par un équilibre : assez de cartes pour rendre les premières décisions intéressantes, assez peu pour que personne ne soit paralysé. L'intention est qu'une partie s'ouvre étroite pour que les premiers tours filent, puis s'élargisse. Ce cadrage est l'utile : combien de choix présenter n'est pas un fait sur le contenu, c'est un curseur que vous réglez, et le bon réglage change au cours de l'expérience au lieu d'être constant.",
+          "flavor": "Assez de cartes pour offrir des décisions intéressantes, sans tant d'informations que cela paralyse."
+        },
+        {
+          "title": "Donnez à un processus répétitif un marqueur de frontière visible et sans ambiguïté",
+          "rules": "Piocher est un geste physique net qui a lieu à un instant précis, et il fait un travail structurel au-delà de fournir une carte : c'est lui qui dit à tous où finit le tour de l'un et commence celui de l'autre. Rosewater note que ceux qui apprennent le jeu s'accrochent à la structure du tour, parce que c'est l'élément ordonné à leur portée. Tout processus cyclique gagne à posséder un acte sans équivoque qui marque la frontière. Sans lui, le cycle est un continuum et l'on ne sait plus où l'on en est.",
+          "flavor": "Un geste net et propre qui sépare la fin d'un tour du début du suivant."
+        },
+        {
+          "title": "Bâtissez un mécanisme qui fabrique de l'inconnu en continu, plutôt que d'écrire des surprises",
+          "rules": "Un jeu a besoin d'information cachée, et il y a deux façons d'en avoir : placer des surprises précises, travail fini qui s'épuise, ou installer un processus qui continue d'en produire. L'arrivée régulière de cartes non vues fait la seconde. Elle garantit l'approvisionnement sans que personne décide quelle sera chaque surprise, et produit l'effet secondaire de faire raisonner les gens sur ce qui pourrait venir, ce qui est un jeu en soi. Préférez le générateur au stock chaque fois que vous pouvez en construire un.",
+          "flavor": "Une façon de garantir l'information cachée est de fournir constamment un flux de cartes nouvelles."
+        },
+        {
+          "title": "Un moment d'incertitude récurrent paie émotionnellement dans les deux sens",
+          "rules": "Chaque pioche est un petit temps dramatique, et cela marche parce qu'on a toujours besoin de quelque chose. Vous l'obtenez et il y a un pic ; vous ne l'obtenez pas et il y a un autre pic, non moins ressenti. C'est un dispositif d'une efficacité rare : la plupart produisent un résultat bon et un résultat plat, celui-ci produit deux résultats vivants du même événement. Quand vous cherchez d'où vient l'émotion dans une expérience, regardez les petits moments répétés avant les grands moments mis en scène.",
+          "flavor": "Quand vous l'obtenez, vous êtes ravi. Quand vous ne l'obtenez pas, la décharge est égale."
+        },
+        {
+          "title": "Auditez votre liste d'interdits pour en tirer le dénominateur commun : il nomme votre ressource la plus dangereuse",
+          "rules": "Il fait l'exercice dans la chronique. Prenez la liste restreinte du format le plus permissif, retirez les cartes qui servent à produire vite des ressources, il en reste vingt-six — dont vingt-deux piochent essentiellement des cartes. Ce n'est pas un argument qu'il a construit, c'est un décompte fait sur une liste assemblée par d'autres, pour d'autres raisons, sur deux décennies. Votre propre registre de ce qu'il a fallu interdire est une donnée que personne n'a collectée exprès. Triez-le et regardez ce qui revient.",
+          "flavor": "Il reste vingt-six cartes. Vingt-deux d'entre elles vous font piocher. Voilà le problème."
+        },
+        {
+          "title": "La ressource dangereuse a des alias, et un budget qui les manque est une fiction",
+          "rules": "La première de ses deux clés est d'être plus conscient de ce qui est et n'est pas de la pioche. Chercher une chose précise dans sa bibliothèque, c'est piocher. Récupérer une chose du cimetière, c'est piocher. Défausser puis piocher, c'est piocher. Aller chercher un terrain, c'est piocher. Aucune ne le dit, et une équipe qui ne compte que les effets employant le mot bâtira un budget sans rapport avec ce qui se passe. Énumérez les alias avant d'allouer.",
+          "flavor": "Beaucoup de choses sont en réalité de la pioche sans en avoir l'air au premier coup d'œil."
+        },
+        {
+          "title": "Diffusez une capacité dangereuse sur des axes qui rendent la concentration coûteuse",
+          "rules": "La seconde clé est de l'étaler, et précisément de l'étaler sur des dimensions qui résistent à la recombinaison. La répartir entre couleurs marche parce que le système de ressources punit le fait d'en jouer beaucoup. La répartir entre fonctionnalités marche parce que les versions veulent vivre dans des decks différents. Les deux valent mieux que d'en imprimer moins, car elles préservent l'offre totale tout en rendant coûteux l'accès d'un joueur à la totalité. Cherchez la dimension que votre système fait déjà payer à traverser.",
+          "flavor": "Parfois avec la couleur, parfois avec la fonctionnalité. Le système de mana fait le reste."
+        },
+        {
+          "title": "Séparez le débit de l'accumulation, car un seul des deux est dangereux",
+          "rules": "Tout n'est pas également risqué. Les effets qui déplacent des cartes sans permettre à quiconque de finir avec plus qu'au départ sont, selon ses mots, loin d'être aussi dangereux et peuvent servir généreusement. La distinction est entre changer ce que quelqu'un tient et augmenter combien il en tient, et elle est invisible si vous comptez des occurrences. Deux effets portant le même mot peuvent relever de catégories de risque entièrement différentes : classez selon ce qui arrive au total, pas selon ce que dit le texte.",
+          "flavor": "Les cartes qui piochent sans pouvoir vous donner d'avantage sont loin d'être aussi dangereuses."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Chamando atenção",
+      "dek": "Uma coluna inteira sobre a mecânica mais básica que existe: por que o jogo distribui cartas do jeito que distribui, e por que excesso disso quebra tudo.",
+      "overview": "Uma carta de prévia pôs Rosewater a pensar em compra de cartas, e o resultado é um estudo de uma mecânica por três direções. Primeiro, o que o fluxo dosado de cartas faz estruturalmente: é por isso que cada turno contém algo novo, que os turnos têm uma fronteira limpa, e de onde vem o pequeno drama recorrente do jogo. Segundo, como cada cor tem permissão de fazê-lo, num catálogo que acaba incluindo tutores, retorno do cemitério, descarte-e-compra e busca de terreno. Terceiro, o motivo do racionamento, que ele demonstra desmontando a lista restrita do Vintage e contando o que sobra.",
+      "takeaway": "O recurso mais perigoso de um sistema costuma ser aquele que dá acesso a todos os outros, e ele estará escondido sob vários nomes. Conte todos, espalhe-os por eixos que encareçam a concentração, e separe as versões que aumentam o seu total das que só mudam o que você tem na mão.",
+      "lessons": [
+        {
+          "title": "Entregue um recurso de uma vez quando ele é o objetivo, e ao longo do tempo quando ele é o acesso",
+          "rules": "O jogo dá todo o seu total de vidas no início e distribui cartas uma por turno, e a assimetria é deliberada. Vidas são a condição de vitória: existem para haver algo a reduzir, e não são meio para nada. Cartas são como você alcança todo o resto: viram o sistema de recursos, viram as ações. Tudo que dá acesso ao resto do sistema precisa ser dosado, porque soltar tudo de uma vez colapsa a sequência numa única decisão. Tudo que é puramente o objetivo pode ser entregue de saída.",
+          "flavor": "As vidas vêm todas na frente. As cartas são distribuídas ao longo da partida."
+        },
+        {
+          "title": "Ponha a revelação cedo, para que se possa agir sobre ela no mesmo ciclo",
+          "rules": "A carta nova chega no começo do turno, não no fim. O motivo não é arrumação: informação entregue no topo de um ciclo tem o ciclo inteiro para mudar o que alguém faz com ela, e informação entregue no fim fica parada até a próxima vez. Se o seu processo periodicamente traz algo novo à tona — um relatório, uma medição, uma atribuição —, confira se ele aterrissa antes ou depois das decisões que deveria informar. Adiantá-lo não custa nada e multiplica o que ele vale.",
+          "flavor": "Você quer pôr a informação na frente para dar a ela o máximo impacto no turno."
+        },
+        {
+          "title": "O número de opções é um parâmetro de ajuste, e deve começar baixo",
+          "rules": "Perguntado por que a mão inicial é de sete, a resposta de Richard Garfield foi um equilíbrio: cartas suficientes para tornar as primeiras decisões interessantes, poucas o bastante para ninguém ficar paralisado. A intenção é que uma partida abra estreita, para os primeiros turnos correrem rápido, e depois se alargue. Esse enquadramento é o útil: quantas escolhas apresentar não é um fato sobre o conteúdo, é um botão que você regula, e o ajuste certo muda ao longo da experiência em vez de ser constante.",
+          "flavor": "Cartas suficientes para dar decisões interessantes, sem tanta informação a ponto de paralisar."
+        },
+        {
+          "title": "Dê a um processo repetitivo um marcador de fronteira visível e inconfundível",
+          "rules": "Comprar uma carta é uma ação física limpa que acontece num momento exato, e faz um trabalho estrutural além de fornecer uma carta: é ela que diz a todos onde o turno de um acaba e o do próximo começa. Rosewater observa que quem está aprendendo o jogo se agarra à estrutura do turno, porque é a coisa ordenada disponível. Todo processo cíclico se beneficia de um ato inequívoco que marque a fronteira. Sem ele, o ciclo é um contínuo, e as pessoas não sabem em que ponto estão.",
+          "flavor": "Uma ação limpa e clara que separa o fim de um turno do começo do seguinte."
+        },
+        {
+          "title": "Construa um mecanismo que fabrique informação desconhecida continuamente, em vez de escrever surpresas",
+          "rules": "Um jogo precisa de informação oculta, e há dois jeitos de tê-la: posicionar surpresas específicas, que é trabalho finito e se esgota, ou instalar um processo que siga produzindo-as. A chegada constante de cartas não vistas faz a segunda. Ela garante o suprimento sem ninguém decidir qual será cada surpresa, e produz o efeito secundário de fazer as pessoas raciocinarem sobre o que pode vir, que é um tipo de jogo em si. Prefira o gerador ao estoque sempre que conseguir construir um.",
+          "flavor": "Um jeito de garantir informação oculta é fornecer constantemente um fluxo de cartas novas."
+        },
+        {
+          "title": "Um momento incerto recorrente paga emocionalmente nos dois sentidos",
+          "rules": "Cada compra é uma pequena batida dramática, e funciona porque você sempre precisa de algo. Consegue e há um pico; não consegue e há outro pico, não menos sentido. É uma peça de design incomumente eficiente: a maioria dos dispositivos produz um resultado bom e um chato, e este produz dois resultados vivos do mesmo evento. Quando estiver procurando de onde vem o sentimento numa experiência, verifique os pequenos momentos repetidos antes dos grandes momentos encenados.",
+          "flavor": "Quando você consegue, fica muito feliz. Quando não, há uma descarga igual."
+        },
+        {
+          "title": "Audite sua lista de banidos atrás do denominador comum: ele nomeia seu recurso mais perigoso",
+          "rules": "Ele faz o exercício na coluna. Pegue a lista restrita do formato mais permissivo, tire as cartas que tratam de produzir recursos rápido, e sobram vinte e seis — das quais vinte e duas essencialmente compram cartas. Isso não é um argumento que ele construiu, é uma contagem que ele fez sobre uma lista montada por outras pessoas, por outros motivos, ao longo de duas décadas. Seu próprio registro do que teve de ser proibido é um dado que ninguém coletou de propósito. Ordene-o e veja o que reaparece.",
+          "flavor": "Sobram vinte e seis cartas. Vinte e duas delas essencialmente compram cartas. Esse é o problema."
+        },
+        {
+          "title": "O recurso perigoso tem apelidos, e um orçamento que os perde é ficção",
+          "rules": "A primeira das duas chaves declaradas é estar mais consciente do que é e do que não é comprar cartas. Procurar algo específico no grimório é comprar cartas. Devolver algo do cemitério é comprar cartas. Descartar e então comprar é comprar cartas. Buscar um terreno é comprar cartas. Nenhuma diz isso, e uma equipe que conte só os efeitos que usam a palavra montará um orçamento sem relação nenhuma com o que de fato acontece. Enumere os apelidos antes de alocar.",
+          "flavor": "Há muita coisa que na verdade é comprar cartas mas que à primeira vista não parece."
+        },
+        {
+          "title": "Difunda uma capacidade perigosa por eixos que encareçam a concentração",
+          "rules": "A segunda chave é espalhá-la, e especificamente espalhá-la por dimensões que resistam à recombinação. Dividi-la por cores funciona porque o sistema de recursos pune jogar muitas cores. Dividi-la por funcionalidades funciona porque as versões diferentes querem morar em baralhos diferentes. Ambas são melhores do que simplesmente imprimir menos, porque preservam o suprimento total encarecendo o acesso de qualquer jogador a tudo aquilo. Procure a dimensão que o seu sistema já cobra para atravessar.",
+          "flavor": "Às vezes é com a cor, às vezes com a funcionalidade. O sistema de mana faz o resto."
+        },
+        {
+          "title": "Separe vazão de acumulação, porque só uma das duas é perigosa",
+          "rules": "Nem tudo é igualmente arriscado. Efeitos que movem cartas sem deixar ninguém terminar com mais do que começou são, nas palavras dele, nem de longe tão perigosos e podem ser usados com generosidade. A distinção é entre mudar o que alguém tem e aumentar quanto tem, e ela é invisível se você estiver contando ocorrências. Dois efeitos com a mesma palavra em cima podem estar em categorias de risco completamente diferentes, então classifique pelo que acontece ao total, e não pelo que o texto diz.",
+          "flavor": "Cartas que compram mas não podem te dar vantagem de cartas não são nem de longe tão perigosas."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "抽牌这件事",
+      "dek": "一整期专栏，谈的是最基础不过的一个机制：这个游戏为什么以这种方式把牌发给你，以及为什么这东西一多就会把一切弄坏。",
+      "overview": "一张预览牌让罗斯瓦特开始琢磨抽牌，结果是从三个方向对一个机制所做的研究。第一，被定量释放的牌流在结构上做了什么——它是每个回合都会有新东西的原因，是回合有一道干净边界的原因，也是这个游戏那一点反复出现的小戏剧的来源。第二，每个颜色被允许怎么做，而这份清单最后把搜索牌库、从坟场取回、弃牌再抽、找地统统包了进去。第三，它为什么要被配给——他把特选赛的限制牌表拆开、数了数剩下的，用这个来证明。",
+      "takeaway": "一个系统里最危险的资源，通常就是那个能通往其他所有资源的；而它会藏在好几个不同的名字底下。把它们全部数出来，沿着「让集中变昂贵」的那些轴把它们摊开，并且把「增加你的总量」的版本和「只改变你手上拿着什么」的版本分开。",
+      "lessons": [
+        {
+          "title": "当一种资源是目标时一次性发完，当它是通路时随时间发放",
+          "rules": "这个游戏在开局就把全部生命值给你，而牌是每回合发一张——这种不对称是刻意的。生命是胜利条件：它存在是为了有一样东西可以被削减，它本身不通往任何别的东西。牌则是你抵达其余一切的方式：它们变成资源系统，也变成行动。任何能通往系统其余部分的东西都必须定量释放，因为一次性放开会把整个序列压缩成一个决定。而任何纯粹是目标的东西，可以一开始就交出去。",
+          "flavor": "生命是一开始就给足的。牌是在整局过程中一点点发的。"
+        },
+        {
+          "title": "把揭示放在早处，好让人在同一个周期里就能据此行动",
+          "rules": "新牌是在回合开始时到来，而不是结束时。理由不是整齐：在一个周期顶部交付的信息，有整个周期的时间去改变某人拿它做什么；而在底部交付的信息只会搁在那里等下一次。如果你的流程会周期性地把某样新东西浮出水面——一份报告、一次读数、一项分派——请检查它落在「它本该影响的那些决定」之前还是之后。把它往前挪不花任何成本，却成倍放大它的价值。",
+          "flavor": "你希望把信息前置，好让它对这一回合产生最大影响。"
+        },
+        {
+          "title": "选项的数量是一个可调参数，而且它该从低处起步",
+          "rules": "被问到起手为什么是七张时，理查德·加菲尔德的回答是一种平衡：牌要多到让最初几个决定有意思，又要少到不会有人被它们卡住。设计意图是：一局从窄处开场，好让前几个回合走得快，然后逐渐展开。这个框架才是有用的部分——「呈现多少选择」不是一个关于内容的事实，而是一个由你设定的旋钮；而且正确的设定值会在整段体验中变化，而不是恒定。",
+          "flavor": "牌要够多，多到能提供有意思的决定；又不能多到信息量造成瘫痪。"
+        },
+        {
+          "title": "给一个重复的流程一个看得见、不会认错的边界标记",
+          "rules": "抽一张牌是一个干净的、发生在某个确切时刻的物理动作；而它做的结构性工作远不止「提供一张牌」：正是它告诉所有人，一个人的回合在哪里结束、下一个人的从哪里开始。罗斯瓦特提到，正在学这个游戏的人会紧抓着回合的结构不放，因为那是手边唯一有秩序的东西。任何循环性的流程，都受益于一个标记边界的、不含糊的动作。没有它，这个循环就是一段连续体，而人们说不出自己身在何处。",
+          "flavor": "一个干净利落的动作，把一个回合的结束和下一个回合的开始分了开来。"
+        },
+        {
+          "title": "去造一台持续制造未知信息的机器，而不是去撰写一个个惊喜",
+          "rules": "一个游戏需要隐藏信息，而拥有它有两条路：布置一个个具体的惊喜——那是有限的工作量，会耗尽；或者装一套会不断产出惊喜的流程。没见过的牌源源不断地到来，做的是后者。它在没有任何人决定「某个具体惊喜是什么」的情况下保证了供给，并且产生了一个副作用：让人们去推理接下来可能来什么——而这本身就是一种玩法。只要你能造出一台生成器，就优先选它，而不是选一份存货清单。",
+          "flavor": "保证隐藏信息的办法之一，就是持续提供新牌的流动。"
+        },
+        {
+          "title": "一个反复出现的不确定时刻，在两个方向上都会兑现情绪",
+          "rules": "每一次抽牌都是一个小小的戏剧节拍；而它之所以奏效，是因为你永远都缺点什么。抽到了，有一个峰值；没抽到，也有另一个峰值，而且丝毫不弱。这是一件效率异常之高的设计：大多数装置产出的是「一个好结果加一个平淡结果」，而这一件从同一个事件里产出了两个都活着的结果。当你在找一段体验里的情绪从哪儿来时，先看那些小而重复的时刻，再看那些大而排演过的。",
+          "flavor": "抽到了你会很高兴。没抽到，那股冲击一样大。"
+        },
+        {
+          "title": "把你的禁牌名单拿去找共同分母；它会点出你最危险的那种资源",
+          "rules": "他在专栏里做了这个练习。取最宽松那个赛制的限制名单，把那些「快速产出资源」的牌拿掉，剩下二十六张——其中二十二张本质上都在让你抽牌。这不是他构造出来的论证，而是他在一份「由别人、出于别的理由、在二十年间陆续拼起来」的名单上做的一次清点。你自己那份「不得不禁掉什么」的记录，是一份没有任何人刻意采集过的数据。把它排一排，看看什么在反复出现。",
+          "flavor": "还剩二十六张。其中二十二张本质上都在让你抽牌。问题就在这儿。"
+        },
+        {
+          "title": "危险的那种资源有别名；漏掉它们的预算是一份虚构",
+          "rules": "他说出口的两个要点里，第一个是：要更清楚什么算抽牌、什么不算。从牌库里搜出某样具体的东西，是抽牌。从坟场取回一样东西，是抽牌。先弃后抽，是抽牌。去找一块地，是抽牌。它们没有一个自称如此；而一个只统计「用了那个词的效果」的团队，会做出一份与实际情况毫无关系的预算。在分配之前，先把别名一一列出来。",
+          "flavor": "有很多东西其实就是抽牌，只是乍一看不像。"
+        },
+        {
+          "title": "沿着那些「让集中变昂贵」的轴，把一项危险的能力摊开",
+          "rules": "第二个要点是把它散开，而且是沿着那些抗拒被重新组合的维度散开。按颜色切分之所以奏效，是因为资源系统会惩罚「打太多颜色」。按功能切分之所以奏效，是因为不同的版本想住进不同的套牌。这两者都好过「干脆少印一点」，因为它们保住了总供给量，同时让任何一个玩家想拿到全部都变得昂贵。去找出你的系统本来就会为「跨越」而收费的那个维度。",
+          "flavor": "有时用颜色，有时用功能。剩下的交给法术力系统。"
+        },
+        {
+          "title": "把流量和积累分开，因为危险的只有其中一个",
+          "rules": "并非全都同样危险。那些只是把牌挪来挪去、却不让任何人最后手上比开始时更多的效果，用他的话说，远没有那么危险，可以放开了用。这个区分在于「改变某人手里拿的是什么」和「增加他手里拿了多少」之间，而如果你只在数实例数量，它是看不见的。两个印着同一个词的效果，可能落在完全不同的风险类别里；所以要按「总量发生了什么」来分类，而不是按文本怎么写来分类。",
+          "flavor": "那些会抽牌、却不可能让你净赚牌张优势的牌，远没有那么危险。"
+        }
+      ]
+    }
+  }
+}
