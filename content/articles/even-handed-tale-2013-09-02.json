@@ -1,0 +1,320 @@
+{
+  "id": "even-handed-tale-2013-09-02",
+  "slug": "even-handed-tale-2013-09-02",
+  "column": "making-magic",
+  "author": "Ethan Fleischer",
+  "publishedAt": "2013-09-02",
+  "series": null,
+  "tags": ["top-down", "design-story", "process", "creature-types"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/even-handed-tale-2013-09-02",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "An Even-Handed Tale",
+      "dek": "The intern who was told to go research Greek mythology, and what he did with the assignment — written by the intern.",
+      "overview": "One of the few Making Magic columns not written by Rosewater. Ethan Fleischer, then a thirty-five-year-old intern, was handed a research project ahead of a set he was not yet on the design team for, and this is his account of it. He produced a short bound book with five sections, used inside the company both to pitch the direction and as reference in design meetings. The rest of the column is about the adaptation problem he found: unlike the previous top-down world, this source turned out not to be trope-rich, so the unit of design had to change.",
+      "takeaway": "The valuable output of source research is not a summary of the source. It is the difference between the source and what you have already done with it, plus a proposed translation into your own system — and it should exist as an object people can pick up.",
+      "lessons": [
+        {
+          "title": "Make the research artifact a physical object people can pick up",
+          "rules": "He did not deliver a memo. He wrote the document, then had a small print run bound as short saddle-stitched volumes, and those copies did two separate jobs: they were what he and the lead used to show parties around the company what direction the set was heading, and they sat on the table during design meetings as reference. A bound object gets handled, gets carried into rooms, and survives the meeting it was made for. A file gets forwarded once. If the research is meant to steer a year of work, give it a form that persists.",
+          "flavor": "I published a limited print run of handsome saddle-stitched octavo volumes."
+        },
+        {
+          "title": "Research the source and your own back catalogue in the same pass",
+          "rules": "The questions he set himself were paired: which elements of this mythology are already part of the game, and which has the game touched only lightly or not at all. Neither half is useful alone — a survey of the source tells you nothing about your capacity to use it, and an inventory of your own work tells you nothing about what is missing. The output that matters is the difference between the two lists, and you only get that difference by doing both surveys at once, against each other.",
+          "flavor": "Which Greek monsters are already part of Magic? Which has Magic touched upon only lightly, or not at all?"
+        },
+        {
+          "title": "A research document that stops at the source is half-finished; propose the translation",
+          "rules": "Look at what the five sections actually contain. Not just the deities, but suggested colour assignments for each of them. Not just a list of monsters, but a count of how many cards each had already appeared on. Not just the setting, but proposals for adapting the game's own staple creature types into it. At every point the researcher has carried the material one step into the host system rather than delivering it raw. That step is where domain knowledge becomes usable, and leaving it out doubles the work for whoever reads the document.",
+          "flavor": "I discussed the major deities and suggested possible colour combinations for them."
+        },
+        {
+          "title": "Check whether your source supplies types or instances, because that decides what you make",
+          "rules": "The plan was to repeat the method that had worked on the horror world: identify the genre's values, build mechanics that express them, and design individual cards illustrating its common tropes. The first half worked. The second did not, because — as he puts it plainly — mythology is not actually a trope-rich genre. Horror hands you repeatable situations. Mythology hands you specific stories that happened once. So the unit of design shifted from the trope card to the allusion, and the set is full of references to particular episodes rather than to recurring kinds.",
+          "flavor": "Some tropes existed, but we couldn't fill the set with trope cards."
+        },
+        {
+          "title": "When the source's mechanism is unusable, keep the relationship and change the cause",
+          "rules": "In the mythology, heroes are the offspring of a god and a mortal, which is why the gods take an interest in them. That origin was not something they were going to put on cards. Rather than abandon the category, they kept the part that matters — gods take a special interest in these particular mortals, and their gifts land harder here — and simply removed the reason. The structural relationship survives intact and the mechanism behind it is quietly replaced. Most source material has one component you cannot use and several that depend on it.",
+          "flavor": "We weren't interested in depicting Zeus's love life, so our heroes are merely mortals the gods have taken an interest in."
+        },
+        {
+          "title": "Let the source supply the number",
+          "rules": "The creature is called a hundred-handed one, and the card he designed could block ninety-nine additional creatures — one hundred in total, one per hand. The number was not chosen for balance and then justified; it came out of the name and the design was built to accommodate it. Where your material arrives with a specific quantity attached, using that exact quantity buys you something a tuned number cannot: the card explains itself, and anybody who knows the reference gets the joke without being told.",
+          "flavor": "It could block ninety-nine additional creatures, for a total of one hundred. One for each hand."
+        },
+        {
+          "title": "Derive each mechanic from one specific behavioural fact about the thing",
+          "rules": "Three mechanics, three single observations. Gods in these stories need the admiration of mortals — so the card does not physically manifest unless you control enough worshippers. Gods meddle in the affairs of their favourites — so the gifts they hand out are unusually potent on those particular mortals. Monsters ravage the countryside until somebody stops them — so the mechanic makes them grow, and the growth creates a reason to act now. In each case the mechanic is one fact about how the thing behaves, made into a rule.",
+          "flavor": "The gods do not manifest as creatures that can attack or block unless you control enough worshippers."
+        },
+        {
+          "title": "An escalating threat produces urgency without any rule that mentions time",
+          "rules": "The monster ability lets the creature get substantially bigger for a cost, and the effect on play is a clock — deal with this before it becomes a worse problem. Nothing in the rules text refers to turns, deadlines or timers. The pressure is generated entirely by the fact that the situation is going to get worse and the other player controls when. If you need people to feel that they must act now, an escalating threat does it more cleanly than any explicit countdown, and it puts the timing in a player's hands.",
+          "flavor": "The monstrous ability creates a sense of urgency: slay the beast before it becomes an even bigger problem."
+        },
+        {
+          "title": "The source that shaped your audience's storytelling grammar is legible in a way equally old material is not",
+          "rules": "His opening claim is that these particular myths are surprisingly understandable, and the reason he gives is not that they are simple but that they defined the template Western storytelling has followed since. Other traditions of the same antiquity read as strange — obscure motivations, inexplicable actions — not because they are worse but because the audience has no grammar for them. Age is not the variable. When choosing source material, ask whether your audience's habits of story were formed by it, because that is what makes it feel obvious.",
+          "flavor": "Many other ancient cultures had stories, but they seem bizarre to our sensibilities. Not so with the Greeks."
+        },
+        {
+          "title": "Schedule the research to finish before the work starts, not alongside it",
+          "rules": "The assignment was given seven weeks before design was scheduled to begin, to somebody who was not on the design team and whose only job was the research. Both details matter. Research done concurrently with production competes with production and loses, and research done by a person who is also building will be shaped by what they have already built. A separate person, finishing beforehand, produces something that can actually change the direction — because the direction has not been set yet.",
+          "flavor": "Note that this was still seven weeks before the design was scheduled to begin."
+        }
+      ]
+    },
+    "es": {
+      "title": "Un relato imparcial",
+      "dek": "El becario al que mandaron investigar mitología griega, y qué hizo con el encargo, contado por el becario.",
+      "overview": "Una de las pocas columnas de Making Magic no escritas por Rosewater. Ethan Fleischer, entonces un becario de treinta y cinco años, recibió un proyecto de investigación antes de una colección en cuyo equipo de diseño todavía no estaba, y este es su relato. Produjo un librito encuadernado con cinco secciones, usado dentro de la empresa tanto para vender la dirección como de referencia en las reuniones de diseño. El resto de la columna trata del problema de adaptación que encontró: a diferencia del mundo top-down anterior, esta fuente resultó no ser rica en tropos, así que la unidad de diseño tuvo que cambiar.",
+      "takeaway": "El producto valioso de investigar una fuente no es un resumen de la fuente. Es la diferencia entre la fuente y lo que ya has hecho con ella, más una traducción propuesta a tu propio sistema; y debería existir como un objeto que la gente pueda coger.",
+      "lessons": [
+        {
+          "title": "Haz que el artefacto de investigación sea un objeto físico que la gente pueda coger",
+          "rules": "No entregó un memorándum. Escribió el documento y luego hizo una pequeña tirada encuadernada en volúmenes cosidos, y esos ejemplares hicieron dos trabajos distintos: fueron lo que él y el líder usaron para enseñar por la empresa hacia dónde iba la colección, y estuvieron sobre la mesa en las reuniones de diseño como referencia. Un objeto encuadernado se manosea, se lleva a las salas y sobrevive a la reunión para la que se hizo. Un archivo se reenvía una vez. Si la investigación debe guiar un año de trabajo, dale una forma que persista.",
+          "flavor": "Publiqué una tirada limitada de bonitos volúmenes en octavo, cosidos a caballete."
+        },
+        {
+          "title": "Investiga la fuente y tu propio catálogo en la misma pasada",
+          "rules": "Las preguntas que se planteó iban emparejadas: qué elementos de esta mitología ya forman parte del juego, y cuáles el juego ha tocado solo de pasada o nunca. Ninguna mitad sirve sola: un repaso de la fuente no te dice nada sobre tu capacidad de usarla, y un inventario de tu propia obra no te dice nada sobre lo que falta. La salida que importa es la diferencia entre las dos listas, y esa diferencia solo se obtiene haciendo ambos repasos a la vez, uno contra otro.",
+          "flavor": "¿Qué monstruos griegos ya forman parte de Magic? ¿A cuáles ha tocado solo de pasada, o nunca?"
+        },
+        {
+          "title": "Un documento de investigación que se detiene en la fuente está a medias: propón la traducción",
+          "rules": "Mira lo que contienen de verdad las cinco secciones. No solo las deidades, sino asignaciones de color sugeridas para cada una. No solo una lista de monstruos, sino un recuento de en cuántas cartas había aparecido cada uno. No solo el escenario, sino propuestas para adaptar a él los tipos de criatura habituales del juego. En cada punto el investigador ha llevado el material un paso hacia dentro del sistema anfitrión en vez de entregarlo crudo. Ese paso es donde el conocimiento del dominio se vuelve utilizable, y omitirlo duplica el trabajo de quien lea el documento.",
+          "flavor": "Hablé de las deidades principales y sugerí posibles combinaciones de colores para ellas."
+        },
+        {
+          "title": "Comprueba si tu fuente aporta tipos o instancias, porque eso decide qué haces",
+          "rules": "El plan era repetir el método que había funcionado con el mundo de terror: identificar los valores del género, construir mecánicas que los expresen y diseñar cartas concretas que ilustren sus tropos comunes. La primera mitad funcionó. La segunda no, porque — como él dice sin rodeos — la mitología no es en realidad un género rico en tropos. El terror te da situaciones repetibles. La mitología te da historias concretas que pasaron una vez. Así que la unidad de diseño pasó de la carta-tropo a la alusión, y la colección está llena de referencias a episodios concretos y no a tipos recurrentes.",
+          "flavor": "Existían algunos tropos, pero no podíamos llenar la colección de cartas-tropo."
+        },
+        {
+          "title": "Cuando el mecanismo de la fuente es inusable, conserva la relación y cambia la causa",
+          "rules": "En la mitología, los héroes son descendientes de un dios y un mortal, y por eso los dioses se interesan por ellos. Ese origen no era algo que fueran a poner en cartas. En vez de abandonar la categoría, conservaron la parte que importa — los dioses se interesan especialmente por ciertos mortales, y sus dones caen más fuerte ahí — y sencillamente quitaron el motivo. La relación estructural sobrevive intacta y el mecanismo que había detrás se sustituye en silencio. Casi todo material de origen tiene un componente que no puedes usar y varios que dependen de él.",
+          "flavor": "No nos interesaba retratar la vida amorosa de Zeus, así que nuestros héroes son mortales por los que los dioses se interesan."
+        },
+        {
+          "title": "Deja que la fuente aporte el número",
+          "rules": "La criatura se llama «el de las cien manos», y la carta que diseñó podía bloquear noventa y nueve criaturas adicionales: cien en total, una por mano. El número no se eligió por equilibrio y se justificó después; salió del nombre y el diseño se construyó para acomodarlo. Cuando tu material llega con una cantidad concreta pegada, usar esa cantidad exacta te compra algo que un número ajustado no puede: la carta se explica sola, y cualquiera que conozca la referencia pilla el chiste sin que se lo cuenten.",
+          "flavor": "Podía bloquear noventa y nueve criaturas adicionales, cien en total. Una por cada mano."
+        },
+        {
+          "title": "Deriva cada mecánica de un hecho concreto sobre cómo se comporta la cosa",
+          "rules": "Tres mecánicas, tres observaciones únicas. Los dioses de estas historias necesitan la admiración de los mortales, así que la carta no se manifiesta físicamente salvo que controles suficientes adoradores. Los dioses se entrometen en los asuntos de sus favoritos, así que los dones que reparten son inusualmente potentes sobre esos mortales concretos. Los monstruos asolan el campo hasta que alguien los detiene, así que la mecánica los hace crecer, y el crecimiento crea una razón para actuar ya. En cada caso, la mecánica es un hecho sobre el comportamiento convertido en regla.",
+          "flavor": "Los dioses no se manifiestan como criaturas que puedan atacar o bloquear salvo que controles suficientes adoradores."
+        },
+        {
+          "title": "Una amenaza que escala produce urgencia sin ninguna regla que mencione el tiempo",
+          "rules": "La habilidad de monstruo permite que la criatura se haga bastante más grande por un coste, y el efecto en la partida es un reloj: ocúpate de esto antes de que sea un problema peor. Nada en el texto de reglas habla de turnos, plazos ni temporizadores. La presión la genera enteramente el hecho de que la situación va a empeorar y de que el otro jugador controla cuándo. Si necesitas que la gente sienta que debe actuar ahora, una amenaza que escala lo hace de forma más limpia que cualquier cuenta atrás explícita, y pone el momento en manos de un jugador.",
+          "flavor": "La habilidad monstruosa crea sensación de urgencia: mata a la bestia antes de que sea un problema aún mayor."
+        },
+        {
+          "title": "La fuente que dio forma a la gramática narrativa de tu público es legible como no lo es material igual de antiguo",
+          "rules": "Su afirmación inicial es que estos mitos concretos son sorprendentemente comprensibles, y la razón que da no es que sean simples sino que definieron la plantilla que la narrativa occidental ha seguido desde entonces. Otras tradiciones de la misma antigüedad se leen como extrañas — motivaciones oscuras, acciones inexplicables — no porque sean peores sino porque el público no tiene gramática para ellas. La edad no es la variable. Al elegir material de origen, pregunta si los hábitos narrativos de tu público se formaron con él, porque eso es lo que lo hace parecer obvio.",
+          "flavor": "Muchas otras culturas antiguas tenían historias, pero nos resultan extrañas. Con los griegos no pasa."
+        },
+        {
+          "title": "Programa la investigación para que termine antes de que empiece el trabajo, no en paralelo",
+          "rules": "El encargo se dio siete semanas antes de la fecha prevista de inicio del diseño, a alguien que no estaba en el equipo de diseño y cuyo único trabajo era la investigación. Ambos detalles importan. La investigación hecha en paralelo con la producción compite con la producción y pierde, y la investigación hecha por alguien que además construye quedará moldeada por lo que ya haya construido. Una persona aparte, terminando antes, produce algo que de verdad puede cambiar la dirección, porque la dirección todavía no está fijada.",
+          "flavor": "Nótese que esto era todavía siete semanas antes de la fecha prevista para empezar el diseño."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Un récit impartial",
+      "dek": "Le stagiaire à qui l'on a demandé d'aller étudier la mythologie grecque, et ce qu'il a fait de la commande — raconté par le stagiaire.",
+      "overview": "L'une des rares chroniques Making Magic non écrites par Rosewater. Ethan Fleischer, alors stagiaire de trente-cinq ans, a reçu un projet de recherche avant une extension dont il ne faisait pas encore partie de l'équipe, et voici son récit. Il a produit un petit livre relié en cinq sections, utilisé dans l'entreprise à la fois pour vendre la direction et comme référence en réunion. Le reste de la chronique porte sur le problème d'adaptation qu'il a rencontré : contrairement au monde descendant précédent, cette source s'est révélée pauvre en tropes, si bien que l'unité de conception a dû changer.",
+      "takeaway": "Le produit précieux d'une recherche de source n'est pas un résumé de la source. C'est la différence entre la source et ce que vous en avez déjà fait, plus une traduction proposée dans votre propre système — et cela devrait exister comme un objet qu'on peut prendre en main.",
+      "lessons": [
+        {
+          "title": "Faites de l'objet de recherche une chose physique qu'on peut prendre en main",
+          "rules": "Il n'a pas livré une note. Il a écrit le document, puis en a fait tirer un petit nombre d'exemplaires reliés en cahiers, et ces exemplaires ont rempli deux fonctions distinctes : ils ont servi à lui et au responsable pour montrer dans l'entreprise la direction prise, et ils sont restés sur la table pendant les réunions comme référence. Un objet relié se manipule, se transporte dans les salles et survit à la réunion pour laquelle il a été fait. Un fichier se transfère une fois. Si la recherche doit orienter une année de travail, donnez-lui une forme qui dure.",
+          "flavor": "J'ai publié un tirage limité de beaux volumes in-octavo, brochés à cheval."
+        },
+        {
+          "title": "Étudiez la source et votre propre catalogue dans la même passe",
+          "rules": "Les questions qu'il s'est posées allaient par paires : quels éléments de cette mythologie font déjà partie du jeu, et lesquels le jeu n'a touchés que légèrement ou pas du tout. Aucune moitié n'est utile seule — un panorama de la source ne dit rien de votre capacité à l'employer, et un inventaire de votre propre travail ne dit rien de ce qui manque. Le résultat qui compte est la différence entre les deux listes, et on ne l'obtient qu'en menant les deux relevés en même temps, l'un contre l'autre.",
+          "flavor": "Quels monstres grecs font déjà partie de Magic ? Lesquels n'ont été qu'effleurés, ou pas du tout ?"
+        },
+        {
+          "title": "Un document de recherche qui s'arrête à la source est à moitié fait : proposez la traduction",
+          "rules": "Regardez ce que contiennent vraiment les cinq sections. Pas seulement les divinités, mais des attributions de couleur suggérées pour chacune. Pas seulement une liste de monstres, mais un décompte du nombre de cartes où chacun était déjà apparu. Pas seulement le décor, mais des propositions pour y adapter les types de créatures habituels du jeu. À chaque point, le chercheur a porté la matière d'un cran dans le système hôte au lieu de la livrer brute. C'est là que la connaissance du domaine devient utilisable, et l'omettre double le travail de qui lira le document.",
+          "flavor": "J'ai traité des divinités majeures et suggéré pour chacune des combinaisons de couleurs possibles."
+        },
+        {
+          "title": "Vérifiez si votre source fournit des types ou des instances, car cela décide de ce que vous fabriquez",
+          "rules": "Le plan était de répéter la méthode qui avait marché sur le monde d'horreur : dégager les valeurs du genre, bâtir des mécaniques qui les expriment, et concevoir des cartes illustrant ses tropes courants. La première moitié a marché. La seconde non, car — dit-il sans détour — la mythologie n'est pas vraiment un genre riche en tropes. L'horreur vous donne des situations reproductibles. La mythologie vous donne des histoires précises arrivées une fois. L'unité de conception est donc passée de la carte-trope à l'allusion, et l'extension regorge de renvois à des épisodes particuliers plutôt qu'à des types récurrents.",
+          "flavor": "Quelques tropes existaient, mais nous ne pouvions pas remplir l'extension de cartes-tropes."
+        },
+        {
+          "title": "Quand le mécanisme de la source est inutilisable, gardez la relation et changez la cause",
+          "rules": "Dans la mythologie, les héros sont issus d'un dieu et d'un mortel, et c'est pourquoi les dieux s'intéressent à eux. Cette origine n'allait pas figurer sur des cartes. Plutôt que d'abandonner la catégorie, ils ont gardé ce qui compte — les dieux s'intéressent particulièrement à certains mortels, et leurs dons y portent plus fort — et ont simplement retiré la raison. La relation structurelle survit intacte et le mécanisme derrière elle est discrètement remplacé. La plupart des matières sources ont un composant inutilisable et plusieurs qui en dépendent.",
+          "flavor": "La vie amoureuse de Zeus ne nous intéressait pas ; nos héros sont de simples mortels auxquels les dieux s'intéressent."
+        },
+        {
+          "title": "Laissez la source fournir le nombre",
+          "rules": "La créature s'appelle « celui aux cent mains », et la carte qu'il a conçue pouvait bloquer quatre-vingt-dix-neuf créatures supplémentaires — cent au total, une par main. Le nombre n'a pas été choisi pour l'équilibre puis justifié ; il vient du nom et la conception a été bâtie pour l'accueillir. Quand votre matière arrive avec une quantité précise attachée, employer cette quantité exacte vous achète ce qu'un nombre calibré ne peut pas : la carte s'explique d'elle-même, et quiconque connaît la référence saisit sans qu'on lui dise.",
+          "flavor": "Elle pouvait bloquer quatre-vingt-dix-neuf créatures de plus, soit cent en tout. Une par main."
+        },
+        {
+          "title": "Déduisez chaque mécanique d'un fait précis sur le comportement de la chose",
+          "rules": "Trois mécaniques, trois observations uniques. Les dieux de ces récits ont besoin de l'admiration des mortels — la carte ne se manifeste donc pas physiquement sans assez d'adorateurs. Les dieux se mêlent des affaires de leurs favoris — les dons qu'ils distribuent sont donc singulièrement puissants sur ces mortels-là. Les monstres ravagent la campagne jusqu'à ce qu'on les arrête — la mécanique les fait donc grandir, et cette croissance crée une raison d'agir maintenant. Chaque fois, la mécanique est un fait de comportement transformé en règle.",
+          "flavor": "Les dieux ne se manifestent pas en créatures capables d'attaquer ou de bloquer sans assez d'adorateurs."
+        },
+        {
+          "title": "Une menace qui s'aggrave produit l'urgence sans aucune règle mentionnant le temps",
+          "rules": "La capacité de monstre permet à la créature de grossir nettement contre un coût, et l'effet en jeu est une horloge : réglez cela avant que le problème n'empire. Rien dans le texte ne parle de tours, d'échéances ni de minuteurs. La pression naît entièrement du fait que la situation va se détériorer et que l'autre joueur décide quand. S'il faut que les gens sentent qu'ils doivent agir tout de suite, une menace croissante le fait plus proprement que n'importe quel compte à rebours explicite, et elle met le tempo entre les mains d'un joueur.",
+          "flavor": "La capacité monstrueuse crée un sentiment d'urgence : tuez la bête avant qu'elle ne devienne un problème plus grand."
+        },
+        {
+          "title": "La source qui a façonné la grammaire narrative de votre public est lisible comme ne l'est pas une matière aussi ancienne",
+          "rules": "Son affirmation d'ouverture est que ces mythes-là sont étonnamment compréhensibles, et la raison qu'il donne n'est pas qu'ils soient simples mais qu'ils ont défini le modèle que la narration occidentale suit depuis. D'autres traditions de la même antiquité paraissent étranges — motivations obscures, actions inexplicables — non parce qu'elles seraient moins bonnes mais parce que le public n'en a pas la grammaire. L'ancienneté n'est pas la variable. En choisissant une matière, demandez si les habitudes narratives de votre public ont été formées par elle, car c'est ce qui la rend évidente.",
+          "flavor": "Beaucoup d'autres cultures antiques avaient des récits, mais ils nous semblent bizarres. Pas ceux des Grecs."
+        },
+        {
+          "title": "Programmez la recherche pour qu'elle finisse avant que le travail commence, non en parallèle",
+          "rules": "La commande a été passée sept semaines avant le démarrage prévu de la conception, à quelqu'un qui n'était pas dans l'équipe et dont le seul travail était la recherche. Les deux détails comptent. Une recherche menée en même temps que la production entre en concurrence avec elle et perd, et une recherche menée par quelqu'un qui construit aussi sera façonnée par ce qu'il a déjà construit. Une personne distincte, qui finit avant, produit quelque chose qui peut réellement changer la direction — parce que la direction n'est pas encore fixée.",
+          "flavor": "Notez que c'était encore sept semaines avant le démarrage prévu de la conception."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Um relato imparcial",
+      "dek": "O estagiário mandado pesquisar mitologia grega, e o que ele fez com a tarefa — contado pelo estagiário.",
+      "overview": "Uma das poucas colunas de Making Magic não escritas por Rosewater. Ethan Fleischer, então um estagiário de trinta e cinco anos, recebeu um projeto de pesquisa antes de uma coleção de cuja equipe de design ele ainda não fazia parte, e este é o relato dele. Produziu um livrinho encadernado com cinco seções, usado dentro da empresa tanto para vender a direção quanto como referência nas reuniões de design. O resto da coluna trata do problema de adaptação que ele encontrou: diferente do mundo de cima para baixo anterior, esta fonte não era rica em tropos, e a unidade de design teve de mudar.",
+      "takeaway": "O produto valioso de pesquisar uma fonte não é um resumo da fonte. É a diferença entre a fonte e o que você já fez com ela, mais uma tradução proposta para o seu próprio sistema — e isso deveria existir como um objeto que as pessoas possam pegar.",
+      "lessons": [
+        {
+          "title": "Faça do artefato de pesquisa um objeto físico que as pessoas possam pegar",
+          "rules": "Ele não entregou um memorando. Escreveu o documento e depois mandou fazer uma pequena tiragem encadernada em cadernos costurados, e aqueles exemplares fizeram dois trabalhos distintos: foram o que ele e o líder usaram para mostrar pela empresa a direção que a coleção tomava, e ficaram sobre a mesa nas reuniões de design como referência. Um objeto encadernado é manuseado, é levado às salas e sobrevive à reunião para a qual foi feito. Um arquivo é encaminhado uma vez. Se a pesquisa deve guiar um ano de trabalho, dê a ela uma forma que persista.",
+          "flavor": "Publiquei uma tiragem limitada de bonitos volumes in-oitavo, costurados a cavalo."
+        },
+        {
+          "title": "Pesquise a fonte e o seu próprio catálogo na mesma passada",
+          "rules": "As perguntas que ele se fez vinham em pares: quais elementos desta mitologia já fazem parte do jogo, e quais o jogo tocou só de leve ou nunca. Nenhuma metade serve sozinha — um levantamento da fonte não diz nada sobre a sua capacidade de usá-la, e um inventário do seu próprio trabalho não diz nada sobre o que falta. A saída que importa é a diferença entre as duas listas, e essa diferença só se obtém fazendo os dois levantamentos ao mesmo tempo, um contra o outro.",
+          "flavor": "Que monstros gregos já fazem parte de Magic? Quais o jogo tocou só de leve, ou nunca?"
+        },
+        {
+          "title": "Um documento de pesquisa que para na fonte está pela metade: proponha a tradução",
+          "rules": "Veja o que as cinco seções de fato contêm. Não só as divindades, mas atribuições de cor sugeridas para cada uma. Não só uma lista de monstros, mas uma contagem de em quantas cartas cada um já tinha aparecido. Não só o cenário, mas propostas para adaptar a ele os tipos de criatura habituais do jogo. Em cada ponto o pesquisador levou o material um passo para dentro do sistema hospedeiro em vez de entregá-lo cru. É nesse passo que o conhecimento de domínio vira utilizável, e omiti-lo dobra o trabalho de quem ler o documento.",
+          "flavor": "Falei das divindades principais e sugeri possíveis combinações de cores para elas."
+        },
+        {
+          "title": "Verifique se a sua fonte fornece tipos ou instâncias, porque isso decide o que você faz",
+          "rules": "O plano era repetir o método que funcionara no mundo de terror: identificar os valores do gênero, construir mecânicas que os expressem, e projetar cartas ilustrando seus tropos comuns. A primeira metade funcionou. A segunda não, porque — como ele diz sem rodeios — mitologia não é de fato um gênero rico em tropos. Terror lhe dá situações repetíveis. Mitologia lhe dá histórias específicas que aconteceram uma vez. Então a unidade de design passou da carta-tropo para a alusão, e a coleção é cheia de referências a episódios particulares e não a tipos recorrentes.",
+          "flavor": "Alguns tropos existiam, mas não dava para encher a coleção de cartas-tropo."
+        },
+        {
+          "title": "Quando o mecanismo da fonte é inutilizável, mantenha a relação e mude a causa",
+          "rules": "Na mitologia, heróis são filhos de um deus com um mortal, e é por isso que os deuses se interessam por eles. Aquela origem não era algo que fossem pôr em cartas. Em vez de abandonar a categoria, mantiveram a parte que importa — os deuses se interessam especialmente por certos mortais, e os dons deles caem mais forte ali — e simplesmente removeram o motivo. A relação estrutural sobrevive intacta e o mecanismo por trás dela é silenciosamente substituído. A maioria dos materiais de origem tem um componente que você não pode usar e vários que dependem dele.",
+          "flavor": "Não nos interessava retratar a vida amorosa de Zeus, então nossos heróis são só mortais por quem os deuses se interessam."
+        },
+        {
+          "title": "Deixe a fonte fornecer o número",
+          "rules": "A criatura se chama \"o de cem mãos\", e a carta que ele projetou podia bloquear noventa e nove criaturas adicionais — cem no total, uma por mão. O número não foi escolhido por equilíbrio e depois justificado; saiu do nome, e o design foi construído para acomodá-lo. Quando o seu material chega com uma quantidade específica presa a ele, usar exatamente aquela quantidade lhe compra algo que um número calibrado não pode: a carta se explica sozinha, e quem conhece a referência pega a piada sem que lhe contem.",
+          "flavor": "Podia bloquear noventa e nove criaturas adicionais, cem no total. Uma para cada mão."
+        },
+        {
+          "title": "Derive cada mecânica de um fato específico sobre como a coisa se comporta",
+          "rules": "Três mecânicas, três observações únicas. Os deuses destas histórias precisam da admiração dos mortais — então a carta não se manifesta fisicamente a menos que você controle adoradores suficientes. Os deuses se metem nos assuntos dos seus favoritos — então os dons que distribuem são incomumente potentes sobre aqueles mortais específicos. Monstros devastam o campo até alguém detê-los — então a mecânica os faz crescer, e o crescimento cria um motivo para agir já. Em cada caso, a mecânica é um fato sobre comportamento transformado em regra.",
+          "flavor": "Os deuses não se manifestam como criaturas capazes de atacar ou bloquear sem adoradores suficientes."
+        },
+        {
+          "title": "Uma ameaça que escala produz urgência sem nenhuma regra que mencione tempo",
+          "rules": "A habilidade de monstro deixa a criatura ficar bem maior por um custo, e o efeito no jogo é um relógio: resolva isto antes que vire um problema pior. Nada no texto de regras fala de turnos, prazos ou cronômetros. A pressão é gerada inteiramente pelo fato de que a situação vai piorar e de que o outro jogador controla quando. Se você precisa que as pessoas sintam que devem agir agora, uma ameaça que escala faz isso de forma mais limpa que qualquer contagem regressiva explícita, e põe o tempo nas mãos de um jogador.",
+          "flavor": "A habilidade monstruosa cria uma sensação de urgência: mate a fera antes que ela vire um problema ainda maior."
+        },
+        {
+          "title": "A fonte que moldou a gramática narrativa do seu público é legível de um jeito que material igualmente antigo não é",
+          "rules": "A afirmação de abertura dele é que estes mitos são surpreendentemente compreensíveis, e o motivo que ele dá não é que sejam simples, e sim que definiram o modelo que a narrativa ocidental segue desde então. Outras tradições da mesma antiguidade se leem como estranhas — motivações obscuras, ações inexplicáveis — não por serem piores, mas porque o público não tem gramática para elas. Idade não é a variável. Ao escolher material de origem, pergunte se os hábitos narrativos do seu público foram formados por ele, porque é isso que o faz parecer óbvio.",
+          "flavor": "Muitas outras culturas antigas tinham histórias, mas elas nos parecem bizarras. Com os gregos não."
+        },
+        {
+          "title": "Agende a pesquisa para terminar antes de o trabalho começar, não em paralelo",
+          "rules": "A tarefa foi dada sete semanas antes da data prevista de início do design, a alguém que não estava na equipe de design e cujo único trabalho era a pesquisa. Os dois detalhes importam. Pesquisa feita em paralelo com a produção compete com a produção e perde, e pesquisa feita por alguém que também constrói será moldada pelo que ele já construiu. Uma pessoa separada, terminando antes, produz algo que de fato pode mudar a direção — porque a direção ainda não foi fixada.",
+          "flavor": "Note que isso ainda era sete semanas antes da data prevista para o design começar."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "一份不偏不倚的记述",
+      "dek": "那位被派去研究希腊神话的实习生，以及他拿这份任务做了什么——由这位实习生本人执笔。",
+      "overview": "这是极少数不由罗斯瓦特执笔的《打造万智牌》专栏之一。伊桑·弗莱舍——当时是一位三十五岁的实习生——在一套他还没进入设计团队的牌开工之前，领到了一个研究项目；这是他自己的记述。他做出了一本分五节的、装订过的小书，在公司内部既用来推销方向，也在设计会议上当参考资料用。这一期其余的部分讲的是他遇到的改编难题：与上一个由上而下的世界不同，这份素材原来并不富于套路，于是设计的单位不得不改变。",
+      "takeaway": "对一份素材做研究，有价值的产出不是这份素材的摘要，而是「这份素材」和「你已经用它做过什么」之间的差；再加上一份把它译进你自己系统的方案。而且它应该以一件人们可以拿在手上的物件的形式存在。",
+      "lessons": [
+        {
+          "title": "把研究成果做成一件人们可以拿在手上的实体物件",
+          "rules": "他交的不是一份备忘录。他写完文档，又做了一小批装订成骑马订小开本的册子；而这些册子干了两件不同的活：它和主创用它在公司里向各方展示这套牌要往哪儿走；它也摆在设计会议的桌上当参考。一件装订好的物件会被翻动、会被带进各个房间，并且比它当初被做出来所服务的那次会议活得更久。一个文件只会被转发一次。如果这份研究要给一年的工作掌舵，就给它一个能留存下来的形态。",
+          "flavor": "我印了一小批装帧漂亮的骑马订小开本册子。"
+        },
+        {
+          "title": "在同一遍里同时调研素材和你自己的旧作",
+          "rules": "他给自己设的问题是成对的：这份神话里有哪些元素已经是这个游戏的一部分，以及这个游戏只轻轻碰过、或者压根没碰过哪些。任何一半单独都没用——对素材的普查不会告诉你任何关于「你有没有能力用它」的事，而对自己作品的盘点也不会告诉你任何关于「缺了什么」的事。真正要紧的产出是这两份清单之间的差；而这个差，只有把两次普查同时做、并且互相对照，才拿得到。",
+          "flavor": "哪些希腊怪物已经是万智牌的一部分？哪些只被轻轻碰过，或者根本没碰过？"
+        },
+        {
+          "title": "一份停在素材上的研究文档只做了一半：把翻译方案也提出来",
+          "rules": "看看那五节里实际装了什么。不只是诸神，还有为每一位建议的颜色归属。不只是一份怪物清单，还有每一种此前已经出现在多少张牌上的计数。不只是这个世界，还有把这个游戏自己的常客生物类别改编进去的方案。在每一处，这位研究者都把材料往宿主系统里又推进了一步，而不是把生料交上去。正是这一步让领域知识变得可用；而省掉它，会让读这份文档的人工作量翻倍。",
+          "flavor": "我讨论了主要的神祇，并为他们建议了可能的颜色组合。"
+        },
+        {
+          "title": "确认你的素材提供的是「类型」还是「个例」，因为那决定了你要做什么",
+          "rules": "原计划是重复在恐怖世界那次奏效的方法：找出这个类型片的价值观，做出表达它们的机制，并设计一张张体现其常见套路的牌。前一半奏效了。后一半没有，因为——用他直白的说法——神话其实并不是一个富于套路的类型。恐怖交给你的是可复现的情境。神话交给你的是一个个只发生过一次的具体故事。于是设计的单位从「套路牌」变成了「引用」，而这套牌里满是对具体篇章的指涉，而不是对反复出现的类型的指涉。",
+          "flavor": "套路是有一些，但我们没法用套路牌把这套牌填满。"
+        },
+        {
+          "title": "当素材里的那套机制没法用时，保住那层关系，换掉成因",
+          "rules": "在神话里，英雄是神与凡人的后代，而这正是诸神关心他们的原因。那个出身不是他们打算印在牌上的东西。他们没有放弃这个类别，而是保住了要紧的那部分——诸神会对某些特定的凡人格外上心，而他们的赐予落在这些人身上时格外有力——然后干脆把成因拿掉了。结构上的关系完好无损地留了下来，而它背后的机制被悄悄换掉了。大多数素材里，都有一个你没法用的部件，和好几个依赖着它的部件。",
+          "flavor": "我们没兴趣在牌上描绘宙斯的情史，所以我们的英雄只是被诸神特别关照的凡人。"
+        },
+        {
+          "title": "让素材来提供那个数字",
+          "rules": "那个生物叫「百手巨人」，而他设计的那张牌可以额外阻挡九十九个生物——合计一百，一只手一个。这个数字不是先为了平衡而选定、再回头找理由的；它出自那个名字，而设计是为了容纳它才被搭起来的。当你的材料自带一个具体数量时，用上那个精确的数量，会买到一样「调校出来的数字」买不到的东西：这张牌自己解释了自己，而任何知道这个典故的人不用别人说就懂了。",
+          "flavor": "它可以额外阻挡九十九个生物，合计一百个。一只手一个。"
+        },
+        {
+          "title": "从「这样东西如何行事」的一个具体事实，推导出每一个机制",
+          "rules": "三个机制，三条单独的观察。这些故事里的神需要凡人的敬仰——所以除非你控制着足够多的信徒，这张牌不会以生物的形态实体化。诸神会插手自己宠儿的事——所以他们发下去的赐予，落在那些特定的凡人身上格外强力。怪物会蹂躏乡野，直到有人阻止它——所以这个机制让它变大，而这份变大制造了「现在就得动手」的理由。每一次，机制都是一条关于「它如何行事」的事实，被做成了一条规则。",
+          "flavor": "除非你控制着足够多的信徒，诸神不会显化成能攻击或阻挡的生物。"
+        },
+        {
+          "title": "一个会不断升级的威胁，能在完全不提时间的情况下制造紧迫感",
+          "rules": "怪物的那个异能允许它花一笔费用变得大得多；而它对对局的作用是一个时钟：在这件事变成更糟的问题之前处理掉它。规则文字里没有任何东西提到回合、期限或计时器。全部压力都由这一点生成：局面将会恶化，而由对手决定什么时候。如果你需要人们感觉到「现在就必须行动」，一个不断升级的威胁做起来比任何显式倒计时都干净，而且它把时机交到了一位玩家手上。",
+          "flavor": "「化猛」这个异能制造出一种紧迫感：在这头野兽变成更大的麻烦之前把它宰了。"
+        },
+        {
+          "title": "塑造了你受众叙事语法的那份素材，其可读性是同样古老的材料所没有的",
+          "rules": "他开篇的主张是：这些神话出奇地好懂；而他给的理由不是它们简单，而是它们定义了此后西方叙事一直沿用的那个模板。同样古老的其他传统读起来则很怪——动机晦涩、行为难解——这不是因为它们更差，而是因为受众没有阅读它们的语法。年代不是那个变量。在挑选素材时，问一问你受众的叙事习惯是不是由它塑造的；因为那才是让它显得理所当然的东西。",
+          "flavor": "许多其他古代文化也有故事，但它们在我们的感受里很古怪。希腊人的不是。"
+        },
+        {
+          "title": "把研究安排在工作开始之前完成，而不是与工作并行",
+          "rules": "这份任务是在设计预定开工的七周之前下达的，交给了一个不在设计团队里、而且唯一工作就是这项研究的人。这两个细节都要紧。与生产并行的研究会和生产争抢资源，而且会输；而由一个同时也在建造的人所做的研究，会被他已经建好的东西所塑形。一个独立的人，在事前完成，产出的才是真正能改变方向的东西——因为方向还没有被定下来。",
+          "flavor": "请注意，这时距离设计预定开工还有七周。"
+        }
+      ]
+    }
+  }
+}
