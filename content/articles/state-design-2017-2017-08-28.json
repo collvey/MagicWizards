@@ -1,0 +1,385 @@
+{
+  "id": "state-design-2017-2017-08-28",
+  "slug": "state-design-2017-2017-08-28",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2017-08-28",
+  "series": null,
+  "tags": [
+    "state-of-design",
+    "kaladesh",
+    "amonkhet",
+    "complexity",
+    "self-assessment",
+    "mechanics"
+  ],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/state-design-2017-2017-08-28",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T10:20:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "U" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "R" },
+    { "n": 11, "color": "G" },
+    { "n": 12, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "State of Design 2017",
+      "dek": "Rosewater's thirteenth annual self-assessment: a proud year with mistakes he says he should have foreseen, and several lessons he had already learned before.",
+      "overview": "A review of Kaladesh and Amonkhet blocks — what the new mechanics achieved, why revolt failed on three separate counts, and why the same complexity finding kept recurring.",
+      "takeaway": "\"This is the lesson that I'm most concerned about, partly because it's a lesson I already learned last year (and many other years before that).\"",
+      "lessons": [
+        {
+          "title": "Say what you mean by \"too complex\" or they'll hear \"dumb it down\"",
+          "rules": "Depth and load feel like the same thing from outside. If you announce you're reducing complexity without separating them, the people who value the depth will read it as a threat and fight the fix. Name what you're cutting and what you're protecting.",
+          "flavor": "“Whenever I bring up complexity being high, I seem to scare some players who are worried we're going to ‘dumb down the game.' Our main goal is not to have fewer interesting strategic decisions (especially ones that are invisible to newer players). It's to make players spend less time having to process huge amounts of information that mostly don't matter.”"
+        },
+        {
+          "title": "A finding you keep re-reaching means the fix was wrong, not the diagnosis",
+          "rules": "When the same item appears in this year's list of lessons and last year's, the analysis isn't what failed — the corrective action was too small, or aimed at a symptom. Stop restating the finding and change what you actually did about it.",
+          "flavor": "“This is the lesson that I'm most concerned about, partly because it's a lesson I already learned last year (and many other years before that)… We did take a few steps to try and rein in complexity (things like Kaladesh only having three mechanics), but it just wasn't enough… we took one step forward and two steps back.”"
+        },
+        {
+          "title": "The story mattering is good; warping the work to display it is not",
+          "rules": "Once you succeed at integrating a narrative into the work, the same instinct keeps going and starts bending decisions that should have been made on other grounds. The cost is usually paid in variety: the recurring subject occupies slots the new ones needed.",
+          "flavor": "“One of the highlights of last year was that we got better integration between the story and the card design. It seems we carried a good thing a bit too far… Having the same characters too often taking up planeswalker slots wasn't allowing us to bring back other favorites or introduce cool new characters.”"
+        },
+        {
+          "title": "When the audience doesn't know the specifics, apply the source in broad strokes",
+          "rules": "A source your audience knows in detail lets you build individual pieces on individual references. A source they know only as a general impression does not — so move up a level and apply it to whole swathes of the work instead of to single items.",
+          "flavor": "“Most people… don't know Egyptian mythology anywhere near as well as they know Greek mythology. We couldn't rely on stories and character archetypes to carry the design as we had with Theros. We were going to have to find a different way. In the end, we leaned more on cultural and historical knowledge and applied it to swaths of cards rather than singular designs.”"
+        },
+        {
+          "title": "Set the visuals against the gameplay to make a place feel wrong",
+          "rules": "Tone doesn't have to come from every channel agreeing. Deliberately contradict what one channel says with what another one does, and the audience feels the discrepancy as unease — a mood no single channel could have produced on its own.",
+          "flavor": "“We embraced the Bolas part of the world and created a set that contrasted what the creative was showing you with what the gameplay was telling you. We used dissonance to set the mood. This, combined with all the Egyptian iconography, created a very distinct tone—one that allowed us to create a world where things felt ‘off.'”"
+        },
+        {
+          "title": "Choosing the best-playing version can leave the name unearned",
+          "rules": "When several candidates carry the same label and you pick on function, check whether the winner still means what the label says. A word that promises one thing while the mechanism delivers another spends credibility every time someone reads it.",
+          "flavor": "Early revolt designs destroyed things, then acted like bombs. “The final revolt was chosen because it led to the best gameplay, but it did so with a significant disconnect from the flavor of the word. Revolt was supposed to represent things revolting because of all the tragedy going on around them, but the gameplay just didn't do a good enough job of selling the flavor.”"
+        },
+        {
+          "title": "If a concept has an obvious home, its absence from that home reads as a mistake",
+          "rules": "Some ideas belong somewhere so plainly that people notice the omission before they assess anything else. Skipping that placement for internal reasons doesn't read as a choice — it reads as an error, and it undermines every instance that did ship.",
+          "flavor": "Revolt's third problem: “It wasn't in red. The face of the set was Chandra, a red pyromancer. Red is also the color of impulsive action and destructive behavior—you know, the kinds of things that start revolutions… Its absence from the color lessened its feel and probably contributed to the second problem.”"
+        },
+        {
+          "title": "Triggers on what happens elsewhere are easy to miss, and variety multiplies it",
+          "rules": "A condition that watches for events outside the thing carrying it is already hard to track. Give that condition many different expressions, appearing in many places at many times, and you've multiplied the monitoring cost rather than added to it.",
+          "flavor": "“It was a hard ability to monitor. In general, we try to be careful with mechanics that trigger when things happen to other cards. It's just easy to miss external triggers. Now, add to that that this trigger could express itself in a variety of different ways in many different places and at many different times. It was just too easy to miss.”"
+        },
+        {
+          "title": "Two representations of the same thing make each look unnecessary",
+          "rules": "When one project contains two devices expressing the same idea, they don't reinforce each other — they invite the question of why both exist. The weaker one takes the blame, and the stronger one loses some of its claim to being the definitive version.",
+          "flavor": "Afflict “was meant to suggest the inevitability of the fearsome Eternals, but ended up making them feel more mundane than special. Players also questioned why it was necessary, as eternalize also represented the Eternals.” Eternalize in turn was divisive: “others felt that it wasn't distinct enough from embalm to be its own mechanic.”"
+        },
+        {
+          "title": "Ask separately whether it plays well and whether it looks right",
+          "rules": "How something functions and how it presents are judged by different faculties and can come apart completely. A single verdict hides that; two questions catch the case where you've built a good thing in a form people don't want to handle.",
+          "flavor": "On aftermath: “Players had a love-hate relationship with this mechanic. They loved the ‘flashback but with different cards' aspect.” And in the lessons: “Players loved how this mechanic played, but they hated how it looked.” The same split hit embalm, where players wanted double-faced cards instead of clone tokens."
+        },
+        {
+          "title": "An element that connects to nothing gives back only itself",
+          "rules": "A component can be individually excellent and still be a poor use of the space it occupies, if nothing else in the work is changed by its presence. Judge each inclusion twice: on its own merits, and on what it does to everything around it.",
+          "flavor": "“I'm a huge fan of cycling. What exactly was it doing in this block? It smoothed out draws, as it always does, but it didn't really mechanically tie into anything. Likewise, exert and embalm each are flavorful unto themselves, but they didn't have any mechanical overlap.”"
+        },
+        {
+          "title": "Research the source for the small true detail you couldn't otherwise argue for",
+          "rules": "A fact about the subject is an argument that doesn't depend on your taste. Dig for the specific, verifiable detail that licenses the thing you want to include — and watch its reception, because a well-received detail can change standing policy.",
+          "flavor": "“I was able to get some Cat tribal in the file because I knew from our research that the ancient Egyptians revered Cats. The response to the Cat tribal has been hugely positive and actually has us rethinking how often we might want to do Cat tribal.” The same research licensed Sphinxes, Minotaurs and a single Horse."
+        }
+      ]
+    },
+    "es": {
+      "title": "Estado del diseño 2017",
+      "dek": "La decimotercera autoevaluación anual de Rosewater: un año del que está orgulloso, con errores que dice que debería haber previsto, y varias lecciones que ya había aprendido antes.",
+      "overview": "Repaso de los bloques Kaladesh y Amonkhet: qué lograron las mecánicas nuevas, por qué revuelta falló por tres motivos distintos, y por qué la misma conclusión sobre complejidad seguía repitiéndose.",
+      "takeaway": "«Esta es la lección que más me preocupa, en parte porque ya la aprendí el año pasado (y muchos otros años antes).»",
+      "lessons": [
+        {
+          "title": "Di qué quieres decir con «demasiado complejo» o oirán «simplificar el juego»",
+          "rules": "Profundidad y carga parecen lo mismo desde fuera. Si anuncias que reduces complejidad sin separarlas, quienes valoran la profundidad lo leerán como una amenaza y pelearán contra el arreglo. Nombra qué recortas y qué proteges.",
+          "flavor": "«Cada vez que menciono que la complejidad está alta parece que asusto a algunos jugadores, que temen que vayamos a “simplificar el juego”. Nuestro objetivo principal no es tener menos decisiones estratégicas interesantes. Es que los jugadores dediquen menos tiempo a procesar cantidades enormes de información que en su mayoría no importa.»"
+        },
+        {
+          "title": "Una conclusión a la que vuelves indica que el arreglo estaba mal, no el diagnóstico",
+          "rules": "Cuando el mismo punto aparece en la lista de lecciones de este año y en la del anterior, no falló el análisis: la acción correctora fue demasiado pequeña, o apuntaba a un síntoma. Deja de repetir la conclusión y cambia lo que hiciste al respecto.",
+          "flavor": "«Esta es la lección que más me preocupa, en parte porque ya la aprendí el año pasado (y muchos otros antes)… Dimos algunos pasos para frenar la complejidad (como que Kaladesh tuviera solo tres mecánicas), pero no bastó… dimos un paso adelante y dos atrás.»"
+        },
+        {
+          "title": "Que la historia importe es bueno; deformar la obra para exhibirla no",
+          "rules": "Cuando logras integrar una narrativa en la obra, ese mismo instinto sigue adelante y empieza a torcer decisiones que debían tomarse por otros motivos. El coste suele pagarse en variedad: el asunto recurrente ocupa huecos que necesitaban los nuevos.",
+          "flavor": "«Uno de los aciertos del año pasado fue integrar mejor la historia con el diseño de cartas. Parece que llevamos algo bueno demasiado lejos… Tener a los mismos personajes ocupando tan a menudo huecos de planeswalker no nos permitía recuperar otros favoritos ni presentar personajes nuevos.»"
+        },
+        {
+          "title": "Si el público no conoce los detalles, aplica la fuente a grandes rasgos",
+          "rules": "Una fuente que tu público conoce en detalle te permite construir piezas concretas sobre referencias concretas. Una que solo conocen como impresión general, no; así que sube un nivel y aplícala a franjas enteras de la obra en vez de a elementos sueltos.",
+          "flavor": "«La mayoría de la gente no conoce la mitología egipcia ni de lejos tan bien como la griega. No podíamos apoyarnos en historias y arquetipos como en Theros. Al final nos apoyamos más en conocimiento cultural e histórico y lo aplicamos a franjas de cartas en vez de a diseños concretos.»"
+        },
+        {
+          "title": "Enfrenta lo visual con la jugabilidad para que un lugar se sienta mal",
+          "rules": "El tono no tiene que salir de que todos los canales coincidan. Contradice a propósito lo que dice un canal con lo que hace otro, y el público sentirá el desajuste como inquietud: un ánimo que ningún canal solo habría producido.",
+          "flavor": "«Abrazamos la parte de Bolas del mundo y creamos una edición que contrastaba lo que el arte te mostraba con lo que la jugabilidad te decía. Usamos la disonancia para fijar el ánimo. Eso, junto con toda la iconografía egipcia, creó un tono muy distinto: uno que permitía un mundo donde las cosas se sentían “raras”.»"
+        },
+        {
+          "title": "Elegir la versión que mejor se juega puede dejar el nombre sin ganar",
+          "rules": "Cuando varios candidatos llevan la misma etiqueta y eliges por función, comprueba si el ganador sigue significando lo que la etiqueta dice. Una palabra que promete una cosa mientras el mecanismo entrega otra gasta credibilidad cada vez que alguien la lee.",
+          "flavor": "Los primeros diseños de revuelta destruían cosas, luego actuaban como bombas. «La revuelta final se eligió porque daba la mejor jugabilidad, pero con una desconexión importante respecto al sabor de la palabra… la jugabilidad simplemente no vendía bien el sabor.»"
+        },
+        {
+          "title": "Si un concepto tiene un hogar obvio, su ausencia de ahí se lee como error",
+          "rules": "Algunas ideas pertenecen a un sitio de forma tan evidente que la gente nota la omisión antes de valorar nada más. Saltarse esa colocación por motivos internos no se lee como una decisión: se lee como un fallo, y socava todos los ejemplares que sí salieron.",
+          "flavor": "El tercer problema de revuelta: «No estaba en rojo. La cara de la edición era Chandra, una piromántica roja. El rojo es además el color de la acción impulsiva y la conducta destructiva; ya sabes, las cosas que empiezan revoluciones… Su ausencia del color debilitó su sensación.»"
+        },
+        {
+          "title": "Los disparos por lo que pasa en otro sitio se pierden fácil, y la variedad lo multiplica",
+          "rules": "Una condición que vigila sucesos externos a lo que la lleva ya es difícil de seguir. Dale muchas expresiones distintas, en muchos lugares y momentos, y habrás multiplicado el coste de vigilancia en vez de sumarle.",
+          "flavor": "«Era una habilidad difícil de monitorizar. En general intentamos tener cuidado con mecánicas que se disparan cuando les pasan cosas a otras cartas. Es fácil perderse disparos externos. Añade que este podía expresarse de formas muy distintas en muchos sitios y momentos. Era demasiado fácil pasarlo por alto.»"
+        },
+        {
+          "title": "Dos representaciones de lo mismo hacen que ambas parezcan innecesarias",
+          "rules": "Cuando un proyecto contiene dos dispositivos que expresan la misma idea, no se refuerzan: invitan a preguntar por qué existen los dos. El más flojo carga con la culpa, y el más fuerte pierde parte de su derecho a ser la versión definitiva.",
+          "flavor": "Aflicción «pretendía sugerir la inevitabilidad de los temibles Eternos, pero acabó haciéndolos sentir más mundanos que especiales. Los jugadores también preguntaban por qué era necesaria, ya que eternizar también representaba a los Eternos.»"
+        },
+        {
+          "title": "Pregunta por separado si se juega bien y si se ve bien",
+          "rules": "Cómo funciona algo y cómo se presenta se juzgan con facultades distintas y pueden separarse por completo. Un veredicto único lo oculta; dos preguntas atrapan el caso en que has hecho algo bueno con una forma que la gente no quiere manejar.",
+          "flavor": "Sobre secuelas: «Los jugadores tenían una relación de amor-odio con esta mecánica. Les encantaba el aspecto de “flashback pero con cartas distintas”.» Y en las lecciones: «A los jugadores les encantaba cómo jugaba esta mecánica, pero odiaban cómo se veía.»"
+        },
+        {
+          "title": "Un elemento que no conecta con nada solo se devuelve a sí mismo",
+          "rules": "Un componente puede ser excelente por separado y aun así ser un mal uso del espacio que ocupa, si nada más en la obra cambia por su presencia. Juzga cada inclusión dos veces: por sus méritos y por lo que le hace a lo que la rodea.",
+          "flavor": "«Soy fan enorme del ciclaje. ¿Qué hacía exactamente en este bloque? Suavizaba los robos, como siempre, pero no se ataba mecánicamente a nada. Igualmente, esforzar y embalsamar son evocadores por sí solos, pero no tenían ningún solape mecánico.»"
+        },
+        {
+          "title": "Busca en la fuente el pequeño dato cierto que de otro modo no podrías defender",
+          "rules": "Un hecho sobre el tema es un argumento que no depende de tu gusto. Excava hasta el detalle concreto y verificable que autorice lo que quieres incluir, y vigila su recepción: un detalle bien recibido puede cambiar la política vigente.",
+          "flavor": "«Pude meter algo de tribal de gatos en el archivo porque sabía por nuestra investigación que los antiguos egipcios veneraban a los gatos. La respuesta ha sido enormemente positiva y de hecho nos tiene replanteándonos con qué frecuencia querríamos hacer tribal de gatos.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "État de la conception 2017",
+      "dek": "La treizième auto-évaluation annuelle de Rosewater : une année dont il est fier, avec des erreurs qu'il dit avoir dû prévoir, et plusieurs leçons déjà apprises auparavant.",
+      "overview": "Bilan des blocs Kaladesh et Amonkhet : ce que les nouvelles mécaniques ont réussi, pourquoi la révolte a échoué pour trois raisons distinctes, et pourquoi le même constat sur la complexité revenait sans cesse.",
+      "takeaway": "« C'est la leçon qui m'inquiète le plus, en partie parce que je l'ai déjà apprise l'an dernier (et bien d'autres années avant). »",
+      "lessons": [
+        {
+          "title": "Dites ce que vous entendez par « trop complexe », sinon on entendra « simplifier le jeu »",
+          "rules": "Profondeur et charge se ressemblent vues de l'extérieur. Si vous annoncez réduire la complexité sans les distinguer, ceux qui tiennent à la profondeur y verront une menace et combattront le remède. Nommez ce que vous coupez et ce que vous protégez.",
+          "flavor": "« Chaque fois que j'évoque une complexité trop élevée, je semble effrayer des joueurs qui craignent qu'on “abêtisse le jeu”. Notre but n'est pas d'avoir moins de décisions stratégiques intéressantes. C'est que les joueurs passent moins de temps à traiter d'énormes quantités d'informations sans importance. »"
+        },
+        {
+          "title": "Un constat auquel vous revenez signifie que le remède était faux, pas le diagnostic",
+          "rules": "Quand le même point figure dans la liste de leçons de cette année et de la précédente, ce n'est pas l'analyse qui a échoué : l'action corrective était trop faible, ou visait un symptôme. Cessez de répéter le constat et changez ce que vous en avez fait.",
+          "flavor": "« C'est la leçon qui m'inquiète le plus, en partie parce que je l'ai déjà apprise l'an dernier… Nous avons pris quelques mesures pour freiner la complexité (Kaladesh n'avait que trois mécaniques), mais cela n'a pas suffi… un pas en avant, deux en arrière. »"
+        },
+        {
+          "title": "Que l'histoire compte est bon ; déformer l'œuvre pour l'exposer ne l'est pas",
+          "rules": "Une fois réussie l'intégration d'un récit dans l'œuvre, le même réflexe continue et se met à tordre des décisions qui auraient dû se prendre autrement. Le coût se paie d'ordinaire en variété : le sujet récurrent occupe les places dont les nouveaux avaient besoin.",
+          "flavor": "« L'un des points forts de l'an dernier fut une meilleure intégration entre l'histoire et la conception des cartes. Il semble que nous ayons poussé une bonne chose un peu trop loin… Les mêmes personnages occupant trop souvent les places de planeswalker nous empêchaient d'en ramener d'autres. »"
+        },
+        {
+          "title": "Quand le public ignore les détails, appliquez la source à grands traits",
+          "rules": "Une source que votre public connaît en détail vous permet de bâtir des pièces précises sur des références précises. Une source qu'il ne connaît que par impression générale, non : montez d'un cran et appliquez-la à des pans entiers plutôt qu'à des objets isolés.",
+          "flavor": "« La plupart des gens ne connaissent pas la mythologie égyptienne aussi bien que la grecque. Nous ne pouvions pas nous appuyer sur des récits et des archétypes comme avec Theros… Nous nous sommes appuyés davantage sur des connaissances culturelles et historiques, appliquées à des pans de cartes plutôt qu'à des conceptions isolées. »"
+        },
+        {
+          "title": "Opposez le visuel au jeu pour rendre un lieu inquiétant",
+          "rules": "Le ton n'exige pas que tous les canaux s'accordent. Contredisez délibérément ce que dit l'un par ce que fait l'autre, et le public ressent l'écart comme un malaise — une humeur qu'aucun canal seul n'aurait produite.",
+          "flavor": "« Nous avons embrassé la part Bolas du monde et créé une édition qui opposait ce que le créatif montrait à ce que le jeu racontait. Nous avons employé la dissonance pour installer l'ambiance… un monde où les choses semblaient “de travers”. »"
+        },
+        {
+          "title": "Choisir la version qui se joue le mieux peut laisser le nom immérité",
+          "rules": "Quand plusieurs candidats portent la même étiquette et que vous choisissez sur la fonction, vérifiez que le vainqueur signifie encore ce que l'étiquette dit. Un mot qui promet une chose pendant que le mécanisme en livre une autre dépense du crédit à chaque lecture.",
+          "flavor": "Les premières révoltes détruisaient des choses, puis agissaient comme des bombes. « La révolte finale a été choisie parce qu'elle donnait le meilleur jeu, mais avec une déconnexion importante d'avec la saveur du mot… le jeu ne vendait pas assez bien la saveur. »"
+        },
+        {
+          "title": "Si un concept a un foyer évident, son absence de ce foyer se lit comme une erreur",
+          "rules": "Certaines idées appartiennent si clairement à un endroit que l'on remarque l'omission avant d'évaluer quoi que ce soit d'autre. Sauter ce placement pour des raisons internes ne se lit pas comme un choix mais comme une faute, et cela affaiblit tous les exemplaires livrés.",
+          "flavor": "Troisième problème de la révolte : « Elle n'était pas en rouge. Le visage de l'édition était Chandra, pyromancienne rouge. Le rouge est aussi la couleur de l'action impulsive et du comportement destructeur — bref, ce qui déclenche les révolutions… Son absence a amoindri son ressenti. »"
+        },
+        {
+          "title": "Les déclencheurs sur ce qui se passe ailleurs s'oublient, et la variété le multiplie",
+          "rules": "Une condition qui guette des événements extérieurs à ce qui la porte est déjà difficile à suivre. Donnez-lui de nombreuses expressions, en de nombreux endroits et moments, et vous avez multiplié le coût de surveillance au lieu de l'additionner.",
+          "flavor": "« C'était une capacité difficile à surveiller. En général nous nous méfions des mécaniques qui se déclenchent quand il arrive quelque chose à d'autres cartes. Ajoutez que ce déclencheur pouvait s'exprimer de bien des façons, en bien des lieux et à bien des moments. C'était trop facile à rater. »"
+        },
+        {
+          "title": "Deux représentations d'une même chose se rendent mutuellement superflues",
+          "rules": "Quand un projet contient deux dispositifs exprimant la même idée, ils ne se renforcent pas : ils invitent à demander pourquoi les deux existent. Le plus faible porte le blâme, et le plus fort perd une part de sa prétention à être la version définitive.",
+          "flavor": "L'affliction « devait suggérer l'inéluctabilité des redoutables Éternels, mais les a rendus plus banals que spéciaux. Les joueurs demandaient aussi pourquoi elle était nécessaire, puisque l'éternalisation représentait déjà les Éternels. »"
+        },
+        {
+          "title": "Demandez séparément si cela se joue bien et si cela a l'air juste",
+          "rules": "Le fonctionnement et la présentation sont jugés par des facultés différentes et peuvent diverger totalement. Un verdict unique le masque ; deux questions attrapent le cas où vous avez fait une bonne chose sous une forme que les gens n'ont pas envie de manipuler.",
+          "flavor": "Sur les séquelles : « Les joueurs avaient une relation amour-haine avec cette mécanique. Ils adoraient l'aspect “flashback mais avec des cartes différentes”. » Et dans les leçons : « Les joueurs adoraient comment elle se jouait, mais détestaient son apparence. »"
+        },
+        {
+          "title": "Un élément qui ne se relie à rien ne rend que lui-même",
+          "rules": "Un composant peut être excellent isolément et rester un mauvais emploi de la place qu'il occupe, si rien d'autre dans l'œuvre n'est changé par sa présence. Jugez chaque inclusion deux fois : sur ses mérites, et sur ce qu'elle fait à son entourage.",
+          "flavor": "« Je suis un grand fan du recyclage. Que faisait-il exactement dans ce bloc ? Il lissait les pioches, comme toujours, mais ne se reliait mécaniquement à rien. De même, l'ardeur et l'embaumement sont savoureux en eux-mêmes, mais n'avaient aucun recouvrement mécanique. »"
+        },
+        {
+          "title": "Cherchez dans la source le petit fait vrai que vous ne pourriez pas défendre autrement",
+          "rules": "Un fait sur le sujet est un argument qui ne dépend pas de votre goût. Creusez jusqu'au détail précis et vérifiable qui autorise ce que vous voulez inclure, et surveillez sa réception : un détail bien reçu peut changer la politique en vigueur.",
+          "flavor": "« J'ai pu faire entrer du typal chat dans le fichier parce que nos recherches disaient que les anciens Égyptiens vénéraient les chats. La réaction a été extrêmement positive, au point de nous faire reconsidérer la fréquence à laquelle nous voudrions faire du typal chat. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Estado do design 2017",
+      "dek": "A décima terceira autoavaliação anual de Rosewater: um ano do qual ele se orgulha, com erros que diz que deveria ter previsto, e várias lições que já tinha aprendido antes.",
+      "overview": "Balanço dos blocos Kaladesh e Amonkhet: o que as mecânicas novas conseguiram, por que revolta falhou por três motivos distintos, e por que a mesma conclusão sobre complexidade continuava voltando.",
+      "takeaway": "“Esta é a lição que mais me preocupa, em parte porque é uma lição que eu já aprendi no ano passado (e em muitos outros anos antes).”",
+      "lessons": [
+        {
+          "title": "Diga o que você quer dizer com “complexo demais”, ou vão ouvir “simplificar o jogo”",
+          "rules": "Profundidade e carga parecem a mesma coisa de fora. Se você anuncia que vai reduzir complexidade sem separá-las, quem valoriza a profundidade lerá aquilo como ameaça e brigará contra o conserto. Nomeie o que você está cortando e o que está protegendo.",
+          "flavor": "“Toda vez que menciono que a complexidade está alta, pareço assustar alguns jogadores, que temem que vamos ‘emburrecer o jogo'. Nosso objetivo principal não é ter menos decisões estratégicas interessantes. É fazer os jogadores gastarem menos tempo processando enormes quantidades de informação que em geral não importam.”"
+        },
+        {
+          "title": "Uma conclusão à qual você volta indica que o conserto estava errado, não o diagnóstico",
+          "rules": "Quando o mesmo item aparece na lista de lições deste ano e na do ano passado, não foi a análise que falhou: a ação corretiva foi pequena demais, ou mirou um sintoma. Pare de repetir a conclusão e mude o que você fez a respeito.",
+          "flavor": "“Esta é a lição que mais me preocupa, em parte porque já a aprendi no ano passado (e em muitos outros antes)… Demos alguns passos para frear a complexidade (como Kaladesh ter só três mecânicas), mas não bastou… demos um passo à frente e dois atrás.”"
+        },
+        {
+          "title": "A história importar é bom; deformar a obra para exibi-la não é",
+          "rules": "Depois que você acerta em integrar uma narrativa à obra, o mesmo instinto continua e passa a torcer decisões que deveriam ter sido tomadas por outros motivos. O custo costuma ser pago em variedade: o assunto recorrente ocupa as vagas de que os novos precisavam.",
+          "flavor": "“Um dos acertos do ano passado foi integrarmos melhor a história ao design das cartas. Parece que levamos uma coisa boa longe demais… Ter os mesmos personagens ocupando com tanta frequência vagas de planeswalker não nos deixava trazer de volta outros favoritos nem apresentar personagens novos.”"
+        },
+        {
+          "title": "Quando o público não conhece os detalhes, aplique a fonte em traços largos",
+          "rules": "Uma fonte que seu público conhece em detalhe permite construir peças específicas sobre referências específicas. Uma que ele conhece só como impressão geral, não; então suba um nível e aplique-a a faixas inteiras da obra em vez de a itens isolados.",
+          "flavor": "“A maioria das pessoas não conhece a mitologia egípcia nem de longe tão bem quanto a grega. Não dava para nos apoiar em histórias e arquétipos como em Theros… No fim, nos apoiamos mais em conhecimento cultural e histórico, aplicado a faixas de cartas em vez de a designs isolados.”"
+        },
+        {
+          "title": "Ponha o visual contra a jogabilidade para fazer um lugar parecer errado",
+          "rules": "Tom não precisa vir de todos os canais concordando. Contradiga de propósito o que um canal diz com o que outro faz, e o público sente a discrepância como desconforto — um clima que nenhum canal sozinho teria produzido.",
+          "flavor": "“Abraçamos a parte Bolas do mundo e criamos uma coleção que contrastava o que o criativo mostrava com o que a jogabilidade dizia. Usamos dissonância para dar o clima… um mundo em que as coisas pareciam ‘erradas'.”"
+        },
+        {
+          "title": "Escolher a versão que joga melhor pode deixar o nome sem mérito",
+          "rules": "Quando vários candidatos carregam o mesmo rótulo e você escolhe pela função, verifique se o vencedor ainda significa o que o rótulo diz. Uma palavra que promete uma coisa enquanto o mecanismo entrega outra gasta credibilidade toda vez que alguém a lê.",
+          "flavor": "Os primeiros designs de revolta destruíam coisas, depois agiam como bombas. “A revolta final foi escolhida porque dava a melhor jogabilidade, mas com uma desconexão significativa em relação ao sabor da palavra… a jogabilidade simplesmente não vendia bem o sabor.”"
+        },
+        {
+          "title": "Se um conceito tem um lar óbvio, a ausência dele ali é lida como erro",
+          "rules": "Algumas ideias pertencem a um lugar de forma tão evidente que as pessoas notam a omissão antes de avaliar qualquer outra coisa. Pular esse posicionamento por razões internas não é lido como escolha: é lido como falha, e mina todos os exemplares que saíram.",
+          "flavor": "O terceiro problema de revolta: “Ela não estava no vermelho. O rosto da coleção era Chandra, uma piromante vermelha. O vermelho é também a cor da ação impulsiva e do comportamento destrutivo — sabe, o tipo de coisa que começa revoluções… A ausência dela na cor diminuiu a sensação.”"
+        },
+        {
+          "title": "Gatilhos sobre o que acontece em outro lugar passam batido, e a variedade multiplica isso",
+          "rules": "Uma condição que vigia eventos externos ao que a carrega já é difícil de acompanhar. Dê a ela muitas expressões diferentes, em muitos lugares e momentos, e você multiplicou o custo de vigilância em vez de somar a ele.",
+          "flavor": "“Era uma habilidade difícil de monitorar. Em geral tentamos ter cuidado com mecânicas que disparam quando algo acontece a outras cartas. É fácil perder gatilhos externos. Some a isso que este podia se expressar de formas muito diferentes em muitos lugares e momentos.”"
+        },
+        {
+          "title": "Duas representações da mesma coisa fazem cada uma parecer desnecessária",
+          "rules": "Quando um projeto contém dois dispositivos expressando a mesma ideia, eles não se reforçam: convidam à pergunta de por que ambos existem. O mais fraco leva a culpa, e o mais forte perde parte da pretensão de ser a versão definitiva.",
+          "flavor": "Aflição “deveria sugerir a inevitabilidade dos temíveis Eternos, mas acabou fazendo-os parecer mais banais que especiais. Os jogadores também questionavam por que ela era necessária, já que eternizar também representava os Eternos.”"
+        },
+        {
+          "title": "Pergunte separadamente se joga bem e se parece certo",
+          "rules": "Como algo funciona e como se apresenta são julgados por faculdades diferentes e podem se separar por completo. Um veredito único esconde isso; duas perguntas pegam o caso em que você fez uma coisa boa numa forma que as pessoas não querem manusear.",
+          "flavor": "Sobre consequência: “Os jogadores tinham uma relação de amor e ódio com esta mecânica. Amavam o aspecto de ‘lampejo do passado, mas com cartas diferentes'.” E nas lições: “Os jogadores amavam como ela jogava, mas odiavam como ela parecia.”"
+        },
+        {
+          "title": "Um elemento que não se conecta a nada só devolve a si mesmo",
+          "rules": "Um componente pode ser excelente isoladamente e ainda assim ser um mau uso do espaço que ocupa, se nada mais na obra muda com a presença dele. Julgue cada inclusão duas vezes: pelos méritos próprios e pelo que ela faz com tudo ao redor.",
+          "flavor": "“Sou fã enorme de ciclo. O que exatamente ele estava fazendo neste bloco? Suavizava as compras, como sempre, mas não se amarrava mecanicamente a nada. Do mesmo modo, esforço e embalsamar são saborosos por si sós, mas não tinham nenhuma sobreposição mecânica.”"
+        },
+        {
+          "title": "Pesquise na fonte o pequeno fato verdadeiro que você não conseguiria defender de outro jeito",
+          "rules": "Um fato sobre o tema é um argumento que não depende do seu gosto. Cave até o detalhe específico e verificável que autoriza aquilo que você quer incluir, e observe a recepção: um detalhe bem recebido pode mudar a política vigente.",
+          "flavor": "“Consegui colocar um pouco de tipal de gatos no arquivo porque sabia, pela nossa pesquisa, que os antigos egípcios reverenciavam gatos. A resposta foi enormemente positiva e na verdade nos fez repensar com que frequência queremos fazer tipal de gatos.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "2017年设计现况",
+      "dek": "罗斯瓦特的第十三份年度自评：一个他为之自豪的年份，其中夹着一些他说自己本该预见到的错误，以及好几条他此前就已经学过的教训。",
+      "overview": "对《卡拉德许》和《阿芒凯》两个系列组的复盘：新机制达成了什么、「反抗」为何在三件互不相干的事情上都失败了，以及关于复杂度的同一条结论为什么一再出现。",
+      "takeaway": "「这是我最担心的一条教训，一部分原因是：这是我去年（以及此前很多年）就已经学过的一条教训。」",
+      "lessons": [
+        {
+          "title": "把你所说的「太复杂」讲清楚，否则他们听到的会是「把游戏做傻」",
+          "rules": "从外面看，深度和负担长得一模一样。如果你宣布要削减复杂度却不把两者分开，那些珍视深度的人会把它读成一种威胁，并且反对这项修正。明确说出：你要砍掉的是什么，你要守住的是什么。",
+          "flavor": "「每当我提到复杂度偏高，似乎都会吓到一些玩家，他们担心我们要『把游戏做傻』。我们的主要目标不是减少有意思的策略决定（尤其是那些新玩家看不见的决定），而是让玩家少花时间去处理大量其实无关紧要的信息。」"
+        },
+        {
+          "title": "一条你反复得出的结论，说明错的是那个对策，不是那个诊断",
+          "rules": "当同一条出现在今年的教训清单和去年的清单上时，失败的不是分析——是纠正措施太小，或者打在了症状上。别再复述这条结论了，去改变你为它所做的事情。",
+          "flavor": "「这是我最担心的一条教训，一部分原因是：这是我去年（以及此前很多年）就学过的一条……我们确实采取了一些措施来遏制复杂度（比如让《卡拉德许》只有三个机制），但这远远不够……我们进了一步，退了两步。」"
+        },
+        {
+          "title": "让故事有分量是好的；为了展示故事而扭曲作品则不是",
+          "rules": "一旦你成功地把叙事整合进了作品，同一股本能会继续往前走，开始去扭那些本该基于别的理由做出的决定。它的代价通常记在「多样性」这一栏上：那个反复出现的主角，占掉了新面孔需要的位置。",
+          "flavor": "「去年的亮点之一，是我们把故事和牌张设计整合得更好了。看来我们把一件好事推得有点太远了……让同样的角色太频繁地占据鹏洛客的卡位，导致我们没法请回其他人气角色，也没法引入很酷的新角色。」"
+        },
+        {
+          "title": "当受众并不了解细节时，就在大块面上使用这份素材",
+          "rules": "一份受众了解到细节的素材，允许你在具体的引用之上去建造具体的作品。一份他们只有笼统印象的素材则不行——那就往上抬一层，把它应用到整片整片的作品上，而不是应用到单个物件上。",
+          "flavor": "「大多数人对埃及神话的了解，远远比不上他们对希腊神话的了解。我们没法像在《西奥斯》那样，靠故事和角色原型来撑起设计。我们必须找到另一条路。最后我们更多地依靠文化与历史知识，并且把它应用在成片的牌上，而不是单张的设计上。」"
+        },
+        {
+          "title": "让视觉和玩法互相对着干，好让一个地方感觉不对劲",
+          "rules": "调性不必来自所有渠道的一致。刻意让一个渠道所说的，和另一个渠道所做的相互矛盾，受众会把这份落差感受成一种不安——那是任何单一渠道都造不出来的情绪。",
+          "flavor": "「我们拥抱了这个世界里属于波拉斯的那一面，做出了一个『美术给你看的东西』和『玩法在告诉你的东西』相互对立的系列。我们用不协和来定调。这一点，加上满目的埃及符号，营造出了一种非常独特的调性——一个万物都感觉『不太对劲』的世界。」"
+        },
+        {
+          "title": "挑那个玩起来最好的版本，可能会让这个名字变得名不副实",
+          "rules": "当好几个候选都挂着同一个标签、而你按功能来挑时，检查一下：胜出的那个还是不是那个标签所说的意思？一个「承诺了一件事、机制却交付了另一件事」的词，每被人读一次就消耗一次可信度。",
+          "flavor": "早期的「反抗」设计会消灭东西，后来又像炸弹。「最终版的反抗之所以被选中，是因为它带来了最好的对局体验，但它同时和这个词的风味严重脱节。反抗本该表现的是：周遭的种种惨剧让事物起而反抗。可玩法在推销这份风味上做得不够好。」"
+        },
+        {
+          "title": "如果一个概念有一个显而易见的归属地，它在那里缺席就会被读成错误",
+          "rules": "有些想法归属某处归属得太明显，以至于人们在评估其他任何事情之前，先注意到的是那处缺席。出于内部原因跳过那个位置，不会被读成一个选择——会被读成一个失误，并且拖累所有已经发出去的实例。",
+          "flavor": "反抗的第三个问题：「它不在红色里。这个系列的门面是昌达，一位红色的焰身术士。而红色也正是冲动行事与破坏行为的颜色——你懂的，就是那些会掀起革命的东西……它在红色里的缺席削弱了它的观感。」"
+        },
+        {
+          "title": "「在别处发生的事」型触发本来就容易漏，而多样性会把这一点乘上好几倍",
+          "rules": "一个盯着「承载它的东西之外」的事件的条件，本身就难追踪。再给这个条件配上许多种不同的表现形式，出现在许多地点、许多时刻——你就不是在给监控成本做加法，而是在做乘法。",
+          "flavor": "「这个异能很难盯。总的来说，对于『别的牌身上发生事情时触发』的机制我们一向很小心，外部触发太容易漏了。再加上这个触发可以在很多不同的地方、很多不同的时刻、以很多不同的方式表现出来，它实在太容易被漏掉了。」"
+        },
+        {
+          "title": "同一件事的两种表现形式，会让彼此都显得多余",
+          "rules": "当一个项目里装着两个表达同一个想法的装置时，它们不会互相加强——它们会引出「为什么两个都要有」这个问题。较弱的那个背下这口锅，而较强的那个也失去了一部分「我才是那个定本」的正当性。",
+          "flavor": "「苦痛」原本「是想传达那些可怕的永生者的不可阻挡，结果却让他们显得平庸而不是特别。玩家也在质疑它究竟有没有必要，因为『永生』同样代表着永生者。」而永生本身也有争议：「另一些人觉得它和防腐区别不够大，不足以自成一个机制。」"
+        },
+        {
+          "title": "分开问两个问题：它玩起来好不好，和它看起来对不对",
+          "rules": "一样东西如何运作、如何呈现，是由不同的官能来评判的，而且两者可以完全脱钩。一个笼统的结论会掩盖这一点；两个分开的问题，才能抓住那种「你做出了一件好东西，却装在了人们不愿意摆弄的形态里」的情况。",
+          "flavor": "关于「后果」：「玩家对这个机制爱恨交加。他们喜欢它『闪回，但换成不同的牌』的那一面。」而在教训那一栏：「玩家喜欢这个机制玩起来的样子，却讨厌它看起来的样子。」防腐也遇到了同样的分裂。"
+        },
+        {
+          "title": "一个和任何东西都不连通的元素，只把它自己还给你",
+          "rules": "一个部件可以单独看很出色，却依然是对它所占空间的糟糕使用——只要作品里没有别的任何东西因为它的存在而改变。对每一次纳入都要评判两次：它自身好不好，以及它对周围的一切做了什么。",
+          "flavor": "「我是循环的超级粉丝。可它在这个系列组里到底在干什么呢？它像往常一样让抓牌更顺，但它在机制上并没有真正连到任何东西上。同样，用力和防腐各自都有风味，但它们之间没有任何机制上的重叠。」"
+        },
+        {
+          "title": "去源材料里挖那个「你原本论证不了」的、小而真实的细节",
+          "rules": "一条关于这个题材的事实，是一个不依赖于你个人品味的论据。挖到那个具体、可查证、并且恰好为你想加的东西背书的细节；然后留意它的反响——一个反响很好的细节，可以改变现行的方针。",
+          "flavor": "「我之所以能把一点猫咪部族塞进设计文件，是因为我从我们的调研里知道古埃及人崇敬猫。而猫咪部族收到的反响极其正面，甚至让我们开始重新思考『我们到底该多久做一次猫咪部族』。」"
+        }
+      ]
+    }
+  }
+}
