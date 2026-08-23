@@ -1,0 +1,320 @@
+{
+  "id": "team-building-2014-10-13",
+  "slug": "team-building-2014-10-13",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2014-10-13",
+  "series": null,
+  "tags": ["multiplayer", "khans-of-tarkir", "design-team", "unglued", "design-history"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/team-building-2014-10-13",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-25T01:00:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Team Building",
+      "dek": "Multiplayer Week: the Khans of Tarkir design team, then the earliest cards built for more than two players.",
+      "overview": "Rosewater belatedly credits his design team, then walks the history of deliberate multiplayer design from Syphon Soul through the Unglued teammate cycle to Imperial Mask.",
+      "takeaway": "On removing the matching jerseys from Team Spirit's art: \"I have since realized the grave error of my ways.\"",
+      "lessons": [
+        {
+          "title": "Something built for one configuration reads as a mistake in every other — label which one it's for",
+          "rules": "A component optimised for a specific arrangement will look inexplicable to everyone using a different one, and they'll conclude the maker erred rather than that they aren't the audience. The fix isn't to generalise it, which destroys the fit. It's to state the configuration on the object, so the wrong reader knows to keep walking.",
+          "flavor": "Get a Life exchanges life totals with your teammate. “This card has confused a lot of players. What exactly is this card doing?… The answer is this card was made for one specific multiplayer format—Emperor… Having the ability to swap life totals between the emperor (the player in the middle who's not getting attacked) and one of the people fighting on the ends can be very valuable. Admittedly, outside that format, this effect is less useful.”"
+        },
+        {
+          "title": "The visible marker is the membership — a set member that doesn't show the property isn't in the set",
+          "rules": "You can know that something belongs to a group because you built it that way, and be the only person who knows. Everyone else reads the group off the shared feature. If one member lacks the feature, it isn't a quiet exception; from outside, the group is smaller by one and the odd item is unattributed.",
+          "flavor": "“While I am very proud of Unglued's design, it's not without its flaws. How about this one? Ricochet is part of the teammate cycle, yet doesn't have the word 'teammate' in its rules text. The rules text even works in a two-player game, so it isn't even clear this was designed for multiplayer play. (It was, though.)” And of the cycle as a whole: “I'm not sure how many people even realize it's a cycle.”"
+        },
+        {
+          "title": "If the effect scales on a variable you don't control, you have priced it at that variable's smallest value",
+          "rules": "Making the output grow with the size of the situation is the obvious way to serve larger cases, and it quietly commits you to a cost set by the smallest one. There's no ceiling in the design, only in your imagination of how big things get. Either bound the growth or price it at the largest configuration you'll permit.",
+          "flavor": "Syphon Soul's approach: “it does an effect that gets more powerful the more players there are in the game… gets downright scary as you start getting into double digits.” Then Congregate: “in most multiplayer formats, Congregate was bonkers. Players would often experience three-digit life gains, which was a bit much for four mana.”"
+        },
+        {
+          "title": "Magnitude decides category — an under-pushed effect quietly belongs to somebody else",
+          "rules": "Where the boundaries between domains are drawn by size rather than by kind, the same effect at two magnitudes sits in two different territories. So being timid isn't only a strength problem: it can move the thing out of the domain you intended it for, and the misfiling is invisible until someone checks the border.",
+          "flavor": "Team Spirit: “The biggest flaw was that I didn't push the effect enough. Overrun (+3/+3 and trample) might have meant something but +1/+1 is just way too tame. Also, interestingly, because it was so small, the ability falls into white not green. White pumps the team up to +2/+2 but once you get up to +3/+3 it becomes a green effect.”"
+        },
+        {
+          "title": "An innovation gets cut while it's merely possible and lands once something needs it",
+          "rules": "The first attempt at a capability usually dies to a fair objection: nothing currently requires it. That's not a verdict on the capability, it's a statement about the moment. Keep it on the list and reintroduce it attached to a use — the same novelty that was refused in the abstract passes without comment once it's doing a job.",
+          "flavor": "Imperial Mask “creates an enchantment token—the first time the game created a noncreature token. For those who love trivia, I had tried to create an artifact token (which wasn't a creature) in Fifth Dawn, but we ended up not doing it because we decided the game didn't need it yet. Obviously, since Imperial Mask first came out, we've started to embrace noncreature tokens.”"
+        },
+        {
+          "title": "Buy back your own attention by hiring for the part of the job that isn't the work",
+          "rules": "A senior role accretes people-management until the thing you were promoted for gets the leftovers. Hiring someone into that half is the standard fix and has two separate requirements that people collapse into one: they have to work well with you, and they have to be good for the team. Screen for both; either alone fails.",
+          "flavor": "“Aaron Forsythe came to me and told me that he would like to hire a manager to help with the design team so I could spend less time managing people and more time overseeing design. I liked this idea a lot. My only concern was finding someone who I could work well with and who I felt would do a good job looking after my designers. Mark Gottlieb proved to be the perfect choice.”"
+        },
+        {
+          "title": "When the submission is the riskiest one on the table, select on the person instead",
+          "rules": "A portfolio only tells you what someone has already finished, and the most ambitious entry is the one most likely to have failed on its own terms. If how they carry themselves through the attempt is good, that's evidence about every future attempt, which is what you're actually buying. Take the person over the artefact and find out.",
+          "flavor": "“Shawn created what I thought was the most difficult world to execute in the Top 8, but I liked his attitude so I wanted to see what he could do. Shawn impressed me at every turn and that led to him getting an internship, which would later pan out into a fulltime design job.” Shawn Main went on to create and lead Conspiracy."
+        },
+        {
+          "title": "Don't sand off the distinctive part to court an audience whose reaction you're guessing at",
+          "rules": "Anticipating that a specific group will reject something for being too much is a guess, and it's the kind of guess that always argues for less. Acting on it removes the thing that was actually good, which nobody asked you to remove, in exchange for an acceptance nobody promised. Ship the version with the joke in it.",
+          "flavor": "“Terese Nielsen, the artist of the card, turned in a sketch where all of the creatures wore matching jerseys as if they were all on the same sports team. At the time… in my mind the multiplayer cards weren't meant to be as silly (I honestly worried the cards might not be accepted by the multiplayer crowd if they didn't seem normal enough), so I asked Terese to take off the jerseys. I have since realized the grave error of my ways.”"
+        },
+        {
+          "title": "Replacing a role gets you a person, not a role — expect the job to change shape",
+          "rules": "When somebody leaves and you backfill the seat, what arrives is an individual with their own distribution of strengths, and the position quietly redefines itself around them. Treating the slot as fixed wastes whatever they brought that the last person didn't. Write the role from who you got, not from who left.",
+          "flavor": "“So partway through the design, Zac left Wizards of the Coast. That meant I needed a new development representative. What I got was something entirely different. Yes, Billy was a good dev rep, but he also proved to be quite the designer, contributing a lot of cards and ideas to the file.”"
+        },
+        {
+          "title": "What you learned in testing outlives the product the testing was for",
+          "rules": "A cancelled project still ran its experiments, and the results are true regardless of whether anything shipped. That knowledge sits with whoever was in the room and surfaces years later when someone asks a question it happens to answer. Keep the findings separate from the artefact in your own memory, and volunteer them when the occasion appears.",
+          "flavor": "Checks and Balances led to a voting theme in Unglued 2. “Although the set never got printed, it did get playtested, and I realized that voting mechanics were fun. When Shawn Main came to me for suggestions on Conspiracy, I explained to him that I felt voting cards were a ripe place for multiplayer design, which led to their inclusion in Conspiracy.” Roughly seventeen years elapsed."
+        }
+      ]
+    },
+    "es": {
+      "title": "Formar equipo",
+      "dek": "Semana Multijugador: el equipo de diseño de Khans of Tarkir y, después, las primeras cartas hechas para más de dos jugadores.",
+      "overview": "Rosewater acredita con retraso a su equipo de diseño y luego recorre la historia del diseño multijugador deliberado, de Syphon Soul al ciclo de compañeros de Unglued y a Imperial Mask.",
+      "takeaway": "Sobre quitar las camisetas a juego del arte de Team Spirit: «Desde entonces he comprendido el grave error de mi proceder.»",
+      "lessons": [
+        {
+          "title": "Lo construido para una configuración parece un error en todas las demás: etiqueta para cuál es",
+          "rules": "Un componente optimizado para una disposición concreta resultará inexplicable a quien use otra, y concluirán que quien lo hizo se equivocó, no que ellos no son el público. La solución no es generalizarlo, porque eso destruye el ajuste. Es indicar la configuración en el propio objeto, para que el lector equivocado sepa seguir de largo.",
+          "flavor": "Get a Life intercambia totales de vida con tu compañero. «Esta carta ha confundido a muchos jugadores. ¿Qué hace exactamente?… La respuesta es que se hizo para un formato multijugador concreto: Emperador… Poder intercambiar totales de vida entre el emperador (el jugador del centro, al que no atacan) y uno de los que pelean en los extremos puede ser muy valioso. Es cierto que, fuera de ese formato, el efecto sirve menos.»"
+        },
+        {
+          "title": "La marca visible es la pertenencia: un miembro que no muestra la propiedad no está en el conjunto",
+          "rules": "Puedes saber que algo pertenece a un grupo porque tú lo construiste así, y ser el único que lo sabe. Los demás leen el grupo a partir del rasgo compartido. Si a un miembro le falta el rasgo, no es una excepción discreta: desde fuera, el grupo tiene un miembro menos y la pieza rara queda sin atribuir.",
+          "flavor": "«Aunque estoy muy orgulloso del diseño de Unglued, no está libre de fallos. ¿Qué tal este? Ricochet forma parte del ciclo de compañeros, pero no lleva la palabra «teammate» en su texto de reglas. El texto incluso funciona en una partida a dos, así que ni siquiera queda claro que se diseñara para multijugador. (Lo fue, eso sí.)» Y del ciclo entero: «No sé cuánta gente se da cuenta siquiera de que es un ciclo.»"
+        },
+        {
+          "title": "Si el efecto escala con una variable que no controlas, lo has tarificado en su valor más pequeño",
+          "rules": "Hacer que la salida crezca con el tamaño de la situación es la forma obvia de servir a los casos grandes, y te compromete calladamente a un coste fijado por el más pequeño. No hay techo en el diseño, solo en tu imaginación de cuán grande puede llegar a ser. O acotas el crecimiento o lo tarificas por la configuración mayor que vayas a permitir.",
+          "flavor": "El enfoque de Syphon Soul: «hace un efecto que se vuelve más potente cuantos más jugadores hay en la partida… y da bastante miedo cuando empiezas a llegar a las dos cifras.» Luego Congregate: «en la mayoría de formatos multijugador, Congregate era una locura. Los jugadores solían experimentar ganancias de vida de tres cifras, algo excesivo para cuatro maná.»"
+        },
+        {
+          "title": "La magnitud decide la categoría: un efecto poco empujado pertenece calladamente a otro",
+          "rules": "Cuando las fronteras entre dominios se trazan por tamaño y no por tipo, el mismo efecto en dos magnitudes cae en dos territorios distintos. Así que ser tímido no es solo un problema de potencia: puede sacar la cosa del dominio al que la destinabas, y el error de archivo es invisible hasta que alguien revisa la frontera.",
+          "flavor": "Team Spirit: «El mayor fallo fue que no empujé el efecto lo suficiente. Overrun (+3/+3 y arrolladora) podría haber significado algo, pero +1/+1 es demasiado manso. Además, curiosamente, por ser tan pequeña, la habilidad cae en blanco y no en verde. El blanco sube al equipo hasta +2/+2, pero en cuanto llegas a +3/+3 se convierte en un efecto verde.»"
+        },
+        {
+          "title": "Una innovación se corta mientras es solo posible y aterriza en cuanto algo la necesita",
+          "rules": "El primer intento de una capacidad suele morir ante una objeción justa: nada la requiere ahora mismo. Eso no es un veredicto sobre la capacidad, es una afirmación sobre el momento. Mantenla en la lista y reintrodúcela pegada a un uso: la misma novedad rechazada en abstracto pasa sin comentarios en cuanto está haciendo un trabajo.",
+          "flavor": "Imperial Mask «crea una ficha de encantamiento: la primera vez que el juego creó una ficha que no era criatura. Para los amantes de la trivia: yo había intentado crear una ficha de artefacto (que no fuera criatura) en Fifth Dawn, pero acabamos no haciéndolo porque decidimos que el juego aún no lo necesitaba. Obviamente, desde que salió Imperial Mask hemos empezado a abrazar las fichas que no son criaturas.»"
+        },
+        {
+          "title": "Recompra tu propia atención contratando para la parte del puesto que no es el trabajo",
+          "rules": "Un puesto senior acumula gestión de personas hasta que aquello por lo que te ascendieron se queda con las sobras. Contratar a alguien para esa mitad es la solución estándar, y tiene dos requisitos distintos que la gente funde en uno: tiene que funcionar bien contigo, y tiene que ser bueno para el equipo. Filtra por ambos; cada uno por separado falla.",
+          "flavor": "«Aaron Forsythe vino a decirme que quería contratar a un mánager que ayudara con el equipo de diseño para que yo dedicara menos tiempo a gestionar personas y más a supervisar el diseño. La idea me gustó mucho. Mi única preocupación era encontrar a alguien con quien yo pudiera trabajar bien y que, en mi opinión, cuidara bien de mis diseñadores. Mark Gottlieb resultó ser la elección perfecta.»"
+        },
+        {
+          "title": "Cuando la propuesta es la más arriesgada de la mesa, selecciona a la persona en su lugar",
+          "rules": "Un portafolio solo te dice lo que alguien ya ha terminado, y la entrada más ambiciosa es la que más probablemente haya fallado en sus propios términos. Si cómo se conduce durante el intento es bueno, eso es evidencia sobre todos los intentos futuros, que es lo que en realidad estás comprando. Quédate con la persona antes que con la obra y averígualo.",
+          "flavor": "«Shawn creó lo que a mi juicio era el mundo más difícil de ejecutar del Top 8, pero me gustó su actitud y quise ver de qué era capaz. Shawn me impresionó a cada paso y eso derivó en unas prácticas que más tarde cuajaron en un puesto de diseñador a tiempo completo.» Shawn Main acabaría creando y liderando Conspiracy."
+        },
+        {
+          "title": "No limes la parte distintiva para cortejar a un público cuya reacción estás adivinando",
+          "rules": "Anticipar que cierto grupo rechazará algo por excesivo es una conjetura, y del tipo que siempre aboga por menos. Actuar sobre ella elimina justo lo que estaba bien, que nadie te pidió eliminar, a cambio de una aceptación que nadie prometió. Publica la versión que lleva el chiste dentro.",
+          "flavor": "«Terese Nielsen, la artista de la carta, entregó un boceto donde todas las criaturas llevaban camisetas a juego, como si fueran del mismo equipo deportivo. Por aquel entonces… en mi cabeza las cartas multijugador no debían ser tan tontas (me preocupaba de verdad que el público multijugador no las aceptara si no parecían bastante normales), así que le pedí a Terese que quitara las camisetas. Desde entonces he comprendido el grave error de mi proceder.»"
+        },
+        {
+          "title": "Sustituir un rol te da una persona, no un rol: espera que el puesto cambie de forma",
+          "rules": "Cuando alguien se va y cubres el hueco, lo que llega es un individuo con su propio reparto de fortalezas, y el puesto se redefine calladamente en torno a él. Tratar la casilla como fija desperdicia lo que esa persona trajo y la anterior no. Escribe el rol a partir de quien te ha llegado, no de quien se fue.",
+          "flavor": "«A mitad del diseño, Zac dejó Wizards of the Coast. Eso significaba que necesitaba un nuevo representante de desarrollo. Lo que obtuve fue algo completamente distinto. Sí, Billy era un buen representante de desarrollo, pero además resultó ser todo un diseñador, aportando muchas cartas e ideas al archivo.»"
+        },
+        {
+          "title": "Lo que aprendiste probando sobrevive al producto para el que probabas",
+          "rules": "Un proyecto cancelado igualmente hizo sus experimentos, y los resultados son ciertos con independencia de que algo se publicara. Ese conocimiento queda con quien estuvo en la sala y aflora años después, cuando alguien hace una pregunta que resulta que responde. Guarda los hallazgos aparte del objeto en tu memoria, y ofrécelos cuando aparezca la ocasión.",
+          "flavor": "Checks and Balances llevó a un tema de votación en Unglued 2. «Aunque la colección nunca se imprimió, sí se probó, y descubrí que las mecánicas de votación eran divertidas. Cuando Shawn Main vino a pedirme sugerencias para Conspiracy, le expliqué que las cartas de votación me parecían un terreno fértil para el diseño multijugador, lo que llevó a incluirlas en Conspiracy.» Pasaron unos diecisiete años."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Constituer l'équipe",
+      "dek": "Semaine multijoueur : l'équipe de conception de Khans of Tarkir, puis les toutes premières cartes faites pour plus de deux joueurs.",
+      "overview": "Rosewater crédite tardivement son équipe, puis retrace l'histoire de la conception multijoueur délibérée, de Syphon Soul au cycle des coéquipiers d'Unglued et à Imperial Mask.",
+      "takeaway": "Sur le retrait des maillots assortis de l'illustration de Team Spirit : « J'ai depuis mesuré la gravité de mon erreur. »",
+      "lessons": [
+        {
+          "title": "Ce qui est bâti pour une configuration passe pour une erreur dans toutes les autres — indiquez laquelle",
+          "rules": "Un composant optimisé pour un agencement précis paraîtra inexplicable à quiconque en utilise un autre, et ces gens concluront que le fabricant s'est trompé, non qu'ils ne sont pas le public. Le remède n'est pas de le généraliser, ce qui détruit l'ajustement. C'est d'inscrire la configuration sur l'objet, pour que le mauvais lecteur passe son chemin.",
+          "flavor": "Get a Life échange les totaux de points de vie avec votre coéquipier. « Cette carte a désorienté beaucoup de joueurs. Que fait-elle au juste ?… La réponse : elle a été faite pour un format multijoueur précis, l'Empereur… Pouvoir échanger les totaux entre l'empereur (au centre, qui n'est pas attaqué) et l'un des combattants des extrémités peut valoir très cher. Certes, hors de ce format, l'effet sert moins. »"
+        },
+        {
+          "title": "La marque visible fait l'appartenance : un membre qui ne montre pas la propriété n'est pas dans l'ensemble",
+          "rules": "Vous pouvez savoir qu'une chose appartient à un groupe parce que vous l'avez faite ainsi, et être le seul à le savoir. Tous les autres lisent le groupe à partir du trait commun. Si un membre en est dépourvu, ce n'est pas une exception discrète : vu de l'extérieur, le groupe compte un membre de moins et l'objet bizarre reste sans rattachement.",
+          "flavor": "« Je suis très fier de la conception d'Unglued, mais elle n'est pas sans défauts. Celui-ci par exemple : Ricochet fait partie du cycle des coéquipiers et pourtant le mot « teammate » ne figure pas dans son texte de règles. Le texte fonctionne même à deux joueurs, si bien qu'on ne voit même pas qu'elle a été conçue pour le multijoueur. (Elle l'a été, pourtant.) » Et du cycle entier : « Je ne sais pas combien de gens réalisent seulement que c'en est un. »"
+        },
+        {
+          "title": "Si l'effet croît avec une variable que vous ne maîtrisez pas, vous l'avez tarifé à sa plus petite valeur",
+          "rules": "Faire grandir le résultat avec la taille de la situation est la façon évidente de servir les grands cas, et cela vous engage en silence sur un coût fixé par le plus petit. Il n'y a pas de plafond dans la conception, seulement dans votre imagination des tailles possibles. Bornez la croissance, ou tarifez-la sur la plus grande configuration que vous autoriserez.",
+          "flavor": "L'approche de Syphon Soul : « elle produit un effet d'autant plus puissant qu'il y a de joueurs… et carrément effrayant dès qu'on atteint les deux chiffres. » Puis Congregate : « dans la plupart des formats multijoueur, Congregate était démentielle. Les joueurs gagnaient couramment des points de vie à trois chiffres, ce qui faisait beaucoup pour quatre manas. »"
+        },
+        {
+          "title": "La magnitude décide de la catégorie : un effet trop timide appartient discrètement à un autre",
+          "rules": "Là où les frontières entre domaines se tracent par la taille plutôt que par la nature, le même effet à deux magnitudes tombe dans deux territoires. La timidité n'est donc pas seulement un problème de puissance : elle peut faire sortir la chose du domaine que vous visiez, et le mauvais classement reste invisible jusqu'à ce que quelqu'un vérifie la frontière.",
+          "flavor": "Team Spirit : « Le plus gros défaut est que je n'ai pas assez poussé l'effet. Overrun (+3/+3 et le piétinement) aurait pu signifier quelque chose, mais +1/+1 est bien trop sage. Et, chose intéressante, parce qu'elle est si petite, la capacité relève du blanc et non du vert. Le blanc gonfle l'équipe jusqu'à +2/+2, mais dès +3/+3 cela devient un effet vert. »"
+        },
+        {
+          "title": "Une innovation est coupée tant qu'elle n'est que possible, et passe dès que quelque chose en a besoin",
+          "rules": "La première tentative d'une capacité meurt d'ordinaire sur une objection juste : rien ne l'exige pour l'instant. Ce n'est pas un verdict sur la capacité, c'est un constat sur le moment. Gardez-la en liste et réintroduisez-la attachée à un usage : la même nouveauté refusée dans l'abstrait passe sans un mot dès qu'elle fait un travail.",
+          "flavor": "Imperial Mask « crée un jeton d'enchantement — la première fois que le jeu créait un jeton non-créature. Pour les amateurs d'anecdotes : j'avais tenté de créer un jeton d'artefact (non-créature) dans Fifth Dawn, mais nous y avons renoncé, ayant décidé que le jeu n'en avait pas encore besoin. Depuis Imperial Mask, nous avons évidemment adopté les jetons non-créature. »"
+        },
+        {
+          "title": "Rachetez votre propre attention en recrutant pour la part du poste qui n'est pas le travail",
+          "rules": "Un poste élevé accumule de la gestion d'équipe jusqu'à ce que ce pour quoi on vous a promu n'ait plus que les restes. Recruter quelqu'un pour cette moitié est le remède classique, et il comporte deux exigences distinctes qu'on confond souvent : la personne doit bien fonctionner avec vous, et être bonne pour l'équipe. Filtrez sur les deux ; l'une sans l'autre échoue.",
+          "flavor": "« Aaron Forsythe est venu me dire qu'il souhaitait recruter un manager pour l'équipe de conception, afin que je passe moins de temps à gérer des gens et plus à superviser la conception. L'idée m'a beaucoup plu. Ma seule inquiétude était de trouver quelqu'un avec qui je puisse bien travailler et qui, selon moi, saurait veiller sur mes concepteurs. Mark Gottlieb s'est révélé le choix parfait. »"
+        },
+        {
+          "title": "Quand la proposition est la plus risquée de la table, choisissez plutôt la personne",
+          "rules": "Un portfolio ne dit que ce que quelqu'un a déjà terminé, et l'entrée la plus ambitieuse est celle qui a le plus de chances d'avoir échoué à ses propres termes. Si sa tenue pendant la tentative est bonne, c'est une donnée sur toutes les tentatives à venir — soit exactement ce que vous achetez. Prenez la personne plutôt que l'objet, et voyez.",
+          "flavor": "« Shawn avait créé ce que je jugeais le monde le plus difficile à exécuter du Top 8, mais son attitude m'a plu et j'ai voulu voir ce qu'il savait faire. Shawn m'a impressionné à chaque étape, ce qui lui a valu un stage, puis un poste de concepteur à plein temps. » Shawn Main a ensuite créé et dirigé Conspiracy."
+        },
+        {
+          "title": "Ne rabotez pas la partie distinctive pour courtiser un public dont vous devinez la réaction",
+          "rules": "Anticiper qu'un groupe précis rejettera une chose parce qu'elle est trop est une supposition, et du genre qui plaide toujours pour moins. Y céder supprime justement ce qui était bon, ce que personne ne vous avait demandé de supprimer, contre une adhésion que personne ne vous avait promise. Publiez la version qui garde la blague.",
+          "flavor": "« Terese Nielsen, l'illustratrice, a rendu une esquisse où toutes les créatures portaient des maillots assortis, comme une même équipe sportive. À l'époque… dans mon esprit, les cartes multijoueur ne devaient pas être aussi loufoques (je craignais sincèrement que le public multijoueur ne les accepte pas si elles n'avaient pas l'air assez normales), et j'ai donc demandé à Terese d'enlever les maillots. J'ai depuis mesuré la gravité de mon erreur. »"
+        },
+        {
+          "title": "Remplacer un rôle vous donne une personne, pas un rôle — attendez-vous à ce que le poste change de forme",
+          "rules": "Quand quelqu'un part et que vous comblez le siège, ce qui arrive est un individu avec sa propre répartition de forces, et le poste se redéfinit doucement autour de lui. Traiter la case comme fixe gaspille ce que cette personne apportait et que la précédente n'avait pas. Écrivez le rôle à partir de qui vous est arrivé, pas de qui est parti.",
+          "flavor": "« En cours de conception, Zac a quitté Wizards of the Coast. Il me fallait donc un nouveau représentant du développement. Ce que j'ai obtenu était tout autre chose. Oui, Billy était un bon représentant, mais il s'est aussi révélé sacré concepteur, apportant beaucoup de cartes et d'idées au fichier. »"
+        },
+        {
+          "title": "Ce que vous avez appris en test survit au produit pour lequel le test était fait",
+          "rules": "Un projet annulé a tout de même mené ses expériences, et les résultats restent vrais qu'il ait été publié ou non. Ce savoir reste chez ceux qui étaient dans la pièce et resurgit des années plus tard, quand quelqu'un pose une question à laquelle il répond. Rangez les constats à part de l'objet dans votre mémoire, et proposez-les quand l'occasion se présente.",
+          "flavor": "Checks and Balances a inspiré un thème de vote dans Unglued 2. « L'édition n'a jamais été imprimée, mais elle a été testée, et j'ai découvert que les mécaniques de vote étaient amusantes. Quand Shawn Main est venu me demander des suggestions pour Conspiracy, je lui ai expliqué que les cartes de vote me semblaient un terrain fertile pour le multijoueur, ce qui a mené à leur inclusion. » Environ dix-sept ans s'étaient écoulés."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Montando o time",
+      "dek": "Semana Multijogador: o time de design de Khans of Tarkir e, depois, as primeiras cartas feitas para mais de dois jogadores.",
+      "overview": "Rosewater credita com atraso seu time de design e então percorre a história do design multijogador deliberado, de Syphon Soul ao ciclo de companheiros de Unglued e a Imperial Mask.",
+      "takeaway": "Sobre tirar as camisas iguais da arte de Team Spirit: “Desde então percebi o grave erro do meu proceder.”",
+      "lessons": [
+        {
+          "title": "O que é feito para uma configuração parece erro em todas as outras — rotule para qual serve",
+          "rules": "Um componente otimizado para um arranjo específico parecerá inexplicável a quem usa outro, e essas pessoas vão concluir que quem fez errou, não que elas não são o público. A solução não é generalizá-lo, o que destrói o encaixe. É declarar a configuração no próprio objeto, para que o leitor errado saiba seguir adiante.",
+          "flavor": "Get a Life troca totais de vida com seu companheiro. “Esta carta confundiu muitos jogadores. O que exatamente ela faz?… A resposta é que foi feita para um formato multijogador específico: Imperador… Poder trocar totais de vida entre o imperador (o do meio, que não é atacado) e um dos que lutam nas pontas pode ser valiosíssimo. É verdade que, fora desse formato, o efeito serve menos.”"
+        },
+        {
+          "title": "A marca visível é a filiação: um membro que não exibe a propriedade não está no conjunto",
+          "rules": "Você pode saber que algo pertence a um grupo porque foi você quem o construiu assim, e ser o único a saber. Todos os outros leem o grupo pelo traço compartilhado. Se um membro não tem o traço, não é uma exceção discreta: de fora, o grupo tem um membro a menos e a peça estranha fica sem atribuição.",
+          "flavor": "“Tenho muito orgulho do design de Unglued, mas ele não é sem falhas. Que tal esta? Ricochet faz parte do ciclo de companheiros e mesmo assim não tem a palavra ‘teammate’ no texto de regras. O texto até funciona num jogo de dois, então nem fica claro que foi desenhada para multijogador. (Foi, porém.)” E do ciclo inteiro: “Não sei quantas pessoas sequer percebem que é um ciclo.”"
+        },
+        {
+          "title": "Se o efeito escala com uma variável que você não controla, você o precificou no menor valor dela",
+          "rules": "Fazer a saída crescer com o tamanho da situação é o jeito óbvio de servir aos casos grandes, e o compromete silenciosamente com um custo fixado pelo menor. Não há teto no design, apenas na sua imaginação de quão grande a coisa fica. Ou limite o crescimento, ou precifique pela maior configuração que você vai permitir.",
+          "flavor": "A abordagem de Syphon Soul: “ela faz um efeito que fica mais poderoso quanto mais jogadores houver… e vira algo assustador quando se chega às duas casas.” Depois Congregate: “na maioria dos formatos multijogador, Congregate era absurda. Os jogadores costumavam ter ganhos de vida de três dígitos, o que era demais por quatro de mana.”"
+        },
+        {
+          "title": "A magnitude decide a categoria: um efeito pouco empurrado pertence silenciosamente a outro",
+          "rules": "Onde as fronteiras entre domínios são traçadas por tamanho e não por tipo, o mesmo efeito em duas magnitudes cai em dois territórios. Então ser tímido não é só um problema de potência: pode tirar a coisa do domínio a que você a destinava, e o arquivamento errado fica invisível até alguém conferir a fronteira.",
+          "flavor": "Team Spirit: “A maior falha foi eu não ter empurrado o efeito o bastante. Overrun (+3/+3 e atropelar) poderia significar algo, mas +1/+1 é manso demais. E, curiosamente, por ser tão pequena, a habilidade cai no branco e não no verde. O branco aumenta o time até +2/+2, mas quando se chega a +3/+3 vira um efeito verde.”"
+        },
+        {
+          "title": "Uma inovação é cortada enquanto é apenas possível e passa quando algo precisa dela",
+          "rules": "A primeira tentativa de uma capacidade costuma morrer por uma objeção justa: nada a exige agora. Isso não é veredito sobre a capacidade, é constatação sobre o momento. Mantenha-a na lista e reintroduza-a colada a um uso: a mesma novidade recusada no abstrato passa sem comentário assim que está fazendo um trabalho.",
+          "flavor": "Imperial Mask “cria uma ficha de encantamento — a primeira vez que o jogo criou uma ficha que não era criatura. Para quem gosta de curiosidade: eu tinha tentado criar uma ficha de artefato (não-criatura) em Fifth Dawn, mas acabamos não fazendo porque decidimos que o jogo ainda não precisava. Obviamente, desde Imperial Mask passamos a abraçar fichas que não são criaturas.”"
+        },
+        {
+          "title": "Recompre sua própria atenção contratando para a parte do cargo que não é o trabalho",
+          "rules": "Um cargo sênior acumula gestão de pessoas até que aquilo pelo qual você foi promovido fique com as sobras. Contratar alguém para essa metade é a solução padrão, e ela tem dois requisitos distintos que as pessoas fundem num só: a pessoa precisa funcionar bem com você, e precisa ser boa para o time. Filtre pelos dois; cada um sozinho falha.",
+          "flavor": "“Aaron Forsythe veio me dizer que gostaria de contratar um gerente para ajudar com o time de design, para que eu passasse menos tempo gerindo pessoas e mais supervisionando design. Gostei muito da ideia. Minha única preocupação era achar alguém com quem eu trabalhasse bem e que, a meu ver, cuidasse bem dos meus designers. Mark Gottlieb se mostrou a escolha perfeita.”"
+        },
+        {
+          "title": "Quando a proposta é a mais arriscada da mesa, selecione a pessoa em vez dela",
+          "rules": "Um portfólio só diz o que alguém já terminou, e a entrada mais ambiciosa é a que mais provavelmente falhou nos próprios termos. Se a maneira como a pessoa se conduz durante a tentativa é boa, isso é evidência sobre todas as tentativas futuras — que é o que você de fato está comprando. Fique com a pessoa em vez da obra e descubra.",
+          "flavor": "“Shawn criou o que, a meu ver, era o mundo mais difícil de executar do Top 8, mas gostei da atitude dele e quis ver do que era capaz. Shawn me impressionou a cada passo, o que rendeu um estágio, que depois virou uma vaga de designer em tempo integral.” Shawn Main viria a criar e liderar Conspiracy."
+        },
+        {
+          "title": "Não lixe a parte distintiva para cortejar um público cuja reação você está adivinhando",
+          "rules": "Antecipar que certo grupo vai rejeitar algo por ser demais é um palpite, e do tipo que sempre defende menos. Agir sobre ele remove justamente o que era bom, coisa que ninguém pediu para remover, em troca de uma aceitação que ninguém prometeu. Publique a versão com a piada dentro.",
+          "flavor": "“Terese Nielsen, a artista da carta, entregou um esboço em que todas as criaturas usavam camisas iguais, como se fossem do mesmo time esportivo. Na época… na minha cabeça as cartas multijogador não deviam ser tão bobas (eu temia mesmo que o público multijogador não as aceitasse se não parecessem normais o bastante), então pedi a Terese que tirasse as camisas. Desde então percebi o grave erro do meu proceder.”"
+        },
+        {
+          "title": "Substituir um cargo lhe dá uma pessoa, não um cargo — espere que a função mude de forma",
+          "rules": "Quando alguém sai e você preenche a cadeira, o que chega é um indivíduo com a própria distribuição de forças, e a posição se redefine silenciosamente em torno dele. Tratar a vaga como fixa desperdiça o que essa pessoa trouxe e a anterior não tinha. Escreva a função a partir de quem chegou, não de quem saiu.",
+          "flavor": "“No meio do design, Zac saiu da Wizards of the Coast. Isso significava que eu precisava de um novo representante de desenvolvimento. O que eu ganhei foi algo inteiramente diferente. Sim, Billy era um bom representante, mas também se revelou e tanto como designer, contribuindo com muitas cartas e ideias para o arquivo.”"
+        },
+        {
+          "title": "O que você aprendeu testando sobrevive ao produto para o qual o teste foi feito",
+          "rules": "Um projeto cancelado ainda assim rodou seus experimentos, e os resultados são verdadeiros independentemente de algo ter sido lançado. Esse conhecimento fica com quem estava na sala e reaparece anos depois, quando alguém faz uma pergunta que ele por acaso responde. Guarde os achados separados do objeto na sua memória, e ofereça-os quando surgir a ocasião.",
+          "flavor": "Checks and Balances levou a um tema de votação em Unglued 2. “Embora a coleção nunca tenha sido impressa, ela foi testada, e percebi que mecânicas de votação eram divertidas. Quando Shawn Main veio me pedir sugestões para Conspiracy, expliquei que cartas de votação me pareciam um terreno fértil para design multijogador, o que levou à inclusão delas em Conspiracy.” Passaram-se cerca de dezessete anos."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "组队",
+      "dek": "多人对战周：先是《鞑契可汗》的设计团队，然后是最早那批专为「两人以上」而做的牌。",
+      "overview": "罗斯瓦特补上了对自己设计团队的致谢，随后梳理了「刻意为多人对战而做的设计」这条脉络——从《吸魂》，到《Unglued》的队友循环，再到《帝王面具》。",
+      "takeaway": "谈到让画师把《团队精神》画作里那几件同款球衣去掉：「此后我意识到了自己当时那个严重的错误。」",
+      "lessons": [
+        {
+          "title": "为某一种配置而造的东西，在其他每一种配置里看起来都像个错误——把它是为哪一种而做的标出来",
+          "rules": "一个为特定编排而优化的部件，在使用另一种编排的人看来会莫名其妙；而他们得出的结论会是「做这东西的人搞错了」，而不是「我不是它的受众」。补救办法不是把它一般化——那会毁掉那份贴合。办法是把配置写在这件东西本身上，好让读错的人知道该继续往前走。",
+          "flavor": "《活下去》让你与队友交换总生命。「这张牌让很多牌手一头雾水。它到底在干什么？……答案是：它是为一种特定的多人赛制而做的——皇帝赛……能够在皇帝（坐在中间、不会被生物攻击的那位）与在两端作战的某位队友之间交换总生命，可能非常有价值。诚然，出了那个赛制，这个效应就没那么有用了。」"
+        },
+        {
+          "title": "看得见的那个标记就是「归属」本身：一个不展示该属性的成员，就不在这个集合里",
+          "rules": "你可以知道某样东西属于某个组，因为那是你按这个思路造出来的——而且只有你一个人知道。其他所有人是靠那个共有的特征来读出这个组的。如果某个成员缺了那个特征，这不是一个低调的例外：从外面看，这个组少了一个成员，而那件古怪的东西无所归属。",
+          "flavor": "「我为《Unglued》的设计非常自豪，但它并非没有瑕疵。比如这个：《跳弹》属于队友循环，可它的规则文字里根本没有『队友』这个词。那段文字甚至在两人对局里也能运作，所以完全看不出它是为多人对战设计的。（但它确实是。）」而对整个循环：「我不知道究竟有多少人意识到那是一个循环。」"
+        },
+        {
+          "title": "如果效应随着一个你控制不了的变量放大，那你其实是按那个变量的最小值给它定的价",
+          "rules": "让产出随着局面的规模一起增长，是服务大型场景最显而易见的做法；而它也在无声中把你绑在一个由最小场景所决定的成本上。设计里没有天花板，天花板只存在于你对「能大到什么程度」的想象里。要么给增长设一个上界，要么按你将会允许的最大配置来定价。",
+          "flavor": "《吸魂》那一路的做法：「它做的是一个『局里人越多就越强』的效应……一旦人数进到两位数，就变得相当吓人了。」再到《集会》：「在大多数多人赛制里，《集会》强得离谱。牌手常常获得三位数的生命，这对四点法术力来说有点过了。」"
+        },
+        {
+          "title": "量级决定归类：一个推得不够的效应，会悄无声息地变成别人的东西",
+          "rules": "在那些「域与域之间的界线是按大小、而不是按种类来划」的地方，同一个效应在两个量级上会落进两块不同的地界。所以手软不只是强度问题：它可能把这样东西挪出你原本要给它的那个域；而这次归档错误在有人去核对边界之前都是看不见的。",
+          "flavor": "《团队精神》：「最大的毛病是我把这个效应推得不够。若是+3/+3并具践踏，也许还有点意思，但+1/+1实在太温吞了。而且有意思的是：正因为它这么小，这项异能落在了白色而不是绿色。白色把整队提升到+2/+2，可一旦上到+3/+3，它就变成一个绿色的效应了。」"
+        },
+        {
+          "title": "一项创新在「仅仅可行」的阶段会被砍掉，而在「有东西需要它」时就通过了",
+          "rules": "某种新能力的第一次尝试，通常死于一条公允的反对意见：眼下没有任何东西需要它。那并不是对这项能力的判决，那是对时机的陈述。把它留在清单上，并在重新提出时给它挂上一个用途：同一件在抽象层面被拒绝的新鲜事物，一旦是在干活，就会毫无异议地通过。",
+          "flavor": "《帝王面具》「会派出一个结界衍生物——这是这个游戏第一次派出非生物的衍生物。给爱好冷知识的人：我曾在《第五黎明》里试过做一个（非生物的）神器衍生物，但最后没做，因为我们判定这个游戏当时还不需要它。显然，自从《帝王面具》问世之后，我们已经开始拥抱非生物衍生物了。」"
+        },
+        {
+          "title": "把你自己的注意力买回来：为这份工作中「不是工作」的那一半去招人",
+          "rules": "一个高阶岗位会不断堆积「管人」的事务，直到当初提拔你所凭借的那件事只剩下残渣。为那一半招一个人是标准解法；而它有两项被人们经常揉成一项的、彼此独立的要求：这个人得和你合得来，并且这个人得对团队好。两项都要筛；只满足其中一项都会失败。",
+          "flavor": "「亚伦·福赛思来找我，说他想招一位经理来协助设计团队，好让我少花时间管人、多花时间统管设计。我非常喜欢这个主意。我唯一的顾虑，是要找到这样一个人：我能与他合作愉快，同时我认为他会把我的设计师们照看好。事实证明，马克·戈特利布是完美的人选。」"
+        },
+        {
+          "title": "当交上来的作品是桌上风险最高的那一份时，改为挑人",
+          "rules": "一份作品集只能告诉你这个人已经完成过什么；而其中最有野心的那一件，恰恰最可能按它自己的标准算是失败的。如果这个人在尝试过程中的姿态是好的，那就是关于他未来每一次尝试的证据——而那才是你真正在买的东西。选人，而不是选那件作品，然后看下去。",
+          "flavor": "「肖恩创造出的，在我看来是八强里最难执行的那个世界；但我喜欢他的态度，所以我想看看他能做出什么。肖恩在每一个环节都让我刮目相看，这促成了他拿到实习机会，后来又转成了全职设计师的工作。」肖恩·梅恩后来构想并主导了《诡局》。"
+        },
+        {
+          "title": "不要为了讨好一群你只是在猜测其反应的受众，把最有特色的那部分磨掉",
+          "rules": "预判某个特定群体会因为「太过了」而拒绝某样东西，这是一个猜测；而且是那种永远都在主张「少一点」的猜测。照它行事，你删掉的恰恰是那个真正好的东西——没有任何人要求你删——换来的则是没有任何人许诺过的接纳。把带着那个玩笑的版本发出去。",
+          "flavor": "「这张牌的画师泰瑞莎·尼尔森交上来的草图里，所有生物都穿着同款球衣，就像同一支球队。当时……在我心里，多人对战的那几张牌不该那么胡闹（我真的担心：如果这些牌看起来不够正经，多人对战那批玩家可能不会接受它们），于是我请泰瑞莎把球衣去掉。此后我意识到了自己当时那个严重的错误。」"
+        },
+        {
+          "title": "补一个岗位，你得到的是一个人，而不是一个岗位——要预期这份工作会改变形状",
+          "rules": "当有人离开、而你把那把椅子填上时，来的是一个带着自己那套强项分布的个体；于是这个位置会悄悄地围绕他重新定义。把这个格子当成固定的，就浪费掉了他带来的、上一个人身上没有的那些东西。按「你得到的是谁」来写这个岗位，而不是按「谁走了」。",
+          "flavor": "「设计进行到一半时，扎克离开了威世智。这意味着我需要一位新的开发代表。而我得到的是完全不一样的东西。是的，比利是个称职的开发代表；但他同时也展现出相当的设计才能，为档案贡献了大量的牌和点子。」"
+        },
+        {
+          "title": "你在测试中学到的东西，比那次测试所服务的产品活得更久",
+          "rules": "一个被取消的项目照样跑完了它的实验，而那些结果是真的——无论有没有东西最终发行。这份知识留在当时在场的人身上，并会在许多年后、当某人恰好问出一个它能回答的问题时浮上来。在你自己的记忆里，把「发现」和「那件产物」分开存放；并在机会出现时主动把它拿出来。",
+          "flavor": "《制衡》催生了《Unglued 2》里的投票主题。「虽然那个系列从未付印，但它确实被试玩过；而我意识到投票类机制很好玩。后来肖恩·梅恩来找我为《诡局》征求建议时，我告诉他：我认为投票牌是多人对战设计里一块肥沃的地界——这直接导致了它们被放进《诡局》。」前后大约隔了十七年。"
+        }
+      ]
+    }
+  }
+}
