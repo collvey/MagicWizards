@@ -28,17 +28,50 @@
   "summaryVersion": 1,
   "summarizedAt": "2026-08-23T00:42:30.000Z",
   "lessons": [
-    { "n": 1, "color": "W" },
-    { "n": 2, "color": "U" },
-    { "n": 3, "color": "B" },
-    { "n": 4, "color": "G" },
-    { "n": 5, "color": "B" },
-    { "n": 6, "color": "U" },
-    { "n": 7, "color": "W" },
-    { "n": 8, "color": "R" },
-    { "n": 9, "color": "G" },
-    { "n": 10, "color": "R" },
-    { "n": 11, "color": "G" }
+    {
+      "n": 1,
+      "color": "U"
+    },
+    {
+      "n": 2,
+      "color": "B"
+    },
+    {
+      "n": 3,
+      "color": "G"
+    },
+    {
+      "n": 4,
+      "color": "B"
+    },
+    {
+      "n": 5,
+      "color": "U"
+    },
+    {
+      "n": 6,
+      "color": "W"
+    },
+    {
+      "n": 7,
+      "color": "R"
+    },
+    {
+      "n": 8,
+      "color": "G"
+    },
+    {
+      "n": 9,
+      "color": "R"
+    },
+    {
+      "n": 10,
+      "color": "R"
+    },
+    {
+      "n": 11,
+      "color": "G"
+    }
   ],
   "translations": {
     "en": {
@@ -47,11 +80,6 @@
       "overview": "Rosewater took over head design in December 2003 during a rough stretch — Kamigawa headed the wrong way, Mirrodin and Darksteel forcing bans — and couldn't change anything until the block after next. So the block after next had to be amazing.",
       "takeaway": "He started with one mantra, “Gold, but not Invasion,” and a playtest so complicated that R&D itself gave up. The guilds arrived from the Creative team months later and solved both the flavour and the complexity in one move.",
       "lessons": [
-        {
-          "title": "Plan the whole arc before designing the first part",
-          "rules": "When instalments are designed in sequence, each one takes what's left and the last one gets scraps. Decide up front what's held back for later, so the reservations are choices rather than residue.",
-          "flavor": "Before Ravnica, the second set designed in the space the first didn't cover, and the third in what the first two left. Holding something back — enemy-coloured cards in Apocalypse — was the exception. Rosewater made it the rule."
-        },
         {
           "title": "Name the predecessor's themes and invert each one",
           "rules": "“Different from the last successful thing” is a wish until you write down what that thing actually was. List its load-bearing themes, flip each, and you have a specific brief instead of an aspiration.",
@@ -98,6 +126,11 @@
           "flavor": "Return to Ravnica had none of Ravnica's problems, and the opposite one instead: “No one wanted to change anything. All the controversial things we had done became engrained as the way Ravnica sets were done.”"
         },
         {
+          "title": "When every option inside the rules fails, move a parameter you'd fixed",
+          "rules": "Arithmetic that rules out every arrangement is not telling you the goal is impossible. It is telling you that one of the values you never thought to question is the one that has to change.",
+          "flavor": "Brian Tinsman wanted all ten guilds in the final set, but a large set can't hold more than five and a small one no more than three. Rosewater made the winter set large — 5/5/10, the first of its kind — which also let every guild be drafted in a set of its own."
+        },
+        {
           "title": "The constraint you designed around is still there when you scale back up",
           "rules": "Partitioning a problem doesn't dissolve it — it defers it. Any later instalment that reassembles every part inherits the original load in full.",
           "flavor": "Dragon's Maze put all ten guilds in one set and hit “a lot of the same problems as my initial Ravnica playtest all those years ago.” That's why Guilds of Ravnica and Ravnica Allegiance have no third set."
@@ -110,11 +143,6 @@
       "overview": "Rosewater asumió la dirección de diseño en diciembre de 2003, en un momento difícil —Kamigawa iba por mal camino, Mirrodin y Darksteel forzaban prohibiciones— y no podía cambiar nada hasta el bloque siguiente al siguiente. Así que ese bloque tenía que ser increíble.",
       "takeaway": "Empezó con un mantra, «Oro, pero no Invasion», y un playtest tan complicado que I+D se rindió. Los gremios llegaron del equipo Creativo meses después y resolvieron la ambientación y la complejidad de un golpe.",
       "lessons": [
-        {
-          "title": "Planifica el arco completo antes de diseñar la primera parte",
-          "rules": "Cuando las entregas se diseñan en secuencia, cada una coge lo que sobra y la última se queda con las migas. Decide de entrada qué se reserva para después, para que las reservas sean elecciones y no residuos.",
-          "flavor": "Antes de Ravnica, la segunda edición diseñaba en el espacio que no cubría la primera, y la tercera en lo que dejaban las dos. Guardar algo —las cartas de colores enemigos en Apocalypse— era la excepción. Rosewater la hizo la regla."
-        },
         {
           "title": "Nombra los temas del predecesor e invierte cada uno",
           "rules": "«Distinto de lo último que funcionó» es un deseo hasta que escribes qué era eso exactamente. Enumera sus temas portantes, dale la vuelta a cada uno, y tienes un encargo concreto en vez de una aspiración.",
@@ -161,6 +189,11 @@
           "flavor": "Return to Ravnica no tuvo ninguno de los problemas de Ravnica, y sí el contrario: «Nadie quería cambiar nada. Todo lo polémico que habíamos hecho quedó grabado como la manera de hacer ediciones de Ravnica.»"
         },
         {
+          "title": "Cuando todas las opciones dentro de las reglas fallan, mueve un parámetro que dabas por fijo",
+          "rules": "Una aritmética que descarta todas las disposiciones no te está diciendo que el objetivo sea imposible. Te está diciendo que uno de los valores que nunca se te ocurrió cuestionar es el que tiene que cambiar.",
+          "flavor": "Brian Tinsman quería los diez gremios en la edición final, pero una grande no aguanta más de cinco y una pequeña no más de tres. Rosewater hizo grande la edición de invierno —5/5/10, la primera así—, lo que además dejó draftear cada gremio en su propia edición."
+        },
+        {
           "title": "La restricción que esquivaste sigue ahí cuando vuelves a subir de escala",
           "rules": "Partir un problema no lo disuelve: lo aplaza. Cualquier entrega posterior que reensamble todas las partes hereda la carga original entera.",
           "flavor": "Dragon's Maze metió los diez gremios en una edición y se topó con «muchos de los mismos problemas de mi primer playtest de Ravnica de hace tantos años». Por eso Guilds of Ravnica y Ravnica Allegiance no tienen tercera edición."
@@ -173,11 +206,6 @@
       "overview": "Rosewater a pris la tête de la conception en décembre 2003, dans une mauvaise passe — Kamigawa mal engagé, Mirrodin et Darksteel forçant des bannissements — et ne pouvait rien changer avant le bloc d'après le suivant. Ce bloc-là devait donc être formidable.",
       "takeaway": "Il est parti d'un mantra, « De l'or, mais pas Invasion », et d'un playtest si compliqué que la R&D elle-même a renoncé. Les guildes sont venues de l'équipe créative des mois plus tard et ont réglé l'ambiance et la complexité d'un seul coup.",
       "lessons": [
-        {
-          "title": "Planifiez tout l'arc avant de concevoir la première partie",
-          "rules": "Quand les volets sont conçus en séquence, chacun prend ce qui reste et le dernier récupère les miettes. Décidez d'emblée ce qui est gardé pour plus tard, pour que les réserves soient des choix et non des résidus.",
-          "flavor": "Avant Ravnica, la deuxième édition concevait dans l'espace non couvert par la première, et la troisième dans ce que les deux laissaient. Garder quelque chose — les cartes de couleurs ennemies dans Apocalypse — était l'exception."
-        },
         {
           "title": "Nommez les thèmes du prédécesseur et inversez-les un à un",
           "rules": "« Différent du dernier succès » reste un vœu tant que vous n'avez pas écrit ce qu'était ce succès. Listez ses thèmes porteurs, retournez-les chacun, et vous avez un cahier des charges précis.",
@@ -224,6 +252,11 @@
           "flavor": "Return to Ravnica n'a eu aucun des problèmes de Ravnica, mais l'inverse : « Personne ne voulait rien changer. Tout ce qu'on avait fait de controversé s'était figé en manière de faire les éditions Ravnica. »"
         },
         {
+          "title": "Quand toutes les options dans les règles échouent, bougez un paramètre que vous teniez pour fixe",
+          "rules": "Une arithmétique qui élimine tous les agencements ne vous dit pas que l'objectif est impossible. Elle vous dit que l'une des valeurs que vous n'avez jamais songé à questionner est celle qui doit bouger.",
+          "flavor": "Brian Tinsman voulait les dix guildes dans l'édition finale, mais une grande n'en supporte pas plus de cinq et une petite pas plus de trois. Rosewater a rendu l'édition d'hiver grande — 5/5/10, une première — ce qui permit aussi de drafter chaque guilde dans sa propre édition."
+        },
+        {
           "title": "La contrainte que vous avez contournée est toujours là quand vous remontez en échelle",
           "rules": "Partitionner un problème ne le dissout pas : il le diffère. Tout volet ultérieur qui réassemble toutes les parties hérite de la charge d'origine en entier.",
           "flavor": "Dragon's Maze a mis les dix guildes dans une édition et a rencontré « beaucoup des mêmes problèmes que mon tout premier playtest de Ravnica ». D'où l'absence de troisième édition après Guilds of Ravnica et Ravnica Allegiance."
@@ -236,11 +269,6 @@
       "overview": "Rosewater assumiu a direção de design em dezembro de 2003, num momento ruim — Kamigawa indo pelo caminho errado, Mirrodin e Darksteel forçando banimentos — e não podia mudar nada até o bloco depois do seguinte. Então esse bloco tinha de ser incrível.",
       "takeaway": "Ele começou com um mantra, “Ouro, mas não Invasion”, e um playtest tão complicado que a própria P&D desistiu. As guildas vieram do time criativo meses depois e resolveram a ambientação e a complexidade de uma vez só.",
       "lessons": [
-        {
-          "title": "Planeje o arco inteiro antes de projetar a primeira parte",
-          "rules": "Quando as partes são projetadas em sequência, cada uma pega o que sobrou e a última fica com migalhas. Decida no início o que fica guardado para depois, para que as reservas sejam escolhas e não resíduo.",
-          "flavor": "Antes de Ravnica, a segunda coleção projetava no espaço que a primeira não cobria, e a terceira no que as duas deixaram. Guardar algo — as cartas de cores inimigas em Apocalypse — era exceção. Rosewater virou isso em regra."
-        },
         {
           "title": "Nomeie os temas do antecessor e inverta cada um",
           "rules": "“Diferente do último sucesso” é um desejo até você escrever o que aquilo era. Liste os temas que sustentavam a coisa, vire cada um, e você tem um briefing concreto no lugar de uma aspiração.",
@@ -287,6 +315,11 @@
           "flavor": "Return to Ravnica não teve nenhum dos problemas de Ravnica, e teve o oposto: “Ninguém queria mudar nada. Tudo que tínhamos feito de polêmico virou o jeito de fazer coleções de Ravnica.”"
         },
         {
+          "title": "Quando toda opção dentro das regras falha, mexa num parâmetro que você tinha como fixo",
+          "rules": "Uma aritmética que descarta todos os arranjos não está dizendo que o objetivo é impossível. Está dizendo que um dos valores que você nunca pensou em questionar é o que precisa mudar.",
+          "flavor": "Brian Tinsman queria as dez guildas na coleção final, mas uma grande não aguenta mais que cinco e uma pequena não mais que três. Rosewater fez a coleção de inverno grande — 5/5/10, a primeira assim — o que também deixou cada guilda ser draftada na própria coleção."
+        },
+        {
           "title": "A restrição que você contornou continua lá quando você volta a escalar",
           "rules": "Particionar um problema não o dissolve: adia. Qualquer parte posterior que remonte tudo herda a carga original inteira.",
           "flavor": "Dragon's Maze pôs as dez guildas numa coleção e bateu em “muitos dos mesmos problemas do meu primeiro playtest de Ravnica, tantos anos atrás”. Por isso Guilds of Ravnica e Ravnica Allegiance não têm uma terceira coleção."
@@ -299,11 +332,6 @@
       "overview": "罗斯瓦特在2003年12月接手首席设计，正赶上一段难熬的日子：神河走偏了，秘罗地和暗钢逼出了一连串禁牌，而他在下下个环境之前什么都改不了。所以那个环境必须惊艳。",
       "takeaway": "他从一句口号出发——「要金色，但不要《入侵》」——以及一场复杂到连研发部自己都放弃的试玩。几个月后，公会从创意团队那边来了，一举同时解决了风味和复杂度两个问题。",
       "lessons": [
-        {
-          "title": "在设计第一部分之前，先把整条弧线规划完",
-          "rules": "当各部分依次设计时，每一部分都只能拿走剩下的，而最后一部分只剩残渣。一开始就决定什么要留到后面，这样「留」才是选择，而不是剩余物。",
-          "flavor": "在拉尼卡之前，第二个系列在第一个没覆盖的空间里设计，第三个在前两个剩下的里面设计。刻意留一手——比如《启示录》里的敌对色牌——是例外。罗斯瓦特把它变成了规则。"
-        },
         {
           "title": "把前一个成功作的主题一条条写下来，然后逐条取反",
           "rules": "「跟上一个成功的东西不一样」在你把那东西究竟是什么写下来之前，都只是个愿望。列出它的承重主题，把每一条翻过来，你手上就有了一份具体的任务书，而不是一种向往。",
@@ -348,6 +376,11 @@
           "title": "成功会把你那些有争议的选择变成不可触碰的规矩",
           "rules": "让原作成立的，本来是那份打破既有模式的意愿。一旦它成功了，这个「打破」本身*就变成了*模式，而下一支团队会把它当成无人可以质疑的教条继承下来。",
           "flavor": "《重返拉尼卡》没有初代拉尼卡的任何问题，却有相反的那个：「没人想改任何东西。我们当初做的那些有争议的事，全都固化成了『拉尼卡系列就该这么做』。」"
+        },
+        {
+          "title": "当规则之内的每个选项都行不通时，去动一个你当成固定的参数",
+          "rules": "一套把所有排列都排除掉的算术，并不是在告诉你这个目标不可能。它是在告诉你：某个你从没想过要质疑的数值，才是那个必须动的东西。",
+          "flavor": "布莱恩·廷斯曼想把十个公会全放进最后一个系列，但大系列装不下超过五个，小系列装不下超过三个。于是罗斯瓦特把冬季系列改成了大系列——5/5/10，史上第一次——这也让每个公会都能在属于自己的系列里被轮抽到。"
         },
         {
           "title": "你当初绕开的那条约束，等你重新放大规模时它还在",
