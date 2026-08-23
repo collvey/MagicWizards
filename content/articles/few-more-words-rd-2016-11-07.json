@@ -1,0 +1,294 @@
+{
+  "id": "few-more-words-rd-2016-11-07",
+  "slug": "few-more-words-rd-2016-11-07",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-11-07",
+  "series": null,
+  "tags": ["slang", "vocabulary", "r-and-d", "glossary", "reference"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/few-more-words-rd-2016-11-07",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T16:10:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "G" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "A Few More Words from R&D",
+      "dek": "Eleven years of vocabulary drift, audited term by term: what survived, what quietly died, and what got renamed because the thing it pointed at stopped existing.",
+      "overview": "Rosewater updates his 2005 glossary of R&D slang. The interesting part isn't the new words — it's the classification of the old ones, and what each kind of death says about how shared vocabulary actually works.",
+      "takeaway": "\"The slang was changed for two reasons: one, the old slang sounded awkward, and two, core sets went away.\"",
+      "lessons": [
+        {
+          "title": "Audit the vocabulary and classify every term, not just add new ones",
+          "rules": "A glossary that only grows is a record of coinage. Go back through the old list and sort each entry — still current, rarely reached for, dead, renamed, obsolete because its referent is gone — and the classification tells you more about the group than the additions do.",
+          "flavor": "Rosewater sorts the entire 2005 list into buckets before adding anything: terms “we still use in the exact same form today”; terms that “mostly go unused nowadays”; terms “no longer used”; meeting rooms that no longer exist; abilities that “have since gotten official codenames”; and “slang that we've changed the word for.”"
+        },
+        {
+          "title": "Slang inherits obsolescence from whatever it points at",
+          "rules": "Terms don't usually die because someone objects to them. They die because the thing behind them is renamed, restructured, or discontinued — and then the word keeps circulating for a while, quietly meaning nothing to anyone who joined later.",
+          "flavor": "“The old slang for this was ‘M-tenable' as in ‘this card could go into any M-set'… The slang was changed for two reasons: One, the old slang sounded awkward, and two, core sets went away.” And “this expression used to be ‘CIP,' which stood for ‘comes into play.' That was the terminology used before Magic 2010 introduced the term ‘battlefield.'”"
+        },
+        {
+          "title": "When the namesake turns out to be atypical, rename after a clean instance",
+          "rules": "Naming a pattern after the first thing that did it is convenient and often slightly wrong, because the first thing had a quirk. Once you notice the name is describing the quirk rather than the pattern, move it to an example that shows the pattern plainly.",
+          "flavor": "“Formerly… this ability was called the ‘Ophidian ability.' The slang changed because Ophidian (where the first slang came from) from Weatherlight is technically different in that you have to forego the damage of the creature to draw the card.” The ability is now named after Curiosity, which grants it cleanly."
+        },
+        {
+          "title": "The group that hits the collision most often is the one that changes its word",
+          "rules": "Two teams can hold different symbols for the same idea and function for years. When a shared notation finally has to move, it moves for whoever is paying the ambiguity most frequently — which means the split persists, and that's a real, ongoing cost you should name out loud.",
+          "flavor": "“There's actually a split in R&D with this language. Development still uses ‘C,' but because it comes up so much more often in design (where we're doing more structural planning and not having two different letters was causing confusion), design made the move to ‘M.'”"
+        },
+        {
+          "title": "Some names are load-bearing and travel with the people, not the building",
+          "rules": "Most labels are attached to the thing they name and die with it. A few are attached to what happened there, and those get reassigned to whatever now plays the role — which is worth allowing, because the name is carrying a piece of the group's memory.",
+          "flavor": "“Some names for places had such a strong meaning that we carried them over from the old building to the new one.” The Danger Room was Richard Garfield's unused office turned into an off-the-grid game room: “When we moved across the street, we assigned the closest meeting room the name of the Danger Room out of respect.”"
+        },
+        {
+          "title": "Import the outside word that already names the quality",
+          "rules": "Before coining a term, check whether some other field or book has already named the thing precisely. A borrowed word arrives with its meaning intact and its edges already worn smooth, and it costs the group nothing to learn beyond the reference.",
+          "flavor": "“Grok — This is a term used a lot by the design team. It comes from the book A Stranger in a Strange Land by famous science fiction author Robert Heinlein, and it means to be able to understand the whole concept of something right away. Design uses the term when talking about whether a new idea will be something players can easily grasp.”"
+        },
+        {
+          "title": "Define terms in opposing pairs and you get an axis instead of two labels",
+          "rules": "A single word gives you a category. A word and its stated opposite give you a scale, and things can then be placed relative to each other rather than sorted into a bin. Coin the pair together and say in each entry what the other one is.",
+          "flavor": "“Linear is at the opposite end of the spectrum from modular.” “The opposite of this is a term called ‘parasitic.'” “See above for ‘hard counter.'” And vanilla, French vanilla, virtual vanilla and virtual French vanilla form a graded series rather than four unrelated labels."
+        },
+        {
+          "title": "When a shorthand encodes an assumption about who it describes, change the shorthand",
+          "rules": "Handy names picked up early carry whatever was unexamined at the time. Once you notice that a term quietly excludes part of the people it's meant to describe, replacing it is cheap — and everyone keeps using the concept exactly as before.",
+          "flavor": "“The psychographics have basically stayed the same lingo-wise. The only change is that I've since added equivalent female names: Tammy for Timmy and Jenny for Johnny.” And on the aesthetic profiles: “Mel was originally called Melvin, but the name was changed to make it applicable to either gender.”"
+        },
+        {
+          "title": "Name your benchmarks after specific instances and comparison becomes one word",
+          "rules": "Teams argue about sizing in numbers, which forces everyone to hold the numbers. Attach a name to each common reference point and the comparison compresses to a noun — “I think white needs another Bear” carries a whole specification.",
+          "flavor": "“Bear — The term for any 2/2 creature for two mana… For example, ‘I think white needs another Bear.'” “Gray Ogre — This is slang for a 2/2 creature that costs three mana.” “Hill Giant — This is slang for a 3/3 creature that cost four mana.” Each is named after the Alpha card that fixed the benchmark."
+        }
+      ]
+    },
+    "es": {
+      "title": "Unas cuantas palabras más de I+D",
+      "dek": "Once años de deriva de vocabulario, auditados término a término: qué sobrevivió, qué murió en silencio y qué se renombró porque aquello a lo que apuntaba dejó de existir.",
+      "overview": "Rosewater actualiza su glosario de jerga de I+D de 2005. Lo interesante no son las palabras nuevas, sino la clasificación de las viejas y lo que cada tipo de muerte dice sobre cómo funciona de verdad un vocabulario compartido.",
+      "takeaway": "«La jerga cambió por dos razones: una, la vieja sonaba rara; y dos, las ediciones básicas desaparecieron.»",
+      "lessons": [
+        {
+          "title": "Audita el vocabulario y clasifica cada término, no solo añadas nuevos",
+          "rules": "Un glosario que solo crece es un registro de acuñaciones. Vuelve a la lista vieja y ordena cada entrada —vigente, poco usada, muerta, renombrada, obsoleta porque su referente ya no está— y la clasificación dirá más del grupo que las adiciones.",
+          "flavor": "Rosewater ordena toda la lista de 2005 en categorías antes de añadir nada: términos «que seguimos usando hoy exactamente igual»; términos que «hoy en día casi no se usan»; términos «que ya no se usan»; salas de reuniones que ya no existen; habilidades que «desde entonces tienen nombre en clave oficial»; y «jerga cuya palabra hemos cambiado»."
+        },
+        {
+          "title": "La jerga hereda la obsolescencia de aquello a lo que apunta",
+          "rules": "Los términos no suelen morir porque alguien objete. Mueren porque lo que hay detrás se renombra, se reestructura o se descontinúa, y luego la palabra sigue circulando un tiempo sin significar nada para quien llegó después.",
+          "flavor": "«La jerga antigua para esto era “M-tenible”, es decir, “esta carta podría ir en cualquier edición M”… Cambió por dos razones: una, sonaba rara; y dos, las ediciones básicas desaparecieron.» Y: «esta expresión antes era “CIP”, de “comes into play”. Era la terminología anterior a que Magic 2010 introdujera el término “campo de batalla”.»"
+        },
+        {
+          "title": "Cuando el epónimo resulta atípico, renombra según un caso limpio",
+          "rules": "Nombrar un patrón por la primera cosa que lo hizo es cómodo y a menudo un poco erróneo, porque esa primera cosa tenía una rareza. En cuanto notes que el nombre describe la rareza y no el patrón, muévelo a un ejemplo que muestre el patrón con claridad.",
+          "flavor": "«Antes… esta habilidad se llamaba “habilidad Ophidian”. La jerga cambió porque Ophidian (de donde venía) de Weatherlight es técnicamente distinta: hay que renunciar al daño de la criatura para robar la carta.» Ahora la habilidad lleva el nombre de Curiosity, que la concede de forma limpia."
+        },
+        {
+          "title": "El grupo que más choca con la ambigüedad es el que cambia su palabra",
+          "rules": "Dos equipos pueden mantener símbolos distintos para la misma idea y funcionar durante años. Cuando una notación compartida por fin se mueve, se mueve para quien paga la ambigüedad más a menudo, lo que significa que la división persiste: un coste real y continuo que conviene nombrar en voz alta.",
+          "flavor": "«En realidad hay una división en I+D con este lenguaje. Desarrollo sigue usando “C”, pero como en diseño sale mucho más a menudo (donde hacemos más planificación estructural y no tener dos letras distintas causaba confusión), diseño pasó a “M”.»"
+        },
+        {
+          "title": "Algunos nombres son de carga y viajan con las personas, no con el edificio",
+          "rules": "La mayoría de las etiquetas están pegadas a lo que nombran y mueren con ello. Unas pocas están pegadas a lo que allí ocurrió, y esas se reasignan a lo que ahora cumple ese papel; conviene permitirlo, porque el nombre transporta un trozo de la memoria del grupo.",
+          "flavor": "«Algunos nombres de lugares tenían un significado tan fuerte que los trasladamos del edificio viejo al nuevo.» La Danger Room era el despacho sin usar de Richard Garfield convertido en sala de juegos fuera del sistema de reservas: «Al mudarnos, asignamos por respeto el nombre a la sala más cercana.»"
+        },
+        {
+          "title": "Importa la palabra de fuera que ya nombra esa cualidad",
+          "rules": "Antes de acuñar un término, comprueba si algún otro campo o libro ya ha nombrado la cosa con precisión. Una palabra prestada llega con el significado intacto y los bordes ya pulidos, y al grupo no le cuesta nada aprenderla más allá de la referencia.",
+          "flavor": "«Grok: término muy usado por el equipo de diseño. Viene del libro Forastero en tierra extraña, del famoso autor de ciencia ficción Robert Heinlein, y significa poder entender el concepto entero de algo al instante. Diseño lo usa al hablar de si una idea nueva será algo que los jugadores capten fácilmente.»"
+        },
+        {
+          "title": "Define los términos en pares opuestos y tendrás un eje en vez de dos etiquetas",
+          "rules": "Una sola palabra te da una categoría. Una palabra y su opuesto declarado te dan una escala, y entonces las cosas pueden situarse unas respecto a otras en vez de meterse en un cajón. Acuña el par junto y di en cada entrada cuál es el otro.",
+          "flavor": "«Lineal está en el extremo opuesto del espectro respecto a modular.» «Lo contrario de esto es un término llamado “parasitario”.» «Ver arriba “contrahechizo duro”.» Y vainilla, vainilla francesa, vainilla virtual y vainilla francesa virtual forman una serie graduada, no cuatro etiquetas inconexas."
+        },
+        {
+          "title": "Si una abreviatura codifica una suposición sobre a quién describe, cámbiala",
+          "rules": "Los nombres cómodos adoptados pronto arrastran lo que entonces no se examinó. En cuanto notes que un término excluye calladamente a parte de la gente a la que pretende describir, sustituirlo es barato, y todos siguen usando el concepto igual que antes.",
+          "flavor": "«Los psicográficos se han mantenido básicamente iguales en la jerga. El único cambio es que he añadido nombres femeninos equivalentes: Tammy para Timmy y Jenny para Johnny.» Y sobre los perfiles estéticos: «Mel se llamaba originalmente Melvin, pero se cambió para que fuera aplicable a cualquier género.»"
+        },
+        {
+          "title": "Nombra tus referencias con casos concretos y la comparación cabrá en una palabra",
+          "rules": "Los equipos discuten de tamaños en cifras, lo que obliga a todos a sostener las cifras. Ponle nombre a cada punto de referencia habitual y la comparación se comprime en un sustantivo: «creo que el blanco necesita otro Oso» ya lleva dentro toda una especificación.",
+          "flavor": "«Oso: el término para cualquier criatura 2/2 por dos manás… Por ejemplo: “Creo que el blanco necesita otro Oso”.» «Ogro gris: jerga para una criatura 2/2 que cuesta tres manás.» «Gigante de la colina: jerga para una 3/3 que cuesta cuatro.» Cada uno lleva el nombre de la carta de Alpha que fijó la referencia."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Quelques mots de plus de la R&D",
+      "dek": "Onze ans de dérive du vocabulaire, audités terme par terme : ce qui a survécu, ce qui est mort en silence, et ce qui a été renommé parce que la chose désignée avait disparu.",
+      "overview": "Rosewater met à jour son glossaire d'argot de la R&D de 2005. L'intéressant n'est pas les mots nouveaux, mais le classement des anciens — et ce que chaque type de mort dit du fonctionnement réel d'un vocabulaire partagé.",
+      "takeaway": "« L'argot a changé pour deux raisons : l'ancien sonnait mal, et les éditions de base ont disparu. »",
+      "lessons": [
+        {
+          "title": "Auditez le vocabulaire et classez chaque terme, n'en ajoutez pas seulement",
+          "rules": "Un glossaire qui ne fait que croître est un registre de créations. Reprenez l'ancienne liste et triez chaque entrée — encore courante, rarement employée, morte, renommée, obsolète parce que son référent a disparu : le classement en dit plus sur le groupe que les ajouts.",
+          "flavor": "Rosewater trie toute la liste de 2005 avant d'ajouter quoi que ce soit : les termes « que nous employons encore exactement sous la même forme » ; ceux qui « ne servent plus guère » ; ceux « qui ne sont plus utilisés » ; les salles qui n'existent plus ; les capacités « qui ont depuis reçu un nom de code officiel » ; et « l'argot dont nous avons changé le mot »."
+        },
+        {
+          "title": "L'argot hérite de l'obsolescence de ce qu'il désigne",
+          "rules": "Les termes meurent rarement parce que quelqu'un s'y oppose. Ils meurent parce que la chose derrière est renommée, restructurée ou arrêtée — puis le mot circule encore un temps, sans plus rien signifier pour les arrivants récents.",
+          "flavor": "« L'ancien argot était “M-tenable”, comme dans “cette carte pourrait entrer dans n'importe quelle édition M”… Il a changé pour deux raisons : il sonnait mal, et les éditions de base ont disparu. » Et : « cette expression était “CIP”, pour “comes into play” — la terminologie d'avant l'introduction du “champ de bataille” par Magic 2010. »"
+        },
+        {
+          "title": "Quand l'éponyme se révèle atypique, renommez d'après un cas propre",
+          "rules": "Nommer un motif d'après la première chose qui l'a fait est commode et souvent légèrement faux, car cette première chose avait une bizarrerie. Dès que vous voyez que le nom décrit la bizarrerie et non le motif, déplacez-le vers un exemple qui montre le motif clairement.",
+          "flavor": "« Autrefois… cette capacité s'appelait la “capacité Ophidian”. L'argot a changé car Ophidian, de Weatherlight, est techniquement différente : il faut renoncer aux blessures de la créature pour piocher. » La capacité porte désormais le nom de Curiosity, qui l'accorde proprement."
+        },
+        {
+          "title": "Le groupe qui heurte l'ambiguïté le plus souvent est celui qui change de mot",
+          "rules": "Deux équipes peuvent garder des symboles différents pour la même idée et fonctionner des années. Quand une notation partagée bouge enfin, elle bouge pour qui paie l'ambiguïté le plus souvent — donc la scission persiste, et c'est un coût réel et continu qu'il faut nommer à voix haute.",
+          "flavor": "« Il y a en fait une scission dans la R&D sur ce point. Le développement emploie toujours “C”, mais comme cela revient bien plus souvent en conception (où l'on fait plus de planification structurelle, et où avoir deux lettres différentes créait de la confusion), la conception est passée à “M”. »"
+        },
+        {
+          "title": "Certains noms sont porteurs et voyagent avec les gens, pas avec le bâtiment",
+          "rules": "La plupart des étiquettes sont attachées à ce qu'elles nomment et meurent avec. Quelques-unes sont attachées à ce qui s'y est passé, et celles-là sont réattribuées à ce qui joue désormais le rôle — ce qu'il faut permettre, car le nom porte un morceau de la mémoire du groupe.",
+          "flavor": "« Certains noms de lieux avaient un sens si fort que nous les avons transportés de l'ancien bâtiment au nouveau. » La Danger Room était le bureau inutilisé de Richard Garfield transformé en salle de jeu hors réservation : « En déménageant, nous avons donné son nom à la salle la plus proche, par respect. »"
+        },
+        {
+          "title": "Importez le mot extérieur qui nomme déjà la qualité",
+          "rules": "Avant de forger un terme, vérifiez si un autre domaine ou un livre a déjà nommé la chose avec précision. Un mot emprunté arrive avec son sens intact et ses angles déjà polis, et il ne coûte au groupe que la référence.",
+          "flavor": "« Grok — terme très employé par l'équipe de conception. Il vient d'En terre étrangère, du célèbre auteur de science-fiction Robert Heinlein, et signifie saisir d'emblée le concept entier d'une chose. La conception l'emploie pour dire si une idée neuve sera facilement saisie par les joueurs. »"
+        },
+        {
+          "title": "Définissez les termes par paires opposées et vous obtenez un axe, pas deux étiquettes",
+          "rules": "Un mot seul donne une catégorie. Un mot et son contraire déclaré donnent une échelle, et les choses peuvent alors se situer les unes par rapport aux autres au lieu d'être rangées dans un casier. Forgez la paire ensemble et dites dans chaque entrée quel est l'autre.",
+          "flavor": "« Linéaire est à l'opposé de modulaire sur le spectre. » « Le contraire s'appelle “parasitaire”. » « Voir plus haut “contresort dur”. » Et vanille, vanille française, vanille virtuelle et vanille française virtuelle forment une série graduée, non quatre étiquettes sans rapport."
+        },
+        {
+          "title": "Si un raccourci encode une supposition sur qui il décrit, changez le raccourci",
+          "rules": "Les noms commodes adoptés tôt charrient ce qui n'avait pas été examiné alors. Dès que vous voyez qu'un terme exclut discrètement une partie de ceux qu'il désigne, le remplacer coûte peu — et chacun continue d'employer le concept exactement comme avant.",
+          "flavor": "« Les psychographies n'ont guère bougé côté vocabulaire. Le seul changement : j'ai depuis ajouté des équivalents féminins, Tammy pour Timmy et Jenny pour Johnny. » Et sur les profils esthétiques : « Mel s'appelait à l'origine Melvin, mais le nom a été changé pour valoir pour l'un comme pour l'autre genre. »"
+        },
+        {
+          "title": "Nommez vos repères d'après des cas précis et la comparaison tient en un mot",
+          "rules": "Les équipes discutent des tailles en chiffres, ce qui oblige chacun à retenir les chiffres. Donnez un nom à chaque point de repère courant et la comparaison se comprime en un substantif : « je crois que le blanc a besoin d'un autre Ours » porte toute une spécification.",
+          "flavor": "« Ours — le terme pour toute créature 2/2 pour deux manas… Par exemple : “Je crois que le blanc a besoin d'un autre Ours”. » « Ogre gris — argot pour une 2/2 coûtant trois manas. » « Géant des collines — argot pour une 3/3 coûtant quatre manas. » Chacun nommé d'après la carte d'Alpha qui a fixé le repère."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Mais algumas palavras da P&D",
+      "dek": "Onze anos de deriva de vocabulário, auditados termo a termo: o que sobreviveu, o que morreu em silêncio e o que foi renomeado porque aquilo a que apontava deixou de existir.",
+      "overview": "Rosewater atualiza seu glossário de gírias da P&D de 2005. O interessante não são as palavras novas, e sim a classificação das antigas — e o que cada tipo de morte diz sobre como um vocabulário compartilhado funciona de fato.",
+      "takeaway": "“A gíria mudou por dois motivos: a antiga soava estranha, e as coleções básicas acabaram.”",
+      "lessons": [
+        {
+          "title": "Audite o vocabulário e classifique cada termo, não só acrescente novos",
+          "rules": "Um glossário que só cresce é um registro de cunhagens. Volte à lista antiga e classifique cada entrada — ainda corrente, pouco usada, morta, renomeada, obsoleta porque o referente sumiu — e a classificação dirá mais sobre o grupo do que os acréscimos.",
+          "flavor": "Rosewater classifica toda a lista de 2005 antes de acrescentar qualquer coisa: termos “que ainda usamos hoje exatamente da mesma forma”; termos que “hoje quase não se usam”; termos “que não são mais usados”; salas de reunião que não existem mais; habilidades que “desde então ganharam nome de código oficial”; e “gírias cuja palavra mudamos”."
+        },
+        {
+          "title": "A gíria herda a obsolescência daquilo a que aponta",
+          "rules": "Termos raramente morrem porque alguém objeta. Morrem porque a coisa por trás é renomeada, reestruturada ou descontinuada — e então a palavra segue circulando por um tempo, sem significar nada para quem chegou depois.",
+          "flavor": "“A gíria antiga era ‘M-tenável', como em ‘esta carta caberia em qualquer coleção M'… Mudou por dois motivos: soava estranha, e as coleções básicas acabaram.” E: “esta expressão era ‘CIP', de ‘comes into play' — a terminologia anterior a Magic 2010 introduzir o termo ‘campo de batalha'.”"
+        },
+        {
+          "title": "Quando o epônimo se revela atípico, renomeie por um caso limpo",
+          "rules": "Batizar um padrão pela primeira coisa que o fez é cômodo e muitas vezes um pouco errado, porque aquela primeira coisa tinha uma peculiaridade. Assim que notar que o nome descreve a peculiaridade e não o padrão, mude-o para um exemplo que mostre o padrão com clareza.",
+          "flavor": "“Antes… esta habilidade se chamava ‘habilidade Ophidian'. A gíria mudou porque Ophidian, de Weatherlight, é tecnicamente diferente: é preciso abrir mão do dano da criatura para comprar a carta.” Agora a habilidade leva o nome de Curiosity, que a concede de forma limpa."
+        },
+        {
+          "title": "O grupo que mais esbarra na ambiguidade é o que troca a própria palavra",
+          "rules": "Duas equipes podem manter símbolos diferentes para a mesma ideia e funcionar por anos. Quando uma notação compartilhada enfim se move, ela se move para quem paga a ambiguidade com mais frequência — ou seja, a divisão persiste, e esse é um custo real e contínuo que convém dizer em voz alta.",
+          "flavor": "“Na verdade há uma divisão na P&D quanto a essa linguagem. O desenvolvimento ainda usa ‘C', mas como no design isso aparece muito mais (onde fazemos mais planejamento estrutural, e não ter duas letras diferentes estava causando confusão), o design passou a ‘M'.”"
+        },
+        {
+          "title": "Alguns nomes são estruturais e viajam com as pessoas, não com o prédio",
+          "rules": "A maioria dos rótulos está presa àquilo que nomeia e morre junto. Alguns poucos estão presos ao que aconteceu ali, e esses são reatribuídos ao que agora cumpre o papel — vale permitir, porque o nome carrega um pedaço da memória do grupo.",
+          "flavor": "“Alguns nomes de lugares tinham significado tão forte que os levamos do prédio antigo para o novo.” A Danger Room era a sala não usada de Richard Garfield transformada em sala de jogos fora do sistema de reservas: “Ao mudarmos, demos o nome à sala mais próxima, por respeito.”"
+        },
+        {
+          "title": "Importe a palavra de fora que já nomeia a qualidade",
+          "rules": "Antes de cunhar um termo, veja se algum outro campo ou livro já nomeou a coisa com precisão. Uma palavra emprestada chega com o significado intacto e as arestas já lixadas, e não custa ao grupo nada além da referência.",
+          "flavor": "“Grok — termo muito usado pela equipe de design. Vem do livro Um Estranho numa Terra Estranha, do famoso autor de ficção científica Robert Heinlein, e significa conseguir entender o conceito inteiro de algo de imediato. O design o usa ao falar se uma ideia nova será facilmente captada pelos jogadores.”"
+        },
+        {
+          "title": "Defina termos em pares opostos e você ganha um eixo em vez de dois rótulos",
+          "rules": "Uma palavra sozinha dá uma categoria. Uma palavra e o oposto declarado dela dão uma escala, e então as coisas podem ser situadas umas em relação às outras em vez de jogadas numa gaveta. Cunhe o par junto e diga em cada verbete qual é o outro.",
+          "flavor": "“Linear está no extremo oposto do espectro em relação a modular.” “O oposto disso é um termo chamado ‘parasitário'.” “Veja acima ‘contramágica dura'.” E baunilha, baunilha francesa, baunilha virtual e baunilha francesa virtual formam uma série graduada, não quatro rótulos soltos."
+        },
+        {
+          "title": "Se uma abreviação codifica uma suposição sobre quem ela descreve, troque a abreviação",
+          "rules": "Nomes práticos adotados cedo carregam o que não foi examinado na época. Assim que você notar que um termo exclui em silêncio parte das pessoas que pretende descrever, substituí-lo é barato — e todo mundo segue usando o conceito exatamente como antes.",
+          "flavor": "“Os psicográficos ficaram basicamente iguais na gíria. A única mudança é que desde então acrescentei nomes femininos equivalentes: Tammy para Timmy e Jenny para Johnny.” E sobre os perfis estéticos: “Mel originalmente se chamava Melvin, mas o nome foi mudado para valer para qualquer gênero.”"
+        },
+        {
+          "title": "Batize suas referências com casos concretos e a comparação cabe numa palavra",
+          "rules": "Equipes discutem tamanhos em números, o que obriga todos a segurar os números. Dê nome a cada ponto de referência comum e a comparação se comprime num substantivo: “acho que o branco precisa de outro Urso” já carrega uma especificação inteira.",
+          "flavor": "“Urso — o termo para qualquer criatura 2/2 por dois manas… Por exemplo: ‘Acho que o branco precisa de outro Urso'.” “Ogro cinzento — gíria para uma criatura 2/2 que custa três manas.” “Gigante da colina — gíria para uma 3/3 que custa quatro.” Cada um leva o nome da carta de Alpha que fixou a referência."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "再来几句研发部的行话",
+      "dek": "十一年的词汇漂移，逐条审计：什么活了下来、什么悄悄死了，以及什么因为它所指的东西不复存在而被改了名。",
+      "overview": "罗斯瓦特更新了他2005年那份研发部行话词表。有意思的不是那些新词，而是对旧词的分类——以及每一种「死法」透露出，一套共享词汇实际上是怎么运作的。",
+      "takeaway": "「这个行话改掉有两个原因：一，旧说法听着别扭；二，基本系列没有了。」",
+      "lessons": [
+        {
+          "title": "审计这套词汇，把每一条都归类，而不只是往上加新词",
+          "rules": "一份只会变长的词表，是一份造词记录。回到那份旧清单，把每一条归类——仍在使用、很少想起、已死、已改名、因所指之物消失而作废——这份归类所说出的关于这个团队的事，比那些新增条目要多。",
+          "flavor": "在添加任何新词之前，罗斯瓦特先把整份2005年的清单分了类：「我们今天仍以完全相同的形式在使用」的词；「如今基本不用」的词；「已不再使用」的词；已经不存在的会议室；「此后拿到了官方代号」的异能；以及「我们已经换了说法」的行话。"
+        },
+        {
+          "title": "行话会从它所指的东西那里继承过时",
+          "rules": "词很少是因为有人反对而死掉的。它们死掉，是因为背后那样东西被改名、被重组或被停掉了——然后这个词还会继续流通一阵子，对后来加入的人悄无声息地什么也不意味着。",
+          "flavor": "「这件事以前的行话是『可入M』，意思是『这张牌可以放进任何一个M系列』……改掉它有两个原因：一，旧说法听着别扭；二，基本系列没有了。」还有：「这个说法以前叫『CIP』，即『进场』。那是在《万智牌2010核心系列》引入『战场』这个术语之前的用词。」"
+        },
+        {
+          "title": "当那个命名来源本身是个特例时，改用一个干净的实例来命名",
+          "rules": "用「第一个这么做的东西」来给一个模式命名，方便，而且往往稍微有点不对——因为那第一个东西带着一处怪癖。一旦你注意到这个名字描述的是那处怪癖而不是那个模式，就把它挪到一个能把模式清楚展示出来的例子上。",
+          "flavor": "「以前……这个异能被称作『Ophidian异能』。这个行话之所以改掉，是因为这个说法所来自的、《天罗霸主》里的《蛇怪》，在技术上并不一样：你必须放弃这个生物造成的伤害，才能抽那张牌。」如今这个异能改以干净地授予它的《好奇心》来命名。"
+        },
+        {
+          "title": "撞上这处歧义最频繁的那一组，才是改自己用词的那一组",
+          "rules": "两支团队可以为同一个概念各持不同的符号，并且这么运转好些年。当一套共享记法终于要挪动时，它是为「最频繁地在为这份歧义付账的那一方」而挪动的——这意味着这道分裂会一直存在，而这是一项真实且持续的成本，值得说出口。",
+          "flavor": "「在这个用语上，研发部其实是分裂的。开发部仍然用『C』；但由于这件事在设计部出现得频繁得多（我们在那里做的结构性规划更多，而没有两个不同的字母正在造成混乱），设计部改用了『M』。」"
+        },
+        {
+          "title": "有些名字是承重的，它们跟着人走，而不是跟着楼走",
+          "rules": "大多数标签是贴在它所命名的那样东西上的，随之一同死去。少数几个是贴在「那里曾发生过什么」上的；这些会被重新指派给如今扮演那个角色的东西——这值得被允许，因为这个名字带着这个团队的一小块记忆。",
+          "flavor": "「有些地方的名字意义太强，我们把它们从旧楼带到了新楼。」「危险室」原本是理查德·加菲尔德不想用的办公室，被他改成了一间不列入预约系统的游戏室：「搬到街对面之后，出于敬意，我们把最近的那间会议室命名为危险室。」"
+        },
+        {
+          "title": "去外面把那个已经精确命名了这份特质的词引进来",
+          "rules": "在造一个新词之前，先查查有没有别的领域或某本书已经把这样东西命名得很准确了。一个借来的词，带着完好的意思、以及早已被磨平的边角一并到来；除了那个出处之外，它不需要这个团队额外学任何东西。",
+          "flavor": "「Grok——设计团队非常常用的一个词。它出自著名科幻作家罗伯特·海因莱因的小说《异乡异客》，意思是能够当下就把一样东西的整个概念领会过来。设计部在讨论一个新想法是不是玩家能轻易抓住的东西时会用这个词。」"
+        },
+        {
+          "title": "把术语成对相反地定义，你得到的就是一根轴，而不是两个标签",
+          "rules": "一个单独的词给你一个类别。一个词加上它被明确写出来的反面，给你一把标尺；于是各样东西可以彼此相对地被安放，而不是被丢进某个格子。成对地造词，并在每一条里写明它的另一半是谁。",
+          "flavor": "「『线性』位于这条光谱上『模块化』的另一端。」「这件事的反面是一个叫『寄生』的术语。」「关于『硬反击』见上文。」而香草、法式香草、准香草、准法式香草，构成的是一个有层级的序列，而不是四个互不相干的标签。"
+        },
+        {
+          "title": "当一个简称把「它在描述谁」的某个预设编码了进去时，就换掉这个简称",
+          "rules": "早早采用的顺手名字，会把当时没被检视过的东西一并带上。一旦你注意到某个术语悄悄把它本该描述的一部分人排除在外，替换它的代价很低——而所有人会照旧一模一样地继续使用这个概念。",
+          "flavor": "「这些心理画像在用词上基本没变。唯一的变化是我后来加上了对应的女性名字：塔米对应提米，珍妮对应约翰尼。」而关于两种审美画像：「梅尔最初叫梅尔文，改名是为了让它对任何性别都适用。」"
+        },
+        {
+          "title": "用具体的实例来给你的基准命名，比较就压缩成了一个词",
+          "rules": "团队讨论尺寸时用的是数字，这逼着所有人把数字记在脑子里。给每一个常用的参照点起个名字，比较就压缩成了一个名词——「我觉得白色还需要一头熊」这句话里，装着一整份规格说明。",
+          "flavor": "「熊——指任何两点法术力的2/2生物……比如说：『我觉得白色还需要一头熊。』」「灰食人魔——指一个三点法术力的2/2生物。」「山丘巨人——指一个四点法术力的3/3生物。」每一个都以那张定下这条基准的Alpha牌命名。"
+        }
+      ]
+    }
+  }
+}

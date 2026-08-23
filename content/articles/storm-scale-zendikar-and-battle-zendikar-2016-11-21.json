@@ -1,0 +1,294 @@
+{
+  "id": "storm-scale-zendikar-and-battle-zendikar-2016-11-21",
+  "slug": "storm-scale-zendikar-and-battle-zendikar-2016-11-21",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2016-11-21",
+  "series": null,
+  "tags": ["storm-scale", "zendikar", "mechanics", "development", "returning-mechanics"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/storm-scale-zendikar-and-battle-zendikar-2016-11-21",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T16:11:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Storm Scale: Zendikar and Battle for Zendikar",
+      "dek": "Cohort is the lowest-rated mechanic in Magic's measured history. Annihilator rates a 9 for a different reason: even its smallest number was already too strong.",
+      "overview": "Nineteen mechanics from two Zendikar blocks, each scored on popularity, design space, versatility, development and playability. The instructive cases are the ones where four lenses agree and the fifth carries the verdict.",
+      "takeaway": "\"When that's the least power development can add to a card by putting a mechanic on it, there's just a very limited amount of balance space they can operate in.\"",
+      "lessons": [
+        {
+          "title": "Generalising a thing imposes a precondition and narrows its space",
+          "rules": "Making something repeatable sounds like strictly more, and it isn't. The general version can only be built on material that survives being applied several times, and that requirement excludes most of what the specific version could do.",
+          "flavor": "“Multikicker has a narrower design space because it has to limit itself to effects that can be cast multiple times. While this is a big enough subset, it's still nowhere as big as normal kicker… It's kicker but with less design space, less versatility, and slightly more complication.” Kicker rates 4; multikicker rates 5."
+        },
+        {
+          "title": "An earned payoff needs the task to be both repeatable and related to the reward",
+          "rules": "Two independent constraints, and their intersection is much smaller than either. There are only so many actions worth asking someone to perform several times, and only some of those have any sensible connection to what they'd be paid for — check both before assuming the space is large.",
+          "flavor": "“What narrows down the design space is two things: one, there are a limited number of tasks that are reasonable to request players do multiple times, and two, there has to be some mechanical or flavorful correlation between the task and the reward.”"
+        },
+        {
+          "title": "When the printed number isn't the operative number, comprehension breaks",
+          "rules": "People read the figure in the obvious place and plan around it. If the value that usually applies is somewhere else in the text, every interaction with the thing starts from a wrong assumption — and that cost lands on top of whatever else is difficult about it.",
+          "flavor": "“Traps are cards in your hand that care about triggers happening in the game. Add to this that the mana cost in the upper right hand corner often isn't the cost that's most often relevant, and this mechanic leads to some confusion.” Also: “a lot of tension… in the balancing of getting the upgrade with the feel-bad of having walked into it.”"
+        },
+        {
+          "title": "Widen who benefits and you widen where it can go",
+          "rules": "A payoff that only rewards members of its own category forces the whole thing to be built out of that category. Point the same payoff at everything the user already has, and it stops demanding a dedicated structure — the mechanic barely changes and its range does.",
+          "flavor": "Original Allies: “this mechanic only affected other Allies, heavily encouraging you to make all your creatures in the deck Allies… This mechanic is as linear as they come.” Rally: “The fact that rally affected all of your creatures and not just your Allies made it a bit more flexible, especially in Limited.” 7 versus 6."
+        },
+        {
+          "title": "When the smallest increment is already too strong, there is no tuning room",
+          "rules": "Balance is done by turning a dial. If the dial's lowest setting is past the acceptable ceiling, the only remaining choices are to not use it at all or to accept the outcome — so check the floor of a scaling effect before you check its top.",
+          "flavor": "“Even annihilator 1 is incredibly powerful and potentially extremely frustrating. When that's the least power development can add to a card by putting a mechanic on it, there's just a very limited amount of balance space they can operate in to tune cards.” Annihilator rates 9."
+        },
+        {
+          "title": "Tunability is independent of everything else that's hard",
+          "rules": "A thing can be narrow, confusing and unpopular and still be easy to balance, because balance depends only on how many separate values you can adjust. Score it as its own lens — otherwise the difficulties bleed together and you get one wrong verdict instead of five right readings.",
+          "flavor": "Level up, with small design space and affected playability, still scores “Development: Not problematic.” “This mechanic has a lot of what R&D calls ‘knobs,' that is different aspects of the card development can tweak to balance its power. Between its mana cost and level up costs and three sets of stats and abilities, development had a lot to work with.”"
+        },
+        {
+          "title": "A presentation invented to make complexity legible can become the barrier",
+          "rules": "When something genuinely dense needs a new way of being displayed, the display is a design problem in its own right, with its own chance of failing. If it fails, people blame the underlying idea — and reviving the idea later means solving the presentation first.",
+          "flavor": "“While the frame was a noble attempt to display a pretty complex concept—three distinct creatures all capable from a single card—its execution proved to be poorly received by the audience, including a lot of confusion about how the mechanic worked… Even then, we would have a major frame challenge ahead of us.”"
+        },
+        {
+          "title": "An unpopular result can be a placement error rather than a design error",
+          "rules": "Before concluding a thing is bad, ask what it needed from its surroundings and whether it got it. Something that rewards a quality the project was actively suppressing will test terribly and tell you nothing about how it performs where that quality matters.",
+          "flavor": "Converge rated Unpopular — “Converge should be happy cohort exists, because otherwise it would be the lowest rated mechanic currently in market research.” And yet: “I think converge ended up being a mechanic in the wrong environment. I believe if put into a block where color (as opposed to colorlessness) is relevant, the mechanic would have fared much better.”"
+        },
+        {
+          "title": "Rigidity is about required infrastructure, not about the effect",
+          "rules": "The question isn't whether the thing works — it's what has to already be in place for it to work at all. A component that needs the surrounding system rebuilt to supply its input can't simply be dropped anywhere, however good it is where the input exists.",
+          "flavor": "“Colorless mana mattering requires an infrastructure capable of producing enough colorless mana. This is why it's not something we can just plunk into any set… The cards also require a lot of support from the lands in the sets around them.” Very Popular, and still a 6."
+        }
+      ]
+    },
+    "es": {
+      "title": "Escala Storm: Zendikar y Battle for Zendikar",
+      "dek": "Cohorte es la mecánica peor valorada de la historia medida de Magic. Aniquilador saca un 9 por otra razón: hasta su número más pequeño ya era demasiado fuerte.",
+      "overview": "Diecinueve mecánicas de dos bloques de Zendikar, cada una puntuada en popularidad, espacio de diseño, versatilidad, desarrollo y jugabilidad. Los casos instructivos son aquellos en que cuatro lentes coinciden y la quinta carga con el veredicto.",
+      "takeaway": "«Cuando ese es el mínimo poder que desarrollo puede añadir a una carta al ponerle la mecánica, el espacio de equilibrio en el que pueden operar es muy limitado.»",
+      "lessons": [
+        {
+          "title": "Generalizar algo impone una condición previa y estrecha su espacio",
+          "rules": "Hacer algo repetible suena a estrictamente más, y no lo es. La versión general solo puede construirse sobre material que sobreviva a aplicarse varias veces, y ese requisito excluye casi todo lo que podía hacer la versión concreta.",
+          "flavor": "«Multikicker tiene un espacio de diseño más estrecho porque debe limitarse a efectos que puedan lanzarse varias veces. Aunque es un subconjunto suficientemente grande, no se acerca al del kicker normal… Es kicker con menos espacio, menos versatilidad y algo más de complicación.» Kicker saca un 4; multikicker, un 5."
+        },
+        {
+          "title": "Una recompensa que se gana exige que la tarea sea repetible y esté relacionada con el premio",
+          "rules": "Dos restricciones independientes, y su intersección es mucho menor que cualquiera de ellas. Hay pocas acciones que merezca la pena pedir varias veces, y solo algunas tienen conexión sensata con aquello por lo que se pagaría; comprueba ambas antes de suponer que el espacio es grande.",
+          "flavor": "«Lo que estrecha el espacio de diseño son dos cosas: una, hay un número limitado de tareas que es razonable pedir a los jugadores que hagan varias veces; y dos, tiene que haber alguna correlación mecánica o de sabor entre la tarea y la recompensa.»"
+        },
+        {
+          "title": "Cuando el número impreso no es el número operativo, se rompe la comprensión",
+          "rules": "La gente lee la cifra del sitio obvio y planifica con ella. Si el valor que suele aplicarse está en otra parte del texto, toda interacción con la cosa arranca de una suposición equivocada, y ese coste se suma a cualquier otra dificultad que tenga.",
+          "flavor": "«Las Trampas son cartas en tu mano que se fijan en disparos que ocurren en la partida. Añade que el coste de maná de la esquina superior derecha a menudo no es el coste más relevante, y la mecánica lleva a cierta confusión.» Además: «mucha tensión… al equilibrar la mejora contra la mala sensación de haber caído en ella.»"
+        },
+        {
+          "title": "Amplía a quién beneficia y amplías dónde puede ir",
+          "rules": "Una recompensa que solo premia a miembros de su propia categoría obliga a construirlo todo con esa categoría. Apunta la misma recompensa a todo lo que el usuario ya tiene y deja de exigir una estructura dedicada: la mecánica apenas cambia y su alcance sí.",
+          "flavor": "Aliados originales: «esta mecánica solo afectaba a otros Aliados, animando mucho a que todas tus criaturas fueran Aliados… Es tan lineal como puede serlo.» Rally: «Que rally afectara a todas tus criaturas y no solo a tus Aliados lo hizo algo más flexible, sobre todo en Limitado.» 7 frente a 6."
+        },
+        {
+          "title": "Cuando el incremento mínimo ya es demasiado fuerte, no hay margen de ajuste",
+          "rules": "El equilibrio se hace girando un dial. Si el ajuste más bajo del dial ya supera el techo aceptable, las únicas opciones que quedan son no usarlo o aceptar el resultado: comprueba el suelo de un efecto escalable antes que su techo.",
+          "flavor": "«Incluso aniquilador 1 es increíblemente poderoso y potencialmente muy frustrante. Cuando ese es el mínimo poder que desarrollo puede añadir a una carta al ponerle la mecánica, el espacio de equilibrio en el que pueden operar para afinar cartas es muy limitado.» Aniquilador saca un 9."
+        },
+        {
+          "title": "La ajustabilidad es independiente de todo lo demás que sea difícil",
+          "rules": "Algo puede ser estrecho, confuso e impopular y aun así fácil de equilibrar, porque el equilibrio solo depende de cuántos valores distintos puedas mover. Puntúalo como lente propia; si no, las dificultades se mezclan y obtienes un veredicto erróneo en vez de cinco lecturas correctas.",
+          "flavor": "Subir de nivel, con poco espacio de diseño y jugabilidad afectada, aun así saca «Desarrollo: no problemático». «Esta mecánica tiene muchos de los que I+D llama “diales”, aspectos distintos de la carta que desarrollo puede tocar. Entre coste de maná, costes de subir de nivel y tres juegos de estadísticas y habilidades, había mucho con lo que trabajar.»"
+        },
+        {
+          "title": "Una presentación inventada para hacer legible la complejidad puede convertirse en la barrera",
+          "rules": "Cuando algo genuinamente denso necesita una forma nueva de mostrarse, esa forma es un problema de diseño por sí mismo, con su propia probabilidad de fallar. Si falla, la gente culpa a la idea de fondo, y revivirla luego exige resolver antes la presentación.",
+          "flavor": "«Aunque el marco fue un intento noble de mostrar un concepto bastante complejo —tres criaturas distintas posibles desde una sola carta—, su ejecución fue mal recibida por el público, incluida mucha confusión sobre cómo funcionaba la mecánica… Incluso entonces, tendríamos por delante un gran reto de marco.»"
+        },
+        {
+          "title": "Un resultado impopular puede ser un error de colocación, no de diseño",
+          "rules": "Antes de concluir que algo es malo, pregunta qué necesitaba de su entorno y si lo tuvo. Algo que premia una cualidad que el proyecto estaba suprimiendo activamente puntuará fatal y no dirá nada sobre cómo rinde donde esa cualidad importa.",
+          "flavor": "Convergencia salió impopular: «Convergencia debería alegrarse de que exista cohorte, porque si no sería la mecánica peor valorada en la investigación actual.» Y aun así: «Creo que convergencia acabó siendo una mecánica en el entorno equivocado. Puesta en un bloque donde el color (y no la incolora) sea relevante, habría ido mucho mejor.»"
+        },
+        {
+          "title": "La rigidez trata de la infraestructura exigida, no del efecto",
+          "rules": "La pregunta no es si la cosa funciona, sino qué debe estar ya en su sitio para que funcione siquiera. Un componente que necesita que se reconstruya el sistema circundante para alimentarlo no puede soltarse en cualquier parte, por bueno que sea donde ese insumo existe.",
+          "flavor": "«Que importe el maná incoloro requiere una infraestructura capaz de producir suficiente maná incoloro. Por eso no es algo que podamos plantar en cualquier edición… Las cartas también necesitan mucho apoyo de las tierras de las ediciones de alrededor.» Muy popular, y aun así un 6."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Échelle Storm : Zendikar et Battle for Zendikar",
+      "dek": "La cohorte est la mécanique la plus mal notée de l'histoire mesurée de Magic. L'annihilateur obtient un 9 pour une autre raison : même son plus petit chiffre était déjà trop fort.",
+      "overview": "Dix-neuf mécaniques de deux blocs de Zendikar, notées sur la popularité, l'espace de conception, la polyvalence, le développement et la jouabilité. Les cas instructifs sont ceux où quatre lentilles concordent et où la cinquième porte le verdict.",
+      "takeaway": "« Quand c'est le minimum de puissance que le développement peut ajouter à une carte en y mettant la mécanique, l'espace d'équilibrage est très limité. »",
+      "lessons": [
+        {
+          "title": "Généraliser impose une condition préalable et rétrécit l'espace",
+          "rules": "Rendre une chose répétable semble strictement plus, et ne l'est pas. La version générale ne peut se bâtir que sur un matériau qui survit à plusieurs applications, et cette exigence exclut l'essentiel de ce que la version spécifique pouvait faire.",
+          "flavor": "« Le multikicker a un espace plus étroit car il doit se limiter aux effets lançables plusieurs fois. Ce sous-ensemble est assez grand, mais loin de celui du kicker ordinaire… C'est du kicker avec moins d'espace, moins de polyvalence et un peu plus de complication. » Kicker : 4 ; multikicker : 5."
+        },
+        {
+          "title": "Une récompense méritée exige que la tâche soit répétable et liée au gain",
+          "rules": "Deux contraintes indépendantes, dont l'intersection est bien plus petite que chacune. Peu d'actions méritent d'être demandées plusieurs fois, et seules certaines ont un lien sensé avec ce qu'elles paieraient : vérifiez les deux avant de croire l'espace vaste.",
+          "flavor": "« Deux choses rétrécissent l'espace de conception : d'une part, il n'y a qu'un nombre limité de tâches qu'il est raisonnable de demander aux joueurs de répéter ; d'autre part, il doit exister une corrélation mécanique ou de ressenti entre la tâche et la récompense. »"
+        },
+        {
+          "title": "Quand le nombre imprimé n'est pas le nombre opérant, la compréhension casse",
+          "rules": "On lit le chiffre à l'endroit évident et on planifie dessus. Si la valeur qui s'applique d'ordinaire est ailleurs dans le texte, chaque interaction part d'une hypothèse fausse — et ce coût s'ajoute à tout ce qui est déjà difficile.",
+          "flavor": "« Les Pièges sont des cartes en main qui se soucient de déclencheurs survenant en jeu. Ajoutez que le coût de mana en haut à droite n'est souvent pas le coût le plus pertinent, et la mécanique crée de la confusion. » Et : « beaucoup de tension… entre obtenir l'amélioration et le sentiment désagréable d'être tombé dedans. »"
+        },
+        {
+          "title": "Élargissez qui en profite et vous élargissez où cela peut aller",
+          "rules": "Une récompense qui ne profite qu'aux membres de sa catégorie force à tout bâtir dans cette catégorie. Pointez la même récompense vers tout ce que l'utilisateur possède déjà et elle cesse d'exiger une structure dédiée : la mécanique change à peine, sa portée beaucoup.",
+          "flavor": "Alliés d'origine : « cette mécanique n'affectait que d'autres Alliés, incitant fortement à ne jouer que des Alliés… Aussi linéaire que possible. » Rally : « Que le rally affecte toutes vos créatures et pas seulement vos Alliés l'a rendu un peu plus souple, surtout en Limité. » 7 contre 6."
+        },
+        {
+          "title": "Quand le plus petit incrément est déjà trop fort, il n'y a pas de marge de réglage",
+          "rules": "L'équilibrage se fait en tournant un bouton. Si le cran le plus bas dépasse déjà le plafond acceptable, il ne reste qu'à ne pas s'en servir ou à accepter le résultat : vérifiez le plancher d'un effet à échelle avant son sommet.",
+          "flavor": "« Même l'annihilateur 1 est incroyablement puissant et potentiellement très frustrant. Quand c'est le minimum de puissance que le développement peut ajouter à une carte en y mettant la mécanique, l'espace d'équilibrage pour affiner les cartes est très limité. » L'annihilateur obtient 9."
+        },
+        {
+          "title": "La réglabilité est indépendante de tout le reste des difficultés",
+          "rules": "Une chose peut être étroite, confuse et impopulaire et rester facile à équilibrer, car l'équilibrage ne dépend que du nombre de valeurs séparées ajustables. Notez-la comme une lentille à part : sinon les difficultés se mélangent et vous obtenez un verdict faux au lieu de cinq lectures justes.",
+          "flavor": "Le niveau, à l'espace étroit et à la jouabilité affectée, obtient tout de même « Développement : pas problématique ». « Cette mécanique a beaucoup de ce que la R&D appelle des “boutons”… Entre le coût de mana, les coûts de niveau et trois jeux de caractéristiques et de capacités, le développement avait de quoi travailler. »"
+        },
+        {
+          "title": "Une présentation inventée pour rendre la complexité lisible peut devenir l'obstacle",
+          "rules": "Quand une chose vraiment dense exige une nouvelle façon d'être affichée, cet affichage est un problème de conception à part entière, avec ses propres chances d'échouer. S'il échoue, on blâme l'idée de fond — et la ranimer plus tard exige d'abord de résoudre la présentation.",
+          "flavor": "« Le cadre était une noble tentative d'afficher un concept assez complexe — trois créatures distinctes possibles depuis une seule carte — mais son exécution a été mal reçue par le public, avec beaucoup de confusion sur le fonctionnement de la mécanique… Même alors, un gros défi de cadre nous attendrait. »"
+        },
+        {
+          "title": "Un résultat impopulaire peut être une erreur de placement, non de conception",
+          "rules": "Avant de conclure qu'une chose est mauvaise, demandez ce qu'elle attendait de son entourage et si elle l'a eu. Ce qui récompense une qualité que le projet réprimait activement testera très mal et ne dira rien de son rendement là où cette qualité compte.",
+          "flavor": "La convergence est notée impopulaire — « elle devrait se réjouir que la cohorte existe, sans quoi elle serait la plus mal notée des études actuelles. » Et pourtant : « Je pense que la convergence s'est retrouvée dans le mauvais environnement. Dans un bloc où la couleur, et non l'incolore, compte, elle s'en serait bien mieux tirée. »"
+        },
+        {
+          "title": "La rigidité concerne l'infrastructure exigée, pas l'effet",
+          "rules": "La question n'est pas si la chose marche, mais ce qui doit déjà être en place pour qu'elle marche. Un composant qui exige de reconstruire le système alentour pour l'alimenter ne peut pas être posé n'importe où, aussi bon soit-il là où l'apport existe.",
+          "flavor": "« Que le mana incolore compte exige une infrastructure capable d'en produire assez. Voilà pourquoi on ne peut pas le poser dans n'importe quelle édition… Les cartes réclament aussi beaucoup de soutien des terrains des éditions alentour. » Très populaire, et pourtant un 6."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Escala Storm: Zendikar e Battle for Zendikar",
+      "dek": "Coorte é a mecânica pior avaliada da história medida de Magic. Aniquilador tira 9 por outro motivo: até o menor número dele já era forte demais.",
+      "overview": "Dezenove mecânicas de dois blocos de Zendikar, cada uma pontuada em popularidade, espaço de design, versatilidade, desenvolvimento e jogabilidade. Os casos instrutivos são aqueles em que quatro lentes concordam e a quinta carrega o veredicto.",
+      "takeaway": "“Quando esse é o mínimo de poder que o desenvolvimento consegue acrescentar a uma carta ao pôr a mecânica nela, o espaço de balanceamento é bem limitado.”",
+      "lessons": [
+        {
+          "title": "Generalizar impõe uma pré-condição e estreita o espaço",
+          "rules": "Tornar algo repetível soa como estritamente mais, e não é. A versão geral só pode ser construída sobre material que sobreviva a ser aplicado várias vezes, e essa exigência exclui quase tudo que a versão específica podia fazer.",
+          "flavor": "“Multikicker tem espaço de design mais estreito porque precisa se limitar a efeitos que podem ser conjurados várias vezes. É um subconjunto grande o bastante, mas nem perto do kicker normal… É kicker com menos espaço, menos versatilidade e um pouco mais de complicação.” Kicker tira 4; multikicker, 5."
+        },
+        {
+          "title": "Uma recompensa conquistada exige que a tarefa seja repetível e ligada ao prêmio",
+          "rules": "Duas restrições independentes, e a interseção delas é bem menor que qualquer uma. Há poucas ações que valha pedir várias vezes, e só algumas têm ligação sensata com aquilo que pagariam — confira as duas antes de supor que o espaço é grande.",
+          "flavor": "“Duas coisas estreitam o espaço de design: uma, há um número limitado de tarefas razoáveis de pedir que os jogadores façam várias vezes; e duas, precisa haver alguma correlação mecânica ou de sabor entre a tarefa e a recompensa.”"
+        },
+        {
+          "title": "Quando o número impresso não é o número operante, a compreensão quebra",
+          "rules": "As pessoas leem a cifra do lugar óbvio e planejam por ela. Se o valor que costuma valer está em outro ponto do texto, toda interação parte de uma suposição errada — e esse custo se soma a tudo que já é difícil ali.",
+          "flavor": "“Armadilhas são cartas na mão que se importam com gatilhos acontecendo no jogo. Some a isso que o custo de mana no canto superior direito muitas vezes não é o custo mais relevante, e a mecânica gera confusão.” E: “muita tensão… entre conseguir a melhoria e a sensação ruim de ter caído nela.”"
+        },
+        {
+          "title": "Alargue quem se beneficia e você alarga onde aquilo pode ir",
+          "rules": "Uma recompensa que só premia membros da própria categoria obriga a construir tudo com aquela categoria. Aponte a mesma recompensa para tudo o que o usuário já tem e ela deixa de exigir uma estrutura dedicada: a mecânica quase não muda e o alcance dela muda muito.",
+          "flavor": "Aliados originais: “esta mecânica só afetava outros Aliados, incentivando muito que todas as suas criaturas fossem Aliados… Tão linear quanto possível.” Rally: “O fato de o rally afetar todas as suas criaturas e não só os Aliados o deixou um pouco mais flexível, sobretudo no Limitado.” 7 contra 6."
+        },
+        {
+          "title": "Quando o menor incremento já é forte demais, não há margem de ajuste",
+          "rules": "Balancear é girar um botão. Se o ponto mais baixo do botão já passa do teto aceitável, as únicas escolhas restantes são não usar ou aceitar o resultado — então confira o piso de um efeito escalável antes de conferir o topo.",
+          "flavor": "“Até aniquilador 1 é incrivelmente poderoso e potencialmente muito frustrante. Quando esse é o mínimo de poder que o desenvolvimento consegue acrescentar a uma carta ao pôr a mecânica nela, o espaço de balanceamento para afinar cartas é bem limitado.” Aniquilador tira 9."
+        },
+        {
+          "title": "A ajustabilidade é independente de todo o resto que seja difícil",
+          "rules": "Algo pode ser estreito, confuso e impopular e ainda assim fácil de balancear, porque o balanceamento depende só de quantos valores separados dá para mexer. Pontue isso como lente própria; senão as dificuldades se misturam e você tem um veredicto errado em vez de cinco leituras certas.",
+          "flavor": "Subir de nível, com pouco espaço de design e jogabilidade afetada, ainda assim tira “Desenvolvimento: não problemático”. “Esta mecânica tem muitos do que a P&D chama de ‘botões'… Entre o custo de mana, os custos de subir de nível e três conjuntos de estatísticas e habilidades, havia muito com que trabalhar.”"
+        },
+        {
+          "title": "Uma apresentação inventada para tornar a complexidade legível pode virar a barreira",
+          "rules": "Quando algo genuinamente denso precisa de um novo jeito de ser exibido, esse jeito é um problema de design por si só, com a própria chance de falhar. Se falhar, culpam a ideia de fundo — e revivê-la depois exige resolver antes a apresentação.",
+          "flavor": "“Embora a moldura fosse uma tentativa nobre de exibir um conceito bem complexo — três criaturas distintas possíveis a partir de uma só carta — a execução foi mal recebida pelo público, com muita confusão sobre como a mecânica funcionava… Mesmo então, teríamos um grande desafio de moldura pela frente.”"
+        },
+        {
+          "title": "Um resultado impopular pode ser erro de colocação, não de design",
+          "rules": "Antes de concluir que algo é ruim, pergunte o que aquilo precisava do entorno e se recebeu. Algo que premia uma qualidade que o projeto estava ativamente suprimindo vai testar péssimo e não dirá nada sobre como rende onde essa qualidade importa.",
+          "flavor": "Convergência saiu impopular — “Convergência deveria se alegrar de coorte existir, senão seria a pior avaliada na pesquisa atual.” E mesmo assim: “Acho que convergência acabou sendo uma mecânica no ambiente errado. Num bloco onde a cor, e não a incolor, é relevante, teria se saído muito melhor.”"
+        },
+        {
+          "title": "Rigidez é sobre a infraestrutura exigida, não sobre o efeito",
+          "rules": "A pergunta não é se a coisa funciona, e sim o que precisa já estar no lugar para que funcione. Um componente que exige reconstruir o sistema ao redor para alimentá-lo não pode ser largado em qualquer lugar, por melhor que seja onde o insumo existe.",
+          "flavor": "“Mana incolor importar exige uma infraestrutura capaz de produzir mana incolor suficiente. É por isso que não é algo que possamos enfiar em qualquer coleção… As cartas também exigem muito apoio dos terrenos das coleções ao redor.” Muito popular, e ainda assim um 6."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "风暴等级：《赞迪卡》与《决战赞迪卡》",
+      "dek": "「同伙」是万智牌有市场调研以来评分最低的机制。「歼灭」拿到9分则是另一个原因：连它最小的那个数字都已经太强了。",
+      "overview": "两个赞迪卡系列组的十九个机制，逐一在受欢迎程度、设计空间、通用性、开发难度和可玩性五个维度上打分。真正有教益的，是那些四个镜头意见一致、而由第五个镜头拍板的案例。",
+      "takeaway": "「当这已经是开发部把这个机制放到一张牌上时所能加的最小强度时，他们能操作的平衡空间就非常有限了。」",
+      "lessons": [
+        {
+          "title": "把一样东西一般化，会强加一个前提条件，并且把它的空间收窄",
+          "rules": "让某样东西变成可重复，听起来像是「严格地更多」，其实不是。一般化的版本只能建立在「经得起被施行好几遍」的材料上；而这条要求，把具体版本原本能做的事排除掉了大半。",
+          "flavor": "「增效多重的设计空间更窄，因为它必须把自己限制在那些能被施放多次的效果上。虽然这个子集已经够大了，但仍然远不及普通的增效……它就是增效，但设计空间更小、通用性更低、复杂度稍高。」增效评4分；增效多重评5分。"
+        },
+        {
+          "title": "一份要靠挣的回报，要求这件事既可重复、又与回报相关",
+          "rules": "这是两条彼此独立的约束，而它们的交集比其中任何一条都小得多。值得要求别人做上好几遍的动作本来就不多，而其中又只有一部分与「这件事该换来什么」有说得通的关联——在假定空间很大之前，两条都要查。",
+          "flavor": "「把设计空间收窄的有两件事：其一，能合理地要求玩家反复去做的任务，数量有限；其二，这个任务和这份回报之间，必须存在某种机制上或味道上的对应关系。」"
+        },
+        {
+          "title": "当印在上面的那个数字不是实际起作用的数字时，理解就断了",
+          "rules": "人会去读那个显眼位置上的数字，并据此做打算。如果通常真正适用的那个值在文字的别处，那么与这样东西的每一次互动，都是从一个错误的前提出发的——而这份代价，是叠加在它本来就难的那些地方之上的。",
+          "flavor": "「陷阱是你手上那些在意场上发生了什么触发的牌。再加上右上角的法术力费用往往并不是最常起作用的那个费用，于是这个机制导致了一些混乱。」还有：「在『拿到这份升级』和『自己一头撞进去的糟糕感受』之间，存在大量的平衡张力。」"
+        },
+        {
+          "title": "把受益者放宽，你就把它能去的地方放宽了",
+          "rules": "一份只奖励自己这一类成员的回报，会逼着整样东西都用这一类来搭。把同一份回报指向使用者手上已有的一切，它就不再要求一套专门的结构——机制本身几乎没变，而它的射程变了。",
+          "flavor": "初版盟友：「这个机制只影响其他盟友，强烈地鼓励你把套牌里的生物全做成盟友……它线性到不能再线性。」集结：「集结影响你所有的生物、而不只是你的盟友，这让它灵活了一些，在限制赛里尤其如此。」7分对6分。"
+        },
+        {
+          "title": "当最小的那一档增量都已经太强时，就没有调校余地了",
+          "rules": "平衡是靠拧旋钮做的。如果这个旋钮的最低档已经越过了可接受的天花板，剩下的选择就只有「完全不用它」或者「接受这个结果」——所以，在查一个可缩放效果的上限之前，先查它的下限。",
+          "flavor": "「即便是歼灭1也强得离谱，而且可能极其令人沮丧。当这已经是开发部把这个机制放到一张牌上时所能加的最小强度时，他们能用来调校卡牌的平衡空间就非常有限了。」歼灭评9分。"
+        },
+        {
+          "title": "「可调校性」与其他所有难处都是彼此独立的",
+          "rules": "一样东西可以又窄、又让人困惑、又不受欢迎，同时依然很好平衡——因为平衡只取决于你能拧动多少个彼此分开的数值。把它当作一个独立的镜头来打分；否则这些难处会混在一起，你得到的会是一个错误的判决，而不是五份正确的读数。",
+          "flavor": "「升级」的设计空间很小、可玩性受影响，却依然拿到「开发：不成问题」。「这个机制有很多研发部所说的『旋钮』，也就是开发部可以微调以平衡其强度的各个方面。在法术力费用、升级费用、以及三套数值与异能之间，开发部有很多可以下手的地方。」"
+        },
+        {
+          "title": "一种为了让复杂度变得可读而发明出来的呈现方式，本身可能成为那道障碍",
+          "rules": "当一样确实密集的东西需要一种新的展示方式时，这种展示方式本身就是一个独立的设计问题，有它自己失败的概率。一旦它失败，人们会去怪底下那个想法——而日后要复活这个想法，就得先把呈现方式解决掉。",
+          "flavor": "「虽然这个牌框是一次高尚的尝试，想要展示一个相当复杂的概念——一张牌里能出三个各不相同的生物——但它的执行没有被观众接受，其中包括大量关于这个机制究竟怎么运作的困惑……即便到那时，我们面前也还横着一个巨大的牌框难题。」"
+        },
+        {
+          "title": "一个不受欢迎的结果，可能是放错了地方，而不是设计错了",
+          "rules": "在断定一样东西不好之前，先问它需要环境提供什么、以及它有没有拿到。一样奖励「这个项目正在主动压制的某种性质」的东西，测出来的成绩会惨不忍睹，而这什么也说明不了它在那种性质要紧的地方会表现如何。",
+          "flavor": "「趋同」的评级是不受欢迎——「趋同应该庆幸同伙的存在，否则它就会是目前市场调研中评分最低的机制。」然而：「我认为趋同最后是一个待错了环境的机制。我相信如果把它放进一个颜色（而不是无色）要紧的系列组里，它的表现会好得多。」"
+        },
+        {
+          "title": "「僵硬」说的是它所要求的基础设施，而不是那个效果",
+          "rules": "问题不是这样东西能不能用，而是「必须先有什么就位，它才根本用得起来」。一个需要把周围的系统改建出来给它供料的部件，是没法随手往哪儿一放的——无论它在供料确实存在的地方有多好。",
+          "flavor": "「让无色法术力变得要紧，需要一套有能力产出足够无色法术力的基础设施。这就是为什么它不是我们能随便塞进任何一个系列的东西……这些牌还需要周边系列里的地提供大量支持。」评级「非常受欢迎」，却依然只有6分。"
+        }
+      ]
+    }
+  }
+}
