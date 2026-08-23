@@ -1,0 +1,320 @@
+{
+  "id": "born-legacy-2014-01-20",
+  "slug": "born-legacy-2014-01-20",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2014-01-20",
+  "series": null,
+  "tags": ["design-story", "mechanics", "process", "design-space"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/born-legacy-2014-01-20",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Born Legacy",
+      "dek": "How each new mechanic in Born of the Gods got made — including one built by a team that existed before the set's team did.",
+      "overview": "The second preview column, and the one with the process in it. Two of the set's mechanics came out of an experimental group working ahead of the schedule, one of them commissioned to a written brief because a running count nobody was tracking had gotten out of hand. The other mechanic drifted through three wrong versions before anyone stopped to state what they actually wanted. Running underneath is a card from years earlier whose best part was cut over Rosewater's objection, and the block-long effort to make sure that particular mistake did not repeat.",
+      "takeaway": "The interesting decisions here are about what does not carry forward. A block accumulates mechanics until the last set cannot hold them, so somebody has to choose a casualty — and the way to choose is to find the one nothing else is built on.",
+      "lessons": [
+        {
+          "title": "When you can't reach the strategic layer because you're in the weeds, assign it to someone with no operational load",
+          "rules": "Rosewater's recurring problem is that leading one project consumes exactly the attention the wider plan needs, so the wider plan never gets thought about properly. The fix was not to try harder. An experimental group with no file to deliver was already working on something years out, and he redirected it onto the block he could not see straight. The absence of a card file is the qualification: without something to ship, a group can hold the big picture, which is unavailable to anyone whose week is spent making the thing.",
+          "flavor": "I was so busy making the set come together that I had no time for the rest of the block. So I gave the rest of the block to someone else."
+        },
+        {
+          "title": "Upstream output has to arrive as inventory the next owner may refuse entirely",
+          "rules": "When the set's design started, its lead was walked through everything the advance group had built and told explicitly that all of it was optional — mechanics, cards, the lot — to use or discard as he saw fit. That framing is what makes work-ahead viable. Material handed down as a requirement makes the receiving team into implementers and guarantees resentment when something does not fit their file; the same material handed down as a stocked shelf gets used more, not less, because using it is a choice they made.",
+          "flavor": "These are suggestions to help you. Take any of them or none of them."
+        },
+        {
+          "title": "Count the running total nobody owns, and decide the retirement rule before it bites",
+          "rules": "Each release adds mechanics and none of them formally leave, so the arithmetic compounds: a large opening with four or five, a second with two more, a third with two more, and the smallest release in the sequence is the one asked to support nine or ten. Nobody decides this; it is what happens if every individual decision is made locally and sensibly. The correction is to treat continuation as a choice rather than a default — some things advance because the block is built on them, and the rest have to be actively renewed or dropped.",
+          "flavor": "The final set is the small one, and it's the one carrying everything. That's backwards, and it happens by itself."
+        },
+        {
+          "title": "Choose the casualty by elimination: cut whatever nothing else is built on",
+          "rules": "Faced with dropping one of four mechanics, the reasoning was not which is weakest. It was which can be removed without taking something else with it. One was the structural glue holding the set's maths together. One was carrying the drafting format. One was needed because ten more of the cards that use it were already planned. That leaves exactly one, and it was a mechanic he liked with design space still in it. Being good is not a defence; being depended upon is.",
+          "flavor": "I liked monstrosity and knew there was space left. It was also the only one nothing else needed."
+        },
+        {
+          "title": "Write the commission as explicit constraints, and accept that some will serve a plan that dies",
+          "rules": "The replacement mechanic was commissioned against three written requirements: it had to suit a particular kind of card, it had to feel meaningfully different from what it replaced, and it had to use a specific existing counter — that last one because of an idea for the block that never came to fruition. The constraint stayed binding anyway, and the mechanic still bears it. This is normal and worth accepting up front: some of your specification exists to serve a plan that will not survive, and you will not know which parts until later.",
+          "flavor": "It had to use +1/+1 counters because of something I believed would happen. It didn't happen. The requirement stood."
+        },
+        {
+          "title": "When your emergent design matches something the organisation already tried, go and read why it was abandoned",
+          "rules": "Building abilities that required a creature to be tapped, the team kept adding a clause untapping it afterwards — and then noticed they had reconstructed, without the notation, a mechanic the game had already shipped years before and moved away from. That recognition is worth actively hunting for, because the second discovery arrives with something the first did not have: a record of how it went. The failure mode is not repeating an old idea, it is repeating one while ignoring the notes on why it was dropped.",
+          "flavor": "We had made the untap symbol without using the untap symbol. Somebody already knew how that ends."
+        },
+        {
+          "title": "When iteration stalls, stop and write the one sentence describing what you want",
+          "rules": "Three versions in, the mechanic was doing something nobody had intended: it had become an attacking mechanic, because the condition made attacking the easiest way to satisfy it. The team stopped adjusting and instead stated the target in a single sentence — get your creature tapped, survive the turn, be rewarded at the start of the next one. The mechanic that satisfies that sentence took a few playtests to confirm. Drift is only diagnosable against a stated intent, and iteration without one is just wandering with a changelog.",
+          "flavor": "Sometimes drift is fine and you reinvent the thing. This wasn't where we wanted it, and nobody had written down where that was."
+        },
+        {
+          "title": "Relax the purity rule exactly where the object is already minimal",
+          "rules": "The standing rule was that this hybrid card type had to feel like both of its halves, which is why the ordinary members all carry something beyond a body. The exception granted was for tokens: those are kept as plain as possible on purpose, and for something with nothing else on it, the hybrid nature is itself the whole extra thing. Rules protecting a concept from dilution can usually be relaxed at the simplest end of the range, because there is nothing there for the concept to compete with.",
+          "flavor": "It has to feel like both — unless it has no text at all, in which case being one of them is enough."
+        },
+        {
+          "title": "Extra vulnerability is what pays for extra power",
+          "rules": "Asked what distinguishes the new hybrid from an ordinary creature with the same static effect, part of the answer is not about upside at all: it can be removed by two different classes of answer instead of one. That exposure is a real cost, it lands in a real format, and it is what let the development team push the numbers further than the same effect would otherwise support. When you want to make something stronger, look first for a fragility you can add rather than a compensating drawback you have to write.",
+          "flavor": "It dies to creature removal and to enchantment removal. That's what bought the extra power."
+        },
+        {
+          "title": "A lost argument is a note to yourself for the next opportunity",
+          "rules": "Years earlier he had designed the first card of this kind and its distinguishing half was cut during development for complexity reasons. He agreed with the general goal, disagreed that this was the place to spend it, lost, and thought the card was ruined by the removal. The useful part is what happened next: when the same idea came round again with him running the block, the specific mistake was on his list of things not to repeat, and the space for it was protected across two releases. You do not have to win the argument at the time. You have to still be holding it when the second chance arrives.",
+          "flavor": "I obviously lost that fight. I wanted to make sure this block wasn't going to repeat the mistake."
+        }
+      ]
+    },
+    "es": {
+      "title": "Legado Born",
+      "dek": "Cómo se hizo cada mecánica nueva de Nacidos de los dioses, incluida una construida por un equipo que existía antes que el equipo de la colección.",
+      "overview": "La segunda columna de vista previa, y la que lleva dentro el proceso. Dos de las mecánicas de la colección salieron de un grupo experimental que trabajaba por delante del calendario, una de ellas encargada con un pliego escrito porque una cuenta acumulada que nadie vigilaba se había ido de las manos. La otra mecánica derivó por tres versiones equivocadas antes de que alguien se detuviera a enunciar qué querían de verdad. Por debajo corre una carta de años atrás cuya mejor parte se cortó pese a la objeción de Rosewater, y el empeño de todo un bloque en que ese error concreto no se repitiera.",
+      "takeaway": "Las decisiones interesantes aquí van sobre lo que no continúa. Un bloque acumula mecánicas hasta que la última colección no puede sostenerlas, así que alguien tiene que elegir una baja, y la manera de elegir es encontrar aquella sobre la que no se apoya nada más.",
+      "lessons": [
+        {
+          "title": "Cuando no llegas a la capa estratégica porque estás en el barro, asígnasela a alguien sin carga operativa",
+          "rules": "El problema recurrente de Rosewater es que dirigir un proyecto consume exactamente la atención que necesita el plan general, así que el plan general nunca se piensa como es debido. La solución no fue esforzarse más. Un grupo experimental sin archivo que entregar ya trabajaba en algo a años vista, y él lo redirigió al bloque que no conseguía ver con claridad. La ausencia de un archivo de cartas es la cualificación: sin nada que publicar, un grupo puede sostener la visión de conjunto, que es justo lo que no está al alcance de quien se pasa la semana fabricando la cosa.",
+          "flavor": "Estaba tan ocupado en que la colección cuajara que no tenía tiempo para el resto del bloque. Así que le di el resto del bloque a otro."
+        },
+        {
+          "title": "Lo que llega desde arriba tiene que llegar como inventario que el siguiente dueño puede rechazar entero",
+          "rules": "Cuando arrancó el diseño de la colección, se le enseñó a su responsable todo lo que el grupo previo había construido y se le dijo explícitamente que todo era opcional — mecánicas, cartas, lo que fuera — para usar o descartar según su criterio. Ese encuadre es lo que hace viable trabajar por delante. El material entregado como requisito convierte al equipo receptor en ejecutores y garantiza resentimiento cuando algo no encaja en su archivo; el mismo material entregado como estantería surtida se usa más, no menos, porque usarlo es una decisión suya.",
+          "flavor": "Esto son sugerencias para ayudarte. Coge las que quieras o ninguna."
+        },
+        {
+          "title": "Lleva la cuenta acumulada que no tiene dueño y decide la regla de retirada antes de que muerda",
+          "rules": "Cada lanzamiento añade mecánicas y ninguna se va formalmente, así que la aritmética se compone: una colección grande inicial con cuatro o cinco, una segunda con dos más, una tercera con dos más, y el lanzamiento más pequeño de la secuencia acaba siendo el que debe sostener nueve o diez. Nadie decide esto: es lo que pasa si cada decisión individual se toma localmente y con sensatez. La corrección es tratar la continuidad como una elección y no como algo por defecto: algunas cosas avanzan porque el bloque se apoya en ellas, y el resto tiene que renovarse activamente o caer.",
+          "flavor": "La última colección es la pequeña, y es la que lo carga todo. Es al revés, y pasa solo."
+        },
+        {
+          "title": "Elige la baja por eliminación: corta aquello sobre lo que no se apoya nada",
+          "rules": "Ante la necesidad de quitar una de cuatro mecánicas, el razonamiento no fue cuál es la más floja, sino cuál se puede quitar sin llevarse otra cosa por delante. Una era el pegamento estructural que sostenía las cuentas de la colección. Otra sostenía el formato de draft. Otra hacía falta porque ya estaban planificadas diez cartas más que la usaban. Queda exactamente una, y era una mecánica que le gustaba y a la que aún le quedaba espacio de diseño. Ser buena no es una defensa; que dependan de ti, sí.",
+          "flavor": "Me gustaba la monstruosidad y sabía que quedaba espacio. También era la única de la que no dependía nada más."
+        },
+        {
+          "title": "Redacta el encargo como restricciones explícitas y asume que algunas servirán a un plan que morirá",
+          "rules": "La mecánica de reemplazo se encargó contra tres requisitos escritos: tenía que encajar en un cierto tipo de carta, tenía que sentirse claramente distinta de la que sustituía y tenía que usar un contador concreto ya existente; esto último por una idea para el bloque que nunca llegó a cuajar. La restricción siguió siendo vinculante igualmente, y la mecánica todavía la lleva. Esto es normal y conviene aceptarlo de entrada: parte de tu especificación existe para servir a un plan que no sobrevivirá, y no sabrás qué partes hasta después.",
+          "flavor": "Tenía que usar contadores +1/+1 por algo que yo creía que iba a pasar. No pasó. El requisito se mantuvo."
+        },
+        {
+          "title": "Cuando tu diseño emergente coincide con algo que la organización ya probó, ve a leer por qué se abandonó",
+          "rules": "Construyendo habilidades que requerían tener girada a la criatura, el equipo seguía añadiendo una cláusula que la enderezaba después, y entonces se dio cuenta de que había reconstruido, sin la notación, una mecánica que el juego ya había publicado años antes y de la que se había alejado. Vale la pena cazar activamente ese reconocimiento, porque el segundo descubrimiento llega con algo que el primero no tenía: un registro de cómo salió. El fallo no es repetir una idea vieja, es repetirla ignorando las notas sobre por qué se abandonó.",
+          "flavor": "Habíamos hecho el símbolo de enderezar sin usar el símbolo de enderezar. Alguien ya sabía cómo acaba eso."
+        },
+        {
+          "title": "Cuando la iteración se atasca, para y escribe la frase que describe lo que quieres",
+          "rules": "Tres versiones dentro, la mecánica hacía algo que nadie había pretendido: se había vuelto una mecánica de atacar, porque la condición hacía del ataque la manera más fácil de satisfacerla. El equipo dejó de ajustar y en su lugar enunció el objetivo en una sola frase: consigue girar tu criatura, sobrevive al turno, recibe la recompensa al empezar el siguiente. La mecánica que satisface esa frase solo necesitó unas pocas pruebas para confirmarse. La deriva solo es diagnosticable contra una intención enunciada, e iterar sin una es vagar con un registro de cambios.",
+          "flavor": "A veces la deriva está bien y reinventas la cosa. Esta no estaba donde la queríamos, y nadie había escrito dónde era eso."
+        },
+        {
+          "title": "Relaja la regla de pureza justo donde el objeto ya es mínimo",
+          "rules": "La regla vigente era que este tipo de carta híbrido tenía que sentirse como sus dos mitades, y por eso los miembros ordinarios llevan todos algo más que un cuerpo. La excepción concedida fue para las fichas: esas se mantienen lo más simples posible a propósito y, para algo que no lleva nada más encima, la naturaleza híbrida es ya de por sí todo el extra. Las reglas que protegen un concepto de diluirse suelen poder relajarse en el extremo más simple del rango, porque allí no hay nada con lo que el concepto compita.",
+          "flavor": "Tiene que sentirse como ambas cosas, salvo que no tenga ningún texto, en cuyo caso ser una de ellas basta."
+        },
+        {
+          "title": "La vulnerabilidad adicional es lo que paga el poder adicional",
+          "rules": "Preguntado por qué el nuevo híbrido se distingue de una criatura corriente con el mismo efecto estático, parte de la respuesta no va de ventajas en absoluto: puede eliminarse con dos clases distintas de respuesta en vez de una. Esa exposición es un coste real, cae en un formato real y es lo que permitió al equipo de desarrollo empujar los números más allá de lo que el mismo efecto soportaría si no. Cuando quieras hacer algo más fuerte, busca primero una fragilidad que puedas añadir en lugar de un inconveniente compensatorio que tengas que redactar.",
+          "flavor": "Muere a la remoción de criaturas y a la de encantamientos. Eso es lo que compró el poder extra."
+        },
+        {
+          "title": "Una discusión perdida es una nota para ti mismo de cara a la próxima oportunidad",
+          "rules": "Años antes había diseñado la primera carta de esta clase, y la mitad que la distinguía se cortó durante el desarrollo por motivos de complejidad. Estaba de acuerdo con el objetivo general, discrepaba de que fuera ahí donde gastarlo, perdió, y pensó que la carta quedaba arruinada por la eliminación. Lo útil es lo que vino después: cuando la misma idea volvió a pasar y era él quien llevaba el bloque, ese error concreto estaba en su lista de cosas a no repetir, y el espacio se protegió a lo largo de dos lanzamientos. No hace falta ganar la discusión en su momento. Hace falta seguir sosteniéndola cuando llega la segunda oportunidad.",
+          "flavor": "Obviamente perdí esa pelea. Quería asegurarme de que este bloque no repitiera el error."
+        }
+      ]
+    },
+    "fr": {
+      "title": "L'héritage Born",
+      "dek": "Comment chaque nouvelle mécanique de Naissance des dieux a été faite — dont une bâtie par une équipe qui existait avant celle de l'extension.",
+      "overview": "La seconde chronique d'avant-première, celle qui contient le processus. Deux des mécaniques de l'extension viennent d'un groupe expérimental travaillant en avance sur le calendrier, l'une d'elles commandée sur cahier des charges écrit parce qu'un total courant que personne ne suivait avait dérapé. L'autre mécanique a dérivé à travers trois mauvaises versions avant que quelqu'un s'arrête pour énoncer ce qu'on voulait vraiment. En dessous court une carte d'il y a des années dont la meilleure part avait été coupée malgré l'objection de Rosewater, et l'effort d'un bloc entier pour que cette erreur précise ne se répète pas.",
+      "takeaway": "Les décisions intéressantes ici portent sur ce qui ne continue pas. Un bloc accumule des mécaniques jusqu'à ce que la dernière extension ne puisse plus les porter, alors quelqu'un doit choisir une victime — et la façon de choisir est de trouver celle sur laquelle rien d'autre ne repose.",
+      "lessons": [
+        {
+          "title": "Quand vous n'atteignez pas la couche stratégique parce que vous êtes dans la boue, confiez-la à quelqu'un sans charge opérationnelle",
+          "rules": "Le problème récurrent de Rosewater est que diriger un projet consomme exactement l'attention dont le plan d'ensemble a besoin, si bien que ce plan n'est jamais pensé correctement. La solution n'a pas été de forcer davantage. Un groupe expérimental sans fichier à livrer travaillait déjà sur quelque chose situé des années plus loin, et il l'a réorienté vers le bloc qu'il n'arrivait pas à voir clairement. L'absence de fichier est la qualification : sans rien à livrer, un groupe peut tenir la vue d'ensemble, ce qui est hors de portée de quiconque passe sa semaine à fabriquer la chose.",
+          "flavor": "J'étais si occupé à faire tenir l'extension que je n'avais plus de temps pour le reste du bloc. J'ai donc donné le reste du bloc à d'autres."
+        },
+        {
+          "title": "Ce qui vient de l'amont doit arriver comme un stock que le suivant peut refuser en bloc",
+          "rules": "Au démarrage de la conception, on a fait parcourir à son responsable tout ce que le groupe d'avance avait bâti, en lui disant explicitement que tout était facultatif — mécaniques, cartes, l'ensemble — à prendre ou à jeter selon son jugement. C'est ce cadrage qui rend le travail en avance viable. Un matériau transmis comme une exigence transforme l'équipe réceptrice en exécutants et garantit du ressentiment dès que quelque chose ne va pas dans leur fichier ; le même matériau transmis comme une étagère garnie est davantage utilisé, pas moins, parce que l'utiliser est un choix qu'ils ont fait.",
+          "flavor": "Ce sont des suggestions pour t'aider. Prends-en autant que tu veux, ou aucune."
+        },
+        {
+          "title": "Comptez le total courant que personne ne possède, et fixez la règle de retrait avant qu'elle ne morde",
+          "rules": "Chaque sortie ajoute des mécaniques et aucune ne part formellement, donc l'arithmétique se cumule : une grande ouverture avec quatre ou cinq, une deuxième avec deux de plus, une troisième avec deux de plus, et la plus petite sortie de la série est celle à qui l'on demande d'en soutenir neuf ou dix. Personne ne décide cela ; c'est ce qui arrive si chaque décision est prise localement et raisonnablement. Le correctif consiste à traiter la continuation comme un choix et non comme un défaut : certaines choses avancent parce que le bloc repose dessus, et le reste doit être activement reconduit ou abandonné.",
+          "flavor": "La dernière extension est la petite, et c'est elle qui porte tout. C'est à l'envers, et ça arrive tout seul."
+        },
+        {
+          "title": "Choisissez la victime par élimination : coupez ce sur quoi rien d'autre n'est bâti",
+          "rules": "Devant l'obligation de retirer l'une de quatre mécaniques, le raisonnement n'a pas été laquelle est la plus faible, mais laquelle peut partir sans en emporter une autre. L'une était la colle structurelle qui faisait tenir les calculs de l'extension. Une autre portait le format de draft. Une autre était nécessaire parce que dix cartes de plus l'utilisant étaient déjà prévues. Il en reste exactement une, et c'était une mécanique qu'il aimait et qui avait encore de l'espace. Être bonne n'est pas une défense ; être ce dont on dépend, si.",
+          "flavor": "J'aimais la monstruosité et je savais qu'il restait de la place. C'était aussi la seule dont rien d'autre n'avait besoin."
+        },
+        {
+          "title": "Rédigez la commande en contraintes explicites, et acceptez que certaines servent un plan qui mourra",
+          "rules": "La mécanique de remplacement a été commandée contre trois exigences écrites : convenir à un certain type de carte, se sentir nettement différente de celle qu'elle remplaçait, et utiliser un marqueur existant précis — ce dernier point à cause d'une idée pour le bloc qui n'a jamais abouti. La contrainte est restée contraignante quand même, et la mécanique la porte encore. C'est normal et il vaut mieux l'accepter d'emblée : une partie de votre cahier des charges existe pour servir un plan qui ne survivra pas, et vous ne saurez laquelle que plus tard.",
+          "flavor": "Elle devait utiliser des marqueurs +1/+1 à cause d'une chose que je croyais imminente. Elle n'est jamais venue. L'exigence est restée."
+        },
+        {
+          "title": "Quand votre conception émergente rejoint une chose déjà tentée par la maison, allez lire pourquoi on l'a abandonnée",
+          "rules": "En bâtissant des capacités exigeant qu'une créature soit engagée, l'équipe ajoutait sans cesse une clause la dégageant ensuite — puis a remarqué qu'elle avait reconstruit, sans la notation, une mécanique que le jeu avait déjà publiée des années plus tôt et dont il s'était éloigné. Cette reconnaissance vaut d'être activement recherchée, car la seconde découverte arrive avec ce que la première n'avait pas : le compte rendu de ce qui s'est passé. L'erreur n'est pas de répéter une vieille idée, c'est de la répéter en ignorant les notes sur son abandon.",
+          "flavor": "Nous avions refait le symbole de dégagement sans utiliser le symbole de dégagement. Quelqu'un savait déjà comment ça finit."
+        },
+        {
+          "title": "Quand l'itération cale, arrêtez et écrivez la phrase qui décrit ce que vous voulez",
+          "rules": "Trois versions plus loin, la mécanique faisait une chose que personne n'avait voulue : elle était devenue une mécanique d'attaque, parce que la condition faisait de l'attaque le moyen le plus simple de la satisfaire. L'équipe a cessé d'ajuster et a énoncé la cible en une phrase : faites engager votre créature, survivez au tour, recevez la récompense au début du suivant. La mécanique qui satisfait cette phrase n'a demandé que quelques tests pour se confirmer. La dérive ne se diagnostique que contre une intention énoncée, et itérer sans intention, c'est errer avec un journal des modifications.",
+          "flavor": "Parfois la dérive est bonne et l'on réinvente. Là ce n'était pas où nous voulions, et personne n'avait écrit où c'était."
+        },
+        {
+          "title": "Relâchez la règle de pureté exactement là où l'objet est déjà minimal",
+          "rules": "La règle en vigueur voulait que ce type de carte hybride donne la sensation de ses deux moitiés, d'où le fait que les membres ordinaires portent tous quelque chose au-delà d'un corps. L'exception accordée concernait les jetons : ceux-là sont gardés aussi simples que possible exprès et, pour une chose qui ne porte rien d'autre, la nature hybride est déjà tout le supplément. Les règles qui protègent un concept de la dilution peuvent en général être relâchées à l'extrémité la plus simple de la gamme, parce qu'il n'y a rien là contre quoi le concept doive lutter.",
+          "flavor": "Il faut que ça donne les deux sensations — sauf s'il n'y a aucun texte, auquel cas en être une suffit."
+        },
+        {
+          "title": "La vulnérabilité supplémentaire est ce qui paie la puissance supplémentaire",
+          "rules": "Interrogé sur ce qui distingue le nouvel hybride d'une créature ordinaire dotée du même effet statique, une part de la réponse ne parle pas du tout d'avantage : il peut être détruit par deux catégories de réponse au lieu d'une. Cette exposition est un coût réel, elle se paie dans un format réel, et c'est elle qui a permis au développement de pousser les chiffres au-delà de ce que le même effet supporterait autrement. Quand vous voulez renforcer quelque chose, cherchez d'abord une fragilité à ajouter plutôt qu'un inconvénient compensatoire à rédiger.",
+          "flavor": "Elle meurt aux destructions de créature et aux destructions d'enchantement. C'est ça qui a payé la puissance."
+        },
+        {
+          "title": "Une discussion perdue est une note à soi-même pour la prochaine occasion",
+          "rules": "Des années plus tôt, il avait conçu la première carte de ce genre, et la moitié qui la distinguait avait été coupée en développement pour raisons de complexité. Il partageait l'objectif général, contestait que ce fût le bon endroit pour le dépenser, a perdu, et a jugé la carte gâchée par la suppression. L'utile est ce qui a suivi : quand la même idée est revenue alors qu'il dirigeait le bloc, cette erreur précise figurait sur sa liste de choses à ne pas répéter, et l'espace a été protégé sur deux sorties. Vous n'avez pas besoin de gagner la discussion sur le moment. Vous devez encore la tenir quand la seconde chance arrive.",
+          "flavor": "J'ai évidemment perdu ce combat. Je voulais m'assurer que ce bloc ne répéterait pas l'erreur."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Legado Born",
+      "dek": "Como cada mecânica nova de Nascido dos Deuses foi feita — incluindo uma construída por uma equipe que existia antes da equipe da coleção.",
+      "overview": "A segunda coluna de prévia, e a que traz o processo dentro. Duas das mecânicas da coleção saíram de um grupo experimental que trabalhava à frente do cronograma, uma delas encomendada com um briefing escrito porque uma conta acumulada que ninguém acompanhava tinha saído do controle. A outra mecânica derivou por três versões erradas antes de alguém parar para enunciar o que de fato se queria. Por baixo corre uma carta de anos antes cuja melhor parte foi cortada apesar da objeção de Rosewater, e o esforço de um bloco inteiro para que aquele erro específico não se repetisse.",
+      "takeaway": "As decisões interessantes aqui são sobre o que não segue adiante. Um bloco acumula mecânicas até a última coleção não conseguir sustentá-las, então alguém tem de escolher uma baixa — e o jeito de escolher é achar aquela sobre a qual nada mais está construído.",
+      "lessons": [
+        {
+          "title": "Quando você não alcança a camada estratégica porque está no atoleiro, atribua-a a alguém sem carga operacional",
+          "rules": "O problema recorrente de Rosewater é que liderar um projeto consome exatamente a atenção de que o plano maior precisa, então o plano maior nunca é pensado direito. A solução não foi se esforçar mais. Um grupo experimental sem arquivo a entregar já trabalhava em algo a anos de distância, e ele o redirecionou para o bloco que não conseguia enxergar direito. A ausência de um arquivo de cartas é a qualificação: sem nada a publicar, um grupo consegue segurar o panorama, que é justamente o que fica fora do alcance de quem passa a semana fabricando a coisa.",
+          "flavor": "Eu estava tão ocupado fazendo a coleção fechar que não sobrava tempo para o resto do bloco. Então dei o resto do bloco a outra pessoa."
+        },
+        {
+          "title": "O que vem de cima tem de chegar como estoque que o próximo dono pode recusar inteiro",
+          "rules": "Quando o design da coleção começou, o líder dela foi levado por tudo que o grupo adiantado tinha construído e ouviu explicitamente que tudo era opcional — mecânicas, cartas, tudo — para usar ou descartar como achasse melhor. Esse enquadramento é o que torna viável trabalhar adiantado. Material entregue como exigência transforma a equipe receptora em executores e garante ressentimento quando algo não cabe no arquivo dela; o mesmo material entregue como prateleira abastecida é mais usado, não menos, porque usá-lo é uma escolha dela.",
+          "flavor": "Isto são sugestões para te ajudar. Pegue quantas quiser, ou nenhuma."
+        },
+        {
+          "title": "Conte o total corrente que não tem dono, e decida a regra de aposentadoria antes que ela morda",
+          "rules": "Cada lançamento acrescenta mecânicas e nenhuma sai formalmente, então a aritmética se acumula: uma abertura grande com quatro ou cinco, uma segunda com mais duas, uma terceira com mais duas, e o menor lançamento da sequência é o que precisa sustentar nove ou dez. Ninguém decide isso; é o que acontece se cada decisão for tomada localmente e com bom senso. A correção é tratar a continuidade como escolha e não como padrão: algumas coisas avançam porque o bloco se apoia nelas, e o resto tem de ser ativamente renovado ou descartado.",
+          "flavor": "A última coleção é a pequena, e é a que carrega tudo. É de trás para frente, e acontece sozinho."
+        },
+        {
+          "title": "Escolha a baixa por eliminação: corte aquilo sobre o que nada mais está construído",
+          "rules": "Diante da necessidade de tirar uma de quatro mecânicas, o raciocínio não foi qual é a mais fraca, e sim qual pode sair sem levar outra junto. Uma era a cola estrutural que sustentava as contas da coleção. Outra sustentava o formato de draft. Outra era necessária porque mais dez cartas que a usavam já estavam planejadas. Sobra exatamente uma, e era uma mecânica de que ele gostava e que ainda tinha espaço de design. Ser boa não é defesa; ser aquilo de que dependem, é.",
+          "flavor": "Eu gostava da monstruosidade e sabia que havia espaço. Também era a única de que nada mais precisava."
+        },
+        {
+          "title": "Escreva a encomenda como restrições explícitas e aceite que algumas servirão a um plano que vai morrer",
+          "rules": "A mecânica substituta foi encomendada contra três exigências escritas: tinha de servir a certo tipo de carta, tinha de parecer nitidamente diferente da que substituía, e tinha de usar um marcador existente específico — esta última por causa de uma ideia para o bloco que nunca vingou. A restrição continuou valendo mesmo assim, e a mecânica ainda a carrega. Isso é normal e vale aceitar de saída: parte da sua especificação existe para servir a um plano que não vai sobreviver, e você não saberá quais partes até depois.",
+          "flavor": "Tinha de usar marcadores +1/+1 por causa de algo que eu acreditava que aconteceria. Não aconteceu. A exigência ficou."
+        },
+        {
+          "title": "Quando o seu design emergente coincide com algo que a casa já tentou, vá ler por que foi abandonado",
+          "rules": "Construindo habilidades que exigiam a criatura virada, a equipe ficava acrescentando uma cláusula que a desvirava depois — e então percebeu que tinha reconstruído, sem a notação, uma mecânica que o jogo já publicara anos antes e da qual se afastara. Vale caçar ativamente esse reconhecimento, porque a segunda descoberta chega com algo que a primeira não tinha: um registro de como foi. A falha não é repetir uma ideia velha, é repeti-la ignorando as anotações sobre por que ela foi largada.",
+          "flavor": "Tínhamos feito o símbolo de desvirar sem usar o símbolo de desvirar. Alguém já sabia como isso termina."
+        },
+        {
+          "title": "Quando a iteração empaca, pare e escreva a frase única que descreve o que você quer",
+          "rules": "Três versões adentro, a mecânica fazia algo que ninguém pretendia: tinha virado uma mecânica de atacar, porque a condição fazia do ataque o jeito mais fácil de satisfazê-la. A equipe parou de ajustar e em vez disso enunciou o alvo numa frase só — vire sua criatura, sobreviva ao turno, receba a recompensa no começo do próximo. A mecânica que satisfaz essa frase levou poucos testes para se confirmar. Desvio só é diagnosticável contra uma intenção enunciada, e iterar sem uma é vagar com um registro de alterações.",
+          "flavor": "Às vezes o desvio é bom e você reinventa a coisa. Este não era onde queríamos, e ninguém tinha escrito onde era."
+        },
+        {
+          "title": "Afrouxe a regra de pureza exatamente onde o objeto já é mínimo",
+          "rules": "A regra vigente era que esse tipo de carta híbrido tinha de parecer as suas duas metades, e por isso os membros comuns carregam todos algo além de um corpo. A exceção concedida foi para as fichas: essas são mantidas o mais simples possível de propósito e, para algo que não carrega mais nada, a natureza híbrida já é todo o extra. Regras que protegem um conceito da diluição costumam poder ser afrouxadas na ponta mais simples da faixa, porque ali não há nada com que o conceito precise competir.",
+          "flavor": "Tem de parecer as duas coisas — a menos que não tenha texto nenhum, caso em que ser uma delas basta."
+        },
+        {
+          "title": "Vulnerabilidade extra é o que paga o poder extra",
+          "rules": "Perguntado sobre o que distingue o novo híbrido de uma criatura comum com o mesmo efeito estático, parte da resposta não fala de vantagem alguma: ele pode ser removido por duas classes diferentes de resposta em vez de uma. Essa exposição é um custo real, cai num formato real, e é o que permitiu à equipe de desenvolvimento empurrar os números além do que o mesmo efeito sustentaria de outro modo. Quando quiser deixar algo mais forte, procure primeiro uma fragilidade que dê para acrescentar, em vez de uma desvantagem compensatória que você tenha de redigir.",
+          "flavor": "Morre para remoção de criatura e para remoção de encantamento. Foi isso que comprou o poder extra."
+        },
+        {
+          "title": "Uma discussão perdida é um bilhete para você mesmo na próxima oportunidade",
+          "rules": "Anos antes ele havia projetado a primeira carta desse tipo, e a metade que a distinguia foi cortada no desenvolvimento por motivos de complexidade. Ele concordava com o objetivo geral, discordava de que fosse ali que se devia gastá-lo, perdeu, e achou que a carta ficou arruinada pela remoção. O útil é o que veio depois: quando a mesma ideia voltou e era ele quem comandava o bloco, aquele erro específico estava na sua lista de coisas a não repetir, e o espaço foi protegido ao longo de dois lançamentos. Você não precisa vencer a discussão na hora. Você precisa ainda estar segurando-a quando a segunda chance chegar.",
+          "flavor": "Obviamente perdi aquela briga. Eu queria garantir que este bloco não repetisse o erro."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "诸神创生的遗产",
+      "dek": "《诸神创生》里每一个新机制是怎么做出来的——其中一个出自一支比这套牌的团队更早存在的队伍。",
+      "overview": "两篇预览专栏中的第二篇，也是装着「过程」的那一篇。这套牌的两个机制出自一支跑在日程前面的实验小组，其中一个是照着一份书面任务书订做的——因为一笔没人在盯的累计账目已经失控了。另一个机制在有人停下来说清「我们究竟想要什么」之前，在三个错误版本之间漂了一路。贯穿其下的，是多年前一张牌——它最好的那一半在罗斯瓦特反对之下被砍掉了——以及整整一个环境为了不让这个特定错误重演所付出的努力。",
+      "takeaway": "这里有意思的决定，全都关于「什么不往下带」。一个环境会不断累积机制，直到最后一套牌扛不动为止；于是必须有人挑出一个牺牲品——而挑选的办法，是找出那个「没有别的东西建在它上面」的。",
+      "lessons": [
+        {
+          "title": "当你因为陷在泥里而够不着战略层时，把它交给一个没有交付负担的人",
+          "rules": "罗斯瓦特反复遇到的问题是：带一个项目，消耗掉的恰恰就是更大的计划所需要的那份注意力，于是那个更大的计划永远没被好好想过。解法不是更用力。一支没有文件要交付的实验小组，本来正在做几年之后的东西，而他把它调头对准了那个他看不清的环境。「没有牌表」正是它的资格：手上没有要发的东西，一支队伍才能托住全局——而这对任何一个整周都在造东西的人来说都是够不着的。",
+          "flavor": "我忙着让这一套牌成型，忙到没时间管环境的其余部分。于是我把其余部分交给了别人。"
+        },
+        {
+          "title": "上游的产出必须以「下一个主人可以整批拒绝的库存」的形式抵达",
+          "rules": "这套牌的设计开工时，负责人被带着过了一遍前置小组做出的所有东西，并被明确告知：这一切都是可选的——机制、卡牌，全部——用不用由他自己判断。正是这个措辞让「提前干活」这件事可行。以要求的形式交下去的材料，会把接手的团队变成执行者，并且在某样东西不适合他们的牌表时必然产生怨气；同样的材料以一个备好货的架子的形式交下去，反而会被用得更多，因为「用它」是他们自己做的选择。",
+          "flavor": "这些只是帮你的建议。你想拿几个拿几个，一个都不拿也行。"
+        },
+        {
+          "title": "去数那笔没有主人的累计账，并在它咬人之前定下退役规则",
+          "rules": "每一次发布都会新增机制，而没有任何一个正式离场，于是算术不断叠加：开篇的大套带四五个，第二套再加两个，第三套再加两个——而这一序列里最小的那一次发布，恰恰是被要求支撑九个甚至十个的那一次。没有人决定过这件事；它只是「每个单独决定都在本地合理地做出」的结果。纠正办法是把「延续」当成一个选择而不是默认值：有些东西往下带，是因为整个环境建在它上面；其余的必须被主动续约，否则就下车。",
+          "flavor": "最后一套是最小的那套，而它扛着全部。这是反过来的，而且它会自己发生。"
+        },
+        {
+          "title": "用排除法挑出牺牲品：砍掉那个没有别的东西建在其上的",
+          "rules": "面对「四个机制要去掉一个」，思路不是「哪个最弱」，而是「哪个可以拿走而不会连带扯掉别的东西」。有一个是撑住这套牌全部数学的结构性胶水。有一个正扛着轮抽环境。还有一个是必需的，因为另外十张用到它的牌已经排进计划了。剩下的恰好只有一个——而那是他喜欢、并且设计空间还没用完的一个。「好」不是抗辩理由；「被依赖」才是。",
+          "flavor": "我喜欢「壮观化」，也知道它还有空间。它同时也是唯一一个没有别的东西需要它的。"
+        },
+        {
+          "title": "把委托写成明确的约束条件，并接受其中一些服务的是一个会死掉的计划",
+          "rules": "替代机制是照着三条书面要求订做的：它必须适合某一类牌，它必须让人明显觉得和被它替换掉的那个不同，以及它必须用上某一种已有的指示物——最后这一条是因为一个关于整个环境的构想，而那个构想后来从未成真。那条约束照样具有约束力，而这个机制至今还带着它。这很正常，值得一开始就接受：你的规格说明里有一部分是为了服务一个活不下来的计划而存在的，而你要到很久以后才知道是哪几部分。",
+          "flavor": "它必须用+1/+1指示物，因为我相信有件事会发生。它没有发生。那条要求留下了。"
+        },
+        {
+          "title": "当你自发长出来的设计撞上组织里试过的东西时，去读一读它当初为什么被放弃",
+          "rules": "在做「需要生物处于横置状态」的异能时，团队不断给它加上一条「之后再重置它」的附带条款——然后才注意到，他们在不使用那个符号的情况下，重新造出了这个游戏多年前就已经发行、后来又走开的一个机制。这种「认出来」值得主动去猎取，因为第二次发现会带着第一次没有的东西：一份「后来怎么样了」的记录。真正的失败不是重复一个旧点子，而是一边重复它、一边无视关于它为何被放弃的那些笔记。",
+          "flavor": "我们在不用重置符号的情况下做出了重置符号。已经有人知道那条路通向哪儿。"
+        },
+        {
+          "title": "当迭代卡住时，停下来，把「你想要什么」写成一句话",
+          "rules": "改到第三版时，这个机制在做一件没有任何人打算过的事：它变成了一个攻击机制，因为那个条件让「攻击」成了满足它的最省事的方式。团队停止了微调，转而用一句话把目标说了出来——想办法让你的生物横置、活过这个回合、在下一回合开始时拿到回报。满足这句话的那个机制，只用了几次试玩就确认下来。偏离只有对照着一个说出口的意图才诊断得出来；没有意图的迭代，不过是带着更新日志在瞎逛。",
+          "flavor": "有时候偏离没关系，你顺势重新发明了它。这一次不是我们想要的位置，而那个位置本来就没人写下来过。"
+        },
+        {
+          "title": "在物件本身已经极简的那一端，放宽你的纯度规则",
+          "rules": "既定的规矩是：这种混合牌张类别必须让人同时感受到它的两半——这正是为什么它的普通成员身上都带着「一具身体之外的东西」。而被批准的例外给了衍生物：这类东西是被刻意保持得越简单越好的，而对于一个身上什么都没有的东西来说，这种混合属性本身就已经是那个「额外的东西」了。防止一个概念被稀释的规则，通常可以在整个区间里最简单的那一端放宽，因为那里根本没有别的东西在跟这个概念抢。",
+          "flavor": "它必须两边都像——除非它一个字都没有，那么「是其中之一」就够了。"
+        },
+        {
+          "title": "额外的脆弱，才是为额外的强度买单的东西",
+          "rules": "被问到这种新混合物跟一个带同样静止异能的普通生物有什么区别时，答案里有一部分压根不关乎优势：它会被两类不同的应对手段解决，而不是一类。这份暴露是真实的代价，会在真实的赛制里被兑现，也正是它让开发团队敢把数值推得比同样效果原本撑得住的更远。当你想让某样东西更强时，先去找一个可以给它加上的脆弱性，而不是一条你必须动笔写出来的补偿性缺点。",
+          "flavor": "它既死于生物去除，也死于结界去除。买下那份额外强度的，就是这一点。"
+        },
+        {
+          "title": "一场输掉的争论，是写给未来那次机会的自己的一张便条",
+          "rules": "多年前他设计了这一类的第一张牌，而让它与众不同的那一半在开发阶段以复杂度为由被砍掉了。他认同那个总体目标，但不认同该在这里花这笔钱；他输了，并且认为那次删除毁了这张牌。真正有用的是后来发生的事：当同一个想法再次转回来、而这次由他统管整个环境时，那个具体的错误就在他的「不许重演」清单上，而那片空间被跨越两次发布地保护了下来。你不需要在当时赢下那场争论。你需要的是等第二次机会来临时，手里还攥着它。",
+          "flavor": "那一仗我显然输了。我想确保这个环境不会重蹈覆辙。"
+        }
+      ]
+    }
+  }
+}
