@@ -1,0 +1,358 @@
+{
+  "id": "state-design-2018-2018-08-20",
+  "slug": "state-design-2018-2018-08-20",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2018-08-20",
+  "series": null,
+  "tags": [
+    "state-of-design",
+    "retrospective",
+    "process",
+    "expectations",
+    "self-criticism"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/state-design-2018-2018-08-20",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:43:45.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "U" },
+    { "n": 9, "color": "U" },
+    { "n": 10, "color": "W" },
+    { "n": 11, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "State of Design 2018",
+      "dek": "The fourteenth annual self-review, and the one that splits down the middle: Ixalan's stumbles at the start, Dominaria and the new process at the end.",
+      "overview": "The year Magic replaced design/development with vision design, set design, and play design, and dropped blocks for three standalone large sets plus a core set. Rosewater grades every booster product with new designs, not just the Standard-legal ones.",
+      "takeaway": "A transitional year that averaged out slightly better than good — “the old ways made a not-so-auspicious farewell while the new ways made a bold entrance.”",
+      "lessons": [
+        {
+          "title": "Integrate earlier and you throw away less",
+          "rules": "A handoff between two phases discards whatever the receiving phase can't use. Splitting into more stages, each with the concerned parties present, is counterintuitive but reduces total waste.",
+          "flavor": "Design and development became vision design, set design, and play design. “I really can't understate how much of an improvement this is to the set-making process.” The gain applies to every set from here on."
+        },
+        {
+          "title": "Tuning the process doesn't excuse you from pushing the boundaries",
+          "rules": "Fixing how you work and expanding what you can make are separate obligations, and the first is the one that feels like progress while you do it. Book both.",
+          "flavor": "Sagas, the “exploration” double-faced cards, contraptions, host/augment, and the whole concept of Battlebond in a single year. “Our job as the creators of the game is to keep surprising all of you.”"
+        },
+        {
+          "title": "The expectation gap lives in the work, not only in the messaging",
+          "rules": "When what shipped doesn't match what people were waiting for, the easy read is a communications failure. Some of it is — and some of it is that the thing itself didn't deliver on the premise it advertised.",
+          "flavor": "Ixalan's hype was off the charts: Dinosaurs, Pirates, conquistador Vampires. “Did we do a good enough job delivering on what fans were expecting? (I'd argue no, we did not.)”"
+        },
+        {
+          "title": "You may have already solved this — go and look",
+          "rules": "The hardest problems in a domain recur, and your own back catalogue is the cheapest place to find the answer. Failing to check is worse than not knowing.",
+          "flavor": "Ixalan's tribes couldn't be combined, so the two-colour factions played repetitively. Rosewater created changeling for exactly this problem in Lorwyn. “It demonstrates that I should have known better.”"
+        },
+        {
+          "title": "Price the asymmetry before you buy it",
+          "rules": "Uneven components are sometimes the right call, but the bill arrives in places you didn't budget for. Enumerate the downstream costs first, then decide.",
+          "flavor": "Ixalan's 3/3/2/2 tribal split had good reasons. It also caused balance problems, made cycles hard to build and to explain, and pushed players into three colours in a set where that wasn't a Limited theme."
+        },
+        {
+          "title": "Design for what people actually do, not what you wish they'd do",
+          "rules": "A product built around a behaviour your audience has repeatedly declined to adopt will keep failing in the same way. Take the observed behaviour as the requirement.",
+          "flavor": "Unglued and Unhinged were made to be mixed into black-border Limited, and players never did it. Unstable was built to be drafted by itself — more parasitic, and the Draft got high marks."
+        },
+        {
+          "title": "A surprise still needs an index",
+          "rules": "Withholding information is a legitimate way to create delight. Withholding the means to identify what you got afterwards is not part of the trick — build the lookup in from the start.",
+          "flavor": "Unstable's variant cards were a good idea, and revealing them at the last minute was fun. Not giving players a way to tell which variant was which wasn't. “I would have had all the variants have information in the collector number.”"
+        },
+        {
+          "title": "Frequency is what turns a theme into an identity",
+          "rules": "A theme that appears occasionally reads as coincidence. Raise the density until it is unavoidable in ordinary use, and add a mechanic that references it so the theme has mechanical work to do.",
+          "flavor": "Kamigawa's legendary theme failed. Dominaria raised the as-fan of legendary creatures, put one in every booster pack, and added historic. “Historic had a few skeptics early on… people started to understand how it was the glue.”"
+        },
+        {
+          "title": "A rule and the behaviour it produces can be inverses",
+          "rules": "Check what the constraint pushes people toward, not what it is made of. A restriction that names one thing frequently drives everyone to the other.",
+          "flavor": "Battlebond's partners are enemy-coloured. “Making the partners enemies sounds like it's making the set more enemy colored, but in reality, it makes the set all about playing ally color decks.”"
+        },
+        {
+          "title": "Build the on-ramp first and let the main work absorb it",
+          "rules": "Beginner materials assembled after the fact are limited to whatever the finished thing happens to contain. Build them first and the main work can supply exactly what they need.",
+          "flavor": "Welcome Decks, Planeswalker Decks, and the Deck Builder's Toolkit used to be made after a core set was built. Core Set 2019 made them first and then incorporated the necessary cards. “The best beginner suite of products we've ever made.”"
+        },
+        {
+          "title": "Hidden depth isn't a trade against accessibility",
+          "rules": "Depth and simplicity only compete when the depth is visible. Complexity a newcomer never has to notice costs them nothing and rewards the person who eventually sees it.",
+          "flavor": "Rosewater calls it lenticular design. Core Set 2019 used some, and the ask for future core sets is more: “ways to add more depth to the set without upping the complexity for the beginners.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Estado del diseño 2018",
+      "dek": "La decimocuarta autoevaluación anual, y la que se parte por la mitad: los tropiezos de Ixalan al principio, Dominaria y el nuevo proceso al final.",
+      "overview": "El año en que Magic sustituyó diseño/desarrollo por diseño de visión, diseño de edición y diseño de juego, y cambió los bloques por tres ediciones grandes independientes más una edición base. Rosewater califica todo producto de sobres con diseños nuevos, no solo los legales en Estándar.",
+      "takeaway": "Un año de transición que salió algo mejor que bueno: «las viejas maneras se despidieron sin mucha gloria mientras las nuevas hicieron una entrada audaz».",
+      "lessons": [
+        {
+          "title": "Integrar antes hace que tires menos",
+          "rules": "Un traspaso entre dos fases descarta todo lo que la fase receptora no puede usar. Dividir en más etapas, cada una con las partes implicadas presentes, es contraintuitivo pero reduce el desperdicio total.",
+          "flavor": "Diseño y desarrollo pasaron a ser diseño de visión, de edición y de juego. «De verdad no puedo exagerar cuánta mejora supone esto para el proceso.» La ganancia se aplica a todas las ediciones desde aquí."
+        },
+        {
+          "title": "Afinar el proceso no te exime de empujar los límites",
+          "rules": "Arreglar cómo trabajas y ampliar lo que puedes hacer son obligaciones distintas, y la primera es la que se siente como progreso mientras la haces. Agenda las dos.",
+          "flavor": "Sagas, las cartas de doble cara de «exploración», contrapciones, anfitrión/aumento y el concepto entero de Battlebond en un solo año. «Nuestro trabajo como creadores del juego es seguir sorprendiéndoos.»"
+        },
+        {
+          "title": "La brecha de expectativas vive en el trabajo, no solo en el mensaje",
+          "rules": "Cuando lo que sale no coincide con lo que la gente esperaba, la lectura fácil es un fallo de comunicación. Parte lo es, y parte es que la cosa misma no cumplió la promesa que anunciaba.",
+          "flavor": "El hype de Ixalan estaba por las nubes: dinosaurios, piratas, vampiros conquistadores. «¿Cumplimos lo bastante bien con lo que los fans esperaban? (Yo diría que no.)»"
+        },
+        {
+          "title": "Puede que ya lo hayas resuelto: ve y míralo",
+          "rules": "Los problemas más difíciles de un ámbito se repiten, y tu propio catálogo es el sitio más barato donde encontrar la respuesta. No mirar es peor que no saber.",
+          "flavor": "Las tribus de Ixalan no se podían combinar, así que las facciones de dos colores jugaban repetitivas. Rosewater creó el cambiaformas para exactamente este problema en Lorwyn. «Demuestra que yo debería haberlo sabido.»"
+        },
+        {
+          "title": "Calcula el precio de la asimetría antes de comprarla",
+          "rules": "Los componentes desiguales a veces son lo correcto, pero la factura llega por sitios que no presupuestaste. Enumera primero los costes aguas abajo y luego decide.",
+          "flavor": "El reparto tribal 3/3/2/2 de Ixalan tenía buenas razones. También causó problemas de equilibrio, hizo los ciclos difíciles de construir y de explicar, y empujó a jugar tres colores en una edición donde eso no era un tema de Limitado."
+        },
+        {
+          "title": "Diseña para lo que la gente hace, no para lo que te gustaría que hiciera",
+          "rules": "Un producto construido sobre una conducta que tu público ha rechazado adoptar una y otra vez seguirá fallando igual. Toma la conducta observada como requisito.",
+          "flavor": "Unglued y Unhinged se hicieron para mezclarse en Limitado de borde negro, y los jugadores nunca lo hicieron. Unstable se construyó para draftearse solo: más parásito, y el draft recibió notas altas."
+        },
+        {
+          "title": "Una sorpresa también necesita un índice",
+          "rules": "Guardar información es una manera legítima de crear alegría. Guardar el medio de identificar después lo que te ha tocado no forma parte del truco: incorpora la consulta desde el principio.",
+          "flavor": "Las cartas variantes de Unstable eran buena idea, y revelarlas a última hora fue divertido. No dar forma de saber cuál era cuál, no. «Habría puesto la información de cada variante en el número de coleccionista.»"
+        },
+        {
+          "title": "La frecuencia es lo que convierte un tema en identidad",
+          "rules": "Un tema que aparece de vez en cuando se lee como casualidad. Sube la densidad hasta que sea inevitable en el uso normal, y añade una mecánica que lo referencie para que el tema tenga trabajo mecánico.",
+          "flavor": "El tema legendario de Kamigawa fracasó. Dominaria subió el as-fan de criaturas legendarias, puso una en cada sobre, y añadió histórico. «Histórico tuvo escépticos al principio… luego entendieron que era el pegamento.»"
+        },
+        {
+          "title": "Una regla y la conducta que produce pueden ser inversas",
+          "rules": "Mira hacia dónde empuja la restricción a la gente, no de qué está hecha. Una restricción que nombra una cosa a menudo lleva a todo el mundo a la otra.",
+          "flavor": "Los compañeros de Battlebond son de colores enemigos. «Hacer que los compañeros sean enemigos suena a hacer la edición más enemiga, pero en realidad hace que la edición vaya toda de jugar mazos de colores aliados.»"
+        },
+        {
+          "title": "Construye la rampa de entrada primero y deja que el trabajo principal la absorba",
+          "rules": "Los materiales para principiantes montados a posteriori se limitan a lo que la cosa terminada contenga por casualidad. Constrúyelos primero y el trabajo principal podrá aportar exactamente lo que necesitan.",
+          "flavor": "Los Welcome Decks, los mazos de planeswalker y el Deck Builder's Toolkit se hacían después de construir la edición base. Core Set 2019 los hizo primero e incorporó las cartas necesarias. «La mejor suite para principiantes que hemos hecho.»"
+        },
+        {
+          "title": "La profundidad oculta no compite con la accesibilidad",
+          "rules": "Profundidad y simplicidad solo compiten cuando la profundidad se ve. La complejidad que un recién llegado no tiene que notar no le cuesta nada y premia a quien acabe viéndola.",
+          "flavor": "Rosewater lo llama diseño lenticular. Core Set 2019 usó algo, y lo que pide para futuras ediciones base es más: «maneras de añadir profundidad sin subir la complejidad para los principiantes»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "État de la conception 2018",
+      "dek": "La quatorzième auto-évaluation annuelle, et celle qui se coupe en deux : les faux pas d'Ixalan au début, Dominaria et le nouveau processus à la fin.",
+      "overview": "L'année où Magic a remplacé conception/développement par conception de vision, conception d'édition et conception de jeu, et abandonné les blocs pour trois grandes éditions autonomes plus une édition de base. Rosewater note tout produit en boosters comportant de nouvelles cartes.",
+      "takeaway": "Une année de transition légèrement meilleure que bonne : « les anciennes méthodes ont fait des adieux peu glorieux tandis que les nouvelles ont fait une entrée audacieuse ».",
+      "lessons": [
+        {
+          "title": "Intégrer plus tôt, c'est jeter moins",
+          "rules": "Un passage de relais entre deux phases jette tout ce que la phase réceptrice ne peut pas utiliser. Découper en davantage d'étapes, chacune avec les parties concernées présentes, est contre-intuitif mais réduit le gaspillage total.",
+          "flavor": "Conception et développement sont devenus conception de vision, d'édition et de jeu. « Je ne peux vraiment pas sous-estimer l'ampleur de cette amélioration. » Le gain vaut pour toutes les éditions à venir."
+        },
+        {
+          "title": "Régler le processus ne vous dispense pas de repousser les limites",
+          "rules": "Réparer votre façon de travailler et élargir ce que vous savez faire sont deux obligations distinctes, et la première est celle qui donne l'impression d'avancer pendant qu'on la fait. Inscrivez les deux.",
+          "flavor": "Les sagas, les cartes recto verso « exploration », les contraptions, l'hôte/l'augmentation et tout le concept de Battlebond en une seule année. « Notre travail de créateurs du jeu, c'est de continuer à vous surprendre. »"
+        },
+        {
+          "title": "L'écart d'attentes vit dans le travail, pas seulement dans le discours",
+          "rules": "Quand ce qui sort ne correspond pas à ce que les gens attendaient, la lecture facile est un échec de communication. Une partie l'est — et une partie tient à ce que la chose elle-même n'a pas tenu la promesse qu'elle affichait.",
+          "flavor": "Le battage autour d'Ixalan était énorme : dinosaures, pirates, vampires conquistadors. « Avons-nous suffisamment bien livré ce que les fans attendaient ? (Je dirais que non.) »"
+        },
+        {
+          "title": "Vous l'avez peut-être déjà résolu — allez voir",
+          "rules": "Les problèmes les plus durs d'un domaine reviennent, et votre propre catalogue est l'endroit le moins cher où trouver la réponse. Ne pas vérifier est pire que ne pas savoir.",
+          "flavor": "Les tribus d'Ixalan ne pouvaient pas se croiser, d'où des factions bicolores répétitives. Rosewater a créé le changelin pour exactement ce problème dans Lorwyn. « Cela montre que j'aurais dû le savoir. »"
+        },
+        {
+          "title": "Chiffrez l'asymétrie avant de l'acheter",
+          "rules": "Des composants inégaux sont parfois le bon choix, mais la facture arrive par des endroits non budgétés. Énumérez d'abord les coûts en aval, puis décidez.",
+          "flavor": "La répartition tribale 3/3/2/2 d'Ixalan avait de bonnes raisons. Elle a aussi créé des problèmes d'équilibre, rendu les cycles difficiles à construire et à expliquer, et poussé vers trois couleurs dans une édition où ce n'était pas un thème."
+        },
+        {
+          "title": "Concevez pour ce que les gens font, pas pour ce que vous voudriez",
+          "rules": "Un produit bâti sur un comportement que votre public a refusé d'adopter à répétition échouera toujours de la même manière. Prenez le comportement observé comme exigence.",
+          "flavor": "Unglued et Unhinged étaient faits pour être mélangés au Limité bordure noire, et personne ne l'a fait. Unstable a été conçu pour être drafté seul — plus parasite, et le draft a reçu d'excellentes notes."
+        },
+        {
+          "title": "Une surprise a quand même besoin d'un index",
+          "rules": "Retenir l'information est une manière légitime de créer du plaisir. Retenir le moyen d'identifier ensuite ce qu'on a obtenu ne fait pas partie du tour : intégrez la recherche dès le départ.",
+          "flavor": "Les cartes variantes d'Unstable étaient une bonne idée, et les révéler au dernier moment était amusant. Ne pas donner de moyen de savoir laquelle est laquelle, non. « J'aurais mis l'info dans le numéro de collection. »"
+        },
+        {
+          "title": "C'est la fréquence qui transforme un thème en identité",
+          "rules": "Un thème qui apparaît de temps en temps se lit comme une coïncidence. Montez la densité jusqu'à ce qu'il soit incontournable à l'usage, et ajoutez une mécanique qui le référence pour lui donner du travail.",
+          "flavor": "Le thème légendaire de Kamigawa a échoué. Dominaria a monté l'as-fan des créatures légendaires, en a mis une dans chaque booster, et a ajouté historique. « Historique a eu des sceptiques… puis on a compris que c'était la colle. »"
+        },
+        {
+          "title": "Une règle et le comportement qu'elle produit peuvent être inverses",
+          "rules": "Regardez vers quoi la contrainte pousse les gens, pas de quoi elle est faite. Une restriction qui nomme une chose conduit souvent tout le monde vers l'autre.",
+          "flavor": "Les partenaires de Battlebond sont en couleurs ennemies. « Faire des partenaires des ennemis a l'air de rendre l'édition plus ennemie, mais en réalité ça rend l'édition entièrement centrée sur les decks en couleurs alliées. »"
+        },
+        {
+          "title": "Construisez la rampe d'accès d'abord et laissez l'œuvre principale l'absorber",
+          "rules": "Le matériel pour débutants assemblé après coup se limite à ce que la chose finie contient par hasard. Construisez-le d'abord et l'œuvre principale pourra fournir exactement ce qu'il lui faut.",
+          "flavor": "Les Welcome Decks, decks de planeswalker et Deck Builder's Toolkit se faisaient après l'édition de base. Core Set 2019 les a faits d'abord puis y a incorporé les cartes nécessaires. « La meilleure gamme débutant qu'on ait faite. »"
+        },
+        {
+          "title": "La profondeur cachée ne s'échange pas contre l'accessibilité",
+          "rules": "Profondeur et simplicité ne s'opposent que si la profondeur est visible. Une complexité qu'un nouveau venu n'a jamais à remarquer ne lui coûte rien et récompense qui finira par la voir.",
+          "flavor": "Rosewater appelle cela la conception lenticulaire. Core Set 2019 en a un peu usé, et la demande pour la suite en réclame davantage : « ajouter de la profondeur sans monter la complexité pour les débutants »."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Estado do design 2018",
+      "dek": "A décima quarta autoavaliação anual, e a que se parte ao meio: os tropeços de Ixalan no começo, Dominaria e o novo processo no fim.",
+      "overview": "O ano em que Magic trocou design/desenvolvimento por design de visão, design de coleção e design de jogo, e abandonou os blocos por três coleções grandes independentes mais uma coleção básica. Rosewater avalia todo produto de boosters com cartas novas.",
+      "takeaway": "Um ano de transição que ficou um pouco melhor que bom: “os velhos jeitos fizeram uma despedida pouco auspiciosa enquanto os novos fizeram uma entrada ousada”.",
+      "lessons": [
+        {
+          "title": "Integrar mais cedo faz você jogar menos fora",
+          "rules": "Uma passagem de bastão entre duas fases descarta tudo o que a fase receptora não consegue usar. Dividir em mais etapas, cada uma com as partes interessadas presentes, é contraintuitivo mas reduz o desperdício total.",
+          "flavor": "Design e desenvolvimento viraram design de visão, de coleção e de jogo. “Eu realmente não consigo subestimar o tamanho dessa melhoria no processo.” O ganho vale para toda coleção daqui em diante."
+        },
+        {
+          "title": "Afinar o processo não te dispensa de empurrar os limites",
+          "rules": "Consertar como você trabalha e ampliar o que você consegue fazer são obrigações distintas, e a primeira é a que parece progresso enquanto você a faz. Agende as duas.",
+          "flavor": "Sagas, as cartas de face dupla de “exploração”, engenhocas, hospedeiro/aumento e o conceito inteiro de Battlebond num ano só. “Nosso trabalho como criadores do jogo é continuar surpreendendo vocês.”"
+        },
+        {
+          "title": "O buraco entre expectativa e entrega mora no trabalho, não só na comunicação",
+          "rules": "Quando o que saiu não bate com o que as pessoas esperavam, a leitura fácil é falha de comunicação. Parte é — e parte é que a coisa em si não cumpriu a promessa que anunciou.",
+          "flavor": "O hype de Ixalan estava nas alturas: dinossauros, piratas, vampiros conquistadores. “A gente entregou bem o bastante o que os fãs esperavam? (Eu diria que não.)”"
+        },
+        {
+          "title": "Talvez você já tenha resolvido isso — vá olhar",
+          "rules": "Os problemas mais duros de uma área se repetem, e o seu próprio catálogo é o lugar mais barato para achar a resposta. Não conferir é pior do que não saber.",
+          "flavor": "As tribos de Ixalan não podiam se cruzar, então as facções de duas cores jogavam de modo repetitivo. Rosewater criou o metamorfo para exatamente esse problema em Lorwyn. “Isso mostra que eu deveria saber melhor.”"
+        },
+        {
+          "title": "Calcule o preço da assimetria antes de comprá-la",
+          "rules": "Componentes desiguais às vezes são a decisão certa, mas a conta chega por lugares que você não orçou. Enumere primeiro os custos rio abaixo, e então decida.",
+          "flavor": "A divisão tribal 3/3/2/2 de Ixalan tinha bons motivos. Também causou problemas de equilíbrio, deixou os ciclos difíceis de montar e de explicar, e empurrou jogadores para três cores numa coleção onde isso não era tema de Limitado."
+        },
+        {
+          "title": "Projete para o que as pessoas fazem, não para o que você queria que fizessem",
+          "rules": "Um produto construído sobre um comportamento que seu público recusou adotar repetidamente vai continuar falhando do mesmo jeito. Tome o comportamento observado como requisito.",
+          "flavor": "Unglued e Unhinged foram feitos para se misturar ao Limitado de borda preta, e os jogadores nunca fizeram isso. Unstable foi construído para ser draftado sozinho — mais parasita, e o draft recebeu notas altas."
+        },
+        {
+          "title": "Uma surpresa ainda precisa de um índice",
+          "rules": "Reter informação é um jeito legítimo de criar prazer. Reter o meio de identificar depois o que você recebeu não faz parte do truque: embuta a consulta desde o começo.",
+          "flavor": "As cartas variantes de Unstable eram boa ideia, e revelá-las na última hora foi divertido. Não dar um jeito de saber qual era qual, não foi. “Eu teria posto a informação no número de colecionador.”"
+        },
+        {
+          "title": "Frequência é o que transforma um tema em identidade",
+          "rules": "Um tema que aparece de vez em quando se lê como coincidência. Suba a densidade até ele ser inevitável no uso normal, e acrescente uma mecânica que o referencie para o tema ter trabalho mecânico.",
+          "flavor": "O tema lendário de Kamigawa fracassou. Dominaria subiu o as-fan de criaturas lendárias, pôs uma em cada booster, e acrescentou histórico. “Histórico teve céticos no começo… depois entenderam que era a cola.”"
+        },
+        {
+          "title": "Uma regra e o comportamento que ela produz podem ser inversos",
+          "rules": "Olhe para onde a restrição empurra as pessoas, não do que ela é feita. Uma restrição que nomeia uma coisa frequentemente leva todo mundo para a outra.",
+          "flavor": "Os parceiros de Battlebond são de cores inimigas. “Fazer os parceiros inimigos parece deixar a coleção mais inimiga, mas na real deixa a coleção inteira sobre jogar decks de cores aliadas.”"
+        },
+        {
+          "title": "Construa a rampa de entrada primeiro e deixe o trabalho principal absorvê-la",
+          "rules": "Material para iniciantes montado depois fica limitado ao que a coisa pronta por acaso contém. Construa-o primeiro e o trabalho principal poderá fornecer exatamente o que ele precisa.",
+          "flavor": "Welcome Decks, decks de planeswalker e o Deck Builder's Toolkit eram feitos depois da coleção básica. Core Set 2019 os fez primeiro e então incorporou as cartas necessárias. “A melhor linha para iniciantes que já fizemos.”"
+        },
+        {
+          "title": "Profundidade escondida não é troca contra acessibilidade",
+          "rules": "Profundidade e simplicidade só competem quando a profundidade é visível. Complexidade que um recém-chegado nunca precisa notar não custa nada a ele e premia quem um dia enxergá-la.",
+          "flavor": "Rosewater chama isso de design lenticular. Core Set 2019 usou um pouco, e o pedido para as próximas coleções básicas é mais: “jeitos de acrescentar profundidade sem subir a complexidade para os iniciantes”."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "2018设计年检",
+      "dek": "第十四次年度自评，也是从中间裂开的一次：开头是《伊克撒兰》的一连串失足，结尾是《多明纳里亚》和新流程。",
+      "overview": "这一年，万智牌把「设计／开发」换成了愿景设计、系列设计和对局设计，并且放弃了环境制，改为三个各自独立轮抽的大型系列外加一个核心系列。罗斯瓦特这次点评了每一款含新牌的补充包产品，而不只是标准可用的那些。",
+      "takeaway": "一个过渡之年，平均下来「比好稍微好一点」——「旧的方式告了个不太体面的别，而新的方式则是大胆登场。」",
+      "lessons": [
+        {
+          "title": "更早地把人拉进来，你扔掉的东西就更少",
+          "rules": "两个阶段之间的交接，会把接收方用不上的东西全部丢弃。切成更多的阶段、并且每个阶段都让相关方在场，听起来是反直觉的，但它减少的是总浪费量。",
+          "flavor": "设计与开发变成了愿景设计、系列设计和对局设计。「我真的无法低估这对做牌流程是多大的改进。」而且这份收益适用于此后的每一个系列。"
+        },
+        {
+          "title": "把流程调顺，并不免除你去推边界的义务",
+          "rules": "修好「你怎么工作」和拓宽「你能做出什么」，是两项不同的义务；而前者是那个做的时候会让人觉得在进步的。两个都要排进日程。",
+          "flavor": "英雄传纪、「探索」型双面牌、装置、宿主／增幅，还有《Battlebond》的整个概念——都在同一年里。「作为这个游戏的创造者，我们的工作就是不断给你们带来意外。」"
+        },
+        {
+          "title": "预期的落差住在作品里，而不只在宣传里",
+          "rules": "当交付出来的东西和人们等待的东西对不上时，最省事的解读是「传播失败」。其中一部分确实是——另一部分则是：东西本身没有兑现它自己打出的那个前提。",
+          "flavor": "《伊克撒兰》的热度爆表：恐龙、海盗、征服者吸血鬼。「我们在兑现粉丝的期待这件事上做得够好吗？（我会说，没有。）」"
+        },
+        {
+          "title": "这个问题你可能已经解过一次了——去翻一翻",
+          "rules": "一个领域里最难的那些问题是会复发的，而你自己的旧作是找到答案最便宜的地方。没去查，比不知道更糟。",
+          "flavor": "《伊克撒兰》的各个部族无法互相搭配，于是两色阵营打起来很重复。而罗斯瓦特当年在《罗温》里发明变形兽，针对的正是这个问题。「这说明我本来应该更清楚才对。」"
+        },
+        {
+          "title": "在买下不对称之前，先把它的价格算出来",
+          "rules": "不均等的构件有时候是对的选择，但账单会从你没有做预算的地方寄来。先把下游的成本一条条列出来，然后再决定。",
+          "flavor": "《伊克撒兰》3/3/2/2 的部族划分有充分的理由。它同时也带来了平衡问题，让轮抽循环既难做又难解释，还把玩家推向三色——而在这个系列里，三色根本不是限制赛的主题。"
+        },
+        {
+          "title": "照着人们真实会做的事去设计，而不是你希望他们做的事",
+          "rules": "一个建立在「你的受众已经反复拒绝采纳」的行为之上的产品，会以同样的方式一次次失败。把观察到的行为直接当成需求。",
+          "flavor": "《Unglued》和《Unhinged》做出来是要混进黑框限制赛里的，而玩家从来没这么干过。《Unstable》则是为了单独轮抽而建的——更寄生，但轮抽体验拿到了高分。"
+        },
+        {
+          "title": "惊喜也仍然需要一份索引",
+          "rules": "把信息藏起来，是制造惊喜的正当手段。但把「事后辨认你到底拿到了哪一个」的手段也藏起来，就不属于这个戏法的一部分了——从一开始就把查询方式做进去。",
+          "flavor": "《Unstable》的变体牌是个好主意，临上市前才揭晓也很有趣。但不给玩家任何办法分辨哪张是哪个变体，就不有趣了。「我会把变体信息放进收藏编号里。」"
+        },
+        {
+          "title": "把主题变成身份的，是密度",
+          "rules": "一个偶尔出现的主题，读起来像巧合。把密度提高到「在正常使用中避不开」，再加一个引用它的异能，让这个主题有机制上的活要干。",
+          "flavor": "神河的传奇主题失败了。《多明纳里亚》提高了传奇生物的密度，让每包补充包里都有一张，还加了史迹。「史迹早期有些人怀疑……后来大家开始明白它才是把一切黏住的胶。」"
+        },
+        {
+          "title": "一条规则和它产生的行为，可能是互为反面的",
+          "rules": "去看这条约束把人推向哪里，而不是它由什么构成。一条点名了某样东西的限制，往往会把所有人赶去另一样。",
+          "flavor": "《Battlebond》的搭档是敌对色。「让搭档是敌对色，听上去像是让这个系列更偏敌对色，但实际上，它让整个系列变成了在打友好色套牌。」"
+        },
+        {
+          "title": "先造入口坡道，让主体作品去迁就它",
+          "rules": "事后拼凑出来的新手材料，只能局限于成品碰巧含有的那些东西。反过来先造它们，主体作品就能精确地供给它们所需要的。",
+          "flavor": "欢迎套牌、鹏洛客套牌和构组工具箱，过去都是在核心系列建完之后才做。《基础系列2019》先做了它们，再把必需的牌纳入系列。「我们做过的最好的一套新手产品。」"
+        },
+        {
+          "title": "藏起来的深度，并不是拿易上手换来的",
+          "rules": "只有当深度是看得见的时候，深度和简洁才互相竞争。一份新手从来不必注意到的复杂度，对他不构成任何成本，而又奖励了那个终有一天看见它的人。",
+          "flavor": "罗斯瓦特把这叫作透镜式设计。《基础系列2019》用了一些，而他对未来核心系列的要求是再多一点：「在不给新手增加复杂度的前提下，往系列里加更多深度的办法。」"
+        }
+      ]
+    }
+  }
+}
