@@ -1,0 +1,320 @@
+{
+  "id": "finding-one-part-2-2013-11-22",
+  "slug": "finding-one-part-2-2013-11-22",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-11-22",
+  "series": { "id": "finding-the-one", "order": 2, "total": 2 },
+  "tags": ["personal", "mechanics", "design-story", "design-space"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/finding-one-part-2-2013-11-22",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "G" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Finding the One, Part 2",
+      "dek": "Fifth Dawn, Ravnica, Future Sight and Shadowmoor — and the rest of the story, including the rejection that turned out to be about the movie.",
+      "overview": "The second half continues the alternation, and the design sections get better as the constraints get worse. Fifth Dawn had to follow two sets that had broken the format and left almost nothing legal; Ravnica needed a graveyard mechanic after forty had been tried and rejected; Future Sight needed cards that felt like the future without containing anything new. Each of those was solved by a specific manoeuvre, and Rosewater names all three. The personal thread reaches the proposal, by way of a rejection he badly misread and a decision to trust an instinct that had failed him catastrophically six months earlier.",
+      "takeaway": "Every design story here starts from a position that looks unworkable, and the way out is never more effort at the original question. It is a corner that forces a different answer, a reframing that makes the brain treat it as a new problem, or an old solved problem whose constraint had the same shape as this one.",
+      "lessons": [
+        {
+          "title": "The corner your predecessors left you in produces the answer you would never have reached",
+          "rules": "By the third set, the two before it had broken enough things that most of the obvious moves were forbidden — the marquee mechanic could exist but must not be good, the theme was in place but they were told not to lean on it. Boxed in on every side, the team accepted a proposal that inverted the block's whole premise, and it became the backbone of the set. Rosewater's own assessment is that they would probably never have got there otherwise. A position with no good conventional moves is uncomfortable and is also the only reliable way to be forced off the conventional ones.",
+          "flavor": "It was the artifacts-matter block, and one of our notes was \"don't make artifacts matter too much.\""
+        },
+        {
+          "title": "Train yourself to answer a strange-sounding proposal with \"tell me more\"",
+          "rules": "Someone walked in with a suggestion that, stated flatly, contradicted the entire premise of the set. The learned response — arrived at, he says, after years of doing this — was not to evaluate it but to ask for more. Two sentences later it was obviously right, and it became the set's central mechanic. The reason this needs to be a trained reflex is that the natural response to a proposal that sounds wrong is to explain why, and the explanation is usually correct about the summary and wrong about the idea. Buy the extra thirty seconds by default.",
+          "flavor": "\"What if Fifth Dawn cared about colour?\" The proper response is: \"Tell me more.\""
+        },
+        {
+          "title": "Assume the space is there, and carve away what does not work",
+          "rules": "Forty candidates tried and rejected in one narrow area, with nothing to show. The philosophical fit was so good that he refused to relocate the search, and he describes the working assumption he uses in that situation: that the thing exists inside the material and the job is to remove what is not it. This is a stance rather than a technique, and its value is that it changes what a failed attempt means. Under it, forty rejections are forty pieces of stone removed rather than forty pieces of evidence that the statue is not in there.",
+          "flavor": "Michelangelo believed the sculpture was already in the marble. His job was carving away the rest."
+        },
+        {
+          "title": "Index your solved problems by the shape of the constraint, not by their subject",
+          "rules": "Needing cards that would feel like the future while containing nothing new, he recognised the shape: years earlier he had been told he could make cards for an event as long as none of them was usable in a normal release, and had solved it by combining two mechanics from different eras on one card. Different subject, same constraint — make something novel out of exclusively old parts — and the same answer worked. Your history of solutions is only searchable if you have stored them by what made them hard. Stored by topic, they are invisible from the next problem.",
+          "flavor": "I solved my present problem by looking back at an old problem that had the same shape."
+        },
+        {
+          "title": "When the result is the reverse of your intent, look for the project where the reverse is the intent",
+          "rules": "He introduced a counter type to make combat feel less lethal, and testing showed it made combat feel more lethal, because the damage no longer healed. That is a failed experiment for this project and a finding for another one. The counters, and a mechanic built on them, were moved to the set whose stated purpose was to be more dangerous than normal, where they worked immediately. Before discarding something that produced the opposite of what you wanted, check your portfolio for whoever wants the opposite.",
+          "flavor": "\"Well, I guess we'll save -1/-1 counters for Shadowmoor.\""
+        },
+        {
+          "title": "Ask what the component should convey in this particular world, then design to that answer",
+          "rules": "Wanting a second mechanic built on the same counters, he did not start from what the counters could mechanically do. He started from the question of what they were supposed to mean here — and since this world was the dark mirror of the last one, and the last one was less dangerous than normal, this one had to be more so. That produced a brief with actual content: creatures that fight dirty and leave you permanently worse off. Deriving the mechanic from the required meaning gives you something to judge candidates against.",
+          "flavor": "The earliest concept of wither was meanness."
+        },
+        {
+          "title": "Check what was actually declined before you treat it as a verdict",
+          "rules": "He asked her to a specific film, she said no, and he spent weeks reading it as a rejection of him. It was only when the subject came up again in conversation — she had not wanted to see that film, was not interested in that kind of film — that he understood what had been declined. The general failure is real and common: a no arrives attached to a specific proposal, and the recipient generalises it to the whole question without checking. Before you conclude what the answer means, establish precisely what was asked.",
+          "flavor": "She had turned down the movie. She rejected the movie!"
+        },
+        {
+          "title": "An instinct that failed once is not thereby retired",
+          "rules": "Six months earlier the same feeling in the same circumstances had produced a disaster that cost him a friendship. Standing in the same position again, he ran the argument out explicitly: prior events demonstrate this is a bad idea, versus the potential on the other side is worth the risk. He is honest that the reasoning against was sound and that he went the other way anyway. The general point is narrow but real — a single bad outcome establishes that a heuristic can fail, not the rate at which it does, and one data point is not enough to retire something.",
+          "flavor": "Intellect: prior events have clearly demonstrated that this is a bad idea. Emotion: do it."
+        },
+        {
+          "title": "What someone spends where nobody is watching is the measure of the investment",
+          "rules": "She organised a surprise party for him — a real one, with a venue and a DJ and everyone he knew. He found out much later that she had almost no money at the time and had gone without meals for months to pay for it. The visible artifact was the party; the actual signal was a cost paid in private and never mentioned. Stated commitment is cheap and abundant. Look instead for what was quietly given up, which is usually only discoverable afterwards and by accident.",
+          "flavor": "That's when I first realised how invested she was."
+        },
+        {
+          "title": "The constraint someone downstream adds can make your thing better than you made it",
+          "rules": "The mechanic as designed simply let you draw a card from the graveyard instead of from your library. Development added a cost — a chunk of your library gone each time — and Rosewater's assessment is that the addition probably made the mechanic stronger, not merely safer. Worth recording, because the expected story is that the later stage sands off what the earlier one built. Sometimes the person constrained by having to make it survive contact finds the version that should have existed.",
+          "flavor": "The milling cost was added by development, and it probably made the mechanic better."
+        }
+      ]
+    },
+    "es": {
+      "title": "Encontrar a la indicada, parte 2",
+      "dek": "Quinto amanecer, Ravnica, Visión del futuro y Shadowmoor, y el resto de la historia, incluido el rechazo que resultó ser a la película.",
+      "overview": "La segunda mitad continúa la alternancia, y las secciones de diseño mejoran a medida que empeoran las restricciones. Quinto amanecer tenía que seguir a dos colecciones que habían roto el formato y no dejaban casi nada permitido; Ravnica necesitaba una mecánica de cementerio después de probar y descartar cuarenta; Visión del futuro necesitaba cartas que se sintieran futuras sin contener nada nuevo. Cada una se resolvió con una maniobra concreta, y Rosewater nombra las tres. El hilo personal llega hasta la petición de mano, pasando por un rechazo que malinterpretó gravemente y la decisión de fiarse de un instinto que seis meses antes le había salido catastróficamente mal.",
+      "takeaway": "Todas las historias de diseño de aquí parten de una posición que parece impracticable, y la salida nunca es más esfuerzo sobre la pregunta original. Es un rincón que obliga a otra respuesta, un replanteamiento que hace al cerebro tratarlo como problema nuevo, o un problema viejo ya resuelto cuya restricción tenía la misma forma.",
+      "lessons": [
+        {
+          "title": "El rincón en que te dejaron tus predecesores produce la respuesta a la que nunca habrías llegado",
+          "rules": "Para la tercera colección, las dos anteriores habían roto lo bastante como para que la mayoría de los movimientos obvios estuvieran prohibidos: la mecánica estrella podía existir pero no debía ser buena; el tema estaba ahí, pero les dijeron que no se apoyaran en él. Acorralados por todos lados, el equipo aceptó una propuesta que invertía la premisa entera del bloque, y se convirtió en la columna vertebral de la colección. El propio Rosewater estima que probablemente nunca habrían llegado ahí de otro modo. Una posición sin buenos movimientos convencionales es incómoda y es también la única forma fiable de verse empujado fuera de ellos.",
+          "flavor": "Era el bloque de «los artefactos importan», y una de nuestras notas era «que los artefactos no importen demasiado»."
+        },
+        {
+          "title": "Entrénate para responder a una propuesta que suene rara con «cuéntame más»",
+          "rules": "Alguien entró con una sugerencia que, dicha en seco, contradecía toda la premisa de la colección. La respuesta aprendida — a la que llegó, dice, tras años haciendo esto — no fue evaluarla, sino pedir más. Dos frases después era obviamente correcta y se convirtió en la mecánica central. La razón de que esto tenga que ser un reflejo entrenado es que la reacción natural ante una propuesta que suena mal es explicar por qué, y la explicación suele acertar sobre el resumen y errar sobre la idea. Cómprate esos treinta segundos de más por defecto.",
+          "flavor": "«¿Y si a Quinto amanecer le importaran los colores?» La respuesta correcta es: «Cuéntame más»."
+        },
+        {
+          "title": "Da por hecho que el espacio está ahí y quita lo que no funciona",
+          "rules": "Cuarenta candidatos probados y descartados en un área estrecha, sin nada que enseñar. El encaje filosófico era tan bueno que se negó a mover la búsqueda, y describe el supuesto de trabajo que usa en esa situación: que la cosa existe dentro del material y el trabajo consiste en quitar lo que no es ella. Es una postura más que una técnica, y su valor está en que cambia lo que significa un intento fallido. Bajo ella, cuarenta rechazos son cuarenta trozos de piedra retirados y no cuarenta pruebas de que la estatua no está dentro.",
+          "flavor": "Miguel Ángel creía que la escultura ya estaba en el mármol. Su trabajo era quitar el resto."
+        },
+        {
+          "title": "Indexa tus problemas resueltos por la forma de la restricción, no por su tema",
+          "rules": "Necesitando cartas que se sintieran futuras sin contener nada nuevo, reconoció la forma: años antes le habían dicho que podía hacer cartas para un evento siempre que ninguna fuera utilizable en un lanzamiento normal, y lo había resuelto combinando en una carta dos mecánicas de épocas distintas. Otro tema, la misma restricción — hacer algo novedoso exclusivamente con piezas viejas — y funcionó la misma respuesta. Tu historial de soluciones solo es buscable si las has guardado por lo que las hacía difíciles. Guardadas por tema, son invisibles desde el problema siguiente.",
+          "flavor": "Resolví mi problema presente mirando atrás a un problema viejo que tenía la misma forma."
+        },
+        {
+          "title": "Cuando el resultado es el contrario de tu intención, busca el proyecto donde lo contrario es la intención",
+          "rules": "Introdujo un tipo de contador para que el combate se sintiera menos letal, y las pruebas mostraron que lo hacía sentir más letal, porque el daño ya no se curaba. Eso es un experimento fallido para este proyecto y un hallazgo para otro. Los contadores, y una mecánica construida sobre ellos, se trasladaron a la colección cuyo propósito declarado era resultar más peligrosa de lo normal, donde funcionaron de inmediato. Antes de descartar algo que produjo lo contrario de lo que querías, revisa tu cartera por si alguien quiere justo lo contrario.",
+          "flavor": "«Bueno, supongo que guardaremos los contadores -1/-1 para Shadowmoor.»"
+        },
+        {
+          "title": "Pregunta qué debe transmitir el componente en este mundo concreto y diseña hacia esa respuesta",
+          "rules": "Queriendo una segunda mecánica construida sobre los mismos contadores, no partió de lo que los contadores podían hacer mecánicamente. Partió de la pregunta de qué debían significar aquí: y como este mundo era el reflejo oscuro del anterior, y el anterior era menos peligroso de lo normal, este tenía que serlo más. Eso produjo un encargo con contenido real: criaturas que pelean sucio y te dejan peor para siempre. Derivar la mecánica del significado exigido te da algo contra lo que juzgar a los candidatos.",
+          "flavor": "El concepto más temprano de marchitar era la mala baba."
+        },
+        {
+          "title": "Comprueba qué se rechazó de verdad antes de tratarlo como un veredicto",
+          "rules": "La invitó a una película concreta, ella dijo que no, y él pasó semanas leyéndolo como un rechazo hacia él. Solo cuando el tema volvió a salir en una conversación — no había querido ver esa película, no le interesaba ese tipo de película — entendió qué se había rechazado. El fallo general es real y común: un no llega pegado a una propuesta concreta y quien lo recibe lo generaliza a toda la cuestión sin comprobarlo. Antes de concluir qué significa la respuesta, establece con precisión qué se preguntó.",
+          "flavor": "Había rechazado la película. ¡Rechazó la película!"
+        },
+        {
+          "title": "Un instinto que falló una vez no queda por ello jubilado",
+          "rules": "Seis meses antes, la misma sensación en las mismas circunstancias había producido un desastre que le costó una amistad. De pie en la misma posición otra vez, desplegó el argumento explícitamente: los hechos previos demuestran que esto es mala idea, frente a que el potencial del otro lado merece el riesgo. Es honesto al reconocer que el razonamiento en contra era sólido y que aun así fue en la otra dirección. El punto general es estrecho pero real: un único mal resultado establece que una heurística puede fallar, no con qué frecuencia lo hace, y un dato no basta para jubilar nada.",
+          "flavor": "Intelecto: los hechos previos demuestran claramente que esto es mala idea. Emoción: hazlo."
+        },
+        {
+          "title": "Lo que alguien gasta donde nadie mira es la medida de la inversión",
+          "rules": "Ella le organizó una fiesta sorpresa, de las de verdad, con local, DJ y todos sus conocidos. Él se enteró mucho después de que ella apenas tenía dinero entonces y se había saltado comidas durante meses para pagarla. El artefacto visible era la fiesta; la señal auténtica era un coste pagado en privado y nunca mencionado. El compromiso declarado es barato y abundante. Busca en su lugar lo que se sacrificó en silencio, que normalmente solo se descubre después y por casualidad.",
+          "flavor": "Ahí fue cuando me di cuenta por primera vez de lo implicada que estaba."
+        },
+        {
+          "title": "La restricción que añade alguien más abajo puede dejar tu cosa mejor de como la hiciste",
+          "rules": "La mecánica, tal como se diseñó, simplemente te dejaba robar una carta del cementerio en vez de la biblioteca. Desarrollo añadió un coste — un pedazo de tu biblioteca fuera cada vez — y la valoración de Rosewater es que la adición probablemente hizo la mecánica más fuerte, y no solo más segura. Merece la pena anotarlo, porque la historia esperada es que la fase posterior lima lo que construyó la anterior. A veces, quien está obligado a hacer que aquello sobreviva al contacto encuentra la versión que debería haber existido.",
+          "flavor": "El coste de molienda lo añadió desarrollo, y probablemente mejoró la mecánica."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Trouver la bonne, partie 2",
+      "dek": "Cinquième aube, Ravnica, Vision d'avenir et Shadowmoor — et la suite de l'histoire, y compris le refus qui portait en fait sur le film.",
+      "overview": "La seconde moitié poursuit l'alternance, et les sections de conception s'améliorent à mesure que les contraintes empirent. Cinquième aube devait suivre deux extensions qui avaient cassé le format et ne laissaient presque rien d'autorisé ; Ravnica avait besoin d'une mécanique de cimetière après quarante essais rejetés ; Vision d'avenir avait besoin de cartes évoquant le futur sans rien contenir de neuf. Chacune a été résolue par une manœuvre précise, et Rosewater les nomme toutes les trois. Le fil personnel atteint la demande en mariage, en passant par un refus qu'il a très mal lu et la décision de se fier à un instinct qui l'avait catastrophiquement trahi six mois plus tôt.",
+      "takeaway": "Chaque histoire de conception ici part d'une position qui paraît intenable, et la sortie n'est jamais plus d'effort sur la question de départ. C'est un coin qui force une autre réponse, une reformulation qui fait traiter le problème comme neuf, ou un vieux problème résolu dont la contrainte avait la même forme.",
+      "lessons": [
+        {
+          "title": "Le coin où vos prédécesseurs vous ont laissé produit la réponse que vous n'auriez jamais atteinte",
+          "rules": "À la troisième extension, les deux précédentes avaient cassé assez de choses pour que la plupart des coups évidents soient interdits : la mécanique-phare pouvait exister mais ne devait pas être bonne, le thème était là mais on leur avait dit de ne pas s'appuyer dessus. Coincée de tous côtés, l'équipe a accepté une proposition qui inversait toute la prémisse du bloc, et c'est devenu l'ossature de l'extension. Rosewater estime lui-même qu'ils n'y seraient probablement jamais arrivés autrement. Une position sans bon coup conventionnel est inconfortable et c'est aussi le seul moyen fiable d'en être délogé.",
+          "flavor": "C'était le bloc « les artefacts comptent », et l'une de nos consignes était « ne faites pas trop compter les artefacts »."
+        },
+        {
+          "title": "Entraînez-vous à répondre « dis-m'en plus » à une proposition qui sonne bizarre",
+          "rules": "Quelqu'un est arrivé avec une suggestion qui, énoncée sèchement, contredisait toute la prémisse de l'extension. La réponse apprise — acquise, dit-il, après des années de métier — n'a pas été de l'évaluer mais d'en demander davantage. Deux phrases plus tard elle était manifestement juste, et elle est devenue la mécanique centrale. Si cela doit être un réflexe entraîné, c'est que la réaction naturelle à une proposition qui sonne mal est d'expliquer pourquoi, et l'explication a d'ordinaire raison sur le résumé et tort sur l'idée. Achetez les trente secondes supplémentaires par défaut.",
+          "flavor": "« Et si Cinquième aube se souciait des couleurs ? » La bonne réponse est : « Dis-m'en plus. »"
+        },
+        {
+          "title": "Postulez que l'espace est là, et retirez ce qui ne marche pas",
+          "rules": "Quarante candidats essayés et rejetés dans un domaine étroit, sans rien à montrer. L'adéquation philosophique était si bonne qu'il a refusé de déplacer la recherche, et il décrit l'hypothèse de travail qu'il emploie alors : la chose existe dans le matériau et le travail consiste à ôter ce qui n'est pas elle. C'est une posture plus qu'une technique, et sa valeur est de changer ce que signifie un essai raté. Sous elle, quarante rejets sont quarante morceaux de pierre enlevés, et non quarante preuves que la statue n'y est pas.",
+          "flavor": "Michel-Ange croyait que la sculpture était déjà dans le marbre. Son travail était d'ôter le reste."
+        },
+        {
+          "title": "Indexez vos problèmes résolus par la forme de la contrainte, non par leur sujet",
+          "rules": "Ayant besoin de cartes évoquant l'avenir sans rien contenir de neuf, il a reconnu la forme : des années plus tôt on lui avait dit qu'il pouvait fabriquer des cartes pour un événement à condition qu'aucune ne soit utilisable dans une sortie normale, et il l'avait résolu en combinant sur une carte deux mécaniques d'époques différentes. Autre sujet, même contrainte — faire du neuf uniquement avec des pièces anciennes — et la même réponse a marché. Votre historique de solutions n'est consultable que si vous les avez rangées selon ce qui les rendait difficiles. Rangées par thème, elles sont invisibles depuis le problème suivant.",
+          "flavor": "J'ai résolu mon problème présent en revenant à un vieux problème de même forme."
+        },
+        {
+          "title": "Quand le résultat est l'inverse de votre intention, cherchez le projet dont l'intention est cet inverse",
+          "rules": "Il a introduit un type de marqueur pour rendre le combat moins létal, et les tests ont montré qu'il le rendait plus létal, puisque les dégâts ne se soignaient plus. C'est une expérience ratée pour ce projet et un résultat pour un autre. Les marqueurs, et une mécanique bâtie dessus, ont été déplacés vers l'extension dont le but déclaré était d'être plus dangereuse que la normale, où ils ont marché immédiatement. Avant de jeter une chose qui a produit l'inverse de ce que vous vouliez, vérifiez dans votre portefeuille qui veut l'inverse.",
+          "flavor": "« Bon, je suppose qu'on garde les marqueurs -1/-1 pour Shadowmoor. »"
+        },
+        {
+          "title": "Demandez ce que le composant doit signifier dans ce monde-ci, puis concevez vers cette réponse",
+          "rules": "Voulant une seconde mécanique bâtie sur les mêmes marqueurs, il n'est pas parti de ce que les marqueurs pouvaient faire mécaniquement. Il est parti de la question de ce qu'ils devaient vouloir dire ici — et puisque ce monde était le reflet sombre du précédent, et que le précédent était moins dangereux que la normale, celui-ci devait l'être davantage. Cela a produit une commande au contenu réel : des créatures qui se battent salement et vous laissent durablement diminué. Dériver la mécanique du sens exigé vous donne de quoi juger les candidats.",
+          "flavor": "Le tout premier concept du flétrissement, c'était la méchanceté."
+        },
+        {
+          "title": "Vérifiez ce qui a réellement été refusé avant d'y voir un verdict",
+          "rules": "Il l'a invitée à un film précis, elle a dit non, et il a passé des semaines à lire cela comme un rejet de sa personne. C'est seulement quand le sujet est revenu dans une conversation — elle n'avait pas voulu voir ce film, ce genre de film ne l'intéressait pas — qu'il a compris ce qui avait été refusé. L'erreur générale est réelle et courante : un non arrive attaché à une proposition précise, et le destinataire le généralise à toute la question sans vérifier. Avant de conclure sur le sens de la réponse, établissez précisément ce qui a été demandé.",
+          "flavor": "Elle avait refusé le film. Elle a rejeté le film !"
+        },
+        {
+          "title": "Un instinct qui a échoué une fois n'est pas pour autant mis à la retraite",
+          "rules": "Six mois plus tôt, la même sensation dans les mêmes circonstances avait produit un désastre qui lui avait coûté une amitié. Se retrouvant dans la même position, il a déroulé l'argument explicitement : les faits antérieurs démontrent que c'est une mauvaise idée, contre le potentiel de l'autre côté vaut le risque. Il reconnaît honnêtement que le raisonnement contraire était solide et qu'il est allé dans l'autre sens quand même. Le point général est étroit mais réel : un seul mauvais résultat établit qu'une heuristique peut échouer, non le taux auquel elle le fait, et une donnée ne suffit pas à la retirer.",
+          "flavor": "Intellect : les faits antérieurs démontrent clairement que c'est une mauvaise idée. Émotion : fais-le."
+        },
+        {
+          "title": "Ce que quelqu'un dépense là où personne ne regarde est la mesure de l'engagement",
+          "rules": "Elle lui a organisé une fête surprise — une vraie, avec un lieu, un DJ et tous ses proches. Il a appris bien plus tard qu'elle n'avait presque pas d'argent à l'époque et s'était privée de repas pendant des mois pour la payer. L'objet visible était la fête ; le vrai signal était un coût payé en privé et jamais mentionné. L'engagement déclaré est bon marché et abondant. Cherchez plutôt ce qui a été discrètement sacrifié, ce qui ne se découvre en général qu'après coup et par hasard.",
+          "flavor": "C'est là que j'ai compris pour la première fois à quel point elle était investie."
+        },
+        {
+          "title": "La contrainte ajoutée en aval peut rendre votre chose meilleure que vous ne l'aviez faite",
+          "rules": "La mécanique telle que conçue vous laissait simplement piocher une carte dans le cimetière plutôt que dans la bibliothèque. Le développement a ajouté un coût — un morceau de bibliothèque perdu à chaque fois — et l'appréciation de Rosewater est que cet ajout a probablement rendu la mécanique plus forte, et pas seulement plus sûre. Cela vaut d'être noté, car le récit attendu est que l'étape suivante rabote ce que la précédente a bâti. Parfois, celui qui est contraint de la faire survivre au contact trouve la version qui aurait dû exister.",
+          "flavor": "Le coût de meule a été ajouté par le développement, et il a probablement amélioré la mécanique."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Encontrando a pessoa certa, parte 2",
+      "dek": "Quinto amanhecer, Ravnica, Visão do futuro e Shadowmoor — e o resto da história, incluindo a rejeição que na verdade era ao filme.",
+      "overview": "A segunda metade continua a alternância, e as seções de design melhoram conforme as restrições pioram. Quinto amanhecer tinha de seguir duas coleções que haviam quebrado o formato e não deixavam quase nada permitido; Ravnica precisava de uma mecânica de cemitério depois de quarenta tentativas rejeitadas; Visão do futuro precisava de cartas que parecessem o futuro sem conter nada novo. Cada uma foi resolvida por uma manobra específica, e Rosewater nomeia as três. O fio pessoal chega ao pedido de casamento, passando por uma rejeição que ele leu muito mal e pela decisão de confiar num instinto que seis meses antes lhe saíra catastroficamente errado.",
+      "takeaway": "Toda história de design aqui parte de uma posição que parece inviável, e a saída nunca é mais esforço na pergunta original. É um canto que força outra resposta, um reenquadramento que faz o cérebro tratar aquilo como problema novo, ou um problema antigo já resolvido cuja restrição tinha o mesmo formato.",
+      "lessons": [
+        {
+          "title": "O canto em que seus antecessores o deixaram produz a resposta que você nunca teria alcançado",
+          "rules": "Na terceira coleção, as duas anteriores tinham quebrado o bastante para que a maioria dos movimentos óbvios estivesse proibida: a mecânica-estrela podia existir mas não devia ser boa, o tema estava lá mas mandaram não se apoiar nele. Encurralada por todos os lados, a equipe aceitou uma proposta que invertia a premissa inteira do bloco, e ela virou a espinha dorsal da coleção. O próprio Rosewater avalia que provavelmente nunca teriam chegado lá de outro jeito. Uma posição sem bons movimentos convencionais é desconfortável e é também o único jeito confiável de ser expulso deles.",
+          "flavor": "Era o bloco de \"artefatos importam\", e uma das nossas notas era \"não faça artefatos importarem demais\"."
+        },
+        {
+          "title": "Treine-se para responder a uma proposta que soa estranha com \"me conta mais\"",
+          "rules": "Alguém entrou com uma sugestão que, dita a seco, contradizia a premissa inteira da coleção. A resposta aprendida — a que ele chegou, diz, depois de anos fazendo isso — não foi avaliá-la, e sim pedir mais. Duas frases depois ela era obviamente certa, e virou a mecânica central. O motivo de isso precisar ser um reflexo treinado é que a reação natural a uma proposta que soa errada é explicar por quê, e a explicação em geral acerta sobre o resumo e erra sobre a ideia. Compre os trinta segundos extras por padrão.",
+          "flavor": "\"E se Quinto amanhecer se importasse com cor?\" A resposta certa é: \"Me conta mais.\""
+        },
+        {
+          "title": "Assuma que o espaço está lá e retire o que não funciona",
+          "rules": "Quarenta candidatos testados e rejeitados numa área estreita, sem nada a mostrar. O encaixe filosófico era tão bom que ele se recusou a mudar a busca de lugar, e descreve a suposição de trabalho que usa nessa situação: a coisa existe dentro do material e o trabalho é remover o que não é ela. É uma postura mais que uma técnica, e o valor dela é mudar o que significa uma tentativa fracassada. Sob ela, quarenta rejeições são quarenta pedaços de pedra retirados, e não quarenta provas de que a estátua não está ali.",
+          "flavor": "Michelangelo acreditava que a escultura já estava no mármore. O trabalho dele era retirar o resto."
+        },
+        {
+          "title": "Indexe seus problemas resolvidos pelo formato da restrição, não pelo assunto",
+          "rules": "Precisando de cartas que parecessem o futuro sem conter nada novo, ele reconheceu o formato: anos antes lhe haviam dito que podia fazer cartas para um evento desde que nenhuma fosse usável num lançamento normal, e ele resolveu isso combinando numa carta duas mecânicas de épocas diferentes. Assunto diferente, mesma restrição — fazer algo novo exclusivamente com peças velhas — e a mesma resposta funcionou. Seu histórico de soluções só é pesquisável se você as guardou pelo que as tornava difíceis. Guardadas por tópico, ficam invisíveis a partir do próximo problema.",
+          "flavor": "Resolvi meu problema presente olhando para trás, para um problema antigo com o mesmo formato."
+        },
+        {
+          "title": "Quando o resultado é o inverso da sua intenção, procure o projeto em que o inverso é a intenção",
+          "rules": "Ele introduziu um tipo de marcador para o combate parecer menos letal, e os testes mostraram que ficou mais letal, porque o dano não se curava mais. Isso é um experimento fracassado para este projeto e um achado para outro. Os marcadores, e uma mecânica construída sobre eles, foram movidos para a coleção cujo propósito declarado era ser mais perigosa que o normal, onde funcionaram na hora. Antes de descartar algo que produziu o oposto do que você queria, confira no seu portfólio quem quer o oposto.",
+          "flavor": "\"Bem, acho que vamos guardar os marcadores -1/-1 para Shadowmoor.\""
+        },
+        {
+          "title": "Pergunte o que o componente deve transmitir neste mundo específico e projete rumo a essa resposta",
+          "rules": "Querendo uma segunda mecânica construída sobre os mesmos marcadores, ele não partiu do que os marcadores podiam fazer mecanicamente. Partiu da pergunta sobre o que deveriam significar ali — e, como esse mundo era o reflexo sombrio do anterior, e o anterior era menos perigoso que o normal, este tinha de ser mais. Isso produziu um briefing com conteúdo real: criaturas que brigam sujo e deixam você permanentemente pior. Derivar a mecânica do significado exigido dá a você algo contra o que julgar os candidatos.",
+          "flavor": "O conceito mais antigo de definhar era maldade."
+        },
+        {
+          "title": "Verifique o que de fato foi recusado antes de tratar aquilo como veredicto",
+          "rules": "Ele a convidou para um filme específico, ela disse não, e ele passou semanas lendo aquilo como uma rejeição a ele. Só quando o assunto voltou numa conversa — ela não tinha querido ver aquele filme, não se interessava por aquele tipo de filme — é que ele entendeu o que havia sido recusado. A falha geral é real e comum: um não chega grudado numa proposta específica, e quem recebe generaliza para a questão inteira sem conferir. Antes de concluir o que a resposta significa, estabeleça com precisão o que foi perguntado.",
+          "flavor": "Ela tinha recusado o filme. Ela rejeitou o filme!"
+        },
+        {
+          "title": "Um instinto que falhou uma vez não fica por isso aposentado",
+          "rules": "Seis meses antes, a mesma sensação nas mesmas circunstâncias tinha produzido um desastre que lhe custou uma amizade. De pé na mesma posição outra vez, ele desdobrou o argumento explicitamente: os fatos anteriores demonstram que isto é má ideia, contra o potencial do outro lado vale o risco. Ele é honesto ao reconhecer que o raciocínio contrário era sólido e que mesmo assim foi para o outro lado. O ponto geral é estreito mas real: um único mau resultado estabelece que uma heurística pode falhar, não a taxa em que falha, e um dado só não basta para aposentar nada.",
+          "flavor": "Intelecto: os fatos anteriores demonstram claramente que isto é má ideia. Emoção: faça."
+        },
+        {
+          "title": "O que alguém gasta onde ninguém está olhando é a medida do investimento",
+          "rules": "Ela organizou uma festa surpresa para ele — de verdade, com local, DJ e todo mundo que ele conhecia. Ele só descobriu muito depois que ela quase não tinha dinheiro na época e ficara sem refeições por meses para pagar. O artefato visível era a festa; o sinal de verdade era um custo pago em particular e nunca mencionado. Compromisso declarado é barato e abundante. Procure, em vez disso, o que foi silenciosamente abdicado, o que em geral só se descobre depois e por acaso.",
+          "flavor": "Foi aí que eu percebi pela primeira vez o quanto ela estava investida."
+        },
+        {
+          "title": "A restrição que alguém adiante acrescenta pode deixar sua coisa melhor do que você a fez",
+          "rules": "A mecânica como projetada apenas deixava você comprar uma carta do cemitério em vez do grimório. O desenvolvimento acrescentou um custo — um naco do seu grimório embora a cada vez — e a avaliação de Rosewater é que o acréscimo provavelmente deixou a mecânica mais forte, e não apenas mais segura. Vale registrar, porque a história esperada é que a etapa posterior lixe o que a anterior construiu. Às vezes quem é obrigado a fazer aquilo sobreviver ao contato acha a versão que deveria ter existido.",
+          "flavor": "O custo de moer foi acrescentado pelo desenvolvimento, e provavelmente melhorou a mecânica."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "寻找那一个（下）",
+      "dek": "《第五纪元》《拉尼卡》《预知未来》与《暮影》——以及故事的后半段，包括那次「其实是拒绝了那部电影」的拒绝。",
+      "overview": "下半篇延续了交替的写法，而随着约束变得更糟，设计段落也变得更好。《第五纪元》必须接在两套已经把环境搞坏、几乎什么都不许再做的牌后面；《拉尼卡》在四十个方案被试过又否掉之后仍然缺一个坟墓场机制；《预知未来》需要一批「感觉像未来」却不含任何新东西的牌。这三件事各自靠一次具体的操作解决，而罗斯瓦特把三次都点了名。个人线一路走到求婚，中途经过一次他严重误读的拒绝，以及一个「六个月前刚刚灾难性地失手过」的直觉。",
+      "takeaway": "这里每一个设计故事，起点都是一个看上去走不通的处境；而出路从来不是在原来那个问题上更用力。它要么是一个逼出另一种答案的死角，要么是一次让大脑把它当成新问题的重述，要么是一个约束形状相同的旧难题。",
+      "lessons": [
+        {
+          "title": "前人把你逼进的那个死角，会产出你本来永远到不了的答案",
+          "rules": "到了第三套牌时，前面两套已经把足够多的东西搞坏，以至于大部分显而易见的动作都被禁掉了：招牌机制可以存在但不许好用；主题还在，但上面交代不要靠它。四面被封死之后，团队接受了一个把整个环境的前提整个反过来的提案，而它成了这套牌的脊梁。罗斯瓦特自己的判断是：不这样，他们大概永远到不了那里。一个「没有任何好的常规动作」的处境让人难受，而它也是唯一可靠地把你从常规动作上撬下来的办法。",
+          "flavor": "那是「神器很重要」的环境，而我们收到的一条注意事项是「别让神器太重要」。"
+        },
+        {
+          "title": "把「再多说点」训练成你对一个听起来古怪的提案的回答",
+          "rules": "有人走进来提了个建议，干巴巴地说出来，它和整套牌的前提正相反。他学会的反应——据他说，是干了很多年之后才学会的——不是去评价它，而是要更多。两句话之后，它显然是对的，并成了这套牌的核心机制。这件事之所以必须成为训练出来的反射，是因为面对一个听起来不对的提案，人的自然反应是去解释哪里不对；而这份解释通常在「摘要」上是对的，在「想法」上是错的。默认给自己多买三十秒。",
+          "flavor": "「如果《第五纪元》在乎颜色呢？」正确的回答是：「再多说点。」"
+        },
+        {
+          "title": "假定那片空间就在那里，然后把不成立的部分削掉",
+          "rules": "在一个很窄的领域里试了又否掉四十个候选，一无所获。哲学上的契合太好了，好到他拒绝把搜索挪到别处；而他描述了自己在这种局面下采用的工作假设：那样东西就存在于材料内部，你的活儿是把不是它的部分去掉。这与其说是技法，不如说是一种姿态；它的价值在于改变了「一次失败的尝试」意味着什么。在这个假设之下，四十次否决是四十块被凿掉的石头，而不是四十条「雕像不在里面」的证据。",
+          "flavor": "米开朗基罗相信雕塑本来就在大理石里。他的工作是把其余的凿掉。"
+        },
+        {
+          "title": "按约束的形状给你解决过的问题建索引，而不是按它们的题材",
+          "rules": "需要一批「感觉像未来、却不含任何新东西」的牌时，他认出了这个形状：多年前有人告诉他，可以为一场活动做牌，只要没有一张能用在正常发售的套牌里；而他当时的解法，是把两个来自不同时代的机制组合到同一张牌上。题材不同，约束相同——只用旧零件做出新东西——同一个答案照样管用。你那份「解决过的问题」的历史，只有在你按「是什么让它难」来归档时才检索得到。按主题归档，它们从下一个问题的位置上看是隐形的。",
+          "flavor": "我靠回头看一个形状相同的旧问题，解决了眼前这个问题。"
+        },
+        {
+          "title": "当结果和你的意图正相反时，去找那个「相反正是意图」的项目",
+          "rules": "他引入一种指示物，本意是让战斗显得没那么致命；测试却显示它让战斗显得更致命，因为伤害不再愈合了。对这个项目而言这是一次失败的实验，对另一个项目而言它是一条结论。这些指示物，连同一个建立在它们之上的机制，被挪到了那套「宣称目标就是比平常更危险」的牌里，在那里立刻就成立了。在丢掉一样「产出了你要的反面」的东西之前，先在你的项目清单里查一查：谁想要的正是那个反面。",
+          "flavor": "「行吧，那就把-1/-1指示物留给《暮影》。」"
+        },
+        {
+          "title": "先问这个部件在这个世界里该传达什么，再朝那个答案去设计",
+          "rules": "想在同一批指示物上再做一个机制时，他没有从「这些指示物在机制上能做什么」出发，而是从「它们在这里该意味着什么」出发——既然这个世界是上一个世界的黑暗倒影，而上一个世界比常态更不危险，那么这一个就必须更危险。这产出了一份有实际内容的任务书：那些生物打架下手很脏，跟它们交手的人会永久地变差。从「所需的含义」推导出机制，你就有了一把用来衡量候选方案的尺子。",
+          "flavor": "「凋零」最早的概念是「刻薄」。"
+        },
+        {
+          "title": "在把一个「不」当成判决之前，先弄清楚被拒绝的到底是什么",
+          "rules": "他约她去看一部具体的电影，她说不，而他花了好几个星期把这读成对他本人的拒绝。直到这个话题在一次闲聊中重新出现——她本来就不想看那部片子，也对那类片子没兴趣——他才明白被拒绝的是什么。这个一般性的失误既真实又常见：一个「不」是附着在某个具体提议上抵达的，而接收方不加核实就把它推广到整个问题上。在你断定这个答案意味着什么之前，先把「究竟问了什么」弄准确。",
+          "flavor": "她拒绝的是那部电影。她拒绝的是电影！"
+        },
+        {
+          "title": "一个失手过一次的直觉，并不因此就该退休",
+          "rules": "六个月前，同样的感觉在同样的情境下制造了一场灾难，代价是一段友谊。再一次站在同样的位置上，他把这场辩论明明白白地展开了：先前的事实清楚地证明这是个坏主意；对面则是「另一边的可能性值得这个风险」。他很诚实地承认，反方的推理是站得住的，而他还是走了另一边。这里的一般性结论很窄但真实：单独一次坏结果，确立的是「这条经验法则可能失效」，而不是「它失效的频率」；一个数据点不足以让一样东西退休。",
+          "flavor": "理智：先前的事实清楚地证明这是个坏主意。情感：去做。"
+        },
+        {
+          "title": "一个人在没人看见的地方付出了什么，才是投入程度的尺度",
+          "rules": "她为他办了一场惊喜派对——货真价实的那种，有场地、有现场DJ、有他认识的所有人。他很久之后才知道，她当时几乎没什么钱，是靠好几个月不吃饭省下来办的。看得见的物件是那场派对；真正的信号是一笔在私下里付出、并且从未被提起的代价。口头上的承诺既便宜又到处都是。要找的是那些被悄悄放弃掉的东西——而这些通常只能在事后、并且偶然地被发现。",
+          "flavor": "就是在那一刻，我第一次意识到她投入了多少。"
+        },
+        {
+          "title": "下游的人加上去的那条约束，可能让你的东西比你做出来的更好",
+          "rules": "这个机制被设计出来时，只是让你从坟墓场而不是从牌库抽一张牌。开发阶段给它加了一个代价——每次都要磨掉你牌库的一块；而罗斯瓦特的判断是，这个添加很可能让这个机制变得更强，而不只是更安全。这值得记下来，因为人们预期的故事是：后一道工序会把前一道建起来的东西磨平。有时候，那个被迫要让它「经得起真实环境」的人，反而找到了它本该有的版本。",
+          "flavor": "磨牌的代价是开发加上去的，而它很可能让这个机制变好了。"
+        }
+      ]
+    }
+  }
+}
