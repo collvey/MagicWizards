@@ -1,0 +1,307 @@
+{
+  "id": "devastation-information-part-2-2017-07-10",
+  "slug": "devastation-information-part-2-2017-07-10",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2017-07-10",
+  "series": { "id": "devastation-information", "order": 2, "total": 3 },
+  "tags": [
+    "hour-of-devastation",
+    "card-design",
+    "lands",
+    "cycles",
+    "story-spotlight",
+    "inherited-constraints"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/devastation-information-part-2-2017-07-10",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T11:11:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Devastation Information, Part 2",
+      "dek": "Nobody decided that Deserts had to make colourless mana. The first one did, and everyone after copied it for twenty-three years.",
+      "overview": "More Hour of Devastation card stories: a rules trap that looks like it should work, an inherited restriction nobody imposed, and a cycle of five rares telling the five beats of the story.",
+      "takeaway": "\"No one sets out to give themselves the design restriction. It's just that the first person to design it made a decision that felt sensible, and that stake in the mental design space just shifts how you think about it.\"",
+      "lessons": [
+        {
+          "title": "When the obvious wording does nothing, find the verb that does the job",
+          "rules": "Some combinations look fine and are inert once you check the sequencing. Rather than abandoning the intent, work out what effect would actually produce the outcome people picture — and accept that the substitute may sit somewhere different in your system.",
+          "flavor": "“Granting vigilance to a creature after attacking has been declared doesn't do anything… The solution we've come up for this problem is to have the triggered ability untap the creature instead.” That has knock-on costs: untapping has mostly moved out of white into green, so the workaround creates an argument of its own."
+        },
+        {
+          "title": "The first implementation stakes out the mental space, and nobody notices",
+          "rules": "Whoever builds the first instance makes incidental decisions that later feel like requirements. No one imposed the rule and no one can point to it, which is exactly why it survives. Periodically ask, out loud, whether a property everything shares is actually mandatory.",
+          "flavor": "Every Desert since Arabian Nights tapped for colourless. Asked for top-down desert designs with no parameters, the designers all produced colourless lands. “No one sets out to give themselves the design restriction… It wasn't until then that someone asked the question, ‘Do Deserts have to tap for colorless mana?' And the answer was no.”"
+        },
+        {
+          "title": "Reference a thing that doesn't exist yet and let people speculate",
+          "rules": "A card pointing at something not yet revealed turns the audience into theorists. It works best when their speculation mirrors what the characters are doing, so the form of the puzzle is itself the content.",
+          "flavor": "Rosewater calls it a throw-forward. “The parallel, in this case, is that the people of Naktamun were doing the exact same thing with the Gate to the Afterlife as the players were, trying to imagine what reward awaits the victors of the Trials.” God-Pharaoh's Gift turned out to make Eternals."
+        },
+        {
+          "title": "Push a part into a new context using its own philosophy, not a borrowed one",
+          "rules": "When one component underperforms in a particular setting, the lazy fix is to give it the tools that work there — which belong to something else and blur both. Find the version of that setting's requirement that your component would arrive at on its own terms.",
+          "flavor": "“We've spent a lot of time trying to figure out how to give red things that will play better in longer multiplayer games. We want to do this though in a way that feels red, that plays into red's philosophy rather than making it play more like another color.” The answer was chaos."
+        },
+        {
+          "title": "Make one payment do two jobs",
+          "rules": "A discount is more interesting when the thing you did to earn it was something you were paying for anyway. Look for the case where the same expenditure counts twice, rather than adding a separate hoop that has to be jumped.",
+          "flavor": "“Hollow One actually does something a little different than most cost-reduction cards. Cycling (mostly) costs mana to use, so it's not that you're going to cast Hollow One all that often without access to five mana, but the reduction allows you to essentially apply the mana you use for cycling to also pay for Hollow One.”"
+        },
+        {
+          "title": "Give each story beat its own card, and let the beat choose the effect type",
+          "rules": "A cycle telling a sequence works when the mechanical form of each member is derived from what happens at that moment, rather than being one template repeated five times. The reader then learns the events from the effects.",
+          "flavor": "Five rares for the five foretold Hours. Revelation starts the destruction, so it's a board wipe. Glory is the Scorpion God killing the other Gods, so it's a kill spell with a God rider. Promise unleashes the locusts, so it's a Desert enabler making Zombies. Eternity reanimates. Devastation damages everything."
+        },
+        {
+          "title": "The prototype that was too loud tells you where the ceiling is",
+          "rules": "A version that overshoots is not a failure to be discarded but a measurement. Note what it did to behaviour — what people started over-committing to — and set the shipped version below that line rather than guessing at a safe number.",
+          "flavor": "Every Desert sacrificing another Desert “ended up being pretty loud… and pretty powerful. It also had a side effect of pushing players into stretching how many colorless lands they'd play. We realized that we had to be careful how much” Desert synergy the block carried."
+        },
+        {
+          "title": "Use a colour requirement as a rate limiter",
+          "rules": "When you want a group of cards to exist but not to be assembled wholesale into one deck, the cost line can do the limiting for you. A demanding requirement spread across different colours means each deck can afford only some of them.",
+          "flavor": "“We knew we wanted a little ‘sacrifice a Desert' in Hour of Devastation, and we liked how this cycle's color requirement would work to keep too many of the cycle from ending up in the same deck.”"
+        },
+        {
+          "title": "Track the lineage to see the baseline drift",
+          "rules": "What counts as normal moves slowly enough that no single step is visible. Keeping the chain of successive versions is the only way to notice, and it turns an argument about taste into an argument about a trend you can point at.",
+          "flavor": "Scathe Zombies in Alpha begins the line. A vanilla 2/2 for 1B “was considered controversial at the time. R&D had hours and hours of arguments about it, but in the end we decided that the creature curve had evolved enough over the years.” Khenra Eternal is the first 1B 2/2 with an upside."
+        }
+      ]
+    },
+    "es": {
+      "title": "Información sobre la devastación, parte 2",
+      "dek": "Nadie decidió que los desiertos tuvieran que producir maná incoloro. El primero lo hizo, y todos los demás lo copiaron durante veintitrés años.",
+      "overview": "Más historias de cartas de Hour of Devastation: una trampa de reglas que parece que debería funcionar, una restricción heredada que nadie impuso, y un ciclo de cinco raras que cuenta los cinco compases de la historia.",
+      "takeaway": "«Nadie se propone imponerse esa restricción de diseño. Es solo que la primera persona que lo diseñó tomó una decisión que parecía sensata, y esa estaca clavada en el espacio mental cambia cómo piensas al respecto.»",
+      "lessons": [
+        {
+          "title": "Cuando la redacción obvia no hace nada, busca el verbo que sí lo hace",
+          "rules": "Algunas combinaciones parecen bien y resultan inertes en cuanto compruebas la secuencia. En vez de abandonar la intención, averigua qué efecto produciría de verdad el resultado que la gente imagina, y acepta que el sustituto quizá viva en otro sitio de tu sistema.",
+          "flavor": "«Otorgar vigilancia a una criatura después de declarar el ataque no hace nada… La solución que encontramos es que la habilidad disparada enderece la criatura.» Eso tiene coste: enderezar se ha movido en buena parte del blanco al verde, así que el apaño genera su propia discusión."
+        },
+        {
+          "title": "La primera implementación clava la estaca en el espacio mental, y nadie lo nota",
+          "rules": "Quien construye el primer ejemplar toma decisiones incidentales que después parecen requisitos. Nadie impuso la regla y nadie puede señalarla, y por eso mismo sobrevive. Pregunta en voz alta, cada cierto tiempo, si una propiedad que todo comparte es de verdad obligatoria.",
+          "flavor": "Todos los desiertos desde Arabian Nights producían incoloro. Al pedir diseños descendentes sin parámetros, todos los diseñadores hicieron tierras incoloras. «Nadie se propone imponerse la restricción… No fue hasta entonces que alguien preguntó: “¿Los desiertos tienen que producir incoloro?” Y la respuesta era no.»"
+        },
+        {
+          "title": "Referencia algo que aún no existe y deja que especulen",
+          "rules": "Una carta que apunta a algo todavía no revelado convierte al público en teóricos. Funciona mejor cuando su especulación refleja lo que están haciendo los personajes, de modo que la forma del enigma es en sí misma el contenido.",
+          "flavor": "Rosewater lo llama throw-forward. «El paralelismo, en este caso, es que la gente de Naktamun estaba haciendo exactamente lo mismo con la Puerta al Más Allá que los jugadores: intentar imaginar qué recompensa espera a los vencedores de las Pruebas.»"
+        },
+        {
+          "title": "Empuja una pieza a un contexto nuevo con su propia filosofía, no con una prestada",
+          "rules": "Cuando un componente rinde mal en un escenario concreto, el apaño perezoso es darle las herramientas que allí funcionan, que pertenecen a otra cosa y difuminan a las dos. Encuentra la versión de esa exigencia a la que tu componente llegaría por sus propios medios.",
+          "flavor": "«Hemos dedicado mucho tiempo a averiguar cómo dar al rojo cosas que jueguen mejor en partidas multijugador largas. Pero queremos hacerlo de una forma que se sienta roja, que juegue con la filosofía del rojo en vez de hacerlo parecerse a otro color.» La respuesta fue el caos."
+        },
+        {
+          "title": "Haz que un mismo pago sirva para dos trabajos",
+          "rules": "Un descuento es más interesante cuando lo que hiciste para ganártelo era algo que ibas a pagar de todos modos. Busca el caso en que el mismo gasto cuenta dos veces, en vez de añadir un aro aparte que haya que saltar.",
+          "flavor": "«Hollow One hace algo un poco distinto de la mayoría de cartas de reducción de coste. Ciclar (casi siempre) cuesta maná, así que no es que vayas a lanzarla a menudo sin cinco manás disponibles, pero la reducción te permite aplicar el maná que usas para ciclar también al pago de Hollow One.»"
+        },
+        {
+          "title": "Dale a cada compás de la historia su propia carta, y que el compás elija el tipo de efecto",
+          "rules": "Un ciclo que cuenta una secuencia funciona cuando la forma mecánica de cada miembro se deriva de lo que pasa en ese momento, en vez de ser una plantilla repetida cinco veces. Entonces el lector aprende los sucesos a partir de los efectos.",
+          "flavor": "Cinco raras para las cinco Horas profetizadas. Revelación inicia la destrucción: es un barrido. Gloria es el Dios Escorpión matando a los otros dioses: es un hechizo de matar con cláusula para dioses. Promesa suelta las langostas: habilita desiertos y hace zombis. Eternidad reanima. Devastación daña todo."
+        },
+        {
+          "title": "El prototipo que salió demasiado ruidoso te dice dónde está el techo",
+          "rules": "Una versión que se pasa no es un fracaso que descartar, es una medición. Anota qué hizo con la conducta —a qué empezó la gente a sobrecomprometerse— y sitúa la versión publicada por debajo de esa línea, en vez de adivinar un número seguro.",
+          "flavor": "Que cada desierto sacrificara otro desierto «acabó siendo bastante ruidoso… y bastante potente. También tenía el efecto secundario de empujar a los jugadores a estirar cuántas tierras incoloras jugaban. Nos dimos cuenta de que teníamos que tener cuidado con cuánta» sinergia de desiertos llevaba el bloque."
+        },
+        {
+          "title": "Usa un requisito de color como limitador de ritmo",
+          "rules": "Cuando quieres que un grupo de cartas exista pero no se ensamble al por mayor en un solo mazo, la línea de coste puede hacer de límite por ti. Un requisito exigente repartido entre colores distintos significa que cada mazo solo puede permitirse algunas.",
+          "flavor": "«Sabíamos que queríamos un poco de “sacrifica un desierto” en Hour of Devastation, y nos gustaba cómo el requisito de color de este ciclo evitaría que demasiados miembros acabaran en el mismo mazo.»"
+        },
+        {
+          "title": "Sigue el linaje para ver cómo se desplaza la línea base",
+          "rules": "Lo que cuenta como normal se mueve tan despacio que ningún paso es visible. Conservar la cadena de versiones sucesivas es la única forma de notarlo, y convierte una discusión de gustos en una discusión sobre una tendencia que puedes señalar.",
+          "flavor": "Scathe Zombies, de Alpha, inicia la línea. Un 2/2 vainilla por 1B «se consideró controvertido en su momento. En I+D hubo horas y horas de discusión, pero al final decidimos que la curva de criaturas había evolucionado lo suficiente.» Khenra Eternal es el primer 2/2 por 1B con ventaja."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Informations sur la dévastation, partie 2",
+      "dek": "Personne n'a décidé que les Déserts devaient produire du mana incolore. Le premier l'a fait, et tous les suivants l'ont copié pendant vingt-trois ans.",
+      "overview": "D'autres histoires de cartes de Hour of Devastation : un piège de règles qui semble devoir marcher, une restriction héritée que personne n'a imposée, et un cycle de cinq rares racontant les cinq temps de l'histoire.",
+      "takeaway": "« Personne ne se donne cette restriction de conception. C'est simplement que le premier à l'avoir conçue a pris une décision qui semblait sensée, et ce piquet planté dans l'espace mental change la façon dont on y pense. »",
+      "lessons": [
+        {
+          "title": "Quand la formulation évidente ne fait rien, trouvez le verbe qui agit",
+          "rules": "Certaines combinaisons semblent correctes et se révèlent inertes dès qu'on vérifie l'enchaînement. Plutôt que d'abandonner l'intention, cherchez quel effet produirait vraiment le résultat imaginé — et acceptez que le substitut se situe peut-être ailleurs dans votre système.",
+          "flavor": "« Accorder la vigilance à une créature après la déclaration de l'attaque ne fait rien… Notre solution est que la capacité déclenchée dégage la créature à la place. » Cela a un coût : le dégagement est surtout passé du blanc au vert, donc le contournement crée son propre débat."
+        },
+        {
+          "title": "La première mise en œuvre plante le piquet, et personne ne s'en aperçoit",
+          "rules": "Celui qui construit le premier exemplaire prend des décisions accessoires qui deviennent ensuite des exigences. Personne n'a imposé la règle et personne ne peut la désigner : c'est précisément pourquoi elle survit. Demandez périodiquement, à voix haute, si une propriété commune à tout est réellement obligatoire.",
+          "flavor": "Tous les Déserts depuis Arabian Nights produisaient de l'incolore. Sans consigne, tous les concepteurs ont produit des terrains incolores. « Personne ne se donne cette restriction… Ce n'est qu'alors que quelqu'un a demandé : “Les Déserts doivent-ils produire de l'incolore ?” Et la réponse était non. »"
+        },
+        {
+          "title": "Référencez une chose qui n'existe pas encore et laissez spéculer",
+          "rules": "Une carte pointant vers une chose non révélée transforme le public en théoriciens. Cela marche mieux quand leur spéculation reflète ce que font les personnages : la forme de l'énigme est alors le contenu.",
+          "flavor": "Rosewater appelle cela un throw-forward. « Le parallèle ici, c'est que les habitants de Naktamun faisaient exactement la même chose avec la Porte de l'Au-delà que les joueurs : essayer d'imaginer quelle récompense attend les vainqueurs des Épreuves. »"
+        },
+        {
+          "title": "Poussez une pièce vers un contexte neuf avec sa propre philosophie, pas une empruntée",
+          "rules": "Quand un composant sous-performe dans un cadre donné, la solution paresseuse est de lui donner les outils qui y marchent — ils appartiennent à autre chose et brouillent les deux. Cherchez la version de cette exigence à laquelle votre composant arriverait par ses propres moyens.",
+          "flavor": "« Nous avons passé beaucoup de temps à chercher comment donner au rouge des choses qui jouent mieux dans les longues parties multijoueurs. Mais nous voulons le faire d'une façon qui sente le rouge, qui joue avec sa philosophie plutôt que de le faire ressembler à une autre couleur. »"
+        },
+        {
+          "title": "Faites qu'un même paiement remplisse deux offices",
+          "rules": "Une réduction est plus intéressante quand ce que vous avez fait pour la mériter était déjà une dépense prévue. Cherchez le cas où la même somme compte deux fois, plutôt que d'ajouter un cerceau supplémentaire à franchir.",
+          "flavor": "« Hollow One fait quelque chose d'un peu différent de la plupart des cartes à réduction de coût. Le recyclage coûte du mana, donc vous ne la lancerez pas souvent sans cinq manas ; mais la réduction permet d'appliquer le mana dépensé pour recycler au paiement de Hollow One. »"
+        },
+        {
+          "title": "Donnez à chaque temps du récit sa propre carte, et laissez le temps choisir le type d'effet",
+          "rules": "Un cycle qui raconte une séquence marche quand la forme mécanique de chaque membre découle de ce qui se passe à ce moment, au lieu d'être un gabarit répété cinq fois. Le lecteur apprend alors les événements par les effets.",
+          "flavor": "Cinq rares pour les cinq Heures annoncées. La Révélation ouvre la destruction : c'est un balayage. La Gloire est le Dieu Scorpion tuant les autres dieux : c'est un sort de mise à mort. La Promesse lâche les sauterelles. L'Éternité réanime. La Dévastation blesse tout."
+        },
+        {
+          "title": "Le prototype trop bruyant vous dit où est le plafond",
+          "rules": "Une version qui dépasse n'est pas un échec à jeter mais une mesure. Notez ce qu'elle a fait aux comportements — ce sur quoi les gens se sont mis à surinvestir — et placez la version livrée sous cette ligne, au lieu de deviner un nombre sûr.",
+          "flavor": "Faire sacrifier un autre Désert à chaque Désert « s'est révélé assez bruyant… et assez puissant. Cela avait aussi pour effet secondaire de pousser les joueurs à étirer le nombre de terrains incolores joués. Nous avons compris qu'il fallait faire attention à la dose. »"
+        },
+        {
+          "title": "Servez-vous d'une exigence de couleur comme limiteur de débit",
+          "rules": "Quand vous voulez qu'un groupe de cartes existe sans être rassemblé en bloc dans un seul deck, la ligne de coût peut faire la limitation. Une exigence lourde répartie sur des couleurs différentes fait que chaque deck n'en supporte que quelques-unes.",
+          "flavor": "« Nous voulions un peu de “sacrifiez un Désert” dans Hour of Devastation, et nous aimions la façon dont l'exigence de couleur de ce cycle empêcherait qu'un trop grand nombre de ses membres finissent dans le même deck. »"
+        },
+        {
+          "title": "Suivez la lignée pour voir dériver la ligne de base",
+          "rules": "Ce qui compte comme normal bouge assez lentement pour qu'aucun pas ne soit visible. Conserver la chaîne des versions successives est le seul moyen de s'en apercevoir, et cela transforme un débat de goût en débat sur une tendance qu'on peut montrer.",
+          "flavor": "Scathe Zombies, dans Alpha, ouvre la lignée. Une 2/2 vanille pour 1B « était jugée controversée à l'époque. La R&D en a débattu des heures et des heures, mais nous avons fini par décider que la courbe de créatures avait assez évolué. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Informações sobre a devastação, parte 2",
+      "dek": "Ninguém decidiu que Desertos tinham de produzir mana incolor. O primeiro produziu, e todos depois dele copiaram por vinte e três anos.",
+      "overview": "Mais histórias de cartas de Hour of Devastation: uma armadilha de regras que parece que deveria funcionar, uma restrição herdada que ninguém impôs, e um ciclo de cinco raras contando os cinco tempos da história.",
+      "takeaway": "“Ninguém se propõe a se impor essa restrição de design. É só que a primeira pessoa a projetá-lo tomou uma decisão que parecia sensata, e essa estaca fincada no espaço mental muda como você pensa a respeito.”",
+      "lessons": [
+        {
+          "title": "Quando a redação óbvia não faz nada, ache o verbo que faz",
+          "rules": "Algumas combinações parecem certas e se revelam inertes assim que você confere a sequência. Em vez de abandonar a intenção, descubra qual efeito de fato produziria o resultado que as pessoas imaginam — e aceite que o substituto talvez viva em outro lugar do seu sistema.",
+          "flavor": "“Conceder vigilância a uma criatura depois de o ataque ser declarado não faz nada… A solução que achamos é fazer a habilidade disparada desvirar a criatura.” Isso tem custo: desvirar migrou em boa parte do branco para o verde, então a solução gera a própria discussão."
+        },
+        {
+          "title": "A primeira implementação finca a estaca no espaço mental, e ninguém percebe",
+          "rules": "Quem constrói o primeiro exemplar toma decisões incidentais que depois parecem exigências. Ninguém impôs a regra e ninguém consegue apontá-la — e é exatamente por isso que ela sobrevive. Pergunte em voz alta, de tempos em tempos, se uma propriedade que tudo compartilha é mesmo obrigatória.",
+          "flavor": "Todo Deserto desde Arabian Nights produzia incolor. Sem parâmetros, todos os designers fizeram terrenos incolores. “Ninguém se propõe a se impor a restrição… Só então alguém perguntou: ‘Desertos precisam produzir mana incolor?' E a resposta era não.”"
+        },
+        {
+          "title": "Referencie algo que ainda não existe e deixe as pessoas especularem",
+          "rules": "Uma carta apontando para algo ainda não revelado transforma o público em teóricos. Funciona melhor quando a especulação deles espelha o que os personagens estão fazendo, de modo que o formato do enigma é ele próprio o conteúdo.",
+          "flavor": "Rosewater chama isso de throw-forward. “O paralelo, neste caso, é que o povo de Naktamun estava fazendo exatamente o mesmo com o Portão para a Vida Após a Morte que os jogadores: tentando imaginar que recompensa espera os vencedores das Provas.”"
+        },
+        {
+          "title": "Empurre uma peça para um contexto novo com a filosofia dela, não com uma emprestada",
+          "rules": "Quando um componente rende mal num cenário, o conserto preguiçoso é dar a ele as ferramentas que funcionam ali — que pertencem a outra coisa e borram as duas. Ache a versão daquela exigência à qual o seu componente chegaria pelos próprios meios.",
+          "flavor": "“Passamos muito tempo tentando descobrir como dar ao vermelho coisas que joguem melhor em partidas multijogador longas. Mas queremos fazer isso de um jeito que pareça vermelho, que jogue com a filosofia do vermelho em vez de fazê-lo parecer outra cor.” A resposta foi o caos."
+        },
+        {
+          "title": "Faça um mesmo pagamento cumprir dois trabalhos",
+          "rules": "Um desconto é mais interessante quando o que você fez para merecê-lo já era uma despesa prevista. Procure o caso em que o mesmo gasto conta duas vezes, em vez de acrescentar um aro separado que precisa ser saltado.",
+          "flavor": "“Hollow One faz algo um pouco diferente da maioria das cartas de redução de custo. Ciclar (quase sempre) custa mana, então não é que você vá conjurá-la com frequência sem cinco manas; mas a redução permite aplicar o mana usado para ciclar também ao pagamento de Hollow One.”"
+        },
+        {
+          "title": "Dê a cada tempo da história a própria carta, e deixe o tempo escolher o tipo de efeito",
+          "rules": "Um ciclo que conta uma sequência funciona quando a forma mecânica de cada membro deriva do que acontece naquele momento, em vez de ser um molde repetido cinco vezes. Aí o leitor aprende os eventos a partir dos efeitos.",
+          "flavor": "Cinco raras para as cinco Horas profetizadas. Revelação inicia a destruição: é uma varredura. Glória é o Deus Escorpião matando os outros deuses: é uma mágica de matar. Promessa solta os gafanhotos. Eternidade reanima. Devastação causa dano a tudo."
+        },
+        {
+          "title": "O protótipo alto demais te diz onde fica o teto",
+          "rules": "Uma versão que passa do ponto não é um fracasso a descartar, é uma medição. Anote o que ela fez com o comportamento — em que as pessoas passaram a se comprometer demais — e ponha a versão publicada abaixo dessa linha, em vez de chutar um número seguro.",
+          "flavor": "Cada Deserto sacrificar outro Deserto “acabou ficando bem alto… e bem poderoso. Também tinha o efeito colateral de empurrar os jogadores a esticar quantos terrenos incolores jogavam. Percebemos que precisávamos ter cuidado com a dose.”"
+        },
+        {
+          "title": "Use uma exigência de cor como limitador de ritmo",
+          "rules": "Quando você quer que um grupo de cartas exista sem ser montado no atacado num deck só, a linha de custo pode fazer a limitação por você. Uma exigência pesada espalhada por cores diferentes faz com que cada deck só consiga bancar algumas.",
+          "flavor": "“Sabíamos que queríamos um pouco de ‘sacrifique um Deserto' em Hour of Devastation, e gostamos de como a exigência de cor desse ciclo evitaria que membros demais acabassem no mesmo deck.”"
+        },
+        {
+          "title": "Acompanhe a linhagem para ver a linha de base derivar",
+          "rules": "O que conta como normal se move devagar o bastante para que nenhum passo seja visível. Guardar a cadeia de versões sucessivas é o único jeito de perceber, e transforma uma discussão de gosto numa discussão sobre uma tendência que dá para apontar.",
+          "flavor": "Scathe Zombies, de Alpha, abre a linhagem. Uma 2/2 baunilha por 1B “foi considerada controversa na época. A P&D teve horas e horas de discussão, mas no fim decidimos que a curva de criaturas tinha evoluído o bastante ao longo dos anos.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "毁灭情报，中",
+      "dek": "没有任何人决定过「沙漠必须产生无色法术力」。第一张这么做了，然后此后二十三年的每一张都照抄了它。",
+      "overview": "更多《毁灭之刻》的牌张故事：一个看上去理应成立的规则陷阱、一条没有任何人施加过的继承而来的限制，以及一个用五张稀有牌讲完故事五个节拍的循环。",
+      "takeaway": "「没有人是打算给自己套上这条设计限制的。只不过是第一个做它的人做了一个当时看来合情合理的决定，而那根钉在心理设计空间里的桩，就此改变了你思考这件事的方式。」",
+      "lessons": [
+        {
+          "title": "当那个显而易见的措辞什么也没做时，去找那个真正管用的动词",
+          "rules": "有些组合看上去没问题，一旦你去核对时序就会发现它是死的。与其放弃这个意图，不如弄清楚「究竟哪种效应才会真正产出人们脑中想象的那个结果」——并且接受：那个替代品也许坐落在你系统里的另一个位置上。",
+          "flavor": "「在攻击宣告之后再赋予一只生物警戒，什么作用也没有……我们为这个问题想出的解法，是让那个触发式异能改为重置该生物。」而这有连带代价：重置这件事已经大体从白色挪到了绿色，所以这个变通方案本身又引出了一场争论。"
+        },
+        {
+          "title": "第一次实现钉下了那根桩，而没有人察觉",
+          "rules": "造出第一个实例的那个人，会做出一些附带的决定；而这些决定后来会让人觉得是硬性要求。没有人施加过这条规则，也没有人能把它指出来——而这恰恰是它得以存活的原因。每隔一段时间就大声问一次：所有东西共有的这项属性，真的是必须的吗？",
+          "flavor": "自《阿拉伯之夜》以来的每一块沙漠都产无色。当被要求做自上而下的沙漠设计、且不给任何参数时，设计师们做出来的全是无色地。「没有人是打算给自己套上这条限制的……直到那时才有人问了一句：『沙漠一定要产生无色法术力吗？』而答案是：不。」"
+        },
+        {
+          "title": "去指涉一样还不存在的东西，然后让人们去猜",
+          "rules": "一张指向「尚未揭晓之物」的牌，会把受众变成理论家。当他们的猜测恰好映照着故事里角色正在做的事情时，它的效果最好——于是这道谜题的形式本身，就是它的内容。",
+          "flavor": "罗斯瓦特管这叫「向前抛」。「这里的对应关系是：纳克塔蒙的人们对着来世之门所做的事，和玩家们做的一模一样——都在试图想象，通过试炼的胜者等着的是什么样的奖赏。」"
+        },
+        {
+          "title": "用一个部件自己的哲学、而不是借来的哲学，把它推进新的语境",
+          "rules": "当某个部件在某个特定环境里表现不佳时，偷懒的修法是把「在那个环境里管用的工具」交给它——可那些工具属于别人，结果是两边都被搅浑。去找出那个「你的部件会凭自己的路数抵达的」版本。",
+          "flavor": "「我们花了很多时间去琢磨，怎么给红色一些在较长的多人局里表现更好的东西。但我们想用一种『感觉起来是红色的』方式来做，一种呼应红色哲学、而不是让它玩得像另一种颜色的方式。」答案是混乱。"
+        },
+        {
+          "title": "让同一笔付款干两份活",
+          "rules": "当你为了挣得这份折扣所做的事，本来就是你要付钱去做的事情时，这份折扣就更有意思。去找那种「同一笔开销被算了两次」的情形，而不是另外加一个必须跳过去的圈。",
+          "flavor": "「《空洞之人》做的事情，和大多数降费牌略有不同。循环（大多数时候）是要花法术力的，所以你不太会在拿不到五点法术力的情况下频繁施放它；但这份减费让你可以把用于循环的那些法术力，实际上也算作支付《空洞之人》的钱。」"
+        },
+        {
+          "title": "给故事的每一个节拍配一张自己的牌，并且让节拍去挑效果的类型",
+          "rules": "一个用来叙述序列的循环之所以成立，是因为每一位成员的机制形态都是从「那一刻发生了什么」推导出来的，而不是同一套模板重复五遍。于是读者是从效果里学到那些事件的。",
+          "flavor": "五张稀有牌对应预言中的五个时刻。《启示之刻》拉开毁灭，所以它是一张扫场。《荣耀之刻》是蝎神杀死其他诸神，所以它是一张带「神明」附加条款的击杀咒语。《应许之刻》放出蝗虫，所以它启动沙漠并制造僵尸。《永生之刻》复生。《毁灭之刻》对一切造成伤害。"
+        },
+        {
+          "title": "那个「太吵」的原型，告诉你天花板在哪里",
+          "rules": "一个冲过头的版本不是一件要丢掉的失败品，而是一次测量。记下它对行为做了什么——人们开始过度押注在什么上——然后把要发行的版本放在那条线以下，而不是去猜一个安全的数字。",
+          "flavor": "让每一块沙漠都去牺牲另一块沙漠，「最后变得相当吵……而且相当强。它还有一个副作用：把玩家推向『把无色地的数量拉得更多』。我们意识到，我们必须小心控制」这个系列组承载多少沙漠协同。"
+        },
+        {
+          "title": "把一项颜色要求当成限流阀来用",
+          "rules": "当你希望一组牌存在、但不希望它们被整批塞进同一副套牌时，费用那一行可以替你完成限流。一项苛刻的要求分散在不同的颜色上，就意味着每一副套牌只负担得起其中的一部分。",
+          "flavor": "「我们知道我们想在《毁灭之刻》里放一点『牺牲一块沙漠』，而我们喜欢这个循环的颜色要求所起到的作用：它会阻止这个循环里过多的成员落进同一副套牌。」"
+        },
+        {
+          "title": "追踪这条血脉，才看得见基准线在漂",
+          "rules": "「什么算正常」移动得足够慢，慢到没有任何单独一步是看得见的。保留这条历代版本的链条，是察觉它的唯一办法；而它会把一场关于品味的争论，变成一场关于「一条你指得出来的趋势」的争论。",
+          "flavor": "《Alpha》的《伤痕僵尸》开启了这条线。一只1B的原味2/2「在当时被认为是有争议的。研发部为它争论了好几个小时又好几个小时，但最后我们判定：这些年生物费用曲线已经演进得足够了。」《赫拉永生兵》则是第一只带正面异能的1B 2/2。"
+        }
+      ]
+    }
+  }
+}
