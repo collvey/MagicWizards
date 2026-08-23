@@ -1,0 +1,320 @@
+{
+  "id": "phooey-2015-05-11",
+  "slug": "phooey-2015-05-11",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-05-11",
+  "series": null,
+  "tags": ["khans-of-tarkir", "morph", "experiments", "process", "development"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/phooey-2015-05-11",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T01:00:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Phooey",
+      "dek": "They copied the entire set, froze the original, changed one number, and spent six weeks living in the alternate version.",
+      "overview": "The Khans of Tarkir set nobody outside Wizards had heard of: what happens when morph costs two mana instead of three.",
+      "takeaway": "\"Sometimes the best way to understand something is to take it away and experience life without it. Playing 'Phooey' helped me have a better sense about what I valued most in 'Huey.'\"",
+      "lessons": [
+        {
+          "title": "Internal names that rhyme and differ in spelling will be mixed up forever",
+          "rules": "A set of working names needs to be distinguishable at a glance, in speech, and in writing, by people who never learned the reference. Rhyming defeats the first two; inconsistent spelling defeats the third; and an ordering only the enthusiasts know defeats the whole point of having an order.",
+          "flavor": "“The Khans of Tarkir block was codenamed ‘Huey', ‘Dewey' and ‘Louie'… It proved to be a poor choice of codenames as having three rhyming codenames that is each spelled differently was very problematic… while there is an actual order to their names as it's presented in the comics and cartoons, not enough Wizards of the Coast employees knew the order, so people were constantly mixing it up.”"
+        },
+        {
+          "title": "Define the hidden state so play stays adjudicable without revealing it",
+          "rules": "Hidden information breaks down when the person holding it is also the only one who can rule on interactions with it — the other party can neither verify a claim nor learn from a refusal in a clean way. Give the concealed thing fixed public characteristics, and everything can be resolved without opening it.",
+          "flavor": "Face-down creatures used to work by the controller simply saying “Sorry, you can't do that.” “Not only was this process aggravating for the other player, they had the additional problem that they couldn't confirm anything you were saying.” The fix: “What if the game just defined the stats of a face-down creature? If all of them were the same, you didn't have to know what was on the other side to figure out game state situations.”"
+        },
+        {
+          "title": "Maintenance on an old obligation can hand you a new capability",
+          "rules": "Work forced on you by something already shipped is not only cleanup. Solving it properly builds a piece of machinery that didn't exist before — and the team that built it is best placed to notice what else it now makes possible.",
+          "flavor": "The rules team couldn't abandon the problem: “the cards in question were already in print.” Having defined face-down stats, “the rules team then realized that this new rules technology would enable an entirely new mechanic. Imagine cards that you played face-down from your hand, and then you could later pay mana to turn them face-up.” That became morph."
+        },
+        {
+          "title": "One enthusiast is enough, and bring your one change",
+          "rules": "A new idea doesn't need consensus to survive; it needs a single person who sees the potential and will carry it. If that's you, say yes and then contribute the specific adjustment that makes it work — advocacy plus one concrete improvement beats either alone.",
+          "flavor": "“They came to R&D to find someone to share their enthusiasm about the mechanic. That someone would be me. No one else was particularly fond of the idea but I saw great potential in it. I did, though, have one small change I suggested. In the rules team original version, you paid two mana and the face-down creature was a 1/1… I suggested how about three generic mana and it was a 2/2?”"
+        },
+        {
+          "title": "A question asked before the other party has capacity gets answered as a prediction",
+          "rules": "When you need a binding decision from someone who is deep in a different project, you'll both leave the conversation satisfied and mean different things. They heard \"which do you think is likelier?\" You heard \"which shall we build on?\" Say explicitly that you're about to commit, or the answer isn't one.",
+          "flavor": "“I explained that he and I had talked about it, and he had chosen morph. Erik explained that when I had asked him about it he hadn't had any time to put toward thinking about Khans of Tarkir block. He assumed I was asking him which I thought was more likely to end up in the set. No, I said, I needed to know which to use because design was starting and I was building the entire set around the mechanic.”"
+        },
+        {
+          "title": "If a stage must decide ahead of the next one's schedule, that's the process to fix",
+          "rules": "When your pipeline routinely requires one group to make a call the next group hasn't had time to think about, the resulting mistakes aren't anybody's error. Treat a near-miss as evidence about the structure rather than about the people, and change when the thinking happens.",
+          "flavor": "“Design having to make decisions that will affect development long before development has had any time to think about the issue is a problem that we've spent a lot of time working on. This event was a wake-up call that we had to re-evaluate how we were doing some things—much of which we have, so there's a happy ending long-term.”"
+        },
+        {
+          "title": "Fork the file, freeze the original, change one variable",
+          "rules": "When two departments disagree about a foundational choice, don't resolve it by argument. Copy the whole thing, keep the original untouched as a fallback, change the single disputed parameter, and run both. Put the sceptics on the hook to participate and to make the recommendation at the end.",
+          "flavor": "“We would take the existing Khans of Tarkir file and copy it making a brand new set called ‘Phooey.' The original file would stay frozen during the length of this experiment in case we later wanted to go back to it. We would then change all the morph to borph… Development was on the hook to pay attention so they could make a recommendation whether they felt we should stay with ‘Phooey' or go back to ‘Huey.'”"
+        },
+        {
+          "title": "Cheapening the central play accelerates everything and re-rates every other component",
+          "rules": "Moving the core action one step earlier is never a local change. It shifts which slots have to be vacated, raises the speed of the whole thing, and silently re-scores every other feature — some become much stronger, some collapse, and the ones that assumed a long engagement stop paying out at all.",
+          "flavor": "Three mana became two. “The three-drops have to get out of the way to make room for morph; while in a borph-heavy set, the two-drops have to get out of the way.” “Everyone had a 2/2 on turn two… The borph mechanic just turned up the clock.” “Raid got much more powerful… Outlast, in contrast, got significantly worse because giving up an attack had a much greater cost.” And face-down creatures survived to be turned up far less often."
+        },
+        {
+          "title": "The budget is fixed: a better hidden half means a worse visible half",
+          "rules": "When one component of a thing gets stronger, the strength has to come out of the rest of the same object. Improving the part that everyone was excited about quietly degrades every other aspect of it, and the total appeal can easily fall while the headline feature improves.",
+          "flavor": "“A borph creature just has more play value than a morph creature, which meant that each individual card got less cool stuff on the face-up side. The stats got worse, the mana cost got higher, or the borph cost got more expensive. Putting more ‘power points' into the face-down side took away from what was allowable on the rest of the card.”"
+        },
+        {
+          "title": "Taking it away is how you find out what it was worth",
+          "rules": "Living without something for a while measures its value more accurately than any argument about it. Run the version that lacks it, notice precisely what you miss, and come back — keeping whichever improvements the detour produced, since those are yours to keep either way.",
+          "flavor": "“At the time, it was very stressful for me, but I believe Khans of Tarkir was better for us having done it. Sometimes the best way to understand something is to take it away and experience life without it. Playing ‘Phooey' helped me have a better sense about what I valued most in ‘Huey.'” And: “Along the way, we made numerous changes we liked, so part of switching back was trying to figure out what advancements from ‘Phooey' could be made to work in ‘Huey.'”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Phooey",
+      "dek": "Copiaron el bloque entero, congelaron el original, cambiaron un número y pasaron seis semanas viviendo en la versión alternativa.",
+      "overview": "El bloque de Khans of Tarkir del que nadie fuera de Wizards había oído hablar: qué pasa cuando la metamorfosis cuesta dos manás en vez de tres.",
+      "takeaway": "«A veces la mejor forma de entender algo es quitarlo y vivir sin ello. Jugar a “Phooey” me ayudó a tener mejor sentido de lo que más valoraba en “Huey”.»",
+      "lessons": [
+        {
+          "title": "Los nombres internos que riman y se escriben distinto se confundirán para siempre",
+          "rules": "Un juego de nombres de trabajo tiene que distinguirse de un vistazo, al hablar y al escribir, por gente que nunca aprendió la referencia. La rima derrota lo primero; la ortografía inconsistente lo segundo; y un orden que solo conocen los aficionados derrota el propósito mismo de tener un orden.",
+          "flavor": "«El bloque de Khans of Tarkir tenía los nombres en clave “Huey”, “Dewey” y “Louie”… Resultó una mala elección, pues tener tres nombres que riman y que se escriben distinto era muy problemático… y aunque hay un orden real en los cómics y dibujos, no bastantes empleados de Wizards conocían ese orden, así que la gente lo mezclaba constantemente.»"
+        },
+        {
+          "title": "Define el estado oculto para que el juego siga siendo arbitrable sin revelarlo",
+          "rules": "La información oculta se rompe cuando quien la posee es también el único que puede dictaminar sobre las interacciones con ella: la otra parte no puede verificar una afirmación ni aprender de una negativa de forma limpia. Dale a lo oculto características públicas fijas y todo se resuelve sin abrirlo.",
+          "flavor": "Las criaturas boca abajo funcionaban con el controlador diciendo simplemente «Lo siento, no puedes hacer eso». «Además de ser irritante para el otro jugador, tenía el problema añadido de que no podía confirmar nada de lo que decías.» La solución: «¿Y si el juego definiera sin más las características de una criatura boca abajo? Si todas fueran iguales, no hacía falta saber qué había al otro lado.»"
+        },
+        {
+          "title": "El mantenimiento de una obligación vieja puede entregarte una capacidad nueva",
+          "rules": "El trabajo que te impone algo ya publicado no es solo limpieza. Resolverlo bien construye una pieza de maquinaria que antes no existía, y el equipo que la construyó es quien mejor puede notar qué otras cosas permite ahora.",
+          "flavor": "El equipo de reglas no podía abandonar el problema: «las cartas en cuestión ya estaban impresas». Definidas las características boca abajo, «el equipo de reglas se dio cuenta de que esta nueva tecnología de reglas permitiría una mecánica completamente nueva. Imagina cartas que juegas boca abajo desde la mano y que luego puedes pagar maná para poner boca arriba.» Eso fue la metamorfosis."
+        },
+        {
+          "title": "Basta con un entusiasta, y trae tu único cambio",
+          "rules": "Una idea nueva no necesita consenso para sobrevivir: necesita una sola persona que vea el potencial y la lleve. Si eres tú, di que sí y luego aporta el ajuste concreto que la hace funcionar; defensa más una mejora concreta vale más que cualquiera de las dos por separado.",
+          "flavor": "«Vinieron a I+D a buscar a alguien que compartiera su entusiasmo por la mecánica. Ese alguien fui yo. A nadie más le gustaba especialmente la idea, pero yo le vi un gran potencial. Eso sí, sugerí un pequeño cambio. En la versión original del equipo de reglas pagabas dos manás y la criatura boca abajo era 1/1… ¿Y si eran tres manás genéricos y era 2/2?»"
+        },
+        {
+          "title": "Una pregunta hecha antes de que el otro tenga capacidad se responde como pronóstico",
+          "rules": "Cuando necesitas una decisión vinculante de alguien metido de lleno en otro proyecto, ambos saldréis satisfechos de la conversación queriendo decir cosas distintas. Él oyó «¿cuál crees más probable?». Tú oíste «¿sobre cuál construimos?». Di explícitamente que vas a comprometerte, o la respuesta no lo es.",
+          "flavor": "«Le expliqué que él y yo lo habíamos hablado y había elegido la metamorfosis. Erik explicó que, cuando se lo pregunté, no había tenido tiempo de dedicarle nada de pensamiento al bloque. Supuso que le preguntaba cuál creía yo que era más probable que acabara en el bloque. No, dije, necesitaba saber cuál usar porque el diseño empezaba y yo iba a construir el bloque entero en torno a la mecánica.»"
+        },
+        {
+          "title": "Si una etapa debe decidir antes del calendario de la siguiente, lo que hay que arreglar es el proceso",
+          "rules": "Cuando tu cadena exige rutinariamente que un grupo tome una decisión que el siguiente no ha tenido tiempo de pensar, los errores resultantes no son culpa de nadie. Trata el susto como evidencia sobre la estructura y no sobre las personas, y cambia el momento en que se piensa.",
+          "flavor": "«Que diseño tenga que tomar decisiones que afectarán a desarrollo mucho antes de que desarrollo haya tenido tiempo de pensar en el asunto es un problema en el que hemos trabajado mucho. Este episodio fue una llamada de atención de que teníamos que reevaluar cómo hacíamos algunas cosas, buena parte de lo cual hemos hecho, así que a largo plazo hay final feliz.»"
+        },
+        {
+          "title": "Bifurca el archivo, congela el original, cambia una variable",
+          "rules": "Cuando dos departamentos discrepan sobre una elección fundamental, no lo resuelvas discutiendo. Copia el conjunto entero, deja el original intacto como red, cambia el único parámetro en disputa y ejecuta ambos. Obliga a los escépticos a participar y a dar la recomendación al final.",
+          "flavor": "«Cogeríamos el archivo existente de Khans of Tarkir y lo copiaríamos creando un bloque nuevo llamado “Phooey”. El original quedaría congelado durante el experimento por si luego queríamos volver. Después cambiaríamos toda la metamorfosis por borph… Desarrollo estaba obligado a prestar atención para poder recomendar si debíamos quedarnos con “Phooey” o volver a “Huey”.»"
+        },
+        {
+          "title": "Abaratar la jugada central lo acelera todo y reevalúa cada componente",
+          "rules": "Adelantar un paso la acción principal nunca es un cambio local. Desplaza qué huecos hay que desalojar, sube la velocidad del conjunto y recalifica en silencio todo lo demás: algunas cosas se vuelven mucho más fuertes, otras se hunden, y las que suponían una partida larga dejan de pagar.",
+          "flavor": "Tres manás pasaron a dos. «Los de tres tienen que apartarse para dejar sitio a la metamorfosis; en un bloque lleno de borph, son los de dos los que deben apartarse.» «Todos tenían un 2/2 en el turno dos… La mecánica borph aceleró el reloj.» «La incursión se volvió mucho más potente… Perdurar, en cambio, empeoró bastante, porque renunciar a atacar costaba mucho más.»"
+        },
+        {
+          "title": "El presupuesto es fijo: una mitad oculta mejor significa una mitad visible peor",
+          "rules": "Cuando un componente de una cosa se hace más fuerte, esa fuerza sale del resto del mismo objeto. Mejorar la parte que a todos entusiasmaba degrada en silencio todos los demás aspectos, y el atractivo total puede caer mientras la característica estrella mejora.",
+          "flavor": "«Una criatura borph tiene simplemente más valor de juego que una de metamorfosis, lo que significaba que cada carta recibía menos cosas chulas en la cara visible. Las características empeoraban, el coste de maná subía o el coste de borph se encarecía. Meter más “puntos de poder” en la cara oculta quitaba de lo permitido en el resto de la carta.»"
+        },
+        {
+          "title": "Quitarlo es como descubres lo que valía",
+          "rules": "Vivir un tiempo sin algo mide su valor con más precisión que cualquier discusión sobre ello. Ejecuta la versión que carece de eso, fíjate exactamente en qué echas de menos, y vuelve, conservando las mejoras que el desvío haya producido: esas son tuyas de todos modos.",
+          "flavor": "«En su momento fue muy estresante para mí, pero creo que Khans of Tarkir salió mejor por haberlo hecho. A veces la mejor forma de entender algo es quitarlo y vivir sin ello. Jugar a “Phooey” me ayudó a tener mejor sentido de lo que más valoraba en “Huey”.» Y: «Por el camino hicimos varios cambios que nos gustaron, así que parte de volver fue ver qué avances de “Phooey” podían funcionar en “Huey”.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Phooey",
+      "dek": "Ils ont copié l'extension entière, gelé l'original, changé un chiffre, et passé six semaines à vivre dans la version alternative.",
+      "overview": "L'extension de Khans of Tarkir dont personne hors de Wizards n'avait entendu parler : ce qui arrive quand la morph coûte deux manas au lieu de trois.",
+      "takeaway": "« Parfois, la meilleure façon de comprendre une chose est de la retirer et de vivre sans. Jouer “Phooey” m'a aidé à mieux sentir ce à quoi je tenais le plus dans “Huey”. »",
+      "lessons": [
+        {
+          "title": "Des noms internes qui riment et s'écrivent différemment seront confondus à jamais",
+          "rules": "Un jeu de noms de travail doit se distinguer d'un coup d'œil, à l'oral et à l'écrit, par des gens qui n'ont jamais appris la référence. La rime tue le premier ; l'orthographe irrégulière le second ; et un ordre connu des seuls amateurs tue l'intérêt même d'avoir un ordre.",
+          "flavor": "« Le bloc Khans of Tarkir avait pour noms de code “Huey”, “Dewey” et “Louie”… Ce fut un mauvais choix : trois noms qui riment et s'écrivent chacun différemment posaient beaucoup de problèmes… et bien qu'il existe un ordre dans les bandes dessinées, trop peu d'employés le connaissaient : on les mélangeait constamment. »"
+        },
+        {
+          "title": "Définissez l'état caché pour que le jeu reste arbitrable sans le révéler",
+          "rules": "L'information cachée se casse quand celui qui la détient est aussi le seul à pouvoir trancher les interactions : l'autre ne peut ni vérifier une affirmation ni tirer proprement les conséquences d'un refus. Donnez à la chose dissimulée des caractéristiques publiques fixes, et tout se résout sans l'ouvrir.",
+          "flavor": "Les créatures face cachée fonctionnaient par un simple « désolé, tu ne peux pas ». « Non seulement c'était agaçant pour l'autre joueur, mais il ne pouvait rien vérifier de ce que vous disiez. » La solution : « Et si le jeu définissait purement et simplement les caractéristiques d'une créature face cachée ? Si elles étaient toutes identiques, nul besoin de savoir ce qu'il y a au verso. »"
+        },
+        {
+          "title": "L'entretien d'une vieille obligation peut vous offrir une capacité neuve",
+          "rules": "Le travail imposé par ce qui est déjà publié n'est pas que du nettoyage. Le résoudre correctement construit une machinerie qui n'existait pas, et l'équipe qui l'a bâtie est la mieux placée pour voir ce qu'elle rend désormais possible.",
+          "flavor": "L'équipe des règles ne pouvait pas abandonner : « les cartes en question étaient déjà imprimées ». Une fois les caractéristiques face cachée définies, « l'équipe des règles a réalisé que cette nouvelle technologie permettrait une mécanique entièrement neuve. Imaginez des cartes jouées face cachée depuis la main, que l'on peut ensuite retourner en payant du mana. » Ce fut la morph."
+        },
+        {
+          "title": "Un seul enthousiaste suffit, et apportez votre unique modification",
+          "rules": "Une idée neuve n'a pas besoin de consensus pour survivre ; elle a besoin d'une personne qui en voie le potentiel et la porte. Si c'est vous, dites oui puis apportez l'ajustement précis qui la fait marcher : le plaidoyer plus une amélioration concrète vaut mieux que l'un ou l'autre seul.",
+          "flavor": "« Ils sont venus à la R&D chercher quelqu'un qui partagerait leur enthousiasme. Ce fut moi. Personne d'autre n'aimait particulièrement l'idée, mais j'y voyais un grand potentiel. J'ai toutefois suggéré un petit changement. Dans leur version, on payait deux manas et la créature face cachée était 1/1… et si c'étaient trois manas génériques pour une 2/2 ? »"
+        },
+        {
+          "title": "Une question posée avant que l'autre ait la disponibilité reçoit une réponse en forme de pronostic",
+          "rules": "Quand il vous faut une décision ferme de quelqu'un plongé dans un autre projet, vous sortirez tous deux satisfaits de la conversation en pensant des choses différentes. Il a entendu « laquelle te semble la plus probable ? ». Vous avez entendu « sur laquelle bâtit-on ? ». Dites explicitement que vous allez vous engager.",
+          "flavor": "« Je lui ai expliqué que nous en avions parlé et qu'il avait choisi la morph. Erik a expliqué que, lorsque je lui avais posé la question, il n'avait eu aucun temps à consacrer au bloc. Il supposait que je lui demandais laquelle j'estimais la plus probable. Non, ai-je dit : j'avais besoin de savoir laquelle employer, car la conception démarrait et je bâtissais tout autour. »"
+        },
+        {
+          "title": "Si une étape doit décider avant le calendrier de la suivante, c'est le processus qu'il faut corriger",
+          "rules": "Quand votre chaîne exige régulièrement qu'un groupe tranche ce que le suivant n'a pas eu le temps d'examiner, les erreurs qui s'ensuivent ne sont la faute de personne. Traitez l'incident comme une donnée sur la structure, non sur les gens, et déplacez le moment de la réflexion.",
+          "flavor": "« Que la conception doive prendre des décisions affectant le développement bien avant que celui-ci ait pu y réfléchir est un problème sur lequel nous avons beaucoup travaillé. Cet épisode a servi de signal : il fallait réévaluer notre façon de faire — ce que nous avons largement fait, donc l'histoire finit bien à long terme. »"
+        },
+        {
+          "title": "Dupliquez le fichier, gelez l'original, changez une variable",
+          "rules": "Quand deux services divergent sur un choix fondateur, ne tranchez pas par la discussion. Copiez l'ensemble, gardez l'original intact comme filet, changez le seul paramètre contesté, et faites tourner les deux. Obligez les sceptiques à participer et à formuler la recommandation finale.",
+          "flavor": "« Nous allions copier le fichier existant de Khans of Tarkir pour créer une extension nommée “Phooey”. L'original resterait gelé pendant l'expérience, au cas où nous voudrions y revenir. Puis nous changerions toutes les morph en borph… Le développement était tenu de suivre pour pouvoir recommander de rester sur “Phooey” ou de revenir à “Huey”. »"
+        },
+        {
+          "title": "Baisser le prix du coup central accélère tout et requalifie chaque composant",
+          "rules": "Avancer l'action principale d'un cran n'est jamais un changement local. Cela déplace les emplacements à libérer, augmente la vitesse de l'ensemble et renote en silence tout le reste : certaines choses deviennent bien plus fortes, d'autres s'effondrent, et celles qui supposaient une partie longue cessent de payer.",
+          "flavor": "Trois manas sont devenus deux. « Les cartes à trois doivent s'écarter pour la morph ; dans une extension à borph, ce sont celles à deux. » « Tout le monde avait une 2/2 au tour deux… La borph a accéléré l'horloge. » « Le raid est devenu bien plus fort… l'endurance, à l'inverse, bien pire, car renoncer à attaquer coûtait beaucoup plus. »"
+        },
+        {
+          "title": "Le budget est fixe : une moitié cachée meilleure fait une moitié visible pire",
+          "rules": "Quand un composant devient plus fort, cette force est prise sur le reste du même objet. Améliorer la partie qui enthousiasmait tout le monde dégrade en silence tous les autres aspects, et l'attrait total peut baisser pendant que la caractéristique vedette progresse.",
+          "flavor": "« Une créature borph a simplement plus de valeur de jeu qu'une créature morph, ce qui voulait dire que chaque carte recevait moins de bonnes choses sur sa face visible. Les caractéristiques baissaient, le coût de mana montait, ou le coût de borph augmentait. Mettre plus de “points de puissance” côté face cachée retirait de ce qu'on pouvait accorder au reste. »"
+        },
+        {
+          "title": "La retirer, voilà comment on découvre ce qu'elle valait",
+          "rules": "Vivre un temps sans une chose mesure sa valeur plus exactement que tout débat à son sujet. Faites tourner la version qui en est privée, notez précisément ce qui vous manque, et revenez — en gardant les améliorations produites par le détour, qui vous restent acquises de toute façon.",
+          "flavor": "« Sur le moment, ce fut très stressant pour moi, mais je crois que Khans of Tarkir en est sorti meilleur. Parfois, la meilleure façon de comprendre une chose est de la retirer et de vivre sans. Jouer “Phooey” m'a aidé à mieux sentir ce à quoi je tenais le plus dans “Huey”. » Et : « En chemin nous avons fait des changements que nous aimions ; revenir consistait donc aussi à voir ce que “Phooey” pouvait apporter à “Huey”. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Phooey",
+      "dek": "Copiaram a coleção inteira, congelaram a original, mudaram um número, e passaram seis semanas vivendo na versão alternativa.",
+      "overview": "A coleção de Khans of Tarkir de que ninguém fora da Wizards tinha ouvido falar: o que acontece quando transmorfo custa dois manas em vez de três.",
+      "takeaway": "“Às vezes o melhor jeito de entender uma coisa é tirá-la e viver sem ela. Jogar ‘Phooey' me ajudou a ter uma noção melhor do que eu mais valorizava em ‘Huey'.”",
+      "lessons": [
+        {
+          "title": "Nomes internos que rimam e se escrevem diferente serão confundidos para sempre",
+          "rules": "Um conjunto de nomes de trabalho precisa se distinguir de relance, na fala e na escrita, por pessoas que nunca aprenderam a referência. A rima derrota o primeiro; a grafia inconsistente derrota o segundo; e uma ordem que só os fãs conhecem derrota o próprio propósito de haver uma ordem.",
+          "flavor": "“O bloco Khans of Tarkir teve os codinomes ‘Huey', ‘Dewey' e ‘Louie'… Foi uma péssima escolha, pois ter três codinomes que rimam e se escrevem cada um de um jeito era muito problemático… e embora haja uma ordem real nos quadrinhos, poucos funcionários da Wizards sabiam qual era, então as pessoas viviam trocando.”"
+        },
+        {
+          "title": "Defina o estado oculto para o jogo continuar arbitrável sem revelá-lo",
+          "rules": "Informação oculta quebra quando quem a detém também é o único que pode julgar as interações com ela: a outra parte não consegue verificar uma afirmação nem aprender de uma recusa de forma limpa. Dê à coisa escondida características públicas fixas, e tudo se resolve sem abri-la.",
+          "flavor": "Criaturas viradas para baixo funcionavam com o controlador dizendo apenas “Desculpe, você não pode fazer isso”. “Além de irritante para o outro jogador, havia o problema adicional de ele não poder confirmar nada do que você dizia.” A solução: “E se o jogo simplesmente definisse os números de uma criatura virada para baixo? Se todas fossem iguais, você não precisaria saber o que havia do outro lado.”"
+        },
+        {
+          "title": "A manutenção de uma obrigação antiga pode te entregar uma capacidade nova",
+          "rules": "O trabalho imposto por algo já publicado não é só faxina. Resolvê-lo direito constrói uma peça de maquinário que antes não existia, e a equipe que a construiu é a mais bem posicionada para notar o que ela agora torna possível.",
+          "flavor": "A equipe de regras não podia abandonar o problema: “as cartas em questão já estavam impressas”. Definidos os números das cartas viradas, “a equipe de regras percebeu que essa nova tecnologia de regras permitiria uma mecânica inteiramente nova. Imagine cartas jogadas viradas para baixo desde a mão, que depois você paga mana para virar.” Isso virou transmorfo."
+        },
+        {
+          "title": "Um entusiasta basta, e traga a sua única mudança",
+          "rules": "Uma ideia nova não precisa de consenso para sobreviver; precisa de uma única pessoa que veja o potencial e a carregue. Se for você, diga sim e então contribua com o ajuste concreto que a faz funcionar: defesa mais uma melhoria específica vale mais que qualquer uma delas sozinha.",
+          "flavor": "“Vieram à P&D procurar alguém que compartilhasse o entusiasmo pela mecânica. Esse alguém fui eu. Ninguém mais gostava muito da ideia, mas eu vi grande potencial nela. Sugeri, porém, uma pequena mudança. Na versão original da equipe de regras, você pagava dois manas e a criatura virada era 1/1… e se fossem três manas genéricos e ela fosse 2/2?”"
+        },
+        {
+          "title": "Uma pergunta feita antes de o outro ter capacidade é respondida como previsão",
+          "rules": "Quando você precisa de uma decisão vinculante de alguém imerso em outro projeto, os dois vão sair satisfeitos da conversa querendo dizer coisas diferentes. Ele ouviu “qual você acha mais provável?”. Você ouviu “em qual vamos construir?”. Diga explicitamente que está prestes a se comprometer.",
+          "flavor": "“Expliquei que ele e eu tínhamos conversado e que ele escolhera transmorfo. Erik explicou que, quando perguntei, ele não tivera tempo algum para pensar no bloco. Supôs que eu perguntava qual eu achava mais provável de acabar na coleção. Não, eu disse: eu precisava saber qual usar, porque o design estava começando e eu ia construir a coleção inteira em torno da mecânica.”"
+        },
+        {
+          "title": "Se uma etapa precisa decidir antes do calendário da seguinte, o que se conserta é o processo",
+          "rules": "Quando o seu fluxo exige rotineiramente que um grupo decida algo que o próximo não teve tempo de pensar, os erros daí não são culpa de ninguém. Trate o quase-acidente como evidência sobre a estrutura, e não sobre as pessoas, e mude o momento em que se pensa.",
+          "flavor": "“O design ter de tomar decisões que afetarão o desenvolvimento muito antes de o desenvolvimento ter tido tempo de pensar no assunto é um problema no qual trabalhamos bastante. Esse episódio foi um alerta de que precisávamos reavaliar como fazíamos algumas coisas — boa parte do que já fizemos, então no longo prazo há final feliz.”"
+        },
+        {
+          "title": "Bifurque o arquivo, congele o original, mude uma variável",
+          "rules": "Quando dois departamentos discordam sobre uma escolha fundacional, não resolva por discussão. Copie o conjunto inteiro, mantenha o original intocado como rede, mude o único parâmetro em disputa, e rode os dois. Ponha os céticos na obrigação de participar e de dar a recomendação no fim.",
+          "flavor": "“Pegaríamos o arquivo existente de Khans of Tarkir e o copiaríamos, criando uma coleção nova chamada ‘Phooey'. O original ficaria congelado durante o experimento, caso quiséssemos voltar. Então trocaríamos todo transmorfo por borph… O desenvolvimento estava obrigado a acompanhar, para poder recomendar se ficávamos com ‘Phooey' ou voltávamos a ‘Huey'.”"
+        },
+        {
+          "title": "Baratear a jogada central acelera tudo e reavalia cada componente",
+          "rules": "Adiantar a ação principal em um passo nunca é uma mudança local. Ela desloca quais vagas precisam ser esvaziadas, aumenta a velocidade do conjunto e renota em silêncio todo o resto: algumas coisas ficam bem mais fortes, outras desabam, e as que pressupunham uma partida longa deixam de pagar.",
+          "flavor": "Três manas viraram dois. “Os de três precisam sair do caminho para abrir espaço ao transmorfo; numa coleção cheia de borph, são os de dois que precisam sair.” “Todo mundo tinha um 2/2 no segundo turno… O borph acelerou o relógio.” “Investida ficou muito mais forte… Sobreviver, ao contrário, piorou bastante, pois abrir mão de atacar custava muito mais.”"
+        },
+        {
+          "title": "O orçamento é fixo: uma metade oculta melhor significa uma metade visível pior",
+          "rules": "Quando um componente fica mais forte, essa força sai do resto do mesmo objeto. Melhorar a parte que empolgava todo mundo degrada em silêncio todos os outros aspectos, e o apelo total pode cair enquanto a característica de destaque melhora.",
+          "flavor": "“Uma criatura borph simplesmente tem mais valor de jogo que uma de transmorfo, o que significava que cada carta recebia menos coisas legais no lado virado para cima. Os números pioravam, o custo de mana subia, ou o custo de borph encarecia. Pôr mais ‘pontos de poder' no lado oculto tirava do que era permitido no resto da carta.”"
+        },
+        {
+          "title": "Tirar é como você descobre quanto aquilo valia",
+          "rules": "Viver um tempo sem uma coisa mede o valor dela com mais precisão que qualquer discussão a respeito. Rode a versão que não a tem, repare exatamente no que faz falta, e volte — mantendo as melhorias que o desvio produziu, pois essas são suas de qualquer jeito.",
+          "flavor": "“Na época foi muito estressante para mim, mas acredito que Khans of Tarkir ficou melhor por termos feito isso. Às vezes o melhor jeito de entender uma coisa é tirá-la e viver sem ela. Jogar ‘Phooey' me ajudou a ter uma noção melhor do que eu mais valorizava em ‘Huey'.” E: “No caminho fizemos várias mudanças de que gostamos, então parte de voltar foi descobrir quais avanços de ‘Phooey' dava para levar para ‘Huey'.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "第四只鸭子",
+      "dek": "他们把整个系列复制了一份，把原件冻结，改动一个数字，然后在那个平行版本里住了六个星期。",
+      "overview": "那个威世智之外没人听说过的鞑契可汗系列：当变身的费用从三点变成两点时，会发生什么。",
+      "takeaway": "「有时候，理解一样东西最好的办法，就是把它拿走、然后体验没有它的日子。玩过『第四只鸭子』之后，我对自己在原方案里最看重什么，有了更清楚的感觉。」",
+      "lessons": [
+        {
+          "title": "押韵、拼写又各不相同的内部代号，会被混淆到永远",
+          "rules": "一组工作代号，必须能被那些从没学过这个典故的人一眼分清、说得清、也写得清。押韵毁掉了前两条；拼写不一致毁掉了第三条；而一个只有爱好者才知道的先后顺序，则毁掉了「有顺序」这件事本身的意义。",
+          "flavor": "「鞑契可汗环境的代号是『Huey』『Dewey』和『Louie』……事实证明这是个糟糕的选择：三个互相押韵、而且各自拼法都不同的代号，麻烦极了……另外，虽然它们在漫画和动画里确实有一个先后顺序，但威世智公司里知道这个顺序的员工不够多，于是大家不停地把它们搞混。」"
+        },
+        {
+          "title": "把隐藏的状态定义清楚，好让对局无需揭示它也能裁决",
+          "rules": "当持有隐藏信息的那个人同时也是唯一能对相关互动作出裁定的人时，这套隐藏信息就崩了：另一方既无法核实一句主张，也没法从一次拒绝里干净地推出结论。给那个被遮住的东西一组固定的公开特征，于是一切都能在不掀开它的情况下被解决。",
+          "flavor": "过去的面朝下生物，靠的是操控者简单地说一句「抱歉，你不能这么做」。「这个过程不仅让另一名牌手恼火，他还面临一个额外的问题：他没法确认你说的任何一句话。」解法是：「如果游戏干脆直接定义面朝下生物的数值呢？如果它们全都一样，你就不必知道背面是什么，也能判断场面状况。」"
+        },
+        {
+          "title": "为一份旧债做维护，可能会顺手交给你一项新能力",
+          "rules": "由已经出厂的东西强加给你的工作，并不只是打扫。把它妥善解决，会造出一台此前并不存在的机器；而造出它的那支团队，最有条件注意到：它如今还让什么变得可能。",
+          "flavor": "规则团队没法撂挑子：「相关的牌都已经印出去了。」而在定义了面朝下的数值之后，「规则团队随即意识到：这项新的规则技术，能够支撑起一个全新的机制。想象一下：你从手上把牌面朝下地打出来，之后再付法术力把它翻上来。」那就是变身。"
+        },
+        {
+          "title": "一个热心人就够了，而且请带上你的那一处改动",
+          "rules": "一个新点子并不需要共识才能活下来；它需要的是一个看见其潜力、并愿意把它扛起来的人。如果那个人是你，就点头说好；然后拿出那个让它真正跑起来的具体调整。「支持」加上「一处切实的改进」，胜过其中任何一项单独存在。",
+          "flavor": "「他们来到研发部，想找一个能分享他们这份热情的人。那个人就是我。别的人都不怎么喜欢这个点子，但我看到了巨大的潜力。不过我确实提了一处小改动：在规则团队的原始版本里，你付两点法术力，那个面朝下的生物是1/1……我建议：不如改成三点泛用法术力、做成2/2？」"
+        },
+        {
+          "title": "在对方还没有余力时问出的问题，得到的回答会是一份预测",
+          "rules": "当你需要从一个正深陷另一个项目的人那里拿到一个具有约束力的决定时，你们两个都会满意地结束这次谈话，而各自想的却是不同的事。他听到的是「你觉得哪个更可能？」；你听到的是「我们要基于哪个来造？」。把「我马上就要据此下注了」明说出来，否则那个回答就不算数。",
+          "flavor": "「我解释说，他和我谈过这件事，而他选了变身。埃里克则解释说：我问他的时候，他根本没有任何时间投入去想鞑契可汗环境。他以为我是在问他『我认为哪一个更可能进入这个系列』。不，我说，我需要知道该用哪一个，因为设计就要开始，而我要围绕这个机制去搭整个系列。」"
+        },
+        {
+          "title": "如果某一环必须赶在下一环的排期之前做决定，那要修的是流程",
+          "rules": "当你的流水线常态性地要求一个小组去拍板一件下一个小组还没时间思考的事时，由此产生的错误并不是任何人的过失。把这次险情当作关于结构的证据，而不是关于人的证据；然后去改变「思考发生在什么时候」。",
+          "flavor": "「设计必须在开发根本还没时间思考某个议题之前，就做出会影响开发的决定——这是一个我们花了大量时间去改善的问题。这件事是一记警钟：我们必须重新评估我们做某些事情的方式。其中很多我们已经改了，所以长期来看是个圆满的结局。」"
+        },
+        {
+          "title": "把文件分叉，冻结原件，只改一个变量",
+          "rules": "当两个部门在一项根基性的选择上意见相左时，别靠争论去解决。把整份东西复制一遍，把原件原封不动地留作退路，只改那个有争议的参数，然后两边都跑一遍。并且把怀疑的一方绑上：他们必须参与，并在最后给出建议。",
+          "flavor": "「我们会把现有的鞑契可汗文件复制一份，做成一个全新的系列，叫『第四只鸭子』。在这场实验期间，原始文件将保持冻结，以备我们日后想退回去。然后我们把里面所有的变身都换成borph……开发部有义务全程关注，以便最后能给出建议：我们该留在『第四只鸭子』，还是退回原方案。」"
+        },
+        {
+          "title": "把核心那一手做便宜，会让一切加速，并给其余每个部件重新评级",
+          "rules": "把主要动作提前一步，从来都不是一次局部改动。它改变了哪些位置必须被腾空，抬高了整体的速度，并且悄悄地给其余每一项特性重新打了分：有些变得强得多，有些直接崩掉，而那些以「长局」为前提的东西则彻底不再兑现。",
+          "flavor": "三点变成了两点。「三费位必须让路，好给变身腾出空间；而在一个borph很多的系列里，让路的是二费位。」「所有人在第二回合都有一个2/2……borph把时钟往前拨了。」「突击变得强得多……而持久则显著变差，因为放弃一次攻击的代价大了太多。」"
+        },
+        {
+          "title": "预算是固定的：藏起来的那一半更好，露出来的那一半就更差",
+          "rules": "当一样东西的某个部件变强时，这份力量必须从同一件东西的其余部分里扣出来。改善那个「所有人都为之兴奋」的部分，会悄悄地把它其他每一个方面都拉低；于是完全可能出现：招牌特性变好了，而整体的吸引力反而下降。",
+          "flavor": "「一个borph生物的对局价值就是比一个变身生物更高；这意味着每一张牌在正面上能拿到的好东西变少了。数值变差，或者法术力费用变高，或者borph的费用变贵。往面朝下那一侧多塞『强度点数』，就等于从这张牌其余部分被允许拥有的东西里扣走。」"
+        },
+        {
+          "title": "把它拿走，才是你弄清它值多少的办法",
+          "rules": "有一阵子在没有它的情况下过日子，比任何关于它的争论都更准确地衡量出它的价值。去跑那个「缺了它」的版本，精确地留意你想念的是什么，然后回来——并把这趟弯路所产生的那些改进留下，因为不管怎样那些都归你了。",
+          "flavor": "「在当时，这件事让我压力很大；但我相信，正因为做了它，鞑契可汗变得更好了。有时候，理解一样东西最好的办法，就是把它拿走、然后体验没有它的日子。玩过『第四只鸭子』之后，我对自己在原方案里最看重什么，有了更清楚的感觉。」以及：「一路上我们做了不少我们喜欢的改动；所以切换回去的一部分工作，就是弄清哪些来自实验版的进展可以搬回原方案里去。」"
+        }
+      ]
+    }
+  }
+}

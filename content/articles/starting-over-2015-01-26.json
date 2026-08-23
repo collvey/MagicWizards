@@ -1,0 +1,320 @@
+{
+  "id": "starting-over-2015-01-26",
+  "slug": "starting-over-2015-01-26",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-01-26",
+  "series": null,
+  "tags": ["history", "rules", "card-frames", "richard-garfield", "regrets"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/starting-over-2015-01-26",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T01:25:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "U" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Starting Over",
+      "dek": "A time machine, Richard Garfield's apartment in 1993, and a list of everything that got too expensive to change.",
+      "overview": "Rosewater goes back to the moment Magic could still be altered, tells Richard what went wrong, and then wipes his memory.",
+      "takeaway": "\"In the future, there are just too many cards referencing instants and sorceries that the change would be too confusing. But if the game just started that way…\"",
+      "lessons": [
+        {
+          "title": "A design that only breaks on runaway success is a fair bet — if you build the fix",
+          "rules": "It's legitimate to ship something whose failure mode requires you to be enormously successful; that's a good problem to have. The obligation is to recognise the moment it arrives and to have a mechanism ready, because the original assumption won't warn you when it stops holding.",
+          "flavor": "“I assume people will begin with a starter deck and maybe buy four to six boosters over time.” “What if I told you people would buy boxes of boosters?” “Oh. That means there are a whole bunch of overpowered cards. We were assuming that there would most likely be no more than one of any rare in a particular play group. We knew that we'd only get into trouble if the game was wildly successful, and then it was a good problem to have and we'd solve it when we got there.” “You did. We have something we call the banned and restricted lists.”"
+        },
+        {
+          "title": "A consistent resolution system retires a whole category of special case",
+          "rules": "Ad-hoc handling accumulates one exception at a time and each seems reasonable. Replacing the lot with a single ordering rule doesn't just tidy things up — it makes an entire class of bespoke machinery unnecessary, because the general system already does what each special case was built for.",
+          "flavor": "“The rules were, to be a bit blunt, a little hodge-podge in the beginning. There wasn't a consistent system for how everything worked. The biggest advancement there was the creation of a spell resolution system we call the stack.” “How do interrupts work in this system?” “They don't. When we created it, we retired interrupts. Last-in, first-out allows us to do the counterspells and the kinds of things you made interrupts to do.”"
+        },
+        {
+          "title": "Rotation stops the thing being a permanent hostage to old mistakes",
+          "rules": "In anything cumulative, every error you make is otherwise载 forever. A window that only includes recent work means the mistakes age out on their own — and expect the audience to hate it at first, because what they're losing is concrete and what they're gaining is structural.",
+          "flavor": "“The biggest Constructed format is called Standard and it uses the current two years' worth of cards.” “So that main format has constant flux and is not forever victim to power level mistakes?” “Yes.” “That's ingenious.” “It's funny. It was horribly received at first but has gone on to be the defining format of the game.”"
+        },
+        {
+          "title": "A design goal can be defeated by the world changing around it",
+          "rules": "Some intentions depend on conditions outside your product that you have no ability to hold in place. When those conditions move, the goal isn't wrong so much as unreachable — and often what replaces it turns out to serve the audience better than the thing you were protecting.",
+          "flavor": "On collector numbers and rarity indicators: “But that will make it much too easy for players to figure out what cards exist in the game. I mean we want to keep an air of mystery.” “I know you started the game wanting to keep a sense of mystery and have players discover cards as they played other people, but technology is just going to work against you there. Also, sharing deck technology is going to be a big part of community-building.”"
+        },
+        {
+          "title": "Lower the protagonists' power so you can tell stories about them",
+          "rules": "Characters who can do anything are difficult to write, because nothing threatens them and no situation constrains them. Cutting their capability down to a single defining ability makes them usable — it buys you jeopardy, and it makes them a recurring cast rather than a set of endings.",
+          "flavor": "“Another big change was we shifted away from Planeswalkers from having god-like powers. We massively lowered their power level to help us tell stories about them. They now basically just have the ability to walk between worlds… We also made a new planeswalker card type. It's become very popular and has done a great job of getting our main characters both in the game and story.”"
+        },
+        {
+          "title": "The price of a change is the number of things that already reference it",
+          "rules": "Every improvement has a cost that grows with the size of the corpus, and the improvements you most want are usually the structural ones that touch everything. Past a certain volume, being right stops being sufficient — the change is barred not by disagreement but by arithmetic.",
+          "flavor": "On making instant a supertype: “In the future, there are just too many cards referencing instants and sorceries that the change would be too confusing. But if the game just started that way…” “How many cards are there where you come from?” “Over 15,000.” “Okay, I'm starting to see why there've been so many changes.”"
+        },
+        {
+          "title": "Design the object to be read in the posture people actually hold it in",
+          "rules": "Layout decisions are usually judged on a single item viewed flat and alone. Check the real handling instead: overlapping, at a distance, in motion. Put the information that matters most where it survives being covered up, and make the categories distinguishable at a glance.",
+          "flavor": "“I would change the card frames so that they all look a little different, especially between permanents and nonpermanents. Also, I'd make sure lands are very distinctive. And I'd make sure these changes could be observed when the cards are fanned in your hands… They had the mana cost running down the left side of the card so you could see it when you fan your hand.” And: “The original font and layout made reading cards from far away very difficult.”"
+        },
+        {
+          "title": "One symbol per unit is what a newcomer can read",
+          "rules": "Compressed notation is written by experts for experts, and its efficiency is invisible to the person who hasn't yet learned it. A form that spells out each unit takes more space and teaches itself. Where both audiences must be served, weight the choice by who is still learning.",
+          "flavor": "“I'd have a mana symbol that represents one generic mana, and if a card has more than one then the mana cost would list more than one… Each mana would be represented by one mana symbol… I've just had to teach too many new players how to play and sit through too many focus groups to realize that the current system of writing mana costs is not the most optimal.” Why it can't change now: “aesthetically it would be too jarring to have one large chunk of Magic cards look one way and the rest look differently.”"
+        },
+        {
+          "title": "The label you want people to love shouldn't carry a built-in penalty",
+          "rules": "When you mark out a special class of thing precisely because it's the most flavourful and beloved, attaching a restriction to that mark works against you every time. Make the tag something other things can reference, and let it be a positive — the drawback earns you nothing that being distinctive doesn't.",
+          "flavor": "On the legendary supertype: “It's a signifier of a unique character or object or place. They get a lot of attention because they're very flavorful… The problem with our current rules is it's mostly a drawback and I think having the subset of cards you want your audience to love shouldn't have to come with a built-in drawback. The problem is we've developed for years around the drawback.”"
+        },
+        {
+          "title": "Say the thing you'd change out loud, then don't change it",
+          "rules": "Naming your regrets precisely is worth doing on its own — it clarifies what you actually value and tells everyone else what the constraints are. That's separate from acting on them. What you've built is the product of every decision including the wrong ones, and you can't know which fix would have cost you the whole thing.",
+          "flavor": "“I just needed to get this off my chest, but I've seen far too many time travel movies to actually mess with the past. Magic is the game it is today because of everything you did, and even one small change could alter the timeline where Magic becomes the game it is. I have no guarantee that the things I would change would be the right call.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Empezar de nuevo",
+      "dek": "Una máquina del tiempo, el apartamento de Richard Garfield en 1993, y una lista de todo lo que se volvió demasiado caro de cambiar.",
+      "overview": "Rosewater vuelve al momento en que Magic aún podía alterarse, le cuenta a Richard qué salió mal, y luego le borra la memoria.",
+      "takeaway": "«En el futuro hay demasiadas cartas que se refieren a instantáneos y conjuros; el cambio sería demasiado confuso. Pero si el juego hubiera empezado así…»",
+      "lessons": [
+        {
+          "title": "Un diseño que solo se rompe con un éxito desbocado es una apuesta razonable, si construyes el arreglo",
+          "rules": "Es legítimo publicar algo cuyo modo de fallo exige que tengas un éxito enorme; ese es un buen problema. La obligación es reconocer el momento en que llega y tener un mecanismo listo, porque la suposición original no te avisará cuando deje de sostenerse.",
+          "flavor": "«Supongo que la gente empezará con un mazo inicial y quizá compre de cuatro a seis sobres con el tiempo.» «¿Y si te dijera que la gente comprará cajas de sobres?» «Ah. Eso significa que hay un montón de cartas sobrepotentes. Suponíamos que no habría más de una copia de cada rara en un grupo de juego. Sabíamos que solo tendríamos problemas si el juego era un éxito enorme, y entonces sería un buen problema y lo resolveríamos al llegar.» «Y lo hicisteis: tenemos las listas de prohibidas y restringidas.»"
+        },
+        {
+          "title": "Un sistema de resolución consistente jubila una categoría entera de casos especiales",
+          "rules": "El tratamiento improvisado se acumula excepción a excepción, y cada una parece razonable. Sustituirlas todas por una sola regla de orden no solo ordena: vuelve innecesaria una clase entera de maquinaria a medida, porque el sistema general ya hace aquello para lo que se construyó cada caso especial.",
+          "flavor": "«Las reglas eran, por decirlo sin rodeos, un poco batiburrillo al principio. No había un sistema consistente. El mayor avance fue crear un sistema de resolución de hechizos que llamamos la pila.» «¿Y cómo funcionan las interrupciones en ese sistema?» «No funcionan. Al crearlo, jubilamos las interrupciones. El último en entrar, primero en salir nos permite hacer los contrahechizos y todo aquello para lo que las creaste.»"
+        },
+        {
+          "title": "La rotación evita que la cosa quede como rehén permanente de errores viejos",
+          "rules": "En cualquier cosa acumulativa, cada error que cometes se arrastra para siempre. Una ventana que solo incluye lo reciente hace que los errores caduquen solos; y espera que al público le horrorice al principio, porque lo que pierde es concreto y lo que gana es estructural.",
+          "flavor": "«El mayor formato Construido se llama Estándar y usa los dos años actuales de cartas.» «¿Así que ese formato principal está en flujo constante y no es víctima eterna de los errores de nivel de poder?» «Sí.» «Es ingenioso.» «Tiene gracia: se recibió fatal al principio, pero ha acabado siendo el formato que define el juego.»"
+        },
+        {
+          "title": "Un objetivo de diseño puede quedar derrotado porque el mundo cambia a su alrededor",
+          "rules": "Algunas intenciones dependen de condiciones ajenas a tu producto que no tienes capacidad de mantener en su sitio. Cuando esas condiciones se mueven, el objetivo no es tanto erróneo como inalcanzable; y a menudo lo que lo sustituye acaba sirviendo al público mejor que aquello que protegías.",
+          "flavor": "Sobre los números de coleccionista y los indicadores de rareza: «Pero eso hará demasiado fácil que los jugadores averigüen qué cartas existen. Queremos mantener un aire de misterio.» «Sé que empezaste el juego queriendo conservar ese misterio y que los jugadores descubrieran cartas jugando con otros, pero la tecnología va a jugar en tu contra. Además, compartir tecnología de mazos va a ser una gran parte de construir comunidad.»"
+        },
+        {
+          "title": "Baja el poder de los protagonistas para poder contar historias sobre ellos",
+          "rules": "Los personajes que pueden hacerlo todo son difíciles de escribir, porque nada los amenaza y ninguna situación los limita. Recortar su capacidad hasta una sola habilidad definitoria los vuelve utilizables: te compra peligro, y los convierte en un reparto recurrente en vez de en un puñado de finales.",
+          "flavor": "«Otro cambio grande fue alejarnos de que los Planeswalkers tuvieran poderes divinos. Bajamos muchísimo su nivel de poder para poder contar historias sobre ellos. Ahora básicamente solo tienen la capacidad de caminar entre mundos… También creamos un nuevo tipo de carta de Planeswalker. Se ha vuelto muy popular y ha hecho un gran trabajo metiendo a nuestros personajes principales en el juego y en la historia.»"
+        },
+        {
+          "title": "El precio de un cambio es la cantidad de cosas que ya lo referencian",
+          "rules": "Toda mejora tiene un coste que crece con el tamaño del corpus, y las mejoras que más deseas suelen ser justo las estructurales, que lo tocan todo. Pasado cierto volumen, tener razón deja de bastar: el cambio no lo impide el desacuerdo, sino la aritmética.",
+          "flavor": "Sobre hacer de «instantáneo» un supertipo: «En el futuro hay demasiadas cartas que se refieren a instantáneos y conjuros; el cambio sería demasiado confuso. Pero si el juego hubiera empezado así…» «¿Cuántas cartas hay de donde vienes?» «Más de 15.000.» «Vale, empiezo a ver por qué ha habido tantos cambios.»"
+        },
+        {
+          "title": "Diseña el objeto para leerse en la postura en que la gente lo sostiene de verdad",
+          "rules": "Las decisiones de maquetación suelen juzgarse sobre una pieza vista plana y sola. Comprueba el manejo real: superpuesto, a distancia, en movimiento. Pon la información más importante donde sobreviva a quedar tapada, y haz que las categorías se distingan de un vistazo.",
+          "flavor": "«Cambiaría los marcos para que todos se vieran algo distintos, sobre todo entre permanentes y no permanentes. Y me aseguraría de que las tierras fueran muy reconocibles. Y de que esos cambios se apreciaran con las cartas en abanico en la mano… Tenían el coste de maná bajando por el lado izquierdo, así lo ves al abrir la mano en abanico.» Y: «La fuente y la maqueta originales hacían muy difícil leer las cartas de lejos.»"
+        },
+        {
+          "title": "Un símbolo por unidad es lo que un novato puede leer",
+          "rules": "La notación comprimida la escriben expertos para expertos, y su eficiencia es invisible para quien aún no la ha aprendido. Una forma que deletrea cada unidad ocupa más y se enseña sola. Donde haya que servir a ambos públicos, pondera la decisión por quien todavía está aprendiendo.",
+          "flavor": "«Tendría un símbolo de maná que representara un maná genérico, y si una carta tiene más de uno, el coste listaría más de uno… Cada maná estaría representado por un símbolo… He tenido que enseñar a demasiados jugadores nuevos y sentarme en demasiados grupos focales como para no ver que el sistema actual de escribir costes no es el óptimo.» Por qué ya no puede cambiarse: «estéticamente sería demasiado chocante que una gran parte de las cartas se vieran de una forma y el resto de otra.»"
+        },
+        {
+          "title": "La etiqueta que quieres que la gente adore no debería llevar una penalización de fábrica",
+          "rules": "Cuando marcas una clase especial precisamente porque es la más evocadora y querida, atarle una restricción a esa marca juega en tu contra siempre. Haz que la etiqueta sea algo que otras cosas puedan referenciar, y deja que sea positiva: el inconveniente no te aporta nada que no aporte ya el ser distintivo.",
+          "flavor": "Sobre el supertipo legendario: «Es un indicador de un personaje, objeto o lugar único. Reciben mucha atención porque son muy evocadores… El problema con nuestras reglas actuales es que es sobre todo un inconveniente, y creo que el subconjunto de cartas que quieres que tu público adore no debería venir con un inconveniente de fábrica. El problema es que llevamos años desarrollando alrededor de ese inconveniente.»"
+        },
+        {
+          "title": "Di en voz alta lo que cambiarías, y luego no lo cambies",
+          "rules": "Nombrar tus arrepentimientos con precisión merece la pena por sí solo: aclara qué valoras de verdad y le dice a los demás cuáles son las restricciones. Eso es distinto de actuar sobre ellos. Lo que has construido es producto de cada decisión, incluidas las erróneas, y no puedes saber qué arreglo te habría costado el todo.",
+          "flavor": "«Solo necesitaba quitarme esto de encima, pero he visto demasiadas películas de viajes en el tiempo como para meterme de verdad con el pasado. Magic es el juego que es hoy por todo lo que hiciste, y hasta un cambio pequeño podría alterar la línea temporal en la que Magic llega a ser lo que es. No tengo ninguna garantía de que las cosas que yo cambiaría fueran la decisión correcta.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Tout recommencer",
+      "dek": "Une machine à voyager dans le temps, l'appartement de Richard Garfield en 1993, et la liste de tout ce qui est devenu trop cher à changer.",
+      "overview": "Rosewater revient au moment où Magic pouvait encore être modifié, dit à Richard ce qui a mal tourné, puis lui efface la mémoire.",
+      "takeaway": "« Dans le futur, trop de cartes font référence aux éphémères et aux rituels : le changement serait trop déroutant. Mais si le jeu avait commencé ainsi… »",
+      "lessons": [
+        {
+          "title": "Une conception qui ne casse qu'en cas de succès fou est un pari acceptable — si vous construisez le correctif",
+          "rules": "Il est légitime de livrer une chose dont le mode de défaillance exige un succès énorme ; c'est un bon problème. L'obligation est de reconnaître le moment où il arrive et d'avoir un mécanisme prêt, car l'hypothèse d'origine ne vous préviendra pas quand elle cessera de tenir.",
+          "flavor": "« Je suppose que les gens commenceront par un deck de démarrage et achèteront peut-être quatre à six boosters. » « Et si je te disais qu'ils achèteront des boîtes entières ? » « Oh. Cela veut dire qu'il y a plein de cartes trop puissantes. Nous supposions qu'il n'y aurait pas plus d'un exemplaire de chaque rare dans un groupe de jeu. Nous savions que nous n'aurions d'ennuis qu'en cas de succès fou — un bon problème, à régler le moment venu. » « Vous l'avez fait : les listes des cartes bannies et restreintes. »"
+        },
+        {
+          "title": "Un système de résolution cohérent met à la retraite toute une catégorie de cas particuliers",
+          "rules": "Le traitement au coup par coup s'accumule exception après exception, et chacune paraît raisonnable. Les remplacer toutes par une seule règle d'ordonnancement ne fait pas que ranger : cela rend inutile une classe entière de machinerie sur mesure, car le système général fait déjà ce pour quoi chaque cas avait été bâti.",
+          "flavor": "« Les règles étaient, pour être franc, un peu disparates au début. Il n'y avait pas de système cohérent. La grande avancée fut la création d'un système de résolution que nous appelons la pile. » « Et les interruptions, comment marchent-elles là-dedans ? » « Elles ne marchent pas. En le créant, nous les avons retirées. Le dernier entré, premier sorti permet de faire les contresorts et tout ce pour quoi tu les avais créées. »"
+        },
+        {
+          "title": "La rotation empêche la chose d'être l'otage permanent d'anciennes erreurs",
+          "rules": "Dans tout ce qui s'accumule, chaque erreur commise vous suit à jamais. Une fenêtre qui ne contient que le récent fait expirer les erreurs d'elles-mêmes ; et attendez-vous à ce que le public déteste au début, car ce qu'il perd est concret et ce qu'il gagne est structurel.",
+          "flavor": "« Le plus grand format Construit s'appelle Standard et utilise les deux années de cartes en cours. » « Donc ce format principal est en flux constant et n'est pas éternellement victime des erreurs de puissance ? » « Oui. » « C'est ingénieux. » « C'est drôle : il a été très mal reçu au début, et il est devenu le format qui définit le jeu. »"
+        },
+        {
+          "title": "Un objectif de conception peut être défait par le monde qui change autour",
+          "rules": "Certaines intentions dépendent de conditions extérieures à votre produit, que vous n'avez aucun moyen de maintenir. Quand elles bougent, l'objectif n'est pas tant faux qu'inatteignable — et souvent, ce qui le remplace sert mieux le public que ce que vous protégiez.",
+          "flavor": "Sur les numéros de collection et les indicateurs de rareté : « Mais cela rendra bien trop facile de savoir quelles cartes existent. Nous voulons garder un air de mystère. » « Je sais que tu as lancé le jeu en voulant garder ce mystère et laisser les joueurs découvrir les cartes en jouant, mais la technologie va jouer contre toi. Et partager la technologie de deck sera un grand facteur de communauté. »"
+        },
+        {
+          "title": "Baissez la puissance des protagonistes pour pouvoir raconter leurs histoires",
+          "rules": "Des personnages capables de tout sont difficiles à écrire : rien ne les menace, aucune situation ne les contraint. Réduire leur capacité à une seule aptitude définissante les rend utilisables : cela achète du péril et en fait une troupe récurrente plutôt qu'une série de fins.",
+          "flavor": "« Autre grand changement : nous avons cessé de donner aux planeswalkers des pouvoirs divins. Nous avons massivement baissé leur puissance pour pouvoir raconter des histoires sur eux. Ils ont désormais essentiellement la capacité de marcher entre les mondes… Nous avons aussi créé un nouveau type de carte planeswalker, devenu très populaire et très efficace pour installer nos personnages dans le jeu et dans l'histoire. »"
+        },
+        {
+          "title": "Le prix d'un changement, c'est le nombre de choses qui y font déjà référence",
+          "rules": "Toute amélioration a un coût qui croît avec la taille du corpus, et celles que vous désirez le plus sont d'ordinaire les structurelles, qui touchent à tout. Passé un certain volume, avoir raison ne suffit plus : le changement est interdit non par le désaccord mais par l'arithmétique.",
+          "flavor": "Sur le fait de faire d'« éphémère » un supertype : « Dans le futur, trop de cartes font référence aux éphémères et aux rituels : le changement serait trop déroutant. Mais si le jeu avait commencé ainsi… » « Combien de cartes y a-t-il d'où tu viens ? » « Plus de 15 000. » « D'accord, je commence à comprendre pourquoi il y a eu tant de changements. »"
+        },
+        {
+          "title": "Concevez l'objet pour être lu dans la posture où on le tient vraiment",
+          "rules": "Les décisions de mise en page se jugent d'ordinaire sur une pièce vue à plat et seule. Vérifiez la manipulation réelle : superposée, à distance, en mouvement. Placez l'information essentielle là où elle survit au recouvrement, et rendez les catégories distinguables d'un coup d'œil.",
+          "flavor": "« Je changerais les cadres pour qu'ils diffèrent un peu, surtout entre permanents et non-permanents. Je rendrais les terrains très reconnaissables. Et je m'assurerais que ces différences se voient quand les cartes sont en éventail dans la main… Le coût de mana courait le long du bord gauche, visible en éventail. » Et : « La police et la mise en page d'origine rendaient la lecture de loin très difficile. »"
+        },
+        {
+          "title": "Un symbole par unité, voilà ce qu'un débutant peut lire",
+          "rules": "La notation compressée est écrite par des experts pour des experts, et son efficacité est invisible à qui ne l'a pas encore apprise. Une forme qui égrène chaque unité prend plus de place et s'enseigne toute seule. Là où il faut servir les deux publics, pondérez selon celui qui apprend encore.",
+          "flavor": "« J'aurais un symbole représentant un mana générique, et si une carte en a plusieurs, le coût en listerait plusieurs… Chaque mana serait représenté par un symbole… J'ai dû apprendre le jeu à trop de nouveaux joueurs et assister à trop de groupes de discussion pour ne pas voir que la façon actuelle d'écrire les coûts n'est pas optimale. » Pourquoi c'est impossible maintenant : « esthétiquement, il serait trop heurtant qu'une grande part des cartes ait une allure et le reste une autre. »"
+        },
+        {
+          "title": "L'étiquette que vous voulez faire aimer ne devrait pas porter de pénalité intégrée",
+          "rules": "Quand vous marquez une classe spéciale précisément parce qu'elle est la plus savoureuse et la plus aimée, y attacher une restriction joue contre vous à chaque fois. Faites de cette étiquette une chose à laquelle d'autres peuvent se référer, et laissez-la être positive : l'inconvénient ne vous rapporte rien que la distinction n'apporte déjà.",
+          "flavor": "Sur le supertype légendaire : « C'est le signe d'un personnage, d'un objet ou d'un lieu unique. Ils attirent beaucoup d'attention car ils sont très savoureux… Le problème de nos règles actuelles, c'est que c'est surtout un inconvénient ; or le sous-ensemble de cartes que vous voulez faire aimer ne devrait pas venir avec un inconvénient intégré. Le hic : nous développons depuis des années autour de cet inconvénient. »"
+        },
+        {
+          "title": "Dites tout haut ce que vous changeriez, puis ne le changez pas",
+          "rules": "Nommer ses regrets avec précision vaut la peine en soi : cela clarifie ce à quoi vous tenez vraiment et indique aux autres où sont les contraintes. C'est distinct du fait d'agir. Ce que vous avez bâti est le produit de chaque décision, y compris les mauvaises, et vous ne pouvez savoir quel correctif vous aurait coûté le tout.",
+          "flavor": "« J'avais juste besoin de m'en libérer, mais j'ai vu bien trop de films de voyage temporel pour toucher réellement au passé. Magic est le jeu qu'il est grâce à tout ce que tu as fait, et même un petit changement pourrait altérer la ligne du temps où Magic devient ce jeu. Je n'ai aucune garantie que ce que je changerais serait le bon choix. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Começar de novo",
+      "dek": "Uma máquina do tempo, o apartamento de Richard Garfield em 1993, e uma lista de tudo que ficou caro demais para mudar.",
+      "overview": "Rosewater volta ao momento em que Magic ainda podia ser alterado, conta a Richard o que deu errado, e então apaga a memória dele.",
+      "takeaway": "“No futuro, há cartas demais fazendo referência a instantâneas e feitiços; a mudança seria confusa demais. Mas se o jogo simplesmente tivesse começado assim…”",
+      "lessons": [
+        {
+          "title": "Um design que só quebra com sucesso descomunal é uma aposta justa — se você construir o conserto",
+          "rules": "É legítimo lançar algo cujo modo de falha exige que você tenha um sucesso enorme; esse é um bom problema. A obrigação é reconhecer o momento em que ele chega e ter um mecanismo pronto, porque a suposição original não vai te avisar quando deixar de valer.",
+          "flavor": "“Suponho que as pessoas comecem com um deck inicial e talvez comprem de quatro a seis boosters ao longo do tempo.” “E se eu dissesse que vão comprar caixas de boosters?” “Ah. Então há um monte de cartas fortes demais. Supúnhamos que não haveria mais de uma cópia de cada rara num grupo de jogo. Sabíamos que só teríamos problema se o jogo fosse um sucesso estrondoso — e aí seria um bom problema, resolvido na hora.” “E vocês resolveram: temos as listas de banidas e restritas.”"
+        },
+        {
+          "title": "Um sistema de resolução consistente aposenta uma categoria inteira de casos especiais",
+          "rules": "O tratamento improvisado se acumula uma exceção por vez, e cada uma parece razoável. Substituir todas por uma única regra de ordem não só arruma: torna desnecessária uma classe inteira de maquinário sob medida, porque o sistema geral já faz aquilo para que cada caso especial foi criado.",
+          "flavor": "“As regras eram, para ser franco, meio remendadas no começo. Não havia um sistema consistente. O maior avanço foi criar um sistema de resolução que chamamos de pilha.” “E como funcionam as interrupções nesse sistema?” “Não funcionam. Ao criá-lo, aposentamos as interrupções. Último a entrar, primeiro a sair permite fazer os contra-mágicas e tudo aquilo para que você as criou.”"
+        },
+        {
+          "title": "A rotação impede que a coisa vire refém permanente de erros antigos",
+          "rules": "Em qualquer coisa cumulativa, cada erro cometido fica para sempre. Uma janela que só inclui o recente faz os erros vencerem sozinhos; e espere que o público deteste no começo, porque o que ele perde é concreto e o que ganha é estrutural.",
+          "flavor": "“O maior formato Construído se chama Padrão e usa os dois anos atuais de cartas.” “Então esse formato principal está em fluxo constante e não é vítima eterna de erros de poder?” “Sim.” “Isso é engenhoso.” “É engraçado: foi horrivelmente recebido no começo, e acabou virando o formato que define o jogo.”"
+        },
+        {
+          "title": "Um objetivo de design pode ser derrotado pelo mundo mudando ao redor dele",
+          "rules": "Algumas intenções dependem de condições fora do seu produto que você não tem como segurar no lugar. Quando essas condições se movem, o objetivo não é tanto errado quanto inalcançável — e muitas vezes o que o substitui acaba servindo ao público melhor do que aquilo que você protegia.",
+          "flavor": "Sobre números de colecionador e indicadores de raridade: “Mas isso vai facilitar demais para os jogadores descobrirem que cartas existem. Queremos manter um ar de mistério.” “Sei que você começou o jogo querendo manter esse mistério e que os jogadores descobrissem cartas jogando com os outros, mas a tecnologia vai trabalhar contra você aí. Além disso, compartilhar tecnologia de deck vai ser grande parte de construir comunidade.”"
+        },
+        {
+          "title": "Baixe o poder dos protagonistas para poder contar histórias sobre eles",
+          "rules": "Personagens que podem tudo são difíceis de escrever, porque nada os ameaça e nenhuma situação os limita. Cortar a capacidade deles a uma única habilidade definidora os torna utilizáveis: compra perigo, e faz deles um elenco recorrente em vez de um punhado de finais.",
+          "flavor": "“Outra grande mudança foi deixarmos de dar aos planeswalkers poderes divinos. Baixamos muito o nível de poder deles para conseguirmos contar histórias sobre eles. Agora basicamente só têm a capacidade de caminhar entre mundos… Também criamos um novo tipo de carta de planeswalker. Ficou muito popular e fez um ótimo trabalho de trazer nossos personagens principais para o jogo e para a história.”"
+        },
+        {
+          "title": "O preço de uma mudança é a quantidade de coisas que já a referenciam",
+          "rules": "Toda melhoria tem um custo que cresce com o tamanho do corpo de obra, e as melhorias que você mais quer costumam ser justamente as estruturais, que tocam tudo. Passado certo volume, estar certo deixa de bastar: a mudança é barrada não pela discordância, mas pela aritmética.",
+          "flavor": "Sobre tornar “instantânea” um supertipo: “No futuro, há cartas demais fazendo referência a instantâneas e feitiços; a mudança seria confusa demais. Mas se o jogo simplesmente tivesse começado assim…” “Quantas cartas existem de onde você vem?” “Mais de 15.000.” “Certo, começo a ver por que houve tantas mudanças.”"
+        },
+        {
+          "title": "Projete o objeto para ser lido na postura em que as pessoas de fato o seguram",
+          "rules": "Decisões de diagramação costumam ser julgadas com uma peça vista deitada e sozinha. Cheque o manuseio real: sobreposta, à distância, em movimento. Ponha a informação que mais importa onde ela sobreviva a ser encoberta, e faça as categorias se distinguirem de relance.",
+          "flavor": "“Eu mudaria as molduras para que todas ficassem um pouco diferentes, sobretudo entre permanentes e não permanentes. E garantiria que terrenos fossem bem distintos. E que essas diferenças aparecessem com as cartas em leque na mão… Elas traziam o custo de mana descendo pela lateral esquerda, visível ao abrir a mão em leque.” E: “A fonte e o layout originais tornavam muito difícil ler as cartas de longe.”"
+        },
+        {
+          "title": "Um símbolo por unidade é o que um iniciante consegue ler",
+          "rules": "Notação comprimida é escrita por especialistas para especialistas, e a eficiência dela é invisível para quem ainda não a aprendeu. Uma forma que soletra cada unidade ocupa mais espaço e se ensina sozinha. Onde os dois públicos precisam ser servidos, pese a escolha por quem ainda está aprendendo.",
+          "flavor": "“Eu teria um símbolo de mana representando um mana genérico, e se uma carta tem mais de um, o custo listaria mais de um… Cada mana seria representado por um símbolo… Já tive de ensinar jogadores novos demais e sentar em grupos focais demais para não ver que o sistema atual de escrever custos não é o ideal.” Por que não dá para mudar agora: “esteticamente seria chocante demais uma grande fatia das cartas ter uma cara e o resto outra.”"
+        },
+        {
+          "title": "O rótulo que você quer que as pessoas amem não deveria trazer uma punição de fábrica",
+          "rules": "Quando você marca uma classe especial justamente por ser a mais saborosa e amada, atar uma restrição a essa marca joga contra você toda vez. Faça do rótulo algo a que outras coisas possam se referir, e deixe-o ser positivo: a desvantagem não te dá nada que ser distintivo já não dê.",
+          "flavor": "Sobre o supertipo lendário: “É um sinalizador de um personagem, objeto ou lugar único. Recebem muita atenção porque são muito saborosos… O problema das nossas regras atuais é que ele é sobretudo uma desvantagem, e acho que o subconjunto de cartas que você quer que seu público ame não deveria vir com uma desvantagem embutida. O problema é que desenvolvemos há anos em torno dessa desvantagem.”"
+        },
+        {
+          "title": "Diga em voz alta o que você mudaria, e então não mude",
+          "rules": "Nomear seus arrependimentos com precisão vale por si só: esclarece o que você de fato valoriza e mostra aos outros onde estão as restrições. Isso é separado de agir sobre eles. O que você construiu é produto de cada decisão, inclusive as erradas, e você não tem como saber qual conserto teria te custado o todo.",
+          "flavor": "“Eu só precisava tirar isso do peito, mas já vi filmes de viagem no tempo demais para de fato mexer com o passado. Magic é o jogo que é hoje por causa de tudo que você fez, e até uma mudança pequena poderia alterar a linha do tempo em que Magic se torna esse jogo. Não tenho garantia alguma de que as coisas que eu mudaria seriam a escolha certa.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "从头再来",
+      "dek": "一台时间机器、1993年理查德·加菲尔德的公寓，以及一份「后来贵到改不动了」的清单。",
+      "overview": "罗斯瓦特回到万智牌还能被改动的那一刻，把哪里出了错告诉理查德，然后抹掉了他的记忆。",
+      "takeaway": "「在未来，引用了瞬间与法术这两个词的牌实在太多了，这个改动会造成太大的困惑。可如果这个游戏一开始就是那样的话……」",
+      "lessons": [
+        {
+          "title": "一个只在「爆红」时才会崩的设计是一笔公平的赌注——前提是你把那个修补造出来",
+          "rules": "发布一样「其失效条件是你取得了巨大成功」的东西，是正当的；那本来就是个值得拥有的问题。你的义务在于：认出它到来的那一刻，并且手上已经备好一套机制——因为当初那个假设，并不会在自己不再成立时通知你。",
+          "flavor": "「我猜人们会从一副入门套牌开始，然后陆陆续续买上四到六包补充包。」「如果我告诉你，人们会整盒整盒地买呢？」「哦。那就意味着有一大堆强度过头的牌。我们当时的假设是：在一个游戏小圈子里，同一张稀有牌多半不会超过一张。我们知道，只有当这个游戏红得发紫时我们才会出麻烦；而那时那是个值得拥有的问题，等到了那一天再解决。」「你们解决了。我们有个东西叫禁牌与限制牌表。」"
+        },
+        {
+          "title": "一套一致的结算系统，能让一整类特例退休",
+          "rules": "临时处置是一次一个例外地累积起来的，而每一个看上去都合情合理。用单独一条排序规则把它们全部替换掉，不只是把东西收拾干净：它让一整类定制机器变得多余——因为那个通用系统，已经在做每一个特例当初被造出来要做的事。",
+          "flavor": "「说得直白些，早期的规则有点大杂烩。整套东西如何运作，并没有一个一致的系统。那里最大的进展，是创造了一套我们称之为『堆叠』的咒语结算系统。」「那么在这套系统里，『中断』怎么运作？」「它不运作了。我们创造堆叠时，就把中断退休了。后进先出让我们能够做出反击咒语，以及你当初造中断是为了做的那些事。」"
+        },
+        {
+          "title": "轮替让这样东西不再是旧错误的永久人质",
+          "rules": "在任何会累积的东西里，你犯下的每一个错误否则都会被永远背着。一个只纳入近期作品的窗口，意味着那些错误会自己到期离场；而且要预料到观众一开始会讨厌它——因为他们失去的是具体的，得到的却是结构性的。",
+          "flavor": "「最大的构筑赛制叫标准，它使用当前两年份的牌。」「所以那个主赛制处在持续的流动之中，不会永远沦为强度错误的受害者？」「是的。」「这很高明。」「有意思的是：它一开始被骂得很惨，后来却成了定义这个游戏的那个赛制。」"
+        },
+        {
+          "title": "一个设计目标，可能会被「周围的世界变了」所击败",
+          "rules": "有些意图依赖的是你产品之外的条件，而你根本没有能力把那些条件按住不动。当它们移动时，这个目标与其说是错的，不如说是够不着了；而且很多时候，取代它的那样东西，反倒比你当初在守护的那样东西更好地服务了观众。",
+          "flavor": "关于收藏编号与稀有度标记：「可那会让玩家太容易搞清这个游戏里到底存在哪些牌了。我们想保留一份神秘感。」「我知道你创造这个游戏时，希望保留那份神秘、让玩家在与他人对局的过程中一张张发现新牌；但在这件事上，技术会跟你作对。而且，分享套牌技术将会是社群建设的一大部分。」"
+        },
+        {
+          "title": "把主角的能力调低，好让你能讲关于他们的故事",
+          "rules": "无所不能的角色很难写：没有什么能威胁到他们，也没有什么处境能约束他们。把他们的能力削到只剩一项定义性的本事，反而让他们变得可用：这为你买来了危机感，也让他们成为一批可以反复出场的班底，而不是一串结局。",
+          "flavor": "「另一个大改动，是我们不再让鹏洛客拥有神一般的力量。我们大幅降低了他们的强度，好让我们能讲关于他们的故事。如今他们基本上只有在世界之间行走的能力……我们还做出了一个新的鹏洛客牌张类别。它非常受欢迎，并且在把我们的主要角色同时带进游戏与故事这件事上做得极好。」"
+        },
+        {
+          "title": "一次改动的价格，等于已经引用了它的东西的数量",
+          "rules": "每一项改进的成本都会随着这批作品的体量增长；而你最想要的那些改进，通常恰恰是牵一发动全身的结构性改进。越过某个体量之后，「你是对的」就不再足够了：挡住这次改动的不是异议，而是算术。",
+          "flavor": "关于把「瞬间」做成一个超类别：「在未来，引用了瞬间与法术这两个词的牌实在太多了，这个改动会造成太大的困惑。可如果这个游戏一开始就是那样的话……」「你来的那个地方有多少张牌？」「一万五千多张。」「好吧，我开始明白为什么会有那么多改动了。」"
+        },
+        {
+          "title": "按照人们真正握着它的那个姿势，来设计这件东西的可读性",
+          "rules": "版面上的决定，通常是拿一件平摊着、单独看的样品来评判的。改为去检查真实的使用方式：互相叠压、隔着距离、处在移动中。把最要紧的信息放在「即使被盖住也仍然幸存」的位置上，并让各个类别一眼就能被区分开。",
+          "flavor": "「我会改动牌框，让它们彼此看上去有点不一样，尤其是永久物与非永久物之间。我还会确保地牌非常好认。并且我会确保：当牌在你手里摊成扇形时，这些差别看得出来……它们把法术力费用沿着牌的左侧竖着排，这样你摊开手牌时就能看见。」以及：「最初的字体和版面，让人从远处很难读清牌面。」"
+        },
+        {
+          "title": "「一个单位一个符号」，才是新手读得懂的写法",
+          "rules": "压缩过的记法，是内行写给内行看的；而它的效率，对还没学会它的人来说是隐形的。一种把每个单位都逐个列出来的形式占地更大，却能自己把自己教会。当两类受众都必须被照顾时，请按「还在学的那一方」来加权这个选择。",
+          "flavor": "「我会用一个法术力符号来代表一点泛用法术力；如果一张牌需要不止一点，那费用栏里就列出不止一个……每一点法术力都由一个符号来表示……我教过太多新玩家、也坐过太多次焦点小组，因而意识到：如今这套书写费用的系统并不是最优的。」而它如今为何不能改：「在观感上，让一大批牌长成一个样、其余的长成另一个样，会太过刺眼。」"
+        },
+        {
+          "title": "你希望人们喜爱的那个标签，不该自带一份惩罚",
+          "rules": "当你之所以标出某一类特殊之物，恰恰是因为它最有味道、最受喜爱时，把一条限制拴在这个标记上，每一次都在跟你自己作对。让这个标签成为「别的东西可以去引用」的对象，并让它是正面的：那份缺点并没有给你带来任何「独特」本身没能带来的东西。",
+          "flavor": "关于传奇这个超类别：「它是一个独特角色、物件或地点的标志。它们受到很多关注，因为它们非常有味道……我们现行规则的问题在于：它主要是一个缺点。而我认为，那一批『你希望观众去爱』的牌，不该自带一个缺点。麻烦在于，我们已经围绕这个缺点开发了很多年。」"
+        },
+        {
+          "title": "把你想改的东西说出口，然后不要去改它",
+          "rules": "把自己的遗憾精确地讲出来，这件事本身就值得做：它厘清了你真正看重什么，也告诉了其他所有人约束在哪里。而这与「据此采取行动」是两回事。你所建成的东西，是每一个决定（包括那些错误的决定）共同的产物；而你无法知道，哪一次修补会让你连整件东西一起赔掉。",
+          "flavor": "「我只是需要把这些话说出来透口气；但我看过太多时间旅行电影，不会真的去动过去。万智牌之所以是今天这个游戏，靠的正是你做过的一切；哪怕一个很小的改动，都可能改变那条『万智牌成为它自己』的时间线。我没有任何保证说，我想改的那些东西就是正确的抉择。」"
+        }
+      ]
+    }
+  }
+}
