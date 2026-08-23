@@ -1,0 +1,320 @@
+{
+  "id": "designing-rakdos-2012-12-10",
+  "slug": "designing-rakdos-2012-12-10",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2012-12-10",
+  "series": { "id": "designing-the-color-pairs", "order": 5, "total": 10 },
+  "tags": ["color-pie", "mechanics", "black-red", "thresholds", "method"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/designing-rakdos-2012-12-10",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Designing Rakdos",
+      "dek": "The fifth colour-pair column: a pairing so mechanically overlapped that every card drifts to the same two shapes unless you fight it, and a writing-class trick for finding out what a faction actually wants.",
+      "overview": "Black and red share more ground than almost any other pairing, which makes cards easy to make and makes them all the same card. Rosewater's account of the work here is mostly about resisting inertia — that and a discovery he found counterintuitive: the pair looks built for a fast aggressive deck and its own removal quality keeps pushing it toward control. The two mechanic histories are a matched pair of failures and recoveries. One came from a technique he calls extreming, worked in theory, and produced swingy games that asked players to want something frightening. The other was scrapped for warping the set around enablers nobody else could use.",
+      "takeaway": "The recurring test in both halves is not whether the mechanic is good but what it does to everything around it — the cards you have to print to support it, and whether those cards are worth anything to the people not using them.",
+      "lessons": [
+        {
+          "title": "Where a pairing has a strong default, the work is resisting it",
+          "rules": "These two colours overlap so efficiently that cards for them almost make themselves — and left alone, every one becomes either a removal spell or an aggressive creature. He states the requirement bluntly: when designing here you have to be conscious of avoiding the obvious space, because without effort everything drifts into it. A combination that produces good cards easily is not an easy assignment. It's an assignment where your main job is to notice what you're not making.",
+          "flavor": "The cards write themselves, and they all write themselves as the same two cards."
+        },
+        {
+          "title": "Judge a mechanic by what its enablers do for everyone not using it",
+          "rules": "One candidate mechanic got cut for a reason that isn't about the mechanic. Supporting it meant printing cheap creatures capable of one burst of damage — cards that are normally weak and become good only in its presence. Those cards were worthless to anyone else, which cut the connections between the factions and narrowed how many different decks the format could produce. A mechanic's real footprint includes every card you had to make so it would work.",
+          "flavor": "Not what the mechanic costs. What the scaffolding costs everybody who isn't climbing it."
+        },
+        {
+          "title": "A capability can crowd out the strategy it appears to enable",
+          "rules": "He calls this the interesting thing he learned building a fast tribal deck in these colours: at first glance they look like a natural home for a cheap aggressive strategy, and in practice the sheer efficiency of their removal pushes them toward control. Why attack recklessly when you can slow down and use the removal to manage tempo? Having a very good tool for one job changes what the whole set of tools is for.",
+          "flavor": "Too good at killing things to bother racing."
+        },
+        {
+          "title": "Name the anti-pattern: \"win when you're ahead\"",
+          "rules": "One reason the discarded mechanic failed is captured in a phrase R&D keeps for the shape: it's a win-when-you're-ahead mechanic, meaning it's useless precisely when you most need it and largely irrelevant when you're in a position to use it. Having a name for that shape lets it be recognised in a meeting rather than rediscovered in playtesting. Anti-patterns are worth naming for the same reason patterns are.",
+          "flavor": "It arrives to help you once you no longer need help."
+        },
+        {
+          "title": "Write the condition on the state, not on the source",
+          "rules": "The final mechanic gives a creature a counter and a restriction, and the deciding tweak was to make the restriction apply whenever the creature has such a counter, regardless of where it came from. That one word turns a self-contained mechanic into something other cards can reach — including a different faction's mechanic, which was itself adjusted to be able to target so the interaction would exist. Conditions written on state are open to the whole system; conditions written on provenance are closed.",
+          "flavor": "Two factions, one counter, and a moment neither mechanic was individually designed to produce."
+        },
+        {
+          "title": "The best replacement clears two unrelated problems at once",
+          "rules": "Two things were true at the same time: the existing candidate made the development team nervous and was distorting the set, and the director had separately noticed the release lacked any combat-focused creature mechanic, which large sets of that shape normally carry. The replacement answered both. When you're already forced to swap something out, check the standing list of what else the project is missing before you specify what goes in.",
+          "flavor": "One vacancy, two complaints, and a single card type that settled both."
+        },
+        {
+          "title": "Extreming: solve for the most extreme version, then read it for the germ",
+          "rules": "The technique comes from a writing class. Stuck on a scene, he was told to end it in the most extreme way he could imagine, and did — the character burns down his apartment and toasts a sausage in the flames. The professor's point was that the extreme version identified the thing the scene was actually about: anger. Applied here, the most extreme turn for this faction is casting everything and destroying the board, which reveals that what they want is to go full throttle and never stop.",
+          "flavor": "The apartment was not the answer. The anger that burned it down was."
+        },
+        {
+          "title": "When you know the first impression will undersell it, budget the advocacy",
+          "rules": "They understood before release that the final mechanic was, in his term, unsexy — it reads as worse than it plays. Rather than change it or hope, he spent the entire preview period repeating one line publicly: reserve judgement until you have played with it. The reception turned once people did. A design whose value only appears in play needs a communications plan, and knowing that in advance is the cheap part.",
+          "flavor": "\"Reserve judgment until you play it,\" over and over, for weeks."
+        },
+        {
+          "title": "A category with a known failure mode should be entered wholeheartedly or not at all",
+          "rules": "He defines the class the failed mechanic belonged to — everything in it flips from one state to a heightened one on the same shared condition — and its two consequences: it makes games swingy, and it makes decks linear, and each of those amplifies the other. His standing position is to go big or go home, because the only version worth the risk is one strong enough to lure players into chasing the condition. A half-committed version has all the volatility and none of the pull.",
+          "flavor": "Every card in the deck changes at once. That is the appeal and the whole of the danger."
+        },
+        {
+          "title": "The senior person can answer the problem instead of assigning it",
+          "rules": "Faced with a mechanic that needed replacing and a gap that needed filling, the director didn't simply hand the pair of problems to the design team. He went and designed several candidates himself, then called the head designer in to look at them. The article notes why: he no longer gets much chance to do the work. Somebody with the authority to delegate a problem is also allowed to take a run at it, and occasionally that's where the answer comes from.",
+          "flavor": "He could have assigned it. He sat down and made a few instead."
+        }
+      ]
+    },
+    "es": {
+      "title": "Diseñando Rakdos",
+      "dek": "La quinta columna de parejas de colores: una pareja tan solapada mecánicamente que toda carta deriva hacia las mismas dos formas si no lo combates, y un truco de clase de escritura para averiguar qué quiere realmente una facción.",
+      "overview": "Negro y rojo comparten más terreno que casi ninguna otra pareja, lo que hace las cartas fáciles de hacer y hace que todas sean la misma carta. El relato de Rosewater trata sobre todo de resistir la inercia, y de un hallazgo que le pareció contraintuitivo: la pareja parece hecha para un mazo rápido y agresivo, y la calidad de su propia remoción la empuja una y otra vez hacia el control. Las dos historias de mecánicas son un par emparejado de fracasos y recuperaciones. Una salió de una técnica que llama «extremar», funcionó en teoría y produjo partidas muy oscilantes que pedían a los jugadores querer algo que da miedo. La otra se descartó por deformar la expansión en torno a facilitadores que nadie más podía usar.",
+      "takeaway": "La prueba recurrente en ambas mitades no es si la mecánica es buena, sino qué le hace a todo lo demás: las cartas que tienes que imprimir para sostenerla, y si esas cartas valen algo para quien no las está usando.",
+      "lessons": [
+        {
+          "title": "Cuando una pareja tiene un valor por defecto fuerte, el trabajo es resistirlo",
+          "rules": "Estos dos colores se solapan con tanta eficiencia que las cartas casi se hacen solas, y si las dejas, todas acaban siendo un hechizo de remoción o una criatura agresiva. Él enuncia el requisito sin rodeos: al diseñar aquí hay que ser consciente de evitar el espacio obvio, porque sin esfuerzo todo deriva hacia allí. Una combinación que produce buenas cartas con facilidad no es un encargo fácil. Es un encargo donde tu trabajo principal es notar lo que no estás haciendo.",
+          "flavor": "Las cartas se escriben solas, y todas se escriben solas como las mismas dos cartas."
+        },
+        {
+          "title": "Juzga una mecánica por lo que sus facilitadores hacen por quien no la usa",
+          "rules": "Una mecánica candidata se cortó por una razón que no va de la mecánica. Sostenerla implicaba imprimir criaturas baratas capaces de un estallido de daño: cartas normalmente flojas que solo se vuelven buenas en su presencia. Esas cartas no valían nada para nadie más, lo que cortó las conexiones entre facciones y estrechó cuántos mazos distintos podía producir el formato. La huella real de una mecánica incluye cada carta que tuviste que hacer para que funcionara.",
+          "flavor": "No lo que cuesta la mecánica. Lo que cuesta el andamio a todos los que no están subiendo por él."
+        },
+        {
+          "title": "Una capacidad puede desplazar a la estrategia que aparentemente habilita",
+          "rules": "Lo llama lo interesante que aprendió construyendo un mazo tribal rápido en estos colores: a primera vista parecen el hogar natural de una estrategia barata y agresiva, y en la práctica la pura eficiencia de su remoción los empuja hacia el control. ¿Por qué atacar temerariamente si puedes frenar un poco y usar la remoción para gestionar el tempo? Tener una herramienta muy buena para un trabajo cambia para qué sirve el conjunto entero de herramientas.",
+          "flavor": "Demasiado bueno matando cosas como para molestarse en correr."
+        },
+        {
+          "title": "Ponle nombre al antipatrón: «ganar cuando ya vas ganando»",
+          "rules": "Una razón del fracaso de la mecánica descartada se recoge en una expresión que I+D guarda para esa forma: es una mecánica de ganar-cuando-vas-ganando, es decir, inútil justo cuando más la necesitas y en gran medida irrelevante cuando estás en posición de usarla. Tener un nombre para esa forma permite reconocerla en una reunión en vez de redescubrirla en las pruebas. Los antipatrones merecen nombre por la misma razón que los patrones.",
+          "flavor": "Llega a ayudarte cuando ya no necesitas ayuda."
+        },
+        {
+          "title": "Escribe la condición sobre el estado, no sobre el origen",
+          "rules": "La mecánica final da a una criatura un contador y una restricción, y el ajuste decisivo fue que la restricción se aplique siempre que la criatura tenga ese contador, venga de donde venga. Esa palabra convierte una mecánica autocontenida en algo que otras cartas pueden alcanzar, incluida la mecánica de otra facción, que a su vez se ajustó para poder apuntar y que la interacción existiera. Las condiciones escritas sobre el estado están abiertas a todo el sistema; las escritas sobre la procedencia están cerradas.",
+          "flavor": "Dos facciones, un contador, y un momento que ninguna mecánica fue diseñada por separado para producir."
+        },
+        {
+          "title": "El mejor sustituto resuelve dos problemas sin relación a la vez",
+          "rules": "Dos cosas eran ciertas al mismo tiempo: la candidata existente ponía nerviosa a desarrollo y estaba deformando la expansión, y el director había notado por separado que al lanzamiento le faltaba cualquier mecánica de criatura centrada en el combate, algo que las expansiones grandes de esa forma suelen llevar. El sustituto respondió a ambas. Cuando ya te ves forzado a cambiar algo, repasa la lista pendiente de qué más le falta al proyecto antes de especificar qué entra.",
+          "flavor": "Una vacante, dos quejas y un solo tipo de carta que zanjó las dos."
+        },
+        {
+          "title": "Extremar: resuelve la versión más extrema y léela buscando el germen",
+          "rules": "La técnica viene de una clase de escritura. Atascado en una escena, le dijeron que la terminara del modo más extremo que pudiera imaginar, y lo hizo: el personaje incendia su apartamento y tuesta una salchicha en las llamas. El profesor señaló que la versión extrema identificaba de qué iba realmente la escena: ira. Aplicado aquí, el turno más extremo para esta facción es lanzar todo y destruir el campo, lo que revela que lo que quieren es ir a fondo y no parar nunca.",
+          "flavor": "El apartamento no era la respuesta. La ira que lo quemó, sí."
+        },
+        {
+          "title": "Cuando sabes que la primera impresión la infravalorará, presupuesta la defensa",
+          "rules": "Sabían antes del lanzamiento que la mecánica final era, en su término, poco vistosa: se lee peor de lo que se juega. En vez de cambiarla o esperar, se pasó todo el periodo de avances repitiendo públicamente una frase: reserva tu juicio hasta que la hayas jugado. La acogida cambió en cuanto la gente lo hizo. Un diseño cuyo valor solo aparece jugando necesita un plan de comunicación, y saberlo por adelantado es la parte barata.",
+          "flavor": "«Reserva tu juicio hasta que la juegues», una y otra vez, durante semanas."
+        },
+        {
+          "title": "En una categoría con un modo de fallo conocido, entra a fondo o no entres",
+          "rules": "Define la clase a la que pertenecía la mecánica fallida —todo en ella pasa de un estado a otro elevado con la misma condición compartida— y sus dos consecuencias: hace las partidas oscilantes y hace los mazos lineales, y cada cosa amplifica la otra. Su postura permanente es ir a por todas o no ir, porque la única versión que merece el riesgo es una lo bastante fuerte como para seducir a los jugadores a perseguir la condición. Una versión a medias tiene toda la volatilidad y nada del atractivo.",
+          "flavor": "Todas las cartas del mazo cambian a la vez. Ese es el atractivo y también todo el peligro."
+        },
+        {
+          "title": "La persona veterana puede responder al problema en vez de asignarlo",
+          "rules": "Ante una mecánica que había que sustituir y un hueco que había que llenar, el director no entregó sin más el par de problemas al equipo de diseño. Fue y diseñó él mismo varios candidatos, y luego llamó al diseñador jefe para enseñárselos. El artículo señala por qué: ya no tiene muchas ocasiones de hacer el trabajo. Quien tiene autoridad para delegar un problema también tiene permiso para intentarlo, y de vez en cuando de ahí sale la respuesta.",
+          "flavor": "Podría haberlo asignado. En vez de eso, se sentó e hizo unos cuantos."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Concevoir Rakdos",
+      "dek": "La cinquième chronique sur les paires de couleurs : une paire si recouverte mécaniquement que chaque carte dérive vers les deux mêmes formes si l'on n'y résiste pas, et une astuce d'atelier d'écriture pour découvrir ce qu'une faction veut vraiment.",
+      "overview": "Le noir et le rouge partagent plus de terrain que presque toute autre paire, ce qui rend les cartes faciles à faire et les rend toutes identiques. Le récit de Rosewater porte surtout sur la résistance à l'inertie — et sur une découverte qu'il a trouvée contre-intuitive : la paire semble taillée pour un deck rapide et agressif, et la qualité de son propre retrait la pousse sans cesse vers le contrôle. Les deux histoires de mécaniques forment une paire assortie d'échecs et de rattrapages. L'une vient d'une technique qu'il appelle l'extrémisation, marchait en théorie, et donnait des parties très instables demandant aux joueurs de vouloir quelque chose d'effrayant. L'autre fut abandonnée pour avoir déformé l'extension autour de facilitateurs inutilisables par les autres.",
+      "takeaway": "L'épreuve récurrente dans les deux moitiés n'est pas de savoir si la mécanique est bonne, mais ce qu'elle fait à tout ce qui l'entoure : les cartes qu'il a fallu imprimer pour la soutenir, et si ces cartes valent quelque chose pour ceux qui ne s'en servent pas.",
+      "lessons": [
+        {
+          "title": "Quand une paire a une valeur par défaut forte, le travail consiste à y résister",
+          "rules": "Ces deux couleurs se recouvrent si efficacement que les cartes se font presque toutes seules — et, livrées à elles-mêmes, chacune devient soit un sort de retrait, soit une créature agressive. Il énonce l'exigence sans détour : en concevant ici, il faut consciemment éviter l'espace évident, car sans effort tout y dérive. Une combinaison qui produit facilement de bonnes cartes n'est pas une mission facile. C'est une mission où votre travail principal est de remarquer ce que vous ne faites pas.",
+          "flavor": "Les cartes s'écrivent toutes seules, et elles s'écrivent toutes comme les deux mêmes cartes."
+        },
+        {
+          "title": "Jugez une mécanique à ce que ses facilitateurs apportent à ceux qui ne s'en servent pas",
+          "rules": "Une mécanique candidate a été coupée pour une raison qui ne la concerne pas elle. La soutenir imposait d'imprimer des créatures bon marché capables d'une poussée de dégâts — des cartes d'ordinaire faibles, bonnes uniquement en sa présence. Ces cartes ne valaient rien pour les autres, ce qui coupait les liens entre factions et réduisait la variété de decks que le format pouvait produire. L'empreinte réelle d'une mécanique comprend chaque carte qu'il a fallu faire pour qu'elle fonctionne.",
+          "flavor": "Pas ce que coûte la mécanique. Ce que l'échafaudage coûte à tous ceux qui n'y grimpent pas."
+        },
+        {
+          "title": "Une capacité peut évincer la stratégie qu'elle semble permettre",
+          "rules": "Il appelle cela ce qu'il a appris d'intéressant en bâtissant un deck tribal rapide dans ces couleurs : au premier abord elles paraissent le foyer naturel d'une stratégie agressive et bon marché, et en pratique l'efficacité même de leur retrait les pousse vers le contrôle. Pourquoi attaquer imprudemment quand on peut ralentir et gérer le tempo au retrait ? Disposer d'un très bon outil pour une tâche change la destination de toute la boîte à outils.",
+          "flavor": "Trop bons à tuer des choses pour se donner la peine de courir."
+        },
+        {
+          "title": "Nommez l'anti-motif : « gagner quand on est devant »",
+          "rules": "Une des raisons de l'échec de la mécanique écartée tient dans une formule que la R&D garde pour cette forme : c'est une mécanique de gagner-quand-on-est-devant, c'est-à-dire inutile précisément quand on en a le plus besoin, et largement sans objet quand on est en position de s'en servir. Avoir un nom pour cette forme permet de la reconnaître en réunion plutôt que de la redécouvrir en test. Les anti-motifs méritent un nom pour la même raison que les motifs.",
+          "flavor": "Elle arrive vous aider une fois que vous n'avez plus besoin d'aide."
+        },
+        {
+          "title": "Écrivez la condition sur l'état, pas sur la provenance",
+          "rules": "La mécanique finale donne à une créature un marqueur et une restriction, et l'ajustement décisif fut d'appliquer la restriction dès que la créature porte un tel marqueur, d'où qu'il vienne. Ce mot transforme une mécanique autonome en quelque chose que d'autres cartes peuvent atteindre — y compris la mécanique d'une autre faction, elle-même ajustée pour pouvoir cibler afin que l'interaction existe. Les conditions écrites sur l'état sont ouvertes à tout le système ; celles écrites sur l'origine sont fermées.",
+          "flavor": "Deux factions, un marqueur, et un moment qu'aucune des deux mécaniques n'avait été conçue pour produire."
+        },
+        {
+          "title": "Le meilleur remplaçant règle deux problèmes sans rapport d'un coup",
+          "rules": "Deux choses étaient vraies en même temps : la candidate en place inquiétait le développement et déformait l'extension, et le directeur avait séparément noté que la sortie n'avait aucune mécanique de créature axée sur le combat, ce que les grandes extensions de cette forme comportent d'ordinaire. Le remplaçant a répondu aux deux. Quand vous êtes déjà contraint de retirer quelque chose, passez en revue la liste de ce qui manque au projet avant de spécifier ce qui entre.",
+          "flavor": "Une vacance, deux reproches, et un seul type de carte qui a réglé les deux."
+        },
+        {
+          "title": "Extrémiser : résolvez la version la plus extrême, puis lisez-y le germe",
+          "rules": "La technique vient d'un atelier d'écriture. Bloqué sur une scène, on lui a dit de la terminer de la façon la plus extrême imaginable, et il l'a fait : le personnage incendie son appartement et fait griller une saucisse dans les flammes. Le professeur a montré que la version extrême identifiait le vrai sujet de la scène : la colère. Appliqué ici, le tour le plus extrême pour cette faction est de tout lancer et de détruire le champ, ce qui révèle qu'elle veut aller à fond et ne jamais s'arrêter.",
+          "flavor": "L'appartement n'était pas la réponse. La colère qui l'a brûlé, si."
+        },
+        {
+          "title": "Quand vous savez que la première impression la sous-vendra, budgétez le plaidoyer",
+          "rules": "Ils savaient avant la sortie que la mécanique finale était, selon son terme, peu séduisante : elle se lit moins bien qu'elle ne se joue. Plutôt que de la changer ou d'espérer, il a passé toute la période d'avant-premières à répéter publiquement une phrase : réservez votre jugement jusqu'à y avoir joué. L'accueil a basculé une fois que les gens l'ont fait. Une conception dont la valeur n'apparaît qu'en jeu a besoin d'un plan de communication, et le savoir à l'avance est la partie bon marché.",
+          "flavor": "« Réservez votre jugement jusqu'à y avoir joué », encore et encore, pendant des semaines."
+        },
+        {
+          "title": "Dans une catégorie au mode d'échec connu, engagez-vous à fond ou pas du tout",
+          "rules": "Il définit la classe à laquelle appartenait la mécanique ratée — tout y bascule d'un état à un état accru sur une même condition partagée — et ses deux conséquences : elle rend les parties instables et les decks linéaires, chacune amplifiant l'autre. Sa position constante est d'y aller à fond ou de s'abstenir, car la seule version qui vaille le risque est assez forte pour donner envie de courir après la condition. Une version à moitié engagée a toute la volatilité et aucun attrait.",
+          "flavor": "Toutes les cartes du deck changent d'un coup. C'est l'attrait, et c'est tout le danger."
+        },
+        {
+          "title": "Le senior peut répondre au problème au lieu de l'attribuer",
+          "rules": "Face à une mécanique à remplacer et à un manque à combler, le directeur n'a pas simplement confié les deux problèmes à l'équipe de conception. Il a conçu lui-même plusieurs candidates, puis a fait venir le concepteur en chef pour les lui montrer. L'article dit pourquoi : il n'a plus guère l'occasion de faire le travail. Qui a l'autorité de déléguer un problème a aussi le droit de s'y essayer, et parfois c'est de là que vient la réponse.",
+          "flavor": "Il aurait pu l'attribuer. Il s'est assis et en a fabriqué quelques-unes."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Desenhando Rakdos",
+      "dek": "A quinta coluna sobre pares de cores: um par tão sobreposto mecanicamente que toda carta deriva para as mesmas duas formas se você não lutar contra isso, e um truque de aula de escrita para descobrir o que uma facção realmente quer.",
+      "overview": "Preto e vermelho compartilham mais terreno que quase qualquer outro par, o que torna as cartas fáceis de fazer e faz todas elas serem a mesma carta. O relato de Rosewater é sobretudo sobre resistir à inércia — isso e uma descoberta que ele achou contraintuitiva: o par parece feito para um baralho rápido e agressivo, e a qualidade da própria remoção o empurra sempre para o controle. As duas histórias de mecânicas são um par casado de fracassos e recuperações. Uma veio de uma técnica que ele chama de extremar, funcionou na teoria e produziu partidas muito instáveis que pediam aos jogadores que quisessem algo assustador. A outra foi descartada por distorcer a coleção em torno de facilitadores que mais ninguém conseguia usar.",
+      "takeaway": "O teste recorrente nas duas metades não é se a mecânica é boa, e sim o que ela faz com tudo em volta: as cartas que você teve de imprimir para sustentá-la, e se essas cartas valem alguma coisa para quem não as está usando.",
+      "lessons": [
+        {
+          "title": "Onde um par tem um padrão forte, o trabalho é resistir a ele",
+          "rules": "Estas duas cores se sobrepõem com tanta eficiência que as cartas quase se fazem sozinhas — e, deixadas em paz, todas viram ou uma remoção ou uma criatura agressiva. Ele enuncia a exigência sem rodeios: ao desenhar aqui é preciso ter consciência de evitar o espaço óbvio, porque sem esforço tudo deriva para lá. Uma combinação que produz boas cartas com facilidade não é uma tarefa fácil. É uma tarefa em que o seu trabalho principal é notar o que você não está fazendo.",
+          "flavor": "As cartas se escrevem sozinhas, e todas se escrevem como as mesmas duas cartas."
+        },
+        {
+          "title": "Julgue uma mecânica pelo que os facilitadores dela fazem por quem não a usa",
+          "rules": "Uma mecânica candidata foi cortada por um motivo que não é sobre a mecânica. Sustentá-la significava imprimir criaturas baratas capazes de um surto de dano — cartas normalmente fracas que só ficam boas na presença dela. Essas cartas não valiam nada para mais ninguém, o que cortou as conexões entre as facções e estreitou quantos baralhos diferentes o formato podia produzir. A pegada real de uma mecânica inclui cada carta que você teve de fazer para ela funcionar.",
+          "flavor": "Não o que a mecânica custa. O que o andaime custa a todos que não estão subindo por ele."
+        },
+        {
+          "title": "Uma capacidade pode expulsar a estratégia que ela aparentemente habilita",
+          "rules": "Ele chama isso do que aprendeu de interessante ao montar um baralho tribal rápido nessas cores: à primeira vista parecem o lar natural de uma estratégia barata e agressiva, e na prática a pura eficiência da remoção delas as empurra para o controle. Por que atacar de forma imprudente se você pode desacelerar e usar a remoção para administrar o tempo? Ter uma ferramenta muito boa para um serviço muda para que serve o conjunto inteiro de ferramentas.",
+          "flavor": "Bons demais em matar coisas para se dar ao trabalho de correr."
+        },
+        {
+          "title": "Dê nome ao antipadrão: «vencer quando você já está na frente»",
+          "rules": "Um motivo do fracasso da mecânica descartada está numa expressão que a P&D guarda para esse formato: é uma mecânica de vencer-quando-você-está-na-frente, isto é, inútil justamente quando você mais precisa dela e em grande parte irrelevante quando você está em posição de usá-la. Ter um nome para esse formato permite reconhecê-lo numa reunião em vez de redescobri-lo nos testes. Antipadrões merecem nome pelo mesmo motivo que padrões merecem.",
+          "flavor": "Ela chega para ajudar quando você já não precisa de ajuda."
+        },
+        {
+          "title": "Escreva a condição sobre o estado, não sobre a origem",
+          "rules": "A mecânica final dá a uma criatura um marcador e uma restrição, e o ajuste decisivo foi fazer a restrição valer sempre que a criatura tiver tal marcador, venha ele de onde vier. Essa palavra transforma uma mecânica autocontida em algo que outras cartas alcançam — inclusive a mecânica de outra facção, que por sua vez foi ajustada para poder ter alvo, para que a interação existisse. Condições escritas sobre o estado ficam abertas ao sistema inteiro; escritas sobre a procedência, ficam fechadas.",
+          "flavor": "Duas facções, um marcador, e um momento que nenhuma das mecânicas foi desenhada isoladamente para produzir."
+        },
+        {
+          "title": "O melhor substituto resolve dois problemas sem relação de uma vez",
+          "rules": "Duas coisas eram verdadeiras ao mesmo tempo: a candidata existente deixava o desenvolvimento nervoso e estava distorcendo a coleção, e o diretor havia notado separadamente que o lançamento não tinha nenhuma mecânica de criatura focada em combate, algo que coleções grandes desse formato costumam ter. O substituto respondeu às duas. Quando você já é forçado a trocar algo, repasse a lista do que mais falta ao projeto antes de especificar o que entra.",
+          "flavor": "Uma vaga, duas reclamações e um único tipo de carta que resolveu as duas."
+        },
+        {
+          "title": "Extremar: resolva a versão mais extrema, e então leia nela o germe",
+          "rules": "A técnica vem de uma aula de escrita. Travado numa cena, mandaram-no terminá-la do jeito mais extremo que conseguisse imaginar, e ele fez: o personagem incendeia o apartamento e assa uma salsicha nas chamas. O ponto do professor foi que a versão extrema identificava do que a cena tratava de verdade: raiva. Aplicado aqui, o turno mais extremo desta facção é lançar tudo e destruir o campo, o que revela que o que eles querem é ir a fundo e nunca parar.",
+          "flavor": "O apartamento não era a resposta. A raiva que o queimou, sim."
+        },
+        {
+          "title": "Quando você sabe que a primeira impressão vai subestimá-la, orce a defesa",
+          "rules": "Eles sabiam antes do lançamento que a mecânica final era, no termo dele, sem apelo: lê-se pior do que joga. Em vez de mudá-la ou torcer, ele passou todo o período de prévias repetindo publicamente uma frase: reserve o julgamento até jogar com ela. A recepção virou assim que as pessoas jogaram. Um design cujo valor só aparece na prática precisa de um plano de comunicação, e saber disso de antemão é a parte barata.",
+          "flavor": "«Reserve o julgamento até jogar com ela», repetido por semanas."
+        },
+        {
+          "title": "Numa categoria com modo de falha conhecido, entre com tudo ou não entre",
+          "rules": "Ele define a classe a que pertencia a mecânica fracassada — tudo nela vira de um estado para um estado elevado pela mesma condição compartilhada — e as duas consequências: deixa as partidas instáveis e os baralhos lineares, e cada uma amplifica a outra. A posição permanente dele é ir com tudo ou não ir, porque a única versão que vale o risco é uma forte o bastante para atrair os jogadores a perseguir a condição. Uma versão meio comprometida tem toda a volatilidade e nenhum atrativo.",
+          "flavor": "Todas as cartas do baralho mudam de uma vez. Esse é o atrativo e é todo o perigo."
+        },
+        {
+          "title": "A pessoa sênior pode responder ao problema em vez de atribuí-lo",
+          "rules": "Diante de uma mecânica que precisava ser substituída e de uma lacuna que precisava ser preenchida, o diretor não simplesmente entregou os dois problemas à equipe de design. Ele foi e desenhou várias candidatas ele mesmo, e depois chamou o designer-chefe para ver. O artigo diz por quê: ele já não tem muita chance de fazer o trabalho. Quem tem autoridade para delegar um problema também tem permissão para tentar, e de vez em quando é de lá que vem a resposta.",
+          "flavor": "Ele podia ter atribuído. Em vez disso, sentou-se e fez algumas."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "设计拉铎司",
+      "dek": "双色搭配专栏的第五篇：一对在机制上重叠到「你若不去对抗，每张牌都会漂向同样那两种形状」的搭配；以及一个来自写作课的小技巧，用来查明一个阵营究竟想要什么。",
+      "overview": "黑与红共享的地盘比几乎任何一对都多，这让牌变得容易做，也让所有牌都变成同一张牌。罗斯瓦特对这里工作的描述，主要是关于对抗惯性——以及一个他觉得反直觉的发现：这一对看上去天生适合一副快速的进攻牌组，而它自身去除牌的效率却一次次把它推向控制。两个机制的往事是一对彼此呼应的失败与补救。其中一个来自他称为「极端化」的技巧，理论上成立，实际却产出了大起大落的对局，并且要求玩家去想要一件吓人的事。另一个则因为「围绕着别人都用不上的辅助牌扭曲了整个系列」而被弃用。",
+      "takeaway": "两半里反复出现的那道考题，都不是「这个机制好不好」，而是「它对周围的一切做了什么」：为了撑住它你不得不印出来的那些牌，以及那些牌对不用它的人是否还值一分钱。",
+      "lessons": [
+        {
+          "title": "当一对搭配有一个很强的默认值时，工作就是去对抗它",
+          "rules": "这两个颜色重叠得如此高效，以至于牌几乎会自己写出来——而放任不管，每一张最后不是去除咒语就是进攻生物。他把这条要求说得很直白：在这里做设计，必须有意识地避开那片显而易见的空间，因为不使劲的话一切都会漂过去。一个能轻松产出好牌的组合并不是一份轻松的差事。它是一份「你的主要工作是察觉自己没在做什么」的差事。",
+          "flavor": "牌会自己写出来，而它们全都把自己写成了同样的那两张牌。"
+        },
+        {
+          "title": "按「它的辅助牌对不用它的人有什么用」来评判一个机制",
+          "rules": "有一个候选机制被砍掉，理由与这个机制本身无关。要撑住它，就得印一批「能打出一次爆发伤害」的廉价生物——这类牌平时很弱，只有在它在场时才变好。这些牌对其他任何人都一文不值，于是切断了各阵营之间的连接，也压窄了这个赛制能产出的牌组种类。一个机制真正的足迹，包括你为了让它跑起来而不得不做的每一张牌。",
+          "flavor": "不是这个机制花了多少钱。是这副脚手架，让所有不往上爬的人花了多少钱。"
+        },
+        {
+          "title": "一项能力可以把它看似促成的那套策略挤出去",
+          "rules": "他把这称作自己在这两个颜色里搭一副快速部族牌组时学到的有趣之处：乍看之下，它们像是廉价进攻策略的天然归宿；而实际上，它们去除牌的高效率反而把它们推向了控制。既然可以慢一点、用去除去管理节奏，何必鲁莽地进攻？在一件事上拥有一件极好的工具，会改变整套工具箱的用途。",
+          "flavor": "杀东西杀得太好，好到懒得去赛跑。"
+        },
+        {
+          "title": "给反面模式起个名字：「领先时才赢」",
+          "rules": "被弃用的那个机制失败的原因之一，被研发部为这种形状保留的一句话概括了：这是一个「领先时才赢」的机制——也就是说，在你最需要它的时候它毫无用处，而在你有条件用它的时候它基本无关紧要。给这种形状起个名字，就能让它在会议上被认出来，而不必在测试中被重新发现一次。反面模式值得命名，理由和模式值得命名是同一个。",
+          "flavor": "它赶来帮你，是在你已经不需要帮助之后。"
+        },
+        {
+          "title": "把条件写在状态上，而不是写在来源上",
+          "rules": "最终那个机制会给一个生物一枚指示物和一条限制，而决定性的微调是：只要这个生物身上有这样一枚指示物，限制就生效——无论它从哪儿来。这一个词，把一个自成一体的机制变成了别的牌够得着的东西，其中包括另一个阵营的机制；而那个机制本身也被调整成可以指定目标，好让这次互动真的存在。写在状态上的条件对整个系统开放；写在来源上的条件是封闭的。",
+          "flavor": "两个阵营，一枚指示物，以及一个两个机制单独都没有被设计出来的瞬间。"
+        },
+        {
+          "title": "最好的替代品会一次清掉两个不相干的问题",
+          "rules": "有两件事同时为真：现有的那个候选让开发团队不安，而且正在扭曲这个系列；与此同时，总监另外注意到这次发售缺少任何一个以战斗为核心的生物机制，而这种规模的大系列通常都会有一个。替代品把两者都回应了。当你本来就被迫要换掉某样东西时，先把「这个项目还缺什么」的清单过一遍，再去规定要放什么进来。",
+          "flavor": "一个空缺，两条意见，而一种牌型把两条都结掉了。"
+        },
+        {
+          "title": "极端化：先解出最极端的那个版本，再从里面读出那颗种子",
+          "rules": "这个技巧来自一堂写作课。他卡在一个场景里，老师让他用自己能想到的最极端的方式把它写完，他照做了：主角把公寓点着了，并在火里烤了一根香肠。老师要说的是，那个极端版本指认出了这个场景真正在讲的东西：愤怒。用到这里，这个阵营最极端的一个回合就是把手里的一切都打出去、把场面炸干净——而这揭示出他们想要的是全速前进、绝不停下。",
+          "flavor": "公寓不是答案。把它烧掉的那份愤怒才是。"
+        },
+        {
+          "title": "当你知道第一印象会低估它时，就把「游说」列进预算",
+          "rules": "在发售之前他们就明白，最终那个机制用他的话说是「不性感」的：它读起来比打起来差。他没有去改它，也没有干等着，而是在整个预览期里反复公开说同一句话：先别下判断，等你玩过了再说。等人们真的玩过之后，风评就转了。一个价值只有在实际使用中才显现的设计，需要一份沟通计划；而事先知道这一点，是其中最便宜的部分。",
+          "flavor": "「先别下判断，等你玩过再说」，一遍又一遍，说了好几周。"
+        },
+        {
+          "title": "对一个已知失效模式的类别，要么全心进去，要么根本别进",
+          "rules": "他定义了那个失败机制所属的类别——其中的一切都会依据同一个共享条件，从一种状态翻到一种被强化的状态——以及它的两个后果：它让对局大起大落，也让牌组变得线性，而这两者互相放大。他一贯的立场是「要么下重注，要么别玩」，因为唯一值得冒这个险的版本，是强到足以引诱玩家去追那个条件的版本。一个只投入一半的版本，波动性一样不少，吸引力一点也无。",
+          "flavor": "牌组里的每一张牌同时改变。这既是它的魅力，也是它全部的危险。"
+        },
+        {
+          "title": "资深的人可以自己去回答这个问题，而不是把它派下去",
+          "rules": "面对一个需要被替换的机制和一个需要被填上的缺口，总监没有简单地把这两个问题丢给设计团队。他自己去设计了好几个候选，然后把设计主管叫进办公室看。文章说明了原因：他已经很少有机会亲手做这件事了。一个有权把问题派出去的人，同样有权自己下场试一把；而答案偶尔就是从那里来的。",
+          "flavor": "他本可以把它派下去。他却坐下来自己做了几个。"
+        }
+      ]
+    }
+  }
+}
