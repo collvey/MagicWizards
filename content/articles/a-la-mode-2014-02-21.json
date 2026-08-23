@@ -1,0 +1,320 @@
+{
+  "id": "a-la-mode-2014-02-21",
+  "slug": "a-la-mode-2014-02-21",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2014-02-21",
+  "series": null,
+  "tags": ["mechanics", "card-design", "design-space", "cycles"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/a-la-mode-2014-02-21",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "À La Mode",
+      "dek": "A catalogue of every way Magic has built a card that asks somebody to choose, and what each way costs to design.",
+      "overview": "Tribute Week, and Rosewater had already written up how the mechanic was made, so he wrote about the thing underneath it instead: choice. The column is a survey — modal spells, charms, commands, entwine, split cards, kicker and its descendants, X spells, cycling and its descendants, morph, imprint, punisher, tribute — with the design problem of each named in a paragraph or two. Read as a list it is a taxonomy; read across the entries it is the same handful of constraints recurring, because every one of these mechanics is trying to make two things live on one card without the card falling in half.",
+      "takeaway": "A choice is only doing work if both branches get taken, and most of the craft is in making a card with two possible futures still feel like one object. Watch for the constraint each variant hits: nearly all of them run out of space because the effects have to be compatible with each other, not merely available.",
+      "lessons": [
+        {
+          "title": "Flexibility is worth paying for, so each branch may be individually below rate",
+          "rules": "The options on a card that offers a choice are usually worth less than what the card costs, and the card is still correctly priced, because the ability to pick after seeing the situation is itself worth something. This is easy to get backwards when reviewing a proposal: an option that looks weak against the price is not evidence of a problem if the other options cover different situations. Price the menu, not the items.",
+          "flavor": "Each half is a bad deal. The pair of them is a good one."
+        },
+        {
+          "title": "Carry one element across the branches so a menu still reads as a single object",
+          "rules": "Two effects on one card can feel like one thing with a range or like two unrelated things sharing a frame, and the difference is whether something is held constant across them. Keep the magnitude the same while varying what it applies to, or pick two effects that are visibly opposite faces of one idea, and the card reads as coherent. The further apart the branches are in what they do, the more you need something deliberately shared to hold them together.",
+          "flavor": "One raises power, one raises toughness, both by two. Two sides of a coin, not two coins."
+        },
+        {
+          "title": "More options makes each one smaller, and at that size the smallness is the connective tissue",
+          "rules": "Going from two options to three changes the character of the card, not just its length. Each effect now has to be minor enough that three of them fit, and minor effects are ones you would never print alone — which is exactly why the flexibility justifies the card. It also solves the coherence problem for free: a handful of small effects reads as an assortment, so nobody expects them to be mechanically related and you can skip the work of connecting them.",
+          "flavor": "Three little things don't need a theme. Being three little things is the theme."
+        },
+        {
+          "title": "When the card says choose two, the design job is about pairs, not about items",
+          "rules": "A card offering four abilities of which you pick two is not four design problems. It is every combination of two, and each of them has to be worth assembling. That is a different and much harder brief than four individually good abilities, and it is why this shape has been done once in twenty years despite being popular. Before committing to a pick-several structure, count the combinations you are actually signing up to make good.",
+          "flavor": "Four abilities. Six pairs. Six is the number that matters."
+        },
+        {
+          "title": "The wording decides whether it reads as one thing or as a menu, almost independently of what it does",
+          "rules": "The same functionality can be presented as an explicit list of modes or as a single sentence that happens to allow two targets, and the difference in how the card actually behaves is confined to a few rare interactions. What changes is the reading: the list says here are two spells, pick one; the sentence says here is one spell that covers a range. Choose the presentation that matches how you want the thing to feel, and be aware you are choosing.",
+          "flavor": "It could have said \"choose one.\" It doesn't, because it isn't meant to feel like two spells."
+        },
+        {
+          "title": "When one input is much harder to produce than the others, generate it first and fit everything else to it",
+          "rules": "Split cards are always named as a pair, and pairs of words that work together and describe two printable effects are the scarce ingredient — much scarcer than the effects. So the process runs backwards from the usual: find the names first, then design cards that fit them. Whenever one component of a piece of work is the bottleneck, produce that component first and treat everything downstream as adjustable. Designing the easy parts first only means discarding them later.",
+          "flavor": "We start with the names. Everything else can be moved."
+        },
+        {
+          "title": "How many times a cost may be paid is a dial, and it trades against how big the effect can be",
+          "rules": "Compare the versions: pay again as often as you like, and the effect must be small and evenly scalable so that any number of repetitions stays sane. Cap it at one extra use and you can afford a substantially larger effect. Let it repeat every turn forever and even modest effects go degenerate. The repetition count is not a detail of the wording, it is the parameter that sets the ceiling on everything else, so set it before you pick the effect.",
+          "flavor": "Unlimited wants small and regular. Once more wants big."
+        },
+        {
+          "title": "A thing with a scaling cost is a different object at each point on the curve, and you have to play what is in front of you",
+          "rules": "Rosewater once went 4–0 with a deck, then 2–2 with the same deck after learning that the cards he had been playing as small creatures were actually cards that could be played large later. The knowledge made him worse, because he started treating them as their expensive version and holding them. The good scaling design has real value at every price, which means the correct play is to read the board, not the card's reputation.",
+          "flavor": "It's a bear when you have two mana and a 5/5 trampler when you have five. Both are true."
+        },
+        {
+          "title": "The combinatorial mechanic runs out of room because its parts must be compatible, not merely available",
+          "rules": "Three variants in this survey hit the same wall from different directions: an option-triplet needs three effects in one colour, a pick-two needs every pair to combine, a pay-more-for-both needs the two halves to be better together than apart. What limits them is never the supply of effects, it is the supply of effects that get along. Any time your design space is defined by combinations rather than items, expect it to be a fraction of the size it looks, and plan on making a few good ones rather than many.",
+          "flavor": "There are plenty of abilities. There aren't plenty that want to be in the same sentence."
+        },
+        {
+          "title": "Hand the decision to the other side and you can offer things you would not otherwise be allowed to offer",
+          "rules": "When the opponent picks which of two bad outcomes they take, the caster's colour is no longer the one exercising the effect, and that opens the door to effects normally outside that colour's remit. It is a real permission, bought by giving up control. The condition is that neither branch may be obviously correct — the moment one answer is always right, the card is a single effect with a decorative question attached, and the licence you were granted no longer has anything to pay for it.",
+          "flavor": "Both options have to hurt. That is the entire mechanic."
+        }
+      ]
+    },
+    "es": {
+      "title": "A la moda",
+      "dek": "Un catálogo de todas las formas en que Magic ha construido una carta que obliga a alguien a elegir, y lo que cuesta diseñar cada una.",
+      "overview": "Semana del tributo, y como Rosewater ya había contado cómo se hizo la mecánica, escribió sobre lo que hay debajo: la elección. La columna es un repaso — hechizos modales, encantos, órdenes, entrelazar, cartas divididas, potenciar y sus descendientes, hechizos de X, reciclar y sus descendientes, transfigurar, imprimir, castigo, tributo — con el problema de diseño de cada uno resumido en un par de párrafos. Leída como lista es una taxonomía; leída en transversal son las mismas pocas restricciones repitiéndose, porque todas estas mecánicas intentan que dos cosas convivan en una carta sin que la carta se parta por la mitad.",
+      "takeaway": "Una elección solo está trabajando si se toman ambas ramas, y casi todo el oficio consiste en que una carta con dos futuros posibles siga pareciendo un solo objeto. Fíjate en la restricción con la que choca cada variante: casi todas se quedan sin espacio porque los efectos tienen que ser compatibles entre sí, no meramente estar disponibles.",
+      "lessons": [
+        {
+          "title": "La flexibilidad se paga, así que cada rama puede estar individualmente por debajo del precio",
+          "rules": "Las opciones de una carta que ofrece elección suelen valer menos de lo que cuesta la carta, y la carta sigue estando bien valorada, porque poder escoger después de ver la situación ya vale algo por sí solo. Es fácil interpretarlo al revés al revisar una propuesta: una opción que parece floja frente al precio no es prueba de un problema si las demás opciones cubren situaciones distintas. Tasa el menú, no los platos.",
+          "flavor": "Cada mitad es un mal trato. Las dos juntas son uno bueno."
+        },
+        {
+          "title": "Haz que algo se mantenga en todas las ramas para que el menú siga leyéndose como un solo objeto",
+          "rules": "Dos efectos en una carta pueden parecer una cosa con un rango o dos cosas inconexas compartiendo marco, y la diferencia está en si algo permanece constante entre ellas. Mantén la magnitud y cambia a qué se aplica, o elige dos efectos que sean visiblemente las dos caras de una misma idea, y la carta se lee como coherente. Cuanto más se separen las ramas en lo que hacen, más necesitas algo compartido a propósito que las sujete.",
+          "flavor": "Una sube la fuerza, otra la resistencia, ambas en dos. Dos caras de una moneda, no dos monedas."
+        },
+        {
+          "title": "Más opciones las hace más pequeñas, y a ese tamaño la pequeñez es el tejido conectivo",
+          "rules": "Pasar de dos opciones a tres cambia el carácter de la carta, no solo su longitud. Ahora cada efecto tiene que ser lo bastante menor como para que quepan tres, y los efectos menores son los que nunca imprimirías solos, que es justo por lo que la flexibilidad justifica la carta. Además resuelve gratis el problema de la coherencia: un puñado de efectos pequeños se lee como un surtido, así que nadie espera que estén relacionados mecánicamente y te ahorras el trabajo de conectarlos.",
+          "flavor": "Tres cositas no necesitan un tema. Ser tres cositas es el tema."
+        },
+        {
+          "title": "Cuando la carta dice elige dos, el trabajo de diseño va de parejas, no de piezas",
+          "rules": "Una carta que ofrece cuatro habilidades de las que eliges dos no son cuatro problemas de diseño. Son todas las combinaciones de dos, y cada una tiene que merecer la pena montarla. Ese encargo es distinto y mucho más duro que cuatro habilidades individualmente buenas, y por eso esta forma se ha hecho una sola vez en veinte años pese a ser popular. Antes de comprometerte con una estructura de elegir varias, cuenta las combinaciones que en realidad te estás obligando a hacer buenas.",
+          "flavor": "Cuatro habilidades. Seis parejas. El número que importa es seis."
+        },
+        {
+          "title": "La redacción decide si se lee como una cosa o como un menú, casi con independencia de lo que hace",
+          "rules": "La misma funcionalidad puede presentarse como una lista explícita de modos o como una sola frase que admite dos objetivos, y la diferencia en el comportamiento real se reduce a unas pocas interacciones raras. Lo que cambia es la lectura: la lista dice aquí tienes dos hechizos, escoge uno; la frase dice aquí tienes un hechizo que cubre un rango. Elige la presentación que corresponda a cómo quieres que se sienta la cosa, y sé consciente de que estás eligiendo.",
+          "flavor": "Podría haber dicho «elige una». No lo dice, porque no debe sentirse como dos hechizos."
+        },
+        {
+          "title": "Cuando un insumo es mucho más difícil de producir que los demás, genéralo primero y ajusta el resto a él",
+          "rules": "Las cartas divididas siempre se nombran por parejas, y las parejas de palabras que funcionan juntas y describen dos efectos imprimibles son el ingrediente escaso, mucho más escaso que los efectos. Así que el proceso va al revés de lo habitual: primero los nombres, luego cartas que encajen en ellos. Siempre que un componente de un trabajo sea el cuello de botella, prodúcelo primero y trata todo lo que va después como ajustable. Diseñar antes lo fácil solo significa tirarlo después.",
+          "flavor": "Empezamos por los nombres. Todo lo demás se puede mover."
+        },
+        {
+          "title": "Cuántas veces se puede pagar un coste es un dial, y se intercambia con el tamaño del efecto",
+          "rules": "Compara las versiones: si puedes volver a pagar tantas veces como quieras, el efecto tiene que ser pequeño y escalar de forma pareja para que cualquier número de repeticiones siga siendo razonable. Limítalo a un uso extra y puedes permitirte un efecto bastante mayor. Deja que se repita cada turno para siempre y hasta efectos modestos se vuelven degenerados. El número de repeticiones no es un detalle de la redacción: es el parámetro que fija el techo de todo lo demás, así que decídelo antes de elegir el efecto.",
+          "flavor": "Ilimitado quiere pequeño y regular. Una vez más quiere grande."
+        },
+        {
+          "title": "Una cosa con coste escalable es un objeto distinto en cada punto de la curva, y hay que jugar lo que tienes delante",
+          "rules": "Rosewater hizo 4–0 con un mazo y después 2–2 con el mismo mazo, tras enterarse de que las cartas que había estado jugando como criaturas pequeñas eran en realidad cartas que podían jugarse grandes más tarde. El conocimiento lo empeoró, porque empezó a tratarlas como su versión cara y a guardárselas. El buen diseño escalable tiene valor real a cada precio, lo que significa que la jugada correcta es leer la mesa, no la reputación de la carta.",
+          "flavor": "Es un oso con dos manás y un 5/5 con arrollar con cinco. Las dos cosas son ciertas."
+        },
+        {
+          "title": "La mecánica combinatoria se queda sin sitio porque sus partes deben ser compatibles, no solo estar disponibles",
+          "rules": "Tres variantes de este repaso chocan con el mismo muro desde ángulos distintos: un trío de opciones necesita tres efectos de un color, un elige-dos necesita que toda pareja combine, un paga-más-por-ambos necesita que las dos mitades valgan más juntas que separadas. Lo que las limita nunca es el suministro de efectos, sino el de efectos que se llevan bien. Siempre que tu espacio de diseño se defina por combinaciones y no por piezas, cuenta con que sea una fracción de lo que aparenta, y planea hacer unos pocos buenos en vez de muchos.",
+          "flavor": "Habilidades hay de sobra. Habilidades que quieran estar en la misma frase, no."
+        },
+        {
+          "title": "Cede la decisión al otro lado y podrás ofrecer cosas que de otro modo no te dejarían",
+          "rules": "Cuando es el oponente quien escoge cuál de dos malos resultados se lleva, el color del lanzador ya no es el que ejerce el efecto, y eso abre la puerta a efectos normalmente fuera de las competencias de ese color. Es un permiso real, comprado renunciando al control. La condición es que ninguna rama sea obviamente correcta: en cuanto una respuesta siempre acierta, la carta es un efecto único con una pregunta decorativa pegada, y la licencia que te dieron ya no tiene con qué pagarse.",
+          "flavor": "Las dos opciones tienen que doler. Eso es toda la mecánica."
+        }
+      ]
+    },
+    "fr": {
+      "title": "À la mode",
+      "dek": "Un catalogue de toutes les façons dont Magic a construit une carte qui oblige quelqu'un à choisir, et ce que chacune coûte à concevoir.",
+      "overview": "Semaine du tribut, et comme Rosewater avait déjà raconté la fabrication de la mécanique, il a écrit sur ce qu'il y a dessous : le choix. La chronique est un panorama — sorts modaux, charmes, commandements, enchevêtrement, cartes doubles, kicker et sa descendance, sorts en X, recyclage et sa descendance, morphe, empreinte, punition, tribut — avec le problème de conception de chacun résumé en un ou deux paragraphes. Lue comme une liste, c'est une taxinomie ; lue en travers, ce sont les mêmes rares contraintes qui reviennent, parce que toutes ces mécaniques cherchent à faire tenir deux choses sur une carte sans que la carte se coupe en deux.",
+      "takeaway": "Un choix ne travaille que si les deux branches sont prises, et l'essentiel du métier consiste à ce qu'une carte avec deux avenirs possibles ait encore l'air d'un seul objet. Repérez la contrainte que chaque variante rencontre : presque toutes manquent d'espace parce que les effets doivent être compatibles entre eux, pas seulement disponibles.",
+      "lessons": [
+        {
+          "title": "La souplesse se paie, donc chaque branche peut être individuellement en dessous du tarif",
+          "rules": "Les options d'une carte qui offre un choix valent en général moins que ce que la carte coûte, et la carte reste correctement tarifée, parce que pouvoir choisir après avoir vu la situation vaut déjà quelque chose. Il est facile de prendre cela à l'envers en relisant une proposition : une option qui semble faible face au prix ne prouve rien si les autres couvrent des situations différentes. Tarifez le menu, pas les plats.",
+          "flavor": "Chaque moitié est une mauvaise affaire. Les deux ensemble en font une bonne."
+        },
+        {
+          "title": "Faites qu'un élément traverse les branches pour que le menu se lise encore comme un seul objet",
+          "rules": "Deux effets sur une carte peuvent paraître une chose dotée d'une amplitude ou deux choses sans rapport partageant un cadre, et la différence tient à ce qui reste constant entre elles. Gardez la même grandeur en changeant ce à quoi elle s'applique, ou choisissez deux effets qui sont visiblement les deux faces d'une même idée, et la carte se lit comme cohérente. Plus les branches s'éloignent dans ce qu'elles font, plus il faut quelque chose de délibérément commun pour les tenir ensemble.",
+          "flavor": "L'une monte la force, l'autre l'endurance, les deux de deux. Deux faces d'une pièce, pas deux pièces."
+        },
+        {
+          "title": "Plus d'options les rend plus petites, et à cette taille la petitesse devient le tissu conjonctif",
+          "rules": "Passer de deux options à trois change le caractère de la carte, pas seulement sa longueur. Chaque effet doit désormais être assez mineur pour qu'il en tienne trois, et les effets mineurs sont ceux qu'on n'imprimerait jamais seuls — ce qui est précisément pourquoi la souplesse justifie la carte. Cela règle aussi gratuitement le problème de cohérence : une poignée de petits effets se lit comme un assortiment, personne n'attend qu'ils soient liés mécaniquement, et vous économisez le travail de les relier.",
+          "flavor": "Trois petites choses n'ont pas besoin de thème. Être trois petites choses est le thème."
+        },
+        {
+          "title": "Quand la carte dit choisissez-en deux, le travail porte sur les paires, pas sur les éléments",
+          "rules": "Une carte qui propose quatre capacités dont on en prend deux, ce n'est pas quatre problèmes de conception. C'est toutes les combinaisons de deux, et chacune doit valoir la peine d'être assemblée. C'est une commande différente et bien plus dure que quatre capacités individuellement bonnes, et c'est pourquoi cette forme n'a été faite qu'une fois en vingt ans malgré son succès. Avant de vous engager dans une structure à choix multiple, comptez les combinaisons que vous vous engagez réellement à rendre bonnes.",
+          "flavor": "Quatre capacités. Six paires. C'est six qui compte."
+        },
+        {
+          "title": "La formulation décide si cela se lit comme une chose ou comme un menu, presque indépendamment de l'effet",
+          "rules": "La même fonctionnalité peut se présenter comme une liste explicite de modes ou comme une seule phrase autorisant deux cibles, et la différence de comportement réel se limite à quelques interactions rares. Ce qui change, c'est la lecture : la liste dit voici deux sorts, prenez-en un ; la phrase dit voici un sort qui couvre une plage. Choisissez la présentation qui correspond à l'impression voulue, et sachez que vous choisissez.",
+          "flavor": "Elle aurait pu dire « choisissez un mode ». Elle ne le dit pas, car elle ne doit pas sembler être deux sorts."
+        },
+        {
+          "title": "Quand un ingrédient est bien plus dur à produire que les autres, produisez-le d'abord et ajustez le reste",
+          "rules": "Les cartes doubles sont toujours nommées par paires, et les paires de mots qui fonctionnent ensemble tout en décrivant deux effets imprimables sont l'ingrédient rare — bien plus rare que les effets. Le processus tourne donc à l'envers : les noms d'abord, puis des cartes qui leur vont. Chaque fois qu'un composant d'un travail est le goulot d'étranglement, produisez-le en premier et considérez tout ce qui suit comme ajustable. Concevoir les parties faciles d'abord revient à les jeter ensuite.",
+          "flavor": "On commence par les noms. Tout le reste peut bouger."
+        },
+        {
+          "title": "Le nombre de fois qu'un coût peut être payé est un curseur, et il s'échange contre la taille de l'effet",
+          "rules": "Comparez les versions : si l'on peut repayer autant de fois qu'on veut, l'effet doit être petit et progresser régulièrement pour que n'importe quel nombre de répétitions reste sain. Limitez à une utilisation supplémentaire et vous pouvez vous offrir un effet nettement plus gros. Laissez la répétition possible chaque tour indéfiniment et même des effets modestes deviennent dégénérés. Le nombre de répétitions n'est pas un détail de rédaction, c'est le paramètre qui plafonne tout le reste : fixez-le avant de choisir l'effet.",
+          "flavor": "Illimité veut petit et régulier. Une fois de plus veut gros."
+        },
+        {
+          "title": "Une chose à coût variable est un objet différent à chaque point de la courbe, et il faut jouer ce qu'on a devant soi",
+          "rules": "Rosewater a fait 4–0 avec un deck, puis 2–2 avec le même deck après avoir appris que les cartes qu'il jouait comme de petites créatures étaient en réalité des cartes qu'on peut jouer grandes plus tard. Le savoir l'a rendu moins bon, parce qu'il s'est mis à les traiter comme leur version chère et à les garder. Un bon design à échelle a une vraie valeur à chaque prix, ce qui veut dire que le bon jeu consiste à lire le plateau, pas la réputation de la carte.",
+          "flavor": "C'est un ours avec deux manas et un 5/5 avec le piétinement avec cinq. Les deux sont vrais."
+        },
+        {
+          "title": "La mécanique combinatoire manque de place parce que ses parties doivent être compatibles, pas seulement disponibles",
+          "rules": "Trois variantes de ce panorama butent sur le même mur par des côtés différents : un triplet d'options exige trois effets dans une couleur, un choisissez-en-deux exige que chaque paire se combine, un payez-plus-pour-les-deux exige que les moitiés valent plus ensemble que séparées. Ce qui les limite n'est jamais le stock d'effets, c'est le stock d'effets qui s'entendent. Chaque fois que votre espace se définit par des combinaisons plutôt que par des éléments, attendez-vous à une fraction de la taille apparente, et prévoyez d'en faire quelques bons plutôt que beaucoup.",
+          "flavor": "Des capacités, il y en a plein. Des capacités qui veulent être dans la même phrase, non."
+        },
+        {
+          "title": "Confiez la décision à l'autre camp et vous pourrez proposer ce qu'on ne vous autoriserait pas autrement",
+          "rules": "Quand c'est l'adversaire qui choisit lequel de deux mauvais sorts il subit, la couleur du lanceur n'est plus celle qui exerce l'effet, ce qui ouvre la porte à des effets normalement hors de son domaine. C'est une permission réelle, achetée en renonçant au contrôle. La condition est qu'aucune branche ne soit évidemment correcte : dès qu'une réponse est toujours la bonne, la carte n'est qu'un effet unique doté d'une question décorative, et la licence accordée n'a plus rien pour la payer.",
+          "flavor": "Les deux options doivent faire mal. C'est toute la mécanique."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "À la mode",
+      "dek": "Um catálogo de todas as formas pelas quais Magic construiu uma carta que obriga alguém a escolher, e o que cada uma custa para projetar.",
+      "overview": "Semana do tributo e, como Rosewater já tinha contado como a mecânica foi feita, ele escreveu sobre o que está por baixo: a escolha. A coluna é um panorama — mágicas modais, encantos, comandos, entrelaçar, cartas divididas, kicker e seus descendentes, mágicas de X, ciclo e seus descendentes, metamorfose, cunhar, punição, tributo — com o problema de design de cada um resumido em um ou dois parágrafos. Lida como lista, é uma taxonomia; lida transversalmente, são as mesmas poucas restrições se repetindo, porque todas essas mecânicas tentam fazer duas coisas caberem numa carta sem que a carta se parta ao meio.",
+      "takeaway": "Uma escolha só está trabalhando se os dois ramos forem tomados, e quase todo o ofício está em fazer com que uma carta com dois futuros possíveis ainda pareça um objeto só. Repare na restrição que cada variante encontra: quase todas ficam sem espaço porque os efeitos precisam ser compatíveis entre si, e não meramente estar disponíveis.",
+      "lessons": [
+        {
+          "title": "Flexibilidade se paga, então cada ramo pode estar individualmente abaixo do preço",
+          "rules": "As opções de uma carta que oferece escolha em geral valem menos do que a carta custa, e a carta continua corretamente precificada, porque poder escolher depois de ver a situação já vale algo. É fácil ler isso ao contrário ao revisar uma proposta: uma opção que parece fraca diante do preço não é prova de problema se as outras cobrem situações diferentes. Precifique o cardápio, não os pratos.",
+          "flavor": "Cada metade é um mau negócio. As duas juntas são um bom."
+        },
+        {
+          "title": "Faça um elemento atravessar os ramos para que o cardápio ainda se leia como um objeto só",
+          "rules": "Dois efeitos numa carta podem parecer uma coisa com amplitude ou duas coisas sem relação dividindo a moldura, e a diferença está no que se mantém constante entre elas. Mantenha a magnitude e varie a que ela se aplica, ou escolha dois efeitos que sejam visivelmente as duas faces de uma mesma ideia, e a carta se lê coerente. Quanto mais distantes os ramos estiverem no que fazem, mais você precisa de algo deliberadamente compartilhado para segurá-los juntos.",
+          "flavor": "Uma sobe poder, outra sobe resistência, ambas em dois. Dois lados de uma moeda, não duas moedas."
+        },
+        {
+          "title": "Mais opções as deixa menores, e nesse tamanho a pequenez vira o tecido conjuntivo",
+          "rules": "Ir de duas opções para três muda o caráter da carta, não só o comprimento. Cada efeito agora precisa ser miúdo o bastante para caberem três, e efeitos miúdos são os que você nunca imprimiria sozinhos — que é exatamente por que a flexibilidade justifica a carta. Isso também resolve de graça o problema de coerência: um punhado de efeitos pequenos se lê como um sortimento, então ninguém espera que estejam relacionados mecanicamente e você economiza o trabalho de conectá-los.",
+          "flavor": "Três coisinhas não precisam de tema. Ser três coisinhas é o tema."
+        },
+        {
+          "title": "Quando a carta diz escolha duas, o trabalho de design é sobre pares, não sobre itens",
+          "rules": "Uma carta que oferece quatro habilidades das quais você pega duas não são quatro problemas de design. São todas as combinações de duas, e cada uma precisa valer a montagem. Essa é uma encomenda diferente e muito mais dura do que quatro habilidades individualmente boas, e é por isso que esse formato foi feito uma única vez em vinte anos apesar de popular. Antes de se comprometer com uma estrutura de escolher várias, conte as combinações que você está de fato se obrigando a deixar boas.",
+          "flavor": "Quatro habilidades. Seis pares. Seis é o número que importa."
+        },
+        {
+          "title": "A redação decide se aquilo se lê como uma coisa ou como um cardápio, quase independentemente do que faz",
+          "rules": "A mesma funcionalidade pode ser apresentada como uma lista explícita de modos ou como uma única frase que admite dois alvos, e a diferença no comportamento real se limita a algumas interações raras. O que muda é a leitura: a lista diz aqui estão duas mágicas, escolha uma; a frase diz aqui está uma mágica que cobre uma faixa. Escolha a apresentação que corresponde a como você quer que a coisa se sinta, e tenha consciência de que está escolhendo.",
+          "flavor": "Poderia dizer \"escolha um modo\". Não diz, porque não é para parecer duas mágicas."
+        },
+        {
+          "title": "Quando um insumo é muito mais difícil de produzir que os outros, gere-o primeiro e ajuste o resto a ele",
+          "rules": "Cartas divididas sempre são nomeadas aos pares, e pares de palavras que funcionam juntas e descrevem dois efeitos imprimíveis são o ingrediente escasso — muito mais escasso que os efeitos. Então o processo corre ao contrário do usual: primeiro os nomes, depois cartas que caibam neles. Sempre que um componente de um trabalho for o gargalo, produza-o primeiro e trate tudo a jusante como ajustável. Projetar as partes fáceis antes só significa descartá-las depois.",
+          "flavor": "Começamos pelos nomes. Todo o resto pode se mexer."
+        },
+        {
+          "title": "Quantas vezes um custo pode ser pago é um botão, e ele troca contra o tamanho do efeito",
+          "rules": "Compare as versões: se dá para pagar de novo quantas vezes quiser, o efeito precisa ser pequeno e escalar de forma regular para que qualquer número de repetições continue sensato. Limite a um uso extra e você pode bancar um efeito bem maior. Deixe repetir todo turno para sempre e até efeitos modestos ficam degenerados. A contagem de repetições não é detalhe de redação: é o parâmetro que define o teto de todo o resto, então decida antes de escolher o efeito.",
+          "flavor": "Ilimitado quer pequeno e regular. Mais uma vez quer grande."
+        },
+        {
+          "title": "Uma coisa de custo escalável é um objeto diferente em cada ponto da curva, e você joga o que está na sua frente",
+          "rules": "Rosewater fez 4–0 com um baralho e depois 2–2 com o mesmo baralho, depois de descobrir que as cartas que vinha jogando como criaturas pequenas eram na verdade cartas que podiam ser jogadas grandes mais tarde. O conhecimento o piorou, porque ele passou a tratá-las como sua versão cara e a segurá-las. O bom design escalável tem valor real em cada preço, o que significa que a jogada certa é ler a mesa, não a fama da carta.",
+          "flavor": "É um urso com dois manas e um 5/5 com atropelar com cinco. As duas coisas são verdade."
+        },
+        {
+          "title": "A mecânica combinatória fica sem espaço porque suas partes têm que ser compatíveis, não apenas estar disponíveis",
+          "rules": "Três variantes deste panorama batem no mesmo muro por ângulos diferentes: um trio de opções precisa de três efeitos numa cor, um escolha-duas precisa que todo par combine, um pague-mais-pelos-dois precisa que as metades valham mais juntas do que separadas. O que as limita nunca é o estoque de efeitos, e sim o estoque de efeitos que se dão bem. Sempre que seu espaço de design for definido por combinações em vez de itens, conte com uma fração do tamanho aparente e planeje fazer poucos bons em vez de muitos.",
+          "flavor": "Habilidades há de sobra. Habilidades que queiram estar na mesma frase, não."
+        },
+        {
+          "title": "Entregue a decisão ao outro lado e você poderá oferecer coisas que de outro modo não teria permissão de oferecer",
+          "rules": "Quando é o oponente que escolhe qual de dois resultados ruins vai levar, a cor de quem conjurou já não é a que exerce o efeito, e isso abre a porta para efeitos normalmente fora da alçada daquela cor. É uma permissão real, comprada abrindo mão do controle. A condição é que nenhum ramo seja obviamente correto: no momento em que uma resposta é sempre certa, a carta vira um efeito único com uma pergunta decorativa colada, e a licença concedida não tem mais com que se pagar.",
+          "flavor": "As duas opções têm que doer. Essa é a mecânica inteira."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "任君挑选",
+      "dek": "一份清单，列出万智牌历来用过的所有「让人做选择」的做法，以及每一种做法的设计代价。",
+      "overview": "这周是「贡品周」，而机制本身怎么做出来的，罗斯瓦特在预览时已经写过，于是他改写机制底下的那样东西：选择。这一期是一次巡览——模式咒语、护符、号令、纠缠、分割牌、增幅及其后裔、X咒语、循环及其后裔、变身、烙印、惩罚、贡品——每一类的设计难题都用一两段点出来。当成清单读，它是一份分类学；横着读，则是同样几条约束反复出现，因为这些机制全都在试图让两样东西共处一张牌上，而又不让这张牌裂成两半。",
+      "takeaway": "只有两条分支都真的有人走，这个选择才在干活；而这门手艺的大部分，是让一张有两种可能未来的牌看起来仍然是一个整体。留意每一种变体撞上的那堵墙：它们几乎都是因为效果之间必须彼此相容——而不只是各自可用——才用光了空间。",
+      "lessons": [
+        {
+          "title": "灵活性本身值钱，所以每条分支单看都可以低于身价",
+          "rules": "一张提供选择的牌，它的各个选项通常都不值这张牌的费用，而这张牌的定价仍然是对的，因为「看清局面之后再挑」这件事本身就有价值。在审提案时很容易把这一点读反：某个选项对着价格显得偏弱，只要其他选项覆盖的是不同局面，这就不构成问题的证据。给整份菜单定价，而不是给每道菜定价。",
+          "flavor": "每一半都是亏本买卖。两半合起来是笔好买卖。"
+        },
+        {
+          "title": "让某个元素贯穿所有分支，菜单才仍然读得像一件东西",
+          "rules": "一张牌上的两个效果，可以像「一样东西的两种幅度」，也可以像「两样不相干的东西挤在同一个框里」，差别就在于有没有什么在两者之间保持不变。让量值相同、只改变它作用于什么；或者挑两个明显是同一个想法正反两面的效果——牌读起来就是连贯的。两条分支做的事相距越远，你越需要一个刻意共享的东西把它们拴住。",
+          "flavor": "一个加力量，一个加防御力，都加二。是硬币的两面，不是两枚硬币。"
+        },
+        {
+          "title": "选项越多，每个就越小；小到那个程度，「小」本身就成了结缔组织",
+          "rules": "从两个选项变成三个，改变的是这张牌的性格，而不只是它的长度。现在每个效果都必须小到能塞下三个，而这种小效果正是你绝不会单独印出来的东西——这恰恰就是灵活性能撑起这张牌的原因。它还顺带免费解决了连贯性问题：一小把零碎效果读起来就是「一组杂项」，没人指望它们在机制上有关联，你也就省下了把它们连起来的功夫。",
+          "flavor": "三件小事不需要一个主题。「是三件小事」就是主题。"
+        },
+        {
+          "title": "当牌面写着「选择两项」时，设计的对象是组合，不是条目",
+          "rules": "一张给出四个异能、从中挑两个的牌，不是四道设计题，而是「两两的所有组合」，而且每一种组合都得值得凑。这份活儿和「四个各自都不错的异能」完全不同，也难得多，这也是为什么这个形状很受欢迎却二十年只做过一次。在承诺采用「多选几项」的结构之前，先数一数你真正承诺要做好的是多少种组合。",
+          "flavor": "四个异能。六种组合。要紧的数字是六。"
+        },
+        {
+          "title": "写法决定它读起来像一件事还是像一份菜单，而这几乎与它做什么无关",
+          "rules": "同一套功能，可以写成明确罗列的几种模式，也可以写成一句恰好允许两类目标的话，而两者在实际行为上的差别只限于少数罕见的交互。变的是读法：清单说「这里有两个咒语，挑一个」；句子说「这里有一个咒语，它覆盖一个范围」。挑一种与你想要的感受相匹配的呈现，并且清楚自己是在挑。",
+          "flavor": "它本可以写「选择一项」。它没写，因为它不该让人觉得是两个咒语。"
+        },
+        {
+          "title": "当某一种原料比其他都难产出时，先把它造出来，其余的去迁就它",
+          "rules": "分割牌永远是成对命名的，而「彼此配得上、又各自能对应一个可印效果」的词对，才是那个稀缺原料——比效果稀缺得多。所以流程要反过来走：先定名字，再去设计能配上名字的牌。只要一件工作中有某个环节是瓶颈，就先产出那个环节，把它下游的一切都当作可调整的。先做容易的部分，只意味着回头把它们扔掉。",
+          "flavor": "我们从名字开始。其他一切都还能动。"
+        },
+        {
+          "title": "一项费用能被支付几次是个旋钮，它和效果的大小互相换",
+          "rules": "把几个版本放在一起看：允许你想付几次付几次，效果就必须小而且均匀可扩，这样任意次数的重复都还讲得通；把它卡在只能多付一次，你就能负担一个明显更大的效果；让它每回合无限重复下去，连温和的效果都会变形。重复次数不是措辞上的细节，而是给其他一切封顶的那个参数——所以先定它，再挑效果。",
+          "flavor": "无限次要的是小而规整。再来一次要的是大。"
+        },
+        {
+          "title": "带可变费用的东西在曲线上每一点都是不同的物件，你得打眼前的这一个",
+          "rules": "罗斯瓦特用一副牌打出4胜0负，之后得知自己一直当小生物在打的那几张，其实是后期可以做大的牌；再打同一副牌，他变成了2胜2负。知识让他变差了，因为他开始把它们当成昂贵版本、留在手里等。好的可扩设计在每一个价位上都有真实价值，这意味着正确的打法是读场面，而不是读这张牌的名声。",
+          "flavor": "有两点法术力时它是熊，有五点时它是会践踏的5/5。两句都对。"
+        },
+        {
+          "title": "组合型机制之所以用完空间，是因为它的零件必须彼此相容，而不只是各自存在",
+          "rules": "这次巡览里有三种变体从不同方向撞上同一堵墙：三选一需要同一个颜色里凑出三个效果；选二需要每一对都能组合；多付费两个都要的那种，需要两半合起来比分开更强。限制它们的从来不是效果的存量，而是「合得来的效果」的存量。只要你的设计空间是由组合而不是由条目定义的，就要预期它只有看上去的一小部分，并且打算做少数几个好的，而不是做很多。",
+          "flavor": "异能多的是。想待在同一句话里的异能不多。"
+        },
+        {
+          "title": "把决定权交给对面，你就能给出原本不被允许给的东西",
+          "rules": "当由对手来选自己承受两个坏结果中的哪一个时，施法者的颜色就不再是行使那个效果的一方，这为「通常不在该颜色权限内」的效果打开了一道门。这是一份真实的许可，代价是交出控制权。它的条件是：任何一条分支都不能是明显正确的。一旦有一个答案永远对，这张牌就只是一个单一效果外加一个装饰性的问句，而给你的那份许可也就没有任何东西来支付它了。",
+          "flavor": "两个选项都得疼。整个机制就是这一句。"
+        }
+      ]
+    }
+  }
+}
