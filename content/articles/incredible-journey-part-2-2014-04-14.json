@@ -1,0 +1,320 @@
+{
+  "id": "incredible-journey-part-2-2014-04-14",
+  "slug": "incredible-journey-part-2-2014-04-14",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2014-04-14",
+  "series": { "id": "incredible-journey", "order": 2, "total": 2 },
+  "tags": ["journey-into-nyx", "strive", "buyback", "cut-mechanics", "development"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/incredible-journey-part-2-2014-04-14",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-25T10:15:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "The Incredible Journey, Part 2",
+      "dek": "Enhance to resupply to buyback to strive: four mechanics for one slot.",
+      "overview": "The denizens' side of Journey into Nyx took four attempts, two teams and a paternity leave to resolve. Also: why monstrous came back for the third set.",
+      "takeaway": "\"The big thing about design is not to let potential risk keep you from exploring the ideal version.\"",
+      "lessons": [
+        {
+          "title": "Keep a list of standing needs and fold them into every new brief",
+          "rules": "Some requirements aren't about this project at all — they're things every project of yours should have, learned from all the previous ones. Write them down once, and add them to the constraint list whenever you set a new problem. They cost nothing to include at the start and are expensive to retrofit, and a brief that carries them produces answers that serve two purposes at once.",
+          "flavor": "The board when the denizen mechanic had to be replaced: “We wanted a mechanic that worked well with heroic. We wanted a mechanic that could go on instants and sorceries, as the previous block mechanics we were carrying over were almost all on creatures. It would be nice if the mechanic helped players use their extra mana, as we like to have a mana-sink mechanic in every set. With all the restrictions in place, we got creative.”"
+        },
+        {
+          "title": "An answer that exists but that nobody will discover is not an answer",
+          "rules": "Checking that a counter exists is not the same as checking that it will be found. If the only way to deal with something requires an insight most people will never have — especially one that looks like a mistake from outside — then in practice the thing has no counter, and your balance calculation was done against a population that doesn't exist.",
+          "flavor": "On buyback: “The other problem was that there weren't a lot of answers to buyback, especially not ones the average player easily understood. (The best way to stop a buyback spell, for example, was to fizzle the spell by removing the target. Yes, killing your own creatures was often the key to stopping buyback. Not something lower-experienced players were ever going to stumble across.)”"
+        },
+        {
+          "title": "\"Safe most of the time, catastrophic occasionally\" is the profile that kills a component",
+          "rules": "The danger isn't the average case and it isn't a component that's obviously too strong — those get caught. It's the one that behaves for nine sessions and then produces something unrecoverable in the tenth, because the good behaviour is what earns it enough trust to stay in. Judge by the tail, and treat a warning about the tail as being about the tail.",
+          "flavor": "“Erik Lauer, the development representative on the design team, let us know that a mechanic that doubles things was a little risky… And so, in early design, we played with enhance and it was fun. Doubling things is exciting and we found that big, crazy things would often happen when we played. At first, it seemed like maybe it would work out, but playtesting soon revealed exactly what Erik had warned about. Doubling was safe much of the time, but when it wasn't, it really wasn't.”"
+        },
+        {
+          "title": "When tuning down, check whether the weakened version is dominated by something you already have",
+          "rules": "Dialling back a dangerous component has a floor as well as a ceiling, and the floor is set by your existing inventory rather than by playability. Work out at which setting it becomes strictly worse than something already in the system. If that point is above the safe setting, the workable range is empty and the thing is dead — stop tuning and start replacing.",
+          "flavor": "“The next version of the mechanic had a number, such as enhance 2 or enhance 3… At first, we had a lot of enhance 3 but with playtesting most of those dropped to enhance 2. We talked about enhance 1, but at that point we were just making a mechanic strictly weaker than proliferate. This, of course, led us to discuss the idea that maybe we should just use proliferate, but that mechanic still was relatively recent. The design team wasn't quite sure what to do.”"
+        },
+        {
+          "title": "You may knowingly adopt a flawed component that does the job — as an experiment with a limit",
+          "rules": "Known problems are not an automatic veto. If a flawed thing is unusually good at the specific job in front of you, taking it on with the flaws stated out loud is a legitimate move: you try restricting its scope, building in limits, and supplying the missing counters. What makes it legitimate is admitting in advance that it may not work, and being willing to say so.",
+          "flavor": "“Development brought buyback into the file with their eyes wide open. They knew it was problematic but they felt it did such a good job of buffing heroic creatures that it was worth trying to make it work. They did a lot of experimenting with buyback. They limited what kinds of spells had buyback. They tried to build in limitations. They tried to design some new answers. In the end, though, it wasn't quite working.”"
+        },
+        {
+          "title": "When two attempts both produce the wrong behaviour, make the behaviour the brief",
+          "rules": "Repeated failures that fail the same way are telling you the requirement was never written down. Both candidates worked and both encouraged the wrong thing, which means the real specification is a behaviour, not a function. State it — and then find the single restriction that makes the wrong behaviour impossible rather than merely less attractive.",
+          "flavor": "“Rally basically allows a spell to get additional targets by paying extra mana. The key is that it only allows you to target each creature once. This was important, because it was Erik's goal to find a way to make this mechanic encourage playing not with a single heroic creature, which both resupply and buyback had done, but rather play with a team of heroic creatures.” Rally was later renamed strive."
+        },
+        {
+          "title": "Explore the aggressive version first — don't let anticipated risk stop you seeing the ideal",
+          "rules": "When someone warns that the strong version is dangerous, they are usually right and that is not a reason to skip it. You can always scale down, and you cannot scale up something you never built, because you'll have no idea what the ceiling felt like. Occasionally the alarming version turns out fine. When it doesn't, you at least know exactly what you're giving up.",
+          "flavor": "“We prefer to let design start with an aggressive approach because we'd rather get a feel for what the more extreme version would play like. Sometimes, the thing that seems a little crazy turns out not to be so bad. Other times, it proves to be exactly what you think it might, but that's when you can scale back. The big thing about design is not to let potential risk keep you from exploring the ideal version.”"
+        },
+        {
+          "title": "A temporary handover is a window in which deferred decisions finally get made",
+          "rules": "The person in charge accumulates calls they know need making and keep not being urgent enough to disrupt the plan. Someone standing in for a few weeks has none of that history, sees the problem plainly, and has an interval with no obligation to preserve anything. Expect the stand-in to make a change you'd been circling, and be ready to keep it.",
+          "flavor": "“Dave Humpherys was taking paternity leave for the birth of his first child so he handed the reins over to Erik Lauer to lead the set while he was away. Erik knew that buyback wasn't working, so while Dave was off, he decided to go and try to find its replacement… Dave returned to learn that Erik had completely swapped out buyback for a new mechanic but he liked what he saw and so rally (later called strive) stayed in the set.”"
+        },
+        {
+          "title": "When the mechanical common denominator fails, look for the thematic one",
+          "rules": "Searching for what links a group by scanning their mechanics finds a shared feature that may be incidental, and building on it produces something that never coheres. Ask instead what they have in common in the fiction. That answer points at a different centre — often one specific member rather than a property — and the design problem changes shape.",
+          "flavor": "“Up until that time, we thought of +1/+1 counters as being the thing to link the heroes and monsters together, but as we examined the problem we realized we needed to try a different approach. Instead of looking to see what mechanically connected the denizens we started thinking about what linked them together flavorfully… As we examined more, we came to the conclusion that the mechanical center of the denizens was the heroic mechanic.”"
+        },
+        {
+          "title": "Out for one instalment, back for the next, is a reusable slot-management move",
+          "rules": "A component cut to make room isn't gone — it's on a one-instalment holiday, and the room it freed has since been used. Bringing it back in the following release costs you no novelty budget, gives that release cohesion you would otherwise have had to invent, and the audience reads the return as deliberate structure rather than as repetition.",
+          "flavor": "“They didn't want to make another new mechanic, as the set already had two, yet they really wanted the monsters to have some cohesion. Then one day, somebody innocently asked, 'How about monstrous?' We had removed it from Born of the Gods to make room for tribute, but the mechanic still had plenty of design space left. The five mechanics of Return to Ravnica went away for the second set and then all returned in the third set. What if monstrous did the same thing?”"
+        }
+      ]
+    },
+    "es": {
+      "title": "El viaje increíble, parte 2",
+      "dek": "De enhance a resupply, a buyback, a esforzarse: cuatro mecánicas para un mismo hueco.",
+      "overview": "El bando de los habitantes de Journey into Nyx necesitó cuatro intentos, dos equipos y una baja por paternidad. Además: por qué monstruoso volvió en la tercera colección.",
+      "takeaway": "«Lo importante en diseño es no dejar que el riesgo potencial te impida explorar la versión ideal.»",
+      "lessons": [
+        {
+          "title": "Mantén una lista de necesidades permanentes e incorpórala a cada encargo nuevo",
+          "rules": "Algunos requisitos no van de este proyecto en absoluto: son cosas que todo proyecto tuyo debería tener, aprendidas de todos los anteriores. Escríbelas una vez y añádelas a la lista de restricciones cada vez que plantees un problema nuevo. Incluirlas al principio no cuesta nada y añadirlas después sale caro; y un encargo que las lleva produce respuestas que sirven a dos propósitos a la vez.",
+          "flavor": "La pizarra cuando hubo que sustituir la mecánica de los habitantes: «Queríamos una mecánica que funcionara bien con heroico. Queríamos una que pudiera ir en instantáneos y conjuros, ya que las mecánicas del bloque que arrastrábamos estaban casi todas en criaturas. Estaría bien que la mecánica ayudara a los jugadores a usar su maná sobrante, porque nos gusta tener una mecánica sumidero de maná en cada colección. Con todas las restricciones puestas, nos pusimos creativos.»"
+        },
+        {
+          "title": "Una respuesta que existe pero que nadie va a descubrir no es una respuesta",
+          "rules": "Comprobar que existe un contraataque no es lo mismo que comprobar que se encontrará. Si la única forma de lidiar con algo exige una intuición que la mayoría nunca tendrá —sobre todo una que desde fuera parece un error—, entonces en la práctica la cosa no tiene contraataque, y tu cálculo de equilibrio se hizo contra una población que no existe.",
+          "flavor": "Sobre buyback: «El otro problema era que no había muchas respuestas a buyback, y menos aún que el jugador medio entendiera con facilidad. (La mejor manera de detener un hechizo con buyback, por ejemplo, era anularlo quitando el objetivo. Sí, matar tus propias criaturas era a menudo la clave para detener buyback. No es algo con lo que los jugadores menos experimentados fueran a tropezar nunca.)»"
+        },
+        {
+          "title": "«Seguro casi siempre, catastrófico de vez en cuando» es el perfil que mata a un componente",
+          "rules": "El peligro no es el caso medio ni un componente evidentemente demasiado fuerte: esos se detectan. Es el que se porta bien nueve partidas y a la décima produce algo irrecuperable, porque el buen comportamiento es justo lo que le gana la confianza suficiente para quedarse. Juzga por la cola, y trata un aviso sobre la cola como lo que es.",
+          "flavor": "«Erik Lauer, el representante de desarrollo en el equipo de diseño, nos avisó de que una mecánica que duplica cosas era algo arriesgada… Y así, en el diseño temprano, jugamos con enhance y era divertido. Duplicar cosas es emocionante y veíamos que a menudo pasaban cosas grandes y locas. Al principio parecía que podría salir bien, pero las pruebas revelaron pronto exactamente lo que Erik había advertido. Duplicar era seguro gran parte del tiempo, pero cuando no lo era, no lo era en absoluto.»"
+        },
+        {
+          "title": "Al bajar el ajuste, comprueba si la versión debilitada queda dominada por algo que ya tienes",
+          "rules": "Rebajar un componente peligroso tiene suelo además de techo, y el suelo lo fija tu inventario existente, no la jugabilidad. Averigua en qué ajuste pasa a ser estrictamente peor que algo que ya está en el sistema. Si ese punto queda por encima del ajuste seguro, el rango viable está vacío y la cosa está muerta: deja de afinar y empieza a sustituir.",
+          "flavor": "«La siguiente versión de la mecánica llevaba un número, como enhance 2 o enhance 3… Al principio teníamos mucho enhance 3, pero con las pruebas la mayoría bajaron a enhance 2. Hablamos de enhance 1, pero llegados ahí solo estábamos haciendo una mecánica estrictamente peor que proliferar. Eso, claro, nos llevó a discutir si quizá deberíamos usar proliferar sin más, pero esa mecánica aún era relativamente reciente. El equipo de diseño no tenía muy claro qué hacer.»"
+        },
+        {
+          "title": "Puedes adoptar a sabiendas un componente defectuoso que hace el trabajo, como experimento con límite",
+          "rules": "Los problemas conocidos no son un veto automático. Si una cosa defectuosa es inusualmente buena en el trabajo concreto que tienes delante, asumirla con los defectos dichos en voz alta es una jugada legítima: pruebas a restringir su alcance, a incorporar límites y a suministrar los contraataques que faltan. Lo que la hace legítima es admitir de antemano que puede no funcionar, y estar dispuesto a decirlo.",
+          "flavor": "«Desarrollo metió buyback en el archivo con los ojos bien abiertos. Sabían que era problemática, pero sentían que hacía tan buen trabajo potenciando a las criaturas con heroico que valía la pena intentar que funcionara. Experimentaron mucho con buyback. Limitaron qué tipos de hechizos la llevaban. Intentaron incorporar limitaciones. Intentaron diseñar respuestas nuevas. Al final, sin embargo, no acababa de funcionar.»"
+        },
+        {
+          "title": "Cuando dos intentos producen la conducta equivocada, convierte la conducta en el encargo",
+          "rules": "Fallos repetidos que fallan igual te están diciendo que el requisito nunca se escribió. Ambos candidatos funcionaban y ambos fomentaban lo que no tocaba, lo que significa que la especificación real es una conducta, no una función. Enúnciala; y luego encuentra la única restricción que hace imposible la conducta equivocada, en vez de meramente menos atractiva.",
+          "flavor": "«Rally básicamente permite a un hechizo obtener objetivos adicionales pagando maná extra. La clave es que solo te deja elegir cada criatura una vez. Esto era importante, porque el objetivo de Erik era encontrar la forma de que la mecánica animara a jugar no con una única criatura con heroico, que es lo que habían hecho tanto resupply como buyback, sino con todo un equipo de criaturas con heroico.» Rally pasaría a llamarse esforzarse."
+        },
+        {
+          "title": "Explora primero la versión agresiva: no dejes que el riesgo previsto te impida ver el ideal",
+          "rules": "Cuando alguien avisa de que la versión fuerte es peligrosa, suele tener razón, y eso no es motivo para saltársela. Siempre puedes bajarla, y no puedes subir algo que nunca construiste, porque no tendrás ni idea de cómo se sentía el techo. De vez en cuando, la versión alarmante resulta estar bien. Y cuando no, al menos sabes exactamente a qué estás renunciando.",
+          "flavor": "«Preferimos dejar que el diseño empiece con un enfoque agresivo, porque preferimos hacernos una idea de cómo se juega la versión más extrema. A veces, lo que parece un poco loco resulta no ser tan malo. Otras veces resulta ser exactamente lo que te temías, pero entonces es cuando puedes rebajarlo. Lo importante en diseño es no dejar que el riesgo potencial te impida explorar la versión ideal.»"
+        },
+        {
+          "title": "Una entrega temporal del mando es una ventana en la que por fin se toman las decisiones aplazadas",
+          "rules": "Quien manda acumula decisiones que sabe que hay que tomar y que nunca son lo bastante urgentes como para trastocar el plan. Quien sustituye durante unas semanas no arrastra esa historia, ve el problema con claridad y dispone de un intervalo sin obligación de conservar nada. Cuenta con que el sustituto haga un cambio que tú llevabas rondando, y prepárate para mantenerlo.",
+          "flavor": "«Dave Humpherys se cogía la baja por paternidad por el nacimiento de su primer hijo, así que entregó las riendas a Erik Lauer para que liderara la colección durante su ausencia. Erik sabía que buyback no funcionaba, así que mientras Dave estaba fuera decidió buscarle un sustituto… Dave volvió para descubrir que Erik había cambiado buyback por completo por una mecánica nueva, pero le gustó lo que vio y así rally (luego llamada esforzarse) se quedó en la colección.»"
+        },
+        {
+          "title": "Cuando el denominador común mecánico falla, busca el temático",
+          "rules": "Buscar qué une a un grupo escaneando sus mecánicas encuentra un rasgo compartido que puede ser incidental, y construir sobre él produce algo que nunca cuaja. Pregunta en cambio qué tienen en común en la ficción. Esa respuesta apunta a otro centro —a menudo un miembro concreto en vez de una propiedad— y el problema de diseño cambia de forma.",
+          "flavor": "«Hasta entonces pensábamos en los contadores +1/+1 como la cosa que unía a héroes y monstruos, pero al examinar el problema nos dimos cuenta de que había que probar otro enfoque. En vez de mirar qué conectaba mecánicamente a los habitantes, empezamos a pensar en qué los unía en cuanto al sabor… Al examinarlo más, llegamos a la conclusión de que el centro mecánico de los habitantes era la mecánica heroico.»"
+        },
+        {
+          "title": "Fuera una entrega, de vuelta a la siguiente: es una jugada reutilizable de gestión de huecos",
+          "rules": "Un componente cortado para hacer sitio no ha desaparecido: está de vacaciones durante una entrega, y el sitio que liberó ya se ha usado. Traerlo de vuelta en el lanzamiento siguiente no te cuesta presupuesto de novedad, le da a ese lanzamiento una cohesión que si no habrías tenido que inventar, y el público lee el regreso como estructura deliberada y no como repetición.",
+          "flavor": "«No querían hacer otra mecánica nueva, porque la colección ya tenía dos; y sin embargo querían de verdad que los monstruos tuvieran cohesión. Entonces, un día, alguien preguntó inocentemente: «¿Y monstruoso?» La habíamos quitado de Born of the Gods para hacer sitio a tributo, pero a la mecánica aún le quedaba mucho espacio de diseño. Las cinco mecánicas de Return to Ravnica desaparecieron en la segunda colección y volvieron todas en la tercera. ¿Y si monstruoso hacía lo mismo?»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "L'incroyable voyage, partie 2",
+      "dek": "D'enhance à resupply, puis buyback, puis l'effort : quatre mécaniques pour une seule place.",
+      "overview": "Le camp des habitants de Journey into Nyx a demandé quatre tentatives, deux équipes et un congé paternité. Aussi : pourquoi la monstruosité est revenue pour la troisième édition.",
+      "takeaway": "« L'essentiel, en conception, est de ne pas laisser le risque potentiel vous empêcher d'explorer la version idéale. »",
+      "lessons": [
+        {
+          "title": "Tenez une liste de besoins permanents et intégrez-la à chaque nouveau cahier des charges",
+          "rules": "Certaines exigences ne concernent pas ce projet-ci : ce sont des choses que tous vos projets devraient avoir, apprises de tous les précédents. Écrivez-les une fois, et ajoutez-les à la liste de contraintes chaque fois que vous posez un nouveau problème. Les inclure au départ ne coûte rien et les rajouter après coûte cher ; et un cahier des charges qui les porte produit des réponses servant deux fins à la fois.",
+          "flavor": "Le tableau au moment de remplacer la mécanique des habitants : « Nous voulions une mécanique s'accordant bien à l'héroïsme. Nous en voulions une pouvant figurer sur des éphémères et des rituels, les mécaniques reportées du bloc étant presque toutes sur des créatures. Il serait bon qu'elle aide les joueurs à employer leur mana excédentaire, car nous aimons avoir un puits à mana dans chaque édition. Toutes les contraintes posées, nous avons fait preuve de créativité. »"
+        },
+        {
+          "title": "Une réponse qui existe mais que personne ne découvrira n'est pas une réponse",
+          "rules": "Vérifier qu'une parade existe n'est pas vérifier qu'on la trouvera. Si la seule façon de traiter une chose exige une intuition que la plupart n'auront jamais — surtout une qui, vue du dehors, ressemble à une erreur — alors en pratique la chose n'a pas de parade, et votre calcul d'équilibre a été fait contre une population qui n'existe pas.",
+          "flavor": "Sur le buyback : « L'autre problème était qu'il n'y avait guère de réponses au buyback, et surtout pas de réponses que le joueur moyen comprenne aisément. (Le meilleur moyen d'arrêter un sort à buyback, par exemple, était de le faire fizzler en retirant la cible. Oui, tuer ses propres créatures était souvent la clé. Pas une chose sur laquelle des joueurs peu expérimentés allaient tomber.) »"
+        },
+        {
+          "title": "« Sûr la plupart du temps, catastrophique à l'occasion » est le profil qui tue un composant",
+          "rules": "Le danger n'est ni le cas moyen ni un composant manifestement trop fort — ceux-là se repèrent. C'est celui qui se tient bien neuf parties et produit à la dixième quelque chose d'irrattrapable, car c'est la bonne tenue qui lui vaut assez de confiance pour rester. Jugez par la queue de distribution, et traitez un avertissement sur la queue comme portant sur la queue.",
+          "flavor": "« Erik Lauer, représentant du développement dans l'équipe, nous a fait savoir qu'une mécanique de doublement était un peu risquée… Et donc, en conception précoce, nous avons joué avec enhance et c'était amusant. Doubler est excitant et il se passait souvent de grandes choses folles. Au début, cela semblait pouvoir marcher, mais les tests ont vite révélé exactement ce dont Erik avait averti. Doubler était sûr la plupart du temps, mais quand ça ne l'était pas, ça ne l'était vraiment pas. »"
+        },
+        {
+          "title": "En abaissant le réglage, vérifiez si la version affaiblie est dominée par une chose que vous avez déjà",
+          "rules": "Rabaisser un composant dangereux a un plancher autant qu'un plafond, et le plancher est fixé par votre inventaire existant, non par la jouabilité. Déterminez à quel réglage il devient strictement pire qu'une chose déjà présente dans le système. Si ce point est au-dessus du réglage sûr, la plage viable est vide et l'objet est mort : cessez de régler et commencez à remplacer.",
+          "flavor": "« La version suivante portait un nombre, enhance 2 ou enhance 3… Au départ nous avions beaucoup d'enhance 3, mais les tests les ont pour la plupart ramenés à enhance 2. Nous avons parlé d'enhance 1, mais à ce stade nous fabriquions une mécanique strictement plus faible que la prolifération. Cela nous a bien sûr amenés à discuter d'employer simplement la prolifération, mais cette mécanique restait relativement récente. L'équipe ne savait plus trop quoi faire. »"
+        },
+        {
+          "title": "Vous pouvez adopter sciemment un composant défectueux qui fait le travail — comme expérience bornée",
+          "rules": "Des défauts connus ne sont pas un veto automatique. Si une chose imparfaite est exceptionnellement bonne pour la tâche précise du moment, l'adopter en énonçant les défauts à voix haute est un choix légitime : vous essayez d'en restreindre la portée, d'y intégrer des limites, de fournir les parades manquantes. Ce qui le rend légitime, c'est d'admettre d'avance que cela peut échouer, et d'accepter de le dire.",
+          "flavor": "« Le développement a fait entrer le buyback dans le fichier en toute connaissance de cause. Ils le savaient problématique, mais estimaient qu'il renforçait si bien les créatures à héroïsme que cela valait la peine d'essayer. Ils ont beaucoup expérimenté. Ils ont limité les types de sorts pouvant l'avoir. Ils ont tenté d'y intégrer des limites. Ils ont tenté de concevoir de nouvelles parades. Au bout du compte, cela ne marchait pas vraiment. »"
+        },
+        {
+          "title": "Quand deux tentatives produisent le mauvais comportement, faites du comportement le cahier des charges",
+          "rules": "Des échecs répétés qui échouent de la même manière vous disent que l'exigence n'a jamais été écrite. Les deux candidats fonctionnaient et tous deux encourageaient la mauvaise chose : la vraie spécification est donc un comportement, non une fonction. Énoncez-le — puis trouvez l'unique restriction qui rend le mauvais comportement impossible, et non simplement moins attrayant.",
+          "flavor": "« Rally permet en substance à un sort d'obtenir des cibles supplémentaires contre du mana. La clé est qu'on ne peut cibler chaque créature qu'une fois. C'était important, car l'objectif d'Erik était de faire en sorte que la mécanique encourage à jouer non pas une seule créature à héroïsme — ce qu'avaient fait resupply et buyback — mais toute une équipe. » Rally fut ensuite renommée l'effort."
+        },
+        {
+          "title": "Explorez d'abord la version agressive — que le risque anticipé ne vous prive pas de voir l'idéal",
+          "rules": "Quand on vous avertit que la version forte est dangereuse, on a d'ordinaire raison, et ce n'est pas une raison de la sauter. Vous pourrez toujours réduire ; vous ne pourrez pas augmenter une chose que vous n'avez jamais construite, faute de savoir ce que donnait le plafond. Parfois la version alarmante se révèle correcte. Sinon, vous saurez au moins exactement ce à quoi vous renoncez.",
+          "flavor": "« Nous préférons laisser la conception démarrer sur une approche agressive, car nous préférons sentir ce que donnerait la version la plus extrême. Parfois, ce qui paraît un peu fou se révèle pas si terrible. D'autres fois, cela se révèle exactement ce qu'on craignait — et c'est alors qu'on peut réduire. L'essentiel, en conception, est de ne pas laisser le risque potentiel vous empêcher d'explorer la version idéale. »"
+        },
+        {
+          "title": "Une passation temporaire est une fenêtre où les décisions ajournées finissent par se prendre",
+          "rules": "Celui qui dirige accumule des décisions qu'il sait nécessaires et qui ne sont jamais assez urgentes pour bousculer le plan. Celui qui le remplace quelques semaines n'a pas cette histoire, voit le problème nettement, et dispose d'un intervalle sans obligation de rien préserver. Attendez-vous à ce que le suppléant fasse le changement autour duquel vous tourniez, et soyez prêt à le garder.",
+          "flavor": "« Dave Humpherys prenait un congé paternité pour la naissance de son premier enfant ; il a donc confié les rênes à Erik Lauer pour diriger l'édition pendant son absence. Erik savait que le buyback ne marchait pas ; pendant l'absence de Dave, il a donc décidé de lui chercher un remplaçant… Dave est revenu en apprenant qu'Erik avait entièrement remplacé le buyback par une nouvelle mécanique, mais il a aimé ce qu'il voyait et rally (plus tard l'effort) est resté. »"
+        },
+        {
+          "title": "Quand le dénominateur commun mécanique échoue, cherchez le dénominateur thématique",
+          "rules": "Chercher ce qui relie un groupe en balayant ses mécaniques trouve un trait partagé peut-être accidentel, et bâtir dessus produit une chose qui ne prend jamais. Demandez plutôt ce qu'ils ont en commun dans la fiction. Cette réponse désigne un autre centre — souvent un membre précis plutôt qu'une propriété — et le problème de conception change de forme.",
+          "flavor": "« Jusque-là, nous voyions les marqueurs +1/+1 comme le lien entre héros et monstres ; mais en examinant le problème, nous avons compris qu'il fallait une autre approche. Au lieu de chercher ce qui reliait mécaniquement les habitants, nous nous sommes demandé ce qui les reliait en saveur… En creusant, nous avons conclu que le centre mécanique des habitants était la mécanique d'héroïsme. »"
+        },
+        {
+          "title": "Sortie pour une livraison, de retour à la suivante : un geste réutilisable de gestion des places",
+          "rules": "Un composant coupé pour faire de la place n'a pas disparu : il est en congé pour une livraison, et la place libérée a depuis servi. Le ramener à la sortie suivante ne coûte rien à votre budget de nouveauté, donne à cette sortie une cohésion qu'il aurait fallu inventer, et le public lit ce retour comme une structure voulue plutôt que comme une répétition.",
+          "flavor": "« Ils ne voulaient pas d'une troisième mécanique nouvelle, l'édition en ayant déjà deux, mais tenaient à ce que les monstres aient une cohésion. Puis un jour, quelqu'un a innocemment demandé : « Et la monstruosité ? » Nous l'avions retirée de Born of the Gods pour faire place au tribut, mais il lui restait beaucoup d'espace de conception. Les cinq mécaniques de Return to Ravnica avaient disparu à la deuxième édition puis toutes reparu à la troisième. Et si la monstruosité faisait de même ? »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "A jornada incrível, parte 2",
+      "dek": "De enhance a resupply, a buyback, a esforçar-se: quatro mecânicas para uma vaga.",
+      "overview": "O lado dos habitantes de Journey into Nyx exigiu quatro tentativas, duas equipes e uma licença-paternidade. Além disso: por que monstruosidade voltou na terceira coleção.",
+      "takeaway": "“O grande lance do design é não deixar o risco potencial impedir você de explorar a versão ideal.”",
+      "lessons": [
+        {
+          "title": "Mantenha uma lista de necessidades permanentes e dobre-a em cada novo briefing",
+          "rules": "Alguns requisitos não são sobre este projeto: são coisas que todo projeto seu deveria ter, aprendidas de todos os anteriores. Escreva-as uma vez e acrescente-as à lista de restrições sempre que propuser um problema novo. Incluí-las no começo não custa nada e adicioná-las depois sai caro; e um briefing que as carrega produz respostas que servem a dois fins ao mesmo tempo.",
+          "flavor": "O quadro quando a mecânica dos habitantes teve de ser substituída: “Queríamos uma mecânica que funcionasse bem com heroico. Queríamos uma que pudesse ir em instantâneos e feitiços, já que as mecânicas do bloco que trazíamos estavam quase todas em criaturas. Seria bom que a mecânica ajudasse os jogadores a usar o mana sobrando, porque gostamos de ter uma mecânica de sumidouro de mana em toda coleção. Com todas as restrições postas, ficamos criativos.”"
+        },
+        {
+          "title": "Uma resposta que existe mas que ninguém vai descobrir não é uma resposta",
+          "rules": "Conferir que existe um contra-ataque não é o mesmo que conferir que ele será encontrado. Se o único jeito de lidar com algo exige uma sacada que a maioria nunca terá — sobretudo uma que, de fora, parece um erro — então na prática a coisa não tem contra-ataque, e seu cálculo de equilíbrio foi feito contra uma população que não existe.",
+          "flavor": "Sobre buyback: “O outro problema é que não havia muitas respostas ao buyback, e menos ainda que o jogador médio entendesse com facilidade. (O melhor jeito de parar uma mágica com buyback, por exemplo, era fazê-la falhar removendo o alvo. Sim, matar as próprias criaturas era muitas vezes a chave para parar buyback. Não é algo com que jogadores menos experientes fossem tropeçar.)”"
+        },
+        {
+          "title": "“Seguro quase sempre, catastrófico de vez em quando” é o perfil que mata um componente",
+          "rules": "O perigo não é o caso médio nem um componente obviamente forte demais — esses são pegos. É aquele que se comporta em nove partidas e na décima produz algo irrecuperável, porque é justamente o bom comportamento que lhe rende confiança suficiente para ficar. Julgue pela cauda, e trate um aviso sobre a cauda como sendo sobre a cauda.",
+          "flavor": "“Erik Lauer, o representante de desenvolvimento na equipe de design, nos avisou que uma mecânica que dobra coisas era meio arriscada… E assim, no design inicial, brincamos com enhance e era divertido. Dobrar coisas é empolgante e víamos que coisas grandes e malucas aconteciam. No começo, parecia que talvez desse certo, mas os testes logo revelaram exatamente o que Erik havia alertado. Dobrar era seguro na maior parte do tempo, mas quando não era, não era mesmo.”"
+        },
+        {
+          "title": "Ao baixar o ajuste, veja se a versão enfraquecida é dominada por algo que você já tem",
+          "rules": "Reduzir um componente perigoso tem piso além de teto, e o piso é fixado pelo seu inventário existente, não pela jogabilidade. Descubra em que ajuste ele passa a ser estritamente pior que algo já presente no sistema. Se esse ponto ficar acima do ajuste seguro, a faixa viável está vazia e a coisa morreu: pare de ajustar e comece a substituir.",
+          "flavor": "“A versão seguinte da mecânica tinha um número, tipo enhance 2 ou enhance 3… No começo tínhamos muito enhance 3, mas com os testes a maioria caiu para enhance 2. Falamos em enhance 1, mas a essa altura estávamos apenas fazendo uma mecânica estritamente pior que proliferar. Isso, claro, nos levou a discutir se não deveríamos simplesmente usar proliferar, mas essa mecânica ainda era relativamente recente. A equipe de design não sabia bem o que fazer.”"
+        },
+        {
+          "title": "Você pode adotar conscientemente um componente falho que faz o serviço — como experimento com limite",
+          "rules": "Problemas conhecidos não são veto automático. Se uma coisa falha é excepcionalmente boa no serviço específico à sua frente, assumi-la com as falhas ditas em voz alta é uma jogada legítima: você tenta restringir o alcance, embutir limites e fornecer os contra-ataques que faltam. O que torna isso legítimo é admitir de antemão que pode não dar certo, e estar disposto a dizê-lo.",
+          "flavor": "“O desenvolvimento trouxe buyback para o arquivo de olhos bem abertos. Sabiam que era problemática, mas sentiam que fazia um trabalho tão bom reforçando criaturas com heroico que valia a pena tentar fazer funcionar. Experimentaram muito com buyback. Limitaram que tipos de mágica a tinham. Tentaram embutir limitações. Tentaram desenhar respostas novas. No fim, porém, não estava funcionando bem.”"
+        },
+        {
+          "title": "Quando duas tentativas produzem o comportamento errado, faça do comportamento o briefing",
+          "rules": "Falhas repetidas que falham do mesmo jeito estão dizendo que o requisito nunca foi escrito. Os dois candidatos funcionavam e os dois incentivavam a coisa errada, o que significa que a especificação real é um comportamento, não uma função. Enuncie-o — e então ache a única restrição que torna o comportamento errado impossível, e não apenas menos atraente.",
+          "flavor": "“Rally basicamente permite que uma mágica ganhe alvos adicionais pagando mana extra. A chave é que só deixa você escolher cada criatura uma vez. Isso era importante, porque o objetivo de Erik era achar um jeito de a mecânica incentivar jogar não com uma única criatura com heroico, que é o que resupply e buyback tinham feito, e sim com um time inteiro delas.” Rally depois virou esforçar-se."
+        },
+        {
+          "title": "Explore primeiro a versão agressiva — não deixe o risco antecipado impedir você de ver o ideal",
+          "rules": "Quando alguém avisa que a versão forte é perigosa, em geral tem razão, e isso não é motivo para pulá-la. Você sempre pode reduzir, e não pode aumentar algo que nunca construiu, porque não fará ideia de como era o teto. De vez em quando a versão alarmante acaba sendo boa. Quando não é, você ao menos sabe exatamente do que está abrindo mão.",
+          "flavor": "“Preferimos deixar o design começar com uma abordagem agressiva, porque preferimos sentir como a versão mais extrema jogaria. Às vezes, a coisa que parece meio maluca acaba não sendo tão ruim. Outras vezes, prova ser exatamente o que você temia, mas é aí que dá para reduzir. O grande lance do design é não deixar o risco potencial impedir você de explorar a versão ideal.”"
+        },
+        {
+          "title": "Uma passagem temporária de bastão é uma janela em que decisões adiadas enfim são tomadas",
+          "rules": "Quem está no comando acumula decisões que sabe serem necessárias e que nunca ficam urgentes o bastante para bagunçar o plano. Quem substitui por algumas semanas não tem esse histórico, vê o problema com clareza e dispõe de um intervalo sem obrigação de preservar nada. Espere que o substituto faça a mudança em torno da qual você vinha rodeando, e esteja pronto para mantê-la.",
+          "flavor": "“Dave Humpherys ia tirar licença-paternidade pelo nascimento do primeiro filho, então passou as rédeas a Erik Lauer para liderar a coleção na ausência dele. Erik sabia que buyback não estava funcionando, então, enquanto Dave estava fora, decidiu procurar um substituto… Dave voltou e descobriu que Erik tinha trocado buyback inteiramente por uma mecânica nova, mas gostou do que viu e rally (depois chamada esforçar-se) ficou na coleção.”"
+        },
+        {
+          "title": "Quando o denominador comum mecânico falha, procure o temático",
+          "rules": "Procurar o que liga um grupo varrendo as mecânicas dele acha um traço comum que pode ser incidental, e construir sobre ele produz algo que nunca engata. Pergunte em vez disso o que eles têm em comum na ficção. Essa resposta aponta para outro centro — muitas vezes um membro específico em vez de uma propriedade — e o problema de design muda de forma.",
+          "flavor": "“Até então, pensávamos nos marcadores +1/+1 como a coisa que ligava heróis e monstros, mas ao examinar o problema percebemos que precisávamos de outra abordagem. Em vez de olhar o que conectava mecanicamente os habitantes, começamos a pensar no que os ligava em sabor… Examinando mais, chegamos à conclusão de que o centro mecânico dos habitantes era a mecânica heroico.”"
+        },
+        {
+          "title": "Fora por uma entrega, de volta na seguinte: é um movimento reaproveitável de gestão de vagas",
+          "rules": "Um componente cortado para abrir espaço não sumiu: está de férias por uma entrega, e o espaço que liberou já foi usado. Trazê-lo de volta no lançamento seguinte não custa orçamento de novidade, dá àquele lançamento uma coesão que você teria de inventar, e o público lê o retorno como estrutura deliberada, não como repetição.",
+          "flavor": "“Eles não queriam fazer mais uma mecânica nova, pois a coleção já tinha duas, mas queriam muito que os monstros tivessem alguma coesão. Aí um dia alguém perguntou inocentemente: ‘Que tal monstruosidade?’ Nós a havíamos removido de Born of the Gods para abrir espaço para tributo, mas a mecânica ainda tinha bastante espaço de design. As cinco mecânicas de Return to Ravnica sumiram na segunda coleção e todas voltaram na terceira. E se monstruosidade fizesse o mesmo?”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "不可思议的旅程，下篇",
+      "dek": "从「增幅」到「补给」，到「回收」，再到「奋战」：为同一个位置换了四个机制。",
+      "overview": "《尼克斯之旅》里居民那一方，花了四次尝试、两支团队和一次陪产假才定下来。此外：为什么「壮观」在第三个系列里回来了。",
+      "takeaway": "「设计上最要紧的一点是：不要让潜在的风险阻止你去探索那个理想的版本。」",
+      "lessons": [
+        {
+          "title": "保有一份「常设需求」的清单，并把它折进每一份新的任务书里",
+          "rules": "有些要求根本不是关于这个项目的——它们是你的每一个项目都该具备的东西，是从此前所有项目里学来的。把它们写下来一次；然后每当你提出一个新问题时，就把它们加进那份约束清单。在一开始就把它们放进去不花什么成本，事后再加装则代价高昂；而一份带着它们的任务书，会产出同时服务于两个目的的答案。",
+          "flavor": "当居民那一方的机制不得不被替换时，白板上写着：「我们想要一个与『英勇』配合良好的机制。我们想要一个可以放在瞬间和法术上的机制——因为我们从这个环境里带过来的那些机制，几乎全都在生物上。如果这个机制能帮牌手用掉多余的法术力就更好了，因为我们喜欢在每个系列里都有一个吃法术力的机制。把所有限制都摆上之后，我们变得有创造力了。」"
+        },
+        {
+          "title": "一个存在、却没有人会发现的应对手段，不算应对手段",
+          "rules": "核对「存在一种反制」，和核对「这种反制会被找到」，不是同一件事。如果处理某样东西的唯一办法需要一种大多数人永远不会有的洞察——尤其是那种从外面看起来像是失误的洞察——那么实际上这样东西就没有反制；而你的平衡计算，是对着一个并不存在的人群做的。",
+          "flavor": "谈到「回收」：「另一个问题是：针对回收的应对手段并不多；而其中能被普通牌手轻易理解的就更少了。（举例来说，阻止一个带回收的咒语，最好的办法是把它的目标移走、让它失效。是的，杀掉你自己的生物，往往才是阻止回收的关键。这不是经验较少的牌手会误打误撞发现的那种事。）」"
+        },
+        {
+          "title": "「大多数时候安全、偶尔灾难性」，正是那种会要一个部件命的分布形状",
+          "rules": "危险的既不是平均情形，也不是那种明显过强的部件——那些都会被抓住。危险的是那种：连着九局都规规矩矩，第十局却造出某种无法挽回的东西——因为正是它那份良好表现，替它赢得了足以留下来的信任。请按分布的尾部来判断；并且把一条关于尾部的警告，当作是在讲尾部。",
+          "flavor": "「设计团队里的开发代表埃里克·劳尔告诉我们：一个让东西翻倍的机制有点冒险……于是，在早期设计中，我们玩了增幅，而且很好玩。把东西翻倍是令人兴奋的；我们发现对局中常常会发生一些又大又疯的事。一开始看起来它似乎能成；但试玩很快就暴露出了埃里克警告过的那一点。翻倍在大多数时候是安全的；而当它不安全时，它是真的很不安全。」"
+        },
+        {
+          "title": "往下调的时候，检查那个被削弱的版本是不是被你手上已有的东西完全压制",
+          "rules": "把一个危险的部件往下调，既有天花板也有地板；而这块地板是由你现有的库存、而不是由可玩性来决定的。请算出：在哪一档上，它变得严格劣于系统里已经存在的某样东西。如果那一档高于「安全档」，那么可行区间就是空的，这样东西已经死了——停止调参，开始换人。",
+          "flavor": "「这个机制的下一个版本带了一个数字，比如增幅2或者增幅3……一开始我们有很多增幅3；但随着试玩，其中大部分降到了增幅2。我们谈过增幅1；可到了那一步，我们不过是在做一个严格弱于『增殖』的机制。这当然又把我们引到了另一个讨论：也许我们干脆就用增殖算了——但那个机制当时还相对新近。设计团队一时也不太确定该怎么办。」"
+        },
+        {
+          "title": "你可以明知有缺陷、却仍然采用一个「能把活干好」的部件——作为一次有期限的试验",
+          "rules": "已知的问题并不构成自动否决。如果一样有缺陷的东西，在你眼前这项具体的活上好得异乎寻常，那么在把缺陷大声说出来的前提下把它接下来，是一步正当的棋：你会去试着限制它的适用范围、给它内建一些限制、并为它补上缺失的反制。让这一步正当的，是你事先就承认「它可能不成」，并且愿意把这句话说出口。",
+          "flavor": "「开发部是睁大了眼睛把回收放进档案里的。他们知道它有问题；但他们觉得它在『强化带英勇的生物』这件事上做得实在太好，值得试着让它成立。他们围绕回收做了大量试验。他们限制了哪些类型的咒语可以带它。他们试着内建一些限制。他们试着设计一些新的反制。但到最后，它还是不太成。」"
+        },
+        {
+          "title": "当两次尝试产生的都是错误的行为时，就把「行为」本身变成任务书",
+          "rules": "以同样方式反复失败，是在告诉你：那条要求从来没有被写下来过。两个候选都能运作，而两个都在鼓励错误的那件事；这意味着真正的规格是一种行为，而不是一项功能。把它写出来——然后去找那条「让错误行为变成不可能、而不只是变得不那么划算」的唯一限制。",
+          "flavor": "「Rally 基本上是：一个咒语可以通过多付法术力来获得额外的目标。关键在于，它只允许你把每个生物指定一次。这一点很重要；因为埃里克的目标，是找到一种办法，让这个机制鼓励的不是『带着单独一个英勇生物去打』——补给和回收都造成了这种局面——而是带着一整队英勇生物去打。」Rally 后来改名为「奋战」。"
+        },
+        {
+          "title": "先去探索那个激进的版本——别让预期中的风险剥夺你看见理想版本的机会",
+          "rules": "当有人警告说强的那一版很危险时，他通常是对的；而那并不构成跳过它的理由。你随时都可以往下调；而你没法把一样你从未建造过的东西往上调——因为你根本不知道天花板是什么手感。偶尔，那个吓人的版本结果并没有问题。而当它有问题时，你至少确切地知道自己放弃的是什么。",
+          "flavor": "「我们倾向于让设计从一种激进的路子起步；因为我们宁愿先感受一下更极端的那一版打起来是什么样。有时候，那个看上去有点疯的东西，结果并没有那么糟。另一些时候，它被证明恰恰就是你担心的那样——但那正是你可以往回收的时候。设计上最要紧的一点是：不要让潜在的风险阻止你去探索那个理想的版本。」"
+        },
+        {
+          "title": "一次临时的交棒，是一扇「被拖延的决定终于被做出」的窗口",
+          "rules": "掌舵的人会积攒一堆他知道该做、却总是没有紧急到值得打乱计划的决定。而那个顶上来几周的人没有这段历史，他能清楚地看见问题，并且拥有一段「没有义务去保全任何东西」的间隙。请预期这位代班的人会做出一个你一直在绕圈子的改动；并且做好把它留下来的准备。",
+          "flavor": "「戴夫·汉弗瑞斯因为第一个孩子出生而要休陪产假，于是他把缰绳交给了埃里克·劳尔，让他在自己不在期间主导这个系列。埃里克知道回收不成，于是趁戴夫不在，他决定去给它找一个替代品……戴夫回来后得知：埃里克已经把回收整个换成了一个新机制；但他喜欢自己看到的东西，于是 rally（后来叫奋战）留在了这个系列里。」"
+        },
+        {
+          "title": "当机制上的最大公约数不管用时，去找风味上的那一个",
+          "rules": "通过扫描一群东西的机制来寻找「是什么把它们连起来」，找到的那个共有特征可能只是偶然的；而在它之上搭建，产出的会是一样始终凝聚不起来的东西。请改为去问：它们在故事层面上有什么共同之处。那个答案会指向另一个中心——常常是某一个具体的成员、而不是某项属性——于是这道设计题的形状就变了。",
+          "flavor": "「在那之前，我们一直把+1/+1指示物看作把英雄与怪物连在一起的那样东西；但在审视这个问题时，我们意识到需要换一种路子。我们不再去看什么在机制上把这些居民连起来，而是开始思考：在风味上是什么把他们连在一起……越往下看，我们越得出这样的结论：居民这一方的机制中心，是『英勇』这个机制。」"
+        },
+        {
+          "title": "「缺席一部、下一部回来」，是一步可以反复使用的档位管理招数",
+          "rules": "一个为了腾地方而被砍掉的部件并没有消失：它只是休了一部作品的假；而它让出来的位置此后已经被用掉了。在下一次发行里把它带回来，不花你任何「新意预算」；它给了那次发行一份你本来必须去发明的凝聚力；而受众会把这次回归读成刻意的结构，而不是重复。",
+          "flavor": "「他们不想再做第三个新机制，因为这个系列已经有两个了；可他们又真的很希望这些怪物之间有一些凝聚力。然后有一天，有人天真地问了一句：『壮观怎么样？』我们当初把它从上一个系列里拿掉，是为了给『贡品』腾地方；但这个机制还剩下相当多的设计空间。《拉尼卡之回归》那五个机制在第二个系列里消失，然后在第三个系列里全部回归。如果壮观也这么做呢？」"
+        }
+      ]
+    }
+  }
+}
