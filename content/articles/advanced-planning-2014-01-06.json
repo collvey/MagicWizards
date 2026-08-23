@@ -1,0 +1,320 @@
+{
+  "id": "advanced-planning-2014-01-06",
+  "slug": "advanced-planning-2014-01-06",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2014-01-06",
+  "series": null,
+  "tags": ["process", "design-philosophy", "vision-design", "game-design"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/advanced-planning-2014-01-06",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Advanced Planning",
+      "dek": "The phase that happens before design starts, how it was invented by accident while trying to evaluate two new hires, and what it fixed.",
+      "overview": "Rosewater's account of the biggest change to how Magic sets get made since New World Order — and the one he stumbled into. Trying to teach and assess two designers hired for big-picture work, he gave them a project a year out and met them weekly. It was structured to be safely disposable: if they failed, normal design time was untouched. It did not fail, and the improvised arrangement turned into a standing phase that now runs ahead of every design team. The column defines the phase, tells the origin story, lays out the before-and-after, and specifies the current team structure down to how fast each seat rotates.",
+      "takeaway": "The value of a group working ahead is not that it answers questions early — it is that it finds out what the questions are while there is still time to act on them. And the reason it can do that is precisely that it has nothing to ship.",
+      "lessons": [
+        {
+          "title": "The advance group's job is to learn what the questions are, not to answer them",
+          "rules": "Written into the internal documentation as the phase's primary role, and it is the sentence that keeps the group from becoming a second design team. A team that thinks its job is to produce answers will produce answers, and those answers arrive as commitments the actual team has to work around. A team that understands its job is reconnaissance comes back with a map: here is what is out there, here is what will have to be decided, here is where the ground is bad. The output is the shape of the problem, at a point when the shape is still cheap to change.",
+          "flavor": "The scouts go out and see what's ahead before the party gets there."
+        },
+        {
+          "title": "Assign, stay out of the working meetings, and critique on a fixed cadence",
+          "rules": "The structure Rosewater used to direct a group whose work he was deliberately not doing: he set the assignment, did not attend the sessions where they worked, saw what they had once a week, said what did and did not land, and wrote the next assignment out of that. Every part is doing something. Absence from the working meetings is what makes the output theirs rather than a slow transcription of his opinions. The fixed cadence is what keeps a week the maximum distance they can travel in a wrong direction.",
+          "flavor": "I am the overseer of the group but I do not do any of the work."
+        },
+        {
+          "title": "Design the small unit and the large unit at once and the small one will dictate the large one's structure",
+          "rules": "Under the old arrangement, working out what the whole sequence was doing happened while the first instalment's file was being built. The file cannot stand still, so every decision it made to improve itself added a constraint on the plan above it — and the result is the smaller thing setting the structure of the larger thing, which is backwards. This is not a discipline failure; it is what simultaneity does. If the levels must be worked on together, expect the one with a deadline to win, and price that.",
+          "flavor": "Yes, restrictions breed creativity. Not when the small item is the one imposing them on the large item."
+        },
+        {
+          "title": "The window for the hard conversation closes when production starts",
+          "rules": "Doing the structural work ahead of the file bought something not obvious from the schedule: room to bring in the other departments, air the things that were going to be contentious, and change course if they were right. Once the file starts marching, the same objection costs a rebuild, so it gets weighed against the cost of acting on it rather than on its merits. Every project has a period when disagreement is cheap. Find out when yours ends, and get the arguments in before it does.",
+          "flavor": "If there are problems, we have time to fix them, because the march of the design file hasn't started."
+        },
+        {
+          "title": "Structure the training exercise so failure costs nothing, and it becomes the place you can afford to discover things",
+          "rules": "The whole phase began as an improvised way to teach and evaluate two new people. The critical detail is how it was set up: they worked on something a year out, so if it came to nothing the normal schedule was untouched, and if it worked the results could be used. That framing is what allowed something genuinely untried to be attempted at all. Note also what it produced — not a verdict on two hires, but a change to how everything is made. Exercises built to be disposable are where you can afford to be wrong, which is why they are where new methods actually come from.",
+          "flavor": "If they failed, we'd still have our normal design time. I was improvising. We were about to stumble onto something revolutionary."
+        },
+        {
+          "title": "Build the selection process around the specific scarcity, not around the job in general",
+          "rules": "The second hiring contest was run differently from the first because the shortage had changed: what was needed was not more designers but more people who could think about whole structures. So the challenges were rebuilt around world-building, and the final rounds made candidates construct at that scale. The people who came out of it were then given exactly that kind of work. A generic search for talent returns people who are good at the visible parts of the job. Naming the specific capability you are short of and testing for that returns the people you actually need.",
+          "flavor": "We felt we were low on visionary-style designers, so we set out to find some."
+        },
+        {
+          "title": "Rotate the seats at different speeds, and one roster gives you both continuity and fresh input",
+          "rules": "Four seats, each with its own tenure: the lead stays for the whole project, the second seat turns over every two to three months, the third every one to two, the fourth every month. That gradient is the design. A team that holds constant becomes a small culture with its own blind spots; a team that turns over entirely has no memory. Varying the rotation rate by seat gets both properties out of the same four chairs, and it also means a large number of people pass through the process rather than a fixed few owning it.",
+          "flavor": "The lower down the list you are, the faster the rotation."
+        },
+        {
+          "title": "Run the iterative loop at the altitude of structure, not only at the altitude of content",
+          "rules": "What the group was doing turned out to be the familiar cycle — try, test, react, try again — except that the object being iterated was the shape of the whole rather than the individual pieces. That is the thing worth noticing. Iteration is usually described as a technique for refining material, and it works identically on the frame around the material, provided somebody is free to hold the frame still long enough to test it. Ask what altitude your loop is currently running at, and whether that is the altitude where your decisions are actually being made.",
+          "flavor": "The same process, but on the macro level, worrying about the core structure instead of the card file."
+        },
+        {
+          "title": "End the pre-phase with a document written to be argued with",
+          "rules": "Everything learned gets written up and circulated so the whole department can see it and respond before design begins. That last clause is the point. A summary published after the decisions are locked is a notification; the same summary published while everything is still soft is an invitation, and the objections it draws are free. If you do exploratory work and keep the findings inside the group that did them, you have converted a shared question into a private answer, which is the opposite of what the work was for.",
+          "flavor": "We write up all we've learned so everyone can see it and respond — before design begins."
+        },
+        {
+          "title": "Having nothing to ship is the qualification, not a gap in the assignment",
+          "rules": "The reason this group can think about the whole and the design team cannot is not that its members are better at it. It is that they have no file to deliver. Anyone whose week is spent getting a thing out the door will spend their attention there, and any big-picture thinking they do will be squeezed into the margins of it and shaped by what the thing needs. If you want the wide view produced properly, someone has to be structurally free of the deliverable — and that freedom will look, from outside, like they are not working on anything.",
+          "flavor": "We are not concerning ourselves with a file, so we get to spend the time on what the block needs."
+        }
+      ]
+    },
+    "es": {
+      "title": "Planificación avanzada",
+      "dek": "La fase que ocurre antes de que empiece el diseño, cómo se inventó por accidente al intentar evaluar a dos recién contratados, y qué arregló.",
+      "overview": "El relato de Rosewater sobre el mayor cambio en cómo se hacen las colecciones de Magic desde el Nuevo Orden Mundial, y con el que tropezó sin querer. Intentando enseñar y evaluar a dos diseñadores contratados por su visión de conjunto, les dio un proyecto a un año vista y se reunió con ellos semanalmente. Estaba montado para ser desechable sin coste: si fracasaban, el tiempo normal de diseño quedaba intacto. No fracasó, y el apaño improvisado se convirtió en una fase estable que hoy corre por delante de todos los equipos de diseño. La columna define la fase, cuenta el origen, expone el antes y el después y detalla la estructura actual del equipo hasta la velocidad de rotación de cada puesto.",
+      "takeaway": "El valor de un grupo que trabaja por delante no es que responda pronto a las preguntas: es que averigua cuáles son las preguntas cuando todavía hay tiempo de actuar. Y la razón de que pueda hacerlo es precisamente que no tiene nada que entregar.",
+      "lessons": [
+        {
+          "title": "El trabajo del grupo de avanzada es averiguar cuáles son las preguntas, no responderlas",
+          "rules": "Está escrito así en la documentación interna como función principal de la fase, y es la frase que evita que el grupo se convierta en un segundo equipo de diseño. Un equipo que cree que su trabajo es producir respuestas producirá respuestas, y esas respuestas llegan como compromisos que el equipo real tiene que esquivar. Un equipo que entiende que su trabajo es reconocimiento vuelve con un mapa: esto hay ahí fuera, esto habrá que decidir, aquí el terreno es malo. La salida es la forma del problema, en un momento en que esa forma todavía es barata de cambiar.",
+          "flavor": "Los exploradores salen a ver qué hay delante antes de que llegue el grupo."
+        },
+        {
+          "title": "Asigna, mantente fuera de las reuniones de trabajo y critica con una cadencia fija",
+          "rules": "La estructura que usó Rosewater para dirigir a un grupo cuyo trabajo deliberadamente no hacía: fijaba el encargo, no asistía a las sesiones donde trabajaban, veía lo que tenían una vez por semana, decía qué le funcionaba y qué no, y redactaba el siguiente encargo a partir de eso. Cada parte hace algo. La ausencia de las reuniones de trabajo es lo que hace que el resultado sea suyo y no una transcripción lenta de las opiniones de él. La cadencia fija es lo que mantiene una semana como la distancia máxima que pueden recorrer en la dirección equivocada.",
+          "flavor": "Superviso al grupo, pero no hago nada del trabajo."
+        },
+        {
+          "title": "Diseña a la vez la unidad pequeña y la grande y la pequeña dictará la estructura de la grande",
+          "rules": "Con el sistema antiguo, averiguar qué hacía la secuencia entera ocurría mientras se construía el archivo de la primera entrega. El archivo no puede quedarse quieto, así que cada decisión que tomaba para mejorarse a sí mismo añadía una restricción al plan superior, y el resultado es la cosa pequeña fijando la estructura de la cosa grande, que es al revés. No es un fallo de disciplina: es lo que hace la simultaneidad. Si hay que trabajar los niveles a la vez, cuenta con que gane el que tiene fecha de entrega, y ponle precio a eso.",
+          "flavor": "Sí, las restricciones generan creatividad. No cuando es lo pequeño lo que se las impone a lo grande."
+        },
+        {
+          "title": "La ventana para la conversación difícil se cierra cuando arranca la producción",
+          "rules": "Hacer el trabajo estructural por delante del archivo compró algo que no se ve en el calendario: margen para traer a los demás departamentos, ventilar lo que iba a ser polémico y cambiar de rumbo si tenían razón. Una vez que el archivo empieza a marchar, la misma objeción cuesta una reconstrucción, así que se sopesa contra el coste de atenderla y no por sus méritos. Todo proyecto tiene un periodo en el que discrepar es barato. Averigua cuándo termina el tuyo y mete las discusiones antes.",
+          "flavor": "Si hay problemas, tenemos tiempo de arreglarlos, porque la marcha del archivo de diseño no ha empezado."
+        },
+        {
+          "title": "Monta el ejercicio de formación para que fracasar no cueste nada, y se convierte en el sitio donde puedes permitirte descubrir cosas",
+          "rules": "Toda la fase empezó como una forma improvisada de enseñar y evaluar a dos personas nuevas. El detalle crítico es cómo se montó: trabajaban en algo a un año vista, así que si no salía nada el calendario normal quedaba intacto, y si salía se podían usar los resultados. Ese encuadre es lo que permitió siquiera intentar algo genuinamente no probado. Fíjate además en lo que produjo: no un veredicto sobre dos contrataciones, sino un cambio en cómo se hace todo. Los ejercicios construidos para ser desechables son donde puedes permitirte equivocarte, y por eso son de donde salen de verdad los métodos nuevos.",
+          "flavor": "Si fracasaban, seguíamos teniendo nuestro tiempo normal de diseño. Estaba improvisando. Y estábamos a punto de tropezar con algo revolucionario."
+        },
+        {
+          "title": "Construye el proceso de selección alrededor de la escasez concreta, no alrededor del puesto en general",
+          "rules": "El segundo concurso de contratación se llevó distinto del primero porque la carencia había cambiado: no hacían falta más diseñadores, sino más gente capaz de pensar en estructuras enteras. Así que los retos se rehicieron en torno a la creación de mundos y las rondas finales obligaban a los candidatos a construir a esa escala. A quienes salieron de ahí se les dio exactamente ese tipo de trabajo. Una búsqueda genérica de talento devuelve gente buena en las partes visibles del puesto. Nombrar la capacidad concreta que te falta y examinar por ella devuelve a la gente que de verdad necesitas.",
+          "flavor": "Sentíamos que andábamos escasos de diseñadores visionarios, así que salimos a buscarlos."
+        },
+        {
+          "title": "Rota los puestos a distintas velocidades y un mismo equipo te da continuidad y aire fresco",
+          "rules": "Cuatro puestos, cada uno con su permanencia: el responsable se queda todo el proyecto, el segundo puesto rota cada dos o tres meses, el tercero cada uno o dos, el cuarto cada mes. Ese gradiente es el diseño. Un equipo que se mantiene constante se convierte en una pequeña cultura con sus propios puntos ciegos; uno que rota entero no tiene memoria. Variar la velocidad de rotación por puesto saca ambas propiedades de las mismas cuatro sillas, y además hace que mucha gente pase por el proceso en lugar de que unos pocos fijos se lo apropien.",
+          "flavor": "Cuanto más abajo estés en la lista, más rápida es la rotación."
+        },
+        {
+          "title": "Haz correr el bucle iterativo a la altura de la estructura, no solo a la del contenido",
+          "rules": "Lo que el grupo estaba haciendo resultó ser el ciclo de siempre — prueba, test, reacciona, vuelve a probar — salvo que el objeto iterado era la forma del conjunto y no las piezas sueltas. Eso es lo que merece la pena notar. La iteración se describe normalmente como una técnica para refinar material, y funciona idéntica sobre el marco que rodea al material, siempre que alguien tenga la libertad de mantener el marco quieto el tiempo suficiente para probarlo. Pregúntate a qué altura corre tu bucle ahora mismo, y si esa es la altura a la que se están tomando de verdad tus decisiones.",
+          "flavor": "El mismo proceso, pero a nivel macro, preocupándose por la estructura central en vez de por el archivo de cartas."
+        },
+        {
+          "title": "Termina la fase previa con un documento escrito para que lo discutan",
+          "rules": "Todo lo aprendido se redacta y se hace circular para que el departamento entero pueda verlo y responder antes de que empiece el diseño. Esa última cláusula es la clave. Un resumen publicado después de que las decisiones estén cerradas es una notificación; el mismo resumen publicado mientras todo sigue blando es una invitación, y las objeciones que atrae salen gratis. Si haces trabajo exploratorio y guardas los hallazgos dentro del grupo que los hizo, has convertido una pregunta compartida en una respuesta privada, que es justo lo contrario de para lo que servía el trabajo.",
+          "flavor": "Redactamos todo lo que hemos aprendido para que todos puedan verlo y responder, antes de que empiece el diseño."
+        },
+        {
+          "title": "No tener nada que entregar es la cualificación, no un hueco en el encargo",
+          "rules": "La razón de que este grupo pueda pensar en el conjunto y el equipo de diseño no, no es que sus miembros sean mejores en eso. Es que no tienen archivo que entregar. Quien se pasa la semana sacando una cosa por la puerta gastará ahí su atención, y cualquier pensamiento de conjunto que haga se apretará en los márgenes y quedará moldeado por lo que esa cosa necesita. Si quieres que la vista amplia se produzca bien, alguien tiene que estar estructuralmente libre del entregable, y esa libertad va a parecer, desde fuera, que no está trabajando en nada.",
+          "flavor": "No nos ocupamos de un archivo, así que podemos dedicar el tiempo a lo que el bloque necesita."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Planification avancée",
+      "dek": "La phase qui précède le démarrage de la conception, comment elle a été inventée par accident en cherchant à évaluer deux nouvelles recrues, et ce qu'elle a réparé.",
+      "overview": "Le récit par Rosewater du plus grand changement dans la fabrication des extensions depuis le Nouvel Ordre Mondial — et celui sur lequel il est tombé par hasard. Cherchant à former et évaluer deux concepteurs recrutés pour leur vision d'ensemble, il leur a confié un projet situé un an plus loin et les a vus chaque semaine. Le dispositif était conçu pour être jetable sans coût : en cas d'échec, le temps de conception normal restait intact. Il n'a pas échoué, et l'arrangement improvisé est devenu une phase permanente qui court désormais devant chaque équipe. La chronique définit la phase, raconte l'origine, expose l'avant et l'après, et détaille la structure d'équipe actuelle jusqu'à la vitesse de rotation de chaque siège.",
+      "takeaway": "La valeur d'un groupe travaillant en avance n'est pas qu'il réponde tôt aux questions : c'est qu'il découvre quelles sont les questions tant qu'il reste du temps pour agir. Et s'il le peut, c'est précisément parce qu'il n'a rien à livrer.",
+      "lessons": [
+        {
+          "title": "Le travail du groupe d'avance est de découvrir quelles sont les questions, pas d'y répondre",
+          "rules": "C'est écrit ainsi dans la documentation interne comme rôle premier de la phase, et c'est la phrase qui empêche le groupe de devenir une seconde équipe de conception. Une équipe qui croit devoir produire des réponses en produira, et ces réponses arrivent comme des engagements que la vraie équipe doit contourner. Une équipe qui comprend qu'elle fait de la reconnaissance revient avec une carte : voici ce qu'il y a devant, voici ce qu'il faudra trancher, voici où le terrain est mauvais. Le produit, c'est la forme du problème, à un moment où cette forme est encore bon marché à changer.",
+          "flavor": "Les éclaireurs partent voir ce qu'il y a devant avant que la troupe n'y arrive."
+        },
+        {
+          "title": "Assignez, restez hors des réunions de travail, et critiquez à cadence fixe",
+          "rules": "La structure employée par Rosewater pour diriger un groupe dont il ne faisait délibérément pas le travail : il posait la mission, n'assistait pas aux séances de travail, voyait leur production une fois par semaine, disait ce qui marchait et ce qui ne marchait pas, et rédigeait la mission suivante à partir de là. Chaque élément fait quelque chose. L'absence aux réunions de travail est ce qui rend la production leur, plutôt qu'une transcription lente de ses opinions. La cadence fixe est ce qui limite à une semaine la distance qu'ils peuvent parcourir dans une mauvaise direction.",
+          "flavor": "Je supervise le groupe mais je ne fais aucun du travail."
+        },
+        {
+          "title": "Concevez la petite unité et la grande en même temps, et la petite dictera la structure de la grande",
+          "rules": "Sous l'ancien dispositif, comprendre ce que faisait la séquence entière se passait pendant la construction du fichier du premier épisode. Le fichier ne peut pas s'arrêter, donc chaque décision prise pour s'améliorer ajoutait une contrainte au plan au-dessus — et le résultat est la petite chose fixant la structure de la grande, ce qui est à l'envers. Ce n'est pas un manque de discipline ; c'est ce que fait la simultanéité. Si les niveaux doivent être traités ensemble, attendez-vous à ce que celui qui a une échéance l'emporte, et chiffrez-le.",
+          "flavor": "Oui, les contraintes engendrent la créativité. Pas quand c'est le petit qui les impose au grand."
+        },
+        {
+          "title": "La fenêtre de la conversation difficile se ferme quand la production démarre",
+          "rules": "Faire le travail structurel avant le fichier a acheté quelque chose d'invisible sur le calendrier : de la place pour associer les autres services, aérer ce qui allait être litigieux, et changer de cap s'ils avaient raison. Une fois le fichier en marche, la même objection coûte une reconstruction, elle est donc pesée contre le coût d'y donner suite et non sur son mérite. Tout projet connaît une période où le désaccord est bon marché. Trouvez quand la vôtre se termine, et placez les disputes avant.",
+          "flavor": "S'il y a des problèmes, nous avons le temps de les régler, parce que la marche du fichier n'a pas commencé."
+        },
+        {
+          "title": "Montez l'exercice de formation pour qu'un échec ne coûte rien, et il devient le lieu où vous pouvez vous permettre de découvrir",
+          "rules": "Toute la phase a commencé comme un moyen improvisé de former et d'évaluer deux nouvelles personnes. Le détail décisif est le montage : elles travaillaient sur quelque chose situé un an plus loin, donc si rien n'en sortait le calendrier normal était intact, et si ça marchait les résultats étaient utilisables. Ce cadrage est ce qui a permis de tenter quelque chose de véritablement inédit. Notez aussi le produit : non pas un verdict sur deux recrues, mais un changement dans la façon dont tout est fabriqué. Les exercices conçus pour être jetables sont là où l'on peut se permettre d'avoir tort, et c'est pour cela que les méthodes nouvelles en sortent.",
+          "flavor": "En cas d'échec, il nous restait notre temps de conception normal. J'improvisais. Nous allions tomber sur quelque chose de révolutionnaire."
+        },
+        {
+          "title": "Bâtissez le processus de sélection autour de la rareté précise, pas autour du poste en général",
+          "rules": "Le second concours de recrutement a été mené autrement que le premier parce que la pénurie avait changé : il ne fallait pas plus de concepteurs mais plus de gens capables de penser des structures entières. Les épreuves ont donc été refaites autour de la création de mondes, et les tours finaux obligeaient les candidats à construire à cette échelle. Ceux qui en sont sortis ont reçu exactement ce type de travail. Une recherche générique de talent renvoie des gens bons dans les parties visibles du métier. Nommer la capacité précise qui vous manque et l'évaluer renvoie les gens dont vous avez réellement besoin.",
+          "flavor": "Nous nous sentions à court de concepteurs visionnaires, alors nous sommes partis en chercher."
+        },
+        {
+          "title": "Faites tourner les sièges à des vitesses différentes, et un seul effectif vous donne continuité et sang neuf",
+          "rules": "Quatre sièges, chacun avec sa durée : le responsable reste tout le projet, le deuxième siège tourne tous les deux ou trois mois, le troisième tous les un ou deux, le quatrième chaque mois. Ce gradient est la conception. Une équipe constante devient une petite culture avec ses angles morts ; une équipe qui tourne entièrement n'a pas de mémoire. Faire varier la vitesse de rotation par siège tire les deux propriétés des mêmes quatre chaises, et fait aussi passer beaucoup de monde par le processus au lieu que quelques-uns se l'approprient.",
+          "flavor": "Plus vous êtes bas dans la liste, plus la rotation est rapide."
+        },
+        {
+          "title": "Faites tourner la boucle itérative à l'altitude de la structure, pas seulement à celle du contenu",
+          "rules": "Ce que le groupe faisait s'est avéré être le cycle familier — essayer, tester, réagir, réessayer — sauf que l'objet itéré était la forme de l'ensemble et non les pièces. C'est cela qui mérite d'être remarqué. L'itération est d'ordinaire décrite comme une technique pour affiner un matériau, et elle fonctionne à l'identique sur le cadre autour du matériau, pourvu que quelqu'un soit libre de tenir le cadre immobile assez longtemps pour l'éprouver. Demandez-vous à quelle altitude votre boucle tourne actuellement, et si c'est là que vos décisions se prennent réellement.",
+          "flavor": "Le même processus, mais au niveau macro, en s'inquiétant de la structure du bloc plutôt que du fichier de cartes."
+        },
+        {
+          "title": "Terminez la pré-phase par un document écrit pour qu'on le conteste",
+          "rules": "Tout ce qui a été appris est rédigé et diffusé pour que le service entier puisse le voir et réagir avant que la conception commence. C'est cette dernière clause qui compte. Un résumé publié une fois les décisions verrouillées est une notification ; le même résumé publié quand tout est encore mou est une invitation, et les objections qu'il attire sont gratuites. Si vous menez un travail exploratoire et gardez les conclusions dans le groupe qui les a produites, vous avez transformé une question partagée en une réponse privée, ce qui est l'inverse du but.",
+          "flavor": "Nous rédigeons tout ce que nous avons appris pour que chacun le voie et réagisse — avant que la conception commence."
+        },
+        {
+          "title": "N'avoir rien à livrer est la qualification, pas un trou dans la mission",
+          "rules": "Si ce groupe peut penser l'ensemble et pas l'équipe de conception, ce n'est pas que ses membres soient meilleurs à cela. C'est qu'ils n'ont pas de fichier à livrer. Quiconque passe sa semaine à faire sortir une chose y consacrera son attention, et toute réflexion d'ensemble sera comprimée dans les marges et façonnée par les besoins de la chose. Si vous voulez que la vue large soit produite correctement, quelqu'un doit être structurellement libéré du livrable — et cette liberté aura l'air, de l'extérieur, de ne travailler sur rien.",
+          "flavor": "Nous ne nous occupons pas d'un fichier, donc nous pouvons consacrer le temps à ce dont le bloc a besoin."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Planejamento avançado",
+      "dek": "A fase que acontece antes de o design começar, como foi inventada por acidente ao tentar avaliar dois recém-contratados, e o que ela consertou.",
+      "overview": "O relato de Rosewater sobre a maior mudança no modo de fazer coleções de Magic desde a Nova Ordem Mundial — e aquela em que ele tropeçou. Tentando ensinar e avaliar dois designers contratados para pensar o panorama, ele lhes deu um projeto a um ano de distância e se reuniu com eles semanalmente. O arranjo foi montado para ser descartável sem custo: se falhassem, o tempo normal de design ficava intacto. Não falhou, e o improviso virou uma fase permanente que hoje corre à frente de toda equipe de design. A coluna define a fase, conta a origem, expõe o antes e o depois, e detalha a estrutura atual da equipe até a velocidade de rotação de cada assento.",
+      "takeaway": "O valor de um grupo trabalhando adiantado não é responder cedo às perguntas: é descobrir quais são as perguntas enquanto ainda dá tempo de agir. E o motivo de ele conseguir isso é justamente não ter nada a entregar.",
+      "lessons": [
+        {
+          "title": "O trabalho do grupo adiantado é descobrir quais são as perguntas, não respondê-las",
+          "rules": "Está escrito assim na documentação interna como função primária da fase, e é a frase que impede o grupo de virar uma segunda equipe de design. Uma equipe que acha que seu trabalho é produzir respostas vai produzir respostas, e essas respostas chegam como compromissos que a equipe de verdade tem de contornar. Uma equipe que entende que seu trabalho é reconhecimento volta com um mapa: eis o que há adiante, eis o que precisará ser decidido, eis onde o terreno é ruim. O produto é o formato do problema, num momento em que esse formato ainda é barato de mudar.",
+          "flavor": "Os batedores saem para ver o que há adiante antes de o grupo chegar lá."
+        },
+        {
+          "title": "Atribua, fique fora das reuniões de trabalho e critique numa cadência fixa",
+          "rules": "A estrutura que Rosewater usou para dirigir um grupo cujo trabalho ele deliberadamente não fazia: definia a tarefa, não ia às sessões em que trabalhavam, via o que tinham uma vez por semana, dizia o que funcionava e o que não, e escrevia a tarefa seguinte a partir disso. Cada parte faz alguma coisa. A ausência das reuniões de trabalho é o que torna o produto deles, e não uma transcrição lenta das opiniões dele. A cadência fixa é o que mantém uma semana como a distância máxima que podem percorrer na direção errada.",
+          "flavor": "Eu supervisiono o grupo, mas não faço nada do trabalho."
+        },
+        {
+          "title": "Projete a unidade pequena e a grande ao mesmo tempo e a pequena vai ditar a estrutura da grande",
+          "rules": "No arranjo antigo, descobrir o que a sequência inteira estava fazendo acontecia enquanto o arquivo da primeira parcela era construído. O arquivo não pode ficar parado, então cada decisão que ele tomava para melhorar a si mesmo acrescentava uma restrição ao plano acima — e o resultado é a coisa menor definindo a estrutura da maior, o que é de trás para frente. Não é falha de disciplina; é o que a simultaneidade faz. Se os níveis precisam ser trabalhados juntos, conte que vença aquele que tem prazo, e precifique isso.",
+          "flavor": "Sim, restrições geram criatividade. Não quando é o pequeno que as impõe ao grande."
+        },
+        {
+          "title": "A janela da conversa difícil fecha quando a produção começa",
+          "rules": "Fazer o trabalho estrutural antes do arquivo comprou algo que o cronograma não mostra: espaço para trazer os outros departamentos, arejar o que seria polêmico e mudar de rumo se eles tivessem razão. Uma vez que o arquivo começa a marchar, a mesma objeção custa uma reconstrução, então ela é pesada contra o custo de atendê-la, e não pelo mérito. Todo projeto tem um período em que discordar é barato. Descubra quando o seu termina e coloque as discussões antes disso.",
+          "flavor": "Se houver problemas, temos tempo de resolver, porque a marcha do arquivo de design ainda não começou."
+        },
+        {
+          "title": "Monte o exercício de treinamento para que falhar não custe nada, e ele vira o lugar onde você pode se dar ao luxo de descobrir",
+          "rules": "A fase inteira começou como um jeito improvisado de ensinar e avaliar duas pessoas novas. O detalhe crítico é como foi montada: elas trabalhavam em algo a um ano de distância, então, se não desse em nada, o cronograma normal ficava intacto, e, se desse, os resultados podiam ser usados. Esse enquadramento é o que permitiu tentar algo genuinamente inédito. Repare também no que produziu: não um veredicto sobre duas contratações, mas uma mudança em como tudo é feito. Exercícios construídos para ser descartáveis são onde você pode se dar ao luxo de errar, e é por isso que é de lá que os métodos novos realmente saem.",
+          "flavor": "Se falhassem, ainda teríamos nosso tempo normal de design. Eu estava improvisando. Estávamos prestes a tropeçar em algo revolucionário."
+        },
+        {
+          "title": "Construa o processo de seleção em torno da escassez específica, não em torno do cargo em geral",
+          "rules": "O segundo concurso de contratação foi conduzido diferente do primeiro porque a carência tinha mudado: o que faltava não eram mais designers, e sim mais gente capaz de pensar estruturas inteiras. Então as provas foram refeitas em torno da construção de mundos, e as rodadas finais obrigavam os candidatos a construir nessa escala. Quem saiu dali recebeu exatamente esse tipo de trabalho. Uma busca genérica por talento devolve gente boa nas partes visíveis do cargo. Nomear a capacidade específica que lhe falta e avaliar por ela devolve as pessoas de que você realmente precisa.",
+          "flavor": "Sentíamos falta de designers visionários, então saímos atrás de alguns."
+        },
+        {
+          "title": "Gire os assentos em velocidades diferentes e um mesmo elenco lhe dá continuidade e ar novo",
+          "rules": "Quatro assentos, cada um com sua permanência: o líder fica o projeto inteiro, o segundo assento roda a cada dois ou três meses, o terceiro a cada um ou dois, o quarto a cada mês. Esse gradiente é o design. Uma equipe que se mantém constante vira uma pequena cultura com seus próprios pontos cegos; uma que roda por inteiro não tem memória. Variar a velocidade de rotação por assento tira as duas propriedades das mesmas quatro cadeiras, e também faz muita gente passar pelo processo em vez de poucos fixos se apropriarem dele.",
+          "flavor": "Quanto mais baixo você estiver na lista, mais rápida é a rotação."
+        },
+        {
+          "title": "Rode o ciclo iterativo na altitude da estrutura, não só na do conteúdo",
+          "rules": "O que o grupo fazia acabou sendo o ciclo de sempre — tente, teste, reaja, tente de novo — só que o objeto iterado era o formato do todo e não as peças individuais. É isso que vale notar. Iteração costuma ser descrita como técnica para refinar material, e funciona igualzinho sobre a moldura em volta do material, desde que alguém esteja livre para segurar a moldura parada tempo suficiente para testá-la. Pergunte em que altitude o seu ciclo está rodando agora, e se é essa a altitude em que suas decisões de fato são tomadas.",
+          "flavor": "O mesmo processo, mas no nível macro, preocupado com a estrutura central em vez do arquivo de cartas."
+        },
+        {
+          "title": "Termine a pré-fase com um documento escrito para ser contestado",
+          "rules": "Tudo que foi aprendido é redigido e circulado para que o departamento inteiro possa ver e responder antes de o design começar. É essa última cláusula que importa. Um resumo publicado depois de as decisões estarem travadas é uma notificação; o mesmo resumo publicado enquanto tudo ainda está mole é um convite, e as objeções que ele atrai saem de graça. Se você faz trabalho exploratório e guarda os achados dentro do grupo que os produziu, converteu uma pergunta compartilhada numa resposta privada, que é o oposto do propósito do trabalho.",
+          "flavor": "Escrevemos tudo que aprendemos para que todos possam ver e responder — antes de o design começar."
+        },
+        {
+          "title": "Não ter nada a entregar é a qualificação, não uma lacuna na tarefa",
+          "rules": "O motivo de este grupo conseguir pensar o todo e a equipe de design não, não é que seus membros sejam melhores nisso. É que eles não têm arquivo a entregar. Quem passa a semana empurrando uma coisa porta afora vai gastar ali a atenção, e qualquer pensamento de conjunto será espremido nas margens e moldado pelo que aquela coisa precisa. Se você quer a visão ampla produzida direito, alguém tem de estar estruturalmente livre do entregável — e essa liberdade vai parecer, de fora, que a pessoa não está trabalhando em nada.",
+          "flavor": "Não estamos lidando com um arquivo, então podemos gastar o tempo no que o bloco precisa."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "前置规划",
+      "dek": "在设计正式开工之前发生的那个阶段：它是如何在评估两名新人的过程中被意外发明出来的，以及它修好了什么。",
+      "overview": "罗斯瓦特讲述自「新世界秩序」以来，万智牌套牌制作方式上最大的一次改变——而这一次是他误打误撞撞上的。为了培养和评估两位因「大局观」而被招进来的设计师，他给了他们一个一年之后的项目，每周见一次。这套安排被刻意设计成可以无代价丢弃的：如果他们失败了，正常的设计时间毫发无伤。他们没有失败，而这个临时凑合出来的安排变成了一个常设阶段，如今跑在每一支设计团队的前面。这一期定义了这个阶段、讲了它的起源、摆出前后对比，并把当前的团队结构细到每个席位的轮换速度。",
+      "takeaway": "一支跑在前面的队伍，价值不在于提早给出答案，而在于趁着还来得及行动的时候弄清楚问题是什么。而它之所以能做到这一点，恰恰是因为它没有任何东西要交付。",
+      "lessons": [
+        {
+          "title": "前置小组的工作是弄清楚问题是什么，而不是回答它们",
+          "rules": "这句话被作为该阶段的首要职责写进了内部文档，也正是这句话让这个小组不至于变成第二支设计团队。一支认为自己的工作是产出答案的队伍，一定会产出答案；而这些答案抵达时是一堆承诺，真正的团队得绕着它们走。一支明白自己在做侦察的队伍，带回来的是一张地图：前面有什么、哪些事将来必须拍板、哪一片地不好走。它的产出是问题的形状——而此刻这个形状改起来还很便宜。",
+          "flavor": "侦察兵先出去看看前面是什么，然后队伍才到。"
+        },
+        {
+          "title": "布置任务，别进他们的工作会议，按固定节奏做批评",
+          "rules": "这是罗斯瓦特用来指挥一支「他刻意不替他们干活」的队伍的结构：他定下任务，不参加他们实际工作的那些会议，每周看一次成果，说清楚什么打动了他、什么没有，然后据此写出下一个任务。每一环都在起作用。缺席工作会议，正是让产出属于他们、而不是变成他本人意见的一次慢速誊抄的原因。而固定的节奏，则把「他们能朝错误方向走出多远」限制在一周之内。",
+          "flavor": "我是这个组的监督者，但我不做其中任何一份工作。"
+        },
+        {
+          "title": "同时设计小单位和大单位，小的那个就会去规定大的那个的结构",
+          "rules": "在旧的安排下，「弄清楚整个序列在做什么」是和「搭建第一部的牌表」同时进行的。牌表不可能停下来，于是它为了让自己变得更好而做出的每一个决定，都在给上层的计划追加一条约束——结果就是小东西在给大东西定结构，而这是反的。这不是纪律问题，这是「同时进行」这件事本身的产物。如果两个层级必须一起推进，那就预期有截止日期的那个会赢，并且把这笔账算进去。",
+          "flavor": "没错，限制催生创意。但当施加限制的是小的那一方、承受的是大的那一方时，就不是了。"
+        },
+        {
+          "title": "那场难谈的对话，窗口在生产启动时关闭",
+          "rules": "把结构性工作放在牌表之前做，买到了一样在日程表上看不见的东西：把其他部门拉进来的余裕、把注定有争议的事摊开谈的余裕，以及在他们说得对时改道的余裕。而一旦牌表开始行军，同样一条反对意见的代价就变成了一次重建——于是它被拿去和「照办要花多少钱」相权衡，而不再是按它本身对不对来判断。每个项目都有一段「异议很便宜」的时期。弄清楚你那段什么时候结束，并把该吵的架放在它之前。",
+          "flavor": "如果有问题，我们有时间修，因为设计文件的行军还没开始。"
+        },
+        {
+          "title": "把培训性质的练习设计成「失败零代价」，它就会变成你负担得起去发现东西的地方",
+          "rules": "整个阶段最初只是一个临时想出来的、用来培养和评估两个新人的办法。关键细节在于它是怎么搭的：他们做的是一年之后的东西，所以就算什么也没做成，正常日程毫发无伤；而如果做成了，成果还能拿来用。正是这个框架，才让「尝试一件真正没人试过的事」成为可能。也请留意它产出了什么——不是对两名新员工的评语，而是对「一切东西怎么被做出来」的一次改造。被造成可丢弃的练习，是你负担得起犯错的地方；而这正是新方法真正的来源。",
+          "flavor": "就算他们失败，我们照样有正常的设计时间。我是在临场发挥。而我们即将撞上某种革命性的东西。"
+        },
+        {
+          "title": "围绕那份具体的短缺来搭建选拔流程，而不是围绕这个岗位本身",
+          "rules": "第二届招聘赛的办法和第一届不同，因为短缺的东西变了：需要的不是更多设计师，而是更多能思考整体结构的人。于是所有挑战都围绕「构建世界」重做，最后几轮逼着参赛者在那个尺度上搭东西。从中走出来的人，随后拿到的正是这一类工作。一场泛泛的「找人才」，找回来的是那些擅长这份工作里看得见的部分的人。而把你缺的那项具体能力点出名字、并针对它来考，找回来的才是你真正需要的人。",
+          "flavor": "我们觉得自己缺有远见型的设计师，于是就出去找了几个。"
+        },
+        {
+          "title": "让不同席位以不同速度轮换，同一套班子就能同时给你延续性和新鲜空气",
+          "rules": "四个席位，各有各的任期：负责人待满整个项目，第二个席位每两三个月换一次，第三个每一两个月，第四个每月一换。这个梯度本身就是设计。一支恒定不变的队伍会变成一种带着自己盲区的小文化；而一支整体换血的队伍则没有记忆。按席位来调整轮换速度，就能从同样四把椅子里同时得到这两种性质；而且它还意味着有大量的人会流经这个流程，而不是被固定的少数几个人占住。",
+          "flavor": "你在名单上的位置越靠下，轮换得越快。"
+        },
+        {
+          "title": "把迭代这个循环跑在「结构」这个高度上，而不只是「内容」的高度",
+          "rules": "这支小组在做的事，结果就是那个熟悉的循环——试、测、反应、再试——只不过被迭代的对象是整体的形状，而不是一个个零件。这才是值得注意的地方。迭代通常被描述成一种打磨材料的技法，而它在「材料周围那个框架」上同样奏效——前提是有人能腾出手来，把这个框架按住足够长的时间去检验它。问一问你的循环眼下跑在哪个高度上，以及那是不是你的决定实际被做出来的那个高度。",
+          "flavor": "同一套过程，只是搬到了宏观层面：操心的是整个环境的核心结构，而不是牌表。"
+        },
+        {
+          "title": "让前置阶段以一份「写来供人反驳」的文档收尾",
+          "rules": "所有学到的东西都要写下来并传阅，好让整个部门在设计开工之前都能看到并作出回应。要紧的正是最后那一句。在决定都锁死之后才发布的总结，是一份通知；而在一切都还软的时候发布的同一份总结，则是一份邀请，而它招来的反对意见是免费的。如果你做了探索性的工作，却把结论留在做这件事的那个小组内部，你就把一个共同的问题变成了一个私人的答案——这恰恰和这项工作的目的相反。",
+          "flavor": "我们把学到的一切都写下来，让所有人都能看到并回应——在设计开工之前。"
+        },
+        {
+          "title": "「没有东西要交付」是资格，不是任务书上的漏洞",
+          "rules": "这个小组能思考整体而设计团队不能，原因不是它的成员在这方面更强，而是他们没有文件要交。任何一个整周都在把某样东西送出门的人，注意力都会花在那里；他所做的任何全局性思考，都会被挤进那件事的边角，并被那件事的需要所塑形。如果你想让宏观视角被好好地生产出来，就必须有人在结构上从交付物里解放出来——而这份自由，从外面看上去，会像是这个人什么都没在做。",
+          "flavor": "我们不去操心一份牌表，所以我们能把时间花在这个环境到底需要什么上。"
+        }
+      ]
+    }
+  }
+}

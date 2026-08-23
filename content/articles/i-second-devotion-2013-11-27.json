@@ -1,0 +1,320 @@
+{
+  "id": "i-second-devotion-2013-11-27",
+  "slug": "i-second-devotion-2013-11-27",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2013-11-27",
+  "series": null,
+  "tags": ["mechanics", "returning-mechanics", "history", "naming"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/i-second-devotion-2013-11-27",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "U" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "I Second That Devotion",
+      "dek": "Chroma failed, and nine years later the same mechanic came back as devotion and succeeded — here is the five-item list of what had gone wrong.",
+      "overview": "A full life story of one mechanic: submitted as a card by a non-employee on a design team, recognised as bigger than a card, shelved for years, printed once as a glimpse of the future, expanded into nine cards in a set nobody liked, received with a shrug, and then rebuilt from the ground up for a world where its flavour finally fit. The valuable part is the middle — before agreeing to bring it back, Rosewater wrote out five specific diagnoses of what had gone wrong the first time, and the column walks through all five. Several of them trace back to decisions made almost carelessly on the single card that debuted it.",
+      "takeaway": "A mechanic that failed is not the same as a mechanic that cannot work, but the second attempt earns nothing from enthusiasm. Write the diagnosis first — and expect several items on it to be arbitrary choices made on the first instance by someone who was not thinking hard about them.",
+      "lessons": [
+        {
+          "title": "When a submission turns out to be a general capability, pull the specific instances",
+          "rules": "A team member turned in one card that was liked and put in the file, then a second card that was liked more — and the response to the second was to take the first one back out. The recognition was that this was not a good card but a mechanic with room in it, and a mechanic deserves a proper introduction rather than two accidental appearances in a set that was the wrong home for it anyway. When something you have accepted turns out to be an instance of something larger, the move is to withdraw the instances and hold the general thing until you can do it deliberately.",
+          "flavor": "I liked the second one so much that I removed the first."
+        },
+        {
+          "title": "A single-instance debut gives you no data, and its offhand decisions bind the full version years later",
+          "rules": "The mechanic first appeared on exactly one card, and that had two consequences. It was never played enough to learn anything from, so nobody discovered that one of its possible forms was much better than the others — there was no card that did it. And every incidental property of that one card became a constraint on the expansion years later: where it looked, how it was classified, what it could be called. Both problems have the same root. A debut is a specification, whether or not you treat it as one, and one instance is too few to test the specification you are writing.",
+          "flavor": "Why does it look at the hand? I don't know. It could just as easily have looked at the battlefield."
+        },
+        {
+          "title": "A mechanic with no flavour gets a functional name, and the name then produces more work with no flavour",
+          "rules": "The design arrived carrying no meaning, so the people naming it — under time pressure, with a score of others to name — gave it an accurate, descriptive, entirely inert word. That word then went out to designers as the prompt for everything built on it, and a prompt that evokes nothing produces work that evokes nothing. The loop closes and tightens each time round. This is why the naming step is not cosmetic: the name is the brief that every subsequent card is designed against, so an empty one is a standing instruction to keep it empty.",
+          "flavor": "Non-flavourful execution led to a non-flavourful name, which led to more non-flavourful executions."
+        },
+        {
+          "title": "Put the variable in the name",
+          "rules": "The old word named the mechanism and stopped there, leaving the thing it actually cared about — which colour — unstated, so every card had to establish it separately and no card could refer to it naturally. The replacement was built to carry the parameter: not a bare noun but a noun with the variable attached, phrased until it read as ordinary language rather than jargon. When something you are naming takes an argument, get the argument into the name. It converts the term from a label people must decode into a phrase that says what is happening.",
+          "flavor": "\"[Colour] devotion\" felt strained. \"Devotion to [colour]\" felt right."
+        },
+        {
+          "title": "A classification chosen for convenience can forbid the thing you most want to build later",
+          "rules": "Because the debut card varied where it looked, it could not be a true keyword and was made the weaker kind of label instead. That distinction seems technical until you hit the rule that other cards may not refer to the weaker kind. Nine years on, the whole centrepiece cycle of the new set was built on cards referring to the mechanic by name — which the original classification would have made illegal. The functional change that came with the rebuild was not only about play; it was what made the term referenceable at all.",
+          "flavor": "They could have had the functionality. They just couldn't have named it."
+        },
+        {
+          "title": "Change the function slightly, and you have earned the right to rename",
+          "rules": "He knew the old name had to go and knew that renaming something players already know is a hard sell. The move was to lock the mechanic to a single zone — which he wanted anyway, for flavour, for playability, and for costing — and then note that a version which no longer works identically to the old one is required to have a new name. The functional change was genuine and independently justified. It also converted the rename from a preference into a consequence, which is a much easier thing to defend.",
+          "flavor": "By slightly changing the functionality, I forced the change."
+        },
+        {
+          "title": "A mechanic is experienced through its cards, so weak cards are indistinguishable from a weak mechanic",
+          "rules": "Asked why the first attempt failed, the head developer gave a one-line answer that skipped every design consideration: the cards with it were bad. Nobody encounters a mechanic in the abstract. They encounter particular objects, and if none of those objects is worth playing, the verdict returned is on the mechanic. This is worth separating out because it is fixable by a completely different department than the one that usually gets blamed — and on the second attempt, deliberate work on power level is a large part of why the reception reversed.",
+          "flavor": "\"Why did chroma do so poorly?\" \"The cards with it sucked.\""
+        },
+        {
+          "title": "Set a standing quota that forces the back catalogue to get used",
+          "rules": "A rule was laid down that every cycle must bring back at least one existing mechanic, on the grounds that design resources need maintaining. The quota does something a good intention cannot: it puts the question on the agenda at a fixed point in every project, so somebody has to go and look at what already exists rather than defaulting to invention. This particular revival happened because the question was asked on schedule and someone in the room had an answer ready. Without the rule, nobody is ever obliged to ask.",
+          "flavor": "Sometime early in design, I always ask the team what should come back."
+        },
+        {
+          "title": "The second attempt at a failure needs a written diagnosis before it needs advocacy",
+          "rules": "Wanting to revive something that underperformed, he did not argue that it deserved another chance. He produced a list of five specific things that had gone wrong — the flavour, the name, the functionality, the classification, the power level — each with its own cause and its own fix. That list is what made the revival a plan instead of a hunch, and it is also what caught the two items nobody would have guessed at. Enthusiasm for a failed idea is common and worth almost nothing. The itemised post-mortem is the part that is actually scarce.",
+          "flavor": "Obviously we had done something wrong. If we were going to bring it back, we had to understand what."
+        },
+        {
+          "title": "Failing once says something about the execution, not necessarily about the idea",
+          "rules": "The reception the first time was not hostile, just flat, and that is the reading most likely to be taken as a verdict on the concept. It was not. The same mechanic, rebuilt, went on to appear in nearly every format and onto the short list of things certain to be done again. What the episode establishes is a category worth keeping: ideas that are sound and were shipped badly, still sitting in your own history, distinguishable from ideas that simply do not work — and worth going back through the record to find.",
+          "flavor": "Redoing something people love is an easy sell. Redoing something that failed is the bigger challenge."
+        }
+      ]
+    },
+    "es": {
+      "title": "Yo secundo esa devoción",
+      "dek": "Cromatismo fracasó y, nueve años después, la misma mecánica volvió como devoción y triunfó: aquí está la lista de cinco puntos de lo que había salido mal.",
+      "overview": "La biografía completa de una mecánica: entregada como carta por alguien que no era empleado en un equipo de diseño, reconocida como algo mayor que una carta, aparcada durante años, impresa una sola vez como atisbo del futuro, ampliada a nueve cartas en una colección que no gustó, recibida con un encogimiento de hombros y luego reconstruida de cero para un mundo donde su sabor por fin encajaba. Lo valioso está en el medio: antes de aceptar traerla de vuelta, Rosewater escribió cinco diagnósticos concretos de qué había fallado la primera vez, y la columna los recorre todos. Varios se remontan a decisiones tomadas casi con descuido en la única carta que la estrenó.",
+      "takeaway": "Una mecánica que fracasó no es lo mismo que una mecánica que no puede funcionar, pero el segundo intento no gana nada con entusiasmo. Escribe primero el diagnóstico, y cuenta con que varios puntos sean decisiones arbitrarias tomadas en la primera aparición por alguien que no les estaba dando muchas vueltas.",
+      "lessons": [
+        {
+          "title": "Cuando una entrega resulta ser una capacidad general, retira las instancias concretas",
+          "rules": "Un miembro del equipo entregó una carta que gustó y entró en el archivo, y después una segunda que gustó más; y la respuesta a la segunda fue sacar de nuevo la primera. El reconocimiento fue que aquello no era una buena carta, sino una mecánica con recorrido, y una mecánica merece una presentación en condiciones y no dos apariciones accidentales en una colección que además era el hogar equivocado. Cuando algo que ya has aceptado resulta ser una instancia de algo mayor, la jugada es retirar las instancias y guardar la cosa general hasta que puedas hacerla a propósito.",
+          "flavor": "La segunda me gustó tanto que quité la primera."
+        },
+        {
+          "title": "Un debut de una sola instancia no te da datos, y sus decisiones improvisadas atan la versión completa años después",
+          "rules": "La mecánica apareció por primera vez en exactamente una carta, y eso tuvo dos consecuencias. Nunca se jugó lo suficiente como para aprender nada, así que nadie descubrió que una de sus formas posibles era mucho mejor que las demás: no existía una carta que lo hiciera. Y cada propiedad incidental de esa única carta se convirtió años después en una restricción para la ampliación: dónde miraba, cómo estaba clasificada, cómo se podía llamar. Ambos problemas tienen la misma raíz. Un debut es una especificación, la trates o no como tal, y una instancia es demasiado poco para probar la especificación que estás escribiendo.",
+          "flavor": "¿Por qué mira la mano? No lo sé. Igual de fácil podría haber mirado el campo de batalla."
+        },
+        {
+          "title": "Una mecánica sin sabor recibe un nombre funcional, y el nombre produce después más trabajo sin sabor",
+          "rules": "El diseño llegó sin cargar ningún significado, así que quienes lo bautizaron — con prisa y con una veintena más por bautizar — le dieron una palabra exacta, descriptiva y completamente inerte. Esa palabra salió luego hacia los diseñadores como el estímulo de todo lo que se construyera sobre ella, y un estímulo que no evoca nada produce trabajo que no evoca nada. El bucle se cierra y se aprieta en cada vuelta. Por eso el paso de nombrar no es cosmético: el nombre es el encargo contra el que se diseña cada carta posterior, así que uno vacío es una instrucción permanente de mantenerlo vacío.",
+          "flavor": "Una ejecución sin sabor llevó a un nombre sin sabor, que llevó a más ejecuciones sin sabor."
+        },
+        {
+          "title": "Mete la variable en el nombre",
+          "rules": "La palabra antigua nombraba el mecanismo y se paraba ahí, dejando sin decir aquello que de verdad le importaba — qué color —, así que cada carta tenía que establecerlo por separado y ninguna podía referirse a ello con naturalidad. El reemplazo se construyó para cargar el parámetro: no un sustantivo pelado, sino un sustantivo con la variable pegada, formulado hasta que sonara a lengua corriente y no a jerga. Cuando lo que estás nombrando acepta un argumento, mete el argumento en el nombre. Convierte el término de una etiqueta que hay que descifrar en una frase que dice lo que pasa.",
+          "flavor": "«Devoción [color]» sonaba forzado. «Devoción al [color]» sonaba bien."
+        },
+        {
+          "title": "Una clasificación elegida por comodidad puede prohibir justo lo que más quieres construir después",
+          "rules": "Como la carta de debut variaba dónde miraba, no podía ser una palabra clave de verdad y se convirtió en el tipo de etiqueta más débil. Esa distinción parece técnica hasta que topas con la regla de que otras cartas no pueden referirse al tipo débil. Nueve años más tarde, todo el ciclo central de la nueva colección se apoyaba en cartas que se referían a la mecánica por su nombre, algo que la clasificación original habría hecho ilegal. El cambio funcional que vino con la reconstrucción no iba solo del juego: fue lo que hizo que el término pudiera ser referenciado siquiera.",
+          "flavor": "Podrían haber tenido la funcionalidad. Lo que no podrían es haberla nombrado."
+        },
+        {
+          "title": "Cambia un poco la función y te habrás ganado el derecho a rebautizar",
+          "rules": "Sabía que el nombre viejo tenía que irse y sabía que rebautizar algo que los jugadores ya conocen es difícil de vender. La jugada fue anclar la mecánica a una sola zona — cosa que quería de todos modos, por sabor, por jugabilidad y por poder valorarla — y luego señalar que una versión que ya no funciona igual que la vieja está obligada a llevar nombre nuevo. El cambio funcional era genuino y estaba justificado por sí mismo. También convirtió el cambio de nombre de una preferencia en una consecuencia, que es mucho más fácil de defender.",
+          "flavor": "Al cambiar ligeramente la funcionalidad, forcé el cambio."
+        },
+        {
+          "title": "Una mecánica se experimenta a través de sus cartas, así que unas cartas flojas son indistinguibles de una mecánica floja",
+          "rules": "Preguntado por qué había fracasado el primer intento, el jefe de desarrollo dio una respuesta de una línea que se saltaba toda consideración de diseño: las cartas que la llevaban eran malas. Nadie se encuentra con una mecánica en abstracto. Se encuentra con objetos concretos y, si ninguno de esos objetos merece jugarse, el veredicto que se emite es sobre la mecánica. Vale la pena separarlo porque lo puede arreglar un departamento completamente distinto del que suele llevarse la culpa, y en el segundo intento el trabajo deliberado sobre el nivel de poder es buena parte de por qué la recepción se dio la vuelta.",
+          "flavor": "«¿Por qué le fue tan mal a cromatismo?» «Las cartas que lo llevaban eran malas.»"
+        },
+        {
+          "title": "Fija una cuota permanente que obligue a usar el catálogo antiguo",
+          "rules": "Se estableció una regla de que cada ciclo debe recuperar al menos una mecánica existente, con el argumento de que los recursos de diseño hay que mantenerlos. La cuota hace algo que una buena intención no puede: pone la pregunta en el orden del día en un punto fijo de cada proyecto, de modo que alguien tiene que ir a mirar lo que ya existe en lugar de recurrir por defecto a inventar. Esta recuperación concreta ocurrió porque la pregunta se hizo a su hora y alguien en la sala tenía una respuesta preparada. Sin la regla, nadie está nunca obligado a preguntar.",
+          "flavor": "En algún momento temprano del diseño, siempre pregunto al equipo qué debería volver."
+        },
+        {
+          "title": "El segundo intento sobre un fracaso necesita un diagnóstico escrito antes que un abogado",
+          "rules": "Queriendo revivir algo que había rendido por debajo, no argumentó que mereciera otra oportunidad. Produjo una lista de cinco cosas concretas que habían salido mal — el sabor, el nombre, la funcionalidad, la clasificación, el nivel de poder —, cada una con su causa y su arreglo. Esa lista es lo que convirtió la resurrección en un plan y no en una corazonada, y es también lo que cazó los dos puntos que nadie habría adivinado. El entusiasmo por una idea fracasada es común y no vale casi nada. La autopsia detallada es la parte que de verdad escasea.",
+          "flavor": "Obviamente habíamos hecho algo mal. Si íbamos a traerlo de vuelta, teníamos que entender el qué."
+        },
+        {
+          "title": "Fracasar una vez dice algo sobre la ejecución, no necesariamente sobre la idea",
+          "rules": "La recepción la primera vez no fue hostil, solo plana, y esa es la lectura que con más facilidad se toma como veredicto sobre el concepto. No lo era. La misma mecánica, reconstruida, acabó apareciendo en casi todos los formatos y en la lista corta de cosas que se harán seguro otra vez. Lo que este episodio establece es una categoría que conviene mantener: ideas sólidas que se publicaron mal, todavía ahí en tu propia historia, distinguibles de las ideas que sencillamente no funcionan, y que merece la pena repasar el registro para encontrar.",
+          "flavor": "Rehacer algo que la gente adora se vende fácil. Rehacer algo que fracasó es el reto de verdad."
+        }
+      ]
+    },
+    "fr": {
+      "title": "J'appuie cette dévotion",
+      "dek": "Chroma a échoué, et neuf ans plus tard la même mécanique est revenue sous le nom de dévotion et a réussi — voici la liste en cinq points de ce qui n'avait pas marché.",
+      "overview": "La biographie complète d'une mécanique : soumise sous forme de carte par un non-employé siégeant dans une équipe de conception, reconnue comme plus grande qu'une carte, mise de côté des années, imprimée une seule fois comme aperçu de l'avenir, étendue à neuf cartes dans une extension mal reçue, accueillie avec un haussement d'épaules, puis reconstruite entièrement pour un monde où son ambiance collait enfin. Le précieux est au milieu : avant d'accepter son retour, Rosewater a rédigé cinq diagnostics précis de ce qui avait cloché la première fois, et la chronique les parcourt tous. Plusieurs remontent à des décisions prises presque distraitement sur l'unique carte qui l'avait lancée.",
+      "takeaway": "Une mécanique qui a échoué n'est pas une mécanique qui ne peut pas marcher, mais la seconde tentative ne gagne rien à l'enthousiasme. Rédigez d'abord le diagnostic — et attendez-vous à ce que plusieurs points soient des choix arbitraires faits sur la première occurrence par quelqu'un qui n'y réfléchissait pas beaucoup.",
+      "lessons": [
+        {
+          "title": "Quand une proposition se révèle être une capacité générale, retirez les occurrences particulières",
+          "rules": "Un membre de l'équipe a rendu une carte qui a plu et est entrée dans le fichier, puis une seconde qui a plu davantage — et la réponse à la seconde a été de retirer la première. La reconnaissance a été que ce n'était pas une bonne carte mais une mécanique avec de l'espace, et une mécanique mérite une vraie présentation plutôt que deux apparitions accidentelles dans une extension qui était de toute façon le mauvais foyer. Quand une chose que vous avez acceptée se révèle être l'occurrence d'une chose plus vaste, il faut retirer les occurrences et garder le général jusqu'à pouvoir le faire délibérément.",
+          "flavor": "La seconde m'a tellement plu que j'ai retiré la première."
+        },
+        {
+          "title": "Un lancement à une seule occurrence ne donne aucune donnée, et ses décisions distraites lient la version complète des années plus tard",
+          "rules": "La mécanique est apparue d'abord sur exactement une carte, avec deux conséquences. Elle n'a jamais été assez jouée pour qu'on en apprenne quoi que ce soit, si bien que personne n'a découvert qu'une de ses formes possibles valait bien mieux que les autres — aucune carte ne la pratiquait. Et chaque propriété accessoire de cette unique carte est devenue, des années après, une contrainte sur l'extension : où elle regardait, comment elle était classée, comment on pouvait l'appeler. Les deux problèmes ont la même racine. Un lancement est une spécification, que vous le traitiez ainsi ou non, et une occurrence est trop peu pour tester la spécification que vous êtes en train d'écrire.",
+          "flavor": "Pourquoi regarde-t-elle la main ? Je ne sais pas. Elle aurait aussi bien pu regarder le champ de bataille."
+        },
+        {
+          "title": "Une mécanique sans ambiance reçoit un nom fonctionnel, et le nom produit ensuite d'autres travaux sans ambiance",
+          "rules": "La conception est arrivée sans porter de sens, si bien que ceux qui l'ont nommée — pressés par le temps, avec une vingtaine d'autres à nommer — lui ont donné un mot exact, descriptif et parfaitement inerte. Ce mot est ensuite parti vers les concepteurs comme consigne de tout ce qui se bâtirait dessus, et une consigne qui n'évoque rien produit un travail qui n'évoque rien. La boucle se referme et se resserre à chaque tour. C'est pourquoi l'étape du nom n'est pas cosmétique : le nom est le cahier des charges contre lequel chaque carte suivante est conçue, donc un nom vide est une instruction permanente de rester vide.",
+          "flavor": "Une exécution sans ambiance a mené à un nom sans ambiance, qui a mené à d'autres exécutions sans ambiance."
+        },
+        {
+          "title": "Mettez la variable dans le nom",
+          "rules": "L'ancien mot nommait le mécanisme et s'arrêtait là, laissant tue la chose dont il se souciait réellement — quelle couleur — de sorte que chaque carte devait l'établir séparément et qu'aucune ne pouvait y renvoyer naturellement. Le remplaçant a été bâti pour porter le paramètre : non un nom nu, mais un nom avec la variable attachée, tourné jusqu'à sonner comme de la langue ordinaire plutôt que du jargon. Quand ce que vous nommez prend un argument, faites entrer l'argument dans le nom. Cela transforme le terme d'étiquette à décoder en phrase qui dit ce qui se passe.",
+          "flavor": "« Dévotion [couleur] » sonnait forcé. « Dévotion à la [couleur] » sonnait juste."
+        },
+        {
+          "title": "Une classification choisie par commodité peut interdire ce que vous voudrez le plus bâtir plus tard",
+          "rules": "Parce que la carte de lancement variait l'endroit qu'elle regardait, elle ne pouvait pas être un vrai mot-clé et a reçu l'étiquette de la catégorie plus faible. Cette distinction paraît technique jusqu'à ce qu'on bute sur la règle interdisant aux autres cartes de renvoyer à la catégorie faible. Neuf ans plus tard, tout le cycle central de la nouvelle extension reposait sur des cartes nommant la mécanique — ce que la classification d'origine aurait rendu illégal. Le changement fonctionnel venu avec la reconstruction ne concernait pas que le jeu : c'est lui qui a rendu le terme référençable.",
+          "flavor": "Ils auraient pu avoir la fonctionnalité. Ils n'auraient simplement pas pu la nommer."
+        },
+        {
+          "title": "Changez légèrement la fonction et vous avez gagné le droit de renommer",
+          "rules": "Il savait que l'ancien nom devait partir et savait que renommer une chose que les joueurs connaissent est difficile à vendre. Le geste a été de verrouiller la mécanique sur une seule zone — ce qu'il voulait de toute façon, pour l'ambiance, la jouabilité et le calibrage — puis de constater qu'une version qui ne fonctionne plus à l'identique est tenue d'avoir un nom neuf. Le changement fonctionnel était réel et justifié en soi. Il a aussi converti le renommage d'une préférence en une conséquence, ce qui se défend bien plus facilement.",
+          "flavor": "En modifiant légèrement la fonctionnalité, j'ai forcé le changement."
+        },
+        {
+          "title": "Une mécanique s'éprouve à travers ses cartes : des cartes faibles sont indiscernables d'une mécanique faible",
+          "rules": "Interrogé sur l'échec de la première tentative, le chef du développement a donné une réponse d'une ligne qui sautait toute considération de conception : les cartes qui la portaient étaient mauvaises. Personne ne rencontre une mécanique dans l'abstrait. On rencontre des objets particuliers, et si aucun ne vaut la peine d'être joué, le verdict rendu porte sur la mécanique. Cela vaut d'être isolé, car c'est réparable par un service tout autre que celui qu'on accuse d'ordinaire — et à la seconde tentative, le travail délibéré sur la puissance explique en grande partie le retournement de l'accueil.",
+          "flavor": "« Pourquoi chroma a-t-elle si mal marché ? » « Les cartes qui la portaient étaient nulles. »"
+        },
+        {
+          "title": "Fixez un quota permanent qui oblige à se servir du catalogue",
+          "rules": "Une règle a été posée : chaque cycle doit ramener au moins une mécanique existante, au motif que les ressources de conception doivent être entretenues. Le quota fait ce qu'une bonne intention ne peut pas : il met la question à l'ordre du jour à un point fixe de chaque projet, si bien que quelqu'un doit aller regarder ce qui existe déjà au lieu de se rabattre sur l'invention. Cette résurrection-là a eu lieu parce que la question a été posée à l'heure et que quelqu'un dans la salle avait une réponse prête. Sans la règle, personne n'est jamais obligé de demander.",
+          "flavor": "Tôt dans la conception, je demande toujours à l'équipe ce qui devrait revenir."
+        },
+        {
+          "title": "La seconde tentative après un échec a besoin d'un diagnostic écrit avant d'avoir besoin d'un avocat",
+          "rules": "Voulant faire revivre une chose qui avait sous-performé, il n'a pas plaidé qu'elle méritait une autre chance. Il a produit une liste de cinq points précis qui avaient cloché — l'ambiance, le nom, la fonctionnalité, la classification, la puissance — chacun avec sa cause et son correctif. Cette liste est ce qui a transformé la reprise en plan plutôt qu'en intuition, et c'est aussi elle qui a attrapé les deux points que personne n'aurait devinés. L'enthousiasme pour une idée ratée est banal et ne vaut presque rien. L'autopsie détaillée est la partie réellement rare.",
+          "flavor": "Nous avions manifestement fait quelque chose de travers. Pour la ramener, il fallait comprendre quoi."
+        },
+        {
+          "title": "Échouer une fois dit quelque chose de l'exécution, pas nécessairement de l'idée",
+          "rules": "L'accueil de la première fois n'a pas été hostile, seulement plat, et c'est la lecture qu'on prend le plus volontiers pour un verdict sur le concept. Ce n'en était pas un. La même mécanique, reconstruite, a fini par apparaître dans presque tous les formats et sur la courte liste des choses qu'on refera à coup sûr. Ce que l'épisode établit, c'est une catégorie à conserver : des idées saines mal livrées, encore présentes dans votre propre histoire, distinctes de celles qui ne marchent tout simplement pas — et qui valent qu'on relise le registre pour les retrouver.",
+          "flavor": "Refaire ce que les gens adorent se vend facilement. Refaire ce qui a échoué, voilà le vrai défi."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Eu apoio essa devoção",
+      "dek": "Cromatismo fracassou e, nove anos depois, a mesma mecânica voltou como devoção e deu certo — eis a lista de cinco pontos do que tinha dado errado.",
+      "overview": "A biografia completa de uma mecânica: entregue como carta por alguém que não era funcionário numa equipe de design, reconhecida como maior do que uma carta, engavetada por anos, impressa uma única vez como um vislumbre do futuro, expandida para nove cartas numa coleção de que ninguém gostou, recebida com um dar de ombros, e então reconstruída do zero para um mundo em que seu sabor finalmente encaixava. O valioso está no meio: antes de concordar em trazê-la de volta, Rosewater escreveu cinco diagnósticos específicos do que tinha dado errado da primeira vez, e a coluna percorre todos. Vários remontam a decisões tomadas quase por descuido na única carta que a estreou.",
+      "takeaway": "Uma mecânica que fracassou não é o mesmo que uma mecânica que não pode funcionar, mas a segunda tentativa não ganha nada com entusiasmo. Escreva o diagnóstico primeiro — e conte que vários itens sejam escolhas arbitrárias feitas na primeira ocorrência por alguém que não estava pensando muito nelas.",
+      "lessons": [
+        {
+          "title": "Quando uma entrega se revela uma capacidade geral, retire as ocorrências específicas",
+          "rules": "Um membro da equipe entregou uma carta de que se gostou e que entrou no arquivo, depois uma segunda de que se gostou mais — e a resposta à segunda foi tirar a primeira de volta. O reconhecimento foi que aquilo não era uma boa carta, e sim uma mecânica com espaço dentro; e uma mecânica merece uma apresentação decente em vez de duas aparições acidentais numa coleção que de toda forma era a casa errada. Quando algo que você já aceitou se revela uma instância de algo maior, a jogada é recolher as instâncias e segurar a coisa geral até poder fazê-la de propósito.",
+          "flavor": "Gostei tanto da segunda que tirei a primeira."
+        },
+        {
+          "title": "Uma estreia de instância única não dá dados, e suas decisões displicentes amarram a versão completa anos depois",
+          "rules": "A mecânica apareceu pela primeira vez em exatamente uma carta, e isso teve duas consequências. Nunca foi jogada o bastante para se aprender algo, então ninguém descobriu que uma de suas formas possíveis era muito melhor que as outras — não existia carta que a fizesse. E cada propriedade incidental daquela única carta virou, anos depois, uma restrição sobre a expansão: onde olhava, como era classificada, como podia ser chamada. Os dois problemas têm a mesma raiz. Uma estreia é uma especificação, quer você a trate assim ou não, e uma instância é pouco demais para testar a especificação que você está escrevendo.",
+          "flavor": "Por que ela olha a mão? Não sei. Podia igualmente ter olhado o campo de batalha."
+        },
+        {
+          "title": "Uma mecânica sem sabor ganha um nome funcional, e o nome depois produz mais trabalho sem sabor",
+          "rules": "O design chegou sem carregar significado nenhum, então quem o batizou — com pressa e com uma vintena de outros para batizar — lhe deu uma palavra exata, descritiva e completamente inerte. Essa palavra então saiu para os designers como o estímulo de tudo que se construísse sobre ela, e um estímulo que não evoca nada produz trabalho que não evoca nada. O ciclo se fecha e aperta a cada volta. É por isso que a etapa de nomear não é cosmética: o nome é o briefing contra o qual cada carta posterior é projetada, então um nome vazio é uma instrução permanente de continuar vazio.",
+          "flavor": "Execução sem sabor levou a um nome sem sabor, que levou a mais execuções sem sabor."
+        },
+        {
+          "title": "Ponha a variável no nome",
+          "rules": "A palavra antiga nomeava o mecanismo e parava aí, deixando não dito aquilo com que ela de fato se importava — qual cor — de modo que cada carta tinha de estabelecer isso à parte e nenhuma podia se referir a isso com naturalidade. A substituta foi construída para carregar o parâmetro: não um substantivo pelado, mas um substantivo com a variável presa, formulado até soar como língua comum e não jargão. Quando o que você está nomeando aceita um argumento, coloque o argumento no nome. Isso converte o termo de rótulo a decodificar em frase que diz o que está acontecendo.",
+          "flavor": "\"Devoção [cor]\" soava forçado. \"Devoção à [cor]\" soava certo."
+        },
+        {
+          "title": "Uma classificação escolhida por conveniência pode proibir justamente o que você mais vai querer construir depois",
+          "rules": "Como a carta de estreia variava onde olhava, ela não podia ser uma palavra-chave de verdade e recebeu o tipo mais fraco de rótulo. Essa distinção parece técnica até você esbarrar na regra de que outras cartas não podem se referir ao tipo fraco. Nove anos depois, todo o ciclo central da nova coleção se apoiava em cartas que citavam a mecânica pelo nome — o que a classificação original teria tornado ilegal. A mudança funcional que veio com a reconstrução não era só sobre jogo: foi o que tornou o termo referenciável.",
+          "flavor": "Eles poderiam ter a funcionalidade. Só não poderiam nomeá-la."
+        },
+        {
+          "title": "Mude a função levemente e você terá conquistado o direito de renomear",
+          "rules": "Ele sabia que o nome antigo tinha de sair e sabia que renomear algo que os jogadores já conhecem é difícil de vender. A jogada foi travar a mecânica numa única zona — o que ele queria de todo jeito, por sabor, por jogabilidade e por poder precificá-la — e então apontar que uma versão que não funciona mais igual à antiga é obrigada a ter nome novo. A mudança funcional era genuína e se justificava sozinha. Também converteu a renomeação de preferência em consequência, o que é muito mais fácil de defender.",
+          "flavor": "Mudando levemente a funcionalidade, eu forcei a mudança."
+        },
+        {
+          "title": "Uma mecânica é vivida através das suas cartas, então cartas fracas são indistinguíveis de uma mecânica fraca",
+          "rules": "Perguntado por que a primeira tentativa fracassou, o chefe de desenvolvimento deu uma resposta de uma linha que pulava toda consideração de design: as cartas que a traziam eram ruins. Ninguém encontra uma mecânica em abstrato. Encontra objetos específicos e, se nenhum deles vale a pena jogar, o veredicto emitido é sobre a mecânica. Vale separar isso porque é consertável por um departamento completamente diferente daquele que costuma levar a culpa — e, na segunda tentativa, o trabalho deliberado sobre nível de poder é boa parte do motivo de a recepção ter virado.",
+          "flavor": "\"Por que cromatismo foi tão mal?\" \"As cartas com ele eram ruins.\""
+        },
+        {
+          "title": "Fixe uma cota permanente que obrigue o catálogo antigo a ser usado",
+          "rules": "Foi estabelecida uma regra de que todo ciclo precisa trazer de volta ao menos uma mecânica existente, sob o argumento de que recursos de design precisam de manutenção. A cota faz algo que uma boa intenção não consegue: coloca a pergunta na pauta num ponto fixo de cada projeto, de modo que alguém tem de ir olhar o que já existe em vez de recorrer por padrão à invenção. Este retorno específico aconteceu porque a pergunta foi feita no prazo e alguém na sala tinha uma resposta pronta. Sem a regra, ninguém nunca é obrigado a perguntar.",
+          "flavor": "Cedo no design, sempre pergunto à equipe o que deveria voltar."
+        },
+        {
+          "title": "A segunda tentativa sobre um fracasso precisa de um diagnóstico escrito antes de precisar de um advogado",
+          "rules": "Querendo reviver algo que tinha rendido abaixo do esperado, ele não argumentou que merecia outra chance. Produziu uma lista de cinco coisas específicas que tinham dado errado — o sabor, o nome, a funcionalidade, a classificação, o nível de poder — cada uma com sua causa e seu conserto. Essa lista é o que transformou o retorno num plano em vez de num palpite, e é também o que pegou os dois itens que ninguém teria adivinhado. Entusiasmo por uma ideia fracassada é comum e não vale quase nada. A autópsia detalhada é a parte que de fato é escassa.",
+          "flavor": "Obviamente tínhamos feito algo errado. Se íamos trazê-lo de volta, precisávamos entender o quê."
+        },
+        {
+          "title": "Fracassar uma vez diz algo sobre a execução, não necessariamente sobre a ideia",
+          "rules": "A recepção da primeira vez não foi hostil, apenas morna, e essa é a leitura que mais facilmente se toma como veredicto sobre o conceito. Não era. A mesma mecânica, reconstruída, acabou aparecendo em quase todos os formatos e na lista curta de coisas que certamente serão feitas de novo. O que o episódio estabelece é uma categoria que vale manter: ideias sólidas que foram entregues mal, ainda ali na sua própria história, distinguíveis das ideias que simplesmente não funcionam — e que vale voltar ao registro para achar.",
+          "flavor": "Refazer algo que as pessoas amam se vende fácil. Refazer algo que fracassou é o desafio de verdade."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "我附议这份虔诚",
+      "dek": "「异色」失败了；九年后同一个机制以「虔诚」之名回归并成功——这是当年到底哪里出了问题的五条清单。",
+      "overview": "一个机制的完整生平：由一位当时并非公司员工的设计团队成员以一张牌的形式交上来，被认出「它比一张牌更大」，搁置多年，作为对未来的一瞥只印过一次，在一套没人喜欢的牌里扩展成九张，收获了一片耸肩，然后为了一个终于配得上它风味的世界被彻底重建。真正有价值的是中间那一段：在同意让它回归之前，罗斯瓦特写下了五条关于「第一次到底哪里错了」的具体诊断，而这一期把五条全走了一遍。其中好几条都能回溯到当初那唯一一张首发牌上、几乎是随手做出的决定。",
+      "takeaway": "一个失败过的机制，和一个不可能成立的机制，不是一回事；但第二次尝试从热情里得不到任何东西。先把诊断写出来——并且预期其中有好几条，是某个当时没怎么细想的人在第一次登场时做出的随意选择。",
+      "lessons": [
+        {
+          "title": "当一份提案原来是一项通用能力时，把那些具体的实例撤回来",
+          "rules": "一位团队成员交上来一张牌，被喜欢并放进了牌表；接着交了第二张，被更加喜欢——而对第二张的回应，是把第一张又拿了出去。这里的洞察是：这不是一张好牌，而是一个还有空间的机制；而一个机制值得一次像样的登场，而不是在一套本来就不适合它的牌里两次意外露面。当你已经接受的某样东西原来是某个更大的东西的一个实例时，正确的动作是撤回这些实例，把那个一般性的东西攥住，直到你能有意识地把它做好。",
+          "flavor": "第二张我太喜欢了，喜欢到把第一张撤掉。"
+        },
+        {
+          "title": "只有一个实例的首发给不了你数据，而它随手做的决定会在多年后捆住完整版本",
+          "rules": "这个机制第一次出现时恰好只在一张牌上，这带来了两个后果。它从未被打到足以让人学到任何东西，于是没人发现它的几种可能形态里有一种远好于其他——因为压根就不存在一张那样做的牌。而那唯一一张牌的每一项附带性质，都在多年后变成了对扩展版本的约束：它看的是哪里、它被归为哪一类、它可以叫什么名字。这两个问题同源。首发就是一份规格说明——无论你是否把它当成规格；而一个实例，实在太少，不足以检验你正在写的这份规格。",
+          "flavor": "它为什么看手牌？我不知道。它同样可以去看战场。"
+        },
+        {
+          "title": "没有风味的机制会得到一个功能性的名字，而这个名字接着又会产出更多没有风味的东西",
+          "rules": "这个设计交上来时不带任何含义，于是给它命名的人——在时间压力下、手头还有二十来个别的要命名——给了它一个准确、描述性、且完全惰性的词。这个词随后作为「一切在它之上构建之物」的提示语被发给了设计师；而一个不唤起任何东西的提示语，产出的就是不唤起任何东西的作品。这个环每转一圈就闭合并收紧一次。这正是命名这一步并非表面功夫的原因：名字就是之后每一张牌据以设计的任务书，所以一个空洞的名字，是一条「继续空洞下去」的长期指令。",
+          "flavor": "没有风味的执行导致了没有风味的名字，而它又导致了更多没有风味的执行。"
+        },
+        {
+          "title": "把变量放进名字里",
+          "rules": "旧的那个词只命名了机制本身就停下了，把它真正关心的东西——是哪个颜色——留在了名字之外；于是每张牌都得单独交代一遍，而没有任何一张牌能自然地引用它。替代者是奔着「承载参数」去造的：不是一个光秃秃的名词，而是一个带着变量的名词，反复调整到读起来像日常语言而不像行话为止。当你要命名的东西带一个参数时，把这个参数弄进名字里。这会把一个「需要解码的标签」变成一句「说清楚正在发生什么」的话。",
+          "flavor": "「[颜色]虔诚」读着别扭。「对[颜色]的虔诚」就对了。"
+        },
+        {
+          "title": "一个出于方便而选的分类，可能会禁掉你日后最想造的那样东西",
+          "rules": "因为首发那张牌会改变自己看的位置，它没法成为真正的关键字，于是被做成了较弱的那一类标签。这个区别听上去很技术性，直到你撞上那条规则：其他牌不得引用较弱的那一类。九年之后，新套牌里整个核心循环都建立在「用名字引用这个机制」的牌上——而按照最初的分类，这是不合法的。伴随重建而来的那次功能改动不只关乎对局体验；正是它让这个词变得可以被引用。",
+          "flavor": "功能他们本来可以有。只是没法把它叫出名字。"
+        },
+        {
+          "title": "把功能改动一点点，你就挣到了改名的资格",
+          "rules": "他知道旧名字必须走，也知道给玩家已经认识的东西改名是件难卖的事。他的动作是把这个机制锁定在单一区域——这本来就是他想要的，为了风味、为了对局，也为了便于定价——然后指出：一个不再和旧版本完全同样运作的版本，是必须换新名字的。那次功能改动是真实的，而且本身就站得住脚。它同时把「改名」从一项偏好变成了一个后果，而后者要好辩护得多。",
+          "flavor": "通过把功能稍微改一改，我把这次改名逼成了必然。"
+        },
+        {
+          "title": "机制是通过它的牌被体验的，所以弱的牌和弱的机制无从分辨",
+          "rules": "被问到第一次为什么失败时，开发负责人给了一句跳过全部设计考量的回答：带着它的那些牌很烂。没有人会在抽象层面遇到一个机制。人们遇到的是一个个具体的物件；如果这些物件里没有一个值得打，那么被判出来的判决就是针对这个机制的。这一点值得单独拎出来，因为修它的是一个和「通常被怪罪的那个部门」完全不同的部门——而在第二次尝试里，在强度上刻意下的功夫，正是口碑反转的很大一部分原因。",
+          "flavor": "「异色为什么表现那么差？」「带它的牌很烂。」"
+        },
+        {
+          "title": "设一条长期的配额，逼着旧目录被用起来",
+          "rules": "有一条规矩被定了下来：每一轮都必须至少带回一个已有的机制，理由是设计资源需要维护。配额能做到一件「良好意愿」做不到的事：它让这个问题在每个项目的一个固定节点上进入议程，于是必须有人真的去看看现成有什么，而不是默认去发明。这一次的复活之所以发生，正是因为那个问题按时被问了出来，而房间里有人手上正好有答案。没有那条规矩，就永远没有人有义务去问。",
+          "flavor": "在设计的早期某个时刻，我总会问团队：什么该回来了？"
+        },
+        {
+          "title": "对一次失败的第二次尝试，先需要一份写下来的诊断，然后才需要一个说客",
+          "rules": "他想让一样表现不佳的东西复活，采取的方式不是论证它值得再来一次，而是拿出一份清单：五件具体出过问题的事——风味、名字、功能、分类、强度——每一件都配着自己的成因和自己的修法。正是这份清单把这次复活从直觉变成了计划，也正是它逮住了那两条谁都猜不到的。对一个失败点子的热情很常见，而且几乎一文不值。真正稀缺的，是那份逐条列出的复盘。",
+          "flavor": "我们显然做错了什么。要把它带回来，就得先弄明白错在哪。"
+        },
+        {
+          "title": "失败过一次，说的是执行的事，不一定是点子的事",
+          "rules": "第一次的反响并不是敌意，只是平淡；而恰恰是这种反应，最容易被当作对这个概念本身的判决。它不是。同一个机制，重建之后，几乎出现在了每一个赛制里，并且进了「肯定还会再做很多次」的短名单。这段经历确立的是一个值得保留的类别：本身成立、但当初交付得很糟的点子——它们仍然待在你自己的历史里，可以和「就是行不通」的点子区分开来，而且值得你回头翻档案去把它们找出来。",
+          "flavor": "重做大家喜欢的东西很好卖。重做一样失败过的东西，才是真正的挑战。"
+        }
+      ]
+    }
+  }
+}
