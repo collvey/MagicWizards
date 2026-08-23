@@ -1,0 +1,320 @@
+{
+  "id": "preparing-battle-part-2-2015-09-14",
+  "slug": "preparing-battle-part-2-2015-09-14",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-09-14",
+  "series": { "id": "preparing-battle", "order": 2, "total": 2 },
+  "tags": ["battle-for-zendikar", "preview", "devoid", "ingest", "rally"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/preparing-battle-part-2-2015-09-14",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T06:15:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "G" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Preparing for Battle, Part 2",
+      "dek": "Devoid looks like the thing breaking the colour pie. It's the containment — the true colourless spells are the danger.",
+      "overview": "Finishing Battle for Zendikar: ingest and the Processors, rally, awaken, and why so much of it changed in development.",
+      "takeaway": "\"I was trying to solve a very complex problem while keeping one hand tied behind my back, and the result is that the set didn't get handed over as complete as I would have liked.\"",
+      "lessons": [
+        {
+          "title": "The thing that looks like the transgression is often the containment",
+          "rules": "When a new feature seems to break a rule you care about, check which version of it is actually dangerous. Frequently the loud, visible variant is the one carrying a safeguard, and the quiet familiar variant is the unbounded one. Say which is which, because the audience will assume the opposite.",
+          "flavor": "“Is devoid somehow breaking the color pie? The answer is it's doing exactly the opposite. By having devoid spells, we are allowing ourselves to make colorless spells that still stay confined within a particular color. A red devoid spell gets to do red things because it still requires you to spend red mana. It's the true colorless spells that are the actual danger.”"
+        },
+        {
+          "title": "Change the number, then amend the fiction to ratify it",
+          "rules": "A balance tweak that alters how something feels shouldn't be left as a bare adjustment. Have the setting explain it: the change becomes a fact about the world rather than an inconsistency, and everyone who remembers the old version gets a reason instead of a discrepancy.",
+          "flavor": "The Spawn were too defensive at 0/1, so development tried 1/1 and kept it. “The creative team then changed their name from Spawn to Scions to reflect that in our six-year absence, the Eldrazi had grown in power even down to their tiny creature token forms.”"
+        },
+        {
+          "title": "A randomiser that makes you unpredictable makes you unpredictable to yourself",
+          "rules": "Unpredictability aimed at an opponent doesn't stay aimed. If the point is that nobody can anticipate what your thing does, that includes the person operating it — and being unable to plan your own actions is a worse experience than facing someone you can't read.",
+          "flavor": "“We had a mechanic called ‘hedronize' that was a keyword action. Whenever you hedronized, you rolled an eight-sided die and there were eight possible effects that could happen. The idea behind the mechanic was that it would make the Eldrazi difficult to play against because you would never quite know what they were going to do. In the end, it also made it hard for you to play the deck.”"
+        },
+        {
+          "title": "Removing the other side's resources helps whoever is already ahead",
+          "rules": "An effect that strips what the opponent has looks like the natural way to express dominance, and it mostly reads as \"win more\": the player who is winning gets the most out of it, and the player who is losing gets nothing. If a theme keeps landing there, the theme needs a different expression.",
+          "flavor": "“I really wanted to give Ulamog and his lineage a mechanic that captured this endless hunger. I did not, however, want to bring back annihilator. So the big question was, how can we create something that captures a sense of this world-eating but doesn't just shut down the game? We explored if there was a different way to ‘eat' permanents, but we kept running into the same problem that destroying permanents becomes very ‘win more.'”"
+        },
+        {
+          "title": "Consume the resource instead of counting it",
+          "rules": "An effect that scales with how much of something exists grows faster than you can balance. Make it spend that something instead. The same theme now has a natural brake, the numbers stay controllable, and you can afford far larger individual effects because each one costs.",
+          "flavor": "“When this mechanic was turned over to development, they had a bunch of problems with it—the biggest being the rate at which it grew. It was hard to have scaling effects where the cards didn't quickly get out of control. That's when Erik Lauer came to me and asked if instead of counting how many cards your opponent had exiled, perhaps we could use them up… By using the exiled cards as a cost, it could keep them in check and allow designs with much bigger effects.”"
+        },
+        {
+          "title": "When the payoff exists but the fuel doesn't, promote a one-off into a keyword",
+          "rules": "Building a set of things that consume a resource creates an immediate shortage of that resource. Look through what you've already made for the single item that produces it, and turn that item's ability into a named, repeatable feature. The supply side arrives fully formed from something you'd already validated.",
+          "flavor": "“The problem this led to was there weren't enough ways to exile cards… The ability Erik liked had been one we had put on a single creature. That creature exiled a card off the top of an opponent's library every time it dealt combat damage to that opponent. What if this ability was keyworded and put on more Eldrazi? This is what ended up being called ingest.”"
+        },
+        {
+          "title": "Bring the popular thing back with its side effect corrected — and expect to overshoot",
+          "rules": "A mechanic can be well liked and still have distorted the environment. Returning it means keeping what people enjoyed while dialling back the distortion, and the first correction will almost certainly go too far. Plan for the next stage to push some of it back.",
+          "flavor": "“While landfall was well liked, it did cause a few problems last time around. For starters, it pushed Limited to be hyper-aggressive. When your creatures are mostly given a bonus on your turn, you're very encouraged to attack… We wanted to bring landfall back, but we wanted to make sure it was executed a little differently. Interestingly, design pulled a little too far back and development ended up making the landfall cards a little more aggressive.”"
+        },
+        {
+          "title": "One style of play is monotonous even when it's the right style",
+          "rules": "A mechanic that perfectly expresses the theme can still be wrong if it admits only one way to use it. Check what range of approaches it permits, not just whether the approach it produces is thematically correct — you wanted that to be an option, not the only option.",
+          "flavor": "The Ally mechanic triggered on attacking. “Design had liked how the attack trigger played into the themes of the rebels fighting back, but the gameplay ended up being a little too monotonous. All Ally decks had one style of play: aggressively attacking. We wanted that to be one option, but not the only one.” Development went back to an older shape and widened it into rally."
+        },
+        {
+          "title": "Make the number variable to give the next team a knob",
+          "rules": "A fixed value has to be right at every point on the curve, which it can't be. Letting it vary card by card costs some complexity and buys two things: the people balancing it get a dial they can turn without redesigning anything, and the range of designs you can build widens.",
+          "flavor": "“The original version of the mechanic turned a land into a 2/2. When that didn't prove to be enough, design changed it to a 3/3. In development, the call was made to make it a variable number. This added some complexity, but it gave development an important knob to be able to balance the mechanic and also allowed a wider range of design space of cards that could be created.”"
+        },
+        {
+          "title": "Name the structural cause when the handoff was incomplete",
+          "rules": "When an unusual number of decisions get made after you hand something over, the honest account isn't that the next team improved on your work — it's what constrained yours. A policy that changed mid-project, and a target you were solving against that later moved, explain more than any list of individual changes.",
+          "flavor": "“We decided to swap from the three-set block model to a two-set block model in the middle of the design… we were trying to figure out how to keep Standard from increasing in complexity, and the only answer at the time seemed to be bringing down the complexity of each individual set. That meant I was trying to solve a very complex problem while keeping one hand tied behind my back, and the result is that the set didn't get handed over as complete as I would have liked.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Preparándose para la batalla, parte 2",
+      "dek": "La vacuidad parece lo que rompe el pastel de color. Es la contención: el peligro real son los hechizos verdaderamente incoloros.",
+      "overview": "Terminar Battle for Zendikar: devorar y los Procesadores, unir, despertar, y por qué tanto cambió en desarrollo.",
+      "takeaway": "«Intentaba resolver un problema muy complejo con una mano atada a la espalda, y el resultado es que el bloque no se entregó tan completo como me habría gustado.»",
+      "lessons": [
+        {
+          "title": "Lo que parece la transgresión suele ser la contención",
+          "rules": "Cuando una función nueva parece romper una regla que te importa, comprueba qué versión de ella es realmente peligrosa. A menudo la variante ruidosa y visible es la que lleva la salvaguarda, y la variante callada y familiar es la ilimitada. Di cuál es cuál, porque el público supondrá lo contrario.",
+          "flavor": "«¿Rompe la vacuidad el pastel de color? La respuesta es que hace exactamente lo contrario. Al tener hechizos con vacuidad, nos permitimos hacer hechizos incoloros que siguen confinados dentro de un color concreto. Un hechizo rojo con vacuidad puede hacer cosas rojas porque sigue exigiéndote gastar maná rojo. El peligro real son los hechizos verdaderamente incoloros.»"
+        },
+        {
+          "title": "Cambia el número y luego enmienda la ficción para ratificarlo",
+          "rules": "Un ajuste de equilibrio que altera cómo se siente algo no debería quedarse como un retoque pelado. Haz que el escenario lo explique: el cambio pasa a ser un hecho del mundo en vez de una incoherencia, y quien recuerde la versión antigua recibe una razón en lugar de una discrepancia.",
+          "flavor": "Los Spawn resultaban demasiado defensivos siendo 0/1, así que desarrollo probó 1/1 y lo mantuvo. «El equipo creativo cambió entonces su nombre de Spawn a Vástagos, para reflejar que en nuestros seis años de ausencia los Eldrazi habían crecido en poder, hasta en sus diminutas formas de ficha de criatura.»"
+        },
+        {
+          "title": "Un generador aleatorio que te vuelve impredecible te vuelve impredecible para ti mismo",
+          "rules": "La imprevisibilidad apuntada a un oponente no se queda apuntada. Si la gracia es que nadie pueda anticipar qué hace tu cosa, eso incluye a quien la maneja; y no poder planificar tus propias acciones es peor experiencia que enfrentarte a alguien a quien no puedes leer.",
+          "flavor": "«Teníamos una mecánica llamada “hedronizar” que era una acción con palabra clave. Cada vez que hedronizabas, tirabas un dado de ocho caras y había ocho efectos posibles. La idea era que haría difícil jugar contra los Eldrazi, porque nunca sabrías bien qué iban a hacer. Al final, también hacía difícil jugar tú el mazo.»"
+        },
+        {
+          "title": "Quitarle recursos al otro ayuda a quien ya va ganando",
+          "rules": "Un efecto que despoja de lo que el oponente tiene parece la forma natural de expresar dominio, y sobre todo se lee como «ganar más»: quien va ganando le saca todo el partido y quien va perdiendo no saca nada. Si un tema aterriza ahí una y otra vez, el tema necesita otra expresión.",
+          "flavor": "«Quería darle a Ulamog y a su linaje una mecánica que capturara ese hambre sin fin. Pero no quería traer de vuelta el aniquilador. La gran pregunta era: ¿cómo crear algo que capture ese devorar mundos sin apagar la partida? Exploramos otra manera de “comer” permanentes, pero chocábamos siempre con el mismo problema: destruir permanentes se vuelve muy de “ganar más”.»"
+        },
+        {
+          "title": "Consume el recurso en vez de contarlo",
+          "rules": "Un efecto que escala con cuánto existe de algo crece más rápido de lo que puedes equilibrar. Haz que en cambio lo gaste. El mismo tema pasa a tener un freno natural, los números se mantienen controlables, y puedes permitirte efectos individuales mucho mayores porque cada uno cuesta.",
+          "flavor": "«Cuando la mecánica pasó a desarrollo, tuvieron un montón de problemas con ella; el mayor, el ritmo al que crecía. Era difícil tener efectos escalables sin que las cartas se descontrolaran enseguida. Entonces Erik Lauer vino a preguntarme si, en vez de contar cuántas cartas tenía el oponente en el exilio, podíamos gastarlas… Al usarlas como coste, se mantenían a raya y permitían efectos mucho mayores.»"
+        },
+        {
+          "title": "Cuando existe la recompensa pero no el combustible, asciende un caso único a palabra clave",
+          "rules": "Construir un conjunto de cosas que consumen un recurso crea una escasez inmediata de ese recurso. Repasa lo que ya has hecho buscando el único elemento que lo produce, y convierte su habilidad en una función nombrada y repetible. El lado de la oferta llega ya formado desde algo que ya habías validado.",
+          "flavor": "«El problema que esto trajo es que no había suficientes maneras de exiliar cartas… La habilidad que le gustaba a Erik la habíamos puesto en una sola criatura: exiliaba una carta de la biblioteca del oponente cada vez que le hacía daño de combate. ¿Y si convertíamos esa habilidad en palabra clave y la poníamos en más Eldrazi? Eso acabó llamándose devorar.»"
+        },
+        {
+          "title": "Trae de vuelta lo popular con su efecto secundario corregido, y cuenta con pasarte",
+          "rules": "Una mecánica puede gustar mucho y aun así haber distorsionado el entorno. Traerla de vuelta implica conservar lo que gustaba y rebajar la distorsión; y la primera corrección casi seguro se pasará de largo. Planifica que la siguiente etapa devuelva parte del camino.",
+          "flavor": "«Aunque el desembarco gustaba, sí causó algunos problemas la vez pasada. Para empezar, empujó el Limitado a ser hiperagresivo. Cuando tus criaturas reciben bonos sobre todo en tu turno, te anima mucho a atacar… Queríamos traerlo de vuelta, pero ejecutado algo distinto. Curiosamente, diseño se retrajo demasiado y desarrollo acabó haciendo las cartas de desembarco algo más agresivas.»"
+        },
+        {
+          "title": "Un solo estilo de juego es monótono aunque sea el estilo correcto",
+          "rules": "Una mecánica que expresa el tema a la perfección puede seguir estando mal si solo admite una manera de usarse. Comprueba qué abanico de enfoques permite, no solo si el enfoque que produce es temáticamente correcto: querías que eso fuera una opción, no la única opción.",
+          "flavor": "La mecánica de Aliados se disparaba al atacar. «A diseño le gustaba cómo el disparo al atacar jugaba con el tema de los rebeldes devolviendo el golpe, pero el juego acabó siendo un poco demasiado monótono. Todos los mazos de Aliados tenían un solo estilo: atacar agresivamente. Queríamos que eso fuera una opción, pero no la única.»"
+        },
+        {
+          "title": "Haz variable el número para darle un dial al siguiente equipo",
+          "rules": "Un valor fijo tendría que ser el correcto en cada punto de la curva, y no puede serlo. Dejar que varíe carta a carta cuesta algo de complejidad y compra dos cosas: quien equilibra recibe un dial que girar sin rediseñar nada, y se ensancha el abanico de diseños que puedes construir.",
+          "flavor": "«La versión original de la mecánica convertía una tierra en un 2/2. Cuando eso no bastó, diseño lo cambió a 3/3. En desarrollo se tomó la decisión de hacerlo un número variable. Eso añadió algo de complejidad, pero le dio a desarrollo un dial importante para equilibrar la mecánica y además permitió un abanico más amplio de cartas.»"
+        },
+        {
+          "title": "Nombra la causa estructural cuando la entrega quedó incompleta",
+          "rules": "Cuando una cantidad inusual de decisiones se toma después de que entregas algo, el relato honesto no es que el siguiente equipo mejorara tu trabajo: es qué restringía el tuyo. Una política que cambió a mitad de proyecto, y un objetivo que después se movió, explican más que cualquier lista de cambios sueltos.",
+          "flavor": "«Decidimos pasar del modelo de bloque de tres a uno de dos en mitad del diseño… intentábamos averiguar cómo evitar que el Estándar aumentara en complejidad, y la única respuesta entonces parecía bajar la complejidad de cada bloque individual. Eso significa que intentaba resolver un problema muy complejo con una mano atada a la espalda, y el resultado es que el bloque no se entregó tan completo como me habría gustado.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Se préparer à la bataille, partie 2",
+      "dek": "Le vide a l'air de casser la roue des couleurs. Il est le garde-fou : le danger, ce sont les sorts vraiment incolores.",
+      "overview": "Terminer Battle for Zendikar : l'ingestion et les Traiteurs, le ralliement, l'éveil, et pourquoi tant de choses ont changé en développement.",
+      "takeaway": "« J'essayais de résoudre un problème très complexe avec une main attachée dans le dos, et le résultat est que l'extension n'a pas été transmise aussi achevée que je l'aurais voulu. »",
+      "lessons": [
+        {
+          "title": "Ce qui a l'air de la transgression est souvent le garde-fou",
+          "rules": "Quand une nouveauté semble briser une règle à laquelle vous tenez, vérifiez laquelle de ses versions est réellement dangereuse. Souvent la variante bruyante et visible porte la protection, tandis que la variante discrète et familière est celle qui n'a pas de bornes. Dites laquelle est laquelle : le public supposera l'inverse.",
+          "flavor": "« Le vide brise-t-il la roue des couleurs ? Il fait exactement l'inverse. Avec des sorts ayant le vide, nous nous autorisons des sorts incolores qui restent confinés dans une couleur. Un sort rouge avec le vide peut faire des choses rouges parce qu'il exige toujours du mana rouge. Ce sont les sorts vraiment incolores qui constituent le vrai danger. »"
+        },
+        {
+          "title": "Changez le nombre, puis amendez la fiction pour l'entériner",
+          "rules": "Un ajustement d'équilibrage qui modifie la sensation d'une chose ne devrait pas rester un simple réglage. Faites-le expliquer par l'univers : le changement devient un fait du monde plutôt qu'une incohérence, et quiconque se souvient de l'ancienne version reçoit une raison au lieu d'un écart.",
+          "flavor": "Les Spawn étaient trop défensifs en 0/1 ; le développement a essayé 1/1 et l'a gardé. « L'équipe créative a alors changé leur nom de Spawn en Rejetons, pour refléter que durant nos six ans d'absence, les Eldrazi avaient gagné en puissance jusque dans leurs minuscules formes de jetons. »"
+        },
+        {
+          "title": "Un aléa qui vous rend imprévisible vous rend imprévisible à vous-même",
+          "rules": "L'imprévisibilité dirigée vers l'adversaire ne reste pas dirigée. Si le principe est que nul ne peut anticiper ce que fait votre chose, cela inclut celui qui la manie — et ne pas pouvoir planifier ses propres actions est une pire expérience que d'affronter quelqu'un d'illisible.",
+          "flavor": "« Nous avions une mécanique appelée “hédroniser”, une action mot-clé. À chaque fois, on lançait un dé à huit faces et huit effets possibles pouvaient survenir. L'idée était de rendre les Eldrazi difficiles à affronter, car on ne saurait jamais tout à fait ce qu'ils allaient faire. Au bout du compte, cela rendait aussi le deck difficile à jouer. »"
+        },
+        {
+          "title": "Retirer les ressources d'en face aide celui qui mène déjà",
+          "rules": "Un effet qui dépouille l'adversaire semble la façon naturelle d'exprimer la domination, et se lit surtout comme « gagner plus » : celui qui gagne en tire tout, celui qui perd n'en tire rien. Si un thème atterrit sans cesse là, c'est qu'il lui faut une autre expression.",
+          "flavor": "« Je voulais vraiment donner à Ulamog et à sa lignée une mécanique traduisant cette faim sans fin. Mais je ne voulais pas ramener l'annihilateur. La grande question : comment créer une chose qui rende ce dévorement de mondes sans bloquer la partie ? Nous avons cherché une autre façon de “manger” des permanents, mais nous butions toujours sur le même problème : détruire des permanents devient très “gagner plus”. »"
+        },
+        {
+          "title": "Consommez la ressource au lieu de la compter",
+          "rules": "Un effet qui croît avec la quantité existante grandit plus vite que vous ne pouvez l'équilibrer. Faites-le plutôt la dépenser. Le même thème acquiert un frein naturel, les nombres restent maîtrisables, et vous pouvez vous permettre des effets individuels bien plus gros puisque chacun coûte.",
+          "flavor": "« Quand la mécanique est passée au développement, ils ont eu quantité de problèmes, le principal étant sa vitesse de croissance. Il était dur d'avoir des effets progressifs sans que les cartes s'emballent. C'est là qu'Erik Lauer m'a demandé si, au lieu de compter les cartes exilées de l'adversaire, on pouvait les consommer… En les utilisant comme coût, on les tenait en bride et on pouvait viser bien plus gros. »"
+        },
+        {
+          "title": "Quand le gain existe mais pas le carburant, promouvez un cas unique en mot-clé",
+          "rules": "Bâtir un ensemble de choses qui consomment une ressource crée aussitôt une pénurie de cette ressource. Cherchez dans ce que vous avez déjà fait l'unique élément qui la produit, et transformez sa capacité en une fonctionnalité nommée et répétable. L'offre arrive toute formée depuis quelque chose de déjà validé.",
+          "flavor": "« Le problème : il n'y avait pas assez de moyens d'exiler des cartes… La capacité qu'aimait Erik, nous l'avions mise sur une seule créature : elle exilait une carte du dessus de la bibliothèque adverse chaque fois qu'elle lui infligeait des blessures de combat. Et si on en faisait un mot-clé placé sur d'autres Eldrazi ? Cela a fini par s'appeler l'ingestion. »"
+        },
+        {
+          "title": "Ramenez la chose aimée en corrigeant son effet secondaire — et attendez-vous à trop corriger",
+          "rules": "Une mécanique peut être appréciée et avoir tout de même déformé l'environnement. La ramener suppose de garder ce qui plaisait en atténuant la déformation, et la première correction ira presque sûrement trop loin. Prévoyez que l'étape suivante en rende une partie.",
+          "flavor": "« Bien qu'apprécié, l'atterrissement avait causé quelques problèmes la fois précédente. D'abord, il a poussé le Limité à l'hyper-agressivité. Quand vos créatures reçoivent surtout un bonus à votre tour, vous êtes très incité à attaquer… Nous voulions le ramener, mais exécuté autrement. Curieusement, la conception a trop reculé et le développement a fini par rendre les cartes un peu plus agressives. »"
+        },
+        {
+          "title": "Un seul style de jeu est monotone même quand c'est le bon style",
+          "rules": "Une mécanique qui exprime parfaitement le thème peut rester mauvaise si elle n'admet qu'une seule façon de s'en servir. Vérifiez l'éventail d'approches qu'elle autorise, pas seulement si l'approche qu'elle produit est thématiquement juste : vous vouliez que ce soit une option, non la seule.",
+          "flavor": "La mécanique des Alliés se déclenchait à l'attaque. « La conception aimait que ce déclenchement joue avec le thème des rebelles qui ripostent, mais le jeu est devenu un peu trop monotone. Tous les decks Alliés avaient un seul style : attaquer agressivement. Nous voulions que ce soit une option, pas la seule. »"
+        },
+        {
+          "title": "Rendez le nombre variable pour donner un curseur à l'équipe suivante",
+          "rules": "Une valeur fixe devrait être juste en tout point de la courbe, ce qu'elle ne peut pas être. La laisser varier carte par carte coûte un peu de complexité et achète deux choses : ceux qui équilibrent obtiennent un curseur sans rien reconcevoir, et l'éventail des conceptions possibles s'élargit.",
+          "flavor": "« La version d'origine transformait un terrain en 2/2. Comme cela ne suffisait pas, la conception est passée à 3/3. En développement, on a décidé d'en faire un nombre variable. Cela a ajouté de la complexité, mais donné au développement un curseur important pour équilibrer la mécanique et élargi l'espace de conception. »"
+        },
+        {
+          "title": "Nommez la cause structurelle quand la passation était incomplète",
+          "rules": "Quand un nombre inhabituel de décisions se prennent après votre transmission, le récit honnête n'est pas que l'équipe suivante a amélioré votre travail : c'est ce qui contraignait le vôtre. Une politique changée en cours de projet, et une cible qui a bougé ensuite, expliquent plus que n'importe quelle liste de modifications.",
+          "flavor": "« Nous avons décidé de passer du modèle à trois extensions à celui à deux au milieu de la conception… nous cherchions comment empêcher le Standard de gagner en complexité, et la seule réponse d'alors semblait être de baisser la complexité de chaque extension. J'essayais donc de résoudre un problème très complexe avec une main attachée dans le dos, et l'extension n'a pas été transmise aussi achevée que je l'aurais voulu. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Preparando para a batalha, parte 2",
+      "dek": "Vazio parece a coisa que quebra a roda de cores. Ele é a contenção: o perigo são as mágicas verdadeiramente incolores.",
+      "overview": "Terminando Battle for Zendikar: ingerir e os Processadores, conclamar, despertar, e por que tanta coisa mudou no desenvolvimento.",
+      "takeaway": "“Eu estava tentando resolver um problema muito complexo com uma mão amarrada nas costas, e o resultado é que a coleção não foi entregue tão completa quanto eu gostaria.”",
+      "lessons": [
+        {
+          "title": "O que parece a transgressão costuma ser a contenção",
+          "rules": "Quando um recurso novo parece quebrar uma regra que te importa, cheque qual versão dele é de fato perigosa. Muitas vezes a variante barulhenta e visível é a que carrega a salvaguarda, e a variante silenciosa e familiar é a ilimitada. Diga qual é qual, porque o público vai supor o contrário.",
+          "flavor": "“Vazio quebra a roda de cores? A resposta é que faz exatamente o oposto. Ao ter mágicas com vazio, nos permitimos fazer mágicas incolores que ainda ficam confinadas a uma cor. Uma mágica vermelha com vazio pode fazer coisas vermelhas porque ainda exige gastar mana vermelho. São as mágicas verdadeiramente incolores o perigo real.”"
+        },
+        {
+          "title": "Mude o número e então emende a ficção para ratificar",
+          "rules": "Um ajuste de balanceamento que altera como algo se sente não deveria ficar como um retoque seco. Faça o cenário explicá-lo: a mudança vira um fato do mundo em vez de uma incoerência, e quem lembra da versão antiga recebe uma razão em vez de uma discrepância.",
+          "flavor": "Os Spawn ficavam defensivos demais como 0/1, então o desenvolvimento testou 1/1 e manteve. “A equipe criativa então mudou o nome de Spawn para Rebentos, para refletir que, na nossa ausência de seis anos, os Eldrazi tinham crescido em poder até nas suas minúsculas formas de ficha.”"
+        },
+        {
+          "title": "Um aleatorizador que te deixa imprevisível te deixa imprevisível para você mesmo",
+          "rules": "Imprevisibilidade apontada para um oponente não fica apontada. Se a graça é que ninguém consegue antecipar o que a sua coisa faz, isso inclui quem a opera; e não conseguir planejar as próprias ações é uma experiência pior do que enfrentar alguém que você não consegue ler.",
+          "flavor": "“Tínhamos uma mecânica chamada ‘hedronizar', uma ação com palavra-chave. Sempre que você hedronizava, rolava um dado de oito faces e havia oito efeitos possíveis. A ideia era tornar os Eldrazi difíceis de enfrentar, porque você nunca saberia bem o que iam fazer. No fim, também ficava difícil jogar com o deck.”"
+        },
+        {
+          "title": "Tirar os recursos do outro lado ajuda quem já está na frente",
+          "rules": "Um efeito que despoja o que o oponente tem parece o jeito natural de expressar domínio, e em geral se lê como “ganhar mais”: quem está ganhando extrai tudo, quem está perdendo não extrai nada. Se um tema insiste em cair ali, o tema precisa de outra expressão.",
+          "flavor": "“Eu queria muito dar a Ulamog e à linhagem dele uma mecânica que capturasse essa fome sem fim. Mas não queria trazer o aniquilador de volta. A grande pergunta era: como criar algo que capture esse devorar mundos sem simplesmente travar a partida? Exploramos outro jeito de ‘comer' permanentes, mas batíamos sempre no mesmo problema: destruir permanentes fica muito ‘ganhar mais'.”"
+        },
+        {
+          "title": "Consuma o recurso em vez de contá-lo",
+          "rules": "Um efeito que escala com quanto de algo existe cresce mais rápido do que você consegue balancear. Faça com que ele gaste aquilo. O mesmo tema ganha um freio natural, os números seguem controláveis, e você pode bancar efeitos individuais bem maiores porque cada um custa.",
+          "flavor": "“Quando a mecânica passou ao desenvolvimento, eles tiveram um monte de problemas — o maior sendo a taxa em que ela crescia. Era difícil ter efeitos escalonáveis sem que as cartas saíssem de controle rápido. Foi aí que Erik Lauer veio me perguntar se, em vez de contar quantas cartas o oponente tinha no exílio, poderíamos gastá-las… Usando-as como custo, dava para segurar e permitir efeitos bem maiores.”"
+        },
+        {
+          "title": "Quando o prêmio existe mas o combustível não, promova um caso único a palavra-chave",
+          "rules": "Construir um conjunto de coisas que consomem um recurso cria escassez imediata desse recurso. Vasculhe o que você já fez atrás do único item que o produz, e transforme a habilidade dele num recurso nomeado e repetível. O lado da oferta chega pronto, vindo de algo que você já havia validado.",
+          "flavor": "“O problema que isso trouxe é que não havia jeitos suficientes de exilar cartas… A habilidade de que Erik gostou nós tínhamos posto numa única criatura: ela exilava a carta do topo do grimório do oponente sempre que lhe causava dano de combate. E se essa habilidade virasse palavra-chave e fosse posta em mais Eldrazi? Isso acabou se chamando ingerir.”"
+        },
+        {
+          "title": "Traga o popular de volta com o efeito colateral corrigido — e conte com passar do ponto",
+          "rules": "Uma mecânica pode ser muito querida e ainda assim ter distorcido o ambiente. Trazê-la de volta significa manter o que agradava e reduzir a distorção; e a primeira correção quase certamente vai longe demais. Planeje que a etapa seguinte devolva parte do caminho.",
+          "flavor": "“Embora aterrissar fosse bem querido, causou alguns problemas da vez passada. Para começar, empurrou o Limitado para a hiperagressividade. Quando suas criaturas ganham bônus sobretudo no seu turno, você é muito incentivado a atacar… Queríamos trazer de volta, mas executado um pouco diferente. Curiosamente, o design recuou demais e o desenvolvimento acabou deixando as cartas um pouco mais agressivas.”"
+        },
+        {
+          "title": "Um único estilo de jogo é monótono mesmo sendo o estilo certo",
+          "rules": "Uma mecânica que expressa o tema à perfeição ainda pode estar errada se admite só um jeito de ser usada. Cheque que leque de abordagens ela permite, não apenas se a abordagem que ela produz é tematicamente correta: você queria que aquilo fosse uma opção, não a única.",
+          "flavor": "A mecânica dos Aliados disparava ao atacar. “O design gostava de como o gatilho de ataque dialogava com o tema dos rebeldes revidando, mas o jogo acabou monótono demais. Todos os decks de Aliados tinham um estilo só: atacar agressivamente. Queríamos que isso fosse uma opção, mas não a única.”"
+        },
+        {
+          "title": "Torne o número variável para dar um botão à próxima equipe",
+          "rules": "Um valor fixo teria de estar certo em todos os pontos da curva, o que é impossível. Deixá-lo variar de carta em carta custa alguma complexidade e compra duas coisas: quem balanceia ganha um botão para girar sem redesenhar nada, e o leque de designs possíveis se amplia.",
+          "flavor": "“A versão original transformava um terreno num 2/2. Como não bastou, o design mudou para 3/3. No desenvolvimento, decidiram torná-lo um número variável. Isso acrescentou alguma complexidade, mas deu ao desenvolvimento um botão importante para balancear a mecânica e ampliou o espaço de design das cartas possíveis.”"
+        },
+        {
+          "title": "Nomeie a causa estrutural quando a entrega ficou incompleta",
+          "rules": "Quando um número incomum de decisões é tomado depois que você entrega algo, o relato honesto não é que a próxima equipe melhorou o seu trabalho: é o que restringia o seu. Uma política que mudou no meio do projeto, e um alvo que depois se moveu, explicam mais que qualquer lista de mudanças avulsas.",
+          "flavor": "“Decidimos trocar o modelo de bloco de três coleções pelo de duas no meio do design… tentávamos descobrir como impedir que o Padrão aumentasse em complexidade, e a única resposta na época parecia ser baixar a complexidade de cada coleção. Ou seja, eu tentava resolver um problema muito complexo com uma mão amarrada nas costas, e a coleção não foi entregue tão completa quanto eu gostaria.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "备战（下）",
+      "dek": "虚无看上去像是那个打破色轮的东西。它其实是那道防护——真正危险的是纯无色咒语。",
+      "overview": "把《赞迪卡之战》做完：吞噬与处理器、集结、觉醒，以及为什么其中那么多东西是在开发阶段才改的。",
+      "takeaway": "「我是在一只手被绑在背后的情况下去解一个非常复杂的问题；而结果就是，这个系列交接出去时，没有我希望的那么完整。」",
+      "lessons": [
+        {
+          "title": "那个看上去像是越界的东西，往往正是那道防护",
+          "rules": "当一项新功能看起来打破了你所在意的某条规则时，去查清：它的哪一个版本才是真正危险的。很多时候，那个吵闹而显眼的变体正是带着保险栓的那个；而那个安静而熟悉的变体，才是没有边界的那个。把哪个是哪个说出来——因为观众会假定成相反的。",
+          "flavor": "「虚无是不是在破坏色轮？答案是：它做的恰恰相反。有了虚无咒语，我们才得以做出『仍然被限定在某个特定颜色之内』的无色咒语。一张红色的虚无咒语之所以能做红色的事，是因为它仍然要求你花费红色法术力。真正危险的，是那些纯无色咒语。」"
+        },
+        {
+          "title": "改动数值，然后修订虚构设定去为它背书",
+          "rules": "一次改变了「手感」的平衡调整，不该只是一处光秃秃的改动。让这个世界观替它作出解释：于是这次改动成了关于这个世界的一件事实，而不是一处前后不一；而所有记得旧版本的人，得到的是一个理由，而不是一处矛盾。",
+          "flavor": "0/1的衍生物打得太偏防守；开发部试了1/1，并保留了下来。「随后创意团队把它们的名字从『衍生物』改成了『探侍』，以体现：在我们缺席的这六年里，奥札奇的力量增长了——甚至连它们那些细小的衍生物形态也是如此。」"
+        },
+        {
+          "title": "一个让你变得不可预测的随机器，也会让你对自己变得不可预测",
+          "rules": "瞄准对手的那份不可预测性，并不会乖乖地保持瞄准。如果重点在于「没人能预判你这东西会做什么」，那也包括操作它的那个人；而无法为自己的行动做计划，是一种比「面对一个你读不懂的人」更糟的体验。",
+          "flavor": "「我们有一个叫『奇岩化』的机制，是一个关键字动作。每当你奇岩化时，你要掷一个八面骰，有八种可能的效果会发生。这个机制背后的想法是：它会让奥札奇变得很难应付，因为你永远搞不清它们要干什么。而到最后，它也让你自己很难驾驭这副套牌。」"
+        },
+        {
+          "title": "拿掉对面的资源，帮到的是那个本来就领先的人",
+          "rules": "一个「剥夺对手所拥有之物」的效果，看上去是表达压倒性优势的自然方式；而它读起来大多是「赢上加赢」：正在赢的那个人从中获益最多，而正在输的那个人什么也拿不到。如果一个主题一次次落到那里，那这个主题需要换一种表达方式。",
+          "flavor": "「我真的很想给乌拉莫及其血脉一个能捕捉这份无尽饥饿的机制。但我不想把歼灭带回来。于是那个大问题是：我们怎样才能造出既能传达『吞食世界』、又不至于把整局游戏直接掐死的东西？我们探索过别的『吃掉』永久物的方式；但我们一次次撞上同一个问题：摧毁永久物会变得非常『赢上加赢』。」"
+        },
+        {
+          "title": "把这份资源消耗掉，而不是去数它",
+          "rules": "一个随着「某样东西存在多少」而放大的效果，增长得比你能平衡的速度更快。改为让它去花掉那样东西。于是同一个主题有了一个天然的刹车，数值保持在可控范围内；而且你可以负担得起大得多的单项效果——因为每一次都要付账。",
+          "flavor": "「当这个机制交到开发部手上时，他们对它有一堆问题；其中最大的就是它增长的速率。要做出『不会很快失控』的可放大效果非常难。就在那时，埃里克·劳尔来找我，问：与其去数对手在放逐区里有多少张牌，我们能不能把它们用掉？……把被放逐的牌当作代价来使用，既能勒住它，又允许我们做出效果大得多的设计。」"
+        },
+        {
+          "title": "当回报已经存在、燃料却不够时，把某个一次性的东西提拔成关键字",
+          "rules": "造出一组「会消耗某种资源」的东西，会立刻制造出这种资源的短缺。回头翻一遍你已经做出来的东西，去找那个唯一能产出它的个例；然后把这个个例的异能，变成一项有名字、可重复的功能。供给侧就这样从一个你早已验证过的东西那里，成形地到来了。",
+          "flavor": "「这带来的问题是：放逐牌的手段不够多……埃里克喜欢的那个异能，我们本来只放在一个生物身上：每当它对对手造成战斗伤害时，就从对手的牌库顶放逐一张牌。如果把这个异能做成关键字、放到更多的奥札奇身上呢？这最后被叫作吞噬。」"
+        },
+        {
+          "title": "把那件受欢迎的东西带回来，同时改掉它的副作用——并预料到自己会矫枉过正",
+          "rules": "一个机制可以既广受喜爱、又确实扭曲过环境。把它带回来，意味着保留人们喜欢的部分、同时把那份扭曲往回收；而第一次修正几乎必定会收过头。请预先安排：下一个环节会把其中一部分再推回去。",
+          "flavor": "「虽然登陆很受欢迎，它上一次确实制造了一些问题。首先，它把限制赛推向了极度激进。当你的生物大多只在你自己的回合获得加成时，你会被强烈地鼓励去攻击……我们想把登陆带回来，但要确保它的执行方式有所不同。有意思的是，设计往回收得有点过了；于是开发部最后把这些登陆牌做得更激进了一些。」"
+        },
+        {
+          "title": "只有一种打法，就是单调的——哪怕那正是正确的那一种",
+          "rules": "一个完美表达了主题的机制，如果只允许一种使用方式，那它仍然可能是错的。去检查它容许多大范围的打法，而不只是去看「它所产出的那种打法在主题上对不对」：你想要那成为一个选项，而不是唯一的选项。",
+          "flavor": "盟友机制的触发点在攻击。「设计喜欢这个攻击触发如何呼应『反抗军奋起还击』的主题；但对局最后有点太单调了。所有的盟友套牌都只有一种打法：激进地攻击。我们希望那是一个选项，而不是唯一的选项。」"
+        },
+        {
+          "title": "把这个数字做成可变的，好给下一支团队一个旋钮",
+          "rules": "一个固定值必须在这条曲线的每一点上都恰好正确——而它做不到。让它逐张变化，代价是一些复杂度，买到的是两样东西：负责平衡的人拿到了一个「不必重新设计任何东西就能拧」的旋钮；而你能造出的设计范围也变宽了。",
+          "flavor": "「这个机制最初的版本是把一块地变成2/2。当那被证明不够用时，设计把它改成了3/3。而在开发阶段，他们决定把它做成一个可变的数字。这增加了一些复杂度；但它给了开发部一个用来平衡这个机制的重要旋钮，同时也让可以被创造出来的牌拥有更宽的设计空间。」"
+        },
+        {
+          "title": "当交接得并不完整时，把那个结构性的原因说出来",
+          "rules": "当你把东西交出去之后，有异乎寻常之多的决定才被做出来时，诚实的说法并不是「下一支团队改进了你的工作」——而是「是什么在约束着你的工作」。一项在项目中途变更的政策，以及一个你当时正对着解题、后来却又移动了的目标，比任何一份逐条改动清单都更能说明问题。",
+          "flavor": "「我们是在设计进行到一半时，决定从三个系列一组的模式换成两个系列一组的……当时我们正试图弄清如何阻止标准赛的复杂度上升；而那时唯一看得见的答案，似乎就是把每一个单独系列的复杂度降下来。这意味着，我是在一只手被绑在背后的情况下去解一个非常复杂的问题；而结果就是，这个系列交接出去时，没有我希望的那么完整。」"
+        }
+      ]
+    }
+  }
+}
