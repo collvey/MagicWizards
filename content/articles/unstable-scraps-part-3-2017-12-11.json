@@ -1,0 +1,359 @@
+{
+  "id": "unstable-scraps-part-3-2017-12-11",
+  "slug": "unstable-scraps-part-3-2017-12-11",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2017-12-11",
+  "series": { "id": "unstable-scraps", "order": 3, "total": 3 },
+  "tags": [
+    "unstable",
+    "un-sets",
+    "card-design",
+    "rules-manager",
+    "playtesting",
+    "internal-buy-in"
+  ],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/unstable-scraps-part-3-2017-12-11",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T08:16:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "R" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "W" },
+    { "n": 10, "color": "G" },
+    { "n": 11, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Unstable Scraps, Part 3",
+      "dek": "The last batch, including the most contentious card in the set — one that people kept trying to remove all the way through development.",
+      "overview": "A card whose name arrived two seconds after the idea and then dictated its rarity, a creature that forbids you from repeating a choice you made earlier the same day, and a card built by asking the rules manager which rule would cause the most chaos.",
+      "takeaway": "Rules Lawyer was in and out of the file repeatedly. “All through development he tried to kill it, but each time I would find allies to help me save it.” It shipped, and later got a judge promo.",
+      "lessons": [
+        {
+          "title": "The right name can arrive whole, and then charge you for it",
+          "rules": "Occasionally a title lands complete and obviously correct, and it brings requirements with it. Decide honestly which of your other goals it's worth spending — the name is often worth more than the thing it costs.",
+          "flavor": "“I said I wanted something like Krark's Thumb but for dice rolls. Two seconds later, it hit me and I started yelling, ‘Krark's Other Thumb!'” Which meant legendary, which fought the low rarity he wanted for Limited. Rarity won, awkwardness and all."
+        },
+        {
+          "title": "Enumerate the remaining combinations of the thing that worked",
+          "rules": "A successful trick usually instantiated one case out of several. List the others explicitly; the ones you haven't done are sitting there, already validated by the one you have.",
+          "flavor": "Yet Another Æther Vortex put a card in two zones at once — library and battlefield. “Was there a way to do this again but with a different pair of zones? I wanted one to be the battlefield… I ended up with two choices, the hand or the graveyard. I designed both.”"
+        },
+        {
+          "title": "A cost that erodes with use is a cost worth charging",
+          "rules": "The best price for a repeatable ability is something the player spends down rather than pays over. When each use makes the next one weaker on its own, you get self-limiting without a written limit.",
+          "flavor": "Masterful Ninja triggers off revealing it from hand. “The cool thing about that is after you use it for the first time, you lose the surprise factor, so the reveal as a cost means something.”"
+        },
+        {
+          "title": "The first playtest finds the exploit",
+          "rules": "An open-ended permission will be read at its widest by the first person holding it, not the tenth. Watch what they reach for immediately, because that's the boundary you forgot to draw.",
+          "flavor": "Modular Monstrosity let you name any keyword. “During our first playtest, my opponent played this card and named poisonous 10.” The fix: any keyword as it has actually been printed on a creature — so poisonous 1 or monstrosity 10, but not poisonous 10."
+        },
+        {
+          "title": "Put a clock on the optimizing",
+          "rules": "A choice with many options invites analysis that costs everyone else's time. If the deliberation is the problem rather than the decision, price the deliberation directly.",
+          "flavor": "“In playtest, this was taking forever because people were always trying to optimize their choice. I solved this by borrowing from the stopwatch mechanic we'd tried earlier and adding a five-second limit. Name it quick or lose all the abilities.”"
+        },
+        {
+          "title": "Move the trigger to the other party for surprise",
+          "rules": "Something that fires on your own schedule is something you plan around. Hand the trigger to your opponent and the same effect becomes an event rather than a routine.",
+          "flavor": "“Every turn ended up adding a few too many mechanics, so we decided to change the trigger. Instead of you triggering it, what if it was something your opponent did? This would make it happen at times you weren't expecting and add a little drama.”"
+        },
+        {
+          "title": "Widen the window of the constraint to force variety",
+          "rules": "A rule scoped to one session lets people run the same optimal script every session. Extend the memory past the session boundary and the strategy has to change each time — the same words, a completely different game.",
+          "flavor": "“People with experience with the card were creating an order that they were using by default every time.” The original barred naming something you'd already named that game. “We changed it to something you already named that day.”"
+        },
+        {
+          "title": "Ask the specialist which one causes the most chaos",
+          "rules": "When you want maximum disruption inside a system, don't guess at it from outside. Go to whoever maintains the system and ask them directly — they know, and they will usually enjoy telling you.",
+          "flavor": "They wanted Rules Lawyer to remove a rule. “Which rule would create the most chaos? Matt came back with ‘Rule 704.' He had a bit of an evil smile as he said it.” State-Based Actions: you can't lose, your creatures can't die, and a good deal more."
+        },
+        {
+          "title": "Leave yourself an out on the thing that suspends the rules",
+          "rules": "Anything that switches off the machinery must be reachable by something. Build the exemption in deliberately, or you've made a state nobody can get out of.",
+          "flavor": "“The trick was that we had to make sure that Rules Lawyer didn't affect itself so there was an answer for it.” And on the text: they listed some but not all of the consequences, partly because it wouldn't fit and partly because “tiny, dense text… played into the joke.”"
+        },
+        {
+          "title": "A contested thing survives by finding a fresh coalition each round",
+          "rules": "One defence doesn't settle anything if the objection recurs. Expect the argument to reopen, and treat each reopening as a separate campaign requiring people who weren't in the last one.",
+          "flavor": "“What was the most contentious card in the set? This one. Numerous people tried to remove it both in design and development… All through development he tried to kill it, but each time I would find allies to help me save it. It was actually in and out of the file a few times.”"
+        },
+        {
+          "title": "Show some of it and let the density be the point",
+          "rules": "When the full consequences won't fit, a partial list can communicate the scale better than a complete one would. Put the rest somewhere findable and let the crowding on the object do the work.",
+          "flavor": "“We decided the card should list some, but not all, of what it meant to lose Rule 704 (it wouldn't all fit—I do list all the impacts in the FAQ, though). We liked that it would have tiny, dense text, as that played into the joke.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Retales de Unstable, parte 3",
+      "dek": "El último lote, con la carta más polémica de la edición: una que la gente siguió intentando eliminar durante todo el desarrollo.",
+      "overview": "Una carta cuyo nombre llegó dos segundos después de la idea y luego le dictó la rareza, una criatura que te prohíbe repetir una elección que hiciste antes ese mismo día, y una carta construida preguntando al gerente de reglas qué regla causaría más caos.",
+      "takeaway": "Rules Lawyer entró y salió del archivo varias veces. «Durante todo el desarrollo intentó matarla, pero cada vez yo encontraba aliados que me ayudaran a salvarla.» Se publicó, y luego tuvo versión promocional para jueces.",
+      "lessons": [
+        {
+          "title": "El nombre correcto puede llegar entero, y luego cobrártelo",
+          "rules": "De vez en cuando un título aterriza completo y obviamente correcto, y trae requisitos consigo. Decide con honestidad cuál de tus otros objetivos merece la pena gastar: el nombre suele valer más que lo que cuesta.",
+          "flavor": "«Dije que quería algo como Krark's Thumb pero para dados. Dos segundos después me golpeó y empecé a gritar: “¡El otro pulgar de Krark!”» Eso implicaba legendario, que peleaba con la rareza baja que quería para Limitado. Ganó la rareza."
+        },
+        {
+          "title": "Enumera las combinaciones restantes de aquello que funcionó",
+          "rules": "Un truco exitoso normalmente instanció un caso de entre varios. Lista los otros explícitamente: los que no has hecho están ahí, ya validados por el que sí hiciste.",
+          "flavor": "Yet Another Æther Vortex ponía una carta en dos zonas a la vez: biblioteca y campo de batalla. «¿Había forma de repetirlo con otro par de zonas? Quería que una fuera el campo… Me quedaban dos opciones, la mano o el cementerio. Diseñé las dos.»"
+        },
+        {
+          "title": "Un coste que se erosiona con el uso es un coste que vale la pena cobrar",
+          "rules": "El mejor precio para una habilidad repetible es algo que el jugador agota en vez de pagar cada vez. Cuando cada uso debilita el siguiente por sí solo, obtienes autolimitación sin escribir un límite.",
+          "flavor": "Masterful Ninja se dispara al revelarla desde la mano. «Lo bonito es que después de usarla la primera vez pierdes el factor sorpresa, así que revelar como coste significa algo.»"
+        },
+        {
+          "title": "El primer playtest encuentra el exploit",
+          "rules": "Un permiso abierto lo leerá en su versión más amplia la primera persona que lo tenga en la mano, no la décima. Fíjate en lo que buscan de inmediato: ese es el límite que olvidaste trazar.",
+          "flavor": "Modular Monstrosity te dejaba nombrar cualquier palabra clave. «En nuestro primer playtest, mi rival jugó esta carta y nombró venenoso 10.» El arreglo: cualquier palabra clave tal como se ha impreso realmente en una criatura."
+        },
+        {
+          "title": "Ponle un reloj a la optimización",
+          "rules": "Una elección con muchas opciones invita a un análisis que cuesta el tiempo de todos los demás. Si el problema es la deliberación y no la decisión, tarifa la deliberación directamente.",
+          "flavor": "«En playtest esto tardaba una eternidad porque la gente siempre intentaba optimizar su elección. Lo resolví tomando prestada la mecánica del cronómetro que habíamos probado antes y añadiendo un límite de cinco segundos.»"
+        },
+        {
+          "title": "Mueve el disparo a la otra parte para crear sorpresa",
+          "rules": "Algo que se dispara según tu propio calendario es algo alrededor de lo cual planificas. Entrégale el disparo a tu rival y el mismo efecto pasa a ser un acontecimiento en vez de una rutina.",
+          "flavor": "«Cada turno acababa añadiendo demasiadas mecánicas, así que decidimos cambiar el disparo. En vez de dispararlo tú, ¿y si fuera algo que hiciera tu rival? Eso haría que ocurriera en momentos inesperados y añadiría algo de drama.»"
+        },
+        {
+          "title": "Amplía la ventana de la restricción para forzar variedad",
+          "rules": "Una regla acotada a una partida deja que la gente repita el mismo guion óptimo cada partida. Extiende la memoria más allá del límite de la partida y la estrategia tendrá que cambiar cada vez.",
+          "flavor": "«La gente con experiencia con la carta creaba un orden que usaba por defecto siempre.» La original prohibía nombrar algo que ya hubieras nombrado esa partida. «Lo cambiamos a algo que ya hubieras nombrado ese día.»"
+        },
+        {
+          "title": "Pregunta al especialista cuál causa más caos",
+          "rules": "Cuando quieras la máxima disrupción dentro de un sistema, no lo adivines desde fuera. Ve a quien mantiene el sistema y pregúntaselo directamente: lo sabe, y normalmente disfrutará diciéndotelo.",
+          "flavor": "Querían que Rules Lawyer eliminara una regla. «¿Qué regla crearía más caos? Matt volvió con “Regla 704”. Lo dijo con una sonrisilla malvada.» Acciones basadas en estado: no puedes perder, tus criaturas no pueden morir, y bastante más."
+        },
+        {
+          "title": "Déjate una salida en aquello que suspende las reglas",
+          "rules": "Todo lo que apaga la maquinaria tiene que ser alcanzable por algo. Construye la excepción a propósito, o habrás creado un estado del que nadie puede salir.",
+          "flavor": "«El truco era que teníamos que asegurarnos de que Rules Lawyer no se afectara a sí misma, para que hubiera una respuesta contra ella.»"
+        },
+        {
+          "title": "Lo polémico sobrevive encontrando una coalición nueva cada ronda",
+          "rules": "Una defensa no zanja nada si la objeción vuelve. Cuenta con que la discusión se reabra, y trata cada reapertura como una campaña aparte que requiere gente que no estuvo en la anterior.",
+          "flavor": "«¿Cuál fue la carta más polémica de la edición? Esta. Numerosas personas trataron de quitarla tanto en diseño como en desarrollo… Cada vez yo encontraba aliados que me ayudaran a salvarla. De hecho entró y salió del archivo varias veces.»"
+        },
+        {
+          "title": "Muestra una parte y deja que la densidad sea el mensaje",
+          "rules": "Cuando las consecuencias completas no caben, una lista parcial puede comunicar la escala mejor que una completa. Pon el resto en un sitio localizable y deja que el apiñamiento en el objeto haga el trabajo.",
+          "flavor": "«Decidimos que la carta listara algunas, pero no todas, las implicaciones de perder la Regla 704 (no cabían todas; sí las listo todas en el FAQ). Nos gustaba que tuviera un texto diminuto y denso, porque eso reforzaba el chiste.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Chutes d'Unstable, partie 3",
+      "dek": "Le dernier lot, avec la carte la plus contestée de l'édition — que des gens ont tenté de supprimer tout au long du développement.",
+      "overview": "Une carte dont le nom est arrivé deux secondes après l'idée avant d'en dicter la rareté, une créature qui vous interdit de répéter un choix fait plus tôt le même jour, et une carte bâtie en demandant au responsable des règles laquelle causerait le plus de chaos.",
+      "takeaway": "Rules Lawyer est entrée et sortie du fichier plusieurs fois. « Tout au long du développement, il a essayé de la tuer, mais chaque fois je trouvais des alliés pour m'aider à la sauver. » Elle est sortie, et a eu ensuite une promo pour juges.",
+      "lessons": [
+        {
+          "title": "Le bon nom peut arriver entier, puis vous le facturer",
+          "rules": "Il arrive qu'un titre atterrisse complet et manifestement juste, et il apporte des exigences avec lui. Décidez honnêtement lequel de vos autres objectifs vaut la dépense : le nom vaut souvent plus que ce qu'il coûte.",
+          "flavor": "« J'ai dit que je voulais un Krark's Thumb mais pour les dés. Deux secondes plus tard, ça m'a frappé et j'ai crié : “L'autre pouce de Krark !” » Ce qui imposait le légendaire, en conflit avec la faible rareté voulue pour le Limité. La rareté a cédé."
+        },
+        {
+          "title": "Énumérez les combinaisons restantes de ce qui a marché",
+          "rules": "Un tour réussi n'a d'ordinaire instancié qu'un cas parmi plusieurs. Listez explicitement les autres : ceux que vous n'avez pas faits sont là, déjà validés par celui que vous avez fait.",
+          "flavor": "Yet Another Æther Vortex plaçait une carte dans deux zones à la fois. « Pouvait-on refaire cela avec une autre paire de zones ? Je voulais que l'une soit le champ de bataille… Restaient deux choix, la main ou le cimetière. J'ai conçu les deux. »"
+        },
+        {
+          "title": "Un coût qui s'érode à l'usage est un coût qui vaut d'être prélevé",
+          "rules": "Le meilleur prix pour une capacité répétable est une chose que le joueur épuise plutôt qu'il ne paie. Quand chaque usage affaiblit le suivant de lui-même, vous obtenez une autolimitation sans limite écrite.",
+          "flavor": "Masterful Ninja se déclenche en la révélant de la main. « Ce qui est chouette, c'est qu'après le premier usage vous perdez l'effet de surprise : révéler comme coût veut donc dire quelque chose. »"
+        },
+        {
+          "title": "Le premier playtest trouve l'exploit",
+          "rules": "Une permission ouverte sera lue au plus large par la première personne à la tenir, pas la dixième. Regardez ce qu'elle attrape aussitôt : c'est la limite que vous avez oublié de tracer.",
+          "flavor": "Modular Monstrosity laissait nommer n'importe quel mot-clé. « Lors de notre premier playtest, mon adversaire a joué cette carte et a nommé toxique 10. » Le correctif : tout mot-clé tel qu'il a réellement été imprimé sur une créature."
+        },
+        {
+          "title": "Mettez un chronomètre sur l'optimisation",
+          "rules": "Un choix à nombreuses options invite à une analyse qui coûte le temps de tous les autres. Si le problème est la délibération et non la décision, facturez la délibération directement.",
+          "flavor": "« En playtest, cela prenait une éternité parce que les gens cherchaient toujours à optimiser leur choix. J'ai réglé cela en empruntant la mécanique du chronomètre essayée plus tôt et en ajoutant une limite de cinq secondes. »"
+        },
+        {
+          "title": "Déplacez le déclencheur vers l'autre camp pour créer la surprise",
+          "rules": "Une chose qui se déclenche à votre propre rythme est une chose autour de laquelle vous planifiez. Confiez le déclencheur à l'adversaire et le même effet devient un événement au lieu d'une routine.",
+          "flavor": "« Chaque tour finissait par ajouter un peu trop de mécaniques, alors nous avons changé le déclencheur. Au lieu que ce soit vous, et si c'était quelque chose que fait votre adversaire ? Cela arriverait à des moments inattendus. »"
+        },
+        {
+          "title": "Élargissez la fenêtre de la contrainte pour forcer la variété",
+          "rules": "Une règle limitée à une partie laisse chacun rejouer le même script optimal à chaque partie. Étendez la mémoire au-delà de la partie et la stratégie devra changer à chaque fois.",
+          "flavor": "« Les gens habitués à la carte se fabriquaient un ordre qu'ils réutilisaient par défaut. » L'original interdisait de nommer ce qu'on avait déjà nommé dans cette partie. « Nous l'avons changé en : ce que vous avez déjà nommé aujourd'hui. »"
+        },
+        {
+          "title": "Demandez au spécialiste laquelle cause le plus de chaos",
+          "rules": "Quand vous voulez la perturbation maximale dans un système, ne la devinez pas de l'extérieur. Allez voir qui l'entretient et demandez-lui : il le sait, et prendra en général plaisir à vous le dire.",
+          "flavor": "Ils voulaient que Rules Lawyer supprime une règle. « Laquelle créerait le plus de chaos ? Matt est revenu avec “Règle 704”. Il avait un petit sourire diabolique. » Les actions basées sur l'état : vous ne pouvez pas perdre, vos créatures ne peuvent pas mourir."
+        },
+        {
+          "title": "Ménagez-vous une issue sur ce qui suspend les règles",
+          "rules": "Tout ce qui éteint la machinerie doit rester atteignable par quelque chose. Construisez l'exemption exprès, sinon vous avez créé un état dont personne ne peut sortir.",
+          "flavor": "« L'astuce, c'est qu'il fallait s'assurer que Rules Lawyer ne s'affecte pas elle-même, pour qu'il existe une réponse contre elle. »"
+        },
+        {
+          "title": "Une chose contestée survit en trouvant une coalition neuve à chaque tour",
+          "rules": "Une défense ne règle rien si l'objection revient. Attendez-vous à la réouverture du débat, et traitez chaque réouverture comme une campagne distincte exigeant des gens qui n'étaient pas là la fois d'avant.",
+          "flavor": "« Quelle fut la carte la plus contestée de l'édition ? Celle-ci. De nombreuses personnes ont tenté de la retirer, en conception comme en développement… chaque fois je trouvais des alliés pour m'aider à la sauver. »"
+        },
+        {
+          "title": "Montrez-en une partie et laissez la densité faire le propos",
+          "rules": "Quand toutes les conséquences ne tiennent pas, une liste partielle peut communiquer l'ampleur mieux qu'une liste complète. Mettez le reste quelque part de trouvable et laissez l'encombrement de l'objet travailler.",
+          "flavor": "« Nous avons décidé que la carte listerait certaines, mais pas toutes, les implications de la perte de la Règle 704 (tout ne tenait pas — je liste tout dans la FAQ). Le texte minuscule et dense servait la blague. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Retalhos de Unstable, parte 3",
+      "dek": "O último lote, com a carta mais polêmica da coleção — que as pessoas continuaram tentando remover ao longo de todo o desenvolvimento.",
+      "overview": "Uma carta cujo nome chegou dois segundos depois da ideia e então ditou a raridade dela, uma criatura que te proíbe de repetir uma escolha feita mais cedo no mesmo dia, e uma carta construída perguntando ao gerente de regras qual regra causaria mais caos.",
+      "takeaway": "Rules Lawyer entrou e saiu do arquivo várias vezes. “Durante todo o desenvolvimento ele tentou matá-la, mas cada vez eu achava aliados para me ajudar a salvá-la.” Ela saiu impressa, e depois ganhou promo de juiz.",
+      "lessons": [
+        {
+          "title": "O nome certo pode chegar inteiro, e depois cobrar por isso",
+          "rules": "De vez em quando um título aterrissa completo e obviamente correto, e traz exigências junto. Decida com honestidade qual dos seus outros objetivos vale gastar: o nome costuma valer mais do que aquilo que custa.",
+          "flavor": "“Eu disse que queria algo tipo Krark's Thumb mas para rolagens de dado. Dois segundos depois me caiu a ficha e comecei a gritar: ‘O outro polegar de Krark!'” Isso implicava lendário, que brigava com a raridade baixa que ele queria."
+        },
+        {
+          "title": "Enumere as combinações restantes daquilo que funcionou",
+          "rules": "Um truque bem-sucedido normalmente instanciou um caso entre vários. Liste os outros explicitamente: os que você não fez estão ali, já validados por aquele que você fez.",
+          "flavor": "Yet Another Æther Vortex punha uma carta em duas zonas ao mesmo tempo. “Dava para fazer de novo com outro par de zonas? Eu queria que uma fosse o campo de batalha… Sobraram duas opções, a mão ou o cemitério. Projetei as duas.”"
+        },
+        {
+          "title": "Um custo que se desgasta com o uso é um custo que vale cobrar",
+          "rules": "O melhor preço para uma habilidade repetível é algo que o jogador esgota em vez de pagar toda vez. Quando cada uso enfraquece o seguinte por si só, você ganha autolimitação sem escrever limite nenhum.",
+          "flavor": "Masterful Ninja dispara ao ser revelada da mão. “O legal é que depois do primeiro uso você perde o fator surpresa, então revelar como custo significa alguma coisa.”"
+        },
+        {
+          "title": "O primeiro playtest acha o exploit",
+          "rules": "Uma permissão aberta será lida no sentido mais amplo pela primeira pessoa a segurá-la, não pela décima. Observe o que ela pega de imediato: aquele é o limite que você esqueceu de traçar.",
+          "flavor": "Modular Monstrosity deixava você nomear qualquer palavra-chave. “No nosso primeiro playtest, meu oponente jogou esta carta e nomeou venenoso 10.” O conserto: qualquer palavra-chave como ela de fato foi impressa numa criatura."
+        },
+        {
+          "title": "Ponha um relógio na otimização",
+          "rules": "Uma escolha com muitas opções convida a uma análise que custa o tempo de todo mundo. Se o problema é a deliberação e não a decisão, precifique a deliberação diretamente.",
+          "flavor": "“No playtest isso demorava uma eternidade porque as pessoas sempre tentavam otimizar a escolha. Resolvi pegando emprestada a mecânica do cronômetro que tínhamos testado antes e pondo um limite de cinco segundos.”"
+        },
+        {
+          "title": "Mova o gatilho para a outra parte, para criar surpresa",
+          "rules": "Algo que dispara no seu próprio calendário é algo em torno do qual você planeja. Entregue o gatilho ao oponente e o mesmo efeito vira um acontecimento em vez de uma rotina.",
+          "flavor": "“Todo turno acabava acrescentando mecânicas demais, então decidimos mudar o gatilho. Em vez de você disparar, e se fosse algo que o seu oponente faz? Isso faria acontecer em momentos inesperados e acrescentaria um drama.”"
+        },
+        {
+          "title": "Alargue a janela da restrição para forçar variedade",
+          "rules": "Uma regra limitada a uma partida deixa as pessoas rodarem o mesmo roteiro ótimo toda partida. Estenda a memória para além do limite da partida e a estratégia terá de mudar a cada vez.",
+          "flavor": "“Pessoas com experiência na carta criavam uma ordem que usavam por padrão toda vez.” A original barrava nomear algo que você já tinha nomeado naquela partida. “Mudamos para algo que você já nomeou naquele dia.”"
+        },
+        {
+          "title": "Pergunte ao especialista qual delas causa mais caos",
+          "rules": "Quando você quer disrupção máxima dentro de um sistema, não adivinhe de fora. Vá até quem mantém o sistema e pergunte diretamente: ele sabe, e em geral vai gostar de contar.",
+          "flavor": "Queriam que Rules Lawyer removesse uma regra. “Qual regra criaria mais caos? Matt voltou com ‘Regra 704'. Ele disse isso com um sorrisinho maligno.” Ações baseadas em estado: você não pode perder, suas criaturas não podem morrer."
+        },
+        {
+          "title": "Deixe uma saída naquilo que suspende as regras",
+          "rules": "Tudo que desliga a maquinaria precisa continuar alcançável por alguma coisa. Construa a isenção de propósito, ou você criou um estado do qual ninguém consegue sair.",
+          "flavor": "“O truque é que tínhamos de garantir que Rules Lawyer não afetasse a si mesma, para que houvesse resposta contra ela.”"
+        },
+        {
+          "title": "Uma coisa contestada sobrevive achando uma coalizão nova a cada rodada",
+          "rules": "Uma defesa não resolve nada se a objeção volta. Espere que a discussão reabra, e trate cada reabertura como uma campanha separada, exigindo gente que não estava na anterior.",
+          "flavor": "“Qual foi a carta mais polêmica da coleção? Esta. Várias pessoas tentaram removê-la tanto no design quanto no desenvolvimento… cada vez eu achava aliados para me ajudar a salvá-la.”"
+        },
+        {
+          "title": "Mostre parte disso e deixe a densidade ser o recado",
+          "rules": "Quando as consequências completas não cabem, uma lista parcial pode comunicar a escala melhor que uma completa. Ponha o resto em algum lugar localizável e deixe o aperto no objeto fazer o trabalho.",
+          "flavor": "“Decidimos que a carta listaria algumas, mas não todas, as implicações de perder a Regra 704 (não cabia tudo — mas listo todos os impactos no FAQ). Gostávamos do texto minúsculo e denso, porque isso reforçava a piada.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "《Unstable》边角料，下",
+      "dek": "最后一批，包括这个系列里最有争议的那张牌——一张在整个开发过程中被人反复试图删掉的牌。",
+      "overview": "一张名字在点子出现两秒后就到、并且反过来决定了它稀有度的牌；一只禁止你重复「你当天早些时候做过的选择」的生物；以及一张靠「去问规则总管哪条规则最能制造混乱」而造出来的牌。",
+      "takeaway": "《规则律师》在文件里进进出出好几次。「整个开发期间他都在试图弄死它，但每一次我都能找到盟友来帮我保住它。」它最终发行了，后来还做了裁判专用的promo版。",
+      "lessons": [
+        {
+          "title": "那个对的名字可能整个儿地到来，然后向你收费",
+          "rules": "偶尔一个标题会完整地、显然正确地落地，而它同时带来了一串要求。诚实地决定：你其余的目标里，哪一个值得为它花掉？名字往往比它所耗掉的那样东西更值钱。",
+          "flavor": "「我说我想要一个类似《卡拉的拇指》、但用于掷骰的东西。两秒之后我脑子里一闪，开始大喊：『卡拉的另一根拇指！』」而这意味着它必须是传奇的，这又和他想要的低稀有度冲突。最后稀有度让位了。"
+        },
+        {
+          "title": "把「那个奏效的东西」剩下的组合都列出来",
+          "rules": "一个成功的花招，通常只实例化了若干种可能里的一种。把其余的明确列出来：那些你还没做的就在那儿，而且已经被你做成的那一个验证过了。",
+          "flavor": "《又一个乙太漩涡》让一张牌同时处在两个区域——牌库和战场。「有没有办法用另外一对区域再来一次？我希望其中一个是战场……于是只剩两个选择：手牌或坟墓场。两个我都设计了。」"
+        },
+        {
+          "title": "一个「随使用而磨损」的代价，是值得收的代价",
+          "rules": "给一个可反复使用的异能定价，最好的方式是让玩家「花光」某样东西，而不是「每次交钱」。当每一次使用都自动削弱下一次时，你就在没有写下任何上限的情况下得到了自我限制。",
+          "flavor": "《高超忍者》靠从手上展示它来触发。「有意思的地方在于：你第一次用过之后就失去了突袭性，所以『展示』作为代价是有分量的。」"
+        },
+        {
+          "title": "第一次试玩就会找到那个漏洞",
+          "rules": "一条开放式的许可，会被第一个拿到它的人按最宽的方式来读，而不是第十个。看他们立刻伸手去拿的是什么——那就是你忘了画的那条界线。",
+          "flavor": "《模块怪物》允许你指定任何关键字。「在我们的第一次试玩里，我的对手打出这张牌，然后说了『剧毒10』。」修法是：任何「确实曾经被印在某张生物牌上」的关键字。"
+        },
+        {
+          "title": "给「优化」这件事加上一个计时器",
+          "rules": "一个有很多选项的选择，会招来一场花掉其他所有人时间的分析。如果问题出在斟酌本身而不是那个决定，那就直接给斟酌定价。",
+          "flavor": "「在试玩里这花的时间没完没了，因为人们总想把自己的选择优化到最好。我借用了之前试过的秒表异能，加了一个五秒限制来解决它。说快点，否则失去身上所有异能。」"
+        },
+        {
+          "title": "把触发权挪给对方，以制造意外",
+          "rules": "一件按你自己的节奏触发的事，是一件你会围着它做计划的事。把触发权交给对手，同一个效应就从一段例行公事变成了一次事件。",
+          "flavor": "「每回合都触发最后加进来的机制有点太多了，所以我们决定换一个触发条件。与其由你来触发，如果它是由你的对手做的某件事来触发呢？这会让它在你没预料到的时刻发生，多一点戏剧性。」"
+        },
+        {
+          "title": "把这条约束的时间窗口拉宽，以此强制出变化",
+          "rules": "一条只覆盖单场对局的规则，会让人们在每一场对局里重跑同一套最优脚本。把这份记忆延伸到对局边界之外，策略就不得不每次都变——同样的措辞，完全不同的游戏。",
+          "flavor": "「对这张牌熟悉的人，会形成一个默认每次都用的顺序。」原版禁止你指定「你在这盘游戏里已经指定过的东西」。「我们把它改成了：你在今天已经指定过的东西。」"
+        },
+        {
+          "title": "去问那位专家：哪一条会造成最大的混乱",
+          "rules": "当你想在一个系统内部制造最大程度的扰动时，别从外面去猜。去找那个维护这套系统的人，直接问他——他知道，而且他通常会很乐意告诉你。",
+          "flavor": "他们想让《规则律师》移除一条规则。「哪条规则会造成最大的混乱？马特带回来的答案是『第704条』。他说这话时带着一点邪恶的微笑。」状态动作：你不会输，你的生物不会死，还有一大堆。"
+        },
+        {
+          "title": "给那个「暂停规则」的东西留一条出路",
+          "rules": "任何能把机器关掉的东西，都必须仍然能被某样东西够到。有意识地把这条豁免建进去，否则你造出的是一个谁也走不出来的状态。",
+          "flavor": "「诀窍在于：我们必须确保《规则律师》不会影响到它自己，这样才存在一个能解掉它的答案。」"
+        },
+        {
+          "title": "一件有争议的东西，是靠每一轮都找到一支新的同盟才活下来的",
+          "rules": "如果那条反对意见会重来，一次辩护什么也解决不了。要预料到这场争论会被重新打开，并且把每一次重开都当成一场需要「上一轮不在场的人」的独立战役。",
+          "flavor": "「这个系列里最有争议的牌是哪张？就是这张。设计和开发阶段都有很多人试图把它拿掉……每一次我都能找到盟友来帮我保住它。它实际上在文件里进出过好几次。」"
+        },
+        {
+          "title": "只展示其中一部分，让那份密度本身成为要点",
+          "rules": "当完整的后果列不下时，一份不完整的清单，反而可能比完整的更好地传达出规模。把其余的放在一个找得到的地方，让那件东西上的拥挤感去干活。",
+          "flavor": "「我们决定这张牌只列出失去第704条所意味的一部分、而不是全部（全部根本放不下——不过我在FAQ里把所有影响都列了）。我们喜欢它有一堆细密的小字，因为那本身就成全了这个笑话。」"
+        }
+      ]
+    }
+  }
+}
