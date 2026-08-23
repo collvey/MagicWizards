@@ -1,0 +1,320 @@
+{
+  "id": "board-education-khans-tarkir-2015-06-15",
+  "slug": "board-education-khans-tarkir-2015-06-15",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2015-06-15",
+  "series": null,
+  "tags": ["khans-of-tarkir", "design-process", "brainstorming", "morph", "cut-designs"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/board-education-khans-tarkir-2015-06-15",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T10:45:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Board of Education: Khans of Tarkir",
+      "dek": "Six photographs of a whiteboard, annotated. Most of what's on them was never printed.",
+      "overview": "Rosewater reads back the meeting-room whiteboards from Khans of Tarkir design: the brainstorm lists, the constraint columns, and a cut cycle that hijacked the game.",
+      "takeaway": "\"Instead of anyone trying to win, you'd just fight over the empires non-stop. It was very flavorful, as that's what the clans do, but it didn't lead to good game play.\"",
+      "lessons": [
+        {
+          "title": "The anecdote-shaped account of a process misrepresents it",
+          "rules": "Stories about how work gets made naturally organise around the moments when something happened, because those are the parts that have a shape. The result is a picture in which the ordinary week — the one that constitutes almost all of it — never appears. Finding some way to show the typical is worth real effort.",
+          "flavor": "“I've told stories about things we've done in design, but it tends to focus on key moments where ‘things' happened. While there are moments like that in design, it is not representative of what actually goes on the majority of the time. Meetings are a key part of design… I've always wanted to find a way to give you snapshots of what a design meeting is like.”"
+        },
+        {
+          "title": "Photograph the working surface, not just the conclusions",
+          "rules": "Written-up notes preserve what was decided and discard the branches that weren't taken. A picture of the surface keeps everything — the rejected options, the shorthand, the ordering — at no cost. Months later that's a record of the reasoning, which the tidy version can't reconstruct.",
+          "flavor": "“One of the most important tools in a design meeting is the whiteboard… Then at the end of the meeting we take notes about what we talked about. In the era of smart phones, it's become common practice to take pictures of the whiteboard and post the pictures to the wiki as an element of the notes on the meeting.”"
+        },
+        {
+          "title": "When a key parameter is still open, generate across its range and tag each idea with what it needs",
+          "rules": "Waiting for the number to be fixed stalls the work; ignoring it produces a list that silently assumes one answer. Do neither. Brainstorm the whole range and annotate each item with the value it requires, and when the parameter lands you already know which half of your list survives.",
+          "flavor": "“At this point we had no idea how long ago the past was in relation to the present so we assumed any amount of time was possible.” So each idea carries its requirement: the evolving creature “depended on there being a pretty big gap”; river-to-canyon “assumed a longer gap”; the ageing creature is “not too long? Maybe a human. Long time? Perhaps a giant turtle.”"
+        },
+        {
+          "title": "Run the vocabulary pass and the constraint pass side by side",
+          "rules": "One column of words for the feeling you're after, one column of hard requirements. Alone, the first wanders and the second produces something correct and dead. Together they aim and bound the same search, and every candidate can be checked against both without leaving the board.",
+          "flavor": "“On the left was us writing down as many words as we could think of that captured the flavor of the Sultai… We just wanted to get a sense of what the feel of the clan was.” On the right: feel Sultanate, spell based, proto, simple, 8–10 cards, mechanical overlap. “As I often say, ‘restrictions breed creativity.'”"
+        },
+        {
+          "title": "State how deep a thing must be as a count of instances",
+          "rules": "\"How much design space does this need\" is unanswerable as posed and endlessly arguable. Convert it into how many instances the thing has to support, and it becomes a number people can hold, check a candidate against, and use to stop searching once a candidate clears it.",
+          "flavor": "“Part of figuring out a mechanic is understanding how deep the mechanic has to be. The best metric for this is how many cards do you have to be able to produce? I spelled it out here to give a guideline. Eight to ten does not require a very deep mechanic.”"
+        },
+        {
+          "title": "Complexity is a pooled budget, so the count of features sets each one's ceiling",
+          "rules": "How elaborate any single element may be isn't a property of that element. It's the total allowance divided by how many things you've committed to shipping alongside it. Decide the number of features first, then say out loud what per-feature ceiling that implies, before anyone starts designing to it.",
+          "flavor": "“Part of the cost of having morph, plus five faction mechanics, meant that all the faction mechanics had to be relatively low in complexity. As such, I spelled this out to keep us away from doing a complex faction mechanic.” It's written on the board as one word: Simple."
+        },
+        {
+          "title": "Check every candidate against what you already own — many are weaker restatements",
+          "rules": "A new idea presents itself as new because it arrived by a different route. Before spending anything on it, ask what existing thing it most resembles in play, and whether it does anything that one doesn't. Often the honest answer is that it's the same effect with less range, which ends the discussion.",
+          "flavor": "“Dies into Face-Down— This was an area we thought was deep enough that it could possibly be a mechanic. In the end we realized it was basically a shallower version of persist/undying.”"
+        },
+        {
+          "title": "Map the whole space so you can choose, then deliberately leave most of it unmined",
+          "rules": "The enumeration and the exploitation are separate decisions. Doing the first thoroughly is what lets you pick well and know what you're passing up; treating the map as a to-do list is how a project ends up carrying everything it can think of. Finish the survey, then take a fraction of it on purpose.",
+          "flavor": "Seven numbered categories of face-down design, then a further board of variants, then an allocation of each idea to Huey, Dewey or Louie. “We spent a lot of time exploring all the face-down design space to allow us to pick and choose what we wanted to use. In the end, we decided that the block had enough going on that we didn't need to mine all the space.”"
+        },
+        {
+          "title": "Find the relation first, then generate instances of it cheaply",
+          "rules": "Once you have identified the relationship you want between two things, individual examples cost almost nothing and you should produce far more than you need. The relation is the idea; the instances are variations on it, and picking the best eighteenth is much easier than getting the first one right.",
+          "flavor": "One board holds eighteen versions of the same relation — a thing in the past, the same thing later. Creature to evolved creature; famous human to school they founded; famous guy to tomb or statue; schematics to building; small tome to big tome; baby spider to a section lost to spiders; river to canyon; volcanic peak to crater. “A number of these ideas actually made it through to the final product.”"
+        },
+        {
+          "title": "A sub-goal that becomes more urgent than the real goal displaces it",
+          "rules": "Anything you make worth contesting will get contested, and if the contest is more immediate than the actual objective, people will do that instead — indefinitely. Faithfulness to the subject makes this worse, not better: the more accurately the thing models a struggle, the more completely it can replace the point of the exercise.",
+          "flavor": "The cut “empires” cycle: enchantments that turned potent at a threshold of counters, where “whenever a creature would deal combat damage to an opponent, they could forego the damage to add or subtract that many counters… Instead of anyone trying to win, you'd just fight over the empires non-stop. It was very flavorful, as that's what the clans do, but it didn't lead to good game play.”"
+        }
+      ]
+    },
+    "es": {
+      "title": "Pizarra de educación: Khans of Tarkir",
+      "dek": "Seis fotografías de una pizarra, anotadas. Casi nada de lo que hay en ellas llegó a imprimirse.",
+      "overview": "Rosewater relee las pizarras de sala de reuniones del diseño de Khans of Tarkir: las listas de lluvia de ideas, las columnas de restricciones y un ciclo cortado que secuestraba la partida.",
+      "takeaway": "«En vez de que alguien intentara ganar, te pasabas peleando por los imperios sin parar. Era muy sabroso, porque es lo que hacen los clanes, pero no producía buen juego.»",
+      "lessons": [
+        {
+          "title": "El relato con forma de anécdota tergiversa el proceso",
+          "rules": "Las historias sobre cómo se hace un trabajo se organizan naturalmente en torno a los momentos en que pasó algo, porque esos son los trozos que tienen forma. El resultado es una imagen en la que la semana corriente —la que constituye casi todo— nunca aparece. Hallar algún modo de mostrar lo típico merece un esfuerzo real.",
+          "flavor": "«He contado historias de cosas que hemos hecho en diseño, pero tienden a centrarse en momentos clave donde “pasaron cosas”. Aunque hay momentos así en diseño, no representan lo que ocurre la mayor parte del tiempo. Las reuniones son una pieza clave… Siempre quise hallar la manera de daros instantáneas de cómo es una reunión de diseño.»"
+        },
+        {
+          "title": "Fotografía la superficie de trabajo, no solo las conclusiones",
+          "rules": "Las notas redactadas conservan lo decidido y descartan las ramas no tomadas. Una foto de la superficie lo guarda todo —las opciones rechazadas, la taquigrafía, el orden— sin coste alguno. Meses después eso es un registro del razonamiento, que la versión ordenada no puede reconstruir.",
+          "flavor": "«Una de las herramientas más importantes en una reunión de diseño es la pizarra… Al final de la reunión tomamos notas de lo que hablamos. En la era de los teléfonos inteligentes, se ha vuelto práctica común sacar fotos de la pizarra y subirlas al wiki como un elemento más de las notas de la reunión.»"
+        },
+        {
+          "title": "Cuando un parámetro clave sigue abierto, genera por todo su rango y etiqueta cada idea con lo que necesita",
+          "rules": "Esperar a que el número se fije paraliza el trabajo; ignorarlo produce una lista que asume en silencio una respuesta. No hagas ninguna de las dos. Haz lluvia de ideas por todo el rango y anota junto a cada ítem el valor que exige; cuando el parámetro aterrice, ya sabrás qué mitad de tu lista sobrevive.",
+          "flavor": "«En ese momento no teníamos ni idea de cuán lejano era el pasado respecto del presente, así que asumimos que cualquier cantidad de tiempo era posible.» Cada idea lleva su requisito: la criatura que evoluciona «dependía de que hubiera una brecha bastante grande»; río a cañón «asumía una brecha mayor»."
+        },
+        {
+          "title": "Haz la pasada de vocabulario y la de restricciones una al lado de la otra",
+          "rules": "Una columna de palabras para la sensación que buscas, otra de requisitos duros. Por separado, la primera divaga y la segunda produce algo correcto y muerto. Juntas apuntan y acotan la misma búsqueda, y cada candidato puede verificarse contra ambas sin salir de la pizarra.",
+          "flavor": "«A la izquierda anotábamos todas las palabras que se nos ocurrían que capturaran el sabor de los Sultai… Solo queríamos hacernos una idea de la sensación del clan.» A la derecha: sensación de sultanato, basada en conjuros, proto, simple, 8-10 cartas, solapamiento mecánico. «Como suelo decir: “las restricciones engendran creatividad”.»"
+        },
+        {
+          "title": "Enuncia cuán profunda debe ser una cosa como un recuento de ejemplares",
+          "rules": "«¿Cuánto espacio de diseño necesita esto?» es incontestable tal como se plantea y discutible sin fin. Conviértelo en cuántos ejemplares tiene que soportar la cosa y pasa a ser un número que la gente puede retener, contrastar con un candidato y usar para dejar de buscar en cuanto un candidato lo supere.",
+          "flavor": "«Parte de dar con una mecánica es entender cuán profunda tiene que ser. La mejor métrica para esto es: ¿cuántas cartas tienes que poder producir? Lo dejé escrito aquí como orientación. Ocho a diez no exige una mecánica muy profunda.»"
+        },
+        {
+          "title": "La complejidad es un presupuesto común, así que el número de elementos fija el techo de cada uno",
+          "rules": "Cuán elaborado puede ser un elemento no es una propiedad de ese elemento. Es la asignación total dividida entre cuántas cosas te has comprometido a enviar junto a él. Decide primero el número de elementos y luego di en voz alta qué techo por elemento implica, antes de que nadie empiece a diseñar contra él.",
+          "flavor": "«Parte del coste de tener metamorfosis más cinco mecánicas de facción era que todas las mecánicas de facción tenían que ser relativamente bajas en complejidad. Por eso lo dejé escrito, para alejarnos de hacer una mecánica de facción compleja.» En la pizarra está en una palabra: Simple."
+        },
+        {
+          "title": "Contrasta cada candidato con lo que ya tienes: muchos son versiones más flojas",
+          "rules": "Una idea nueva se presenta como nueva porque llegó por otra ruta. Antes de gastar nada en ella, pregunta a qué cosa existente se parece más en juego y si hace algo que aquella no haga. A menudo la respuesta honesta es que es el mismo efecto con menos alcance, y eso zanja la discusión.",
+          "flavor": "«Muere convirtiéndose en boca abajo: creíamos que esta área era lo bastante profunda como para ser una mecánica. Al final nos dimos cuenta de que era básicamente una versión más floja de persistir/imperecedero.»"
+        },
+        {
+          "title": "Mapea todo el espacio para poder elegir, y luego deja adrede la mayor parte sin explotar",
+          "rules": "La enumeración y la explotación son decisiones distintas. Hacer la primera a fondo es lo que te permite elegir bien y saber a qué renuncias; tratar el mapa como lista de tareas es como un proyecto acaba cargando con todo lo que se le ocurrió. Termina el reconocimiento y luego toma adrede una fracción.",
+          "flavor": "Siete categorías numeradas de diseño boca abajo, luego otra pizarra de variantes, luego un reparto de cada idea entre Huey, Dewey y Louie. «Dedicamos mucho tiempo a explorar todo el espacio boca abajo para poder elegir qué usar. Al final decidimos que el bloque ya tenía bastante y que no hacía falta explotar todo el espacio.»"
+        },
+        {
+          "title": "Halla primero la relación y luego genera ejemplares baratos de ella",
+          "rules": "Una vez identificada la relación que quieres entre dos cosas, los ejemplos individuales cuestan casi nada y deberías producir muchos más de los que necesitas. La relación es la idea; los ejemplares son variaciones sobre ella, y escoger el mejor de dieciocho es mucho más fácil que acertar con el primero.",
+          "flavor": "Una pizarra contiene dieciocho versiones de la misma relación: una cosa en el pasado, la misma cosa después. Criatura a criatura evolucionada; humano famoso a escuela que fundó; tipo famoso a tumba o estatua; planos a edificio; tomo pequeño a tomo grande; araña bebé a sección perdida ante las arañas; río a cañón; pico volcánico a cráter."
+        },
+        {
+          "title": "Un objetivo secundario que se vuelve más urgente que el real lo desplaza",
+          "rules": "Todo lo que hagas digno de disputarse será disputado; y si la disputa es más inmediata que el objetivo verdadero, la gente hará eso en su lugar, indefinidamente. La fidelidad al tema lo empeora, no lo mejora: cuanto más fielmente modela la cosa una lucha, más completamente puede sustituir el sentido del ejercicio.",
+          "flavor": "El ciclo cortado de «imperios»: encantamientos que se volvían potentes al alcanzar un umbral de contadores, donde «siempre que una criatura fuera a hacer daño de combate a un oponente, podía renunciar al daño para añadir o quitar esa cantidad de contadores… En vez de que alguien intentara ganar, te pasabas peleando por los imperios sin parar.»"
+        }
+      ]
+    },
+    "fr": {
+      "title": "Tableau d'éducation : Les Khans de Tarkir",
+      "dek": "Six photographies d'un tableau blanc, annotées. Presque rien de ce qui s'y trouve n'a été imprimé.",
+      "overview": "Rosewater relit les tableaux blancs des réunions de conception des Khans de Tarkir : les listes de brainstorming, les colonnes de contraintes, et un cycle coupé qui détournait la partie.",
+      "takeaway": "« Au lieu de chercher à gagner, on se battait pour les empires sans arrêt. C'était très savoureux, car c'est ce que font les clans, mais cela ne donnait pas un bon jeu. »",
+      "lessons": [
+        {
+          "title": "Le récit en forme d'anecdote déforme le processus",
+          "rules": "Les histoires sur la fabrication d'un travail s'organisent naturellement autour des moments où quelque chose est arrivé, car ce sont les morceaux qui ont une forme. D'où une image où la semaine ordinaire — celle qui compose presque tout — n'apparaît jamais. Trouver un moyen de montrer le typique vaut un vrai effort.",
+          "flavor": "« J'ai raconté des choses faites en conception, mais cela se concentre sur les moments clés où “des choses” arrivaient. Il y a de tels moments, mais ils ne représentent pas ce qui se passe la plupart du temps. Les réunions sont essentielles… J'ai toujours voulu trouver un moyen de vous donner des instantanés d'une réunion de conception. »"
+        },
+        {
+          "title": "Photographiez la surface de travail, pas seulement les conclusions",
+          "rules": "Les comptes rendus rédigés conservent les décisions et jettent les branches non prises. Une photo de la surface garde tout — options rejetées, abréviations, ordre — sans rien coûter. Des mois plus tard, c'est un relevé du raisonnement, que la version propre ne peut reconstituer.",
+          "flavor": "« L'un des outils les plus importants d'une réunion de conception est le tableau blanc… Puis, en fin de réunion, nous prenons des notes. À l'ère des téléphones intelligents, il est devenu courant de photographier le tableau et de publier les photos sur le wiki comme élément du compte rendu. »"
+        },
+        {
+          "title": "Quand un paramètre clé reste ouvert, produisez sur toute sa plage et étiquetez chaque idée",
+          "rules": "Attendre que le nombre soit fixé bloque le travail ; l'ignorer produit une liste qui suppose en silence une réponse. Ne faites ni l'un ni l'autre. Brainstormez toute la plage et notez près de chaque idée la valeur qu'elle exige ; quand le paramètre tombe, vous savez déjà quelle moitié survit.",
+          "flavor": "« À ce stade, nous n'avions aucune idée de la distance entre le passé et le présent, alors nous avons supposé toute durée possible. » Chaque idée porte son exigence : la créature qui évolue « supposait un écart assez grand » ; rivière-vers-canyon « supposait un écart plus long »."
+        },
+        {
+          "title": "Menez la passe de vocabulaire et la passe de contraintes côte à côte",
+          "rules": "Une colonne de mots pour la sensation visée, une colonne d'exigences dures. Seule, la première vagabonde et la seconde produit quelque chose de correct et mort. Ensemble, elles visent et bornent la même recherche, et tout candidat se vérifie contre les deux sans quitter le tableau.",
+          "flavor": "« À gauche, nous écrivions tous les mots qui nous venaient et qui captaient la saveur des Sultaï… Nous voulions juste sentir l'ambiance du clan. » À droite : sensation de sultanat, basé sur les sorts, proto, simple, 8-10 cartes, chevauchement mécanique. « Comme je le dis souvent : “les contraintes engendrent la créativité”. »"
+        },
+        {
+          "title": "Énoncez la profondeur requise comme un nombre d'exemplaires",
+          "rules": "« De combien d'espace de conception cela a-t-il besoin ? » est insoluble tel quel et discutable sans fin. Convertissez-le en nombre d'exemplaires que la chose doit soutenir : cela devient un chiffre qu'on retient, contre lequel on teste un candidat, et qui dit quand cesser de chercher.",
+          "flavor": "« Une partie du travail sur une mécanique consiste à comprendre sa profondeur nécessaire. Le meilleur indicateur est : combien de cartes devez-vous pouvoir produire ? Je l'ai écrit ici comme repère. Huit à dix n'exige pas une mécanique très profonde. »"
+        },
+        {
+          "title": "La complexité est un budget commun : le nombre d'éléments fixe le plafond de chacun",
+          "rules": "Le degré d'élaboration permis à un élément n'est pas une propriété de cet élément. C'est l'enveloppe totale divisée par le nombre de choses que vous vous êtes engagé à livrer à côté. Décidez d'abord le nombre d'éléments, puis énoncez à voix haute le plafond par élément que cela implique.",
+          "flavor": "« Le coût de la morphie plus cinq mécaniques de faction impliquait que toutes les mécaniques de faction soient relativement peu complexes. Je l'ai donc écrit noir sur blanc pour nous éloigner d'une mécanique de faction complexe. » Sur le tableau, c'est un seul mot : Simple."
+        },
+        {
+          "title": "Confrontez chaque candidat à ce que vous possédez déjà — beaucoup n'en sont que des versions affaiblies",
+          "rules": "Une idée neuve se présente comme neuve parce qu'elle est arrivée par un autre chemin. Avant d'y dépenser quoi que ce soit, demandez à quoi elle ressemble le plus en jeu, et si elle fait quelque chose que l'autre ne fait pas. Souvent la réponse honnête est : le même effet en plus étroit — ce qui clôt le débat.",
+          "flavor": "« Meurt en face cachée — nous pensions ce domaine assez profond pour devenir une mécanique. Nous avons fini par comprendre que c'était en gros une version affaiblie de la persistance/l'impérissable. »"
+        },
+        {
+          "title": "Cartographiez tout l'espace pour pouvoir choisir, puis laissez-en exprès la majeure partie inexploitée",
+          "rules": "L'énumération et l'exploitation sont deux décisions. Faire la première à fond permet de bien choisir et de savoir à quoi l'on renonce ; traiter la carte comme une liste de tâches est la façon dont un projet finit par tout embarquer. Achevez le relevé, puis prenez-en délibérément une fraction.",
+          "flavor": "Sept catégories numérotées de conception en face cachée, puis un autre tableau de variantes, puis la répartition de chaque idée entre Huey, Dewey et Louie. « Nous avons beaucoup exploré cet espace pour pouvoir choisir. Au final, le bloc avait déjà bien assez à faire : inutile d'exploiter tout l'espace. »"
+        },
+        {
+          "title": "Trouvez d'abord la relation, puis produisez-en des exemplaires à bas coût",
+          "rules": "Une fois identifiée la relation voulue entre deux choses, les exemples individuels ne coûtent presque rien et il faut en produire bien plus que nécessaire. La relation est l'idée ; les exemplaires en sont des variations, et choisir le meilleur sur dix-huit est bien plus facile que réussir le premier.",
+          "flavor": "Un tableau contient dix-huit versions de la même relation : une chose au passé, la même plus tard. Créature vers créature évoluée ; humain célèbre vers l'école qu'il a fondée ; célébrité vers tombeau ou statue ; plans vers bâtiment ; petit tome vers grand tome ; bébé araignée vers section perdue ; rivière vers canyon ; pic volcanique vers cratère."
+        },
+        {
+          "title": "Un objectif secondaire devenu plus urgent que le vrai le remplace",
+          "rules": "Tout ce que vous rendez digne d'être disputé le sera ; et si la dispute est plus immédiate que l'objectif réel, les gens feront cela à la place, indéfiniment. La fidélité au sujet aggrave la chose : plus l'objet modélise fidèlement une lutte, plus il peut se substituer au but de l'exercice.",
+          "flavor": "Le cycle coupé des « empires » : des enchantements devenant puissants à un seuil de marqueurs, où « chaque fois qu'une créature allait infliger des blessures de combat à un adversaire, on pouvait renoncer aux blessures pour ajouter ou retirer autant de marqueurs… Au lieu de chercher à gagner, on se battait pour les empires sans arrêt. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Quadro de educação: Khans of Tarkir",
+      "dek": "Seis fotografias de um quadro branco, anotadas. Quase nada do que está nelas foi impresso.",
+      "overview": "Rosewater relê os quadros brancos das reuniões de design de Khans of Tarkir: as listas de brainstorm, as colunas de restrições e um ciclo cortado que sequestrava a partida.",
+      "takeaway": "“Em vez de alguém tentar ganhar, você ficava brigando pelos impérios sem parar. Era muito saboroso, porque é o que os clãs fazem, mas não gerava bom jogo.”",
+      "lessons": [
+        {
+          "title": "O relato em forma de anedota deturpa o processo",
+          "rules": "Histórias sobre como um trabalho é feito se organizam naturalmente em torno dos momentos em que algo aconteceu, porque são as partes que têm forma. O resultado é um retrato em que a semana comum — a que compõe quase tudo — nunca aparece. Achar um jeito de mostrar o típico vale um esforço real.",
+          "flavor": "“Já contei histórias de coisas que fizemos em design, mas elas tendem a focar em momentos-chave em que ‘coisas' aconteceram. Existem momentos assim, mas eles não representam o que acontece na maior parte do tempo. Reuniões são parte central… Sempre quis achar um jeito de dar a vocês instantâneos de como é uma reunião de design.”"
+        },
+        {
+          "title": "Fotografe a superfície de trabalho, não só as conclusões",
+          "rules": "Atas redigidas preservam o que foi decidido e descartam os galhos não tomados. Uma foto da superfície guarda tudo — as opções rejeitadas, as abreviações, a ordem — sem custo nenhum. Meses depois isso é um registro do raciocínio, que a versão arrumada não consegue reconstruir.",
+          "flavor": "“Uma das ferramentas mais importantes numa reunião de design é o quadro branco… No fim da reunião tomamos notas do que conversamos. Na era dos smartphones, virou prática comum tirar fotos do quadro e postá-las no wiki como um elemento das notas da reunião.”"
+        },
+        {
+          "title": "Quando um parâmetro-chave segue em aberto, gere por toda a faixa e etiquete cada ideia com o que ela exige",
+          "rules": "Esperar o número ser fixado trava o trabalho; ignorá-lo produz uma lista que assume em silêncio uma resposta. Não faça nenhum dos dois. Faça o brainstorm por toda a faixa e anote em cada item o valor que ele exige; quando o parâmetro cair, você já sabe que metade da lista sobrevive.",
+          "flavor": "“Nesse ponto não tínhamos ideia de quão distante era o passado em relação ao presente, então assumimos que qualquer quantidade de tempo era possível.” Cada ideia carrega seu requisito: a criatura que evolui “dependia de haver um intervalo bem grande”; rio para cânion “assumia um intervalo maior”."
+        },
+        {
+          "title": "Rode a passada de vocabulário e a de restrições lado a lado",
+          "rules": "Uma coluna de palavras para a sensação que você busca, outra de exigências duras. Sozinha, a primeira vagueia e a segunda produz algo correto e morto. Juntas, miram e delimitam a mesma busca, e cada candidato pode ser conferido contra as duas sem sair do quadro.",
+          "flavor": "“À esquerda anotávamos todas as palavras que conseguíamos pensar que capturassem o sabor dos Sultai… Só queríamos sentir a vibe do clã.” À direita: sensação de sultanato, baseada em mágicas, proto, simples, 8-10 cartas, sobreposição mecânica. “Como costumo dizer: ‘restrições geram criatividade'.”"
+        },
+        {
+          "title": "Declare a profundidade necessária como uma contagem de exemplares",
+          "rules": "“De quanto espaço de design isso precisa?” é insolúvel como está posto e discutível sem fim. Converta em quantos exemplares a coisa tem de sustentar e vira um número que se guarda na cabeça, contra o qual se testa um candidato, e que diz quando parar de procurar.",
+          "flavor": "“Parte de descobrir uma mecânica é entender quão profunda ela precisa ser. A melhor métrica para isso é: quantas cartas você precisa conseguir produzir? Deixei escrito aqui como orientação. Oito a dez não exige uma mecânica muito profunda.”"
+        },
+        {
+          "title": "Complexidade é um orçamento comum, então a quantidade de elementos fixa o teto de cada um",
+          "rules": "Quão elaborado um elemento pode ser não é propriedade daquele elemento. É a verba total dividida por quantas coisas você se comprometeu a entregar ao lado dele. Decida primeiro a quantidade de elementos e então diga em voz alta que teto por elemento isso implica, antes que alguém comece a projetar.",
+          "flavor": "“Parte do custo de ter metamorfose mais cinco mecânicas de facção era que todas as mecânicas de facção tinham de ser relativamente baixas em complexidade. Por isso deixei isso escrito, para nos afastar de uma mecânica de facção complexa.” No quadro, está em uma palavra: Simples."
+        },
+        {
+          "title": "Confira cada candidato contra o que você já tem — muitos são versões mais fracas",
+          "rules": "Uma ideia nova se apresenta como nova porque chegou por outro caminho. Antes de gastar qualquer coisa nela, pergunte com o que já existente ela mais se parece em jogo, e se faz algo que aquela não faz. Muitas vezes a resposta honesta é: o mesmo efeito com menos alcance — e isso encerra a discussão.",
+          "flavor": "“Morre virando face para baixo — achávamos essa área profunda o bastante para virar mecânica. No fim percebemos que era basicamente uma versão mais rasa de persistir/eterno.”"
+        },
+        {
+          "title": "Mapeie o espaço inteiro para poder escolher, e então deixe de propósito a maior parte sem explorar",
+          "rules": "Enumerar e explorar são decisões separadas. Fazer a primeira a fundo é o que permite escolher bem e saber do que se abre mão; tratar o mapa como lista de tarefas é como um projeto acaba carregando tudo o que conseguiu pensar. Termine o levantamento e então pegue de propósito uma fração.",
+          "flavor": "Sete categorias numeradas de design com face para baixo, depois outro quadro de variantes, depois uma distribuição de cada ideia entre Huey, Dewey e Louie. “Passamos muito tempo explorando todo esse espaço para poder escolher. No fim, decidimos que o bloco já tinha coisa demais e não precisávamos minerar todo o espaço.”"
+        },
+        {
+          "title": "Ache a relação primeiro e então gere exemplares dela a baixo custo",
+          "rules": "Identificada a relação que você quer entre duas coisas, os exemplos individuais custam quase nada e você deveria produzir muito mais do que precisa. A relação é a ideia; os exemplares são variações dela, e escolher o melhor entre dezoito é bem mais fácil do que acertar o primeiro.",
+          "flavor": "Um quadro traz dezoito versões da mesma relação: uma coisa no passado, a mesma coisa depois. Criatura para criatura evoluída; humano famoso para a escola que fundou; sujeito famoso para túmulo ou estátua; plantas para edifício; tomo pequeno para tomo grande; aranha filhote para trecho tomado por aranhas; rio para cânion; pico vulcânico para cratera."
+        },
+        {
+          "title": "Um objetivo secundário que fica mais urgente que o real o desloca",
+          "rules": "Tudo o que você tornar digno de ser disputado será disputado; e se a disputa for mais imediata que o objetivo verdadeiro, as pessoas farão isso no lugar, indefinidamente. A fidelidade ao tema piora, não melhora: quanto mais fielmente a coisa modela uma luta, mais completamente ela substitui o ponto do exercício.",
+          "flavor": "O ciclo cortado dos “impérios”: encantamentos que ficavam potentes num limiar de marcadores, em que “sempre que uma criatura fosse causar dano de combate a um oponente, ela poderia abrir mão do dano para adicionar ou remover essa quantidade de marcadores… Em vez de alguém tentar ganhar, você ficava brigando pelos impérios sem parar.”"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "白板课堂：鞑契可汗",
+      "dek": "六张白板的照片，附上注解。上面绝大部分东西从未被印出来过。",
+      "overview": "罗斯瓦特回读《鞑契可汗》设计期间会议室里的白板：头脑风暴的清单、约束条件那一栏，以及一组被砍掉的、会把整场对局劫持走的循环。",
+      "takeaway": "「大家不再试图去赢，而是没完没了地为那些『帝国』争来争去。它风味十足，因为各氏族干的就是这个；但它带不出好的游戏体验。」",
+      "lessons": [
+        {
+          "title": "以轶事为形状的叙述，会歪曲这个过程本身",
+          "rules": "讲述一件作品是怎么做出来的，其叙述会自然地围绕着「发生了某件事」的那些时刻来组织，因为只有那些片段是有形状的。结果就是：那种平常的一周——而它构成了这件事的绝大部分——从来不曾出现在画面里。想办法把「典型的样子」展示出来，值得真正花一番力气。",
+          "flavor": "「我讲过我们在设计中做过的一些事，但那些讲述往往集中在『有事发生』的关键时刻上。设计里确实有这样的时刻，但它们并不能代表绝大多数时间里实际在发生的事。会议是设计的关键组成部分……我一直想找到一种办法，给你们几张设计会议的快照。」"
+        },
+        {
+          "title": "把工作台面本身拍下来，而不只是拍结论",
+          "rules": "整理过的会议纪要保存下来的是「决定了什么」，同时丢掉了那些没有被走上的分岔。而一张台面的照片会把一切都留住——被否掉的选项、速记的写法、书写的先后次序——并且不花任何成本。几个月之后，那是一份关于推理过程的记录；而整洁的那个版本重建不出它。",
+          "flavor": "「设计会议里最重要的工具之一，就是白板……然后在会议结束时，我们会把讨论过的东西记成笔记。在智能手机的时代，把白板拍下来、再把照片贴到内部维基上作为会议纪要的一部分，已经成了常规做法。」"
+        },
+        {
+          "title": "当某个关键参数还悬着时，就沿着它的整个取值范围去生成，并给每个点子标注它需要什么",
+          "rules": "等这个数字被定下来，工作就停摆了；而无视它，你会得到一份悄悄假定了某一个答案的清单。两样都别做。在整个范围上做头脑风暴，并在每一条旁边注明它所要求的取值；等参数落地时，你已经知道自己这份清单里哪一半还活着。",
+          "flavor": "「在那个时候，我们完全不知道那个『过去』相对于『现在』是多久之前，所以我们假定任何长度的时间都有可能。」于是每个点子都带着自己的前提：那个会进化的生物「取决于中间有一段相当大的间隔」；从河流到峡谷「假定了一段更长的间隔」。"
+        },
+        {
+          "title": "把「词汇那一遍」和「约束那一遍」并排着做",
+          "rules": "一栏是描述你所追求的那种感觉的词，另一栏是硬性要求。单独来看，前者会漫游，后者会产出某种正确而死气沉沉的东西。放在一起，它们同时给同一次搜索校准了方向、也划出了边界；而任何一个候选方案，都能在不离开这块白板的情况下对着两栏核对一遍。",
+          "flavor": "「左边是我们把所有能想到的、能捕捉苏勒台风味的词都写下来……我们只是想抓住这个氏族的感觉。」右边是：要有苏丹国的感觉、以咒语为基础、能出原型版、简单、8到10张牌、机制上要有交集。「就像我常说的：『限制孕育创造力。』」"
+        },
+        {
+          "title": "把「这东西需要多深」表述成一个实例的数目",
+          "rules": "「这个需要多大的设计空间？」按原样问出来是无解的，而且可以无休止地争论下去。把它换算成「这东西必须能支撑多少个实例」，它就变成了一个人们记得住、可以拿来核对某个候选方案、并且在候选方案达标之后就可以据此停止搜索的数字。",
+          "flavor": "「弄清一个机制的过程，有一部分就是搞明白这个机制需要有多深。衡量这件事最好的指标是：你必须能做出多少张牌？我把它写在这里作为一条参考线。八到十张，并不需要一个很深的机制。」"
+        },
+        {
+          "title": "复杂度是一份共用的预算，所以特性的数量决定了每一项的上限",
+          "rules": "任何单独一项元素被允许做到多精巧，并不是这项元素自身的属性。它是总额度除以「你已经承诺要和它一起出货的东西有多少件」。先把特性的数量定下来，然后把这个数量所隐含的「每项特性的上限」当众说明白——在任何人开始照着它做设计之前。",
+          "flavor": "「有了变身，再加上五个阵营机制，其代价的一部分就是：所有这些阵营机制都必须在复杂度上相对偏低。所以我把这一条写明出来，好让我们离『做一个复杂的阵营机制』远一点。」它在白板上只有两个字：简单。"
+        },
+        {
+          "title": "拿每一个候选方案去对照你已经拥有的东西——很多都只是更弱的复述",
+          "rules": "一个新点子之所以显得新，是因为它是从另一条路走来的。在为它花掉任何东西之前，先问：在实际使用中，它最像你已有的哪样东西？它有没有做到那样东西做不到的事？诚实的答案往往是：同一个效果，只是覆盖面更窄——而这就结束了这场讨论。",
+          "flavor": "「死亡后变成盖牌——我们一度觉得这一块深到足以做成一个机制。最后我们意识到，它基本上就是坚忍／不灭的一个更浅的版本。」"
+        },
+        {
+          "title": "把整个空间都测绘出来，好让你能够挑选；然后有意地把其中大部分留着不去开采",
+          "rules": "「列举」和「开采」是两个不同的决定。把前者做彻底，正是让你既能挑得好、又清楚自己放弃了什么的原因；而把这张地图当成一份待办清单，则是一个项目最终把自己能想到的一切统统扛上身的方式。先把勘察做完，然后有意地只取其中一部分。",
+          "flavor": "七个编了号的盖牌设计类别，接着又是一整块讲变体的白板，然后把每个点子分配给休伊、杜威和路易。「我们花了很多时间去探索整个盖牌的设计空间，好让我们能够挑选要用哪些。最后我们判断，这个环境要处理的东西已经够多了，不必把整个空间都开采一遍。」"
+        },
+        {
+          "title": "先找到那层关系，然后廉价地大量生成它的实例",
+          "rules": "一旦你确认了自己想要的、两样东西之间的那层关系，单个的例子就几乎不花什么成本，而你应该生产出远多于所需的数量。关系才是那个点子；实例只是围绕它的变体。而从十八个里挑出最好的那个，比第一次就把它做对要容易得多。",
+          "flavor": "有一块白板上写着同一层关系的十八个版本——过去的某样东西，以及后来的同一样东西。生物到进化后的生物；名人到他所创办的学校；名人到坟墓或雕像；建筑图纸到建筑；小书到大书；幼蛛到被蜘蛛占领的地段；河流到峡谷；火山峰到火山口。"
+        },
+        {
+          "title": "一个变得比真正目标更迫切的次级目标，会把真正的目标顶掉",
+          "rules": "任何被你做得值得去争夺的东西，都会被争夺；而如果这场争夺比真正的目标更迫在眉睫，人们就会转而去做那件事，而且没完没了。对题材的忠实会让情况更糟而不是更好：这样东西越是精确地模拟出一场争斗，它就越能彻底地取代掉这件事本来的意义。",
+          "flavor": "被砍掉的「帝国」循环：一组结界，在指示物达到某个门槛后会变得非常强力；而「每当一个生物将对对手造成战斗伤害时，其操控者可以放弃这些伤害，改为增加或移除等量的指示物……大家不再试图去赢，而是没完没了地为那些『帝国』争来争去。」"
+        }
+      ]
+    }
+  }
+}
