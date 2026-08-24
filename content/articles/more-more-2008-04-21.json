@@ -1,0 +1,320 @@
+{
+  "id": "more-more-2008-04-21",
+  "slug": "more-more-2008-04-21",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2008-04-21",
+  "series": null,
+  "tags": ["card-stories", "counters", "development", "templating", "design-slots"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/more-more-2008-04-21",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "More, More",
+      "dek": "After three columns on the big picture, a pass through the card file talking about whichever cards strike his fancy.",
+      "overview": "Having spent three weeks on how a set was structured, he goes to the opposite scale and walks the file alphabetically, stopping at any card with a story. The result collects the small operational moves that never fit a themed column: how a slot type gets reserved, how a cycle gets cut down to the one card anyone actually liked, how a card is negotiated out of another set, and what happens when the words you want are already spoken for.",
+      "takeaway": "We realized that it was this card we loved, not the cycle, so we ditched the other four.",
+      "lessons": [
+        {
+          "title": "Enumerate the corpus and apply the transform",
+          "rules": "Once the set committed to a theme built on the inverse of a familiar component, he set the team a systematic exercise: go back through the notable cards built on the original component and ask, for each, whether an inverted version exists. This is not inspiration but a search over a known list, and he names two cards that came directly out of it — one because a designer looked at an old favourite and said it was cool, and another that emerged from a colleague running the same sweep across a neighbouring block.",
+          "flavor": "Not \"what could we make?\" but \"which of these already-good cards flips?\""
+        },
+        {
+          "title": "A universal grant collides with the outliers",
+          "rules": "One card began life as a blanket effect granting an ability to everything you control, and the blanket is what broke it. He gives the specific collision — an existing card whose own counter-manipulation interacts pathologically with the granted ability — and notes it was one problem among potential others, which is the real point. Handing an ability to every creature at once means the card is silently making a claim about every creature that exists now and every one that will exist later.",
+          "flavor": "It works on all your creatures. Including the one nobody thought about."
+        },
+        {
+          "title": "Reserve a slot type for cards that reorganise a draft",
+          "rules": "He describes a standing intention rather than a one-off: every set is meant to include mid-rarity cards that create build-around-me scenarios. The mechanism is specific — open one in your first pack and it sends you down a distinctive path for the rest of the draft, which is a different kind of value from a card being strong. These are not the best cards in the set and they are not meant to be. They exist so that some proportion of drafts acquire a shape from the first pick.",
+          "flavor": "Not the strongest card you could open. The one that tells you what to do next."
+        },
+        {
+          "title": "Some cards exist to fill a hole in a distribution",
+          "rules": "Among his duties as lead is filling out the mana curve: making sure that within each colour, at each rarity, there is a proper spread of costs across the creatures. When a gap appears, a card gets made to occupy it — and the card he is describing came into existence exactly that way. It is an unromantic origin and a common one. A release is a distribution before it is a collection of ideas, and some of its contents are answers to the shape rather than to a question anyone asked.",
+          "flavor": "Nobody wanted this card. There was a gap at that cost."
+        },
+        {
+          "title": "Cut the ones being carried by the one",
+          "rules": "A cycle of five high-rarity cards was liked enough as a group to go into the set whole. Over time the team's view resolved: it was one of the five they actually loved, not the cycle. So they ditched the other four and kept that one. The completeness of a cycle is a reason to include cards that would not have earned inclusion alone, which is exactly the mechanism that needs checking — enthusiasm for a set can be enthusiasm for one member wearing the set as clothing.",
+          "flavor": "Five cards went in together. One of them was the reason."
+        },
+        {
+          "title": "Change the card type to change how answerable it is",
+          "rules": "A card spent a long stretch of design as an artifact, and the problem was not what it did but how hard it was to be rid of. Its ability proved very powerful, and the fix was not to weaken the ability but to make the object a creature — which puts it in range of a far larger set of answers that opponents are already playing. Rebalancing by changing what category a permanent belongs to adjusts its real-world durability without touching a single number.",
+          "flavor": "The ability stayed exactly as strong. Now everyone can shoot it."
+        },
+        {
+          "title": "The players' bragging is a balance signal",
+          "rules": "An early version of one card was, in his words, insanely good — and the evidence he offers is behavioural rather than statistical. In early drafts, people bragged about how many of them they had managed to pick up. That is a report about how the card felt to acquire rather than about its win rate, and it arrives before anybody has run the numbers. When acquiring a card becomes a thing worth boasting about, the card has already told you something.",
+          "flavor": "Nobody counts how many of the fair cards they drafted."
+        },
+        {
+          "title": "If words can carry two meanings, so can sentences",
+          "rules": "The team had been using a particular phrase on a card until templating pointed out that the same string was already spoken for by a different ability. His reply is a small piece of principled cheek: given that individual words in the game already carry more than one meaning depending on context, why should a whole sentence not do the same? The objection assumes phrases must be unique the way names are, and he declines the assumption rather than the constraint.",
+          "flavor": "That sentence is taken. So is that word, and we kept using it."
+        },
+        {
+          "title": "Widen the specification to increase the surface of interaction",
+          "rules": "A card originally removed one particular kind of counter — the kind the set was built around, which is the obvious and narrow choice. They broadened it to remove any counter at all, deliberately, in order to create more interactions with the neighbouring block and with the rest of the game. The generalisation costs a little precision on theme and buys a great deal of connectivity, and he treats the trade as clearly worth making.",
+          "flavor": "It could have been about our counters. It is about everyone's."
+        },
+        {
+          "title": "Express the theme without naming it",
+          "rules": "The set had a theme about colour mattering, and most of the cards serving that theme do so by naming colours explicitly. He singles out one of his own for the subtlety of a different approach: rather than mentioning any colour, it looks for a relationship between colours, which makes it a colour-matters card that never says a colour. He likes it precisely for that indirection — the theme is doing work in the card without appearing on its face.",
+          "flavor": "Not one colour word on it. It is entirely about colour."
+        }
+      ]
+    },
+    "es": {
+      "title": "Más, más",
+      "dek": "Tras tres columnas sobre el panorama general, un repaso por el archivo de cartas hablando de las que le apetezca.",
+      "overview": "Habiendo pasado tres semanas en cómo se estructuró una colección, va a la escala opuesta y recorre el archivo alfabéticamente, deteniéndose en cualquier carta con historia. El resultado reúne los pequeños movimientos operativos que nunca caben en una columna temática: cómo se reserva un tipo de casilla, cómo un ciclo se recorta hasta la única carta que de verdad gustaba, cómo se negocia sacar una carta de otra colección, y qué pasa cuando las palabras que quieres ya están ocupadas.",
+      "takeaway": "Nos dimos cuenta de que era esta carta lo que amábamos, no el ciclo, así que tiramos las otras cuatro.",
+      "lessons": [
+        {
+          "title": "Enumera el corpus y aplica la transformación",
+          "rules": "Una vez que la colección se comprometió con un tema construido sobre la inversa de un componente conocido, le puso al equipo un ejercicio sistemático: repasar las cartas notables construidas sobre el componente original y preguntarse, para cada una, si existe una versión invertida. Esto no es inspiración sino una búsqueda sobre una lista conocida, y nombra dos cartas que salieron directamente de ahí: una porque un diseñador miró una vieja favorita y dijo que era genial, y otra que surgió de un colega haciendo el mismo barrido por un bloque vecino.",
+          "flavor": "No «¿qué podríamos hacer?» sino «¿cuál de estas cartas ya buenas se da la vuelta?»"
+        },
+        {
+          "title": "Una concesión universal choca con los casos atípicos",
+          "rules": "Una carta empezó como un efecto general que otorgaba una habilidad a todo lo que controlas, y esa generalidad es lo que la rompió. Da el choque específico —una carta existente cuya propia manipulación de contadores interactúa patológicamente con la habilidad otorgada— y señala que era un problema entre otros potenciales, que es lo verdaderamente relevante. Dar una habilidad a todas las criaturas a la vez significa que la carta está haciendo calladamente una afirmación sobre cada criatura que existe ahora y cada una que existirá después.",
+          "flavor": "Funciona con todas tus criaturas. Incluida esa en la que nadie pensó."
+        },
+        {
+          "title": "Reserva un tipo de casilla para cartas que reorganizan un draft",
+          "rules": "Describe una intención permanente y no algo puntual: cada colección debe incluir cartas de rareza media que creen escenarios de construir-alrededor-de-mí. El mecanismo es concreto: abre una en tu primer sobre y te manda por un camino distintivo el resto del draft, que es una clase de valor distinta de que una carta sea fuerte. No son las mejores cartas de la colección y no pretenden serlo. Existen para que cierta proporción de drafts adquiera una forma desde la primera elección.",
+          "flavor": "No la carta más fuerte que podrías abrir. La que te dice qué hacer a continuación."
+        },
+        {
+          "title": "Algunas cartas existen para llenar un hueco en una distribución",
+          "rules": "Entre sus deberes como líder está completar la curva de maná: asegurarse de que dentro de cada color, en cada rareza, haya un reparto adecuado de costes entre las criaturas. Cuando aparece un hueco, se hace una carta para ocuparlo, y la carta que describe llegó a existir exactamente así. Es un origen poco romántico y muy común. Un lanzamiento es una distribución antes que una colección de ideas, y parte de su contenido son respuestas a la forma y no a una pregunta que alguien hiciera.",
+          "flavor": "Nadie quería esta carta. Había un hueco en ese coste."
+        },
+        {
+          "title": "Corta las que van cargadas por una sola",
+          "rules": "Un ciclo de cinco cartas de alta rareza gustó lo bastante como grupo para entrar entero en la colección. Con el tiempo la visión del equipo se aclaró: era una de las cinco lo que de verdad amaban, no el ciclo. Así que tiraron las otras cuatro y conservaron esa. La completitud de un ciclo es un motivo para incluir cartas que no se habrían ganado la inclusión solas, que es justo el mecanismo que hay que revisar: el entusiasmo por un conjunto puede ser entusiasmo por un miembro que lleva el conjunto como ropa.",
+          "flavor": "Cinco cartas entraron juntas. Una de ellas era el motivo."
+        },
+        {
+          "title": "Cambia el tipo de carta para cambiar cuán respondible es",
+          "rules": "Una carta pasó un largo tramo del diseño como artefacto, y el problema no era lo que hacía sino lo difícil que era deshacerse de ella. Su habilidad resultó muy potente, y el arreglo no fue debilitar la habilidad sino convertir el objeto en criatura, lo que la pone al alcance de un conjunto mucho mayor de respuestas que los rivales ya están jugando. Reequilibrar cambiando a qué categoría pertenece un permanente ajusta su durabilidad real sin tocar un solo número.",
+          "flavor": "La habilidad quedó exactamente igual de fuerte. Ahora todos pueden dispararle."
+        },
+        {
+          "title": "Que los jugadores presuman es una señal de equilibrio",
+          "rules": "Una versión temprana de cierta carta era, en sus palabras, una locura de buena, y la evidencia que ofrece es conductual y no estadística. En los primeros drafts, la gente presumía de cuántas había logrado llevarse. Eso es un informe sobre cómo se sentía adquirir la carta y no sobre su tasa de victorias, y llega antes de que nadie haya sacado los números. Cuando conseguir una carta se vuelve algo de lo que presumir, la carta ya te ha dicho algo.",
+          "flavor": "Nadie cuenta cuántas cartas justas draftó."
+        },
+        {
+          "title": "Si las palabras pueden llevar dos significados, las frases también",
+          "rules": "El equipo venía usando cierta frase en una carta hasta que templado señaló que esa misma cadena ya estaba ocupada por otra habilidad. Su respuesta es una pequeña insolencia con principios: dado que palabras sueltas del juego ya llevan más de un significado según el contexto, ¿por qué no habría de hacerlo una frase entera? La objeción supone que las frases deben ser únicas como los nombres, y él rechaza la suposición en vez de la restricción.",
+          "flavor": "Esa frase está cogida. Esa palabra también, y la seguimos usando."
+        },
+        {
+          "title": "Amplía la especificación para aumentar la superficie de interacción",
+          "rules": "Una carta originalmente quitaba un tipo concreto de contador, el tipo alrededor del cual se construyó la colección, que es la elección obvia y estrecha. La ampliaron para quitar cualquier contador, deliberadamente, con el fin de crear más interacciones con el bloque vecino y con el resto del juego. La generalización cuesta un poco de precisión temática y compra muchísima conectividad, y él trata el intercambio como claramente digno de hacerse.",
+          "flavor": "Podría haber sido sobre nuestros contadores. Es sobre los de todos."
+        },
+        {
+          "title": "Expresa el tema sin nombrarlo",
+          "rules": "La colección tenía un tema sobre que el color importa, y la mayoría de las cartas al servicio de ese tema lo hacen nombrando colores explícitamente. Destaca una suya propia por la sutileza de un enfoque distinto: en vez de mencionar ningún color, busca una relación entre colores, lo que la convierte en una carta de color-importa que nunca dice un color. Le gusta precisamente por esa indirección: el tema está trabajando dentro de la carta sin aparecer en su superficie.",
+          "flavor": "Ni una palabra de color en ella. Va enteramente sobre el color."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Encore, encore",
+      "dek": "Après trois chroniques sur la vue d'ensemble, un passage dans le fichier de cartes en s'arrêtant sur celles qui lui chantent.",
+      "overview": "Ayant passé trois semaines sur la structure d'une extension, il change d'échelle et parcourt le fichier par ordre alphabétique, s'arrêtant sur toute carte ayant une histoire. Il en résulte un recueil des petits gestes opératoires qui n'entrent jamais dans une chronique à thème : comment on réserve un type d'emplacement, comment un cycle se réduit à la seule carte qu'on aimait vraiment, comment on négocie la sortie d'une carte d'une autre extension, et ce qui arrive quand les mots que vous voulez sont déjà pris.",
+      "takeaway": "Nous avons compris que c'était cette carte que nous aimions, pas le cycle, alors nous avons jeté les quatre autres.",
+      "lessons": [
+        {
+          "title": "Énumérez le corpus et appliquez la transformation",
+          "rules": "Une fois l'extension engagée sur un thème bâti sur l'inverse d'un composant familier, il a donné à l'équipe un exercice systématique : reprendre les cartes notables bâties sur le composant d'origine et se demander, pour chacune, s'il existe une version inversée. Ce n'est pas de l'inspiration mais une recherche sur une liste connue, et il nomme deux cartes qui en sont directement sorties — l'une parce qu'un concepteur a regardé une vieille favorite et l'a trouvée bonne, l'autre venue d'un collègue passant le même balayage sur un bloc voisin.",
+          "flavor": "Non pas « que pourrait-on faire ? » mais « laquelle de ces bonnes cartes se retourne ? »"
+        },
+        {
+          "title": "Une attribution universelle heurte les cas particuliers",
+          "rules": "Une carte a commencé comme un effet général accordant une capacité à tout ce que vous contrôlez, et c'est cette généralité qui l'a cassée. Il donne la collision précise — une carte existante dont la manipulation de marqueurs interagit pathologiquement avec la capacité accordée — et note que c'était un problème parmi d'autres possibles, ce qui est le vrai point. Donner une capacité à toutes les créatures à la fois, c'est faire silencieusement une affirmation sur chaque créature existante et sur chacune à venir.",
+          "flavor": "Cela marche sur toutes vos créatures. Y compris celle à laquelle personne n'a pensé."
+        },
+        {
+          "title": "Réservez un type d'emplacement aux cartes qui réorganisent un draft",
+          "rules": "Il décrit une intention permanente et non un coup isolé : chaque extension doit contenir des cartes de rareté moyenne créant des scénarios à bâtir autour. Le mécanisme est précis — en ouvrir une dans son premier booster vous engage sur une voie distinctive pour le reste du draft, ce qui est une valeur d'une autre nature que la puissance. Ce ne sont pas les meilleures cartes de l'extension et elles n'ont pas à l'être. Elles existent pour qu'une part des drafts prenne forme dès le premier choix.",
+          "flavor": "Pas la carte la plus forte que vous puissiez ouvrir. Celle qui vous dit quoi faire ensuite."
+        },
+        {
+          "title": "Certaines cartes existent pour combler un trou dans une distribution",
+          "rules": "Parmi ses tâches de chef figure le remplissage de la courbe de mana : s'assurer qu'à l'intérieur de chaque couleur, à chaque rareté, les coûts des créatures s'étalent correctement. Quand un trou apparaît, on fabrique une carte pour l'occuper — et celle qu'il décrit est née exactement ainsi. Origine peu romantique et très fréquente. Une sortie est une distribution avant d'être un recueil d'idées, et une part de son contenu répond à la forme, non à une question posée par quiconque.",
+          "flavor": "Personne ne voulait cette carte. Il y avait un trou à ce coût."
+        },
+        {
+          "title": "Coupez celles qui sont portées par une seule",
+          "rules": "Un cycle de cinq cartes de haute rareté a plu en tant que groupe au point d'entrer entier dans l'extension. Avec le temps, l'avis de l'équipe s'est précisé : c'était l'une des cinq qu'ils aimaient vraiment, pas le cycle. Ils ont donc jeté les quatre autres et gardé celle-là. La complétude d'un cycle est une raison d'inclure des cartes qui n'auraient pas mérité leur place seules — mécanisme qu'il faut justement contrôler : l'enthousiasme pour un ensemble peut être l'enthousiasme pour un membre habillé en ensemble.",
+          "flavor": "Cinq cartes sont entrées ensemble. Une seule était la raison."
+        },
+        {
+          "title": "Changez le type de carte pour changer sa vulnérabilité",
+          "rules": "Une carte a passé une longue phase de conception en tant qu'artefact, et le problème n'était pas ce qu'elle faisait mais la difficulté à s'en débarrasser. Sa capacité s'est révélée très puissante, et le correctif ne fut pas d'affaiblir la capacité mais de faire de l'objet une créature — ce qui la met à portée d'un ensemble bien plus large de réponses que les adversaires jouent déjà. Rééquilibrer en changeant la catégorie d'un permanent ajuste sa robustesse réelle sans toucher un seul chiffre.",
+          "flavor": "La capacité est restée exactement aussi forte. Maintenant tout le monde peut lui tirer dessus."
+        },
+        {
+          "title": "Les vantardises des joueurs sont un signal d'équilibre",
+          "rules": "Une version précoce d'une carte était, selon ses mots, follement bonne — et la preuve qu'il avance est comportementale, non statistique. Lors des premiers drafts, les gens se vantaient du nombre d'exemplaires qu'ils avaient réussi à récupérer. C'est un rapport sur la sensation d'acquérir la carte, non sur son taux de victoire, et il arrive avant tout calcul. Quand obtenir une carte devient un motif de vantardise, la carte vous a déjà dit quelque chose.",
+          "flavor": "Personne ne compte combien de cartes équitables il a draftées."
+        },
+        {
+          "title": "Si les mots peuvent avoir deux sens, les phrases aussi",
+          "rules": "L'équipe employait une certaine formule sur une carte jusqu'à ce que le gabarit signale que la même chaîne était déjà prise par une autre capacité. Sa réponse est une petite insolence de principe : puisque des mots isolés du jeu portent déjà plus d'un sens selon le contexte, pourquoi une phrase entière ne le pourrait-elle pas ? L'objection suppose que les formules doivent être uniques comme des noms, et il refuse l'hypothèse plutôt que la contrainte.",
+          "flavor": "Cette phrase est prise. Ce mot aussi, et nous avons continué à l'employer."
+        },
+        {
+          "title": "Élargissez la spécification pour augmenter la surface d'interaction",
+          "rules": "Une carte retirait à l'origine un type de marqueur bien précis — celui autour duquel l'extension était bâtie, choix évident et étroit. Ils l'ont élargie pour retirer n'importe quel marqueur, délibérément, afin de créer davantage d'interactions avec le bloc voisin et avec le reste du jeu. La généralisation coûte un peu de précision thématique et achète beaucoup de connectivité, et il traite l'échange comme manifestement bon à faire.",
+          "flavor": "Elle aurait pu parler de nos marqueurs. Elle parle de ceux de tout le monde."
+        },
+        {
+          "title": "Exprimez le thème sans le nommer",
+          "rules": "L'extension avait un thème sur l'importance de la couleur, et la plupart des cartes servant ce thème le font en nommant explicitement des couleurs. Il distingue l'une des siennes pour la finesse d'une autre approche : au lieu de mentionner une couleur, elle cherche une relation entre couleurs, ce qui en fait une carte « la couleur compte » qui ne dit jamais de couleur. Il l'aime précisément pour cette indirection : le thème travaille dans la carte sans apparaître à sa surface.",
+          "flavor": "Pas un mot de couleur dessus. Elle parle entièrement de couleur."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Mais, mais",
+      "dek": "Depois de três colunas sobre o quadro geral, uma passada pelo arquivo de cartas falando das que lhe derem na telha.",
+      "overview": "Tendo passado três semanas em como uma coleção foi estruturada, ele vai à escala oposta e percorre o arquivo em ordem alfabética, parando em qualquer carta com história. O resultado reúne os pequenos gestos operacionais que nunca cabem numa coluna temática: como se reserva um tipo de vaga, como um ciclo é reduzido à única carta de que alguém realmente gostava, como se negocia tirar uma carta de outra coleção, e o que acontece quando as palavras que você quer já estão ocupadas.",
+      "takeaway": "Percebemos que era desta carta que gostávamos, não do ciclo, então jogamos fora as outras quatro.",
+      "lessons": [
+        {
+          "title": "Enumere o corpus e aplique a transformação",
+          "rules": "Depois que a coleção se comprometeu com um tema construído sobre o inverso de um componente familiar, ele passou à equipe um exercício sistemático: revisitar as cartas notáveis construídas sobre o componente original e perguntar, para cada uma, se existe uma versão invertida. Isso não é inspiração, e sim uma busca sobre uma lista conhecida, e ele nomeia duas cartas que saíram diretamente daí — uma porque um designer olhou uma velha favorita e disse que era legal, e outra que surgiu de um colega fazendo a mesma varredura num bloco vizinho.",
+          "flavor": "Não \"o que poderíamos fazer?\", e sim \"qual destas cartas já boas vira do avesso?\""
+        },
+        {
+          "title": "Uma concessão universal colide com os casos atípicos",
+          "rules": "Uma carta começou como um efeito geral que concedia uma habilidade a tudo o que você controla, e foi essa generalidade que a quebrou. Ele dá a colisão específica — uma carta existente cuja própria manipulação de marcadores interage patologicamente com a habilidade concedida — e nota que era um problema entre outros possíveis, que é o ponto de verdade. Dar uma habilidade a todas as criaturas de uma vez significa que a carta está silenciosamente fazendo uma afirmação sobre cada criatura que existe agora e cada uma que existirá depois.",
+          "flavor": "Funciona em todas as suas criaturas. Inclusive naquela em que ninguém pensou."
+        },
+        {
+          "title": "Reserve um tipo de vaga para cartas que reorganizam um draft",
+          "rules": "Ele descreve uma intenção permanente, e não um caso isolado: toda coleção deve incluir cartas de raridade média que criem cenários de construir-em-torno-de-mim. O mecanismo é específico — abra uma no seu primeiro booster e ela o manda por um caminho distinto pelo resto do draft, o que é um tipo de valor diferente de a carta ser forte. Não são as melhores cartas da coleção e não pretendem ser. Existem para que certa proporção dos drafts ganhe um formato já na primeira escolha.",
+          "flavor": "Não a carta mais forte que você poderia abrir. A que lhe diz o que fazer em seguida."
+        },
+        {
+          "title": "Algumas cartas existem para preencher um buraco numa distribuição",
+          "rules": "Entre suas obrigações como líder está completar a curva de mana: garantir que dentro de cada cor, em cada raridade, haja um espalhamento adequado de custos entre as criaturas. Quando aparece uma lacuna, faz-se uma carta para ocupá-la — e a carta que ele descreve nasceu exatamente assim. É uma origem nada romântica e muito comum. Um lançamento é uma distribuição antes de ser uma coleção de ideias, e parte de seu conteúdo são respostas ao formato, e não a uma pergunta que alguém tenha feito.",
+          "flavor": "Ninguém queria esta carta. Havia uma lacuna naquele custo."
+        },
+        {
+          "title": "Corte as que estão sendo carregadas por uma só",
+          "rules": "Um ciclo de cinco cartas de alta raridade agradou o bastante como grupo para entrar inteiro na coleção. Com o tempo a visão da equipe se resolveu: era uma das cinco que eles realmente amavam, e não o ciclo. Então jogaram fora as outras quatro e ficaram com aquela. A completude de um ciclo é uma razão para incluir cartas que não teriam ganhado a inclusão sozinhas, que é exatamente o mecanismo que precisa ser checado: entusiasmo por um conjunto pode ser entusiasmo por um membro vestindo o conjunto como roupa.",
+          "flavor": "Cinco cartas entraram juntas. Uma delas era o motivo."
+        },
+        {
+          "title": "Mude o tipo de carta para mudar o quanto ela é respondível",
+          "rules": "Uma carta passou um longo trecho do design como artefato, e o problema não era o que ela fazia, e sim a dificuldade de se livrar dela. A habilidade dela se mostrou muito potente, e o conserto não foi enfraquecer a habilidade, e sim tornar o objeto uma criatura — o que a põe ao alcance de um conjunto bem maior de respostas que os oponentes já estão jogando. Reequilibrar mudando a que categoria um permanente pertence ajusta sua durabilidade real sem tocar em um único número.",
+          "flavor": "A habilidade continuou exatamente igual de forte. Agora todo mundo pode atirar nela."
+        },
+        {
+          "title": "A gabolice dos jogadores é um sinal de equilíbrio",
+          "rules": "Uma versão inicial de certa carta era, nas palavras dele, absurdamente boa — e a evidência que ele oferece é comportamental, não estatística. Nos primeiros drafts, as pessoas se gabavam de quantas haviam conseguido pegar. Isso é um relato sobre como era adquirir a carta, e não sobre a taxa de vitórias dela, e chega antes de alguém ter feito as contas. Quando conseguir uma carta vira motivo de gabolice, a carta já lhe disse alguma coisa.",
+          "flavor": "Ninguém conta quantas cartas justas draftou."
+        },
+        {
+          "title": "Se palavras podem ter dois sentidos, frases também podem",
+          "rules": "A equipe vinha usando certa frase numa carta até o gabarito apontar que aquela mesma sequência já estava ocupada por outra habilidade. A resposta dele é uma pequena insolência com princípio: dado que palavras isoladas do jogo já carregam mais de um sentido conforme o contexto, por que uma frase inteira não poderia? A objeção supõe que frases devem ser únicas como nomes, e ele recusa a suposição em vez da restrição.",
+          "flavor": "Essa frase está ocupada. Aquela palavra também, e continuamos usando."
+        },
+        {
+          "title": "Alargue a especificação para aumentar a superfície de interação",
+          "rules": "Uma carta originalmente removia um tipo específico de marcador — o tipo em torno do qual a coleção foi construída, que é a escolha óbvia e estreita. Eles a alargaram para remover qualquer marcador, deliberadamente, a fim de criar mais interações com o bloco vizinho e com o resto do jogo. A generalização custa um pouco de precisão temática e compra muitíssima conectividade, e ele trata a troca como claramente valendo a pena.",
+          "flavor": "Poderia ser sobre os nossos marcadores. É sobre os de todo mundo."
+        },
+        {
+          "title": "Expresse o tema sem nomeá-lo",
+          "rules": "A coleção tinha um tema sobre cor importar, e a maioria das cartas a serviço desse tema o faz nomeando cores explicitamente. Ele destaca uma das suas pela sutileza de uma abordagem diferente: em vez de mencionar qualquer cor, ela procura uma relação entre cores, o que a torna uma carta de cor-importa que nunca diz uma cor. Ele gosta dela precisamente por essa indireção: o tema está trabalhando dentro da carta sem aparecer na face dela.",
+          "flavor": "Nem uma palavra de cor nela. Ela é inteiramente sobre cor."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "还有，还有",
+      "dek": "在三篇讲大局的专栏之后，翻一遍牌张文件，看到哪张来了兴致就讲哪张。",
+      "overview": "在花了三周讲一个系列是如何被搭起来的之后，他换到了相反的尺度上：按字母顺序把这份文件走了一遍，遇到任何有故事的牌就停下来。而结果收集起来的，是那些从来塞不进主题专栏里的、细小的操作性动作：一类位置是怎么被预留下来的、一轮循环是怎么被砍到只剩下那唯一一张真正有人喜欢的、一张牌是怎么从另一个系列里被谈出来的，以及当你想要的那些词已经被占掉时会发生什么。",
+      "takeaway": "我们意识到我们爱的是这张牌、而不是这一轮循环；于是我们把另外四张丢掉了。",
+      "lessons": [
+        {
+          "title": "把这批语料列出来，然后施加那个变换",
+          "rules": "在这个系列确定要用「某个熟悉部件的反面」来搭主题之后，他给团队布置了一项系统性的作业：回头把那些建立在原部件之上的著名牌张过一遍，逐一去问：有没有一个反过来的版本存在。这不是灵感，而是在一份已知清单上的一次搜索；而他点名了两张直接从中出来的牌——一张是因为某位设计师看着一张老宠儿说「这个很酷」；另一张则来自一位同事在邻近的环境上跑了同一遍扫描。",
+          "flavor": "不是问「我们能做点什么」，而是问「这些已经很好的牌里，哪一张可以翻过来」。"
+        },
+        {
+          "title": "一次普适的授予会撞上那些异类",
+          "rules": "有一张牌起初是一个「让你所操控的一切都获得某项异能」的通用效果；而正是这份通用把它弄坏了。他给出了那次具体的相撞——一张既有的牌，其自身对指示物的操作与这项被授予的异能产生了病态的互动——并且指出这只是「诸多潜在问题中的一个」；而这才是真正的要点。一次性把一项异能给所有生物，意味着这张牌在悄悄地对「此刻存在的每一只生物、以及此后将会存在的每一只」都作出了一项断言。",
+          "flavor": "它对你所有的生物都生效。包括那只没有人想到过的。"
+        },
+        {
+          "title": "预留出一类位置，给那些会重组一整场轮抽的牌",
+          "rules": "他描述的是一项常设意图、而不是一次性的做法：每一个系列都应该包含一些中等稀有度的牌，用来创造「围着我来搭」的局面。其机制是具体的——在你的第一个补充包里开出一张，它就会把你送上一条与众不同的路，走完这场轮抽的其余部分；而这与「一张牌很强」是不同种类的价值。它们并不是这个系列里最好的牌，也并不打算是。它们存在的意义，是让一定比例的轮抽从第一次选牌起就获得一个形状。",
+          "flavor": "不是你能开出的最强的那张。而是那张告诉你接下来该做什么的。"
+        },
+        {
+          "title": "有些牌的存在是为了填上分布里的一个洞",
+          "rules": "他作为主设计师的职责之一，是把法术力曲线填满：确保在每一个颜色里、在每一档稀有度上，生物的费用有一个恰当的铺开。当出现一个缺口时，就会有一张牌被做出来去占住它——而他所描述的那张牌，正是这么诞生的。这是一个毫不浪漫、而且非常常见的来历。一次发行在成为一堆想法之前，首先是一份分布；而它的一部分内容，回答的是那个形状、而不是任何人所提出的问题。",
+          "flavor": "没有人想要这张牌。是那个费用上有个空缺。"
+        },
+        {
+          "title": "把那些「靠其中一张带着走」的砍掉",
+          "rules": "一轮五张的高稀有度循环，作为一个整体受到的喜爱足以让它整轮进入这个系列。而随着时间过去，团队的看法清晰了起来：他们真正爱的是这五张里的一张，而不是这一轮。于是他们把另外四张丢掉了，只留下那一张。一轮循环的完整性，是「把那些单独并挣不到位置的牌也包进来」的一条理由；而这恰恰正是需要去核查的那套机制——对一个集合的热情，可能是对「一个穿着这个集合当衣服的成员」的热情。",
+          "flavor": "五张牌一起进来。而其中只有一张是那个理由。"
+        },
+        {
+          "title": "改动牌张类别，来改动它有多容易被回应",
+          "rules": "有一张牌在设计过程中长期都是一件神器；而问题并不在于它做什么，而在于它有多难被弄掉。它的异能被证明非常强力；而修法并不是把这项异能削弱，而是把这个物件变成一只生物——这就把它放进了「对手本来就在玩的、大得多的一批应对手段」的射程之内。靠改变一个永久物所属的类别来重新配平，调整的是它在现实中的耐久度，而一个数字都不用碰。",
+          "flavor": "那项异能强度分毫未变。而现在人人都能朝它开枪了。"
+        },
+        {
+          "title": "玩家的炫耀是一个平衡信号",
+          "rules": "某张牌的早期版本，用他的话说，好得离谱；而他所提供的证据是行为上的、而不是统计上的。在早期的轮抽里，人们会炫耀自己抢到了几张。这是一份关于「拿到这张牌感觉如何」的报告，而不是关于它胜率的报告；而它在任何人跑出数字之前就已经到了。当「拿到一张牌」变成一件值得吹嘘的事时，这张牌已经告诉了你一些东西。",
+          "flavor": "没有人会去数自己轮抽到了几张公道的牌。"
+        },
+        {
+          "title": "如果词可以有两个意思，那句子也可以",
+          "rules": "团队一直在某张牌上用着某个短语；直到模板那边指出：同样这串字已经被另一项异能占用了。而他的回答是一句有原则的小小顶嘴：既然这个游戏里单个的词本来就会随语境而带有不止一个意思，那为什么一整句话不可以？那条反对意见预设了「短语必须像名字那样唯一」；而他所拒绝的是这条预设、而不是那道约束。",
+          "flavor": "那句话被占了。那个词也被占了，而我们照样在用。"
+        },
+        {
+          "title": "把规格放宽，好扩大互动的接触面",
+          "rules": "有一张牌原本移除的是某一种特定的指示物——正是这个系列所围绕的那一种；而这是显而易见、也很狭窄的选择。他们有意把它放宽成移除任何一种指示物；目的是与邻近的那个环境、以及与这个游戏的其余部分创造出更多的互动。这次一般化在主题的精确度上花掉了一点，而买回来的是大量的连通性；而他把这笔交易看作显然值得做的。",
+          "flavor": "它本来可以是关于我们的指示物的。而它是关于所有人的。"
+        },
+        {
+          "title": "把主题表达出来，而不去点它的名",
+          "rules": "这个系列有一个「颜色要紧」的主题；而服务于这个主题的大多数牌，做法都是明确地点出颜色的名字。他单独拎出自己的一张牌，称赞另一种做法的精妙：它不提任何一个颜色，而是去寻找颜色之间的一种关系；这就让它成了一张「从来不说出任何一个颜色」的颜色要紧牌。他喜欢它恰恰是因为这份间接——这个主题正在这张牌内部干活，而没有出现在它的表面上。",
+          "flavor": "它上面一个颜色词都没有。而它整个都是关于颜色的。"
+        }
+      ]
+    }
+  }
+}
