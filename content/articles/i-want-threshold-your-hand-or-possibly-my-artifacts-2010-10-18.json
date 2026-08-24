@@ -1,0 +1,320 @@
+{
+  "id": "i-want-threshold-your-hand-or-possibly-my-artifacts-2010-10-18",
+  "slug": "i-want-threshold-your-hand-or-possibly-my-artifacts-2010-10-18",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2010-10-18",
+  "series": null,
+  "tags": ["theory", "taxonomy", "mechanics", "complexity", "tension"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/i-want-threshold-your-hand-or-possibly-my-artifacts-2010-10-18",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "I Want to Threshold Your Hand (Or Possibly My Artifacts)",
+      "dek": "Half the column defines a category of mechanic by testing edge cases against it; the other half is what the department has learned about designing inside it.",
+      "overview": "A study of one family of mechanics: cards that swap between states when something elsewhere in the game becomes true. He spends the first half building the definition by running candidate cards past it and saying which ones fall out and why, which is a demonstration of taxonomy as method rather than as filing. The second half is four lessons about tuning them, including an enumeration of everything a player has to track that explains why these mechanics almost always use exactly one number.",
+      "takeaway": "Design is not about forcing people to do what you could make them do; it is about figuring out what they want to do and making the game do that.",
+      "lessons": [
+        {
+          "title": "The load-bearing word is external",
+          "rules": "His definition: a mechanic that lets a card swap between states based on some criterion elsewhere in the game. He then tests a card that changes itself when you pay for it, and rules it out — because a card that can move itself from one state to another is not in the category. The requirement is that something else causes the change, which he glosses as these cards having to care about something larger than themselves. Running candidates past the definition also surfaces three axes it varies along: the change can be a change of card type, the criterion can be an event rather than a state, and the change can have a defined duration.",
+          "flavor": "One word in the definition, and it is doing all the excluding."
+        },
+        {
+          "title": "Enumerate the tracking load before you add a second number",
+          "rules": "They tried the same mechanic at three different numbers, and he shows the cost by counting. With one number a player tracks three things: whether their own pile has reached it, whether the opponent's has, and what changes if either is true. With three numbers that becomes twelve, because each threshold needs its own check on both sides plus a question about which cards care about which number. Testing proved it brain-melting — more than a person can hold without spending most of their attention on it. He names the condition brain freeze, and treats a test producing it as evidence that there is too much going on.",
+          "flavor": "Three questions is a mechanic. Twelve questions is a second job."
+        },
+        {
+          "title": "Two dials, and the payoff curve that connects them",
+          "rules": "Two factors govern the feel: how different the states are, and how hard the criterion is to meet. He holds the base constant and turns the difficulty dial, with a developer supplying the correct payoff for each setting — needing one of the thing buys a point of toughness, three buys plus two on both, seven buys plus six, ten buys plus eighteen. What the table shows is that the exchange rate is not linear. The price of difficulty accelerates, so a requirement twice as hard is worth considerably more than twice the reward, and guessing the payoff by proportion will underpay every hard version.",
+          "flavor": "Ten times the requirement is not ten times the reward. It is eighteen."
+        },
+        {
+          "title": "Tension is not good in itself",
+          "rules": "Responding to a debate about whether they had removed too much of it, he declines both positions. The department is not against tension — but all tensions are not equal, and tension unto itself is not a positive thing. His criterion is what the resulting choice does to the person making it: forcing a strategic decision can be good play, provided the choice empowers the player rather than making them feel helpless. He puts complexity in the same frame. Both are valuable tools in the right amount and the right place, and both are capable of lessening the fun when used incorrectly.",
+          "flavor": "\"There is more tension now\" is not yet an argument in either direction."
+        },
+        {
+          "title": "Leave the number out of the name, because you will not use the space",
+          "rules": "People kept asking why the mechanics were not named with their numbers attached, which would have implied a family of variants at other values. His answer is that the number they reached is the sweet spot: measuring the two factors against each other, there is usually one combination that plays best. And the second half of the answer is the more transferable one — they do not add the number because there is no reason to open future design space they have no intention of using. A parameterised name is a promise of variants, and promising variants you will never make is a cost with no return.",
+          "flavor": "Naming it with a number invites the question of what the other numbers do."
+        },
+        {
+          "title": "Balance the deck-shaping mechanics against the flexible ones",
+          "rules": "This family is inherently deck-shaping: satisfying one card's condition means building around that condition, which is the definition of a mechanic that tells you what else to play. So the design consequence is a portfolio question rather than a card question. They try to keep a balance across a release between mechanics that dictate what else goes in the deck and mechanics that fit anywhere; the ratio swings, but they do not want everything at one end. Using one of these usually means you should start looking for a flexible mechanic to sit beside it — advice he notes he is giving during one of the most deck-shaping releases they had done in some time.",
+          "flavor": "The pendulum is allowed to swing. It is not allowed to stop at one end."
+        },
+        {
+          "title": "The difficulty setting chooses your audience",
+          "rules": "The chain is short and each link follows: the harder the change, the bigger the difference has to be; the bigger the difference, the greater the variance; the greater the variance, the swingier the mechanic. And tolerance for swinginess is not uniform — one temperament enjoys wide variance and the unknown, another prefers consistency. So easy versions play better with the consistency-seeker and hard versions with the variance-lover. The end of the chain is the interesting part: the very hardest are enjoyed most by the puzzle-solver, who values working out how to make the condition happen at all.",
+          "flavor": "There is a version for every temperament. Which one you built is set by one number."
+        },
+        {
+          "title": "Find what people want to do rather than paying them to do what you want",
+          "rules": "They tested a harder requirement and found it slightly too hard. He names the option they declined: they could have bribed players into it with a larger payoff, and the payoff would have worked. His refusal is stated as a principle about the whole discipline. Design is not about forcing players to do what you could make them do; it is about figuring out what players want to do and then making the game do that. The distinction matters because both routes produce the intended behaviour, and only one of them produces it willingly.",
+          "flavor": "A big enough reward will move anyone. That is why it is not evidence."
+        },
+        {
+          "title": "These mechanics beget more of themselves",
+          "rules": "Satisfying the condition on one card means building a deck that does whatever the condition requires. Once you have gone to that trouble, every other card sharing the same condition becomes much more attractive, because the hoop is already paid for. So the family propagates: put one in and the pressure is to put in more. He gives the moderating variable too, and it is the useful part. The more the condition is a natural part of ordinary play rather than something you have to construct, the more freely those cards travel — naturalness is what converts a deck-shaping mechanic into a flexible one.",
+          "flavor": "The second one is cheaper than the first, which is exactly the problem."
+        },
+        {
+          "title": "Let the definition drift at the edges",
+          "rules": "He works the boundary rather than defending it. A card whose criterion runs backwards — where doing the thing shrinks the creature instead of growing it — is admitted, because there are members whose second state is worse than the first, though he says it barely squeaks in and shows how the definition can drift. A card that always satisfies its own condition, because it counts itself along with others, is admitted as a named sub-case. He does not tighten the definition to exclude the awkward members. He records where it gets soft and moves on.",
+          "flavor": "A taxonomy with no grey area was drawn to be tidy rather than to be true."
+        }
+      ]
+    },
+    "es": {
+      "title": "Quiero umbralizarte la mano (o quizá mis artefactos)",
+      "dek": "La mitad de la columna define una categoría de mecánica probando casos límite contra ella; la otra mitad es lo que el departamento ha aprendido diseñando dentro de ella.",
+      "overview": "Un estudio de una familia de mecánicas: cartas que cambian de estado cuando algo en otra parte de la partida se vuelve cierto. Dedica la primera mitad a construir la definición pasando cartas candidatas por ella y diciendo cuáles quedan fuera y por qué, lo cual es una demostración de la taxonomía como método y no como archivo. La segunda mitad son cuatro lecciones sobre cómo afinarlas, incluida una enumeración de todo lo que un jugador debe seguir, que explica por qué estas mecánicas casi siempre usan exactamente un número.",
+      "takeaway": "El diseño no va de forzar a la gente a hacer lo que podrías obligarles a hacer: va de averiguar qué quieren hacer y lograr que el juego haga eso.",
+      "lessons": [
+        {
+          "title": "La palabra que sostiene todo es «externo»",
+          "rules": "Su definición: una mecánica que permite a una carta cambiar de estado según algún criterio situado en otra parte de la partida. Luego prueba una carta que se cambia a sí misma cuando pagas, y la descarta, porque una carta capaz de pasarse sola de un estado a otro no está en la categoría. El requisito es que sea otra cosa la que cause el cambio, lo que él glosa diciendo que estas cartas tienen que importarles algo más grande que ellas mismas. Pasar candidatas por la definición también saca a la luz tres ejes de variación: el cambio puede ser de tipo de carta, el criterio puede ser un suceso y no un estado, y el cambio puede tener duración definida.",
+          "flavor": "Una palabra en la definición, y está haciendo toda la exclusión."
+        },
+        {
+          "title": "Enumera la carga de seguimiento antes de añadir un segundo número",
+          "rules": "Probaron la misma mecánica con tres números distintos, y él muestra el coste contando. Con un número, un jugador sigue tres cosas: si su propio montón ha llegado, si el del rival ha llegado, y qué cambia si alguna es cierta. Con tres números eso se vuelve doce, porque cada umbral necesita su comprobación en ambos lados más una pregunta sobre qué cartas se fijan en qué número. Las pruebas demostraron que derretía el cerebro: más de lo que una persona puede sostener sin dedicarle la mayor parte de su atención. Bautiza la condición como congelación cerebral y trata una prueba que la produzca como evidencia de que hay demasiado en marcha.",
+          "flavor": "Tres preguntas son una mecánica. Doce preguntas son un segundo empleo."
+        },
+        {
+          "title": "Dos mandos y la curva de recompensa que los conecta",
+          "rules": "Dos factores gobiernan la sensación: cuán distintos son los estados y cuán difícil es cumplir el criterio. Mantiene la base constante y gira el mando de dificultad, con un desarrollador aportando la recompensa correcta para cada posición: necesitar uno compra un punto de resistencia, tres compran más dos en ambos, siete compran más seis, diez compran más dieciocho. Lo que la tabla enseña es que el tipo de cambio no es lineal. El precio de la dificultad se acelera, así que un requisito el doble de duro vale bastante más del doble de recompensa, y estimar el pago por proporción infrapagará todas las versiones difíciles.",
+          "flavor": "Diez veces el requisito no son diez veces la recompensa. Son dieciocho."
+        },
+        {
+          "title": "La tensión no es buena en sí misma",
+          "rules": "Respondiendo a un debate sobre si habían quitado demasiada, rechaza ambas posturas. El departamento no está en contra de la tensión, pero no todas las tensiones son iguales, y la tensión en sí no es algo positivo. Su criterio es qué le hace la elección resultante a quien la toma: forzar una decisión estratégica puede ser buen juego, siempre que la elección empodere al jugador en vez de hacerle sentir impotente. Pone la complejidad en el mismo marco. Ambas son herramientas valiosas en la cantidad y el lugar adecuados, y ambas pueden reducir la diversión si se usan mal.",
+          "flavor": "«Ahora hay más tensión» todavía no es un argumento en ninguna dirección."
+        },
+        {
+          "title": "Deja el número fuera del nombre, porque no vas a usar ese espacio",
+          "rules": "La gente no dejaba de preguntar por qué las mecánicas no se nombraban con su número adjunto, lo que habría implicado una familia de variantes con otros valores. Su respuesta es que el número al que llegaron es el punto óptimo: al medir los dos factores uno contra otro suele haber una combinación que juega mejor. Y la segunda mitad de la respuesta es la más transferible: no añaden el número porque no hay razón para abrir espacio de diseño futuro que no tienen intención de usar. Un nombre parametrizado es una promesa de variantes, y prometer variantes que nunca harás es un coste sin retorno.",
+          "flavor": "Nombrarlo con un número invita a preguntar qué hacen los otros números."
+        },
+        {
+          "title": "Equilibra las mecánicas que moldean el mazo con las flexibles",
+          "rules": "Esta familia moldea el mazo por naturaleza: satisfacer la condición de una carta significa construir en torno a esa condición, que es la definición de una mecánica que te dice qué más jugar. Así que la consecuencia de diseño es una cuestión de cartera y no de carta. Intentan mantener un equilibrio a lo largo de un lanzamiento entre mecánicas que dictan qué más entra en el mazo y mecánicas que encajan en cualquier sitio; la proporción oscila, pero no quieren todo en un extremo. Usar una de estas suele significar que conviene empezar a buscar una mecánica flexible para ponerla al lado, consejo que —señala— está dando durante uno de los lanzamientos más moldeadores que habían hecho en tiempo.",
+          "flavor": "El péndulo puede oscilar. Lo que no puede es pararse en un extremo."
+        },
+        {
+          "title": "El ajuste de dificultad elige a tu público",
+          "rules": "La cadena es corta y cada eslabón se sigue: cuanto más difícil el cambio, mayor tiene que ser la diferencia; cuanto mayor la diferencia, mayor la varianza; cuanto mayor la varianza, más oscilante la mecánica. Y la tolerancia a la oscilación no es uniforme: un temperamento disfruta de la varianza amplia y de lo desconocido, otro prefiere la consistencia. Así que las versiones fáciles juegan mejor con quien busca consistencia y las difíciles con quien ama la varianza. El final de la cadena es la parte interesante: las más difíciles de todas son las que más disfruta quien resuelve puzles, que valora averiguar cómo lograr la condición siquiera.",
+          "flavor": "Hay una versión para cada temperamento. Cuál construiste lo fija un solo número."
+        },
+        {
+          "title": "Averigua qué quiere hacer la gente en vez de pagarle por hacer lo que tú quieres",
+          "rules": "Probaron un requisito más difícil y lo encontraron un poco demasiado duro. Nombra la opción que descartaron: podrían haber sobornado a los jugadores con una recompensa mayor, y la recompensa habría funcionado. Su negativa está enunciada como principio sobre toda la disciplina. El diseño no va de forzar a los jugadores a hacer lo que podrías obligarles a hacer; va de averiguar qué quieren hacer y luego lograr que el juego haga eso. La distinción importa porque ambas rutas producen la conducta pretendida, y solo una la produce de buena gana.",
+          "flavor": "Una recompensa lo bastante grande mueve a cualquiera. Por eso no es evidencia."
+        },
+        {
+          "title": "Estas mecánicas engendran más de sí mismas",
+          "rules": "Satisfacer la condición de una carta significa construir un mazo que haga lo que la condición exija. Una vez te has tomado esa molestia, cualquier otra carta que comparta la misma condición se vuelve mucho más atractiva, porque el aro ya está pagado. Así que la familia se propaga: metes una y la presión es meter más. También da la variable moderadora, y es la parte útil. Cuanto más sea la condición una parte natural del juego ordinario y no algo que tengas que construir, con más libertad viajan esas cartas: la naturalidad es lo que convierte una mecánica moldeadora en una flexible.",
+          "flavor": "La segunda sale más barata que la primera, y ese es exactamente el problema."
+        },
+        {
+          "title": "Deja que la definición se difumine en los bordes",
+          "rules": "Trabaja la frontera en vez de defenderla. Una carta cuyo criterio va al revés —donde hacer la cosa encoge la criatura en vez de agrandarla— es admitida, porque hay miembros cuyo segundo estado es peor que el primero, aunque dice que entra por los pelos y que muestra cómo la definición puede desdibujarse. Una carta que siempre satisface su propia condición, porque se cuenta a sí misma junto a las demás, es admitida como subcaso con nombre. No aprieta la definición para excluir a los miembros incómodos. Anota dónde se ablanda y sigue adelante.",
+          "flavor": "Una taxonomía sin zona gris se dibujó para ser pulcra, no para ser verdadera."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Je veux te seuiller la main (ou peut-être mes artefacts)",
+      "dek": "La moitié de la chronique définit une catégorie de mécaniques en lui soumettant des cas limites ; l'autre moitié rassemble ce que le service a appris en concevant dedans.",
+      "overview": "Une étude d'une famille de mécaniques : des cartes qui basculent d'un état à un autre quand quelque chose, ailleurs dans la partie, devient vrai. Il passe la première moitié à bâtir la définition en lui soumettant des cartes candidates et en disant lesquelles en sortent et pourquoi — démonstration de la taxonomie comme méthode, non comme classement. La seconde moitié réunit quatre leçons de réglage, dont un dénombrement de tout ce qu'un joueur doit suivre, qui explique pourquoi ces mécaniques n'emploient presque jamais qu'un seul nombre.",
+      "takeaway": "Concevoir, ce n'est pas forcer les gens à faire ce qu'on pourrait leur faire faire ; c'est trouver ce qu'ils veulent faire et amener le jeu à le faire.",
+      "lessons": [
+        {
+          "title": "Le mot porteur, c'est « extérieur »",
+          "rules": "Sa définition : une mécanique qui laisse une carte basculer d'un état à un autre selon un critère situé ailleurs dans la partie. Il soumet ensuite une carte qui se change elle-même quand on paie, et l'exclut — une carte capable de passer seule d'un état à l'autre n'est pas de la catégorie. L'exigence est qu'autre chose provoque le changement, ce qu'il glose en disant que ces cartes doivent se soucier de plus grand qu'elles. Soumettre des candidates fait aussi apparaître trois axes de variation : le changement peut porter sur le type de carte, le critère peut être un événement et non un état, et le changement peut avoir une durée définie.",
+          "flavor": "Un mot dans la définition, et c'est lui qui exclut tout."
+        },
+        {
+          "title": "Dénombrez la charge de suivi avant d'ajouter un second nombre",
+          "rules": "Ils ont essayé la même mécanique à trois nombres différents, et il en montre le coût en comptant. Avec un nombre, un joueur suit trois choses : si sa propre pile l'a atteint, si celle de l'adversaire l'a atteint, et ce qui change si l'un ou l'autre est vrai. Avec trois nombres, cela devient douze, chaque seuil réclamant sa vérification des deux côtés plus une question sur les cartes concernées par tel nombre. Les tests ont prouvé que cela faisait fondre le cerveau — plus qu'une personne ne peut tenir sans y consacrer l'essentiel de son attention. Il nomme l'état gel cérébral et voit dans un test qui le produit la preuve qu'il se passe trop de choses.",
+          "flavor": "Trois questions, c'est une mécanique. Douze questions, c'est un second emploi."
+        },
+        {
+          "title": "Deux molettes, et la courbe de gain qui les relie",
+          "rules": "Deux facteurs gouvernent la sensation : l'écart entre les états et la difficulté du critère. Il garde la base constante et tourne la molette de difficulté, un développeur fournissant le gain correct pour chaque position : exiger un exemplaire achète un point d'endurance, trois achètent plus deux partout, sept achètent plus six, dix achètent plus dix-huit. Ce que montre le tableau, c'est que le taux de change n'est pas linéaire. Le prix de la difficulté s'accélère : une exigence deux fois plus dure vaut nettement plus du double de récompense, et estimer le gain par proportion sous-paiera toutes les versions difficiles.",
+          "flavor": "Dix fois l'exigence ne fait pas dix fois la récompense. Elle en fait dix-huit."
+        },
+        {
+          "title": "La tension n'est pas bonne en soi",
+          "rules": "Répondant à un débat sur le fait d'en avoir trop retiré, il refuse les deux camps. Le service n'est pas hostile à la tension — mais toutes les tensions ne se valent pas, et la tension en soi n'est pas une bonne chose. Son critère est ce que le choix produit fait à celui qui le prend : imposer une décision stratégique peut faire du bon jeu, à condition que le choix rende le joueur puissant plutôt qu'impuissant. Il place la complexité dans le même cadre. Toutes deux sont des outils précieux dans la bonne quantité et au bon endroit, et toutes deux peuvent diminuer le plaisir si on les emploie mal.",
+          "flavor": "« Il y a plus de tension maintenant » n'est encore un argument dans aucun sens."
+        },
+        {
+          "title": "Laissez le nombre hors du nom, car vous n'utiliserez pas cet espace",
+          "rules": "On lui demandait sans cesse pourquoi les mécaniques n'étaient pas nommées avec leur nombre, ce qui aurait sous-entendu une famille de variantes à d'autres valeurs. Sa réponse : le nombre atteint est le point idéal — en pesant les deux facteurs l'un contre l'autre, il y a d'ordinaire une combinaison qui joue le mieux. Et la seconde moitié de la réponse est la plus transférable : ils n'ajoutent pas le nombre parce qu'il n'y a aucune raison d'ouvrir un espace de conception futur qu'ils n'ont pas l'intention d'utiliser. Un nom paramétré est une promesse de variantes, et promettre des variantes qu'on ne fera jamais est un coût sans retour.",
+          "flavor": "Le nommer avec un nombre invite à demander ce que font les autres nombres."
+        },
+        {
+          "title": "Équilibrez les mécaniques qui façonnent le deck avec les souples",
+          "rules": "Cette famille façonne le deck par nature : satisfaire la condition d'une carte suppose de bâtir autour de cette condition, définition même d'une mécanique qui vous dit quoi jouer d'autre. La conséquence est donc une question de portefeuille, non de carte. Ils cherchent à équilibrer, sur une sortie, les mécaniques qui dictent le contenu du deck et celles qui s'insèrent partout ; le rapport oscille, mais ils ne veulent pas tout à un bout. Employer l'une de celles-ci signifie généralement qu'il faut chercher une mécanique souple à mettre à côté — conseil qu'il note donner pendant l'une des sorties les plus façonnantes qu'ils aient faites depuis longtemps.",
+          "flavor": "Le pendule a le droit d'osciller. Il n'a pas le droit de s'arrêter à un bout."
+        },
+        {
+          "title": "Le réglage de difficulté choisit votre public",
+          "rules": "La chaîne est courte et chaque maillon découle : plus le changement est dur, plus l'écart doit être grand ; plus l'écart est grand, plus la variance est forte ; plus la variance est forte, plus la mécanique balance. Et la tolérance au balancement n'est pas uniforme : un tempérament aime la variance large et l'inconnu, un autre préfère la constance. Les versions faciles conviennent donc mieux à qui cherche la constance, les dures à qui aime la variance. La fin de la chaîne est le plus intéressant : les plus dures de toutes sont le plus appréciées de celui qui résout des énigmes, lequel goûte de trouver comment réaliser la condition tout court.",
+          "flavor": "Il existe une version pour chaque tempérament. Laquelle vous avez bâtie tient à un seul nombre."
+        },
+        {
+          "title": "Trouvez ce que les gens veulent faire plutôt que de les payer pour faire ce que vous voulez",
+          "rules": "Ils ont testé une exigence plus dure et l'ont trouvée un peu trop dure. Il nomme l'option écartée : ils auraient pu appâter les joueurs avec un gain plus gros, et le gain aurait marché. Son refus est énoncé comme un principe sur tout le métier. Concevoir, ce n'est pas forcer les joueurs à faire ce qu'on pourrait leur faire faire ; c'est trouver ce que les joueurs veulent faire et amener ensuite le jeu à le faire. La distinction compte parce que les deux voies produisent le comportement visé, et une seule le produit de bon gré.",
+          "flavor": "Une récompense assez grosse déplace n'importe qui. C'est pourquoi ce n'est pas une preuve."
+        },
+        {
+          "title": "Ces mécaniques engendrent leurs semblables",
+          "rules": "Satisfaire la condition d'une carte suppose de bâtir un deck qui fait ce que la condition demande. Cette peine une fois prise, toute autre carte partageant la même condition devient bien plus attirante, le cerceau étant déjà payé. La famille se propage donc : en mettre une crée la pression d'en mettre d'autres. Il donne aussi la variable modératrice, et c'est la part utile. Plus la condition relève naturellement du jeu ordinaire plutôt que d'un montage, plus ces cartes circulent librement — la naturalité est ce qui convertit une mécanique façonnante en mécanique souple.",
+          "flavor": "La deuxième coûte moins cher que la première, et c'est exactement le problème."
+        },
+        {
+          "title": "Laissez la définition se brouiller sur les bords",
+          "rules": "Il travaille la frontière au lieu de la défendre. Une carte dont le critère fonctionne à l'envers — où faire la chose rapetisse la créature au lieu de l'agrandir — est admise, puisqu'il existe des membres dont le second état est pire que le premier ; il dit toutefois qu'elle passe de justesse et montre que la définition peut dériver. Une carte qui satisfait toujours sa propre condition, parce qu'elle se compte elle-même avec les autres, est admise comme sous-cas nommé. Il ne resserre pas la définition pour exclure les membres gênants. Il note où elle mollit et poursuit.",
+          "flavor": "Une taxonomie sans zone grise a été tracée pour être nette, non pour être vraie."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Quero limiarizar a sua mão (ou talvez os meus artefatos)",
+      "dek": "Metade da coluna define uma categoria de mecânica testando casos-limite contra ela; a outra metade é o que o departamento aprendeu projetando dentro dela.",
+      "overview": "Um estudo de uma família de mecânicas: cartas que trocam de estado quando algo em outro ponto da partida se torna verdadeiro. Ele gasta a primeira metade construindo a definição ao passar cartas candidatas por ela e dizendo quais caem fora e por quê, o que é uma demonstração de taxonomia como método e não como arquivamento. A segunda metade traz quatro lições sobre afiná-las, incluindo uma enumeração de tudo o que um jogador precisa acompanhar, que explica por que essas mecânicas quase sempre usam exatamente um número.",
+      "takeaway": "Design não é forçar as pessoas a fazerem o que você poderia obrigá-las a fazer; é descobrir o que elas querem fazer e fazer o jogo fazer isso.",
+      "lessons": [
+        {
+          "title": "A palavra que sustenta tudo é \"externo\"",
+          "rules": "A definição dele: uma mecânica que deixa uma carta trocar de estado conforme algum critério situado em outro ponto da partida. Ele então testa uma carta que se transforma sozinha quando você paga, e a exclui — porque uma carta capaz de se mover de um estado a outro por conta própria não está na categoria. A exigência é que outra coisa cause a mudança, o que ele glosa dizendo que essas cartas precisam se importar com algo maior que elas mesmas. Passar candidatas pela definição também revela três eixos de variação: a mudança pode ser de tipo de carta, o critério pode ser um evento em vez de um estado, e a mudança pode ter duração definida.",
+          "flavor": "Uma palavra na definição, e é ela que faz toda a exclusão."
+        },
+        {
+          "title": "Enumere a carga de acompanhamento antes de acrescentar um segundo número",
+          "rules": "Eles testaram a mesma mecânica em três números diferentes, e ele mostra o custo contando. Com um número, o jogador acompanha três coisas: se a própria pilha chegou lá, se a do adversário chegou, e o que muda se qualquer uma for verdadeira. Com três números isso vira doze, porque cada limiar precisa da própria verificação dos dois lados mais uma pergunta sobre quais cartas se importam com qual número. Os testes provaram que aquilo derretia o cérebro — mais do que uma pessoa consegue segurar sem dedicar a maior parte da atenção. Ele batiza a condição de congelamento cerebral e trata um teste que a produza como evidência de que há coisa demais acontecendo.",
+          "flavor": "Três perguntas são uma mecânica. Doze perguntas são um segundo emprego."
+        },
+        {
+          "title": "Dois botões, e a curva de recompensa que os liga",
+          "rules": "Dois fatores governam a sensação: quão diferentes são os estados e quão difícil é cumprir o critério. Ele mantém a base constante e gira o botão da dificuldade, com um desenvolvedor fornecendo a recompensa correta para cada posição: exigir um compra um ponto de resistência, três compram mais dois em ambos, sete compram mais seis, dez compram mais dezoito. O que a tabela mostra é que a taxa de câmbio não é linear. O preço da dificuldade acelera, então uma exigência duas vezes mais dura vale bem mais que o dobro da recompensa, e estimar o pagamento por proporção vai subpagar toda versão difícil.",
+          "flavor": "Dez vezes a exigência não são dez vezes a recompensa. São dezoito."
+        },
+        {
+          "title": "Tensão não é boa em si mesma",
+          "rules": "Respondendo a um debate sobre se haviam removido tensão demais, ele recusa as duas posições. O departamento não é contra tensão — mas nem todas as tensões são iguais, e tensão em si não é coisa positiva. O critério dele é o que a escolha resultante faz com quem a toma: forçar uma decisão estratégica pode ser bom jogo, desde que a escolha dê poder ao jogador em vez de fazê-lo se sentir impotente. Ele põe complexidade no mesmo quadro. Ambas são ferramentas valiosas na quantidade e no lugar certos, e ambas conseguem diminuir a diversão quando usadas errado.",
+          "flavor": "\"Agora há mais tensão\" ainda não é argumento em direção nenhuma."
+        },
+        {
+          "title": "Deixe o número fora do nome, porque você não vai usar aquele espaço",
+          "rules": "As pessoas viviam perguntando por que as mecânicas não eram nomeadas com o número junto, o que teria implicado uma família de variantes em outros valores. A resposta dele é que o número a que chegaram é o ponto ideal: medindo os dois fatores um contra o outro, costuma haver uma combinação que joga melhor. E a segunda metade da resposta é a mais transferível: eles não acrescentam o número porque não há razão para abrir espaço de design futuro que não pretendem usar. Um nome parametrizado é uma promessa de variantes, e prometer variantes que você nunca fará é um custo sem retorno.",
+          "flavor": "Nomeá-lo com um número convida à pergunta sobre o que os outros números fazem."
+        },
+        {
+          "title": "Equilibre as mecânicas que moldam o deck com as flexíveis",
+          "rules": "Esta família molda o deck por natureza: satisfazer a condição de uma carta significa construir em torno dessa condição, que é a definição de uma mecânica que diz o que mais jogar. Então a consequência de design é uma questão de carteira, não de carta. Eles tentam manter um equilíbrio ao longo de um lançamento entre mecânicas que ditam o que mais entra no deck e mecânicas que cabem em qualquer lugar; a proporção oscila, mas não querem tudo numa ponta. Usar uma destas normalmente significa que convém procurar uma mecânica flexível para pôr ao lado — conselho que, ele nota, está dando durante um dos lançamentos mais moldadores que haviam feito em bastante tempo.",
+          "flavor": "O pêndulo pode oscilar. O que não pode é parar numa ponta."
+        },
+        {
+          "title": "O ajuste de dificuldade escolhe o seu público",
+          "rules": "A cadeia é curta e cada elo decorre: quanto mais difícil a mudança, maior tem de ser a diferença; quanto maior a diferença, maior a variância; quanto maior a variância, mais oscilante a mecânica. E a tolerância à oscilação não é uniforme: um temperamento gosta de variância ampla e do desconhecido, outro prefere consistência. Então versões fáceis jogam melhor com quem busca consistência e as difíceis com quem ama variância. O fim da cadeia é a parte interessante: as mais difíceis de todas são as mais apreciadas por quem resolve quebra-cabeças, que valoriza descobrir como fazer a condição acontecer.",
+          "flavor": "Há uma versão para cada temperamento. Qual delas você construiu é fixado por um número."
+        },
+        {
+          "title": "Descubra o que as pessoas querem fazer em vez de pagá-las para fazer o que você quer",
+          "rules": "Eles testaram uma exigência mais difícil e a acharam um pouco dura demais. Ele nomeia a opção que recusaram: poderiam ter subornado os jogadores com uma recompensa maior, e a recompensa teria funcionado. A recusa dele é enunciada como princípio sobre a disciplina inteira. Design não é forçar jogadores a fazerem o que você poderia obrigá-los a fazer; é descobrir o que os jogadores querem fazer e então fazer o jogo fazer isso. A distinção importa porque as duas rotas produzem o comportamento pretendido, e só uma o produz de bom grado.",
+          "flavor": "Uma recompensa grande o bastante move qualquer um. É por isso que ela não é evidência."
+        },
+        {
+          "title": "Essas mecânicas geram mais delas mesmas",
+          "rules": "Satisfazer a condição de uma carta significa construir um deck que faça o que a condição exige. Uma vez que você teve esse trabalho, toda outra carta que compartilhe a mesma condição fica muito mais atraente, porque o aro já foi pago. Então a família se propaga: você põe uma e a pressão é pôr mais. Ele também dá a variável moderadora, e é a parte útil. Quanto mais a condição for parte natural do jogo comum e não algo que você tenha de montar, mais livremente essas cartas viajam — a naturalidade é o que converte uma mecânica moldadora numa flexível.",
+          "flavor": "A segunda sai mais barata que a primeira, e é exatamente esse o problema."
+        },
+        {
+          "title": "Deixe a definição se borrar nas bordas",
+          "rules": "Ele trabalha a fronteira em vez de defendê-la. Uma carta cujo critério corre ao contrário — em que fazer a coisa encolhe a criatura em vez de aumentá-la — é admitida, porque há membros cujo segundo estado é pior que o primeiro; ainda assim ele diz que ela entra raspando e mostra como a definição pode derivar. Uma carta que sempre satisfaz a própria condição, porque se conta junto com as outras, é admitida como subcaso nomeado. Ele não aperta a definição para excluir os membros incômodos. Anota onde ela amolece e segue em frente.",
+          "flavor": "Uma taxonomia sem zona cinzenta foi desenhada para ser arrumada, não para ser verdadeira."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "我想给你的手来点门槛（或者给我的神器）",
+      "dek": "这篇专栏有一半在给一类机制下定义——办法是拿一批边缘案例去撞它；而另一半，是这个部门在这类机制内部做设计所学到的东西。",
+      "overview": "这是对一族机制的研究：当场上别处的某件事成立时，会在几个状态之间切换的牌。他把前半篇花在建立定义上——把候选的牌一张张送去撞这个定义，并说明哪些被排除出去、为什么；这是一次「把分类学当作方法、而不是当作归档」的示范。后半篇是关于如何调校它们的四条教训，其中包括一份「玩家必须追踪的全部事项」的清单；而正是它解释了：为什么这类机制几乎总是只用一个数字。",
+      "takeaway": "设计不是去逼人们做你能逼他们做的事；而是弄清他们想做什么，然后让这个游戏去做那件事。",
+      "lessons": [
+        {
+          "title": "承重的那个词是「外部」",
+          "rules": "他的定义是：一种让一张牌依据场上别处的某个判准在若干状态之间切换的机制。随后他拿一张「你付出代价后它自己改变自己」的牌去撞，并把它排除掉——因为一张能自己把自己从一个状态挪到另一个状态的牌，不属于这一类。要求是：得由别的东西来引发这次改变；而他的注解是——这些牌必须去在意某样比它们自身更大的东西。把候选逐一送去撞这个定义，还带出了三条变化轴：那次改变可以是牌张类别的改变；那个判准可以是一个「事件」而不是一个「状态」；而那次改变可以有一段被界定的时长。",
+          "flavor": "定义里的一个词，而排除全都是它在做。"
+        },
+        {
+          "title": "在你加上第二个数字之前，先把追踪负担一条条数出来",
+          "rules": "他们试过让同一个机制同时用三个不同的数字；而他用「数」的方式把代价摆了出来。用一个数字时，玩家要追踪三件事：自己的那一堆到没到、对手的那一堆到没到，以及只要其中之一成立，各自会变成什么。而用三个数字时，这就变成了十二件——因为每一个门槛都要在双方各查一遍，再加上「哪些牌在意哪个数字」的问题。试玩证明这会把脑子熔掉：那超过了一个人在不把大部分注意力都投进去的情况下所能端住的量。他把这个状态命名为「脑冻结」；并把「一次试玩产生了它」当作「这里发生的事太多了」的证据。",
+          "flavor": "三个问题是一个机制。十二个问题是第二份工作。"
+        },
+        {
+          "title": "两个旋钮，以及把它们连起来的那条回报曲线",
+          "rules": "有两个因素支配着手感：这些状态之间差多少，以及那个判准有多难达成。他把基准固定住、只转动难度旋钮；而一位开发者为每一档提供了正确的回报——要求一个，买到一点防御力；三个，买到双边各加二；七个，买到各加六；十个，买到各加十八。这张表显示出来的是：这个兑换率不是线性的。难度的价格在加速；所以一个难度翻倍的要求，值的远不止两倍的回报；而按比例去估算这份支付，会让每一个高难度版本都被低估。",
+          "flavor": "十倍的要求换来的不是十倍的回报。是十八倍。"
+        },
+        {
+          "title": "张力本身不是好东西",
+          "rules": "在回应一场「他们是不是把张力拿掉太多了」的争论时，他两边都不站。这个部门并不反对张力——但并非所有的张力都等价；而张力本身并不是一件正面的事。他的判准是：由此产生的那个选择，对做出它的人做了什么——逼出一个策略性的决定可以是好的对局体验，前提是这个选择让玩家变得有力，而不是让他觉得无能为力。他把复杂度也放进了同一个框架里。两者在恰当的分量、恰当的位置上都是有价值的工具；而两者一旦用错，都能把乐趣削掉。",
+          "flavor": "「现在张力更多了」这句话，还不构成任何一个方向上的论证。"
+        },
+        {
+          "title": "别把数字放进名字里，因为你不会去用那片空间",
+          "rules": "人们一直在问：这些机制为什么不把数字带在名字里？——那本会暗示存在一族取其他数值的变体。他的回答是：他们最终落到的那个数字就是那个甜蜜点；把这两个因素放在一起衡量，通常会有某一个组合打起来最好。而这个回答的后半段才是更可迁移的：他们不加那个数字，是因为没有理由去打开一片他们并不打算使用的未来设计空间。一个带参数的名字是一份关于变体的承诺；而承诺你永远不会去做的变体，是一笔没有回报的成本。",
+          "flavor": "用一个数字给它命名，等于在邀请人们追问：那别的数字都做什么？"
+        },
+        {
+          "title": "让「塑造套牌的机制」和「灵活的机制」保持平衡",
+          "rules": "这一族天然就在塑造套牌：满足一张牌的条件，意味着围绕这个条件去搭建；而那正是「一个告诉你还该打什么」的机制的定义。所以它带来的设计后果是一个组合层面的问题，而不是单牌层面的问题。他们会努力在一次发行里，在「规定套牌里还得放什么」的机制和「放哪儿都行」的机制之间维持平衡；这个比例会摆动，但他们不希望所有东西都堆在一端。用了这一族中的一个，通常就意味着你该开始找一个灵活的机制放在它旁边——而他指出：自己说这番话的时候，正处在他们许久以来做过的最「塑造套牌」的一次发行当中。",
+          "flavor": "钟摆可以摆。它不可以停在一端。"
+        },
+        {
+          "title": "难度设定挑选了你的受众",
+          "rules": "这条链子很短，而每一环都顺理成章：改变越难，两个状态之间的差距就必须越大；差距越大，变化度就越大；变化度越大，这个机制就越大起大落。而人们对大起大落的容忍度并不一致：一种性情享受大幅的变化度和未知；另一种更偏爱稳定。所以容易的版本更合偏爱稳定的那一类，困难的版本更合喜爱变化度的那一类。而这条链子的末端才是有意思的部分：最难的那些，恰恰最受解谜型玩家的喜爱——他们看重的，是琢磨出「究竟怎样才能让这个条件成立」。",
+          "flavor": "每一种性情都有一个对应的版本。而你造出的是哪一个，由一个数字定下。"
+        },
+        {
+          "title": "去找人们想做什么，而不是花钱雇他们去做你想要的事",
+          "rules": "他们测试过一个更难的要求，发现它稍微太难了一点。他点名了他们放弃的那个选项：本可以用一份更大的回报把玩家买过来；而那份回报会奏效。他把这次拒绝，表述成了一条关于整门手艺的原则。设计不是去逼玩家做你能逼他们做的事；而是弄清玩家想做什么，然后让这个游戏去做那件事。这个区分之所以要紧，是因为两条路径都能产出你想要的那个行为；而只有一条是让人心甘情愿地产出它。",
+          "flavor": "足够大的奖赏能挪动任何人。而这正是它不构成证据的原因。"
+        },
+        {
+          "title": "这类机制会孳生出更多同类",
+          "rules": "满足一张牌的条件，意味着搭一副能做到那个条件所要求之事的套牌。而一旦你已经吃了这份麻烦，任何一张共享同一个条件的牌都会变得吸引力大增——因为那个圈已经付过钱了。于是这一族会自我繁殖：你放进去一个，压力就是再多放几个。他也给出了那个调节变量；而那是有用的部分。这个条件越是寻常对局中自然的一部分、而不是你必须去搭建的东西，这些牌就走得越自由——「自然」正是把一个塑造套牌的机制转换成一个灵活机制的东西。",
+          "flavor": "第二个比第一个便宜；而这恰恰就是问题所在。"
+        },
+        {
+          "title": "让这个定义在边缘处变得模糊",
+          "rules": "他去经营这条边界，而不是去守卫它。一张判准反着走的牌——做那件事会让这只生物变小、而不是变大——被收了进来，因为这一族里确实有第二状态比第一状态更差的成员；不过他说它是擦着边挤进来的，而它显示出这个定义可以怎样漂移。一张永远满足自己条件的牌——因为它把自己也和别的一起数了进去——被作为一个有名字的子情形收了进来。他没有为了把那些别扭的成员排除出去而收紧定义。他把「它在哪里变软了」记下来，然后继续往前走。",
+          "flavor": "一份没有灰色地带的分类学，是为了整洁而画的，不是为了真实。"
+        }
+      ]
+    }
+  }
+}
