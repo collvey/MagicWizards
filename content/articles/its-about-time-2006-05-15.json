@@ -1,0 +1,363 @@
+{
+  "id": "its-about-time-2006-05-15",
+  "slug": "its-about-time-2006-05-15",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2006-05-15",
+  "series": null,
+  "tags": [
+    "instants",
+    "sorceries",
+    "timing",
+    "color-pie",
+    "defaults",
+    "teaching"
+  ],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/its-about-time-2006-05-15",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T00:00:00Z",
+  "lessons": [
+    {
+      "n": 1,
+      "color": "U"
+    },
+    {
+      "n": 2,
+      "color": "W"
+    },
+    {
+      "n": 3,
+      "color": "U"
+    },
+    {
+      "n": 4,
+      "color": "B"
+    },
+    {
+      "n": 5,
+      "color": "G"
+    },
+    {
+      "n": 6,
+      "color": "R"
+    },
+    {
+      "n": 7,
+      "color": "W"
+    },
+    {
+      "n": 8,
+      "color": "B"
+    },
+    {
+      "n": 9,
+      "color": "G"
+    },
+    {
+      "n": 10,
+      "color": "R"
+    }
+  ],
+  "translations": {
+    "en": {
+      "title": "It's About Time",
+      "dek": "A pop quiz on which spells should be instants and which should be sorceries, with the reasoning for each.",
+      "overview": "Rosewater teaches the instant-versus-sorcery decision by setting it as a quiz: a series of card texts with the mana cost withheld, each followed by the answer and the department's reason for it. The individual verdicts turn out to run on very different grounds — some are about denying the opponent a chance to respond, some about forcing a commitment before the information arrives, some about keeping a card from feeding itself, one about a use that would simply be off-character for the colour that owns it. He also gives the standing default for cards where the two versions would play identically, and the one case where they deliberately break it.",
+      "lessons": [
+        {
+          "title": "Default to the restrictive version when nothing turns on the choice",
+          "rules": "His stated rule for the many cards where the two speeds would play identically: make it the restricted one. The permissive setting is not free just because no difference is visible — it is a standing permission that will interact with things not yet built. He gives one exception and says why: on a deliberately splashy card, they err the other way, because there the feeling of unrestricted power is the product being sold.",
+          "flavor": "No difference either way? Then take the narrower one."
+        },
+        {
+          "title": "Speed encodes temperament, so moving a mechanic to a new owner changes its default",
+          "rules": "A temporary-theft effect that had been an instant became a sorcery when the effect was reassigned from one colour to another. The reason he gives is not about power. One of the two is more defensive than the other, and a defensive party wants to act in response while an aggressive one acts on its own initiative. The timing window is part of the character, so the same effect in a new home takes a different default with it.",
+          "flavor": "Same effect, new owner, new speed — because the speed is part of who does it."
+        },
+        {
+          "title": "Instant speed is about reaching a moment, not about acting on someone else's turn",
+          "rules": "One card in the quiz can only ever be played on your own turn and still has to be an instant. The reason is that it wants to be cast during your upkeep — the single opportunity that exists before you draw — and no other speed can reach that window. The common shorthand treats the faster speed as permission to respond to opponents. Its actual grant is access to moments, some of which are entirely inside your own turn.",
+          "flavor": "Nobody else is involved. It still has to be an instant to happen when it must."
+        },
+        {
+          "title": "Restrict the speed to force a commitment made before the information arrives",
+          "rules": "Board-clearing effects are held to the slower speed deliberately, and the reason he gives is about risk rather than power. An effect that large should require the player to commit to it during their own turn, accepting whatever happens in between. Allowing it at the faster speed would let the decision be made after the relevant information is in — which is not a cheaper version of the same decision but the removal of one.",
+          "flavor": "Want to wipe the board? Then say so before you know whether you need to."
+        },
+        {
+          "title": "Restrict the speed to prevent an off-flavour use, not only an overpowered one",
+          "rules": "Returning a creature from the graveyard is held at the slower speed for a reason that has nothing to do with balance. The point of the effect is not to produce a surprise blocker, and he says plainly that ambushing is not really in the character of the colour that owns it. Speed restrictions get discussed as power controls. This one is a flavour control, and the two produce identical text.",
+          "flavor": "The fast version would not be too strong. It would be the wrong colour."
+        },
+        {
+          "title": "Restrict the speed to stop the thing feeding itself",
+          "rules": "One card would, at the faster speed, be able to keep returning itself indefinitely. He states the general policy behind the specific fix: they try to avoid cards that endlessly cycle themselves. The restriction is not aimed at how strong the card is on any given turn. It is aimed at the shape of a loop, which is a different failure and one that no amount of costing repairs.",
+          "flavor": "It is not too good. It just never stops."
+        },
+        {
+          "title": "A delay clause states an intent that the wrong speed silently cancels",
+          "rules": "One card in the quiz says its effect happens at the start of your next upkeep, and he reads the clause as the design's stated purpose: the wait exists to give the opponent a little time to deal with what is coming. Making the same card faster would let it be cast at the end of the opponent's turn, which shrinks that window to nothing. The clause and the speed have to be checked against each other or the text promises something the timing takes back.",
+          "flavor": "The card gives them a turn to answer. The wrong speed hands the turn back."
+        },
+        {
+          "title": "Against a dominant defence, the routes past it are few and worth naming",
+          "rules": "Designing something to answer the colour that owns countermagic, he lists what such a card has to be. It can be cheap enough to sneak out before the defender can afford to stop it. It can be immune to being stopped at all. Each option is a different concession, and knowing the list is what turns an impossible-looking assignment into a choice between three known costs.",
+          "flavor": "You cannot get past them by being good. You get past by being cheap or immune."
+        },
+        {
+          "title": "Where the cost consumes something the player is mid-use of, the timing must let them use it first",
+          "rules": "Land searching is normally held at the slower speed, and he flags one carved exception: land searching whose cost is sacrificing lands is mostly allowed at the faster one. The reason is practical rather than thematic. If paying the cost destroys resources the player would otherwise have spent that turn, the timing has to permit spending them before the cost is paid, or the card silently charges twice.",
+          "flavor": "Use the lands, then sacrifice them. Any other order costs you the turn."
+        },
+        {
+          "title": "Some effects are self-defeating at the wrong speed",
+          "rules": "The clearest case in the quiz is a spell that stops opponents from casting instants. At the slower speed it would accomplish nothing at all, because everything it was meant to prevent could simply be done in response to it. He calls the answer obvious once you think through how the spell would work in each version, and that is the method: run the card at both speeds and see whether one of them is a card at all.",
+          "flavor": "Play it as a sorcery and they just respond with everything you were stopping."
+        }
+      ],
+      "takeaway": "The method underneath every answer is the same: run the card at both speeds and describe what happens, because in several of these one of the two versions is not a worse card but not a card at all."
+    },
+    "es": {
+      "title": "Es cuestión de tiempo",
+      "dek": "Un cuestionario sobre qué hechizos deben ser instantáneos y cuáles conjuros, con el razonamiento de cada uno.",
+      "overview": "Rosewater enseña la decisión entre instantáneo y conjuro planteándola como examen: una serie de textos de carta con el coste omitido, cada uno seguido de la respuesta y del motivo del departamento. Los veredictos individuales resultan apoyarse en bases muy distintas: algunos van de negarle al rival la ocasión de responder, otros de forzar un compromiso antes de que llegue la información, otros de impedir que una carta se alimente a sí misma, y uno de un uso que sencillamente no encajaría con el carácter del color que lo posee. También da el valor por defecto para las cartas en que ambas versiones jugarían igual, y el único caso en que lo rompen a propósito.",
+      "lessons": [
+        {
+          "title": "Por defecto, la versión restrictiva cuando la elección no cambia nada",
+          "rules": "Su regla declarada para las muchas cartas en que ambas velocidades jugarían igual: que sea la restringida. La opción permisiva no sale gratis solo porque no se vea diferencia: es un permiso vigente que interactuará con cosas aún no construidas. Da una excepción y su motivo: en una carta deliberadamente llamativa yerran hacia el otro lado, porque allí la sensación de poder sin trabas es el producto que se vende.",
+          "flavor": "¿No hay diferencia? Entonces coge la más estrecha."
+        },
+        {
+          "title": "La velocidad codifica el temperamento, así que mudar una mecánica de dueño cambia su valor por defecto",
+          "rules": "Un efecto de robo temporal que había sido instantáneo pasó a ser conjuro cuando se reasignó de un color a otro. La razón que da no va de poder. Uno de los dos es más defensivo que el otro, y una parte defensiva quiere actuar en respuesta mientras que una agresiva actúa por iniciativa propia. La ventana temporal forma parte del carácter, de modo que el mismo efecto en un hogar nuevo se lleva consigo otro valor por defecto.",
+          "flavor": "El mismo efecto, otro dueño, otra velocidad: porque la velocidad es parte de quién lo hace."
+        },
+        {
+          "title": "La velocidad de instantáneo va de alcanzar un momento, no de actuar en el turno ajeno",
+          "rules": "Una carta del cuestionario solo puede jugarse en tu propio turno y aun así tiene que ser instantánea. La razón es que quiere lanzarse durante tu mantenimiento —la única oportunidad que existe antes de robar— y ninguna otra velocidad alcanza esa ventana. El atajo habitual trata la velocidad rápida como permiso para responder a rivales. Lo que concede de verdad es acceso a momentos, algunos enteramente dentro de tu propio turno.",
+          "flavor": "No hay nadie más implicado. Aun así ha de ser instantánea para ocurrir cuando debe."
+        },
+        {
+          "title": "Restringe la velocidad para forzar un compromiso anterior a la información",
+          "rules": "Los efectos que limpian la mesa se mantienen a la velocidad lenta a propósito, y la razón que da va de riesgo y no de poder. Un efecto tan grande debería exigir que el jugador se comprometa durante su propio turno, aceptando lo que ocurra entretanto. Permitirlo a la velocidad rápida dejaría tomar la decisión una vez llegada la información relevante, lo que no es una versión más barata de la misma decisión sino la supresión de una.",
+          "flavor": "¿Quieres arrasar la mesa? Pues dilo antes de saber si te hace falta."
+        },
+        {
+          "title": "Restringe la velocidad para impedir un uso fuera de ambientación, no solo uno demasiado potente",
+          "rules": "Devolver una criatura del cementerio se mantiene a la velocidad lenta por un motivo que nada tiene que ver con el equilibrio. El sentido del efecto no es producir un bloqueador sorpresa, y él dice sin rodeos que emboscar no está realmente en el carácter del color que lo posee. Las restricciones de velocidad se discuten como controles de poder. Esta es un control de ambientación, y ambas producen un texto idéntico.",
+          "flavor": "La versión rápida no sería demasiado fuerte. Sería del color equivocado."
+        },
+        {
+          "title": "Restringe la velocidad para impedir que la cosa se alimente a sí misma",
+          "rules": "Una carta podría, a la velocidad rápida, seguir devolviéndose a sí misma indefinidamente. Enuncia la política general tras el arreglo concreto: intentan evitar cartas que se reciclen sin fin. La restricción no apunta a lo fuerte que sea la carta en un turno dado. Apunta a la forma de un bucle, que es un fallo distinto y que ninguna cantidad de coste repara.",
+          "flavor": "No es demasiado buena. Es que no para nunca."
+        },
+        {
+          "title": "Una cláusula de demora enuncia una intención que la velocidad equivocada cancela en silencio",
+          "rules": "Una carta del cuestionario dice que su efecto ocurre al comienzo de tu siguiente mantenimiento, y él lee la cláusula como el propósito declarado del diseño: la espera existe para dar al rival un poco de tiempo para lidiar con lo que viene. Hacer la misma carta más rápida permitiría lanzarla al final del turno del rival, lo que reduce esa ventana a nada. La cláusula y la velocidad hay que contrastarlas entre sí, o el texto promete algo que el tiempo retira.",
+          "flavor": "La carta les da un turno para responder. La velocidad equivocada se lo quita."
+        },
+        {
+          "title": "Frente a una defensa dominante, las rutas para sortearla son pocas y merecen nombrarse",
+          "rules": "Al diseñar algo que responda al color dueño de la contramagia, enumera lo que tal carta tiene que ser. Puede ser lo bastante barata como para colarse antes de que el defensor pueda permitirse pararla. Puede ser inmune a que la paren. Cada opción es una concesión distinta, y conocer la lista es lo que convierte un encargo de aspecto imposible en una elección entre tres costes conocidos.",
+          "flavor": "No los superas siendo bueno. Los superas siendo barato o inmune."
+        },
+        {
+          "title": "Cuando el coste consume algo que el jugador está usando, el momento debe dejarle usarlo antes",
+          "rules": "La búsqueda de tierras se mantiene normalmente a la velocidad lenta, y él señala una excepción tallada: la búsqueda cuyo coste es sacrificar tierras se permite sobre todo a la rápida. La razón es práctica y no temática. Si pagar el coste destruye recursos que el jugador habría gastado ese turno, el momento tiene que permitir gastarlos antes de pagar, o la carta cobra dos veces en silencio.",
+          "flavor": "Usa las tierras y luego sacrifícalas. Cualquier otro orden te cuesta el turno."
+        },
+        {
+          "title": "Algunos efectos se derrotan a sí mismos a la velocidad equivocada",
+          "rules": "El caso más claro del cuestionario es un hechizo que impide al rival lanzar instantáneos. A la velocidad lenta no lograría absolutamente nada, porque todo lo que pretendía impedir podría hacerse simplemente en respuesta. Dice que la respuesta es obvia en cuanto piensas cómo funcionaría el hechizo en cada versión, y ese es el método: ejecuta la carta a ambas velocidades y mira si alguna de ellas es siquiera una carta.",
+          "flavor": "Júgalo como conjuro y te responden con todo lo que ibas a impedir."
+        }
+      ],
+      "takeaway": "El método bajo cada respuesta es el mismo: ejecuta la carta a ambas velocidades y describe qué pasa, porque en varias de estas una de las dos versiones no es una carta peor sino ninguna carta."
+    },
+    "fr": {
+      "title": "Une question de temps",
+      "dek": "Un questionnaire sur les sorts qui doivent être éphémères et ceux qui doivent être des rituels, avec le raisonnement.",
+      "overview": "Rosewater enseigne le choix entre éphémère et rituel en le posant comme un contrôle : une série de textes de cartes, coût omis, chacun suivi de la réponse et de la raison du département. Les verdicts reposent sur des bases très différentes — refuser à l'adversaire l'occasion de répondre, forcer un engagement avant l'arrivée de l'information, empêcher une carte de se nourrir d'elle-même, ou écarter un usage qui ne collerait tout simplement pas au caractère de la couleur qui la détient. Il donne aussi le réglage par défaut pour les cartes où les deux versions joueraient à l'identique, et le cas unique où l'on s'en écarte exprès.",
+      "lessons": [
+        {
+          "title": "Par défaut, prenez la version restrictive quand le choix ne change rien",
+          "rules": "Sa règle déclarée pour les nombreuses cartes où les deux vitesses joueraient à l'identique : prenez la restreinte. Le réglage permissif n'est pas gratuit parce qu'aucune différence n'apparaît — c'est une permission permanente qui interagira avec des choses pas encore bâties. Il donne une exception et sa raison : sur une carte volontairement tape-à-l'œil, on penche dans l'autre sens, car là c'est la sensation de puissance sans entrave qu'on vend.",
+          "flavor": "Aucune différence ? Alors prenez la plus étroite."
+        },
+        {
+          "title": "La vitesse encode le tempérament : changer de propriétaire change le réglage par défaut",
+          "rules": "Un effet de vol temporaire, jadis éphémère, est devenu rituel lorsqu'il a été réattribué d'une couleur à une autre. La raison donnée ne porte pas sur la puissance. L'une des deux est plus défensive que l'autre, et un camp défensif veut agir en réaction quand un camp agressif agit de sa propre initiative. La fenêtre temporelle fait partie du caractère : le même effet, dans un nouveau foyer, emporte un autre réglage.",
+          "flavor": "Même effet, nouveau propriétaire, nouvelle vitesse — car la vitesse fait partie de qui l'exécute."
+        },
+        {
+          "title": "La vitesse d'éphémère sert à atteindre un instant, non à agir pendant le tour d'autrui",
+          "rules": "Une carte du questionnaire ne peut être jouée que pendant votre propre tour et doit pourtant être un éphémère. Elle veut être lancée pendant votre entretien — la seule occasion existant avant la pioche — et aucune autre vitesse n'atteint cette fenêtre. Le raccourci courant voit dans la vitesse rapide une permission de répondre à l'adversaire. Ce qu'elle accorde réellement, c'est l'accès à des instants, dont certains sont entièrement dans votre propre tour.",
+          "flavor": "Personne d'autre n'est concerné. Il faut quand même un éphémère pour arriver au bon moment."
+        },
+        {
+          "title": "Restreignez la vitesse pour forcer un engagement pris avant l'information",
+          "rules": "Les effets qui nettoient le champ sont maintenus à la vitesse lente à dessein, et la raison invoquée tient au risque, non à la puissance. Un effet de cette ampleur doit exiger que le joueur s'y engage pendant son propre tour, en acceptant ce qui se passera entre-temps. L'autoriser à la vitesse rapide permettrait de décider une fois l'information arrivée — ce n'est pas une version moins chère de la même décision, mais sa suppression.",
+          "flavor": "Vous voulez balayer le champ ? Dites-le avant de savoir si c'est nécessaire."
+        },
+        {
+          "title": "Restreignez la vitesse pour empêcher un usage hors ambiance, pas seulement un usage trop fort",
+          "rules": "Ramener une créature du cimetière est maintenu à la vitesse lente pour une raison sans rapport avec l'équilibre. Le propos de l'effet n'est pas de produire un bloqueur surprise, et il dit franchement que l'embuscade n'est pas vraiment dans le caractère de la couleur qui le détient. On discute des restrictions de vitesse comme de contrôles de puissance. Celle-ci est un contrôle d'ambiance, et les deux produisent un texte identique.",
+          "flavor": "La version rapide ne serait pas trop forte. Elle serait de la mauvaise couleur."
+        },
+        {
+          "title": "Restreignez la vitesse pour empêcher la chose de se nourrir d'elle-même",
+          "rules": "Une carte pourrait, à la vitesse rapide, se ramener indéfiniment. Il énonce la politique générale derrière le correctif : on évite les cartes qui se recyclent sans fin. La restriction ne vise pas la puissance de la carte sur un tour donné. Elle vise la forme d'une boucle — défaillance d'un autre ordre, qu'aucun coût ne répare.",
+          "flavor": "Elle n'est pas trop bonne. Elle ne s'arrête simplement jamais."
+        },
+        {
+          "title": "Une clause de délai énonce une intention que la mauvaise vitesse annule en silence",
+          "rules": "Une carte du questionnaire indique que son effet survient au début de votre prochain entretien, et il lit la clause comme le propos déclaré de la conception : l'attente existe pour laisser à l'adversaire un peu de temps pour parer. Rendre la même carte plus rapide permettrait de la lancer à la fin du tour adverse, ce qui réduit cette fenêtre à rien. Clause et vitesse doivent être confrontées, sinon le texte promet ce que le minutage reprend.",
+          "flavor": "La carte leur laisse un tour pour répondre. La mauvaise vitesse le leur retire."
+        },
+        {
+          "title": "Face à une défense dominante, les voies de contournement sont peu nombreuses et méritent d'être nommées",
+          "rules": "Concevant une réponse à la couleur détentrice de la contremagie, il énumère ce qu'une telle carte doit être. Elle peut être assez bon marché pour passer avant que le défenseur puisse se permettre de l'arrêter. Elle peut être insensible à l'arrêt. Chaque option est une concession différente, et connaître la liste transforme une commande d'apparence impossible en un choix entre trois coûts connus.",
+          "flavor": "On ne passe pas en étant bon. On passe en étant bon marché ou insensible."
+        },
+        {
+          "title": "Quand le coût consomme ce que le joueur est en train d'employer, le minutage doit permettre de l'employer d'abord",
+          "rules": "La recherche de terrains se tient d'ordinaire à la vitesse lente, et il signale une exception découpée : celle dont le coût est de sacrifier des terrains est surtout permise à la vitesse rapide. La raison est pratique et non thématique. Si payer le coût détruit des ressources que le joueur aurait dépensées ce tour-ci, le minutage doit permettre de les dépenser avant le paiement, sinon la carte facture deux fois en silence.",
+          "flavor": "Utilisez les terrains, puis sacrifiez-les. Tout autre ordre vous coûte le tour."
+        },
+        {
+          "title": "Certains effets se sabotent eux-mêmes à la mauvaise vitesse",
+          "rules": "Le cas le plus net du questionnaire est un sort empêchant l'adversaire de lancer des éphémères. À la vitesse lente, il n'accomplirait rien du tout, car tout ce qu'il devait empêcher pourrait simplement être fait en réponse. Il dit que la réponse saute aux yeux dès qu'on déroule le fonctionnement du sort dans chaque version — et c'est la méthode : faites tourner la carte aux deux vitesses et voyez si l'une des deux est seulement une carte.",
+          "flavor": "Jouez-le en rituel et l'on vous répond avec tout ce que vous vouliez empêcher."
+        }
+      ],
+      "takeaway": "La méthode sous chaque réponse est la même : faire tourner la carte aux deux vitesses et décrire ce qui se passe, car dans plusieurs cas l'une des deux versions n'est pas une moins bonne carte mais pas une carte du tout."
+    },
+    "pt-BR": {
+      "title": "É questão de tempo",
+      "dek": "Um teste sobre quais mágicas devem ser instantâneas e quais devem ser feitiços, com o raciocínio de cada uma.",
+      "overview": "Rosewater ensina a decisão entre instantânea e feitiço propondo-a como um teste: uma série de textos de carta com o custo omitido, cada um seguido da resposta e do motivo do departamento. Os veredictos individuais acabam repousando em bases muito distintas — alguns sobre negar ao oponente a chance de responder, outros sobre forçar um compromisso antes de a informação chegar, outros sobre impedir que uma carta se alimente de si mesma, e um sobre um uso que simplesmente não caberia no caráter da cor que a detém. Ele também dá o padrão para cartas em que as duas versões jogariam igual, e o único caso em que o quebram de propósito.",
+      "lessons": [
+        {
+          "title": "Por padrão, a versão restritiva quando a escolha não muda nada",
+          "rules": "A regra declarada dele para as muitas cartas em que as duas velocidades jogariam igual: que seja a restrita. A opção permissiva não é de graça só porque nenhuma diferença aparece — é uma permissão vigente que vai interagir com coisas ainda não construídas. Ele dá uma exceção e o motivo: numa carta deliberadamente chamativa, erram para o outro lado, porque ali a sensação de poder sem freio é o produto vendido.",
+          "flavor": "Nenhuma diferença? Então fique com a mais estreita."
+        },
+        {
+          "title": "A velocidade codifica temperamento, então mudar uma mecânica de dono muda seu padrão",
+          "rules": "Um efeito de roubo temporário que fora instantâneo virou feitiço quando o efeito foi realocado de uma cor para outra. A razão que ele dá não é sobre poder. Uma das duas é mais defensiva que a outra, e uma parte defensiva quer agir em resposta enquanto uma agressiva age por iniciativa própria. A janela de tempo faz parte do caráter, de modo que o mesmo efeito num lar novo leva consigo um padrão diferente.",
+          "flavor": "Mesmo efeito, novo dono, nova velocidade — porque a velocidade é parte de quem o faz."
+        },
+        {
+          "title": "Velocidade de instantâneo é sobre alcançar um momento, não sobre agir no turno alheio",
+          "rules": "Uma carta do questionário só pode ser jogada no seu próprio turno e ainda assim precisa ser instantânea. A razão é que ela quer ser conjurada durante a sua manutenção — a única oportunidade que existe antes de você comprar — e nenhuma outra velocidade alcança essa janela. O atalho comum trata a velocidade rápida como permissão para responder a oponentes. O que ela de fato concede é acesso a momentos, alguns inteiramente dentro do seu próprio turno.",
+          "flavor": "Ninguém mais está envolvido. Ainda assim tem de ser instantânea para acontecer quando deve."
+        },
+        {
+          "title": "Restrinja a velocidade para forçar um compromisso anterior à informação",
+          "rules": "Efeitos que limpam o campo são mantidos na velocidade lenta de propósito, e a razão que ele dá é sobre risco, não sobre poder. Um efeito desse tamanho deve exigir que o jogador se comprometa durante o próprio turno, aceitando o que acontecer nesse meio-tempo. Permiti-lo na velocidade rápida deixaria a decisão ser tomada depois de a informação relevante chegar — o que não é uma versão mais barata da mesma decisão, mas a remoção de uma.",
+          "flavor": "Quer limpar o campo? Então diga antes de saber se precisa."
+        },
+        {
+          "title": "Restrinja a velocidade para impedir um uso fora de ambientação, não só um forte demais",
+          "rules": "Devolver uma criatura do cemitério é mantido na velocidade lenta por um motivo que nada tem a ver com equilíbrio. O ponto do efeito não é produzir um bloqueador surpresa, e ele diz sem rodeios que emboscar não está realmente no caráter da cor que o detém. Restrições de velocidade são discutidas como controles de poder. Esta é um controle de ambientação, e as duas produzem um texto idêntico.",
+          "flavor": "A versão rápida não seria forte demais. Seria da cor errada."
+        },
+        {
+          "title": "Restrinja a velocidade para impedir que a coisa se alimente de si mesma",
+          "rules": "Uma carta poderia, na velocidade rápida, ficar se devolvendo indefinidamente. Ele enuncia a política geral por trás do conserto específico: tentam evitar cartas que se reciclem sem fim. A restrição não mira em quão forte a carta é num turno dado. Mira no formato de um laço, que é uma falha diferente e que nenhuma quantia de custo conserta.",
+          "flavor": "Não é boa demais. Ela simplesmente nunca para."
+        },
+        {
+          "title": "Uma cláusula de demora enuncia uma intenção que a velocidade errada cancela em silêncio",
+          "rules": "Uma carta do questionário diz que seu efeito acontece no início da sua próxima manutenção, e ele lê a cláusula como o propósito declarado do design: a espera existe para dar ao oponente um pouco de tempo para lidar com o que vem. Tornar a mesma carta mais rápida permitiria conjurá-la no fim do turno do oponente, o que reduz essa janela a nada. Cláusula e velocidade têm de ser conferidas uma contra a outra, ou o texto promete algo que o tempo retira.",
+          "flavor": "A carta lhes dá um turno para responder. A velocidade errada devolve o turno."
+        },
+        {
+          "title": "Contra uma defesa dominante, as rotas para passar são poucas e vale nomeá-las",
+          "rules": "Ao projetar algo que responda à cor dona da contramágica, ele lista o que tal carta tem de ser. Pode ser barata o bastante para escapulir antes que o defensor possa se dar ao luxo de detê-la. Pode ser imune a ser detida. Cada opção é uma concessão diferente, e conhecer a lista é o que transforma uma encomenda de aparência impossível numa escolha entre três custos conhecidos.",
+          "flavor": "Você não passa por eles sendo bom. Passa sendo barato ou imune."
+        },
+        {
+          "title": "Quando o custo consome algo que o jogador está usando, o tempo tem de deixá-lo usar antes",
+          "rules": "Buscar terrenos normalmente fica na velocidade lenta, e ele sinaliza uma exceção esculpida: a busca cujo custo é sacrificar terrenos é permitida sobretudo na rápida. A razão é prática, não temática. Se pagar o custo destrói recursos que o jogador teria gasto naquele turno, o tempo precisa permitir gastá-los antes do pagamento, ou a carta cobra duas vezes em silêncio.",
+          "flavor": "Use os terrenos, depois sacrifique-os. Qualquer outra ordem lhe custa o turno."
+        },
+        {
+          "title": "Alguns efeitos se derrotam sozinhos na velocidade errada",
+          "rules": "O caso mais claro do questionário é uma mágica que impede o oponente de conjurar instantâneas. Na velocidade lenta não conseguiria absolutamente nada, porque tudo o que ela devia impedir poderia simplesmente ser feito em resposta. Ele diz que a resposta é óbvia assim que você percorre como a mágica funcionaria em cada versão, e esse é o método: rode a carta nas duas velocidades e veja se alguma delas chega a ser uma carta.",
+          "flavor": "Jogue como feitiço e eles respondem com tudo o que você ia impedir."
+        }
+      ],
+      "takeaway": "O método sob cada resposta é o mesmo: rode a carta nas duas velocidades e descreva o que acontece, porque em várias delas uma das duas versões não é uma carta pior, e sim carta nenhuma."
+    },
+    "zh-Hans": {
+      "title": "这是时机问题",
+      "dek": "一场关于“哪些咒语该是瞬间、哪些该是法术”的随堂测验，每题都附上理由。",
+      "overview": "罗斯瓦特把“瞬间还是法术”这个决定做成了一场测验来讲授：一连串隐去法术力费用的牌面文字，每一条后面跟着答案以及部门的理由。这些个别裁定所依据的根基其实很不一样——有的是为了不让对手失去回应的机会，有的是为了逼出一份在信息到来之前作出的承诺，有的是为了防止一张牌自己喂自己，还有一条是因为某种用法根本不合拥有它的那个颜色的性格。他还给出了“两个版本打起来完全一样”时的长期默认值，以及他们唯一会刻意打破它的那种情形。",
+      "lessons": [
+        {
+          "title": "当这个选择什么也不改变时，默认取限制性更强的那个版本",
+          "rules": "对于那些两种速度打起来完全一样的大量牌张，他给出的规则是：取受限的那个。宽松的设定并不因为“看不出差别”就免费——它是一份长期有效的许可，将来会与尚未造出的东西发生互动。他给了一个例外并说明理由：在一张刻意做得张扬的牌上，他们会往另一边偏，因为在那里，“不受束缚的力量感”本身就是要卖的东西。",
+          "flavor": "两边没差别？那就取窄的那个。"
+        },
+        {
+          "title": "速度编码着性情，所以把一项机制换个归属，它的默认值也会改变",
+          "rules": "一个原本是瞬间的临时夺取效果，在从一个颜色被重新分配到另一个颜色时，变成了法术。他给出的理由与强度无关。两者之中有一方比另一方更偏防守；而防守的一方想要在回应中行动，进攻的一方则凭自己的主动出手。时机窗口是性格的一部分；于是同一个效果换了新家，也就带着不同的默认值一起过去了。",
+          "flavor": "同一个效果，新的归属，新的速度——因为速度是“谁在做这件事”的一部分。"
+        },
+        {
+          "title": "瞬间速度关乎的是抵达某个时刻，而不是在别人的回合行动",
+          "rules": "测验里有一张牌只能在你自己的回合打出，却仍然必须是瞬间。理由是它想在你的维持步骤被施放——那是抽牌之前存在的唯一机会——而其他任何速度都够不到那个窗口。通行的简化说法，把更快的速度当成“回应对手的许可”。它真正授予的是对若干时刻的通行权，而其中有些时刻完全位于你自己的回合之内。",
+          "flavor": "没有别人参与。它照样必须是瞬间，才能在它必须发生的时候发生。"
+        },
+        {
+          "title": "限制速度，是为了逼出一份在信息到来之前作出的承诺",
+          "rules": "清场类效果被刻意保持在较慢的速度上，而他给出的理由关乎风险，不关乎强度。这么大的一个效果，理应要求玩家在自己的回合里就作出承诺，并接受这中间发生的一切。允许它在更快的速度上使用，等于让这个决定可以在相关信息到手之后再作——而那不是同一个决定的廉价版本，那是把这个决定取消掉了。",
+          "flavor": "想清场？那就在你还不知道自己需不需要之前先说出来。"
+        },
+        {
+          "title": "限制速度，也可以是为了阻止一种不合风味的用法，而不只是过强的用法",
+          "rules": "把生物从坟墓场带回来被保持在较慢的速度上，理由与平衡毫无关系。这个效果的要点不是制造一个出其不意的阻挡者；而他直白地说：伏击其实不在拥有它的那个颜色的性格里。速度上的限制通常被当作强度管控来讨论。这一条是风味管控——而两者产出的文字一模一样。",
+          "flavor": "快速版本并不会太强。它只是会变成错误的颜色。"
+        },
+        {
+          "title": "限制速度，是为了阻止这样东西自己喂自己",
+          "rules": "有一张牌在更快的速度下，能够无限地把自己带回来。他说出了这个具体修法背后的一般政策：他们尽量避免会无休止自我循环的牌。这道限制针对的不是这张牌在某个回合里有多强，而是一个环路的形状；那是另一种失效，而且再怎么调整费用也修不好。",
+          "flavor": "它不是太强。它只是永远停不下来。"
+        },
+        {
+          "title": "一条延迟条款陈述了一个意图，而错误的速度会悄悄把它取消掉",
+          "rules": "测验里有一张牌写明它的效果发生在你的下一个维持步骤开始时，而他把这条从句读作这份设计所声明的目的：这段等待的存在，是为了给对手一点时间来应付即将到来的东西。把同一张牌做得更快，就会让它可以在对手回合结束时施放，从而把那扇窗口压缩为零。条款和速度必须彼此对照着检查，否则牌面文字承诺的东西，会被时机收回去。",
+          "flavor": "这张牌给了他们一个回合去应对。错误的速度把那个回合又拿了回来。"
+        },
+        {
+          "title": "面对一道占据主导的防线，绕过它的路径很少，而且值得一一命名",
+          "rules": "在设计用来对付那个拥有反击法术的颜色的东西时，他列出了这样一张牌必须具备什么。它可以便宜到能在防守方还负担不起阻止它之前就溜过去。它可以干脆免疫于被阻止。每个选项都是一次不同的让步；而知道这份清单，正是把一项看起来不可能的任务，变成在三种已知代价之间作选择的东西。",
+          "flavor": "你没法靠“好”绕过他们。你靠“便宜”或者“免疫”绕过。"
+        },
+        {
+          "title": "当代价会消耗掉玩家正在使用的东西时，时机必须允许他先把它用掉",
+          "rules": "搜寻地牌通常被保持在较慢的速度上，而他指出了一处被专门切出来的例外：以“献祭地”为代价的搜寻，大多被允许放在更快的速度上。理由是实际的，不是主题上的。如果支付代价会毁掉玩家本来会在那个回合花出去的资源，那么时机就必须允许他在付出代价之前先把它们花掉；否则这张牌就在无声中收了两次钱。",
+          "flavor": "先用那些地，再献祭它们。任何别的顺序都要你赔上一个回合。"
+        },
+        {
+          "title": "有些效果在错误的速度上会自我瓦解",
+          "rules": "测验里最清楚的一例，是一个阻止对手施放瞬间的咒语。在较慢的速度上，它将什么也做不成，因为它本要阻止的一切，都可以直接在它结算之前作为回应打出。他说，只要把这个咒语在两个版本里各自会怎么运作想一遍，答案就显而易见；而这正是那个方法：把这张牌在两种速度下各跑一遍，看看其中是否有一种根本称不上是一张牌。",
+          "flavor": "把它当法术打出去，他们就用你本来要拦下的一切来回应你。"
+        }
+      ],
+      "takeaway": "每个答案底下的方法都是同一个：把这张牌在两种速度下各跑一遍，把发生的事情描述出来——因为在其中好几例里，两个版本中的一个不是更差的牌，而是根本称不上是一张牌。"
+    }
+  }
+}
