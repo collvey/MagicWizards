@@ -1,0 +1,320 @@
+{
+  "id": "scary-stories-part-1-2011-09-16",
+  "slug": "scary-stories-part-1-2011-09-16",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2011-09-16",
+  "series": { "id": "scary-stories", "order": 1, "total": 2 },
+  "tags": ["card-by-card", "top-down", "tribal", "innistrad", "process"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/scary-stories-part-1-2011-09-16",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "W" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Scary Stories, Part 1",
+      "dek": "Card-by-card origins from a horror set, restricted to the cards already previewed — including a land cycle he refused to put in himself and a card type he announces the death of.",
+      "overview": "The first half of a two-part card-by-card, split by what had been revealed at the time of writing rather than by alphabet. Its through-line is the top-down method: nearly every card here starts from a horror trope and the design question is how to make the mechanics behave like the trope does. Along the way, three process stories with wider reach — a formal objection lodged by handing over a file without the cards he was overruled on, an argument about what a card feels like rather than what it can do, and the decision to retire a card type after playtesting kept reporting that it seldom mattered.",
+      "takeaway": "The strongest lesson is about fear specifically: an indestructible creature that kills whatever it fights is not scary, because certainty is the opposite of dread.",
+      "lessons": [
+        {
+          "title": "The reprint test is whether you would have made it for this set",
+          "rules": "He gives the criterion in one line: the key to finding a good reprint is a card that feels like you would have designed it for the set if it did not already exist. His illustration is the confusion that follows when the fit is that good. The creative director wrote asking him to take a word off the card, because the team was still working out whether that creature type should be vulnerable to that element — and had to be told that the card was a reprint and the word was not available to remove.",
+          "flavor": "\"Could you change this?\" \"It's a reprint.\" \"Well, crap.\""
+        },
+        {
+          "title": "Derive the category's constraint from the genre",
+          "rules": "The equipment in this set had a rule that came from the source material rather than from the game: they mostly had to be objects with a purpose other than being a weapon. His reasoning is that in horror stories the person fighting the monsters seldom planned to fight anything, so they grab whatever is nearby and turn it into a weapon. The design task then becomes enumeration — hit as many ordinary-object-as-weapon tropes as you can. A genre convention converted into a filter does more work than a list of ideas.",
+          "flavor": "Not a sword. Whatever was on the kitchen counter."
+        },
+        {
+          "title": "Build both halves from the trope down, then iterate the trigger",
+          "rules": "Committing to a transformation card meant a two-personality one was inevitable, and each half was derived from character rather than from mechanics: the scientist small, with an activated ability, in the thinking colour; the brute large, oriented around attacking, in the impulsive colour. The transformation cost took iteration. Discarding a land to flip played badly — it encouraged throwing away your own mana early for damage, which produced frustrating games. Changing the discard to a creature card fixed it, and the card never moved again.",
+          "flavor": "The characters were right immediately. The switch between them took three goes."
+        },
+        {
+          "title": "When the far side doesn't work, fix the transition rather than the destination",
+          "rules": "The brute half stayed essentially as first written, with at most a small adjustment to its numbers. The one change that made it function was made to the other card entirely: the transformation was given an untap, so the creature could attack on the turn it flipped. The problem presented itself as the back face being weak, and the fault was in the moment of change. Where two states are joined by a transition, check the transition before you rebalance either state.",
+          "flavor": "The monster was fine. Getting to the monster was the bug."
+        },
+        {
+          "title": "Register the objection formally, then let the other side execute",
+          "rules": "A land cycle was needed across several sets for reasons above any one of them, and it clashed with the ally-colour theme this set had developed. He and the lead developer agreed it mattered enough to go in regardless. His response was procedural: he handed over the set without the lands, while identifying exactly what could come out to make room, knowing they would be swapped in. The reason he gives is that he felt he should make the statement that design-wise the cards did not belong. In exchange, another rare land cycle he had built was allowed to stay.",
+          "flavor": "He didn't block it. He just declined to be the one who put it in."
+        },
+        {
+          "title": "Certainty is the opposite of dread — design the unknown",
+          "rules": "The card was indestructible because the trope requires it, and small, and he added deathtouch to make it frightening. The result was too daunting in a way that removed the fear: faced with something indestructible that kills whatever it fights, you simply stop attacking, and the acceptance makes it unscary. The fix came from going back to the trope, where the object's power is that it makes everyone nervous. So the effect was made less of a known quantity. Not knowing whether something will die is what produces the tension.",
+          "flavor": "If you know which creature dies, you've already grieved it."
+        },
+        {
+          "title": "Argue from what it feels like, not from what it can be made to do",
+          "rules": "One card in a cycle of hostile enchantments was the only one you would often want to put on yourself, and part of the department felt none of them should work that way. The defence was not that the exploit was small. It was that the effect clearly feels like a downside even though there is a way to exploit it, and the feeling is what the cycle is for. The majority agreed and the card shipped as designed. Whether a card can be turned to your advantage and whether it reads as a punishment are separate questions.",
+          "flavor": "Yes, you can use it on yourself. It still feels like a curse."
+        },
+        {
+          "title": "Retire the mechanism when testing keeps reporting that it seldom matters",
+          "rules": "He used a particular card type wherever he could, since the set had a strong tribal subtheme — and found the line impossible to draw, because in a top-down set almost every noncreature card has a definable flavour. The result was wordier cards that rarely did anything, since most of the theme's cards care about creatures and so can't benefit. Playtesting returned the same note repeatedly. The call was that it wasn't adding enough play value to offset the added words and confusion, and he uses the column to announce its probable end.",
+          "flavor": "The note came back every time: it seldom seemed to matter."
+        },
+        {
+          "title": "Make the theme available without making it compulsory",
+          "rules": "The challenge he names is wanting a tribal component that is relevant but not mandatory — not a set where you are forced to pick a tribe, while still letting someone who wants to draft one do so. The instrument is rarity placement. Keep the tribal cards out of common, and put the strong ones at uncommon, so that opening one says draft this. He allowed a little at common on the condition that those cards have uses beyond their tribal component, so a player ignoring the theme still wants them.",
+          "flavor": "An invitation at uncommon. Never a requirement at common."
+        },
+        {
+          "title": "Keep removed cards findable, because you will want one later",
+          "rules": "He mentions a filing convention in passing that turns out to carry the story. A card kicked out of a file has its code changed to a reserved number rather than being deleted, so the team can see what has been removed in case they want it back. Months after cutting one on thematic grounds, the lead developer described an effect he was looking for; he was able to answer that it already existed in the file under that number. It went back in with one change, from an enchantment aimed at a player to a general one.",
+          "flavor": "Not deleted. Filed under 99, where you can still find it."
+        }
+      ]
+    },
+    "es": {
+      "title": "Historias de miedo, parte 1",
+      "dek": "Orígenes carta a carta de una expansión de terror, limitados a las cartas ya anticipadas, incluido un ciclo de tierras que se negó a meter él mismo y un tipo de carta cuya muerte anuncia.",
+      "overview": "La primera mitad de un carta a carta en dos partes, dividido por lo que se había revelado al escribir y no por el alfabeto. Su hilo conductor es el método descendente: casi cada carta aquí parte de un tópico de terror y la pregunta de diseño es cómo hacer que las mecánicas se comporten como el tópico. Por el camino, tres historias de proceso con más alcance: una objeción formal presentada entregando un archivo sin las cartas en las que le habían pasado por encima, una discusión sobre lo que una carta se siente en vez de lo que puede hacer, y la decisión de retirar un tipo de carta después de que las pruebas repitieran que rara vez importaba.",
+      "takeaway": "La lección más fuerte va del miedo en concreto: una criatura indestructible que mata a lo que combate no da miedo, porque la certeza es lo contrario del pavor.",
+      "lessons": [
+        {
+          "title": "La prueba de una reimpresión es si la habrías hecho para esta expansión",
+          "rules": "Da el criterio en una línea: la clave para encontrar una buena reimpresión es una carta que se sienta como si la hubieras diseñado para la expansión de no existir ya. Su ilustración es la confusión que sigue cuando el encaje es así de bueno. El director creativo le escribió pidiéndole quitar una palabra de la carta, porque el equipo aún estaba decidiendo si ese tipo de criatura debía ser vulnerable a ese elemento, y hubo que informarle de que la carta era una reimpresión y la palabra no era eliminable.",
+          "flavor": "«¿Podrías cambiar esto?» «Es una reimpresión.» «Vaya, mierda.»"
+        },
+        {
+          "title": "Deriva la restricción de la categoría del género",
+          "rules": "El equipo de esta expansión tenía una regla que venía del material de origen y no del juego: en su mayoría tenían que ser objetos con un propósito distinto de ser un arma. Su razonamiento es que en las historias de terror quien lucha contra los monstruos rara vez planeaba luchar contra nada, así que agarra lo que tiene cerca y lo convierte en arma. La tarea de diseño se vuelve entonces enumeración: acertar tantos tópicos de objeto-cotidiano-como-arma como puedas. Una convención de género convertida en filtro trabaja más que una lista de ideas.",
+          "flavor": "No una espada. Lo que hubiera en la encimera de la cocina."
+        },
+        {
+          "title": "Construye las dos mitades desde el tópico, y luego itera el disparador",
+          "rules": "Comprometerse con una carta de transformación hacía inevitable una de doble personalidad, y cada mitad se dedujo del personaje y no de la mecánica: el científico pequeño, con una habilidad activada, en el color que piensa; el bruto grande, orientado a atacar, en el color impulsivo. El coste de transformación requirió iteración. Descartar una tierra para girar jugaba mal: animaba a tirar tu propio maná pronto a cambio de daño, lo que producía partidas frustrantes. Cambiar el descarte a una carta de criatura lo arregló, y la carta no volvió a moverse.",
+          "flavor": "Los personajes estuvieron bien enseguida. El interruptor entre ellos costó tres intentos."
+        },
+        {
+          "title": "Cuando la otra cara no funciona, arregla la transición y no el destino",
+          "rules": "La mitad bruta se quedó esencialmente como se escribió al principio, con a lo sumo un pequeño ajuste de números. El único cambio que la hizo funcionar se hizo en la otra carta: a la transformación se le añadió un enderezar, para que la criatura pudiera atacar el turno en que giraba. El problema se presentaba como una cara trasera débil, y el fallo estaba en el momento del cambio. Cuando dos estados están unidos por una transición, revisa la transición antes de reequilibrar ninguno de los dos estados.",
+          "flavor": "El monstruo estaba bien. Llegar hasta el monstruo era el error."
+        },
+        {
+          "title": "Registra la objeción formalmente, y luego deja que ejecute el otro lado",
+          "rules": "Un ciclo de tierras hacía falta a lo largo de varias expansiones por razones superiores a cualquiera de ellas, y chocaba con el tema de colores aliados que esta había desarrollado. Él y el desarrollador jefe acordaron que importaba lo bastante para entrar igualmente. Su respuesta fue de procedimiento: entregó la expansión sin las tierras, identificando a la vez qué podía salir para hacerles sitio, sabiendo que las meterían. La razón que da es que sentía que debía dejar constancia de que, en términos de diseño, esas cartas no pertenecían ahí. A cambio, otro ciclo de tierras raras que él había construido pudo quedarse.",
+          "flavor": "No lo bloqueó. Solo se negó a ser quien lo metiera."
+        },
+        {
+          "title": "La certeza es lo contrario del pavor: diseña lo desconocido",
+          "rules": "La carta era indestructible porque el tópico lo exige, y pequeña, y él le añadió toque mortal para hacerla temible. El resultado fue demasiado imponente de una manera que quitaba el miedo: ante algo indestructible que mata lo que combate, sencillamente dejas de atacar, y la aceptación lo vuelve poco aterrador. El arreglo vino de volver al tópico, donde el poder del objeto es que pone nervioso a todo el mundo. Así que el efecto se hizo menos previsible. No saber si algo va a morir es lo que produce la tensión.",
+          "flavor": "Si sabes qué criatura muere, ya la has llorado."
+        },
+        {
+          "title": "Argumenta desde lo que se siente, no desde lo que se le puede sacar",
+          "rules": "Una carta de un ciclo de encantamientos hostiles era la única que a menudo querrías ponerte a ti mismo, y parte del departamento creía que ninguno debía funcionar así. La defensa no fue que el aprovechamiento fuera pequeño. Fue que el efecto claramente se siente como una desventaja aunque haya forma de explotarlo, y esa sensación es para lo que existe el ciclo. La mayoría estuvo de acuerdo y la carta salió tal cual se diseñó. Si una carta puede volverse a tu favor y si se lee como un castigo son preguntas distintas.",
+          "flavor": "Sí, puedes usarla en ti. Sigue sintiéndose como una maldición."
+        },
+        {
+          "title": "Retira el mecanismo cuando las pruebas repiten que rara vez importa",
+          "rules": "Usó cierto tipo de carta allá donde pudo, ya que la expansión tenía un fuerte subtema tribal, y encontró imposible trazar la línea, porque en una expansión descendente casi toda carta que no es criatura tiene un sabor definible. El resultado fueron cartas más largas que rara vez hacían nada, ya que la mayoría de las cartas del tema se fijan en criaturas y por tanto no pueden beneficiarse. Las pruebas devolvían la misma nota una y otra vez. La decisión fue que no aportaba suficiente juego para compensar las palabras extra y la confusión, y aprovecha la columna para anunciar su probable final.",
+          "flavor": "La nota volvía siempre igual: rara vez parecía importar."
+        },
+        {
+          "title": "Haz el tema disponible sin hacerlo obligatorio",
+          "rules": "El reto que nombra es querer un componente tribal relevante pero no obligatorio: no una expansión donde te fuercen a elegir tribu, sin dejar de permitir que quien quiera draftear una pueda hacerlo. El instrumento es la colocación por rareza. Mantén las cartas tribales fuera del común, y pon las fuertes en infrecuente, de modo que abrir una diga «draftea esto». Permitió un poco en común con la condición de que esas cartas tuvieran usos más allá de su componente tribal, para que un jugador que ignore el tema las siga queriendo.",
+          "flavor": "Una invitación en infrecuente. Nunca un requisito en común."
+        },
+        {
+          "title": "Mantén localizables las cartas eliminadas, porque querrás alguna más adelante",
+          "rules": "Menciona de pasada una convención de archivo que resulta cargar con la historia. A una carta expulsada de un archivo se le cambia el código a un número reservado en vez de borrarla, así el equipo puede ver qué se ha quitado por si lo quieren de vuelta. Meses después de cortar una por motivos temáticos, el desarrollador jefe describió un efecto que buscaba; él pudo responder que ya existía en el archivo bajo ese número. Volvió a entrar con un cambio: de encantar a un jugador a ser un encantamiento general.",
+          "flavor": "No borrada. Archivada como 99, donde todavía puedes encontrarla."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Histoires qui font peur, partie 1",
+      "dek": "Origines carte par carte d'une extension d'horreur, limitées aux cartes déjà dévoilées — dont un cycle de terrains qu'il a refusé d'insérer lui-même et un type de carte dont il annonce la mort.",
+      "overview": "La première moitié d'un carte par carte en deux parties, découpé selon ce qui avait été révélé au moment d'écrire plutôt que selon l'alphabet. Le fil conducteur est la méthode descendante : presque chaque carte part d'un poncif d'horreur, et la question de conception est de faire en sorte que les mécaniques se comportent comme le poncif. En chemin, trois récits de processus à plus large portée : une objection formelle déposée en livrant un fichier sans les cartes sur lesquelles il avait été désavoué, une dispute sur ce qu'une carte fait ressentir plutôt que sur ce qu'elle peut faire, et la décision de retirer un type de carte après que les tests eurent répété qu'il comptait rarement.",
+      "takeaway": "La leçon la plus forte porte précisément sur la peur : une créature indestructible qui tue ce qu'elle combat ne fait pas peur, car la certitude est le contraire de l'effroi.",
+      "lessons": [
+        {
+          "title": "Le test d'une réédition, c'est de savoir si vous l'auriez faite pour cette extension",
+          "rules": "Il donne le critère en une ligne : la clé d'une bonne réédition est une carte qui semble avoir été conçue pour l'extension si elle n'existait pas déjà. Son illustration est la confusion qui suit quand l'ajustement est aussi bon. Le directeur créatif lui a écrit pour lui demander de retirer un mot de la carte, l'équipe hésitant encore à rendre ce type de créature vulnérable à cet élément — et il a fallu lui apprendre que la carte était une réédition et que le mot n'était pas retirable.",
+          "flavor": "« Tu peux changer ça ? » « C'est une réédition. » « Ah, zut. »"
+        },
+        {
+          "title": "Déduisez la contrainte de la catégorie du genre lui-même",
+          "rules": "L'équipement de cette extension obéissait à une règle venue du matériau source et non du jeu : il devait s'agir surtout d'objets ayant une fonction autre que celle d'arme. Son raisonnement : dans les histoires d'horreur, celui qui affronte les monstres n'avait rien prévu d'affronter, il saisit donc ce qui traîne et en fait une arme. La tâche de conception devient alors une énumération : cocher autant de poncifs de l'objet-ordinaire-devenu-arme que possible. Une convention de genre transformée en filtre travaille plus qu'une liste d'idées.",
+          "flavor": "Pas une épée. Ce qui traînait sur le plan de travail."
+        },
+        {
+          "title": "Bâtissez les deux moitiés depuis le poncif, puis itérez le déclencheur",
+          "rules": "S'engager sur une carte à transformation rendait inévitable une carte à double personnalité, et chaque moitié fut déduite du personnage et non de la mécanique : le savant petit, doté d'une capacité activée, dans la couleur qui pense ; la brute grande, tournée vers l'attaque, dans la couleur impulsive. Le coût de transformation a demandé des itérations. Défausser un terrain pour basculer se jouait mal : cela poussait à jeter son propre mana tôt contre des blessures, produisant des parties frustrantes. Passer la défausse à une carte de créature a réglé cela, et la carte n'a plus bougé.",
+          "flavor": "Les personnages ont été justes tout de suite. L'interrupteur entre eux a pris trois essais."
+        },
+        {
+          "title": "Quand la face arrière ne marche pas, corrigez la transition, pas la destination",
+          "rules": "La moitié brute est restée pour l'essentiel telle qu'écrite d'abord, avec au plus un léger ajustement de chiffres. Le seul changement qui l'a fait fonctionner a été apporté à l'autre carte : la transformation s'est vu ajouter un dégagement, pour que la créature puisse attaquer le tour où elle bascule. Le problème se présentait comme une face arrière faible, et le défaut était dans le moment du basculement. Quand deux états sont reliés par une transition, examinez la transition avant de rééquilibrer l'un ou l'autre état.",
+          "flavor": "Le monstre allait bien. C'est l'accès au monstre qui buguait."
+        },
+        {
+          "title": "Consignez l'objection formellement, puis laissez l'autre camp exécuter",
+          "rules": "Un cycle de terrains était nécessaire sur plusieurs extensions pour des raisons dépassant chacune d'elles, et il heurtait le thème de couleurs alliées que celle-ci avait développé. Lui et le développeur en chef ont convenu que cela comptait assez pour entrer malgré tout. Sa réponse fut procédurale : il a livré l'extension sans les terrains, tout en indiquant précisément ce qui pouvait sortir pour leur faire place, sachant qu'on les échangerait. La raison qu'il donne : il estimait devoir énoncer que, du point de vue de la conception, ces cartes n'y avaient pas leur place. En échange, un autre cycle de terrains rares qu'il avait bâti a pu rester.",
+          "flavor": "Il ne l'a pas bloqué. Il a seulement refusé d'être celui qui le mettait."
+        },
+        {
+          "title": "La certitude est le contraire de l'effroi — concevez l'inconnu",
+          "rules": "La carte était indestructible parce que le poncif l'exige, et petite, et il lui a ajouté le contact mortel pour la rendre effrayante. Le résultat était intimidant d'une façon qui supprimait la peur : face à une chose indestructible qui tue ce qu'elle combat, on cesse simplement d'attaquer, et l'acceptation la rend inoffensive à l'esprit. Le correctif est venu d'un retour au poncif, où la puissance de l'objet tient à ce qu'il rend tout le monde nerveux. L'effet a donc été rendu moins prévisible. Ne pas savoir si une chose va mourir, voilà ce qui crée la tension.",
+          "flavor": "Si vous savez quelle créature meurt, vous l'avez déjà pleurée."
+        },
+        {
+          "title": "Argumentez sur le ressenti, pas sur ce qu'on peut en tirer",
+          "rules": "Une carte d'un cycle d'enchantements hostiles était la seule qu'on voudrait souvent s'attribuer à soi-même, et une partie du service estimait qu'aucune ne devrait fonctionner ainsi. La défense n'a pas été que l'exploitation était mineure, mais que l'effet se ressent clairement comme un désavantage même s'il existe un moyen d'en tirer parti — et c'est ce ressenti qui justifie le cycle. La majorité a suivi et la carte est sortie telle que conçue. Qu'une carte puisse être retournée à votre avantage et qu'elle se lise comme une punition sont deux questions distinctes.",
+          "flavor": "Oui, vous pouvez vous la mettre à vous-même. Cela reste une malédiction."
+        },
+        {
+          "title": "Retirez le mécanisme quand les tests répètent qu'il compte rarement",
+          "rules": "Il a employé un certain type de carte partout où il le pouvait, l'extension ayant un fort sous-thème tribal — et a trouvé la ligne impossible à tracer, car dans une extension descendante presque toute carte non-créature possède une saveur définissable. Résultat : des cartes plus bavardes qui ne faisaient presque jamais rien, la plupart des cartes du thème se souciant de créatures et ne pouvant donc en profiter. Les tests renvoyaient la même note encore et encore. La décision : cela n'apportait pas assez de jeu pour compenser les mots en plus et la confusion — et il profite de la chronique pour en annoncer la fin probable.",
+          "flavor": "La note revenait chaque fois : cela semblait rarement compter."
+        },
+        {
+          "title": "Rendez le thème disponible sans le rendre obligatoire",
+          "rules": "Le défi qu'il nomme : vouloir une composante tribale pertinente sans être obligatoire — pas une extension où l'on est forcé de choisir une tribu, tout en permettant à qui veut en drafter une de le faire. L'instrument est le placement par rareté. Gardez les cartes tribales hors de la commune, et mettez les fortes en peu commune, si bien qu'en ouvrir une dit : draftez ceci. Il en a autorisé un peu en commune à condition que ces cartes aient des usages au-delà de leur composante tribale, pour qu'un joueur ignorant le thème les veuille quand même.",
+          "flavor": "Une invitation en peu commune. Jamais une obligation en commune."
+        },
+        {
+          "title": "Gardez les cartes retirées repérables, car vous en voudrez une plus tard",
+          "rules": "Il mentionne au passage une convention de classement qui porte finalement l'anecdote. Une carte sortie d'un fichier voit son code changé en un numéro réservé plutôt que d'être supprimée, afin que l'équipe voie ce qui a été retiré au cas où elle le voudrait de nouveau. Des mois après en avoir coupé une pour des raisons thématiques, le développeur en chef a décrit un effet qu'il cherchait ; il a pu répondre qu'il existait déjà dans le fichier sous ce numéro. La carte est revenue avec un changement : d'un enchantement visant un joueur à un enchantement général.",
+          "flavor": "Pas supprimée. Classée sous 99, là où vous pouvez encore la retrouver."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Histórias de terror, parte 1",
+      "dek": "Origens carta a carta de uma coleção de horror, restritas às cartas já reveladas — incluindo um ciclo de terrenos que ele se recusou a inserir e um tipo de carta cuja morte ele anuncia.",
+      "overview": "A primeira metade de um carta a carta em duas partes, dividido pelo que já fora revelado na hora de escrever e não pelo alfabeto. O fio condutor é o método descendente: quase toda carta aqui parte de um clichê de horror, e a pergunta de design é como fazer as mecânicas se comportarem como o clichê. Pelo caminho, três histórias de processo de alcance maior: uma objeção formal registrada ao entregar um arquivo sem as cartas em que foi voto vencido, uma discussão sobre o que uma carta faz sentir em vez do que ela pode fazer, e a decisão de aposentar um tipo de carta depois que os testes repetiram que ele raramente importava.",
+      "takeaway": "A lição mais forte é sobre o medo especificamente: uma criatura indestrutível que mata o que combate não assusta, porque a certeza é o oposto do pavor.",
+      "lessons": [
+        {
+          "title": "O teste de uma reimpressão é se você a teria feito para esta coleção",
+          "rules": "Ele dá o critério em uma linha: a chave para achar uma boa reimpressão é uma carta que pareça ter sido desenhada para a coleção, se já não existisse. A ilustração dele é a confusão que vem quando o encaixe é assim tão bom. O diretor criativo escreveu pedindo que ele tirasse uma palavra da carta, porque a equipe ainda decidia se aquele tipo de criatura devia ser vulnerável àquele elemento — e precisou ser informado de que a carta era uma reimpressão e a palavra não era removível.",
+          "flavor": "\"Dá para mudar isso?\" \"É uma reimpressão.\" \"Ah, droga.\""
+        },
+        {
+          "title": "Derive a restrição da categoria do próprio gênero",
+          "rules": "O equipamento desta coleção tinha uma regra vinda do material de origem e não do jogo: em geral tinham de ser objetos com um propósito que não fosse ser arma. O raciocínio dele é que, em histórias de horror, quem enfrenta os monstros raramente planejava enfrentar coisa alguma, então agarra o que está por perto e transforma em arma. A tarefa de design vira então enumeração: acertar tantos clichês de objeto-comum-como-arma quanto possível. Uma convenção de gênero convertida em filtro trabalha mais que uma lista de ideias.",
+          "flavor": "Não uma espada. O que estivesse em cima da bancada da cozinha."
+        },
+        {
+          "title": "Construa as duas metades a partir do clichê, e então itere o gatilho",
+          "rules": "Comprometer-se com uma carta de transformação tornava inevitável uma de dupla personalidade, e cada metade foi deduzida do personagem e não da mecânica: o cientista pequeno, com uma habilidade ativada, na cor que pensa; o brutamontes grande, voltado a atacar, na cor impulsiva. O custo de transformação exigiu iteração. Descartar um terreno para virar jogava mal: incentivava jogar fora o próprio mana cedo em troca de dano, o que produzia partidas frustrantes. Trocar o descarte para uma carta de criatura resolveu, e a carta não se mexeu mais.",
+          "flavor": "Os personagens ficaram certos de cara. O interruptor entre eles levou três tentativas."
+        },
+        {
+          "title": "Quando o outro lado não funciona, conserte a transição e não o destino",
+          "rules": "A metade brutamontes ficou essencialmente como foi escrita primeiro, com no máximo um pequeno ajuste de números. A única mudança que a fez funcionar foi feita na outra carta: a transformação ganhou um desvirar, para a criatura poder atacar no turno em que virasse. O problema se apresentava como uma face de trás fraca, e a falha estava no momento da mudança. Quando dois estados são unidos por uma transição, examine a transição antes de reequilibrar qualquer um dos estados.",
+          "flavor": "O monstro estava bem. Chegar ao monstro é que era o defeito."
+        },
+        {
+          "title": "Registre a objeção formalmente, e então deixe o outro lado executar",
+          "rules": "Um ciclo de terrenos era necessário ao longo de várias coleções por razões acima de qualquer uma delas, e batia de frente com o tema de cores aliadas que esta desenvolvera. Ele e o desenvolvedor-líder concordaram que importava o bastante para entrar mesmo assim. A resposta dele foi processual: entregou a coleção sem os terrenos, identificando ao mesmo tempo o que podia sair para abrir espaço, sabendo que seriam trocados. A razão que ele dá é que sentia dever deixar registrado que, em termos de design, aquelas cartas não pertenciam ali. Em troca, outro ciclo de terrenos raros que ele construíra pôde ficar.",
+          "flavor": "Ele não bloqueou. Só se recusou a ser quem o colocava."
+        },
+        {
+          "title": "Certeza é o oposto de pavor — projete o desconhecido",
+          "rules": "A carta era indestrutível porque o clichê exige, e pequena, e ele acrescentou toque mortífero para deixá-la assustadora. O resultado ficou intimidador de um jeito que removia o medo: diante de algo indestrutível que mata o que combate, você simplesmente para de atacar, e a aceitação a torna nada assustadora. O conserto veio de voltar ao clichê, em que o poder do objeto é deixar todo mundo nervoso. Então o efeito foi feito menos previsível. Não saber se algo vai morrer é o que produz a tensão.",
+          "flavor": "Se você sabe qual criatura morre, você já a velou."
+        },
+        {
+          "title": "Argumente pelo que se sente, não pelo que dá para extrair",
+          "rules": "Uma carta de um ciclo de encantamentos hostis era a única que você muitas vezes gostaria de pôr em si mesmo, e parte do departamento achava que nenhuma deveria funcionar assim. A defesa não foi que o aproveitamento era pequeno. Foi que o efeito claramente se sente como desvantagem mesmo havendo um jeito de explorá-lo, e é essa sensação que justifica o ciclo. A maioria concordou e a carta saiu como desenhada. Se uma carta pode ser virada a seu favor e se ela se lê como punição são perguntas distintas.",
+          "flavor": "Sim, dá para usá-la em si mesmo. Continua parecendo uma maldição."
+        },
+        {
+          "title": "Aposente o mecanismo quando os testes repetem que ele raramente importa",
+          "rules": "Ele usou certo tipo de carta onde pôde, já que a coleção tinha forte subtema tribal — e achou a linha impossível de traçar, porque numa coleção descendente quase toda carta que não é criatura tem um sabor definível. O resultado foram cartas mais longas que raramente faziam algo, já que a maioria das cartas do tema se importa com criaturas e portanto não podia se beneficiar. Os testes devolviam a mesma nota repetidas vezes. A decisão foi que não acrescentava jogo suficiente para compensar as palavras extras e a confusão, e ele usa a coluna para anunciar o provável fim.",
+          "flavor": "A nota voltava toda vez: raramente parecia importar."
+        },
+        {
+          "title": "Torne o tema disponível sem torná-lo obrigatório",
+          "rules": "O desafio que ele nomeia é querer um componente tribal relevante mas não obrigatório — não uma coleção em que você é forçado a escolher uma tribo, sem deixar de permitir que quem quiser draftar uma consiga. O instrumento é a colocação por raridade. Mantenha as cartas tribais fora do comum, e ponha as fortes no incomum, de modo que abrir uma diga: drafte isto. Ele permitiu um pouco no comum com a condição de que essas cartas tivessem usos além do componente tribal, para que um jogador que ignore o tema ainda as queira.",
+          "flavor": "Um convite no incomum. Nunca uma exigência no comum."
+        },
+        {
+          "title": "Mantenha as cartas removidas localizáveis, porque você vai querer uma depois",
+          "rules": "Ele menciona de passagem uma convenção de arquivo que acaba carregando a história. Uma carta expulsa de um arquivo tem o código trocado por um número reservado em vez de ser apagada, para a equipe ver o que foi removido caso queira de volta. Meses depois de cortar uma por motivos temáticos, o desenvolvedor-líder descreveu um efeito que procurava; ele pôde responder que já existia no arquivo sob aquele número. A carta voltou com uma mudança: de encantar um jogador para ser um encantamento geral.",
+          "flavor": "Não apagada. Arquivada como 99, onde ainda dá para achar."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "吓人的故事，第一部分",
+      "dek": "一个恐怖系列的逐张牌来历，只讲那些已经被预览过的牌——其中包括一轮他拒绝亲手放进去的地循环，以及一个他在文中宣告其死讯的牌张类别。",
+      "overview": "这是一篇分成两部分的逐张牌专栏的前半，切分依据是「写作时已经公开了什么」，而不是字母顺序。它的主线是自上而下的方法：这里几乎每一张牌都从一个恐怖套路出发，而设计上的问题是「怎样让机制的行为方式，像那个套路一样」。沿途还有三个流程上的故事，影响范围更广：一次以「交出一份不含那些他被否决之牌的文件」来提出的正式异议；一场关于「一张牌让人感觉如何」而不是「它能被怎么用」的争论；以及在测试反复报告「它很少起作用」之后，决定让一个牌张类别退役。",
+      "takeaway": "这里最有力的一条专门关于恐惧：一个不灭、且会杀死一切与之交锋之物的生物并不可怕——因为确定性正是恐惧的反面。",
+      "lessons": [
+        {
+          "title": "重印的检验标准，是「假如它不存在，你会不会为这个系列做出它」",
+          "rules": "他用一句话给出了这条标准：找到一张好的重印牌，关键在于它读起来就像是——如果它还不存在，你会为这个系列把它做出来。而他举的例子，是当契合度好到这个地步时随之而来的混乱。创意总监写信来，请他把牌上的某个词拿掉，因为团队还在决定那个生物类别该不该对那种元素脆弱——而后他不得不被告知：这张牌是重印，那个词并不可以拿掉。",
+          "flavor": "「这个能改一下吗？」「这是重印。」「……糟了。」"
+        },
+        {
+          "title": "从类型本身推导出这个类别的约束",
+          "rules": "这个系列里的装备遵守着一条来自素材而不是来自游戏的规则：它们大多必须是「用途并非当武器」的物件。他的理由是：在恐怖故事里，与怪物搏斗的那个人几乎从没打算和任何东西搏斗，所以他抓起手边任何一样东西，把它变成武器。于是设计任务变成了枚举：尽可能多地命中「日常物件当武器」的套路。一条被转换成筛子的类型惯例，比一张点子清单干的活更多。",
+          "flavor": "不是一把剑。是厨房台面上恰好摆着的那样东西。"
+        },
+        {
+          "title": "从套路出发把两半都搭出来，然后去迭代那个触发条件",
+          "rules": "一旦决定要做变身牌，一张「双重人格」的牌就不可避免；而两半都是从角色而不是从机制推导出来的：科学家小巧，带一项启动式异能，属于思考的那个颜色；莽汉高大，围绕攻击，属于冲动的那个颜色。而变身的代价经过了迭代。「弃一张地来翻面」打起来很糟糕——它鼓励你早早把自己的法术力扔掉去换伤害，从而造成令人挫败的对局。把要弃的东西改成生物牌就修好了；此后这张牌再没有动过。",
+          "flavor": "两个角色一上来就是对的。而它们之间的那个开关，改了三次。"
+        },
+        {
+          "title": "当背面不好用时，去修那个转换，而不是修目的地",
+          "rules": "莽汉那一半基本上保持了最初写下来的样子，顶多在数值上做了一点微调。而真正让它成立的那处唯一改动，做在了另一张牌上：给这次变身加上了「重置」，好让这个生物在翻面的那个回合就能攻击。问题呈现出来的样子是「背面太弱」，而毛病出在变化发生的那一刻。当两个状态由一次转换相连时，先去检查那次转换，再去重新平衡任何一个状态。",
+          "flavor": "怪物没问题。有问题的是「怎么走到怪物那里」。"
+        },
+        {
+          "title": "把异议正式记录在案，然后让对方去执行",
+          "rules": "有一轮地牌，出于高于任何单个系列的理由，必须分布在好几个系列里；而它和这个系列已经形成的友色主题相冲突。他和主开发一致同意：它重要到无论如何都得进来。而他的回应是程序性的：他交出去的这个系列里没有这些地，同时明确指出了可以拿掉什么来腾出位置——他知道对方会把它们换进去。他给出的理由是：他觉得自己应该把「从设计角度看这些牌不属于这里」这句话说出来。作为交换，另一轮由他做的稀有地循环得以留下。",
+          "flavor": "他没有拦下它。他只是拒绝当那个把它放进去的人。"
+        },
+        {
+          "title": "确定性是恐惧的反面——去设计那份未知",
+          "rules": "这张牌是不灭的，因为这个套路要求如此；它很小；而他又加上了死触，想让它变得可怕。结果它变得过于唬人，而这反倒把恐惧拿走了：面对一个不灭、且会杀死一切与之交锋之物的东西，你干脆就不攻击了；而这份接受让它一点也不吓人。修法来自回到那个套路——在故事里，这样东西的力量在于它让所有人心神不宁。于是他们让这个效果变得不那么可预知。「不知道某样东西会不会死」，才是产生张力的那件事。",
+          "flavor": "如果你知道哪个生物会死，你已经把它哀悼过了。"
+        },
+        {
+          "title": "从「它给人什么感觉」来论证，而不是从「它能被榨出什么」",
+          "rules": "在一轮带敌意的结界里，有一张是你常常会想给自己套上的那一张；而部门里有一部分人认为它们全都不该那样运作。辩护的说法不是「这点便宜很小」，而是：即使存在一种可以利用它的路子，这个效果读起来仍然明确地像是一个坏处——而这份感觉，正是这一轮循环存在的理由。多数人同意了，这张牌照着设计发售了。「一张牌能不能被扭到对你有利」和「它读起来是不是一种惩罚」，是两个不同的问题。",
+          "flavor": "对，你可以把它套在自己身上。它感觉起来仍然是个诅咒。"
+        },
+        {
+          "title": "当测试反复报告「它很少起作用」时，就让这个机制退役",
+          "rules": "既然这个系列有很强的部族子主题，他就在一切能用的地方用了某个牌张类别——然后发现这条线根本划不出来，因为在一个自上而下的系列里，几乎每一张非生物牌都有可辨认的风味。结果是牌变得更长，却几乎从不起作用；因为这个主题里的多数牌关心的是生物，因此根本受益不到。测试一次又一次地送回同一条意见。最终的判断是：它带来的对局价值不足以抵消多出来的字数和造成的混乱——而他借这篇专栏，宣告了它大概率的终结。",
+          "flavor": "那条意见每一次都一样：它似乎很少起作用。"
+        },
+        {
+          "title": "让这个主题可用，但不要让它成为强制",
+          "rules": "他点出的挑战是：想要一个「相关但不强制」的部族成分——不要做成一个「你被迫选一个部族」的系列，同时又让想要围绕某个部族做轮抽的人有路可走。工具是稀有度的安放。把部族牌挡在普通位之外，把强的那些放在非普通位，好让开出一张来时它在说「就轮抽这个」。他允许在普通位放一点点，条件是那些牌在部族成分之外还要有别的用处，好让一个无视这个主题的玩家仍然想要它们。",
+          "flavor": "非普通位上的一份邀请。而绝不是普通位上的一项要求。"
+        },
+        {
+          "title": "让被拿掉的牌仍然找得到，因为你以后会想要其中某一张",
+          "rules": "他顺口提到的一条归档惯例，最后承载了整个故事。一张被踢出文件的牌，编号会被改成一个保留数字而不是被删掉，好让团队看得见有什么被拿走了、以备日后想要回来。在出于主题理由砍掉某张牌的几个月之后，主开发描述了自己正在找的一个效果；而他能够回答：那张牌已经在文件里，就在那个编号下面。它被放了回去，只改了一处——从「结附于一位玩家」改成了一个一般性的结界。",
+          "flavor": "不是删掉。是归到 99 号下面，那里你还找得到它。"
+        }
+      ]
+    }
+  }
+}
