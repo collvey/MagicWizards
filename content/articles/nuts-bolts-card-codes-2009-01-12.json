@@ -1,0 +1,320 @@
+{
+  "id": "nuts-bolts-card-codes-2009-01-12",
+  "slug": "nuts-bolts-card-codes-2009-01-12",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2009-01-12",
+  "series": { "id": "nuts-and-bolts", "order": 1, "total": 20 },
+  "tags": ["nuts-and-bolts", "process", "notation", "tooling", "files"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/nuts-bolts-card-codes-2009-01-12",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Nuts & Bolts: Card Codes",
+      "dek": "The first instalment of a new feature about the unglamorous machinery, opening with the four-character label every card carries before it has a name.",
+      "overview": "The launch of a recurring feature devoted to the small essential details, prompted by his realisation that writing only about card design and colour philosophy misrepresents the job — those are the minority of the work. The chosen subject is the internal identifier: two letters and two digits that name a card before the card exists. What starts as a filing convention turns out to carry rarity, frame, position, group size, authorship, and several kinds of status message, and to have grown its own vocabulary.",
+      "takeaway": "You cannot refer to a card that keeps changing into a different card, so name the slot instead.",
+      "lessons": [
+        {
+          "title": "Writing only about the interesting part misrepresents the work",
+          "rules": "He opens with a statistic about televised crime: the overwhelming majority of what fiction depicts is the most serious category, which is close to the exact inverse of reality, because one makes a better story than a minor offence. The effect is that it skews people's picture of the world. He then convicts his own column of the same distortion. He spends nearly all of his behind-the-scenes writing on designing cards and colour philosophy, which is essential but is the minority of what actually happens. The remedy he chooses is not to write less about the interesting things but to start a standing feature about the rest.",
+          "flavor": "Murder makes the better column. Most of the job is jaywalking."
+        },
+        {
+          "title": "The letters that look arbitrary are collision artefacts",
+          "rules": "The scheme required each letter to be unique within its position, and the convention was to use a word's first letter whenever possible. Two of the colours lost that contest. The letter one of them would naturally have taken was already spoken for by lands, which kept it on seniority; the other's second choice was reserved for artifacts. Each therefore fell through to a later letter in its own name — which is why the abbreviation for blue is the one that reliably confuses newcomers. No aesthetic decision was made. A uniqueness constraint plus a first-come rule produced a convention that has now outlived everyone's memory of the reason.",
+          "flavor": "Nobody chose that letter for blue. It was what was left."
+        },
+        {
+          "title": "Name the slot, because the card is not a constant",
+          "rules": "Outside the building, a card's title works as a reference because printed cards are fixed — the name always denotes the same thing. Inside a design file it fails, because more often than not the entire card changes during the process, sometimes into something completely unrelated to what it started as. So the department does not think in cards at all. It thinks in slots: a small set has a fixed number of cheap cards, divided among frames, and each of those positions exists and can be discussed before anything has been decided about what will occupy it.",
+          "flavor": "The name refers to a thing. The code refers to a place where a thing will go."
+        },
+        {
+          "title": "Make the identifier carry information beyond identity",
+          "rules": "Two rules turn a label into an instrument. The digits are always two, so that any code you see is visibly complete — with a variable width you could not tell whether a single digit meant the first card or the tenth with a zero dropped. And the numbering always starts at one, which means the highest number in any rarity-and-frame group is a census of that group: how many cheap white cards exist right now is a fact you read off the file rather than count. The identifier answers questions nobody had to ask it.",
+          "flavor": "It tells you which card. It also tells you how many there are."
+        },
+        {
+          "title": "Give two rival cards the same code so the notation says they are rivals",
+          "rules": "Production does not care which card gets which number within a group, so the department layered its own meanings on top of the free space. The sharpest of them: when two cards are competing for one place and cannot both ship, they are deliberately entered under the same code. That does two things at once. It records the competition in the file so anybody reading it understands the situation, and — the reason he actually gives — it stops the lead designer from repeatedly receiving the same comment that those two cards are too similar. A well-chosen notation pre-empts a class of feedback.",
+          "flavor": "Yes, they're too close. That's what the matching number means."
+        },
+        {
+          "title": "Make submissions attributable by construction",
+          "rules": "Among the reserved number codes are several assigned one per designer on the team, handed out by the lead. When a team member enters a candidate card into the file, they use their own code. The effect is that authorship is recorded automatically as a side effect of the normal act of contributing — nobody has to sign anything, and nobody can forget to. The lead can see at a glance who submitted what, which matters for exactly the reasons attribution always matters, and it costs nothing because the number had to be there anyway.",
+          "flavor": "You don't sign your cards. The slot you put them in signs them for you."
+        },
+        {
+          "title": "With no precedent, pick something and let it be corrected later",
+          "rules": "When a set needed a category that had never existed before, there was no established letter for it, so he simply used one of his own choosing. He is casual about it in a way worth noticing — there was no precedent, so he picked. The convention was officially changed to a different letter before the set went to production, and nothing was harmed by the interim. An internal notation that never leaves the building can afford a provisional answer; the alternative is stalling a file over a decision that a later, better-informed pass will settle anyway.",
+          "flavor": "No precedent existed, so he made one up. Someone fixed it before it mattered."
+        },
+        {
+          "title": "Ask directly whether the audience wants the thing you believe in",
+          "rules": "He closes by admitting he does not know whether this column was worth writing, and asks four blunt versions of the same question — did you like it, do you enjoy hearing about the minutiae, was it boring and unworthy, should he go back to the dramatic material. Then he states his own position anyway: he wrote it because he felt it mattered. That is the whole shape of a good pilot. Publish the thing you think is right, do not pretend to certainty you lack, and let the response decide whether the feature continues.",
+          "flavor": "Should I forget the jaywalking and stick to the murder?"
+        },
+        {
+          "title": "A good tool grows a language around it",
+          "rules": "One reserved code means a card has been cut but nobody is convinced it will stay cut, and its counterpart means a card is not in the file yet but is being considered for a place — a distinction between on the way out and on the way in that would otherwise take a sentence each time. The first has become a verb: to remove a card is to have done that number to it, and the conversation quoted in the column consists of a question and that one word as the entire answer. When a piece of internal apparatus starts appearing in speech as a verb, it has stopped being paperwork.",
+          "flavor": "\"Where's that card?\" \"Ninety-nined.\""
+        },
+        {
+          "title": "A schema holds until the exception becomes the majority",
+          "rules": "When a card type that spans two colours first appeared, the existing code handled it without complaint — there were only a dozen such cards in the file, and one letter was plenty. Then a set arrived in which roughly half of everything was that type, and the single designation that had comfortably held twelve cards could not organise several hundred. A new numbering scheme had to be invented for it. Nothing was wrong with the original decision; it was correct for the load it was designed under, and the load changed by an order of magnitude.",
+          "flavor": "One letter was ample for twelve cards. Then half the set was twelve cards."
+        }
+      ]
+    },
+    "es": {
+      "title": "Tuercas y tornillos: los códigos de carta",
+      "dek": "La primera entrega de una nueva sección sobre la maquinaria poco glamurosa, y empieza por la etiqueta de cuatro caracteres que toda carta lleva antes de tener nombre.",
+      "overview": "El lanzamiento de una sección recurrente dedicada a los pequeños detalles esenciales, motivada por su constatación de que escribir solo sobre diseño de cartas y filosofía de color tergiversa el trabajo: eso es la minoría de la labor. El tema elegido es el identificador interno: dos letras y dos dígitos que nombran una carta antes de que la carta exista. Lo que empieza como una convención de archivo resulta cargar rareza, marco, posición, tamaño del grupo, autoría y varios tipos de mensaje de estado, y haber criado su propio vocabulario.",
+      "takeaway": "No puedes referirte a una carta que no para de convertirse en otra carta; nombra la casilla en su lugar.",
+      "lessons": [
+        {
+          "title": "Escribir solo sobre la parte interesante tergiversa el trabajo",
+          "rules": "Abre con una estadística sobre el crimen televisado: la abrumadora mayoría de lo que la ficción muestra es la categoría más grave, casi exactamente lo inverso de la realidad, porque una hace mejor historia que una infracción menor. El efecto es que sesga la imagen que la gente tiene del mundo. Luego condena a su propia columna por la misma distorsión. Dedica casi toda su escritura entre bastidores a diseñar cartas y filosofía de color, que es esencial pero es la minoría de lo que ocurre realmente. El remedio que elige no es escribir menos de lo interesante, sino abrir una sección fija sobre el resto.",
+          "flavor": "El asesinato da mejor columna. Casi todo el trabajo es cruzar mal la calle."
+        },
+        {
+          "title": "Las letras que parecen arbitrarias son restos de colisiones",
+          "rules": "El esquema exigía que cada letra fuera única dentro de su posición, y la convención era usar la primera letra de la palabra siempre que se pudiera. Dos de los colores perdieron esa disputa. La letra que uno de ellos habría tomado naturalmente ya estaba reservada por las tierras, que la conservaron por antigüedad; la segunda opción del otro estaba reservada para los artefactos. Cada uno cayó, pues, hasta una letra posterior de su propio nombre, y por eso la abreviatura del azul es la que confunde sin falta a los recién llegados. No se tomó ninguna decisión estética. Una restricción de unicidad más una regla de llegada produjeron una convención que ya ha sobrevivido al recuerdo del motivo.",
+          "flavor": "Nadie eligió esa letra para el azul. Era la que quedaba."
+        },
+        {
+          "title": "Nombra la casilla, porque la carta no es una constante",
+          "rules": "Fuera del edificio, el título de una carta funciona como referencia porque las cartas impresas son fijas: el nombre siempre denota lo mismo. Dentro de un archivo de diseño falla, porque la mayoría de las veces la carta entera cambia durante el proceso, a veces en algo completamente ajeno a lo que era al principio. Así que el departamento no piensa en cartas en absoluto. Piensa en casillas: una colección pequeña tiene un número fijo de cartas baratas, repartidas entre marcos, y cada una de esas posiciones existe y puede discutirse antes de que se haya decidido nada sobre lo que la ocupará.",
+          "flavor": "El nombre se refiere a una cosa. El código se refiere a un sitio donde irá una cosa."
+        },
+        {
+          "title": "Haz que el identificador cargue información más allá de la identidad",
+          "rules": "Dos reglas convierten una etiqueta en un instrumento. Los dígitos son siempre dos, de modo que cualquier código que veas está visiblemente completo: con ancho variable no podrías saber si un solo dígito significa la primera carta o la décima con el cero perdido. Y la numeración empieza siempre en uno, lo que significa que el número más alto de cada grupo de rareza y marco es un censo de ese grupo: cuántas cartas blancas baratas existen ahora mismo es un dato que lees del archivo en vez de contarlo. El identificador responde preguntas que nadie tuvo que hacerle.",
+          "flavor": "Te dice qué carta. También te dice cuántas hay."
+        },
+        {
+          "title": "Dale a dos cartas rivales el mismo código para que la notación diga que son rivales",
+          "rules": "A producción no le importa qué carta recibe qué número dentro de un grupo, así que el departamento superpuso sus propios significados sobre ese espacio libre. El más agudo: cuando dos cartas compiten por un sitio y no pueden entrar ambas, se introducen a propósito bajo el mismo código. Eso hace dos cosas a la vez. Registra la competencia en el archivo para que cualquiera que lo lea entienda la situación y —la razón que él realmente da— evita que el jefe de diseño reciba una y otra vez el mismo comentario de que esas dos cartas se parecen demasiado. Una notación bien elegida se anticipa a toda una clase de comentarios.",
+          "flavor": "Sí, se parecen demasiado. Eso es lo que significa el número repetido."
+        },
+        {
+          "title": "Haz que las aportaciones sean atribuibles por construcción",
+          "rules": "Entre los códigos numéricos reservados hay varios asignados uno por diseñador del equipo, repartidos por el líder. Cuando un miembro introduce una carta candidata en el archivo, usa su propio código. El efecto es que la autoría queda registrada automáticamente como efecto secundario del acto normal de contribuir: nadie tiene que firmar nada y nadie puede olvidarse. El líder ve de un vistazo quién presentó qué, lo cual importa exactamente por las razones por las que la atribución siempre importa, y no cuesta nada porque el número tenía que estar ahí de todos modos.",
+          "flavor": "No firmas tus cartas. La casilla donde las metes las firma por ti."
+        },
+        {
+          "title": "Sin precedente, elige algo y deja que se corrija después",
+          "rules": "Cuando una colección necesitó una categoría que nunca había existido, no había letra establecida para ella, así que sencillamente usó una de su elección. Se muestra despreocupado al respecto de un modo que merece notarse: no había precedente, así que eligió. La convención se cambió oficialmente a otra letra antes de que la colección fuera a producción, y el interinato no dañó nada. Una notación interna que nunca sale del edificio puede permitirse una respuesta provisional; la alternativa es paralizar un archivo por una decisión que una pasada posterior y mejor informada resolverá igualmente.",
+          "flavor": "No había precedente, así que se inventó uno. Alguien lo arregló antes de que importara."
+        },
+        {
+          "title": "Pregunta directamente si el público quiere aquello en lo que crees",
+          "rules": "Cierra admitiendo que no sabe si valía la pena escribir esta columna, y hace cuatro versiones sin rodeos de la misma pregunta: ¿te gustó, disfrutas oyendo sobre la minucia, fue aburrido e indigno, debería volver al material dramático? Luego expone su propia postura de todos modos: la escribió porque le pareció que importaba. Esa es exactamente la forma de un buen episodio piloto. Publica lo que crees correcto, no finjas una certeza que no tienes, y deja que la respuesta decida si la sección continúa.",
+          "flavor": "¿Debería olvidarme de cruzar mal la calle y quedarme con los asesinatos?"
+        },
+        {
+          "title": "Una buena herramienta cría un lenguaje a su alrededor",
+          "rules": "Un código reservado significa que una carta ha sido cortada pero que nadie está convencido de que vaya a seguir cortada, y su contrapartida significa que una carta aún no está en el archivo pero se le busca sitio: una distinción entre camino de salida y camino de entrada que si no exigiría una frase cada vez. El primero se ha convertido en verbo: quitar una carta es haberle hecho ese número, y la conversación citada en la columna consiste en una pregunta y esa sola palabra como respuesta entera. Cuando una pieza de aparato interno empieza a aparecer en el habla como verbo, ha dejado de ser papeleo.",
+          "flavor": "«¿Dónde está esa carta?» «Noventaynueveada.»"
+        },
+        {
+          "title": "Un esquema aguanta hasta que la excepción se vuelve mayoría",
+          "rules": "Cuando apareció por primera vez un tipo de carta que abarca dos colores, el código existente lo manejó sin quejarse: había apenas una docena de ellas en el archivo, y una letra sobraba. Luego llegó una colección en la que aproximadamente la mitad de todo era de ese tipo, y la designación única que había albergado cómodamente doce cartas no podía organizar varios cientos. Hubo que inventar un nuevo esquema de numeración. Nada estaba mal en la decisión original; era correcta para la carga bajo la que se diseñó, y la carga cambió en un orden de magnitud.",
+          "flavor": "Una letra bastaba de sobra para doce cartas. Luego media colección eran doce cartas."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Écrous et boulons : les codes de cartes",
+      "dek": "Le premier volet d'une nouvelle rubrique sur la mécanique sans gloire, ouvrant sur l'étiquette de quatre caractères que porte chaque carte avant d'avoir un nom.",
+      "overview": "Le lancement d'une rubrique récurrente consacrée aux petits détails essentiels, née du constat qu'écrire seulement sur la conception des cartes et la philosophie des couleurs déforme le métier — c'est la part minoritaire du travail. Le sujet retenu est l'identifiant interne : deux lettres et deux chiffres qui nomment une carte avant qu'elle existe. Ce qui commence comme une convention de classement se révèle porter la rareté, le cadre, la position, la taille du groupe, la paternité et plusieurs messages d'état, et avoir engendré son propre vocabulaire.",
+      "takeaway": "On ne peut pas désigner une carte qui n'arrête pas de devenir une autre carte ; nommez l'emplacement à la place.",
+      "lessons": [
+        {
+          "title": "N'écrire que sur la partie intéressante déforme le métier",
+          "rules": "Il ouvre sur une statistique concernant le crime télévisé : l'écrasante majorité de ce que la fiction montre relève de la catégorie la plus grave, à peu près l'inverse exact de la réalité, parce que l'une fait une meilleure histoire qu'une infraction mineure. L'effet, c'est que cela fausse l'image que les gens ont du monde. Il condamne alors sa propre chronique pour la même distorsion. Il consacre presque tous ses textes de coulisses à la conception de cartes et à la philosophie des couleurs, ce qui est essentiel mais reste minoritaire dans ce qui se passe réellement. Le remède choisi n'est pas d'écrire moins sur l'intéressant, mais d'ouvrir une rubrique permanente sur le reste.",
+          "flavor": "Le meurtre fait la meilleure chronique. L'essentiel du métier, c'est traverser hors des clous."
+        },
+        {
+          "title": "Les lettres qui semblent arbitraires sont des restes de collisions",
+          "rules": "Le schéma exigeait que chaque lettre soit unique à sa position, et la convention était d'utiliser la première lettre du mot chaque fois que possible. Deux des couleurs ont perdu ce concours. La lettre que l'une aurait naturellement prise était déjà retenue par les terrains, qui l'ont gardée par ancienneté ; le second choix de l'autre était réservé aux artefacts. Chacune est donc descendue jusqu'à une lettre plus loin dans son propre nom — d'où l'abréviation du bleu, celle qui déroute immanquablement les nouveaux venus. Aucune décision esthétique n'a été prise. Une contrainte d'unicité plus une règle de premier arrivé ont produit une convention qui a désormais survécu au souvenir de sa raison.",
+          "flavor": "Personne n'a choisi cette lettre pour le bleu. C'était ce qui restait."
+        },
+        {
+          "title": "Nommez l'emplacement, car la carte n'est pas une constante",
+          "rules": "Hors du bâtiment, le titre d'une carte fonctionne comme référence parce que les cartes imprimées sont fixes : le nom désigne toujours la même chose. Dans un fichier de conception, cela échoue, car le plus souvent la carte entière change en cours de route, parfois en quelque chose de totalement étranger à son point de départ. Le service ne pense donc pas du tout en cartes. Il pense en emplacements : une petite extension a un nombre fixe de cartes bon marché, réparties par cadre, et chacune de ces positions existe et se discute avant qu'on ait rien décidé de ce qui l'occupera.",
+          "flavor": "Le nom renvoie à une chose. Le code renvoie à un endroit où une chose ira."
+        },
+        {
+          "title": "Faites porter à l'identifiant plus que l'identité",
+          "rules": "Deux règles transforment une étiquette en instrument. Les chiffres sont toujours au nombre de deux, si bien que tout code vu est visiblement complet — à largeur variable, on ne saurait pas si un chiffre seul désigne la première carte ou la dixième amputée de son zéro. Et la numérotation commence toujours à un, ce qui fait du plus grand nombre de chaque groupe rareté-cadre un recensement de ce groupe : combien de cartes blanches bon marché existent en ce moment se lit dans le fichier au lieu de se compter. L'identifiant répond à des questions que personne n'a eu à lui poser.",
+          "flavor": "Il vous dit quelle carte. Il vous dit aussi combien il y en a."
+        },
+        {
+          "title": "Donnez le même code à deux cartes rivales pour que la notation dise qu'elles sont rivales",
+          "rules": "La production se moque de savoir quelle carte reçoit quel numéro dans un groupe ; le service a donc superposé ses propres sens à cet espace libre. Le plus fin : quand deux cartes se disputent une place et ne peuvent pas toutes deux sortir, on les saisit délibérément sous le même code. Cela fait deux choses à la fois. Cela consigne la concurrence dans le fichier pour que tout lecteur comprenne la situation, et — la raison qu'il donne réellement — cela évite au chef de conception de recevoir sans cesse le même commentaire : ces deux cartes se ressemblent trop. Une notation bien choisie devance toute une classe de retours.",
+          "flavor": "Oui, elles sont trop proches. C'est ce que veut dire le numéro identique."
+        },
+        {
+          "title": "Rendez les contributions attribuables par construction",
+          "rules": "Parmi les codes chiffrés réservés, plusieurs sont attribués un par concepteur de l'équipe, distribués par le chef. Quand un membre saisit une carte candidate dans le fichier, il utilise son propre code. Résultat : la paternité est enregistrée automatiquement, en effet secondaire de l'acte normal de contribuer — personne n'a à signer quoi que ce soit, et personne ne peut oublier. Le chef voit d'un coup d'œil qui a proposé quoi, ce qui importe exactement pour les raisons habituelles, et cela ne coûte rien puisque le numéro devait de toute façon être là.",
+          "flavor": "Vous ne signez pas vos cartes. L'emplacement où vous les mettez les signe pour vous."
+        },
+        {
+          "title": "Sans précédent, choisissez et laissez corriger ensuite",
+          "rules": "Quand une extension a eu besoin d'une catégorie qui n'avait jamais existé, aucune lettre n'était établie, alors il en a simplement pris une de son choix. Sa désinvolture mérite d'être notée : il n'y avait pas de précédent, donc il a choisi. La convention fut officiellement remplacée par une autre lettre avant que l'extension parte en production, et l'intérim n'a rien abîmé. Une notation interne qui ne quitte jamais le bâtiment peut s'offrir une réponse provisoire ; l'alternative est de bloquer un fichier sur une décision qu'une passe ultérieure, mieux informée, réglera de toute façon.",
+          "flavor": "Pas de précédent, alors il en a inventé un. Quelqu'un l'a corrigé avant que ça compte."
+        },
+        {
+          "title": "Demandez franchement si le public veut ce en quoi vous croyez",
+          "rules": "Il conclut en avouant ne pas savoir si cette chronique méritait d'être écrite, et pose quatre versions sans détour de la même question : vous avez aimé, aimez-vous entendre parler des menus détails, était-ce ennuyeux et indigne, faut-il revenir au matériau spectaculaire ? Puis il expose son avis quand même : il l'a écrite parce qu'il la jugeait importante. C'est toute la forme d'un bon pilote. Publiez ce que vous croyez juste, ne feignez pas une certitude que vous n'avez pas, et laissez la réponse décider si la rubrique continue.",
+          "flavor": "Faut-il oublier les traversées hors des clous et s'en tenir aux meurtres ?"
+        },
+        {
+          "title": "Un bon outil engendre une langue autour de lui",
+          "rules": "Un code réservé signifie qu'une carte a été coupée mais que personne n'est convaincu qu'elle le restera, et son pendant signifie qu'une carte n'est pas encore au fichier mais qu'on lui cherche une place — une distinction entre sortante et entrante qui coûterait sinon une phrase à chaque fois. Le premier est devenu un verbe : retirer une carte, c'est lui avoir fait ce nombre, et la conversation citée dans la chronique consiste en une question et ce seul mot pour réponse entière. Quand un morceau d'appareil interne se met à circuler comme verbe, il a cessé d'être de la paperasse.",
+          "flavor": "« Elle est où, cette carte ? » « Quatre-vingt-dix-neuvée. »"
+        },
+        {
+          "title": "Un schéma tient jusqu'à ce que l'exception devienne majoritaire",
+          "rules": "Quand un type de carte à cheval sur deux couleurs est apparu, le code existant l'a absorbé sans broncher — il n'y en avait qu'une douzaine dans le fichier, et une lettre suffisait largement. Puis est venue une extension où environ la moitié de tout relevait de ce type, et la désignation unique qui logeait confortablement douze cartes ne pouvait pas organiser plusieurs centaines. Il a fallu inventer une nouvelle numérotation. Rien n'était mauvais dans la décision initiale ; elle était juste pour la charge prévue, et la charge a changé d'un ordre de grandeur.",
+          "flavor": "Une lettre suffisait amplement pour douze cartes. Puis la moitié de l'extension a fait douze cartes."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Porcas e parafusos: os códigos de carta",
+      "dek": "A primeira parcela de uma seção nova sobre a maquinaria sem glamour, abrindo com a etiqueta de quatro caracteres que toda carta carrega antes de ter nome.",
+      "overview": "O lançamento de uma seção recorrente dedicada aos pequenos detalhes essenciais, motivada pela constatação de que escrever só sobre design de cartas e filosofia de cor deturpa o trabalho — isso é a minoria do serviço. O tema escolhido é o identificador interno: duas letras e dois dígitos que nomeiam uma carta antes de a carta existir. O que começa como convenção de arquivo acaba carregando raridade, moldura, posição, tamanho do grupo, autoria e vários tipos de mensagem de status, e tendo criado seu próprio vocabulário.",
+      "takeaway": "Você não consegue se referir a uma carta que não para de virar outra carta; nomeie a vaga em vez disso.",
+      "lessons": [
+        {
+          "title": "Escrever só sobre a parte interessante deturpa o trabalho",
+          "rules": "Ele abre com uma estatística sobre crime na televisão: a esmagadora maioria do que a ficção mostra é a categoria mais grave, quase exatamente o inverso da realidade, porque uma dá uma história melhor do que uma infração pequena. O efeito é que isso distorce a imagem que as pessoas têm do mundo. Depois condena a própria coluna pela mesma distorção. Ele gasta quase toda a sua escrita de bastidores em design de cartas e filosofia de cor, o que é essencial mas é a minoria do que de fato acontece. O remédio que escolhe não é escrever menos sobre o interessante, e sim abrir uma seção fixa sobre o resto.",
+          "flavor": "Assassinato dá uma coluna melhor. Quase todo o trabalho é atravessar fora da faixa."
+        },
+        {
+          "title": "As letras que parecem arbitrárias são restos de colisões",
+          "rules": "O esquema exigia que cada letra fosse única dentro de sua posição, e a convenção era usar a primeira letra da palavra sempre que possível. Duas das cores perderam essa disputa. A letra que uma delas naturalmente teria tomado já estava reservada pelos terrenos, que a mantiveram por antiguidade; a segunda opção da outra estava reservada para artefatos. Cada uma caiu, então, para uma letra posterior do próprio nome — e é por isso que a abreviação do azul é a que sem falta confunde os recém-chegados. Nenhuma decisão estética foi tomada. Uma restrição de unicidade mais uma regra de quem chegou primeiro produziram uma convenção que já sobreviveu à memória do motivo.",
+          "flavor": "Ninguém escolheu aquela letra para o azul. Era a que sobrou."
+        },
+        {
+          "title": "Nomeie a vaga, porque a carta não é uma constante",
+          "rules": "Fora do prédio, o título de uma carta funciona como referência porque cartas impressas são fixas: o nome sempre denota a mesma coisa. Dentro de um arquivo de design isso falha, porque na maior parte das vezes a carta inteira muda durante o processo, às vezes para algo completamente alheio ao que era no início. Então o departamento não pensa em cartas, de modo algum. Pensa em vagas: uma coleção pequena tem um número fixo de cartas baratas, divididas entre molduras, e cada uma dessas posições existe e pode ser discutida antes de qualquer coisa ter sido decidida sobre o que a ocupará.",
+          "flavor": "O nome se refere a uma coisa. O código se refere a um lugar onde uma coisa vai ficar."
+        },
+        {
+          "title": "Faça o identificador carregar informação além da identidade",
+          "rules": "Duas regras transformam uma etiqueta em instrumento. Os dígitos são sempre dois, de modo que qualquer código que você veja está visivelmente completo — com largura variável você não saberia se um dígito só significa a primeira carta ou a décima com o zero perdido. E a numeração sempre começa em um, o que faz do número mais alto de cada grupo de raridade e moldura um censo daquele grupo: quantas cartas brancas baratas existem agora é um dado que você lê do arquivo em vez de contar. O identificador responde perguntas que ninguém precisou fazer a ele.",
+          "flavor": "Ele diz qual carta. Também diz quantas existem."
+        },
+        {
+          "title": "Dê às duas cartas rivais o mesmo código para que a notação diga que são rivais",
+          "rules": "A produção não se importa com qual carta recebe qual número dentro de um grupo, então o departamento sobrepôs seus próprios sentidos àquele espaço livre. O mais afiado: quando duas cartas disputam um lugar e não podem ambas sair, elas são inseridas de propósito sob o mesmo código. Isso faz duas coisas ao mesmo tempo. Registra a disputa no arquivo, para que qualquer um que o leia entenda a situação, e — a razão que ele de fato dá — impede que o líder de design receba repetidamente o mesmo comentário de que aquelas duas cartas são parecidas demais. Uma notação bem escolhida antecipa toda uma classe de retorno.",
+          "flavor": "Sim, elas são parecidas demais. É isso que o número repetido quer dizer."
+        },
+        {
+          "title": "Torne as contribuições atribuíveis por construção",
+          "rules": "Entre os códigos numéricos reservados há vários atribuídos um por designer da equipe, distribuídos pelo líder. Quando um integrante insere uma carta candidata no arquivo, usa o próprio código. O efeito é que a autoria fica registrada automaticamente como efeito colateral do ato normal de contribuir — ninguém precisa assinar nada, e ninguém consegue esquecer. O líder vê de relance quem submeteu o quê, o que importa exatamente pelas razões pelas quais atribuição sempre importa, e não custa nada porque o número teria de estar ali de qualquer jeito.",
+          "flavor": "Você não assina suas cartas. A vaga onde você as põe assina por você."
+        },
+        {
+          "title": "Sem precedente, escolha algo e deixe que corrijam depois",
+          "rules": "Quando uma coleção precisou de uma categoria que nunca havia existido, não havia letra estabelecida para ela, então ele simplesmente usou uma de sua escolha. Ele é despreocupado a respeito disso de um modo que vale notar: não havia precedente, então ele escolheu. A convenção foi oficialmente trocada por outra letra antes de a coleção ir para produção, e o interinato não danificou nada. Uma notação interna que nunca sai do prédio pode se dar ao luxo de uma resposta provisória; a alternativa é travar um arquivo por uma decisão que uma passada posterior e mais informada vai resolver de todo jeito.",
+          "flavor": "Não havia precedente, então ele inventou um. Alguém consertou antes de importar."
+        },
+        {
+          "title": "Pergunte diretamente se o público quer aquilo em que você acredita",
+          "rules": "Ele encerra admitindo não saber se valia a pena escrever esta coluna, e faz quatro versões diretas da mesma pergunta: você gostou, você curte ouvir sobre as minúcias, foi chato e indigno, ele deveria voltar ao material dramático? Depois expõe a própria posição assim mesmo: escreveu porque achou que importava. Essa é exatamente a forma de um bom piloto. Publique o que você acha certo, não finja uma certeza que não tem, e deixe a resposta decidir se a seção continua.",
+          "flavor": "Devo esquecer o atravessar fora da faixa e ficar nos assassinatos?"
+        },
+        {
+          "title": "Uma boa ferramenta cria uma língua em volta de si",
+          "rules": "Um código reservado significa que uma carta foi cortada mas que ninguém está convencido de que ficará cortada, e sua contraparte significa que uma carta ainda não está no arquivo mas está sendo considerada para um lugar — uma distinção entre a caminho de fora e a caminho de dentro que de outro modo custaria uma frase toda vez. O primeiro virou verbo: remover uma carta é ter feito aquele número com ela, e a conversa citada na coluna consiste numa pergunta e naquela única palavra como resposta inteira. Quando uma peça de aparato interno começa a aparecer na fala como verbo, ela deixou de ser papelada.",
+          "flavor": "\"Cadê aquela carta?\" \"Noventa-e-nove-ada.\""
+        },
+        {
+          "title": "Um esquema aguenta até a exceção virar maioria",
+          "rules": "Quando apareceu pela primeira vez um tipo de carta que abrange duas cores, o código existente deu conta sem reclamar — havia apenas uma dúzia delas no arquivo, e uma letra sobrava. Depois chegou uma coleção em que cerca de metade de tudo era daquele tipo, e a designação única que abrigara confortavelmente doze cartas não conseguia organizar várias centenas. Foi preciso inventar um novo esquema de numeração. Nada estava errado na decisão original; ela era correta para a carga sob a qual foi projetada, e a carga mudou em uma ordem de grandeza.",
+          "flavor": "Uma letra bastava de sobra para doze cartas. Depois metade da coleção eram doze cartas."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "螺母与螺栓：牌张代码",
+      "dek": "一个关于那些不体面的机械装置的新栏目的第一期；开篇讲的是每张牌在拥有名字之前所带着的那个四字符标签。",
+      "overview": "一个专门献给那些细小而关键之处的常设栏目的开张之作；起因是他意识到：只写牌张设计和颜色哲学，是在歪曲这份工作——那些只占工作量的少数。选定的题目是内部标识符：两个字母加两位数字，在一张牌存在之前就先给它命了名。这件起初只是归档惯例的东西，结果承载着稀有度、边框、位置、组的大小、署名、以及好几种状态消息；而且已经在自己周围长出了一整套词汇。",
+      "takeaway": "你没法去指称一张不断变成另一张牌的牌；那就改去给那个位置命名。",
+      "lessons": [
+        {
+          "title": "只写有意思的那部分，会歪曲这份工作",
+          "rules": "他以一项关于电视里的犯罪的统计开篇：虚构作品所呈现的绝大多数都属于最严重的那一类，而这几乎恰好是现实的反面；因为其中一种比一桩轻微违规更适合讲成故事。而它造成的效果是：它扭曲了人们心里那幅关于世界的图像。接着他把自己的专栏也判了同样的罪。他在幕后写作上花的时间几乎全在牌张设计和颜色哲学上；这些是必要的，但它们在真正发生的事情里只占少数。而他所选的补救办法并不是少写有意思的那些，而是为其余那些开一个固定的栏目。",
+          "flavor": "凶杀写出来的专栏更好看。而这份工作的大部分是乱穿马路。"
+        },
+        {
+          "title": "那些看上去很随意的字母，其实是碰撞留下的残迹",
+          "rules": "这套方案要求每个字母在它所处的那一位上必须唯一；而惯例是尽可能取那个词的第一个字母。有两个颜色输掉了这场争夺。其中一个本来自然会取的那个字母，已经被地牌占了下来——地牌凭资历把它留住了；而另一个的第二选择被留给了神器。于是这两者各自都往下落到了自己名字里更靠后的一个字母上——这正是蓝色的缩写会雷打不动地把新玩家绕晕的原因。这里没有做过任何美学上的决定。一条唯一性约束，加上一条先到先得的规则，产出了一个如今已经活得比所有人对其缘由的记忆还久的惯例。",
+          "flavor": "没有人替蓝色挑了那个字母。那是剩下的那个。"
+        },
+        {
+          "title": "给位置命名；因为牌不是一个常量",
+          "rules": "在这栋楼之外，一张牌的名称之所以能当作指称使用，是因为印出来的牌是固定的：这个名字永远指向同一样东西。而在一份设计文件里，这一招失效了；因为在这个过程中，整张牌往往会变，有时会变成与它最初的样子毫不相干的东西。所以这个部门根本就不用「牌」来思考。他们用「位置」来思考：一个小系列有固定数量的廉价牌，按边框分配开来；而这些位置中的每一个，在关于「谁会来占它」的任何事情被决定之前，就已经存在、并且可以被拿来讨论了。",
+          "flavor": "名字指的是一样东西。代码指的是一样东西将要去的那个地方。"
+        },
+        {
+          "title": "让标识符承载身份之外的信息",
+          "rules": "两条规则把一个标签变成了一件仪器。数字永远是两位；于是你看到的任何一个代码都显然是完整的——如果宽度可变，你就没法判断单独一位数字指的是第一张牌、还是掉了个零的第十张。而编号永远从一开始；这意味着任何一个「稀有度加边框」组里的最大编号，就是那一组的一次人口普查：此刻究竟有多少张廉价白牌，是你从文件上读出来的事实，而不是数出来的。这个标识符回答了没有人需要向它提出的那些问题。",
+          "flavor": "它告诉你是哪一张牌。它同时告诉你一共有多少张。"
+        },
+        {
+          "title": "给两张互为对手的牌同一个代码，让这套记法自己说出它们是对手",
+          "rules": "生产端并不在意一个组里哪张牌拿到哪个号；于是这个部门就在那片自由空间上叠加了自己的含义。其中最精明的一条：当两张牌在争同一个位置、而且不可能同时上市时，它们会被有意地录入在同一个代码之下。这一下同时办了两件事。它把这场竞争记录进了文件里，好让任何读到它的人都明白眼下的状况；而且——这是他真正给出的理由——它让主设计师不必反复收到「这两张牌太像了」的同一条意见。一套选得好的记法，能预先挡掉一整类反馈。",
+          "flavor": "对，它们太像了。那个重复的号码说的就是这件事。"
+        },
+        {
+          "title": "让署名成为结构的产物",
+          "rules": "在那些被保留的数字代码里，有几个是按团队里每位设计师一人一个分配的，由主设计师发下去。当一位成员把一张候选牌录进文件时，他用的是自己的那个代码。其效果是：署名作为「贡献」这个常规动作的副产品被自动记录了下来——没有人需要去签什么，也没有人可能忘记签。主设计师一眼就能看出谁交了什么；而这件事之所以重要，正是署名一向重要的那些理由；而它不花任何成本，因为那个号码本来就必须在那里。",
+          "flavor": "你不用给自己的牌签名。你把它们放进去的那个位置替你签了。"
+        },
+        {
+          "title": "在没有先例时，挑一个，然后留给后面去改",
+          "rules": "当某个系列需要一个从未存在过的类别时，并没有为它定下来的字母；于是他就随手用了一个自己挑的。他对此的随意程度值得注意一下：没有先例，所以他挑了一个。在那个系列被送去生产之前，这条惯例被正式改成了另一个字母；而这段过渡期没有损坏任何东西。一套永远不会离开这栋楼的内部记法，是负担得起一个临时答案的；而另一种选择，是为了一个反正会被后面那次信息更充分的检视所解决的决定，把一份文件卡在那里。",
+          "flavor": "没有先例，于是他自己造了一个。有人在它变得要紧之前把它修好了。"
+        },
+        {
+          "title": "直接去问：你所相信的这件事，受众到底想不想要",
+          "rules": "他在结尾处承认自己并不知道这篇专栏值不值得写；然后把同一个问题问了四个毫不绕弯的版本：你喜欢吗、你享受听这些细枝末节吗、它是不是无聊到不配占一期、他是不是该回去写那些戏剧性的材料。然后他还是把自己的立场摆了出来：他写它，是因为他觉得它要紧。这正是一期好的试播集该有的全部形状。把你认为对的东西发出去；不要假装拥有你并不拥有的把握；然后让回应来决定这个栏目要不要继续。",
+          "flavor": "我是不是该忘掉乱穿马路，专心写凶杀？"
+        },
+        {
+          "title": "一件好工具会在自己周围长出一门语言",
+          "rules": "有一个保留代码的意思是：这张牌已经被砍掉了，但没有人确信它一定就此不回来；而它的对应项的意思是：这张牌还没进文件，但正在被考虑给它找个位置——这是「正在往外走」与「正在往里走」之间的区分，而如果没有它，每次都得用一整句话来说。前者已经变成了一个动词：把一张牌拿掉，就是对它做了那个数字；而专栏里所引的那段对话，通篇就是一个问句、外加那一个词作为完整的回答。当一件内部器具开始以动词的身份出现在人们嘴里时，它就不再是文书工作了。",
+          "flavor": "「那张牌呢？」「九十九掉了。」"
+        },
+        {
+          "title": "一套模式撑得住，直到那个例外变成了多数",
+          "rules": "当那种横跨两个颜色的牌张类型第一次出现时，既有的代码毫无怨言地把它接住了——文件里总共也就十来张，一个字母绰绰有余。后来来了一个系列，里面大约有一半的东西都属于那个类型；而那个曾经宽宽松松地装下十二张牌的单一标记，组织不了好几百张。得为它发明一套新的编号方案。当初那个决定并没有哪里不对；它对于自己被设计时所面对的负载而言是正确的；而后来负载变了一个数量级。",
+          "flavor": "一个字母装十二张牌是足够的。后来半个系列就是十二张牌。"
+        }
+      ]
+    }
+  }
+}
