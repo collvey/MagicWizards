@@ -1,0 +1,332 @@
+{
+  "id": "planeswalk-wild-side-part-ii-2007-11-12",
+  "slug": "planeswalk-wild-side-part-ii-2007-11-12",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2007-11-12",
+  "series": { "id": "planeswalk-wild-side", "order": 2, "total": 2 },
+  "tags": [
+    "planeswalkers",
+    "redesign",
+    "costs",
+    "agency",
+    "development"
+  ],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/planeswalk-wild-side-part-ii-2007-11-12",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Planeswalk on the Wild Side, Part II",
+      "dek": "The redesign: an audit of what the failed version got right, the single change that fixed it, and the four things development added afterwards.",
+      "overview": "Having cancelled the first attempt, the team built decks with the failed cards and played them until they could separate what was working from what was not. The list of keepers was long; there were two real problems, both about agency. The fix was one structural change — moving a number from the effect side of an ability to the cost side — which turned a fixed sequence into a set of gated choices and forced a matching new requirement. He then hands off, lists development's four additions, and credits them to the people who made them.",
+      "lessons": [
+        {
+          "title": "Move the number from the effect to the cost and it becomes a gate",
+          "rules": "In the failed version, each ability changed the object's resource as part of what it did. The redesign made that change a cost paid to use the ability instead. The arithmetic is identical and the consequence is not: as a cost it can be unaffordable, which means some abilities are unavailable until the resource has been accumulated. One reclassification converted a flat list into a ladder you climb.",
+          "flavor": "Same numbers, same abilities, and now there is a reason to wait."
+        },
+        {
+          "title": "Build the answer into the object so it consumes itself",
+          "rules": "Because using the abilities usually drives the resource downward, the object carries its own clock — it will exhaust itself whether or not the opponent does anything. That is deliberate: they did not want the game to require a specific external answer to a whole card type. A powerful permanent that spends itself is one that never needs a purpose-built countermeasure printed alongside it.",
+          "flavor": "The other half of the same policy: creatures can attack it, and most decks already have creatures."
+        },
+        {
+          "title": "A redesign starts with an inventory of what to keep",
+          "rules": "Before proposing anything, the reconstituted team built decks with the cancelled cards and played them repeatedly, for the express purpose of determining which elements were working. The result was a long list of keepers — the cost as a colour gate, multiple abilities rather than one, the interaction with the object having a consequence, direct attackability — and only two genuine faults. Cataloguing the survivors is what stops a redesign from discarding the parts that were fine.",
+          "flavor": "\"We realized we weren't that far off.\""
+        },
+        {
+          "title": "The first members of a class define it, so don't get clever yet",
+          "rules": "He was firm that the initial examples should sit squarely inside their assigned categories and reinforce what each category means, on the grounds that later ones can stray once the shape is established. The first few instances of anything are read as the definition, not as samples. Every unusual variation you print early is a change to the definition rather than an exception to it.",
+          "flavor": "Later ones can wander. These ones are the reference."
+        },
+        {
+          "title": "One side accelerating and the other unable to decelerate is not a decision",
+          "rules": "Deeper than the complaint about the object acting on its own was the asymmetry: the opponent had several ways to hasten its departure and its controller had almost no way to delay it. A resource that only one participant can influence stops being a thing either of them plays around. Check both directions of every clock — the pressure and the relief have to be available to opposite sides.",
+          "flavor": "Fixing this is what forced the invention of abilities that add resource rather than spend it."
+        },
+        {
+          "title": "Take the option you personally dislike when the alternative is worse, and say you dislike it",
+          "rules": "Removing the fixed order left two possibilities: random, or chosen by the controller. Random was quickly rejected. He records that letting the controller choose bothered several people including himself, because it made the object feel like something you command rather than an independent agent — and they did it anyway, because it was the only route that solved the real problem. Noting your own objection in the record is what makes the decision auditable later.",
+          "flavor": "The thing the design was originally built to avoid became the thing that saved it."
+        },
+        {
+          "title": "Hand the narration of someone else's contribution to them, by name",
+          "rules": "Listing the changes made after handoff, he attributes the largest one to the specific person who suggested it and explicitly declines to tell those stories himself, leaving them for the lead of the receiving team. Summarising another team's decisions is useful; claiming the narrative of them is not. Name the contributor and leave the account to the person who lived it.",
+          "flavor": "Four numbered changes, credited outward, with the detail deferred."
+        },
+        {
+          "title": "Ask for the data because you have to keep making these",
+          "rules": "He closes by asking readers what they think and why — and gives the reason plainly: more of these will have to be designed, and the responses are an input to that work. A request for feedback with a stated use attached is a different request from a polite one. It tells people which of their reactions will actually be operated on.",
+          "flavor": "Not \"let me know what you think\" but \"the data you can give me is very valuable.\""
+        },
+        {
+          "title": "Design each instance from a one-line character brief",
+          "rules": "The creative department supplied a short written description for each of the five, and the abilities were derived from it: one whose theme was justice was built toward a large sweeping effect; one whose magic affected memory got three abilities that all interact with the library. Starting from a sentence about who this is produces a set that differs in kind rather than in numbers.",
+          "flavor": "Three abilities, one metaphor, and the mechanics fall out of the description."
+        },
+        {
+          "title": "Two routes instead of one plan",
+          "rules": "The design team had built each object around a single interconnected sequence — a plan you executed. The receiving team decided each should instead offer two different paths to a win, on the grounds that variety of use matters more than elegance of scheme. A component with one correct line is a puzzle solved once; a component with two is one that plays differently depending on the situation it lands in.",
+          "flavor": "They also added a large third ability to every one, and a way for every one to grow."
+        }
+      ],
+      "takeaway": "Audit the failure for what it got right, check that both sides can move every clock, and when the fix is a reclassification rather than a new mechanic, take it."
+    },
+    "es": {
+      "title": "Caminando por el lado salvaje, Parte II",
+      "dek": "El rediseño: una auditoría de lo que la versión fallida acertó, el único cambio que lo arregló, y las cuatro cosas que desarrollo añadió después.",
+      "overview": "Tras cancelar el primer intento, el equipo montó mazos con las cartas fallidas y las jugó hasta poder separar lo que funcionaba de lo que no. La lista de elementos a conservar era larga; había dos problemas reales, ambos sobre la capacidad de decidir. El arreglo fue un solo cambio estructural —mover un número del lado del efecto de una habilidad al lado del coste—, que convirtió una secuencia fija en un conjunto de opciones con puerta y forzó un requisito nuevo a juego. Después entrega el trabajo, enumera las cuatro adiciones de desarrollo y las acredita a quienes las hicieron.",
+      "lessons": [
+        {
+          "title": "Mueve el número del efecto al coste y se convierte en una puerta",
+          "rules": "En la versión fallida, cada habilidad cambiaba el recurso del objeto como parte de lo que hacía. El rediseño convirtió ese cambio en un coste que se paga por usar la habilidad. La aritmética es idéntica y la consecuencia no: como coste puede resultar inasumible, lo que significa que algunas habilidades no están disponibles hasta haber acumulado el recurso. Una reclasificación convirtió una lista plana en una escalera que se sube.",
+          "flavor": "Los mismos números, las mismas habilidades, y ahora hay una razón para esperar."
+        },
+        {
+          "title": "Integra la respuesta en el objeto para que se consuma a sí mismo",
+          "rules": "Como usar las habilidades suele empujar el recurso hacia abajo, el objeto lleva su propio reloj: se agotará haga o no haga algo el rival. Es deliberado: no querían que el juego exigiera una respuesta externa concreta contra todo un tipo de carta. Un permanente poderoso que se gasta a sí mismo es uno que nunca necesita que se imprima a su lado una contramedida hecha a medida.",
+          "flavor": "La otra mitad de la misma política: las criaturas pueden atacarlo, y casi todos los mazos ya llevan criaturas."
+        },
+        {
+          "title": "Un rediseño empieza por un inventario de lo que se conserva",
+          "rules": "Antes de proponer nada, el equipo reconstituido montó mazos con las cartas canceladas y las jugó repetidamente, con el propósito expreso de determinar qué elementos funcionaban. El resultado fue una larga lista de cosas a conservar —el coste como puerta de color, varias habilidades en vez de una, que interactuar con el objeto tuviera consecuencias, que se le pudiera atacar directamente— y solo dos fallos genuinos. Catalogar a los supervivientes es lo que impide que un rediseño tire las partes que estaban bien.",
+          "flavor": "«Nos dimos cuenta de que no estábamos tan lejos.»"
+        },
+        {
+          "title": "Los primeros miembros de una clase la definen, así que no te pongas ingenioso todavía",
+          "rules": "Fue tajante en que los primeros ejemplares debían situarse de lleno dentro de sus categorías asignadas y reforzar lo que cada categoría significa, con el argumento de que los posteriores ya podrán desviarse una vez fijada la forma. Los primeros ejemplares de cualquier cosa se leen como la definición, no como muestras. Cada variación inusual que imprimas al principio es un cambio en la definición, no una excepción a ella.",
+          "flavor": "Los siguientes pueden divagar. Estos son la referencia."
+        },
+        {
+          "title": "Que un lado acelere y el otro no pueda frenar no es una decisión",
+          "rules": "Más hondo que la queja sobre que el objeto actuara solo estaba la asimetría: el rival tenía varias formas de apresurar su marcha y su controlador casi ninguna de retrasarla. Un recurso que solo un participante puede influir deja de ser algo con lo que ninguno de los dos juega. Comprueba las dos direcciones de cada reloj: la presión y el alivio tienen que estar disponibles para bandos opuestos.",
+          "flavor": "Arreglar esto fue lo que obligó a inventar habilidades que suman recurso en vez de gastarlo."
+        },
+        {
+          "title": "Toma la opción que personalmente te disgusta cuando la alternativa es peor, y di que te disgusta",
+          "rules": "Quitar el orden fijo dejaba dos posibilidades: al azar, o elegida por el controlador. El azar se descartó pronto. Deja constancia de que dejar elegir al controlador incomodó a varios, él incluido, porque hacía que el objeto pareciera algo que mandas y no un agente independiente, y aun así lo hicieron, porque era la única vía que resolvía el problema real. Anotar tu propia objeción en el registro es lo que hace auditable la decisión más adelante.",
+          "flavor": "Aquello que el diseño se había construido para evitar acabó siendo lo que lo salvó."
+        },
+        {
+          "title": "Cede la narración de la aportación ajena a quien la hizo, con su nombre",
+          "rules": "Al enumerar los cambios posteriores a la entrega, atribuye el mayor a la persona concreta que lo sugirió y declina explícitamente contar esas historias él mismo, dejándoselas al líder del equipo receptor. Resumir las decisiones de otro equipo es útil; apropiarse de su relato no lo es. Nombra a quien contribuyó y deja el relato a quien lo vivió.",
+          "flavor": "Cuatro cambios numerados, acreditados hacia fuera, con el detalle aplazado."
+        },
+        {
+          "title": "Pide los datos porque vas a tener que seguir haciendo estos",
+          "rules": "Cierra preguntando a los lectores qué opinan y por qué, y da la razón sin rodeos: habrá que diseñar más de estos, y las respuestas son un insumo para ese trabajo. Una petición de opinión con un uso declarado es una petición distinta de una cortés. Le dice a la gente cuáles de sus reacciones se van a usar de verdad.",
+          "flavor": "No «contadme qué os parece», sino «los datos que podéis darme son muy valiosos»."
+        },
+        {
+          "title": "Diseña cada ejemplar a partir de una descripción de una línea",
+          "rules": "El departamento creativo entregó una breve descripción escrita de cada uno de los cinco, y las habilidades se derivaron de ella: aquel cuyo tema era la justicia se construyó hacia un gran efecto de barrido; aquel cuya magia afectaba a la memoria recibió tres habilidades que interactúan todas con la biblioteca. Partir de una frase sobre quién es esto produce un conjunto que difiere en clase y no en cifras.",
+          "flavor": "Tres habilidades, una metáfora, y la mecánica sale de la descripción."
+        },
+        {
+          "title": "Dos rutas en vez de un plan",
+          "rules": "El equipo de diseño había construido cada objeto en torno a una única secuencia interconectada: un plan que ejecutabas. El equipo receptor decidió que cada uno debía ofrecer en cambio dos caminos distintos hacia la victoria, con el argumento de que la variedad de uso importa más que la elegancia del esquema. Un componente con una sola línea correcta es un puzle que se resuelve una vez; uno con dos se juega distinto según la situación en que caiga.",
+          "flavor": "También añadieron una gran tercera habilidad a cada uno, y a cada uno una forma de crecer."
+        }
+      ],
+      "takeaway": "Audita el fracaso buscando lo que acertó, comprueba que ambos bandos pueden mover cada reloj, y cuando el arreglo sea una reclasificación y no un mecanismo nuevo, tómalo."
+    },
+    "fr": {
+      "title": "Marcher du côté sauvage, partie II",
+      "dek": "La refonte : un audit de ce que la version ratée avait réussi, le changement unique qui l'a corrigée, et les quatre ajouts du développement.",
+      "overview": "Après avoir annulé la première tentative, l'équipe a monté des decks avec les cartes ratées et les a jouées jusqu'à pouvoir séparer ce qui marchait de ce qui ne marchait pas. La liste des éléments à garder était longue ; il y avait deux vrais problèmes, tous deux relatifs à la prise de décision. Le correctif fut un unique changement structurel — déplacer un nombre du côté effet d'une aptitude vers le côté coût — qui a transformé une séquence fixe en un ensemble de choix verrouillés et imposé une nouvelle exigence en miroir. Il transmet ensuite le dossier, énumère les quatre ajouts du développement, et les crédite à ceux qui les ont faits.",
+      "lessons": [
+        {
+          "title": "Déplacez le nombre de l'effet vers le coût et il devient un verrou",
+          "rules": "Dans la version ratée, chaque aptitude modifiait la ressource de l'objet au titre de ce qu'elle faisait. La refonte a fait de cette modification un coût payé pour utiliser l'aptitude. L'arithmétique est identique, la conséquence non : en tant que coût, il peut être hors de portée, donc certaines aptitudes restent indisponibles tant que la ressource n'a pas été accumulée. Une reclassification a transformé une liste plate en une échelle qu'on gravit.",
+          "flavor": "Mêmes nombres, mêmes aptitudes, et désormais une raison d'attendre."
+        },
+        {
+          "title": "Intégrez la réponse à l'objet pour qu'il se consume lui-même",
+          "rules": "Comme utiliser les aptitudes pousse en général la ressource vers le bas, l'objet porte sa propre horloge : il s'épuisera que l'adversaire fasse quelque chose ou non. C'est délibéré : ils ne voulaient pas que le jeu exige une réponse externe spécifique à tout un type de carte. Un permanent puissant qui se dépense lui-même n'a jamais besoin qu'on imprime à ses côtés une contre-mesure faite exprès.",
+          "flavor": "L'autre moitié de la même politique : les créatures peuvent l'attaquer, et la plupart des decks en contiennent déjà."
+        },
+        {
+          "title": "Une refonte commence par l'inventaire de ce qu'on garde",
+          "rules": "Avant toute proposition, l'équipe reconstituée a monté des decks avec les cartes annulées et les a jouées à répétition, dans le but exprès de déterminer quels éléments fonctionnaient. Le résultat fut une longue liste de rescapés — le coût comme verrou de couleur, plusieurs aptitudes plutôt qu'une, le fait qu'utiliser l'objet ait une conséquence, l'attaquabilité directe — et seulement deux vrais défauts. Cataloguer les survivants est ce qui empêche une refonte de jeter les parties qui allaient bien.",
+          "flavor": "« Nous avons réalisé que nous n'étions pas si loin du compte. »"
+        },
+        {
+          "title": "Les premiers membres d'une classe la définissent : pas d'astuces tout de suite",
+          "rules": "Il a été ferme : les premiers exemplaires devaient se tenir pleinement à l'intérieur de leurs catégories et renforcer ce que chacune signifie, au motif que les suivants pourront s'en écarter une fois la forme établie. Les premiers exemplaires de quoi que ce soit se lisent comme la définition, non comme des échantillons. Chaque variation inhabituelle imprimée tôt est une modification de la définition, non une exception à celle-ci.",
+          "flavor": "Les suivants pourront vagabonder. Ceux-ci sont la référence."
+        },
+        {
+          "title": "Un camp qui accélère face à un camp qui ne peut pas ralentir, ce n'est pas une décision",
+          "rules": "Plus profonde que la plainte sur l'objet agissant seul, il y avait l'asymétrie : l'adversaire disposait de plusieurs moyens de hâter son départ et son contrôleur de presque aucun pour le retarder. Une ressource qu'un seul participant peut influencer cesse d'être une chose autour de laquelle l'un ou l'autre joue. Vérifiez les deux sens de chaque horloge : la pression et le soulagement doivent être disponibles pour des camps opposés.",
+          "flavor": "Corriger cela est ce qui a imposé d'inventer des aptitudes qui ajoutent de la ressource au lieu d'en dépenser."
+        },
+        {
+          "title": "Prenez l'option qui vous déplaît quand l'autre est pire, et dites qu'elle vous déplaît",
+          "rules": "Supprimer l'ordre fixe laissait deux possibilités : aléatoire, ou choisie par le contrôleur. L'aléatoire fut vite écarté. Il consigne que laisser choisir le contrôleur a gêné plusieurs personnes, lui compris, parce que cela faisait de l'objet une chose qu'on commande plutôt qu'un agent indépendant — et ils l'ont fait quand même, car c'était la seule voie qui réglait le vrai problème. Noter sa propre objection au dossier est ce qui rend la décision auditable plus tard.",
+          "flavor": "Ce que la conception avait été bâtie pour éviter est devenu ce qui l'a sauvée."
+        },
+        {
+          "title": "Laissez à l'auteur le récit de sa propre contribution, nommément",
+          "rules": "En listant les changements postérieurs à la transmission, il attribue le plus important à la personne précise qui l'a suggéré et refuse explicitement de raconter ces histoires lui-même, les laissant au responsable de l'équipe réceptrice. Résumer les décisions d'une autre équipe est utile ; s'approprier leur récit ne l'est pas. Nommez celui qui a contribué et laissez le récit à celui qui l'a vécu.",
+          "flavor": "Quatre changements numérotés, crédités vers l'extérieur, le détail renvoyé à plus tard."
+        },
+        {
+          "title": "Demandez les données parce qu'il vous faudra en fabriquer d'autres",
+          "rules": "Il conclut en demandant aux lecteurs ce qu'ils en pensent et pourquoi — et en donne franchement la raison : il faudra en concevoir d'autres, et les réponses sont une entrée de ce travail. Une demande d'avis assortie d'un usage déclaré n'est pas la même qu'une demande polie. Elle indique aux gens lesquelles de leurs réactions seront réellement exploitées.",
+          "flavor": "Non pas « dites-moi ce que vous en pensez » mais « les données que vous pouvez me donner ont beaucoup de valeur »."
+        },
+        {
+          "title": "Concevez chaque exemplaire à partir d'une description d'une ligne",
+          "rules": "Le service créatif a fourni une courte description écrite pour chacun des cinq, et les aptitudes en ont été dérivées : celui dont le thème était la justice fut bâti vers un grand effet de balayage ; celui dont la magie touchait la mémoire reçut trois aptitudes interagissant toutes avec la bibliothèque. Partir d'une phrase sur qui est cette personne produit un ensemble qui diffère en nature et non en chiffres.",
+          "flavor": "Trois aptitudes, une métaphore, et la mécanique découle de la description."
+        },
+        {
+          "title": "Deux routes plutôt qu'un plan",
+          "rules": "L'équipe de conception avait bâti chaque objet autour d'une unique séquence interconnectée : un plan qu'on exécute. L'équipe réceptrice a décidé que chacun devait plutôt offrir deux chemins différents vers la victoire, au motif que la variété d'usage compte plus que l'élégance du schéma. Un composant à une seule ligne correcte est une énigme résolue une fois ; un composant à deux se joue autrement selon la situation où il atterrit.",
+          "flavor": "Ils ont aussi ajouté une grande troisième aptitude à chacun, et à chacun un moyen de croître."
+        }
+      ],
+      "takeaway": "Auditez l'échec pour ce qu'il a réussi, vérifiez que les deux camps peuvent bouger chaque horloge, et quand le correctif est une reclassification plutôt qu'une mécanique neuve, prenez-le."
+    },
+    "pt-BR": {
+      "title": "Caminhando pelo lado selvagem, Parte II",
+      "dek": "O redesenho: uma auditoria do que a versão fracassada acertou, a única mudança que a consertou, e as quatro coisas que o desenvolvimento acrescentou depois.",
+      "overview": "Tendo cancelado a primeira tentativa, a equipe montou baralhos com as cartas fracassadas e as jogou até conseguir separar o que funcionava do que não funcionava. A lista de itens a manter era longa; havia dois problemas reais, ambos sobre poder de decisão. O conserto foi uma única mudança estrutural — mover um número do lado do efeito de uma habilidade para o lado do custo —, que transformou uma sequência fixa num conjunto de escolhas com trava e forçou um novo requisito correspondente. Depois ele entrega o trabalho, lista as quatro adições do desenvolvimento e as credita a quem as fez.",
+      "lessons": [
+        {
+          "title": "Mova o número do efeito para o custo e ele vira uma trava",
+          "rules": "Na versão fracassada, cada habilidade alterava o recurso do objeto como parte do que fazia. O redesenho tornou essa alteração um custo pago para usar a habilidade. A aritmética é idêntica e a consequência não: como custo, ele pode ser inviável, o que significa que algumas habilidades ficam indisponíveis até o recurso ter sido acumulado. Uma reclassificação transformou uma lista plana numa escada que se sobe.",
+          "flavor": "Os mesmos números, as mesmas habilidades, e agora existe um motivo para esperar."
+        },
+        {
+          "title": "Embuta a resposta no objeto para que ele se consuma sozinho",
+          "rules": "Como usar as habilidades em geral empurra o recurso para baixo, o objeto carrega o próprio relógio: ele se esgota faça o oponente algo ou não. Isso é deliberado: não queriam que o jogo exigisse uma resposta externa específica contra um tipo de carta inteiro. Um permanente poderoso que se gasta sozinho é um que nunca precisa de uma contramedida sob medida impressa ao lado dele.",
+          "flavor": "A outra metade da mesma política: criaturas podem atacá-lo, e a maioria dos baralhos já tem criaturas."
+        },
+        {
+          "title": "Um redesenho começa por um inventário do que se mantém",
+          "rules": "Antes de propor qualquer coisa, a equipe reconstituída montou baralhos com as cartas canceladas e as jogou repetidamente, com o propósito expresso de determinar quais elementos funcionavam. O resultado foi uma longa lista de itens a manter — o custo como trava de cor, várias habilidades em vez de uma, o fato de interagir com o objeto ter consequência, a atacabilidade direta — e apenas dois defeitos genuínos. Catalogar os sobreviventes é o que impede um redesenho de jogar fora as partes que estavam boas.",
+          "flavor": "«Percebemos que não estávamos tão longe.»"
+        },
+        {
+          "title": "Os primeiros membros de uma classe a definem, então nada de esperteza ainda",
+          "rules": "Ele foi firme: os primeiros exemplares deviam ficar bem dentro de suas categorias e reforçar o que cada categoria significa, com o argumento de que os posteriores poderão se desviar depois que a forma estiver estabelecida. Os primeiros exemplares de qualquer coisa são lidos como a definição, não como amostras. Toda variação incomum que você imprime cedo é uma mudança na definição, não uma exceção a ela.",
+          "flavor": "Os seguintes podem vagar. Estes são a referência."
+        },
+        {
+          "title": "Um lado acelerando e o outro sem conseguir frear não é uma decisão",
+          "rules": "Mais fundo do que a queixa sobre o objeto agir sozinho estava a assimetria: o oponente tinha vários meios de apressar a saída dele e o controlador quase nenhum de atrasá-la. Um recurso que só um participante consegue influenciar deixa de ser algo em torno do qual qualquer um dos dois joga. Verifique as duas direções de cada relógio: a pressão e o alívio precisam estar disponíveis a lados opostos.",
+          "flavor": "Consertar isso foi o que obrigou a inventar habilidades que somam recurso em vez de gastá-lo."
+        },
+        {
+          "title": "Escolha a opção de que você não gosta quando a alternativa é pior, e diga que não gosta",
+          "rules": "Remover a ordem fixa deixava duas possibilidades: aleatória, ou escolhida pelo controlador. O aleatório foi rejeitado rápido. Ele registra que deixar o controlador escolher incomodou várias pessoas, ele inclusive, porque fazia o objeto parecer algo que você comanda e não um agente independente — e mesmo assim fizeram, porque era a única rota que resolvia o problema real. Anotar a própria objeção no registro é o que torna a decisão auditável depois.",
+          "flavor": "Aquilo que o design fora construído para evitar acabou sendo o que o salvou."
+        },
+        {
+          "title": "Deixe a narração da contribuição alheia para quem a fez, com nome",
+          "rules": "Ao listar as mudanças posteriores à entrega, ele atribui a maior delas à pessoa específica que a sugeriu e recusa explicitamente contar essas histórias ele mesmo, deixando-as para o líder da equipe que recebeu. Resumir as decisões de outra equipe é útil; apropriar-se da narrativa delas não é. Nomeie quem contribuiu e deixe o relato para quem o viveu.",
+          "flavor": "Quatro mudanças numeradas, creditadas para fora, com o detalhe adiado."
+        },
+        {
+          "title": "Peça os dados porque você vai ter de continuar fazendo estes",
+          "rules": "Ele encerra perguntando aos leitores o que acham e por quê — e dá o motivo sem rodeios: mais destes terão de ser projetados, e as respostas são insumo desse trabalho. Um pedido de opinião com um uso declarado é um pedido diferente de um pedido educado. Ele diz às pessoas quais das reações delas serão de fato aproveitadas.",
+          "flavor": "Não «me digam o que acharam», e sim «os dados que vocês podem me dar são muito valiosos»."
+        },
+        {
+          "title": "Projete cada exemplar a partir de uma descrição de uma linha",
+          "rules": "O departamento criativo forneceu uma breve descrição escrita para cada um dos cinco, e as habilidades foram derivadas dela: aquele cujo tema era justiça foi construído rumo a um grande efeito de varredura; aquele cuja magia afetava a memória ganhou três habilidades que interagem todas com o grimório. Partir de uma frase sobre quem é isto produz um conjunto que difere em espécie, não em números.",
+          "flavor": "Três habilidades, uma metáfora, e a mecânica cai da descrição."
+        },
+        {
+          "title": "Duas rotas em vez de um plano",
+          "rules": "A equipe de design tinha construído cada objeto em torno de uma única sequência interconectada: um plano que você executava. A equipe que recebeu decidiu que cada um deveria oferecer, em vez disso, dois caminhos diferentes para a vitória, com o argumento de que variedade de uso importa mais que elegância de esquema. Um componente com uma única linha correta é um quebra-cabeça resolvido uma vez; um com duas se joga de modo diferente conforme a situação em que cai.",
+          "flavor": "Também acrescentaram uma grande terceira habilidade a cada um, e a cada um um modo de crescer."
+        }
+      ],
+      "takeaway": "Audite o fracasso pelo que ele acertou, confira se os dois lados conseguem mexer em cada relógio, e quando o conserto for uma reclassificação em vez de uma mecânica nova, aceite-o."
+    },
+    "zh-Hans": {
+      "title": "在狂野的一侧行走，下篇",
+      "dek": "重新设计：对失败版本做对了什么的一次盘点、把它修好的那一处改动，以及开发组事后加上的四样东西。",
+      "overview": "取消掉第一次尝试之后，团队用那些失败的牌搭出牌组反复对局，直到能把「有效的」与「无效的」分开。要留下来的清单很长；真正的问题只有两个，而且都与「能否做决定」有关。修法是一处结构性的改动——把一个数字从异能的效果一侧挪到费用一侧——它把一条固定的次序变成了一组带门槛的选择，并顺势逼出了一项配套的新要求。随后他把工作交出去，列出开发组的四项增补，并把它们归功于动手的人。",
+      "lessons": [
+        {
+          "title": "把数字从效果挪到费用，它就变成了一道门槛",
+          "rules": "在失败的那一版里，每个异能都把改变这件东西的资源当作它所做的事的一部分。重新设计把这个改变变成了「使用该异能所要支付的费用」。算术完全相同，后果却不同：作为费用，它可能付不起——这意味着在资源攒够之前，有些异能是用不了的。一次重新归类，把一张平铺的清单变成了一架要往上爬的梯子。",
+          "flavor": "同样的数字，同样的异能，而现在有了等待的理由。"
+        },
+        {
+          "title": "把答案做进这件东西本身，让它自我消耗",
+          "rules": "由于使用这些异能通常会把资源往下推，这件东西自带一只时钟：不论对手做不做什么，它都会把自己耗尽。这是有意为之：他们不希望这个游戏被迫为一整个牌张类别准备一种特定的外部答案。一个会自己花光自己的强力永久物，永远不需要在它旁边印一件专门为它打造的对策。",
+          "flavor": "同一条政策的另一半：生物可以攻击它，而大多数牌组本来就有生物。"
+        },
+        {
+          "title": "重新设计从「清点要留下什么」开始",
+          "rules": "在提出任何方案之前，重组后的团队用那些被取消的牌搭出牌组反复对局，目的明确：判断哪些元素是有效的。结果是一张很长的保留清单——作为颜色门槛的费用、多个异能而不是一个、与这件东西互动会产生后果、可以被直接攻击——而真正的毛病只有两个。把幸存者一一登记下来，正是让一次重新设计不至于把本来没问题的部分一起扔掉的办法。",
+          "flavor": "「我们意识到，我们其实离得没那么远。」"
+        },
+        {
+          "title": "一个类别的头几个成员定义了它，所以先别急着耍花样",
+          "rules": "他态度坚决：最早的这几个必须稳稳地待在各自被指派的类别之内，并强化每个类别的含义；理由是等形状立住了，后来的自然可以偏离。任何东西最早的几个实例都会被读作定义，而不是样本。你在早期印出的每一处不寻常的变化，都是对定义的修改，而不是对它的例外。",
+          "flavor": "后来的可以到处游走。这几个是参照系。"
+        },
+        {
+          "title": "一方能加速、另一方却无法减速，这就不是一个决定",
+          "rules": "比「这东西自己行动」这条抱怨更深的，是那处不对称：对手有好几种办法加快它的离场，而它的操控者几乎没有任何办法拖延。一项只有一个参与方能施加影响的资源，就不再是任何一方会围绕它去打的东西了。检查每一只时钟的两个方向：施压与缓解，必须分别对相对的两方开放。",
+          "flavor": "修好这一点，正是逼出「增加资源而不是花费资源」那类异能的原因。"
+        },
+        {
+          "title": "当另一个选项更糟时，选那个你本人并不喜欢的，并且说出你不喜欢",
+          "rules": "去掉固定次序之后只剩两种可能：随机，或者由操控者选择。随机很快被否掉了。他记下了这一点：让操控者来选，让包括他自己在内的好几个人心里不舒服，因为这让这件东西感觉像是一件你发号施令的东西，而不是一个独立的主体——而他们还是这么做了，因为这是唯一一条能解决真问题的路。把你自己的反对意见记进档案，正是让这个决定日后可以被复核的原因。",
+          "flavor": "这个设计当初就是为了避开它才建起来的东西，最后成了拯救它的那个东西。"
+        },
+        {
+          "title": "把别人贡献的那段叙述留给他们本人，并点名",
+          "rules": "在列举交接之后的改动时，他把其中最大的一项归功于提出它的那个具体的人，并明确表示自己不会去讲那些故事，把它们留给接手团队的负责人。概述另一个团队的决定是有用的；把那段叙事据为己有则不是。点出贡献者的名字，把讲述权留给亲历者。",
+          "flavor": "四项编号的改动，功劳向外归属，细节留待他人。"
+        },
+        {
+          "title": "索要数据，因为你还得继续做这些东西",
+          "rules": "他在结尾询问读者的看法以及理由——并直白地给出原因：以后还要设计更多这样的东西，而这些回应是那项工作的输入。一个附带了明确用途的意见征集，与一句客套的征询是两回事。它告诉人们：他们的哪些反应会被真正拿去使用。",
+          "flavor": "不是「说说你们怎么想」，而是「你们能给我的数据非常有价值」。"
+        },
+        {
+          "title": "从一行角色简介出发去设计每一个实例",
+          "rules": "创意部门为五个中的每一个都提供了一份简短的书面描述，而异能是从中推导出来的：主题是「正义」的那一个，被搭建成朝向一个大范围的清扫效果；魔法作用于「记忆」的那一个，拿到了三个全都与牌库互动的异能。从一句「这是谁」出发，产出的一组东西彼此之间的差别是类别上的，而不是数值上的。",
+          "flavor": "三个异能、一个隐喻，而机制是从那段描述里掉出来的。"
+        },
+        {
+          "title": "两条路线，而不是一个方案",
+          "rules": "设计团队把每一件东西都围绕一条彼此咬合的单一序列来搭建——那是一个你去执行的方案。接手的团队则决定，每一个都应该提供两条不同的通往胜利的路径，理由是「用法的多样」比「方案的优雅」更要紧。一个只有一条正确走法的部件，是一道解过一次就完了的谜题；有两条的那个，则会因为落在什么局面里而打出不同的样子。",
+          "flavor": "他们还给每一个加上了一个大的第三异能，以及一条让自己变强的途径。"
+        }
+      ],
+      "takeaway": "从失败里盘点它做对了什么；检查每一只时钟是不是两方都能拨动；而当修法是一次重新归类、而不是一个新机制时，就采用它。"
+    }
+  }
+}
