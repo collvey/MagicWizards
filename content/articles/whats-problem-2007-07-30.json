@@ -1,0 +1,332 @@
+{
+  "id": "whats-problem-2007-07-30",
+  "slug": "whats-problem-2007-07-30",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2007-07-30",
+  "series": null,
+  "tags": [
+    "problem-solving",
+    "puzzles",
+    "constraints",
+    "mechanics",
+    "method"
+  ],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/whats-problem-2007-07-30",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "What's the Problem?",
+      "dek": "Four classic logic puzzles, each solved and then mapped onto a design skill — including the one whose breakthrough produced a well-known keyword.",
+      "overview": "Rosewater treats designing a release as a puzzle containing puzzles containing puzzles, and demonstrates by presenting four familiar brainteasers — mislabelled objects, a river crossing, a liar and a truth-teller, and a hidden-information problem — solving each, and then naming the design skill it exercises. Two of the four attach to real origin stories: one keyword came from working out what a spell could do after it left the hand, and another came out of a rules meeting where the breakthrough was noticing that a card's properties need not come from the card.",
+      "lessons": [
+        {
+          "title": "Inventory what you know first — the useful item is usually the constraint",
+          "rules": "His stated opening move for any problem: list what you actually know. In the puzzle he uses, there are two facts available, and the decisive one is not the data about what each object does — it is the constraint that every label is guaranteed wrong. That constraint is what gives you a safe place to probe. People reach for the measurements and skip the rule governing them, and the rule is the lever.",
+          "flavor": "Two facts. One of them is a rule about the other."
+        },
+        {
+          "title": "Design the probe whose answer is informative whichever case you are in",
+          "rules": "Faced with one truthful respondent and one liar, indistinguishable, the trick is not to identify which you are talking to. It is to construct a question whose answer is wrong in both cases — ask what the other one would say — so that you can act on the answer without ever resolving the ambiguity. When you cannot determine which branch you are on, look for the question that makes the branch irrelevant.",
+          "flavor": "You never learn which one you asked. You do not need to."
+        },
+        {
+          "title": "Dramatise the failure as dialogue to make it undeniable",
+          "rules": "Demonstrating why hidden characteristics were unworkable, he writes out a short exchange between two players in which every question is met with \"I'm not required to tell you that,\" and the game simply stops. The problem stated abstractly is arguable; the problem staged as four lines of dialogue is not. When you need a room to accept that something does not work, act it out rather than describe it.",
+          "flavor": "The dialogue is six exchanges long and settles the matter entirely."
+        },
+        {
+          "title": "When a piece belongs to two groups, find the function that serves both",
+          "rules": "In a project where every faction was a colour pair, each single-colour card necessarily belonged to two factions at once and had to express both identities. Splitting the difference produces a card that serves neither. The solution was to search specifically for effects that read correctly as an expression of both memberships simultaneously — one function, two interpretations, rather than one card carrying two functions.",
+          "flavor": "Three of the five colours had this problem, and each needed its own answer."
+        },
+        {
+          "title": "The blocker is usually a restriction you added without noticing",
+          "rules": "The moral he draws from the crossing puzzle: what appears to make the problem unsolvable is frequently a rule nobody imposed. In that case it is the unstated assumption that you never move backwards. He is explicit that this can operate so far below awareness that you do not know you have added a constraint — which means the diagnostic step is to write out what you believe the rules are and check each one against the brief.",
+          "flavor": "Every step forward looks required until you try one that undoes the last."
+        },
+        {
+          "title": "When the obvious location fails, move the mechanism downstream of the failure",
+          "rules": "Wanting a spell that could be cast exactly twice, his first attempt kept it in the hand after the first casting — which depended on hidden information and created large problems. Rather than fixing the approach, he accepted the finding: the card has to go to the graveyard. The question then became what could happen to it there, and the answer is a keyword still in use. The constraint that killed the first design is the specification for the second.",
+          "flavor": "The idea came from watching a match and wanting a different way to add value to a single card."
+        },
+        {
+          "title": "Structure the text so the reader can choose their difficulty",
+          "rules": "Each puzzle is presented, then the answer is given for people who solved it, then — separately — a full walkthrough for people who did not, with the solution concealed so that anyone still working on it can skip ahead without spoiling themselves. Three tiers of reader served by one piece of writing, at the cost of a little structural work. Most explanatory writing picks one audience and loses the other two.",
+          "flavor": "He tells you explicitly to skip the solution if you have not got there yet."
+        },
+        {
+          "title": "The property that makes the work exciting is the one that makes it disorienting",
+          "rules": "He describes constantly building things that have never been built as the most liberating part of the job, and immediately names the cost: it is far easier to create a new environment than to understand one. Early in a project the team frequently has to work out what it has actually made. Both halves are the same fact, and the confusion is not a sign that something has gone wrong.",
+          "flavor": "\"But, and this is a pretty big but…\""
+        },
+        {
+          "title": "Remove the assumption that an object's properties come from the object",
+          "rules": "A rules group working through a chain of problems reached one that looked fatal: an object whose characteristics were unknown to the opponent broke every interaction. The breakthrough was to stop treating a card's properties as necessarily printed on it — define the state itself, so that anything in that state has known, fixed characteristics regardless of what it says. That single relaxation produced a mechanic that has been in use ever since.",
+          "flavor": "It came out of a rules meeting, not a design meeting, and he says so."
+        },
+        {
+          "title": "Solve small puzzles to assemble the larger ones",
+          "rules": "His framing for the whole enterprise: a release is a puzzle made of puzzles made of puzzles, where the solutions to the small ones become the pieces you use on the medium ones, which in turn crack the large one. That is worth stating because it changes what progress looks like — a solved sub-problem that does not obviously advance the whole is still the only way the whole ever gets solved.",
+          "flavor": "He offers metapuzzle, then metametapuzzle, and then stops counting."
+        }
+      ],
+      "takeaway": "List what you know and look for the constraint hiding among the data, check whether the rule blocking you is one you invented, and when the obvious place fails, ask what could happen just past it."
+    },
+    "es": {
+      "title": "¿Cuál es el problema?",
+      "dek": "Cuatro acertijos lógicos clásicos, cada uno resuelto y luego trasladado a una destreza de diseño, incluido aquel cuyo hallazgo produjo una palabra clave muy conocida.",
+      "overview": "Rosewater trata el diseño de un lanzamiento como un rompecabezas que contiene rompecabezas que contienen rompecabezas, y lo demuestra presentando cuatro acertijos conocidos —objetos mal etiquetados, un cruce de río, un mentiroso y un veraz, y un problema de información oculta—, resolviendo cada uno y nombrando después la destreza de diseño que ejercita. Dos de los cuatro se enganchan a historias de origen reales: una palabra clave salió de averiguar qué podía hacer un hechizo después de salir de la mano, y otra salió de una reunión de reglas donde el hallazgo fue advertir que las propiedades de una carta no tienen por qué venir de la carta.",
+      "lessons": [
+        {
+          "title": "Inventaría primero lo que sabes: lo útil suele ser la restricción",
+          "rules": "Su movimiento de apertura declarado para cualquier problema: enumera lo que realmente sabes. En el acertijo que usa hay dos hechos disponibles, y el decisivo no son los datos sobre qué hace cada objeto, sino la restricción de que toda etiqueta es con certeza incorrecta. Esa restricción es la que te da un sitio seguro donde sondear. La gente va a por las mediciones y se salta la regla que las gobierna, y la regla es la palanca.",
+          "flavor": "Dos hechos. Uno de ellos es una regla sobre el otro."
+        },
+        {
+          "title": "Diseña la sonda cuya respuesta informa estés en el caso que estés",
+          "rules": "Ante un interlocutor veraz y uno mentiroso, indistinguibles, el truco no es identificar con cuál hablas. Es construir una pregunta cuya respuesta sea errónea en ambos casos —pregunta qué diría el otro— para poder actuar sobre la respuesta sin resolver nunca la ambigüedad. Cuando no puedes determinar en qué rama estás, busca la pregunta que vuelve irrelevante la rama.",
+          "flavor": "Nunca averiguas a cuál preguntaste. No te hace falta."
+        },
+        {
+          "title": "Escenifica el fallo como diálogo para volverlo innegable",
+          "rules": "Para demostrar por qué las características ocultas eran inviables, escribe un intercambio breve entre dos jugadores en el que cada pregunta recibe un «no estoy obligado a decírtelo» y la partida simplemente se detiene. El problema enunciado en abstracto es discutible; el problema montado como cuatro líneas de diálogo no lo es. Cuando necesitas que una sala acepte que algo no funciona, represéntalo en vez de describirlo.",
+          "flavor": "El diálogo tiene seis réplicas y zanja el asunto por completo."
+        },
+        {
+          "title": "Cuando una pieza pertenece a dos grupos, halla la función que sirve a ambos",
+          "rules": "En un proyecto donde cada facción era un par de colores, cada carta de un solo color pertenecía necesariamente a dos facciones a la vez y tenía que expresar ambas identidades. Partir la diferencia produce una carta que no sirve a ninguna. La solución fue buscar específicamente efectos que se leyeran correctamente como expresión de ambas pertenencias a la vez: una función, dos interpretaciones, en vez de una carta cargando dos funciones.",
+          "flavor": "Tres de los cinco colores tenían este problema, y cada uno necesitó su propia respuesta."
+        },
+        {
+          "title": "El bloqueo suele ser una restricción que añadiste sin darte cuenta",
+          "rules": "La moraleja que extrae del acertijo del cruce: lo que parece hacer irresoluble el problema es a menudo una regla que nadie impuso. En ese caso es el supuesto tácito de que nunca se retrocede. Es explícito en que esto puede operar tan por debajo de la conciencia que ni sabes que has añadido una restricción, lo que significa que el paso diagnóstico es escribir cuáles crees que son las reglas y contrastar cada una con el encargo.",
+          "flavor": "Cada paso adelante parece obligado hasta que pruebas uno que deshace el anterior."
+        },
+        {
+          "title": "Cuando el sitio obvio falla, mueve el mecanismo aguas abajo del fallo",
+          "rules": "Queriendo un hechizo que pudiera lanzarse exactamente dos veces, su primer intento lo mantenía en la mano tras el primer lanzamiento, lo que dependía de información oculta y creaba grandes problemas. En vez de arreglar el enfoque, aceptó el hallazgo: la carta tiene que ir al cementerio. La pregunta pasó entonces a ser qué podía ocurrirle allí, y la respuesta es una palabra clave que sigue en uso. La restricción que mató el primer diseño es la especificación del segundo.",
+          "flavor": "La idea vino de ver una partida y querer otra forma de añadir valor a una sola carta."
+        },
+        {
+          "title": "Estructura el texto para que el lector elija su dificultad",
+          "rules": "Cada acertijo se presenta, luego se da la respuesta para quien lo resolvió, y después —por separado— un recorrido completo para quien no, con la solución oculta para que quien siga trabajando en ello pueda saltar adelante sin destriparse nada. Tres niveles de lector servidos por un mismo texto, al coste de un poco de trabajo estructural. Casi toda la escritura explicativa elige un público y pierde los otros dos.",
+          "flavor": "Te dice explícitamente que te saltes la solución si aún no has llegado."
+        },
+        {
+          "title": "La propiedad que hace el trabajo emocionante es la que lo hace desorientador",
+          "rules": "Describe el construir constantemente cosas nunca construidas como la parte más liberadora del oficio, y nombra de inmediato el coste: es mucho más fácil crear un entorno nuevo que entender uno. Al principio de un proyecto el equipo tiene que averiguar con frecuencia qué es lo que ha hecho en realidad. Ambas mitades son el mismo hecho, y la confusión no es señal de que algo haya salido mal.",
+          "flavor": "«Pero, y este es un pero bastante grande...»"
+        },
+        {
+          "title": "Quita el supuesto de que las propiedades de un objeto vienen del objeto",
+          "rules": "Un grupo de reglas recorriendo una cadena de problemas llegó a uno que parecía fatal: un objeto cuyas características el rival desconoce rompe toda interacción. El hallazgo fue dejar de tratar las propiedades de una carta como necesariamente impresas en ella: define el estado en sí, de modo que todo lo que esté en ese estado tenga características conocidas y fijas independientemente de lo que diga. Esa única relajación produjo un mecanismo en uso desde entonces.",
+          "flavor": "Salió de una reunión de reglas, no de una de diseño, y él lo dice."
+        },
+        {
+          "title": "Resuelve acertijos pequeños para ensamblar los grandes",
+          "rules": "Su encuadre de toda la empresa: un lanzamiento es un rompecabezas hecho de rompecabezas hechos de rompecabezas, donde las soluciones de los pequeños se convierten en las piezas que usas en los medianos, que a su vez descifran el grande. Vale la pena enunciarlo porque cambia el aspecto que tiene el progreso: un subproblema resuelto que no hace avanzar obviamente el conjunto sigue siendo la única forma en que el conjunto se resuelve.",
+          "flavor": "Ofrece metarrompecabezas, luego metametarrompecabezas, y entonces deja de contar."
+        }
+      ],
+      "takeaway": "Enumera lo que sabes y busca la restricción escondida entre los datos, comprueba si la regla que te bloquea la inventaste tú, y cuando el sitio obvio falle, pregúntate qué podría ocurrir justo después."
+    },
+    "fr": {
+      "title": "Où est le problème ?",
+      "dek": "Quatre énigmes logiques classiques, chacune résolue puis transposée en compétence de conception — dont celle dont la percée a produit un mot-clé bien connu.",
+      "overview": "Rosewater traite la conception d'une édition comme une énigme contenant des énigmes contenant des énigmes, et le démontre en présentant quatre casse-tête connus — objets mal étiquetés, traversée de rivière, un menteur et un sincère, et un problème d'information cachée — en résolvant chacun, puis en nommant la compétence qu'il exerce. Deux des quatre se rattachent à de vraies histoires d'origine : un mot-clé est né de la question de ce qu'un sort pouvait faire après avoir quitté la main, et un autre d'une réunion de règles où la percée fut de remarquer que les propriétés d'une carte n'ont pas à venir de la carte.",
+      "lessons": [
+        {
+          "title": "Inventoriez d'abord ce que vous savez — l'élément utile est en général la contrainte",
+          "rules": "Son coup d'ouverture déclaré pour tout problème : listez ce que vous savez réellement. Dans l'énigme employée, deux faits sont disponibles, et le décisif n'est pas la donnée sur ce que fait chaque objet — c'est la contrainte selon laquelle chaque étiquette est à coup sûr fausse. Cette contrainte vous donne un endroit sûr où sonder. On se précipite sur les mesures et on saute la règle qui les gouverne, alors que la règle est le levier.",
+          "flavor": "Deux faits. L'un d'eux est une règle portant sur l'autre."
+        },
+        {
+          "title": "Concevez la sonde dont la réponse informe quel que soit le cas où vous êtes",
+          "rules": "Face à un interlocuteur sincère et un menteur, indiscernables, l'astuce n'est pas d'identifier auquel vous parlez. C'est de construire une question dont la réponse est fausse dans les deux cas — demandez ce que l'autre dirait — afin d'agir sur la réponse sans jamais lever l'ambiguïté. Quand vous ne pouvez pas déterminer sur quelle branche vous êtes, cherchez la question qui rend la branche sans importance.",
+          "flavor": "Vous n'apprenez jamais auquel vous avez parlé. Vous n'en avez pas besoin."
+        },
+        {
+          "title": "Mettez l'échec en scène sous forme de dialogue pour le rendre indiscutable",
+          "rules": "Pour démontrer pourquoi des caractéristiques cachées étaient impraticables, il rédige un bref échange entre deux joueurs où chaque question reçoit « je ne suis pas tenu de te le dire » et où la partie s'arrête tout simplement. Le problème énoncé abstraitement se discute ; le problème joué en quatre répliques, non. Quand il faut qu'une salle admette qu'une chose ne marche pas, jouez-la plutôt que de la décrire.",
+          "flavor": "Le dialogue fait six répliques et règle entièrement la question."
+        },
+        {
+          "title": "Quand une pièce appartient à deux groupes, trouvez la fonction qui sert les deux",
+          "rules": "Dans un projet où chaque faction était une paire de couleurs, chaque carte monocolore appartenait nécessairement à deux factions à la fois et devait exprimer les deux identités. Couper la poire en deux donne une carte qui ne sert ni l'une ni l'autre. La solution fut de chercher spécifiquement des effets se lisant correctement comme expression des deux appartenances à la fois — une fonction, deux lectures, plutôt qu'une carte portant deux fonctions.",
+          "flavor": "Trois des cinq couleurs avaient ce problème, et chacune a demandé sa propre réponse."
+        },
+        {
+          "title": "Le blocage est généralement une contrainte que vous avez ajoutée sans le voir",
+          "rules": "La morale qu'il tire de l'énigme de la traversée : ce qui semble rendre le problème insoluble est souvent une règle que personne n'a imposée. Ici, c'est le postulat tacite qu'on ne revient jamais en arrière. Il précise que cela peut opérer si loin sous le seuil de conscience qu'on ignore avoir ajouté une contrainte — d'où l'étape diagnostique : écrire ce que vous croyez être les règles et confronter chacune au cahier des charges.",
+          "flavor": "Chaque pas en avant semble obligatoire jusqu'à ce qu'on en essaie un qui défait le précédent."
+        },
+        {
+          "title": "Quand l'endroit évident échoue, déplacez le mécanisme en aval de l'échec",
+          "rules": "Voulant un sort jouable exactement deux fois, sa première tentative le gardait en main après le premier lancement — ce qui reposait sur de l'information cachée et créait de gros problèmes. Plutôt que de réparer l'approche, il a accepté le constat : la carte doit aller au cimetière. La question est alors devenue ce qui pouvait lui arriver là-bas, et la réponse est un mot-clé encore en usage. La contrainte qui a tué la première conception est le cahier des charges de la seconde.",
+          "flavor": "L'idée est née en regardant une partie et en voulant une autre façon d'ajouter de la valeur à une seule carte."
+        },
+        {
+          "title": "Structurez le texte pour que le lecteur choisisse sa difficulté",
+          "rules": "Chaque énigme est présentée, puis la réponse est donnée pour qui l'a résolue, puis — séparément — un déroulé complet pour qui ne l'a pas résolue, la solution étant masquée afin que celui qui cherche encore puisse sauter plus loin sans se gâcher le plaisir. Trois niveaux de lecteur servis par un même texte, au prix d'un peu de travail de structure. La plupart des textes explicatifs choisissent un public et perdent les deux autres.",
+          "flavor": "Il vous dit explicitement de sauter la solution si vous n'y êtes pas encore arrivé."
+        },
+        {
+          "title": "La propriété qui rend le travail exaltant est celle qui le rend désorientant",
+          "rules": "Il décrit le fait de bâtir sans cesse ce qui n'a jamais été bâti comme la part la plus libératrice du métier, et en nomme aussitôt le coût : il est bien plus facile de créer un environnement nouveau que d'en comprendre un. Tôt dans un projet, l'équipe doit souvent découvrir ce qu'elle a réellement fabriqué. Les deux moitiés sont le même fait, et la confusion n'est pas le signe que quelque chose a mal tourné.",
+          "flavor": "« Mais, et c'est un assez gros mais… »"
+        },
+        {
+          "title": "Levez le postulat selon lequel les propriétés d'un objet viennent de l'objet",
+          "rules": "Un groupe chargé des règles, remontant une chaîne de problèmes, en atteignit un qui semblait fatal : un objet dont l'adversaire ignore les caractéristiques casse toute interaction. La percée fut de cesser de considérer les propriétés d'une carte comme nécessairement imprimées dessus — définir l'état lui-même, de sorte que tout ce qui s'y trouve possède des caractéristiques connues et fixes, quoi qu'il porte. Ce seul relâchement a produit une mécanique employée depuis.",
+          "flavor": "Cela est sorti d'une réunion de règles, non de conception, et il le dit."
+        },
+        {
+          "title": "Résolvez les petites énigmes pour assembler les grandes",
+          "rules": "Son cadrage de l'entreprise entière : une sortie est une énigme faite d'énigmes faites d'énigmes, où les solutions des petites deviennent les pièces employées sur les moyennes, qui à leur tour percent la grande. Cela mérite d'être dit car cela change l'aspect du progrès : un sous-problème résolu qui ne fait pas visiblement avancer l'ensemble reste la seule façon dont l'ensemble finit par se résoudre.",
+          "flavor": "Il propose méta-énigme, puis méta-méta-énigme, puis cesse de compter."
+        }
+      ],
+      "takeaway": "Listez ce que vous savez et cherchez la contrainte cachée parmi les données, vérifiez si la règle qui vous bloque est de votre invention, et quand l'endroit évident échoue, demandez ce qui pourrait se passer juste après."
+    },
+    "pt-BR": {
+      "title": "Qual é o problema?",
+      "dek": "Quatro enigmas lógicos clássicos, cada um resolvido e então mapeado numa habilidade de design — inclusive aquele cuja virada produziu uma palavra-chave bem conhecida.",
+      "overview": "Rosewater trata projetar um lançamento como um quebra-cabeça contendo quebra-cabeças contendo quebra-cabeças, e demonstra apresentando quatro enigmas conhecidos — objetos mal rotulados, uma travessia de rio, um mentiroso e um sincero, e um problema de informação oculta — resolvendo cada um e então nomeando a habilidade de design que ele exercita. Dois dos quatro se ligam a histórias de origem reais: uma palavra-chave veio de descobrir o que uma mágica podia fazer depois de deixar a mão, e outra saiu de uma reunião de regras em que a virada foi perceber que as propriedades de uma carta não precisam vir da carta.",
+      "lessons": [
+        {
+          "title": "Inventarie primeiro o que você sabe — o item útil costuma ser a restrição",
+          "rules": "O lance de abertura declarado dele para qualquer problema: liste o que você de fato sabe. No enigma que ele usa há dois fatos disponíveis, e o decisivo não é o dado sobre o que cada objeto faz — é a restrição de que todo rótulo está garantidamente errado. Essa restrição é o que lhe dá um lugar seguro para sondar. As pessoas correm para as medições e pulam a regra que as governa, e a regra é a alavanca.",
+          "flavor": "Dois fatos. Um deles é uma regra a respeito do outro."
+        },
+        {
+          "title": "Projete a sonda cuja resposta informa em qualquer dos casos",
+          "rules": "Diante de um interlocutor sincero e um mentiroso, indistinguíveis, o truque não é identificar com qual você fala. É construir uma pergunta cuja resposta esteja errada nos dois casos — pergunte o que o outro diria — para poder agir sobre a resposta sem nunca resolver a ambiguidade. Quando você não consegue determinar em que ramo está, procure a pergunta que torna o ramo irrelevante.",
+          "flavor": "Você nunca descobre a qual deles perguntou. E não precisa."
+        },
+        {
+          "title": "Encene a falha como diálogo para torná-la inegável",
+          "rules": "Para demonstrar por que características ocultas eram inviáveis, ele escreve uma troca curta entre dois jogadores em que toda pergunta recebe «não sou obrigado a te dizer isso» e a partida simplesmente para. O problema enunciado em abstrato é discutível; o problema encenado em quatro linhas de diálogo não é. Quando você precisa que uma sala aceite que algo não funciona, encene em vez de descrever.",
+          "flavor": "O diálogo tem seis réplicas e encerra o assunto por completo."
+        },
+        {
+          "title": "Quando uma peça pertence a dois grupos, ache a função que serve aos dois",
+          "rules": "Num projeto em que cada facção era um par de cores, cada carta de uma cor só pertencia necessariamente a duas facções ao mesmo tempo e tinha de expressar as duas identidades. Dividir a diferença produz uma carta que não serve a nenhuma. A solução foi procurar especificamente efeitos que se lessem corretamente como expressão das duas pertenças ao mesmo tempo — uma função, duas leituras, em vez de uma carta carregando duas funções.",
+          "flavor": "Três das cinco cores tinham esse problema, e cada uma precisou da própria resposta."
+        },
+        {
+          "title": "O bloqueio costuma ser uma restrição que você acrescentou sem notar",
+          "rules": "A moral que ele tira do enigma da travessia: o que parece tornar o problema insolúvel é frequentemente uma regra que ninguém impôs. Naquele caso é o pressuposto tácito de que você nunca anda para trás. Ele é explícito em que isso pode operar tão abaixo da consciência que você nem sabe que acrescentou uma restrição — o que significa que o passo diagnóstico é escrever quais você acha que são as regras e conferir cada uma contra o briefing.",
+          "flavor": "Todo passo adiante parece obrigatório até você tentar um que desfaz o anterior."
+        },
+        {
+          "title": "Quando o lugar óbvio falha, mova o mecanismo para depois da falha",
+          "rules": "Querendo uma mágica que pudesse ser conjurada exatamente duas vezes, a primeira tentativa dele a mantinha na mão após a primeira conjuração — o que dependia de informação oculta e criava grandes problemas. Em vez de consertar a abordagem, ele aceitou a constatação: a carta tem de ir para o cemitério. A pergunta virou então o que poderia acontecer com ela lá, e a resposta é uma palavra-chave ainda em uso. A restrição que matou o primeiro design é a especificação do segundo.",
+          "flavor": "A ideia veio de assistir a uma partida e querer outra forma de agregar valor a uma única carta."
+        },
+        {
+          "title": "Estruture o texto para que o leitor escolha a própria dificuldade",
+          "rules": "Cada enigma é apresentado, depois a resposta é dada para quem o resolveu, e então — em separado — um passo a passo completo para quem não resolveu, com a solução escondida para que quem ainda estiver tentando possa pular adiante sem se estragar. Três níveis de leitor servidos por um mesmo texto, ao custo de um pouco de trabalho estrutural. Quase toda escrita explicativa escolhe um público e perde os outros dois.",
+          "flavor": "Ele diz explicitamente para você pular a solução se ainda não chegou lá."
+        },
+        {
+          "title": "A propriedade que torna o trabalho empolgante é a que o torna desorientador",
+          "rules": "Ele descreve construir constantemente coisas nunca construídas como a parte mais libertadora do ofício, e nomeia de imediato o custo: é muito mais fácil criar um ambiente novo do que entender um. No início de um projeto a equipe frequentemente precisa descobrir o que de fato fabricou. As duas metades são o mesmo fato, e a confusão não é sinal de que algo deu errado.",
+          "flavor": "«Mas, e este é um mas bem grande...»"
+        },
+        {
+          "title": "Remova o pressuposto de que as propriedades de um objeto vêm do objeto",
+          "rules": "Um grupo de regras percorrendo uma cadeia de problemas chegou a um que parecia fatal: um objeto cujas características o oponente desconhece quebra toda interação. A virada foi parar de tratar as propriedades de uma carta como necessariamente impressas nela — defina o estado em si, de modo que tudo o que estiver nesse estado tenha características conhecidas e fixas, independentemente do que diga. Esse único afrouxamento produziu uma mecânica em uso desde então.",
+          "flavor": "Saiu de uma reunião de regras, não de design, e ele diz isso."
+        },
+        {
+          "title": "Resolva quebra-cabeças pequenos para montar os grandes",
+          "rules": "O enquadramento dele para a empreitada inteira: um lançamento é um quebra-cabeça feito de quebra-cabeças feitos de quebra-cabeças, em que as soluções dos pequenos viram as peças que você usa nos médios, que por sua vez decifram o grande. Vale enunciar isso porque muda a aparência do progresso: um subproblema resolvido que não faz o todo avançar de modo óbvio continua sendo o único jeito pelo qual o todo acaba resolvido.",
+          "flavor": "Ele oferece metaquebra-cabeça, depois metametaquebra-cabeça, e então para de contar."
+        }
+      ],
+      "takeaway": "Liste o que você sabe e procure a restrição escondida entre os dados, verifique se a regra que te bloqueia foi você quem inventou, e quando o lugar óbvio falhar, pergunte o que poderia acontecer logo depois dele."
+    },
+    "zh-Hans": {
+      "title": "问题出在哪儿？",
+      "dek": "四道经典逻辑谜题，每一道先解开、再对应到一项设计技能——其中一道的破局之处，产出了一个众所周知的关键字。",
+      "overview": "罗斯沃特把设计一个系列看作「一个装着谜题、谜题里又装着谜题」的结构，并以四道大家都熟悉的智力题来演示：贴错标签的物件、渡河问题、一个说谎者与一个说真话者，以及一个隐藏信息的问题。他把每一道解开，然后点名它所锻炼的那项设计技能。四道中有两道挂着真实的来历：一个关键字来自「一个咒语离开手牌之后还能做什么」这个问题；另一个则出自一场规则会议——那里的破局，是意识到一张牌的属性未必要来自这张牌。",
+      "lessons": [
+        {
+          "title": "先把你知道的东西清点一遍——有用的那一项通常是那条约束",
+          "rules": "他为任何问题声明的开局动作是：把你真正知道的东西列出来。在他用的这道谜题里有两条事实可用，而起决定作用的那条并不是「每个物件各自会做什么」的数据——而是「每一个标签都必定是错的」这条约束。正是这条约束给了你一个可以安全试探的落点。人们扑向那些量测数据，跳过了统辖它们的那条规则；而规则才是杠杆。",
+          "flavor": "两条事实。其中一条，是关于另一条的一条规则。"
+        },
+        {
+          "title": "设计一次「无论你身处哪种情形，答案都提供信息」的探针",
+          "rules": "面对一个说真话的人和一个说谎的人，而且无从分辨时，诀窍不在于弄清你在跟哪一个说话。诀窍在于构造一个「两种情形下答案都是错的」的问题——问「另一个会怎么说」——于是你可以据这个答案行动，而始终不必消解那份歧义。当你无法确定自己在哪条分支上时，去找那个能让分支变得无关紧要的问题。",
+          "flavor": "你自始至终都不知道自己问的是哪一个。你也不需要知道。"
+        },
+        {
+          "title": "把失败演成对话，让它无从抵赖",
+          "rules": "为了演示「隐藏的属性」为何行不通，他写了一小段两名玩家之间的对话：每一个提问都得到「我没有义务告诉你」，而这局牌就这么停住了。抽象地陈述出来的问题是可以争辩的；被搬演成四句对白的问题则不能。当你需要一屋子的人承认某件事行不通时，把它演出来，而不是描述它。",
+          "flavor": "那段对话有六个来回，把这件事彻底定死了。"
+        },
+        {
+          "title": "当一件东西同时属于两个群体时，去找那个同时服务于两者的功能",
+          "rules": "在一个「每个阵营都是一对颜色」的项目里，每一张单色牌都必然同时属于两个阵营，并且必须同时表达两种身份。折中的做法只会做出一张两边都不服务的牌。解法是专门去搜寻那些「读起来同时正确地表达了两种归属」的效果——一个功能、两种解读，而不是一张牌背着两个功能。",
+          "flavor": "五个颜色里有三个存在这个问题，而每一个都需要属于自己的答案。"
+        },
+        {
+          "title": "挡路的那一条，通常是你自己不知不觉加上去的限制",
+          "rules": "他从渡河谜题里提炼的道理是：那个看似让问题无解的东西，往往是一条根本没人施加过的规则。在那道题里，它是「你永远不往回走」这个未曾言明的假设。他讲得很明白：这种事可以运作在意识水平之下很深的地方，以至于你根本不知道自己加过一条约束——因此，诊断的步骤是把「你以为的规则」逐条写下来，再拿每一条去对照任务书。",
+          "flavor": "每一步向前看上去都是必需的——直到你试了一步「把上一步撤销掉」的走法。"
+        },
+        {
+          "title": "当那个显而易见的位置失败时，把机制挪到失败点的下游",
+          "rules": "他想要一个「恰好可以施放两次」的咒语；第一次尝试是让它在首次施放后回到手牌——而这依赖隐藏信息，并制造了大麻烦。他没有去修补这条路线，而是接受了这个发现：这张牌必须去坟场。于是问题变成了「它到了那里之后可以发生什么」，而答案是一个至今仍在使用的关键字。杀死第一个设计的那条约束，正是第二个设计的需求说明书。",
+          "flavor": "这个点子来自看一场对局时，想要另一种「给单独一张牌增加价值」的方式。"
+        },
+        {
+          "title": "把文章的结构做成让读者自选难度",
+          "rules": "每道谜题先呈现出来，接着给出答案供已经解开的人核对，然后——单独地——为没解开的人提供完整的推演过程；而解答是被遮住的，好让仍在琢磨的人可以直接跳过、不至于被剧透。同一篇文字服务三档读者，代价只是一点结构上的功夫。绝大多数说明性写作会挑定一档读者，然后失掉另外两档。",
+          "flavor": "他明确地告诉你：如果你还没想出来，就把解答跳过去。"
+        },
+        {
+          "title": "让这份工作令人兴奋的那项属性，正是让它令人晕头转向的那一项",
+          "rules": "他把「不断建造从未有人建造过的东西」形容为这份职业里最令人解放的部分，随即点出它的代价：创造一个新环境，比理解一个新环境容易得多。在项目早期，团队常常需要弄清楚自己到底造出了什么。这两半是同一个事实，而那份困惑并不是「出了什么问题」的信号。",
+          "flavor": "「不过——而且这是个相当大的『不过』……」"
+        },
+        {
+          "title": "把「一个物件的属性来自这个物件」这个假设拿掉",
+          "rules": "一个负责规则的小组沿着一串问题往下走，遇到了一个看似致命的：一个「对手不知道其属性」的物件，会把所有互动都弄坏。破局之处在于：不再把一张牌的属性视作必然印在它身上——去定义那个状态本身，使得处在该状态下的任何东西，无论上面写着什么，都具有已知且固定的属性。仅仅这一处松绑，产出了一个从此沿用至今的机制。",
+          "flavor": "这出自一场规则会议，而不是设计会议；他把这一点说了出来。"
+        },
+        {
+          "title": "解开小谜题，用来拼装大谜题",
+          "rules": "他给这整件事的框架是：一次发行是一个由谜题构成的谜题，而那些谜题本身又由谜题构成；小谜题的解，变成你用在中等谜题上的零件，而中等谜题反过来撬开那个大的。这值得说出来，因为它改变了「进展」看上去的样子：一个解开了、却看不出如何推进整体的子问题，仍然是整体最终得以解开的唯一途径。",
+          "flavor": "他先说「元谜题」，再说「元元谜题」，然后就不数了。"
+        }
+      ],
+      "takeaway": "把你知道的列出来，并在数据之间寻找那条藏着的约束；检查挡住你的那条规则是不是你自己发明的；而当那个显而易见的位置失败时，去问：紧挨着它的后面，可以发生什么。"
+    }
+  }
+}
