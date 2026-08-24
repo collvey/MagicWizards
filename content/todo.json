@@ -2,9 +2,9 @@
   "checkedAt": "2026-08-22",
   "column": "making-magic",
   "total": 1265,
-  "done": 750,
-  "skipped": 128,
-  "pending": 387,
+  "done": 752,
+  "skipped": 130,
+  "pending": 383,
   "tiers": {
     "1-curated": {
       "total": 13,
@@ -16,7 +16,7 @@
     },
     "3-archive": {
       "total": 1039,
-      "pending": 387
+      "pending": 383
     }
   },
   "items": [
@@ -9667,7 +9667,8 @@
       "publishedAt": "2010-07-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Source URL serves the body of what-do-you-do-living-weapon-2011-03-07, which is already archived. Retried four times across sessions; all URL variants 404."
     },
     {
       "id": "my-rogues-gallery-2010-06-21",
@@ -9777,7 +9778,7 @@
       "publishedAt": "2010-02-15",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "all-together-now-2010-02-08",
@@ -9788,7 +9789,7 @@
       "publishedAt": "2010-02-08",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "all-together-now-2010-02-05",
@@ -9799,7 +9800,8 @@
       "publishedAt": "2010-02-05",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL for all-together-now-2010-02-08; same article body."
     },
     {
       "id": "multikick-seat-pants-2010-01-22",

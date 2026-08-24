@@ -1,0 +1,320 @@
+{
+  "id": "nuts-bolts-design-skeleton-2010-02-15",
+  "slug": "nuts-bolts-design-skeleton-2010-02-15",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2010-02-15",
+  "series": { "id": "nuts-and-bolts", "order": 2, "total": 19 },
+  "tags": ["nuts-and-bolts", "design-skeleton", "process", "colour-pie", "limited"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/nuts-bolts-design-skeleton-2010-02-15",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Nuts & Bolts: Design Skeletons",
+      "dek": "A blueprint built live for an invented set, one pass at a time, until the squeeze shows up.",
+      "overview": "The second instalment of the annual look at design minutiae, and the one that shows the tool rather than describing it. He invents a small set and a made-up mechanic so nothing real is disclosed, lays out the code for its sixty commons, and then fills them in pass by pass — creature count, then keywords and sizes, then the other card types, then the block's mechanic and each colour's recurring effects. The interesting part is not the finished grid but the moment on each pass where something stops fitting and he has to trade.",
+      "takeaway": "The most common design issue is having too much to fit in, rather than too little.",
+      "lessons": [
+        {
+          "title": "Under-supply the category on purpose, so the last picks are a stretch",
+          "rules": "The proportion of creatures rises and falls between releases, and he gives the current reasoning for where it sits. Limited is more fun if you more often have to stretch a little for your last few cards than if you have to cut cards you already know are strong. The justification runs all the way down: at its core the game is about discovery, and a deck that fills itself never makes anyone try something they haven't played. So the supply is deliberately set below comfortable. Scarcity at the bottom of the deck is what forces the experiment.",
+          "flavor": "Not enough good cards is the feature. Enough good cards is the bug."
+        },
+        {
+          "title": "When one party owns both ends of a spectrum, split the spectrum",
+          "rules": "For years one colour got both the most creatures and the biggest ones. Some time before this column they spent a while trying to differentiate it from its neighbour and reached a conclusion he states as an obvious one in hindsight: it was silly for a single colour to hold both extremes. So the count went to the other colour, which is the army, and the size stayed where it was. One beats you with numbers; one beats you with size. The distinction is now stated in a form you can act on, and the change to the allocation table follows from it automatically.",
+          "flavor": "Two ends of one axis, and each of them now belongs to somebody."
+        },
+        {
+          "title": "Where the mechanic lands, and what it rides on, is a flavour statement",
+          "rules": "Weaving the block mechanic through the skeleton isn't just a matter of hitting a count. He points at the pattern that emerged as he did it: it is heavier in the two colours the theme belongs to, and — the subtler half — the colours differ in what card type carries it. Two of them put the ability on creatures; two put it only on instants and sorceries. Same keyword, same rules text, and yet each colour meets it in a different place, which is a claim about that colour's relationship to the theme made entirely through allocation.",
+          "flavor": "The keyword is identical everywhere. Where you meet it is not."
+        },
+        {
+          "title": "The standing problem is over-subscription, not emptiness",
+          "rules": "He says this plainly at the end, as the conclusion the worked example is meant to demonstrate: what you can tell from the sample is that the most common design issue is having too much to fit in, rather than too little. This inverts how a blank grid feels when you start. Sixty empty slots look like an invitation. By the fourth pass they are a set of competing claims, and every addition has to displace something already written down. The document's real function is to make the contest visible early rather than at the end.",
+          "flavor": "Sixty empty boxes are not sixty opportunities. They are a budget."
+        },
+        {
+          "title": "When you cut, repay the quality you cut, not the count",
+          "rules": "The worked example runs into trouble in one colour: with ten slots pulled out for artifacts and lands, it can't hold the number of creatures he assigned. He walks through three moves. He removes a creature. He then converts the token-making spell from an instant to a sorcery, because he wants the instant slots for the combat tricks that colour trades on. And then — the move worth keeping — he adds flash to one of the creatures, because even with two instants left he knew he needed a little more surprise. The count was restored by the first two moves; the third restored what the cuts had actually cost.",
+          "flavor": "You didn't lose a card. You lost surprise, and surprise is what you have to put back."
+        },
+        {
+          "title": "Write the recurring obligations down, and grade them always versus often",
+          "rules": "Alongside the block mechanic he weaves in what he calls the basic effects — the things that show up in essentially every release, at the cheapest rarity, in a particular colour. He gives the list per colour and, more usefully, splits it into two tiers. Some effects are *always* there: one colour always has a counterspell, a bounce, card drawing, a creature-locking enchantment. Others are *sometimes*: card sifting, shrinking, twiddling. The always list is a checklist you fail by omission; the sometimes list is inventory. And anything that misses the cut can still be present in the format one rarity up.",
+          "flavor": "One list you must satisfy, one list you may draw from, and a place for what didn't fit."
+        },
+        {
+          "title": "State the permitted exception alongside the rule",
+          "rules": "The size guidance is not a set of prohibitions but a set of shapes, each with its licensed departure written into it. One colour is almost all small, though it has recently drifted toward more medium ones for format reasons. One is all small with one medium and sometimes one large — and the large is usually a serpent-like thing. One never gets large, barring a quirky block theme. One gets a large every once in a while, but most often at the small end of the large range. A rule with no stated exception gets broken silently; a rule that names its exception is still in force when you use it.",
+          "flavor": "Never large. Except for that one, and here is what it usually looks like."
+        },
+        {
+          "title": "A working document earns its keep through the questions it forces",
+          "rules": "He is explicit about what the fourth pass gave him, and it is not the grid. Putting in all the keywords started to make him realise where he was getting squeezed. Weaving in the block mechanic forced him to start thinking about how much of it he wanted and in which colours. And then a question he says he only got to start examining because the others were now on paper: whether the mechanic is flavoured differently in different colours. Each answer written down is a prompt for a question that was not askable before it.",
+          "flavor": "The grid is what it leaves behind. The questions are what it was for."
+        },
+        {
+          "title": "A strict ranking manufactures a bottom, so choose who takes it",
+          "rules": "The colours are ordered by creature share and the amounts stepped evenly out from the middle, which puts one of them last by construction. His justification for which one is two sentences and admirably unembarrassed: some colour has to have the fewest creatures, so why not the one most tied to spells? He is not claiming the ranking discovered a fact. He is acknowledging that the method requires a last place and then assigning it where the existing identity already explains the result, so the allocation reads as character rather than as arithmetic.",
+          "flavor": "Somebody finishes last. The only real decision is whether it looks like a reason."
+        },
+        {
+          "title": "A mechanic that grafts onto anything can go wherever the room is",
+          "rules": "He notes the property of his invented mechanic almost in passing, but it is what makes the rest of the pass possible: it goes on both permanents and spells, and it can be grafted onto any type of spell, so it pairs with different effects. That is what lets him place it late, after the counts and card types are already fixed, by dropping it into whichever slots still have space. A mechanic that demands a particular card type has to be allocated first and everything else arranged around it. One that rides on anything can be the last thing you place.",
+          "flavor": "It didn't need a slot of its own. It needed a slot that already existed."
+        }
+      ]
+    },
+    "es": {
+      "title": "Tuercas y tornillos: los esqueletos de diseño",
+      "dek": "Un plano construido en directo para una expansión inventada, pasada a pasada, hasta que aparece el apretón.",
+      "overview": "La segunda entrega de la mirada anual a las minucias del diseño, y la que enseña la herramienta en vez de describirla. Inventa una expansión pequeña y una mecánica ficticia para no revelar nada real, expone el código de sus sesenta comunes y luego los rellena pasada a pasada: recuento de criaturas, después palabras clave y tamaños, después el resto de tipos de carta, y después la mecánica del bloque y los efectos recurrentes de cada color. Lo interesante no es la rejilla acabada sino el momento, en cada pasada, en que algo deja de caber y tiene que negociar.",
+      "takeaway": "El problema de diseño más habitual es tener demasiado que meter, no demasiado poco.",
+      "lessons": [
+        {
+          "title": "Suministra de menos a propósito, para que las últimas elecciones cuesten",
+          "rules": "La proporción de criaturas sube y baja entre lanzamientos, y él da el razonamiento actual sobre dónde se sitúa. El limitado es más divertido si más a menudo tienes que estirarte un poco para tus últimas cartas que si tienes que cortar cartas que ya sabes que son fuertes. La justificación llega hasta abajo: en su núcleo el juego trata del descubrimiento, y un mazo que se llena solo nunca hace que nadie pruebe algo que no ha jugado. Así que la oferta se fija deliberadamente por debajo de lo cómodo. La escasez al final del mazo es lo que fuerza el experimento.",
+          "flavor": "Que no haya bastantes cartas buenas es la característica. Que las haya es el fallo."
+        },
+        {
+          "title": "Cuando una parte posee los dos extremos de un espectro, parte el espectro",
+          "rules": "Durante años un color se llevaba a la vez el mayor número de criaturas y las más grandes. Un tiempo antes de esta columna dedicaron un rato a diferenciarlo de su vecino y llegaron a una conclusión que él enuncia como obvia a posteriori: era absurdo que un solo color tuviera los dos extremos. Así que el recuento pasó al otro color, que es el del ejército, y el tamaño se quedó donde estaba. Uno te gana por número; el otro te gana por tamaño. La distinción queda ahora enunciada de forma accionable, y el cambio en la tabla de reparto se sigue de ella automáticamente.",
+          "flavor": "Dos extremos de un mismo eje, y cada uno pertenece ya a alguien."
+        },
+        {
+          "title": "Dónde aterriza la mecánica, y sobre qué cabalga, es una declaración de ambientación",
+          "rules": "Entretejer la mecánica del bloque por el esqueleto no es solo cuestión de alcanzar una cifra. Él señala el patrón que emergió mientras lo hacía: pesa más en los dos colores a los que pertenece el tema y —la mitad más sutil— los colores difieren en qué tipo de carta la lleva. Dos de ellos ponen la habilidad en criaturas; dos la ponen solo en instantáneos y conjuros. Misma palabra clave, mismo texto de reglas, y sin embargo cada color se la encuentra en un sitio distinto, lo cual es una afirmación sobre la relación de ese color con el tema hecha enteramente mediante el reparto.",
+          "flavor": "La palabra clave es idéntica en todas partes. Dónde te la encuentras, no."
+        },
+        {
+          "title": "El problema permanente es el exceso de solicitudes, no el vacío",
+          "rules": "Lo dice sin rodeos al final, como la conclusión que el ejemplo trabajado pretende demostrar: lo que se ve en la muestra es que el problema de diseño más habitual es tener demasiado que meter, no demasiado poco. Esto invierte la sensación que da una rejilla en blanco al empezar. Sesenta casillas vacías parecen una invitación. Para la cuarta pasada son un conjunto de reclamaciones en competencia, y cada añadido tiene que desplazar algo ya escrito. La verdadera función del documento es hacer visible esa disputa pronto y no al final.",
+          "flavor": "Sesenta casillas vacías no son sesenta oportunidades. Son un presupuesto."
+        },
+        {
+          "title": "Cuando cortes, devuelve la cualidad que cortaste, no el recuento",
+          "rules": "El ejemplo se topa con un problema en un color: con diez casillas retiradas para artefactos y tierras, no cabe el número de criaturas que había asignado. Recorre tres movimientos. Quita una criatura. Después convierte el conjuro creador de fichas de instantáneo a conjuro, porque quiere las casillas de instantáneo para los trucos de combate de los que vive ese color. Y luego —el movimiento que merece guardarse— añade destello a una de las criaturas, porque incluso con dos instantáneos restantes sabía que necesitaba un poco más de sorpresa. Los dos primeros movimientos restauraron el recuento; el tercero restauró lo que los recortes de verdad habían costado.",
+          "flavor": "No perdiste una carta. Perdiste sorpresa, y la sorpresa es lo que hay que reponer."
+        },
+        {
+          "title": "Escribe las obligaciones recurrentes y clasifícalas en siempre y a menudo",
+          "rules": "Junto con la mecánica del bloque entreteje lo que llama los efectos básicos: las cosas que aparecen prácticamente en cada lanzamiento, en la rareza más barata, en un color concreto. Da la lista por color y, más útil aún, la parte en dos niveles. Algunos efectos están *siempre*: un color siempre tiene un contrahechizo, un rebote, robo de cartas, un encantamiento que bloquea criaturas. Otros están *a veces*: filtrado de cartas, reducción, girar y enderezar. La lista de siempre es una checklist que suspendes por omisión; la de a veces es inventario. Y lo que no entra puede seguir presente en el formato una rareza más arriba.",
+          "flavor": "Una lista que debes satisfacer, otra de la que puedes tirar, y un sitio para lo que no cupo."
+        },
+        {
+          "title": "Enuncia la excepción permitida junto con la regla",
+          "rules": "La guía de tamaños no es un conjunto de prohibiciones sino un conjunto de formas, cada una con su desviación autorizada escrita dentro. Un color es casi todo pequeño, aunque últimamente ha derivado hacia más medianos por razones de formato. Otro es todo pequeño con una mediana y a veces una grande, y la grande suele ser una especie de serpiente. Otro nunca tiene grandes, salvo algún tema de bloque peculiar. Otro tiene una grande de vez en cuando, pero casi siempre en el extremo pequeño del rango grande. Una regla sin excepción enunciada se rompe en silencio; una regla que nombra su excepción sigue vigente cuando la usas.",
+          "flavor": "Nunca grandes. Salvo esa, y así es como suele ser."
+        },
+        {
+          "title": "Un documento de trabajo se gana su sitio por las preguntas que obliga a hacerse",
+          "rules": "Es explícito sobre lo que le dio la cuarta pasada, y no es la rejilla. Meter todas las palabras clave empezó a hacerle ver dónde se estaba quedando estrecho. Entretejer la mecánica del bloque le obligó a empezar a pensar cuánta quería y en qué colores. Y luego una pregunta que, dice, solo pudo empezar a examinar porque las otras ya estaban sobre el papel: si la mecánica está ambientada de forma distinta en colores distintos. Cada respuesta anotada es el detonante de una pregunta que antes de ella no era formulable.",
+          "flavor": "La rejilla es lo que deja atrás. Las preguntas son para lo que servía."
+        },
+        {
+          "title": "Un orden estricto fabrica un último puesto, así que elige quién lo ocupa",
+          "rules": "Los colores se ordenan por cuota de criaturas y las cantidades se escalonan de forma pareja desde el centro, lo que deja a uno el último por construcción. Su justificación de cuál son dos frases y admirablemente sin vergüenza: algún color tiene que tener el menor número de criaturas, así que ¿por qué no el más ligado a los conjuros? No pretende que el orden haya descubierto un hecho. Reconoce que el método exige un último puesto y luego lo asigna donde la identidad ya existente explica el resultado, de modo que el reparto se lea como carácter y no como aritmética.",
+          "flavor": "Alguien queda el último. La única decisión real es si eso parece una razón."
+        },
+        {
+          "title": "Una mecánica que se injerta en cualquier cosa puede ir donde haya sitio",
+          "rules": "Señala la propiedad de su mecánica inventada casi de pasada, pero es lo que hace posible el resto de la pasada: va sobre permanentes y sobre hechizos, y puede injertarse en cualquier tipo de hechizo, así que se empareja con efectos distintos. Eso es lo que le permite colocarla tarde, cuando los recuentos y los tipos de carta ya están fijados, dejándola caer en las casillas que aún tengan espacio. Una mecánica que exige un tipo de carta concreto hay que asignarla primero y ordenar todo lo demás a su alrededor. Una que cabalga sobre cualquier cosa puede ser lo último que coloques.",
+          "flavor": "No necesitaba una casilla propia. Necesitaba una casilla que ya existía."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Écrous et boulons : les squelettes de conception",
+      "dek": "Un plan bâti en direct pour une extension inventée, passe après passe, jusqu'à ce que l'étranglement apparaisse.",
+      "overview": "Le deuxième épisode du regard annuel sur les menus détails de la conception, et celui qui montre l'outil au lieu de le décrire. Il invente une petite extension et une mécanique fictive pour ne rien divulguer de réel, pose le code de ses soixante communes, puis les remplit passe après passe : nombre de créatures, puis mots-clés et tailles, puis les autres types de cartes, puis la mécanique du bloc et les effets récurrents de chaque couleur. L'intéressant n'est pas la grille achevée mais le moment, à chaque passe, où quelque chose cesse de tenir et où il doit négocier.",
+      "takeaway": "Le problème de conception le plus courant est d'avoir trop à faire entrer, pas trop peu.",
+      "lessons": [
+        {
+          "title": "Sous-approvisionnez volontairement, pour que les derniers choix coûtent",
+          "rules": "La proportion de créatures monte et descend d'une extension à l'autre, et il donne le raisonnement actuel sur son niveau. Le format limité est plus amusant si l'on doit plus souvent se forcer un peu pour ses dernières cartes que si l'on doit couper des cartes qu'on sait déjà fortes. La justification descend jusqu'en bas : au fond, le jeu porte sur la découverte, et un deck qui se remplit tout seul ne fait jamais essayer à personne ce qu'il n'a pas joué. L'offre est donc délibérément fixée en dessous du confortable. La rareté au bas du deck est ce qui force l'expérimentation.",
+          "flavor": "Pas assez de bonnes cartes, c'est la fonctionnalité. Assez, c'est le défaut."
+        },
+        {
+          "title": "Quand une partie possède les deux bouts d'un axe, coupez l'axe",
+          "rules": "Pendant des années, une couleur obtenait à la fois le plus de créatures et les plus grosses. Quelque temps avant cette chronique, ils ont passé un moment à la différencier de sa voisine et ont abouti à une conclusion qu'il énonce comme évidente après coup : il était absurde qu'une seule couleur détienne les deux extrêmes. Le nombre est donc allé à l'autre couleur, celle de l'armée, et la taille est restée où elle était. L'une vous bat par le nombre ; l'autre par la taille. La distinction est désormais énoncée sous une forme exploitable, et le changement du tableau de répartition en découle automatiquement.",
+          "flavor": "Deux bouts d'un même axe, et chacun appartient maintenant à quelqu'un."
+        },
+        {
+          "title": "Où atterrit la mécanique, et sur quoi elle chevauche, est une déclaration d'ambiance",
+          "rules": "Tisser la mécanique du bloc dans le squelette n'est pas qu'une affaire de quota. Il pointe le motif apparu en le faisant : elle pèse davantage dans les deux couleurs auxquelles le thème appartient et — la moitié plus subtile — les couleurs diffèrent quant au type de carte qui la porte. Deux d'entre elles mettent la capacité sur des créatures ; deux ne la mettent que sur des éphémères et des rituels. Même mot-clé, même texte de règles, et pourtant chaque couleur la rencontre à un endroit différent : une affirmation sur le rapport de cette couleur au thème, faite entièrement par la répartition.",
+          "flavor": "Le mot-clé est identique partout. L'endroit où vous le croisez, non."
+        },
+        {
+          "title": "Le problème permanent est la sur-souscription, pas le vide",
+          "rules": "Il le dit sans détour à la fin, comme la conclusion que l'exemple travaillé doit démontrer : ce que l'échantillon montre, c'est que le problème de conception le plus courant est d'avoir trop à faire entrer, pas trop peu. Cela inverse l'impression que donne une grille vierge au départ. Soixante cases vides ressemblent à une invitation. À la quatrième passe, ce sont des revendications concurrentes, et chaque ajout doit déloger quelque chose de déjà écrit. La vraie fonction du document est de rendre ce conflit visible tôt plutôt qu'à la fin.",
+          "flavor": "Soixante cases vides ne sont pas soixante occasions. C'est un budget."
+        },
+        {
+          "title": "Quand vous coupez, remboursez la qualité coupée, pas le nombre",
+          "rules": "L'exemple bute sur une couleur : avec dix cases retirées pour les artefacts et les terrains, elle ne peut pas contenir le nombre de créatures assigné. Il déroule trois gestes. Il retire une créature. Il convertit ensuite le sort générateur de jetons d'éphémère en rituel, parce qu'il veut les cases d'éphémère pour les tours de combat dont cette couleur vit. Puis — le geste à retenir — il ajoute la flash à l'une des créatures, parce que même avec deux éphémères restants il savait qu'il lui fallait un peu plus de surprise. Les deux premiers gestes ont rétabli le compte ; le troisième a rétabli ce que les coupes avaient réellement coûté.",
+          "flavor": "Vous n'avez pas perdu une carte. Vous avez perdu de la surprise, et c'est elle qu'il faut remettre."
+        },
+        {
+          "title": "Notez les obligations récurrentes, et classez-les en toujours et souvent",
+          "rules": "Avec la mécanique du bloc, il tisse ce qu'il appelle les effets de base : les choses qui figurent dans pratiquement chaque extension, à la rareté la moins chère, dans une couleur donnée. Il donne la liste par couleur et, plus utile, la scinde en deux niveaux. Certains effets sont *toujours* là : une couleur a toujours un contresort, un renvoi en main, de la pioche, un enchantement qui verrouille une créature. D'autres sont *parfois* : le tri de cartes, la réduction, le fait de dégager ou d'engager. La liste des toujours est une checklist qu'on rate par omission ; celle des parfois est un stock. Et ce qui n'entre pas peut rester présent dans le format une rareté plus haut.",
+          "flavor": "Une liste à satisfaire, une liste où puiser, et une place pour ce qui n'a pas tenu."
+        },
+        {
+          "title": "Énoncez l'exception autorisée en même temps que la règle",
+          "rules": "Le guide des tailles n'est pas un ensemble d'interdits mais un ensemble de formes, chacune avec son écart autorisé inscrit dedans. Une couleur est presque entièrement petite, même si elle a récemment dérivé vers plus de moyennes pour des raisons de format. Une autre est toute petite avec une moyenne et parfois une grande — et la grande est d'ordinaire une sorte de serpent. Une autre n'a jamais de grande, sauf thème de bloc singulier. Une autre en a une de temps en temps, mais le plus souvent au bas de la fourchette des grandes. Une règle sans exception énoncée se brise en silence ; une règle qui nomme son exception tient encore quand on s'en sert.",
+          "flavor": "Jamais de grande. Sauf celle-là, et voici à quoi elle ressemble d'habitude."
+        },
+        {
+          "title": "Un document de travail se justifie par les questions qu'il impose",
+          "rules": "Il dit explicitement ce que la quatrième passe lui a apporté, et ce n'est pas la grille. Poser tous les mots-clés a commencé à lui faire voir où il se retrouvait à l'étroit. Tisser la mécanique du bloc l'a obligé à réfléchir à la quantité qu'il en voulait et dans quelles couleurs. Puis une question qu'il ne dit avoir pu commencer à examiner que parce que les autres étaient désormais sur le papier : la mécanique est-elle habillée différemment selon les couleurs ? Chaque réponse notée est l'amorce d'une question qui n'était pas posable avant elle.",
+          "flavor": "La grille est ce qu'il laisse. Les questions sont ce à quoi il servait."
+        },
+        {
+          "title": "Un classement strict fabrique une dernière place, alors choisissez qui l'occupe",
+          "rules": "Les couleurs sont ordonnées par part de créatures et les quantités échelonnées régulièrement depuis le milieu, ce qui en met une dernière par construction. Sa justification du choix tient en deux phrases, admirablement sans gêne : il faut bien qu'une couleur ait le moins de créatures, alors pourquoi pas celle qui est la plus liée aux sorts ? Il ne prétend pas que le classement a découvert un fait. Il reconnaît que la méthode exige une dernière place, puis l'attribue là où l'identité existante explique déjà le résultat, de sorte que la répartition se lise comme du caractère et non comme de l'arithmétique.",
+          "flavor": "Quelqu'un finit dernier. La seule vraie décision est de savoir si cela ressemble à une raison."
+        },
+        {
+          "title": "Une mécanique qui se greffe sur n'importe quoi peut aller là où il reste de la place",
+          "rules": "Il note la propriété de sa mécanique inventée presque en passant, mais c'est elle qui rend le reste de la passe possible : elle va sur les permanents et sur les sorts, et elle peut se greffer sur n'importe quel type de sort, donc elle s'apparie à des effets divers. C'est ce qui lui permet de la placer tard, une fois les comptes et les types de cartes déjà fixés, en la laissant tomber dans les cases qui ont encore de la place. Une mécanique qui exige un type de carte précis doit être attribuée d'abord, tout le reste s'organisant autour. Une qui chevauche n'importe quoi peut être la dernière chose que vous placez.",
+          "flavor": "Elle n'avait pas besoin d'une case à elle. Elle avait besoin d'une case déjà là."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Porcas e parafusos: os esqueletos de design",
+      "dek": "Uma planta construída ao vivo para uma coleção inventada, passada a passada, até o aperto aparecer.",
+      "overview": "A segunda parcela do olhar anual sobre as minúcias do design, e a que mostra a ferramenta em vez de descrevê-la. Ele inventa uma coleção pequena e uma mecânica fictícia para não revelar nada real, expõe o código de suas sessenta comuns e então as preenche passada a passada: contagem de criaturas, depois palavras-chave e tamanhos, depois os outros tipos de carta, e depois a mecânica do bloco e os efeitos recorrentes de cada cor. O interessante não é a grade pronta, e sim o momento, em cada passada, em que algo deixa de caber e ele precisa negociar.",
+      "takeaway": "O problema de design mais comum é ter coisa demais para caber, e não de menos.",
+      "lessons": [
+        {
+          "title": "Ofereça de menos de propósito, para que as últimas escolhas custem",
+          "rules": "A proporção de criaturas sobe e desce entre lançamentos, e ele dá o raciocínio atual sobre onde ela fica. O limitado é mais divertido se você mais vezes tiver de se esticar um pouco para as últimas cartas do que se tiver de cortar cartas que já sabe serem fortes. A justificativa desce até o fundo: no âmago, o jogo é sobre descoberta, e um baralho que se preenche sozinho nunca faz ninguém experimentar algo que não jogou. Então a oferta é deliberadamente fixada abaixo do confortável. A escassez no fim do baralho é o que força o experimento.",
+          "flavor": "Não haver cartas boas suficientes é o recurso. Haver é o defeito."
+        },
+        {
+          "title": "Quando uma parte detém as duas pontas de um espectro, parta o espectro",
+          "rules": "Por anos uma cor levava ao mesmo tempo o maior número de criaturas e as maiores. Algum tempo antes desta coluna eles passaram um período tentando diferenciá-la da vizinha e chegaram a uma conclusão que ele enuncia como óbvia em retrospecto: era bobo uma única cor deter os dois extremos. Então a contagem foi para a outra cor, a do exército, e o tamanho ficou onde estava. Uma vence pelo número; a outra vence pelo tamanho. A distinção agora está enunciada de forma acionável, e a mudança na tabela de alocação decorre dela automaticamente.",
+          "flavor": "Duas pontas de um mesmo eixo, e cada uma pertence agora a alguém."
+        },
+        {
+          "title": "Onde a mecânica pousa, e sobre o que ela cavalga, é uma declaração de ambientação",
+          "rules": "Entretecer a mecânica do bloco pelo esqueleto não é só questão de bater uma contagem. Ele aponta o padrão que emergiu enquanto fazia isso: ela pesa mais nas duas cores a que o tema pertence e — a metade mais sutil — as cores diferem em qual tipo de carta a carrega. Duas delas põem a habilidade em criaturas; duas a põem só em instantâneas e feitiços. Mesma palavra-chave, mesmo texto de regras, e ainda assim cada cor a encontra num lugar diferente, o que é uma afirmação sobre a relação daquela cor com o tema feita inteiramente pela alocação.",
+          "flavor": "A palavra-chave é idêntica em toda parte. Onde você a encontra, não."
+        },
+        {
+          "title": "O problema permanente é excesso de candidatos, não vazio",
+          "rules": "Ele diz isso sem rodeios no fim, como a conclusão que o exemplo trabalhado pretende demonstrar: o que se vê na amostra é que o problema de design mais comum é ter coisa demais para caber, e não de menos. Isso inverte a sensação que uma grade em branco dá no começo. Sessenta casas vazias parecem um convite. Na quarta passada são um conjunto de reivindicações concorrentes, e cada acréscimo precisa deslocar algo já escrito. A função real do documento é tornar essa disputa visível cedo, e não no fim.",
+          "flavor": "Sessenta casas vazias não são sessenta oportunidades. São um orçamento."
+        },
+        {
+          "title": "Quando cortar, devolva a qualidade que cortou, não a contagem",
+          "rules": "O exemplo esbarra num problema numa cor: com dez casas retiradas para artefatos e terrenos, não cabe o número de criaturas que ele havia atribuído. Ele percorre três movimentos. Tira uma criatura. Depois converte a mágica criadora de fichas de instantânea para feitiço, porque quer as casas de instantânea para os truques de combate de que aquela cor vive. E então — o movimento que vale guardar — acrescenta lampejo a uma das criaturas, porque mesmo com duas instantâneas restantes ele sabia que precisava de um pouco mais de surpresa. Os dois primeiros movimentos restauraram a contagem; o terceiro restaurou o que os cortes de fato custaram.",
+          "flavor": "Você não perdeu uma carta. Perdeu surpresa, e é a surpresa que precisa repor."
+        },
+        {
+          "title": "Anote as obrigações recorrentes e classifique-as em sempre e frequentemente",
+          "rules": "Junto com a mecânica do bloco ele entretece o que chama de efeitos básicos: as coisas que aparecem em praticamente todo lançamento, na raridade mais barata, numa cor específica. Ele dá a lista por cor e, mais útil ainda, a divide em dois níveis. Alguns efeitos estão *sempre* lá: uma cor sempre tem uma contramágica, um retorno à mão, compra de cartas, um encantamento que trava criatura. Outros estão *às vezes*: filtragem, encolhimento, virar e desvirar. A lista dos sempre é um checklist que você reprova por omissão; a dos às vezes é estoque. E o que não entra pode seguir presente no formato uma raridade acima.",
+          "flavor": "Uma lista a satisfazer, uma lista de onde tirar, e um lugar para o que não coube."
+        },
+        {
+          "title": "Enuncie a exceção permitida junto com a regra",
+          "rules": "A orientação de tamanhos não é um conjunto de proibições e sim um conjunto de formas, cada uma com o seu desvio licenciado escrito por dentro. Uma cor é quase toda pequena, embora tenha derivado recentemente para mais médias por razões de formato. Outra é toda pequena com uma média e às vezes uma grande — e a grande costuma ser uma espécie de serpente. Outra nunca tem grandes, salvo algum tema de bloco peculiar. Outra tem uma grande de vez em quando, mas quase sempre na ponta pequena da faixa grande. Uma regra sem exceção enunciada se quebra em silêncio; uma regra que nomeia sua exceção continua valendo quando você a usa.",
+          "flavor": "Nunca grande. Exceto aquela, e é assim que ela costuma ser."
+        },
+        {
+          "title": "Um documento de trabalho se paga pelas perguntas que obriga a fazer",
+          "rules": "Ele é explícito sobre o que a quarta passada lhe deu, e não é a grade. Colocar todas as palavras-chave começou a fazê-lo perceber onde estava ficando espremido. Entretecer a mecânica do bloco o obrigou a começar a pensar quanto dela queria e em quais cores. E então uma pergunta que, diz ele, só pôde começar a examinar porque as outras já estavam no papel: se a mecânica é ambientada de modo diferente em cores diferentes. Cada resposta anotada é o gatilho de uma pergunta que antes dela não era formulável.",
+          "flavor": "A grade é o que ele deixa para trás. As perguntas são para o que ele servia."
+        },
+        {
+          "title": "Uma ordenação estrita fabrica um último lugar, então escolha quem o ocupa",
+          "rules": "As cores são ordenadas por participação em criaturas e as quantidades escalonadas de modo parelho a partir do meio, o que deixa uma delas em último por construção. A justificativa dele para qual são duas frases e admiravelmente sem constrangimento: alguma cor tem de ter o menor número de criaturas, então por que não a mais ligada às mágicas? Ele não afirma que a ordenação descobriu um fato. Reconhece que o método exige um último lugar e então o atribui onde a identidade já existente explica o resultado, de modo que a alocação se leia como caráter e não como aritmética.",
+          "flavor": "Alguém fica em último. A única decisão real é se isso parece um motivo."
+        },
+        {
+          "title": "Uma mecânica que se enxerta em qualquer coisa pode ir onde houver espaço",
+          "rules": "Ele nota a propriedade da mecânica inventada quase de passagem, mas é ela que torna o resto da passada possível: vai em permanentes e em mágicas, e pode ser enxertada em qualquer tipo de mágica, então se emparelha com efeitos diversos. É isso que lhe permite colocá-la tarde, depois que as contagens e os tipos de carta já estão fixados, deixando-a cair nas casas que ainda têm espaço. Uma mecânica que exige um tipo de carta específico precisa ser alocada primeiro, com todo o resto arranjado em volta. Uma que cavalga em qualquer coisa pode ser a última coisa que você posiciona.",
+          "flavor": "Ela não precisava de uma casa própria. Precisava de uma casa que já existia."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "螺母与螺栓：设计骨架",
+      "dek": "为一个虚构的系列现场搭起一张蓝图，一轮一轮地过，直到「挤不下」出现。",
+      "overview": "这是那个每年一次、专看设计琐碎细节的栏目的第二期；也是把工具直接演示出来、而不是拿嘴描述的那一期。他虚构了一个小型系列和一个编出来的机制，好让什么真实内容都不必泄露；摆出它六十张普通牌的编码，然后一轮一轮地往里填：先是生物数量，再是关键字与体型，再是其余的牌张类别，最后是环境机制和每个颜色的固定效果。有意思的地方并不是填完的那张表格，而是每一轮里某样东西开始塞不进去、他不得不做交换的那个时刻。",
+      "takeaway": "最常见的设计问题，是要塞进来的东西太多，而不是太少。",
+      "lessons": [
+        {
+          "title": "有意把供给压低，好让最后几张选牌需要将就",
+          "rules": "生物所占的比例在各个系列之间起起落落；而他给出了当下把它定在这个位置上的理由。如果你更多时候得为最后几张牌稍微将就一下，而不是不得不砍掉自己明知很强的牌，那么限制赛就更好玩。这条理由一路通到底：这个游戏的内核是「发现」；而一副自己就能填满的牌组，永远不会逼任何人去试一张他没打过的牌。所以供给是被有意设定在「舒服」之下的。牌组末端的那份稀缺，正是逼出尝试的东西。",
+          "flavor": "好牌不够，是特性。好牌够了，才是缺陷。"
+        },
+        {
+          "title": "当一方同时占着一条光谱的两头时，把这条光谱劈开",
+          "rules": "有很多年，某一个颜色同时拿着最多的生物和最大的生物。在这篇专栏之前不久，他们花了一段时间去把它和它的邻居区分开来，并得出了一个他事后说来显而易见的结论：让一个颜色同时占着两个极端是很荒唐的。于是「数量」归了另一个颜色——那个属于军队的颜色；而「体型」留在原处。一个靠数量打赢你；一个靠体型打赢你。这项区分如今被表述成了一个可以据以行动的形式；而分配表上的改动，也就自动地从它那里推出来了。",
+          "flavor": "同一条轴的两端，而现在每一端都归某个人所有。"
+        },
+        {
+          "title": "机制落在哪里、以及它骑在什么东西上，本身就是一句关于风味的陈述",
+          "rules": "把环境机制织进骨架，并不只是凑够一个数字的事。他指出了自己在做这件事时浮现出来的那个格局：它在这个主题所属的那两个颜色里更重；而更细的那一半是——各个颜色在「由哪种牌张类别来承载它」上并不相同。其中两个把这项异能放在生物上；另外两个只把它放在瞬间和法术上。同一个关键字、同一段规则叙述，然而每个颜色与它相遇的地方都不一样；而这，是一句完全通过分配说出来的、关于那个颜色与这个主题之间关系的主张。",
+          "flavor": "关键字在哪儿都一模一样。你在哪儿碰见它，不一样。"
+        },
+        {
+          "title": "常态问题是超额认购，不是空",
+          "rules": "他在文末把这一点直说了出来，把它当作这个演算示例本该证明的结论：从这个样本你能看出来，最常见的设计问题是要塞进来的东西太多，而不是太少。这与一张空白表格在开头给人的感觉是反的。六十个空格看上去像是一份邀请。而到了第四轮，它们成了一组互相竞争的诉求；每一次新增，都必须挤掉某样已经写下去的东西。这份文件真正的作用，是把这场争夺提早暴露出来，而不是等到最后。",
+          "flavor": "六十个空格不是六十个机会。那是一笔预算。"
+        },
+        {
+          "title": "砍掉之后，要补回你砍掉的那份品质，而不是那个数目",
+          "rules": "这个示例在某个颜色上遇到了麻烦：由于有十个格子被抽走给了神器和地，它装不下他先前分配的那个生物数量。他走了三步。他拿掉一个生物。接着他把那张产衍生物的牌从瞬间改成了法术，因为他想把瞬间的格子留给这个颜色赖以为生的战斗小技巧。然后是值得记住的那一步——他给其中一个生物加上了闪现；因为即便还剩着两张瞬间，他知道自己需要再多一点「意外」。前两步补回的是数目；第三步补回的，是这些删减真正付出的代价。",
+          "flavor": "你失去的不是一张牌。你失去的是意外；而必须放回去的正是意外。"
+        },
+        {
+          "title": "把那些反复出现的义务写下来，并分成「总是」和「经常」",
+          "rules": "在织入环境机制的同时，他也织入了他称为「基础效果」的东西——那些几乎在每一个系列里、在最便宜的稀有度上、在某个特定颜色里都会出现的东西。他按颜色给出了这份清单；而更有用的是，他把它分成了两层。有些效果是*总是*在的：某个颜色总是有一张反击、一张弹回、一张抓牌、一张锁住生物的结界。另一些则是*有时候*：过滤牌、削减、横置与重置。「总是」那张单子是一份你会因为漏掉而不及格的检查表；「有时候」那张则是库存。而没能挤进来的东西，仍然可以在高一档的稀有度上出现在这个赛制里。",
+          "flavor": "一张你必须满足的单子，一张你可以取用的单子，以及一个安放没塞下的东西的地方。"
+        },
+        {
+          "title": "把获准的例外和规则一起写出来",
+          "rules": "关于体型的指引并不是一组禁令，而是一组形状；每一个形状里都写着它被许可的那一次偏离。有个颜色几乎全是小的，尽管出于赛制上的理由，它近来向「更多中等」漂了一点。另一个全是小的，加一个中等，有时候再加一个大的——而那个大的通常是某种蛇形的东西。又一个从不出大的，除非碰上某个古怪的环境主题。再一个偶尔会有一个大的，但多半处在「大」这个区间里偏小的那一端。一条没有写明例外的规则会被无声地破掉；而一条点了名自己例外的规则，在你用它的时候仍然有效。",
+          "flavor": "从不出大的。除了那一个；而它通常长这样。"
+        },
+        {
+          "title": "一份工作文件，靠的是它逼你问出来的那些问题来挣自己的位置",
+          "rules": "他明说了第四轮给了他什么，而那并不是那张表格。把所有关键字放进去，开始让他意识到自己在哪些地方被挤紧了。把环境机制织进去，逼着他开始去想：这东西他想要多少、放在哪些颜色里。然后是一个他说自己只有在别的问题都已经落到纸上之后、才得以开始考察的问题：这个机制在不同的颜色里，风味是不是也不一样？每一个被写下来的答案，都是一个在它出现之前根本问不出来的问题的引子。",
+          "flavor": "表格是它留下的东西。问题才是它的用处。"
+        },
+        {
+          "title": "一份严格的排序会制造出一个末位，所以要挑清楚由谁来当",
+          "rules": "各个颜色按生物占比排序，数量从中间均匀地向两边递进；而这在结构上就把其中一个放到了末位。他关于「为什么是它」的说明只有两句话，而且坦荡得令人佩服：总得有一个颜色的生物最少，那为什么不是那个与法术关系最深的呢？他并没有主张这次排序发现了某个事实。他承认的是：这套方法必然要求一个末位；于是他把它安排到那个「既有身份本来就能解释这个结果」的地方，好让这份分配读起来像是性格，而不是算术。",
+          "flavor": "总有人垫底。唯一真正的决定，是这件事看起来像不像一个理由。"
+        },
+        {
+          "title": "一个能嫁接到任何东西上的机制，可以放到还有空的地方去",
+          "rules": "他几乎是顺口提到了自己那个虚构机制的一项性质；但正是它让这一轮其余的操作成为可能：它既能上永久物、也能上咒语；而且它能被嫁接到任何一类咒语上，所以可以和各式各样的效果配对。正是这一点，让他能够把它放到很后面——在数量和牌张类别都已经定死之后，把它丢进那些还有空位的格子里。一个非要某种特定牌张类别的机制，必须最先被分配，其余的一切都得围着它排。而一个骑在什么上面都行的机制，可以是你最后才安放的那样东西。",
+          "flavor": "它不需要一个属于自己的格子。它需要的是一个本来就在那里的格子。"
+        }
+      ]
+    }
+  }
+}
