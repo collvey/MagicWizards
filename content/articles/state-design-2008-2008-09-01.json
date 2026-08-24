@@ -1,0 +1,320 @@
+{
+  "id": "state-design-2008-2008-09-01",
+  "slug": "state-design-2008-2008-09-01",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2008-09-01",
+  "series": null,
+  "tags": ["state-of-design", "block-structure", "complexity", "retrospective", "goals"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/state-design-2008-2008-09-01",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "The State of Design 2008",
+      "dek": "His fourth annual audit of his own department: a year he rates among his best, and the specific things he intends to stop doing.",
+      "overview": "The yearly self-assessment, modelled on a head of state's address, covering a year he judges to contain some of the best work done under his leadership. The interesting half is the criticism. He identifies three related failures — too many mechanics, sets that swerve away from the block they belong to, and complexity that accumulates from small nuances rather than from any single card — and converts them into one instruction for the coming year: do less, and spend the recovered time on what remains.",
+      "takeaway": "Trying out new things is hard. Not doing something that you always do is a lot harder.",
+      "lessons": [
+        {
+          "title": "Re-examine the explanation you gave for a surprising result",
+          "rules": "A mechanic they had doubts about outpolled the established favourite in player surveys, and at the time they explained the result away as novelty — people liked it because it was new. A year on, he reopens the question: now they are thinking that maybe it was not just newness. The lesson is about the shape of the mistake rather than the topic. A dismissive explanation for an unexpected result is comfortable precisely because it requires nothing to change, and it deserves to be revisited once the novelty it invoked has worn off.",
+          "flavor": "We said it won because it was new. It is not new any more."
+        },
+        {
+          "title": "Complexity accumulates from nuances, so pick themes that cost no words",
+          "rules": "He separates two kinds of difficulty. One is the long card — and he notes with relief that nothing this year approached the text length of a notorious earlier keyword, because both blocks revolved around things that need almost no words to express: creature types and mana symbols. The other kind is worse because no single card is at fault. When there are many small things to care about and many tiny nuances spread across many cards, you reach board states where your brain melts trying to track what applies. Lots of little things add up to a big thing.",
+          "flavor": "No card was complicated. The board was unreadable anyway."
+        },
+        {
+          "title": "The value of an experiment is the option it creates",
+          "rules": "Having broken the long-standing structural model for how releases are grouped, he is careful about what the success actually bought. They are not abandoning the classic arrangement — the next block returns to it. What the experiment established is that the composition is not carved in stone, which means the department can deviate again when there is reason to. The deliverable was not a replacement standard; it was permission, and a precedent proving the permission is real.",
+          "flavor": "They went back to the old shape. They now know they don't have to."
+        },
+        {
+          "title": "Don't swerve away from the block you belong to",
+          "rules": "He names two sets with the same problem: each is full of cards doing neat things that do not quite line up with the focus of the large set that preceded it. The cards are good and the sets have their own identity, which is what makes the failure subtle. A release that follows another has an obligation to the theme already established, and material that would be fine in isolation becomes a cost when it pulls attention sideways from what the block is about. Distinctiveness and drift look identical from close up.",
+          "flavor": "Every card was worth printing. Together they pointed away from the set before."
+        },
+        {
+          "title": "Do less, and spend the recovered time on what remains",
+          "rules": "Asked where the biggest room for growth is, he does not name a capability gap — the teams, he says, are doing excellent work. The problem is volume. His instruction for the coming year is to give themselves the ability to spend more time on each thing, which is only possible by producing fewer things. It is a resource argument rather than a quality one: the same people doing the same good work will do it better if there is less of it, and the cut is what buys the improvement.",
+          "flavor": "Nobody needs to get better. There needs to be less of it."
+        },
+        {
+          "title": "Use your own lowest scores as the shortlist",
+          "rules": "Reviewing a year full of mechanics he likes, he asks the uncomfortable question — did we need all of them? — and then does something more useful than musing about it. He names candidates, and he says exactly how he chose them: they are the ones that scored lowest in internal surveys. Rather than trusting his own taste about what could have gone, he defers to the measurement he already had lying around. Having data and then reasoning from your impressions instead is the common failure this avoids.",
+          "flavor": "Which ones could we have cut? Start with the ones that came last."
+        },
+        {
+          "title": "Stopping what you always do is harder than starting something new",
+          "rules": "The boldest choice of the year was abandoning a structural convention so entrenched he calls it a sacred cow, and the line he draws from it is the most portable thing in the column. Trying new things is hard; not doing something you always do is a lot harder. Novelty is additive and can be argued for on its merits, while a deletion has to argue against the accumulated weight of every previous time the thing was done — including the successes, which are the evidence against you.",
+          "flavor": "Adding is a proposal. Removing is an accusation."
+        },
+        {
+          "title": "A new card type succeeds on a feeling, not a function",
+          "rules": "He admits to nervousness about introducing an entirely new card type that behaved unlike anything before while still flowing seamlessly into the game, and then judges the result on flavour rather than mechanics. His favourite part is that it has the feel they wanted: you have not summoned yet another creature, you have convinced someone to come and aid you. They arrive with presence, and the opponent is forced to deal with them. The rules made it possible; the sensation is what made it worth doing.",
+          "flavor": "Not another creature cast. Somebody persuaded to show up."
+        },
+        {
+          "title": "Design and flavour are one loop with two teams",
+          "rules": "Each year, he says, he becomes more entrenched in the view that design and flavour are not separate entities. Different teams work on each, and that division is organisational rather than conceptual. What makes a block shine is a design that begets flavour and a flavour that begets design — a circuit rather than a handoff, where each side generates material the other could not have reached alone. He points at a past block as the case where this ran best, and treats it as the standard to be reached rather than an unusual success.",
+          "flavor": "Two teams, two buildings, one loop that has to close."
+        },
+        {
+          "title": "Layering: build dynamic interactions on top of simple themes",
+          "rules": "Having promised universal themes for the year, he reports delivering them, and then names what he enjoyed most: how much could be built on top of simple foundations. He calls the process layering and reaches for a haircutting analogy to describe it. The point being made is that simplicity at the base and richness in play are not in tension — a theme that requires almost nothing to understand can support a great deal of interaction, provided the interaction is added in visible layers rather than baked into the theme itself.",
+          "flavor": "Simple underneath. Everything interesting sits on top of it."
+        }
+      ]
+    },
+    "es": {
+      "title": "El estado del diseño 2008",
+      "dek": "Su cuarta auditoría anual de su propio departamento: un año que califica entre sus mejores, y las cosas concretas que piensa dejar de hacer.",
+      "overview": "La autoevaluación anual, modelada sobre el discurso de un jefe de Estado, que cubre un año que juzga con parte del mejor trabajo hecho bajo su dirección. La mitad interesante es la crítica. Identifica tres fallos relacionados —demasiadas mecánicas, colecciones que se desvían del bloque al que pertenecen, y complejidad que se acumula a partir de pequeños matices y no de ninguna carta concreta— y los convierte en una única instrucción para el año que viene: hacer menos, y gastar el tiempo recuperado en lo que quede.",
+      "takeaway": "Probar cosas nuevas es difícil. No hacer algo que siempre haces es mucho más difícil.",
+      "lessons": [
+        {
+          "title": "Reexamina la explicación que diste para un resultado sorprendente",
+          "rules": "Una mecánica sobre la que tenían dudas superó en las encuestas a la favorita establecida, y en su momento explicaron el resultado como novedad: gustaba porque era nueva. Un año después, reabre la cuestión: ahora piensan que tal vez no fue solo lo nuevo. La lección va sobre la forma del error y no sobre el tema. Una explicación desdeñosa de un resultado inesperado resulta cómoda precisamente porque no exige que nada cambie, y merece ser revisada una vez que la novedad que invocó se ha desgastado.",
+          "flavor": "Dijimos que ganó por ser nueva. Ya no es nueva."
+        },
+        {
+          "title": "La complejidad se acumula desde los matices; elige temas que no cuesten palabras",
+          "rules": "Separa dos tipos de dificultad. Uno es la carta larga, y señala con alivio que nada este año se acercó a la extensión de texto de una palabra clave anterior célebre, porque ambos bloques giraban en torno a cosas que casi no necesitan palabras para expresarse: tipos de criatura y símbolos de maná. El otro tipo es peor porque ninguna carta concreta tiene la culpa. Cuando hay muchas cositas de las que preocuparse y muchos matices minúsculos repartidos por muchas cartas, llegas a estados de mesa donde el cerebro se derrite intentando seguir qué aplica. Muchas cosas pequeñas suman una grande.",
+          "flavor": "Ninguna carta era complicada. La mesa era ilegible igualmente."
+        },
+        {
+          "title": "El valor de un experimento es la opción que crea",
+          "rules": "Tras romper el modelo estructural de toda la vida sobre cómo se agrupan los lanzamientos, es cuidadoso sobre qué compró realmente el éxito. No están abandonando la disposición clásica: el siguiente bloque vuelve a ella. Lo que el experimento estableció es que la composición no está tallada en piedra, lo que significa que el departamento puede desviarse de nuevo cuando haya motivo. El entregable no fue un estándar sustituto; fue un permiso, y un precedente que demuestra que el permiso es real.",
+          "flavor": "Volvieron a la forma antigua. Ahora saben que no tienen por qué."
+        },
+        {
+          "title": "No te desvíes del bloque al que perteneces",
+          "rules": "Nombra dos colecciones con el mismo problema: cada una está llena de cartas que hacen cosas interesantes que no acaban de alinearse con el foco de la colección grande que la precedió. Las cartas son buenas y las colecciones tienen identidad propia, y eso es lo que hace sutil el fallo. Un lanzamiento que sigue a otro tiene una obligación con el tema ya establecido, y material que estaría bien en aislamiento se convierte en un coste cuando desvía la atención de aquello de lo que va el bloque. Lo distintivo y la deriva se ven idénticos de cerca.",
+          "flavor": "Cada carta merecía imprimirse. Juntas apuntaban lejos de la colección anterior."
+        },
+        {
+          "title": "Haz menos, y gasta el tiempo recuperado en lo que quede",
+          "rules": "Cuando le preguntan dónde está el mayor margen de crecimiento, no nombra una carencia de capacidad: los equipos, dice, están haciendo un trabajo excelente. El problema es el volumen. Su instrucción para el año que viene es darse la capacidad de dedicar más tiempo a cada cosa, lo que solo es posible produciendo menos cosas. Es un argumento de recursos y no de calidad: la misma gente haciendo el mismo buen trabajo lo hará mejor si hay menos, y el recorte es lo que compra la mejora.",
+          "flavor": "Nadie tiene que mejorar. Tiene que haber menos."
+        },
+        {
+          "title": "Usa tus propias notas más bajas como lista corta",
+          "rules": "Repasando un año lleno de mecánicas que le gustan, hace la pregunta incómoda —¿las necesitábamos todas?— y luego hace algo más útil que darle vueltas. Nombra candidatas, y dice exactamente cómo las eligió: son las que sacaron la puntuación más baja en las encuestas internas. En vez de fiarse de su propio gusto sobre qué podría haber sobrado, se remite a la medición que ya tenía por ahí. Tener datos y luego razonar desde tus impresiones es el fallo habitual que esto evita.",
+          "flavor": "¿Cuáles podríamos haber cortado? Empieza por las que quedaron últimas."
+        },
+        {
+          "title": "Dejar de hacer lo que siempre haces es más difícil que empezar algo nuevo",
+          "rules": "La elección más audaz del año fue abandonar una convención estructural tan arraigada que la llama vaca sagrada, y la frase que extrae de ello es lo más exportable de la columna. Probar cosas nuevas es difícil; no hacer algo que siempre haces es mucho más difícil. La novedad es aditiva y puede defenderse por sus méritos, mientras que una supresión tiene que argumentar contra el peso acumulado de todas las veces anteriores en que se hizo la cosa, incluidos los éxitos, que son la prueba en tu contra.",
+          "flavor": "Añadir es una propuesta. Quitar es una acusación."
+        },
+        {
+          "title": "Un tipo de carta nuevo triunfa por una sensación, no por una función",
+          "rules": "Admite nervios al introducir un tipo de carta enteramente nuevo que se comportaba como nada anterior y aun así fluía sin costuras en el juego, y luego juzga el resultado por ambientación y no por mecánica. Su parte favorita es que tiene la sensación que querían: no has invocado otra criatura más, has convencido a alguien de venir a ayudarte. Llegan con presencia, y el rival se ve obligado a ocuparse de ellos. Las reglas lo hicieron posible; la sensación es lo que hizo que mereciera la pena.",
+          "flavor": "No otra criatura lanzada. Alguien persuadido de presentarse."
+        },
+        {
+          "title": "Diseño y ambientación son un solo circuito con dos equipos",
+          "rules": "Cada año, dice, se atrinchera más en la idea de que diseño y ambientación no son entidades separadas. Equipos distintos trabajan en cada uno, y esa división es organizativa y no conceptual. Lo que hace brillar a un bloque es un diseño que engendra ambientación y una ambientación que engendra diseño: un circuito y no un traspaso, donde cada lado genera material que el otro no habría alcanzado solo. Señala un bloque pasado como el caso donde mejor funcionó, y lo trata como el estándar a alcanzar y no como un éxito inusual.",
+          "flavor": "Dos equipos, dos edificios, un circuito que tiene que cerrarse."
+        },
+        {
+          "title": "Estratificar: construir interacciones dinámicas sobre temas simples",
+          "rules": "Habiendo prometido temas universales para el año, informa de haberlos entregado, y luego nombra lo que más disfrutó: cuánto se podía construir encima de cimientos simples. Llama al proceso estratificación y recurre a una analogía con cortar el pelo para describirlo. Lo que sostiene es que la simplicidad en la base y la riqueza en el juego no están en tensión: un tema que casi no requiere entender nada puede sostener muchísima interacción, siempre que la interacción se añada en capas visibles y no se cueza dentro del tema mismo.",
+          "flavor": "Simple por debajo. Todo lo interesante se apoya encima."
+        }
+      ]
+    },
+    "fr": {
+      "title": "L'état de la conception 2008",
+      "dek": "Son quatrième audit annuel de son propre service : une année qu'il classe parmi ses meilleures, et les choses précises qu'il compte cesser de faire.",
+      "overview": "L'autoévaluation annuelle, calquée sur le discours d'un chef d'État, portant sur une année qu'il juge comporter certains des meilleurs travaux réalisés sous sa direction. La moitié intéressante est la critique. Il identifie trois échecs liés — trop de mécaniques, des extensions qui s'écartent du bloc auquel elles appartiennent, et une complexité qui s'accumule à partir de menues nuances plutôt que d'une carte en particulier — et les convertit en une seule consigne pour l'année à venir : faire moins, et dépenser le temps récupéré sur ce qui reste.",
+      "takeaway": "Essayer des choses nouvelles est difficile. Ne pas faire ce que l'on fait toujours est bien plus difficile.",
+      "lessons": [
+        {
+          "title": "Réexaminez l'explication donnée à un résultat surprenant",
+          "rules": "Une mécanique dont ils doutaient a devancé la favorite établie dans les sondages, et sur le moment ils ont expliqué le résultat par la nouveauté — on l'aimait parce qu'elle était neuve. Un an plus tard, il rouvre la question : ils se disent maintenant que ce n'était peut-être pas que la nouveauté. La leçon porte sur la forme de l'erreur, non sur le sujet. Une explication expéditive d'un résultat inattendu est confortable précisément parce qu'elle n'exige aucun changement, et elle mérite d'être revisitée une fois la nouveauté invoquée dissipée.",
+          "flavor": "Nous avons dit qu'elle gagnait parce qu'elle était neuve. Elle ne l'est plus."
+        },
+        {
+          "title": "La complexité s'accumule par nuances ; choisissez des thèmes qui ne coûtent pas de mots",
+          "rules": "Il distingue deux sortes de difficulté. L'une est la carte longue — et il note avec soulagement que rien cette année n'a approché la longueur d'un mot-clé antérieur fameux, car les deux blocs tournaient autour de choses qui ne demandent presque pas de mots : types de créatures et symboles de mana. L'autre sorte est pire car aucune carte n'est fautive. Quand il y a beaucoup de petites choses à surveiller et de minuscules nuances réparties sur beaucoup de cartes, on atteint des états de jeu où le cerveau fond à essayer de suivre ce qui s'applique. Beaucoup de petites choses en font une grande.",
+          "flavor": "Aucune carte n'était compliquée. Le plateau était illisible quand même."
+        },
+        {
+          "title": "La valeur d'une expérience est l'option qu'elle crée",
+          "rules": "Après avoir brisé le modèle structurel de toujours pour le regroupement des sorties, il est précis sur ce que le succès a réellement acheté. Ils n'abandonnent pas l'agencement classique — le bloc suivant y revient. Ce que l'expérience a établi, c'est que la composition n'est pas gravée dans le marbre, ce qui signifie que le service peut dévier de nouveau quand il y a une raison. Le livrable n'était pas un standard de remplacement ; c'était une permission, et un précédent prouvant que la permission est réelle.",
+          "flavor": "Ils sont revenus à l'ancienne forme. Ils savent désormais qu'ils n'y sont pas tenus."
+        },
+        {
+          "title": "Ne vous écartez pas du bloc auquel vous appartenez",
+          "rules": "Il nomme deux extensions au même défaut : chacune regorge de cartes faisant des choses intéressantes qui ne s'alignent pas tout à fait sur l'axe de la grande extension qui l'a précédée. Les cartes sont bonnes et les extensions ont leur identité, ce qui rend l'échec subtil. Une sortie qui en suit une autre a une obligation envers le thème déjà posé, et un matériau très bien pris isolément devient un coût dès qu'il détourne l'attention de ce dont le bloc parle. De près, la singularité et la dérive se ressemblent trait pour trait.",
+          "flavor": "Chaque carte méritait d'être imprimée. Ensemble elles pointaient loin de l'extension d'avant."
+        },
+        {
+          "title": "Faites moins, et dépensez le temps récupéré sur ce qui reste",
+          "rules": "Interrogé sur la plus grande marge de progression, il ne nomme pas un manque de compétence : les équipes, dit-il, font un excellent travail. Le problème est le volume. Sa consigne pour l'année à venir est de se donner la possibilité de consacrer plus de temps à chaque chose, ce qui n'est possible qu'en produisant moins de choses. C'est un argument de ressources, non de qualité : les mêmes gens faisant le même bon travail le feront mieux s'il y en a moins, et c'est la coupe qui achète l'amélioration.",
+          "flavor": "Personne n'a besoin de s'améliorer. Il faut qu'il y en ait moins."
+        },
+        {
+          "title": "Servez-vous de vos propres notes les plus basses comme liste courte",
+          "rules": "Passant en revue une année pleine de mécaniques qu'il aime, il pose la question inconfortable — en fallait-il autant ? — puis fait mieux que d'y songer. Il nomme des candidates, et dit exactement comment il les a choisies : ce sont celles qui ont obtenu les plus mauvaises notes dans les sondages internes. Plutôt que de se fier à son propre goût sur ce qui aurait pu sauter, il s'en remet à la mesure qu'il avait déjà sous la main. Disposer de données puis raisonner d'après ses impressions est l'échec courant que cela évite.",
+          "flavor": "Lesquelles aurions-nous pu couper ? Commencez par celles arrivées dernières."
+        },
+        {
+          "title": "Cesser ce qu'on fait toujours est plus dur que commencer du neuf",
+          "rules": "Le choix le plus audacieux de l'année fut d'abandonner une convention structurelle si enracinée qu'il l'appelle une vache sacrée, et la phrase qu'il en tire est ce qu'il y a de plus exportable dans la chronique. Essayer du neuf est difficile ; ne pas faire ce qu'on fait toujours est bien plus difficile. La nouveauté est additive et se plaide sur ses mérites, tandis qu'une suppression doit plaider contre le poids accumulé de toutes les fois précédentes où la chose fut faite — succès compris, lesquels sont la preuve à charge contre vous.",
+          "flavor": "Ajouter est une proposition. Retirer est une accusation."
+        },
+        {
+          "title": "Un nouveau type de carte réussit par une sensation, non par une fonction",
+          "rules": "Il avoue son inquiétude à introduire un type de carte entièrement nouveau, se comportant comme rien d'antérieur tout en s'intégrant sans couture au jeu, puis juge le résultat sur l'ambiance et non sur la mécanique. Ce qu'il préfère, c'est que la sensation soit celle voulue : vous n'avez pas invoqué une créature de plus, vous avez convaincu quelqu'un de venir vous aider. Ils arrivent avec une présence, et l'adversaire est contraint de s'en occuper. Les règles l'ont rendu possible ; la sensation est ce qui en valait la peine.",
+          "flavor": "Pas une créature de plus lancée. Quelqu'un persuadé de se présenter."
+        },
+        {
+          "title": "Conception et ambiance forment une boucle à deux équipes",
+          "rules": "Chaque année, dit-il, il s'enracine davantage dans l'idée que conception et ambiance ne sont pas des entités séparées. Des équipes distinctes travaillent sur chacune, et cette division est organisationnelle, non conceptuelle. Ce qui fait briller un bloc, c'est une conception qui engendre l'ambiance et une ambiance qui engendre la conception — un circuit plutôt qu'un passage de relais, où chaque côté produit une matière que l'autre n'aurait pu atteindre seul. Il désigne un bloc passé comme le cas où cela a le mieux marché, et le traite comme la norme à atteindre.",
+          "flavor": "Deux équipes, deux bâtiments, une boucle qui doit se refermer."
+        },
+        {
+          "title": "Superposer : bâtir des interactions dynamiques sur des thèmes simples",
+          "rules": "Ayant promis des thèmes universels pour l'année, il rapporte les avoir livrés, puis nomme ce qu'il a le plus apprécié : tout ce qu'on a pu bâtir sur des fondations simples. Il appelle le procédé la superposition et recourt à une analogie de coupe de cheveux pour le décrire. L'idée soutenue est que simplicité à la base et richesse en jeu ne s'opposent pas : un thème qui ne demande presque rien à comprendre peut supporter énormément d'interaction, à condition que celle-ci soit ajoutée en couches visibles et non cuite dans le thème lui-même.",
+          "flavor": "Simple en dessous. Tout ce qui est intéressant repose par-dessus."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "O estado do design 2008",
+      "dek": "Sua quarta auditoria anual do próprio departamento: um ano que ele classifica entre os melhores, e as coisas específicas que pretende parar de fazer.",
+      "overview": "A autoavaliação anual, moldada no discurso de um chefe de Estado, cobrindo um ano que ele julga conter parte do melhor trabalho feito sob sua liderança. A metade interessante é a crítica. Ele identifica três falhas relacionadas — mecânicas demais, coleções que se desviam do bloco a que pertencem, e complexidade que se acumula a partir de pequenas nuances em vez de qualquer carta isolada — e as converte numa única instrução para o ano seguinte: fazer menos, e gastar o tempo recuperado no que restar.",
+      "takeaway": "Tentar coisas novas é difícil. Não fazer algo que você sempre faz é muito mais difícil.",
+      "lessons": [
+        {
+          "title": "Reexamine a explicação que você deu para um resultado surpreendente",
+          "rules": "Uma mecânica sobre a qual tinham dúvidas superou a favorita estabelecida nas pesquisas com jogadores, e na hora explicaram o resultado como novidade — gostavam porque era nova. Um ano depois, ele reabre a questão: agora eles acham que talvez não tenha sido só o novo. A lição é sobre o formato do erro, não sobre o assunto. Uma explicação displicente para um resultado inesperado é confortável precisamente porque não exige que nada mude, e merece ser revisitada assim que a novidade que ela invocou se desgastar.",
+          "flavor": "Dissemos que venceu por ser nova. Ela não é mais nova."
+        },
+        {
+          "title": "Complexidade se acumula a partir de nuances; escolha temas que não custem palavras",
+          "rules": "Ele separa dois tipos de dificuldade. Um é a carta longa — e nota com alívio que nada este ano chegou perto do comprimento de texto de uma palavra-chave anterior notória, porque ambos os blocos giravam em torno de coisas que quase não precisam de palavras para se expressar: tipos de criatura e símbolos de mana. O outro tipo é pior porque nenhuma carta isolada tem culpa. Quando há muitas coisinhas com que se importar e muitas nuances minúsculas espalhadas por muitas cartas, você chega a estados de mesa em que o cérebro derrete tentando rastrear o que se aplica. Muitas coisas pequenas somam uma grande.",
+          "flavor": "Nenhuma carta era complicada. A mesa estava ilegível mesmo assim."
+        },
+        {
+          "title": "O valor de um experimento é a opção que ele cria",
+          "rules": "Tendo quebrado o modelo estrutural de sempre sobre como os lançamentos são agrupados, ele é cuidadoso quanto ao que o sucesso de fato comprou. Eles não estão abandonando o arranjo clássico — o bloco seguinte volta a ele. O que o experimento estabeleceu é que a composição não está esculpida em pedra, o que significa que o departamento pode desviar de novo quando houver motivo. A entrega não foi um padrão substituto; foi uma permissão, e um precedente provando que a permissão é real.",
+          "flavor": "Voltaram ao formato antigo. Agora sabem que não precisam."
+        },
+        {
+          "title": "Não se desvie do bloco a que você pertence",
+          "rules": "Ele nomeia duas coleções com o mesmo problema: cada uma está cheia de cartas fazendo coisas interessantes que não se alinham direito com o foco da coleção grande que a precedeu. As cartas são boas e as coleções têm identidade própria, e é isso que torna a falha sutil. Um lançamento que segue outro tem uma obrigação com o tema já estabelecido, e material que estaria ótimo isolado vira custo quando puxa a atenção para o lado daquilo de que o bloco trata. De perto, singularidade e deriva parecem idênticas.",
+          "flavor": "Cada carta valia ser impressa. Juntas, apontavam para longe da coleção anterior."
+        },
+        {
+          "title": "Faça menos, e gaste o tempo recuperado no que restar",
+          "rules": "Perguntado onde está a maior margem de crescimento, ele não nomeia uma lacuna de capacidade: as equipes, diz, estão fazendo um trabalho excelente. O problema é o volume. Sua instrução para o ano seguinte é dar a si mesmos a capacidade de gastar mais tempo em cada coisa, o que só é possível produzindo menos coisas. É um argumento de recursos, e não de qualidade: as mesmas pessoas fazendo o mesmo bom trabalho o farão melhor se houver menos, e o corte é o que compra a melhoria.",
+          "flavor": "Ninguém precisa melhorar. Precisa haver menos."
+        },
+        {
+          "title": "Use suas próprias notas mais baixas como lista curta",
+          "rules": "Revendo um ano cheio de mecânicas de que gosta, ele faz a pergunta desconfortável — precisávamos de todas? — e então faz algo mais útil do que ficar remoendo. Ele nomeia candidatas, e diz exatamente como as escolheu: são as que tiveram a pontuação mais baixa nas pesquisas internas. Em vez de confiar no próprio gosto sobre o que poderia ter saído, ele se remete à medição que já tinha por ali. Ter dados e então raciocinar pelas próprias impressões é a falha comum que isso evita.",
+          "flavor": "Quais poderíamos ter cortado? Comece pelas que ficaram em último."
+        },
+        {
+          "title": "Parar o que você sempre faz é mais difícil que começar algo novo",
+          "rules": "A escolha mais ousada do ano foi abandonar uma convenção estrutural tão entranhada que ele a chama de vaca sagrada, e a frase que ele tira disso é a coisa mais exportável da coluna. Tentar coisas novas é difícil; não fazer algo que você sempre faz é muito mais difícil. A novidade é aditiva e pode ser defendida pelos próprios méritos, ao passo que uma supressão tem de argumentar contra o peso acumulado de todas as vezes anteriores em que a coisa foi feita — inclusive os sucessos, que são a prova contra você.",
+          "flavor": "Acrescentar é uma proposta. Remover é uma acusação."
+        },
+        {
+          "title": "Um tipo de carta novo tem sucesso por uma sensação, não por uma função",
+          "rules": "Ele admite nervosismo ao introduzir um tipo de carta inteiramente novo que se comportava como nada anterior e ainda assim fluía sem costura no jogo, e então julga o resultado por ambientação, não por mecânica. A parte favorita dele é que tem a sensação que queriam: você não conjurou mais uma criatura, você convenceu alguém a vir ajudá-lo. Eles chegam com presença, e o oponente é obrigado a lidar com eles. As regras tornaram possível; a sensação é o que fez valer a pena.",
+          "flavor": "Não mais uma criatura conjurada. Alguém persuadido a aparecer."
+        },
+        {
+          "title": "Design e ambientação são um só circuito com duas equipes",
+          "rules": "A cada ano, diz ele, mais se entrincheira na ideia de que design e ambientação não são entidades separadas. Equipes distintas trabalham em cada um, e essa divisão é organizacional, não conceitual. O que faz um bloco brilhar é um design que gera ambientação e uma ambientação que gera design — um circuito em vez de uma passagem de bastão, em que cada lado gera material que o outro não teria alcançado sozinho. Ele aponta um bloco do passado como o caso em que isso melhor funcionou, e o trata como o padrão a alcançar.",
+          "flavor": "Duas equipes, dois prédios, um circuito que precisa fechar."
+        },
+        {
+          "title": "Camadas: construir interações dinâmicas sobre temas simples",
+          "rules": "Tendo prometido temas universais para o ano, ele relata tê-los entregado, e então nomeia o que mais apreciou: o quanto se pôde construir sobre fundações simples. Ele chama o processo de camadas e recorre a uma analogia de corte de cabelo para descrevê-lo. O ponto sustentado é que simplicidade na base e riqueza em jogo não estão em tensão: um tema que quase nada exige para ser entendido pode sustentar muitíssima interação, desde que a interação seja acrescentada em camadas visíveis e não cozida dentro do próprio tema.",
+          "flavor": "Simples por baixo. Tudo o que é interessante repousa em cima."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "2008 年设计现状",
+      "dek": "他对自己部门所作的第四次年度审计：一个他评为自己任内最好之列的年份；以及他打算停下来不再做的那些具体的事。",
+      "overview": "这是那份仿照国家元首施政报告写成的年度自评；它覆盖的这一年，在他看来包含了他执掌以来所做出的一些最好的工作。有意思的那一半是批评。他指认出三处彼此相关的失误——机制太多、系列偏离了自己所属的那个环境、以及那种「不是来自任何单独一张牌、而是从细小差别里累积起来」的复杂度——然后把它们转换成给下一年的一条指令：少做一些，并且把省下来的时间花在剩下的那些上。",
+      "takeaway": "尝试新东西是难的。而不去做那件你一向都在做的事，要难得多。",
+      "lessons": [
+        {
+          "title": "重新检查你为一个意外结果所给出的那条解释",
+          "rules": "有一项他们曾经心存疑虑的机制，在玩家调查里压过了那个既定的宠儿；而在当时，他们把这个结果解释成了新鲜感——人们喜欢它，是因为它是新的。一年之后，他把这个问题重新打开了：他们现在觉得，也许不只是因为新。这里的教训关乎错误的形状、而不关乎话题本身。一条对意外结果的敷衍解释之所以让人舒服，恰恰是因为它不要求任何东西发生改变；而一旦它所援引的那份新鲜感已经消磨掉了，它就值得被重新拿出来看一遍。",
+          "flavor": "我们说它赢是因为它新。它已经不新了。"
+        },
+        {
+          "title": "复杂度是从细小差别里累积起来的；所以要挑那些不花文字的主题",
+          "rules": "他把两种难度分了开来。一种是长牌——而他带着松一口气的语气指出：今年没有任何东西接近某个著名旧关键字的文字长度；因为这两个环境都是围绕着「几乎不需要文字来表达」的东西转的：生物类别和法术力符号。另一种更糟；因为没有哪一张牌该为它负责。当有很多小事要留意、而且有很多微小的差别散布在很多张牌上时，你就会走到那种「大脑为了追踪什么在生效而融化」的场面。很多小东西加起来就是一个大东西。",
+          "flavor": "没有哪张牌是复杂的。而那个场面照样读不懂。"
+        },
+        {
+          "title": "一次实验的价值，在于它所创造出来的那个选项",
+          "rules": "在打破了那套关于「发行如何成组」的长年结构模型之后，他对「这次成功究竟买到了什么」讲得很仔细。他们并没有抛弃那套经典安排——下一个环境就回到了它。这次实验所确立的是：这套组成方式并不是刻在石头上的；而这意味着，当有理由的时候，这个部门可以再一次偏离。这次的交付物并不是一套替代标准；它是一份许可，以及一个证明这份许可是真的先例。",
+          "flavor": "他们回到了旧的形状。而他们现在知道自己不是非得如此。"
+        },
+        {
+          "title": "不要偏离你所属的那个环境",
+          "rules": "他点名了两个有着同一个问题的系列：每一个都塞满了「做着有意思的事、却和它前面那个大系列的焦点对不太上」的牌。这些牌是好的；而这些系列也各有自己的身份；这正是这个失误之所以微妙的原因。一次跟在另一次后面的发行，对已经立起来的那个主题是负有义务的；而那些单独看毫无问题的素材，一旦把注意力从「这个环境讲的是什么」上横着拉走，就变成了一项成本。从近处看，鲜明与漂移长得一模一样。",
+          "flavor": "每一张牌都值得印。而它们合在一起指向了离前一个系列很远的地方。"
+        },
+        {
+          "title": "少做一些；把省下来的时间花在剩下的那些上",
+          "rules": "当被问到最大的成长空间在哪里时，他并没有点出某项能力上的欠缺：他说，这些团队做的是出色的工作。问题在于量。他给下一年的指令是：让我们有能力在每一样东西上花更多时间；而这只有靠产出更少的东西才可能。这是一条关于资源的论证，而不是关于质量的：同一批人做着同样出色的工作，如果量少一些，就会做得更好；而那一刀正是买下这份改善的东西。",
+          "flavor": "没有谁需要变得更好。需要的是它变得更少。"
+        },
+        {
+          "title": "把你自己那些最低的分数当作候选名单",
+          "rules": "在回顾一个满是他喜欢的机制的年份时，他提出了那个让人不舒服的问题——这些我们全都需要吗？——然后做了一件比空想更有用的事。他点了名；而且他把自己是怎么挑出来的说得清清楚楚：它们就是内部调查里得分最低的那几个。他没有去依赖自己关于「哪些本可以拿掉」的品味，而是听从了那份本来就摆在手边的测量。手上有数据、却还是从自己的印象出发去推理，正是这一步所避开的那个常见失误。",
+          "flavor": "哪几个我们本可以砍掉？从垫底的那几个开始。"
+        },
+        {
+          "title": "停下你一向在做的事，比开始一件新事更难",
+          "rules": "这一年最大胆的选择，是抛弃了一条根深蒂固到被他称作神圣不可侵犯的结构性惯例；而他由此引出的那句话，是这篇专栏里最可以带走的东西。尝试新东西是难的；而不去做那件你一向都在做的事，要难得多。新颖是加法性的，可以就其本身的优点去争取；而一次删除，则必须去对抗「这件事此前每一次被做时所累积下来的分量」——包括那些成功，而它们正是对你不利的证据。",
+          "flavor": "增加是一份提案。移除是一项指控。"
+        },
+        {
+          "title": "一种新的牌张类别，靠的是一份感觉、而不是一项功能取胜",
+          "rules": "他承认，在引入一种「行为方式与此前任何东西都不同、却又要无缝地融进这个游戏」的全新牌张类别时，他是紧张的；然后他是按风味、而不是按机制来评判这个结果的。他最喜欢的一点是：它拥有他们想要的那份感觉——你并不是又召唤了一只生物，你是说服了某个人前来助你。它们登场时是带着存在感的；而对手被迫必须去处理它们。规则让它成为可能；而那份感受，才是让它值得一做的东西。",
+          "flavor": "不是又施放了一只生物。是有个人被说动了，来了。"
+        },
+        {
+          "title": "设计与风味是一条有两支队伍的回路",
+          "rules": "他说，年头越久，他就越发坚定地认为设计与风味不是两个分开的实体。是有不同的团队各自负责其中一样；而这道划分是组织上的、而不是概念上的。让一个环境发光的，是「一份催生风味的设计」与「一份催生设计的风味」——那是一条回路，而不是一次交接；其中每一边都会产出另一边独自到不了的素材。他点名了过去的某个环境作为这件事跑得最好的案例，并且把它当作要够到的标准、而不是一次不寻常的成功。",
+          "flavor": "两支队伍，两栋楼，一条必须闭合的回路。"
+        },
+        {
+          "title": "分层：在简单的主题之上搭出动态的互动",
+          "rules": "在承诺过这一年会用普适的主题之后，他报告说交付了；然后点出了自己最享受的那一点：在简单的地基之上能够搭起多少东西来。他把这个过程称作分层，并且搬来一个理发的类比去描述它。他所主张的是：底层的简单与对局中的丰富并不彼此拉扯——一个几乎不需要理解成本的主题，是可以撑起大量互动的；前提是那些互动是以看得见的层次加上去的，而不是被煮进主题本身里面。",
+          "flavor": "底下是简单的。而所有有意思的东西都坐在它上面。"
+        }
+      ]
+    }
+  }
+}
