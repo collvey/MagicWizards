@@ -1,0 +1,320 @@
+{
+  "id": "what-do-you-do-living-weapon-2011-03-07",
+  "slug": "what-do-you-do-living-weapon-2011-03-07",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2011-03-07",
+  "series": null,
+  "tags": ["mechanics", "mailbag", "stickiness", "colour-pie", "reuse"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/what-do-you-do-living-weapon-2011-03-07",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "What Do You Do with a Living Weapon?",
+      "dek": "A mechanic column run as a mailbag: readers ask why every parameter is what it is, and the answers turn out to be a chain of separate constraints.",
+      "overview": "He solicited questions about one mechanic and answered them in order, which produces something a normal mechanic column does not — a decision-by-decision reconstruction rather than a narrative. The most-asked question is about a single number, and the answer runs through two rejected alternatives, a psychological principle about what the mind can hold, and a departmental policy derived from it. The rest works outward: why the token is the colour it is, why it sits on one object type rather than another, and what the choices do and do not foreclose.",
+      "takeaway": "Design has to adapt to human behaviour rather than fight it; you cannot train a brain to hold what does not map to the way it thinks.",
+      "lessons": [
+        {
+          "title": "Stickiness, and the policy that follows from it",
+          "rules": "Some information is naturally easy to remember and some is not, according to how the mind processes it. His example is that people group digits in threes and fours, which is why American telephone and social security numbers are broken up that way. Information is sticky or it is not, and you cannot train a brain to easily hold what does not map to how it thinks. The applied finding: tracking changes to a creature is sticky when its two numbers are equal — even when the amounts being added to each are not — and unsticky when they differ. Hence the policy of keeping them equal wherever possible, especially at low rarity, and raising both by the same amount when altering one.",
+          "flavor": "Adapt to the behaviour. You are not going to win the other argument."
+        },
+        {
+          "title": "Reconstruct the decision as a chain of eliminations from different rules",
+          "rules": "Why the token is the colour it is has no single reason; it has four, each from a different kind of rule. It could not stay an artifact because a card producing two of them was too strong against a threshold set at three — and of the two available fixes, changing the new thing beat changing the threshold. It could not be colourless, because they avoid mingling colourless permanents of two different kinds, which is why one large set had only a dozen artifacts. That left five options, of which two were plausible by association. The tiebreak was that one is the hardest to remove, since some of its own removal does not affect it, plus a traditional link to the faction.",
+          "flavor": "Four constraints, none of them about colour, and between them they picked the colour."
+        },
+        {
+          "title": "Run the objection's version properly, and count returning to the start as a result",
+          "rules": "The lead developer flagged the original number during the handover window, on two grounds: it forced a lot of restrictions elsewhere, and it was unintuitive. The standing practice is that when development raises an issue, design looks into it — so they built the alternative and played it. Two specific problems surfaced. Surprisingly much mana went to paying for a version that was viable on its own, so the cards had to cost more and looked worse for it. And it lost the feel. They tried a compromise, found a third problem, and went back to where they started. Which is not a wasted cycle; it is the objection being answered with evidence.",
+          "flavor": "They started at the original, tried the alternatives, and ended up at the original."
+        },
+        {
+          "title": "The confusing version was the one that felt like something",
+          "rules": "He concedes the objection outright: yes, the original caused some confusion. And then he weighs it against what the confusion bought. The clear alternative made the mechanic read as summoning an object alongside a creature. The confusing one made it read as summoning the thing the mechanic is named after — one object that is alive. He is not arguing that confusion is good; he is arguing that this particular oddity was inseparable from the distinctiveness, and that trading it away bought clarity at a price nobody had priced.",
+          "flavor": "The strange number was where the whole idea lived."
+        },
+        {
+          "title": "When a new element collides with a calibrated threshold, move the new element",
+          "rules": "Design wanted the token to be an artifact — it made the most flavour sense and produced good interaction with the rest of the set. Development objected on power grounds: a single card producing two of the counted thing was too much against a threshold set at three. He states both options plainly. Change the token, or change the threshold from three to four. They changed the token, and calls that the better move. The threshold is what a great many other cards were calibrated against; the token is one new thing. Move whichever has the fewest dependents.",
+          "flavor": "One of these numbers has the rest of the set hanging off it."
+        },
+        {
+          "title": "Fidelity to your own lore loses to the reading the audience will have",
+          "rules": "The creative team's first choice of name for the token came from the faction's established internal ecology, which is the correct answer if fidelity is the criterion. The problem was arithmetic about readers: over ninety-nine per cent of the audience would not know the reference and would read the word as an ordinary earthly animal, which makes no sense at all in context. So the accurate name would have communicated something false to almost everyone. They invented a new word instead. He also names the jurisdiction rule underneath: when a creature type carries no mechanical function, the naming is the creative team's call.",
+          "flavor": "Right in the encyclopedia, wrong in the reader's head."
+        },
+        {
+          "title": "Put a tool where it works best, not where it is needed most",
+          "rules": "Asked why the mechanic went on one object type when a different one has a harder time being competitive, he separates the two questions. The mechanic works better on the one they chose, for a reason he states exactly: on the other, it merely turns that object into a creature, whereas on this one you start with a creature and when it dies the object is still there to be used as itself. Then the general rule. Mechanics are tools; when you make one you are thinking long term, wanting something you can use again and again — so the placement that optimises reusability wins over the placement that relieves the most pressure.",
+          "flavor": "The neediest slot is not the one that makes the tool best."
+        },
+        {
+          "title": "A first use is not a foreclosure",
+          "rules": "Asked whether the other object type is now off the table for this mechanic, he describes a change made in recent years: not allowing past choices to stop future ones. He is honest about the pull — having done it this way first genuinely increases the odds of it recurring this way — but that is a probability, not a rule, and if a future project makes the other version make sense it is clearly available. The same reasoning covers whether the mechanic stays tied to the faction that introduced it: he expects the next appearance to be somewhere else entirely.",
+          "flavor": "The first version sets the default. It does not close the door."
+        },
+        {
+          "title": "Frugality: four, not because more was impossible but because more wasn't needed",
+          "rules": "Asked how much space is left, he says a great many designs never saw print and there is plenty remaining. The reason for the small count is that the developer was frugal because a little went a long way. The distinction he draws is the useful part: the number is not a ceiling discovered by running out, it is a sufficiency judgement made while there was still room. Reading the count as an upper bound would be the mistake — both externally, by people inferring the space is exhausted, and internally, by anyone planning the return.",
+          "flavor": "There aren't more because there didn't have to be more."
+        },
+        {
+          "title": "Rules complexity and a hard sell are different things",
+          "rules": "The mechanic has a lot of moving parts, and someone asked how he convinced the room to accept that much complexity. His answer is that he did not have to. There was debate about the size of the token and about its type, but nobody ever wanted to kill it. His explanation is that although the machinery is elaborate, the basics are intuitive — with one exception — and the thing works the way you would expect it to. That plus a lot of flavour meant it sold itself. Complexity is resisted when it produces surprise; complexity that resolves to what people already predicted is much cheaper than its parts count suggests.",
+          "flavor": "Lots of moving parts, and every one of them does what you thought it would."
+        }
+      ]
+    },
+    "es": {
+      "title": "¿Qué haces con un arma viviente?",
+      "dek": "Una columna de mecánica en formato buzón: los lectores preguntan por qué cada parámetro es el que es, y las respuestas resultan ser una cadena de restricciones distintas.",
+      "overview": "Pidió preguntas sobre una mecánica y las respondió en orden, lo que produce algo que una columna de mecánica normal no da: una reconstrucción decisión a decisión en vez de un relato. La pregunta más repetida va sobre un solo número, y la respuesta atraviesa dos alternativas descartadas, un principio psicológico sobre qué puede retener la mente y una política del departamento derivada de él. El resto avanza hacia fuera: por qué la ficha es del color que es, por qué se apoya en un tipo de objeto y no en otro, y qué cierran y qué no cierran esas decisiones.",
+      "takeaway": "El diseño tiene que adaptarse a la conducta humana en vez de pelearse con ella: no puedes entrenar a un cerebro para retener lo que no encaja con su forma de pensar.",
+      "lessons": [
+        {
+          "title": "La adherencia, y la política que se deduce de ella",
+          "rules": "Cierta información es naturalmente fácil de recordar y otra no, según cómo la procesa la mente. Su ejemplo es que la gente agrupa dígitos en tríos y cuartetos, y por eso los teléfonos y los números de seguridad social estadounidenses se parten así. La información se adhiere o no, y no puedes entrenar a un cerebro para retener con facilidad lo que no encaja con su modo de pensar. El hallazgo aplicado: seguir los cambios de una criatura se adhiere cuando sus dos números son iguales —incluso cuando las cantidades que se suman a cada uno no lo son— y no se adhiere cuando difieren. De ahí la política de mantenerlos iguales siempre que se pueda, sobre todo en rarezas bajas, y subir ambos en la misma cantidad al alterar uno.",
+          "flavor": "Adáptate a la conducta. La otra discusión no la vas a ganar."
+        },
+        {
+          "title": "Reconstruye la decisión como una cadena de eliminaciones desde reglas distintas",
+          "rules": "Por qué la ficha es del color que es no tiene una sola razón: tiene cuatro, cada una de un tipo de regla distinto. No pudo seguir siendo artefacto porque una carta que producía dos era demasiado fuerte frente a un umbral fijado en tres, y de los dos arreglos disponibles, cambiar lo nuevo ganaba a cambiar el umbral. No pudo ser incolora porque evitan mezclar permanentes incoloros de dos clases distintas, razón por la que una expansión grande solo tuvo una docena de artefactos. Quedaban cinco opciones, dos plausibles por asociación. El desempate fue que uno es el más difícil de eliminar, ya que parte de su propia destrucción no le afecta, más un vínculo tradicional con la facción.",
+          "flavor": "Cuatro restricciones, ninguna sobre el color, y entre todas eligieron el color."
+        },
+        {
+          "title": "Prueba en serio la versión de la objeción, y cuenta volver al inicio como resultado",
+          "rules": "El desarrollador jefe señaló el número original durante la ventana de traspaso, por dos motivos: forzaba muchas restricciones en otras partes y era poco intuitivo. La práctica establecida es que cuando desarrollo plantea un problema, diseño lo investiga; así que construyeron la alternativa y la jugaron. Surgieron dos problemas concretos. Sorprendentemente, mucho maná se iba en pagar una versión viable por sí sola, así que las cartas tenían que costar más y por eso lucían peor. Y se perdía la sensación. Probaron un término medio, encontraron un tercer problema y volvieron al punto de partida. Lo cual no es un ciclo desperdiciado: es la objeción respondida con evidencia.",
+          "flavor": "Empezaron en el original, probaron las alternativas y acabaron en el original."
+        },
+        {
+          "title": "La versión confusa era la que se sentía como algo",
+          "rules": "Concede la objeción sin rodeos: sí, el original causaba cierta confusión. Y luego la sopesa contra lo que esa confusión compraba. La alternativa clara hacía que la mecánica se leyera como invocar un objeto junto a una criatura. La confusa hacía que se leyera como invocar aquello que da nombre a la mecánica: un objeto que está vivo. No argumenta que la confusión sea buena; argumenta que esa rareza concreta era inseparable de la distinción, y que cambiarla por claridad tenía un precio que nadie había puesto.",
+          "flavor": "En ese número raro vivía la idea entera."
+        },
+        {
+          "title": "Cuando un elemento nuevo choca con un umbral calibrado, mueve el elemento nuevo",
+          "rules": "Diseño quería que la ficha fuera un artefacto: tenía el mayor sentido de sabor y producía buena interacción con el resto de la expansión. Desarrollo objetó por potencia: una sola carta que produjera dos de la cosa contada era demasiado frente a un umbral fijado en tres. Él enuncia ambas opciones con claridad. Cambiar la ficha, o cambiar el umbral de tres a cuatro. Cambiaron la ficha, y lo llama el mejor movimiento. El umbral es aquello contra lo que estaban calibradas muchísimas otras cartas; la ficha es una cosa nueva. Mueve lo que tenga menos dependientes.",
+          "flavor": "De uno de estos números cuelga el resto de la expansión."
+        },
+        {
+          "title": "La fidelidad a tu propia mitología pierde ante la lectura que hará el público",
+          "rules": "La primera elección de nombre del equipo creativo salía de la ecología interna establecida de la facción, que es la respuesta correcta si el criterio es la fidelidad. El problema era aritmética sobre lectores: más del noventa y nueve por ciento del público no conocería la referencia y leería la palabra como un animal terrestre corriente, lo cual no tiene ningún sentido en contexto. Así que el nombre preciso habría comunicado algo falso a casi todos. Inventaron una palabra nueva. También nombra la regla de competencia que hay debajo: cuando un tipo de criatura no lleva función mecánica, ponerle nombre es cosa del equipo creativo.",
+          "flavor": "Correcto en la enciclopedia, equivocado en la cabeza del lector."
+        },
+        {
+          "title": "Pon una herramienta donde funciona mejor, no donde más falta hace",
+          "rules": "Preguntado por qué la mecánica fue a un tipo de objeto cuando otro lo tiene más difícil para ser competitivo, separa las dos preguntas. La mecánica funciona mejor en el que eligieron, por una razón que enuncia con exactitud: en el otro, se limita a convertir ese objeto en una criatura, mientras que en este empiezas con una criatura y, cuando muere, el objeto sigue ahí para usarse como lo que es. Luego la regla general. Las mecánicas son herramientas; cuando haces una piensas a largo plazo, quieres algo que puedas usar una y otra vez, así que la ubicación que optimiza la reutilización gana a la que alivia más presión.",
+          "flavor": "El hueco más necesitado no es el que saca lo mejor de la herramienta."
+        },
+        {
+          "title": "Un primer uso no es un cierre",
+          "rules": "Preguntado por si el otro tipo de objeto queda descartado para esta mecánica, describe un cambio de los últimos años: no permitir que las decisiones pasadas impidan las futuras. Es honesto sobre la inercia —haberlo hecho primero así aumenta de verdad las probabilidades de que se repita así—, pero eso es una probabilidad y no una regla, y si un proyecto futuro hace que la otra versión tenga sentido, claramente está disponible. El mismo razonamiento vale para si la mecánica queda atada a la facción que la introdujo: espera que la próxima aparición sea en otra parte por completo.",
+          "flavor": "La primera versión fija lo predeterminado. No cierra la puerta."
+        },
+        {
+          "title": "Frugalidad: cuatro, no porque más fuera imposible sino porque más no hacía falta",
+          "rules": "Preguntado por cuánto espacio queda, dice que muchísimos diseños nunca se imprimieron y que queda de sobra. La razón del número pequeño es que el desarrollador fue frugal porque un poco daba mucho de sí. La distinción que traza es la parte útil: el número no es un techo descubierto al agotarse, es un juicio de suficiencia hecho cuando todavía había margen. Leer la cuenta como cota superior sería el error, tanto fuera —gente infiriendo que el espacio está agotado— como dentro, por quien planifique el regreso.",
+          "flavor": "No hay más porque no hacía falta que hubiera más."
+        },
+        {
+          "title": "Complejidad de reglas y venta difícil son cosas distintas",
+          "rules": "La mecánica tiene muchas piezas móviles, y alguien preguntó cómo convenció a la sala de aceptar tanta complejidad. Su respuesta es que no tuvo que hacerlo. Hubo debate sobre el tamaño de la ficha y sobre su tipo, pero nadie quiso nunca matarla. Su explicación es que aunque la maquinaria sea elaborada, lo básico es intuitivo —con una excepción— y la cosa funciona como esperarías. Eso, más mucho sabor, hizo que se vendiera sola. La complejidad encuentra resistencia cuando produce sorpresa; la que se resuelve en lo que la gente ya predijo sale mucho más barata de lo que sugiere su número de piezas.",
+          "flavor": "Muchas piezas móviles, y cada una hace lo que pensabas que haría."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Que faire d'une arme vivante ?",
+      "dek": "Une chronique de mécanique en mode courrier des lecteurs : on demande pourquoi chaque paramètre est ce qu'il est, et les réponses se révèlent une chaîne de contraintes distinctes.",
+      "overview": "Il a sollicité des questions sur une mécanique et y a répondu dans l'ordre, ce qui produit ce qu'une chronique classique ne donne pas : une reconstitution décision par décision plutôt qu'un récit. La question la plus posée porte sur un seul chiffre, et la réponse traverse deux alternatives écartées, un principe psychologique sur ce que l'esprit peut retenir, et une politique du service qui en découle. Le reste rayonne : pourquoi le jeton a cette couleur, pourquoi la mécanique s'installe sur un type d'objet plutôt qu'un autre, et ce que ces choix ferment ou non.",
+      "takeaway": "La conception doit s'adapter au comportement humain plutôt que le combattre : on n'entraîne pas un cerveau à retenir ce qui ne correspond pas à sa façon de penser.",
+      "lessons": [
+        {
+          "title": "L'adhérence, et la politique qui en découle",
+          "rules": "Certaines informations sont naturellement faciles à retenir et d'autres non, selon la façon dont l'esprit les traite. Son exemple : on groupe les chiffres par trois et par quatre, d'où le découpage des numéros de téléphone et de sécurité sociale américains. Une information adhère ou n'adhère pas, et on n'entraîne pas un cerveau à retenir facilement ce qui ne correspond pas à sa manière de penser. Le constat appliqué : suivre les modifications d'une créature adhère quand ses deux chiffres sont égaux — même si les montants ajoutés à chacun ne le sont pas — et n'adhère pas quand ils diffèrent. D'où la politique de les garder égaux autant que possible, surtout aux basses raretés, et d'augmenter les deux d'autant en modifiant l'un.",
+          "flavor": "Adaptez-vous au comportement. L'autre débat, vous ne le gagnerez pas."
+        },
+        {
+          "title": "Reconstituez la décision en chaîne d'éliminations issues de règles différentes",
+          "rules": "La couleur du jeton n'a pas une raison mais quatre, chacune d'un type de règle différent. Il ne pouvait rester artefact, car une carte en produisant deux pesait trop lourd face à un seuil fixé à trois — et entre les deux correctifs possibles, changer la nouveauté l'emportait sur changer le seuil. Il ne pouvait être incolore, car on évite de mêler deux sortes de permanents incolores, raison pour laquelle une grande extension ne comptait qu'une douzaine d'artefacts. Restaient cinq options, dont deux plausibles par association. Le départage : l'une est la plus difficile à retirer, une partie de sa propre destruction ne l'atteignant pas, plus un lien traditionnel avec la faction.",
+          "flavor": "Quatre contraintes, aucune portant sur la couleur, et ensemble elles ont choisi la couleur."
+        },
+        {
+          "title": "Testez pour de bon la version de l'objection, et comptez le retour au départ comme un résultat",
+          "rules": "Le développeur en chef a signalé le chiffre d'origine pendant la fenêtre de passation, pour deux motifs : il imposait beaucoup de contraintes ailleurs et n'était pas intuitif. L'usage veut que lorsque le développement soulève un problème, la conception l'examine ; ils ont donc bâti l'alternative et l'ont jouée. Deux problèmes précis sont apparus. Étonnamment, beaucoup de mana partait à payer une version viable seule, donc les cartes devaient coûter davantage et paraissaient moins bonnes. Et la sensation était perdue. Ils ont tenté un compromis, trouvé un troisième problème, et sont revenus au point de départ. Ce n'est pas un cycle gâché : c'est l'objection à laquelle on répond par des preuves.",
+          "flavor": "Ils sont partis de l'original, ont testé les alternatives, et sont arrivés à l'original."
+        },
+        {
+          "title": "La version déroutante était celle qui avait une saveur",
+          "rules": "Il concède l'objection sans détour : oui, l'original semait un peu de confusion. Puis il la pèse contre ce que cette confusion achetait. L'alternative claire faisait lire la mécanique comme l'invocation d'un objet accompagné d'une créature. La déroutante la faisait lire comme l'invocation de ce que la mécanique nomme : un objet vivant. Il ne soutient pas que la confusion soit bonne ; il soutient que cette bizarrerie-là était indissociable de la singularité, et que l'échanger contre de la clarté avait un prix que personne n'avait chiffré.",
+          "flavor": "C'est dans ce chiffre étrange que vivait toute l'idée."
+        },
+        {
+          "title": "Quand un élément neuf heurte un seuil calibré, déplacez l'élément neuf",
+          "rules": "La conception voulait un jeton artefact : c'était le plus logique côté saveur et cela produisait de bonnes interactions avec le reste. Le développement a objecté sur la puissance : une seule carte produisant deux exemplaires de la chose comptée pesait trop face à un seuil fixé à trois. Il énonce clairement les deux options. Changer le jeton, ou porter le seuil de trois à quatre. Ils ont changé le jeton, et il appelle cela le meilleur coup. Le seuil est ce sur quoi une multitude d'autres cartes étaient calibrées ; le jeton est une nouveauté isolée. Déplacez ce qui a le moins de dépendants.",
+          "flavor": "L'un de ces deux chiffres a tout le reste de l'extension accroché à lui."
+        },
+        {
+          "title": "La fidélité à votre propre lore perd contre la lecture qu'aura le public",
+          "rules": "Le premier nom envisagé par l'équipe créative venait de l'écologie interne établie de la faction, ce qui est la bonne réponse si le critère est la fidélité. Le problème relevait de l'arithmétique du lectorat : plus de quatre-vingt-dix-neuf pour cent du public ignorerait la référence et lirait le mot comme un animal terrestre ordinaire, ce qui n'a aucun sens ici. Le nom exact aurait donc communiqué du faux à presque tout le monde. Ils ont inventé un mot. Il nomme aussi la règle de compétence sous-jacente : quand un type de créature ne porte aucune fonction mécanique, le nommer relève de l'équipe créative.",
+          "flavor": "Juste dans l'encyclopédie, faux dans la tête du lecteur."
+        },
+        {
+          "title": "Placez un outil là où il marche le mieux, pas là où il manque le plus",
+          "rules": "À la question de savoir pourquoi la mécanique est allée sur un type d'objet quand un autre peine davantage à être compétitif, il sépare les deux questions. Elle marche mieux sur celui qu'ils ont choisi, pour une raison qu'il énonce exactement : sur l'autre, elle se contente de transformer l'objet en créature, tandis qu'ici vous commencez avec une créature et, quand elle meurt, l'objet reste utilisable en tant que tel. Puis la règle générale. Les mécaniques sont des outils ; en en créant une on pense à long terme, on veut pouvoir la réemployer — donc le placement qui optimise la réutilisation l'emporte sur celui qui soulage le plus.",
+          "flavor": "L'emplacement le plus démuni n'est pas celui qui tire le meilleur de l'outil."
+        },
+        {
+          "title": "Un premier usage n'est pas une fermeture",
+          "rules": "Interrogé sur le fait de savoir si l'autre type d'objet est désormais exclu pour cette mécanique, il décrit un changement des dernières années : ne pas laisser les choix passés interdire les choix futurs. Il est honnête sur l'attraction — l'avoir fait ainsi d'abord augmente réellement les chances que cela se reproduise ainsi — mais c'est une probabilité, pas une règle, et si un projet futur rend l'autre version pertinente, elle est manifestement disponible. Le même raisonnement vaut pour l'attachement à la faction d'origine : il s'attend à ce que la prochaine apparition soit tout ailleurs.",
+          "flavor": "La première version fixe le défaut. Elle ne ferme pas la porte."
+        },
+        {
+          "title": "Frugalité : quatre, non parce que plus était impossible mais parce que plus n'était pas nécessaire",
+          "rules": "Sur l'espace restant, il dit que quantité de conceptions n'ont jamais été imprimées et qu'il en reste beaucoup. Le petit nombre s'explique par la frugalité du développeur, un peu allant très loin. La distinction qu'il trace est la part utile : le nombre n'est pas un plafond découvert par épuisement, c'est un jugement de suffisance rendu alors qu'il restait de la marge. Lire ce compte comme une borne supérieure serait l'erreur — à l'extérieur, chez qui en déduit que l'espace est épuisé, comme à l'intérieur, chez qui planifie le retour.",
+          "flavor": "Il n'y en a pas plus parce qu'il n'avait pas à y en avoir plus."
+        },
+        {
+          "title": "Complexité de règles et vente difficile sont deux choses",
+          "rules": "La mécanique a beaucoup de pièces mobiles, et on lui a demandé comment il avait convaincu la salle d'accepter tant de complexité. Sa réponse : il n'a pas eu à le faire. Il y a eu débat sur la taille du jeton et sur son type, mais personne n'a jamais voulu la tuer. Son explication : si la machinerie est élaborée, les bases sont intuitives — à une exception près — et la chose marche comme on s'y attend. Cela, plus beaucoup de saveur, a suffi à la vendre. La complexité rencontre de la résistance quand elle produit de la surprise ; celle qui se résout en ce que les gens prédisaient déjà coûte bien moins cher que son nombre de pièces ne le suggère.",
+          "flavor": "Beaucoup de pièces mobiles, et chacune fait ce que vous pensiez qu'elle ferait."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "O que fazer com uma arma viva?",
+      "dek": "Uma coluna de mecânica em formato caixa de correio: os leitores perguntam por que cada parâmetro é o que é, e as respostas se revelam uma cadeia de restrições distintas.",
+      "overview": "Ele pediu perguntas sobre uma mecânica e as respondeu em ordem, o que produz algo que uma coluna comum de mecânica não dá: uma reconstrução decisão a decisão em vez de uma narrativa. A pergunta mais feita é sobre um único número, e a resposta atravessa duas alternativas descartadas, um princípio psicológico sobre o que a mente consegue reter e uma política do departamento derivada dele. O resto avança para fora: por que a ficha tem a cor que tem, por que a mecânica se apoia num tipo de objeto e não em outro, e o que essas escolhas fecham e não fecham.",
+      "takeaway": "O design tem de se adaptar ao comportamento humano em vez de brigar com ele: você não treina um cérebro a reter o que não corresponde ao jeito como ele pensa.",
+      "lessons": [
+        {
+          "title": "Aderência, e a política que decorre dela",
+          "rules": "Certas informações são naturalmente fáceis de lembrar e outras não, conforme o jeito como a mente as processa. O exemplo dele é que as pessoas agrupam dígitos em trios e quartetos, e por isso os telefones e os números de seguridade social americanos são partidos assim. A informação adere ou não adere, e não dá para treinar um cérebro a reter facilmente o que não corresponde ao jeito como ele pensa. O achado aplicado: acompanhar mudanças numa criatura adere quando seus dois números são iguais — mesmo quando as quantidades somadas a cada um não são — e não adere quando diferem. Daí a política de mantê-los iguais sempre que possível, sobretudo em raridades baixas, e subir ambos na mesma medida ao alterar um.",
+          "flavor": "Adapte-se ao comportamento. A outra discussão você não vai ganhar."
+        },
+        {
+          "title": "Reconstrua a decisão como cadeia de eliminações vindas de regras diferentes",
+          "rules": "Por que a ficha tem a cor que tem não tem uma razão só: tem quatro, cada uma de um tipo diferente de regra. Não podia continuar artefato porque uma carta produzindo dois era forte demais diante de um limiar fixado em três — e dos dois consertos disponíveis, mudar a coisa nova venceu mudar o limiar. Não podia ser incolor, porque eles evitam misturar permanentes incolores de duas espécies, razão pela qual uma coleção grande teve só uma dúzia de artefatos. Sobravam cinco opções, duas plausíveis por associação. O desempate foi que uma é a mais difícil de remover, já que parte da própria destruição dela não a atinge, mais um vínculo tradicional com a facção.",
+          "flavor": "Quatro restrições, nenhuma sobre cor, e juntas escolheram a cor."
+        },
+        {
+          "title": "Rode de verdade a versão da objeção, e conte voltar ao início como resultado",
+          "rules": "O desenvolvedor líder sinalizou o número original durante a janela de passagem, por dois motivos: forçava muitas restrições em outros pontos e era pouco intuitivo. A prática vigente é que quando o desenvolvimento levanta um problema, o design o investiga; então construíram a alternativa e jogaram com ela. Surgiram dois problemas concretos. Surpreendentemente, muito mana ia para pagar uma versão viável sozinha, então as cartas tinham de custar mais e por isso pareciam piores. E se perdia a sensação. Tentaram um meio-termo, acharam um terceiro problema e voltaram ao ponto de partida. O que não é ciclo desperdiçado: é a objeção respondida com evidência.",
+          "flavor": "Começaram no original, testaram as alternativas e terminaram no original."
+        },
+        {
+          "title": "A versão confusa era a que tinha alguma sensação",
+          "rules": "Ele concede a objeção sem rodeios: sim, o original causava alguma confusão. E então a pesa contra o que essa confusão comprava. A alternativa clara fazia a mecânica ser lida como invocar um objeto junto com uma criatura. A confusa fazia lê-la como invocar aquilo que dá nome à mecânica: um objeto que está vivo. Ele não argumenta que confusão seja boa; argumenta que aquela esquisitice específica era inseparável da singularidade, e que trocá-la por clareza tinha um preço que ninguém havia precificado.",
+          "flavor": "Era naquele número estranho que a ideia inteira morava."
+        },
+        {
+          "title": "Quando um elemento novo colide com um limiar calibrado, mova o elemento novo",
+          "rules": "O design queria a ficha como artefato: fazia mais sentido de sabor e produzia boa interação com o resto da coleção. O desenvolvimento objetou por poder: uma única carta produzindo dois da coisa contada era demais diante de um limiar fixado em três. Ele enuncia as duas opções com clareza. Mudar a ficha, ou mudar o limiar de três para quatro. Mudaram a ficha, e ele chama isso de melhor jogada. O limiar é aquilo contra o que muitíssimas outras cartas estavam calibradas; a ficha é uma coisa nova. Mova o que tiver menos dependentes.",
+          "flavor": "Um desses números tem o resto da coleção pendurado nele."
+        },
+        {
+          "title": "Fidelidade ao seu próprio lore perde para a leitura que o público terá",
+          "rules": "A primeira escolha de nome da equipe criativa vinha da ecologia interna estabelecida da facção, que é a resposta certa se o critério for fidelidade. O problema era aritmética sobre leitores: mais de noventa e nove por cento do público não conheceria a referência e leria a palavra como um animal terrestre comum, o que não faz sentido algum no contexto. Então o nome exato teria comunicado algo falso a quase todo mundo. Inventaram uma palavra nova. Ele também nomeia a regra de alçada por baixo: quando um tipo de criatura não carrega função mecânica, nomeá-lo cabe à equipe criativa.",
+          "flavor": "Certo na enciclopédia, errado na cabeça do leitor."
+        },
+        {
+          "title": "Ponha uma ferramenta onde ela funciona melhor, não onde ela faz mais falta",
+          "rules": "Perguntado por que a mecânica foi para um tipo de objeto quando outro tem mais dificuldade de ser competitivo, ele separa as duas perguntas. A mecânica funciona melhor no que escolheram, por uma razão que ele enuncia com exatidão: no outro, ela apenas transforma aquele objeto numa criatura, ao passo que neste você começa com uma criatura e, quando ela morre, o objeto continua lá para ser usado como ele mesmo. Depois a regra geral. Mecânicas são ferramentas; ao criar uma você pensa no longo prazo, quer algo que dê para usar de novo e de novo — então a colocação que otimiza a reutilização vence a que alivia mais pressão.",
+          "flavor": "A vaga mais carente não é a que tira o melhor da ferramenta."
+        },
+        {
+          "title": "Um primeiro uso não é um fechamento",
+          "rules": "Perguntado se o outro tipo de objeto agora está fora de questão para esta mecânica, ele descreve uma mudança dos últimos anos: não deixar escolhas passadas impedirem escolhas futuras. Ele é honesto sobre a inclinação — ter feito assim primeiro de fato aumenta as chances de repetir assim — mas isso é probabilidade, não regra, e se um projeto futuro fizer a outra versão fazer sentido, ela está claramente disponível. O mesmo raciocínio vale para saber se a mecânica fica atada à facção que a introduziu: ele espera que a próxima aparição seja em outro lugar inteiramente.",
+          "flavor": "A primeira versão fixa o padrão. Não fecha a porta."
+        },
+        {
+          "title": "Frugalidade: quatro, não porque mais fosse impossível e sim porque mais não era preciso",
+          "rules": "Perguntado quanto espaço resta, ele diz que muitíssimos designs nunca foram impressos e que resta bastante. A razão do número pequeno é que o desenvolvedor foi frugal porque um pouco rendia muito. A distinção que ele traça é a parte útil: o número não é um teto descoberto por esgotamento, é um juízo de suficiência feito enquanto ainda havia folga. Ler a contagem como limite superior seria o erro — tanto fora, por quem infere que o espaço acabou, quanto dentro, por quem planeja o retorno.",
+          "flavor": "Não há mais porque não precisava haver mais."
+        },
+        {
+          "title": "Complexidade de regras e venda difícil são coisas diferentes",
+          "rules": "A mecânica tem muitas peças móveis, e alguém perguntou como ele convenceu a sala a aceitar tanta complexidade. A resposta dele é que não precisou. Houve debate sobre o tamanho da ficha e sobre o tipo dela, mas ninguém nunca quis matá-la. A explicação dele é que, embora a maquinaria seja elaborada, o básico é intuitivo — com uma exceção — e a coisa funciona do jeito que você esperaria. Isso, mais muito sabor, fez com que ela se vendesse sozinha. Complexidade encontra resistência quando produz surpresa; a que se resolve naquilo que as pessoas já previam sai bem mais barata do que a contagem de peças sugere.",
+          "flavor": "Muitas peças móveis, e cada uma faz o que você achou que faria."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "拿一件活着的武器该怎么办？",
+      "dek": "一篇以「读者来信」形式写成的机制专栏：读者追问每一项参数为什么是现在这样，而答案最后被证明是一串各不相同的限制。",
+      "overview": "他征集了关于某个机制的问题，并按顺序一一作答；这就产出了一样普通机制专栏给不了的东西——一份逐个决定的复原，而不是一段叙述。被问得最多的那个问题只关乎一个数字；而它的答案穿过了两个被否决的备选方案、一条关于「人脑能记住什么」的心理学原理，以及由此推导出来的一条部门政策。其余部分向外扩散：那枚衍生物为什么是这个颜色、这个机制为什么落在这一类物件上而不是另一类，以及这些选择关上了什么、又没有关上什么。",
+      "takeaway": "设计必须去适应人的行为，而不是去和它作对：你没法训练一个大脑去记住那些不符合它思考方式的东西。",
+      "lessons": [
+        {
+          "title": "「黏性」，以及由它推导出来的那条政策",
+          "rules": "有些信息天生容易记住，有些不然；这取决于大脑处理它的方式。他举的例子是：人会把数字按三个和四个一组来分组；这正是美国的电话号码和社会安全号码要那样切开的原因。信息要么有黏性、要么没有；而你没法训练一个大脑去轻松记住那些不符合它思考方式的东西。落到应用上的发现是：当一只生物的两个数值相等时，追踪它身上的变化是有黏性的——哪怕加到这两个数值上的量并不相等；而当它们不同时，就没有黏性。由此便有了那条政策：尽可能让两者相等，在低稀有度上尤其如此；而当要改动其中一个时，就把两个抬高同样的数。",
+          "flavor": "去适应那份行为。另一场辩论你是赢不了的。"
+        },
+        {
+          "title": "把这个决定复原成一串来自不同规则的排除",
+          "rules": "那枚衍生物为什么是这个颜色，没有单一的理由；它有四个，而每一个都来自不同种类的规则。它不能继续当神器，因为在一个被定在三的阈值面前，一张牌产出两个就太强了——而在两种可选的修法里，改动新东西胜过改动那个阈值。它不能是无色，因为他们避免让两种不同的无色永久物混在一起；这也正是某个大型系列里只有十二张神器的原因。于是只剩五个选项，其中两个因关联而站得住脚。最后的决胜点是：其中一个最难被移除——因为它自己的一部分去除法打不到它——外加与那个阵营的传统联系。",
+          "flavor": "四条限制，没有一条是关于颜色的；而它们合起来选定了颜色。"
+        },
+        {
+          "title": "把反对意见的那个版本认真跑一遍；而回到原点也算一个结果",
+          "rules": "开发负责人在交接窗口里对原来那个数字提了意见，理由有两条：它在别处逼出了一大堆限制，而且不直观。既有的惯例是：当开发提出一个问题，设计就去查——于是他们把那个备选方案搭了出来并且打了。两个具体的问题浮了上来。出人意料地，有很多法术力被花在了「支付一个自身就能立住的版本」上；于是这些牌不得不涨价，也因此看上去更差了。而且那份感觉丢了。他们试了一个折中，又发现了第三个问题，然后回到了起点。这并不是白转了一圈：这是用证据回应了那条反对意见。",
+          "flavor": "他们从原版出发，试了那些备选，最后落回了原版。"
+        },
+        {
+          "title": "那个让人困惑的版本，才是有感觉的那一个",
+          "rules": "他干脆地承认了那条反对意见：是的，原来那个版本造成了一些困惑。然后他把它和这份困惑所买到的东西放在一起称量。清楚的那个备选，让这个机制读起来像是「召唤出一件物件，外加一个生物」。而困惑的那个，让它读起来像是召唤出这个机制名字所指的那样东西：一件活着的物件。他并不是在主张困惑是好事；他主张的是：这一处特定的古怪，和它的独特性是分不开的；而把它换成清晰，付出的是一个从来没有人给它标过价的代价。",
+          "flavor": "整个点子，就住在那个奇怪的数字里。"
+        },
+        {
+          "title": "当一个新元素撞上一个已经被校准过的阈值时，动那个新元素",
+          "rules": "设计想让这枚衍生物是神器：这在风味上最说得通，也能和这个系列的其余部分产生不错的互动。开发则从强度上提出反对：在一个被定在三的阈值面前，单单一张牌就产出两个被计数的东西，实在太多了。他把两个选项讲得很干脆：要么改这枚衍生物，要么把那个阈值从三改成四。他们改了衍生物，而他称之为更好的一步。那个阈值是许许多多别的牌被校准所依据的东西；而这枚衍生物只是一样新东西。动那个依赖者最少的。",
+          "flavor": "这两个数字里，有一个挂着整个系列的其余部分。"
+        },
+        {
+          "title": "对自家设定的忠实，输给受众实际会有的那种读法",
+          "rules": "创意团队为这枚衍生物想到的第一个名字，取自那个阵营既有的内部生态；如果标准是忠实，这就是正确答案。问题出在关于读者的算术上：超过百分之九十九的受众不会知道这个典故，而会把这个词读成一种普通的地球动物——放在这个语境里毫无道理。于是那个准确的名字，会向几乎所有人传达出一件假的事。他们改而造了一个新词。他还点明了底下那条职权规则：当一个生物类别不带任何机制功能时，给它命名是创意团队的事。",
+          "flavor": "在百科全书里是对的，在读者脑子里是错的。"
+        },
+        {
+          "title": "把一件工具放在它最好用的地方，而不是最需要它的地方",
+          "rules": "被问到「另一类物件在竞争力上更吃亏，为什么这个机制却给了这一类」时，他把两个问题分开了。这个机制在他们所选的那一类上更好用；而他把理由讲得很确切：在另一类上，它只不过是把那件物件变成了一个生物；而在这一类上，你先得到一个生物，等它死了，那件物件还在那里、还能当它自己来用。然后是一般性的规则。机制是工具；当你造出一个时，你在做长线打算，你想要一样能反复使用的东西——所以「让复用性最优」的放置，胜过「缓解压力最多」的放置。",
+          "flavor": "最缺东西的那个位置，并不是最能发挥这件工具的位置。"
+        },
+        {
+          "title": "第一次使用不是一次封门",
+          "rules": "被问到另一类物件是否就此与这个机制无缘时，他讲了近几年的一项转变：不让过去的选择去阻断未来的选择。他对那股拉力是诚实的——先这样做过一次，确实提高了它再这样出现的概率——但那是一个概率，不是一条规则；而如果未来某个项目让另一个版本说得通，它显然是可以拿来用的。同一套推理也适用于「这个机制会不会永远和引入它的那个阵营绑在一起」：他预计下一次它出现时，会是在一个完全不同的地方。",
+          "flavor": "第一个版本定下了默认值。它并没有把门关上。"
+        },
+        {
+          "title": "节俭：是四张，不是因为不能更多，而是因为不需要更多",
+          "rules": "被问到还剩多少空间时，他说有大量设计从未印出来，剩下的空间还很多。数量之所以少，是因为开发者很节俭——因为一点点就能走很远。他划出的那条区别才是有用的部分：这个数字不是「用光之后才发现的天花板」，而是在还有余地时做出的一个「够了」的判断。把这个计数读成上限才是错误——在外面，是有人由此推断这块空间已经耗尽；在里面，则是任何一个在筹划它回归的人。",
+          "flavor": "没有更多，是因为本来就不需要更多。"
+        },
+        {
+          "title": "规则上的复杂，和「难以说服人」是两回事",
+          "rules": "这个机制有很多活动部件；于是有人问他，是怎么说服整个房间接受这么多复杂度的。他的回答是：他并不需要。关于衍生物的尺寸有过争论，关于它的类别也有过讨论，但从来没有人想要弄死它。他的解释是：尽管这套机械很精巧，它的基础部分是直观的——只有一处例外——而且这样东西的运作方式，和你会预期的一样。这一点，加上大量的风味，让它自己把自己卖了出去。复杂度遭到抵抗，是在它制造意外的时候；而那种最终落回人们本来就预料到的结果上的复杂度，要比它的零件数所暗示的便宜得多。",
+          "flavor": "一大堆活动部件，而其中每一个做的都是你以为它会做的事。"
+        }
+      ]
+    }
+  }
+}
