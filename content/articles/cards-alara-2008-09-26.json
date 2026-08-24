@@ -1,0 +1,320 @@
+{
+  "id": "cards-alara-2008-09-26",
+  "slug": "cards-alara-2008-09-26",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2008-09-26",
+  "series": null,
+  "tags": ["card-stories", "development", "templating", "art", "colour-pie"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/cards-alara-2008-09-26",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "The Cards of Alara",
+      "dek": "The week-after-release tradition: individual card stories, including one card he kept in the set by force after everyone told him not to.",
+      "overview": "His standing habit of following a release with a column of small stories about individual cards, which in this instance turns unusually candid. Among the origin anecdotes are a piece of art that waited years for a card to be designed around it, a wording rejected on the strength of playtesting rather than logic, a layered answer to a rules question where the stated reasons are not the real one, and a frank account of using his authority to keep a card that his director, his colleagues and an in-house poll all wanted gone.",
+      "takeaway": "Its existence in the file is basically a testament to my willpower to keep the card in the set.",
+      "lessons": [
+        {
+          "title": "A wording can be logically fine and empirically confusing",
+          "rules": "One templating story turns on a phrase most of the department dislikes. The construction offering a choice of zero or one is perfectly coherent, and its two-or-fewer sibling reads without difficulty, but testing showed that the version bounded at one simply throws many players off. That is not a claim anyone would arrive at by inspection — it is an observation about readers, obtained by watching them. The lesson is that clarity is a property measured in the audience, and a sentence you cannot fault can still be the wrong sentence.",
+          "flavor": "\"Up to two\" is fine. \"Up to one\" is where people stop."
+        },
+        {
+          "title": "The stated reasons for a restriction are often not the operative one",
+          "rules": "Asked why a character from an all-artifact world is not an artifact card, he answers in layers. For the related question of why these characters carry no races, he gives three reasons and rates them: precedent from earlier sets, a rules path that would require awkward machinery to express, and a creative principle that these figures transcend their individual qualities. Then he separates the actual question: mixing the two permanent types is entirely legal, so the objection is not rules at all. It is degeneracy — the thing the design cannot afford.",
+          "flavor": "Three good reasons, and then the one that is actually deciding it."
+        },
+        {
+          "title": "Some design problems recur every release",
+          "rules": "He notes that design has little challenges it keeps repeating, and gives one: making a new cheap white creature that can attack for two. Nearly every block needs at least one, often more, and the underlying requirement never changes — so the work is not solving it but finding this year's way of solving it. Here the new keyword supplied the tweak. A perennial slot is a standing question that each release answers with whatever it happens to have, and it is a useful place to spend a new mechanic.",
+          "flavor": "The same card, needed again. What have we got this year to make it with?"
+        },
+        {
+          "title": "A production convention can veto a card outright",
+          "rules": "One card spent time in an earlier set before running into an obstacle that had nothing to do with its design: the convention for this card is that the winner appears in its illustration, and that world had no humans in it. The card was pushed off, waited, and eventually landed somewhere it could be depicted. The constraint is not a rule about gameplay or colour, and it is not negotiable by argument — it comes from what the object has to look like, and a design that cannot be illustrated is not finished.",
+          "flavor": "Nothing wrong with the card. There was nobody in that world to paint on it."
+        },
+        {
+          "title": "Spend authority to protect the thing nobody else wants",
+          "rules": "The most candid passage in the column concerns a card he loved and everyone else did not. The director objected in one of the earliest development notes and repeatedly afterwards; other people joined in; and when in-house players were asked to grade every rare in the set, it came dead last. He kept it anyway, and describes the position plainly — one of the perks of his job is the ability to protect a card he cares about, and this card's presence is a testament to his willpower. He does not claim the poll was wrong.",
+          "flavor": "Graded last by everyone asked. Printed anyway, by one person's decision."
+        },
+        {
+          "title": "Not being smitten with most of your own work is what makes the exceptions affordable",
+          "rules": "In the middle of describing a card he was instantly taken with, he inserts a qualification that gives the story its force: as someone who makes a great many cards, he is not smitten with the majority of what he designs. The admission is what converts enthusiasm into information. If everything you make delights you, your enthusiasm carries no signal and cannot be spent on anything; a low baseline is precisely what makes it worth overriding a room when the rare exception arrives.",
+          "flavor": "He makes hundreds. He loves a handful. That's what the handful is for."
+        },
+        {
+          "title": "Design from the image when the image is the brief",
+          "rules": "A piece of art had been painted years earlier for a card that development killed, and the artist kept saying he would love to use it if an appropriate card ever appeared. Eventually one was made for it — and the design was read directly out of the picture. The central figure is drawing the same symbol over and over, to a point where the obsession has withered his body. So the mechanic repeats one action, and using it costs the user something. The image did not decorate the card; it specified it.",
+          "flavor": "Look at what he is doing to himself. Now write that as rules text."
+        },
+        {
+          "title": "Let the idea that sounds like a joke have its few minutes",
+          "rules": "A colleague arrived at a design meeting and pitched a world where everyone is a robot. He is careful to preserve the exact line and the exact sequence, because the sequence is the lesson: it took him a few minutes to convince the team he was not kidding, and before that same meeting ended the entire team was enthusiastic about it. The idea that became the defining conceit of one of the five worlds spent its first minutes being received as a gag, and survived only because its author kept going.",
+          "flavor": "\"Everyone's a robot.\" It took a few minutes to establish he meant it."
+        },
+        {
+          "title": "Grow a colour by giving it a strong effect with a built-in undo",
+          "rules": "Two of the cards he discusses are examples of the same deliberate expansion. The colour pie is in constant flux — gentle and subtle rather than chaotic — and the department had been working to give one colour more bite. The method is specific rather than a general loosening: that colour gets more universal answers, on the condition that they come with a weakness, namely that they can be undone. He frames it as the next evolution of two well-known older cards, which is how an expansion stays recognisable as growth rather than as trespass.",
+          "flavor": "You may answer anything. Somebody may always answer you back."
+        },
+        {
+          "title": "A body of work leaves fingerprints",
+          "rules": "Introducing one design, he identifies its author from its contents: you can tell this is his card because of the combination of copying things and making tokens. He notes the pair runs through the whole game and through his own contributions to this set in particular. It is offered lightly and it describes something real — sustained work develops recurring preoccupations that are legible from the outside, and a designer's signature is not a style but a set of ideas they keep going back to.",
+          "flavor": "Copies and tokens again. You can guess who wrote it."
+        }
+      ]
+    },
+    "es": {
+      "title": "Las cartas de Alara",
+      "dek": "La tradición de la semana posterior al lanzamiento: historias de cartas concretas, incluida una que mantuvo en la colección por la fuerza después de que todos le dijeran que no.",
+      "overview": "Su costumbre fija de seguir un lanzamiento con una columna de pequeñas historias sobre cartas concretas, que en esta ocasión se vuelve inusualmente franca. Entre las anécdotas de origen hay una obra de arte que esperó años a que le diseñaran una carta alrededor, una redacción rechazada por la fuerza de las pruebas de juego y no de la lógica, una respuesta por capas a una cuestión de reglas donde las razones declaradas no son la real, y un relato honesto sobre usar su autoridad para conservar una carta que su director, sus colegas y una encuesta interna querían fuera.",
+      "takeaway": "Su existencia en el archivo es básicamente un testimonio de mi fuerza de voluntad para mantener la carta en la colección.",
+      "lessons": [
+        {
+          "title": "Una redacción puede ser lógicamente impecable y empíricamente confusa",
+          "rules": "Una historia de templado gira en torno a una frase que a casi todo el departamento le disgusta. La construcción que ofrece elegir entre cero y uno es perfectamente coherente, y su hermana de «dos o menos» se lee sin dificultad, pero las pruebas mostraron que la versión limitada a uno sencillamente descoloca a muchos jugadores. Eso no es algo a lo que nadie llegue por inspección: es una observación sobre lectores, obtenida mirándolos. La lección es que la claridad es una propiedad medida en el público, y una frase que no puedes objetar puede seguir siendo la frase equivocada.",
+          "flavor": "«Hasta dos» va bien. «Hasta uno» es donde la gente se para."
+        },
+        {
+          "title": "Las razones declaradas de una restricción suelen no ser la operativa",
+          "rules": "Cuando le preguntan por qué un personaje de un mundo todo-artefactos no es una carta de artefacto, responde por capas. Para la cuestión relacionada de por qué esos personajes no llevan razas, da tres razones y las valora: precedente de colecciones anteriores, una vía de reglas que exigiría maquinaria incómoda para expresarse, y un principio creativo según el cual esas figuras trascienden sus cualidades individuales. Luego separa la pregunta real: mezclar los dos tipos de permanente es enteramente legal, así que la objeción no es de reglas en absoluto. Es la degeneración: aquello que el diseño no puede permitirse.",
+          "flavor": "Tres buenas razones, y luego la que de verdad lo decide."
+        },
+        {
+          "title": "Algunos problemas de diseño reaparecen en cada lanzamiento",
+          "rules": "Señala que el diseño tiene pequeños retos que no deja de repetir, y da uno: hacer una nueva criatura blanca barata capaz de atacar por dos. Casi todo bloque necesita al menos una, a menudo más, y el requisito de fondo nunca cambia, así que el trabajo no es resolverlo sino encontrar la manera de este año de resolverlo. Aquí la nueva palabra clave aportó el retoque. Una casilla perenne es una pregunta permanente que cada lanzamiento responde con lo que tenga a mano, y es un buen sitio donde gastar una mecánica nueva.",
+          "flavor": "La misma carta, otra vez necesaria. ¿Con qué la hacemos este año?"
+        },
+        {
+          "title": "Una convención de producción puede vetar una carta de plano",
+          "rules": "Una carta pasó un tiempo en una colección anterior antes de toparse con un obstáculo que nada tenía que ver con su diseño: la convención para esta carta es que el ganador aparece en su ilustración, y aquel mundo no tenía humanos. La carta se pospuso, esperó, y acabó cayendo en un sitio donde podía representarse. La restricción no es una regla sobre juego ni sobre color, y no se negocia con argumentos: viene de cómo tiene que verse el objeto, y un diseño que no puede ilustrarse no está terminado.",
+          "flavor": "Nada malo con la carta. No había nadie en aquel mundo a quien pintar en ella."
+        },
+        {
+          "title": "Gasta autoridad para proteger aquello que nadie más quiere",
+          "rules": "El pasaje más franco de la columna trata de una carta que él amaba y nadie más. El director objetó en una de las primerísimas notas de desarrollo y repetidamente después; otras personas se sumaron; y cuando se pidió a jugadores internos que calificaran todas las raras de la colección, quedó la última. La mantuvo igualmente, y describe la posición sin rodeos: una de las ventajas de su puesto es la capacidad de proteger una carta que le importa, y la presencia de esta carta es un testimonio de su fuerza de voluntad. No afirma que la encuesta se equivocara.",
+          "flavor": "Calificada la última por todos los consultados. Impresa igual, por decisión de una persona."
+        },
+        {
+          "title": "No estar prendado de la mayoría de tu obra es lo que hace asequibles las excepciones",
+          "rules": "En medio de describir una carta que le encantó al instante, inserta una salvedad que le da fuerza a la historia: como alguien que hace muchísimas cartas, no está prendado de la mayoría de las que diseña. La admisión es lo que convierte el entusiasmo en información. Si todo lo que haces te deleita, tu entusiasmo no lleva señal y no puede gastarse en nada; una línea base baja es precisamente lo que hace que merezca la pena imponerse a una sala cuando llega la rara excepción.",
+          "flavor": "Hace cientos. Ama un puñado. Para eso está el puñado."
+        },
+        {
+          "title": "Diseña a partir de la imagen cuando la imagen es el encargo",
+          "rules": "Una obra se había pintado años antes para una carta que desarrollo mató, y el artista repetía que le encantaría usarla si alguna vez aparecía una carta apropiada. Finalmente se hizo una para ella, y el diseño se leyó directamente del cuadro. La figura central dibuja el mismo símbolo una y otra vez, hasta un punto en que la obsesión le ha consumido el cuerpo. Así que la mecánica repite una acción, y usarla le cuesta algo al usuario. La imagen no decoró la carta; la especificó.",
+          "flavor": "Mira lo que se está haciendo a sí mismo. Ahora escríbelo como texto de reglas."
+        },
+        {
+          "title": "Dale sus pocos minutos a la idea que suena a chiste",
+          "rules": "Un colega llegó a una reunión de diseño y propuso un mundo donde todos son robots. Él cuida de conservar la frase exacta y la secuencia exacta, porque la secuencia es la lección: le costó unos minutos convencer al equipo de que no bromeaba, y antes de que esa misma reunión terminara todo el equipo estaba entusiasmado. La idea que acabó siendo el rasgo definitorio de uno de los cinco mundos pasó sus primeros minutos siendo recibida como una broma, y sobrevivió solo porque su autor siguió insistiendo.",
+          "flavor": "«Todos son robots.» Costó unos minutos establecer que lo decía en serio."
+        },
+        {
+          "title": "Haz crecer un color dándole un efecto potente con un deshacer incorporado",
+          "rules": "Dos de las cartas que comenta son ejemplos de la misma expansión deliberada. La rueda de color está en flujo constante —suave y sutil, no caótico— y el departamento venía trabajando para dar a un color un poco más de mordiente. El método es concreto y no una relajación general: ese color obtiene respuestas más universales, con la condición de que vengan con una debilidad, a saber, que puedan deshacerse. Lo enmarca como la siguiente evolución de dos cartas antiguas muy conocidas, que es como una expansión sigue siendo reconocible como crecimiento y no como allanamiento.",
+          "flavor": "Puedes responder a cualquier cosa. Siempre podrán responderte a ti."
+        },
+        {
+          "title": "Un cuerpo de obra deja huellas",
+          "rules": "Al presentar un diseño, identifica a su autor por su contenido: se nota que es carta suya por la combinación de copiar cosas y hacer fichas. Señala que el par recorre todo el juego y sus propias aportaciones a esta colección en particular. Se ofrece a la ligera y describe algo real: el trabajo sostenido desarrolla preocupaciones recurrentes que son legibles desde fuera, y la firma de un diseñador no es un estilo sino un conjunto de ideas a las que no deja de volver.",
+          "flavor": "Copias y fichas otra vez. Puedes adivinar quién la escribió."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Les cartes d'Alara",
+      "dek": "La tradition de la semaine suivant la sortie : des histoires de cartes précises, dont une qu'il a maintenue dans l'extension de force après que tout le monde lui a dit non.",
+      "overview": "Son habitude établie de faire suivre une sortie d'une chronique de petites histoires sur des cartes particulières, qui devient ici d'une franchise inhabituelle. Parmi les anecdotes d'origine : une illustration qui a attendu des années qu'on lui conçoive une carte, une formulation rejetée par la force des tests et non de la logique, une réponse en couches à une question de règles où les raisons énoncées ne sont pas la vraie, et un récit franc sur l'usage de son autorité pour garder une carte que son directeur, ses collègues et un sondage interne voulaient voir partir.",
+      "takeaway": "Sa présence dans le fichier est pour l'essentiel un témoignage de ma volonté de garder la carte dans l'extension.",
+      "lessons": [
+        {
+          "title": "Une formulation peut être logiquement irréprochable et empiriquement déroutante",
+          "rules": "Une histoire de gabarit tourne autour d'une tournure que presque tout le service déteste. La construction offrant un choix entre zéro et un est parfaitement cohérente, et sa sœur « deux au plus » se lit sans peine, mais les tests ont montré que la version bornée à un déroute tout simplement beaucoup de joueurs. Ce n'est pas une conclusion à laquelle on arrive par examen : c'est une observation sur des lecteurs, obtenue en les regardant. La leçon : la clarté est une propriété mesurée dans le public, et une phrase irréprochable peut rester la mauvaise phrase.",
+          "flavor": "« Jusqu'à deux » passe. « Jusqu'à un », c'est là que les gens calent."
+        },
+        {
+          "title": "Les raisons énoncées d'une restriction ne sont souvent pas la raison agissante",
+          "rules": "Interrogé sur le fait qu'un personnage venu d'un monde entièrement artificiel ne soit pas une carte d'artefact, il répond par couches. Pour la question voisine — pourquoi ces personnages ne portent pas de race — il donne trois raisons et les hiérarchise : le précédent d'extensions antérieures, un chemin de règles qui exigerait une machinerie malcommode, et un principe créatif selon lequel ces figures transcendent leurs qualités individuelles. Puis il isole la vraie question : mêler les deux types de permanents est parfaitement légal, l'objection n'est donc pas de règles. C'est la dégénérescence — ce que la conception ne peut pas se permettre.",
+          "flavor": "Trois bonnes raisons, puis celle qui tranche réellement."
+        },
+        {
+          "title": "Certains problèmes de conception reviennent à chaque sortie",
+          "rules": "Il note que la conception a de petits défis qu'elle ne cesse de répéter, et en donne un : faire une nouvelle créature blanche bon marché capable d'attaquer pour deux. Presque chaque bloc en a besoin d'au moins une, souvent plus, et l'exigence de fond ne change jamais — le travail n'est donc pas de la résoudre mais de trouver la manière de cette année. Ici, le nouveau mot-clé a fourni l'ajustement. Une case pérenne est une question permanente à laquelle chaque sortie répond avec ce qu'elle a, et c'est un bon endroit où dépenser une mécanique neuve.",
+          "flavor": "La même carte, encore nécessaire. Avec quoi la fait-on cette année ?"
+        },
+        {
+          "title": "Une convention de production peut opposer un veto net",
+          "rules": "Une carte a séjourné dans une extension antérieure avant de heurter un obstacle sans rapport avec sa conception : la convention pour cette carte veut que le vainqueur figure sur son illustration, et ce monde-là ne comptait pas d'humains. La carte fut repoussée, a attendu, et a fini par atterrir là où on pouvait la représenter. La contrainte n'est ni une règle de jeu ni une règle de couleur, et elle ne se négocie pas par argument : elle vient de ce à quoi l'objet doit ressembler, et une conception qu'on ne peut pas illustrer n'est pas achevée.",
+          "flavor": "Rien à reprocher à la carte. Il n'y avait personne dans ce monde à y peindre."
+        },
+        {
+          "title": "Dépensez de l'autorité pour protéger ce dont personne d'autre ne veut",
+          "rules": "Le passage le plus franc de la chronique concerne une carte qu'il aimait et que personne d'autre n'aimait. Le directeur a objecté dès l'une des toutes premières notes de développement, puis à plusieurs reprises ; d'autres s'y sont mis ; et quand on a demandé à des joueurs de la maison de noter toutes les rares de l'extension, elle est arrivée bonne dernière. Il l'a gardée quand même, et décrit la chose sans détour : l'un des avantages de son poste est de pouvoir protéger une carte qui lui tient à cœur, et la présence de celle-ci témoigne de sa volonté. Il ne prétend pas que le sondage avait tort.",
+          "flavor": "Classée dernière par tous les sondés. Imprimée quand même, par la décision d'une personne."
+        },
+        {
+          "title": "Ne pas être épris de l'essentiel de son travail rend les exceptions abordables",
+          "rules": "Au milieu de la description d'une carte dont il s'est aussitôt épris, il insère une réserve qui donne sa force à l'histoire : en tant que fabricant d'un très grand nombre de cartes, il n'est pas épris de la majorité de ce qu'il conçoit. Cet aveu convertit l'enthousiasme en information. Si tout ce que vous faites vous ravit, votre enthousiasme ne porte aucun signal et ne peut se dépenser nulle part ; une base basse est précisément ce qui rend légitime de passer outre une salle quand survient la rare exception.",
+          "flavor": "Il en fait des centaines. Il en aime une poignée. C'est à cela que sert la poignée."
+        },
+        {
+          "title": "Concevez à partir de l'image quand l'image est la commande",
+          "rules": "Une illustration avait été peinte des années plus tôt pour une carte que l'équilibrage a tuée, et l'artiste répétait qu'il adorerait l'employer si une carte appropriée apparaissait un jour. Une carte finit par être faite pour elle — et la conception fut lue directement dans le tableau. Le personnage central trace le même symbole encore et encore, au point que l'obsession lui a rongé le corps. La mécanique répète donc une action, et s'en servir coûte quelque chose à son utilisateur. L'image n'a pas décoré la carte ; elle l'a spécifiée.",
+          "flavor": "Regardez ce qu'il se fait à lui-même. Maintenant écrivez cela en texte de règles."
+        },
+        {
+          "title": "Accordez ses quelques minutes à l'idée qui sonne comme une blague",
+          "rules": "Un collègue est arrivé à une réunion de conception et a proposé un monde où tout le monde est un robot. Il prend soin de conserver la phrase exacte et la séquence exacte, car la séquence est la leçon : il lui a fallu quelques minutes pour convaincre l'équipe qu'il ne plaisantait pas, et avant la fin de cette même réunion toute l'équipe était emballée. L'idée devenue le trait définitoire de l'un des cinq mondes a passé ses premières minutes à être reçue comme une plaisanterie, et n'a survécu que parce que son auteur a insisté.",
+          "flavor": "« Tout le monde est un robot. » Il a fallu quelques minutes pour établir qu'il le pensait."
+        },
+        {
+          "title": "Faites grandir une couleur en lui donnant un effet fort assorti d'une annulation",
+          "rules": "Deux des cartes qu'il commente illustrent la même extension délibérée. La roue des couleurs est en flux constant — doux et subtil, non chaotique — et le service travaillait à donner un peu plus de mordant à une couleur. La méthode est précise et non un relâchement général : cette couleur obtient des réponses plus universelles, à condition qu'elles viennent avec une faiblesse, à savoir qu'on puisse les défaire. Il présente cela comme l'évolution suivante de deux cartes anciennes bien connues, ce qui est la façon dont une extension reste lisible comme croissance et non comme intrusion.",
+          "flavor": "Vous pouvez répondre à tout. On pourra toujours vous répondre en retour."
+        },
+        {
+          "title": "Une œuvre laisse des empreintes",
+          "rules": "En présentant une conception, il en identifie l'auteur par son contenu : on reconnaît sa carte à la combinaison de la copie et de la création de jetons. Il note que ce couple traverse tout le jeu et ses propres apports à cette extension en particulier. C'est donné avec légèreté et cela décrit quelque chose de réel : un travail suivi développe des préoccupations récurrentes lisibles de l'extérieur, et la signature d'un concepteur n'est pas un style mais un ensemble d'idées vers lesquelles il revient sans cesse.",
+          "flavor": "Encore des copies et des jetons. Vous devinez qui l'a écrite."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "As cartas de Alara",
+      "dek": "A tradição da semana pós-lançamento: histórias de cartas específicas, incluindo uma que ele manteve na coleção à força depois de todo mundo dizer que não.",
+      "overview": "O hábito fixo dele de seguir um lançamento com uma coluna de pequenas histórias sobre cartas específicas, que nesta ocasião fica incomumente franca. Entre as anedotas de origem há uma arte que esperou anos por uma carta projetada em torno dela, uma redação rejeitada pela força do playtest e não da lógica, uma resposta em camadas a uma questão de regras em que as razões declaradas não são a real, e um relato franco sobre usar a própria autoridade para manter uma carta que seu diretor, seus colegas e uma enquete interna queriam fora.",
+      "takeaway": "A existência dela no arquivo é basicamente um testemunho da minha força de vontade para manter a carta na coleção.",
+      "lessons": [
+        {
+          "title": "Uma redação pode ser logicamente impecável e empiricamente confusa",
+          "rules": "Uma história de gabarito gira em torno de uma frase de que quase todo o departamento não gosta. A construção que oferece escolha entre zero e um é perfeitamente coerente, e a irmã \"dois ou menos\" se lê sem dificuldade, mas os testes mostraram que a versão limitada a um simplesmente confunde muitos jogadores. Isso não é algo a que alguém chegue por inspeção: é uma observação sobre leitores, obtida observando-os. A lição é que clareza é uma propriedade medida no público, e uma frase que você não consegue criticar ainda pode ser a frase errada.",
+          "flavor": "\"Até dois\" vai bem. \"Até um\" é onde as pessoas travam."
+        },
+        {
+          "title": "As razões declaradas de uma restrição muitas vezes não são a operante",
+          "rules": "Perguntado por que um personagem de um mundo todo-artefato não é uma carta de artefato, ele responde em camadas. Para a questão vizinha de por que esses personagens não carregam raças, ele dá três razões e as hierarquiza: precedente de coleções anteriores, um caminho de regras que exigiria maquinaria desajeitada para se expressar, e um princípio criativo segundo o qual essas figuras transcendem suas qualidades individuais. Depois separa a pergunta real: misturar os dois tipos de permanente é inteiramente legal, então a objeção não é de regras. É degeneração — aquilo que o design não pode bancar.",
+          "flavor": "Três boas razões, e então a que de fato decide."
+        },
+        {
+          "title": "Alguns problemas de design voltam a cada lançamento",
+          "rules": "Ele nota que o design tem pequenos desafios que fica repetindo, e dá um: fazer uma criatura branca barata nova capaz de atacar por dois. Quase todo bloco precisa de pelo menos uma, muitas vezes mais, e a exigência de fundo nunca muda — então o trabalho não é resolvê-la, e sim achar o jeito deste ano de resolvê-la. Aqui a nova palavra-chave forneceu o ajuste. Uma vaga perene é uma pergunta permanente que cada lançamento responde com o que tiver à mão, e é um bom lugar para gastar uma mecânica nova.",
+          "flavor": "A mesma carta, de novo necessária. Com o que a fazemos este ano?"
+        },
+        {
+          "title": "Uma convenção de produção pode vetar uma carta de vez",
+          "rules": "Uma carta passou um tempo numa coleção anterior antes de esbarrar num obstáculo que nada tinha a ver com seu design: a convenção para esta carta é que o vencedor aparece na ilustração dela, e aquele mundo não tinha humanos. A carta foi adiada, esperou, e acabou caindo em algum lugar onde podia ser retratada. A restrição não é uma regra sobre jogo nem sobre cor, e não se negocia por argumento: vem de como o objeto tem de parecer, e um design que não pode ser ilustrado não está terminado.",
+          "flavor": "Nada de errado com a carta. Não havia ninguém naquele mundo para pintar nela."
+        },
+        {
+          "title": "Gaste autoridade para proteger aquilo que ninguém mais quer",
+          "rules": "A passagem mais franca da coluna trata de uma carta que ele amava e ninguém mais. O diretor objetou numa das primeiríssimas notas de desenvolvimento e repetidamente depois; outras pessoas se somaram; e quando pediram a jogadores da casa que dessem nota a todas as raras da coleção, ela ficou em último. Ele a manteve assim mesmo, e descreve a posição sem rodeios: uma das vantagens do cargo dele é a capacidade de proteger uma carta de que gosta, e a presença desta carta é um testemunho da força de vontade dele. Ele não afirma que a enquete estava errada.",
+          "flavor": "Nota mais baixa de todos os consultados. Impressa assim mesmo, por decisão de uma pessoa."
+        },
+        {
+          "title": "Não estar apaixonado pela maior parte do próprio trabalho é o que torna as exceções acessíveis",
+          "rules": "No meio de descrever uma carta pela qual se apaixonou na hora, ele insere uma ressalva que dá força à história: como alguém que faz uma enormidade de cartas, ele não se apaixona pela maioria das que projeta. A admissão é o que converte entusiasmo em informação. Se tudo o que você faz o encanta, seu entusiasmo não carrega sinal e não pode ser gasto em nada; uma linha de base baixa é precisamente o que torna válido atropelar uma sala quando chega a rara exceção.",
+          "flavor": "Ele faz centenas. Ama um punhado. É para isso que o punhado serve."
+        },
+        {
+          "title": "Projete a partir da imagem quando a imagem é o briefing",
+          "rules": "Uma arte havia sido pintada anos antes para uma carta que o desenvolvimento matou, e o artista vivia dizendo que adoraria usá-la se algum dia surgisse uma carta apropriada. Por fim uma foi feita para ela — e o design foi lido diretamente do quadro. A figura central desenha o mesmo símbolo repetidas vezes, a ponto de a obsessão ter consumido seu corpo. Então a mecânica repete uma ação, e usá-la custa algo a quem a usa. A imagem não decorou a carta; ela a especificou.",
+          "flavor": "Olhe o que ele está fazendo consigo mesmo. Agora escreva isso como texto de regras."
+        },
+        {
+          "title": "Dê seus poucos minutos à ideia que soa como piada",
+          "rules": "Um colega chegou a uma reunião de design e propôs um mundo em que todo mundo é um robô. Ele faz questão de preservar a frase exata e a sequência exata, porque a sequência é a lição: levou alguns minutos para convencer a equipe de que não estava brincando, e antes de aquela mesma reunião acabar a equipe inteira estava empolgada. A ideia que virou o traço definidor de um dos cinco mundos passou seus primeiros minutos sendo recebida como piada, e sobreviveu só porque seu autor insistiu.",
+          "flavor": "\"Todo mundo é um robô.\" Levou alguns minutos para estabelecer que ele falava sério."
+        },
+        {
+          "title": "Faça uma cor crescer dando-lhe um efeito forte com um desfazer embutido",
+          "rules": "Duas das cartas que ele comenta são exemplos da mesma expansão deliberada. A roda de cores está em fluxo constante — suave e sutil, não caótico — e o departamento vinha trabalhando para dar a uma cor um pouco mais de mordida. O método é específico, e não um afrouxamento geral: aquela cor ganha respostas mais universais, sob a condição de que venham com uma fraqueza, a saber, que possam ser desfeitas. Ele enquadra isso como a evolução seguinte de duas cartas antigas bem conhecidas, que é como uma expansão continua reconhecível como crescimento e não como invasão.",
+          "flavor": "Você pode responder a qualquer coisa. Sempre poderão responder a você."
+        },
+        {
+          "title": "Uma obra deixa impressões digitais",
+          "rules": "Ao apresentar um design, ele identifica o autor pelo conteúdo: dá para ver que é carta dele pela combinação de copiar coisas e fazer fichas. Ele nota que o par atravessa o jogo inteiro e suas próprias contribuições a esta coleção em particular. É oferecido com leveza e descreve algo real: trabalho sustentado desenvolve preocupações recorrentes que são legíveis de fora, e a assinatura de um designer não é um estilo, e sim um conjunto de ideias às quais ele não para de voltar.",
+          "flavor": "Cópias e fichas de novo. Dá para adivinhar quem escreveu."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "阿拉若的那些牌",
+      "dek": "发售后一周的老规矩：讲一张张牌的故事；其中有一张，是在所有人都劝他别留之后，被他硬留在这个系列里的。",
+      "overview": "他有一个固定习惯：在一次发售之后写一篇由一张张牌的小故事组成的专栏；而这一次，它变得异乎寻常地坦白。在那些来历轶事之中，有一幅等了好些年才等到一张围绕它设计出来的牌的画作；有一处不是因为逻辑、而是因为试玩结果而被否掉的措辞；有一个对某条规则问题的分层回答——其中被说出来的那些理由并不是真正起作用的那一个；还有一份关于「动用自己的职权，保住一张他的总监、他的同事以及一次内部投票都想拿掉的牌」的坦率记述。",
+      "takeaway": "它之所以还在这份文件里，基本上就是我「非要把这张牌留在这个系列里」的意志力的一份见证。",
+      "lessons": [
+        {
+          "title": "一处措辞可以在逻辑上无可挑剔，而在经验上令人困惑",
+          "rules": "有一个关于模板的故事，转折点在一句这个部门里大多数人都不喜欢的措辞上。那个「在零与一之间做选择」的结构在逻辑上完全自洽；而它那个「至多两个」的兄弟读起来毫无障碍；可是测试显示：以一为上限的那个版本，就是会把很多玩家绕晕。这不是任何人靠端详就能得出的结论——它是一项关于读者的观察，是靠看着他们得到的。这里的教训是：清晰是一项在受众身上被测量的性质；而一个你挑不出毛病的句子，仍然可能是错的那个句子。",
+          "flavor": "「至多两个」没问题。「至多一个」是人们卡住的地方。"
+        },
+        {
+          "title": "一条限制被说出来的那些理由，往往不是真正在起作用的那一条",
+          "rules": "当被问到「一个来自全是神器的世界的角色，为什么不是一张神器牌」时，他的回答是分层的。对于那个相邻的问题——这些角色为什么不带种族——他给了三条理由并且给它们排了序：来自更早系列的先例；一条要表述出来就得动用别扭机械装置的规则路径；以及一条创作上的原则，说这些人物超越了自身的个别属性。然后他把真正的那个问题单独拎了出来：把这两种永久物类别混起来在规则上完全合法；所以这项反对根本不是规则层面的。它是退化——那是这份设计负担不起的东西。",
+          "flavor": "三条好理由；然后是那条真正在做决定的。"
+        },
+        {
+          "title": "有些设计问题每一次发行都会重来一遍",
+          "rules": "他指出，设计有一些它不断重复的小挑战；并且举了一个：做一只新的、能攻击两点的廉价白色生物。几乎每一个环境都需要至少一只，往往不止一只；而底下那项需求从来不变——所以这份工作不是「解决它」，而是「找到今年解决它的那个办法」。在这里，那个新的关键字提供了那处调整。一个常设的位置，就是一个每次发行都用手头恰好有的东西去回答的常在问题；而它是一个花掉一项新机制的好地方。",
+          "flavor": "同一张牌，又一次被需要。我们今年拿什么来做它？"
+        },
+        {
+          "title": "一条生产上的惯例可以直接否掉一张牌",
+          "rules": "有一张牌曾经在一个更早的系列里待过一阵子，然后撞上了一个与它的设计毫无关系的障碍：这张牌的惯例是「胜者会出现在它的插画里」；而那个世界里没有人类。这张牌被往后推、等了一阵子，最后落到了一个可以把它画出来的地方。这条约束既不是关于对局的规则、也不是关于颜色的规则；而且它没法用论辩来商量——它来自「这个物件必须长成什么样」；而一份画不出来的设计，是没有完成的。",
+          "flavor": "这张牌本身没有任何问题。是那个世界里没有人可以画上去。"
+        },
+        {
+          "title": "把职权花在那件没有别人要的东西上",
+          "rules": "这篇专栏里最坦白的一段，讲的是一张他爱而别人都不爱的牌。总监在最早的几条开发批注之一里就提出了反对，此后又反复提；其他人也加了进来；而当公司内部的玩家被要求给这个系列里所有的稀有牌打分时，它得了最后一名。他还是把它留下了；并且把这个位置讲得很直白——他这份工作的好处之一，就是有能力去保住一张自己在意的牌；而这张牌的在场，是他意志力的一份见证。他并没有声称那次投票错了。",
+          "flavor": "被所有被问到的人打了最后一名。还是印了，靠一个人的决定。"
+        },
+        {
+          "title": "对自己大部分作品都不着迷，正是让那些例外负担得起的原因",
+          "rules": "在描述一张自己一见就着迷的牌的过程中，他插进了一句让这个故事有了力量的限定：作为一个做了大量牌的人，他对自己设计的大多数牌并不着迷。正是这句承认，把热情转换成了信息。如果你做的每一样东西都让你欣喜，那么你的热情就不携带任何信号、也没法被花在任何地方；而一条很低的基线，恰恰正是「当那个罕见的例外来临时，值得去压过一整个房间」的原因。",
+          "flavor": "他做出来几百张。他爱其中一小把。而那一小把就是拿来干这个用的。"
+        },
+        {
+          "title": "当那幅图就是任务书时，就从图开始设计",
+          "rules": "有一幅画是多年之前为一张后来被开发砍掉的牌而画的；而那位画家一直在说，如果哪天出现了一张合适的牌，他很愿意用上它。最后真的有一张牌是为它做出来的——而那份设计是直接从画里读出来的。画面中央的那个人在一遍又一遍地画着同一个符号，画到那份执迷已经把他的身体消耗掉了。于是那项机制重复着同一个动作；而使用它，会让使用者付出些什么。这幅图并没有装饰这张牌；它规定了这张牌。",
+          "flavor": "看看他在对自己做什么。现在把那件事写成规则文字。"
+        },
+        {
+          "title": "给那个听起来像玩笑的点子留出它的那几分钟",
+          "rules": "一位同事走进一场设计会议，提出了一个「所有人都是机器人」的世界。他很小心地把那句原话和那个先后顺序都保留了下来；因为顺序本身就是教训：他花了几分钟才让团队相信他不是在开玩笑；而在同一场会议结束之前，整个团队都已经对它热情高涨了。那个后来成为五个世界之一的定义性构想的点子，最初的几分钟是被当作一个段子接住的；而它之所以活了下来，只是因为它的作者没有停下。",
+          "flavor": "「所有人都是机器人。」花了几分钟才确立下来他是认真的。"
+        },
+        {
+          "title": "给一个颜色一项带着内建撤销键的强力效果，让它长大",
+          "rules": "他谈到的其中两张牌，是同一次有意拓展的例子。色轮处在持续的流动之中——是温和而细微的流动，不是混乱——而这个部门一直在设法让某个颜色多一点咬合力。这个办法是具体的、而不是一次笼统的放松：那个颜色获得更普适的应对手段；条件是它们必须带着一处弱点，也就是它们可以被解除掉。他把这件事框成「两张广为人知的旧牌的下一次演进」；而这正是一次拓展得以继续被辨认为生长、而不是被辨认为越界的方式。",
+          "flavor": "你可以回应任何东西。而人们永远可以回过来回应你。"
+        },
+        {
+          "title": "一整批作品会留下指纹",
+          "rules": "在介绍某一份设计时，他是从它的内容里认出作者的：你看得出这是他的牌，因为它把「复制东西」和「造衍生物」组合在了一起。他指出这一对贯穿了整个游戏，尤其贯穿了他自己在这个系列里的那些贡献。这句话说得很轻；而它描述的是一件真实的事：持续的工作会发展出一些从外面就读得出来的反复出现的关切；而一位设计师的签名并不是一种风格，而是一组他不断回去的念头。",
+          "flavor": "又是复制和衍生物。你猜得出是谁写的。"
+        }
+      ]
+    }
+  }
+}
