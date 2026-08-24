@@ -1,0 +1,320 @@
+{
+  "id": "multikick-seat-pants-2010-01-22",
+  "slug": "multikick-seat-pants-2010-01-22",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2010-01-22",
+  "series": null,
+  "tags": ["mechanics", "naming", "rules", "second-set", "design-space"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/multikick-seat-pants-2010-01-22",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "A Multikick in the Seat of the Pants",
+      "dek": "A mechanic that worked from its first playtest, and then spent a whole project arguing about which existing thing it already was.",
+      "overview": "The origin of a keyword told almost entirely through the objections it had to survive. It was invented under one name, renamed after a two-minute argument with the team, accused by the rules manager of being a clumsier way to do something the game already had, accused by history of being a mechanic from four years earlier, and finally moved out of the release it was designed for. The second half turns to how a follow-up release finds new ground without inventing anything unrelated to what came before it.",
+      "takeaway": "The new thing can always be used next year; further advancements have to wait many years.",
+      "lessons": [
+        {
+          "title": "Resembling a pattern is fine; resembling something in the same release is not",
+          "rules": "The exchange with his team is reproduced almost as dialogue, and the pivot is one sentence. He shrugs off the first accusation — every mechanic is one of two things, so what? Then: no, it *is* that thing, in a set that *has* that thing. He concedes on the spot. He has no problem making mechanics in that family, because as he has argued elsewhere many mechanics essentially are, but even he draws the line when the original is present in the same release. The threshold for too-similar is set by what a player will hold in their hand at the same time, not by the whole history.",
+          "flavor": "It had always been a variant. It only became a problem when the original moved in next door."
+        },
+        {
+          "title": "A standing instruction to re-use will collide with your own invention, and it wins",
+          "rules": "The chain that produced the conflict is worth tracing backwards. The department head had asked designers to be more conscious about bringing mechanics back. So when the need for something to spend surplus mana on came up, he looked through the old mechanics for the best fit, found one at the top of the list, and put it into the playtest. His own new mechanic was already in that playtest. The reuse policy is what put the original in the room, and the original is what disqualified the invention. He does not treat this as bad luck — the policy was doing exactly what it was for.",
+          "flavor": "He put the old mechanic in the file himself. It cost him the new one."
+        },
+        {
+          "title": "Bound the objection precisely, then design outside the bound",
+          "rules": "The rules manager's verdict was that he had come up with a clunkier, more complex way of doing something the game already expressed with a variable in the cost. His answer was to concede — and then measure the concession. The equivalence holds only when the increments come in batches of one and the additional cost is a single generic mana. Change the increment, or make the cost coloured, and the card stops being expressible the old way. Then the operational consequence: there is very little of the narrow form in the release, and where it does appear the effect is not a simple step of one.",
+          "flavor": "He didn't win the argument. He measured exactly how much of it he'd lost."
+        },
+        {
+          "title": "When the reframing hands you the name, take it immediately",
+          "rules": "He flags this as a personal discipline: as a word person he takes mechanic names very seriously. The moment the thing was reclassified as a variant of the existing mechanic, the name was sitting there — the original with a prefix — and he used it from that second onward. He was sure enough that it was right to push very hard to keep it, and he records that he got lucky, because the person with naming authority happened to like it. The reclassification and the name arrived together, which is the case where you should stop looking.",
+          "flavor": "The argument that took the mechanic away also handed him what to call it."
+        },
+        {
+          "title": "When your new thing contains an old one, under-serve the overlap on purpose",
+          "rules": "The second accusation was that this was a mechanic from four years earlier. His structural answer is the useful part: that mechanic is a *subset* of the new one, exactly as an older mechanic is a subset of the one this is a variant of. The new thing can do a great deal the old one cannot, because it is a magnitude larger. But being a superset is not enough separation on its own, so the design team decided to keep to a minimum the cards that sit in the overlapping region — the ones where each payment just copies the spell. You establish the difference by declining to occupy the shared ground.",
+          "flavor": "Containing the old mechanic is not the same as being distinguishable from it."
+        },
+        {
+          "title": "A new unrelated idea keeps; a further advance on this material does not",
+          "rules": "This is the asymmetry that decides what goes into a follow-up release, and it is an argument about option value rather than about taste. Introducing a brand-new unrelated thing is done at the cost of developing the block further. But the new thing can always be used next year — it is not perishable. The further advancements can only be made while this material is in front of the audience, and once the window closes they have to wait many years until the mechanic is re-explored. Given equal merit, spend the slot on the thing whose window is about to shut.",
+          "flavor": "One of the two options will still be available in twelve months. Spend the slot on the other."
+        },
+        {
+          "title": "Don't ship the return and the evolution in the same release",
+          "rules": "The variant was invented during the first set's design and handed to development inside that file. Development concluded the set had a little more going on than it needed, and proposed holding the variant back. Three reasons are given, and the third is the sharpest: it gave the follow-up something new, it gave the first set room to grow, and it allowed the first set to focus on the original mechanic's *return* rather than on its *evolution*. A comeback and a mutation compete for the same attention, and an audience given both at once registers neither cleanly.",
+          "flavor": "They wanted people to notice it was back before they noticed it had changed."
+        },
+        {
+          "title": "Move an effect to a different card type and you invert the order players have learned",
+          "rules": "The trigger introduced in the first set lived on permanents, which trained a habit: get the permanent down before you play the land. Putting the same trigger on instants reverses that, and he lists this as one of the reasons for doing it rather than as a side effect. There is a second: instant speed creates a genuine tension about when to play them, which is why every one of them is an instant. The same trigger, relocated to a different type, is a different decision — and specifically it un-teaches a sequencing habit the audience acquired three months earlier.",
+          "flavor": "Same trigger, same words, and now you want the land first."
+        },
+        {
+          "title": "A design can be right on the first day and still spend the project on its classification",
+          "rules": "He notes, almost as a joke, that the very first playtest contained a card with this mechanic that went to print in an almost identical form — only the creature type changed. Then he asks how hard a time the mechanic could have had, and answers: harder than you might imagine. None of that difficulty was about whether the card was good. Two big issues kept coming up, and both were arguments about what the mechanic already was. The artefact was finished before the debate started and the debate was never about the artefact.",
+          "flavor": "The card never changed. Everything around it did."
+        },
+        {
+          "title": "Hold back what adds a layer, not what adds a topic",
+          "rules": "He closes on the criterion used for the deferred material, and it is a test rather than a preference. For most of what they held back, they held it back because they felt it added a different layer to the play — and he lists the pairs as flat non-identities: the variant is not the original, the animated lands are not the effect-producing lands, the trigger on spells is not the trigger on permanents. The layering of tweaks is what makes a new experience. Something that merely adds a subject can go anywhere; something that adds a layer belongs where the layer beneath it is already installed.",
+          "flavor": "Three sentences, each of the form \"this is not that\", and that is the whole test."
+        }
+      ]
+    },
+    "es": {
+      "title": "Un multipatadón en el trasero",
+      "dek": "Una mecánica que funcionó desde su primera partida de prueba, y que luego pasó un proyecto entero discutiendo qué cosa ya existente era en realidad.",
+      "overview": "El origen de una palabra clave contado casi enteramente a través de las objeciones que tuvo que sobrevivir. Se inventó con un nombre, se rebautizó tras una discusión de dos minutos con el equipo, fue acusada por el jefe de reglas de ser una forma más torpe de hacer algo que el juego ya tenía, acusada por la historia de ser una mecánica de cuatro años antes, y finalmente trasladada fuera del lanzamiento para el que se diseñó. La segunda mitad trata de cómo un lanzamiento de continuación encuentra terreno nuevo sin inventar nada ajeno a lo anterior.",
+      "takeaway": "La cosa nueva siempre se puede usar el año que viene; los avances adicionales tienen que esperar muchos años.",
+      "lessons": [
+        {
+          "title": "Parecerse a un patrón está bien; parecerse a algo del mismo lanzamiento no",
+          "rules": "El intercambio con su equipo se reproduce casi como diálogo, y el giro cabe en una frase. Se sacude la primera acusación: toda mecánica es una de dos cosas, ¿y qué? Entonces: no, *es* esa cosa, en una expansión que *tiene* esa cosa. Cede en el acto. No tiene problema en hacer mecánicas de esa familia, porque como ha argumentado en otra parte muchas mecánicas lo son en esencia, pero incluso él traza la línea cuando el original está presente en el mismo lanzamiento. El umbral de «demasiado parecido» lo fija lo que un jugador tendrá en la mano al mismo tiempo, no la historia entera.",
+          "flavor": "Siempre había sido una variante. Solo se volvió un problema cuando el original se mudó al lado."
+        },
+        {
+          "title": "Una instrucción permanente de reutilizar chocará con tu propia invención, y gana ella",
+          "rules": "Merece la pena rastrear hacia atrás la cadena que produjo el conflicto. El responsable del departamento había pedido a los diseñadores ser más conscientes a la hora de recuperar mecánicas. Así que cuando surgió la necesidad de algo en lo que gastar el maná sobrante, él repasó las mecánicas antiguas buscando la que mejor encajara, encontró una en lo alto de la lista y la metió en la partida de prueba. Su propia mecánica nueva ya estaba en esa partida. La política de reutilización es lo que puso al original en la sala, y el original es lo que descalificó a la invención. Él no lo trata como mala suerte: la política estaba haciendo exactamente aquello para lo que existía.",
+          "flavor": "Metió él mismo la mecánica vieja en el archivo. Le costó la nueva."
+        },
+        {
+          "title": "Acota la objeción con precisión y luego diseña fuera de la acotación",
+          "rules": "El veredicto del jefe de reglas fue que había dado con una forma más torpe y compleja de hacer algo que el juego ya expresaba con una variable en el coste. Su respuesta fue conceder, y después medir la concesión. La equivalencia solo se sostiene cuando los incrementos vienen en lotes de uno y el coste adicional es un único maná genérico. Cambia el incremento, o haz el coste de color, y la carta deja de ser expresable a la manera antigua. Luego la consecuencia operativa: hay muy poco de la forma estrecha en el lanzamiento, y donde aparece el efecto no es un simple escalón de uno.",
+          "flavor": "No ganó la discusión. Midió exactamente cuánta de ella había perdido."
+        },
+        {
+          "title": "Cuando el replanteamiento te entrega el nombre, tómalo de inmediato",
+          "rules": "Señala esto como disciplina personal: como hombre de palabras, se toma muy en serio los nombres de las mecánicas. En el momento en que la cosa quedó reclasificada como variante de la mecánica existente, el nombre estaba ahí —el original con un prefijo— y lo usó desde ese segundo. Estaba lo bastante seguro de que era el correcto como para empujar muy fuerte por conservarlo, y deja constancia de que tuvo suerte, porque a quien tenía la autoridad sobre nombres le gustó. La reclasificación y el nombre llegaron juntos, que es el caso en el que hay que dejar de buscar.",
+          "flavor": "La discusión que le quitó la mecánica le entregó también cómo llamarla."
+        },
+        {
+          "title": "Cuando tu cosa nueva contiene una vieja, deja el solapamiento mal servido a propósito",
+          "rules": "La segunda acusación fue que aquello era una mecánica de cuatro años antes. Su respuesta estructural es la parte útil: esa mecánica es un *subconjunto* de la nueva, exactamente igual que una mecánica más antigua es subconjunto de aquella de la que esta es variante. La nueva puede hacer muchísimo que la vieja no, porque es un orden de magnitud mayor. Pero ser un superconjunto no basta por sí solo como separación, así que el equipo de diseño decidió reducir al mínimo las cartas que se sitúan en la región solapada: aquellas en las que cada pago simplemente copia el hechizo. La diferencia se establece renunciando a ocupar el terreno común.",
+          "flavor": "Contener la mecánica vieja no es lo mismo que ser distinguible de ella."
+        },
+        {
+          "title": "Una idea nueva no perece; un avance sobre este material sí",
+          "rules": "Esta es la asimetría que decide qué entra en un lanzamiento de continuación, y es un argumento sobre valor de opción y no sobre gusto. Introducir una cosa nueva y no relacionada se hace a costa de desarrollar más el bloque. Pero la cosa nueva siempre se puede usar el año que viene: no es perecedera. Los avances adicionales solo pueden hacerse mientras este material está delante del público, y una vez que la ventana se cierra tienen que esperar muchos años hasta que la mecánica se vuelva a explorar. A igualdad de mérito, gasta la casilla en aquello cuya ventana está a punto de cerrarse.",
+          "flavor": "Una de las dos opciones seguirá disponible dentro de doce meses. Gasta la casilla en la otra."
+        },
+        {
+          "title": "No publiques el regreso y la evolución en el mismo lanzamiento",
+          "rules": "La variante se inventó durante el diseño de la primera expansión y se entregó a desarrollo dentro de aquel archivo. Desarrollo concluyó que la expansión tenía un poco más de lo que necesitaba y propuso retener la variante. Se dan tres razones, y la tercera es la más afilada: daba a la continuación algo nuevo, daba a la primera expansión espacio para crecer, y permitía a la primera centrarse en el *regreso* de la mecánica original y no en su *evolución*. Un retorno y una mutación compiten por la misma atención, y un público al que se le dan ambas a la vez no registra ninguna con claridad.",
+          "flavor": "Querían que la gente notara que había vuelto antes de notar que había cambiado."
+        },
+        {
+          "title": "Mueve un efecto a otro tipo de carta y inviertes el orden que los jugadores aprendieron",
+          "rules": "El disparador introducido en la primera expansión vivía en permanentes, lo que entrenó un hábito: pon el permanente antes de jugar la tierra. Poner el mismo disparador en instantáneos invierte eso, y él lo enumera como una de las razones para hacerlo y no como un efecto colateral. Hay una segunda: la velocidad de instantáneo crea una tensión genuina sobre cuándo jugarlos, y por eso todos ellos son instantáneos. El mismo disparador, reubicado en otro tipo, es una decisión distinta; y en concreto desenseña un hábito de secuenciación que el público adquirió tres meses antes.",
+          "flavor": "Mismo disparador, mismas palabras, y ahora quieres la tierra primero."
+        },
+        {
+          "title": "Un diseño puede estar bien el primer día y aun así pasarse el proyecto en su clasificación",
+          "rules": "Señala, casi como chiste, que la primerísima partida de prueba contenía una carta con esta mecánica que se imprimió de forma casi idéntica: solo cambió el tipo de criatura. Luego pregunta cuán mal lo pudo pasar la mecánica, y responde: peor de lo que uno imaginaría. Nada de esa dificultad tenía que ver con si la carta era buena. Dos grandes problemas seguían apareciendo, y ambos eran discusiones sobre qué era ya la mecánica. El artefacto estaba terminado antes de que empezara el debate, y el debate nunca fue sobre el artefacto.",
+          "flavor": "La carta nunca cambió. Todo lo que la rodeaba, sí."
+        },
+        {
+          "title": "Retén lo que añade una capa, no lo que añade un tema",
+          "rules": "Cierra con el criterio usado para el material aplazado, y es una prueba y no una preferencia. La mayor parte de lo que retuvieron lo retuvieron porque sentían que añadía una capa distinta al juego; y enumera los pares como no-identidades escuetas: la variante no es el original, las tierras animadas no son las tierras que producen efectos, el disparador en hechizos no es el disparador en permanentes. La superposición de retoques es lo que crea una experiencia nueva. Algo que solo añade un asunto puede ir a cualquier parte; algo que añade una capa pertenece a donde la capa de debajo ya está instalada.",
+          "flavor": "Tres frases, cada una de la forma «esto no es aquello», y esa es toda la prueba."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Un multicoup de pied au derrière",
+      "dek": "Une mécanique qui a fonctionné dès son premier test, puis a passé tout un projet à discuter de quelle chose existante elle était déjà.",
+      "overview": "L'origine d'un mot-clé racontée presque entièrement par les objections auxquelles il a dû survivre. Il fut inventé sous un nom, rebaptisé après une dispute de deux minutes avec l'équipe, accusé par le responsable des règles d'être une façon plus lourde de faire ce que le jeu savait déjà faire, accusé par l'histoire d'être une mécanique de quatre ans plus tôt, et finalement déplacé hors de l'extension pour laquelle il était conçu. La seconde moitié porte sur la manière dont une extension de suite trouve du terrain neuf sans rien inventer d'étranger à ce qui précède.",
+      "takeaway": "La chose neuve pourra toujours servir l'an prochain ; les avancées supplémentaires, elles, doivent attendre des années.",
+      "lessons": [
+        {
+          "title": "Ressembler à un motif est acceptable ; ressembler à une chose de la même extension ne l'est pas",
+          "rules": "L'échange avec son équipe est reproduit presque en dialogue, et le basculement tient en une phrase. Il balaie la première accusation : toute mécanique est l'une de deux choses, et alors ? Puis : non, c'*est* cette chose, dans une extension qui *contient* cette chose. Il cède sur-le-champ. Il n'a aucun problème à faire des mécaniques de cette famille, car comme il l'a soutenu ailleurs beaucoup en sont, mais même lui trace la ligne quand l'original est présent dans la même extension. Le seuil du trop-semblable est fixé par ce qu'un joueur tiendra en main en même temps, non par toute l'histoire.",
+          "flavor": "C'était depuis toujours une variante. Ça n'est devenu un problème que quand l'original a emménagé à côté."
+        },
+        {
+          "title": "Une consigne permanente de réemploi entrera en collision avec votre invention, et elle gagne",
+          "rules": "La chaîne qui a produit le conflit mérite d'être remontée. Le responsable du service avait demandé aux concepteurs d'être plus attentifs au retour des mécaniques. Aussi, quand le besoin d'un exutoire au mana excédentaire s'est présenté, il a passé en revue les anciennes mécaniques pour trouver la mieux adaptée, en a trouvé une en tête de liste et l'a mise dans le test. Sa propre mécanique neuve était déjà dans ce test. C'est la politique de réemploi qui a mis l'original dans la pièce, et c'est l'original qui a disqualifié l'invention. Il n'y voit pas de malchance : la politique faisait exactement ce pour quoi elle existait.",
+          "flavor": "Il a mis lui-même l'ancienne mécanique dans le fichier. Cela lui a coûté la nouvelle."
+        },
+        {
+          "title": "Bornez l'objection précisément, puis concevez hors des bornes",
+          "rules": "Le verdict du responsable des règles fut qu'il avait trouvé une façon plus lourde et plus complexe de faire ce que le jeu exprimait déjà par une variable dans le coût. Sa réponse fut de concéder — puis de mesurer la concession. L'équivalence ne tient que si les incréments viennent par paquets d'un et si le coût additionnel est un unique mana générique. Changez l'incrément, ou rendez le coût coloré, et la carte cesse d'être exprimable à l'ancienne. Puis la conséquence opératoire : il y a très peu de la forme étroite dans l'extension, et là où elle paraît, l'effet n'est pas un simple palier d'un.",
+          "flavor": "Il n'a pas gagné la discussion. Il a mesuré exactement ce qu'il en avait perdu."
+        },
+        {
+          "title": "Quand la requalification vous tend le nom, prenez-le tout de suite",
+          "rules": "Il en fait une discipline personnelle : en homme des mots, il prend très au sérieux les noms de mécaniques. À la seconde où la chose fut reclassée en variante de la mécanique existante, le nom était là — l'original avec un préfixe — et il l'a employé dès cet instant. Il était assez sûr d'avoir raison pour se battre fermement afin de le garder, et il note qu'il a eu de la chance, car la personne détenant l'autorité sur les noms l'a aimé. La requalification et le nom sont arrivés ensemble : c'est le cas où il faut cesser de chercher.",
+          "flavor": "La discussion qui lui a pris la mécanique lui a aussi donné comment l'appeler."
+        },
+        {
+          "title": "Quand votre chose neuve en contient une ancienne, sous-servez le recouvrement exprès",
+          "rules": "La seconde accusation fut que c'était une mécanique de quatre ans plus tôt. Sa réponse structurelle est la partie utile : cette mécanique est un *sous-ensemble* de la nouvelle, exactement comme une mécanique plus ancienne est un sous-ensemble de celle dont celle-ci est une variante. La nouvelle sait faire bien plus, car elle est d'un ordre de grandeur supérieur. Mais être un sur-ensemble ne suffit pas à séparer, aussi l'équipe a-t-elle décidé de réduire au minimum les cartes situées dans la zone commune — celles où chaque paiement se contente de copier le sort. On établit la différence en renonçant à occuper le terrain partagé.",
+          "flavor": "Contenir l'ancienne mécanique n'est pas la même chose que s'en distinguer."
+        },
+        {
+          "title": "Une idée neuve se conserve ; une avancée sur ce matériau-ci, non",
+          "rules": "Voilà l'asymétrie qui décide de ce qui entre dans une extension de suite, et c'est un argument de valeur d'option, non de goût. Introduire une chose neuve et sans rapport se fait au prix du développement du bloc. Mais la chose neuve pourra toujours servir l'an prochain : elle n'est pas périssable. Les avancées supplémentaires ne peuvent se faire que tant que ce matériau est devant le public, et une fois la fenêtre close elles doivent attendre des années jusqu'à ce que la mécanique soit réexplorée. À mérite égal, dépensez la case sur ce dont la fenêtre est sur le point de se fermer.",
+          "flavor": "L'une des deux options sera encore disponible dans douze mois. Dépensez la case sur l'autre."
+        },
+        {
+          "title": "Ne sortez pas le retour et l'évolution dans la même extension",
+          "rules": "La variante fut inventée pendant la conception de la première extension et transmise au développement dans ce fichier. Le développement conclut que l'extension avait un peu plus de choses qu'il n'en fallait et proposa de retenir la variante. Trois raisons sont données, la troisième étant la plus tranchante : cela donnait du neuf à la suite, cela laissait à la première extension de la place pour respirer, et cela permettait à la première de se concentrer sur le *retour* de la mécanique d'origine plutôt que sur son *évolution*. Un retour et une mutation se disputent la même attention, et un public à qui l'on donne les deux d'un coup n'enregistre proprement ni l'un ni l'autre.",
+          "flavor": "Ils voulaient qu'on remarque son retour avant de remarquer qu'elle avait changé."
+        },
+        {
+          "title": "Déplacez un effet vers un autre type de carte et vous inversez l'ordre appris",
+          "rules": "Le déclencheur introduit dans la première extension vivait sur des permanents, ce qui a installé une habitude : posez le permanent avant de jouer le terrain. Mettre le même déclencheur sur des éphémères inverse cela, et il le cite comme une des raisons de le faire, non comme un effet de bord. Il y en a une seconde : la vitesse d'éphémère crée une vraie tension sur le moment de les jouer, d'où le fait qu'ils soient tous des éphémères. Le même déclencheur, relogé dans un autre type, est une autre décision — et précisément, il désapprend une habitude de séquence acquise trois mois plus tôt.",
+          "flavor": "Même déclencheur, mêmes mots, et vous voulez désormais le terrain d'abord."
+        },
+        {
+          "title": "Une conception peut être juste dès le premier jour et passer tout le projet sur son classement",
+          "rules": "Il note, presque en plaisantant, que le tout premier test contenait une carte dotée de cette mécanique, imprimée sous une forme quasi identique — seul le type de créature a changé. Puis il demande à quel point la mécanique a pu souffrir, et répond : plus que vous ne l'imagineriez. Rien de cette difficulté ne portait sur la qualité de la carte. Deux gros problèmes revenaient sans cesse, et tous deux étaient des disputes sur ce que la mécanique était déjà. L'objet était fini avant le début du débat, et le débat n'a jamais porté sur l'objet.",
+          "flavor": "La carte n'a jamais changé. Tout autour d'elle, si."
+        },
+        {
+          "title": "Retenez ce qui ajoute une couche, pas ce qui ajoute un sujet",
+          "rules": "Il conclut sur le critère appliqué au matériau différé, et c'est un test, non une préférence. L'essentiel de ce qu'ils ont retenu l'a été parce qu'ils estimaient que cela ajoutait une couche différente au jeu — et il énumère les paires en non-identités sèches : la variante n'est pas l'original, les terrains animés ne sont pas les terrains à effets, le déclencheur sur les sorts n'est pas le déclencheur sur les permanents. C'est l'empilement des retouches qui fait une expérience neuve. Ce qui n'ajoute qu'un sujet peut aller partout ; ce qui ajoute une couche appartient là où la couche du dessous est déjà posée.",
+          "flavor": "Trois phrases, chacune de la forme « ceci n'est pas cela », et c'est tout le test."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Um multichute no traseiro",
+      "dek": "Uma mecânica que funcionou desde o primeiro playtest e depois passou um projeto inteiro discutindo qual coisa já existente ela era.",
+      "overview": "A origem de uma palavra-chave contada quase inteiramente pelas objeções que ela teve de sobreviver. Foi inventada sob um nome, rebatizada depois de uma discussão de dois minutos com a equipe, acusada pelo gerente de regras de ser um jeito mais desajeitado de fazer algo que o jogo já tinha, acusada pela história de ser uma mecânica de quatro anos antes, e por fim transferida para fora do lançamento para o qual havia sido projetada. A segunda metade trata de como um lançamento de continuação acha terreno novo sem inventar nada alheio ao que veio antes.",
+      "takeaway": "A coisa nova sempre poderá ser usada no ano que vem; os avanços adicionais têm de esperar muitos anos.",
+      "lessons": [
+        {
+          "title": "Parecer com um padrão tudo bem; parecer com algo do mesmo lançamento não",
+          "rules": "A troca com a equipe é reproduzida quase como diálogo, e a virada cabe numa frase. Ele descarta a primeira acusação: toda mecânica é uma de duas coisas, e daí? Então: não, ela *é* aquela coisa, numa coleção que *tem* aquela coisa. Ele cede na hora. Não tem problema em fazer mecânicas dessa família, porque como argumentou em outro lugar muitas essencialmente são, mas até ele traça a linha quando o original está presente no mesmo lançamento. O limiar do parecido demais é fixado pelo que um jogador terá na mão ao mesmo tempo, não pela história inteira.",
+          "flavor": "Sempre tinha sido uma variante. Só virou problema quando o original se mudou para o lado."
+        },
+        {
+          "title": "Uma instrução permanente de reaproveitar vai colidir com a sua invenção, e ela vence",
+          "rules": "Vale rastrear de trás para frente a cadeia que produziu o conflito. O chefe do departamento havia pedido aos designers que fossem mais conscientes em trazer mecânicas de volta. Então, quando surgiu a necessidade de algo em que gastar mana sobrando, ele revisou as mecânicas antigas atrás da que melhor servisse, achou uma no topo da lista e a pôs no playtest. Sua própria mecânica nova já estava naquele playtest. A política de reaproveitamento é o que pôs o original na sala, e o original é o que desqualificou a invenção. Ele não trata isso como azar: a política estava fazendo exatamente aquilo para que existia.",
+          "flavor": "Ele mesmo pôs a mecânica velha no arquivo. Isso lhe custou a nova."
+        },
+        {
+          "title": "Delimite a objeção com precisão e então projete fora do limite",
+          "rules": "O veredito do gerente de regras foi que ele havia bolado um jeito mais desajeitado e complexo de fazer algo que o jogo já expressava com uma variável no custo. A resposta dele foi conceder — e depois medir a concessão. A equivalência só vale quando os incrementos vêm em lotes de um e o custo adicional é um único mana genérico. Mude o incremento, ou torne o custo colorido, e a carta deixa de ser exprimível do jeito antigo. Depois a consequência operacional: há muito pouco da forma estreita no lançamento, e onde ela aparece o efeito não é um simples degrau de um.",
+          "flavor": "Ele não ganhou a discussão. Mediu exatamente quanto dela havia perdido."
+        },
+        {
+          "title": "Quando a requalificação lhe entrega o nome, pegue-o na hora",
+          "rules": "Ele sinaliza isso como disciplina pessoal: como homem de palavras, leva nomes de mecânicas muito a sério. No segundo em que a coisa foi reclassificada como variante da mecânica existente, o nome estava ali — o original com um prefixo — e ele passou a usá-lo daquele instante em diante. Estava seguro o bastante de que era o certo para brigar muito por mantê-lo, e registra que teve sorte, porque quem detinha a autoridade sobre nomes gostou. A reclassificação e o nome chegaram juntos, que é o caso em que se deve parar de procurar.",
+          "flavor": "A discussão que lhe tirou a mecânica também lhe entregou como chamá-la."
+        },
+        {
+          "title": "Quando sua coisa nova contém uma antiga, sirva de menos a sobreposição de propósito",
+          "rules": "A segunda acusação foi que aquilo era uma mecânica de quatro anos antes. A resposta estrutural dele é a parte útil: aquela mecânica é um *subconjunto* da nova, exatamente como uma mecânica mais antiga é subconjunto daquela de que esta é variante. A nova consegue fazer muito que a velha não consegue, porque é uma ordem de grandeza maior. Mas ser um superconjunto não é separação suficiente sozinho, então a equipe decidiu reduzir ao mínimo as cartas que ficam na região sobreposta — aquelas em que cada pagamento apenas copia a mágica. A diferença se estabelece recusando ocupar o terreno comum.",
+          "flavor": "Conter a mecânica velha não é o mesmo que ser distinguível dela."
+        },
+        {
+          "title": "Uma ideia nova se conserva; um avanço sobre este material, não",
+          "rules": "Esta é a assimetria que decide o que entra num lançamento de continuação, e é um argumento sobre valor de opção, não sobre gosto. Introduzir uma coisa nova e não relacionada se faz ao custo de desenvolver mais o bloco. Mas a coisa nova sempre poderá ser usada no ano que vem: não é perecível. Os avanços adicionais só podem ser feitos enquanto este material está diante do público, e uma vez fechada a janela eles têm de esperar muitos anos até a mecânica ser reexplorada. Em igualdade de mérito, gaste a vaga naquilo cuja janela está prestes a fechar.",
+          "flavor": "Uma das duas opções ainda estará disponível em doze meses. Gaste a vaga na outra."
+        },
+        {
+          "title": "Não lance o retorno e a evolução no mesmo lançamento",
+          "rules": "A variante foi inventada durante o design da primeira coleção e entregue ao desenvolvimento dentro daquele arquivo. O desenvolvimento concluiu que a coleção tinha um pouco mais acontecendo do que precisava e propôs segurar a variante. Três razões são dadas, e a terceira é a mais afiada: dava algo novo à continuação, dava à primeira coleção espaço para crescer, e permitia que a primeira se concentrasse no *retorno* da mecânica original em vez de na sua *evolução*. Um retorno e uma mutação disputam a mesma atenção, e um público a quem se dão as duas de uma vez não registra nenhuma com clareza.",
+          "flavor": "Queriam que as pessoas notassem que ela voltara antes de notar que mudara."
+        },
+        {
+          "title": "Mova um efeito para outro tipo de carta e você inverte a ordem que os jogadores aprenderam",
+          "rules": "O gatilho introduzido na primeira coleção morava em permanentes, o que treinou um hábito: baixe o permanente antes de jogar o terreno. Pôr o mesmo gatilho em instantâneas inverte isso, e ele lista essa inversão como uma das razões para fazê-lo, não como efeito colateral. Há uma segunda: a velocidade de instantânea cria uma tensão genuína sobre quando jogá-las, e é por isso que todas elas são instantâneas. O mesmo gatilho, realocado para outro tipo, é uma decisão diferente — e especificamente desensina um hábito de sequenciamento que o público adquiriu três meses antes.",
+          "flavor": "Mesmo gatilho, mesmas palavras, e agora você quer o terreno primeiro."
+        },
+        {
+          "title": "Um design pode estar certo no primeiro dia e ainda gastar o projeto na sua classificação",
+          "rules": "Ele nota, quase como piada, que o primeiríssimo playtest continha uma carta com esta mecânica que foi impressa de forma quase idêntica — só o tipo de criatura mudou. Depois pergunta o quanto a mecânica pode ter sofrido, e responde: mais do que você imaginaria. Nada dessa dificuldade era sobre a carta ser boa. Dois grandes problemas ficavam voltando, e ambos eram discussões sobre o que a mecânica já era. O objeto estava pronto antes de o debate começar, e o debate nunca foi sobre o objeto.",
+          "flavor": "A carta nunca mudou. Tudo em volta dela, sim."
+        },
+        {
+          "title": "Segure o que acrescenta uma camada, não o que acrescenta um assunto",
+          "rules": "Ele fecha com o critério usado para o material adiado, e é um teste, não uma preferência. A maior parte do que seguraram foi segurada porque sentiam que acrescentava uma camada diferente ao jogo — e ele enumera os pares como não-identidades secas: a variante não é o original, os terrenos animados não são os terrenos que produzem efeitos, o gatilho em mágicas não é o gatilho em permanentes. É o empilhamento de ajustes que faz uma experiência nova. Algo que só acrescenta um assunto pode ir a qualquer lugar; algo que acrescenta uma camada pertence a onde a camada de baixo já está instalada.",
+          "flavor": "Três frases, cada uma na forma \"isto não é aquilo\", e esse é o teste inteiro."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "屁股上挨的一记连环踢",
+      "dek": "一个从第一次试玩起就好用的机制；然后它花了整整一个项目，去争论自己究竟已经是哪一样既有的东西。",
+      "overview": "一个关键字的起源，几乎完全由它必须挺过的那些反对意见讲出来。它以一个名字被发明出来；在与团队的一场两分钟争论之后被改了名；被规则主管指控为「用一种更笨拙的方式去做这个游戏本来就会做的事」；被历史指控为「这是四年前的一个机制」；最后被挪出了它原本为之设计的那个系列。后半篇谈的是：一个后续系列如何在不发明任何与前作无关的东西的前提下，找到新的地面。",
+      "takeaway": "新东西明年总还能用；而进一步的推进，得等上好多年。",
+      "lessons": [
+        {
+          "title": "像某个套路是可以的；像同一个系列里的某样东西则不行",
+          "rules": "他与团队的那次交锋几乎是照着对话抄下来的；而转折就在一句话里。他把第一条指控挥开了：每个机制不是这个就是那个，那又怎样？然后是：不，它*就是*那个东西——在一个*装着*那个东西的系列里。他当场让步。他并不介意做这一族的机制，因为正如他在别处论证过的，很多机制本质上就是；但即便是他，也会在原版就在同一个系列里出现时划下这条线。「太像」的门槛，是由玩家会同时握在手里的东西定的，而不是由整部历史定的。",
+          "flavor": "它一直都是个变体。只有当原版搬到隔壁来住的时候，它才成了问题。"
+        },
+        {
+          "title": "一条「要复用」的长期指令，会与你自己的发明相撞；而赢的是它",
+          "rules": "值得把产生这场冲突的链条倒着捋一遍。部门主管曾要求设计师们在「把机制带回来」这件事上更自觉一些。所以当「需要一个花掉多余法术力的去处」这个问题冒出来时，他回头翻了一遍旧机制、找最合适的那个；在清单顶上找到了一个，把它扔进了试玩。而他自己那个新机制，本来就在那场试玩里。是这条复用政策把原版请进了屋；也是那个原版让这项发明失去了资格。他并不把这当成运气不好——那条政策所做的，恰恰就是它存在的目的。",
+          "flavor": "是他自己把那个旧机制放进档案的。这让他赔上了新的那个。"
+        },
+        {
+          "title": "把那条反对意见精确地划出边界，然后到边界之外去设计",
+          "rules": "规则主管的裁定是：他想出来的，是一种更笨拙、更复杂的方式，去做这个游戏早就用「费用里的一个变量」表达过的事。他的回应是先认下来——然后把这份让步量出来。这项等价只有在「每一档增量都是一」并且「额外费用是单个通用法术力」时才成立。把增量改掉，或者把费用改成有色的，这张牌就没法再用老办法表达了。接着是操作层面的后果：这个系列里那种狭窄形态非常少；而在它确实出现的地方，效应也不是简单地一格一格往上加。",
+          "flavor": "他没有赢下这场争论。他量清楚了自己到底输掉了其中多少。"
+        },
+        {
+          "title": "当重新归类把名字递到你手上时，当场把它拿走",
+          "rules": "他把这一点标成一项个人纪律：作为一个跟词打交道的人，他非常认真地对待机制的名字。就在这样东西被重新归类为既有机制的一个变体的那一秒，名字已经摆在那儿了——原版加一个前缀；而他从那一秒起就开始用它。他确信它是对的，确信到要为保住它而使劲去争；并且他记下来说自己运气不错，因为握有命名权的那个人正好喜欢它。重新归类和名字是一起到来的；而那正是你应当停止寻找的那种情形。",
+          "flavor": "那场把机制夺走的争论，同时把「该叫它什么」交到了他手上。"
+        },
+        {
+          "title": "当你的新东西包含着一个旧的时，就有意地把重叠区服务得少一点",
+          "rules": "第二条指控是：这是四年前的一个机制。他那个结构性的回答才是有用的部分：那个机制是这个新机制的一个*子集*；正如一个更早的机制是「这个新机制所变体自的那个机制」的子集。新的这个能做很多旧的做不到的事，因为它大了一个数量级。但「是个超集」本身并不足以构成区隔；所以设计团队决定，把落在那片重叠区里的牌压到最少——也就是那些「每付一次费就只是把咒语复制一份」的牌。你是靠拒绝去占那块共有的地面，来确立这份差别的。",
+          "flavor": "包含着那个旧机制，和「能与它区分开来」，并不是一回事。"
+        },
+        {
+          "title": "一个全新的点子放得住；一次针对这批材料的推进放不住",
+          "rules": "这就是决定「什么能进后续系列」的那份不对称；而它是一个关于选择权价值的论证，不是一个关于品味的论证。放进一样全新的、无关的东西，代价是这个环境少得到一分深耕。可是那样新东西明年总还能用——它不会坏。而进一步的推进，只有在这批材料还摆在受众面前的时候才做得成；一旦这扇窗关上，它们就得等上好多年，直到这个机制被重新拿出来探索。在优劣相当的时候，把这个名额花在那个窗口马上要关的东西上。",
+          "flavor": "两个选项里有一个，十二个月后仍然在。把名额花在另一个上。"
+        },
+        {
+          "title": "不要把「回归」和「进化」放在同一个系列里出",
+          "rules": "这个变体是在第一个系列的设计期被发明出来的，并且随着那份档案一起交给了开发。开发的结论是：这个系列身上正在发生的事情比它需要的稍微多了一点；于是提议把这个变体先扣下来。他给了三条理由；而第三条最为锋利：这给了后续系列一样新东西；这给了第一个系列生长的空间；而且这让第一个系列可以专注在那个原机制的*回归*上，而不是它的*进化*上。一次归来和一次变异争抢的是同一份注意力；而一个被同时塞了这两样的受众，哪一样都记不清楚。",
+          "flavor": "他们想让人先注意到它回来了，再注意到它变了。"
+        },
+        {
+          "title": "把一个效应挪到另一种牌张类别上，你就把玩家学会的那个顺序倒过来了",
+          "rules": "第一个系列里引入的那个触发住在永久物上；这训练出了一个习惯：先把永久物摆下去，再去打那块地。把同一个触发放到瞬间上，就把这件事倒了过来；而他把这一点列为这么做的理由之一，而不是一个副作用。还有第二条：瞬间的速度制造出了一种关于「什么时候打它们」的真实张力——这也正是为什么它们全都是瞬间。同一个触发，换到另一种类别上安家，就是另一个决定；而具体来说，它拆掉的是受众三个月前才学会的一个出牌顺序习惯。",
+          "flavor": "同一个触发，同样的字句；而现在你想要先出地。"
+        },
+        {
+          "title": "一个设计可以第一天就是对的，却把整个项目花在它的归类上",
+          "rules": "他几乎是当笑话地提到：最早的那一场试玩里，就有一张带着这个机制的牌，而它以几乎一模一样的形态付印了——变的只有生物类别。然后他问这个机制能有多难过，并自己回答：比你想象的更难过。这些困难没有一点是关于「这张牌好不好」的。有两个大问题反复冒出来；而这两个都是关于「这个机制已经是什么」的争论。在辩论开始之前，那件成品就已经完成了；而那场辩论从来就不是关于那件成品的。",
+          "flavor": "这张牌一直没变。变的是它周围的一切。"
+        },
+        {
+          "title": "扣下那些添了一层的东西，而不是那些添了一个题目的东西",
+          "rules": "他以那批被推迟的材料所用的判准收尾；而那是一道检验，不是一项偏好。他们扣下来的东西里，大多数之所以被扣下，是因为他们觉得它给玩法添上了不同的一层；而他把这些成对列了出来，每一对都是一句干脆的「不等于」：变体不是原版；被唤醒的地不是那些产出效应的地；放在咒语上的触发不是放在永久物上的触发。正是这些微调的层层叠加，做出了一份新的体验。只是添了一个题目的东西，放哪儿都行；而添了一层的东西，属于「它下面那一层已经装好了」的地方。",
+          "flavor": "三句话，每一句都是「这个不是那个」的形式；而这就是全部的检验。"
+        }
+      ]
+    }
+  }
+}
