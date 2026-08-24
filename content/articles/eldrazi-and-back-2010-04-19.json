@@ -1,0 +1,320 @@
+{
+  "id": "eldrazi-and-back-2010-04-19",
+  "slug": "eldrazi-and-back-2010-04-19",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2010-04-19",
+  "series": null,
+  "tags": ["card-stories", "development", "playtesting", "colour-pie", "aesthetics"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/eldrazi-and-back-2010-04-19",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Eldrazi and Back",
+      "dek": "Card-by-card notes from a release he developed rather than designed — including three consecutive test sessions where everyone did the wrong thing and nobody changed anything.",
+      "overview": "An unusual vantage point: he was on the development team rather than the design team for this one, having been busy leading two consecutive large releases. That produces a set of stories about repair rather than invention — a card whose interaction was fixed instead of cut, a category deliberately excised because it fought the premise, an incentive removed because it created busywork, and a teaching problem solved by adding one line of compulsory text to the cheapest member of a class.",
+      "takeaway": "A set cannot just have new threats; it must also have the answers to them, printed alongside.",
+      "lessons": [
+        {
+          "title": "Repair the interaction rather than cutting the card, and pay for the repair",
+          "rules": "A returning card interacted beautifully with the release's oversized costs, and testing surfaced a specific failure: players were hoping not to hit their big creature, because hitting it meant losing it. Development liked what the card was trying to do, so instead of removing it they changed the consequence — you now draw the revealed card rather than burying it, which makes hitting the big one doubly exciting. And he records the price without flinching. That \"little\" change required adding two mana to the cost, one of them coloured.",
+          "flavor": "A card people hope to miss with is broken as an experience, whatever the numbers say."
+        },
+        {
+          "title": "Teach with one compulsory instance instead of explaining",
+          "rules": "Inexperienced testers would not attack with their giant creatures, because they did not feel safe throwing them into the fray — even though the mechanic attached made attacking overwhelmingly correct. The fix proposed in a meeting was not a rules note or an article. Take the cheapest common member of the class and add a line forcing it to attack every turn. Once players see how much damage that one does when it attacks, the behaviour transfers to the ones that are not forced. A single mandatory example does the instruction that no amount of telling would have done.",
+          "flavor": "They could not be told to attack. They could be shown, once, by a card with no choice."
+        },
+        {
+          "title": "The observation repeated three times before anyone acted",
+          "rules": "They bring in players from elsewhere in the company precisely to see how people react on first contact, with fresher eyes and a more casual sensibility. In the first such session they noticed that nobody attacked with the giant creatures. They took notes and changed nothing. The next session, the same. And the one after that. Only then did it reach a development meeting. He reports the delay plainly rather than compressing it, which is the useful part — a single anomalous session is noise, and the thing that converted it into a problem worth solving was the repetition.",
+          "flavor": "Three sessions of the same wrong behaviour before it stopped being an anecdote."
+        },
+        {
+          "title": "Working far ahead means you cannot react when people expect you to",
+          "rules": "Explaining why a card landed in the colour it did, he gives the state of the world at the time the decision was made rather than at the time of publication. During design and most of development, a deck in one colour was dominating tournaments and nobody was complaining about that colour's power — the complaints were about the colour he was strengthening. He states the general point directly: it is easy to forget that they work far ahead, and so they do not have the ability to react as quickly as people sometimes assume. A choice that looks tone-deaf on release was responsive when it was made.",
+          "flavor": "The card was answering a complaint that had stopped being made by the time it printed."
+        },
+        {
+          "title": "Excise the whole category that fights your premise",
+          "rules": "One category of effect is light in the release both in quantity and in quality, and the reason is stated as a necessity rather than a preference. The whole point of the environment is getting enormous creatures onto the battlefield; plentiful, cheap effects that return permanents to their owners' hands make such an environment hard to build. So most of it was cut. Not weakened individually, not restricted by rarity — removed as a class, because the class as a class was incompatible with what the release was for.",
+          "flavor": "Not \"how do we make these fair here?\" but \"can this release afford to contain them at all?\""
+        },
+        {
+          "title": "Remove the obligation, not just the incentive",
+          "rules": "An early version of a card rewarded stacking counters past the point where they did anything else. The objection was not power. Once a creature has reached its final stage there is no reason to keep adding counters, so you can stop thinking about it — but a card like that would force people to keep going just in case. He says both stages worked hard to weed out that kind of activity, and his description of it is the definition worth keeping: mostly meaningless, but necessary to eke every advantage out of the card. An action that is pointless and still compulsory is the worst combination available.",
+          "flavor": "It does almost nothing. Which is exactly why you have to keep doing it."
+        },
+        {
+          "title": "Print the answer alongside the threat",
+          "rules": "A token-making mechanic was created purely as an enabler, and then everyone kept finding other things to do with a pile of small bodies — enough that development felt a need to build an answer. He generalises it into a rule he says deserves its own column: a set cannot only contain new threats, it must contain their answers too. His reason is about what makes the game durable — no single strategy is unbeatable because the environment can always shift to fight it, which means the people releasing a new force have to be conscious of how it will be fought, using material they are shipping at the same time.",
+          "flavor": "You are not only introducing the thing. You are supplying what beats it."
+        },
+        {
+          "title": "Shared personnel is how work moves between projects",
+          "rules": "A card sat in another project's file for about six months. The lead developer of this release also sat on that project's design team; having cut a green card, he said he wanted something like a specific card from the other file — and was asked whether he would simply like that card. It was doing good work where it was but was not essential there, so it moved files before the end of the day. The transfer needed no process. It needed one person with visibility into both, and the willingness to say a project's own card is available.",
+          "flavor": "\"I want something like that card.\" \"How about that card?\""
+        },
+        {
+          "title": "Make the progression predictable, and admit the one that would not",
+          "rules": "Each creature in a cycle of upgradeable creatures carries three sets of statistics, and he pushed hard for the three stages to flow — so that seeing the first change lets you accurately predict the second. Most of them have that property. He then names the holdout: one card he tried repeatedly to give a clean progression to, where the numbers never quite worked out. Publishing the standard and the exception together is what makes the standard legible; an unstated aesthetic rule just reads as inconsistency wherever it breaks.",
+          "flavor": "He wanted a clean sequence. He got one card that refused, and he says which."
+        },
+        {
+          "title": "Details that mean nothing individually add up",
+          "rules": "One card has the same number for its cost, its power and its toughness, with a fourth appearance in the rules text — a joke about a number, and nothing more. He uses it to restate a standing position about detail: little things like this do not mean much on any grander scale, and they add up to positively increase the overall enjoyment of the thing. The defence is aggregate rather than individual, which is what makes it a policy. No one of them justifies the attention; the practice of always taking them does.",
+          "flavor": "Nobody buys the release for this. Everybody who notices it enjoys the release slightly more."
+        }
+      ]
+    },
+    "es": {
+      "title": "Eldrazi ida y vuelta",
+      "dek": "Notas carta por carta de un lanzamiento que desarrolló en vez de diseñar, incluidas tres sesiones de prueba consecutivas en las que todos hicieron lo incorrecto y nadie cambió nada.",
+      "overview": "Un punto de vista inusual: en este estuvo en el equipo de desarrollo y no en el de diseño, por andar liderando dos lanzamientos grandes consecutivos. Eso produce un conjunto de historias sobre reparación en vez de invención: una carta cuya interacción se arregló en lugar de cortarse, una categoría excluida a propósito por chocar con la premisa, un incentivo eliminado por generar trabajo inútil, y un problema de enseñanza resuelto añadiendo una línea de texto obligatorio al miembro más barato de una clase.",
+      "takeaway": "Una expansión no puede tener solo amenazas nuevas: debe traer también sus respuestas, impresas al lado.",
+      "lessons": [
+        {
+          "title": "Repara la interacción en vez de cortar la carta, y paga la reparación",
+          "rules": "Una carta que volvía interactuaba de maravilla con los costes desmesurados del lanzamiento, y las pruebas sacaron a la luz un fallo concreto: los jugadores esperaban no acertar a su criatura grande, porque acertarla significaba perderla. A desarrollo le gustaba lo que la carta intentaba hacer, así que en vez de quitarla cambiaron la consecuencia: ahora robas la carta revelada en lugar de enterrarla, lo que hace que acertar a la grande sea doblemente emocionante. Y anota el precio sin pestañear. Ese cambio «pequeño» exigió añadir dos manás al coste, uno de ellos de color.",
+          "flavor": "Una carta con la que la gente espera fallar está rota como experiencia, digan lo que digan los números."
+        },
+        {
+          "title": "Enseña con un único ejemplar obligatorio en vez de explicar",
+          "rules": "Los probadores inexpertos no atacaban con sus criaturas gigantes, porque no se sentían seguros lanzándolas a la refriega, aunque la mecánica adjunta hacía que atacar fuera abrumadoramente correcto. La solución propuesta en una reunión no fue una nota de reglas ni un artículo. Coge al miembro común más barato de la clase y añádele una línea que le obligue a atacar cada turno. Una vez que los jugadores vean cuánto daño hace ese al atacar, la conducta se traslada a los que no están obligados. Un único ejemplo forzoso hace la instrucción que ninguna cantidad de explicaciones habría hecho.",
+          "flavor": "No se les podía decir que atacaran. Se les podía enseñar, una vez, con una carta sin elección."
+        },
+        {
+          "title": "La observación se repitió tres veces antes de que nadie actuara",
+          "rules": "Traen jugadores de otras partes de la empresa precisamente para ver cómo reacciona la gente en el primer contacto, con ojos más frescos y una sensibilidad más casual. En la primera de esas sesiones notaron que nadie atacaba con las criaturas gigantes. Tomaron nota y no cambiaron nada. La sesión siguiente, lo mismo. Y la de después. Solo entonces llegó a una reunión de desarrollo. Él relata la demora sin comprimirla, y esa es la parte útil: una sesión anómala es ruido, y lo que la convirtió en un problema digno de resolverse fue la repetición.",
+          "flavor": "Tres sesiones con la misma conducta equivocada antes de dejar de ser una anécdota."
+        },
+        {
+          "title": "Trabajar muy por delante significa que no puedes reaccionar cuando la gente lo espera",
+          "rules": "Al explicar por qué una carta acabó en el color en que acabó, da el estado del mundo en el momento en que se tomó la decisión y no en el de la publicación. Durante el diseño y casi todo el desarrollo, un mazo de cierto color arrasaba en torneos y nadie se quejaba del poder de ese color: las quejas iban del color que él estaba reforzando. Enuncia el punto general directamente: es fácil olvidar que trabajan muy por delante, y por tanto no tienen la capacidad de reaccionar tan rápido como a veces se supone. Una elección que parece sorda al salir era una respuesta cuando se tomó.",
+          "flavor": "La carta respondía a una queja que ya había dejado de hacerse cuando se imprimió."
+        },
+        {
+          "title": "Extirpa la categoría entera que choca con tu premisa",
+          "rules": "Una categoría de efecto está poco presente en el lanzamiento tanto en cantidad como en calidad, y la razón se enuncia como necesidad y no como preferencia. Todo el sentido del entorno es meter criaturas enormes en el campo de batalla; efectos abundantes y baratos que devuelven permanentes a la mano de sus dueños vuelven difícil construir semejante entorno. Así que se cortó casi todo. No debilitado uno a uno, no restringido por rareza: eliminado como clase, porque la clase en cuanto clase era incompatible con aquello para lo que existía el lanzamiento.",
+          "flavor": "No «¿cómo los hacemos justos aquí?» sino «¿puede este lanzamiento permitirse tenerlos siquiera?»."
+        },
+        {
+          "title": "Elimina la obligación, no solo el incentivo",
+          "rules": "Una versión temprana de una carta premiaba acumular contadores más allá del punto en que servían de algo. La objeción no era la potencia. Una vez que una criatura llega a su etapa final no hay razón para seguir añadiendo contadores, así que puedes dejar de pensar en ello; pero una carta así obligaría a la gente a seguir haciéndolo por si acaso. Dice que ambas etapas trabajaron duro para erradicar esa clase de actividad, y su descripción es la definición que merece guardarse: en su mayor parte carente de sentido, pero necesaria para exprimir hasta la última ventaja de la carta. Una acción inútil y a la vez obligatoria es la peor combinación disponible.",
+          "flavor": "No hace casi nada. Que es exactamente por lo que tienes que seguir haciéndolo."
+        },
+        {
+          "title": "Imprime la respuesta junto a la amenaza",
+          "rules": "Una mecánica de fichas se creó puramente como facilitadora, y luego todo el mundo empezó a encontrar otras cosas que hacer con un montón de cuerpos pequeños, tantas que desarrollo sintió la necesidad de construir una respuesta. Él lo generaliza en una regla que dice merecer su propia columna: una expansión no puede contener solo amenazas nuevas, debe contener también sus respuestas. Su razón va de lo que hace duradero al juego: ninguna estrategia es imbatible porque el entorno siempre puede desplazarse para combatirla, lo que significa que quien lanza una nueva fuerza debe ser consciente de cómo se combatirá, con material que está enviando al mismo tiempo.",
+          "flavor": "No solo estás introduciendo la cosa. Estás suministrando lo que la vence."
+        },
+        {
+          "title": "El personal compartido es el modo en que el trabajo se mueve entre proyectos",
+          "rules": "Una carta llevaba unos seis meses en el archivo de otro proyecto. El desarrollador jefe de este lanzamiento estaba también en el equipo de diseño de aquel proyecto; habiendo cortado una carta verde, dijo que quería algo como cierta carta del otro archivo, y se le preguntó si simplemente le gustaría esa carta. Estaba haciendo buen trabajo donde estaba pero no era esencial allí, así que cambió de archivo antes de que acabara el día. La transferencia no necesitó proceso. Necesitó una persona con visibilidad sobre ambos, y la disposición a decir que una carta propia del proyecto está disponible.",
+          "flavor": "«Quiero algo como esa carta.» «¿Qué tal esa carta?»"
+        },
+        {
+          "title": "Haz predecible la progresión, y admite la que no lo fue",
+          "rules": "Cada criatura de un ciclo de criaturas mejorables lleva tres juegos de estadísticas, y él empujó fuerte para que las tres etapas fluyeran, de modo que ver el primer cambio permita predecir con acierto el segundo. La mayoría tiene esa propiedad. Luego nombra la excepción: una carta a la que intentó repetidamente dar una progresión limpia y donde los números nunca acabaron de cuadrar. Publicar juntos el estándar y la excepción es lo que hace legible el estándar; una regla estética no enunciada se lee simplemente como incoherencia allá donde se rompe.",
+          "flavor": "Quería una secuencia limpia. Le salió una carta que se negó, y dice cuál."
+        },
+        {
+          "title": "Los detalles que aislados no significan nada suman",
+          "rules": "Una carta tiene el mismo número en su coste, su fuerza y su resistencia, con una cuarta aparición en el texto de reglas: un chiste sobre un número y nada más. Lo usa para reformular una postura permanente sobre el detalle: cosas pequeñas como esta no significan mucho a ninguna escala mayor, y suman para aumentar positivamente el disfrute general de la cosa. La defensa es agregada y no individual, y eso es lo que la convierte en política. Ninguna de ellas justifica por sí sola la atención; la práctica de atenderlas siempre, sí.",
+          "flavor": "Nadie compra el lanzamiento por esto. Todo el que lo nota disfruta el lanzamiento un poco más."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Eldrazi aller-retour",
+      "dek": "Notes carte par carte sur une sortie qu'il a développée plutôt que conçue — dont trois séances de test consécutives où tout le monde a fait la mauvaise chose et où personne n'a rien changé.",
+      "overview": "Un point de vue inhabituel : sur celle-ci il était dans l'équipe de développement et non de conception, occupé qu'il était à mener deux grandes sorties consécutives. D'où un ensemble d'histoires de réparation plutôt que d'invention : une carte dont l'interaction fut corrigée plutôt que coupée, une catégorie délibérément retranchée parce qu'elle contrariait la prémisse, une incitation supprimée parce qu'elle créait de la corvée, et un problème pédagogique résolu en ajoutant une ligne de texte obligatoire au membre le moins cher d'une classe.",
+      "takeaway": "Une extension ne peut pas contenir seulement de nouvelles menaces ; elle doit contenir leurs réponses, imprimées à côté.",
+      "lessons": [
+        {
+          "title": "Réparez l'interaction plutôt que de couper la carte, et payez la réparation",
+          "rules": "Une carte de retour interagissait à merveille avec les coûts démesurés de la sortie, et les tests ont fait surgir une défaillance précise : les joueurs espéraient ne pas toucher leur grosse créature, parce que la toucher signifiait la perdre. Le développement aimait ce que la carte cherchait à faire ; au lieu de la retirer, ils ont donc changé la conséquence — vous piochez désormais la carte révélée au lieu de l'enterrer, ce qui rend le fait de toucher la grosse doublement excitant. Et il consigne le prix sans ciller. Ce « petit » changement a exigé deux manas de plus, dont un coloré.",
+          "flavor": "Une carte avec laquelle on espère rater est cassée en tant qu'expérience, quoi que disent les chiffres."
+        },
+        {
+          "title": "Enseignez par un unique exemplaire obligatoire plutôt que d'expliquer",
+          "rules": "Les testeurs inexpérimentés n'attaquaient pas avec leurs créatures géantes, ne se sentant pas en sécurité à les jeter dans la mêlée — alors même que la mécanique attachée rendait l'attaque massivement correcte. La solution proposée en réunion ne fut ni une note de règles ni un article. Prendre le membre commun le moins cher de la classe et lui ajouter une ligne l'obligeant à attaquer chaque tour. Une fois que les joueurs voient les dégâts qu'il inflige en attaquant, le comportement se transfère à ceux qui n'y sont pas contraints. Un seul exemple obligatoire fait l'instruction qu'aucune quantité de discours n'aurait faite.",
+          "flavor": "On ne pouvait pas leur dire d'attaquer. On pouvait le leur montrer, une fois, par une carte sans choix."
+        },
+        {
+          "title": "L'observation s'est répétée trois fois avant que quiconque agisse",
+          "rules": "Ils font venir des joueurs d'ailleurs dans l'entreprise précisément pour voir comment on réagit au premier contact, avec un œil plus neuf et une sensibilité plus décontractée. À la première de ces séances, ils ont remarqué que personne n'attaquait avec les créatures géantes. Ils ont pris des notes et n'ont rien changé. Séance suivante, pareil. Et celle d'après. Ce n'est qu'alors que cela est monté en réunion de développement. Il rapporte le délai sans le comprimer, et c'est la part utile : une séance anormale est du bruit, et ce qui l'a convertie en problème à résoudre, c'est la répétition.",
+          "flavor": "Trois séances du même comportement erroné avant qu'il cesse d'être une anecdote."
+        },
+        {
+          "title": "Travailler très en amont, c'est ne pas pouvoir réagir quand on l'attend de vous",
+          "rules": "Expliquant pourquoi une carte a fini dans la couleur qu'elle occupe, il donne l'état du monde au moment de la décision et non à celui de la parution. Pendant la conception et l'essentiel du développement, un deck d'une certaine couleur écrasait les tournois et personne ne se plaignait de la puissance de cette couleur-là : les plaintes visaient la couleur qu'il renforçait. Il énonce le point général sans détour : on oublie aisément qu'ils travaillent très en amont, et qu'ils n'ont donc pas la capacité de réagir aussi vite qu'on le suppose parfois. Un choix qui paraît sourd à la sortie était une réponse au moment où il fut fait.",
+          "flavor": "La carte répondait à une plainte qu'on avait cessé de formuler quand elle est parue."
+        },
+        {
+          "title": "Retranchez la catégorie entière qui contrarie votre prémisse",
+          "rules": "Une catégorie d'effet est peu présente dans la sortie, en quantité comme en qualité, et la raison est énoncée comme une nécessité et non comme un goût. Tout l'intérêt de l'environnement est de poser d'énormes créatures sur le champ de bataille ; des effets abondants et bon marché renvoyant les permanents en main rendent un tel environnement difficile à bâtir. On en a donc coupé l'essentiel. Non affaibli au cas par cas, non restreint par la rareté : supprimé en tant que classe, parce que la classe en tant que classe était incompatible avec la raison d'être de la sortie.",
+          "flavor": "Pas « comment les rendre équitables ici ? » mais « cette sortie peut-elle même se permettre d'en contenir ? »"
+        },
+        {
+          "title": "Supprimez l'obligation, pas seulement l'incitation",
+          "rules": "Une version précoce d'une carte récompensait l'empilement de marqueurs au-delà du point où ils servaient encore. L'objection ne portait pas sur la puissance. Une fois une créature parvenue à son dernier palier, il n'y a plus de raison d'ajouter des marqueurs, on peut donc cesser d'y penser — mais une telle carte obligerait à continuer, au cas où. Il dit que les deux étapes ont travaillé dur à éradiquer ce type d'activité, et sa description en est la définition à retenir : le plus souvent dénuée de sens, mais nécessaire pour tirer de la carte le moindre avantage. Une action à la fois vaine et obligatoire est la pire combinaison possible.",
+          "flavor": "Cela ne fait presque rien. Et c'est exactement pour cela qu'il faut continuer à le faire."
+        },
+        {
+          "title": "Imprimez la réponse à côté de la menace",
+          "rules": "Une mécanique de jetons fut créée purement comme facilitateur, puis chacun a trouvé d'autres usages à un tas de petits corps — au point que le développement a jugé nécessaire de bâtir une réponse. Il en tire une règle qui, dit-il, mériterait sa propre chronique : une extension ne peut pas ne contenir que des menaces nouvelles, elle doit aussi contenir leurs réponses. Sa raison porte sur ce qui rend le jeu durable : aucune stratégie n'est imbattable, l'environnement pouvant toujours se déplacer pour la combattre — ce qui oblige ceux qui lâchent une force nouvelle à savoir comment on la combattra, avec du matériel qu'ils livrent en même temps.",
+          "flavor": "Vous n'introduisez pas seulement la chose. Vous fournissez ce qui la bat."
+        },
+        {
+          "title": "Le personnel partagé est le véhicule des transferts entre projets",
+          "rules": "Une carte dormait depuis environ six mois dans le fichier d'un autre projet. Le développeur en chef de cette sortie siégeait aussi dans l'équipe de conception de ce projet ; ayant coupé une carte verte, il a dit vouloir quelque chose comme telle carte de l'autre fichier — et on lui a demandé s'il ne voudrait pas simplement cette carte. Elle rendait de bons services là où elle était, sans y être essentielle : elle a changé de fichier avant la fin de la journée. Le transfert n'a demandé aucun processus. Il a demandé une personne voyant les deux, et disposée à dire qu'une carte de son propre projet est disponible.",
+          "flavor": "« Je veux quelque chose comme cette carte. » « Que diriez-vous de cette carte ? »"
+        },
+        {
+          "title": "Rendez la progression prévisible, et avouez celle qui a refusé",
+          "rules": "Chaque créature d'un cycle de créatures évolutives porte trois jeux de caractéristiques, et il a poussé fort pour que les trois paliers coulent — de sorte que voir le premier changement permette de prédire exactement le second. La plupart ont cette propriété. Il nomme ensuite la récalcitrante : une carte à laquelle il a tenté maintes fois de donner une progression propre, et dont les nombres n'ont jamais tout à fait fonctionné. Publier ensemble la norme et l'exception rend la norme lisible ; une règle esthétique tue se lit simplement comme une incohérence là où elle casse.",
+          "flavor": "Il voulait une séquence propre. Il a eu une carte qui a refusé, et il dit laquelle."
+        },
+        {
+          "title": "Les détails qui, isolés, ne signifient rien s'additionnent",
+          "rules": "Une carte présente le même nombre pour son coût, sa force et son endurance, avec une quatrième apparition dans le texte de règles — une plaisanterie sur un nombre, rien de plus. Il s'en sert pour redire une position constante sur le détail : de petites choses comme celle-ci ne signifient pas grand-chose à une échelle plus vaste, et elles s'additionnent pour accroître réellement le plaisir d'ensemble. La défense est agrégée et non individuelle, et c'est ce qui en fait une politique. Aucune d'elles ne justifie à elle seule l'attention ; la pratique de toujours les prendre, si.",
+          "flavor": "Personne n'achète la sortie pour cela. Quiconque le remarque apprécie un peu plus la sortie."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Eldrazi de ida e volta",
+      "dek": "Notas carta a carta de um lançamento que ele desenvolveu em vez de projetar — inclusive três sessões de teste seguidas em que todos fizeram a coisa errada e ninguém mudou nada.",
+      "overview": "Um ponto de vista incomum: neste ele estava na equipe de desenvolvimento e não na de design, por andar liderando dois grandes lançamentos seguidos. Isso produz um conjunto de histórias sobre conserto em vez de invenção: uma carta cuja interação foi consertada em vez de cortada, uma categoria deliberadamente extirpada por brigar com a premissa, um incentivo removido por gerar trabalho inútil, e um problema de ensino resolvido acrescentando uma linha de texto obrigatório ao membro mais barato de uma classe.",
+      "takeaway": "Uma coleção não pode ter só ameaças novas; precisa trazer também as respostas a elas, impressas ao lado.",
+      "lessons": [
+        {
+          "title": "Conserte a interação em vez de cortar a carta, e pague pelo conserto",
+          "rules": "Uma carta que voltava interagia lindamente com os custos descomunais do lançamento, e os testes revelaram uma falha específica: os jogadores torciam para não acertar a criatura grande, porque acertá-la significava perdê-la. O desenvolvimento gostava do que a carta tentava fazer, então em vez de removê-la mudaram a consequência — agora você compra a carta revelada em vez de enterrá-la, o que torna acertar a grande duplamente empolgante. E ele registra o preço sem pestanejar. Essa mudança \"pequena\" exigiu acrescentar dois manas ao custo, um deles colorido.",
+          "flavor": "Uma carta com a qual as pessoas torcem para errar está quebrada como experiência, digam o que disserem os números."
+        },
+        {
+          "title": "Ensine com um único exemplar obrigatório em vez de explicar",
+          "rules": "Os testadores inexperientes não atacavam com as criaturas gigantes, porque não se sentiam seguros jogando-as na briga — mesmo com a mecânica anexa tornando atacar esmagadoramente correto. A solução proposta numa reunião não foi uma nota de regras nem um artigo. Pegue o membro comum mais barato da classe e acrescente uma linha obrigando-o a atacar todo turno. Assim que os jogadores virem quanto dano aquele causa ao atacar, o comportamento se transfere para os que não são obrigados. Um único exemplo compulsório faz a instrução que nenhuma quantidade de explicação teria feito.",
+          "flavor": "Não dava para mandá-los atacar. Dava para mostrar, uma vez, com uma carta sem escolha."
+        },
+        {
+          "title": "A observação se repetiu três vezes antes de alguém agir",
+          "rules": "Eles trazem jogadores de outras partes da empresa justamente para ver como as pessoas reagem no primeiro contato, com olhos mais frescos e uma sensibilidade mais casual. Na primeira dessas sessões notaram que ninguém atacava com as criaturas gigantes. Anotaram e não mudaram nada. Na sessão seguinte, o mesmo. E na de depois. Só então chegou a uma reunião de desenvolvimento. Ele relata a demora sem comprimi-la, e essa é a parte útil: uma sessão anômala é ruído, e o que a converteu num problema digno de solução foi a repetição.",
+          "flavor": "Três sessões do mesmo comportamento errado antes de deixar de ser uma anedota."
+        },
+        {
+          "title": "Trabalhar muito à frente significa não poder reagir quando esperam que você reaja",
+          "rules": "Ao explicar por que uma carta foi parar na cor em que foi, ele dá o estado do mundo no momento da decisão, e não no da publicação. Durante o design e a maior parte do desenvolvimento, um deck de certa cor arrasava nos torneios e ninguém reclamava do poder daquela cor: as reclamações eram sobre a cor que ele estava reforçando. Ele enuncia o ponto geral diretamente: é fácil esquecer que eles trabalham muito à frente, e portanto não têm a capacidade de reagir tão rápido quanto às vezes se supõe. Uma escolha que parece surda no lançamento era uma resposta quando foi feita.",
+          "flavor": "A carta respondia a uma queixa que já havia deixado de ser feita quando ela foi impressa."
+        },
+        {
+          "title": "Extirpe a categoria inteira que briga com a sua premissa",
+          "rules": "Uma categoria de efeito é rala no lançamento tanto em quantidade quanto em qualidade, e a razão é enunciada como necessidade e não como preferência. O ponto inteiro do ambiente é pôr criaturas enormes no campo de batalha; efeitos abundantes e baratos que devolvem permanentes à mão dos donos tornam difícil construir um ambiente assim. Então a maior parte foi cortada. Não enfraquecida caso a caso, não restringida por raridade: removida como classe, porque a classe enquanto classe era incompatível com aquilo para o que o lançamento existia.",
+          "flavor": "Não \"como tornamos isto justo aqui?\" e sim \"este lançamento pode sequer se dar ao luxo de contê-los?\"."
+        },
+        {
+          "title": "Remova a obrigação, não só o incentivo",
+          "rules": "Uma versão inicial de uma carta recompensava empilhar marcadores além do ponto em que eles faziam algo. A objeção não era poder. Uma vez que a criatura chega ao estágio final não há razão para continuar acrescentando marcadores, então dá para parar de pensar nisso — mas uma carta assim obrigaria as pessoas a continuar, por via das dúvidas. Ele diz que as duas etapas trabalharam duro para erradicar esse tipo de atividade, e a descrição dele é a definição que vale guardar: em grande parte sem sentido, mas necessária para espremer da carta cada vantagem. Uma ação inútil e ainda assim obrigatória é a pior combinação disponível.",
+          "flavor": "Não faz quase nada. E é exatamente por isso que você tem de continuar fazendo."
+        },
+        {
+          "title": "Imprima a resposta ao lado da ameaça",
+          "rules": "Uma mecânica de fichas foi criada puramente como facilitadora, e então todos passaram a achar outras coisas para fazer com uma pilha de corpos pequenos — tantas que o desenvolvimento sentiu necessidade de construir uma resposta. Ele generaliza numa regra que diz merecer coluna própria: uma coleção não pode conter só ameaças novas, precisa conter também as respostas a elas. A razão dele é sobre o que torna o jogo durável: nenhuma estratégia é imbatível porque o ambiente sempre pode se deslocar para combatê-la, o que significa que quem solta uma força nova precisa estar ciente de como ela será combatida, com material que está enviando ao mesmo tempo.",
+          "flavor": "Você não está só introduzindo a coisa. Está fornecendo o que a derrota."
+        },
+        {
+          "title": "Pessoal compartilhado é como o trabalho se move entre projetos",
+          "rules": "Uma carta estava havia cerca de seis meses no arquivo de outro projeto. O desenvolvedor líder deste lançamento também estava na equipe de design daquele projeto; tendo cortado uma carta verde, disse que queria algo como certa carta do outro arquivo — e lhe perguntaram se ele não gostaria simplesmente daquela carta. Ela vinha fazendo bom trabalho onde estava, mas não era essencial ali, então mudou de arquivo antes do fim do dia. A transferência não exigiu processo. Exigiu uma pessoa com visibilidade dos dois, e a disposição de dizer que uma carta do próprio projeto está disponível.",
+          "flavor": "\"Quero algo como aquela carta.\" \"Que tal aquela carta?\""
+        },
+        {
+          "title": "Torne a progressão previsível, e admita a que não quis ser",
+          "rules": "Cada criatura de um ciclo de criaturas evolutivas carrega três conjuntos de estatísticas, e ele insistiu muito para que os três estágios fluíssem — de modo que ver a primeira mudança permita prever com acerto a segunda. A maioria tem essa propriedade. Ele então nomeia a resistente: uma carta à qual tentou repetidamente dar uma progressão limpa, e cujos números nunca fecharam direito. Publicar juntos o padrão e a exceção é o que torna o padrão legível; uma regra estética não enunciada simplesmente se lê como incoerência onde quer que se quebre.",
+          "flavor": "Ele queria uma sequência limpa. Ficou com uma carta que recusou, e ele diz qual."
+        },
+        {
+          "title": "Detalhes que isolados não significam nada se somam",
+          "rules": "Uma carta traz o mesmo número no custo, no poder e na resistência, com uma quarta aparição no texto de regras — uma piada sobre um número, e nada mais. Ele usa isso para reafirmar uma posição permanente sobre detalhe: coisinhas assim não significam muito em nenhuma escala maior, e se somam para aumentar positivamente o prazer geral com a coisa. A defesa é agregada e não individual, e é isso que a torna política. Nenhuma delas sozinha justifica a atenção; a prática de sempre tomá-las, sim.",
+          "flavor": "Ninguém compra o lançamento por isso. Todo mundo que nota aproveita o lançamento um pouco mais."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "去往奥札奇，再回来",
+      "dek": "一次发行的逐张笔记——而这一次他做的是开发、不是设计；其中包括连着三场测试，所有人都做了错的事，而没有人改任何东西。",
+      "overview": "一个不寻常的视角：这一次他在开发团队而不是设计团队里，因为他当时正忙着连着主导两个大型发行。这就产出了一组关于「修补」而不是「发明」的故事：一张互动被修好而不是被砍掉的牌；一个因为与前提冲突而被刻意切除的类别；一项因为制造出无谓劳动而被拿掉的激励；以及一个教学问题——它被解决的办法，是给某一类里最便宜的那个成员加上一行强制性的文字。",
+      "takeaway": "一个系列不能只有新的威胁；它还必须把针对这些威胁的答案，一并印在旁边。",
+      "lessons": [
+        {
+          "title": "去修那处互动，而不是砍掉这张牌；并且为这次修补付账",
+          "rules": "一张回归的牌，与这次发行里那些巨大的费用互动得非常漂亮；而测试翻出了一处具体的失败：玩家在盼着自己*不要*打中那只大生物——因为打中就意味着失去它。开发喜欢这张牌想做的事；于是他们没有把它拿掉，而是改掉了那个后果——如今你会把被翻开的那张牌抽进手里，而不是把它埋掉；这让「打中那只大的」变成了双倍的兴奋。而他毫不回避地记下了代价：这次「小小的」改动，要求在费用上加两点法术力，其中一点是有色的。",
+          "flavor": "一张让人盼着打不中的牌，作为体验就是坏的——不管数字怎么说。"
+        },
+        {
+          "title": "用一个强制性的样本去教，而不是去解释",
+          "rules": "缺乏经验的测试者不肯用自己的巨型生物去攻击，因为他们不觉得把这么大的东西扔进战场是安全的——尽管挂在上面的那个机制让攻击成为压倒性正确的选择。会上提出的解法既不是一条规则注解，也不是一篇文章。取这一类里最便宜的那个普通成员，给它加一行字，逼它每回合都必须攻击。一旦玩家看到那一个在攻击时造成了多少伤害，这个行为就会转移到那些并不被强制的成员身上。一个单独的、强制性的例子，完成了任何量的言说都完不成的教学。",
+          "flavor": "你没法叫他们去攻击。而你可以用一张没得选的牌，示范给他们看一次。"
+        },
+        {
+          "title": "这个观察重复了三次，才有人动手",
+          "rules": "他们从公司别的部门请来玩家，正是为了看看人们在第一次接触时会怎么反应——用更新鲜的眼睛和更休闲的感受力。在头一场这样的测试里，他们注意到没有人用那些巨型生物去攻击。他们记了笔记，什么也没改。下一场，一样。再下一场，还是一样。直到那时它才被拿进开发会议。他把这段延迟原样报告了出来，而没有把它压缩掉；而那正是有用的部分：单独一场反常的测试是噪声；而把它转换成一个值得解决的问题的，是重复。",
+          "flavor": "同样错误的行为出现了三场，它才不再只是一则轶事。"
+        },
+        {
+          "title": "在很前面工作，意味着你没法在人们期待的时候做出反应",
+          "rules": "在解释一张牌为什么落到了它所在的那个颜色时，他给出的是「做这个决定时」的世界状态，而不是「发表时」的。在设计期间以及开发的大部分时间里，某个颜色的一副套牌正在赛场上横扫；而当时没有人在抱怨那个颜色太强——人们抱怨的，是他正在加强的那个颜色。他把这个一般性的要点直说了出来：人们很容易忘记他们的工作在很前面；因此他们并不具备人们有时所设想的那种反应速度。一个在发售时看上去不合时宜的选择，在它被做出时是有回应性的。",
+          "flavor": "这张牌回应的那条抱怨，在它被印出来的时候已经没人再提了。"
+        },
+        {
+          "title": "把与你的前提相冲突的那整个类别切掉",
+          "rules": "某一类效果在这次发行里无论数量还是质量都很稀薄；而给出的理由被表述成必要性，而不是偏好。这个环境的全部要点，是把巨大的生物摆到战场上；而大量廉价的、把永久物送回其拥有者手上的效果，会让这样一个环境很难被搭建起来。所以其中大部分被砍掉了。不是被一张一张地削弱，不是被稀有度限制住——而是作为一个类别被移除；因为这个类别作为类别，与这次发行存在的理由不相容。",
+          "flavor": "不是问「我们怎样让它们在这里公平」，而是问「这次发行到底负不负担得起它们存在」。"
+        },
+        {
+          "title": "拿掉那份义务，而不只是那份激励",
+          "rules": "某张牌的早期版本，会奖励你把指示物堆到「它们不再起任何别的作用」之后。反对意见并不在强度上。一旦一只生物到达了它的最终阶段，就没有理由继续加指示物了，你可以不再去想它；而这样一张牌会逼着人们「以防万一」地继续加下去。他说两个阶段都下了力气去清除这类活动；而他的描述，正是那个值得留下的定义：大体上毫无意义，却又为了把这张牌的每一分优势都榨出来而成为必要。一个既无谓、又强制的动作，是能凑出来的最糟组合。",
+          "flavor": "它几乎什么也不做。而这恰恰就是你必须一直做下去的原因。"
+        },
+        {
+          "title": "把答案和威胁一起印出来",
+          "rules": "某个衍生物机制被造出来时，纯粹是作为一个使能器；而随后所有人都开始为「一堆小身体」找出别的用途——多到让开发觉得有必要造一个答案出来。他把它推广成了一条他说值得单开一篇专栏的规则：一个系列不能只包含新的威胁，它必须同时包含针对它们的答案。他的理由关乎「什么让这个游戏经久」：没有任何一种策略是不可战胜的，因为环境总能移动过去与它对抗——这意味着放出一股新力量的人，必须清楚它将如何被对抗；而所用的材料，是他们同时发出去的那一批。",
+          "flavor": "你不只是在引入这样东西。你还在供应打败它的那样东西。"
+        },
+        {
+          "title": "人员的重叠，就是工作在项目之间移动的方式",
+          "rules": "一张牌在另一个项目的文件里躺了大约六个月。这次发行的开发负责人，同时也在那个项目的设计团队里；他砍掉了一张绿牌之后，说他想要「像另一个文件里的某张牌那样的东西」——而对方问他：那你要不要就要那张牌？它在原来的位置上干得不错，但在那里并非不可或缺；于是它在当天结束之前就换了文件。这次转移不需要流程。它需要的是一个同时看得见两边的人，以及那份「愿意说出『我们项目自己的这张牌可以给你』」的意愿。",
+          "flavor": "「我想要像那张牌那样的东西。」「那，要不要就用那张牌？」"
+        },
+        {
+          "title": "让这段递进可以被预测；并承认那个不肯配合的",
+          "rules": "在一组可升级生物的轮回里，每一只都带着三组数值；而他用力去争取让这三个阶段流畅起来——好让你在看到第一次变化之后，能准确地预测第二次。它们中的大多数具备这个性质。随后他点名了那个例外：有一张牌，他反复尝试给它一段干净的递进，而那些数字始终没能刚好凑上。把这条标准和这个例外一起发表出来，正是让这条标准变得可读的原因；而一条没有被说出口的美学规则，在它断掉的地方只会被读成前后不一。",
+          "flavor": "他想要一段干净的序列。他得到的是一张拒绝配合的牌；而他说出了是哪一张。"
+        },
+        {
+          "title": "那些单独看毫无意义的细节，会累加起来",
+          "rules": "有一张牌，它的费用、力量和防御力是同一个数字；而在规则叙述里还出现了第四次——这是一个关于某个数字的玩笑，仅此而已。他借它重述了自己在细节上的一贯立场：像这样的小东西，在任何更大的尺度上都没什么意义；而它们会累加起来，实实在在地提升人们对这样东西的整体享受。这份辩护是就总量而言、而不是就单件而言的；而这正是让它成为一项政策的原因。它们中没有哪一个单独值得这份注意力；而「总是把它们做到位」这个习惯值得。",
+          "flavor": "没有人会为了这个去买这次发行。而注意到它的每一个人，都会因此多享受一点。"
+        }
+      ]
+    }
+  }
+}
