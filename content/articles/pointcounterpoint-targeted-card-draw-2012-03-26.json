@@ -1,0 +1,320 @@
+{
+  "id": "pointcounterpoint-targeted-card-draw-2012-03-26",
+  "slug": "pointcounterpoint-targeted-card-draw-2012-03-26",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2012-03-26",
+  "series": null,
+  "tags": ["complexity", "templating", "teaching", "psychology", "debate"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/pointcounterpoint-targeted-card-draw-2012-03-26",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "G" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Point/Counterpoint: Targeted Card Draw",
+      "dek": "One column of a two-column argument, written blind, on whether a five-word version of a four-word card is worth the extra complexity.",
+      "overview": "A new format: he and a developer take opposite sides of a live internal disagreement, each writing without reading the other's piece, published two days apart. The topic is deliberately small — whether a card that draws cards should by default say that a target player draws them. He takes the harder side: the more complex version, against the department's current stance, as a self-declared minority of one. The argument runs through four costs he enumerates himself, then answers each, arriving at a theory of why the extra word is where new players fall in love with the game.",
+      "takeaway": "The whole case rests on a distinction he names near the end — bad complexity gets in the way of playing, good complexity creates moments of cleverness, and the craft is smuggling in the second without the first.",
+      "lessons": [
+        {
+          "title": "Publish a live disagreement as two blind essays",
+          "rules": "The premise of the format is that hearing about internal argument is different from witnessing it. Two people take opposite sides of a real unresolved question and each writes without seeing the other's piece, so neither can pre-empt or soften. The stated purpose is not to settle the question but to show that decisions are often not simple and that both sides frequently have valid issues — which he calls a key part of the work. A reader poll runs before either argument, and again after.",
+          "flavor": "Neither of them knows what the other wrote. That's the format, not an accident."
+        },
+        {
+          "title": "Say out loud which side carries the burden of proof",
+          "rules": "He opens by conceding the structural disadvantage of his own position. His opponent is defending the simpler card, which makes his own job explaining why to add complexity — and he has spent years arguing that complexity creep is the biggest threat to the game's existence. He also states that the printed evidence shows he is in the minority, that he has failed to convince the department for years, and that he has chosen the pro-complexity, anti-current-stance side deliberately. Naming the disadvantage is what makes the rest readable as argument rather than assertion.",
+          "flavor": "\"My back is to the wall. Luckily, this is where I do my best work.\""
+        },
+        {
+          "title": "Enumerate the costs of your own position before defending it",
+          "rules": "Before making his case he breaks down where exactly the complexity lives, in four parts. The word is jargon rather than English, and a beginner's first question will be what it means. It introduces a choice where the simpler version has none, and going from one option to two is a large jump. It requires understanding a choice that doesn't obviously make sense, because nobody starts out knowing why they would let an opponent draw. And it is wordier, which matters because research shows words are intimidating.",
+          "flavor": "Four reasons he's wrong, written by him, before the ten reasons he isn't."
+        },
+        {
+          "title": "Distinguish replacement vocabulary from concept vocabulary",
+          "rules": "Answering the objection that other terms are more fundamental, he separates two kinds of learning. The flavourful names for the deck, the discard pile and the play zone are replacement vocabulary — every card player already has those concepts and only has to learn the new label, which is cheap. The disputed word is not a relabelling. It is a whole concept the game builds many other elements on top of, and it is even used as a different part of speech than in ordinary English. Those two costs are not comparable.",
+          "flavor": "\"Library\" is a new name for a thing you own. The other one is a new thing."
+        },
+        {
+          "title": "Once something is fundamental, use it more rather than sparingly",
+          "rules": "He brings in teaching research: a new subject has to be repeated about five times on average before a student gets it. The consequence for design is counterintuitive. If you have already committed to a concept being essential, the vocabulary wants to appear often rather than rarely, because the new player needs to keep encountering it. He then checks his own product against this and finds it already true — the beginner-facing set uses the word on ninety-six cards, forty-three of them at common. Adding a forty-fourth is not the leap it looks like in isolation.",
+          "flavor": "Forty-three commons already say it. The argument is about the forty-fourth."
+        },
+        {
+          "title": "The design target moves, and yours has moved four times",
+          "rules": "He calls the game dynamic in a way that causes havoc for designers, because they are aiming at something that keeps changing. His example is the audience: for years this was a two-player game made largely for tournaments, and then they learned that far more players than they had assumed play outside that scope. He traces four stages of response — ignore it and let those players adapt; make a few cards each set for them; consciously tweak cards to be friendlier; and finally try to make as many cards as possible friendly. The templating question is downstream of stage four.",
+          "flavor": "One word turns a card you cast at yourself into a card you can bribe someone with."
+        },
+        {
+          "title": "Curiosity is weaker than the pull of the familiar, so bonding needs a hook",
+          "rules": "His model of why people adopt anything: humans are creatures of habit and resist new things, and our innate curiosity is real but not as strong as the preference for what we already know. So there is a barrier in front of everything new. Crossing it he calls crystallisation — taking something foreign and internalising it through an emotional connection that makes it personal. He notes it is usually invisible to the person it happens to, who simply finds themselves attached without knowing why, which is why a designer has to work out the mechanism deliberately.",
+          "flavor": "Curious enough to try it. Not curious enough to stay, unless something catches."
+        },
+        {
+          "title": "Engineer the moment where the player thinks they changed the game",
+          "rules": "He lays out the sequence he is trying to manufacture, in stages. The player reads the card and settles on one function, because beginners look for a single use and stop once they find one that makes sense. Later they notice a second function exists without understanding why anyone would use it. Then a game arrives where the unobvious use is correct — the libraries are running out and making the opponent draw wins it. What matters is the perception: the player experiences the possibility as self-generated, and shifts from playing a fixed set of functions to affecting the game.",
+          "flavor": "They didn't learn a rule. They discovered something. That's the whole point."
+        },
+        {
+          "title": "Separate good complexity from bad complexity, then smuggle in the good",
+          "rules": "The concession that carries his argument is that complexity isn't uniformly bad. Bad complexity gets in the way of playing: unnecessary bookkeeping, confusion, more elements to monitor than most people are comfortable with. Good complexity allows moments of cleverness and creates the depth that makes people keep drafting and keep tweaking their decks. One reduces and one enhances. The whole craft problem is finding ways to get the second into the game without letting the first in with it.",
+          "flavor": "Not less complexity. The other kind."
+        },
+        {
+          "title": "Lenticular cards: complexity that is invisible from the beginner's angle",
+          "rules": "He names the technique after the printed images that change depending on how you tilt them. A lenticular card looks simple from one angle and complex from another, so each audience sees what it needs. His example is a creature whose death trigger reads to a beginner as a nice bonus and to an experienced player as something to plan attacks and blocks around. He also supplies the supporting evidence and the caveat: an existing common could technically be aimed at yourself and causes no confusion, and metrics like word count flag suspects rather than deliver verdicts — a wordier card people immediately get can be less complex than a terser one they don't.",
+          "flavor": "Same card, two readings, and neither reader is wrong."
+        }
+      ]
+    },
+    "es": {
+      "title": "Punto/Contrapunto: robo dirigido",
+      "dek": "Una columna de una discusión a dos columnas, escrita a ciegas, sobre si una versión de cinco palabras de una carta de cuatro merece la complejidad extra.",
+      "overview": "Un formato nuevo: él y un desarrollador toman lados opuestos de un desacuerdo interno vivo, cada uno escribiendo sin leer el texto del otro, publicados con dos días de diferencia. El tema es deliberadamente pequeño: si una carta que roba cartas debería decir por defecto que las roba un jugador objetivo. Él toma el lado más difícil: la versión más compleja, contra la postura actual del departamento, como minoría autodeclarada de uno. El argumento recorre cuatro costes que él mismo enumera, luego responde a cada uno, y llega a una teoría de por qué esa palabra extra es donde los jugadores nuevos se enamoran del juego.",
+      "takeaway": "Todo el caso descansa en una distinción que nombra hacia el final: la mala complejidad estorba al jugar, la buena crea momentos de ingenio, y el oficio consiste en colar la segunda sin la primera.",
+      "lessons": [
+        {
+          "title": "Publica un desacuerdo vivo como dos ensayos a ciegas",
+          "rules": "La premisa del formato es que oír hablar de una discusión interna es distinto de presenciarla. Dos personas toman lados opuestos de una cuestión real sin resolver y cada una escribe sin ver el texto de la otra, así que ninguna puede anticiparse ni suavizar. El propósito declarado no es zanjar la cuestión sino mostrar que las decisiones a menudo no son simples y que ambos lados suelen tener argumentos válidos, algo que él llama parte clave del trabajo. Se hace una encuesta a los lectores antes de ambos argumentos, y otra después.",
+          "flavor": "Ninguno de los dos sabe qué escribió el otro. Eso es el formato, no un accidente."
+        },
+        {
+          "title": "Di en voz alta qué lado carga con la prueba",
+          "rules": "Abre concediendo la desventaja estructural de su propia posición. Su oponente defiende la carta más simple, lo que convierte su tarea en explicar por qué añadir complejidad, y él lleva años argumentando que el crecimiento de la complejidad es la mayor amenaza para la existencia del juego. También declara que la evidencia impresa muestra que está en minoría, que lleva años sin convencer al departamento, y que ha escogido a propósito el lado procomplejidad y contrario a la postura vigente. Nombrar la desventaja es lo que hace que el resto se lea como argumento y no como afirmación.",
+          "flavor": "«Estoy contra las cuerdas. Por suerte, es ahí donde hago mi mejor trabajo.»"
+        },
+        {
+          "title": "Enumera los costes de tu propia posición antes de defenderla",
+          "rules": "Antes de exponer su caso desglosa dónde vive exactamente la complejidad, en cuatro partes. La palabra es jerga y no inglés corriente, y la primera pregunta de un principiante será qué significa. Introduce una elección donde la versión simple no tiene ninguna, y pasar de una opción a dos es un salto grande. Exige entender una elección que no tiene sentido a primera vista, porque nadie empieza sabiendo por qué dejaría robar a un rival. Y es más larga, lo cual importa porque la investigación muestra que las palabras intimidan.",
+          "flavor": "Cuatro razones por las que se equivoca, escritas por él, antes de las diez por las que no."
+        },
+        {
+          "title": "Distingue el vocabulario de sustitución del vocabulario conceptual",
+          "rules": "Respondiendo a la objeción de que otros términos son más fundamentales, separa dos tipos de aprendizaje. Los nombres sabrosos para el mazo, la pila de descarte y la zona de juego son vocabulario de sustitución: todo jugador de cartas ya tiene esos conceptos y solo debe aprender la etiqueta nueva, lo cual es barato. La palabra en disputa no es un reetiquetado. Es un concepto entero sobre el que el juego construye muchos otros elementos, y encima se usa como una parte de la oración distinta a la del inglés corriente. Esos dos costes no son comparables.",
+          "flavor": "«Biblioteca» es un nombre nuevo para algo que ya tienes. La otra es una cosa nueva."
+        },
+        {
+          "title": "Cuando algo es fundamental, úsalo más y no con cuentagotas",
+          "rules": "Trae investigación pedagógica: un tema nuevo debe repetirse unas cinco veces de media antes de que un alumno lo capte. La consecuencia para el diseño es contraintuitiva. Si ya te has comprometido con que un concepto es esencial, el vocabulario quiere aparecer a menudo y no rara vez, porque el jugador nuevo necesita seguir encontrándoselo. Luego contrasta su propio producto con esto y ve que ya se cumple: la expansión orientada a principiantes usa la palabra en noventa y seis cartas, cuarenta y tres de ellas en común. Añadir la cuadragésimo cuarta no es el salto que parece en el vacío.",
+          "flavor": "Cuarenta y tres comunes ya lo dicen. La discusión va de la cuadragésimo cuarta."
+        },
+        {
+          "title": "El objetivo de diseño se mueve, y el tuyo se ha movido cuatro veces",
+          "rules": "Llama al juego dinámico de un modo que causa estragos a los diseñadores, porque apuntan a algo que no deja de cambiar. Su ejemplo es el público: durante años esto fue un juego de dos personas hecho sobre todo para torneos, y luego aprendieron que muchos más jugadores de los que suponían juegan fuera de ese marco. Traza cuatro etapas de respuesta: ignorarlo y dejar que se adapten; hacer unas pocas cartas por expansión para ellos; retocar cartas conscientemente para que sean más amables; y finalmente intentar que lo sean tantas como se pueda. La cuestión de plantilla viene después de la cuarta etapa.",
+          "flavor": "Una palabra convierte una carta que te lanzas a ti en una carta con la que puedes sobornar a alguien."
+        },
+        {
+          "title": "La curiosidad es más débil que el tirón de lo familiar, así que vincularse necesita un gancho",
+          "rules": "Su modelo de por qué la gente adopta cualquier cosa: los humanos son criaturas de costumbre y se resisten a lo nuevo, y nuestra curiosidad innata es real pero no tan fuerte como la preferencia por lo ya conocido. Así que hay una barrera delante de todo lo nuevo. A cruzarla la llama cristalización: tomar algo ajeno e interiorizarlo mediante una conexión emocional que lo vuelve personal. Señala que suele ser invisible para quien la vive, que simplemente se encuentra apegado sin saber por qué, y por eso un diseñador tiene que averiguar el mecanismo a propósito.",
+          "flavor": "Curioso lo bastante para probarlo. No lo bastante para quedarse, salvo que algo enganche."
+        },
+        {
+          "title": "Fabrica el momento en que el jugador cree que cambió el juego",
+          "rules": "Expone por etapas la secuencia que intenta fabricar. El jugador lee la carta y se queda con una función, porque los principiantes buscan un solo uso y paran en cuanto encuentran uno que tiene sentido. Más tarde advierten que existe una segunda función sin entender por qué alguien la usaría. Luego llega una partida en la que el uso no obvio es el correcto: las bibliotecas se agotan y hacer robar al rival gana. Lo que importa es la percepción: el jugador vive la posibilidad como algo que generó él, y pasa de jugar un conjunto fijo de funciones a afectar el juego.",
+          "flavor": "No aprendieron una regla. Descubrieron algo. Ese es todo el objetivo."
+        },
+        {
+          "title": "Separa la buena complejidad de la mala, y luego cuela la buena",
+          "rules": "La concesión que sostiene su argumento es que la complejidad no es uniformemente mala. La mala estorba al jugar: contabilidad innecesaria, confusión, más elementos que vigilar de los que la mayoría tolera. La buena permite momentos de ingenio y crea la profundidad que hace que la gente siga drafteando y siga retocando sus mazos. Una reduce y la otra realza. Todo el problema de oficio consiste en encontrar maneras de meter la segunda en el juego sin dejar entrar la primera con ella.",
+          "flavor": "No menos complejidad. La otra clase."
+        },
+        {
+          "title": "Cartas lenticulares: complejidad invisible desde el ángulo del principiante",
+          "rules": "Nombra la técnica por esas imágenes impresas que cambian según cómo las inclines. Una carta lenticular parece simple desde un ángulo y compleja desde otro, así que cada público ve lo que necesita. Su ejemplo es una criatura cuyo disparador al morir un principiante lee como una bonificación agradable y un jugador experto como algo alrededor de lo cual planear ataques y bloqueos. Aporta también la evidencia y la advertencia: un común existente podría técnicamente apuntarte a ti y no causa confusión, y métricas como el número de palabras señalan sospechosos, no dictan veredictos; una carta más larga que la gente capta al instante puede ser menos compleja que otra más breve que no.",
+          "flavor": "La misma carta, dos lecturas, y ninguno de los dos lectores se equivoca."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Point/Contrepoint : la pioche ciblée",
+      "dek": "Une des deux colonnes d'une dispute, écrite à l'aveugle, sur la question de savoir si une version en cinq mots d'une carte de quatre mots vaut la complexité supplémentaire.",
+      "overview": "Un nouveau format : lui et un développeur prennent les côtés opposés d'un désaccord interne réel, chacun écrivant sans lire le texte de l'autre, publiés à deux jours d'intervalle. Le sujet est délibérément mince : une carte qui fait piocher doit-elle dire par défaut qu'un joueur ciblé pioche. Il prend le camp le plus dur : la version la plus complexe, contre la position actuelle du service, en minorité autoproclamée d'un seul. L'argument passe par quatre coûts qu'il énumère lui-même, y répond, puis débouche sur une théorie expliquant pourquoi ce mot en plus est l'endroit où les nouveaux joueurs s'attachent au jeu.",
+      "takeaway": "Tout le dossier repose sur une distinction qu'il nomme vers la fin : la mauvaise complexité gêne le jeu, la bonne crée des moments d'astuce, et le métier consiste à faire passer la seconde sans la première.",
+      "lessons": [
+        {
+          "title": "Publiez un désaccord réel sous forme de deux essais à l'aveugle",
+          "rules": "La prémisse du format : entendre parler d'une dispute interne diffère d'y assister. Deux personnes prennent les côtés opposés d'une vraie question non tranchée et chacune écrit sans voir le texte de l'autre, si bien qu'aucune ne peut anticiper ni adoucir. Le but affiché n'est pas de trancher mais de montrer que les décisions sont souvent tout sauf simples et que les deux camps ont fréquemment des arguments valides — ce qu'il appelle une part essentielle du travail. Un sondage des lecteurs a lieu avant les deux argumentaires, et un autre après.",
+          "flavor": "Aucun des deux ne sait ce qu'a écrit l'autre. C'est le format, pas un hasard."
+        },
+        {
+          "title": "Dites tout haut quel camp porte la charge de la preuve",
+          "rules": "Il ouvre en concédant le désavantage structurel de sa propre position. Son adversaire défend la carte la plus simple, ce qui fait de sa tâche à lui l'explication de pourquoi ajouter de la complexité — et il plaide depuis des années que la dérive de complexité est la plus grande menace pour l'existence du jeu. Il déclare aussi que les cartes imprimées montrent qu'il est minoritaire, qu'il n'a pas convaincu le service depuis des années, et qu'il a délibérément pris le camp pro-complexité contre la position en vigueur. Nommer le désavantage est ce qui rend la suite lisible comme argumentation et non comme affirmation.",
+          "flavor": "« J'ai le dos au mur. Heureusement, c'est là que je fais mon meilleur travail. »"
+        },
+        {
+          "title": "Énumérez les coûts de votre position avant de la défendre",
+          "rules": "Avant de plaider, il décompose où loge exactement la complexité, en quatre points. Le mot relève du jargon et non de l'anglais courant, et la première question d'un débutant sera : qu'est-ce que cela veut dire. Il introduit un choix là où la version simple n'en a aucun, et passer d'une option à deux est un grand saut. Il exige de comprendre un choix qui n'a pas de sens à première vue, car personne ne commence en sachant pourquoi il laisserait piocher un adversaire. Et il est plus long, ce qui compte car la recherche montre que les mots intimident.",
+          "flavor": "Quatre raisons qu'il a tort, écrites par lui, avant les dix raisons qu'il a raison."
+        },
+        {
+          "title": "Distinguez le vocabulaire de substitution du vocabulaire conceptuel",
+          "rules": "Répondant à l'objection que d'autres termes sont plus fondamentaux, il sépare deux sortes d'apprentissage. Les noms savoureux du paquet, de la défausse et de la zone de jeu relèvent du vocabulaire de substitution : tout joueur de cartes possède déjà ces notions et n'a qu'à retenir l'étiquette nouvelle, ce qui coûte peu. Le mot litigieux n'est pas un réétiquetage. C'est un concept entier sur lequel le jeu bâtit quantité d'autres éléments, et il s'emploie même comme une autre catégorie grammaticale qu'en anglais courant. Les deux coûts ne sont pas comparables.",
+          "flavor": "« Bibliothèque » est un nouveau nom pour une chose que vous avez déjà. L'autre est une chose nouvelle."
+        },
+        {
+          "title": "Dès qu'une chose est fondamentale, servez-vous-en davantage, pas au compte-gouttes",
+          "rules": "Il convoque la recherche pédagogique : une notion nouvelle doit être répétée environ cinq fois en moyenne avant qu'un élève l'acquière. La conséquence pour la conception est contre-intuitive. Si vous avez déjà décidé qu'un concept est essentiel, le vocabulaire veut apparaître souvent et non rarement, car le nouveau joueur a besoin de le recroiser. Il confronte alors son propre produit à cela et constate que c'est déjà vrai : l'extension destinée aux débutants emploie le mot sur quatre-vingt-seize cartes, dont quarante-trois en commune. Ajouter la quarante-quatrième n'est pas le saut qu'on croit isolément.",
+          "flavor": "Quarante-trois communes le disent déjà. Le débat porte sur la quarante-quatrième."
+        },
+        {
+          "title": "La cible de conception bouge, et la vôtre a bougé quatre fois",
+          "rules": "Il qualifie le jeu de dynamique d'une façon qui perturbe les concepteurs, puisqu'ils visent quelque chose qui change sans cesse. Son exemple est le public : pendant des années ce fut un jeu à deux fait surtout pour le tournoi, puis ils ont appris que bien plus de joueurs qu'ils ne le supposaient jouent hors de ce cadre. Il retrace quatre étapes de réponse — ignorer et laisser ces joueurs s'adapter ; faire quelques cartes par extension pour eux ; ajuster consciemment les cartes pour les rendre plus accueillantes ; enfin tenter d'en rendre le plus possible accueillantes. La question de gabarit découle de la quatrième étape.",
+          "flavor": "Un mot transforme une carte que vous vous lancez à vous-même en carte avec laquelle soudoyer quelqu'un."
+        },
+        {
+          "title": "La curiosité est plus faible que l'attrait du familier : il faut donc un hameçon",
+          "rules": "Son modèle de l'adoption : les humains sont des créatures d'habitude et résistent au neuf ; notre curiosité innée est réelle mais moins forte que la préférence pour le déjà connu. Il y a donc une barrière devant toute nouveauté. La franchir, il l'appelle cristallisation : prendre une chose étrangère et l'intérioriser par un lien émotionnel qui la rend personnelle. Il note que le processus est le plus souvent invisible à celui qui le vit — on se découvre attaché sans savoir pourquoi — et c'est pour cela qu'un concepteur doit en démonter le mécanisme exprès.",
+          "flavor": "Assez curieux pour essayer. Pas assez pour rester, sauf si quelque chose accroche."
+        },
+        {
+          "title": "Fabriquez le moment où le joueur croit avoir changé le jeu",
+          "rules": "Il expose par étapes la séquence qu'il cherche à provoquer. Le joueur lit la carte et s'arrête à une fonction, car les débutants cherchent un usage unique et cessent de chercher dès qu'ils en trouvent un qui tient. Plus tard, ils remarquent qu'une seconde fonction existe sans comprendre pourquoi on l'emploierait. Puis vient une partie où l'usage non évident est le bon : les bibliothèques s'épuisent et faire piocher l'adversaire l'emporte. Ce qui compte est la perception : le joueur vit cette possibilité comme née de lui, et passe d'un jeu à fonctions figées à un jeu sur lequel il agit.",
+          "flavor": "Ils n'ont pas appris une règle. Ils ont découvert quelque chose. C'est tout l'objectif."
+        },
+        {
+          "title": "Séparez la bonne complexité de la mauvaise, puis faites entrer la bonne",
+          "rules": "La concession qui porte son argument : la complexité n'est pas uniformément mauvaise. La mauvaise gêne le jeu — comptabilité inutile, confusion, plus d'éléments à surveiller que la plupart n'en supportent. La bonne autorise des moments d'astuce et crée la profondeur qui donne envie de continuer à drafter et à retoucher ses decks. L'une réduit, l'autre enrichit. Tout le problème de métier consiste à faire entrer la seconde sans laisser entrer la première avec elle.",
+          "flavor": "Pas moins de complexité. L'autre sorte."
+        },
+        {
+          "title": "Cartes lenticulaires : une complexité invisible depuis l'angle du débutant",
+          "rules": "Il nomme la technique d'après ces images imprimées qui changent selon l'inclinaison. Une carte lenticulaire paraît simple sous un angle et complexe sous un autre : chaque public voit ce dont il a besoin. Son exemple est une créature dont le déclenchement à la mort se lit, pour un débutant, comme un joli bonus, et pour un joueur chevronné comme un élément autour duquel planifier attaques et blocages. Il fournit aussi la preuve et l'avertissement : une commune existante pourrait techniquement se cibler soi-même sans créer de confusion, et des métriques comme le nombre de mots signalent des suspects sans rendre de verdict — une carte plus longue qu'on saisit d'emblée peut être moins complexe qu'une plus brève qu'on ne saisit pas.",
+          "flavor": "Même carte, deux lectures, et aucun des deux lecteurs n'a tort."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Ponto/Contraponto: compra direcionada",
+      "dek": "Uma coluna de uma discussão em duas colunas, escrita às cegas, sobre se uma versão de cinco palavras de uma carta de quatro vale a complexidade extra.",
+      "overview": "Um formato novo: ele e um desenvolvedor tomam lados opostos de um desacordo interno vivo, cada um escrevendo sem ler o texto do outro, publicados com dois dias de diferença. O tema é deliberadamente pequeno: se uma carta que compra cartas deveria dizer por padrão que um jogador alvo as compra. Ele fica com o lado mais difícil: a versão mais complexa, contra a posição atual do departamento, como minoria autodeclarada de um. O argumento passa por quatro custos que ele mesmo enumera, responde a cada um, e chega a uma teoria de por que essa palavra a mais é onde os jogadores novos se apegam ao jogo.",
+      "takeaway": "Todo o caso repousa numa distinção que ele nomeia perto do fim: a complexidade ruim atrapalha o jogo, a boa cria momentos de esperteza, e o ofício é contrabandear a segunda sem a primeira.",
+      "lessons": [
+        {
+          "title": "Publique um desacordo vivo como dois ensaios às cegas",
+          "rules": "A premissa do formato é que ouvir falar de uma discussão interna é diferente de presenciá-la. Duas pessoas tomam lados opostos de uma questão real não resolvida e cada uma escreve sem ver o texto da outra, então nenhuma pode antecipar nem suavizar. O propósito declarado não é resolver a questão, mas mostrar que decisões muitas vezes não são simples e que os dois lados frequentemente têm pontos válidos — algo que ele chama de parte central do trabalho. Uma enquete com os leitores acontece antes dos dois argumentos, e outra depois.",
+          "flavor": "Nenhum dos dois sabe o que o outro escreveu. Isso é o formato, não um acaso."
+        },
+        {
+          "title": "Diga em voz alta qual lado carrega o ônus da prova",
+          "rules": "Ele abre concedendo a desvantagem estrutural da própria posição. O oponente defende a carta mais simples, o que torna a tarefa dele explicar por que acrescentar complexidade — e ele passou anos argumentando que o avanço da complexidade é a maior ameaça à existência do jogo. Também declara que as cartas impressas mostram que ele está em minoria, que há anos não convence o departamento, e que escolheu de propósito o lado pró-complexidade e contrário à posição vigente. Nomear a desvantagem é o que faz o resto se ler como argumento e não como afirmação.",
+          "flavor": "\"Estou encurralado. Por sorte, é aí que faço meu melhor trabalho.\""
+        },
+        {
+          "title": "Enumere os custos da sua posição antes de defendê-la",
+          "rules": "Antes de defender, ele decompõe onde exatamente a complexidade mora, em quatro partes. A palavra é jargão e não inglês comum, e a primeira pergunta de um iniciante será o que ela significa. Ela introduz uma escolha onde a versão simples não tem nenhuma, e ir de uma opção para duas é um salto grande. Exige entender uma escolha que não faz sentido à primeira vista, porque ninguém começa sabendo por que deixaria um oponente comprar. E é mais longa, o que importa porque a pesquisa mostra que palavras intimidam.",
+          "flavor": "Quatro razões de ele estar errado, escritas por ele, antes das dez de não estar."
+        },
+        {
+          "title": "Distinga vocabulário de substituição de vocabulário conceitual",
+          "rules": "Respondendo à objeção de que outros termos são mais fundamentais, ele separa dois tipos de aprendizado. Os nomes saborosos para o baralho, a pilha de descarte e a zona de jogo são vocabulário de substituição: todo jogador de cartas já tem esses conceitos e só precisa aprender o rótulo novo, o que é barato. A palavra em disputa não é uma reetiquetagem. É um conceito inteiro sobre o qual o jogo constrói muitos outros elementos, e ainda é usada como uma classe gramatical diferente da do inglês comum. Esses dois custos não são comparáveis.",
+          "flavor": "\"Grimório\" é um nome novo para algo que você já tem. A outra é uma coisa nova."
+        },
+        {
+          "title": "Quando algo é fundamental, use mais e não com parcimônia",
+          "rules": "Ele traz pesquisa pedagógica: um assunto novo precisa ser repetido cerca de cinco vezes em média antes de um aluno pegar. A consequência para o design é contraintuitiva. Se você já assumiu que um conceito é essencial, o vocabulário quer aparecer com frequência e não raramente, porque o jogador novo precisa seguir esbarrando nele. Ele então confere o próprio produto e vê que já é assim: a coleção voltada a iniciantes usa a palavra em noventa e seis cartas, quarenta e três delas no comum. Acrescentar a quadragésima quarta não é o salto que parece isoladamente.",
+          "flavor": "Quarenta e três comuns já dizem isso. A discussão é sobre a quadragésima quarta."
+        },
+        {
+          "title": "O alvo de design se move, e o seu se moveu quatro vezes",
+          "rules": "Ele chama o jogo de dinâmico de um jeito que causa estrago aos designers, porque eles miram algo que não para de mudar. O exemplo é o público: por anos isto foi um jogo de duas pessoas feito sobretudo para torneios, e então aprenderam que muito mais jogadores do que supunham jogam fora desse escopo. Ele traça quatro estágios de resposta — ignorar e deixar que se adaptem; fazer algumas cartas por coleção para eles; ajustar cartas conscientemente para serem mais amigáveis; e por fim tentar tornar o máximo possível amigável. A questão de gabarito vem depois do quarto estágio.",
+          "flavor": "Uma palavra transforma uma carta que você lança em si mesmo numa carta com que dá para subornar alguém."
+        },
+        {
+          "title": "A curiosidade é mais fraca que o puxão do familiar, então o vínculo precisa de um gancho",
+          "rules": "O modelo dele de por que as pessoas adotam qualquer coisa: humanos são criaturas de hábito e resistem ao novo, e nossa curiosidade inata é real mas não tão forte quanto a preferência pelo já conhecido. Então há uma barreira diante de tudo que é novo. Atravessá-la ele chama de cristalização: pegar algo estranho e internalizá-lo por uma conexão emocional que o torna pessoal. Ele nota que isso costuma ser invisível para quem vive o processo, que simplesmente se descobre apegado sem saber por quê — e é por isso que um designer precisa descobrir o mecanismo de propósito.",
+          "flavor": "Curioso o bastante para experimentar. Não o bastante para ficar, a menos que algo prenda."
+        },
+        {
+          "title": "Fabrique o momento em que o jogador acha que mudou o jogo",
+          "rules": "Ele expõe em etapas a sequência que tenta fabricar. O jogador lê a carta e para numa função, porque iniciantes procuram um uso único e param quando acham um que faz sentido. Depois notam que existe uma segunda função sem entender por que alguém a usaria. Então chega uma partida em que o uso não óbvio é o certo: os grimórios estão acabando e fazer o oponente comprar vence. O que importa é a percepção: o jogador vive a possibilidade como algo gerado por ele, e passa de jogar um conjunto fixo de funções para afetar o jogo.",
+          "flavor": "Eles não aprenderam uma regra. Descobriram algo. É esse o objetivo inteiro."
+        },
+        {
+          "title": "Separe a complexidade boa da ruim, e então contrabandeie a boa",
+          "rules": "A concessão que sustenta o argumento dele é que complexidade não é uniformemente ruim. A ruim atrapalha o jogo: contabilidade desnecessária, confusão, mais elementos para monitorar do que a maioria tolera. A boa permite momentos de esperteza e cria a profundidade que faz as pessoas seguirem draftando e ajustando baralhos. Uma reduz e a outra enriquece. Todo o problema de ofício é achar formas de pôr a segunda no jogo sem deixar a primeira entrar junto.",
+          "flavor": "Não menos complexidade. A outra espécie."
+        },
+        {
+          "title": "Cartas lenticulares: complexidade invisível pelo ângulo do iniciante",
+          "rules": "Ele batiza a técnica com o nome daquelas imagens impressas que mudam conforme você inclina. Uma carta lenticular parece simples de um ângulo e complexa de outro, então cada público vê o que precisa. O exemplo é uma criatura cujo gatilho ao morrer um iniciante lê como um bônus agradável e um jogador experiente lê como algo em torno do qual planejar ataques e bloqueios. Ele também fornece a evidência e a ressalva: um comum existente poderia tecnicamente mirar você mesmo e não causa confusão, e métricas como contagem de palavras apontam suspeitos e não veredictos — uma carta mais longa que as pessoas pegam de cara pode ser menos complexa que uma mais curta que não pegam.",
+          "flavor": "A mesma carta, duas leituras, e nenhum dos dois leitores está errado."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "正方／反方：指定目标的抽牌",
+      "dek": "一场两栏对辩中的其中一栏，双方互不通气各写各的——争的是：一张四个字的牌，值不值得为它多加一个字带来的复杂度。",
+      "overview": "一个新栏目：他和一位开发者各执一个真实的、尚未解决的内部分歧的一端，各自在不看对方文章的情况下动笔，相隔两天发表。议题被刻意选得很小：一张让人抽牌的牌，默认写法是否应该写成「由目标玩家抽牌」。他挑的是更难的那一边：更复杂的那个版本，站在部门当前立场的对面，并且自称是一个人的少数派。整篇论证先走过四项由他自己列出的成本，逐一作答，最后落到一套理论上：为什么多出来的那个字，正是新玩家爱上这个游戏的地方。",
+      "takeaway": "整份论证都压在他临近结尾时点出的一个区分上：坏的复杂度妨碍人打牌，好的复杂度制造机敏的时刻；而这门手艺，就是把后者夹带进来而不带上前者。",
+      "lessons": [
+        {
+          "title": "把一场真实的分歧做成两篇互不通气的文章发出来",
+          "rules": "这个栏目的前提是：听说内部有争论，和亲眼见到它，是两回事。两个人各执一个真实的、尚未有定论的问题的一端，各自在看不到对方文章的情况下写作，于是谁也没法提前抢白或把话说软。它宣称的目的不是把这个问题定下来，而是展示：决定往往并不简单，而双方常常各有站得住的理由——他称这是这份工作的核心部分之一。读者投票在两篇论证之前做一次，之后再做一次。",
+          "flavor": "两个人都不知道对方写了什么。这是栏目的设计，不是意外。"
+        },
+        {
+          "title": "把「哪一方负举证责任」说出口",
+          "rules": "他一开篇就承认自己这一方在结构上的劣势。对手守的是更简单的那张牌，这使他的任务变成「解释为什么要加复杂度」——而他多年来一直主张，复杂度的蔓延是这个游戏存续的最大威胁。他还申明：已经印出来的牌表明他是少数派；他多年没能说服这个部门；而他是刻意挑了「支持复杂度、反对现行立场」这一边。把这份劣势点出来，正是让后文读起来像论证而不是断言的原因。",
+          "flavor": "「我已经被逼到墙角了。而幸运的是，我在墙角发挥得最好。」"
+        },
+        {
+          "title": "在为自己的立场辩护之前，先把它的成本列出来",
+          "rules": "在开始辩护之前，他先把复杂度究竟落在哪里拆成了四条。这个词是行话而不是日常英语，而新手的第一个问题一定是它是什么意思。它在「简单版本没有任何选择」的地方引入了一个选择；而从一个选项变成两个，是一个不小的跳跃。它要求你理解一个表面上讲不通的选择，因为没有人一上来就知道自己为什么会让对手抽牌。而且它更长——这一点重要，因为研究表明文字是有威慑感的。",
+          "flavor": "四条他错了的理由，由他自己写；然后才是十条他没错的理由。"
+        },
+        {
+          "title": "把「替换性词汇」和「概念性词汇」区分开",
+          "rules": "面对「别的术语更基础」这个反对，他把两种学习分了开来。给牌库、弃牌堆和战场取的那些有风味的名字属于替换性词汇：任何玩过牌的人本来就有这些概念，只需要学一个新标签，代价很低。而争议中的那个词并不是换个标签。它是一整个概念，这个游戏在它之上搭建了许许多多别的元素；而且它被当成一个与日常英语中不同的词性来使用。这两种代价并不可比。",
+          "flavor": "「牌库」是给你已有之物起的新名字。另一个是一样新东西。"
+        },
+        {
+          "title": "一旦某样东西是基础，就要更多地用它，而不是省着用",
+          "rules": "他搬来了教学研究：一个新主题平均要重复约五次，学生才会掌握。而它对设计的推论是反直觉的。如果你已经认定某个概念是必需的，那么这套词汇就应该频繁出现而不是难得一见，因为新玩家需要不断遇到它。随后他拿自己的产品来对照，发现这件事本来就已经成立：那个面向新手的系列，在九十六张牌上用了这个词，其中四十三张在普通位。再加上第四十四张，并不像单独看时那么吓人。",
+          "flavor": "已经有四十三张普通牌在说它了。这场争论争的是第四十四张。"
+        },
+        {
+          "title": "设计的目标会移动，而你的目标已经移动过四次",
+          "rules": "他说这个游戏是动态的，而这种动态给设计师造成了不小的麻烦，因为他们瞄的是一个不断变化的东西。他举的例子是受众：多年来这是一个主要为竞技而做的双人游戏；后来他们发现，在那个范围之外游玩的玩家，远比他们原以为的多。他把回应分成四个阶段——先是不管，让那些玩家自己去适应；然后每个系列为他们做几张牌；接着有意识地调整牌，让它们对多人更友好；最后是尽可能让更多的牌都友好。而这场关于措辞的争论，正是第四阶段的下游。",
+          "flavor": "一个字，就把一张你只会对自己施放的牌，变成一张你可以用来收买别人的牌。"
+        },
+        {
+          "title": "好奇心弱过对熟悉之物的引力，所以「产生联结」需要一个钩子",
+          "rules": "他关于「人为什么会接纳任何东西」的模型是：人是习惯的生物，会抗拒新事物；而我们与生俱来的好奇心是真的，只是没有「偏好已知」那么强。于是每一样新东西前面都横着一道门槛。跨过它这件事他称为「结晶」：把一样陌生的东西，通过一份让它变得私人的情感联结，内化下来。他指出，这个过程对当事人通常是不可见的——人只是发现自己依恋上了某样东西，却不知道究竟是什么打动了自己；而这正是设计师必须刻意去把机制弄清楚的原因。",
+          "flavor": "好奇到愿意试一试。但不足以留下来——除非有什么钩住了。"
+        },
+        {
+          "title": "去制造那个「玩家以为是自己改变了游戏」的时刻",
+          "rules": "他把自己试图制造的那条序列分阶段摊了开来。玩家读了这张牌，停在一个功能上——因为新手会去找单一用途，一旦找到一个说得通的就不再找了。之后他们注意到还存在第二个功能，却不明白谁会去用它。再之后，来了一局「不显然的那个用法才是对的」的对局：两边的牌库都快见底，而让对手去抽牌能赢下来。真正要紧的是那份感知：玩家把这个可能性体验成了自己生成的，于是从「玩一套固定的功能」转向了「我能影响这个游戏」。",
+          "flavor": "他们学到的不是一条规则。他们发现了一样东西。而这就是全部目的。"
+        },
+        {
+          "title": "把好的复杂度和坏的复杂度分开，然后把好的那种夹带进来",
+          "rules": "支撑他整套论证的让步是：复杂度并不是一律都坏。坏的那种妨碍人打牌——不必要的记账、混乱、需要盯着的元素多到大多数人不舒服。而好的那种，会带来机敏的时刻，也会造出那种「让人不停地轮抽、不停地调牌组」的深度。一种在削减，一种在增益。而这门手艺的全部难题，就是找到办法把后者放进游戏里，同时不让前者跟着进来。",
+          "flavor": "不是更少的复杂度。是另外那一种。"
+        },
+        {
+          "title": "透镜牌：从新手那个角度看不见的复杂度",
+          "rules": "他用那种「随着倾斜角度改变而变换画面」的印刷图片给这门技法命名。一张透镜牌从一个角度看是简单的，从另一个角度看是复杂的；于是每一种受众都看到自己需要看到的东西。他举的例子是一个生物：它的死去触发，在新手眼里是一份不错的附加奖励，而在老练玩家眼里是一件可以围绕它来规划攻防的东西。他还给出了佐证和告诫：一张已经存在的普通牌在技术上也可以指向你自己，而它并没有造成混乱；而像字数这样的度量指标是用来点出嫌疑对象的，不是用来下判决的——一张更长、但人们一看就懂的牌，可能比一张更短、却让人摸不着头脑的牌更不复杂。",
+          "flavor": "同一张牌，两种读法，而两位读者都没有读错。"
+        }
+      ]
+    }
+  }
+}
