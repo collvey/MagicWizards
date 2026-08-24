@@ -1,0 +1,332 @@
+{
+  "id": "and-rest-2007-10-01",
+  "slug": "and-rest-2007-10-01",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2007-10-01",
+  "series": null,
+  "tags": [
+    "mechanics",
+    "constraints",
+    "rules",
+    "process",
+    "collaboration"
+  ],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/and-rest-2007-10-01",
+    "locales": [
+      "en",
+      "es",
+      "fr",
+      "pt-BR",
+      "zh-Hans"
+    ]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-24T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "And the Rest",
+      "dek": "The design stories nobody else had claimed — including a mechanic built by colliding two of its own constraints, and the rules memo that killed the version he preferred.",
+      "overview": "Rosewater sets out to tell the design stories of a whole release and discovers, one at a time, that most of them have been reserved by other writers. What survives the negotiation is an account of how one mechanic was built: he lists what the mechanic definitionally had to be, separates that from his own preferences about it, and then deliberately sets two of his own restrictions against each other to find the answer. The second half reproduces an internal memo from the rules department explaining why the version he originally pitched could not exist, and he spends the remainder defending its author.",
+      "lessons": [
+        {
+          "title": "Separate what a thing must be from what you would prefer it to be, and label which is which",
+          "rules": "Before designing, he wrote down the mechanic's non-negotiables — the properties without which it is not that mechanic at all — and then, separately, a list of additional restrictions he acknowledges are prejudices rather than definitions. Keeping the two lists apart is what lets you trade away the second set without noticing you have destroyed the thing. He also notes, in parentheses, that one item on the non-negotiable list did not survive either.",
+          "flavor": "Two lists, honestly labelled, and both turned out to be partly wrong."
+        },
+        {
+          "title": "Collide two of your own constraints and the solution is in the collision",
+          "rules": "He states it as a general technique for any creative problem: take two of the restrictions you are working under and set them against each other. Here he took \"must differ fundamentally from the existing mechanics that do similar work\" and \"must not carry the built-in disadvantage those mechanics have\" — and the move that satisfies both simultaneously is the mechanic. Constraints considered one at a time are limits; considered in pairs they are a search space.",
+          "flavor": "Restriction three against restriction four, and the answer was in between."
+        },
+        {
+          "title": "Name the standing tension between two functions instead of treating each clash as personal",
+          "rules": "He states the structural conflict plainly: design wants to do things in ways they have not been done, and the rules function wants to do them the way they have been done — so the sentence \"we already have a way to do this\" comes up constantly. That is not obstruction; it is the two roles working correctly. Naming the tension as structural is what stops every individual disagreement from being read as an obstacle put there by a person.",
+          "flavor": "He habitually calls the rules manager his arch-nemesis, which he then has to walk back."
+        },
+        {
+          "title": "A new mechanic needs a reason to exist alongside the ones that overlap it",
+          "rules": "Two existing mechanics already did much of what the proposed one would do. Rather than treating that as fatal or ignoring it, he made \"find a fundamental difference from those two\" an explicit requirement of the design. If the honest answer to \"why not use the existing thing\" is nothing, then there is no design here — the differentiator is not a nice-to-have, it is the justification.",
+          "flavor": "One experimental branch was dropped in testing for not being worth the mind space it occupied."
+        },
+        {
+          "title": "The rewrite kept the function and spent the impression",
+          "rules": "Comparing his original pitch with what shipped, he judges the functionality close to identical and the loss to be entirely in perception: his version looked more striking, was considerably more confusing, and the wording they ended up with makes the mechanic sound like something it is not. Two designs can be mechanically equivalent and unequal in what people believe they are holding, and that difference is a real cost you should price rather than dismiss.",
+          "flavor": "\"The biggest loss was perception.\""
+        },
+        {
+          "title": "Strangeness is justified only when it reaches ground nothing else reaches",
+          "rules": "The memo he reproduces contains the sharpest line in the column: are we being obscure purely for the sake of obscurity, which is the kind of thing that backfires? The distinction offered is precise — unusual construction in service of something genuinely unreachable by conventional means is worth its cost; unusual construction as a flavour of its own is not. The test is whether the conventional version exists.",
+          "flavor": "The memo lists three past cases that passed the test, and implies this one did not."
+        },
+        {
+          "title": "Divide the narrative territory when several people cover the same work",
+          "rules": "The running structure of the column is him beginning a story and being interrupted by news that someone else has claimed it — one reserved for a themed week, two more taken by a colleague's article. He negotiates in public, concedes some, and keeps one on the explicit grounds that nobody else wants it. When several people write about shared work, deciding who tells what is real coordination, not vanity.",
+          "flavor": "\"Is there a week coming up? No. Are you dying to tell it? No. Good — I've got dibs.\""
+        },
+        {
+          "title": "Correct the impression your own vantage point has created",
+          "rules": "He observes that because he always narrates from the designers' side, it is easy for readers to see the rules function as an antagonist keeping designers from doing interesting things — and says outright that this impression is his doing and is wrong. A consistent point of view accumulates a distortion whether or not any individual account was unfair, and the only fix is to name the distortion explicitly.",
+          "flavor": "The correction comes immediately after he reproduces a memo that stopped him getting what he wanted."
+        },
+        {
+          "title": "The mechanics survived; the fiction around them was replaced",
+          "rules": "The shipped version is mechanically very close to design's first execution, but the story attached to it is different: the fiction department felt that the original framing did not make sense given how much flexibility the mechanic needed to have. The rule and the reason for the rule are separable, and when a mechanic outgrows its justification, replacing the justification is cheaper than constraining the mechanic.",
+          "flavor": "Same rules text, different explanation of what is happening."
+        },
+        {
+          "title": "The audience's objections are the ones your own room already made",
+          "rules": "Discussing a decision generating heat on the message boards, he notes that the same issues being raised publicly now were raised internally when he first pitched it. That is worth knowing in both directions: it means the objections are legitimate rather than uninformed, and it means the answer already exists — you argued it once, and the argument you used is the one to publish.",
+          "flavor": "He does not treat the repetition as vindication. He treats it as a signal that the objection is a real one."
+        }
+      ],
+      "takeaway": "Write down what the thing must be separately from what you want it to be, then set two of your own restrictions against each other and look at what survives both."
+    },
+    "es": {
+      "title": "Y los demás",
+      "dek": "Las historias de diseño que nadie más había reclamado, incluida una mecánica construida haciendo chocar dos de sus propias restricciones, y el memorando de reglas que mató la versión que él prefería.",
+      "overview": "Rosewater se propone contar las historias de diseño de todo un lanzamiento y descubre, una a una, que la mayoría están reservadas por otros autores. Lo que sobrevive a la negociación es el relato de cómo se construyó una mecánica: enumera lo que la mecánica tenía que ser por definición, lo separa de sus propias preferencias al respecto, y luego enfrenta deliberadamente dos de sus restricciones entre sí para hallar la respuesta. La segunda mitad reproduce un memorando interno del departamento de reglas explicando por qué la versión que había propuesto no podía existir, y él dedica el resto a defender a su autor.",
+      "lessons": [
+        {
+          "title": "Separa lo que una cosa tiene que ser de lo que preferirías que fuera, y etiqueta cuál es cuál",
+          "rules": "Antes de diseñar, anotó los innegociables de la mecánica —las propiedades sin las cuales no es esa mecánica en absoluto— y luego, aparte, una lista de restricciones adicionales que reconoce como prejuicios y no definiciones. Mantener ambas listas separadas es lo que te permite ceder el segundo grupo sin destruir la cosa sin darte cuenta. También señala, entre paréntesis, que un punto de la lista de innegociables tampoco sobrevivió.",
+          "flavor": "Dos listas, etiquetadas con honestidad, y ambas resultaron estar parcialmente equivocadas."
+        },
+        {
+          "title": "Haz chocar dos de tus propias restricciones y la solución está en el choque",
+          "rules": "Lo enuncia como técnica general para cualquier problema creativo: toma dos de las restricciones bajo las que trabajas y enfréntalas. Aquí tomó «debe diferenciarse de forma fundamental de las mecánicas existentes que hacen un trabajo parecido» y «no debe cargar con la desventaja incorporada que tienen esas mecánicas», y el movimiento que satisface ambas a la vez es la mecánica. Las restricciones consideradas de una en una son límites; consideradas por parejas son un espacio de búsqueda.",
+          "flavor": "La restricción tres contra la cuatro, y la respuesta estaba en medio."
+        },
+        {
+          "title": "Nombra la tensión permanente entre dos funciones en vez de tomarte cada choque como algo personal",
+          "rules": "Enuncia el conflicto estructural sin rodeos: diseño quiere hacer las cosas de formas en que no se han hecho, y la función de reglas quiere hacerlas como ya se han hecho, así que la frase «ya tenemos una manera de hacer esto» sale constantemente. Eso no es obstrucción; son los dos papeles funcionando bien. Nombrar la tensión como estructural es lo que impide leer cada desacuerdo individual como un obstáculo puesto por una persona.",
+          "flavor": "Suele llamar archienemigo al responsable de reglas, cosa que luego tiene que matizar."
+        },
+        {
+          "title": "Una mecánica nueva necesita una razón para existir junto a las que se solapan con ella",
+          "rules": "Dos mecánicas existentes ya hacían buena parte de lo que haría la propuesta. En vez de tomarlo como fatal o ignorarlo, convirtió «hallar una diferencia fundamental con esas dos» en un requisito explícito del diseño. Si la respuesta honesta a «por qué no usar lo que ya hay» es ninguna, entonces aquí no hay diseño: el diferenciador no es un extra, es la justificación.",
+          "flavor": "Una rama experimental se descartó en pruebas por no valer el espacio mental que ocupaba."
+        },
+        {
+          "title": "La reescritura conservó la función y gastó la impresión",
+          "rules": "Comparando su propuesta original con lo publicado, juzga que la funcionalidad es casi idéntica y que la pérdida está enteramente en la percepción: su versión resultaba más llamativa, era bastante más confusa, y la redacción final hace que la mecánica suene como algo que no es. Dos diseños pueden ser mecánicamente equivalentes y desiguales en lo que la gente cree tener en la mano, y esa diferencia es un coste real que conviene tasar y no descartar.",
+          "flavor": "«La mayor pérdida fue de percepción.»"
+        },
+        {
+          "title": "La rareza solo se justifica cuando alcanza terreno que nada más alcanza",
+          "rules": "El memorando que reproduce contiene la frase más afilada de la columna: ¿estamos siendo oscuros puramente por el gusto de la oscuridad, que es la clase de cosa que se vuelve en tu contra? La distinción ofrecida es precisa: una construcción inusual al servicio de algo genuinamente inalcanzable por vías convencionales vale su coste; una construcción inusual como sabor en sí misma, no. La prueba es si existe la versión convencional.",
+          "flavor": "El memorando enumera tres casos pasados que pasaron la prueba, e implica que este no."
+        },
+        {
+          "title": "Reparte el territorio narrativo cuando varias personas cubren el mismo trabajo",
+          "rules": "La estructura recurrente de la columna es él empezando una historia y siendo interrumpido por la noticia de que otro la ha reclamado: una reservada para una semana temática, dos tomadas por el artículo de un colega. Negocia en público, cede algunas, y se queda una con el argumento explícito de que nadie más la quiere. Cuando varias personas escriben sobre un trabajo compartido, decidir quién cuenta qué es coordinación real, no vanidad.",
+          "flavor": "«¿Viene una semana sobre esto? No. ¿Te mueres por contarlo? No. Bien, me pido esta.»"
+        },
+        {
+          "title": "Corrige la impresión que ha creado tu propio punto de vista",
+          "rules": "Observa que, como siempre narra desde el lado de los diseñadores, al lector le resulta fácil ver la función de reglas como un antagonista que impide a los diseñadores hacer cosas interesantes, y dice sin rodeos que esa impresión es obra suya y es falsa. Un punto de vista constante acumula una distorsión aunque ningún relato individual fuera injusto, y el único arreglo es nombrar la distorsión de forma explícita.",
+          "flavor": "La corrección llega justo después de reproducir un memorando que le impidió conseguir lo que quería."
+        },
+        {
+          "title": "Las mecánicas sobrevivieron; la ficción a su alrededor fue reemplazada",
+          "rules": "La versión publicada es mecánicamente muy próxima a la primera ejecución de diseño, pero la historia asociada es distinta: el departamento de ficción consideró que el encuadre original no tenía sentido dada la flexibilidad que la mecánica necesitaba tener. La regla y la razón de la regla son separables, y cuando una mecánica se le queda pequeña a su justificación, sustituir la justificación sale más barato que restringir la mecánica.",
+          "flavor": "El mismo texto de reglas, otra explicación de lo que está ocurriendo."
+        },
+        {
+          "title": "Las objeciones del público son las que tu propia sala ya hizo",
+          "rules": "Comentando una decisión que genera calor en los foros, señala que los mismos problemas que se plantean ahora en público se plantearon internamente cuando la propuso por primera vez. Eso conviene saberlo en ambas direcciones: significa que las objeciones son legítimas y no fruto de la ignorancia, y significa que la respuesta ya existe: la argumentaste una vez, y ese argumento es el que hay que publicar.",
+          "flavor": "No trata la repetición como una reivindicación. La trata como señal de que la objeción es real."
+        }
+      ],
+      "takeaway": "Anota lo que la cosa tiene que ser por separado de lo que quieres que sea, y luego enfrenta dos de tus propias restricciones y mira qué sobrevive a ambas."
+    },
+    "fr": {
+      "title": "Et les autres",
+      "dek": "Les histoires de conception que personne d'autre n'avait réservées — dont une mécanique bâtie en faisant s'entrechoquer deux de ses propres contraintes, et la note du service des règles qui a tué la version qu'il préférait.",
+      "overview": "Rosewater entreprend de raconter les histoires de conception de toute une sortie et découvre, l'une après l'autre, que la plupart ont été réservées par d'autres auteurs. Ce qui survit à la négociation, c'est le récit de la construction d'une mécanique : il énumère ce que la mécanique devait être par définition, le sépare de ses propres préférences, puis oppose délibérément deux de ses propres restrictions pour trouver la réponse. La seconde moitié reproduit une note interne du service des règles expliquant pourquoi la version qu'il avait proposée ne pouvait pas exister, et il consacre le reste à défendre son auteur.",
+      "lessons": [
+        {
+          "title": "Séparez ce qu'une chose doit être de ce que vous préféreriez qu'elle soit, et étiquetez",
+          "rules": "Avant de concevoir, il a noté les non-négociables de la mécanique — les propriétés sans lesquelles ce n'est plus cette mécanique du tout — puis, séparément, une liste de restrictions supplémentaires qu'il reconnaît comme des préjugés et non des définitions. Garder les deux listes distinctes est ce qui permet de céder la seconde sans détruire la chose sans s'en apercevoir. Il note aussi, entre parenthèses, qu'un élément de la liste des non-négociables n'a pas survécu non plus.",
+          "flavor": "Deux listes, honnêtement étiquetées, et toutes deux se sont révélées en partie fausses."
+        },
+        {
+          "title": "Faites s'entrechoquer deux de vos propres contraintes : la solution est dans le choc",
+          "rules": "Il l'énonce comme technique générale pour tout problème créatif : prenez deux des restrictions sous lesquelles vous travaillez et opposez-les. Ici, il a pris « doit différer fondamentalement des mécaniques existantes qui font un travail similaire » et « ne doit pas porter le désavantage intégré qu'ont ces mécaniques » — et le geste qui satisfait les deux à la fois, c'est la mécanique. Les contraintes prises une à une sont des limites ; prises par paires, elles sont un espace de recherche.",
+          "flavor": "La restriction trois contre la quatre, et la réponse était entre les deux."
+        },
+        {
+          "title": "Nommez la tension permanente entre deux fonctions au lieu de prendre chaque heurt personnellement",
+          "rules": "Il énonce clairement le conflit structurel : la conception veut faire les choses comme on ne les a pas faites, et la fonction règles veut les faire comme on les a faites — d'où la phrase « on a déjà une façon de faire ça », qui revient sans cesse. Ce n'est pas de l'obstruction ; ce sont les deux rôles fonctionnant correctement. Nommer la tension comme structurelle empêche de lire chaque désaccord particulier comme un obstacle dressé par une personne.",
+          "flavor": "Il appelle par habitude le responsable des règles son ennemi juré, ce qu'il doit ensuite nuancer."
+        },
+        {
+          "title": "Une mécanique nouvelle a besoin d'une raison d'exister à côté de celles qui la recouvrent",
+          "rules": "Deux mécaniques existantes faisaient déjà l'essentiel de ce que ferait la nouvelle. Plutôt que d'y voir un arrêt de mort ou de l'ignorer, il a fait de « trouver une différence fondamentale avec ces deux-là » une exigence explicite de la conception. Si la réponse honnête à « pourquoi ne pas prendre l'existant » est « rien », alors il n'y a pas de conception ici : le différenciateur n'est pas un bonus, c'est la justification.",
+          "flavor": "Une branche expérimentale fut écartée aux tests pour ne pas valoir l'espace mental qu'elle occupait."
+        },
+        {
+          "title": "La réécriture a gardé la fonction et dépensé l'impression",
+          "rules": "Comparant sa proposition initiale à ce qui est paru, il juge la fonctionnalité quasi identique et la perte entièrement située dans la perception : sa version était plus frappante, nettement plus déroutante, et la formulation retenue fait sonner la mécanique comme ce qu'elle n'est pas. Deux conceptions peuvent être mécaniquement équivalentes et inégales quant à ce que les gens croient tenir, et cet écart est un coût réel qu'il faut chiffrer plutôt qu'écarter.",
+          "flavor": "« La plus grande perte fut de perception. »"
+        },
+        {
+          "title": "L'étrangeté ne se justifie que lorsqu'elle atteint un terrain inaccessible autrement",
+          "rules": "La note qu'il reproduit contient la phrase la plus acérée de la chronique : sommes-nous obscurs purement pour le plaisir de l'obscurité, ce qui est le genre de chose qui se retourne contre vous ? La distinction proposée est précise : une construction inhabituelle au service de quelque chose de vraiment inatteignable par les voies ordinaires vaut son coût ; une construction inhabituelle comme saveur en soi, non. Le test consiste à voir si la version ordinaire existe.",
+          "flavor": "La note cite trois cas passés ayant réussi ce test, et laisse entendre que celui-ci échoue."
+        },
+        {
+          "title": "Répartissez le territoire narratif quand plusieurs personnes couvrent le même travail",
+          "rules": "La structure récurrente de la chronique, c'est lui commençant une histoire et se faisant interrompre par la nouvelle que quelqu'un d'autre l'a réservée — l'une gardée pour une semaine thématique, deux prises par l'article d'un collègue. Il négocie en public, en cède certaines, et en garde une au motif explicite que personne d'autre n'en veut. Quand plusieurs personnes écrivent sur un travail commun, décider qui raconte quoi est une vraie coordination, pas de la vanité.",
+          "flavor": "« Une semaine est-elle prévue ? Non. Meurs-tu d'envie de la raconter ? Non. Parfait — je la prends. »"
+        },
+        {
+          "title": "Corrigez l'impression créée par votre propre point de vue",
+          "rules": "Il observe que, racontant toujours du côté des concepteurs, il est facile pour le lecteur de voir la fonction règles comme un antagoniste empêchant les concepteurs de faire des choses intéressantes — et dit franchement que cette impression est son fait et qu'elle est fausse. Un point de vue constant accumule une distorsion même si aucun récit particulier n'a été injuste, et le seul remède est de nommer la distorsion explicitement.",
+          "flavor": "La correction arrive juste après qu'il a reproduit une note l'ayant empêché d'obtenir ce qu'il voulait."
+        },
+        {
+          "title": "Les mécaniques ont survécu ; la fiction autour a été remplacée",
+          "rules": "La version parue est mécaniquement très proche de la première exécution de conception, mais l'histoire qui l'accompagne est différente : le service fiction a jugé que le cadrage d'origine n'avait pas de sens vu la souplesse dont la mécanique avait besoin. La règle et la raison de la règle sont séparables, et quand une mécanique dépasse sa justification, remplacer la justification coûte moins cher que brider la mécanique.",
+          "flavor": "Même texte de règles, autre explication de ce qui se passe."
+        },
+        {
+          "title": "Les objections du public sont celles que votre propre salle a déjà formulées",
+          "rules": "À propos d'une décision qui échauffe les forums, il note que les points soulevés publiquement aujourd'hui l'avaient été en interne lors de sa première proposition. C'est utile dans les deux sens : cela signifie que les objections sont légitimes et non mal informées, et que la réponse existe déjà — vous l'avez argumentée une fois, et c'est cet argument qu'il faut publier.",
+          "flavor": "Il ne traite pas la répétition comme une justification. Il la traite comme le signe que l'objection est réelle."
+        }
+      ],
+      "takeaway": "Notez ce que la chose doit être séparément de ce que vous voulez qu'elle soit, puis opposez deux de vos propres restrictions et regardez ce qui survit aux deux."
+    },
+    "pt-BR": {
+      "title": "E os demais",
+      "dek": "As histórias de design que ninguém mais tinha reivindicado — inclusive uma mecânica construída colidindo duas de suas próprias restrições, e o memorando de regras que matou a versão que ele preferia.",
+      "overview": "Rosewater se propõe a contar as histórias de design de um lançamento inteiro e descobre, uma a uma, que a maioria foi reservada por outros autores. O que sobrevive à negociação é o relato de como uma mecânica foi construída: ele lista o que a mecânica precisava ser por definição, separa isso das próprias preferências a respeito, e então coloca deliberadamente duas de suas restrições uma contra a outra para achar a resposta. A segunda metade reproduz um memorando interno do departamento de regras explicando por que a versão que ele propusera não podia existir, e ele dedica o restante a defender o autor dele.",
+      "lessons": [
+        {
+          "title": "Separe o que uma coisa precisa ser do que você preferiria que ela fosse, e rotule qual é qual",
+          "rules": "Antes de projetar, ele anotou os inegociáveis da mecânica — as propriedades sem as quais ela não é aquela mecânica de jeito nenhum — e depois, à parte, uma lista de restrições adicionais que reconhece serem preconceitos e não definições. Manter as duas listas separadas é o que permite abrir mão do segundo grupo sem destruir a coisa sem perceber. Ele também nota, entre parênteses, que um item da lista de inegociáveis também não sobreviveu.",
+          "flavor": "Duas listas, honestamente rotuladas, e as duas acabaram parcialmente erradas."
+        },
+        {
+          "title": "Coloque duas das suas próprias restrições em colisão: a solução está na colisão",
+          "rules": "Ele enuncia isso como técnica geral para qualquer problema criativo: pegue duas das restrições sob as quais você trabalha e ponha uma contra a outra. Aqui ele pegou «precisa diferir fundamentalmente das mecânicas existentes que fazem trabalho parecido» e «não pode carregar a desvantagem embutida que essas mecânicas têm» — e o movimento que satisfaz as duas ao mesmo tempo é a mecânica. Restrições consideradas uma a uma são limites; consideradas aos pares, são um espaço de busca.",
+          "flavor": "A restrição três contra a quatro, e a resposta estava no meio."
+        },
+        {
+          "title": "Nomeie a tensão permanente entre duas funções em vez de levar cada choque para o pessoal",
+          "rules": "Ele enuncia o conflito estrutural sem rodeios: o design quer fazer as coisas de modos como não foram feitas, e a função de regras quer fazê-las como já foram feitas — daí a frase «já temos um jeito de fazer isso» aparecer o tempo todo. Isso não é obstrução; são os dois papéis funcionando corretamente. Nomear a tensão como estrutural é o que impede que cada discordância individual seja lida como um obstáculo colocado por uma pessoa.",
+          "flavor": "Ele costuma chamar o responsável pelas regras de arqui-inimigo, o que depois precisa relativizar."
+        },
+        {
+          "title": "Uma mecânica nova precisa de um motivo para existir ao lado das que a sobrepõem",
+          "rules": "Duas mecânicas existentes já faziam boa parte do que a proposta faria. Em vez de tratar isso como fatal ou ignorar, ele transformou «achar uma diferença fundamental em relação a essas duas» num requisito explícito do design. Se a resposta honesta a «por que não usar o que já existe» for nenhuma, então não há design aqui: o diferenciador não é um extra, é a justificativa.",
+          "flavor": "Um ramo experimental foi descartado nos testes por não valer o espaço mental que ocupava."
+        },
+        {
+          "title": "A reescrita manteve a função e gastou a impressão",
+          "rules": "Comparando a proposta original com o que foi publicado, ele julga a funcionalidade quase idêntica e a perda inteiramente na percepção: a versão dele parecia mais marcante, era bem mais confusa, e a redação final faz a mecânica soar como algo que ela não é. Dois designs podem ser mecanicamente equivalentes e desiguais no que as pessoas acreditam estar segurando, e essa diferença é um custo real que convém precificar em vez de descartar.",
+          "flavor": "«A maior perda foi de percepção.»"
+        },
+        {
+          "title": "Estranheza só se justifica quando alcança terreno que mais nada alcança",
+          "rules": "O memorando que ele reproduz contém a frase mais afiada da coluna: estamos sendo obscuros puramente pela obscuridade, que é o tipo de coisa que sai pela culatra? A distinção oferecida é precisa: construção incomum a serviço de algo genuinamente inalcançável por vias convencionais vale o custo; construção incomum como sabor em si mesma, não. O teste é se a versão convencional existe.",
+          "flavor": "O memorando lista três casos passados que passaram no teste, e sugere que este não passa."
+        },
+        {
+          "title": "Divida o território narrativo quando várias pessoas cobrem o mesmo trabalho",
+          "rules": "A estrutura recorrente da coluna é ele começando uma história e sendo interrompido pela notícia de que outra pessoa a reivindicou — uma reservada para uma semana temática, duas tomadas pelo artigo de um colega. Ele negocia em público, cede algumas, e fica com uma sob o argumento explícito de que ninguém mais a quer. Quando várias pessoas escrevem sobre um trabalho compartilhado, decidir quem conta o quê é coordenação de verdade, não vaidade.",
+          "flavor": "«Vem uma semana sobre isso? Não. Você está louco para contar? Não. Ótimo — essa é minha.»"
+        },
+        {
+          "title": "Corrija a impressão que o seu próprio ponto de vista criou",
+          "rules": "Ele observa que, por sempre narrar do lado dos designers, fica fácil para o leitor ver a função de regras como um antagonista impedindo os designers de fazer coisas interessantes — e diz sem rodeios que essa impressão é obra dele e é falsa. Um ponto de vista constante acumula uma distorção mesmo que nenhum relato individual tenha sido injusto, e o único conserto é nomear a distorção explicitamente.",
+          "flavor": "A correção vem logo depois de ele reproduzir um memorando que o impediu de conseguir o que queria."
+        },
+        {
+          "title": "As mecânicas sobreviveram; a ficção em volta foi substituída",
+          "rules": "A versão publicada é mecanicamente muito próxima da primeira execução do design, mas a história associada é outra: o departamento de ficção achou que o enquadramento original não fazia sentido dada a flexibilidade de que a mecânica precisava. A regra e a razão da regra são separáveis, e quando uma mecânica supera a própria justificativa, trocar a justificativa sai mais barato do que restringir a mecânica.",
+          "flavor": "O mesmo texto de regras, outra explicação do que está acontecendo."
+        },
+        {
+          "title": "As objeções do público são as que a sua própria sala já fez",
+          "rules": "Ao comentar uma decisão que gera calor nos fóruns, ele nota que as mesmas questões levantadas publicamente agora foram levantadas internamente quando ele a propôs pela primeira vez. Vale saber disso nas duas direções: significa que as objeções são legítimas e não desinformadas, e significa que a resposta já existe — você a argumentou uma vez, e é esse argumento que se deve publicar.",
+          "flavor": "Ele não trata a repetição como vindicação. Trata como sinal de que a objeção é real."
+        }
+      ],
+      "takeaway": "Anote o que a coisa precisa ser separadamente do que você quer que ela seja, e então ponha duas das suas próprias restrições uma contra a outra e veja o que sobrevive às duas."
+    },
+    "zh-Hans": {
+      "title": "以及其余的",
+      "dek": "那些还没被别人预订走的设计故事——包括一个靠「让自己的两条约束相撞」而搭出来的机制，以及那封杀掉了他更偏爱的那个版本的规则部门备忘录。",
+      "overview": "罗斯沃特本打算讲一整个系列的设计故事，却一个接一个地发现：其中大多数已经被别的作者预订了。在这番交涉之后幸存下来的，是关于某个机制如何被搭建出来的自述：他先列出这个机制按定义必须具备什么，把这份清单与自己对它的偏好分开，然后刻意让自己的两条限制彼此对撞，从中找出答案。后半篇原文引用了规则部门的一封内部备忘录，解释他最初提出的那个版本为何不可能存在；而他把余下的篇幅用来为这封信的作者辩护。",
+      "lessons": [
+        {
+          "title": "把「这东西必须是什么」和「你希望它是什么」分开，并且标明哪条是哪条",
+          "rules": "动手设计之前，他写下了这个机制的不可协商项——缺了它们，这个机制就根本不是这个机制了；然后另外写了一份附加限制的清单，并承认那些是他的成见而不是定义。把这两份清单分开摆着，才让你能在放弃第二组的时候，不至于毫无察觉地把这东西本身毁掉。他还在括号里注明：不可协商清单上也有一条最终没能保住。",
+          "flavor": "两份清单，标注得很诚实，而两份最后都被证明有一部分是错的。"
+        },
+        {
+          "title": "让你自己的两条约束相撞，解法就在那次碰撞里",
+          "rules": "他把这条当作一切创作性问题的通用技法来陈述：拿出你正受制于的两条限制，让它们对上。这里他拿的是「必须与那些做类似工作的既有机制有根本区别」和「不能背上那些机制自带的那个劣势」——而同时满足这两条的那一步动作，就是这个机制。约束一条一条地看是界限；成对地看，它们是一片搜索空间。",
+          "flavor": "第三条限制对上第四条，而答案就在两者之间。"
+        },
+        {
+          "title": "把两个职能之间那份长期存在的张力命名出来，而不要把每一次冲突都当成私人恩怨",
+          "rules": "他把这个结构性冲突讲得很直白：设计想用没有用过的方式做事，而规则这个职能想用已经用过的方式做事——所以「我们已经有一种办法做这件事了」这句话会反复出现。这不是阻挠；这是两个角色都在正确地运转。把这份张力命名为结构性的，才不会让每一次具体分歧都被读成某个人设下的障碍。",
+          "flavor": "他习惯性地称规则主管为自己的头号劲敌——随后又不得不把这话收回来一些。"
+        },
+        {
+          "title": "一个新机制需要一个「与那些和它重叠的机制并存」的理由",
+          "rules": "已有的两个机制早就做了这个提案将要做的大部分事情。他既没把这当作死刑，也没有视而不见，而是把「找出与那两者的根本区别」写成了设计的一条明确要求。如果「为什么不用现成的那个」这个问题的诚实答案是「没有理由」，那这里就不存在设计——那个差异点不是加分项，它就是这件事的正当性本身。",
+          "flavor": "有一条实验性的分支在试玩中被砍掉，理由是它不值得占用那么多脑内空间。"
+        },
+        {
+          "title": "改写保住了功能，花掉的是观感",
+          "rules": "把最初的提案与最终面世的版本相比，他判断功能几乎一模一样，而损失完全落在观感上：他那一版看起来更抓人，也令人困惑得多，而最终采用的措辞让这个机制听起来像是另外一种东西。两个设计可以在机制上等价，却在「人们以为自己手里拿的是什么」上并不相等；而这个差额是一项真实的成本，应该被计价而不是被打发掉。",
+          "flavor": "「最大的损失是观感。」"
+        },
+        {
+          "title": "只有当古怪能抵达别的东西抵达不了的地界时，它才站得住",
+          "rules": "他引用的那封备忘录里有本篇最锋利的一句话：我们是不是仅仅为了晦涩而晦涩？——而那种事情通常会反噬。信里给出的区分很精确：为了某样用常规手段真正够不着的东西而采用不寻常的构造，值这个代价；把不寻常本身当作一种风味来采用，则不值。检验方法就是看那个常规版本存不存在。",
+          "flavor": "备忘录列举了三个通过了这项检验的旧例，并暗示眼下这个没有通过。"
+        },
+        {
+          "title": "当好几个人在写同一批工作时，先把叙述的地盘分掉",
+          "rules": "这篇专栏反复出现的结构，就是他刚开了个头就被打断，被告知这个故事已经被别人预订了——一个留给了某个主题周，另外两个被同事的文章拿走了。他当着读者的面交涉，让掉一些，并以「没有别人想要它」这个明确理由留下了一个。当几个人都在写同一批共同的工作时，决定谁来讲什么是真正的协调，而不是争风头。",
+          "flavor": "「有专门讲这个的一周吗？没有。你特别想讲它吗？不想。太好了——这个归我。」"
+        },
+        {
+          "title": "去纠正你自己的视角所造成的那个印象",
+          "rules": "他观察到：因为自己总是从设计者这一侧来叙述，读者很容易把规则这个职能看成一个阻挠设计者去做有意思的事的对头——而他直说：这个印象是他造成的，而且是错的。一个始终如一的视角会累积出一种扭曲，哪怕其中没有任何一段叙述是不公道的；而唯一的修法，是把这种扭曲明确地点出来。",
+          "flavor": "这段更正紧跟在他原文引用一封「阻止他拿到想要之物」的备忘录之后。"
+        },
+        {
+          "title": "机制活了下来；围绕它的那套故事被换掉了",
+          "rules": "面世的版本在机制上非常接近设计部门最初的那个执行方案，但附着其上的故事不同了：故事部门认为，考虑到这个机制需要具备的灵活度，最初那套说法讲不通。规则和「规则的理由」是可以分开的；当一个机制长得超出了它的正当化说辞时，换掉说辞比束缚机制便宜。",
+          "flavor": "同一段规则文字，换了一套「这里正在发生什么」的解释。"
+        },
+        {
+          "title": "受众提出的反对，正是你自己那间屋子早就提过的",
+          "rules": "在谈到一个正在论坛上引发争论的决定时，他指出：如今在公开场合被提出的那些问题，正是他当初内部提案时被提出来的那些。这件事在两个方向上都值得知道：它意味着这些反对是正当的，而不是出于不了解；它也意味着答案早就存在——你曾经论证过一次，而那次用过的论证正是该拿出来发表的那个。",
+          "flavor": "他没有把这种重合当成自己被证明有理。他把它当成一个信号：这条反对是真实的。"
+        }
+      ],
+      "takeaway": "把「这东西必须是什么」与「你希望它是什么」分开写下来；然后让你自己的两条限制对撞，看看什么能同时从两条里活下来。"
+    }
+  }
+}
