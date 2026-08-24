@@ -1,0 +1,320 @@
+{
+  "id": "cmon-innistrad-part-2-2011-09-11",
+  "slug": "cmon-innistrad-part-2-2011-09-11",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2011-09-11",
+  "series": { "id": "cmon-innistrad", "order": 2, "total": 2 },
+  "tags": ["top-down", "graveyard", "keywords", "innistrad", "templating"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/cmon-innistrad-part-2-2011-09-11",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "C'mon Innistrad, Part 2",
+      "dek": "Everything else on the whiteboard — death, graveyards, curses — and a mechanic he had built years earlier for exactly this set that the first playtest killed.",
+      "overview": "The second half of the whiteboard, covering the non-tribal material. It contains the clearest example in the archive of a designer being wrong about his own long-laid plan: he had invented a graveyard mechanic years before with this specific set in mind, put it in the very first playtest, and discovered it cannot coexist with a set that cares about what is in the graveyard. What replaces it is the mechanic he had been refusing to use for differentiation reasons — accepted once he realised the differentiation was coming from somewhere else entirely.",
+      "takeaway": "Two of the ten entries are him reversing himself, in opposite directions, on the same question of which graveyard mechanic the set should carry.",
+      "lessons": [
+        {
+          "title": "Keyword or ability word, and the rule that decides",
+          "rules": "He gives the distinction precisely. A keyword is used when the ability is the same or mostly the same from card to card, or when the rules need to be able to refer to the ability by name in order for it to function. An ability word is a word in italics before text that could exist on the card by itself — used when something feels like a mechanic and wants a name for flavour and for referencing, but isn't consistent enough in function to make a keyword. The test is functional consistency, not importance.",
+          "flavor": "Same text every time, or the rules need the name. Otherwise it's just a label."
+        },
+        {
+          "title": "Map where the mechanic cannot go",
+          "rules": "The death-trigger word could not simply be attached to any effect, and he names two whole categories it failed on. Combat mechanics went badly, because you need the effect before creatures would normally be dying, which makes cards that lead to frustrating moments — an outcome the department has a name for. Reactive cards failed for a related reason: it is hard to have things dying and simultaneously have the situation the reactive card needs. Knowing a mechanic's forbidden territory is part of knowing the mechanic.",
+          "flavor": "The condition and the effect have to be able to happen in that order."
+        },
+        {
+          "title": "Two mechanics for one theme, split by which effects each can carry",
+          "rules": "One death-trigger word was not enough, so they borrowed a second from an earlier world — one that triggers whenever anything dies, and which is not named on the cards at all. The stated reason for having both is not redundancy but reach: the second one goes on a different set of effects, which let death matter across more of the set. When a theme is central enough, the right number of mechanics for it is however many it takes to cover the effect types you want.",
+          "flavor": "Two words for one idea, because neither could reach the other's cards."
+        },
+        {
+          "title": "Refuse the obvious answer to differentiate — and be willing to unrefuse it",
+          "rules": "The obvious graveyard mechanic was flavourful, one of the most popular they had ever made, and would have worked with the other themes. He did not want to use it, because this would be the third set with a graveyard theme and he wanted it to feel different from the last one, which had used exactly that mechanic. The reversal came when he realised the horror overlay was going to make all the difference by itself. Once the differentiation was coming from a different axis, he no longer had to buy it by refusing the best tool.",
+          "flavor": "He held the line until he noticed the line was already being held somewhere else."
+        },
+        {
+          "title": "Playtesting can kill the mechanic you built for this exact set",
+          "rules": "He had invented an alternative graveyard mechanic years earlier with this set specifically in mind, and put it in the very first playtest. It doesn't work in a graveyard set — a result he calls counterintuitive and says he did not see until he tried it. The reason is structural: graveyard sets care about what is in the graveyard, while this mechanic eats the graveyard as its resource. It fought everything else the set wanted to do, and the things it fought were the more flavourful ones. He notes it may still be used, in a different kind of block.",
+          "flavor": "He built the tool for this job, years in advance, and the job rejected it."
+        },
+        {
+          "title": "Give each colour a distinct relationship to the shared resource",
+          "rules": "Rather than have five colours all care about the graveyard the same way, each was assigned a different relation to it. One puts cards into it from the library, which pairs with the laboratory creatures that need it stocked. One is best at getting things back out. One cares about what is currently in it, weighted toward creatures for both flavour and mechanical reasons. One gets a small share of treating it as a resource to spend, chosen because it had the least natural synergy otherwise. And one — the isolated faction's colour — cares least of all.",
+          "flavor": "Fill it, empty it, read it, spend it, ignore it."
+        },
+        {
+          "title": "Recursion creates repetition of play; randomness is the fix",
+          "rules": "A team member noticed the underlying problem: because recursion lets you choose what comes back, the same spells get cast over and over, producing a repetitive environment — and card drawing avoids this only because the draw is random. He fixed it on a few of his own cards by making the return random, so you get a card back without knowing which. Rosewater liked it enough to generalise it into a design dictum: most effects returning cards from graveyard to hand would do so randomly. The colours that treat the graveyard as a resource are how a player regains control when they want it.",
+          "flavor": "You can pick it, so you always pick the same one."
+        },
+        {
+          "title": "The joke set is where you run the experiments",
+          "rules": "Asked how to represent curses, the answer came from the silver-bordered sets — which he argues have long been valuable precisely as a source of experimental design, where something that seems crazy turns out to tap into something not so crazy. Two cards there literally placed objects on a player, and when asked what kind of enchantment that was, he took the silly answer: enchant player. It reached black-bordered cards years later, and by the time curses came up the team could agree instantly that a curse is an enchant-player card.",
+          "flavor": "A joke about balancing a card on someone's head, cashed in a decade later."
+        },
+        {
+          "title": "Generate from names and get cards no process would produce",
+          "rules": "He asked the creative team member for a long list of horror card names, and then in meeting after meeting they rolled a die, took a name off the list, and designed a card together to match the flavour. He is explicit about what this buys: the card he previews from one such session could never have been designed by a normal process, and exists only because they wanted a card with that name. A player he met summarised the whole method back to him by naming a simple wooden weapon as his favourite card.",
+          "flavor": "Roll a die, take the name, then work out what it does."
+        },
+        {
+          "title": "Spend your override sparingly, and spend it on the thing that only you can see",
+          "rules": "He describes the discipline of a lead: as lead designer, and to a lesser extent as head designer, he tries hard not to jump in on too many changes — but reserves the right to ask for a few to be reverted, and absent a strong reason the lead developer will usually comply. The one he spent here was on a functional non-issue. Some developers thought taking the card from the bottom of the library was unnecessary when the top would work identically. He felt strongly it mattered for the aesthetic and flavour, and it was changed back.",
+          "flavor": "Functionally identical. Not the same card."
+        }
+      ]
+    },
+    "es": {
+      "title": "Vamos, Innistrad, parte 2",
+      "dek": "Todo lo demás de la pizarra —muerte, cementerios, maldiciones— y una mecánica que él había construido años antes para exactamente esta expansión y que mató la primera partida de prueba.",
+      "overview": "La segunda mitad de la pizarra, con el material no tribal. Contiene el ejemplo más claro del archivo de un diseñador equivocándose sobre su propio plan de largo plazo: había inventado una mecánica de cementerio años antes pensando en esta expansión concreta, la metió en la primerísima partida de prueba, y descubrió que no puede convivir con una expansión a la que le importa qué hay en el cementerio. Lo que la sustituye es la mecánica que él se negaba a usar por razones de diferenciación, aceptada al darse cuenta de que la diferenciación venía de otro sitio completamente distinto.",
+      "takeaway": "Dos de las diez entradas son él revirtiéndose a sí mismo, en direcciones opuestas, sobre la misma cuestión de qué mecánica de cementerio debía llevar la expansión.",
+      "lessons": [
+        {
+          "title": "Palabra clave o palabra de habilidad, y la regla que lo decide",
+          "rules": "Da la distinción con precisión. Se usa una palabra clave cuando la habilidad es igual o casi igual de carta a carta, o cuando las reglas necesitan poder referirse a la habilidad por su nombre para que funcione. Una palabra de habilidad es una palabra en cursiva delante de un texto que podría existir solo en la carta: se usa cuando algo se siente como una mecánica y quiere un nombre por sabor y para referenciarlo, pero no es lo bastante consistente en función como para hacer una palabra clave. La prueba es la consistencia funcional, no la importancia.",
+          "flavor": "El mismo texto siempre, o las reglas necesitan el nombre. Si no, es solo una etiqueta."
+        },
+        {
+          "title": "Cartografía dónde no puede ir la mecánica",
+          "rules": "La palabra de disparo por muerte no podía adosarse sin más a cualquier efecto, y él nombra dos categorías enteras donde falló. Las mecánicas de combate salieron mal, porque necesitas el efecto antes de que las criaturas normalmente estén muriendo, lo que produce cartas que llevan a momentos frustrantes, algo que el departamento tiene nombre para designar. Las cartas reactivas fallaron por una razón emparentada: es difícil tener cosas muriendo y a la vez tener la situación que la carta reactiva necesita. Conocer el territorio prohibido de una mecánica es parte de conocerla.",
+          "flavor": "La condición y el efecto tienen que poder ocurrir en ese orden."
+        },
+        {
+          "title": "Dos mecánicas para un tema, separadas por qué efectos puede llevar cada una",
+          "rules": "Una palabra de disparo por muerte no bastaba, así que tomaron prestada una segunda de un mundo anterior: una que se dispara cuando cualquier cosa muere y que no aparece nombrada en las cartas. La razón declarada para tener ambas no es redundancia sino alcance: la segunda va sobre un conjunto distinto de efectos, lo que permitió que la muerte importara en más partes de la expansión. Cuando un tema es lo bastante central, el número correcto de mecánicas es el que haga falta para cubrir los tipos de efecto que quieres.",
+          "flavor": "Dos palabras para una idea, porque ninguna alcanzaba las cartas de la otra."
+        },
+        {
+          "title": "Niégate a la respuesta obvia para diferenciarte, y está dispuesto a des-negarte",
+          "rules": "La mecánica de cementerio obvia era sabrosa, una de las más populares que habían hecho jamás, y habría funcionado con los otros temas. Él no quería usarla, porque esta sería la tercera expansión con tema de cementerio y quería que se sintiera distinta de la anterior, que había usado exactamente esa mecánica. La reversión llegó al darse cuenta de que la capa de terror iba a marcar toda la diferencia por sí sola. Una vez que la diferenciación venía de otro eje, ya no tenía que comprarla renunciando a la mejor herramienta.",
+          "flavor": "Mantuvo la línea hasta que notó que la línea ya la sostenía otra cosa."
+        },
+        {
+          "title": "Las pruebas pueden matar la mecánica que construiste para esta misma expansión",
+          "rules": "Había inventado una mecánica alternativa de cementerio años antes pensando específicamente en esta expansión, y la metió en la primerísima partida de prueba. No funciona en una expansión de cementerio, resultado que él llama contraintuitivo y dice no haber visto hasta probarlo. La razón es estructural: las expansiones de cementerio se preocupan por qué hay en el cementerio, mientras que esta mecánica se come el cementerio como recurso. Peleaba contra todo lo demás que la expansión quería hacer, y lo que combatía era lo más sabroso. Señala que aún puede usarse, en otro tipo de bloque.",
+          "flavor": "Construyó la herramienta para este trabajo, con años de antelación, y el trabajo la rechazó."
+        },
+        {
+          "title": "Dale a cada color una relación distinta con el recurso compartido",
+          "rules": "En vez de que los cinco colores se preocuparan por el cementerio del mismo modo, a cada uno se le asignó una relación distinta con él. Uno mete cartas desde la biblioteca, lo que casa con las criaturas de laboratorio que lo necesitan surtido. Otro es el mejor sacando cosas de ahí. Otro se preocupa por lo que hay dentro, con peso en criaturas por razones de sabor y mecánicas. Otro recibe una pequeña porción de tratarlo como recurso a gastar, elegido porque era el que menos sinergia natural tenía. Y uno —el color de la facción aislada— es al que menos le importa.",
+          "flavor": "Llénalo, vacíalo, léelo, gástalo, ignóralo."
+        },
+        {
+          "title": "La recursión crea repetición de juego; la aleatoriedad es el arreglo",
+          "rules": "Un miembro del equipo advirtió el problema de fondo: como la recursión te deja elegir qué vuelve, se lanzan los mismos hechizos una y otra vez, produciendo un entorno repetitivo, y el robo de cartas lo evita solo porque el robo es aleatorio. Lo arregló en unas pocas cartas suyas haciendo el retorno aleatorio, de modo que recuperas una carta sin saber cuál. A Rosewater le gustó lo bastante para generalizarlo en un dictamen de diseño: la mayoría de efectos que devuelven cartas del cementerio a la mano lo harían al azar. Los colores que tratan el cementerio como recurso son la vía por la que un jugador recupera control cuando lo quiere.",
+          "flavor": "Puedes elegirla, así que siempre eliges la misma."
+        },
+        {
+          "title": "La expansión de broma es donde se hacen los experimentos",
+          "rules": "Preguntado cómo representar maldiciones, la respuesta vino de las expansiones de borde plateado, que él lleva años defendiendo precisamente como fuente de diseño experimental, donde algo que parece una locura resulta conectar con algo no tan loco. Dos cartas de allí ponían literalmente objetos sobre un jugador, y al preguntarse qué clase de encantamiento era eso, tomó la respuesta tonta: encantar jugador. Llegó a las cartas de borde negro años después, y para cuando surgieron las maldiciones el equipo pudo coincidir al instante en que una maldición es una carta de encantar jugador.",
+          "flavor": "Una broma sobre equilibrar una carta en la cabeza de alguien, cobrada una década después."
+        },
+        {
+          "title": "Genera a partir de nombres y obtendrás cartas que ningún proceso produciría",
+          "rules": "Le pidió a la miembro del equipo creativo una larga lista de nombres de cartas de terror, y luego, reunión tras reunión, tiraban un dado, tomaban un nombre de la lista y diseñaban juntos una carta que casara con el sabor. Es explícito sobre lo que eso compra: la carta que anticipa de una de esas sesiones nunca podría haberse diseñado por un proceso normal, y existe solo porque querían una carta con ese nombre. Un jugador con el que se topó le resumió el método entero al nombrar una simple arma de madera como su carta favorita.",
+          "flavor": "Tira un dado, coge el nombre, y luego averigua qué hace."
+        },
+        {
+          "title": "Gasta tu veto con moderación, y gástalo en lo que solo tú puedes ver",
+          "rules": "Describe la disciplina de un líder: como líder de diseño, y en menor medida como jefe de diseño, se esfuerza por no meterse en demasiados cambios, pero se reserva el derecho de pedir que unos pocos se reviertan, y salvo razón de peso el desarrollador jefe suele acceder. El que gastó aquí fue en un no-problema funcional. Algunos desarrolladores pensaban que sacar la carta del fondo de la biblioteca era innecesario cuando la parte de arriba funcionaría igual. Él sentía con fuerza que importaba para la estética y el sabor, y se revirtió.",
+          "flavor": "Funcionalmente idéntica. No es la misma carta."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Allez, Innistrad, partie 2",
+      "dek": "Tout le reste du tableau — la mort, les cimetières, les malédictions — et une mécanique qu'il avait bâtie des années plus tôt pour cette extension précise, et que la première partie d'essai a tuée.",
+      "overview": "La seconde moitié du tableau, consacrée au matériau non tribal. On y trouve l'exemple le plus net de l'archive d'un concepteur se trompant sur son propre plan de longue date : il avait inventé une mécanique de cimetière des années auparavant en visant précisément cette extension, l'a mise dans la toute première partie d'essai, et a découvert qu'elle ne peut coexister avec une extension qui se soucie de ce que contient le cimetière. Ce qui la remplace est la mécanique qu'il refusait d'employer pour des raisons de différenciation — acceptée dès qu'il a compris que la différenciation venait de tout ailleurs.",
+      "takeaway": "Deux des dix entrées le montrent se contredisant lui-même, en sens inverse, sur la même question : quelle mécanique de cimetière l'extension devait porter.",
+      "lessons": [
+        {
+          "title": "Mot-clé ou mot de capacité, et la règle qui tranche",
+          "rules": "Il donne la distinction avec précision. On emploie un mot-clé quand la capacité est identique ou presque d'une carte à l'autre, ou quand les règles doivent pouvoir la désigner par son nom pour qu'elle fonctionne. Un mot de capacité est un mot en italique devant un texte qui pourrait exister seul sur la carte : on l'emploie quand une chose ressemble à une mécanique et veut un nom pour la saveur et la référence, sans être assez régulière en fonction pour faire un mot-clé. Le test est la constance fonctionnelle, pas l'importance.",
+          "flavor": "Le même texte à chaque fois, ou les règles ont besoin du nom. Sinon, ce n'est qu'une étiquette."
+        },
+        {
+          "title": "Cartographiez là où la mécanique ne peut pas aller",
+          "rules": "Le mot de déclenchement à la mort ne pouvait pas se greffer sur n'importe quel effet, et il nomme deux catégories entières où il a échoué. Les mécaniques de combat marchaient mal, car il faut l'effet avant le moment où les créatures meurent normalement, ce qui produit des cartes menant à des moments frustrants — un résultat que le service a nommé. Les cartes réactives échouaient pour une raison voisine : il est difficile d'avoir à la fois des choses qui meurent et la situation dont la carte réactive a besoin. Connaître le territoire interdit d'une mécanique fait partie de la connaître.",
+          "flavor": "La condition et l'effet doivent pouvoir survenir dans cet ordre."
+        },
+        {
+          "title": "Deux mécaniques pour un thème, séparées par les effets que chacune peut porter",
+          "rules": "Un seul mot de déclenchement à la mort ne suffisait pas : ils en ont emprunté un second à un monde antérieur — qui se déclenche dès que quoi que ce soit meurt, et qui n'est nommé sur aucune carte. La raison affichée d'en avoir deux n'est pas la redondance mais la portée : le second se pose sur un autre ensemble d'effets, ce qui a permis à la mort de compter sur une plus grande part de l'extension. Quand un thème est assez central, le bon nombre de mécaniques est celui qu'il faut pour couvrir les types d'effets visés.",
+          "flavor": "Deux mots pour une idée, parce qu'aucun n'atteignait les cartes de l'autre."
+        },
+        {
+          "title": "Refusez la réponse évidente pour vous différencier — et sachez dé-refuser",
+          "rules": "La mécanique de cimetière évidente était savoureuse, l'une des plus populaires jamais faites, et aurait fonctionné avec les autres thèmes. Il ne voulait pas s'en servir, car ce serait la troisième extension à thème de cimetière et il la voulait différente de la précédente, qui employait précisément cette mécanique. Le revirement est venu quand il a compris que la couche horrifique ferait toute la différence à elle seule. Dès lors que la différenciation venait d'un autre axe, il n'avait plus à l'acheter en renonçant au meilleur outil.",
+          "flavor": "Il a tenu la ligne jusqu'à s'apercevoir que la ligne était déjà tenue ailleurs."
+        },
+        {
+          "title": "Les tests peuvent tuer la mécanique que vous aviez bâtie pour cette extension précise",
+          "rules": "Il avait inventé une mécanique de cimetière alternative des années plus tôt en visant spécifiquement cette extension, et l'a mise dans la toute première partie d'essai. Elle ne fonctionne pas dans une extension de cimetière — résultat qu'il qualifie de contre-intuitif et qu'il dit n'avoir vu qu'en l'essayant. La raison est structurelle : les extensions de cimetière se soucient de ce qui s'y trouve, tandis que cette mécanique dévore le cimetière comme ressource. Elle combattait tout ce que l'extension voulait faire, et ce qu'elle combattait était le plus savoureux. Il note qu'elle pourra servir, dans un autre type de bloc.",
+          "flavor": "Il a fabriqué l'outil pour ce chantier, des années à l'avance, et le chantier l'a refusé."
+        },
+        {
+          "title": "Donnez à chaque couleur un rapport distinct à la ressource commune",
+          "rules": "Plutôt que cinq couleurs se souciant du cimetière de la même façon, chacune s'est vu attribuer un rapport différent. L'une y verse des cartes depuis la bibliothèque, ce qui s'accorde avec les créatures de laboratoire qui le veulent garni. Une autre excelle à en ressortir des choses. Une autre se soucie de ce qui s'y trouve, orientée vers les créatures pour des raisons de saveur et de mécanique. Une autre reçoit une petite part du traitement en ressource à dépenser, choisie parce qu'elle avait le moins de synergie naturelle par ailleurs. Et une — la couleur de la faction isolée — s'en soucie le moins.",
+          "flavor": "Le remplir, le vider, le lire, le dépenser, l'ignorer."
+        },
+        {
+          "title": "La récursion crée de la répétition de jeu ; le hasard est le correctif",
+          "rules": "Un membre de l'équipe a repéré le problème de fond : parce que la récursion laisse choisir ce qui revient, on relance toujours les mêmes sorts, produisant un environnement répétitif — la pioche y échappe uniquement parce qu'elle est aléatoire. Il l'a corrigé sur quelques-unes de ses cartes en rendant le retour aléatoire : on récupère une carte sans savoir laquelle. Rosewater a assez aimé pour en faire une règle de conception : la plupart des effets ramenant des cartes du cimetière à la main le feraient au hasard. Les couleurs qui traitent le cimetière en ressource sont le moyen, pour un joueur, de reprendre le contrôle quand il le veut.",
+          "flavor": "Vous pouvez la choisir, donc vous choisissez toujours la même."
+        },
+        {
+          "title": "L'extension humoristique est le banc d'essai",
+          "rules": "Sur la question de représenter des malédictions, la réponse est venue des extensions à bordure argentée — qu'il défend depuis des années précisément comme source de conception expérimentale, où une chose apparemment folle touche à quelque chose qui ne l'est pas tant. Deux cartes y posaient littéralement des objets sur un joueur, et à la question de savoir quel type d'enchantement c'était, il a pris la réponse idiote : enchanter un joueur. Elle a atteint les cartes à bordure noire des années plus tard, et quand les malédictions sont arrivées, l'équipe a pu convenir aussitôt qu'une malédiction est une carte qui enchante un joueur.",
+          "flavor": "Une blague sur une carte en équilibre sur une tête, encaissée dix ans plus tard."
+        },
+        {
+          "title": "Générez à partir de noms et obtenez des cartes qu'aucun processus ne produirait",
+          "rules": "Il a demandé à la membre de l'équipe créative une longue liste de noms de cartes d'horreur, puis, réunion après réunion, ils lançaient un dé, prenaient un nom sur la liste et concevaient ensemble une carte correspondant à la saveur. Il est explicite sur le gain : la carte qu'il dévoile issue d'une telle séance n'aurait jamais pu naître d'un processus normal, et n'existe que parce qu'ils voulaient une carte portant ce nom. Un joueur croisé lui a résumé toute la méthode en citant comme carte préférée une simple arme en bois.",
+          "flavor": "Lancez un dé, prenez le nom, puis trouvez ce que ça fait."
+        },
+        {
+          "title": "Dépensez votre droit de veto avec parcimonie, et sur ce que vous seul voyez",
+          "rules": "Il décrit la discipline d'un responsable : comme chef de projet, et dans une moindre mesure comme responsable de la discipline, il s'efforce de ne pas intervenir sur trop de changements — mais se réserve le droit d'en faire annuler quelques-uns, et sauf raison forte le développeur en chef s'exécute en général. Celui qu'il a dépensé ici portait sur un non-problème fonctionnel. Des développeurs jugeaient inutile de prendre la carte au fond de la bibliothèque quand le dessus ferait la même chose. Il tenait beaucoup à ce que cela compte pour l'esthétique et la saveur, et c'est revenu.",
+          "flavor": "Fonctionnellement identique. Pas la même carte."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Vamos lá, Innistrad, parte 2",
+      "dek": "Todo o resto do quadro branco — morte, cemitérios, maldições — e uma mecânica que ele construíra anos antes para exatamente esta coleção e que o primeiro teste matou.",
+      "overview": "A segunda metade do quadro, cobrindo o material não tribal. Contém o exemplo mais claro do arquivo de um designer errando sobre o próprio plano de longo prazo: ele inventara uma mecânica de cemitério anos antes mirando exatamente esta coleção, pôs no primeiríssimo teste, e descobriu que ela não coexiste com uma coleção que se importa com o que há no cemitério. O que a substitui é a mecânica que ele vinha se recusando a usar por razões de diferenciação — aceita assim que percebeu que a diferenciação vinha de outro lugar inteiramente.",
+      "takeaway": "Duas das dez entradas são ele se revertendo, em direções opostas, sobre a mesma questão de qual mecânica de cemitério a coleção deveria carregar.",
+      "lessons": [
+        {
+          "title": "Palavra-chave ou palavra de habilidade, e a regra que decide",
+          "rules": "Ele dá a distinção com precisão. Usa-se palavra-chave quando a habilidade é igual ou quase igual de carta para carta, ou quando as regras precisam poder se referir a ela pelo nome para que funcione. Uma palavra de habilidade é uma palavra em itálico antes de um texto que poderia existir sozinho na carta: usa-se quando algo parece uma mecânica e quer um nome por sabor e para referência, mas não é consistente o bastante em função para virar palavra-chave. O teste é a consistência funcional, não a importância.",
+          "flavor": "O mesmo texto sempre, ou as regras precisam do nome. Fora isso, é só um rótulo."
+        },
+        {
+          "title": "Mapeie onde a mecânica não pode ir",
+          "rules": "A palavra de gatilho por morte não podia ser anexada a qualquer efeito, e ele nomeia duas categorias inteiras em que falhou. Mecânicas de combate saíram mal, porque você precisa do efeito antes do momento em que criaturas normalmente morrem, o que produz cartas que levam a momentos frustrantes — resultado que o departamento tem nome para designar. Cartas reativas falharam por razão aparentada: é difícil ter coisas morrendo e ao mesmo tempo ter a situação de que a carta reativa precisa. Conhecer o território proibido de uma mecânica faz parte de conhecê-la.",
+          "flavor": "A condição e o efeito precisam poder acontecer nessa ordem."
+        },
+        {
+          "title": "Duas mecânicas para um tema, separadas por quais efeitos cada uma pode carregar",
+          "rules": "Uma palavra de gatilho por morte não bastava, então tomaram emprestada uma segunda de um mundo anterior — uma que dispara sempre que qualquer coisa morre e que não é nomeada nas cartas. A razão declarada para ter as duas não é redundância e sim alcance: a segunda vai sobre um conjunto diferente de efeitos, o que permitiu que a morte importasse em mais partes da coleção. Quando um tema é central o bastante, o número certo de mecânicas é quantas forem necessárias para cobrir os tipos de efeito que você quer.",
+          "flavor": "Duas palavras para uma ideia, porque nenhuma alcançava as cartas da outra."
+        },
+        {
+          "title": "Recuse a resposta óbvia para se diferenciar — e esteja disposto a des-recusar",
+          "rules": "A mecânica de cemitério óbvia era saborosa, uma das mais populares que já fizeram, e teria funcionado com os outros temas. Ele não queria usá-la, porque esta seria a terceira coleção com tema de cemitério e ele a queria diferente da anterior, que usara exatamente aquela mecânica. A reversão veio quando percebeu que a camada de horror faria toda a diferença sozinha. Uma vez que a diferenciação vinha de outro eixo, ele não precisava mais comprá-la abrindo mão da melhor ferramenta.",
+          "flavor": "Ele segurou a linha até notar que a linha já estava sendo segurada em outro lugar."
+        },
+        {
+          "title": "O teste pode matar a mecânica que você construiu para esta exata coleção",
+          "rules": "Ele inventara uma mecânica alternativa de cemitério anos antes mirando especificamente esta coleção, e a pôs no primeiríssimo teste. Ela não funciona numa coleção de cemitério — resultado que ele chama de contraintuitivo e diz não ter enxergado até tentar. A razão é estrutural: coleções de cemitério se importam com o que está no cemitério, enquanto essa mecânica come o cemitério como recurso. Ela brigava com tudo o mais que a coleção queria fazer, e o que ela combatia era o mais saboroso. Ele nota que ainda pode ser usada, num tipo diferente de bloco.",
+          "flavor": "Ele fabricou a ferramenta para este serviço, com anos de antecedência, e o serviço a rejeitou."
+        },
+        {
+          "title": "Dê a cada cor uma relação distinta com o recurso compartilhado",
+          "rules": "Em vez de cinco cores se importando com o cemitério do mesmo jeito, cada uma recebeu uma relação diferente com ele. Uma põe cartas nele vindas do grimório, o que casa com as criaturas de laboratório que o querem abastecido. Outra é a melhor em tirar coisas de lá. Outra se importa com o que está dentro, pesando para criaturas por razões de sabor e mecânicas. Outra recebe uma fatia pequena de tratá-lo como recurso a gastar, escolhida por ter a menor sinergia natural de outro modo. E uma — a cor da facção isolada — é a que menos se importa.",
+          "flavor": "Encha, esvazie, leia, gaste, ignore."
+        },
+        {
+          "title": "Recursão cria repetição de jogo; aleatoriedade é o conserto",
+          "rules": "Um membro da equipe notou o problema de fundo: como a recursão deixa você escolher o que volta, as mesmas mágicas são conjuradas repetidamente, produzindo um ambiente repetitivo — e a compra de cartas escapa disso só porque a compra é aleatória. Ele consertou em algumas cartas suas tornando o retorno aleatório, de modo que você recupera uma carta sem saber qual. Rosewater gostou o bastante para generalizar num preceito de design: a maioria dos efeitos que devolvem cartas do cemitério para a mão o fariam aleatoriamente. As cores que tratam o cemitério como recurso são o jeito de um jogador recuperar controle quando quiser.",
+          "flavor": "Você pode escolher, então escolhe sempre a mesma."
+        },
+        {
+          "title": "A coleção de brincadeira é onde se fazem os experimentos",
+          "rules": "Perguntado como representar maldições, a resposta veio das coleções de borda prateada — que ele defende há anos justamente como fonte de design experimental, onde algo que parece maluco acaba tocando em algo nem tão maluco. Duas cartas de lá literalmente punham objetos sobre um jogador, e quando se perguntou que tipo de encantamento era aquilo, ele pegou a resposta boba: encantar jogador. Chegou às cartas de borda preta anos depois, e quando as maldições surgiram a equipe pôde concordar na hora que uma maldição é uma carta de encantar jogador.",
+          "flavor": "Uma piada sobre equilibrar uma carta na cabeça de alguém, sacada uma década depois."
+        },
+        {
+          "title": "Gere a partir de nomes e obtenha cartas que processo nenhum produziria",
+          "rules": "Ele pediu à membro da equipe criativa uma longa lista de nomes de cartas de horror, e então, reunião após reunião, rolavam um dado, tiravam um nome da lista e desenhavam juntos uma carta que casasse com o sabor. Ele é explícito sobre o que isso compra: a carta que ele antecipa de uma dessas sessões jamais poderia ter sido desenhada por um processo normal, e existe só porque queriam uma carta com aquele nome. Um jogador que ele encontrou resumiu o método inteiro ao apontar uma simples arma de madeira como carta favorita.",
+          "flavor": "Role um dado, pegue o nome, e então descubra o que ela faz."
+        },
+        {
+          "title": "Gaste seu veto com parcimônia, e gaste no que só você enxerga",
+          "rules": "Ele descreve a disciplina de um líder: como líder de design, e em menor grau como chefe de design, ele se esforça para não intervir em mudanças demais — mas reserva o direito de pedir que algumas sejam revertidas, e salvo razão forte o desenvolvedor-líder costuma atender. O que ele gastou aqui foi num não-problema funcional. Alguns desenvolvedores achavam desnecessário tirar a carta do fundo do grimório quando o topo funcionaria igual. Ele sentia fortemente que importava para a estética e o sabor, e foi revertido.",
+          "flavor": "Funcionalmente idêntica. Não é a mesma carta."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "来吧依尼翠，第二部分",
+      "dek": "白板上其余的一切——死亡、坟场、诅咒——以及一个他多年前就为这个系列造好、却被第一场测试局杀掉的机制。",
+      "overview": "白板的后半部分，讲的是非部族的那些材料。这里有整个档案里最清晰的一个例子：一位设计师在自己长线布下的计划上判断错了。他多年前就发明过一个坟场机制，心里想的正是这个具体的系列；他把它放进了最早的那一场测试局，然后发现：它无法与一个「在意坟场里有什么」的系列共存。取代它的，正是他此前出于「要和前作有所区别」的理由而一直拒绝使用的那个机制——而在他意识到那份区别其实来自完全另一条轴之后，它被接受了。",
+      "takeaway": "这十条里有两条，是他在同一个问题上、朝相反的方向推翻自己：这个系列究竟该带哪一个坟场机制。",
+      "lessons": [
+        {
+          "title": "关键字还是异能提示词，以及决定它的那条规则",
+          "rules": "他把这个区分讲得很精确。当一项异能在不同牌之间是相同或基本相同的，或者当规则必须能用名字来指称它、它才运作得起来时，就用关键字。而异能提示词，是放在一段「本来就可以独立存在于牌上」的文字之前的斜体词：当某样东西感觉像个机制、需要一个名字来承载风味和便于指代，但在功能上又不够一致、当不了关键字时，就用它。检验标准是功能上的一致性，而不是重要程度。",
+          "flavor": "每次都是同一段文字，或者规则需要这个名字。除此之外，它只是个标签。"
+        },
+        {
+          "title": "把这个机制「不能去的地方」画出来",
+          "rules": "这个「死亡触发」的提示词并不能随便挂到任何效果上；而他点出了它翻车的两整类。战斗类机制效果很差，因为你需要这个效果发生在「生物通常会死」的时刻之前，而这会做出那种「导向令人挫败的时刻」的牌——这个后果，部门里有专门的叫法。应对型的牌因为相邻的理由而失败：很难既让东西正在死去，又同时凑齐那张应对型牌所需要的局面。知道一个机制的禁区，是「懂这个机制」的一部分。",
+          "flavor": "条件和效果，必须有可能按那个先后顺序发生。"
+        },
+        {
+          "title": "一个主题配两个机制，按「各自能承载哪些效果」来划分",
+          "rules": "一个死亡触发词不够用，于是他们从一个更早的世界借来了第二个——它在任何东西死去时触发，而且在牌面上根本没有名字。同时拥有两个的理由不是冗余，而是覆盖面：第二个能挂在另一批效果上，从而让「死亡」在这个系列里更多的地方发挥作用。当一个主题足够核心时，它该配几个机制，取决于要覆盖你想要的那些效果类型需要几个。",
+          "flavor": "一个想法配两个词，因为哪一个都够不着另一个能挂的那些牌。"
+        },
+        {
+          "title": "为了差异化而拒绝那个显而易见的答案——同时也要愿意收回这份拒绝",
+          "rules": "那个显而易见的坟场机制风味十足，是他们做过的最受欢迎的机制之一，而且和其余主题也能配合。而他不想用它，因为这将是第三个带坟场主题的系列，而他希望它感觉起来和上一个不同——上一个用的恰恰就是这个机制。转变发生在他意识到：光是覆盖上去的那层恐怖题材，就足以造成全部的差别。一旦这份差异化来自另一条轴，他就不必再靠放弃最好的工具去把它买下来。",
+          "flavor": "他一直守着这条线，直到发现这条线其实已经由别处守住了。"
+        },
+        {
+          "title": "测试可以杀掉你为「这个系列」量身造出来的那个机制",
+          "rules": "他多年前就发明过另一个坟场机制，心里想的正是这个系列，并且把它放进了最早的那一场测试局。它在一个坟场系列里行不通——这个结果他称之为反直觉的，并说自己直到真的试了才看出来。理由是结构性的：坟场系列在意的是坟场里有什么，而这个机制把坟场当作资源吃掉。它和这个系列想做的其余一切都在打架；而它打的那些，恰恰是更有风味的那些。他补充说，它仍然可能被用上——在另一种类型的系列组里。",
+          "flavor": "他提前好几年为这份活造好了工具，而这份活把它退了回来。"
+        },
+        {
+          "title": "给每一种颜色一份对这份共享资源的不同关系",
+          "rules": "与其让五种颜色以同一种方式在意坟场，不如给每一种指派一份不同的关系。一种把牌从牌库放进去，这和那些需要它备货充足的实验室生物相配。一种最擅长把东西从里面弄出来。一种在意里面此刻有什么，并且出于风味和机制两方面的理由偏向生物。还有一种拿到「把它当资源花掉」这一小块，之所以选它，是因为它在其他方面本来最缺乏天然的协同。而最后一种——那个被孤立阵营的颜色——是最不在意它的。",
+          "flavor": "把它填满、把它清空、读它、花掉它、无视它。"
+        },
+        {
+          "title": "回收会造成对局重复；随机性就是那个修法",
+          "rules": "一位团队成员注意到了底层的问题：因为回收让你可以挑要拿回什么，同样的咒语就会被一遍遍施放，造出一个重复的环境——而抽牌之所以能躲开这一点，只是因为抽是随机的。他在自己做的几张牌上把返回改成随机的：你拿回一张牌，但不知道是哪一张。罗斯瓦特喜欢到把它推广成了一条设计准则：大多数把牌从坟场送回手上的效果，都会以随机方式进行。而那些「把坟场当资源花」的颜色，正是玩家在想要时把控制权拿回来的途径。",
+          "flavor": "你能挑，所以你每次都挑同一张。"
+        },
+        {
+          "title": "那个开玩笑的系列，正是做实验的地方",
+          "rules": "在「怎么表现诅咒」这个问题上，答案来自那些银边系列——而多年来他一直主张，它们的价值恰恰在于是实验性设计的来源：某样看起来疯狂的东西，往往触到了某样并不那么疯狂的东西。那里有两张牌，字面意义上把物件放在一位玩家身上；而当被问到「那算哪一种结界」时，他采纳了那个傻答案：结附于玩家。它在多年之后进入了黑边牌；而等到「诅咒」这个题目被提出来时，团队可以当场就一致同意：一个诅咒就是一张结附于玩家的牌。",
+          "flavor": "一个关于「把牌顶在别人头上」的玩笑，十年之后被兑现了。"
+        },
+        {
+          "title": "从名字出发去生成，你会得到任何流程都产不出的牌",
+          "rules": "他向那位创意团队成员要了一份很长的恐怖牌名清单；然后在一次又一次的会议上，他们掷一个骰子，从清单上取一个名字，再一起设计一张与那份风味相配的牌。他把这一招买到的东西说得很明白：他从这样一场会里预览出来的那张牌，绝不可能由正常流程设计出来——它之所以存在，只是因为他们想要一张叫那个名字的牌。他遇到的一位玩家，用「一件简单的木制武器是我最喜欢的牌」这句话，把整套方法给他总结了回来。",
+          "flavor": "掷个骰子，取那个名字，然后再去弄清它做什么。"
+        },
+        {
+          "title": "你的否决权要省着用，而且要用在只有你才看得见的那件事上",
+          "rules": "他描述了一位主管的自律：作为设计主管——以及在较小程度上作为设计负责人——他很努力地不去插手太多改动；但他保留「要求把其中少数几处改回去」的权利，而在没有强力理由的情况下，主开发通常会照办。他在这里花掉的那一次，用在了一个功能上无关紧要的地方。有些开发认为，既然从牌库顶端拿效果完全一样，那么从底端拿就是多余的。而他强烈地觉得，这一点对这张牌的美感和风味是要紧的；于是它被改了回来。",
+          "flavor": "功能上完全一样。但不是同一张牌。"
+        }
+      ]
+    }
+  }
+}

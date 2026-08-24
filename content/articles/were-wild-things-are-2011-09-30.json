@@ -1,0 +1,320 @@
+{
+  "id": "were-wild-things-are-2011-09-30",
+  "slug": "were-wild-things-are-2011-09-30",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2011-09-30",
+  "series": null,
+  "tags": ["top-down", "mechanics", "transformation", "innistrad", "iteration"],
+  "pointNoun": "lesson",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/were-wild-things-are-2011-09-30",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-23T00:00:00Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Were the Wild Things Are",
+      "dek": "A single tribe designed from the source material outward — six properties of the monster written down first, each translated into a mechanical requirement, and a failed mechanic that donated its best part.",
+      "overview": "The clearest worked example of top-down method in the archive. He begins by listing six things that define the creature in fiction, then goes back through the list and asks what each one means mechanically — producing, in order, a card structure, a costing decision, a constraint on who controls the change, a flavour problem with no direct mechanical answer, a requirement that all copies share one trigger, and a colour reassignment. What follows is the search for triggers that satisfy all six at once, the abandoned day-and-night mechanic that supplied the key component, and two development fixes.",
+      "takeaway": "He is prouder of this mechanic than of anything else in the set, and it has no keyword and no name.",
+      "lessons": [
+        {
+          "title": "Write down the essence first, then translate it item by item",
+          "rules": "The method is explicit and sequential. He listed six things that make the creature what it is: it has two states; the monster half is stronger than the human half; the change is mostly out of their control; the trigger is the full moon; they all change together; and they have a wildness to them. Only then did he comb back through the list and work out what each item meant mechanically. He notes the effect on the work — restrictions breed creativity, and by the end he had spelled out what they had to do, leaving only the question of how.",
+          "flavor": "Six sentences about monsters, then six sentences about cards."
+        },
+        {
+          "title": "An asymmetry in the fiction is a costing decision",
+          "rules": "The rule that the monster half is stronger translates directly into where the card starts. Players will play these creatures beginning on the human side, which lets you make a decently costed creature that has to jump through a hoop to upgrade — the hoop is what the higher side is paid for. And the flavour supports the mechanics rather than fighting them: in these stories you always meet the human first, so starting there is what the audience expects anyway.",
+          "flavor": "The weak side is the price. The strong side is the thing you're buying."
+        },
+        {
+          "title": "Influence without control",
+          "rules": "Because the change is meant to be out of the character's hands, the catalyst had to be external — the player cannot simply choose when the creature transforms. But he did not want the player locked out either: the stated goal was that the controller should be able to influence the change. That pair of requirements is what rules out both an activated ability and a purely random trigger, and it is what forces the eventual answer to be something both players act on.",
+          "flavor": "Not your decision. Still your problem."
+        },
+        {
+          "title": "Re-deriving the essence can relocate the colours",
+          "rules": "The wildness requirement is what settled the colour question, because those creatures are guided by instinct and often do not remember what they did. That pointed to the two colours that best carry the wild element. He then notes the historical fact that makes the move visible: all three previous versions of the creature, and four of the five previous related creatures, had been in an entirely different colour. Going back to the essence moved a tribe that had a settled mechanical home.",
+          "flavor": "Three precedents, all in one colour, all overruled by one line on a whiteboard."
+        },
+        {
+          "title": "The failed mechanic donated the part that mattered",
+          "rules": "Before the transformation cards, they built a day-and-night tracker: a double-sided card with a single track, a counter advancing along it, flipping the card when the counter reached the end. It sank for a list of reasons — complicated, wordy, and requiring you to track something that often didn't matter but might. What survived was its regulator. Using spell casting to govern the change allowed interactivity that was organic to the game and gave both sides influence without giving either total control. Good ideas take a long time to build by combining data collected from many places.",
+          "flavor": "The mechanic died. Its engine went into the next one."
+        },
+        {
+          "title": "Three criteria for something you want players to track",
+          "rules": "Choosing what would advance the tracker produced a general test. It had to be a single thing, so it stays easy to follow. It had to happen reasonably often, because anything seldom used is easy to forget. And it had to be something either player could do, since keeping it out of one person's control means letting everyone influence it. Once he had broken it down that way, the answer was nearly forced: track the casting of spells.",
+          "flavor": "One thing, frequent, and available to both. Very little passes all three."
+        },
+        {
+          "title": "Sometimes the way to create flavour is to get out of the way",
+          "rules": "Casting spells has nothing to do with the moon, and he grants there is no way for design to directly represent the sun and the moon short of a card that is the sun and the moon. His resolution is that you cannot let flavour box you in during top-down design, because the key to flavour is not always hitting the nail on the head. The association is strong enough that if the game state changes the creatures and hints at no other explanation, players will supply the moon themselves. So hit every other flavour note and let the trigger mean nothing.",
+          "flavor": "Don't put the moon on the card. Leave the space where the moon goes."
+        },
+        {
+          "title": "Build the two triggers into a dilemma the opponent cannot solve twice",
+          "rules": "The forward trigger is casting no spells in a turn — something the controller can attempt but the opponent can spoil with a single instant, and something that pressures the opponent to spend a spell every turn. The reverse trigger is casting two spells in one turn, which the opponent cannot sustain. The result is a genuine choice: prevent the change by casting one spell every turn, or revert it by casting two whenever it happens — and you cannot do both. It handicaps the controller too, who now cannot cast more than one spell a turn.",
+          "flavor": "Two ways to fight it, and the two ways rule each other out."
+        },
+        {
+          "title": "Moving the timing window fixed two unrelated problems at once",
+          "rules": "The trigger originally checked at the end of the turn, and development found two distinct failures. Players could hold off on spells, get the trigger onto the stack, and then cast instants anyway. Worse, creatures would fight, then die at end of turn when they reverted and their toughness dropped. Both were solved by moving the check from the end of the controller's turn to the start of the next one. A second change made the two-spell trigger require the same player, because otherwise the controller feared casting anything at all.",
+          "flavor": "One line moved, two bugs gone."
+        },
+        {
+          "title": "Label both faces so distant cards can still interact",
+          "rules": "Originally the human side carried only the human type and the monster side only the monster type, which produced games where you held an anti-monster card waiting for the right face to come up. In the end they put the monster type on both faces, so cards that want to interact with the tribe can do so from zones where they cannot see the reverse. The fiction was made to carry the rules decision rather than the other way round: a werewolf always has some werewolf in it, even in human form.",
+          "flavor": "The card in your hand can't see the back of the card on the table."
+        }
+      ]
+    },
+    "es": {
+      "title": "Donde viven los hombres lobo",
+      "dek": "Una tribu diseñada desde el material de origen hacia fuera: seis propiedades del monstruo escritas primero, cada una traducida a un requisito mecánico, y una mecánica fallida que donó su mejor pieza.",
+      "overview": "El ejemplo trabajado más claro del método descendente en el archivo. Empieza listando seis cosas que definen a la criatura en la ficción, y luego recorre la lista preguntando qué significa cada una mecánicamente, produciendo, por orden: una estructura de carta, una decisión de coste, una restricción sobre quién controla el cambio, un problema de sabor sin respuesta mecánica directa, la exigencia de que todas las copias compartan un disparador, y una reasignación de colores. Lo que sigue es la búsqueda de disparadores que satisfagan las seis a la vez, la mecánica de día y noche abandonada que aportó el componente clave, y dos arreglos de desarrollo.",
+      "takeaway": "Está más orgulloso de esta mecánica que de cualquier otra cosa de la expansión, y no tiene palabra clave ni nombre.",
+      "lessons": [
+        {
+          "title": "Escribe primero la esencia, y luego tradúcela punto por punto",
+          "rules": "El método es explícito y secuencial. Listó seis cosas que hacen a la criatura lo que es: tiene dos estados; la mitad monstruo es más fuerte que la mitad humana; el cambio está mayormente fuera de su control; el disparador es la luna llena; todas cambian a la vez; y tienen algo salvaje. Solo entonces volvió sobre la lista y averiguó qué significaba cada punto mecánicamente. Señala el efecto en el trabajo: las restricciones engendran creatividad, y al final había deletreado lo que tenían que hacer, dejando solo la cuestión del cómo.",
+          "flavor": "Seis frases sobre monstruos, y luego seis frases sobre cartas."
+        },
+        {
+          "title": "Una asimetría en la ficción es una decisión de coste",
+          "rules": "La regla de que la mitad monstruo es más fuerte se traduce directamente en dónde empieza la carta. Los jugadores jugarán estas criaturas empezando por el lado humano, lo que permite hacer una criatura decentemente costeada que tiene que saltar un aro para mejorar: el aro es lo que paga el lado superior. Y el sabor apoya a la mecánica en vez de pelearse con ella: en estas historias siempre conoces primero al humano, así que empezar ahí es lo que el público espera de todos modos.",
+          "flavor": "El lado débil es el precio. El lado fuerte es lo que estás comprando."
+        },
+        {
+          "title": "Influencia sin control",
+          "rules": "Como el cambio debe estar fuera de las manos del personaje, el catalizador tenía que ser externo: el jugador no puede simplemente elegir cuándo se transforma su criatura. Pero tampoco quería dejar al jugador fuera: el objetivo declarado era que el controlador pudiera influir en el cambio. Ese par de requisitos es lo que descarta tanto una habilidad activada como un disparador puramente aleatorio, y es lo que obliga a que la respuesta final sea algo sobre lo que actúan ambos jugadores.",
+          "flavor": "No es tu decisión. Sigue siendo tu problema."
+        },
+        {
+          "title": "Volver a deducir la esencia puede reubicar los colores",
+          "rules": "El requisito de salvajismo es lo que zanjó la cuestión del color, porque esas criaturas se guían por el instinto y a menudo no recuerdan lo que hicieron. Eso apuntaba a los dos colores que mejor portan el elemento salvaje. Luego señala el dato histórico que hace visible el movimiento: las tres versiones previas de la criatura, y cuatro de las cinco criaturas relacionadas anteriores, habían estado en un color completamente distinto. Volver a la esencia movió una tribu que ya tenía un hogar mecánico asentado.",
+          "flavor": "Tres precedentes, todos en un color, todos anulados por una línea en una pizarra."
+        },
+        {
+          "title": "La mecánica fallida donó la pieza que importaba",
+          "rules": "Antes de las cartas de transformación construyeron un marcador de día y noche: una carta de doble cara con una única pista, un contador avanzando por ella, y la carta girándose cuando el contador llegaba al final. Se hundió por una lista de razones: complicada, larga, y obligaba a seguir algo que a menudo no importaba pero podía importar. Lo que sobrevivió fue su regulador. Usar el lanzamiento de hechizos para gobernar el cambio permitió una interactividad orgánica al juego y dio influencia a ambos lados sin dar control total a ninguno. Las buenas ideas tardan en construirse combinando datos recogidos en muchos sitios.",
+          "flavor": "La mecánica murió. Su motor pasó a la siguiente."
+        },
+        {
+          "title": "Tres criterios para algo que quieres que los jugadores sigan",
+          "rules": "Elegir qué haría avanzar el marcador produjo una prueba general. Tenía que ser una sola cosa, para que siguiera siendo fácil de seguir. Tenía que ocurrir con razonable frecuencia, porque lo que se usa poco se olvida fácil. Y tenía que ser algo que cualquiera de los dos jugadores pudiera hacer, ya que mantenerlo fuera del control de una persona significa dejar que todos influyan. Una vez desglosado así, la respuesta casi venía forzada: seguir el lanzamiento de hechizos.",
+          "flavor": "Una cosa, frecuente, y disponible para ambos. Muy poco pasa las tres."
+        },
+        {
+          "title": "A veces la forma de crear sabor es quitarse de en medio",
+          "rules": "Lanzar hechizos no tiene nada que ver con la luna, y concede que no hay forma de que el diseño represente directamente el sol y la luna salvo con una carta que sea el sol y la luna. Su resolución es que no puedes dejar que el sabor te encajone en un diseño descendente, porque la clave del sabor no siempre es dar en el clavo. La asociación es tan fuerte que si el estado de juego cambia a las criaturas y no insinúa ninguna otra explicación, los jugadores pondrán la luna por su cuenta. Así que acierta todas las demás notas de sabor y deja que el disparador no signifique nada.",
+          "flavor": "No pongas la luna en la carta. Deja el hueco donde va la luna."
+        },
+        {
+          "title": "Construye los dos disparadores como un dilema que el rival no puede resolver dos veces",
+          "rules": "El disparador de ida es no lanzar hechizos en un turno: algo que el controlador puede intentar pero que el oponente puede estropear con un solo instantáneo, y algo que presiona al oponente a gastar un hechizo cada turno. El disparador de vuelta es lanzar dos hechizos en un turno, cosa que el oponente no puede sostener. El resultado es una elección real: impedir el cambio lanzando un hechizo cada turno, o revertirlo lanzando dos cada vez que ocurra, y no puedes hacer ambas. También lastra al controlador, que ya no puede lanzar más de un hechizo por turno.",
+          "flavor": "Dos maneras de combatirlo, y las dos se excluyen entre sí."
+        },
+        {
+          "title": "Mover la ventana temporal arregló dos problemas sin relación de una vez",
+          "rules": "El disparador comprobaba originalmente al final del turno, y desarrollo encontró dos fallos distintos. Los jugadores podían aguantarse los hechizos, poner el disparador en la pila y luego lanzar instantáneos igualmente. Peor: las criaturas peleaban y luego morían al final del turno al revertir y bajarles la resistencia. Ambos se resolvieron moviendo la comprobación del final del turno del controlador al inicio del siguiente. Un segundo cambio hizo que el disparador de dos hechizos exigiera el mismo jugador, porque si no el controlador temía lanzar nada.",
+          "flavor": "Una línea movida, dos errores fuera."
+        },
+        {
+          "title": "Etiqueta las dos caras para que las cartas lejanas puedan interactuar",
+          "rules": "Al principio el lado humano llevaba solo el tipo humano y el lado monstruo solo el tipo monstruo, lo que producía partidas en las que tenías una carta antimonstruo en la mano esperando a que saliera la cara correcta. Al final pusieron el tipo monstruo en las dos caras, para que las cartas que quieren interactuar con la tribu puedan hacerlo desde zonas donde no ven el reverso. Se hizo que la ficción cargara con la decisión de reglas y no al revés: un hombre lobo siempre lleva algo de lobo dentro, incluso en forma humana.",
+          "flavor": "La carta de tu mano no puede ver el dorso de la carta sobre la mesa."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Là où sont les loups-garous",
+      "dek": "Une tribu conçue depuis le matériau source vers l'extérieur — six propriétés du monstre écrites d'abord, chacune traduite en exigence mécanique, et une mécanique ratée qui a légué sa meilleure pièce.",
+      "overview": "L'exemple travaillé le plus net de la méthode descendante dans l'archive. Il commence par lister six choses qui définissent la créature dans la fiction, puis reparcourt la liste en demandant ce que chacune signifie mécaniquement — produisant, dans l'ordre : une structure de carte, une décision de coût, une contrainte sur qui contrôle le changement, un problème de saveur sans réponse mécanique directe, l'exigence que tous les exemplaires partagent un déclencheur, et une réaffectation de couleurs. Suit la recherche de déclencheurs satisfaisant les six à la fois, la mécanique jour-et-nuit abandonnée qui a fourni la pièce clé, et deux correctifs du développement.",
+      "takeaway": "Il est plus fier de cette mécanique que de tout le reste de l'extension, et elle n'a ni mot-clé ni nom.",
+      "lessons": [
+        {
+          "title": "Écrivez d'abord l'essence, puis traduisez point par point",
+          "rules": "La méthode est explicite et séquentielle. Il a listé six choses qui font la créature : elle a deux états ; la moitié monstre est plus forte que la moitié humaine ; le changement échappe pour l'essentiel à son contrôle ; le déclencheur est la pleine lune ; elles changent toutes ensemble ; et elles ont quelque chose de sauvage. Alors seulement il a repris la liste pour établir ce que chaque point signifiait mécaniquement. Il note l'effet sur le travail : les contraintes engendrent la créativité, et à la fin il avait épelé ce qu'il fallait faire, ne laissant que la question du comment.",
+          "flavor": "Six phrases sur les monstres, puis six phrases sur les cartes."
+        },
+        {
+          "title": "Une asymétrie de la fiction est une décision de coût",
+          "rules": "La règle voulant la moitié monstre plus forte se traduit directement par l'endroit où commence la carte. Les joueurs joueront ces créatures en partant du côté humain, ce qui permet une créature au coût correct devant franchir un obstacle pour s'améliorer — l'obstacle est ce qui paie le côté supérieur. Et la saveur soutient la mécanique au lieu de la contrarier : dans ces récits on rencontre toujours l'humain d'abord, si bien que commencer là est ce que le public attend.",
+          "flavor": "Le côté faible est le prix. Le côté fort est ce que vous achetez."
+        },
+        {
+          "title": "De l'influence sans contrôle",
+          "rules": "Le changement devant échapper au personnage, le catalyseur devait être externe : le joueur ne peut pas simplement choisir quand sa créature se transforme. Mais il ne voulait pas non plus l'exclure : l'objectif affiché était que le contrôleur puisse influencer le changement. Ce couple d'exigences écarte à la fois la capacité activée et le déclencheur purement aléatoire, et force la réponse finale à être quelque chose sur quoi les deux joueurs agissent.",
+          "flavor": "Ce n'est pas votre décision. Cela reste votre problème."
+        },
+        {
+          "title": "Redéduire l'essence peut déplacer les couleurs",
+          "rules": "L'exigence de sauvagerie a tranché la question des couleurs, ces créatures étant guidées par l'instinct et ne se souvenant souvent pas de ce qu'elles ont fait. Cela désignait les deux couleurs portant le mieux cet élément sauvage. Il note ensuite le fait historique qui rend le déplacement visible : les trois versions antérieures de la créature, et quatre des cinq créatures apparentées précédentes, appartenaient à une couleur entièrement différente. Revenir à l'essence a déplacé une tribu dont le foyer mécanique était pourtant établi.",
+          "flavor": "Trois précédents, tous dans une couleur, tous annulés par une ligne au tableau."
+        },
+        {
+          "title": "La mécanique ratée a légué la pièce qui comptait",
+          "rules": "Avant les cartes à transformation, ils ont bâti un compteur jour-et-nuit : une carte double face avec une piste unique, un marqueur avançant dessus, la carte se retournant quand le marqueur atteignait le bout. Elle a coulé pour une liste de raisons — compliquée, bavarde, et obligeant à suivre une chose qui souvent ne comptait pas mais pouvait compter. Ce qui a survécu, c'est son régulateur. Utiliser le lancement de sorts pour gouverner le changement offrait une interactivité organique au jeu et donnait aux deux camps de l'influence sans donner à l'un le contrôle total. Les bonnes idées se bâtissent lentement, en combinant des données glanées un peu partout.",
+          "flavor": "La mécanique est morte. Son moteur est passé dans la suivante."
+        },
+        {
+          "title": "Trois critères pour une chose que vous voulez faire suivre aux joueurs",
+          "rules": "Choisir ce qui ferait avancer le compteur a produit un test général. Il fallait une chose unique, pour rester facile à suivre. Il fallait qu'elle survienne assez souvent, car ce qui sert rarement s'oublie vite. Et il fallait que les deux joueurs puissent la faire, puisque la soustraire au contrôle d'une seule personne suppose que tous l'influencent. Une fois le problème décomposé ainsi, la réponse était presque forcée : suivre le lancement des sorts.",
+          "flavor": "Une seule chose, fréquente, et accessible aux deux. Peu de choses passent les trois."
+        },
+        {
+          "title": "Parfois, créer de la saveur, c'est s'écarter du chemin",
+          "rules": "Lancer des sorts n'a rien à voir avec la lune, et il concède qu'aucune conception ne peut représenter directement le soleil et la lune, sauf par une carte qui serait le soleil et la lune. Sa résolution : on ne peut pas se laisser enfermer par la saveur en conception descendante, car la clé de la saveur n'est pas toujours de taper en plein dans le mille. L'association est si forte que si l'état de jeu transforme les créatures sans suggérer d'autre explication, les joueurs fourniront la lune eux-mêmes. Frappez donc toutes les autres notes et laissez le déclencheur ne rien signifier.",
+          "flavor": "Ne mettez pas la lune sur la carte. Laissez la place où va la lune."
+        },
+        {
+          "title": "Faites des deux déclencheurs un dilemme que l'adversaire ne peut résoudre deux fois",
+          "rules": "Le déclencheur aller consiste à ne lancer aucun sort du tour — chose que le contrôleur peut tenter mais que l'adversaire peut gâcher d'un seul éphémère, et qui pousse l'adversaire à dépenser un sort chaque tour. Le déclencheur retour consiste à lancer deux sorts dans un tour, ce que l'adversaire ne peut pas tenir. Il en résulte un vrai choix : empêcher le changement en lançant un sort chaque tour, ou l'annuler en en lançant deux chaque fois — et l'on ne peut pas faire les deux. Cela handicape aussi le contrôleur, qui ne peut plus lancer plus d'un sort par tour.",
+          "flavor": "Deux façons de le combattre, et les deux s'excluent l'une l'autre."
+        },
+        {
+          "title": "Déplacer la fenêtre temporelle a réglé deux problèmes sans rapport",
+          "rules": "Le déclencheur se vérifiait d'abord en fin de tour, et le développement y a trouvé deux défauts distincts. On pouvait s'abstenir de sorts, mettre le déclencheur sur la pile, puis lancer des éphémères quand même. Pire : des créatures se battaient puis mouraient en fin de tour, en redevenant humaines avec une endurance moindre. Les deux ont été réglés en déplaçant la vérification de la fin du tour du contrôleur au début du suivant. Un second changement a exigé que les deux sorts viennent du même joueur, faute de quoi le contrôleur n'osait rien lancer.",
+          "flavor": "Une ligne déplacée, deux bugs disparus."
+        },
+        {
+          "title": "Étiquetez les deux faces pour que les cartes distantes puissent interagir",
+          "rules": "À l'origine, la face humaine ne portait que le type humain et la face monstre que le type monstre, d'où des parties où l'on gardait en main une carte anti-monstre en attendant la bonne face. Finalement, le type monstre a été mis sur les deux faces, afin que les cartes voulant interagir avec la tribu puissent le faire depuis des zones où le verso est invisible. C'est la fiction qui a porté la décision de règles et non l'inverse : un loup-garou garde toujours du loup en lui, même sous forme humaine.",
+          "flavor": "La carte dans votre main ne voit pas le dos de la carte sur la table."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Onde vivem os lobisomens",
+      "dek": "Uma tribo desenhada do material de origem para fora — seis propriedades do monstro escritas primeiro, cada uma traduzida num requisito mecânico, e uma mecânica fracassada que doou sua melhor peça.",
+      "overview": "O exemplo trabalhado mais claro do método descendente no arquivo. Ele começa listando seis coisas que definem a criatura na ficção, e então repassa a lista perguntando o que cada uma significa mecanicamente — produzindo, em ordem: uma estrutura de carta, uma decisão de custo, uma restrição sobre quem controla a mudança, um problema de sabor sem resposta mecânica direta, a exigência de que todas as cópias compartilhem um gatilho, e uma realocação de cores. O que se segue é a busca por gatilhos que satisfaçam as seis de uma vez, a mecânica de dia e noite abandonada que forneceu a peça-chave, e dois consertos do desenvolvimento.",
+      "takeaway": "Ele tem mais orgulho desta mecânica do que de qualquer outra coisa da coleção, e ela não tem palavra-chave nem nome.",
+      "lessons": [
+        {
+          "title": "Escreva a essência primeiro, e então traduza item por item",
+          "rules": "O método é explícito e sequencial. Ele listou seis coisas que fazem a criatura ser o que é: ela tem dois estados; a metade monstro é mais forte que a metade humana; a mudança está em geral fora do controle dela; o gatilho é a lua cheia; todas mudam juntas; e elas têm algo de selvagem. Só então ele repassou a lista e descobriu o que cada item significava mecanicamente. Ele nota o efeito no trabalho: restrições geram criatividade, e no fim ele tinha soletrado o que precisavam fazer, restando apenas a questão do como.",
+          "flavor": "Seis frases sobre monstros, e então seis frases sobre cartas."
+        },
+        {
+          "title": "Uma assimetria na ficção é uma decisão de custo",
+          "rules": "A regra de que a metade monstro é mais forte se traduz direto em onde a carta começa. Os jogadores vão jogar essas criaturas começando pelo lado humano, o que permite fazer uma criatura de custo decente que precisa pular um obstáculo para melhorar — o obstáculo é o que paga o lado superior. E o sabor apoia a mecânica em vez de brigar com ela: nessas histórias você sempre conhece o humano primeiro, então começar ali é o que o público espera de qualquer jeito.",
+          "flavor": "O lado fraco é o preço. O lado forte é o que você está comprando."
+        },
+        {
+          "title": "Influência sem controle",
+          "rules": "Como a mudança deve estar fora das mãos do personagem, o catalisador tinha de ser externo: o jogador não pode simplesmente escolher quando a criatura se transforma. Mas ele também não queria trancar o jogador de fora: o objetivo declarado era que o controlador pudesse influenciar a mudança. Esse par de requisitos é o que descarta tanto uma habilidade ativada quanto um gatilho puramente aleatório, e é o que força a resposta final a ser algo sobre o qual os dois jogadores agem.",
+          "flavor": "Não é decisão sua. Continua sendo problema seu."
+        },
+        {
+          "title": "Rededuzir a essência pode realocar as cores",
+          "rules": "O requisito de selvageria é o que resolveu a questão da cor, porque essas criaturas são guiadas pelo instinto e muitas vezes não lembram o que fizeram. Isso apontava para as duas cores que melhor carregam o elemento selvagem. Ele então nota o fato histórico que torna o movimento visível: as três versões anteriores da criatura, e quatro das cinco criaturas relacionadas anteriores, estavam numa cor inteiramente diferente. Voltar à essência moveu uma tribo que já tinha um lar mecânico estabelecido.",
+          "flavor": "Três precedentes, todos numa cor, todos anulados por uma linha num quadro branco."
+        },
+        {
+          "title": "A mecânica fracassada doou a peça que importava",
+          "rules": "Antes das cartas de transformação eles construíram um marcador de dia e noite: uma carta de face dupla com uma única trilha, um marcador avançando por ela, e a carta virando quando o marcador chegasse ao fim. Afundou por uma lista de razões — complicada, longa, e exigindo acompanhar algo que muitas vezes não importava mas podia. O que sobreviveu foi o regulador dela. Usar a conjuração de mágicas para governar a mudança permitiu uma interatividade orgânica ao jogo e deu influência aos dois lados sem dar controle total a nenhum. Boas ideias levam tempo para se construir, combinando dados colhidos em muitos lugares.",
+          "flavor": "A mecânica morreu. O motor dela foi para a seguinte."
+        },
+        {
+          "title": "Três critérios para algo que você quer que os jogadores acompanhem",
+          "rules": "Escolher o que faria o marcador avançar produziu um teste geral. Tinha de ser uma coisa só, para continuar fácil de seguir. Tinha de acontecer com frequência razoável, porque o que se usa pouco se esquece fácil. E tinha de ser algo que qualquer um dos dois jogadores pudesse fazer, já que mantê-lo fora do controle de uma pessoa significa deixar todos influenciarem. Uma vez decomposto assim, a resposta era quase forçada: acompanhar a conjuração de mágicas.",
+          "flavor": "Uma coisa, frequente, e disponível aos dois. Pouca coisa passa nos três."
+        },
+        {
+          "title": "Às vezes o jeito de criar sabor é sair da frente",
+          "rules": "Conjurar mágicas não tem nada a ver com a lua, e ele concede que não há como o design representar diretamente o sol e a lua a não ser com uma carta que seja o sol e a lua. A resolução dele é que você não pode se deixar encaixotar pelo sabor num design descendente, porque a chave do sabor nem sempre é acertar na mosca. A associação é forte o bastante para que, se o estado de jogo transforma as criaturas e não insinua nenhuma outra explicação, os jogadores forneçam a lua sozinhos. Então acerte todas as outras notas de sabor e deixe o gatilho não significar nada.",
+          "flavor": "Não ponha a lua na carta. Deixe o espaço onde a lua vai."
+        },
+        {
+          "title": "Faça dos dois gatilhos um dilema que o oponente não resolve duas vezes",
+          "rules": "O gatilho de ida é não conjurar nenhuma mágica no turno — algo que o controlador pode tentar mas que o oponente pode estragar com um único instantâneo, e algo que pressiona o oponente a gastar uma mágica todo turno. O gatilho de volta é conjurar duas mágicas num turno, o que o oponente não consegue sustentar. O resultado é uma escolha real: impedir a mudança conjurando uma mágica por turno, ou revertê-la conjurando duas sempre que acontecer — e não dá para fazer as duas. Também penaliza o controlador, que agora não pode conjurar mais de uma mágica por turno.",
+          "flavor": "Dois jeitos de combatê-lo, e os dois se excluem."
+        },
+        {
+          "title": "Mover a janela de tempo consertou dois problemas sem relação de uma vez",
+          "rules": "O gatilho originalmente checava no fim do turno, e o desenvolvimento achou duas falhas distintas. Jogadores podiam segurar as mágicas, pôr o gatilho na pilha, e então conjurar instantâneos assim mesmo. Pior: criaturas lutavam e então morriam no fim do turno ao reverter e ver a resistência cair. Ambas foram resolvidas movendo a checagem do fim do turno do controlador para o início do seguinte. Uma segunda mudança fez o gatilho de duas mágicas exigir o mesmo jogador, porque senão o controlador temia conjurar qualquer coisa.",
+          "flavor": "Uma linha movida, dois defeitos a menos."
+        },
+        {
+          "title": "Rotule as duas faces para que cartas distantes ainda interajam",
+          "rules": "Originalmente o lado humano carregava só o tipo humano e o lado monstro só o tipo monstro, o que produzia partidas em que você segurava uma carta antimonstro esperando a face certa aparecer. No fim puseram o tipo monstro nas duas faces, para que cartas que queiram interagir com a tribo consigam fazê-lo de zonas onde não veem o verso. A ficção é que foi feita para carregar a decisão de regras, e não o contrário: um lobisomem sempre tem algo de lobo dentro, mesmo em forma humana.",
+          "flavor": "A carta na sua mão não consegue ver o verso da carta na mesa."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "野性之所在",
+      "dek": "一个从源素材向外设计出来的部族——先把这个怪物的六条性质写下来，再把每一条翻译成一项机制要求；以及一个失败的机制，它捐出了自己最好的那个零件。",
+      "overview": "这是整个档案里关于自上而下方法最清晰的一次实地演练。他先列出在虚构作品里定义这个生物的六件事，然后回过头逐条去问「这一条在机制上意味着什么」——依次产出：一种牌张结构、一个定价决定、一条关于「谁掌控这次变化」的约束、一个没有直接机制答案的风味难题、一项「所有同类必须共享同一个触发」的要求，以及一次颜色的重新指派。接下来是寻找能同时满足这六条的触发条件、那个提供了关键零件却被放弃的昼夜机制，以及开发阶段的两处修正。",
+      "takeaway": "在这个系列的所有东西里，他最为之骄傲的正是这个机制——而它既没有关键字，也没有名字。",
+      "lessons": [
+        {
+          "title": "先把本质写下来，然后一条一条地翻译",
+          "rules": "这套方法是明确而有先后的。他列了六件让这个生物成为它自己的事：它有两种状态；怪物那一半强过人类那一半；这次变化基本不由它掌控；触发条件是满月；它们会一起变；以及它们身上有一股野性。只有在这之后，他才回头把这份清单梳一遍，弄清每一条在机制上意味着什么。他指出这对工作的影响：限制催生创意；到最后，他已经把「必须做到什么」拼写了出来，剩下的只是「怎么做」。",
+          "flavor": "关于怪物的六句话，然后是关于牌的六句话。"
+        },
+        {
+          "title": "虚构里的一处不对称，就是一个定价决定",
+          "rules": "「怪物那一半更强」这条规则，直接翻译成「这张牌从哪一边开始」。玩家会从人类那一面开始使用这些生物；这就让你能做出一个费用合理的生物，而它必须跨过一道门槛才能升级——那道门槛，正是为更强那一面付的账。而风味在这里是支撑机制的，不是和它打架：在这类故事里你总是先遇到那个人，所以从那里开始，本来就是观众预期的。",
+          "flavor": "弱的那一面是价钱。强的那一面是你买的东西。"
+        },
+        {
+          "title": "有影响力，但没有掌控权",
+          "rules": "既然这次变化按设定不由角色决定，那么触媒就必须是外部的：玩家不能简单地选择自己的生物什么时候变身。但他也不想把玩家彻底关在外面：明说的目标是，操控者应当能够影响这次变化。正是这一对要求，同时排除了「启动式异能」和「纯随机触发」；也正是它，迫使最终答案必须是某样两位玩家都能作用于其上的东西。",
+          "flavor": "不是你的决定。但仍然是你的问题。"
+        },
+        {
+          "title": "重新推导本质，可能会让颜色搬家",
+          "rules": "「野性」这条要求最终决定了颜色问题，因为这些生物是由本能引导的，而且常常不记得自己做过什么。这指向了最能承载这份野性的那两种颜色。随后他点出那个让这次移动变得显眼的历史事实：这个生物此前的三个版本，以及此前五个相关生物中的四个，都待在一种完全不同的颜色里。回到本质，把一个机制归属早已安定下来的部族挪走了。",
+          "flavor": "三个先例，全在一种颜色里，全被白板上的一行字推翻了。"
+        },
+        {
+          "title": "那个失败的机制，捐出了真正要紧的那个零件",
+          "rules": "在做变身牌之前，他们造过一个昼夜计数器：一张双面牌，上面只有一条轨道，一个指示物沿着它推进；当指示物走到尽头时，这张牌翻面。它沉掉了，理由是一串：复杂、字多，而且要求你去追踪一样「往往不重要、但有可能重要」的东西。活下来的是它的那个调节器。用「施放咒语」来管理这次变化，带来了一种对这个游戏而言有机的互动性，并且给了双方影响力，而没有把完全的掌控交给任何一方。好点子需要很长时间才能搭起来，靠的是把从许多地方收集来的数据拼在一起。",
+          "flavor": "那个机制死了。它的发动机进了下一个。"
+        },
+        {
+          "title": "关于「你想让玩家追踪的东西」的三条标准",
+          "rules": "挑选「什么会让计数器前进」这件事，产出了一条通用检验。它必须是单一的一样东西，这样才始终容易跟得住。它必须发生得足够频繁，因为很少用到的东西太容易被忘掉。而且它必须是两位玩家都能做的事——因为把它排除在某一个人的掌控之外，就意味着让所有人都能影响它。一旦这样拆开，答案几乎就是被逼出来的：去追踪咒语的施放。",
+          "flavor": "单一、频繁、双方都能做。能同时过这三关的东西非常少。"
+        },
+        {
+          "title": "有时候制造风味的办法，是让开",
+          "rules": "施放咒语和月亮毫无关系；而他也承认，除非做一张牌本身就是太阳和月亮，否则设计没有办法直接表现它们。他的处理是：在自上而下的设计里，你不能让风味把自己框死，因为通往风味的钥匙并不总是「一锤子砸在钉子上」。这份联想强到这个地步：如果游戏状态改变了这些生物，而又不暗示任何别的解释，玩家会自己把月亮补上去。所以，把其余每一个风味音符都敲到，然后让这个触发条件什么都不代表。",
+          "flavor": "别把月亮画在牌上。留出月亮该在的那个位置。"
+        },
+        {
+          "title": "把两个触发条件做成一个「对手没法两头兼顾」的两难",
+          "rules": "正向的触发是「这个回合不施放任何咒语」——这是操控者可以去尝试、而对手可以用一个瞬间搅黄的事，同时它也逼着对手每回合都得花掉一个咒语。反向的触发是「在一个回合内施放两个咒语」，而这是对手没法持续做到的。结果是一个真实的选择：要么每回合施放一个咒语来阻止变化，要么每次它变身时施放两个把它变回去——而这两件事你没法同时做。它同样也拖累了操控者，因为他现在每回合不能施放超过一个咒语。",
+          "flavor": "对付它有两条路，而这两条路互相排斥。"
+        },
+        {
+          "title": "把时间窗口挪一挪，一次修好了两个毫不相干的问题",
+          "rules": "这个触发最初是在回合结束时检查的，而开发发现了两处不同的毛病。玩家可以憋着不出咒语，把触发放上堆叠，然后照样施放瞬间。更糟的是：生物打完一架，然后在回合结束时变回去、防御力掉下来，于是死掉。这两处都靠一个改动解决了：把检查从「操控者回合结束时」挪到「下一个回合开始时」。第二处改动是让「两个咒语」这个触发要求同一位玩家施放，否则操控者会害怕施放任何东西。",
+          "flavor": "挪动一行，两处毛病一起没了。"
+        },
+        {
+          "title": "两面都打上标签，好让离得远的牌仍然能互动",
+          "rules": "最初，人类那一面只带人类的类别，怪物那一面只带怪物的类别；结果就是那些对局：你手里攥着一张对付怪物的牌，等着正确的那一面翻上来。最后他们把怪物的类别放到了两面上，好让那些想和这个部族互动的牌，能够从「看不见背面」的区域里做到这件事。这里是让故事去承载规则上的决定，而不是反过来：一头狼人身上总有一部分是狼，哪怕它此刻是人形。",
+          "flavor": "你手里的那张牌，看不见桌上那张牌的背面。"
+        }
+      ]
+    }
+  }
+}
