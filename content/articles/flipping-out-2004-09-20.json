@@ -1,0 +1,320 @@
+{
+  "id": "flipping-out-2004-09-20",
+  "slug": "flipping-out-2004-09-20",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2004-09-20",
+  "series": null,
+  "tags": ["flip-cards", "champions-of-kamigawa", "mechanic-design", "experimental-design-group", "legends"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/flipping-out-2004-09-20",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-26T18:55:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "G" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Flipping Out",
+      "dek": "How the Champions heroes came to be, through a mechanic that was abandoned and a card frame that survived it.",
+      "overview": "The flip cards started as Day/Night, a global two-state mechanic drawn from Japanese mythology's themes of transformation and a parallel spirit world. Two design teams, an experimental group of non-specialists, and eventually a casual remark from Richard Garfield were needed to get from there to the printed heroes.",
+      "takeaway": "The mechanic that generated the flip cards was declared undoable and thrown out. The card frame survived because someone pointed out that it had never been married to the mechanic.",
+      "lessons": [
+        {
+          "title": "Start from the story",
+          "rules": "When a set is built on a specific body of source material, read the material first and let the recurring ideas nominate the mechanics. Where two themes both recur, the instinct is to combine them.",
+          "flavor": "The team went through Japanese mythology — Miyazaki's films, the Onimusha games, Ninja Scroll, Inu Yasha — and two things kept appearing: transformation, and the idea that everything in the mortal world has a parallel spirit elsewhere."
+        },
+        {
+          "title": "Name the nearest existing mechanic to see what you have",
+          "rules": "A new idea is easier to evaluate once you've identified what it most resembles. State the resemblance, then state the differences — those are the parts that are actually new and that will cause the problems.",
+          "flavor": "Day/Night played like threshold: a global change affecting everything. With two differences. The trigger was something other than filling your graveyard, and the change affected all players rather than one."
+        },
+        {
+          "title": "A predictable cycle is worse than no cycle",
+          "rules": "The obvious way to run a two-state system is to alternate automatically. It's hard to track despite being regular, and being knowable in advance removes the tension the two states were supposed to create.",
+          "flavor": "The first idea was that the state just went back and forth, one turn each. Which reminded everyone of the homarid mechanic from Fallen Empires, rotating on the state of the tides. Confusing to track, and too predictable."
+        },
+        {
+          "title": "The change has to come from the cards, not a meta-rule",
+          "rules": "A trigger that lives outside the cards adds a rule meaningless everywhere else in the game. And a trigger too easy to reach forces the payoff down until it's not worth having the mechanic at all.",
+          "flavor": "First trigger tried: discard a land to turn the environment to Night until end of turn. Too easy, so the bonuses had to shrink — and Day/Night wasn't worth doing without a change large enough to evoke the flavour."
+        },
+        {
+          "title": "But requiring the enablers in your deck is its own trap",
+          "rules": "Moving a trigger onto cards fixes the meta-rule problem and creates a deckbuilding tax. If the mechanic only functions when you've drafted the switches, most of the cards carrying it are dead weight.",
+          "flavor": "Next came special lands that triggered Night when played, then spells that did the same, each reverting the following turn. These played better than any previous version — and required players to have the trigger cards in their deck."
+        },
+        {
+          "title": "Staff a group deliberately with non-specialists",
+          "rules": "A team of experts converges on what experts already know. Building a group out of people who don't do the job full time keeps it from being led by the most experienced person in the room, and buys access to places the specialists haven't looked.",
+          "flavor": "Brian Schneider's Experimental Design Group had no single goal and was built from R&D members who weren't full-time designers, specifically so it wouldn't just follow the senior designers. Raw, but pointed somewhere new."
+        },
+        {
+          "title": "Separate the components when one of them is failing",
+          "rules": "Ideas that arrived together get treated as a package. Before discarding the whole thing, check which part is actually broken and whether the good part was ever dependent on it.",
+          "flavor": "After weeks of playtesting, the Experimental Design Group declared Day/Night undoable. Rosewater's contribution was to point out that Day/Night was never married to the flip cards — and the flip cards were the coolest part of the design."
+        },
+        {
+          "title": "Give each colour its own version of the trigger",
+          "rules": "Splitting a shared condition into five colour-specific ones restores the collective feeling for anyone playing one colour, and lets each version be timed and costed differently because they're genuinely different conditions.",
+          "flavor": "Blue flipped when you cast a spell, green when you played a land, red when it dealt damage, black when a creature hit the graveyard. Blue and black could flip on the opponent's turn; blue and green were outside the opponent's control; red could be costed more aggressively."
+        },
+        {
+          "title": "Less is more — so ask what the thing doesn't need to do",
+          "rules": "Added complexity usually makes a card less fun, so the productive question is which capability can be removed entirely. Cutting one direction of a two-way change can eliminate the tracking burden rather than reducing it.",
+          "flavor": "Why did the creatures have to be able to change back and forth? A one-way transformation meant players no longer had to remember which state a creature was in — only whether it had transformed."
+        },
+        {
+          "title": "The last piece often comes from elsewhere in the project",
+          "rules": "A mechanic that works and lacks something can be completed by an unrelated part of the same set. Someone who isn't working on the problem says something in passing, and it turns out to be the missing justification.",
+          "flavor": "Legends were already a block theme. Richard Garfield casually mentioned to Randy the idea of creatures that gain legendary status by achieving some feat. Instantly, Randy realised that explained the one-way transformation and supplied the flavour."
+        }
+      ]
+    },
+    "es": {
+      "title": "Dándole la vuelta",
+      "dek": "Cómo nacieron los héroes de Champions, a través de una mecánica que se abandonó y un marco de carta que le sobrevivió.",
+      "overview": "Las cartas de volteo empezaron como Día/Noche, una mecánica global de dos estados sacada de los temas de transformación y mundo espiritual paralelo de la mitología japonesa. Hicieron falta dos equipos de diseño, un grupo experimental de no especialistas y, al final, un comentario casual de Richard Garfield para llegar de ahí a los héroes impresos.",
+      "takeaway": "La mecánica que generó las cartas de volteo fue declarada imposible y descartada. El marco de carta sobrevivió porque alguien señaló que nunca había estado casado con la mecánica.",
+      "lessons": [
+        {
+          "title": "Empieza por la historia",
+          "rules": "Cuando un set se construye sobre un corpus concreto de material de origen, lee primero el material y deja que las ideas recurrentes propongan las mecánicas. Y donde dos temas se repiten, el instinto es combinarlos.",
+          "flavor": "El equipo recorrió la mitología japonesa —las películas de Miyazaki, los juegos de Onimusha, Ninja Scroll, Inu Yasha— y dos cosas no dejaban de aparecer: la transformación, y la idea de que todo en el mundo mortal tiene un espíritu paralelo en otro sitio."
+        },
+        {
+          "title": "Nombra la mecánica existente más cercana para ver qué tienes",
+          "rules": "Una idea nueva se evalúa mejor una vez que identificas a qué se parece más. Enuncia el parecido y luego las diferencias: esas son las partes realmente nuevas, y las que darán problemas.",
+          "flavor": "Día/Noche jugaba como el umbral: un cambio global que afectaba a todo. Con dos diferencias. El disparador era otra cosa que llenar tu cementerio, y el cambio afectaba a todos los jugadores en vez de a uno."
+        },
+        {
+          "title": "Un ciclo predecible es peor que ningún ciclo",
+          "rules": "La forma obvia de mover un sistema de dos estados es alternarlo automáticamente. Cuesta seguirlo pese a ser regular, y ser previsible elimina la tensión que los dos estados debían crear.",
+          "flavor": "La primera idea fue que el estado simplemente fuera y viniera, un turno cada uno. Lo que le recordó a todos la mecánica de los homáridos de Fallen Empires, rotando según el estado de las mareas. Confusa de seguir y demasiado previsible."
+        },
+        {
+          "title": "El cambio tiene que venir de las cartas, no de una metarregla",
+          "rules": "Un disparador que vive fuera de las cartas añade una regla que no significa nada en el resto del juego. Y un disparador demasiado fácil obliga a rebajar la recompensa hasta que la mecánica ya no merece la pena.",
+          "flavor": "Primer disparador probado: descarta una tierra para volver el entorno Noche hasta el final del turno. Demasiado fácil, así que los bonos tenían que encoger, y Día/Noche no valía la pena sin un cambio lo bastante grande como para evocar el sabor."
+        },
+        {
+          "title": "Pero exigir los habilitadores en tu mazo es otra trampa",
+          "rules": "Pasar el disparador a las cartas arregla lo de la metarregla y crea un impuesto de construcción de mazo. Si la mecánica solo funciona cuando has drafteado los interruptores, la mayoría de las cartas que la llevan son peso muerto.",
+          "flavor": "Luego vinieron tierras especiales que al jugarse activaban la Noche, y después hechizos que hacían lo mismo, revirtiendo al turno siguiente. Jugaban mejor que cualquier versión anterior, y obligaban a llevar las cartas disparadoras en el mazo."
+        },
+        {
+          "title": "Forma un grupo a propósito con no especialistas",
+          "rules": "Un equipo de expertos converge en lo que los expertos ya saben. Montar un grupo con gente que no hace ese trabajo a tiempo completo evita que lo guíe la persona más experimentada de la sala y compra acceso a sitios donde los especialistas no han mirado.",
+          "flavor": "El Grupo de Diseño Experimental de Brian Schneider no tenía una meta única y se formó con miembros de I+D que no eran diseñadores a tiempo completo, precisamente para que no se limitara a seguir a los veteranos. En bruto, pero apuntando a algo nuevo."
+        },
+        {
+          "title": "Separa los componentes cuando uno de ellos falla",
+          "rules": "Las ideas que llegaron juntas se tratan como un paquete. Antes de tirarlo todo, comprueba qué parte está realmente rota y si la parte buena dependía alguna vez de ella.",
+          "flavor": "Tras semanas de pruebas, el Grupo de Diseño Experimental declaró Día/Noche inviable. La aportación de Rosewater fue señalar que Día/Noche nunca había estado casado con las cartas de volteo, y que las cartas de volteo eran lo mejor del diseño."
+        },
+        {
+          "title": "Dale a cada color su propia versión del disparador",
+          "rules": "Partir una condición compartida en cinco específicas por color devuelve la sensación colectiva a quien juega un solo color, y permite calibrar tiempo y coste de cada versión, porque son condiciones genuinamente distintas.",
+          "flavor": "El azul volteaba al lanzar un hechizo, el verde al jugar una tierra, el rojo al hacer daño, el negro cuando una criatura iba al cementerio. Azul y negro podían voltear en el turno del rival; azul y verde quedaban fuera de su control; el rojo podía costearse más agresivamente."
+        },
+        {
+          "title": "Menos es más: pregunta qué no necesita hacer la cosa",
+          "rules": "Añadir complejidad suele hacer una carta menos divertida, así que la pregunta productiva es qué capacidad puede eliminarse del todo. Cortar una dirección de un cambio bidireccional puede suprimir la carga de seguimiento en vez de reducirla.",
+          "flavor": "¿Por qué tenían las criaturas que poder cambiar en ambos sentidos? Una transformación de un solo sentido significaba que los jugadores ya no debían recordar en qué estado estaba una criatura, solo si se había transformado."
+        },
+        {
+          "title": "La última pieza suele venir de otra parte del proyecto",
+          "rules": "Una mecánica que funciona y a la que le falta algo puede completarse desde una zona sin relación del mismo set. Alguien que no está trabajando en el problema comenta algo de pasada, y resulta ser la justificación que faltaba.",
+          "flavor": "Los legendarios ya eran tema del bloque. Richard Garfield le mencionó casualmente a Randy la idea de criaturas que ganan estatus legendario al lograr alguna hazaña. Al instante Randy vio que eso explicaba la transformación de un solo sentido y aportaba el sabor."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Ça part en vrille",
+      "dek": "Comment les héros de Champions sont nés, à travers une mécanique abandonnée et un cadre de carte qui lui a survécu.",
+      "overview": "Les cartes retournables ont commencé sous le nom de Jour/Nuit, une mécanique globale à deux états tirée des thèmes de transformation et de monde spirituel parallèle de la mythologie japonaise. Il a fallu deux équipes de conception, un groupe expérimental de non-spécialistes et, finalement, une remarque en passant de Richard Garfield pour arriver aux héros imprimés.",
+      "takeaway": "La mécanique qui a engendré les cartes retournables fut déclarée infaisable et jetée. Le cadre a survécu parce que quelqu'un a fait remarquer qu'il n'avait jamais été marié à la mécanique.",
+      "lessons": [
+        {
+          "title": "Partez de l'histoire",
+          "rules": "Quand un set est bâti sur un corpus précis, lisez d'abord le corpus et laissez les idées récurrentes désigner les mécaniques. Et là où deux thèmes reviennent tous deux, l'instinct est de les combiner.",
+          "flavor": "L'équipe a parcouru la mythologie japonaise — les films de Miyazaki, les jeux Onimusha, Ninja Scroll, Inu Yasha — et deux choses revenaient sans cesse : la transformation, et l'idée que tout dans le monde mortel possède un esprit parallèle ailleurs."
+        },
+        {
+          "title": "Nommez la mécanique existante la plus proche pour voir ce que vous avez",
+          "rules": "Une idée neuve s'évalue mieux une fois identifié ce à quoi elle ressemble le plus. Énoncez la ressemblance, puis les différences : ce sont elles qui sont réellement nouvelles, et qui poseront problème.",
+          "flavor": "Jour/Nuit se jouait comme le seuil : un changement global touchant tout. À deux différences près. Le déclencheur était autre chose que remplir son cimetière, et le changement affectait tous les joueurs plutôt qu'un seul."
+        },
+        {
+          "title": "Un cycle prévisible vaut moins que pas de cycle",
+          "rules": "La façon évidente de faire tourner un système à deux états est l'alternance automatique. Elle est difficile à suivre malgré sa régularité, et sa prévisibilité supprime la tension que les deux états devaient créer.",
+          "flavor": "La première idée : l'état bascule tout seul, un tour chacun. Ce qui a rappelé à tous la mécanique des homarides de Fallen Empires, tournant selon l'état des marées. Confuse à suivre, et bien trop prévisible."
+        },
+        {
+          "title": "Le changement doit venir des cartes, non d'une méta-règle",
+          "rules": "Un déclencheur qui vit hors des cartes ajoute une règle sans signification ailleurs dans le jeu. Et un déclencheur trop facile force la récompense à rétrécir jusqu'à ce que la mécanique ne vaille plus la peine.",
+          "flavor": "Premier essai : défausser un terrain pour passer l'environnement en Nuit jusqu'à la fin du tour. Trop facile, donc les bonus devaient diminuer — et Jour/Nuit ne valait pas le coup sans un changement assez ample pour évoquer le thème."
+        },
+        {
+          "title": "Mais exiger les déclencheurs dans le deck est un autre piège",
+          "rules": "Déplacer un déclencheur sur des cartes règle le problème de méta-règle et crée une taxe de construction. Si la mécanique ne fonctionne qu'avec les interrupteurs en main, la plupart des cartes qui la portent sont du poids mort.",
+          "flavor": "Vinrent ensuite des terrains spéciaux déclenchant la Nuit à leur pose, puis des sorts faisant de même, avec retour au tour suivant. Cela se jouait mieux que toute version précédente — et obligeait à embarquer les cartes déclencheuses."
+        },
+        {
+          "title": "Composez délibérément un groupe de non-spécialistes",
+          "rules": "Une équipe d'experts converge vers ce que les experts savent déjà. Bâtir un groupe avec des gens qui ne font pas ce métier à plein temps l'empêche d'être mené par le plus expérimenté de la pièce, et achète l'accès à des endroits où les spécialistes n'ont pas regardé.",
+          "flavor": "Le Groupe de Conception Expérimentale de Brian Schneider n'avait pas d'objectif unique et réunissait des membres de la R&D qui n'étaient pas concepteurs à plein temps, précisément pour ne pas se contenter de suivre les anciens. Brut, mais tourné vers du neuf."
+        },
+        {
+          "title": "Séparez les composants quand l'un d'eux échoue",
+          "rules": "Les idées arrivées ensemble sont traitées comme un tout. Avant de tout jeter, vérifiez quelle partie est réellement cassée et si la bonne partie en a jamais dépendu.",
+          "flavor": "Après des semaines de tests, le Groupe Expérimental a déclaré Jour/Nuit infaisable. La contribution de Rosewater fut de rappeler que Jour/Nuit n'avait jamais été marié aux cartes retournables — et que celles-ci étaient le meilleur du design."
+        },
+        {
+          "title": "Donnez à chaque couleur sa propre version du déclencheur",
+          "rules": "Scinder une condition commune en cinq conditions par couleur restitue le sentiment collectif à qui joue une seule couleur, et permet de régler durée et coût de chacune, puisqu'il s'agit de conditions réellement différentes.",
+          "flavor": "Le bleu se retournait au lancement d'un sort, le vert à la pose d'un terrain, le rouge en infligeant des blessures, le noir quand une créature arrivait au cimetière. Bleu et noir pouvaient se retourner au tour adverse ; bleu et vert échappaient au contrôle adverse ; le rouge pouvait être tarifé plus agressivement."
+        },
+        {
+          "title": "Moins, c'est plus : demandez ce que la chose n'a pas besoin de faire",
+          "rules": "Ajouter de la complexité rend souvent une carte moins amusante : la question productive est donc quelle capacité peut être supprimée entièrement. Couper un sens d'un changement bidirectionnel peut éliminer la charge de suivi au lieu de la réduire.",
+          "flavor": "Pourquoi les créatures devaient-elles pouvoir changer dans les deux sens ? Une transformation à sens unique signifiait que les joueurs n'avaient plus à retenir dans quel état se trouvait une créature — seulement si elle s'était transformée."
+        },
+        {
+          "title": "La dernière pièce vient souvent d'ailleurs dans le projet",
+          "rules": "Une mécanique qui fonctionne et à laquelle il manque quelque chose peut être complétée par une zone sans rapport du même set. Quelqu'un qui ne travaille pas sur le problème dit un mot en passant, et c'est la justification manquante.",
+          "flavor": "Les légendes étaient déjà un thème du bloc. Richard Garfield a mentionné en passant à Randy l'idée de créatures acquérant le statut légendaire en accomplissant un exploit. Aussitôt, Randy a vu que cela expliquait la transformation à sens unique et fournissait le thème."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Virando a mesa",
+      "dek": "Como os heróis de Champions surgiram, através de uma mecânica abandonada e de uma moldura de carta que sobreviveu a ela.",
+      "overview": "As cartas viradas começaram como Dia/Noite, uma mecânica global de dois estados tirada dos temas de transformação e mundo espiritual paralelo da mitologia japonesa. Foram necessárias duas equipes de design, um grupo experimental de não especialistas e, por fim, um comentário casual de Richard Garfield para chegar dali aos heróis impressos.",
+      "takeaway": "A mecânica que gerou as cartas viradas foi declarada inviável e descartada. A moldura sobreviveu porque alguém apontou que ela nunca esteve casada com a mecânica.",
+      "lessons": [
+        {
+          "title": "Comece pela história",
+          "rules": "Quando uma coleção é construída sobre um corpo específico de material de origem, leia o material primeiro e deixe as ideias recorrentes indicarem as mecânicas. E onde dois temas se repetem, o instinto é combiná-los.",
+          "flavor": "A equipe percorreu a mitologia japonesa — os filmes de Miyazaki, os jogos Onimusha, Ninja Scroll, Inu Yasha — e duas coisas apareciam sempre: transformação, e a ideia de que tudo no mundo mortal tem um espírito paralelo em outro lugar."
+        },
+        {
+          "title": "Nomeie a mecânica existente mais próxima para ver o que você tem",
+          "rules": "Uma ideia nova fica mais fácil de avaliar depois que você identifica com o que ela mais se parece. Enuncie a semelhança e depois as diferenças: são elas o que de fato é novo, e o que vai dar problema.",
+          "flavor": "Dia/Noite jogava como o limiar: uma mudança global afetando tudo. Com duas diferenças. O gatilho era outra coisa que não encher o cemitério, e a mudança afetava todos os jogadores em vez de um."
+        },
+        {
+          "title": "Um ciclo previsível é pior que nenhum ciclo",
+          "rules": "O jeito óbvio de rodar um sistema de dois estados é alternar automaticamente. É difícil de acompanhar apesar de regular, e ser previsível remove a tensão que os dois estados deveriam criar.",
+          "flavor": "A primeira ideia foi o estado simplesmente ir e voltar, um turno cada. O que lembrou a todos a mecânica dos homarídeos de Fallen Empires, girando conforme o estado das marés. Confusa de acompanhar, e previsível demais."
+        },
+        {
+          "title": "A mudança tem de vir das cartas, não de uma metarregra",
+          "rules": "Um gatilho que vive fora das cartas acrescenta uma regra sem significado em todo o resto do jogo. E um gatilho fácil demais força a recompensa a encolher até a mecânica não valer mais a pena.",
+          "flavor": "Primeiro gatilho testado: descarte um terreno para virar o ambiente em Noite até o fim do turno. Fácil demais, então os bônus tinham de encolher — e Dia/Noite não valia a pena sem uma mudança grande o bastante para evocar o sabor."
+        },
+        {
+          "title": "Mas exigir os habilitadores no baralho é outra armadilha",
+          "rules": "Mover o gatilho para as cartas resolve o problema da metarregra e cria um imposto de construção. Se a mecânica só funciona quando você draftou os interruptores, a maioria das cartas que a carregam é peso morto.",
+          "flavor": "Vieram então terrenos especiais que disparavam a Noite ao serem jogados, e depois mágicas que faziam o mesmo, revertendo no turno seguinte. Jogavam melhor que qualquer versão anterior — e exigiam ter as cartas-gatilho no baralho."
+        },
+        {
+          "title": "Monte de propósito um grupo de não especialistas",
+          "rules": "Uma equipe de especialistas converge para o que os especialistas já sabem. Formar um grupo com gente que não faz aquilo em tempo integral impede que ele seja conduzido pela pessoa mais experiente da sala, e compra acesso a lugares onde os especialistas não olharam.",
+          "flavor": "O Grupo de Design Experimental de Brian Schneider não tinha meta única e foi montado com membros da P&D que não eram designers em tempo integral, justamente para não apenas seguir os veteranos. Cru, mas apontado para algo novo."
+        },
+        {
+          "title": "Separe os componentes quando um deles está falhando",
+          "rules": "Ideias que chegaram juntas são tratadas como pacote. Antes de descartar tudo, verifique qual parte está de fato quebrada e se a parte boa alguma vez dependeu dela.",
+          "flavor": "Depois de semanas de testes, o Grupo Experimental declarou Dia/Noite inviável. A contribuição de Rosewater foi apontar que Dia/Noite nunca esteve casado com as cartas viradas — e que as cartas viradas eram a melhor parte do design."
+        },
+        {
+          "title": "Dê a cada cor sua própria versão do gatilho",
+          "rules": "Dividir uma condição compartilhada em cinco específicas por cor devolve a sensação coletiva a quem joga uma cor só, e permite calibrar tempo e custo de cada versão, porque são condições genuinamente diferentes.",
+          "flavor": "O azul virava ao conjurar uma mágica, o verde ao jogar um terreno, o vermelho ao causar dano, o preto quando uma criatura ia ao cemitério. Azul e preto podiam virar no turno do oponente; azul e verde ficavam fora do controle dele; o vermelho podia ser precificado de forma mais agressiva."
+        },
+        {
+          "title": "Menos é mais: pergunte o que a coisa não precisa fazer",
+          "rules": "Acrescentar complexidade costuma tornar uma carta menos divertida, então a pergunta produtiva é qual capacidade pode ser removida por inteiro. Cortar uma direção de uma mudança bidirecional pode eliminar a carga de acompanhamento em vez de reduzi-la.",
+          "flavor": "Por que as criaturas precisavam poder mudar nos dois sentidos? Uma transformação de mão única significava que os jogadores não precisavam mais lembrar em que estado uma criatura estava — apenas se ela havia se transformado."
+        },
+        {
+          "title": "A última peça costuma vir de outro canto do projeto",
+          "rules": "Uma mecânica que funciona e à qual falta algo pode ser completada por uma área sem relação da mesma coleção. Alguém que não está no problema comenta algo de passagem, e aquilo é a justificativa que faltava.",
+          "flavor": "Lendários já eram tema do bloco. Richard Garfield mencionou casualmente a Randy a ideia de criaturas que ganham status lendário ao realizar algum feito. Na hora Randy viu que aquilo explicava a transformação de mão única e fornecia o sabor."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "翻脸",
+      "dek": "《神河》里的「英雄」是怎么来的——经由一个被放弃的机制，以及一个比它活得更久的牌框。",
+      "overview": "翻面牌最初叫「昼／夜」，是一个全局的双状态机制，取自日本神话中反复出现的两个主题：变形，以及与人间平行的灵界。从那里走到最终印出来的英雄牌，动用了两个设计组、一个由非专职人员组成的实验小组，以及最后理查德·加菲尔德随口说的一句话。",
+      "takeaway": "那个催生出翻面牌的机制被判定为做不出来，然后被丢掉了。而牌框之所以活了下来，是因为有人指出：它从来就没有和那个机制绑在一起过。",
+      "lessons": [
+        {
+          "title": "从故事开始",
+          "rules": "当一个系列建立在某一批具体的素材之上时，先去读素材，让那些反复出现的念头来提名机制。而当两个主题都反复出现时，本能的做法是把它们合起来。",
+          "flavor": "团队把日本神话过了一遍——宫崎骏的电影、《鬼武者》系列、《兽兵卫忍风帖》、《犬夜叉》——而有两样东西不断冒出来：变形，以及「人间的每一样东西在别处都有一个平行的灵」这个观念。"
+        },
+        {
+          "title": "把最接近的现成机制点出名字，好看清你手上有什么",
+          "rules": "一个新点子，在你认出「它最像什么」之后就好评估多了。先说清那份相似，再说清那些差别——差别之处才是真正新的东西，也是将会出问题的地方。",
+          "flavor": "昼／夜打起来像「门槛」：一个影响一切的全局变化。只有两点不同。触发条件不是把牌填进自己的坟场，而这个变化影响的是所有玩家，而不是某一个人。"
+        },
+        {
+          "title": "一个可预测的循环，比没有循环更糟",
+          "rules": "驱动一个双状态系统最显而易见的办法，是让它自动交替。尽管它很规律，却难以追踪；而「事先就知道」，恰好抹掉了这两个状态本该制造出来的那份张力。",
+          "flavor": "最早的想法是让状态自己来回切换，一回合一换。而这让所有人想起了《堕落帝国》里那套随「潮汐状态」轮转的甲壳虾机制。既难追踪，又太好预测。"
+        },
+        {
+          "title": "变化必须来自牌本身，而不是来自一条元规则",
+          "rules": "一个活在牌之外的触发条件，会给游戏添上一条在别处毫无意义的规则。而一个太容易达成的触发条件，会逼着回报一路缩水，直到这个机制根本不值得存在。",
+          "flavor": "第一个试过的触发条件：弃掉一张地，把环境转为「夜」直到回合结束。太容易了，于是加成必须缩小——可如果那个变化大不到足以唤起风味，昼／夜就不值得做。"
+        },
+        {
+          "title": "但「必须在牌组里带着触发牌」是另一个陷阱",
+          "rules": "把触发条件挪到牌上，解决了元规则的问题，却造出了一笔构组税。如果这个机制只有在你抓到那些开关时才运转，那么承载它的大多数牌就都是死重。",
+          "flavor": "接下来是「打出时触发夜晚」的特殊地，然后是同样效果的咒语，都在下个回合恢复。它们比此前任何版本都好打——而代价是玩家必须在牌组里带着那些触发牌。"
+        },
+        {
+          "title": "有意组建一个由非专业人士构成的小组",
+          "rules": "一支由专家组成的团队，会收敛到专家们已经知道的东西上。用那些不以此为专职的人来组队，可以避免整个组被屋里最有经验的那个人牵着走，也买到了通往「专家没看过的地方」的入口。",
+          "flavor": "布莱恩·施奈德的「实验设计组」没有单一目标，成员是研发部里那些并非专职设计师的人——正是为了不让它变成跟着资深设计师走。粗糙，但指向新的地方。"
+        },
+        {
+          "title": "当其中一个部件不成立时，把这些部件拆开",
+          "rules": "一起到来的点子，往往被当成一个整包来处理。在把整个东西扔掉之前，先查清楚究竟是哪一部分坏了，以及那个好的部分是否真的依赖过它。",
+          "flavor": "经过好几周的试玩，实验设计组判定昼／夜做不出来。而罗斯瓦特的贡献，是指出昼／夜从来就没有和翻面牌绑定在一起——而翻面牌才是这个设计里最酷的部分。"
+        },
+        {
+          "title": "给每种颜色一个属于它自己的触发条件",
+          "rules": "把一个共享的条件拆成五个按颜色区分的条件，会把那份「集体感」还给打单色牌组的人；同时也让每个版本可以有不同的时机和定价，因为它们本就是真正不同的条件。",
+          "flavor": "蓝色在你施放咒语时翻面，绿色在你打出地时翻面，红色在造成伤害时翻面，黑色在有生物进坟场时翻面。蓝和黑可以在对手回合翻；蓝和绿是对手管不着的；而红可以定价得更激进。"
+        },
+        {
+          "title": "少即是多——所以要问：这东西有哪件事是它不必做的",
+          "rules": "增加复杂度通常会让一张牌变得更不好玩，所以真正有产出的那个问题是：哪一项能力可以被整个拿掉。把一个双向变化砍掉一个方向，能够消除那份追踪负担，而不只是减轻它。",
+          "flavor": "这些生物为什么必须能来回变？单向的变形意味着玩家不再需要记住某只生物此刻处在哪个状态——只需要记住它有没有变过。"
+        },
+        {
+          "title": "最后一块拼图，常常来自这个项目的别处",
+          "rules": "一个已经跑得通、却还缺点什么的机制，可能由同一个系列里毫不相干的另一部分来补全。某个根本没在处理这个问题的人随口说了句话，而那正好就是缺失的那份理由。",
+          "flavor": "传奇本来就已经是这个环境的主题之一。理查德·加菲尔德随口对兰迪提到一个念头：生物可以通过完成某项功绩而获得传奇身份。兰迪当场意识到，这既解释了单向变形，也补上了那份风味。"
+        }
+      ]
+    }
+  }
+}
