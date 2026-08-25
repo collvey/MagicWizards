@@ -1,0 +1,320 @@
+{
+  "id": "counter-intelligence-2005-03-28",
+  "slug": "counter-intelligence-2005-03-28",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2005-03-28",
+  "series": null,
+  "tags": ["counterspells", "card-design", "costing", "naming", "flavor-text"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/counter-intelligence-2005-03-28",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-26T10:35:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Counter Intelligence",
+      "dek": "One counterspell built end to end — mechanic, cost, name and flavour text — with the reasoning shown at each step.",
+      "overview": "Control Week, and the counterspell gets taken apart. First a taxonomy of every kind that exists, then a walk through designing a new one, including the two costing rules that have governed the category for twelve years. (The block codenames Control / Alt / Delete had already taught R&D not to use game terms — too many conversations where nobody was discussing the same control deck.)",
+      "takeaway": "In a heavily mined space the design work is mostly cartography. Find the unvisited square, then cost it so that the squares next to it are still available.",
+      "lessons": [
+        {
+          "title": "Map the existing space before adding to it",
+          "rules": "In a well-worked category, the useful first move is a taxonomy rather than an idea. Sorting what already exists shows you the shape of the region and, by omission, where nothing has been put.",
+          "flavor": "Five kinds. Hard counters that always work. Subset counters that hit only some spells. \"Give 'em an out\" counters where the opponent can pay. Hard-to-use counters with conditions. And counters that only delay."
+        },
+        {
+          "title": "Each category carries its own open question",
+          "rules": "A taxonomy isn't just a filing system; each bucket implies the search that would extend it. Knowing which question a category asks tells you what a new card in it has to supply.",
+          "flavor": "Group B wants interesting subsets nobody has touched. C wants new ways to make the opponent pay. D wants new costs beyond mana. E — new ways to not quite counter something — is by far the hardest to design for."
+        },
+        {
+          "title": "Sometimes the gap is embarrassingly simple",
+          "rules": "Exhaustive-looking spaces still have obvious holes, and they survive precisely because everyone assumes the obvious things are taken. Cataloguing is how you find them.",
+          "flavor": "He found this one while assembling the article: a simple idea that had never been done. Counter target green spell."
+        },
+        {
+          "title": "Design usually doesn't cost cards — except where the space is mined out",
+          "rules": "Costing belongs to development, with one exception: when a category is crowded, the designer has to check whether the card can exist at any price at all without being strictly better or worse than something already printed.",
+          "flavor": "There are so many counterspells that a designer can look across all of them and see whether a new one fits anywhere on the mana curve. If it doesn't, the design is finished before development ever sees it."
+        },
+        {
+          "title": "A near-universal rule, plus its two exceptions",
+          "rules": "Some constraints are so consistent they function as identity. When one has held across a whole category for years, the exceptions are worth knowing by name — and the reason behind the rule is usually about who gets to do the thing.",
+          "flavor": "Every hard counter in the game's history has double blue in its cost, save Arcane Denial and Vex. If you can definitively counter anything, R&D believes you ought to be playing a significant amount of blue."
+        },
+        {
+          "title": "One card can anchor pricing long after it leaves the format",
+          "rules": "A reference point doesn't need to be legal to be load-bearing. Everything in the category gets priced relative to it, so the whole structure keeps its shape even when the anchor is out of print.",
+          "flavor": "Counterspell isn't in Standard and still has weight around R&D. Worse than Counterspell means it costs less than two blue. Better means it costs more. Which is why most counterspells end up costing about themselves."
+        },
+        {
+          "title": "Cost it so the neighbouring cards are still possible",
+          "rules": "The deciding factor between two defensible prices is often neither balance nor precedent, but what each one forecloses. Pick the price that leaves the obvious next card still makeable.",
+          "flavor": "Annul argues for one mana; Gainsay argues for two. What settles it is that R&D will someday want \"counter target red or green spell\" — blue's two enemies. Two mana kills that card; one mana leaves room for it."
+        },
+        {
+          "title": "The environment can overrule the general price",
+          "rules": "A card's worth isn't fixed across worlds. Where its narrow condition is unusually common, the same effect earns a better rate, and the general guideline yields to the set it's in.",
+          "flavor": "In Mirrodin design, an Annul variant that countered only artifacts cost the same as the broader card — because in that block, countering artifacts was far more relevant than normal."
+        },
+        {
+          "title": "Instant names want to be verbs",
+          "rules": "A name for an instant should describe an action; if it's a noun, make it a metaphor. Then narrow with a thesaurus and strike everything that doesn't carry the sense the card needs.",
+          "flavor": "Blue hosing green is the nature/nurture conflict. Synonyms for nurture, minus everything without a sense of prevention, leaves discipline, instruct, educate. Discipline sounds black. Instruct implies change. Educate."
+        },
+        {
+          "title": "Counterspell flavour text wants to be confrontational",
+          "rules": "The tone of the text follows the feel of the effect. A card whose whole function is telling someone no reads better with something in-your-face than with something merely true.",
+          "flavor": "Five attempts, most of them observations about education. The winner is the one that's punchier and funnier: \"He thought he knew his place. I taught him otherwise.\""
+        }
+      ]
+    },
+    "es": {
+      "title": "Contrainteligencia",
+      "dek": "Un contrahechizo construido de principio a fin —mecánica, coste, nombre y texto de ambientación— con el razonamiento a la vista en cada paso.",
+      "overview": "Semana del Control, y el contrahechizo se desmonta. Primero una taxonomía de todos los tipos que existen, luego un recorrido por el diseño de uno nuevo, incluidas las dos reglas de coste que han gobernado la categoría durante doce años. (Los códigos de bloque Control / Alt / Delete ya habían enseñado a I+D a no usar términos del juego: demasiadas conversaciones en las que nadie hablaba del mismo mazo de control.)",
+      "takeaway": "En un espacio muy explotado, el trabajo de diseño es sobre todo cartografía. Encuentra la casilla no visitada y luego ponle precio de modo que las casillas contiguas sigan disponibles.",
+      "lessons": [
+        {
+          "title": "Cartografía el espacio existente antes de añadirle nada",
+          "rules": "En una categoría muy trabajada, el primer movimiento útil es una taxonomía, no una idea. Ordenar lo que ya existe te muestra la forma de la región y, por omisión, dónde no se ha puesto nada.",
+          "flavor": "Cinco tipos. Contras duros que siempre funcionan. Contras de subconjunto que solo tocan algunos hechizos. Contras «dales una salida» donde el rival puede pagar. Contras difíciles de usar, con condiciones. Y contras que solo retrasan."
+        },
+        {
+          "title": "Cada categoría lleva dentro su propia pregunta abierta",
+          "rules": "Una taxonomía no es solo un archivador: cada cajón implica la búsqueda que lo ampliaría. Saber qué pregunta hace una categoría te dice qué tiene que aportar una carta nueva en ella.",
+          "flavor": "El grupo B quiere subconjuntos interesantes que nadie haya tocado. El C, nuevas formas de hacer pagar al rival. El D, costes nuevos más allá del maná. Y el E —nuevas formas de casi contrarrestar algo— es con diferencia el más difícil."
+        },
+        {
+          "title": "A veces el hueco es vergonzosamente simple",
+          "rules": "Los espacios que parecen agotados siguen teniendo agujeros obvios, y sobreviven justamente porque todos dan por hecho que lo obvio ya está cogido. Catalogar es como se encuentran.",
+          "flavor": "Este lo encontró montando el artículo: una idea sencilla que nunca se había hecho. Contrarresta el hechizo verde objetivo."
+        },
+        {
+          "title": "Diseño no suele costear cartas, salvo donde el espacio está agotado",
+          "rules": "El coste es cosa de desarrollo, con una excepción: cuando una categoría está abarrotada, el diseñador tiene que comprobar si la carta puede existir a algún precio sin ser estrictamente mejor o peor que algo ya impreso.",
+          "flavor": "Hay tantos contrahechizos que un diseñador puede mirarlos todos y ver si el nuevo encaja en algún punto de la curva de maná. Si no encaja, el diseño muere antes de que desarrollo lo vea."
+        },
+        {
+          "title": "Una regla casi universal, con sus dos excepciones",
+          "rules": "Algunas restricciones son tan constantes que funcionan como identidad. Cuando una se ha sostenido en toda una categoría durante años, conviene saberse las excepciones por su nombre; y la razón de la regla suele ser quién tiene derecho a hacer eso.",
+          "flavor": "Todo contra duro en la historia del juego lleva doble azul en su coste, salvo Arcane Denial y Vex. Si puedes contrarrestar cualquier cosa de forma definitiva, I+D cree que deberías estar jugando una cantidad seria de azul."
+        },
+        {
+          "title": "Una sola carta puede anclar los precios mucho después de irse del formato",
+          "rules": "Un punto de referencia no necesita ser legal para sostener la estructura. Todo lo de la categoría se valora respecto a él, así que el conjunto conserva su forma aunque el ancla esté descatalogada.",
+          "flavor": "Counterspell no está en Estándar y sigue pesando en I+D. Peor que Counterspell significa costar menos de dos azules. Mejor significa costar más. Por eso casi todos los contrahechizos acaban costándose a sí mismos."
+        },
+        {
+          "title": "Ponle un precio que deje posibles las cartas vecinas",
+          "rules": "Lo que decide entre dos precios defendibles no suele ser el equilibrio ni el precedente, sino qué cierra cada uno. Elige el que deje aún fabricable la carta siguiente evidente.",
+          "flavor": "Annul defiende un maná; Gainsay defiende dos. Lo zanja que algún día I+D querrá «contrarresta el hechizo rojo o verde objetivo», los dos enemigos del azul. Dos manás mata esa carta; uno le deja sitio."
+        },
+        {
+          "title": "El entorno puede anular el precio general",
+          "rules": "El valor de una carta no es fijo entre mundos. Donde su condición estrecha es inusualmente común, el mismo efecto merece mejor tarifa, y la pauta general cede ante el set en el que está.",
+          "flavor": "En el diseño de Mirrodin, una variante de Annul que solo contrarrestaba artefactos costaba lo mismo que la carta más amplia, porque en aquel bloque contrarrestar artefactos era mucho más relevante de lo normal."
+        },
+        {
+          "title": "Los nombres de instantáneo quieren ser verbos",
+          "rules": "El nombre de un instantáneo debería describir una acción; si es un sustantivo, que sea una metáfora. Luego acota con un diccionario de sinónimos y tacha todo lo que no lleve el sentido que la carta necesita.",
+          "flavor": "Azul fastidiando a verde es el conflicto naturaleza/crianza. Los sinónimos de «criar», menos todo lo que no suene a impedir, dejan disciplinar, instruir, educar. Disciplinar suena a negro. Instruir implica cambio. Educar."
+        },
+        {
+          "title": "El texto de ambientación de un contrahechizo quiere ser confrontativo",
+          "rules": "El tono del texto sigue la sensación del efecto. Una carta cuya función entera es decirle que no a alguien queda mejor con algo desafiante que con algo meramente cierto.",
+          "flavor": "Cinco intentos, casi todos observaciones sobre la educación. Gana el más contundente y más gracioso: «Creía que sabía cuál era su sitio. Yo le enseñé otra cosa»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Contre-espionnage",
+      "dek": "Un contresort construit de bout en bout — mécanique, coût, nom et texte d'ambiance — avec le raisonnement montré à chaque étape.",
+      "overview": "Semaine du Contrôle, et le contresort passe au démontage. D'abord une taxinomie de tous ceux qui existent, puis la conception d'un nouveau, y compris les deux règles de coût qui gouvernent la catégorie depuis douze ans. (Les noms de code Control / Alt / Delete avaient déjà appris à la R&D à éviter les termes du jeu : trop de conversations où personne ne parlait du même deck de contrôle.)",
+      "takeaway": "Dans un espace très exploité, le travail de conception est surtout de la cartographie. Trouvez la case inexplorée, puis fixez son prix pour que les cases voisines restent disponibles.",
+      "lessons": [
+        {
+          "title": "Cartographiez l'espace existant avant d'y ajouter quoi que ce soit",
+          "rules": "Dans une catégorie bien travaillée, le premier geste utile est une taxinomie, pas une idée. Ranger l'existant vous montre la forme de la région et, par omission, là où rien n'a été posé.",
+          "flavor": "Cinq sortes. Les contres durs, qui marchent toujours. Les contres de sous-ensemble, qui ne touchent que certains sorts. Les contres « laissez-leur une issue », où l'adversaire peut payer. Les contres difficiles à employer, sous condition. Et ceux qui ne font que retarder."
+        },
+        {
+          "title": "Chaque catégorie porte sa propre question ouverte",
+          "rules": "Une taxinomie n'est pas qu'un classeur : chaque case implique la recherche qui l'étendrait. Savoir quelle question pose une catégorie vous dit ce qu'une carte neuve doit y apporter.",
+          "flavor": "Le groupe B veut des sous-ensembles intéressants encore vierges. Le C, de nouvelles façons de faire payer l'adversaire. Le D, des coûts autres que le mana. Et le E — de nouvelles façons de ne pas tout à fait contrer — est de loin le plus dur."
+        },
+        {
+          "title": "Parfois la lacune est d'une simplicité gênante",
+          "rules": "Les espaces qui semblent épuisés gardent des trous évidents, et ceux-ci survivent précisément parce que chacun suppose l'évidence déjà prise. C'est le catalogage qui les révèle.",
+          "flavor": "Il a trouvé celui-ci en préparant l'article : une idée simple qui n'avait jamais été faite. Contrecarrez le sort vert ciblé."
+        },
+        {
+          "title": "La conception ne chiffre pas les cartes — sauf là où l'espace est épuisé",
+          "rules": "Le coût relève du développement, à une exception près : quand une catégorie est encombrée, le concepteur doit vérifier que la carte peut exister à un prix quelconque sans être strictement meilleure ou pire qu'une déjà imprimée.",
+          "flavor": "Les contresorts sont si nombreux qu'un concepteur peut tous les embrasser du regard et voir si le nouveau trouve une place sur la courbe de mana. Sinon, le design meurt avant que le développement le voie."
+        },
+        {
+          "title": "Une règle quasi universelle, et ses deux exceptions",
+          "rules": "Certaines contraintes sont si constantes qu'elles font office d'identité. Quand l'une tient sur toute une catégorie depuis des années, mieux vaut connaître les exceptions par leur nom — et la raison de la règle tient d'ordinaire à qui a le droit de faire la chose.",
+          "flavor": "Tout contre dur de l'histoire du jeu porte du bleu double dans son coût, sauf Arcane Denial et Vex. Si vous pouvez contrer définitivement n'importe quoi, la R&D estime que vous devriez jouer une part sérieuse de bleu."
+        },
+        {
+          "title": "Une seule carte peut ancrer les prix longtemps après avoir quitté le format",
+          "rules": "Un point de repère n'a pas besoin d'être légal pour être porteur. Tout se chiffre par rapport à lui, et l'ensemble garde sa forme même quand l'ancre n'est plus imprimée.",
+          "flavor": "Counterspell n'est pas en Standard et pèse encore à la R&D. Moins bien que Counterspell : moins de deux bleus. Mieux : davantage. D'où le fait que la plupart des contresorts finissent par coûter à peu près eux-mêmes."
+        },
+        {
+          "title": "Chiffrez-la de sorte que les cartes voisines restent possibles",
+          "rules": "Ce qui tranche entre deux prix défendables n'est souvent ni l'équilibre ni le précédent, mais ce que chacun ferme. Choisissez celui qui laisse encore réalisable la carte suivante évidente.",
+          "flavor": "Annul plaide pour un mana ; Gainsay pour deux. Ce qui tranche : la R&D voudra un jour « contrecarrez le sort rouge ou vert ciblé », les deux ennemis du bleu. Deux manas tuent cette carte ; un mana lui laisse la place."
+        },
+        {
+          "title": "L'environnement peut casser le prix général",
+          "rules": "La valeur d'une carte n'est pas fixe d'un monde à l'autre. Là où sa condition étroite est exceptionnellement fréquente, le même effet mérite un meilleur tarif, et la règle générale s'incline devant le set.",
+          "flavor": "En conception de Mirrodin, une variante d'Annul ne contrant que les artefacts coûtait autant que la carte plus large — parce que dans ce bloc, contrer des artefacts était bien plus pertinent que d'habitude."
+        },
+        {
+          "title": "Les noms d'éphémère veulent être des verbes",
+          "rules": "Le nom d'un éphémère devrait décrire une action ; si c'est un nom commun, faites-en une métaphore. Puis resserrez au dictionnaire des synonymes et rayez tout ce qui ne porte pas le sens voulu.",
+          "flavor": "Le bleu bridant le vert, c'est l'inné contre l'acquis. Les synonymes de « cultiver », moins tout ce qui n'évoque pas l'empêchement, laissent discipliner, instruire, éduquer. Discipliner sonne noir. Instruire suppose un changement. Éduquer."
+        },
+        {
+          "title": "Le texte d'ambiance d'un contresort veut de la confrontation",
+          "rules": "Le ton du texte suit la sensation de l'effet. Une carte dont toute la fonction est de dire non à quelqu'un passe mieux avec une pique qu'avec une vérité générale.",
+          "flavor": "Cinq essais, presque tous des observations sur l'éducation. Le gagnant est le plus percutant et le plus drôle : « Il croyait connaître sa place. Je lui ai appris le contraire. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Contrainteligência",
+      "dek": "Uma mágica de anulação construída de ponta a ponta — mecânica, custo, nome e texto de ambientação — com o raciocínio à mostra em cada etapa.",
+      "overview": "Semana do Controle, e a mágica de anulação é desmontada. Primeiro uma taxonomia de todos os tipos existentes, depois um passeio pelo design de uma nova, incluindo as duas regras de custo que governam a categoria há doze anos. (Os codinomes de bloco Control / Alt / Delete já haviam ensinado a P&D a não usar termos do jogo: conversas demais em que ninguém falava do mesmo baralho de controle.)",
+      "takeaway": "Num espaço muito explorado, o trabalho de design é sobretudo cartografia. Ache a casa não visitada e então precifique-a de modo que as casas vizinhas continuem disponíveis.",
+      "lessons": [
+        {
+          "title": "Mapeie o espaço existente antes de acrescentar algo",
+          "rules": "Numa categoria bem trabalhada, o primeiro movimento útil é uma taxonomia, não uma ideia. Organizar o que já existe mostra o formato da região e, por omissão, onde nada foi posto.",
+          "flavor": "Cinco tipos. Anulações duras, que sempre funcionam. Anulações de subconjunto, que pegam só algumas mágicas. Anulações «dê uma saída», em que o oponente pode pagar. Anulações difíceis de usar, com condições. E as que só adiam."
+        },
+        {
+          "title": "Cada categoria carrega sua própria pergunta aberta",
+          "rules": "Uma taxonomia não é só um arquivo: cada gaveta implica a busca que a estenderia. Saber que pergunta uma categoria faz diz o que uma carta nova precisa fornecer nela.",
+          "flavor": "O grupo B quer subconjuntos interessantes que ninguém tocou. O C, novas formas de fazer o oponente pagar. O D, custos novos além de mana. E o E — novas formas de quase anular algo — é de longe o mais difícil."
+        },
+        {
+          "title": "Às vezes a lacuna é constrangedoramente simples",
+          "rules": "Espaços que parecem esgotados ainda têm buracos óbvios, e eles sobrevivem justamente porque todos supõem que o óbvio já foi tomado. Catalogar é como se acham.",
+          "flavor": "Ele achou este montando o artigo: uma ideia simples que nunca fora feita. Anule a mágica verde alvo."
+        },
+        {
+          "title": "O design não costuma precificar cartas — exceto onde o espaço está esgotado",
+          "rules": "Custo é assunto do desenvolvimento, com uma exceção: quando a categoria está lotada, o designer precisa checar se a carta pode existir a qualquer preço sem ser estritamente melhor ou pior do que algo já impresso.",
+          "flavor": "Há tantas anulações que um designer consegue olhar todas e ver se a nova encaixa em algum ponto da curva de mana. Se não encaixa, o design morre antes de o desenvolvimento vê-lo."
+        },
+        {
+          "title": "Uma regra quase universal, mais suas duas exceções",
+          "rules": "Algumas restrições são tão constantes que funcionam como identidade. Quando uma se sustenta numa categoria inteira por anos, vale saber as exceções pelo nome — e a razão da regra costuma ser sobre quem tem direito de fazer aquilo.",
+          "flavor": "Toda anulação dura da história do jogo tem azul duplo no custo, exceto Arcane Denial e Vex. Se você pode anular qualquer coisa em definitivo, a P&D acha que você deveria estar jogando uma parcela séria de azul."
+        },
+        {
+          "title": "Uma carta pode ancorar preços muito depois de deixar o formato",
+          "rules": "Um ponto de referência não precisa ser legal para sustentar a estrutura. Tudo na categoria é precificado em relação a ele, então o conjunto mantém a forma mesmo com a âncora fora de catálogo.",
+          "flavor": "Counterspell não está no Standard e ainda pesa na P&D. Pior que Counterspell significa custar menos de dois azuis. Melhor significa custar mais. É por isso que quase toda anulação acaba custando aproximadamente a si mesma."
+        },
+        {
+          "title": "Precifique de modo que as cartas vizinhas continuem possíveis",
+          "rules": "O que decide entre dois preços defensáveis costuma não ser equilíbrio nem precedente, e sim o que cada um fecha. Escolha o que deixa a próxima carta óbvia ainda fabricável.",
+          "flavor": "Annul defende um mana; Gainsay defende dois. O que resolve é que a P&D um dia vai querer «anule a mágica vermelha ou verde alvo» — os dois inimigos do azul. Dois manas matam essa carta; um mana deixa espaço."
+        },
+        {
+          "title": "O ambiente pode derrubar o preço geral",
+          "rules": "O valor de uma carta não é fixo entre mundos. Onde sua condição estreita é incomumente comum, o mesmo efeito merece tarifa melhor, e a diretriz geral cede à coleção em que ela está.",
+          "flavor": "No design de Mirrodin, uma variante de Annul que só anulava artefatos custava o mesmo que a carta mais ampla — porque naquele bloco anular artefatos era muito mais relevante que o normal."
+        },
+        {
+          "title": "Nomes de instantâneo querem ser verbos",
+          "rules": "O nome de um instantâneo deve descrever uma ação; se for substantivo, que seja metáfora. Depois estreite com um dicionário de sinônimos e risque tudo que não carregue o sentido de que a carta precisa.",
+          "flavor": "Azul travando o verde é o conflito natureza/criação. Os sinônimos de «criar», menos tudo que não soe a impedir, deixam disciplinar, instruir, educar. Disciplinar soa preto. Instruir implica mudança. Educar."
+        },
+        {
+          "title": "O texto de ambientação de uma anulação quer ser confrontador",
+          "rules": "O tom do texto segue a sensação do efeito. Uma carta cuja função inteira é dizer não a alguém fica melhor com algo provocador do que com algo apenas verdadeiro.",
+          "flavor": "Cinco tentativas, quase todas observações sobre educação. Vence a mais contundente e mais engraçada: «Ele achava que sabia o seu lugar. Eu lhe ensinei o contrário.»"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "反制情报",
+      "dek": "一张反击咒语从头造到尾——机制、费用、名字、风味文字——每一步的推理都摊在明处。",
+      "overview": "控制周，而反击咒语被拆开来看。先是把现存的所有种类做一份分类，然后走一遍设计新牌的全过程，包括十二年来支配这个类别的两条定价规矩。（环境代号 Control / Alt / Delete 早就教会了研发部别用游戏术语——太多次对话里，两个人说的根本不是同一副控制牌组。）",
+      "takeaway": "在一片已经被反复开采过的空间里，设计工作大部分是制图。找到那个还没人去过的格子，然后给它定价，好让它旁边的格子仍然留着。",
+      "lessons": [
+        {
+          "title": "在往里加东西之前，先把现有的空间画成地图",
+          "rules": "在一个被充分耕作过的类别里，第一步有用的动作是分类，而不是想点子。把已有的东西理一遍，会显出这片区域的形状；而它没提到的地方，就是还没人放过东西的地方。",
+          "flavor": "五种。永远管用的硬反击。只打得中一部分咒语的子集反击。「给对方一条出路」、对方可以付钱脱身的反击。带条件、不好用的反击。以及只能拖延的反击。"
+        },
+        {
+          "title": "每一个类别都自带一个未解的问题",
+          "rules": "分类不只是个档案柜：每一格都暗含着「怎样才能把它延伸下去」的那道搜索题。知道某个类别在问什么，你就知道这一格里的新牌必须提供什么。",
+          "flavor": "B 组要的是还没人碰过的有趣子集。C 组要的是让对手掏钱的新方式。D 组要的是法术力之外的新代价。而 E 组——「差一点就反击成功」的新花样——是其中难度最高的。"
+        },
+        {
+          "title": "有时候那个缺口简单得让人尴尬",
+          "rules": "看上去已被穷尽的空间里，仍然留着显而易见的洞；而它们之所以留到现在，恰恰是因为所有人都默认「显而易见的东西早被占了」。编目录，就是把它们找出来的办法。",
+          "flavor": "这一个是他在整理这篇文章时发现的：一个从来没做过的简单点子。反击目标绿色咒语。"
+        },
+        {
+          "title": "设计部通常不定费用——除非那片空间已经被开采殆尽",
+          "rules": "定价是开发部的活，只有一个例外：当一个类别已经很拥挤时，设计师必须先确认这张牌在任何价位上都能存在，而不会严格优于或严格劣于某张已经印过的牌。",
+          "flavor": "反击咒语实在太多，多到设计师可以把它们一眼扫完，看看这张新的能不能在法术力曲线上找到落脚点。如果找不到，这个设计在开发部见到它之前就已经死了。"
+        },
+        {
+          "title": "一条近乎普适的规矩，外加它的两个例外",
+          "rules": "有些限制稳定到已经等同于身份本身。当一条规矩在整个类别里稳住了很多年，那些例外值得你记住它们的名字；而规矩背后的理由，通常关乎「谁有资格做这件事」。",
+          "flavor": "游戏史上每一张硬反击的费用里都有双蓝，只有秘术拒绝和恼怒两个例外。如果你能确定性地反击任何东西，研发部认为你就该在打相当分量的蓝。"
+        },
+        {
+          "title": "一张牌可以在离开赛制很久之后，仍然锚定着整套定价",
+          "rules": "一个参照点不需要合法，也照样是承重的。这个类别里的一切都相对它来定价，所以哪怕锚早已绝版，整个结构仍然保持着形状。",
+          "flavor": "「反击咒语」不在标准赛制里，在研发部却仍有分量。比它差，就意味着费用低于两点蓝。比它好，就意味着费用更高。这也正是为什么大多数反击咒语最后都定在自己身上。"
+        },
+        {
+          "title": "定价时要让旁边那几张牌仍然做得出来",
+          "rules": "在两个都说得通的价位之间做决断的，往往既不是平衡也不是先例，而是各自会关掉什么。选那个仍然让「显而易见的下一张牌」做得出来的价位。",
+          "flavor": "废除主张一费；反驳主张两费。真正拍板的理由是：研发部总有一天会想做「反击目标红色或绿色咒语」——蓝色的两个敌人。定两费，那张牌就死了；定一费，就给它留了位置。"
+        },
+        {
+          "title": "环境可以推翻通用的定价",
+          "rules": "一张牌的价值在不同世界之间并不固定。在它那个狭窄条件异常常见的地方，同样的效应值得更好的价钱，而通用准则要向它所在的那个系列让步。",
+          "flavor": "在秘罗地的设计里，一张只反击神器的「废除」变体，费用和范围更宽的原牌一样——因为在那个环境里，反击神器的相关度远高于平常。"
+        },
+        {
+          "title": "瞬间的名字想当动词",
+          "rules": "瞬间的名字应该描述一个动作；如果非要用名词，那就让它是个比喻。然后拿同义词词典把范围收窄，把所有不带那份必要含义的词划掉。",
+          "flavor": "蓝色压制绿色，就是先天与后天之争。「培育」的同义词里，划掉一切不含「阻止」意味的，剩下：管教、教导、教育。管教听着太黑。教导暗示的是促成改变。那就教育。"
+        },
+        {
+          "title": "反击咒语的风味文字想要带点对抗性",
+          "rules": "文字的语气跟着效应的手感走。一张整个功能就是「对某人说不」的牌，配一句冲着人来的话，比配一句仅仅正确的话要好。",
+          "flavor": "五次尝试，多半是关于教育的观察。胜出的是最有力、也最好笑的那一句：「他以为自己知道自己的位置。我教了他别的。」"
+        }
+      ]
+    }
+  }
+}
