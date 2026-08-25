@@ -1,0 +1,242 @@
+{
+  "id": "beta-goes-2013-03-13",
+  "slug": "beta-goes-2013-03-13",
+  "column": "making-magic",
+  "author": "Ryan Spain",
+  "publishedAt": "2013-03-13",
+  "series": null,
+  "tags": ["magic-online", "interface", "digital", "iteration", "usability"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/beta-goes-2013-03-13",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-25T21:04:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "The Beta Goes On",
+      "dek": "A Magic Online beta build tour: why the client asks obvious questions, and what one more advanced option actually costs.",
+      "overview": "Ryan Spain walks through a Magic Online Beta build — a new mana shortcut, a tooltip that stops interrupting, reclaimed screen space, and a pile of collection bug fixes — and in doing so sets out how the team decides which conveniences are worth their complexity.",
+      "takeaway": "The recurring judgement is what an option costs everyone who doesn't use it. Most of this build is either buying that cost back or admitting which parts of the client still don't work.",
+      "lessons": [
+        {
+          "title": "Every option carries a complexity cost",
+          "rules": "A settings menu isn't free storage. Each addition has to earn both its development cost and the complexity it adds for everyone who now reads past it, so shortcuts get chosen deliberately rather than accumulated.",
+          "flavor": "The bar is set by what's already there — \"always yes\" and \"always no\" on may-triggers. A new shortcut has to be worth standing beside those."
+        },
+        {
+          "title": "Ask because of the edge case, then let the player waive it",
+          "rules": "The client asks obvious-looking questions because somewhere a card makes them non-obvious. The fix isn't guessing right on the player's behalf; it's giving them a way to declare in the moment that they don't care.",
+          "flavor": "\"Would you like to gain that life?\" looks absurd until somebody is holding a fateful hour card. Hold M while clicking and the first mana ability fires without a menu — and the key is rebindable."
+        },
+        {
+          "title": "Take the interruption away from those who don't need it",
+          "rules": "The same helper is assistance to one player and noise to another. Splitting it across two inputs serves both without adding another setting to the pile.",
+          "flavor": "Full rules text appearing above the context menu every time was, for someone who already knew the card, more distracting than helpful. Now right-click shows the tooltip and left-click shows only the menu."
+        },
+        {
+          "title": "Screen space is a budget somebody has to defend",
+          "rules": "Room on screen behaves like any shared resource: it gets consumed by default unless someone is assigned to win it back. Thinning the borders between panes recovered space across every scene at once.",
+          "flavor": "A technical artist spent a stretch going through the client reclaiming space by restyling. The chat module was among the biggest beneficiaries, and the article runs a before and after."
+        },
+        {
+          "title": "Ship the win, name the regression",
+          "rules": "A change can be worth shipping while a known drawback is still outstanding. What makes that a decision rather than an oversight is stating the cost in the same breath as the gain, along with when it will be addressed.",
+          "flavor": "Dropping the panel that held \"Add Lands\" and \"Submit\" recaptured a full column of the Limited deck pane. The buttons now stand out less. That is being fixed in a later build; the column was too important to wait."
+        },
+        {
+          "title": "Bug fixes are the meat and potatoes",
+          "rules": "Most real progress is unannounceable. A list of small corrections presents badly and is nonetheless what carries a complex system from working to pleasant to use.",
+          "flavor": "The prize fix: removing a card from your deck with filters applied no longer refreshes the whole collection. Long-time users will be glad to lose it; new users will never learn it existed."
+        },
+        {
+          "title": "Track features as nonfunctional, functional, good",
+          "rules": "A three-step scale says more than a percentage. It admits which parts don't work at all, and it separates making a thing work from making it worth using — which are different pieces of work with different finish lines.",
+          "flavor": "Trade had just passed functional and was being polished toward good. Multiplayer Commander had been sitting in the nonfunctional pile alongside it: you could technically start a match, and from there things got pretty weird."
+        }
+      ]
+    },
+    "es": {
+      "title": "La beta continúa",
+      "dek": "Un recorrido por una compilación beta de Magic Online: por qué el cliente hace preguntas obvias y cuánto cuesta de verdad una opción avanzada más.",
+      "overview": "Ryan Spain recorre una compilación de la beta de Magic Online —un nuevo atajo de maná, un tooltip que deja de interrumpir, espacio de pantalla recuperado y un montón de correcciones en la colección— y por el camino expone cómo decide el equipo qué comodidades merecen su complejidad.",
+      "takeaway": "El juicio que se repite es cuánto le cuesta una opción a todos los que no la usan. Casi toda esta compilación consiste en recomprar ese coste o en admitir qué partes del cliente siguen sin funcionar.",
+      "lessons": [
+        {
+          "title": "Cada opción arrastra un coste de complejidad",
+          "rules": "Un menú de ajustes no es almacenamiento gratis. Cada añadido tiene que ganarse tanto su coste de desarrollo como la complejidad que suma a todos los que ahora tienen que pasarlo de largo, así que los atajos se eligen a propósito en vez de acumularse.",
+          "flavor": "El listón lo marcan los que ya están: «siempre sí» y «siempre no» en los disparos con «puedes». Un atajo nuevo tiene que merecer estar al lado de esos."
+        },
+        {
+          "title": "Pregunta por el caso raro, y deja que el jugador renuncie",
+          "rules": "El cliente hace preguntas de apariencia obvia porque en algún sitio hay una carta que las vuelve no obvias. La solución no es acertar por el jugador, sino darle una forma de declarar en ese momento que le da igual.",
+          "flavor": "«¿Quieres ganar esas vidas?» parece absurdo hasta que alguien tiene en la mano una carta con hora fatídica. Mantén M al hacer clic y se activa la primera habilidad de maná sin menú; y la tecla se puede reasignar."
+        },
+        {
+          "title": "Quita la interrupción a quien no la necesita",
+          "rules": "El mismo asistente es ayuda para un jugador y ruido para otro. Repartirlo entre dos formas de clic sirve a ambos sin añadir otro ajuste al montón.",
+          "flavor": "Que el texto de reglas completo apareciera sobre el menú contextual cada vez era, para quien ya conocía la carta, más molesto que útil. Ahora el clic derecho muestra el tooltip y el izquierdo solo el menú."
+        },
+        {
+          "title": "El espacio de pantalla es un presupuesto que alguien tiene que defender",
+          "rules": "El sitio en pantalla se comporta como cualquier recurso compartido: se consume por defecto salvo que haya alguien encargado de recuperarlo. Adelgazar los bordes entre paneles ganó espacio en todas las escenas a la vez.",
+          "flavor": "Un artista técnico se pasó una temporada recorriendo el cliente recuperando espacio a base de reestilizar. El módulo de chat fue de los más beneficiados, y el artículo enseña el antes y el después."
+        },
+        {
+          "title": "Publica la mejora y nombra la regresión",
+          "rules": "Un cambio puede merecer publicarse con un inconveniente conocido aún pendiente. Lo que lo convierte en decisión y no en descuido es enunciar el coste en la misma frase que la ganancia, junto con cuándo se atenderá.",
+          "flavor": "Quitar el panel que contenía «Añadir tierras» y «Enviar» recuperó una columna entera del panel de mazo en limitado. Ahora esos botones destacan menos. Se arreglará en una compilación posterior; la columna no podía esperar."
+        },
+        {
+          "title": "Las correcciones de fallos son el pan de cada día",
+          "rules": "Casi todo el progreso real es inanunciable. Una lista de pequeñas correcciones se presenta fatal y aun así es lo que lleva a un sistema complejo de funcionar a ser agradable de usar.",
+          "flavor": "La corrección estrella: quitar una carta del mazo con filtros aplicados ya no refresca la colección entera. Los veteranos se alegrarán de perderla; los nuevos nunca sabrán que existió."
+        },
+        {
+          "title": "Clasifica cada función como no funcional, funcional o buena",
+          "rules": "Una escala de tres pasos dice más que un porcentaje. Admite qué partes no funcionan en absoluto y separa hacer que algo funcione de hacer que merezca la pena usarlo, que son trabajos distintos con metas distintas.",
+          "flavor": "El intercambio acababa de pasar a funcional y se estaba puliendo hacia bueno. El Commander multijugador llevaba tiempo en el montón de lo no funcional, a su lado: técnicamente podías empezar una partida, y a partir de ahí la cosa se ponía rara."
+        }
+      ]
+    },
+    "fr": {
+      "title": "La bêta continue",
+      "dek": "Visite guidée d'une version bêta de Magic Online : pourquoi le client pose des questions évidentes, et ce que coûte réellement une option avancée de plus.",
+      "overview": "Ryan Spain parcourt une version de la bêta de Magic Online — un nouveau raccourci de mana, une info-bulle qui cesse d'interrompre, de l'espace écran récupéré et une pile de corrections dans la collection — et expose au passage comment l'équipe décide quelles commodités valent leur complexité.",
+      "takeaway": "Le jugement qui revient porte sur ce qu'une option coûte à tous ceux qui ne s'en servent pas. L'essentiel de cette version consiste soit à racheter ce coût, soit à admettre quelles parties du client ne marchent toujours pas.",
+      "lessons": [
+        {
+          "title": "Chaque option traîne un coût de complexité",
+          "rules": "Un menu de réglages n'est pas un stockage gratuit. Chaque ajout doit rentabiliser son coût de développement et la complexité qu'il impose à tous ceux qui devront désormais le survoler : on choisit donc les raccourcis au lieu de les accumuler.",
+          "flavor": "La barre est fixée par ceux qui existent déjà — « toujours oui » et « toujours non » sur les déclenchements facultatifs. Un nouveau raccourci doit mériter de figurer à côté."
+        },
+        {
+          "title": "Demandez à cause du cas limite, puis laissez le joueur y renoncer",
+          "rules": "Le client pose des questions d'apparence évidente parce que quelque part une carte les rend non évidentes. La solution n'est pas de deviner à la place du joueur, mais de lui donner le moyen de déclarer sur le moment que cela lui est égal.",
+          "flavor": "« Voulez-vous gagner ces points de vie ? » paraît absurde jusqu'à ce que quelqu'un tienne une carte à heure fatidique. Maintenez M en cliquant et la première capacité de mana se déclenche sans menu ; la touche est reconfigurable."
+        },
+        {
+          "title": "Retirez l'interruption à ceux qui n'en ont pas besoin",
+          "rules": "La même aide est un secours pour un joueur et du bruit pour un autre. La répartir entre deux clics sert les deux sans ajouter un réglage de plus à la pile.",
+          "flavor": "Voir le texte de règles complet au-dessus du menu contextuel à chaque fois était, pour qui connaissait déjà la carte, plus gênant qu'utile. Désormais le clic droit affiche l'info-bulle et le clic gauche seulement le menu."
+        },
+        {
+          "title": "L'espace écran est un budget que quelqu'un doit défendre",
+          "rules": "La place à l'écran se comporte comme toute ressource partagée : elle se consomme par défaut à moins que quelqu'un soit chargé de la reprendre. Amincir les bordures entre les panneaux a récupéré de la place dans toutes les scènes à la fois.",
+          "flavor": "Un artiste technique a passé un moment à parcourir le client pour regagner de l'espace par restylage. Le module de discussion en a été l'un des grands bénéficiaires, et l'article montre un avant et un après."
+        },
+        {
+          "title": "Livrez le gain, nommez la régression",
+          "rules": "Un changement peut mériter d'être livré alors qu'un inconvénient connu subsiste. Ce qui en fait une décision et non un oubli, c'est d'énoncer le coût dans la même phrase que le gain, et de dire quand il sera traité.",
+          "flavor": "Supprimer le panneau contenant « Ajouter des terrains » et « Soumettre » a récupéré toute une colonne du volet de deck en limité. Ces boutons ressortent désormais moins. Cela sera corrigé plus tard ; la colonne ne pouvait pas attendre."
+        },
+        {
+          "title": "Les corrections de bogues sont le pain quotidien",
+          "rules": "L'essentiel du progrès réel est inannonçable. Une liste de petites corrections se présente mal et reste pourtant ce qui fait passer un système complexe de fonctionnel à agréable.",
+          "flavor": "La correction vedette : retirer une carte de son deck avec des filtres actifs ne rafraîchit plus toute la collection. Les habitués seront ravis d'en être débarrassés ; les nouveaux ne sauront jamais que cela existait."
+        },
+        {
+          "title": "Classez les fonctionnalités en non fonctionnel, fonctionnel, bon",
+          "rules": "Une échelle à trois marches en dit plus qu'un pourcentage. Elle admet quelles parties ne marchent pas du tout, et sépare faire marcher une chose de la rendre digne d'usage — deux travaux distincts avec deux lignes d'arrivée.",
+          "flavor": "L'échange venait de passer « fonctionnel » et se polissait vers « bon ». Le Commander multijoueur traînait à côté dans la pile du non fonctionnel : on pouvait techniquement lancer une partie, et ensuite les choses devenaient bizarres."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "A beta continua",
+      "dek": "Um passeio por uma build beta do Magic Online: por que o cliente faz perguntas óbvias e quanto custa de verdade mais uma opção avançada.",
+      "overview": "Ryan Spain percorre uma build da beta do Magic Online — um novo atalho de mana, um tooltip que para de interromper, espaço de tela recuperado e uma pilha de correções na coleção — e no caminho expõe como a equipe decide quais comodidades valem a complexidade que trazem.",
+      "takeaway": "O julgamento que se repete é quanto uma opção custa a todos os que não a usam. Quase toda essa build ou está recomprando esse custo ou admitindo que partes do cliente ainda não funcionam.",
+      "lessons": [
+        {
+          "title": "Toda opção carrega um custo de complexidade",
+          "rules": "Um menu de configurações não é armazenamento de graça. Cada acréscimo precisa pagar tanto o custo de desenvolvimento quanto a complexidade que soma para todo mundo que agora vai ter de passar os olhos por ele, então atalhos são escolhidos de propósito, não acumulados.",
+          "flavor": "A régua é dada pelos que já existem: «sempre sim» e «sempre não» nos gatilhos com «você pode». Um atalho novo precisa merecer ficar ao lado daqueles."
+        },
+        {
+          "title": "Pergunte por causa do caso extremo, e deixe o jogador abrir mão",
+          "rules": "O cliente faz perguntas de aparência óbvia porque em algum lugar existe uma carta que as torna não óbvias. O conserto não é acertar no lugar do jogador, e sim dar a ele um jeito de declarar naquele momento que não faz diferença.",
+          "flavor": "«Quer ganhar esses pontos de vida?» parece absurdo até alguém estar segurando uma carta com hora fatídica. Segure M ao clicar e a primeira habilidade de mana dispara sem menu; e a tecla pode ser remapeada."
+        },
+        {
+          "title": "Tire a interrupção de quem não precisa dela",
+          "rules": "O mesmo auxílio é ajuda para um jogador e ruído para outro. Dividi-lo entre dois cliques serve aos dois sem acrescentar mais uma configuração à pilha.",
+          "flavor": "O texto de regras completo aparecendo acima do menu de contexto toda vez era, para quem já conhecia a carta, mais atrapalho do que ajuda. Agora o clique direito mostra o tooltip e o esquerdo mostra só o menu."
+        },
+        {
+          "title": "Espaço de tela é um orçamento que alguém precisa defender",
+          "rules": "Espaço na tela se comporta como qualquer recurso compartilhado: é consumido por padrão, a menos que alguém esteja encarregado de retomá-lo. Afinar as bordas entre painéis recuperou espaço em todas as telas de uma vez.",
+          "flavor": "Um artista técnico passou um tempo percorrendo o cliente e recuperando espaço via reestilização. O módulo de chat foi um dos que mais ganharam, e o artigo mostra o antes e o depois."
+        },
+        {
+          "title": "Entregue o ganho e diga o nome da regressão",
+          "rules": "Uma mudança pode valer a entrega mesmo com uma desvantagem conhecida ainda em aberto. O que transforma isso em decisão, e não em descuido, é enunciar o custo na mesma frase do ganho, junto de quando será tratado.",
+          "flavor": "Tirar o painel que segurava «Adicionar terrenos» e «Enviar» recuperou uma coluna inteira do painel de deck no limitado. Esses botões passaram a se destacar menos. Isso será corrigido numa build seguinte; a coluna não podia esperar."
+        },
+        {
+          "title": "Correção de bug é o arroz com feijão",
+          "rules": "Quase todo progresso real é inanunciável. Uma lista de pequenas correções se apresenta mal e ainda assim é o que leva um sistema complexo de funcionar a ser agradável de usar.",
+          "flavor": "A correção premiada: tirar uma carta do deck com filtros aplicados não atualiza mais a coleção inteira. Veteranos vão adorar se livrar disso; novatos jamais saberão que existiu."
+        },
+        {
+          "title": "Classifique cada recurso como não funcional, funcional ou bom",
+          "rules": "Uma escala de três degraus diz mais do que uma porcentagem. Ela admite que partes não funcionam de jeito nenhum, e separa fazer algo funcionar de fazer algo valer a pena usar — trabalhos diferentes, com linhas de chegada diferentes.",
+          "flavor": "A troca tinha acabado de passar de funcional e estava sendo polida rumo a boa. O Commander multijogador estava parado ao lado dela na pilha do não funcional: dava tecnicamente para começar uma partida, e dali em diante a coisa ficava estranha."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "测试版继续",
+      "dek": "一次万智牌 Online 测试版构建的导览：这个客户端为什么要问那些显而易见的问题，以及「再多一个高级选项」真正的代价是什么。",
+      "overview": "瑞安·斯佩恩带着读者走了一遍万智牌 Online 测试版的一次构建——一个新的法术力快捷键、一个不再打断你的悬浮提示、被夺回来的屏幕空间，以及一大堆收藏界面的错误修复——并在这个过程中讲清了团队是怎么判断哪些便利值得它带来的复杂度的。",
+      "takeaway": "反复出现的那个判断是：一个选项，对所有不使用它的人来说要付出多少代价。这次构建里的大部分内容，要么是在把这份代价买回来，要么是在承认客户端里还有哪些地方根本不能用。",
+      "lessons": [
+        {
+          "title": "每一个选项都拖着一份复杂度成本",
+          "rules": "设置菜单不是免费的仓库。每加一项，都得同时挣回它的开发成本，以及它给所有「现在必须从它眼前扫过去」的人所增加的复杂度——所以快捷方式是被挑出来的，不是攒出来的。",
+          "flavor": "标准由已经存在的那几个划定：「可以」类触发上的「总是选是」和「总是选否」。一个新快捷键，得配得上站在它们旁边。"
+        },
+        {
+          "title": "为边缘情况而问，然后让玩家自己弃权",
+          "rules": "客户端之所以问那些看起来理所当然的问题，是因为某处有一张牌让它变得不理所当然。解法不是替玩家猜对，而是给他一个当场声明「我不在乎」的办法。",
+          "flavor": "「你要获得那些生命吗？」看着荒唐，直到有人手里握着一张带命定时刻的牌。按住 M 再点击，第一个法术力异能就直接启动，不弹菜单；而且这个键可以改。"
+        },
+        {
+          "title": "把打断从不需要它的人那里拿走",
+          "rules": "同一个辅助，对一个玩家是帮助，对另一个是噪音。把它拆到两种点击上，就能同时照顾两边，而不必再往那堆设置里添一项。",
+          "flavor": "每次都在右键菜单上方弹出完整规则文字，对本来就认得这张牌的人来说，添的乱多过帮的忙。如今右键出提示，左键只出菜单。"
+        },
+        {
+          "title": "屏幕空间是一笔得有人去守的预算",
+          "rules": "屏幕上的地方和任何共享资源一样：默认状态下只会被吃掉，除非有人被指派去把它抢回来。把面板之间的分隔线调细，一次就在所有界面里都腾出了空间。",
+          "flavor": "一位技术美术花了一段时间把客户端从头到尾走一遍，靠重新调整样式回收空间。聊天模块是受益最大的之一，文章里放了前后对比。"
+        },
+        {
+          "title": "把收益发出去，同时把退步点名",
+          "rules": "一处改动可以在已知缺陷尚未解决时就值得发布。让它成为一个决定而非疏忽的，是把代价和收益写在同一句话里，并说明什么时候去处理它。",
+          "flavor": "拿掉装着「加地」和「提交」的那块面板，为限制赛的套牌面板夺回了整整一列。这两个按钮如今没那么显眼了。这会在后续构建里修；而那一列等不起。"
+        },
+        {
+          "title": "修 bug 才是家常便饭",
+          "rules": "真正的进展，大多是没法拿去宣布的。一张小修小补的清单摆出来很不好看，可正是它把一个复杂系统从「能用」推到「用着舒服」。",
+          "flavor": "最值得一提的一处修复：在套用了筛选条件的情况下从套牌里移除一张牌，不会再把整个收藏刷新一遍。老用户会庆幸摆脱它；新用户则永远不会知道它存在过。"
+        },
+        {
+          "title": "用「不能用／能用／好用」三档来记录功能",
+          "rules": "三档刻度比一个百分比说得更多。它承认哪些部分根本不能用，并且把「让一样东西跑起来」和「让它值得用」分成两件事——它们是不同的工作，终点线也不同。",
+          "flavor": "交易功能刚刚跨过「能用」，正被打磨着往「好用」走。多人指挥官则一直和它并排躺在「不能用」那一堆里：你技术上确实能开一局，然后事情就开始变得古怪。"
+        }
+      ]
+    }
+  }
+}
