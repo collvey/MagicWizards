@@ -1,0 +1,346 @@
+{
+  "id": "discard-tricks-2005-04-11-0",
+  "slug": "discard-tricks-2005-04-11-0",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2005-04-11",
+  "series": null,
+  "tags": ["discard", "black", "card-design", "color-pie", "fun"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/discard-tricks-2005-04-11-0",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-26T11:00:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "G" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "G" },
+    { "n": 11, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Discard Tricks",
+      "dek": "How to design a discard spell, from which colour owns it down to whether the finished card is any fun.",
+      "overview": "Discard Week, handled as a design procedure: pick the colour, pick the type, obey the speed rule, decide whether the card is theme or utility, and then make it interesting. The last step is the one with teeth, because discard starts from a disadvantage — its whole job is stopping things from happening.",
+      "takeaway": "Every spell is a small game in itself. Ask whether that game was fun to play, and the difference between Hymn to Tourach and Cabal Therapy stops being a matter of taste.",
+      "lessons": [
+        {
+          "title": "A few mechanics belong to one colour outright",
+          "rules": "The colour pie divides most abilities among several colours, but a handful sit with just one. When you set out to build in that space, you've already chosen the colour before you've chosen anything else.",
+          "flavor": "Discard is black's. Black is king of messing with people's minds — quite literally. Make a discard card and you are almost certainly making a black card."
+        },
+        {
+          "title": "Other colours can reach the effect through their own idiom",
+          "rules": "A mechanic owned by one colour can still be approximated elsewhere, provided the route is native to the colour taking it. What arrives is never the same effect, and the difference is the point.",
+          "flavor": "Blue filters — discard first, draw less. White taxes, so it can never force the discard; the opponent may decline and take the penalty. Red uses punisher effects that should feel like \"I lit your stuff on fire, drop it.\" Artifacts have carte blanche. Green essentially can't."
+        },
+        {
+          "title": "A quantity threshold can change a card's colour",
+          "rules": "Colour identity isn't only about what an effect does; scale can move it. The same action, repeated enough times, stops reading as one colour's method and starts reading as another's.",
+          "flavor": "Aaron Forsythe on Stunted Growth: \"If you make your opponent put one card from their hand on top of their library, it's black. Two cards? Still black. Three cards? Oh, that's green.\""
+        },
+        {
+          "title": "Discard happens at sorcery speed",
+          "rules": "Some restrictions exist purely to stop an already-unpleasant effect becoming unbearable. Taking a card before its owner ever had a chance to use it is too mean even for the colour that specialises in mean.",
+          "flavor": "The exceptions — Funeral Charm and a handful of others — are always one-shot effects. Anything repeatable is sorcery-speed without exception, which means it carries the \"only any time you could cast a sorcery\" text."
+        },
+        {
+          "title": "Random discard annoys more than choice discard",
+          "rules": "Losing something to an opponent's decision is easier to bear than losing it to chance, because a decision can be beaten and chance cannot. That asymmetry is worth designing around even when the outcomes are identical.",
+          "flavor": "Players actually preferred losing a card of their opponent's choosing. The opponent might mess up; you can't fool fate. R&D realised it annoyed people and consciously dialled random discard back."
+        },
+        {
+          "title": "Don't take lands from anyone still setting up",
+          "rules": "The same principle that restrains land destruction restrains early land discard. Depriving someone of the resource that lets them participate isn't a strong effect, it's an exclusion from the game.",
+          "flavor": "As a rule of thumb, anything playable in the first few turns doesn't get to force land discard. Not getting to play the game just isn't fun."
+        },
+        {
+          "title": "Know whether you're building theme or utility",
+          "rules": "The same mechanic supports two incompatible jobs. One wants quantity, gets stronger as more copies of the idea join it, and aims to empty a hand. The other wants quality, one card at a time, and has to work alone.",
+          "flavor": "Theme discard is a piece of a larger machine and cares little about which card goes. Utility discard is a cheap proactive answer to a specific threat, needs no support, and sees play in the first few turns."
+        },
+        {
+          "title": "Cost the two kinds differently",
+          "rules": "When one use of a mechanic feeds a strategy that makes opponents unable to play, restrain that use specifically. The other use doesn't build the strategy by itself and can be priced far more generously.",
+          "flavor": "Discard is one of the scary three with land destruction and permission — decks that keep people from playing the game and annoy players far beyond the average. So R&D restrains theme discard and is aggressive with utility discard."
+        },
+        {
+          "title": "A card that removes the choices is bad design",
+          "rules": "The test isn't whether an effect is strong; it's whether anyone had to think. If neither player maximises, minimises, or anticipates anything, the card has failed regardless of what it does to the board.",
+          "flavor": "Big Man Down: discard the highest-cost card in hand. Played turn one, your opponent throws away something they were many turns from casting. No thoughtful moment, no deduction, no decision. Effectively a random discard that probably won't matter."
+        },
+        {
+          "title": "Impact is a separate test from choice",
+          "rules": "A card can fail twice over. Beyond whether it produced a decision, ask whether the outcome will register on the game at all — an effect that may change nothing is worse than one that always changes something small.",
+          "flavor": "Little Man Down takes the cheapest card, which the opponent could probably have cast soon. Note it needs a \"nonland\" rider to avoid mana-hosing; Big Man Down doesn't, because it only hits a land when the hand is nothing but lands."
+        },
+        {
+          "title": "Treat every spell as its own small game and ask if it was fun",
+          "rules": "An effect whose function is to prevent things starts at a deficit, so it has to earn its place through the play surrounding it. Isolate the card, play out the moment, and judge that moment alone.",
+          "flavor": "Hymn to Tourach: you randomly lose two. Not fun. Mind Rot: barely. Blackmail: both of you decide, plus the question of when to cast it. Cabal Therapy: built on Go Fish — deduction, instinct, and some crossed fingers."
+        }
+      ]
+    },
+    "es": {
+      "title": "Trucos de descarte",
+      "dek": "Cómo diseñar un hechizo de descarte, desde qué color lo posee hasta si la carta terminada resulta divertida.",
+      "overview": "Semana del Descarte, tratada como un procedimiento de diseño: elige el color, elige el tipo, obedece la regla de velocidad, decide si la carta es de tema o de utilidad, y luego hazla interesante. El último paso es el que muerde, porque el descarte parte en desventaja: su trabajo entero es impedir que pasen cosas.",
+      "takeaway": "Cada hechizo es un pequeño juego en sí mismo. Pregúntate si ese juego fue divertido y la diferencia entre Hymn to Tourach y Cabal Therapy deja de ser cuestión de gustos.",
+      "lessons": [
+        {
+          "title": "Unas pocas mecánicas pertenecen a un solo color por entero",
+          "rules": "El pastel de color reparte casi todas las habilidades entre varios colores, pero un puñado se queda con uno solo. Cuando decides construir en ese espacio, ya has elegido el color antes de elegir cualquier otra cosa.",
+          "flavor": "El descarte es del negro. El negro es el rey de trastear con la mente de la gente, y muy literalmente. Haz una carta de descarte y casi seguro estarás haciendo una carta negra."
+        },
+        {
+          "title": "Otros colores pueden alcanzar el efecto por su propio idioma",
+          "rules": "Una mecánica de un solo color puede aproximarse en otros, siempre que la vía sea propia del color que la toma. Lo que sale nunca es el mismo efecto, y esa diferencia es justamente la gracia.",
+          "flavor": "El azul filtra: descarta primero, roba menos. El blanco cobra impuestos, así que nunca puede forzar el descarte; el rival puede negarse y asumir la pena. El rojo usa castigos que deben sonar a «he prendido fuego a tus cosas, suéltalas». Los artefactos tienen barra libre. El verde, prácticamente no puede."
+        },
+        {
+          "title": "Un umbral de cantidad puede cambiar el color de una carta",
+          "rules": "La identidad de color no depende solo de qué hace un efecto: la escala puede desplazarla. La misma acción, repetida suficientes veces, deja de leerse como método de un color y empieza a leerse como el de otro.",
+          "flavor": "Aaron Forsythe sobre Stunted Growth: «Si haces que tu rival ponga una carta de su mano encima de su biblioteca, es negro. ¿Dos cartas? Sigue siendo negro. ¿Tres cartas? Ah, eso es verde»."
+        },
+        {
+          "title": "El descarte ocurre a velocidad de conjuro",
+          "rules": "Algunas restricciones existen solo para impedir que un efecto ya desagradable se vuelva insoportable. Quitar una carta antes de que su dueño haya tenido ocasión de usarla es demasiado cruel incluso para el color especializado en la crueldad.",
+          "flavor": "Las excepciones —Funeral Charm y unas pocas más— son siempre efectos de un solo uso. Todo lo repetible va a velocidad de conjuro sin excepción, lo que arrastra el texto de «solo cuando podrías lanzar un conjuro»."
+        },
+        {
+          "title": "El descarte al azar molesta más que el descarte elegido",
+          "rules": "Perder algo por decisión de un rival se lleva mejor que perderlo por azar, porque a una decisión se la puede vencer y al azar no. Esa asimetría merece tenerse en cuenta aunque los resultados sean idénticos.",
+          "flavor": "Los jugadores preferían perder una carta elegida por su oponente. El rival puede equivocarse; al destino no lo engañas. I+D vio que molestaba y redujo conscientemente el descarte aleatorio."
+        },
+        {
+          "title": "No le quites tierras a quien todavía se está montando",
+          "rules": "El mismo principio que frena la destrucción de tierras frena el descarte de tierras temprano. Privar a alguien del recurso que le permite participar no es un efecto potente: es una expulsión de la partida.",
+          "flavor": "Como regla general, nada jugable en los primeros turnos puede forzar el descarte de tierras. No llegar a jugar la partida simplemente no es divertido."
+        },
+        {
+          "title": "Ten claro si construyes tema o utilidad",
+          "rules": "La misma mecánica sostiene dos trabajos incompatibles. Uno quiere cantidad, se refuerza cuantas más copias de la idea le acompañen y aspira a vaciar una mano. El otro quiere calidad, de una en una, y tiene que funcionar solo.",
+          "flavor": "El descarte de tema es pieza de una máquina mayor y le importa poco qué carta se va. El de utilidad es una respuesta barata y proactiva a una amenaza concreta, no necesita apoyo y se juega en los primeros turnos."
+        },
+        {
+          "title": "Costea de forma distinta cada uno de los dos",
+          "rules": "Cuando un uso de una mecánica alimenta una estrategia que deja al rival sin poder jugar, frena ese uso en concreto. El otro uso no construye la estrategia por sí solo y puede valorarse mucho más generosamente.",
+          "flavor": "El descarte es uno de los tres temidos junto con la destrucción de tierras y la permisión: mazos que impiden jugar y molestan muy por encima de la media. Así que I+D contiene el descarte de tema y es agresiva con el de utilidad."
+        },
+        {
+          "title": "Una carta que elimina las decisiones es mal diseño",
+          "rules": "La prueba no es si el efecto es potente, sino si alguien tuvo que pensar. Si ningún jugador maximiza, minimiza ni anticipa nada, la carta ha fallado sin importar lo que le haga a la mesa.",
+          "flavor": "Big Man Down: descarta la carta de mayor coste de la mano. Jugada en el turno uno, tu rival tira algo que estaba a muchos turnos de lanzar. Ni un momento reflexivo, ni deducción, ni decisión. En la práctica, un descarte aleatorio que además seguramente no importará."
+        },
+        {
+          "title": "El impacto es una prueba distinta de la elección",
+          "rules": "Una carta puede fallar dos veces. Más allá de si generó una decisión, pregunta si el resultado va a notarse siquiera en la partida: un efecto que puede no cambiar nada es peor que uno que siempre cambia algo pequeño.",
+          "flavor": "Little Man Down se lleva la carta más barata, que el rival probablemente podría haber lanzado pronto. Fíjate en que necesita la coletilla «que no sea tierra» para no ahogar el maná; Big Man Down no, porque solo toca tierra si la mano son todo tierras."
+        },
+        {
+          "title": "Trata cada hechizo como un juego pequeño y pregunta si fue divertido",
+          "rules": "Un efecto cuya función es impedir cosas parte con déficit, así que tiene que ganarse el sitio mediante el juego que lo rodea. Aísla la carta, representa el momento y juzga ese momento a solas.",
+          "flavor": "Hymn to Tourach: pierdes dos al azar. No es divertido. Mind Rot: apenas. Blackmail: los dos decidís, y encima está la cuestión de cuándo lanzarlo. Cabal Therapy: construido sobre el Go Fish, con deducción, instinto y algún cruce de dedos."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Tours de défausse",
+      "dek": "Comment concevoir un sort de défausse, depuis la couleur qui la possède jusqu'à savoir si la carte finie est amusante.",
+      "overview": "Semaine de la Défausse, traitée comme une procédure : choisir la couleur, choisir le type, respecter la règle de vitesse, décider si la carte relève du thème ou de l'utilitaire, puis la rendre intéressante. La dernière étape est celle qui mord, car la défausse part avec un handicap : son métier entier consiste à empêcher les choses d'arriver.",
+      "takeaway": "Chaque sort est un petit jeu en soi. Demandez-vous si ce jeu était amusant, et l'écart entre Hymn to Tourach et Cabal Therapy cesse d'être affaire de goût.",
+      "lessons": [
+        {
+          "title": "Quelques mécaniques appartiennent entièrement à une seule couleur",
+          "rules": "La roue des couleurs répartit la plupart des capacités entre plusieurs couleurs, mais une poignée n'en a qu'une. Décider de travailler dans cet espace, c'est avoir choisi la couleur avant tout le reste.",
+          "flavor": "La défausse est au noir. Le noir est le roi du triturage d'esprits — au sens propre. Faites une carte de défausse et vous faites presque à coup sûr une carte noire."
+        },
+        {
+          "title": "Les autres couleurs peuvent atteindre l'effet dans leur propre idiome",
+          "rules": "Une mécanique possédée par une couleur peut s'approcher ailleurs, à condition que la voie soit native de la couleur qui l'emprunte. Ce qui arrive n'est jamais le même effet, et cet écart est tout l'intérêt.",
+          "flavor": "Le bleu filtre : défausser d'abord, piocher moins. Le blanc taxe, donc ne peut jamais forcer la défausse ; l'adversaire peut refuser et subir la pénalité. Le rouge use de punitions qui doivent sonner « j'ai mis le feu à tes affaires, lâche-les ». Les artefacts ont carte blanche. Le vert, en gros, ne peut pas."
+        },
+        {
+          "title": "Un seuil de quantité peut changer la couleur d'une carte",
+          "rules": "L'identité de couleur ne tient pas qu'à ce que fait un effet : l'échelle peut la déplacer. La même action, répétée assez de fois, cesse de se lire comme la méthode d'une couleur pour devenir celle d'une autre.",
+          "flavor": "Aaron Forsythe à propos de Stunted Growth : « Si vous faites mettre à l'adversaire une carte de sa main sur sa bibliothèque, c'est noir. Deux cartes ? Toujours noir. Trois cartes ? Ah, ça, c'est vert. »"
+        },
+        {
+          "title": "La défausse se joue à vitesse de rituel",
+          "rules": "Certaines restrictions n'existent que pour empêcher un effet déjà désagréable de devenir insupportable. Prendre une carte avant que son propriétaire ait pu s'en servir est trop méchant, même pour la couleur spécialiste de la méchanceté.",
+          "flavor": "Les exceptions — Funeral Charm et quelques autres — sont toujours des effets uniques. Tout ce qui est répétable est à vitesse de rituel sans exception, ce qui traîne la mention « uniquement quand vous pourriez lancer un rituel »."
+        },
+        {
+          "title": "La défausse aléatoire agace plus que la défausse choisie",
+          "rules": "Perdre une chose par la décision d'un adversaire se supporte mieux que la perdre au hasard, car on peut battre une décision et non le hasard. Cette asymétrie mérite d'être prise en compte même quand les résultats sont identiques.",
+          "flavor": "Les joueurs préféraient perdre une carte choisie par l'adversaire. L'adversaire peut se tromper ; on ne trompe pas le destin. La R&D a constaté l'agacement et réduit sciemment la défausse aléatoire."
+        },
+        {
+          "title": "Ne prenez pas les terrains de qui s'installe encore",
+          "rules": "Le principe qui bride la destruction de terrains bride la défausse précoce de terrains. Priver quelqu'un de la ressource qui lui permet de participer n'est pas un effet puissant : c'est une exclusion de la partie.",
+          "flavor": "En règle générale, rien de jouable dans les premiers tours n'a le droit de forcer la défausse d'un terrain. Ne pas pouvoir jouer la partie n'est tout simplement pas amusant."
+        },
+        {
+          "title": "Sachez si vous construisez du thème ou de l'utilitaire",
+          "rules": "La même mécanique remplit deux offices incompatibles. L'un veut de la quantité, se renforce à mesure que d'autres exemplaires de l'idée l'accompagnent, et vise à vider une main. L'autre veut de la qualité, une carte à la fois, et doit fonctionner seul.",
+          "flavor": "La défausse de thème est une pièce d'une machine plus vaste et se soucie peu de la carte qui part. La défausse utilitaire est une réponse bon marché et proactive à une menace précise, sans besoin de soutien, jouée dans les premiers tours."
+        },
+        {
+          "title": "Chiffrez différemment les deux usages",
+          "rules": "Quand un usage d'une mécanique nourrit une stratégie qui empêche l'adversaire de jouer, bridez cet usage-là précisément. L'autre ne bâtit pas la stratégie à lui seul et peut être tarifé bien plus généreusement.",
+          "flavor": "La défausse fait partie des trois redoutés avec la destruction de terrains et la permission : des decks qui empêchent de jouer et agacent bien au-delà de la moyenne. La R&D bride donc la défausse de thème et se montre agressive sur l'utilitaire."
+        },
+        {
+          "title": "Une carte qui supprime les choix est un mauvais design",
+          "rules": "Le test n'est pas la puissance de l'effet, mais de savoir si quelqu'un a dû réfléchir. Si aucun joueur ne maximise, ne minimise ni n'anticipe, la carte a échoué, quoi qu'elle fasse au champ de bataille.",
+          "flavor": "Big Man Down : défaussez la carte au coût le plus élevé. Jouée au tour un, l'adversaire jette une carte qu'il était loin de pouvoir lancer. Aucun moment de réflexion, aucune déduction, aucune décision. En pratique une défausse aléatoire, et sans doute sans conséquence."
+        },
+        {
+          "title": "L'impact est un test distinct du choix",
+          "rules": "Une carte peut échouer deux fois. Au-delà de savoir si elle a produit une décision, demandez si le résultat se verra seulement dans la partie : un effet qui peut ne rien changer vaut moins qu'un effet qui change toujours un peu.",
+          "flavor": "Little Man Down prend la carte la moins chère, que l'adversaire aurait sans doute pu lancer bientôt. Notez qu'elle exige la mention « non-terrain » pour ne pas asphyxier le mana ; Big Man Down non, car elle ne touche un terrain que si la main n'est que terrains."
+        },
+        {
+          "title": "Traitez chaque sort comme un petit jeu et demandez s'il était amusant",
+          "rules": "Un effet dont la fonction est d'empêcher part en déficit : il doit gagner sa place par le jeu qui l'entoure. Isolez la carte, jouez le moment, et jugez ce moment seul.",
+          "flavor": "Hymn to Tourach : vous perdez deux cartes au hasard. Pas amusant. Mind Rot : à peine. Blackmail : vous décidez tous les deux, plus la question du bon moment. Cabal Therapy : bâtie sur le jeu de Go Fish — déduction, instinct, et un peu de doigts croisés."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Truques de descarte",
+      "dek": "Como desenhar uma mágica de descarte, da cor que a possui até se a carta pronta é divertida.",
+      "overview": "Semana do Descarte, tratada como um procedimento de design: escolha a cor, escolha o tipo, obedeça à regra de velocidade, decida se a carta é de tema ou de utilidade, e então torne-a interessante. A última etapa é a que morde, porque o descarte já parte em desvantagem: sua função inteira é impedir que coisas aconteçam.",
+      "takeaway": "Toda mágica é um pequeno jogo em si. Pergunte se aquele jogo foi divertido, e a diferença entre Hymn to Tourach e Cabal Therapy deixa de ser questão de gosto.",
+      "lessons": [
+        {
+          "title": "Umas poucas mecânicas pertencem inteiramente a uma cor",
+          "rules": "A pizza de cores divide quase todas as habilidades entre várias cores, mas um punhado fica com uma só. Ao decidir construir nesse espaço, você já escolheu a cor antes de escolher qualquer outra coisa.",
+          "flavor": "O descarte é do preto. O preto é o rei de mexer com a cabeça das pessoas — bem literalmente. Faça uma carta de descarte e você estará quase certamente fazendo uma carta preta."
+        },
+        {
+          "title": "Outras cores podem alcançar o efeito pelo próprio idioma",
+          "rules": "Uma mecânica de uma cor pode ser aproximada em outras, desde que o caminho seja nativo da cor que o toma. O que chega nunca é o mesmo efeito, e essa diferença é justamente o ponto.",
+          "flavor": "O azul filtra: descarta primeiro, compra menos. O branco taxa, então nunca pode forçar o descarte; o oponente pode recusar e assumir a penalidade. O vermelho usa punições que devem soar como «botei fogo nas suas coisas, larga». Artefatos têm carta branca. O verde, em essência, não consegue."
+        },
+        {
+          "title": "Um limiar de quantidade pode mudar a cor de uma carta",
+          "rules": "Identidade de cor não é só o que o efeito faz: a escala pode deslocá-la. A mesma ação, repetida vezes suficientes, deixa de se ler como o método de uma cor e passa a se ler como o de outra.",
+          "flavor": "Aaron Forsythe sobre Stunted Growth: «Se você faz o oponente pôr uma carta da mão no topo do grimório, é preto. Duas cartas? Ainda preto. Três cartas? Ah, isso é verde.»"
+        },
+        {
+          "title": "Descarte acontece na velocidade de feitiço",
+          "rules": "Algumas restrições existem só para impedir que um efeito já desagradável fique insuportável. Tirar uma carta antes de o dono ter tido chance de usá-la é maldade demais até para a cor especializada em maldade.",
+          "flavor": "As exceções — Funeral Charm e umas poucas — são sempre efeitos de uso único. Tudo que é repetível vai na velocidade de feitiço sem exceção, o que arrasta o texto «somente quando você puder conjurar um feitiço»."
+        },
+        {
+          "title": "Descarte aleatório irrita mais que descarte escolhido",
+          "rules": "Perder algo pela decisão de um oponente é mais suportável do que perder ao acaso, porque uma decisão pode ser vencida e o acaso não. Essa assimetria merece ser levada em conta mesmo quando os resultados são idênticos.",
+          "flavor": "Os jogadores de fato preferiam perder uma carta escolhida pelo oponente. O oponente pode errar; você não engana o destino. A P&D percebeu a irritação e reduziu conscientemente o descarte aleatório."
+        },
+        {
+          "title": "Não tire terrenos de quem ainda está se montando",
+          "rules": "O mesmo princípio que contém a destruição de terrenos contém o descarte precoce de terrenos. Privar alguém do recurso que lhe permite participar não é um efeito forte: é uma exclusão do jogo.",
+          "flavor": "Como regra prática, nada jogável nos primeiros turnos pode forçar o descarte de terreno. Não conseguir jogar a partida simplesmente não é divertido."
+        },
+        {
+          "title": "Saiba se você está construindo tema ou utilidade",
+          "rules": "A mesma mecânica sustenta dois ofícios incompatíveis. Um quer quantidade, fica mais forte quanto mais cópias da ideia o acompanham, e visa esvaziar uma mão. O outro quer qualidade, uma carta por vez, e tem de funcionar sozinho.",
+          "flavor": "Descarte de tema é peça de uma máquina maior e pouco se importa com qual carta sai. Descarte de utilidade é uma resposta barata e proativa a uma ameaça específica, não precisa de apoio e aparece nos primeiros turnos."
+        },
+        {
+          "title": "Precifique os dois tipos de forma diferente",
+          "rules": "Quando um uso de uma mecânica alimenta uma estratégia que deixa o oponente sem poder jogar, contenha esse uso especificamente. O outro não constrói a estratégia sozinho e pode ser precificado com muito mais generosidade.",
+          "flavor": "Descarte é um dos três temidos, junto com destruição de terrenos e anulação: baralhos que impedem as pessoas de jogar e irritam muito acima da média. Então a P&D contém o descarte de tema e é agressiva com o de utilidade."
+        },
+        {
+          "title": "Uma carta que elimina as escolhas é mau design",
+          "rules": "O teste não é se o efeito é forte, e sim se alguém teve de pensar. Se nenhum jogador maximiza, minimiza ou antecipa nada, a carta falhou, faça ela o que fizer no campo.",
+          "flavor": "Big Man Down: descarte a carta de maior custo da mão. Jogada no turno um, o oponente joga fora algo que estava a muitos turnos de conjurar. Nenhum momento reflexivo, nenhuma dedução, nenhuma decisão. Na prática um descarte aleatório que provavelmente não vai importar."
+        },
+        {
+          "title": "Impacto é um teste separado da escolha",
+          "rules": "Uma carta pode falhar duas vezes. Além de saber se produziu uma decisão, pergunte se o resultado sequer vai aparecer na partida: um efeito que pode não mudar nada vale menos que um que sempre muda algo pequeno.",
+          "flavor": "Little Man Down leva a carta mais barata, que o oponente provavelmente poderia conjurar em breve. Note que ela precisa do adendo «que não seja terreno» para não sufocar o mana; Big Man Down não, porque só pega terreno se a mão for só terrenos."
+        },
+        {
+          "title": "Trate cada mágica como um jogo pequeno e pergunte se foi divertido",
+          "rules": "Um efeito cuja função é impedir começa em déficit, então precisa ganhar seu lugar pelo jogo que o cerca. Isole a carta, encene o momento e julgue aquele momento sozinho.",
+          "flavor": "Hymn to Tourach: você perde duas ao acaso. Não é divertido. Mind Rot: mal e mal. Blackmail: os dois decidem, mais a questão de quando conjurar. Cabal Therapy: construída sobre o Go Fish — dedução, instinto e uns dedos cruzados."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "弃牌把戏",
+      "dek": "怎么设计一张弃牌咒语——从「这个机制归哪个颜色」，一直到「做出来的这张牌好不好玩」。",
+      "overview": "弃牌周，被当成一套设计流程来处理：选颜色、选类型、遵守速度规则、决定这张牌是主题向还是工具向，然后把它做得有意思。最后那一步才是真正咬人的，因为弃牌天生就吃亏——它整份工作就是阻止事情发生。",
+      "takeaway": "每一个咒语本身都是一个小游戏。问问那个小游戏玩起来好不好玩，「痛苦圣歌」和「阴谋团疗法」之间的差别就不再是个人口味问题了。",
+      "lessons": [
+        {
+          "title": "有少数几个机制，是完完全全归某一个颜色的",
+          "rules": "色饼把大部分异能分给了好几种颜色，但有那么一小撮只归其中一种。当你决定要在那片空间里做东西时，你在选任何别的东西之前，就已经把颜色定了。",
+          "flavor": "弃牌是黑色的。黑色是「摆弄别人脑子」这件事上的王者——而且是字面意义上的。你做一张弃牌牌，那你几乎肯定是在做一张黑牌。"
+        },
+        {
+          "title": "别的颜色可以用自己的语汇去够到这个效果",
+          "rules": "一个由某种颜色独占的机制，仍然可以在别处被近似地做出来——前提是那条路径对借用它的颜色而言是原生的。做出来的东西永远不是同一个效果，而这份差异正是重点所在。",
+          "flavor": "蓝色靠筛选：先弃后抓，而且抓得比弃得少。白色靠征税，所以它永远不能强制弃牌；对手总可以拒绝并承受惩罚。红色用「惩罚式」牌，那感觉该是「我把你的东西点着了，快扔」。神器则是完全放行。而绿色基本上做不了。"
+        },
+        {
+          "title": "一个数量上的门槛，可以改变一张牌的颜色",
+          "rules": "颜色身份不只取决于这个效果做了什么；规模本身就能把它挪走。同一个动作重复到足够多次，就不再读作某个颜色的手法，而开始读作另一个颜色的了。",
+          "flavor": "艾伦·福赛斯谈「发育不良」：「你让对手把手上一张牌放到牌库顶，那是黑的。两张？还是黑的。三张？哦，那是绿的。」"
+        },
+        {
+          "title": "弃牌以法术的速度发生",
+          "rules": "有些限制的存在，纯粹是为了不让一个本来就不讨喜的效果变得无法忍受。在一张牌的主人还没来得及用它之前就把它拿走，即使对那个「专精刻薄」的颜色来说也太刻薄了。",
+          "flavor": "那些例外——葬礼护符和另外寥寥几张——永远是一次性效果。任何可重复的弃牌都无一例外是法术速度，也就带上了「只能于你可以施放法术时使用」那行字。"
+        },
+        {
+          "title": "随机弃牌比让人挑着弃更招人烦",
+          "rules": "因为对手的决定而失去某样东西，比因为运气而失去它更容易接受——因为决定是可以被击败的，而运气不行。哪怕两种结果完全一样，这份不对称也值得在设计时纳入考虑。",
+          "flavor": "玩家其实更愿意丢掉一张由对手挑走的牌。对手可能会挑错；可你骗不了命运。研发部意识到这一点惹人烦，于是有意识地把随机弃牌收了回来。"
+        },
+        {
+          "title": "别去拿一个还在起步的人手里的地",
+          "rules": "约束着地牌破坏的那条原则，同样约束着早期的弃地。剥夺一个人赖以参与游戏的资源，那不是一个强力效果，那是把他排除出这局游戏。",
+          "flavor": "一般的经验法则是：任何在头几个回合就打得出来的牌，都不许强制弃地。压根没得玩，这件事就是不好玩。"
+        },
+        {
+          "title": "先弄清楚你做的是主题向还是工具向",
+          "rules": "同一个机制支撑着两份互不相容的差事。一份要的是数量，同类牌越多它越强，目标是把对手的手清空。另一份要的是质量，一次解决一张，而且必须能单独工作。",
+          "flavor": "主题向的弃牌是更大机器上的一个零件，并不太在意走掉的是哪张牌。工具向的弃牌是针对某个具体威胁的、廉价而主动的答案，不需要支援，出现在开局的头几个回合。"
+        },
+        {
+          "title": "这两类的定价要分开来处理",
+          "rules": "当一个机制的某种用法在喂养一套「让对手没得玩」的战术时，就专门去压住那一种用法。而另一种用法本身撑不起那套战术，可以定价得慷慨得多。",
+          "flavor": "弃牌和地牌破坏、反击并称三大可怕之物——它们组成的牌组会让人没法玩游戏，招致的烦躁远高于平均水平。所以研发部压住主题向弃牌，而在工具向弃牌上定价激进。"
+        },
+        {
+          "title": "一张把选择都拿掉的牌，是糟糕的设计",
+          "rules": "检验标准不是这个效果强不强，而是有没有人必须动脑子。如果两名玩家都不需要求最大、求最小或者预判任何东西，那么无论它对场面做了什么，这张牌都失败了。",
+          "flavor": "「大个子倒下」：弃掉手上费用最高的那张。第一回合打出来，对手扔掉的是一张他还差好多回合才施放得出的牌。没有思考的瞬间，没有推理，没有决定。实际上就是一次随机弃牌，而且多半还不会有影响。"
+        },
+        {
+          "title": "「影响力」是与「选择」分开的另一道检验",
+          "rules": "一张牌可以失败两次。除了问它有没有制造出一个决定之外，还要问那个结果究竟会不会在这局游戏里留下痕迹：一个可能什么都不改变的效果，比一个总能改变一点点的效果更糟。",
+          "flavor": "「小个子倒下」拿走的是最便宜的那张，而那多半是对手很快就打得出来的。注意它必须加上「非地」这个限定词才不至于卡对手的法术力；「大个子倒下」不用，因为它只有在对手满手都是地的时候才会打到地。"
+        },
+        {
+          "title": "把每个咒语当成一个独立的小游戏，然后问它好不好玩",
+          "rules": "一个功能就是「阻止」的效果，起手就欠着账，所以它必须靠围绕它发生的那点博弈把位置挣回来。把这张牌单独拎出来，把那一刻演一遍，然后只就那一刻做判断。",
+          "flavor": "痛苦圣歌：你随机失去两张。不好玩。心灵腐蚀：也就将将好一点。敲诈：你我双方都要做决定，外加「什么时候打它」这个问题。阴谋团疗法：整个设计建在「钓鱼」纸牌游戏上——有推理，有直觉，还有一点交叉手指的祈祷。"
+        }
+      ]
+    }
+  }
+}
