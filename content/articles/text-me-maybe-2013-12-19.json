@@ -1,0 +1,242 @@
+{
+  "id": "text-me-maybe-2013-12-19",
+  "slug": "text-me-maybe-2013-12-19",
+  "column": "making-magic",
+  "author": "Jon Loucks",
+  "publishedAt": "2013-12-19",
+  "series": null,
+  "tags": ["magic-online", "interface", "templating", "style-guide", "digital"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/text-me-maybe-2013-12-19",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-25T19:05:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Text Me Maybe",
+      "dek": "Magic Online's card text style guide: blue means the card no longer matches what was printed, and everything else follows from that.",
+      "overview": "Jon Loucks wrote the Magic Online Card Text Style Guide to give the design team and the people coding the cards one shared definition of how a card should report its own state. The article walks the rules — what blue text means, what order gained abilities appear in, what belongs off the card entirely — and finishes in territory nobody has built yet.",
+      "takeaway": "The whole system aims at going unnoticed. A player should look at a changed card and simply know what changed, which is why every piece of it is a convention rather than a decoration.",
+      "lessons": [
+        {
+          "title": "The colour means changed, not important",
+          "rules": "Blue text on Magic Online says exactly one thing: this doesn't match what was printed. A visual code earns its place by carrying a single meaning, so that a player can read it without ever being taught it.",
+          "flavor": "A renamed Clone shows its new name in blue. A creature whose power and toughness differ from the printed numbers should show them in blue — and one that has stopped being a creature should have them greyed instead."
+        },
+        {
+          "title": "Write the style guide so two teams can share a definition",
+          "rules": "Consistency across a large surface isn't taste applied repeatedly; it needs a written target. The document exists so that the designers and the cardset team who actually code the cards are working from the same definition.",
+          "flavor": "Before it, the approach to card text style was simply inconsistent. Writing it down changes nothing overnight — what it gives the drift is a direction to drift in."
+        },
+        {
+          "title": "Retire a convention that collides with an existing one",
+          "rules": "A visual code that fights a code already in use has to go, however entrenched. Red strikethrough is being replaced by grey semi-transparent text, and blue text avoids colons, because in rules text a colon always announces an activated ability.",
+          "flavor": "Loucks cheerfully calls himself nit-picky here. Pithing Needle should read \"The named card is Mutavault,\" without the colon, because blue text is read as rules text and rules text has grammar."
+        },
+        {
+          "title": "Fix the ordering before the list gets long",
+          "rules": "An order that looks unnecessary while a list is short is exactly what keeps it from collapsing once the list grows. Gained abilities have a fixed sequence: state notes, counters, keywords and simple statics, complex statics, then activated abilities.",
+          "flavor": "Anything containing a comma has to leave the comma-separated stack and become its own paragraph. The worked example is an Advocate of the Beast that has picked up nine things at once."
+        },
+        {
+          "title": "Not all of it belongs on the card",
+          "rules": "The card face isn't the only surface. Some information belongs in the game log, some in a context menu, some in a tooltip — and choosing which is a design decision rather than an overflow valve.",
+          "flavor": "Whether a noncreature permanent is summoning sick matters when you're about to Koth one of your Mountains, but it lives in the right-click menu. So does the list of counters, since a doom counter and a dream counter look alike."
+        },
+        {
+          "title": "Rewriting the card beats annotating it",
+          "rules": "The interesting move isn't labelling a card from outside, it's changing what the card says. If a spell cast with overload made the substitution overload calls for directly in its own text, the player would read the effect instead of computing it.",
+          "flavor": "Fling could read \"deals damage equal to the sacrificed creature's power (2).\" Devotion to green could show its count in every zone. Loucks has a mockup and explicitly no promises."
+        },
+        {
+          "title": "Every feature you build is one you didn't",
+          "rules": "A roadmap shown in public is a direction rather than a commitment, because each item implemented displaces another. The target here is invisibility: done correctly, nobody notices the system is there at all.",
+          "flavor": "\"Any feature we implement means another feature that we don't implement. It's all about priority.\" The reward for getting card text style right is that no one ever mentions it."
+        }
+      ]
+    },
+    "es": {
+      "title": "Mándame un texto, quizá",
+      "dek": "La guía de estilo del texto de carta de Magic Online: el azul significa que la carta ya no coincide con lo impreso, y todo lo demás se deduce de ahí.",
+      "overview": "Jon Loucks escribió la Guía de estilo del texto de carta de Magic Online para que el equipo de diseño y quienes programan las cartas compartieran una única definición de cómo debe una carta informar de su propio estado. El artículo recorre las reglas —qué significa el texto azul, en qué orden aparecen las habilidades ganadas, qué no debe ir en la carta— y termina en terreno que nadie ha construido todavía.",
+      "takeaway": "Todo el sistema aspira a pasar desapercibido. Un jugador debería mirar una carta alterada y saber sin más qué ha cambiado, y por eso cada pieza es una convención y no un adorno.",
+      "lessons": [
+        {
+          "title": "El color significa «ha cambiado», no «es importante»",
+          "rules": "El texto azul en Magic Online dice exactamente una cosa: esto no coincide con lo impreso. Un código visual se gana su sitio por llevar un único significado, de modo que el jugador pueda leerlo sin que nadie se lo enseñe.",
+          "flavor": "Un Clone renombrado muestra su nuevo nombre en azul. Una criatura cuya fuerza y resistencia difieren de las impresas debería mostrarlas en azul, y otra que ha dejado de ser criatura debería mostrarlas en gris."
+        },
+        {
+          "title": "Escribe la guía de estilo para que dos equipos compartan una definición",
+          "rules": "La coherencia sobre una superficie grande no es buen gusto aplicado muchas veces: necesita una diana escrita. El documento existe para que los diseñadores y el equipo que programa las cartas trabajen con la misma definición.",
+          "flavor": "Antes de él, el criterio sobre el estilo del texto era sencillamente inconsistente. Ponerlo por escrito no cambia nada de la noche a la mañana: lo que le da a la deriva es una dirección hacia la que derivar."
+        },
+        {
+          "title": "Retira la convención que choca con otra ya existente",
+          "rules": "Un código visual que pelea contra otro ya en uso tiene que irse, por asentado que esté. El tachado rojo se está sustituyendo por texto gris semitransparente, y el texto azul evita los dos puntos, porque en el texto de reglas los dos puntos siempre anuncian una habilidad activada.",
+          "flavor": "Loucks se declara tiquismiquis con esto. Pithing Needle debería decir «La carta nombrada es Mutavault», sin dos puntos, porque el texto azul se lee como texto de reglas y el texto de reglas tiene gramática."
+        },
+        {
+          "title": "Fija el orden antes de que la lista se alargue",
+          "rules": "Un orden que parece innecesario mientras la lista es corta es justo lo que impide que se derrumbe cuando crece. Las habilidades ganadas siguen una secuencia fija: notas de estado, contadores, palabras clave y estáticas simples, estáticas complejas y, por último, activadas.",
+          "flavor": "Todo lo que contenga una coma tiene que salir de la pila separada por comas y convertirse en su propio párrafo. El ejemplo trabajado es un Advocate of the Beast que ha acumulado nueve cosas a la vez."
+        },
+        {
+          "title": "No todo tiene que ir en la carta",
+          "rules": "La cara de la carta no es la única superficie. Parte de la información va al registro de la partida, parte a un menú contextual, parte a un tooltip, y decidir cuál es un acto de diseño y no una válvula de escape.",
+          "flavor": "Si un permanente no criatura tiene mareo de invocación importa cuando vas a lanzarle un Koth a una de tus Montañas, pero eso vive en el menú del botón derecho. También la lista de contadores, porque un contador de perdición y uno de sueño se parecen demasiado."
+        },
+        {
+          "title": "Reescribir la carta gana a anotarla",
+          "rules": "La jugada interesante no es etiquetar la carta desde fuera, sino cambiar lo que la carta dice. Si un hechizo lanzado con sobrecarga hiciera en su propio texto la sustitución que la sobrecarga pide, el jugador leería el efecto en vez de calcularlo.",
+          "flavor": "Fling podría decir «hace daño igual a la fuerza de la criatura sacrificada (2)». La devoción al verde podría enseñar su número en todas las zonas. Loucks tiene una maqueta y ninguna promesa."
+        },
+        {
+          "title": "Cada función que construyes es otra que no",
+          "rules": "Una hoja de ruta enseñada en público es una dirección, no un compromiso, porque cada elemento implementado desplaza a otro. Aquí la meta es la invisibilidad: bien hecho, nadie nota que el sistema está ahí.",
+          "flavor": "«Cada función que implementamos es otra función que no implementamos. Todo es cuestión de prioridad.» El premio por acertar con el estilo del texto de carta es que nadie lo mencione jamás."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Écris-moi, peut-être",
+      "dek": "La charte de style du texte de carte sur Magic Online : le bleu signifie que la carte ne correspond plus à ce qui est imprimé, et tout le reste en découle.",
+      "overview": "Jon Loucks a rédigé la charte de style du texte de carte de Magic Online pour que l'équipe de design et ceux qui codent les cartes partagent une seule définition de la façon dont une carte doit rendre compte de son propre état. L'article parcourt les règles — ce que veut dire le texte bleu, dans quel ordre apparaissent les capacités gagnées, ce qui n'a pas sa place sur la carte — et s'achève sur un terrain que personne n'a encore bâti.",
+      "takeaway": "Tout le système vise à passer inaperçu. Un joueur devrait regarder une carte modifiée et savoir immédiatement ce qui a changé : d'où le fait que chaque élément soit une convention et non un ornement.",
+      "lessons": [
+        {
+          "title": "La couleur veut dire « modifié », pas « important »",
+          "rules": "Le texte bleu sur Magic Online dit exactement une chose : ceci ne correspond pas à l'imprimé. Un code visuel gagne sa place en portant un seul sens, de sorte qu'un joueur puisse le lire sans qu'on le lui apprenne.",
+          "flavor": "Un Clone renommé affiche son nouveau nom en bleu. Une créature dont la force et l'endurance diffèrent des valeurs imprimées devrait les afficher en bleu — et celle qui a cessé d'être une créature devrait les avoir en gris."
+        },
+        {
+          "title": "Écrivez la charte pour que deux équipes partagent une définition",
+          "rules": "La cohérence sur une grande surface n'est pas du goût appliqué en série : il lui faut une cible écrite. Le document existe pour que les concepteurs et l'équipe qui code réellement les cartes travaillent à partir de la même définition.",
+          "flavor": "Avant lui, l'approche du style de texte était simplement incohérente. Le mettre par écrit ne change rien du jour au lendemain — cela donne à la dérive une direction où dériver."
+        },
+        {
+          "title": "Retirez la convention qui entre en collision avec une autre",
+          "rules": "Un code visuel qui se bat contre un code déjà en service doit partir, si installé soit-il. Le barré rouge cède la place à un texte gris semi-transparent, et le texte bleu évite les deux-points, car dans le texte de règles les deux-points annoncent toujours une capacité activée.",
+          "flavor": "Loucks se déclare pointilleux là-dessus. Pithing Needle devrait dire « La carte nommée est Mutavault », sans deux-points, parce que le texte bleu se lit comme du texte de règles et que le texte de règles a une grammaire."
+        },
+        {
+          "title": "Fixez l'ordre avant que la liste ne s'allonge",
+          "rules": "Un ordre qui paraît superflu tant que la liste est courte est précisément ce qui l'empêche de s'effondrer quand elle grandit. Les capacités gagnées suivent une séquence fixe : notes d'état, marqueurs, mots-clés et statiques simples, statiques complexes, puis capacités activées.",
+          "flavor": "Tout ce qui contient une virgule doit quitter la pile séparée par des virgules et former son propre paragraphe. L'exemple travaillé est un Advocate of the Beast qui a ramassé neuf choses d'un coup."
+        },
+        {
+          "title": "Tout n'a pas sa place sur la carte",
+          "rules": "La face de la carte n'est pas la seule surface. Une part de l'information va au journal de partie, une autre à un menu contextuel, une autre à une info-bulle — et choisir laquelle est un acte de design, pas une soupape de débordement.",
+          "flavor": "Savoir si un permanent non-créature a le mal d'invocation compte au moment de viser une de vos Montagnes avec Koth, mais cela vit dans le menu contextuel. La liste des marqueurs aussi : un marqueur de perte et un marqueur de rêve se ressemblent trop."
+        },
+        {
+          "title": "Réécrire la carte vaut mieux que l'annoter",
+          "rules": "Le geste intéressant n'est pas d'étiqueter la carte de l'extérieur, c'est de changer ce qu'elle dit. Si un sort lancé avec surcharge opérait dans son propre texte la substitution que la surcharge réclame, le joueur lirait l'effet au lieu de le calculer.",
+          "flavor": "Fling pourrait afficher « inflige des blessures égales à la force de la créature sacrifiée (2) ». La dévotion au vert pourrait montrer son compte dans toutes les zones. Loucks a une maquette et aucune promesse."
+        },
+        {
+          "title": "Chaque fonctionnalité construite en est une autre écartée",
+          "rules": "Une feuille de route montrée en public est une direction, pas un engagement, puisque chaque élément implémenté en déplace un autre. La cible ici est l'invisibilité : bien fait, personne ne remarque que le système existe.",
+          "flavor": "« Chaque fonctionnalité que nous implémentons en est une autre que nous n'implémentons pas. Tout est affaire de priorité. » La récompense d'un style de texte réussi, c'est que personne n'en parle jamais."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Me manda um texto, quem sabe",
+      "dek": "O guia de estilo do texto de carta do Magic Online: azul quer dizer que a carta não bate mais com o que foi impresso, e todo o resto decorre disso.",
+      "overview": "Jon Loucks escreveu o Guia de Estilo de Texto de Carta do Magic Online para que a equipe de design e quem programa as cartas passassem a ter uma única definição de como uma carta deve relatar o próprio estado. O artigo percorre as regras — o que o texto azul significa, em que ordem aparecem as habilidades ganhas, o que não deve ir na carta — e termina num terreno que ninguém construiu ainda.",
+      "takeaway": "O sistema inteiro mira em passar despercebido. O jogador deveria olhar para uma carta alterada e simplesmente saber o que mudou, e é por isso que cada peça dele é convenção, não enfeite.",
+      "lessons": [
+        {
+          "title": "A cor quer dizer «mudou», não «é importante»",
+          "rules": "Texto azul no Magic Online diz exatamente uma coisa: isto não bate com o impresso. Um código visual merece seu lugar por carregar um único sentido, de modo que o jogador consiga lê-lo sem que ninguém precise ensinar.",
+          "flavor": "Um Clone renomeado mostra o novo nome em azul. Uma criatura cujo poder e resistência diferem dos impressos deveria mostrá-los em azul — e uma que deixou de ser criatura deveria tê-los em cinza."
+        },
+        {
+          "title": "Escreva o guia de estilo para duas equipes dividirem uma definição",
+          "rules": "Consistência numa superfície grande não é bom gosto aplicado muitas vezes: precisa de um alvo escrito. O documento existe para que os designers e a equipe que de fato programa as cartas trabalhem a partir da mesma definição.",
+          "flavor": "Antes dele, o critério de estilo de texto era simplesmente inconsistente. Pôr no papel não muda nada da noite para o dia — o que dá à deriva é uma direção para derivar."
+        },
+        {
+          "title": "Aposente a convenção que colide com outra já em uso",
+          "rules": "Um código visual que briga com outro já em serviço tem de sair, por mais entranhado que esteja. O tachado vermelho está sendo trocado por texto cinza semitransparente, e o texto azul evita dois-pontos, porque em texto de regras dois-pontos sempre anunciam uma habilidade ativada.",
+          "flavor": "Loucks se declara implicante nisso. Pithing Needle deveria dizer «A carta nomeada é Mutavault», sem os dois-pontos, porque texto azul é lido como texto de regras e texto de regras tem gramática."
+        },
+        {
+          "title": "Fixe a ordem antes de a lista crescer",
+          "rules": "Uma ordem que parece desnecessária enquanto a lista é curta é justamente o que impede o desabamento quando ela cresce. Habilidades ganhas seguem uma sequência fixa: notas de estado, marcadores, palavras-chave e estáticas simples, estáticas complexas e, por fim, ativadas.",
+          "flavor": "Tudo que contenha vírgula precisa sair da pilha separada por vírgulas e virar parágrafo próprio. O exemplo trabalhado é um Advocate of the Beast que juntou nove coisas de uma vez."
+        },
+        {
+          "title": "Nem tudo cabe na carta",
+          "rules": "A face da carta não é a única superfície. Parte da informação vai para o log da partida, parte para um menu de contexto, parte para um tooltip — e escolher qual é ato de design, não válvula de escape.",
+          "flavor": "Saber se um permanente não-criatura está com náusea de invocação importa na hora de mirar uma das suas Montanhas com Koth, mas isso mora no menu do botão direito. A lista de marcadores também: um marcador de perdição e um de sonho se parecem demais."
+        },
+        {
+          "title": "Reescrever a carta vale mais do que anotá-la",
+          "rules": "O movimento interessante não é etiquetar a carta por fora, é mudar o que ela diz. Se uma mágica conjurada com sobrecarga fizesse no próprio texto a substituição que a sobrecarga pede, o jogador leria o efeito em vez de calculá-lo.",
+          "flavor": "Fling poderia dizer «causa dano igual ao poder da criatura sacrificada (2)». Devoção ao verde poderia mostrar sua contagem em todas as zonas. Loucks tem um mockup e nenhuma promessa."
+        },
+        {
+          "title": "Toda funcionalidade que você constrói é outra que não",
+          "rules": "Um roteiro mostrado em público é direção, não compromisso, porque cada item implementado desloca outro. O alvo aqui é a invisibilidade: bem feito, ninguém percebe que o sistema está ali.",
+          "flavor": "«Toda funcionalidade que implementamos é outra que não implementamos. É tudo questão de prioridade.» O prêmio por acertar o estilo do texto de carta é ninguém nunca comentar."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "有空发条消息",
+      "dek": "万智牌 Online 的牌面文字样式指南：蓝色的意思是「这张牌已经和印出来的不一样了」，其余一切都从这句话推出来。",
+      "overview": "乔恩·卢克斯写下《万智牌 Online 牌面文字样式指南》，是为了让设计团队和真正把牌写成代码的人共用同一套定义：一张牌该如何交代自己当前的状态。文章把规矩过了一遍——蓝色文字意味着什么、获得的异能按什么顺序排列、哪些信息根本不该放在牌面上——最后落在一片还没有人动工的地界上。",
+      "takeaway": "整套系统的目标是让人察觉不到它。玩家看一眼被改动过的牌，就该知道改了什么；正因如此，它的每一个部件都是约定，而不是装饰。",
+      "lessons": [
+        {
+          "title": "颜色表示「变了」，不表示「重要」",
+          "rules": "在万智牌 Online 里，蓝色文字只说一件事：这里和印出来的不一样。一套视觉编码之所以站得住，是因为它只承载一个含义——于是玩家不必被人教过，也能读懂。",
+          "flavor": "被改了名的 Clone，新名字显示为蓝色。一只力量防御力与印刷值不同的生物，这两个数字也该是蓝的；而一张已经不再是生物的牌，则应该把它们变灰。"
+        },
+        {
+          "title": "写下样式指南，好让两个团队共用一份定义",
+          "rules": "大面积上的一致性，不是把好品味重复施加许多次，它需要一个写下来的靶子。这份文档的存在，是为了让设计师和真正把牌写成代码的那组人，从同一份定义出发。",
+          "flavor": "在它之前，牌面文字风格的处理就是不一致的。写下来并不会让事情一夜之间改观——它给这种漂移提供的，是一个可以往那儿漂的方向。"
+        },
+        {
+          "title": "撤掉那条和现有编码打架的约定",
+          "rules": "一套视觉编码若与已经在用的另一套相抵触，无论多根深蒂固都得让位。红色删除线正在被半透明的灰字取代；而蓝色文字要避开冒号，因为在规则文字里，冒号永远宣告一个起动式异能。",
+          "flavor": "卢克斯痛快承认自己在这件事上很挑剔。Pithing Needle 应该写成「所指名的牌是 Mutavault」，不带冒号——因为蓝字是当规则文字来读的，而规则文字是有语法的。"
+        },
+        {
+          "title": "趁列表还短，先把顺序定下来",
+          "rules": "列表短的时候，排序看起来多此一举；而正是它，在列表变长时不让一切垮掉。获得的异能有固定次序：状态说明、指示物、关键字与简单的静止式异能、复杂的静止式异能，最后才是起动式异能。",
+          "flavor": "任何本身含逗号的句子，都必须从那串以逗号分隔的清单里挪出来，自成一段。文中给的例子，是一只一口气挂上九样东西的 Advocate of the Beast。"
+        },
+        {
+          "title": "不是所有东西都该放在牌面上",
+          "rules": "牌面不是唯一的承载面。有些信息属于对局日志，有些属于右键菜单，有些属于悬浮提示——而决定它归哪儿，是一次设计动作，不是溢出后的泄压阀。",
+          "flavor": "一个非生物永久物是否处于召唤失调，在你准备对自己某座山脉用 Koth 时很要紧，但这条信息住在右键菜单里。指示物清单也一样：厄运指示物和睡梦指示物，长得实在太像。"
+        },
+        {
+          "title": "改写这张牌，胜过给它加批注",
+          "rules": "有意思的做法不是从外面给牌贴标签，而是改掉牌本身说的话。如果一个以增幅施放的咒语，直接在自己的文字里完成增幅所要求的替换，玩家就是在读结果，而不是在算结果。",
+          "flavor": "Fling 可以直接写成「造成等同于所牺牲生物力量（2）的伤害」。对绿色的献力，可以在所有区域里都显示出它的数值。卢克斯做了张样图，同时明确表示不作任何承诺。"
+        },
+        {
+          "title": "你做出的每一个功能，都是另一个没做的功能",
+          "rules": "公开展示的路线图是方向，不是承诺，因为每落实一项，就挤掉了另一项。这里的目标是隐形：做对了，没有人会注意到这套系统的存在。",
+          "flavor": "「我们实现的每一个功能，都意味着另一个功能没有被实现。一切都是优先级的问题。」把牌面文字样式做对的奖赏，就是从此没人提起它。"
+        }
+      ]
+    }
+  }
+}
