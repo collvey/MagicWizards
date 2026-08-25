@@ -1,0 +1,294 @@
+{
+  "id": "11-road-2005-09-26",
+  "slug": "11-road-2005-09-26",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2005-09-26",
+  "series": null,
+  "tags": ["counters", "tokens", "ravnica", "design-rules", "alpha"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/11-road-2005-09-26",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-26T06:25:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "W" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "R" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "+1/+1 For the Road",
+      "dek": "A glass bead guest-hosts, and explains why Magic keeps needing objects that aren't cards.",
+      "overview": "Rosewater hands the column to \"G.B.\", a glass bead who has worked both sides of the counter/token divide for twelve years. Under the conceit is a genuine history: the four bookkeeping problems Alpha had to solve, and the rules R&D built afterwards to stop them multiplying.",
+      "takeaway": "Every counter rule is a memory rule. The design keeps trading away expressive range to buy the ability to look across the table and know what you're seeing.",
+      "lessons": [
+        {
+          "title": "Memory problems outrank keeping play on the cards",
+          "rules": "Designers would rather everything live on the printed card. But when effects need to persist past a turn, something has to carry that state, and the need to remember wins over the preference for tidiness.",
+          "flavor": "Garfield hit the problem designing Alpha: cards wanted players to remember things for longer than a single turn. Counters and tokens got pulled in as a core part of the game rather than the exception."
+        },
+        {
+          "title": "Zero out the base stats and the counters become the creature",
+          "rules": "A thing that must both grow and shrink can't be tracked by additions alone. Drop its printed value to nothing and the markers stop being a modifier — they become the whole reading.",
+          "flavor": "Fungusaur and Sengir Vampire only ever grew, so counters just added. Clockwork Beast and Rock Hydra needed to go both ways, so their base stats were dropped to nothing and the counters defined them outright."
+        },
+        {
+          "title": "Ambiguity is what variety actually costs",
+          "rules": "Several kinds of marker for one axis look like expressive range until you sit across from them. A board state you can't read at a glance isn't a richer game, it's an unusable one.",
+          "flavor": "A Shapeshifter with three counters on it could be seven different creatures: 0/7, 1/6, 2/5, 3/4, 4/3, 5/2 or 6/1, depending on which mix of +0/+2, +1/+1 and +2/+0 got put there."
+        },
+        {
+          "title": "Consolidating costs you design space, and you should know exactly how much",
+          "rules": "Standardising on one marker buys instant legibility and gives up everything the others could say. Almost every design decision closes off space; the skill is knowing what's lost and what's bought in return.",
+          "flavor": "First a rule: one kind of power/toughness counter per card. Then only +1/+1, since base-stat technology covered the rest. Then whole blocks concentrate a counter type — Mirrodin put nothing but +1/+1 counters on creatures."
+        },
+        {
+          "title": "A counter has to sit with the card that explains it",
+          "rules": "Markers denoting a resource or a permanent change stay on their source, and leave when it does. Otherwise you're looking at something whose meaning has walked out of the game.",
+          "flavor": "\"If I'm sitting on a card and the only thing that tells you what I am isn't in play, I'm just a little shiny glass enigma.\" Hence the rider on most permanent-change cards: the counters go when the card goes."
+        },
+        {
+          "title": "Establish a default and you can stop paying for the rule",
+          "rules": "Once one meaning is assumed everywhere, it no longer needs a card present to explain it. The exemption is earned by ubiquity, not granted — and it's why picking the default matters more than the rule.",
+          "flavor": "A bead on a creature with nobody around to say otherwise is safely a +1/+1 counter. Tokens get the other exemption: a 2/2 attacking you every turn is memorable on its own, and not sitting on a card marks it as a token."
+        },
+        {
+          "title": "Token rules exist to hold down memory load, not to be elegant",
+          "rules": "One creature type per colour and size within a block. Power equal to toughness. Vanilla, except flying and haste. One token type per card. Each constraint buys back something a player would otherwise have to track.",
+          "flavor": "Judgment design tried a flashback spell, Cone of Creatures, that made a 1/1 squirrel, a 2/2 bear and a 3/3 elephant. Playtesters kept mixing the tokens up, so the card was scrapped."
+        },
+        {
+          "title": "Consolidation is what makes payoffs possible",
+          "rules": "Fixing a convention doesn't only reduce confusion — it creates a thing there's now enough of to reward. The rule that flattens variety is the same rule that opens a design slot.",
+          "flavor": "Every Odyssey 1/1 green token was a squirrel. That's the only reason Squirrel Mob could exist. Odyssey needed more tokens than usual anyway, because flashback demanded them."
+        },
+        {
+          "title": "In a guild block, a mono-coloured card has several masters",
+          "rules": "With four two-colour factions, some colours appear twice, and every mono-coloured card in the block gets examined by each faction it might join. That forces themes open-ended enough to shift meaning with each partner.",
+          "flavor": "Green's answer was growth — permanent growth, which means permanent change. That's why green produces the most tokens and the most +1/+1 counters, and why Ravnica was such good employment for glass beads."
+        }
+      ]
+    },
+    "es": {
+      "title": "Un +1/+1 para el camino",
+      "dek": "Una cuenta de cristal ejerce de anfitriona invitada y explica por qué Magic sigue necesitando objetos que no son cartas.",
+      "overview": "Rosewater cede la columna a «G.B.», una cuenta de cristal que lleva doce años trabajando en ambos lados de la frontera entre contador y ficha. Bajo la ocurrencia hay una historia real: los cuatro problemas de contabilidad que Alpha tuvo que resolver y las reglas que I+D construyó después para que no se multiplicaran.",
+      "takeaway": "Toda regla sobre contadores es una regla sobre memoria. El diseño renuncia una y otra vez a rango expresivo para comprar la capacidad de mirar al otro lado de la mesa y saber qué estás viendo.",
+      "lessons": [
+        {
+          "title": "Los problemas de memoria pesan más que mantener el juego en las cartas",
+          "rules": "Los diseñadores preferirían que todo viviera en la carta impresa. Pero cuando un efecto debe persistir más allá del turno, algo tiene que sostener ese estado, y la necesidad de recordar gana a la preferencia por la pulcritud.",
+          "flavor": "Garfield chocó con esto diseñando Alpha: había cartas que pedían recordar cosas durante más de un turno. Los contadores y las fichas entraron como parte central del juego, no como excepción."
+        },
+        {
+          "title": "Pon las estadísticas base a cero y los contadores pasan a ser la criatura",
+          "rules": "Algo que debe crecer y encoger no puede rastrearse solo con sumas. Baja su valor impreso a nada y los marcadores dejan de ser un modificador: pasan a ser la lectura completa.",
+          "flavor": "Fungusaur y Sengir Vampire solo crecían, así que los contadores sumaban. Clockwork Beast y Rock Hydra tenían que ir en ambos sentidos, así que sus estadísticas base se bajaron a nada y los contadores las definían del todo."
+        },
+        {
+          "title": "La ambigüedad es lo que de verdad cuesta la variedad",
+          "rules": "Varios tipos de marcador para un mismo eje parecen rango expresivo hasta que te sientas enfrente. Un estado de mesa que no puedes leer de un vistazo no es un juego más rico: es un juego inutilizable.",
+          "flavor": "Un Shapeshifter con tres contadores podía ser siete criaturas distintas: 0/7, 1/6, 2/5, 3/4, 4/3, 5/2 o 6/1, según qué mezcla de +0/+2, +1/+1 y +2/+0 le hubieran puesto."
+        },
+        {
+          "title": "Consolidar cuesta espacio de diseño, y conviene saber cuánto exactamente",
+          "rules": "Estandarizar un marcador compra legibilidad inmediata y renuncia a todo lo que los otros podían decir. Casi toda decisión de diseño cierra espacio; la habilidad está en saber qué se pierde y qué se compra a cambio.",
+          "flavor": "Primero una regla: un solo tipo de contador de fuerza/resistencia por carta. Luego solo +1/+1, porque la tecnología de estadísticas base cubría el resto. Luego bloques enteros concentran un tipo: Mirrodin no puso otra cosa que +1/+1 en criaturas."
+        },
+        {
+          "title": "Un contador debe sentarse junto a la carta que lo explica",
+          "rules": "Los marcadores que señalan un recurso o un cambio permanente se quedan en su fuente y se van con ella. Si no, estás mirando algo cuyo significado se ha marchado de la partida.",
+          "flavor": "«Si estoy sentado en una carta y lo único que dice qué soy no está en juego, no soy más que un pequeño enigma brillante de cristal». De ahí la coletilla de casi todas esas cartas: los contadores se van cuando se va la carta."
+        },
+        {
+          "title": "Establece un valor por defecto y dejarás de pagar la regla",
+          "rules": "Cuando un significado se asume en todas partes, ya no necesita una carta presente que lo explique. La exención se gana por ubicuidad, no se concede, y por eso elegir el valor por defecto importa más que la regla.",
+          "flavor": "Una cuenta sobre una criatura, sin nadie que diga lo contrario, es con seguridad un contador +1/+1. Las fichas tienen la otra exención: un 2/2 que te ataca cada turno se recuerda solo, y no estar sobre una carta la marca como ficha."
+        },
+        {
+          "title": "Las reglas de fichas existen para contener la carga de memoria, no para ser elegantes",
+          "rules": "Un tipo de criatura por color y tamaño dentro de un bloque. Fuerza igual a resistencia. Vainilla, salvo volar y prisa. Un tipo de ficha por carta. Cada restricción devuelve algo que el jugador tendría que rastrear.",
+          "flavor": "En el diseño de Judgment se probó un hechizo con flashback, Cone of Creatures, que creaba una ardilla 1/1, un oso 2/2 y un elefante 3/3. Los probadores confundían las fichas sin parar, así que la carta se descartó."
+        },
+        {
+          "title": "La consolidación es lo que hace posibles las recompensas",
+          "rules": "Fijar una convención no solo reduce la confusión: crea una cosa de la que ya hay bastante como para premiarla. La regla que aplana la variedad es la misma que abre un hueco de diseño.",
+          "flavor": "Toda ficha verde 1/1 de Odyssey era una ardilla. Solo por eso pudo existir Squirrel Mob. Odyssey necesitaba más fichas de lo normal de todos modos, porque el flashback las exigía."
+        },
+        {
+          "title": "En un bloque de gremios, una carta monocolor tiene varios amos",
+          "rules": "Con cuatro facciones bicolores, algunos colores aparecen dos veces, y cada carta monocolor del bloque es examinada por cada facción a la que podría unirse. Eso obliga a temas lo bastante abiertos para cambiar de sentido con cada socio.",
+          "flavor": "La respuesta del verde fue el crecimiento; crecimiento permanente, es decir, cambio permanente. Por eso el verde produce más fichas y más contadores +1/+1, y por eso Ravnica dio tanto empleo a las cuentas de cristal."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Un +1/+1 pour la route",
+      "dek": "Une perle de verre assure l'intérim et explique pourquoi Magic a sans cesse besoin d'objets qui ne sont pas des cartes.",
+      "overview": "Rosewater confie la chronique à « G.B. », une perle de verre qui exerce des deux côtés de la frontière marqueur/jeton depuis douze ans. Sous le procédé, une histoire réelle : les quatre problèmes de comptabilité qu'Alpha a dû résoudre, et les règles que la R&D a bâties ensuite pour les empêcher de proliférer.",
+      "takeaway": "Toute règle sur les marqueurs est une règle de mémoire. Le design échange sans cesse de la richesse expressive contre la capacité de regarder en face de soi et de savoir ce qu'on voit.",
+      "lessons": [
+        {
+          "title": "Les problèmes de mémoire priment sur le fait de tout garder sur les cartes",
+          "rules": "Les concepteurs préféreraient que tout vive sur la carte imprimée. Mais quand un effet doit durer au-delà du tour, quelque chose doit porter cet état, et le besoin de se souvenir l'emporte sur le goût de la propreté.",
+          "flavor": "Garfield a buté là-dessus en concevant Alpha : des cartes exigeaient qu'on retienne des choses plus d'un tour. Marqueurs et jetons sont entrés comme partie centrale du jeu, non comme exception."
+        },
+        {
+          "title": "Mettez les caractéristiques de base à zéro et les marqueurs deviennent la créature",
+          "rules": "Ce qui doit à la fois grandir et rétrécir ne se suit pas par de seules additions. Ramenez la valeur imprimée à rien et les marqueurs cessent d'être un modificateur : ils deviennent la lecture entière.",
+          "flavor": "Fungusaur et Sengir Vampire ne faisaient que grandir : les marqueurs s'ajoutaient. Clockwork Beast et Rock Hydra devaient aller dans les deux sens ; on a donc mis leurs stats de base à rien et les marqueurs les ont définies."
+        },
+        {
+          "title": "L'ambiguïté est le vrai prix de la variété",
+          "rules": "Plusieurs sortes de marqueurs pour un même axe ressemblent à de la richesse, jusqu'à ce qu'on soit assis en face. Un plateau qu'on ne lit pas d'un coup d'œil n'est pas un jeu plus riche, c'est un jeu inutilisable.",
+          "flavor": "Un Shapeshifter avec trois marqueurs pouvait être sept créatures différentes : 0/7, 1/6, 2/5, 3/4, 4/3, 5/2 ou 6/1, selon le mélange de +0/+2, +1/+1 et +2/+0 posé dessus."
+        },
+        {
+          "title": "Consolider coûte de l'espace de conception, et il faut savoir combien exactement",
+          "rules": "Standardiser un marqueur achète une lisibilité immédiate et abandonne tout ce que les autres pouvaient dire. Presque toute décision de design ferme de l'espace ; l'art est de savoir ce qu'on perd et ce qu'on gagne en échange.",
+          "flavor": "D'abord une règle : un seul type de marqueur de force/endurance par carte. Puis seulement les +1/+1, la technologie des stats de base couvrant le reste. Puis des blocs entiers concentrent un type : Mirrodin n'a mis que des +1/+1 sur les créatures."
+        },
+        {
+          "title": "Un marqueur doit reposer près de la carte qui l'explique",
+          "rules": "Les marqueurs signalant une ressource ou un changement permanent restent sur leur source et partent avec elle. Sinon vous regardez une chose dont le sens a quitté la partie.",
+          "flavor": "« Si je suis posé sur une carte et que la seule chose qui dit ce que je suis n'est pas en jeu, je ne suis qu'une petite énigme de verre brillante. » D'où la clause sur presque toutes ces cartes : les marqueurs s'en vont avec elle."
+        },
+        {
+          "title": "Instaurez un défaut et vous cessez de payer la règle",
+          "rules": "Dès qu'un sens est présumé partout, il n'a plus besoin d'une carte présente pour l'expliquer. L'exemption se gagne par l'ubiquité, elle ne s'accorde pas — d'où l'importance du choix du défaut, plus que de la règle.",
+          "flavor": "Une perle sur une créature, sans personne pour dire le contraire, est sans risque un marqueur +1/+1. Les jetons ont l'autre exemption : un 2/2 qui vous attaque chaque tour se retient tout seul, et ne pas reposer sur une carte le signale comme jeton."
+        },
+        {
+          "title": "Les règles sur les jetons existent pour contenir la charge mémoire, pas pour être élégantes",
+          "rules": "Un type de créature par couleur et par taille dans un bloc. Force égale à l'endurance. Vanille, sauf vol et célérité. Un type de jeton par carte. Chaque contrainte rachète une chose que le joueur devrait sinon suivre.",
+          "flavor": "En conception de Judgment, on a tenté un sort à flashback, Cone of Creatures, créant un écureuil 1/1, un ours 2/2 et un éléphant 3/3. Les testeurs confondaient sans cesse les jetons : la carte a été abandonnée."
+        },
+        {
+          "title": "La consolidation est ce qui rend les récompenses possibles",
+          "rules": "Fixer une convention ne fait pas que réduire la confusion : elle crée une chose dont il existe désormais assez d'exemplaires pour être récompensée. La règle qui aplatit la variété est celle qui ouvre un emplacement de design.",
+          "flavor": "Chaque jeton vert 1/1 d'Odyssey était un écureuil. C'est la seule raison pour laquelle Squirrel Mob a pu exister. Odyssey réclamait de toute façon plus de jetons que d'habitude, à cause du flashback."
+        },
+        {
+          "title": "Dans un bloc de guildes, une carte monocolore a plusieurs maîtres",
+          "rules": "Avec quatre factions bicolores, certaines couleurs apparaissent deux fois, et chaque carte monocolore du bloc est examinée par chaque faction qu'elle pourrait rejoindre. D'où des thèmes assez ouverts pour changer de sens selon le partenaire.",
+          "flavor": "La réponse du vert fut la croissance — une croissance permanente, donc un changement permanent. Voilà pourquoi le vert produit le plus de jetons et le plus de marqueurs +1/+1, et pourquoi Ravnica employait si bien les perles de verre."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Um +1/+1 pra viagem",
+      "dek": "Uma conta de vidro assume a coluna e explica por que Magic vive precisando de objetos que não são cartas.",
+      "overview": "Rosewater entrega a coluna a «G.B.», uma conta de vidro que há doze anos trabalha dos dois lados da fronteira entre marcador e ficha. Sob a sacada há uma história real: os quatro problemas de contabilidade que Alpha teve de resolver e as regras que a P&D construiu depois para que não se multiplicassem.",
+      "takeaway": "Toda regra sobre marcadores é uma regra de memória. O design abre mão de alcance expressivo repetidamente para comprar a capacidade de olhar para o outro lado da mesa e saber o que está vendo.",
+      "lessons": [
+        {
+          "title": "Problemas de memória pesam mais do que manter o jogo nas cartas",
+          "rules": "Os designers prefeririam que tudo vivesse na carta impressa. Mas quando um efeito precisa durar além do turno, algo tem de carregar esse estado, e a necessidade de lembrar vence a preferência pela limpeza.",
+          "flavor": "Garfield esbarrou nisso ao desenhar Alpha: havia cartas exigindo que se lembrasse de coisas por mais de um turno. Marcadores e fichas entraram como parte central do jogo, não como exceção."
+        },
+        {
+          "title": "Zere os atributos base e os marcadores viram a criatura",
+          "rules": "Algo que precisa crescer e encolher não se rastreia só com somas. Reduza o valor impresso a nada e os marcadores deixam de ser modificador: passam a ser a leitura inteira.",
+          "flavor": "Fungusaur e Sengir Vampire só cresciam, então os marcadores somavam. Clockwork Beast e Rock Hydra precisavam ir nos dois sentidos, então seus atributos base foram zerados e os marcadores passaram a defini-los."
+        },
+        {
+          "title": "Ambiguidade é o que a variedade realmente custa",
+          "rules": "Vários tipos de marcador para um mesmo eixo parecem alcance expressivo até você sentar do outro lado. Um estado de mesa que não dá para ler de relance não é um jogo mais rico: é um jogo inutilizável.",
+          "flavor": "Um Shapeshifter com três marcadores podia ser sete criaturas diferentes: 0/7, 1/6, 2/5, 3/4, 4/3, 5/2 ou 6/1, dependendo da mistura de +0/+2, +1/+1 e +2/+0 colocada nele."
+        },
+        {
+          "title": "Consolidar custa espaço de design, e convém saber exatamente quanto",
+          "rules": "Padronizar um marcador compra legibilidade imediata e abre mão de tudo o que os outros podiam dizer. Quase toda decisão de design fecha espaço; a habilidade está em saber o que se perde e o que se compra em troca.",
+          "flavor": "Primeiro uma regra: um só tipo de marcador de poder/resistência por carta. Depois só +1/+1, já que a tecnologia de atributos base cobria o resto. Depois blocos inteiros concentram um tipo: Mirrodin só pôs +1/+1 em criaturas."
+        },
+        {
+          "title": "Um marcador precisa ficar junto da carta que o explica",
+          "rules": "Marcadores que indicam um recurso ou uma mudança permanente ficam na sua fonte e vão embora com ela. Do contrário você olha para algo cujo significado saiu do jogo.",
+          "flavor": "«Se eu estou sobre uma carta e a única coisa que diz o que eu sou não está em jogo, sou só um pequeno enigma brilhante de vidro.» Daí a cláusula na maioria dessas cartas: os marcadores saem quando a carta sai."
+        },
+        {
+          "title": "Estabeleça um padrão e você para de pagar pela regra",
+          "rules": "Quando um significado é presumido em toda parte, ele não precisa mais de uma carta presente para explicá-lo. A isenção se ganha por onipresença, não se concede — e por isso escolher o padrão importa mais do que a regra.",
+          "flavor": "Uma conta sobre uma criatura, sem ninguém dizendo o contrário, é com segurança um marcador +1/+1. Fichas têm a outra isenção: um 2/2 que te ataca todo turno se lembra sozinho, e não estar sobre uma carta já a marca como ficha."
+        },
+        {
+          "title": "As regras de ficha existem para conter a carga de memória, não para ser elegantes",
+          "rules": "Um tipo de criatura por cor e tamanho dentro de um bloco. Poder igual à resistência. Baunilha, exceto voar e ímpeto. Um tipo de ficha por carta. Cada restrição devolve algo que o jogador teria de rastrear.",
+          "flavor": "No design de Judgment testou-se uma mágica com lampejo, Cone of Creatures, que criava um esquilo 1/1, um urso 2/2 e um elefante 3/3. Os testadores viviam confundindo as fichas, e a carta foi descartada."
+        },
+        {
+          "title": "Consolidação é o que torna as recompensas possíveis",
+          "rules": "Fixar uma convenção não só reduz a confusão: cria uma coisa da qual agora existe o bastante para ser premiada. A regra que achata a variedade é a mesma que abre um espaço de design.",
+          "flavor": "Toda ficha verde 1/1 de Odyssey era um esquilo. Só por isso Squirrel Mob pôde existir. Odyssey precisava de mais fichas que o normal de qualquer forma, porque o lampejo as exigia."
+        },
+        {
+          "title": "Num bloco de guildas, uma carta monocolorida tem vários senhores",
+          "rules": "Com quatro facções de duas cores, algumas cores aparecem duas vezes, e cada carta monocolorida do bloco é examinada por cada facção a que poderia se juntar. Isso força temas abertos o bastante para mudar de sentido com cada parceiro.",
+          "flavor": "A resposta do verde foi o crescimento — crescimento permanente, ou seja, mudança permanente. Por isso o verde produz mais fichas e mais marcadores +1/+1, e por isso Ravnica foi tão bom emprego para contas de vidro."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "临行再来一个 +1/+1",
+      "dek": "一颗玻璃珠客串主笔，解释万智牌为什么总是需要一些「不是牌」的东西。",
+      "overview": "罗斯瓦特把专栏交给了「G.B.」——一颗在指示物与衍生物两边都干了十二年的玻璃珠。这层外壳底下是一段真实的历史：Alpha 必须解决的四类记录问题，以及研发部后来为了不让它们扩散而立下的规矩。",
+      "takeaway": "每一条关于指示物的规则，本质上都是关于记忆的规则。设计一次次拿表达空间去换取一样东西：让你朝桌子对面看一眼，就知道自己看到的是什么。",
+      "lessons": [
+        {
+          "title": "记忆问题的分量，压过「把游戏留在牌面上」",
+          "rules": "设计师当然希望一切都活在印好的牌上。但当一个效应必须跨过回合存续时，总得有东西来承载那个状态；而「需要记住」赢过了「希望整洁」。",
+          "flavor": "加菲尔德在设计 Alpha 时就撞上了这个问题：有些牌要求玩家记住的东西不止一个回合。于是指示物和衍生物被拉进来，成了游戏的核心组成部分，而不是例外。"
+        },
+        {
+          "title": "把基础数值归零，指示物就成了这只生物本身",
+          "rules": "一样既要变大又要变小的东西，光靠加法是记不住的。把它印在牌上的数值降到零，那些标记就不再是修正值——它们成了全部的读数。",
+          "flavor": "菌兽和森吉尔吸血鬼只会变大，所以指示物只做加法。发条兽和岩石多头龙需要双向变化，于是它们的基础数值被降到零，改由指示物直接定义。"
+        },
+        {
+          "title": "多样性真正的代价是歧义",
+          "rules": "同一个维度上有好几种标记，看着像是表达力丰富，直到你坐到对面去。一个你没法一眼读懂的场面，不是更丰富的游戏，而是一个用不了的游戏。",
+          "flavor": "一只带三个指示物的变形师，可能是七种不同的生物：0/7、1/6、2/5、3/4、4/3、5/2 或 6/1——取决于放上去的是 +0/+2、+1/+1 和 +2/+0 的哪种组合。"
+        },
+        {
+          "title": "整合是要拿设计空间去换的，而你该清楚换掉了多少",
+          "rules": "统一到一种标记，买来的是即时的可读性，交出去的是其余标记本可以表达的一切。几乎每个设计决定都会关掉一片空间；本事在于知道失去了什么、换回了什么。",
+          "flavor": "先是一条规则：每张牌只能有一种改变力量/防御力的指示物。然后只剩 +1/+1，因为基础数值那套技术已经能覆盖其余。再然后整个环境集中一种：秘罗地放在生物上的只有 +1/+1。"
+        },
+        {
+          "title": "指示物必须待在解释它的那张牌旁边",
+          "rules": "标示某种资源或某项永久改变的标记，要留在它的来源上，并随来源一起离场。否则你看着的东西，其含义已经离开这局游戏了。",
+          "flavor": "「如果我趴在一张牌上，而唯一能说明我是什么的东西不在场上，那我就只是一小块亮晶晶的玻璃谜题。」所以这类牌大多带一句附注：牌走了，指示物也走。"
+        },
+        {
+          "title": "立下一个默认值，你就不必再为那条规则付费",
+          "rules": "一旦某个含义在任何地方都被默认，它就不再需要一张牌在场来解释自己。这种豁免是靠无处不在挣来的，不是被赐予的——所以选对默认值比立那条规则更要紧。",
+          "flavor": "一颗珠子放在生物上、身边没人另作说明，那它基本上就是个 +1/+1 指示物。衍生物拿到的是另一份豁免：一个每回合打你的 2/2 本身就够让人记住，而「不趴在牌上」也正好标明它是衍生物。"
+        },
+        {
+          "title": "衍生物的规则是为了压住记忆负担，不是为了优雅",
+          "rules": "同一个环境里，每种颜色、每种尺寸只对应一种生物类别。力量等于防御力。除了飞行和敏捷之外一律没有异能。每张牌只产一种衍生物。每一条限制，都换回了一件玩家原本得自己记的事。",
+          "flavor": "《审判》的设计里试过一张返照咒语「造物锥」，能造出 1/1 松鼠、2/2 熊和 3/3 象。试玩者老是把这些衍生物弄混，于是这张牌被砍掉了。"
+        },
+        {
+          "title": "正是整合，才让「回报」成为可能",
+          "rules": "定死一个惯例不只是减少混乱：它造出了一样如今数量足够多、因而值得去奖励的东西。那条抹平多样性的规则，同时也是打开一个设计位的规则。",
+          "flavor": "《奥德赛》里每一个 1/1 绿色衍生物都是松鼠。正因如此，「松鼠暴民」才可能存在。反正《奥德赛》本来就需要比平常更多的衍生物——返照逼的。"
+        },
+        {
+          "title": "在公会环境里，一张单色牌有好几个主人",
+          "rules": "有四个双色阵营时，某些颜色会出现两次；而这个环境里的每一张单色牌，都要被它可能加入的每一个阵营各审视一遍。这就逼得主题必须足够开放，能随不同搭档改变含义。",
+          "flavor": "绿色给出的答案是「成长」——永久的成长，也就是永久的改变。这正是绿色产出最多衍生物、也最常产出 +1/+1 指示物的原因，也是拉尼卡对玻璃珠来说就业形势大好的原因。"
+        }
+      ]
+    }
+  }
+}
