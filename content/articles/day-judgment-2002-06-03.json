@@ -1,0 +1,450 @@
+{
+  "id": "day-judgment-2002-06-03",
+  "slug": "day-judgment-2002-06-03",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2002-06-03",
+  "series": null,
+  "tags": ["judgment", "card-design", "constraints", "flashback", "design-files"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/day-judgment-2002-06-03",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-28T11:30:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "G" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "W" },
+    { "n": 10, "color": "U" },
+    { "n": 11, "color": "B" },
+    { "n": 12, "color": "G" },
+    { "n": 13, "color": "B" },
+    { "n": 14, "color": "W" },
+    { "n": 15, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Day of Judgment",
+      "dek": "Five Judgment cards traced from first draft to print — including one that took five years, and one the designer asked to have killed after it had already passed development.",
+      "overview": "Five case studies, each isolating a different move: reviving a dead file, finding an effect whose curve flattens, filling a specified hole, merging two designs into one, and rationing your knobs across a year.",
+      "takeaway": "\"I feel restrictions fuel creativity.\"",
+      "lessons": [
+        {
+          "title": "Mine your own old files",
+          "rules": "A design that died for a reason unrelated to its quality is still a good design. Keep the files, reread them when you start something new, and check what the reason for killing it was.",
+          "flavor": "Solitary Confinement began as \"Protective Bubble\" in Tempest design, paid for with poison counters — and died when poison did. \"Whenever I work on the design of a new set, I often look back at some of my old files for ideas. During Judgment, I stumbled upon the old Tempest file. I came across Protective Bubble and started thinking about how I could change it.\""
+        },
+        {
+          "title": "A killed design still has descendants",
+          "rules": "Something cut from one project seeds others in the meantime. Track what it inspired, because the idea can be working for you years before its original form ever ships.",
+          "flavor": "\"For years I toyed around with variants, but none ever made it into a design. Until Judgment. (That's actually not 100% correct. Protective Bubble inspired Mercadian Masques' Ivory Mask.)\""
+        },
+        {
+          "title": "Keep the flavour, replace the resource",
+          "rules": "When the mechanism a design depended on disappears, the thing worth preserving is what it felt like. Name that feeling, then go looking for a different currency that produces it.",
+          "flavor": "\"The flavor I liked that I wanted to maintain was that you, the wizard, had cast a protective bubble around yourself that kept you safe. But it required a great deal of energy and it wasn't something you could maintain for a long time.\" Life was rejected — \"it didn't seem particularly white and besides, Glacial Chasm had been down that path\" — and the hand was chosen instead."
+        },
+        {
+          "title": "The upkeep has to outpace the income",
+          "rules": "A cost paid from a resource that replenishes automatically isn't a cost. Check the rate at which the player regains it, and price above that or the drawback evaporates.",
+          "flavor": "\"Next, I looked at the hand. This seemed to have potential. But as you drew a card every turn, I needed to have the cost to upkeep the bubble be greater than your draw.\" Hence the version that discarded two cards each upkeep."
+        },
+        {
+          "title": "Close the loophole you can already see",
+          "rules": "If one existing card obviously breaks the intended tension, don't wait for playtesting to find it. Restructure the cost so the exploit stops working, even at the price of a more complicated line.",
+          "flavor": "\"The biggest change was that we lowered the discard to one card but prevented you from drawing new cards. This change came from our concern with how my version interacted with Howling Mine. (Basically, you can keep the enchantment going forever.)\""
+        },
+        {
+          "title": "Leave the player room to work around the drawback",
+          "rules": "A disadvantage that can't be mitigated is just a tax. Loosen it slightly so someone can build to exploit the gap, and the same card becomes a puzzle rather than a price.",
+          "flavor": "\"The development team then made one small change. Rather than make a player skip all draws, the card only made the player skip his or her draw phase. The development team felt the card was more interesting if a player had the ability to build his deck around the disadvantage.\""
+        },
+        {
+          "title": "Find the effect whose curve flattens",
+          "rules": "When you want a quantity to matter without running away, don't cap it — find an effect that naturally saturates. The player stops gaining from the excess without anybody writing a limit.",
+          "flavor": "The problem: \"the effect became huge if you had any decent number of cards in the graveyard. I realized that what I wanted was a card where the first ten or so cards really mattered, but after that the effect was basically the same.\" The accidental answer: \"And then I stumbled across Winter Orb… untapping was something where a small number mattered but a large number did not. On average, a player only has ten or so permanents in play.\""
+        },
+        {
+          "title": "Restrictions fuel creativity",
+          "rules": "The version you'd have made with no constraints is almost always the obvious one. Being forbidden the direct route forces an invention that turns out to be better than what you were prevented from doing.",
+          "flavor": "David Lynch, making network television, wanted to open with a naked body washing ashore and couldn't. \"So Lynch came up with the idea of wrapping the body in plastic… But which is more interesting, creatively speaking: a naked woman washes ashore or a naked woman washes ashore wrapped in plastic? The latter, obviously. The show was called 'Twin Peaks.'\""
+        },
+        {
+          "title": "A hole is a specification",
+          "rules": "\"Make something good\" is harder than a list of constraints. A precisely defined gap — this slot, this colour, this audience, these card types — is a solvable puzzle rather than an open field.",
+          "flavor": "\"During Invasion design we had a hole in rare black and the design team was worried that we didn't have enough 'Johnny' cards… So I was asked to come up with a rare black Johnny/Timmy card. Also, we had a number of creatures, so I was asked to make it an enchantment, instant, or sorcery.\" \"Filling holes is one of my favorite parts of design… 'Here are all the constraints. Solve it. Have fun!'\""
+        },
+        {
+          "title": "Serve two audiences with two halves of one thing",
+          "rules": "A brief naming two different people isn't a compromise. Find the design where one property satisfies the first and a different property satisfies the second, and both get the whole card.",
+          "flavor": "\"I decided that I wanted to create a huge effect that players could build around. The 'big' part would make Timmy happy while the 'build around it' part would satisfy Johnny.\" The result was swapping library and graveyard — \"the idea of swapping two things that had never been swapped before.\""
+        },
+        {
+          "title": "Kill your own card to protect the future",
+          "rules": "A design that has already passed every gate can still be wrong, if it would compromise work nobody else can see yet. Withdrawing it is your call to make and yours to explain.",
+          "flavor": "\"Everyone liked the card and it sailed through development. And then I asked for the card to be killed. Why?… I had begun work on Odyssey… I realized that the Odyssey block was going to be intricately tied to the graveyard. I simply didn't know how this card was going to interact. The last thing I wanted to do was make a cool, interactive block and have some random rare card from the year before ruin everything.\""
+        },
+        {
+          "title": "Bring it back once you understand the environment",
+          "rules": "Withdrawing something isn't the same as rejecting it. When the uncertainty that made it dangerous is resolved, take it out of the drawer and put it where it now fits.",
+          "flavor": "\"Flash forward a year. By the time we were working on Judgment, we had a much better grasp on the Odyssey block. I pulled the card out, dusted it off, and put it in the Judgment design.\""
+        },
+        {
+          "title": "Watch for the merge",
+          "rules": "Two unrelated designs from the same period often turn out to be halves of one thing — one of them having already solved the problem blocking the other. Keep them where you can see them both.",
+          "flavor": "\"This card is a good example of what I call 'design merge.' Often times a designer makes multiple cards that, over time, merge together.\" The worry about two players trying to cast the same flashback spell was solved by an unrelated enchantment: \"But then we remembered Manipulation. It had solved the problem by not allowing the opponent access to the stolen item.\""
+        },
+        {
+          "title": "Anticipate the objection and bring the alternative",
+          "rules": "If you can predict which of your submissions the next stage will refuse, arrive with the replacement already designed. The decision then happens in one meeting instead of three.",
+          "flavor": "\"Anticipating that the development might have problems with this card, the design team came up with an alternate idea… The development team shared our concern and the alternate card was adopted.\""
+        },
+        {
+          "title": "Name your knobs, then ration them",
+          "rules": "Write down the small number of axes a design family can vary along. Then deliberately withhold one for later, so the next release has somewhere new to go without inventing anything.",
+          "flavor": "\"We found ourselves with three knobs to play with. We could make different size creatures. We could do spells as either instants or sorceries. And finally, we could change how many copies of the creature the card created.\" And: \"The Odyssey development team wanted to hold back on one of the three dials and chose to push off flashback spells that created multiple creatures for later in the block.\" By Judgment the answer was combining flashback with threshold — \"we were missing a more obvious twist.\""
+        }
+      ]
+    },
+    "es": {
+      "title": "El día del juicio",
+      "dek": "Cinco cartas de Judgment seguidas del primer borrador a la imprenta, incluida una que tardó cinco años y otra que el propio diseñador pidió matar después de que ya hubiera pasado desarrollo.",
+      "overview": "Cinco casos, cada uno aislando un movimiento distinto: resucitar un archivo muerto, encontrar un efecto cuya curva se aplana, rellenar un hueco especificado, fusionar dos diseños en uno, y racionar tus mandos a lo largo de un año.",
+      "takeaway": "«Creo que las restricciones alimentan la creatividad».",
+      "lessons": [
+        {
+          "title": "Explota tus propios archivos viejos",
+          "rules": "Un diseño que murió por una razón ajena a su calidad sigue siendo un buen diseño. Guarda los archivos, reléelos al empezar algo nuevo, y comprueba cuál fue la razón de matarlo.",
+          "flavor": "Solitary Confinement empezó como «Protective Bubble» en el diseño de Tempest, pagada con contadores de veneno, y murió cuando murió el veneno. «Siempre que trabajo en el diseño de un set nuevo, suelo mirar atrás en mis archivos viejos en busca de ideas. Durante Judgment me topé con el viejo archivo de Tempest. Me encontré con Protective Bubble y empecé a pensar cómo podría cambiarla»."
+        },
+        {
+          "title": "Un diseño muerto sigue teniendo descendencia",
+          "rules": "Algo cortado de un proyecto siembra otros mientras tanto. Sigue la pista de lo que inspiró, porque la idea puede llevar años trabajando para ti antes de que su forma original llegue a salir.",
+          "flavor": "«Durante años estuve jugueteando con variantes, pero ninguna entró en un diseño. Hasta Judgment. (Eso no es 100% correcto. Protective Bubble inspiró la Ivory Mask de Mercadian Masques.)»"
+        },
+        {
+          "title": "Conserva el sabor, sustituye el recurso",
+          "rules": "Cuando el mecanismo del que dependía un diseño desaparece, lo que merece conservarse es cómo se sentía. Nombra esa sensación y busca una moneda distinta que la produzca.",
+          "flavor": "«El sabor que me gustaba y quería mantener era que tú, el mago, habías lanzado una burbuja protectora a tu alrededor que te mantenía a salvo. Pero requería muchísima energía y no era algo que pudieras mantener mucho tiempo». Las vidas fueron descartadas —«no parecía particularmente blanco y además Glacial Chasm ya había recorrido ese camino»— y se eligió la mano."
+        },
+        {
+          "title": "El mantenimiento tiene que superar al ingreso",
+          "rules": "Un coste pagado con un recurso que se repone solo no es un coste. Comprueba a qué ritmo lo recupera el jugador y pon el precio por encima, o la desventaja se evapora.",
+          "flavor": "«Después miré la mano. Parecía tener potencial. Pero como robas una carta cada turno, necesitaba que el coste de mantener la burbuja fuera mayor que tu robo». De ahí la versión que descartaba dos cartas en cada mantenimiento."
+        },
+        {
+          "title": "Cierra el agujero que ya estás viendo",
+          "rules": "Si una carta existente rompe evidentemente la tensión buscada, no esperes a que lo descubran las pruebas. Reestructura el coste para que el abuso deje de funcionar, aunque salga una línea más complicada.",
+          "flavor": "«El mayor cambio fue que bajamos el descarte a una carta pero impedimos que robaras cartas nuevas. Este cambio vino de nuestra preocupación por cómo interactuaba mi versión con Howling Mine. (Básicamente, puedes mantener el encantamiento para siempre.)»"
+        },
+        {
+          "title": "Déjale al jugador margen para sortear la desventaja",
+          "rules": "Una desventaja que no se puede mitigar es solo un impuesto. Aflójala un poco para que alguien pueda construir aprovechando el resquicio, y la misma carta se vuelve un puzle en vez de un precio.",
+          "flavor": "«Después el equipo de desarrollo hizo un pequeño cambio. En vez de hacer que el jugador se saltara todos los robos, la carta solo le hacía saltarse su paso de robar. Al equipo de desarrollo le pareció que la carta era más interesante si el jugador tenía la posibilidad de construir su mazo alrededor de la desventaja»."
+        },
+        {
+          "title": "Busca el efecto cuya curva se aplana",
+          "rules": "Cuando quieres que una cantidad importe sin desbocarse, no le pongas tope: busca un efecto que se sature solo. El jugador deja de ganar por el exceso sin que nadie haya escrito un límite.",
+          "flavor": "El problema: «el efecto se volvía enorme si tenías un número decente de cartas en el cementerio. Me di cuenta de que lo que quería era una carta en la que las primeras diez cartas más o menos importaran de verdad, pero a partir de ahí el efecto fuera básicamente el mismo». La respuesta accidental: «Y entonces me topé con Winter Orb… desenderezar era algo donde un número pequeño importaba y uno grande no. De media, un jugador solo tiene unos diez permanentes en juego»."
+        },
+        {
+          "title": "Las restricciones alimentan la creatividad",
+          "rules": "La versión que harías sin ninguna restricción es casi siempre la obvia. Que te prohíban el camino directo fuerza una invención que acaba siendo mejor que aquello que te impidieron hacer.",
+          "flavor": "David Lynch, haciendo televisión en abierto, quería abrir con un cuerpo desnudo llegando a la orilla y no podía. «Así que a Lynch se le ocurrió envolver el cuerpo en plástico… ¿Y qué es más interesante, creativamente hablando: una mujer desnuda llega a la orilla, o una mujer desnuda llega a la orilla envuelta en plástico? Lo segundo, obviamente. La serie se llamaba 'Twin Peaks'»."
+        },
+        {
+          "title": "Un hueco es una especificación",
+          "rules": "«Haz algo bueno» es más difícil que una lista de restricciones. Un hueco definido con precisión —este espacio, este color, este público, estos tipos de carta— es un puzle resoluble en vez de un campo abierto.",
+          "flavor": "«Durante el diseño de Invasion teníamos un hueco en negro rara y el equipo temía que no tuviéramos suficientes cartas de 'Johnny'… Así que me pidieron que hiciera una carta rara negra de Johnny/Timmy. Además, teníamos ya varias criaturas, así que me pidieron que fuera un encantamiento, un instantáneo o un conjuro». «Rellenar huecos es una de mis partes favoritas del diseño… 'Aquí están todas las restricciones. Resuélvelo. ¡Diviértete!'»"
+        },
+        {
+          "title": "Sirve a dos públicos con dos mitades de una misma cosa",
+          "rules": "Un encargo que nombra a dos personas distintas no es un compromiso. Encuentra el diseño en el que una propiedad satisface a la primera y otra propiedad a la segunda, y ambas se llevan la carta entera.",
+          "flavor": "«Decidí que quería crear un efecto enorme alrededor del cual los jugadores pudieran construir. La parte 'grande' haría feliz a Timmy, mientras que la parte de 'construir alrededor' satisfaría a Johnny». El resultado fue intercambiar biblioteca y cementerio: «la idea de intercambiar dos cosas que nunca se habían intercambiado antes»."
+        },
+        {
+          "title": "Mata tu propia carta para proteger el futuro",
+          "rules": "Un diseño que ya ha pasado todos los filtros puede seguir estando mal, si va a comprometer un trabajo que nadie más ve todavía. Retirarlo es tu decisión y tuya la explicación.",
+          "flavor": "«A todo el mundo le gustó la carta y pasó desarrollo sin problemas. Y entonces pedí que la mataran. ¿Por qué?… Había empezado a trabajar en Odyssey… Me di cuenta de que el bloque de Odyssey iba a estar íntimamente ligado al cementerio. Sencillamente no sabía cómo iba a interactuar esta carta. Lo último que quería era hacer un bloque chulo e interactivo y que una rara cualquiera del año anterior lo arruinara todo»."
+        },
+        {
+          "title": "Recupérala cuando entiendas el entorno",
+          "rules": "Retirar algo no es lo mismo que rechazarlo. Cuando se resuelve la incertidumbre que lo hacía peligroso, sácalo del cajón y ponlo donde ahora encaja.",
+          "flavor": "«Avancemos un año. Para cuando estábamos trabajando en Judgment, teníamos una idea mucho mejor del bloque de Odyssey. Saqué la carta, le quité el polvo y la puse en el diseño de Judgment»."
+        },
+        {
+          "title": "Vigila las fusiones",
+          "rules": "Dos diseños sin relación del mismo periodo resultan a menudo ser dos mitades de una sola cosa, y uno de ellos ya resolvió el problema que bloqueaba al otro. Tenlos donde puedas verlos a la vez.",
+          "flavor": "«Esta carta es un buen ejemplo de lo que llamo 'fusión de diseño'. A menudo un diseñador hace varias cartas que, con el tiempo, se fusionan». La preocupación por que dos jugadores intentaran lanzar el mismo hechizo con flashback la resolvió un encantamiento sin relación: «Pero entonces nos acordamos de Manipulation. Había resuelto el problema no permitiendo al oponente acceder a lo robado»."
+        },
+        {
+          "title": "Anticipa la objeción y trae la alternativa",
+          "rules": "Si puedes predecir cuál de tus propuestas rechazará la siguiente etapa, llega con el sustituto ya diseñado. La decisión ocurre entonces en una reunión en vez de en tres.",
+          "flavor": "«Anticipando que desarrollo podría tener problemas con esta carta, el equipo de diseño ideó una alternativa… El equipo de desarrollo compartía nuestra preocupación y se adoptó la carta alternativa»."
+        },
+        {
+          "title": "Nombra tus mandos y luego racionalos",
+          "rules": "Anota el reducido número de ejes por los que puede variar una familia de diseños. Y luego reserva uno a propósito para más adelante, para que el siguiente lanzamiento tenga adónde ir sin inventar nada.",
+          "flavor": "«Nos encontramos con tres mandos con los que jugar. Podíamos hacer criaturas de tamaños distintos. Podíamos hacer los hechizos instantáneos o conjuros. Y por último, podíamos cambiar cuántas copias de la criatura creaba la carta». Y: «El equipo de desarrollo de Odyssey quiso reservarse uno de los tres diales y decidió posponer para más adelante en el bloque los hechizos con flashback que creaban varias criaturas». Para Judgment la respuesta fue combinar flashback con umbral: «nos estábamos perdiendo un giro más obvio»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Le jour du jugement",
+      "dek": "Cinq cartes de Judgment suivies du premier jet à l'impression — dont une qui a mis cinq ans, et une que le concepteur a demandé de tuer après qu'elle eut déjà passé le développement.",
+      "overview": "Cinq études de cas, chacune isolant un geste différent : ressusciter un fichier mort, trouver un effet dont la courbe s'aplatit, combler un trou spécifié, fusionner deux conceptions en une, et rationner ses boutons sur une année.",
+      "takeaway": "« Je crois que les contraintes nourrissent la créativité. »",
+      "lessons": [
+        {
+          "title": "Exploitez vos propres vieux fichiers",
+          "rules": "Une conception morte pour une raison étrangère à sa qualité reste une bonne conception. Gardez les fichiers, relisez-les en commençant quelque chose de neuf, et vérifiez pourquoi elle avait été tuée.",
+          "flavor": "Solitary Confinement a commencé sous le nom de « Protective Bubble » dans la conception de Tempest, payée en marqueurs poison — et est morte avec le poison. « Chaque fois que je travaille sur une nouvelle extension, je reviens souvent à mes vieux fichiers pour y chercher des idées. Pendant Judgment, je suis tombé sur l'ancien fichier de Tempest. J'ai retrouvé Protective Bubble et j'ai commencé à réfléchir à la façon de la modifier. »"
+        },
+        {
+          "title": "Une conception tuée a quand même une descendance",
+          "rules": "Ce qui est coupé d'un projet en ensemence d'autres entre-temps. Suivez ce qu'elle a inspiré, car l'idée peut travailler pour vous des années avant que sa forme d'origine ne sorte enfin.",
+          "flavor": "« Pendant des années j'ai bricolé des variantes, mais aucune n'est entrée dans une conception. Jusqu'à Judgment. (Ce n'est pas tout à fait exact : Protective Bubble a inspiré l'Ivory Mask de Mercadian Masques.) »"
+        },
+        {
+          "title": "Gardez l'ambiance, remplacez la ressource",
+          "rules": "Quand le mécanisme dont dépendait une conception disparaît, ce qui mérite d'être préservé est la sensation qu'elle produisait. Nommez cette sensation, puis cherchez une autre monnaie qui la produit.",
+          "flavor": "« L'ambiance que j'aimais et que je voulais garder, c'était que vous, le mage, aviez lancé autour de vous une bulle protectrice qui vous gardait en sécurité. Mais elle demandait énormément d'énergie et ce n'était pas quelque chose qu'on pouvait maintenir longtemps. » Les points de vie ont été écartés — « cela ne semblait pas particulièrement blanc, et Glacial Chasm avait déjà emprunté ce chemin » — et c'est la main qui a été retenue."
+        },
+        {
+          "title": "L'entretien doit dépasser le revenu",
+          "rules": "Un coût payé avec une ressource qui se reconstitue toute seule n'est pas un coût. Vérifiez à quel rythme le joueur la récupère et tarifez au-dessus, sinon l'inconvénient s'évapore.",
+          "flavor": "« Ensuite j'ai regardé du côté de la main. Cela semblait prometteur. Mais comme on pioche une carte par tour, il fallait que le coût d'entretien de la bulle soit supérieur à votre pioche. » D'où la version qui défaussait deux cartes à chaque entretien."
+        },
+        {
+          "title": "Bouchez la faille que vous voyez déjà",
+          "rules": "Si une carte existante casse manifestement la tension recherchée, n'attendez pas que les tests la trouvent. Restructurez le coût pour que l'abus cesse de fonctionner, même au prix d'une ligne plus compliquée.",
+          "flavor": "« Le plus gros changement, c'est que nous avons abaissé la défausse à une carte mais empêché de piocher de nouvelles cartes. Ce changement venait de notre inquiétude sur l'interaction de ma version avec Howling Mine. (En gros, on peut maintenir l'enchantement indéfiniment.) »"
+        },
+        {
+          "title": "Laissez au joueur de quoi contourner l'inconvénient",
+          "rules": "Un inconvénient qu'on ne peut pas atténuer n'est qu'une taxe. Relâchez-le légèrement pour que quelqu'un puisse construire autour de la brèche, et la même carte devient un casse-tête au lieu d'un prix.",
+          "flavor": "« L'équipe de développement a ensuite fait un petit changement. Plutôt que de faire sauter toutes les pioches au joueur, la carte ne lui faisait sauter que son étape de pioche. L'équipe trouvait la carte plus intéressante si le joueur avait la possibilité de construire son deck autour de l'inconvénient. »"
+        },
+        {
+          "title": "Trouvez l'effet dont la courbe s'aplatit",
+          "rules": "Quand vous voulez qu'une quantité compte sans s'emballer, ne la plafonnez pas : trouvez un effet qui sature de lui-même. Le joueur cesse de gagner sur l'excédent sans que personne ait écrit de limite.",
+          "flavor": "Le problème : « l'effet devenait énorme dès qu'on avait un nombre correct de cartes au cimetière. J'ai compris que ce que je voulais, c'était une carte où les dix premières cartes environ comptaient vraiment, mais où au-delà l'effet restait à peu près le même. » La réponse accidentelle : « Et puis je suis tombé sur Winter Orb… le dégagement, c'était une chose où un petit nombre comptait et un grand nombre non. En moyenne, un joueur n'a qu'une dizaine de permanents en jeu. »"
+        },
+        {
+          "title": "Les contraintes nourrissent la créativité",
+          "rules": "La version que vous auriez faite sans aucune contrainte est presque toujours la version évidente. Se voir interdire la voie directe force une invention qui se révèle meilleure que ce qu'on vous a empêché de faire.",
+          "flavor": "David Lynch, faisant de la télévision hertzienne, voulait ouvrir sur un corps nu échoué sur la rive et ne le pouvait pas. « Alors Lynch a eu l'idée d'envelopper le corps dans du plastique… Mais qu'est-ce qui est le plus intéressant, créativement : une femme nue échouée sur la rive, ou une femme nue échouée sur la rive enveloppée de plastique ? La seconde, évidemment. La série s'appelait 'Twin Peaks'. »"
+        },
+        {
+          "title": "Un trou est un cahier des charges",
+          "rules": "« Faites quelque chose de bien » est plus difficile qu'une liste de contraintes. Un manque défini avec précision — cet emplacement, cette couleur, ce public, ces types de carte — est un casse-tête soluble plutôt qu'un champ ouvert.",
+          "flavor": "« Pendant la conception d'Invasion, nous avions un trou en noir rare et l'équipe craignait de manquer de cartes 'Johnny'… On m'a donc demandé une carte noire rare Johnny/Timmy. Et comme nous avions déjà plusieurs créatures, on m'a demandé d'en faire un enchantement, un éphémère ou un rituel. » « Boucher les trous est l'une de mes parties préférées de la conception… 'Voici toutes les contraintes. Résolvez ça. Amusez-vous !' »"
+        },
+        {
+          "title": "Servez deux publics avec deux moitiés d'une même chose",
+          "rules": "Une commande qui nomme deux personnes différentes n'est pas un compromis. Trouvez la conception où une propriété satisfait la première et une autre propriété la seconde : les deux obtiennent la carte entière.",
+          "flavor": "« J'ai décidé de créer un effet énorme autour duquel les joueurs pourraient construire. Le côté 'énorme' ferait le bonheur de Timmy, tandis que le côté 'construire autour' satisferait Johnny. » Le résultat : échanger bibliothèque et cimetière — « l'idée d'échanger deux choses qui n'avaient jamais été échangées. »"
+        },
+        {
+          "title": "Tuez votre propre carte pour protéger l'avenir",
+          "rules": "Une conception qui a déjà franchi tous les filtres peut malgré tout être mauvaise, si elle compromet un travail que personne d'autre ne voit encore. La retirer est votre décision, et c'est à vous de l'expliquer.",
+          "flavor": "« Tout le monde aimait la carte et elle a traversé le développement sans encombre. Et puis j'ai demandé qu'on la tue. Pourquoi ?… J'avais commencé à travailler sur Odyssey… J'ai réalisé que le bloc Odyssey serait intimement lié au cimetière. Je ne savais tout simplement pas comment cette carte allait interagir. La dernière chose que je voulais, c'était faire un bloc chouette et interactif et qu'une rare quelconque de l'année précédente vienne tout gâcher. »"
+        },
+        {
+          "title": "Ressortez-la quand vous comprenez l'environnement",
+          "rules": "Retirer une chose n'est pas la rejeter. Quand l'incertitude qui la rendait dangereuse est levée, sortez-la du tiroir et mettez-la là où elle a désormais sa place.",
+          "flavor": "« Un an plus tard. Au moment de travailler sur Judgment, nous avions une bien meilleure maîtrise du bloc Odyssey. J'ai ressorti la carte, je l'ai dépoussiérée, et je l'ai mise dans la conception de Judgment. »"
+        },
+        {
+          "title": "Guettez la fusion",
+          "rules": "Deux conceptions sans rapport issues de la même période se révèlent souvent être deux moitiés d'une seule chose, l'une ayant déjà résolu le problème qui bloquait l'autre. Gardez-les toutes deux sous les yeux.",
+          "flavor": "« Cette carte est un bon exemple de ce que j'appelle la 'fusion de conception'. Souvent, un concepteur fait plusieurs cartes qui, avec le temps, fusionnent. » L'inquiétude de voir deux joueurs vouloir lancer le même sort à flashback a été résolue par un enchantement sans rapport : « Et puis nous nous sommes souvenus de Manipulation. Elle avait réglé le problème en interdisant à l'adversaire l'accès à l'objet volé. »"
+        },
+        {
+          "title": "Anticipez l'objection et apportez l'alternative",
+          "rules": "Si vous pouvez prédire laquelle de vos propositions l'étape suivante refusera, arrivez avec le remplaçant déjà conçu. La décision se prend alors en une réunion au lieu de trois.",
+          "flavor": "« Anticipant que le développement pourrait avoir des problèmes avec cette carte, l'équipe de conception a préparé une autre idée… L'équipe de développement partageait notre inquiétude et la carte alternative a été retenue. »"
+        },
+        {
+          "title": "Nommez vos boutons, puis rationnez-les",
+          "rules": "Notez le petit nombre d'axes sur lesquels une famille de conceptions peut varier. Puis mettez-en un de côté exprès, pour que la sortie suivante ait où aller sans rien inventer.",
+          "flavor": "« Nous nous sommes retrouvés avec trois boutons à manipuler. Nous pouvions faire des créatures de tailles différentes. Nous pouvions faire des sorts éphémères ou des rituels. Et enfin, nous pouvions changer le nombre de copies de la créature créées par la carte. » Et : « L'équipe de développement d'Odyssey voulait garder l'un des trois cadrans en réserve et a choisi de repousser à plus tard dans le bloc les sorts à flashback créant plusieurs créatures. » Pour Judgment, la réponse fut de combiner flashback et seuil : « il nous manquait une torsion plus évidente. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Dia do juízo",
+      "dek": "Cinco cartas de Judgment rastreadas do primeiro rascunho até a impressão — inclusive uma que levou cinco anos e outra que o próprio designer pediu para matar depois de ela já ter passado pelo desenvolvimento.",
+      "overview": "Cinco estudos de caso, cada um isolando um movimento diferente: ressuscitar um arquivo morto, achar um efeito cuja curva se achata, preencher uma lacuna especificada, fundir dois designs num só, e racionar os seus botões ao longo de um ano.",
+      "takeaway": "«Acredito que restrições alimentam a criatividade».",
+      "lessons": [
+        {
+          "title": "Minere os seus próprios arquivos antigos",
+          "rules": "Um design que morreu por um motivo alheio à qualidade dele continua sendo um bom design. Guarde os arquivos, releia-os ao começar algo novo, e verifique qual foi o motivo de terem matado aquilo.",
+          "flavor": "Solitary Confinement começou como «Protective Bubble» no design de Tempest, paga com marcadores de veneno — e morreu quando o veneno morreu. «Sempre que trabalho no design de uma coleção nova, costumo voltar aos meus arquivos antigos atrás de ideias. Durante Judgment, esbarrei no velho arquivo de Tempest. Encontrei Protective Bubble e comecei a pensar em como poderia mudá-la»."
+        },
+        {
+          "title": "Um design morto ainda tem descendentes",
+          "rules": "Algo cortado de um projeto semeia outros no meio-tempo. Acompanhe o que ele inspirou, porque a ideia pode estar trabalhando para você anos antes de a forma original dela finalmente sair.",
+          "flavor": "«Durante anos fiquei brincando com variantes, mas nenhuma entrou num design. Até Judgment. (Isso não é 100% correto. Protective Bubble inspirou a Ivory Mask de Mercadian Masques.)»"
+        },
+        {
+          "title": "Preserve o sabor, troque o recurso",
+          "rules": "Quando o mecanismo do qual um design dependia some, o que vale preservar é a sensação que ele produzia. Nomeie essa sensação e então procure uma moeda diferente que a produza.",
+          "flavor": "«O sabor de que eu gostava e queria manter era: você, o mago, tinha conjurado uma bolha protetora em volta de si que o mantinha a salvo. Mas ela exigia muitíssima energia e não era algo que você conseguisse manter por muito tempo». Vida foi descartada — «não parecia particularmente branco e, além disso, Glacial Chasm já tinha percorrido esse caminho» — e a mão foi escolhida no lugar."
+        },
+        {
+          "title": "A manutenção tem de superar a receita",
+          "rules": "Um custo pago com um recurso que se repõe sozinho não é um custo. Verifique a que ritmo o jogador o recupera e precifique acima disso, ou a desvantagem evapora.",
+          "flavor": "«Depois olhei para a mão. Parecia promissor. Mas como você compra uma carta por turno, eu precisava que o custo de manter a bolha fosse maior que a sua compra». Daí a versão que descartava duas cartas a cada manutenção."
+        },
+        {
+          "title": "Feche a brecha que você já está vendo",
+          "rules": "Se uma carta existente obviamente quebra a tensão pretendida, não espere o playtest achar. Reestruture o custo para o abuso parar de funcionar, mesmo ao preço de uma linha mais complicada.",
+          "flavor": "«A maior mudança foi que baixamos o descarte para uma carta, mas impedimos você de comprar cartas novas. Essa mudança veio da nossa preocupação com o modo como a minha versão interagia com Howling Mine. (Basicamente, dá para manter o encantamento para sempre.)»"
+        },
+        {
+          "title": "Deixe ao jogador espaço para contornar a desvantagem",
+          "rules": "Uma desvantagem que não pode ser mitigada é só um imposto. Afrouxe um pouco para que alguém possa construir explorando a fresta, e a mesma carta vira um quebra-cabeça em vez de um preço.",
+          "flavor": "«Aí o time de desenvolvimento fez uma pequena mudança. Em vez de fazer o jogador pular todas as compras, a carta só o fazia pular a etapa de compra. O time achou a carta mais interessante se o jogador tivesse a possibilidade de montar o baralho em torno da desvantagem»."
+        },
+        {
+          "title": "Ache o efeito cuja curva se achata",
+          "rules": "Quando você quer que uma quantidade importe sem disparar, não coloque teto: ache um efeito que sature sozinho. O jogador para de ganhar com o excesso sem que ninguém tenha escrito um limite.",
+          "flavor": "O problema: «o efeito ficava enorme se você tivesse um número decente de cartas no cemitério. Percebi que o que eu queria era uma carta em que as primeiras dez cartas mais ou menos importassem de verdade, mas a partir dali o efeito fosse basicamente o mesmo». A resposta acidental: «E então esbarrei em Winter Orb… desvirar era uma coisa em que um número pequeno importava e um número grande não. Em média, um jogador tem só uns dez permanentes em jogo»."
+        },
+        {
+          "title": "Restrições alimentam a criatividade",
+          "rules": "A versão que você faria sem nenhuma restrição é quase sempre a óbvia. Ser proibido de usar o caminho direto força uma invenção que acaba sendo melhor do que aquilo que te impediram de fazer.",
+          "flavor": "David Lynch, fazendo televisão aberta, queria abrir com um corpo nu dando à praia e não podia. «Então Lynch teve a ideia de envolver o corpo em plástico… Mas o que é mais interessante, criativamente falando: uma mulher nua dá à praia, ou uma mulher nua dá à praia envolvida em plástico? A segunda, obviamente. A série se chamava 'Twin Peaks'»."
+        },
+        {
+          "title": "Uma lacuna é uma especificação",
+          "rules": "«Faça algo bom» é mais difícil que uma lista de restrições. Uma lacuna definida com precisão — esta vaga, esta cor, este público, estes tipos de carta — é um quebra-cabeça solúvel em vez de um campo aberto.",
+          "flavor": "«Durante o design de Invasion tínhamos uma lacuna no preto raro e o time temia que não houvesse cartas 'Johnny' suficientes… Então me pediram uma carta preta rara Johnny/Timmy. Além disso, já tínhamos várias criaturas, então me pediram que fosse encantamento, instantânea ou feitiço». «Preencher lacunas é uma das minhas partes favoritas do design… 'Aqui estão todas as restrições. Resolva. Divirta-se!'»"
+        },
+        {
+          "title": "Sirva a dois públicos com duas metades de uma coisa só",
+          "rules": "Um briefing que nomeia duas pessoas diferentes não é um meio-termo. Ache o design em que uma propriedade satisfaz a primeira e outra propriedade satisfaz a segunda: as duas ficam com a carta inteira.",
+          "flavor": "«Decidi que queria criar um efeito enorme em torno do qual os jogadores pudessem construir. A parte 'grande' deixaria o Timmy feliz, enquanto a parte de 'construir em torno' satisfaria o Johnny». O resultado foi trocar grimório e cemitério — «a ideia de trocar duas coisas que nunca tinham sido trocadas antes»."
+        },
+        {
+          "title": "Mate a sua própria carta para proteger o futuro",
+          "rules": "Um design que já passou por todos os filtros ainda pode estar errado, se for comprometer um trabalho que mais ninguém enxerga ainda. Retirá-lo é decisão sua, e cabe a você explicar.",
+          "flavor": "«Todo mundo gostou da carta e ela passou pelo desenvolvimento sem problema. E então eu pedi que a matassem. Por quê?… Eu tinha começado a trabalhar em Odyssey… Percebi que o bloco de Odyssey ia estar intrinsecamente ligado ao cemitério. Eu simplesmente não sabia como essa carta ia interagir. A última coisa que eu queria era fazer um bloco legal e interativo e alguma rara aleatória do ano anterior estragar tudo»."
+        },
+        {
+          "title": "Traga de volta quando você entender o ambiente",
+          "rules": "Retirar algo não é o mesmo que rejeitar. Quando a incerteza que tornava aquilo perigoso se resolve, tire da gaveta e ponha onde agora encaixa.",
+          "flavor": "«Avance um ano. Quando estávamos trabalhando em Judgment, tínhamos um domínio bem melhor do bloco de Odyssey. Tirei a carta, tirei o pó dela, e a coloquei no design de Judgment»."
+        },
+        {
+          "title": "Fique de olho na fusão",
+          "rules": "Dois designs sem relação do mesmo período muitas vezes acabam sendo metades de uma coisa só — e um deles já resolveu o problema que travava o outro. Mantenha os dois onde você consiga ver ambos.",
+          "flavor": "«Esta carta é um bom exemplo do que chamo de 'fusão de design'. Muitas vezes um designer faz várias cartas que, com o tempo, se fundem». A preocupação de dois jogadores tentarem conjurar a mesma mágica com lampejo foi resolvida por um encantamento sem relação: «Mas aí nos lembramos de Manipulation. Ela tinha resolvido o problema não permitindo ao oponente acesso ao item roubado»."
+        },
+        {
+          "title": "Antecipe a objeção e traga a alternativa",
+          "rules": "Se você consegue prever qual das suas propostas a etapa seguinte vai recusar, chegue com o substituto já projetado. A decisão então acontece em uma reunião em vez de três.",
+          "flavor": "«Antecipando que o desenvolvimento poderia ter problemas com essa carta, o time de design bolou uma ideia alternativa… O time de desenvolvimento compartilhava da nossa preocupação e a carta alternativa foi adotada»."
+        },
+        {
+          "title": "Nomeie os seus botões, e então racione-os",
+          "rules": "Anote o pequeno número de eixos ao longo dos quais uma família de designs pode variar. E então guarde um de propósito para depois, para que o próximo lançamento tenha para onde ir sem inventar nada.",
+          "flavor": "«Nos vimos com três botões para mexer. Podíamos fazer criaturas de tamanhos diferentes. Podíamos fazer as mágicas como instantâneas ou feitiços. E, por fim, podíamos mudar quantas cópias da criatura a carta criava». E: «O time de desenvolvimento de Odyssey quis segurar um dos três dials e escolheu empurrar para mais adiante no bloco as mágicas com lampejo que criavam múltiplas criaturas». Em Judgment, a resposta foi combinar lampejo com limiar: «estávamos deixando passar uma virada mais óbvia»."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "审判之日",
+      "dek": "五张《审判》里的牌，从初稿一路追到印刷——其中一张走了五年，还有一张是在通过开发之后，被设计师自己要求砍掉的。",
+      "overview": "五个案例，每一个各自隔离出一种不同的动作：把一份死掉的文件救回来、找到一个曲线会自行变平的效果、去填一个被明确规定过的空缺、把两个设计合并成一个，以及把你的旋钮在一年里分批用。",
+      "takeaway": "「我认为，约束是创造力的燃料。」",
+      "lessons": [
+        {
+          "title": "去挖你自己的旧文件",
+          "rules": "一个因为与它自身质量无关的理由而死掉的设计，依然是一个好设计。请把文件留着，在开始新东西时重读一遍，并且去核对：当初砍掉它的理由究竟是什么。",
+          "flavor": "Solitary Confinement 最初叫「Protective Bubble」，是《暴风雨》设计阶段的牌，用中毒指示物来支付——而它随着中毒一起死掉了。「每当我在做一个新系列的设计时，我常常会回头去翻自己的旧文件找点子。在做《审判》的时候，我翻到了《暴风雨》的老文件。我看到了 Protective Bubble，然后开始想：我该怎么改它。」"
+        },
+        {
+          "title": "一个被砍掉的设计，仍然会有后代",
+          "rules": "从一个项目里被砍掉的东西，会在这期间给别的项目播种。请追踪一下它启发了什么——因为在它的原形终于面世之前的好几年，这个点子可能就已经在替你干活了。",
+          "flavor": "「好多年里我一直在摆弄它的各种变体，但没有一个进过任何一份设计。直到《审判》。（其实这话不完全准确。Protective Bubble 启发了《马凯迪亚假面》里的 Ivory Mask。）」"
+        },
+        {
+          "title": "保住风味，换掉资源",
+          "rules": "当一个设计所依赖的那套机制消失时，值得保住的是它当时给人的那种感觉。请把那种感觉命名出来，然后去找另一种能产生它的货币。",
+          "flavor": "「我喜欢、并且想保住的那份风味是：你，这位法师，在自己周围施了一个保护性的气泡，让自己安全。可它需要耗费大量的能量，而且不是一件你能长期维持的事。」生命被否掉了——「它看上去不太白色；而且 Glacial Chasm 已经走过那条路了」——最后选中的是手牌。"
+        },
+        {
+          "title": "维持费必须超过收入",
+          "rules": "用一项会自动回补的资源去支付的费用，不算费用。请去核对玩家重新获得它的速率，并且把价钱定在那之上——否则这份劣势就会蒸发掉。",
+          "flavor": "「接下来我看向了手牌。这看起来有潜力。可因为你每个回合都会抽一张牌，我需要让维持这个气泡的成本大于你的抽牌。」于是有了那个每次维持阶段弃两张牌的版本。"
+        },
+        {
+          "title": "把你已经看得见的那个漏洞堵上",
+          "rules": "如果有某一张已经存在的牌明显能把你想要的那份张力破掉，就别等试玩去发现它。请重新构造这项费用，让这条捷径失效——哪怕代价是一行更复杂的文字。",
+          "flavor": "「最大的改动是：我们把弃牌降到了一张，但同时阻止你抽新的牌。这个改动来自我们对『我那个版本和 Howling Mine 之间会怎样互动』的担忧。（基本上，你可以让这个结界永远留着。）」"
+        },
+        {
+          "title": "给玩家留出绕开这份劣势的余地",
+          "rules": "一份无法被缓解的劣势，只是一项税。把它松开一点点，好让有人能围着这道缝去组牌——于是同一张牌就从一个价钱，变成了一道谜题。",
+          "flavor": "「然后开发团队做了一处小改动。这张牌不再是让玩家跳过所有的抽牌，而只是让他跳过自己的抽牌步骤。开发团队认为：如果玩家有可能围绕这份劣势去构筑自己的牌组，这张牌会更有意思。」"
+        },
+        {
+          "title": "去找那个曲线会自行变平的效果",
+          "rules": "当你希望某个数量重要、却又不希望它失控时，别去给它加上限——去找一个天然会饱和的效果。玩家会不再从超出的部分获益，而这中间没有任何人写下过一条限制。",
+          "flavor": "问题在于：「只要你的坟墓场里有像样数量的牌，这个效果就会变得巨大。我意识到我想要的，是一张『头十来张牌真的重要，可再往上效果基本就一样了』的牌。」而那个偶然的答案是：「然后我偶然看到了冬之宝球……解除横置这件事，正好是『数量小的时候要紧、数量大的时候不要紧』。平均而言，一位玩家场上也就十来个永久物。」"
+        },
+        {
+          "title": "约束是创造力的燃料",
+          "rules": "在完全没有约束的情况下你会做出来的那个版本，几乎总是那个显而易见的版本。而被禁止走直路，会逼出一项发明——它最后往往比那件你被拦住不许做的事更好。",
+          "flavor": "大卫·林奇在做无线电视剧时，想以一具冲上岸的裸尸开场，而这是不允许的。「于是林奇想出了把尸体用塑料布裹起来的主意……那么从创作的角度说，哪一个更有意思：一个裸女被冲上岸，还是一个裹在塑料布里的裸女被冲上岸？显然是后者。这部剧叫《双峰》。」"
+        },
+        {
+          "title": "一个空缺就是一份需求说明",
+          "rules": "「做点好东西出来」比一份约束清单要难得多。一个被精确定义过的缺口——这个位置、这个颜色、这群受众、这几种牌张类别——是一道解得出来的谜题，而不是一片开阔地。",
+          "flavor": "「在《入侵》的设计里，我们的黑色稀有位上有一个空缺，而设计团队担心我们的『强尼』向的牌不够……于是他们要我做一张黑色稀有的强尼／提米向的牌。另外，我们已经有不少生物了，所以他们要我做成结界、瞬间或法术。」「填空缺是我最喜欢的设计工作之一……『这就是全部的约束条件。去解开它。玩得开心！』」"
+        },
+        {
+          "title": "用同一样东西的两半，去服务两群受众",
+          "rules": "一份点名了两种不同的人的任务书，并不是一次折中。请去找那个设计：它的一项性质满足了第一群人，而另一项性质满足了第二群人——于是两边拿到的都是整张牌。",
+          "flavor": "「我决定要做一个玩家可以围着它来构筑的、巨大的效果。『大』的那一部分会让提米高兴，而『围着它来构筑』的那一部分会满足强尼。」结果就是把牌库和坟墓场对调——「把两样从来没有被对调过的东西对调过来这个点子。」"
+        },
+        {
+          "title": "为了保护未来，砍掉你自己的牌",
+          "rules": "一个已经通过了每一道关卡的设计，仍然可能是错的——如果它会危及一件别人还看不见的工作的话。撤回它是你的决定，而解释它也是你的事。",
+          "flavor": "「所有人都喜欢这张牌，它顺顺利利地通过了开发。然后我要求把这张牌砍掉。为什么？……我当时已经开始做《奥德赛》了……我意识到《奥德赛》这个环境将会和坟墓场紧密地绑在一起。我根本不知道这张牌会怎样与之互动。我最不想看到的事，就是做出一个又酷又有互动的环境，结果被前一年的某张随机稀有牌毁掉一切。」"
+        },
+        {
+          "title": "等你摸清了那个环境，再把它拿回来",
+          "rules": "撤回一样东西，和否定它并不是一回事。当那份让它变得危险的不确定性被解决之后，请把它从抽屉里拿出来，放到那个它如今真正合适的位置上去。",
+          "flavor": "「时间快进一年。等到我们在做《审判》的时候，我们对《奥德赛》环境的把握已经好得多了。我把那张牌拿了出来，掸掉灰，放进了《审判》的设计里。」"
+        },
+        {
+          "title": "留意那次合并",
+          "rules": "同一时期的两个毫不相干的设计，往往到头来是同一样东西的两半——而其中一个，早已解开了卡住另一个的那个问题。请把它们都放在你看得见的地方。",
+          "flavor": "「这张牌是我称之为『设计合并』的一个好例子。设计师常常会做出好几张牌，而它们随着时间推移合到了一起。」关于「两个玩家同时想施放同一张返照咒语时会不会搞混」的担忧，是被一张毫不相干的结界解决掉的：「可接着我们想起了 Manipulation。它解决这个问题的办法，是不让对手接触到被偷走的那样东西。」"
+        },
+        {
+          "title": "预判那条反对意见，并且把替代方案一起带上",
+          "rules": "如果你能预测出：你交上去的东西里，下一个阶段会否掉哪一个——那就带着已经设计好的替代品一起去。于是这个决定会在一次会议里完成，而不是三次。",
+          "flavor": "「预料到开发部可能会对这张牌有意见，设计团队想好了一个替代方案……开发团队和我们有同样的担忧，于是那个替代版本被采用了。」"
+        },
+        {
+          "title": "给你的旋钮命名，然后定量地用",
+          "rules": "把「这一族设计可以沿着哪几条轴变化」写下来——数量通常不多。然后刻意留一条给以后，好让下一次发布有地方可去，而不必再发明任何东西。",
+          "flavor": "「我们发现自己手上有三个可以拧的旋钮。我们可以做不同体型的生物。我们可以把这些咒语做成瞬间或者法术。而最后，我们还可以改变这张牌造出几只生物。」以及：「《奥德赛》的开发团队想留住三个旋钮里的一个，于是决定把『能造出多只生物的返照咒语』推迟到这个环境的后面去。」到了《审判》，答案变成了把返照和门槛结合起来——「我们漏掉了一个更显而易见的花样。」"
+        }
+      ]
+    }
+  }
+}
