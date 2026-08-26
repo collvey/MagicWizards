@@ -1,0 +1,450 @@
+{
+  "id": "free-play-2002-08-19",
+  "slug": "free-play-2002-08-19",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2002-08-19",
+  "series": null,
+  "tags": ["alternate-costs", "force-of-will", "alliances", "design-constraints", "pitch-spells"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/free-play-2002-08-19",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-28T06:30:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "R" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "W" },
+    { "n": 11, "color": "B" },
+    { "n": 12, "color": "R" },
+    { "n": 13, "color": "G" },
+    { "n": 14, "color": "R" },
+    { "n": 15, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Free Play",
+      "dek": "How Force of Will was solved: what mana was secretly doing, why the answer had to be cards in hand rather than life, and the arithmetic that kept Pyrokinesis off players' faces.",
+      "overview": "A worked example of designing against a hard constraint. Every property of the pitch cards falls out of one requirement — that they function before a single land has been played.",
+      "takeaway": "\"Pitch cards were made to add an element of surprise, not speed up the game.\"",
+      "lessons": [
+        {
+          "title": "Attack the convention nobody has questioned",
+          "rules": "Find the fact so established that everyone plays around it without noticing, then build the thing that violates it. That's where genuinely new mechanics come from, not from new numbers.",
+          "flavor": "\"Magic is a game about breaking the rules. One of the keys to creating new concepts is to find some aspect of the game that seems very established and then create a mechanic that plays against conventional wisdom. Richard and the playtesters early on stumbled upon the fact that a player who was tapped out revealed his vulnerability.\""
+        },
+        {
+          "title": "One note can contain two mechanics",
+          "rules": "An early idea often bundles several separable properties. Later work pulls them apart, and each half becomes something the original author didn't name.",
+          "flavor": "Garfield, in an Alpha playtest letter: \"Cantrips are spells that no one plays with now and other weak spells. The casting cost is merely a color land in play, they DON'T cost mana. Hence they can surprise your opponent when they think you can't cast anything. When played you immediately replace them from the deck.\" \"'Cantrips' would go on to be only part of what Richard described, and the other part became APC spells.\""
+        },
+        {
+          "title": "Name what the thing you're bypassing was doing",
+          "rules": "Before removing a cost, work out which invisible job it was performing. Skip that step and you don't just make something cheap — you dissolve the structure the cost was quietly holding together.",
+          "flavor": "\"Magic, through color diversity, has been carefully balanced. Players are pulled in different directions to get the effects they want. If players are allowed to splash any effect in any deck then the whole color wheel would come tumbling down. The glue holding everything together is mana… This meant that the Alliances designers had to find a different way to insure that a red mage couldn't splash a counterspell.\""
+        },
+        {
+          "title": "Set the ambitious requirement explicitly",
+          "rules": "Deciding up front that the thing must work in the hardest case turns a vague ambition into a filter. Everything that can't meet it is eliminated without argument.",
+          "flavor": "\"One of the goals of Force of Will was to create a counterspell that could stop a threat even before a player had taken a turn.\" The scene it had to answer: \"Swamp, Mox Sapphire, Mox Ruby, Black Lotus, Dark Ritual — Mind Twist you for seven.\" \"Uh, no.\""
+        },
+        {
+          "title": "Start from the most restrictive constraint",
+          "rules": "When several goals compete, solve the tightest one first: it has the fewest admissible answers, and the rest of the design gets built inside whatever it permits.",
+          "flavor": "\"The second goal is the most restrictive so I believe that is where they would have started. If you want to have an alternate cost before you've played a card, what resources are available to you?\" Only what you begin with: life total and cards in hand. \"There are some other possibilities (giving up future draws/turns, granting resources to the opponent, etc.) but these two are clearly the most elegant.\""
+        },
+        {
+          "title": "Choose the option that solves the second problem too",
+          "rules": "When two candidates both satisfy the constraint, take the one that happens to answer another open question. That coincidence is usually what makes the design feel inevitable afterwards.",
+          "flavor": "\"The life total's biggest stumbling block is that it doesn't allow any simple way to address the color issue. Cards in hand, though, have an elegant solution. Cards are colored. If I'm playing a red deck, I don't have access to blue cards. Thus pitch cards could be alternately played by discarding a card of the appropriate color.\""
+        },
+        {
+          "title": "The elegant price is often still too low",
+          "rules": "Finding the conceptually right currency doesn't finish the costing. Test it, and be willing to charge in two currencies at once when one turns out not to be enough.",
+          "flavor": "\"Ironically, during development, the Alliances development team ended up using both cards and life as an alternate cost as the just card version of Force of Will proved too strong.\""
+        },
+        {
+          "title": "The goal dictates the card type",
+          "rules": "Work backwards from the experience you're after. If the point is to act when you appear unable to, the card must be usable on someone else's turn — and that decides its type before anything else is written.",
+          "flavor": "\"Since the team wanted the cards to be reactionary (so you could surprise your opponent when you're tapped out), the cards had to be instants. But what kind of instants?\""
+        },
+        {
+          "title": "Do the all-copies arithmetic",
+          "rules": "Before approving a free effect, build the degenerate deck on paper — nothing but four-ofs of this card — and count. If it kills on turn three in your head, it will kill on turn three in the world.",
+          "flavor": "\"Imagine that Pyrokinesis dealt 4 damage to target creature or player. A deck of nothing but Pyrokinesis could deal 12 damage to the opponent's head before either player drew. It would deal 4 more damage after the first card is drawn, and it would win the game by turn three.\""
+        },
+        {
+          "title": "State the goal so that it excludes things",
+          "rules": "A goal you can't fail is decoration. Phrase it as a contrast — this, and specifically not that — and it starts doing work by ruling out designs that would otherwise have looked fine.",
+          "flavor": "\"Pitch cards were made to add an element of surprise, not speed up the game.\" Hence the whole set is answers: \"Pyrokinesis and Contagion kill creatures. Force of Will and Scars of the Veteran stop spells and damage respectively.\""
+        },
+        {
+          "title": "Check the exception against the same rule",
+          "rules": "The one card that breaks your pattern is the one to examine hardest. If it survives, it should be because you measured it, not because you liked it.",
+          "flavor": "\"Bounty of the Hunt, the most aggressive of the cards, is as much a means of saving your creatures as it is of speeding up your attack, and even then is at a slow enough rate to avoid easy third turn kills.\""
+        },
+        {
+          "title": "Then run the same axis the other way",
+          "rules": "Once one team has mined the early game, the unexplored half is the late one. Ask which resources only exist after several turns, and the same mechanic becomes a different mechanic.",
+          "flavor": "\"If the Alliances designers showed the early advantage of APC cards, the Mirage/Visions design team explored the opposite end of the spectrum. As the game progresses, the player accumulates more and more resources in play. What if there were APC cards that used those resources?\" Sacrificing permanents, bouncing lands, removing cards from graveyards — \"these resources allowed some more aggressive effects.\""
+        },
+        {
+          "title": "Players will find the other use",
+          "rules": "The scenario you designed for is one of the scenarios it will be used in. Expect the actual deployment to be somewhere adjacent, and don't treat that as a failure.",
+          "flavor": "\"According to Bill Rose, co-lead design of Mirage/Visions, Fireblast was originally designed to be a card that made use of unneeded lands in play. (Yeah, it didn't quite end up being used that way, but designers often find mechanics shifted in use by players.)\""
+        },
+        {
+          "title": "The third visit is for twisting every parameter",
+          "rules": "Once the core is proven and both ends of the range explored, the remaining work is systematic variation: change what's paid, who benefits, what the effect targets. Each swap is a different card.",
+          "flavor": "Mercadian Masques \"played around with numerous new twists: APC cards as color hosers, APC cards that required you to grant the opponent a resource, pitch cards that pitched basic lands instead of colored cards, etc.\""
+        },
+        {
+          "title": "Name the standing bias along with the verdict",
+          "rules": "When you recommend an area, say which way your organisation habitually errs in it. The recommendation is more useful with the known failure mode attached than without it.",
+          "flavor": "\"The most interesting part of Masques design for me was learning how rich the design area of APC cards actually are. Yes, it's fraught with dangers, and yes, R&D has a history of undervaluing how good they are. But, I believe it's a staple area of card design that we will visit again and again.\""
+        }
+      ]
+    },
+    "es": {
+      "title": "Juego gratis",
+      "dek": "Cómo se resolvió Force of Will: qué hacía el maná en secreto, por qué la respuesta tenían que ser las cartas en mano y no las vidas, y la aritmética que mantuvo a Pyrokinesis lejos de la cara de los jugadores.",
+      "overview": "Un ejemplo trabajado de diseñar contra una restricción dura. Todas las propiedades de las cartas de descarte se derivan de un único requisito: que funcionen antes de haber jugado una sola tierra.",
+      "takeaway": "«Las cartas de descarte se hicieron para añadir un elemento de sorpresa, no para acelerar la partida».",
+      "lessons": [
+        {
+          "title": "Ataca la convención que nadie ha cuestionado",
+          "rules": "Encuentra el hecho tan asentado que todos juegan alrededor de él sin darse cuenta, y luego construye lo que lo viola. De ahí salen las mecánicas realmente nuevas, no de números nuevos.",
+          "flavor": "«Magic es un juego que va de romper las reglas. Una de las claves para crear conceptos nuevos es encontrar algún aspecto del juego que parezca muy establecido y crear entonces una mecánica que vaya contra la sabiduría convencional. Richard y los probadores tropezaron pronto con el hecho de que un jugador sin maná disponible revelaba su vulnerabilidad»."
+        },
+        {
+          "title": "Una sola nota puede contener dos mecánicas",
+          "rules": "Una idea temprana suele agrupar varias propiedades separables. El trabajo posterior las separa, y cada mitad se convierte en algo que el autor original no llegó a nombrar.",
+          "flavor": "Garfield, en una carta durante las pruebas de Alpha: «Los cantrips son hechizos que ahora nadie juega, y otros hechizos flojos. El coste es meramente tener una tierra de color en juego, NO cuestan maná. Así pueden sorprender a tu oponente cuando cree que no puedes lanzar nada. Al jugarlos, los repones inmediatamente del mazo». «Los 'cantrips' acabarían siendo solo una parte de lo que Richard describía; la otra parte se convirtió en los hechizos de coste alternativo»."
+        },
+        {
+          "title": "Nombra qué hacía aquello que estás sorteando",
+          "rules": "Antes de quitar un coste, averigua qué trabajo invisible estaba haciendo. Sáltate ese paso y no solo abaratas algo: disuelves la estructura que ese coste sostenía en silencio.",
+          "flavor": "«Magic, a través de la diversidad de colores, ha sido cuidadosamente equilibrado. A los jugadores se les tira en direcciones distintas para conseguir los efectos que quieren. Si se les permite salpicar cualquier efecto en cualquier mazo, toda la rueda de color se viene abajo. El pegamento que lo sostiene todo es el maná… Esto significaba que los diseñadores de Alliances tenían que encontrar otra forma de asegurar que un mago rojo no pudiera salpicar un contrahechizo»."
+        },
+        {
+          "title": "Fija el requisito ambicioso de forma explícita",
+          "rules": "Decidir de antemano que la cosa debe funcionar en el caso más duro convierte una ambición vaga en un filtro. Todo lo que no lo cumpla queda eliminado sin discusión.",
+          "flavor": "«Uno de los objetivos de Force of Will era crear un contrahechizo capaz de detener una amenaza incluso antes de que un jugador hubiera tenido un turno». La escena a la que tenía que responder: «Pantano, Mox Sapphire, Mox Ruby, Black Lotus, Dark Ritual: Mind Twist de siete». «Eh, no»."
+        },
+        {
+          "title": "Empieza por la restricción más restrictiva",
+          "rules": "Cuando varios objetivos compiten, resuelve primero el más apretado: tiene menos respuestas admisibles, y el resto del diseño se construye dentro de lo que ese permita.",
+          "flavor": "«El segundo objetivo es el más restrictivo, así que creo que ahí es por donde habrían empezado. Si quieres un coste alternativo antes de haber jugado una carta, ¿qué recursos tienes disponibles?» Solo con lo que empiezas: el total de vidas y las cartas en mano. «Hay otras posibilidades (renunciar a robos o turnos futuros, dar recursos al oponente, etc.), pero estas dos son claramente las más elegantes»."
+        },
+        {
+          "title": "Elige la opción que además resuelve el segundo problema",
+          "rules": "Cuando dos candidatos cumplen la restricción, coge el que casualmente responde a otra pregunta abierta. Esa coincidencia suele ser lo que después hace que el diseño parezca inevitable.",
+          "flavor": "«El mayor escollo del total de vidas es que no permite ninguna forma sencilla de abordar el problema del color. Las cartas en mano, en cambio, tienen una solución elegante. Las cartas son de colores. Si juego un mazo rojo, no tengo acceso a cartas azules. Así, las cartas de descarte podían jugarse alternativamente descartando una carta del color adecuado»."
+        },
+        {
+          "title": "El precio elegante suele seguir siendo demasiado bajo",
+          "rules": "Encontrar la moneda conceptualmente correcta no termina el trabajo de fijar el precio. Pruébalo y prepárate para cobrar en dos monedas a la vez cuando una resulte insuficiente.",
+          "flavor": "«Irónicamente, durante el desarrollo el equipo de Alliances acabó usando tanto cartas como vidas como coste alternativo, ya que la versión de solo cartas de Force of Will resultó demasiado fuerte»."
+        },
+        {
+          "title": "El objetivo dicta el tipo de carta",
+          "rules": "Trabaja hacia atrás desde la experiencia que buscas. Si la gracia es actuar cuando pareces incapaz, la carta tiene que poder usarse en el turno de otro, y eso decide su tipo antes que ninguna otra cosa.",
+          "flavor": "«Como el equipo quería que las cartas fueran reactivas (para que pudieras sorprender al oponente cuando estás sin maná), las cartas tenían que ser instantáneos. ¿Pero qué clase de instantáneos?»"
+        },
+        {
+          "title": "Haz la cuenta del mazo de todo copias",
+          "rules": "Antes de aprobar un efecto gratis, construye el mazo degenerado sobre el papel —nada más que cuatro copias de esta carta— y cuenta. Si en tu cabeza mata en el turno tres, en el mundo matará en el turno tres.",
+          "flavor": "«Imagina que Pyrokinesis hiciera 4 de daño a criatura o jugador objetivo. Un mazo de puro Pyrokinesis podría hacer 12 de daño a la cabeza del oponente antes de que ninguno de los dos robara. Haría 4 más tras el primer robo, y ganaría la partida en el turno tres»."
+        },
+        {
+          "title": "Formula el objetivo de modo que excluya cosas",
+          "rules": "Un objetivo que no puedes incumplir es decoración. Formúlalo como un contraste —esto, y específicamente esto otro no— y empezará a trabajar descartando diseños que si no habrían parecido correctos.",
+          "flavor": "«Las cartas de descarte se hicieron para añadir un elemento de sorpresa, no para acelerar la partida». De ahí que todas sean respuestas: «Pyrokinesis y Contagion matan criaturas. Force of Will y Scars of the Veteran detienen hechizos y daño, respectivamente»."
+        },
+        {
+          "title": "Comprueba la excepción con la misma regla",
+          "rules": "La única carta que rompe tu patrón es la que hay que examinar con más dureza. Si sobrevive, debería ser porque la mediste, no porque te gustaba.",
+          "flavor": "«Bounty of the Hunt, la más agresiva de las cartas, es tanto un medio de salvar tus criaturas como de acelerar tu ataque, e incluso así lo hace a un ritmo lo bastante lento como para evitar matar fácilmente en el turno tres»."
+        },
+        {
+          "title": "Luego recorre el mismo eje en sentido contrario",
+          "rules": "Una vez que un equipo ha explotado el juego temprano, la mitad inexplorada es el tardío. Pregunta qué recursos solo existen tras varios turnos, y la misma mecánica se convierte en otra.",
+          "flavor": "«Si los diseñadores de Alliances mostraron la ventaja temprana de las cartas de coste alternativo, el equipo de Mirage/Visions exploró el extremo opuesto. A medida que avanza la partida, el jugador acumula más y más recursos en juego. ¿Y si hubiera cartas de coste alternativo que usaran esos recursos?» Sacrificar permanentes, devolver tierras, quitar cartas del cementerio: «esos recursos permitían efectos algo más agresivos»."
+        },
+        {
+          "title": "Los jugadores encontrarán el otro uso",
+          "rules": "El escenario para el que diseñaste es uno de los escenarios en los que se usará. Espera que el despliegue real sea en algún sitio contiguo, y no lo tomes por un fracaso.",
+          "flavor": "«Según Bill Rose, codirector de diseño de Mirage/Visions, Fireblast se diseñó originalmente como una carta que aprovechaba tierras innecesarias en juego. (Sí, no acabó usándose exactamente así, pero los diseñadores a menudo ven cómo los jugadores desplazan el uso de las mecánicas)»."
+        },
+        {
+          "title": "La tercera visita es para retorcer cada parámetro",
+          "rules": "Una vez probado el núcleo y explorados los dos extremos del rango, lo que queda es variación sistemática: cambia qué se paga, quién se beneficia, a qué apunta el efecto. Cada cambio es otra carta.",
+          "flavor": "Mercadian Masques «jugueteó con numerosos giros nuevos: cartas de coste alternativo como odiacolores, cartas de coste alternativo que te obligaban a dar un recurso al oponente, cartas que descartaban tierras básicas en vez de cartas de color, etc.»"
+        },
+        {
+          "title": "Nombra el sesgo permanente junto con el veredicto",
+          "rules": "Cuando recomiendes un área, di hacia qué lado se equivoca habitualmente tu organización en ella. La recomendación es más útil con el modo de fallo conocido adjunto que sin él.",
+          "flavor": "«Lo más interesante del diseño de Masques para mí fue descubrir lo rica que es en realidad el área de diseño de las cartas de coste alternativo. Sí, está plagada de peligros, y sí, I+D tiene un historial de infravalorar lo buenas que son. Pero creo que es un área básica del diseño de cartas que visitaremos una y otra vez»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Jeu gratuit",
+      "dek": "Comment Force of Will a été résolue : ce que le mana faisait en secret, pourquoi la réponse devait être les cartes en main plutôt que les points de vie, et le calcul qui a tenu Pyrokinesis loin du visage des joueurs.",
+      "overview": "Un exemple traité de conception sous contrainte dure. Chaque propriété des cartes à défausse découle d'une seule exigence : fonctionner avant même qu'un terrain ait été joué.",
+      "takeaway": "« Les cartes à défausse ont été faites pour ajouter de la surprise, pas pour accélérer la partie. »",
+      "lessons": [
+        {
+          "title": "Attaquez la convention que personne n'a questionnée",
+          "rules": "Trouvez le fait si établi que tout le monde joue autour sans le remarquer, puis construisez ce qui le viole. C'est de là que viennent les mécaniques réellement neuves, pas de chiffres neufs.",
+          "flavor": "« Magic est un jeu qui consiste à casser les règles. L'une des clés pour créer de nouveaux concepts est de trouver un aspect du jeu qui semble très établi, puis de créer une mécanique qui va contre la sagesse commune. Richard et les testeurs sont tombés très tôt sur le fait qu'un joueur sans mana disponible révélait sa vulnérabilité. »"
+        },
+        {
+          "title": "Une seule note peut contenir deux mécaniques",
+          "rules": "Une idée précoce regroupe souvent plusieurs propriétés séparables. Le travail ultérieur les sépare, et chaque moitié devient une chose que l'auteur d'origine n'avait pas nommée.",
+          "flavor": "Garfield, dans une lettre pendant les tests d'Alpha : « Les cantrips sont des sorts que personne ne joue aujourd'hui, et d'autres sorts faibles. Le coût est simplement d'avoir un terrain de couleur en jeu, ils ne coûtent PAS de mana. Ils peuvent donc surprendre votre adversaire quand il croit que vous ne pouvez rien lancer. En les jouant, vous les remplacez immédiatement depuis le deck. » « Les 'cantrips' n'allaient être qu'une partie de ce que Richard décrivait ; l'autre partie est devenue les sorts à coût alternatif. »"
+        },
+        {
+          "title": "Nommez ce que faisait la chose que vous contournez",
+          "rules": "Avant de supprimer un coût, déterminez quel travail invisible il accomplissait. Sautez cette étape et vous ne rendez pas seulement une chose bon marché : vous dissolvez la structure que ce coût tenait en silence.",
+          "flavor": "« Magic, par la diversité des couleurs, a été soigneusement équilibré. Les joueurs sont tirés dans des directions différentes pour obtenir les effets qu'ils veulent. Si l'on autorise à éclabousser n'importe quel effet dans n'importe quel deck, toute la roue des couleurs s'écroule. La colle qui tient le tout, c'est le mana… Les concepteurs d'Alliances devaient donc trouver un autre moyen de garantir qu'un mage rouge ne puisse pas éclabousser un contresort. »"
+        },
+        {
+          "title": "Posez l'exigence ambitieuse explicitement",
+          "rules": "Décider d'emblée que la chose doit marcher dans le cas le plus dur transforme une ambition vague en filtre. Tout ce qui n'y satisfait pas est éliminé sans discussion.",
+          "flavor": "« L'un des objectifs de Force of Will était de créer un contresort capable d'arrêter une menace avant même qu'un joueur ait joué un tour. » La scène à laquelle elle devait répondre : « Marais, Mox Sapphire, Mox Ruby, Black Lotus, Dark Ritual — Mind Twist de sept. » « Euh, non. »"
+        },
+        {
+          "title": "Partez de la contrainte la plus restrictive",
+          "rules": "Quand plusieurs objectifs se disputent, résolvez d'abord le plus serré : il a le moins de réponses admissibles, et le reste de la conception se bâtit dans ce qu'il autorise.",
+          "flavor": "« Le deuxième objectif est le plus restrictif, je crois donc que c'est par là qu'ils ont commencé. Si vous voulez un coût alternatif avant d'avoir joué une carte, quelles ressources avez-vous ? » Seulement celles de départ : les points de vie et les cartes en main. « Il y a d'autres possibilités (renoncer à des pioches ou des tours futurs, donner des ressources à l'adversaire, etc.) mais ces deux-là sont clairement les plus élégantes. »"
+        },
+        {
+          "title": "Choisissez l'option qui règle aussi le second problème",
+          "rules": "Quand deux candidats satisfont la contrainte, prenez celui qui répond par hasard à une autre question ouverte. C'est en général cette coïncidence qui rend le design inévitable après coup.",
+          "flavor": "« Le principal écueil des points de vie est qu'ils n'offrent aucun moyen simple de traiter la question de la couleur. Les cartes en main, elles, ont une solution élégante. Les cartes sont colorées. Si je joue un deck rouge, je n'ai pas accès aux cartes bleues. Les cartes à défausse pouvaient donc être jouées en défaussant une carte de la couleur appropriée. »"
+        },
+        {
+          "title": "Le prix élégant est souvent encore trop bas",
+          "rules": "Trouver la bonne monnaie conceptuelle ne termine pas le travail de tarification. Testez, et acceptez de faire payer dans deux monnaies à la fois si l'une se révèle insuffisante.",
+          "flavor": "« Ironiquement, pendant le développement, l'équipe d'Alliances a fini par utiliser à la fois des cartes et des points de vie comme coût alternatif, la version 'cartes seules' de Force of Will s'étant révélée trop forte. »"
+        },
+        {
+          "title": "L'objectif dicte le type de carte",
+          "rules": "Remontez depuis l'expérience visée. Si l'intérêt est d'agir quand vous semblez incapable d'agir, la carte doit être jouable pendant le tour d'un autre — et cela décide de son type avant tout le reste.",
+          "flavor": "« Puisque l'équipe voulait des cartes réactives (pour surprendre l'adversaire quand vous êtes sans mana), les cartes devaient être des éphémères. Mais quel genre d'éphémères ? »"
+        },
+        {
+          "title": "Faites le calcul du deck tout-copies",
+          "rules": "Avant d'approuver un effet gratuit, construisez le deck dégénéré sur le papier — rien que quatre exemplaires de cette carte — et comptez. S'il tue au tour trois dans votre tête, il tuera au tour trois dans le monde.",
+          "flavor": "« Imaginez que Pyrokinesis inflige 4 blessures à une créature ou un joueur ciblé. Un deck fait uniquement de Pyrokinesis pourrait infliger 12 blessures à la tête de l'adversaire avant que quiconque ait pioché. Il en infligerait 4 de plus après la première pioche, et gagnerait la partie au tour trois. »"
+        },
+        {
+          "title": "Formulez l'objectif de façon qu'il exclue",
+          "rules": "Un objectif auquel on ne peut pas échouer est décoratif. Formulez-le comme un contraste — ceci, et précisément pas cela — et il se met à travailler en écartant des designs qui auraient sinon paru corrects.",
+          "flavor": "« Les cartes à défausse ont été faites pour ajouter de la surprise, pas pour accélérer la partie. » D'où le fait qu'elles soient toutes des réponses : « Pyrokinesis et Contagion tuent des créatures. Force of Will et Scars of the Veteran arrêtent respectivement des sorts et des blessures. »"
+        },
+        {
+          "title": "Vérifiez l'exception avec la même règle",
+          "rules": "La seule carte qui brise votre schéma est celle qu'il faut examiner le plus durement. Si elle survit, ce doit être parce que vous l'avez mesurée, pas parce qu'elle vous plaisait.",
+          "flavor": "« Bounty of the Hunt, la plus agressive du lot, est autant un moyen de sauver vos créatures que d'accélérer votre attaque, et même là à un rythme assez lent pour éviter les tueries faciles au tour trois. »"
+        },
+        {
+          "title": "Puis parcourez le même axe dans l'autre sens",
+          "rules": "Une fois qu'une équipe a exploité le début de partie, la moitié inexplorée est la fin. Demandez quelles ressources n'existent qu'après plusieurs tours, et la même mécanique en devient une autre.",
+          "flavor": "« Si les concepteurs d'Alliances ont montré l'avantage précoce des cartes à coût alternatif, l'équipe de Mirage/Visions en a exploré l'extrémité opposée. À mesure que la partie avance, le joueur accumule de plus en plus de ressources en jeu. Et s'il existait des cartes à coût alternatif qui utilisaient ces ressources ? » Sacrifier des permanents, renvoyer des terrains, retirer des cartes du cimetière : « ces ressources permettaient des effets un peu plus agressifs. »"
+        },
+        {
+          "title": "Les joueurs trouveront l'autre usage",
+          "rules": "Le scénario pour lequel vous avez conçu est l'un des scénarios où la chose servira. Attendez-vous à ce que l'usage réel soit quelque part à côté, et n'y voyez pas un échec.",
+          "flavor": "« Selon Bill Rose, co-responsable de la conception de Mirage/Visions, Fireblast avait été conçue comme une carte tirant parti des terrains inutiles en jeu. (Oui, ce n'est pas tout à fait ainsi qu'elle a fini par servir, mais les concepteurs voient souvent les joueurs déplacer l'usage des mécaniques.) »"
+        },
+        {
+          "title": "La troisième visite sert à tordre chaque paramètre",
+          "rules": "Une fois le cœur prouvé et les deux extrémités explorées, il reste la variation systématique : changez ce qui est payé, qui en profite, ce que l'effet vise. Chaque permutation est une autre carte.",
+          "flavor": "Mercadian Masques « a joué avec de nombreuses nouvelles torsions : des cartes à coût alternatif servant de haineuses de couleur, des cartes à coût alternatif obligeant à donner une ressource à l'adversaire, des cartes à défausse défaussant des terrains de base au lieu de cartes colorées, etc. »"
+        },
+        {
+          "title": "Nommez le biais permanent en même temps que le verdict",
+          "rules": "Quand vous recommandez un domaine, dites dans quel sens votre organisation s'y trompe habituellement. La recommandation est plus utile avec le mode de défaillance connu attaché que sans.",
+          "flavor": "« Le plus intéressant de la conception de Masques a été pour moi de découvrir la richesse réelle de ce domaine. Oui, il est truffé de dangers, et oui, la R&D a une longue habitude de sous-estimer leur qualité. Mais je crois que c'est un domaine essentiel de la conception, que nous visiterons encore et encore. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Jogo grátis",
+      "dek": "Como Force of Will foi resolvida: o que o mana fazia em segredo, por que a resposta tinha de ser cartas na mão e não pontos de vida, e a aritmética que manteve Pyrokinesis longe da cara dos jogadores.",
+      "overview": "Um exemplo trabalhado de projetar contra uma restrição dura. Toda propriedade das cartas de descarte decorre de um único requisito: funcionar antes de um único terreno ter sido jogado.",
+      "takeaway": "«As cartas de descarte foram feitas para acrescentar um elemento de surpresa, não para acelerar o jogo».",
+      "lessons": [
+        {
+          "title": "Ataque a convenção que ninguém questionou",
+          "rules": "Ache o fato tão estabelecido que todo mundo joga em volta dele sem notar, e então construa aquilo que o viola. É daí que vêm as mecânicas realmente novas, não de números novos.",
+          "flavor": "«Magic é um jogo sobre quebrar regras. Uma das chaves para criar conceitos novos é achar algum aspecto do jogo que pareça muito estabelecido e então criar uma mecânica que vá contra a sabedoria convencional. Richard e os testadores esbarraram cedo no fato de que um jogador sem mana disponível revelava a própria vulnerabilidade»."
+        },
+        {
+          "title": "Uma única anotação pode conter duas mecânicas",
+          "rules": "Uma ideia inicial costuma agrupar várias propriedades separáveis. O trabalho posterior as separa, e cada metade vira algo que o autor original não chegou a nomear.",
+          "flavor": "Garfield, numa carta durante os testes de Alpha: «Cantrips são mágicas que ninguém joga hoje, e outras mágicas fracas. O custo é meramente ter um terreno de cor em jogo, elas NÃO custam mana. Assim podem surpreender seu oponente quando ele acha que você não pode conjurar nada. Ao jogá-las, você as repõe imediatamente do baralho». «Os 'cantrips' viriam a ser só uma parte do que Richard descrevia; a outra parte virou as mágicas de custo alternativo»."
+        },
+        {
+          "title": "Nomeie o que aquilo que você está contornando fazia",
+          "rules": "Antes de remover um custo, descubra que trabalho invisível ele fazia. Pule essa etapa e você não apenas barateia algo: você dissolve a estrutura que aquele custo sustentava em silêncio.",
+          "flavor": "«Magic, através da diversidade de cores, foi cuidadosamente equilibrado. Os jogadores são puxados em direções diferentes para conseguir os efeitos que querem. Se for permitido respingar qualquer efeito em qualquer baralho, a roda de cores inteira desmorona. A cola que segura tudo é o mana… Isso significava que os designers de Alliances tinham de achar outro jeito de garantir que um mago vermelho não pudesse respingar um contramágica»."
+        },
+        {
+          "title": "Defina o requisito ambicioso explicitamente",
+          "rules": "Decidir de antemão que a coisa tem de funcionar no caso mais difícil transforma uma ambição vaga num filtro. Tudo que não cumprir é eliminado sem discussão.",
+          "flavor": "«Um dos objetivos de Force of Will era criar um contramágica capaz de deter uma ameaça mesmo antes de um jogador ter tido um turno». A cena a que ela tinha de responder: «Pântano, Mox Sapphire, Mox Ruby, Black Lotus, Dark Ritual — Mind Twist de sete». «Ãhn, não»."
+        },
+        {
+          "title": "Comece pela restrição mais restritiva",
+          "rules": "Quando vários objetivos competem, resolva primeiro o mais apertado: ele tem menos respostas admissíveis, e o resto do design é construído dentro do que ele permitir.",
+          "flavor": "«O segundo objetivo é o mais restritivo, então acredito que foi por ali que eles começaram. Se você quer um custo alternativo antes de ter jogado uma carta, que recursos estão disponíveis?» Só aquilo com que você começa: total de vida e cartas na mão. «Há outras possibilidades (abrir mão de compras ou turnos futuros, dar recursos ao oponente etc.), mas essas duas são claramente as mais elegantes»."
+        },
+        {
+          "title": "Escolha a opção que resolve também o segundo problema",
+          "rules": "Quando dois candidatos satisfazem a restrição, pegue o que por acaso responde a outra pergunta em aberto. Essa coincidência costuma ser o que depois faz o design parecer inevitável.",
+          "flavor": "«O maior tropeço do total de vida é que ele não permite nenhum jeito simples de tratar a questão da cor. Já cartas na mão têm uma solução elegante. Cartas têm cor. Se estou jogando um baralho vermelho, não tenho acesso a cartas azuis. Assim, as cartas de descarte podiam ser jogadas alternativamente descartando uma carta da cor apropriada»."
+        },
+        {
+          "title": "O preço elegante muitas vezes ainda é baixo demais",
+          "rules": "Achar a moeda conceitualmente certa não encerra a precificação. Teste, e esteja disposto a cobrar em duas moedas ao mesmo tempo quando uma se revelar insuficiente.",
+          "flavor": "«Ironicamente, durante o desenvolvimento, o time de Alliances acabou usando tanto cartas quanto pontos de vida como custo alternativo, já que a versão só-cartas de Force of Will se mostrou forte demais»."
+        },
+        {
+          "title": "O objetivo dita o tipo de carta",
+          "rules": "Trabalhe de trás para frente a partir da experiência que você quer. Se a graça é agir quando você parece incapaz, a carta precisa poder ser usada no turno de outra pessoa — e isso decide o tipo dela antes de qualquer outra coisa.",
+          "flavor": "«Como o time queria que as cartas fossem reativas (para você surpreender o oponente quando está sem mana), as cartas tinham de ser instantâneas. Mas que tipo de instantânea?»"
+        },
+        {
+          "title": "Faça a conta do baralho de cópias",
+          "rules": "Antes de aprovar um efeito grátis, monte o baralho degenerado no papel — nada além de quatro cópias desta carta — e conte. Se ele mata no turno três na sua cabeça, vai matar no turno três no mundo.",
+          "flavor": "«Imagine que Pyrokinesis causasse 4 de dano a criatura ou jogador alvo. Um baralho só de Pyrokinesis poderia causar 12 de dano na cara do oponente antes de qualquer um dos dois comprar. Causaria mais 4 depois da primeira compra, e venceria o jogo no turno três»."
+        },
+        {
+          "title": "Formule o objetivo de modo que ele exclua coisas",
+          "rules": "Um objetivo que você não consegue descumprir é decoração. Formule como contraste — isto, e especificamente não aquilo — e ele passa a trabalhar, descartando designs que de outro modo teriam parecido bons.",
+          "flavor": "«As cartas de descarte foram feitas para acrescentar um elemento de surpresa, não para acelerar o jogo». Daí serem todas respostas: «Pyrokinesis e Contagion matam criaturas. Force of Will e Scars of the Veteran detêm mágicas e dano, respectivamente»."
+        },
+        {
+          "title": "Cheque a exceção com a mesma régua",
+          "rules": "A única carta que quebra o seu padrão é a que deve ser examinada com mais dureza. Se ela sobreviver, que seja porque você mediu, não porque gostou dela.",
+          "flavor": "«Bounty of the Hunt, a mais agressiva das cartas, é tanto um meio de salvar suas criaturas quanto de acelerar seu ataque, e mesmo assim num ritmo lento o bastante para evitar vitórias fáceis no turno três»."
+        },
+        {
+          "title": "Depois percorra o mesmo eixo no sentido contrário",
+          "rules": "Uma vez que um time explorou o início de jogo, a metade inexplorada é o fim. Pergunte quais recursos só existem depois de vários turnos, e a mesma mecânica vira outra mecânica.",
+          "flavor": "«Se os designers de Alliances mostraram a vantagem inicial das cartas de custo alternativo, o time de Mirage/Visions explorou a ponta oposta. Conforme o jogo avança, o jogador acumula cada vez mais recursos em jogo. E se houvesse cartas de custo alternativo que usassem esses recursos?» Sacrificar permanentes, devolver terrenos, remover cartas do cemitério: «esses recursos permitiam efeitos um pouco mais agressivos»."
+        },
+        {
+          "title": "Os jogadores vão achar o outro uso",
+          "rules": "O cenário para o qual você projetou é um dos cenários em que aquilo será usado. Espere que o uso real fique em algum lugar ao lado, e não trate isso como fracasso.",
+          "flavor": "«Segundo Bill Rose, colíder de design de Mirage/Visions, Fireblast foi originalmente projetada como uma carta que aproveitava terrenos desnecessários em jogo. (É, não acabou sendo usada bem assim, mas designers com frequência veem os jogadores deslocarem o uso das mecânicas.)»"
+        },
+        {
+          "title": "A terceira visita é para torcer cada parâmetro",
+          "rules": "Provado o núcleo e exploradas as duas pontas da faixa, o que resta é variação sistemática: mude o que se paga, quem se beneficia, o que o efeito alveja. Cada troca é outra carta.",
+          "flavor": "Mercadian Masques «brincou com várias viradas novas: cartas de custo alternativo como anticor, cartas de custo alternativo que exigiam dar um recurso ao oponente, cartas de descarte que descartavam terrenos básicos em vez de cartas coloridas etc.»"
+        },
+        {
+          "title": "Nomeie o viés permanente junto com o veredito",
+          "rules": "Quando recomendar uma área, diga para que lado a sua organização costuma errar nela. A recomendação é mais útil com o modo de falha conhecido anexado do que sem.",
+          "flavor": "«A parte mais interessante do design de Masques, para mim, foi descobrir o quanto a área de design das cartas de custo alternativo é realmente rica. Sim, é cheia de perigos, e sim, a P&D tem um histórico de subestimar o quanto elas são boas. Mas acredito que seja uma área básica do design de cartas, que visitaremos vez após vez»."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "免费出手",
+      "dek": "意志之力是怎么被解出来的：法术力私底下在做的那件事、为什么答案必须是手牌而不是生命值，以及那道把 Pyrokinesis 挡在玩家脸门之外的算术。",
+      "overview": "一个「在硬约束下做设计」的完整范例。这批弃牌费用牌身上的每一项性质，都是从同一条要求里推出来的：它必须在你连一块地都还没下的时候就能用。",
+      "takeaway": "「弃牌费用牌是为了加进一份出其不意，而不是为了让游戏变快。」",
+      "lessons": [
+        {
+          "title": "去攻击那条没人质疑过的成规",
+          "rules": "去找那个已经确立到「所有人都绕着它走却毫无察觉」的事实，然后把那个违反它的东西造出来。真正新的机制是从这里来的，而不是从新的数值里来的。",
+          "flavor": "「万智牌是一个关于打破规则的游戏。创造新概念的关键之一，是找到这个游戏里某个看起来非常牢固的方面，然后造出一个与常识对着干的机制。理查和试玩者们很早就撞上了这样一件事：一个把法术力用光的玩家，等于把自己的脆弱暴露了出来。」"
+        },
+        {
+          "title": "一条笔记里可以装着两个机制",
+          "rules": "一个早期的想法，往往把几项本可分开的性质捆在了一起。后来的工作会把它们拆开，而每一半都会变成原作者当初并没有命名的东西。",
+          "flavor": "加菲在 Alpha 试玩期的一封信里写道：「Cantrip 是指那些现在没人会打的咒语，以及其他一些弱咒语。它们的施放费用仅仅是场上有一块该颜色的地，它们不花法术力。因此当对手以为你什么都放不出来时，它们能给他一个惊喜。打出它们的同时，你立刻从牌库里把它们补回来。」「『cantrip』后来只成了理查所描述的东西的一部分；而另一部分，变成了替代费用咒语。」"
+        },
+        {
+          "title": "先说清楚你要绕开的那样东西原本在做什么",
+          "rules": "在拿掉一项费用之前，先弄明白它在暗中承担着哪份工作。跳过这一步，你就不只是让某样东西变便宜了——你会把那项费用一直默默撑着的那个结构一起溶掉。",
+          "flavor": "「万智牌通过颜色的多样性被小心地平衡着。玩家为了拿到自己想要的效果，会被朝不同的方向拉扯。如果允许玩家把任何效果都掺进任何一副牌里，整个色环就会塌下来。把这一切粘住的胶水，就是法术力……这意味着 Alliances 的设计者们必须找到另一条路，来确保一个红色法师没法掺进一张反击咒语。」"
+        },
+        {
+          "title": "把那个野心勃勃的要求明确地立起来",
+          "rules": "事先决定「这东西必须在最难的那种情况下也能用」，就把一个含糊的野心变成了一道筛子。凡是达不到的，都会被淘汰掉，而且不需要争论。",
+          "flavor": "「意志之力的目标之一，是造出一张能在对手还没轮到第一个回合之前就把威胁挡下来的反击咒语。」它必须回答的那一幕是：「沼泽、Mox Sapphire、Mox Ruby、Black Lotus、Dark Ritual —— Mind Twist 你七张。」「呃，不行。」"
+        },
+        {
+          "title": "从最紧的那条约束开始",
+          "rules": "当几个目标在互相争夺时，先解那个最紧的：它可接受的答案最少，而设计的其余部分，都会建在它所允许的范围之内。",
+          "flavor": "「第二个目标是限制性最强的，所以我相信他们是从那里起步的。如果你想要一个『在你还没打出过任何一张牌之前』就能用的替代费用，那你手上有哪些资源？」只有你开局时就带着的那些：生命值和手牌。「还有一些别的可能（放弃未来的抽牌／回合、把资源送给对手等等），但这两样显然是最优雅的。」"
+        },
+        {
+          "title": "挑那个顺便把第二个问题也解掉的选项",
+          "rules": "当两个候选都满足约束时，选那个恰好还回答了另一个悬而未决的问题的。事后让一个设计显得「本该如此」的，通常正是这次巧合。",
+          "flavor": "「生命值最大的障碍在于：它没有提供任何简单的办法去处理颜色这个问题。而手牌则有一个优雅的解法。牌是有颜色的。如果我打的是红色牌组，我就拿不到蓝色的牌。于是这些牌可以通过弃掉一张相应颜色的牌，作为替代方式打出来。」"
+        },
+        {
+          "title": "那个优雅的价格，往往还是太低了",
+          "rules": "找到了概念上正确的那种货币，并不等于定价工作已经做完。请去测它；并且当一种货币被证明不够时，愿意同时收两种。",
+          "flavor": "「讽刺的是，在开发阶段，Alliances 的开发团队最后把牌和生命两样都用作了替代费用——因为『只弃牌』版本的意志之力被证明太强了。」"
+        },
+        {
+          "title": "目标决定了牌张类别",
+          "rules": "请从你想要的那种体验倒推回来。如果重点在于「在你看上去无能为力时出手」，那这张牌就必须能在别人的回合里使用——而这一点，在写下任何别的东西之前就已经决定了它的类别。",
+          "flavor": "「既然团队想要这些牌是反应式的（好让你在法术力用光时给对手一个惊喜），那这些牌就必须是瞬间。但要是哪种瞬间呢？」"
+        },
+        {
+          "title": "把「全是这张牌」的那副牌算一遍",
+          "rules": "在批准一个免费的效果之前，先在纸上把那副变态牌组搭出来——除了这张牌的四张之外什么都没有——然后数。如果它在你脑子里第三回合就杀人，那它在现实里也会第三回合杀人。",
+          "flavor": "「设想 Pyrokinesis 对目标生物或玩家造成 4 点伤害。一副除了 Pyrokinesis 什么都没有的牌组，可以在双方谁都还没抽过一张牌之前，就往对手脑门上打 12 点伤害。抽了第一张牌之后再来 4 点，然后它会在第三回合赢下这盘。」"
+        },
+        {
+          "title": "把目标写成能排除掉东西的样子",
+          "rules": "一个你不可能没做到的目标，是装饰品。请把它写成一组对照——是这个，并且明确地不是那个——它就会开始干活，把那些否则看上去还挺不错的设计挡在外面。",
+          "flavor": "「弃牌费用牌是为了加进一份出其不意，而不是为了让游戏变快。」于是这一整批都是「答案」：「Pyrokinesis 和 Contagion 杀生物。意志之力和 Scars of the Veteran 分别挡下咒语和伤害。」"
+        },
+        {
+          "title": "用同一把尺子去量那个例外",
+          "rules": "那张打破了你的模式的牌，恰恰是要被查得最狠的一张。如果它活了下来，那应该是因为你把它量过了，而不是因为你喜欢它。",
+          "flavor": "「Bounty of the Hunt 是这批牌里最具侵略性的一张，可它既是加快你进攻的手段，也同样是救下你生物的手段；而且即便如此，它的速率也慢到足以避免轻松的第三回合击杀。」"
+        },
+        {
+          "title": "然后把同一根轴朝反方向再走一遍",
+          "rules": "当一个团队已经把前期挖过之后，那片没被探索的另一半就是后期。去问：哪些资源要过好几个回合才存在——于是同一个机制，就变成了另一个机制。",
+          "flavor": "「如果说 Alliances 的设计者展示的是替代费用牌在前期的优势，那么 Mirage／Visions 的设计团队探索的就是光谱的另一端。随着牌局推进，玩家会在场上积累越来越多的资源。那么，有没有可能做出使用这些资源的替代费用牌呢？」牺牲永久物、把地弹回手上、把牌从坟墓场移除——「这些资源允许了一些更具侵略性的效果。」"
+        },
+        {
+          "title": "玩家会找到另一种用法",
+          "rules": "你为之设计的那个场景，只是它会被用到的场景之一。请预期真正的用法会落在旁边的某个地方，并且不要把这件事当成失败。",
+          "flavor": "「据 Mirage／Visions 的联合首席设计师比尔·罗斯说，Fireblast 当初被设计出来，是作为一张利用场上多余的地的牌。（是啊，它最后并不完全是这么被用的；不过设计师常常会发现，机制的用途被玩家挪到了别处。）」"
+        },
+        {
+          "title": "第三次造访，是为了把每一个参数都拧一遍",
+          "rules": "当核心已经被证明、两端也都探过之后，剩下的工作就是系统性的变奏：改掉付出去的是什么、受益的是谁、这个效果指向什么。每一次替换，都是另一张牌。",
+          "flavor": "《马凯迪亚假面》「玩了很多新的花样：把替代费用牌做成克制某个颜色的牌、要求你把一份资源送给对手的替代费用牌、弃掉基本地而不是有色牌的弃牌费用牌，等等。」"
+        },
+        {
+          "title": "在给出结论的同时，把那个长期存在的偏差也点出来",
+          "rules": "当你推荐一个领域时，请说清楚你所在的组织在这个领域里习惯性地朝哪边犯错。一条附带了已知失效模式的建议，比不附带的那条更有用。",
+          "flavor": "「对我来说，《假面》设计过程中最有意思的部分，是了解到替代费用牌这片设计区域实际上有多丰富。是的，它遍布危险；也是的，研发部一直有低估它们有多强的历史。但我相信，这是一片我们会一次又一次回来的、卡牌设计的核心区域。」"
+        }
+      ]
+    }
+  }
+}
