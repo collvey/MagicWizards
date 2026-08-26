@@ -1,0 +1,424 @@
+{
+  "id": "design-101-2003-04-21-0",
+  "slug": "design-101-2003-04-21-0",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2003-04-21",
+  "series": null,
+  "tags": ["design-advice", "novice-mistakes", "synergy", "complexity", "color-pie"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/design-101-2003-04-21-0",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-27T18:50:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "W" },
+    { "n": 11, "color": "R" },
+    { "n": 12, "color": "U" },
+    { "n": 13, "color": "B" },
+    { "n": 14, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Design 101",
+      "dek": "The mistakes rookie card designers make, ranked — with a worked example scoring eight abilities for synergy against a single first-striker.",
+      "overview": "Written from years of judging submissions. The most practical design column in the archive: five categories of error, the reasoning behind each, and a test you can run on your own work.",
+      "takeaway": "\"Before you think outside the box, check inside the box first.\"",
+      "lessons": [
+        {
+          "title": "Say who the advice is for",
+          "rules": "Guidance that assumes one set of goals should say so. Otherwise people working toward something different will take your rules as universal, or dismiss the whole thing because one clause doesn't fit them.",
+          "flavor": "\"My audience for this column is for card designers who want to design cards as we do here at Wizards of the Coast. If you want to do your own thing and do things we never would, more power to you, but this column isn't for you.\""
+        },
+        {
+          "title": "The most common failure is too much",
+          "rules": "The novice reflex is to put every good idea into one thing. It looks bad, reads badly, and it's the single most frequent error — ranked first not by severity but by how often it appears.",
+          "flavor": "\"This is far and away, hands down, the most common mistake made by novice designers… For some reason, new designers feel a great need to take all their cool ideas and put them on the same card.\" \"While this is okay occasionally on a random funky rare, the average Magic card needs to be simple and straightforward.\""
+        },
+        {
+          "title": "Mock it up and look at it",
+          "rules": "Some defects are only visible in the final presentation. Build a physical facsimile early, and check your instinct against what the successful examples actually look like.",
+          "flavor": "\"I strongly urge designers to mock up stickers so they can get an idea of how the card looks. Cards with excessively long rules text look bad.\" The empirical check: \"Think of the Magic cards you like. More often than not, the more popular cards are not in our tiniest font sizes.\""
+        },
+        {
+          "title": "Pulling focus",
+          "rules": "Attention is finite and divides across whatever you present. If there's one thing you want engaged with, every additional element is subtracting from it — including the good ones.",
+          "flavor": "\"Too many abilities 'pull focus.' In design lingo what this means is that it keeps the player from focusing on the aspect of the card you want them to focus on. If, for example, you have a neat new creature ability, you want the player to spend his energies thinking about that. Each other ability stuck on the card lessens that focus.\""
+        },
+        {
+          "title": "Charge flavour rent for the space it takes",
+          "rules": "A detail added purely for atmosphere still costs text and comprehension. If it almost never comes into play, it isn't paying for itself — and when it finally does, it usually lands as an arbitrary blow.",
+          "flavor": "Imagine a Dragon that doesn't untap while a Knight is in play. \"There's some flavor to the ability; maybe the Dragon is afraid of Knights and 'hides' from them, but it just isn't going to matter in the vast majority of the games.\" The test: track it in playtesting. \"If the ability never or very seldom comes up, it usually isn't worth the space on the card.\""
+        },
+        {
+          "title": "Don't stand next to your work explaining it",
+          "rules": "The thing has to carry itself once you aren't there. Repeated confusion from the same readers is the diagnosis, and your explanation is what stops you from hearing it.",
+          "flavor": "\"If the people you show your cards to consistently get confused by the same card, that's a sign that the card is too complicated. And don't jump in and explain your card. Good design has to rest on the laurels of the rules text. If the card can't explain itself, it's inherently flawed.\""
+        },
+        {
+          "title": "Two ways memory goes wrong",
+          "rules": "Asking people to track things is sometimes worth it. It fails when there are too many separate things, and — more subtly — when the thing is too minor to keep reminding them it exists.",
+          "flavor": "\"An enchantment where the opponent loses 3 life whenever he draws a card is memorable. One where he loses 1 life whenever a 1/1 creature comes into play is not.\""
+        },
+        {
+          "title": "One thing, not a container of things",
+          "rules": "Treat what you're making as a single entity with one purpose. Multiple parts are fine, but they have to be pulling in the same direction — otherwise you've made a bag, not a design.",
+          "flavor": "\"When I design a card, I think of it as a single entity. That means that everything on the card needs to be working together for the greater good of the card. Remember, every card doesn't need multiple abilities on it, but if you choose to use more than one, the abilities have to interconnect in some way.\""
+        },
+        {
+          "title": "Score the candidates for synergy",
+          "rules": "Once one element is fixed, evaluate each possible partner by how much it amplifies the first. The scale runs from actively reinforcing, through neutral, to two components that quietly cancel each other out.",
+          "flavor": "Given first strike: the Basilisk ability is strong synergy (\"hitting first is extra valuable when you get to destroy the creature before it can hit back\"). Regeneration is anti-synergistic — both keep a creature alive in combat, so \"they overlap enough that they aren't particularly interesting together. Alas, poor Ranger en-Vec.\" Tapping for mana is worse still: you can't use both in one turn."
+        },
+        {
+          "title": "Assume the gap is deliberate",
+          "rules": "When you spot an obvious idea nobody has done, the first hypothesis should be that it was considered and rejected. Genuinely unexplored territory exists — but it rarely looks like an easy variation on something familiar.",
+          "flavor": "\"The reason we haven't made much green creature kill or red enchantment destruction is not because it never dawned on us. It's because the game shouldn't have them.\" \"If it's an obvious mechanic that you've seen done in other colors, odds are you're about to make a mistake.\""
+        },
+        {
+          "title": "Check inside the box first",
+          "rules": "Breaking a convention isn't forbidden; breaking it needlessly is. Exhaust what's available within the established structure before you spend the goodwill that an exception costs.",
+          "flavor": "\"The point of this category is not that designers can't break rules. It's that rules shouldn't be broken if they don't need to be. As I'm fond of saying: Before you think outside the box, check inside the box first.\""
+        },
+        {
+          "title": "Verify it does what you think",
+          "rules": "There's a difference between deliberately exploring untouched parts of a system and simply being wrong about how the system works. Have someone who knows the rules confirm which one you're doing.",
+          "flavor": "\"To be clear, I'm not talking about cards that attack virgin areas of the rules. This mistake is about cards that simply don't work under the current existing rules. When you design a card, check with someone you know that's good with the rules. Make sure the card works the way you think it works.\""
+        },
+        {
+          "title": "Power level matters least",
+          "rules": "The mistake everyone worries about is the cheapest to fix and the easiest to hand off. Rank your errors by how hard they are to repair, not by how embarrassing they feel.",
+          "flavor": "\"I listed this last because I think this is one of the least important design mistakes. (Lord knows I've made my share of crazy overpowered cards.)\" And the delegation: \"Me, I just use the developers — 'Hey Brian, cost this card for me.'\""
+        },
+        {
+          "title": "Type conventions and accumulated flavour are rules too",
+          "rules": "Beyond the explicit constraints sit the ones nobody wrote down: what each category of thing does, and what years of consistent choices have made feel correct. Violating either reads as a mistake even when it's legal.",
+          "flavor": "\"Lands produce mana. Enchantments don't tap. Artifacts have generic mana costs. If your card breaks one of the fundamental rules of a card type… ask yourself if the card shouldn't be of a different type.\" And on flavour: \"Your non-flying male angel, for instance, might not be a perfect fit.\""
+        }
+      ]
+    },
+    "es": {
+      "title": "Diseño 101",
+      "dek": "Los errores que cometen los diseñadores de cartas novatos, ordenados, con un ejemplo trabajado que puntúa ocho habilidades por su sinergia con dañar primero.",
+      "overview": "Escrito tras años juzgando propuestas. La columna de diseño más práctica del archivo: cinco categorías de error, el razonamiento tras cada una y una prueba que puedes aplicar a tu propio trabajo.",
+      "takeaway": "«Antes de pensar fuera de la caja, mira primero dentro de la caja».",
+      "lessons": [
+        {
+          "title": "Di para quién es el consejo",
+          "rules": "Una guía que da por sentado un conjunto de objetivos debería decirlo. Si no, quien busque otra cosa tomará tus reglas por universales, o descartará todo el texto porque una cláusula no le encaja.",
+          "flavor": "«El público de esta columna son los diseñadores de cartas que quieren diseñar como lo hacemos aquí en Wizards of the Coast. Si quieres ir por tu cuenta y hacer cosas que nosotros nunca haríamos, adelante, pero esta columna no es para ti»."
+        },
+        {
+          "title": "El fallo más común es el exceso",
+          "rules": "El reflejo del novato es meter todas sus buenas ideas en una sola cosa. Queda feo, se lee mal, y es el error más frecuente: va primero no por gravedad, sino por cuántas veces aparece.",
+          "flavor": "«Este es, con mucho y sin discusión, el error más común de los diseñadores novatos… Por alguna razón, los nuevos diseñadores sienten una enorme necesidad de meter todas sus ideas chulas en la misma carta». «Aunque de vez en cuando esto vale para alguna rara rarita, la carta media de Magic tiene que ser simple y directa»."
+        },
+        {
+          "title": "Haz una maqueta y míralo",
+          "rules": "Algunos defectos solo se ven en la presentación final. Construye pronto un facsímil físico y contrasta tu instinto con el aspecto que de verdad tienen los ejemplos exitosos.",
+          "flavor": "«Recomiendo encarecidamente a los diseñadores hacer maquetas con pegatinas para hacerse una idea de cómo queda la carta. Las cartas con textos de reglas excesivamente largos quedan feas». La comprobación empírica: «Piensa en las cartas de Magic que te gustan. La mayoría de las veces, las más populares no están en nuestros tamaños de letra más pequeños»."
+        },
+        {
+          "title": "Robar el foco",
+          "rules": "La atención es finita y se reparte entre todo lo que presentas. Si hay una cosa con la que quieres que la gente se enganche, cada elemento adicional se lo resta, incluidos los buenos.",
+          "flavor": "«Demasiadas habilidades 'roban el foco'. En jerga de diseño esto significa que impiden al jugador centrarse en el aspecto de la carta en el que quieres que se centre. Si, por ejemplo, tienes una habilidad de criatura nueva y bonita, quieres que el jugador gaste ahí sus energías. Cada habilidad extra pegada a la carta reduce ese foco»."
+        },
+        {
+          "title": "Cóbrale alquiler al sabor por el espacio que ocupa",
+          "rules": "Un detalle añadido solo por ambiente sigue costando texto y comprensión. Si casi nunca entra en juego, no se está pagando a sí mismo; y cuando por fin entra, suele caer como un golpe arbitrario.",
+          "flavor": "Imagina un Dragón que no se endereza mientras haya un Caballero en juego. «Tiene su sabor: quizá el Dragón teme a los Caballeros y se 'esconde' de ellos, pero es que no va a importar en la inmensa mayoría de las partidas». La prueba: mídelo en las pruebas de juego. «Si la habilidad nunca o casi nunca sale, normalmente no merece el espacio en la carta»."
+        },
+        {
+          "title": "No te quedes al lado de tu obra explicándola",
+          "rules": "La cosa tiene que sostenerse sola en cuanto tú no estés. La confusión repetida de los mismos lectores es el diagnóstico, y tu explicación es justo lo que te impide oírlo.",
+          "flavor": "«Si la gente a la que enseñas tus cartas se confunde sistemáticamente con la misma carta, es señal de que es demasiado complicada. Y no saltes a explicar tu carta. El buen diseño tiene que sostenerse sobre los laureles del texto de reglas. Si la carta no puede explicarse sola, tiene un fallo intrínseco»."
+        },
+        {
+          "title": "Dos formas de fallar con la memoria",
+          "rules": "Pedirle a la gente que lleve la cuenta de algo a veces vale la pena. Falla cuando hay demasiadas cosas distintas y, más sutilmente, cuando la cosa es tan menor que no se le recuerda constantemente que existe.",
+          "flavor": "«Un encantamiento en el que el rival pierde 3 vidas cada vez que roba una carta es memorable. Uno en el que pierde 1 vida cada vez que entra en juego una criatura 1/1, no»."
+        },
+        {
+          "title": "Una cosa, no un contenedor de cosas",
+          "rules": "Trata lo que estás haciendo como una entidad única con un propósito. Varias partes están bien, pero tienen que tirar en la misma dirección; si no, has hecho una bolsa, no un diseño.",
+          "flavor": "«Cuando diseño una carta, pienso en ella como una entidad única. Eso significa que todo lo que hay en la carta tiene que trabajar junto por el bien mayor de la carta. Recuerda: no toda carta necesita varias habilidades, pero si eliges usar más de una, las habilidades tienen que interconectarse de algún modo»."
+        },
+        {
+          "title": "Puntúa a los candidatos por sinergia",
+          "rules": "Fijado un elemento, evalúa cada posible compañero por cuánto amplifica al primero. La escala va desde reforzarlo activamente, pasando por lo neutro, hasta dos componentes que se anulan en silencio.",
+          "flavor": "Con dañar primero: la habilidad de basilisco es sinergia fuerte («golpear primero vale más cuando además destruyes a la criatura antes de que pueda devolverte el golpe»). La regeneración es antisinérgica: ambas mantienen viva a la criatura en combate, así que «se solapan lo bastante como para no resultar interesantes juntas. Ay, pobre Ranger en-Vec». Girar para maná es aún peor: no puedes usar ambas en un mismo turno."
+        },
+        {
+          "title": "Da por hecho que el hueco es deliberado",
+          "rules": "Cuando detectes una idea obvia que nadie ha hecho, la primera hipótesis debería ser que se consideró y se rechazó. Existe territorio realmente inexplorado, pero rara vez se parece a una variación fácil de algo conocido.",
+          "flavor": "«La razón de que no hayamos hecho mucha eliminación verde de criaturas ni destrucción roja de encantamientos no es que nunca se nos ocurriera. Es que el juego no debería tenerlas». «Si es una mecánica obvia que has visto hecha en otros colores, lo más probable es que estés a punto de cometer un error»."
+        },
+        {
+          "title": "Mira primero dentro de la caja",
+          "rules": "Romper una convención no está prohibido; romperla sin necesidad sí. Agota lo disponible dentro de la estructura establecida antes de gastar el crédito que cuesta una excepción.",
+          "flavor": "«El sentido de esta categoría no es que los diseñadores no puedan romper reglas. Es que las reglas no deberían romperse si no hace falta. Como me gusta decir: antes de pensar fuera de la caja, mira primero dentro de la caja»."
+        },
+        {
+          "title": "Verifica que hace lo que crees",
+          "rules": "Hay diferencia entre explorar deliberadamente zonas intactas de un sistema y simplemente equivocarse sobre cómo funciona ese sistema. Que alguien que conozca las reglas confirme cuál de las dos estás haciendo.",
+          "flavor": "«Que quede claro: no hablo de cartas que atacan zonas vírgenes de las reglas. Este error va de cartas que sencillamente no funcionan bajo las reglas existentes. Cuando diseñes una carta, consulta a alguien que sepas que domina las reglas. Asegúrate de que la carta funciona como crees que funciona»."
+        },
+        {
+          "title": "El nivel de potencia es lo que menos importa",
+          "rules": "El error que a todo el mundo le preocupa es el más barato de arreglar y el más fácil de delegar. Ordena tus errores por lo difícil que sea repararlos, no por lo bochornosos que parezcan.",
+          "flavor": "«Lo he puesto el último porque creo que es uno de los errores de diseño menos importantes. (Bien sabe Dios que yo he hecho mi buena ración de cartas descabelladamente rotas)». Y la delegación: «Yo, sencillamente, uso a los desarrolladores: 'Oye Brian, ponle coste a esta carta'»."
+        },
+        {
+          "title": "Las convenciones de tipo y el sabor acumulado también son reglas",
+          "rules": "Más allá de las restricciones explícitas están las que nadie escribió: qué hace cada categoría de cosa, y qué han hecho parecer correcto años de decisiones consistentes. Violar cualquiera de las dos se lee como un error aunque sea legal.",
+          "flavor": "«Las tierras producen maná. Los encantamientos no se giran. Los artefactos tienen costes de maná genéricos. Si tu carta rompe una de las reglas fundamentales de un tipo… pregúntate si la carta no debería ser de otro tipo». Y sobre el sabor: «Tu ángel varón sin vuelo, por ejemplo, quizá no encaje del todo»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Conception 101",
+      "dek": "Les erreurs des concepteurs de cartes débutants, classées — avec un exemple travaillé qui note huit capacités selon leur synergie avec l'initiative.",
+      "overview": "Écrit après des années à juger des propositions. La chronique de conception la plus pratique des archives : cinq catégories d'erreurs, le raisonnement derrière chacune, et un test applicable à votre propre travail.",
+      "takeaway": "« Avant de penser hors de la boîte, regardez d'abord dans la boîte. »",
+      "lessons": [
+        {
+          "title": "Dites à qui s'adresse le conseil",
+          "rules": "Des conseils qui présupposent un certain but doivent le dire. Sinon, ceux qui visent autre chose prendront vos règles pour universelles, ou rejetteront le tout parce qu'une clause ne leur convient pas.",
+          "flavor": "« Le public de cette chronique, ce sont les concepteurs qui veulent concevoir des cartes comme nous le faisons chez Wizards of the Coast. Si vous voulez faire votre propre truc et des choses que nous ne ferions jamais, tant mieux, mais cette chronique n'est pas pour vous. »"
+        },
+        {
+          "title": "L'échec le plus fréquent, c'est le trop",
+          "rules": "Le réflexe du débutant est de mettre toutes ses bonnes idées dans une seule chose. C'est laid, ça se lit mal, et c'est l'erreur la plus fréquente — classée première non par gravité mais par fréquence.",
+          "flavor": "« C'est de très loin, sans discussion, l'erreur la plus fréquente des débutants… Pour une raison ou une autre, les nouveaux concepteurs éprouvent un immense besoin de mettre toutes leurs idées sympas sur la même carte. » « Si c'est acceptable de temps en temps sur une rare farfelue, la carte moyenne doit être simple et directe. »"
+        },
+        {
+          "title": "Faites une maquette et regardez-la",
+          "rules": "Certains défauts ne se voient que dans la présentation finale. Fabriquez tôt un fac-similé physique et confrontez votre instinct à l'allure réelle des exemples réussis.",
+          "flavor": "« Je conseille vivement aux concepteurs de faire des maquettes sur autocollants pour voir de quoi la carte a l'air. Les cartes au texte de règles excessivement long sont laides. » La vérification empirique : « Pensez aux cartes que vous aimez. Le plus souvent, les plus populaires ne sont pas dans nos plus petits corps de texte. »"
+        },
+        {
+          "title": "Voler l'attention",
+          "rules": "L'attention est finie et se répartit sur tout ce que vous présentez. S'il y a une chose sur laquelle vous voulez qu'on se concentre, chaque élément supplémentaire la lui retire — y compris les bons.",
+          "flavor": "« Trop de capacités 'volent l'attention'. En jargon de conception, cela veut dire qu'elles empêchent le joueur de se concentrer sur l'aspect de la carte que vous visiez. Si vous avez par exemple une chouette nouvelle capacité de créature, vous voulez que le joueur y consacre son énergie. Chaque capacité en plus réduit cette concentration. »"
+        },
+        {
+          "title": "Faites payer un loyer à l'ambiance",
+          "rules": "Un détail ajouté pour la seule atmosphère coûte quand même du texte et de la compréhension. S'il ne se déclenche presque jamais, il ne se rembourse pas ; et quand enfin il se déclenche, c'est en général comme un coup arbitraire.",
+          "flavor": "Imaginez un Dragon qui ne se dégage pas tant qu'un Chevalier est en jeu. « Il y a de l'ambiance là-dedans ; peut-être que le Dragon a peur des Chevaliers et se 'cache'. Mais cela ne comptera tout simplement pas dans la grande majorité des parties. » Le test : mesurez-le en test. « Si la capacité ne survient jamais ou très rarement, elle ne vaut généralement pas la place. »"
+        },
+        {
+          "title": "Ne restez pas à côté de votre travail pour l'expliquer",
+          "rules": "La chose doit tenir seule dès que vous n'êtes plus là. La confusion répétée des mêmes lecteurs est le diagnostic, et votre explication est précisément ce qui vous empêche de l'entendre.",
+          "flavor": "« Si les gens à qui vous montrez vos cartes butent systématiquement sur la même, c'est signe qu'elle est trop compliquée. Et n'intervenez pas pour l'expliquer. Une bonne conception doit reposer sur les lauriers du texte de règles. Si la carte ne peut pas s'expliquer elle-même, elle est intrinsèquement défectueuse. »"
+        },
+        {
+          "title": "Deux façons de rater la mémoire",
+          "rules": "Demander aux gens de suivre quelque chose en vaut parfois la peine. Cela échoue quand il y a trop de choses distinctes et, plus subtilement, quand la chose est trop mineure pour qu'on leur rappelle sans cesse son existence.",
+          "flavor": "« Un enchantement où l'adversaire perd 3 points de vie à chaque pioche est mémorable. Un où il perd 1 point de vie chaque fois qu'une créature 1/1 arrive en jeu ne l'est pas. »"
+        },
+        {
+          "title": "Une chose, pas un contenant de choses",
+          "rules": "Traitez ce que vous faites comme une entité unique avec un seul but. Plusieurs éléments, d'accord, mais ils doivent tirer dans le même sens — sinon vous avez fabriqué un sac, pas une conception.",
+          "flavor": "« Quand je conçois une carte, je la pense comme une entité unique. Cela signifie que tout sur la carte doit travailler ensemble pour le bien de la carte. Rappelez-vous : toute carte n'a pas besoin de plusieurs capacités, mais si vous en mettez plus d'une, elles doivent s'interconnecter d'une manière ou d'une autre. »"
+        },
+        {
+          "title": "Notez les candidats pour la synergie",
+          "rules": "Un élément étant fixé, évaluez chaque partenaire possible selon ce qu'il amplifie du premier. L'échelle va du renforcement actif au neutre, jusqu'à deux composants qui s'annulent en silence.",
+          "flavor": "Avec l'initiative : la capacité de basilic est une forte synergie (« frapper en premier vaut d'autant plus qu'on détruit la créature avant qu'elle puisse riposter »). La régénération est anti-synergique — les deux maintiennent la créature en vie au combat, donc « elles se recoupent assez pour n'être pas très intéressantes ensemble. Hélas, pauvre Ranger en-Vec. » S'engager pour du mana est pire encore : impossible d'user des deux dans le même tour."
+        },
+        {
+          "title": "Supposez que le vide est délibéré",
+          "rules": "Quand vous repérez une idée évidente que personne n'a faite, la première hypothèse devrait être qu'elle a été envisagée et écartée. Le territoire vraiment inexploré existe — mais il ressemble rarement à une variation facile sur du connu.",
+          "flavor": "« Si nous n'avons pas fait beaucoup de retrait de créature en vert ni de destruction d'enchantement en rouge, ce n'est pas que l'idée ne nous soit jamais venue. C'est que le jeu ne devrait pas en avoir. » « Si c'est une mécanique évidente que vous avez vue dans d'autres couleurs, il y a fort à parier que vous allez faire une erreur. »"
+        },
+        {
+          "title": "Regardez d'abord dans la boîte",
+          "rules": "Enfreindre une convention n'est pas interdit ; l'enfreindre sans nécessité l'est. Épuisez ce qui est disponible dans la structure établie avant de dépenser le crédit que coûte une exception.",
+          "flavor": "« Le propos de cette catégorie n'est pas que les concepteurs ne peuvent pas enfreindre les règles. C'est qu'on ne devrait pas les enfreindre sans nécessité. Comme j'aime le dire : avant de penser hors de la boîte, regardez d'abord dans la boîte. »"
+        },
+        {
+          "title": "Vérifiez que ça fait ce que vous croyez",
+          "rules": "Il y a une différence entre explorer délibérément des zones intactes d'un système et se tromper tout bonnement sur son fonctionnement. Faites confirmer par quelqu'un qui connaît les règles laquelle des deux vous faites.",
+          "flavor": "« Pour être clair, je ne parle pas des cartes qui attaquent des zones vierges des règles. Cette erreur concerne les cartes qui, tout simplement, ne fonctionnent pas selon les règles actuelles. Quand vous concevez une carte, vérifiez auprès de quelqu'un que vous savez bon en règles. Assurez-vous qu'elle marche comme vous le pensez. »"
+        },
+        {
+          "title": "Le niveau de puissance compte le moins",
+          "rules": "L'erreur qui inquiète tout le monde est la moins chère à corriger et la plus facile à déléguer. Classez vos erreurs selon la difficulté de la réparation, pas selon la gêne qu'elles inspirent.",
+          "flavor": "« Je l'ai mise en dernier car je pense que c'est l'une des erreurs de conception les moins importantes. (Dieu sait que j'ai fait ma part de cartes délirantes de puissance.) » Et la délégation : « Moi, j'utilise simplement les développeurs : 'Hé Brian, chiffre-moi cette carte.' »"
+        },
+        {
+          "title": "Les conventions de type et l'ambiance accumulée sont aussi des règles",
+          "rules": "Au-delà des contraintes explicites se trouvent celles que personne n'a écrites : ce que fait chaque catégorie de chose, et ce que des années de choix cohérents ont rendu juste. Enfreindre l'une ou l'autre se lit comme une faute même quand c'est légal.",
+          "flavor": "« Les terrains produisent du mana. Les enchantements ne s'engagent pas. Les artefacts ont des coûts génériques. Si votre carte enfreint une règle fondamentale d'un type… demandez-vous si elle ne devrait pas être d'un autre type. » Et sur l'ambiance : « Votre ange mâle sans vol, par exemple, n'est peut-être pas idéal. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Design 101",
+      "dek": "Os erros que designers de carta novatos cometem, ordenados — com um exemplo trabalhado que pontua oito habilidades pela sinergia com iniciativa.",
+      "overview": "Escrito depois de anos julgando propostas. A coluna de design mais prática do acervo: cinco categorias de erro, o raciocínio por trás de cada uma, e um teste que dá para rodar no próprio trabalho.",
+      "takeaway": "«Antes de pensar fora da caixa, olhe primeiro dentro da caixa.»",
+      "lessons": [
+        {
+          "title": "Diga para quem é o conselho",
+          "rules": "Orientação que pressupõe um certo conjunto de objetivos deveria dizer isso. Senão, quem busca outra coisa vai tomar suas regras como universais, ou descartar tudo porque uma cláusula não serve para ele.",
+          "flavor": "«O público desta coluna são designers de carta que querem projetar cartas como fazemos aqui na Wizards of the Coast. Se você quer fazer seu próprio caminho e coisas que nós nunca faríamos, força aí, mas esta coluna não é para você.»"
+        },
+        {
+          "title": "A falha mais comum é o excesso",
+          "rules": "O reflexo do novato é enfiar toda boa ideia numa coisa só. Fica feio, lê-se mal, e é o erro mais frequente — listado primeiro não pela gravidade, mas pela quantidade de vezes que aparece.",
+          "flavor": "«Este é, disparado e sem discussão, o erro mais comum dos designers novatos… Por alguma razão, designers novos sentem uma enorme necessidade de pôr todas as suas ideias legais na mesma carta.» «Embora isso valha de vez em quando numa rara esquisitona, a carta média de Magic precisa ser simples e direta.»"
+        },
+        {
+          "title": "Faça uma maquete e olhe para ela",
+          "rules": "Alguns defeitos só aparecem na apresentação final. Construa cedo um fac-símile físico e confronte seu instinto com a cara que os exemplos bem-sucedidos de fato têm.",
+          "flavor": "«Recomendo fortemente que designers montem maquetes com adesivos para ter ideia de como a carta fica. Cartas com texto de regras excessivamente longo ficam feias.» A checagem empírica: «Pense nas cartas de Magic de que você gosta. Na maioria das vezes, as mais populares não estão nos nossos corpos de letra menores.»"
+        },
+        {
+          "title": "Roubar o foco",
+          "rules": "Atenção é finita e se reparte por tudo o que você apresenta. Se há uma coisa com a qual você quer que se engajem, cada elemento adicional a subtrai — inclusive os bons.",
+          "flavor": "«Habilidades demais 'roubam o foco'. No jargão do design, isso quer dizer que elas impedem o jogador de se concentrar no aspecto da carta em que você queria que ele se concentrasse. Se, por exemplo, você tem uma habilidade de criatura nova e bacana, quer que o jogador gaste ali as energias. Cada habilidade extra grudada na carta reduz esse foco.»"
+        },
+        {
+          "title": "Cobre aluguel do sabor pelo espaço que ele ocupa",
+          "rules": "Um detalhe acrescentado só por atmosfera ainda custa texto e compreensão. Se quase nunca entra em jogo, não está se pagando; e quando enfim entra, costuma cair como um golpe arbitrário.",
+          "flavor": "Imagine um Dragão que não desvira enquanto houver um Cavaleiro em jogo. «Tem seu sabor: talvez o Dragão tenha medo de Cavaleiros e se 'esconda' deles, mas isso simplesmente não vai importar na esmagadora maioria das partidas.» O teste: acompanhe nos testes de jogo. «Se a habilidade nunca ou quase nunca aparece, normalmente não vale o espaço na carta.»"
+        },
+        {
+          "title": "Não fique ao lado da sua obra explicando-a",
+          "rules": "A coisa precisa se sustentar assim que você não estiver ali. A confusão repetida dos mesmos leitores é o diagnóstico, e sua explicação é justamente o que impede você de ouvi-lo.",
+          "flavor": "«Se as pessoas a quem você mostra suas cartas se confundem sistematicamente com a mesma carta, é sinal de que ela é complicada demais. E não pule para explicar sua carta. Bom design tem de se sustentar nos louros do texto de regras. Se a carta não consegue se explicar, ela é intrinsecamente falha.»"
+        },
+        {
+          "title": "Dois jeitos de errar com memória",
+          "rules": "Pedir que as pessoas acompanhem algo às vezes vale a pena. Falha quando há coisas distintas demais e, mais sutilmente, quando a coisa é secundária demais para que se lembre o tempo todo de que ela existe.",
+          "flavor": "«Um encantamento em que o oponente perde 3 pontos de vida sempre que compra uma carta é memorável. Um em que ele perde 1 ponto de vida sempre que uma criatura 1/1 entra em jogo não é.»"
+        },
+        {
+          "title": "Uma coisa, não um recipiente de coisas",
+          "rules": "Trate o que você está fazendo como uma entidade única com um propósito. Várias partes tudo bem, mas elas têm de puxar na mesma direção — senão você fez um saco, não um design.",
+          "flavor": "«Quando desenho uma carta, penso nela como uma entidade única. Isso significa que tudo na carta precisa trabalhar junto pelo bem maior da carta. Lembre: nem toda carta precisa de várias habilidades, mas se você optar por mais de uma, elas têm de se interconectar de algum modo.»"
+        },
+        {
+          "title": "Pontue os candidatos pela sinergia",
+          "rules": "Fixado um elemento, avalie cada parceiro possível pelo quanto ele amplifica o primeiro. A escala vai de reforçar ativamente, passando pelo neutro, até dois componentes que se anulam em silêncio.",
+          "flavor": "Dada a iniciativa: a habilidade de basilisco é sinergia forte («bater primeiro vale ainda mais quando você destrói a criatura antes que ela possa revidar»). Regeneração é antissinérgica — ambas mantêm a criatura viva em combate, então «elas se sobrepõem o bastante para não serem particularmente interessantes juntas. Ai, pobre Ranger en-Vec». Virar por mana é pior ainda: você não usa as duas no mesmo turno."
+        },
+        {
+          "title": "Presuma que o vazio é deliberado",
+          "rules": "Quando você avista uma ideia óbvia que ninguém fez, a primeira hipótese deveria ser que ela foi considerada e recusada. Território de fato inexplorado existe — mas raramente se parece com uma variação fácil de algo conhecido.",
+          "flavor": "«O motivo de não termos feito muita remoção de criatura em verde nem destruição de encantamento em vermelho não é que a ideia nunca tenha nos ocorrido. É que o jogo não deveria tê-las.» «Se é uma mecânica óbvia que você já viu feita em outras cores, o mais provável é que você esteja prestes a cometer um erro.»"
+        },
+        {
+          "title": "Olhe primeiro dentro da caixa",
+          "rules": "Quebrar uma convenção não é proibido; quebrá-la sem necessidade é. Esgote o que está disponível dentro da estrutura estabelecida antes de gastar o crédito que uma exceção custa.",
+          "flavor": "«O ponto desta categoria não é que designers não possam quebrar regras. É que regras não deveriam ser quebradas sem necessidade. Como gosto de dizer: antes de pensar fora da caixa, olhe primeiro dentro da caixa.»"
+        },
+        {
+          "title": "Verifique se faz o que você acha que faz",
+          "rules": "Há diferença entre explorar de propósito áreas intocadas de um sistema e simplesmente estar errado sobre como o sistema funciona. Peça a alguém que conhece as regras para confirmar qual das duas você está fazendo.",
+          "flavor": "«Para deixar claro: não estou falando de cartas que atacam áreas virgens das regras. Este erro é sobre cartas que simplesmente não funcionam sob as regras existentes. Quando desenhar uma carta, cheque com alguém que você sabe que é bom de regras. Garanta que a carta funciona do jeito que você acha.»"
+        },
+        {
+          "title": "Nível de potência é o que menos importa",
+          "rules": "O erro que preocupa todo mundo é o mais barato de corrigir e o mais fácil de delegar. Ordene seus erros pela dificuldade do conserto, não pelo constrangimento que causam.",
+          "flavor": "«Coloquei este por último porque acho que é um dos erros de design menos importantes. (Deus sabe que já fiz minha cota de cartas absurdamente quebradas.)» E a delegação: «Eu simplesmente uso os desenvolvedores: 'Ei, Brian, precifica essa carta pra mim.'»"
+        },
+        {
+          "title": "Convenções de tipo e sabor acumulado também são regras",
+          "rules": "Além das restrições explícitas estão as que ninguém escreveu: o que cada categoria de coisa faz, e o que anos de escolhas consistentes tornaram correto. Violar qualquer uma soa como erro mesmo quando é legal.",
+          "flavor": "«Terrenos produzem mana. Encantamentos não viram. Artefatos têm custos genéricos. Se sua carta quebra uma regra fundamental de um tipo… pergunte-se se ela não deveria ser de outro tipo.» E sobre sabor: «Seu anjo homem sem voo, por exemplo, talvez não caia muito bem.»"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "设计入门",
+      "dek": "新手设计师会犯的那些错，按序排开——外加一个现场演算的例子：把八种异能拿去和「先攻」逐一打分，看协同有多高。",
+      "overview": "写自多年评审投稿的经验。这是本专栏档案里最实用的一篇设计文章：五类错误、每一类背后的推理，以及一个你可以拿去检验自己作品的测试。",
+      "takeaway": "「在你去『跳出盒子想』之前，先到盒子里面看一看。」",
+      "lessons": [
+        {
+          "title": "说清楚这份建议是给谁的",
+          "rules": "一份预设了某种目标的指导，就该把这份预设说出来。否则，目标不同的人会把你的规矩当成普世真理；或者因为其中某一条不适用于自己，就把整篇都丢掉。",
+          "flavor": "「这篇专栏的受众，是那些想按照我们在威世智的做法去设计牌张的设计师。如果你想走自己的路、去做那些我们永远不会做的东西，那太好了——但这篇专栏不是给你的。」"
+        },
+        {
+          "title": "最常见的失败就是「太多」",
+          "rules": "新手的本能反应，是把自己所有的好点子塞进同一件东西里。它难看、也难读；而且它是出现频率最高的那个错误——排在第一，不是因为最严重，而是因为最常见。",
+          "flavor": "「这是新手设计师犯的、遥遥领先、毫无争议的头号错误……不知为什么，新设计师总有一种强烈的需求，要把他们所有酷点子都放到同一张牌上。」「虽然偶尔在一张古怪的稀有牌上这么做没问题，但一张普通的万智牌需要简单直接。」"
+        },
+        {
+          "title": "把它做成样张，然后看",
+          "rules": "有些毛病只有在最终呈现形态里才看得见。尽早做一个实物仿真件；并且把你的直觉，拿去和那些成功案例真实的样子对一对。",
+          "flavor": "「我强烈建议设计师用不干胶做出样张，好对这张牌长什么样有个概念。规则文字过长的牌很难看。」而那个经验性的核对方法是：「想想那些你喜欢的万智牌。多数时候，越受欢迎的牌，用的越不是我们最小的那几号字。」"
+        },
+        {
+          "title": "「抢焦点」",
+          "rules": "注意力是有限的，并且会摊薄到你呈现出来的所有东西上。如果有那么一样东西是你希望别人投入其中的，那么每多一个元素都是在从它身上扣——包括那些本身很好的元素。",
+          "flavor": "「异能太多会『抢焦点』。用设计行话说，它会让玩家没法把注意力放在你希望他关注的那个侧面上。比如说，如果你有一个很棒的新生物异能，你希望玩家把精力花在琢磨它上面。而每多贴一个异能到这张牌上，那份专注就少一分。」"
+        },
+        {
+          "title": "让风味为它占的地方交租",
+          "rules": "一个纯为气氛而加的细节，照样要花掉文字和理解成本。如果它几乎从不生效，那它就没把自己的成本挣回来；而等它终于生效的那一次，通常落下来的是一记莫名其妙的重击。",
+          "flavor": "设想一条「只要场上有骑士，它就不能重置」的龙。「这里是有点风味的：也许这条龙怕骑士，于是『躲』着他们。可在绝大多数对局里，这件事根本不会起作用。」检验方法是：在试玩中记录它。「如果这个异能从不出现、或极少出现，那它通常就不值那块地方。」"
+        },
+        {
+          "title": "别站在自己的作品旁边替它解释",
+          "rules": "一旦你不在场，这东西就得自己撑住。同一批读者反复困惑，那就是诊断结果；而你张口去解释，恰恰是让你听不见这个诊断的原因。",
+          "flavor": "「如果你给人看牌，而大家总是在同一张牌上犯迷糊，那就说明这张牌太复杂了。而且别急着跳出来解释你的牌。好的设计必须靠规则文字本身立得住。如果一张牌没法解释自己，那它就有内在的缺陷。」"
+        },
+        {
+          "title": "记忆负担出错的两种方式",
+          "rules": "让人去记着某件事，有时候是值得的。它会在两种情况下失败：一是要记的事情种类太多；二是更微妙的那种——那件事小到没人会不断被提醒「它还存在」。",
+          "flavor": "「一个『对手每抓一张牌就失去 3 点生命』的结界，是记得住的。而一个『每当一个 1/1 生物进场他就失去 1 点生命』的结界，记不住。」"
+        },
+        {
+          "title": "是一件东西，而不是一个装东西的容器",
+          "rules": "把你正在做的东西当作一个有单一目的的整体来对待。有多个部件没关系，但它们必须往同一个方向使劲——否则你做出来的是一个袋子，而不是一个设计。",
+          "flavor": "「当我设计一张牌时，我把它当成一个单一的整体来想。这意味着牌上的一切都必须为这张牌的整体利益协同工作。记住：并不是每张牌都需要多个异能；但如果你选择用不止一个，那么这些异能之间就必须以某种方式相互勾连。」"
+        },
+        {
+          "title": "给候选项的协同性打分",
+          "rules": "在一个元素定下来之后，就按「它把第一个元素放大了多少」去评估每一个可能的搭档。这条刻度从「主动强化」，经过「中性」，一直延伸到「两个部件悄悄把彼此抵消掉」。",
+          "flavor": "以先攻为前提：蛇怪异能是强协同（「先手打中这件事，在你还能赶在对方还手之前把它消灭时，价值格外高」）。重生则是反协同——两者都是在战斗中让生物活下来，所以「它们重叠得够多，凑在一起并不特别有意思。唉，可怜的 Ranger en-Vec」。而「横置产法术力」更糟：你没法在同一个回合里同时用上这两样。"
+        },
+        {
+          "title": "先假定那个空白是故意留的",
+          "rules": "当你发现一个显而易见、却没人做过的点子时，你的第一个假设应该是：它被考虑过，然后被否掉了。真正无人涉足的疆域确实存在——但它很少长得像「对某个熟悉东西的一次轻松改写」。",
+          "flavor": "「我们之所以没做多少绿色的生物解除、或者红色的结界摧毁，并不是因为我们从来没想到过。而是因为这个游戏不该有它们。」「如果那是一条你在别的颜色里见过的、显而易见的机制，那么你多半正要犯一个错。」"
+        },
+        {
+          "title": "先到盒子里面看一看",
+          "rules": "打破一条惯例并不被禁止；不必要地打破它才是。在你去花掉「开一个例外」所需的那份信用之前，先把既有结构内部可用的东西挖尽。",
+          "flavor": "「这一类的要点，并不是说设计师不能破规矩。而是：如果没有必要，规矩就不该被破。就像我常说的那句：在你去『跳出盒子想』之前，先到盒子里面看一看。」"
+        },
+        {
+          "title": "去验证它真的在做你以为的事",
+          "rules": "「刻意去探索系统里尚未被碰过的区域」和「单纯搞错了这个系统怎么运作」，是两回事。找一个懂规则的人来确认：你正在做的究竟是哪一种。",
+          "flavor": "「先说清楚：我讲的不是那些去攻打规则处女地的牌。这个错误说的是那些在现行规则下根本跑不通的牌。当你设计一张牌时，去找一个你知道规则很好的人核对一下。确保这张牌真的按你以为的方式运作。」"
+        },
+        {
+          "title": "强度是最不要紧的那一项",
+          "rules": "所有人都在担心的那个错误，恰恰是修起来最便宜、也最容易交给别人去做的。请按「修复的难度」而不是「丢脸的程度」来给你的错误排序。",
+          "flavor": "「我把这条列在最后，因为我认为它是最不重要的设计错误之一。（天知道我自己也做过不少强度离谱的牌。）」以及那句关于分工的：「我嘛，直接找开发部的人就行了——『嘿布莱恩，帮我把这张牌定个价。』」"
+        },
+        {
+          "title": "类别惯例和累积下来的风味，同样是规矩",
+          "rules": "在那些明文约束之外，还坐着一批没人写下来的：每一类东西各自做什么，以及多年一致的选择让什么显得「对」。违反其中任何一条，读起来都像个错误——哪怕它完全合法。",
+          "flavor": "「地产生法术力。结界不横置。神器的法术力费用是通用的。如果你的牌打破了某个牌张类别的一条根本规矩……那就问问自己：这张牌是不是本该是另一个类别的。」以及关于风味的那句：「比如说，你那个不会飞的男性天使，可能就不太合适。」"
+        }
+      ]
+    }
+  }
+}
