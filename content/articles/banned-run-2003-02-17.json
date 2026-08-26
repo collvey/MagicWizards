@@ -1,0 +1,424 @@
+{
+  "id": "banned-run-2003-02-17",
+  "slug": "banned-run-2003-02-17",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2003-02-17",
+  "series": null,
+  "tags": ["banned-restricted", "design-mistakes", "free-spells", "urzas-block", "policy"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/banned-run-2003-02-17",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-27T21:10:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "B" },
+    { "n": 11, "color": "W" },
+    { "n": 12, "color": "R" },
+    { "n": 13, "color": "G" },
+    { "n": 14, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Banned on the Run",
+      "dek": "The policy behind bannings, followed by a walk through the author's own restricted cards — he has designed more of them than anyone except Richard Garfield.",
+      "overview": "Half policy explanation, half confession. The design post-mortems name recurring causes: cleanup that removes a safeguard, mis-categorising a card, and building for the player who'll enjoy it rather than the one who'll break it.",
+      "takeaway": "\"Richard Garfield built an excellent resource management system (lands and mana) and we often circumvent it with cards that let you play cards regardless of their costs.\"",
+      "lessons": [
+        {
+          "title": "Removal is taking something people paid for",
+          "rules": "The default should be strongly against withdrawing what people already own. State the bar as a presumption, and remember that the rule binds far more people than the ones it was written for.",
+          "flavor": "\"Our philosophy is simple: 'Don't ban or restrict cards unless we absolutely have to.'\" And why the bar is so high: \"We understand that the vast majority of Magic players, even those that never play in tournaments, follow the official Banned and Restricted List… we are taking something that all of you spent money on and aren't letting you play with it.\""
+        },
+        {
+          "title": "One thing is worse than removal",
+          "rules": "A strong presumption still needs its exception stated plainly, or it becomes paralysis. Here the exception is the health of the whole, and the cost is named rather than minimised.",
+          "flavor": "\"We believe there is something worse than not allowing players to use a particular card, and that is having a play environment become so degenerate that the game is no longer fun. Sometimes individual cards have to be sacrificed for the needs of the larger game.\""
+        },
+        {
+          "title": "The same remedy suits different places differently",
+          "rules": "A partial restriction has its own side effect — it makes outcomes hinge on whether the limited thing turns up. Whether that's acceptable depends on what each context is optimising for.",
+          "flavor": "\"Restricting a card makes games more swingy as the variance of drawing the powerful card has a huge impact on the game. We accept the swinginess in Vintage as we want players to have access to all the cards. But in other formats, we err on the side of making the formats a little less luck-based.\""
+        },
+        {
+          "title": "Reverse it when the reason expires",
+          "rules": "A restriction imposed for conditions that have since changed should be lifted, not left standing out of caution. Check that the change looks permanent, then act on the original principle.",
+          "flavor": "\"Sometimes cards that were problematic years ago are no longer a problem due to the shift in the metagame. If we believe the shift to be a permanent one… we will follow our philosophy of letting the players play with as many of the cards as possible and unrestrict (or unban) the card.\""
+        },
+        {
+          "title": "Concede the obvious inconsistency",
+          "rules": "When someone points at two decisions that plainly don't square, the cheap move is to construct a justification. The better one is to agree, in fewer words than the objection took.",
+          "flavor": "Asked why Kird Ape was banned in the original Extended when Hypnotic Specter wasn't: \"I'll let you in on a little secret. We're not infallible. We occasionally, gasp, make mistakes.\" Then his grandfather: \"If it looks like a duck, quacks like a duck, and has a giant sign on it that says 'I'm a freakin' duck!', odds are, it might be a duck.\""
+        },
+        {
+          "title": "Settle the argument by shipping it",
+          "rules": "When two people disagree about whether something will matter and the test is cheap, run the test. The sceptic can even name it after their own scepticism.",
+          "flavor": "Bill Rose didn't think Crop Rotation would ever get played — the working name \"Rampant Folly\" was him mocking it — \"but he enjoyed the argument so he put the card in the set to see.\" It ended up on the Restricted List. \"I'll put this in the 'I won' pile.\""
+        },
+        {
+          "title": "The awkward wording was the safety",
+          "rules": "Before simplifying something clumsy, work out what the clumsiness was doing. A clean rewrite can silently delete a constraint that was the only thing preventing an unbounded loop.",
+          "flavor": "Earthcraft originally granted the ability by splicing it onto each creature, \"which prevented endless loops since new creatures that were created would have 'summoning sickness.'\" The design note that changed it: \"Stop the needless text splicing. Word as 'Tap an untapped creature you control: Untap target land.'\" He dug the notes out of the database years later to find out who."
+        },
+        {
+          "title": "Watch what a mechanic does at scale",
+          "rules": "An idea invented for small cases will be tried on large ones. Ask what it becomes when applied to the most expensive thing in the system before you commit to it.",
+          "flavor": "Looking for a cantrip that cost no mana, he settled on \"untap N lands\" — \"I naively chose\" it. \"As we started playing around with the mechanic, we realized that it could go on big spells as well as small ones.\" \"Someday I'll do an article on the worst mechanics in Magic. The 'free' mechanic has a special space reserved in that article.\""
+        },
+        {
+          "title": "Others will push it further than you did",
+          "rules": "Once a mechanism exists, colleagues start hunting for its strongest pairing. That search is valuable and it is also how the worst version gets found — usually by someone who spotted the synergy immediately.",
+          "flavor": "\"Time Spiral was actually created during development. We were trying to create more 'free' spells. If my memory serves me William Jockusch suggested Timetwister. He felt it would have great synergy with the 'free' mechanic. And apparently he was correct.\""
+        },
+        {
+          "title": "Tidying can delete the price",
+          "rules": "Wordiness often encodes a cost. Strip it for elegance and you may have removed the payment that made the effect legitimate — which is how you end up bypassing the system's central constraint.",
+          "flavor": "On Tinker: \"My fatal mistake was that I tried to clean up the card to make it less wordy. As such, I got rid of the 'pay the mana difference between the two artifacts' part. This is one of the most common mistakes made by designers.\""
+        },
+        {
+          "title": "\"Might see niche use\" is not a floor",
+          "rules": "A card judged possibly too weak can still end up restricted, because the niche that adopts it may be the one you least wanted to serve. Weak-looking and safe are different properties.",
+          "flavor": "On Lotus Petal: \"The development team even questioned if it was too weak. In the end though we felt like the card might find some use in a very niche deck. I guess the niche decks were degenerate decks.\""
+        },
+        {
+          "title": "Your category decides your scrutiny",
+          "rules": "How you label a thing determines how hard anyone looks at it. File something as a novelty and it skips the examination that its actual function deserved.",
+          "flavor": "On Memory Jar: \"The problem in design is that I thought of the card as a goofy trick card rather than as an efficient card drawer.\" The submitted version drew cards equal to your hand size rather than seven — \"perhaps it would have spawned a different type of degenerate deck.\""
+        },
+        {
+          "title": "Designing for the delighted, judged by the ruthless",
+          "rules": "A recurring self-diagnosis worth borrowing: work aimed at the person who'll enjoy it gets evaluated by the person who'll exploit it. Both audiences see every release.",
+          "flavor": "On Voltaic Key: \"Once again (this is a theme to my broken cards) this card was designed with Johnny in mind not Spike.\" On Replenish: \"When I created this card I thought I was making a fun Johnny card with possible fringe use by Spike.\""
+        },
+        {
+          "title": "Ask for help where you're weakest",
+          "rules": "Naming the skill you lack and recruiting for it beats pretending. Give a precise brief — not just \"help\" but what good looks like and what it's for.",
+          "flavor": "Voted into the Wizards Invitational: \"While I have some good Magic design skills, my play skills suck… I feel I have only one competitive advantage: all of you.\" The brief: decks capable of winning, \"but decks that are fun to play and watch, and at the same time showcase some of the new Legions cards\" — and that viewers can copy afterwards."
+        }
+      ]
+    },
+    "es": {
+      "title": "Prohibido en fuga",
+      "dek": "La política tras las prohibiciones, seguida de un repaso a las propias cartas restringidas del autor: ha diseñado más que nadie salvo Richard Garfield.",
+      "overview": "Mitad explicación de política, mitad confesión. Las autopsias de diseño nombran causas recurrentes: la limpieza que elimina una salvaguarda, clasificar mal una carta, y construir para quien la disfrutará en vez de para quien la romperá.",
+      "takeaway": "«Richard Garfield construyó un excelente sistema de gestión de recursos (tierras y maná) y a menudo lo sorteamos con cartas que te dejan jugar cartas sin importar su coste».",
+      "lessons": [
+        {
+          "title": "Quitar algo es quitar lo que la gente pagó",
+          "rules": "La postura por defecto debería ser firmemente contraria a retirar lo que la gente ya posee. Enuncia el listón como una presunción y recuerda que la regla obliga a mucha más gente que aquella para la que se escribió.",
+          "flavor": "«Nuestra filosofía es simple: 'No prohíbas ni restrinjas cartas salvo que sea absolutamente necesario'». Y por qué el listón es tan alto: «Entendemos que la inmensa mayoría de los jugadores de Magic, incluso quienes nunca juegan torneos, siguen la lista oficial… estamos quitando algo por lo que todos vosotros pagasteis y no os dejamos jugarlo»."
+        },
+        {
+          "title": "Solo una cosa es peor que quitar",
+          "rules": "Una presunción fuerte necesita igualmente que su excepción se enuncie con claridad, o se convierte en parálisis. Aquí la excepción es la salud del conjunto, y el coste se nombra en vez de minimizarse.",
+          "flavor": "«Creemos que hay algo peor que no dejar a los jugadores usar una carta concreta, y es que un entorno de juego se degenere tanto que el juego deje de ser divertido. A veces hay que sacrificar cartas individuales por las necesidades del juego en su conjunto»."
+        },
+        {
+          "title": "El mismo remedio no encaja igual en todas partes",
+          "rules": "Una restricción parcial tiene su propio efecto secundario: hace que el resultado dependa de si aparece la cosa limitada. Que eso sea aceptable depende de qué esté optimizando cada contexto.",
+          "flavor": "«Restringir una carta hace las partidas más bruscas, porque la varianza de robar la carta poderosa tiene un impacto enorme. Aceptamos esa brusquedad en Vintage porque queremos que los jugadores tengan acceso a todas las cartas. Pero en otros formatos erramos del lado de hacerlos algo menos dependientes de la suerte»."
+        },
+        {
+          "title": "Revierte cuando caduque el motivo",
+          "rules": "Una restricción impuesta por unas condiciones que ya cambiaron debería levantarse, no mantenerse por precaución. Comprueba que el cambio parece permanente y actúa según el principio original.",
+          "flavor": "«A veces cartas que eran problemáticas hace años ya no lo son por el desplazamiento del metajuego. Si creemos que ese desplazamiento es permanente… seguiremos nuestra filosofía de dejar a los jugadores jugar con tantas cartas como sea posible y desrestringiremos (o desprohibiremos) la carta»."
+        },
+        {
+          "title": "Admite la incoherencia evidente",
+          "rules": "Cuando alguien señala dos decisiones que claramente no casan, lo barato es fabricar una justificación. Lo mejor es darle la razón, en menos palabras de las que ocupó la objeción.",
+          "flavor": "Preguntado por qué Kird Ape se prohibió en el Extended original y Hypnotic Specter no: «Os cuento un secretito. No somos infalibles. De vez en cuando, ejem, cometemos errores». Y luego su abuelo: «Si parece un pato, grazna como un pato y lleva un cartel gigante que dice '¡Soy un maldito pato!', lo más probable es que sea un pato»."
+        },
+        {
+          "title": "Zanja la discusión imprimiéndola",
+          "rules": "Cuando dos personas discrepan sobre si algo importará y la prueba es barata, haz la prueba. El escéptico incluso puede ponerle nombre a su propio escepticismo.",
+          "flavor": "Bill Rose no creía que Crop Rotation llegara a jugarse —el nombre de trabajo «Rampant Folly» era su burla— «pero disfrutó de la discusión, así que metió la carta en el set para verlo». Acabó en la lista de restringidas. «Esto lo pongo en el montón de 'gané yo'»."
+        },
+        {
+          "title": "La redacción incómoda era la salvaguarda",
+          "rules": "Antes de simplificar algo torpe, averigua qué estaba haciendo esa torpeza. Una reescritura limpia puede borrar en silencio la restricción que era lo único que impedía un bucle infinito.",
+          "flavor": "Earthcraft otorgaba originalmente la habilidad injertándola en cada criatura, «lo que impedía bucles infinitos, ya que las criaturas nuevas tendrían 'mareo de invocación'». La nota de diseño que lo cambió: «Basta de injertos de texto innecesarios. Redáctese como 'Gira una criatura desgirada que controles: endereza la tierra objetivo'». Años después desenterró las notas de la base de datos para saber quién fue."
+        },
+        {
+          "title": "Mira qué hace una mecánica a gran escala",
+          "rules": "Una idea inventada para casos pequeños se probará en los grandes. Pregunta en qué se convierte aplicada a lo más caro del sistema antes de comprometerte con ella.",
+          "flavor": "Buscando un cantrip que no costara maná, se decidió por «endereza N tierras»: «lo elegí ingenuamente». «Al empezar a jugar con la mecánica, nos dimos cuenta de que podía ir tanto en hechizos grandes como en pequeños». «Algún día haré un artículo sobre las peores mecánicas de Magic. La mecánica 'gratis' tiene un sitio reservado»."
+        },
+        {
+          "title": "Otros la empujarán más lejos que tú",
+          "rules": "Una vez que un mecanismo existe, los colegas se ponen a cazar su mejor pareja. Esa búsqueda es valiosa y es también como se encuentra la peor versión, normalmente por alguien que vio la sinergia al instante.",
+          "flavor": "«Time Spiral se creó en realidad durante el desarrollo. Intentábamos crear más hechizos 'gratis'. Si la memoria no me falla, William Jockusch sugirió Timetwister. Sentía que tendría una gran sinergia con la mecánica 'gratis'. Y por lo visto tenía razón»."
+        },
+        {
+          "title": "Limpiar puede borrar el precio",
+          "rules": "La verbosidad a menudo codifica un coste. Quítala por elegancia y quizá hayas eliminado el pago que legitimaba el efecto, que es como se acaba sorteando la restricción central del sistema.",
+          "flavor": "Sobre Tinker: «Mi error fatal fue que intenté limpiar la carta para que fuera menos verbosa. Así me cargué la parte de 'paga la diferencia de maná entre los dos artefactos'. Este es uno de los errores más comunes que cometen los diseñadores»."
+        },
+        {
+          "title": "«Quizá tenga uso nicho» no es un suelo",
+          "rules": "Una carta juzgada quizá demasiado débil puede acabar restringida, porque el nicho que la adopte puede ser justo al que menos querías servir. Parecer débil y ser segura son propiedades distintas.",
+          "flavor": "Sobre Lotus Petal: «El equipo de desarrollo hasta se preguntó si era demasiado débil. Al final sentimos que la carta podría encontrar algún uso en un mazo muy de nicho. Supongo que los mazos de nicho eran los mazos degenerados»."
+        },
+        {
+          "title": "Tu categoría decide tu escrutinio",
+          "rules": "Cómo etiquetas una cosa determina con cuánta dureza la mira alguien. Archívala como curiosidad y se saltará el examen que su función real merecía.",
+          "flavor": "Sobre Memory Jar: «El problema en diseño fue que pensé en la carta como una carta-truco graciosa y no como un robador de cartas eficiente». La versión entregada robaba tantas cartas como tuvieras en la mano en vez de siete: «quizá habría engendrado otro tipo de mazo degenerado»."
+        },
+        {
+          "title": "Diseñar para el encantado, ser juzgado por el implacable",
+          "rules": "Un autodiagnóstico recurrente que merece la pena tomar prestado: el trabajo dirigido a quien lo disfrutará lo evalúa quien lo explotará. Ambos públicos ven cada lanzamiento.",
+          "flavor": "Sobre Voltaic Key: «Una vez más (esto es un tema en mis cartas rotas), esta carta se diseñó pensando en Johnny y no en Spike». Sobre Replenish: «Cuando creé esta carta creía estar haciendo una carta divertida para Johnny con posible uso marginal por parte de Spike»."
+        },
+        {
+          "title": "Pide ayuda donde eres más débil",
+          "rules": "Nombrar la habilidad que te falta y reclutar para ella es mejor que fingir. Da un encargo preciso: no solo «ayuda», sino qué sería bueno y para qué sirve.",
+          "flavor": "Elegido para el Wizards Invitational: «Aunque tengo buenas habilidades de diseño, mis habilidades de juego son penosas… Siento que solo tengo una ventaja competitiva: todos vosotros». El encargo: mazos capaces de ganar, «pero mazos divertidos de jugar y de ver, y que al mismo tiempo luzcan algunas de las nuevas cartas de Legions», y que los espectadores puedan copiar después."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Bannis en cavale",
+      "dek": "La politique derrière les bannissements, suivie d'une revue des propres cartes restreintes de l'auteur — il en a conçu plus que quiconque, hormis Richard Garfield.",
+      "overview": "Moitié exposé de politique, moitié confession. Les autopsies de conception nomment des causes récurrentes : le nettoyage qui supprime un garde-fou, le mauvais classement d'une carte, et le fait de concevoir pour qui l'appréciera plutôt que pour qui la cassera.",
+      "takeaway": "« Richard Garfield a bâti un excellent système de gestion de ressources (terrains et mana) et nous le contournons souvent avec des cartes qui permettent d'en jouer d'autres sans égard à leur coût. »",
+      "lessons": [
+        {
+          "title": "Retirer, c'est reprendre ce que les gens ont payé",
+          "rules": "Le réglage par défaut doit être fermement contre le retrait de ce que les gens possèdent déjà. Énoncez le seuil comme une présomption, et rappelez-vous que la règle lie bien plus de monde que ceux pour qui elle a été écrite.",
+          "flavor": "« Notre philosophie est simple : 'Ne bannissez ni ne restreignez une carte sauf absolue nécessité.' » Et pourquoi le seuil est si haut : « Nous savons que la grande majorité des joueurs, même ceux qui ne font jamais de tournoi, suivent la liste officielle… nous reprenons quelque chose que vous avez payé et nous ne vous laissons pas y jouer. »"
+        },
+        {
+          "title": "Une seule chose est pire que le retrait",
+          "rules": "Une présomption forte a besoin que son exception soit clairement énoncée, sans quoi elle devient paralysie. Ici l'exception est la santé de l'ensemble, et le coût est nommé plutôt que minimisé.",
+          "flavor": "« Nous croyons qu'il y a pire que d'empêcher les joueurs d'utiliser une carte : c'est qu'un environnement de jeu devienne si dégénéré que le jeu cesse d'être amusant. Parfois, des cartes individuelles doivent être sacrifiées aux besoins du jeu tout entier. »"
+        },
+        {
+          "title": "Le même remède ne convient pas partout pareil",
+          "rules": "Une restriction partielle a son propre effet secondaire : elle fait dépendre l'issue du fait que la chose limitée sorte ou non. L'acceptabilité de cela dépend de ce que chaque contexte optimise.",
+          "flavor": "« Restreindre une carte rend les parties plus heurtées, car la variance de piocher la carte puissante a un impact énorme. Nous acceptons ces à-coups en Vintage parce que nous voulons que les joueurs aient accès à toutes les cartes. Mais dans les autres formats, nous penchons pour des formats un peu moins dépendants de la chance. »"
+        },
+        {
+          "title": "Revenez dessus quand la raison expire",
+          "rules": "Une restriction imposée pour des conditions qui ont changé devrait être levée, non maintenue par prudence. Vérifiez que le changement paraît durable, puis appliquez le principe d'origine.",
+          "flavor": "« Parfois, des cartes problématiques il y a des années ne le sont plus, du fait du déplacement du métajeu. Si nous croyons ce déplacement définitif… nous suivrons notre philosophie de laisser les joueurs jouer avec le plus de cartes possible et nous lèverons la restriction (ou le bannissement). »"
+        },
+        {
+          "title": "Concédez l'incohérence évidente",
+          "rules": "Quand on vous montre deux décisions qui manifestement ne s'accordent pas, la solution de facilité est de fabriquer une justification. La meilleure est d'acquiescer, en moins de mots que l'objection.",
+          "flavor": "Interrogé sur le bannissement de Kird Ape dans l'Extended d'origine alors que Hypnotic Specter ne l'était pas : « Je vous confie un petit secret. Nous ne sommes pas infaillibles. Il nous arrive, ô surprise, de faire des erreurs. » Puis son grand-père : « Si ça ressemble à un canard, si ça cancane comme un canard et si ça porte une pancarte géante disant 'Je suis un fichu canard !', il y a des chances que ce soit un canard. »"
+        },
+        {
+          "title": "Tranchez le débat en l'imprimant",
+          "rules": "Quand deux personnes ne s'accordent pas sur l'importance d'une chose et que le test est bon marché, faites le test. Le sceptique peut même la baptiser d'après son propre scepticisme.",
+          "flavor": "Bill Rose ne croyait pas que Crop Rotation serait jouée — le nom de travail « Rampant Folly » était sa moquerie — « mais il a aimé la discussion, alors il a mis la carte dans l'extension pour voir ». Elle a fini sur la liste des restreintes. « Je range ça dans la pile 'j'ai gagné'. »"
+        },
+        {
+          "title": "La formulation maladroite était le garde-fou",
+          "rules": "Avant de simplifier une lourdeur, cherchez ce qu'elle faisait. Une réécriture propre peut effacer en silence la contrainte qui empêchait seule une boucle infinie.",
+          "flavor": "Earthcraft accordait à l'origine la capacité en la greffant sur chaque créature, « ce qui empêchait les boucles sans fin puisque les nouvelles créatures auraient le 'mal d'invocation' ». La note de conception qui a changé cela : « Cessez ces greffes de texte inutiles. Rédigez : 'Engagez une créature dégagée que vous contrôlez : dégagez le terrain ciblé.' » Il a ressorti les notes de la base de données des années après pour savoir qui."
+        },
+        {
+          "title": "Regardez ce que fait une mécanique à grande échelle",
+          "rules": "Une idée inventée pour de petits cas sera essayée sur de grands. Demandez ce qu'elle devient appliquée à la chose la plus coûteuse du système avant de vous y engager.",
+          "flavor": "Cherchant un cantrip sans coût en mana, il a retenu « dégagez N terrains » — « je l'ai choisi naïvement ». « En jouant avec la mécanique, nous avons compris qu'elle pouvait aller sur de gros sorts comme sur de petits. » « Un jour, j'écrirai un article sur les pires mécaniques de Magic. La mécanique 'gratuite' y a une place réservée. »"
+        },
+        {
+          "title": "D'autres iront plus loin que vous",
+          "rules": "Dès qu'un mécanisme existe, les collègues cherchent son meilleur assortiment. Cette recherche est précieuse, et c'est aussi ainsi qu'on trouve la pire version — d'ordinaire par quelqu'un qui a vu la synergie tout de suite.",
+          "flavor": "« Time Spiral a en fait été créée pendant le développement. Nous cherchions à faire plus de sorts 'gratuits'. Si ma mémoire est bonne, William Jockusch a suggéré Timetwister. Il pensait que la synergie avec la mécanique 'gratuite' serait excellente. Et apparemment il avait raison. »"
+        },
+        {
+          "title": "Faire le ménage peut effacer le prix",
+          "rules": "La verbosité encode souvent un coût. Ôtez-la par élégance et vous aurez peut-être supprimé le paiement qui légitimait l'effet — c'est ainsi qu'on finit par contourner la contrainte centrale du système.",
+          "flavor": "Sur Tinker : « Mon erreur fatale a été de vouloir nettoyer la carte pour la rendre moins bavarde. J'ai donc supprimé la partie 'payez la différence de mana entre les deux artefacts'. C'est l'une des erreurs les plus fréquentes des concepteurs. »"
+        },
+        {
+          "title": "« Usage de niche possible » n'est pas un plancher",
+          "rules": "Une carte jugée peut-être trop faible peut finir restreinte, car la niche qui l'adopte est peut-être celle que vous vouliez le moins servir. Avoir l'air faible et être sans danger sont deux propriétés différentes.",
+          "flavor": "Sur Lotus Petal : « L'équipe de développement s'est même demandé si elle n'était pas trop faible. Au final, nous avons estimé que la carte trouverait peut-être un usage dans un deck très de niche. Je suppose que les decks de niche étaient les decks dégénérés. »"
+        },
+        {
+          "title": "Votre catégorie décide de votre vigilance",
+          "rules": "La façon dont vous étiquetez une chose détermine avec quelle sévérité on la regarde. Classez-la comme curiosité et elle échappera à l'examen que sa fonction réelle méritait.",
+          "flavor": "Sur Memory Jar : « Le problème, en conception, est que je voyais la carte comme une carte-gag plutôt que comme un moteur de pioche efficace. » La version rendue faisait piocher autant de cartes qu'on en avait en main plutôt que sept — « elle aurait peut-être engendré un autre type de deck dégénéré »."
+        },
+        {
+          "title": "Conçu pour le ravi, jugé par l'impitoyable",
+          "rules": "Un autodiagnostic récurrent bon à emprunter : le travail visant celui qui l'appréciera est évalué par celui qui l'exploitera. Les deux publics voient chaque sortie.",
+          "flavor": "Sur Voltaic Key : « Une fois encore (c'est un thème dans mes cartes cassées), cette carte a été conçue en pensant à Johnny, pas à Spike. » Sur Replenish : « En créant cette carte, je croyais faire une carte amusante pour Johnny, avec un usage marginal possible pour Spike. »"
+        },
+        {
+          "title": "Demandez de l'aide là où vous êtes le plus faible",
+          "rules": "Nommer la compétence qui vous manque et recruter pour elle vaut mieux que faire semblant. Donnez un brief précis : pas seulement « de l'aide », mais à quoi ressemble le bon et à quoi il sert.",
+          "flavor": "Élu au Wizards Invitational : « J'ai de bonnes compétences de conception, mais mes compétences de jeu sont nulles… Je crois n'avoir qu'un seul avantage compétitif : vous tous. » Le brief : des decks capables de gagner, « mais des decks amusants à jouer et à regarder, et qui mettent en valeur quelques nouvelles cartes de Legions » — et que les spectateurs pourront recopier ensuite."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Banidos em fuga",
+      "dek": "A política por trás dos banimentos, seguida de um passeio pelas próprias cartas restritas do autor — ele projetou mais delas que qualquer um, exceto Richard Garfield.",
+      "overview": "Metade explicação de política, metade confissão. As autópsias de design nomeiam causas recorrentes: a limpeza que remove uma salvaguarda, classificar mal uma carta, e construir para quem vai gostar dela em vez de para quem vai quebrá-la.",
+      "takeaway": "«Richard Garfield construiu um excelente sistema de gestão de recursos (terrenos e mana) e nós frequentemente o contornamos com cartas que deixam você jogar cartas independentemente do custo delas.»",
+      "lessons": [
+        {
+          "title": "Remover é tirar aquilo que as pessoas pagaram",
+          "rules": "O padrão deve ser fortemente contrário a retirar o que as pessoas já possuem. Enuncie a régua como uma presunção, e lembre que a regra obriga muito mais gente do que aquela para quem foi escrita.",
+          "flavor": "«Nossa filosofia é simples: 'Não bana nem restrinja cartas a menos que seja absolutamente necessário.'» E por que a régua é tão alta: «Entendemos que a esmagadora maioria dos jogadores de Magic, mesmo os que nunca jogam torneio, segue a lista oficial… estamos tirando algo pelo qual todos vocês pagaram e não deixando vocês jogarem com aquilo.»"
+        },
+        {
+          "title": "Só uma coisa é pior que remover",
+          "rules": "Uma presunção forte ainda precisa que sua exceção seja enunciada com clareza, ou vira paralisia. Aqui a exceção é a saúde do conjunto, e o custo é nomeado em vez de minimizado.",
+          "flavor": "«Acreditamos que existe algo pior do que não deixar os jogadores usarem uma carta específica, que é um ambiente de jogo ficar tão degenerado que o jogo deixa de ser divertido. Às vezes cartas individuais precisam ser sacrificadas pelas necessidades do jogo maior.»"
+        },
+        {
+          "title": "O mesmo remédio não serve igual em todo lugar",
+          "rules": "Uma restrição parcial tem o próprio efeito colateral: faz o resultado depender de a coisa limitada aparecer ou não. Se isso é aceitável depende do que cada contexto está otimizando.",
+          "flavor": "«Restringir uma carta deixa as partidas mais oscilantes, porque a variância de comprar a carta poderosa tem impacto enorme. Aceitamos essa oscilação no Vintage porque queremos que os jogadores tenham acesso a todas as cartas. Mas nos outros formatos erramos para o lado de torná-los um pouco menos dependentes de sorte.»"
+        },
+        {
+          "title": "Reverta quando o motivo vencer",
+          "rules": "Uma restrição imposta por condições que já mudaram deveria ser levantada, não mantida por precaução. Confirme que a mudança parece permanente e então aja pelo princípio original.",
+          "flavor": "«Às vezes cartas que eram problemáticas anos atrás já não são, por causa do deslocamento do metagame. Se acreditamos que esse deslocamento é permanente… seguiremos nossa filosofia de deixar os jogadores jogarem com o máximo de cartas possível e tiraremos a restrição (ou o banimento).»"
+        },
+        {
+          "title": "Conceda a incoerência óbvia",
+          "rules": "Quando alguém aponta duas decisões que claramente não fecham, o caminho barato é fabricar uma justificativa. O melhor é concordar, em menos palavras do que a objeção levou.",
+          "flavor": "Perguntado por que Kird Ape foi banida no Extended original e Hypnotic Specter não: «Vou contar um segredinho. Não somos infalíveis. De vez em quando, pasmem, cometemos erros.» Depois o avô dele: «Se parece um pato, grasna como um pato e tem uma placa gigante dizendo 'Eu sou um pato, droga!', é bem provável que seja um pato.»"
+        },
+        {
+          "title": "Resolva a discussão imprimindo",
+          "rules": "Quando duas pessoas discordam se algo vai importar e o teste é barato, faça o teste. O cético pode até batizar a coisa com o próprio ceticismo.",
+          "flavor": "Bill Rose não achava que Crop Rotation seria jogada — o nome de trabalho «Rampant Folly» era ele zombando — «mas ele gostou da discussão, então pôs a carta na coleção para ver». Acabou na lista de restritas. «Isso eu ponho na pilha do 'eu ganhei'.»"
+        },
+        {
+          "title": "A redação desajeitada era a trava",
+          "rules": "Antes de simplificar algo desajeitado, descubra o que aquele desajeite estava fazendo. Uma reescrita limpa pode apagar em silêncio a restrição que era a única coisa impedindo um laço infinito.",
+          "flavor": "Earthcraft originalmente concedia a habilidade enxertando-a em cada criatura, «o que impedia laços infinitos, já que criaturas novas teriam 'enjoo de invocação'». A nota de design que mudou isso: «Chega de enxertos de texto desnecessários. Redija como 'Vire uma criatura desvirada que você controla: desvire o terreno alvo.'» Ele desenterrou as notas do banco de dados anos depois para descobrir quem foi."
+        },
+        {
+          "title": "Veja o que uma mecânica faz em escala",
+          "rules": "Uma ideia inventada para casos pequenos será testada em casos grandes. Pergunte no que ela se transforma aplicada à coisa mais cara do sistema antes de se comprometer com ela.",
+          "flavor": "Procurando um cantrip que não custasse mana, ele fixou-se em «desvire N terrenos» — «escolhi ingenuamente». «Quando começamos a brincar com a mecânica, percebemos que ela cabia tanto em mágicas grandes quanto em pequenas.» «Um dia farei um artigo sobre as piores mecânicas de Magic. A mecânica 'grátis' tem um lugar reservado nele.»"
+        },
+        {
+          "title": "Outros a empurrarão mais longe que você",
+          "rules": "Assim que um mecanismo existe, colegas saem caçando o par mais forte dele. Essa busca é valiosa e é também como a pior versão é encontrada — em geral por alguém que viu a sinergia na hora.",
+          "flavor": "«Time Spiral foi na verdade criada durante o desenvolvimento. Estávamos tentando criar mais mágicas 'grátis'. Se a memória não falha, William Jockusch sugeriu Timetwister. Ele achava que teria ótima sinergia com a mecânica 'grátis'. E aparentemente estava certo.»"
+        },
+        {
+          "title": "Arrumar pode apagar o preço",
+          "rules": "Prolixidade muitas vezes codifica um custo. Tire-a por elegância e talvez você tenha removido o pagamento que legitimava o efeito — que é como se acaba contornando a restrição central do sistema.",
+          "flavor": "Sobre Tinker: «Meu erro fatal foi tentar limpar a carta para deixá-la menos prolixa. Com isso, cortei a parte de 'pague a diferença de mana entre os dois artefatos'. Este é um dos erros mais comuns que designers cometem.»"
+        },
+        {
+          "title": "«Talvez tenha uso de nicho» não é um piso",
+          "rules": "Uma carta julgada possivelmente fraca demais ainda pode acabar restrita, porque o nicho que a adotar pode ser justamente o que você menos queria servir. Parecer fraca e ser segura são propriedades diferentes.",
+          "flavor": "Sobre Lotus Petal: «O time de desenvolvimento até questionou se ela era fraca demais. No fim, achamos que a carta talvez encontrasse algum uso num baralho bem de nicho. Acho que os baralhos de nicho eram os baralhos degenerados.»"
+        },
+        {
+          "title": "Sua categoria decide seu escrutínio",
+          "rules": "Como você rotula uma coisa determina com que dureza alguém olha para ela. Arquive-a como curiosidade e ela escapará do exame que sua função real merecia.",
+          "flavor": "Sobre Memory Jar: «O problema no design foi que pensei na carta como uma carta de truque engraçadinha e não como uma compradora de cartas eficiente.» A versão entregue comprava cartas iguais ao tamanho da sua mão em vez de sete — «talvez tivesse gerado outro tipo de baralho degenerado»."
+        },
+        {
+          "title": "Projetado para o encantado, julgado pelo implacável",
+          "rules": "Um autodiagnóstico recorrente que vale emprestar: o trabalho voltado a quem vai gostar dele é avaliado por quem vai explorá-lo. Os dois públicos veem todo lançamento.",
+          "flavor": "Sobre Voltaic Key: «Mais uma vez (isso é um tema nas minhas cartas quebradas), esta carta foi desenhada pensando no Johnny e não no Spike.» Sobre Replenish: «Quando criei esta carta, achei que estava fazendo uma carta divertida para Johnny, com possível uso marginal pelo Spike.»"
+        },
+        {
+          "title": "Peça ajuda onde você é mais fraco",
+          "rules": "Nomear a habilidade que falta e recrutar para ela é melhor que fingir. Dê um briefing preciso: não só «ajuda», mas como é o bom e para que serve.",
+          "flavor": "Eleito para o Wizards Invitational: «Embora eu tenha boas habilidades de design, minhas habilidades de jogo são péssimas… Sinto que tenho apenas uma vantagem competitiva: todos vocês.» O briefing: baralhos capazes de vencer, «mas baralhos divertidos de jogar e de assistir, e que ao mesmo tempo mostrem algumas das novas cartas de Legions» — e que os espectadores possam copiar depois."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "在逃的禁牌",
+      "dek": "禁限背后的方针，之后是作者对自己那些受限牌的一次巡礼——除了理查·加菲，他设计出来的禁限牌比任何人都多。",
+      "overview": "一半是政策说明，一半是自白。那些设计复盘点出了几个反复出现的成因：把某道保险一并清理掉的「整理」、给一张牌归错了类，以及为「会喜欢它的人」而造、而不是为「会把它玩坏的人」而造。",
+      "takeaway": "「理查·加菲搭了一套出色的资源管理系统（地与法术力），而我们常常用一些『让你不管费用就能使用牌张』的牌把它绕开。」",
+      "lessons": [
+        {
+          "title": "「拿掉」拿掉的是人们花钱买来的东西",
+          "rules": "默认立场应当强烈地反对收回人们已经拥有的东西。把这道门槛作为一项推定说出来；并且记住：这条规矩约束到的人，远多于它当初为之而写的那群人。",
+          "flavor": "「我们的方针很简单：『除非万不得已，否则不要禁用或限制任何牌。』」而门槛之所以这么高：「我们明白，绝大多数万智牌玩家——哪怕是那些从不打比赛的——都会遵循官方的禁限表……我们是在把你们花钱买来的东西拿走，并且不让你们用它。」"
+        },
+        {
+          "title": "只有一件事比「拿掉」更糟",
+          "rules": "一项强推定同样需要把它的例外清清楚楚地讲出来，否则它就变成了瘫痪。这里的例外是整体的健康，而那份代价被点名了，而不是被淡化了。",
+          "flavor": "「我们认为，有一件事比『不让玩家使用某张特定的牌』更糟：那就是让一个对局环境退化到这个游戏不再好玩的地步。有时候，个别的牌必须为了整个游戏的需要而被牺牲掉。」"
+        },
+        {
+          "title": "同一副药，在不同地方并不同样合适",
+          "rules": "「部分限制」有它自己的副作用：它让结果取决于「那件被限制的东西有没有出现」。而这一点是否可以接受，取决于每个场合各自在优化什么。",
+          "flavor": "「限制一张牌会让对局更加大起大落，因为『有没有抓到那张强牌』的方差会带来巨大影响。我们在 Vintage 里接受这份颠簸，因为我们希望玩家能用上所有的牌。但在其他赛制里，我们宁可偏向让它们少受一点运气的摆布。」"
+        },
+        {
+          "title": "当理由过期时，就把它撤回",
+          "rules": "一项因某些「此后已经改变了的条件」而施加的限制，就该被解除，而不是出于谨慎继续挂在那里。先确认这个变化看起来是长久的，然后按最初那条原则行事。",
+          "flavor": "「有时候，多年前有问题的牌，如今因为环境的迁移而不再是问题了。如果我们相信这次迁移是永久性的……我们就会遵循『让玩家能用上尽可能多的牌』这条方针，把它解除限制（或解除禁用）。」"
+        },
+        {
+          "title": "把明摆着的不一致认下来",
+          "rules": "当有人指着两个显然对不上的决定发问时，省事的做法是编一个理由出来。更好的做法是承认——而且用比那句质疑更少的字。",
+          "flavor": "被问到为什么最初的 Extended 里禁了 Kird Ape 却没禁 Hypnotic Specter：「我告诉你们一个小秘密。我们并非不会犯错。我们偶尔——啊呀——是会犯错的。」接着是他祖父那句：「如果它看起来像鸭子、叫起来像鸭子，身上还挂着一块写着『我就是只该死的鸭子！』的大牌子，那它多半就是只鸭子。」"
+        },
+        {
+          "title": "把它印出来，争论就了结了",
+          "rules": "当两个人对「这东西到底会不会有影响」意见不合，而验证的代价又很低时，那就去验证。持怀疑的那一方甚至可以用自己的怀疑给它命名。",
+          "flavor": "比尔·罗斯不认为 Crop Rotation 会有人打——那个工作名「Rampant Folly（放肆的蠢事）」就是他在嘲笑它——「但他很享受这场争论，所以他把这张牌放进了系列里，看看会怎样。」它最后进了限制表。「这一笔我就记进『我赢了』那一摞。」"
+        },
+        {
+          "title": "那句别扭的措辞，才是那道保险",
+          "rules": "在你把某个笨拙的东西简化掉之前，先弄清楚这份笨拙在干什么。一次干净的重写，可能悄悄删掉了那条唯一在阻止无限循环的约束。",
+          "flavor": "Earthcraft 最初是把这个异能「拼接」到每个生物身上来授予的，「这就防住了无限循环，因为新造出来的生物会有『召唤失调』」。而改掉它的那条设计批注是：「别再做没必要的文字拼接了。改写成『横置一个由你操控且已重置的生物：重置目标地。』」多年后他把设计数据库里的批注挖了出来，想知道是谁写的。"
+        },
+        {
+          "title": "看看这条机制放大之后会怎样",
+          "rules": "一个为小场合发明的点子，一定会被拿去试在大场合上。在你把它定下来之前，先问一句：把它套到这个系统里最贵的那样东西上，它会变成什么。",
+          "flavor": "为了找一个「不花法术力的连环牌」，他定下了「重置 N 块地」——「我天真地选了这个」。「等我们开始摆弄这条机制时，才意识到它既能安在小咒语上，也能安在大咒语上。」「总有一天我要写一篇讲万智牌最烂机制的文章。『免费』机制在那篇文章里有一个专属席位。」"
+        },
+        {
+          "title": "别人会把它推得比你更远",
+          "rules": "一个机制一旦存在，同事们就会开始为它搜寻最强的搭配。这场搜寻很有价值，而它同时也正是「最坏的那一版」被找出来的方式——通常出自那个一眼就看见协同的人。",
+          "flavor": "「Time Spiral 其实是在开发阶段被造出来的。我们当时想多做几张『免费』咒语。如果我没记错，是威廉·约库什建议了时光倒流。他觉得它和『免费』机制会有极好的协同。而看起来他是对的。」"
+        },
+        {
+          "title": "「整理」可能把价钱一并抹掉",
+          "rules": "啰嗦往往编码着一份代价。你为了优雅把它剥掉，可能就把那笔「让这个效果得以成立」的付款也删掉了——而这正是人们最后绕开系统核心约束的方式。",
+          "flavor": "谈到修补匠：「我的致命错误在于，我试图把这张牌整理干净、让它别那么啰嗦。于是我把『支付两个神器之间的法术力差额』那部分删掉了。这是设计师最常犯的错误之一。」"
+        },
+        {
+          "title": "「也许有点小众用途」不是一条下限",
+          "rules": "一张被判定为「可能太弱」的牌，照样可能进限制表——因为采纳它的那个小众，可能恰恰是你最不想服务的那一个。「看起来弱」和「是安全的」是两种不同的性质。",
+          "flavor": "谈到莲花瓣：「开发团队甚至质疑过它是不是太弱了。但最后我们觉得，这张牌也许能在某副非常小众的套牌里派上用场。我猜那些小众套牌就是那些退化的套牌吧。」"
+        },
+        {
+          "title": "你给的类别，决定了别人多用力去看",
+          "rules": "你怎么给一样东西贴标签，决定了会有人多严厉地去审视它。把它归档成一件新奇玩意儿，它就会跳过那场「它真正的功能本该接受」的检查。",
+          "flavor": "谈到记忆罐：「设计上的问题在于，我把这张牌想成了一张搞怪的花招牌，而不是一台高效的抓牌机。」他交上去的那一版抓的牌数等于你的手牌数，而不是七张——「也许它会催生出另一种类型的退化套牌」。"
+        },
+        {
+          "title": "为「会开心的人」而造，被「会较真的人」审判",
+          "rules": "一条值得借走的、反复出现的自我诊断：你冲着「会喜欢它的人」做出来的东西，最终是由「会拿它去榨取的人」来评判的。这两群受众都会看到你的每一次发布。",
+          "flavor": "谈到 Voltaic Key：「又一次（这是我那些坏牌的一个共同主题）——这张牌是想着 Johnny 而不是 Spike 设计的。」谈到 Replenish：「我造这张牌时，以为自己在做一张给 Johnny 的有趣的牌，Spike 可能会在边角处用一用。」"
+        },
+        {
+          "title": "在你最弱的地方开口求助",
+          "rules": "把你欠缺的那项本领点名，然后为它招募，胜过硬撑。给一份精确的说明——不是光说「帮帮忙」，而是说清楚「好」长什么样、以及它是为了什么。",
+          "flavor": "被票选进威世智邀请赛之后：「虽然我有些不错的设计本领，可我的牌技很烂……我觉得自己只有一项竞争优势：你们所有人。」而那份说明是：要有赢面的套牌，「但要是打起来和看起来都有趣的套牌，同时还能展示几张《军团》的新牌」——并且观众看完之后自己也能照抄来打。"
+        }
+      ]
+    }
+  }
+}
