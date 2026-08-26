@@ -1,0 +1,424 @@
+{
+  "id": "you-make-card-too-2003-06-30",
+  "slug": "you-make-card-too-2003-06-30",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2003-06-30",
+  "series": null,
+  "tags": ["you-make-the-card", "artifacts", "design-submissions", "rules", "development"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/you-make-card-too-2003-06-30",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-27T16:10:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "R" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "U" },
+    { "n": 9, "color": "W" },
+    { "n": 10, "color": "B" },
+    { "n": 11, "color": "R" },
+    { "n": 12, "color": "G" },
+    { "n": 13, "color": "R" },
+    { "n": 14, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "You Make the Card, Too",
+      "dek": "What thousands of reader-designed artifacts revealed about what players want — and the thirty-five finalists, each with the reason it lived or died.",
+      "overview": "Half audience research, half rejection log. The nine recurring submission patterns are a portrait of player desire; the card-by-card verdicts are the clearest published list of what actually kills a design.",
+      "takeaway": "\"It is very insightful for a designer to see what the players design. After all, the players make the cards that they want to see. This is invaluable information.\"",
+      "lessons": [
+        {
+          "title": "Read the raw submissions yourself",
+          "rules": "Aggregated feedback tells you what people say they want. What they build tells you what they actually want, and no summary preserves that. It's worth reading an unreasonable amount of it personally.",
+          "flavor": "He read \"the equivalent of War and Peace. The extended, unabridged version… if Tolstoy had written about artifacts instead of the Russian Civil War.\" Why not delegate? \"It is very insightful for a designer to see what the players design. After all, the players make the cards that they want to see.\""
+        },
+        {
+          "title": "The demand is louder and simpler than you expect",
+          "rules": "Aggregate wishes cluster hard around a few primal desires, and they escalate. Whatever people ask for once, a second group will ask for repeatably and a third will ask for all at once.",
+          "flavor": "At least one submission in fifteen was \"pay a cost, sacrifice this: destroy target creature.\" The next group dropped the sacrifice — \"players like repeatable effects. And they really like killing things.\" The third wanted every creature, artifact, enchantment and usually the lands too. \"Blowing things up is just good ol' fun.\""
+        },
+        {
+          "title": "The most-requested thing can be unbuildable",
+          "rules": "If a capability is what distinguishes your categories from each other, a neutral version has to be priced not to beat the category that's worst at it — which guarantees it lands weak.",
+          "flavor": "\"Permanent destruction is something that is very important in defining the colors,\" so an artifact creature-kill would have to be costed against green's version. \"We want the 'You Make the Card' cards to be good, so we purposefully avoided picking cards that we knew we couldn't push into constructed.\""
+        },
+        {
+          "title": "Unusable submissions still carry signal",
+          "rules": "Entries you must discard for procedural reasons are still data about appetite. Read the pattern rather than the entry: what people keep reaching for tells you where to aim next time.",
+          "flavor": "Piles of keywords on one creature, with Akroma fresh in mind: \"the more, the merrier.\" Cards built around Onslaught's mechanics, useless for a Mirrodin-block artifact: \"players like for us to explore a set's theme in great detail.\" And artifacts that turn into creatures, against the whole point of the non-creature vote: \"players really like creatures.\""
+        },
+        {
+          "title": "Note the persistent grudge",
+          "rules": "A theme that survives from one round of submissions to the next isn't noise. Serve it where you legitimately can, and separately reassure the people on the other side that the imbalance is temporary.",
+          "flavor": "\"A theme carried over from the last 'You Make the Card' was a strong anti-blue theme.\" Two of the final ten came from that camp. \"And to those blue lovers out there — don't worry, blue will come back just like every other color that's ever sucked at one point or other in the game.\""
+        },
+        {
+          "title": "Filter on one axis; let others filter on theirs",
+          "rules": "When you're the first gate in a multi-stage review, applying every downstream test yourself throws away things the later stages might have saved. Judge what only you can judge.",
+          "flavor": "\"Note that I tried to pick cards solely on their inventiveness of their design. I did not remove cards based on rules or power issues. That would be the rest of R&D's job.\" Ninety-five became thirty-five before the rules manager ever saw the list."
+        },
+        {
+          "title": "Ask what two copies do",
+          "rules": "A design that reads cleanly in isolation can become incomprehensible when it stacks with itself. Multiply it out before you like it — the numbers get away from you faster than the intuition does.",
+          "flavor": "The card that turns any draw into a draw for everyone: two copies in a two-player game means two cards each; three copies, four each; four copies in a four-player game, sixty-four each. \"R&D believed that the card would cause more confusion than it was worth.\""
+        },
+        {
+          "title": "One exception can confirm the rule",
+          "rules": "A standing prohibition that gets suspended once produces evidence either way. If the exception goes badly, the prohibition becomes a strong prior rather than an absolute — and the bar for the next exception is now explicit.",
+          "flavor": "\"For a long time in R&D we had a rule that said we never mention the word 'stack' in rules text. Then along came Mirari and we made an exception. Mirari taught us that our first line of thinking was correct… That doesn't mean we'll never use it, but the card had to be cool enough to be worth it.\" One finalist later cleared that bar."
+        },
+        {
+          "title": "Correct isn't the same as intuitive",
+          "rules": "A design can be perfectly well-defined and still fail, because every edge case resolves the opposite way to how a reasonable person would guess. Count the surprising answers before defending the wording.",
+          "flavor": "\"Nontoken creatures with no abilities get +2/+2\" produced a page of them: an enchanted Grizzly Bears is still 2/2; a Fervor in play doesn't disqualify it, but a Fecundity does; cycling disqualifies a vanilla creature; a Kobold doesn't count. \"There were enough questions like this that were non-intuitive that we killed the card.\""
+        },
+        {
+          "title": "Engines are the standing red line",
+          "rules": "Anything that repeatedly converts one resource into another, or lets people route around the system's core cost, has a known history. The precedent is specific enough to cite rather than re-argue.",
+          "flavor": "\"Whenever you play a card, draw a card\" was \"a 'bah-roken' card drawing engine.\" Paying life equal to converted mana cost was \"like a permanent Channel for colored mana. As R&D has learned time after time, allowing players to continually get around normal mana restrictions has disastrous effects (see Dream Halls).\""
+        },
+        {
+          "title": "Divisive beats agreeably dull",
+          "rules": "A proposal that splits the room in half has found something. Consensus indifference is the worse signal — and by that test, boring is a stronger disqualification than controversial.",
+          "flavor": "The secretly-chosen-numbers mass destruction \"tended to split R&D into two camps. Some loved it and others hated it. We decided a card that could divide us that strongly was an interesting choice.\" Compare the additional-cost-on-activated-abilities card: \"killed mostly because the majority of R&D didn't think it was all that interesting.\""
+        },
+        {
+          "title": "Rejected here, useful somewhere else",
+          "rules": "A no in one context is a routing decision, not a verdict on quality. Keep a mental list of the projects that might want the thing you just turned down, including projects that aren't products.",
+          "flavor": "Two censored entries went straight into designs already in progress. A third had a rules flaw interesting enough that Robert Gutschera took it \"to use on the latest Vapor Ops test, a test we use on new hires to test their ability to develop Magic cards.\""
+        },
+        {
+          "title": "Someone has to be the wall",
+          "rules": "A specialist whose whole job is saying whether a thing can exist will kill ideas that everyone else loves. That's the function working, and it's worth taking the loss gracefully.",
+          "flavor": "On \"target permanent has no controller until end of turn\" — \"Paul: No controller? What does that even mean? Me: I know! Paul: I meant that as a negative. Me: Oh. I fought the rules and the rules won.\""
+        },
+        {
+          "title": "Playable by whom",
+          "rules": "The rules engine handling a case correctly is a lower bar than an ordinary person handling it correctly. When those two answers differ, the second one decides.",
+          "flavor": "The revealed-hands card needed a line forbidding spells on other players' turns. \"It wasn't that the rules couldn't handle it. We were concerned because the average player doesn't understand the concept of priority well enough to play this card correctly.\""
+        }
+      ]
+    },
+    "es": {
+      "title": "Tú también haces la carta",
+      "dek": "Lo que miles de artefactos diseñados por lectores revelaron sobre lo que quieren los jugadores, y los treinta y cinco finalistas, cada uno con la razón por la que vivió o murió.",
+      "overview": "Mitad investigación de audiencia, mitad registro de descartes. Los nueve patrones recurrentes son un retrato del deseo del jugador; los veredictos carta a carta son la lista publicada más clara de lo que mata de verdad un diseño.",
+      "takeaway": "«Para un diseñador es muy revelador ver qué diseñan los jugadores. Al fin y al cabo, los jugadores hacen las cartas que quieren ver. Esa información no tiene precio».",
+      "lessons": [
+        {
+          "title": "Lee tú mismo las propuestas en bruto",
+          "rules": "El resumen del feedback te dice qué dice la gente que quiere. Lo que construyen te dice qué quieren de verdad, y ningún resumen conserva eso. Merece la pena leer una cantidad irrazonable en persona.",
+          "flavor": "Leyó «el equivalente a Guerra y paz. La versión extendida, sin abreviar… si Tolstói hubiera escrito sobre artefactos en vez de sobre la guerra civil rusa». ¿Por qué no delegar? «Para un diseñador es muy revelador ver qué diseñan los jugadores. Al fin y al cabo, los jugadores hacen las cartas que quieren ver»."
+        },
+        {
+          "title": "La demanda es más ruidosa y más simple de lo que esperas",
+          "rules": "Los deseos agregados se agolpan en torno a unos pocos impulsos primarios, y escalan. Lo que alguien pide una vez, un segundo grupo lo pedirá repetible y un tercero lo querrá todo de golpe.",
+          "flavor": "Al menos una propuesta de cada quince era «paga un coste, sacrifica esto: destruye la criatura objetivo». El siguiente grupo quitó el sacrificio: «a los jugadores les gustan los efectos repetibles. Y les gusta mucho matar cosas». El tercero quería todas las criaturas, artefactos, encantamientos y normalmente también las tierras. «Volar cosas por los aires es diversión de la buena»."
+        },
+        {
+          "title": "Lo más pedido puede ser inconstruible",
+          "rules": "Si una capacidad es lo que distingue tus categorías entre sí, una versión neutra tendría que costearse para no superar a la categoría que peor lo hace, lo que garantiza que salga débil.",
+          "flavor": "«La destrucción de permanentes es muy importante para definir los colores», así que un artefacto matacriaturas habría de costearse contra la versión del verde. «Queremos que las cartas de 'Tú haces la carta' sean buenas, así que evitamos a propósito elegir cartas que sabíamos que no podríamos empujar al construido»."
+        },
+        {
+          "title": "Las propuestas inservibles también dan señal",
+          "rules": "Las entradas que debes descartar por motivos de procedimiento siguen siendo datos sobre el apetito. Lee el patrón, no la entrada: hacia dónde tira la gente te dice dónde apuntar la próxima vez.",
+          "flavor": "Montones de palabras clave en una criatura, con Akroma reciente: «cuantas más, mejor». Cartas construidas sobre las mecánicas de Onslaught, inservibles para un artefacto de Mirrodin: «a los jugadores les gusta que exploremos a fondo el tema de una colección». Y artefactos que se vuelven criaturas, en contra del sentido mismo del voto: «a los jugadores les encantan las criaturas»."
+        },
+        {
+          "title": "Fíjate en el rencor persistente",
+          "rules": "Un tema que sobrevive de una ronda de propuestas a la siguiente no es ruido. Atiéndelo donde puedas legítimamente y, aparte, tranquiliza a los del otro bando diciendo que el desequilibrio es temporal.",
+          "flavor": "«Un tema heredado del anterior 'Tú haces la carta' era un fuerte sentimiento anti-azul». Dos de las diez finalistas salieron de ese campo. «Y a los amantes del azul: no os preocupéis, el azul volverá igual que todos los colores que en algún momento han sido malos en la historia del juego»."
+        },
+        {
+          "title": "Filtra por un eje; deja que otros filtren por el suyo",
+          "rules": "Cuando eres la primera puerta de una revisión por etapas, aplicar tú mismo todas las pruebas posteriores tira cosas que esas etapas quizá habrían salvado. Juzga lo que solo tú puedes juzgar.",
+          "flavor": "«Nótese que intenté elegir cartas únicamente por lo inventivo de su diseño. No eliminé cartas por problemas de reglas o de potencia. Eso era trabajo del resto de I+D». Noventa y cinco pasaron a treinta y cinco antes de que el gestor de reglas viera la lista."
+        },
+        {
+          "title": "Pregunta qué hacen dos copias",
+          "rules": "Un diseño que se lee limpio en solitario puede volverse incomprensible al apilarse consigo mismo. Multiplícalo antes de que te guste: los números se te escapan más rápido que la intuición.",
+          "flavor": "La carta que convierte cualquier robo en un robo para todos: dos copias en una partida a dos son dos cartas cada uno; tres copias, cuatro; cuatro copias en una partida a cuatro, sesenta y cuatro cada uno. «I+D creyó que la carta causaría más confusión de la que valía»."
+        },
+        {
+          "title": "Una excepción puede confirmar la regla",
+          "rules": "Una prohibición permanente que se suspende una vez produce evidencia en un sentido u otro. Si la excepción sale mal, la prohibición se convierte en una presunción fuerte y no en un absoluto, y el listón para la siguiente queda explícito.",
+          "flavor": "«Durante mucho tiempo I+D tuvo una regla: nunca mencionar la palabra 'pila' en el texto de reglas. Entonces llegó Mirari e hicimos una excepción. Mirari nos enseñó que nuestra primera intuición era correcta… Eso no significa que nunca la usemos, pero la carta tenía que merecerlo». Una finalista acabó superando ese listón."
+        },
+        {
+          "title": "Correcto no es lo mismo que intuitivo",
+          "rules": "Un diseño puede estar perfectamente bien definido y aun así fracasar, porque cada caso límite se resuelve al revés de como lo supondría una persona razonable. Cuenta las respuestas sorprendentes antes de defender la redacción.",
+          "flavor": "«Las criaturas que no son fichas y no tienen habilidades obtienen +2/+2» generó una página entera: un Grizzly Bears encantado sigue siendo 2/2; un Fervor en juego no lo descalifica, pero un Fecundity sí; el ciclo descalifica a una criatura vainilla; un Kobold no cuenta. «Había tantas preguntas así de poco intuitivas que matamos la carta»."
+        },
+        {
+          "title": "Los motores son la línea roja permanente",
+          "rules": "Todo lo que convierte repetidamente un recurso en otro, o permite esquivar el coste central del sistema, tiene un historial conocido. El precedente es lo bastante concreto como para citarlo en vez de rediscutirlo.",
+          "flavor": "«Siempre que juegues una carta, roba una carta» era «un motor de robo ba-rroto». Pagar vidas iguales al coste convertido era «como un Channel permanente para maná de color. Como I+D ha aprendido una y otra vez, permitir que los jugadores esquiven continuamente las restricciones normales de maná tiene efectos desastrosos (véase Dream Halls)»."
+        },
+        {
+          "title": "Divisivo gana a aburridamente aceptable",
+          "rules": "Una propuesta que parte la sala en dos ha encontrado algo. La indiferencia unánime es la peor señal: por esa prueba, aburrido descalifica más que polémico.",
+          "flavor": "La destrucción masiva por números elegidos en secreto «tendía a dividir a I+D en dos bandos. A unos les encantaba y otros la odiaban. Decidimos que una carta capaz de dividirnos tanto era una elección interesante». Compárese con la del coste adicional a las habilidades activadas: «murió sobre todo porque la mayoría de I+D no la encontró nada interesante»."
+        },
+        {
+          "title": "Rechazada aquí, útil en otra parte",
+          "rules": "Un no en un contexto es una decisión de destino, no un veredicto sobre la calidad. Mantén una lista mental de los proyectos a los que podría servirles lo que acabas de rechazar, incluidos los que no son productos.",
+          "flavor": "Dos entradas censuradas fueron directas a diseños ya en marcha. Una tercera tenía un fallo de reglas tan interesante que Robert Gutschera se la llevó «para usarla en la última prueba Vapor Ops, una prueba que hacemos a los nuevos empleados para medir su capacidad de desarrollar cartas de Magic»."
+        },
+        {
+          "title": "Alguien tiene que ser el muro",
+          "rules": "Un especialista cuyo único trabajo es decir si algo puede existir matará ideas que a todos los demás les encantan. Eso es la función funcionando, y conviene encajar la derrota con elegancia.",
+          "flavor": "Sobre «el permanente objetivo no tiene controlador hasta el final del turno»: «Paul: ¿Sin controlador? ¿Eso qué significa siquiera? Yo: ¡Ya lo sé! Paul: Lo decía en sentido negativo. Yo: Ah. Luché contra las reglas y ganaron las reglas»."
+        },
+        {
+          "title": "Jugable ¿por quién?",
+          "rules": "Que el motor de reglas resuelva bien un caso es un listón más bajo que el de que lo resuelva bien una persona normal. Cuando esas dos respuestas difieren, decide la segunda.",
+          "flavor": "La carta de manos reveladas necesitó una línea que prohibía lanzar hechizos en los turnos ajenos. «No es que las reglas no pudieran con ello. Nos preocupaba que el jugador medio no entiende el concepto de prioridad lo bastante bien como para jugar esta carta correctamente»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Vous aussi, faites la carte",
+      "dek": "Ce que des milliers d'artefacts conçus par les lecteurs ont révélé de leurs envies — et les trente-cinq finalistes, chacun avec la raison de sa survie ou de sa mort.",
+      "overview": "Moitié étude de public, moitié journal de refus. Les neuf motifs récurrents dressent un portrait du désir des joueurs ; les verdicts carte par carte forment la liste publiée la plus claire de ce qui tue vraiment une conception.",
+      "takeaway": "« Il est très instructif, pour un concepteur, de voir ce que les joueurs conçoivent. Après tout, les joueurs font les cartes qu'ils veulent voir. C'est une information inestimable. »",
+      "lessons": [
+        {
+          "title": "Lisez vous-même les propositions brutes",
+          "rules": "Un retour agrégé vous dit ce que les gens disent vouloir. Ce qu'ils construisent vous dit ce qu'ils veulent vraiment, et aucun résumé ne le conserve. Il vaut la peine d'en lire une quantité déraisonnable en personne.",
+          "flavor": "Il a lu « l'équivalent de Guerre et Paix. La version longue, non abrégée… si Tolstoï avait écrit sur les artefacts plutôt que sur la guerre civile russe ». Pourquoi ne pas déléguer ? « Il est très instructif de voir ce que les joueurs conçoivent. Après tout, les joueurs font les cartes qu'ils veulent voir. »"
+        },
+        {
+          "title": "La demande est plus bruyante et plus simple que prévu",
+          "rules": "Les souhaits agrégés se massent autour de quelques pulsions primaires, et ils escaladent. Ce que l'on demande une fois, un deuxième groupe le voudra répétable et un troisième le voudra d'un coup.",
+          "flavor": "Au moins une proposition sur quinze était « payez un coût, sacrifiez ceci : détruisez la créature ciblée ». Le groupe suivant a supprimé le sacrifice — « les joueurs aiment les effets répétables. Et ils aiment vraiment tuer des choses. » Le troisième voulait toutes les créatures, artefacts, enchantements et souvent aussi les terrains. « Tout faire sauter, c'est un bon vieux plaisir. »"
+        },
+        {
+          "title": "Le plus demandé peut être infaisable",
+          "rules": "Si une capacité est ce qui distingue vos catégories entre elles, une version neutre doit être tarifée pour ne pas battre la catégorie la plus mauvaise à ce jeu — ce qui garantit qu'elle sortira faible.",
+          "flavor": "« La destruction de permanents est très importante pour définir les couleurs », donc un artefact tueur de créatures devrait être coûté par rapport à la version verte. « Nous voulons que les cartes de 'You Make the Card' soient bonnes, donc nous avons délibérément évité les cartes que nous savions ne pas pouvoir pousser en construit. »"
+        },
+        {
+          "title": "Les propositions inutilisables portent quand même un signal",
+          "rules": "Les entrées à écarter pour raisons de procédure restent des données sur l'appétit. Lisez le motif, pas l'entrée : ce vers quoi les gens tendent vous dit où viser la prochaine fois.",
+          "flavor": "Des piles de mots-clés sur une créature, Akroma encore en tête : « plus il y en a, mieux c'est. » Des cartes bâties sur les mécaniques d'Onslaught, inutiles pour un artefact de Mirrodin : « les joueurs aiment qu'on explore en détail le thème d'une extension. » Et des artefacts devenant créatures, contre l'esprit même du vote : « les joueurs adorent les créatures. »"
+        },
+        {
+          "title": "Notez la rancune persistante",
+          "rules": "Un thème qui survit d'une série de propositions à la suivante n'est pas du bruit. Servez-le là où c'est légitime, et rassurez séparément l'autre camp sur le caractère temporaire du déséquilibre.",
+          "flavor": "« Un thème hérité du précédent 'You Make the Card' était un fort courant anti-bleu. » Deux des dix finalistes en venaient. « Et aux amateurs de bleu : ne vous inquiétez pas, le bleu reviendra comme toutes les couleurs qui, à un moment ou un autre, ont été mauvaises dans l'histoire du jeu. »"
+        },
+        {
+          "title": "Filtrez sur un axe ; laissez les autres filtrer sur le leur",
+          "rules": "Quand vous êtes la première porte d'un examen en plusieurs étapes, appliquer vous-même tous les tests suivants jette des choses que ces étapes auraient pu sauver. Jugez ce que vous seul pouvez juger.",
+          "flavor": "« Notez que j'ai essayé de choisir uniquement sur l'inventivité de la conception. Je n'ai pas éliminé de cartes pour des questions de règles ou de puissance. C'était le travail du reste de la R&D. » Quatre-vingt-quinze sont devenues trente-cinq avant même que le responsable des règles ne voie la liste."
+        },
+        {
+          "title": "Demandez ce que font deux exemplaires",
+          "rules": "Une conception qui se lit proprement seule peut devenir incompréhensible en s'empilant sur elle-même. Faites le calcul avant de l'aimer : les nombres vous échappent plus vite que l'intuition.",
+          "flavor": "La carte qui transforme toute pioche en pioche générale : deux exemplaires à deux joueurs, c'est deux cartes chacun ; trois exemplaires, quatre ; quatre exemplaires à quatre joueurs, soixante-quatre chacun. « La R&D a estimé que la carte causerait plus de confusion qu'elle ne valait. »"
+        },
+        {
+          "title": "Une exception peut confirmer la règle",
+          "rules": "Une interdiction permanente suspendue une fois produit une preuve dans un sens ou l'autre. Si l'exception tourne mal, l'interdiction devient une présomption forte plutôt qu'un absolu — et la barre pour la suivante est désormais explicite.",
+          "flavor": "« Longtemps, la R&D a eu pour règle de ne jamais mentionner le mot 'pile' dans le texte de règles. Puis vint Mirari, et nous avons fait une exception. Mirari nous a appris que notre première intuition était juste… Cela ne veut pas dire jamais, mais la carte devait le mériter. » Une finaliste a fini par passer cette barre."
+        },
+        {
+          "title": "Correct n'est pas intuitif",
+          "rules": "Une conception peut être parfaitement définie et échouer quand même, parce que chaque cas limite se résout à l'inverse de ce qu'une personne raisonnable supposerait. Comptez les réponses surprenantes avant de défendre la rédaction.",
+          "flavor": "« Les créatures non-jetons sans capacités gagnent +2/+2 » en a produit une page : un Grizzly Bears enchanté reste 2/2 ; un Fervor en jeu ne le disqualifie pas, un Fecundity si ; le recyclage disqualifie une créature vanille ; un Kobold ne compte pas. « Il y avait assez de questions non intuitives de ce genre pour que nous tuions la carte. »"
+        },
+        {
+          "title": "Les moteurs sont la ligne rouge permanente",
+          "rules": "Tout ce qui convertit sans cesse une ressource en une autre, ou permet de contourner le coût central du système, a un passé connu. Le précédent est assez précis pour être cité plutôt que rediscuté.",
+          "flavor": "« À chaque fois que vous jouez une carte, piochez une carte » était « un moteur de pioche cassé-é-é ». Payer des points de vie égaux au coût converti, c'était « un Channel permanent pour le mana coloré. Comme la R&D l'a appris maintes fois, laisser les joueurs contourner en continu les restrictions de mana a des effets désastreux (voir Dream Halls). »"
+        },
+        {
+          "title": "Clivant vaut mieux que fade et consensuel",
+          "rules": "Une proposition qui coupe la salle en deux a trouvé quelque chose. L'indifférence unanime est le pire signal — et selon ce test, ennuyeux disqualifie davantage que controversé.",
+          "flavor": "La destruction de masse par nombres choisis en secret « avait tendance à séparer la R&D en deux camps. Certains l'adoraient, d'autres la détestaient. Nous avons décidé qu'une carte capable de nous diviser à ce point était un choix intéressant. » Comparez la carte de surcoût sur les capacités activées : « tuée surtout parce que la majorité de la R&D ne la trouvait pas si intéressante. »"
+        },
+        {
+          "title": "Refusée ici, utile ailleurs",
+          "rules": "Un non dans un contexte est une décision d'aiguillage, pas un verdict de qualité. Gardez en tête la liste des projets à qui pourrait servir ce que vous venez de refuser, y compris ceux qui ne sont pas des produits.",
+          "flavor": "Deux entrées censurées sont parties directement dans des conceptions en cours. Une troisième avait un défaut de règles assez intéressant pour que Robert Gutschera l'emporte « pour le dernier test Vapor Ops, un test que nous faisons passer aux nouveaux embauchés pour évaluer leur aptitude à développer des cartes »."
+        },
+        {
+          "title": "Il faut bien quelqu'un pour faire le mur",
+          "rules": "Un spécialiste dont le métier est de dire si une chose peut exister tuera des idées que tous les autres adorent. C'est la fonction qui marche, et il vaut mieux encaisser avec élégance.",
+          "flavor": "À propos de « le permanent ciblé n'a pas de contrôleur jusqu'à la fin du tour » : « Paul : Pas de contrôleur ? Qu'est-ce que ça veut seulement dire ? Moi : Je sais ! Paul : Je le disais négativement. Moi : Ah. J'ai combattu les règles et les règles ont gagné. »"
+        },
+        {
+          "title": "Jouable par qui ?",
+          "rules": "Que le moteur de règles traite correctement un cas est une barre plus basse que la même chose pour une personne ordinaire. Quand ces deux réponses diffèrent, c'est la seconde qui tranche.",
+          "flavor": "La carte à mains révélées a exigé une ligne interdisant de jouer des sorts pendant les tours adverses. « Ce n'est pas que les règles ne pouvaient pas gérer. Nous craignions que le joueur moyen ne comprenne pas assez bien la notion de priorité pour jouer cette carte correctement. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Você também faz a carta",
+      "dek": "O que milhares de artefatos desenhados por leitores revelaram sobre o que os jogadores querem — e os trinta e cinco finalistas, cada um com o motivo de ter vivido ou morrido.",
+      "overview": "Metade pesquisa de público, metade registro de recusas. Os nove padrões recorrentes são um retrato do desejo do jogador; os vereditos carta a carta são a lista publicada mais clara do que de fato mata um design.",
+      "takeaway": "«É muito revelador para um designer ver o que os jogadores projetam. Afinal, os jogadores fazem as cartas que querem ver. Essa informação não tem preço.»",
+      "lessons": [
+        {
+          "title": "Leia você mesmo as propostas cruas",
+          "rules": "Feedback agregado diz o que as pessoas dizem querer. O que elas constroem diz o que de fato querem, e nenhum resumo preserva isso. Vale ler uma quantidade irrazoável pessoalmente.",
+          "flavor": "Ele leu «o equivalente a Guerra e Paz. A versão estendida, sem cortes… se Tolstói tivesse escrito sobre artefatos em vez da guerra civil russa». Por que não delegar? «É muito revelador para um designer ver o que os jogadores projetam. Afinal, os jogadores fazem as cartas que querem ver.»"
+        },
+        {
+          "title": "A demanda é mais barulhenta e mais simples do que você espera",
+          "rules": "Desejos agregados se amontoam em torno de alguns impulsos primários, e escalam. O que alguém pede uma vez, um segundo grupo vai querer repetível e um terceiro vai querer tudo de uma vez.",
+          "flavor": "Pelo menos uma proposta em quinze era «pague um custo, sacrifique isto: destrua a criatura alvo». O grupo seguinte tirou o sacrifício — «jogadores gostam de efeitos repetíveis. E gostam muito de matar coisas». O terceiro queria todas as criaturas, artefatos, encantamentos e em geral também os terrenos. «Explodir tudo é diversão da boa e velha.»"
+        },
+        {
+          "title": "O mais pedido pode ser inconstruível",
+          "rules": "Se uma capacidade é o que distingue suas categorias entre si, uma versão neutra precisa ser precificada para não superar a categoria pior nisso — o que garante que saia fraca.",
+          "flavor": "«Destruição de permanentes é muito importante para definir as cores», então um artefato mata-criatura teria de ser custado contra a versão do verde. «Queremos que as cartas de 'You Make the Card' sejam boas, então evitamos de propósito escolher cartas que sabíamos não poder empurrar para o construído.»"
+        },
+        {
+          "title": "Propostas inúteis ainda carregam sinal",
+          "rules": "Entradas que você precisa descartar por razões de procedimento continuam sendo dados sobre apetite. Leia o padrão, não a entrada: para onde as pessoas puxam diz onde mirar da próxima vez.",
+          "flavor": "Pilhas de palavras-chave numa criatura, com Akroma fresca na memória: «quanto mais, melhor». Cartas construídas sobre as mecânicas de Onslaught, inúteis para um artefato de Mirrodin: «jogadores gostam que exploremos a fundo o tema de uma coleção». E artefatos que viram criaturas, contra o próprio sentido da votação: «jogadores adoram criaturas»."
+        },
+        {
+          "title": "Repare na mágoa persistente",
+          "rules": "Um tema que sobrevive de uma rodada de propostas para a seguinte não é ruído. Atenda-o onde for legítimo e, à parte, tranquilize quem está do outro lado de que o desequilíbrio é temporário.",
+          "flavor": "«Um tema herdado do 'You Make the Card' anterior era um forte sentimento antiazul.» Duas das dez finalistas vieram desse campo. «E aos amantes do azul: não se preocupem, o azul vai voltar como toda cor que em algum momento foi ruim na história do jogo.»"
+        },
+        {
+          "title": "Filtre por um eixo; deixe os outros filtrarem pelo deles",
+          "rules": "Quando você é o primeiro portão de uma revisão em etapas, aplicar você mesmo todos os testes seguintes joga fora coisas que as etapas posteriores talvez salvassem. Julgue o que só você pode julgar.",
+          "flavor": "«Note que tentei escolher cartas apenas pela inventividade do design. Não removi cartas por questões de regras ou de potência. Isso era trabalho do resto da P&D.» Noventa e cinco viraram trinta e cinco antes de o gerente de regras ver a lista."
+        },
+        {
+          "title": "Pergunte o que duas cópias fazem",
+          "rules": "Um design que se lê limpo isolado pode virar incompreensível ao se empilhar consigo mesmo. Multiplique antes de gostar: os números fogem de você mais rápido que a intuição.",
+          "flavor": "A carta que transforma qualquer compra numa compra de todos: duas cópias num jogo de dois são duas cartas cada; três cópias, quatro; quatro cópias num jogo de quatro, sessenta e quatro cada. «A P&D achou que a carta causaria mais confusão do que valia.»"
+        },
+        {
+          "title": "Uma exceção pode confirmar a regra",
+          "rules": "Uma proibição permanente suspensa uma vez produz evidência num sentido ou noutro. Se a exceção sai mal, a proibição vira uma presunção forte em vez de um absoluto — e a barra para a próxima fica explícita.",
+          "flavor": "«Por muito tempo a P&D teve uma regra: nunca mencionar a palavra 'pilha' no texto de regras. Aí veio Mirari e abrimos exceção. Mirari nos ensinou que a primeira intuição estava certa… Isso não quer dizer nunca, mas a carta tinha de valer a pena.» Uma finalista acabou passando dessa barra."
+        },
+        {
+          "title": "Correto não é o mesmo que intuitivo",
+          "rules": "Um design pode estar perfeitamente definido e ainda assim falhar, porque cada caso-limite se resolve ao contrário do que uma pessoa razoável suporia. Conte as respostas surpreendentes antes de defender a redação.",
+          "flavor": "«Criaturas não-ficha sem habilidades recebem +2/+2» gerou uma página delas: um Grizzly Bears encantado continua 2/2; um Fervor em jogo não desqualifica, mas um Fecundity sim; ciclar desqualifica uma criatura baunilha; um Kobold não conta. «Havia perguntas não intuitivas o bastante desse tipo para matarmos a carta.»"
+        },
+        {
+          "title": "Motores são a linha vermelha permanente",
+          "rules": "Tudo que converte repetidamente um recurso em outro, ou permite contornar o custo central do sistema, tem histórico conhecido. O precedente é específico o suficiente para ser citado em vez de rediscutido.",
+          "flavor": "«Sempre que você jogar uma carta, compre uma carta» era «um motor de compra que-bra-do». Pagar vidas iguais ao custo convertido era «como um Channel permanente para mana colorido. Como a P&D aprendeu vez após vez, deixar jogadores contornarem continuamente as restrições normais de mana tem efeitos desastrosos (ver Dream Halls).»"
+        },
+        {
+          "title": "Divisivo vence agradavelmente sem graça",
+          "rules": "Uma proposta que parte a sala ao meio achou alguma coisa. Indiferença unânime é o pior sinal — e por esse teste, chato desqualifica mais do que polêmico.",
+          "flavor": "A destruição em massa por números escolhidos em segredo «tendia a dividir a P&D em dois campos. Alguns amavam e outros odiavam. Decidimos que uma carta capaz de nos dividir tão fortemente era uma escolha interessante.» Compare com a de custo adicional nas habilidades ativadas: «morreu principalmente porque a maioria da P&D não a achou nada interessante.»"
+        },
+        {
+          "title": "Recusada aqui, útil em outro lugar",
+          "rules": "Um não num contexto é uma decisão de roteamento, não um veredito sobre qualidade. Mantenha uma lista mental dos projetos que poderiam querer aquilo que você acabou de recusar, inclusive os que não são produtos.",
+          "flavor": "Duas entradas censuradas foram direto para designs já em andamento. Uma terceira tinha uma falha de regras interessante o bastante para Robert Gutschera levá-la «para usar no último teste Vapor Ops, um teste que aplicamos a novos contratados para medir a capacidade deles de desenvolver cartas»."
+        },
+        {
+          "title": "Alguém tem de ser a parede",
+          "rules": "Um especialista cujo trabalho inteiro é dizer se algo pode existir vai matar ideias que todos os outros amam. É a função funcionando, e vale encaixar a derrota com elegância.",
+          "flavor": "Sobre «o permanente alvo não tem controlador até o fim do turno»: «Paul: Sem controlador? O que isso sequer significa? Eu: Eu sei! Paul: Eu disse isso como algo negativo. Eu: Ah. Lutei contra as regras e as regras venceram.»"
+        },
+        {
+          "title": "Jogável por quem",
+          "rules": "O motor de regras resolver um caso corretamente é uma barra mais baixa do que uma pessoa comum resolvê-lo corretamente. Quando essas duas respostas diferem, é a segunda que decide.",
+          "flavor": "A carta de mãos reveladas precisou de uma linha proibindo jogar mágicas nos turnos alheios. «Não era que as regras não dessem conta. A preocupação era que o jogador médio não entende bem o bastante o conceito de prioridade para jogar essa carta corretamente.»"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "牌也让你来做（第二回）",
+      "dek": "成千上万张由读者设计的神器，暴露出了玩家究竟想要什么——以及那三十五张入围作，每一张都附上了它得以存活或被毙掉的理由。",
+      "overview": "一半是受众调研，一半是退稿记录。那九类反复出现的投稿是一幅玩家欲望的画像；而逐张牌的判词，则是关于「究竟是什么杀死了一个设计」所公开过的最清楚的一份清单。",
+      "takeaway": "「对一个设计师来说，看玩家自己设计什么，是极有启发的。毕竟，玩家做出来的，正是他们想看到的牌。这份信息价值连城。」",
+      "lessons": [
+        {
+          "title": "亲自去读那些未经加工的投稿",
+          "rules": "汇总后的反馈告诉你的是「人们说自己想要什么」。而他们动手造出来的东西，告诉你的是他们真正想要什么——这一点没有任何摘要能保留下来。亲自读到一个不合理的量，是值得的。",
+          "flavor": "他读掉了「相当于一整部《战争与和平》。还是加长未删节版……如果托尔斯泰写的是神器而不是俄国内战的话」。为什么不外包？「对一个设计师来说，看玩家自己设计什么，是极有启发的。毕竟，玩家做出来的，正是他们想看到的牌。」"
+        },
+        {
+          "title": "需求比你预想的更吵、也更简单",
+          "rules": "聚合起来的愿望，会死死地扎堆在少数几个原始欲望周围，并且会层层加码。凡是有人要过一次的东西，第二拨人就会要一个可重复的版本，第三拨人则要一次全都来。",
+          "flavor": "每十五份投稿里至少有一份是「支付费用、牺牲这个：消灭目标生物」。下一拨人把牺牲去掉了——「玩家喜欢可重复的效果。而且他们真的很喜欢杀东西。」第三拨要的是所有生物、神器、结界，通常还捎上地。「把东西炸上天，就是那种朴素的好玩。」"
+        },
+        {
+          "title": "被要求得最多的那样东西，可能根本造不出来",
+          "rules": "如果某项能力正是把你各个类别彼此区分开来的那件东西，那么一个「中性」版本就必须定价到不会压过最不擅长它的那个类别——而这就注定了它出来会很弱。",
+          "flavor": "「摧毁永久物这件事，对定义各个颜色来说非常重要」，所以一张神器杀生物牌得对着绿色那一版来定价。「我们希望『你来做牌』做出来的牌是好牌，所以我们刻意避开了那些我们明知推不进构组赛的牌。」"
+        },
+        {
+          "title": "不能用的投稿，照样带着信号",
+          "rules": "那些你出于流程原因必须丢掉的投稿，仍然是关于「胃口在哪里」的数据。去读那个模式，而不是那一份稿子：人们反复伸手去够的东西，会告诉你下一次该往哪儿瞄。",
+          "flavor": "把一堆关键字词堆到一个生物上，因为阿卡洛玛还热乎着：「越多越开心。」围绕《突击风暴》机制造的牌，对一张《秘罗地》神器毫无用处：「玩家喜欢我们把一个系列的主题挖得很细。」还有那些会变成生物的神器，完全违背这次「非生物」投票的本意：「玩家真的很爱生物。」"
+        },
+        {
+          "title": "留意那份持续的怨气",
+          "rules": "一个能从上一轮投稿一路活到这一轮的主题，不是噪声。在你名正言顺能做的地方去满足它；同时另起一句，安抚另一边的人说这份失衡是暂时的。",
+          "flavor": "「从上一届『你来做牌』延续下来的一个主题，是强烈的反蓝情绪。」最终十张里有两张出自这一阵营。「至于那些爱蓝色的朋友——别担心，蓝色会回来的，就像这个游戏史上每一个曾经烂过一阵的颜色那样。」"
+        },
+        {
+          "title": "只按一根轴筛；让别人按他们那根去筛",
+          "rules": "当你是一场多段评审的第一道门时，把后续每一道测试都自己先跑一遍，会扔掉那些后面几段本来可能救回来的东西。只去判断那些只有你能判断的。",
+          "flavor": "「请注意，我完全是按设计的巧思来挑牌的。我没有因为规则问题或强度问题去删掉任何牌。那是研发部其余人的活儿。」在规则主管看到这份名单之前，九十五张已经先变成了三十五张。"
+        },
+        {
+          "title": "问一句：两张会怎样",
+          "rules": "一个单看时读起来干干净净的设计，一旦和自己叠起来，就可能变得没法理解。在你喜欢上它之前先把数字乘出来——数字失控的速度，比直觉快得多。",
+          "flavor": "那张把「任何一次抓牌」变成「所有人都抓」的牌：两人局里放两张，各抓两张；三张，各抓四张；四人局里放四张，每人各抓六十四张。「研发部认为，这张牌带来的困惑会超过它的价值。」"
+        },
+        {
+          "title": "一次例外，可以反过来确认那条规矩",
+          "rules": "一条长期的禁令若被破例一次，无论结果如何都会产生证据。如果这次例外结局不好，那条禁令就从「绝对」降为「一个很强的先验」——而下一次破例的门槛，从此变得明确。",
+          "flavor": "「有很长一段时间，研发部有条规矩：规则文字里绝不出现『堆叠』这个词。后来 Mirari 来了，我们破了一次例。Mirari 教会我们，最初那条思路是对的……这不代表我们永远不用它，但那张牌得酷到值回票价。」最终有一张入围作跨过了这道门槛。"
+        },
+        {
+          "title": "「正确」和「符合直觉」不是一回事",
+          "rules": "一个设计可以定义得毫无破绽，却依然失败——因为它每一个边界情形的裁定，都跟一个讲道理的人会猜的那个答案相反。在你替措辞辩护之前，先数一数有多少个「出人意料」的答案。",
+          "flavor": "「非衍生物且没有异能的生物得 +2/+2」一句话生出了一整页问题：挂了灵气的灰棕熊仍然是 2/2；场上有 Fervor 不会取消资格，但 Fecundity 会；一个带循环的原味生物没资格；狗头人不算数。「这类不符合直觉的问题多到一定程度，我们就把这张牌毙了。」"
+        },
+        {
+          "title": "引擎是那条常设的红线",
+          "rules": "任何能反复把一种资源转换成另一种、或者让人绕开这个系统核心成本的东西，都有一份已知的案底。那些先例具体到可以直接援引，而不必重新辩论一遍。",
+          "flavor": "「每当你使用一张牌时，抓一张牌」是「一台稀-烂-掉的抓牌引擎」。而用等同于总法术力费用的生命去支付，则「相当于一张针对有色法术力的永久版 Channel。正如研发部一次又一次学到的，让玩家能持续绕开正常的法术力限制，后果是灾难性的（参见 Dream Halls）」。"
+        },
+        {
+          "title": "分裂全场，胜过一团和气的乏味",
+          "rules": "一个把屋子劈成两半的提案，说明它找到了某样东西。全体一致的无所谓才是更糟的信号——按这条标准，「无聊」比「有争议」更能把一个东西判死。",
+          "flavor": "那张各人暗中选数字的群体清场牌「往往把研发部劈成两个阵营。有人爱它，有人恨它。我们认定，一张能把我们分裂到这个程度的牌，是个有意思的选择」。对比那张给启动式异能加费的牌：「它被毙掉，主要是因为研发部大多数人觉得它没什么意思。」"
+        },
+        {
+          "title": "在这里被否，在别处有用",
+          "rules": "某个语境下的一个「不」，是一次分流决定，而不是对质量的判决。在心里留一份名单：有哪些项目可能想要你刚刚回绝掉的这样东西——包括那些根本不是产品的项目。",
+          "flavor": "两份打了码的投稿被直接送进了正在进行中的设计。第三份则带着一个有意思到这种程度的规则毛病：罗伯特·古切拉把它拿走了，「用在最新一次 Vapor Ops 测试里——那是我们用来考察新员工开发牌张能力的一项测试」。"
+        },
+        {
+          "title": "总得有人去当那堵墙",
+          "rules": "一个专职判断「这东西能不能存在」的人，一定会杀掉别人都很喜欢的点子。那正是这个岗位在正常运转——而输掉时，最好输得体面些。",
+          "flavor": "关于「目标永久物直到回合结束前没有操控者」这一条：「保罗：没有操控者？那到底是什么意思？我：我知道！保罗：我这句话是负面意思。我：噢。我跟规则打了一架，规则赢了。」"
+        },
+        {
+          "title": "「打得了」——谁打得了？",
+          "rules": "规则引擎能正确处理一个情形，这条线比「一个普通人能正确处理它」要低。当这两个答案不一致时，拍板的是后一个。",
+          "flavor": "那张公开手牌的牌，需要加上一句「不能在别人的回合使用咒语」。「问题不在于规则处理不了。我们担心的是，普通玩家对『优先权』这个概念的理解，还不足以把这张牌打对。」"
+        }
+      ]
+    }
+  }
+}
