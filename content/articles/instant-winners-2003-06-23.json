@@ -1,0 +1,424 @@
+{
+  "id": "instant-winners-2003-06-23",
+  "slug": "instant-winners-2003-06-23",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2003-06-23",
+  "series": null,
+  "tags": ["instants", "sorceries", "timing", "interactivity", "design"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/instant-winners-2003-06-23",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-27T16:30:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "W" },
+    { "n": 10, "color": "G" },
+    { "n": 11, "color": "B" },
+    { "n": 12, "color": "R" },
+    { "n": 13, "color": "R" },
+    { "n": 14, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Instant Winners",
+      "dek": "Instant Week: six reasons a card ends up an instant instead of a sorcery — and the mistake novice designers make when they think speed is free.",
+      "overview": "A taxonomy of the line between instants and sorceries, ending with the argument that a card playable at any time destroys the very decisions that make the game a strategy game.",
+      "takeaway": "\"A good game needs to force the players to come to paths in the game where they have to think ahead and plot their course and then live with their decision. If every card can be played at any time, you never create these paths.\"",
+      "lessons": [
+        {
+          "title": "Some things only work in one slot",
+          "rules": "Before any judgement call, there's a class of design that has exactly one legal shape. If the effect is defined by when it happens, the timing rules have already chosen the type for you.",
+          "flavor": "Cards meant for the opponent's turn (Siren's Call) or for combat (Angelic Favor) can only exist as instants, because those are windows the rules reserve for instants. \"These cards by default have to be instants.\""
+        },
+        {
+          "title": "Note the empty slots",
+          "rules": "When cataloguing where a thing can go, record the destinations nobody has used. An empty category is a standing invitation rather than proof that nothing belongs there.",
+          "flavor": "\"While the combat phase is used often, the end step is not. To the best of my knowledge, Necrologia is the only card to ever restrict use to this step.\" And the upkeep: \"I believe it has zero spells whose use is restricted to it. I've included it here as it potentially could someday be used.\""
+        },
+        {
+          "title": "Interrupting requires a window to interrupt in",
+          "rules": "A whole category of effect depends on being able to act while something else is pending. Remove the window and the category doesn't get weaker — it stops existing.",
+          "flavor": "\"Sorceries can only be played during your main phase when you have priority and the stack is empty.\" So anything targeting the stack must be an instant. \"Sorcery counterspells just don't work (ignore the Mystic Denial behind the curtain).\""
+        },
+        {
+          "title": "Interactivity was learned the hard way",
+          "rules": "The most important thing about a two-player system may be that both people are doing something at once. That lesson tends to arrive by seeing what happens when it's absent.",
+          "flavor": "\"One of the most crucial lessons R&D has learned in the last five years is the importance of interactivity. The game is simply less fun if the players aren't interacting.\" Hence cutting back components for speed combo decks \"to avoid games where both players sit and play solitaire.\" Portal, built without instants, shows the alternative."
+        },
+        {
+          "title": "Design for the gotcha",
+          "rules": "The moment someone thinks they've won and finds out otherwise is not a side effect — it's a thing to build for deliberately. Hidden information exists to make that moment possible.",
+          "flavor": "\"Many game designers believe that 'gotcha moments' are crucial to game design. This is why most games are designed with hidden information so that players have the ability to surprise one another.\" \"Your opponent makes what he believes to be an intelligent block and you get to reveal your Giant Growth with a big smile.\""
+        },
+        {
+          "title": "Don't commit before you know",
+          "rules": "Some tools lose most of their value if used in advance. If the right choice depends on information that hasn't arrived, the tool has to be usable after it does.",
+          "flavor": "\"Sure, you could set up a damage prevention shield as a sorcery, but it kind of misses the point. You don't really want to use damage prevention until you know what's about to take damage.\""
+        },
+        {
+          "title": "\"Faster\" is a design position, not just a speed",
+          "rules": "Being able to act first creates an ordering, and some effects only make sense as answers that land before the thing they're answering. That's an architectural requirement, not a convenience.",
+          "flavor": "\"Instants essentially can be played to happen before another spell 'goes off.' This is important when you have a spell that needs to resolve before the first spell resolves. Protection and regeneration are good examples.\""
+        },
+        {
+          "title": "The novice's reflex is to make everything flexible",
+          "rules": "Flexibility looks free: allowing something to be used at more moments can only add value. That reasoning is the most commonly abused move in the whole category.",
+          "flavor": "\"This is the category that I believe is abused the most often… One of the common mistakes of novice designers is to turn every spell into an instant. The thought behind it is that by making spells an instant you increase when and how they can be used.\""
+        },
+        {
+          "title": "Commitment is what makes decisions real",
+          "rules": "A choice you can defer indefinitely isn't a choice. The system has to produce moments where you must plan, commit, and then live with it — while still leaving room to adapt.",
+          "flavor": "\"A good game needs to force the players to come to paths in the game where they have to think ahead and plot their course and then live with their decision. If every card can be played at any time, you never create these paths. That said, the game also suffers if players never have the ability to adapt on the fly. What's required is a delicate balance.\""
+        },
+        {
+          "title": "The test is whether the timing varies",
+          "rules": "Flexibility only pays when it's actually exercised. If a thing gets used at the same moment every time, its freedom to be used elsewhere is decoration — and worth trading away.",
+          "flavor": "\"These are cards, such as Shock, that want to get played at many different times. Cards that always get played at the end of the opponent's turn, such as card drawing, are better designed as sorceries.\""
+        },
+        {
+          "title": "Better design, not maximum usefulness",
+          "rules": "Convenience for the user and quality of the system are separate axes, and they can point opposite ways. When they do, the request loses — and saying so plainly is part of the job.",
+          "flavor": "\"Note that I'm drawing a distinction between what makes a better design and what is more useful for players. One of the hard parts about design is that you need to create what the game needs and not always what the players want.\""
+        },
+        {
+          "title": "The set can outrank the rule",
+          "rules": "When items are meant to be read as a group, matching the group is itself a requirement. It can be worth breaking a category convention on one piece so the arrangement holds together.",
+          "flavor": "Discard is normally sorcery-speed, but Funeral Charm's four sibling charms — and its own two other abilities — all wanted it to be an instant. \"So we made an exception and made an instant discard spell.\""
+        },
+        {
+          "title": "Speed is one of the knobs",
+          "rules": "For an effect you print constantly, the timing restriction is a variable you can turn for variety. Doing it once, deliberately, produces novelty without unsettling the default.",
+          "flavor": "\"Wrath of God style cards, for example, are always sorceries, but for one set we thought it would be neat to create one that could be played when you can play an instant.\" Hence Invasion's cycle: Rout, Breaking Wave, Twilight's Call, Ghitu Fire, Saproling Symbiosis."
+        },
+        {
+          "title": "Speed can be the pressure itself",
+          "rules": "Changing when something can happen changes what the other side must keep in reserve. Sometimes the point isn't the effect at all — it's the hours the opponent now has to spend defending.",
+          "flavor": "A sorcery that destroyed all Islands could simply be countered. \"By making it an instant, it allowed us to put extra pressure on blue as it now had to worry whenever it tapped out, even at the end of the opponent's turn when it normally did most of its dirty work.\""
+        }
+      ]
+    },
+    "es": {
+      "title": "Ganadores instantáneos",
+      "dek": "Semana de los instantáneos: seis razones por las que una carta acaba siendo instantánea en vez de conjuro, y el error que cometen los diseñadores novatos al creer que la velocidad es gratis.",
+      "overview": "Una taxonomía de la línea entre instantáneos y conjuros, que termina con el argumento de que una carta jugable en cualquier momento destruye justo las decisiones que hacen del juego un juego de estrategia.",
+      "takeaway": "«Un buen juego necesita obligar a los jugadores a llegar a bifurcaciones donde tengan que pensar por adelantado, trazar su rumbo y luego vivir con su decisión. Si toda carta puede jugarse en cualquier momento, nunca creas esas bifurcaciones».",
+      "lessons": [
+        {
+          "title": "Algunas cosas solo funcionan en una casilla",
+          "rules": "Antes de cualquier juicio de valor, hay una clase de diseño que tiene exactamente una forma legal. Si el efecto se define por cuándo ocurre, las reglas de tiempo ya han elegido el tipo por ti.",
+          "flavor": "Las cartas pensadas para el turno del rival (Siren's Call) o para el combate (Angelic Favor) solo pueden existir como instantáneos, porque esas son ventanas que las reglas reservan a los instantáneos. «Estas cartas tienen que ser instantáneos por defecto»."
+        },
+        {
+          "title": "Anota las casillas vacías",
+          "rules": "Al catalogar dónde puede ir una cosa, registra los destinos que nadie ha usado. Una categoría vacía es una invitación permanente, no la prueba de que allí no cabe nada.",
+          "flavor": "«Mientras que la fase de combate se usa a menudo, el paso final no. Que yo sepa, Necrologia es la única carta que jamás ha restringido su uso a ese paso». Y el mantenimiento: «Creo que tiene cero hechizos restringidos a él. Lo incluyo aquí porque algún día podría usarse»."
+        },
+        {
+          "title": "Interrumpir exige una ventana en la que interrumpir",
+          "rules": "Toda una categoría de efectos depende de poder actuar mientras otra cosa está pendiente. Quita la ventana y esa categoría no se debilita: deja de existir.",
+          "flavor": "«Los conjuros solo pueden jugarse durante tu fase principal, cuando tienes prioridad y la pila está vacía». Así que cualquier cosa que apunte a la pila debe ser instantáneo. «Los contrahechizos como conjuro simplemente no funcionan (ignorad a Mystic Denial tras la cortina)»."
+        },
+        {
+          "title": "La interactividad se aprendió a las malas",
+          "rules": "Lo más importante de un sistema para dos puede ser que ambas personas estén haciendo algo a la vez. Esa lección suele llegar viendo qué ocurre cuando falta.",
+          "flavor": "«Una de las lecciones más cruciales que I+D ha aprendido en los últimos cinco años es la importancia de la interactividad. El juego es sencillamente menos divertido si los jugadores no interactúan». De ahí recortar piezas de los mazos combo rápidos «para evitar partidas donde ambos jugadores se sientan a jugar al solitario». Portal, hecho sin instantáneos, enseña la alternativa."
+        },
+        {
+          "title": "Diseña para el «¡te pillé!»",
+          "rules": "El momento en que alguien cree que ha ganado y descubre lo contrario no es un efecto secundario: es algo que se construye a propósito. La información oculta existe para hacer posible ese momento.",
+          "flavor": "«Muchos diseñadores creen que los 'momentos gotcha' son cruciales para el diseño de juegos. Por eso la mayoría se diseñan con información oculta, para que los jugadores puedan sorprenderse entre sí». «Tu rival hace lo que cree un bloqueo inteligente y tú revelas tu Giant Growth con una gran sonrisa»."
+        },
+        {
+          "title": "No te comprometas antes de saber",
+          "rules": "Algunas herramientas pierden casi todo su valor si se usan por adelantado. Si la elección correcta depende de información que aún no ha llegado, la herramienta ha de poder usarse después.",
+          "flavor": "«Claro, podrías montar un escudo de prevención de daño como conjuro, pero eso se salta un poco el sentido. En realidad no quieres usar prevención de daño hasta saber qué es lo que va a recibir daño»."
+        },
+        {
+          "title": "«Más rápido» es una posición de diseño, no solo velocidad",
+          "rules": "Poder actuar primero crea un orden, y hay efectos que solo tienen sentido como respuestas que aterrizan antes que aquello a lo que responden. Es un requisito arquitectónico, no una comodidad.",
+          "flavor": "«Los instantáneos pueden jugarse esencialmente para que ocurran antes de que otro hechizo 'se dispare'. Esto importa cuando tienes un hechizo que necesita resolverse antes que el primero. La protección y la regeneración son buenos ejemplos»."
+        },
+        {
+          "title": "El reflejo del novato es hacerlo todo flexible",
+          "rules": "La flexibilidad parece gratis: permitir que algo se use en más momentos solo puede añadir valor. Ese razonamiento es la maniobra más abusada de toda la categoría.",
+          "flavor": "«Esta es la categoría que creo que más se abusa… Uno de los errores comunes de los diseñadores novatos es convertir cada hechizo en un instantáneo. La idea detrás es que al hacerlos instantáneos aumentas cuándo y cómo pueden usarse»."
+        },
+        {
+          "title": "El compromiso es lo que vuelve reales las decisiones",
+          "rules": "Una elección que puedes aplazar indefinidamente no es una elección. El sistema tiene que producir momentos en que debas planear, comprometerte y luego cargar con ello, dejando aun así margen para adaptarse.",
+          "flavor": "«Un buen juego necesita obligar a los jugadores a llegar a bifurcaciones donde tengan que pensar por adelantado, trazar su rumbo y luego vivir con su decisión. Si toda carta puede jugarse en cualquier momento, nunca creas esas bifurcaciones. Dicho esto, el juego también sufre si los jugadores nunca pueden adaptarse sobre la marcha. Hace falta un equilibrio delicado»."
+        },
+        {
+          "title": "La prueba es si el momento varía",
+          "rules": "La flexibilidad solo paga cuando se ejerce de verdad. Si algo se usa siempre en el mismo instante, su libertad para usarse en otro es decorativa, y merece la pena canjearla.",
+          "flavor": "«Son cartas, como Shock, que quieren jugarse en muchos momentos distintos. Las cartas que siempre se juegan al final del turno del rival, como el robo de cartas, están mejor diseñadas como conjuros»."
+        },
+        {
+          "title": "Mejor diseño, no máxima utilidad",
+          "rules": "La comodidad del usuario y la calidad del sistema son ejes distintos, y pueden apuntar en direcciones opuestas. Cuando lo hacen, la petición pierde; y decirlo con claridad forma parte del trabajo.",
+          "flavor": "«Nótese que distingo entre lo que hace un diseño mejor y lo que es más útil para los jugadores. Una de las partes difíciles del diseño es que tienes que crear lo que el juego necesita y no siempre lo que los jugadores quieren»."
+        },
+        {
+          "title": "El conjunto puede pesar más que la regla",
+          "rules": "Cuando unas piezas están pensadas para leerse como grupo, encajar en el grupo es en sí un requisito. Puede valer la pena romper una convención en una pieza para que el conjunto se sostenga.",
+          "flavor": "El descarte es normalmente a velocidad de conjuro, pero los otros cuatro talismanes del ciclo de Funeral Charm —y sus otras dos habilidades— querían que fuese instantáneo. «Así que hicimos una excepción y creamos un hechizo de descarte instantáneo»."
+        },
+        {
+          "title": "La velocidad es uno de los mandos",
+          "rules": "Para un efecto que imprimes constantemente, la restricción temporal es una variable que puedes girar por variedad. Hacerlo una vez, a propósito, produce novedad sin desestabilizar la norma.",
+          "flavor": "«Las cartas tipo Wrath of God, por ejemplo, siempre son conjuros, pero durante una colección pensamos que estaría bien crear una que pudiera jugarse cuando se pueden jugar instantáneos». De ahí el ciclo de Invasion: Rout, Breaking Wave, Twilight's Call, Ghitu Fire, Saproling Symbiosis."
+        },
+        {
+          "title": "La velocidad puede ser la presión misma",
+          "rules": "Cambiar cuándo puede ocurrir algo cambia lo que el otro bando debe reservarse. A veces el objetivo no es el efecto en absoluto: son las horas que el rival tiene ahora que gastar defendiéndose.",
+          "flavor": "Un conjuro que destruyera todas las islas podía simplemente contrarrestarse. «Al hacerlo instantáneo, nos permitió poner presión extra sobre el azul, que ahora tenía que preocuparse cada vez que se quedaba sin maná disponible, incluso al final del turno del rival, cuando normalmente hacía casi todo su trabajo sucio»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Gagnants instantanés",
+      "dek": "Semaine des éphémères : six raisons pour lesquelles une carte finit éphémère plutôt que rituel — et l'erreur des concepteurs débutants qui croient la vitesse gratuite.",
+      "overview": "Une taxonomie de la frontière entre éphémères et rituels, qui s'achève sur l'argument qu'une carte jouable à tout moment détruit précisément les décisions qui font du jeu un jeu de stratégie.",
+      "takeaway": "« Un bon jeu doit amener les joueurs à des embranchements où il faut anticiper, tracer sa route, puis vivre avec sa décision. Si chaque carte peut être jouée à tout moment, vous ne créez jamais ces embranchements. »",
+      "lessons": [
+        {
+          "title": "Certaines choses n'existent que dans une case",
+          "rules": "Avant tout jugement, il y a une classe de conceptions qui n'a qu'une forme légale. Si l'effet se définit par le moment où il arrive, les règles de timing ont déjà choisi le type à votre place.",
+          "flavor": "Les cartes destinées au tour de l'adversaire (Siren's Call) ou au combat (Angelic Favor) ne peuvent exister qu'en éphémères, car ce sont des fenêtres que les règles réservent aux éphémères. « Ces cartes doivent par défaut être des éphémères. »"
+        },
+        {
+          "title": "Notez les cases vides",
+          "rules": "En recensant où une chose peut aller, consignez les destinations que personne n'a utilisées. Une catégorie vide est une invitation permanente, non la preuve que rien n'y a sa place.",
+          "flavor": "« Si la phase de combat est souvent utilisée, l'étape de fin ne l'est pas. À ma connaissance, Necrologia est la seule carte à avoir jamais restreint son usage à cette étape. » Et l'entretien : « Je crois qu'aucun sort n'y est restreint. Je l'inclus car il pourrait un jour servir. »"
+        },
+        {
+          "title": "Interrompre exige une fenêtre pour interrompre",
+          "rules": "Toute une catégorie d'effets dépend de la possibilité d'agir pendant qu'autre chose est en attente. Ôtez la fenêtre : la catégorie ne s'affaiblit pas, elle cesse d'exister.",
+          "flavor": "« Les rituels ne peuvent être joués que pendant votre phase principale, quand vous avez la priorité et que la pile est vide. » Tout ce qui cible la pile doit donc être un éphémère. « Les contresorts en rituel ne marchent tout simplement pas (ignorez le Mystic Denial derrière le rideau). »"
+        },
+        {
+          "title": "L'interactivité s'est apprise à la dure",
+          "rules": "Le plus important dans un système à deux, c'est peut-être que les deux personnes fassent quelque chose en même temps. Cette leçon s'apprend en voyant ce qui arrive quand elle manque.",
+          "flavor": "« L'une des leçons les plus cruciales que la R&D ait apprises ces cinq dernières années est l'importance de l'interactivité. Le jeu est simplement moins amusant si les joueurs n'interagissent pas. » D'où la réduction des pièces de combo rapide « pour éviter les parties où les deux joueurs font une réussite chacun de son côté ». Portal, bâti sans éphémères, montre l'alternative."
+        },
+        {
+          "title": "Concevez pour le « gotcha »",
+          "rules": "L'instant où quelqu'un se croit vainqueur et découvre le contraire n'est pas un effet secondaire : c'est une chose à construire exprès. L'information cachée existe pour rendre cet instant possible.",
+          "flavor": "« Beaucoup de concepteurs estiment que les 'moments gotcha' sont cruciaux. C'est pourquoi la plupart des jeux sont conçus avec de l'information cachée, afin que les joueurs puissent se surprendre. » « Votre adversaire fait ce qu'il croit être un blocage intelligent et vous révélez votre Giant Growth avec un grand sourire. »"
+        },
+        {
+          "title": "Ne vous engagez pas avant de savoir",
+          "rules": "Certains outils perdent l'essentiel de leur valeur s'ils sont employés à l'avance. Si le bon choix dépend d'une information qui n'est pas arrivée, l'outil doit être utilisable après.",
+          "flavor": "« Bien sûr, vous pourriez poser un bouclier de prévention en rituel, mais cela rate un peu l'essentiel. On ne veut pas vraiment utiliser la prévention de blessures avant de savoir ce qui va être blessé. »"
+        },
+        {
+          "title": "« Plus rapide » est une position, pas seulement une vitesse",
+          "rules": "Pouvoir agir en premier crée un ordre, et certains effets n'ont de sens que comme réponses arrivant avant ce à quoi elles répondent. C'est une exigence d'architecture, pas un confort.",
+          "flavor": "« Les éphémères peuvent en somme être joués pour survenir avant qu'un autre sort ne 'parte'. C'est important quand un sort doit se résoudre avant le premier. La protection et la régénération en sont de bons exemples. »"
+        },
+        {
+          "title": "Le réflexe du débutant est de tout rendre flexible",
+          "rules": "La souplesse semble gratuite : permettre un usage à davantage de moments ne peut qu'ajouter de la valeur. Ce raisonnement est le geste le plus galvaudé de toute la catégorie.",
+          "flavor": "« C'est la catégorie dont on abuse le plus, je crois… Une erreur fréquente des concepteurs débutants est de transformer chaque sort en éphémère. L'idée derrière est qu'en les rendant éphémères, on augmente quand et comment ils peuvent servir. »"
+        },
+        {
+          "title": "L'engagement rend les décisions réelles",
+          "rules": "Un choix que l'on peut différer indéfiniment n'est pas un choix. Le système doit produire des moments où il faut planifier, s'engager, puis assumer — tout en laissant de la place pour s'adapter.",
+          "flavor": "« Un bon jeu doit amener les joueurs à des embranchements où il faut anticiper, tracer sa route, puis vivre avec sa décision. Si chaque carte peut être jouée à tout moment, vous ne créez jamais ces embranchements. Cela dit, le jeu souffre aussi si les joueurs ne peuvent jamais s'adapter à la volée. Il faut un équilibre délicat. »"
+        },
+        {
+          "title": "Le test : le moment varie-t-il ?",
+          "rules": "La souplesse ne paie que si elle est réellement exercée. Si une chose sert toujours au même instant, sa liberté de servir ailleurs est décorative — et vaut d'être échangée.",
+          "flavor": "« Ce sont des cartes, comme Shock, qui veulent être jouées à de nombreux moments différents. Les cartes toujours jouées à la fin du tour adverse, comme la pioche, sont mieux conçues en rituels. »"
+        },
+        {
+          "title": "Meilleure conception, pas utilité maximale",
+          "rules": "Le confort de l'utilisateur et la qualité du système sont deux axes distincts, qui peuvent pointer en sens contraires. Quand c'est le cas, la demande perd — et le dire franchement fait partie du métier.",
+          "flavor": "« Notez que je distingue ce qui fait une meilleure conception de ce qui est plus utile aux joueurs. Une des parties difficiles du métier est qu'il faut créer ce dont le jeu a besoin, pas toujours ce que les joueurs veulent. »"
+        },
+        {
+          "title": "L'ensemble peut primer sur la règle",
+          "rules": "Quand des pièces sont faites pour être lues en groupe, s'accorder au groupe est en soi une exigence. Il peut valoir la peine d'enfreindre une convention sur une pièce pour que l'ensemble tienne.",
+          "flavor": "La défausse est normalement à vitesse de rituel, mais les quatre autres charmes du cycle de Funeral Charm — et ses deux autres capacités — la voulaient éphémère. « Nous avons donc fait une exception et créé un sort de défausse en éphémère. »"
+        },
+        {
+          "title": "La vitesse est l'un des boutons",
+          "rules": "Pour un effet que vous imprimez sans cesse, la restriction temporelle est une variable à tourner pour varier. Le faire une fois, délibérément, crée de la nouveauté sans ébranler la norme.",
+          "flavor": "« Les cartes de type Wrath of God sont toujours des rituels, mais le temps d'une extension nous avons trouvé sympa d'en créer une jouable quand on peut jouer un éphémère. » D'où le cycle d'Invasion : Rout, Breaking Wave, Twilight's Call, Ghitu Fire, Saproling Symbiosis."
+        },
+        {
+          "title": "La vitesse peut être la pression elle-même",
+          "rules": "Changer le moment où une chose peut arriver change ce que l'autre camp doit garder en réserve. Parfois l'enjeu n'est pas l'effet du tout : ce sont les ressources que l'adversaire doit désormais consacrer à se défendre.",
+          "flavor": "Un rituel détruisant toutes les Îles pouvait simplement être contré. « En le rendant éphémère, cela nous a permis de mettre une pression supplémentaire sur le bleu, qui devait désormais s'inquiéter dès qu'il se retrouvait engagé, même à la fin du tour adverse, là où il faisait d'ordinaire l'essentiel de son sale boulot. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Vencedores instantâneos",
+      "dek": "Semana dos instantâneos: seis razões pelas quais uma carta acaba instantânea em vez de feitiço — e o erro que designers novatos cometem ao achar que velocidade é de graça.",
+      "overview": "Uma taxonomia da linha entre instantâneos e feitiços, terminando no argumento de que uma carta jogável a qualquer momento destrói justamente as decisões que fazem do jogo um jogo de estratégia.",
+      "takeaway": "«Um bom jogo precisa levar os jogadores a bifurcações onde tenham de pensar à frente, traçar o rumo e depois conviver com a decisão. Se toda carta pode ser jogada a qualquer momento, você nunca cria essas bifurcações.»",
+      "lessons": [
+        {
+          "title": "Algumas coisas só funcionam numa casa",
+          "rules": "Antes de qualquer juízo de valor, existe uma classe de design com exatamente um formato legal. Se o efeito é definido por quando ele acontece, as regras de tempo já escolheram o tipo por você.",
+          "flavor": "Cartas feitas para o turno do oponente (Siren's Call) ou para o combate (Angelic Favor) só podem existir como instantâneas, porque essas são janelas que as regras reservam a instantâneas. «Essas cartas, por padrão, têm de ser instantâneas.»"
+        },
+        {
+          "title": "Anote as casas vazias",
+          "rules": "Ao catalogar para onde uma coisa pode ir, registre os destinos que ninguém usou. Uma categoria vazia é um convite permanente, não a prova de que nada cabe ali.",
+          "flavor": "«Enquanto a fase de combate é muito usada, a etapa final não é. Até onde sei, Necrologia é a única carta que já restringiu seu uso a essa etapa.» E a manutenção: «Acredito que tenha zero mágicas restritas a ela. Incluí aqui porque um dia poderia ser usada.»"
+        },
+        {
+          "title": "Interromper exige uma janela para interromper",
+          "rules": "Uma categoria inteira de efeitos depende de poder agir enquanto outra coisa está pendente. Tire a janela e a categoria não fica mais fraca: ela deixa de existir.",
+          "flavor": "«Feitiços só podem ser jogados na sua fase principal, quando você tem prioridade e a pilha está vazia.» Então qualquer coisa que mire a pilha precisa ser instantânea. «Contramágicas em feitiço simplesmente não funcionam (ignorem o Mystic Denial atrás da cortina).»"
+        },
+        {
+          "title": "A interatividade foi aprendida no tranco",
+          "rules": "O mais importante num sistema para dois talvez seja que as duas pessoas estejam fazendo algo ao mesmo tempo. Essa lição costuma chegar ao se ver o que acontece quando ela falta.",
+          "flavor": "«Uma das lições mais cruciais que a P&D aprendeu nos últimos cinco anos é a importância da interatividade. O jogo é simplesmente menos divertido se os jogadores não interagem.» Daí cortar peças de combos rápidos «para evitar partidas em que os dois jogadores ficam jogando paciência». Portal, feito sem instantâneas, mostra a alternativa."
+        },
+        {
+          "title": "Projete para o «te peguei»",
+          "rules": "O momento em que alguém acha que ganhou e descobre o contrário não é efeito colateral: é coisa a se construir de propósito. Informação oculta existe para tornar esse momento possível.",
+          "flavor": "«Muitos designers acreditam que os 'momentos gotcha' são cruciais para o design de jogos. É por isso que a maioria dos jogos é feita com informação oculta, para que os jogadores possam se surpreender.» «Seu oponente faz o que acredita ser um bloqueio inteligente e você revela seu Giant Growth com um sorrisão.»"
+        },
+        {
+          "title": "Não se comprometa antes de saber",
+          "rules": "Algumas ferramentas perdem quase todo o valor se usadas antecipadamente. Se a escolha certa depende de informação que ainda não chegou, a ferramenta precisa ser usável depois que ela chegar.",
+          "flavor": "«Claro, você poderia montar um escudo de prevenção de dano como feitiço, mas isso meio que perde o ponto. Você não quer mesmo usar prevenção de dano antes de saber o que está prestes a receber dano.»"
+        },
+        {
+          "title": "«Mais rápido» é uma posição de design, não só velocidade",
+          "rules": "Poder agir primeiro cria uma ordem, e alguns efeitos só fazem sentido como respostas que chegam antes daquilo a que respondem. Isso é exigência de arquitetura, não conveniência.",
+          "flavor": "«Instantâneas podem, em essência, ser jogadas para acontecer antes de outra mágica 'disparar'. Isso importa quando você tem uma mágica que precisa resolver antes da primeira. Proteção e regeneração são bons exemplos.»"
+        },
+        {
+          "title": "O reflexo do novato é deixar tudo flexível",
+          "rules": "Flexibilidade parece de graça: permitir uso em mais momentos só pode agregar valor. Esse raciocínio é a jogada de que mais se abusa em toda a categoria.",
+          "flavor": "«Esta é a categoria de que mais se abusa, eu acho… Um dos erros comuns de designers novatos é transformar toda mágica em instantânea. A ideia por trás é que, tornando-as instantâneas, você amplia quando e como podem ser usadas.»"
+        },
+        {
+          "title": "Compromisso é o que torna as decisões reais",
+          "rules": "Uma escolha que se pode adiar indefinidamente não é escolha. O sistema tem de produzir momentos em que você precisa planejar, se comprometer e depois arcar com isso — deixando ainda espaço para adaptar.",
+          "flavor": "«Um bom jogo precisa levar os jogadores a bifurcações onde tenham de pensar à frente, traçar o rumo e depois conviver com a decisão. Se toda carta pode ser jogada a qualquer momento, você nunca cria essas bifurcações. Dito isso, o jogo também sofre se os jogadores nunca puderem se adaptar na hora. É preciso um equilíbrio delicado.»"
+        },
+        {
+          "title": "O teste é se o momento varia",
+          "rules": "Flexibilidade só compensa quando é de fato exercida. Se algo é usado sempre no mesmo instante, sua liberdade de ser usado em outro é enfeite — e vale a pena trocá-la por outra coisa.",
+          "flavor": "«São cartas, como Shock, que querem ser jogadas em muitos momentos diferentes. Cartas que são sempre jogadas no fim do turno do oponente, como compra de cartas, ficam melhor desenhadas como feitiços.»"
+        },
+        {
+          "title": "Melhor design, não utilidade máxima",
+          "rules": "Conveniência do usuário e qualidade do sistema são eixos distintos, e podem apontar em direções opostas. Quando apontam, o pedido perde — e dizer isso com clareza faz parte do trabalho.",
+          "flavor": "«Note que estou distinguindo entre o que faz um design melhor e o que é mais útil para os jogadores. Uma das partes difíceis do design é que você precisa criar o que o jogo precisa e nem sempre o que os jogadores querem.»"
+        },
+        {
+          "title": "O conjunto pode valer mais que a regra",
+          "rules": "Quando peças são feitas para serem lidas em grupo, encaixar no grupo é em si uma exigência. Pode valer a pena quebrar uma convenção numa peça para que o arranjo se sustente.",
+          "flavor": "Descarte normalmente é em velocidade de feitiço, mas os outros quatro amuletos do ciclo de Funeral Charm — e suas outras duas habilidades — queriam que ela fosse instantânea. «Então abrimos uma exceção e fizemos uma mágica de descarte instantânea.»"
+        },
+        {
+          "title": "Velocidade é um dos botões",
+          "rules": "Para um efeito que você imprime o tempo todo, a restrição de tempo é uma variável que dá para girar por variedade. Fazê-lo uma vez, de propósito, produz novidade sem abalar o padrão.",
+          "flavor": "«Cartas tipo Wrath of God, por exemplo, são sempre feitiços, mas por uma coleção achamos que seria legal criar uma que pudesse ser jogada quando se pode jogar uma instantânea.» Daí o ciclo de Invasion: Rout, Breaking Wave, Twilight's Call, Ghitu Fire, Saproling Symbiosis."
+        },
+        {
+          "title": "A velocidade pode ser a própria pressão",
+          "rules": "Mudar quando algo pode acontecer muda o que o outro lado precisa manter em reserva. Às vezes o ponto não é o efeito: são os recursos que o oponente agora tem de gastar se defendendo.",
+          "flavor": "Um feitiço que destruísse todas as Ilhas podia simplesmente ser anulado. «Ao torná-lo instantâneo, pudemos colocar pressão extra no azul, que agora tinha de se preocupar sempre que ficasse sem mana disponível, mesmo no fim do turno do oponente, quando normalmente fazia a maior parte do seu trabalho sujo.»"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "瞬间胜出",
+      "dek": "瞬间牌周：一张牌最终成为瞬间牌而不是法术的六个理由——以及新手设计师在「以为速度是免费的」时所犯的那个错。",
+      "overview": "一份关于「瞬间与法术之间那条线」的分类学，结尾落在这样一个论证上：一张随时都能使用的牌，恰恰摧毁了那些让这个游戏成为策略游戏的抉择。",
+      "takeaway": "「一个好游戏必须逼着玩家走到那些岔路口上：他们得提前思考、定下自己的路线，然后为这个决定承担后果。如果每一张牌在任何时候都能打，你就永远造不出这些岔路口。」",
+      "lessons": [
+        {
+          "title": "有些东西只能待在那一格里",
+          "rules": "在任何取舍判断之前，先有一类设计只存在唯一一种合法形态。如果一个效果是由「它发生在什么时候」来定义的，那么时机规则已经替你把类型选好了。",
+          "flavor": "为对手回合而做的牌（Siren's Call）、或者只能在战斗中用的牌（Angelic Favor），只能以瞬间牌的形式存在，因为那些时机窗口是规则专门留给瞬间牌的。「这些牌按默认就必须是瞬间牌。」"
+        },
+        {
+          "title": "把空着的格子也记下来",
+          "rules": "在盘点「一样东西可以放到哪里」时，把那些还没人用过的去处也记上一笔。一个空着的类别是一份长期有效的邀请，而不是「那里放不下任何东西」的证明。",
+          "flavor": "「战斗阶段被用得很多，回合结束步骤则不然。据我所知，Necrologia 是有史以来唯一一张把使用时机限定在这一步的牌。」至于维持步骤：「我相信被限定在它上面的咒语数量是零。我把它列在这里，是因为它总有一天可能会被用上。」"
+        },
+        {
+          "title": "要打断，就得有一个可供打断的窗口",
+          "rules": "有一整类效果，全靠「能在另一件事悬而未决时动手」才成立。把那个窗口拿掉，这一类并不会变弱——它会直接不复存在。",
+          "flavor": "「法术只能在你的主要阶段、当你拥有优先权且堆叠为空时使用。」所以任何以堆叠为目标的东西都必须是瞬间牌。「法术速度的反击咒语根本行不通（别管幕布后头那张 Mystic Denial）。」"
+        },
+        {
+          "title": "互动性是吃过苦头才学会的",
+          "rules": "一个双人系统里最重要的那件事，也许就是「两个人同时都在做点什么」。而这一课，通常是靠亲眼看见它缺席时会发生什么才学到的。",
+          "flavor": "「过去五年里研发部学到的最关键的一课，是互动性的重要。如果玩家之间没有互动，这个游戏就是没那么好玩。」于是他们削减了高速组合技套牌的关键零件，「以避免出现两个玩家各自坐着打单人纸牌的对局」。而不含瞬间牌的《门户》，恰好展示了那个替代方案长什么样。"
+        },
+        {
+          "title": "为那声「抓到你了」而设计",
+          "rules": "某个人自以为稳赢、结果发现不是那么回事的那一刻，并不是副产品——它是要专门去建造的东西。隐藏信息之所以存在，就是为了让这一刻成为可能。",
+          "flavor": "「很多游戏设计师相信，那种『抓到你了』的瞬间对游戏设计至关重要。这正是大多数游戏都带着隐藏信息来设计的原因：好让玩家有能力互相出其不意。」「你的对手做出了一次他自认为聪明的阻挡，而你可以笑得很开心地把巨大化亮出来。」"
+        },
+        {
+          "title": "在知道之前，别先押注",
+          "rules": "有些工具一旦提前用掉，价值就所剩无几。如果「怎么选才对」取决于一份尚未到来的信息，那这件工具就必须能在信息到达之后再用。",
+          "flavor": "「当然，你可以用法术的形式先架起一面防伤盾，但那多少就错过了重点。在你知道到底什么东西即将受到伤害之前，你其实并不想把防伤用掉。」"
+        },
+        {
+          "title": "「更快」是一个设计位置，而不只是速度",
+          "rules": "能先动手，就制造出了一种次序；而有些效果只有作为「抢在它所回应之物之前落地的回应」才说得通。这是架构上的要求，不是图个方便。",
+          "flavor": "「瞬间牌本质上可以被打出来，好让它抢在另一个咒语『发动』之前发生。当你有个咒语需要先于第一个咒语结算时，这一点就很重要。保护和重生都是这一类的好例子。」"
+        },
+        {
+          "title": "新手的反射动作，是把一切都做成灵活的",
+          "rules": "灵活性看起来是免费的：让一样东西能在更多时刻使用，怎么想都只会增加价值。而这套推理，正是整个类别里被滥用得最凶的一招。",
+          "flavor": "「我认为这一类是被滥用得最频繁的……新手设计师常犯的一个错误，就是把每一个咒语都做成瞬间牌。背后的想法是：把咒语做成瞬间牌，就扩大了它们能在何时、以何种方式被使用。」"
+        },
+        {
+          "title": "是「承诺」让抉择变得真实",
+          "rules": "一个可以无限期推迟的选择，根本不算选择。系统必须制造出这样一些时刻：你得规划、得下注、然后得承担后果——同时又仍然给临场应变留着余地。",
+          "flavor": "「一个好游戏必须逼着玩家走到那些岔路口上：他们得提前思考、定下路线，然后为这个决定承担后果。如果每张牌在任何时候都能打，你就永远造不出这些岔路口。话虽如此，如果玩家永远没有临场调整的能力，这个游戏同样会受损。这里需要的是一个微妙的平衡。」"
+        },
+        {
+          "title": "检验标准是：使用时机会不会变",
+          "rules": "灵活性只有在真的被行使时才划算。如果一样东西每次都在同一个时刻被用掉，那么它「还能在别处用」的自由就只是装饰——而这份装饰是可以拿去换别的东西的。",
+          "flavor": "「这些是像电震那样、想在许多不同时刻被打出来的牌。而那些永远在对手回合结束时才打的牌——比如抓牌——做成法术会是更好的设计。」"
+        },
+        {
+          "title": "更好的设计，而不是最大的好用",
+          "rules": "「用起来方便」和「系统的品质」是两根不同的轴，而它们可能指向相反的方向。当它们真的相反时，那份请求就该落败——而把这件事明说出来，也是这份工作的一部分。",
+          "flavor": "「请注意，我在这里区分的是『什么让设计更好』和『什么对玩家更有用』。设计这行难的地方之一，就在于你必须去造这个游戏需要的东西，而不总是玩家想要的东西。」"
+        },
+        {
+          "title": "整组可以压过那条规矩",
+          "rules": "当几件东西本来就是要被当成一组来读的时候，「和这一组对得上」本身就是一条要求。为了让整个排列站得住，在其中一件上破掉一条类别惯例，有时是值得的。",
+          "flavor": "弃牌通常是法术速度，但 Funeral Charm 那个循环里另外四张符咒——以及它自己另外两个异能——都想让它是瞬间牌。「于是我们开了个例外，做出了一张瞬间速度的弃牌咒语。」"
+        },
+        {
+          "title": "速度也是那些旋钮之一",
+          "rules": "对于一个你会不断印出来的效果，「时机限制」是一个可以为了多样性而拧动的变量。刻意地拧那么一次，能造出新鲜感，又不动摇那个默认值。",
+          "flavor": "「比如说，神之愤怒那一类的牌永远是法术；但有那么一个系列，我们觉得做一张『能在可以使用瞬间牌时使用』的版本会很有意思。」于是有了《入侵》的那个循环：Rout、Breaking Wave、Twilight's Call、Ghitu Fire、Saproling Symbiosis。"
+        },
+        {
+          "title": "速度本身就可以是那份压力",
+          "rules": "改变一件事「可以在什么时候发生」，就改变了对面必须留着什么不动。有时候重点根本不在那个效果上，而在于对手从此得为防它而付出的那些资源。",
+          "flavor": "一张摧毁所有海岛的法术，是可以被直接反击掉的。「把它做成瞬间牌之后，我们就得以给蓝色额外施压：它现在只要一把法术力用光就得提心吊胆——哪怕是在对手回合结束时，也就是它平时干大部分脏活的那个时段。」"
+        }
+      ]
+    }
+  }
+}
