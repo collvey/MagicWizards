@@ -1,0 +1,398 @@
+{
+  "id": "baby-stories-2003-11-03",
+  "slug": "baby-stories-2003-11-03",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2003-11-03",
+  "series": null,
+  "tags": ["mirrodin", "playtest", "equipment", "affinity", "design-process"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/baby-stories-2003-11-03",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-27T11:00:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "G" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "W" },
+    { "n": 10, "color": "R" },
+    { "n": 11, "color": "G" },
+    { "n": 12, "color": "U" },
+    { "n": 13, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Baby Stories",
+      "dek": "Mirrodin's very first playtest file, read card by card — the commons-only build, before anything had settled into what shipped.",
+      "overview": "Opens with R&D solving a twenty-five-clue cupcake puzzle to learn he's having twins, then turns to a set in its infancy. Most design columns show you a set at handoff; this one shows the first session.",
+      "takeaway": "Equipment originally had five colour-coded subtypes, and armour always returned to your hand when the creature died. \"It was this flavor of reusable equipment that later led us down the path that ended up with the current equipment.\"",
+      "lessons": [
+        {
+          "title": "Start with the commons",
+          "rules": "The first playtest of a set can be commons only, because that's what determines whether the environment functions at all. Everything above common is variation on a base that has to work first.",
+          "flavor": "\"Different designers work differently, but I'm a big fan of starting with the commons as they're the backbone of the limited experience.\" The point of the session was to get a feel for how the set worked at a basic level."
+        },
+        {
+          "title": "Five subtypes, one per colour",
+          "rules": "An early structural idea can organise a whole category before being abandoned. Tying each equipment subtype to a colour gave every piece a natural home and a flavour, at the cost of a lot of vocabulary.",
+          "flavor": "Armor was white — anything worn. Runes were blue — written objects, scrolls and books. Weapons were black. Potions were red — anything you drank. And Items were green, the catchall."
+        },
+        {
+          "title": "The theme outlived the system",
+          "rules": "When scaffolding is removed, some of what it supported can stay. A creature that got better while equipped made sense under the subtype scheme and made just as much sense after it.",
+          "flavor": "Armor Master, a 2/1 that got +2/+2 while equipped with armour, existed because white was the armour colour. \"Note that it wasn't until development that the boosted by equipment theme was cemented in white.\""
+        },
+        {
+          "title": "A mechanic can be right and still be in the wrong place",
+          "rules": "Alternate activation costs were tried on coloured cards before being confined to artifacts. What settled it was a measurement: the gap between the two costs has to be wide enough to make the choice interesting.",
+          "flavor": "\"By mid-design, we figured out that the two costs had to be further apart than one mana to be interesting, so we decided to just put them on artifacts.\""
+        },
+        {
+          "title": "Developers narrowed it during design",
+          "rules": "Development playtesting alongside design catches scope problems early. Affinity was tried across several colours and cut back for power reasons — and the team then found a second reason to like the constraint.",
+          "flavor": "Affinity appeared in white and black as well as blue. \"The developers… convinced the design team that the affinity mechanic, for power reasons, needed to be kept to a minimum number of cards. In addition, we liked the idea of the mechanic focusing on a single color.\""
+        },
+        {
+          "title": "Costs move, reliably, in one direction",
+          "rules": "Design consistently prices its own cards too cheaply, which is exactly why the two functions are separated. The correction is routine rather than exceptional.",
+          "flavor": "Somber Hoverguard cost one less for the entire design. So did Thoughtcast. \"You can begin to see why we separate R&D into designers and developers.\""
+        },
+        {
+          "title": "Abilities migrate as space is discovered",
+          "rules": "A card's colour is a working hypothesis. When one colour turns out to have more room for a category, the individual cards get redistributed — and are trimmed to fit their new home.",
+          "flavor": "Auriok Transfixer started blue, because blue had more design space for artifact-friendly cards. Moving it to white meant losing \"or untap\" to fit white's section of the colour pie."
+        },
+        {
+          "title": "The first build overshoots the theme",
+          "rules": "An early file about a subject tends to contain far too much of the obvious response to it. Discovering the right quantity is a later job than discovering the direction.",
+          "flavor": "\"You think Mirrodin has a lot of artifact hate? You should have seen the first playtest.\" Explosive Goblin destroyed an artifact when it died; Rustmouth Ogre began as a green common; Crumble was there too."
+        },
+        {
+          "title": "Placeholder names describe",
+          "rules": "Names in an early file exist to identify a card across a table, not to evoke anything. That makes them the plainest available statement of what a designer thought the card was.",
+          "flavor": "\"The early playtest names tend to tell it like it is.\" Fixed Pixies. Spuzzy Bugger. Artifact Lover. Go Fish. Send 'em Farming. Tel-Jilad Chosen is, in his words, just a cleaned-up Argothian Pixies."
+        },
+        {
+          "title": "Some arrive finished, some come full circle",
+          "rules": "Two opposite outcomes worth noticing. A card can appear in the first session exactly as it will be printed — or go through eight revisions and end up back at the original.",
+          "flavor": "Artifact Lover became Myr Enforcer with nothing changed. Clay Soldier \"went through seven or eight changes. It's ironic that the card ended up right back where we started. (Okay, with one added activated ability.)\""
+        },
+        {
+          "title": "One card can become a theme",
+          "rules": "A single design that plays unusually well is evidence about a direction, not just about itself. The response is to widen it and place it where it belongs.",
+          "flavor": "Squire Gnome was the only creature in the first design enhanced by any equipment. \"The card worked out so well — and trust me, this version was a beating in limited — that we later chose to expand the theme and move it to white.\""
+        },
+        {
+          "title": "The discarded fix pointed at the real one",
+          "rules": "Equipment had to beat creature enchantments, and the first attempt gave each subtype an ability that worked around the weakness of a localised permanent. That instinct survived its implementation.",
+          "flavor": "Armour always returned to your hand when the creature died. \"It was this flavor of reusable equipment that later led us down the path that ended up with the current equipment.\" At this stage equipment still worked exactly like creature enchantments."
+        },
+        {
+          "title": "The record has holes in it",
+          "rules": "Not every deletion leaves a reason behind. An honest account of a file includes the entries where the writer no longer knows why something was cut.",
+          "flavor": "On Cubic Zirconium: \"I forget why this card got killed but I assume it was for one of two reasons: 1) It was super weak and ultra lame or 2) It was broken.\""
+        }
+      ]
+    },
+    "es": {
+      "title": "Historias de bebé",
+      "dek": "El primerísimo archivo de pruebas de Mirrodin, leído carta por carta: la versión solo de comunes, antes de que nada se hubiera asentado en lo que se publicó.",
+      "overview": "Abre con I+D resolviendo un acertijo de veinticinco pistas repartido en magdalenas para descubrir que va a tener gemelos, y luego pasa a una colección en su infancia. La mayoría de las columnas de diseño te enseñan una colección en el traspaso; esta te enseña la primera sesión.",
+      "takeaway": "Al principio el equipo tenía cinco subtipos con código de color, y la armadura siempre volvía a tu mano cuando la criatura moría. «Fue ese sabor de equipo reutilizable el que después nos llevó por el camino que acabó en el equipo actual».",
+      "lessons": [
+        {
+          "title": "Empieza por las comunes",
+          "rules": "La primera prueba de una colección puede ser solo de comunes, porque son las que determinan si el entorno funciona siquiera. Todo lo que está por encima de común es variación sobre una base que primero tiene que funcionar.",
+          "flavor": "«Cada diseñador trabaja distinto, pero yo soy muy partidario de empezar por las comunes, porque son la columna vertebral de la experiencia de limitado». El objetivo de la sesión era hacerse una idea de cómo funcionaba la colección a nivel básico."
+        },
+        {
+          "title": "Cinco subtipos, uno por color",
+          "rules": "Una idea estructural temprana puede organizar toda una categoría antes de ser abandonada. Atar cada subtipo de equipo a un color daba a cada pieza un hogar natural y un sabor, al coste de mucho vocabulario.",
+          "flavor": "Armadura era blanco: cualquier cosa que se lleve puesta. Runas era azul: objetos escritos, pergaminos y libros. Armas era negro. Pociones era rojo: cualquier cosa que se beba. Y Objetos era verde, el cajón de sastre."
+        },
+        {
+          "title": "El tema sobrevivió al sistema",
+          "rules": "Cuando se retira el andamiaje, parte de lo que sostenía puede quedarse. Una criatura que mejoraba al estar equipada tenía sentido bajo el esquema de subtipos y lo tenía igual después.",
+          "flavor": "Armor Master, un 2/1 que ganaba +2/+2 mientras llevara armadura, existía porque el blanco era el color de la armadura. «Nótese que el tema de “mejorado por el equipo” no se consolidó en blanco hasta desarrollo»."
+        },
+        {
+          "title": "Una mecánica puede ser correcta y estar en el sitio equivocado",
+          "rules": "Los costes de activación alternativos se probaron en cartas de color antes de confinarse a los artefactos. Lo que lo decidió fue una medida: la distancia entre los dos costes tiene que ser lo bastante ancha como para que la elección resulte interesante.",
+          "flavor": "«A mitad del diseño descubrimos que los dos costes tenían que estar separados por más de un maná para ser interesantes, así que decidimos ponerlos solo en artefactos»."
+        },
+        {
+          "title": "Desarrollo lo estrechó durante el diseño",
+          "rules": "Que desarrollo pruebe en paralelo al diseño detecta pronto los problemas de alcance. La afinidad se probó en varios colores y se recortó por razones de potencia, y entonces el equipo encontró una segunda razón para apreciar la restricción.",
+          "flavor": "La afinidad apareció en blanco y negro además de en azul. «Los desarrolladores… convencieron al equipo de diseño de que la mecánica de afinidad, por razones de potencia, debía mantenerse en un número mínimo de cartas. Además, nos gustaba la idea de que la mecánica se concentrara en un solo color»."
+        },
+        {
+          "title": "Los costes se mueven, y siempre en la misma dirección",
+          "rules": "El diseño valora sistemáticamente sus propias cartas por debajo de lo debido, que es exactamente la razón de separar ambas funciones. La corrección es rutina, no excepción.",
+          "flavor": "Somber Hoverguard costó un maná menos durante todo el diseño. Thoughtcast también. «Empezáis a ver por qué separamos I+D en diseñadores y desarrolladores»."
+        },
+        {
+          "title": "Las habilidades migran a medida que se descubre el espacio",
+          "rules": "El color de una carta es una hipótesis de trabajo. Cuando resulta que un color tiene más sitio para cierta categoría, las cartas concretas se redistribuyen y se recortan para encajar en su nuevo hogar.",
+          "flavor": "Auriok Transfixer empezó azul, porque el azul tenía más espacio de diseño para cartas amigas de los artefactos. Pasarla a blanco supuso perder el «o endereza» para encajar en la sección blanca de la rueda de color."
+        },
+        {
+          "title": "La primera versión se pasa con el tema",
+          "rules": "Un archivo temprano sobre un asunto suele contener demasiado de la respuesta obvia a ese asunto. Descubrir la cantidad correcta es una tarea posterior a descubrir la dirección.",
+          "flavor": "«¿Te parece que Mirrodin tiene mucho odio a los artefactos? Deberías haber visto la primera prueba». Explosive Goblin destruía un artefacto al morir; Rustmouth Ogre empezó como común verde; Crumble también estaba allí."
+        },
+        {
+          "title": "Los nombres provisionales describen",
+          "rules": "Los nombres de un archivo temprano existen para identificar una carta sobre la mesa, no para evocar nada. Eso los convierte en la declaración más llana de lo que el diseñador creía que era la carta.",
+          "flavor": "«Los nombres de las pruebas tempranas tienden a decir las cosas como son». Fixed Pixies. Spuzzy Bugger. Artifact Lover. Go Fish. Send 'em Farming. Tel-Jilad Chosen es, en sus palabras, un Argothian Pixies puesto en limpio."
+        },
+        {
+          "title": "Algunas llegan terminadas, otras dan la vuelta completa",
+          "rules": "Dos desenlaces opuestos dignos de nota. Una carta puede aparecer en la primera sesión exactamente como se imprimirá, o pasar por ocho revisiones y acabar en el punto de partida.",
+          "flavor": "Artifact Lover se convirtió en Myr Enforcer sin cambiar nada. Clay Soldier «pasó por siete u ocho cambios. Es irónico que la carta acabara justo donde empezamos. (Vale, con una habilidad activada añadida)»."
+        },
+        {
+          "title": "Una carta puede convertirse en tema",
+          "rules": "Un solo diseño que juega inusualmente bien es una prueba sobre una dirección, no solo sobre sí mismo. La respuesta es ensancharlo y colocarlo donde corresponde.",
+          "flavor": "Squire Gnome era la única criatura del primer diseño mejorada por cualquier equipo. «La carta funcionó tan bien —y creedme, esta versión era una paliza en limitado— que después decidimos expandir el tema y moverlo a blanco»."
+        },
+        {
+          "title": "El arreglo descartado señalaba al bueno",
+          "rules": "El equipo tenía que superar a los encantamientos de criatura, y el primer intento dio a cada subtipo una habilidad que sorteaba la debilidad de un permanente localizado. Ese instinto sobrevivió a su implementación.",
+          "flavor": "La armadura siempre volvía a tu mano cuando la criatura moría. «Fue ese sabor de equipo reutilizable el que después nos llevó por el camino que acabó en el equipo actual». En esa fase el equipo aún funcionaba exactamente igual que los encantamientos de criatura."
+        },
+        {
+          "title": "El registro tiene agujeros",
+          "rules": "No toda eliminación deja atrás un motivo. Un relato honesto de un archivo incluye las entradas en las que quien escribe ya no sabe por qué se cortó algo.",
+          "flavor": "Sobre Cubic Zirconium: «Se me ha olvidado por qué mataron esta carta, pero supongo que fue por una de dos razones: 1) era superdébil y ultrapenosa, o 2) estaba rota»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Histoires de bébé",
+      "dek": "Le tout premier fichier de test de Mirrodin, lu carte par carte : la version uniquement communes, avant que quoi que ce soit ne se soit fixé dans ce qui a paru.",
+      "overview": "S'ouvre sur la R&D résolvant une énigme à vingt-cinq indices distribuée sur des cupcakes pour apprendre qu'il attend des jumeaux, puis passe à une extension en bas âge. La plupart des chroniques montrent une extension à la livraison ; celle-ci montre la première séance.",
+      "takeaway": "L'équipement avait d'abord cinq sous-types associés aux couleurs, et l'armure revenait toujours en main à la mort de la créature. « C'est cette idée d'équipement réutilisable qui nous a ensuite menés au chemin aboutissant à l'équipement actuel. »",
+      "lessons": [
+        {
+          "title": "Commencez par les communes",
+          "rules": "Le premier test d'une extension peut ne comporter que des communes, car ce sont elles qui décident si l'environnement fonctionne. Tout ce qui est au-dessus n'est qu'une variation sur une base qui doit d'abord tenir.",
+          "flavor": "« Chaque concepteur travaille autrement, mais je suis très partisan de commencer par les communes, car elles sont l'ossature de l'expérience en limité. » L'objet de la séance était de sentir comment l'extension fonctionnait au niveau élémentaire."
+        },
+        {
+          "title": "Cinq sous-types, un par couleur",
+          "rules": "Une idée structurelle précoce peut organiser toute une catégorie avant d'être abandonnée. Attacher chaque sous-type d'équipement à une couleur donnait à chaque pièce un foyer naturel et une ambiance, au prix de beaucoup de vocabulaire.",
+          "flavor": "Armure était blanche — tout ce qui se porte. Runes était bleu — objets écrits, parchemins et livres. Armes était noir. Potions était rouge — tout ce qui se boit. Et Objets était vert, la catégorie fourre-tout."
+        },
+        {
+          "title": "Le thème a survécu au système",
+          "rules": "Quand on retire l'échafaudage, une partie de ce qu'il soutenait peut rester. Une créature qui s'améliore une fois équipée avait du sens sous le régime des sous-types, et en avait tout autant après.",
+          "flavor": "Armor Master, une 2/1 gagnant +2/+2 tant qu'elle portait une armure, existait parce que le blanc était la couleur de l'armure. « Notez que ce n'est qu'au développement que le thème “amélioré par l'équipement” s'est fixé dans le blanc. »"
+        },
+        {
+          "title": "Une mécanique peut être juste et mal placée",
+          "rules": "Les coûts d'activation alternatifs ont été essayés sur des cartes colorées avant d'être réservés aux artefacts. Ce qui a tranché, c'est une mesure : l'écart entre les deux coûts doit être assez large pour rendre le choix intéressant.",
+          "flavor": "« À mi-conception, nous avons compris que les deux coûts devaient être séparés par plus d'un mana pour être intéressants ; nous avons donc décidé de ne les mettre que sur des artefacts. »"
+        },
+        {
+          "title": "Le développement l'a resserrée pendant la conception",
+          "rules": "Faire tester le développement en parallèle de la conception révèle tôt les problèmes d'ampleur. L'affinité a été essayée sur plusieurs couleurs puis réduite pour des raisons de puissance — et l'équipe a alors trouvé une seconde raison d'aimer la contrainte.",
+          "flavor": "L'affinité figurait aussi en blanc et en noir. « Les développeurs… ont convaincu l'équipe de conception que la mécanique d'affinité, pour des raisons de puissance, devait rester sur un nombre minimal de cartes. De plus, l'idée de la concentrer sur une seule couleur nous plaisait. »"
+        },
+        {
+          "title": "Les coûts bougent, toujours dans le même sens",
+          "rules": "La conception sous-évalue systématiquement ses propres cartes, ce qui est précisément pourquoi les deux fonctions sont séparées. La correction est routinière, non exceptionnelle.",
+          "flavor": "Le Somber Hoverguard a coûté un mana de moins pendant toute la conception. Le Thoughtcast aussi. « Vous commencez à voir pourquoi nous séparons la R&D en concepteurs et développeurs. »"
+        },
+        {
+          "title": "Les capacités migrent à mesure qu'on découvre l'espace",
+          "rules": "La couleur d'une carte est une hypothèse de travail. Quand il s'avère qu'une couleur a plus de place pour une catégorie, les cartes se redistribuent — et sont rognées pour tenir dans leur nouveau foyer.",
+          "flavor": "L'Auriok Transfixer a commencé bleu, le bleu ayant plus d'espace de conception pour les cartes amies des artefacts. Le passer au blanc a coûté le « ou dégagez », pour tenir dans la part blanche de la roue."
+        },
+        {
+          "title": "La première version force le thème",
+          "rules": "Un fichier précoce sur un sujet contient d'ordinaire beaucoup trop de la réponse évidente à ce sujet. Découvrir la bonne quantité vient après avoir découvert la direction.",
+          "flavor": "« Vous trouvez que Mirrodin a beaucoup de haine anti-artefacts ? Vous auriez dû voir le premier test. » L'Explosive Goblin détruisait un artefact en mourant ; le Rustmouth Ogre a débuté en commune verte ; Crumble était là aussi."
+        },
+        {
+          "title": "Les noms provisoires décrivent",
+          "rules": "Les noms d'un fichier précoce servent à identifier une carte sur une table, non à évoquer quoi que ce soit. Ils constituent donc l'énoncé le plus nu de ce que le concepteur croyait que la carte était.",
+          "flavor": "« Les noms des premiers tests disent les choses telles qu'elles sont. » Fixed Pixies. Spuzzy Bugger. Artifact Lover. Go Fish. Send 'em Farming. Le Tel-Jilad Chosen n'est, selon lui, qu'un Argothian Pixies mis au propre."
+        },
+        {
+          "title": "Certaines arrivent finies, d'autres bouclent la boucle",
+          "rules": "Deux issues opposées à relever. Une carte peut apparaître dès la première séance exactement telle qu'elle sera imprimée — ou traverser huit révisions pour revenir à son point de départ.",
+          "flavor": "L'Artifact Lover est devenue Myr Enforcer sans rien changer. Le Clay Soldier « a subi sept ou huit modifications. Ironie : la carte est revenue exactement là où nous avions commencé. (Bon, avec une capacité activée en plus.) »"
+        },
+        {
+          "title": "Une carte peut devenir un thème",
+          "rules": "Un design isolé qui joue exceptionnellement bien est une donnée sur une direction, pas seulement sur lui-même. La réponse consiste à l'élargir et à le placer où il appartient.",
+          "flavor": "Le Squire Gnome était la seule créature du premier design améliorée par n'importe quel équipement. « La carte a si bien marché — et croyez-moi, cette version était une correction en limité — que nous avons ensuite choisi d'étendre le thème et de le déplacer vers le blanc. »"
+        },
+        {
+          "title": "Le correctif écarté indiquait le bon",
+          "rules": "L'équipement devait battre les enchantements de créature ; la première tentative dotait chaque sous-type d'une capacité contournant la faiblesse d'un permanent localisé. Cet instinct a survécu à sa mise en œuvre.",
+          "flavor": "L'armure revenait toujours en main à la mort de la créature. « C'est cette idée d'équipement réutilisable qui nous a ensuite menés au chemin aboutissant à l'équipement actuel. » À ce stade, l'équipement fonctionnait encore exactement comme un enchantement de créature."
+        },
+        {
+          "title": "Le registre est troué",
+          "rules": "Toute suppression ne laisse pas de motif derrière elle. Un compte rendu honnête d'un fichier inclut les entrées dont l'auteur ne sait plus pourquoi elles ont été coupées.",
+          "flavor": "À propos du Cubic Zirconium : « J'ai oublié pourquoi cette carte a été tuée, mais je suppose que c'est pour l'une de deux raisons : 1) elle était ultra faible et ultra nulle, ou 2) elle était cassée. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Histórias de bebê",
+      "dek": "O primeiríssimo arquivo de teste de Mirrodin, lido carta a carta: a versão só de comuns, antes de qualquer coisa ter assentado no que foi publicado.",
+      "overview": "Abre com a P&D resolvendo um enigma de vinte e cinco pistas distribuído em cupcakes para descobrir que ele vai ter gêmeos, e então passa a uma coleção na infância. A maioria das colunas de design mostra uma coleção na entrega; esta mostra a primeira sessão.",
+      "takeaway": "Equipamento tinha originalmente cinco subtipos com código de cor, e a armadura sempre voltava para a mão quando a criatura morria. «Foi esse sabor de equipamento reutilizável que depois nos levou pelo caminho que terminou no equipamento atual.»",
+      "lessons": [
+        {
+          "title": "Comece pelas comuns",
+          "rules": "O primeiro teste de uma coleção pode ser só de comuns, porque são elas que determinam se o ambiente sequer funciona. Tudo acima de comum é variação sobre uma base que precisa funcionar primeiro.",
+          "flavor": "«Cada designer trabalha de um jeito, mas eu sou muito a favor de começar pelas comuns, porque são a espinha dorsal da experiência de limitado.» O objetivo da sessão era sentir como a coleção funcionava no nível básico."
+        },
+        {
+          "title": "Cinco subtipos, um por cor",
+          "rules": "Uma ideia estrutural precoce pode organizar uma categoria inteira antes de ser abandonada. Amarrar cada subtipo de equipamento a uma cor dava a cada peça um lar natural e um sabor, ao custo de muito vocabulário.",
+          "flavor": "Armadura era branca — qualquer coisa que se veste. Runas era azul — objetos escritos, pergaminhos e livros. Armas era preto. Poções era vermelho — qualquer coisa que se beba. E Itens era verde, a categoria coringa."
+        },
+        {
+          "title": "O tema sobreviveu ao sistema",
+          "rules": "Quando o andaime é removido, parte do que ele sustentava pode ficar. Uma criatura que melhorava enquanto equipada fazia sentido sob o esquema de subtipos e fazia igual sentido depois.",
+          "flavor": "Armor Master, um 2/1 que ganhava +2/+2 enquanto equipado com armadura, existia porque branco era a cor da armadura. «Note que só no desenvolvimento é que o tema de “melhorado por equipamento” se firmou no branco.»"
+        },
+        {
+          "title": "Uma mecânica pode estar certa e no lugar errado",
+          "rules": "Custos de ativação alternativos foram testados em cartas coloridas antes de ficarem restritos aos artefatos. O que decidiu foi uma medida: a distância entre os dois custos precisa ser larga o bastante para a escolha ficar interessante.",
+          "flavor": "«No meio do design, descobrimos que os dois custos precisavam estar separados por mais de um mana para serem interessantes, então decidimos colocá-los apenas em artefatos.»"
+        },
+        {
+          "title": "O desenvolvimento a estreitou durante o design",
+          "rules": "Ter o desenvolvimento testando em paralelo ao design pega problemas de escopo cedo. Afinidade foi testada em várias cores e cortada por razões de poder — e então a equipe achou uma segunda razão para gostar da restrição.",
+          "flavor": "Afinidade apareceu em branco e preto além do azul. «Os desenvolvedores… convenceram a equipe de design de que a mecânica de afinidade, por razões de poder, precisava ficar num número mínimo de cartas. Além disso, gostávamos da ideia de a mecânica se concentrar numa única cor.»"
+        },
+        {
+          "title": "Custos se movem, e sempre na mesma direção",
+          "rules": "O design subprecifica sistematicamente as próprias cartas, e é exatamente por isso que as duas funções são separadas. A correção é rotina, não exceção.",
+          "flavor": "Somber Hoverguard custou um mana a menos durante todo o design. Thoughtcast também. «Vocês começam a ver por que separamos a P&D em designers e desenvolvedores.»"
+        },
+        {
+          "title": "Habilidades migram conforme o espaço é descoberto",
+          "rules": "A cor de uma carta é uma hipótese de trabalho. Quando se descobre que uma cor tem mais espaço para certa categoria, as cartas são redistribuídas — e aparadas para caber na nova casa.",
+          "flavor": "Auriok Transfixer começou azul, porque o azul tinha mais espaço de design para cartas amigas de artefatos. Movê-la para o branco custou o «ou desvire», para caber na fatia branca da roda de cores."
+        },
+        {
+          "title": "A primeira versão exagera no tema",
+          "rules": "Um arquivo inicial sobre um assunto costuma conter demais da resposta óbvia a esse assunto. Descobrir a quantidade certa vem depois de descobrir a direção.",
+          "flavor": "«Você acha que Mirrodin tem muito ódio a artefatos? Você devia ter visto o primeiro teste.» Explosive Goblin destruía um artefato ao morrer; Rustmouth Ogre começou como comum verde; Crumble também estava lá."
+        },
+        {
+          "title": "Nomes provisórios descrevem",
+          "rules": "Os nomes de um arquivo inicial existem para identificar uma carta na mesa, não para evocar nada. Isso os torna a declaração mais crua do que o designer achava que a carta era.",
+          "flavor": "«Os nomes dos testes iniciais tendem a falar as coisas como elas são.» Fixed Pixies. Spuzzy Bugger. Artifact Lover. Go Fish. Send 'em Farming. Tel-Jilad Chosen é, nas palavras dele, só um Argothian Pixies passado a limpo."
+        },
+        {
+          "title": "Algumas chegam prontas, outras dão a volta completa",
+          "rules": "Dois desfechos opostos dignos de nota. Uma carta pode aparecer na primeira sessão exatamente como será impressa — ou passar por oito revisões e terminar de volta no ponto de partida.",
+          "flavor": "Artifact Lover virou Myr Enforcer sem mudar nada. Clay Soldier «passou por sete ou oito mudanças. É irônico que a carta tenha terminado exatamente onde começamos. (Tá, com uma habilidade ativada a mais.)»"
+        },
+        {
+          "title": "Uma carta pode virar um tema",
+          "rules": "Um único design que joga excepcionalmente bem é evidência sobre uma direção, não apenas sobre si mesmo. A resposta é alargá-lo e colocá-lo onde ele pertence.",
+          "flavor": "Squire Gnome era a única criatura do primeiro design melhorada por qualquer equipamento. «A carta funcionou tão bem — e acredite, esta versão era uma surra no limitado — que depois decidimos expandir o tema e movê-lo para o branco.»"
+        },
+        {
+          "title": "O conserto descartado apontava para o certo",
+          "rules": "Equipamento precisava vencer os encantamentos de criatura, e a primeira tentativa deu a cada subtipo uma habilidade que contornava a fraqueza de um permanente localizado. Esse instinto sobreviveu à sua implementação.",
+          "flavor": "A armadura sempre voltava para a mão quando a criatura morria. «Foi esse sabor de equipamento reutilizável que depois nos levou pelo caminho que terminou no equipamento atual.» Nessa fase, equipamento ainda funcionava exatamente como encantamento de criatura."
+        },
+        {
+          "title": "O registro tem buracos",
+          "rules": "Nem toda exclusão deixa um motivo para trás. Um relato honesto de um arquivo inclui as entradas em que quem escreve já não sabe por que algo foi cortado.",
+          "flavor": "Sobre Cubic Zirconium: «Esqueci por que essa carta foi morta, mas presumo que tenha sido por uma de duas razões: 1) era superfraca e ultrasem graça, ou 2) era quebrada.»"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "婴儿期的故事",
+      "dek": "秘罗地最初那份试玩文件，一张一张读下来——只有普通牌的那一版，在任何东西定型成最终产品之前。",
+      "overview": "开篇是研发部靠一个分布在纸杯蛋糕上的二十五条线索谜题，得知他要有一对双胞胎了；随后转向一个尚在襁褓中的系列。多数设计专栏给你看的是交接时的系列；这一篇给你看的是第一场试玩。",
+      "takeaway": "装备最初有五个按颜色划分的子类别，而「护甲」在生物死亡时总会回到你手上。「正是这种『可重复使用的装备』的味道，后来把我们领上了那条通往如今装备规则的路。」",
+      "lessons": [
+        {
+          "title": "从普通牌开始",
+          "rules": "一个系列的第一次试玩可以只用普通牌，因为决定「这个环境到底转不转得起来」的正是它们。普通之上的一切，都是在一个必须先立得住的底座上做变奏。",
+          "flavor": "「不同的设计师做法不同；但我是『从普通牌开始』的坚定拥护者，因为它们是限制赛体验的脊梁。」这场试玩的目的，是感受这个系列在最基础的层面上运作得如何。"
+        },
+        {
+          "title": "五个子类别，一色一个",
+          "rules": "一个早期的结构性想法，可以在被放弃之前先把一整个类别组织起来。把每个装备子类别绑到一个颜色上，给了每件装备一个天然的归属和一份风味——代价是大量的新词汇。",
+          "flavor": "护甲属白色——一切穿在身上的东西。符文属蓝色——书写之物，卷轴与书册。武器属黑色。药水属红色——一切喝下去的东西。而器物属绿色，是那个包罗万象的兜底类别。"
+        },
+        {
+          "title": "主题活得比系统更久",
+          "rules": "当脚手架被拆掉时，它撑起来的东西可能有一部分留了下来。一个「装备之后会变强」的生物，在子类别体系之下说得通；在体系没了之后，同样说得通。",
+          "flavor": "护甲大师是一个 2/1，装备护甲时得 +2/+2；它之所以存在，是因为白色是护甲的颜色。「注意：直到开发阶段，『因装备而增益』这个主题才在白色里定了下来。」"
+        },
+        {
+          "title": "一条机制可以是对的，却待在错的地方",
+          "rules": "替代启动费用先是在有色牌上被试过，然后才被限定到神器上。做出裁决的是一个量度：两个费用之间的差距，必须宽到足以让那个选择变得有意思。",
+          "flavor": "「到设计中期我们弄明白了：两个费用之间必须相差超过一点法术力才有意思，于是我们决定干脆只把它们放在神器上。」"
+        },
+        {
+          "title": "开发部在设计阶段就把它收窄了",
+          "rules": "让开发与设计并行试玩，能及早抓住「范围」上的问题。亲和曾在好几个颜色上被试过，出于强度原因被砍回来——而团队随后又找到了喜欢这道约束的第二个理由。",
+          "flavor": "亲和当时不只在蓝色，白色和黑色里也有。「开发人员……说服了设计团队：出于强度上的原因，亲和这条机制必须被限制在最少数量的牌上。此外，我们也喜欢让这条机制集中在单一颜色的想法。」"
+        },
+        {
+          "title": "费用会动，而且总是朝同一个方向",
+          "rules": "设计会系统性地把自己的牌定得太便宜；而这恰恰就是把这两项职能分开的原因。这种修正是常规，而不是例外。",
+          "flavor": "在整个设计阶段，阴郁悬浮卫都便宜一点法术力。心灵铸像也是。「你们开始明白我们为什么要把研发部分成设计师和开发人员了吧。」"
+        },
+        {
+          "title": "随着空间被发现，异能会迁徙",
+          "rules": "一张牌的颜色是一个工作假设。当某个颜色被发现对某一类东西有更多空间时，具体的牌就会被重新分配——并且会被修剪，好塞进它的新家。",
+          "flavor": "金鸦定身师最初是蓝色的，因为蓝色对「与神器友好的牌」有更多设计空间。而把它挪到白色，代价是去掉「或重置」，好塞进白色在色轮上的那一块。"
+        },
+        {
+          "title": "第一版会把主题做过头",
+          "rules": "一份关于某个题目的早期文件，通常会装进太多「对这个题目最显而易见的回应」。找到正确的分量，是比找到方向更晚的一项工作。",
+          "flavor": "「你觉得秘罗地里针对神器的仇恨牌已经很多了？你真该看看第一次试玩。」爆破鬼怪死亡时会摧毁一个神器；锈口食人魔最初是一张绿色普通牌；崩解也在里头。"
+        },
+        {
+          "title": "占位用的名字是在描述",
+          "rules": "早期文件里的名字，存在的目的是让人在牌桌上认出这张牌，而不是唤起什么。这让它们成了「设计师当时认为这张牌是什么」最直白的一份陈述。",
+          "flavor": "「早期试玩的名字往往是有一说一。」修好的精灵。毛躁小子。神器爱好者。钓鱼去。送他下地干活。用他的话说，泰吉拉的选民不过就是把亚苟斯小精灵擦干净了而已。"
+        },
+        {
+          "title": "有的一来就是成品，有的绕了一整圈",
+          "rules": "两种相反的结局都值得留意。一张牌可以在第一场试玩里就以最终付印的样子出现；也可以经过八次修改，最后回到原点。",
+          "flavor": "神器爱好者变成米尔执行者，一个字没改。而黏土士兵「经历了七八次改动。讽刺的是，这张牌最后正好回到了我们出发的地方。（好吧，多了一个启动式异能。）」"
+        },
+        {
+          "title": "一张牌可以长成一个主题",
+          "rules": "一个打起来格外好的单独设计，是关于一个「方向」的证据，而不只是关于它自己。相应的做法是把它拓宽，并放到它该在的地方去。",
+          "flavor": "侍从地精是第一版设计里唯一一个「装上任何装备都会变强」的生物。「这张牌效果好得出奇——相信我，那个版本在限制赛里是一顿胖揍——所以我们后来选择把这个主题扩展开，并挪到白色。」"
+        },
+        {
+          "title": "被丢掉的那个方案，指向了真正的方案",
+          "rules": "装备必须比生物结界更好；而第一次尝试的做法，是给每个子类别一个能绕开「局部永久物之脆弱」的异能。这份直觉活得比它的具体实现更久。",
+          "flavor": "护甲在生物死亡时总会回到你手上。「正是这种『可重复使用的装备』的味道，后来把我们领上了那条通往如今装备规则的路。」而在那个阶段，装备的运作方式还和生物结界完全一样。"
+        },
+        {
+          "title": "记录是有窟窿的",
+          "rules": "不是每一次删除都会留下一个理由。一份关于某个文件的诚实叙述，会包含那些「写的人自己也已经不知道为什么被砍掉」的条目。",
+          "flavor": "关于立方氧化锆：「我忘了这张牌是为什么被杀掉的，但我猜是两个理由之一：一、它超级弱、烂得离谱；二、它破了。」"
+        }
+      ]
+    }
+  }
+}
