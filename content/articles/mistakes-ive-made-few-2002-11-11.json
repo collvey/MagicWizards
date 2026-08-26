@@ -1,0 +1,424 @@
+{
+  "id": "mistakes-ive-made-few-2002-11-11",
+  "slug": "mistakes-ive-made-few-2002-11-11",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2002-11-11",
+  "series": null,
+  "tags": ["design-mistakes", "donate", "dream-halls", "rules", "multiplayer"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/mistakes-ive-made-few-2002-11-11",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-28T00:50:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "B" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "R" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "U" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "W" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "R" },
+    { "n": 11, "color": "U" },
+    { "n": 12, "color": "U" },
+    { "n": 13, "color": "G" },
+    { "n": 14, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Mistakes? I've Made a Few",
+      "dek": "Six of his own cards, each named as a mistake and each teaching a different lesson — with the scope of \"mistake\" defined precisely enough to exclude the ones development could have fixed.",
+      "overview": "The clearest catalogue of design failure modes in the column: foreclosing future space, defying the rules, nerfing an idea into nothing, ignoring mana cost, ignoring the tap cost, and forgetting other formats exist.",
+      "takeaway": "\"Success may bring you acclaim, but mistakes bring you knowledge.\"",
+      "lessons": [
+        {
+          "title": "State the ratio",
+          "rules": "Publishing how often the work fails sets the terms for everything that follows. Twenty failures per success is a fact about the process, not an apology for it.",
+          "flavor": "\"We make mistakes. Lots and lots of mistakes. For every success, I'd say we make twenty cards that fail miserably. Many of those cards are caught during design itself. And luckily there's an entire development team there to catch the ones we miss. But even the developers can't catch them all.\""
+        },
+        {
+          "title": "Novel ground has no precedent to warn you",
+          "rules": "Errors cluster where nobody has been, because the usual defence — recognising a familiar shape — isn't available. That makes some proportion of failure a cost of exploring rather than evidence of carelessness.",
+          "flavor": "\"Mistakes are a crucial part of the creative process. Part of innovation is exploring virgin areas of design space. New problems are hard to identify as you can't use past history to catch them.\""
+        },
+        {
+          "title": "Own them without regretting them",
+          "rules": "You can call something a mistake and still say you'd do it again. Those are different claims, and running them together is what stops people admitting anything.",
+          "flavor": "\"I'm not upset that I made the cards on this list. Hell, many of them I'm proud of. And if I could turn back time, most of them I'd do again… Success may bring you acclaim, but mistakes bring you knowledge.\""
+        },
+        {
+          "title": "Define which failures you're counting",
+          "rules": "A post-mortem needs a boundary or it becomes a list of everything that went wrong. If a downstream stage could have fixed it by adjusting numbers, it belongs to that stage.",
+          "flavor": "\"This column is about design mistakes not development mistakes. Power level is a development issue. Flametongue Kavu, for example, was too good. But this isn't a design issue. Turn him from a 4/2 to a 3/2… and he's probably okay. Design problems go deeper than adding a mana or slightly shifting the card power.\""
+        },
+        {
+          "title": "Every card answers two questions",
+          "rules": "The obvious question is what this does to the situation now. The one people skip is what it does to everything you might want to make later.",
+          "flavor": "\"Whenever we design a card, we have to live with two things. One, what effect will it have on the various environments? And two, what effect will it have on future design?\""
+        },
+        {
+          "title": "The cost was the foreclosed space",
+          "rules": "Something can be balanced in play and still be a mistake, because its existence makes a whole category of future work unsafe. Weigh the one item against everything it stops you building.",
+          "flavor": "Donate turns any powerful-spell-with-a-dangerous-upkeep into a two-card kill. \"Donate's existence requires us to be more cautious on dangerous upkeeps. Is that trade-off worth it? Should the game have less dangerous upkeep cards so that Donate can stay in the environment? I think the answer is no… The mistake of Donate was that the existence of one card cut off an interesting design area capable of making numerous other cards.\""
+        },
+        {
+          "title": "Persistence can beat judgement",
+          "rules": "Outlasting the people who keep rejecting your idea isn't the same as convincing them. Getting your way by attrition is a real risk of caring a lot about one thing.",
+          "flavor": "Donate was cut from Tempest for being too weak. \"For years we played a game where I would stick the card in design and development would remove it. Then during Urza's Destiny, the development team decided that I was too stubborn to ever give up (and they were right) and just let it stay.\""
+        },
+        {
+          "title": "No single piece outranks the rules",
+          "rules": "Fighting to stretch a system is legitimate; forcing it somewhere it can't go is not. The test isn't whether the rules team can make it work — it's whether anyone else can remember how.",
+          "flavor": "Humility's problem is the phrase \"loses all abilities,\" which the rules handle badly. \"As an innovator, I'll fight to stretch the rules or to make new rules, but in the end I respect the fact that the rules are important… Magic design space is immense. We should focus on cards that don't force the rules people to make rules that the rest of you can't understand or, more importantly, remember.\""
+        },
+        {
+          "title": "Baggage kills the idea it was protecting",
+          "rules": "Each restriction added to keep a design safe subtracts from why anyone wanted it. Past a certain point you've preserved the concept and destroyed the appeal — and that's a signal to stop, not to keep patching.",
+          "flavor": "Duplicity started as a format where players alternate between two hands. Letting the player choose which hand turned it into a card drawer, so the cards drawn dropped from seven to five, then an end-of-turn cost was added. \"The card sucked so much that no one played it. Not even the Johnnies… no idea, no matter how cool, stays cool if enough negative baggage is tacked onto it. And if I can't make the card without the baggage, the card isn't worth making.\""
+        },
+        {
+          "title": "Vocabulary gets invented in the room",
+          "rules": "The words a group ends up using for its worst failures often come from one person's exasperation in one meeting. They stick because they carry a feeling no formal term does.",
+          "flavor": "\"This slang came from William Jockusch. During Mirage development, we came across some card that William thought was a problem. To emphasize the point, William stretched out the word 'broken'. It was catchy enough that R&D started using the term whenever cards were very problematic.\""
+        },
+        {
+          "title": "Don't remove your own balancing instrument",
+          "rules": "The knob you use to make dangerous things safe has to keep working. Anything that lets people skip it doesn't just create one strong option — it disables the mechanism for everything else.",
+          "flavor": "\"Mana cost is one of the tools R&D has to balance cards. We like making big nasty creatures… In order to do this, we have to be able to use mana cost as a balance.\" And the result: \"Once Dream Halls is out, the game stops being Magic and turns into some new game where mana is completely irrelevant.\""
+        },
+        {
+          "title": "The same failure on a different axis",
+          "rules": "Once you've identified a class of error, check the other constraints of the same kind. There's usually more than one thing quietly limiting how often something can be done.",
+          "flavor": "\"If Dream Halls ignored mana cost, Mind Over Matter ignores the cost of tapping a card. The fact that cards with a tap symbol can only be used once a turn is important.\" Two lessons: repeated untapping needs monitoring while \"one shots seem okay,\" and such effects \"should at minimum also have a mana cost to use\" rather than being paid for in cards alone."
+        },
+        {
+          "title": "Check it in the other rooms",
+          "rules": "A quantity that's obviously bounded in the context you pictured may not be bounded elsewhere. Test the assumption you didn't notice you were making.",
+          "flavor": "Congregate gives 2 life per creature in play. \"How many creatures can there be in play? Ten? Fifteen? Aha! That's the problem. You're thinking in two-player mode. Imagine a game with eight players.\" The verdict from players who play multiplayer regularly: \"'Ban it in your house rules' too good. The card has single-handedly made many multi-player games not fun.\""
+        },
+        {
+          "title": "Aim for new mistakes",
+          "rules": "The goal of studying failure isn't to stop failing. It's to stop repeating yourself — which means the measure of progress is whether next year's errors are ones you haven't made before.",
+          "flavor": "\"This doesn't mean I won't make more mistakes. I will. My goal is simply to forge into new areas and make brand new mistakes.\" The sign-off: \"May your mistakes require less banning than mine.\""
+        }
+      ]
+    },
+    "es": {
+      "title": "¿Errores? He cometido unos cuantos",
+      "dek": "Seis cartas suyas, cada una señalada como un error y cada una enseñando una lección distinta, con el alcance de «error» definido con precisión suficiente para excluir las que desarrollo podría haber arreglado.",
+      "overview": "El catálogo más claro de modos de fallo del diseño en toda la columna: cerrar espacio futuro, desafiar las reglas, capar una idea hasta la nada, ignorar el coste de maná, ignorar el coste de girar, y olvidar que existen otros formatos.",
+      "takeaway": "«El éxito puede traerte aclamación, pero los errores te traen conocimiento».",
+      "lessons": [
+        {
+          "title": "Publica la proporción",
+          "rules": "Decir con qué frecuencia falla el trabajo fija los términos de todo lo que venga después. Veinte fracasos por éxito es un hecho sobre el proceso, no una disculpa por él.",
+          "flavor": "«Cometemos errores. Montones y montones de errores. Por cada éxito, yo diría que hacemos veinte cartas que fracasan estrepitosamente. Muchas se detectan durante el propio diseño. Y por suerte hay todo un equipo de desarrollo para pillar las que se nos escapan. Pero ni siquiera los desarrolladores pueden pillarlas todas»."
+        },
+        {
+          "title": "El terreno nuevo no tiene precedente que te avise",
+          "rules": "Los errores se acumulan donde nadie ha estado, porque la defensa habitual —reconocer una forma familiar— no está disponible. Eso convierte cierta proporción de fracaso en un coste de explorar, no en prueba de descuido.",
+          "flavor": "«Los errores son una parte crucial del proceso creativo. Parte de la innovación es explorar zonas vírgenes del espacio de diseño. Los problemas nuevos son difíciles de identificar, porque no puedes usar la historia pasada para detectarlos»."
+        },
+        {
+          "title": "Asúmelos sin arrepentirte de ellos",
+          "rules": "Puedes llamar error a algo y aun así decir que volverías a hacerlo. Son afirmaciones distintas, y confundirlas es lo que impide que la gente admita nada.",
+          "flavor": "«No me disgusta haber hecho las cartas de esta lista. Diablos, de muchas estoy orgulloso. Y si pudiera volver atrás en el tiempo, la mayoría las haría de nuevo… El éxito puede traerte aclamación, pero los errores te traen conocimiento»."
+        },
+        {
+          "title": "Define qué fallos estás contando",
+          "rules": "Un post mortem necesita una frontera o se convierte en una lista de todo lo que salió mal. Si una etapa posterior podía arreglarlo ajustando números, pertenece a esa etapa.",
+          "flavor": "«Esta columna va de errores de diseño, no de desarrollo. El nivel de potencia es un asunto de desarrollo. Flametongue Kavu, por ejemplo, era demasiado bueno. Pero no es un problema de diseño. Conviértelo de 4/2 en 3/2… y probablemente está bien. Los problemas de diseño van más hondo que añadir un maná o mover un poco la potencia de la carta»."
+        },
+        {
+          "title": "Toda carta responde a dos preguntas",
+          "rules": "La pregunta obvia es qué le hace esto a la situación actual. La que la gente se salta es qué le hace a todo lo que quizá quieras hacer después.",
+          "flavor": "«Siempre que diseñamos una carta, tenemos que convivir con dos cosas. Una, ¿qué efecto tendrá sobre los distintos entornos? Y dos, ¿qué efecto tendrá sobre el diseño futuro?»"
+        },
+        {
+          "title": "El coste era el espacio clausurado",
+          "rules": "Algo puede estar equilibrado en juego y aun así ser un error, porque su existencia vuelve insegura toda una categoría de trabajo futuro. Pesa esa única pieza contra todo lo que te impide construir.",
+          "flavor": "Donate convierte cualquier hechizo potente con mantenimiento peligroso en un combo letal de dos cartas. «La existencia de Donate nos obliga a ser más cautos con los mantenimientos peligrosos. ¿Merece la pena ese intercambio? ¿Debería el juego tener menos cartas de mantenimiento peligroso para que Donate pueda quedarse? Creo que la respuesta es no… El error de Donate fue que la existencia de una carta cerró un área de diseño interesante capaz de producir muchas otras cartas»."
+        },
+        {
+          "title": "La insistencia puede ganarle al criterio",
+          "rules": "Sobrevivir a quienes rechazan tu idea no es lo mismo que convencerlos. Salirte con la tuya por desgaste es un riesgo real de que algo te importe mucho.",
+          "flavor": "Donate fue cortada de Tempest por débil. «Durante años jugamos a un juego en el que yo metía la carta en diseño y desarrollo la quitaba. Entonces, durante Urza's Destiny, el equipo de desarrollo decidió que yo era demasiado cabezota para rendirme jamás (y tenían razón) y sencillamente la dejaron»."
+        },
+        {
+          "title": "Ninguna pieza está por encima de las reglas",
+          "rules": "Pelear por estirar un sistema es legítimo; forzarlo hacia donde no puede ir, no. La prueba no es si el equipo de reglas puede hacerlo funcionar, sino si alguien más puede recordar cómo.",
+          "flavor": "El problema de Humility es la frase «pierde todas las habilidades», que las reglas manejan mal. «Como innovador, pelearé por estirar las reglas o por crear nuevas, pero al final respeto que las reglas son importantes… El espacio de diseño de Magic es inmenso. Deberíamos centrarnos en cartas que no obliguen a la gente de reglas a crear reglas que el resto no podáis entender o, más importante, recordar»."
+        },
+        {
+          "title": "El lastre mata la idea que protegía",
+          "rules": "Cada restricción añadida para mantener seguro un diseño resta de la razón por la que alguien lo quería. Pasado cierto punto has conservado el concepto y destruido el atractivo; eso es señal de parar, no de seguir parcheando.",
+          "flavor": "Duplicity empezó como un formato donde los jugadores alternan entre dos manos. Dejar elegir qué mano la convirtió en robadora de cartas, así que las cartas robadas bajaron de siete a cinco y se añadió un coste al final del turno. «La carta era tan mala que nadie la jugaba. Ni siquiera los Johnnies… ninguna idea, por chula que sea, sigue siendo chula si le cuelgas suficiente lastre. Y si no puedo hacer la carta sin el lastre, la carta no merece la pena»."
+        },
+        {
+          "title": "El vocabulario se inventa en la sala",
+          "rules": "Las palabras que un grupo acaba usando para sus peores fracasos suelen venir de la exasperación de una persona en una reunión. Cuajan porque transmiten un sentimiento que ningún término formal transmite.",
+          "flavor": "«Esta jerga vino de William Jockusch. Durante el desarrollo de Mirage nos topamos con una carta que a William le pareció problemática. Para enfatizarlo, William alargó la palabra 'rota'. Fue lo bastante pegadizo como para que I+D empezara a usar el término siempre que una carta era muy problemática»."
+        },
+        {
+          "title": "No elimines tu propio instrumento de equilibrio",
+          "rules": "El mando que usas para volver seguras las cosas peligrosas tiene que seguir funcionando. Lo que permite saltárselo no crea solo una opción fuerte: desactiva el mecanismo para todo lo demás.",
+          "flavor": "«El coste de maná es una de las herramientas que I+D tiene para equilibrar cartas. Nos gusta hacer criaturas grandes y desagradables… Para eso, tenemos que poder usar el coste de maná como equilibrio». Y el resultado: «Una vez que Dream Halls está en juego, el juego deja de ser Magic y se convierte en algún juego nuevo donde el maná es completamente irrelevante»."
+        },
+        {
+          "title": "El mismo fallo en otro eje",
+          "rules": "Una vez identificada una clase de error, revisa las demás restricciones del mismo tipo. Suele haber más de una cosa limitando en silencio con qué frecuencia puede hacerse algo.",
+          "flavor": "«Si Dream Halls ignoraba el coste de maná, Mind Over Matter ignora el coste de girar una carta. El hecho de que las cartas con símbolo de girar solo puedan usarse una vez por turno es importante». Dos lecciones: enderezar repetidamente hay que vigilarlo, mientras que «las de un solo uso parecen estar bien», y esos efectos «deberían tener como mínimo también un coste de maná» en vez de pagarse solo con cartas."
+        },
+        {
+          "title": "Compruébalo en las otras salas",
+          "rules": "Una cantidad obviamente acotada en el contexto que imaginaste puede no estarlo en otro. Pon a prueba el supuesto que no te diste cuenta de estar haciendo.",
+          "flavor": "Congregate da 2 vidas por criatura en juego. «¿Cuántas criaturas puede haber en juego? ¿Diez? ¿Quince? ¡Ajá! Ese es el problema. Estás pensando en modo de dos jugadores. Imagina una partida de ocho». El veredicto de quienes juegan multijugador con regularidad: «tan buena que 'prohíbela en tus reglas de casa'. La carta ha estropeado ella sola muchas partidas multijugador»."
+        },
+        {
+          "title": "Apunta a errores nuevos",
+          "rules": "El objetivo de estudiar el fracaso no es dejar de fracasar. Es dejar de repetirte, lo que significa que la medida del progreso es si los errores del año que viene son de los que aún no has cometido.",
+          "flavor": "«Esto no significa que no vaya a cometer más errores. Los cometeré. Mi objetivo es simplemente adentrarme en zonas nuevas y cometer errores completamente nuevos». La despedida: «Que tus errores requieran menos prohibiciones que los míos»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Des erreurs ? J'en ai fait quelques-unes",
+      "dek": "Six de ses propres cartes, chacune désignée comme une erreur et enseignant une leçon différente — avec le périmètre du mot « erreur » défini assez précisément pour exclure celles que le développement aurait pu corriger.",
+      "overview": "Le catalogue le plus clair des modes de défaillance de la conception : fermer l'espace futur, défier les règles, brider une idée jusqu'au néant, ignorer le coût en mana, ignorer le coût d'engagement, et oublier que d'autres formats existent.",
+      "takeaway": "« Le succès peut vous apporter les acclamations, mais les erreurs vous apportent le savoir. »",
+      "lessons": [
+        {
+          "title": "Annoncez le rapport",
+          "rules": "Publier la fréquence des échecs fixe les termes de tout ce qui suit. Vingt échecs pour un succès est un fait sur le processus, pas une excuse.",
+          "flavor": "« Nous faisons des erreurs. Des tas et des tas d'erreurs. Pour chaque réussite, je dirais que nous faisons vingt cartes qui échouent lamentablement. Beaucoup sont repérées pendant la conception elle-même. Et par chance il y a toute une équipe de développement pour attraper celles qui nous échappent. Mais même les développeurs ne peuvent pas tout attraper. »"
+        },
+        {
+          "title": "Le terrain neuf n'a pas de précédent pour vous avertir",
+          "rules": "Les erreurs s'agglutinent là où personne n'est allé, car la défense habituelle — reconnaître une forme familière — n'est pas disponible. Une part de l'échec est donc un coût de l'exploration, non une preuve de négligence.",
+          "flavor": "« Les erreurs sont une part cruciale du processus créatif. L'innovation, c'est en partie explorer des zones vierges de l'espace de conception. Les problèmes nouveaux sont difficiles à repérer, puisqu'on ne peut pas s'appuyer sur l'histoire passée. »"
+        },
+        {
+          "title": "Assumez-les sans les regretter",
+          "rules": "On peut qualifier une chose d'erreur et dire malgré tout qu'on la referait. Ce sont deux affirmations distinctes, et les confondre est ce qui empêche les gens d'admettre quoi que ce soit.",
+          "flavor": "« Je ne regrette pas d'avoir fait les cartes de cette liste. Diable, je suis fier de beaucoup d'entre elles. Et si je pouvais remonter le temps, je referais la plupart… Le succès peut vous apporter les acclamations, mais les erreurs vous apportent le savoir. »"
+        },
+        {
+          "title": "Définissez quels échecs vous comptez",
+          "rules": "Un post-mortem a besoin d'une frontière, sinon il devient la liste de tout ce qui a mal tourné. Si une étape en aval pouvait le corriger en ajustant des nombres, cela relève de cette étape.",
+          "flavor": "« Cette chronique porte sur les erreurs de conception, pas de développement. Le niveau de puissance est une affaire de développement. Flametongue Kavu, par exemple, était trop fort. Mais ce n'est pas un problème de conception. Passez-le de 4/2 à 3/2… et il est sans doute correct. Les problèmes de conception vont plus loin qu'ajouter un mana. »"
+        },
+        {
+          "title": "Chaque carte répond à deux questions",
+          "rules": "La question évidente est ce que cela fait à la situation présente. Celle qu'on saute est ce que cela fait à tout ce que vous pourriez vouloir créer plus tard.",
+          "flavor": "« Chaque fois que nous concevons une carte, nous devons vivre avec deux choses. Un : quel effet aura-t-elle sur les différents environnements ? Et deux : quel effet aura-t-elle sur la conception future ? »"
+        },
+        {
+          "title": "Le coût, c'était l'espace fermé",
+          "rules": "Une chose peut être équilibrée en jeu et rester une erreur, parce que son existence rend toute une catégorie de travaux futurs dangereuse. Pesez l'objet unique contre tout ce qu'il vous empêche de bâtir.",
+          "flavor": "Donate transforme tout sort puissant à entretien dangereux en combo létal à deux cartes. « L'existence de Donate nous oblige à plus de prudence sur les entretiens dangereux. Ce compromis en vaut-il la peine ? Le jeu devrait-il avoir moins de cartes à entretien dangereux pour que Donate puisse rester ? Je pense que non… L'erreur de Donate fut qu'une seule carte a fermé un domaine de conception intéressant, capable de produire de nombreuses autres cartes. »"
+        },
+        {
+          "title": "L'obstination peut battre le jugement",
+          "rules": "Survivre à ceux qui refusent votre idée n'est pas les convaincre. Obtenir gain de cause par usure est un risque réel quand on tient beaucoup à une chose.",
+          "flavor": "Donate fut coupée de Tempest pour faiblesse. « Pendant des années nous avons joué à un jeu : je remettais la carte en conception et le développement la retirait. Puis, pendant Urza's Destiny, l'équipe de développement a décidé que j'étais trop têtu pour jamais renoncer (et ils avaient raison) et l'a simplement laissée. »"
+        },
+        {
+          "title": "Aucune pièce ne prime sur les règles",
+          "rules": "Se battre pour étirer un système est légitime ; le forcer là où il ne peut pas aller ne l'est pas. Le test n'est pas de savoir si l'équipe des règles peut le faire marcher, mais si quelqu'un d'autre peut s'en souvenir.",
+          "flavor": "Le problème d'Humility est la formule « perd toutes ses capacités », que les règles gèrent mal. « En innovateur, je me battrai pour étirer les règles ou en créer de nouvelles, mais au bout du compte je respecte leur importance… L'espace de conception de Magic est immense. Concentrons-nous sur des cartes qui n'obligent pas les gens des règles à écrire des règles que les autres ne peuvent pas comprendre ni, surtout, retenir. »"
+        },
+        {
+          "title": "Le lest tue l'idée qu'il protégeait",
+          "rules": "Chaque restriction ajoutée pour sécuriser une conception retire à ce qui la rendait désirable. Passé un seuil, vous avez préservé le concept et détruit l'attrait — signal qu'il faut s'arrêter, pas continuer à rapiécer.",
+          "flavor": "Duplicity partait d'un format où l'on alterne entre deux mains. Laisser choisir laquelle en a fait une carte de pioche ; le nombre de cartes est donc passé de sept à cinq, puis un coût en fin de tour a été ajouté. « La carte était si mauvaise que personne ne la jouait. Même pas les Johnny… aucune idée, si chouette soit-elle, ne le reste si on y accroche assez de lest. Et si je ne peux pas faire la carte sans le lest, elle ne vaut pas la peine d'être faite. »"
+        },
+        {
+          "title": "Le vocabulaire s'invente dans la pièce",
+          "rules": "Les mots qu'un groupe finit par employer pour ses pires échecs viennent souvent de l'exaspération d'une personne en réunion. Ils s'imposent parce qu'ils portent une émotion qu'aucun terme formel ne porte.",
+          "flavor": "« Cet argot vient de William Jockusch. Pendant le développement de Mirage, nous sommes tombés sur une carte que William jugeait problématique. Pour appuyer, il a étiré le mot 'cassée'. C'était assez accrocheur pour que la R&D se mette à l'employer chaque fois qu'une carte posait vraiment problème. »"
+        },
+        {
+          "title": "Ne supprimez pas votre propre instrument d'équilibrage",
+          "rules": "Le bouton qui rend sûres les choses dangereuses doit continuer de fonctionner. Ce qui permet de le contourner ne crée pas seulement une option forte : cela désactive le mécanisme pour tout le reste.",
+          "flavor": "« Le coût en mana est l'un des outils dont dispose la R&D pour équilibrer les cartes. Nous aimons faire de grosses créatures méchantes… Pour cela, il faut pouvoir user du coût en mana comme équilibre. » Et le résultat : « Une fois Dream Halls en jeu, le jeu cesse d'être Magic et devient un nouveau jeu où le mana est totalement hors sujet. »"
+        },
+        {
+          "title": "La même faute sur un autre axe",
+          "rules": "Une fois une classe d'erreur identifiée, vérifiez les autres contraintes du même genre. Il y a d'ordinaire plus d'une chose qui limite en silence la fréquence d'une action.",
+          "flavor": "« Si Dream Halls ignorait le coût en mana, Mind Over Matter ignore le coût de l'engagement. Le fait que les cartes portant le symbole d'engagement ne servent qu'une fois par tour est important. » Deux leçons : le dégagement répété doit être surveillé alors que « les usages uniques semblent acceptables », et de tels effets « devraient au minimum avoir aussi un coût en mana » plutôt que d'être payés en cartes seules."
+        },
+        {
+          "title": "Vérifiez dans les autres pièces",
+          "rules": "Une quantité manifestement bornée dans le contexte que vous imaginiez peut ne pas l'être ailleurs. Testez l'hypothèse que vous ne saviez pas faire.",
+          "flavor": "Congregate donne 2 points de vie par créature en jeu. « Combien de créatures peut-il y avoir en jeu ? Dix ? Quinze ? Ah ! Voilà le problème. Vous pensez en mode deux joueurs. Imaginez une partie à huit. » Le verdict de ceux qui jouent en multijoueur : « bonne au point de 'bannissez-la dans vos règles maison'. Cette carte a gâché à elle seule bien des parties multijoueurs. »"
+        },
+        {
+          "title": "Visez des erreurs neuves",
+          "rules": "Le but d'étudier l'échec n'est pas de cesser d'échouer. C'est de cesser de se répéter — la mesure du progrès étant que les erreurs de l'an prochain soient de celles que vous n'avez pas encore commises.",
+          "flavor": "« Cela ne veut pas dire que je ne ferai plus d'erreurs. J'en ferai. Mon but est simplement d'avancer dans des zones nouvelles et de commettre des erreurs entièrement neuves. » La formule finale : « Puissent vos erreurs exiger moins de bannissements que les miennes. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Erros? Cometi alguns",
+      "dek": "Seis cartas dele mesmo, cada uma apontada como um erro e cada uma ensinando uma lição diferente — com o escopo de «erro» definido com precisão suficiente para excluir aquelas que o desenvolvimento poderia ter consertado.",
+      "overview": "O catálogo mais claro de modos de falha do design em toda a coluna: fechar espaço futuro, desafiar as regras, capar uma ideia até o nada, ignorar o custo de mana, ignorar o custo de virar, e esquecer que existem outros formatos.",
+      "takeaway": "«O sucesso pode trazer aclamação, mas os erros trazem conhecimento.»",
+      "lessons": [
+        {
+          "title": "Declare a proporção",
+          "rules": "Publicar com que frequência o trabalho falha estabelece os termos de tudo o que vem depois. Vinte fracassos por sucesso é um fato sobre o processo, não um pedido de desculpas por ele.",
+          "flavor": "«A gente comete erros. Montes e montes de erros. Para cada sucesso, eu diria que fazemos vinte cartas que fracassam feio. Muitas são pegas durante o próprio design. E por sorte há um time inteiro de desenvolvimento para pegar as que escapam. Mas nem os desenvolvedores conseguem pegar todas.»"
+        },
+        {
+          "title": "Terreno novo não tem precedente para te avisar",
+          "rules": "Os erros se acumulam onde ninguém esteve, porque a defesa habitual — reconhecer um formato familiar — não está disponível. Isso faz de certa proporção de fracasso um custo de explorar, não prova de desleixo.",
+          "flavor": "«Erros são parte crucial do processo criativo. Parte da inovação é explorar áreas virgens do espaço de design. Problemas novos são difíceis de identificar, porque você não pode usar a história passada para pegá-los.»"
+        },
+        {
+          "title": "Assuma-os sem se arrepender deles",
+          "rules": "Você pode chamar algo de erro e ainda assim dizer que faria de novo. São afirmações distintas, e misturá-las é o que impede as pessoas de admitirem qualquer coisa.",
+          "flavor": "«Não me incomoda ter feito as cartas desta lista. Diabos, de muitas eu me orgulho. E se eu pudesse voltar no tempo, faria a maioria de novo… O sucesso pode trazer aclamação, mas os erros trazem conhecimento.»"
+        },
+        {
+          "title": "Defina quais falhas você está contando",
+          "rules": "Uma autópsia precisa de fronteira, ou vira uma lista de tudo que deu errado. Se uma etapa posterior poderia consertar ajustando números, aquilo pertence àquela etapa.",
+          "flavor": "«Esta coluna é sobre erros de design, não de desenvolvimento. Nível de potência é assunto de desenvolvimento. Flametongue Kavu, por exemplo, era bom demais. Mas isso não é problema de design. Mude de 4/2 para 3/2… e ele provavelmente fica ok. Problemas de design vão mais fundo que acrescentar um mana.»"
+        },
+        {
+          "title": "Toda carta responde a duas perguntas",
+          "rules": "A pergunta óbvia é o que isso faz com a situação agora. A que as pessoas pulam é o que isso faz com tudo que você talvez queira criar depois.",
+          "flavor": "«Sempre que desenhamos uma carta, temos de conviver com duas coisas. Uma: que efeito ela terá sobre os vários ambientes? E duas: que efeito ela terá sobre o design futuro?»"
+        },
+        {
+          "title": "O custo era o espaço fechado",
+          "rules": "Algo pode estar equilibrado em jogo e ainda assim ser um erro, porque sua existência torna insegura uma categoria inteira de trabalho futuro. Pese o item único contra tudo o que ele impede você de construir.",
+          "flavor": "Donate transforma qualquer mágica poderosa com manutenção perigosa num combo letal de duas cartas. «A existência de Donate exige que sejamos mais cautelosos com manutenções perigosas. Essa troca vale a pena? O jogo deveria ter menos cartas de manutenção perigosa para que Donate possa ficar? Acho que a resposta é não… O erro de Donate foi que a existência de uma carta cortou uma área de design interessante, capaz de produzir muitas outras cartas.»"
+        },
+        {
+          "title": "Insistência pode vencer o discernimento",
+          "rules": "Sobreviver a quem rejeita sua ideia não é o mesmo que convencê-los. Conseguir o que quer por desgaste é um risco real de se importar muito com uma coisa.",
+          "flavor": "Donate foi cortada de Tempest por ser fraca. «Durante anos jogamos um jogo em que eu punha a carta no design e o desenvolvimento a tirava. Aí, durante Urza's Destiny, o time de desenvolvimento decidiu que eu era teimoso demais para desistir algum dia (e eles tinham razão) e simplesmente a deixaram.»"
+        },
+        {
+          "title": "Nenhuma peça está acima das regras",
+          "rules": "Brigar para esticar um sistema é legítimo; forçá-lo aonde ele não vai, não. O teste não é se o time de regras consegue fazer funcionar — é se alguém mais consegue lembrar como.",
+          "flavor": "O problema de Humility é a frase «perde todas as habilidades», que as regras tratam mal. «Como inovador, vou brigar para esticar as regras ou criar novas, mas no fim respeito que as regras são importantes… O espaço de design de Magic é imenso. Devemos focar em cartas que não obriguem o pessoal de regras a criar regras que o resto de vocês não consiga entender ou, mais importante, lembrar.»"
+        },
+        {
+          "title": "A bagagem mata a ideia que ela protegia",
+          "rules": "Cada restrição acrescentada para manter um design seguro subtrai daquilo que fazia alguém querê-lo. Passado certo ponto, você preservou o conceito e destruiu o apelo — e isso é sinal de parar, não de continuar remendando.",
+          "flavor": "Duplicity começou como um formato em que os jogadores alternam entre duas mãos. Deixar escolher qual mão a transformou numa compradora de cartas, então as cartas compradas caíram de sete para cinco e um custo no fim do turno foi acrescentado. «A carta era tão ruim que ninguém a jogava. Nem os Johnnies… nenhuma ideia, por mais legal que seja, continua legal se você pendurar bagagem negativa suficiente nela. E se eu não consigo fazer a carta sem a bagagem, a carta não vale a pena.»"
+        },
+        {
+          "title": "O vocabulário é inventado na sala",
+          "rules": "As palavras que um grupo acaba usando para seus piores fracassos costumam vir da exasperação de uma pessoa numa reunião. Elas pegam porque carregam um sentimento que nenhum termo formal carrega.",
+          "flavor": "«Essa gíria veio de William Jockusch. Durante o desenvolvimento de Mirage, esbarramos numa carta que o William achou problemática. Para enfatizar, ele esticou a palavra 'quebrada'. Foi contagioso o bastante para a P&D passar a usar o termo sempre que uma carta era muito problemática.»"
+        },
+        {
+          "title": "Não remova o seu próprio instrumento de equilíbrio",
+          "rules": "O botão que você usa para tornar seguras as coisas perigosas precisa continuar funcionando. O que permite pulá-lo não cria só uma opção forte: desativa o mecanismo para todo o resto.",
+          "flavor": "«Custo de mana é uma das ferramentas que a P&D tem para equilibrar cartas. Gostamos de fazer criaturas grandes e desagradáveis… Para isso, precisamos poder usar o custo de mana como equilíbrio.» E o resultado: «Uma vez que Dream Halls está em jogo, o jogo deixa de ser Magic e vira algum jogo novo em que mana é completamente irrelevante.»"
+        },
+        {
+          "title": "A mesma falha em outro eixo",
+          "rules": "Uma vez identificada uma classe de erro, cheque as outras restrições do mesmo tipo. Em geral há mais de uma coisa limitando em silêncio com que frequência algo pode ser feito.",
+          "flavor": "«Se Dream Halls ignorava o custo de mana, Mind Over Matter ignora o custo de virar uma carta. O fato de cartas com símbolo de virar só poderem ser usadas uma vez por turno é importante.» Duas lições: desvirar repetidamente precisa ser monitorado, enquanto «usos únicos parecem ok», e tais efeitos «deveriam no mínimo ter também um custo de mana» em vez de serem pagos só com cartas."
+        },
+        {
+          "title": "Cheque nas outras salas",
+          "rules": "Uma quantidade obviamente limitada no contexto que você imaginou pode não ser limitada em outro. Teste a suposição que você nem percebeu que estava fazendo.",
+          "flavor": "Congregate dá 2 pontos de vida por criatura em jogo. «Quantas criaturas pode haver em jogo? Dez? Quinze? Aha! Esse é o problema. Você está pensando em modo de dois jogadores. Imagine uma partida com oito.» O veredito de quem joga multijogador com frequência: «boa a ponto de 'bane isso nas suas regras da casa'. A carta sozinha estragou muitas partidas multijogador.»"
+        },
+        {
+          "title": "Mire em erros novos",
+          "rules": "O objetivo de estudar o fracasso não é parar de fracassar. É parar de se repetir — o que significa que a medida de progresso é se os erros do ano que vem são daqueles que você ainda não cometeu.",
+          "flavor": "«Isso não significa que eu não vá cometer mais erros. Vou. Meu objetivo é simplesmente avançar por áreas novas e cometer erros totalmente novos.» A despedida: «Que seus erros exijam menos banimentos que os meus.»"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "错误？我犯过不少",
+      "dek": "他自己的六张牌，每一张都被点名为一个错误，每一张各教一课——而「错误」的范围被界定得足够精确，以至于把那些开发部本可以修掉的排除在外。",
+      "overview": "这是本专栏里关于「设计失败模式」最清楚的一份目录：把未来的空间堵死、跟规则对着干、把一个点子削到一无是处、无视法术力费用、无视横置费用，以及忘了还有别的赛制存在。",
+      "takeaway": "「成功也许会给你带来赞誉，但错误会给你带来知识。」",
+      "lessons": [
+        {
+          "title": "把这个比例说出来",
+          "rules": "把「这份工作失败得有多频繁」公之于众，为其后的一切定下了基调。「二十次失败换一次成功」是关于这套流程的一个事实，而不是替它说的一句抱歉。",
+          "flavor": "「我们会犯错。犯一大堆一大堆的错。我敢说，每有一次成功，我们就做出二十张惨败的牌。其中许多在设计阶段本身就被逮住了。而幸运的是，还有一整个开发团队在那儿去抓我们漏掉的那些。可即便是开发者，也抓不完所有的。」"
+        },
+        {
+          "title": "全新的地面上，没有先例来警告你",
+          "rules": "错误会成堆地出现在没人去过的地方——因为那道惯常的防线（认出一个熟悉的形状）在那里不可用。这就使得一定比例的失败成了「探索的成本」，而不是「粗心的证据」。",
+          "flavor": "「错误是创作过程中至关重要的一部分。创新的一部分，就是去探索设计空间里那些处女地。而新问题很难被辨认出来，因为你没法用过去的历史去抓住它们。」"
+        },
+        {
+          "title": "认下它们，但不为它们后悔",
+          "rules": "你可以把一件事称作错误，同时仍然说你会再做一次。这是两个不同的主张；而把它们混为一谈，正是让人们什么都不肯承认的原因。",
+          "flavor": "「我并不为做出这份名单上的这些牌而懊恼。见鬼，其中许多我还挺自豪的。而且如果能让时光倒流，它们中的大多数我还会再做一遍……成功也许会给你带来赞誉，但错误会给你带来知识。」"
+        },
+        {
+          "title": "界定清楚你在数的是哪一类失败",
+          "rules": "一场复盘需要一条边界，否则它就变成了「所有出过岔子的事」的清单。如果下游的某个环节靠调数字就能把它修好，那它就属于那个环节。",
+          "flavor": "「这篇专栏讲的是设计上的错误，不是开发上的错误。强度是开发部的事。比方说火舌卡甫，它是太强了。可这不是一个设计问题。把它从 4/2 改成 3/2……它大概就没问题了。设计问题比『加一点法术力』或者『把牌的强度稍微挪一挪』要深得多。」"
+        },
+        {
+          "title": "每一张牌都要回答两个问题",
+          "rules": "那个显而易见的问题是：它对眼下这个局面做了什么。而人们会跳过的那个是：它对你日后可能想做的一切做了什么。",
+          "flavor": "「每当我们设计一张牌时，我们都要和两件事共处。第一，它会对各个环境产生什么影响？第二，它会对未来的设计产生什么影响？」"
+        },
+        {
+          "title": "代价是那片被堵死的空间",
+          "rules": "一样东西可以在对局中是平衡的，却依然是个错误——因为它的存在，让日后整整一类工作都变得不安全。请把这一件东西，拿去和「它阻止你建造的一切」相权衡。",
+          "flavor": "捐赠把任何一张「带着危险维持费用的强力咒语」都变成了两张牌的致命组合。「捐赠的存在，要求我们在危险的维持费用上更加谨慎。这笔交换值得吗？这个游戏该不该为了让捐赠留在环境里，而少做一些带危险维持的牌？我认为答案是不该……捐赠的错误在于：一张牌的存在，切断了一片有意思的、本可以产出许多其他牌的设计空间。」"
+        },
+        {
+          "title": "坚持可能压过判断",
+          "rules": "熬赢了那些一再否掉你点子的人，和说服了他们，是两回事。靠消耗战得偿所愿，是「你对某件事在乎得太多」所带来的一份真实风险。",
+          "flavor": "捐赠因为太弱而被《暴风雨》砍掉。「有好些年，我们玩着这样一个游戏：我把这张牌塞进设计文件，开发部把它拿掉。然后到了《乌尔萨的宿命》，开发团队认定我这个人固执到永远不会放弃（他们说对了），于是干脆就让它留下了。」"
+        },
+        {
+          "title": "没有哪一件东西的位阶高过规则",
+          "rules": "为了把一套系统撑开而据理力争，是正当的；把它硬掰到它去不了的地方，则不是。检验的标准不是「规则团队能不能让它运转」，而是「除他们之外还有没有人记得住它怎么运转」。",
+          "flavor": "谦卑的问题出在「失去所有异能」这句话上——规则处理这件事处理得很糟。「作为一个搞创新的人，我会为了把规则撑开、或者立下新规则而据理力争；但归根到底，我尊重『规则很重要』这件事……万智牌的设计空间大得很。我们应该专注于那些不会逼着规则组去写出『你们其余人看不懂、更要紧的是记不住』的规则的牌。」"
+        },
+        {
+          "title": "包袱会把它本要保护的那个点子压死",
+          "rules": "为了让一个设计安全而加上的每一条限制，都在从「当初有人想要它的理由」上做减法。过了某个点，你保住了这个概念、却毁掉了它的吸引力——而这是该停手的信号，不是该继续打补丁的信号。",
+          "flavor": "Duplicity 起初是一种「玩家在两手牌之间轮换」的玩法。而让玩家自己选用哪一手，把它变成了一张抓牌牌；于是抓的张数从七张降到五张，接着又加上了一个「回合结束时」的费用。「这张牌烂到没人打它。连那些平时会去试试非竞技牌的 Johnny 都不打……任何点子，无论多酷，只要挂上足够多的负面包袱，就不再酷了。而如果我做不出一张不带这些包袱的牌，那这张牌就不值得做。」"
+        },
+        {
+          "title": "词汇是在会议室里被发明出来的",
+          "rules": "一个团队最终用来称呼「最糟糕的那类失败」的词，往往来自某一个人在某一场会议上的恼火。它们之所以留下来，是因为它们承载着任何正式术语都承载不了的那份情绪。",
+          "flavor": "「这个俚语来自威廉·约库什。在《幻影时代》的开发过程中，我们碰上了一张威廉觉得有问题的牌。为了强调这一点，他把『坏掉了』这个词拖长了念。它上口到这种程度，以至于研发部从此每逢一张牌问题严重时就用这个说法。」"
+        },
+        {
+          "title": "别把你自己的那把平衡尺子拆了",
+          "rules": "那个「你用来让危险的东西变安全」的旋钮，必须一直有效。任何让人得以绕过它的东西，制造出来的不只是一个强力选项——它把这套机制对其余一切的作用也一并关掉了。",
+          "flavor": "「法术力费用是研发部用来平衡牌张的工具之一。我们喜欢做又大又凶的生物……而要做这件事，我们就必须能够拿法术力费用当平衡杆来用。」而结果是：「梦境大厅一落地，这个游戏就不再是万智牌了；它变成了某种法术力完全无关紧要的新游戏。」"
+        },
+        {
+          "title": "同一种失败，换了一根轴",
+          "rules": "一旦你辨认出了某一类错误，就去检查同一类的其他那些约束。通常，在无声中限制着「某件事能被做多频繁」的，不止一样东西。",
+          "flavor": "「如果说梦境大厅无视的是法术力费用，那么 Mind Over Matter 无视的就是横置一张牌的代价。『带横置符号的牌每回合只能用一次』这件事很重要。」两条教训：反复重置需要被盯住，而「一次性的看起来还行」；并且这类效果「至少还应当带一个法术力费用」，而不是只用弃牌来支付。"
+        },
+        {
+          "title": "去别的房间里检查一遍",
+          "rules": "一个在你所设想的语境里显然有上限的数量，换个地方可能就没有上限了。请去检验那个你根本没意识到自己正在作出的假设。",
+          "flavor": "集众按场上每个生物给 2 点生命。「场上能有多少个生物？十个？十五个？啊哈！问题就在这儿。你是在按双人对局在想。想象一场八个人的对局。」而那些经常打多人局的玩家给出的判词是：好到「在你的自家规则里把它禁了」的程度。「这一张牌，凭一己之力毁掉了许多多人对局的乐趣。」"
+        },
+        {
+          "title": "瞄准那些全新的错误",
+          "rules": "研究失败的目的，并不是从此不再失败。而是从此不再重复自己——这意味着衡量进步的标准是：明年犯的错，是不是那些你还没犯过的。",
+          "flavor": "「这并不意味着我不会再犯错了。我会的。我的目标只是：向新的疆域推进，并且犯下全新的错误。」而结尾那句是：「愿你的错误比我的少招来一些禁牌。」"
+        }
+      ]
+    }
+  }
+}
