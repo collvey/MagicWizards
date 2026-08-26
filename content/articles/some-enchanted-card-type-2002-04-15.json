@@ -1,0 +1,450 @@
+{
+  "id": "some-enchanted-card-type-2002-04-15",
+  "slug": "some-enchanted-card-type-2002-04-15",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2002-04-15",
+  "series": null,
+  "tags": ["auras", "card-advantage", "design-approaches", "rancor", "naming"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/some-enchanted-card-type-2002-04-15",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-28T15:00:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "G" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "U" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "W" },
+    { "n": 11, "color": "R" },
+    { "n": 12, "color": "R" },
+    { "n": 13, "color": "W" },
+    { "n": 14, "color": "G" },
+    { "n": 15, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Some Enchanted Card Type",
+      "dek": "Creature enchantments are beloved and structurally unsound. Nine years of attempts to fix them, each one a different attack on the same arithmetic.",
+      "overview": "\"Flavor-wise very cool, but power-wise very poor.\" A catalogue of every approach R&D has tried against a single known defect — plus the Rancor dispute nobody can settle, and a word nobody in the office could define.",
+      "takeaway": "\"Creature enchantments thus are anti-card advantage.\"",
+      "lessons": [
+        {
+          "title": "Scope the argument before making it",
+          "rules": "Half the objections to a claim come from people applying it to a case you never meant. Draw the line explicitly at the start, and note that the excluded case is genuinely fine.",
+          "flavor": "\"Before I begin, I would like to stress that I'm talking about positive creature enchantments that you use to enhance your own creatures. Enchantments that are used on your opponent's creatures, ranging from Weakness to Persuasion, are creature removal spells for all intents and purposes, and those can often be quite good.\""
+        },
+        {
+          "title": "People love it because they get to build",
+          "rules": "The appeal of assembling something from parts is separate from whether the result is efficient. Given components that combine, a substantial part of your audience will do it regardless of the maths.",
+          "flavor": "\"Because building things is cool. You start with a boring old creature, you throw on a couple of creature enchantments and voila, you have yourself a monster.\" And the second reason: \"It gives the players a chance to be a creature designer. By mixing and matching creatures and creature enchantments, the player can make their own unique creation.\""
+        },
+        {
+          "title": "Sit down with the actual decks",
+          "rules": "Nothing tells you what people are really doing like looking at what they built, one at a time, with them standing there. The advice you find yourself repeating is a finding about the whole population.",
+          "flavor": "The Deck Clinic — five to fifteen minutes per player at big events, explaining how their deck could be improved. \"After doing numerous Deck Clinics, I came up with a few little maxims I would use where appropriate. One of my favorites: 'Here's a rule of thumb. You're going to want to make sure that your deck has more creatures than creature enchantments.'\""
+        },
+        {
+          "title": "Name the arithmetic that makes it bad",
+          "rules": "\"People say it's weak\" is a report; the underlying accounting is the actual finding. Once you can state the defect in one sentence, every attempted fix can be checked against it.",
+          "flavor": "\"Card advantage says that the player with the most cards (in hand and in play) wins. When one card can be used to destroy multiple other cards, this gains the first card's caster card advantage… When you put a creature enchantment on a creature, your opponent has the ability to destroy two cards with a single creature destruction spell. Creature enchantments thus are anti-card advantage.\""
+        },
+        {
+          "title": "Attack the same defect from every angle, for years",
+          "rules": "A structural problem doesn't get one solution; it gets a catalogue of partial ones, each tried in a different release. Keeping the list is how the next attempt starts from where the last one stopped.",
+          "flavor": "Nine approaches over nine years: make it a cantrip so it replaces itself; make the creature so big it wins before the answer arrives; give it a payoff when the creature dies; let it return to hand; let it be sacrificed for an effect; make the creature untargetable; let it flicker back to hand cheaply; let it be a creature itself; and print other cards that reward you for playing them."
+        },
+        {
+          "title": "Some cards exist to test a hypothesis",
+          "rules": "Print the design whose only purpose is to answer a question about the game, then read the answer honestly. A conceptual card that fails is still an experiment that returned a result.",
+          "flavor": "Bequeathal, from Exodus. \"Sometimes in R&D we create a card because it tests a hypothesis. If creature enchantments are problematic because they cause card disadvantage, what if we create a creature enchantment that upon being destroyed replaced the two cards you just lost. It was an interesting idea that ultimately failed for a very basic reason. It didn't do anything… Ah, you live, you learn.\""
+        },
+        {
+          "title": "If the cycle needs a referent that doesn't exist, make it",
+          "rules": "A set of five things pointing at five famous predecessors fails if one of the predecessors was never printed. The fix isn't to abandon the cycle — it's to add the missing member to the same set.",
+          "flavor": "The embraces were \"Make Me a Serra,\" \"Make Me a Sengir,\" \"Make Me a Shivan,\" \"Make Me a Force (of Nature).\" \"But what about the blue one? Aha, that was a problem. There was no big blue creature that worked for this cycle. So how did we solve this problem. We put the big creature — Zephid — in Urza's Saga along with the embraces. Thus, the blue one became 'Make Me a Zephid.'\""
+        },
+        {
+          "title": "Institutional memory contradicts itself",
+          "rules": "Two groups who were in the same room will remember opposite outcomes, and neither is lying. When the record is gone, the honest answer is that nobody knows — and it's worth saying so publicly.",
+          "flavor": "On whether Rancor's cost was a decision or a typesetting error, Bill Rose: \"The short answer is: I don't know. No one will ever know… The group who wanted Rancor costed at [one green] argued it would be good, but not broken. The [one green] group believes they won… The [three mana] group believes they won, but that the lead developer forgot to change the file sent to typesetting.\" And his own verdict: \"Given a time machine, I would cost it at [two mana].\""
+        },
+        {
+          "title": "Invite the rebuttal in public",
+          "rules": "When a colleague remembers a shared history differently, offering them your own channel is stronger than adjudicating. It costs you nothing you should want to keep, and the disagreement itself is the interesting part.",
+          "flavor": "\"A day after this 'Ask Wizards' question was posted, I was visited by Mike Elliott, the lead designer of Urza's Legacy and one of its developers. Mike asked if he could rebut Bill's answer… I said sure. 'Send a letter to Ask Wizards and you can reply to it yourself.' You have to understand that I was dead serious. So, I'm publicly calling Mike out. Hey Mike, write the letter!\""
+        },
+        {
+          "title": "Swap the pieces rather than force the fit",
+          "rules": "When two commissioned items each suit the other's slot, don't rationalise — exchange them. The consequences ripple (names, explanations), and it's still cheaper than shipping two things that don't quite work.",
+          "flavor": "The tattoo art was commissioned for an instant. \"My opponent hurls a Lightning Bolt at my goblin, so I quickly run over and start applying a tattoo to it. 'I have to do this quick, so it'll probably hurt.'\" But \"a magical tattoo made a lot of sense for a creature enchantment… Both cards felt like the mechanics worked with the art on the other card, so we swapped them. This, of course, forced us to change the name.\""
+        },
+        {
+          "title": "The designer's privilege is making the card",
+          "rules": "Everyone in a hobby occasionally wants a thing that doesn't exist. The difference in this job is that the wish and the mechanism to grant it belong to the same person.",
+          "flavor": "\"This, by the way, is one of the greatest perks of being a Magic designer. Many players get occasionally irked by the non-existence of some effect they really want because it would work perfectly in some deck. When a Magic designer gets that feeling they just make the card and put it into the next set.\" Hence Diplomatic Immunity — \"You can't target my creature and you can't target me, nyah nyah!\""
+        },
+        {
+          "title": "Juggling is how you miss the obvious",
+          "rules": "Errors in complex work aren't usually failures of expertise; they're the cost of holding too many things at once. The thing you overlook will be simple, and it will be visible to anyone reading calmly.",
+          "flavor": "Flickering Ward grants protection from a chosen colour — and choosing white makes the creature kick off every white enchantment on it, including Flickering Ward. \"We forgot the old 'This card's ability doesn't affect itself' text.\" Errata followed in spring 1999. \"One of the hardest parts about doing design and development is that you're juggling so many balls in the air at once that sometimes you forget the simple things.\""
+        },
+        {
+          "title": "Test the ambitious version first — you can always fall back",
+          "rules": "When choosing between a complex proposal and a simple one, run the complex one. You learn more from it, and the simple version remains available; the reverse ordering teaches you nothing.",
+          "flavor": "Two versions of the licids existed — Mike Elliott's, where they transform, and Rosewater's, where they simply enter as either a creature or an enchantment. \"As the lead designer of the team I stepped in. I said that Mike's version was much more complex. I felt we would learn more by starting to play Mike's version. If they proved too complex, we could always fall back to my simpler version.\""
+        },
+        {
+          "title": "Bribe rather than compel",
+          "rules": "You can't make people use the thing they've decided is weak. You can make other things that pay them for using it — and the offer works far better than the argument.",
+          "flavor": "\"As the father of a young daughter I've learned the valuable lesson that sometimes bribes get the job done (and with a lot less kicking and screaming), so sometimes we create cards that 'bribe' you with extra incentives to play other cards.\" Urza's Destiny was full of them: Fledgling Osprey, Metathran Elite, Tethered Griffin, Thran Golem, Yavimaya Enchantress."
+        },
+        {
+          "title": "Test the word on the actual audience",
+          "rules": "A word you like isn't a word your readers know. Ask fifty people for the definition; if none of them produce it, the word is decoration and it belongs somewhere less common than a common card.",
+          "flavor": "\"While working on Odyssey names, I went around the office asking people to define 'hermetic.' Out of fifty plus people, none knew the definition I was looking for. Zero. As a writer, I like the occasional big word. But not on common cards and not one that less than one percent of our audience has any possibility of knowing. For that reason, we changed the name.\" Hermetic Study became Psionic Gift."
+        }
+      ]
+    },
+    "es": {
+      "title": "Cierto tipo de carta encantada",
+      "dek": "Los encantamientos de criatura son adorados y estructuralmente defectuosos. Nueve años de intentos de arreglarlos, cada uno un ataque distinto contra la misma aritmética.",
+      "overview": "«De sabor muy chulos, pero de potencia muy pobres». Un catálogo de todos los enfoques que I+D ha probado contra un único defecto conocido, más la disputa sobre Rancor que nadie puede zanjar y una palabra que nadie en la oficina supo definir.",
+      "takeaway": "«Los encantamientos de criatura son, por tanto, anti-ventaja de cartas».",
+      "lessons": [
+        {
+          "title": "Delimita el argumento antes de exponerlo",
+          "rules": "La mitad de las objeciones a una afirmación vienen de gente que la aplica a un caso que nunca quisiste incluir. Traza la línea explícitamente al principio, y señala que el caso excluido está francamente bien.",
+          "flavor": "«Antes de empezar, quiero subrayar que hablo de encantamientos de criatura positivos, los que usas para mejorar tus propias criaturas. Los encantamientos que se usan sobre las criaturas del oponente, desde Weakness hasta Persuasion, son a todos los efectos hechizos de remoción de criaturas, y esos a menudo son bastante buenos»."
+        },
+        {
+          "title": "A la gente le encanta porque puede construir",
+          "rules": "El atractivo de montar algo a partir de piezas es independiente de si el resultado es eficiente. Dadas unas piezas que combinan, una parte sustancial de tu público lo hará al margen de las matemáticas.",
+          "flavor": "«Porque construir cosas es guay. Empiezas con una criatura vieja y aburrida, le echas un par de encantamientos de criatura y voilà: tienes un monstruo». Y la segunda razón: «Le da a los jugadores la oportunidad de ser diseñadores de criaturas. Mezclando y combinando criaturas y encantamientos, el jugador puede hacer su propia creación única»."
+        },
+        {
+          "title": "Siéntate con los mazos de verdad",
+          "rules": "Nada te dice lo que la gente hace realmente como mirar lo que ha construido, de uno en uno, con esa persona delante. El consejo que te descubres repitiendo es un hallazgo sobre toda la población.",
+          "flavor": "El Deck Clinic: de cinco a quince minutos por jugador en los grandes eventos, explicando cómo podría mejorar su mazo. «Tras hacer numerosos Deck Clinics, se me ocurrieron unas pequeñas máximas que usaba cuando venía al caso. Una de mis favoritas: 'Aquí va una regla general. Vas a querer asegurarte de que tu mazo tenga más criaturas que encantamientos de criatura'»."
+        },
+        {
+          "title": "Nombra la aritmética que lo hace malo",
+          "rules": "«La gente dice que es débil» es un informe; la contabilidad subyacente es el hallazgo de verdad. En cuanto puedes enunciar el defecto en una frase, cada intento de arreglo puede contrastarse con él.",
+          "flavor": "«La ventaja de cartas dice que gana el jugador con más cartas (en mano y en juego). Cuando una carta puede usarse para destruir varias otras, quien la lanzó gana ventaja de cartas… Cuando pones un encantamiento sobre una criatura, tu oponente tiene la posibilidad de destruir dos cartas con un solo hechizo de destrucción de criaturas. Los encantamientos de criatura son, por tanto, anti-ventaja de cartas»."
+        },
+        {
+          "title": "Ataca el mismo defecto desde todos los ángulos, durante años",
+          "rules": "Un problema estructural no recibe una solución: recibe un catálogo de soluciones parciales, cada una probada en un lanzamiento distinto. Llevar esa lista es lo que hace que el siguiente intento empiece donde acabó el anterior.",
+          "flavor": "Nueve enfoques en nueve años: convertirlo en cantrip para que se reemplace solo; hacer la criatura tan grande que gane antes de que llegue la respuesta; darle un premio cuando la criatura muere; hacer que vuelva a la mano; permitir sacrificarlo por un efecto; hacer la criatura inseleccionable; permitirle volver a la mano por poco maná; dejar que sea criatura él mismo; e imprimir otras cartas que te recompensen por jugarlos."
+        },
+        {
+          "title": "Algunas cartas existen para probar una hipótesis",
+          "rules": "Imprime el diseño cuya única finalidad es responder a una pregunta sobre el juego, y luego lee la respuesta con honestidad. Una carta conceptual que fracasa sigue siendo un experimento que devolvió un resultado.",
+          "flavor": "Bequeathal, de Exodus. «A veces en I+D creamos una carta porque pone a prueba una hipótesis. Si los encantamientos de criatura son problemáticos porque causan desventaja de cartas, ¿y si creamos uno que, al ser destruido, reemplace las dos cartas que acabas de perder? Fue una idea interesante que al final fracasó por una razón muy básica. No hacía nada… En fin, se vive y se aprende»."
+        },
+        {
+          "title": "Si el ciclo necesita un referente que no existe, créalo",
+          "rules": "Un conjunto de cinco cosas que apuntan a cinco predecesores famosos fracasa si uno de esos predecesores nunca se imprimió. La solución no es abandonar el ciclo: es añadir el miembro que falta al mismo set.",
+          "flavor": "Los «embraces» eran «Hazme un Serra», «Hazme un Sengir», «Hazme un Shivan», «Hazme una Force (of Nature)». «¿Pero y el azul? Ajá, ahí estaba el problema. No había ninguna criatura azul grande que sirviera para este ciclo. ¿Cómo lo resolvimos? Metimos la criatura grande —Zephid— en Urza's Saga junto con los embraces. Así, el azul se convirtió en 'Hazme un Zephid'»."
+        },
+        {
+          "title": "La memoria institucional se contradice a sí misma",
+          "rules": "Dos grupos que estaban en la misma sala recordarán resultados opuestos, y ninguno miente. Cuando el registro ha desaparecido, la respuesta honesta es que nadie lo sabe, y vale la pena decirlo en público.",
+          "flavor": "Sobre si el coste de Rancor fue una decisión o un error de composición, Bill Rose: «La respuesta corta es: no lo sé. Nadie lo sabrá nunca… El grupo que quería a Rancor a [un verde] argumentaba que sería buena, pero no rota. El grupo del [un verde] cree que ganó… El grupo del [tres maná] cree que ganó, pero que el desarrollador principal olvidó cambiar el archivo enviado a composición». Y su propio veredicto: «Con una máquina del tiempo, la costaría a [dos maná]»."
+        },
+        {
+          "title": "Invita a la réplica en público",
+          "rules": "Cuando un colega recuerda una historia compartida de otro modo, ofrecerle tu propio canal es más fuerte que arbitrar. No te cuesta nada que debieras querer conservar, y el desacuerdo en sí es la parte interesante.",
+          "flavor": "«Un día después de publicarse esa pregunta de 'Ask Wizards', vino a verme Mike Elliott, el diseñador principal de Urza's Legacy y uno de sus desarrolladores. Mike preguntó si podía rebatir la respuesta de Bill… Le dije que claro. 'Manda una carta a Ask Wizards y podrás responderle tú mismo'. Tenéis que entender que iba totalmente en serio. Así que estoy retando a Mike en público. ¡Eh, Mike, escribe la carta!»"
+        },
+        {
+          "title": "Intercambia las piezas en vez de forzar el encaje",
+          "rules": "Cuando dos encargos encajan mejor cada uno en el hueco del otro, no racionalices: intercámbialos. Las consecuencias se propagan (nombres, explicaciones) y aun así sale más barato que publicar dos cosas que no acaban de funcionar.",
+          "flavor": "La ilustración del tatuaje se encargó para un instantáneo. «Mi oponente lanza un Lightning Bolt a mi trasgo, así que corro hacia él y me pongo a aplicarle un tatuaje. 'Tengo que hacer esto rápido, así que probablemente duela'». Pero «un tatuaje mágico tenía mucho sentido para un encantamiento de criatura… En ambos casos sentíamos que la mecánica funcionaba con la ilustración de la otra carta, así que las intercambiamos. Eso, claro, nos obligó a cambiar el nombre»."
+        },
+        {
+          "title": "El privilegio del diseñador es hacer la carta",
+          "rules": "Todo el mundo en una afición desea de vez en cuando algo que no existe. La diferencia en este trabajo es que el deseo y el mecanismo para concederlo pertenecen a la misma persona.",
+          "flavor": "«Por cierto, este es uno de los mayores privilegios de ser diseñador de Magic. A muchos jugadores les fastidia de vez en cuando la inexistencia de algún efecto que quieren de verdad porque funcionaría perfecto en algún mazo. Cuando a un diseñador de Magic le entra esa sensación, sencillamente hace la carta y la mete en el siguiente set». De ahí Diplomatic Immunity: «¡No puedes seleccionar a mi criatura y no puedes seleccionarme a mí, chincha rabiña!»"
+        },
+        {
+          "title": "Hacer malabares es como se te escapa lo obvio",
+          "rules": "Los errores en el trabajo complejo no suelen ser fallos de pericia: son el coste de sostener demasiadas cosas a la vez. Lo que se te pase será sencillo, y será visible para cualquiera que lea con calma.",
+          "flavor": "Flickering Ward otorga protección contra un color elegido, y elegir blanco hace que la criatura expulse todos los encantamientos blancos que tenga encima, incluido Flickering Ward. «Nos olvidamos del viejo texto de 'la habilidad de esta carta no se afecta a sí misma'». La errata llegó en la primavera de 1999. «Una de las partes más difíciles de hacer diseño y desarrollo es que estás haciendo malabares con tantas pelotas a la vez que a veces se te olvidan las cosas simples»."
+        },
+        {
+          "title": "Prueba antes la versión ambiciosa: siempre puedes retroceder",
+          "rules": "Cuando tengas que elegir entre una propuesta compleja y una simple, prueba la compleja. Aprendes más de ella y la versión simple sigue disponible; el orden inverso no te enseña nada.",
+          "flavor": "Existían dos versiones de los licids: la de Mike Elliott, en la que se transforman, y la de Rosewater, en la que simplemente entran en juego como criatura o como encantamiento. «Como diseñador principal del equipo, intervine. Dije que la versión de Mike era mucho más compleja. Sentía que aprenderíamos más empezando a jugar la versión de Mike. Si resultaba demasiado compleja, siempre podríamos replegarnos a mi versión más simple»."
+        },
+        {
+          "title": "Soborna en vez de obligar",
+          "rules": "No puedes obligar a la gente a usar aquello que ha decidido que es débil. Sí puedes hacer otras cosas que les paguen por usarlo, y la oferta funciona mucho mejor que el argumento.",
+          "flavor": "«Como padre de una hija pequeña, he aprendido la valiosa lección de que a veces los sobornos hacen el trabajo (y con muchas menos pataletas), así que a veces creamos cartas que te 'sobornan' con incentivos extra para que juegues otras cartas». Urza's Destiny estaba lleno de ellas: Fledgling Osprey, Metathran Elite, Tethered Griffin, Thran Golem, Yavimaya Enchantress."
+        },
+        {
+          "title": "Prueba la palabra con el público real",
+          "rules": "Una palabra que te gusta no es una palabra que tus lectores conozcan. Pide la definición a cincuenta personas; si ninguna la produce, la palabra es decoración y su sitio está en algo menos común que una carta común.",
+          "flavor": "«Mientras trabajaba en los nombres de Odyssey, fui por la oficina pidiendo a la gente que definiera 'hermetic'. De más de cincuenta personas, ninguna conocía la definición que yo buscaba. Cero. Como escritor, me gusta la palabra rimbombante de vez en cuando. Pero no en cartas comunes, y no una que menos del uno por ciento de nuestro público tenga posibilidad alguna de conocer. Por eso cambiamos el nombre». Hermetic Study pasó a ser Psionic Gift."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Un certain type de carte enchantée",
+      "dek": "Les enchantements de créature sont adorés et structurellement bancals. Neuf ans de tentatives pour les réparer, chacune une attaque différente contre la même arithmétique.",
+      "overview": "« Très chouettes côté ambiance, très pauvres côté puissance. » Un catalogue de toutes les approches que la R&D a essayées contre un unique défaut connu — plus la querelle sur Rancor que personne ne peut trancher, et un mot que personne au bureau n'a su définir.",
+      "takeaway": "« Les enchantements de créature sont donc anti-avantage de cartes. »",
+      "lessons": [
+        {
+          "title": "Délimitez l'argument avant de le présenter",
+          "rules": "La moitié des objections à une affirmation viennent de gens qui l'appliquent à un cas que vous n'aviez pas visé. Tracez la ligne explicitement dès le début, et notez que le cas exclu, lui, va très bien.",
+          "flavor": "« Avant de commencer, je tiens à souligner que je parle des enchantements de créature positifs, ceux qu'on utilise pour améliorer ses propres créatures. Les enchantements posés sur les créatures adverses, de Weakness à Persuasion, sont à toutes fins utiles des sorts de destruction de créature, et ceux-là sont souvent très bons. »"
+        },
+        {
+          "title": "Les gens aiment ça parce qu'ils construisent",
+          "rules": "L'attrait d'assembler quelque chose à partir de pièces est indépendant de l'efficacité du résultat. Donnez des composants qui se combinent, et une part substantielle de votre public le fera quels que soient les calculs.",
+          "flavor": "« Parce que construire des choses, c'est chouette. Vous partez d'une vieille créature ennuyeuse, vous lui collez deux ou trois enchantements et voilà : vous avez un monstre. » Et la deuxième raison : « Cela donne aux joueurs l'occasion d'être concepteurs de créatures. En mélangeant créatures et enchantements, le joueur peut fabriquer sa propre création unique. »"
+        },
+        {
+          "title": "Asseyez-vous devant les vrais decks",
+          "rules": "Rien ne vous dit ce que les gens font réellement comme de regarder ce qu'ils ont construit, un par un, avec eux à côté. Le conseil que vous vous surprenez à répéter est un résultat sur toute la population.",
+          "flavor": "Le Deck Clinic — cinq à quinze minutes par joueur lors des grands événements, à expliquer comment améliorer son deck. « Après de nombreux Deck Clinics, j'ai fini par avoir quelques petites maximes que je ressortais quand c'était pertinent. L'une de mes préférées : 'Voici une règle de base. Il vaut mieux que votre deck contienne plus de créatures que d'enchantements de créature.' »"
+        },
+        {
+          "title": "Nommez l'arithmétique qui le rend mauvais",
+          "rules": "« Les gens disent que c'est faible » est un rapport ; la comptabilité sous-jacente est le vrai résultat. Dès que vous pouvez énoncer le défaut en une phrase, chaque tentative de correction peut être confrontée à lui.",
+          "flavor": "« L'avantage de cartes dit que le joueur qui a le plus de cartes (en main et en jeu) gagne. Quand une carte peut servir à en détruire plusieurs autres, celui qui l'a lancée gagne de l'avantage de cartes… Quand vous posez un enchantement sur une créature, votre adversaire peut détruire deux cartes avec un seul sort de destruction de créature. Les enchantements de créature sont donc anti-avantage de cartes. »"
+        },
+        {
+          "title": "Attaquez le même défaut sous tous les angles, pendant des années",
+          "rules": "Un problème structurel ne reçoit pas une solution : il reçoit un catalogue de solutions partielles, chacune essayée dans une sortie différente. Tenir cette liste, c'est ce qui permet à la tentative suivante de partir de là où la précédente s'est arrêtée.",
+          "flavor": "Neuf approches en neuf ans : en faire un cantrip pour qu'il se remplace ; rendre la créature si grosse qu'elle gagne avant la réponse ; donner une récompense quand la créature meurt ; le faire revenir en main ; permettre de le sacrifier pour un effet ; rendre la créature inciblable ; lui permettre de revenir en main pour peu de mana ; en faire une créature ; et imprimer d'autres cartes qui vous récompensent de les jouer."
+        },
+        {
+          "title": "Certaines cartes existent pour tester une hypothèse",
+          "rules": "Imprimez la conception dont le seul but est de répondre à une question sur le jeu, puis lisez la réponse honnêtement. Une carte conceptuelle qui échoue reste une expérience qui a rendu un résultat.",
+          "flavor": "Bequeathal, dans Exodus. « Parfois, à la R&D, nous créons une carte parce qu'elle teste une hypothèse. Si les enchantements de créature posent problème parce qu'ils causent un désavantage de cartes, et si nous en créions un qui, une fois détruit, remplace les deux cartes que vous venez de perdre ? C'était une idée intéressante qui a fini par échouer pour une raison très simple. Elle ne faisait rien… Eh, on apprend en vivant. »"
+        },
+        {
+          "title": "Si le cycle a besoin d'un référent inexistant, fabriquez-le",
+          "rules": "Un ensemble de cinq choses pointant vers cinq prédécesseurs célèbres échoue si l'un de ces prédécesseurs n'a jamais été imprimé. La solution n'est pas d'abandonner le cycle : c'est d'ajouter le membre manquant à la même extension.",
+          "flavor": "Les « embraces » étaient « Fais de moi un Serra », « Fais de moi un Sengir », « Fais de moi un Shivan », « Fais de moi une Force (of Nature) ». « Mais le bleu ? Ah, voilà le problème. Il n'existait pas de grosse créature bleue qui convienne à ce cycle. Comment avons-nous résolu ça ? Nous avons mis la grosse créature — Zephid — dans Urza's Saga avec les embraces. Ainsi, le bleu est devenu 'Fais de moi un Zephid'. »"
+        },
+        {
+          "title": "La mémoire institutionnelle se contredit elle-même",
+          "rules": "Deux groupes présents dans la même pièce se souviendront de résultats opposés, et aucun ne ment. Quand la trace a disparu, la réponse honnête est que personne ne sait — et cela mérite d'être dit publiquement.",
+          "flavor": "Sur la question de savoir si le coût de Rancor était une décision ou une erreur de composition, Bill Rose : « La réponse courte est : je ne sais pas. Personne ne le saura jamais… Le groupe qui voulait Rancor à [un vert] soutenait qu'elle serait bonne, mais pas cassée. Le groupe [un vert] croit avoir gagné… Le groupe [trois manas] croit avoir gagné, mais que le développeur en chef a oublié de modifier le fichier envoyé à la composition. » Et son propre verdict : « Avec une machine à voyager dans le temps, je la coûterais à [deux manas]. »"
+        },
+        {
+          "title": "Invitez la réplique en public",
+          "rules": "Quand un collègue se souvient autrement d'une histoire commune, lui offrir votre propre canal est plus fort que d'arbitrer. Cela ne vous coûte rien que vous deviez vouloir garder, et le désaccord lui-même est la partie intéressante.",
+          "flavor": "« Le lendemain de la publication de cette question 'Ask Wizards', Mike Elliott, concepteur en chef d'Urza's Legacy et l'un de ses développeurs, est venu me voir. Mike a demandé s'il pouvait réfuter la réponse de Bill… J'ai dit bien sûr. 'Envoie une lettre à Ask Wizards et tu pourras y répondre toi-même.' Comprenez bien que j'étais on ne peut plus sérieux. Alors je lance publiquement le défi à Mike. Hé Mike, écris la lettre ! »"
+        },
+        {
+          "title": "Échangez les pièces plutôt que de forcer l'ajustement",
+          "rules": "Quand deux commandes conviennent chacune mieux à la place de l'autre, ne rationalisez pas : échangez-les. Les conséquences se propagent (noms, explications) et cela reste moins cher que de publier deux choses qui ne fonctionnent pas tout à fait.",
+          "flavor": "L'illustration du tatouage avait été commandée pour un éphémère. « Mon adversaire balance un Lightning Bolt sur mon gobelin, alors je cours vers lui et je commence à lui faire un tatouage. 'Il faut que je fasse vite, donc ça va sans doute faire mal.' » Mais « un tatouage magique avait beaucoup de sens pour un enchantement de créature… Dans les deux cas, la mécanique semblait fonctionner avec l'illustration de l'autre carte, alors nous les avons échangées. Ce qui, bien sûr, nous a obligés à changer le nom. »"
+        },
+        {
+          "title": "Le privilège du concepteur, c'est de faire la carte",
+          "rules": "Tout le monde, dans un loisir, désire de temps en temps une chose qui n'existe pas. La différence dans ce métier, c'est que le souhait et le moyen de l'exaucer appartiennent à la même personne.",
+          "flavor": "« C'est d'ailleurs l'un des plus grands avantages du métier de concepteur de Magic. Beaucoup de joueurs sont parfois agacés par l'inexistence d'un effet qu'ils voudraient vraiment, parce qu'il irait parfaitement dans un deck. Quand un concepteur de Magic ressent cela, il fait simplement la carte et la met dans l'extension suivante. » D'où Diplomatic Immunity : « Tu ne peux pas cibler ma créature et tu ne peux pas me cibler, na na nère ! »"
+        },
+        {
+          "title": "C'est en jonglant qu'on rate l'évidence",
+          "rules": "Les erreurs dans un travail complexe ne sont en général pas des défauts d'expertise : c'est le prix de tenir trop de choses à la fois. Ce que vous manquerez sera simple, et visible pour quiconque lit calmement.",
+          "flavor": "Flickering Ward donne la protection contre une couleur choisie — et choisir blanc fait que la créature éjecte tous les enchantements blancs posés sur elle, y compris Flickering Ward. « Nous avions oublié le vieux texte 'la capacité de cette carte ne s'affecte pas elle-même'. » L'erratum est arrivé au printemps 1999. « L'une des choses les plus difficiles en conception et en développement, c'est qu'on jongle avec tant de balles à la fois qu'on en oublie parfois les choses simples. »"
+        },
+        {
+          "title": "Testez d'abord la version ambitieuse — vous pourrez toujours reculer",
+          "rules": "Entre une proposition complexe et une simple, essayez la complexe. Vous en apprendrez davantage, et la version simple restera disponible ; l'ordre inverse ne vous apprend rien.",
+          "flavor": "Deux versions des licides existaient — celle de Mike Elliott, où ils se transforment, et celle de Rosewater, où ils arrivent simplement en jeu comme créature ou comme enchantement. « En tant que concepteur en chef de l'équipe, je suis intervenu. J'ai dit que la version de Mike était bien plus complexe. Je pensais que nous apprendrions davantage en commençant par jouer celle de Mike. Si elle s'avérait trop complexe, nous pourrions toujours nous rabattre sur ma version plus simple. »"
+        },
+        {
+          "title": "Achetez plutôt que de contraindre",
+          "rules": "Vous ne pouvez pas forcer les gens à utiliser ce qu'ils ont décidé être faible. Vous pouvez fabriquer d'autres choses qui les paient pour l'utiliser — et l'offre marche bien mieux que l'argumentation.",
+          "flavor": "« En tant que père d'une petite fille, j'ai appris cette précieuse leçon : parfois les pots-de-vin font le travail (et avec beaucoup moins de cris et de coups de pied), alors nous créons parfois des cartes qui vous 'achètent' avec des incitations supplémentaires à jouer d'autres cartes. » Urza's Destiny en regorgeait : Fledgling Osprey, Metathran Elite, Tethered Griffin, Thran Golem, Yavimaya Enchantress."
+        },
+        {
+          "title": "Testez le mot sur le vrai public",
+          "rules": "Un mot que vous aimez n'est pas un mot que vos lecteurs connaissent. Demandez la définition à cinquante personnes ; si aucune ne la produit, le mot est décoratif et sa place est ailleurs que sur une commune.",
+          "flavor": "« En travaillant sur les noms d'Odyssey, j'ai fait le tour du bureau en demandant aux gens de définir 'hermetic'. Sur plus de cinquante personnes, aucune ne connaissait la définition que je cherchais. Zéro. En tant qu'écrivain, j'aime bien le grand mot occasionnel. Mais pas sur des communes, et pas un que moins d'un pour cent de notre public a la moindre chance de connaître. C'est pour cela que nous avons changé le nom. » Hermetic Study est devenue Psionic Gift."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Certo tipo de carta encantada",
+      "dek": "Encantamentos de criatura são amados e estruturalmente frágeis. Nove anos de tentativas de consertá-los, cada uma um ataque diferente contra a mesma aritmética.",
+      "overview": "«Muito legais em sabor, mas muito pobres em poder». Um catálogo de todas as abordagens que a P&D tentou contra um único defeito conhecido — mais a disputa sobre Rancor que ninguém consegue encerrar, e uma palavra que ninguém no escritório soube definir.",
+      "takeaway": "«Encantamentos de criatura são, portanto, antivantagem de cartas».",
+      "lessons": [
+        {
+          "title": "Delimite o argumento antes de fazê-lo",
+          "rules": "Metade das objeções a uma afirmação vem de gente aplicando-a a um caso que você nunca quis incluir. Trace a linha explicitamente no começo, e observe que o caso excluído está francamente bem.",
+          "flavor": "«Antes de começar, quero enfatizar que estou falando de encantamentos de criatura positivos, os que você usa para melhorar as suas próprias criaturas. Encantamentos usados nas criaturas do oponente, de Weakness a Persuasion, são para todos os efeitos mágicas de remoção de criatura, e essas costumam ser bem boas»."
+        },
+        {
+          "title": "As pessoas amam porque podem construir",
+          "rules": "O apelo de montar algo a partir de peças é independente de o resultado ser eficiente. Dados componentes que se combinam, uma parte substancial do seu público vai fazer isso, matemática à parte.",
+          "flavor": "«Porque construir coisas é legal. Você começa com uma criatura velha e sem graça, joga em cima dela dois encantamentos de criatura e voilà: você tem um monstro». E o segundo motivo: «Isso dá aos jogadores a chance de serem designers de criatura. Misturando e combinando criaturas e encantamentos, o jogador consegue fazer a própria criação única»."
+        },
+        {
+          "title": "Sente-se com os baralhos de verdade",
+          "rules": "Nada te diz o que as pessoas realmente fazem como olhar o que elas construíram, um de cada vez, com elas ali do lado. O conselho que você se pega repetindo é um achado sobre a população inteira.",
+          "flavor": "O Deck Clinic — de cinco a quinze minutos por jogador nos grandes eventos, explicando como o baralho dele poderia melhorar. «Depois de vários Deck Clinics, cheguei a algumas maximazinhas que eu usava quando cabia. Uma das minhas favoritas: 'Aqui vai uma regra de bolso. Você vai querer garantir que o seu baralho tenha mais criaturas do que encantamentos de criatura'»."
+        },
+        {
+          "title": "Nomeie a aritmética que torna aquilo ruim",
+          "rules": "«As pessoas dizem que é fraco» é um relato; a contabilidade por baixo é o achado de verdade. Assim que você consegue enunciar o defeito numa frase, toda tentativa de conserto pode ser conferida contra ele.",
+          "flavor": "«Vantagem de cartas diz que vence o jogador com mais cartas (na mão e em jogo). Quando uma carta consegue destruir várias outras, quem a conjurou ganha vantagem de cartas… Quando você põe um encantamento numa criatura, o seu oponente passa a poder destruir duas cartas com uma única mágica de destruição de criatura. Encantamentos de criatura são, portanto, antivantagem de cartas»."
+        },
+        {
+          "title": "Ataque o mesmo defeito por todos os ângulos, por anos",
+          "rules": "Um problema estrutural não recebe uma solução: recebe um catálogo de soluções parciais, cada uma tentada num lançamento diferente. Manter essa lista é o que faz a próxima tentativa começar de onde a anterior parou.",
+          "flavor": "Nove abordagens em nove anos: torná-lo cantrip para que se reponha; deixar a criatura tão grande que ela vence antes de a resposta chegar; dar um prêmio quando a criatura morre; fazer voltar para a mão; permitir sacrificá-lo por um efeito; tornar a criatura inalvejável; deixá-lo voltar para a mão por pouco mana; deixá-lo ser criatura; e imprimir outras cartas que recompensem você por jogá-los."
+        },
+        {
+          "title": "Algumas cartas existem para testar uma hipótese",
+          "rules": "Imprima o design cujo único propósito é responder a uma pergunta sobre o jogo, e então leia a resposta com honestidade. Uma carta conceitual que fracassa continua sendo um experimento que devolveu um resultado.",
+          "flavor": "Bequeathal, de Exodus. «Às vezes, na P&D, criamos uma carta porque ela testa uma hipótese. Se encantamentos de criatura são problemáticos porque causam desvantagem de cartas, e se criássemos um que, ao ser destruído, repusesse as duas cartas que você acabou de perder? Foi uma ideia interessante que no fim fracassou por um motivo bem básico. Ela não fazia nada… Ah, a gente vive e aprende»."
+        },
+        {
+          "title": "Se o ciclo precisa de um referente que não existe, faça-o",
+          "rules": "Um conjunto de cinco coisas apontando para cinco predecessores famosos fracassa se um desses predecessores nunca foi impresso. O conserto não é abandonar o ciclo: é acrescentar o membro que falta à mesma coleção.",
+          "flavor": "Os «embraces» eram «Faça de mim um Serra», «Faça de mim um Sengir», «Faça de mim um Shivan», «Faça de mim uma Force (of Nature)». «Mas e o azul? Ahá, aí estava o problema. Não havia nenhuma criatura azul grande que servisse para esse ciclo. Como resolvemos isso? Colocamos a criatura grande — Zephid — em Urza's Saga junto com os embraces. Assim, o azul virou 'Faça de mim um Zephid'»."
+        },
+        {
+          "title": "A memória institucional se contradiz",
+          "rules": "Dois grupos que estavam na mesma sala vão lembrar resultados opostos, e nenhum está mentindo. Quando o registro sumiu, a resposta honesta é que ninguém sabe — e vale dizer isso em público.",
+          "flavor": "Sobre se o custo de Rancor foi decisão ou erro de diagramação, Bill Rose: «A resposta curta é: eu não sei. Ninguém jamais saberá… O grupo que queria Rancor a [um verde] argumentava que ela seria boa, mas não quebrada. O grupo do [um verde] acredita que ganhou… O grupo dos [três manas] acredita que ganhou, mas que o desenvolvedor-líder esqueceu de mudar o arquivo enviado à composição». E o veredito dele: «Com uma máquina do tempo, eu a custaria a [dois manas]»."
+        },
+        {
+          "title": "Convide a réplica em público",
+          "rules": "Quando um colega lembra de uma história compartilhada de outro jeito, oferecer a ele o seu próprio canal é mais forte do que arbitrar. Não te custa nada que você devesse querer guardar, e a discordância em si é a parte interessante.",
+          "flavor": "«Um dia depois de essa pergunta do 'Ask Wizards' ser publicada, recebi a visita de Mike Elliott, designer-líder de Urza's Legacy e um dos desenvolvedores dela. Mike perguntou se poderia refutar a resposta do Bill… Eu disse claro. 'Manda uma carta para o Ask Wizards e você mesmo responde'. Vocês precisam entender que eu estava falando totalmente sério. Então estou desafiando o Mike publicamente. Ei, Mike, escreve a carta!»"
+        },
+        {
+          "title": "Troque as peças em vez de forçar o encaixe",
+          "rules": "Quando duas encomendas cabem melhor cada uma na vaga da outra, não racionalize: troque. As consequências se propagam (nomes, explicações) e ainda assim sai mais barato do que publicar duas coisas que não funcionam direito.",
+          "flavor": "A arte da tatuagem foi encomendada para uma instantânea. «Meu oponente arremessa um Lightning Bolt no meu goblin, então eu corro até lá e começo a aplicar uma tatuagem nele. 'Tenho de fazer isso rápido, então provavelmente vai doer'». Mas «uma tatuagem mágica fazia muito sentido para um encantamento de criatura… Nos dois casos sentimos que a mecânica funcionava com a arte da outra carta, então trocamos. Isso, claro, nos obrigou a mudar o nome»."
+        },
+        {
+          "title": "O privilégio do designer é fazer a carta",
+          "rules": "Todo mundo num hobby de vez em quando quer uma coisa que não existe. A diferença neste trabalho é que o desejo e o mecanismo de realizá-lo pertencem à mesma pessoa.",
+          "flavor": "«Aliás, esse é um dos maiores privilégios de ser designer de Magic. Muitos jogadores se irritam de vez em quando com a inexistência de algum efeito que eles querem muito, porque funcionaria perfeitamente em algum baralho. Quando um designer de Magic sente isso, ele simplesmente faz a carta e coloca na coleção seguinte». Daí Diplomatic Immunity: «Você não pode alvejar a minha criatura e não pode me alvejar, nhá nhá!»"
+        },
+        {
+          "title": "Fazer malabarismo é como se perde o óbvio",
+          "rules": "Erros em trabalho complexo em geral não são falhas de perícia: são o custo de segurar coisas demais ao mesmo tempo. Aquilo que te escapar vai ser simples, e vai ser visível para qualquer um que leia com calma.",
+          "flavor": "Flickering Ward concede proteção contra uma cor escolhida — e escolher branco faz a criatura expulsar todos os encantamentos brancos sobre ela, inclusive Flickering Ward. «Esquecemos do velho texto 'a habilidade desta carta não afeta a si mesma'». A errata veio na primavera de 1999. «Uma das partes mais difíceis de fazer design e desenvolvimento é que você está com tantas bolas no ar ao mesmo tempo que às vezes esquece as coisas simples»."
+        },
+        {
+          "title": "Teste a versão ambiciosa primeiro — sempre dá para recuar",
+          "rules": "Ao escolher entre uma proposta complexa e uma simples, rode a complexa. Você aprende mais com ela, e a versão simples continua disponível; a ordem inversa não ensina nada.",
+          "flavor": "Existiam duas versões dos licids — a de Mike Elliott, em que eles se transformam, e a de Rosewater, em que eles simplesmente entram em jogo como criatura ou como encantamento. «Como designer-líder do time, eu intervim. Disse que a versão do Mike era muito mais complexa. Achei que aprenderíamos mais começando a jogar a versão do Mike. Se ela se mostrasse complexa demais, sempre poderíamos recuar para a minha versão mais simples»."
+        },
+        {
+          "title": "Suborne em vez de obrigar",
+          "rules": "Você não consegue obrigar as pessoas a usarem aquilo que elas decidiram ser fraco. Você consegue fazer outras coisas que paguem a elas por usarem — e a oferta funciona muito melhor que o argumento.",
+          "flavor": "«Como pai de uma filha pequena, aprendi a valiosa lição de que às vezes o suborno resolve (e com muito menos choro e esperneio), então às vezes criamos cartas que te 'subornam' com incentivos extras para jogar outras cartas». Urza's Destiny estava cheia delas: Fledgling Osprey, Metathran Elite, Tethered Griffin, Thran Golem, Yavimaya Enchantress."
+        },
+        {
+          "title": "Teste a palavra no público de verdade",
+          "rules": "Uma palavra de que você gosta não é uma palavra que os seus leitores conhecem. Peça a definição a cinquenta pessoas; se nenhuma produzir, a palavra é enfeite, e o lugar dela é em algo menos comum que uma carta comum.",
+          "flavor": "«Enquanto trabalhava nos nomes de Odyssey, saí pelo escritório pedindo às pessoas que definissem 'hermetic'. De mais de cinquenta pessoas, nenhuma sabia a definição que eu queria. Zero. Como escritor, gosto de uma palavra difícil de vez em quando. Mas não em cartas comuns, e não uma que menos de um por cento do nosso público tenha alguma possibilidade de conhecer. Por isso mudamos o nome». Hermetic Study virou Psionic Gift."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "某一种被结附的牌张类别",
+      "dek": "生物结界既被深爱，又在结构上站不住脚。九年里的一次次修补尝试，每一次都是对同一道算术的不同角度的进攻。",
+      "overview": "「风味上非常酷，强度上却非常差。」这是一份研发部针对同一个已知缺陷所尝试过的全部方案的目录——外加那场没人能了结的 Rancor 之争，以及一个办公室里没有一个人说得出定义的词。",
+      "takeaway": "「因此，生物结界是反牌张优势的。」",
+      "lessons": [
+        {
+          "title": "在提出论点之前，先把它的范围划出来",
+          "rules": "针对一个主张的反对意见里，有一半来自那些把它套用到你从未打算包含的情形上的人。请在一开始就明确地把线画好，并且指出：被排除掉的那种情形其实好得很。",
+          "flavor": "「在开始之前，我想强调：我谈的是那些你用来强化自己生物的、正面的生物结界。而那些用在对手生物身上的结界——从 Weakness 到 Persuasion——在所有实际意义上都是生物去除咒语；而那一类往往是相当好的。」"
+        },
+        {
+          "title": "人们爱它，是因为可以「搭」",
+          "rules": "「用零件把一样东西拼起来」这份吸引力，与拼出来的结果是否高效无关。只要你给的部件能够组合，你受众里相当大的一部分人就会去这么做——不管算术怎么说。",
+          "flavor": "「因为造东西很酷。你从一只无聊的老生物开始，往上扔两张生物结界，瞧——你有了一只怪物。」而第二个理由是：「它给了玩家一个当生物设计师的机会。通过把生物和生物结界混着搭配，玩家可以做出属于自己的、独一无二的造物。」"
+        },
+        {
+          "title": "去坐下来看真实的牌组",
+          "rules": "没有什么比「一副一副地看人们造出来的东西、而且本人就站在旁边」更能告诉你他们究竟在做什么。而那句你发现自己一再重复的建议，就是一项关于整个人群的发现。",
+          "flavor": "牌组诊室——在大型活动上，每位玩家五到十五分钟，讲他的牌组可以怎样变得更好。「做过很多次牌组诊室之后，我总结出了几句在合适的时候会用上的小格言。我最喜欢的一句是：『给你一条经验法则。你会想确保你的牌组里，生物比生物结界多。』」"
+        },
+        {
+          "title": "把那道让它变差的算术点出名字",
+          "rules": "「人们说它弱」是一份报告；而底下的那本账，才是真正的发现。一旦你能用一句话把这个缺陷说清楚，此后每一次修补的尝试，都可以拿它来核对。",
+          "flavor": "「牌张优势说的是：手上和场上牌最多的那个玩家会赢。而当一张牌能被用来消灭好几张别的牌时，打出这张牌的人就获得了牌张优势……当你把一张生物结界贴到一只生物身上时，你的对手就有了用一张生物去除咒语消灭掉两张牌的能力。因此，生物结界是反牌张优势的。」"
+        },
+        {
+          "title": "用所有角度去攻同一个缺陷，攻上好几年",
+          "rules": "一个结构性的问题不会得到一个解；它得到的是一份局部解的目录，而每一个都在不同的一次发布里被试过。而保有这份清单，正是让下一次尝试从上一次停下的地方开始的东西。",
+          "flavor": "九年里的九种路子：做成 cantrip 让它自己补回来；把生物做得大到在答案到来之前就赢下来；在生物死去时给你一份回报；让它回到手上；允许把它牺牲掉换一个效果；让这只生物不能被指定为目标；让它能用很少的费用闪回手上；让它自己也是一只生物；以及印一些「因为你打了它们而奖励你」的别的牌。"
+        },
+        {
+          "title": "有些牌的存在，是为了检验一个假设",
+          "rules": "把那个唯一目的就是回答一个关于这个游戏的问题的设计印出来，然后诚实地读出那个答案。一张失败了的概念牌，依然是一次给出了结果的实验。",
+          "flavor": "《放逐》里的 Bequeathal。「有时候研发部之所以做一张牌，是因为它在检验一个假设。如果生物结界之所以有问题，是因为它们造成牌张劣势；那么，如果我们做一张在被摧毁时会把你刚失去的那两张牌补回来的生物结界呢？这是个有意思的点子，可它最终因为一个非常基本的理由失败了：它什么都没做……唉，活到老学到老。」"
+        },
+        {
+          "title": "如果这个循环需要一个并不存在的指涉对象，那就把它造出来",
+          "rules": "一组五样、各自指向五位著名前辈的东西，会因为其中一位前辈从来没被印出来过而失败。而解法不是放弃这个循环——而是把那个缺失的成员，加进同一个系列里去。",
+          "flavor": "那组 embrace 分别是「把我变成瑟拉」「把我变成森吉尔」「把我变成希瓦」「把我变成（自然）之力」。「可蓝色那张呢？啊哈，问题就在这儿。当时没有一只适合这个循环的大型蓝色生物。那我们是怎么解决的呢？我们把那只大生物——Zephid——和这些 embrace 一起放进了 Urza's Saga。于是蓝色那张就成了『把我变成 Zephid』。」"
+        },
+        {
+          "title": "机构的记忆会自相矛盾",
+          "rules": "两拨当时在同一间屋子里的人，会记得截然相反的结果；而他们都没有在撒谎。当记录已经不在时，诚实的答案就是「没有人知道」——而这一点值得公开说出来。",
+          "flavor": "关于 Rancor 的费用究竟是一个决定还是一次排版事故，比尔·罗斯说：「简短的答案是：我不知道。没有人会知道……主张把 Rancor 定在[一点绿]的那一方认为它会很好，但不会坏掉。[一点绿]那一派相信是他们赢了……[三点法术力]那一派相信是他们赢了，只是首席开发者忘了改送去排版的那份文件。」而他自己的判词是：「如果给我一台时间机器，我会把它定在[两点法术力]。」"
+        },
+        {
+          "title": "公开地邀请对方来反驳",
+          "rules": "当一位同事对同一段往事记得不一样时，把你自己的渠道让给他，比由你来裁决更有力。这不会让你失去任何你该想留住的东西；而那份分歧本身，才是有意思的地方。",
+          "flavor": "「那条『Ask Wizards』问答发布的第二天，麦克·艾略特来找我——他是 Urza's Legacy 的首席设计师，也是它的开发者之一。麦克问他能不能反驳比尔的答案……我说当然可以。『写封信给 Ask Wizards，你可以自己回它。』你们得明白：我是完全认真的。所以我在这儿公开点名麦克。喂麦克，把那封信写了！」"
+        },
+        {
+          "title": "把这两块对调，而不是硬去圆",
+          "rules": "当两份约稿各自更适合对方的位置时，别去找理由圆过去——把它们换过来。后果会一路荡开（名字、说明），可这依然比发布两样都不太对劲的东西便宜。",
+          "flavor": "那幅刺青的画，本来是为一张瞬间约的稿。「我的对手朝我的鬼怪扔了一张 Lightning Bolt，于是我赶紧跑过去，开始给它文身。『我得快点弄，所以大概会有点疼。』」可是「一个有魔力的刺青，用在生物结界上就非常说得通了……我们觉得这两张牌的机制，都和对方那张牌的画更配，于是我们把它们换了过来。而这当然也逼着我们改了名字。」"
+        },
+        {
+          "title": "设计师的特权，就是把那张牌做出来",
+          "rules": "任何一项爱好里的每一个人，都偶尔会想要一样并不存在的东西。而这份工作的不同之处在于：那个愿望，和实现它的机制，属于同一个人。",
+          "flavor": "「顺带一提，这是当万智牌设计师最大的福利之一。很多玩家会时不时地因为某个他们真心想要的效果并不存在而恼火——因为它放进某副牌里会完美无比。而当一位万智牌设计师产生这种感觉时，他就直接把那张牌做出来，塞进下一个系列里。」于是有了 Diplomatic Immunity：「你不能指定我的生物，你也不能指定我，气死你！」"
+        },
+        {
+          "title": "同时抛着太多球，就是你漏掉显而易见之物的方式",
+          "rules": "复杂工作里的错误，通常不是专业能力的失败；它们是「同时端着太多东西」的代价。而你漏掉的那件事会很简单，并且任何一个心平气和读过去的人都看得见。",
+          "flavor": "Flickering Ward 会给予对某个选定颜色的保护——而选白色，会让这只生物把身上所有白色结界都弹掉，包括 Flickering Ward 自己。「我们忘了那句老的『本牌的异能不影响自身』的文字。」勘误在 1999 年春天才发出。「做设计和开发最难的部分之一，就是你同时抛着太多球，以至于有时候会忘掉那些最简单的事。」"
+        },
+        {
+          "title": "先去测那个更有野心的版本——你随时可以退回来",
+          "rules": "当你要在一个复杂的提案和一个简单的提案之间做选择时，请去跑那个复杂的。你能从它那里学到更多，而那个简单的版本依然在；反过来的顺序，什么都教不了你。",
+          "flavor": "虱怪当时存在两个版本——麦克·艾略特的那个，它们会变形；以及罗斯瓦特的那个，它们只是以生物或结界的形态进场。「作为团队的首席设计师，我介入了。我说麦克的版本要复杂得多。我觉得我们从先打麦克的那个版本里能学到更多。如果它被证明太复杂，我们随时可以退回到我那个更简单的版本。」"
+        },
+        {
+          "title": "用收买，而不是用强迫",
+          "rules": "你没法逼人们去用他们已经认定为弱的那样东西。可你能做出另一些「因为他们用了它而付钱给他们」的东西——而这份报价，远比那套论证有效。",
+          "flavor": "「作为一个小女孩的父亲，我学到了一条宝贵的经验：有时候贿赂能把事办成（而且伴随的又哭又闹要少得多）；所以有时候我们会做一些用额外好处来『收买』你去打别的牌的牌。」Urza's Destiny 里满是这类牌：Fledgling Osprey、Metathran Elite、Tethered Griffin、Thran Golem、Yavimaya Enchantress。"
+        },
+        {
+          "title": "拿真实的受众去测这个词",
+          "rules": "一个你喜欢的词，并不等于一个你的读者认识的词。去问五十个人这个词的定义；如果没有一个人说得出来，那这个词就是装饰品——而它该待的地方，是比一张普通牌更不常见的地方。",
+          "flavor": "「在做《奥德赛》的命名工作时，我在办公室里挨个问人：'hermetic' 是什么意思。五十多个人里，没有一个知道我要的那个义项。零个。作为一个写东西的人，我偶尔喜欢用个大词。但不是用在普通牌上，也不是用一个我们受众里能有可能知道的还不到百分之一的词。就因为这个理由，我们把名字改掉了。」Hermetic Study 变成了 Psionic Gift。"
+        }
+      ]
+    }
+  }
+}
