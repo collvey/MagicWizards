@@ -1,0 +1,372 @@
+{
+  "id": "cog-wild-2004-05-24",
+  "slug": "cog-wild-2004-05-24",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2004-05-24",
+  "series": null,
+  "tags": ["fifth-dawn", "cogs", "stations", "rube-goldberg", "design-process"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/cog-wild-2004-05-24",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-27T01:00:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "W" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "G" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "U" },
+    { "n": 11, "color": "U" },
+    { "n": 12, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Cog Wild",
+      "dek": "Machine Week: where Fifth Dawn's cogs and gears came from, quoted straight out of the design team's mid-design email.",
+      "overview": "Fifth Dawn was the only design team ever run by email, so this is an unusually literal record — the mechanics memo, the card files at handoff, and Aaron Forsythe's report on how hard the gears were to build. Ends on a cliffhanger handed to another columnist.",
+      "takeaway": "The gears are an engine loop built out of engine cards. Each one is individually a card you can build a deck around; link two or three for chains of effects; assemble all of them and the loop is infinite.",
+      "lessons": [
+        {
+          "title": "The medium left a record",
+          "rules": "How a team communicates decides what survives of its thinking. A process run in writing produces an archive nobody set out to create, and years later that archive is the only honest account of what was intended.",
+          "flavor": "\"Fifth Dawn is the only design team ever run through e-mail so I have all kinds of moments of design captured in print.\" The column quotes his mid-design memo verbatim, then annotates it with what actually happened."
+        },
+        {
+          "title": "Break the theme into functions and size them",
+          "rules": "A vague feeling — here, the machine feel of old artifact decks clicking together — becomes workable when split into named mechanical functions, each with a rough card count attached before anything is designed.",
+          "flavor": "Eight of them: Goldberg cards, on/off, wands, animated, cogs, engine cards, batteries, spouts. \"(4-6 cards) Rarity: uncommon & rare.\" With the caveat that the numbers will change, things will get cut, and cards will overlap."
+        },
+        {
+          "title": "Trade for the card that fits your theme",
+          "rules": "Another team's file can contain exactly what your set needs. Seeing it means recognising your own theme in someone else's work — and then being willing to give up something to get it.",
+          "flavor": "He spotted All Suns' Dawn in the Darksteel file, added in development after his design stint. Regrow a card of each colour — cards rewarding five-colour decks, which was his theme. He talked Henry Stern into trading it for what became Thunderstaff."
+        },
+        {
+          "title": "A good mechanic pointed the wrong way",
+          "rules": "Whether a mechanic is worth keeping depends on the behaviour it produces, not on whether it works. One that pushes players toward a shape the set isn't about has to go however well it plays.",
+          "flavor": "The wands were artifacts with two activations, each using a different colour. \"In the end, these cards were killed because they promoted two colour play rather than five colour play.\""
+        },
+        {
+          "title": "The word arrived before the mechanic",
+          "rules": "Writing down the vocabulary of a real-world thing is a way to find design space. A word that carries private meaning for you will do more work than a word that merely fits the theme.",
+          "flavor": "Listing machine words — gears, engine — he hit \"cog\", which sent him back to being a Hollywood production assistant. \"We were cogs. We were cheap and easily replaceable but if one of us was missing when you needed us, all hell could break loose.\""
+        },
+        {
+          "title": "What a cog is in Magic",
+          "rules": "Translate the metaphor into the game's own terms and it tells you both halves of the design: the humble pieces, and the cards that make the humble pieces matter.",
+          "flavor": "The cheap little artifacts, costing zero or one, that do all the grunt work without any of the credit. Plus cog-helpers — cards that let you get extra use out of them. Early attempts: Cog Collector, Medical Kit, Cogswell Cog Swapper, Adrenaline Shot, Myr Temp."
+        },
+        {
+          "title": "Where the helpers went, and why",
+          "rules": "Playtesting can move a whole category to a different card type. And once you're handing out access to a shared resource, the assignments should answer each other rather than be decided one at a time.",
+          "flavor": "Two findings: more cogs needed, and cog-helpers were better suited to coloured cards. White became the artifact-retrieval colour, pulling them from the graveyard — see also Bringer of the White Dawn. \"If white had access to the graveyard, it seemed only fair to give blue access to the library.\""
+        },
+        {
+          "title": "One cycle, two tiers",
+          "rules": "To raise the count of a category quickly, build a common cycle on a single template: a lesser version of the effect for colourless mana and a stronger version for coloured, so one card serves two decks.",
+          "flavor": "Medical Kit, Spit Stone, Syphon Trinket, Energy Pill, Lotus Stem — each with the coloured mode adding \"draw a card\". And his own favourite cog, Myr Temp: \"X: becomes an X/X artifact creature. At end of turn, sacrifice it.\" You know it as Chimeric Coils."
+        },
+        {
+          "title": "Re-read your own notes",
+          "rules": "Asking a team to write down what they like about a thing produces material worth mining — including your own answer. The spark can come from your own sentence, read back a second time.",
+          "flavor": "He'd asked everyone to email what they liked about artifacts. His own reply described machine decks that kill \"with some Rube Goldberg kill mechanism\" — Stone Calendar, Candelabra of Tawnos, Rocket Launcher, Ashnod's Altar, The Hive. Re-reading that line produced the gears."
+        },
+        {
+          "title": "An engine loop made of engine cards",
+          "rules": "The signal that a structure is worth pursuing is when it works at two scales at once: each piece is a build-around on its own, and the whole assembly is a build-around too.",
+          "flavor": "\"An engine loop made out of engine cards. That set off my inner designer alarm.\" Two or three gears give you chains of effects. All of them in play gives an infinite loop. His pitch email was one card and one paragraph; the team spent the rest of the day answering it with cards that untapped each other."
+        },
+        {
+          "title": "Some triggers are elegant and some aren't",
+          "rules": "In a chain, every trigger must be clean, frequent and unambiguous. Permanents entering and leaving play work. Discarding, gaining life, milling and shuffling are awkward enough to be worth redesigning around.",
+          "flavor": "Aaron Forsythe: \"I left off milling and shuffling, as those make inelegant triggers (especially shuffling. No combo kill should involve shuffling 20 times).\" Rosewater then dropped the gain-life and discard triggers too, and changed Infuser Gear to sacrifice artifacts so it could sacrifice itself as part of the chain."
+        },
+        {
+          "title": "Interlocking cards resist local edits",
+          "rules": "When a cycle's members are each other's triggers, no single member can be adjusted in isolation. Killing one, raising one cost, changing one ability — each of these edits the whole machine.",
+          "flavor": "Aaron's handoff note: \"Best wishes to development with these. They can't randomly kill one, or add mana to the activation, or change one ability without looking at the big — and impractical — picture.\" Six cards took him over two hours, \"and they're still a little scary.\""
+        }
+      ]
+    },
+    "es": {
+      "title": "Engranaje suelto",
+      "dek": "Semana de las Máquinas: de dónde salieron los cogs y los gears de Fifth Dawn, citado directamente del correo interno del equipo de diseño.",
+      "overview": "Fifth Dawn fue el único equipo de diseño dirigido por correo electrónico, así que este es un registro inusualmente literal: el memorando de mecánicas, los archivos de cartas en el traspaso y el informe de Aaron Forsythe sobre lo difíciles que fueron los gears. Termina con un final abierto cedido a otro columnista.",
+      "takeaway": "Los gears son un bucle de motor construido con cartas motor. Cada uno es, por separado, una carta alrededor de la cual construir; enlaza dos o tres y obtienes cadenas de efectos; júntalos todos y el bucle es infinito.",
+      "lessons": [
+        {
+          "title": "El medio dejó un registro",
+          "rules": "Cómo se comunica un equipo decide qué sobrevive de su pensamiento. Un proceso llevado por escrito produce un archivo que nadie se propuso crear, y años después ese archivo es el único relato honesto de lo que se pretendía.",
+          "flavor": "«Fifth Dawn es el único equipo de diseño dirigido por correo, así que tengo toda clase de momentos del diseño capturados por escrito». La columna cita su memorando de mitad de diseño literalmente y luego lo anota con lo que de verdad ocurrió."
+        },
+        {
+          "title": "Divide el tema en funciones y dales tamaño",
+          "rules": "Una sensación vaga —aquí, el aire de máquina de los viejos mazos de artefactos encajando entre sí— se vuelve operable al partirla en funciones mecánicas con nombre, cada una con un recuento aproximado de cartas antes de diseñar nada.",
+          "flavor": "Ocho: cartas Goldberg, encendido/apagado, varitas, animadas, cogs, cartas motor, baterías y grifos. «(4-6 cartas) Rareza: infrecuente y rara». Con la advertencia de que los números cambiarán, se cortarán cosas y habrá cartas que se solapen."
+        },
+        {
+          "title": "Cambia por la carta que encaja con tu tema",
+          "rules": "El archivo de otro equipo puede contener justo lo que tu colección necesita. Verlo significa reconocer tu propio tema en el trabajo ajeno, y luego estar dispuesto a ceder algo para conseguirlo.",
+          "flavor": "Vio All Suns' Dawn en el archivo de Darksteel, añadida en desarrollo después de su paso por el diseño. Regenerar una carta de cada color: cartas que premian los mazos de cinco colores, es decir, su tema. Convenció a Henry Stern de cambiársela por lo que hoy es Thunderstaff."
+        },
+        {
+          "title": "Una buena mecánica apuntando hacia el lado equivocado",
+          "rules": "Que una mecánica merezca conservarse depende del comportamiento que produce, no de si funciona. La que empuja a los jugadores hacia una forma que no es de lo que va la colección tiene que irse por bien que juegue.",
+          "flavor": "Las varitas eran artefactos con dos activaciones, cada una usando un color distinto. «Al final, estas cartas se mataron porque promovían el juego a dos colores en vez del juego a cinco colores»."
+        },
+        {
+          "title": "La palabra llegó antes que la mecánica",
+          "rules": "Anotar el vocabulario de algo del mundo real es una manera de encontrar espacio de diseño. Una palabra que arrastra un significado privado para ti rendirá más que otra que solo encaje con el tema.",
+          "flavor": "Listando palabras de máquina —engranajes, motor— dio con «cog», y eso lo devolvió a sus días de asistente de producción en Hollywood. «Éramos cogs. Éramos baratos y fácilmente reemplazables, pero si faltaba uno cuando lo necesitabas, se podía desatar el infierno»."
+        },
+        {
+          "title": "Qué es un cog en Magic",
+          "rules": "Traduce la metáfora a los términos del propio juego y te dará las dos mitades del diseño: las piezas humildes, y las cartas que hacen que esas piezas humildes importen.",
+          "flavor": "Los artefactillos baratos, de coste cero o uno, que hacen todo el trabajo sucio sin llevarse nada del mérito. Más los cog-helpers: cartas que te permiten sacarles un uso extra. Primeros intentos: Cog Collector, Medical Kit, Cogswell Cog Swapper, Adrenaline Shot, Myr Temp."
+        },
+        {
+          "title": "Adónde fueron los ayudantes, y por qué",
+          "rules": "Las pruebas pueden mover una categoría entera a otro tipo de carta. Y cuando repartes acceso a un recurso compartido, las asignaciones deben responderse entre sí en lugar de decidirse una a una.",
+          "flavor": "Dos hallazgos: hacían falta más cogs, y los cog-helpers encajaban mejor como cartas de color. El blanco pasó a ser el color de recuperar artefactos del cementerio; véase también Bringer of the White Dawn. «Si el blanco tenía acceso al cementerio, parecía justo darle al azul acceso a la biblioteca»."
+        },
+        {
+          "title": "Un ciclo, dos niveles",
+          "rules": "Para subir rápido el recuento de una categoría, construye un ciclo común sobre una sola plantilla: una versión menor del efecto con maná incoloro y una mayor con maná de color, de modo que una carta sirva a dos mazos.",
+          "flavor": "Medical Kit, Spit Stone, Syphon Trinket, Energy Pill, Lotus Stem, cada uno con el modo de color añadiendo «roba una carta». Y su cog favorito, Myr Temp: «X: se convierte en una criatura artefacto X/X. Al final del turno, sacrifícala». Lo conoces como Chimeric Coils."
+        },
+        {
+          "title": "Relee tus propias notas",
+          "rules": "Pedir al equipo que escriba qué le gusta de algo produce material aprovechable, incluida tu propia respuesta. La chispa puede salir de tu propia frase, leída una segunda vez.",
+          "flavor": "Había pedido a todos que escribieran qué les gustaba de los artefactos. Su propia respuesta describía mazos máquina que matan «con algún mecanismo tipo Rube Goldberg»: Stone Calendar, Candelabra of Tawnos, Rocket Launcher, Ashnod's Altar, The Hive. Releer esa línea produjo los gears."
+        },
+        {
+          "title": "Un bucle de motor hecho de cartas motor",
+          "rules": "La señal de que una estructura merece perseguirse es que funcione a dos escalas a la vez: cada pieza es por sí sola una carta alrededor de la cual construir, y el conjunto entero también lo es.",
+          "flavor": "«Un bucle de motor hecho de cartas motor. Eso disparó mi alarma interior de diseñador». Dos o tres gears te dan cadenas de efectos. Todos en juego, un bucle infinito. Su correo de propuesta fue una carta y un párrafo; el equipo pasó el resto del día respondiéndolo con cartas que se enderezaban unas a otras."
+        },
+        {
+          "title": "Hay disparadores elegantes y disparadores que no",
+          "rules": "En una cadena, cada disparador debe ser limpio, frecuente e inequívoco. Los permanentes que entran y salen del juego funcionan. Descartar, ganar vida, moler y barajar son lo bastante torpes como para rediseñar a su alrededor.",
+          "flavor": "Aaron Forsythe: «Dejé fuera moler y barajar, porque son disparadores poco elegantes (sobre todo barajar. Ninguna muerte por combo debería implicar barajar 20 veces)». Rosewater quitó luego también los de ganar vida y descartar, y cambió Infuser Gear para sacrificar artefactos, de modo que pudiera sacrificarse a sí mismo dentro de la cadena."
+        },
+        {
+          "title": "Las cartas entrelazadas resisten las ediciones locales",
+          "rules": "Cuando los miembros de un ciclo son los disparadores unos de otros, ninguno puede ajustarse por separado. Matar uno, subir un coste, cambiar una habilidad: cada una de esas ediciones edita la máquina entera.",
+          "flavor": "La nota de traspaso de Aaron: «Mucha suerte a desarrollo con esto. No pueden matar una al azar, ni añadir maná a la activación, ni cambiar una habilidad sin mirar el panorama completo, y poco práctico». Seis cartas le costaron más de dos horas, «y siguen dando un poco de miedo»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Rouage libre",
+      "dek": "Semaine des Machines : d'où viennent les cogs et les gears de Fifth Dawn, cité tel quel dans le courriel interne de l'équipe de conception.",
+      "overview": "Fifth Dawn fut la seule équipe de conception menée par courriel : le compte rendu est donc exceptionnellement littéral — la note sur les mécaniques, les fichiers de cartes à la livraison, et le rapport d'Aaron Forsythe sur la difficulté des gears. Se termine sur un suspense confié à un autre chroniqueur.",
+      "takeaway": "Les gears forment une boucle de moteur construite avec des cartes-moteur. Chacune est à elle seule une carte autour de laquelle bâtir ; deux ou trois donnent des chaînes d'effets ; toutes réunies, la boucle est infinie.",
+      "lessons": [
+        {
+          "title": "Le médium a laissé une archive",
+          "rules": "La façon dont une équipe communique décide de ce qui survit de sa pensée. Un processus mené par écrit produit une archive que personne n'a voulue, et des années plus tard c'est le seul récit honnête des intentions.",
+          "flavor": "« Fifth Dawn est la seule équipe de conception menée par courriel, j'ai donc toutes sortes de moments de conception fixés à l'écrit. » La chronique cite sa note de mi-parcours mot pour mot, puis l'annote avec ce qui est réellement arrivé."
+        },
+        {
+          "title": "Découpez le thème en fonctions, et dimensionnez-les",
+          "rules": "Une sensation vague — ici, l'air de machine des vieux decks d'artefacts qui s'emboîtent — devient exploitable une fois découpée en fonctions mécaniques nommées, chacune assortie d'un nombre approximatif de cartes avant toute conception.",
+          "flavor": "Huit : cartes Goldberg, marche/arrêt, baguettes, animées, cogs, cartes-moteur, batteries, robinets. « (4-6 cartes) Rareté : inhabituelle et rare. » Avec l'avertissement que les nombres bougeront, que des choses seront coupées et que des cartes se chevaucheront."
+        },
+        {
+          "title": "Échangez contre la carte qui colle à votre thème",
+          "rules": "Le fichier d'une autre équipe peut contenir exactement ce dont votre extension a besoin. Le voir, c'est reconnaître son propre thème dans le travail d'autrui — puis accepter de céder quelque chose pour l'obtenir.",
+          "flavor": "Il a repéré All Suns' Dawn dans le fichier de Darksteel, ajoutée en développement après son passage en conception. Régénérer une carte de chaque couleur : des cartes qui récompensent les decks cinq couleurs, soit son thème. Il a convaincu Henry Stern de l'échanger contre ce qui est devenu Thunderstaff."
+        },
+        {
+          "title": "Une bonne mécanique pointée du mauvais côté",
+          "rules": "Qu'une mécanique mérite d'être gardée dépend du comportement qu'elle produit, non de son bon fonctionnement. Celle qui pousse les joueurs vers une forme étrangère au propos de l'extension doit partir, si bien joue-t-elle.",
+          "flavor": "Les baguettes étaient des artefacts à deux activations, chacune utilisant une couleur différente. « Au final, ces cartes ont été tuées parce qu'elles favorisaient le jeu bicolore plutôt que le jeu à cinq couleurs. »"
+        },
+        {
+          "title": "Le mot est arrivé avant la mécanique",
+          "rules": "Écrire le vocabulaire d'une chose réelle est un moyen de trouver de l'espace de conception. Un mot chargé d'un sens intime pour vous travaillera mieux qu'un mot qui colle simplement au thème.",
+          "flavor": "En listant des mots de machine — rouages, moteur — il tombe sur « cog », ce qui le renvoie à ses années d'assistant de production à Hollywood. « Nous étions des rouages. Bon marché et remplaçables, mais qu'il en manque un au mauvais moment et tout pouvait tourner à la catastrophe. »"
+        },
+        {
+          "title": "Ce qu'est un rouage dans Magic",
+          "rules": "Traduisez la métaphore dans les termes propres du jeu et elle vous livre les deux moitiés du design : les pièces modestes, et les cartes qui rendent ces pièces modestes importantes.",
+          "flavor": "Les petits artefacts bon marché, à zéro ou un mana, qui font toute la corvée sans en tirer le moindre crédit. Plus les cog-helpers, cartes qui permettent d'en tirer un usage supplémentaire. Premiers essais : Cog Collector, Medical Kit, Cogswell Cog Swapper, Adrenaline Shot, Myr Temp."
+        },
+        {
+          "title": "Où sont partis les auxiliaires, et pourquoi",
+          "rules": "Les tests peuvent déplacer toute une catégorie vers un autre type de carte. Et dès qu'on distribue l'accès à une ressource commune, les attributions doivent se répondre plutôt que d'être décidées une par une.",
+          "flavor": "Deux constats : il fallait plus de cogs, et les cog-helpers convenaient mieux en cartes colorées. Le blanc devint la couleur de la récupération d'artefacts depuis le cimetière — voir aussi Bringer of the White Dawn. « Si le blanc avait accès au cimetière, il semblait juste de donner au bleu accès à la bibliothèque. »"
+        },
+        {
+          "title": "Un cycle, deux niveaux",
+          "rules": "Pour gonfler vite l'effectif d'une catégorie, bâtissez un cycle commun sur un même gabarit : une version moindre de l'effet en mana incolore et une version plus forte en mana coloré, de sorte qu'une carte serve deux decks.",
+          "flavor": "Medical Kit, Spit Stone, Syphon Trinket, Energy Pill, Lotus Stem — le mode coloré ajoutant à chaque fois « piochez une carte ». Et son cog préféré, Myr Temp : « X : devient une créature-artefact X/X. À la fin du tour, sacrifiez-la. » Vous la connaissez sous le nom de Chimeric Coils."
+        },
+        {
+          "title": "Relisez vos propres notes",
+          "rules": "Demander à une équipe d'écrire ce qu'elle aime dans une chose produit de la matière exploitable — y compris votre propre réponse. L'étincelle peut venir de votre phrase, relue une seconde fois.",
+          "flavor": "Il avait demandé à chacun d'écrire ce qu'il aimait dans les artefacts. Sa propre réponse décrivait des decks-machines qui tuent « par un mécanisme à la Rube Goldberg » : Stone Calendar, Candelabra of Tawnos, Rocket Launcher, Ashnod's Altar, The Hive. Relire cette ligne a produit les gears."
+        },
+        {
+          "title": "Une boucle de moteur faite de cartes-moteur",
+          "rules": "Le signe qu'une structure vaut d'être poursuivie, c'est qu'elle fonctionne à deux échelles à la fois : chaque pièce est à elle seule une carte autour de laquelle bâtir, et l'assemblage entier l'est aussi.",
+          "flavor": "« Une boucle de moteur faite de cartes-moteur. Cela a déclenché mon alarme intérieure de concepteur. » Deux ou trois gears donnent des chaînes d'effets. Toutes en jeu donnent une boucle infinie. Son courriel de lancement tenait en une carte et un paragraphe ; l'équipe a passé la journée à y répondre par des cartes qui se dégageaient l'une l'autre."
+        },
+        {
+          "title": "Il y a des déclencheurs élégants et d'autres non",
+          "rules": "Dans une chaîne, chaque déclencheur doit être net, fréquent et sans ambiguïté. Les permanents qui entrent et sortent du jeu marchent. Défausser, gagner de la vie, meuler et mélanger sont assez lourds pour qu'on redessine autour.",
+          "flavor": "Aaron Forsythe : « J'ai laissé de côté le meulage et le mélange, qui font des déclencheurs inélégants (surtout le mélange. Aucune victoire par combo ne devrait impliquer de mélanger 20 fois). » Rosewater a ensuite supprimé aussi le gain de vie et la défausse, et fait sacrifier des artefacts à l'Infuser Gear pour qu'il puisse se sacrifier lui-même dans la chaîne."
+        },
+        {
+          "title": "Des cartes imbriquées résistent aux retouches locales",
+          "rules": "Quand les membres d'un cycle sont les déclencheurs les uns des autres, aucun ne peut être ajusté isolément. En tuer un, monter un coût, changer une capacité : chacune de ces retouches modifie la machine entière.",
+          "flavor": "La note de livraison d'Aaron : « Bon courage au développement. Ils ne peuvent pas en tuer une au hasard, ni ajouter du mana à l'activation, ni changer une capacité sans regarder le tableau d'ensemble — et peu commode. » Six cartes lui ont pris plus de deux heures, « et elles font encore un peu peur »."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Engrenagem solta",
+      "dek": "Semana das Máquinas: de onde vieram os cogs e os gears de Fifth Dawn, citado direto do e-mail interno da equipe de design.",
+      "overview": "Fifth Dawn foi a única equipe de design conduzida por e-mail, então este é um registro incomumente literal — o memorando de mecânicas, os arquivos de cartas na entrega, e o relatório de Aaron Forsythe sobre o quanto os gears deram trabalho. Termina num gancho passado a outro colunista.",
+      "takeaway": "Os gears são um laço de motor construído com cartas-motor. Cada um é, sozinho, uma carta em torno da qual se constrói; ligue dois ou três e você tem cadeias de efeitos; junte todos e o laço é infinito.",
+      "lessons": [
+        {
+          "title": "O meio deixou um registro",
+          "rules": "Como uma equipe se comunica decide o que sobrevive do seu pensamento. Um processo conduzido por escrito produz um arquivo que ninguém se propôs a criar, e anos depois esse arquivo é o único relato honesto do que se pretendia.",
+          "flavor": "«Fifth Dawn é a única equipe de design conduzida por e-mail, então tenho todo tipo de momento do design registrado por escrito.» A coluna cita o memorando de meio de design literalmente e depois o anota com o que de fato aconteceu."
+        },
+        {
+          "title": "Quebre o tema em funções e dimensione cada uma",
+          "rules": "Uma sensação vaga — aqui, o ar de máquina dos velhos baralhos de artefato se encaixando — vira operável ao ser partida em funções mecânicas nomeadas, cada uma com uma contagem aproximada de cartas antes de qualquer design.",
+          "flavor": "Oito: cartas Goldberg, liga/desliga, varinhas, animadas, cogs, cartas-motor, baterias e torneiras. «(4-6 cartas) Raridade: incomum e rara.» Com a ressalva de que os números mudarão, coisas serão cortadas e haverá cartas se sobrepondo."
+        },
+        {
+          "title": "Troque pela carta que combina com seu tema",
+          "rules": "O arquivo de outra equipe pode conter exatamente o que sua coleção precisa. Enxergar isso significa reconhecer o próprio tema no trabalho alheio — e então topar abrir mão de algo para consegui-lo.",
+          "flavor": "Ele viu All Suns' Dawn no arquivo de Darksteel, acrescentada no desenvolvimento depois da passagem dele pelo design. Recuperar uma carta de cada cor: cartas que premiam baralhos de cinco cores, ou seja, o tema dele. Convenceu Henry Stern a trocá-la pelo que virou Thunderstaff."
+        },
+        {
+          "title": "Uma boa mecânica apontada para o lado errado",
+          "rules": "Se uma mecânica merece ficar depende do comportamento que produz, não de ela funcionar. A que empurra jogadores para um formato que não é o assunto da coleção precisa sair, por melhor que jogue.",
+          "flavor": "As varinhas eram artefatos com duas ativações, cada uma usando uma cor diferente. «No fim, essas cartas foram mortas porque promoviam jogo de duas cores em vez de jogo de cinco cores.»"
+        },
+        {
+          "title": "A palavra chegou antes da mecânica",
+          "rules": "Anotar o vocabulário de uma coisa do mundo real é um jeito de achar espaço de design. Uma palavra que carrega um sentido particular para você rende mais que uma que apenas combina com o tema.",
+          "flavor": "Listando palavras de máquina — engrenagens, motor — ele esbarrou em «cog», e isso o levou de volta aos dias de assistente de produção em Hollywood. «Éramos engrenagens. Baratos e facilmente substituíveis, mas se faltasse um na hora errada, o inferno podia se abrir.»"
+        },
+        {
+          "title": "O que é um cog em Magic",
+          "rules": "Traduza a metáfora para os termos do próprio jogo e ela entrega as duas metades do design: as peças humildes, e as cartas que fazem as peças humildes importarem.",
+          "flavor": "Os artefatinhos baratos, de custo zero ou um, que fazem todo o trabalho pesado sem receber crédito nenhum. Mais os cog-helpers: cartas que permitem tirar um uso extra deles. Primeiras tentativas: Cog Collector, Medical Kit, Cogswell Cog Swapper, Adrenaline Shot, Myr Temp."
+        },
+        {
+          "title": "Para onde foram os ajudantes, e por quê",
+          "rules": "Testes podem mover uma categoria inteira para outro tipo de carta. E quando você distribui acesso a um recurso compartilhado, as atribuições devem se responder em vez de serem decididas uma a uma.",
+          "flavor": "Duas conclusões: faltavam cogs, e os cog-helpers ficavam melhores como cartas coloridas. O branco virou a cor de recuperar artefatos do cemitério — veja também Bringer of the White Dawn. «Se o branco tinha acesso ao cemitério, parecia justo dar ao azul acesso ao grimório.»"
+        },
+        {
+          "title": "Um ciclo, dois níveis",
+          "rules": "Para aumentar rápido a contagem de uma categoria, construa um ciclo comum sobre um único modelo: uma versão menor do efeito com mana incolor e uma mais forte com mana colorido, de modo que uma carta sirva a dois baralhos.",
+          "flavor": "Medical Kit, Spit Stone, Syphon Trinket, Energy Pill, Lotus Stem — o modo colorido acrescentando sempre «compre um card». E o cog favorito dele, Myr Temp: «X: torna-se uma criatura artefato X/X. No final do turno, sacrifique-a.» Você a conhece como Chimeric Coils."
+        },
+        {
+          "title": "Releia suas próprias anotações",
+          "rules": "Pedir à equipe que escreva o que gosta em algo produz material aproveitável — inclusive a sua própria resposta. A faísca pode vir da sua própria frase, lida uma segunda vez.",
+          "flavor": "Ele pedira a todos que escrevessem o que gostavam em artefatos. A própria resposta descrevia baralhos-máquina que matam «com algum mecanismo tipo Rube Goldberg»: Stone Calendar, Candelabra of Tawnos, Rocket Launcher, Ashnod's Altar, The Hive. Reler essa linha produziu os gears."
+        },
+        {
+          "title": "Um laço de motor feito de cartas-motor",
+          "rules": "O sinal de que uma estrutura vale a pena é ela funcionar em duas escalas ao mesmo tempo: cada peça é sozinha uma carta em torno da qual construir, e o conjunto inteiro também é.",
+          "flavor": "«Um laço de motor feito de cartas-motor. Isso disparou meu alarme interno de designer.» Dois ou três gears dão cadeias de efeitos. Todos em jogo dão um laço infinito. O e-mail de proposta tinha uma carta e um parágrafo; a equipe passou o resto do dia respondendo com cartas que desviravam umas às outras."
+        },
+        {
+          "title": "Há gatilhos elegantes e gatilhos que não são",
+          "rules": "Numa cadeia, todo gatilho precisa ser limpo, frequente e inequívoco. Permanentes entrando e saindo do jogo funcionam. Descartar, ganhar vida, moer e embaralhar são desajeitados o bastante para se redesenhar em torno.",
+          "flavor": "Aaron Forsythe: «Deixei de fora moer e embaralhar, que dão gatilhos deselegantes (principalmente embaralhar. Nenhuma vitória por combo deveria envolver embaralhar 20 vezes).» Rosewater depois cortou também ganhar vida e descartar, e mudou o Infuser Gear para sacrificar artefatos, de modo que pudesse sacrificar a si mesmo dentro da cadeia."
+        },
+        {
+          "title": "Cartas entrelaçadas resistem a edições locais",
+          "rules": "Quando os membros de um ciclo são gatilhos uns dos outros, nenhum pode ser ajustado isoladamente. Matar um, subir um custo, mudar uma habilidade: cada uma dessas edições edita a máquina inteira.",
+          "flavor": "O bilhete de entrega de Aaron: «Boa sorte ao desenvolvimento com estas. Eles não podem matar uma ao acaso, nem acrescentar mana à ativação, nem mudar uma habilidade sem olhar o quadro geral — e nada prático.» Seis cartas lhe tomaram mais de duas horas, «e ainda assustam um pouco»."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "齿轮脱扣",
+      "dek": "机械周：第五纪的「小齿轮」和「大齿轮」是从哪来的——直接引自设计团队设计中期的那封内部邮件。",
+      "overview": "第五纪是唯一一个全程靠电子邮件运作的设计团队，所以这是一份罕见地逐字留存的记录：机制备忘录、交接时的牌张文件，以及亚伦·福赛斯关于「大齿轮有多难做」的汇报。文章结尾还留了个悬念，交给另一位专栏作者去接。",
+      "takeaway": "那组大齿轮是一个「用引擎牌搭出来的引擎循环」。每一张单独拿出来都能围着它搭一副牌；连上两三张就能形成效果链条；全部凑齐，这个循环就是无限的。",
+      "lessons": [
+        {
+          "title": "媒介留下了档案",
+          "rules": "一个团队用什么方式沟通，决定了它的思考能留下多少。以书面进行的流程会产生一份没人打算创建的档案；而许多年之后，那份档案就是关于「当初到底想干什么」唯一诚实的记录。",
+          "flavor": "「第五纪是唯一一个全程通过邮件运作的设计团队，所以我手上有各种被白纸黑字定格下来的设计瞬间。」这篇专栏逐字引用了他设计中期的备忘录，再逐条注上后来实际发生的事。"
+        },
+        {
+          "title": "把主题拆成功能，并给每一项定量",
+          "rules": "一种含糊的感觉——这里是老式神器牌组彼此咬合的那种机械感——只有被拆成一个个有名字的机制功能、并在动手设计前各自标上一个大致张数，才变得可操作。",
+          "flavor": "一共八项：戈德堡牌、开关牌、法杖牌、活化牌、小齿轮、引擎牌、蓄电池、出水口。「（4-6 张）稀有度：非普通与稀有。」并附带说明：这些数字会变，有些会被砍掉，还会有牌互相重叠。"
+        },
+        {
+          "title": "拿东西去换那张贴合你主题的牌",
+          "rules": "别的团队的文件里，可能正好装着你这个系列需要的东西。看见它，意味着你在别人的活儿里认出了自己的主题——然后还得舍得拿点什么去换。",
+          "flavor": "他在暗钢的文件里看到了万阳黎明——那是在他离开该系列设计之后、由开发部加进去的。让每个颜色各回收一张牌：这是奖励五色牌组的牌，正是他的主题。他说服亨利·斯特恩把它换给了自己，代价是后来的雷霆法杖。"
+        },
+        {
+          "title": "一条好机制，指错了方向",
+          "rules": "一条机制值不值得留，取决于它催生出什么样的行为，而不是它能不能用。凡是把玩家推向「这个系列并不打算讲的形态」的机制，玩起来再好也得走。",
+          "flavor": "法杖牌是那种带两个启动式异能、各用一个颜色的神器。「最后这些牌被砍掉了，因为它们促成的是双色打法，而不是五色打法。」"
+        },
+        {
+          "title": "词先到，机制后到",
+          "rules": "把一件现实事物的词汇一个个写下来，是寻找设计空间的一种办法。而一个对你个人带着私密含义的词，会比一个仅仅贴合主题的词更能干活。",
+          "flavor": "他一边列机械词——齿轮、引擎——一边撞上了「cog」这个字，于是被拽回了在好莱坞当制片助理的日子。「我们就是齿轮。廉价、随时可替换；可一旦在你需要的时候少了一个，天就可能塌下来。」"
+        },
+        {
+          "title": "在万智牌里，什么才是一枚小齿轮",
+          "rules": "把这个比喻翻译成游戏自己的语言，它会同时把设计的两半交给你：那些不起眼的零件，以及让这些零件变得重要的那些牌。",
+          "flavor": "就是那些零费和一费的小神器：所有的杂活都是它们干的，功劳一点也轮不上。再加上「齿轮帮手」——让你能从这些小东西身上榨出额外用处的牌。最早的几张尝试：齿轮收集者、医疗包、齿轮更换匠、肾上腺素针、临时米尔。"
+        },
+        {
+          "title": "帮手最后去了哪里，以及为什么",
+          "rules": "试玩可以把一整个类别挪到另一种牌张类型上去。而当你在分配某项共享资源的使用权时，各家的分配应当互相呼应，而不是一件一件单独裁决。",
+          "flavor": "两个结论：小齿轮不够多；齿轮帮手更适合做成有颜色的牌。白色成了「从坟场取回神器」的颜色——另见白色黎明的使者。「既然白色拿到了坟场的权限，那把牌库的权限给蓝色，看起来也就公平了。」"
+        },
+        {
+          "title": "一个循环，两个档位",
+          "rules": "要快速把某一类别的数量堆上去，就用同一套模板做一轮普通牌循环：用无色法术力换效果的弱版，用有色法术力换强版，这样一张牌能同时服务两种牌组。",
+          "flavor": "医疗包、吐石、汲血小饰物、能量丸、莲茎——每一张的有色模式都额外附带「抓一张牌」。还有他自己最喜欢的那枚小齿轮，临时米尔：「X：它成为一个 X/X 的神器生物。于回合结束时，牺牲它。」你认识它的名字叫奇美拉线圈。"
+        },
+        {
+          "title": "回头读一读你自己的笔记",
+          "rules": "让团队把「他们喜欢这东西的哪一点」写下来，会产出值得开采的材料——包括你自己写的那份。火花可能就来自你自己的一句话，被第二次读到的时候。",
+          "flavor": "他让每个人写邮件说说自己喜欢神器的什么。他自己的回答里描述了那种「用某个鲁布·戈德堡式的杀人装置」取胜的机械牌组：石历、陶诺斯的烛台、火箭发射器、亚司诺祭坛、蜂巢。重读自己这句话，就长出了那组大齿轮。"
+        },
+        {
+          "title": "一个用引擎牌搭出来的引擎循环",
+          "rules": "一个结构值不值得追下去，信号是它在两个尺度上同时成立：每一个零件本身就是一张可以围着搭牌的牌，而整台组装起来的东西同样如此。",
+          "flavor": "「一个用引擎牌搭出来的引擎循环。这直接触响了我心里那个设计师警报。」两三张大齿轮就能给你效果链条。全部在场，就是无限循环。他的提案邮件只有一张牌和一段话；团队用剩下的一整天，你一张我一张地回敬着彼此能互相重置的牌。"
+        },
+        {
+          "title": "触发条件有优雅的，也有不优雅的",
+          "rules": "在一条链条里，每一个触发条件都必须干净、频繁、无歧义。永久物进场和离场是好用的。弃牌、获得生命、磨牌和洗牌则笨重到值得围着它们重做设计。",
+          "flavor": "亚伦·福赛斯：「我把磨牌和洗牌排除在外，它们做触发条件都不优雅（尤其是洗牌。没有哪个组合技杀招应该包含洗二十次牌）。」罗斯瓦特随后又拿掉了获得生命和弃牌两种触发，并把注能齿轮的启动费改成牺牲神器，好让它能在链条中把自己也牺牲掉。"
+        },
+        {
+          "title": "互相咬合的牌，经不起局部改动",
+          "rules": "当一个循环里的成员互为对方的触发条件时，任何一个成员都无法被单独调整。砍掉一张、抬高一处费用、改动一个异能——这里的每一次编辑，编辑的都是整台机器。",
+          "flavor": "亚伦交接时的附言：「祝开发部好运。他们不能随手砍掉其中一张，不能往启动费里加法术力，也不能在不看整体这个庞大又不切实际的图景的前提下改动任何一个异能。」这六张牌花了他两个多小时，「而且它们现在仍然有点吓人」。"
+        }
+      ]
+    }
+  }
+}
