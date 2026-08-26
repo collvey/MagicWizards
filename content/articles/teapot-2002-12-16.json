@@ -1,0 +1,424 @@
+{
+  "id": "teapot-2002-12-16",
+  "slug": "teapot-2002-12-16",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2002-12-16",
+  "series": null,
+  "tags": ["tempest", "design-stories", "card-origins", "playtest-names", "power-level"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/teapot-2002-12-16",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-27T23:30:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "G" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "W" },
+    { "n": 4, "color": "B" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "U" },
+    { "n": 8, "color": "R" },
+    { "n": 9, "color": "W" },
+    { "n": 10, "color": "B" },
+    { "n": 11, "color": "G" },
+    { "n": 12, "color": "W" },
+    { "n": 13, "color": "U" },
+    { "n": 14, "color": "R" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Teapot",
+      "dek": "Tempest Week: forty card-by-card design notes from the first set Rosewater ever led, including the wording change that got Earthcraft banned.",
+      "overview": "An annotated set list rather than an essay, and the recurring patterns are the value: where cards come from, which changes proved fatal, and what he'd do differently.",
+      "takeaway": "\"The designers make the game fun and the developers make it fair.\"",
+      "lessons": [
+        {
+          "title": "Adapt the card you love, then find its home",
+          "rules": "A reliable starting move: take something that already works, ask what else it could apply to, and only then reason out where it belongs. The placement argument comes last, not first.",
+          "flavor": "Ancient Runes came from Karma. \"I thought to myself, 'Wouldn't it be neat if you could punish other types of cards?' Artifacts were just the first thing that came to mind. Well, what color would punish someone for playing artifacts? The three antiartifact colors are red, green, and white. Green dealing damage seemed a little odd, and I wanted to separate the card from Karma, so white was out. That left red.\""
+        },
+        {
+          "title": "Walk the space and find the gap",
+          "rules": "Instead of waiting for an idea, enumerate the territory systematically and look for the square nobody has filled. The unclaimed slot is often obvious once you've written the list out.",
+          "flavor": "On Propaganda: \"I was looking for some new way to tax the opponent. I simply walked through a turn step and looked at what we had and hadn't taxed before. I realized that other than Brainwash… a pretty weak creature enchantment, we hadn't taxed attacking. Thus, Propaganda was born.\""
+        },
+        {
+          "title": "Fun is one job, fair is another",
+          "rules": "Separating the two roles means neither has to compromise. The person making it interesting doesn't have to be right about the numbers, because someone downstream owns that.",
+          "flavor": "\"The designers are focused on making fun cards. The developers are focused on keeping the game balanced. A saying I like is that the designers make the game fun and the developers make it fair… when I design a card I don't focus too much on the power level. If it's too high or too low, the developers will fix it.\""
+        },
+        {
+          "title": "Know which of your judgements to distrust",
+          "rules": "Being reliably wrong about one axis is worth admitting out loud, especially when you're right about others. It tells colleagues which of your objections to weigh and which to overrule.",
+          "flavor": "On Ghost Town, where development added a restricting line: \"If it was up to me, I'd probably have let it be, but then I'm not known in R&D for having the best ability to judge power level.\" On Lotus Petal: \"It seemed so innocent when we made this card.\" And on Wasteland, after reasoning his way to \"a Strip Mine that isn't broken\" — \"Oh well.\""
+        },
+        {
+          "title": "The small wording change was the whole card",
+          "rules": "Two implementations that look equivalent can differ on exactly one interaction, and that interaction can be the one that matters. Check what each version quietly forbids.",
+          "flavor": "Earthcraft originally granted creatures the untap ability directly; development changed it to tapping as an activation cost. \"This difference is important because now it allows you to use creatures that you've just played to activate it. As most combos with this card combine with token generators, this change proved to be huge. Several years later, Earthcraft was banned in multiple formats.\""
+        },
+        {
+          "title": "Simplification can strip the flavour",
+          "rules": "When a shorter wording is functionally identical, take it — unless the longer one was carrying the idea. Equivalent in effect is not equivalent in what the thing feels like.",
+          "flavor": "Root Maze began as \"All permanents have summoning sickness,\" then was reduced because it only really affected artifacts and lands. \"Looking back, I think this was a mistake. Even if the original text was slightly more confusing, it seemed a lot cooler. While simplicity is important, I think we need to be careful when we let it take us to the point that a card is stripped of its original flavor.\""
+        },
+        {
+          "title": "Parallel teams converge",
+          "rules": "Two groups working separately on the same constraints will independently reach the same answer. That's not duplication to be embarrassed about; it's evidence the answer was the right one.",
+          "flavor": "Gravedigger came from trying to build a triggered ability that fired on draw, which proved unworkable — \"how do you know when your opponent draws the card?\" — so it became a comes-into-play ability. \"At the time we were working on this, we hadn't yet seen the Visions file. So, the Tempest design team stumbled onto the same idea that the Visions design team had a year or so earlier.\""
+        },
+        {
+          "title": "Reverse-engineer from the unanswerable problem",
+          "rules": "Start from the thing that has no counter, then chain constraints until only one shape remains. Each step narrows the design, and the last one hands you the card.",
+          "flavor": "\"It always bothered me that every card had a foil except for counterspells. How do you fight a spell that can stop any spell?\" So: uncounterable. Then a permanent, since blue struggles with those. Then protection from blue. Then a creature, \"because creatures have a built-in clock.\" \"Everything came together beautifully to make Scragnoth.\""
+        },
+        {
+          "title": "One small change reopens a closed door",
+          "rules": "A rule that forbids reprinting a specific thing may not forbid a near-identical thing. Look for the minimum alteration that clears the restriction, and keep a visible nod to the original.",
+          "flavor": "Thunder Spirit was on the reserved list and could never be reprinted. \"Then, during Tempest design, it hit me. We could reprint it if we made one small change — turn a white mana in its mana cost to blue.\" And the courtesy: \"We even kept the creature a Spirit as a nod to Thunder Spirit.\""
+        },
+        {
+          "title": "Accurate isn't the same as printable",
+          "rules": "A name can describe the mechanic perfectly and still be the wrong name. Weigh what it carries beyond its accuracy, and change it when the cost lands on people rather than on the design.",
+          "flavor": "Extinction was called Genocide in design. \"We actually thought of using the name, as it's an appropriate description of the ability: the card wipes out a race. But we felt that the name had enough negative connotations that we didn't want to unnecessarily upset people, so we changed the name.\""
+        },
+        {
+          "title": "Be delighted when they use it wrong",
+          "rules": "A use you never intended is the audience doing the thing you wanted them to do. The correct response to being outsmarted by your own users is pleasure.",
+          "flavor": "Hand to Hand was designed to mean \"don't mess with my creatures in combat.\" \"It ended up being a sideboard card against decks running Circles of Protection… I was happily surprised. I love creativity, so when players get creative with my cards, I'm usually tickled pink.\""
+        },
+        {
+          "title": "Not everything has to shout",
+          "rules": "A body of work needs quiet, well-made pieces as well as showpieces. Two simple parts that work together, plus a fitting theme, is a complete success even if nobody remarks on it.",
+          "flavor": "\"I think that so much emphasis is put onto the splashy cards that people miss the design subtlety of a card like Watchdog. It has two simple abilities with synergy. In addition, it also has a very nice flavor that adds to the card. As a designer, I'm quite happy if I can put a few subtle cards like this into each set. Not every card has to stand on its head and say, 'Look at me!'\""
+        },
+        {
+          "title": "Some failures surface immediately",
+          "rules": "Not every flaw needs months of testing. Certain combinations announce themselves on first contact, which is a strong argument for putting things in front of people early.",
+          "flavor": "Field of Souls originally lacked the word \"nontoken.\" \"It took only one playtest to realize that if your creatures all turn into 1/1 fliers that can essentially never die, this card is bah-roken.\""
+        },
+        {
+          "title": "Take your fun where you find it",
+          "rules": "Long projects need private jokes to survive. A silly internal convention costs nothing, gets replaced before shipping, and quietly keeps the people doing the work engaged with it.",
+          "flavor": "Fugitive Druid's design name was Enchanto Lad, after the Legion of Super-Heroes naming pattern — \"descriptor–synonym for boy or girl.\" \"This naming convention has greatly increased the number of stickered playtest cards with names ending in Lad, Lass, Boy, Kid, and so on. I don't know what you'll learn from this little factoid, except maybe that we designers have our fun wherever we can find it.\""
+        }
+      ]
+    },
+    "es": {
+      "title": "Tetera",
+      "dek": "Semana de Tempest: cuarenta notas de diseño carta por carta de la primera colección que Rosewater dirigió, incluido el cambio de redacción que acabó prohibiendo Earthcraft.",
+      "overview": "Una lista anotada más que un ensayo, y el valor está en los patrones recurrentes: de dónde salen las cartas, qué cambios resultaron fatales y qué haría distinto.",
+      "takeaway": "«Los diseñadores hacen que el juego sea divertido y los desarrolladores hacen que sea justo».",
+      "lessons": [
+        {
+          "title": "Adapta la carta que amas y luego búscale casa",
+          "rules": "Un movimiento inicial fiable: coge algo que ya funciona, pregunta a qué más podría aplicarse, y solo entonces razona dónde encaja. El argumento de la ubicación va al final, no al principio.",
+          "flavor": "Ancient Runes salió de Karma. «Pensé: '¿No estaría bien poder castigar otros tipos de cartas?'. Los artefactos fueron lo primero que se me ocurrió. Bien, ¿qué color castigaría a alguien por jugar artefactos? Los tres colores antiartefacto son rojo, verde y blanco. Que el verde hiciera daño parecía algo raro, y quería separar la carta de Karma, así que el blanco quedaba fuera. Quedaba el rojo»."
+        },
+        {
+          "title": "Recorre el espacio y encuentra el hueco",
+          "rules": "En vez de esperar una idea, enumera el territorio sistemáticamente y busca la casilla que nadie ha llenado. La plaza libre suele ser obvia una vez escrita la lista.",
+          "flavor": "Sobre Propaganda: «Buscaba una forma nueva de gravar al rival. Simplemente recorrí un turno paso a paso y miré qué habíamos gravado y qué no. Me di cuenta de que, aparte de Brainwash… un encantamiento de criatura bastante flojo, no habíamos gravado el atacar. Así nació Propaganda»."
+        },
+        {
+          "title": "Divertido es un trabajo; justo es otro",
+          "rules": "Separar los dos papeles hace que ninguno tenga que ceder. Quien lo hace interesante no necesita acertar con los números, porque eso es responsabilidad de alguien río abajo.",
+          "flavor": "«Los diseñadores se centran en hacer cartas divertidas. Los desarrolladores se centran en mantener el juego equilibrado. Un dicho que me gusta es que los diseñadores hacen que el juego sea divertido y los desarrolladores hacen que sea justo… cuando diseño una carta no me centro mucho en el nivel de potencia. Si es demasiado alto o bajo, los desarrolladores lo arreglarán»."
+        },
+        {
+          "title": "Sabe de cuáles de tus juicios desconfiar",
+          "rules": "Equivocarse sistemáticamente en un eje merece admitirse en voz alta, sobre todo cuando aciertas en otros. Les dice a tus colegas qué objeciones tuyas pesar y cuáles ignorar.",
+          "flavor": "Sobre Ghost Town, a la que desarrollo añadió una línea restrictiva: «Si dependiera de mí, probablemente la habría dejado, pero es que no soy conocido en I+D por tener la mejor capacidad de juzgar niveles de potencia». Sobre Lotus Petal: «Parecía tan inocente cuando hicimos esta carta». Y sobre Wasteland, tras razonar hasta «un Strip Mine que no está roto»: «En fin»."
+        },
+        {
+          "title": "El pequeño cambio de redacción era toda la carta",
+          "rules": "Dos implementaciones que parecen equivalentes pueden diferir en exactamente una interacción, y esa interacción puede ser la que importa. Comprueba qué prohíbe en silencio cada versión.",
+          "flavor": "Earthcraft originalmente otorgaba la habilidad de enderezar directamente a las criaturas; desarrollo la cambió a girar como coste de activación. «Esta diferencia es importante porque ahora te permite usar criaturas que acabas de jugar para activarla. Como la mayoría de los combos con esta carta se combinan con generadores de fichas, este cambio resultó enorme. Varios años después, Earthcraft fue prohibida en varios formatos»."
+        },
+        {
+          "title": "Simplificar puede arrancar el sabor",
+          "rules": "Cuando una redacción más corta es funcionalmente idéntica, quédatela; salvo que la larga fuera la que llevaba la idea. Equivalente en efecto no es equivalente en lo que la cosa transmite.",
+          "flavor": "Root Maze empezó como «Todos los permanentes tienen mareo de invocación» y luego se redujo, porque en realidad solo afectaba a artefactos y tierras. «Mirando atrás, creo que fue un error. Aunque el texto original fuera algo más confuso, quedaba mucho más chulo. Aunque la simplicidad es importante, creo que hay que tener cuidado cuando nos lleva al punto de despojar a una carta de su sabor original»."
+        },
+        {
+          "title": "Los equipos paralelos convergen",
+          "rules": "Dos grupos trabajando por separado con las mismas restricciones llegarán de forma independiente a la misma respuesta. Eso no es una duplicación vergonzosa: es evidencia de que la respuesta era la correcta.",
+          "flavor": "Gravedigger salió de intentar hacer una habilidad disparada al robar, lo cual resultó impracticable —«¿cómo sabes cuándo roba la carta tu rival?»— así que pasó a ser una habilidad de entrar en juego. «En el momento en que trabajábamos en esto, aún no habíamos visto el archivo de Visions. Así que el equipo de Tempest dio con la misma idea que el equipo de Visions había tenido un año antes»."
+        },
+        {
+          "title": "Ingeniería inversa desde el problema sin respuesta",
+          "rules": "Parte de aquello que no tiene contramedida y luego encadena restricciones hasta que solo quede una forma. Cada paso estrecha el diseño, y el último te entrega la carta.",
+          "flavor": "«Siempre me molestó que todas las cartas tuvieran su antídoto salvo los contrahechizos. ¿Cómo peleas contra un hechizo que puede detener cualquier hechizo?». Entonces: que no pueda contrarrestarse. Luego un permanente, porque el azul sufre con esos. Luego protección contra el azul. Luego una criatura, «porque las criaturas tienen un reloj incorporado». «Todo encajó maravillosamente para hacer Scragnoth»."
+        },
+        {
+          "title": "Un cambio mínimo reabre una puerta cerrada",
+          "rules": "Una regla que prohíbe reimprimir algo concreto puede no prohibir algo casi idéntico. Busca la alteración mínima que sortea la restricción y deja un guiño visible al original.",
+          "flavor": "Thunder Spirit estaba en la lista reservada y no podía reimprimirse nunca. «Entonces, durante el diseño de Tempest, se me ocurrió. Podíamos reimprimirla si hacíamos un pequeño cambio: convertir un maná blanco de su coste en azul». Y la cortesía: «Incluso mantuvimos el tipo de criatura Espíritu como guiño a Thunder Spirit»."
+        },
+        {
+          "title": "Preciso no es lo mismo que publicable",
+          "rules": "Un nombre puede describir la mecánica a la perfección y aun así ser el nombre equivocado. Sopesa lo que arrastra más allá de su exactitud, y cámbialo cuando el coste recaiga en las personas y no en el diseño.",
+          "flavor": "Extinction se llamaba Genocidio en diseño. «Llegamos a plantearnos usar el nombre, ya que describe bien la habilidad: la carta borra una raza. Pero sentimos que el nombre tenía suficientes connotaciones negativas como para no querer molestar innecesariamente a la gente, así que lo cambiamos»."
+        },
+        {
+          "title": "Alégrate cuando la usen mal",
+          "rules": "Un uso que nunca pretendiste es el público haciendo justo lo que querías que hiciera. La respuesta correcta a que tus propios usuarios te superen en ingenio es el placer.",
+          "flavor": "Hand to Hand se diseñó para significar «no te metas con mis criaturas en combate». «Acabó siendo una carta de banquillo contra mazos con Círculos de Protección… Me llevé una grata sorpresa. Adoro la creatividad, así que cuando los jugadores se ponen creativos con mis cartas suelo quedarme encantado»."
+        },
+        {
+          "title": "No todo tiene que gritar",
+          "rules": "Un cuerpo de obra necesita piezas silenciosas y bien hechas además de piezas de lucimiento. Dos partes simples que funcionan juntas, más un tema adecuado, es un éxito completo aunque nadie lo comente.",
+          "flavor": "«Creo que se pone tanto énfasis en las cartas llamativas que la gente se pierde la sutileza de diseño de una carta como Watchdog. Tiene dos habilidades simples con sinergia. Además tiene un sabor muy bonito que suma. Como diseñador, me alegra mucho poder meter unas cuantas cartas sutiles así en cada colección. No toda carta tiene que ponerse de cabeza y decir '¡Miradme!'»."
+        },
+        {
+          "title": "Algunos fallos salen a la primera",
+          "rules": "No todo defecto necesita meses de pruebas. Ciertas combinaciones se anuncian solas al primer contacto, lo cual es un buen argumento para poner las cosas ante la gente pronto.",
+          "flavor": "Field of Souls originalmente no decía «que no sea ficha». «Bastó una sola partida de prueba para darse cuenta de que si todas tus criaturas se convierten en voladoras 1/1 que esencialmente nunca mueren, esta carta está ro-ta»."
+        },
+        {
+          "title": "Coge la diversión donde la encuentres",
+          "rules": "Los proyectos largos necesitan chistes internos para sobrevivir. Una convención tonta no cuesta nada, se sustituye antes de publicar y mantiene calladamente enganchada a la gente que hace el trabajo.",
+          "flavor": "El nombre de diseño de Fugitive Druid era Enchanto Lad, siguiendo el patrón de la Legión de Superhéroes: «descriptor–sinónimo de chico o chica». «Esta convención ha aumentado mucho el número de cartas de prueba con pegatina cuyos nombres acaban en Lad, Lass, Boy, Kid, etcétera. No sé qué sacaréis de este datito, salvo quizá que los diseñadores nos divertimos donde podemos»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Théière",
+      "dek": "Semaine Tempest : quarante notes de conception carte par carte, tirées de la première extension dirigée par Rosewater — dont le changement de formulation qui a fait bannir Earthcraft.",
+      "overview": "Une liste annotée plutôt qu'un essai, et la valeur tient aux motifs récurrents : d'où viennent les cartes, quels changements se sont révélés fatals, et ce qu'il ferait autrement.",
+      "takeaway": "« Les concepteurs rendent le jeu amusant et les développeurs le rendent équitable. »",
+      "lessons": [
+        {
+          "title": "Adaptez la carte que vous aimez, puis trouvez-lui un foyer",
+          "rules": "Un point de départ fiable : prenez une chose qui marche déjà, demandez à quoi d'autre elle pourrait s'appliquer, et seulement ensuite raisonnez sur sa place. L'argument d'attribution vient en dernier.",
+          "flavor": "Ancient Runes vient de Karma. « Je me suis dit : 'Ne serait-il pas sympa de pouvoir punir d'autres types de cartes ?' Les artefacts sont venus en premier. Bon, quelle couleur punirait quelqu'un qui joue des artefacts ? Les trois couleurs anti-artefacts sont le rouge, le vert et le blanc. Que le vert inflige des blessures paraissait bizarre, et je voulais éloigner la carte de Karma : exit le blanc. Restait le rouge. »"
+        },
+        {
+          "title": "Parcourez l'espace et trouvez le trou",
+          "rules": "Au lieu d'attendre une idée, recensez le territoire méthodiquement et cherchez la case que personne n'a remplie. La place libre saute aux yeux une fois la liste écrite.",
+          "flavor": "Sur Propaganda : « Je cherchais une nouvelle façon de taxer l'adversaire. J'ai simplement parcouru un tour étape par étape en regardant ce que nous avions taxé et ce que nous n'avions pas taxé. J'ai réalisé qu'à part Brainwash… un enchantement de créature assez faible, nous n'avions jamais taxé l'attaque. Ainsi naquit Propaganda. »"
+        },
+        {
+          "title": "Amusant est un métier ; équitable en est un autre",
+          "rules": "Séparer les deux rôles évite que l'un doive céder à l'autre. Celui qui rend la chose intéressante n'a pas à avoir raison sur les chiffres, puisque quelqu'un en aval en a la charge.",
+          "flavor": "« Les concepteurs se concentrent sur des cartes amusantes. Les développeurs se concentrent sur l'équilibre. Un dicton que j'aime : les concepteurs rendent le jeu amusant et les développeurs le rendent équitable… quand je conçois une carte, je ne me focalise pas trop sur la puissance. Si elle est trop haute ou trop basse, les développeurs corrigeront. »"
+        },
+        {
+          "title": "Sachez de quels de vos jugements vous méfier",
+          "rules": "Se tromper systématiquement sur un axe mérite d'être admis tout haut, surtout quand on a raison sur d'autres. Cela indique aux collègues quelles de vos objections peser et lesquelles écarter.",
+          "flavor": "Sur Ghost Town, à laquelle le développement a ajouté une restriction : « Si cela n'avait tenu qu'à moi, je l'aurais sans doute laissée telle quelle, mais je ne suis pas réputé à la R&D pour bien juger la puissance. » Sur Lotus Petal : « Elle paraissait si innocente quand nous l'avons faite. » Et sur Wasteland, après avoir raisonné jusqu'à « un Strip Mine qui n'est pas cassé » — « Enfin bon. »"
+        },
+        {
+          "title": "Le petit changement de formulation, c'était toute la carte",
+          "rules": "Deux implémentations d'apparence équivalente peuvent différer sur exactement une interaction, et cette interaction peut être celle qui compte. Vérifiez ce que chaque version interdit en silence.",
+          "flavor": "Earthcraft accordait à l'origine la capacité de dégagement directement aux créatures ; le développement l'a changée en engagement comme coût d'activation. « Cette différence est importante car elle permet désormais d'utiliser des créatures qu'on vient de jouer pour l'activer. Comme la plupart des combos avec cette carte reposent sur des générateurs de jetons, ce changement s'est révélé énorme. Plusieurs années après, Earthcraft a été bannie dans plusieurs formats. »"
+        },
+        {
+          "title": "Simplifier peut arracher l'ambiance",
+          "rules": "Quand une formulation plus courte est fonctionnellement identique, prenez-la — sauf si la longue portait l'idée. Équivalent en effet n'est pas équivalent en sensation.",
+          "flavor": "Root Maze a commencé par « Tous les permanents ont le mal d'invocation », puis a été réduite parce qu'en pratique cela ne touchait que les artefacts et les terrains. « Avec le recul, je crois que c'était une erreur. Même si le texte d'origine était un peu plus confus, il était bien plus chouette. La simplicité compte, mais il faut se méfier quand elle nous mène à dépouiller une carte de son ambiance d'origine. »"
+        },
+        {
+          "title": "Les équipes parallèles convergent",
+          "rules": "Deux groupes travaillant séparément sous les mêmes contraintes atteindront indépendamment la même réponse. Ce n'est pas un doublon honteux : c'est la preuve que la réponse était la bonne.",
+          "flavor": "Gravedigger est née d'une tentative de capacité déclenchée à la pioche, impraticable — « comment savoir quand l'adversaire pioche la carte ? » — devenue une capacité d'arrivée en jeu. « À l'époque où nous y travaillions, nous n'avions pas encore vu le fichier de Visions. L'équipe de Tempest est donc tombée sur la même idée que l'équipe de Visions un an plus tôt. »"
+        },
+        {
+          "title": "Remontez depuis le problème sans réponse",
+          "rules": "Partez de ce qui n'a pas de parade, puis enchaînez les contraintes jusqu'à ce qu'une seule forme subsiste. Chaque étape resserre la conception, et la dernière vous tend la carte.",
+          "flavor": "« Cela m'a toujours gêné que chaque carte ait sa parade sauf les contresorts. Comment combattre un sort capable d'arrêter n'importe quel sort ? » Donc : incontrable. Puis un permanent, le bleu peinant sur ceux-là. Puis la protection contre le bleu. Puis une créature, « car les créatures ont une horloge intégrée ». « Tout s'est magnifiquement emboîté pour donner Scragnoth. »"
+        },
+        {
+          "title": "Un changement minime rouvre une porte fermée",
+          "rules": "Une règle interdisant de rééditer une chose précise n'interdit peut-être pas une chose quasi identique. Cherchez la modification minimale qui lève la restriction, et gardez un clin d'œil visible à l'original.",
+          "flavor": "Thunder Spirit était sur la liste réservée et ne pouvait jamais être rééditée. « Puis, pendant la conception de Tempest, ça m'a frappé. Nous pouvions la rééditer en faisant un petit changement : transformer un mana blanc de son coût en bleu. » Et la politesse : « Nous avons même gardé le type Esprit en clin d'œil à Thunder Spirit. »"
+        },
+        {
+          "title": "Exact n'est pas publiable",
+          "rules": "Un nom peut décrire la mécanique à la perfection et rester le mauvais nom. Pesez ce qu'il charrie au-delà de son exactitude, et changez-le quand le coût retombe sur des gens plutôt que sur la conception.",
+          "flavor": "Extinction s'appelait Genocide en conception. « Nous avons vraiment envisagé ce nom, car il décrit bien la capacité : la carte efface une race. Mais nous avons estimé qu'il portait assez de connotations négatives pour ne pas vouloir heurter inutilement, alors nous l'avons changé. »"
+        },
+        {
+          "title": "Réjouissez-vous quand on l'utilise de travers",
+          "rules": "Un usage que vous n'aviez pas prévu, c'est le public faisant exactement ce que vous vouliez qu'il fasse. La bonne réaction quand vos propres utilisateurs vous surpassent est le plaisir.",
+          "flavor": "Hand to Hand devait dire « ne touchez pas à mes créatures au combat ». « Elle a fini en carte de réserve contre les decks jouant des Cercles de Protection… J'ai été heureusement surpris. J'adore la créativité : quand les joueurs se montrent créatifs avec mes cartes, je suis en général ravi. »"
+        },
+        {
+          "title": "Tout n'a pas à crier",
+          "rules": "Un corpus a besoin de pièces discrètes et bien faites autant que de pièces d'apparat. Deux éléments simples qui fonctionnent ensemble, plus une ambiance juste, est une réussite complète même si personne ne le relève.",
+          "flavor": "« Je crois qu'on met tant l'accent sur les cartes tape-à-l'œil qu'on passe à côté de la finesse d'une carte comme Watchdog. Elle a deux capacités simples en synergie. Et elle a une très jolie ambiance qui ajoute à l'ensemble. En tant que concepteur, je suis très content si je peux glisser quelques cartes discrètes comme celle-ci dans chaque extension. Toutes les cartes n'ont pas à se mettre sur la tête en criant 'Regardez-moi !' »"
+        },
+        {
+          "title": "Certains échecs surgissent tout de suite",
+          "rules": "Tous les défauts n'exigent pas des mois de tests. Certaines combinaisons s'annoncent au premier contact, ce qui plaide fortement pour mettre les choses devant les gens tôt.",
+          "flavor": "Field of Souls ne disait pas à l'origine « non-jeton ». « Il a suffi d'une seule partie de test pour comprendre que si toutes vos créatures deviennent des 1/1 volantes qui ne meurent pour ainsi dire jamais, cette carte est cas-sée. »"
+        },
+        {
+          "title": "Prenez votre plaisir où vous le trouvez",
+          "rules": "Les longs projets ont besoin de blagues internes pour tenir. Une convention idiote ne coûte rien, disparaît avant la publication, et garde discrètement l'équipe attachée au travail.",
+          "flavor": "Le nom de conception de Fugitive Druid était Enchanto Lad, d'après la façon de nommer de la Légion des Super-Héros : « descriptif–synonyme de garçon ou de fille ». « Cette convention a beaucoup augmenté le nombre de cartes de test dont le nom finit en Lad, Lass, Boy, Kid, etc. Je ne sais pas ce que vous tirerez de cette anecdote, sinon que nous, concepteurs, prenons notre plaisir là où nous le trouvons. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Bule",
+      "dek": "Semana de Tempest: quarenta notas de design carta a carta da primeira coleção que Rosewater liderou, incluindo a mudança de redação que acabou banindo Earthcraft.",
+      "overview": "Uma lista anotada mais que um ensaio, e o valor está nos padrões recorrentes: de onde vêm as cartas, que mudanças se mostraram fatais, e o que ele faria diferente.",
+      "takeaway": "«Os designers fazem o jogo ser divertido e os desenvolvedores fazem o jogo ser justo.»",
+      "lessons": [
+        {
+          "title": "Adapte a carta que você ama, depois ache a casa dela",
+          "rules": "Um movimento inicial confiável: pegue algo que já funciona, pergunte a que mais aquilo poderia se aplicar, e só então raciocine onde ela pertence. O argumento de alocação vem por último.",
+          "flavor": "Ancient Runes veio de Karma. «Pensei comigo: 'Não seria legal poder punir outros tipos de carta?' Artefatos foi a primeira coisa que me veio. Bom, que cor puniria alguém por jogar artefatos? As três cores antiartefato são vermelho, verde e branco. Verde causar dano parecia meio estranho, e eu queria separar a carta de Karma, então o branco saiu. Sobrou o vermelho.»"
+        },
+        {
+          "title": "Percorra o espaço e ache o buraco",
+          "rules": "Em vez de esperar por uma ideia, enumere o território de forma sistemática e procure a casa que ninguém preencheu. A vaga livre costuma ser óbvia depois que a lista está escrita.",
+          "flavor": "Sobre Propaganda: «Eu procurava um jeito novo de taxar o oponente. Simplesmente percorri um turno etapa por etapa e olhei o que já tínhamos taxado e o que não. Percebi que, fora Brainwash… um encantamento de criatura bem fraco, nunca tínhamos taxado o atacar. Assim nasceu Propaganda.»"
+        },
+        {
+          "title": "Divertido é um trabalho; justo é outro",
+          "rules": "Separar os dois papéis faz com que nenhum precise ceder. Quem torna a coisa interessante não precisa acertar nos números, porque isso é responsabilidade de alguém rio abaixo.",
+          "flavor": "«Os designers focam em fazer cartas divertidas. Os desenvolvedores focam em manter o jogo equilibrado. Um ditado de que gosto é que os designers fazem o jogo ser divertido e os desenvolvedores fazem o jogo ser justo… quando desenho uma carta, não me concentro muito no nível de potência. Se estiver alto ou baixo demais, os desenvolvedores consertam.»"
+        },
+        {
+          "title": "Saiba de quais dos seus juízos desconfiar",
+          "rules": "Errar sistematicamente num eixo merece ser admitido em voz alta, sobretudo quando você acerta em outros. Isso diz aos colegas quais das suas objeções pesar e quais atropelar.",
+          "flavor": "Sobre Ghost Town, à qual o desenvolvimento acrescentou uma linha restritiva: «Se dependesse de mim, eu provavelmente teria deixado, mas eu não sou conhecido na P&D por ter a melhor capacidade de julgar potência.» Sobre Lotus Petal: «Parecia tão inocente quando fizemos essa carta.» E sobre Wasteland, depois de raciocinar até «um Strip Mine que não é quebrado» — «Pois é.»"
+        },
+        {
+          "title": "A pequena mudança de redação era a carta inteira",
+          "rules": "Duas implementações que parecem equivalentes podem diferir em exatamente uma interação, e essa interação pode ser a que importa. Verifique o que cada versão proíbe em silêncio.",
+          "flavor": "Earthcraft originalmente concedia a habilidade de desvirar diretamente às criaturas; o desenvolvimento mudou para virar como custo de ativação. «Essa diferença é importante porque agora permite usar criaturas que você acabou de jogar para ativá-la. Como a maioria dos combos com essa carta se combina com geradores de fichas, essa mudança se provou enorme. Vários anos depois, Earthcraft foi banida em múltiplos formatos.»"
+        },
+        {
+          "title": "Simplificar pode arrancar o sabor",
+          "rules": "Quando uma redação mais curta é funcionalmente idêntica, fique com ela — a menos que a longa fosse a que carregava a ideia. Equivalente em efeito não é equivalente no que a coisa transmite.",
+          "flavor": "Root Maze começou como «Todos os permanentes têm enjoo de invocação» e foi reduzida porque na prática só afetava artefatos e terrenos. «Olhando para trás, acho que foi um erro. Mesmo que o texto original fosse um pouco mais confuso, ele era bem mais legal. Simplicidade importa, mas acho que precisamos ter cuidado quando ela nos leva ao ponto de despir uma carta do seu sabor original.»"
+        },
+        {
+          "title": "Times paralelos convergem",
+          "rules": "Dois grupos trabalhando separadamente sob as mesmas restrições chegarão independentemente à mesma resposta. Isso não é duplicação vergonhosa: é evidência de que a resposta era a certa.",
+          "flavor": "Gravedigger nasceu da tentativa de uma habilidade disparada ao comprar, o que se mostrou impraticável — «como você sabe quando o oponente compra a carta?» — e virou habilidade de entrar em jogo. «Na época em que trabalhávamos nisso, ainda não tínhamos visto o arquivo de Visions. Então o time de Tempest esbarrou na mesma ideia que o time de Visions tivera um ano antes.»"
+        },
+        {
+          "title": "Faça engenharia reversa a partir do problema sem resposta",
+          "rules": "Parta daquilo que não tem contramedida e então encadeie restrições até sobrar uma única forma. Cada passo estreita o design, e o último entrega a carta.",
+          "flavor": "«Sempre me incomodou que toda carta tivesse um antídoto, exceto as contramágicas. Como você luta contra uma mágica que pode parar qualquer mágica?» Então: não pode ser anulada. Depois um permanente, já que o azul sofre com esses. Depois proteção contra azul. Depois uma criatura, «porque criaturas têm um relógio embutido». «Tudo se encaixou lindamente para formar Scragnoth.»"
+        },
+        {
+          "title": "Uma mudança mínima reabre uma porta fechada",
+          "rules": "Uma regra que proíbe reimprimir algo específico pode não proibir algo quase idêntico. Procure a alteração mínima que passa pela restrição, e mantenha um aceno visível ao original.",
+          "flavor": "Thunder Spirit estava na lista reservada e nunca poderia ser reimpressa. «Aí, durante o design de Tempest, me ocorreu. Poderíamos reimprimi-la se fizéssemos uma pequena mudança: trocar um mana branco do custo dela por azul.» E a cortesia: «Mantivemos até o tipo Espírito como um aceno a Thunder Spirit.»"
+        },
+        {
+          "title": "Preciso não é o mesmo que publicável",
+          "rules": "Um nome pode descrever a mecânica com perfeição e ainda ser o nome errado. Pese o que ele carrega além da exatidão, e troque quando o custo cair sobre pessoas em vez de sobre o design.",
+          "flavor": "Extinction chamava-se Genocide no design. «Chegamos a considerar usar o nome, já que ele descreve bem a habilidade: a carta apaga uma raça. Mas achamos que o nome tinha conotações negativas suficientes para não querermos incomodar as pessoas desnecessariamente, então mudamos.»"
+        },
+        {
+          "title": "Fique feliz quando usarem errado",
+          "rules": "Um uso que você nunca pretendeu é o público fazendo exatamente o que você queria que fizesse. A reação correta a ser superado pelos próprios usuários é o prazer.",
+          "flavor": "Hand to Hand foi desenhada para dizer «não mexa com minhas criaturas em combate». «Ela acabou virando carta de reserva contra baralhos com Círculos de Proteção… Fiquei agradavelmente surpreso. Amo criatividade, então quando os jogadores ficam criativos com minhas cartas, geralmente fico encantado.»"
+        },
+        {
+          "title": "Nem tudo precisa gritar",
+          "rules": "Um conjunto de obras precisa de peças silenciosas e bem-feitas tanto quanto de peças de exibição. Dois elementos simples que funcionam juntos, mais um tema adequado, é sucesso completo mesmo que ninguém comente.",
+          "flavor": "«Acho que se dá tanta ênfase às cartas espalhafatosas que as pessoas perdem a sutileza de design de uma carta como Watchdog. Ela tem duas habilidades simples com sinergia. Além disso, tem um sabor muito bonito que agrega. Como designer, fico bem contente se consigo pôr algumas cartas sutis assim em cada coleção. Nem toda carta precisa ficar de cabeça para baixo gritando 'Olhem para mim!'»"
+        },
+        {
+          "title": "Algumas falhas aparecem na hora",
+          "rules": "Nem todo defeito precisa de meses de teste. Certas combinações se anunciam no primeiro contato, o que é um forte argumento para pôr as coisas diante das pessoas cedo.",
+          "flavor": "Field of Souls originalmente não dizia «que não seja ficha». «Bastou um único teste para perceber que, se todas as suas criaturas viram voadoras 1/1 que essencialmente nunca morrem, essa carta está que-bra-da.»"
+        },
+        {
+          "title": "Pegue a diversão onde ela estiver",
+          "rules": "Projetos longos precisam de piadas internas para sobreviver. Uma convenção boba não custa nada, é substituída antes do lançamento, e mantém em silêncio o pessoal do trabalho ligado nele.",
+          "flavor": "O nome de design de Fugitive Druid era Enchanto Lad, seguindo o padrão de nomes da Legião dos Super-Heróis: «descritor–sinônimo de menino ou menina». «Essa convenção aumentou muito o número de cartas de teste com adesivo cujos nomes terminam em Lad, Lass, Boy, Kid e assim por diante. Não sei o que vocês vão tirar dessa curiosidade, exceto talvez que nós, designers, arrumamos nossa diversão onde dá.»"
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "茶壶",
+      "dek": "《暴风雨》周：四十条逐张牌的设计札记，出自罗斯瓦特第一次主导的那个系列——其中包括那处让 Earthcraft 最终被禁的措辞改动。",
+      "overview": "这更像是一份加了批注的牌表，而不是一篇论说文；而它的价值在于那些反复出现的模式：牌是从哪儿来的、哪些改动后来被证明是致命的，以及他今天会怎么改。",
+      "takeaway": "「设计师让这个游戏好玩，而开发者让这个游戏公平。」",
+      "lessons": [
+        {
+          "title": "改造你喜欢的那张牌，然后再替它找家",
+          "rules": "一个可靠的起手式：拿一样已经成立的东西，问一句「它还能被用到别的什么上」，然后才去推理它该归属何处。归属的论证放在最后，而不是最前。",
+          "flavor": "Ancient Runes 来自 Karma。「我当时想：『要是能惩罚别的类型的牌，那不是挺妙的吗？』神器是第一个冒出来的念头。那么，哪个颜色会因为别人使用神器而惩罚他？反神器的三个颜色是红、绿、白。绿色造成伤害显得有点怪；而我又想让这张牌和 Karma 拉开距离，所以白色出局。剩下的就是红色。」"
+        },
+        {
+          "title": "把这片空间走一遍，找出那个空格",
+          "rules": "与其等一个点子，不如系统性地把这片地盘清点一遍，去找那个还没人填上的格子。而那个空着的位置，往往在清单写出来之后就变得显而易见。",
+          "flavor": "谈到 Propaganda：「我在找一种新的、向对手征税的方式。我就是把一个回合的各个步骤走了一遍，看看我们已经征过什么税、还没征过什么税。我意识到：除了 Brainwash 那张相当弱的生物结界之外，我们从来没有向『进攻』这件事征过税。于是 Propaganda 就诞生了。」"
+        },
+        {
+          "title": "「好玩」是一份工作，「公平」是另一份",
+          "rules": "把这两个角色分开，就让任何一方都不必妥协。那个把东西做得有意思的人，不需要在数字上判断正确——因为下游有人专门负责那件事。",
+          "flavor": "「设计师专注于把牌做得好玩。开发者专注于让这个游戏保持平衡。我喜欢的一句话是：设计师让这个游戏好玩，而开发者让这个游戏公平……当我设计一张牌时，我不太在强度上使劲。要是太高或者太低，开发者会去修。」"
+        },
+        {
+          "title": "知道自己的哪一类判断不可信",
+          "rules": "在某一根轴上稳定地判断失误，值得大声承认——尤其是在你于别的轴上判断得不错的时候。这告诉同事：你的哪些反对意见该被掂量，哪些可以被驳回。",
+          "flavor": "谈到被开发部加了一句限制的 Ghost Town：「如果由我来定，我大概会让它保持原样；不过话说回来，我在研发部并不以『判断强度的眼力最好』著称。」谈到莲花瓣：「我们做这张牌的时候，它看上去是那么无辜。」而谈到 Wasteland，在他一路推理出「一张不会坏掉的 Strip Mine」之后——「唉，算了。」"
+        },
+        {
+          "title": "那处小小的措辞改动，就是这张牌的全部",
+          "rules": "两种看上去等价的实现，可能恰好只在一个交互上不同；而那一个交互，可能正是要紧的那个。请检查每一版各自悄悄禁止了什么。",
+          "flavor": "Earthcraft 最初是把重置的异能直接授予生物；开发部把它改成了「横置」作为启动费用。「这处差别很重要，因为它现在允许你用刚刚打出来的生物去启动它。而由于这张牌的多数组合技都要和衍生物制造机搭配，这一改动被证明影响巨大。几年之后，Earthcraft 在多个赛制里被禁。」"
+        },
+        {
+          "title": "简化可能把风味一起剥掉",
+          "rules": "当一句更短的措辞在功能上完全相同时，就用它——除非那句长的才是承载着这个想法的那句。「效果等价」并不等于「感觉等价」。",
+          "flavor": "Root Maze 最初写的是「所有永久物都有召唤失调」，后来被简化，因为它实际上只影响神器和地。「回头看，我认为那是个错误。哪怕原来的文字稍微更让人费解一点，它也酷得多。简单固然重要，但当它把我们带到『一张牌被剥去了它原本的风味』这一步时，我认为我们得当心。」"
+        },
+        {
+          "title": "并行的团队会收敛到一处",
+          "rules": "两组人在同样的约束下各自埋头工作，会各自独立地抵达同一个答案。这不是一件该觉得难堪的重复；它是「这个答案是对的」的证据。",
+          "flavor": "Gravedigger 出自一次尝试：做一个「被抓到时触发」的异能，而这在执行上行不通——「你怎么知道对手什么时候抓到了这张牌？」——于是它变成了进场时的异能。「我们做这件事的时候，还没看到《幻象时代》的文件。所以《暴风雨》的设计团队撞上了《幻象时代》团队大约一年前就有过的同一个点子。」"
+        },
+        {
+          "title": "从「无解的那个问题」倒推回来",
+          "rules": "从那件没有反制手段的东西出发，然后一条条串上约束，直到只剩下一种形状。每一步都在收窄这个设计，而最后一步把这张牌交到你手上。",
+          "flavor": "「一直让我不舒服的是：每一张牌都有它的克星，唯独反击咒语没有。你要怎么去对付一个能拦下任何咒语的咒语？」于是：让它不能被反击。然后要是个永久物，因为蓝色拿永久物没办法。然后是反蓝保护。然后得是个生物，「因为生物自带一个时钟」。「所有这些漂亮地凑到了一起，做出了 Scragnoth。」"
+        },
+        {
+          "title": "一个极小的改动，能把一扇关上的门重新推开",
+          "rules": "一条禁止重印某样具体东西的规矩，未必禁止一样几乎相同的东西。去找那个能越过这条限制的最小改动，并且保留一处看得见的、向原物致意的痕迹。",
+          "flavor": "Thunder Spirit 在保留名单上，永远不能被重印。「然后，在《暴风雨》的设计过程中，我忽然想到：只要做一个小改动，我们就能把它重印出来——把它法术力费用里的一点白色换成蓝色。」而那份体贴是：「我们甚至把生物类别保留为『精怪』，作为向 Thunder Spirit 的致意。」"
+        },
+        {
+          "title": "「准确」不等于「可以印出来」",
+          "rules": "一个名字可以把机制描述得完美无缺，却依然是错的那个名字。请掂量它在准确之外还带着什么；当那份代价落在人身上而不是落在设计上时，就把它换掉。",
+          "flavor": "Extinction 在设计阶段叫作 Genocide。「我们确实考虑过用这个名字，因为它准确地描述了这个异能：这张牌抹掉一整个种族。但我们觉得这个名字带着足够多的负面联想，我们不想毫无必要地让人不快，所以就把名字改了。」"
+        },
+        {
+          "title": "当他们「用错了」时，该高兴",
+          "rules": "一个你从未设想过的用法，正是受众在做你希望他们做的那件事。当你被自己的用户比下去时，正确的反应是愉快。",
+          "flavor": "Hand to Hand 当初想表达的是「别在战斗里动我的生物」。「结果它变成了一张对付带保护结界套牌的备牌……我又惊又喜。我热爱创造力；所以当玩家拿我的牌玩出花样时，我通常乐得不行。」"
+        },
+        {
+          "title": "不是每样东西都得喊",
+          "rules": "一批作品既需要门面担当，也需要那些安静而做工扎实的东西。两个简单、彼此配合的部件，再加上一份贴切的风味，就是一次完整的成功——哪怕没有人为它说一句话。",
+          "flavor": "「我觉得人们把太多注意力放在那些花哨的牌上，以至于错过了像 Watchdog 这样一张牌在设计上的精细。它有两个简单而彼此协同的异能。此外，它还有一份非常好的风味为这张牌加分。作为设计师，如果我能在每个系列里放进几张这样含蓄的牌，我就相当满意了。不是每张牌都得倒立起来喊：『快看我！』」"
+        },
+        {
+          "title": "有些失败当场就会浮出来",
+          "rules": "并不是每一个毛病都需要几个月的测试。某些组合在第一次接触时就自报家门——而这正是「尽早把东西摆到人面前」的一个有力理由。",
+          "flavor": "Field of Souls 最初没有「非衍生物」这个词。「只打了一次试玩就明白了：如果你所有的生物都变成基本上死不掉的 1/1 飞行生物，那这张牌就是『坏——掉——了』。」"
+        },
+        {
+          "title": "乐子在哪儿就在哪儿找",
+          "rules": "漫长的项目需要一些内部玩笑才撑得下去。一个傻乎乎的内部惯例不花任何代价，在发布之前就会被替换掉，却在无声中让做这份活儿的人对它保持着兴致。",
+          "flavor": "Fugitive Druid 的设计名叫 Enchanto Lad，来自《超级英雄军团》的命名套路——「一个描述词，加上一个『男孩』或『女孩』的同义词」。「这个命名惯例让贴纸试玩牌里以 Lad、Lass、Boy、Kid 之类结尾的名字大幅增加。我不知道你们能从这个小掌故里学到什么，也许只学到一点：我们这些设计师，乐子在哪儿就在哪儿找。」"
+        }
+      ]
+    }
+  }
+}
