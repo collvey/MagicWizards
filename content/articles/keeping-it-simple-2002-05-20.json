@@ -1,0 +1,450 @@
+{
+  "id": "keeping-it-simple-2002-05-20",
+  "slug": "keeping-it-simple-2002-05-20",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2002-05-20",
+  "series": null,
+  "tags": ["simplicity", "complexity", "banding", "reminder-text", "design-philosophy"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/keeping-it-simple-2002-05-20",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-28T12:30:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "B" },
+    { "n": 3, "color": "U" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "R" },
+    { "n": 6, "color": "B" },
+    { "n": 7, "color": "G" },
+    { "n": 8, "color": "B" },
+    { "n": 9, "color": "G" },
+    { "n": 10, "color": "R" },
+    { "n": 11, "color": "W" },
+    { "n": 12, "color": "U" },
+    { "n": 13, "color": "W" },
+    { "n": 14, "color": "R" },
+    { "n": 15, "color": "U" }
+  ],
+  "translations": {
+    "en": {
+      "title": "Keeping It Simple",
+      "dek": "Why R&D simplifies cards, and why that isn't dumbing the game down: the complexity moves from the pieces to what happens between them.",
+      "overview": "The clearest statement of the column's central design philosophy. A complex game whose complexity lives in its individual parts eventually collapses; one whose complexity lives in their interactions doesn't.",
+      "takeaway": "\"We do not simplify to lessen the game, but to strengthen it. We are pruning to protect what remains.\"",
+      "lessons": [
+        {
+          "title": "Set the horizon before you argue about anything",
+          "rules": "Most disagreements about restraint are actually disagreements about timescale. Say how long you intend the thing to last, and half the objections turn into questions about how, not whether.",
+          "flavor": "\"Let me start by stating the role of a Magic designer (or developer): to make Magic the best game possible. Not just for next year, but for next century… We understand that we are working on a classic. As such, we feel a great responsibility to think long term about the game. Yes, gasp, R&D has been forced to have vision.\""
+        },
+        {
+          "title": "Complexity compounds, and it's already winning",
+          "rules": "In a system where every new element can interact with all the old ones, the burden grows faster than the catalogue. Measure the growth of the explanation, not the growth of the content.",
+          "flavor": "\"Every new card we create adds to this complexity. And the problem only snowballs as each new card has one more card than the last that it can interact with. Plus, we have no plan on stopping. Add to this problem, the following: The rulebook grows by the size of the American Constitution every four months. And the average player doesn't even own one.\""
+        },
+        {
+          "title": "Move the complexity from the pieces to what's between them",
+          "rules": "Depth doesn't have to live inside each component. Keep every part legible on its own and let the difficulty emerge from their combinations, which costs nothing to explain because nobody has to.",
+          "flavor": "\"Look at the game of chess. Any one chess piece is rather straight-forward. And the overall rules can fit on a single page. Yet, chess has a rich, strategic depth… Card simplicity does not eliminate strategic complexity. It simply moves the complexity from the cards to the card interactions.\" And the line that settles it: \"The beauty of chess lies not in the queen but in the queen's gambit. Or in Magic terms, it's not the Ancestral Recall that gives the game its heart, but the concept of card advantage.\""
+        },
+        {
+          "title": "Bring the proof, not the argument",
+          "rules": "A claim about design philosophy is worth much more with a shipped example attached. Point at the thing that already demonstrates it and the theory stops being a preference.",
+          "flavor": "\"I offer up Odyssey as proof of this contention. While all the cards are pretty straightforward, the interaction between threshold, flashback, and the graveyard has made for a complex game (especially in limited).\""
+        },
+        {
+          "title": "Brevity is the craft, not the compromise",
+          "rules": "The discipline of saying more with less is the same in every medium. Start as late as you can, leave as early as you can, and keep only what has to be there.",
+          "flavor": "\"'Art,' one of my favorite teachers would always say, 'is the act of expressing as much as possible with as little as possible.'\" And the screenwriting version: \"You begin every scene as late as you can and exit as early as you can. All that should exist is what needs to exist.\""
+        },
+        {
+          "title": "The threat is accumulation, not excess",
+          "rules": "Big mistakes get caught. What kills a long-lived system is thousands of small additions, each individually defensible, none of them worth its cost. Audit the small things or nothing else matters.",
+          "flavor": "Castle's second sentence existed to handle one interaction with one card in Alpha. \"So what do five words matter? Why even bother to make a fuss? Because the biggest threat to Magic's long-term health is not the large excesses (they're easy to catch) but the accumulations of small ones. Text space is a valuable resource. If it doesn't do enough, it has to go. I like to think of this as a weight loss regimen for the game. To stay healthy, it has to stay trim.\""
+        },
+        {
+          "title": "Shipping is the only real test",
+          "rules": "Internal testing tells you whether something works; it can't tell you whether it survives contact with everyone. Treat each release as an experiment, and accept that some of the experiments will come back negative.",
+          "flavor": "\"At its heart, Magic is a game of exploration. And not just for the players. R&D uses new sets to try out new mechanics. Sure, we can play test them, but nothing really shows a mechanic's mettle like millions of players slugging it out. Some mechanics will succeed while others will fail. Part of R&D's job is deducing which are the former and which are the latter.\""
+        },
+        {
+          "title": "The defenders are the ones who understood it",
+          "rules": "Nobody writes in to say they never grasped the thing you removed. The people who protest are, by definition, those it worked for — which is precisely why their testimony can't settle the question.",
+          "flavor": "\"R&D took a lot of heat for removing banding. But banding's supporters didn't understand why it had to go. They understood it.\" The reason it went was everyone else: \"Too many players simply didn't understand how it worked.\""
+        },
+        {
+          "title": "Replace one confusing thing with several clear ones",
+          "rules": "When you retire a mechanic, keep the job it was doing. Several simple pieces working together can produce the same effect at a fraction of the explanatory cost — and nobody notices the addition the way they notice the removal.",
+          "flavor": "\"The focus was, unfortunately, on what left the game. What people didn't notice was what R&D added to take its place… Rather than accomplish it with one confusing mechanic, R&D chose to replace it with numerous simpler mechanics that in conjunction produced a similar effect.\" White got Advance Scout, Heavy Ballista, Angelic Page, Honor Guard and Vigilant Martyr — \"a similar flavor was created without the need for confusion.\""
+        },
+        {
+          "title": "Experimenting means accepting permanent losses",
+          "rules": "You cannot try things without some of them failing, and a failed experiment doesn't get to stay out of sentiment. The alternative to occasionally losing something is never having tried anything.",
+          "flavor": "\"It's important for R&D to have the ability to experiment. Magic without experimentation would be a boring, predictable world. One of the side effects of this experimentation is that some ideas will disappear never to be seen again. But have faith in R&D that if the mechanic filled an important role, we will find a new way to accomplish the same goal.\""
+        },
+        {
+          "title": "State the trade-off as a question and answer it",
+          "rules": "A change that costs one good thing to buy another should be argued that way explicitly. Put both goods in the same sentence, ask which serves the whole better, and commit to the answer.",
+          "flavor": "\"Which is better we asked, to have a diversity of flavor or to have greater interactivity of the cards? Is Magic a better game for having falcons or is it better because you can build a deck with a bird theme?\" Back when Zephyr Falcon was a Falcon and Osai Vultures were Vultures, \"a bird lord with the power to command his feathered friends seemed obvious and cool. But the game didn't allow it.\""
+        },
+        {
+          "title": "Sometimes the cost turns out not to be paid",
+          "rules": "Examine what the loss actually consists of. If another layer already carries what you were worried about losing, the trade is free — and the simplification adds options rather than removing them.",
+          "flavor": "\"Consolidating all the birds didn't eliminate falcons flavor-wise. The title and art could still convey 'falcon-ness.' And you could still build a deck of all falcons. But by making all birds into creature type bird, we allowed players to mix and match their birds. Consolidation of creature types created diversity in deck building options. This is a good example of how simplicity can at times expand the game's interactions.\""
+        },
+        {
+          "title": "Put the rules where people actually look",
+          "rules": "Documentation nobody opens isn't documentation. Move the explanation onto the object itself, and accept the constraint that follows: you can only build what fits there.",
+          "flavor": "\"Players may not read the rulebook, but they have to read the cards. The ramification of this shift is two-fold. First, it adds an important restriction to design. Cards can only have abilities that can be explained on the card itself. This means an ability like phasing which requires pages of rulebook support to explain will never again see the light of day.\""
+        },
+        {
+          "title": "Accept the self-imposed limit, and say why",
+          "rules": "Admit plainly that you're narrowing your own options, then give the reason in terms of who you'd otherwise exclude. A restriction defended openly reads as a choice rather than a failure of nerve.",
+          "flavor": "\"I'm sure this will upset some of you as it seems R&D is limiting what we allow ourselves to do. And we are. But for a very important reason. We don't want Magic to become a game where only a few informed people can play… Every time a card forces a player to leave the game to find a rulebook, the game loses an integral part of what makes it special. Magic has to live in the cards.\""
+        },
+        {
+          "title": "Some friction is a tax the fluent pay for the newcomers",
+          "rules": "The redundancy that annoys your experienced audience is what lets new people in at all. Say so directly, ask for tolerance rather than pretending nobody minds, and keep the cost small.",
+          "flavor": "\"Numerous emails I've received go on for at least a paragraph about how Magic players know 'walls can't attack'… My response is that reminder text serves a vital role, one so important that I think players need to be more tolerant. Reminder text keeps the game in the cards and ensures an influx of new players. Without these two factors, Magic's long-term health is in jeopardy. As such, I feel it's worth the small aggravation of skipping over the occasional line of italic text.\""
+        }
+      ]
+    },
+    "es": {
+      "title": "Mantenerlo simple",
+      "dek": "Por qué I+D simplifica las cartas, y por qué eso no es rebajar el juego: la complejidad se traslada de las piezas a lo que ocurre entre ellas.",
+      "overview": "La formulación más clara de la filosofía de diseño central de la columna. Un juego complejo cuya complejidad vive en sus piezas individuales acaba colapsando; uno cuya complejidad vive en sus interacciones, no.",
+      "takeaway": "«No simplificamos para reducir el juego, sino para fortalecerlo. Estamos podando para proteger lo que queda».",
+      "lessons": [
+        {
+          "title": "Fija el horizonte antes de discutir nada",
+          "rules": "La mayoría de los desacuerdos sobre la contención son en realidad desacuerdos sobre la escala temporal. Di cuánto pretendes que dure la cosa y la mitad de las objeciones se convierten en preguntas sobre el cómo, no sobre el si.",
+          "flavor": "«Empezaré enunciando el papel de un diseñador (o desarrollador) de Magic: hacer de Magic el mejor juego posible. No solo para el año que viene, sino para el siglo que viene… Entendemos que estamos trabajando en un clásico. Por eso sentimos una gran responsabilidad de pensar el juego a largo plazo. Sí, agárrate: I+D se ha visto obligado a tener visión»."
+        },
+        {
+          "title": "La complejidad se acumula, y ya va ganando",
+          "rules": "En un sistema donde cada elemento nuevo puede interactuar con todos los antiguos, la carga crece más deprisa que el catálogo. Mide el crecimiento de la explicación, no el del contenido.",
+          "flavor": "«Cada carta nueva que creamos añade a esta complejidad. Y el problema se hace bola, porque cada carta nueva tiene una carta más que la anterior con la que puede interactuar. Además, no tenemos ningún plan de parar. Súmale a eso lo siguiente: el reglamento crece el equivalente a la Constitución de Estados Unidos cada cuatro meses. Y el jugador medio ni siquiera tiene uno»."
+        },
+        {
+          "title": "Traslada la complejidad de las piezas a lo que hay entre ellas",
+          "rules": "La profundidad no tiene por qué vivir dentro de cada componente. Mantén cada pieza legible por sí sola y deja que la dificultad emerja de sus combinaciones, lo que no cuesta nada explicar porque nadie tiene que hacerlo.",
+          "flavor": "«Mira el ajedrez. Cualquier pieza de ajedrez es bastante sencilla. Y las reglas generales caben en una sola página. Y sin embargo el ajedrez tiene una profundidad estratégica riquísima… La simplicidad de las cartas no elimina la complejidad estratégica. Simplemente traslada la complejidad de las cartas a las interacciones entre cartas». Y la frase que lo zanja: «La belleza del ajedrez no está en la dama sino en el gambito de dama. O, en términos de Magic, no es el Ancestral Recall lo que da corazón al juego, sino el concepto de ventaja de cartas»."
+        },
+        {
+          "title": "Trae la prueba, no el argumento",
+          "rules": "Una afirmación sobre filosofía de diseño vale mucho más con un ejemplo ya publicado adjunto. Señala aquello que ya lo demuestra y la teoría deja de ser una preferencia.",
+          "flavor": "«Presento Odyssey como prueba de esta afirmación. Aunque todas las cartas son bastante directas, la interacción entre umbral, flashback y el cementerio ha dado lugar a un juego complejo (sobre todo en limitado)»."
+        },
+        {
+          "title": "La brevedad es el oficio, no la concesión",
+          "rules": "La disciplina de decir más con menos es la misma en todos los medios. Empieza lo más tarde que puedas, sal lo más pronto que puedas, y conserva solo lo que tiene que estar.",
+          "flavor": "«'El arte', decía siempre uno de mis profesores favoritos, 'es el acto de expresar lo máximo posible con lo mínimo posible'». Y la versión de guion: «Empiezas cada escena lo más tarde que puedas y sales lo más pronto que puedas. Todo lo que exista debe ser lo que necesita existir»."
+        },
+        {
+          "title": "La amenaza es la acumulación, no el exceso",
+          "rules": "Los errores grandes se detectan. Lo que mata a un sistema longevo son miles de pequeñas adiciones, cada una defendible por separado, ninguna de las cuales vale su coste. Audita las cosas pequeñas o nada más importa.",
+          "flavor": "La segunda frase de Castle existía para cubrir una interacción con una sola carta de Alpha. «¿Y qué importan cinco palabras? ¿Por qué armar un escándalo? Porque la mayor amenaza para la salud a largo plazo de Magic no son los grandes excesos (esos son fáciles de detectar) sino la acumulación de los pequeños. El espacio de texto es un recurso valioso. Si no aporta lo suficiente, tiene que irse. Me gusta pensar en esto como un régimen de adelgazamiento para el juego. Para estar sano, tiene que mantenerse fino»."
+        },
+        {
+          "title": "Publicar es la única prueba real",
+          "rules": "Las pruebas internas te dicen si algo funciona; no pueden decirte si sobrevive al contacto con todo el mundo. Trata cada lanzamiento como un experimento, y acepta que algunos volverán con resultado negativo.",
+          "flavor": "«En el fondo, Magic es un juego de exploración. Y no solo para los jugadores. I+D usa los sets nuevos para probar mecánicas nuevas. Claro que podemos testearlas, pero nada muestra el temple de una mecánica como millones de jugadores dándose de tortas. Algunas mecánicas triunfarán y otras fracasarán. Parte del trabajo de I+D es deducir cuáles son cuáles»."
+        },
+        {
+          "title": "Los defensores son justamente quienes lo entendían",
+          "rules": "Nadie escribe para decir que nunca captó aquello que quitaste. Quienes protestan son, por definición, aquellos a quienes les funcionaba, y precisamente por eso su testimonio no puede zanjar la cuestión.",
+          "flavor": "«I+D recibió muchos palos por quitar la banda. Pero los defensores de la banda no entendían por qué tenía que irse. Ellos sí la entendían». El motivo por el que se fue era todo el resto: «Demasiados jugadores sencillamente no entendían cómo funcionaba»."
+        },
+        {
+          "title": "Sustituye una cosa confusa por varias claras",
+          "rules": "Cuando retires una mecánica, conserva el trabajo que hacía. Varias piezas simples actuando juntas pueden producir el mismo efecto a una fracción del coste explicativo, y nadie nota lo añadido como nota lo quitado.",
+          "flavor": "«Por desgracia, la atención se centró en lo que se iba del juego. Lo que la gente no notó fue lo que I+D añadió para ocupar su lugar… En vez de lograrlo con una mecánica confusa, I+D optó por sustituirla por numerosas mecánicas más simples que en conjunto producían un efecto similar». El blanco recibió Advance Scout, Heavy Ballista, Angelic Page, Honor Guard y Vigilant Martyr: «se creó un sabor similar sin necesidad de confusión»."
+        },
+        {
+          "title": "Experimentar implica aceptar pérdidas permanentes",
+          "rules": "No puedes probar cosas sin que algunas fallen, y un experimento fallido no se queda por sentimentalismo. La alternativa a perder algo de vez en cuando es no haber intentado nunca nada.",
+          "flavor": "«Es importante que I+D tenga la capacidad de experimentar. Magic sin experimentación sería un mundo aburrido y predecible. Uno de los efectos secundarios de esta experimentación es que algunas ideas desaparecerán para no volver jamás. Pero confiad en que, si la mecánica cumplía un papel importante, encontraremos una nueva forma de lograr el mismo objetivo»."
+        },
+        {
+          "title": "Formula la disyuntiva como pregunta y respóndela",
+          "rules": "Un cambio que sacrifica algo bueno para comprar otro bueno debe argumentarse así explícitamente. Pon ambos bienes en la misma frase, pregunta cuál sirve mejor al conjunto, y comprométete con la respuesta.",
+          "flavor": "«Nos preguntamos: ¿qué es mejor, tener diversidad de sabor o tener mayor interactividad entre las cartas? ¿Es Magic un juego mejor por tener halcones, o lo es porque puedes construir un mazo con tema de aves?» En su día, cuando Zephyr Falcon era un halcón y Osai Vultures eran buitres, «un señor de las aves con poder para comandar a sus amigos emplumados parecía obvio y chulo. Pero el juego no lo permitía»."
+        },
+        {
+          "title": "A veces el coste resulta no pagarse",
+          "rules": "Examina en qué consiste realmente la pérdida. Si otra capa ya carga con aquello que temías perder, el intercambio es gratis, y la simplificación añade opciones en vez de quitarlas.",
+          "flavor": "«Consolidar todas las aves no eliminaba a los halcones en cuanto a sabor. El título y la ilustración podían seguir transmitiendo la 'halconidad'. Y aún podías construir un mazo lleno de halcones. Pero al convertir a todas las aves en el tipo de criatura ave, permitimos a los jugadores mezclar y combinar sus aves. La consolidación de tipos de criatura creó diversidad en las opciones de construcción de mazos. Es un buen ejemplo de cómo la simplicidad puede a veces ampliar las interacciones del juego»."
+        },
+        {
+          "title": "Pon las reglas donde la gente mira de verdad",
+          "rules": "Una documentación que nadie abre no es documentación. Traslada la explicación al propio objeto, y acepta la restricción que se sigue: solo puedes construir lo que quepa ahí.",
+          "flavor": "«Puede que los jugadores no lean el reglamento, pero tienen que leer las cartas. La consecuencia de este cambio es doble. Primero, añade una restricción importante al diseño. Las cartas solo pueden tener habilidades que se puedan explicar en la propia carta. Eso significa que una habilidad como la transposición, que necesita páginas de reglamento para explicarse, no volverá a ver la luz del día»."
+        },
+        {
+          "title": "Acepta el límite autoimpuesto y di por qué",
+          "rules": "Admite sin rodeos que estás estrechando tus propias opciones, y luego da la razón en términos de a quién excluirías si no. Una restricción defendida abiertamente se lee como una decisión y no como una falta de valor.",
+          "flavor": "«Seguro que esto molestará a algunos, porque parece que I+D está limitando lo que nos permitimos hacer. Y lo estamos haciendo. Pero por una razón muy importante. No queremos que Magic se convierta en un juego donde solo puedan jugar unos pocos informados… Cada vez que una carta obliga a un jugador a abandonar la partida para buscar un reglamento, el juego pierde una parte esencial de lo que lo hace especial. Magic tiene que vivir en las cartas»."
+        },
+        {
+          "title": "Cierta fricción es un impuesto que los expertos pagan por los novatos",
+          "rules": "La redundancia que molesta a tu público experimentado es lo que permite entrar a la gente nueva. Dilo directamente, pide tolerancia en vez de fingir que a nadie le molesta, y mantén el coste pequeño.",
+          "flavor": "«Numerosos correos que recibo se extienden al menos un párrafo sobre cómo los jugadores de Magic ya saben que 'los muros no pueden atacar'… Mi respuesta es que el texto recordatorio cumple un papel vital, tan importante que creo que los jugadores deberían ser más tolerantes. El texto recordatorio mantiene el juego dentro de las cartas y asegura una entrada constante de jugadores nuevos. Sin esos dos factores, la salud a largo plazo de Magic está en peligro. Por eso creo que vale la pena la pequeña molestia de saltarse alguna línea ocasional en cursiva»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Faire simple",
+      "dek": "Pourquoi la R&D simplifie les cartes, et pourquoi ce n'est pas abêtir le jeu : la complexité se déplace des pièces vers ce qui se passe entre elles.",
+      "overview": "L'exposé le plus clair de la philosophie de conception centrale de la chronique. Un jeu complexe dont la complexité réside dans ses pièces finit par s'effondrer ; celui dont la complexité réside dans leurs interactions, non.",
+      "takeaway": "« Nous ne simplifions pas pour amoindrir le jeu, mais pour le renforcer. Nous élaguons pour protéger ce qui reste. »",
+      "lessons": [
+        {
+          "title": "Fixez l'horizon avant de discuter de quoi que ce soit",
+          "rules": "La plupart des désaccords sur la retenue sont en fait des désaccords sur l'échelle de temps. Dites combien de temps vous voulez que la chose dure, et la moitié des objections deviennent des questions sur le comment, non sur le faut-il.",
+          "flavor": "« Commençons par énoncer le rôle d'un concepteur (ou développeur) de Magic : faire de Magic le meilleur jeu possible. Pas seulement pour l'an prochain, mais pour le siècle prochain… Nous savons que nous travaillons sur un classique. Nous ressentons donc une grande responsabilité à penser le jeu sur le long terme. Oui, tenez-vous bien : la R&D a été forcée d'avoir une vision. »"
+        },
+        {
+          "title": "La complexité s'accumule, et elle est déjà en train de gagner",
+          "rules": "Dans un système où chaque nouvel élément peut interagir avec tous les anciens, la charge croît plus vite que le catalogue. Mesurez la croissance de l'explication, pas celle du contenu.",
+          "flavor": "« Chaque nouvelle carte que nous créons ajoute à cette complexité. Et le problème fait boule de neige, puisque chaque nouvelle carte a une carte de plus que la précédente avec laquelle interagir. Et nous n'avons aucune intention d'arrêter. Ajoutez à cela : le livre de règles grossit de l'équivalent de la Constitution américaine tous les quatre mois. Et le joueur moyen n'en possède même pas un. »"
+        },
+        {
+          "title": "Déplacez la complexité des pièces vers ce qui les sépare",
+          "rules": "La profondeur n'a pas besoin de loger à l'intérieur de chaque composant. Gardez chaque pièce lisible seule et laissez la difficulté émerger de leurs combinaisons — cela ne coûte rien à expliquer, puisque personne n'a à le faire.",
+          "flavor": "« Regardez le jeu d'échecs. Chaque pièce est plutôt simple. Et les règles générales tiennent sur une seule page. Pourtant, les échecs ont une profondeur stratégique très riche… La simplicité des cartes n'élimine pas la complexité stratégique. Elle déplace simplement la complexité des cartes vers leurs interactions. » Et la phrase qui tranche : « La beauté des échecs ne réside pas dans la dame mais dans le gambit de la dame. Ou, en termes de Magic : ce n'est pas Ancestral Recall qui donne son cœur au jeu, c'est la notion d'avantage de cartes. »"
+        },
+        {
+          "title": "Apportez la preuve, pas l'argument",
+          "rules": "Une affirmation sur la philosophie de conception vaut beaucoup plus avec un exemple déjà publié à l'appui. Montrez ce qui le démontre déjà, et la théorie cesse d'être une préférence.",
+          "flavor": "« J'avance Odyssey comme preuve de cette thèse. Alors que toutes les cartes sont assez directes, l'interaction entre le seuil, le flashback et le cimetière a produit un jeu complexe (surtout en limité). »"
+        },
+        {
+          "title": "La brièveté est le métier, pas la concession",
+          "rules": "La discipline de dire plus avec moins est la même dans tous les médiums. Commencez le plus tard possible, sortez le plus tôt possible, et ne gardez que ce qui doit être là.",
+          "flavor": "« 'L'art', disait toujours l'un de mes professeurs préférés, 'est l'acte d'exprimer le plus possible avec le moins possible.' » Et la version scénario : « On commence chaque scène le plus tard possible et on en sort le plus tôt possible. Tout ce qui existe doit être ce qui a besoin d'exister. »"
+        },
+        {
+          "title": "La menace est l'accumulation, pas l'excès",
+          "rules": "Les grosses erreurs se repèrent. Ce qui tue un système durable, ce sont des milliers de petits ajouts, chacun défendable, aucun ne valant son coût. Auditez les petites choses, sinon rien d'autre ne compte.",
+          "flavor": "La deuxième phrase de Castle existait pour gérer une interaction avec une seule carte d'Alpha. « Qu'importent cinq mots ? Pourquoi en faire toute une histoire ? Parce que la plus grande menace pour la santé à long terme de Magic n'est pas les grands excès (ils sont faciles à repérer) mais l'accumulation des petits. L'espace de texte est une ressource précieuse. S'il n'en fait pas assez, il doit disparaître. J'aime voir cela comme un régime amaigrissant pour le jeu. Pour rester en bonne santé, il doit rester mince. »"
+        },
+        {
+          "title": "La publication est le seul vrai test",
+          "rules": "Les tests internes vous disent si une chose marche ; ils ne peuvent pas dire si elle survit au contact de tout le monde. Traitez chaque sortie comme une expérience, et acceptez que certaines reviennent négatives.",
+          "flavor": "« Au fond, Magic est un jeu d'exploration. Et pas seulement pour les joueurs. La R&D se sert des nouvelles extensions pour essayer de nouvelles mécaniques. Bien sûr, nous pouvons les tester, mais rien ne révèle la trempe d'une mécanique comme des millions de joueurs qui s'y frottent. Certaines réussiront, d'autres échoueront. Une partie du travail de la R&D est de déduire lesquelles sont lesquelles. »"
+        },
+        {
+          "title": "Les défenseurs sont justement ceux qui avaient compris",
+          "rules": "Personne n'écrit pour dire qu'il n'a jamais saisi ce que vous avez retiré. Ceux qui protestent sont, par définition, ceux pour qui cela fonctionnait — et c'est précisément pourquoi leur témoignage ne peut pas trancher la question.",
+          "flavor": "« La R&D en a pris pour son grade en retirant le bandage. Mais les partisans du bandage ne comprenaient pas pourquoi il devait partir. Eux, ils le comprenaient. » Ce qui l'a fait partir, c'était tous les autres : « Trop de joueurs ne comprenaient tout simplement pas comment cela fonctionnait. »"
+        },
+        {
+          "title": "Remplacez une chose confuse par plusieurs claires",
+          "rules": "Quand vous retirez une mécanique, gardez le travail qu'elle faisait. Plusieurs pièces simples agissant ensemble peuvent produire le même effet pour une fraction du coût explicatif — et personne ne remarque l'ajout comme il remarque le retrait.",
+          "flavor": "« Malheureusement, l'attention s'est portée sur ce qui quittait le jeu. Ce que les gens n'ont pas remarqué, c'est ce que la R&D a ajouté pour le remplacer… Plutôt que d'y arriver avec une mécanique confuse, la R&D a choisi de la remplacer par de nombreuses mécaniques plus simples qui, ensemble, produisaient un effet similaire. » Le blanc a reçu Advance Scout, Heavy Ballista, Angelic Page, Honor Guard et Vigilant Martyr — « une ambiance similaire a été créée sans le besoin de confusion »."
+        },
+        {
+          "title": "Expérimenter, c'est accepter des pertes définitives",
+          "rules": "On ne peut pas essayer sans que certaines tentatives échouent, et une expérience ratée ne reste pas par sentimentalisme. L'alternative à perdre parfois une chose, c'est de n'avoir jamais rien tenté.",
+          "flavor": "« Il est important que la R&D puisse expérimenter. Magic sans expérimentation serait un monde ennuyeux et prévisible. L'un des effets secondaires de cette expérimentation, c'est que certaines idées disparaîtront pour ne jamais revenir. Mais ayez confiance : si la mécanique remplissait un rôle important, nous trouverons une nouvelle façon d'atteindre le même objectif. »"
+        },
+        {
+          "title": "Formulez l'arbitrage en question et répondez-y",
+          "rules": "Un changement qui sacrifie un bien pour en acheter un autre doit être plaidé ainsi, explicitement. Mettez les deux biens dans la même phrase, demandez lequel sert le mieux l'ensemble, et engagez-vous sur la réponse.",
+          "flavor": "« Nous nous sommes demandé : qu'est-ce qui vaut mieux, une diversité d'ambiance ou une plus grande interactivité entre les cartes ? Magic est-il un meilleur jeu parce qu'il a des faucons, ou parce qu'on peut construire un deck sur le thème des oiseaux ? » À l'époque où Zephyr Falcon était un faucon et Osai Vultures des vautours, « un seigneur des oiseaux capable de commander ses amis à plumes semblait évident et chouette. Mais le jeu ne le permettait pas. »"
+        },
+        {
+          "title": "Parfois le coût s'avère ne pas être payé",
+          "rules": "Examinez en quoi consiste réellement la perte. Si une autre couche porte déjà ce que vous craigniez de perdre, l'échange est gratuit — et la simplification ajoute des options au lieu d'en retirer.",
+          "flavor": "« Regrouper tous les oiseaux n'a pas éliminé les faucons sur le plan de l'ambiance. Le titre et l'illustration pouvaient toujours transmettre la 'faucon-itude'. Et on pouvait toujours bâtir un deck entièrement de faucons. Mais en faisant de tous les oiseaux le type de créature oiseau, nous avons permis aux joueurs de les mélanger. Le regroupement des types de créature a créé de la diversité dans les options de construction. C'est un bon exemple de la façon dont la simplicité peut parfois élargir les interactions du jeu. »"
+        },
+        {
+          "title": "Mettez les règles là où les gens regardent vraiment",
+          "rules": "Une documentation que personne n'ouvre n'est pas une documentation. Déplacez l'explication sur l'objet lui-même, et acceptez la contrainte qui suit : vous ne pouvez construire que ce qui y tient.",
+          "flavor": "« Les joueurs ne lisent peut-être pas le livre de règles, mais ils doivent lire les cartes. La conséquence de ce basculement est double. D'abord, cela ajoute une restriction importante à la conception. Les cartes ne peuvent avoir que des capacités explicables sur la carte elle-même. Cela signifie qu'une capacité comme le déphasage, qui exige des pages de règles pour être expliquée, ne reverra jamais le jour. »"
+        },
+        {
+          "title": "Assumez la limite que vous vous imposez, et dites pourquoi",
+          "rules": "Reconnaissez franchement que vous rétrécissez vos propres options, puis donnez la raison en termes de qui vous excluriez sinon. Une restriction défendue ouvertement se lit comme un choix et non comme un manque de courage.",
+          "flavor": "« Je suis sûr que cela va contrarier certains d'entre vous, car on dirait que la R&D limite ce qu'elle s'autorise. Et c'est le cas. Mais pour une raison très importante. Nous ne voulons pas que Magic devienne un jeu où seuls quelques initiés peuvent jouer… Chaque fois qu'une carte oblige un joueur à quitter la partie pour aller chercher un livre de règles, le jeu perd une part essentielle de ce qui le rend spécial. Magic doit vivre dans les cartes. »"
+        },
+        {
+          "title": "Une certaine friction est un impôt que les initiés paient pour les nouveaux",
+          "rules": "La redondance qui agace votre public expérimenté est ce qui permet aux nouveaux d'entrer. Dites-le franchement, demandez de la tolérance plutôt que de prétendre que personne n'est gêné, et gardez le coût faible.",
+          "flavor": "« De nombreux courriels que je reçois s'étendent sur au moins un paragraphe pour expliquer que les joueurs de Magic savent que 'les murs ne peuvent pas attaquer'… Ma réponse est que le texte de rappel joue un rôle vital, si important que je pense que les joueurs devraient être plus tolérants. Le texte de rappel maintient le jeu dans les cartes et garantit un afflux de nouveaux joueurs. Sans ces deux facteurs, la santé à long terme de Magic est en péril. Cela vaut donc bien le petit agacement de sauter de temps en temps une ligne en italique. »"
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Mantendo a simplicidade",
+      "dek": "Por que a P&D simplifica as cartas, e por que isso não é emburrecer o jogo: a complexidade se muda das peças para o que acontece entre elas.",
+      "overview": "A formulação mais clara da filosofia central de design da coluna. Um jogo complexo cuja complexidade mora nas peças individuais acaba desabando; um cuja complexidade mora nas interações, não.",
+      "takeaway": "«Não simplificamos para diminuir o jogo, e sim para fortalecê-lo. Estamos podando para proteger o que resta».",
+      "lessons": [
+        {
+          "title": "Defina o horizonte antes de discutir qualquer coisa",
+          "rules": "A maioria das discordâncias sobre contenção é, na verdade, discordância sobre escala de tempo. Diga quanto tempo você pretende que a coisa dure, e metade das objeções vira pergunta sobre como, não sobre se.",
+          "flavor": "«Começo enunciando o papel de um designer (ou desenvolvedor) de Magic: fazer de Magic o melhor jogo possível. Não só para o ano que vem, mas para o século que vem… Entendemos que estamos trabalhando num clássico. Por isso sentimos uma grande responsabilidade de pensar o jogo no longo prazo. Sim, pasmem: a P&D foi obrigada a ter visão»."
+        },
+        {
+          "title": "A complexidade se acumula, e já está ganhando",
+          "rules": "Num sistema em que cada elemento novo pode interagir com todos os antigos, o peso cresce mais rápido que o catálogo. Meça o crescimento da explicação, não o do conteúdo.",
+          "flavor": "«Cada carta nova que criamos soma a essa complexidade. E o problema vira bola de neve, porque cada carta nova tem uma carta a mais que a anterior com a qual interagir. Além disso, não temos plano nenhum de parar. Some a isso o seguinte: o livro de regras cresce o equivalente à Constituição americana a cada quatro meses. E o jogador médio nem tem um»."
+        },
+        {
+          "title": "Mude a complexidade das peças para o que fica entre elas",
+          "rules": "Profundidade não precisa morar dentro de cada componente. Mantenha cada peça legível sozinha e deixe a dificuldade emergir das combinações — o que não custa nada explicar, porque ninguém precisa.",
+          "flavor": "«Olhe o xadrez. Qualquer peça de xadrez é bem direta. E as regras gerais cabem numa única página. E, ainda assim, o xadrez tem uma profundidade estratégica riquíssima… A simplicidade das cartas não elimina a complexidade estratégica. Ela apenas muda a complexidade das cartas para as interações entre cartas». E a frase que encerra o assunto: «A beleza do xadrez não está na dama, e sim no gambito da dama. Ou, em termos de Magic: não é o Ancestral Recall que dá coração ao jogo, e sim o conceito de vantagem de cartas»."
+        },
+        {
+          "title": "Traga a prova, não o argumento",
+          "rules": "Uma afirmação sobre filosofia de design vale muito mais com um exemplo já publicado anexado. Aponte para aquilo que já demonstra, e a teoria deixa de ser uma preferência.",
+          "flavor": "«Apresento Odyssey como prova dessa tese. Embora todas as cartas sejam bem diretas, a interação entre limiar, lampejo e o cemitério produziu um jogo complexo (sobretudo no limitado)»."
+        },
+        {
+          "title": "Brevidade é o ofício, não a concessão",
+          "rules": "A disciplina de dizer mais com menos é a mesma em todo meio. Comece o mais tarde que puder, saia o mais cedo que puder, e guarde só o que precisa estar ali.",
+          "flavor": "«'Arte', dizia sempre um dos meus professores favoritos, 'é o ato de expressar o máximo possível com o mínimo possível'». E a versão do roteiro: «Você começa cada cena o mais tarde que puder e sai o mais cedo que puder. Tudo que existir deve ser aquilo que precisa existir»."
+        },
+        {
+          "title": "A ameaça é o acúmulo, não o excesso",
+          "rules": "Erros grandes são pegos. O que mata um sistema longevo são milhares de pequenos acréscimos, cada um defensável, nenhum valendo o custo. Audite as coisas pequenas, ou nada mais importa.",
+          "flavor": "A segunda frase de Castle existia para lidar com uma interação com uma única carta de Alpha. «E o que importam cinco palavras? Por que fazer barulho? Porque a maior ameaça à saúde de longo prazo de Magic não são os grandes excessos (esses são fáceis de pegar), e sim o acúmulo dos pequenos. Espaço de texto é um recurso valioso. Se não faz o bastante, tem de sair. Gosto de pensar nisso como um regime de emagrecimento para o jogo. Para ficar saudável, ele precisa se manter enxuto»."
+        },
+        {
+          "title": "Publicar é o único teste de verdade",
+          "rules": "Testes internos dizem se algo funciona; não conseguem dizer se aquilo sobrevive ao contato com todo mundo. Trate cada lançamento como um experimento, e aceite que alguns voltarão negativos.",
+          "flavor": "«No fundo, Magic é um jogo de exploração. E não só para os jogadores. A P&D usa as coleções novas para testar mecânicas novas. Claro que dá para fazer playtest, mas nada mostra a têmpera de uma mecânica como milhões de jogadores se batendo. Algumas mecânicas vão dar certo e outras vão falhar. Parte do trabalho da P&D é deduzir quais são quais»."
+        },
+        {
+          "title": "Os defensores são justamente os que entendiam",
+          "rules": "Ninguém escreve para dizer que nunca entendeu aquilo que você removeu. Quem protesta é, por definição, aquele para quem funcionava — e é exatamente por isso que o testemunho deles não pode encerrar a questão.",
+          "flavor": "«A P&D levou muita pancada por remover a agremiação. Mas os defensores da agremiação não entendiam por que ela tinha de sair. Eles entendiam a agremiação». O motivo da saída era todo o resto: «Jogadores demais simplesmente não entendiam como aquilo funcionava»."
+        },
+        {
+          "title": "Substitua uma coisa confusa por várias claras",
+          "rules": "Ao aposentar uma mecânica, preserve o trabalho que ela fazia. Várias peças simples atuando juntas podem produzir o mesmo efeito por uma fração do custo explicativo — e ninguém repara no acréscimo como repara na retirada.",
+          "flavor": "«Infelizmente, o foco ficou no que saiu do jogo. O que as pessoas não notaram foi o que a P&D acrescentou para ocupar o lugar… Em vez de conseguir aquilo com uma mecânica confusa, a P&D escolheu substituí-la por várias mecânicas mais simples que, em conjunto, produziam um efeito parecido». O branco ganhou Advance Scout, Heavy Ballista, Angelic Page, Honor Guard e Vigilant Martyr — «criou-se um sabor parecido sem a necessidade de confusão»."
+        },
+        {
+          "title": "Experimentar significa aceitar perdas permanentes",
+          "rules": "Não dá para tentar coisas sem que algumas falhem, e um experimento fracassado não fica por sentimentalismo. A alternativa a perder algo de vez em quando é nunca ter tentado nada.",
+          "flavor": "«É importante que a P&D tenha a capacidade de experimentar. Magic sem experimentação seria um mundo chato e previsível. Um dos efeitos colaterais dessa experimentação é que algumas ideias vão sumir para nunca mais voltar. Mas tenham fé: se a mecânica cumpria um papel importante, vamos achar um jeito novo de atingir o mesmo objetivo»."
+        },
+        {
+          "title": "Formule o trade-off como pergunta e responda",
+          "rules": "Uma mudança que sacrifica uma coisa boa para comprar outra deve ser defendida assim, explicitamente. Ponha os dois bens na mesma frase, pergunte qual serve melhor ao conjunto, e comprometa-se com a resposta.",
+          "flavor": "«Nós nos perguntamos: o que é melhor, ter diversidade de sabor ou ter maior interatividade entre as cartas? Magic é um jogo melhor por ter falcões, ou é melhor porque você consegue montar um baralho com tema de pássaros?» Na época em que Zephyr Falcon era um falcão e Osai Vultures eram abutres, «um lorde dos pássaros com poder de comandar os amigos emplumados parecia óbvio e legal. Mas o jogo não permitia»."
+        },
+        {
+          "title": "Às vezes o custo acaba não sendo pago",
+          "rules": "Examine em que a perda consiste de fato. Se outra camada já carrega aquilo que você temia perder, a troca sai de graça — e a simplificação acrescenta opções em vez de tirar.",
+          "flavor": "«Consolidar todos os pássaros não eliminou os falcões em termos de sabor. O título e a arte ainda conseguiam transmitir a 'falconidade'. E você ainda podia montar um baralho só de falcões. Mas ao transformar todos os pássaros no tipo de criatura pássaro, permitimos que os jogadores misturassem e combinassem os pássaros deles. A consolidação de tipos de criatura criou diversidade nas opções de montagem de baralho. É um bom exemplo de como a simplicidade às vezes amplia as interações do jogo»."
+        },
+        {
+          "title": "Ponha as regras onde as pessoas de fato olham",
+          "rules": "Documentação que ninguém abre não é documentação. Mova a explicação para o próprio objeto, e aceite a restrição que vem junto: você só consegue construir o que couber ali.",
+          "flavor": "«Os jogadores podem não ler o livro de regras, mas têm de ler as cartas. A consequência dessa virada é dupla. Primeiro, ela acrescenta uma restrição importante ao design. Cartas só podem ter habilidades que consigam ser explicadas na própria carta. Isso significa que uma habilidade como a transposição, que exige páginas de apoio do livro de regras para ser explicada, nunca mais vai ver a luz do dia»."
+        },
+        {
+          "title": "Assuma o limite autoimposto, e diga por quê",
+          "rules": "Admita com clareza que você está estreitando as próprias opções, e então dê o motivo em termos de quem você excluiria caso contrário. Uma restrição defendida abertamente se lê como escolha, não como falta de coragem.",
+          "flavor": "«Tenho certeza de que isso vai incomodar alguns de vocês, porque parece que a P&D está limitando o que se permite fazer. E está mesmo. Mas por um motivo muito importante. Não queremos que Magic vire um jogo em que só poucas pessoas informadas conseguem jogar… Toda vez que uma carta obriga um jogador a sair do jogo para procurar um livro de regras, o jogo perde uma parte essencial do que o torna especial. Magic tem de viver nas cartas»."
+        },
+        {
+          "title": "Certo atrito é um imposto que os fluentes pagam pelos novatos",
+          "rules": "A redundância que irrita o seu público experiente é o que permite que gente nova entre. Diga isso diretamente, peça tolerância em vez de fingir que ninguém se incomoda, e mantenha o custo pequeno.",
+          "flavor": "«Vários e-mails que recebo se estendem por pelo menos um parágrafo dizendo que jogadores de Magic sabem que 'muros não podem atacar'… Minha resposta é que o texto de lembrete cumpre um papel vital, tão importante que acho que os jogadores precisam ser mais tolerantes. O texto de lembrete mantém o jogo dentro das cartas e garante um fluxo de jogadores novos. Sem esses dois fatores, a saúde de longo prazo de Magic fica em risco. Por isso acho que vale o pequeno aborrecimento de pular uma linha ocasional em itálico»."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "把它做简单",
+      "dek": "研发部为什么要把牌做简单，以及为什么这并不是在把游戏做傻：复杂度是从零件身上，挪到了零件之间发生的事情里。",
+      "overview": "这是这个专栏对其核心设计哲学最清晰的一次陈述。一个复杂度住在自己每一个零件里的复杂游戏，最终会塌下来；而一个复杂度住在零件互动里的，不会。",
+      "takeaway": "「我们做简化，不是为了削弱这个游戏，而是为了强化它。我们是在修枝，好保护剩下的部分。」",
+      "lessons": [
+        {
+          "title": "在争论任何事之前，先把时间尺度定下来",
+          "rules": "绝大多数关于「要不要克制」的分歧，其实是关于时间尺度的分歧。请说出你打算让这样东西存在多久——于是一半的反对意见，会变成关于「怎么做」而不是「该不该做」的问题。",
+          "flavor": "「让我先说清楚一位万智牌设计师（或开发者）的职责：把万智牌做成一个尽可能好的游戏。不只是为了明年，而是为了下一个世纪……我们明白我们正在做的是一部经典。因此，我们感到一份沉重的责任，要以长远的眼光去想这个游戏。是的，请倒吸一口气：研发部被迫拥有了远见。」"
+        },
+        {
+          "title": "复杂度会复利增长，而且它已经在赢了",
+          "rules": "在一个「每一个新元素都能和所有旧元素互动」的系统里，负担增长得比目录本身更快。请去量那份「解释」的增长，而不是「内容」的增长。",
+          "flavor": "「我们创造的每一张新牌，都会往这份复杂度上再加一点。而这个问题会滚成雪球，因为每一张新牌能与之互动的牌，都比前一张多一张。而且，我们完全没有停下来的打算。再把这一条加上去：规则手册每四个月就会长出一部《美国宪法》那么多。而普通玩家甚至连一本都没有。」"
+        },
+        {
+          "title": "把复杂度从零件身上，挪到零件之间去",
+          "rules": "深度并不需要住在每一个部件的内部。请让每一个零件单独看都读得懂，并让难度从它们的组合里长出来——而这份难度的解释成本是零，因为根本没有人需要去解释它。",
+          "flavor": "「看看国际象棋。任何一枚棋子都相当直白。而整套规则可以塞进一页纸里。可国际象棋却拥有丰富的战略深度……牌张的简单，并不会消灭战略上的复杂。它只是把复杂度从牌身上，挪到了牌与牌的互动里。」而那句一锤定音的话是：「国际象棋之美，不在皇后，而在后翼弃兵。或者用万智牌的话说：给这个游戏灵魂的，不是祖传秘方那张牌，而是『牌张优势』这个概念。」"
+        },
+        {
+          "title": "带上证据，而不是带上论点",
+          "rules": "一句关于设计哲学的主张，如果附上一个已经发售的例子，价值会高得多。指着那个已经在证明它的东西——于是这套理论就不再是一种偏好了。",
+          "flavor": "「我拿《奥德赛》来作为这个论点的证据。虽然它所有的牌都相当直白，但门槛、返照和坟墓场之间的互动，造出了一个复杂的对局（尤其是在限制赛里）。」"
+        },
+        {
+          "title": "简洁是手艺，而不是让步",
+          "rules": "「用更少说出更多」这项纪律，在每一种媒介里都是同一项。请尽可能晚地开始，尽可能早地离开，并且只留下那些非在不可的东西。",
+          "flavor": "「我最喜欢的一位老师总说：『艺术，就是用尽可能少的东西，表达出尽可能多的东西。』」而剧本写作版本是：「每一场戏，你都要尽可能晚地进去，尽可能早地出来。存在的一切，都应该是必须存在的东西。」"
+        },
+        {
+          "title": "威胁来自累积，而不是来自过量",
+          "rules": "大的错误是会被抓住的。真正杀死一个长寿系统的，是成千上万次微小的添加——每一次单独看都站得住脚，可没有一次值回它的代价。请去审计那些小东西，否则别的都没有意义。",
+          "flavor": "Castle 的第二句话，存在的目的是处理和 Alpha 里某一张牌之间的一次互动。「那五个词又能怎么样呢？何必大惊小怪？因为对万智牌长期健康最大的威胁，不是那些大的过量（那些容易抓）——而是小的过量的累积。牌面上的文字空间是一项宝贵的资源。如果它做的事不够多，它就得走。我喜欢把这件事看成这个游戏的减肥计划。要保持健康，它就得保持精瘦。」"
+        },
+        {
+          "title": "发出去，才是唯一真正的检验",
+          "rules": "内部测试能告诉你一样东西能不能跑；它没法告诉你这样东西能不能在与所有人接触之后活下来。请把每一次发布都当作一次实验，并且接受：其中有些实验的结果会是阴性的。",
+          "flavor": "「万智牌在骨子里是一个关于探索的游戏。而且不只是对玩家而言。研发部会用新系列去试新机制。当然，我们可以做试玩；可什么都比不上几百万玩家真刀真枪地打，更能显出一个机制的成色。有些机制会成功，有些会失败。研发部的一部分工作，就是判断哪些是前者、哪些是后者。」"
+        },
+        {
+          "title": "那些为它辩护的人，恰恰是当初看懂了它的人",
+          "rules": "没有人会写信来说：你拿掉的那样东西，我从来就没搞懂过。那些抗议的人，按定义就是那些「它对之奏效」的人——而这恰恰就是他们的证词无法了结这场争论的原因。",
+          "flavor": "「研发部因为移除结群挨了很多骂。可结群的支持者们并不理解它为什么必须走。他们理解的是结群本身。」它之所以必须走，是因为其他所有人：「有太多的玩家，就是搞不懂它是怎么运作的。」"
+        },
+        {
+          "title": "用几样清楚的东西，去替换那一样令人困惑的",
+          "rules": "当你要退役一个机制时，请把它当初所承担的那份工作留下来。几个简单的零件合起来，往往能以极小的解释成本产生同样的效果——而人们注意到「添加」的程度，永远不及注意到「移除」。",
+          "flavor": "「很不幸，所有的注意力都集中在了『什么离开了这个游戏』上。人们没有注意到的，是研发部为了顶上这个位置而添加的东西……与其用一个令人困惑的机制去达成它，研发部选择用许多更简单的机制去取代它——而这些机制合在一起，产生了相似的效果。」白色拿到了 Advance Scout、Heavy Ballista、Angelic Page、Honor Guard 和 Vigilant Martyr——「于是一份相似的风味被创造了出来，而不需要伴随那份困惑。」"
+        },
+        {
+          "title": "做实验，就意味着接受永久性的损失",
+          "rules": "你无法在「什么都不失败」的前提下去尝试；而一个失败的实验，不会因为感情就被留下来。「偶尔失去一样东西」的另一个选项，是从来没有尝试过任何东西。",
+          "flavor": "「研发部拥有实验的能力，这一点很重要。一个没有实验的万智牌，会是一个无聊而可预测的世界。而这份实验带来的副作用之一，是有些点子会消失，并且再也不会出现。但请对研发部有信心：如果那个机制曾承担着一份重要的角色，我们会找到新的方式去达成同一个目标。」"
+        },
+        {
+          "title": "把这道取舍写成一个问题，然后回答它",
+          "rules": "一次「牺牲一样好东西去换另一样好东西」的改动，就应该被这样明确地论证出来。请把这两样好东西放进同一句话里，问一问哪一个更有利于整体，然后为那个答案负责。",
+          "flavor": "「我们问自己：哪一个更好——是拥有风味上的多样性，还是拥有牌与牌之间更强的互动性？万智牌是因为有『猎鹰』而更好，还是因为你能组出一套鸟类主题的牌组而更好？」在 Zephyr Falcon 还是猎鹰、Osai Vultures 还是秃鹫的那些年，「一位能号令自己羽毛朋友的鸟王，看上去是既显而易见又很酷的。可这个游戏不允许。」"
+        },
+        {
+          "title": "有时候，那份代价其实并没有被付出去",
+          "rules": "请去检查这份损失究竟由什么构成。如果另有一层已经承载着你所担心会失去的东西，那这次交换就是免费的——而这次简化，是在增加选项，而不是在拿走它们。",
+          "flavor": "「把所有的鸟合并起来，并没有在风味上消灭猎鹰。牌名和画面依然能传达出那份『猎鹰感』。而且你依然可以组一副全是猎鹰的牌。但通过把所有鸟都变成『鸟』这个生物类别，我们让玩家可以把自己的鸟混着搭配。生物类别的合并，在组牌的选项上创造出了多样性。这是一个很好的例子，说明简化有时反而会扩展这个游戏的互动。」"
+        },
+        {
+          "title": "把规则放到人们真的会看的地方去",
+          "rules": "没有人会打开的文档，不算文档。请把解释挪到那个物件本身上去，并且接受随之而来的约束：你只能造那些塞得进那里的东西。",
+          "flavor": "「玩家也许不读规则手册，但他们不得不读牌。这次转移带来的后果有两重。第一，它给设计加上了一条重要的限制。牌上只能有那些能在牌面上解释清楚的异能。这意味着像消相这样、需要好几页规则手册来支撑才能解释清楚的异能，将永远不会再见天日。」"
+        },
+        {
+          "title": "把这条自己给自己套上的限制认下来，并且说明理由",
+          "rules": "请坦率地承认：你正在收窄自己的选项；然后用「否则你会把谁排除在外」来给出理由。一条被公开辩护的限制，读起来是一次选择，而不是一次胆怯。",
+          "flavor": "「我确信这会让你们中的一些人不高兴，因为这看起来像是研发部在限制自己被允许做的事。而我们确实是。可这是出于一个非常重要的理由。我们不希望万智牌变成一个只有少数知情者才能玩的游戏……每当一张牌逼着一位玩家离开这盘对局、去找一本规则手册时，这个游戏就失去了让它之所以特别的一个不可分割的部分。万智牌必须活在牌里。」"
+        },
+        {
+          "title": "有些摩擦，是熟练者替新来者缴的税",
+          "rules": "那份让你有经验的受众觉得烦的冗余，正是让新人得以进来的东西。请把这件事直说，请求他们的容忍——而不是假装没人介意——并且把这份成本保持得很小。",
+          "flavor": "「我收到的很多邮件，会用至少一整段来说明万智牌玩家都知道『墙不能进攻』……我的回应是：提示文字承担着一份至关重要的角色，重要到我认为玩家们需要更宽容一些。提示文字让这个游戏留在牌里，也确保了新玩家的持续流入。没有这两样，万智牌的长期健康就会有危险。因此我觉得，偶尔跳过一行斜体字这点小小的烦躁，是值得的。」"
+        }
+      ]
+    }
+  }
+}
