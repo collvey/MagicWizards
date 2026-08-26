@@ -1,0 +1,372 @@
+{
+  "id": "one-all-2003-10-13",
+  "slug": "one-all-2003-10-13",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2003-10-13",
+  "series": null,
+  "tags": ["puzzle", "deck-construction", "man-lands", "creative-exercise", "color-pie"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/one-all-2003-10-13",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-27T12:15:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "U" },
+    { "n": 2, "color": "W" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "U" },
+    { "n": 5, "color": "G" },
+    { "n": 6, "color": "W" },
+    { "n": 7, "color": "B" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "R" },
+    { "n": 10, "color": "U" },
+    { "n": 11, "color": "R" },
+    { "n": 12, "color": "B" }
+  ],
+  "translations": {
+    "en": {
+      "title": "One for All",
+      "dek": "A puzzle: build a sixty-card deck using sixty copies of a single card, and beat a control deck made of sixty-five Maros. Seventeen cards can do it.",
+      "overview": "A creative exercise rather than a design column, and it divided readers — one wrote in delighted, another admitted giving up partway through the man-land walkthroughs. What survives is the distribution of the answers, which says something real about the colours.",
+      "takeaway": "Land is the king of this format: over half the winning decks are lands. Blue and red produce nothing at all — the only red entry can force a draw.",
+      "lessons": [
+        {
+          "title": "Exercises to keep the mind sharp",
+          "rules": "Part of design work is deliberately looking at the game from an angle it wasn't built for. The point isn't the answer — it's being forced to evaluate familiar cards against a question nobody has asked before.",
+          "flavor": "\"One of the important parts of design (and R&D in general) is to keep your mind sharp. To do this, we often like to do creative exercises that make us think of Magic in a different light.\""
+        },
+        {
+          "title": "The constraint, stated exactly",
+          "rules": "A puzzle is only as good as the precision of its rules. Sixty cards, all sixty identical, and the deck must beat the opposing one whether it plays first or draws first.",
+          "flavor": "\"Hey, I said it was odd.\" Every card is therefore both your land, your threat and your answer — and the deck cannot be adjusted for the matchup, because there is nothing to adjust."
+        },
+        {
+          "title": "Garfield found the hole immediately",
+          "rules": "Handing a puzzle to the right person is the fastest way to discover that your rules admit a degenerate solution. The fix was to change the parameter that made the trivial answer work.",
+          "flavor": "Asked whether he could add decks Rosewater hadn't thought of, Garfield said: \"All of them. If you play.\" So the control deck went from sixty cards to sixty-five, and decking now only counts if your deck actively causes it."
+        },
+        {
+          "title": "The blank card has to be genuinely blank",
+          "rules": "A control deck exists to contribute nothing. Anything with a type, a colour or a name can be exploited, so the neutral element must be chosen carefully rather than assumed.",
+          "flavor": "It was going to be sixty-five Plains, until he remembered cards like Mercadian Masques' Cho-Arrim Legate can win if the opponent controls a Plains. Blank cards were the next idea. Then Aaron Forsythe suggested Maros over lunch."
+        },
+        {
+          "title": "Seventeen, rising to nineteen",
+          "rules": "The result of an exhaustive search is a number and a caveat. Seventeen cards can win alone; two more arrive with the next set; one can force a draw; and ten more can beat one of the seventeen without beating the control deck.",
+          "flavor": "\"The answer that I got — I'm very open to the fact that I missed a deck or two — was 17.\" He then seeded them and ran a tournament bracket between the decks."
+        },
+        {
+          "title": "White's one entry wins by not losing",
+          "rules": "A colour's identity shows even in a format this artificial. When the only white answer takes fifty-seven turns and gets there by outlasting rather than attacking, that's the colour behaving exactly as described.",
+          "flavor": "Serra Avatar, from Urza's Saga. Play: win on their turn 57. Draw: win on their turn 58. \"And in true white fashion, it wins by not losing.\""
+        },
+        {
+          "title": "Two colours produce nothing",
+          "rules": "The absences are the most informative part of the survey. Blue has no card that can win as sixty copies of itself, and red has none either — its single entry can only force a draw.",
+          "flavor": "\"There are no blue cards. That I could find at least.\" And: \"No red cards either. There was one red card that could force a draw though.\" Two of the five colours are simply not represented."
+        },
+        {
+          "title": "Green wins in the most different ways",
+          "rules": "Variety of solutions is its own kind of result. Tying for the most entries matters less than the entries not resembling each other.",
+          "flavor": "\"Green has the distinction of having the most variety of wins among the colored cards.\" Basking Rootwalla wins turn eight, Elvish Spirit Guide turn seven, Vine Dryad turn six — three different routes, all faster than white's."
+        },
+        {
+          "title": "Land is the king of this format",
+          "rules": "When a deck has only one card in it, the winner will be whatever card type doesn't need support. More than half the successful decks are lands.",
+          "flavor": "Barbarian Ring, Cephalid Coliseum, Faerie Conclave, Forbidding Watchtower, Ghitu Encampment, Mishra's Factory, Spawning Pool, Stalking Stones. The man-lands dominate a format where nothing else can pay for anything."
+        },
+        {
+          "title": "Self-sufficiency is the whole test",
+          "rules": "Strip a deck to one card and the question becomes whether that card is simultaneously the resource and the thing the resource buys. Anything that needs another card to function scores zero.",
+          "flavor": "Which is why the spells that qualify are the ones that cast themselves — Elvish Spirit Guide, Vine Dryad — and why the field is otherwise made of lands that turn into creatures."
+        },
+        {
+          "title": "The fastest kill wins",
+          "rules": "In a field where nothing interacts on purpose, speed is nearly the only variable that matters. The bracket confirmed what the seeding assumed.",
+          "flavor": "The final was the top two seeds, Nether Shadow against Mishra's Factory, decided turn by turn over seven turns. Mishra's Factory took it. \"In the end, the deck with the fastest goldfish kill does indeed prove to be the strongest deck.\""
+        },
+        {
+          "title": "Publish the caveat with the answer",
+          "rules": "An exhaustive search over thousands of cards is never quite exhaustive. Saying so up front is what makes the number usable rather than a claim to be disproved.",
+          "flavor": "\"I'm very open to the fact that I missed a deck or two.\" He closes by asking whether readers want more columns like this — a question that got answers in both directions."
+        }
+      ]
+    },
+    "es": {
+      "title": "Uno para todos",
+      "dek": "Un acertijo: construye un mazo de sesenta cartas con sesenta copias de una sola carta y gana a un mazo de control formado por sesenta y cinco Maros. Diecisiete cartas pueden hacerlo.",
+      "overview": "Un ejercicio creativo más que una columna de diseño, y dividió a los lectores: uno escribió encantado, otro admitió haber abandonado a mitad de los recorridos de las tierras-criatura. Lo que perdura es la distribución de las respuestas, que dice algo real sobre los colores.",
+      "takeaway": "La tierra es el rey de este formato: más de la mitad de los mazos ganadores son tierras. El azul y el rojo no producen nada; la única entrada roja solo puede forzar un empate.",
+      "lessons": [
+        {
+          "title": "Ejercicios para mantener la mente afilada",
+          "rules": "Parte del trabajo de diseño consiste en mirar deliberadamente el juego desde un ángulo para el que no fue construido. Lo importante no es la respuesta, sino verse obligado a evaluar cartas conocidas frente a una pregunta que nadie había hecho.",
+          "flavor": "«Una parte importante del diseño (y de I+D en general) es mantener la mente afilada. Para ello nos gusta hacer ejercicios creativos que nos hagan pensar en Magic bajo otra luz»."
+        },
+        {
+          "title": "La restricción, enunciada con exactitud",
+          "rules": "Un acertijo vale lo que valga la precisión de sus reglas. Sesenta cartas, las sesenta idénticas, y el mazo debe ganar al contrario tanto si juega primero como si roba primero.",
+          "flavor": "«Eh, ya avisé de que era raro». Cada carta es, por tanto, tu tierra, tu amenaza y tu respuesta a la vez; y el mazo no puede ajustarse al emparejamiento, porque no hay nada que ajustar."
+        },
+        {
+          "title": "Garfield encontró el agujero de inmediato",
+          "rules": "Pasarle un acertijo a la persona adecuada es la forma más rápida de descubrir que tus reglas admiten una solución degenerada. El arreglo fue cambiar el parámetro que hacía funcionar la respuesta trivial.",
+          "flavor": "Preguntado si podía añadir mazos en los que Rosewater no hubiera pensado, Garfield contestó: «Todos. Si juegas tú primero». Así que el mazo de control pasó de sesenta cartas a sesenta y cinco, y descartar la biblioteca solo cuenta si es tu mazo el que lo provoca."
+        },
+        {
+          "title": "La carta en blanco tiene que estar en blanco de verdad",
+          "rules": "Un mazo de control existe para no aportar nada. Cualquier cosa con tipo, color o nombre puede explotarse, así que el elemento neutro debe elegirse con cuidado y no darse por supuesto.",
+          "flavor": "Iban a ser sesenta y cinco llanuras, hasta que recordó que cartas como el Cho-Arrim Legate de Mercadian Masques pueden ganar si el rival controla una llanura. La siguiente idea fueron cartas en blanco. Luego Aaron Forsythe propuso Maros durante la comida."
+        },
+        {
+          "title": "Diecisiete, que suben a diecinueve",
+          "rules": "El resultado de una búsqueda exhaustiva es un número y una salvedad. Diecisiete cartas ganan solas; llegan dos más con la siguiente colección; una puede forzar tablas; y otras diez ganan a alguna de las diecisiete sin ganar al mazo de control.",
+          "flavor": "«La respuesta que obtuve —y estoy muy abierto a que se me hayan escapado uno o dos mazos— fue 17». Después los sembró y organizó un cuadro de torneo entre los mazos."
+        },
+        {
+          "title": "La única entrada blanca gana por no perder",
+          "rules": "La identidad de un color aflora incluso en un formato tan artificial. Que la única respuesta blanca tarde cincuenta y siete turnos y llegue resistiendo en vez de atacando es el color comportándose exactamente como se le describe.",
+          "flavor": "Serra Avatar, de Urza's Saga. Jugando: gana en el turno 57 del rival. Robando: en el 58. «Y, muy en su estilo blanco, gana por no perder»."
+        },
+        {
+          "title": "Dos colores no producen nada",
+          "rules": "Las ausencias son la parte más informativa del sondeo. El azul no tiene ninguna carta capaz de ganar como sesenta copias de sí misma, y el rojo tampoco: su única entrada solo fuerza un empate.",
+          "flavor": "«No hay cartas azules. Al menos yo no las encontré». Y: «Tampoco cartas rojas. Aunque había una carta roja que podía forzar tablas». Dos de los cinco colores simplemente no están representados."
+        },
+        {
+          "title": "El verde gana de más maneras distintas",
+          "rules": "La variedad de soluciones es un resultado en sí misma. Empatar en número de entradas importa menos que el hecho de que las entradas no se parezcan entre sí.",
+          "flavor": "«El verde tiene la distinción de contar con la mayor variedad de victorias entre las cartas de color». Basking Rootwalla gana en el turno ocho, Elvish Spirit Guide en el siete, Vine Dryad en el seis: tres rutas distintas, todas más rápidas que la del blanco."
+        },
+        {
+          "title": "La tierra es el rey de este formato",
+          "rules": "Cuando un mazo solo tiene una carta, el ganador será el tipo de carta que no necesita apoyo. Más de la mitad de los mazos exitosos son tierras.",
+          "flavor": "Barbarian Ring, Cephalid Coliseum, Faerie Conclave, Forbidding Watchtower, Ghitu Encampment, Mishra's Factory, Spawning Pool, Stalking Stones. Las tierras-criatura dominan un formato en el que nada más puede pagar nada."
+        },
+        {
+          "title": "La autosuficiencia es toda la prueba",
+          "rules": "Reduce un mazo a una carta y la pregunta pasa a ser si esa carta es a la vez el recurso y aquello que el recurso compra. Todo lo que necesita otra carta para funcionar saca cero.",
+          "flavor": "Por eso los hechizos que califican son los que se lanzan solos —Elvish Spirit Guide, Vine Dryad— y por eso el resto del campo son tierras que se convierten en criaturas."
+        },
+        {
+          "title": "Gana la muerte más rápida",
+          "rules": "En un campo donde nada interactúa a propósito, la velocidad es casi la única variable que importa. El cuadro confirmó lo que suponía la siembra.",
+          "flavor": "La final enfrentó a los dos primeros cabezas de serie, Nether Shadow contra Mishra's Factory, resuelta turno a turno a lo largo de siete turnos. Se la llevó Mishra's Factory. «Al final, el mazo con la muerte más rápida a pez de colores resulta ser, en efecto, el mazo más fuerte»."
+        },
+        {
+          "title": "Publica la salvedad junto con la respuesta",
+          "rules": "Una búsqueda exhaustiva entre miles de cartas nunca es del todo exhaustiva. Decirlo de entrada es lo que hace utilizable el número, en vez de convertirlo en una afirmación que refutar.",
+          "flavor": "«Estoy muy abierto a que se me hayan escapado uno o dos mazos». Cierra preguntando si los lectores quieren más columnas así, una pregunta que recibió respuestas en ambos sentidos."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Un pour tous",
+      "dek": "Une énigme : bâtissez un deck de soixante cartes avec soixante exemplaires d'une seule carte, et battez un deck de contrôle fait de soixante-cinq Maros. Dix-sept cartes en sont capables.",
+      "overview": "Un exercice créatif plutôt qu'une chronique de conception, et il a divisé les lecteurs : l'un a écrit son enthousiasme, un autre a avoué avoir abandonné au milieu des explications sur les terrains-créatures. Ce qui subsiste, c'est la répartition des réponses, qui dit quelque chose de réel sur les couleurs.",
+      "takeaway": "Le terrain est roi de ce format : plus de la moitié des decks gagnants sont des terrains. Le bleu et le rouge ne produisent rien — la seule entrée rouge ne peut qu'imposer un match nul.",
+      "lessons": [
+        {
+          "title": "Des exercices pour garder l'esprit affûté",
+          "rules": "Une part du travail de conception consiste à regarder délibérément le jeu sous un angle pour lequel il n'a pas été bâti. L'important n'est pas la réponse, mais d'être contraint d'évaluer des cartes familières face à une question que personne n'avait posée.",
+          "flavor": "« Une part importante de la conception — et de la R&D en général — est de garder l'esprit affûté. Pour cela, nous aimons faire des exercices créatifs qui nous font penser Magic sous un autre jour. »"
+        },
+        {
+          "title": "La contrainte, énoncée exactement",
+          "rules": "Une énigme ne vaut que par la précision de ses règles. Soixante cartes, les soixante identiques, et le deck doit battre l'adversaire qu'il commence ou qu'il pioche.",
+          "flavor": "« Eh, j'avais prévenu que c'était bizarre. » Chaque carte est donc à la fois votre terrain, votre menace et votre réponse — et le deck ne peut pas être ajusté au match-up, puisqu'il n'y a rien à ajuster."
+        },
+        {
+          "title": "Garfield a trouvé la faille aussitôt",
+          "rules": "Confier une énigme à la bonne personne est le moyen le plus rapide de découvrir que vos règles admettent une solution dégénérée. Le remède fut de changer le paramètre qui rendait la réponse triviale possible.",
+          "flavor": "À la question de savoir s'il pouvait ajouter des decks auxquels Rosewater n'avait pas pensé, Garfield répondit : « Tous. Si vous commencez. » Le deck de contrôle est donc passé de soixante à soixante-cinq cartes, et le fait de vider la bibliothèque ne compte que si votre deck le provoque activement."
+        },
+        {
+          "title": "La carte blanche doit être vraiment blanche",
+          "rules": "Un deck de contrôle existe pour n'apporter rien. Tout ce qui possède un type, une couleur ou un nom peut être exploité : l'élément neutre doit donc être choisi avec soin, non supposé.",
+          "flavor": "Ce devait être soixante-cinq plaines, jusqu'à ce qu'il se souvienne que des cartes comme le Cho-Arrim Legate de Mercadian Masques peuvent gagner si l'adversaire contrôle une plaine. Puis des cartes vierges. Puis Aaron Forsythe a suggéré des Maros au déjeuner."
+        },
+        {
+          "title": "Dix-sept, bientôt dix-neuf",
+          "rules": "Le résultat d'une recherche exhaustive, c'est un nombre et une réserve. Dix-sept cartes gagnent seules ; deux autres arrivent avec l'extension suivante ; une peut forcer le nul ; et dix autres battent l'une des dix-sept sans battre le deck de contrôle.",
+          "flavor": "« La réponse que j'ai obtenue — et j'admets tout à fait avoir pu rater un deck ou deux — est 17. » Il les a ensuite classés et a organisé un tableau de tournoi entre les decks."
+        },
+        {
+          "title": "L'unique entrée blanche gagne en ne perdant pas",
+          "rules": "L'identité d'une couleur transparaît même dans un format aussi artificiel. Que la seule réponse blanche prenne cinquante-sept tours et y parvienne en durant plutôt qu'en attaquant, c'est la couleur se comportant exactement comme on la décrit.",
+          "flavor": "Serra Avatar, d'Urza's Saga. En jouant : victoire au tour 57 de l'adversaire. En piochant : au 58. « Et, très fidèlement au blanc, elle gagne en ne perdant pas. »"
+        },
+        {
+          "title": "Deux couleurs ne produisent rien",
+          "rules": "Les absences sont la part la plus instructive du relevé. Le bleu n'a aucune carte capable de gagner en soixante exemplaires d'elle-même, et le rouge non plus : sa seule entrée ne fait qu'imposer le nul.",
+          "flavor": "« Il n'y a aucune carte bleue. Du moins je n'en ai pas trouvé. » Et : « Aucune carte rouge non plus. Il y avait bien une carte rouge capable de forcer un nul. » Deux des cinq couleurs ne sont tout simplement pas représentées."
+        },
+        {
+          "title": "Le vert gagne de la plus grande variété de façons",
+          "rules": "La diversité des solutions est un résultat en soi. Être à égalité pour le nombre d'entrées compte moins que le fait que ces entrées ne se ressemblent pas.",
+          "flavor": "« Le vert a la distinction d'offrir la plus grande variété de victoires parmi les cartes colorées. » Basking Rootwalla gagne au tour huit, Elvish Spirit Guide au sept, Vine Dryad au six — trois voies différentes, toutes plus rapides que celle du blanc."
+        },
+        {
+          "title": "Le terrain est roi de ce format",
+          "rules": "Quand un deck ne contient qu'une carte, le vainqueur sera le type de carte qui n'a besoin d'aucun soutien. Plus de la moitié des decks victorieux sont des terrains.",
+          "flavor": "Barbarian Ring, Cephalid Coliseum, Faerie Conclave, Forbidding Watchtower, Ghitu Encampment, Mishra's Factory, Spawning Pool, Stalking Stones. Les terrains-créatures dominent un format où rien d'autre ne peut rien payer."
+        },
+        {
+          "title": "L'autosuffisance est tout le test",
+          "rules": "Réduisez un deck à une seule carte et la question devient : cette carte est-elle à la fois la ressource et ce que la ressource achète ? Tout ce qui a besoin d'une autre carte pour fonctionner obtient zéro.",
+          "flavor": "D'où le fait que les sorts qui se qualifient sont ceux qui se lancent tout seuls — Elvish Spirit Guide, Vine Dryad — et que le reste du peloton est fait de terrains qui deviennent des créatures."
+        },
+        {
+          "title": "La mort la plus rapide l'emporte",
+          "rules": "Dans un peloton où rien n'interagit délibérément, la vitesse est presque la seule variable qui compte. Le tableau a confirmé ce que le classement supposait.",
+          "flavor": "La finale opposait les deux têtes de série, Nether Shadow contre Mishra's Factory, tranchée tour par tour sur sept tours. Mishra's Factory l'a emporté. « Au final, le deck au kill le plus rapide se révèle bel et bien le plus fort. »"
+        },
+        {
+          "title": "Publiez la réserve avec la réponse",
+          "rules": "Une recherche exhaustive sur des milliers de cartes ne l'est jamais tout à fait. Le dire d'emblée est ce qui rend le chiffre utilisable, au lieu d'en faire une affirmation à réfuter.",
+          "flavor": "« J'admets tout à fait avoir pu rater un deck ou deux. » Il conclut en demandant si les lecteurs veulent d'autres chroniques de ce genre — question qui a reçu des réponses dans les deux sens."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Um por todos",
+      "dek": "Um enigma: monte um baralho de sessenta cartas usando sessenta cópias de uma única carta e vença um baralho de controle feito de sessenta e cinco Maros. Dezessete cartas conseguem.",
+      "overview": "Um exercício criativo mais que uma coluna de design, e dividiu os leitores: um escreveu encantado, outro admitiu ter desistido no meio das explicações sobre os terrenos-criatura. O que fica é a distribuição das respostas, que diz algo real sobre as cores.",
+      "takeaway": "Terreno é o rei deste formato: mais da metade dos baralhos vencedores são terrenos. Azul e vermelho não produzem nada — a única entrada vermelha só consegue forçar um empate.",
+      "lessons": [
+        {
+          "title": "Exercícios para manter a mente afiada",
+          "rules": "Parte do trabalho de design é olhar de propósito para o jogo por um ângulo para o qual ele não foi construído. O importante não é a resposta, e sim ser obrigado a avaliar cartas conhecidas diante de uma pergunta que ninguém tinha feito.",
+          "flavor": "«Uma parte importante do design (e da P&D em geral) é manter a mente afiada. Para isso, gostamos de fazer exercícios criativos que nos façam pensar em Magic sob outra luz.»"
+        },
+        {
+          "title": "A restrição, enunciada com exatidão",
+          "rules": "Um enigma vale o quanto valer a precisão de suas regras. Sessenta cartas, as sessenta idênticas, e o baralho precisa vencer o adversário tanto jogando primeiro quanto comprando primeiro.",
+          "flavor": "«Ei, eu avisei que era estranho.» Cada carta é, portanto, seu terreno, sua ameaça e sua resposta ao mesmo tempo — e o baralho não pode ser ajustado ao confronto, porque não há nada a ajustar."
+        },
+        {
+          "title": "Garfield achou o buraco na hora",
+          "rules": "Entregar um enigma à pessoa certa é o jeito mais rápido de descobrir que suas regras admitem uma solução degenerada. O conserto foi mudar o parâmetro que fazia a resposta trivial funcionar.",
+          "flavor": "Perguntado se conseguiria acrescentar baralhos em que Rosewater não tivesse pensado, Garfield respondeu: «Todos. Se você jogar primeiro.» Então o baralho de controle passou de sessenta para sessenta e cinco cartas, e esvaziar o grimório só conta se for o seu baralho a provocar isso."
+        },
+        {
+          "title": "A carta em branco precisa estar realmente em branco",
+          "rules": "Um baralho de controle existe para não contribuir com nada. Qualquer coisa com tipo, cor ou nome pode ser explorada, então o elemento neutro deve ser escolhido com cuidado, não presumido.",
+          "flavor": "Seriam sessenta e cinco planícies, até ele lembrar que cartas como o Cho-Arrim Legate de Mercadian Masques podem vencer se o oponente controlar uma planície. Depois vieram cartas em branco. Então Aaron Forsythe sugeriu Maros no almoço."
+        },
+        {
+          "title": "Dezessete, subindo para dezenove",
+          "rules": "O resultado de uma busca exaustiva é um número e uma ressalva. Dezessete cartas vencem sozinhas; mais duas chegam com a coleção seguinte; uma força empate; e outras dez vencem uma das dezessete sem vencer o baralho de controle.",
+          "flavor": "«A resposta a que cheguei — e estou bem aberto à possibilidade de ter perdido um baralho ou dois — foi 17.» Depois ele os classificou e montou uma chave de torneio entre os baralhos."
+        },
+        {
+          "title": "A única entrada branca vence por não perder",
+          "rules": "A identidade de uma cor aparece mesmo num formato tão artificial. A única resposta branca levar cinquenta e sete turnos e chegar lá resistindo em vez de atacando é a cor se comportando exatamente como descrita.",
+          "flavor": "Serra Avatar, de Urza's Saga. Jogando: vence no turno 57 do oponente. Comprando: no 58. «E, bem ao estilo branco, ela vence por não perder.»"
+        },
+        {
+          "title": "Duas cores não produzem nada",
+          "rules": "As ausências são a parte mais informativa do levantamento. O azul não tem carta alguma capaz de vencer como sessenta cópias de si mesma, e o vermelho também não: sua única entrada apenas força empate.",
+          "flavor": "«Não há cartas azuis. Ao menos eu não achei.» E: «Nem cartas vermelhas. Havia uma carta vermelha capaz de forçar empate.» Duas das cinco cores simplesmente não estão representadas."
+        },
+        {
+          "title": "O verde vence das formas mais variadas",
+          "rules": "Variedade de soluções é um resultado em si. Empatar em número de entradas importa menos do que o fato de as entradas não se parecerem entre si.",
+          "flavor": "«O verde tem a distinção de ter a maior variedade de vitórias entre as cartas coloridas.» Basking Rootwalla vence no turno oito, Elvish Spirit Guide no sete, Vine Dryad no seis — três rotas diferentes, todas mais rápidas que a do branco."
+        },
+        {
+          "title": "Terreno é o rei deste formato",
+          "rules": "Quando um baralho tem só uma carta, o vencedor será o tipo de carta que não precisa de apoio. Mais da metade dos baralhos bem-sucedidos são terrenos.",
+          "flavor": "Barbarian Ring, Cephalid Coliseum, Faerie Conclave, Forbidding Watchtower, Ghitu Encampment, Mishra's Factory, Spawning Pool, Stalking Stones. Os terrenos-criatura dominam um formato em que mais nada consegue pagar por nada."
+        },
+        {
+          "title": "Autossuficiência é o teste inteiro",
+          "rules": "Reduza um baralho a uma carta e a pergunta passa a ser se essa carta é ao mesmo tempo o recurso e aquilo que o recurso compra. Tudo que precisa de outra carta para funcionar tira zero.",
+          "flavor": "É por isso que as mágicas que se qualificam são as que se conjuram sozinhas — Elvish Spirit Guide, Vine Dryad — e por isso o resto do campo é feito de terrenos que viram criaturas."
+        },
+        {
+          "title": "A morte mais rápida vence",
+          "rules": "Num campo em que nada interage de propósito, velocidade é quase a única variável que importa. A chave confirmou o que a classificação presumia.",
+          "flavor": "A final foi entre os dois primeiros cabeças de chave, Nether Shadow contra Mishra's Factory, decidida turno a turno ao longo de sete turnos. Mishra's Factory levou. «No fim, o baralho com a morte mais rápida de fato se prova o mais forte.»"
+        },
+        {
+          "title": "Publique a ressalva junto com a resposta",
+          "rules": "Uma busca exaustiva por milhares de cartas nunca é de todo exaustiva. Dizer isso de saída é o que torna o número utilizável, em vez de uma afirmação a ser refutada.",
+          "flavor": "«Estou bem aberto à possibilidade de ter perdido um baralho ou dois.» Ele encerra perguntando se os leitores querem mais colunas assim — pergunta que recebeu respostas nos dois sentidos."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "一人成军",
+      "dek": "一道谜题：用同一张牌的六十份组成一副六十张的牌组，去击败一副由六十五张玛若组成的控制牌组。有十七张牌做得到。",
+      "overview": "与其说这是设计专栏，不如说是一次创意练习；而它把读者分成了两半：有人写信来说很喜欢，也有人承认自己在那一长串「人化地」的推演里读到一半就放弃了。留得下来的是答案的分布——它说出了一些关于各个颜色的真实情况。",
+      "takeaway": "地是这个赛制的王者：过半的获胜牌组都是地。蓝色和红色什么也交不出来——红色唯一的入选牌，只能逼出一个平局。",
+      "lessons": [
+        {
+          "title": "用练习把脑子磨快",
+          "rules": "设计工作的一部分，是有意从一个「这个游戏并非为之而造」的角度去看它。要紧的不是答案，而是你被迫拿熟悉的牌，去应对一个从来没人问过的问题。",
+          "flavor": "「设计（以及整个研发部）很重要的一部分，是把脑子保持锋利。为此，我们常喜欢做一些创意练习，逼自己在另一种光线下去想万智牌。」"
+        },
+        {
+          "title": "把约束条件说精确",
+          "rules": "一道谜题的价值，取决于它规则的精确程度。六十张牌，六十张全都一样；而且无论是先手还是后手，这副牌都必须打赢对面那副。",
+          "flavor": "「喂，我说过它很怪的。」于是每一张牌同时是你的地、你的威胁和你的答案；而这副牌也无法针对对局做调整，因为根本没有可调的东西。"
+        },
+        {
+          "title": "加菲尔德一眼就找到了漏洞",
+          "rules": "把一道谜题交给对的人，是发现「你的规则允许一个退化解」最快的方式。修补的办法，是去改掉那个让这个廉价答案得以成立的参数。",
+          "flavor": "被问到能不能补上罗斯瓦特没想到的牌组时，加菲尔德说：「全都能。只要你是先手。」于是控制牌组从六十张改成了六十五张；而「把对方牌库抽空」现在只有在「是你这副牌主动造成的」时才算数。"
+        },
+        {
+          "title": "空白牌必须是真的空白",
+          "rules": "一副控制牌组存在的意义，是什么也不贡献。任何带类别、带颜色、带名字的东西都可能被利用；所以这个中性元素必须被仔细挑选，而不能想当然。",
+          "flavor": "本来打算用六十五张平原，直到他想起像商队面具里的丘阿林使节这样的牌，会在对手控制平原时获胜。下一个想法是用空白牌。然后亚伦·福赛斯在午饭时建议：用玛若。"
+        },
+        {
+          "title": "十七张，将会变成十九张",
+          "rules": "一次穷举搜索的结果，是一个数字外加一条保留。十七张牌能单独取胜；下一个系列会再添两张；有一张能逼平；另有十张能打赢这十七张之一，却打不赢控制牌组。",
+          "flavor": "「我得到的答案——我完全接受自己可能漏掉了一两副——是 17。」随后他给它们排了种子，并在这些牌组之间办了一场淘汰赛。"
+        },
+        {
+          "title": "白色唯一的入选者，靠「不输」取胜",
+          "rules": "即便在这样一个人造的赛制里，一个颜色的身份仍然会显形。白色唯一的答案要花五十七个回合，而且靠的是熬住而不是进攻——这就是那个颜色在按它自己的描述行事。",
+          "flavor": "乌尔萨的传奇里的瑟拉化身。先手：在对手的第 57 回合获胜。后手：第 58 回合。「而且非常白色地，它靠不输来赢。」"
+        },
+        {
+          "title": "有两个颜色什么也交不出来",
+          "rules": "这份清点里最有信息量的部分是缺席。蓝色没有任何一张牌能以「自己的六十份」取胜；红色也没有——它唯一的入选者只能逼出平局。",
+          "flavor": "「没有蓝色的牌。至少我没找到。」以及：「红色的也没有。不过有一张红色的牌可以逼平。」五个颜色里有两个，干脆就没有代表。"
+        },
+        {
+          "title": "绿色的获胜方式最五花八门",
+          "rules": "解法的多样性本身就是一项结果。在「入选数量」上并列，重要性不如「这些入选者彼此并不相像」。",
+          "flavor": "「在有色牌当中，绿色的殊荣是拥有最多样的取胜方式。」晒日鳞蜥在第八回合获胜，妖精灵魂向导第七回合，藤蔓树灵第六回合——三条不同的路径，而且都比白色那条快。"
+        },
+        {
+          "title": "地是这个赛制的王者",
+          "rules": "当一副牌里只有一张牌时，赢家必然是那个「不需要任何支援」的牌张类型。过半的成功牌组都是地。",
+          "flavor": "蛮族环、脑鱼斗兽场、精灵集会所、禁忌哨塔、吉图营地、密斯拉工厂、孵化池、追猎石。在一个「别的什么都付不起任何费用」的赛制里，人化地占据统治地位。"
+        },
+        {
+          "title": "自给自足就是这场考试的全部",
+          "rules": "把一副牌削到只剩一张，问题就变成了：这张牌是不是同时既是那项资源，又是那项资源所要买的东西？凡是需要另一张牌才能运作的，一律零分。",
+          "flavor": "这正是为什么能入选的咒语都是那些「自己把自己施放出来」的——妖精灵魂向导、藤蔓树灵；也正是为什么其余的参赛者，全是些会变成生物的地。"
+        },
+        {
+          "title": "杀得最快的那个赢",
+          "rules": "在一个「没有任何东西是刻意互动的」的赛场上，速度几乎是唯一要紧的变量。淘汰赛的结果印证了种子排位所假设的东西。",
+          "flavor": "决赛正是一号和二号种子：黄泉暗影对上密斯拉工厂，逐回合推演了七个回合。密斯拉工厂拿下。「到最后，『空转杀人』最快的那副牌，确实被证明是最强的那副。」"
+        },
+        {
+          "title": "把保留和答案一起公布",
+          "rules": "一次面向数千张牌的穷举搜索，从来都不会真的穷尽。把这一点先说出来，才让那个数字变得可用——而不是变成一个等着被推翻的断言。",
+          "flavor": "「我完全接受自己可能漏掉了一两副。」结尾他问读者想不想看更多这类专栏——而这个问题收到了两个方向的答案。"
+        }
+      ]
+    }
+  }
+}
