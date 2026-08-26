@@ -1,0 +1,424 @@
+{
+  "id": "land-my-land-2003-03-31",
+  "slug": "land-my-land-2003-03-31",
+  "column": "making-magic",
+  "author": "Mark Rosewater",
+  "publishedAt": "2003-03-31",
+  "series": null,
+  "tags": ["lands", "drawbacks", "cycles", "card-types", "strictly-better"],
+  "pointNoun": "point",
+  "source": {
+    "canonical": "https://magic.wizards.com/en/news/making-magic/land-my-land-2003-03-31",
+    "locales": ["en", "es", "fr", "pt-BR", "zh-Hans"]
+  },
+  "summaryVersion": 1,
+  "summarizedAt": "2026-08-27T19:10:00.000Z",
+  "lessons": [
+    { "n": 1, "color": "W" },
+    { "n": 2, "color": "U" },
+    { "n": 3, "color": "B" },
+    { "n": 4, "color": "G" },
+    { "n": 5, "color": "B" },
+    { "n": 6, "color": "R" },
+    { "n": 7, "color": "W" },
+    { "n": 8, "color": "G" },
+    { "n": 9, "color": "B" },
+    { "n": 10, "color": "W" },
+    { "n": 11, "color": "U" },
+    { "n": 12, "color": "U" },
+    { "n": 13, "color": "R" },
+    { "n": 14, "color": "G" }
+  ],
+  "translations": {
+    "en": {
+      "title": "This Land Is My Land",
+      "dek": "Nonbasic Land Week: the five standing rules a land has to satisfy before it can exist, and the catalogue of drawbacks designers use to satisfy the first one.",
+      "overview": "A working reference on constrained design. Each rule comes with the reasoning and the specific failure that produced it — Urza's Saga for one, Strip Mine for another.",
+      "takeaway": "\"Each of these lands has advantages and disadvantages over basic lands, leading to interesting deckbuilding decisions. Designing lands requires us to create drawbacks.\"",
+      "lessons": [
+        {
+          "title": "The component nobody looks at",
+          "rules": "Every system has a part that carries an enormous load while attracting no attention. It's worth periodically turning the spotlight on the infrastructure rather than the features.",
+          "flavor": "\"This week is dedicated to the card type that does the most amount of work and receives the least amount of attention.\""
+        },
+        {
+          "title": "\"Strictly better\" is a disqualifier",
+          "rules": "If one option beats another in essentially every situation at the same price, the loser stops being a choice. The test tolerates absurd exceptions — a contrived edge case doesn't rescue it.",
+          "flavor": "\"'Strictly better' means that one card is in all occurrences (within reason) better than another.\" Lightning Bolt over Shock, \"barring a really convoluted set-up (you know your opponent has Eye for an Eye and you're at 3 life while he's at 2). For an identical cost, it just does exactly the same thing, but better.\""
+        },
+        {
+          "title": "Count the downside honestly",
+          "rules": "It's tempting to treat a nominal disadvantage as if it settled the balance. Check whether the alternative carries a symmetrical exposure — if it does, your drawback is smaller than you were counting on.",
+          "flavor": "Being nonbasic isn't drawback enough: \"While there are spells that hose nonbasic lands (like Price of Progress), there are also spells that hose specific basic lands (like Boil) that do not affect nonbasic lands… we consider the ability to be a slight negative but not enough to avoid the 'strictly better' problem.\""
+        },
+        {
+          "title": "Drawbacks exist to create decisions",
+          "rules": "A cost isn't there to punish. It's there so that choosing the thing means giving something up, which is what makes the choice interesting rather than automatic.",
+          "flavor": "\"Each of these lands has advantages and disadvantages over basic lands, leading to interesting deckbuilding decisions. Designing lands requires us to create drawbacks.\""
+        },
+        {
+          "title": "Keep a catalogue, and know each one's cost",
+          "rules": "Standard solutions are worth listing, along with what each is bad at. The choice between them isn't stylistic — every drawback interacts differently with the strategies it's meant to serve.",
+          "flavor": "Comes into play tapped is \"very simple and straight-forward,\" but \"terrible for cards designed to fit into an aggressive deck and overall a bit overused.\" Life payment: \"life is the best answer as it's always relevant and easy to both write and understand.\" Limited uses works in aggressive decks \"but requires the use of counters.\""
+        },
+        {
+          "title": "The craft is finding new ones",
+          "rules": "Where the palette of costs is small and well-worn, that's where the interesting work is. Either invent a new drawback, or find a twist on an existing one that changes what it's good for.",
+          "flavor": "\"One of the challenges of designing lands is finding new drawbacks or interesting twists on existing drawbacks.\""
+        },
+        {
+          "title": "Categories need identities too",
+          "rules": "The argument for keeping colours distinct applies equally to types of thing. If one category starts doing another's job, it stops being a meaningful category at all.",
+          "flavor": "\"Like color, each card type should have its own unique role in the game.\" \"In early Magic, the designers fooled around with lands that had effects other than mana production. Through trial and error, R&D learned that non-mana producing lands started feeling more like artifacts or enchantments.\""
+        },
+        {
+          "title": "Serve the purpose, not the letter",
+          "rules": "A rule protecting an identity should admit anything that advances that identity. Filtering and fetching don't produce the resource directly, but their whole function is getting you to it.",
+          "flavor": "\"There is one big exception to this rule. Lands that either filter for mana or allow you to get access to lands (which will in turn provide mana) are allowed… The idea is that these lands are being true to land's identity because their main function is helping players get mana.\""
+        },
+        {
+          "title": "Some rules are scar tissue",
+          "rules": "A constraint that looks arbitrary is often a specific disaster written down. Knowing which incident produced it tells you exactly when it can be relaxed and what to watch while you do.",
+          "flavor": "\"This rule is a result of the Urza's Saga block. R&D recognized that one of the key elements to the craziness of the block was the fast mana available in the format.\" It's broken occasionally — Cabal Coffers — \"but we do so very carefully to make sure that the land does not contribute to creating a recklessly fast environment.\""
+        },
+        {
+          "title": "Parity requirements reshape the schedule",
+          "rules": "A rule that anything partial must ship in a complete set changes when the work has to happen. You can't add one late; you have to reserve room for the whole group up front.",
+          "flavor": "\"If it produces all five colors it may stand on its own, but if it produces any less than all five, we have the card appear in a cycle.\" \"This means that designing lands often comes very early in the process as you have to carve out space for five cards. Also, this means that we do not have the freedom of making a random colored land.\""
+        },
+        {
+          "title": "A set can span years",
+          "rules": "If completeness is the requirement, it needn't be satisfied all at once. Five items released one a year still form the group — the constraint is on the arrangement, not on the release date.",
+          "flavor": "The \"mega mega cycle\": Teferi's Isle, Volrath's Stronghold, Kor Haven, Yavimaya Hollow and Keldon Necropolis. \"These cards were alone in the set they appeared but were part of a cycle that came out once a year over a five-year period. And of the five, only Teferi's Isle — the first one printed — produces colored mana.\""
+        },
+        {
+          "title": "Universal parts must not hand out specialist power",
+          "rules": "Anything usable by everyone should only grant what everyone is entitled to. Otherwise it quietly erases the specialisation the whole system depends on, for free.",
+          "flavor": "\"This makes Strip Mine a mistake (for many reasons other than this one, incidentally) because it allows a blue deck access to a non-blue ability with little or no effort.\" The fix: gate the effect behind a coloured mana symbol — or an equivalent, like sacrificing the appropriate basic land. Small effects can stay open."
+        },
+        {
+          "title": "Watch the usage distribution",
+          "rules": "The signature of this failure isn't that the thing is too strong in isolation — it's that it turns up everywhere. Something appearing in a disproportionate share of builds is the symptom to investigate.",
+          "flavor": "\"Dominant colorless lands are often looked at by R&D as mistakes, as they start showing up in a disproportionate number of decks.\" Colourless lands \"are a lot like artifacts in that they can go in any deck. This general utility has to be accounted for.\""
+        },
+        {
+          "title": "End the checklist with an escalation",
+          "rules": "The last step of a process shouldn't be a decision you make alone. Where a rule may legitimately be broken, the procedure is to flag it for the people whose job is judging that.",
+          "flavor": "The five steps: find a new twist; give it a drawback; decide whether it stands alone or needs a cycle; make sure any colour-associated ability can't be used off-colour; and \"if the land produces more than one mana, red flag it for development to study.\""
+        }
+      ]
+    },
+    "es": {
+      "title": "Esta tierra es mi tierra",
+      "dek": "Semana de las Tierras No Básicas: las cinco reglas permanentes que una tierra debe satisfacer para poder existir, y el catálogo de inconvenientes que los diseñadores usan para satisfacer la primera.",
+      "overview": "Una referencia práctica sobre el diseño con restricciones. Cada regla viene con su razonamiento y con el fracaso concreto que la produjo: Urza's Saga para una, Strip Mine para otra.",
+      "takeaway": "«Cada una de estas tierras tiene ventajas y desventajas frente a las básicas, lo que lleva a decisiones interesantes al construir mazos. Diseñar tierras nos exige crear inconvenientes».",
+      "lessons": [
+        {
+          "title": "La pieza que nadie mira",
+          "rules": "Todo sistema tiene una parte que carga un peso enorme sin atraer atención alguna. Merece la pena volver el foco de vez en cuando hacia la infraestructura y no hacia las funciones.",
+          "flavor": "«Esta semana está dedicada al tipo de carta que hace la mayor cantidad de trabajo y recibe la menor cantidad de atención»."
+        },
+        {
+          "title": "«Estrictamente mejor» descalifica",
+          "rules": "Si una opción supera a otra en prácticamente toda situación al mismo precio, la perdedora deja de ser una elección. La prueba tolera excepciones absurdas: un caso límite rebuscado no la salva.",
+          "flavor": "«'Estrictamente mejor' significa que una carta es, en todas las ocasiones (dentro de lo razonable), mejor que otra». Lightning Bolt sobre Shock, «salvo un montaje realmente enrevesado (sabes que el rival tiene Eye for an Eye, tú estás a 3 vidas y él a 2). Por un coste idéntico, hace exactamente lo mismo pero mejor»."
+        },
+        {
+          "title": "Contabiliza el inconveniente con honestidad",
+          "rules": "Es tentador tratar una desventaja nominal como si zanjara el equilibrio. Comprueba si la alternativa arrastra una exposición simétrica: si la arrastra, tu inconveniente es menor de lo que contabas.",
+          "flavor": "Ser no básica no basta como inconveniente: «Aunque hay hechizos que castigan a las tierras no básicas (como Price of Progress), también hay hechizos que castigan tierras básicas concretas (como Boil) y que no afectan a las no básicas… lo consideramos un ligero negativo, pero no suficiente para evitar el problema de 'estrictamente mejor'»."
+        },
+        {
+          "title": "Los inconvenientes existen para crear decisiones",
+          "rules": "Un coste no está ahí para castigar. Está para que elegir la cosa signifique renunciar a algo, que es lo que hace la elección interesante en vez de automática.",
+          "flavor": "«Cada una de estas tierras tiene ventajas y desventajas frente a las básicas, lo que lleva a decisiones interesantes al construir mazos. Diseñar tierras nos exige crear inconvenientes»."
+        },
+        {
+          "title": "Ten un catálogo, y conoce el coste de cada opción",
+          "rules": "Las soluciones estándar merecen listarse, junto con aquello en lo que cada una es mala. Elegir entre ellas no es cuestión de estilo: cada inconveniente interactúa de forma distinta con las estrategias a las que debe servir.",
+          "flavor": "«Entra en juego girada» es «muy simple y directo», pero «terrible para cartas pensadas para un mazo agresivo y en general algo sobreexplotado». Pago de vidas: «la vida es la mejor respuesta, ya que siempre es relevante y es fácil de escribir y de entender». Usos limitados funciona en mazos agresivos «pero requiere contadores»."
+        },
+        {
+          "title": "El oficio está en encontrar otros nuevos",
+          "rules": "Cuando la paleta de costes es pequeña y está muy trillada, ahí es donde está el trabajo interesante. O inventas un inconveniente nuevo, o encuentras un giro sobre uno existente que cambie para qué sirve.",
+          "flavor": "«Uno de los retos de diseñar tierras es encontrar inconvenientes nuevos o giros interesantes sobre los ya existentes»."
+        },
+        {
+          "title": "Las categorías también necesitan identidad",
+          "rules": "El argumento para mantener distintos los colores vale igual para los tipos de cosa. Si una categoría empieza a hacer el trabajo de otra, deja de ser una categoría con sentido.",
+          "flavor": "«Como el color, cada tipo de carta debería tener su papel único en el juego». «En los primeros tiempos de Magic, los diseñadores jugaron con tierras que tenían efectos distintos de producir maná. Por ensayo y error, I+D aprendió que las tierras que no producían maná empezaban a parecer más artefactos o encantamientos»."
+        },
+        {
+          "title": "Sirve al propósito, no a la letra",
+          "rules": "Una regla que protege una identidad debería admitir cualquier cosa que la haga avanzar. Filtrar y buscar no producen el recurso directamente, pero su función entera es llevarte hasta él.",
+          "flavor": "«Hay una gran excepción a esta regla. Las tierras que filtran maná o que dan acceso a tierras (que a su vez darán maná) están permitidas… La idea es que estas tierras son fieles a la identidad de la tierra porque su función principal es ayudar a los jugadores a conseguir maná»."
+        },
+        {
+          "title": "Algunas reglas son tejido cicatricial",
+          "rules": "Una restricción que parece arbitraria suele ser un desastre concreto puesto por escrito. Saber qué incidente la produjo te dice exactamente cuándo puede relajarse y qué vigilar mientras lo haces.",
+          "flavor": "«Esta regla es consecuencia del bloque Urza's Saga. I+D reconoció que uno de los elementos clave de la locura de ese bloque era el maná rápido disponible en el formato». Se rompe de vez en cuando —Cabal Coffers— «pero lo hacemos con mucho cuidado para asegurarnos de que la tierra no contribuya a crear un entorno temerariamente rápido»."
+        },
+        {
+          "title": "Los requisitos de paridad reordenan el calendario",
+          "rules": "Una regla que obliga a que lo parcial salga en un conjunto completo cambia cuándo hay que hacer el trabajo. No puedes añadir uno tarde: tienes que reservar sitio para todo el grupo desde el principio.",
+          "flavor": "«Si produce los cinco colores puede ir sola, pero si produce menos de cinco, hacemos que la carta aparezca en un ciclo». «Esto significa que diseñar tierras suele llegar muy pronto en el proceso, porque hay que reservar espacio para cinco cartas. Y también que no tenemos la libertad de hacer una tierra de color al azar»."
+        },
+        {
+          "title": "Un conjunto puede abarcar años",
+          "rules": "Si el requisito es la integridad, no hace falta satisfacerlo de golpe. Cinco piezas publicadas a una por año siguen formando el grupo: la restricción está en la disposición, no en la fecha de salida.",
+          "flavor": "El «megamegaciclo»: Teferi's Isle, Volrath's Stronghold, Kor Haven, Yavimaya Hollow y Keldon Necropolis. «Estas cartas estaban solas en la colección donde aparecieron, pero formaban parte de un ciclo que salió una vez al año durante cinco años. Y de las cinco, solo Teferi's Isle —la primera impresa— produce maná de color»."
+        },
+        {
+          "title": "Las piezas universales no deben repartir poder especializado",
+          "rules": "Cualquier cosa utilizable por todos debería otorgar solo aquello a lo que todos tienen derecho. Si no, borra en silencio y gratis la especialización de la que depende todo el sistema.",
+          "flavor": "«Esto convierte a Strip Mine en un error (por muchas razones además de esta, por cierto), porque permite a un mazo azul acceder a una habilidad no azul con poco o ningún esfuerzo». La solución: poner el efecto tras un símbolo de maná de color, o un equivalente, como sacrificar la tierra básica apropiada. Los efectos pequeños pueden quedar abiertos."
+        },
+        {
+          "title": "Vigila la distribución de uso",
+          "rules": "La firma de este fallo no es que la cosa sea demasiado fuerte por sí sola: es que aparece en todas partes. Algo presente en una proporción desmedida de construcciones es el síntoma a investigar.",
+          "flavor": "«I+D suele ver las tierras incoloras dominantes como errores, porque empiezan a aparecer en un número desproporcionado de mazos». Las tierras incoloras «se parecen mucho a los artefactos en que pueden ir en cualquier mazo. Esa utilidad general hay que contabilizarla»."
+        },
+        {
+          "title": "Termina la lista de comprobación con una escalada",
+          "rules": "El último paso de un proceso no debería ser una decisión que tomes solo. Cuando una regla puede legítimamente romperse, el procedimiento es señalarlo para quienes tienen el trabajo de juzgar eso.",
+          "flavor": "Los cinco pasos: encuentra un giro nuevo; dale un inconveniente; decide si va sola o necesita un ciclo; asegúrate de que ninguna habilidad asociada a un color pueda usarse fuera de color; y «si la tierra produce más de un maná, márcala en rojo para que la estudie desarrollo»."
+        }
+      ]
+    },
+    "fr": {
+      "title": "Cette terre est ma terre",
+      "dek": "Semaine des terrains non-de-base : les cinq règles permanentes qu'un terrain doit satisfaire pour exister, et le catalogue d'inconvénients que les concepteurs emploient pour satisfaire la première.",
+      "overview": "Une référence de travail sur la conception sous contrainte. Chaque règle vient avec son raisonnement et avec l'échec précis qui l'a produite : Urza's Saga pour l'une, Strip Mine pour l'autre.",
+      "takeaway": "« Chacun de ces terrains a des avantages et des inconvénients par rapport aux terrains de base, ce qui mène à des décisions intéressantes de construction. Concevoir des terrains nous oblige à créer des inconvénients. »",
+      "lessons": [
+        {
+          "title": "La pièce que personne ne regarde",
+          "rules": "Tout système a une partie qui porte une charge énorme sans attirer la moindre attention. Il vaut la peine de braquer périodiquement le projecteur sur l'infrastructure plutôt que sur les fonctionnalités.",
+          "flavor": "« Cette semaine est consacrée au type de carte qui fait le plus de travail et reçoit le moins d'attention. »"
+        },
+        {
+          "title": "« Strictement meilleur » disqualifie",
+          "rules": "Si une option bat l'autre dans pratiquement toutes les situations à prix égal, la perdante cesse d'être un choix. Le test tolère les exceptions absurdes : un cas limite tordu ne la sauve pas.",
+          "flavor": "« 'Strictement meilleur' signifie qu'une carte est, dans tous les cas (raisonnablement), meilleure qu'une autre. » Lightning Bolt plutôt que Shock, « sauf montage vraiment alambiqué (vous savez que l'adversaire a Eye for an Eye, vous êtes à 3 points de vie et lui à 2). À coût identique, elle fait exactement la même chose, en mieux. »"
+        },
+        {
+          "title": "Comptez l'inconvénient honnêtement",
+          "rules": "Il est tentant de traiter un désavantage nominal comme s'il réglait l'équilibre. Vérifiez si l'alternative porte une exposition symétrique : si oui, votre inconvénient est plus petit que vous ne le comptiez.",
+          "flavor": "Être non-de-base ne suffit pas : « S'il existe des sorts qui punissent les terrains non-de-base (comme Price of Progress), il existe aussi des sorts qui punissent des terrains de base précis (comme Boil) et n'affectent pas les non-de-base… nous y voyons un léger négatif, pas assez pour éviter le problème du 'strictement meilleur'. »"
+        },
+        {
+          "title": "Les inconvénients existent pour créer des décisions",
+          "rules": "Un coût n'est pas là pour punir. Il est là pour que choisir la chose implique de renoncer à autre chose, ce qui rend le choix intéressant plutôt qu'automatique.",
+          "flavor": "« Chacun de ces terrains a des avantages et des inconvénients par rapport aux terrains de base, ce qui mène à des décisions intéressantes de construction. Concevoir des terrains nous oblige à créer des inconvénients. »"
+        },
+        {
+          "title": "Tenez un catalogue, et sachez ce que chacun coûte",
+          "rules": "Les solutions standard méritent d'être listées, avec ce à quoi chacune se prête mal. Choisir entre elles n'est pas affaire de style : chaque inconvénient interagit autrement avec les stratégies qu'il doit servir.",
+          "flavor": "« Arrive en jeu engagé » est « très simple et direct », mais « désastreux pour des cartes destinées à un deck agressif, et globalement un peu surexploité ». Le paiement en points de vie : « les points de vie sont la meilleure réponse, toujours pertinents et faciles à écrire comme à comprendre ». Les usages limités marchent en agressif « mais exigent des marqueurs »."
+        },
+        {
+          "title": "Le métier, c'est d'en trouver de nouveaux",
+          "rules": "Là où la palette de coûts est petite et rebattue, c'est là que se trouve le travail intéressant. Soit vous inventez un inconvénient neuf, soit vous trouvez sur un ancien une variante qui change ce à quoi il sert.",
+          "flavor": "« L'un des défis de la conception de terrains est de trouver de nouveaux inconvénients ou des variations intéressantes sur ceux qui existent. »"
+        },
+        {
+          "title": "Les catégories aussi ont besoin d'identité",
+          "rules": "L'argument qui veut qu'on garde les couleurs distinctes vaut tout autant pour les types de choses. Si une catégorie se met à faire le travail d'une autre, elle cesse d'être une catégorie porteuse de sens.",
+          "flavor": "« Comme la couleur, chaque type de carte devrait avoir son rôle propre dans le jeu. » « Aux débuts de Magic, les concepteurs ont bricolé des terrains dont l'effet n'était pas la production de mana. Par tâtonnements, la R&D a appris que ces terrains-là se mettaient à ressembler à des artefacts ou à des enchantements. »"
+        },
+        {
+          "title": "Servez l'intention, pas la lettre",
+          "rules": "Une règle qui protège une identité devrait admettre tout ce qui sert cette identité. Filtrer et chercher ne produisent pas la ressource directement, mais leur fonction entière est de vous y mener.",
+          "flavor": "« Il y a une grande exception à cette règle. Les terrains qui filtrent le mana ou qui donnent accès à des terrains (lesquels fourniront du mana) sont autorisés… L'idée est que ces terrains restent fidèles à l'identité du terrain, puisque leur fonction principale est d'aider les joueurs à obtenir du mana. »"
+        },
+        {
+          "title": "Certaines règles sont du tissu cicatriciel",
+          "rules": "Une contrainte d'apparence arbitraire est souvent un désastre précis mis par écrit. Savoir quel incident l'a produite vous dit exactement quand elle peut se relâcher et quoi surveiller pendant ce temps.",
+          "flavor": "« Cette règle est le résultat du bloc Urza's Saga. La R&D a reconnu que l'un des éléments clés de la folie de ce bloc était le mana rapide disponible dans le format. » On l'enfreint parfois — Cabal Coffers — « mais avec une grande prudence, pour s'assurer que le terrain ne contribue pas à créer un environnement follement rapide. »"
+        },
+        {
+          "title": "Les exigences de parité redessinent le calendrier",
+          "rules": "Une règle qui impose qu'un élément partiel sorte dans un ensemble complet change le moment où le travail doit avoir lieu. On n'en ajoute pas un tard : il faut réserver la place de tout le groupe dès le départ.",
+          "flavor": "« Si elle produit les cinq couleurs, la carte peut être seule ; si elle en produit moins, nous la faisons apparaître dans un cycle. » « Cela signifie que la conception des terrains vient souvent très tôt, puisqu'il faut réserver la place de cinq cartes. Et que nous n'avons pas la liberté de faire un terrain coloré isolé. »"
+        },
+        {
+          "title": "Un ensemble peut s'étaler sur des années",
+          "rules": "Si l'exigence est la complétude, elle n'a pas à être satisfaite d'un coup. Cinq pièces publiées à raison d'une par an forment quand même le groupe : la contrainte porte sur l'agencement, pas sur la date.",
+          "flavor": "Le « méga méga cycle » : Teferi's Isle, Volrath's Stronghold, Kor Haven, Yavimaya Hollow et Keldon Necropolis. « Ces cartes étaient seules dans l'extension où elles paraissaient, mais faisaient partie d'un cycle sorti une fois par an sur cinq ans. Et des cinq, seule Teferi's Isle — la première imprimée — produit du mana coloré. »"
+        },
+        {
+          "title": "Les pièces universelles ne doivent pas distribuer de pouvoir spécialisé",
+          "rules": "Ce qui est utilisable par tous ne devrait accorder que ce à quoi tous ont droit. Sinon, cela efface en silence et gratuitement la spécialisation dont dépend tout le système.",
+          "flavor": "« Cela fait de Strip Mine une erreur (pour bien d'autres raisons que celle-ci, d'ailleurs), car elle donne à un deck bleu accès à une capacité non bleue avec peu ou pas d'effort. » Le remède : conditionner l'effet à un symbole de mana coloré — ou à un équivalent, comme sacrifier le terrain de base adéquat. Les petits effets peuvent rester ouverts."
+        },
+        {
+          "title": "Surveillez la distribution d'usage",
+          "rules": "La signature de cet échec n'est pas que la chose soit trop forte isolément — c'est qu'elle est partout. Un élément présent dans une part disproportionnée des constructions est le symptôme à examiner.",
+          "flavor": "« La R&D considère souvent les terrains incolores dominants comme des erreurs, car ils se mettent à apparaître dans un nombre disproportionné de decks. » Les terrains incolores « ressemblent beaucoup aux artefacts : ils peuvent entrer dans n'importe quel deck. Cette utilité générale doit être comptabilisée. »"
+        },
+        {
+          "title": "Terminez la liste par une escalade",
+          "rules": "La dernière étape d'un processus ne devrait pas être une décision que vous prenez seul. Là où une règle peut légitimement être enfreinte, la procédure est de la signaler à ceux dont c'est le métier d'en juger.",
+          "flavor": "Les cinq étapes : trouver une variante neuve ; lui donner un inconvénient ; décider si elle tient seule ou exige un cycle ; s'assurer qu'aucune capacité associée à une couleur ne puisse servir hors couleur ; et « si le terrain produit plus d'un mana, le signaler en rouge pour étude par le développement »."
+        }
+      ]
+    },
+    "pt-BR": {
+      "title": "Esta terra é minha terra",
+      "dek": "Semana dos Terrenos Não Básicos: as cinco regras permanentes que um terreno precisa satisfazer para poder existir, e o catálogo de desvantagens que os designers usam para satisfazer a primeira.",
+      "overview": "Uma referência de trabalho sobre design sob restrição. Cada regra vem com o raciocínio e com o fracasso específico que a produziu: Urza's Saga para uma, Strip Mine para outra.",
+      "takeaway": "«Cada um desses terrenos tem vantagens e desvantagens em relação aos básicos, levando a decisões interessantes de construção. Desenhar terrenos exige que criemos desvantagens.»",
+      "lessons": [
+        {
+          "title": "A peça que ninguém olha",
+          "rules": "Todo sistema tem uma parte que carrega um peso enorme sem atrair atenção nenhuma. Vale a pena virar o holofote periodicamente para a infraestrutura em vez de para os recursos.",
+          "flavor": "«Esta semana é dedicada ao tipo de carta que faz a maior quantidade de trabalho e recebe a menor quantidade de atenção.»"
+        },
+        {
+          "title": "«Estritamente melhor» desclassifica",
+          "rules": "Se uma opção vence outra em praticamente toda situação pelo mesmo preço, a perdedora deixa de ser uma escolha. O teste tolera exceções absurdas: um caso-limite forçado não a salva.",
+          "flavor": "«'Estritamente melhor' significa que uma carta é, em todas as ocasiões (dentro do razoável), melhor que outra.» Lightning Bolt em vez de Shock, «salvo uma montagem realmente rebuscada (você sabe que o oponente tem Eye for an Eye, você está com 3 de vida e ele com 2). Pelo mesmo custo, ela faz exatamente a mesma coisa, só que melhor.»"
+        },
+        {
+          "title": "Contabilize a desvantagem com honestidade",
+          "rules": "É tentador tratar uma desvantagem nominal como se ela resolvesse o equilíbrio. Cheque se a alternativa carrega uma exposição simétrica: se carrega, sua desvantagem é menor do que você contava.",
+          "flavor": "Ser não básico não basta: «Embora existam mágicas que castigam terrenos não básicos (como Price of Progress), também existem mágicas que castigam terrenos básicos específicos (como Boil) e não afetam os não básicos… consideramos isso um leve negativo, mas não o suficiente para evitar o problema do 'estritamente melhor'.»"
+        },
+        {
+          "title": "Desvantagens existem para criar decisões",
+          "rules": "Um custo não está ali para punir. Está ali para que escolher a coisa signifique abrir mão de algo, e é isso que torna a escolha interessante em vez de automática.",
+          "flavor": "«Cada um desses terrenos tem vantagens e desvantagens em relação aos básicos, levando a decisões interessantes de construção. Desenhar terrenos exige que criemos desvantagens.»"
+        },
+        {
+          "title": "Mantenha um catálogo e saiba o custo de cada opção",
+          "rules": "Soluções padrão merecem ser listadas, junto com aquilo em que cada uma é ruim. Escolher entre elas não é questão de estilo: cada desvantagem interage de modo distinto com as estratégias que deveria servir.",
+          "flavor": "«Entra em jogo virado» é «muito simples e direto», mas «terrível para cartas feitas para baralhos agressivos e, no geral, meio usado demais». Pagamento em vida: «vida é a melhor resposta, pois é sempre relevante e fácil tanto de escrever quanto de entender». Usos limitados funciona no agressivo «mas exige marcadores»."
+        },
+        {
+          "title": "O ofício é achar desvantagens novas",
+          "rules": "Onde a paleta de custos é pequena e muito batida, é ali que está o trabalho interessante. Ou você inventa uma desvantagem nova, ou acha numa antiga uma volta que muda para que ela serve.",
+          "flavor": "«Um dos desafios de desenhar terrenos é encontrar desvantagens novas ou voltas interessantes sobre as já existentes.»"
+        },
+        {
+          "title": "Categorias também precisam de identidade",
+          "rules": "O argumento para manter as cores distintas vale igualmente para os tipos de coisa. Se uma categoria começa a fazer o trabalho de outra, ela deixa de ser uma categoria com sentido.",
+          "flavor": "«Como a cor, cada tipo de carta deveria ter seu papel único no jogo.» «Nos primeiros tempos de Magic, os designers brincaram com terrenos que tinham efeitos além de produzir mana. Por tentativa e erro, a P&D aprendeu que terrenos que não produziam mana começavam a parecer mais artefatos ou encantamentos.»"
+        },
+        {
+          "title": "Sirva ao propósito, não à letra",
+          "rules": "Uma regra que protege uma identidade deveria admitir qualquer coisa que promova essa identidade. Filtrar e buscar não produzem o recurso diretamente, mas a função inteira deles é levar você até ele.",
+          "flavor": "«Há uma grande exceção a esta regra. Terrenos que filtram mana ou que dão acesso a terrenos (que por sua vez darão mana) são permitidos… A ideia é que esses terrenos são fiéis à identidade do terreno, porque a função principal deles é ajudar os jogadores a conseguir mana.»"
+        },
+        {
+          "title": "Algumas regras são tecido cicatricial",
+          "rules": "Uma restrição que parece arbitrária costuma ser um desastre específico posto por escrito. Saber qual incidente a produziu diz exatamente quando ela pode ser afrouxada e o que vigiar enquanto isso.",
+          "flavor": "«Esta regra é resultado do bloco Urza's Saga. A P&D reconheceu que um dos elementos-chave da loucura daquele bloco era o mana rápido disponível no formato.» Ela é quebrada ocasionalmente — Cabal Coffers — «mas fazemos isso com muito cuidado, para garantir que o terreno não contribua para criar um ambiente irresponsavelmente rápido.»"
+        },
+        {
+          "title": "Exigências de paridade remodelam o cronograma",
+          "rules": "Uma regra que obriga o parcial a sair num conjunto completo muda quando o trabalho precisa acontecer. Não dá para acrescentar um tarde: é preciso reservar espaço para o grupo inteiro logo de início.",
+          "flavor": "«Se produz as cinco cores, pode ficar sozinha; se produz menos que cinco, fazemos a carta aparecer num ciclo.» «Isso significa que desenhar terrenos costuma vir bem cedo no processo, porque é preciso reservar espaço para cinco cartas. E também que não temos a liberdade de fazer um terreno colorido avulso.»"
+        },
+        {
+          "title": "Um conjunto pode atravessar anos",
+          "rules": "Se a exigência é a completude, ela não precisa ser satisfeita de uma vez. Cinco peças lançadas a uma por ano continuam formando o grupo: a restrição é sobre o arranjo, não sobre a data.",
+          "flavor": "O «mega mega ciclo»: Teferi's Isle, Volrath's Stronghold, Kor Haven, Yavimaya Hollow e Keldon Necropolis. «Essas cartas estavam sozinhas na coleção em que apareceram, mas faziam parte de um ciclo que saiu uma vez por ano ao longo de cinco anos. E das cinco, só Teferi's Isle — a primeira impressa — produz mana colorido.»"
+        },
+        {
+          "title": "Peças universais não devem distribuir poder especializado",
+          "rules": "Qualquer coisa utilizável por todos deveria conceder apenas aquilo a que todos têm direito. Senão, ela apaga em silêncio e de graça a especialização de que o sistema inteiro depende.",
+          "flavor": "«Isso torna Strip Mine um erro (por muitas razões além desta, aliás), porque dá a um baralho azul acesso a uma habilidade não azul com pouco ou nenhum esforço.» O conserto: travar o efeito atrás de um símbolo de mana colorido — ou de um equivalente, como sacrificar o terreno básico apropriado. Efeitos pequenos podem ficar abertos."
+        },
+        {
+          "title": "Vigie a distribuição de uso",
+          "rules": "A assinatura dessa falha não é a coisa ser forte demais isolada — é ela aparecer em toda parte. Algo presente numa fatia desproporcional das construções é o sintoma a investigar.",
+          "flavor": "«A P&D costuma ver terrenos incolores dominantes como erros, porque eles começam a aparecer num número desproporcional de baralhos.» Terrenos incolores «são muito parecidos com artefatos, no sentido de que cabem em qualquer baralho. Essa utilidade geral precisa ser contabilizada.»"
+        },
+        {
+          "title": "Termine o checklist com um escalonamento",
+          "rules": "O último passo de um processo não deveria ser uma decisão que você toma sozinho. Onde uma regra pode legitimamente ser quebrada, o procedimento é sinalizar para quem tem o trabalho de julgar isso.",
+          "flavor": "Os cinco passos: ache uma volta nova; dê a ela uma desvantagem; decida se fica sozinha ou precisa de um ciclo; garanta que nenhuma habilidade associada a uma cor possa ser usada fora da cor; e «se o terreno produz mais de um mana, marque em vermelho para o desenvolvimento estudar»."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "这片地是我的地",
+      "dek": "非基本地周：一张地要能存在，必须先满足的那五条长期规矩；以及设计师们为了满足第一条，所使用的那份「缺陷清单」。",
+      "overview": "一份关于「在约束下做设计」的实用参考。每一条规矩都附带它背后的推理，以及催生出它的那次具体失败——一条来自《乌尔萨传奇》，另一条来自 Strip Mine。",
+      "takeaway": "「这些地各自相对基本地都有优点也有缺点，从而带来了有意思的组牌抉择。设计地这件事，要求我们去造出缺陷来。」",
+      "lessons": [
+        {
+          "title": "那个没人去看的零件",
+          "rules": "任何系统里都有那么一个部分：它扛着极大的负荷，却吸引不到任何注意力。周期性地把聚光灯从功能挪到基础设施上，是值得的。",
+          "flavor": "「这一周献给那个『干活最多、得到的关注最少』的牌张类别。」"
+        },
+        {
+          "title": "「严格更优」是一票否决",
+          "rules": "如果同样的价钱下，一个选项在几乎所有情形里都压过另一个，那么落败的那个就不再是一个选项了。这条检验容许荒唐的例外——一个刻意凑出来的极端情形救不了它。",
+          "flavor": "「所谓『严格更优』，是指一张牌在（合理范围内的）所有情形下都优于另一张。」闪电击优于电震，「除非是某种极其别扭的布置（你知道对手有 Eye for an Eye，而你剩 3 点生命、他剩 2 点）。在费用完全相同的前提下，它做的事一模一样，只是更好。」"
+        },
+        {
+          "title": "老老实实地把缺点算清楚",
+          "rules": "人总想把一个名义上的劣势当成已经把天平摆平了。请检查：另一边是不是也背着一份对称的风险敞口。如果是，那你那个缺陷比你原本指望的要小。",
+          "flavor": "「非基本地」这个身份还不够算缺陷：「虽然有些咒语专克非基本地（比如 Price of Progress），但也有些咒语专克特定的基本地（比如 Boil），而它们伤不到非基本地……我们认为这算一点点负面，但还不足以避开『严格更优』这个问题。」"
+        },
+        {
+          "title": "缺陷的存在，是为了造出抉择",
+          "rules": "代价并不是摆在那儿惩罚人的。它摆在那儿，是为了让「选择这个东西」意味着要放弃点别的——而正是这一点，让抉择变得有意思，而不是自动成立。",
+          "flavor": "「这些地各自相对基本地都有优点也有缺点，从而带来了有意思的组牌抉择。设计地这件事，要求我们去造出缺陷来。」"
+        },
+        {
+          "title": "备一份清单，并且清楚每一项各自的代价",
+          "rules": "那些标准解法值得被一一列出来，连同「它各自不擅长什么」。在它们之间做选择并不是风格问题：每一种缺陷，与它本该服务的那些策略之间的相互作用都不一样。",
+          "flavor": "「横置进场」的好处是「非常简单直接」，坏处是「对那些为快攻套牌设计的牌来说糟透了，而且整体上用得有点多」。生命支付：「生命是最好的答案，因为它永远相干，而且既好写又好懂。」次数有限则在快攻套牌里好用，「但它需要用到指示物」。"
+        },
+        {
+          "title": "这门手艺，就在于找到新的那些",
+          "rules": "凡是代价的调色盘又小又用旧了的地方，恰恰就是有意思的活儿所在。要么发明一种新的缺陷，要么在现成的那些上面找出一个「改变它适合干什么」的新花样。",
+          "flavor": "「设计地的挑战之一，就是去找到新的缺陷，或者在现有缺陷上找出有意思的新花样。」"
+        },
+        {
+          "title": "类别同样需要身份",
+          "rules": "那套「要让各个颜色保持区别」的论证，对「东西的类别」同样成立。一旦某个类别开始干起另一个类别的活儿，它就不再是一个有意义的类别了。",
+          "flavor": "「和颜色一样，每一个牌张类别都该在游戏里有自己独特的角色。」「在万智牌的早期，设计师们曾摆弄过一些效果与产法术力无关的地。通过反复试错，研发部学到：不产法术力的地开始让人觉得更像是神器或结界。」"
+        },
+        {
+          "title": "服务于那个意图，而不是那句字面",
+          "rules": "一条保护某种身份的规矩，就该允许任何推进这种身份的东西通过。过滤和搜寻并不直接产出那份资源，可它们全部的功能就是把你送到它跟前。",
+          "flavor": "「这条规矩有一个大的例外。那些过滤法术力的地，或者那些让你能拿到地（而地又会去产法术力）的地，是被允许的……其想法是：这些地忠于『地』的身份，因为它们的主要功能就是帮玩家拿到法术力。」"
+        },
+        {
+          "title": "有些规矩是疤痕组织",
+          "rules": "一条看上去武断的约束，往往是某一次具体灾难被写下来之后的样子。知道是哪一桩事故催生了它，就等于精确知道了它在什么时候可以放松，以及放松时该盯着什么。",
+          "flavor": "「这条规矩是《乌尔萨传奇》环境的产物。研发部认定，那个环境之所以疯癫，关键要素之一就是赛制里唾手可得的快速法术力。」它偶尔会被打破——比如 Cabal Coffers——「但我们做得非常小心，以确保这张地不会助长一个鲁莽提速的环境。」"
+        },
+        {
+          "title": "对等性的要求，会重塑排期",
+          "rules": "一条「凡是不完整的东西必须成套出货」的规矩，改变的是「这些活儿必须在什么时候干」。你没法事后补上一个；你必须一开始就为整个组预留出位置。",
+          "flavor": "「如果它能产全部五色，那它可以单独存在；但只要它产的少于五色，我们就会让这张牌出现在一个循环里。」「这意味着地的设计往往在流程中很早就得开始，因为你必须给五张牌腾出空间。同时这也意味着，我们没有『随手做一张有色地』的自由。」"
+        },
+        {
+          "title": "一个循环可以横跨数年",
+          "rules": "如果要求的是完整性，那它并不必须一次性被满足。五件东西每年出一件，照样构成那个组——这条约束管的是排列，而不是发布日期。",
+          "flavor": "那个「超级超级循环」：Teferi's Isle、Volrath's Stronghold、Kor Haven、Yavimaya Hollow 和 Keldon Necropolis。「这些牌在它们各自出现的系列里都是孤零零的一张，但它们属于一个以每年一张、历时五年的方式放出来的循环。而这五张里，只有最早印出来的 Teferi's Isle 会产有色法术力。」"
+        },
+        {
+          "title": "通用零件不该发放专属的力量",
+          "rules": "凡是所有人都能用的东西，就只该授予所有人本来都有权得到的那些。否则，它会免费地、悄悄地把整个系统赖以成立的那份专业分工抹掉。",
+          "flavor": "「这使得 Strip Mine 是个错误（顺带一提，除了这条之外它还有很多别的错），因为它让一副蓝色套牌几乎不费吹灰之力就拿到了一项非蓝色的能力。」补救办法是：把这个效果卡在一个有色法术力符号后面——或者一个等效物，比如献祭相应的基本地。小效果可以保持开放。"
+        },
+        {
+          "title": "盯住使用率的分布",
+          "rules": "这类失败的特征并不是「这东西单看太强」，而是「它到处都在」。某样东西出现在一个不成比例的构筑占比里，这就是那个该去调查的症状。",
+          "flavor": "「研发部往往把那些占据统治地位的无色地看作错误，因为它们开始出现在数量不成比例的套牌里。」无色地「和神器很像：它们哪副套牌都能进。这份通用性必须被计入账中」。"
+        },
+        {
+          "title": "让检查清单以「上报」收尾",
+          "rules": "一套流程的最后一步，不该是一个你独自作出的决定。凡是某条规矩确实可能被正当地打破的地方，正确的做法是把它标出来，交给那些以判断此事为职责的人。",
+          "flavor": "那五个步骤：想出一个新花样；给它配一个缺陷；判断它能单独站住还是需要一个五张的循环；确保任何与颜色绑定的能力都不能被非该色使用；以及「如果这张地能产多于一点法术力，就把它标红，交给开发部研究」。"
+        }
+      ]
+    }
+  }
+}
