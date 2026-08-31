@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-08-24",
+  "checkedAt": "2026-08-31",
   "column": "making-magic",
-  "total": 1266,
-  "done": 894,
-  "skipped": 20,
-  "pending": 352,
+  "total": 1267,
+  "done": 1093,
+  "skipped": 173,
+  "pending": 1,
   "tiers": {
     "1-curated": {
       "total": 13,
@@ -15,8 +15,8 @@
       "pending": 1
     },
     "3-archive": {
-      "total": 1039,
-      "pending": 351
+      "total": 1040,
+      "pending": 0
     }
   },
   "items": [
@@ -166,6 +166,17 @@
       "status": "done"
     },
     {
+      "id": "the-lorwyn-five",
+      "title": "The Lorwyn Five",
+      "slug": "the-lorwyn-five",
+      "column": "making-magic",
+      "url": "https://magic.wizards.com/en/news/making-magic/the-lorwyn-five",
+      "publishedAt": "2026-08-31",
+      "dateSource": "sitemap",
+      "tier": 2,
+      "status": "pending"
+    },
+    {
       "id": "big-picture-questions-part-2",
       "title": "Big Picture Questions Part 2",
       "slug": "big-picture-questions-part-2",
@@ -174,7 +185,7 @@
       "publishedAt": "2026-08-24",
       "dateSource": "sitemap",
       "tier": 2,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "big-picture-questions-part-1",
@@ -2522,7 +2533,7 @@
       "url": "https://magic.wizards.com/en/news/making-magic/wilds-story-part-2",
       "publishedAt": "2023-08-28",
       "dateSource": "sitemap",
-      "tier": 2,
+      "tier": 3,
       "status": "done"
     },
     {
@@ -6253,7 +6264,8 @@
       "publishedAt": "2015-12-21",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. Wizards published this column at two paths under two different dates, and the copy already summarized here is starting-over-2015-01-26. The 21 December 2015 path is the best-of reprint of the 26 January original, chosen by Rosewater as his favourite column of the year. It is the time-machine conversation with Richard Garfield. Verified by fetching both paths and diffing the body: identical apart from whether the extractor folds section headings into the following paragraph. Note that the slugs differ by date, so matching a queue entry against its unsuffixed twin does not catch these - compare the slug stem with the date stripped."
     },
     {
       "id": "phooey-2015-12-14",
@@ -6264,7 +6276,8 @@
       "publishedAt": "2015-12-14",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. Wizards published this column at two paths under two different dates, and the copy already summarized here is phooey-2015-05-11. The 14 December 2015 path is the best-of reprint of the 11 May original, chosen by Rosewater as his favourite design column of the year. It is the alternate Khans file built to settle morph against borph. Verified by fetching both paths and diffing the body: identical apart from whether the extractor folds section headings into the following paragraph. Note that the slugs differ by date, so matching a queue entry against its unsuffixed twin does not catch these - compare the slug stem with the date stripped."
     },
     {
       "id": "topical-blend-did-you-hear-one-about-2015-12-07",
@@ -6286,7 +6299,8 @@
       "publishedAt": "2015-12-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL. Wizards published the same 7 December 2015 Topical Blend at two paths; this one carries the trailing -0. The article is byte-for-byte the campfire-legend column already summarized as topical-blend-did-you-hear-one-about-2015-12-07, whose ten points cover all four cut mechanics (the opening-hand card, the forbidden cards, link, and the Standard-legality cycle). A second summary would be the same page at a second address."
     },
     {
       "id": "team-player-2015-11-30",
@@ -6528,7 +6542,8 @@
       "publishedAt": "2015-07-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Index of the previous hundred columns, published 6 July 2015 at the 700-week mark - the seventh instalment of the recurring recap series. The body is a numbered list of weeks #601-#700, each with a one-line description and a one-to-five star rating, plus a link, prefaced by the same five-star scale used in every instalment. The design content is all pointers to other columns, most of which are separately in this archive or in the queue. Same profile and same treatment as the already-skipped eight-hundred-and-counting-2017-05-15, nine-hundred-and-counting-2019-06-03, one-thousand-and-counting-2021-02-22, one-thousand-one-hundred-and-counting and one-thousand-two-hundred-and-counting."
     },
     {
       "id": "species-origins-part-2-2015-06-29",
@@ -7034,7 +7049,8 @@
       "publishedAt": "2014-06-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Storyline status directory, published 17 June 2014 and written by Doug Beyer of the creative team rather than Rosewater. It walks every spark-active planeswalker alphabetically - Ajani through Xenagos - and states where each one currently stands: Elspeth in the Theros Underworld, Garruk carrying the Chain Veil curse, Karn hunting Phyrexian corruption. Beyer says outright what it is - a one-stop, up-to-the-minute cheat sheet, Vorthos style - written because the story had scattered across cards, novels, comics, trailers and Duels. It is a reference table of lore facts with no argument about making anything, and the entries share no through-line beyond being characters. Same profile as the other roundups skipped here."
     },
     {
       "id": "synergy-2014-06-16",
@@ -7045,7 +7061,8 @@
       "publishedAt": "2014-06-16",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One, published 16 June 2014 - a different column by a different author, in Mike Flores voice (\"Can you see the extra synergy that would have made 1994 Mike Flores so happy?\"). It teaches deckbuilding: what synergy is, worked through Kird Ape, two 2006 Worlds RW decklists and their fetchland counts, Bitterblossom in Faeries, and Delver of Secrets needing a third of the deck to be instants and sorceries. It closes by promising a separate instalment on two-card combos. Strategy content sharing the news feed, the same call as one-two-three-times-murder-sideboarding-strategies-and-tactics-part-2."
     },
     {
       "id": "touch-magic-2014-06-16",
@@ -7056,7 +7073,8 @@
       "publishedAt": "2014-06-16",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Reader letters, published 16 June 2014. A Blogatog question about coping with anxiety at FNM drew stories back, so Rosewater asked his social media for more, capped them at 200 words, and printed a fraction of what arrived under first names only. The body is entirely other people own words about how Magic changed their lives, running from light to very serious, with Rosewater supplying only the invitation and the thanks. Moving, and no through-line beyond the subject. Judged by the line drawn at celebrity - does the article teach something about making things or receiving them, or is it about being a person - this is testimony rather than argument."
     },
     {
       "id": "top-25-rankings-june-12-2014-2014-06-12",
@@ -7067,7 +7085,8 @@
       "publishedAt": "2014-06-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Pro rankings bulletin, published 12 June 2014, sharing the news feed rather than a column. It reports that with no major events that week the Magic Top 25 stands unchanged with Reid Duke at the head, then previews the remaining event calendar toward Pro Tour Magic 2015 in Portland. Standings and schedule, no argument about making anything. Same call as the GP Richmond statement and the Magic Online programme update."
     },
     {
       "id": "virtual-card-advantage-2014-06-09",
@@ -7078,7 +7097,8 @@
       "publishedAt": "2014-06-09",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One, published 9 June 2014 - a different column by a different author, and the instalment Flores refers back to from synergy-2014-06-16. It is play advice: not-obvious routes to card advantage based on reading opponent behaviour, built on the series own earlier pieces about two-for-ones. Same call as the other Level One columns skipped here."
     },
     {
       "id": "two-truths-and-lie-2014-06-02-0",
@@ -7100,7 +7120,7 @@
       "publishedAt": "2014-05-26",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "journeys-end-2014-05-26",
@@ -7111,7 +7131,8 @@
       "publishedAt": "2014-05-26",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Storyline recap, published 26 May 2014 by the creative team. It condenses both halves of the Godsend novel - Elspeth arriving on Theros through her final battle with the gods in Nyx - and says so outright: the novel links are given first, and the abbreviated version follows for readers who will not read a novel. Plot summary with no argument about making anything, the same call as checking-planeswalkers-2014-06-17."
     },
     {
       "id": "developing-conspiracy-2014-05-20",
@@ -7122,7 +7143,7 @@
       "publishedAt": "2014-05-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "life-resource-generally-2014-05-19",
@@ -7133,7 +7154,8 @@
       "publishedAt": "2014-05-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One, published 19 May 2014 - a different column by a different author, opening on a worked scenario of a player declining to spend a Doom Blade. It is play advice about treating life total as a spendable resource, and it is the instalment the Necropotence piece a week earlier refers back to. Same call as the other Level One columns skipped here."
     },
     {
       "id": "my-day-2014-05-12",
@@ -7155,7 +7177,8 @@
       "publishedAt": "2014-05-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL. Wizards published the same 12 May 2014 column at two paths; this one carries the trailing -0. It is the Vintage Masters history lesson already summarized as my-day-2014-05-12, whose ten points cover interrupts and the pre-stack ordering, mana sources, poly and mono artifacts, and the rule that disqualified a player from a Pro Tour final. Same treatment as topical-blend-did-you-hear-one-about-2015-12-07-0."
     },
     {
       "id": "necropotence-2014-05-12",
@@ -7166,7 +7189,8 @@
       "publishedAt": "2014-05-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One, published 12 May 2014 - a different column by a different author, and explicitly a continuation: \"Over the last couple of weeks, we have talked about the relationship between cards and life total.\" It reads Necropotence as the card that makes life-into-cards explicit, against Sylvan Library and Greed, then walks period decklists. Card evaluation and play advice rather than design argument, timed to Vintage Masters preview week. Same call as the other Level One columns skipped here."
     },
     {
       "id": "journey-nyx-update-bulletin-2014-05-09",
@@ -7177,7 +7201,8 @@
       "publishedAt": "2014-05-09",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Rules Update Bulletin, published 9 May 2014 by the rules manager. It is the changelog that accompanies a set release: the Comprehensive Rules and Oracle changes coming with Journey into Nyx, here compressed to one page because the sets two new mechanics are ability words with no actual rules and most of the work was clean-up. A rules changelog, not a column."
     },
     {
       "id": "card-advantage-life-and-card-advantage-2014-05-05",
@@ -7188,7 +7213,8 @@
       "publishedAt": "2014-05-05",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author. Published 5 May 2014, opening \"When we left last Level Ones restatement of the Philosophy of Fire\" and going on to a Standard sideboard card. Play advice rather than design argument. Same call as the other Level One columns skipped here."
     },
     {
       "id": "journey-center-set-part-2-2014-05-05-0",
@@ -7210,7 +7236,8 @@
       "publishedAt": "2014-04-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author. Published 28 April 2014, setting out what it calls the three fundamental building blocks of Magic theory and restating the Philosophy of Fire. Play advice rather than design argument. Same call as the other Level One columns skipped here."
     },
     {
       "id": "twinkle-twinkle-little-star-2014-04-28",
@@ -7254,7 +7281,8 @@
       "publishedAt": "2014-04-14",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL. Wizards published the same column at two paths; this one carries the trailing -0. It is the second and final Journey into Nyx design column, already summarized as incredible-journey-part-2-2014-04-14. Verified by fetching both paths and comparing the body: identical apart from drop-cap rendering and where the extractor starts. Same treatment as topical-blend-did-you-hear-one-about-2015-12-07-0 and my-day-2014-05-12-0."
     },
     {
       "id": "lucky-djinn-2014-04-14",
@@ -7265,7 +7293,8 @@
       "publishedAt": "2014-04-14",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author. Published 14 April 2014, a costing exercise - how much mana would you pay for a Constructed-playable 5/5 flier - worked through the small number of near-vanilla 5/5 fliers worth playing. Play advice rather than design argument. Same call as the other Level One columns skipped here."
     },
     {
       "id": "incredible-journey-part-1-2014-04-07",
@@ -7287,7 +7316,8 @@
       "publishedAt": "2014-04-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author. Published 7 April 2014, on how to build around effects that hit both players. Play advice rather than design argument. Same call as the other Level One columns skipped here."
     },
     {
       "id": "lenticular-design-2014-03-31",
@@ -7298,7 +7328,8 @@
       "publishedAt": "2014-03-31",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. Wizards published this column at two paths under two different dates, and the copy already summarized here is lenticular-design-2014-12-15. It is the article on the three kinds of complexity and hiding strategic depth where beginners are not yet looking. Verified by fetching both paths and diffing the body: identical apart from whether the extractor folds section headings into the following paragraph. Note that the slugs differ by date, so matching a queue entry against its unsuffixed twin does not catch these - compare the slug stem with the date stripped."
     },
     {
       "id": "more-expensive-casting-costs-2014-03-31",
@@ -7309,7 +7340,8 @@
       "publishedAt": "2014-03-31",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author. Published 31 March 2014 and an explicit continuation of [Common] Casting Costs, built on Zvi Mowshowitzs notion that most playable cards can win a game by themselves. Play advice rather than design argument. Same call as the other Level One columns skipped here."
     },
     {
       "id": "mana-curve-2014-03-24",
@@ -7320,7 +7352,8 @@
       "publishedAt": "2014-03-24",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author. Published 24 March 2014, opening on a player keeping a hand full of expensive mythics and losing to a creature deck. Play advice rather than design argument. Same call as the other Level One columns skipped here."
     },
     {
       "id": "modern-gods-2014-03-24",
@@ -7342,7 +7375,8 @@
       "publishedAt": "2014-03-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author. Published 17 March 2014, on how to find two-for-ones and how to play so they appear. Play advice rather than design argument. Same call as the other Level One columns skipped here."
     },
     {
       "id": "how-write-article-2014-03-17",
@@ -7364,7 +7398,8 @@
       "publishedAt": "2014-03-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL. Wizards published the same column at two paths; this one carries the trailing -0. It is the column about writing columns - the dos and donts, drawn from Rosewaters years on Making Magic and The Duelist - already summarized as how-write-article-2014-03-17. Verified by fetching both paths and comparing the body: identical apart from drop-cap rendering and where the extractor starts. Same treatment as topical-blend-did-you-hear-one-about-2015-12-07-0 and my-day-2014-05-12-0."
     },
     {
       "id": "redundancy-2014-03-10",
@@ -7375,7 +7410,8 @@
       "publishedAt": "2014-03-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author. Published 10 March 2014 and an explicit continuation - \"Over the past couple of weeks, we talked about how some cards are better than others in specific ways\" - following on from Strictly Superior. Play advice rather than design argument. Same call as the other Level One columns skipped here."
     },
     {
       "id": "twist-fate-2014-03-10",
@@ -7397,7 +7433,8 @@
       "publishedAt": "2014-03-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. Wizards published this column at two paths under two different dates, and the copy already summarized here is twist-fate-2014-03-10. It is the Fated Week column tracing the cycle back through Mirage, Invasion and Time Spiral. Verified by fetching both paths and diffing the body: identical apart from whether the extractor folds section headings into the following paragraph. Note that the slugs differ by date, so matching a queue entry against its unsuffixed twin does not catch these - compare the slug stem with the date stripped."
     },
     {
       "id": "nuts-bolts-iteration-2014-03-03",
@@ -7419,7 +7456,7 @@
       "publishedAt": "2014-03-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "strictly-superior-2014-03-03",
@@ -7430,7 +7467,8 @@
       "publishedAt": "2014-03-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author. Published 3 March 2014, on comparing cards that are strictly or practically better than others, worked through Lightning Bolt against Tidings. Play advice rather than design argument. Same call as the other Level One columns skipped here."
     },
     {
       "id": "a-la-mode-2014-02-24-0",
@@ -7441,7 +7479,8 @@
       "publishedAt": "2014-02-24",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL. Wizards published the same Tribute Week column at two paths, and unlike the other duplicates here the two paths carry different dates - the queue entry is stamped 24 February 2014 while the copy already summarized is a-la-mode-2014-02-21. Verified by fetching both and diffing the body: identical apart from drop-cap rendering and one leftover card-link tag. Worth noting for future -0 entries, since matching on the slug minus the suffix does not catch this one."
     },
     {
       "id": "common-casting-costs-2014-02-24",
@@ -7452,7 +7491,8 @@
       "publishedAt": "2014-02-24",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author. Published 24 February 2014, opening on Thursday nights at a University of Pennsylvania cafe where Richard Garfields original playtest group gathered, then turning to what a card should cost to be playable. It is the instalment More Expensive Casting Costs later continues. Play advice rather than design argument. Same call as the other Level One columns skipped here."
     },
     {
       "id": "a-la-mode-2014-02-21",
@@ -7474,7 +7514,8 @@
       "publishedAt": "2014-02-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author. Published 17 February 2014, on building a deck around a mix of card classes so as to win the card-advantage war. Play advice rather than design argument. Same call as the other Level One columns skipped here."
     },
     {
       "id": "card-advantage-2014-02-10",
@@ -7485,7 +7526,8 @@
       "publishedAt": "2014-02-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author. Published 10 February 2014, the foundational instalment, worked through a Necropotence deck against a red-white defensive deck. Play advice rather than design argument. Same call as the other Level One columns skipped here."
     },
     {
       "id": "being-inspired-part-1-2014-02-07",
@@ -7507,7 +7549,8 @@
       "publishedAt": "2014-02-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author. Published 3 February 2014, opening on a hand the author drew in Duels of the Planeswalkers 2013. Play advice rather than design argument. Same call as the other Level One columns skipped here."
     },
     {
       "id": "born-be-compiled-part-2-2014-01-30",
@@ -7562,7 +7605,8 @@
       "publishedAt": "2014-01-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. Wizards published this column at two paths under two different dates, and the copy already summarized here is born-identity-2014-01-13. It is the first Born of the Gods preview-week design column. Verified by fetching both paths and diffing the body."
     },
     {
       "id": "magic-gathering-collector-coins-2014-01-10",
@@ -7573,7 +7617,8 @@
       "publishedAt": "2014-01-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Product announcement, published 10 January 2014: a partnership with the New Zealand Mint for a series of one-ounce silver collector coins, the first featuring Jason Chan's Jace, the Mind Sculptor art. Merchandise news sharing the news feed, with no argument about making anything."
     },
     {
       "id": "advanced-planning-2014-01-06",
@@ -7595,7 +7640,8 @@
       "publishedAt": "2014-01-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Year in review from the website team, published 6 January 2014 - \"that time of year again, wherein I regale you with all that was Magically Magnificent in the past year.\" It recaps the year's products, events and site happenings. A roundup of what occurred rather than a column about design."
     },
     {
       "id": "unfairest-them-all-2013-12-20",
@@ -7606,7 +7652,8 @@
       "publishedAt": "2013-12-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Limited strategy, published 20 December 2013 for Magic Online Week by a Magic Online team member returning to what he calls his Magic-writing roots. It is a guide to drafting and playing Cube. Play advice rather than design argument, the same call as the Level One columns skipped here."
     },
     {
       "id": "advanced-planning-2013-12-19",
@@ -7617,7 +7664,8 @@
       "publishedAt": "2013-12-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. Wizards published this column at two paths under two different dates, and the copy already summarized here is advanced-planning-2014-01-06. It is the column introducing the exploratory design team, and it opens \"For the first article of 2014\" - so the 19 December 2013 date on this path is wrong on Wizards side, and 6 January 2014 is the real one. Verified by fetching both paths and diffing the body."
     },
     {
       "id": "magic-2014-ios-patch-2013-12-19",
@@ -7628,7 +7676,8 @@
       "publishedAt": "2013-12-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Patch notes, published 19 December 2013: the release notes for a Magic 2014 iOS update. Software changelog sharing the news feed."
     },
     {
       "id": "text-me-maybe-2013-12-19",
@@ -7639,7 +7688,7 @@
       "publishedAt": "2013-12-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "communications-theory-2013-12-17",
@@ -7661,7 +7710,8 @@
       "publishedAt": "2013-12-16",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Client tutorial, published 16 December 2013 for Magic Online Week: a walkthrough of how to install, navigate and play on Magic Online. How to use the software, not how anything was made."
     },
     {
       "id": "timmy-johnny-and-spike-2013-12-03",
@@ -7672,7 +7722,8 @@
       "publishedAt": "2013-12-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. Wizards published this column at two paths under two different dates, and the copy already summarized here is timmy-johnny-and-spike. It is the original psychographics column with its reader test. The bodies are byte-identical. Verified by fetching both paths and diffing the body."
     },
     {
       "id": "i-second-devotion-2013-11-27",
@@ -7749,7 +7800,8 @@
       "publishedAt": "2013-10-18",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Decklists, published 18 October 2013: the five preconstructed Commander 2013 lists printed in full. Contents listing with no argument of its own."
     },
     {
       "id": "hero-complex-2013-10-18",
@@ -7815,7 +7867,8 @@
       "publishedAt": "2013-09-09",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. Wizards published this column at two paths under two different dates, and the copy already summarized here is theros-any-other-name-part-2-2013-09-06. It is the second Theros preview-week design column, on weaving gods, heroes and monsters through the set. Identical apart from whether the extractor folds section headings into the following paragraph. Verified by fetching both paths and diffing the body."
     },
     {
       "id": "theros-any-other-name-part-2-2013-09-06",
@@ -7837,7 +7890,8 @@
       "publishedAt": "2013-09-04",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Planeswalker's Guide part three, published 4 September 2013 by the creative team. Same profile and same treatment as parts one and two."
     },
     {
       "id": "even-handed-tale-2013-09-02",
@@ -7859,7 +7913,8 @@
       "publishedAt": "2013-09-02",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. Wizards published this column at two paths under two different dates, and the copy already summarized here is theros-any-other-name-part-1-2013-08-29. It is the first Theros preview-week design column. Note the direction here is the reverse of the usual case: the 29 August path now returns only a stub, while this 2 September path serves the full article. The summary made from the stub-side slug is complete, at ten points, so nothing is lost by skipping this one. Verified by fetching both paths and diffing the body."
     },
     {
       "id": "sideboarding-strategies-and-tactics-part-1-2013-08-29",
@@ -7870,7 +7925,8 @@
       "publishedAt": "2013-08-29",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Level One - a different column by a different author, published 29 August 2013. It is part one of the sideboarding series whose part two is already skipped here as one-two-three-times-murder-sideboarding-strategies-and-tactics-part-2. Play advice rather than design argument."
     },
     {
       "id": "theros-any-other-name-part-1-2013-08-29",
@@ -7892,7 +7948,8 @@
       "publishedAt": "2013-08-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Planeswalker's Guide part two, published 28 August 2013 by the creative team. Same profile and same treatment as part one."
     },
     {
       "id": "state-design-2013-2013-08-26",
@@ -7903,7 +7960,8 @@
       "publishedAt": "2013-08-26",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. Wizards published this column at two paths under two different dates, and the copy already summarized here is state-design-2013-2013-08-23. It is the 2013 State of Design. Verified by fetching both paths and diffing the body."
     },
     {
       "id": "state-design-2013-2013-08-23",
@@ -7925,7 +7983,8 @@
       "publishedAt": "2013-08-21",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Planeswalker's Guide, published 21 August 2013 by the creative team: a setting gazetteer for Theros - its geography, its peoples, its gods. Worldbuilding reference rather than a column about making anything, the same call as checking-planeswalkers-2014-06-17."
     },
     {
       "id": "design-104-2013-08-19",
@@ -7947,7 +8006,8 @@
       "publishedAt": "2013-08-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Play report, published 19 August 2013: the author recounts going 3-1 with the Heroes vs. Monsters Duel Deck against Kelly Digges, after having fumbled repeatedly with Sorin vs. Tibalt. An account of games played rather than of anything made. Note that playing-jace-vraska-2014-03-03 is summarized here because it is the designer explaining how the matchup was built; this is the opposite piece."
     },
     {
       "id": "un-seen-2013-08-12",
@@ -7969,7 +8029,8 @@
       "publishedAt": "2013-08-09",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Podcast index, published 9 August 2013: a listing of the Drive to Work episodes with links. A directory of other content, like the recap indexes skipped here."
     },
     {
       "id": "shoulders-giants-2013-08-06",
@@ -7980,7 +8041,8 @@
       "publishedAt": "2013-08-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "List column, published 6 August 2013 for 20th Anniversary Week: the author's pick of the twenty greatest Magic strategy articles of all time, with the caveat that the task is impossible and that some once-vital writing would now raise more eyebrows than IQs. A directory of other people's articles, and strategy writing at that. Same call as the other roundups and Level One columns skipped here."
     },
     {
       "id": "twenty-things-were-going-kill-magic-2013-08-05",
@@ -7991,7 +8053,8 @@
       "publishedAt": "2013-08-05",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to twenty-things-were-going-kill-magic-2013-08-01, which is summarized."
     },
     {
       "id": "you-make-card-4-card-name-2013-08-05",
@@ -8002,7 +8065,8 @@
       "publishedAt": "2013-08-05",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Stage announcement from You Make the Card 4, published 2013 by Ethan Fleischer. The series ran the community through one decision at a time, and each instalment is the report of one of those steps: a vote table, the slate of candidates for the next vote, and a short aside of craft. This opens name submissions, with a short dos-and-donts list: do not try to cram all three of the cards functions into the name, do not fixate on the concept name, and no real-world proper nouns. Judged by the same test applied to the trivia columns - is there enough independent argument to reach seven points? All seven instalments were read; none reaches it alone. The exception is already in the archive: you-make-card-4-rules-bracket-2015-09-15, also by Fleischer, which is about the filtering funnel itself - 7,709 submissions cut to eight, each stage with its own owner and filter - and carries a full argument."
     },
     {
       "id": "twenty-things-were-going-kill-magic-2013-08-01",
@@ -8024,7 +8088,7 @@
       "publishedAt": "2013-07-24",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "wizards-tower-magic-format-2013-07-23",
@@ -8035,7 +8099,7 @@
       "publishedAt": "2013-07-23",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "garfield-play-2013-07-22",
@@ -8057,7 +8121,8 @@
       "publishedAt": "2013-07-15",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate of six-hundred-and-counting-2013-07-12, which is itself skipped as a recap index. Wizards published the same column at two paths three days apart; verified by diffing the bodies, which are identical."
     },
     {
       "id": "you-make-card-4-sketches-2013-07-15",
@@ -8068,7 +8133,8 @@
       "publishedAt": "2013-07-15",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Stage announcement from You Make the Card 4, published 2013 by Ethan Fleischer. The series ran the community through one decision at a time, and each instalment is the report of one of those steps: a vote table, the slate of candidates for the next vote, and a short aside of craft. This reports the art description that won, names Matt Stewart as the artist the art director chose, and puts the sketches up for a vote. Judged by the same test applied to the trivia columns - is there enough independent argument to reach seven points? All seven instalments were read; none reaches it alone. The exception is already in the archive: you-make-card-4-rules-bracket-2015-09-15, also by Fleischer, which is about the filtering funnel itself - 7,709 submissions cut to eight, each stage with its own owner and filter - and carries a full argument."
     },
     {
       "id": "six-hundred-and-counting-2013-07-12",
@@ -8079,7 +8145,8 @@
       "publishedAt": "2013-07-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Index of the previous hundred columns, published July 2013 at the 600-week mark - the sixth instalment of the recurring recap series. The body is a numbered list of weeks #501-#600, each with a one-line description and a star rating, plus a link. Same profile and same treatment as the already-skipped seven-hundred, eight-hundred, nine-hundred, one-thousand, one-thousand-one-hundred and one-thousand-two-hundred instalments."
     },
     {
       "id": "working-your-core-2013-07-08",
@@ -8101,7 +8168,7 @@
       "publishedAt": "2013-07-01",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "sliver-pate-2013-07-01",
@@ -8145,7 +8212,8 @@
       "publishedAt": "2013-06-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Stage announcement from You Make the Card 4, published 2013 by Ethan Fleischer. The series ran the community through one decision at a time, and each instalment is the report of one of those steps: a vote table, the slate of candidates for the next vote, and a short aside of craft. This prints five candidate art descriptions to vote between. Its craft content is one paragraph - that a card carries a playtest name, then a concept name in brackets once creative has concepted it, then a final name, and that an art description states colour, card type, action, focus and mood. Judged by the same test applied to the trivia columns - is there enough independent argument to reach seven points? All seven instalments were read; none reaches it alone. The exception is already in the archive: you-make-card-4-rules-bracket-2015-09-15, also by Fleischer, which is about the filtering funnel itself - 7,709 submissions cut to eight, each stage with its own owner and filter - and carries a full argument."
     },
     {
       "id": "communications-theory-2013-05-30",
@@ -8156,7 +8224,8 @@
       "publishedAt": "2013-05-30",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Original path of the column summarized as communications-theory-2013-12-17, the year-end Best Of reprint of the same piece. Content already covered."
     },
     {
       "id": "you-make-card-4-winning-mechanic-2013-05-28",
@@ -8167,7 +8236,8 @@
       "publishedAt": "2013-05-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Stage announcement from You Make the Card 4, published 2013 by Ethan Fleischer. The series ran the community through one decision at a time, and each instalment is the report of one of those steps: a vote table, the slate of candidates for the next vote, and a short aside of craft. This announces the winning rules text out of nearly 8,000 submissions and gives most of its length to an interview with the fan who submitted it, about how he plays rather than about design. Judged by the same test applied to the trivia columns - is there enough independent argument to reach seven points? All seven instalments were read; none reaches it alone. The exception is already in the archive: you-make-card-4-rules-bracket-2015-09-15, also by Fleischer, which is about the filtering funnel itself - 7,709 submissions cut to eight, each stage with its own owner and filter - and carries a full argument."
     },
     {
       "id": "developing-masters-2013-05-27",
@@ -8200,7 +8270,7 @@
       "publishedAt": "2013-05-23",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "magic-2014-core-set-rules-preview-2013-05-23",
@@ -8211,7 +8281,8 @@
       "publishedAt": "2013-05-23",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Rules update bulletin, published 23 May 2013 by the rules manager: the Comprehensive Rules and Oracle changes arriving with Magic 2014. This is the \"what\" article that legendary-rule-change-2013-05-23 - summarized here - explicitly points readers to first, and that piece carries the design reasoning. A rules changelog, not a column."
     },
     {
       "id": "dragons-maze-secretist-part-three-2013-05-22",
@@ -8222,7 +8293,8 @@
       "publishedAt": "2013-05-22",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Fiction, published 22 May 2013: an instalment of the Secretist novella following Ral Zarek and the Implicit Maze. Story rather than an article about making anything."
     },
     {
       "id": "gates-foundation-2013-05-20",
@@ -8244,7 +8316,8 @@
       "publishedAt": "2013-05-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to gates-foundation-2013-05-20, which is summarized."
     },
     {
       "id": "absence-2013-05-13",
@@ -8266,7 +8339,8 @@
       "publishedAt": "2013-05-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to absence-2013-05-13, which is summarized."
     },
     {
       "id": "new-improved-2013-05-06",
@@ -8321,7 +8395,8 @@
       "publishedAt": "2013-04-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Organized play announcement, published 10 April 2013: new Planeswalker Points achievements tied to Dragon's Maze, plus programme updates. Scheduling and rewards news sharing the news feed."
     },
     {
       "id": "maze-ing-grace-part-1-2013-04-08",
@@ -8343,7 +8418,8 @@
       "publishedAt": "2013-04-04",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to maze-ing-grace-part-1-2013-04-08, which is summarized."
     },
     {
       "id": "introducing-challenge-flags-new-approach-appeals-2013-04-01",
@@ -8354,7 +8430,8 @@
       "publishedAt": "2013-04-01",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "April Fools hoax, published 1 April 2013: it announces that players may throw a challenge flag to appeal a judge ruling, with a limited number per match. No such appeals system was adopted. Summarizing it would state an invented tournament policy as real. Same treatment as new-new-world-order-2013-04-01."
     },
     {
       "id": "new-new-world-order-2013-03-29",
@@ -8365,7 +8442,8 @@
       "publishedAt": "2013-03-29",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate of new-new-world-order-2013-04-01, already skipped here as an April Fools hoax that invents an escalation of New World Order R&D never adopted. Wizards published it at two paths; verified by diffing the bodies, identical apart from drop-cap rendering and an unescaped ampersand."
     },
     {
       "id": "designing-orzhov-2013-03-25",
@@ -8387,7 +8465,8 @@
       "publishedAt": "2013-03-25",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Stage announcement from You Make the Card 4, published 2013 by Ethan Fleischer. The series ran the community through one decision at a time, and each instalment is the report of one of those steps: a vote table, the slate of candidates for the next vote, and a short aside of craft. This reports the run-off, enchantment over land by 51.3 to 48.7 percent, and opens rules-text submissions. Judged by the same test applied to the trivia columns - is there enough independent argument to reach seven points? All seven instalments were read; none reaches it alone. The exception is already in the archive: you-make-card-4-rules-bracket-2015-09-15, also by Fleischer, which is about the filtering funnel itself - 7,709 submissions cut to eight, each stage with its own owner and filter - and carries a full argument."
     },
     {
       "id": "designing-dimir-2013-03-18",
@@ -8409,7 +8488,8 @@
       "publishedAt": "2013-03-18",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Stage announcement from You Make the Card 4, published 2013 by Ethan Fleischer. The series ran the community through one decision at a time, and each instalment is the report of one of those steps: a vote table, the slate of candidates for the next vote, and a short aside of craft. This reports the card-type vote, a statistical tie between land and enchantment across 88,713 ballots, and sets up the run-off. Judged by the same test applied to the trivia columns - is there enough independent argument to reach seven points? All seven instalments were read; none reaches it alone. The exception is already in the archive: you-make-card-4-rules-bracket-2015-09-15, also by Fleischer, which is about the filtering funnel itself - 7,709 submissions cut to eight, each stage with its own owner and filter - and carries a full argument."
     },
     {
       "id": "beta-goes-2013-03-13",
@@ -8420,7 +8500,7 @@
       "publishedAt": "2013-03-13",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "creation-magic-gathering-2013-03-12",
@@ -8453,7 +8533,8 @@
       "publishedAt": "2013-03-11",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Stage announcement from You Make the Card 4, published 2013 by Ethan Fleischer. The series ran the community through one decision at a time, and each instalment is the report of one of those steps: a vote table, the slate of candidates for the next vote, and a short aside of craft. This is the launch, recapping the three previous instalments and the cards they produced - Forgotten Ancient, Crucible of Worlds, Dark Depths - and opening the vote on card type. Judged by the same test applied to the trivia columns - is there enough independent argument to reach seven points? All seven instalments were read; none reaches it alone. The exception is already in the archive: you-make-card-4-rules-bracket-2015-09-15, also by Fleischer, which is about the filtering funnel itself - 7,709 submissions cut to eight, each stage with its own owner and filter - and carries a full argument."
     },
     {
       "id": "shuffling-sorin-torturing-tibalt-2013-03-06",
@@ -8486,7 +8567,8 @@
       "publishedAt": "2013-02-26",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Fiction, published 26 February 2013: part two of the Secretist novella. Story rather than an article about making anything, the same call as dragons-maze-secretist-part-three-2013-05-22."
     },
     {
       "id": "living-synergy-2013-02-25",
@@ -8607,7 +8689,8 @@
       "publishedAt": "2012-12-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "The Price of Progress - a Limited strategy series by a different author. Published 10 December 2012, following directly from the previous week on fixing those mana mistakes. It sets sealed pools as homework and works through the answers: which guild the bombs pull you toward, how many lands of each type, which spell combinations make a mana base impossible. Deckbuilding advice rather than design argument, the same call as the Level One columns skipped here."
     },
     {
       "id": "designing-rakdos-2012-12-07",
@@ -8618,7 +8701,8 @@
       "publishedAt": "2012-12-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to designing-rakdos-2012-12-10, which is summarized."
     },
     {
       "id": "price-progress-paying-price-2012-12-03",
@@ -8629,7 +8713,8 @@
       "publishedAt": "2012-12-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "The Price of Progress - a Limited strategy series by a different author. Published 3 December 2012, on the mana mistakes that sealed decks most often make. It sets sealed pools as homework and works through the answers: which guild the bombs pull you toward, how many lands of each type, which spell combinations make a mana base impossible. Deckbuilding advice rather than design argument, the same call as the Level One columns skipped here."
     },
     {
       "id": "six-year-plan-2012-12-03",
@@ -8651,7 +8736,8 @@
       "publishedAt": "2012-11-29",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph against six-year-plan-2012-12-03, which is summarized; identical apart from HTML entity encoding of the ampersand in \"R&D\"."
     },
     {
       "id": "return-ravnica-secretist-part-one-2012-11-28",
@@ -8662,7 +8748,8 @@
       "publishedAt": "2012-11-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Fiction, published 28 November 2012: part one of the Secretist novella. Same profile and same treatment as parts two and three."
     },
     {
       "id": "power-cubed-2012-11-27",
@@ -8695,7 +8782,8 @@
       "publishedAt": "2012-11-26",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "The Price of Progress - a Limited strategy series by a different author. Published 26 November 2012, on weighing a pool by its mechanics. It sets sealed pools as homework and works through the answers: which guild the bombs pull you toward, how many lands of each type, which spell combinations make a mana base impossible. Deckbuilding advice rather than design argument, the same call as the Level One columns skipped here."
     },
     {
       "id": "designing-izzet-2012-11-12",
@@ -8717,7 +8805,8 @@
       "publishedAt": "2012-11-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "The Price of Progress - a Limited strategy series by a different author. Published 12 November 2012, on reading a Return to Ravnica sealed pool with Rakdos, Lord of Riots and Desecration Demon pulling one way and Righteous Authority and Sphinx of the Chimes another. It sets sealed pools as homework and works through the answers: which guild the bombs pull you toward, how many lands of each type, which spell combinations make a mana base impossible. Deckbuilding advice rather than design argument, the same call as the Level One columns skipped here."
     },
     {
       "id": "kids-play-part-1-2012-11-05",
@@ -8739,7 +8828,8 @@
       "publishedAt": "2012-11-05",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "The Price of Progress - a Limited strategy series by a different author, published 5 November 2012, working through the sealed pool set as homework the previous week. Same call as the other instalments skipped here."
     },
     {
       "id": "designing-azorius-2012-10-29",
@@ -8761,7 +8851,8 @@
       "publishedAt": "2012-10-29",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Sealed deck primer, published 29 October 2012 - the opening instalment of the same Limited strategy series, teaching how to approach building from a sealed pool. Play advice rather than design argument."
     },
     {
       "id": "command-2012-10-25",
@@ -8772,7 +8863,8 @@
       "publishedAt": "2012-10-25",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Humour column, published 25 October 2012 by Mark Gottlieb, framed as a satirical pitch for a Magic and Clue crossover - the author strapped into head restraints by Wizards Advanced PsiOps division, Mr. Jace Peacock, the Eldrazi eating the board. Wrapped around the joke is a genuine walkthrough of the Commander's Arsenal components: sketches and prototypes for the oversized life counter, counters with a bold plus on one face and a minus on the other, and 120 card sleeves per box so there are spares when some break or go missing. Read in full before deciding. The real content is a description of what is in the box - the same material as the already-skipped commanders-arsenal-initial-barrage-2012-10-23 - and the rest is the bit; not enough independent argument to reach seven points."
     },
     {
       "id": "commanders-arsenal-initial-barrage-2012-10-23",
@@ -8783,7 +8875,8 @@
       "publishedAt": "2012-10-23",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Product announcement, published 23 October 2012: the contents listing and release details for Commander's Arsenal. Merchandise news rather than a column."
     },
     {
       "id": "modern-masters-explained-2012-10-22",
@@ -8838,7 +8931,8 @@
       "publishedAt": "2012-10-08",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Fantasy league guide, published 8 October 2012 by Ryan Spain, about the Magic: The Gathering Fantasy Pro Tour that Mike Turian conceived - drafting a roster of Pro Tour competitors the way one drafts athletes, with position limits so you cannot field an all-quarterback squad. It is advice on how to enter and build a competitive roster. Participation guidance for a side game rather than an argument about making anything."
     },
     {
       "id": "designing-selesnya-2012-10-01",
@@ -8882,7 +8976,7 @@
       "publishedAt": "2012-09-13",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "return-investment-part-2-2012-09-10",
@@ -8904,7 +8998,8 @@
       "publishedAt": "2012-09-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to return-investment-part-2-2012-09-10, which is summarized."
     },
     {
       "id": "investment-part-1-2012-09-03",
@@ -8926,7 +9021,8 @@
       "publishedAt": "2012-08-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Suffixed path carrying the full body of the column summarized as state-design-2012-2012-08-27; that file already records this URL as its canonical. Same article."
     },
     {
       "id": "state-design-2012-2012-08-23",
@@ -8937,7 +9033,8 @@
       "publishedAt": "2012-08-23",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path for the column summarized as state-design-2012-2012-08-27, whose canonical already points at the -0 variant carrying the full 90-paragraph body. Opening paragraph verified identical."
     },
     {
       "id": "piggybacking-2012-08-20",
@@ -9135,7 +9232,8 @@
       "publishedAt": "2011-10-24",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. The copy already in the archive is ten-things-every-game-needs-part-1-part-2-2011-12-19, which is Rosewater's end-of-year Best Of republication - the original column preceded by a short framing preamble. That republication carries both parts; this path is part one on its own. Verified by diffing the bodies: the archive version contains this one."
     },
     {
       "id": "walking-undead-2011-10-17",
@@ -9212,7 +9310,8 @@
       "publishedAt": "2011-08-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to state-design-2011-2011-08-22, which is summarized."
     },
     {
       "id": "why-because-we-you-2011-08-15",
@@ -9234,7 +9333,8 @@
       "publishedAt": "2011-08-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to why-because-we-you-2011-08-15, which is summarized."
     },
     {
       "id": "five-hundred-and-counting-2011-08-08",
@@ -9245,7 +9345,8 @@
       "publishedAt": "2011-08-08",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Index of the previous hundred columns, published August 2011 at the 500-week mark - the fifth instalment of the recurring recap series. Same profile and same treatment as the six-hundred through one-thousand-two-hundred instalments already skipped here."
     },
     {
       "id": "resource-income-2011-07-28",
@@ -9355,7 +9456,8 @@
       "publishedAt": "2011-03-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. The copy already in the archive is roseanne-any-other-name-2011-12-19, which is Rosewater's end-of-year Best Of republication - the original column preceded by a short framing preamble. That republication runs the series as a single piece; its later points - other people changing how you function, beware the shiny, deciding whether a problem is a group problem - are drawn from this part. Verified by diffing the bodies: the archive version contains this one."
     },
     {
       "id": "roseanne-any-other-name-part-1-2011-03-14",
@@ -9366,7 +9468,8 @@
       "publishedAt": "2011-03-14",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. The copy already in the archive is roseanne-any-other-name-2011-12-19, which is Rosewater's end-of-year Best Of republication - the original column preceded by a short framing preamble. That republication runs the series as a single piece and its ten points span both getting the job and holding it; this path is part one on its own. Verified by diffing the bodies: the archive version contains this one."
     },
     {
       "id": "what-do-you-do-living-weapon-2011-03-07",
@@ -9443,7 +9546,8 @@
       "publishedAt": "2010-12-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate. This is the Best Of republication carrying both halves of Ten Principles of Good Design, and both halves are already summarized separately in the archive as ten-principles-good-design-part-1-2010-05-03 and ten-principles-good-design-part-2-2010-05-17. Verified by diffing the bodies."
     },
     {
       "id": "essay-what-2010-11-08",
@@ -9476,7 +9580,8 @@
       "publishedAt": "2010-10-25",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Great Designer Search 2 qualifying test, published 25 October 2010: the fifty-question multiple-choice round that cut roughly a thousand applicants down to about a hundred, with a pass mark of 44. Rosewater invites readers to sit it and then walks through every answer. The walkthrough is where any design argument would live, but it was built as an interactive quiz on 2006-era website technology and does not survive extraction - only the five-paragraph framing is retrievable, describing the three rounds and the rules of the test. Same situation as the accompanying interactive test skipped at timmy-johnny-and-spike-revisited-2006-03-20-1: the substance is not in the page any more, so there is nothing to summarize from."
     },
     {
       "id": "i-want-threshold-your-hand-or-possibly-my-artifacts-2010-10-18",
@@ -9520,7 +9625,8 @@
       "publishedAt": "2010-09-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL. Wizards published the same column at two paths; this one carries the trailing -0. It is the 2010 State of Design, already summarized as state-design-2010-2010-09-27. Verified by fetching both paths and comparing the body: identical apart from drop-cap rendering and where the extractor starts. Same treatment as topical-blend-did-you-hear-one-about-2015-12-07-0 and my-day-2014-05-12-0."
     },
     {
       "id": "making-memories-2010-08-23",
@@ -9575,7 +9681,8 @@
       "publishedAt": "2010-07-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate under a slug that does not describe it. The path reads know-how-part-1 and is stamped 12 July 2010, but the article it serves is the Living Weapon Week Twitter mailbag from March 2011, already summarized here as what-do-you-do-living-weapon-2011-03-07. Verified by diffing the bodies, which are identical. Worth noting for future passes: no check on the slug or the date could have caught this one, because neither matches the content. The archive's know-how-part-2-2010-07-22 is a different article again - the how mailbag - and its part one does not appear to be in the queue under any recognisable name."
     },
     {
       "id": "my-rogues-gallery-2010-06-21",
@@ -9707,7 +9814,8 @@
       "publishedAt": "2010-02-05",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to all-together-now-2010-02-08, which is summarized."
     },
     {
       "id": "multikick-seat-pants-2010-01-22",
@@ -9751,7 +9859,8 @@
       "publishedAt": "2009-12-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Year-end Best Of rerun of resolutions-2009-01-05, which is summarized. Same body behind a short new preamble explaining the vacation reprint."
     },
     {
       "id": "kind-acts-randomness-2009-12-21",
@@ -9762,7 +9871,8 @@
       "publishedAt": "2009-12-21",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Year-end Best Of rerun of kind-acts-randomness-2009-05-04 (Cascade Week), which is summarized. Same body behind a new preamble."
     },
     {
       "id": "kind-acts-randomness-2009-12-14",
@@ -9773,7 +9883,8 @@
       "publishedAt": "2009-12-14",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Second path for the same year-end Best Of rerun of kind-acts-randomness-2009-05-04, which is summarized."
     },
     {
       "id": "revenge-mons-2009-12-10",
@@ -9784,7 +9895,8 @@
       "publishedAt": "2009-12-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Goblin Week column, published 10 December 2009, and read in full before deciding. Its spine is an interactive gag: a button the reader is told not to push, which on each push progressively corrupts the article's own text into goblin-speak. That corruption is what the page now serves - large stretches of the body come through as mangled glyphs, and a redacted Rise of the Eldrazi tease survives only as a paragraph in which every noun has been replaced by the word goblin. What remains intact is a Top 10 Worst Cards for Goblins list contributed largely by Mons Johnson, carrying perhaps four transferable points - development weeding out an element design liked, designers having pet mechanics such as effects that self-limit, a drawback derived from wanting a vocal component in the set, and Un-set designers having unusual freedom over names. Short of the seven the archive asks for, and the article cannot be read whole in any case."
     },
     {
       "id": "playing-blocks-2009-12-07",
@@ -9806,7 +9918,8 @@
       "publishedAt": "2009-12-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to playing-blocks-2009-12-07, which is summarized."
     },
     {
       "id": "designing-spike-2009-11-24",
@@ -9839,7 +9952,8 @@
       "publishedAt": "2009-11-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to maro-maro-part-ii-2009-11-23, which is summarized."
     },
     {
       "id": "maro-maro-part-i-2009-11-09",
@@ -9905,7 +10019,8 @@
       "publishedAt": "2009-09-25",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Index of the previous hundred columns, published 25 September 2009 at the 400-week mark - the fourth instalment of the recurring recap series. The body is a numbered list of weeks #301-#400, each with a one-line description and a star rating, plus a link. Same profile and same treatment as the five-hundred through one-thousand-two-hundred instalments already skipped here."
     },
     {
       "id": "planechasing-your-dream-2009-08-31",
@@ -10004,7 +10119,8 @@
       "publishedAt": "2009-06-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to magic-lessons-2009-06-22, which is summarized."
     },
     {
       "id": "view-top-2009-06-15",
@@ -10136,7 +10252,8 @@
       "publishedAt": "2009-02-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to cycling-round-track-2009-02-23, which is summarized."
     },
     {
       "id": "25-random-things-about-magic-2009-02-16",
@@ -10235,7 +10352,8 @@
       "publishedAt": "2008-12-04",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to 80000-words-directors-commentary-part-ii-2008-12-08, which is summarized."
     },
     {
       "id": "following-your-heart-2008-12-01",
@@ -10367,7 +10485,8 @@
       "publishedAt": "2008-07-21",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Page serves no article body, published 21 July 2008 for Mimic Week - a gimmick in which the site's writers hid inside each other's columns, so this Making Magic slot was written by someone imitating Rosewater. Only the two-paragraph Mimic Week preamble is retrievable; the column itself is not served at this path. Same category as 80000-words-2006-08-07 and the interactive pages skipped here: the substance has not survived rather than the article lacking any."
     },
     {
       "id": "every-card-has-story-2008-07-14",
@@ -10763,7 +10882,8 @@
       "publishedAt": "2007-10-15",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Index of the previous hundred columns, published 15 October 2007 at the 300-week mark - the third instalment of the recurring recap series. Same profile and same treatment as the other instalments skipped here."
     },
     {
       "id": "and-after-2007-10-08",
@@ -10829,7 +10949,8 @@
       "publishedAt": "2007-09-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Labor Day reprint wrapper. The page states outright: \"what follows is the article that ran in this slot last week\" - that being topical-blend-3-sessions-2007-08-27-0, which is summarized."
     },
     {
       "id": "topical-blend-3-sessions-2007-08-27-0",
@@ -10994,7 +11115,8 @@
       "publishedAt": "2007-05-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL. Wizards published the same column at two paths; this one carries the trailing -0. It is the column introducing the Melvin and Vorthos aesthetic profiles, already summarized as melvin-and-vorthos-2007-05-07. Verified by fetching both paths and comparing the body: identical apart from drop-cap rendering and where the extractor starts. Same treatment as topical-blend-did-you-hear-one-about-2015-12-07-0 and my-day-2014-05-12-0."
     },
     {
       "id": "timeshift-after-timeshift-2007-04-30",
@@ -11093,7 +11215,8 @@
       "publishedAt": "2007-02-26",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path for the same column. This URL serves no article body; the full text is served at nights-round-table-1993-12-06 (the in-character 1993 dateline of the What If Week piece), which is summarized here. Skipped so the same column is not counted twice."
     },
     {
       "id": "when-going-gets-bluff-2007-02-12",
@@ -11170,7 +11293,8 @@
       "publishedAt": "2007-01-01",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Best Of pointer page, published 1 January 2007. Unlike the other year-end Best Of paths skipped here, this one does not reproduce the column: the page is five paragraphs of framing explaining that Rosewater picked Life Lessons Parts I and II as his favourite of the year, counting the two as one, plus links. The articles themselves live at life-lessons-part-i-2006-02-20-0, now summarized here, and life-lessons-part-ii-2006-03-06-0, still in the queue."
     },
     {
       "id": "timmy-johnny-and-spike-revisited-2006-12-18",
@@ -11181,7 +11305,8 @@
       "publishedAt": "2006-12-18",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Holiday rerun of timmy-johnny-and-spike-revisited-2006-03-20, which is summarized. Same body behind a new preamble."
     },
     {
       "id": "stack-2006-11-20",
@@ -11346,7 +11471,8 @@
       "publishedAt": "2006-08-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Page serves no article body. The URL returns HTTP 200 and the document carries the title \"80,000 Words\", but the 184 KB response contains no prose paragraphs at all - the extractor returns nothing, and grepping the raw HTML for paragraph text finds none either. Whatever the column was, its content is no longer served at this path. Same category as the interactive pages skipped here, where the substance has not survived rather than the article lacking any. Note that the archive already holds 80000-words-directors-commentary-2008-11-20 and its part II, which are different articles from 2008."
     },
     {
       "id": "cantrip-down-memory-lane-2006-07-31",
@@ -11478,7 +11604,7 @@
       "publishedAt": "2006-05-08",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "slow-and-steady-2006-05-01",
@@ -11489,7 +11615,7 @@
       "publishedAt": "2006-05-01",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "slow-and-steady-2006-05-01-0",
@@ -11500,7 +11626,8 @@
       "publishedAt": "2006-05-01",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL. Wizards published the same 1 May 2006 column at two paths and this one carries the trailing -0; the other path, slow-and-steady-2006-05-01, is still pending and is the one to summarize. Verified by diffing the bodies: the same article, with this extraction dropping a few paragraphs the other keeps, which is why the unsuffixed path is the better source."
     },
     {
       "id": "cards-2006-04-24",
@@ -11511,7 +11638,7 @@
       "publishedAt": "2006-04-24",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "split-odds-ends-2006-04-17",
@@ -11522,7 +11649,7 @@
       "publishedAt": "2006-04-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "seeds-dissension-2006-04-10",
@@ -11533,7 +11660,7 @@
       "publishedAt": "2006-04-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "direct-mail-2006-04-03",
@@ -11544,7 +11671,7 @@
       "publishedAt": "2006-04-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "playing-their-own-rules-2006-03-27",
@@ -11555,7 +11682,7 @@
       "publishedAt": "2006-03-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "playing-their-own-rules-2006-03-27-0",
@@ -11566,7 +11693,8 @@
       "publishedAt": "2006-03-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL. Wizards published the same Orzhov Week column at two paths and this one carries the trailing -0. Verified by diffing the bodies: the same article, with this extraction dropping two paragraphs the unsuffixed path keeps, which is why that path is the one summarized here."
     },
     {
       "id": "timmy-johnny-and-spike-revisited-2006-03-20",
@@ -11588,7 +11716,8 @@
       "publishedAt": "2006-03-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL. Wizards published the same column at two paths; this one carries the trailing -0. It is the Ravnica-era revisit of the psychographics column, already summarized as timmy-johnny-and-spike-revisited-2006-03-20. Here the two extractions begin at different points - one includes the updated test that opens the piece, the other starts after it - but the column is the same. Verified by fetching both paths and comparing the body: identical apart from drop-cap rendering and where the extractor starts. Same treatment as topical-blend-did-you-hear-one-about-2015-12-07-0 and my-day-2014-05-12-0."
     },
     {
       "id": "timmy-johnny-and-spike-revisited-2006-03-20-1",
@@ -11599,7 +11728,8 @@
       "publishedAt": "2006-03-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Not an article. This path serves the interactive Timmy, Johnny and Spike test that accompanied the column - two questions and a scored result - and it now opens with a notice that the test has stopped working, possibly because it was built on the website technology as it stood in 2006. There is no prose to summarize. The column itself is already in the archive as timmy-johnny-and-spike-revisited-2006-03-20."
     },
     {
       "id": "timmy-johnny-and-spike-revisited-2006-03-20-2",
@@ -11610,7 +11740,8 @@
       "publishedAt": "2006-03-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL. A third path for the same 20 March 2006 column, after the -0 already skipped here. The body matches the copy already summarized as timmy-johnny-and-spike-revisited-2006-03-20, opening on the same line about the column having two distinctively different readers."
     },
     {
       "id": "life-lessons-part-ii-2006-03-06-0",
@@ -11621,7 +11752,7 @@
       "publishedAt": "2006-03-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "creative-differences-2006-02-27",
@@ -11632,7 +11763,7 @@
       "publishedAt": "2006-02-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "creative-differences-2006-02-27-0",
@@ -11643,7 +11774,8 @@
       "publishedAt": "2006-02-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL. Wizards published the same Izzet Week column at two paths and this one carries the trailing -0. Verified by diffing the bodies: the same article, with this extraction dropping the opening two paragraphs the unsuffixed path keeps, which is why that path is the one summarized here. Same shape as the playing-their-own-rules and slow-and-steady pairs."
     },
     {
       "id": "life-lessons-part-i-2006-02-20-0",
@@ -11654,7 +11786,7 @@
       "publishedAt": "2006-02-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "interview-some-vampires-2006-02-13",
@@ -11665,7 +11797,7 @@
       "publishedAt": "2006-02-13",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "back-issues-2006-02-06",
@@ -11676,7 +11808,7 @@
       "publishedAt": "2006-02-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "coldsnap-qa-2006-02-06",
@@ -11687,7 +11819,8 @@
       "publishedAt": "2006-02-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Product announcement, published 6 February 2006: the reveal of Coldsnap as the lost third set of Ice Age block, wrapped in a comic conceit about the Holy File Cabinet of Garfield, amnesia ink and a mutant war. Read in full before deciding. Beneath the joke the substance is product logistics in Q&A form - will there be foils, is it Standard legal, will there be theme decks and a Fat Pack, are the Ice Age and Alliances reprints in those decks tournament legal, and is this the Snap of the Snap-Crackle-Pop codenames. The design story of Coldsnap is already covered by four articles in the archive: theres-no-business-snow-business-2006-06-26 on its conception, ice-and-men-2006-07-03 on making a third instalment feel like the originals, feeling-draft-2006-07-10 on drafting it, and snow-mana-mystery-2006-07-17-0. The fallout from this article's cover story - readers who took the joke for a lie - is covered in back-issues-2006-02-06, summarized here."
     },
     {
       "id": "aaaargh-2006-01-30-0",
@@ -11698,7 +11831,7 @@
       "publishedAt": "2006-01-30",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "now-i-know-my-abcs-2006-01-23",
@@ -11709,7 +11842,7 @@
       "publishedAt": "2006-01-23",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "just-ten-us-2006-01-16",
@@ -11720,7 +11853,7 @@
       "publishedAt": "2006-01-16",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "if-you-guild-it-they-will-come-2006-01-09",
@@ -11731,7 +11864,7 @@
       "publishedAt": "2006-01-09",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "topical-blend-1-err-human-2006-01-02",
@@ -11742,7 +11875,8 @@
       "publishedAt": "2006-01-02",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Best Of pointer page, published 2 January 2006: Rosewater naming Topical Blend #1 his number one column of 2005 and linking it. Six paragraphs of framing, not the column. The article itself is summarized here from topical-blend-1-err-human-2005-03-07-1."
     },
     {
       "id": "good-bad-and-ugly-truth-2005-12-19",
@@ -11753,7 +11887,7 @@
       "publishedAt": "2005-12-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "topical-blend-2-2005-12-12",
@@ -11764,7 +11898,8 @@
       "publishedAt": "2005-12-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Companion path to the 8 December 2005 prank column, serving five paragraphs and no article body. See topical-blend-2-mark-rosewater-admits-hes-insane-2005-12-08 for the full reasoning; the effects of the prank are covered in direct-mail-2006-04-03 and back-issues-2006-02-06."
     },
     {
       "id": "topical-blend-2-mark-rosewater-admits-hes-insane-2005-12-08",
@@ -11775,7 +11910,8 @@
       "publishedAt": "2005-12-08",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Prank page, published 8 December 2005, and no longer readable. The column was built as a deliberate trick - Rosewater made the article redirect readers to the message boards instead of to itself, which produced letters week after week from people who could not find it. Both direct-mail-2006-04-03 and back-issues-2006-02-06, summarized here, discuss the confusion it caused and the fallout of readers taking the joke for something else. This path now serves a single paragraph; the companion path topical-blend-2-2005-12-12 serves five. There is no article body left to summarize from at either."
     },
     {
       "id": "disorderly-conduct-2005-12-05",
@@ -11786,7 +11922,7 @@
       "publishedAt": "2005-12-05",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "different-worlds-2005-11-28",
@@ -11797,7 +11933,7 @@
       "publishedAt": "2005-11-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "thirty-two-short-columns-about-dwarves-2005-11-21",
@@ -11808,7 +11944,7 @@
       "publishedAt": "2005-11-21",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "midas-touch-2005-11-14",
@@ -11819,7 +11955,7 @@
       "publishedAt": "2005-11-14",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "pretty-sneaky-sis-2005-11-07-0",
@@ -11830,7 +11966,7 @@
       "publishedAt": "2005-11-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "two-hundred-and-counting-2005-10-31",
@@ -11841,7 +11977,8 @@
       "publishedAt": "2005-10-31",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Index of the previous hundred columns, published 31 October 2005 at the 200-week mark - the second instalment of the recurring recap series. The body is a numbered list of weeks #101-#200, each with a one-line description and a star rating, plus a link. Same profile and same treatment as the three-hundred through one-thousand-two-hundred instalments already skipped here."
     },
     {
       "id": "life-and-death-2005-10-24-0",
@@ -11852,7 +11989,7 @@
       "publishedAt": "2005-10-24",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "jamuraa-merrier-2005-10-17",
@@ -11863,7 +12000,7 @@
       "publishedAt": "2005-10-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "twenty-questions-2005-10-10",
@@ -11874,7 +12011,7 @@
       "publishedAt": "2005-10-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "group-think-2005-10-03-0",
@@ -11885,7 +12022,7 @@
       "publishedAt": "2005-10-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "11-road-2005-09-26",
@@ -11896,7 +12033,7 @@
       "publishedAt": "2005-09-26",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "city-planning-part-iii-2005-09-19",
@@ -11907,7 +12044,7 @@
       "publishedAt": "2005-09-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "city-planning-part-ii-2005-09-12",
@@ -11918,7 +12055,7 @@
       "publishedAt": "2005-09-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "city-planning-part-i-2005-09-05",
@@ -11929,7 +12066,7 @@
       "publishedAt": "2005-09-05",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "state-design-2005-2005-08-29",
@@ -11940,7 +12077,7 @@
       "publishedAt": "2005-08-29",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "letter-2005-08-15",
@@ -11951,7 +12088,7 @@
       "publishedAt": "2005-08-15",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "body-snatchers-invasion-2005-08-08",
@@ -11962,7 +12099,7 @@
       "publishedAt": "2005-08-08",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "once-more-feeling-2005-08-01",
@@ -11973,7 +12110,7 @@
       "publishedAt": "2005-08-01",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "outwit-outplay-outlast-2005-07-25",
@@ -11984,7 +12121,7 @@
       "publishedAt": "2005-07-25",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "outwit-outplay-outlast-2005-07-25-0",
@@ -11995,7 +12132,8 @@
       "publishedAt": "2005-07-25",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Two-paragraph stub of the Survivor parody; the full 87-paragraph column is summarized at outwit-outplay-outlast-2005-07-25."
     },
     {
       "id": "outwit-outplay-outlast-2005-07-25-2",
@@ -12006,7 +12144,8 @@
       "publishedAt": "2005-07-25",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Two-paragraph stub of the Survivor parody; the full 87-paragraph column is summarized at outwit-outplay-outlast-2005-07-25."
     },
     {
       "id": "hanging-roy-g-biv-2005-07-11",
@@ -12017,7 +12156,7 @@
       "publishedAt": "2005-07-11",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "its-long-story-2005-06-27",
@@ -12028,7 +12167,7 @@
       "publishedAt": "2005-06-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "its-long-story-weve-got-beatdown-2005-06-27",
@@ -12039,7 +12178,8 @@
       "publishedAt": "2005-06-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Four-paragraph stub of the combined page for two separate 2005-06-27 columns; both are summarized at its-long-story-2005-06-27 and weve-got-beatdown-2005-06-27."
     },
     {
       "id": "weve-got-beatdown-2005-06-27",
@@ -12050,7 +12190,7 @@
       "publishedAt": "2005-06-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "decking-hall-2005-06-20",
@@ -12061,7 +12201,7 @@
       "publishedAt": "2005-06-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "one-one-nothing-2005-06-06",
@@ -12072,7 +12212,7 @@
       "publishedAt": "2005-06-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "one-one-nothing-2005-06-06-0",
@@ -12083,7 +12223,8 @@
       "publishedAt": "2005-06-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path for the same 2005-06-06 column, serving a shorter extraction of the identical body; summarized at one-one-nothing-2005-06-06."
     },
     {
       "id": "choosing-channel-2005-05-23",
@@ -12094,7 +12235,7 @@
       "publishedAt": "2005-05-23",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "sunll-come-out-maro-2005-05-16",
@@ -12105,7 +12246,7 @@
       "publishedAt": "2005-05-16",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "epic-struggles-2005-05-09-0",
@@ -12116,7 +12257,8 @@
       "publishedAt": "2005-05-09",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Every path for this column (base, -0, -1, -2) serves only the page furniture — one to three paragraphs, no article body. Nothing retrievable to summarize."
     },
     {
       "id": "today-and-tomorrow-2005-05-02",
@@ -12127,7 +12269,7 @@
       "publishedAt": "2005-05-02",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "any-other-name-2005-04-25",
@@ -12138,7 +12280,7 @@
       "publishedAt": "2005-04-25",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "discard-tricks-2005-04-11-0",
@@ -12149,7 +12291,7 @@
       "publishedAt": "2005-04-11",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "counter-intelligence-2005-03-28",
@@ -12160,7 +12302,7 @@
       "publishedAt": "2005-03-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "troubled-one-2005-03-21",
@@ -12171,7 +12313,8 @@
       "publishedAt": "2005-03-21",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path for the same 2005-03-21 column, one paragraph shorter; summarized at troubled-one-2005-03-21-0."
     },
     {
       "id": "troubled-one-2005-03-21-0",
@@ -12182,7 +12325,7 @@
       "publishedAt": "2005-03-21",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "topical-blend-1-err-human-2005-03-07-0",
@@ -12193,7 +12336,8 @@
       "publishedAt": "2005-03-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Stub path. Wizards serves this 7 March 2005 column at three URLs; this one returns only five paragraphs. The complete body - eighty-two paragraphs, all ten paired lessons - is at topical-blend-1-err-human-2005-03-07-1, which is the copy summarized here. Worth recording that the -1 suffix is the good copy in this case: at timmy-johnny-and-spike-revisited-2006-03-20-1 the same suffix served a broken interactive test instead. The suffix carries no meaning; only the body does."
     },
     {
       "id": "topical-blend-1-err-human-2005-03-07-1",
@@ -12204,7 +12348,7 @@
       "publishedAt": "2005-03-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "just-artifacts-maam-2005-02-28",
@@ -12215,7 +12359,7 @@
       "publishedAt": "2005-02-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "design-times-2005-02-21",
@@ -12226,7 +12370,7 @@
       "publishedAt": "2005-02-21",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "land-rising-fun-2005-02-14-0",
@@ -12237,7 +12381,7 @@
       "publishedAt": "2005-02-14",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "ninjas-pirates-myrs-oh-my-2005-01-31",
@@ -12248,7 +12392,7 @@
       "publishedAt": "2005-01-31",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "few-words-rd-2005-01-24",
@@ -12259,7 +12403,7 @@
       "publishedAt": "2005-01-24",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "flip-service-2005-01-17",
@@ -12270,7 +12414,7 @@
       "publishedAt": "2005-01-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "when-ninjas-attack-2005-01-10",
@@ -12281,7 +12425,7 @@
       "publishedAt": "2005-01-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "walk-softly-and-carry-big-acrostic-2004-12-13",
@@ -12292,7 +12436,8 @@
       "publishedAt": "2004-12-13",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Puzzle Week column that is an acrostic rather than an article: twenty-three cryptic clues and a numbered grid, with the answers and the hidden quotation posted only to the now-defunct message board. The design facts embedded in the clues are riddles without their solutions, so there is no retrievable argument to summarize."
     },
     {
       "id": "and-down-2004-12-06",
@@ -12303,7 +12448,7 @@
       "publishedAt": "2004-12-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "mining-past-2004-11-29",
@@ -12314,7 +12459,7 @@
       "publishedAt": "2004-11-29",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "having-un-2004-11-22",
@@ -12325,7 +12470,7 @@
       "publishedAt": "2004-11-22",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "un-and-games-2004-11-15",
@@ -12336,7 +12481,7 @@
       "publishedAt": "2004-11-15",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "un-starts-now-2004-11-08",
@@ -12347,7 +12492,7 @@
       "publishedAt": "2004-11-08",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "elegant-response-2004-11-01",
@@ -12358,7 +12503,7 @@
       "publishedAt": "2004-11-01",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "top-ten-morning-2004-10-25",
@@ -12369,7 +12514,7 @@
       "publishedAt": "2004-10-25",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "thats-the-spirit-2004-10-11",
@@ -12380,7 +12525,7 @@
       "publishedAt": "2004-10-11",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "change-better-2004-10-04",
@@ -12391,7 +12536,7 @@
       "publishedAt": "2004-10-04",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "combo-platter-2004-09-27",
@@ -12402,7 +12547,7 @@
       "publishedAt": "2004-09-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "flipping-out-2004-09-20",
@@ -12413,7 +12558,7 @@
       "publishedAt": "2004-09-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "splice-life-2004-09-13",
@@ -12424,7 +12569,7 @@
       "publishedAt": "2004-09-13",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "arcane-and-able-2004-09-06",
@@ -12435,7 +12580,7 @@
       "publishedAt": "2004-09-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "now-added-flavor-2004-08-30",
@@ -12446,7 +12591,7 @@
       "publishedAt": "2004-08-30",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "odds-and-ends-2004-08-23-0",
@@ -12457,7 +12602,8 @@
       "publishedAt": "2004-08-23",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Contest results page rather than a column: twenty-odd reader submissions to a card-name-chaining puzzle, each printed twice (once as the chain, once with the overlapping words expanded), with no surrounding prose and no design content to summarize."
     },
     {
       "id": "putting-un-fun-2004-08-16",
@@ -12468,7 +12614,7 @@
       "publishedAt": "2004-08-16",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "tour-part-2-2004-08-09",
@@ -12479,7 +12625,7 @@
       "publishedAt": "2004-08-09",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "ice-guys-finish-first-2004-08-02",
@@ -12490,7 +12636,7 @@
       "publishedAt": "2004-08-02",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "tour-part-1-2004-07-26",
@@ -12501,7 +12647,7 @@
       "publishedAt": "2004-07-26",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "seeing-red-2004-07-19-0",
@@ -12512,7 +12658,7 @@
       "publishedAt": "2004-07-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "design-102-2004-07-12",
@@ -12523,7 +12669,7 @@
       "publishedAt": "2004-07-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "where-have-all-demons-gone-2004-07-05",
@@ -12534,7 +12680,7 @@
       "publishedAt": "2004-07-05",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "adventures-letter-man-2004-06-28",
@@ -12545,7 +12691,7 @@
       "publishedAt": "2004-06-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "que-serra-serra-2004-06-21",
@@ -12556,7 +12702,7 @@
       "publishedAt": "2004-06-21",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "head-games-2004-06-14",
@@ -12567,7 +12713,7 @@
       "publishedAt": "2004-06-14",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "myr-myr-wall-2004-06-07",
@@ -12578,7 +12724,7 @@
       "publishedAt": "2004-06-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "gimme-break-2004-05-31",
@@ -12589,7 +12735,7 @@
       "publishedAt": "2004-05-31",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "cog-wild-2004-05-24",
@@ -12600,7 +12746,7 @@
       "publishedAt": "2004-05-24",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "scry-me-river-2004-05-17",
@@ -12611,7 +12757,7 @@
       "publishedAt": "2004-05-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "here-comes-sunburst-2004-05-10",
@@ -12622,7 +12768,7 @@
       "publishedAt": "2004-05-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "dawn-new-day-2004-05-03",
@@ -12633,7 +12779,7 @@
       "publishedAt": "2004-05-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "collecting-my-thoughts-2004-04-26",
@@ -12644,7 +12790,7 @@
       "publishedAt": "2004-04-26",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "slow-and-steady-2004-04-19",
@@ -12655,7 +12801,7 @@
       "publishedAt": "2004-04-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "write-away-2004-04-12",
@@ -12666,7 +12812,7 @@
       "publishedAt": "2004-04-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "unhinged-or-no-2004-04-05-0",
@@ -12677,7 +12823,7 @@
       "publishedAt": "2004-04-05",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "say-what-2004-03-29",
@@ -12688,7 +12834,7 @@
       "publishedAt": "2004-03-29",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "cycling-built-two-2004-03-22",
@@ -12699,7 +12845,7 @@
       "publishedAt": "2004-03-22",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "loose-ends-2004-03-15",
@@ -12710,7 +12856,7 @@
       "publishedAt": "2004-03-15",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "sliver-me-timbers-2004-03-08",
@@ -12721,7 +12867,7 @@
       "publishedAt": "2004-03-08",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "time-heals-all-wounds-2004-03-01",
@@ -12732,7 +12878,7 @@
       "publishedAt": "2004-03-01",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "starting-over-2004-02-23",
@@ -12743,7 +12889,8 @@
       "publishedAt": "2004-02-23",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Page serves only a three-paragraph stub, not the article body. Distinct from starting-over-2015-01-26, but nothing at this path to summarize from."
     },
     {
       "id": "free-association-2004-02-05",
@@ -12754,7 +12901,8 @@
       "publishedAt": "2004-02-05",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Wizards serves only the column's closing questionnaire — ten personal-history questions with Rosewater's own answers (Alpha, a month of misplaying Stasis, trading his father a Fungusaur for a Mox Emerald) — with the column proper absent and no sign-off. All four path variants return the same fragment."
     },
     {
       "id": "black-2004-02-02",
@@ -12765,7 +12913,7 @@
       "publishedAt": "2004-02-02",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "special-delivery-2004-01-26",
@@ -12776,7 +12924,7 @@
       "publishedAt": "2004-01-26",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "affinity-and-beyond-2004-01-19",
@@ -12787,7 +12935,7 @@
       "publishedAt": "2004-01-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "arcbound-happen-2004-01-12",
@@ -12798,7 +12946,7 @@
       "publishedAt": "2004-01-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "day-life-2003-12-29",
@@ -12809,7 +12957,8 @@
       "publishedAt": "2003-12-29",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Holiday best-of reprint of the February 10, 2003 choose-your-own-adventure column about a day in R&D. Only the framing note survives — the branching body ran on cookie-driven navigation the current site no longer serves, and Rosewater notes it is physically impossible to see everything in one pass. Worth recording for one line from an unnamed R&D member: \"It is more realistic than the audience will ever believe.\""
     },
     {
       "id": "rules-game-2003-12-22",
@@ -12820,7 +12969,8 @@
       "publishedAt": "2003-12-22",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Holiday best-of reprint of the April 7, 2003 column of the same name, which is summarized separately as rules-game-2003-04-07. Only the new framing differs: he picked it as the year's \"good for you\" choice and calls it the most important column of the year for anyone interested in Magic design."
     },
     {
       "id": "type-1-take-2-2003-12-15",
@@ -12831,7 +12981,8 @@
       "publishedAt": "2003-12-15",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Annotated reprint of Playing to Type 1 (2002-07-15), which is summarized separately. Rosewater interleaves the 2002 text with new 2003 commentary and distinguishes them only by colour — black for the old column, green for the new — and the current site strips that markup, so the served text gives no way to tell which sentences are the revisit."
     },
     {
       "id": "red-letter-day-2003-12-08",
@@ -12842,7 +12993,7 @@
       "publishedAt": "2003-12-08",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "baby-and-bathwater-2003-12-01",
@@ -12853,7 +13004,7 @@
       "publishedAt": "2003-12-01",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "one-hundred-and-counting-2003-11-24",
@@ -12864,7 +13015,7 @@
       "publishedAt": "2003-11-24",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "and-away-2003-11-17",
@@ -12875,7 +13026,7 @@
       "publishedAt": "2003-11-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "make-no-mistake-2003-11-10",
@@ -12886,7 +13037,7 @@
       "publishedAt": "2003-11-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "make-no-mistake-2003-11-10-0",
@@ -12897,7 +13048,8 @@
       "publishedAt": "2003-11-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate path. Verified by comparing the fetched opening paragraph: byte-identical to make-no-mistake-2003-11-10, which is summarized."
     },
     {
       "id": "baby-stories-2003-11-03",
@@ -12908,7 +13060,7 @@
       "publishedAt": "2003-11-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "afraid-so-2003-10-27",
@@ -12919,7 +13071,7 @@
       "publishedAt": "2003-10-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "dear-diary-2003-10-20",
@@ -12930,7 +13082,7 @@
       "publishedAt": "2003-10-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "one-all-2003-10-13",
@@ -12941,7 +13093,7 @@
       "publishedAt": "2003-10-13",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "come-together-2003-10-06-0",
@@ -12952,7 +13104,7 @@
       "publishedAt": "2003-10-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "domo-arigato-mr-roboto-2003-09-29",
@@ -12963,7 +13115,7 @@
       "publishedAt": "2003-09-29",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "mind-wonderful-thing-waste-2003-09-15",
@@ -12974,7 +13126,7 @@
       "publishedAt": "2003-09-15",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "making-legend-2003-08-25",
@@ -12985,7 +13137,7 @@
       "publishedAt": "2003-08-25",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "value-pie-2003-08-18-0",
@@ -12996,7 +13148,7 @@
       "publishedAt": "2003-08-18",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "true-blue-2003-08-11",
@@ -13007,7 +13159,7 @@
       "publishedAt": "2003-08-11",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "magic-moments-2003-07-28",
@@ -13018,7 +13170,7 @@
       "publishedAt": "2003-07-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "small-change-2003-07-21",
@@ -13029,7 +13181,7 @@
       "publishedAt": "2003-07-21",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "lets-start-very-beginning-2003-07-14",
@@ -13040,7 +13192,7 @@
       "publishedAt": "2003-07-14",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "good-core-2003-07-07",
@@ -13051,7 +13203,7 @@
       "publishedAt": "2003-07-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "you-make-card-too-2003-06-30",
@@ -13062,7 +13214,7 @@
       "publishedAt": "2003-06-30",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "instant-winners-2003-06-23",
@@ -13073,7 +13225,7 @@
       "publishedAt": "2003-06-23",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "rd-lightful-2003-06-16",
@@ -13084,7 +13236,7 @@
       "publishedAt": "2003-06-16",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "top-down-and-goal-2003-06-09",
@@ -13095,7 +13247,7 @@
       "publishedAt": "2003-06-09",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "format-matters-2003-06-02",
@@ -13106,7 +13258,7 @@
       "publishedAt": "2003-06-02",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "soldiers-fortune-2003-05-26",
@@ -13117,7 +13269,7 @@
       "publishedAt": "2003-05-26",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "keyword-wise-2003-05-19",
@@ -13128,7 +13280,7 @@
       "publishedAt": "2003-05-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "bigger-better-2003-05-12",
@@ -13139,7 +13291,7 @@
       "publishedAt": "2003-05-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "design-101-2003-04-21-0",
@@ -13150,7 +13302,7 @@
       "publishedAt": "2003-04-21",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "jamuraa-merrier-2003-04-14",
@@ -13161,7 +13313,8 @@
       "publishedAt": "2003-04-14",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Original Mirage Week path of the column summarized as jamuraa-merrier-2005-10-17, a reprint-week posting of the same Mirage godbook walkthrough. Content already covered."
     },
     {
       "id": "rules-game-2003-04-07",
@@ -13172,7 +13325,7 @@
       "publishedAt": "2003-04-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "land-my-land-2003-03-31",
@@ -13183,7 +13336,7 @@
       "publishedAt": "2003-03-31",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "inquiring-minds-want-know-part-2-2003-03-24",
@@ -13194,7 +13347,7 @@
       "publishedAt": "2003-03-24",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "danger-will-robinson-2003-03-17",
@@ -13205,7 +13358,7 @@
       "publishedAt": "2003-03-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "inquiring-minds-want-know-part-1-2003-03-10",
@@ -13216,7 +13369,7 @@
       "publishedAt": "2003-03-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "i-cc-dead-people-2003-03-03",
@@ -13227,7 +13380,7 @@
       "publishedAt": "2003-03-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "bursting-flavor-2003-02-24",
@@ -13238,7 +13391,7 @@
       "publishedAt": "2003-02-24",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "banned-run-2003-02-17",
@@ -13249,7 +13402,7 @@
       "publishedAt": "2003-02-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "day-life-2003-02-10",
@@ -13260,7 +13413,8 @@
       "publishedAt": "2003-02-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Interactive \"Choose Your Own Adventure\" column whose branching pages are gone. The served article is only the six-paragraph framing intro (\"your web browser has to have the ability to accept cookies\") and ends at \"Welcome to R&D.\" with no content and no sign-off. Nothing to summarize."
     },
     {
       "id": "great-white-way-2003-02-03",
@@ -13271,7 +13425,7 @@
       "publishedAt": "2003-02-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "frames-reference-2003-01-27",
@@ -13282,7 +13436,7 @@
       "publishedAt": "2003-01-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "lions-and-tigers-and-bears-2003-01-20",
@@ -13293,7 +13447,7 @@
       "publishedAt": "2003-01-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "phage-against-machine-2003-01-13",
@@ -13304,7 +13458,7 @@
       "publishedAt": "2003-01-13",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "trigger-happy-2003-01-06",
@@ -13315,7 +13469,7 @@
       "publishedAt": "2003-01-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "when-cards-go-bad-2002-12-23-0",
@@ -13326,7 +13480,8 @@
       "publishedAt": "2002-12-23",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Best Of Week reprint of \"When Cards Go Bad\" (2002-01-28), which Rosewater picked as his favourite column of the year. Only the short reprint framing is new; the body is identical. Summarized under the original id and URL instead."
     },
     {
       "id": "teapot-2002-12-16",
@@ -13337,7 +13492,7 @@
       "publishedAt": "2002-12-16",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "teapot-2002-12-16-0",
@@ -13348,7 +13503,8 @@
       "publishedAt": "2002-12-16",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate of teapot-2002-12-16 — the same Tempest Week card-by-card design column served at a second URL with one paragraph fewer. Summarized under the fuller variant."
     },
     {
       "id": "mail-bonding-2002-12-09",
@@ -13359,7 +13515,7 @@
       "publishedAt": "2002-12-09",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "theres-always-two-maro-2002-12-02",
@@ -13370,7 +13526,7 @@
       "publishedAt": "2002-12-02",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "beast-show-2002-11-18",
@@ -13381,7 +13537,7 @@
       "publishedAt": "2002-11-18",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "mistakes-ive-made-few-2002-11-11",
@@ -13392,7 +13548,7 @@
       "publishedAt": "2002-11-11",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "mistakes-ive-made-few-2002-11-11-0",
@@ -13403,7 +13559,8 @@
       "publishedAt": "2002-11-11",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate of mistakes-ive-made-few-2002-11-11 — the same column served at a second URL with identical content. Summarized under the primary variant."
     },
     {
       "id": "infinity-and-beyond-2002-11-04",
@@ -13414,7 +13571,7 @@
       "publishedAt": "2002-11-04",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "infinity-and-beyond-2002-11-04-0",
@@ -13425,7 +13582,8 @@
       "publishedAt": "2002-11-04",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate of infinity-and-beyond-2002-11-04 — the same Mana Engine Week column served at a second URL, three paragraphs shorter. Summarized under the fuller variant."
     },
     {
       "id": "take-job-and-love-it-2002-10-28",
@@ -13436,7 +13594,7 @@
       "publishedAt": "2002-10-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "take-job-and-love-it-2002-10-28-0",
@@ -13447,7 +13605,8 @@
       "publishedAt": "2002-10-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL variant of take-job-and-love-it-2002-10-28; the suffixed page serves 31 paragraphs against the unsuffixed page 35. Summarized under the fuller unsuffixed id."
     },
     {
       "id": "its-not-easy-being-green-2002-10-21-0",
@@ -13458,7 +13617,7 @@
       "publishedAt": "2002-10-21",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "creature-feature-2002-10-14",
@@ -13469,7 +13628,7 @@
       "publishedAt": "2002-10-14",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "mons-made-me-do-it-2002-10-07",
@@ -13480,7 +13639,7 @@
       "publishedAt": "2002-10-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "leak-was-2002-09-30",
@@ -13491,7 +13650,7 @@
       "publishedAt": "2002-09-30",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "tribals-your-court-2002-09-23",
@@ -13502,7 +13661,7 @@
       "publishedAt": "2002-09-23",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "cycling-cycling-2002-09-16",
@@ -13513,7 +13672,7 @@
       "publishedAt": "2002-09-16",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "wait-theres-morph-2002-09-09",
@@ -13524,7 +13683,7 @@
       "publishedAt": "2002-09-09",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "wait-theres-morph-2002-09-09-0",
@@ -13535,7 +13694,8 @@
       "publishedAt": "2002-09-09",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL variant of wait-theres-morph-2002-09-09; both serve the same 28-paragraph column. Summarized under the unsuffixed id."
     },
     {
       "id": "alpha-mail-2002-09-02",
@@ -13546,7 +13706,7 @@
       "publishedAt": "2002-09-02",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "when-they-were-young-2002-08-26",
@@ -13557,7 +13717,7 @@
       "publishedAt": "2002-08-26",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "free-play-2002-08-19",
@@ -13568,7 +13728,7 @@
       "publishedAt": "2002-08-19",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "codename-game-2002-08-12",
@@ -13579,7 +13739,7 @@
       "publishedAt": "2002-08-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "codename-game-2002-08-12-0",
@@ -13590,7 +13750,8 @@
       "publishedAt": "2002-08-12",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL variant of codename-game-2002-08-12; both serve the same 27-paragraph column. Summarized under the unsuffixed id."
     },
     {
       "id": "it-happened-one-nights-2002-08-05",
@@ -13601,7 +13762,7 @@
       "publishedAt": "2002-08-05",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "when-bad-things-happen-good-cards-2002-07-29",
@@ -13612,7 +13773,7 @@
       "publishedAt": "2002-07-29",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "squirrel-my-dreams-2002-07-22",
@@ -13623,7 +13784,7 @@
       "publishedAt": "2002-07-22",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "playing-type-1-2002-07-15",
@@ -13634,7 +13795,7 @@
       "publishedAt": "2002-07-15",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "zen-and-art-cycle-maintenance-2002-07-08",
@@ -13645,7 +13806,7 @@
       "publishedAt": "2002-07-08",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "no-two-see-same-game-2002-07-01",
@@ -13656,7 +13817,7 @@
       "publishedAt": "2002-07-01",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "game-life-2002-06-24",
@@ -13667,7 +13828,7 @@
       "publishedAt": "2002-06-24",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "ive-got-mail-2002-06-17",
@@ -13678,7 +13839,7 @@
       "publishedAt": "2002-06-17",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "common-courtesy-2002-06-10",
@@ -13689,7 +13850,7 @@
       "publishedAt": "2002-06-10",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "day-judgment-2002-06-03",
@@ -13700,7 +13861,7 @@
       "publishedAt": "2002-06-03",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "tokens-my-affection-2002-05-27",
@@ -13711,7 +13872,7 @@
       "publishedAt": "2002-05-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "tokens-my-affection-2002-05-27-0",
@@ -13722,7 +13883,8 @@
       "publishedAt": "2002-05-27",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Duplicate URL variant of tokens-my-affection-2002-05-27; the suffixed page serves 19 paragraphs against the unsuffixed page 25. Summarized under the fuller unsuffixed id."
     },
     {
       "id": "keeping-it-simple-2002-05-20",
@@ -13733,7 +13895,7 @@
       "publishedAt": "2002-05-20",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "through-riftstone-2002-05-13",
@@ -13744,7 +13906,7 @@
       "publishedAt": "2002-05-13",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "phantom-soap-opera-2002-05-06",
@@ -13755,7 +13917,7 @@
       "publishedAt": "2002-05-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "wishes-come-true-2002-04-29",
@@ -13766,7 +13928,7 @@
       "publishedAt": "2002-04-29",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "rd-rr-2002-04-22",
@@ -13777,7 +13939,7 @@
       "publishedAt": "2002-04-22",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "some-enchanted-card-type-2002-04-15",
@@ -13788,7 +13950,7 @@
       "publishedAt": "2002-04-15",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "trends-these-2002-04-08",
@@ -13799,7 +13961,7 @@
       "publishedAt": "2002-04-08",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "all-one-basket-2002-04-01",
@@ -13810,7 +13972,8 @@
       "publishedAt": "2002-04-01",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "April Fools hoax column. The body is a fabricated Judgment \"egg set\" announcement with three invented playtest cards, ending in \"APRIL FOOLS!!!\" and a pointer to the genuine column for that week. Nothing distillable that is actually true; the real 2002-04-01 column is tweak-review-2002-04-01, which is summarized."
     },
     {
       "id": "tweak-review-2002-04-01",
@@ -13821,7 +13984,7 @@
       "publishedAt": "2002-04-01",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "add-text-flavor-2002-03-25",
@@ -13832,7 +13995,7 @@
       "publishedAt": "2002-03-25",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "write-stuff-2002-03-18",
@@ -13843,7 +14006,7 @@
       "publishedAt": "2002-03-18",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "timmy-johnny-and-spike-2002-03-11",
@@ -13854,7 +14017,8 @@
       "publishedAt": "2002-03-11",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "skipped",
+      "skipReason": "Page serves only a three-paragraph stub. The column itself is summarized under the unsuffixed timmy-johnny-and-spike path."
     },
     {
       "id": "designing-under-influence-2002-03-04",
@@ -13865,7 +14029,7 @@
       "publishedAt": "2002-03-04",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "rare-well-done-2002-02-25-0",
@@ -13876,7 +14040,7 @@
       "publishedAt": "2002-02-25",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "enemy-mine-2002-02-18",
@@ -13887,7 +14051,7 @@
       "publishedAt": "2002-02-18",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "split-decisions-2002-02-11",
@@ -13898,7 +14062,7 @@
       "publishedAt": "2002-02-11",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "heres-looking-you-squid-2002-02-04",
@@ -13909,7 +14073,7 @@
       "publishedAt": "2002-02-04",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "when-cards-go-bad-2002-01-28",
@@ -13920,7 +14084,7 @@
       "publishedAt": "2002-01-28",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "finding-good-mechanic-2002-01-21",
@@ -13931,7 +14095,7 @@
       "publishedAt": "2002-01-21",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "make-it-black-2002-01-14",
@@ -13942,7 +14106,7 @@
       "publishedAt": "2002-01-14",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "nightmare-remember-2002-01-07",
@@ -13953,7 +14117,7 @@
       "publishedAt": "2002-01-07",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     },
     {
       "id": "nights-round-table-1993-12-06",
@@ -13964,7 +14128,7 @@
       "publishedAt": "1993-12-06",
       "dateSource": "slug",
       "tier": 3,
-      "status": "pending"
+      "status": "done"
     }
   ]
 }
